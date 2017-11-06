@@ -29,7 +29,6 @@
 ## [Atribuir funções e permissões no Teams](assign-roles-permissions.md)
 ## [Ativar os recursos do Teams na sua organização do Office 365](enable-features-office-365.md)
 ## [Gerenciamento do acesso de usuários ao Teams](user-access.md)
-## [Gerenciamento do acesso de convidados ao Teams](guest-access.md)
 ## [Aprimorar grupos existentes do Office 365 com o Teams](enhance-office-365-groups.md)
 ## [Configurar uma organização híbrida do Exchange para uso com o Teams](Exchange-hybrid-organization.md)
 ## [Adicionar o domínio SMTP ao Teams como um domínio aceito no Exchange Online](SMTP-accepted-domain.md)
@@ -38,19 +37,18 @@
 ## [Adicionar bots para bate-papos privados e canais no Teams](add-bots.md)
 ## [Configurações de administração para aplicativos no Teams](admin-settings.md)
 
-# Segurança e Conformidade
-## [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
-## [Visão geral de segurança e conformidade no Teams](security-compliance-overview.md)
-## [Pesquisar o registro de auditoria de eventos no Teams](audit-log-events.md)
-## [Conduzir uma investigação eDiscovery de conteúdo no Teams](eDiscovery-investigation.md)
-## [Usar a pesquisa de conteúdo no Teams](content-search.md)
-## [Colocar um usuário ou uma equipe do Teams em retenção legal](legal-hold.md)
 
-# Solução de problemas
-## [Recursos de suporte para o Microsoft Teams](support-resources.md)
-## [Verificar a integridade do serviço para o Teams](service-health.md)
-## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
-## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
+# [Acesso de convidados no Teams](guest-access.md)
+## [Como um convidado entra em uma equipe](guest-joins.md)
+## [Como é a experiência do convidado](guest-experience.md)
+## [Dependências do Office 365 para o Teams](Teams-dependencies.md)
+## [Configurar o acesso de convidados no Teams](set-up-guests.md)
+## [Gerenciamento do acesso de convidados ao Teams](manage-guests.md)
+## [Adicionar um convidado a uma equipe](add-guests.md)
+## [Visualizar usuários convidados em uma equipe](view-guests.md)
+## [Editar informações de usuários convidados](edit-guests-information.md)
+## [Usar o PowerShell para controlar o acesso de convidados a uma equipe](guest-access-PowerShell.md)
+
 
 # [Implantação do Cloud Voice](cloud-voice-deployment.md)
 ## [Audioconferência](audio-conferencing.md)
@@ -69,3 +67,18 @@
 ### [Vídeos - Audioconferência no Teams](audio-conferencing-videos.md)
 ## [Treinamento para o usuário final do Teams](enduser-training.md)
 
+
+# Segurança e Conformidade
+## [Visão geral de segurança e conformidade no Teams](security-compliance-overview.md)
+## [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
+## [Pesquisar o registro de auditoria de eventos no Teams](audit-log-events.md)
+## [Conduzir uma investigação eDiscovery de conteúdo no Teams](eDiscovery-investigation.md)
+## [Usar a pesquisa de conteúdo no Teams](content-search.md)
+## [Colocar um usuário ou uma equipe do Teams em retenção legal](legal-hold.md)
+
+
+# Solução de problemas
+## [Recursos de suporte para o Microsoft Teams](support-resources.md)
+## [Verificar a integridade do serviço para o Teams](service-health.md)
+## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
+## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)

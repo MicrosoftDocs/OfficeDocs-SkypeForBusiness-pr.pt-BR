@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Saiba como os grupos do Office 365 e as assinaturas de grupo trabalham com o Microsoft Teams.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: de8e4298345145c8caf9d03397cf026187b11c29
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: 45a3607778d87e1de075468101a9f7e1a081688e
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos do Office 365 e Microsoft Teams
 =====================================
@@ -28,7 +28,7 @@ Quando você cria um Microsoft Teams no back-end, você está criando um Grupo d
 
 |||
 |---------|---------|
-|  ![](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Nota    |A exclusão de um Grupo do Office 365 removerá o alias de caixa de correio de conversas persistentes do Outlook/OWA e os convidados da reunião do Teams, e marcará o site do SharePoint para exclusão. A remoção de uma Equipe e o seu efeito no Outlook leva cerca de 20 minutos. A exclusão de uma Equipe do cliente Teams a removerá imediatamente da visualização de todos os membros da equipe. Se você remover um membro de um Grupo do Office 365 que tenha a funcionalidade do Teams habilitada, poderá haver um atraso de aproximadamente uma hora até que o Teams seja removido da visualização do cliente Teams para as pessoas que foram efetivamente removidas.         |
+|  ![Ícone de nota.](media/Understand_Office_365_groups_and_Microsoft_Teams_image1.png) Nota    |A exclusão de um Grupo do Office 365 removerá o alias de caixa de correio de conversas persistentes do Outlook/OWA e os convidados da reunião do Teams, e marcará o site do SharePoint para exclusão. A remoção de uma Equipe e o seu efeito no Outlook leva cerca de 20 minutos. A exclusão de uma Equipe do cliente Teams a removerá imediatamente da visualização de todos os membros da equipe. Se você remover um membro de um Grupo do Office 365 que tenha a funcionalidade do Teams habilitada, poderá haver um atraso de aproximadamente uma hora até que o Teams seja removido da visualização do cliente Teams para as pessoas que foram efetivamente removidas.         |
 
 
 <a name="group-membership"></a>Associação a grupos

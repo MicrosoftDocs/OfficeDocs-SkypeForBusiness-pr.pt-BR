@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Orientações práticas para a implantação de Audioconferência no Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 5442f5bf11540f5429566bc683afaeb3a24ff4ac
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: c6791646b58111a9785430b6541c57972a15ab20
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferência no Microsoft Teams
 =====================================
@@ -638,8 +638,7 @@ _Tabela 7 Exemplo de lista de habilitação do site do serviço de Audioconferê
 [A licença para a Audioconferência](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7?ui=en-US&rs=en-US&ad=US), anteriormente conhecida como licença de Conferência PSTN do Skype for Business, está disponível como parte dos planos de inscrição Office 365 E5 ou como um complemento aos parte dos planos de inscrição Office 365 E1 ou Office 365 E3.
 
 > [!NOTE]
-> A conferência PSTN ou por discagem no Teams não suporta Provedores de Audioconferência<sup></sup> de terceiros (ACPs).
-> <br>Se você já usa a Conferência PSTN do Skype for Business hoje, você pode aproveitar a Audioconferência no Teams imediatamente.
+> A conferência PSTN ou por discagem no Teams não suporta Provedores de Audioconferência<sup></sup> de terceiros (ACPs). <br>Se você já usa a Conferência PSTN do Skype for Business hoje, você pode aproveitar a Audioconferência no Teams imediatamente.
 
 Para fornecer números de telefone gratuitos de ponte de conferência e para suportar discagem de conferência para números de telefone internacionais, você precisa configurar [Créditos de Comunicação](https://support.office.com/article/What-is-PSTN-Consumption-billing-524dbea7-117f-493d-8005-6461f7f10059) para a sua organização.
 
@@ -1098,7 +1097,7 @@ Dentro do recurso Sistema de Telefonia do Office 365, existem dois tipos de plan
 
 O plano de discagem efetivo atribuído aos usuários é a combinação do plano de discagem para serviço (com base no local de uso do Office 365 do usuário) e do plano de discagem para locatários (que pode ser o plano de discagem para locatário global ou o plano de discagem para locatário usuário).
 
-![](media/audio_conferencing_image8.png)
+![A tabela mostra três combinações de planos de discagem para locatários e serviços.](media/audio_conferencing_image8.png)
 
 Há um máximo de 25 regras de normalização em cada plano de discagem para locatários e, portanto, a duplicação das regras de normalização já disponíveis como parte do plano de discagem para serviço precisa ser evitada.
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como adicionar bots no Microsoft Teams para bate-papos privados e canais, criar bots personalizados e carregue seu próprio bot para bate-papo privado."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 905a105fba269aebb2b01cbccc1a47e7667ca341
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: b1473a621f9f40ef3220546988db0635721acb7c
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Adicionar bots para bate-papos privados e canais no Microsoft Teams
 ==========================================================
@@ -32,21 +32,21 @@ Existem duas formas de integrar um bot em bate-papos privados e canais:
 
 2.  Como alternativa, para encontrar bots, navegue até **Bate-papo**, pesquise por um **contato** e clique em **Descobrir aplicativos.**
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
+![Captura de tela da janela de Pesquisa com aplicativos de Descoberta mostrados como resultado da pesquisa.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image1.png)
 
 3.  Selecione com qual **Bot** você deseja ter uma conversa, conforme mostrado abaixo.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
+![Captura de tela da janela dos aplicativos de Descoberta com a guia Bots selecionada.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image2.png)
 
 4.  Depois de escolher, dê **permissões** ao bot e selecione se deseja usar **bots em um bate-papo privado** ou selecione uma **Equipe** para usá-lo.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
+![Captura de tela da página do aplicativo AzureBot.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image3.png)
 
 5.  Como alternativa, para usar um bot dentro do canal de uma equipe, basta clicar em **Visualizar equipe e bots**. Aqui, você pode descobrir mais bots.
 
 6.  Um bot pode ser removido da equipe a qualquer momento. Basta clicar em **Visualizar equipe e bots** para ver todos os bots, e então **remover** o que desejar.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
+![Captura de tela da guia Bots com a descrição do AzureBot exibida.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image4.png)
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Criar bots personalizados para o Microsoft Teams
 --------------------------------------
@@ -62,10 +62,10 @@ Os bots podem ser testados usando o [Bot Framework Emulator](https://go.microsof
 
 1.  Depois de criar seu bot, navegue até a página do **Painel do Bot** [](https://go.microsoft.com/fwlink/?linkid=854374) para o bot que você desenvolveu e, em **Detalhes**, copie o **ID do aplicativo da Microsoft**.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
+![Captura de tela da página de detalhes de um bot com o ID do aplicativo da Microsoft destacado.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
 2.  No Microsoft Teams, no painel de **Bate-papo**, selecione o **ícone Adicionar bate-papo**. Em **Para:,** copie o **ID do aplicativo da Microsoft** do seu bot.
 
-![](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
+![Captura de tela de um painel de bate-papo com o ícone de Adicionar bate-papo e a linha Para com o ID do aplicativo da Microsoft destacado.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image6.png)
 
 3.  O ID do aplicativo determina o **nome do bot,** e então você poderá iniciar uma conversa de bate-papo com esse bot.

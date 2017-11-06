@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Uma visão geral dos recursos de segurança e conformidade do Microsoft Teams, incluindo auditoria e relatórios, pesquisa de conteúdo de conformidade, eDiscovery e muito mais."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 3321dee954b9861054886677b2835c689035888c
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -68,7 +68,7 @@ Essas ferramentas residem no Portal de Segurança e Conformidade do Office 365 e
 
 A figura abaixo indica o fluxo de trabalho dos dados do Teams para o Exchange e o SharePoint.
 
-![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+![Diagrama do fluxo de trabalho dos dados do Teams para o Exchange e o SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 
 > [!IMPORTANT]
@@ -87,8 +87,8 @@ Além disso, a Microsoft está considerando oferecer os seguintes recursos de se
 
 | | | |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |Quais são os recursos de segurança e conformidade exigidos pela sua organização? A sua organização tem as licenças necessárias para atender aos requisitos empresariais de segurança e conformidade?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Próximos passos         |Documente os recursos necessários de segurança e conformidade na tabela abaixo.         |
+|![Ícone de ponto de decisão.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |Quais são os recursos de segurança e conformidade exigidos pela sua organização? A sua organização tem as licenças necessárias para atender aos requisitos empresariais de segurança e conformidade?         |
+|![Ícone de próximos passos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Próximos passos         |Documente os recursos necessários de segurança e conformidade na tabela abaixo.         |
 
 <a name="licensing"></a>Licenças
 ---------------
@@ -109,8 +109,8 @@ Quando falamos em recursos de proteção de informações, as assinaturas do Off
 
 | |  |  |
 |---------|---------|---------|
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |A sua organização tem as licenças necessárias para atender aos requisitos empresariais de conformidade e segurança?         |
-|![](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Próximos passos         |Revise a licença atual da sua organização e confirme se atende a todos os requisitos empresariais de conformidade e segurança.         |
+|![Ícone de ponto de decisão.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |A sua organização tem as licenças necessárias para atender aos requisitos empresariais de conformidade e segurança?         |
+|![Ícone de próximos passos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Próximos passos         |Revise a licença atual da sua organização e confirme se atende a todos os requisitos empresariais de conformidade e segurança.         |
 
 Antes de habilitar qualquer um desses recursos, certifique-se de ter acesso ao Centro de Segurança e Conformidade do centro de administração do Office 365. Por padrão, os administradores de locatários têm acesso.
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Um guia para iniciar um piloto do Microsoft Teams para explorar tudo o que o Teams pode oferecer à sua organização enquanto você continua com o Skype for Business."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4340e3fa6b6ebdaf20105cfa568d17d9d3802b4e
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Piloto do Microsoft Teams paralelamente ao Skype for Business
 ============================================
@@ -32,9 +32,9 @@ Feito sob medida para os clientes atuais do Skype for Business, este recurso ofe
 
 Projetado para confirmar a prontidão da organização, o piloto é uma validação realista dos recursos e procedimentos necessários em uma escala maior antes da distribuição na organização toda.  Para obter resultados mais realistas, o programa piloto deve simular a forma como os usuários se comunicam e colaboram hoje em dia, verificando o cenário ideal de implantação com o Skype for Business e o Microsoft Teams. Se a sua organização está considerando executar o Skype for Business e o Teams paralelamente ou migrar para o Teams em um momento futuro, o piloto pode ajudar a traçar o caminho certo para a sua organização. *Vamos começar!*
 
-![](media/pilot_essentials_image3.png)
+![Diagrama dos passos do processo de um projeto piloto.](media/pilot_essentials_image3.png)
 
-## <a name="step-one-define-your-pilot-program-logistics"></a>Etapa um: Defina a logística do seu programa piloto
+## <a name="step-one-define-your-pilot-program-logistics"></a>Passo um: defina a logística do seu programa piloto
 
 Um piloto formal deve definir a sua trajetória de direção e incluir uma equipe de projetos, [metas SMART](https://wikipedia.org/wiki/SMART_criteria) um cronograma estabelecido, um plano de testes articulado e mecanismos de feedback. Reserve tempo para abordar essas questões para ajudá-lo a delinear a logística do seu programa piloto:
 

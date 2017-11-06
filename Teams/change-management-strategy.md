@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams através da identificação das principais partes envolvidas, resultados comerciais, medições de sucesso e gerenciamento da sua campanha."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 97f835f60777b5c6c907790fabc76dfaeeb1e268
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: faa2bf8247c4b4a3fc8827011423f8205e5c6b35
+ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/27/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================
@@ -48,16 +48,16 @@ A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica comp
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Os **Patrocinadores executivos** são líderes importantes dentro da organização e a participação deles é essencial para direcionar a adoção pelos funcionários. Eles têm a maior influência na cultura da empresa e conseguem comunicar ativamente o valor e os benefícios de uma nova tecnologia e de um novo caminho.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Os **proprietários de serviços** são responsáveis por garantir que as pessoas usem o serviço e obtenham valor dele. A definição de proprietários de serviços dentro da organização é importante para garantir que as metas comerciais estabelecidas para o Office 365 sejam cumpridas.         |
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obter a aceitação de todos os usuários de uma organização é um desafio. Os **defensores** podem ajudar a aliviar esse desafio e desempenham um papel importante na adoção do Office 365. Eles são experientes, comprometidos em promover seus conhecimentos e estão dispostos a oferecer coaching e assistência aos pares. Eles ajudam a traduzir o Office 365 para a realidade do seu departamento ou da sua equipe.         |
+|![Ícone de patrocinadores executivos.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |Os **Patrocinadores executivos** são líderes importantes dentro da organização e a participação deles é essencial para direcionar a adoção pelos funcionários. Eles têm a maior influência na cultura da empresa e conseguem comunicar ativamente o valor e os benefícios de uma nova tecnologia e de um novo caminho.         |
+|![Ícone de proprietários de serviço.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |Os **proprietários de serviços** são responsáveis por garantir que as pessoas usem o serviço e obtenham valor dele. A definição de proprietários de serviços dentro da organização é importante para garantir que as metas comerciais estabelecidas para o Office 365 sejam cumpridas.         |
+|![Ícone de defensores.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Obter a aceitação de todos os usuários de uma organização é um desafio. Os **defensores** podem ajudar a aliviar esse desafio e desempenham um papel importante na adoção do Office 365. Eles são experientes, comprometidos em promover seus conhecimentos e estão dispostos a oferecer coaching e assistência aos pares. Eles ajudam a traduzir o Office 365 para a realidade do seu departamento ou da sua equipe.         |
 
 Recomendamos a realização de uma reunião regular dessas partes envolvidas para mantê-las atualizadas sobre o progresso do seu programa. A criação de um “conselho de colaboração” para permitir feedback e discussão pode ser uma ferramenta útil, dependendo da sua cultura corporativa.
 
 
 |  |  |
 |---------|---------|
-|![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Dica    |As pessoas que podem ser os maiores obstáculos de mudança podem se tornar seus melhores aliados em uma implantação desse tipo. Recomendamos que você se envolva com esses membros da organização o quanto antes e com bastante frequência para ouvir suas preocupações e problemas. Muitas vezes, eles têm feedbacks valiosos que aumentarão o sucesso da sua campanha.         |
+|![Ícone de dica.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Dica    |As pessoas que podem ser os maiores obstáculos de mudança podem se tornar seus melhores aliados em uma implantação desse tipo. Recomendamos que você se envolva com esses membros da organização o quanto antes e com bastante frequência para ouvir suas preocupações e problemas. Muitas vezes, eles têm feedbacks valiosos que aumentarão o sucesso da sua campanha.         |
 
 <a name="user-profiles"></a>Perfis de usuários
 -------------
@@ -71,7 +71,7 @@ Compreender o cotidiano na vida dos seus usuários ajudará você a priorizar se
 
 Identificar os indivíduos que podem se tornar seus defensores de colaboração lhe proporciona uma equipe de suporte avançada para a sua implementação. Crie uma comunidade, lhes fornecendo insights antecipados e feedback dos seus planos. Todos os investimentos que você fizer nessa comunidade, seja tempo, atenção ou recompensas serão devolvidos à sua implementação por meio de seu apoio e zelo.
 
-![](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
+![Gráfico das ações que os defensores podem tomar.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image5.png)
 
 Para saber como construir um programa de defensores, obtenha o [Programa de construção de defensores](https://go.microsoft.com/fwlink/?linkid=854665).
 

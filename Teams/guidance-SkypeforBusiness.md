@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Um guia para usar o Skype for Business e o Microsoft Teams lado a lado.
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 760fa47db7965e0c2a74b01ae25f1d23d37d3180
-ms.sourcegitcommit: 2592b268977460d0d483a75d741b1ce9fa8da908
+ms.openlocfilehash: b1a635fe4abb607064a0e26240ed58715fa43a8d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Habilitar o Microsoft Teams paralelamente ao Skype for Business 
 =============================================================
@@ -33,7 +33,7 @@ De forma geral, existem duas grandes jornadas do cliente lado a lado. São elas:
 
     A TI controla a experiência do lado a lado, levando os usuários por uma jornada de introdução gradual do Teams para primeiro, introduzir um novo espaço de trabalho de colaboração baseado em bate-papo com bate-papo privado, depois experiências de reunião e, por fim, as experiências de chamada do Teams.
 
-![](media/guidance_SkypeforBusiness_image1.png)
+![Diagrama de duas jornadas do cliente lado a lado: Gerenciada e não gerenciada.](media/guidance_SkypeforBusiness_image1.png)
 
 <a name="side-by-side-benefits-and-considerations"></a>Benefícios e considerações do lado-a-lado
 ----------------------------------------
@@ -103,7 +103,7 @@ Cada uma das jornadas tem benefícios e considerações a serem avaliados para d
 ---------------------------------------
 
 
-![](media/guidance_SkypeforBusiness_image4.png)
+![Diagrama da jornada do cliente lado a lado não gerenciada.](media/guidance_SkypeforBusiness_image4.png)
 
 Em uma jornada do cliente lado a lado não gerenciada, o Teams é introduzido como uma solução de colaboração (espaço de trabalho baseado em bate-papo, canais, aplicativos, integração com outras cargas de trabalho do Office 365, etc.) que envolve software cliente e cliente web em computadores desktop (PC ou Mac) e em dispositivos móveis.
 
@@ -123,7 +123,7 @@ Esta jornada do cliente lado a lado pode ser aplicável à sua organização se 
 <a name="managed-side-by-side-customer-journey"></a>Jornada do cliente lado a lado gerenciada
 -------------------------------------
 
-![](media/guidance_SkypeforBusiness_image2.png)
+![Diagrama da jornada do cliente lado a lado gerenciada.](media/guidance_SkypeforBusiness_image2.png)
 
 Uma jornada do cliente lado a lado gerenciada começa quando a organização deseja ter mais controle de como o Teams será introduzido.
 

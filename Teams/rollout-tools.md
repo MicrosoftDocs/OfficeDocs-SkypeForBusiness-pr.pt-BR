@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conheça as ferramentas que ajudarão a distribuição do Microsoft Teams, como modelos de e-mail, Guias de Introdução, recursos do Kit de Sucesso do Cliente e muito mais."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d1b55c00109f60005fe7813bcfb82c4e56ed5aef
-ms.sourcegitcommit: 2e557e90b4e30fe99ff9df3897b8e54f38ea2f2e
+ms.openlocfilehash: db70e78e57895497183d20e99282ccc1e7654e1d
+ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/28/2017
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obter ferramentas para dar suporte na implantação do Microsoft Teams
 =================================================
@@ -27,6 +27,6 @@ O Microsoft Teams foi projetado para promover a colaboração, sendo também um 
 
 ||||
 |---------|---------|---------|
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Ponto de decisão        | <ul><li>Qual é a sua estratégia de gerenciamento de mudanças?</li><li>Como a sua organização lidou com o gerenciamento de mudanças na distribuição de outras tecnologias?</li><li>Quem são os patrocinadores executivos, defensores, proprietários de serviços/administradores de TI que influenciarão o sucesso que o Teams terá na sua organização?</li><li>Qual será o seu grupo piloto?</li></ul>  |
-|![](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Próximos passos | <ul><li>Estabeleça uma estratégia de gerenciamento de mudanças e de adoção do Microsoft Teams usando as boas práticas.</li><li>Introduza aos defensores e líderes da equipe a sua estratégia, o Kit de sucesso do cliente e os Guias de Introdução para começar a construir a equipe interna de defensores do Microsoft Teams.</li></ul> |
+|![Ícone de ponto de decisão.](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image1.png)     | Ponto de decisão        | <ul><li>Qual é a sua estratégia de gerenciamento de mudanças?</li><li>Como a sua organização lidou com o gerenciamento de mudanças na distribuição de outras tecnologias?</li><li>Quem são os patrocinadores executivos, defensores, proprietários de serviços/administradores de TI que influenciarão o sucesso que o Teams terá na sua organização?</li><li>Qual será o seu grupo piloto?</li></ul>  |
+|![Ícone de próximos passos.](media/Get_tools_to_support_a_rollout_of_Microsoft_Teams_image2.png)     |Próximos passos | <ul><li>Estabeleça uma estratégia de gerenciamento de mudanças e de adoção do Microsoft Teams usando as boas práticas.</li><li>Introduza aos defensores e líderes da equipe a sua estratégia, o Kit de sucesso do cliente e os Guias de Introdução para começar a construir a equipe interna de defensores do Microsoft Teams.</li></ul> |
 
