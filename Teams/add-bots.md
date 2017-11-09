@@ -60,7 +60,7 @@ Os bots podem ser testados usando o [Bot Framework Emulator](https://go.microsof
 <a name="side-load-your-own-bot-for-private-chat"></a>Carregue o seu próprio bot para bate-papos privados
 ---------------------------------------
 
-1.  Depois de criar seu bot, navegue até a página do **Painel do Bot** [](https://go.microsoft.com/fwlink/?linkid=854374) para o bot que você desenvolveu e, em **Detalhes**, copie o **ID do aplicativo da Microsoft**.
+1.  Depois de criar seu bot, navegue até a [página](https://go.microsoft.com/fwlink/?linkid=854374) do **Painel do Bot** para o bot que você desenvolveu e, em **Detalhes**, copie o **ID do aplicativo da Microsoft**.
 
 ![Captura de tela da página de detalhes de um bot com o ID do aplicativo da Microsoft destacado.](media/Add_bots_for_private_chats_and_channels_in_Microsoft_Teams_image5.png)
 
