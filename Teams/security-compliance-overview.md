@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Uma visão geral dos recursos de segurança e conformidade do Microsoft Teams, incluindo auditoria e relatórios, pesquisa de conteúdo de conformidade, eDiscovery e muito mais."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: d42457165fae8e23181d7e7f4fe50ea30938dfd3
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 6cca28ee5cd96d24e4b0da0a29748e0cf383eb0c
+ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/02/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -119,7 +119,14 @@ A pesquisa de conteúdo e o eDiscovery não precisam de ativação no Centro de 
 <a name="location-of-data-in-microsoft-teams"></a>Localização de dados no Microsoft Teams
 -----------------------------------
 
-No Teams, os dados ficam na região baseada na afinidade do locatário. No momento, o Teams tem suporte na região das Américas, EMEA e APAC. No futuro, o Teams oferecerá suporte GoLocal, em que os dados permanecem no país (não apenas na região). Fique atento às atualizações no [*Mapa do Office 365*](https://go.microsoft.com/fwlink/?linkid=855778).
+No Teams, os dados ficam na região baseada na afinidade do locatário. No momento, o Teams tem suporte na região das Américas, EMEA e APAC. 
+
+A partir de 1 de novembro de 2017, o Microsoft Teams oferece residência de dados no Reino Unido somente para os novos locatários. Locatário novo é definido como aquele que não teve sequer um usuário entrando como locatário no Microsoft Teams.
+
+> [!NOTE]
+> Os locatários preexistentes do Reino Unido continuarão no EMEA até um plano de migração ser publicado (que foi antecipado para 2018).
+
+Para obter mais informações, veja a publicação no blog da comunidade de técnicos do Microsoft Teams[ ](https://go.microsoft.com/fwlink/p/?linkid=862275) sobre o lançamento da residência de dados para o Reino Unido.
 
 <a name="privacy-in-microsoft-teams"></a>Privacidade no Microsoft Teams
 --------------------------
