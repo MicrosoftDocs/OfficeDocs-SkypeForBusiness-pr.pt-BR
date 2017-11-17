@@ -1,10 +1,10 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: 7b7b599ae04fa6f03f97eac9bd2163e1a6b637ba
-ms.sourcegitcommit: a315fbbb6a5337c32c9312550ee05fd9185020db
+ms.openlocfilehash: 54891050d68ca655fb353b7a425e3ded19e5b91d
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 11/08/2017
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Bem-vindo ao conteúdo do Office em docs.microsoft.com
 ## <a name="h2-header"></a>Cabeçalho H2
@@ -13,8 +13,7 @@ ms.lasthandoff: 11/02/2017
 *itálico*
 **negrito**um texto[isso é um link](Office-365-groups.md)
 
-![alt text qualquer coisa](media/Overview-Microsoft-Teams-image1.png)
-
+![alt text qualquer coisa](media/Overview-Microsoft-Teams-image1.png) oi
 1. item 2
 2. item 3
 3. item 4

@@ -2,24 +2,24 @@
 title: Piloto do Microsoft Teams paralelamente ao Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Um guia para iniciar um piloto do Microsoft Teams para explorar tudo o que o Teams pode oferecer à sua organização enquanto você continua com o Skype for Business."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c78e687535a47e5a267e087b39253c793b4b3d8a
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Piloto do Microsoft Teams paralelamente ao Skype for Business
 ============================================
 
 Como um cliente existente do Skype for Business e do Office 365, sua organização já faz parte do movimento moderno no local de trabalho, capacitando seus usuários para serem mais criativos, inovadores e produtivos. O Microsoft Teams ainda expande o que é possível com funcionalidades adicionais, como hubs de colaboração para trabalho em equipe, integração de aplicativos e armazenamento de arquivos. Quando você traz a funcionalidade atual do Skype for Business junto com o valor agregado do Teams, você tem uma potente solução de comunicação e colaboração que pode revolucionar a forma de trabalho dos usuários.
 
-A sua jornada para o Teams, assim como as recomendações de progressão, estão baseadas nos resultados do seu piloto. Enquanto ainda usa o Skype for Business, recomendamos que você explore tudo o que o Teams pode oferecer à sua organização. Uma vez que existem algumas funcionalidades sobreposta entre o Teams e o Skype for Business, é importante começar com um piloto de usuários. O piloto é uma implantação em pequena escala que permite validar a interoperabilidade com o Skype for Business no seu ambiente, bem como compreender como seus usuários finais podem maximizar sua produtividade e minimizar a confusão com os dois produtos sendo executados paralelamente.
+A sua jornada para o Teams, assim como as recomendações de progressão, estão baseadas nos resultados do seu piloto. Enquanto ainda usa o Skype for Business, recomendamos que você explore tudo o que o Teams pode oferecer à sua organização. Uma vez que existem algumas funcionalidades sobreposta entre o Teams e o Skype for Business, é importante começar com um piloto de usuários. O piloto é uma implantação em pequena escala que permite validar a interoperabilidade com o Skype for Business no seu ambiente, bem como compreender como seus usuários finais podem maximizar a produtividade e minimizar a confusão com os dois produtos sendo executados paralelamente.
 
 Feito sob medida para os clientes atuais do Skype for Business, este recurso oferece orientações e boas práticas para que você comece a sua jornada de:
 
@@ -79,7 +79,7 @@ Um piloto formal deve definir a sua trajetória de direção e incluir uma equip
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Próxima ação:</strong><ul><li>Relacionar a equipe do seu programa piloto</li><li>Elaborar os cenários de negócios e os recursos que você testará como parte do seu piloto</li><li>Finalizar seus objetivos e critérios de sucesso</li><li>Estabelecer o cronograma do seu piloto</li></ul></td>
+<td align="left"><strong>Próximas ações:</strong><ul><li>Relacionar a equipe do seu programa piloto</li><li>Elaborar os cenários de negócios e os recursos que você testará como parte do seu piloto</li><li>Finalizar seus objetivos e critérios de sucesso</li><li>Estabelecer o cronograma do seu piloto</li></ul></td>
 </tr>
 </thead>
 <tbody>
@@ -142,7 +142,11 @@ Informar os participantes do piloto sobre o que está acontecendo, quando e por 
 
 Com toda a logística estabelecida, agora você está pronto para começar seu piloto. Conduzir o seu piloto inclui a comunicação com os usuários do seu piloto, o monitoramento da sua rede/utilização para garantir que a rede e a qualidade permaneçam íntegras, a coleta de feedback dos participantes e a análise dos chamados de suporte técnico de dúvidas relacionadas ao Teams.
 
-Segue abaixo uma sugestão de cronograma baseado em um piloto de 30 dias:
+> [!IMPORTANT]
+> O Microsoft Teams é ativado por padrão, mas antes de iniciar o seu piloto, certifique-se de que todos os usuários pilotos estão habilitados para o Microsoft Teams. Para isso, obtenha ajuda lendo [Habilitar recursos do Microsoft Teams em sua organização do Office 365](enable-features-office-365.md).
+> 
+
+Veja uma sugestão de linha do tempo para um piloto de 30 dias:
 
 -   Uma semana antes do lançamento do piloto: Enviar a comunicação inicial aos usuários do piloto
 

@@ -2,28 +2,29 @@
 title: "Ativar os recursos do Microsoft Teams na sua organização do Office 365 | Suporte da Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conheça todos os recursos do Microsoft Teams que você pode ativar na sua organização do Office 365, incluindo configuração de todos os locatários, integração de e-mails, aplicativos, armazenamento em nuvem, e muito mais."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a336d04bf8a296e608eb80796d16ba1f7dc3ed74
-ms.sourcegitcommit: 8cc7856bb7c305e0e96a4178535b1570cbfc3694
+ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
+ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2017
+ms.lasthandoff: 11/11/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Ativar os recursos do Microsoft Teams na sua organização do Office 365
 ======================================================
 
-O Microsoft Teams tem várias configurações que podem ser ativadas ou desativadas no nível do locatário. Com o Microsoft Teams ativado para o locatário, qualquer usuário que também esteja habilitado para o Microsoft Teams herdará as configurações do nível do locatário.
+O Microsoft Teams tem várias configurações que podem ser ativadas ou desativadas no nível do locatário. Com o Microsoft Teams habilitado para o locatário, qualquer usuário que também esteja habilitado para o Microsoft Teams herdará as configurações do nível do locatário.
 
-Segue abaixo a lista de recursos que o administrador do Office 365 pode escolher ativar ou desativar no Microsoft Teams.
+Segue abaixo a lista de recursos que o administrador do Office 365 pode escolher para habilitar ou desabilitar no Microsoft Teams.
 
 A menos que esteja especificado, o valor padrão das opções é Ativado.
 
-Nota: O administrador do Office 365 pode desativar o Microsoft Teams a qualquer momento a partir do centro de administração do Office 365. Esteja ciente de que os usuários com licenças ativas para o Microsoft Teams continuarão a ver a tela do aplicativo Teams mesmo que você o desative. Para obter detalhes sobre como remover a licença dos usuários, consulte Gerenciamento do acesso de usuários ao Microsoft Teams. Quando que o Teams é desativado, o acesso do cliente Microsoft Teams fica bloqueado, mas os dados disponíveis através de outros clientes e serviços ainda estão disponíveis, como arquivos via SharePoint e OneDrive. Todos os dados permanecem no lugar, a menos que as equipes sejam explicitamente excluídas.
+> [!NOTE]
+> O administrador do Office 365 pode desativar o Microsoft Teams a qualquer momento no Centro de administração do Office 365. Esteja ciente de que os usuários com licenças ativas para o Microsoft Teams continuarão vendo o bloco do aplicativo mesmo que você o desative. Para obter detalhes sobre como remover licenças de usuários, consulte [Gerenciamento do acesso de usuários ao Microsoft Teams](user-access.md). Quando o Microsoft Teams é desabilitado, o acesso do cliente ao Microsoft Teams é bloqueado, mas os dados disponíveis por meio de outros clientes e serviços permanecem disponíveis, como arquivos via SharePoint e OneDrive. Todos os dados permanecem no lugar, a menos que as equipes sejam explicitamente excluídas.
 
 <a name="tenant-wide-settings"></a>Configuração de todos os locatários 
 ---------------------

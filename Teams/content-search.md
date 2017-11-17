@@ -2,17 +2,17 @@
 title: "Usar a pesquisa de conteúdo no Microsoft Teams | Suporte da Microsoft"
 author: LolaJacobsen
 ms.author: lolaj
-manager: serdars
+manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Conheça a pesquisa de conteúdo do Microsoft Teams e saiba como pesquisar em bate-papos dos canais no Exchange, atualizações/modificações de arquivos no SharePoint e no OneNote."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 25c9baed8947bb45f80bd4d4076131ffa6899353
-ms.sourcegitcommit: f6c2673a2ccd951770296972234938e627bd49ad
+ms.openlocfilehash: ca75c0150cc6d4d61db2155b6164ed2200e74d10
+ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 11/08/2017
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar a pesquisa de conteúdo no Microsoft Teams
 =====================================
