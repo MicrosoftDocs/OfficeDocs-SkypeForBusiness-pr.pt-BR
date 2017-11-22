@@ -126,7 +126,7 @@ A partir de 1 de novembro de 2017, o Microsoft Teams oferece residência de dado
 > [!NOTE]
 > Os locatários preexistentes do Reino Unido continuarão no EMEA até um plano de migração ser publicado (que foi antecipado para 2018).
 
-Para obter mais informações, veja a publicação no blog da comunidade de técnicos do Microsoft Teams[ ](https://go.microsoft.com/fwlink/p/?linkid=862275) sobre o lançamento da residência de dados para o Reino Unido.
+Para obter mais informações, veja a [publicação no blog](https://go.microsoft.com/fwlink/p/?linkid=862275) da comunidade de técnicos do Microsoft Teams sobre o lançamento da residência de dados para o Reino Unido.
 
 <a name="privacy-in-microsoft-teams"></a>Privacidade no Microsoft Teams
 --------------------------
