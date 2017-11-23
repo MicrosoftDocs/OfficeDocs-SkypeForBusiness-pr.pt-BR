@@ -36,6 +36,7 @@
 ## [Usar o Office 365 e conectores personalizados no Teams](Office-365-custom-connectors.md)
 ## [Adicionar bots para bate-papos privados e canais no Teams](add-bots.md)
 ## [Configurações de administração para aplicativos no Teams](admin-settings.md)
+## [Referência do cdmlet do PowerShell para o Teams](https://docs.microsoft.com/powershell/module/teams)
 
 
 # [Acesso de convidados no Teams](guest-access.md)
@@ -54,6 +55,7 @@
 ## [Audioconferência](audio-conferencing.md)
 ### [Concepção](audio-conferencing.md#Envision_AudioConferencing)
 ### [Planejamento](audio-conferencing.md#Planning_AudioConferencing)
+### [Vídeos - Audioconferência no Teams](audio-conferencing-videos.md)
 
 # [Jornada de migração do Skype for Business para o Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Otimize o seu ambiente atual do Skype for Business para o Teams](prepare-teams.md)
@@ -64,7 +66,6 @@
 
 # Vídeos e treinamentos
 ## [Prontidão do administrador de TI para o Teams](ITAdmin-readiness.md)
-### [Vídeos - Audioconferência no Teams](audio-conferencing-videos.md)
 ## [Treinamento para o usuário final do Teams](enduser-training.md)
 
 
@@ -78,7 +79,10 @@
 
 
 # Solução de problemas
-## [Recursos de suporte para o Microsoft Teams](support-resources.md)
+## [Problemas conhecidos do Teams](Known-issues.md)
+## [Recursos de suporte para o Teams](support-resources.md)
 ## [Verificar a integridade do serviço para o Teams](service-health.md)
 ## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
+
+# [Documentação para desenvolvedores do Teams](https://docs.microsoft.com/microsoftteams/platform)
