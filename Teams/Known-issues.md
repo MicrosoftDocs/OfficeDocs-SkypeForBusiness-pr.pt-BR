@@ -3,25 +3,28 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 11/15/2017
 ms.topic: article
 ms.service: msteams
 description: "Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 0f90929f2af5d72df5851d25a2456b4613fd5613
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
- [Ajuda do Microsoft Teams](microsoft-teams-help.md) > [Desktop e web](microsoft-teams-help.md#BKMK_DesktopAndWeb) > Problemas conhecidos do Microsoft Teams atualizado: 14 de setembro de 2017 
   
 A tabela a seguir lista os problemas conhecidos do Microsoft Teams.
 ## 
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
+|Os cliente da UE e da APAC recebem um erro quando adicionam um usuário convidado de outro locatário    <br/> | Para os clientes da UE e da APAC, ocorre um atraso na replicação entre o Microsoft Teams e o Azure Active Directory. Quando usuários de um locatário da UE ou da APAC tentam adicionar um usuário convidado de outro locatário, eles recebem uma mensagem de erro solicitando nova tentativa.   <br/> |Clique mais uma vez no botão Tentar Novamente para adicionar o usuário convidado.  <br/> |08/11/2017  <br/> |
+|Ao tentar ingressar no Teams usando o Internet Explorer ou o Edge, o programa entra em loop e falha consistentemente e não entra.   <br/> | Sua organização usa Sites Confiáveis no Internet Explorer e o aplicativo baseado na Web do Teams não se conecta porque sites confiáveis não são permitidos para o Teams. <br/>|Faça as seguintes alterações nas configurações do IE usando direitos de administrador ou um Objeto de Política de Grupo:<br/><ol><li>Em Opções da Internet &gt; Privacidade &gt; Avançado, aceite Cookies Internos e Cookies de Terceiros e marque a caixa Sempre permitir cookies de sessão.</li><li>Clique em Opções da Internet &gt; Sites Confiáveis &gt; Sites e adicione todos os sites a seguir:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>OBSERVAÇÃO</b>: Sempre valide e permita todas as URLs confiáveis para o Teams e os requisitos do seguinte documento: [URLs e intervalos de endereços IP do Office 365](httpds://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> <br/>|01/11/2017  <br/> |
+|O carregamento de fotos para o Teams não está bloqueado no Outlook Web App/Outlook, embora isso seja um requisito da política   <br/> | O Teams permite que os usuários carreguem fotos diretamente para o Office 365, apesar de as configurações da política em vigor impedirem o carregamento de fotos para o Outlook Web App.   <br/> <br/> ||16/10/2017  <br/> |
+|A URL do Teams com parâmetros fica truncada após o redirecionamento do logon  <br/> | No Internet Explorer e no Edge, ao abrir o link do arquivo compartilhado do Teams em um aplicativo Web do Teams pela primeira vez após o logon, você será redirecionado para o documento errado. Se você já tiver entrado no aplicativo Web do Teams e clicar no link do arquivo compartilhado, então o link funcionará conforme o esperado.   <br/> <br/> ||11/10/2017  <br/> |
 |Suporte para o cliente web do Safari  <br/> |Os usuários que tentam abrir o cliente Microsoft Teams no Safari são direcionados para baixar o cliente desktop. A Microsoft está verificando com o suporte do Safari e compartilhará as atualizações através do mapa público do Office 365.  <br/> |Use os navegadores suportados, que incluem: Microsoft Edge 12+, Internet Explorer 11+, Firefox 47.0+ e Chrome 51.0+.  <br/> |02/11/2016  <br/> |
 |Os usuários não conseguem criar novamente o nome de um canal preexistente  <br/> |Depois que o nome de um canal é criado, mesmo que seja excluído, não pode ser criado novamente. Nosso sistema mantém esses dados para cenários de proteção de informações.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 |Não é possível inserir figurinhas usando o aplicativo móvel  <br/> |Você não pode usar figurinhas no aplicativo móvel.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |

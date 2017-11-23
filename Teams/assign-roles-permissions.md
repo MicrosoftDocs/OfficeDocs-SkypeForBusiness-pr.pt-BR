@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como atribuir funções e permissões de proprietários membros de equipe no Microsoft Teams, inclusive permissões para criar equipes."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 9cc8a72cdabacb76638acb689c6622642c524c8e
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Atribuir funções e permissões no Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ A tabela abaixo mostra as diferenças de permissão entre um proprietário e um 
 
 | | |
 |---------|---------|
-|![Ícone de lâmpada.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Nota     |Os Proprietários também podem fazer com que outros membros se tornem proprietários na opção Visualizar equipes. Uma equipe pode ter até 10 proprietários.         |
+|![Ícone de lâmpada.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Nota     |Os Proprietários também podem fazer com que outros membros se tornem proprietários na opção Visualizar equipes. Uma equipe pode ter até 100 proprietários. É recomendável ter pelo menos alguns proprietários para ajudar a gerenciar o Teams, isso também evita grupos órfãos, caso o único proprietário saia da organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
 
 <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 ---------------------------

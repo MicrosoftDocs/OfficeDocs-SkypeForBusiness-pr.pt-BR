@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Um guia para iniciar um piloto do Microsoft Teams para explorar tudo o que o Teams pode oferecer à sua organização enquanto você continua com o Skype for Business."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 563ade26ec8e9a86806751b19f36548560a264f1
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 4cfbf9fa1e5f06281564e5e9fa61e66aaa9090b3
+ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/16/2017
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Piloto do Microsoft Teams paralelamente ao Skype for Business
 ============================================
@@ -110,7 +110,7 @@ Para uma validação ideal, procure incluir aproximadamente entre 2 e 5% da sua 
 
 ## <a name="step-three-design-your-test-plan-and-feedback-survey"></a>Etapa três: Projetar seu plano de teste e pesquisa de feedback
 
-Uma experiência piloto bem-sucedida oferece aos seus participantes tarefas definidas com clareza, juntamente com um intercâmbio de feedback. Sua organização pode optar por pilotar todas as funcionalidades de uma só vez ou tirar proveito de uma abordagem gradual (ex.: colaboração, depois reuniões, e então bate-papo e chamadas). Uma pesquisa predefinida é uma forma fácil de capturar e avaliar os resultados do piloto e deve ser projetada com base nos cenários/recursos do plano de teste.
+Uma experiência piloto bem-sucedida oferece aos seus participantes tarefas definidas com clareza, juntamente com um intercâmbio de feedback. Agrupe as tarefas para apresentar cenários do mundo real aos usuários, demonstrando a importância de suas atividades diárias. Sua organização pode optar por fazer pilotos de todas as funcionalidades de uma só vez ou usar uma abordagem gradual (ex.: colaboração do primeiro piloto, depois reuniões e, então, chat e chamadas). Mantenha um canal aberto para comentários a fim de acompanhar o progresso e avaliar os resultados. Uma pesquisa predefinida é um modo fácil de obter e avaliar os resultados do piloto e deve ser elaborada com base nos cenários/recursos do plano de teste.
 
 <table>
 <thead>
