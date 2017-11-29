@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conheça as diferentes equipes, canais e aplicativos disponíveis para uma grande variedade de exigências, como finanças, planejamento de eventos, vendas e muito mais."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 2d8ce4adafe831f71fcbb04a191427339efa56f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f7c69f85862396dd31b69c034521fae01c4a400a
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -35,7 +35,7 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 
 Uma das principais atividades de planejamento precoce para envolver os usuários no Microsoft Teams é ajudar as pessoas a pensar e a entender como o Microsoft Teams pode melhorar a colaboração no seu dia a dia.
 
-Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, veja aqui). Os usuários de um grupo existente do Office 365 pode aperfeiçoá-lo com a funcionalidade do Microsoft Teams.
+Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams](assign-roles-permissions.md)). Os usuários de um grupo existente do Office 365 pode aperfeiçoá-lo com a funcionalidade do Microsoft Teams.
 
 <a name="sample-team-set-up"></a>Exemplo de configuração de uma equipe
 ------------------

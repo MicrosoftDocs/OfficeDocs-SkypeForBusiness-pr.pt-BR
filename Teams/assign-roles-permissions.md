@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como atribuir funções e permissões de proprietários membros de equipe no Microsoft Teams, inclusive permissões para criar equipes."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 21e9a1cb3f77d657824f5d532469b7b5efe62ede
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+ms.openlocfilehash: 0fb84f0b72d2d36f3a584e811fa8640159825429
+ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 11/21/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Atribuir funções e permissões no Microsoft Teams
 ===============================================
@@ -40,7 +40,7 @@ A tabela abaixo mostra as diferenças de permissão entre um proprietário e um 
 
 | | |
 |---------|---------|
-|![Ícone de lâmpada.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Nota     |Os Proprietários também podem fazer com que outros membros se tornem proprietários na opção Visualizar equipes. Uma equipe pode ter até 100 proprietários. É recomendável ter pelo menos alguns proprietários para ajudar a gerenciar o Teams, isso também evita grupos órfãos, caso o único proprietário saia da organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
+|![Ícone de lâmpada.](media/Assign_roles_and_permissions_in_Microsoft_Teams_image1.png) <br></br>Nota     |Os Proprietários também podem fazer com que outros membros se tornem proprietários na opção Visualizar equipes. Uma equipe pode ter até 100 proprietários. É recomendável ter pelo menos alguns proprietários para gerenciar o Teams, isso também evitará grupos órfãos, caso o único proprietário saia da organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/en-us/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).        |
 
 <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 ---------------------------

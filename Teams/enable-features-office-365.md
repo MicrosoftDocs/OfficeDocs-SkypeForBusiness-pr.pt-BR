@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conheça todos os recursos do Microsoft Teams que você pode ativar na sua organização do Office 365, incluindo configuração de todos os locatários, integração de e-mails, aplicativos, armazenamento em nuvem, e muito mais."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7c626acc5e9fe4d19d7198ea023df155ff427f40
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: e2235756e77c3e27c1eeee9fd22decb5e0e4e062
+ms.sourcegitcommit: db47b9f4955150859bc35ab9d078fa3ab66b5faa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 11/20/2017
 ---
 <a name="enable-microsoft-teams-features-in-your-office-365-organization"></a>Ativar os recursos do Microsoft Teams na sua organização do Office 365
 ======================================================
@@ -110,8 +110,6 @@ Por padrão, o número máximo de equipes que um locatário do Office 365 pode t
 Canais são subcategorias de equipes. Qualquer pessoa da equipe pode adicionar um canal e participar de conversas em um canal. Você pode criar um canal para uma atividade ou para um departamento. Conversas, arquivos e wikis são específicos para cada canal, mas todos os membros da equipe podem visualizá-los.
 
 ### <a name="calls-and-meetings"></a>Chamadas e reuniões
-
-Canais são subcategorias de equipes. Qualquer pessoa da equipe pode adicionar um canal e participar de conversas em um canal. Você pode criar um canal para uma atividade ou para um departamento. Conversas, arquivos e wikis são específicos para cada canal, mas todos os membros da equipe podem visualizá-los.
 
 A seção **Chamadas e reuniões** permite que você defina as seguintes configurações para a sua organização:
 
