@@ -3,16 +3,16 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 11/15/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.service: msteams
 description: "Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a065472b87ee61a7f910741beadb97ebfbb2ed5c
-ms.sourcegitcommit: 6f66f2a090d9d73d5de29f5273b0dea0a8d1453a
+ms.openlocfilehash: 8e459f8a77780bdc04b07a74f243635c07677a48
+ms.sourcegitcommit: bbce24b59b31552a92eb76a8e360e8c72b4fdd8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 11/28/2017
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -37,7 +37,6 @@ A tabela a seguir lista os problemas conhecidos do Microsoft Teams.
 |A lista de espaços de trabalho não está em ordem alfabética  <br/> |Os clientes que alternarem espaços de trabalho ao adicionar uma guia do PowerBI encontrarão uma lista de espaços de trabalho fora da ordem alfabética entre os quais alternar.  <br/> |Não há solução alternativa.  <br/> ||
 |A barra de rolagem desaparece ao selecionar relatórios  <br/> |Os usuários que adicionam relatórios do PowerBI não conseguem percorrer uma lista mais longa que uma tela de relatórios sem perder a barra de rolagem.  <br/> |Use as setas para cima e para baixo para percorrer a lista.  <br/> ||
 |Não é possível adicionar mais de cinco usuários por vez  <br/> |As equipes públicas, no momento, não têm suporte para adicionar mais de cinco usuários simultaneamente. O limite é de 2500 para a assinatura total.  <br/> |Uma versão futura abordará esse problema.  <br/> |13/03/2017  <br/> |
-|Não há acesso externo para o espaço de trabalho do Teams  <br/> |O acesso externo não está disponível no momento, mas o acesso de convidados está no mapa do Microsoft Teams para agosto de 2017.  <br/> |Não há solução alternativa.  <br/> |02/11/2016  <br/> |
 |Os usuários não conseguem criar uma equipe  <br/> |A sua empresa pode ter definido uma política que restringe quem pode criar grupos ou equipes no Office 365.  <br/> |Verifique com o seu administrador de TI para entender a política da sua empresa para a criação de grupos e equipes.  <br/> |13/03/2017  <br/> |
 |Máximo de 2500 membros de equipe  <br/> |Cada equipe do Microsoft Teams pode ter no máximo 2500 membros.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 |A exclusão de uma equipe também excluirá o grupo associado a ela  <br/> |Os usuários podem não perceber que o Grupo do Office 365 subjacente é excluído quando a equipe é excluída. Além disso, se o grupo do Office 365 subjacente for excluído, a equipe será excluída também.  <br/> |Idiomas adicionais no Microsoft Teams fornecem essa informação ao usuário. Essa informação não está presente na interface dos Grupos do Office 365.  <br/> |13/03/2017  <br/> |
@@ -56,13 +55,7 @@ A tabela a seguir lista os problemas conhecidos do Microsoft Teams.
 |As reuniões não estão disponíveis  <br/> |A funcionalidade e o ícone da reunião não estão disponíveis quando a caixa de correio do Exchange está hospedada (ou estabelecida) localmente.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
 |Limitações no complemento do Outlook  <br/> |Para usar o complemento do Outlook, você precisa fazer login no Teams usando a autenticação multifator (MFA). Se a MFA falhar no meio do processo de login, você ainda poderá fazer login no Teams, mas você receberá uma mensagem de erro quando tentar usar o complemento.  <br/> Até o momento, o complemento só está disponível para usuários do Windows.  <br/> O complemento não funcionará se você estiver usando uma autenticação de proxy.  <br/> | Não há solução alternativa. <br/> |02/08/2017  <br/> |
 |Artefatos verdes do processamento de vídeos no Chrome  <br/> |Aparecerão artefatos verdes ao visualizar vídeos ou compartilhar tela em uma reunião no Chrome.  <br/> |Desabilite a configuração de aceleração de hardware no Chrome.  <br/> |03/08/2017  <br/> |
-|As configurações de acesso de convidados nos grupos do Office 365 não estão sendo honradas no Teams  <br/> |O Teams permite que convidados sejam chamados para a equipe, mesmo que o acesso do convidado esteja desabilitado nos Grupos do Office 365. Os convidados recebem um convite, mas não conseguem ingressar na equipe.  <br/> |Não há solução alternativa.  <br/> |14/09/2017  <br/> |
-|Convidados sem licença só conseguem ingressar através de um link direto ou convite por e-mail  <br/> |Os convidados que não possuem licença no seu locatário inicial só podem ingressar como convidados através de um link direto ou convite por e-mail.  <br/> |Os convidados precisam marcar um link direto para um canal do locatário convidado.  <br/> |14/09/2017  <br/> |
-|Chamar convidados para uma reunião no Teams através do cliente Teams às vezes gera um relatório de não entrega  <br/> |Quando um usuário chama um convidado para uma reunião através do cliente Teams, o usuário às vezes recebe um relatório de não entrega.  <br/> | Windows: Use o complemento do Outlook para chamar os convidados para reuniões. <br/> Mac: Crie manualmente um convite de reunião no Outlook e adicione as coordenadas da reunião para a sua reunião do Teams.  <br/> |14/09/2017  <br/> |
-| Não é possível chamar um convidado com endereço de e-mail numérico <br/> | Não é possível chamar um convidado com endereço de e-mail que tenha apenas números antes do símbolo @ no Teams. <br/> |Chame o convidado usando seu endereço de e-mail secundário, se houver.  <br/> |14/09/2017  <br/> |
-| O eDiscovery não funciona com convidados <br/> |As mensagens dos convidados em um canal não estão disponíveis para o eDiscovery.  <br/> | Não há solução alternativa. <br/> O eDiscovery para bate-papos que incluem os convidados estará disponível em breve. Todas as mensagens, inclusive aquelas enviadas por um convidado, irão para a caixa de correio do usuário no Exchange Online.  <br/> O eDiscovery para bate-papos entre convidados não será habilitado em curto prazo.  <br/> |14/09/2017  <br/> |
 |O Wiki não é criado para canais criados por convidados  <br/> |Quando um convidado cria um novo canal, a guia **Wiki** não é criada. Não existe forma de anexar manualmente a guia **Wiki** ao canal. <br/> |Não há solução alternativa.  <br/> ||
-|Convidados que usam MFA podem ter problemas ao acessar a guia **Arquivos** <br/> |Convidados que usam autenticação multifator (MFA) podem ter problemas constantes ao acessar a guia **Arquivos**. <br/> |Se os problemas persistirem, desabilite o MFA para esses usuários.  <br/> ||
 |Os usuários podem não conseguir alternar entre contas em dispositivos móveis gerenciados pelo Intune  <br/> |Os usuários podem não conseguir alternar entre contas em dispositivos móveis gerenciados pelo Intune.  <br/> |Não há solução alternativa.  <br/> ||
    
 

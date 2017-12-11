@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Perguntas frequentes sobre a jornada de migração do Skype for Business Online para o Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ffb09f4ef21828a8f0613bfa9402aa69263237d6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 4303b59bb7044af57973fa1606338f5c4f6e2e5e
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes - Jornada de migração do Skype for Business para o Microsoft Teams
 ==========================================================
@@ -31,6 +31,8 @@ Como os usuários estão trabalhando em mais equipes, vemos a oportunidade de in
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Há um prazo rígido segundo o qual os clientes precisam passar do Skype for Business Online para o Teams? 
 
 Disponibilizaremos nosso mapa para o Microsoft Teams para que os clientes possam avaliar os recursos do Teams em relação às suas necessidades e planejar sua migração. Os clientes podem determinar o momento de migrar para o Teams, aquele que melhor atenda às suas necessidades.
+
+Uma ótima forma de ficar sempre por dentro das novidades sobre a jornada do Skype for Business para o Microsoft é o [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - um PDF para download (somente em inglês, pelo menos por enquanto) que apresenta as expectativas atuais da Microsoft em relação à migração das funcionalidades do Skype for Business para o Microsoft Teams.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Qual é o futuro do Skype for Business Server? 
 

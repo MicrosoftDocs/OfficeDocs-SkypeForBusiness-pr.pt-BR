@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Tudo o que você precisa saber sobre a jornada de migração do Skype for Business Online para o Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa3f44cf32f18383ed1258d768050d7494afe865
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 7616975c9395b6fa1219deb576b7ceff29d89bb7
+ms.sourcegitcommit: 5814969da48133214d2f9ea04d6790ebe102d691
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/01/2017
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Jornada de migração do Skype for Business para o Microsoft Teams
 ==================================================
@@ -20,6 +20,8 @@ ms.lasthandoff: 11/08/2017
 Como parte da [visão de comunicações inteligentes da Microsoft](https://aka.ms/intelligentcommunicationsblog) para entregar experiências de chamadas e reuniões mais inteligentes, estamos construindo recursos do Skype for Business no Teams. Isso acontecerá ao longo do tempo e, por fim, o Teams se tornará a experiência única do cliente. Como um cliente valioso do Skype for Business, a Microsoft está aqui para ajudar você em cada uma das etapas da sua jornada para o Teams. Sabemos que mudanças levam tempo, então convidamos você para começar a explorar o Teams hoje mesmo para entender o valor que ele pode oferecer para a sua organização enquanto você continua executando o Skype for Business. 
 
 Acesse o [Mapa de produtos Teams](https://aka.ms/TeamsRoadmap) para se manter atualizado do que está por vir no Teams e decidir o melhor momento para a sua organização migrar para o Teams.
+
+Outra ótima forma de ficar sempre por dentro das novidades sobre a jornada do Skype for Business para o Microsoft é o [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - um PDF para download (somente em inglês, pelo menos por enquanto) que apresenta as expectativas atuais da Microsoft em relação à migração das funcionalidades do Skype for Business para o Microsoft Teams.
 
 Para melhores resultados, recomendamos que você siga estas orientações obedecendo à ordem:
 
@@ -35,7 +37,11 @@ Para melhores resultados, recomendamos que você siga estas orientações obedec
 
  
 ### <a name="see-also"></a>Consulte também
+[Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 [Perguntas frequentes - visão do Skype for Business e do Teams](FAQ-journey.md)
+
+[Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
 
 
 

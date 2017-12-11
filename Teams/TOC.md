@@ -63,6 +63,7 @@
 ## [3 - Habilitar o Teams paralelamente ao Skype for Business](guidance-SkypeforBusiness.md)
 ## [4 - Gerar valor através da adoção dos usuários](continue-journey.md)
 ## [Perguntas frequentes - visão do Skype for Business e do Teams](FAQ-journey.md)
+## [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 
 # Vídeos e treinamentos
 ## [Prontidão do administrador de TI para o Teams](ITAdmin-readiness.md)
