@@ -283,7 +283,7 @@ Para obter uma lista detalhada dos recursos incluídos em cada plano do Skype fo
 |Sistema Telefônico do Office 365  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Plano de chamada do Office 365  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
    
-Veja esta publicação do blog: [Advanced Office 365 capabilities now available to U.S. Government Community Cloud customers](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+Veja esta publicação do blog: [Recursos avançados do Office 365 agora estão disponíveis para clientes da Nuvem Governamental de Comunidade dos EUA](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
   
 ## Quais recursos estão disponíveis para o Office 365 operado pela 21Vianet?
 <a name="bkmk_existing"> </a>
