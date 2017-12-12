@@ -288,7 +288,7 @@ Veja esta publicação do blog: [Recursos avançados do Office 365 agora estão 
 ## Quais recursos estão disponíveis para o Office 365 operado pela 21Vianet?
 <a name="bkmk_existing"> </a>
 
-Nem todos os recursos do Skype for Business estão disponíveis para os clientes que usam o Office 365 operado pela 21Vianet na China. Para obter uma lista dos recursos disponíveis e não disponíveis, veja [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE#__lync) em[Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
+Nem todos os recursos do Skype for Business estão disponíveis para os clientes que usam o Office 365 operado pela 21Vianet na China. Para obter uma lista dos recursos disponíveis e não disponíveis, veja [Saiba mais sobre o Office 365 operado pela 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE#__lync) em[Saiba mais sobre o Office 365 operado pela 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
   
 ## 
 <a name="bkmk_existing"> </a>
