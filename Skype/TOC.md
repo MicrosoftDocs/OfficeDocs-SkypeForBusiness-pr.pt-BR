@@ -90,7 +90,8 @@
 ### [Vídeo: comunicações externas do Skype for Business Online](set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## [Configurar a rede para a Transmissão de Reunião do Skype](set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
-### [Licenças de usuário bloqueadas para a Transmissão de Reunião do Skype](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)### [Habilitar a Transmissão de Reunião do Skype](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
+### [Licenças de usuário bloqueadas para a Transmissão de Reunião do Skype](set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
+### [Habilitar a Transmissão de Reunião do Skype](set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Fazer alterações nas configurações da Transmissão de Reunião do Skype para a sua organização](set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Licenciamento de complementos do Skype for Business e do Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
