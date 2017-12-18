@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como usar as diversos clientes disponíveis para o Microsoft Teams, incluindo web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone)."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: b127b0bd5c0e1f1b8f438c1955d1f028977118f0
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -22,7 +22,7 @@ O Microsoft Teams tem clientes disponíveis para web, desktop (Windows e Mac) e 
 <a name="web-client"></a>Cliente web 
 ----------------
 
-O cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente completo e funcional que pode ser usado em uma grande variedade de navegadores. Neste ponto, o cliente web não tem suporte para comunicação em tempo real (ou seja, entrar em reuniões e receber chamadas individuais). O navegador também precisa ser configurado para permitir cookies de terceiros.
+O cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente completo e funcional que pode ser usado em uma grande variedade de navegadores. Neste ponto, o único cliente Web que oferece suporte à comunicação em tempo real é o Microsoft Edge (ou seja, ingressar em reuniões e fazer chamadas individuais). O navegador também precisa ser configurado para permitir cookies de terceiros.
 
 Não há nenhum plugin nem download necessário para utilizar o Microsoft Teams usando um navegador da Web.
 

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Conheça as diferentes licenças do Office 365, quais delas habilitam os usuários para o Microsoft Teams e como habilitá-las ou desabilitá-las."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 62b603bdbd2cd370e6c09dbfc877ccef9884404b
-ms.sourcegitcommit: cd6f4ac2ee7fa2b9de7af5c75c914eb84468d8f5
+ms.openlocfilehash: 9853bab16fead0ed4da766a6d9d59f2f93b34191
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licença do Office 365 para o Microsoft Teams
 ========================================
@@ -21,10 +21,10 @@ As seguintes assinaturas do Office 365 habilitam os usuários para o Microsoft T
 
 |Planos para pequenas empresas  |Planos empresariais  |Planos educacionais  |
 |---------|---------|---------|
-|Office 365 Business Essentials     |Office 365 Enterprise E1         |Office 365 for Education         |
-|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 for Education Plus         |
-|     |Office 365 Enterprise E4 (desativado)         |Office 365 for Education E3 (desativado)         |
-|     |Office 365 Enterprise E5         |Office 365 for Education E5   
+|Office 365 Business Essentials     |Office 365 Enterprise E1         |Office 365 Education         |
+|Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |
+|     |Office 365 Enterprise E4 (desativado)         |Office 365 Education E3 (desativado)         |
+|     |Office 365 Enterprise E5         |Office 365 Education E5   
       |Office 365 Enterprise F1 |  |
 
 > [!NOTE]
@@ -49,3 +49,20 @@ Por padrão, a licença do Microsoft Teams está habilitada para todos os usuár
 O Teams pode ser ativado ou desativado para um tipo de licença inteira em uma organização e está ativado, por padrão, para todos os tipos de licença, exceto para usuários convidados. **Você não pode ativar o Teams apenas para parte de um tipo de licença usando a opção Teams no Centro de administração do Office 365.** Se você deseja ativar o Teams para algumas pessoas de sua organização e desativá-lo para outras pessoas (por exemplo, se você está planejando um piloto do Teams para um grupo específico de usuários), ative a opção de licença do Teams para todos e, em seguida, desative-a individualmente para os usuários desejados.
 
 ![Captura de tela da configuração de tipo de usuário/licença do Teams na seção de licença do Centro de administração do Office 365, mostrando o Microsoft Teams como Ativado.](media/Understand_Office_365_Licensing__for_Microsoft_Teams_image3.png)
+
+
+**Dica:**   A habilitação e desabilitação do Microsoft Teams como uma licença de carga de trabalho pelo PowerShell é realizada da mesma forma que com qualquer outra carga de trabalho. O nome do plano de serviço é TEAMS1 for Microsoft Teams. (Consulte mais informações em [Desabilitar o acesso aos serviços com o PowerShell do Office 365](https://technet.microsoft.com/en-us/library/dn771769.aspx).)
+
+**Exemplo:** Segue um exemplo rápido de como desabilitar o Microsoft Teams para todos com um tipo de licença específico. Você precisa fazer isso primeiro e depois habilitá-lo individualmente para os usuários que devem ter acesso para fins de piloto.
+
+*Para exibir os tipos de assinatura que você tem na organização, use este comando:*
+
+      Get-MsolAccountSku
+
+*Preencha o nome do seu plano, quen inclui o nome da organização e o plano da escola (como ContosoSchool:ENTERPRISEPACK_STUDENT) e execute estes comandos:*
+
+      $acctSKU="<plan name>
+      $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
+*Para desabilitar o Microsoft Teams para todos os usuários com uma licença ativa do plano nomeado, execute este comando:*
+
+      Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x

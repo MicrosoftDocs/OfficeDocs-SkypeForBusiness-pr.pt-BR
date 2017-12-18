@@ -3,11 +3,11 @@ layout: HubPage
 hide_bc: True
 title: "Documentação e orientações práticas do Microsoft Teams"
 description: "Documentação e orientações práticas do Microsoft Teams"
-ms.openlocfilehash: 5015a5b5908f835f03530dac9f159b8aa3b8531c
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 8242454e9805e5daf4f7528a51479e20f82f28c7
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -87,8 +87,8 @@ ms.lasthandoff: 11/08/2017
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Implantação do Cloud Voice</h3>
-                                                    <p>Configuração da Audioconferência no Teams</p>
+                                                    <h3>Cloud voice</h3>
+                                                    <p>Encontre as orientações práticas de que você precisa para começar a usar a Audioconferência no Microsoft Teams</p>
                                                 </div>
                                             </div>
                                         </div>

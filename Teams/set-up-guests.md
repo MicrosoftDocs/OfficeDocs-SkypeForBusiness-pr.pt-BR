@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: Habilitar ou desabilitar o recurso de acesso de convidados no Microsoft Teams
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a996f7cc9154d04870e4dea00da950d340de16e2
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+ms.openlocfilehash: 208d82b1e40b86f17d6ff412a20ed917a1fe6ff0
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Habilitar ou desabilitar o acesso de convidados no Microsoft Teams
 ======================================
@@ -57,5 +57,9 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
   
 5. Clique ou toque no botão de alternância ao lado de **Tornar o Microsoft Teams habilitado ou desabilitado para todos os usuários desse tipo** para **Habilitar** para ativar o acesso de convidados no Teams para a sua organização e, em seguida, escolha **Salvar**. 
     
-  
+ Assista aos vídeos a seguir para obter mais detalhes sobre o acesso de convidados:  
 
+|  |  |
+|---------|---------|
+| Habilitação do acesso de convidados no Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7T54KmlIHQk" frameborder="0" allowfullscreen></iframe>   |
+ | Adição de convidados no Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 

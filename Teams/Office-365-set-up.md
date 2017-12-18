@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como configurar o Microsoft Teams na sua organização do Office 365."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4ff25a452f2ce493bdb1ae8d556f08584d32d669
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: f8db61d7ca8e183cce04cb993a40541c70e5e516
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
 <a name="set-up-microsoft-teams-in-your-office-365-organization"></a>Configurar o Microsoft Teams na sua organização do Office 365
 ======================================================
@@ -38,9 +38,9 @@ Para saber mais sobre o gerenciamento de licenças individuais, leia [Licença d
 
     ![Captura de tela da página de Serviços e complementos com o Microsoft Teams selecionado.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
 
-4.  Para habilitar o Microsoft Teams para a organização, defina o botão de alternância para **Ativar** e clique em **Salvar**.
+4.  Para ativar o Microsoft Teams para a organização, use o seletor de licenças e escolha cada licença. Depois definina a opção como **Ativado** e clique em **Salvar**.
 
-    ![Captura de tela da página de configurações do Microsoft Teams mostrando o botão de alternância como Habilitado para habilitar o Microsoft Teams.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image3.png)
+    ![Captura de tela da página de configurações do Microsoft Teams mostrando o botão de alternância como Habilitado para habilitar o Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)
 
 
 > [!NOTE]

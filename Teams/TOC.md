@@ -51,11 +51,11 @@
 ## [Usar o PowerShell para controlar o acesso de convidados a uma equipe](guest-access-PowerShell.md)
 
 
-# [Implantação do Cloud Voice](cloud-voice-deployment.md)
+# [Cloud voice](cloud-voice-deployment.md)
 ## [Audioconferência](audio-conferencing.md)
 ### [Concepção](audio-conferencing.md#Envision_AudioConferencing)
-### [Planejamento](audio-conferencing.md#Planning_AudioConferencing)
-### [Vídeos - Audioconferência no Teams](audio-conferencing-videos.md)
+## Vídeos
+### [Audioconferência](audio-conferencing-videos.md)
 
 # [Jornada de migração do Skype for Business para o Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Otimize o seu ambiente atual do Skype for Business para o Teams](prepare-teams.md)
@@ -85,6 +85,7 @@
 ## [Verificar a integridade do serviço para o Teams](service-health.md)
 ## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
+
 
 
 # [Documentação para desenvolvedores do Teams](https://docs.microsoft.com/microsoftteams/platform)
