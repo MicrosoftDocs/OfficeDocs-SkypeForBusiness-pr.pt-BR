@@ -1,25 +1,27 @@
 ---
 title: "Implantação do Cloud Voice"
-author: LolaJacobsen
-ms.author: lolaj
-manager: lolaj
-ms.date: 09/25/2017
+author: arachmanGitHub
+ms.author: MyAdvisor
+manager: lehewe
+ms.date: 12/07/2017
 ms.topic: article
 ms.service: msteams
 description: "Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 18779673d85069cbf112de2d69f1d89ce3f2c14f
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: a52071dc6fac4e8df906d6f400ae8b40bd62edd3
+ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/08/2017
 ---
-<a name="cloud-voice-deployment"></a><span data-ttu-id="c24fc-103">Implantação do Cloud Voice</span><span class="sxs-lookup"><span data-stu-id="c24fc-103">Cloud voice deployment</span></span>
+<a name="cloud-voice-deployment"></a><span data-ttu-id="09fe6-103">Implantação do Cloud Voice</span><span class="sxs-lookup"><span data-stu-id="09fe6-103">Cloud voice deployment</span></span>
 ======================
 
-<span data-ttu-id="c24fc-104">O Microsoft Teams, o hub para trabalho em equipe e comunicações do Office 365, agora oferece os recursos de Audioconferência do (“Prévia Pública”) para atender a requisitos comerciais adicionais, ao ampliar a experiência de reuniões do Teams, incluindo a entrada de participantes através da Rede Telefônica Pública Comutada (PSTN).</span><span class="sxs-lookup"><span data-stu-id="c24fc-104">Microsoft Teams, the hub for teamwork and communications in Office 365, now provides Audio Conferencing ("Public Preview") capabilities to meet additional business requirements by extending the Teams meeting experience to include participants joining via the Public Switched Telephone Network (PSTN).</span></span>
+<span data-ttu-id="09fe6-104">O Microsoft Teams, o centro de trabalho em equipe e comunicação do Office 365, agora oferece funcionalidades de Audioconferência e Sistema de Telefonia com Planos de Chamadas para atender a requisitos comerciais adicionais, ampliando a experiência de reuniões e chamadas do Microsoft Teams para incluir participantes externos conectados pela da Rede Telefônica Pública Comutada (PSTN).</span><span class="sxs-lookup"><span data-stu-id="09fe6-104">Microsoft Teams, the hub for teamwork and communications in Office 365, now provides Audio Conferencing ("Public Preview") capabilities to meet additional business requirements by extending the Teams meeting experience to include participants joining via the Public Switched Telephone Network (PSTN).</span></span>
  
-<span data-ttu-id="c24fc-105">Use as orientações práticas em [Audioconferência](audio-conferencing.md) para ajudar você a se planejar para a Audioconferência (“Pré-visualização Pública”) do Teams.</span><span class="sxs-lookup"><span data-stu-id="c24fc-105">Use the practical guidance in [Audio Conferencing](audio-conferencing.md) to help you plan for Audio Conferencing ("Public Preview") in Teams.</span></span>
+<span data-ttu-id="09fe6-105">Use as [orientações práticas de Audioconferência](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing) para ajudar no planejamento da implantação da Audioconferência no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="09fe6-105">Use the practical guidance in [Audio Conferencing](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing) to help you plan for Audio Conferencing ("Public Preview") in Teams.</span></span>
+
  
-<span data-ttu-id="c24fc-106">Esta página será atualizada conforme os recursos de voz em nuvem do Teams forem lançados com o passar do tempo.</span><span class="sxs-lookup"><span data-stu-id="c24fc-106">We'll update this page as cloud voice features for Teams are released over time.</span></span> 
+<span data-ttu-id="09fe6-106">Esta página será atualizada conforme outros recursos do Cloud Voice do Microsoft Teams forem lançados ao longo do tempo.</span><span class="sxs-lookup"><span data-stu-id="09fe6-106">We'll update this page as cloud voice features for Teams are released over time.</span></span>
+
 
