@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Um guia para usar o Skype for Business e o Microsoft Teams lado a lado.
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 8e4c93d3b33a6b1fa5322bd8a18ff193f8eaa93a
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7943765ec33e01f6237f74d5f8b171b267948961
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Habilitar o Microsoft Teams paralelamente ao Skype for Business 
 =============================================================
