@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams através da identificação das principais partes envolvidas, resultados comerciais, medições de sucesso e gerenciamento da sua campanha."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7fb8c2f7804cd51ac74bcc06878572e0c2c605ad
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: ec0bea3c69ba9931727d9917246f71920d09cc7e
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================
@@ -55,9 +55,10 @@ A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica comp
 Recomendamos a realização de uma reunião regular dessas partes envolvidas para mantê-las atualizadas sobre o progresso do seu programa. A criação de um “conselho de colaboração” para permitir feedback e discussão pode ser uma ferramenta útil, dependendo da sua cultura corporativa.
 
 
-|  |  |
-|---------|---------|
-|![Ícone de dica.](media/Create_a_change_management_strategy_for_Microsoft_Teams_image4.png)<br></br>Dica    |As pessoas que podem ser os maiores obstáculos de mudança podem se tornar seus melhores aliados em uma implantação desse tipo. Recomendamos que você se envolva com esses membros da organização o quanto antes e com bastante frequência para ouvir suas preocupações e problemas. Muitas vezes, eles têm feedbacks valiosos que aumentarão o sucesso da sua campanha.         |
+
+
+> [!TIP]
+> As pessoas que podem ser os maiores obstáculos de mudança podem se tornar seus melhores aliados em uma implantação desse tipo. Recomendamos que você se envolva com esses membros da organização o quanto antes e com bastante frequência para ouvir suas preocupações e problemas. Muitas vezes, eles têm feedbacks valiosos que aumentarão o sucesso da sua campanha.
 
 <a name="user-profiles"></a>Perfis de usuários
 -------------

@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como preparar e gerenciar sua rede para o Microsoft Teams. As informações incluem requisitos de rede, requisitos de largura de banda e considerações adicionais."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 399a0a6ed6ac5bfabeac97f41e82e0237bca0b74
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+ms.openlocfilehash: 64d7ba35e8882fc0baa3522e1a5779b3e7ef8aaf
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 =================================================
@@ -27,9 +27,10 @@ O Microsoft Teams combinam três formas de tráfego:
 
 Isso impacta a rede em dois níveis: o tráfego fluirá entre os clientes Microsoft Teams diretamente para o ponto a ponto, e o tráfego fluirá entre o ambiente do Office 365 e os clientes Microsoft Teams para atender aos cenários. Para garantir um fluxo de tráfego ideal, o tráfego deve ser permitido entre os segmentos internos da rede (por exemplo, entre sites da WAN), bem como entre os sites da rede e o Office 365. Deixar de abrir as portas corretas ou bloquear ativamente as portas especificadas prejudicará a experiência.
 
-|  |  |
-|---------|---------|
-|![Ícone de importante.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image1.png)<br></br>Importante    |No momento, as reuniões têm suporte nos dispositivos móveis iOS e Android, mas não no Windows Phone (o Windows Phone terá suporte em breve).       |
+
+
+> [!IMPORTANT]
+> No momento, as reuniões têm suporte nos dispositivos móveis iOS e Android, mas não no Windows Phone (o Windows Phone terá suporte em breve).
 
 Para ter uma boa experiência com mídia em tempo real no Microsoft Teams, é necessário atender aos requisitos de rede do Office 365 (consulte a seguinte fonte para obter mais detalhes: [Qualidade de mídia e desempenho da conectividade de rede para o Skype for Business Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917?ui=en-US&rs=en-US&ad=US) )
 
@@ -47,9 +48,10 @@ Os dois segmentos de rede a ser definidos (Cliente para o Microsoft Edge e Edge 
 
 Para testar ambos os segmentos de rede, pode ser usada uma ferramenta de avaliação de rede (fonte: [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://go.microsoft.com/fwlink/?linkid=855799)). Essa ferramenta ode ser implantada no cliente PC diretamente e no PC/laptop conectado ao Customer Network Edge. Essa ferramenta contém uma documentação limitada, mas uma documentação mais profunda do uso da ferramenta pode ser encontrada aqui: [Avaliação da prontidão da rede](https://go.microsoft.com/fwlink/?linkid=855800). Ao executar essa Avaliação da prontidão da rede, você pode validar a prontidão da sua rede para executar aplicativos de mídia em tempo real, como o Microsoft Teams.
 
-|  |  |
-|---------|---------|
-|![Ícone de nota.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Nota    |Essa é a mesma Avaliação da prontidão da rede recomendada para clientes que estão buscando implantar o Skype for Business.         |
+
+
+> [!NOTE]
+> Essa é a mesma Avaliação da prontidão da rede recomendada para clientes que estão buscando implantar o Skype for Business.
 
 <a name="bandwidth-requirements"></a>Requisitos de largura de banda
 ----------
@@ -58,9 +60,10 @@ Os cálculos de largura de banda do Microsoft Teams são complexos e, para ajuda
 
 O conteúdo que você encontrar abaixo pode ser usado como informações complementares básicas; entretanto, é recomendado que os clientes usem a [Calculadora de largura de banda](https://aka.ms/bwcalc) para rastrear suas necessidades.
 
-|  |  |
-|---------|---------|
-|![Ícone de nota.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image2.png)<br></br>Nota    |Se não houver a largura de banda necessária, a pilha de mídia dentro do Microsoft Teams prejudicará a qualidade da sessão de áudio/vídeo para acomodar essa menor largura de banda disponível, afetando a qualidade da chamada/reunião. O cliente Microsoft Teams tentará priorizar a qualidade do áudio em relação à qualidade do vídeo. Assim, é extremamente importante ter a largura de banda esperada disponível.       |
+
+
+> [!IMPORTANT]
+>Se não houver a largura de banda necessária, a pilha de mídia dentro do Microsoft Teams prejudicará a qualidade da sessão de áudio/vídeo para acomodar essa menor largura de banda disponível, afetando a qualidade da chamada/reunião. O cliente Microsoft Teams tentará priorizar a qualidade do áudio em relação à qualidade do vídeo. Assim, é extremamente importante ter a largura de banda esperada disponível.
 
 
 |Atividade  |Largura de banda para download  |Largura de banda para upload  |Fluxo de tráfego |

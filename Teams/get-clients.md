@@ -8,11 +8,11 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como usar as diversos clientes disponíveis para o Microsoft Teams, incluindo web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone)."
 Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: f555208aba849b77d648e5e9561d0daf3ba199b3
-ms.sourcegitcommit: e8b96ddf6a6eaea4598b116f1e33c71911b337bb
+ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
+ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/16/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -22,7 +22,7 @@ O Microsoft Teams tem clientes disponíveis para web, desktop (Windows e Mac) e 
 <a name="web-client"></a>Cliente web 
 ----------------
 
-O cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente completo e funcional que pode ser usado em uma grande variedade de navegadores. Neste ponto, o único cliente Web que oferece suporte à comunicação em tempo real é o Microsoft Edge (ou seja, ingressar em reuniões e fazer chamadas individuais). O navegador também precisa ser configurado para permitir cookies de terceiros.
+O cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente completo e funcional que pode ser usado em uma grande variedade de navegadores. Neste ponto, o cliente web não tem suporte para comunicação em tempo real (ou seja, entrar em reuniões e receber chamadas individuais). O navegador também precisa ser configurado para permitir cookies de terceiros. 
 
 Não há nenhum plugin nem download necessário para utilizar o Microsoft Teams usando um navegador da Web.
 
@@ -39,9 +39,9 @@ O Microsoft Teams tem suporte para os seguintes navegadores e versões:
 -   **Firefox**: 47,0+
 
 
-| | |
-|---------|---------|
-|![Ícone de importante.](media/Get_clients_for_Microsoft_Teams_image1.png)<br></br>Importante     |O Safari ainda não tem suporte, mas terá em breve.         |
+
+> [!NOTE]
+> O Safari ainda não tem suporte, mas terá em breve.
 
 <a name="desktop-clients"></a>Clientes desktop
 ------------------------
@@ -55,17 +55,19 @@ Os clientes desktop podem ser baixados e instalados por usuários final diretame
 Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação para as máquinas da sua organização, como o System Center Configuration Manager (Windows) ou o Casper Suite (MacOS).
 
 
-| | |
-|---------|---------|
-|![Ícone de nota.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.         |
+
+> [!NOTE]
+> A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
+       |
 
 #### <a name="windows"></a>Windows
 
 A instalação do Microsoft Teams para Windows oferece instaladores para download nas arquiteturas de 32 bits e 64 bits. A arquitetura deve corresponder àquela do sistema operacional, a qual for o padrão do download online.
 
-| | |
-|---------|---------|
-|![Ícone de nota.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |A arquitetura (32 bits x 64 bits) do Microsoft Teams é independente da arquitetura do Office que está instalado.        |
+
+
+> [!NOTE]
+> A arquitetura (32 bits x 64 bits) do Microsoft Teams é independente da arquitetura do Office que está instalado.
 
 O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows é instalado nos seguintes locais:
 
@@ -77,15 +79,14 @@ Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela pr
 
 ![Captura de tela de um diálogo do Alerta de Segurança do Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
-| | |
-|---------|---------|
-|![Ícone de nota.](media/Get_clients_for_Microsoft_Teams_image2.png)<br></br>Nota    |A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Serão criadas duas regras de entrada para teams.exe com a ação Block para protocolos TCP e UDP.        |
+
+> [!NOTE]
+> A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Serão criadas duas regras de entrada para teams.exe com a ação Block para protocolos TCP e UDP.
 
 #### <a name="mac"></a>Mac
 
-A Microsoft também fornece um arquivo de instalação DMG para computadores Mac OSX. É obrigatório acesso administrativo para instalar o cliente Mac. O cliente Mac OSX é instalado no seguinte local:
+A Microsoft também fornece um arquivo de instalação DMG para computadores Mac OSX. É obrigatório acesso administrativo para instalar o cliente Mac. O cliente Mac OSX é instalado na pasta /Applications.
 
-\~/Library/Application Support/Microsoft/Teams
 
 <a name="mobile-clients"></a>Clientes móveis
 --------------
