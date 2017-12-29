@@ -8,7 +8,11 @@
 ## [Grupos do Office 365 e Teams](Office-365-groups.md)
 ## [Como o Exchange e o Teams interagem](Exchange-Teams-interact.md)
 ## [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](SharePoint-OneDrive-interact.md)
+## [Interoperabilidade entre o Microsoft Teams e o Skype for Business](Teams-and-SkypeforBusiness-interoperability.md)
 
+# [Guias de Início Rápido](quick-start-guides.md)
+## [Início rápido: Guia de Planejamento do Microsoft Teams](quick-start-enable-Teams.md)
+## [Configurar Planos de Chamadas](configuring-teams-calling-quickstartguide.md)
 
 # Planejamento
 ## [Visão geral da implantação do Microsoft Teams](deployment-overview.md)
@@ -51,13 +55,17 @@
 ## [Usar o PowerShell para controlar o acesso de convidados a uma equipe](guest-access-PowerShell.md)
 
 
-# [Cloud voice](cloud-voice-deployment.md)
+# [Cloud Voice](cloud-voice-deployment.md)
 ## [Audioconferência](audio-conferencing.md)
 ### [Concepção](audio-conferencing.md#Envision_AudioConferencing)
+## [Sistema de Telefonia com Planos de Chamadas](phone-system-with-calling-plans.md)
+### [Concepção](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
+## Guias de Início Rápido
+### [Configurar Planos de Chamadas](configuring-teams-calling-quickstartguide.md)
 ## Vídeos
 ### [Audioconferência](audio-conferencing-videos.md)
 
-# [Jornada de migração do Skype for Business para o Teams](Journey-SkypeforBusiness-Teams.md)
+# [Jornada de migração do Skype for Business para o Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Otimize o seu ambiente atual do Skype for Business para o Teams](prepare-teams.md)
 ## [2 - Piloto do Teams paralelamente ao Skype for Business](pilot-essentials.md)
 ## [3 - Habilitar o Teams paralelamente ao Skype for Business](guidance-SkypeforBusiness.md)
