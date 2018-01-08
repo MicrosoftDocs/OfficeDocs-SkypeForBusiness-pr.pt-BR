@@ -10,16 +10,17 @@
 ## [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](SharePoint-OneDrive-interact.md)
 ## [Interoperabilidade entre o Microsoft Teams e o Skype for Business](Teams-and-SkypeforBusiness-interoperability.md)
 
-# [Guias de Início Rápido](quick-start-guides.md)
+# [Guias de início rápido para administradores do Microsoft Teams](quick-start-guides.md)
 ## [Início rápido: Guia de Planejamento do Microsoft Teams](quick-start-enable-Teams.md)
 ## [Configurar Planos de Chamadas](configuring-teams-calling-quickstartguide.md)
+## [Início rápido - Microsoft Teams for Education](Teams-quick-start-edu.yml)
 
 # Planejamento
 ## [Visão geral da implantação do Microsoft Teams](deployment-overview.md)
 ## [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-Office-365-groups.md)
 ## [Preparo da rede da sua organização para o Teams](prepare-network.md)
 ## [URLs do Office 365 e intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md)
-## [Kit de workshops de planejamento e guias práticos para o Microsoft Teams](planning-workshop-practical-guide.md)
+## [Kit de workshops: planejamento, fornecimento e operação do Microsoft Teams](planning-workshop-practical-guide.md)
 
 # Adotar
 ## [Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams](change-management-strategy.md)
@@ -55,7 +56,7 @@
 ## [Usar o PowerShell para controlar o acesso de convidados a uma equipe](guest-access-PowerShell.md)
 
 
-# [Cloud Voice](cloud-voice-deployment.md)
+# [Cloud voice](cloud-voice-deployment.md)
 ## [Audioconferência](audio-conferencing.md)
 ### [Concepção](audio-conferencing.md#Envision_AudioConferencing)
 ## [Sistema de Telefonia com Planos de Chamadas](phone-system-with-calling-plans.md)
@@ -65,7 +66,7 @@
 ## Vídeos
 ### [Audioconferência](audio-conferencing-videos.md)
 
-# [Jornada de migração do Skype for Business para o Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
+# [Jornada de migração do Skype for Business para o Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Otimize o seu ambiente atual do Skype for Business para o Teams](prepare-teams.md)
 ## [2 - Piloto do Teams paralelamente ao Skype for Business](pilot-essentials.md)
 ## [3 - Habilitar o Teams paralelamente ao Skype for Business](guidance-SkypeforBusiness.md)
@@ -94,7 +95,8 @@
 ## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
 
-
+# Microsoft Teams for Education
+## [Início rápido para o administrador - Microsoft Teams for Education](Teams-quick-start-edu.yml)
 
 # [Documentação para desenvolvedores do Teams](https://docs.microsoft.com/microsoftteams/platform)
 

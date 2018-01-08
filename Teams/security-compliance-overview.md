@@ -1,5 +1,5 @@
 ---
-title: "Visão geral de segurança e conformidade no Microsoft Teams | Suporte da Microsoft"
+title: "Visão geral de segurança e conformidade no Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Uma visão geral dos recursos de segurança e conformidade do Microsoft Teams, incluindo auditoria e relatórios, pesquisa de conteúdo de conformidade, eDiscovery e muito mais."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 83cad5896079173300d5aeaa40835f7ffa4d5074
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: f0b01c70a313e3e9e1cd6240a1eb0b42fa744622
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -82,7 +82,7 @@ Além disso, a Microsoft está considerando oferecer os seguintes recursos de se
 
 -   Lockbox do cliente
 
--   Gerenciamento correto
+-   Gerenciamento de direitos
 
 
 | | | |

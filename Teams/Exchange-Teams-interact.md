@@ -1,5 +1,5 @@
 ---
-title: Como o Exchange e o Microsoft Teams interagem | Suporte da Microsoft
+title: Como o Exchange e o Microsoft Teams interagem
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,21 +7,21 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Sabia quais funcionalidades existem entre o Microsoft Teams e as diversas configurações do Exchange, como criar e entrar em equipes, criar canais e muito mais."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a7d3bed465d1a13e35bbbe92c5fd2b8237e199b9
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 4fc7da7d68c13bbadec935573c827cf767c9afe4
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
 
 Para a experiência completa com o Microsoft Teams, todos os usuários devem estar habilitados para o Exchange Online, para o SharePoint Online e para a criação de grupos no Office 365.
 
-As caixas de correio dos usuários do Exchange não podem ficar hospedadas online nem no local. Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e entrar em equipes e canais, criar e visualizar reuniões, modificar fotos de perfil de usuário, adicionar e configurar conectores, guias e bots, além de poderem conversar via bate-papo e fazer chamadas.
+As caixas de correio dos usuários do Exchange não podem ficar hospedadas online nem no local. Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e ingressar em equipes e canais, criar e visualizar reuniões, fazer chamadas e chats, modificar imagens do perfil do usuário, adicionar e configurar conectores, guias e bots.
 
-Usuários hospedados no Exchange Online Dedicated – o Legacy ou o Exchange local precisam estar sincronizados com o Azure Active Directory para o Office 365. Eles podem criar e entrar em equipes e canais, adicionar e configurar guias e bots, conversar via bate-papo e fazer chamadas. No entanto, eles não podem modificar fotos de perfil de usuário, criar e visualizar reuniões, nem adicionar e configurar conectores. Eles podem receber mensagens de conectores configurados por outros usuários.
+Os usuários hospedados no Exchange Online Dedicated - Legacy ou no Exchange local precisam estar sincronizados com o Azure Active Directory para Office 365. Eles podem criar e entrar em equipes e canais, adicionar e configurar guias e bots, conversar via bate-papo e fazer chamadas. No entanto, eles não podem modificar imagens do perfil do usuário, nem adicionar e configurar conectores. Eles podem receber mensagens de conectores configurados por outros usuários. Para criar e exibir reuniões, há várias opções: É possível criar e exibir reuniões no Exchange 2016 cumulative update 3 (CU3) e superior, mas não nas versões anteriores ao Exchange 2016 CU3.
 
 A tabela a seguir oferece informações para usuários com o Exchange Online hospedado em vários ambientes.
 

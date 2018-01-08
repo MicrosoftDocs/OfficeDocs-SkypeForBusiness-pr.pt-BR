@@ -1,5 +1,5 @@
 ---
-title: "Atribuir funções e permissões no Microsoft Teams | Suporte da Microsoft"
+title: "Atribuir funções e permissões no Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Saiba como atribuir funções e permissões de proprietários membros de equipe no Microsoft Teams, inclusive permissões para criar equipes."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7062d490e118a0156442ba2cd463c9e5269b20a1
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: ec15844064a88cf1e6aa8af9e510107e342dd369
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Atribuir funções e permissões no Microsoft Teams
 ===============================================

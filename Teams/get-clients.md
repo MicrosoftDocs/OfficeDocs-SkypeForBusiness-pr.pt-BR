@@ -1,5 +1,5 @@
 ---
-title: Obter clientes para o Microsoft Teams | Suporte da Microsoft
+title: Obter clientes para o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,11 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Saiba como usar as diversos clientes disponíveis para o Microsoft Teams, incluindo web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone)."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fa0e91acd0847ab7b37113383348cb8be9a7a1c6
-ms.sourcegitcommit: 83aa84750e0bd210c24b3bd7315020a451d3f056
+ms.openlocfilehash: 8037d765e304aa6e950fdd0b9b5ad55079ec1700
+ms.sourcegitcommit: 19d7af5d60276c0a1ca3e01588b91c34a3fd0f92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2017
+ms.lasthandoff: 12/22/2017
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -22,9 +21,9 @@ O Microsoft Teams tem clientes disponíveis para web, desktop (Windows e Mac) e 
 <a name="web-client"></a>Cliente web 
 ----------------
 
-O cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente completo e funcional que pode ser usado em uma grande variedade de navegadores. Neste ponto, o cliente web não tem suporte para comunicação em tempo real (ou seja, entrar em reuniões e receber chamadas individuais). O navegador também precisa ser configurado para permitir cookies de terceiros. 
+O cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente completo e funcional que pode ser usado em uma grande variedade de navegadores. Neste ponto, o cliente Web não dá suporte à comunicação em tempo real (ou seja, entrar em reuniões e receber chamadas individuais). O navegador também precisa ser configurado para permitir cookies de terceiros. 
 
-Não há nenhum plugin nem download necessário para utilizar o Microsoft Teams usando um navegador da Web.
+Não é necessário nenhum plug-in ou download para utilizar o Microsoft Teams em um navegador da Web.
 
 O cliente web executa a detecção da versão do navegador ao se conectar a [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) e se for detectada uma versão de navegador não suportada, o acesso à interface web será bloqueada, e a recomendação é que o usuário baixe o cliente desktop ou o aplicativo móvel.
 
@@ -58,7 +57,7 @@ Os administradores de TI podem escolher seu método preferido para distribuir os
 
 > [!NOTE]
 > A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
-       |
+
 
 #### <a name="windows"></a>Windows
 

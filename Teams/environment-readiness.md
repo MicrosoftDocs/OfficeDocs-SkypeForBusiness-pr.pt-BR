@@ -1,5 +1,5 @@
 ---
-title: "Verificar a prontidão do seu ambiente para o Microsoft Teams | Suporte da Microsoft"
+title: "Verificar a prontidão do seu ambiente para o Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -7,12 +7,12 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Saiba o que procurar ao verificar a disponibilidade do seu ambiente para o Microsoft Teams.
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 4ddf7401f0797b0d3617686ff4e8f6aeb8cda7b6
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: fbc76126220857d2864f9159d57fd663ce66fd7b
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Verificar a prontidão do seu ambiente para o Microsoft Teams
 ===========================================

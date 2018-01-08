@@ -7,12 +7,12 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 description: "Conheça a funcionalidade do Microsoft Teams disponível para usuários convidados."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 596d0dd3bb754e6f6c983beb9ba62d775768d252
-ms.sourcegitcommit: 4a396557d51c7fb246144cd682bcf5e6a2c823be
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 7ce64b92d5b51c7bfc154b955ed0c9c5ea1bab99
+ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 12/20/2017
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -57,7 +57,7 @@ A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para o
 |Compartilhar um arquivo de bate-papo  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Adicionar aplicativos (guias, bots ou conectores)  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Convidar um usuário de fora do domínio do locatário do Office 365  <br/> ||![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Criar uma equipe  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Descobrir e entrar em uma equipe pública  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Visualizar o organograma  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||

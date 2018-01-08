@@ -1,23 +1,26 @@
 ---
-title: "Boas práticas para organizar equipes no Microsoft Teams | Suporte da Microsoft"
+title: "Boas práticas para organizar equipes no Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Conheça as boas práticas para organizar equipes no Microsoft Teams, de modo a estruturar sua equipe com base nas suas necessidades específicas."
-Set_Free_Tag: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 936d5132fb71563f1f8b2fff5561084c4201425a
-ms.sourcegitcommit: 9756856140ea56a94e986c134c5c04e53e5c0fa6
+description: "Conheça as práticas recomendadas para organizar as equipes no Microsoft Teams de maneira a suprir as necessidades de sua organização."
+MS.collection: Strat_MT_TeamsAdmin
+ms.openlocfilehash: 37b40af804193039cc2c2a8b5fa37a4547b896b0
+ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 12/21/2017
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Boas práticas para organizar equipes no Microsoft Teams
 ======================================================
 
-Antes de criar uma equipe, é uma boa prática pensar em uma meta, um projeto ou um item de trabalho. e as pessoas ou os grupos da organização que podem ajudar a entregar isso de forma colaborativa (seja seletivo ao adicionar pessoas e grupos para ajudar a atingir a sua meta). Após criada a equipe, adicione essas pessoas/grupos para começar a colaborar. É uma boa ideia configurar mais de um proprietário para cada equipe (veja [*Gerenciamento do Teams*](https://support.office.com/en-US/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)).
+> [!TIP]
+> Você conhece uma prática recomendada ou tem uma dica de uso do Microsoft Teams? Compartilhe-a conosco na seção **Comentários** no final deste artigo.
+
+Antes de criar uma equipe, é recomendável pensar em uma meta, um projeto ou um item de trabalho, além das pessoas ou dos grupos na organização que podem ajudar em sua realização colaborativa. Depois de criar a equipe, adicione essas pessoas ou grupos a ela para dar início à colaboração. É conveniente designar mais de um proprietário para cada equipe. Veja [*Gerenciamento de equipes*](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Você pode começar com poucos membros na equipe e fazer um brainstorm à medida em que você e, em seguida, pode adicionar novas pessoas/grupos. A grande vantagem do Microsoft Teams é que, quando você adiciona novas pessoas/grupos, eles podem começar a acompanhar rapidamente o que já foi discutido, já que as conversas e os arquivos ficam disponíveis para os usuários independentemente do momento em que se entram. Tente evitar criar equipes diferentes que tenham o mesma composição de membros, pois essa abordagem pode não proporcionar o foco desejado para a entrega do projeto ou da meta. O Outlook é uma ótima ferramenta para compartilhar esses tipos de comunicação em grupo.
 
