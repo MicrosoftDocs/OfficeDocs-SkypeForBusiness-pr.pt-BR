@@ -7,11 +7,11 @@ ms.date: 12/20/2017
 ms.topic: article
 ms.service: msteams
 description: "Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador."
-ms.openlocfilehash: a9642d43f26d06c759f606d360520c92d053ac77
-ms.sourcegitcommit: 5ab90d4bd39bf45198ef73d0fd45dd3d8baa6acb
+ms.openlocfilehash: b4335a9d3f85b00706b7f6d61c9b232f01193abe
+ms.sourcegitcommit: 18b1af39d6d2cd0e7f2d270dcd844e06c9075ae6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -52,6 +52,6 @@ A tabela a seguir lista os problemas conhecidos do Microsoft Teams.
 |Não é possível salvar a imagem de perfil  <br/> |Os usuários não conseguem salvar a imagem de perfil quando a caixa de correio do Exchange está hospedada (ou estabelecida) localmente.  <br/> |Não há solução alternativa.  <br/> |28/02/2017  <br/> |
 |As reuniões não estão disponíveis  <br/> |A funcionalidade e o ícone da reunião não estão disponíveis quando a caixa de correio do Exchange está hospedada (ou estabelecida) localmente.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
 |As caixas de correio de grupos não estão habilitadas para fins de arquivamento (armazenamento extra)  <br/> |No Centro de Segurança e Conformidade do Office 365, os administradores globais não conseguem habilitar o arquivamento nas caixas de correio de grupos. Eles só conseguem em caixas de correio de usuários.  <br/> |Se a capacidade da caixa de correio do grupo estiver quase cheia, entre em contato com o Suporte do Microsoft Office para aumentar o tamanho da caixa de correio.  <br/> |01/02/2017  <br/> |
-|Suporte para o cliente web do Safari  <br/> |Os usuários que tentam abrir o cliente Microsoft Teams no Safari são direcionados para baixar o cliente desktop. A Microsoft está verificando com o suporte do Safari e compartilhará as atualizações através do mapa público do Office 365.  <br/> |Use os navegadores suportados, que incluem: Microsoft Edge 12+, Internet Explorer 11+, Firefox 47.0+ e Chrome 51.0+.  <br/> |02/11/2016  <br/> |  
+|Suporte para o cliente web do Safari  <br/> |Os usuários que tentam abrir o cliente Microsoft Teams no Safari são direcionados para baixar o cliente desktop. A Microsoft está verificando com o suporte do Safari e compartilhará as atualizações através do mapa público do Office 365.  <br/> |Use os navegadores suportados, que incluem: Microsoft Edge 12+, Internet Explorer 11+, Firefox 55+ e Chrome 51.0+.  <br/> |02/11/2016  <br/> |  
 |Os membros da equipe não são alcançados para reuniões ad-hoc  <br/> |As reuniões ad hoc são suportadas se as duas pessoas estiverem usando o aplicativo mais recente. As reuniões ainda não têm suporte no aplicativo do Windows Phone.  <br/> |Baixe e instale o aplicativo desktop, iOS ou Android mais recente para entrar na reunião.  <br/> |02/11/2016  <br/> |
 |Os usuários do Skype for Business local não recebem minhas mensagens  <br/> |O envio de mensagens não será concluído quando os usuários do Microsoft Teams tentarem enviar uma mensagem para outro indivíduo que esteja usando o Skype for Business local.  <br/> | Existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business Online. Os usuários do Teams podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business Online. <br/> Não existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business local. Os usuários do Teams não podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business local.  <br/> |02/11/2016  <br/> |
