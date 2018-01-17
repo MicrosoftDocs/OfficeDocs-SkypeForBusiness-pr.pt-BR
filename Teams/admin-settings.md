@@ -7,16 +7,21 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Saiba como permitir e habilitar aplicativos no Microsoft Teams, incluindo o carregamento lateral de aplicativos externos.
-ms.openlocfilehash: ca969e073cf35309b65aeedf93acda31d388629c
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 4265866bb346da1aa773d337d02fc1c11149f579
+ms.sourcegitcommit: ee1c79b6d6d73e5fc702fe55b9e5aee8a7aae793
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/10/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
 
-Nesta seção, nos referimos a guias, conectores e bots, ou qualquer combinação desses recursos, fornecidos por um único serviço de terceiros, como os aplicativos. Existem políticas de administração que podem ser configuradas no Portal de Administração do Office 365 para controlar quais aplicativos externos de terceiros serão permitidos. Essas políticas permitem que você especifique quais aplicativos são permitidos ou não, o comportamento de um novo aplicativo externo, bem como se o carregamento lateral de aplicativos é permitido.
+Os aplicativos consistem em guias, conectores, bots ou qualquer combinação dos três, fornecidos por um serviço de terceiros. Existem políticas de administração que podem ser configuradas no Centro de administração do Office 365 para controlar quais aplicativos externos de terceiros são permitidos. Essas políticas permitem especificar quais aplicativos são permitidos ou não, o comportamento do novo aplicativo externo e se o sideload de aplicativos é permitido.
+
+> [!NOTE]
+> Para gerenciar as configurações de administração de aplicativos no Microsoft Teams, vá para o Centro de administração do Office 365 e abra **Configurações** > **Serviços e complementos** e escolha **Microsoft Teams**. Se você tiver entrado como administrador do Office 365, este link deverá direcioná-lo corretamente:
+> 
+> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 **Permitir aplicativos externos no Microsoft Teams**
 
