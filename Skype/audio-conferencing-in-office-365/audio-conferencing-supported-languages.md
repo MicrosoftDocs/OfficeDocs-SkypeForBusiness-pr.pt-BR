@@ -1,32 +1,39 @@
 ---
-title: "Idiomas com suporte de conferência de áudio"
+title: "Idiomas com suporte de serviços de audioconferência"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
-ms.topic: reference
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 572ca0c8-b9f0-4948-9409-e12ee0b94aa0
-description: "Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)"
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
+ms.openlocfilehash: 68b82c507f7e97c9875e34896b300efabc5c8347
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-supported-languages"></a>Idiomas com suporte de serviços de audioconferência
 
-# Idiomas com suporte de conferência de áudio
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Quando você estiver configurando e configurando a conferência de áudio no Office 365, você pode selecionar primário e secundário (até 4) idiomas que são usados quando os chamadores discam para uma Skype para empresas ou Teams Microsoft reunião. Aqui está a lista de idiomas aceitos para conferência de áudio:
+Quando você estiver definindo e configurando a conferência de áudio no Office 365, você pode selecionar o principal e secundário (até 4) idiomas que são usados quando os chamadores discam para uma Skype para reunião de negócios ou Teams da Microsoft. Aqui está a lista de idiomas com suporte para conferência de áudio: 
   
 > [!IMPORTANT]
-> Idiomas primário e secundário podem ser alterados somente em números de telefone de conferência de áudio dedicados. 
+> Idiomas principal e secundário podem ser alterados apenas em números de telefone de conferência de áudio dedicados. 
   
-## Idiomas aceitos atualmente
+## <a name="currently-supported-languages"></a>Idiomas aceitos atualmente
 
-|****Idioma****|****País/Região****|****ID de cultura****|
+|**Idioma**|**País/Região**|**ID de cultura**|
 |:-----|:-----|:-----|
 |Árabe  <br/> |Saudi Arabia (المملكة العربية السعودية)  <br/> |ar-SA  <br/> |
 |Búlgaro  <br/> |Bulgária  <br/> |bg-BG  <br/> |
@@ -73,41 +80,33 @@ Quando você estiver configurando e configurando a conferência de áudio no Off
 |Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |
 |Ucraniano  <br/> |Ucrânia  <br/> |uk-UA  <br/> |
    
-Se você estiver procurando por países ou regiões onde você pode adquirir conferência de áudio, consulte [A Conferência PSTN com números de telefone está disponível em meu país ou minha região?](https://support.office.com/article/1096d81e-7e14-488c-95d8-b8322e39c059).
+Se você estiver procurando por países ou regiões onde você pode adquirir a conferência de áudio, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-Se você estiver procurando por países ou regiões que têm números de telefone para conferência de áudio específicos, consulte [Números de telefone para conferência de áudio](phone-numbers-for-audio-conferencing.md).
+Se você estiver procurando por determinados países ou regiões que possuem números de telefone para audioconferências, consulte [números de telefone de conferência de áudio](phone-numbers-for-audio-conferencing.md).
   
-## Quer saber como gerenciar com o Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- Para economizar tempo ou automatizar o processo, você pode usar os cmdlets [Get-Csonlinedialinconferencinglanguagessupportedhttp](https://go.microsoft.com/fwlink/?LinkId=617684) ou[Set-Csonlinedialinconferencingservicenumberhttp](https://go.microsoft.com/fwlink/?LinkId=617689) .
+- Para economizar tempo ou automatizar isso, você pode usar os cmdlets [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) ou [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) .
     
-- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+-  O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tem várias vantagens em velocidade, simplicidade e produtividade sobre usando somente o Centro de administração do Office 365, como quando você estiver fazendo alterações nas configurações para vários usuários ao mesmo tempo. Saiba mais sobre estas vantagens nos tópicos a seguir:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações nas configurações de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Uso do Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Uso do Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > O módulo do Windows PowerShell para Skype for Business Online permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, aceito somente em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft, em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). 
+    > [!OBSERVAçãO] O módulo do Windows PowerShell para Skype for Business Online permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, aceito somente em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft, em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
+[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](set-up-audio-conferencing.md)
 
-#### 
-
-[Conferência discada no Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
 

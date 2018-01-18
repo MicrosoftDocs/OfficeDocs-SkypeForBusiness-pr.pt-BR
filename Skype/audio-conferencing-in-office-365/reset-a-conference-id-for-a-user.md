@@ -2,73 +2,77 @@
 title: "Redefinir o ID de conferência de um usuário"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- httpsfix
-- Strat_SB_PSTN
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
-description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'Learn the steps to reset a user''s meeting conference ID, and get links to meeting update and migration tools. '
+ms.openlocfilehash: 2f2cbd6efa61e05defb17ef05f86fd9a228987ac
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="reset-a-conference-id-for-a-user"></a>Redefinir o ID de conferência de um usuário
 
-# Redefinir o ID de conferência de um usuário
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Quando as organizações ainda não foi habilitado para IDs de conferência dinâmicos, um ID de conferência estático é criada automaticamente quando uma Skype para empresas ou Teams Microsoft usuário está habilitado para conferência de áudio usando o Microsoft como provedor. Esta ID de conferência está incluído na parte inferior da reunião convites junto com os números de discagem que podem ser usados por chamadores para ligar para uma reunião. Quando o usuário discar o número de telefone, o atendedor automático para a reunião perguntará o chamador insira esta ID de conferência para que eles podem participar da reunião.
+Quando suas organizações não tiver sido habilitado para IDs de conferência dinâmico, uma ID de conferência estática é criada automaticamente quando um Skype para negócios ou Microsoft Teams usuário está habilitado para conferência de áudio usando o Microsoft como o provedor. Esta ID de conferência é incluído na parte inferior da reunião convites, juntamente com os números de telefone de discagem que podem ser usados por chamadores para efetuar uma chamada para uma reunião. Quando o usuário disca o número de telefone, o atendedor automático para a reunião pedirá que o chamador para inserir esta ID de conferência, de forma que eles podem participar da reunião.
   
 > [!NOTE]
-> Se seu provedor de conferência Microsoft, IDs de conferência de seus usuários são definidas como dinâmico somente por padrão. Infelizmente, você não poderá alterá-la no Skype para o Centro de administração de negócios ou usando o Windows Powershell. Será necessário entrar em contato com o suporte da Microsoft. 
+> Se seu provedor de conferência for Microsoft, IDs de conferência dos usuários são definidos para somente dinâmico por padrão. Infelizmente, você não poderá alterá-lo no Skype para o Centro de administração de negócios ou usando o Windows Powershell. Você precisará contatar o suporte da Microsoft. 
   
-Identificações estáticas são usadas quando as pessoas em sua organização não desejam se lembrar de um número aleatório; ele poderá selecionar um determinado número ou use uma que seja fácil de lembrar. Quando IDs de conferência dinâmicos forem usados, cada reunião que um cronogramas do usuário serão obter atribuída uma ID de conferência exclusivo. Se você quiser atribuir dinâmico em vez de conferência estático IDs, [Usando IDs de dinâmico de conferência de áudio em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+IDs estáticas são usadas quando as pessoas na sua organização não desejam Lembre-se de um número aleatório; eles podem selecionar um certo número ou use um que seja fácil de lembrar. Quando IDs de conferência dinâmicos são usados, cada reunião agendas de um usuário serão obtido atribuída uma ID de conferência exclusivas. Se você deseja atribuir dinâmico em vez de conferência estática IDs, [acesse aqui](using-audio-conferencing-dynamic-ids-in-your-organization.md).
   
-IDs de conferência automaticamente apenas são definidas somente para o Skype para Business e Teams Microsoft usuários habilitados para conferência de áudio usando o Microsoft como seu provedor de audioconferência. Se você precisar redefinir um ID de conferência para um usuário que está usando um provedor de terceiros audioconferência (ACP), você precisará inserir manualmente um ID de conferência na página Propriedades do usuário.
+IDs de conferência são definidas apenas automaticamente somente para Skype para usuários empresariais e Microsoft Teams habilitado para serviços de audioconferência usando o Microsoft como seu provedor de serviços de audioconferência. Se você precisar redefinir uma ID de conferência para um usuário que está usando um provedor de serviços de audioconferência de terceiros (ACP), você precisará digitar manualmente uma ID de conferência na página Propriedades do usuário.
   
-## Redefinir o ID de conferência para um usuário
+## <a name="resetting-the-conference-id-for-a-user"></a>Redefinindo o ID de conferência para um usuário
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No **Centro de administração do Skype for Business**, clique em **conferência de áudio** > **usuários**, selecione um usuário e clique em **Redefinir** no painel ação em **ID de conferência**.
+3. No **Skype para centro de administração de negócios**, clique em **conferência de áudio** > **usuários**, selecione um usuário e clique em **Redefinir**no painel de ação em **ID da conferência** .
     
-4. No **Redefinir o ID de conferência?** janela, clique em **Sim**. Uma conferência que ID será criado automaticamente e um email enviado para o usuário com a nova ID de conferência. Por padrão, emails são enviados aos usuários, mas isso pode ser desativado.
+4. No **Redefinir ID de conferência?** janela, clique em **Sim**. Uma conferência que ID será criado automaticamente e um email enviado ao usuário com a nova ID de conferência. Por padrão, os emails são enviados aos usuários, mas isso pode ser desativado.
     
     > [!NOTE]
-    > Depois de redefinir a ID de conferência, um email com a nova ID de conferência será enviado para o usuário. Esse email será enviado para o endereço de email primário do usuário. Em muitos casos, para a caixa de correio do Office 365. O email contém a nova ID de conferência, o(s) número(s) de telefone padrão de discagem e as instruções de como usar a Ferramenta de Atualização de Reunião do Skype for Business para atualizar reuniões existentes. 
+    > [!OBSERVAçãO] Depois de redefinir a ID de conferência, um email com a nova ID de conferência será enviado para o usuário. Esse email será enviado para o endereço de email primário do usuário. Em muitos casos, para a caixa de correio do Office 365. O email contém a nova ID de conferência, o(s) número(s) de telefone padrão de discagem e as instruções de como usar a Ferramenta de Atualização de Reunião do Skype for Business para atualizar reuniões existentes. 
   
-## O que mais devo saber?
+## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Você pode enviar todas as informações de conferência para o usuário em um email que inclui o ID de conferência e os números de discagem clicando em **Enviar informações de conferência via email** para o usuário no painel ação. Ele não envia o PIN.
+- Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de discagem ao clicar em **Enviar informações de conferência via email** para o usuário no painel de ações. Ele não envia o PIN.
     
-- Um ID de conferência conterá 7 dígitos, e não é possível alterar seu tamanho no Skype para o Centro de administração de negócios ou usando o Windows PowerShell.
+- Uma ID de conferência conterá 7 dígitos, e você não poderá alterar seu tamanho no Skype para centro de administração de negócios ou usando o Windows PowerShell.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     
-- A ID de conferência para um usuário para conferência de áudio pode ser visualizada na parte inferior do painel ação em **conferência de áudio** quando você selecionar o usuário na página **usuários**.
+- O ID de conferência para um usuário para conferência de áudio pode ser exibido na parte inferior do painel de ação em **conferência de áudio** quando você seleciona o usuário na página **usuários** .
     
-- Após uma nova ID de conferência é criada, a ID de conferência antigo não pode ser usada por chamadores. Você deve notificar os usuários reagendar seus convites para garantir que a conferência nova que identificação é adicionada aos convites de reunião existente. Os usuários podem usar Skype for Business ferramenta de reunião para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para Business ferramenta de atualização de reunião, consulte:
+- Depois que uma nova ID de conferência é criada, o ID de conferência antigos não pode ser usado por chamadores. Você deverá notificar os usuários a reprogramar seus convites para se certificar de que a nova conferência que ID é adicionada para os convites de reunião existente. Os usuários podem usar Skype para ferramenta de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte:
     
   - [Skype for Business (Lync) Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
-  - [Skype for Business Online, a ferramenta de migração de reunião (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)
+  - [Skype for Business Online, ferramenta de migração de reuniões (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [Skype for Business Online, a ferramenta de migração de reunião (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [Skype for Business Online, ferramenta de migração de reuniões (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
     
-## Quer saber como gerenciar com o Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
 - O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos para usar o Windows PowerShell para gerenciar o Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação a usar somente o centro de administração do Office 365, como para fazer alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
@@ -76,12 +80,8 @@ IDs de conferência automaticamente apenas são definidas somente para o Skype p
     
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Redefinir o PIN de conferência de áudio para um usuário](reset-the-audio-conferencing-pin-for-a-user.md)

@@ -1,38 +1,40 @@
 ---
-title: "Gerenciar mensagens unificadas do Exchange e hospedado caixa postal no Skype for Business Online"
+title: "Gerenciar a Unificação de mensagens do Exchange e hospedadas de caixa postal"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/18/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.assetid: 707198df-df85-4833-9c15-aa29b71f085c
-
-description: "Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: PowerShell
+description: "Use o PowerShell para gerenciar recursos de Unificação de mensagens do Exchange, como o atendedor automático e acesso ao assinante e caixa postal hospedada no Skype para negócios Online."
+ms.openlocfilehash: a5f358d06ed7c7e805aeffbce6a6898cc2a86b73
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Gerenciar a Unificação de mensagens do Exchange e hospedadas de caixa postal
 
-# Gerenciar mensagens unificadas do Exchange e hospedado caixa postal no Skype for Business Online
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Você pode gerenciar a Unificação de mensagens do Exchange e hospedado de caixa postal na Skype para Business Online por meio de um conjunto de cmdlets.
   
-Você pode gerenciar Exchange Unificação de mensagens e caixa postal hospedado no Skype for Business Online usando um conjunto de cmdlets.
-  
-## Gerenciar as mensagens unificado do Exchange e hospedado caixa postal
+## <a name="manage-exchange-unified-messaging-and-hosted-voice-mail"></a>Gerenciar o Exchange unificada messaging e hospedadas de caixa postal
 
-Os seguintes cmdlets podem ser usados para gerenciar Exchange Unificação de mensagens (UM) e políticas de caixa postal hospedado:
+Os cmdlets a seguir podem ser usados para gerenciar o Exchange Unified Messaging (UM) e diretivas de caixa postal hospedada:
   
 |**Cmdlet**|**Descrição**|
 |:-----|:-----|
-|[Get-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849628) <br/> [Novo CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849629) <br/> [Remover CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849630) <br/> [Set-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849631) <br/> |Cria e gerencia objetos de contato usados para serviços de atendedor automático e acesso ao assinante, ao Exchange ATENDEDOR é um serviço hospedado.  <br/> Skype for Business Online funciona com Exchange ATENDEDOR para fornecer vários recursos relacionados a voz, incluindo atendedor automático e acesso ao assinante. Atendedor Automático fornece uma maneira para chamadas automaticamente sejam respondidas e encaminhadas para a pessoa correta. Acesso ao assinante permite que os usuários se conectem ao Exchange ATENDEDOR e recuperar emails, mensagens de voz, contatos e informações de calendário.  <br/> Quando Exchange ATENDEDOR é fornecido como um serviço hospedado, objetos de contato usados para os serviços de atendedor automático e acesso ao assinante devem ser criados usando Microsoft PowerShell. Esses objetos são criados e gerenciados usando os cmdlets **CsExUmContact**. <br/> |
-|[Get-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> [Conceder-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/> |Gerencia políticas de caixa postal hospedado usadas na organização. Políticas de caixa postal hospedado especificam chamadas não atendidas como são roteados para o serviço UM Exchange. Essas políticas afetam somente os usuários que foram habilitados para Exchange ATENDEDOR hospedado caixa postal.  <br/> Para verificar se um usuário está habilitado para caixa postal hospedado, execute um comando semelhante à seguinte no prompt de PowerShell.  <br/> ```Get-CsOnlineUser -Identity "kenmyer@litwareinc.com" | Select-Object HostedVoiceMail```|
+|[Get-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849628) <br/><br/> [New-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849629) <br/> <br/>[Remove-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849630) <br/> <br/>[Set-CsExUmContact](https://go.microsoft.com/fwlink/p/?linkid=849631) <br/> |Cria e gerencia os objetos de contato usados para serviços de atendedor automático e acesso do assinante, quando o UM do Exchange é um serviço hospedado.  <br/><br/> Skype para Business Online funciona com UM do Exchange para fornecer várias capacidades relacionadas à voz, incluindo o atendedor automático e acesso ao assinante. Atendedor automático oferece uma maneira para chamadas automaticamente ser atendida e roteadas para a pessoa correta. Acesso ao assinante permite aos usuários se conectar a UM do Exchange e recuperar mensagens de voz, email, contatos e informações de calendário.  <br/><br/> Quando UM do Exchange é fornecido como um serviço hospedado, usados para os serviços de atendedor automático e acesso ao assinante de objetos de contato devem ser criados usando o Microsoft PowerShell. Esses objetos são criados e gerenciados usando os cmdlets **CsExUmContact** . <br/> |
+|[Get-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849633) <br/> <br/>[Grant-CSHostedVoicemailPolicy](https://go.microsoft.com/fwlink/p/?linkid=849602) <br/> |Gerencia políticas de caixa postal hospedada usadas na organização. As políticas de caixa postal hospedada especificam como respondidas são roteadas para o serviço UM do Exchange. Essas diretivas afetam somente os usuários que tiverem sido habilitados para UM do Exchange hospedado de caixa postal.  <br/><br/> Para verificar se um usuário está habilitado para caixa postal hospedada, execute um comando semelhante ao seguinte prompt do PowerShell.  <br/> ' Get-CsOnlineUser-Identity "kenmyer@litwareinc.com" | Select-Object HostedVoiceMail'|
    
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar seu computador e Skype para gerenciamento online de negócios usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

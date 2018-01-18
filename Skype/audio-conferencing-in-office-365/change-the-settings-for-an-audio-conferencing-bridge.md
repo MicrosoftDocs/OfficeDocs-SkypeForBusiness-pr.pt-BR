@@ -2,115 +2,111 @@
 title: "Alterar as configurações de uma ponte de conferência de áudio"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
-description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that''s used to prompt callers and gather names and pins for meeting organizers when they''re not using Skype for Business clients. '
+ms.openlocfilehash: 5da33e083999f00d217a86455f61fd58ca2d1713
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de conferência de áudio
 
-# Alterar as configurações de uma ponte de conferência de áudio
+Quando você estiver configurando a conferência de áudio no Office 365, você receberá os números de telefone para seus usuários a partir o que é acionado uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. Esses números de telefone são usados quando os chamadores discam para uma reunião. O número de telefone está incluído na parte inferior do Skype para o convite de reunião de negócios ou Teams da Microsoft.
+  
+A ponte de conferência atende uma chamada e solicita que o chamador com os prompts de voz usando um automático de reunião attendant e em seguida, dependendo das suas configurações, ele pode reproduzir notificações, será feita aos chamadores registrar seus nomes e controlar as configurações de PIN. PINs são fornecidas aos organizadores de reuniões para permitir que eles para iniciar uma reunião quando forem não estiver usando um Skype para aplicativo de negócios ou Teams da Microsoft.
 
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+    > [!IMPORTANT]
+    > A PIN is only required for the meeting organizer when a Skype for Business or Microsoft Teams app user hasn't already started the meeting. If everyone is dialing in to the meeting, the PIN is required for the meeting organizer to start the meeting. 
   
-Quando você estiver configurando audioconferência no Office 365, você receberá números de telefone para seus usuários do que é chamado de uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. Esses números de telefone são usados quando os chamadores discam para uma reunião. O número de telefone está incluído na parte inferior da Skype for Business ou Teams Microsoft convite de reunião.
-  
-A ponte de conferência responde a uma chamada e solicita o chamador com prompts de voz usando uma automática de reunião Atendedor e, em seguida, dependendo das suas configurações, ele pode reproduzir notificações, peça aos chamadores gravarem o nome e controlar as configurações de PIN. Pinos recebem a organizadores de reunião para permitir que ele para iniciar uma reunião quando elas são não estiver usando um Skype for Business ou um aplicativo de Teams da Microsoft.
-  
-> [!IMPORTANT]
-> Um PIN só é necessário para o organizador da reunião quando um usuário de aplicativo de Teams da Microsoft ou Skype for Business já não começou a reunião. Se todos é discando para a reunião, o PIN é necessário para o organizador da reunião iniciar a reunião. 
-  
-## Alterar as configurações de uma ponte de conferência de áudio
+## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de conferência de áudio
 
- **Configurar a experiência de reunião quando os chamadores ingressar em uma reunião**
+ **Configurar a experiência da reunião, quando os chamadores ingressem em uma reunião**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No **Centro de administração do Skype for Business**, no painel esquerdo, vá para **a conferência de áudio** > **configurações de ponte da Microsoft**.
+3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-4. Na página **configurações de ponte da Microsoft**, em **experiência de participar da reunião**, selecione:
+4. Na página **configurações de ponte da Microsoft** , em que a **experiência de participação da reunião**, selecione:
     
-  - **Habilitar a entrada da reunião e sair notificações para ser ativado** Isso é selecionado por padrão. Se você desmarcar a caixa de seleção, os usuários que já ingressou na reunião não serão notificados quando alguém entra ou sai da reunião.
+  - **Habilitar a entrada da reunião e sair notificações para ser ativado** Isso é selecionado por padrão. Se você desmarcar a caixa de seleção, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
     
-    Quando você seleciona **Habilitar a entrada da reunião e sair notificações para ser ativado**, você pode selecionar essas opções da lista de **tipos de anúncio de entrada/saída**:
+    Quando você seleciona **Ativar entrada de reunião e sair notificações para ser ativado**, você pode selecionar essas opções na lista **tipo de anúncio de entrada/saída** :
     
-  - **Nomes ou números de telefone** Quando os usuários ingressam em uma reunião, seu número de telefone será tocado quando eles ingressar nele.
+  - **Nomes ou números de telefone** Quando os usuários discam para uma reunião, seu número de telefone será reproduzido quando eles entrarem-lo.
     
-  - **Tons** Quando os usuários ingressam em uma reunião, um tom de áudio será tocado quando eles ingressar nele.
+  - **Toques** Quando os usuários discam para uma reunião, um tom de áudio será reproduzido quando eles entrarem-lo.
     
     > [!NOTE]
-    > O uso do **Tom** como tipo de comunicado está disponível para todos os clientes de visualização atualmente.
+    > [!OBSERVAçãO] O uso do **Tom** como tipo de comunicado está disponível para todos os clientes de visualização atualmente.
   
-  - **Chamadores Ask gravem o nome antes de ingressar na reunião** Isso é selecionado por padrão. Se você desmarcar a caixa de seleção, os chamadores não serão solicitados a gravarem o nome antes de ingressar em uma reunião.
+  - **Chamadores Ask registrar seus nomes antes de ingressar na reunião** Isso é selecionado por padrão. Se você desmarcar a caixa de seleção, os chamadores não solicitados registrar seus nomes antes de ingressar em uma reunião.
     
 5. Depois de fazer suas alterações, clique em **Salvar**.
     
- **Definir o comprimento do PIN para reuniões**
+**Definir o tamanho PIN para reuniões**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No **Centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **conferência de áudio** > **configurações de ponte da Microsoft**.
+3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-4. Na página **configurações de ponte da Microsoft**, em **segurança**, insira o número de dígitos desejado para o PIN na lista **tamanho do PIN** e clique em **Salvar**.
+4. Na página **configurações de ponte da Microsoft** , em **segurança**, insira o número de dígitos que você deseja para o PIN na lista **tamanho PIN** e clique em **Salvar**.
     
     > [!IMPORTANT]
-    > O PIN deve estar entre 4 e 12 dígitos. 
+    > O PIN deve ter entre 4 e 12 dígitos. 
   
- **Selecione se deseja enviar email para seus usuários**
+**Selecione se deseja enviar o email para seus usuários**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No **Centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **conferência de áudio** > **configurações de ponte da Microsoft**.
+3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-4. Na página **configurações de ponte da Microsoft**, marque ou desmarque **Enviar automaticamente os emails aos usuários se mudar suas configurações de conferência de áudio** e clique em **Salvar**.
+4. Na página **configurações de ponte da Microsoft** , marque ou desmarque **Enviar automaticamente os e-mails para os usuários se altera sua configuração de conferência de áudio**e clique em **Salvar**.
     
-    Consulte [Emails que são automaticamente enviados aos usuários quando alterar suas configurações de conferência de áudio](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md) para obter mais informações.
+    Para obter mais informações, consulte [Emails enviados automaticamente para os usuários quando alteram suas configurações de conferência de áudio](emails-sent-to-users-when-their-settings-change.md) .
     
-## Quer saber como gerenciar com o Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
 - Para economizar tempo ou automatizar esse processo, você pode usar o cmdlet [Set-CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686 ) .
     
-- Windows PowerShell é tudo sobre gerenciamento de usuários e o que os usuários são permitidos ou não fazer. Com o Windows PowerShell, você pode gerenciar Office 365 usando um único ponto de administração que pode simplificar o seu trabalho diário quando você tem várias tarefas a fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tem várias vantagens em velocidade, simplicidade e produtividade sobre usando somente o Centro de administração do Office 365, como quando você estiver fazendo alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre estas vantagens nos tópicos a seguir:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações de configuração de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Como usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > O módulo do Windows PowerShell para Skype for Business Online permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, aceito somente em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft, em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). 
+    > [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Conferência discada no Office 365](../misctopics/dial-in-conferencing-in-office-365.md)
+[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](set-up-audio-conferencing.md)
 

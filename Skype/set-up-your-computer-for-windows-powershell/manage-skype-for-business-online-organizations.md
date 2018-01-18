@@ -1,27 +1,34 @@
 ---
-title: "Gerenciar o Skype for Business Online organizações que usam o Skype para Business Connector Online"
+title: "Gerenciar Skype para organizações Business Online"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 5/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a
-description: "Use Windows PowerShell and the Get-CsTenant and Get-CsTenantLicensingConfiguration cmdlets to get information about your Skype for Business Online tenant."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: PowerShell
+description: "Use o Windows PowerShell e os cmdlets Get-CsTenant e Get-CsTenantLicensingConfiguration para obter mais informações sobre sua Skype para locatário Business Online."
+ms.openlocfilehash: cab693fa153eae99ac605981112a30ec09f49920
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="manage-skype-for-business-online-organizations"></a>Gerenciar Skype para organizações Business Online
 
-# Gerenciar o Skype for Business Online organizações que usam o Skype para Business Connector Online
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Você pode encontrar informações sobre sua Skype para locatário Business Online usando os cmdlets **Get-CsTenant** e **Get-CsTenantLicensingConfiguration** .
   
-Você pode encontrar informações sobre seu locatário Skype for Business Online usando os cmdlets **Get-CsTenant** e **Get-CsTenantLicensingConfiguration**.
-  
-## Gerenciar o Skype for Business Online locatários
+## <a name="manage-skype-for-business-online-tenants"></a>Gerenciar Skype para os locatários Business Online
 
-Para retornar informações sobre seu locatário Skype for Business Online, ligue para o cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sem parâmetros adicionais.
+Para retornar informações sobre sua Skype para locatário Business Online, chame o cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sem quaisquer parâmetros adicionais.
   
 ```
 Get-CsTenant
@@ -33,14 +40,9 @@ Para retornar apenas o locatário nome e ID, use este comando.
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-O valor do parâmetro  _TenantID_ é necessário ao executar cmdlets como[Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) e[Set-CsTenantFederationConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849602).
+O valor do parâmetro _TenantID_ é necessário ao se executar cmdlets como [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) e [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).
   
-Para localizar informações sobre informações de licenciamento do locatário especificado estão disponíveis no Centro de administração Skype for Business Online, use o cmdlet [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
+Para encontrar informações sobre se as informações de licenciamento para o inquilino especificado estão disponíveis no Skype para o admin center Business Online, use o cmdlet [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar seu computador e Skype para gerenciamento online de negócios usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

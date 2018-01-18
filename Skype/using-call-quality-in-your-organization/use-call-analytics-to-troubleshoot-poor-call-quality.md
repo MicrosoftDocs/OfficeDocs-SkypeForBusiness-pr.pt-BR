@@ -1,77 +1,76 @@
 ---
-title: "Usar a análise de chamada solucionar má Skype para empresas a qualidade das chamadas"
+title: "Qualidade de chamada de análise de uso chamada solucionar ruim Skype para negócios"
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.date: 6/22/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.prod: office-online-server
-localization_priority: Normal
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
-description: "Use Call Analytics details about devices, networks, and connectivity to troubleshoot user problems with Skype for Business calls and meetings."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Use os detalhes de chamada análise sobre dispositivos, redes e conectividade para solucionar problemas de usuário com o Skype para reuniões e chamadas comerciais."
+ms.openlocfilehash: 043c7eac6099f23217c155ad91bf818aa4e57892
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Qualidade de chamada de análise de uso chamada solucionar ruim Skype para negócios
 
-# Usar a análise de chamada solucionar má Skype para empresas a qualidade das chamadas
+Análise de chamada ajuda você a solucionar problemas de chamada ou a conexão com o Skype para negócios. Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade para as chamadas e reuniões de cada usuário na sua Skype para a conta de negócios. Se criando, site e de inquilinos informações foram adicionadas para análise de chamada, ele também será mostrado para cada chamada e a sessão. Informações disponíveis por meio da análise de chamada podem ajudá-lo a descobrir por que um usuário teve uma chamada de baixa ou experiência da reunião. 
+  
+    > [!NOTE]
+    > Call Analytics is currently in preview. Text and images described here may not match your experience. 
+  
+## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Solucionar problemas de qualidade de chamada usando a análise de chamada
 
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+O nível de permissões atribuído a você determina qual tipo de informação que você tem acesso na análise de chamada:
   
-Análise de chamada ajuda a solucionar problemas de chamada ou conexão com Skype for Business. Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade a chamadas e reuniões de cada usuário em sua conta de Skype for Business. Se criando, de site e de locatários informações foram adicionadas para análise de chamada, ele também será mostrado para cada chamada e a sessão. Informações disponíveis por meio de análise de chamada podem ajudá-lo a compreender por que um usuário tinha uma chamada má ou experiência de reunião.
-  
-> [!NOTE]
-> Análise de chamada está sendo preview. Texto e imagens descritas aqui podem não coincidir com sua experiência. 
-  
-## Solucionar problemas de qualidade de chamada usando a análise de chamadas
-
-O nível de permissões atribuído a você determina o tipo de informação que você tem acesso na análise de chamada:
-  
-- **Skype para administração de empresas**: você tem acesso a todas as informações no Analytics chamar e no Centro de administração do Skype for Business.
+- **Skype para Business admin**: você tem acesso a todas as informações na análise de chamadas e no Skype para Business Admin center.
     
-- **Agente de assistência técnica com permissões de nível 1**: você vir um conjunto limitado de dados em análise de chamadas. Você pode solucionar chamadas, mas você vai entregar problemas com reuniões para um agente de nível 2. Você não tem acesso ao restante do Centro de administração do Skype for Business.
+- **Agente de assistência técnica com permissões de nível 1**: você ver um conjunto limitado de dados na análise de chamada. Você pode solucionar problemas de chamadas, mas você entregar problemas com reuniões para um agente de nível 2. Você não tem acesso ao restante do Skype para Business Admin center.
     
-- **Agente de assistência técnica com permissões de nível 2**: ver todos os dados disponíveis em análise de chamadas e pode ajudar a solucionar problemas com chamadas e reuniões. Você não tem acesso ao restante do Centro de administração do Skype for Business.
+- **Agente de assistência técnica com permissões de nível 2**: ver todos os dados disponíveis na análise de chamada e pode ajudar a solucionar problemas com chamadas e reuniões. Você não tem acesso ao restante do Skype para Business Admin center.
     
-Consulte seu administrador de Skype for Business se precisar de ajuda com permissões.
+Se você precisa de ajuda com permissões, consulte sua Skype para administração de negócios.
   
- **Abra a análise de chamada como um agente de suporte técnico de nível 1 ou nível 2**
+ **Abra o Analytics chamada como um agente de assistência técnica da camada 1 ou camada 2**
   
-1. Vá para [https://adminportal.services.skypeforbusiness.com](https://adminportal.services.skypeforbusiness.com)e, em seguida, entre com seu nome de usuário e senha.
+1. Vá para o Centro de administração do Office 365 e entrar usando sua conta do trabalho ou da escola. Em seguida, no seu navegador da web vá para *https://adminportal.services.skypeforbusiness.com*.
     
-2. Em **Pesquisa de usuário**, comece a digitar o endereço sip ou o nome do usuário cujas chamadas que você deseja solucionar e, em seguida, selecione o usuário na lista.
+2. Em **Pesquisa de usuário**, comece a digitar um endereço sip ou o nome do usuário cujas chamadas que você deseja resolver e, em seguida, selecione o usuário na lista.
     
-    ![Screenshot of the User Search box of Call Analytics in the Skype for Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
+    ![Captura de tela da caixa de pesquisa de usuário do Analytics chamada no Skype para Business Admin Center.](../images/db52efc5-dac1-4623-ba72-41e42f0a0fb4.png)
   
-3. No **histórico de chamadas**, selecione chamada ou reunião que você deseja solucionar.
+3. No **histórico de chamadas**, selecione a chamada ou reunião que você deseja resolver.
     
-    ![Screenshot shows the call history page for a user with information such as the user's contact details, a summary of the 7-day quality and activity for meetings and calls, and an overview of dates and times, recipients, and audio quality,](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
+    ![Captura de tela mostra a página do histórico de chamada para um usuário com informações como detalhes de contato do usuário, um resumo da qualidade de 7 dias e atividade para reuniões e chamadas e uma visão geral das datas e horas, destinatários e qualidade de áudio](../images/aef80e09-3b37-46db-8e7b-8cf71712349b.png)
   
-4. Selecione a guia **Avançado** e, em seguida, procure por itens amarelos e vermelhos que indicam problemas de qualidade ou conexão de chamada má.
+4. Selecione a guia **Avançado** e, em seguida, procure por itens amarelos e vermelhos que indicam problemas de chamada de baixa qualidade ou conexão.
     
-    Na seção detalhes da sessão para cada chamada ou reunião, pequenos problemas aparecem em amarelo. (Por exemplo, a captura de tela seguinte, os valores são em amarelo para variação média, Max variação e taxa de perda de pacote média.) Se algo estiver amarelo, ele está fora do intervalo normal e ele pode ser contribuem para o problema, mas é provável a causa principal do problema. Se algo estiver vermelho, é um problema significativo, e é provável a causa principal da chamada de má qualidade para esta sessão.
+    Nos detalhes da sessão para cada chamada ou reunião, pequenos problemas serão exibidas em amarelo. (Por exemplo, a seguinte captura de tela, os valores são em amarelo para variação média, tremulação máxima e taxa de perda de pacote média.) Se algo é amarelo, ele estiver fora do intervalo normal e ele pode estar contribuindo para o problema, mas é improvável de ser a causa principal do problema. Se algo é vermelho, é um problema significativo e provavelmente é o principal motivo da qualidade da chamada ruim para esta sessão. 
     
-    ![Screenshot shows the Advanced tab of a user's Call history with the Inbound network section expanded to reveal that the data for average jitter, max jitter, and average packet loss rate are shown in a yellow color, meaning they are minor issues.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
+    ![Captura de tela mostra a guia Avançado da chamada histórico de um usuário com a seção de rede de entrada expandida para revelar que os dados de variação média, máxima tremulação e taxa de perda de pacote média são mostrados com uma cor amarela, que significa que eles são pequenos problemas.](../images/13f314ce-97cf-4bd0-a147-14b177d07040.png)
   
-Em casos raros, qualidade da experiência de dados não for recebida para sessões de áudio. Geralmente, isso é causado pela chamada soltar e conexão com o cliente encerrando. Quando isso ocorre, a classificação de sessão é "indisponível".
+Em casos raros, dados qualidade da experiência não for recebida para sessões de áudio. Geralmente, isso é causado pela chamada eliminando e conexão com o cliente abortar. Quando isso acontecer, a classificação de sessão é "não disponível".
   
-Para sessões de áudio que têm a qualidade dos dados de experiência (QoE), a tabela a seguir descreve problemas principais que qualificar uma sessão como "ruim".
+Para sessões de áudio que tenham dados qualidade da experiência (QoE), a tabela a seguir descreve os principais problemas que qualificar uma sessão como "ruim".
   
 |**Problema**|**Área**|**Descrição**|
 |:-----|:-----|:-----|
-|Configuração de chamada  <br/> |Sessão  <br/> |O código de erro Ms-diagnóstico 20-29 indica falha de configuração da chamada. O usuário não foi possível ingressar chamada ou reunião.  <br/> |
-|Rede de áudio classificados chamada ruim  <br/> |Sessão  <br/> |Problemas de qualidade da rede foram encontrados em áreas como perda de pacotes, variação, degradação NMOS, tempo de resposta, ou ocultos proporção. Para obter mais informações sobre as condições usado para classificar má chamadas, consulte esta [postagem de blog Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|Configuração da chamada  <br/> |Sessão  <br/> |O código de erro 20-29 Ms-diagnóstico indica que a instalação chamada falhou. O usuário não pôde ingressar na chamada ou a reunião.  <br/> |
+|Rede de áudio classificadas chamadas ruins  <br/> |Sessão  <br/> |Problemas de qualidade de rede foram encontrados em áreas como perda de pacotes, tremulação, degradação NMOS, tempo de resposta, ou oculta a proporção. Para obter mais informações sobre as condições usado para classificar as chamadas de baixa, consulte esta [postagem de blog da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |Dispositivo não funcionando  <br/> |Dispositivo  <br/> | Um dispositivo não está funcionando corretamente. Dispositivo não funcionando taxas é: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar o Skype para análise de chamada de negócios](set-up-call-analytics.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Configurar o Skype para a análise de chamadas de negócios](set-up-skype-for-business-call-analytics.md)
+[O que é a diferença entre a análise de chamada e o painel de controle de qualidade de chamada?](difference-between-call-analytics-and-call-quality-dashboard.md)
 

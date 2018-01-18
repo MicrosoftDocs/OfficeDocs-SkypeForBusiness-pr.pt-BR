@@ -2,83 +2,86 @@
 title: "Adicionar, alterar ou remover um local de emergência para sua organização"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
-description: "Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
+ms.openlocfilehash: 1b089fcebe3a713a1c810a8810c0fa83cfd46970
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
-# Adicionar, alterar ou remover um local de emergência para sua organização
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Dependendo do número de locais físicos em sua organização, você pode criar locais de emergência para prédios, andares e escritórios para criar um endereço de emergência mais específico. Consulte [Cite locais de emergência, endereços e roteamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obter mais informações.
   
-Dependendo do número de locais físicos em sua organização, você pode criar locais de emergências para edifícios, plantas e escritórios para criar um endereço de emergência mais específico. Consulte [O que são locais e endereços de emergência e encaminhamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obter mais informações.
+Para saber como obter um plano de chamada e quanto eles custam, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Para saber como obter um plano de chamar e quanto eles custam, consulte [Skype para Business e Teams Microsoft complemento licenciamento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
-  
-## Adicionar um local de emergência a um endereço de emergência
-
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
-    
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
-    
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência** e selecione o endereço de emergência que você deseja adicionar um local para.
-    
-    **IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.
-    
-4. No painel ação, ao lado de **locais associados**, clique em **Alterar**.
-    
-5. Em **locais associados**, clique em **Adicionar novo**, digite outro local associado (por exemplo, insira "Construção 64 andar 1" e clique em **Enviar**.
-    
-6. Clique em **Salvar**.
-    
-## Alterar um local de emergência para um endereço de emergência
+## <a name="add-an-emergency-location-to-an-emergency-address"></a>Adicionar um local de emergência a um endereço de emergência
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência** e selecione o endereço de emergência para o qual você deseja alterar um local.
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja adicionar um local para.
     
-4. No painel ação, ao lado de **locais associados**, clique em **Alterar**.
+    > [!Important]
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-5. Em **locais associados**, clique no link para o local na lista, insira os detalhes do novo local em **Alterar associado detalhes local** e clique em **Enviar**.
+4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
+    
+5. No **locais associados**, clique em **Adicionar novo**, insira outro local associado (por exemplo, digite "Edifício Floor 64 1") e, em seguida, clique em **Enviar**.
     
 6. Clique em **Salvar**.
     
-## Remover um local de emergência de um endereço de emergência
+## <a name="change-an-emergency-location-for-an-emergency-address"></a>Alterar um local de emergência de um endereço de emergência
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência** e selecione o endereço de emergência que você deseja remover um local para.
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência para o qual você deseja alterar um local.
     
-4. No painel ação, ao lado de **locais associados**, clique em **Alterar**.
+4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
     
-5. Em **locais associado**, em seguida o link para o local, clique em **Remover**.
+5. Em **locais associados**, clique no link para o local na lista, insira os detalhes do novo local na **alteração associados detalhes do local**e, em seguida, clique em **Enviar**.
     
 6. Clique em **Salvar**.
     
-## Tópicos Relacionados
+## <a name="remove-an-emergency-location-from-an-emergency-address"></a>Remover um local de emergência de um endereço de emergência
 
-[Áudio período discar complementar de conferência](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
+1. Entre no Office 365 com sua conta corporativa ou de estudante.
+    
+2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+    
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja remover um local para.
+    
+4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
+    
+5. Em **locais associados**, em seguida o link para o local, clique em **Remover**.
+    
+6. Clique em **Salvar**.
+    
+## <a name="related-topics"></a>Tópicos relacionados
+[O que é a validação de endereço?](what-is-address-validation.md)
+
+[Gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+
 [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
-  
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+  

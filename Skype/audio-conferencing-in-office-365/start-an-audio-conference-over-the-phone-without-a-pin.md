@@ -2,46 +2,51 @@
 title: "Iniciar uma conferência de áudio por telefone sem um PIN"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/16/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: d5b1f775-d7ed-4d30-853a-1d49f81e8fde
-description: "Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
+ms.openlocfilehash: c77921af87cab23b475c31205da4661755c56961
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Iniciar uma conferência de áudio por telefone sem um PIN
 
-# Iniciar uma conferência de áudio por telefone sem um PIN
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Talvez seja frustrante para usuários que discam para uma reunião para ser mantidos no lobby da reunião escutando música porque o Skype para negócios ou Microsoft Teams organizador da reunião não tiver iniciado a reunião. 
   
-Pode ser frustrante para os usuários que ingressam em uma reunião a ser realizado no lobby da reunião ouvir música porque o Skype for Business ou Teams Microsoft organizador da reunião ainda não começou a reunião.
+Se o organizador da reunião chama reunião, por padrão, é necessário um PIN para iniciar uma reunião. Você pode montá-lo para que qualquer pessoa pode discar para uma reunião e não ser solicitado a fornecer um PIN para iniciar a reunião. Você pode usar o Skype para centro de administração de negócios para habilitar ou desabilitar essa configuração de um único usuário.
   
-Se o organizador da reunião chamadas em para a reunião, por padrão, é necessário um PIN para iniciar uma reunião. Você pode configurá-lo para que qualquer pessoa pode discar para uma reunião e não ser solicitado a fornecer um PIN iniciar a reunião. Você pode usar o Skype para o Centro de administração de negócios para ativar ou desativar essa configuração para um único usuário.
+Um PIN não é necessário para o organizador da reunião, se alguém tiver iniciado a reunião de um Skype para aplicativo de negócios ou Teams da Microsoft. Um PIN só é necessária quando um organizador de reunião ingressa sua reunião em um telefone. O PIN para reuniões é enviado ao usuário áudio quando eles recebem a licença de **Serviços de audioconferência** e estão habilitados para conferência de áudio. Consulte [Enviar um email a um usuário com as informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md) e [Emails que são enviados automaticamente para os usuários quando alteram suas configurações de conferência de áudio](emails-sent-to-users-when-their-settings-change.md).
   
-Um PIN não é necessário para o organizador da reunião se alguém começou a reunião de uma Skype para Business ou Microsoft Teams o aplicativo. Um PIN só é necessário quando um reunião organizador entre seus ao longo de um telefone. O PIN para reuniões é enviado para o usuário áudio quando eles são atribuídos a licença de **Conferência de áudio** e estão habilitados para conferência de áudio. Consulte[Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-audio-conferencing-information.md) e[Emails que são automaticamente enviados aos usuários quando alterar suas configurações de conferência de áudio](emails-that-are-automatically-sent-to-users-when-their-audio-conferencing-settin.md).
-  
-## Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
+## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No **Centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **conferência de áudio** > **usuários**.
+3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**. 
     
-4. Na lista, selecione o usuário e no painel ação, clique em **Editar**.
+4. Na lista, selecione o usuário e no painel de ações, clique em **Editar**. 
     
-5. Na página de propriedades do usuário, em **Opções de reunião**, marque ou desmarque **Permitir que não autenticado chamadores para ser primeira pessoas em uma reunião. Se não, em seguida, eles serão aguardar no lobby até que um usuário autenticado une**.
+5. Na página de propriedades do usuário, em **Opções de reunião**, marque ou desmarque **chamadores de permitir não autenticado para ser as primeira pessoas em uma reunião. Se não, em seguida, eles aguardará no lobby até que um usuário autenticado**.
     
-6. Clique em **Salvar**.
+6. Clique em **Salvar**. 
     
- **Para habilitar ou desabilitar chamadores anônimos a todas as reuniões do usuário usando o Windows Powershell**
+ **Para habilitar ou desabilitar todas as reuniões do seu usuário usando o Windows Powershell os chamadores anônimos**
   
 - Execute o seguinte: 
     
@@ -49,47 +54,43 @@ Um PIN não é necessário para o organizador da reunião se alguém começou a 
   Set-CsOnlineDialInConferencingTenantSetting -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 
-## O que mais você deve saber?
+## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
-- Se você deseja redefinir o PIN, consulte [Redefinir o PIN de conferência de áudio para um usuário](reset-the-audio-conferencing-pin-for-a-user.md).
+- Se você quiser redefinir o PIN, consulte [Redefinir o PIN de conferência de áudio para um usuário](reset-the-audio-conferencing-pin-for-a-user.md).
     
-- Se o acesso anônimo ou não exigir um PIN iniciar uma reunião, estiver ativado:
+- Se o acesso anônimo ou não exigir um PIN iniciar uma reunião, estiver habilitado:
     
-  - Se a reunião ainda não começou (há ninguém da reunião ainda): um chamador será solicitado se ele for o organizador; Se ele diz Sim, ele será solicitado para seu PIN e depois ele insere o PIN, a reunião será iniciado e o usuário será ingressar na reunião.
+  - Se a reunião ainda não iniciado (há ninguém na reunião ainda): um chamador será solicitado se ele for o organizador; Se ele diz Sim, ele será solicitado para seu PIN e depois que ele insere o PIN, iniciará a reunião e o usuário será ingressar na reunião.
     
-  - Se a reunião já iniciou (alguém já está na reunião): um chamador não será avisado se ele for o organizador e ele nunca será solicitado o PIN; a reunião já é iniciada e o chamador ingressarão-lo.
+  - Se a reunião já iniciado (alguém já está na reunião): um chamador não será avisado se ele for o organizador, e ele nunca será solicitado para o PIN; a reunião já estará iniciada e o chamador participará.
     
-- Se o acesso anônimo ou não exigir um PIN iniciar uma reunião, é desativado:
+- Se o acesso anônimo ou não exigir um PIN iniciar uma reunião, está desativado:
     
-  - Se a reunião ainda não começou (há ninguém da reunião ainda): um chamador não será avisado se ela for o organizador, e ela nunca será solicitada o PIN. Como a configuração do organizador está definida para desativado, a reunião será iniciado e os chamadores anônimos ingressará na reunião.
+  - Se a reunião ainda não iniciado (há ninguém na reunião ainda): um chamador não será avisado se ela for o organizador, e ela nunca será solicitada para o PIN. Como a configuração do organizador é definida como desativado, a reunião será iniciada e os chamadores anônimos serão ingressar na reunião.
     
-  - Se a reunião já iniciou (alguém já está na reunião): um chamador não será avisado se ela for o organizador, e ela nunca será solicitada o PIN, a reunião já é iniciada e o chamador ingressarão-lo.
+  - Se a reunião já iniciado (alguém já está na reunião): um chamador não será avisado se ela for o organizador, e ela nunca será solicitada para o PIN, a reunião já estará iniciada e o chamador participará.
     
-## Quer saber como gerenciar com o Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- Para economizar tempo ou automatizar o processo de mais de um usuário, você pode usar o cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) .
+- Para economizar tempo e automatizar a tarefa para mais de um usuário, você pode usar o cmdlet [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
     
-- Quando se trata de Windows PowerShell, Skype for Business Online é tudo sobre gerenciamento de usuários e o que os usuários são permitidos ou não fazer. Com o Windows PowerShell, você pode gerenciar Office 365 usando um único ponto de administração que pode simplificar o seu trabalho diário quando você tem várias tarefas a fazer. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+-  No que diz respeito ao Windows PowerShell, o Skype for Business Online gerencia os usuários e o que eles podem ou não fazer. No Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar o trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tem várias vantagens em velocidade, simplicidade e produtividade sobre usando somente o Centro de administração do Office 365, como quando você estiver fazendo alterações nas configurações para vários usuários ao mesmo tempo. Saiba mais sobre estas vantagens nos tópicos a seguir:
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações nas configurações de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-    [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [Como usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
-    > O módulo do Windows PowerShell para Skype for Business Online permite criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, aceito somente em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft, em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). 
+    > [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](set-up-audio-conferencing.md)

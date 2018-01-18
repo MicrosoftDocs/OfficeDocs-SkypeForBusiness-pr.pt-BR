@@ -1,126 +1,123 @@
 ---
-title: "Atribuir um terceiro como provedor de audioconferência"
+title: "Atribuir um terceiro como um provedor de serviços de audioconferência"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/22/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
+ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords:
 - ms.lync.lac.DialInExportImport
 - ms.lync.lac.DialInProvider
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
 ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
 - Strat_SB_PSTN
-ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
-description: "Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. "
+- Audio Conferencing
+description: 'Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. '
+ms.openlocfilehash: a53a2e63f15aa40eb6a88ab13daba2022b35e3b6
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="assign-a-third-party-as-the-audio-conferencing-provider"></a>Atribuir um terceiro como um provedor de serviços de audioconferência
 
-# Atribuir um terceiro como provedor de audioconferência
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Um provedor de audioconferência fornece a  *ponte de conferência*  . A ponte de conferência fornece o número de discagem, pinos e IDs de conferência para reuniões que são criados. Você só precisa atribuir um provedor de audioconferência para as pessoas que estiverem indo para agendar ou conduzir reuniões de Teams da Microsoft ou Skype for Business.
+Um provedor de serviços de audioconferência fornece a *ponte de conferência*. A ponte de conferência fornece o número de telefone de discagem, PINs e IDs de conferência para reuniões que são criados. Você precisará atribuir um provedor de serviços de audioconferência para pessoas que estão indo para agendar ou liderança Skype para reuniões de negócios ou Teams da Microsoft.
   
 > [!NOTE]
-> Para Teams da Microsoft, um usuário não pode usar um provedor de audioconferência terceirizado, eles devem usar audioconferência no Office 365, que define o provedor de audioconferência à Microsoft. 
+> For Microsoft Teams, um usuário não é possível usar um provedor de serviços de audioconferência de terceiros, eles deverão usar os serviços de audioconferência no Office 365, que define o provedor de serviços de audioconferência à Microsoft. 
   
-## Etapas para fazer antes de atribuir um provedor de audioconferência terceirizado
+## <a name="steps-to-do-before-you-can-assign-a-third-party-audio-conferencing-provider"></a>Etapas para se fazer antes de designar um provedor de serviços de audioconferência de terceiros
 
-1. Dependendo do plano do Office 365, talvez seja necessário comprar licenças do suplemento de **Conferência de áudio** para as pessoas em sua organização que pretende agendar ou cliente potencial Skype para empresas ou Teams Microsoft reuniões usando conferências de áudio. Para saber mais, consulte[Skype para Business e Teams Microsoft complemento licenciamento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. Dependendo do seu plano do Office 365, você talvez precise adquirir licenças de complemento de **Conferência de áudio** para as pessoas na sua organização que estão indo para agendar ou liderança Skype para reuniões de negócios ou Microsoft Teams usando a conferência de áudio. Para saber mais, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-2. Se você adquiriu licenças do suplemento de **Conferência de áudio**, atribuí-las com as pessoas em sua organização estão indo para agendar ou conduzir reuniões que usam a conferência de áudio. Consulte [Atribuir Skype para Business e Teams Microsoft licenças](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+2. Se você adquiriu licenças de complemento de **Conferência de áudio** , atribua as pessoas na sua organização que estão indo para agendar ou liderança reuniões que utilizam o áudio da conferência. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
     
     > [!NOTE]
-    > Se você atribuir uma licença de **Conferência de áudio** para alguém **depois** que você atribuir um provedor de audioconferência terceirizado, essa pessoa será definida automaticamente para usar a Microsoft como seu provedor de conferência de áudio, em vez disso! Se isso acontecer, você precisará primeiro remover Microsoft como provedor de conferência de áudio antes de atribuir um provedor de audioconferência terceirizado a elas.
+    > Se você atribuir uma licença de **Serviços de audioconferência** para alguém **depois** que você atribua um provedor de serviços de audioconferência de terceiros, essa pessoa será automaticamente definida para usar o Microsoft como seu provedor de serviços de audioconferência em vez disso! Se isso ocorrer, você precisará remover primeiro a Microsoft como um provedor de serviços de audioconferência antes de designar um provedor de serviços de audioconferência de terceiros para acessá-los.
   
-3. Encontre um provedor de audioconferência terceirizado no [Microsoft PinPoint](https://go.microsoft.com/fwlink/?LinkId=797530). Contate-los e descubra como fazer as coisas configurar com eles.
+3. Encontre um provedor de serviços de audioconferência de terceiros no [Microsoft identifique](https://go.microsoft.com/fwlink/?LinkId=797530). Contatá-los e descubra como obter coisas configurado com eles.
     
-    Ele lhe fornecerá: 
+    Ele lhe fornecerá:
     
-  - **Números de discagem (Chamada Tarifada)** e números de chamada gratuita se eles estiverem disponíveis.
+  - **Números de discagem (Chamada Tarifada)** e números para ligações gratuitas se eles estiverem disponíveis.
     
   - **IDs de conferência** que são usadas para cada pessoa que agenda reuniões. Alguns ACPs as chamam de senhas de conferência.
     
     > [!NOTE]
-    > Se você tiver feito a inicial configurar para um ACP de terceiros, mas agora, você precisa fazer alterações, na parte inferior da página de **Ponte da Microsoft**, **clique aqui para configurar um provedor de audioconferência terceirizado**. 
+    > Se você fez a inicial configurar um ACP de terceiros, mas agora você precisa fazer alterações, na parte inferior da página **Microsoft Bridge** **clique aqui para configurar um provedor de serviços de audioconferência de terceiros**. 
   
     > [!NOTE]
-    > Quando você ativar uma pessoa para conferência de áudio e atribuí-las um provedor de audioconferência terceirizado, os números de áudio e IDs de conferência (senhas) são adicionadas automaticamente a qualquer **nova** reuniões Skype for Business Online que criam.
+    > Quando você habilitar uma pessoa para conferência de áudio e atribuí-las um provedor de serviços de audioconferência de terceiros, os números de áudio e as IDs de conferência (códigos de acesso) são adicionados automaticamente a qualquer **novo** Skype para reuniões Online de negócios que eles criam.
   
-## Como atribuir um provedor de conferência de áudio de terceiros a um usuário
+## <a name="how-to-assign-a-third-party-audio-conferencing-provider-to-a-user"></a>Como atribuir um provedor de serviços de audioconferência de terceiros a um usuário
 
 1. No **Centro de administração do Skype for Business**, escolha **Usuários**. Selecione o usuário na lista e clique em **Editar** no painel de ações.
     
-2. Na página de propriedades do usuário, clique em **conferência de áudio** e insira estas informações:
+2. Na página de propriedades do usuário, clique em **conferência de áudio** e insira essas informações:
     
-  - **Nome do provedor**: selecione o provedor terceiro na lista.
+  - **Nome do provedor** Selecione o provedor de terceiros da lista.
     
   - **Número de Chamada Tarifada padrão** Isso é necessário.
     
   - **Número de chamada gratuito padrão** Isso não é necessário.
     
-  - **ID de conferência** Isso é fornecido pelo seu provedor de audioconferência.
+  - **ID de conferência** Isso é fornecido pelo seu provedor de serviços de audioconferência.
     
 3. Clique em **Salvar**.
     
-4. Envie o PIN que você recebeu do provedor de audioconferência para cada pessoa. O PIN pode ser necessário ligar como o organizador de chamada em conferência ou líder.
+4. Envie a cada pessoa o PIN que você recebeu do provedor de serviços de audioconferência. Talvez seja necessário o PIN a ser chamado na como o organizador da chamada em conferência ou líder.
     
     > [!NOTE]
-    > Quando você usa um provedor de audioconferência terceirizado, não há uma maneira para ver ou definir pinos em nome de organizadores de reuniões. 
+    > Quando você usa um provedor de serviços de audioconferência de terceiros, não há uma maneira de ver ou definir PINs em nome organizadores de reuniões. 
   
-## Como atribuir um provedor de audioconferência terceirizado a muitas pessoas ao mesmo tempo
+## <a name="how-to-assign-a-third-party-audio-conferencing-provider-to-many-people-at-the-same-time"></a>Como atribuir um provedor de serviços de audioconferência de terceiros para muitas pessoas ao mesmo tempo
 
-1. No **Centro de administração do Skype for Business**, escolha **audioconferência** > **ponte da Microsoft**. Na parte inferior da página, clique no link no **se você gostaria de configurar um provedor de conferência de áudio de terceiro em vez disso, clique aqui**.
+1. No **Skype para centro de administração de negócios**, escolha **audioconferências** > **ponte da Microsoft**. Na parte inferior da página, clique no link na **se você gostaria de configurar um provedor de serviços de audioconferência de terceiros em vez disso, clique aqui**.
     
     > [!NOTE]
-    > Se você tiver feito a inicial configurar para um ACP de terceiros, mas agora, você precisa fazer alterações, na parte inferior da página de **Ponte da Microsoft**, **clique aqui para configurar um provedor de audioconferência terceirizado**. 
+    > Se você fez a inicial configurar um ACP de terceiros, mas agora você precisa fazer alterações, na parte inferior da página de **Ponte da Microsoft** , **clique aqui para configurar um provedor de serviços de audioconferência de terceiros**. 
   
-2. Na página **Configurar um provedor de audioconferência de terceiros**, em **usuários de importação e exportação**, clique em **Assistente de exportação** e siga as etapas no **Assistente para exportar usuários**. Quando terminar, você terá um arquivo que lista as pessoas que você deseja configurar para conferência de áudio.
+2. Na página **Configurar um provedor de serviços de audioconferência de terceiros** , em **usuários de importação e exportação**, clique em **Assistente para exportar**e siga as etapas no **Assistente para exportação de usuários**. Quando terminar, você terá um arquivo que lista as pessoas que você deseja configurar para conferência de áudio.
     
-3. Envie o arquivo que você criou para seu provedor de audioconferência terceirizado. Irão adicionar informações de conferência de áudio para as pessoas listadas no arquivo e, em seguida, retornar o arquivo para você.
+3. Envie o arquivo que você criou para seu provedor de serviços de audioconferência de terceiros. Eles serão adicionar informações de conferência de áudio para as pessoas listadas no arquivo e, em seguida, retornar o arquivo para você.
     
-4. Verifique se o arquivo retornado contém as informações certas. Ouvimos falar de casos em que nem todas as pessoas listadas no arquivo obtiveram as informações certas. 
+4. Verifique se o arquivo retornado contém as informações certas. Ouvimos falar de casos em que nem todas as pessoas listadas no arquivo obtiveram as informações certas.
     
-5. Em **Configurar uma página de provedor de serviços de audioconferência terceirizado**, em **usuários de importação e exportação**, clique em **Assistente de importação** e siga as etapas no **Assistente de importação de usuários**
+5. Na página **Configurar um provedor de serviços de audioconferência terceiro**, em **Importar e exportar usuários**, clique em **Assistente de importação** e siga as etapas do **Assistente para importar usuários**.
     
-6. Envie o PIN que você recebeu do provedor de audioconferência para cada pessoa. O PIN pode ser necessário ligar como o organizador de chamada em conferência ou líder.
+6. Envie a cada pessoa o PIN que você recebeu do provedor de serviços de audioconferência. Talvez seja necessário o PIN a ser chamado na como o organizador da chamada em conferência ou líder.
     
     > [!NOTE]
-    > Quando você usa um provedor de audioconferência terceirizado, não há uma maneira para ver ou definir pinos em nome de organizadores de reuniões. 
+    > Quando você usa um provedor de serviços de audioconferência de terceiros, não há uma maneira de ver ou definir PINs em nome organizadores de reuniões. 
   
-## Quando usar um provedor de audioconferência terceirizado
+## <a name="when-to-use-a-third-party-audio-conferencing-provider"></a>Quando usar um provedor de serviços de audioconferência de terceiros
 
-Se você estiver em um país ou região onde audioconferência no Office 365 não está disponível, a qualidade do serviço não é ótima devido a sua localização, ou você tem um contrato existente com um provedor de audioconferência terceirizado, recomendamos o uso de um áudio de terceiros provedor de conferência. Caso contrário, é recomendável usar a Microsoft como seu provedor de audioconferência.
+Se você estiver em um país ou região onde os serviços de audioconferência no Office 365 não está disponível, a qualidade de serviço não é ótima devido a seu local ou você tiver um contrato existente com um provedor de serviços de audioconferência de terceiros, recomendamos o uso de um áudio de terceiros provedor de conferência. Caso contrário, é recomendável usar o Microsoft como seu provedor de serviços de audioconferência.
   
-## Automatizar a atribuição do provedor de audioconferência de terceiros usando o Windows PowerShell
+## <a name="automate-assigning-the-third-party-audio-conferencing-provider-by-using-windows-powershell"></a>Automatizar a atribuição do provedor de audioconferência de terceiros usando o Windows PowerShell
 
 - Para economizar tempo ou automatizar o processo, você pode usar o cmdlet [Set-CsUserAcp](https://go.microsoft.com/fwlink/?LinkId=716851).
     
     > [!NOTE]
-    > Para alterar o provedor de áudio da Microsoft para um provedor de audioconferência terceirizado, você deve remover o Microsoft como provedor de audioconferência. Para fazer isso, use o cmdlet [Desativar-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617692 ) .
+    > Para alterar o provedor de áudio da Microsoft para um provedor de serviços de audioconferência de terceiros, você deve remover o Microsoft como um provedor de serviços de audioconferência. Para fazer isso, use o cmdlet [Disable-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617692 ) .
   
 - Para saber mais sobre como usar o Windows PowerShell, veja [Usar o Windows PowerShell para realizar tarefas de gerenciamento comuns do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038).
     
-## O que mais preciso saber?
+## <a name="what-else-do-i-need-to-know"></a>O que mais eu preciso saber?
 
-Uma pessoa em sua organização só pode usar um provedor de audioconferência. Para alterar o provedor de conferência de áudio de uma pessoa para a Microsoft, consulte [Movendo o provedor de audioconferência de um usuário para Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md) ou[Atribuir a Microsoft como provedor de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
+Uma pessoa em sua organização só pode usar um provedor de serviços de audioconferência. Para alterar o provedor de serviços de audioconferência de uma pessoa para a Microsoft, consulte [Mover o provedor de serviços de audioconferência do usuário à Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md) ou [Atribuir Microsoft como um provedor de serviços de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
   
-## Tópicos Relacionados
+## <a name="related-topics"></a>Tópicos Relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
   
 [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
   
 

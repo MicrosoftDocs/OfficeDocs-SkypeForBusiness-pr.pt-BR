@@ -1,38 +1,38 @@
 ---
-title: "Esse recurso do Skype for Business Online não está habilitado"
-ms.author: TONYSMIT
+title: "Este Skype para recurso Business Online não está habilitada"
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.FeatureNotEnabled
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: e95a7d09-0c45-4b95-956e-f099b7b0e659
-description: "Find possible causes and action suggestions when you get a Skype for Buisness Online feature isn't enabled error. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.FeatureNotEnabled
+ms.custom: Setup
+description: "Encontre as possíveis causas e sugestões de ação quando você obtiver um Skype para o recurso de Business Online não está erros ativada. "
+ms.openlocfilehash: 293ef22e18ea8abe1ec316580023d486696d20f7
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Este Skype para recurso Business Online não está habilitada
 
-# Esse recurso do Skype for Business Online não está habilitado
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Lamentamos, mas parece que o usuário não está licenciado para este recurso.
+Desculpe, parece que o usuário não está licenciado para esse recurso.
   
 |**Possível causa**|**Ação sugerida**|
 |:-----|:-----|
-|Você tem licenças disponíveis, mas você ainda não ativou o recurso para este usuário.  <br/> |Vá para o **Centro de administração do Office 365** > **usuários ativos** para licenciar este usuário. <br/> |
-|O usuário está em um local onde este recurso não está disponível.  <br/> |Se possível, vá para **o Centro de administração do Office 365** > **usuários ativos** e atribua este usuário para um local onde o recurso está disponível. <br/> |
-|O recurso não foi ativado para sua organização.  <br/> |Vá para **Centro de administração do Office 365** > **Skype for Business** e ative o recurso para sua organização inteira. <br/> |
+|Você tem licenças disponíveis, mas você não tiver ativado o recurso para este usuário.  <br/> |Vá para o **Centro de administração do Office 365** > **usuários ativos** licenciar esse usuário. <br/> |
+|O usuário está em um local onde esse recurso não está disponível.  <br/> |Se possível, vá para **o Centro de administração do Office 365** > **usuários ativos** e atribuir esse usuário para um local onde o recurso está disponível. <br/> |
+|O recurso ainda não foi ativado para sua organização.  <br/> |Vá para **o Centro de administração do Office 365** > **Skype para negócios** e ativar o recurso para toda sua organização. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)

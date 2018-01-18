@@ -2,48 +2,53 @@
 title: "Ver uma lista de usuários habilitados para conferência de áudio"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
-description: "Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
+ms.openlocfilehash: d0d59bee0cc7f8cc4bca3b90777d6b73c953fff9
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Ver uma lista de usuários habilitados para conferência de áudio
 
-# Ver uma lista de usuários habilitados para conferência de áudio
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Depois que você habilitou Skype para usuários corporativos ou Teams da Microsoft na sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados. Quando você examinar a lista, você verá também para cada usuário na lista o tipo de provedor de serviços de audioconferência que estão usando, o número de telefone de discagem padrão para o usuário, e se a sua organização não está habilitada para IDs de conferência dinâmico, as IDs de conferência estático para reuniões de conferência de áudio que eles organizam.
   
-Depois que você ativou o Skype para empresas ou Teams Microsoft usuários em sua organização para conferência de áudio, você pode exibir a lista dos usuários que foram habilitados. Quando você examine a lista, você também verá para cada usuário na lista o tipo de provedor de audioconferência que eles estão usando, o número de discagem padrão para o usuário, e se a organização não estiver habilitada para IDs de conferência dinâmicos, as IDs de conferência estático audioconferência para reuniões do que eles organizam.
-  
-## Exibir uma lista de usuários
+## <a name="viewing-a-list-of-users"></a>Exibir uma lista de usuários
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No **Centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **conferência de áudio** > **usuários**.
+3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**.
     
-## O que mais devo saber?
+## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Quando você vê na lista de usuários que estão habilitados, você pode selecionar um usuário na lista e use o painel de ação para editar as configurações de conferência de áudio para esse usuário.
+- Ao exibir a lista de usuários que estão habilitados, você pode selecione um usuário na lista e use o painel de ação para editar as configurações de serviços de audioconferência para esse usuário.
     
-- Quando você seleciona um único usuário configurado para usar a Microsoft como provedor de conferência de áudio, você pode exibir o número de telefone padrão e se a sua organização está habilitada para IDs de conferência dinâmicos e você pode redefinir o ID de conferência para reuniões que o usuário organiza.
+- Quando você seleciona um único usuário que está configurado para usar o Microsoft como um provedor de serviços de audioconferência, você pode exibir o número de telefone padrão e se a sua organização está habilitada para IDs de conferência dinâmico e você pode redefinir a ID de conferência para reuniões que o organizadas pelo usuário.
     
-- Quando você selecionar um único usuário configurado para usar um provedor de audioconferência terceirizado, você pode exibir o nome do provedor de conferência de áudio, o número de telefone de Chamada Tarifada e o número de telefone de chamada gratuita (se eles estão configurados).
+- Quando você seleciona um único usuário que está configurado para usar um provedor de serviços de audioconferência de terceiros, você pode exibir o nome do provedor de serviços de audioconferência, o número de telefone de Chamada Tarifada e o número de telefone gratuitos (se eles estão configurados).
     
 - Você pode usar as opções de filtro para exibir os usuários com:
     
-  - **Audioconferência em**
+  - **Serviços de audioconferência em**
     
-  - **Audioconferência desativado**
+  - **Serviços de audioconferência desativado**
     
   - **Provedor de conferência - Microsoft**
     
@@ -55,19 +60,19 @@ Depois que você ativou o Skype para empresas ou Teams Microsoft usuários em su
     
   - Selecionar um número padrão diferente para esses usuários.
     
-  - Desative a conferência de áudio para o usuário alterando o provedor para **Nenhum**.
+  - Desative o serviços de audioconferência para o usuário, alterando o provedor como **Nenhum**.
     
-  - Alternar para a Microsoft como provedor de audioconferência se o usuário tiver sido atribuído uma licença de **Conferência de áudio**.
+  - Alternar para a Microsoft como um provedor de serviços de audioconferência se o usuário tiver sido atribuído uma licença de **Serviços de audioconferência** .
     
   - Permitir/proibir que usuários anônimos ativem as reuniões por telefone dos usuários selecionados.
     
-## Quer saber como gerenciar com o Windows PowerShell?
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
 - O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Seis motivos para usar o Windows PowerShell para gerenciar o Office 365 ](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação a usar somente o centro de administração do Office 365, como para fazer alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
     
@@ -75,18 +80,9 @@ Depois que você ativou o Skype para empresas ou Teams Microsoft usuários em su
     
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](set-up-audio-conferencing.md)
 

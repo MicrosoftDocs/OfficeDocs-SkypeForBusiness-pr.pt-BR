@@ -1,66 +1,71 @@
 ---
-title: "Áudio conferência remuneração por minuto"
+title: "Áudio conferência salário por minuto"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
-description: "Além de licença standard do audioconferência por usuário, organizações de Volume e licenciamento também podem escolher uma oferta de remuneração por minuto para habilitar os recursos de conferência de áudio para as suas organizações."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Licensing
+- Strat_SB_PSTN
+description: "Além da licença de por usuário de conferência de áudio padrão, as organizações de Volume e licenciamento também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de conferência de áudio para suas organizações."
+ms.openlocfilehash: 759827750bd64510e47273dfccc066e9299481d3
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-pay-per-minute"></a>Áudio conferência salário por minuto
 
-# Áudio conferência remuneração por minuto
+Além da licença de por usuário de conferência de áudio padrão, as organizações de Volume e licenciamento também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de conferência de áudio para suas organizações.
+  
 
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Além de licença standard do audioconferência por usuário, organizações de Volume e licenciamento também podem escolher uma oferta de remuneração por minuto para habilitar os recursos de conferência de áudio para as suas organizações.
-  
-Você pode descobrir se seu [Países e disponibilidade de região para conferência de áudio e planos de chamada](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md) para conferência de áudio.
+Você pode descobrir se seu [país/região é suportado](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) para audioconferências.
+
   
 > [!NOTE]
-> Como esta oferta só está disponível para clientes de Volume e licenciamento, você precisará trabalhar com o representante de contas adquirir licenças. 
+> Porque esta oferta só está disponível para os clientes de Volume e licenciamento, você precisará trabalhar com seu representante de conta para adquirir licenças. 
   
-## Precisa de alguns detalhes?
+## <a name="need-some-details"></a>Precisa de alguns detalhes?
 
-Enquanto a oferta de licença por usuário audioconferência inclui uso dial-in e alguns uso de discagem, audioconferência remuneração por minuto **permite que você pagar por todo o uso de conferência de áudio em uma base por minuto sem pagar mensalmente para cada usuário licença**. Com isso, todas as chamadas de discagem e discagem externa serão cobradas numa base por minuto, incluindo:
+Enquanto a oferta de licença por usuário audioconferências inclui alguns uso de discagem e o uso de dial-in, conferência de áudio salário por minuto **permite que você pagar todos de seu uso de conferência de áudio em uma base por minuto sem pagar por cada usuário mensal licença**. Com isso, todas as chamadas de discagem e discagem serão cobradas em uma base por minuto, incluindo:
   
-- Chamadas de entrada para Chamada Tarifada números de conferência de áudio da sua organização.
+- Chamadas de entrada para chamada números de conferências de áudio da sua organização.
     
-- Chamadas de entrada para números de chamada gratuita conferências de áudio da sua organização.
+- Chamadas de entrada para números para ligações gratuitas conferência de áudio da sua organização.
     
-- Chamadas de saída colocadas para números de telefone externo de dentro de uma reunião da sua organização.
+- Chamadas de saída feitas aos números de telefone externo de dentro de uma reunião da sua organização.
     
 > [!NOTE]
-> Você pode encontrar as taxas de discagem e discagem externa associadas a esses tipos de chamadas consultando a **ver taxas para onde você deseja chamar seção**[Conferência de áudio](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
+> Você pode encontrar as taxas de discagem e discagem associadas a esses tipos de chamadas examinando a **ver para onde você deseja chamar seção taxas de** conferências de [Áudio](https://products.office.com/en-us/skype-for-business/pstn-conferencing). 
   
-Pagamento por minuto requer sua organização tenha [O que são créditos de comunicações?](what-are-communications-credits.md) ativado com uma licença atribuída a cada usuário em ordem para conferência de áudio trabalhar. Se desejar mais detalhes, consulte[Configurar comunicações créditos para sua organização](set-up-communications-credits-for-your-organization.md) e/ou o[Skype para Business e Teams Microsoft complemento licenciamento](skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Salário por minuto requer a sua organização tenha [Créditos de comunicações](what-are-communications-credits.md) ativada com uma licença atribuída a cada usuário na ordem para audioconferências trabalhar. Se você quiser obter mais detalhes, consulte [Configurar créditos de comunicações para sua organização](set-up-communications-credits-for-your-organization.md) e/ou [Skype para licenciamento de complemento de negócios e equipes da Microsoft](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Para habilitar o pagamento por minuto conferências de áudio para usuários em sua organização, consulte [Experimentar ou comprar conferência de áudio no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
+Para habilitar o pagamento por minuto na conferência de áudio para usuários em sua organização, consulte [tente ou adquirir audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).
   
-## Quer saber mais sobre preços?
+## <a name="want-to-find-out-more-about-pricing"></a>Deseja obter mais informações sobre preços?
 
- **Procurando preços?** Veja[Como descobrir os preços e comprar licenças complementares](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) ou um dos seguintes:.
+ **Procurando preços?** Consulte [como ver os preços e licenças de complemento de comprar](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) ou um destes procedimentos:
   
-- [Preço para conferência de áudio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+- [Os preços dos serviços de audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
     
-- [Preços para sistema telefônico](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+- [Preços para o sistema telefônico](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
     
-- [Preços para chamar planos](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
+- [Preços de planos de chamada](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
-## Tópicos Relacionados
+## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
-[Skype para Business e Teams Microsoft complemento licenciamento](skype-for-business-and-microsoft-teams-add-on-licensing.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
+[Skype para licenciamento de complemento Teams da Microsoft e de negócios](skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
 

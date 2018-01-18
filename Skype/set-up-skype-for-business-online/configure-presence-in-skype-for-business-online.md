@@ -1,59 +1,55 @@
 ---
 title: "Configuração de presença do Skype for Business Online"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/15/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- O365P_OnlinePresenceDesc
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: ce59ac0b-8115-4c6b-8174-e3aef982d3cb
-description: "Learn how to set up Skype for Business so you can see the availability of your co-workers. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: O365P_OnlinePresenceDesc
+ms.custom: Setup
+description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
+ms.openlocfilehash: 7c28bd8f393d8f2efc2da7616296f3f4075d11b6
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="configure-presence-in-skype-for-business-online"></a>Configuração de presença do Skype for Business Online
 
-# Configuração de presença do Skype for Business Online
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Por padrão, qualquer pessoa que podem se comunicar com uma das pessoas em uma organização usando Skype para negócios também pode ver se essa pessoa está online. Skype para negócios mostra se uma pessoa está disponível online, em uma reunião, offline, ou outro indicador. 
   
-Por padrão, qualquer pessoa que possa se comunicar com uma das pessoas de sua organização usando o Skype for Business também pode ver se essa pessoa está online. O Skype for Business mostra se uma pessoa está disponível online, em uma reunião, offline ou outro indicador. 
+![Um exemplo de status online de uma pessoa no Skype para negócios.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
   
-![An example of a person's online status in Skype for Business.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
+Como o **[administrador](http://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para todos na sua empresa, você pode escolher quem vê sua presença online no Skype para negócios.
   
-Como **[Atribuir funções de administrador no Office 365](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para todos em sua empresa, você pode escolher quem vê a presença online dos usuários do Skype for Business.
-  
-1. Vá para **o Centro de administração do Office 365** > **centros de administração** > **Skype for Business**.
+1. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios**.
     
-2. No **Centro de administração do Skype for Business**, escolha **a organização**.
+2. No **Skype para centro de administração de negócios**, escolha a **organização**.
     
 3. Em **modo de privacidade de presença**, selecione uma das seguintes configurações e, em seguida, escolha **Salvar**.
     
-|****Configuração****|****Quem pode ver a presença de um usuário****|
+|**Configuração**|**Quem pode exibir a presença de um usuário**|
 |:-----|:-----|
-|**Exibir automaticamente as informações de presença** <br/> |Qualquer usuário do Skype for Business em sua empresa que não tenha sido adicionado à lista **Externa** ou **Bloqueado** de uma pessoa poderá ver a presença online dessa pessoa. <br/> |
-|**Exibir as informações de presença somente aos contatos do usuário** <br/> |Qualquer contato presente na Lista de contatos de uma pessoa que não tenha sido adicionado às lista de **Externo** ou **Bloqueado**. <br/> Indivíduos podem substituir as configurações padrão em seu aplicativo de Skype for Business: **configurações** > **Ferramentas** > **Opções**. <br/> |
+|**Exibir automaticamente as informações de presença** <br/> |Qualquer Skype para usuário de negócios no seu negócio que ainda não foi adicionado a uma pessoa **externo** ou **bloqueado** lista poderão vejam a presença online dessa pessoa. <br/> |
+|**Exibir informações de presença somente para contatos do usuário** <br/> |Qualquer pessoa na lista de contatos de uma pessoa que não tenha adicionado à sua lista **externa** ou **bloqueado** . <br/> Indivíduos podem substituir as configurações padrão em seu Skype para o aplicativo de negócios: **configurações** > **Ferramentas** > **Opções**. <br/> |
    
-Para obter informações sobre o que os seus usuários podem alterar no Skype for Business, consulte estes artigos: 
+Para obter informações sobre o que os usuários que podem alterar Skype for Business, consulte estes artigos: 
   
-- [Controlar o acesso às suas informações de presença no Skype for Business](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Controlar o acesso às suas informações de presença no Skype para negócios](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
     
-- [Definir opções de Status no Skype for Business](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Definir opções de Status no Skype para negócios](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
+[Configurar o Skype for Business Online](set-up-skype-for-business-online.md) 
 
-#### 
-
-[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
+[Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 

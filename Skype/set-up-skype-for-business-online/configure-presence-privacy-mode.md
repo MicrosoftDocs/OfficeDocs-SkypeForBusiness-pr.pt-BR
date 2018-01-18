@@ -1,44 +1,44 @@
 ---
 title: "Configurar o modo de privacidade de presença"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.OrgPresencePrivacy
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
-description: "Learn how to set up privacy mode for your users so they can better control how people see their availability. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: ms.lync.lac.OrgPresencePrivacy
+ms.custom: Setup
+description: "Saiba como configurar o modo de privacidade para seus usuários para que eles podem controlar melhor como pessoas ver a disponibilidade deles. "
+ms.openlocfilehash: b31e9fc7d3493daebe6fb7715155fb882eebd0af
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="configure-presence-privacy-mode"></a>Configurar o modo de privacidade de presença
 
-# Configurar o modo de privacidade de presença
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+O Skype para configuração de presença Online de negócios dá às pessoas mais controle sobre quem pode ver se eles estão disponíveis, em uma reunião ou ausente do escritório. Para obter detalhes sobre Skype para presença de negócios e as configurações de privacidade, vejam a [presença de Configure no Skype para negócios Online](configure-presence-in-skype-for-business-online.md). 
   
-A configuração de presença Skype for Business Online dá pessoas mais controle sobre quem pode ver se eles estão disponíveis, em uma reunião ou fora do escritório. Para obter detalhes sobre as configurações de privacidade e Skype for Business presença, consulte [Configuração de presença do Skype for Business Online](configure-presence-in-skype-for-business-online.md).
-  
-## Escolher a configuração de presença online padrão para todas as pessoas em sua organização
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Escolha a configuração de presença online de padrão para todas as pessoas na sua organização
 <a name="__top"> </a>
 
-1. Vá para o Centro de administração do Skype for Business Online > **Organização > Geral**.
+1. Vá até o Skype para Business Online admin center > **organização > geral**.
     
-2. Em **Modo de privacidade de presença**, escolha a configuração e clique em **Salvar**.
+2. Em **modo de privacidade de presença**, escolha a configuração e clique em **Salvar**.
     
-|****Configuração****|****Quem pode ver a presença de um usuário****|
+|**Configuração**|**Quem pode exibir a presença de um usuário**|
 |:-----|:-----|
-|**Exibir automaticamente as informações de presença** <br/> |Qualquer usuário do Skype for Business que não esteja no grupo de privacidade **Externo** ou **Bloqueado**.  <br/> |
-|**Exibir as informações de presença somente aos contatos do usuário** <br/> |Qualquer pessoa em uma lista de contatos do usuário que não pertence aos grupos de privacidade **Externo** ou **Bloqueado**.  <br/> Usuários individuais podem alterar essa configuração na caixa e diálogo **Opções** do Skype for Business. <br/> |
+|**Exibir automaticamente as informações de presença** <br/> |Qualquer usuário do Skype for Business que não esteja no grupo de privacidade **Externo** ou **Bloqueado**. <br/> |
+|**Exibir informações de presença somente para contatos do usuário** <br/> |Qualquer pessoa na lista de contatos de um usuário que não pertencem ao grupo de privacidade **externo** ou **bloqueado** . <br/> Usuários individuais podem alterar essa configuração no Skype para caixa de diálogo **Opções** de negócios. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)

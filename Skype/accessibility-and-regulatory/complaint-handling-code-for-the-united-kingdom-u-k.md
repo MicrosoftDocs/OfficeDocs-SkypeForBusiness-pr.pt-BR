@@ -1,21 +1,32 @@
 ---
-title: "Chamada PSTN do Skype for Business - código de tratamento de reclamações para o Reino Unido"
+title: "Compatível com o código de manipulação para o Reino Unido (Reino Unido)"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/20/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
-description: "Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
+ms.openlocfilehash: eb98b00f7301e29a0a0039f78bd86b4bcfa999c5
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="complaint-handling-code-for-the-united-kingdom-uk"></a>Compatível com o código de manipulação para o Reino Unido (Reino Unido)
 
-# Chamada PSTN do Skype for Business - código de tratamento de reclamações para o Reino Unido
-
-Este Código se aplica a clientes de pequenas empresas (organizações com dez funcionários ou menos) no Reino Unido (UK) em relação ao serviço Chamada PSTN do Skype for Business (o "Serviço"), em conformidade com os regulamentos de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Este código se aplica aos clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço Office 365 chamar planejar (o "serviço") de acordo com os regulamentos de comunicação do Reino Unido. Outro Skype para serviços corporativos sejam regidas por seu contrato de serviço com a Microsoft e quaisquer outros termos aplicáveis ao seu uso do serviço em questão.
   
-## Como fazer uma reclamação
+## <a name="how-to-make-a-complaint"></a>Como fazer uma reclamação
 
 A satisfação do cliente é uma prioridade para o Skype for Business. No entanto, se estiver insatisfeito com o Serviço por qualquer motivo, você poderá fazer uma queixa por telefone ou online:
   
@@ -23,7 +34,7 @@ A satisfação do cliente é uma prioridade para o Skype for Business. No entant
     
 - Online: Entre no centro de administração do Office 365 e envie uma solicitação de serviço selecionando **Nova solicitação de serviço** em **Suporte**. 
     
-## Linhas do tempo
+## <a name="timelines"></a>Linhas do tempo
 
 Se fizer uma reclamação por telefone no horário comercial, você falará ao vivo com um representante do Skype for Business, que tentará resolver o problema durante o telefonema.
   
@@ -33,9 +44,9 @@ Se não puder resolver o problema imediatamente, o representante do Skype for Bu
   
 O Skype for Business visa resolver todas as reclamações relacionadas ao Serviço no prazo de sete (7) dias úteis após o recebimento. 
   
-Se estiver descontente com a maneira como a reclamação sobre o Serviço é gerenciada, você poderá pedir, por telefone ou email, ao representante do Skype for Business que está lidando com a reclamação que a escalone de acordo com o contrato de serviço. A Microsoft avaliará a reclamação no prazo de sete (7) dias a contar do recebimento.
+Se não ficar satisfeito com a maneira na qual seu compatível com relação ao serviço é gerenciado, você poderá solicitar o Skype para representante de negócios manipulação compatível com, por telefone ou email, escalonar a reclamações de acordo com seu contrato de serviço. Microsoft avaliará a reclamações dentro de sete (7) dias de recebimento.
   
-## Solução alternativa de controvérsias
+## <a name="alternative-dispute-resolution"></a>Solução alternativa de controvérsias
 
 Se sua reclamação sobre o Serviço não for resolvida até oito (8) semanas após o envio ou se receber uma carta nossa informando que chegamos a uma decisão final, você poderá enviar a reclamação aos Serviços de Ombudsman, terceiros aprovados pela Ofcom para lidar com reclamações sobre serviços de comunicações. Também o notificaremos por escrito da disponibilidade de serviços de solução alternativa de controvérsias. 
   
@@ -45,9 +56,9 @@ Todas as reclamações devem ser enviadas aos Serviços de Ombudsman no prazo de
   
 As etapas para encaminhar uma reclamação aos Serviços de Ombudsman podem ser encontradas no [site](http://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809) de Serviços de Ombudsman.
   
-Você pode se dirigir aos Serviços de Ombudsman preenchendo um formulário de contato no site de Serviços de Ombudsman ou por telefone, carta ou email:
+Você pode acessar os serviços de Ombudsman por preencher um formulário de contato no site dos serviços do Ombudsman ou por telefone, carta ou email:
   
-- Formulário de contato: [https://www.ombudsman-services.org/contact-us-communications.html](https://www.ombudsman-services.org/contact-us-communications.mdl)
+- Formulário de contato: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
     
 - Telefone: 0330 440 1614
     
@@ -68,3 +79,5 @@ Você pode se dirigir aos Serviços de Ombudsman preenchendo um formulário de c
     WA4 6WU
     
 
+## <a name="related-topics"></a>Tópicos relacionados
+[Disponibilidade de país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

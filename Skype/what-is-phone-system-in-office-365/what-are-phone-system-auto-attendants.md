@@ -1,27 +1,36 @@
 ---
-title: "Quais são os atendedores automáticos do sistema telefônico?"
+title: "Cite atendedores automáticos de sistema telefônico."
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.custom: Strat_SB_PSTN
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
-description: "Learn what Phone System (Cloud PBX) auto attendents are and how to use them. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Phone System
+- Strat_SB_PSTN
+description: "Saiba quais são os atendedores automáticos de sistema telefônico (nuvem PBX) e como usá-los. "
+ms.openlocfilehash: 4208e152661cb322aaea804c185dd09be86b606d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="what-are-phone-system-auto-attendants"></a>Cite atendedores automáticos de sistema telefônico.
 
-# Quais são os atendedores automáticos do sistema telefônico?
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+O sistema telefônico no Office 365 atendedores automáticos podem ser usados para criar um sistema de menu para a sua organização que permite que os chamadores externos e internos mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.
   
-Sistema telefônico no Office 365 atendedores automáticos podem ser usados para criar um sistema de menu para sua organização que permite que os chamadores externos e internos mover através de um sistema de menu para localizar e coloque ou transferir chamadas para usuários de empresa ou departamentos na sua organização.
+Quando as pessoas chamam, eles são apresentados com uma série de prompts de voz que os ajudem a fazer uma chamada para um usuário ou localizar alguém em sua organização e, em seguida, colocar uma chamada para o usuário. Um atendedor automático é uma série de prompts de voz ou um arquivo de áudio que os chamadores ouvem, em vez de um operador humano quando ele liga para uma organização. Um atendedor automático permite que os chamadores para percorrer o sistema de menus, fazer chamadas, ou localizar usuários usando um teclado do telefone (DTMF) ou usando o reconhecimento de fala de entradas de voz. 
   
-Quando as pessoas chamam, eles são apresentados com uma série de prompts de voz que ajudá-lo a fazer uma chamada para um usuário ou localizar alguém em sua organização e, em seguida, fazer uma chamada para esse usuário. Um atendedor automático é uma série de prompts de voz ou um arquivo de áudio que os chamadores ouvem em vez de um operador humano quando eles ligam para uma organização. Um atendedor automático permite que os chamadores mover por meio do sistema de menu, fazer chamadas, ou localize usuários usando um teclado do telefone (DTMF) ou usando o reconhecimento de fala de entradas de voz.
-  
-Para configurar um atendedor automático para o sistema telefônico no Office 365, [Configurar um atendedor automático de sistema telefônico](set-up-a-phone-system-auto-attendant.md).
+Para configurar um atendedor automático para o sistema telefônico no Office 365, vá [Configurar um atendedor automático de sistema telefônico](set-up-a-phone-system-auto-attendant.md).
   
 Um atendedor automático de sistema telefônico tem os seguintes recursos:
   
@@ -29,49 +38,49 @@ Um atendedor automático de sistema telefônico tem os seguintes recursos:
     
 - Ele oferece menus corporativos personalizados. Você pode personalizar esses menus para ter mais do que um nível.
     
-- Ele oferece pesquisa de diretório que permite que as pessoas que ligarem para pesquisar o diretório da organização para um nome.
+- Ele fornece pesquisa de diretório que permite que as pessoas que ligam para pesquisar o diretório da organização para um nome.
     
-- Ele permite que alguém chama alcançar ou deixar uma mensagem para uma pessoa em sua organização.
+- Ele permite que uma pessoa que chama para alcançar ou deixar uma mensagem para uma pessoa em sua organização.
     
-## Introdução
+## <a name="getting-started"></a>Introdução
 
 Para começar a usar os atendedores automáticos, é importante lembrar-se de que:
   
-- Sua organização deve ter (no mínimo) uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** atribuídos impactos o número de serviço números que está disponível para ser usado para os atendedores automáticos. O número de atendedores automáticos que depende as números **Sistema telefônico** e **Conferência de áudio** licenças atribuídas em sua organização. Para saber mais sobre licenciamento,[Skype para Business e Teams Microsoft complemento licenciamento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** que receberem o impacto sobre o número de serviço números que está disponível a serem usados para atendedores automáticos. O número de atendedores automáticos que depende das licenças de **Sistema telefônico** e **Audioconferência** números que são atribuídas em sua organização. Para saber mais sobre o licenciamento, vá [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário com uma licença de **Sistema telefônico** Online, você precisará habilitá-las para o Enterprise Voice ou atribua chamando planos a eles. Consulte[Atribuir Skype para Business e Teams Microsoft licenças](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Você também pode usar o Windows PowerShell. Executar por exemplo:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos para acessá-los. Consulte[Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Para obter e usar números de chamada gratuita serviço atendedores automáticos, você precisa configurar comunicações créditos. Para fazer isso, consulte [O que são créditos de comunicações?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) e[Configurar comunicações créditos para sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+- Para obter e usar números gratuitos de serviço para seus atendedores automáticos, você precisará configurar créditos de comunicações. Para fazer isso, consulte [Cite Communications créditos?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md) e [Configurar créditos de comunicações para sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
     > [!IMPORTANT]
-    > Os números de telefone (assinante) não podem ser atribuídos aos atendedores automáticos  somente números de telefone de serviço chamadas gratuitas ou tarifadas podem ser usados. 
+    > [!IMPORTANTE] Os números de telefone (assinante) não podem ser atribuídos aos atendedores automáticos  somente números de telefone de serviço chamadas gratuitas ou tarifadas podem ser usados. 
   
-## Visão geral do recurso
+## <a name="feature-overview"></a>Visão geral do recurso
 
-### Discar por Nome
+### <a name="dial-by-name"></a>Discar por Nome
 
-Discagem por nome é um recurso de um atendedor automático que é conhecido como pesquisa no diretório. Ele permite que as pessoas que ligam para o atendedor automático para usar voz (reconhecimento de fala) ou o teclado do telefone (DTMF) para digitar um nome completo ou parcial para pesquisar diretório da empresa, localize a pessoa e depois que a chamada seja transferida para eles. Se você tiver o Skype for Business Online usuários, **elas não são necessárias para ter um número de telefone ou chamada planos atribuiu a eles, mas eles devem ter uma licença de **Sistema telefônico**** para que eles possam ser acessado ao pesquisarem usando discagem por nome. Discagem por nome ainda poderão localizar e transferir chamadas para Skype for Business Online usuários hospedados em diferentes países ou regiões para organizações multinacionais.
+Discagem pelo nome, é um recurso de um atendedor automático que é conhecido como a pesquisa de diretório. Ele permite que as pessoas que ligam para o atendedor automático para usar voz (reconhecimento de fala) ou do teclado do telefone (DTMF) para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e, em seguida, tem transferir a chamada para eles. Se você tiver Skype para usuários corporativos Online, **eles não são necessários para ter um número de telefone ou chamar planos atribuiu a eles, mas devem ter uma licença de sistema telefônico** para que eles possam ser alcançados quando eles pesquisam usando discagem por nome. Discagem por nome ainda poderão localizar e transferir chamadas para Skype para usuários corporativos Online que são hospedados em diferentes países ou regiões para organizações multinacionais.
   
 > [!CAUTION]
-> Implantações locais de usuários do Lync Server 2010 não serão listadas no diretório quando alguém procura-los. 
+> Implantações em instalações de usuários do Lync Server 2010 não serão listadas no diretório, quando alguém procura-los. 
   
-### Tamanho máximo do diretório
+### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 
-Não há nenhum limite no tamanho do Active Directory para o qual discagem por nome é suportada quando usando o teclado do telefone para pesquisar para digitar nomes parciais ou total (nome sobrenome e também LastName + nome). No entanto, o tamanho máximo do nome da lista que um atendedor automático único pode oferecer suporte usando o reconhecimento de nome com a fala é 80.000 usuários.
+Não há nenhum limite do tamanho do Active Directory para o qual a discagem por nome é suportada ao usar o teclado do telefone a ser pesquisado para digitar nomes parciais ou completos (FirstName + LastName e também LastName + FirstName). No entanto, o tamanho máximo do nome da lista que um atendedor automático único pode dar suporte usando o reconhecimento de nome com fala é 80.000 usuários.
   
 ||||
 |:-----|:-----|:-----|
 |**Tipo de entrada** <br/> |**Formato de pesquisa** <br/> |**Número máximo de usuários em uma organização** <br/> |
 |DTMF (entrada de teclado)  <br/> |Parcial  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  <br/> |Não há limite de hardware  <br/> |
-|Fala (entrada de voz)  <br/> |Nome  <br/> Sobrenome  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  <br/> |80.000 usuários  <br/> |
+|Fala (entrada de voz)  <br/> |FirstName  <br/> LastName  <br/> Nome + Sobrenome  <br/> Sobrenome + Nome  <br/> |80.000 usuários  <br/> |
    
 > [!NOTE]
-> Se você estiver usando discagem por nome com fala reconhecimento, mas o Active Directory da sua organização for maior do que 80.000 usuários e você ainda não limitado o escopo de discagem por nome usando o recurso de escopo de discagem, discagem por nome ainda funcionarão para os chamadores usando um teclado do telefone , e entradas de voz estará disponíveis para todos os outros cenários. Você pode usar o recurso de escopo de discagem para restringir os nomes que são acessíveis, alterando o escopo de discagem por nome para um atendedor automático particular. 
+> Se você estiver usando a discagem pelo nome, com a fala reconhecimento, mas o Active Directory da sua organização for maior que 80.000 usuários e você ainda não limitados o escopo da discagem por nome usando o recurso de escopo de discagem, a discagem por nome funcionará para os chamadores usando um teclado do telefone , e entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso de escopo de discagem para restringir os nomes que estão acessíveis, alterando o escopo da discagem por nome por um atendedor automático específico. 
   
-### Discar por Nome - entrada de teclado (DTMF)
+### <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
 
-Pessoas que estiver ligando podem usar discagem por nome alcançar usuários especificando tanto o nome completo ou parcial da pessoa que estão tentando alcançar. O bom, há vários formatos que podem ser usados quando o nome foi digitado.
+Pessoas chamando em podem usar discagem pelo nome, para atingir usuários especificando-se tanto o nome completo ou parcial da pessoa que estão tentando fazer contato. O BOM é que não há vários formatos que podem ser usados quando o nome é inserido.
   
 Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles estão inserindo o nome, serão solicitado a concluir a entrada do teclado com a tecla # (tecla jogo da velha). Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
   
@@ -82,13 +91,13 @@ As pessoas podem pesquisar os nomes em sua organização usando os seguintes for
 |**Formato de nome** <br/> |**Tipo de pesquisa** <br/> |**Exemplo** <br/> |**Resultado de pesquisa** <br/> |
 |Nome + Sobrenome  <br/> |Completo  <br/> |Amos0Marble#  <br/> |Amos Marble  <br/> |
 |Sobrenome + Nome  <br/> |Completo  <br/> |Marble0Amos#  <br/> |Amos Marble  <br/> |
-|Nome  <br/> |Completo  <br/> |Amos#  <br/> |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus  <br/> |
-|Sobrenome  <br/> |Completo  <br/> |Marble#  <br/> |Pressione 1 para Amos Marble  <br/> Pressione 2 para Mary Marble  <br/> |
+|FirstName  <br/> |Completo  <br/> |Amos#  <br/> |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus  <br/> |
+|LastName  <br/> |Completo  <br/> |Marble#  <br/> |Pressione 1 para Amos Marble  <br/> Pressione 2 para Mary Marble  <br/> |
 |Nome ou Sobrenome  <br/> |Parcial  <br/> |Mar#  <br/> |Pressione 1 para Mary Marble  <br/> Pressione 2 para Mary Jones  <br/> Pressione 3 para Amos Marcus  <br/> |
 |Nome + Sobrenome  <br/> |Parcial  <br/> |Mar0Amos#  <br/> |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus  <br/> |
 |Sobrenome + Nome  <br/> |Parcial  <br/> |Mar0Am#  <br/> |Pressione 1 para Amos Marble  <br/> Pressione 2 para Amos Marcus  <br/> |
    
-Há vários caracteres especiais que são usadas quando pesquisando pessoas usando um teclado do telefone. Por exemplo, a pessoa será solicitada a usar a tecla de cerquilha (#), enquanto a tecla zero (0) é usada para um espaço entre nomes. Pressionar a tecla estrela (*) na lista de nomes para a pessoa correspondentes vai se repetir.
+Há vários caracteres especiais que são usados durante a pesquisa de pessoas que usam um teclado do telefone. Por exemplo, a pessoa será solicitada a usar a tecla de cerquilha (#), enquanto a tecla zero (0) é usada para um espaço entre os nomes. Pressionar a tecla estrela (*) repetirá a lista de nomes para a pessoa correspondentes.
   
 |||
 |:-----|:-----|
@@ -97,11 +106,11 @@ Há vários caracteres especiais que são usadas quando pesquisando pessoas usan
 |0 (zero)  <br/> |Espaço entre nomes.  <br/> |
 |* (tecla asterisco)  <br/> |Repetir a lista de nomes correspondentes.  <br/> |
    
-### Discar por Nome - Reconhecimento de nome pela fala
+### <a name="dial-by-name---name-recognition-with-speech"></a>Discar por Nome - Reconhecimento de nome pela fala
 
-As pessoas podem pesquisar para que outras pessoas em sua organização usando voz dele (reconhecimento de fala). Eles também podem acessar qualquer pessoa no Active Directory da empresa dizendo o nome da pessoa que estão tentando localizar. Usar entradas de voz pode reconhecer nomes em vários formatos, incluindo o nome, sobrenome, nome sobrenome ou sobrenome + nome.
+Pessoas podem pesquisar para outras pessoas em sua organização usando sua voz (reconhecimento de fala). Eles também podem alcançar qualquer pessoa Active Directory da empresa dizendo o nome da pessoa que estão tentando localizar. Usar as entradas de voz pode reconhecer nomes em vários formatos, incluindo FirstName, LastName, FirstName + LastName, ou LastName + FirstName.
   
-Quando você habilita o reconhecimento de fala para um atendedor automático, entrada de teclado do telefone (DTMF) não desabilitada, portanto, os dois tipos de entrada podem ser usados. Entrada de teclado do telefone não pode ser desabilitada e pode ser usada a qualquer momento, mesmo se o reconhecimento de fala é habilitado no atendedor automático.
+Quando você habilita o reconhecimento de fala para um atendedor automático, entrada de teclado do telefone (DTMF) não será desabilitada para que ambos os tipos de entrada que possam ser usados. Entrada de teclado do telefone não pode ser desabilitada e pode ser usada a qualquer momento, mesmo se o reconhecimento de fala estiver habilitado no atendedor automático.
   
 Como com a entrada de teclado de telefone, se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.
   
@@ -109,16 +118,16 @@ As pessoas que ligarem poderão falar os nomes nos seguintes formatos:
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Nome com fala** <br/> |**Tipo de pesquisa** <br/> |**Exemplo** <br/> |**Resultado de pesquisa** <br/> |
+|**Nomeie com a fala** <br/> |**Tipo de pesquisa** <br/> |**Exemplo** <br/> |**Resultado de pesquisa** <br/> |
 |Nome + Sobrenome  <br/> |Completo  <br/> |Amos Marble  <br/> |Amos Marble  <br/> |
 |Sobrenome + Nome  <br/> |Completo  <br/> |Marble Amos  <br/> |Amos Marble  <br/> |
-|Nome  <br/> |Completo  <br/> |Amos  <br/> |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones  <br/> |
-|Sobrenome  <br/> |Completo  <br/> |Marble  <br/> |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble  <br/> |
+|FirstName  <br/> |Completo  <br/> |Amos  <br/> |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Amos Jones  <br/> |
+|LastName  <br/> |Completo  <br/> |Marble  <br/> |Pressione ou fale 1 para Amos Marble  <br/> Pressione ou fale 2 para Ben Marble  <br/> |
    
 > [!NOTE]
-> Poderá demorar até 36 horas para um novo usuário ter seu nome listado no diretório de discagem por nome com o reconhecimento de fala. 
+> Poderá demorar até 36 horas para um novo usuário ter seu nome listado no diretório para discagem por nome com reconhecimento de fala. 
   
-### Idioma de suporte
+### <a name="language-support"></a>Idioma de suporte
 
 Os seguintes idiomas estão disponíveis para conversão de texto em fala:
   
@@ -146,7 +155,7 @@ O reconhecimento de fala para atendedores automáticos está disponível nos seg
 |Inglês (EUA)  <br/> |Espanhol (ES)  <br/> |
 |Francês (CA)  <br/> |Espanhol (MX)  <br/> |
    
-Os seguintes comandos de voz estão disponíveis nos quatorze (14﻿) idiomas aceitos para reconhecimento e fala:
+Os seguintes comandos de voz estão disponíveis nos quatorze (14) idiomas aceitos para reconhecimento e fala:
   
 |||
 |:-----|:-----|
@@ -167,78 +176,78 @@ Os seguintes comandos de voz estão disponíveis nos quatorze (14﻿) idiomas ac
 |Oito  <br/> |Corresponde a pressionar 8.  <br/> |
 |Nove  <br/> |Corresponde a pressionar 9.  <br/> |
    
-### Usando a opção do operador
+### <a name="using-the-operator-option"></a>Usando a opção do operador
 
 Usar o operador para um atendedor automático é uma configuração opcional que fornece ao chamador a opção de falar com uma pessoa.
   
 A tecla 0 e o comando de voz "Operador" (em todos os idiomas aceitos para reconhecimento de voz) são atribuídos ao operador por padrão.
   
 > [!NOTE]
-> Você pode definir o botão que é enviado para o **operador** para uma chave diferente usando as **Opções de Menu**. 
+> Você pode definir o botão que é enviado para o **operador** a uma chave diferente usando as **Opções de Menu**. 
   
 Você pode definir o seguinte como o operador:
   
-- Um Skype para Business Online usuário que tem um **Sistema telefônico** licença que está habilitada para Enterprise Voice ou tem planos de chamada atribuídos a eles. Você pode configurá-lo para a pessoa que estiver ligando possa ser enviada para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina chamadas desta pessoa automaticamente sejam encaminhadas diretamente para a caixa postal.
+- Um Skype para usuário Business Online que tem um **Sistema telefônico** licenciar que esteja habilitado para Enterprise Voice ou chamar planos atribuiu a eles. Você pode montá-lo para a pessoa chamando em possa ser enviada para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina as chamadas sejam automaticamente encaminhadas diretamente para a caixa postal dessa pessoa.
     
     > [!NOTE]
-    > Os usuários hospedados no local usando o Lync Server 2010 não pode ser usado como um operador. 
+    > Usuários hospedados no local usando o Lync Server 2010 não pode ser usado como um operador. 
   
 - Outro atendedor automático que é configurado para sua organização.
     
-- Qualquer fila de chamada existente configurada em sua organização. Para ver mais informações sobre filas de chamada, consulte [Criar uma fila de chamada do sistema telefônico](create-a-phone-system-call-queue.md).
+- Qualquer fila chamada existente que está configurada em sua organização. Para obter mais informações sobre filas de espera de chamada, consulte [criar uma fila de chamada do sistema telefônico](create-a-phone-system-call-queue.md).
     
-### Horários comerciais e administração de chamada
+### <a name="business-hours-and-call-handling"></a>Horários comerciais e administração de chamada
 
-Horário comercial é definido em cada atendedor automático. Se não estiverem horário comercial, todos os dias e todas as horas do dia são consideradas horário comercial porque um cronograma de 24/7 é definido por padrão. Horário comercial pode ser definido com quebras no tempo durante o dia e todas as horas que não estão definidas como horário comercial é considerado fora do horário comercial. Você pode definir opções de tratamento de chamada de entrada diferentes e saudações diferentes (que são opcionais) e ambos podem ser definidos para horário comercial e fora do horário comercial.
+Horário comercial é definido em cada atendedor automático. Se o horário comercial não estiverem definido, todos os dias e todas as horas do dia são consideradas expediente porque uma agenda 24/7 é definida por padrão. Horário comercial podem ser definido com quebras em tempo durante o dia e todos os horários que não são definidos como horários comerciais são considerados fora do horário comercial. Você pode definir diferentes opções de atendimento de chamadas recebidas e saudações diferentes (que são opcionais), e ambas podem ser definidas para horário comercial e fora do horário comercial.
   
-Cada atendedor automático tem opções de tratamento de chamada que podem ser definidas:
+Cada atendedor automático tem opções de atendimento de chamadas que podem ser definidas:
   
 - Você pode ter a chamada desconectada logo após a saudação.
     
 - Também é possível:
     
-  - Redirecionar a chamada para um Skype for Business Online usuário que tenha uma licença de **Sistema telefônico** que está habilitada para Enterprise Voice ou planos de chamar atribuiu a elas. Você pode configurá-lo para a pessoa que estiver ligando possa ser enviada para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina chamadas desta pessoa automaticamente sejam encaminhadas diretamente para a caixa postal.
+  - Redirecionar a chamada para um Skype para usuário Business Online que tem uma licença de **Sistema telefônico** que esteja habilitado para Enterprise Voice ou chamar planos atribuiu a eles. Você pode montá-lo para a pessoa chamando em possa ser enviada para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina as chamadas sejam automaticamente encaminhadas diretamente para a caixa postal dessa pessoa.
     
     > [!NOTE]
-    > Os usuários hospedados no local usando o Lync Server 2010 não são suportados. 
+    > Usuários hospedados no local usando o Lync Server 2010 não são suportados. 
   
-  - Redirecione a chamada para uma fila de chamada. Para ver mais informações sobre filas de chamada, consulte [Criar uma fila de chamada do sistema telefônico](create-a-phone-system-call-queue.md).
+  - Redirecione a chamada para uma fila de espera de chamada. Para obter mais informações sobre filas de espera de chamada, consulte [criar uma fila de chamada do sistema telefônico](create-a-phone-system-call-queue.md).
     
-  - Redirecionar a chamada para outro atendedor automático que você tenha configurado.
+  - Redirecione a chamada para outro atendedor automático que você definiu.
     
 - Criar opções de menu e reproduzir o prompt do menu para o chamador. Por exemplo: "Pressione 1 para Vendas, Pressione 2 para Serviços. Para falar com o operador, pressione 0 a qualquer momento."
     
-### Opções do menu
+### <a name="menu-options"></a>Opções do menu
 
-Os atendedores de automáticos de sistema telefônico permitem que você criar prompts de menu ("Pressione 1 para vendas, pressione 2 para serviços") e definir as opções de menu para rotear chamadas com base no que o usuário seleciona. Configurar opções de menu para um atendedor automático permite que uma organização fornecer um guia interativo para acessar a pessoa seu destino mais rápido, sem depender de um operador para lidar com as chamadas de entrada. Avisos de menu podem ser criados usando o texto em fala (avisos gerados pelo sistema) ou carregar um arquivo de áudio que tenha sido registrado. Reconhecimento de fala usa comandos de voz para navegação viva-voz, mas pessoas chamando também podem usar o teclado do telefone para navegar em menus.
+Atendedores automáticos da telefone sistema permitem que você crie os prompts de menu ("Pressione 1 para vendas, pressione 2 para serviços") e defina as opções de menu para rotear chamadas com base em que o usuário seleciona. Configurando opções de menu para um atendedor automático permite que uma organização fornecer orientação interativa para obter a pessoa ao seu destino mais rápido, sem depender de um operador humano para lidar com as chamadas de entrada. Os prompts de menu podem ser criados usando texto em fala (gerada pelo sistema prompts) ou carregando um arquivo de áudio que foi registrado. Reconhecimento de fala usa comandos de voz para navegação viva-voz, mas pessoas fazendo chamadas também podem usar o teclado do telefone para navegar pelos menus.
   
-Teclas 0 a 9 podem ser atribuídas para **Opções de Menu** em um atendedor automático usando o Skype para o Centro de administração de negócios. Diferentes conjuntos de opções do menu podem ser criados para horário comercial e depois de horas e você pode habilitar ou desabilitar a discagem por nome nas **Opções de Menu**. Chaves podem ser mapeadas para transferir as chamadas para:
+Teclas 0 a 9 podem ser atribuídas às **Opções de Menu** em um atendedor automático usando o Skype para o Centro de administração de negócios. Conjuntos de opções de menu diferentes podem ser criados para horário comercial e depois do expediente e você pode habilitar ou desabilitar a discagem por nome nas **Opções de Menu**. Chaves podem ser mapeadas para transferir as chamadas para:
   
-- Um operador, que é mapeado para chave 0 por padrão. No entanto, pode ser atribuído novamente a qualquer outra chave, ou removido do menu.
+- Um operador, que é mapeado para a tecla 0 por padrão. No entanto, ele pode ser novamente atribuído a qualquer outra tecla, ou removido do menu.
     
-- Uma fila de chamada.
+- Uma fila de espera de chamada.
     
-- Outro atendedor automático. Menus de vários níveis podem ser configurados apontando uma **Opção de Menu** no atendedor automático de um para outro atendedor automático com seu próprio conjunto de opções de Menu, que é chamado de um atendedor automático "aninhadas".
+- Atendedor automático da outra. Menus de vários níveis podem ser configuradas pelo apontando uma **Opção de Menu** no atendedor automático de um para o outro atendedor com seu próprio conjunto de opções de Menu, que é chamado um atendedor automático "aninhados".
     
-- Um Skype para Business Online usuário que tem um **Sistema telefônico** licença que está habilitada para Enterprise Voice ou tem planos de chamada atribuídos a eles. Você pode configurá-lo para a pessoa que estiver ligando possa ser enviada para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina chamadas desta pessoa automaticamente sejam encaminhadas diretamente para a caixa postal.
+- Um Skype para usuário Business Online que tem um **Sistema telefônico** licenciar que esteja habilitado para Enterprise Voice ou chamar planos atribuiu a eles. Você pode montá-lo para a pessoa chamando em possa ser enviada para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina as chamadas sejam automaticamente encaminhadas diretamente para a caixa postal dessa pessoa.
     
     > [!NOTE]
-    > Os usuários hospedados no local usando o Lync Server 2010 não pode ser usado nas **Opções de Menu**. 
+    > Usuários hospedados no local usando o Lync Server 2010 não pode ser usado no **Menu Opções**. 
   
-O nome de cada opção de menu torna-se uma palavra-chave de reconhecimento de fala se tiver sido habilitado o reconhecimento de fala. Por exemplo, os chamadores podem dizer "Um" para selecionar a opção de menu mapeada para chave 1 ou simplesmente dizem "Vendas" para selecionar a opção de menu mesmo denominada "Vendas".
+O nome de cada opção de menu torna-se uma palavra-chave de reconhecimento de fala, se tiver sido habilitado o reconhecimento de fala. Por exemplo, os chamadores podem dizer "One" para selecionar a opção de menu mapeada para a tecla 1 ou simplesmente dizem "Sales" para selecionar a opção de menu mesmo chamada "Sales".
   
 Para configurar um atendedor automático e as opções de menu, vá [Configurar um atendedor automático de sistema telefônico](set-up-a-phone-system-auto-attendant.md).
   
-### Como obter números de serviço para um atendedor automático
+### <a name="getting-service-numbers-for-an-auto-attendant"></a>Como obter números de serviço para um atendedor automático
 
-Antes de poder criar e configurar atendedores automáticos, você precisará obter ou transferir sua chamada Tarifada existente ou serviço de chamada gratuito números. Quando você receber a chamada Tarifada ou números de telefone de chamada gratuita do serviço, eles aparecerão no **Skype para o Centro de administração de negócios** > **voz** > **números de telefone** e o será do **tipo de número** listado será listado como **serviço - chamada gratuito**. Para obter seus números de serviço, consulte [Obtendo números telefônicos de serviço do Skype for Business](getting-service-phone-numbers-for-skype-for-business-and-microsoft-teams.md) ou, se desejar transferir e número de serviço existente, consulte[Transferir números de telefone para o Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Antes de você pode criar e configurar suas atendedores automáticos, você precisará obter ou transferir sua chamada Tarifada existente ou serviço gratuito números. Depois que você fazer a chamada Tarifada ou números de telefone gratuitos de serviço, eles serão exibidos no **Skype para centro de administração de negócios** > **voz** > **números de telefone**e a disposição de **tipo de número** listado listada como **serviço - chamada gratuita **. Para obter seus números de serviço, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](getting-service-phone-numbers.md) ou se você deseja transferir e o número de serviço existente, consulte [transferir os números de telefone para o Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> Se você estiver fora dos Estados Unidos, você não pode usar o Skype para o Centro de administração de negócios para obter números de serviço. [Gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , em vez para ver como fazer isso.
+> Se você estiver fora dos Estados Unidos, você não pode usar o Skype para centro de administração de negócios para obter os números de serviço. Vá [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez disso, para ver como fazê-lo.
   
-## Alterando a ID de chamador do usuário para ser o número de telefone de uma chamada de fila
+## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Alterar a ID de chamador do usuário para ser um número de telefone da chamada de uma fila
 
-Você pode proteger a identidade do usuário, alterando sua ID de chamador para as chamadas de saída para uma fila de chamada em vez disso, criando uma política usando o cmdlet **New-CallingLineIdentity**.
+Você pode proteger a identidade de um usuário alterando sua ID de chamador das chamadas de saída para uma fila de chamada em vez disso, criando uma política utilizando o cmdlet **New-CallingLineIdentity** .
   
 Para fazer isso, execute:
   
@@ -246,24 +255,17 @@ Para fazer isso, execute:
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-Aplique a política ao usuário usando o cmdlet **Grant-CallingLineIdentity**. Para fazer isso, execute:
+Aplica a política ao usuário usando o cmdlet **Grant-CallingLineIdentity** . Para fazer isso, execute:
   
 ```
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-Você pode obter mais informações sobre como fazer alterações nas configurações de ID do chamador na sua organização [Como a identificação de chamadas pode ser usada em sua organização](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+Você pode obter mais informações sobre como fazer alterações nas configurações de ID de chamador em sua organização [como ID do chamador pode ser usado na sua organização](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
-## Tópicos Relacionados
+## <a name="related-topics"></a>Tópicos relacionados
+[Aqui está o que fazer com o sistema telefônico no Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Veja aqui o que você obtém com sistema telefônico no Office 365](here-s-what-you-get-with-phone-system-in-office-365.md)
-  
-[Configurar planos de chamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
-  
-## 
-<a name="MT_Footer"> </a>
+[Obtenção de números de telefone do serviço para Skype para Teams da Microsoft e de negócios](getting-service-phone-numbers.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Disponibilidade de país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -2,62 +2,60 @@
 title: "Solução de conferência de áudio e problemas conhecidos"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
-
-description: "Get a list of known isses when using Microsoft as their dial-in conference provider, status, and some work arounds. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: "Obtenha uma lista de problemas conhecidos ao usar o Microsoft como seu provedor de conferência discada, status e algumas soluções alternativas. "
+ms.openlocfilehash: 2ceeb81de346b15ea606d1c343e34aa300b2cf59
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de conferência de áudio e problemas conhecidos
 
-# Solução de conferência de áudio e problemas conhecidos
+ **Este artigo destina-se Skype para usuários empresariais e Teams da Microsoft usando o Microsoft como seu provedor de serviços de audioconferência. Ela não se aplica aos clientes que estão usando um provedor de serviços de audioconferência de terceiros (ACP).**
+  
+## <a name="troubleshooting-and-known-issues"></a>Problemas conhecidos e solução de problemas
 
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Conferência de áudio que usa o Microsoft que o provedor de serviços de audioconferência tenha problemas atuais que estão sendo rastreados e ativamente investigados e serão potencialmente resolvidos quando o recurso é atualizado em futuras versões do Office 365.
   
- **Este artigo é para o Skype para usuários de negócios e Teams da Microsoft usando o Microsoft como seu provedor de audioconferência. Ele não se aplica aos clientes que estão usando um provedor de terceiros audioconferência (ACP).**
+No momento, use isso como uma referência ao solucionar possíveis problemas com a obtenção de conferência de áudio configurado e funcionando para as pessoas que usam o Skype para aplicativos de negócios ou Teams da Microsoft em sua organização.
   
-## Problemas conhecidos e solução de problemas
-
-Conferência de áudio que usa o Microsoft como provedor de audioconferência tem problemas atuais que estão sendo controladas e ativamente investigação e serão potencialmente resolvidos quando o recurso for atualizado no futuro versões do Office 365.
-  
-Por agora, use este documento como uma referência para solucionar possíveis problemas com a obtenção de conferência de áudio, configurar e trabalhar para as pessoas que usam o Skype para aplicativos de negócios ou Teams da Microsoft em sua organização.
-  
-### Aplicativo de equipes da Microsoft
+### <a name="microsoft-teams-app"></a>As equipes da Microsoft app
 
 |**Problema**|**Comportamento/sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os chamadores PSTN com o mesmo "número de" são mostrados como o mesmo usuário na lista de participação da reunião.  <br/> |Quando vários chamadores de PSTN ingressar em uma reunião e suas identificações de chamador são mascaradas como um único número, ele aparecerá como um chamador único na lista da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|Painel de informações de reunião não estiver aparecendo intermitentemente.  <br/> |Painel de informações da reunião pode não aparecer no cliente de equipes quando os usuários tentam pesquisar para números de telefone de ponte de conferência ou ID da conferência.  <br/> |Examine os detalhes da reunião ou o calendário do Outlook para exibir números de telefone de ponte de conferência ou ID da conferência.  <br/> |25/9/2017  <br/> |
-|Convites de reunião de suplemento do Outlook mostram caracteres de lixo em coordenadas PSTN para localidades fora dos EUA.  <br/> |Ao agendar reuniões particulares usando o suplemento do Outlook para Microsoft Teams em um computador com localidades fora dos EUA, coordenadas PSTN podem conter caracteres de lixo.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|Discar precisa usar 5 dígitos ou mais.  <br/> |Os usuários tentando discar de uma reunião precisam digitar em 5 ou mais dígitos, apesar de regra de normalização de plano de discagem está disponível para normalizar discagem dígito curto para e. 164.  <br/> |Discar digitando o número DID completo ou o formato de número local em vez de número de ramal interno.  <br/> |25/9/2017  <br/> |
-|Discar controle não estiver aparecendo intermitentemente.  <br/> |Controle de discagem pode não estar visível do painel de informações de reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|ID de conferência estático não tem suportada para reuniões de Teams da Microsoft.  <br/> |Se o administrador substitui a configuração padrão de ID de conferência dinâmicos a ID de conferência estático, essa configuração não terá efeito para reuniões de Teams da Microsoft. Consulte [Usando IDs de dinâmico de conferência de áudio em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|Os chamadores da PSTN com o mesmo "número From" são mostrados como o mesmo usuário na lista de participação de reunião.  <br/> |Quando vários chamadores por PSTN ingressem em uma reunião, e seus IDs do chamador são mascarados como um único número, eles serão exibidas como um chamador único na lista de participação da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|Painel de informações da reunião não está aparecendo forma intermitente.  <br/> |Painel de informações da reunião pode não aparecer no cliente de equipes, quando os usuários tentam procurar para números de telefone de ponte de conferência ou ID de conferência.  <br/> |Examinar detalhes da reunião ou calendário do Outlook para exibir números de telefone de ponte de conferência ou ID de conferência.  <br/> |25/9/2017  <br/> |
+|Convites de reunião de suplemento do Outlook mostram caracteres corrompidos em coordenadas PSTN para localidades fora dos EUA.  <br/> |Ao agendar reuniões privadas usando o suplemento do Outlook for Microsoft Teams em um computador com localidades fora dos EUA, coordenadas PSTN podem conter caracteres corrompidos.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|Discagem externa precisa usar 5 dígitos ou mais.  <br/> |Os usuários que tentarem discar a partir de uma reunião precisam digitar em 5 ou mais dígitos, mesmo que a regra de normalização do plano de discagem está disponível para normalizar discagem curto dígitos em e. 164.  <br/> |Discar digitando o número total de DID ou o formato de número local em vez do número de ramal interno.  <br/> |25/9/2017  <br/> |
+|Discagem externa de controle não está aparecendo forma intermitente.  <br/> |Discagem externa controle pode não estar visível do painel de informações da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|ID de conferência estático não tem suportado para reuniões de Teams da Microsoft.  <br/> |Se o administrador substitui a configuração de padrão de ID de conferência dinâmico a ID de conferência estático, essa configuração não terá efeito para reuniões de Teams da Microsoft. Consulte as [IDs de conferência de áudio usando dinâmicos em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
    
-### Skype for Business app
+### <a name="skype-for-business-app"></a>Skype para o aplicativo de negócios
 
 |**Problema**|**Comportamento/sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Notificações de entrada e saída estiver ativada quando inicia uma reunião, mas eles estão desativados logo após a reunião comece.  <br/> |Por padrão, as notificações de entrada e saída estão desabilitadas para reuniões onde os participantes ingressar de ambas as Skype para os aplicativos de negócios e quando eles discam. Você pode habilitar os anúncios nas **Opções de reunião do Skype** o Skype para o aplicativo de negócios. Para uma reunião em que todos os participantes discar e ingressar em uma reunião, as notificações de entrada e saída são ativadas por padrão, como a lista de participantes não está disponível para todos os participantes. Quando uma reunião foi iniciado com apenas os participantes da chamada, a entrada e saída notificações serão ativadas, mas quando um participante junções usando um Skype aplicativo for Business, as notificações serão desativados. Quando desativada, as notificações podem ser habilitadas novamente usando **Opções de reunião do Skype** no Skype para o aplicativo de negócios. <br/> |Não há solução alternativa.  <br/> |30/8/2017  <br/> |
-|Se um usuário está provisionado na primeira vez por sendo atribuído uma licença E5, talvez seja possível para o email de boas-vindas de conferência de áudio não ser entregue para o usuário se a caixa de correio não está habilitada.  <br/> |Se isso acontecer, você sempre pode reenviar as informações de conferência de áudio do usuário usando **conferências de áudio** do Skype para o Centro de administração de negócios ou usando o PowerShell. Consulte[Ativar ou desativar o envio de emails quando alterar configurações de conferência de áudio](enable-or-disable-sending-emails-when-audio-conferencing-settings-change.md).  <br/> > [!NOTE]> Para reenviar o PIN de conferência de áudio para o usuário, o PIN deve ser redefinido. Isso também pode ser feito usando **a conferência de áudio** no Skype para o Centro de administração de negócios ou usando o PowerShell.          |Não há solução alternativa.  <br/> |30/8/2017  <br/> |
-|Chamadas de conferência de áudio podem levar até 24 horas para mostrar os relatórios de uso.  <br/> |Queremos encaminhar para fazer melhorias nesta área em atualizações futuras do serviço.  <br/> |Não há solução alternativa.  <br/> |30/8/2017  <br/> |
-|Quando um chamador disca para uma ponte de conferência após a reunião foi bloqueada por um usuário Skype for Business, não há uma notificação no aplicativo de Skype for Business informando que o usuário está aguardando no lobby.  <br/> |Atualmente isso é intencional, mas levaremos em conta o feedback sobre o suporte a esse recurso em atualizações futuras do serviço.  <br/> |Não há solução alternativa.  <br/> |30/8/2017  <br/> |
+|Notificações de entrada e saída são ativadas quando uma reunião é iniciado, mas eles estiver desativados logo depois do início da reunião.  <br/> |Por padrão, as notificações de entrada e saída estão desabilitadas para reuniões, onde os participantes ingressar de ambos os Skype para aplicativos de negócios e quando eles discam. Você pode habilitar os comunicados nas **Opções de reunião Skype** no Skype para o aplicativo de negócios. Para uma reunião em que todos os participantes discam e ingressem em uma reunião, notificações de entrada e saída estão habilitadas por padrão, como a lista de participação do participante não está disponível para qualquer participante. Quando uma reunião foi iniciada com somente os participantes chamando em, a entrada e saída notificações serão ativadas, mas quando um participante junções usando um Skype para o aplicativo de negócios, as notificações será desativado. Quando desativado, as notificações podem estar habilitadas novamente usando as **Opções de reunião do Skype** no Skype para o aplicativo de negócios. <br/> |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
+|Se um usuário é provisionado na primeira vez por sendo atribuído a uma licença E5, talvez seja possível para o e-mail de boas vindas de conferência de áudio não sejam entregues ao usuário se a caixa de correio não está habilitada.  <br/> |Se isso acontecer, você sempre pode reenviar as informações de conferência de áudio do usuário usando **conferência de áudio** no Skype para centro de administração de negócios ou usando o PowerShell. Consulte [Habilitar ou desabilitar o envio de emails ao alteram as configurações de conferência de áudio](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Observação:** Para reenviar o PIN de conferência de áudio para o usuário, o PIN deve ser redefinido. Isso também pode ser feito usando a **conferência de áudio** no Skype para centro de administração de negócios ou usando o PowerShell.          |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
+|Chamadas de conferência de áudio poderá demorar até 24 horas para mostrar os relatórios de uso.  <br/> |Que queremos encaminhar para fazer melhorias nesta área no serviço futuras atualizações.  <br/> |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
+|Quando um chamador disca para uma ponte de conferência após a reunião foi bloqueada por um Skype para o usuário de negócios, não há uma notificação no Skype para aplicativos de negócios informando que o usuário está aguardando no lobby.  <br/> |Atualmente isso é intencional, mas levaremos em conta o feedback sobre o suporte a esse recurso em atualizações futuras do serviço.  <br/> |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
    
-## Tópicos Relacionados
+## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
+[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](set-up-audio-conferencing.md)
   
 

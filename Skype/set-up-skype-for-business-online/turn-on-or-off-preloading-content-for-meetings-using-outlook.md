@@ -2,28 +2,34 @@
 title: "Ativar ou desativar a permissão para que o conteúdo seja pré-carregado para reuniões usando o Outlook"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/17/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: d217d422-f7e9-433d-ad24-bf41751f65ca
-description: "See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
+ms.openlocfilehash: 7cef226e6b2370aa486476375a5c4747dbe9e5b4
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Ativar ou desativar a permissão para que o conteúdo seja pré-carregado para reuniões usando o Outlook
 
-# Ativar ou desativar a permissão para que o conteúdo seja pré-carregado para reuniões usando o Outlook
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Usuários podem pré-carregar conteúdo, arquivos ou anexos que são anexados a um convite de reunião do Outlook para uma Skype reunião on-line do Business, mas você pode ativar ou desativar. Ela é ativada por padrão para todas as organizações que estão usando o Skype for Business Online. Veja como [Pré-carregar anexos de uma reunião do Skype for Business](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Os usuários podem pré-carregar conteúdo, arquivos ou anexos que estejam anexados a um convite de reunião do Outlook para um Skype para reunião Online de negócios, mas você pode ele ativar ou desativar. Ela é ativada por padrão para todas as organizações que estão usando Skype para Business Online. Consulte como [pré-carregar anexos para um Skype para reunião de negócios](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> Atualmente, não há nenhuma cmdlets disponíveis no Skype for Business Online para configuração ou exibindo valores onlinehttps para  _MaxContentStorageMB_ e _MaxUploadFileMB_. Eles estão disponíveis apenas para implantações locais. É importante saber que o conteúdo não será carregado para uma reunião se o conteúdo anexado exceder o  _MaxUploadFileSizeMB_ ou se o limite de _MaxContentStorageMB_ é alcançado.
+> Atualmente, não há nenhum cmdlets disponíveis no Skype para Business Online por configuração ou exibir valores online para _MaxContentStorageMB_ e _MaxUploadFileMB_. Eles só estarão disponíveis para implantações locais. É importante saber que o conteúdo não será carregado para uma reunião se o conteúdo de anexo excede o _MaxUploadFileSizeMB_ ou o limite de _MaxContentStorageMB_ é atingido.
   
-## Para começar
+## <a name="to-get-you-started"></a>Para começar
 
 ### 
 
@@ -37,7 +43,7 @@ Usuários podem pré-carregar conteúdo, arquivos ou anexos que são anexados a 
     
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
-Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
+Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
   
 ### 
 
@@ -48,7 +54,7 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
 2. Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:
     
     > [!NOTE]
-    > Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
+    > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
   
 > 
   ```
@@ -70,14 +76,14 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
   Import-PSSession $session
   ```
 
-Confira mais informações sobre como iniciar o Windows PowerShell em [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou[Conectar-se ao Skype for Business Online usando o Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
+Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-## Ativar ou desativar o recurso
+## <a name="turning-it-on-or-off"></a>Ativar ou desativar o recurso
 
-Ser capaz de pré-carregar conteúdo anexado a um convite de reunião do Outlook para Skype para reuniões Online de negócios é ativada por padrão, mas talvez você precise impedir os usuários de sua organização de pré-carregamento conteúdo em suas reuniões.
+Ser capaz de pré-carregar conteúdo anexado a um convite de reunião do Outlook para Skype para reuniões Online de negócios está ativado por padrão, mas você pode precisar impedir que os usuários da organização pré-carregamento conteúdo em suas reuniões.
   
 > [!IMPORTANT]
-> Esta configuração pode apenas ser ativada ou desativada para sua organização inteira; Você não pode ativar ou desativar essa para um único usuário. 
+> Essa configuração pode apenas ser ativada ou desativado para toda a sua organização; Você não pode ativar ou desativar essa de um único usuário. 
   
  **Para desativá-la, abra o Windows PowerShell e faça o seguinte:**
   
@@ -91,7 +97,7 @@ Grant-CsGraphPolicy -PolicyName GraphDisabled
 Grant-CsGraphPolicy -PolicyName GraphEnabled 
 ```
 
-## Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
 
 - O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
@@ -105,12 +111,9 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)

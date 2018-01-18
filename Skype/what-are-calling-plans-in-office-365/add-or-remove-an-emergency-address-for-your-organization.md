@@ -2,72 +2,74 @@
 title: "Adicionar ou remover um endereço de emergência para sua organização"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/9/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: f954c67c-b73c-4473-b6cd-a0fbcd0fd4c9
-description: "Learn how to add an emergency address to your Skype for Business account. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: 'Learn how to add an emergency address to your Skype for Business account. '
+ms.openlocfilehash: 5c55841f07460f5a8b0f478a6306bcef8a26af4f
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Adicionar ou remover um endereço de emergência para sua organização
 
-# Adicionar ou remover um endereço de emergência para sua organização
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Um endereço de emergência deve ser associado um número de telefone - mas quando isso acontece pode variar entre países/regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando você atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual.
   
-Um endereço de emergência deve ser associado um número de telefone - mas quando isso acontece pode variar entre países/regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando você atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você estiver recebendo os números de telefone do Office 365 ou transferir números de telefone do seu provedor de serviço atual.
+Não importa qual país/região estiver em, é possível adicionar um local ou locais de emergência de endereços ou remover um endereço de emergência. Dependendo do número de locais físicos em sua organização, você pode criá-los para prédios, andares e escritórios. Consulte [Cite locais de emergência, endereços e roteamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para alguns detalhes.
   
-Não importa qual país/região que você estiver usando, é possível adicionar um local ou locais para um endereço de emergência ou remover e endereço de emergência. Dependendo do número de locais físicos em sua organização, você pode criá-los para edifícios, plantas e escritórios. Consulte [O que são locais e endereços de emergência e encaminhamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para alguns detalhes.
+Para saber como obter um plano de chamada e quanto custa, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Para saber como obter um plano de chamar e quanto custa, consulte [Skype para Business e Teams Microsoft complemento licenciamento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
-  
-## Para adicionar um endereço de emergência
+## <a name="to-add-an-emergency-address"></a>Para adicionar um endereço de emergência
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência** > clique no botão **Adicionar novo endereço**.
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e, em seguida, clique no botão **Adicionar novo endereço** .
     
-    **IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.
+    > [!Important]
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. No painel ação, em **Novo endereço**, coloque as informações necessárias nas caixas.
+4. No painel de ações, em **Novo endereço**, digite as informações necessárias nas caixas.
     
-5. Depois de incluir todas as informações do endereço, clique em **Validar**.
+5. Depois de digitar todas as informações do endereço, clique em **Validar**.
     
-    > [!CAUTION]
-    > Validar um endereço físico ou cívico envolve lembrando-se de que ele é legítima e formatado corretamente. É possível que uma emergência parcialmente correta endereço tais como se você digitado incorretamente, o nome da cidade, mas talvez pass ainda passar validação. Mesmo que tem incorreta e passou na validação, a combinação do nome incorreta da cidade juntamente com as outras partes do endereço corretas são informações suficientes para rotear a chamada para o Centro de distribuição de emergência apropriado. 
+    > [!IMPORTANT]
+    > Validando um endereço de rua ou residencial envolve certificando-se de que ele é legítimo e formatada corretamente. É possível que um endereço de emergência parcialmente correto, tais como se você digitado incorretamente o nome da cidade, talvez ainda passar validação. Embora ele tenha escrito incorretamente e passadas de validação, a combinação do incorreta nome da cidade, juntamente com as outras partes do endereço corretas são informações suficientes para rotear a chamada para o Centro de expedição apropriada de emergência. 
   
-    Se o endereço não pode ser validado, você pode enviar uma solicitação de validação manual clicando em **Enviar uma solicitação de validação** se você estiver tentando validar um endereço de EUA ou **Abra uma solicitação de serviço para obter ajuda com a validação de endereço** se você estiver fora do EUA
+    Se o endereço não pode ser validado, você pode enviar uma solicitação de validação manual ao clicar em **Enviar uma solicitação de validação** , se você estiver tentando validar um endereço dos Estados Unidos ou clique em **Abrir uma solicitação de serviço para obter ajuda com a validação de endereço** , se você estiver fora do Estados Unidos.
     
-6. Depois que o endereço é validado, clique em **Salvar**.
+6. Depois que o endereço for validado, clique em **Salvar**.
     
-## Para remover um endereço de emergência
+## <a name="to-remove-an-emergency-address"></a>Para remover um endereço de emergência
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **local de emergência**, selecione o endereço que você deseja excluir e, no painel ação, clique em **Excluir**.
+3. No painel de navegação esquerdo, vá para **voz** > **local de emergência**, selecione o endereço que você deseja excluir e, no painel de ações, clique em **Excluir**.
     
-    **IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.
+    > [!IMPORTANT]
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-## Tópicos Relacionados
+## <a name="related-topics"></a>Tópicos relacionados
+[Cite locais de emergência, endereços e roteamento de chamadas.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+[Gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
-  
-[Áudio período discar complementar de conferência](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)

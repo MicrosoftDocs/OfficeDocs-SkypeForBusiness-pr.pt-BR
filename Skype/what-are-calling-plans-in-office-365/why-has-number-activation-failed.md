@@ -1,94 +1,102 @@
 ---
-title: "Por que a ativação do número falhou?"
+title: "Por que o número ativação falhou?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: troubleshooting
-f1_keywords:
-- ms.lync.lac.NumberActivationStateFailed
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: c4e54d00-e096-474c-a457-56e785439ff6
-description: "Validação de endereço é uma parte importante da configuração do chamando planos no Office 365. Ele fornece um usuário de sua organização um endereço de chamada de emergência que pode ser usado pelos serviços de emergência resposta."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.NumberActivationStateFailed
+ms.custom: Calling Plans
+description: "Validação de endereço é uma parte importante do Configurando chamar planos no Office 365. Ele fornece um usuário em sua organização para um endereço de chamada de emergência que pode ser usado pelos serviços de resposta de emergência."
+ms.openlocfilehash: c872fadb27bc3dfa2669cf3ac48a5d1345fe2147
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
-
-# Por que a ativação do número falhou?
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+# <a name="why-has-number-activation-failed"></a>Por que o número ativação falhou?
+Validação de endereço é uma parte importante do Configurando chamar planos no Office 365. Se por algum motivo um número de telefone não é ativado por causa de validação de endereço, você precisará criar uma solicitação de serviço. Como fazer isso é baseado no tamanho da sua organização.
   
-Validação de endereço é uma parte importante da configuração do chamando planos no Office 365. Ele fornece um usuário de sua organização um endereço de chamada de emergência que pode ser usado pelos serviços de emergência resposta.
-  
-## Crie uma solicitação de serviço para validar um endereço de emergência
+## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações 150 ou siga estas etapas
+1. No **Centro de administração do Office 365**, escolha **precisa de ajuda**?
+2. No **precisa de ajuda?** painel, diga-no que você precisa ajuda, selecione **obter ajuda**.
+3. Se os resultados na seção **soluções em modo** não ajudarem, escolha um destes procedimentos:
+    - **Vamos chamá-lo (recomendado)**: confirmar o número do seu contato, depois pressione **chamar-me**. O tempo de espera esperada para uma chamada de volta é indicado no **precisa de ajuda?** painel.
+    - **Nos envie um email**: confirmar seu endereço de email, selecione **Enviar**. O tempo de resposta de chamada é indicado no **precisa de ajuda?** painel.
+
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>Para organizações com mais de 150 usuários, crie uma solicitação de serviço para validar um endereço de emergência
 
 1. Entre no Office 365 como administrador usando uma conta corporativa ou de estudante.
     
-2. Clique em **Suporte** > **Solicitações de serviço** no painel de navegação esquerdo do Centro de administração do Office 365.
+2. No Centro de administração do Office 365, no painel de navegação esquerdo, clique em **suporte** > **nova solicitação de serviço**.
     
-3. Em **Solicitações de serviço**, clique em **Adicionar**.
+3. Em **solicitações de serviço**, clique em **Adicionar**.
     
 4. Na página **Criar uma solicitação de serviço**, clique em **Colaboração online**.
     
-5. Na página **Identificar o problema**, selecione e insira o seguinte:
+5. Na página **identificar o problema** , selecione e insira o seguinte:
     
-  - **Recurso** selecione **Chamada Doméstica** e/ou **Chamada Internacional**.
+  - **Recurso:** Selecione **domésticas chamar plano** e/ou **plano nacionais e internacional**.
     
-  - **Sintoma** insira **chamadas de emergência**.
+  - **Sintoma:** Insira a **chamada de emergência**.
     
-  - **Resumo do problema** insira **validação de endereço**.
+  - **Resumo do problema:** Insira a **validação de endereço**.
     
-  - **Detalhes do problema** insira as informações sobre os endereços que deseja validar, como
+  - **Detalhes do problema:** Insira todos os detalhes sobre o endereço (s) que você deseja validar, como o:
     
-  - Número
+      - Número de rua
     
-  - Nome da rua
+      - Nome da rua
     
-  - Cidade ou município
+      - Cidade ou cidade
     
-  - País ou região
+      - País ou região
     
     > [!IMPORTANT]
-    > **Coloque o país/região em que oferecemos Planos de Chamada no Office 365 em que você está tentando validar um endereço de emergência, durante a atribuição de um número de telefone.**
+    > **Coloque o país/região onde oferecemos chamar planos no Office 365 que você está tentando validar um endereço de emergência no quando você estiver atribuindo um número de telefone.**
   
-  - CEP
+      - Postal ou CEP
     
 6. Clique em **Próxima** página e em **Sim, continuar** para continuar.
     
 7. Na página **Adicionar detalhes**, selecione e insira o seguinte:
     
-  - **Seu serviço não está disponível?**, escolha **Não**.
+  - **O serviço não está disponível?** Selecione **não**.
     
-  - **Quantos usuários serão afetados?**, escolha **Alguns usuários**.
+  - **Quantos usuários são afetados?** Selecione **alguns usuários**.
     
-  - **Insira o endereço de email de um usuário afetado por esse problema** ou deixe em branco.
+  - **Digite um endereço de email de uma pessoa afetados por esse problema** ou deixe em branco.
     
-  - **Escolha os domínios que deseja listar**
+  - **Selecione o domínio (s) que deseja listar**
     
-  - **Anexe um arquivo**, caso precise validar vários endereços.
+  - **Anexar um arquivo** se você tiver vários endereços que você precisa validados.
     
   - Clique em **Avançar**.
     
   - Insira o número de telefone de contato.
     
-8. Confira as informações e clique em **Enviar solicitação**.
+8. Revise as informações e, em seguida, clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **Exibir solicitações de serviço** no Centro de administração do Office 365.
-  
-## Tópicos Relacionados
-
-[Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
-  
-[Áudio período discar complementar de conferência](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
-  
-## 
-<a name="MT_Footer"> </a>
+> [!DICA] O número de referência será listado na página **Solicitações de serviço** do Centro de administração do Office 365.
 
 > [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
+> Se você precisar fazer mais números de telefone que isso, por favor, [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
+  
+## <a name="related-topics"></a>Tópicos relacionados
+[Transferindo perguntas comuns de números de telefone](transferring-phone-numbers-common-questions.md)
+
+[Diferentes tipos de números de telefone usados para planos de chamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)

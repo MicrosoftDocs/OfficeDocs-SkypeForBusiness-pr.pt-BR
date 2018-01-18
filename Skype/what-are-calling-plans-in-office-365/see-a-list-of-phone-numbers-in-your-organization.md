@@ -2,28 +2,33 @@
 title: "Ver uma lista de números de telefone em sua organização"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/14/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
-description: "Learn how to see a list of all the phone numbers for your organizaton, all the numbers assigned to users, and all the numbers that are assigned to voice users from the Skype for Business admin center."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Saiba como ver uma lista de todos os números de telefone em sua organização, todos os números atribuídos aos usuários e todos os números são atribuídos a usuários de voz, a partir do Skype para centro de administração de negócios."
+ms.openlocfilehash: cfba58f7bb84d7cd67185c7c4ce8c6623c69fa7e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
-# Ver uma lista de números de telefone em sua organização
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Há tipos diferentes de números de telefone que você pode atribuir a usuários ou outros serviços (números de serviço), tais como para conferências de áudio no Office 365.
   
-Há tipos diferentes de números de telefone que você pode atribuir a usuários ou outros serviços (números de serviço), como para conferência de áudio no Office 365.
-  
-## Para ver uma lista de todos os números de telefone de sua organização
+## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver uma lista de todos os números de telefone de sua organização
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -31,25 +36,26 @@ Há tipos diferentes de números de telefone que você pode atribuir a usuários
     
 3. No **Centro de administração do Skype for Business**, na navegação esquerda, vá para **Voz** > **Números de telefone**.
     
-    **IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.
+    > [!IMPORTANT]
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Para exibir os números de telefone atribuídos, consulte a coluna de **número**.
+4. Para exibir os números de telefone atribuídos, consulte a coluna de **número** .
     
 5. Você pode usar a lista suspensa para filtrar a exibição por:
     
   - **Todos** os números de telefone, inclusive números de telefone de serviço.
     
-  - Um telefone **intervalo de números** que você definir.
+  - Um telefone **intervalo de números** que você definiu.
     
-  - Números de telefone são **atribuídas ao usuário**.
+  - Números de telefone que estão **atribuídos ao usuário**.
     
-  - Números de telefone que **atribuído a conferência** discada.
+  - Números de telefone que **atribuídos a conferência** para conferência discada.
     
   - Números de telefone **não atribuídos**.
     
   - O **local** dos números de telefone.
     
-## Para ver todos os números de telefone que estão atribuídos a usuários
+## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos os números de telefone que estão atribuídos a usuários
 
 Ao configurar usuários, talvez você só queira ver a lista de números de telefone já atribuídos aos usuários e quais números de telefone podem ser atribuídos a eles.
   
@@ -59,9 +65,10 @@ Ao configurar usuários, talvez você só queira ver a lista de números de tele
     
 3. No painel de navegação esquerdo do **Centro de administração do Skype for Business**, vá para **Voz** > **Usuários de voz**.
     
-    **IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.
+    > [!IMPORTANT]
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Você pode filtrar seu modo de exibição para números de telefone atribuídos a usuários ou números de telefone que você pode atribuir a um usuário. Você pode filtrar por:
+4. Você pode filtrar sua opinião para números de telefone que são atribuídos a usuários ou números de telefone que você pode atribuir a um usuário. Você pode filtrar por:
     
   - **Todos** os números de telefone, inclusive números de telefone de serviço.
     
@@ -69,7 +76,7 @@ Ao configurar usuários, talvez você só queira ver a lista de números de tele
     
   - **Nenhum número atribuído** ao usuário.
     
-## Para ver os números de telefone atribuídos a usuários de voz
+## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Para ver os números de telefone atribuídos a usuários de voz
 
 Ao configurar usuários em sua organização para fazer e receber chamadas, primeiro você deve obter os números de telefone e, depois, atribuí-los aos usuários. Após obter os números de telefone, talvez você só queira ver a lista dos usuários que têm números de telefone atribuídos a eles, os que não têm e se um usuário está hospedado online ou no local.
   
@@ -79,26 +86,24 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
     
 3. No painel de navegação esquerdo do **Centro de administração do Skype for Business**, vá para **Voz** > **Usuários de voz**.
     
-    **IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.
+    > [!IMPORTANT]
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Você pode usar a lista suspensa para filtrar a exibição para usuários ativos, se o usuário é Online ou no local, ou o estado e o tipo de licenciamento de um usuário. Você pode filtrar por:
+4. Você pode usar a lista suspensa para filtrar a exibição para usuários ativos, se o usuário está Online ou no local, ou o estado e tipo de licenciamento para um usuário. Você pode filtrar por:
     
   - **Usuários ativos** e se um usuário está online ou no local.
     
   - **Licenças pendentes** e se um usuário está online ou no local.
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Transferindo perguntas comuns de números de telefone](transferring-phone-numbers-common-questions.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
+[Diferentes tipos de números de telefone usados para planos de chamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-#### 
+[Gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
-  
-[Áudio período discar complementar de conferência](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
+
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
 

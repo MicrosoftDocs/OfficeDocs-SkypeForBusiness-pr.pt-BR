@@ -1,40 +1,44 @@
 ---
-title: "Reter grandes arquivos anexados a uma Skype reunião do"
+title: "Retenção de arquivos grandes anexados a um Skype para reunião de negócios"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/7/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
-description: "Você pode anexar arquivos a uma reunião de Skype for Business, quais participantes podem então abrir e baixarem. Arquivos anexados a Skype for Business reuniões são mantidos nas caixas de correio de qualquer participante cuja caixa de correio é colocada em suspensão de litígio, com uma política de retenção Office 365 aplicada ou é colocada em uma espera associada a um caso de descoberta eletrônica na Centro de Conformidade e Segurança do Office 365. Esse conteúdo é salvo em pastas de Itens recuperáveis dos participantes em suas caixas de correio."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Você pode anexar arquivos a uma Skype para reunião de negócios, que os participantes, em seguida, podem abrir e baixar. Arquivos anexados a Skype para reuniões de negócios são mantidos nas caixas de correio de qualquer participante cuja caixa de correio for colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em uma espera associada a um caso de eDiscovery de segurança do Office 365 &amp; Centro de conformidade. Este conteúdo é salvo pastas de itens recuperáveis dos participantes em suas caixas de correio."
+ms.openlocfilehash: bf6a3d0df568a043bc569d78ca0942682e936158
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Retenção de arquivos grandes anexados a um Skype para reunião de negócios
 
-# Reter grandes arquivos anexados a uma Skype reunião do
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Você pode anexar arquivos a uma Skype para reunião de negócios, que os participantes, em seguida, podem abrir e baixar. Arquivos anexados a Skype para reuniões de negócios são mantidos nas caixas de correio de qualquer participante cuja caixa de correio for colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em uma espera associada a um caso de eDiscovery de segurança do Office 365 &amp; Centro de conformidade. Este conteúdo é salvo pastas de **Itens recuperáveis** dos participantes em suas caixas de correio.
   
-Você pode anexar arquivos a uma reunião de Skype for Business, quais participantes podem então abrir e baixarem. Arquivos anexados a Skype for Business reuniões são mantidos nas caixas de correio de qualquer participante cuja caixa de correio é colocada em suspensão de litígio, com uma política de retenção Office 365 aplicada ou é colocada em uma espera associada a um caso de descoberta eletrônica na Centro de Conformidade e Segurança do Office 365. Esse conteúdo é salvo em pastas de **Itens recuperáveis** dos participantes em suas caixas de correio.
-  
-Arquivos que são mantidos nas caixas de correio em espera são indexados e, portanto, podem ser pesquisados durante a execução de uma pesquisa de conteúdo no Centro de Conformidade e Segurança ao pesquisar a caixa de correio do participante. No entanto, arquivos anexados maiores que 39 MB são divididos em dois ou mais arquivos menores e salvas como arquivos compactados (. zip). O  *conteúdo*  desses arquivos menores não é indexado para pesquisa e não pode ser retornado em uma pesquisa de conteúdo. No entanto, os *metadados*  desses arquivos (como o nome do arquivo e o autor) é indexado para pesquisa e podem ser retornado em uma pesquisa de conteúdo.
+Arquivos que são mantidos em caixas de correio em espera são indexados e, portanto, podem ser pesquisados ao executar uma pesquisa de conteúdo na segurança &amp; Centro de conformidade durante a pesquisa de caixa de correio de um participante. No entanto, os arquivos anexos maiores que 39 MB são divididos em dois ou mais arquivos menores e salvos como arquivos compactados (. zip). O *conteúdo* desses arquivos menores não é indexado para pesquisa e não pode ser retornados em uma pesquisa de conteúdo. No entanto, os *metadados* desses arquivos (por exemplo, o nome do arquivo e o autor) é indexado para pesquisa e podem ser retornados em uma pesquisa de conteúdo.
   
 > [!NOTE]
-> Se a caixa de correio está cheio ou o administrador de locatários configurou MaxSendSize para ser menor que 39 MB, carregados no arquivo de dados não serão mantidos em todos os. O padrão MaxSendSize é 150 MB, mas administradores de locatários podem configurar MaxSendSize para ser tão pequeno quanto 1 MB. 
+> Se a caixa de correio está cheia ou o administrador de locatário tiver configurado MaxSendSize para ser menor do que 39 MB, carregado o arquivo de dados não serão mantidos em todas as. O padrão MaxSendSize é 150 MB, mas os administradores de Inquilino podem configurar MaxSendSize para ser tão pequeno quanto 1 MB. 
   
-Caixas de correio que não estão em espera não terá qualquer dado de reunião salvo. Por exemplo, em uma reunião de três pessoas no qual as caixas de correio dos dois participantes estão marcadas para retenção, os dados de reunião são salvos para as caixas de correio desses dois participantes, mas não à caixa de correio do participante terceiro, cuja caixa de correio não está em mantenha.
+Caixas de correio que não estiverem em espera não terão qualquer dados da reunião salvos. Por exemplo, em uma reunião de 3 pessoas em que as caixas de correio de dois participantes estão marcadas para retenção de, os dados de reunião são salvos às caixas de correio desses dois participantes, mas não à caixa de correio do terceiro participante, cuja caixa de correio não está em espera.
   
-## Confira também
+## <a name="related-topics"></a>Tópicos relacionados
+[Criar políticas de acesso externo personalizadas](create-custom-external-access-policies.md)
 
-[Executar uma pesquisa de conteúdo no Centro de conformidade de segurança do Office 365](https://support.office.com/article/61852fd9-fe8a-4880-a339-cb19ed3bff4a .aspx)
-  
-[Itens não indexados na pesquisa de conteúdo no Office 365](https://support.office.com/article/d1691de4-ca0d-446f-a0d0-373a4fc8487b)
-  
-## 
-<a name="MT_Footer"> </a>
+[Transferências de arquivos ponto a ponto de bloqueio](block-point-to-point-file-transfers.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
+[Configurar políticas de cliente para sua organização](set-up-client-policies-for-your-organization.md)
 
+[Configurar políticas de conferência na sua organização](set-up-conferencing-policies-for-your-organization.md)
+  

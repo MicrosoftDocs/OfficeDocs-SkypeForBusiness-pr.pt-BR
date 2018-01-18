@@ -2,32 +2,33 @@
 title: "Permitir que os usuários do Skype for Business adicionem contatos do Skype"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/13/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.service: o365-administration
-localization_priority: Normal
-ms.collection:
-- Adm_Skype4B_Online
-- Adm_Skype4B_Online_Top
-ms.custom:
-- Adm_O365_FullSet
-- DianeF_Adm_Simplified
-- LIL_Placement
 ms.assetid: 08666236-1894-42ae-8846-e49232bbc460
-
-description: "See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Setup
+- LIL_Placement
+description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
+ms.openlocfilehash: 1add1f6e907613d1ac536c92b57cfce7f3cdaf66
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que os usuários do Skype for Business adicionem contatos do Skype
 
-# Permitir que os usuários do Skype for Business adicionem contatos do Skype
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
 Com o Skype for Business, os usuários podem pesquisar todos os usuários do Skype (o aplicativo gratuito!) e enviar mensagens instantâneas para eles. Este artigo explica o que você precisa fazer para adicionar contatos do Skype. 
   
-Você deve ter [Tudo sobre as funções de administrador do Office 365](about-office-365-admin-roles.md) no Office 365 para fazer isso.
+Você deve ter [permissões de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) no Office 365 para fazer isso.
   
 1. Entre com sua conta de administrador do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     
@@ -35,7 +36,7 @@ Você deve ter [Tudo sobre as funções de administrador do Office 365](about-of
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. No **Centro de administração do Skype for Business**, escolha **organização** > **comunicações externas**.
+3. No **Skype para centro de administração de negócios**, escolha **organização** > **comunicações externas**. 
     
 4. Por padrão, seus usuários podem se comunicar com todas as outras pessoas do mundo que usam Skype for Business (supondo que seu firewall tenha sido configurado para permitir isso). 
     
@@ -47,15 +48,15 @@ Você deve ter [Tudo sobre as funções de administrador do Office 365](about-of
     
 5. Escolha **Permita que as pessoas usem o Skype for Business para se comunicar com usuários do Skype fora de sua organização**. 
     
-6. Se você estiver usando o Windows Firewall, o Skype for Business abrirá as portas necessárias automaticamente. 
+6.  Se você estiver usando o Windows Firewall, o Skype for Business abrirá as portas necessárias automaticamente.
     
-    Se a sua organização restringe a conexão com a Internet nos computadores da rede, verifique se os computadores cliente podem acessar todos os [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para a conectividade do Skype e para pesquisas no diretório do Skype. Isso pode exigir a adição desses computadores à lista de permissões de saída da sua configuração de infraestrutura de proxy ou firewall.
+    Se sua organização usa outra solução para restringir os computadores em sua rede de se conectar à Internet, certifique-se de que os computadores clientes sejam capazes de acessar todos os [endereços IP e URLs](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para conectividade Skype e pesquisa de diretório do Skype. Isso poderá exigir adicioná-las à saída lista de permissões na sua configuração de infraestrutura de firewall ou proxy.
     
 7. **AGUARDE 24 HORAS PARA FAZER O TESTE**. Em qualquer momento que você alterar as configurações das comunicações externas, poderá levar até 24 horas para as alterações serem efetivadas em todos os data centers.
     
-8. Mostre aos usuários como pesquisar e adicionar contatos do Skype à sua lista de contatos do Skype for Business. Oriente-os a usar a opção [Procurar por pessoas no Skype for Business](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19).
+8. Mostre aos usuários como pesquisar e adicionar contatos do Skype à sua lista de contatos do Skype for Business. Oriente-os a usar a opção [Procurar por pessoas no Skype for Business](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19).
     
-## Testar e solucionar problemas
+## <a name="test-and-troubleshoot"></a>Testar e solucionar problemas
 
 Para testar sua configuração, você precisa de um contato no Skype que não seja protegido pelo firewall da empresa. Eles podem entrar no Skype usando uma conta do Gmail, do Outlook.com ou outro tipo de conta de email.
   
@@ -67,7 +68,7 @@ Para testar sua configuração, você precisa de um contato no Skype que não se
   
 3. No Skype for Business, pesquise seu contato no Skype e envie uma solicitação para chat. 
     
-    Se você receber a mensagem de que essa solicitação não pode ser enviada devido à política da empresa, você deverá verificar suas [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
+    Se você receber a mensagem, que ela não pôde ser enviada devido à política da empresa, você precisará verificar suas [configurações de firewall](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
     
 4. Outra maneira de testar se o problema é o firewall é usar o wifi de um lugar que não tenha firewall, como uma cafeteria, e usar o Skype for Business para enviar uma solicitação ao contato do Skype para chat. 
     
@@ -75,42 +76,26 @@ Para testar sua configuração, você precisa de um contato no Skype que não se
     
   - Agora, se a mensagem for enviada da cafeteria, mas não de seu trabalho, então você saberá que o problema é o firewall. 
     
-## O que você pode ou não fazer
+## <a name="what-you-can-and-cant-do"></a>O que você pode ou não fazer
 
 - **Skype for Businessno Mac** não tem a capacidade de pesquisar e comunicar-se com contatos do Skype.
     
-- Enquanto você pode pesquisar e localizar usuários do Skype, eles não podem pesquisar e localizar Skype for Business usuários. Você precisa envie uma solicitação de contato e têm entrar no Skype e aceitar, antes que você pode enviar mensagens Instantâneas com elas.
+- Enquanto você pode pesquisar e localizar usuários Skype, eles não podem procurar e encontre Skype para usuários empresariais. Você precisa enviar-lhes uma solicitação de visita e eles precisam se conectar ao Skype e aceitá-lo, antes de você poder mensagens Instantâneas com eles. 
     
 - Não é possível permitir a conectividade de mensagens instantâneas com outros provedores de mensagens instantâneas, como o Google ou Facebook. Você não pode usar o Skype for Business para enviar mensagens de texto de celular.
     
-## Quais recursos estão disponíveis ao adicionar contatos do Skype?
+## <a name="what-features-are-available-when-adding-skype-contacts"></a>Quais recursos estão disponíveis ao adicionar contatos do Skype?
 
-os contatos de Skype que entraram com uma conta da Microsoft (antigo Windows Live ID) podem obter alguns, mas não todos, recursos quando eles estão falando aos usuários Skype for Business.
+Contatos do Skype que entraram em sua conta da Microsoft (anteriormente Windows Live ID) podem fazer algumas, mas nem todos os recursos quando eles estão se comunicando com seu Skype para usuários comerciais.
   
 |**Disponível para os contatos do Skype**|**Não disponível para os contatos do Skype**|
 |:-----|:-----|
 | Conversas com vídeo <br/>  Troca de mensagens instantâneas de pessoa para pessoa <br/>  Presença <br/> | Mensagens instantâneas de vários participantes <br/>  Conversas de áudio ou com vídeo com três ou mais pessoas <br/>  Compartilhamento de área de trabalho e de programas <br/> |
    
-## 
-
- *Atualizado em 23 de março de 2017* 
-  
-||
-|:-----|
-|![O ícone pequeno do LinkedIn Learning.](../images/7e5cb7c8-dc66-4c9a-a16d-a30f10a970bd.png) **Novo no Office 365?**         Descubra cursos de vídeo gratuitos para **Administradores do Office 365 e profissionais de TI**, disponibilizados pelo LinkedIn Learning. |
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
-
-#### 
+## <a name="related-topics"></a>Tópicos relacionados
 
 [Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md)
   
 [Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
-

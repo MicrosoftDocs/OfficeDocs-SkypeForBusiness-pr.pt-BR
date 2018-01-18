@@ -1,22 +1,30 @@
 ---
-title: "Suporte para o Skype for Business Online no Outlook na Web"
+title: Suporte para o Skype for Business Online no Outlook na Web
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/16/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 305984ec-3da8-4509-bb2b-6643dcf2cb7d
-description: "Na barra de navegação, o Outlook na web (Outlook Web App) no Office 365 oferece uma Skype básica para cliente da web de negócios. Este cliente básico está disponível para usuários Online cujo administrador não foi configurado um URL banido para sua organização do Office 365. Desde que a conta do usuário está online e não tem uma URL banido, eles ainda poderão ver a experiência mesmo se sua organização tiver algumas contas de usuário que são locais homed. Usuários com usuário contas locais (terem uma URL banido ou não) são gerenciados pelo Microsoft verá a experiência do Lync no Outlook web app."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Na barra de navegação, o Outlook na web (Outlook Web App) no Office 365 oferece um Skype básica de cliente da web de negócios. Esse cliente básico está disponível para usuários Online cujo administrador não tiver configurado uma URL vanity para sua organização do Office 365. Desde que a conta do usuário está online e não tem uma URL vanity, eles ainda poderão ver a experiência do mesmo se sua organização tiver algumas contas de usuário que estão hospedados no local. Os usuários que têm usuário contas locais (quer eles tenham uma URL vanity ou não) ou são gerenciados pela Microsoft verá a experiência do Lync no Outlook web app."
+ms.openlocfilehash: 8688123f0e19a648dae7706dc346a647ecd99211
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Suporte para o Skype for Business Online no Outlook na Web
 
-# Suporte para o Skype for Business Online no Outlook na Web
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Na barra de navegação, o Outlook na web (Outlook Web App) no Office 365 oferece uma Skype básica para cliente da web de negócios. Este cliente básico está disponível para usuários Online cujo administrador não foi configurado um URL banido para sua organização do Office 365. Desde que a conta do usuário está online e não tem uma URL banido, eles ainda poderão ver a experiência mesmo se sua organização tiver algumas contas de usuário que são locais homed. Usuários com usuário contas locais (terem uma URL banido ou não) são gerenciados pelo Microsoft verá a experiência do Lync no Outlook web app.
+Na barra de navegação, o Outlook na web (Outlook Web App) no Office 365 oferece um Skype básica de cliente da web de negócios. Esse cliente básico está disponível para usuários Online cujo administrador não tiver configurado uma URL vanity para sua organização do Office 365. Desde que a conta do usuário está online e não tem uma URL vanity, eles ainda poderão ver a experiência do mesmo se sua organização tiver algumas contas de usuário que estão hospedados no local. Os usuários que têm usuário contas locais (quer eles tenham uma URL vanity ou não) ou são gerenciados pela Microsoft verá a experiência do Lync no Outlook web app.
   
 A tabela a seguir resume as configurações diferentes que você pode ter e o cliente web que é usado.
   
@@ -29,13 +37,11 @@ A tabela a seguir resume as configurações diferentes que você pode ter e o cl
 |Híbrido, mas hospedado online  <br/> |Sim  <br/> |Experiência do Lync Web  <br/> |
 |Híbrido, mas hospedado no local  <br/> |Não  <br/> |Experiência do Lync Web  <br/> |
 |Híbrido, mas hospedado no local  <br/> |Sim  <br/> |Experiência do Lync Web  <br/> |
-|Puro no local  <br/> |Não  <br/> |Experiência do Lync Web  <br/> |
-|Puro no local  <br/> |Sim  <br/> |Experiência do Lync Web  <br/> |
+|Puro em prem  <br/> |Não  <br/> |Experiência do Lync Web  <br/> |
+|Puro em prem  <br/> |Sim  <br/> |Experiência do Lync Web  <br/> |
    
-## 
-<a name="MT_Footer"> </a>
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
+[Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)

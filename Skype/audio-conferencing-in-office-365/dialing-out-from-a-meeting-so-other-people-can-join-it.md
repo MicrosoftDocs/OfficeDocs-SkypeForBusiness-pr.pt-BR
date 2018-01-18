@@ -2,32 +2,37 @@
 title: "Discando a partir de uma reunião para que outras pessoas possam participar"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/10/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom:
-- Adm_O365_FullSet
-- Strat_SB_PSTN
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
-description: "Learn what you need and how meeting organizers can call out to other people using Skype for Business."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom:
+- Strat_SB_PSTN
+- Audio Conferencing
+description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+ms.openlocfilehash: 805b618db3f647cd4a69a5057e479597532dad3a
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião para que outras pessoas possam participar
 
-# Discando a partir de uma reunião para que outras pessoas possam participar
+Como organizador da reunião, você pode discar usando um Skype para aplicativo de negócios ou Teams da Microsoft para permitir que outras pessoas ingressem na reunião mesma usando seus telefones. Embora ele não é obrigatório, quando você estiver discando a alguém, é recomendável que você disque o número completo, incluindo o código de país/região. Para obter a discagem externa para funcionar:
+  
+- Você pode discar somente se você ingressar em uma reunião usando um Skype para o aplicativo de negócios ou Teams da Microsoft.
+    
+- Você, como o organizador da reunião tiverem sido habilitados para conferência de áudio.
 
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Como organizador da reunião, você pode discar usando um Skype para Business ou Microsoft Teams o aplicativo para permitir que outras pessoas ingressar na reunião mesma usando seu telefone. Embora ele não é necessário, quando você estiver discando para alguém, é recomendável que você disque o número completo, incluindo o código de país/região. Para obter discar para trabalhar:
-  
-- Você pode discar somente se você ingressar em uma reunião usando um Skype para Business ou Microsoft Teams o aplicativo.
-    
-- Como o organizador da reunião foram habilitados para conferência de áudio.
-    
- **Etapa 1:** Na reunião convidar, use a opção **Convidar mais pessoas** para discar para um número de telefone.
+ **Etapa 1:** Na reunião convidar, use a opção **Convidar mais pessoas** podem para discar para um número de telefone.
   
 ![Dial-out with Skype for Business.](../images/9896abec-7a6f-4148-ad09-76a1cf4b56e1.png)
   
@@ -35,26 +40,17 @@ Como organizador da reunião, você pode discar usando um Skype para Business ou
   
 ![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
-## Países e regiões aceitos
+## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
 
-Discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [Países e disponibilidade de região para conferência de áudio e planos de chamada](../countries-and-region-availability-for-audio-conferencing-and-calling-plans/countries-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Discagem externa só está disponível para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
-## Deseja saber mais sobre audioconferência?
+## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre serviços de audioconferência?
 
-- [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md)
+- [Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](set-up-audio-conferencing.md)
     
-- [Skype para Business e Teams Microsoft complemento licenciamento](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Skype para licenciamento de complemento Teams da Microsoft e de negócios](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
-
-#### 
-
-[Como instalar o Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+[Como instalar o Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
 

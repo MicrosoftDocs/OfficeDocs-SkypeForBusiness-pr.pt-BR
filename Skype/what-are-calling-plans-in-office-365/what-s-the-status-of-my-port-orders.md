@@ -2,53 +2,53 @@
 title: "Qual é o status de meus pedidos de portabilidade?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/17/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderNoOrderHelp
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
-description: "Learn how to get the status of your port orders, and what the different actions you can take on them. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderNoOrderHelp
+ms.custom: Calling Plans
+description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
+ms.openlocfilehash: a8b86c43119c8820b4e784fcaddd706651c6f0e4
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="whats-the-status-of-my-port-orders"></a>Qual é o status de meus pedidos de portabilidade?
 
-# Qual é o status de meus pedidos de portabilidade?
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Você pode ver o status do seu pedido de porta indo para o **Skype para centro de administração de negócios** > **voz** > **pedidos de porta**. Status da ordem cada porta serão listadas na coluna **Status** . Se você ajudar, [suporte para produtos de negócios - ajuda de Admin do contato](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).
   
-Você pode ver o status do seu pedido de porta indo para o **Skype para o Centro de administração de negócios** > **voz** > **ordens de porta**. Cada status de ordem de porta será listado na coluna **Status**. Se ajuda, [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+A tabela a seguir lista o status da ordem de porta, bem como ações que podem ser realizadas se necessário. 
   
-A tabela a seguir lista status da ordem de porta, bem como ações se necessário.
-  
-|**Status**|**Você pode exibir o pedido?**|**Você pode editar o pedido?**|**Você pode cancelar o pedido?**|**Você pode excluir o pedido?**|**Descrição**|
+|**Status**|**Você pode exibir a ordem?**|**Você pode editar a ordem?**|**Você pode cancelar a ordem?**|**Você pode excluir a ordem?**|**Descrição**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Processando** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O administrador criou a ordem, e ele foi recebido pela Microsoft.  <br/> |
-|**Contatando a operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |A ordem foi recebida e aprovada pela Microsoft e estamos trabalhando com o carro perder para colocá-lo aprovado.  <br/> |
-|**Transferência aprovada** <br/> |Sim  <br/> |FOC (Ordem Firme de Compromisso)  <br/> |Sim  <br/> |Não  <br/> |A ordem foi aceita pela transportadora perdida e a data FOC foi definida.  <br/> |
-|**Transferência pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência é menos de 24 horas ausente, portanto, a ordem já não pode ser editada ou cancelada.  <br/> |
-|**Erro** <br/> |Não  <br/> |Sim  <br/> |Sim  <br/> |Sim (no momento, você não pode excluir a ordem de porta se houver um erro. A ordem de porta precisa ser recriadas, ou você precise [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).  <br/> |A operadora original rejeitou o pedido.  <br/> |
-|**Concluída** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
-|**Cancelado** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou o pedido.  <br/> |
+|**Processamento** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O administrador tiver criado a ordem, e ele é foi recebido pela Microsoft.  <br/> |
+|**Entrando em contato com a operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |A ordem foi recebida e aprovada pela Microsoft e estamos trabalhando com a operadora perder para obtê-lo aprovado.  <br/> |
+|**Transferência aprovada** <br/> |Sim  <br/> |Ordem estável Commitment(FOC)  <br/> |Sim  <br/> |Não  <br/> |A ordem foi aceita pela operadora perder e a data FOC tiver sido definida.  <br/> |
+|**Transferir pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência é menos de 24 horas ausente, portanto a ordem não possa ser editada ou cancelada.  <br/> |
+|**Error** <br/> |Não  <br/> |Sim  <br/> |Sim  <br/> |Sim (neste momento, você não pode excluir a ordem de porta se não houver um erro. A ordem de porta precisa ser recriada ou precisar [contate o suporte para produtos de negócios - ajuda de Admin](http://technet.microsoft.com/library/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b%28Office.14%29.aspx).  <br/> |A operadora perder rejeitou a ordem.  <br/> |
+|**Concluído** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
+|**Cancelado** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou a ordem.  <br/> |
    
- **Para instruções passo a passo, consulte [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
-
+ **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
+ 
 > [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
+> Se você precisar fazer mais números de telefone que isso, por favor, [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 
+  
+## <a name="related-topics"></a>Tópicos relacionados
+[Transferindo perguntas comuns de números de telefone](transferring-phone-numbers-common-questions.md)
+
+[Diferentes tipos de números de telefone usados para planos de chamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
-  
-[Áudio período discar complementar de conferência](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)

@@ -1,29 +1,33 @@
 ---
-title: "Configurações da versão Preview da Transmissão de Reunião do Skype"
-ms.author: tonysmit
+title: "Configurações de visualização de transmissão do Skype reunião"
+mms.author: tonysmit
 author: tonysmit
-ms.date: 11/16/2017
-ms.audience: End User
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-f1_keywords:
-- ms.lync.lac.BroadcastMeetingsPreview
-ms.prod: office-online-server
+ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
 localization_priority: Normal
-ms.assetid: 651d4773-cbd8-49e9-b55e-7abb8064060a
-description: "O Skype para o programa de visualização do cliente de negócios fornece acesso antecipado a novos produtos e recursos. Ele permite que sua organização obtenha uma espiada no qual está chegando, testar os novos recursos no seu ambiente e fazer comentários antes de nós libere compilações de produto para o público em geral. Para saber mais, consulte Skype para visualização de negócios."
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.BroadcastMeetingsPreview
+ms.custom: SMB
+description: "O Skype para o programa de visualização de cliente de negócios fornece acesso antecipado para novos produtos e recursos. Permite que sua organização obter uma espiada no quais são as novidades, os novos recursos em seu próprio ambiente de teste e fornecer comentários antes de lançamento de compilações de produto para o público em geral. Para obter mais informações, consulte Skype para visualização de negócios."
+ms.openlocfilehash: 73043e342674db1e5a5b5b4acf11927922adef6e
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-meeting-broadcast-preview-settings"></a>Configurações de visualização de transmissão do Skype reunião
 
-# Configurações da versão Preview da Transmissão de Reunião do Skype
+O Skype para o programa de visualização de cliente de negócios fornece acesso antecipado para novos produtos e recursos. Permite que sua organização obter uma espiada no quais são as novidades, os novos recursos em seu próprio ambiente de teste e fornecer comentários antes de lançamento de compilações de produto para o público em geral. Para obter mais informações, consulte [Skype para visualização de negócios](https://www.skypepreview.com/).
 
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+## <a name="related-topics"></a>Tópicos relacionados
+[Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   
-O Skype para o programa de visualização do cliente de negócios fornece acesso antecipado a novos produtos e recursos. Ele permite que sua organização obtenha uma espiada no qual está chegando, testar os novos recursos no seu ambiente e fazer comentários antes de nós libere compilações de produto para o público em geral. Para saber mais, consulte [Skype para visualização de negócios](https://www.skypepreview.com/).
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
+[Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

@@ -1,93 +1,95 @@
 ---
-title: "Como devo inserir os números de telefone?"
+title: "Como deve inserir os números de telefone?"
 ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/13/2017
-ms.audience: Admin
-ms.topic: get-started-article
-f1_keywords:
-- ms.lync.lac.PortOrderNumbers
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 28aa24b4-8c81-4327-9752-989ea7540db2
-description: "Learn how to set up phone numbers when you port them to Skype for Business. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: NOINDEX, NOFOLLOW
+f1keywords: ms.lync.lac.PortOrderNumbers
+ms.custom: Calling Plans
+description: "Saiba como configurar os números de telefone quando transportá-las para Skype para negócios. "
+ms.openlocfilehash: 1906fc98f47402ec740d71ff69b67b07392ae57d
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="how-should-i-enter-the-phone-numbers"></a>Como deve inserir os números de telefone?
 
-# Como devo inserir os números de telefone?
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-Quando você estiver transferindo números de telefone, você deverá inseri-los no formato correto.
+Quando você estiver portar números de telefone, você deverá inseri-los no formato correto. 
   
 > [!NOTE]
-> Cada número ou intervalo de números de telefone deve ser inserido separadamente em cada linha. 
+> Cada número de telefone ou o intervalo de número de telefone deve ser inserido separadamente em cada linha. 
   
-- Ao inserir números de telefone únicos:
+- Quando você estiver inserindo números de telefone único:
     
   - Todos os caracteres especiais serão ignorados (incluindo o traço "-"). Por exemplo:
     
-  - Para um número de 10 dígitos: **&amp;*(425*()(*&amp;4&amp;*())(*250649** será corrigido para **+14255550649**.
+  - Para um número de 10 dígitos: ** &amp; \*(425\*() (\*&amp;4&amp;\*()) (\*250649** será corrigido para **+14255550649**.
     
-  - Para um número de 11 dígitos: **1*()(*&amp;42&amp;*()(*&amp;55550649** será corrigido para **+14255550649**.
+  - Para um número de 11 dígitos: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** será corrigido para **+14255550649**.
     
-  - Todas as marcações serão ignoradas no caso de haver 10 ou 11 dígitos. Por exemplo, **<div> 4255551234</div>** será **+14255551234**.
+  - Todas as marcas serão ignoradas se houver 10 ou 11 dígitos. Por exemplo, ** \<div > 4255551234\</div >** será **+ 14255551234**.
     
-  - "-", espaço e parênteses serão ignorados. Por exemplo:
+  - "-", espaço e parêntese serão ignorada. Por exemplo:
     
   - Para um número de 10 dígitos: **(425) 555-6776** será corrigido para **+14255556776**.
     
-  - Para um número de 11 dígitos: **1(425) 555-6776** será corrigido para **+14255556776**.
+  - Para um número de 11 dígitos: **555-6776 1(425)** será corrigido para **+14255556776**.
     
-  - Todas as letras serão tratadas como caracteres especiais e ignoradas se há um número de telefone de 10 ou 11 dígitos. Por exemplo:
+  - Todas as letras serão tratadas como caracteres especiais e ignoradas se não houver um número de telefone de 10 ou 11 dígitos. Por exemplo:
     
   - Para um número de 10 dígitos: **14jaosia2reoij05jof55506ajfoj49isdjf** será corrigido para **+14255550649**.
     
   - Para um número de 11 dígitos: **1ade4jaoda2rfoij05ojof55506dsfoj49if** será corrigido para **+14255550649**.
     
-  - Qualquer combinação de caracteres especiais, até mesmo em outros idiomas, será corrigida. Por exemplo: 
+  - Qualquer combinação dos caracteres especiais, mesmo em outros idiomas, será corrigida. Por exemplo: 
     
-  - Para um número de 10 dígitos: **中文4中文2ajj5*（）（*（5()...551345** será corrigido para **+14555551345**.
+  - Para um número de 10 dígitos:**中文4中文2ajj5\*() (\*(5() … 551345** será corrigido para **+14555551345**.
     
-  - Para um número de 11 dígitos: **中文4中文2$a5*（）（*（5()...55(.1345** será corrigido para **+14555551345**.
+  - Para um número de 11 dígitos:**中文4中文2$ a5\*() (\*(5() … 55 (.1345** será corrigido para **+14555551345**.
     
-  - Se qualquer outro número contiver menos de 10 dígitos ou mais de 11 dígitos, ele serão realçados para o usuário corrigir:
+  - Se qualquer números contiverem menos de 10 ou mais de 11 dígitos, eles serão realçados para o usuário corrigir:
     
-  - ** 5551245** será realçado e precisará ser corrigido.
+  - \*\*5551245\* \* serão realçadas e precisa ser corrigido.
     
-  - **1234567891011** será realçado e precisará ser corrigido.
+  - **1234567891011** será realçada e precisa ser corrigido.
     
-  - Quaisquer números que são menos de 10 dígitos ou mais de 11 dígitos, com caracteres especiais, serão realçados sem ser corrigido automaticamente.
+  - Quaisquer números que são menos de 10 ou mais de 11 dígitos, com nenhum dos caracteres especiais serão realçados sem sendo corrigidas automaticamente.
     
-  - Para um número de 7 dígitos sem caracteres especiais que é inserido: **123456abcdefg7** será realçado e precisam ser corrigidos, mas as letras não ser ignoradas.
+  - Para um número de 7 dígitos sem caracteres especiais que é inserido: **123456abcdefg7** será realçada e precisa ser corrigido, mas as letras não ser ignoradas.
     
-  - Para um número de 7 dígitos com caracteres especiais que é inserido: **12345!@#$%^ &amp; * ()-@# $% ^ &amp; * () 7** será realçada para ser corrigidos. Os caracteres especiais não ser ignorados.
+  - Para um número de 7 dígitos com caracteres especiais que é inserido: **12345!@#$%^&amp;\*() – @# $% ^&amp;\*() 7** será realçado para ser corrigido. Os caracteres especiais não ser ignorados.
     
 - Quando você estiver inserindo um intervalo de números de telefone.
     
-  - Apenas dois números de telefone são permitidos. O número menor deve ser o primeiro número do intervalo de números.
+  - Apenas dois números de telefone são permitidos. O menor número deve ser o primeiro número no intervalo.
     
-  - Todos os caracteres especiais (exceto para o traço "-") são tratados da mesma como números único. Por exemplo, **(425) 555 0 &amp; * (123-(1425) 5557899nm** será corrigido para **+14255550123 - +13202040659**.
+  - Todos os caracteres especiais (exceto o traço "-") são tratados da mesma como números único. Por exemplo, **(425) 555 0&amp;\*(123-(1425) 5557899nm** será corrigido para **+ 14255550123 - +13202040659**.
     
-  - O "-" é usado para separar apenas os dois números. Ele não tem suporte para incluir vários "-" no intervalo de número. Por exemplo:, **(425) 555-0649-(425) 555-1115** devem ser inseridas como **(425) 5550649 - (425) 5551115**.
+  - O "-" é usado para separar apenas dois números. Isso não é suportado para incluir vários "-" no intervalo de números. Por exemplo, **(425) 555-0649-(425) 555-1115** deve ser inserido como **(425) 5550649 - for (425) 5551115**.
     
- **Para instruções passo a passo, consulte [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
-  
-## 
-<a name="MT_Footer"> </a>
+ **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-## Consulte Também
-<a name="MT_Footer"> </a>
+ > [!NOTE]
+> Se você precisar fazer mais números de telefone que isso, por favor, [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-#### 
+  
+## <a name="related-topics"></a>Tópicos relacionados
+[Transferindo perguntas comuns de números de telefone](transferring-phone-numbers-common-questions.md)
+
+[Diferentes tipos de números de telefone usados para planos de chamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+
+[Gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
-  
-[Áudio período discar complementar de conferência](../accessibility-and-regulatory/audio-conferencing-complimentary-dial-out-period.md)
 
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)

@@ -1,25 +1,25 @@
 ---
-title: "O que é o sistema telefônico no Office 365?"
+title: "Qual é o sistema telefônico no Office 365?"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/14/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 5e87c9ed-c3e8-43b1-b95d-077ee9351c99
-description: ""
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: None
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: None
+description: "Saiba mais sobre o que sistema telefônico pode fazer por você. "
+ms.openlocfilehash: cbb3ac6582c11e04e9ba7cfaec1c1b387ceb9b3b
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
-
-# O que é o sistema telefônico no Office 365?
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-## 
-<a name="MT_Footer"> </a>
-
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+# <a name="what-is-phone-system-in-office-365"></a>Qual é o sistema telefônico no Office 365?
