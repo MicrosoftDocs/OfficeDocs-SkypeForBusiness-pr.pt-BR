@@ -1,25 +1,36 @@
 ---
-title: "Chamada PSTN do Skype for Business - código de conduta para o Reino Unido"
+title: "Código de prática para o Reino Unido (Reino Unido)"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 9/21/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
-description: "Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Legal
+description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
+ms.openlocfilehash: af01fdd7a4f1927daa983a6271d8ff2977420177
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="code-of-practice-for-the-united-kingdom-uk"></a>Código de prática para o Reino Unido (Reino Unido)
 
-# Chamada PSTN do Skype for Business - código de conduta para o Reino Unido
-
-Este Código se aplica a clientes de pequenas empresas (organizações com dez funcionários ou menos) no Reino Unido (UK) em relação ao serviço Chamada PSTN do Skype for Business (o "Serviço"), em conformidade com os regulamentos de comunicações do Reino Unido. Outros serviços do Skype for Business são regidos por seu contrato de serviço com a Microsoft e outros termos aplicáveis ao uso do serviço específico.
+Este código se aplica aos clientes de pequenas empresas (organizações com 10 funcionários ou menos) no Reino Unido (Reino Unido) em relação ao serviço Office 365 chamar planejar (o "serviço") de acordo com os regulamentos de comunicação do Reino Unido. Outro Skype para serviços corporativos sejam regidas por seu contrato de serviço com a Microsoft e quaisquer outros termos aplicáveis ao seu uso do serviço em questão.
   
-## 1. Sobre o Skype for Business
+## <a name="1-about-skype-for-business"></a>1. Sobre o Skype for Business
 
 O Skype for Business é fornecido no Reino Unido pela Microsoft Ireland Operations Limited, com sede registrada em 70 Sir John Rogerson's Quay, Dublin 2, Irlanda.
   
-## 2. Serviço de atendimento ao consumidor
+## <a name="2-customer-service"></a>2. Serviço de atendimento ao consumidor
 
 Se tiver dúvidas sobre vendas, cobrança ou suporte técnico, entre em contato conosco por telefone no horário comercial ou online:
   
@@ -31,75 +42,75 @@ O horário comercial é de segunda a sexta, 9h-17h.
   
 Você pode obter resposta a algumas de suas dúvidas visitando o [site do Skype for Business](http://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809).
   
-## 3. Reclamações e solução de controvérsias
+## <a name="3-complaints-and-dispute-resolution"></a>3. Reclamações e solução de controvérsias
 
-Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. A página [Chamada PSTN do Skype for Business - código de tratamento de reclamações para o Reino Unido](calling-plans-in-office-365complaint-handling-code-for-the-united-kingdom-u-k.md) detalha os procedimentos para que pequenas empresas nos enviem uma reclamação e nosso esquema independente de solução de controvérsias.
+Nossas prioridades principais são satisfação do cliente e excelente serviço. No entanto, se você tiver uma reclamações, podemos funcionará rapidamente para ajudá-lo a resolver o problema. Nossa página [Chamar planos no Office 365 - código de tratamento de reclamações para o Reino Unido (U.K.)](code-of-practice-for-the-united-kingdom-u-k.md) detalha os procedimentos para pequenas empresas no arquivo uma reclamações conosco e esquema de resolução nosso contestação independentes.
   
-## 4. Portabilidade numérica
+## <a name="4-number-porting"></a>4. Portabilidade numérica
 
 Em certos casos, o Skype for Business pode ser incapaz de transferir o número de telefone do cliente para uso com o Serviço. Quando a portabilidade numérica estiver disponível, o Skype for Business executará todas as etapas razoáveis para garantir que a transferência do número e a ativação posterior sejam concluídas prontamente quando for alcançado um acordo com o provedor de serviços atual do cliente para transferir o número.
   
-## 5. Confiabilidade do serviço
+## <a name="5-service-reliability"></a>5. Confiabilidade do serviço
 
-A Chamada PSTN do Skype for Business depende da conexão de banda larga. Se a conexão de banda larga sofrer um corte de energia ou uma falha, você não poderá fazer telefonemas. As causas das falhas podem estar fora de nosso controle.
+O Office 365 chamar planejar depende de sua conexão de banda larga. Se sua conexão de banda larga experiências uma potência cortar ou falha, não será capaz de fazer chamadas telefônicas. As causas para esses falhas podem estar fora do nosso controle.
   
-## 6. Chamadas de emergência
+## <a name="6-emergency-calls"></a>6. Chamadas de emergência
 
-O Skype for Business fornece acesso a serviços públicos de chamadas de emergência pelos números 999/112 para clientes na Inglaterra, no País de Gales, na Escócia e na Irlanda do Norte. No entanto, as chamadas de emergência para 999 ou 112 nos serviços de Chamada PSTN do Skype for Business operam de forma diferente dos serviços telefônicos tradicionais. Os clientes devem notificar todos os usuários dos serviços de Chamada PSTN do Skype for Business dessas diferenças.
+Skype para negócios fornece acesso aos serviços de chamada de emergência pública 999/112 aos clientes dentro England, Wales, Escócia e Irlanda do Norte. No entanto, as chamadas de emergência para 999 ou 112 operam de forma diferente com serviços do Office 365 chamar planejar que nos serviços de telefonia tradicional. Os clientes são necessárias para notificar a cada usuário dos serviços do Office 365 chamar planejar dessas diferenças.
   
-As diferenças incluem o seguinte: (i) O Skype for Business pode não saber a localização real de um chamador, o que pode fazer com que os serviços de emergência sejam despachados para o local errado; (ii) quando um usuário do Skype for Business faz uma chamada de emergência, o usuário pode ser solicitado por um operador a fornecer sua localização atual para auxiliar no encaminhamento adequado da chamada de emergência e no despacho dos serviços de emergência; (iii) se o dispositivo do usuário estiver sem energia, estiver passando por uma queda de energia ou, por qualquer motivo, não puder acessar a Internet, o usuário não poderá fazer uma chamada de emergência por meio dos serviços de Chamada PSTN do Skype for Business Online; e (iv) embora os serviços de Chamada PSTN do Skype for Business Online possam ser usados em qualquer lugar do mundo em que uma conexão com a Internet está disponível, os usuários não devem ligar para 999 ou 112 fora da Inglaterra, do País de Gales, da Escócia ou da Irlanda do Norte, pois a chamada provavelmente não será encaminhada ao serviço de emergência adequado.
+As diferenças incluem o seguinte: (i) Skype para negócios talvez não saiba o local real de um chamador, que pode resultar nos serviços de emergências sendo despatched no local errado; (ii) quando um Skype para o usuário de negócios disca uma chamada de emergência, o usuário pode ser solicitado por um operador para fornecer o seu local atual para auxiliar corretamente o roteamento de chamada de emergência e despatching serviços de emergência; (iii) se o dispositivo do usuário sem energia, está experimentando uma interrupção de energia ou por qualquer motivo, caso contrário, não é possível acessar o Internet, o usuário não pode fazer uma chamada de emergência por meio do Office 365 chamar planejar serviços; e (iv) embora o Office 365 chamar planejar serviços podem ser usados em qualquer lugar no mundo onde uma conexão de Internet está disponível, os usuários não devem chamar 999 ou 112 fora England, Wales, Escócia ou Irlanda do Norte porque a chamada provavelmente não será roteada para o serviço de emergência apropriado.
   
 É importante que todos os clientes registrem a localização dos usuários e mantenham essas informações atualizadas para que possam ser fornecidas aos serviços de emergência. Você pode fazer mudanças nas informações de localização online por meio do portal do administrador do Skype for Business.
   
-## 7. Politica de reembolso
+## <a name="7-refund-policy"></a>7. Politica de reembolso
 
 Nossa política de reembolso é indicada no contrato de serviço. 
   
-## 8. Termos e condições do contrato
+## <a name="8-contract-terms-and-conditions"></a>8. Termos e condições do contrato
 
 As condições contratuais padrão para o Serviço são fornecidas no contrato de serviço. 
   
-## 9. Taxas de inscrição e encargos
+## <a name="9-subscription-fees-and-charges"></a>9. Taxas de inscrição e encargos
 
 Informações sobre planos de assinatura e taxas de uso (inclusive Serviços de Tarifa Premium e taxas de números de Serviços Nacionais de Tradução) podem ser encontradas no [site do Skype for Business](http://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809).
   
-## 10. Listagem no catálogo telefônico
+## <a name="10-directory-listing"></a>10. Listagem no catálogo telefônico
 
 Se você quiser uma listagem de Consulta ao Catálogo Telefônico (inclusive uma entrada no Catálogo Telefônico) para seu número de telefone, ela poderá ser fornecida mediante uma taxa adicional. Para saber mais, entre em contato conosco por meio de nossas informações de contato fornecidas na Seção 2.
   
-## 11. Usuários com desabilidades
+## <a name="11-users-with-disabilities"></a>11. Usuários com desabilidades
 
 Este Código e o Código de Tratamento de Reclamações estão disponíveis em impressão grande ou formato de áudio.
   
-## 12. Serviços de tarifa premium
+## <a name="12-premium-rate-services"></a>12. Serviços de tarifa premium
 
-### O que são serviços de tarifa premium?
+### <a name="what-are-premium-rate-services"></a>O que são serviços de tarifa premium?
 
 Serviços de Tarifa Premium são números de telefone que fornecem informações e entretenimento cobrados em sua conta de telefone. Os Serviços de Tarifa Premium incluem, sem limitação, doações de caridade, linhas para votação (ou seja, Britain's Got Talent), consulta ao catálogo telefônico, linhas para jogos e linhas de serviços somente para adultos (ou seja, paquera). As chamadas para Serviços de Tarifa Premium são mais caras do que as chamadas para outros números de telefone fixo e começam com 0871, 0872, 0873, 118 e 09.
   
 Os Serviços de Tarifa Premium são fornecidos por provedores de serviços ("Provedores de Serviços"). Os Provedores de Serviços (a) fornecem os bens ou serviços ou (b) atuam como revendedores ou agregadores em nome de vários provedores.
   
-### Como os serviços de tarifa premium funcionam?
+### <a name="how-do-premium-rate-services-work"></a>Como os serviços de tarifa premium funcionam?
 
 O Skype for Business envia sua chamada de Serviços de Tarifa Premium a outra empresa telefônica ("Provedor de Comunicações de Terminação"), que recebe a chamada em nome do Provedor de Serviços. Embora a receita de Serviços de Tarifa Premium seja dividida entre o Provedor de Serviços, o Skype for Business e o Provedor de Comunicações de Terminação, a maior parte da receita é recebida pelo Provedor de Serviços.
   
-### Encargos
+### <a name="charges"></a>Encargos
 
 Todos os encargos de uso dos Serviços de Tarifa Premium podem ser encontrados em nosso [site](http://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809). A duração de uma chamada para ligar para números de tarifa premium será baseada em incrementos de um minuto. Frações de minutos serão arredondadas para o próximo minuto. A taxa de conexão, caso aplicável, será cobrada no início da chamada.
   
-### Serviço preferencial de telefone e serviços preferenciais de fax
+### <a name="telephone-preference-service-and-fax-preference-services"></a>Serviço preferencial de telefone e serviços preferenciais de fax
 
 O TPS (Telephone Preference Service), que é operado pela Direct Marketing Association em nome da Ofcom, é um registro que habilita os clientes a recusar chamadas de vendas não solicitadas. Para se registrar no TPS, acesse [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) ou ligue para 0843 005 9576.
   
 Assim como o TPS, o FPS (Fax Preference Service) é um registro em que empresas e indivíduos podem recusar faxes não solicitados de vendas e de comércio. Para se registar no FPS, ligue para 0843 005 9576 ou faça o registro online em [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps).
   
-### Proteção de discador da Internet
+### <a name="internet-dialler-protection"></a>Proteção de discador da Internet
 
 Um discador da Internet, que é semelhante a um vírus de computador, é um software que pode ser baixado para o computador e pode conectar o computador a Serviços de Tarifa Premium sem seu conhecimento ou consentimento. Para proteger o computador, recomendamos que você tenha cuidado ao clicar em links ou pop-ups e baixar material de fontes desconhecidas. Para maior proteção, mediante solicitação por telefone ou email, podemos bloquear o acesso a todos os Serviços de Tarifa Premium ou a serviços específicos, por razões de conteúdo e custo. Além disso, recomendamos baixar todo o software de segurança necessário para proteger o computador e instalar frequentemente as atualizações do software, quando disponíveis. Se você acredita que foi vítima de um discador da Internet, entre em contato conosco por telefone ou email. 
   
-### PhonepayPlus
+### <a name="phonepayplus"></a>PhonepayPlus
 
-Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organização independente aprovada pela Ofcom. A PhonepayPlus regula os Serviços de Tarifa Premium e investiga reclamações dos consumidores. Todos os Provedores de Serviços devem aderir ao Código de Conduta da PhonepayPlus, que pode ser encontrado em [https://www.phonepayplus.org.uk/for-business/code-of-practice](https://www.phonepayplus.org.uk/for-business/code-of-practice). Se um Provedor de Serviços violar o Código de Conduta, a PhonepayPlus poderá:
+Todos os provedores de serviço deve registrar PhonepayPlus, que é uma organização independente aprovada pelos Ofcom. PhonepayPlus controla o serviços de taxa de Premium e investiga arquivadas por consumidores de reclamações. Todos os provedores de serviço deve aderir ao código PhonepayPlus da prática, que pode ser encontrada em [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Se um provedor de serviços violar o código de prática, PhonepayPlus podem:
   
 - Solicitar que uma das partes corrija uma violação
     
@@ -107,26 +118,30 @@ Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organiz
     
 - Bloquear o acesso aos serviços
     
-### informações de contato do provedor de serviços
+### <a name="service-provider-contact-information"></a>informações de contato do provedor de serviços
 
-Para encontrar as informações de contato do Provedor de Serviços, você pode usar a ferramenta #NumberChecker da PhonepayPlus em [https://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](https://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Se achar que foi cobrado indevidamente por um Serviço de Tarifa Premium, entre em contato diretamente com o Provedor de Serviços.
+Para localizar as informações de contato para um provedor de serviço, você pode usar a ferramenta de #NumberChecker dos PhonepayPlus em [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Se você acredita que você wrongfully foram cobrado para um serviço de taxa de Premium, contate o provedor de serviços diretamente.
   
-### Reclamações
+### <a name="complaints"></a>Reclamações
 
 Para fazer à PhonepayPlus uma reclamação sobre um Provedor de Serviços, você pode enviar gratuitamente uma consulta online ou por telefone:
   
 - Telefone: 0300 30 300 20 (9h30-17h, de segunda a sexta)
     
-- Consulta online: [https://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](https://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- Pesquisa online: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
     
-### Solução de controvérsias
+### <a name="dispute-resolution"></a>Solução de controvérsias
 
 Se achar que o encargo de Serviço de Tarifa Premium em sua cobrança foi um erro do Skype for Business e quiser ser reembolsado, você poderá fazer uma reclamação de acordo com o Código de Tratamento de Reclamações do Skype for Business. Se você fizer uma reclamação ao Skype for Business e (a) a reclamação não for resolvida até oito (8) semanas após o envio ou (b) você receber uma carta nossa informando que chegamos a uma decisão final, você poderá enviar a reclamação aos Serviços de Ombudsman, terceiros aprovados pela Ofcom para lidar com reclamações sobre serviços de comunicações. 
   
-## 13. Serviços nacionais de tradução, números pessoais e números 0870
+## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. Serviços nacionais de tradução, números pessoais e números 0870
 
 Os Serviços Nacionais de Tradução são números de telefone que começam com 08 ou 0500 (telefones gratuitos) e são classificados como "números de serviços especiais" pelo Plano Nacional de Numeração Telefônica. Os números pessoais têm o prefixo 070.
   
 As taxas de Serviços Nacionais de Tradução, Números Pessoais e números 0870 são fornecidos em nosso [site](http://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809) e podem variar dependendo da hora do dia e do dia da semana em que a chamada é feita. As ligações para números 0800 são gratuitas.
   
+
+## <a name="related-topics"></a>Tópicos relacionados
+[Disponibilidade de país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
 

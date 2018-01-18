@@ -1,33 +1,38 @@
 ---
 title: "Resumo de configurações do Skype for Business Online"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/16/2017
-ms.audience: Admin
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
-description: "This summary of Skype for Business organization and user settings can help you learn more about Public IM connetivity, Meeting invitiations, recording calls and meetings, and more.  "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: "Neste resumo do Skype para configurações de usuário e organização de negócios pode ajudá-lo a saber mais sobre conectividade de IM público, convites para reuniões, registro de chamadas e reuniões e muito mais.  "
+ms.openlocfilehash: 027246fb704ec466851f80d18c02e50b8c807616
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
+# <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 
-# Resumo de configurações do Skype for Business Online
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
-  
-O **Centro de administração do Skype for Business**inclui configurações para toda a sua organização e para usuários individuais.
+O **Skype para centro de administração de negócios** inclui configurações para toda sua organização e para usuários individuais. 
   
 > [!NOTE]
-> Dependendo do seu local, talvez você não tenha acesso a todos os recursos de Skype for Business Online. Para obter detalhes, consulte [restrições de licença para o Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Dependendo da sua localização, talvez você não tenha acesso a todos os recursos do Skype para negócios Online. Para obter detalhes, consulte [as restrições de licença para o Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
-## Configurações de organização do Skype for Business Online
+## <a name="skype-for-business-online-organization-settings"></a>Configurações de organização do Skype for Business Online
 <a name="__top"> </a>
 
-|****Configuração****|****Descrição****|****Padrão****|****Saiba mais****|
+|**Configuração**|**Descrição**|**Padrão**|**Saiba Mais**|
 |:-----|:-----|:-----|:-----|
 |Federação de domínios  <br/> |Comunicar com outras organizações que usam o Skype for Business Online.  <br/> |Habilitado  <br/> |[Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividade de mensagem de chat Pública  <br/> |Comunicar com usuários do Skype for Business Online.  <br/> |Habilitado  <br/> |[Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -35,20 +40,17 @@ O **Centro de administração do Skype for Business**inclui configurações para
 |Modo de privacidade de presença  <br/> |Determinar quem pode ver o status de presença do usuário do Skype for Business Online.  <br/> |Exibe automaticamente a informação de presença  <br/> |[Configurar o modo de privacidade de presença](configure-presence-privacy-mode.md) <br/> |
 |Convite de Reunião  <br/> |Adicionar seu próprio logotipo e rodapé; adicionar links para ajuda e informações legais.  <br/> |Não configurado  <br/> |[Personalizar convites de reunião](customize-meeting-invitations.md) <br/> |
    
-## Configurações de Usuário do Skype for Business Online
+## <a name="skype-for-business-online-user-settings"></a>Configurações de Usuário do Skype for Business Online
 <a name="__toc314837470"> </a>
 
-|****Configuração****|****Descrição****|****Padrão****|****Saiba mais****|
+|**Configuração**|**Descrição**|**Padrão**|**Saiba Mais**|
 |:-----|:-----|:-----|:-----|
-|Áudio e vídeo  <br/> |Administrar conversas com áudio e vídeo no Skype for Business Online  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Gravação  <br/> |Grava chamadas e reuniões  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Discagem para participante anônimo  <br/> |Permitir que participantes anônimos da Reunião do Skype for Business Online se conectem sendo chamados pelo provedor de serviços de audioconferência  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Desabilitar recursos não arquivados  <br/> | Desativa recursos que não são capturados quando a organização tiver configurado um[Adicionar conteúdo a um caso e colocar fontes em retenção no Centro de descoberta eletrônica](https://go.microsoft.com/fwlink/?LinkId=529482) no Centro de administração do Exchange: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/>  Selecione esta opção se você for obrigado legalmente para preservar informações armazenadas eletronicamente. <br/> |Desabilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](admins-configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Áudio e vídeo  <br/> |Administrar conversas com áudio e vídeo no Skype for Business Online  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Gravação  <br/> |Grava chamadas e reuniões  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Discagem para participante anônimo  <br/> |Permitir que participantes anônimos da Reunião do Skype for Business Online se conectem sendo chamados pelo provedor de serviços de audioconferência  <br/> |Habilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Desabilitar recursos não arquivados  <br/> | Desativa os recursos que não são capturados quando a organização tiver configurado um [Adicionar conteúdo a uma fontes caso e local em retenção no Centro de descoberta eletrônica](https://go.microsoft.com/fwlink/?LinkId=529482) no Centro de administração do Exchange: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/>  Selecione esta opção se você for obrigado legalmente para preservar informações armazenadas eletronicamente. <br/> |Desabilitado  <br/> |[Administradores: Definir as configurações do Skype for Business para usuários individuais](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
-
+[Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)

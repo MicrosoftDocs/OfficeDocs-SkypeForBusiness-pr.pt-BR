@@ -1,20 +1,28 @@
 ---
 title: "Testar a instalação do Skype for Business Online"
-ms.author: TONYSMIT
+ms.author: tonysmit
 author: tonysmit
-manager: scotv
-ms.date: 11/21/2017
-ms.audience: Admin
-ms.topic: get-started-article
-ms.prod: office-online-server
-localization_priority: Priority
-ms.collection: Adm_Skype4B_Online
-ms.custom: Adm_O365_FullSet
+manager: serdars
+ms.date: 12/15/2017
+ms.topic: article
 ms.assetid: 19873b1f-8f7e-4dd8-92f4-2ce11344ed5e
-description: "Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. "
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Setup
+description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
+ms.openlocfilehash: 2a2113a3c085bd1051f8a519a12258a66b810ff1
+ms.sourcegitcommit: 8f2e49bc813125137c90de997fb7a6dd74e6d1d5
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 12/15/2017
 ---
-
-# Testar a instalação do Skype for Business Online
+# <a name="test-your-skype-for-business-online-installation"></a>Testar a instalação do Skype for Business Online
 
 Economize tempo, reduza as chamadas de suporte e melhore a satisfação do usuário testando sua instalação do Skype for Business Online antes de configurá-la para todas as pessoas em sua organização.
   
@@ -24,9 +32,9 @@ Veja o que você precisa:
     
 - Um computador para cada conta de teste. Configure-os como os computadores típicos de sua organização.
     
-- Uma conta de um provedor de serviços de audioconferência do Skype for Business Online. Para saber mais, consulte [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md).
+- Uma conta de um provedor de serviços de audioconferência do Skype for Business Online. Para saber mais, consulte [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
     
-## O que você deseja fazer?
+## <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 
 > [Configurar contas de teste](test-your-skype-for-business-online-installation.md#__toc328126910)
     
@@ -36,7 +44,7 @@ Veja o que você precisa:
     
 > [Testar recursos e dispositivos do Skype for Business Online](test-your-skype-for-business-online-installation.md#__toc328126913)
     
-## Configurar contas de teste
+## <a name="set-up-test-accounts"></a>Configurar contas de teste
 <a name="__toc328126910"> </a>
 
 1. Acesse **Administrador** > **Office 365** > **Usuários e grupos**, depois selecione adicionar![Adicionar](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) e insira as informações necessárias.
@@ -45,8 +53,8 @@ Veja o que você precisa:
     
 3. Repita as etapas 1 e 2 até que você tenha o número de contas de teste desejado. Você precisa de pelo menos duas contas (além de sua própria) para testar os recursos de reunião online do Skype for Business Online. 
     
-## Configurar computadores de teste
-<a name="__toc328126910"> </a>
+## <a name="set-up-test-computers"></a>Configurar computadores de teste
+<a name="__toc328126911"> </a>
 
 Em cada computador de teste:
   
@@ -54,8 +62,8 @@ Em cada computador de teste:
     
 2. Vá para **Configurações**![Configurações: atualizar seu perfil, instalar software e conectá-lo à nuvem](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) e clique em **Instale software e conecte-o à nuvem**. 
     
-## Configurar a Audioconferência
-<a name="__toc328126910"> </a>
+## <a name="set-up-audio-conferencing"></a>Configurar a Audioconferência
+<a name="__toc328126912"> </a>
 
 Para dar acesso a reuniões do Skype for Business Online por telefone, configure uma conta de um provedor de serviços de audioconferência. Veja o que você terá:
   
@@ -65,7 +73,7 @@ Para dar acesso a reuniões do Skype for Business Online por telefone, configure
     
 Depois de configurar seus usuários para a audioconferência, eles recebem uma mensagem de email automatizada com os números de discagem e o código da conferência. Essas informações também são adicionadas automaticamente às novas solicitações de reunião do Skype for Business.
   
-Para obter detalhes, consulte [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams.md). 
+Para obter detalhes, consulte [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md). 
   
  **Para adicionar informações da audioconferência à conta de um de seus usuários de teste**
   
@@ -82,8 +90,8 @@ Para obter detalhes, consulte [Configurar conferência de áudio para o Skype fo
 |**Número de chamada gratuita** <br/> |Os números de telefone que você recebeu do provedor de serviços de audioconferência. Formate os números como quer que apareçam nos convites para reuniões do Skype for Business.  <br/> |
 |**Senha** <br/> |A senha ou código de conferência para este usuário.  <br/> |
    
-## Testar recursos e dispositivos do Skype for Business Online
-<a name="__toc328126910"> </a>
+## <a name="test-skype-for-business-online-features-and-devices"></a>Testar recursos e dispositivos do Skype for Business Online
+<a name="__toc328126913"> </a>
 
 Verifique se os recursos principais do Skype for Business Online estão funcionando conforme esperado.
   
@@ -91,9 +99,9 @@ Verifique se os recursos principais do Skype for Business Online estão funciona
   
 |**Tarefa**|**Resultado esperado**|
 |:-----|:-----|
-|[Entrar no Lync Online e sair dele](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |A janela principal do Skype for Business é exibida, com o estado de presença especificado quando você entrou  <br/> |
-|[Entrar no Lync Online e sair dele](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |A tela de entrada do Skype for Business é exibida  <br/> |
-|[Entrar no Lync Online e sair dele](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |A janela do Skype for Business é fechada, e o ícone do Skype for Business não é mais exibido na área de notificação do Windows.  <br/> |
+|[Entrar no Lync Online e sair dele](http://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |A janela principal do Skype for Business é exibida, com o estado de presença especificado quando você entrou  <br/> |
+|[Entrar no Lync Online e sair dele](http://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |A tela de entrada do Skype for Business é exibida  <br/> |
+|[Entrar no Lync Online e sair dele](http://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |A janela do Skype for Business é fechada, e o ícone do Skype for Business não é mais exibido na área de notificação do Windows.  <br/> |
    
 Não consegue entrar? Veja [Como solucionar problemas de entrada no Skype for Business Online](https://support.microsoft.com/kb/2541980).
   
@@ -101,30 +109,33 @@ Não consegue entrar? Veja [Como solucionar problemas de entrada no Skype for Bu
   
 |**Tarefa**|**Resultado esperado**|
 |:-----|:-----|
-|[Enviar uma mensagem instantânea no Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |A janela de conversa do Skype for Business é exibida, você escreve algo e recebe uma resposta da pessoa que contatou.  <br/> |
-|[Enviar uma mensagem instantânea no Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |A janela de conversa do Skype for Business é exibida, você digita algo e todos na conversa respondem.  <br/> |
+|[Enviar uma mensagem instantânea no Skype for Business](http://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |A janela de conversa do Skype for Business é exibida, você escreve algo e recebe uma resposta da pessoa que contatou.  <br/> |
+|[Enviar uma mensagem instantânea no Skype for Business](http://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |A janela de conversa do Skype for Business é exibida, você digita algo e todos na conversa respondem.  <br/> |
 |[Pesquisar um contato usando seu nome ou sobrenome](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Seus resultados da pesquisa começam a ser exibidos assim que você começa a digitar.  <br/> |
-|[Perguntas frequentes sobre o Lync para Office 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |O contato adicionado é exibido no grupo de Contatos escolhido.  <br/> |
-|[Alterar seu status de presença no Skype for Business (Lync)](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Seu novo status de presença é refletido na lista de Contatos de outras pessoas.  <br/> |
-|[Usar o cartão de visita](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |O cartão de visita da pessoa é exibido próximo a seu nome.  <br/> |
+|[Perguntas frequentes sobre o Lync para Office 365](http://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |O contato adicionado é exibido no grupo de Contatos escolhido.  <br/> |
+|[Alterar seu status de presença no Skype for Business (Lync)](http://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Seu novo status de presença é refletido na lista de Contatos de outras pessoas.  <br/> |
+|[Usar o cartão de visita](http://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |O cartão de visita da pessoa é exibido próximo a seu nome.  <br/> |
    
  **Chamadas de pessoa para pessoa**
   
 |**Tarefa**|**Resultado esperado**|
 |:-----|:-----|
-|[Fazer e receber uma chamada de áudio do Lync](https://support.office.com/article/39342f16-4d16-44de-a806-0b2b566f3886) <br/> |A janela de conversa é exibida e você ouve a chamada tocar. A pessoa que você está chamando recebe um alerta na área de trabalho e aceita a chamada. A janela de conversa é atualizada ao estabelecer a conexão.  <br/> |
-|[Adicionar áudio a uma conversa de mensagem instantânea do Skype for Business (Lync)](https://support.office.com/article/21a098b2-63f1-4205-a9aa-532b6a67ea92) <br/> |A chamada é conectada e você pode enviar mensagens instantâneas e falar com a outra pessoa.  <br/> |
-|[Compartilhar sua área de trabalho ou um programa no Lync](https://support.office.com/article/33aaa965-eb32-42a9-8a9b-cdfffa364842) <br/> |A área de trabalho ou o programa que você compartilhou está disponível para a outra pessoa.  <br/> |
+|[Fazer e receber uma chamada de áudio do Lync](http://support.office.com/article/39342f16-4d16-44de-a806-0b2b566f3886) <br/> |A janela de conversa é exibida e você ouve a chamada tocar. A pessoa que você está chamando recebe um alerta na área de trabalho e aceita a chamada. A janela de conversa é atualizada ao estabelecer a conexão.  <br/> |
+|[Adicionar áudio a uma conversa de mensagem instantânea do Skype for Business (Lync)](http://support.office.com/article/21a098b2-63f1-4205-a9aa-532b6a67ea92) <br/> |A chamada é conectada e você pode enviar mensagens instantâneas e falar com a outra pessoa.  <br/> |
+|[Compartilhar sua área de trabalho ou um programa no Lync](http://support.office.com/article/33aaa965-eb32-42a9-8a9b-cdfffa364842) <br/> |A área de trabalho ou o programa que você compartilhou está disponível para a outra pessoa.  <br/> |
    
  **Conferências**
   
 |**Tarefa**|**Resultado esperado**|
 |:-----|:-----|
-|[Configurar uma Reunião do Lync](https://support.office.com/article/258f9d20-f06c-49a4-a77f-7f5ac635bb5d) <br/> |Um convite de reunião é enviado às pessoas especificadas.  <br/> |
-|[Alterar configurações de participantes para Reuniões do Skype for Business (Lync)](https://support.office.com/article/cee2aa78-d878-4a63-ad33-9c249fceced9) <br/> |Varia dependendo da opção.  <br/> **DICA:** Em **Acesso e apresentadores**, você pode experimentar configurações diferentes da opção **Quem ignorará o lobby**.  <br/> |
-|[Participar de uma Reunião do Skype for Business (Lync)](https://support.office.com/article/538716dc-f4f2-48c2-af96-587c62387b87) <br/> |A janela de conversa é aberta e seu nome é exibido na lista de participantes da reunião quando você está conectado.  <br/> |
-|[Desativar ou ativar mudo para o microfone em uma reunião ou chamada do Skype for Business](https://support.office.com/article/47399948-db7f-4ee5-8e61-53a94bb97704) <br/> |O ícone Mudo é exibido ao lado do nome de todos na lista de participantes da reunião. Somente você será ouvido quando falar.  <br/> |
-|[Apresentar slides do PowerPoint em uma Reunião do Skype for Business (Lync)](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Sua apresentação do PowerPoint é exibida no computador de todos na janela do palco da reunião do Skype for Business.  <br/> |
-|[Transferir um arquivo em uma Reunião do Skype for Business (Lync)](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Após o upload, todos os outros participantes da reunião podem ver e baixar o anexo.  <br/> |
+|[Configurar uma Reunião do Lync](http://support.office.com/article/258f9d20-f06c-49a4-a77f-7f5ac635bb5d) <br/> |Um convite de reunião é enviado às pessoas especificadas.  <br/> |
+|[Alterar configurações de participantes para Reuniões do Skype for Business (Lync)](http://support.office.com/article/cee2aa78-d878-4a63-ad33-9c249fceced9) <br/> |Varia dependendo da opção.  <br/> **DICA:** Em **Acesso e apresentadores**, você pode experimentar configurações diferentes da opção **Quem ignorará o lobby**. <br/> |
+|[Participar de uma Reunião do Skype for Business (Lync)](http://support.office.com/article/538716dc-f4f2-48c2-af96-587c62387b87) <br/> |A janela de conversa é aberta e seu nome é exibido na lista de participantes da reunião quando você está conectado.  <br/> |
+|[Desativar ou ativar mudo para o microfone em uma reunião ou chamada do Skype for Business](http://support.office.com/article/47399948-db7f-4ee5-8e61-53a94bb97704) <br/> |O ícone Mudo é exibido ao lado do nome de todos na lista de participantes da reunião. Somente você será ouvido quando falar.  <br/> |
+|[Apresentar slides do PowerPoint em uma Reunião do Skype for Business (Lync)](http://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Sua apresentação do PowerPoint é exibida no computador de todos na janela do palco da reunião do Skype for Business.  <br/> |
+|[Transferir um arquivo em uma Reunião do Skype for Business (Lync)](http://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Após o upload, todos os outros participantes da reunião podem ver e baixar o anexo.  <br/> |
    
+## <a name="related-topics"></a>Tópicos relacionados
+[Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
+[Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
