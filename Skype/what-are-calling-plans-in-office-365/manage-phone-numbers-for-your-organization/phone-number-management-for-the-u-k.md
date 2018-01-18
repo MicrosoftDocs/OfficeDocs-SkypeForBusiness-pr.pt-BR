@@ -1,36 +1,46 @@
 ---
-title: "Gerenciamento de número de telefone do Reino Unido"
+title: "Gerenciamento de número de telefone para o Reino Unido"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 104dea98-6d0a-4c45-ba79-ea568e588c77
-description: "Use esta tabela para obter mais informações sobre como obter e gerenciar os números de telefone no Reino Unido para o Skype for Business Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone no Reino Unido para Skype para negócios Online."
+ms.openlocfilehash: 51f72b24055ee9b99f869b30bc7f5a7c41048bd1
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-the-uk"></a>Gerenciamento de número de telefone para o Reino Unido
 
-# Gerenciamento de número de telefone do Reino Unido
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone no Reino Unido para Skype para negócios Online. 
   
-Use esta tabela para obter mais informações sobre como obter e gerenciar os números de telefone no Reino Unido para o Skype for Business Online.
-  
-Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md).
+Para obter mais informações, consulte [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md).
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos**|
 |:-----|:-----|
-|Você precisa obter números de usuários que não estão listados no Skype para o Centro de administração de negócios.  <br/> |Baixe o formulário de [novos números de telefone para Reino Unido (números geográficos)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for the U.K. %28Subscriber geographic numbers%29 (v.3) (en.US).pdf) , preenchimento-out e[envie-nos](mailto:ptneu@microsoft.com).  <br/> |
-|Você precisa obter números de telefone transferidos conosco.  <br/> | Fazer o download de uma destas formas: <br/> [Carta de autorização (LOA) para Reino Unido (números de assinantes)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Subscriber numbers) (v.2.0) (en-US).pdf) <br/> [Carta de autorização (LOA) para Reino Unido (números de serviço)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for the U.K. (Service numbers) (v.2.1) (en-US).pdf) <br/>  Preencha-out e[envie-nos](mailto:ptneu@microsoft.com).  <br/> |
-|Você precisa publicar/cancelar o número de telefone correto no diretório de telefone nacional.  <br/> |[Envie-nos](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/Cancelar. <br/> |
-|Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Envie-nos](mailto:ptneu@microsoft.com ) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Você precisa obter os números de usuário que não estejam listados no Skype para centro de administração de negócios.  <br/> |Baixe o [nova solicitação de número de telefone para o Reino Unido (números geográficos) (v.3.0)(en.us)](../../downloads/nnew-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en.us).pdf) de formulário, preencha-out e [enviá-lo para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Você precisa obter os números de telefone transferidos para nós.  <br/> |Baixe uma dessas formas: <br/> [Letra de autorização (LOA) para o Reino Unido (números geográficos) (v.2.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en.us).pdf) <br/> [Letra de autorização (LOA) para o Reino Unido (números não-geográfica) (v.2.1)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en.us).pdf) <br/>  Preencha-out e [enviá-lo para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Você precisará publicar/cancelar a publicação de números de telefone no diretório nacional de telefone.  <br/> |[Envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelamento de publicação. <br/> |
+|Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Envie](mailto:ptneu@microsoft.com ) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Diferentes tipos de números de telefone usados para planos de chamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
+[Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md)
+
+[Termos e condições para chamadas de emergência](../emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 

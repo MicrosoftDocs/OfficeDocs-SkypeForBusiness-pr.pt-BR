@@ -2,35 +2,45 @@
 title: "Gerenciamento de número de telefone para Irlanda"
 ms.author: tonysmit
 author: tonysmit
-ms.date: 11/22/2017
-ms.audience: ITPro
+manager: serdars
+ms.date: 12/15/2017
 ms.topic: article
-ms.prod: office-online-server
-localization_priority: Normal
 ms.assetid: 4ae9b75f-d5e8-4afb-b17d-4ea668c00669
-description: "Use esta tabela para obter mais informações sobre como obter e gerenciar os números de telefone na Irlanda para o Skype for Business Online."
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+ms.appliesto: Skype for Business, Microsoft Teams
+localization_priority: Normal
+ROBOTS: None
+f1keywords: None
+ms.custom: Calling Plans
+description: "Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone, na Irlanda para Skype para negócios Online."
+ms.openlocfilehash: e879d5142c39af05547b805c5cc125d7b0206688
+ms.sourcegitcommit: b7f7ff1f88cd71ba289c20e745d0642ce5f11809
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/17/2018
 ---
+# <a name="phone-number-management-for-ireland"></a>Gerenciamento de número de telefone para Irlanda
 
-# Gerenciamento de número de telefone para Irlanda
-
-> [!IMPORTANT]
-> Este artigo foi traduzido por um sistema de tradução automática, leia o aviso de isenção de responsabilidade.  
+Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone, na Irlanda para Skype para negócios Online. 
   
-Use esta tabela para obter mais informações sobre como obter e gerenciar os números de telefone na Irlanda para o Skype for Business Online.
-  
-Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md).
+Para obter mais informações, consulte [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md).
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos**|
 |:-----|:-----|
-|Obter números de telefone do novo usuário.  <br/> |Na Irlanda, você não pode obter números de telefone para sua organização usando o Skype para o Centro de administração de negócios. Você deve enviar uma nova solicitação de número de telefone. Baixe o formulário de [obter novos números de telefone na Irlanda (en-US)](http://download.microsoft.com/download/3/B/D/3BDD4575-EAFA-4777-B4C6-A42E8F235AC9/New Phone Number Request for Ireland %28Geographic numbers%29 (v.3) (en.US).pdf) , preenchimento-out e[envie-nos](mailto:ptneu@microsoft.com).  <br/> |
-|Você precisa obter números de telefone transferidos conosco.  <br/> | Fazer o download de uma destas formas: <br/> [Carta de autorização (LOA) para Irlanda (geográficos números)](http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Geographic numbers) (v.1.0) (en-US).pdf) <br/> [Carta de autorização (LOA) para Irlanda (não geográficos números)]("http://download.microsoft.com/download/F/0/1/F01AE714-0F3C-4D9D-B41A-DFD180EC1622/Letter of Authorization %28LOA%29 for Ireland (Non-geographic numbers) (v.1.0) (en-US).pdf) <br/>  Preencha-out e[envie-nos](mailto:ptneu@microsoft.com).  <br/> |
-|Você precisa publicar/cancelar o número de telefone correto no diretório de telefone nacional.  <br/> |[Envie-nos](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/Cancelar. <br/> |
-|Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Envie-nos](mailto:ptneu@microsoft.com ) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Obtenha números de telefone do novo usuário.  <br/> |Na Irlanda, você não pode obter números de telefone para sua organização com o Skype para centro de administração de negócios. Você deve enviar uma nova solicitação de número de telefone. Baixe o [nova solicitação de número de telefone para Irlanda (números geográficas) (v.3.0)(en.us)](../../downloads/new-phone-number-request-for-ireland-(geographic-numbers)-(v.3.0)-(en.us).pdf) de formulário, preencha-out e [enviá-lo para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Você precisa obter os números de telefone transferidos para nós.  <br/> |Baixe uma dessas formas: <br/> [Letra de autorização (LOA) para Irlanda (números geográficas) (v.3.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en.us).pdf) <br/> [Letra de autorização (LOA) para Irlanda (números não-geográfica) (v.1.0)(en.us)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en.us).pdf) <br/>  Preencha-out e [enviá-lo para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Você precisará publicar/cancelar a publicação de números de telefone no diretório nacional de telefone.  <br/> |[Envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelamento de publicação. <br/> |
+|Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Envie](mailto:ptneu@microsoft.com ) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
    
-## 
-<a name="MT_Footer"> </a>
+## <a name="related-topics"></a>Tópicos relacionados
+[Diferentes tipos de números de telefone usados para planos de chamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-> [!NOTE]
-> **Aviso de Isenção de Tradução Automática**: Este artigo foi traduzido por computador, sem intervenção humana. A Microsoft oferece essas traduções automáticas para ajudar as pessoas que não falam inglês a aproveitar os textos escritos sobre produtos, serviços e tecnologias da Microsoft. Como este artigo foi traduzido automaticamente, é possível que contenha erros de vocabulário, sintaxe ou gramática. 
-  
+[Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md)
+
+[Termos e condições para chamadas de emergência](../emergency-calling-terms-and-conditions.md)
+
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
