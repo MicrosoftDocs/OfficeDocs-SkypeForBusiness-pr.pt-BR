@@ -8,14 +8,20 @@ ms.topic: article
 ms.service: msteams
 description: "O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 53fac61c9e8c36c572e77fd302f410ce5dce45d0
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 07dbb6faca20fd39fc65c6508489500dda143040
+ms.sourcegitcommit: d62b48ee2c21435555255afe78db6349139b070c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso de convidados no Microsoft Teams
 ======================================
+
+O acesso de convidados é uma novidade no Microsoft Teams. É um dos recursos mais solicitados pelos clientes. Ainda estamos trabalhando nele, aprimorando suas funcionalidades. Veja como acompanhar nosso progresso em relação a esse recurso e enviar seus comentários:
+- Se tiver problemas com o acesso de convidados, confira [Problemas conhecidos do Microsoft Teams](Known-issues.md).
+- Conheça recursos novos ou atualizados no [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap).
+- Diga como podemos deixar o [Teams UserVoice](https://aka.ms/TeamsUserVoice) ainda melhor.
+- Compartilhe sua experiência na seção Comentários a seguir.
 
 
 O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais. 
@@ -38,7 +44,7 @@ O Teams é construído em cima dos grupos do Office 365 e proporciona uma nova f
  
   
     
-  [Ajuda, orientação prática e ferramentas](support-resources.md)  
+  [Recursos de suporte para o Microsoft Teams](support-resources.md)  
  
   
 

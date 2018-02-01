@@ -1,22 +1,22 @@
 ---
-title: Pesquisar o registro de auditoria de eventos no Microsoft Teams
+title: Pesquisar o log de auditoria para eventos no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 09/25/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
-description: Saiba como recuperar dados do Microsoft Teams a partir do registro de auditoria.
-ms.openlocfilehash: bea1a808fd92d3b43caf8ee61152a999ca3af8a3
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+description: Saiba como recuperar dados do Microsoft Teams a partir do log de auditoria do Office 365.
+ms.openlocfilehash: 229ddc5fb1e8a775524564c27ffeecce96483fe1
+ms.sourcegitcommit: 9f185be910855f6312344ea906e96e5e6449cf4c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o registro de auditoria de eventos no Microsoft Teams
 ==================================================
 
-O registro de auditoria oferece recursos de pesquisa ad-hoc de eventos notáveis nos serviços do Office 365. Especificamente para o Microsoft Teams, seguem abaixo alguns exemplos de eventos capturados:
+O log de auditoria pode ajudar na investigação de atividades específicas em todos os serviços do Office 365. Para o Microsoft Teams, estas são algumas das atividades auditadas:
 
 -   Criação de equipes
 
@@ -24,34 +24,43 @@ O registro de auditoria oferece recursos de pesquisa ad-hoc de eventos notáveis
 
 -   Canal adicionado
 
--   Configuração de canal
+-   Configuração alterada
 
-A lista completa de eventos do Office 365 é bastante extensa e pode ser encontrada [aqui](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities).
+Para ver a lista completa de atividades que são auditadas no Office 365, consulte [Pesquisar no log de auditoria no Centro de Conformidade e Segurança do Office 365](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c?=&PickTab=Activities&ad=US#PickTab=Activities).
 
-Antes que você possa se aprofundar em insights de auditoria, a auditoria precisa primeiro ser habilitada. Para habilitar a auditoria, vá até o Centro de Administração de *Segurança e Conformidade*. Em *Pesquisa por atividade*, clique em **Iniciar registro agora**. Depois de 24 horas, os dados de auditoria estarão disponíveis via *Pesquisa de Log de Auditoria*, localizada na guia *Pesquisa e Investigação*.
+## <a name="turn-on-auditing-in-teams"></a>Ativar a auditoria no Microsoft Teams
+
+Para examinar os dados de auditoria, você precisa ativar a auditoria no **Centro de Conformidade e Segurança** (https://protection.office.com). Para obter ajuda para ativar a auditoria, consulte [Ativar ou desativar a pesquisa no log de auditoria do Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]
-> Os dados de auditoria estão disponíveis apenas a partir do ponto em que a auditoria foi habilitada.
+> Os dados de auditoria estão disponíveis apenas a partir do momento em que a auditoria foi ativada.
 
 
 
-![Captura de tela da página de pesquisa de registros de Auditoria do Centro de Segurança e Conformidade.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image2.png)
+## <a name="retrieve-teams-data-from-the-audit-log"></a>Recuperar dados do Microsoft Teams a partir do log de auditoria
 
-Agora, vamos dar uma olhada em como recuperar dados do Microsoft Teams a partir do registro de auditoria:
-
-1.  Para recuperar as informações de registro de auditoria, navegue até o [Centro de Administração de Segurança e Conformidade](https://go.microsoft.com/fwlink/?linkid=855775). Em *Pesquisa e Investigação*, selecione **Pesquisa por registro de auditoria.**
-
-    a.  O Microsoft Teams determinou que as atividades de auditoria podem ser selecionadas conforme mostrado abaixo.
+1.  Para recuperar logs de auditoria, vá até o [Centro de Conformidade e Segurança](https://go.microsoft.com/fwlink/?linkid=855775). Em **Pesquisa e Investigação**, selecione **Pesquisa de log de auditoria**.
 
 ![Captura de tela da página de pesquisa de registros de Auditoria do Centro de Segurança e Conformidade.](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
 
-2.  Depois de selecionar as atividades de seu interesse, insira um intervalo de datas e usuários para recuperar as informações do Microsoft Teams. Clique em **Pesquisar** para recuperar os resultados.
+2.  Use a **Pesquisa** para filtrar pelas atividades, datas e usuários que você deseja auditar.
 
-3.  Essas informações podem ser exportadas para o Excel e filtradas conforme a necessidade.
+3.  Exporte os resultados para o Excel para analisá-los melhor.
 
 
 > [!IMPORTANT]
-> Se a auditoria ainda não tiver sido habilitada, será necessário habilitá-la para que os dados sejam exibidos no Log de auditoria.
+> Os dados de auditoria estarão visíveis no Log de Auditoria somente se a auditoria estiver ativada.
+
+## <a name="video-techtip-using-audit-log-search-in-teams"></a>Vídeo: Dicas de tecnologia: Como usar a pesquisa de log de auditoria no Microsoft Teams
+
+Conheça Ansuman Acharya, gerente de programas do Microsoft Teams, que demonstra como realizar uma pesquisa de Log de Auditoria do Microsoft Teams no Centro de Conformidade e Segurança do Office 365. 
+
+
+> [!VIDEO https://www.youtube.com/embed/UBxaRySAxyE]
+
+
+
+
 
 

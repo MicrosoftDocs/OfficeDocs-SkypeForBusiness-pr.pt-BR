@@ -20,7 +20,7 @@
 ## [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-Office-365-groups.md)
 ## [Preparo da rede da sua organização para o Teams](prepare-network.md)
 ## [URLs do Office 365 e intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md)
-## [Kit de workshops: planejamento, fornecimento e operação do Microsoft Teams](planning-workshop-practical-guide.md)
+## [Ferramentas e workshops: Planejamento, implantação e operação do Microsoft Teams](planning-workshop-practical-guide.md)
 
 # Adotar
 ## [Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams](change-management-strategy.md)
@@ -41,7 +41,7 @@
 ## [Usar o Office 365 e conectores personalizados no Teams](Office-365-custom-connectors.md)
 ## [Adicionar bots para bate-papos privados e canais no Teams](add-bots.md)
 ## [Configurações de administração para aplicativos no Teams](admin-settings.md)
-## [Referência do cdmlet do PowerShell para o Teams](https://docs.microsoft.com/powershell/module/teams)
+## [Referência do cmdlets do PowerShell para o Teams](https://docs.microsoft.com/powershell/module/teams)
 
 
 # [Acesso de convidados no Teams](guest-access.md)

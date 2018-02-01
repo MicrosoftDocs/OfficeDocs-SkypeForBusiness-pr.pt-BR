@@ -3,16 +3,16 @@ title: "Início rápido - Guia de Planejamento do Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
-ms.date: 12/15/2017
+ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 description: "Use este guia para ajudar no planejamento, na implementação e na adoção do Microsoft Teams em sua organização."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: dad9788c15c958876dc9a3b4adf637f88fe53b0a
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+ms.openlocfilehash: 0dc620789a0ca2bf904c3a5795d01aabb755109a
+ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/23/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Início rápido - Guia de Planejamento do Microsoft Teams
 ==========================================================
@@ -63,7 +63,7 @@ Quando estiver pronto para ativar o Microsoft Teams, leia [Licença do Office 36
 ### <a name="trophy-best-practice"></a>:trophy: Prática recomendada:
 Em organizações menores (atualmente com menos de 2500 usuários), considere habilitar o Microsoft Teams para toda a organização e adicionar todos os usuários a uma única equipe, englobando toda a empresa. Adicione tarefas e itens de referência comuns a essa equipe para simplificar a experiência de colaboração e produtividade de todos.
 
-Se você usar o Yammer para a colaboração mais ampla na empresa, pense na possibilidade de integrar o Yammer à experiência do Microsoft Teams. Isso não substitui a experiência móvel ou do navegador nativa do Yammer, mas proporciona uma forma integrada de ficar em dia com os temas de amplo interesse em toda a organização. Para saber mais, assista a [Dicas de tecnologia:](https://youtu.be/LU-sv-07jcY)[ gerenciamento de comunidades do Yammer com o Microsoft Teams.](https://youtu.be/LU-sv-07jcY)
+Se você usar o Yammer para a colaboração mais ampla na empresa, pense na possibilidade de integrar o Yammer à experiência do Microsoft Teams. Isso não substitui a experiência móvel ou do navegador nativa do Yammer, mas proporciona uma forma integrada de ficar em dia com os temas de amplo interesse em toda a organização. Para saber mais, assista a [Dicas de tecnologia: gerenciamento de comunidades do Yammer com o Microsoft Teams.](https://youtu.be/LU-sv-07jcY)
 
 ### <a name="dont-forget-mobile"></a>Não se esqueça dos dispositivos móveis!
 Ao implantar o Microsoft Teams, não se esqueça de habilitar a experiência em dispositivos móveis. A capacidade dos usuários de executar os aplicativos móveis do Office 365 pode aumentar drasticamente os níveis de uso e satisfação. O Office, Outlook, SharePoint, Teams, Planner, Yammer e outros serviços populares do Office 365 oferecem experiências em dispositivos móveis. Como prática recomendada, [ative a experiência móvel do Microsoft Teams](get-clients.md#mobile-clients) ao mesmo tempo que implementa os clientes de desktop e no navegador.
@@ -73,14 +73,14 @@ Ao implantar o Microsoft Teams, não se esqueça de habilitar a experiência em 
 
 A implantação do software não é o único elemento necessário para promover mudanças em sua organização. A capacitação da colaboração está muito mais relacionada às pessoas do que à tecnologia. Para impulsionar a adoção do Office 365 e do Microsoft Teams, foque a experiência dos funcionários. Veja aqui uma breve lista de verificação das práticas recomendadas que você pode usar para começar. Os parceiros da Microsoft também podem ajudar na elaboração do plano de adoção mais adequado para a sua organização.
 
-1. **Leia o [Guia de Adoção do Office 365](https://microsoft.sharepoint.com/:b:/t/ToolkitforTeamwork/ETCwPQo47a1IveJmot1vvb4BywRpFjqfRPrtjPtgF_i_hg?e=bfc85a9e74cd4cac8163286b6ef5ae74)** para conhecer nossas práticas recomendadas.  Use nosso artigo sobre a [criação de uma estratégia de gerenciamento de mudanças para o Microsoft Teams](change-management-strategy.md) para documentar sua abordagem.
+1. **Leia o [Guia de Adoção do Office 365]( https://aka.ms/office365adoptionguide)** para conhecer nossas práticas recomendadas. Use nosso artigo sobre a [criação de uma estratégia de gerenciamento de mudanças para o Microsoft Teams](change-management-strategy.md) para documentar sua abordagem.
 1. **Analise os [Relatórios de atividades do Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)** para entender a utilização em todo o seu ambiente. Se você não é administrador do Office 365 em sua empresa, peça ao administrador para conceder permissões de leitura de relatórios para que você possa acessar os relatórios de atividades.
 2. **Reúna os comentários de seus funcionários** sobre sua experiência com o Office 365 e o Microsoft Teams. Se a sua organização tem menos de 2500 pessoas, use um canal público no Microsoft Teams. Se a sua organização ultrapassa esse limite atual de associados no Microsoft Teams, use um grupo público no Yammer. 
-3. **Use o material [Your Digital Day](https://microsoft.sharepoint.com/teams/ToolkitforTeamwork/SitePages/A%20Day%20in%20the%20Digital%20Life.aspx) para promover o uso de recursos comuns**, incentivando os chats, as @menções e o uso do armazenamento em nuvem (OneDrive e SharePoint Online via Microsoft Teams) para atrair as pessoas para a experiência. Pare de enviar planilhas por email! 
+
 4. **Promova seus defensores e destaque suas vitórias.** Recompense os funcionários por adotar as novas ferramentas e usá-las de maneiras inovadoras relacionadas aos resultados comerciais de sua empresa. Acima de tudo, isso garantirá a continuidade da adoção do Office 365 e do Microsoft Teams.
 
 
 ## <a name="next-steps"></a>Próximos passos
-1. Acesse o [Kit de workshops:](planning-workshop-practical-guide.md)[ planejamento, fornecimento e operação do Microsoft Teams](planning-workshop-practical-guide.md)
-2. Baixe e preencha o questionário de planejamento técnico que se encontra no [Guia de Início Rápido:](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[ ](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[habilitar o Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+1. Acesse o [Kit de workshops: planejamento, fornecimento e operação do Microsoft Teams](planning-workshop-practical-guide.md)
+2. Baixe e preencha o questionário de planejamento técnico que se encontra no [Guia de Início Rápido: habilitar o Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
 3. Baixe o workshop para fazer o lançamento do Microsoft Teams em sua organização: [Planejar, fornecer e operar o Microsoft Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
