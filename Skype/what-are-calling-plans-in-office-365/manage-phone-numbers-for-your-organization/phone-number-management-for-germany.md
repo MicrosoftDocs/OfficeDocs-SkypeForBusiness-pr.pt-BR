@@ -1,46 +1,50 @@
 ---
-title: "Gerenciamento de número de telefone para a Alemanha"
+title: "Gerenciamento de números de telefone para a Alemanha"
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 12/15/2017
+ms.reviewer: mikedav, roykuntz, jastark
+ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 62077251-f24e-4a43-95a2-67a2dc54e9de
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-ms.appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
-ROBOTS: None
 f1keywords: None
-ms.custom: Calling Plans
-description: "Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone na Alemanha para Skype para negócios Online."
-ms.openlocfilehash: 4c81a9efbe6ba557b1013651ef4479d11ad8ee33
-ms.sourcegitcommit: 3fd7144b506dbe89551e104298a1dbc39d6eace0
-ms.translationtype: MT
+ms.custom:
+- Calling Plans
+- Strat_SB_PSTN
+description: "Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online na Alemanha."
+ms.openlocfilehash: f03a55247626fbee1ca81ee558d3d2fad3d83d73
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
-# <a name="phone-number-management-for-germany"></a>Gerenciamento de número de telefone para a Alemanha
+# <a name="phone-number-management-for-germany"></a>Gerenciamento de números de telefone para a Alemanha
 
-Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone na Alemanha para Skype para negócios Online. 
+Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online na Alemanha. 
   
-Para obter mais informações, consulte [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md).
+Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md).
   
-|**O que você deseja fazer?**|**Baixe os formulários corretos**|
+|**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obtenha números de telefone do novo usuário.  <br/> | Na Alemanha, você não pode obter números de telefone para sua organização com o Skype para centro de administração de negócios. Você deve enviar uma nova solicitação de número de telefone. Primeiro, Baixe este formulário <br/> [Nova solicitação de número de telefone para a Alemanha (números geográficas) (v.3.0)(de.de)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf). <br/>  Preencha-out e [enviá-lo para nós](mailto:ptneu@microsoft.com).  <br/> |
-|Você precisa obter os números de telefone transferidos para nós.  <br/> | Baixe [carta de autorização (LOA) para a Alemanha (números geográficas) (v.1.0)(de.de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/>  Preencha-out e [enviá-lo para nós](mailto:ptneu@microsoft.com).  <br/> |
-|Você precisará publicar/cancelar a publicação de números de telefone no diretório nacional de telefone.  <br/> |[Envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelamento de publicação. <br/> |
-|Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Envie](mailto:ptneu@microsoft.com ) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
+|Obter números de telefone para novos usuários.  <br/> | Na Alemanha, não é possível obter números de telefone para a sua organização usando o Centro de administração do Skype for Business. Você deve enviar uma solicitação de novo número de telefone. Primeiro, baixe este formulário <br/> [Solicitação de novo número de telefone para a Alemanha (números geográficos) (v.3.0)(de.de)](../../downloads/new-number-request-forms/new-phone-number-request-for-germany-(geographic-numbers)-(v.3.0)-(de.de).pdf). <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Você precisa obter números de telefone transferidos para nós.  <br/> | Baixe a [Carta de Autorização (LOA) para a Alemanha (números geográficos) (v.1.0)(de.de)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.1.0)-(de.de).pdf) <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Você precisa publicar/cancelar a publicação de números de telefone na lista telefônica nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
+|Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com ) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Diferentes tipos de números de telefone usados para planos de chamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md)
+[Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições para chamadas de emergência](../emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 

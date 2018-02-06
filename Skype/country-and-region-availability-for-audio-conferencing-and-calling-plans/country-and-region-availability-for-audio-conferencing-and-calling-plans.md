@@ -3,32 +3,38 @@ title: "Disponibilidade da Audioconferência e dos Planos de Chamadas por país 
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
+ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
+ms.date: 01/24/2018
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Skype for Business, Microsoft Teams
+appliesto:
+- Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- Strat_SB_PSTN
 - LIL_Placement
 description: "Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis."
-ms.openlocfilehash: c1d378a37850d8fdb9fb8d4cda68cedb929ba204
-ms.sourcegitcommit: 3fb8ed855e72a28cd28c94f1414fbe81937d9422
+ms.openlocfilehash: 2024b5df01cd1cfa787883fa3b2337500b2dea61
+ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
 Você pode selecionar um país ou uma região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas e os Créditos de Comunicação estão disponíveis.
+
+> [!Note]
+> Se você precisa de uma planilha com todos os países e regiões, baixe e salve a [Planilha de todos os países e regiões](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/downloads/country-region-availabilty/country-and-region-availability-(v.01242018)-(en.us).xlsx?raw=true).
 
 ## <a name="select-your-country-or-region-to-see-whats-available-for-you"></a>Selecione seu país ou sua região para ver o que temos disponível para você!
 
@@ -47,7 +53,7 @@ Você pode selecionar um país ou uma região para ver se a Audioconferência, o
 > - [Canadá](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
-> - [Colômbia](availability-in-columbia.md)
+> - [Colômbia](availability-in-colombia.md)
 > - [Costa Rica](availability-in-costa-rica.md)
 > - [Croácia](availability-in-croatia.md)
 > - [Chipre](availability-in-cyprus.md)
