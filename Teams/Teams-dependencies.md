@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
+ms.reviwer: laal
 description: "Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização."
-ms.openlocfilehash: 86384a18fdea3d15bfb0bf6368a2529a05872371
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: de1ceee3b884b62680353eac11c94198024b927e
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
@@ -98,7 +101,7 @@ Para habilitar a experiência completa de acesso de convidados no Teams, os admi
 
 - No SharePoint Online: **Permitir apenas compartilhamento com usuários externos já constantes do diretório**
     
-    Para obter mais informações, consulte [Gerenciar compartilhamento externo para o seu ambiente do SharePoint Online](https://support.office.com/en-us/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
+    Para obter mais informações, consulte [Gerenciar compartilhamento externo para o seu ambiente do SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
     
   
 - Nos grupos do Office 365: **Permitir que proprietários de grupos adicionem aos grupos pessoas externas à organização**
@@ -109,4 +112,4 @@ Para habilitar a experiência completa de acesso de convidados no Teams, os admi
 As configurações anteriores são aplicáveis no nível de locatário e controlam a experiência dos convidados no SharePoint Online, no OneDrive for Business, nos Grupos do Office 365 e no Microsoft Teams.
 
 
-Você pode gerenciar as configurações de usuário externo do SharePoint Online para o site de equipe conectado ao Teams. Para obter mais detalhes, veja [Gerenciar as configurações do site da sua equipe do SharePoint](https://support.office.com/en-us/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
+Você pode gerenciar as configurações de usuário externo do SharePoint Online para o site de equipe conectado ao Teams. Para obter mais detalhes, veja [Gerenciar as configurações do site da sua equipe do SharePoint](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).

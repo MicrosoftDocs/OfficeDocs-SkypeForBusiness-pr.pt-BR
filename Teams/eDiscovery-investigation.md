@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: anach
 description: "Saiba o que fazer quando precisar executar uma Descoberta Eletrônica, como quando precisar enviar todas as informações armazenadas eletronicamente para procedimentos judiciais."
-ms.openlocfilehash: 8746e08e6714902ee6923286c79861321916dd6d
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 9ee252bc114ec7972506b8fa6408fcaa33d20a73
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 ============================
@@ -20,7 +23,7 @@ As grandes empresas são muitas vezes expostas a processos judiciais com penalid
 
 Todos os bate-papos em grupo ou Teams 1:1 são rastreados para as caixas de correio dos respectivos usuários e todas as mensagens do canal são rastreadas para a caixa de correio do grupo que representa a equipe. Os arquivos carregados são cobertos pela funcionalidade de Descoberta Eletrônica para SharePoint Online e OneDrive for Business.
 
-1.  Para conduzir uma investigação de Descoberta Eletrônica com conteúdo no Microsoft Teams consulte [este link:](https://support.office.com/en-us/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1).
+1.  Para conduzir uma investigação de Descoberta Eletrônica com conteúdo no Microsoft Teams consulte [este link:](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1).
 
 2.  Os dados do Microsoft Teams serão exibidos como **IM ou Conversas** na saída em Excel output, ou você pode montar o **.PST** no Outlook.
 

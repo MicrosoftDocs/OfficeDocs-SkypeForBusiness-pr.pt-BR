@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara, lucarras
 description: "Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal."
-ms.openlocfilehash: 2e852f88cffefdc259b1a0dbf20349bbaf5e3686
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: ad3694bff37281c6e01a1d1a5d02c5a2f255776e
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Office 365 e conectores personalizados no Microsoft Teams
 =======================================================
@@ -61,4 +64,4 @@ Desenvolver conectores personalizados que podem se integrar aos seus aplicativos
 
     ![Captura de tela da interface do Teams mostrando uma mensagem do Cartão do Conector.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image8.png)
 
-Os desenvolvedores podem configurar seus aplicativos para criar esses cartões enviando uma solicitação HTTP com um payload JSON simples para o endereço Webhook do Microsoft Team, que é uma URL exclusiva desse endpoint fornecido pelo assistente. Solicite que os seus desenvolvedores consultem [Introdução aos Conectores do Office 365 para o Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783) na Rede do Desenvolvedor da Microsoft, com instruções detalhadas e exemplos de conectores. Outros recursos incluem [Conectar aplicativos aos seus grupos no Outlook](https://support.office.com/en-us/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) e [Centro de Desenvolvimento do Office – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784).
+Os desenvolvedores podem configurar seus aplicativos para criar esses cartões enviando uma solicitação HTTP com um payload JSON simples para o endereço Webhook do Microsoft Team, que é uma URL exclusiva desse endpoint fornecido pelo assistente. Solicite que os seus desenvolvedores consultem [Introdução aos Conectores do Office 365 para o Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855783) na Rede do Desenvolvedor da Microsoft, com instruções detalhadas e exemplos de conectores. Outros recursos incluem [Conectar aplicativos aos seus grupos no Outlook](https://support.office.com/article/Connect-apps-to-your-groups-in-Outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab) e [Centro de Desenvolvimento do Office – Microsoft Teams](https://go.microsoft.com/fwlink/?linkid=855784).

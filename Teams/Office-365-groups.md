@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: msteams
 description: Saiba como os grupos do Office 365 e as assinaturas de grupo trabalham com o Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 429a11625bc41abd5414491e7e8f8a53a55c31bc
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 0e21a776e9cb259b9a4e73a1bfc7df3e0b408a50
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos do Office 365 e Microsoft Teams
 =====================================
 
 Os grupos do Office 365 são o serviço de assinatura cruzada de aplicativos do Office 365. Basicamente falando, um grupo do Office 365 é um objeto no diretório ativo do Azure com uma lista de membros e um acoplamento fraco para cargas de trabalho relacionadas, incluindo um site de equipes no SharePoint, Yammer Group, recursos de caixa de correio compartilhada no Exchange, Planner, PowerBI e OneNote. Você pode adicionar ou remover pessoas ao grupo, da mesma forma como faria com qualquer outro objeto de segurança baseado em grupo no Diretório Ativo.
 
-Um administrador do Office 365 pode definir um grupo do Office 365, adicionar membros e aproveitar recursos como caixa de correio compartilhada do Exchange, biblioteca de documentos do SharePoint,Yammer Group, etc. para obter mais informações sobre grupos, acesse: [Saber sobre os grupos do Office 365](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Um administrador do Office 365 pode definir um grupo do Office 365, adicionar membros e aproveitar recursos como caixa de correio compartilhada do Exchange, biblioteca de documentos do SharePoint,Yammer Group, etc. para obter mais informações sobre grupos, acesse: [Saber sobre os grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 <a name="how-office-365-groups-work"></a>Como funcionam os grupos do Office 365
 --------------------------

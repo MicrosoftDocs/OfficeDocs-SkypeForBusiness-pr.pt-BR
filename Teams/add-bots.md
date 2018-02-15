@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: lucarras
 description: "Saiba como adicionar bots no Microsoft Teams para bate-papos privados e canais, criar bots personalizados e carregue seu próprio bot para bate-papo privado."
-ms.openlocfilehash: c7f2aec398728f310fab780e96d4df09e4b7f582
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 53758ae9d48ff04666e1f0e89272fca75289f0fc
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Adicionar bots para bate-papos privados e canais no Microsoft Teams
 ==========================================================
@@ -22,16 +25,10 @@ No momento, o Microsoft Teams suporta bots em bate-papos privados e canais dentr
 
 Os bots desenvolvidos pela comunidade podem ser utilizados no Microsoft Teams. A funcionalidade do bot e o carregamento lateral do bot devem ser ativados em nível de locatário para que os bots personalizados sejam funcionais. Os bots podem ser usados em bate-papos privados ou em canais. Para os canais, proprietários e membros de equipes podem adicionar bots.
 
-Para obter mais informações, consulte a seção "Usando bots" em [Aplicativos e serviços](https://support.office.com/en-us/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). 
+Para obter mais informações, consulte a seção "Usando bots" em [Aplicativos e serviços](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). 
 
 
 
-
-
-
-
-
- 
 
 <a name="create-custom-bots-for-microsoft-teams"></a>Criar bots personalizados para o Microsoft Teams
 --------------------------------------

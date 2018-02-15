@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
+ms.reviewer: laal
 description: "Obtenha um breve panorama de como um convidado é chamado para entrar em uma equipe do Microsoft Teams."
-ms.openlocfilehash: e7e847fb4f45fa4f026889af16b82cf0a3c47c67
-ms.sourcegitcommit: fe3da7145039ce514fbaa9443a4a1b9879dd6264
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2aa3e0d720dcab80acf558b84a50b605da2bd4d3
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/15/2018
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado entra em uma equipe
 ========================
@@ -29,16 +32,16 @@ Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convida
 
 Veja como um convidado se torna membro de uma equipe:
 
-- **Passo 1** Um proprietário de equipe ou um administrador do Office 365 [adiciona um convidado a uma equipe](https://support.office.com/en-us/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Passo 1** Um proprietário de equipe ou um administrador do Office 365 [adiciona um convidado a uma equipe](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
     
   
 - **Passo 2** O proprietário de equipe ou o administrador do Office 365 pode gerenciar os recursos de um convidado conforme a necessidade. Por exemplo, permitir que um convidado adicione ou exclua canais, ou desabilitando o acesso a arquivos.
     
   
-- **Passo 3** O convidado recebe um e-mail de boas-vindas do proprietário da equipe, convidando-o a entrar para a equipe. Depois de aceitar o convite, o convidado pode [participar de equipes e de canais](https://support.office.com/en-us/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receber e responder mensagens de canais, [acessar arquivos em canais](https://support.office.com/en-us/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) e participar de bate-papos. Enquanto estiver usando o Teams, uma combinação de textos e ícones dá a todos os membros da equipe uma indicação clara da participação do convidado em uma equipe. Para obter mais detalhes, consulte [Como é a experiência do convidado](guest-experience.md)
+- **Passo 3** O convidado recebe um e-mail de boas-vindas do proprietário da equipe, convidando-o a entrar para a equipe. Depois de aceitar o convite, o convidado pode [participar de equipes e de canais](https://support.office.com/article/participate-in-teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_channels), receber e responder mensagens de canais, [acessar arquivos em canais](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e) e participar de bate-papos. Enquanto estiver usando o Teams, uma combinação de textos e ícones dá a todos os membros da equipe uma indicação clara da participação do convidado em uma equipe. Para obter mais detalhes, consulte [Como é a experiência do convidado](guest-experience.md)
     
   
-Os convidados podem sair da equipe a qualquer momento através dos clientes web e desktop do Teams. Para obter detalhes, consulte [Como posso sair de uma equipe?](https://support.office.com/en-us/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
+Os convidados podem sair da equipe a qualquer momento através dos clientes web e desktop do Teams. Para obter detalhes, consulte [Como posso sair de uma equipe?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
 > Embora os próprios usuários possam sair da equipe, apenas um administrador pode remover usuários do locatário. 
