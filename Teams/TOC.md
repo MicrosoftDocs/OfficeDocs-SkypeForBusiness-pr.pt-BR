@@ -5,6 +5,7 @@
 ## [Licença do Office 365 para o Teams](Office-365-licensing.md)
 ## [Visão geral de equipes e canais no Teams](teams-channels-overview.md)
 ## [Boas práticas para organizar equipes no Teams](best-practices-organizing.md)
+## [Tutorial: Criar uma equipe englobando toda a empresa usando o PowerShell](Company-wide-team-creation-powershell.yml)
 ## [Grupos do Office 365 e Teams](Office-365-groups.md)
 ## [Como o Exchange e o Teams interagem](Exchange-Teams-interact.md)
 ## [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](SharePoint-OneDrive-interact.md)
@@ -36,11 +37,13 @@
 ## [Gerenciamento do acesso de usuários ao Teams](user-access.md)
 ## [Aprimorar grupos existentes do Office 365 com o Teams](enhance-office-365-groups.md)
 ## [Configurar uma organização híbrida do Exchange para uso com o Teams](Exchange-hybrid-organization.md)
+## [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
 ## [Adicionar o domínio SMTP ao Teams como um domínio aceito no Exchange Online](SMTP-accepted-domain.md)
 ## [Usar guias internas e personalizadas no Teams](built-in-custom-tabs.md)
 ## [Usar o Office 365 e conectores personalizados no Teams](Office-365-custom-connectors.md)
 ## [Adicionar bots para bate-papos privados e canais no Teams](add-bots.md)
 ## [Configurações de administração para aplicativos no Teams](admin-settings.md)
+## [Criar uma equipe englobando toda a empresa usando o PowerShell](Company-wide-team-creation-powershell.yml)
 ## [Referência do cmdlets do PowerShell para o Teams](https://docs.microsoft.com/powershell/module/teams)
 
 
@@ -61,10 +64,10 @@
 ### [Concepção](audio-conferencing.md#Envision_AudioConferencing)
 ## [Sistema de Telefonia com Planos de Chamadas](phone-system-with-calling-plans.md)
 ### [Concepção](phone-system-with-calling-plans.md#Envision_PhoneSystemWithCallingPlans)
-## Guias de Início Rápido
-### [Configurar Planos de Chamadas](configuring-teams-calling-quickstartguide.md)
-## Vídeos
-### [Audioconferência](audio-conferencing-videos.md)
+## Planos de Chamadas
+### [Início rápido: Configurar Planos de Chamadas](configuring-teams-calling-quickstartguide.md)
+### [Entender as chamadas no Teams](Tutorial-Calling-in-Teams.yml)
+
 
 # [Jornada de migração do Skype for Business para o Teams](Journey-SkypeforBusiness-Teams.md)
 ## [1 - Otimize o seu ambiente atual do Skype for Business para o Teams](prepare-teams.md)
@@ -73,6 +76,7 @@
 ## [4 - Gerar valor através da adoção dos usuários](continue-journey.md)
 ## [Perguntas frequentes - visão do Skype for Business e do Teams](FAQ-journey.md)
 ## [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+
 
 # Vídeos e treinamentos
 ## [Prontidão do administrador de TI para o Teams](ITAdmin-readiness.md)

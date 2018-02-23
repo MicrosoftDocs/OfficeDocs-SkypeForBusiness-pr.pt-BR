@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor
 description: "Orientações práticas para planejar, implantar e gerenciar o Sistema de Telefonia com Planos de Chamadas no Microsoft Teams usando a estrutura Concepção (planejamento), Integração (fornecimento), Geração de valor (operação)."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: be79a70b47ec12141d907e2dc467fae2e9447315
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 5e476956c98e074306f971d58ad6dc9aab6aec0b
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 =========================================================================

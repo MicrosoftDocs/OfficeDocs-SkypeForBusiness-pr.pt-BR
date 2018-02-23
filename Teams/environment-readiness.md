@@ -6,20 +6,23 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: dansteve
 description: Saiba o que procurar ao verificar a disponibilidade do seu ambiente para o Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: fbc76126220857d2864f9159d57fd663ce66fd7b
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 2bd50af24bab2699e6638adeed3b33e602ec5bb6
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/11/2018
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Verificar a prontidão do seu ambiente para o Microsoft Teams
 ===========================================
 
 A transição para a nuvem variará de acordo com cada organização e o estado atual pode ter um impacto na forma como o Microsoft Teams funcionará.
 
-Para obter a melhor experiência com o Microsoft Teams, sua organização precisa ter implantado o Exchange Online e o SharePoint Online. Se não tiver ou caso você tenha uma configuração diferente, consulte os seguintes links para obter ajuda:
+Para obter a melhor experiência com o Microsoft Teams, sua organização precisa ter implantado o Exchange Online e o SharePoint Online. Caso contrário, ou se você tem uma configuração diferente, consulte os seguintes links para obter ajuda:
 
 -   Se a sua organização não tiver implantado nenhuma carga de trabalho do Office 365, consulte [Introdução ao Office 365 for business.](https://support.office.com/en-us/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 

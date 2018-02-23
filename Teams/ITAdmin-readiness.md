@@ -7,11 +7,13 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: "Vídeos de treinamento apresentando o Microsoft Teams e explicando aos administradores como planejar, implantar e operar o Microsoft Teams."
-ms.openlocfilehash: 30d728f1de60791a7d93fb7e59f5058cf66bfed5
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 550c306e80bcb76dc9c232bb3152b4514c3f7332
+ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/11/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 ==================================
@@ -24,6 +26,7 @@ Conheça o Microsoft Teams e saiba como promover sua utilização na sua organiz
 | [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml) |Orientações sobre tudo o que você precisa saber para fazer a migração do Skype for Business Online para o Microsoft Teams.  |
 | [Início rápido - Administradores do Microsoft Teams for Education](teams-quick-start-edu.yml) |Para administradores de TI da área educacional implantarem o Microsoft Teams em toda a organização.   |
 [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Guia de Início Rápido para configurar Planos de Chamadas no Microsoft Teams. |
+| [Tutorial: Entender as chamadas no Teams](tutorial-calling-in-teams.yml)  |  Este treinamento apresenta as funcionalidades de chamadas do Teams, que são acionadas pelo recurso do Sistema de Telefonia no Office 365. Inclui explicações sobre o planejamento técnico necessário para implementar o Sistema de Telefonia, como configurá-lo e como monitorar o uso e a qualidade das chamadas em sua implementação.  |
 | [Vídeos de audioconferência](audio-conferencing-videos.md) |Vídeos de apresentação da Audioconferência no Microsoft Teams para administradores de TI.  |
 | Implantação e operação do Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 | Imersão no acesso de convidados <br>Sessão de café na nuvem com Laith Al e Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |

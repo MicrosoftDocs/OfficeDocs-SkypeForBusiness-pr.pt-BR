@@ -6,12 +6,15 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ritikag
 description: "Saiba como habilitar ou desabilitar o acesso em nível de usuário na base por usuário."
-ms.openlocfilehash: 66ec29077b83b799c85acce1b5869b82fb0b83f7
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 318d9467bf1565a50987b6716f2b0a1ad86999bf
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gerenciamento do acesso de usuários ao Microsoft Teams
 =====================================
@@ -37,25 +40,33 @@ A licença do Microsoft Teams de um usuário pode ser desabilitada a qualquer mo
 
 Além de usar o Centro de Administração do Office 365, os administradores do Office 365 também podem usar o Office 365 PowerShell para atribuir e remover licenças. Para atribuir uma licença a um usuário, use a seguinte sintaxe:
 
-Set-MsolUserLicense -UserPrincipalName “\<Account\>” -AddLicenses “\<AccountSkuId\>”
+```
+Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
+```
 
 O exemplo a seguir atribui uma licença a partir do plano de licença litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) para o usuário não licenciado belindan@litwareinc.com.
 
-Set-MsolUserLicense -UserPrincipalName “belindan@litwareinc.com” -AddLicenses “litwareinc:ENTERPRISEPACK”
+```
+Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Para obter mais exemplos e detalhes, veja [*Atribuir licenças a contas de usuários do Office 365 PowerShell*](https://go.microsoft.com/fwlink/?linkid=855755).
+Para obter mais exemplos e detalhes, veja [Atribuir licenças a contas de usuários do PowerShell do Office 365](https://go.microsoft.com/fwlink/?linkid=855755).
 
 Para remover a licença de uma conta de usuário existente, use a seguinte sintaxe:
 
-Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses “\<AccountSkuId1\>”, “\<AccountSkuId2\>”
+```
+Set-MsolUserLicense -UserPrincipalName \<Account\> -RemoveLicenses "\<AccountSkuId1\>", "\<AccountSkuId2\>"
+```
 
 O exemplo a seguir remove a licença a partir do plano de licença litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) da conta de usuário BelindaN@litwareinc.com.
 
-Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses “litwareinc:ENTERPRISEPACK”
+```
+Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
+```
 
-Para obter mais exemplos e detalhes, veja [*Remover licenças de contas de usuários do Office 365 PowerShell*](https://go.microsoft.com/fwlink/?linkid=855756).
+Para obter mais exemplos e detalhes, veja [Remover licenças de contas de usuários do PowerShell do Office 365](https://go.microsoft.com/fwlink/?linkid=855756).
 
 | | | |
 |---------|---------|---------|
 |![Ícone de ponto de decisão.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Ponto de decisão         |<ul><li>Qual é o plano de integração do Microsoft Teams na sua empresa?  (Piloto ou Aberto)</li></ul>         |
-|![Ícone de próximos passos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se for iniciar via piloto fechado, decida se deseja fazê-lo através de licenciamento ou comunicação direcionada.</li><li>Dependendo da decisão, tome medidas para se certificar de que apenas os usuários do Piloto tenham permissão para acessar o Microsoft Teams (se necessário).</li><li>Documente abaixo as diretrizes de acordo com as quais os usuários terão (ou não) acesso ao Microsoft Teams.</li></ul>         |
+|![Ícone de próximos passos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se for iniciar via piloto fechado, decida se deseja fazê-lo através de licenciamento ou comunicação direcionada.</li><li>Dependendo da decisão, tome medidas para se certificar de que apenas os usuários do Piloto tenham permissão para acessar o Microsoft Teams (se necessário).</li><li>Documente as diretrizes de acordo com as quais os usuários terão (ou não) acesso ao Microsoft Teams.</li></ul>         |

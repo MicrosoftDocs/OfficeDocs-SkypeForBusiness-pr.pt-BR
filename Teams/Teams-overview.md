@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: ninadara
 description: "Conheça o Microsoft Teams, sua infraestrutura e a utilização do Teams com o Office 365."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: c856e85ddd6ef824e7826c4b4752a3fbb15508e5
-ms.sourcegitcommit: d5d9a9f9d7765cb615ab9fac88a7695c60210cfc
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 353e757c12b4e72a72b49abe4381abb9a188166b
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/02/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="overview-of-microsoft-teams"></a>Visão geral do Microsoft Teams
 ===========================
@@ -105,6 +108,10 @@ Seguem alguns casos de uso comuns de cada aplicativo do Office 365. Para obter o
 -   O site SharePoint da equipe totalmente alimentado é provisionado para cada equipe do Microsoft Teams para armazenamento de arquivos, notícias da equipe, páginas, listas e muito mais.
 
 -   Consulte [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](SharePoint-OneDrive-interact.md)
+
+## <a name="teams-known-issuesknown-issuesmd"></a>[Problemas conhecidos do Teams](Known-issues.md)
+
+## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Notas de versão do cliente Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
 ## <a name="what-happened-to-the-teams-admin-faq"></a>O que aconteceu com as Perguntas Frequentes do Administrador do Teams?
 

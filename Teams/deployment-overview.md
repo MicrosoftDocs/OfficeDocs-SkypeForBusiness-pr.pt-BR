@@ -8,11 +8,13 @@ ms.topic: article
 ms.service: msteams
 description: "Saiba como realizar uma implantação do Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 02901ea151d27dd520f5f541e78445b3082f9109
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 958d0a7d3de502a82ee3844379ed4433ae8e2075
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Visão geral da implantação do Microsoft Teams
 ========================================
@@ -55,4 +57,4 @@ No Microsoft Teams, essa configuração teria a seguinte aparência:
 
  
 
-Para acompanhar esses pontos de decisão, baixe o questionário de planejamento técnico em [Início rápido:](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[ ](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)[habilitar o Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+Para acompanhar esses pontos de decisão, baixe o questionário de planejamento técnico em [Início rápido: habilitar o Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).

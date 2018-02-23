@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: arachman
 description: "Saiba como preparar e gerenciar sua rede para o Microsoft Teams. As informações incluem requisitos de rede, requisitos de largura de banda e considerações adicionais."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: a89d4f201a0ea8f9392146e23629e6dd671bb7c3
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: db9dc97d117ad1844d56c59191bb92ec496a9a83
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 =================================================
@@ -70,7 +73,7 @@ O conteúdo que você encontrar abaixo pode ser usado como informações complem
 |---------|---------|---------|---------|
 |**Chamada de áudio ponto a ponto**     |0,1 Mb         |0,1 Mb         |Cliente <> Cliente         |
 |**Chamada de vídeo ponto a ponto**     |4 Mb         |4 Mb         |Cliente <> Cliente          |
-|**Compartilhamento de desktop ponto a ponto (resolução de 1920*1080)**     |4 Mb         |4 Mb         |Cliente <> Cliente          |
+|**Compartilhamento de área de trabalho ponto a ponto (resolução de 1920*1080)**     |4 Mb         |4 Mb         |Cliente <> Cliente          |
 |**Reunião com 2 participantes**     |4 Mb         |4 Mb         |Cliente <> Office 365         |
 |**Reunião com 3 participantes**     |8 Mb         |6,5 Mb         |Cliente <> Office 365           |
 |**Reunião com 4 participantes**     |5,5 Mb         |4 Mb         |Cliente <> Office 365           |

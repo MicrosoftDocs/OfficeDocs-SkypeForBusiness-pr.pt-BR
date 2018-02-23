@@ -6,13 +6,16 @@ manager: lolaj
 ms.date: 10/05/2017
 ms.topic: article
 ms.service: msteams
+ms.reviewer: MyAdvisor, dearbeen
 description: "Orientações sobre tudo o que você precisa saber para fazer a migração do Skype for Business Online para o Microsoft Teams."
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: af0204d5eb1edd7b58aee5c8f913a8b5404b295f
-ms.sourcegitcommit: 02403b6dc6e0a9a0a590fbf41fa8a552d2f29e1f
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: f006e0a26fc2899da0c3cebc7aa100c0a910c739
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 02/03/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Jornada de migração do Skype for Business para o Microsoft Teams
 ==================================================
@@ -21,7 +24,7 @@ Como parte da [visão de comunicações inteligentes da Microsoft](https://aka.m
 
 Acesse o [Mapa de produtos Teams](https://aka.ms/TeamsRoadmap) para se manter atualizado do que está por vir no Teams e decidir o melhor momento para a sua organização migrar para o Teams.
 
-Outra ótima forma de ficar sempre por dentro das novidades sobre a jornada do Skype for Business para o Microsoft é o [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) - um PDF para download (somente em inglês, pelo menos por enquanto) que apresenta as expectativas atuais da Microsoft em relação à migração das funcionalidades do Skype for Business para o Microsoft Teams.
+Outra ótima forma de ficar sempre por dentro das novidades sobre a jornada de migração do Skype for Business para o Teams é o [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap); um PDF para download (somente em inglês, pelo menos por enquanto) que apresenta as expectativas atuais da Microsoft em relação as funcionalidades do Skype for Business que serão incluídas no Teams.
 
 Para melhores resultados, recomendamos que você siga estas orientações obedecendo à ordem:
 
