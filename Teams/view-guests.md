@@ -6,21 +6,24 @@ manager: lolaj
 ms.date: 10/23/2017
 ms.topic: article
 ms.service: msteams
+ms.reviwer: laal
 description: "Saiba como um administrador pode visualizar informações sobre usuários convidados no Microsoft Teams."
-ms.openlocfilehash: 4e53b15e40f3b3e96a66baf6a87ab6eebe4db517
-ms.sourcegitcommit: 3faedb6057da8650b06b05f9c9bdd941d5ade175
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: c06872f551d6468d781e8304b4b5713924eee855
+ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/03/2018
 ---
-<a name="view-guest-users-in-a-team"></a><span data-ttu-id="8363b-103">Visualizar usuários convidados em uma equipe</span><span class="sxs-lookup"><span data-stu-id="8363b-103">View guest users in a team</span></span>
+<a name="view-guest-users-in-a-team"></a><span data-ttu-id="6d64e-103">Visualizar usuários convidados em uma equipe</span><span class="sxs-lookup"><span data-stu-id="6d64e-103">View guest users in a team</span></span>
 ==========================
 
 
-1. <span data-ttu-id="8363b-104">Inicie sessão na sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span><span class="sxs-lookup"><span data-stu-id="8363b-104">Sign in with your Office 365 global admin account at  [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
+1. <span data-ttu-id="6d64e-104">Inicie sessão na sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span><span class="sxs-lookup"><span data-stu-id="6d64e-104">Sign in with your Office 365 global admin account at  [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).</span></span>
     
   
-2. <span data-ttu-id="8363b-105">Vá para **Usuários** > **Usuários convidados**.</span><span class="sxs-lookup"><span data-stu-id="8363b-105">Go to **Users** > **Guest users**.</span></span>
+2. <span data-ttu-id="6d64e-105">Vá para **Usuários** > **Usuários convidados**.</span><span class="sxs-lookup"><span data-stu-id="6d64e-105">Go to **Users** > **Guest users**.</span></span>
     
     
 ![A captura de tela mostra a opção de usuários convidados selecionada na seção Usuários do centro de administração do Office 365.](media/95b83ff5-72ef-4668-b541-4e25b767620a.png)
