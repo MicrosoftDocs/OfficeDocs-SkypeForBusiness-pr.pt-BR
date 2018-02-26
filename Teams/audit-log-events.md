@@ -1,5 +1,5 @@
 ---
-title: Pesquisar o log de auditoria para eventos no Microsoft Teams
+title: Pesquisar o log de auditoria de eventos no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: lolaj
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/03/2018
 ---
-<a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o registro de auditoria de eventos no Microsoft Teams
+<a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 ==================================================
 
 O log de auditoria pode ajudar na investigação de atividades específicas em todos os serviços do Office 365. Para o Microsoft Teams, estas são algumas das atividades auditadas:
