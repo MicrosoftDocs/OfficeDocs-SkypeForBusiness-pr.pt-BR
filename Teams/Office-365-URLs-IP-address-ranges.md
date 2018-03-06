@@ -2,7 +2,7 @@
 title: "URLs e intervalos de endereços IP do Office 365"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,13 +10,13 @@ description: "Saiba como configurar corretamente URLs do Office 365 e intervalos
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21467e1c7f85cda5bdbfa68971119c8a6c0038bc
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 597d9ceb2f72fcd624b3071d26264ce74650cc0c
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/19/2018
 ---
-<a name="office-365-urls-and-ip-address-ranges"></a>URLs do Office 365 e intervalos de endereços IP
+<a name="office-365-urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP do Office 365
 =====================================
 
 Analise o link a seguir para obter uma lista de dados detalhada e atualizada das portas e IPs exatos que precisam ser configurados corretamente: [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&rs=en-US&ad=US). A Microsoft está aprimorando continuamente o serviço do Office 365 e acrescentando novas funcionalidades; assim, as portas, URLs e endereços IP necessários podem mudar com o passar do tempo. Consulte o guia de [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) para obter as versões mais recentes de portas e protocolos. É também altamente recomendável [inscrever-se via RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para receber notificações quando os endpoints forem atualizados ou modificados.

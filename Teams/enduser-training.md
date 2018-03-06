@@ -2,7 +2,7 @@
 title: "Treinamento para o usuário final do Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ ms.reviewer: lolaj, ninadara
 description: "Os recursos de treinamento que o administrador pode utilizar para ter sucesso na implantação e adoção do Microsoft Teams."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e1af76ead0cedd411000fcedc162662c9e29775
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
+ms.openlocfilehash: d9889e88f031abc08a5052e87f8cffcfa814a42b
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Treinamento para o usuário final do Microsoft Teams
 =====================================
@@ -31,7 +31,7 @@ Use esses recursos de treinamento para ajudar sua organização a agregar valor 
 | [Canal do YouTube do Microsoft Teams](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Vídeos de instruções, práticas recomendadas e revisão de recursos  |
 | Introdução ao Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/7oej3xIQy-Y" frameborder="0" allowfullscreen></iframe>   |
-| Cinco minutos para configurar ótimas equipes, canais e guias   | <iframe width="350" height="200" src="https://youtu.be/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Cinco minutos para configurar ótimas equipes, canais e guias   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 29
 
 

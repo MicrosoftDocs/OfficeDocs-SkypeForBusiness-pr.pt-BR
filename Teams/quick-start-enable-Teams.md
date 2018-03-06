@@ -2,7 +2,7 @@
 title: "Início rápido - Guia de Planejamento do Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
@@ -11,11 +11,11 @@ description: "Use este guia para ajudar no planejamento, na implementação e na
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50af713e659f46158d8f421fba99f2e8851c63e3
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 94d5150ff929afbdc188924fe1c79b2ee0287365
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Início rápido - Guia de Planejamento do Microsoft Teams
 ==========================================================
@@ -44,7 +44,7 @@ O planejamento técnico eficiente é a base para obter uma ótima experiência d
 
 1.  [Verificar a prontidão do seu ambiente para o Teams](environment-readiness.md)
 2.  [Preparar sua rede para o Microsoft Teams](prepare-network.md)
-3.  [URLs do Office 365 e intervalos de endereços IP](office-365-urls-ip-address-ranges.md)
+3.  [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)
 4.  [Acesso de convidados no Teams](guest-access.md)
 
 Além disso, determinadas organizações podem querer analisar a [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).

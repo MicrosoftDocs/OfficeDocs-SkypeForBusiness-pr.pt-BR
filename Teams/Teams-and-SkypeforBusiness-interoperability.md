@@ -2,7 +2,7 @@
 title: Interoperabilidade entre o Microsoft Teams e o Skype for Business
 author: arachmanGitHub
 ms.author: MyAdvisor
-manager: lolaj
+manager: serdars
 ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
@@ -10,11 +10,11 @@ description: "Entenda a interoperabilidade entre o Microsoft Teams e o Skype for
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08954783a3e0aaf8ae6b54c621ea21c67df6208e
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ca1391aed7279bfb45adeca159b2a3aed6bcee30
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="microsoft-teams-and-skype-for-business-interoperability"></a>Interoperabilidade entre o Microsoft Teams e o Skype for Business
 =======================================================
@@ -47,9 +47,9 @@ Conforme as organizações iniciam a jornada de migração do Skype for Business
 Para garantir a continuidade da produtividade, o Microsoft Teams permite que os usuários se comuniquem entre si independentemente do aplicativo que usam (Microsoft Teams ou Skype for Business).
 
 As experiências de interoperabilidade com suporte incluem:
-- Os usuários do Skype for Business que não usam o Microsoft Teams podem bater papo com os usuários do Microsoft Teams e vice-versa<p>
+- Os usuários do Skype for Business que não usam o Microsoft Teams podem conversar com usuários do Microsoft Teams e vice-versa<p>
 ![Experiência de interoperabilidade de chat no Microsoft Teams](media/Interop_chat_experience_from_Teams.png)<br>
-- Os usuários do Skype for Business podem fazer chamadas para usuários do Microsoft Teams com voz e vídeo e vice-versa. As opções avançadas de chamadas, como a transferência e o encaminhamento de chamadas, continuarão funcionando, mesmo para chamadas de interoperabilidade.<p>
+- Os usuários do Skype for Business podem fazer chamadas de voz para usuários do Microsoft Teams e vídeo e vice-versa. As opções avançadas de chamadas, como a transferência e o encaminhamento de chamadas, continuarão funcionando, mesmo para chamadas de interoperabilidade.<p>
 ![Experiência de interoperabilidade de chamadas no Microsoft Teams](media/Interop_calling_experience_from_Teams.png)<br>
 
 > [!NOTE]

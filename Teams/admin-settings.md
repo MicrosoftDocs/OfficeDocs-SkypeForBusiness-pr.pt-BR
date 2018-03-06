@@ -2,20 +2,22 @@
 title: "Configurações de administração para aplicativos no Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: Saiba como permitir e habilitar aplicativos no Microsoft Teams, incluindo o carregamento lateral de aplicativos externos.
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cdca98cca13ffb49575b808a5cfa82f784d1752
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: 0fb8d7680338ebda68624a765068d4c386ea46b3
+ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
@@ -26,6 +28,12 @@ Os aplicativos consistem em guias, conectores, bots ou qualquer combinação dos
 > Para gerenciar as configurações de administração de aplicativos no Microsoft Teams, vá para o Centro de administração do Office 365 e abra **Configurações** > **Serviços e complementos** e escolha **Microsoft Teams**. Se você tiver entrado como administrador do Office 365, este link deverá direcioná-lo corretamente:
 > 
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+
+Para saber mais sobre as configurações do administrador de aplicativos, veja este vídeo: 
+ 
+|  |  |
+|---------|---------|
+| Gerenciando a experiência de aplicativos no Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
 
 ## <a name="allow-external-apps-in-teams"></a>Permitir aplicativos externos no Teams
 

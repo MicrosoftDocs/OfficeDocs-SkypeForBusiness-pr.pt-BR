@@ -2,20 +2,22 @@
 title: "Ativar os recursos do Microsoft Teams na sua organização do Office 365"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/29/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: "Conheça todos os recursos do Microsoft Teams que você pode ativar ou desativar na sua organização do Office 365, incluindo configurações de todo o locatário, integração de email, aplicativos, armazenamento em nuvem e muito mais."
+ms.custom:
+- NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d91d166651cce5adf0ff07a19b29b90047e98e0
-ms.sourcegitcommit: 4b69ae91de3f82912eda3513cec65ae12e1ce2b2
+ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
+ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2018
+ms.lasthandoff: 02/19/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Ativar os recursos do Microsoft Teams na sua organização do Office 365
 ======================================================
@@ -119,7 +121,7 @@ O número máximo de equipes que um locatário do Office 365 pode ter atualmente
 
 Como administrador, você pode gerenciar proprietários e membros da equipe usando o painel de Grupos no Centro de administração do Office 365. Para saber mais, clique em **Use the Groups dashboard in the Office 365 admin center to manage teams** (Usar o painel Grupos no Centro de administração do Office 365 para gerenciar equipes) em **Equipes e canais**.
 
-Você pode controlar quais usuários da organização podem criar equipes no Microsoft Teams. As configurações de criação definidas pelos grupos do Office 365 se aplicam ao Microsoft Teams. Para obter mais informações sobre o gerenciamento de grupos do Office 365, veja [Criar grupos no Office 365](https://support.office.com/en-us/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) e [Controlar quem pode criar Grupos no Office 365](https://support.office.com/en-us/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Você pode controlar quais usuários da organização podem criar equipes no Microsoft Teams. As configurações de criação definidas pelos grupos do Office 365 se aplicam ao Microsoft Teams. Para obter mais informações sobre o gerenciamento de grupos do Office 365, veja [Criar grupos no Office 365](https://support.office.com/article/Create-Office-365-groups-74a1ef8b-3844-4d08-9980-9f8f7a36000f) e [Controlar quem pode criar Grupos no Office 365](https://support.office.com/article/Control-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 > [!NOTE]
 > Não é possível criar equipes a partir do painel de Grupos. As equipes devem ser criadas usando o cliente de desktop ou o aplicativo Web do Microsoft Teams.

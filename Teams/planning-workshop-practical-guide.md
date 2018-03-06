@@ -2,7 +2,7 @@
 title: "Ferramentas e workshops — Planejamento, implantação e operação do Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 01/24/2018
 ms.topic: article
 ms.service: msteams
@@ -11,24 +11,24 @@ description: "Ferramentas de planejamento, workshops e kits de introdução para
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf4b7dad507ee10743df986ca6c489af2bf165b3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ecb8c4f893f3bbced59331349e432883d0cb7953
+ms.sourcegitcommit: 9094c87dec3f8d7d05c7e879d357a6ed428d7cdf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 02/23/2018
 ---
 <a name="tools-and-workshops-plan-deliver-and-operate-microsoft-teams"></a>Ferramentas e workshops: Planejamento, implantação e operação do Microsoft Teams
 =============================================================
 
 Baixe estas ferramentas para usar durante o planejamento, a implantação e a operação do Microsoft Teams em sua organização.
 
-- [Kit de introdução do Microsoft Teams](http://microsoft.com/download/56505) 
+- [Kit de introdução do Microsoft Teams](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) 
     
-    Neste guia, você encontra dicas para aproveitar o Microsoft Teams ao máximo nos vários departamentos de sua organização, como Marketing, Vendas, Finanças, Recursos Humanos, Tecnologia da Informação, Engenharia e Gerenciamento de Projetos.
+    Este kit contém diversas apresentações, modelos de email, dicas e truques, além de pôsteres que você pode usar para distribuir o Microsoft Teams em sua organização. Ele inclui dois guias de início rápido, um para administradores de TI e outro para os líderes de equipe. Use estes recursos para aproveitar o Microsoft Teams ao máximo nos vários departamentos de sua organização, como Marketing, Vendas, Finanças, Recursos Humanos, Tecnologia da Informação, Engenharia e Gerenciamento de Projetos.
 
 
 
-- [Guia de Início Rápido: Habilitar o Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+- [Guia de início rápido para administradores](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
     
     Este documento o orienta, nas cinco fases de implementação, como habilitar o Microsoft Teams com êxito. Ele inclui um questionário sobre o planejamento técnico que coleta informações sobre o ambiente atual do Office 365 de sua organização. Com essas informações, o líder do workshop pode personalizar a apresentação do workshop. O questionário também coleta suas decisões e os próximos passos depois do workshop.
 
