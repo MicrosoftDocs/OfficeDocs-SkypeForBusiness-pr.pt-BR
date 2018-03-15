@@ -13,11 +13,11 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad7af6222430f3cd3109ca76ce919a3342b959c8
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Ativar os recursos do Microsoft Teams na sua organização do Office 365
 ======================================================
@@ -142,7 +142,7 @@ O número máximo de pessoas em uma reunião é 80. Pode haver 20 membros em um 
 
 -   **Allow scheduling for private meetings** (Permitir agendamento de reuniões privadas): quando ativado, os usuários podem agendar reuniões privadas que não estão listadas em nenhum canal.
 
--   **Allow ad-hoc channel meetup** (Permitir meetup de canais ad-hoc)
+-   **Permitir meetup de canais ad-hoc**: quando habilitado, os usuários podem iniciar rapidamente uma reunião para um canal que tenha sido criado para um objetivo imediato ou específico.
 
 -   **Allow scheduling for channel meetings** (Permitir agendamento de reuniões de canais): quando ativado, os usuários podem agendar uma reunião para o canal em que todos os membros do canal podem ingressar sem dificuldades com um só clique.
 

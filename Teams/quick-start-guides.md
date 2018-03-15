@@ -12,18 +12,18 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - NewAdminCenter_Update
-ms.openlocfilehash: 3e0cc06fbd0e97446371508270d02d02b1daa727
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: ad8a9324b2b3ca8c4a832cfd65308a2ed743e867
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="quick-start-guides-for-microsoft-teams-admins"></a>Guias de início rápido para administradores do Microsoft Teams
 =====================================
 
 Use estes guias de início rápido para colocar sua organização em plena atividade no Microsoft Teams. 
 
-[Início rápido: Habilitar o Microsoft Teams](quick-start-enable-Teams.md)
+[Guia de início rápido para administradores](quick-start-enable-Teams.md)
 
 [Configurando Planos de Chamadas](configuring-teams-calling-quickstartguide.md)
 

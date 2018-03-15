@@ -9,32 +9,36 @@ ms.service: msteams
 description: "Saiba como criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams através da identificação das principais partes envolvidas, resultados comerciais, medições de sucesso e gerenciamento da sua campanha."
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8b09f9799de676e3af389448a9f851ef558a7b
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 73fa7f0decc5080166e85049bb7619b9b3c29ad5
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================
 
-Uma estratégia de gerenciamento de mudanças para a conscientização dos usuários finais e a adoção de novas tecnologias é fundamental para a distribuição bem-sucedida de qualquer nova tecnologia em uma organização. A conclusão de sucesso dessa fase da implantação assegurará a adoção e a satisfação dos usuários da nova experiência.
+Uma estratégia de gerenciamento de mudanças para a conscientização dos usuários finais e a adoção de novas tecnologias é fundamental para a distribuição bem-sucedida de qualquer nova tecnologia em uma organização. A conclusão com êxito desse esforço assegurará a adoção e a satisfação dos usuários da nova experiência.  As etapas identificadas abaixo podem ser alteradas, dependendo do tamanho da empresa. No entanto, é primordial assegurar uma comunicação contínua com os participantes, defensores, administradores de TI e usuários para implementar uma mudança bem-sucedida.  
 
-Identificamos as boas práticas fundamentais dessa área:
+Boas práticas de gerenciamento de mudanças para os Teams:
 
-1.  Identificar as principais partes envolvidas e os públicos de usuários
+1.  Identifique os principais participantes, defensores e perfis de usuários
 
-2.  Identificar e selecionar seus resultados comerciais
+2.  Identifique e selecione os cenários comerciais
 
-3.  Projetar, lançar e gerenciar a adoção da sua campanha, incluindo:
+3.  Realize um piloto que inclua usuários comerciais, defensores e profissionais de TI.  
 
-    a.  Materiais de conscientização interna, como pôsteres, sinalização digital e eventos
+4.  Projete, lance e gerencie a campanha de adoção. Baixe o nosso [Kit de Sucesso do Cliente](https://aka.ms/TeamsSuccessKit) para começar. Uma boa campanha de adoção, inclui:
 
-    b.  Incorporar informações de autoajuda e treinamentos em um só local
+    a.  Materiais de conscientização interna, como pôsteres, painéis digitais e eventos.
 
-    c.  Selecionar medições de sucesso
+    b.  Informações de autoajuda e treinamentos em um só local
+    
+    c.  Um mecanismo de comentário definido
 
-4.  Construir um programa de defensores
+    d.  Medidas predefinidas de sucesso (adoção de solução, visualização dos principais materiais, presença em cursos)
+
+4.  Crie um programa de defensores em conjunto com a implantação do serviço
 
 5.  Oferecer um método de feedback padrão
 
@@ -42,10 +46,10 @@ Identificamos as boas práticas fundamentais dessa área:
 
 7.  Ajustar suas mensagens e métodos baseados em feedback, repetir.
 
-<a name="identify-key-stakeholders-users-and-champions"></a>Identificar as principais partes envolvidas, os usuários e os defensores
+<a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifique os principais participantes, defensores e perfis de usuários
 -----------------------------------------------
 
-A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica composta pelas principais partes envolvidas e as pessoas certas que podem conduzir e efetuar mudanças em outras. Uma estratégia de adoção bem-sucedida começa com uma equipe de indivíduos comprometidos que representam uma seção transversal da sua organização. As funções das principais partes envolvidas incluem um patrocinador executivo, proprietários de serviços, profissionais de TI e defensores.
+A primeira regra de uma adoção bem-sucedida é criar uma equipe dinâmica composta pelos principais participantes e pessoas certas capazes de motivar e produzir mudanças em outras. Uma estratégia de adoção bem-sucedida começa com uma equipe de indivíduos comprometidos que representam uma seção transversal da sua organização. As funções dos participantes incluem um patrocinador executivo, proprietários de serviços, profissionais de TI e defensores.
 
 |  |  |
 |---------|---------|
@@ -77,22 +81,22 @@ Identificar os indivíduos que podem se tornar seus defensores de colaboração 
 
 Para saber como construir um programa de defensores, obtenha o [Programa de construção de defensores](https://go.microsoft.com/fwlink/?linkid=854665).
 
-<a name="identify-and-select-your-business-outcomes-and-success-measures"></a>Identificar e selecionar seus resultados comerciais e medições de sucesso
+<a name="identify-and-select-your-business-scenarios"></a>Identifique e selecione os cenários comerciais
 ---------------------------------------------------------------
 
-Após identificar as principais partes envolvidas e segmentos de usuários, será muito mais fácil identificar seus resultados comerciais. Seguem alguns exemplos de resultados comerciais:
+Após identificar os principais participantes e segmentos de usuários, será muito mais fácil identificar seus cenários comerciais. Seguem alguns exemplos de resultados comerciais:
 
--   Capacitar seus funcionários
+-   Simplifique o processo de venda
 
--   Transformar seus produtos
+-   Acelere a solução dos problemas dos clientes
 
--   Envolver seus clientes
+-   Aumente a participação do funcionário
 
--   Otimizar as operações
+-   Diminua os ciclos de desenvolvimento de produto
 
-O pessoal de vendas está com problemas para se coordenar para proporcionar uma experiência excelente? Você precisa ter uma coordenação melhor da entrega do seu produto ou serviço? E as experiências relacionadas com o RH para os seus próprios funcionários? Cada organização encontrará suas próprias prioridades. Recomendamos selecionar não mais do que três para abordar nos seus pilotos iniciais
+O pessoal de vendas está com problemas de se coordenar para proporcionar uma excelente experiência? Você precisa ter uma coordenação melhor da entrega do seu produto ou serviço? E as experiências relacionadas com o Recursos Humanos (RH) para os seus próprios funcionários? Cada organização encontrará suas próprias prioridades. Recomendamos selecionar não mais do que três problemas para serem abordados nos seus pilotos iniciais e incluir usuários e profissionais comerciais destas organizações específicas. 
 
-É também aconselhável considerar os usuários que estão incorporados nesses cenários? Eles estão abertos a mudanças? Eles são usuários externos ou que trabalham nas suas instalações? Qual a proximidade deles com os patrocinadores executivos e defensores que lhes darão suporte? Eles têm alguma comunidade e métodos de comunicação existentes que você pode usar para zelar essa mudança?
+Também é aconselhável considerar os usuários que estão incorporados nesses cenários. Eles estão abertos a mudanças? Eles são usuários externos ou que trabalham nas suas instalações? Qual a proximidade deles com os patrocinadores executivos e defensores que lhes darão suporte? Eles têm alguma comunidade e métodos de comunicação existentes que você pode usar para zelar essa mudança?  
 
 Os projetos de tecnologia se tornam um desafio quando pouca ou nenhuma atenção é dada às necessidades humanas de gerenciamento de mudanças. Ao seguir essas recomendações, você aumentará suas chances de sucesso!
 
@@ -109,9 +113,9 @@ Para as suas fases pilotos, estes são as etapas mais básicas de sucesso:
 
 -   Conduzir reuniões agendadas regulares com as partes envolvidas do seu projeto para tratar das atualizações.
 
--   Fazer uso de um método de feedback para coletar informações das pessoas que estão participando do piloto. As empresas podem usar um canal público dentro do Microsoft Teams para permitir que os usuários entrem e deem feedback.
+-   Escolha um método de feedback para coletar informações das pessoas que estão participando do piloto. As empresas menores podem usar um canal público dentro do Teams para permitir que os usuários entrem e deem feedback. Em empresas maiores, sugerimos a criação de uma comunidade Yammer para oferecer suporte ao produto.  
 
--   Faça a documentação de autoajuda disponível, incluindo os vídeos de produtos.
+-   Disponibilize a documentação de autoajuda, incluindo vídeos dos produtos.
 
 -   Faça uma reunião inicial com os usuários do piloto para que eles se animem por estar participando. Criar um sentimento de comunidade com entusiasmo não pode ser subestimado.
 
@@ -130,3 +134,21 @@ Assim como acontece em qualquer campanha de comunicação e adoção, você dese
 -   Número de visualizações dos seus vídeos de treinamento
 
 -   Presença nos eventos de aprendizagem
+
+<a name="measure-and-share-success"></a>Mensure e compartilhe o sucesso
+-------------------------------------------------
+
+A equipe do projeto deve incluir administradores de TI da sua empresa. Essas pessoas terão acesso aos relatórios de uso do Office 365 Microsoft Teams que estão incorporados na experiência do portal de administração do Office 365. Esta informação pode mostrar o uso do Microsoft Teams em sua empresa. Recomendamos também que você obtenha feedback diretamente dos usuários sobre sua experiência com o Teams e outras ideias que eles têm para uso. Compartilhar exemplos reais de sua própria empresa é muito importante para viabilizar uma mudança contínua ao longo do tempo na comunidade de usuários.  
+
+Saiba mais sobre os relatórios de uso do Microsoft Teams no portal de Administração do Office 365[aqui](https://support.office.com/en-us/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+
+> [!TIP]
+> Use a equipe pública ou a comunidade Yammer para reunir informações de uso. Compartilhe-as usando a hashtag #TeamStories para uma fácil localização.  Compartilhe uma #TeamsStory por mês na intranet para destacar funcionários que estão abraçando a mudança para aumentar a produtividade e colaboração no seu ambiente.  
+
+## <a name="ongoing-adoption"></a>Adoção contínua
+
+Impulsionar a mudança em uma empresa é uma atividade contínua, não é um evento. A reunião inicial é só o começo da capacitação das pessoas para elas colaborarem de maneira mais efetiva. Nesta jornada, é importante planejar momentos que destaquem sucessos, apresentem novos recursos e se conectem com a estratégia de serviço geral do Office 365, que será elaborada pelo departamento de TI. Assegurar-se de que os usuários estão envolvidos, em vez de sobrecarregados, reduzirá o cansaço provocado pelas mudanças e os auxiliará a abandonar os velhos hábitos, como anexos de e-mails, para abraçar algo novo, como armazenar documentos na nuvem.
+
+Compartilhe as dúvidas sobre a adoção do serviço do Teams e do Office 365 na [Comunidade para impulso da adoção](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption) no site da Comunidade Técnica da Microsoft. É sempre bom ouvir a sua opinião e ajudá-lo na jornada de adoção.  
+
+

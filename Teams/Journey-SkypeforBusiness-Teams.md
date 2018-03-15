@@ -3,7 +3,7 @@ title: "Jornada de migração do Skype for Business para o Microsoft Teams"
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2017
+ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, dearbeen
@@ -11,11 +11,11 @@ description: "Orientações sobre tudo o que você precisa saber para fazer a mi
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81e016fd16e4f651515cdb56a18662e538dc4038
-ms.sourcegitcommit: 4f72e9fd65a2f759752fde5169d1152d0f5ce39c
+ms.openlocfilehash: feb21b64982940571192453f012feab2542c3bf9
+ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 03/05/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Jornada de migração do Skype for Business para o Microsoft Teams
 ==================================================
@@ -44,9 +44,9 @@ Para melhores resultados, recomendamos que você siga estas orientações obedec
 
 [Perguntas frequentes - visão do Skype for Business e do Teams](FAQ-journey.md)
 
-[Skype for Business para o Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
+[Skype for Business para o Microsoft Teams: Guia de Recursos](https://aka.ms/skype2teamsroadmap)
 
-[Skype for Business to Microsoft Teams: Capabilities Roadmap](https://aka.ms/skype2teamsroadmap)
+[Skype for Business para o Microsoft Teams: Guia de Recursos](https://aka.ms/skype2teamsroadmap)
 
 
 

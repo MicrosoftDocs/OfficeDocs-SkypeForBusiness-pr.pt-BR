@@ -10,11 +10,11 @@ description: "Conheça as práticas recomendadas para organizar as equipes no Mi
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2ac7f3402444414fe44235f6537cb04fecbb0e2
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 5e05640b58bb6d8924a1839cd9cd19d5a01b706c
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Boas práticas para organizar equipes no Microsoft Teams
 ======================================================
@@ -22,10 +22,14 @@ ms.lasthandoff: 02/19/2018
 > [!TIP]
 > Você conhece uma prática recomendada ou tem uma dica de uso do Microsoft Teams? Compartilhe-a conosco na seção **Comentários** no final deste artigo.
 
-Antes de criar uma equipe, é recomendável pensar em uma meta, um projeto ou um item de trabalho, além das pessoas ou dos grupos na organização que podem ajudar em sua realização colaborativa. Depois de criar a equipe, adicione essas pessoas ou grupos a ela para dar início à colaboração. É conveniente designar mais de um proprietário para cada equipe. Veja [*Gerenciamento de equipes*](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Antes de criar uma equipe, é recomendável pensar em uma meta, um projeto ou um item de trabalho, além das pessoas ou dos grupos na organização que podem ajudar em sua realização colaborativa. Depois de criar a equipe, adicione essas pessoas ou grupos a ela para dar início à colaboração. É conveniente designar diversos proprietários para cada equipe. Veja [ Gerenciamento de equipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-Você pode começar com poucos membros na equipe e fazer um brainstorm à medida em que você e, em seguida, pode adicionar novas pessoas/grupos. A grande vantagem do Microsoft Teams é que, quando você adiciona novas pessoas/grupos, eles podem começar a acompanhar rapidamente o que já foi discutido, já que as conversas e os arquivos ficam disponíveis para os usuários independentemente do momento em que se entram. Tente evitar criar equipes diferentes que tenham o mesma composição de membros, pois essa abordagem pode não proporcionar o foco desejado para a entrega do projeto ou da meta. O Outlook é uma ótima ferramenta para compartilhar esses tipos de comunicação em grupo.
+Você pode começar com poucos membros na equipe e fazer um brainstorm à medida em que você progride e, em seguida, pode adicionar novas pessoas ou grupos ao longo da implantação. A grande vantagem do Microsoft Teams é que, quando você adiciona novas pessoas ou grupos, eles podem começar a acompanhar rapidamente o que já foi discutido, já que as conversas e os arquivos ficam disponíveis para os usuários independentemente do momento em que se entram. Tente evitar criar equipes diferentes que tenham o mesma composição de membros, pois essa abordagem pode não proporcionar o foco desejado para a entrega do projeto ou da meta. O Outlook é uma ótima ferramenta para compartilhar esses tipos de comunicação em grupo.
 
 Depois de criar a sua equipe, é uma boa ideia começar a pensar sobre os diferentes tópicos de conversa que você deseja direcionar rumo à sua meta e criar canais iniciais para que as pessoas saibam onde contribuir e onde encontrar as conversas existentes. Seja descritivo ao nomear canais para facilitar a compreensão do que obter da conversa do canal que ali está. Você pode adicionar novas guias aos canais e acrescentar ferramentas como o OneNote, o PowerBI ou links para páginas da web e outros conteúdos, de modo que fique fácil para as pessoas encontrarem conteúdos e compartilharem suas ideias.
 
 O **canal Geral** é criado para você quando você cria a equipe. Você pode utilizá-lo para compartilhar as linhas gerais do que sua equipe deseja atingir e outras informações de alto nível que um novo membro da equipe consideraria útil. No momento, não é possível excluir ou remover o canal Geral dos favoritos. O canal Geral é um ótimo lugar para colocar os termos de um projeto ou uma decoração de boas vindas ao seu projeto. Isso garante que, conforme novas pessoas entrarem para a sua equipe, elas terão uma única fonte de verdade para os seus objetivos. Ao nomear canais, lembre-se de que os canais serão ordenados por ordem alfabética após o canal Geral.
+
+Assista a este vídeo com orientações simples que devem ser consideradas quando estiver planejando seus canais e guias de equipe no Microsoft Teams. 
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>

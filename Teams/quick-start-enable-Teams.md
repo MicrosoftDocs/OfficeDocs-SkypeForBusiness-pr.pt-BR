@@ -11,11 +11,11 @@ description: "Use este guia para ajudar no planejamento, na implementação e na
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94d5150ff929afbdc188924fe1c79b2ee0287365
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
+ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/01/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Início rápido - Guia de Planejamento do Microsoft Teams
 ==========================================================
@@ -27,9 +27,11 @@ Use este guia para ajudar no planejamento, na implementação e na adoção do M
 
 ## <a name="step-1-get-your-people-together"></a>Etapa 1: Reúna o seu pessoal
 
-Reúna um grupo de pessoas das suas comunidades de negócios, de TI e de usuários para atuar como grupo de partes envolvidas e tomada de decisões da implantação do Microsoft Teams. Em organizações menores, ele pode ter apenas duas ou três pessoas. Não deixe de incluir elementos das três comunidades para garantir o êxito do processo.  
+Reúna um grupo de pessoas das suas comunidades de negócios, de TI e de usuários para atuar como grupo de participantes e tomada de decisões da implantação do Microsoft Teams. Em organizações menores, ele pode ter apenas duas ou três pessoas. Não deixe de incluir elementos das três comunidades para garantir o êxito do processo.  
 
-## <a name="step-2--prioritize-your-business-scenarios"></a>Etapa 2:  Priorize seus cenários de negócios
+Cada grupo contribuirá com habilidades importantes, embora exista uma transição entre essas generalizações. Os profissionais de TI, geralmente, irão focar na integridade, segurança e viabilidade da experiência garantindo que haja uma coesão ponta a ponta passando por todos os serviços Office 365. Os usuários comerciais trarão casos práticos e necessidades comerciais que fornecem casos de teste valiosos. Ambas as perspectivas são necessárias para um teste bem-sucedido e um plano de implantação amplo.    
+
+## <a name="step-2-prioritize-your-business-scenarios"></a>Etapa 2:  Priorize seus cenários comerciais
 
 A colaboração e a comunicação envolvem pessoas! Escolha os cenários de negócios mais relevantes para a sua organização em vez de falar em recursos e funções. Confira na [Biblioteca de produtividade FastTrack do Microsoft 365](https://fasttrack.microsoft.com/microsoft365/productivitylibrary) exemplos que podem ajudar a definir cenários para a sua empresa. Muitas vezes, as implantações bem-sucedidas do Microsoft Teams são centralizadas em equipes velozes que trabalham em conjunto, como de desenvolvimento de produtos, equipes de eventos de marketing, grupos do setor financeiro ou organizações de suporte. Escolha um desses cenários e faça um rápido inventário de como esses usuários trabalham hoje. Assim, você poderá projetar a experiência do Microsoft Teams de modo eficiente e significativo para as pessoas.
 
@@ -38,19 +40,25 @@ A colaboração e a comunicação envolvem pessoas! Escolha os cenários de neg�
 
 ![Captura de tela de uma equipe de exemplo chamada Microsoft 365 Deployment.](media/quick-start-enable-Teams-Microsoft365-Deployment-Team.png)
 
+Assista a este vídeo com orientações simples que devem ser consideradas quando estiver planejando seus canais e guias de equipe no Microsoft Teams. 
+
+<iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
+
+Caso o Microsoft Teams não esteja habilitado no seu locatário do Office 365 e você seja um administrador do Office 365, siga as instruções do nosso artigo [Configurar o Microsoft Teams no Office 365 da sua empresa](office-365-set-up.md) para garantir que os usuários tenham acesso ao aplicativo.
+
 ## <a name="step-3-complete-technical-planning"></a>Etapa 3: Faça o planejamento técnico
 
-O planejamento técnico eficiente é a base para obter uma ótima experiência do usuário. Se a sua organização tem mais de 50 lugares e participa de um [plano de qualificação](https://technet.microsoft.com/library/dn783224.aspx), você pode usar os [benefícios do FastTrack](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), disponíveis sem qualquer custo adicional, para direcioná-lo durante o planejamento, a implantação e a adoção do serviço. Ou você mesmo pode cumprir essa tarefa usando os Assistentes de Integração do FastTrack, disponíveis no [FastTrack](https://fasttrack.microsoft.com/) assim que você entrar com sua conta do Office 365. As informações a seguir ajudarão a concluir esta etapa para o Microsoft Teams. Você deve pelo menos examinar estes quatro artigos:
+O planejamento técnico eficiente é a base para obter uma ótima experiência do usuário. Se a sua organização tem mais de 50 estações e participa de um [plano de qualificação](https://technet.microsoft.com/library/dn783224.aspx), você pode usar [os benefícios do FastTrack](https://technet.microsoft.com/library/dn783224.aspx?f=255&MSPPError=-2147217396), disponíveis sem qualquer custo adicional, para direcioná-lo durante o planejamento, a implantação e a adoção do serviço. Ou você mesmo pode cumprir essa tarefa usando os Assistentes de Integração do FastTrack, disponíveis no [FastTrack](https://fasttrack.microsoft.com/) assim que você entrar com sua conta do Office 365. As informações a seguir ajudarão a concluir esta etapa para o Microsoft Teams. Você deve pelo menos examinar estes quatro artigos:
 
 1.  [Verificar a prontidão do seu ambiente para o Teams](environment-readiness.md)
 2.  [Preparar sua rede para o Microsoft Teams](prepare-network.md)
-3.  [URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)
+3.  [URLs do Office 365 e intervalos de endereços IP](office-365-urls-ip-address-ranges.md)
 4.  [Acesso de convidados no Teams](guest-access.md)
 
-Além disso, determinadas organizações podem querer analisar a [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).
+Além disso, algumas empresas podem querer analisar a [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).
 
 
-## <a name="step-4-conduct-pilots-and-deploy-teams"></a>Etapa 4: Realizar pilotos e implantar o Microsoft Teams
+## <a name="step-4-conduct-pilots-and-deploy-teams"></a>Etapa 4: Realize pilotos e implante o Microsoft Teams
 
 Na maioria das organizações, você deve realizar um piloto inicial do Microsoft Teams com as partes envolvidas, defensores e adotantes iniciais para um ou mais dos cenários escolhidos acima. O piloto fornece informações valiosas sobre como o Office 365 e o Microsoft Teams são recebidos em sua organização. Para começar, escolha um grupo de usuários interessados e um cenário de negócios prioritário. A Figura 2 mostra alguns cenários de exemplo.
 
@@ -84,6 +92,6 @@ A implantação do software não é o único elemento necessário para promover 
 
 
 ## <a name="next-steps"></a>Próximos passos
-1. Acesse o [Kit de workshops: planejamento, fornecimento e operação do Microsoft Teams](planning-workshop-practical-guide.md)
+1. Vá para [Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams](planning-workshop-practical-guide.md)
 2. Baixe e preencha o questionário de planejamento técnico que se encontra no [Guia de Início Rápido: habilitar o Microsoft Teams](http://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
 3. Baixe o workshop para fazer o lançamento do Microsoft Teams em sua organização: [Planejar, fornecer e operar o Microsoft Teams](http://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
