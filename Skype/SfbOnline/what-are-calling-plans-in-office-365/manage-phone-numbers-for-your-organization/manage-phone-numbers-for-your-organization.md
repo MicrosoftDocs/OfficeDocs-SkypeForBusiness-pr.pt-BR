@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -22,38 +24,27 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Cada país ou região tem instruções diferentes para obter números de telefone para usuários do Skype for Business Online e do Microsoft Teams. Siga o link abaixo correspondente ao seu país ou região para obter as informações necessárias."
-ms.openlocfilehash: f72c8f5eecda222256c500b577859fe916a4487e
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.openlocfilehash: 600d1370d0823c0cf5efab0c75ce0f26d6867828
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
+Há três maneiras de obter o usuário e serviço (tarifas e gratuitos) números para sua organização.
+- Obtenha números no Skype para centro de administração de negócios.
+- Use um formulário de solicitação para novos números que não estão listados no Skype para centro de administração de negócios.
+- Transferir ou "números de porta" suas existentes via para nós.
 
-Cada país ou região tem instruções diferentes para obter números de telefone para usuários do Skype for Business Online e do Microsoft Teams. Siga o link abaixo correspondente ao seu país ou região para obter as informações necessárias.
-  
-> [!NOTE]
-> Para ver se os Planos de Chamadas estão disponíveis em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por países e regiões](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-  
-Para ajudar a escolher o tipo de número de telefone de que você precisa, leia [Diferentes tipos de números de telefone usados para Planos de Chamadas](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md).
-  
-Para saber mais sobre números de telefone, leia [Obtendo números de telefone para seus usuários](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
-  
-Se precisar de ajuda com a configuração dos números de telefone para sua organização, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
-  
-## <a name="service-numbers"></a>Números de serviço
+> [!IMPORTANT]
+> Na **Bélgica, na Irlanda, Alemanha e Holanda**, você não é possível obter números de telefone novo telefone usando o **Skype para centro de administração de negócios**; Você precisa fazer o download e preencher um formulário.
 
-Para números de serviço, se o país ou a região estiver listado, mas não houver números de serviço disponíveis no **Centro de administração do Skype for Business**, nos envie uma solicitação de novo número de telefone.
-  
-- Para números de serviço nos Estados Unidos, [baixe](http://download.microsoft.com/download/6/A/7/6A7CFADC-30FD-4033-BCD6-1E027DAD2336/New Phone Number Request for the U.S. %28Service numbers%29 (v.1) (en.US).pdf) e preencha o formulário. Depois, [envie-o para nós](mailto:ptn@microsoft.com).
-    
-- Para números de serviço fora dos Estados Unidos, [baixe](http://download.microsoft.com/download/6/A/7/6A7CFADC-30FD-4033-BCD6-1E027DAD2336/New Phone Number Request for all countries except the U.S. %28Service numbers%29 (v.1) (en.US).pdf) e preencha o formulário. Depois, [envie-o para nós](mailto:ptneu@microsoft.com).
-    
-## <a name="user-numbers"></a>Números de usuário
-Para números de usuário ("assinante"), se quiser saber como obter números que não estão disponíveis no **Centro de administração do Skype for Business** ou se estiver fazendo a portabilidade de números para o Office 365, veja os formulários a seguir. 
+***
+Se você souber que tipo de formulários que você estiver procurando por usar a operação de soltar para baixo para selecionar o país/região onde você está recebendo números.
 
-### <a name="select-your-country-or-region-to-see-whats-available-for-you"></a>Selecione seu país ou sua região para ver o que temos disponível para você!
+**Selecione seu país ou região para localizar os formulários para download, que você precisa**
 > [!div class="op_single_selector"] 
+> - [Austrália](phone-number-management-for-australia.md)
 > - [Bélgica](phone-number-management-for-belgium.md)
 > - [Canadá](phone-number-management-for-canada.md)
 > - [França](phone-number-management-for-france.md)
@@ -64,13 +55,36 @@ Para números de usuário ("assinante"), se quiser saber como obter números que
 > - [Reino Unido](phone-number-management-for-the-u-k.md)
 > - [EUA (Porto Rico)](phone-number-management-for-the-u-s.md)
 
-> [!NOTE]
-> Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+***
+## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Aqui está um pouco mais informações sobre esses números formulários de solicitação
+### <a name="request-forms-for-new-phone-numbers"></a>Formulários de solicitação para novos números de telefone
+Cada país ou região tem diferentes de instruções, tipos diferentes de números (geográfica/não-geográfica (tarifas/toll-livre) e serviço regras/regulamentos para obtenção de números de telefone para que possam ser usadas no Skype para Business Online e Teams da Microsoft. 
+
+Às vezes (dependendo do seu país/região) não será possível obter novo usuário (assinante) ou serviço (tarifas ou gratuitos) números usando o **Skype para centro de administração de negócios**, ou talvez precisem códigos de área ou números de telefone específicos. 
+
+Nesse caso, você precisará baixar o formulário PDF correto (por país/região e o tipo de números) e enviá-la de volta para nós. Nosso atendimento levará a partir daí e permitirá que você saiba sobre o progresso ou seu pedido.
+
+### <a name="letters-of-authorization-loas-for-transferring-numbers"></a>Letras de autorização (LOAs) para a transferência de números
+Se você precisar transferir os números de telefone, você vai para baixar uma **Letra de autorização (LOA)**, que nos dá permissão para solicitar em seu nome, transferindo o número existente (s) de um provedor de serviço diferentes em caso de uma contestação. Use um LOA se você tiver:
+- Números de usuário que você já tiver a partir de outra operadora.
+- Números de serviço (Chamada Tarifada) de pontes de conferência de áudio, atendedores automáticos ou filas de chamada.
+- Números de telefone (gratuito) do serviço.
+- Você tem mais do que 999 números de telefone do usuário que você precisa obter, mas não consigo entrar o Skype para centro de administração de negócios usando o uso do **Assistente portar de número Local**.
+
+## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a>Se você ainda precisa de Ajuda e não tiver certeza sobre o que fazer …
+Se você ainda precisar de Ajuda, informe-nos como podemos ajudá-lo. Na sua solicitação de Ajuda, incluem detalhes como sua ID de organização, domínios, quais tipos de números, você precisa de Ajuda, quantos números que você deseja, autorizar pessoa sobre a conta e outros detalhes importantes sobre o seu problema.
+- Para obter ajuda com números de telefone dentro dos EUA, [envie sua solicitação](mailto:ptn@microsoft.com).
+- Para obter ajuda com números de telefone fora dos EUA, [envie sua solicitação](mailto:ptneu@microsoft.com).
+
+#### <a name="additional-resources"></a>Recursos adicionais:
+- Para ver se os Planos de Chamadas estão disponíveis em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por países e regiões](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Para ajudar a escolher o tipo de número de telefone de que você precisa, leia [Diferentes tipos de números de telefone usados para Planos de Chamadas](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- Para saber sobre a obtenção de números de telefone do usuário no Centro de administração, leia [Getting números de telefone para seus usuários](../../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md).
+- Para obter ajuda para configurar números de telefone para sua organização, [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+  
+
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](../../what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[Termos e condições das Chamadas de Emergência](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Termos e condições para chamadas de emergência](../../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
-
