@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da Austrália."
-ms.openlocfilehash: 7cc3be9976f0a581618cc93b835fceadab302717
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
+ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="availability-in-australia"></a>Disponibilidade em Austrália
 
@@ -47,7 +47,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |O Sistema de Telefonia está disponível para compra?  <br/> |Sim  <br/> |
-| Atendedores automáticos <br/> |Disponível  <br/> |
+|Atendedores automáticos <br/> |Disponível  <br/> |
 |Filas de chamadas  <br/> |Disponível  <br/> |
 |Caixa postal  <br/> |Disponível  <br/> |
    
@@ -57,7 +57,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [Serviços de Sprint](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [Serviços de voz Sprint](http://aka.ms/TelstraVoicePlan).  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [Sprint serviços](http://aka.ms/TelstraVoicePlan). <br/> |
 |É possível fazer chamadas de saída?  <br/> |Consulte [Sprint serviços](http://aka.ms/TelstraVoicePlan). <br/> |
 
@@ -69,7 +69,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
-Se você deseja obter Chamada Tarifada e números de telefone gratuitos de atendedores automáticos e filas de chamada, consulte [Serviços de Sprint](http://aka.ms/TelstraVoicePlan). Para conferências de áudio, [entre em contato conosco](mailto:ptnapac@microsoft.com).
+Se você deseja obter Chamada Tarifada e números de telefone gratuitos de atendedores automáticos e filas de chamada, consulte [Serviços de voz Sprint](http://aka.ms/TelstraVoicePlan). Para números de serviço de conferência de áudio, [entre em contato conosco](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
