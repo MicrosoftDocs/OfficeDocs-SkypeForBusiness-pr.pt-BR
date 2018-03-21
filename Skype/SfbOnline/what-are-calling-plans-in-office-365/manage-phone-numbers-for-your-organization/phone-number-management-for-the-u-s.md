@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para os Estados Unidos (e Porto Rico)."
 ms.openlocfilehash: 9c61a0d022ed1c92daede5444011a693d2c28354
-ms.sourcegitcommit: 46ca433590a4c3aefbe2fb777542bb0b332563bf
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="phone-number-management-for-the-us"></a>Gerenciamento de números de telefone para os EUA
 

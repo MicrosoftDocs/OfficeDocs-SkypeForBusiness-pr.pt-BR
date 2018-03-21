@@ -21,10 +21,10 @@ ms.custom:
 - Strat_SB_PSTN
 description: "Às vezes (dependendo do país/região), você não poderá obter novos números usando o Centro de administração do Skype for Business ou precisará de números de telefone ou códigos de área específicos. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Nossa Central de Serviços tomará as providências e o avisará sobre o andamento de seu pedido."
 ms.openlocfilehash: 54bcc6ca99434206bf63eeb5a65b0b6dee0f583a
-ms.sourcegitcommit: ed40dcf28ae72961fb1f23cf72985cef1d145db0
-ms.translationtype: HT
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="get-new-user-phone-numbers-request-forms"></a>Formulários de solicitação para obter números de telefone para novos usuários
 
