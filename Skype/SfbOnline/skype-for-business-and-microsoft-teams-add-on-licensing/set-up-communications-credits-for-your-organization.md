@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: b2eb4616e9f79392558d421723ee013759a455fd
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 61ee7bb2a4de8417f9e018de369c0a87649b75a1
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar comunicações créditos para sua organização
 
@@ -121,3 +123,6 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
 - [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
     
 - [Configure o conector de nuvem](https://technet.microsoft.com/en-us/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

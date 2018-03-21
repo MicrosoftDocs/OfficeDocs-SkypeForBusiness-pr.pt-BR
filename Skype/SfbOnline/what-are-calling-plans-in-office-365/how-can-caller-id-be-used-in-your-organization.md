@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "ID do chamador pode ser controlado para chamadas de entrada e saídas dos usuários de sistema telefônico usando uma política denominada CallingLineIdentity."
-ms.openlocfilehash: f87718858507405e54643575825b264c6c1cbea1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e68b9c2130f5cfc8a054e485367351eccbffc93c
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -89,4 +91,7 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 031f09c0-9d2a-487a-b6db-b5d4bed6d16a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Serviço de migração (MMS) de reunião é um Skype para serviço de negócios que é executado em segundo plano e atualiza automaticamente o Skype para reuniões de negócios e Teams da Microsoft para usuários. MMS foi projetado para eliminar a necessidade de usuários executar a ferramenta de migração de reunião para atualizar seu Skype para reuniões de negócios e Teams da Microsoft."
-ms.openlocfilehash: 0d33efb2f60a06853ba26cd6e525f624114c95a5
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 0ad7daac2a9edd8c548d97819435563a0643e74a
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Configurando o Meeting Migration Service (MMS)
 

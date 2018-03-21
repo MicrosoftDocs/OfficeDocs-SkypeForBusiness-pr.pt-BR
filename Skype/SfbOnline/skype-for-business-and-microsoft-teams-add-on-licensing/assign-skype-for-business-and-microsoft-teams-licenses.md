@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: fd41934d-f2eb-4a1b-89d8-32cb37702b33
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: "Saiba como atribuir Skype para licenças de negócios para o sistema telefônico, conferência de áudio, chamar planos e créditos de comunicações. "
-ms.openlocfilehash: a5cbc36d1b5ce5a7d79587df369b2d3bf3caacd6
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ca3b7a5abef407bb4b8ead2af060a6cfa9b7dd74
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="assign-skype-for-business-and-microsoft-teams-licenses"></a>Atribuir Skype para licenças de negócios e Teams da Microsoft
 
@@ -206,3 +208,5 @@ Dê uma olhada o script de exemplo para atribuir licenças de **Conferência de 
   
 [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
   
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

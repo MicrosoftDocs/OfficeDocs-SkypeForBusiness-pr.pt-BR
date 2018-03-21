@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Malásia."
-ms.openlocfilehash: ef4876cbc2f47fc84264938096979b9bd73ff6e3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 62cc6b543e90f8da549ea51a957b57c53d8c4700
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-malaysia"></a>Disponibilidade em Malásia
 
@@ -83,5 +83,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
 

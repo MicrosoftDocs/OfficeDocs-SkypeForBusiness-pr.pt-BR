@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "No Skype para Business Online, você tem capacidade de controlar as transferências de arquivos ponto a ponto (P2P) como parte das configurações de política de conferência existente. No entanto, isso permite ou transferências para usuários ou não eles são transferência de arquivos para um usuário que esteja na mesma organização ou para um usuário federado de outra organização de arquivo de blocos. Seguindo as etapas abaixo, você pode bloquear transferências de arquivos P2P com organizações federadas ou parceiros."
-ms.openlocfilehash: 288bec32d55d9784690d84b8daa205dd33568847
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e7b3542cfef3b4dd9b663db0aa056e52fccf021d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="block-point-to-point-file-transfers"></a>Transferências de arquivos ponto a ponto do bloco
 
@@ -125,3 +125,5 @@ Você pode aplicar isso a um usuário criando uma nova política e concedendo-lo
 
 [Configurar políticas de conferência na sua organização](set-up-conferencing-policies-for-your-organization.md)
 
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Obtenha uma visão geral rápida de como transferir números de telefone de um provedor de serviços para o Skype for Business. "
-ms.openlocfilehash: b8d23fa0a13fe577ac05808784e80ea74a560afb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6006f03b8780ba499240f2f3c816dda71d457e1c
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="port-order-overview"></a>Visão geral de pedido de portabilidade
 
@@ -47,5 +47,7 @@ Depois de fazer a portabilidade dos números de telefone para o Skype for Busine
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

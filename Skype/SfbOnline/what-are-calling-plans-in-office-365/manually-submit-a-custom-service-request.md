@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 13e2e35bb21a50d0fabcdff73dc0af5bc5628fc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 765a25f37480151033ca99aefcedfa069bf7032d
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Enviar uma solicitação de atendimento ao cliente manualmente
 
@@ -117,9 +117,10 @@ Em alguns países/regiões, você também precisará manualmente enviar uma soli
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
 
   
 

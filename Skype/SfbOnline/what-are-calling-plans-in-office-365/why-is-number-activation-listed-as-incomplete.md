@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências."
-ms.openlocfilehash: de5228e90e6d3f6d20b67e7fdba14734f10cf05b
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e8e84deb77a1cdc122c36a1031fe2efa8d3eaf67
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Por que a ativação número está listada como incompleto?
 
@@ -105,4 +105,7 @@ A validação de endereços é uma etapa importante da configuração de Planos 
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 57e03ff6c0cc9f225458335d2a090fb7d9fe4dd7
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 60f5cb8b37989cc86bafffc4e06a79d3a2c0f598
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="your-port-order-was-accepted"></a>Seu pedido de portabilidade foi aceito
 
@@ -51,4 +51,7 @@ Agora que ele for aprovado e seus números de telefone estiver prontos, você pr
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

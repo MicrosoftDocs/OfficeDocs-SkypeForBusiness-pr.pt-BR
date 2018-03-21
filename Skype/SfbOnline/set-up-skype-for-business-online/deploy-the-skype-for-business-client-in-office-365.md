@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Saiba como planejar e implantar Skype para negócios em organizações pequenas, médias e grandes e tornar disponível aos usuários. "
-ms.openlocfilehash: 5a3af14d7bf507a50ab7d007a066e3bd42d90c50
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 09600c29d2df0299f326e64f75c6b4b7e5ee5178
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implantar o Skype para o cliente de negócios no Office 365
 
@@ -153,4 +153,5 @@ Você pode controlar com que frequência você obtenha atualizações de recurso
   
 [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

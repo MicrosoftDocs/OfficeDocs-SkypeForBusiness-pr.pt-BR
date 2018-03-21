@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para chamar planos para obter informações sobre os números de telefone diferentes que são usados em Skype para negócios Online."
-ms.openlocfilehash: 7925b5b19e0ef60bd4bde2bac5c3632b0c30ef42
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 51b6276c5bc29b978b3a77b28c09529e621e8e0c
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Números de telefone de quantos você consegue?
 
@@ -56,3 +58,6 @@ Você pode ver o número de números de telefone, que você pode obter na págin
 [Termos e condições das chamadas de emergência](emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

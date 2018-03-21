@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,15 +22,15 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 59463441b6b99b8ad0e7a45c57de6b5d41ace49c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: cb5645e584bf1ccfbe3fa85e46455bfd44debfc4
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
-Dependendo do número de locais físicos em sua organização, você pode criar locais de emergência para prédios, andares e escritórios para criar um endereço de emergência mais específico. Consulte [Cite locais de emergência, endereços e roteamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obter mais informações.
+Dependendo do número de locais físicos em sua organização, você pode criar locais de emergência para prédios, andares e escritórios para criar um endereço de emergência mais específico. Consulte [Cite locais de emergência, endereços e roteamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para obter mais informações. 
   
 Para saber como obter um plano de chamada e quanto eles custam, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -84,6 +86,7 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Skype 
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-  
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

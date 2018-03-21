@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Canadá."
-ms.openlocfilehash: 19bd588ec12256512d7007b378db4c79ee4e2c20
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b5501a2eb4fa63e213c3c20b1a8769d3db954c1f
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-canada"></a>Disponibilidade no Canadá
 
@@ -84,3 +84,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

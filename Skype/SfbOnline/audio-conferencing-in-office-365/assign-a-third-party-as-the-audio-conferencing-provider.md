@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 77f68ca7-c1cf-40d9-9c23-87a6b2abe9de
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -22,11 +24,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. '
-ms.openlocfilehash: 5ae513c754764933f08370139eeb557f0fb39211
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b765e064558e9ef3a2bfaa4af2a3b6200c03f5bd
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="assign-a-third-party-as-the-audio-conferencing-provider"></a>Atribuir um terceiro como um provedor de serviços de audioconferência
 
@@ -121,5 +123,4 @@ Uma pessoa em sua organização só pode usar um provedor de serviços de audioc
 [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
   
 [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
-  
 

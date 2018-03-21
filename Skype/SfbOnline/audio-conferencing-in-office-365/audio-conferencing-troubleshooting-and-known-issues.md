@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Obtenha uma lista de problemas conhecidos ao usar o Microsoft como seu provedor de conferência discada, status e algumas soluções alternativas. "
-ms.openlocfilehash: 9e566d0ba9f07aeecca222ef586f301b1cd6cf5f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 6d10e797ef052cafc22555b26a27a1aaeae1fc76
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de conferência de áudio e problemas conhecidos
 
@@ -46,6 +48,7 @@ No momento, use isso como uma referência ao solucionar possíveis problemas com
 |Discagem externa precisa usar 5 dígitos ou mais.  <br/> |Os usuários que tentarem discar a partir de uma reunião precisam digitar em 5 ou mais dígitos, mesmo que a regra de normalização do plano de discagem está disponível para normalizar discagem curto dígitos em e. 164.  <br/> |Discar digitando o número total de DID ou o formato de número local em vez do número de ramal interno.  <br/> |25/9/2017  <br/> |
 |Discagem externa de controle não está aparecendo forma intermitente.  <br/> |Discagem externa controle pode não estar visível do painel de informações da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
 |ID de conferência estático não tem suportado para reuniões de Teams da Microsoft.  <br/> |Se o administrador substitui a configuração de padrão de ID de conferência dinâmico a ID de conferência estático, essa configuração não terá efeito para reuniões de Teams da Microsoft. Consulte as [IDs de conferência de áudio usando dinâmicos em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|As coordenadas de reunião de PSTN não estão disponíveis para Skype para usuários do local de negócios  <br/> |Se o usuário for um Skype para usuário local de negócios, atribuído com Skype para Business Online, conferência de áudio e licenças de equipes, todas as reuniões agendadas usando equipes não incluirá as coordenadas de reunião de PSTN. <br/> |Não há solução alternativa.  <br/> |2/1/2018  <br/> |
    
 ### <a name="skype-for-business-app"></a>Skype para o aplicativo de negócios
 
@@ -59,5 +62,3 @@ No momento, use isso como uma referência ao solucionar possíveis problemas com
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
-  
-

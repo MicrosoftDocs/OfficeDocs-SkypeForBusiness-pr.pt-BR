@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Para transferir ou porta check-out de números de telefone do Skype para Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN. Depois de definir o PIN, você precisará incluí-lo quando você solicitar o check-out de um número de telefone da porta."
-ms.openlocfilehash: 03e2e0ca76ea434e2458f1dec4a236996a19f7aa
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 5800ca846e4f71490be24ae02d031fa0579e2ce5
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Definir seu PIN para transferência de números para um novo provedor de serviço
 
@@ -71,8 +73,9 @@ Eis algumas informações específicas sobre esse PIN que você deve saber:
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
   
 

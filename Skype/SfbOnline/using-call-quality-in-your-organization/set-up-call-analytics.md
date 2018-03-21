@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft."
-ms.openlocfilehash: 81d3f88bf04fa63aaa5857e2056aaf429e7ffcd4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Configurar o Skype para análise de chamada de negócios
 
@@ -91,3 +91,6 @@ Se você estiver criando o arquivo. csv ou. tsv desde o início, consulte o [for
 [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

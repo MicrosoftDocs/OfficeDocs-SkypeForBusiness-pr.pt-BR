@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Neste resumo do Skype para configurações de usuário e organização de negócios pode ajudá-lo a saber mais sobre conectividade de IM público, convites para reuniões, registro de chamadas e reuniões e muito mais.  "
-ms.openlocfilehash: 0f9bbf7e24d268cb4690212fc3f70abfd024c871
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e537074bea8d8243cbb4d951580c4432620ce539
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 
@@ -56,3 +56,6 @@ O **Skype para centro de administração de negócios** inclui configurações p
 [Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

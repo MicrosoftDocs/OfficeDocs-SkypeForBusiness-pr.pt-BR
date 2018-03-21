@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Personalize convites para reunião Skype com gráficos logotipos, ajuda e URLs legais e texto de rodapé. "
-ms.openlocfilehash: 9d53c59b574cd21333c8749ee2868e918f6bbe6f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
@@ -73,3 +73,5 @@ Como um administrador, você pode garantir que todos os Skype para convites de r
 
 [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
 
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

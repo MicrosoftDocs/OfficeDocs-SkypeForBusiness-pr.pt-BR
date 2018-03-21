@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Jordânia."
-ms.openlocfilehash: a3f2208a83ea42e953524e4617858e1c6feb641a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b5e4f21823f89f2de3b37ddadba408ecf6aa0a73
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-jordan"></a>Disponibilidade em Jordânia
 
@@ -83,4 +83,5 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

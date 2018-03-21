@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "Use o cmdlet Get-CsOnlineUser no Windows PowerShell para obter informações sobre Skype da sua organização para usuários corporativos Online."
-ms.openlocfilehash: 6cd8f24638622b1581003c1b4f372923ca7c4939
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 933993b434e7a74e2fabb7782eff2105ad1bad70
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Gerenciar contas de usuário usando o conector Online
 
@@ -114,3 +114,6 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar seu computador e Skype para gerenciamento online de negócios usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

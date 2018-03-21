@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - SMB
 description: "Infelizmente, há certas licenças de usuário que são bloqueadas quando o usuário acesse https://broadcast.skype.com e deseja usar a difusão de reunião do Skype. Se um usuário veja essa mensagem, eles têm as licenças bloqueadas atribuídas a eles. Se ainda quiser que ele para usá-lo, atribua outra licença do Office 365."
-ms.openlocfilehash: 946e073183f52af84adbbf5f727282f487db07c3
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b1de6b116793d74fc01d6c95138aa1d9a10ab2c9
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloqueados licenças de usuário para transmissão de reunião do Skype
 
@@ -69,3 +69,6 @@ Transmissão do Skype reunião será bloqueado se qualquer um dos seguintes lice
 [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   
 [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

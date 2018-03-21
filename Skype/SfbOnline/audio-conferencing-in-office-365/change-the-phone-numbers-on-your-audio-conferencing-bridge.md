@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone."
-ms.openlocfilehash: 21603ebc5ea710598a1af70a66fe4388e206cea9
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 10e55f34ca6cdeaf90f00f6004a85c4a5fbbe1fe
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone na sua ponte de conferência de áudio
 
@@ -226,4 +228,3 @@ O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtiv
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Alterar as configurações de uma ponte de audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md)
-  

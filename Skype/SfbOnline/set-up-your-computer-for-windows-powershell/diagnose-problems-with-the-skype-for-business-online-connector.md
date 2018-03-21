@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: "Solucionar problemas de criação de uma sessão PowerShell remota para se conectar ao Skype para negócios Online, incluindo Import-Module, shell simultânea, Live ID e erros de permissão."
-ms.openlocfilehash: 80062caae67eca24f47e1deb764121aef96ba30f
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 2cc01ae6eac349d76b3b30e9b16d0b55ff3d0ad8
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Skype para o Business Connector Online
 
@@ -145,3 +145,5 @@ Embora cada administrador pode ter até três conexões simultâneas para um Sky
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar seu computador e Skype para gerenciamento online de negócios usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

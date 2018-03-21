@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Paquistão."
-ms.openlocfilehash: 72bf8f63b112fe799542685a06322e65e12eab4d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 9bab2370143c7337c853921d04351286a9c031d2
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="availability-in-pakistan"></a>Disponibilidade em Paquistão
 
@@ -83,3 +83,5 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

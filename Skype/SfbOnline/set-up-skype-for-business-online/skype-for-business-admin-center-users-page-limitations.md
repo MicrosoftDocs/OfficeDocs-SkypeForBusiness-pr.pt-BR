@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Aprenda a operar dentro as limitações do Skype para exibição de negócios on-line do administrador de usuários. "
-ms.openlocfilehash: b7154c8b8aae4f8f28cd2ebc9e70d1c966507db8
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7f7189536d1c859b25eb6cacb3fc75c57995d464
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitações de página do Skype para os usuários do Business Online admin center
 
@@ -44,3 +44,6 @@ Você pode alterar o número de usuários exibidos em cada página com o control
 [Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

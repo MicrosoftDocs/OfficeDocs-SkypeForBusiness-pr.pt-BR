@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 5412636c-ad0e-48a5-b199-5925156abee4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'See steps on how to change the emergency address for a user to work with the Public Switched Telephone Network (PSTN) in the US and Europe. '
-ms.openlocfilehash: c30f4711609cf02b9614df21c1c62a826ec2421e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b67d6d20560ca2be1f4a2d19d86acd7afb499ff1
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Alterar o endereço de emergência de um usuário
 
@@ -67,4 +69,7 @@ Para saber como obter planos de chamada no Office 365 e quanto eles custam, cons
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

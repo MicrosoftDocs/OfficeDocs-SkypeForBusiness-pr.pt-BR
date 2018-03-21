@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: e111bb7a2228417674ec6be73bcb25f909d96e12
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: ec34b528ed31f78e3c6075f357ff96c702371514
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Código de prática para o Reino Unido (Reino Unido)
 
@@ -148,4 +148,5 @@ As taxas de Serviços Nacionais de Tradução, Números Pessoais e números 0870
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

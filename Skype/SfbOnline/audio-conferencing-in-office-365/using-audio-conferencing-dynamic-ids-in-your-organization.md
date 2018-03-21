@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: e55e4bff-fb67-4389-8695-f03024baa9b6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "O serviço de conferência de áudio está sendo atualizado para fornecer cada Skype para reunião Teams da Microsoft e de negócios com IDs de conferência diferentes. IDs de conferência dinâmicos são um avanço significativo sobre conferência estática IDs, porque eles fornecem:"
-ms.openlocfilehash: 146e09843fbd9234d4d1b651663d59d7ec48fc49
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: c4158537f7c36299a82df92d3c6ced6cb6189315
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="using-audio-conferencing-dynamic-ids-in-your-organization"></a>Usar as IDs de dinâmica de conferência de áudio em sua organização
 
@@ -63,5 +65,3 @@ Estes exemplos mostram a nova experiência para dois Skype para reuniões de neg
 - [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
     
 - [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
-    
-

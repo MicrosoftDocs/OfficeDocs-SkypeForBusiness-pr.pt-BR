@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Saiba o que é a validação de endereço, por que ela é importante e como está relacionada a endereços e serviços de emergência. "
-ms.openlocfilehash: f5da983796a435ba64d428b21544a44a191e6de4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 11e53a817eb8e7a759a450f81c699a0e9d745642
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="what-is-address-validation"></a>O que é validação de endereço?
 
@@ -44,3 +44,5 @@ A validação de um endereço envolve a garantia de que ele está correto e tamb
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

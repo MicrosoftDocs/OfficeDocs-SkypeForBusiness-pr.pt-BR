@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: "Este artigo ajuda a explicar os princípios centrais do fluxo de chamadas do Skype for Business Online e da Rota Expressa, além de fornecer alguns exemplos detalhados de fluxos de chamadas para que você possa entender e planejar corretamente."
-ms.openlocfilehash: aa746ad4152dca6e1c06d99ad5b14d55f7be2fa1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a86c54a819f92030de021d93d38d75500003b158
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="call-flow-using-expressroute"></a>Fluxo de chamadas usando Rota Expressa
 
@@ -233,3 +233,6 @@ Os usuários que vão se conectar ao Cloud Connector Edition estão todos hosped
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Documentação do ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio."
-ms.openlocfilehash: 85dd6fb9328e3362d84315f7c8a7f3d7e8e2df86
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: c352609926a7bc6bf7f72015447ba9f7ae115487
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Definir idiomas do atendedor automático para conferência de áudio
 
@@ -71,4 +73,3 @@ Para saber mais, consulte [Usando o Windows PowerShell para fazer Skype comuns p
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
-

@@ -4,12 +4,14 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
+ms.date: 03/13/2018
 ms.topic: article
 ms.assetid: 4a57e3d0-8b08-494f-a195-b44afa9cbc0d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: "Saiba quais idiomas podem ser configurados no Skype for Business para as mensagens padrão do sistema. "
-ms.openlocfilehash: 256bc49c67ffbbfc4a503ffaf621cd4bb82b0c07
-ms.sourcegitcommit: 77bfcdfbe33f5c55f1508588a939297d7092a5e7
-ms.translationtype: HT
+ms.openlocfilehash: bb1a4d1caaf7b2d85fa00804288eadc2588997e1
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas das mensagens e saudações da caixa postal
 
@@ -61,9 +63,12 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Espanhol  <br/> |México  <br/> |es-MX  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |Sim  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |
 |Sueco  <br/> |Suécia  <br/> |sv-SE  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

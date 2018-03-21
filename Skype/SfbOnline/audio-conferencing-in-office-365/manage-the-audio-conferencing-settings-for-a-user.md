@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 0f39dc9d-eb60-4c5a-9ae3-e34a01834d9b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Como um administrador do Office 365, você pode editar as configurações de conferência de áudio — como o provedor, tarifas padrão ou número de discagem gratuito, ID de conferência ou PIN — para um usuário individual em sua organização. Se você deseja editar as configurações para a sua organização, consulte Manage a conferência de áudio configurações para minha organização."
-ms.openlocfilehash: 81fe87e796a7b15942a1a3e309c72f733dec6104
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 47a52e9dc6fd4327e68ad829aea8c77978fe53b5
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Gerenciar as configurações de conferência de áudio para um usuário
 
@@ -61,5 +63,3 @@ Como um administrador do Office 365, você pode editar as configurações de con
 [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
   
 [Perguntas comuns sobre a audioconferência](audio-conferencing-common-questions.md)
-  
-

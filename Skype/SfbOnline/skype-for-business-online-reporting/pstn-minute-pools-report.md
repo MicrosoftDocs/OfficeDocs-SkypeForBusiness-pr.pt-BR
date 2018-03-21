@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: "O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o Skype para relatório de minuto pools corporativos PSTN para ver o número de minutos gastos durante o mês atual dentro da sua organização."
-ms.openlocfilehash: f0cb22187fe8b791ef143524eeae6b453f89f4f4
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 320b316d6d2ba3986212880a76847e878c109677
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools minuto PSTN
 
@@ -92,4 +92,6 @@ Esta é a aparência do relatório.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
-  
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).  

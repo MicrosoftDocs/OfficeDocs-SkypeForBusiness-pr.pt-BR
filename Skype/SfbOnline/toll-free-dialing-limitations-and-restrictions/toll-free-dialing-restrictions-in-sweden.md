@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: "Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito."
-ms.openlocfilehash: 1baf3168ee490865da6055353611152c4fc7df01
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8ec3a1369d03845c6125ddd8185fa2c4cb9f20ee
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Restrições de discagem gratuita na Suécia
 
@@ -47,3 +47,6 @@ ms.lasthandoff: 02/19/2018
 [Restrições e limitações de discagem gratuita](../what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

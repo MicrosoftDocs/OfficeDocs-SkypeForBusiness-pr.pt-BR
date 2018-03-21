@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. '
-ms.openlocfilehash: cb572c9de92cd53384c07c4e48779598ca73bb8c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 7f960b5b38c53922ff19e20fccf95b6320ba435f
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="calling-plans-known-issues"></a>Problemas conhecidos de planos de chamada
 
@@ -47,4 +47,7 @@ Planos de chamadas no Office 365 são um novo recurso, encontrado no Skype para 
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

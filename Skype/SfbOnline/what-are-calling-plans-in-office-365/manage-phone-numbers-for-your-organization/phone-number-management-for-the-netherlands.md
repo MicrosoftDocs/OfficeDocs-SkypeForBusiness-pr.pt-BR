@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: f3b75104-bdb9-435a-bec5-9858db9df402
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para os Países Baixos."
-ms.openlocfilehash: ce6381433733fff8750f175f6e4473ab29be7926
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: df9c9b53821c6e3dae8a55b06754a78558f3090e
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Gerenciamento de números de telefone para os Países Baixos
 
@@ -34,7 +36,8 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter números de telefone para novos usuários.  <br/> | Baixe a [Solicitação de novo número de telefone para os Países Baixos (números geográficos) (v.3.0)(nl-nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf) <br/>  <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenha novos números de telefone do usuário que não estão listados no Skype para centro de administração de negócios.   <br/> | Baixe a [Solicitação de novo número de telefone para os Países Baixos (números geográficos) (v.3.0)(nl-nl)](../../downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(geographic-numbers)-(v.3.0)-(nl-nl).pdf) <br/>  <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenha novos números de telefone do serviço que não estão listados no Skype para centro de administração de negócios. <br/> |Para números de serviço fora dos Estados Unidos, faça o [download este formulário](../../downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf), preencher out e [enviá-la para nós](mailto:ptneu@microsoft.com).
 |Você precisa obter números de telefone transferidos para nós.  <br/> |Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para os Países Baixos (números geográficos) (v.2.0)(nl-nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/> [Carta de Autorização (LOA) para os Países Baixos (números não geográficos) (v.2.0)(nl-nl)](../../downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf) <br/> <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Você precisa publicar/cancelar a publicação de números de telefone na lista telefônica nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
@@ -46,5 +49,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

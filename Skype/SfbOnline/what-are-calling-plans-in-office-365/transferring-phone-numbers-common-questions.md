@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "A seguir é perguntas frequentes sobre como transferir números de telefone para Skype para negócios. Após revisar as respostas, você deve estar pronto para criar uma ordem de porta e transferir seus números de telefone. Consulte números de telefone de transferência para o Office 365 para obter instruções."
-ms.openlocfilehash: a7b6b9ea1b028f6578b13f29706c25fb182befc1
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 3fe34a7c38fb8be206b0e3812674255d0593d188
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Transferindo perguntas comuns de números de telefone
 
@@ -117,7 +119,7 @@ Veja aqui mais informações sobre como enviar solicitações de portabilidade n
     
 - **Números de chamada gratuita** com códigos de área, como: 800, 844, 855, 866, 877 e 888, não podem ser incluídos em uma solicitação de portabilidade numérica com outros tipos de número. Para esses números de ligação gratuita de porta, você deve [manualmente enviar uma solicitação de serviço personalizado](manually-submit-a-custom-service-request.md); eles não podem ser enviados no Skype para centro de administração de negócios. Consulte [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
-    É importante usar a LOA correta para o país e o tipo de números de telefone que deseja fazer a portabilidade. Você pode baixar as LOAs [Baixar uma carta de autorização (LOA)](download-a-letter-of-authorization-loa.md): Consulte [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+    É importante usar a LOA correta para o país e o tipo de números de telefone que deseja fazer a portabilidade. Você pode baixar o LOA que você precisa [Baixar a carta de autorização (LOA) que você precisa aqui](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
     
 - **Números de celular** exigem um código PIN para autorizar a transferência. Portanto, é necessária uma solicitação de portabilidade numérica separada.
     
@@ -174,6 +176,7 @@ A *porta check-out* ou transferência de números de telefone do Skype para Busi
 
 [Termos e condições das Chamadas de Emergência](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

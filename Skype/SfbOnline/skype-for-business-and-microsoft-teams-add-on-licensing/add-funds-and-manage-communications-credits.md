@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -28,11 +30,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: "Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. "
-ms.openlocfilehash: a97b0d3b47e8062ae47def379b22dd73c7909700
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: a53c2e1f92437afa134a26f7203cb36c7714219a
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicione fundos e gerencie créditos de comunicações
 
@@ -89,3 +91,6 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
 - [Configurar planos de chamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) e [Chamar planos para o Office 365](calling-plans-for-office-365.md)
         
 - [Configure o conector de nuvem](https://technet.microsoft.com/en-us/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

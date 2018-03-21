@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: bc9bd328-c5b2-44e5-af15-e02bf00e1c81
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: 6fb10654c5845fb5524264219e642cd0a250e860
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: b890358cebfe6b5d701758c4b6086d6e1f388ca1
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gerenciar as configurações de áudio da conferência para minha organização
 
@@ -154,7 +156,7 @@ Consulte [Emails que são enviados automaticamente para os usuários quando alte
 4. No **Redefinir ID de conferência?** janela, clique em **Sim**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
     
     > [!IMPORTANT]
-    >  [!IMPORTANTE] Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar o Skype para ferramenta de migração de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte: [ferramenta de atualização de reunião para Skype para negócios e Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4) [Skype para Business Online Ferramenta de migração (64 bits) da reunião](http://go.microsoft.com/fwlink/?LinkID=626047)e [Skype para negócios on-line, a ferramenta de migração de reunião (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+    >  [!IMPORTANTE] Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar o Skype para ferramenta de migração de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte: [ferramenta de atualização de reunião para Skype para negócios e Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para negócios Online, ferramenta de migração de reunião (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047)e [Skype para Business Online Ferramenta de migração (32 bits) da reunião](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
 Veja [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user.md).
   
@@ -399,4 +401,3 @@ Aqui estão as configurações de nível de organização:
 [Gerenciar as configurações de audioconferência de um usuário](manage-the-audio-conferencing-settings-for-a-user.md)
 
 [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
-

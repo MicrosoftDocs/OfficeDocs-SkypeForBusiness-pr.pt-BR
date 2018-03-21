@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: 6fa5fe6968976bfc25b2ff8e1a2115ca2619f10a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: cee842570c6cfaca6402803a66df9bbc6f0c08d6
+ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/16/2018
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Permitir que usuários gravem o nome ao ingressar em uma reunião
 
@@ -72,4 +74,3 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
-

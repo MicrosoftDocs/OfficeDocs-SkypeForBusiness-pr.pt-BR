@@ -21,11 +21,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: "Saiba quais informações de conta, você precisará quando estiver trabalhando com um Assistente de nova ordem de porta do número Local. "
-ms.openlocfilehash: 33816b96de13f3e6ffac22d6ff738cc78bef6db7
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 8e3c203a7c1298a5160420e19ad78b27f613eebe
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="port-order-account-information"></a>Informações de conta da ordem de porta
 
@@ -81,4 +81,7 @@ Para fazer enviando a ordem de porta fácil e evitar erros, não deixe de que fa
 
 [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

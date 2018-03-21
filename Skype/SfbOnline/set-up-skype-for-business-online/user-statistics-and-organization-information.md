@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Setup
 description: "Saiba quais estatísticas de usuários do Skype for Business estão disponíveis, como o número de usuários habilitados, usuários habilitados para conferência ou usuários habilitados para o Office 365."
-ms.openlocfilehash: 9a3336c061b69b951d2ec8cb6b927dd9115c7b7c
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 371e1eabb7979dc805f2a4473040a491f3950352
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="user-statistics-and-organization-information"></a>Estatísticas de usuários e informações da organização
 
@@ -60,3 +60,6 @@ O painel do Skype for Business fornece um instantâneo de como o serviço está 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

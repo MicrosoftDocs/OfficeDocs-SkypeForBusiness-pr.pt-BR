@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: "Saiba como ver uma lista de todos os números de telefone em sua organização, todos os números atribuídos aos usuários e todos os números são atribuídos a usuários de voz, a partir do Skype para centro de administração de negócios."
-ms.openlocfilehash: b7ed36308e91d3ff93126355c604b48a92eaa61a
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: 1bc5b27e97702ca0d61a637f08aab5a03b57cd57
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -106,6 +108,7 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

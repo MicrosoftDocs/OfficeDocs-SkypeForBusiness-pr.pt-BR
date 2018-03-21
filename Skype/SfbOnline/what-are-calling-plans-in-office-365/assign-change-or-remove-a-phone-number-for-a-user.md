@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -20,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
-ms.openlocfilehash: 34d60b9a032cbf3de472eb0f99c1027aea619217
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: e30d5949cb667a1a9b6d6bc4c66b82093aa40fbc
+ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover um número de telefone para um usuário
 
@@ -122,4 +124,7 @@ Para saber como obter planos de chamada no Office 365 e quanto eles custam, cons
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

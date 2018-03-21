@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: "Você pode anexar arquivos a uma Skype para reunião de negócios, que os participantes, em seguida, podem abrir e baixar. Arquivos anexados a Skype para reuniões de negócios são mantidos nas caixas de correio de qualquer participante cuja caixa de correio for colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em uma espera associada a um caso de eDiscovery de segurança do Office 365 &amp; Centro de conformidade. Este conteúdo é salvo pastas de itens recuperáveis dos participantes em suas caixas de correio."
-ms.openlocfilehash: 59e1470d36aac988b1e0ff6ee40ebc1fb61967ed
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: fb20055106362143b5c4573115e095637d873599
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Retenção de arquivos grandes anexados a um Skype para reunião de negócios
 
@@ -44,3 +44,5 @@ Caixas de correio que não estiverem em espera não terão qualquer dados da reu
 
 [Configurar políticas de conferência na sua organização](set-up-conferencing-policies-for-your-organization.md)
   
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

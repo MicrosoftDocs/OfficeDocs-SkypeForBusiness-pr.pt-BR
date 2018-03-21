@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: "Os seguintes requisitos são realmente importantes para garantir a integridade de longo prazo e o sucesso do Skype todos os recursos de Business Online você estiver configurando para sua organização. Nós sabemos que algumas das você são muito técnicas - este documento é para você, mas há algumas das que não são. Se você precisar de ajuda para configurar Skype para Business Online, você deve ler este documento para se familiarizar com as coisas que você precisa considerar. Ele também fornecerá a você as coisas para falar sobre quando você estiver trabalhando com Microsoft FastTrack Center, seu Microsoft Services e equipes de conta, ou com parceiros da Microsoft para descobrir como você pode atender a esses requisitos."
-ms.openlocfilehash: f5328705e79a44828a9787f35c0526f4b2e0ea35
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.openlocfilehash: c5af711b17f7f617ae977fad62584a20292fdaf6
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Como otimizar sua rede para o Skype for Business Online
 
@@ -147,4 +147,5 @@ Para obter uma imagem mais nítida de uso de áudio e vídeo de experiência do 
 
 [ExpressRoute e QoS no Skype for Business Online](expressroute-and-qos-in-skype-for-business-online.md)
   
-
+## <a name="feedback"></a>Comentários?
+Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
