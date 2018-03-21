@@ -1,0 +1,123 @@
+---
+title: "Práticas de coleta de dados"
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.reviewer: mikedav, allancar
+ms.date: 01/22/2018
+ms.topic: article
+ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto:
+- Skype for Business
+- Microsoft Teams
+localization_priority: Normal
+f1keywords: None
+ms.custom:
+- Legal
+hideEdit: 
+description: "Microsoft coleta dados censo, erro e uso para entender como Skype para negócios está sendo usada e onde os usuários encontrarem problemas. Os dados são usados para planejar os aperfeiçoamentos do produto."
+ms.openlocfilehash: 9eaebe086e65b68cb13013931b753285f63bd9de
+ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/27/2018
+---
+# <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a><span data-ttu-id="b5ea9-104">Skype para práticas de conjunto de dados corporativos e Teams da Microsoft</span><span class="sxs-lookup"><span data-stu-id="b5ea9-104">Skype for Business and Microsoft Teams data collection practices</span></span>
+
+<span data-ttu-id="b5ea9-105">Skype para Business Server 2015, Skype para negócios Online, juntamente com o Skype para aplicativos de negócios e Teams Microsoft coletar dados para ajudar a compreender como esses produtos estão sendo usados e quais tipos de erros, como erros de entrada, que ocorreram na Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-105">Skype for Business Server 2015, Skype for Business Online, along with Skype for Business and Microsoft Teams apps collect data to help Microsoft understand how these products are being used and what kinds of errors, such as sign-in errors, have occurred.</span></span> <span data-ttu-id="b5ea9-106">Essas informações nos ajuda a entender os padrões de uso, planejar novos recursos e solucionar problemas e corrigir áreas do problema.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-106">This information helps us understand usage patterns, plan new features, and troubleshoot and fix problem areas.</span></span>
+  
+<span data-ttu-id="b5ea9-107">Enquanto alguns dados de uso são coletados automaticamente, outros dados possam ser coletados apenas quando o admin e/ou o usuário optar por permitir que ele.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-107">While some usage data is collected automatically, other data can only be collected when the admin and/or user chooses to allow it.</span></span> <span data-ttu-id="b5ea9-108">Coleta de dados se enquadra dessas três categorias:</span><span class="sxs-lookup"><span data-stu-id="b5ea9-108">Data collection falls into these three categories:</span></span>
+  
+- <span data-ttu-id="b5ea9-109">Dados Census</span><span class="sxs-lookup"><span data-stu-id="b5ea9-109">Census data</span></span>
+    
+- <span data-ttu-id="b5ea9-110">Dados de uso</span><span class="sxs-lookup"><span data-stu-id="b5ea9-110">Usage data</span></span>
+    
+- <span data-ttu-id="b5ea9-111">Dados de relatório de erros</span><span class="sxs-lookup"><span data-stu-id="b5ea9-111">Error reporting data</span></span>
+    
+## <a name="census-data"></a><span data-ttu-id="b5ea9-112">Dados Census</span><span class="sxs-lookup"><span data-stu-id="b5ea9-112">Census data</span></span>
+
+<span data-ttu-id="b5ea9-113">Dados Census são adquiridos exclusivamente para fornecer, suporte e aprimorar Skype para negócios.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-113">Census data is acquired solely to provide, support, and improve Skype for Business.</span></span> <span data-ttu-id="b5ea9-114">As equipes da Microsoft e Skype para negócios on-line.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-114">Microsoft Teams and Skype for Business Online.</span></span> <span data-ttu-id="b5ea9-115">Ela inclui informações ambientais como versões de dispositivo e o sistema operacional e as configurações regionais e de idioma.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-115">It includes environmental information such as device and operating system versions, and regional and language settings.</span></span> <span data-ttu-id="b5ea9-116">Ele também inclui contadores para tentativas de entrar e falhas.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-116">It also includes counters for sign-in attempts and failures.</span></span> <span data-ttu-id="b5ea9-117">Aqui estão alguns exemplos específicos dos dados census coletados:</span><span class="sxs-lookup"><span data-stu-id="b5ea9-117">Here are some specific examples of the census data that's collected:</span></span>
+
+|<span data-ttu-id="b5ea9-118">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-118">**Data type**</span></span>|<span data-ttu-id="b5ea9-119">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-119">**Example**</span></span>|<span data-ttu-id="b5ea9-120">**Observações**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-120">**Notes**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="b5ea9-121">AppName</span><span class="sxs-lookup"><span data-stu-id="b5ea9-121">AppName</span></span>  <br/> |<span data-ttu-id="b5ea9-122">iPhoneSkype</span><span class="sxs-lookup"><span data-stu-id="b5ea9-122">iPhoneSkype</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-123">DeviceModel</span><span class="sxs-lookup"><span data-stu-id="b5ea9-123">DeviceModel</span></span>  <br/> |<span data-ttu-id="b5ea9-124">iPhone</span><span class="sxs-lookup"><span data-stu-id="b5ea9-124">iPhone</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-125">OSName</span><span class="sxs-lookup"><span data-stu-id="b5ea9-125">OSName</span></span>  <br/> |<span data-ttu-id="b5ea9-126">iPhoneiOS</span><span class="sxs-lookup"><span data-stu-id="b5ea9-126">iPhoneiOS</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-127">Versão do sistema operacional</span><span class="sxs-lookup"><span data-stu-id="b5ea9-127">OSVersion</span></span>  <br/> |<span data-ttu-id="b5ea9-128">8.3</span><span class="sxs-lookup"><span data-stu-id="b5ea9-128">8.3</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-129">UserLanguage</span><span class="sxs-lookup"><span data-stu-id="b5ea9-129">UserLanguage</span></span>  <br/> |<span data-ttu-id="b5ea9-130">EN-US</span><span class="sxs-lookup"><span data-stu-id="b5ea9-130">EN-US</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-131">UserID</span><span class="sxs-lookup"><span data-stu-id="b5ea9-131">UserID</span></span>  <br/> |<span data-ttu-id="b5ea9-132">E296D735-4F36-4E18-7C3B-52E1A02A0164</span><span class="sxs-lookup"><span data-stu-id="b5ea9-132">E296D735-4F36-4E18-7C3B-52E1A02A0164</span></span>  <br/> |<span data-ttu-id="b5ea9-133">A ID é misturada duas vezes: uma vez no cliente e, novamente, o serviço de telemetria.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-133">The ID is hashed twice: once on the client and again on the telemetry service.</span></span> <span data-ttu-id="b5ea9-134">O hash garante que a ID não pode ser vinculada a um usuário específico.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-134">The hashing ensures the ID cannot be linked to a specific user.</span></span>  <br/> |
+|<span data-ttu-id="b5ea9-135">DeviceID</span><span class="sxs-lookup"><span data-stu-id="b5ea9-135">DeviceID</span></span>  <br/> |<span data-ttu-id="b5ea9-136">5E872200-F546-4CCD-8F23-AF5F507AA2DD</span><span class="sxs-lookup"><span data-stu-id="b5ea9-136">5E872200-F546-4CCD-8F23-AF5F507AA2DD</span></span>  <br/> |<span data-ttu-id="b5ea9-137">ID do dispositivo é um GUID gerado uma vez no dispositivo e enviadas para o serviço de telemetria aleatoriamente.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-137">The device ID is a GUID that's randomly generated once on the device and sent to the telemetry service.</span></span>  <br/> |
+   
+<span data-ttu-id="b5ea9-138">Dados do Census não for contêm alguma informação que identifica a sua organização ou usuários.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-138">Census data DOES NOT contain any information that identifies your organization or users.</span></span> <span data-ttu-id="b5ea9-139">Consulte o [Skype para a declaração de privacidade de negócios](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-139">See the [Skype for Business Privacy Statement](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) for more information.</span></span>
+  
+<span data-ttu-id="b5ea9-140">Dados de censo está habilitado por padrão e não podem ser desativados por administradores ou usuários finais.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-140">Census data is on by default and cannot be turned off by admins or end users.</span></span>
+  
+## <a name="usage-data"></a><span data-ttu-id="b5ea9-141">Dados de uso</span><span class="sxs-lookup"><span data-stu-id="b5ea9-141">Usage data</span></span>
+
+<span data-ttu-id="b5ea9-142">Dados de uso incluem informações como número de chamadas feitas, número de mensagens instantâneas enviadas ou recebidas, número de reuniões ingressado, frequência dos recursos usados e problemas de estabilidade.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-142">Usage data includes information such as number of calls made, number of IMs sent or received, number of meetings joined, frequency of features used, and stability issues.</span></span>
+  
+<span data-ttu-id="b5ea9-143">Dados de uso deve conter informações que identifica a sua organização, por exemplo, contoso.com. Aqui estão alguns exemplos específicos dos dados de uso coletados:</span><span class="sxs-lookup"><span data-stu-id="b5ea9-143">Usage data might contain information that identifies your organization, such as contoso.com. Here are some specific examples of the usage data that's collected:</span></span>
+  
+|<span data-ttu-id="b5ea9-144">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-144">**Data type**</span></span>|<span data-ttu-id="b5ea9-145">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-145">**Example**</span></span>|<span data-ttu-id="b5ea9-146">**Observações**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-146">**Notes**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="b5ea9-147">Mensagens Instantâneas enviadas</span><span class="sxs-lookup"><span data-stu-id="b5ea9-147">IM Sent</span></span>  <br/> |<span data-ttu-id="b5ea9-148">12</span><span class="sxs-lookup"><span data-stu-id="b5ea9-148">12</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-149">Mensagem Instantânea recebida</span><span class="sxs-lookup"><span data-stu-id="b5ea9-149">IM Received</span></span>  <br/> |<span data-ttu-id="b5ea9-150">5</span><span class="sxs-lookup"><span data-stu-id="b5ea9-150">5</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-151">Ingressar em uma reunião (tentativas)</span><span class="sxs-lookup"><span data-stu-id="b5ea9-151">Join a meeting (attempts)</span></span>  <br/> |<span data-ttu-id="b5ea9-152">5</span><span class="sxs-lookup"><span data-stu-id="b5ea9-152">5</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-153">Ingressar em uma reunião (sucesso)</span><span class="sxs-lookup"><span data-stu-id="b5ea9-153">Join a meeting (success)</span></span>  <br/> |<span data-ttu-id="b5ea9-154">4</span><span class="sxs-lookup"><span data-stu-id="b5ea9-154">4</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-155">Minutos de chamada/reunião</span><span class="sxs-lookup"><span data-stu-id="b5ea9-155">Call/meeting minutes</span></span>  <br/> |<span data-ttu-id="b5ea9-156">30 min</span><span class="sxs-lookup"><span data-stu-id="b5ea9-156">30 mins</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-157">FederationPartner</span><span class="sxs-lookup"><span data-stu-id="b5ea9-157">FederationPartner</span></span>  <br/> |<span data-ttu-id="b5ea9-158">Microsoft.com</span><span class="sxs-lookup"><span data-stu-id="b5ea9-158">Microsoft.com</span></span>  <br/> |<span data-ttu-id="b5ea9-159">Este é o nome da organização registrada no Office 365 e é transmitido em texto não criptografado, o que significa que ele não é ofuscado.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-159">This is the name of the organization registered in Office 365 and is transmitted in cleartext, which means it's not obfuscated.</span></span>  <br/> |
+   
+<span data-ttu-id="b5ea9-160">Dados de uso não for contêm alguma informação que identifica os usuários.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-160">Usage data DOES NOT contain any information that identifies users.</span></span>
+  
+<span data-ttu-id="b5ea9-161">Coleta de dados de uso está habilitado por padrão, mas admins pode desativá-la usando a configuração de diretiva de grupo DisableAutomaticSendTracing em Skype para Business Server 2015 no local.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-161">Usage data collection is on by default, but on-premises admins can turn it off using the DisableAutomaticSendTracing Group Policy setting on Skype for Business Server 2015.</span></span> <span data-ttu-id="b5ea9-162">Desativar essa configuração afeta todos os usuários na organização.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-162">Turning this setting off affects all users in the organization.</span></span> <span data-ttu-id="b5ea9-163">Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-163">See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) for more information.</span></span>
+  
+<span data-ttu-id="b5ea9-164">Os usuários finais não podem ativar a coleta de dados de uso ou desativar.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-164">End users cannot turn usage data collection on or off.</span></span>
+  
+<span data-ttu-id="b5ea9-165">Para aplicativos do Skype reuniões e páginas da web de iniciador de ingresso, a maneira de controlar telemetria é por meio dessa diretiva:</span><span class="sxs-lookup"><span data-stu-id="b5ea9-165">For Skype Meetings App and the join launcher web pages, the way to control telemetry is through this policy:</span></span>
+  
+<span data-ttu-id="b5ea9-166">Set-CsWebServiceConfiguration - MeetingUxEnableTelemetry $True</span><span class="sxs-lookup"><span data-stu-id="b5ea9-166">Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True</span></span>
+  
+<span data-ttu-id="b5ea9-167">Essa diretiva padrão é false, portanto a coleção de telemetria está desativado por padrão.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-167">This policy defaults to false, so telemetry collection is off by default.</span></span> <span data-ttu-id="b5ea9-168">Essa configuração é por pool e controla todos os usuários que se conectam ao Skype reuniões App para uma reunião hospedada nesse servidor.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-168">This setting is per-pool and controls all users who connect with Skype Meetings App to a meeting hosted on that server.</span></span>
+  
+## <a name="error-reporting-data"></a><span data-ttu-id="b5ea9-169">Dados de relatório de erros</span><span class="sxs-lookup"><span data-stu-id="b5ea9-169">Error reporting data</span></span>
+
+<span data-ttu-id="b5ea9-170">Dados de relatório de erros podem incluir informações sobre desempenho e confiabilidade, configuração de dispositivo, qualidade da conexão de rede, códigos de erro, logs de erros e exceções.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-170">Error reporting data can include information about performance and reliability, device configuration, network connection quality, error codes, error logs, and exceptions.</span></span> <span data-ttu-id="b5ea9-171">Aqui estão alguns exemplos específicos de dados coletados de relatório de erros:</span><span class="sxs-lookup"><span data-stu-id="b5ea9-171">Here are some specific examples of error reporting data that's collected:</span></span>
+
+|<span data-ttu-id="b5ea9-172">**Tipo de dados**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-172">**Data type**</span></span>|<span data-ttu-id="b5ea9-173">**Exemplo**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-173">**Example**</span></span>|<span data-ttu-id="b5ea9-174">**Observações**</span><span class="sxs-lookup"><span data-stu-id="b5ea9-174">**Notes**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="b5ea9-175">Direção da mensagem</span><span class="sxs-lookup"><span data-stu-id="b5ea9-175">Message direction</span></span>  <br/> |<span data-ttu-id="b5ea9-176">Entrada</span><span class="sxs-lookup"><span data-stu-id="b5ea9-176">Incoming</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-177">Estado de conversa</span><span class="sxs-lookup"><span data-stu-id="b5ea9-177">Conversation state</span></span>  <br/> |<span data-ttu-id="b5ea9-178">Ocioso</span><span class="sxs-lookup"><span data-stu-id="b5ea9-178">Idle</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-179">ID do thread de conversação</span><span class="sxs-lookup"><span data-stu-id="b5ea9-179">Conversation thread ID</span></span>  <br/> |<span data-ttu-id="b5ea9-180">AdDO8hsJqilU93hQHC3OZaPR2saEA = =</span><span class="sxs-lookup"><span data-stu-id="b5ea9-180">AdDO8hsJqilU93hQHC3OZaPR2saEA==</span></span>  <br/> ||
+|<span data-ttu-id="b5ea9-181">UserID</span><span class="sxs-lookup"><span data-stu-id="b5ea9-181">UserID</span></span>  <br/> |<span data-ttu-id="b5ea9-182">amosmarble</span><span class="sxs-lookup"><span data-stu-id="b5ea9-182">amosmarble</span></span> <br/> |<span data-ttu-id="b5ea9-183">A ID é enviada em texto não criptografado, o serviço de telemetria hashes antes de armazená-lo</span><span class="sxs-lookup"><span data-stu-id="b5ea9-183">The ID is sent in cleartext , which the telemetry service hashes before storing it</span></span>  <br/> |
+   
+<span data-ttu-id="b5ea9-184">Dados de relatórios de erro também podem conter informações de identificação pessoal, como o endereço IP e a sessão Initiation Protocol Uniform Resource Identifier (URI do SIP) do usuário.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-184">Error reporting data may also contain personally identifiable information such as the user's IP address and Session Initiation Protocol Uniform Resource Identifier (SIP URI).</span></span> <span data-ttu-id="b5ea9-185">Consulte o [Skype para a declaração de privacidade de negócios](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) para uma explicação detalhada sobre o que é coletado.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-185">See the [Skype for Business Privacy Statement](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) for a detailed explanation of what's collected.</span></span>
+  
+<span data-ttu-id="b5ea9-186">Relatório de erros exige duas coisas:</span><span class="sxs-lookup"><span data-stu-id="b5ea9-186">Error reporting requires two things:</span></span>
+  
+- <span data-ttu-id="b5ea9-187">A configuração de diretiva de grupo DisableAutomaticSendTracing ser definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão).</span><span class="sxs-lookup"><span data-stu-id="b5ea9-187">The DisableAutomaticSendTracing Group Policy setting be set to False on the server or in the tenant admin center (this is the default state).</span></span> <span data-ttu-id="b5ea9-188">Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-188">See [Configure client bootstrapping policies in Skype for Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) for more information.</span></span>
+    
+- <span data-ttu-id="b5ea9-189">Os usuários finais individualmente aceitar da guia Geral (clique no ícone de engrenagem e a caixa de diálogo de opção é aberto com a guia geral exibida) o Skype para o cliente de negócios.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-189">End users individually opt in from the General tab (click the gear icon and the Option dialog opens with the General tab displayed) in the Skype for Business client.</span></span>
+    
+     ![Ícone de engrenagem](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+  
+![Skype para checkbox de conjunto de dados corporativos nas opções de > diálogo geral](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+  
+<span data-ttu-id="b5ea9-192">Para o aplicativo do Skype reuniões, o MeetingUxEnableTelemetry também controla relatório de erro, embora para falhas no Windows, as configurações do Watson controlam informações de falha de carregamento.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-192">For Skype Meetings App, the MeetingUxEnableTelemetry also controls error reporting, although for crashes on Windows, the Watson settings control uploading crash info.</span></span> <span data-ttu-id="b5ea9-193">Não há nenhuma configuração do usuário para aplicativo de reuniões do Skype como vê na caixa de diálogo do cliente de desktop.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-193">There is no user setting for Skype Meetings App like you see in the desktop client dialog box.</span></span>
+  
+<span data-ttu-id="b5ea9-194">Consulte [Opções gerais definido no Skype for Business](http://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-194">See [Set General options in Skype for Business](http://support.office.com/article/e1a46d3e-dcea-437a-ba7b-6d442a40f439) for more information.</span></span>
+  
+<span data-ttu-id="b5ea9-195">Você pode ver a [configurar sua rede para Skype para negócios on-line](http://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) para configurar sua rede.</span><span class="sxs-lookup"><span data-stu-id="b5ea9-195">You can see [Set up your network for Skype for Business Online](http://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66) to set up your network.</span></span>
+  
+<span data-ttu-id="b5ea9-196">Se você estiver usando o Office 365 operado pela 21Vianet na China, consulte [configurar sua rede para Skype para Business Online operado pela 21Vianet](http://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).</span><span class="sxs-lookup"><span data-stu-id="b5ea9-196">If you are using Office 365 operated by 21Vianet in China, see [Set up your network for Skype for Business Online operated by 21Vianet](http://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).</span></span>
+  
+## <a name="related-topics"></a><span data-ttu-id="b5ea9-197">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="b5ea9-197">Related topics</span></span>
+[<span data-ttu-id="b5ea9-198">Programa de Aperfeiçoamento da experiência do usuário</span><span class="sxs-lookup"><span data-stu-id="b5ea9-198">Customer Experience Improvement Program</span></span>](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+
+[<span data-ttu-id="b5ea9-199">Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região</span><span class="sxs-lookup"><span data-stu-id="b5ea9-199">Country and region availability for Audio Conferencing and Calling Plans</span></span>](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+## <a name="feedback"></a><span data-ttu-id="b5ea9-200">Comentários?</span><span class="sxs-lookup"><span data-stu-id="b5ea9-200">Feedback?</span></span>
+<span data-ttu-id="b5ea9-201">Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).</span><span class="sxs-lookup"><span data-stu-id="b5ea9-201">To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).</span></span>
