@@ -6,7 +6,6 @@ manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: f6fac40d-bc9e-4038-a537-587942d99066
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: "Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Egito."
-ms.openlocfilehash: 76a84e6cc9b639b5b72c7babaae534daa4abd98e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 5ed1349d921c3810032ff95d8e5b0a9cfcfc0807
+ms.sourcegitcommit: ddd923c871b5cd92499cd2bd4ac1f708aeae6467
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="availability-in-egypt"></a>Disponibilidade em Egito
 
@@ -65,7 +64,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Não se aplica  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
-|Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
+|Há números de chamada gratuita disponíveis?  <br/> |Não <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
@@ -83,5 +82,3 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
