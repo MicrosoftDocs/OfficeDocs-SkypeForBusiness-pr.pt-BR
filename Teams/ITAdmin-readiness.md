@@ -3,22 +3,24 @@ title: Treinamento para o administrador do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-description: "Vídeos de treinamento que apresentam o Microsoft Teams e explicam aos administradores como planejar, implantar e operar o Microsoft Teams."
+description: Vídeos de treinamento que apresentam o Microsoft Teams e explicam aos administradores como planejar, implantar e operar o Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f5c37becb8fd82953e07dc948e82a51b7c9cf6e
-ms.sourcegitcommit: 2e8fa3084db7e741c6120fa4c0db7cd3a335e92d
-ms.translationtype: HT
+ms.openlocfilehash: 7157f412cc28e44b6149b74a12be98a717496b8f
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 ==================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 Conheça o Microsoft Teams e saiba como promover sua utilização na sua organização. Verifique a existência de novos vídeos com certa frequência.
 
@@ -30,6 +32,7 @@ Conheça o Microsoft Teams e saiba como promover sua utilização na sua organiz
 [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](configuring-teams-calling-quickstartguide.md)| Guia de Início Rápido para configurar Planos de Chamadas no Microsoft Teams. |
 | [Tutorial: Entender as chamadas no Teams](tutorial-calling-in-teams.yml)  |  Este treinamento apresenta as funcionalidades de chamadas do Teams, que são acionadas pelo recurso do Sistema de Telefonia no Office 365. Inclui explicações sobre o planejamento técnico necessário para implementar o Sistema de Telefonia, como configurá-lo e como monitorar o uso e a qualidade das chamadas em sua implementação.  |
 | [Vídeos de audioconferência](audio-conferencing-videos.md) |Vídeos de apresentação da Audioconferência no Microsoft Teams para administradores de TI.  |
+| [Tutorial: Reuniões no Teams](tutorial-meetings-in-teams.yml) | Este treinamento introduz reuniões em equipes. Ele aborda as capacidades de reunião, além de requisitos e considerações de planejamento. |
 | Implantação e operação do Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
 | Imersão no acesso de convidados <br>Sessão de café na nuvem com Laith Al e Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery no Microsoft Teams <br> Sessão de café na nuvem com Ansuman Acharya e Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |

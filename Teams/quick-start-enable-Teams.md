@@ -1,5 +1,5 @@
 ---
-title: "Início rápido - Guia de Planejamento do Microsoft Teams"
+title: Início rápido - Guia de Planejamento do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,15 +7,15 @@ ms.date: 01/22/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj, tonysmit
-description: "Use este guia para ajudar no planejamento, na implementação e na adoção do Microsoft Teams em sua organização."
+description: Use este guia para ajudar no planejamento, na implementação e na adoção do Microsoft Teams em sua organização.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7111e5aea9869a99ffec76f7da655f1ac0261aa8
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: ce2ac8ff38f5f051a3e288efede53efa4dc0c6e5
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Início rápido - Guia de Planejamento do Microsoft Teams
 ==========================================================
@@ -44,7 +44,7 @@ Assista a este vídeo com orientações simples que devem ser consideradas quand
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Caso o Microsoft Teams não esteja habilitado no seu locatário do Office 365 e você seja um administrador do Office 365, siga as instruções do nosso artigo [Configurar o Microsoft Teams no Office 365 da sua empresa](office-365-set-up.md) para garantir que os usuários tenham acesso ao aplicativo.
+Se Teams da Microsoft não está habilitada no seu locatário do Office 365 e você for um administrador execute do Office 365 as instruções em nosso artigo [Gerenciar o acesso de usuário às equipes](user-access.md) para garantir que os usuários têm acesso ao aplicativo.
 
 ## <a name="step-3-complete-technical-planning"></a>Etapa 3: Faça o planejamento técnico
 

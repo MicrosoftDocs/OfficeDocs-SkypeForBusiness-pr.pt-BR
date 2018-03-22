@@ -1,28 +1,30 @@
 ---
-title: "Ativar os recursos do Microsoft Teams na sua organização do Office 365"
+title: Gerenciar recursos de Teams da Microsoft em sua organização do Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/29/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: "Conheça todos os recursos do Microsoft Teams que você pode ativar ou desativar na sua organização do Office 365, incluindo configurações de todo o locatário, integração de email, aplicativos, armazenamento em nuvem e muito mais."
+description: Conheça todos os recursos do Microsoft Teams que você pode ativar ou desativar na sua organização do Office 365, incluindo configurações de todo o locatário, integração de email, aplicativos, armazenamento em nuvem e muito mais.
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87871cb46c1b9e584308b75376622473a3131888
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: d4e450f4ffcb178a19d185b14d65b7adb880924b
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 ---
-<a name="turn-on-microsoft-teams-features-in-your-office-365-organization"></a>Ativar os recursos do Microsoft Teams na sua organização do Office 365
+<a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar recursos de Teams da Microsoft em sua organização do Office 365
 ======================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-O Microsoft Teams tem várias configurações que podem ser ativadas ou desativadas no nível do locatário do Office 365. Com o Microsoft Teams ativado para um locatário, qualquer usuário que também esteja habilitado para o Microsoft Teams herdará as configurações do nível do locatário.
+O Microsoft Teams tem várias configurações que podem ser ativadas ou desativadas no nível do locatário do Office 365. Com equipes habilitadas, qualquer usuário que também está habilitado para equipes herdará as configurações do nível de locatário.
 
 Veja a seguir a lista de recursos que o administrador do Office 365 pode ativar ou desativar no Teams. 
 
@@ -70,9 +72,7 @@ Defina as seguintes configurações de **integração de email** para sua organi
 
    ![Captura de tela da seção de Integração de e-mails da Configuração de todos os locatários.](media/QS-edu-email-integration.png)
 
--   **Allow users to send emails to channels** (Permitir que os usuários enviem emails aos canais): quando ativado, os ganchos de correio estão habilitados e os usuários podem postar mensagens em um canal enviando um email para o endereço de email do canal do Teams. 
 
- 
 -   **Allow users to send emails to channels** (Permitir que os usuários enviem emails aos canais): quando ativado, os ganchos de correio estão habilitados e os usuários podem postar mensagens em um canal enviando um email para o endereço de email do canal do Teams. 
 
     Para descobrir o endereço de email do canal, clique no menu **Mais opções** do canal e selecione **Obter endereço de email**. 
@@ -107,10 +107,17 @@ No momento, as opções de armazenamento em nuvem do Microsoft Teams incluem Box
 
 ![Captura de tela da seção de armazenamento em nuvem personalizado.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image7.png)
 
-<a name="user-settings-by-license"></a>Configuração de usuários por licença
+<a name="settings-by-userlicense-type"></a>Configurações por tipo de licença de usuário /
 ------------------------
+Quando você configura Teams da Microsoft para a sua organização inicialmente, você usou o menu **configurações por tipo de licença de** usuário/lista suspensa para selecionar um tipo de licença e, em seguida, ativada equipes para todos os usuários desse tipo de licença.
 
-Em **Configuração de usuários por licença**, você pode ativar e desativar opções de equipes e canais, chamadas e reuniões, e mensagens.
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+
+ Alguns exemplos dos tipos de licença de usuário/são **empresas & corporativo** e **Convidado**. (Se você tiver uma licença de educação SKU, **Education - Corpo Docente e equipes** ou **Educação - aluno** está disponível.) ![o controle para o conjunto de licença de usuário](media/enable-microsoft-teams-features-in-your-office-365-organization-image13.png)
+
+Você pode ter vários licença tipos dentro da organização, por exemplo, as **empresas & corporativo** e **Convidado**. Microsoft Teams somente pode diferenciar usuários com base nas licenças que você atribuiu a eles. Você pode ativar ou desativar opções para esses usuários no **canais e equipes**, **reuniões e chamadas**e **mensagens**. Se você usar o tipo de apenas uma licença, considere as configurações como configurações de todo o inquilino.
+> [!NOTE]
+> Para obter mais detalhes sobre o acesso de convidado, consulte [Ativar ou desativar o acesso de convidado para equipes da Microsoft](set-up-guests.md).
 
 <a name="teams-and-channels"></a>Equipes e canais
 ------------------

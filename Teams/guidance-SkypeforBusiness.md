@@ -11,11 +11,11 @@ description: Um guia para usar o Skype for Business e o Microsoft Teams lado a l
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66e21cb6e170785c336f4737cd61596d33ae305e
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 27e6f4449f4568f9777be92c8520215721154e2f
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="enable-microsoft-teams-side-by-side-with-skype-for-business"></a>Habilitar o Microsoft Teams paralelamente ao Skype for Business 
 =============================================================
@@ -183,7 +183,7 @@ Na essência, o Microsoft Teams foi construído em torno do bate-papo persistent
 
 Uma vez que, por padrão, os usuários da sua organização com uma licença de assinatura elegível do Office 365 estão habilitados para o Teams, um piloto limitado do Teams envolverá desabilitar a licença do Teams para todos os usuários que estejam fora do grupo piloto.
 
-Para focar o lançamento do Teams como uma solução de colaboração e bate-papo privado, além de reduzir a confusão do usuário devido à sobreposição de recursos do Skype for Business, você pode alterar as configurações a seguir do Office 365, em nível de locatário. Para alterar essas configurações do Office 365, consulte [Configurar o Microsoft Teams na sua organização do Office 365](Office-365-set-up.md).
+Para focar o lançamento do Teams como uma solução de colaboração e bate-papo privado, além de reduzir a confusão do usuário devido à sobreposição de recursos do Skype for Business, você pode alterar as configurações a seguir do Office 365, em nível de locatário. Para alterar essas configurações do Office 365, consulte [os recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md).
 
 <table>
 <thead>

@@ -3,7 +3,7 @@ title: Habilitar ou desabilitar o acesso de convidados no Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 11/10/17
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
@@ -12,16 +12,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9112494945cf97905853c827fbfdb0688e9c7fc
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: ddf9f3b2597300ca872a5ab4135538e9cc6cc5ed
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Habilitar ou desabilitar o acesso de convidados no Microsoft Teams
 ======================================
 
-
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 
 
@@ -37,7 +38,7 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
 > [!IMPORTANT]
 > Para habilitar a experiência completa do recurso de acesso de convidados, é importante compreender a dependência de autorização básica entre o Microsoft Teams, o Azure Active Directory e o Office 365. Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
 
-1. Inicie sessão na sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Entre usando sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
   
 2. No menu de navegação, escolha **Configurações** e, em seguida, selecione **Serviços &amp; complementos**.

@@ -1,24 +1,26 @@
 ---
-title: "Orientações práticas de Audioconferência no Microsoft Teams"
+title: Orientações práticas de Audioconferência no Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 12/22/2017
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
-description: "Orientações práticas para planejar, implantar e gerenciar a Audioconferência no Microsoft Teams usando a estrutura Concepção (planejamento), Integração (fornecimento), Geração de valor (operação)."
+description: Orientações práticas para planejar, implantar e gerenciar a Audioconferência no Microsoft Teams usando a estrutura Concepção (planejamento), Integração (fornecimento), Geração de valor (operação).
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f845be7ddf83605adad119f7efa53725033a7823
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: cb41f929f477a058ee8c811f357caa6ff3de62ac
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Orientações práticas de Audioconferência no Microsoft Teams
 ============================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 A Audioconferência do Office 365  permite que os participantes ingressem em reuniões do Microsoft Teams usando qualquer telefone.
 
@@ -359,7 +361,7 @@ Você também pode configurar como os autores de chamada não autenticados são 
 Estão disponíveis configurações adicionais que podem ser aplicadas para cada usuário para controlar o uso de números de telefone gratuitos de ponte de conferência e discagem de uma conferência.
 
 > [!NOTE]
-> Esses controles relacionados a custo estão atualmente disponíveis somente para clientes da prévia. Você pode inscrever a sua organização no programa de prévia em [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
+> Esses controles relacionados a custo estão atualmente disponíveis somente para clientes da prévia. Você pode registrar sua organização no programa de visualização de [https://www.skypepreview.com](https://go.microsoft.com/fwlink/?linkid=859013).
 
 Com esses controles, você pode decidir se os organizadores da reunião podem fornecer números de telefone gratuitos de ponte de conferência para reuniões organizadas por eles, ou para controlar se os participantes podem discar das reuniões organizadas por eles. O nível de controle de discagem vai da exclusão da permissão de discagem, permitindo discar apenas para números domésticos, até a permissão de discagem para números domésticos e internacionais.
 

@@ -3,21 +3,23 @@ title: Pesquisar o log de auditoria de eventos no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/22/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
 description: Saiba como recuperar dados do Microsoft Teams a partir do log de auditoria do Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f0fa9f55e10d3f2f9b29287b292878c3c2b5b4a
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 2ddf413f192941598f617ea10a755a2c23abd3f7
+ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/15/2018
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Pesquisar o log de auditoria de eventos no Microsoft Teams
 ==================================================
+> [!IMPORTANT]
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 O log de auditoria pode ajudar na investigação de atividades específicas em todos os serviços do Office 365. Para o Microsoft Teams, estas são algumas das atividades auditadas:
 
@@ -33,7 +35,7 @@ Para ver a lista completa de atividades que são auditadas no Office 365, consul
 
 ## <a name="turn-on-auditing-in-teams"></a>Ativar a auditoria no Microsoft Teams
 
-Para examinar os dados de auditoria, você precisa ativar a auditoria no **Centro de Conformidade e Segurança** (https://protection.office.com). Para obter ajuda para ativar a auditoria, consulte [Ativar ou desativar a pesquisa no log de auditoria do Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Antes de você pode analisar dados de auditoria, você deve primeiro ativar a auditoria no **Centro de conformidade e segurança**(https://protection.office.com). Para obter ajuda para ativar a auditoria, consulte [Ativar ou desativar a pesquisa no log de auditoria do Office 365](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
 > [!IMPORTANT]

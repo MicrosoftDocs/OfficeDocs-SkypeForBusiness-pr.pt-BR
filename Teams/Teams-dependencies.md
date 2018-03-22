@@ -7,14 +7,14 @@ ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
 ms.reviwer: laal
-description: "Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização."
+description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19d7bd54e63e67dc02a116cbd06cdfec9de4e180
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
@@ -40,21 +40,23 @@ Esses níveis diferentes de autorização fornecem flexibilidade para a forma co
 
 Com a colaboração B2B do Azure AD, o envio de convites para usuários convidados potenciais não é restrito aos administradores de locatários. Em vez disso, você pode usar políticas para delegar o envio de convites a usuários cujas funções permitem o envio de convites.
 
-As configurações de convites são aplicáveis no nível do locatário e controlam a experiência dos convidados no nível de diretório, locatário e aplicativo.
+As configurações de convites são aplicáveis no nível do locatário e controlam a experiência dos convidados no nível de diretório, locatário e aplicativo. No mínimo para dar suporte a convidados, **os membros podem convidar** deve ser definida como **Sim**.
 
 
 ![Captura de tela das Configurações do usuário no portal do Azure Active Directory.](media/teams_dependencies_image2.png)
 
+Azure AD inclui as configurações a seguir para configurar usuários externos:
+- **Permissões de usuário convidado estão limitadas**: **Sim** , significa que os convidados não têm permissão para determinadas tarefas de diretório, como enumerar os usuários, grupos ou outros recursos de diretório. Além disso, os convidados não podem ser atribuídos às funções administrativas em seu diretório. **Não** significa que os clientes por ter o mesmo acesso aos dados de diretório que usuários regulares tem em seu diretório.
+- **Administradores e usuários à função do autor do convite convidado podem convidar**: **Sim** , significa que a administradores e usuários à função de "Convidado quem convida" será capazes de convidar as pessoas para o inquilino. **Não** significa que os administradores e os usuários não podem convidar as pessoas para o inquilino.
+- **Os membros podem convidar**: **Sim** , significa que não seja o administrador membros de seu diretório podem convidar as pessoas para colaborar nos recursos protegidos por sua Azure AD, como sites do SharePoint ou recursos do Windows Azure. **Não** significa que somente os administradores podem convidar clientes por ao seu diretório.
+- **Convidados podem convidar**: **Sim** significa que convidados em seu diretório, sozinhos, podem convidar outro convidado para colaborar nos recursos protegidos por sua Azure AD, como sites do SharePoint ou recursos do Windows Azure. **Não** significa que os clientes por não pode convidar outros convidados para colaborar com sua organização.
+ 
 
-Você pode definir as seguintes políticas de convite:
-- Desativar convites.
-- Somente administradores e usuários com a função de emissor de convite para convidados podem convidar.
-- Administradores, usuários com função de emissor de convite para convidados e membros podem convidar.
-- Todos os usuários, incluindo convidados, podem convidar. (Esta é a política padrão para os locatários.)
 
+> [!NOTE]
+> Também é possível gerenciar quais domínios podem ser convidados para seu locatário como convidados. Consulte [permitir/bloquear o acesso de convidado a grupos do Office 365](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
 
 ##<a name="microsoft-teams"></a>Microsoft Teams
-
 No Microsoft Teams, você pode controlar se a experiência do convidado será habilitada ou desabilitada para a sua organização. A configuração é desabilitada por padrão e é aplicável no nível do locatário somente no Microsoft Teams.
 
 

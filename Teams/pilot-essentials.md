@@ -3,18 +3,18 @@ title: Piloto do Microsoft Teams paralelamente ao Skype for Business
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 03/19/2018
 ms.topic: article
 ms.service: msteams
-description: "Um guia para iniciar um piloto do Microsoft Teams para explorar tudo o que o Teams pode oferecer à sua organização enquanto você continua com o Skype for Business."
+description: Um guia para iniciar um piloto do Microsoft Teams para explorar tudo o que o Teams pode oferecer à sua organização enquanto você continua com o Skype for Business.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c764212d439ef7e3592b52b841e2b531265ec7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
+ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/20/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Piloto do Microsoft Teams paralelamente ao Skype for Business
 ============================================
@@ -103,7 +103,7 @@ Para uma validação ideal, procure incluir aproximadamente entre 2 e 5% da sua 
 <thead>
 <tr class="header">
 <td align="left"><p><img src="media/pilot_essentials_image2.png" /></p></td>
-<td align="left"><strong>Próxima ação:</strong> Identificar seis grupos de teste do piloto.</td>
+<td align="left"><strong>Próxima ação:</strong> Identifique seu (s) de teste piloto usando [Selecionar usuários de seu piloto equipes](https://review.docs.microsoft.com/en-us/MicrosoftTeams/select-users-for-your-teams-pilot?branch=cloudvoice-working) orientação.</td>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,9 @@ Uma experiência piloto bem-sucedida oferece aos seus participantes tarefas defi
 
 ## <a name="step-four-create-your-communications"></a>Etapa quatro: Crie suas comunicações
 
-Informar os participantes do piloto sobre o que está acontecendo, quando e por que, bem como o que é esperado deles, é fundamental para o sucesso do seu piloto. Para suscitar empolgação e a máxima participação, certifique-se de incluir mensagens de valor para o usuário final ao se comunicar com os participantes do piloto. Além disso, certifique-se de que suas comunicações incluam links de treinamento e suporte, onde os usuários poderão obter informações adicionais à medida que progredirem no piloto.
+Informar os participantes do piloto sobre o que está acontecendo, quando e por que, bem como o que é esperado deles, é fundamental para o sucesso do seu piloto. Para suscitar empolgação e a máxima participação, certifique-se de incluir mensagens de valor para o usuário final ao se comunicar com os participantes do piloto.
+
+Além disso, certifique-se de que suas comunicações incluam links de treinamento e suporte, onde os usuários poderão obter informações adicionais à medida que progredirem no piloto. Um bom tópico de ajuda para incluir é a [mudança para equipes do Skype para os negócios](https://support.office.com/en-us/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), que mostra alguns recursos conhecidos, bem como alguns novos recursos que estão disponíveis somente no Microsoft Teams.
 
 <table>
 <thead>
@@ -145,7 +147,7 @@ Informar os participantes do piloto sobre o que está acontecendo, quando e por 
 Com toda a logística estabelecida, agora você está pronto para começar seu piloto. Conduzir o seu piloto inclui a comunicação com os usuários do seu piloto, o monitoramento da sua rede/utilização para garantir que a rede e a qualidade permaneçam íntegras, a coleta de feedback dos participantes e a análise dos chamados de suporte técnico de dúvidas relacionadas ao Teams.
 
 > [!IMPORTANT]
-> O Microsoft Teams é ativado por padrão, mas antes de iniciar o seu piloto, certifique-se de que todos os usuários pilotos estão habilitados para o Microsoft Teams. Para isso, obtenha ajuda lendo [Habilitar recursos do Microsoft Teams em sua organização do Office 365](enable-features-office-365.md).
+> O Microsoft Teams é ativado por padrão, mas antes de iniciar o seu piloto, certifique-se de que todos os usuários pilotos estão habilitados para o Microsoft Teams. Para obter ajuda sobre como fazer isso, leia a [Gerenciar o acesso de usuário às equipes](user-access.md).
 > 
 
 Veja uma sugestão de linha do tempo para um piloto de 30 dias:

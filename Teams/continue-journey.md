@@ -1,20 +1,20 @@
 ---
-title: "Gerar valor com a adoção do Microsoft Teams pelos usuários"
+title: Gerar valor com a adoção do Microsoft Teams pelos usuários
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
-description: "Orientações para continuar a sua jornada do Skype for Business para o Microsoft Teams."
+description: Orientações para continuar a sua jornada do Skype for Business para o Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b897a4de7358faf01bb2c79835a5d7254c88dca
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
-ms.translationtype: HT
+ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Gerar valor com a adoção do Microsoft Teams pelos usuários
 ================================================================
@@ -35,7 +35,7 @@ A Microsoft está trabalhando arduamente para lhe trazer orientações práticas
 - Não tem experiência com adoção e gerenciamento de mudanças? Aproveite o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045)
 
 
-## <a name="get-your-organizaton-ready-for-your-future-move-to-teams"></a>Deixe sua organização pronta para a futura mudança para o Teams
+## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>Prepare a sua organização para movimentação futura às equipes
 
 - Use o [Mapa](https://go.microsoft.com/fwlink/?linkid=859047) para guiar a sua jornada para o Teams
 

@@ -1,5 +1,5 @@
 ---
-title: "Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal"
+title: Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,14 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o Centro de Segurança e Conformidade, e saiba o que necessita de uma retenção legal com base nas exigências de dados."
+description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o Centro de Segurança e Conformidade, e saiba o que necessita de uma retenção legal com base nas exigências de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66dbf943c34c095db39b9b5399f44872c28d583e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 7a4c62eb41131d43a3873499f1d562a30ffff946
+ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 ==================================================
@@ -25,7 +25,7 @@ Para colocar um usuário ou uma equipe em retenção legal, navegue até o [Cent
 > A colocação de um usuário em retenção não coloca automaticamente um grupo em retenção ou vice-versa.
 
 > [!IMPORTANT]
-> Quando um usuário ou um grupo é colocado em espera, todas as cópias de mensagens são mantidas. Exemplo: Clay publicou uma mensagem em um canal e depois modificou a mensagem. Em um cenário de retenção, ambas as cópias da mensagem são mantidas. Sem a retenção legal, apenas a última mensagem seria mantida.
+> Quando um usuário ou um grupo é colocado em retenção, todas as cópias de mensagens serão mantidas. Exemplo: Clay publicou uma mensagem em um canal e depois modificou a mensagem. Em um cenário de retenção, ambas as cópias da mensagem são mantidas. Sem a retenção legal, apenas a última mensagem seria mantida.
 
 
 

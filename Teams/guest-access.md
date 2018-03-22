@@ -7,15 +7,15 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais."
+description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 318acad5b5f86b99640653a425e0a1841316ee3e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 7ac614aa35e3aa453a7522559e6fda8045404ae9
+ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/12/2018
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso de convidados no Microsoft Teams
 ======================================
@@ -29,14 +29,19 @@ O acesso de convidados é uma novidade no Microsoft Teams. É um dos recursos ma
 
 O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais. 
 
+Qualquer pessoa com uma conta de email de consumidor ou de negócios, como o Outlook, Gmail ou outras pessoas, pode participar como um convidado em equipes com acesso completo à equipe chats, reuniões e arquivos.
+
 O acesso de convidados está incluído em todas as inscrições do Office 365 Business Premium, Office 365 Enterprise e Office 365 Education. Não é necessária nenhuma licença adicional do Office 365. O acesso de convidados é uma configuração em nível de locatário no Microsoft Teams está desabilitada por padrão.
 
 
-Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Somente usuários que possuem um endereço de e-mail correspondente a uma conta escolar ou de trabalho no Azure Active Directory ou no Office 365 podem ser adicionados como um usuário convidado.
-  
-       
 
-As organizações que utilizam o Teams podem conceder acesso externo a equipes, documentos em canais, recursos, bate-papos e aplicativos para seus parceiros, mantendo o controle total dos seus próprios dados corporativos.
+Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa pode ser adicionada como convidado no Microsoft Teams. Isso significa que qualquer pessoa com uma empresa (com uma conta do Windows Azure Active Directory) ou uma conta de email do consumidor (com Outlook.com, Gmail.com ou outras pessoas) pode participar como um convidado em equipes com acesso total a chats de equipes, reuniões e arquivos.
+Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD.
+
+  
+      
+
+As organizações que utilizam o Teams podem conceder acesso externo a equipes, documentos em canais, recursos, bate-papos e aplicativos para seus parceiros, mantendo o controle total dos seus próprios dados corporativos. Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e convidados podem ser gerenciados com segurança dentro do Azure Active Directory.  
 
 O Teams é construído em cima dos grupos do Office 365 e proporciona uma nova forma de acessar recursos compartilhados para um grupo do Office 365. O Teams é a melhor solução de bate-papo persistente entre os membros doe grupos/equipes. Os grupos do Office 365 são um serviço que oferece assinatura cruzada de aplicativos para um conjunto de ativos compartilhados de equipe, como um site do SharePoint ou um painel de controle do Power BI, para que a equipe possa colaborar de forma eficaz e segura.
 
