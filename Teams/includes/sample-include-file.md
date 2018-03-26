@@ -1,0 +1,1 @@
+A amostra inclui o arquivo. Basta substituir este pelo texto desejado.
