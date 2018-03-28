@@ -1,5 +1,5 @@
 ---
-title: "Disponibilidade em Austrália"
+title: Disponibilidade em Austrália
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da Austrália."
-ms.openlocfilehash: 4552e465531ddbb331a0b0226b427ac44de1c558
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da Austrália.
+ms.openlocfilehash: ec5ac53fc0688aeb6ed960f64c5ffb35ceb216f9
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="availability-in-australia"></a>Disponibilidade em Austrália
 
@@ -53,13 +53,13 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
    
 ## <a name="calling-plans"></a>Planos de Chamadas
 > [!IMPORTANT]
-> Austrália só está disponível para visualização e clientes de clientes a adotar antecipado. Para obter mais informações, consulte [Voice Sprint](http://aka.ms/TelstraVoicePlan). 
+> Atualmente disponível apenas para visualização e adoção antecipada na Austrália. Para obter mais informações, consulte [Sprint chamando para o Office 365](http://aka.ms/TelstraVoicePlan). 
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [Serviços de voz Sprint](http://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [Sprint serviços](http://aka.ms/TelstraVoicePlan). <br/> |
-|É possível fazer chamadas de saída?  <br/> |Consulte [Sprint serviços](http://aka.ms/TelstraVoicePlan). <br/> |
+|Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim, consulte [Sprint chamando para o Office 365](http://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [Sprint chamando para o Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
+|É possível fazer chamadas de saída?  <br/> |Consulte [Sprint chamando para o Office 365](http://aka.ms/TelstraVoicePlan). <br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
@@ -69,7 +69,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
-Se você deseja obter Chamada Tarifada e números de telefone gratuitos de atendedores automáticos e filas de chamada, consulte [Serviços de voz Sprint](http://aka.ms/TelstraVoicePlan). Para números de serviço de conferência de áudio, [entre em contato conosco](mailto:ptnapac@microsoft.com).
+Se você deseja obter Chamada Tarifada e números de telefone gratuitos de atendedores automáticos e filas de chamada, consulte [Sprint chamando para o Office 365](http://aka.ms/TelstraVoicePlan). Para números de serviço de conferência de áudio, [entre em contato conosco](mailto:ptnapac@microsoft.com).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

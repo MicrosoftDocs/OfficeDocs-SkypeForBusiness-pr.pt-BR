@@ -1,7 +1,10 @@
 O Teams dá suporte aos seguintes navegadores da Internet: 
 - Internet Explorer 11
 - Microsoft Edge
+  - Chamada e reuniões com suporte no RS2 de borda ou posterior
 - A versão mais recente do Chrome, além de duas versões anteriores
+  - Chamar com suporte no Chrome 59 ou posterior
+  - Suporte de reuniões em breve
 - A versão mais recente do Firefox, além de duas versões anteriores
 
 > [!NOTE]

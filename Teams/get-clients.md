@@ -3,20 +3,22 @@ title: Obter clientes para o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/26/2018
+audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ninadara
+localization_priority: Normal
 description: Saiba como usar as diversos clientes disponíveis para o Microsoft Teams, incluindo web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cc06497da95f6c9e0f4e6a39d851125922e8b31
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 837be1b510441a46984585c517e4d125e244599a
+ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -26,30 +28,24 @@ ms.lasthandoff: 03/15/2018
 O Microsoft Teams tem clientes disponíveis para web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline.
 
 <a name="web-client"></a>Cliente web 
-----------------
+----------
 
-O cliente da web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente de funcional completo que pode ser usado em uma variedade de navegadores. Neste ponto, o cliente Web não dá suporte à comunicação em tempo real (ou seja, entrar em reuniões e receber chamadas individuais). O navegador também precisa ser configurado para permitir cookies de terceiros. 
+O cliente da web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente de funcional completo que pode ser usado em uma variedade de navegadores. O cliente web oferece suporte a reuniões e chamadas usando webRTC, portanto, há não plug-in ou download necessário para executar as equipes em um navegador da web. O navegador deve ser configurado para permitir que os cookies de terceiros. 
 
-Não é necessário nenhum plug-in ou download para utilizar o Microsoft Teams em um navegador da Web.
-
-Cliente Web executa a detecção de versão do navegador após a conexão com [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) e se uma versão sem suporte do navegador é detectada, ela será bloqueie o acesso à interface da Web e recomendável que o usuário baixe o cliente de área de trabalho ou aplicativos móveis.
-
-<a name="internet-browser-support"></a>Suporte a navegadores da Internet
-------------------------------
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-<a name="desktop-clients"></a>Clientes desktop
-------------------------
+Cliente web executa a detecção de versão do navegador após a conexão com [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) e se uma versão sem suporte do navegador é detectada, ela será bloqueie o acesso à interface da web e recomendável que o usuário baixe o cliente de área de trabalho ou aplicativos móveis.
 
-O cliente de desktop do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office Pro Plus. As equipes está disponível para o Windows (7 +), versões de 32 bits e 64 bits e MacOS (10.10 +). No Windows, equipes requer o .NET framework 4.5 ou posterior; o instalador de equipes se oferecerá para instalá-lo se você não tiver a ele.
+<a name="desktop-client"></a>Cliente de desktop
+--------------
+
+O cliente de desktop do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office Pro Plus. As equipes está disponível para o Windows (7 +), versões de 32 bits e 64 bits e MacOS (10.10 +). No Windows, equipes requer o .NET framework 4.5 ou posterior; o instalador de equipes se oferecerá para instalá-lo se você não tiver a ele. 
 
 Os clientes de área de trabalho oferecem suporte a comunicação em tempo real (áudio, vídeo e conteúdo compartilhamento) para reuniões de equipe, chamadas individuais chamando e particulares do grupo.
 
 Clientes de área de trabalho podem ser baixados e instalados pelos usuários finais diretamente do [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se eles têm as permissões apropriadas de locais (direitos de administrador não são necessários para instalar o cliente de equipes em um PC, mas são necessários em um Mac).
 
-Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação para as máquinas da sua organização, como o System Center Configuration Manager (Windows) ou o Casper Suite (MacOS).
-
-
+Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação para as máquinas da sua organização, como o System Center Configuration Manager (Windows) ou o Casper Suite (MacOS). Para fazer a distribuição de pacote do MSI para Windows, consulte [instalar equipes da Microsoft usando o MSI](msi-deployment.md).
 
 > [!NOTE]
 > A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
