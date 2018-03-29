@@ -1,0 +1,30 @@
+---
+title: Adicionar Associações de Front-End
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/25/2015
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddFrontEndAssociationsPage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
+description: 'Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:'
+ms.openlocfilehash: 04059f8a537b414ce8a2304e5a6a6c09bf597540
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="add-front-end-associations"></a>Adicionar Associações de Front-End
+ 
+Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:
+  
+- Servidor de Borda A/V. Para obter detalhes sobre a implementação de um A / V de servidor de borda, consulte [Planning for Conferencing](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) na documentação de planejamento.
+    
+> [!IMPORTANT]
+> Caso você habilite o suporte para qualquer um destes recursos agora, o projeto de topologia que você publicar incluirá os componentes de servidor necessários para implementar cada recurso escolhido. Para que a publicação da topologia seja bem-sucedida, os computadores físicos devem estar ingressados ao domínio. Por exemplo, caso você habilite o suporte para arquivamento agora, implante um Servidor de Arquivamento e configure as opções de arquivamento adequadas antes de começar a arquivar as comunicações de sua organização. 
+  
+

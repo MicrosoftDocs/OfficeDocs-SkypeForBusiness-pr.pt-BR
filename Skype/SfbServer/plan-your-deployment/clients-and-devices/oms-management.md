@@ -1,0 +1,68 @@
+---
+title: Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 2/13/2018
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
+description: Este artigo aborda as considerações de planejamento para usar o Operations Management Suite para administrar os dispositivos do Skype Room Systems v2 em sua implementação do Skype for Business Server 2015.
+ms.openlocfilehash: e6409370da3597623526379581081e617f48dd81
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS
+ 
+ Este artigo aborda as considerações de planejamento para usar o Operations Management Suite para administrar os dispositivos do Skype Room Systems v2 em sua implementação do Skype for Business Server 2015.
+  
+[Pacote de gerenciamento de operações](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview) (OMS) é uma coleção de serviços de gerenciamento que foram criados na nuvem desde o início. Em vez de implantação e gerenciamento de recursos no local, os componentes OMS inteiramente são hospedados no Windows Azure. Configuração é mínima, e você pode ser atualizado e sendo executado literalmente em questão de minutos. Com algum trabalho de personalização, ele também pode ajudar no gerenciamento de sistemas de conferência do Skype sala sistemas v2, fornecendo notificações em tempo real de integridade do sistema ou falhas para sistemas de sala individuais e potencialmente pode dimensione ao gerenciamento de milhares de sistemas de sala do Skype salas de conferência v2.
+  
+Este artigo oferece uma discussão sobre os requisitos, arquitetura do projeto e práticas recomendadas de implementação necessárias para implementar o gerenciamento de OMS dos dispositivos de conferência do Skype sala sistemas v2 e fornece links para artigos detalhados sobre a implementação OMS gerenciamento para sistemas de sala Skype v2 e informações de referência críticas para o gerenciamento contínuo de OMS de salas de v2 Skype sistemas de sala. 
+  
+## <a name="functional-overview"></a>Visão geral funcional
+
+![Diagrama do gerenciamento SRS usando OMS](../../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+  
+O aplicativo de v2 de sistemas de sala Skype no dispositivo console grava eventos seu registro de eventos do Windows. Um agente OMS, depois de instalado, envia as informações para o OMS. 
+  
+Uma vez configurado corretamente, analisa OMS a carga JSON incorporada no evento descrições para descrever como cada sistema v2 de sistemas de sala Skype está funcionando e quais falhas são detectadas. 
+  
+Um administrador usando OMS pode obter notificações dos sistemas de v2 Skype sala sistemas que estiverem offline ou está ocorrendo falhas de hardware, conectividade ou aplicativo bem como saber se um sistema precisa ser reiniciado. Cada status do sistema é atualizado a cada cinco minutos; portanto, essas notificações têm atualizações quase em tempo real.
+  
+## <a name="oms-requirements"></a>Requisitos do OMS
+
+Você deve ter uma assinatura válida do OMS para usar esse recurso. Consulte a [Introdução com um espaço de trabalho de análise de Log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started?toc=%2fazure%2foperations-management-suite%2ftoc.json) para criar uma assinatura para sua organização.
+  
+Você deve se familiarizar, conforme o necessário, com o uso do Designer de Exibição do OMS. Consulte [modos de exibição em soluções de gerenciamento do pacote de gerenciamento de operações (OMS)](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-solutions-resources-views) para obter os detalhes.
+  
+### <a name="related-tasks"></a>Tarefas relacionadas
+
+1. Depois que se inscrito para OMS, crie campos personalizados (descritos [Mapear campos personalizados](../../deploy/deploy-clients/with-oms.md#Custom_fields)) necessários para analisar as informações que serão enviadas de consoles de v2 Skype sistemas de sala. Isso inclui Noções básicas sobre o esquema JSON documentado nos [entender as entradas de log](../../manage/skype-room-systems-v2/oms.md#Telemetry).
+    
+2. Desenvolver um modo de exibição de gerenciamento do Skype sala sistemas v2 no OMS (consulte [modos de definir o v2 SRS OMS](../../deploy/deploy-clients/with-oms.md#Views)) usando o Designer de modo de exibição mencionado anteriormente.
+    
+## <a name="individual-skype-room-systems-v2-console-requirements"></a>Requisitos de Console do v2 Skype sala sistemas individuais
+
+Cada console v2 de sistemas de sala Skype é um aplicativo de execução em um dispositivo de 4 de superfície no modo de quiosque (normalmente, ele é configurado para ser o único aplicativo que pode ser executado no dispositivo). Assim como acontece com qualquer aplicativo do Windows, o aplicativo do Skype sala sistemas v2 grava eventos, como falhas de hardware e de inicialização para o Log de eventos do Windows. Adicionar um operador OMS no seu dispositivo v2 de sistemas de sala Skype permite esses eventos serão coletadas pelo OMS. (Consulte [computadores com Windows se conectar ao serviço de Log de análise no Windows Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents) para obter detalhes).
+  
+## <a name="ongoing-management"></a>Gerenciamento contínuo
+
+Durante a utilização do OMS para gerenciar seus dispositivos de conferência do Skype sala sistemas v2, você precisará compreender as informações contidas nos logs de eventos usados pelo OMS. Consulte a [entender as entradas de log](../../manage/skype-room-systems-v2/oms.md#Telemetry) para obter detalhes sobre essas mensagens de integridade.
+  
+### <a name="related-tasks"></a>Tarefas relacionadas
+
+- Entender os alertas gerados pelo sistemas de sala Skype v2 e como resolvê-los a (consulte a seção intitulada [entender as entradas de log](../../manage/skype-room-systems-v2/oms.md#Telemetry))
+    
+## <a name="see-also"></a>Consulte também
+
+#### 
+
+[Implantar o gerenciamento de v2 Skype sala sistemas com OMS](../../deploy/deploy-clients/with-oms.md)
+  
+[Gerencia dispositivos de v2 de sistemas de sala Skype com OMS](../../manage/skype-room-systems-v2/oms.md)
+

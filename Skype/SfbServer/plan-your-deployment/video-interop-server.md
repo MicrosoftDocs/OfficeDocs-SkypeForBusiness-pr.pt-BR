@@ -1,0 +1,192 @@
+---
+title: Planejar Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 8/17/2015
+ms.audience: ITPro
+ms.topic: conceptual
+f1_keywords:
+- ms.lync.plan.VideoInterop
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
+description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para Business Server 2015 com dispositivos de terceiros teleconferência.'
+ms.openlocfilehash: 1a0ae30cf383f9f05cc8c37ef2c1ba7b7c76cfb8
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="plan-for-video-interop-server-in-skype-for-business-server-2015"></a>Planejar Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015
+ 
+**Resumo:** Analise este tópico durante o planejamento para integrar o Skype para Business Server 2015 com dispositivos de terceiros teleconferência.
+  
+Skype para Business Server agora permite que você integre determinadas soluções VTC (Video Teleconferencing System) de terceiros. A nova função de servidor que permite a este interoperabilidade de conferência de vídeo é o vídeo interoperacional Server (VIS), que no momento é implementado como uma função de servidor autônomo disponível somente para instalações locais. Um VIS atua como um intermediário entre um sistema de teleconferência de terceiros e um Skype para implantação de servidor de negócios. Para essa versão, o VIS se concentra na interoperabilidade com os sistemas de vídeo da Cisco e da Tandberg. Revise este artigo para determinar quando usar esse recurso no seu Skype para instalação do servidor de negócios.
+  
+## <a name="device-interoperability"></a>Interoperabilidade de dispositivos
+
+A interoperação é testada e tem suporte nos VTCs da Cisco registrados com o CUCM versão 10.5 e troncos SIP TCP configurados entre CUCM e o VIS.
+  
+Os VTCs atualmente compatíveis são:
+  
+- Cisco C40
+    
+- Cisco C60
+    
+- Cisco C90
+    
+- Cisco MX200
+    
+- Cisco MX300
+    
+- Cisco DX80
+    
+- Cisco EX60
+    
+- Cisco EX90
+    
+- Cisco SX20
+    
+> [!NOTE]
+>  Software Cisco versão TC7.0.0 ou acima, é necessário nesses sistemas para integração com Skype para Business Server funcione conforme o esperado.
+  
+## <a name="sip-trunks"></a>Troncos SIP
+
+As funções de servidor de interoperabilidade de vídeo no modo de tronco SIP, onde os VTCs continuam a registram com a infra-estrutura existente do Cisco - por exemplo, gerente de chamada Cisco (CUCM). Define-se um tronco SIP de vídeo entre o CUCM e o VIS, de forma que as chamadas possam ser roteadas entre os dois sistemas. Somente as chamadas pelo tronco SIP feitas pelo VTC são compatíveis. Assim, VTCs possam discar para acessar um Skype para conferência de negócios (discando o número de telefone associado ao chamar Automated Attendant), mas não podem ser arrastados e solto para a conferência.
+  
+![Diagrama de VIS em SfB](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
+  
+## <a name="features"></a>Recursos
+
+Esta função de servidor oferece:
+  
+- Conversão entre os formatos de h. 264 usados pelos 3º sistemas de vídeo de terceiros e do Skype para implantação de servidor de negócios.
+    
+- Conversão de um único fluxo de vídeo em uma determinada resolução de um VTC em vários fluxos de simulcast das resoluções diferentes para uso no Skype para implantação de servidor de negócios. Desses fluxos podem ser enviados para o AVMCU e, em seguida, Skype para pontos de extremidade do servidor de negócios e outros sistemas de vídeos que solicitaram resoluções diferentes. Esta conversão também é usada quando o sistema de vídeo de terceiros está envolvido em uma Skype para negócios uma / chamadas de conferência V. Depois que o limite de transcodificação é alcançado em um determinado servidor VIS, quaisquer solicitações de seguintes para resoluções diferentes só receberá um stream com resolução mais baixa. 
+    
+- Suporte para um tronco SIP vídeo entre o gateway CUCM e um Skype para Business Server vídeo interoperacional Server; VTCs continuar a registrar com o gateway Cisco e iniciar chamadas para o Skype para implantação de negócios através do gateway. Chamadas são roteadas do gateway para o Skype para Business Server de interoperabilidade de vídeo pela vídeo tronco SIP.
+    
+- Suporte a um usuário em uma sala de conferência com sistema de vídeo compatível para fazer a discagem por esse sistema e, assim, entrar em uma conferência aberta ou fechada. Essa chamada atravessará o tronco SIP de vídeo.
+    
+- Suporte para um usuário em uma sala de conferência com um sistema de vídeo com suporte chamar um Skype para o cliente de negócios. Essa chamada atravessará o tronco SIP.
+    
+- Suporte para controle de chamada intermediário partir o Skype para lado Business Server ou o sistema VTC com suporte para chamadas ponto a ponto e multipontos incluindo Pausar/continuar vídeo, mudo/sem-mute áudio, vídeo de bloqueio e chamada em espera/un-hold.
+    
+## <a name="known-limitations"></a>Limitações conhecidas
+
+Esta função de servidor tem as seguintes limitações:
+  
+- Novas chamadas do Skype para implantação de negócios para os VTCs pelo tronco SIP vídeo não são suportadas. . Isso significa que somente as novas chamadas das VTCs no Skype para implantação de negócios são suportadas pelo vídeo tronco SIP. Presença para o sistema com suporte de vídeo não estará disponível pelo vídeo tronco SIP para o VIS. 
+    
+- Haverá suporte a somente um pool autônomo de VIS para o modo de tronco SIP de vídeo.
+    
+-  Haverá suporte para TLS + SRTP ou TCP + RTP para comunicações entre o VTC e o VIS sobre o tronco SIP de vídeo.
+    
+- Não há suporte para compartilhamento de aplicativos. Um Skype para usuário de negócios na sala de conferência deve ingressar o Skype para conferência de negócios (por meio de um laptop, por exemplo) e exiba o telas em um dos monitores gratuitos na sala de conferência não está associada com o VTC de compartilhamento de aplicativo.
+    
+- Não há suporte para o VTC entrar em uma reunião federada via VIS.
+    
+- Não há suporte para o VTC entrar em uma reunião online via VIS.
+    
+- Não há suporte para chamadas de um VTC para PSTN via VIS.
+    
+- Não há suporte para chamadas de um PSTN para um VTC via VIS.
+    
+## <a name="resiliency-mechanisms"></a>Mecanismos de resiliência
+<a name="resiliency"> </a>
+
+O VIS é compatível com chamada recebida de um CUCM que seja transmitido sobre um tronco SIP de vídeo. Como é possível perder conectividade upstream ou downstream, para conseguir uma resiliência robusta é necessário considerar as duas possibilidades:
+  
+1. **VIS Failover de Pool** Se o pool VIS principal que o gateway de vídeo aponta para está desativado, a recuperação é possível se o gateway de vídeo tiver definido troncos para pools de VIS duas (ou mais). Se o gateway de vídeo determinar que não pode fazer chamadas para o pool de VIS primário, ele simplesmente encaminhará as chamadas para o pool de VIS secundário.
+    
+     ![Diagrama de failover de pool do VIS](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+  
+    Um determinado pool VIS pode ter troncos para vários gateways, mas normalmente um gateway específico não pode ter troncos à vários pools VIS, então um truques precisam ser feito para oferecer suporte a esse failover: definir FDQNs de 2 no DNS que ser resolvido para o mesmo endereço IP de um gateway de vídeo. Representar cada FQDN como um gateway separado de vídeo no documento de topologia, onde cada gateway vídeo tem um tronco para um pool VIS diferente e recuperação agora é possível. (Se o TLS for usado, os vários nomes precisará estar no SAN do certificado do gateway de vídeo.)
+    
+    > [!NOTE]
+    > O VIS só permite chamadas de entrada de gateways configurados no Documento de Topologia. 
+  
+2. **Failover de Front-End** Se um pool VIS recebe uma chamada de CUCM, mas não consegue acessar seu pool de registrador ou Front-End de próximo salto primário, as chamadas são direcionadas para um pool de Front-End de backup.
+    
+     ![Diagrama de failover do front-end](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+  
+    O VIS vai ficar atento ao status do seu pool de Front-End principal e seu pool de Front-End de backup (a configuração é encontrada na configuração de backup para o serviço de registrador no documento de topologia). Ele envia votações opções vez a cada minuto para ambos os pools e se houver falhas consecutivas cinco a VIS supõe que um determinado pool de Front-End está desativado. Se o pool de Front-End primário está marcado como para baixo e há é uma disponível configurado backup o VIS envia novas chamadas do gateway ao pool de Front-End de backup. Depois que o pool de Front-End principal volta, voltarão a VIS usando o pool de Front-End primário para novas chamadas.
+    
+    O VIS também implantará um temporizador de 10 segundos pelo tronco do SIP de vídeo. Se o pool de Front-End do próximo salto principal foi usado para uma chamada de vídeo tronco SIP e o Front-End de principal do próximo salto para pool não respondeu com alguma mensagem SIP (incluindo Trying 100) para o convite enviado a ele dentro esse valor de timer, o proxy de próximo salto de backup para a chamada s hould ser tentado se configurado. 
+    
+    > [!NOTE]
+    > Se o próximo salto backup foi tentado primeiro, o principal não será testado Avançar. 
+  
+    O administrador também pode usar o comando de failover do Windows PowerShell para forçar o VIS para usar o backup pool de Front-End, por exemplo, quando a manutenção deve ser executado no pool de Front-End principal.
+    
+## <a name="co-existence-of-voice-and-video-trunks-to-the-same-gateway-peer"></a>Coexistência de troncos de voz e de vídeo para o mesmo par de gateway
+<a name="resiliency"> </a>
+
+Skype para suporta Business Server tendo troncos SIP de vídeo e voz usam o mesmo ponto de gateway. Assim, a mesma implantação de CUCM poderia ter troncos de SIP de voz para o Servidor de Mediação e troncos SIP de vídeo para VIS.
+  
+- Será necessário definir um gateway de PSTN com um FQDN em particular no Documento de Topologia para os troncos SIP de voz.
+    
+- O par do Gateway do PSTN será o Servidor de Mediação.
+    
+- Vários troncos de voz podem ser definidos, variando de um gateway de PSTN até vários pools do Servidor de Mediação, se necessário.
+    
+- O Gateway de Vídeo precisará ser definido no Documento de Topologia para o tronco do SIP do vídeo com o mesmo FQDN que o do Gateway do PSTN.
+    
+- O par para o Gateway de Vídeo será VIS.
+    
+- Um único tronco de vídeo pode ser definido por um Gateway de Vídeo para um pool VIS em particular.
+    
+- O CUCM precisará ser configurado para encaminhar corretamente as chamadas pelo tronco de voz pelo tronco de vídeo. Por exemplo: um prefixo de discagem especial poderia ser usado ao discar pelo VTC; o CUCM poderia associar o prefixo de discagem com chamadas ao VIS, e regras de conversão adequadas tirariam esse prefixo do SIP Invite para o VIS.
+    
+## <a name="co-existence-of-vis-in-the-skype-for-business-release-with-previous-releases-of-lync"></a>Coexistência de VIS na versão do Skype for Business com versões anteriores do Lync
+<a name="resiliency"> </a>
+
+O VIS só poderá ser implantado como parte da implantação do Skype for Business. A interoperação será possível com conferências do Lync 2013 e clientes que fazem parte de uma implantação existente; nesses casos, o pool do VIS precisará fazer parte de uma implantação do Skype for Business que inclua um pool de Registrador Automático/FE que seja o próximo salto para o pool do VIS.
+  
+O VIS não é compatível com a transcodificação entre RTV e H.264. Não há interoperabilidade do vídeo entre clientes pré-Lync 2013 e participantes de VTC em uma conferência.
+  
+Ter pré-Lync 2013 clientes em uma conferência fará com que os clientes móveis enviar usando RTV, resultando em VTCs não recebendo nenhum vídeo quando o cliente móvel se torna o alto-falante dominante.
+  
+Para o Lync 2013 funcione corretamente com VIS que faz parte de um Skype para implantação de negócios, Lync 2013 precisa a CU apropriada a ser aplicado que atualiza o cliente do Lync 2013, CAA e AVMCU para trabalhar com VIS.
+  
+Interoperabilidade de VIS com o Lync 2013 e Skype para clientes de área de trabalho de negócios foi testada e é suportada.
+  
+Interoperabilidade do VIS com desktop (Android, Ipad, Iphone, Windows Phone, LMX, etc.) Skype para clientes corporativos disponíveis do armazenamento de aplicativos aplicável no momento da versão VIS foi testada e é suportado.
+  
+## <a name="recovery-from-packet-loss-via-fec"></a>Recuperação da perda de pacote via FEC
+<a name="resiliency"> </a>
+
+O FEC pode ser ativado para ajudar na recuperação da perda do pacote. Se ativado, será usado 50% mais de largura de banda na direção de VIS para VTC.
+  
+## <a name="vis-sizing-and-transcoding-costs"></a>Custos de dimensionamento e transcodificação de VIS
+<a name="resiliency"> </a>
+
+A transcodificação de fluxos de vídeo únicos do Cisco VTC para vários fluxos simulcast usa a capacidade da CPU. Aproximadamente 16 VTCs podem ter seu vídeo transcodificados (supondo que um fluxo de vídeo 720 pixels de cada VTC esteja transcodificados em 3 fluxos simulcast separado em 720 pixels, 360p e 180p) em um único VIS em execução no equivalente do Lync 2013 recomendado plataforma FE. Se a transcodificação for desativada, a CPU do VIS será poupada. No entanto, a imagem de vídeo solicitada pelo VIS do VTC será a mais baixa resolução em comum para atender todos os receptores do lado do Skype for Business. Observe que até mesmo com a transcodificação desativada, ela poderá ser ativada quando os clientes do Skype for Business solicitarem determinadas baixas resoluções que os VTCs não podem enviar.
+  
+## <a name="call-distribution-from-the-video-gateway-to-vis"></a>Distribuição de chamada do gateway de vídeo para o VIS
+<a name="resiliency"> </a>
+
+A distribuição é conquistada por um dos mecanismos de distribuição de CUCM:
+  
+- Dinamicamente usando DNS.
+    
+- No lado do CUCM, você pode definir cada um dos troncos, sendo que cada um termina em um servidor diferente do pool de VIS. O CUCM encaminhará as chamadas pelos diferentes troncos.
+    
+## <a name="no-hybrid-interoperability"></a>Sem interoperabilidade híbrida
+<a name="resiliency"> </a>
+
+O suporte a VTCs que entram para reuniões online via VIS local não faz parte do Skype for Business.
+  
+## <a name="no-federation-support"></a>Sem suporte de federação
+<a name="resiliency"> </a>
+
+O suporte a VTCs que entram para reuniões federadas via VIS não faz parte do Skype for Business.
+  
+## <a name="see-also"></a>Ver também
+<a name="resiliency"> </a>
+
+#### 
+
+[Implante o servidor de interoperabilidade de vídeo em Skype para Business Server 2015](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
+

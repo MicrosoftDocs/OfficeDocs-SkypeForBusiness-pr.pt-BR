@@ -1,0 +1,125 @@
+---
+title: Relatório de Inventário de Telefones IP no Skype for Business Server 2015
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 1/31/2018
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
+description: 'Resumo: Saiba mais sobre o relatório de inventário de telefones IP no Skype para Business Server 2015.'
+ms.openlocfilehash: a161fae573a10f8da875736387284f0771a363e9
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Relatório de Inventário de Telefones IP no Skype for Business Server 2015
+ 
+**Resumo:** Saiba mais sobre o relatório de inventário de telefones IP no Skype para Business Server 2015.
+  
+O Relatório de Inventário de Telefones IP relata informações sobre os telefones IP em uso no momento em sua organização. O Relatório de Inventário de Telefones IP fornece uma lista detalhada de telefones IP que foram usados durante o período de relatório especificado. Entre outras coisas, esse relatório permite que os administradores saibam se há algum telefone velho e desatualizado em uso que deveria ser substituído; ele também alerta os administradores para o fato de que há telefones caros na organização, que raramente são usados. Esse tipo de informação pode ser inestimável quando se trata de comprar novos telefones ou redistribuir os existentes. (Por exemplo, um usuário que raramente usa seu telefone caro pode pedir para trocar com um usuário que usa seu telefone com muito mais frequência).
+  
+Deve-se observar que esse relatório tem algumas limitações quando se trata de ser usado como um relatório de inventário verdadeiro. Primeiro, o relatório de telefones IP simplesmente lista todos os telefones que conectarem ao Skype para Business Server durante o período de tempo especificado, classificados por seu horário do último logon. Se um telefone não fizer logon durante o período especificado, ele não será listado no relatório de inventário. Isso inclui telefones que fizeram logon antes de o período iniciar e que ainda estavam conectados durante esse intervalo especificado. Por exemplo, suponhamos que você queira examinar todo o inventário de telefones de julho de 2015. Suponha, também, que vários telefones conectarem ao Skype para Business Server em 30 de junho de 2015 e ainda tiver feitos logon a partir de 1 ° de julho. Esses telefones não serão exibidos no relatório de inventário do dia 1º de julho.
+  
+Também é importante observar que o relatório de inventário pode incluir telefones que sua organização não usa mais. Por exemplo, suponhamos uma série de telefones da Fabrikam fizeram logon no sistema em 1 de julho de 2015; 5 dias depois que sua organização decide se livrar de todos esses telefones da Fabrikam e substituí-los por um novo modelo da Contoso. Os telefones da Fabrikam ainda aparecerão no relatório de "inventário" simplesmente porque eles fizeram logon no sistema durante o mês de julho.
+  
+Além disso, o Relatório de Inventário de Telefones IP não relata totais resumidos de diferentes tipos de telefones. Por exemplo, suponhamos que você tenha 105 telefones Polycom CX600. O relatório não dirá que você tem 105 desses telefones; ele simplesmente verá 105 entidades separadas do Polycom CX600. A única maneira de saber que há 105 entradas do Polycom Cx600 seria contar cada uma dessas entradas manualmente.
+  
+> [!TIP]
+> Você também pode exportar os dados e usar o Microsoft Excel ou Windows PowerShell para fazer essa contagem. 
+  
+## <a name="accessing-the-ip-phone-inventory-report"></a>Como acessar o Relatório de Inventário de Telefones IP
+
+O Relatório de Inventário de Telefones IP é acessado a partir da página inicial de Relatórios de Monitoramento. Se clicar na métrica URI do Usuário, você poderá acessar o Relatório de Atividades do Usuário desse usuário. Clicar na métrica Última atividade para uma chamada ponto a ponto levará você ao Relatório Detalhado de Sessão Ponto a Ponto; clicar na mesma métrica de uma conferência levará ao Relatório Detalhado de Conferências.
+  
+## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Como usar o Relatório de Inventário de Telefones IP da melhor maneira possível
+
+Se estiver interessado apenas nas informações de uso de um tipo de telefone específico (por exemplo, "Qual é a frequência que os usuários usam um telefone Polycom CX600?"), você poderá obter essas informações diretamente do Relatório de Inventário de Telefones IP, filtrando por esse tipo específico de telefone. No entanto, se desejar informações resumidas sobre todos os seus telefones (quantas pessoas estão usando o Polycom CX600, quantas usam o LG-Nortel IP8540 etc.), será necessário exportar os dados e usar outro aplicativo (como Windows PowerShell) para fazer esse tipo de análise. Por exemplo, suponhamos que você exporte os dados para um arquivo com valores separados por vírgula (C:\Data\IP_Phone_Inventory_Report.csv). Nesse caso, você poderá usar estes dois comandos para fornecer dados de resumo de todos seus telefones:
+  
+```
+$phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
+$phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
+```
+
+Isso retornará dados similares a estes:
+  
+```
+Count    Name
+-----    ----
+  267    POLYCOM, CX700
+  267    POLYCOM, CX600
+  166    POLYCOM, C
+   68    Microsoft, CPE
+   64    LG-Nortel, IP8540
+   59    Aastra, 6725ip
+   37    LG-Nortel, IP
+   22    POLYCOM, CX3000
+   11    Microsoft, CPE_A
+    9    POLYCOM, CX500
+    7    Aastra, 6721ip
+
+```
+
+Similarmente, estes dois comandos dizem quais telefones fizeram logon no sistema, mas nunca foram realmente usados para fazer uma chamada (o valor da métrica Última atividade está em branco, indicando que nunca houve nenhuma última atividade):
+  
+```
+$phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
+$phones | Where-Object {$_."Last activity" -eq ""}
+```
+
+Isso retorna dados similares a estes para cada telefone que não foi usado:
+  
+```
+Manufacturer     : POLYCOM
+Hardware version : CX600
+MAC address      : 00-04-F2-00-01-76
+User URI         : 422
+User agent       : CPE/4.0.7423.1 OCPhone/4.0.7423.1 (Microsoft Lync 2010 (Beta) Phone Edition)
+Last logon time  : 8/30/2010 4:44:48 PM
+Last logoff time : 8/30/2010 5:59:07 PM
+Last activity    :
+```
+
+Outra maneira interessante de usar o Relatório de Inventário de Telefones IP é este: sabendo o endereço MAC de um telefone IP, você poderá descobrir o usuário que usou o telefone por último, simplesmente inserindo esse endereço na caixa de texto Endereço MAC. O Relatório de Inventário de Telefones IP relatará (entre outras coisas) o endereço SIP do usuário que fez logon por último com esse telefone. Como alternativa, você pode inserir o endereço SIP do usuário (na caixa Prefixo URI do Usuário) para descobrir todos os telefones que foram usados por esse usuário.
+  
+## <a name="filters"></a>Filtros
+
+Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Inventário de Telefones IP permite exibir somente os telefones fabricados por uma empresa específica ou até mesmo uma versão específica desses telefones. Você também pode escolher como os dados serão agrupados. Nesse caso, os registros são agrupados por hora, dia, semana ou mês.
+  
+A tabela seguir lista os filtros que podem ser usados com o Relatório de Inventário de Telefones IP.
+  
+**Filtros de relatório de inventário de telefone IP**
+
+|**Nome**|**Descrição**|
+|:-----|:-----|
+|**De** <br/> |Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**Até** <br/> |Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:  <br/> 7/7/2015 13:00  <br/> Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:  <br/> 7/7/2015  <br/> Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):  <br/> 03/07/2015  <br/> As semanas sempre vão de domingo a sábado.  <br/> |
+|**Fabricante** <br/> |Nome da empresa que fabricou o telefone IP. Os valores desse filtro são preenchidos automaticamente, com base nos telefones IP que estão atualmente no banco de dados.  <br/> |
+|**Versão do hardware** <br/> |Número da versão do telefone IP; usando os filtros Fabricante e Versão do hardware, é possível identificar de forma única um tipo específico de telefone. Os valores desse filtro são preenchidos automaticamente, com base nos telefones IP que estão atualmente no banco de dados.  <br/> |
+|**Agente do usuário** <br/> |Identificador do software usado pelo telefone IP. Os valores desse filtro são preenchidos automaticamente, com base nos telefones IP que estão atualmente no banco de dados.  <br/> |
+|**Endereço MAC** <br/> |Identificador único da interface de rede no telefone IP. O endereço de Controle de Acesso à Mídia (MAC) normalmente é atribuído no momento em que o telefone é fabricado e é programado no hardware do dispositivo.  <br/> Para pesquisar registros pertencentes a um endereço MAC específico, baste inserir o endereço. Por exemplo:  <br/> 00-08-5D-16-16-48  <br/> Você deve inserir o endereço completo. Um endereço parcial (por exemplo, 00-08-5D) não retorna dados.  <br/> |
+|**Dias antes da última atividade** <br/> | Selecione um dos seguintes valores: <br/>  [Todos] <br/>  10 <br/>  20 <br/>  30 <br/> |
+|**Dias antes da hora do último logoff** <br/> | Selecione um dos seguintes valores: <br/>  [Todos] <br/>  10 <br/>  20 <br/>  30 <br/> |
+|**Prefixo URI do usuário** <br/> |Endereço SIP do usuário que utilizou o telefone IP.  <br/> |
+   
+## <a name="metrics"></a>Métricas
+
+A tabela a seguir lista as informações fornecidas no Relatório de Inventário de Telefones IP.
+  
+**Métricas do relatório de inventário de telefone IP**
+
+|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|:-----|:-----|:-----|
+|**Fabricante** <br/> |Sim  <br/> |Nome da empresa que fabricou o telefone IP.  <br/> |
+|**Versão do hardware** <br/> |Sim  <br/> |Número da versão do telefone IP.  <br/> |
+|**Endereço MAC** <br/> |Sim  <br/> |Identificador único da interface de rede no telefone IP. O endereço MAC normalmente é atribuído no momento em que o telefone é fabricado e é programado no hardware do dispositivo.  <br/> |
+|**URI do Usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que utilizou o telefone IP.  <br/> |
+|**Agente do usuário** <br/> |Sim  <br/> |Identificador do software usado pelo telefone IP.  <br/> |
+|**Horário do último logon** <br/> |Sim  <br/> |Data e hora em que o telefone IP último logon Skype para Business Server.  <br/> |
+|**Horário do último logoff** <br/> |Sim  <br/> |Data e hora em que o telefone IP último logoff do Skype para Business Server.  <br/> |
+|**Última atividade** <br/> |Sim  <br/> |Data e hora em que o telefone IP foi utilizado pela última vez.  <br/> |
+   
+

@@ -1,0 +1,93 @@
+---
+title: Relatório de lista de chamadas no Skype for Business Server 2015
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 3/28/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
+description: 'Resumo: Saiba mais sobre o Call List Report usada no Skype para Business Server 2015.'
+ms.openlocfilehash: 8e26f5e9dbe3b72cb07333dae7a10cc2d4bcb80d
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="call-list-report-in-skype-for-business-server-2015"></a>Relatório de lista de chamadas no Skype for Business Server 2015
+ 
+**Resumo:** Saiba mais sobre o Call List Report usada no Skype para Business Server 2015.
+  
+O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experiência) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependem de como você acessa o relatório de Lista de Chamadas. Por exemplo, se você abrir o relatório do [Relatório de dispositivo no Skype para Business Server 2015](device-report.md), você verá métricas, como a seguir, as métricas que também são relatadas no relatório de dispositivo:
+  
+- Microfone do chamador
+    
+- Alto-falante do chamador
+    
+- Microfone do receptor
+    
+- Alto-falante do receptor
+    
+- Tempo de troca da taxa de voz 
+    
+No entanto, se você abrir o relatório de lista de chamadas do [Location Report no Skype para Business Server 2015](location-report.md), você não verá nenhuma dessas métricas; em vez disso, você verá métricas como estes:
+  
+- Viagem de ida e volta (ms)
+    
+- Degradação (MOS)
+    
+- Perda de pacote
+    
+- Tremulação (ms)
+    
+Há métricas relatadas no Relatório de Local. Entretanto, a partir do Relatório de Lista de Chamadas, é sempre possível clicar na métrica Detalhe para fornecer informações completas de QoE de qualquer chamada.
+  
+## <a name="accessing-the-call-list-report"></a>Como acessar o Relatório de Lista de Chamadas
+
+O Relatório de Lista de Chamadas pode ser acessado de qualquer um dos seguintes relatórios:
+  
+- O [Relatório de localização no Skype para Business Server 2015](location-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+    
+- O [Relatório de dispositivo no Skype para Business Server 2015](device-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+    
+- O [Relatório de resumo de qualidade de mídia no Skype para Business Server 2015](summary.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+    
+- O [Server Performance Report no Skype para Business Server 2015](server-performance.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+    
+De dentro do Call List Report você pode acessar o [Relatório detalhado de chamadas no Skype para Business Server 2015](call-detail-report.md) clicando na métrica detalhe.
+  
+## <a name="making-the-best-use-of-the-call-list-report"></a>Como usar melhor o Relatório de Lista de Chamada
+
+Se não conseguir se lembrar o que algumas das métricas do Relatório de Lista de Chamada (como o Tempo de troca da taxa de voz) realmente medem, coloque o mouse sobre o rótulo da métrica; uma dica de ferramenta aparecerá fornecendo uma breve descrição da métrica.
+  
+## <a name="filters"></a>Filtros
+
+Nenhum. Não é possível filtrar o Relatório de Lista de Chamadas.
+  
+## <a name="metrics"></a>Métricas
+
+A tabela a seguir lista as informações detalhadas fornecidas no Relatório de Lista de Chamadas para cada chamada.
+  
+**Métricas do relatório de lista de chamadas**
+
+|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|:-----|:-----|:-----|
+|**Detalhes** <br/> |Não  <br/> |Ao clicar neste item, o relatório exibe informações adicionais sobre a chamada.  <br/> |
+|**Chamador** <br/> |Sim  <br/> |Endereço SIP da pessoa que iniciou a chamada.  <br/> |
+|**Receptor** <br/> |Sim  <br/> |Endereço SIP da pessoa que recebeu a chamada.  <br/> |
+|**Hora inicial** <br/> |Sim  <br/> |Data e horário em que a chamada teve início.  <br/> |
+|**Hora final** <br/> |Sim  <br/> |Data e horário em que a chamada terminou.  <br/> |
+|**Agente do usuário do chamador** <br/> |Sim  <br/> |Software usado pelo ponto de extremidade da pessoa que iniciou a chamada.  <br/> |
+|**Agente do usuário do receptor** <br/> |Sim  <br/> |Software usado pelo ponto de extremidade da pessoa que recebeu a chamada.  <br/> |
+|**Ida e volta (ms)** <br/> |Sim  <br/> |Quantidade média de (em milissegundos) exigida para que um pacote RTP (protocolo de transporte em tempo real) viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 100 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de ida e volta pode ser causados por roteamento de chamada internacional, um erro de configuração de roteamento ou um servidor de mídia sobrecarregado. Tempos de ida e volta altos resultam em dificuldades com conversas de áudio em tempo real e bidirecionais.  <br/> |
+|**Degradação (MOS)** <br/> |Sim  <br/> |Quantidade média da degradação da pontuação média de opinião (MOS, mean opinion score) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. No Skype para Business Server, um conjunto de algoritmos prever como usuários classificou uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Perda de pacote** <br/> |Sim  <br/> |Taxa média de perda de pacote RTP. (A perda de pacote ocorre quando os pacotes RTP, um protocolo usado para transmissão de áudio e vídeo pela Internet, não conseguem chegar aos seus destinos.) Taxas de perda altas normalmente são causadas por congestionamento, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia sobrecarregado. A perda de pacote normalmente resulta em perda ou distorção de áudio.  <br/> |
+|**Tremulação** <br/> |Sim  <br/> |Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
+|**Taxa de correção oculta** <br/> |Sim  <br/> |Taxa média de amostras de áudio ocultas para o número total de amostras. (Uma amostra de áudio oculta é uma técnica usada para suavizar a transição abrupta que normalmente seria causada por pacotes de rede descartados.) Valores altos indicam níveis consideráveis de perda de ocultação aplicada causada por perda de pacote ou tremulação e resulta na perda ou distorção de áudio.  <br/> |
+|**Taxa de correção estendida** <br/> |Sim  <br/> |Taxa média de amostras de áudio estendidas para o número total de amostras. (Áudio estendido é o áudio que foi expandido a fim de ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos indicam níveis significativos de extensão de amostra causada por tremulação e resultam em um som robótico ou distorcido.  <br/> |
+|**Taxa de correção compactada** <br/> |Sim  <br/> |Taxa média de amostras de áudio compactadas para o número total de amostras. (Áudio compactado é o áudio que foi compactado para ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos podem indicar níveis consideráveis de compactação de amostra causada por tremulação e resultam em um som acelerado ou distorcido.  <br/> |
+|**Conectividade** <br/> |Sim  <br/> | Tipo de link de comunicação sem fio. Normalmente é um dos seguintes: <br/>  Retransmissão <br/>  Direto <br/> |
+   
+

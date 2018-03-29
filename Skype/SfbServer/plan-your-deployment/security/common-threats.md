@@ -1,0 +1,108 @@
+---
+title: Ameaças de segurança comuns no Modern Day Computing
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.date: 3/22/2016
+ms.audience: ITPro
+ms.topic: conceptual
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
+description: Como Skype para Business Server 2015 é um sistema de comunicação de classe empresarial, você deve estar ciente dos ataques de segurança comuns que podem afetar sua infraestrutura e comunicações.
+ms.openlocfilehash: 351e609ed06ecc84f9417368ac54b7c6424ca01d
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="common-security-threats-in-modern-day-computing"></a>Ameaças de segurança comuns no Modern Day Computing
+ 
+Como Skype para Business Server 2015 é um sistema de comunicação de classe empresarial, você deve estar ciente dos ataques de segurança comuns que podem afetar sua infraestrutura e comunicações.
+  
+## <a name="compromised-key-attack"></a>Chave de Ataque Comprometida
+
+Uma chave é um código secreto ou um número que é usado para criptografar, descriptografar ou validar uma informação secreta. Há duas chaves sensitivas em uso na chave de infraestrutura pública (PKI) que deve ser considerada: .
+  
+- A chave privada que cada titular do certificado tem
+    
+- A chave da sessão que é usada depois da identificação com sucesso e a chave da sessão alterada pelos parceiros de comunicação
+    
+Um ataque à chave comprometida acontece quando o atacante determina a chave de privacidade ou a chave da sessão. Quando o atacante é bem sucedido nesta determinação da chave, ele pode usá-la para descriptografar dados criptografados sem que o remetente.
+  
+Skype para Business Server usa os recursos PKI no sistema operacional Windows Server para proteger os dados da chave usados para criptografia para as conexões de segurança de camada de transporte (TLS). As chaves usadas para criptografar mídia são trocadas através de conexões TLS.
+  
+## <a name="network-denial-of-service-attack"></a>Rede de Ataque De Negação de Serviço
+
+O ataque de negação de serviço ocorre quando o invasor impede o uso normal da rede e function pelos usuários válidos. Isso é feito quando o atacante inunda o serviço com pedidos legítimos que domina o uso do serviço pelos usuários legítimos. Usando um ataque de negação de serviço, o atacante pode fazer o seguinte:
+  
+- Enviar dados inválidos aos aplicativos e serviços que estão funcionando na rede atacada para interromper o funcionamento normal delel.
+    
+- Enviar uma grande quantidade de tráfego, sobrecarregando o sistema até que ele pare de responder ou responda devagar aos pedidos legítimos.
+    
+- Esconder a evidência dos ataques.
+    
+- Impedir os usuários de acessar os recursos de acesso a rede.
+    
+## <a name="eavesdropping-sniffing-snooping"></a>Espionagem (Bisbilhotar, Intrometer)
+
+A interceptação pode ocorrer quando um invasor consegue acessar o caminho dos dados em uma rede e é capaz de monitorar e ler o tráfego. Isso também é calledsniffing orsnooping. Se o tráfego está no texto plano, o atacante pode lê-lo quando o atacante ganha acesso ao caminho. Um exemplo é um ataque realizado no controle de um router no caminho dos dados. 
+  
+A configuração para o tráfego Skype para Business Server e uma recomendação padrão é usar o TLS mútuo (MTLS) entre servidores confiáveis e TLS do cliente para servidor. Essa medida protetora poderia dificultar e muito um ataque ou impossibilitar o alcance com o período de tempo no qual tal conversa ocorre. TLS autentica todas as partes e criptografa todo tráfego. Isso não impede a espionagem, mas o atacante não pode ler o tráfego, a não ser que quebre a criptografia.
+  
+O protocolo de Relay de Uso Traversal NAT (TURN) não exige o tráfego para ser criptografado e as informações que são enviadas são protegidas pela integridade da mensagem. Mesmo estando abertas apara a espionagem, as informações que são enviadas (o endereço do IP e a porta) podem ser extraídas diretamente dando uma simples olhada nos endereços de saída e de destino dos pacotes. O serviço A/V Edge certifica que os dados são válidos verificando a Integridade da Mensagem da mensagem, usando a chave derivada de poucos itens, incluindo uma senha do TURN, que nunca é enviada em um texto claro. Se o ProtocoIo (SRTP) é usado, o tráfego de mídia também é criptografado.
+  
+## <a name="identity-spoofing-ip-address-spoofing"></a>Falsificação de ID (endereço de IP de Falsificação)
+
+Falsificação ocorre quando o invasor determina e usa o endereço IP de uma rede, o computador ou o componente de rede sem estar autorizado a fazer isso. Um ataque bem-sucedido permite que o atacante opere como se fosse a entidade normalmente identificada pelo endereço IP. Dentro do contexto do Skype para Business Server, este acontecerá somente se um administrador tiver executado um dos seguintes procedimentos:
+  
+- Conexões configuradas que suportam apenas o Protocolo de Controle de Transmissão (TCP) (o que não é recomendado, porque as comunicações do TCP são descriptografadas).
+    
+- Marque os endereços de IP daquelas conexões como hosts confiáveis.
+    
+Este é o menor dos problemas para as conexões de Transport Layer Security (TLS), uma vez que a TLS autentica toda as partes e criptografa todo o tráfego. Usar a TLS impede que um atacante falsifique o endereço IP em uma conexão específica (por exemplo, conexões TLS mútuas). Mas o invasor ainda pode falsificar o endereço do servidor DNS, que usa Skype para Business Server. No entanto, como autenticação no Skype para negócios é realizada com certificados, um invasor não tem um certificado válido necessário para realizar a falsificação uma das partes na comunicação.
+  
+## <a name="man-in-the-middle-attack"></a>Ataque a intermediário
+
+Um ataque man-in-the-middle ocorre quando um invasor roteia novamente a comunicação entre dois usuários através do computador do invasor sem o conhecimento dos dois usuários estão se comunicando. O invasor pode monitorar e ler o tráfego antes de enviá-lo ao destinatário pretendido. Cada usuário na comunicação inconscientemente envia o tráfego para e recebe o tráfego do invasor, tudo isso pensando que está se comunicando somente com o usuário desejado. Isso pode acontecer se um invasor pode modificar o serviços de domínio Active Directory para adicionar seu servidor como um servidor confiável ou modificar DNS Domain Name System () para obter os clientes se conectem por meio do invasor na sua maneira no servidor. Um ataque man-in-the-middle também pode ocorrer com o tráfego de mídia entre dois clientes. No entanto, Skype para Business Server ponto a ponto de áudio, vídeo e compartilhamento de aplicativos, fluxos são criptografados com o protocolo SRTP, usando as chaves de criptografia que são negociadas entre os pontos que estão usando o protocolo de iniciação de sessão (SIP) sobre TLS. Servidores como o Chat de grupo fazer uso de HTTPS para aprimorar a segurança do tráfego da web.
+  
+## <a name="rtp-replay-attack"></a>Ataque por Repetição RTP
+
+Um ataque de repetição ocorre quando uma transmissão de mídia válida entre duas partes é interceptada e retransmitida para fins mal-intencionados. O SRTP usado em conexão com um protocolo de sinalização de segurança protege as transmissões contra ataques por repetição, habilitando o receptor a manter um índice de pacotes RTP já recebidos e a comparar cada novo pacote com aqueles já listados no índice.
+  
+## <a name="spim"></a>Spim
+
+Spim são mensagens instantâneas comerciais não solicitadas ou inscrição de presença solicitações. Embora não seja por si só um comprometimento da rede, é, no mínimo, irritante, pois pode reduzir a disponibilidade e a produção de recursos e levar a um comprometimento da rede. Um exemplo disso é quando os usuários fazem "spimming" uns para os outros, por meio de envios de solicitações. Os usuários podem bloquear uns aos outros para evitar isso, mas com a federação, se um ataque spim coordenado for estabelecido, isso poderá ser difícil de superar, a não ser que você desabilite a federação do parceiro.
+  
+## <a name="viruses-and-worms"></a>Vírus e Worms
+
+Um vírus é uma unidade de código cuja finalidade é reproduzir unidades de código adicionais similares. Para funcionar, um vírus precisa de um host, como um arquivo, email ou programa. Aworm é uma unidade de código cuja finalidade é reproduzir unidades de código adicionais similares, mas ela não precisa ter um host. Os vírus e os worms aparecem principalmente durante transferências de arquivos entre clientes ou quando as URLs são enviadas por outros usuários. Um vírus no seu computador pode, por exemplo, usar sua identidade e enviar mensagens instantâneas em seu nome.
+  
+## <a name="personally-identifiable-information"></a>Informações de Identificação Pessoal
+
+Skype para Business Server tem o potencial de divulgar informações em uma rede pública que poderia ser vinculados a um indivíduo. Os tipos de informações podem ser separados em duas categorias específicas:
+  
+- **Dados de presença avançada** Dados de presença avançada são informações que um usuário pode optar por compartilhar ou não em um vínculo a um parceiro federado ou com contatos dentro de uma organização. Esses dados não são compartilhados com usuários em uma rede IM pública. As políticas dos clientes e outras configurações de clientes podem dar um certo controle com o administrador do sistema. Skype para Business Server, o modo de privacidade de presença avançada pode ser configurado para um usuário individual evitar que Skype para usuários comerciais não na lista de contatos do usuário vejam as informações de presença do usuário. Modo de privacidade de presença avançada não impede que os usuários do Microsoft Office Communicator 2007 e Microsoft Office Communicator 2007 R2 ver informações de presença de um usuário. Para obter detalhes sobre como implantar o cliente e a presença, consulte [Deploy de clientes para o Skype para Business Server 2015](../../deploy/deploy-clients/deploy-clients.md) e [Planejar a mensagens instantâneas e presença no Skype para Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md).
+    
+- **Dados obrigatórios** Dados obrigatórios é necessários para a operação adequada do servidor ou o cliente e não está sob o controle de administração do sistema ou do cliente. Essas informações são necessárias no nível do servidor ou no nível da rede para fins de roteamento, manutenção de estado e sinalização.
+    
+As seguintes listas tabelas de dados são exibidas para a rede pública.
+  
+**Dados de presença avançada**
+
+|**Dados divulgados**|**Configurações possíveis**|
+|:-----|:-----|
+|Dados Pessoais  <br/> |Nome, Título, empresa, Email, Fuso Horário  <br/> |
+|Números de Telefone  <br/> |Comercial, Celular, Residencial  <br/> |
+|Informações de Calendário  <br/> |Disponível/Ocupado, Aviso de Ausência, Detalhes da Reunião (para aqueles que têm acesso ao seu calendário)  <br/> |
+|Status de Presença  <br/> |Ausente, Disponível, Ocupado, Não Perturbe, Offline  <br/> |
+   
+**Dados obrigatórios**
+
+|**Dados divulgados**|**Informações de exemplo**|
+|:-----|:-----|
+|Endereço de IP  <br/> |Endereço atual do computador ou endereço do NATed  <br/> |
+|URI do SIP  <br/> |jeremylos@litwareinc.com  <br/> |
+   
+
