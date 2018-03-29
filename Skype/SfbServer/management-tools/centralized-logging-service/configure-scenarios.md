@@ -1,0 +1,226 @@
+---
+title: Configurar cenários para o Serviço de Log Centralizado no Skype for Business Server 2015
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.date: 12/20/2016
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: IT_Skype16
+ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
+description: 'Resumo: Saiba como criar, modificar e remover cenários para o serviço de registro em log centralizado no Skype para Business Server 2015.'
+ms.openlocfilehash: e8b9575ed949e1769e867113be301deede981018
+ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 03/28/2018
+---
+# <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a><span data-ttu-id="4aa61-103">Configurar cenários para o Serviço de Log Centralizado no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="4aa61-103">Configure scenarios for the Centralized Logging Service in Skype for Business Server 2015</span></span>
+ 
+<span data-ttu-id="4aa61-104">**Resumo:** Saiba como criar, modificar e remover cenários para o serviço de registro em log centralizado no Skype para Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="4aa61-104">**Summary:** Learn how to create, modify, and remove scenarios for the Centralized Logging Service in Skype for Business Server 2015.</span></span>
+  
+<span data-ttu-id="4aa61-105">Cenários de definem o escopo (ou seja, global, site, pool ou computador) e quais provedores a serem usados no serviço de registro em log centralizado.</span><span class="sxs-lookup"><span data-stu-id="4aa61-105">Scenarios define the scope (that is, global, site, pool, or computer) and what providers to use in the Centralized Logging Service.</span></span> <span data-ttu-id="4aa61-106">Ao utilizar cenários, você habilita ou desabilita o rastreamento em provedores (por exemplo, S4, SIPStack, mensagens instantâneas e Presença).</span><span class="sxs-lookup"><span data-stu-id="4aa61-106">By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence).</span></span> <span data-ttu-id="4aa61-107">Ao configurar um cenário, você pode agrupar todos os provedores de uma determinada coleção lógica que aborda uma condição de problema específica.</span><span class="sxs-lookup"><span data-stu-id="4aa61-107">By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition.</span></span> <span data-ttu-id="4aa61-108">Se você achar que um cenário precisa ser modificado para atender a sua solução de problemas e necessidades de log, o Skype para as ferramentas de depuração do 2015 Business Server fornece um módulo do Windows PowerShell chamado ClsScenarioEdit.psm1 que contém uma função namedEdit-CsClsScenario.</span><span class="sxs-lookup"><span data-stu-id="4aa61-108">If you find that a scenario needs to be modified to meet your troubleshooting and logging needs, the Skype for Business Server 2015 Debug Tools provides you a Windows PowerShell module named ClsScenarioEdit.psm1 that contains a function namedEdit-CsClsScenario.</span></span> <span data-ttu-id="4aa61-109">O objetivo do módulo é editar as propriedades do cenário nomeado.</span><span class="sxs-lookup"><span data-stu-id="4aa61-109">The purpose of the module is to edit the properties of the named scenario.</span></span> <span data-ttu-id="4aa61-110">Exemplos do funcionamento desse módulo são fornecidos neste tópico.</span><span class="sxs-lookup"><span data-stu-id="4aa61-110">Examples of how this module works are provided in this topic.</span></span> <span data-ttu-id="4aa61-111">Baixe o Skype para Business Server 2015 [Ferramentas de depuração](https://go.microsoft.com/fwlink/p/?LinkId=285257) antes de prosseguir qualquer um.</span><span class="sxs-lookup"><span data-stu-id="4aa61-111">Download the Skype for Business Server 2015 [Debugging Tools](https://go.microsoft.com/fwlink/p/?LinkId=285257) before going any further.</span></span>
+  
+> [!IMPORTANT]
+> <span data-ttu-id="4aa61-112">Seja qual for o escopo (global, site, pool ou computador), é possível executar no máximo dois cenários por vez.</span><span class="sxs-lookup"><span data-stu-id="4aa61-112">For any given scope—site, global, pool or computer—you can run a maximum of two scenarios at any given time.</span></span> <span data-ttu-id="4aa61-113">Para determinar quais cenários estão em execução, use o Windows PowerShell e [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="4aa61-113">To determine which scenarios are currently running, use Windows PowerShell and [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).</span></span> <span data-ttu-id="4aa61-114">Usando o Windows PowerShell e [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps), você pode alterar dinamicamente quais cenários estão em execução.</span><span class="sxs-lookup"><span data-stu-id="4aa61-114">By using Windows PowerShell and [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps), you can dynamically change which scenarios are running.</span></span> <span data-ttu-id="4aa61-115">Você pode modificar quais cenários estão em execução durante uma sessão de registro em log para ajustar ou refinar os dados coletados e de quais provedores.</span><span class="sxs-lookup"><span data-stu-id="4aa61-115">You can modify which scenarios are running during a logging session to adjust or refine the data you are collecting and from which providers.</span></span> 
+  
+<span data-ttu-id="4aa61-116">Para executar as funções Centralized Logging Service usando o Skype do Shell de gerenciamento do servidor de negócios, você deve ser um membro do CsAdministrator ou os grupos de segurança CsServerAdministrator acesso baseado em função (RBAC) de controle ou uma função RBAC personalizada que contém um desses dois grupos.</span><span class="sxs-lookup"><span data-stu-id="4aa61-116">To run the Centralized Logging Service functions by using the Skype for Business Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups.</span></span> <span data-ttu-id="4aa61-117">Para retornar uma lista de todos o RBAC funções que esse cmdlet tenha sido atribuído a, incluindo qualquer funções de RBAC personalizadas que você criou sozinho, execute o seguinte comando do Skype para Business Server Management Shell ou o prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="4aa61-117">To return a list of all the RBAC roles this cmdlet has been assigned to, including any custom RBAC roles you have created yourself, run the following command from the Skype for Business Server Management Shell or the Windows PowerShell prompt:</span></span>
+  
+```
+Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
+```
+
+<span data-ttu-id="4aa61-118">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="4aa61-118">For example:</span></span>
+  
+```
+Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
+```
+
+<span data-ttu-id="4aa61-119">O restante deste tópico concentra-se em como definir um cenário, modificar um cenário, determinar quais cenários estão em execução e especificar o que está contido em um cenário para otimizar a solução de problemas.</span><span class="sxs-lookup"><span data-stu-id="4aa61-119">The remainder of this topic focuses on how to define a scenario, modify a scenario, retrieve what scenarios are running, remove a scenario, and specify what a scenario contains to optimize your troubleshooting.</span></span> <span data-ttu-id="4aa61-120">Você pode usar o Skype do Shell de gerenciamento do servidor de negócios para emitir comandos do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4aa61-120">You can use the Skype for Business Server Management Shell to issue Windows PowerShell commands.</span></span> <span data-ttu-id="4aa61-121">Quando você usa o Windows PowerShell, é possível definir novos cenários para uso em sessões de log.</span><span class="sxs-lookup"><span data-stu-id="4aa61-121">When you use Windows PowerShell, you can define new scenarios for use in your logging sessions.</span></span>
+  
+<span data-ttu-id="4aa61-122">Conforme introduzidos em [Centralized Logging Service no Skype para negócios 2015](centralized-logging-service.md), os elementos de um cenário são:</span><span class="sxs-lookup"><span data-stu-id="4aa61-122">As introduced in [Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md), the elements of a scenario are:</span></span>
+  
+- <span data-ttu-id="4aa61-123">**Provedores** Se você está familiarizado com OCSLogger, provedores são os componentes que você escolheu para informar OCSLogger que o mecanismo de rastreamento deve coletar logs do.</span><span class="sxs-lookup"><span data-stu-id="4aa61-123">**Providers** If you are familiar with OCSLogger, providers are the components that you choose to tell OCSLogger what the tracing engine should collect logs from.</span></span> <span data-ttu-id="4aa61-124">Os provedores são os mesmos componentes e, em muitos casos, têm o mesmo nome que os componentes do OCSLogger.</span><span class="sxs-lookup"><span data-stu-id="4aa61-124">The providers are the same components, and in many cases have the same name as the components in OCSLogger.</span></span> <span data-ttu-id="4aa61-125">Se você não estiver familiarizado com OCSLogger, provedores são componentes específicos de função de servidor que the Centralized Logging Service pode coletar logs do.</span><span class="sxs-lookup"><span data-stu-id="4aa61-125">If you are not familiar with OCSLogger, providers are server role specific components that the Centralized Logging Service can collect logs from.</span></span> <span data-ttu-id="4aa61-126">Para obter detalhes sobre a configuração de provedores, consulte [Configure provedores para Centralized Logging Service no Skype para Business Server 2015](configure-providers.md).</span><span class="sxs-lookup"><span data-stu-id="4aa61-126">For details about the configuration of providers, see [Configure providers for Centralized Logging Service in Skype for Business Server 2015](configure-providers.md).</span></span>
+    
+- <span data-ttu-id="4aa61-127">**Identidade** O parâmetro-Identity define o escopo e o nome do cenário.</span><span class="sxs-lookup"><span data-stu-id="4aa61-127">**Identity** The parameter -Identity sets the scope and name of the scenario.</span></span> <span data-ttu-id="4aa61-128">Por exemplo, você pode definir um escopo de "global" e identificar o cenário com "LyssServiceScenario".</span><span class="sxs-lookup"><span data-stu-id="4aa61-128">For example, you could set a scope of "global" and identify the scenario with "LyssServiceScenario".</span></span> <span data-ttu-id="4aa61-129">Ao combinar os dois, você define a identidade (por exemplo, "global/LyssServiceScenario").</span><span class="sxs-lookup"><span data-stu-id="4aa61-129">When you combine the two, you define the Identity (for example, "global/LyssServiceScenario").</span></span>
+    
+    <span data-ttu-id="4aa61-130">Opcionalmente, você pode usar os parâmetros - nome e - pai.</span><span class="sxs-lookup"><span data-stu-id="4aa61-130">Optionally, you can use the -Name and -Parent parameters.</span></span> <span data-ttu-id="4aa61-131">Você define o parâmetro Name para identificar exclusivamente o cenário.</span><span class="sxs-lookup"><span data-stu-id="4aa61-131">You define the Name parameter to uniquely identify the scenario.</span></span> <span data-ttu-id="4aa61-132">Se usá-lo, também deverá usar Parent para adicionar o cenário ao escopo global ou site.</span><span class="sxs-lookup"><span data-stu-id="4aa61-132">If you use Name, you must also use Parent to add the scenario to either global or site.</span></span> 
+    
+    > [!IMPORTANT]
+    > <span data-ttu-id="4aa61-133">Se você usar os parâmetros Name e Parent, você não pode usar o **-Identity** parâmetro.</span><span class="sxs-lookup"><span data-stu-id="4aa61-133">If you use the Name and Parent parameters, you cannot use the **-Identity** parameter.</span></span>
+  
+### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a><span data-ttu-id="4aa61-134">Para criar um novo cenário com o cmdlet New-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="4aa61-134">To create a new scenario with the New-CsClsScenario cmdlet</span></span>
+
+1. <span data-ttu-id="4aa61-135">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="4aa61-135">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+2. <span data-ttu-id="4aa61-136">Para criar um novo cenário para uma sessão de log, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) e definir o nome do cenário (ou seja, como ele vai ser unicamente identificado).</span><span class="sxs-lookup"><span data-stu-id="4aa61-136">To create a new scenario for a logging session, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) and define the name of the scenario (that is, how it will be uniquely identified).</span></span> <span data-ttu-id="4aa61-137">Escolha um tipo de formato de registro em log entre WPP (ou seja, o pré-processador de rastreamento de software do Windows, que é o padrão), EventLog (ou seja, o formato de log de eventos do Windows) ou IISLog (ou seja, o arquivo de formato ASCII baseado no formato de arquivo de log do IIS).</span><span class="sxs-lookup"><span data-stu-id="4aa61-137">Choose a type of logging format from WPP (that is, Windows software tracing preprocessor and is the default), EventLog (that is, Windows event log format), or IISLog (that is, ASCII format file based on the IIS log file format).</span></span> <span data-ttu-id="4aa61-138">Em seguida, defina o nível (conforme definido em Níveis de registro em log, neste tópico) e os sinalizadores (conforme definido em Sinalizadores, neste tópico).</span><span class="sxs-lookup"><span data-stu-id="4aa61-138">Next, define Level (as the defined under Logging Levels in this topic), and Flags (as defined under Flags in this topic).</span></span>
+    
+    <span data-ttu-id="4aa61-139">Para este cenário de exemplo, usaremos LyssProvider como a variável de provedor de exemplo.</span><span class="sxs-lookup"><span data-stu-id="4aa61-139">For this example scenario, we use LyssProvider as the example provider variable.</span></span>
+    
+    <span data-ttu-id="4aa61-140">Para criar um cenário usando as opções definidas, digite:</span><span class="sxs-lookup"><span data-stu-id="4aa61-140">To create a scenario using the options defined, type:</span></span>
+    
+  ```
+  New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
+  ```
+
+    <span data-ttu-id="4aa61-141">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="4aa61-141">For example:</span></span>
+    
+  ```
+  New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
+  ```
+
+    <span data-ttu-id="4aa61-142">Formato alternativo usando - Name e - Parent:</span><span class="sxs-lookup"><span data-stu-id="4aa61-142">The alternate format using -Name and -Parent:</span></span>
+    
+  ```
+  New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
+  ```
+
+### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a><span data-ttu-id="4aa61-143">Para criar um novo cenário com vários provedores usando o cmdlet New-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="4aa61-143">To create a new scenario with multiple providers with the New-CsClsScenario cmdlet</span></span>
+
+1. <span data-ttu-id="4aa61-144">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="4aa61-144">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+2. <span data-ttu-id="4aa61-145">Há um limite de dois cenários por escopo.</span><span class="sxs-lookup"><span data-stu-id="4aa61-145">You are limited to two scenarios per scope.</span></span> <span data-ttu-id="4aa61-146">No entanto, não há um limite quanto ao número de provedores.</span><span class="sxs-lookup"><span data-stu-id="4aa61-146">However, you are not limited to a set number of providers.</span></span> <span data-ttu-id="4aa61-147">Neste exemplo, vamos supor que criamos três provedores e você deseja atribuir todos eles ao cenário que está definindo.</span><span class="sxs-lookup"><span data-stu-id="4aa61-147">In this example, assume that we have created three providers, and you want to assign all three to the scenario you are defining.</span></span> <span data-ttu-id="4aa61-148">Os nomes das variáveis dos provedores são LyssProvider, ABServerProvider e SIPStackProvider.</span><span class="sxs-lookup"><span data-stu-id="4aa61-148">The provider variable names are LyssProvider, ABServerProvider, and SIPStackProvider.</span></span> <span data-ttu-id="4aa61-149">Para definir e atribuir vários provedores para um cenário, digite o seguinte em um Skype para o prompt de comando do Shell de gerenciamento do Business Server ou o Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="4aa61-149">To define and assign multiple providers to a scenario, type the following at a Skype for Business Server Management Shell or Windows PowerShell command prompt:</span></span>
+    
+  ```
+  New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
+  ```
+
+    > [!NOTE]
+    > <span data-ttu-id="4aa61-150">Como é conhecido no Windows PowerShell, para a criação de uma tabela de hash de valores usando a convenção de `@{<variable>=<value1>, <value2>, <value>…}` é conhecido assplatting.</span><span class="sxs-lookup"><span data-stu-id="4aa61-150">As it is known in Windows PowerShell, the convention for creating a hash table of values using  `@{<variable>=<value1>, <value2>, <value>…}` is known assplatting.</span></span> <span data-ttu-id="4aa61-151">Para obter detalhes sobre splatting no Windows PowerShell, consulte [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760).</span><span class="sxs-lookup"><span data-stu-id="4aa61-151">For details about splatting in Windows PowerShell, see [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760).</span></span> 
+  
+### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a><span data-ttu-id="4aa61-152">Para modificar um cenário existente com o cmdlet Set-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="4aa61-152">To modify an existing scenario with the Set-CsClsScenario cmdlet</span></span>
+
+1. <span data-ttu-id="4aa61-153">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="4aa61-153">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+2. <span data-ttu-id="4aa61-154">Há um limite de dois cenários por escopo.</span><span class="sxs-lookup"><span data-stu-id="4aa61-154">You are limited to two scenarios per scope.</span></span> <span data-ttu-id="4aa61-155">Você pode alterar quais cenários estão em execução a qualquer momento, mesmo quando uma sessão de coleta de log está em andamento.</span><span class="sxs-lookup"><span data-stu-id="4aa61-155">You can change which scenarios are running at any time, even when a logging capture session is in process.</span></span> <span data-ttu-id="4aa61-156">Se você redefinir os cenários em execução, a sessão de registro em log atual parará de usar o cenário que foi removido e começará a usar o novo cenário.</span><span class="sxs-lookup"><span data-stu-id="4aa61-156">If you redefine the running scenarios, the current logging session will stop using the scenario that was removed and then begin using the new scenario.</span></span> <span data-ttu-id="4aa61-157">No entanto, as informações de log que já foram coletadas com o cenário removido permanecerão nos logs coletados.</span><span class="sxs-lookup"><span data-stu-id="4aa61-157">However, the logging information that was captured with the removed scenario remains in the captured logs.</span></span> <span data-ttu-id="4aa61-158">Para definir um novo cenário, faça o seguinte (isto é, supondo que a adição de um provedor de já definido chamado "S4Provider"):</span><span class="sxs-lookup"><span data-stu-id="4aa61-158">To define a new scenario, do the following (that is, assuming the addition of an already defined provider named "S4Provider"):</span></span>
+    
+  ```
+  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
+  ```
+
+    <span data-ttu-id="4aa61-159">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="4aa61-159">For example:</span></span>
+    
+  ```
+  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
+  ```
+
+    <span data-ttu-id="4aa61-p112">Se você desejar substituir provedores, defina um único provedor ou uma lista separada por vírgulas de provedores para substituir o conjunto atual. Se você desejar substituir apenas um de vários provedores, adicione os provedores atuais junto com os novos provedores para criar um novo conjunto de provedores que contenha os provedores novos e existentes. Para substituir todos os provedores por um novo conjunto, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="4aa61-p112">If you want to replace providers, define a single provider or a comma separated list of providers to replace the current set. If you only want to replace one of many providers, add the current providers with the new providers to create a new set of providers that contains both new providers and existing providers. To replace all providers with a new set, type the following:</span></span>
+    
+  ```
+  Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
+  ```
+
+    <span data-ttu-id="4aa61-163">Por exemplo, para substituir o conjunto atual de $LyssProvider, $ABServerProvider e $SIPStackProvider por $LyssServiceProvider:</span><span class="sxs-lookup"><span data-stu-id="4aa61-163">For example, to replace the current set of $LyssProvider, $ABServerProvider, and $SIPStackProvider with $LyssServiceProvider:</span></span>
+    
+  ```
+  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
+  ```
+
+    <span data-ttu-id="4aa61-164">Para substituir apenas o provedor $LyssProvider do conjunto atual de $LyssProvider, $ABServerProvider e $SIPStackProvider por $LyssServiceProvider, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="4aa61-164">To replace just the $LyssProvider provider from the current set of $LyssProvider, $ABServerProvider, and $SIPStackProvider with $LyssServiceProvider, type the following:</span></span>
+    
+  ```
+  Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
+  ```
+
+### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a><span data-ttu-id="4aa61-165">Para remover um cenário existente com o cmdlet Remove-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="4aa61-165">To remove an existing scenario with the Remove-CsClsScenario cmdlet</span></span>
+
+1. <span data-ttu-id="4aa61-166">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="4aa61-166">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+2. <span data-ttu-id="4aa61-167">Se você desejar remover um cenário que foi definido anteriormente, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="4aa61-167">If you want to remove a scenario that has been previously defined, type the following:</span></span>
+    
+  ```
+  Remove-CsClsScenario -Identity <name of scope and scenario>
+  ```
+
+    <span data-ttu-id="4aa61-168">Por exemplo, para remover o cenário definido site:Redmond/LyssServiceScenario:</span><span class="sxs-lookup"><span data-stu-id="4aa61-168">For example, to remove the defined scenario site:Redmond/LyssServiceScenario:</span></span>
+    
+  ```
+  Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
+  ```
+
+<span data-ttu-id="4aa61-169">O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastreamentos que foram coletados ainda estão disponíveis nos logs para pesquisa.</span><span class="sxs-lookup"><span data-stu-id="4aa61-169">The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the traces that have been captured are still available in the logs for you to search on.</span></span>
+### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a><span data-ttu-id="4aa61-170">Para carregar e descarregar o cmdlet Edit-CsClsScenario usando o módulo ClsScenarioEdit.psm1</span><span class="sxs-lookup"><span data-stu-id="4aa61-170">To load and unload the Edit-CsClsScenario cmdlet using the ClsScenarioEdit.psm1 module</span></span>
+
+1. <span data-ttu-id="4aa61-171">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="4aa61-171">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+    > [!IMPORTANT]
+    > <span data-ttu-id="4aa61-172">O módulo ClsController.psm1 é fornecido como um download da Web separado.</span><span class="sxs-lookup"><span data-stu-id="4aa61-172">The ClsScenarioEdit.psm1 module is provided as a separate Web download.</span></span> <span data-ttu-id="4aa61-173">O módulo faz parte do Skype para as ferramentas de depuração do Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="4aa61-173">The module is part of the Skype for Business Server 2015 Debugging tools.</span></span> <span data-ttu-id="4aa61-174">Por padrão, as ferramentas de depuração são instaladas no diretório C:\Program Files\Skype for Business Server 2015\Debugging Tools.</span><span class="sxs-lookup"><span data-stu-id="4aa61-174">By default, the debugging tools are installed in the directory C:\Program Files\Skype for Business Server 2015\Debugging Tools.</span></span> 
+  
+2. <span data-ttu-id="4aa61-175">A partir do Windows PowerShell, digite:</span><span class="sxs-lookup"><span data-stu-id="4aa61-175">From the Windows PowerShell, type:</span></span>
+    
+  ```
+  Import-Module "CDBurn\OCO\amd64\Support"
+  ```
+
+    > [!TIP]
+    > <span data-ttu-id="4aa61-176">Carregamento bem-sucedido do módulo retorna ao prompt de comando do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4aa61-176">Successful loading of the module returns you to the Windows PowerShell command prompt.</span></span> <span data-ttu-id="4aa61-177">Para confirmar que o módulo é carregado e se editar-CsClsScenario está disponível, digite `Get-Help Edit-CsClsScenario`.</span><span class="sxs-lookup"><span data-stu-id="4aa61-177">To confirm that the module is loaded and that Edit-CsClsScenario is available, type  `Get-Help Edit-CsClsScenario`.</span></span> <span data-ttu-id="4aa61-178">Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario.</span><span class="sxs-lookup"><span data-stu-id="4aa61-178">You should see the basic synopsis of the syntax for EditCsClsScenario.</span></span> 
+  
+3. <span data-ttu-id="4aa61-179">Para descarregar os módulos, digite:</span><span class="sxs-lookup"><span data-stu-id="4aa61-179">To unload the modules, type:</span></span>
+    
+  ```
+  Remove-Module ClsController
+  ```
+
+    > [!TIP]
+    > <span data-ttu-id="4aa61-180">Bem-sucedida descarregamento da retorna módulo você ao prompt de comando do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4aa61-180">Successful unloading of the module returns you to the Windows PowerShell command prompt.</span></span> <span data-ttu-id="4aa61-181">Para confirmar que o módulo seja descarregado, digite `Get-Help Edit-CsClsScenario`.</span><span class="sxs-lookup"><span data-stu-id="4aa61-181">To confirm that the module is unloaded, type  `Get-Help Edit-CsClsScenario`.</span></span> <span data-ttu-id="4aa61-182">Windows PowerShell tentará localizar a Ajuda para o cmdlet e falhar.</span><span class="sxs-lookup"><span data-stu-id="4aa61-182">Windows PowerShell will attempt to locate the help for the cmdlet and fail.</span></span> 
+  
+### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a><span data-ttu-id="4aa61-183">Para remover um provedor existente de um cenário com o módulo Edit-ClsController</span><span class="sxs-lookup"><span data-stu-id="4aa61-183">To remove an existing provider from a scenario with the Edit-ClsController module</span></span>
+
+1. <span data-ttu-id="4aa61-184">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="4aa61-184">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+2. <span data-ttu-id="4aa61-185">A partir do Windows PowerShell, digite:</span><span class="sxs-lookup"><span data-stu-id="4aa61-185">From the Windows PowerShell, type:</span></span>
+    
+  ```
+  Import-Module "CDBurn\OCO\amd64\Support"
+  ```
+
+    > [!TIP]
+    > <span data-ttu-id="4aa61-186">Carregamento bem-sucedido do módulo retorna ao prompt de comando do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4aa61-186">Successful loading of the module returns you to the Windows PowerShell command prompt.</span></span> <span data-ttu-id="4aa61-187">Para confirmar que o módulo é carregado e se editar-CsClsScenario está disponível, digite `Get-Help Edit-CsClsScenario`.</span><span class="sxs-lookup"><span data-stu-id="4aa61-187">To confirm that the module is loaded and that Edit-CsClsScenario is available, type  `Get-Help Edit-CsClsScenario`.</span></span> <span data-ttu-id="4aa61-188">Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario.</span><span class="sxs-lookup"><span data-stu-id="4aa61-188">You should see the basic synopsis of the syntax for EditCsClsScenario.</span></span> 
+  
+3. <span data-ttu-id="4aa61-189">Para remover um provedor do cenário AlwaysOn, digite:</span><span class="sxs-lookup"><span data-stu-id="4aa61-189">To remove a provider from the AlwaysOn scenario, type:</span></span>
+    
+  ```
+  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
+  ```
+
+  <span data-ttu-id="4aa61-190">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="4aa61-190">For Example:</span></span>
+    
+  ```
+  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
+  ```
+
+   <span data-ttu-id="4aa61-p117">Os parâmetros ScenarioName e ProviderName são posicionais (ou seja, devem ser definidos na posição esperada na linha de comando). O nome do parâmetro não precisa ser explicitamente definido se o nome do cenário estiver na segunda ou na terceira posição em relação ao nome do cmdlet na primeira posição. Usando essas informações, o comando anterior seria digitado como:</span><span class="sxs-lookup"><span data-stu-id="4aa61-p117">The parameters ScenarioName and ProviderName are positional (that is, they must be defined in the expected position in the command line) parameters. The parameter name does not have to be explicitly defined if the scenario name is in position two and the provider is in position three, relative to the name of the cmdlet as position one. Using this information, the previous command would be typed as:</span></span>
+    
+  ```
+  Edit-CsClsScenario AlwaysOn ChatServer -Remove
+  ```
+
+  <span data-ttu-id="4aa61-194">A colocação posicionais dos valores de parâmetro só é aplicável - cenário e - provedor.</span><span class="sxs-lookup"><span data-stu-id="4aa61-194">The positional placing of the parameter values applies only to -Scenario and -Provider.</span></span> <span data-ttu-id="4aa61-195">Todos os outros parâmetros devem ser definidos explicitamente.</span><span class="sxs-lookup"><span data-stu-id="4aa61-195">All other parameters must be explicitly defined.</span></span>
+    
+### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a><span data-ttu-id="4aa61-196">Para adicionar um provedor a um cenário com o cmdlet Edit-ClsController</span><span class="sxs-lookup"><span data-stu-id="4aa61-196">To add a provider to a scenario with the Edit-ClsController module</span></span>
+
+1. <span data-ttu-id="4aa61-197">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="4aa61-197">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+    
+2. <span data-ttu-id="4aa61-198">Para adicionar um provedor ao cenário AlwaysOn, digite:</span><span class="sxs-lookup"><span data-stu-id="4aa61-198">To add a provider to the AlwaysOn scenario, type:</span></span>
+    
+  ```
+  Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
+  ```
+
+    <span data-ttu-id="4aa61-199">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="4aa61-199">For Example:</span></span>
+    
+  ```
+  Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
+  ```
+
+    <span data-ttu-id="4aa61-200">-Loglevel pode ser do tipo Fatal, Error, Warning, Info, Verbose, Debug ou All.</span><span class="sxs-lookup"><span data-stu-id="4aa61-200">-Loglevel can be of the type Fatal, Error, Warning, Info, Verbose, Debug, or All.</span></span> <span data-ttu-id="4aa61-201">-Flags podem ser qualquer um dos sinalizadores que o provedor oferece suporte, como TF_COMPONENT, TF_DIAG.</span><span class="sxs-lookup"><span data-stu-id="4aa61-201">-Flags can be any of the flags that the provider supports, such as TF_COMPONENT, TF_DIAG.</span></span> <span data-ttu-id="4aa61-202">-Flags também podem ser de valor todos</span><span class="sxs-lookup"><span data-stu-id="4aa61-202">-Flags can also be of value ALL</span></span>
+    
+  <span data-ttu-id="4aa61-p120">O exemplo anterior também pode ser digitado com o uso do recurso posicional do cmdlet. Por exemplo, para adicionar o provedor ChatServer ao cenário AlwaysOn, digite:</span><span class="sxs-lookup"><span data-stu-id="4aa61-p120">The previous example can also be typed using the positional feature of the cmdlet. For example, to add the provider ChatServer to the AlwaysOn scenario, type:</span></span>
+    
+  ```
+  Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
+  ```
+
+
