@@ -122,17 +122,17 @@ Contas de usuário podem ser temporariamente desabilitadas e então posteriormen
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
-### <a name="to-re-enable-a-user-account"></a>To re-enable a user account
+### <a name="to-re-enable-a-user-account"></a>Para reabilitar uma conta de usuário
 
-- To re-enable a disabled user account, set the value of the Enabled property to True ($True). Por exemplo:
+- Para reativar uma conta de usuário desabilitada, defina o valor da propriedade Enabled como True ($True). Por exemplo:
     
   ```
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-For more information, see the help topic for the [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) cmdlet.
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) .
   
-## <a name="disable-a-user-for-enterprise-voice"></a>Disable a user for Enterprise Voice
+## <a name="disable-a-user-for-enterprise-voice"></a>Desabilitar um usuário para o Enterprise Voice
 <a name="Disable_EV"> </a>
 
 Use o procedimento a seguir para desabilitar o Enterprise Voice para uma conta de usuário que está habilitada para Skype para Business Server 2015.
@@ -141,13 +141,13 @@ Use o procedimento a seguir para desabilitar o Enterprise Voice para uma conta d
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2. Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.  
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     
 3. Na barra de navegação esquerda, clique em **Usuários**.
     
 4. Na caixa **Pesquisar usuários**, digite todo ou parte do nome de exibição, nome, sobrenome, nome da conta SAM, endereço SIP ou URI de linha da conta do usuário que deseja habilitar e clique em **Localizar**.
     
-5. In the table, click the user account that you want to enable for Enterprise Voice.
+5. Na tabela, clique na conta de usuário que você deseja habilitar para o Enterprise Voice.
     
 6. No menu **Editar**, clique em **Exibir detalhes**.
     
@@ -158,8 +158,8 @@ Use o procedimento a seguir para desabilitar o Enterprise Voice para uma conta d
   
 8. Clique em **Confirmar**.
     
-O usuário agora está apto a usar o recurso de Enterprise Voice. Informações relacionadas: <br/>[Enterprise Voice e mobilidade](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Enable users for Enterprise Voice in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype for Business Server 2015 Management Shell](../management-shell.md)
-## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>Remove a user account with the Skype for Business Server Management Shell
+O usuário agora está apto a usar o recurso de Enterprise Voice. Informações relacionadas: <br/>[Enterprise Voice e mobilidade](http://technet.microsoft.com/library/72cbe2f5-1a01-4a6f-84a5-01f3212a8992.aspx)<br/> [Habilitar usuários para o Enterprise Voice no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype do Shell de gerenciamento do Business Server 2015](../management-shell.md)
+## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>Remover uma conta de usuário com o Skype do Shell de gerenciamento do servidor de negócios
 <a name="Remove"> </a>
 
 Você pode usar o procedimento a seguir para remover uma conta de usuário adicionada anteriormente no Skype para Business Server 2015. 
@@ -194,7 +194,7 @@ Para remover uma conta de usuário, use o cmdlet Disable-CsUser. Por exemplo:
 
     After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
     
-For more information, see the help topic for the [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps) cmdlet.
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/disable-csuser?view=skype-ps) .
   
 ## <a name="see-also"></a>Ver também
 <a name="Remove"> </a>

@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Summary: Learn about the performance counters that you can use to monitor servers running the Unified Communications Web API (UCWA) and the Skype for Business Server 2015 Mcx Mobility Service.'
+description: 'Resumo: Saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores executando o API de Web de comunicações unificadas (UCWA) e o Skype para o serviço de mobilidade do Business Server 2015 Mcx.'
 ms.openlocfilehash: 7f82f263969deb5fc71e448f0e514dd0056c31eb
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server-2015"></a>Contadores de desempenho de mobilidade no Skype for Business Server 2015
  
-**Summary:** Learn about the performance counters that you can use to monitor servers running the Unified Communications Web API (UCWA) and the Skype for Business Server 2015 Mcx Mobility Service.
+**Resumo:** Saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores executando o API de Web de comunicações unificadas (UCWA) e o Skype para o serviço de mobilidade do Business Server 2015 Mcx.
   
-The following tables list the names and descriptions of performance counters that you can use to monitor servers running the Unified Communications Web API (UCWA) and the Skype for Business Server 2015 Mcx Mobility Service. 
+As tabelas a seguir listam os nomes e descrições dos contadores de desempenho que você pode usar para monitorar servidores executando o API de Web de comunicações unificadas (UCWA) e o Skype para o serviço de mobilidade do Business Server 2015 Mcx. 
   
-The category name for the counters in the UCWA table is **LS:WEB - UCWA**.
+O nome da categoria dos contadores na tabela UCWA é **LS:WEB - UCWA**.
   
 O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx é **LS:WEB – Mobile Communication Service**.
   
 ## <a name="performance-counters-for-ucwa"></a>Contadores de desempenho para UCWA
 
-|**Counter**|**Descrição**|
+|**Contador**|**Descrição**|
 |:-----|:-----|
 |Contagem de aplicativos ativos  <br/> |O número atual de aplicativos  <br/> |
 |Contagem da modalidade de compartilhamento do aplicativo ativa  <br/> |O número atual da modalidade de compartilhamento do aplicativo  <br/> |
@@ -56,7 +56,7 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 |Número de falhas ao baixar fotos do Active Directory  <br/> |O número total de falhas ao baixar fotos do Active Directory  <br/> |
 |Número de falhas ao pesquisar contatos  <br/> |O número total de falhas ao pesquisar contatos no Exchange  <br/> |
 |Número de falhas de desserialização  <br/> |O número total de falhas de desserialização  <br/> |
-|Number of HD Photo Get Failures  <br/> |O número total de falhas ao baixar fotos em HD do Exchange  <br/> |
+|Número de falhas de Get HD foto  <br/> |O número total de falhas ao baixar fotos em HD do Exchange  <br/> |
 |Excesso de inscrições por aplicativo  <br/> |O número de solicitações de inscrição além do máximo permitido por aplicativo  <br/> |
 |Excesso de inscrições por lote  <br/> |O número de solicitações de inscrição além do máximo permitido por lote  <br/> |
 |Falhas de inscrição de presença  <br/> |O número de falhas ao realizar inscrições de presença  <br/> |
@@ -74,9 +74,9 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 |Total de sessões encerradas devido ao tempo limite de ociosidade  <br/> |O número total de sessões encerradas devido ao tempo limite de usuário ocioso  <br/> |
 |Total de aplicativos limitados  <br/> |O número de aplicativos limitados  <br/> |
    
-**Performance Counters for Mcx Mobility Service**
+**Contadores de desempenho para o serviço de mobilidade Mcx**
 
-|**Counter**|**Descrição**|
+|**Contador**|**Descrição**|
 |:-----|:-----|
 |Tempo médio de vida de uma sessão em milissegundos  <br/> |O tempo médio de vida de uma sessão em milissegundos  <br/> |
 |Assinaturas atuais de notificação por push  <br/> |O número atual de assinaturas de notificação por push. Esse número, em conjunto com a Contagem de sessões atualmente ativas, representam o subconjunto de sessões atualmente ativas registradas para dispositivos Windows Mobile ou iPhone.  <br/> |

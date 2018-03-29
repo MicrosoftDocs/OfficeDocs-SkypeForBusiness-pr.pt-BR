@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Summary: Learn about the Call Admission Control Reports used in Skype for Business Server 2015.'
+description: 'Resumo: Saiba mais sobre os relatórios de controle de admissão chamada usada no Skype para Business Server 2015.'
 ms.openlocfilehash: 53c3767ad93b7faa4c7f9a7f33213dde21dd7ca5
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.lasthandoff: 03/28/2018
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server-2015"></a>Relatório de Controle de Admissão de Chamadas no Skype for Business Server 2015
  
-**Summary:** Learn about the Call Admission Control Reports used in Skype for Business Server 2015.
+**Resumo:** Saiba mais sobre os relatórios de controle de admissão chamada usada no Skype para Business Server 2015.
   
 O Relatório de Controle de Admissão de Chamadas fornece informações sobre sessões de conferência e ponto a ponto que eram conduzidas sob restrições impostas pelo Controle de Admissão de Chamadas. O Controle de Admissão de Chamadas fornece uma maneira para que os administradores permitam (ou não) sessões de comunicação baseadas em limites de largura de banda. Por exemplo, os administradores podem criar políticas que imponham um limite na quantidade de banda disponível para chamadas de voz e vídeo. Caso o limite de banda seja alcançado, novas chamadas de voz ou vídeo não poderão ser feitas até que uma das chamadas atuais termine e libere os recursos de rede necessários.
   
@@ -26,9 +26,9 @@ O Relatório de Controle de Admissão de Chamadas fornece informações sobre se
 
 O Relatório de Controle de Admissão de Chamadas é acessado através da página de Relatórios de Monitoramento. A partir do Relatório de Controle de Admissão de Chamadas você pode buscar mais detalhes em um dos seguintes relatórios:
   
-- Conference Detail Report - To access this report, click the Details metric from a conference session. 
+- Relatório de detalhes de conferência - para acessar este relatório, clique na métrica detalhes em uma sessão de conferência. 
     
-- Peer-to-Peer Session Detail Report - To access this report, click the Details metric for a peer-to-peer session.
+- -A-ponto sessão detalhe relatório - para acessar este relatório, clique na métrica detalhes para uma sessão ponto a ponto.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Como usar o Relatório de Controle de Admissão de Chamadas da melhor maneira possível
 
@@ -44,7 +44,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Controle de Admissão de Chamadas.
   
-**Call Admission Control Report Filters**
+**Filtros do relatório de controle de admissão de chamada**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -58,9 +58,9 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Cont
 
 A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamadas para sessões ponto a ponto (ou seja, sessões que envolvem apenas dois participantes).
   
-**Metrics for Peer-to-Peer Sessions**
+**Métricas para sessões ponto a ponto**
 
-|**Nome**|**Can you sort on this item?**|**Descrição**|
+|**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Detalhe** <br/> |Não  <br/> |Quando você clica nesse item, o relatório mostra o Relatório Detalhado de Sessão Ponto a Ponto para a sessão especificada.  <br/> |
 |**De usuário** <br/> |Sim  <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
@@ -75,9 +75,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Controle de
 
 A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamadas para sessões de conferência (ou seja, sessões que envolvem três ou mais participantes).
   
-**Metrics for Conferencing Sessions**
+**Métricas para sessões de conferência**
 
-|**Nome**|**Can you sort on this item?**|**Descrição**|
+|**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**URI de conferência** <br/> |Sim  <br/> |Identificador exclusivo para a conferência. Quando você clica nesse item, o relatório mostra os participantes individuais da conferência.  <br/> |
 |**Organizador** <br/> |Sim  <br/> |Endereço SIP do usuário que organizou a conferência.  <br/> |
@@ -89,9 +89,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Controle de
 
 A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamadas para participantes individuais da conferência.
   
-**Metrics for Individual Conference Participants**
+**Métricas para participantes individuais de conferência**
 
-|**Nome**|**Can you sort on this item?**|**Descrição**|
+|**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Função** <br/> |Não  <br/> |Função (por exemplo, Apresentador) desempenhada pelo participante da conferência.  <br/> |
 |**Participante** <br/> |Não  <br/> |Endereço SIP do participante de conferência.  <br/> |
