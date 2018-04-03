@@ -20,11 +20,11 @@ ms.custom:
 - Legal
 hideEdit: 
 description: "Este é o conteúdo que deverão ser publicado para atender aos requisitos de acessibilidade, conformidade e normativos para Skype para negócios Online na França. "
-ms.openlocfilehash: 65f2fd1ce748c80bcb6a448ea0d12e8099051078
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: e7898502544b9a72be42f29751356c09d08d9e7d
+ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="accessibility-declaration-of-conformance-for-skype-for-business-online-in-france"></a>Acessibilidade de declaração de conformidade para Skype para negócios Online na França
 
@@ -221,5 +221,3 @@ Indicatif da titre do de fourni da est do documento de présent LE. MICROSOFT NE
 ## <a name="related-topics"></a>Tópicos relacionados
 [Soluções de acessibilidade do Skype for Business Online na França](accessibility-solutions-in-france.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
