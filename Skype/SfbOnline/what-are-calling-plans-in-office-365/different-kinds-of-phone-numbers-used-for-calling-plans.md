@@ -1,5 +1,5 @@
 ---
-title: "Diferentes tipos de números de telefone usados para planos de chamada"
+title: Diferentes tipos de números de telefone usados para planos de chamada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Skype para Business Online usa os tipos de número de telefone diferentes dependendo do objetivo para o qual você deseja usar o número de telefone."
-ms.openlocfilehash: a417aac7143b7be1afb8f7801b1007b1a1ab69b5
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Skype para Business Online usa os tipos de número de telefone diferentes dependendo do objetivo para o qual você deseja usar o número de telefone.
+ms.openlocfilehash: 8cbb68639b5fda89cb93604985880b1934819af8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de telefone usados para planos de chamada
 
@@ -65,7 +65,7 @@ Skype para Business Online usa os tipos de número de telefone diferentes depend
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

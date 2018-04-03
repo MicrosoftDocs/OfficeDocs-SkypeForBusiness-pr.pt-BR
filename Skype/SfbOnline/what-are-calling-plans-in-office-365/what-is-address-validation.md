@@ -1,5 +1,5 @@
 ---
-title: "O que é validação de endereço?"
+title: O que é validação de endereço?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans
-description: "Saiba o que é a validação de endereço, por que ela é importante e como está relacionada a endereços e serviços de emergência. "
-ms.openlocfilehash: 11e53a817eb8e7a759a450f81c699a0e9d745642
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Saiba o que é a validação de endereço, por que ela é importante e como está relacionada a endereços e serviços de emergência. '
+ms.openlocfilehash: d67277490afc12d8bdb2c5433d55e70ea6f5395e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-is-address-validation"></a>O que é validação de endereço?
 
@@ -44,5 +44,5 @@ A validação de um endereço envolve a garantia de que ele está correto e tamb
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

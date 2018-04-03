@@ -1,5 +1,5 @@
 ---
-title: "Baixe e instale o Skype para módulo Business Connector Online"
+title: Baixe e instale o Skype para módulo Business Connector Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,16 +16,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Baixar, instalar e usar o Skype para o Business Connector Online para criar uma sessão remota do Windows PowerShell que se conecta ao Skype para negócios Online. "
-ms.openlocfilehash: 4b4f611cae3ca46629de42b122ef4e9238402c98
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Baixar, instalar e usar o Skype para o Business Connector Online para criar uma sessão remota do Windows PowerShell que se conecta ao Skype para negócios Online. '
+ms.openlocfilehash: e4aea93e8c14f172b8fd19420d8a02f584a18dde
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Baixe e instale o Skype para módulo Business Connector Online
 
-O Skype para módulo Business Connector Online inclui o cmdlet **New-CsOnlineSession** , que permite a criação de uma sessão remota do Windows PowerShell que se conecta ao Skype para negócios Online. Neste módulo, o que é suportado apenas em computadores de 64 bits (consulte [configurar seu computador e Skype para gerenciamento de negócios Online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md) para obter mais informações), podem ser baixados do Microsoft Download Center em [https:// www.microsoft.com/en-us/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Baixe o arquivo SkypeOnlinePowershell.exe e conclua o procedimento a seguir:
+O Skype para módulo Business Connector Online inclui o cmdlet **New-CsOnlineSession** , que permite a criação de uma sessão remota do Windows PowerShell que se conecta ao Skype para negócios Online. Neste módulo, o que é suportado apenas em computadores de 64 bits (consulte [configurar seu computador e Skype para gerenciamento de negócios Online usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md) para obter mais informações), podem ser baixados do Microsoft Download Center em [https://www.microsoft.com/en-us/download/details.aspx?id=39366](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Baixe o arquivo SkypeOnlinePowershell.exe e conclua o procedimento a seguir:
   
 1. Duas vezes no arquivo de **SkypeOnlinePowershell.exe** .
     
@@ -60,5 +60,5 @@ Para verificar o número da versão do módulo conector que está instalado atua
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar seu computador e Skype para gerenciamento online de negócios usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

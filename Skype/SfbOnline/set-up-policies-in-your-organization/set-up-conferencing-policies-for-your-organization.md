@@ -1,5 +1,5 @@
 ---
-title: "Configurar políticas de conferência para sua organização"
+title: Configurar políticas de conferência para sua organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar."
-ms.openlocfilehash: 7e2540bc043476ca2a768c701b93c2ce8d6a4431
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
+ms.openlocfilehash: 6005789d4be479ea4fd39f74fb950600c640bbb5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 
@@ -149,5 +149,5 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsConfere
 
 [Configurar políticas de clientes para sua organização](set-up-client-policies-for-your-organization.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

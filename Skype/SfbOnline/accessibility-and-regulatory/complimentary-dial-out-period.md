@@ -1,5 +1,5 @@
 ---
-title: "Período de discagem complementar"
+title: Período de discagem complementar
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Clientes podem usar o Office 365 chamar planejar e conferência de áudio do Office 365 conforme permitido no Skype para negócios Online PSTN serviços Use termos e contrato de licenciamento por volume do cliente."
+hideEdit: true
+description: Clientes podem usar o Office 365 chamar planejar e conferência de áudio do Office 365 conforme permitido no Skype para negócios Online PSTN serviços Use termos e contrato de licenciamento por volume do cliente.
 ms.openlocfilehash: fac5ad1e413d62669e1ed23e6ea19f1c51ea3017
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período de discagem gratuito conferência áudio
 

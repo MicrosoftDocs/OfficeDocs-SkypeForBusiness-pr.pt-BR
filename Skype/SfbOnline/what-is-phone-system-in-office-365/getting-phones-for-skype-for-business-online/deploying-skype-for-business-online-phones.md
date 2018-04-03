@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Conheça as etapas de implantação para obter o firmware correto, atualizá-la, se necessário, atribuir licenças e definir configurações para Skype para telefones online de negócios"
-ms.openlocfilehash: c6321222cdd3f6a5214ff17ac950da397b73baf9
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: Conheça as etapas de implantação para obter o firmware correto, atualizá-la, se necessário, atribuir licenças e definir configurações para Skype para telefones online de negócios
+ms.openlocfilehash: ee6f8e0b892b8cef1c70c7bc01ba7e7d9c4cb8e8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantar telefones para o Skype for Business Online
 
@@ -40,7 +40,7 @@ Em todos os tipos de empresas, ter um número de telefone permite aos usuários 
 
 Antes de iniciar, é recomendável baixar os guias de administração do fabricante e dos manuais do usuário do telefone.
   
-- Para telefones Polycom, consulte [Polycom guia de implantação] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Para telefones Polycom, consulte o [Polycom Deployment Guide] ((http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
     
 - Para telefones Yealink, consulte [Yealink Skype para a solução de telefones SIP do negócios HD](http://www.yealink.com/products_top_2.html).
     
@@ -226,5 +226,5 @@ Eis o que você obtém com o [Sistema de Telefonia no Office 365](../../what-is-
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Código de prática para o Reino Unido (Reino Unido)"
+title: Código de prática para o Reino Unido (Reino Unido)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: ec34b528ed31f78e3c6075f357ff96c702371514
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: c1528d1ec28dd940b5b696dd03f9c389f6d16844
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Código de prática para o Reino Unido (Reino Unido)
 
@@ -114,7 +114,7 @@ Um discador da Internet, que é semelhante a um vírus de computador, é um soft
   
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organização independente aprovada pela Ofcom. A PhonepayPlus regula os Serviços de Tarifa Premium e investiga reclamações dos consumidores. Todos os provedores de serviço deve aderir ao código PhonepayPlus da prática, que pode ser encontrada em [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Se um Provedor de Serviços violar o Código de Conduta, a PhonepayPlus poderá:
+Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organização independente aprovada pela Ofcom. A PhonepayPlus regula os Serviços de Tarifa Premium e investiga reclamações dos consumidores. Todos os Provedores de Serviços devem aderir ao Código de Conduta da PhonepayPlus, que pode ser encontrado em [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice). Se um Provedor de Serviços violar o Código de Conduta, a PhonepayPlus poderá:
   
 - Solicitar que uma das partes corrija uma violação
     
@@ -124,7 +124,7 @@ Todos os Provedores de Serviços devem se registrar na PhonepayPlus, uma organiz
     
 ### <a name="service-provider-contact-information"></a>informações de contato do provedor de serviços
 
-Para localizar as informações de contato para um provedor de serviço, você pode usar a ferramenta de #NumberChecker dos PhonepayPlus em [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Se achar que foi cobrado indevidamente por um Serviço de Tarifa Premium, entre em contato diretamente com o Provedor de Serviços.
+Para encontrar as informações de contato do Provedor de Serviços, você pode usar a ferramenta #NumberChecker da PhonepayPlus em [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry). Se achar que foi cobrado indevidamente por um Serviço de Tarifa Premium, entre em contato diretamente com o Provedor de Serviços.
   
 ### <a name="complaints"></a>Reclamações
 
@@ -132,7 +132,7 @@ Para fazer à PhonepayPlus uma reclamação sobre um Provedor de Serviços, voc�
   
 - Telefone: 0300 30 300 20 (9h30-17h, de segunda a sexta)
     
-- Pesquisa online: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- Consulta online: [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
     
 ### <a name="dispute-resolution"></a>Solução de controvérsias
 
@@ -148,5 +148,3 @@ As taxas de Serviços Nacionais de Tradução, Números Pessoais e números 0870
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).

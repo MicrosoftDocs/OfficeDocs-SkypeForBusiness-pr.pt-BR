@@ -1,12 +1,12 @@
 ---
-title: "Configurar o Skype para análise de chamada de negócios"
+title: Configurar o Skype para análise de chamada de negócios
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.date: 01/22/2018
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft."
-ms.openlocfilehash: ef8f9e10e25e7f67f0161a143c313ed25330db18
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft.
+ms.openlocfilehash: 0169d8e2008ce0d87f4ee666663d4d8ccb71d1b8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-call-analytics"></a>Configurar o Skype para análise de chamada de negócios
 
@@ -72,7 +72,7 @@ Operadores de assistência técnica da camada 1 lidar com problemas de qualidade
     
      ![Captura de tela mostra a página permissões para análise de chamada com as opções para permissões de nível 1 e 2 de camada.](../images/ed5b6b05-b407-4363-8cf0-a6e79027f64b.png)
   
- Usuários com qualquer um desses níveis de permissão chegar ao chamar Analytics via a URL dedicado *https://adminportal.services.skypeforbusiness.com*.
+ Usuários com qualquer um desses níveis de permissão chegar ao chamar Analytics por meio da URL dedicada *https://adminportal.services.skypeforbusiness.com*.
   
 ## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>Carregar um arquivo. tsv ou. csv para adicionar a criação de site e informações de locatários
 <a name="BKMK_UploadFiles"> </a>
@@ -92,5 +92,5 @@ Se você estiver criando o arquivo. csv ou. tsv desde o início, consulte o [for
 
 [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

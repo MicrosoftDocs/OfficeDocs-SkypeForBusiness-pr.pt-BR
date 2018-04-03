@@ -1,5 +1,5 @@
 ---
-title: "Alterar o idioma padrão de saudações e emails"
+title: Alterar o idioma padrão de saudações e emails
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. "
-ms.openlocfilehash: 04ba9aa11b5cfa49fc72b3ba0b96c1b3c0f9b73b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+description: 'Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. '
+ms.openlocfilehash: 7b8e289a36c4642f37035158977b677174a8b95b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -77,5 +77,5 @@ Se você é [Administrador global do Office 365](https://support.office.com/en-u
     
 - [Habilitar ou alterar o idioma de layout do teclado](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

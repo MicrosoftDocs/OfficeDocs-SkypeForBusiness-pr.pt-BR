@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: "Este artigo fornecerá diretrizes para você usar um servidor proxy com o Skype for Business."
-ms.openlocfilehash: 29438474524c7c1e518fb3130fdaf436e562d76e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Este artigo fornecerá diretrizes para você usar um servidor proxy com o Skype for Business.
+ms.openlocfilehash: 0f4d0b82eeaedd4b81ea84a8d8d3a67993d7be96
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Servidores Proxy para Skype for Business Online
 
@@ -71,11 +71,11 @@ Para as organizações que usam as **soluções Bluecoat Proxy**, foi lançado u
     
 O suporte nativo do Bluecoat para Skype for Business pode ser facilmente ativado, permitindo a identificação de tráfego relevante, e gerenciando-o adequadamente. Isso assegura autenticação, sinalização e fluxo de tráfego de mídia otimizados a fim de fornecer uma excelente experiência do usuário sem preocupações com segurança.
     
-Consulte o seguinte link se Bluecoat Proxy é uma parte de sua topologia de rede: https://support.symantec.com/en_US/article.DOC9757.html
+Consulte o seguinte link se Bluecoat Proxy é uma parte de sua topologia de rede:https://support.symantec.com/en_US/article.DOC9757.html
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Como otimizar sua rede para o Skype for Business Online](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

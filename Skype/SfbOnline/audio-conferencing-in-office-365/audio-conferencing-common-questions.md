@@ -1,5 +1,5 @@
 ---
-title: "Áudio perguntas comuns de conferência"
+title: Áudio perguntas comuns de conferência
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,17 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "A seguir estão algumas das principais perguntas que recebemos de nossos clientes que desejam usar conferência de áudio."
-ms.openlocfilehash: e699cd6a8c481df892114af5365866df8169019e
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: A seguir estão algumas das principais perguntas que recebemos de nossos clientes que desejam usar conferência de áudio.
+ms.openlocfilehash: f31f6744fa04697aa2ff24455aa440769f0f824b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>Áudio perguntas comuns de conferência
 
 A seguir estão algumas das principais perguntas que recebemos de nossos clientes que desejam usar conferência de áudio. 
   
-Para obter instruções passo a passo para configurar a conferência de áudio, consulte [Configurar conferências de áudio para Skype para equipes da Microsoft e de negócios](set-up-audio-conferencing.md).
-
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>Quais são os benefícios da conferência de áudio?
 
 Chamando em reuniões é muito útil quando as pessoas estão em trânsito, por exemplo e não podem participar de uma reunião usando o Skype para o aplicativo de negócios ou Teams da Microsoft em seus dispositivos móveis ou laptop. Mas há outros cenários que usando um telefone para participar de uma Skype para negócios ou Microsoft Teams reunião pode ser uma opção melhor que usando um aplicativo em um computador:
@@ -152,8 +150,6 @@ Agendar uma reunião que ingressarão por todos os participantes que usam um tel
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
-  
 [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   
 [Números de telefone para audioconferência](phone-numbers-for-audio-conferencing.md)

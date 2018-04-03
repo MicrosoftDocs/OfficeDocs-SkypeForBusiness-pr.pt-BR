@@ -1,5 +1,5 @@
 ---
-title: "Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync"
+title: Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,11 +18,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 5e0408618f2c9760aae567671580589d1103e634
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 5458fb4838ce2e7847a49caa31f92d2151e2a382
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync
 
@@ -282,5 +282,5 @@ Você também pode verificar se o GPO atualizou com êxito o Registro no computa
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

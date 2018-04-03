@@ -26,11 +26,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 53898ee5c2ac46deca22e8ea0bbfbd327868dfb3
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 3643819eb5d085580164b837d70250e79bd464f3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Planos de chamada do Office 365
 
@@ -57,7 +57,7 @@ Para obter informações detalhadas sobre os limites de uso e termos de uso, con
     ![Quando você adquire suas licenças do PBX de nuvem, você verá uma opção para adquirir uma plano de chamada de voz.](../images/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Dependendo do seu plano, você precisará comprar mais complementos antes que você pode adquirir licenças de sistema telefônico. Para saber mais, consulte [quais licenças de complemento eu preciso comprar para obter mais recursos?](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_whichaddons)
+    > Dependendo do seu plano, você precisará comprar mais complementos antes que você pode adquirir licenças de sistema telefônico. Para saber mais, consulte "Opções de licença com base no seu plano" na [Skype para licenciamento de complemento de negócios e equipes da Microsoft](skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 2. Depois que você adquire licenças de sistema telefônico, você pode comprar o plano de chamar entrando no **Centro de administração do Office 365**, escolha **faturamento** > **Serviços de compra** > **inscrições de complemento**e clicando em **Comprar agora**. Você verá o ato de chamar planos lá.
     
@@ -99,8 +99,6 @@ Aqui estão mais artigos que explicam como configurar seus planos de chamada:
 
 - [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Configurar Planos de Chamadas](../what-are-calling-plans-in-office-365/set-up-calling-plans.md)
@@ -109,5 +107,5 @@ Aqui estão mais artigos que explicam como configurar seus planos de chamada:
     
 - [Configure o conector de nuvem](https://technet.microsoft.com/en-us/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)
   
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Este Skype para recurso Business Online não está habilitada"
+title: Este Skype para recurso Business Online não está habilitada
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: "Encontre as possíveis causas e sugestões de ação quando você obtiver um Skype para o recurso de Business Online não está erros ativada. "
-ms.openlocfilehash: e6b025ad9e53d520a5e79c380de80e71c5f0fe04
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Encontre as possíveis causas e sugestões de ação quando você obtiver um Skype para o recurso de Business Online não está erros ativada. '
+ms.openlocfilehash: 5d0167ed53f5396d3d048815986dea7600f9182f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Este Skype para recurso Business Online não está habilitada
 
@@ -40,5 +40,5 @@ Desculpe, parece que o usuário não está licenciado para esse recurso.
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

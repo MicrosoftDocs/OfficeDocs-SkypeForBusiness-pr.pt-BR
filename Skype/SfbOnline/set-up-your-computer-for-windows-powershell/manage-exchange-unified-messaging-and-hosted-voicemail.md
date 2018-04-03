@@ -1,5 +1,5 @@
 ---
-title: "Gerenciar a Unificação de mensagens do Exchange e hospedadas de caixa postal"
+title: Gerenciar a Unificação de mensagens do Exchange e hospedadas de caixa postal
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: "Use o PowerShell para gerenciar recursos de Unificação de mensagens do Exchange, como o atendedor automático e acesso ao assinante e caixa postal hospedada no Skype para negócios Online."
-ms.openlocfilehash: cc4904768cbb7f6bbcbbd9921efebfe7d4765c55
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Use o PowerShell para gerenciar recursos de Unificação de mensagens do Exchange, como o atendedor automático e acesso ao assinante e caixa postal hospedada no Skype para negócios Online.
+ms.openlocfilehash: 1ececaf2eaefa7373a6707dd4e81f0a3bcaa6d38
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Gerenciar a Unificação de mensagens do Exchange e hospedadas de caixa postal
 
@@ -40,5 +40,5 @@ Os cmdlets a seguir podem ser usados para gerenciar o Exchange Unified Messaging
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar seu computador e Skype para gerenciamento online de negócios usando o Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

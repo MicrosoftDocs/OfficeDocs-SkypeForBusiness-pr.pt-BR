@@ -1,5 +1,5 @@
 ---
-title: "Implantar o Skype para o cliente de negócios no Office 365"
+title: Implantar o Skype para o cliente de negócios no Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: "Saiba como planejar e implantar Skype para negócios em organizações pequenas, médias e grandes e tornar disponível aos usuários. "
-ms.openlocfilehash: 09600c29d2df0299f326e64f75c6b4b7e5ee5178
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Saiba como planejar e implantar Skype para negócios em organizações pequenas, médias e grandes e tornar disponível aos usuários. '
+ms.openlocfilehash: ee7799116f20a8ca1e9f1cb71d8616d44df93c8e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implantar o Skype para o cliente de negócios no Office 365
 
@@ -153,5 +153,5 @@ Você pode controlar com que frequência você obtenha atualizações de recurso
   
 [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

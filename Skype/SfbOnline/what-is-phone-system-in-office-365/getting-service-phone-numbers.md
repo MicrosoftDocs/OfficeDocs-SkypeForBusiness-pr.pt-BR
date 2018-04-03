@@ -1,5 +1,5 @@
 ---
-title: "Obtendo números de telefone do serviço"
+title: Obtendo números de telefone do serviço
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,9 @@ ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como serviços de audioconferência (para pontes de conferência), atendedores automáticos e filas de chamada (também chamadas de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes."
-ms.openlocfilehash: 16b152fd738b76f0abcfe7e93f2e6a43a2ac55bb
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como serviços de audioconferência (para pontes de conferência), atendedores automáticos e filas de chamada (também chamadas de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes.
+ms.openlocfilehash: 9de4029d38d661ff6e95bbf999146931cda6406b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="getting-service-phone-numbers"></a>Obtendo números de telefone do serviço
 
@@ -85,3 +87,6 @@ Se você deseja transferir os números de serviço do seu provedor de serviço a
 Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 

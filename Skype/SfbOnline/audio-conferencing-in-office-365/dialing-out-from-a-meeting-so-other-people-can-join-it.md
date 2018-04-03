@@ -1,5 +1,5 @@
 ---
-title: "Discando a partir de uma reunião para que outras pessoas possam participar"
+title: Discando a partir de uma reunião para que outras pessoas possam participar
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 55bb15c0c413aa61e863613cdcefedb4e2d477a7
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 1dc1fb9b97381eed3a078e64fb408095df414f6d
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião para que outras pessoas possam participar
 
@@ -50,7 +50,7 @@ A discagem está disponível apenas para alguns países/regiões. Para obter uma
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre serviços de audioconferência?
 
-- [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

@@ -1,5 +1,5 @@
 ---
-title: "Números de telefone de quantos você consegue?"
+title: Números de telefone de quantos você consegue?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para chamar planos para obter informações sobre os números de telefone diferentes que são usados em Skype para negócios Online."
-ms.openlocfilehash: 51b6276c5bc29b978b3a77b28c09529e621e8e0c
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para chamar planos para obter informações sobre os números de telefone diferentes que são usados em Skype para negócios Online.
+ms.openlocfilehash: 729f99b2b0f0a3507c6ecba0e119fe12083ac6c2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Números de telefone de quantos você consegue?
 
@@ -59,5 +59,5 @@ Você pode ver o número de números de telefone, que você pode obter na págin
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

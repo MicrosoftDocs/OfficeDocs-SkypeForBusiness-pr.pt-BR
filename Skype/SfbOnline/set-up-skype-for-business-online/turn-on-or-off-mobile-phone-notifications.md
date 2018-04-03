@@ -1,5 +1,5 @@
 ---
-title: "Ativar ou desativar notificações do telefone celular"
+title: Ativar ou desativar notificações do telefone celular
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgMobileNotification
 ms.custom:
 - Setup
-description: "Saiba como ativar ou desativar o telefone celular notificações para que os usuários podem receber alertas sobre entrada, caixa postal e perdidas mensagens instantâneas."
-ms.openlocfilehash: 5f783c45fa198d02a44bbd2f7501a5bc4f0b5e1e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Saiba como ativar ou desativar o telefone celular notificações para que os usuários podem receber alertas sobre entrada, caixa postal e perdidas mensagens instantâneas.
+ms.openlocfilehash: 111d225b77c735dcf139a207f7c338cd228c873f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Ativar ou desativar notificações do telefone celular
 
@@ -56,5 +56,5 @@ Lembre-se:
 
 [Configurar o Skype for Business Online](set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

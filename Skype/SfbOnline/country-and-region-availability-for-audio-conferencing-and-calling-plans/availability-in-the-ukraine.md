@@ -1,5 +1,5 @@
 ---
-title: "Disponibilidade em a Ucrânia"
+title: Disponibilidade em a Ucrânia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Ucrânia."
-ms.openlocfilehash: 9f7ca9e1d846bb1336e46891a6cd306377a6296c
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Ucrânia.
+ms.openlocfilehash: 851b141a89fb06039545c91fa0284732f79fc701
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-the-ukraine"></a>Disponibilidade em a Ucrânia
 
@@ -83,6 +83,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 
 

@@ -1,5 +1,5 @@
 ---
-title: "Relatório de atividades"
+title: Relatório de atividades
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 507bb0b2634d25cf2f0b518fa79dcf453afa79a4
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 419bb60a40271c6680193841c175cb86860a2a0e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
@@ -117,5 +117,5 @@ Você também pode exportar os dados do relatório para um arquivo .csv do Excel
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Configurações de visualização de transmissão do Skype reunião"
+title: Configurações de visualização de transmissão do Skype reunião
 mms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 - ms.lync.lac.BroadcastMeetingsPreview
 ms.custom:
 - SMB
-description: "O Skype para o programa de visualização de cliente de negócios fornece acesso antecipado para novos produtos e recursos. Permite que sua organização obter uma espiada no quais são as novidades, os novos recursos em seu próprio ambiente de teste e fornecer comentários antes de lançamento de compilações de produto para o público em geral. Para obter mais informações, consulte Skype para visualização de negócios."
-ms.openlocfilehash: 1c5d066fa7a5237ff0e4f49c9f615bbe64b55c67
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: O Skype para o programa de visualização de cliente de negócios fornece acesso antecipado para novos produtos e recursos. Permite que sua organização obter uma espiada no quais são as novidades, os novos recursos em seu próprio ambiente de teste e fornecer comentários antes de lançamento de compilações de produto para o público em geral. Para obter mais informações, consulte Skype para visualização de negócios.
+ms.openlocfilehash: f304b84babd9a536df5af15ac49837e4bd44b156
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Configurações de visualização de transmissão do Skype reunião
 
@@ -35,5 +35,5 @@ O Skype para o programa de visualização de cliente de negócios fornece acesso
   
 [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

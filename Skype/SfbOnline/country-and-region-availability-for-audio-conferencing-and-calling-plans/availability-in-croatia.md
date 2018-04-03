@@ -1,5 +1,5 @@
 ---
-title: "Disponibilidade em Croácia"
+title: Disponibilidade em Croácia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Croácia."
+description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Croácia.
 ms.openlocfilehash: 7889af0287b952eb6723c11679609f37027f490e
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-croatia"></a>Disponibilidade em Croácia
 

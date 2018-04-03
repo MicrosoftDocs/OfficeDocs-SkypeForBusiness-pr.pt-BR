@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Alemanha."
+description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Alemanha.
 ms.openlocfilehash: 49043ad4741905f081aa2b66885d5822826ae227
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-germany"></a>Disponibilidade na Alemanha
 

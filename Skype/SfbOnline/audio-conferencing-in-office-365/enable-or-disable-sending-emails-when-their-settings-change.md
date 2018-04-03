@@ -1,5 +1,5 @@
 ---
-title: "Habilitar ou desabilitar o envio de emails ao alteram suas configurações"
+title: Habilitar ou desabilitar o envio de emails ao alteram suas configurações
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 2e8f4975e96531c02cbc2c1a05b4b615829f9205
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: e2a57a63cbc7b633e0240b7ec94f2d548a2dbe31
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Ativar ou desativar o envio de emails quando alterar configurações de conferência de áudio
 
@@ -135,4 +135,4 @@ Você pode usar o Skype para centro de administração de negócios ou o Windows
 
 [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md)
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
+

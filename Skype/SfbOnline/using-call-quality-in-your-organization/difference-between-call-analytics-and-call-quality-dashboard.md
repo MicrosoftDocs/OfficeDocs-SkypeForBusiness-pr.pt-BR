@@ -1,5 +1,5 @@
 ---
-title: "O que é a diferença entre a análise de chamada e o painel de controle de qualidade de chamada?"
+title: O que é a diferença entre a análise de chamada e o painel de controle de qualidade de chamada?
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade de chamada no Skype para negócios."
-ms.openlocfilehash: 6c8eb372388ae42863292dbf00a70c5ddd19118d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade de chamada no Skype para negócios.
+ms.openlocfilehash: 934b0cfec28fa4a67e1dad699db504bda25b2978
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>O que é a diferença entre a análise de chamada e o painel de controle de qualidade de chamada?
 
@@ -65,5 +65,5 @@ Para obter mais informações sobre CQD, consulte [ativem e usando o painel de q
 
 [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Configurando o sistema telefônico na sua organização"
+title: Configurando o sistema telefônico na sua organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Saiba como configurar o sistema telefônico (nuvem PBX) para sua organização. "
-ms.openlocfilehash: dfecf35e4e10f74adfcb4d237e4f03c72048ed68
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'Saiba como configurar o sistema telefônico (nuvem PBX) para sua organização. '
+ms.openlocfilehash: a9715797284f08c3d7f2ecbf3ba45a9269a5e0e0
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurando o sistema telefônico na sua organização
 
@@ -183,11 +183,7 @@ Para as perguntas frequentes sobre a conferência de áudio, consulte [perguntas
     
     - **Terceiros como o seu provedor de serviços de audioconferência**: se você estiver em um país onde os serviços de audioconferência no Office 365 não está disponível, a qualidade de serviço não é ótima devido a seu local ou você tiver um contrato existente, escolha um áudio de terceiros provedor de conferência. Para localizar um provedor, vá para a [Microsoft identifique](http://go.microsoft.com/fwlink/?LinkId=797530).
  
-2.  Atribua o provedor de serviços de audioconferência para as pessoas de avanço ou agendem reuniões. Use uma das seguintes opções: 
-
-    - [Atribuir a Microsoft como um provedor de serviços de audioconferência](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
-    
-    - [Atribuir um terceiro como um provedor de serviços de audioconferência](../audio-conferencing-in-office-365/assign-a-third-party-as-the-audio-conferencing-provider.md).
+2.  Atribua o provedor de serviços de audioconferência para as pessoas de avanço ou agendem reuniões. Consulte [Atribuir Microsoft como um provedor de serviços de audioconferência](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
 3. Configure convites de reunião. As etapas a seguir são opcionais, mas muita admins like para executá-las: 
   
@@ -280,5 +276,5 @@ Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-yo
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

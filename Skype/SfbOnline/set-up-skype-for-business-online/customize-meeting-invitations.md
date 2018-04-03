@@ -1,5 +1,5 @@
 ---
-title: "Personalizar convites para reuniões"
+title: Personalizar convites para reuniões
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.MeetingInvitation
 ms.custom:
 - Setup
-description: "Personalize convites para reunião Skype com gráficos logotipos, ajuda e URLs legais e texto de rodapé. "
-ms.openlocfilehash: 374060876bcf12c5d7283586d3a04710a9b203b4
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Personalize convites para reunião Skype com gráficos logotipos, ajuda e URLs legais e texto de rodapé. '
+ms.openlocfilehash: 202669b67cb8feb3af7216a2faf9400a014da88e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar convites para reuniões
 
@@ -70,8 +70,7 @@ Como um administrador, você pode garantir que todos os Skype para convites de r
 ## <a name="related-topics"></a>Tópicos relacionados
 <a name="__top"> </a>
 
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

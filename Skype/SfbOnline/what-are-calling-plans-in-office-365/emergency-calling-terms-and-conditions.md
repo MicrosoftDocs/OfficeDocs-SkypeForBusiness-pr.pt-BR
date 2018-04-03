@@ -1,5 +1,5 @@
 ---
-title: "Termos e condições para chamadas de emergência"
+title: Termos e condições para chamadas de emergência
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: "Saiba como os serviços de emergência (911) diferem dos serviços de telefonia tradicionais e como fazer uma chamada. "
-ms.openlocfilehash: 09be5b96e3a5b695caeefca17352587c60051220
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Saiba como os serviços de emergência (911) diferem dos serviços de telefonia tradicionais e como fazer uma chamada. '
+ms.openlocfilehash: 5ba29f0020f17ecb3cd1e0b1abe39f27576a5657
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Termos e condições para chamadas de emergência
 
@@ -41,7 +41,7 @@ As diferenças em nossos serviços de emergência recursos de chamada incluem o 
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

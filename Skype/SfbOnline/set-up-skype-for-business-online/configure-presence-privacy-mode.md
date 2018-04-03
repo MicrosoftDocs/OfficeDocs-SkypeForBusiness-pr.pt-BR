@@ -1,5 +1,5 @@
 ---
-title: "Configurar o modo de privacidade de presença"
+title: Configurar o modo de privacidade de presença
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
-description: "Saiba como configurar o modo de privacidade para seus usuários para que eles podem controlar melhor como pessoas ver a disponibilidade deles. "
-ms.openlocfilehash: 6a50370afb0e35873536162c9db28e4d75eed96e
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Saiba como configurar o modo de privacidade para seus usuários para que eles podem controlar melhor como pessoas ver a disponibilidade deles. '
+ms.openlocfilehash: f053ca555ee17f4c1421ae16d76a071a253e4738
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar o modo de privacidade de presença
 
@@ -45,5 +45,5 @@ O Skype para configuração de presença Online de negócios dá às pessoas mai
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Definir seu PIN para transferência de números para um novo provedor de serviço"
+title: Definir seu PIN para transferência de números para um novo provedor de serviço
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Para transferir ou porta check-out de números de telefone do Skype para Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN. Depois de definir o PIN, você precisará incluí-lo quando você solicitar o check-out de um número de telefone da porta."
-ms.openlocfilehash: 5800ca846e4f71490be24ae02d031fa0579e2ce5
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Para transferir ou porta check-out de números de telefone do Skype para Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN. Depois de definir o PIN, você precisará incluí-lo quando você solicitar o check-out de um número de telefone da porta.
+ms.openlocfilehash: f4ff20f4252686d047b3e9d83cf8beb4b3a9daae
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Definir seu PIN para transferência de números para um novo provedor de serviço
 
@@ -73,9 +73,9 @@ Eis algumas informações específicas sobre esse PIN que você deve saber:
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 
   
 

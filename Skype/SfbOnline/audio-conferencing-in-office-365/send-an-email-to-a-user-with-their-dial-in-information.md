@@ -1,5 +1,5 @@
 ---
-title: "Envie um e-mail para um usuário com suas informações de discagem"
+title: Envie um e-mail para um usuário com suas informações de discagem
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Envie um email com suas informações de conferência de áudio para seus usuários."
-ms.openlocfilehash: 70533de9fbf942a6ff7bd00f3998ede9f43ff96a
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Envie um email com suas informações de conferência de áudio para seus usuários.
+ms.openlocfilehash: f1e4ddd06011d7eb85253e06d6b7de775a207683
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Enviar um email para um usuário com suas informações de conferência de áudio
 
@@ -114,4 +114,4 @@ Aqui está um exemplo do email que será enviado:
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

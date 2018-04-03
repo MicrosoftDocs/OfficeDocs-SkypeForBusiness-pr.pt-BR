@@ -1,5 +1,5 @@
 ---
-title: "Idiomas das mensagens e saudações da caixa postal"
+title: Idiomas das mensagens e saudações da caixa postal
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Saiba quais idiomas podem ser configurados no Skype for Business para as mensagens padrão do sistema. "
-ms.openlocfilehash: bb1a4d1caaf7b2d85fa00804288eadc2588997e1
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+description: 'Saiba quais idiomas podem ser configurados no Skype for Business para as mensagens padrão do sistema. '
+ms.openlocfilehash: bcb8f00910c0ce15c0e9a1da6e008bc2008cbfad
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas das mensagens e saudações da caixa postal
 
@@ -70,5 +70,5 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 
 [Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](../../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
   
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

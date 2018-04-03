@@ -1,5 +1,5 @@
 ---
-title: "Definir a identificação de chamadas para um usuário"
+title: Definir a identificação de chamadas para um usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "O sistema telefônico no Office 365 fornece uma ID de chamador padrão que é o número de telefone atribuído do usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Saiba mais sobre como usar o ID do chamador em sua organização indo como ID do chamador pode ser usado na sua organização."
-ms.openlocfilehash: 241f75b50a0e874fc4b11213cc80e99f166da937
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: O sistema telefônico no Office 365 fornece uma ID de chamador padrão que é o número de telefone atribuído do usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Saiba mais sobre como usar o ID do chamador em sua organização indo como ID do chamador pode ser usado na sua organização.
+ms.openlocfilehash: 07fc6db1a161f8eca83ea601e1a8f5d70e1f1d5e
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
 O sistema telefônico no Office 365 fornece uma ID de chamador padrão que é o número de telefone atribuído do usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Saiba mais sobre como usar o ID do chamador em sua organização indo [como ID do chamador pode ser usado na sua organização](how-can-caller-id-be-used-in-your-organization.md).
@@ -186,7 +186,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

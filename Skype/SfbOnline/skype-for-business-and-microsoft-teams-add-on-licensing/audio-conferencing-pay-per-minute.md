@@ -1,5 +1,5 @@
 ---
-title: "Áudio conferência salário por minuto"
+title: Áudio conferência salário por minuto
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Além da licença de por usuário de conferência de áudio padrão, as organizações de Volume e licenciamento também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de conferência de áudio para suas organizações."
-ms.openlocfilehash: 8c61f9057f79bebc797c0691b4b89996d851d83d
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Além da licença de por usuário de conferência de áudio padrão, as organizações de Volume e licenciamento também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de conferência de áudio para suas organizações.
+ms.openlocfilehash: 4fbf487a0a20476bfc05f2287478e51871d3c899
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Áudio conferência salário por minuto
 
@@ -67,10 +67,8 @@ Para habilitar o pagamento por minuto na conferência de áudio para usuários e
 - [Preços de planos de chamada](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)
     
 ## <a name="related-topics"></a>Tópicos relacionados
-
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
   
 [Licenciamento de complementos do Skype for Business e do Microsoft Teams](skype-for-business-and-microsoft-teams-add-on-licensing.md)
   
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

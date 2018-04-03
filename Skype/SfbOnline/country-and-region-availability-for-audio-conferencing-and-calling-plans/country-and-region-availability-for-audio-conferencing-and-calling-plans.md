@@ -1,5 +1,5 @@
 ---
-title: "Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região"
+title: Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: "Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis."
-ms.openlocfilehash: b332830b2b53637af84a2154d346396e74d55622
-ms.sourcegitcommit: e7e4d7200b586ff3d21d93a17867eb20a13a6212
+description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
+ms.openlocfilehash: ee9e98da987d1d1ad78282bb6cd299e33542ad85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -202,5 +202,5 @@ Se você não configurar Créditos de Comunicação e atribuir uma licença aos 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Gerenciamento de números de telefone para o Canadá"
+title: Gerenciamento de números de telefone para o Canadá
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: "Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para o Canadá."
-ms.openlocfilehash: aefcda10cc00a3ce24e831c2b6dd5a0b162f7158
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para o Canadá.
+ms.openlocfilehash: 149905af1521c4fa9eabb028d5aa80d8bb92729b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="phone-number-management-for-canada"></a>Gerenciamento de números de telefone para o Canadá
 > [!IMPORTANT]
@@ -51,7 +51,7 @@ Você precisa alterar o número de um usuário para um número de serviço.  <br
 
 [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
   
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Relatório dos usuários bloqueados"
+title: Relatório dos usuários bloqueados
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: "Nesse relatório, juntamente com outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo o uso da PSTN em toda a organização. "
-ms.openlocfilehash: ff8fe5d7dfd47f19e98c1663793b91729e54acda
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Nesse relatório, juntamente com outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo o uso da PSTN em toda a organização. '
+ms.openlocfilehash: 9d7a43cc8348dc3e56ddffc27c20446518fb32b5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="users-blocked-report"></a>Relatório dos usuários bloqueados
 
@@ -84,5 +84,5 @@ Isso exporta dados de todos os usuários e permite que você faça uma classific
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Como deve inserir os números de telefone?"
+title: Como deve inserir os números de telefone?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
-description: "Saiba como configurar os números de telefone quando transportá-las para Skype para negócios. "
-ms.openlocfilehash: a7364c5ebf72730179c6848dc79172f4f971ff6a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Saiba como configurar os números de telefone quando transportá-las para Skype para negócios. '
+ms.openlocfilehash: 68fe698612c095e657dab56723df7de6eb13b858
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Como deve inserir os números de telefone?
 
@@ -96,7 +96,7 @@ Quando você estiver portar números de telefone, você deverá inseri-los no fo
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

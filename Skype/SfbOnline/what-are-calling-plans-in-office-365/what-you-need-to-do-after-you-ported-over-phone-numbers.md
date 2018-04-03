@@ -1,5 +1,5 @@
 ---
-title: "O que você precisa ser feito depois de você ter migradas seus números de telefone?"
+title: O que você precisa ser feito depois de você ter migradas seus números de telefone?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.PortOrderFinish
 ms.custom:
 - Calling Plans
-description: "Consulte o que você precisa fazer em seguida depois que você tiver duas portas seus números de telefone para Skype para negócios."
-ms.openlocfilehash: 007e4199e656294c5a649a8f684ef57a4353024a
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Consulte o que você precisa fazer em seguida depois que você tiver duas portas seus números de telefone para Skype para negócios.
+ms.openlocfilehash: d190d642edc932d1c620493afc893e03d85a4fb4
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>O que você precisa ser feito depois de você ter migradas seus números de telefone?
 
@@ -50,7 +50,7 @@ Depois que você enviou seu pedido de porta, iremos entre em contato com sua ope
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

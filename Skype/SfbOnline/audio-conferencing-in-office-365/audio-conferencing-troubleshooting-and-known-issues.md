@@ -1,5 +1,5 @@
 ---
-title: "Solução de conferência de áudio e problemas conhecidos"
+title: Solução de conferência de áudio e problemas conhecidos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Obtenha uma lista de problemas conhecidos ao usar o Microsoft como seu provedor de conferência discada, status e algumas soluções alternativas. "
-ms.openlocfilehash: 6d10e797ef052cafc22555b26a27a1aaeae1fc76
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: 'Obtenha uma lista de problemas conhecidos ao usar o Microsoft como seu provedor de conferência discada, status e algumas soluções alternativas. '
+ms.openlocfilehash: 3748c6f60c04ea34f327eb371ba16f112a124287
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de conferência de áudio e problemas conhecidos
 
@@ -61,4 +61,4 @@ No momento, use isso como uma referência ao solucionar possíveis problemas com
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

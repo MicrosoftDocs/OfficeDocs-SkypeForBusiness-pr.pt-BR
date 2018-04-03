@@ -1,5 +1,5 @@
 ---
-title: "Acessibilidade de declaração de conformidade na França"
+title: Acessibilidade de declaração de conformidade na França
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
-description: "Este é o conteúdo que deverão ser publicado para atender aos requisitos de acessibilidade, conformidade e normativos para Skype para negócios Online na França. "
+hideEdit: true
+description: 'Este é o conteúdo que deverão ser publicado para atender aos requisitos de acessibilidade, conformidade e normativos para Skype para negócios Online na França. '
 ms.openlocfilehash: e7898502544b9a72be42f29751356c09d08d9e7d
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-declaration-of-conformance-for-skype-for-business-online-in-france"></a>Acessibilidade de declaração de conformidade para Skype para negócios Online na França
 

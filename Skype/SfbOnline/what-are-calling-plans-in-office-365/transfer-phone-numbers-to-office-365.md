@@ -1,5 +1,5 @@
 ---
-title: "Números de telefone de transferência para o Office 365"
+title: Números de telefone de transferência para o Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,11 +24,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 4e276c42b31f8457222d67c51352310ecc4f5bc7
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: ae74db2d5182fbab619e9d6cbdbb3c648d95df08
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Números de telefone de transferência para o Office 365
 
@@ -113,7 +113,7 @@ Your port order request will be checked and updated daily and you will be notifi
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

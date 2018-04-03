@@ -1,5 +1,5 @@
 ---
-title: "Cite créditos de comunicações."
+title: Cite créditos de comunicações.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Licensing
 - Strat_SB_PSTN
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: ac89a8bfa8cd961541a83916b3ef0088981922be
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 4c8cb1ccd2cbccb176f0b362592dfd08bc952bb2
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-communications-credits"></a>Cite créditos de comunicações.
 
@@ -99,5 +99,5 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatório de uso de PSTN do Skype for Business](../skype-for-business-online-reporting/pstn-usage-report.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

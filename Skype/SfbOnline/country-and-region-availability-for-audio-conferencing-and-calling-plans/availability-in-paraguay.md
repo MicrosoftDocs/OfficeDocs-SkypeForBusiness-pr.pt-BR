@@ -1,5 +1,5 @@
 ---
-title: Availability in Paraguay
+title: Disponibilidade no Paraguai
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Here are the Office 365 services for Skype for Business and Microsoft Teams available for Paraguay.
-ms.openlocfilehash: d159334b98962b3194147749e88453583bff1e6f
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Paraguai.
+ms.openlocfilehash: bac9cc51b845c00faf7ae1e900639f06214e40ba
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
-# <a name="availability-in-paraguay"></a>Availability in Paraguay
+# <a name="availability-in-paraguay"></a>Disponibilidade no Paraguai
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Paraguay.
+Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Paraguai.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -83,6 +83,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## <a name="feedback"></a>Feedback?
-To provide product feedback or to let us know how we're doing, see [Skype for Business Feedback](https://www.skypefeedback.com).
+  
+ 
 

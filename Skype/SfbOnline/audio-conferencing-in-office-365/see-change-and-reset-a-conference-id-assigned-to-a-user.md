@@ -1,5 +1,5 @@
 ---
-title: "Consulte, alterar e redefina um ID de conferência atribuído a um usuário"
+title: Consulte, alterar e redefina um ID de conferência atribuído a um usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: 'Learn how to assign a conference ID to a user in Skype for Business and what the conference ID''s parameters should be. '
-ms.openlocfilehash: b542e764d0b8b1587c34e78a54612410cd72a3bd
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
+ms.openlocfilehash: 12fe2b0f425f58dca8272f5f0536ba5393b2f76c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>Consulte, alterar e redefina um ID de conferência atribuído a um usuário
 
@@ -108,7 +108,6 @@ Você pode redefinir uma ID de conferência para um usuário se, por exemplo, ca
     
 - O ID de conferência para todos os usuários de serviços de audioconferência será 7 dígitos por padrão, e o número de dígitos não pode ser alterado.
     
-- Se o usuário é movido do Microsoft como um provedor de serviços de audioconferência para um provedor de serviços de audioconferência de terceiros ou o provedor de serviços de audioconferência estiver definido como **Nenhuma**, o ID de conferência não funcionará mais. Consulte [atribuir um terceiro como um provedor de serviços de audioconferência](assign-a-third-party-as-the-audio-conferencing-provider.md) ou [movimentação de provedor de serviços de audioconferência do usuário à Microsoft](moving-a-user-s-audio-conferencing-provider-to-microsoft.md).
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
@@ -128,5 +127,5 @@ Você pode redefinir uma ID de conferência para um usuário se, por exemplo, ca
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Atribuir, alterar ou remover um número de telefone para um usuário"
+title: Atribuir, alterar ou remover um número de telefone para um usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
-ms.openlocfilehash: e30d5949cb667a1a9b6d6bc4c66b82093aa40fbc
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 25ef3478a77da97e354e3652f3b605b47d4afb60
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover um número de telefone para um usuário
 
@@ -124,7 +124,7 @@ Para saber como obter planos de chamada no Office 365 e quanto eles custam, cons
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

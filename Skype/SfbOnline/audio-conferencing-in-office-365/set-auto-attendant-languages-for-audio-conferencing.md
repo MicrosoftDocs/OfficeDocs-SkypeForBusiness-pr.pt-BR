@@ -1,5 +1,5 @@
 ---
-title: "Definir idiomas do atendedor automático para conferência de áudio"
+title: Definir idiomas do atendedor automático para conferência de áudio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio."
-ms.openlocfilehash: c352609926a7bc6bf7f72015447ba9f7ae115487
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio.
+ms.openlocfilehash: e7c4adb2129a737ec34e5641a9724bdab665cd23
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Definir idiomas do atendedor automático para conferência de áudio
 
@@ -72,4 +72,4 @@ Para saber mais, consulte [Usando o Windows PowerShell para fazer Skype comuns p
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](set-up-audio-conferencing.md)
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

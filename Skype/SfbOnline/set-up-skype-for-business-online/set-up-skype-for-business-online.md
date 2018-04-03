@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - Alchemy
 - LIL_Placement
-description: "Saiba como configurar seu domínio, usuários, IM e presença para sua organização para instalar o Skype para negócios. Consulte também como configurar serviços de audioconferência, sistema telefônico e chamar planos e transmissão de reunião do Skype. "
-ms.openlocfilehash: 122ff43fd13a2bd9e2207d9e4e1c2b6e5d8be2a8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: 'Saiba como configurar seu domínio, usuários, IM e presença para sua organização para instalar o Skype para negócios. Consulte também como configurar serviços de audioconferência, sistema telefônico e chamar planos e transmissão de reunião do Skype. '
+ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar o Skype for Business Online
   
@@ -130,8 +130,6 @@ Antes de configurar mais recursos, verifique se você tem licenças para eles. [
 
 Ocasionalmente, as pessoas em sua organização precisarão usar um telefone para participar de uma reunião. O Skype for Business inclui o recurso de audioconferência exatamente para essas ocasiões! As pessoas podem participar de uma reunião do Skype for Business usando um telefone em vez de usar o aplicativo Skype for Business em um dispositivo móvel ou computador.
   
-Para obter instruções de instalação passo a passo, consulte [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md) no Office 365.
-  
 ### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>Configurar o Sistema de Telefonia e os Planos de Chamada no Office 365
 
 O recurso Sistema de Telefonia do Office 365 fornece um sistema de telefonia para sua empresa. As chamadas para outras pessoas que usam o Skype for Business na sua organização são gratuitas, e seus funcionários podem receber mensagens de voz uns dos outros e de chamadores externos. Veja o que você obtém com o Sistema de Telefonia.
@@ -152,7 +150,7 @@ Veja aqui uma visão geral das etapas para configurar o Transmissão de Reunião
     
 3. [Configurar sua rede para transmissão do Skype reunião](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md): se desejar host webinars e outras transmissões com participantes fora da sua organização, você precisa configurar sua rede.
     
-4. [Agendar uma transmissão de reunião do Skype](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) e ter uma [associação de uma transmissão de reunião do Skype](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): Verifique se o trabalho de transmissão de reuniões, agendamento de uma transmissão de reunião Skype em *https://portal.broadcast.skype.com* e, em seguida, tornando alguém tentar ingressar o reunião.
+4. [Agendar uma transmissão de reunião do Skype](http://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) e ter uma [associação de uma transmissão de reunião do Skype](http://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe): tornar reuniões transmissão Verifique se funcionam agendando uma transmissão de reunião Skype em *https://portal.broadcast.skype.com* e ter que alguém tentar ingressar na reunião.
     
 ## <a name="learn-about-network-connectivity-requirements"></a>Saiba mais sobre os requisitos de conectividade de rede
 <a name="bkmk_more"> </a>
@@ -177,5 +175,5 @@ A qualidade do áudio, vídeo e compartilhamento de aplicativos no Skype for Bus
 
 [Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](https://go.microsoft.com/fwlink/p/?linkid=400791)
   
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

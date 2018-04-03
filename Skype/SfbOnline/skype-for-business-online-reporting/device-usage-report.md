@@ -1,5 +1,5 @@
 ---
-title: "Relatório de uso do dispositivo"
+title: Relatório de uso do dispositivo
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: "O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o Skype para o relatório de uso do dispositivo de negócios para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. Confira os relatórios de atividade no Centro de administração do Office 365 para saber mais."
-ms.openlocfilehash: 717439a6829445c48984458ac31f65f63779fa77
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o Skype para o relatório de uso do dispositivo de negócios para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. Confira os relatórios de atividade no Centro de administração do Office 365 para saber mais.
+ms.openlocfilehash: ce749a1439a0cab0edcc0bdd85b34ff0b462bad8
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="device-usage-report"></a>Relatório de uso do dispositivo
 
@@ -109,5 +109,5 @@ Se diretivas da sua organização impede que você exibindo relatórios onde as 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Definir o tamanho PIN para reuniões de conferência de áudio"
+title: Definir o tamanho PIN para reuniões de conferência de áudio
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 6ae267edfb75030bfad10d07998e6b59107c8d6d
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 442ec6f4395b71acaf3296bdd6ec6317451dc36f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Definir o tamanho PIN para reuniões de conferência de áudio
 
@@ -80,6 +80,6 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
     > [!NOTE]
     > [!OBSERVAçãO] O módulo Windows PowerShell para Skype for Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Ver também
 
-[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](set-up-audio-conferencing.md)
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

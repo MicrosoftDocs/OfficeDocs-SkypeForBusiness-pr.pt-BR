@@ -1,5 +1,5 @@
 ---
-title: "Os usuários podem fazer chamadas de saída para esses países e regiões"
+title: Os usuários podem fazer chamadas de saída para esses países e regiões
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Este tópico contém todos os países/regiões que os usuários podem fazer chamadas de saída para que tenham um plano de chamada."
-ms.openlocfilehash: 455f677827006921335cb30f09a0da5720ea0bd8
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Este tópico contém todos os países/regiões que os usuários podem fazer chamadas de saída para que tenham um plano de chamada.
+ms.openlocfilehash: 9cac97144bec681773eca2811751525e0c2950d5
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas de saída para esses países e regiões
 
@@ -91,5 +91,5 @@ ms.lasthandoff: 02/27/2018
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

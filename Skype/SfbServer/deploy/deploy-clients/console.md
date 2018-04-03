@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console do Skype Room Systems versão 2 e seus periféricos.
-ms.openlocfilehash: 6ca029fa7f5560dfdfebd789938d9b53ff2e9abc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6e2ec8384387cefd074342abb3da316288af1f0f
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar o console do Skype Room Systems versão 2
  
@@ -70,13 +70,9 @@ Agora, você precisa aplicar a imagem que criou. O tablet será executado como u
     
 5. Depois que a instalação do Windows for inicializada, solte o botão de abaixar o volume (-).
     
-6. Quando o dispositivo do Skype sala sistemas v2 é iniciado pela primeira vez, seu comportamento dependerá de qual versão do Sysprep.exe é usado no arquivo Autounattend (consulte a etapa 7 de [preparar a imagem de instalação](console.md#Prep_Image)):
+6. O sistema será desligado depois que a instalação for concluída.
     
-   - Se a versão /shutdown do comando estiver habilitada, o sistema continuará com a instalação e será desligado no final. Depois do desligamento, você pode inicializar com uma mídia externa contendo o Windows PE e usar o DISM para instalar pacotes de idiomas, aplicar imagens, capturar sua imagem de referência do computador ou executar outras ações.
-    
-   - Se a versão /reboot do comando estiver habilitada, o sistema continuará com a instalação e solicitará que o usuário escolha as configurações de localidade no final. Depois de fazer essa seleção, o dispositivo de v2 Skype sala sistemas serão inicialize no seu processo de inicialização inicial. Veja [Configuração inicial do console](console.md#Initial)
-    
-Após o desligamento ou a reinicialização do sistema, é seguro remover o disco de instalação USB. Nesse momento, você pode colocar o tablet no encaixe e conectar os periféricos necessários para sua sala de reunião. Consulte as instruções do fabricante.
+Depois que o sistema foi desligado, é seguro remover o disco de instalação do USB. Nesse momento, você pode colocar o tablet no encaixe e conectar os periféricos necessários para sua sala de reunião. Consulte as instruções do fabricante.
   
  
 ### <a name="selecting-a-language-in-creators-update"></a>Seleção de idioma no Creator’s Update

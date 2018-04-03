@@ -1,5 +1,5 @@
 ---
-title: "Soluções de acessibilidade na França"
+title: Soluções de acessibilidade na França
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-hideEdit: 
+hideEdit: true
 description: "Des de utilisateurs ses proposer à expériences accessibles est au cœur la de missão s'est fixée Microsoft: permettre à chaque personne et à chaque organização de la planète d'accomplir davantage, aptidões de ses de modo que ele quelles. Microsoft proposer de um le plaisir, avec Skype Entreprise, un determinado accessibilité de d 'accessibilité s'inscrivent dans filho compromisso fort sólido l' nombre de soluções et l'inclusion numérique."
 ms.openlocfilehash: 723746dcc61335f3eb0b655b51d177e804ab4166
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-in-france"></a>Soluções de acessibilidade do Skype para negócios Online na França
 

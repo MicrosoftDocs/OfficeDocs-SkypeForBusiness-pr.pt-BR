@@ -1,5 +1,5 @@
 ---
-title: "Configurar um atendedor automático de sistema telefônico"
+title: Configurar um atendedor automático de sistema telefônico
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-description: "Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização. "
-ms.openlocfilehash: 60118fa973bc316b1b79f3d97e89953a40c6a9c7
-ms.sourcegitcommit: 50446359cd7c359eb2536176545291c723392e47
+description: 'Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização. '
+ms.openlocfilehash: 275aececccca18b82cbd08a4f4aa580d1696dcf9
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar um atendedor automático de sistema telefônico
 
@@ -254,5 +254,5 @@ Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-yo
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
     
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

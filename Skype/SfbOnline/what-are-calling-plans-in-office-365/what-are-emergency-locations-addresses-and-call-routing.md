@@ -1,5 +1,5 @@
 ---
-title: "O que são locais e endereços de emergência e encaminhamento de chamadas?"
+title: O que são locais e endereços de emergência e encaminhamento de chamadas?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 3dfc02ef5c5316e8767512e57d1f98eae9f57a06
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: 8aceaab0c54b42555c31f14883973fdab3c854fd
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>O que são locais e endereços de emergência e encaminhamento de chamadas?
 
@@ -75,7 +75,7 @@ Locais e endereços de emergências são usados durante o processo de roteamento
 
 [Termos e condições das Chamadas de Emergência](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

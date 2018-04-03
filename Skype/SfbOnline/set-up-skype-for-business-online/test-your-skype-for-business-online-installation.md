@@ -1,5 +1,5 @@
 ---
-title: "Testar a instalação do Skype for Business Online"
+title: Testar a instalação do Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,11 +17,11 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 6f280e6345fb8a6af72cac35f4844f7a63caab48
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+ms.openlocfilehash: 4ddd99dec5e8c283741380b68e01ef97363fda85
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testar a instalação do Skype for Business Online
 
@@ -33,7 +33,7 @@ Veja o que você precisa:
     
 - Um computador para cada conta de teste. Configure-os como os computadores típicos de sua organização.
     
-- Uma conta de um provedor de serviços de audioconferência do Skype for Business Online. Para saber mais, consulte [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).
+- Uma conta de um provedor de serviços de audioconferência do Skype for Business Online. 
     
 ## <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 
@@ -73,8 +73,6 @@ Para dar acesso a reuniões do Skype for Business Online por telefone, configure
 - Um código de conferência e um PIN (número de identificação pessoal) para cada usuário de sua organização que agenda ou conduz reuniões.
     
 Depois de configurar seus usuários para a audioconferência, eles recebem uma mensagem de email automatizada com os números de discagem e o código da conferência. Essas informações também são adicionadas automaticamente às novas solicitações de reunião do Skype for Business.
-  
-Para obter detalhes, consulte [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md). 
   
  **Para adicionar informações da audioconferência à conta de um de seus usuários de teste**
   
@@ -141,5 +139,5 @@ Não consegue entrar? Veja [Como solucionar problemas de entrada no Skype for Bu
 
 [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

@@ -1,5 +1,5 @@
 ---
-title: "Por que estou tendo problemas para inserir Reino Unido informações de endereço?"
+title: Por que estou tendo problemas para inserir Reino Unido informações de endereço?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
-description: "Aqui estão alguns motivos por que você pode estar tendo problemas para que seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido)."
-ms.openlocfilehash: e012de9ba4371063bc16e2896a5bd4e3b8814a4d
-ms.sourcegitcommit: 371a699df0c13f44d2cb6511ba7eaafe047be92c
+description: Aqui estão alguns motivos por que você pode estar tendo problemas para que seu endereço ou endereços para validar corretamente no Reino Unido (Reino Unido).
+ms.openlocfilehash: 75373098af599768aa654f5327c1f40069ed51c7
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Por que estou tendo problemas para inserir Reino Unido informações de endereço?
 
@@ -116,7 +116,7 @@ Se você estiver tendo um problema inserindo o CEP, lembre-se:
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Rótulo de aviso de isenção de responsabilidade de chamadas de emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

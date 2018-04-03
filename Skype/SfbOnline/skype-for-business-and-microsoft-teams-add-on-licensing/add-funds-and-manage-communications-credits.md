@@ -1,5 +1,5 @@
 ---
-title: "Adicione fundos e gerencie créditos de comunicações"
+title: Adicione fundos e gerencie créditos de comunicações
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -29,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 - Strat_SB_PSTN
-description: "Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. "
-ms.openlocfilehash: a53c2e1f92437afa134a26f7203cb36c7714219a
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+description: 'Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. '
+ms.openlocfilehash: c9eb2cb23b4d7be58970a28c928d7c839c30db4b
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicione fundos e gerencie créditos de comunicações
 
@@ -84,13 +84,11 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
 
 - [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](../audio-conferencing-in-office-365/set-up-audio-conferencing.md)
-    
 - [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
     
 - [Configurar planos de chamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md) e [Chamar planos para o Office 365](calling-plans-for-office-365.md)
         
 - [Configure o conector de nuvem](https://technet.microsoft.com/en-us/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)
 
-## <a name="feedback"></a>Comentários?
-Para fornecer comentários sobre o produto ou para saber como estamos indo, consulte [Skype para comentários de negócios](https://www.skypefeedback.com).
+  
+ 

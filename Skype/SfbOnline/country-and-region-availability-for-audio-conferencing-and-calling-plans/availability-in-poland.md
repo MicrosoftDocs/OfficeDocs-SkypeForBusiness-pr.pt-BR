@@ -1,5 +1,5 @@
 ---
-title: "Disponibilidade em Polônia"
+title: Disponibilidade em Polônia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: "Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Polônia."
-ms.openlocfilehash: ffd034a4a8ca891bc6cada4f19477ef10625bc48
-ms.sourcegitcommit: 94e32f776364b0aaefe2d2d72062ec1c249eaef3
+description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Polônia.
+ms.openlocfilehash: 16b730bc1a3bbfdf7431d0fe387dbcd94431e9bc
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="availability-in-poland"></a>Disponibilidade em Polônia
 
@@ -83,5 +83,6 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-
+  
+ 
 

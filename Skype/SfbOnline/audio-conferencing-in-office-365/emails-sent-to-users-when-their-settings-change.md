@@ -1,5 +1,5 @@
 ---
-title: "Emails enviados aos usuários ao alteram suas configurações"
+title: Emails enviados aos usuários ao alteram suas configurações
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: f6155938c94270cff2defccf2db641a18e6cb68d
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
+ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>Emails enviados aos usuários ao alteram suas configurações
 
@@ -73,7 +73,7 @@ Por padrão, há quatro tipos de email que será enviada para os usuários habil
     
     Isso acontece quando a licença de **Conferência de áudio** é removida de um usuário ou quando a alteração do provedor de serviços de audioconferência de um usuário da Microsoft a um provedor de serviços de audioconferência de terceiros ou ao configurar o provedor como **Nenhum**. Este email contém as instruções e informações para o usuário usar o Skype para ferramenta de atualização de Reunião Online comercial para remover informações específicas de conferência de áudio, como o padrão ID de conferência telefônica número ou conferência.
     
-    Consulte [atribuir ou remover licenças para o Office 365 para empresas](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc) ou [atribuir um terceiro como um provedor de serviços de audioconferência](assign-a-third-party-as-the-audio-conferencing-provider.md).
+    Veja [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc).
     
     Aqui está um exemplo desse email:
     
