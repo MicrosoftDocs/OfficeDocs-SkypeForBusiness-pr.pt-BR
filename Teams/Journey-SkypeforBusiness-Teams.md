@@ -11,11 +11,11 @@ description: Orientações sobre tudo o que você precisa saber para fazer a mig
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8d89f0f24f8dc056617ab06890deca74e8fcf60
-ms.sourcegitcommit: 6c59400d2e677c1022f320c91cd7f102b99d292b
+ms.openlocfilehash: b4341be17cd224e01cc6024d6bf871a6823cdad2
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="journey-from-skype-for-business-to-microsoft-teams"></a>Jornada de migração do Skype for Business para o Microsoft Teams
 ==================================================
@@ -33,7 +33,7 @@ Para melhores resultados, recomendamos que você siga estas orientações obedec
 
 [2 - Piloto do Teams paralelamente ao Skype for Business](pilot-essentials.md)
 
-[3 - Habilitar o Teams paralelamente ao Skype for Business](guidance-SkypeforBusiness.md)
+[3 - atualizar a jornada e coexistência do Skype para equipes e de negócios](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 [4 - Gerar valor através da adoção dos usuários](continue-journey.md)
 

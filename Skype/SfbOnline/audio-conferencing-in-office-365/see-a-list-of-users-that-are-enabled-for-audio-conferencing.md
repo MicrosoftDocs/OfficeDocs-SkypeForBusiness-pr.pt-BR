@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: c58a8e2475b1b41e02d0abced47fcc9d076d5f25
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4f019a3ffc8b30de0a5d57a882bd2cdcb78f0508
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Ver uma lista de usuários habilitados para conferência de áudio
 
@@ -34,11 +34,13 @@ Depois que você habilitou Skype para usuários corporativos ou Teams da Microso
   
 ## <a name="viewing-a-list-of-users"></a>Exibir uma lista de usuários
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+**Usando equipes da Microsoft e Skype para Business Admin Center**
+
+- No painel de navegação esquerdo, clique em **usuários**.
+
+**Usando o Skype para o Centro de administração de negócios**
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
-    
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**.
+- No painel de navegação esquerdo, vá para **conferência de áudio** > **usuários**.
     
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 

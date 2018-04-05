@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumo: Leia este tópico para saber como planejar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online. A configuração da conectividade híbrida é a primeira etapa da implantação de muitas soluções híbridas do Skype for Business.'
-ms.openlocfilehash: 86478b373ccc9c39d1a79668ca13487305319cb8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 28ddfa42f11ad76cb353200cf00a4ca4d05a9da0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online
  
@@ -271,9 +271,8 @@ Ao criar registros DNS para implantações híbridas, todos os Skype para regist
   
 Além disso será necessário garantir que a resolução DNS descrita na tabela a seguir funciona em sua implantação local:
   
-||||
-|:-----|:-----|:-----|
 |Registro DNS  <br/> |Pode ser resolvido por  <br/> |Requisitos de DNS  <br/> |
+|:-----|:-----|:-----|
 |Registro SRV de DNS para _sipfederationtls._tcp. \<sipdomain.com\> para todas as compatíveis domínios SIP resolver em IP(s) de borda de acesso externo  <br/> |Servidor(es) de borda  <br/> |Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber para onde encaminhar o tráfego federado para o domínio SIP que está dividido entre as instalações local e online.  <br/> Deve usar uma correspondência estrita de nomes DNS entre o domínio no nome de usuário e o registro SRV.  <br/> |
 |Registro(s) A de DNS para FQDN do serviço de webconferência de borda, como webcon.contoso.com, que resolve IP(s) de borda de webconferência  <br/> |Rede corporativa interna conectados nos computadores dos usuários  <br/> |Habilitar usuários online para apresentar ou visualizar conteúdo em reuniões hospedadas localmente. O conteúdo inclui arquivos do PowerPoint, quadros de comunicações, votações e observações compartilhadas.   <br/> |
    

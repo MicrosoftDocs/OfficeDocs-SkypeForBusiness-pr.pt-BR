@@ -1,5 +1,5 @@
 ---
-title: "Configurar conferência de áudio para o Skype for Business e Teams da Microsoft"
+title: Configurar conferência de áudio para o Skype for Business e Teams da Microsoft
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 - LIL_Placement
-description: "Saiba como configurar a conferência discada ou áudio para as pessoas em sua empresa que precisam para ingressar em chamadas de conferência usando um telefone. "
+description: 'Saiba como configurar a conferência discada ou áudio para as pessoas em sua empresa que precisam para ingressar em chamadas de conferência usando um telefone. '
 ms.openlocfilehash: 4d82de668ec31f1664fb05202979dd6df94bda2b
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurar conferência de áudio para o Skype for Business e Teams da Microsoft
 

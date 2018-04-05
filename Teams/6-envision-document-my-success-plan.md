@@ -11,13 +11,15 @@ description: Escolher um modelo de implantação, desenvolver uma matriz de (RAC
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8352608eca00062ed2b8dbdce4682e7bdd437351
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 70ed024e606e7419a5cd2645cb60ef487fa72982
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="document-my-success-plan"></a>Documente o meu planejamento de sucesso
+
+Este artigo fornece uma visão geral dos requisitos para documentar corretamente a sua implantação de voz de nuvem. Definindo e documentar todos os pontos de decisão e próximas etapas ao planejar sua implantação de voz de nuvem, você pode verificar se todos os participantes e membros da equipe de projeto são alinhados em oferecer resultados bem-sucedida. 
 
 ## <a name="execution-planning"></a>Planejamento de execução 
 

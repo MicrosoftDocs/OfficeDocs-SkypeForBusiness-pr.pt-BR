@@ -11,15 +11,17 @@ description: Saiba mais sobre as reuniões, o licenciamento e a disponibilidade,
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a4007b328ec66bed0ccae0160491b4ee20f858
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
 Para planejar a implementação técnica de conferência de áudio, você deve fazer uma série de decisões de serviço antes do tempo para melhor preparar sua organização para implementar uma solução que atende aos seus requisitos de negócios definidas.
+
+## <a name="audio-conferencing-in-teams"></a>Serviços de audioconferência em equipes
 
 Como parte da definição de recursos de conferência de áudio necessários em Teams da Microsoft, uma das primeiras etapas é avaliar o mapa público mais recente para determinar:
 

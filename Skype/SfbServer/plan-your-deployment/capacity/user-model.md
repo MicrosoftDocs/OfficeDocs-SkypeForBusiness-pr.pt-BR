@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Este artigo fornece orientação sobre quantos servidores são necessários em um site para o número de usuários neste site, de acordo com o uso descrito em modelos de usuário Skype for Business Server 2015.
-ms.openlocfilehash: b8395e1fdec1a9d4ed100a911fccd6177b03c665
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 313bd440188b1d97afa95d71fcca4e74b5cb8217
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server-2015"></a>Planejamento de capacidade usando modelo de usuário para Skype for Business Server 2015
  
@@ -163,9 +163,8 @@ Se você implantar o monitoramento ou arquivamento, a funcionalidade de front-en
   
 A tabela a seguir indica aproximadamente quanto armazenamento de banco de dados é exigido por usuário, por dia, para os dados de monitoramento e arquivamento.
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**CDR (Monitoramento)** <br/> |**QoE (Monitoramento)** <br/> |**Archiving** <br/> |
+|:-----|:-----|:-----|:-----|
 |Espaço em disco exigido por usuário, por dia  <br/> |49 KB  <br/> |28 KB  <br/> |57 KB  <br/> |
    
 A Microsoft usou o hardware na tabela a seguir para p servidor de banco de dados para monitoramento e arquivamento durante seus testes de desempenho. O teste coletados os dados dos dois pools de Front-End, cada um deles contido 80.000 usuários.
@@ -181,9 +180,8 @@ A Microsoft usou o hardware na tabela a seguir para p servidor de banco de dados
    
 **Configurações recomendadas de disco**
 
-||||
-|:-----|:-----|:-----|
 |**Unidade** <br/> |**Configuração RAID** <br/> |**Número de discos** <br/> |
+|:-----|:-----|:-----|
 |CDR, QoE e arquivos de banco de dados de arquivamento, em uma única unidade  <br/> |1+0  <br/> |16  <br/> |
 |Arquivo de log do banco de dados de CDR  <br/> |1  <br/> |2  <br/> |
 |Arquivo de log do banco de dados de QoE  <br/> |1  <br/> |2  <br/> |

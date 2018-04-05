@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: Este artigo lista as topologias online e locais que são compatíveis com a autenticação moderna no Skype for Business, bem como os recursos de segurança aplicáveis a cada topologia.
-ms.openlocfilehash: 13721b9d489b85fa6895469310240eebccc180ec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a6be001bf1aeeeba9823c291ee9726c33ec9009a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologias do Skype for Business compatíveis com a autenticação moderna
  
@@ -73,9 +73,8 @@ Primeiro, vamos tratar da autorização moderna com o Skype for Business em topo
 > [!IMPORTANT]
 > Está pronto para configurar a autenticação moderna no Skype for Business Online? As etapas para habilitar esse recurso são adequadas [aqui](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx). 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Nome da topologia  <br/> |Exemplo  <br/> |Descrição  <br/> |Compatível  <br/> |
+|:-----|:-----|:-----|:-----|
 |Somente na nuvem  <br/> |![SFB compatível com topologia MA, somente Nuvem.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Usuários hospedados/caixas de correio localizadas: Online   <br/> |A autenticação moderna está ativada tanto para o EXO quanto para o SFBO.  <br/> Portanto, o servidor de autorização é o Azure AD.  <br/> |A autenticação multifator (MFA), certificado de cliente com base em autenticação (CBA), acesso condicional (CA) / gerenciamento do aplicativo Mobile (MAM) com Intune. \*  <br/> |
 |Somente local  <br/> |![SFB compatível com topologia MA, somente local.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Usuários hospedados/caixas de correio localizadas: no local  <br/> |A autenticação moderna está ativada para o SFB local.  <br/> Portanto, o servidor de autorização é o ADFS.  <br/> Para obter detalhes de configuração, consulte [neste artigo.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (somente para o Windows Desktop - os clientes móveis não são compatíveis). Nenhum recurso de integração do Exchange.  <br/> |
    
@@ -84,9 +83,8 @@ Primeiro, vamos tratar da autorização moderna com o Skype for Business em topo
   
 As topologias mistas envolvem combinações de híbridos de domínio dividido do SFB. Estas são as topologias mistas compatíveis no momento:
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Nome da topologia  <br/> |Exemplo  <br/> |Descrição  <br/> |Compatível   <br/> |
+|:-----|:-----|:-----|:-----|
 |Mista 1  <br/> |![SFB compatível com topologia MA, Mista 1 (EXO + SFB).](../../media/7b2e607a-c83a-4bb3-9b48-a43566516129.PNG)           <br/> Usuários hospedados/caixas de correio localizadas: EXO e SFB  <br/> |A autenticação moderna não está habilitada para o SFB; nenhum recurso de autenticação moderna do SFB disponível nesta topologia.  <br/> |Nenhum recurso de autenticação moderna para o SFB.  <br/> |
 |Mista 2  <br/> |![MA compatível com S4B Topologia mista 2, SFBO mais MA funcionando com EXCH local.](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> Usuários hospedados/caixas de correio localizadas: EXCH e SFBO  <br/> |MA está ativado para SFBO somente. O servidor de autorização é Azure AD para usuários hospedados no SFBO, mas AD para EXCH local.  <br/> |MFA, CBA CA/MAM com Intune.\*  <br/> |
 |Mista 3  <br/> |![MA compatível com SFB, EXO com MA ativado, mais EXCH e SFB local.](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> Usuários hospedados/caixas de correio localizadas: EXO + SFB ou EXCH + SFB  <br/> |Nenhum recurso de autenticação moderna do SFB disponível nesta topologia  <br/> |Nenhum recurso de autenticação moderna para o SFB.  <br/> |

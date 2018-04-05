@@ -11,17 +11,15 @@ description: Medir os resultados da sua implantação de conferência de áudio 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b0b40dd3b8a034d655a14e0dd905f8a9a3c0ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 80af34d827ecc1646e85f7a8db4593dbf446ed30
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
-## <a name="introduction"></a>Introdução
-
-Esse conteúdo fornece uma visão geral dos requisitos de definir adequadamente o êxito da implantação de conferência de áudio para sua organização. Ao definir corretamente seu sucesso, você pode medir o seus resultados progressos por meio de sua implantação e verifique se a você obter os resultados são os resultados que você queria.
+Este artigo fornece uma visão geral dos requisitos para definir o êxito da implantação de conferência de áudio para sua organização. Ao definir corretamente o que é sucesso, você pode medir o seus resultados progressos por meio de sua implantação e verifique se a você obter os resultados são os que você queria.
 
 <!--ENDOFSECTION-->
 

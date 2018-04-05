@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: f69becbd25ad00ca4353c0b287f2abcc43bdecfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5c175a09a83d8fb5fe3267329c63075b450a9b1f
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
  
@@ -412,9 +412,8 @@ Nesse caso, todo o tráfego de mídia para o ponto de extremidade na internet po
 
 A máquina host deve ser capaz de acessar recursos externos para instalar com êxito, atualizar e gerenciar o conector de nuvem. A tabela a seguir mostra os destinos e portas necessários entre o computador host e os recursos externos. 
   
-||||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Direção  <br/> |IP de origem  <br/> |IP de destino  <br/> |Porta de origem  <br/> |Porta de Destino  <br/> |Protocolo  <br/> |Objetivo  <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Saída  <br/> |IPs de host do conector de nuvem  <br/> |qualquer um  <br/> |qualquer um  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
 |Saída  <br/> |IPs de host do conector de nuvem  <br/> |qualquer um  <br/> |qualquer um  <br/> |80, 443  <br/> |TCP  <br/> |Lista de certificados revogados (CRL)  <br/> |
 |Saída  <br/> |IPs de host de Connectorr de nuvem  <br/> |qualquer um  <br/> |qualquer um  <br/> |80, 443  <br/> |TCP  <br/> |Atualização do conector de nuvem  <br/> Skype for Business Online  <br/> PowerShell do Administrador  <br/> Windows Update  <br/> |

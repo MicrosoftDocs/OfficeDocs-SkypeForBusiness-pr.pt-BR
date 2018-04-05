@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Leia este tópico para saber mais sobre o gerenciamento de sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 5ef699bed1a77fc48f59ba4c5f8eb78ccc286ef7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 562dbeea19fb732caf9348e2bfd632da3579e71a
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="manage-skype-room-systems-v2"></a>Gerenciar o Skype Room Systems versão 2
  
@@ -64,7 +64,6 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 |Atualização de aplicativos  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
 |Configuração de contas do Skype  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
 |Acesso aos logs  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
-||||
    
 ## <a name="configuring-group-policy-for-skype-room-systems-v2"></a>Configurando a Política de Grupo para o Skype Room Systems versão 2
 <a name="GroupPolicy"> </a>

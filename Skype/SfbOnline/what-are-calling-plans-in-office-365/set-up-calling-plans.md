@@ -23,22 +23,19 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: dcba074f1c0e6966ef0632a95035e681aa25a194
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-up-calling-plans"></a>Configurar planos de chamada
-
 Chamadas para outro Skype para usuários corporativos são livres, mas se quiser que os usuários possam chamar telefones fora da sua empresa, fazer um planejamento chamar domésticas ou internacional chamar planejar no Office 365. É fácil configurar isso-se no seu negócio. 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Etapa 1: Descobrir se chamar planos estarão disponíveis em seu país/região
-
 Acesse a [disponibilidade do país e região para conferência de áudio e chamar planos](..//country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) e selecione seu país ou região para obter informações sobre planos de chamada de disponibilidade, bem como informações sobre as tarifas de conferência de áudio, o sistema telefônico e chamada gratuita números e créditos de comunicações.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
-
 1. Se o sistema telefônico no Office 365 recurso não está incluído no seu plano, você pode precisar adquirir licenças de complemento do **Sistema telefônico** . Depois de ter licenças de **Sistema telefônico** , adquira [Chamar planos do Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md). Consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)e comprar o plano e licenças. 
     
     > [!TIP]
@@ -47,20 +44,16 @@ Acesse a [disponibilidade do país e região para conferência de áudio e chama
 2. Primeiro, atribua as licenças e atribuir um plano de chamar para as pessoas na sua organização. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Etapa 3: Obter os números de telefone
-
 Há três maneiras de obter novos números de usuário:
 
-- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus pontes de conferência usando o Skype para o Centro de administração do Business, consulte [Getting números de telefone de serviço](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus usuários usando o Skype para centro de administração de negócios, consulte [Obtendo os números de telefone para seus usuários.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
     
 - **Porta de seus números de existentes.** Você pode porta ou transferir números existentes do seu provedor de serviço atual ou a operadora de telefone para o Office 365. Consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo a fazer isso.  
   
 - **Use um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) não será possível obter seus números de telefone novo usando o Skype para o Centro de administração de negócios ou, você precisará de números de telefone específico ou códigos de área. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte o [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) . 
 
-
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>Etapa 4: Adicionar endereços de emergências e locais para sua organização
-<a name="bkmk_add_addresses"> </a>
-
-Um endereço de emergência deve ser associado um número de telefone; Quando essa associação acontece pode variar entre regiões e país. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando você atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual. 
+<a name="bkmk_add_addresses"></a> Um endereço de emergência deve ser associado um número de telefone; Quando essa associação acontece pode variar entre regiões e país. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando você atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual. 
 
 Para adicionar um endereço de emergência para sua organização, no Skype para centro de administração de negócios, vá para **voz** > **locais de emergência** > **Adicionar novo endereço**. Para obter detalhes, consulte [Adicionar ou remover e endereço de emergência para sua organização](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md) .
 
@@ -68,9 +61,7 @@ Para adicionar um local de emergência para sua organização, no Skype para cen
 
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>Etapa 5: Atribuir um endereço de emergência e um número de telefone a um usuário
-<a name="bkmk_add_addresses"> </a>
-
-Quando você estiver configurando chamar planos no Office 365, você deve atribuir um número de telefone e endereço de emergência a cada um dos seus usuários. O endereço de emergência deve ser criado antes de atribuir um número de telefone a um usuário. 
+<a name="bkmk_add_addresses"></a> Quando você estiver configurando chamar planos no Office 365, você deve atribuir um número de telefone e endereço de emergência a cada um dos seus usuários. O endereço de emergência deve ser criado antes de atribuir um número de telefone a um usuário. 
 
 Para adicionar um endereço de emergência para um usuário, no Skype para centro de administração de negócios, vá para **voz** > **usuários de voz** > **local de emergência** > **Atribuir número** > **Alterar local**. Para obter mais detalhes, consulte [atribuir ou alterar um endereço de emergência para um usuário](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md) .
 
@@ -79,7 +70,6 @@ Para adicionar um endereço de emergência para um usuário, no Skype para centr
 
 Para atribuir um número de telefone a um usuário, no Skype para o Centro de administração de negócios, vá para **voz** > **usuários de voz** > **Atribuir número** > **Alterar local**. Para obter mais detalhes, consulte [atribuir, alterar ou remover um número de telefone para um usuário](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md) .
 
-    
 ## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>Etapa 6: Informar os usuários sobre seus números de telefone de novo
 <a name="bkmk_add_addresses"> </a>
 

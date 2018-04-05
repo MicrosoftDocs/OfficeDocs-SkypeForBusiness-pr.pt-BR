@@ -10,11 +10,11 @@ description: Um guia para iniciar um piloto do Microsoft Teams para explorar tud
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 386221bfc8a3249ef4c902605171e636f8a48f40
-ms.sourcegitcommit: 730194fa152085ca2cee30373eaf68efa5f6b4ce
+ms.openlocfilehash: ccb09692991eeacc43d035389d245a0735030f1c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="pilot-microsoft-teams-alongside-skype-for-business"></a>Piloto do Microsoft Teams paralelamente ao Skype for Business
 ============================================
@@ -200,7 +200,7 @@ Com base nos resultados, aqui estão alguns caminhos recomendados que sua organi
 <br>-e-<br><br>
 <li>Integridade de rede satisfatória</li></ul></td>
 <td align="left"><p>Implantação do Teams e do Skype for Business paralelamente em alguns/todos os cenários disponíveis. Para facilitar a curva de aprendizado, recomendamos fortemente o lançamento de recursos ao longo do tempo, em vez de uma abordagem completa de tudo de uma vez.</p>
-<p>Saiba mais sobre a [execução do Skype for Business e do Teams paralelamente](guidance-SkypeforBusiness.md).</p>
+<p>Saiba mais sobre a [jornada de atualização e coexistência do Skype para equipes e de negócios](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Baixe os <a href="https://go.microsoft.com/fwlink/?linkid=859044">modelos de prontidão do usuário</a> para facilitar a comunicação com seus usuários finais sobre a nova experiência paralela.</p></td>
 </tr>
 <tr class="odd">
@@ -208,7 +208,7 @@ Com base nos resultados, aqui estão alguns caminhos recomendados que sua organi
 <br>-e-<br><br>
 <li>Integridade de rede satisfatória</li></ul></td>
 <td align="left"><p>Implantação do Teams e do Skype for Business paralelamente em todos os cenários, incentivando os usuários a lidar com o Teams sempre que for viável. Além disso, entre em contato com a equipe de contas ou com o Suporte da Microsoft para que eles saibam que a sua organização pode estar pronta para migrar para o Teams.</p>
-<p>Saiba mais sobre a [execução do Skype for Business e do Teams paralelamente](guidance-SkypeforBusiness.md).</p>
+<p>Saiba mais sobre a [jornada de atualização e coexistência do Skype para equipes e de negócios](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).</p>
 <p>Baixe os <a href="https://go.microsoft.com/fwlink/?linkid=859044">modelos de prontidão do usuário</a> para facilitar a comunicação com seus usuários sobre a nova experiência paralela.</p></td>
 </tr>
 <tr class="even">

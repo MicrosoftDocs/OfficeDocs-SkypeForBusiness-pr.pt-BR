@@ -1,5 +1,5 @@
 ---
-title: "Desabilitando números para ligações gratuitas para usuários específicos"
+title: Desabilitando números para ligações gratuitas para usuários específicos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Os administradores podem controlar como os organizadores podem usar números para ligações gratuitas para suas reuniões."
-ms.openlocfilehash: fb4b0f8725608928e686307845871b4f5c1976d9
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Os administradores podem controlar como os organizadores podem usar números para ligações gratuitas para suas reuniões.
+ms.openlocfilehash: d0b7703f4dd518caa5ffb339282c5a7bbac4daa3
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Desabilitando números para ligações gratuitas para usuários específicos
 
@@ -42,14 +42,31 @@ Quando os números para ligações gratuitas estão desabilitados para um determ
 
  - Os participantes podem continuar a ingressar em reuniões do organizador usando números tarifados. 
 
-## <a name="disabling-toll-free-numbers-for-specific-users-using-the-skype-for-business-admin-center"></a>Desabilitando números para ligações gratuitas para usuários específicos usando o Skype para o Centro de administração de negócios 
- 1. Vá para o **Centro de administração do Office 365** > **Skype for Business**. 
- 2. No Skype para o Centro de administração de negócios, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis. 
- 3. No Painel de Ações, clique em **Editar**. 
- 4. Marque ou desmarque **Permitir usando números de discagem gratuita para participar de reuniões deste usuário**. 
- 5. Clique em **Salvar**. 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>Desabilitando números para ligações gratuitas para usuários específicos 
+
+**Usando equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Clique no menu ao lado de **Pontes de conferência**e clique em **Editar** na lista suspensa.
+
+4. No painel de tarefas do **provedor de ponte de conferência** , desative **Permitir usando números para ligações gratuitas na ponte de conferência da sua organização para participar de reuniões deste usuário**. 
+
+5. Clique em **se aplicam.** 
+
+**Usando o Skype para o Centro de administração de negócios**
+
+1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis. 
+
+2. No Painel de Ações, clique em **Editar**. 
+
+3. Desmarque **Permitir usando números de discagem gratuita para participar de reuniões deste usuário**. 
  
-## <a name="disabling-toll-free-numbers-for-specific-users-using-powershell"></a>Desabilitando números para ligações gratuitas para usuários específicos usando o PowerShell  
+4. Clique em **Salvar**. 
+ 
+**Usando o PowerShell**  
 
 Você pode usar o parâmetro AllowTollFreeDialIn do cmdlet Set-CsOnlineDialInConferencingUser para habilitar ou desabilitar esse controle. Por exemplo: 
 

@@ -1,5 +1,5 @@
 ---
-title: "Ativar ou desativar anúncios de entrada e de saída para reuniões"
+title: Ativar ou desativar anúncios de entrada e de saída para reuniões
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: ca109a1e6a1538c6561e8f5a6e29bd0f70cf5efe
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+ms.openlocfilehash: 0e15116061d35af39e8010c8e079395aaa7c4a8b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões
 
@@ -36,19 +36,31 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
   
 ## <a name="setting-meeting-join-options"></a>Definir as opções de participação da reunião
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+**Usando equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+
+3. No painel de **configurações de ponte** , habilitar ou desabilitar a **Habilitar a entrada da reunião e sair notificações para ser ativado**. Esta opção é selecionada por padrão. Se você desmarcar a ele, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+4. Em **tipo de anúncio de entrada/saída**, selecione **nomes ou números de telefone** ou **tons**.
     
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
+5. Habilitar ou desabilitar **os chamadores Ask registrar seus nomes antes de ingressar na reunião**.
     
-4. Sob a **experiência de participação da reunião**, marque ou desmarque **Habilitar a entrada da reunião e sair notificações para ser ativado**. Esta opção é selecionada por padrão. Se você desmarcar a ele, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
+6. Depois de fazer as alterações, clique em **Aplicar**.
+
+**Usando o Skype para o Centro de administração de negócios**
     
-5. Em **tipo de anúncio de entrada/saída**, selecione **nomes ou números de telefone** ou **tons**.
+1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-6. Marque ou desmarque **os chamadores Ask registrar seus nomes antes de ingressar na reunião**.
+2. Sob a **experiência de participação da reunião**, marque ou desmarque **Habilitar a entrada da reunião e sair notificações para ser ativado**. Esta opção é selecionada por padrão. Se você desmarcar a ele, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
     
-7. Depois de fazer suas alterações, clique em **Salvar**.
+3. Em **tipo de anúncio de entrada/saída**, selecione **nomes ou números de telefone** ou **tons**.
+    
+4. Marque ou desmarque **os chamadores Ask registrar seus nomes antes de ingressar na reunião**.
+    
+5. Depois de fazer suas alterações, clique em **Salvar**.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 

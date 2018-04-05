@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: f504e9b807afb4a587a9d6f13baf69a3c5b9db68
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0cf1eabd25a6be5d6104c2593e5bc286d15d59f0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>Emails enviados aos usuários ao alteram suas configurações
 
@@ -104,21 +104,27 @@ Você pode usar o cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://
 
 Ao desativar o envio de emails para os usuários, o email não será enviado mesmo quando o usuário receber uma licença. Neste caso, o ID de conferência, padrão o número de telefone de conferência e, mais importante, o seu PIN de conferência de áudio não será enviada ao usuário. Quando isso acontecer, você deve informar ao usuário, enviando um email separado ou ligando para eles.
   
-Por padrão, emails serão enviadas aos seus usuários, mas se você deseja impedir recebendo email para conferência de áudio, você pode usar o Skype para o Centro de administração de negócios ou o Windows PowerShell. 
+Por padrão, emails serão enviadas aos seus usuários, mas se desejar impedir a email de recebimento para conferência de áudio, você pode usar o Microsoft Teams, o Skype para o Centro de administração de negócios, ou o Windows PowerShell. 
+
+**Usando equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+
+3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de discagem**.
+
+4. Clique em **Aplicar**.
   
- **Usando o Skype para o Centro de administração de negócios**
-  
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+**Usando o Skype para o Centro de administração de negócios**
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
+2. Na página **configurações de ponte da Microsoft** , marque ou desmarque **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de conferência de áudio**. 
     
-4. Na página **configurações de ponte da Microsoft** , marque ou desmarque **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de conferência de áudio**. 
+3. Clique em **Salvar**. 
     
-5. Clique em **Salvar**. 
-    
- **Usando o Windows PowerShell**
+**Usando o Windows PowerShell**
   
 1. Execute os seguintes procedimentos para desabilitar o envio de email a todos os seus usuários:
     

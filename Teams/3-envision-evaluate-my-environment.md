@@ -11,13 +11,15 @@ description: Use personagens e análise de rede para avaliar a preparação da s
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5d22bd46006b3bdd1f874da021045c36975b4ec
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="evaluate-my-environment"></a>Avaliar o meu ambiente
+
+Este artigo fornece uma visão geral dos requisitos de adequadamente avaliando o ambiente atual para o uso de serviços de nuvem de voz. Avaliando seu ambiente, você pode identificar os riscos e os requisitos que influenciam a sua implantação de voz de nuvem geral. Identificando antecipadamente desses itens, você pode ajustar seu planejamento para o sucesso da unidade.
 
 ## <a name="introduction-to-evaluating-your-environment"></a>Introdução ao avaliando o ambiente 
 
@@ -46,20 +48,19 @@ Sabendo disso ajudarão sua organização ajuste seu plano de projeto e preparar
 
 ## <a name="adoption-and-change-management-assessment-capabilities"></a>Recursos de avaliação do gerenciamento de adoção e alteração 
 
-Você pode avaliar a preparação de adoção da sua organização, executando a análise de pessoa para surgir com uma lista de personagens que podem ser direcionados para a implementação da conferência de áudio e sistema telefônico com chamar planejar os serviços. Análise de pessoa inclui identificando dispositivos periféricos adicionais ou outros dispositivos necessários para concretizar os resultados de negócios pretendido.
+Implantação coloca uma nova tecnologia em mãos de um usuário, mas os resultados dos negócios são concretizados somente depois que os usuários realmente adotarem essa solução como seus próprios. Para ajudar a garantir a adoção de uma nova solução sustentada, você precisará enfocam os esforços de preparação do usuário e o gerenciamento de alterações. Para obter melhores resultados, conduzir planejamento como um fluxo de trabalho paralelo às suas atividades de preparação técnica de preparação do usuário e incorporar as seguintes atividades:
 
-Para executar a análise de pessoa, você pode realizar um workshop por envolvendo participantes do projeto relevantes, usando a [Matriz de recurso de pessoa](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_8)e um deck de workshop de [Alinhamento da pessoa](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_7) .
-Você pode resumir os resultados de workshop de análise a pessoa em um relatório usando o modelo de [Relatório de análise da pessoa](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_2_0_9) .
+-   **Organizacional e da criação de perfil de usuário:** Análise de receptiveness organizacional para alterar além da análise de uso caso e pessoa
 
->[!NOTE]
->Embora os ativos pessoa inicialmente foram gravados para o Skype para Business Online, a maioria do conteúdo é relevante para equipes. Se sentir livres para modificar e remover itens que não são relevantes para suas metas de projeto.
+-   **Preparação e recursos de preparação:** Criação de direcionado e o alcance de amplo número de divulgação, treinamento e recursos de suporte, incluindo focadas no valor de mensagens para acelerar usuário apoio da direção da
+
+Use as seguintes considerações para avaliar a preparação para a sua organização para o gerenciamento de alterações do usuário de endereço.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li> Quem será responsável pela conclusão um alinhamento de pessoa e avaliação de recurso?</li><li>Avalie a sua capacidade de realizar a adoção e alterar gerenciamento para sua organização.</li></ol></td></tr>
-
-
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Documente os resultados da avaliação de recurso e o alinhamento da pessoa.</li><li>Se for necessário, envolva externos recursos para ajudá-lo com orientando a adoção e alterar gerenciamento para sua organização.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Você teve sucesso anterior com a adoção de usuário do software ou serviços?</li><li>É possível controlar a adoção de uso?</li><li>Você tem os recursos para criar e gerenciar uma initial&mdash;e em andamento&mdash;campanha de adoção (divulgação, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de adoção/mudança de usuário dedicada, ou pode investir em desses recursos para garantir resultados de negócios?</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Se você respondeu "Sim" para todos os itens acima, identifique participantes do gerenciamento de alteração do usuário à direita e começar seu planejamento de preparação do usuário.</li><li>Se você respondeu "não" para alguns ou todos os itens acima, considere o envolvimento de recursos externos para ajudá-lo com orientando o gerenciamento de alterações e atividades relacionadas a adoção para sua organização.</li></ol></td></tr>
 </table>
+
 
 <!--ENDOFSECTION-->
 

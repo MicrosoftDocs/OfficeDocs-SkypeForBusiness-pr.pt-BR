@@ -1,20 +1,20 @@
 ---
-title: "Visão geral de equipes e canais no Microsoft Teams"
+title: Visão geral de equipes e canais no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Conheça as diferentes equipes, canais e aplicativos disponíveis para uma grande variedade de exigências, como finanças, planejamento de eventos, vendas e muito mais."
+description: Conheça as diferentes equipes, canais e aplicativos disponíveis para uma grande variedade de exigências, como finanças, planejamento de eventos, vendas e muito mais.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849eade2acc91286a0d2f78b2d0289432e8ef52c
-ms.sourcegitcommit: 7013698e66f5ef2c37ac2387702207a5399a4096
-ms.translationtype: HT
+ms.openlocfilehash: a3e614cc7ad1f4e803ef6d725eba68a699fb7477
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -52,7 +52,7 @@ Invista cinco minutos para conhecer neste vídeo as práticas recomendadas para 
 
 Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Office 365 podem aperfeiçoá-lo com a funcionalidade do Teams.
 
-Uma das principais atividades de planejamento precoce para envolver os usuários no Teams é ajudar as pessoas a pensar e a entender como o Teams pode melhorar a colaboração no seu dia a dia. Converse com elas e as ajude a escolher cenários de negócios em que, no momento, estão trabalhando de maneira fragmentada.  Reúna essas pessoas em um canal com as guias relevantes que ajudarão na execução de seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
+Uma das principais atividades de planejamento precoce para envolver os usuários no Teams é ajudar as pessoas a pensar e a entender como o Teams pode melhorar a colaboração no seu dia a dia. Converse com pessoas e ajudá-los a selecionar onde eles estão atualmente colaborando fragmentados maneiras de cenários de negócios.  Reúna essas pessoas em um canal com as guias relevantes que ajudarão na execução de seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
 
 <a name="sample-team-set-up"></a>Exemplo de configuração de uma equipe
 ------------------

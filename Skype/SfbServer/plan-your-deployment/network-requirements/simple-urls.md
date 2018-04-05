@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Resumo: Revise as considerações de URL simples neste tópico antes de implementar os registros DNS para Skype para Business Server 2015.'
-ms.openlocfilehash: 989ea4f518c1917311759158bbe29355f400138b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>Requisitos de DNS para URLs simples no Skype para Business Server 2015
  
@@ -63,9 +63,8 @@ Se você usar essa opção, você precisa de um registro DNS A separado para cad
   
 **Opção de nome de URL simples 1**
 
-|||
-|:-----|:-----|
 |**URL simples** <br/> |**Exemplo** <br/> |
+|:-----|:-----|
 |Reunião  <br/> |https://meet.contoso.com, https://meet.fabrikam.com, e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 |Discagem  <br/> |https://dialin.contoso.com  <br/> |
 |Administrador  <br/> |https://admin.contoso.com  <br/> |
@@ -74,9 +73,8 @@ Com a opção 2, as URLs simples são baseados no nome de domínio SfB2015.conto
   
 **Opção de nome de URL simples 2**
 
-|||
-|:-----|:-----|
 |**URL simples** <br/> |**Exemplo** <br/> |
+|:-----|:-----|
 |Reunião  <br/> |https://SfB2015.contoso.com/Meet, https://SfB2015.fabrikam.com/Meet, e assim por diante (um para cada domínio SIP em sua organização)  <br/> |
 |Discagem  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Administrador  <br/> |https://SfB2015.contoso.com/Admin  <br/> |
@@ -85,9 +83,8 @@ Opção 3 é mais útil se você tiver vários domínios SIP, e você deseja que
   
 **Opção de nome de URL simples 3**
 
-|||
-|:-----|:-----|
 |**URL simples** <br/> |**Exemplo** <br/> |
+|:-----|:-----|
 |Reunião  <br/> |https://SfB2015.contoso.com/contosoSIPdomain/Meet  <br/> https://SfB2015.contoso.com/fabrikamSIPdomain/Meet  <br/> |
 |Discagem  <br/> |https://SfB2015.contoso.com/Dialin  <br/> |
 |Administrador  <br/> |https://SfB2015.contoso.com/Admin  <br/> |

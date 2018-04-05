@@ -22,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 442ec6f4395b71acaf3296bdd6ec6317451dc36f
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: d8e6073bd60612131e54e10be6498370d8dfe3bb
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Definir o tamanho PIN para reuniões de conferência de áudio
 
@@ -36,13 +36,21 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+**Usando equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+
+3. No painel de **configurações de ponte** , em **tamanho do PIN**, selecione o número de dígitos que você deseja para o PIN.
+
+4. Clique em **Aplicar**.
+
+**Usando o Skype para o Centro de administração de negócios**
+ 
+1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
-    
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
-    
-4. Em **segurança** > **comprimento do PIN**, selecione o número de dígitos que você deseja para o PIN e clique em **Salvar**.
+2. Em **segurança** > **comprimento do PIN**, selecione o número de dígitos que você deseja para o PIN e clique em **Salvar**.
     
 > [!NOTE]
 > [!OBSERVAçãO] Um PIN é diferente de um ID de conferência. IDs de conferência são usados pelos chamadores quando eles participam da reunião. São usados para identificar a reunião. O PIN é usado para autenticar um chamador como organizador da reunião. 

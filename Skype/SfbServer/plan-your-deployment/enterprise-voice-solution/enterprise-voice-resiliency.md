@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como suporte a resiliência de voz em Skype para Business Server Enterprise Voice, em sites centrais e sites de filiais. Opções de site de filial incluem Implantando aparelhos de filial persistente ou servidores de filial persistente.
-ms.openlocfilehash: a4ce7e01ef93ef7bfca2357b65b315b4be5c6781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planejar a resiliência do Enterprise Voice no Skype for Business Server 2015
  
@@ -87,9 +87,8 @@ Os seguintes requisitos e recomendações para a implementação da resiliência
 
 Skype para Business Server depende os seguintes componentes de software e infraestrutura para garantir a resiliência de voz:
   
-|||
-|:-----|:-----|
 |**Componente** <br/> |**Funcional** <br/> |
+|:-----|:-----|
 |DNS  <br/> |Resolver registros SRV e registros A para conectividade de servidor-servidor e servidor-cliente  <br/> |
 |Exchange e Serviços Web do Exchange (EWS)  <br/> |Armazenamento de contatos; dados do calendário  <br/> |
 |Unificação de Mensagens do Exchange e Serviços Web do Exchange  <br/> |Logs de chamada, lista de caixas postais, caixa postal  <br/> |

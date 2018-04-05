@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para saber como monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações da Microsoft (OMS).
-ms.openlocfilehash: 5e03504f27eadbb235c1b5c84e8c7a19d66aea7d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitorar o conector de nuvem usando o pacote de gerenciamento de operações (OMS)
  
@@ -221,9 +221,8 @@ Para identificar problemas com os logs de eventos e contadores de desempenho:
     
 A tabela a seguir lista os serviços que a Microsoft recomenda monitoring, listando as identificações de evento parar e iniciar:
   
-|||||
-|:-----|:-----|:-----|:-----|
 |Nome do serviço  <br/> |Função de servidor de destino  <br/> |Parar a ID do evento  <br/> |ID do evento de iniciar  <br/> |
+|:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |Servidor de Mediação  <br/> |25003  <br/> |25002  <br/> |
 |RTCSRV  <br/> |Servidor de Borda  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |Servidor de Borda  <br/> |19003  <br/> |19002  <br/> |
@@ -231,9 +230,8 @@ A tabela a seguir lista os serviços que a Microsoft recomenda monitoring, lista
    
 A tabela a seguir lista os problemas de rede que a Microsoft recomenda monitoramento:
   
-||||||
-|:-----|:-----|:-----|:-----|:-----|
 |Nome do monitor  <br/> |Função de servidor de destino  <br/> |Expressão de ID do evento de sucesso  <br/> |Expressão de ID do evento de erro  <br/> |Exemplo de falha  <br/> |
+|:-----|:-----|:-----|:-----|:-----|
 |Servidor de mediação falha de conectividade de gateway  <br/> |Servidor de Mediação  <br/> |25062 || 25002  <br/> |25061  <br/> |Falha de PING MS (opção) Gateway  <br/> |
 |Falha na conclusão de chamada do servidor de mediação para gateway  <br/> |Servidor de Mediação  <br/> |25064 || 25002  <br/> |25063  <br/> |Falha do MS tentando fazer chamada ao Gateway  <br/> |
 |Problemas críticos de rede  <br/> |Servidor de Borda  <br/> |14353 || 12288  <br/> |14624  <br/> |Transporte TLS falhou ao iniciar no endereço IP local 192.168.231.14 na porta 5061  <br/> |

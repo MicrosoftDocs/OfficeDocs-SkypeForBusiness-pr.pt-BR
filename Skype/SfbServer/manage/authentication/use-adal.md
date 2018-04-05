@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: Este artigo explica como usar a autenticação moderno (que se baseia na biblioteca de autenticação do Active Directory (ADAL) e OAuth 2.0) que podem ser encontradas no de 2016 março atualização cumulativa do Skype for Business para Skype para Business Server 2015.
-ms.openlocfilehash: efd0e35ce92143e9fb5fda03301eb51d2926c979
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9ef430f770b0b5d2ee22f2744e95b6df47fa95b9
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Como usar a Autenticação do modem (ADAL) com o Skype for Business
  
@@ -120,9 +120,8 @@ Para ativar a autenticação moderno para Exchange Online, você precisará exec
     
 - Defina essas chaves do Registro para cada dispositivo ou computador no qual você deseja habilitar a Autenticação Moderna. Você precisará de um GPO em organizações de maior porte. Para obter informações sobre como tornar um GPO, consulte a 'criar um objeto de diretiva de grupo para modificar o registro em um computador que ingressou domínio' [deste ](https://support.office.com/en-us/article/Switching-between-the-Skype-for-Business-and-the-Lync-client-user-interfaces-a2394a4c-7522-484c-a047-7b3289742be0)artigo.
     
-||||
-|:-----|:-----|:-----|
 |Chave de Registro  <br/> |Tipo  <br/> |Valor  <br/> |
+|:-----|:-----|:-----|
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  <br/> |REG_DWORD  <br/> |1  <br/> |
 |HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version  <br/> |REG_DWORD  <br/> |1  <br/> |
    

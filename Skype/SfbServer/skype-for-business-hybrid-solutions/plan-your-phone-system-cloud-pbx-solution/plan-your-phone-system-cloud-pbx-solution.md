@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Hybrid
 ms.assetid: 0c4a0ec4-1a2b-4ce8-8323-f797162ab4fe
 description: Encontre informações no sistema de telefone da Microsoft em soluções do Office 365 (nuvem PBX) para habilitar o controle de chamada e os recursos na nuvem do Office 365 Private Branch Exchange (PBX).
-ms.openlocfilehash: cb4a1548e973d264d30c1dafb966863952b7e6d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: abef43d3d90f14272beb2eb71d2cc344b80db8bf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-your-phone-system-in-office-365-cloud-pbx-solution"></a>Planejar sua solução de Sistema de Telefonia do Office 365 (Cloud PBX)
  
@@ -133,9 +133,8 @@ Antes de fazer sua decisão sobre qual solução é o certa para sua organizaç�
 
 ![Fluxograma de decisão do Cloud PBX 2](../../media/6a2d15e6-2846-433f-b449-2f511a13c234.png)
   
-|||
-|:-----|:-----|
 |**Sua situação** <br/> |**Sistema telefônico na solução do Office 365** <br/> |
+|:-----|:-----|
 |![Balão do ponto de extremidade A](../../media/85b51a4e-3984-4ef2-bacb-586f998da632.png)Seu sistema PBX oferece recursos exclusivos que você precisa manter.  <br/> |**Investigue a substituição de seu PBX pelo Skype for Business Server.** Você pode usar Skype para Business Server Enterprise Voice como um sistema PBX completo da sua organização, incluindo a conectividade PSTN por meio de sua operadora local. Se sua necessidade de PBX recursos alterações no futuro, você pode reexaminar sistema telefônico no Office 365. <br/> Para obter mais informações sobre as soluções do Enterprise Voice da Microsoft, consulte [planejar sua solução do Enterprise Voice no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).  <br/> Se não todos os seus usuários exigem recursos exclusivos fornecido pelo seu PBX atual, você pode considerar mover os usuários para Skype para negócios Online.  <br/> |
 |![Balão do ponto de extremidade B](../../media/f47d89d4-5f3a-4dfc-9c29-f09295e4a912.png)Seu PBX não oferece recursos exclusivos que você precisa manter, chamar planejar no Office 365 está disponível na sua região e você deseja usar os serviços PSTN fornecida pela Microsoft.  <br/> |**Inscrever-se chamar o plano no Office 365.** Todos os seus usuários poderão usar a nuvem, no Skype for Business Online, e sua organização poderá receber serviços PBX e PSTN da nuvem da Microsoft. Se os usuários já tiverem números de telefone da operadora atual, os números de telefone podem ser transferidos para o sistema telefônico no Office 365. Conforme necessário, você poderá obter outros números de telefone da Microsoft. <br/> Para obter mais informações, consulte [o que é chamada de PSTN?](https://support.office.com/en-us/article/What-is-PSTN-calling-3dc773b9-95e0-4448-b2f1-887c54022429?ui=en-US&amp;rs=en-US&amp;ad=US) <br/> |
 |![Balão do ponto de extremidade C](../../media/c9ba0a6f-d3bb-41e0-925b-0e94cf59e034.png)Seu PBX não oferece recursos exclusivos que você precisa manter, chamar planejar no Office 365 não está disponível em sua região e possui um Lync existente ou Skype para implantação de servidor de negócios.  <br/> Neste cenário também é possível que todos os seus usuários estejam nos Estados Unidos, mas você não pode considerar migrar para a PSTN da Microsoft por outros motivos, como obrigações contratuais com sua operadora.  <br/> |**Conecte seu Skype existente para implantação de servidor de negócios com o sistema telefônico no Office 365.** Conectividade PSTN é fornecida por meio do Enterprise Voice em sua Skype local para implantação de servidor de negócios, mas sua organização pode receber serviços PBX de nuvem da Microsoft. Você pode manter os recursos de voz dos usuários conforme você começa a movê-los para Skype para negócios Online. A transferência de seus usuários pode ser feita no seu próprio ritmo, sabendo que seus recursos de voz continuarão independentemente de onde estiverem hospedados. <br/> No futuro, se você decidir que você pode deixar a sua operadora atual, você poderá portar seus usuários de nuvem para o sistema de telefone completo da Microsoft no Office 365 com chamar planejar, com a Microsoft fornecendo a todos os recursos de PBX e PSTN.  <br/> Para obter mais informações sobre essa opção, consulte [Planejar o sistema de telefone no Office 365 com conectividade PSTN em Skype para Business Server local](plan-phone-system-with-on-premises-pstn-connectivity.md) e [habilita usuários para o sistema telefônico no Office 365 com local conectividade PSTN em Skype para Business Server ](enable-users-for-phone-system.md).  <br/> |

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode contém a árvore de objeto (conosco de categoria ou sala de bate-papo), como gerenciado no painel de controle e cmdlets administrativos.
-ms.openlocfilehash: b743453225fda70db18a7bc616a5f7b647d5ebff
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0b5e752856272ad7021666822694cd27bb3660ee
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="tblnode"></a>tblNode
  
@@ -34,7 +34,6 @@ tblNode contém a árvore de objeto (conosco de categoria ou sala de bate-papo),
 |conectado  <br/> |bit  <br/> | Para categorias: <br/>  True se o histórico de chat estiver ligado. <br/>  False se o histórico de chat estiver desativado. <br/>  Para salas: <br/>  Nulo. <br/> |
 |filePost  <br/> |bit  <br/> | Para categorias: <br/>  True se carregamentos de arquivos são permitidos. <br/>  FALSO se carregamentos de arquivo não são permitidos. <br/>  Para salas: <br/>  Nulo. <br/> |
 |desabilitado  <br/> |bit, não nulo  <br/> |True se a sala de bate-papo está desabilitada. Aplica-se somente a salas de chat. (False para categorias).  <br/> |
-|||
 |comportamento  <br/> |smallint, não nulo  <br/> | Comportamento (consultado na tabela EnumValue): <br/>  4: Normal (salas de chat normais). <br/>  5: auditório (salas de bate-papo de auditório, somente apresentadores podem de contribuir). <br/>  Aplica-se somente a salas de chat. <br/> |
 |visibilidade  <br/> |smallint, não nulo  <br/> | Visibilidade (consultada na tabela EnumValue): <br/>  2: privada <br/>  3: com escopo <br/>  6: open <br/>  Aplica-se somente a salas de chat. <br/> |
 |siopID  <br/> |GUID  <br/> |Suplemento GUID se um suplemento estiver associado esta sala de bate-papo. (As categorias não têm complementos.)  <br/> As informações do suplemento são consultadas na tabela SiopWhiteList.  <br/> |

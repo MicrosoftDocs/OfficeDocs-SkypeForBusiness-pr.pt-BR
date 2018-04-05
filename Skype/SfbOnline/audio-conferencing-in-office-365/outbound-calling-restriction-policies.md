@@ -1,5 +1,5 @@
 ---
-title: "Saída diretivas de restrição de chamada para chamadas PSTN de conferência de áudio e usuário"
+title: Saída diretivas de restrição de chamada para chamadas PSTN de conferência de áudio e usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Os administradores podem controlar o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários."
-ms.openlocfilehash: 0585fc8861d8a805380bc6058523ec91087c4764
-ms.sourcegitcommit: 997c03395fd1966607cef0df8ee884303401cd64
+description: Os administradores podem controlar o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários.
+ms.openlocfilehash: ab6f34e46ceb6a9811830ba1444278db667de73c
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Saída diretivas de restrição de chamada para chamadas PSTN de conferência de áudio e usuário
 
@@ -39,19 +39,33 @@ Controles de chamada de saída podem ser aplicados em uma base por usuário e fo
    > Uma chamada é considerada domésticas se o número de telefone chamado esteja no mesmo país que o país que tiver sido definido no Office 365 para o organizador da reunião (no caso de serviços de audioconferência) ou o usuário final (no caso de chamadas da PSTN de usuário final). 
 
 
-## <a name="restrict-audio-conferencing-outbound-calls-using-the-skype-for-business-admin-center"></a>Restringir as chamadas de saída de conferência de áudio usando o Skype para o Centro de administração de negócios 
+## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir as chamadas de saída de conferência de áudio 
 
+**Usando equipes da Microsoft e Skype para Business Admin Center**
 
-1.  Vá para o **Centro de administração do Office 365** > **Skype for Business**.
-2.  No Skype para o Centro de administração de negócios, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis.
-3.  No Painel de Ações, clique em **Editar**.
-4.  Em **restrições a serem dial-outs de reuniões deste usuário**, selecione a opção de discagem restrição desejada.
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Clique no menu ao lado de **Pontes de conferência**e clique em **Editar** na lista suspensa.
+
+4. No painel de **provedor de ponte de conferência** , em **restrições a serem dial-outs de reuniões deste usuário**, selecione a opção de restrição de discagem desejado.
+
+5. Clique em **Aplicar**. 
+
+**Usando o Skype para o Centro de administração de negócios**
+
+1.  No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis.
+
+2.  No Painel de Ações, clique em **Editar**.
+
+3.  Em **restrições a serem dial-outs de reuniões deste usuário**, selecione a opção de discagem restrição desejada.
 
     ![As restrições às opções de discagem-outs](../images/restrictions-to-dial-outs.png)
 
 5. Clique em **Salvar**.
 
-## <a name="restrict-audio-conferencing-and-end-user-outbound-calls-using-powershell"></a>Restringir a conferência e o usuário final saídas chamadas de áudio usando o PowerShell
+**Usando o PowerShell**
 
 Restrições de chamada de saída são controladas por uma única política chamada OnlineDialOutPolicy que tem um atributo de restrição para cada um. A política não pode ser personalizada, em vez disso, há instâncias de diretiva predefinidas para cada combinação das configurações. 
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: Implemente IPv6 antes de instalar Skype para Business Server 2015.'
-ms.openlocfilehash: e91b0a3afabf8088d6fed2f21124fb17a4f7e94f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 40c5209a582aeb55657e8e1f0b8971f2c8ed79d0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
  
@@ -128,9 +128,8 @@ A tabela a seguir mostra a matriz de suporte entre o pool do servidor Front-End 
   
 **Matriz de (borda interna) do Pool de borda e de Pool de Front-End**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Pool de borda: IPv4** <br/> |**Pool de borda: Pilha dual** <br/> |**Pool de borda: IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Pool de Front-Ends: IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |**Pool de Front-Ends: Pilha dual** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |**Pool de Front-Ends: IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |
@@ -141,9 +140,8 @@ A tabela a seguir descreve a matriz de combinações suportadas das interfaces d
   
 **Pool de borda (borda interna) e borda (borda externa) matriz do pool**
 
-|||||
-|:-----|:-----|:-----|:-----|
 ||**Pool de borda (Borda externa): IPv4** <br/> |**Pool de borda (Borda externa): Pilha dual** <br/> |**Pool de borda (Borda externa): IPv6** <br/> |
+|:-----|:-----|:-----|:-----|
 |**Pool de borda (Borda interna): IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |**Pool de borda (Borda interna): Pilha dual** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |
 |**Pool de borda (Borda interna): IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |

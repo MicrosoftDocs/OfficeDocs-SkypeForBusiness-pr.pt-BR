@@ -1,5 +1,5 @@
 ---
-title: "Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams"
+title: Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
@@ -7,15 +7,16 @@ ms.date: 12/12/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor
-description: "Orientações práticas para planejar, implantar e gerenciar o Sistema de Telefonia com Planos de Chamadas no Microsoft Teams usando a estrutura Concepção (planejamento), Integração (fornecimento), Geração de valor (operação)."
+description: Orientações práticas para planejar, implantar e gerenciar o Sistema de Telefonia com Planos de Chamadas no Microsoft Teams usando a estrutura Concepção (planejamento), Integração (fornecimento), Geração de valor (operação).
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5ed92ed1fd156279c32c2627b85eca170a457f0
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
+ms.openlocfilehash: 8c658376e3891f8215a5139439e82c17298bee2b
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/05/2018
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 =========================================================================
@@ -322,7 +323,7 @@ Para obter números de telefone diretamente da Microsoft, use uma destas opçõe
 
 - [Centro de administração do Skype for Business](https://support.office.com/article/Getting-phone-numbers-for-your-users-aa2ec464-3481-4bbb-8c14-e13e18093df5)
 - [Cmdlets do Windows PowerShell remoto](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Envie o formulário de solicitação de novo número de telefone][https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
+- [Enviar um formulário de nova solicitação de número de telefone] [https://support.office.com/article/Manage-phone-numbers-for-your-organization-6b61cb3c-361c-48a8-a9ef-d81bddde27bb).
 
 O formulário de solicitação de novo número de telefone funciona melhor para a aquisição planejada de um número de telefone, pois você pode solicitar um bloco de números de telefone contíguos. A obtenção de números de telefone usando o Centro de administração do Skype for Business ou o Windows PowerShell remoto não está disponível em todos os países ou regiões.
 

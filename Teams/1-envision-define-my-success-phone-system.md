@@ -11,17 +11,15 @@ description: Medir os resultados do seu sistema telefônico com chamar planos de
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9883fb04c70d07a0249d2390b894bba3d491ec04
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 23e471e7917ee188d0c4e601a59c53087ad2f9e0
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
-## <a name="introduction"></a>Introdução
-
-Esse conteúdo fornece uma visão geral dos requisitos de definir corretamente o sucesso para a implantação do sistema telefônico com planos de chamada para sua organização. Ao definir corretamente seu sucesso, você pode medir o seus resultados progressos por meio de sua implantação e verifique se a você obter os resultados são os resultados que você queria.
+Este artigo fornece uma visão geral dos requisitos de definição de sucesso para a implantação do sistema telefônico com planos de chamada para sua organização. Ao definir corretamente o que é sucesso, você pode medir o seus resultados progressos por meio de sua implantação e verifique se a você obter os resultados são os que você queria.
 
 <!--ENDOFSECTION-->
 

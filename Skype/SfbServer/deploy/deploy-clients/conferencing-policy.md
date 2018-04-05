@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Leia este tópico para aprender como atribuir as políticas de conferência às contas do Sistema de Salas do Skype.
-ms.openlocfilehash: 73ab8f48bc399f4478b0a9c22aceb68d7a54a11b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Política de conferência das contas do Sistema de Salas do Skype
  
@@ -24,9 +24,8 @@ Leia este tópico para aprender como atribuir as políticas de conferência às 
 
 A política de conferência atribuída à conta de sistema do Skype sala deve ter determinadas características. Na maioria das vezes, o cliente do sistema de sala Skype ingressa em uma reunião agendada e, portanto, a política de conferência do organizador da reunião afetará a conferência. No entanto, em Skype para Business Server, determinados recursos dependem configuração do participante. Por exemplo, se a política do participante permite uma resolução de vídeo máxima de 1080p, os participantes observarão esse recurso de vídeo de resolução superior na conferência, mesmo se a política do organizador não permite a ele. A tabela a seguir descreve as várias configurações que você deve estar ciente ao configurar políticas de conferência para contas de sistema do Skype sala em sua organização. 
   
-||||
-|:-----|:-----|:-----|
 |Recurso  <br/> |Valor  <br/> |Comentário  <br/> |
+|:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Devem ser verdadeiras para o áudio do sistema de sala do Skype  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |Devem ser verdadeiras para o áudio do sistema de sala Skype trabalhar em sessões de quadro de comunicações (ad hoc) reunir agora no sistema de sala do Skype  <br/> |
 |AllowMultiView  <br/> |TRUE  <br/> |Permite que o sistema Skype sala renderizar com multi-view, vários fluxos de vídeo  <br/> |

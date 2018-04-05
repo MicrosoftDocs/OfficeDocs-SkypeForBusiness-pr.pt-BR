@@ -11,20 +11,22 @@ description: Escolha de chamar planos e licenciamento, configure locais de emerg
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e382992f3170f16718eac8d2c6f0902dbaff3b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
+
+Para planejar a implementação técnica do sistema telefônico com planos de chamada, você deve fazer uma série de decisões de serviço antes do tempo para melhor preparar sua organização para implementar uma solução que atende aos seus requisitos de negócios definidas.
 
 ## <a name="calling-in-teams"></a>Fazendo chamadas no Microsoft Teams
 
 Com Teams da Microsoft, os usuários podem fazer ou receber chamadas telefônicas para ou da rede telefônica pública comutada (PSTN). Seus usuários podem usar seus próprios números de telefone dedicado para fazer e receber telefonemas nacionais e internacionais de aplicativos do cliente de equipes, com recursos avançados que incluem a caixa postal e chamadas de emergência (911 avançado).
 
 > [!NOTE]
-> O mapa de equipes mais recente para identificar os recursos de conferência de áudio de equipes do escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
+> O mapa de equipes mais recente para identificar o sistema telefônico de equipes com recursos de chamada planejar no escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
 
 ## <a name="phone-system-in-teams"></a>Sistema telefônico em equipes
 

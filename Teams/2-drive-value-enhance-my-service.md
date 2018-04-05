@@ -11,13 +11,15 @@ description: Regularmente avaliam oportunidades para melhorar o serviço de equi
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00fa4db5a2e25cf2a258f85328653f6a28f476d5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 0c10f4da1c6619ae0f17976a8039c2a77eaadab6
+ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
+
+Este artigo fornece uma visão geral dos requisitos para obter o máximo da nuvem de serviços de voz para sua organização. Monitorando continuamente recursos do serviço de voz de nuvem, você pode ter certeza de que está sendo fornecido o valor máximo para sua organização.
 
 ## <a name="enhance-my-service-overview"></a>Aperfeiçoar minha visão geral do serviço
 Depois que você tiver implantado com êxito audioconferências ou o sistema telefônico com planos de chamar os serviços para sua organização e está operando o serviço com qualidade e confiabilidade, a próxima etapa é regularmente avaliar se você tem qualquer oportunidades para Melhore seus serviços.
