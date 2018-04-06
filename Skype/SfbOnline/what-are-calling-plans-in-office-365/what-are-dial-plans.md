@@ -22,11 +22,14 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Saiba como escolher uma para sua organização e que tipo de discagem chamando planos (planos de discagem PSTN chamar) estão disponíveis com o Office 365.  '
-ms.openlocfilehash: 32efaccf1572bf086f40d0d4b49c910b7ca345f3
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+search.appverid:
+- MED150
+- MOE150
+ms.openlocfilehash: 8e32143b78d9ed6da81910f24ecf2bcbe9baaf70
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="what-are-dial-plans"></a>Quais são os planos de discagem?
 

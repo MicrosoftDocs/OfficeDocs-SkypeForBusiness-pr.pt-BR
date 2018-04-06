@@ -10,11 +10,11 @@ description: Saiba como os grupos do Office 365 e as assinaturas de grupo trabal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 981a3ba78f70f7ae1eb8ab90e1fb23a4e60a516e
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9f16a99f00add1e93bfdf4cde29f4b75f384a296
+ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/06/2018
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos do Office 365 e Microsoft Teams
 =====================================
@@ -37,6 +37,6 @@ Quando você cria um Microsoft Teams no back-end, você está criando um Grupo d
 <a name="group-membership"></a>Associação a grupos
 ----------------
 
-Dependendo de onde você direcionou a associação ao grupo, depende dos recursos e das capacidades que seus usuários vivenciarão. Por exemplo, se você remover um membro de uma Equipe, ele será removido do Grupo do Office 365 também. A remoção do Grupo remove imediatamente a Equipe e os canais do cliente Teams. Se você remover uma pessoa de um Grupo usando o portal de administrador do Office 365, ela não terá mais acesso aos outros aspectos colaborativos, como a biblioteca de documentos do SharePoint Online, o Yammer Group ou o OneNote compartilhado. No entanto, ela ainda terá acesso à funcionalidade de bate-papo do Teams por aproximadamente uma hora.
+Recursos de grupo e capacidades para seus usuários depende em que a unidade de participação no grupo. Por exemplo, se você remover um membro de uma equipe, eles são removidos do grupo Office 365 também. A remoção do Grupo remove imediatamente a Equipe e os canais do cliente Teams. Se você remover uma pessoa de um Grupo usando o portal de administrador do Office 365, ela não terá mais acesso aos outros aspectos colaborativos, como a biblioteca de documentos do SharePoint Online, o Yammer Group ou o OneNote compartilhado. No entanto, ela ainda terá acesso à funcionalidade de bate-papo do Teams por aproximadamente uma hora.
 
-Nossa orientação com relação ao gerenciamento dos membros de equipes é direcionar a funcionalidade de adicionar/remover através do cliente Teams para garantir que o controle de acesso em cascata correto para a outros aplicativos dependentes em nuvem seja aplicado. Além disso, você evitará uma experiência não contígua, deixando as pessoas com a impressão de que ainda têm acesso aos recursos que costumavam ter (até o próximo ciclo de sincronização adicionar ou revogar acesso a um componente específico do serviço).
+Práticas recomendadas de gerenciamento de membros de equipes: adicionar e remover membros do cliente equipes para garantir o controle de acesso correto em cascata para outros aplicativos de nuvem dependentes seja aplicado. Além disso, você evitará uma experiência não contígua, deixando as pessoas com a impressão de que ainda têm acesso aos recursos que costumavam ter (até o próximo ciclo de sincronização adicionar ou revogar acesso a um componente específico do serviço). Se você adicionar ou remover membros de equipe fora do cliente de equipes (usando o Centro de administração do Office 365, Windows Azure AD, ou Exchange Online PowerShell), às vezes, leva até uma hora para que as alterações sejam refletidas em equipes.
