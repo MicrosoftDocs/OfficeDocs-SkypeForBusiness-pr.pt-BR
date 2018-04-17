@@ -1,5 +1,5 @@
 ---
-title: Atribuir a Microsoft como um provedor de serviços de audioconferência
+title: Assign Microsoft as the audio conferencing provider
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,62 +21,53 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 - Strat_SB_PSTN
-description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business. Conferencing bridge.
-ms.openlocfilehash: d572c9fc61b887679e434e669fc263c746be8bcf
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
+ms.openlocfilehash: dcf0eb1c4dcbfc5de54303e7d55538d3fcd6c007
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como um provedor de serviços de audioconferência
+# <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Assign Microsoft as the audio conferencing provider
 
-Para usar conferência de áudio no Office 365 com Skype para negócios e Teams da Microsoft, os usuários em sua organização precisam ter uma licença de audioconferências atribuída a eles. Para obter mais informações sobre licenciamento e quanto custa, consulte [tente ou adquirir audioconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .
+To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them. See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
 
-Conferência de áudio da Microsoft fornece os números de telefone de discagem, PINs e conferência IDs que podem ser usados pelos participantes da reunião para participar de reuniões da sua organização. Você precisa atribuir Microsoft como um provedor de serviços de audioconferência para pessoas que estão indo para agendar ou liderança Skype para reuniões de negócios ou Teams da Microsoft.
-
-Se uma licença de **Serviços de audioconferência Microsoft** for atribuída a um usuário que não tem um provedor de serviços de audioconferência, o provedor do usuário será automaticamente definido como o **Microsoft** e você não precisa fazer qualquer outra coisa. Se o usuário já tiver um provedor de serviços de audioconferência, você deverá alterar o provedor do usuário à Microsoft após atribuindo a elas uma licença de serviços de audioconferência.
-
-Se você quiser poderão ver que Microsoft listado como um provedor de serviços de audioconferência, você deve atribuir uma licença de serviços de audioconferência para o usuário.
-
-
+Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization. You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
   
-## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como um provedor de serviços de audioconferência
+## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Assign Microsoft as the audio conferencing provider
 
 ### <a name="using-the-skype-for-business-admin-center"></a>Usar o Centro de administração do Skype for Business
 
 1. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-    > [!NOTE]
-    > Quando o provedor é alterado de outro provedor à **Microsoft**, as informações de conferência de áudio para o usuário (ID de conferência, tarifas e números para ligações gratuitas) serão substituídas. Você deve salvar essas informações antes de alterar o provedor. 
-  
-2. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio**.
+2. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing**.
     
-3. Se você vir um banner informando que não existem usuários que têm uma **Conferência de áudio** licença atribuída, mas não tenho o Microsoft definido como seu provedor de serviços de audioconferência ainda, clique em **clique aqui para movê-los**. Se você não vir o banner, no **Skype para centro de administração de negócios** clique em **usuários**e, em seguida, selecione o filtro de **usuários prontos para ser movida para conferência de áudio** .
+3. If you see a banner notifying you that there are users who have an **Audio Conferencing** license assigned but don't have Microsoft set as their audio conferencing provider yet, click **Click here to move them**. If you don't see the banner, in the **Skype for Business admin center** click **Users**, and then select the **Users ready to be moved to Audio Conferencing** filter.
     
-4. Na página de propriedades para o usuário, em **nome do provedor**, selecione **Microsoft** na lista suspensa.
+4. On the properties page for the user, under **Provider name**, select **Microsoft** in the drop-down list.
     
     > [!NOTE]
-    > Como você está usando o Microsoft como o provedor de serviços de audioconferência e há vários números de telefone, você pode usar a lista suspensa de **número de Chamada Tarifada padrão** para selecionar um número de áudio padrão para o usuário.
+    > Because you are using Microsoft as the audio conferencing provider and there are multiple phone numbers, you can use the **Default toll number** drop-down list to select a default audio number for the user.
   
 5. Clique em **Salvar**.
     
 ### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>Como usar um script do Windows PowerShell para uma pequena quantidade de usuários
 
-Para economizar tempo ou automatizar isso, você pode usar o seguinte script do PowerShell para definir o Microsoft como um provedor de serviços de audioconferência para um pequeno número de usuários.
+To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a small number of users.
 
 > [!NOTE]
-> Quando o provedor é alterado de outro provedor à **Microsoft**, as informações de conferência de áudio para o usuário (ID de conferência, tarifas e números para ligações gratuitas) serão substituídas. Você deve salvar essas informações antes de alterar o provedor. 
+> When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. Você deve salvar essas informações antes de alterar o provedor. 
 
   
-Para alterar o provedor à Microsoft para um pequeno número de usuários, você pode usar o cmdlet [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) .
+To change the provider to Microsoft for a small number of users, you can use the  [Enable-CsOnlineDialInConferencingUser](https://technet.microsoft.com/en-us/library/mt243813.aspx) cmdlet.
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>Como usar um script do Windows PowerShell para uma grande quantidade de usuários
-Para economizar tempo ou automatizar isso, você pode usar o seguinte script do PowerShell para definir a Microsoft como um provedor de serviços de audioconferência para um grande número de usuários.
+To save time or automate this, you can use the following PowerShell script to set Microsoft as the audio conferencing provider for a large number of users.
 
-Quando o provedor é alterado de outro provedor à **Microsoft**, as informações de conferência de áudio para o usuário (ID de conferência, tarifas e números para ligações gratuitas) serão substituídas. Você deve salvar essas informações antes de alterar o provedor. 
+When the provider is changed from another provider to **Microsoft**, the audio conferencing information for the user (Conference ID, Toll and Toll-free numbers) will be replaced. Você deve salvar essas informações antes de alterar o provedor. 
   
-Você pode salvar o seguinte script como um arquivo de script do PowerShell e execute-o usando qualquer um dos seus parâmetros de entrada.
+You can save the following script as a PowerShell script file and then run it using any of its input parameters.
 
 **Exemplo 1:** você pode executar este script fornecendo uma lista de usuários que devem ser atualizados.
    
@@ -92,13 +83,13 @@ Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**Exemplo 3:** Neste exemplo, você pode usar esse script para alterar o provedor de serviços de audioconferência de Intercall (ou outro provedor) para a **Microsoft** para um usuários número grande em sua organização.
+**Example 3:** In this example, you can use this script to change the audio conferencing provider from Intercall (or another provider) to **Microsoft** for a large number users in your organization.
     
   ```
   Script.ps1 -ACPProviderName <Provider>
   ./Script.ps1 -ACPProviderName "Intercall"
   ```
-  Aqui está o script:
+  Here is the script:
 
   ```
   <#
@@ -197,10 +188,7 @@ Script.ps1 -CsvFile <Path of the csv file>
   ```
 Para saber mais sobre como usar o Windows PowerShell, veja [Usar o Windows PowerShell para realizar tarefas de gerenciamento comuns do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038).
   
-    
 ## <a name="related-topics"></a>Tópicos relacionados
-
-[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-  
-[Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[Try or purchase Audio Conferencing in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Set up Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

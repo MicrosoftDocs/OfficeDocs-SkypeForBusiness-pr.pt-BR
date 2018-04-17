@@ -3,7 +3,7 @@ title: Guia de operações para equipes da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 03/13/2018
+ms.date: 04/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Tarefas e atividades necessárias para gerenciamento de serviço de
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 308ca6bd3ea0dcd847756392d8db721b48aa8d08
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="operate-my-service"></a>Operar o meu serviço
 
@@ -415,7 +415,7 @@ Firewalls do lado do cliente podem afetar a qualidade da chamada e até mesmo im
 
 ### <a name="wi-fi-drivers"></a>Drivers de Wi-Fi
 
-Drivers de Wi-Fi podem ser problemáticos. Por exemplo, um driver pode ter muito agressivos comportamentos roaming entre os pontos de acesso que podem provocar desnecessário-ponto de acesso alternando, levando a qualidade de chamadas ruins. Um driver de Wi-Fi com desempenho insatisfatório pode ser descoberto por meio de uma análise de experiência de qualidade (consulte o [Guia de revisão do Quality of Experience](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) para obter mais detalhes). Ele é essencial para implementar um processo orientado a qualidade que monitora novos drivers Wi-Fi e garante que eles estiver testados antes de serem implantadas à população geral do usuário.
+Drivers de Wi-Fi podem ser problemáticos. Por exemplo, um driver pode ter muito agressivos comportamentos roaming entre os pontos de acesso que podem provocar desnecessário-ponto de acesso alternando, levando a qualidade de chamadas ruins. Um driver de Wi-Fi com desempenho insatisfatório pode ser descoberto por meio de uma análise de experiência de qualidade (consulte o [Guia de revisão do Quality of Experience](https://aka.ms/qerguide) para obter mais detalhes). Ele é essencial para implementar um processo orientado a qualidade que monitora novos drivers Wi-Fi e garante que eles estiver testados antes de serem implantadas à população geral do usuário.
 
 ### <a name="endpoint-management"></a>Gerenciamento de ponto de extremidade
 

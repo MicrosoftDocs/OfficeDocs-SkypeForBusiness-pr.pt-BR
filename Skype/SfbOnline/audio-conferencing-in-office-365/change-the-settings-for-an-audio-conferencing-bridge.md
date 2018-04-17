@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 01/22/2018
+ms.date: 04/03/2018
 ms.topic: article
 ms.assetid: 783fad3f-b77c-422b-b91f-7c8b0af324fb
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
-description: "Get the steps you need to change settings for a Microsoft dial-in conferencing bridge that's used to prompt callers and gather names and pins for meeting organizers when they're not using Skype for Business clients. "
-ms.openlocfilehash: d9b80b06a3c52c6ec386a0e5052f1bb71f914650
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: 'Obtenha as etapas que necessárias para alterar configurações para uma ponte de conferência que é usado para solicitar que os chamadores e coletar nomes e pins para organizadores de reunião, quando eles não estão usando Skype para aplicativos de negócios ou Teams da Microsoft. '
+ms.openlocfilehash: 727392bc81bce2fb3cfd84029e6a275e1eed3e24
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de conferência de áudio
 
@@ -36,19 +36,20 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
 
   > [!IMPORTANT]
   > Um PIN só é necessário para o organizador da reunião quando um Skype para o usuário de aplicativo de negócios ou Microsoft Teams já não tiver iniciado a reunião. Se todos estiver discando para a reunião, o PIN é necessário para o organizador da reunião iniciar a reunião. 
-  
-## <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de conferência de áudio 
 
-### <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Usando equipes da Microsoft e Skype para Business Admin Center
+> [!CAUTION]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+## <a name="using-the-microsoft-teams-and-skype-for-business-admin-center"></a>Usando equipes da Microsoft e Skype para Business Admin Center
 
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+1. No painel de navegação esquerdo, vá para **reuniões** > **pontes de conferência**. 
+
+2. Na parte superior da página **pontes de conferência** , clique em **configurações de ponte**. 
 
 3. No painel de **configurações de ponte** , selecione: 
-  - **Habilitar a entrada da reunião e sair notificações para ser ativado** Se você desativar esse recurso, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
+  - **Entrada de reunião e sair notificações** Se você desativar esse recurso, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
     
-    Quando você seleciona **Ativar entrada de reunião e sair notificações para ser ativado**, você pode selecionar essas opções na lista **tipo de anúncio de entrada/saída** :
+    Quando você ativa **as notificações de entrada e saída de reunião**, você pode selecionar estas opções:
     
   - **Nomes ou números de telefone** Quando os usuários discam para uma reunião, seu número de telefone será reproduzido quando eles entrarem-lo.
     
@@ -63,7 +64,7 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
  
 6. Clique em **Aplicar**. 
 
-### <a name="using-skype-for-business-online"></a>Uso do Skype Online for Business
+## <a name="using-skype-for-business-admin-center"></a>Usando o Skype para o Centro de administração de negócios
 
  **Configurar a experiência da reunião, quando os chamadores ingressem em uma reunião**
     
@@ -78,9 +79,6 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
   - **Nomes ou números de telefone** Quando os usuários discam para uma reunião, seu número de telefone será reproduzido quando eles entrarem-lo.
     
   - **Toques** Quando os usuários discam para uma reunião, um tom de áudio será reproduzido quando eles entrarem-lo.
-    
-    > [!NOTE]
-    > [!OBSERVAçãO] O uso do **Tom** como tipo de comunicado está disponível para todos os clientes de visualização atualmente.
   
   - **Peça que os chamadores registrem seus nomes antes de ingressar na reunião** Esta opção é selecionada por padrão. Se você desmarcar a caixa de seleção, os chamadores não solicitados registrar seus nomes antes de ingressar em uma reunião.
     
@@ -107,7 +105,7 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
     
 3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-4. Na página **configurações de ponte da Microsoft** , marque ou desmarque **Enviar automaticamente os e-mails para os usuários se altera sua configuração de conferência de áudio**e clique em **Salvar**.
+4. Na página **configurações de ponte da Microsoft** , marque ou desmarque **Enviar automaticamente os e-mails para os usuários se altera suas informações de discagem**e, em seguida, clique em **Salvar**.
     
     Para obter mais informações, consulte [Emails enviados automaticamente para os usuários quando alteram suas configurações de conferência de áudio](emails-sent-to-users-when-their-settings-change.md) .
     

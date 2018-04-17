@@ -1,5 +1,5 @@
 ---
-title: Habilitar ou desabilitar o envio de emails ao alteram suas configurações
+title: Enable or disable sending emails when their settings change
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,94 +22,81 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: c7582030765db6951c972dc3fa59610aca73417e
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 4138ed08ef05cc1947131dab22d5470e52eda6c5
+ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Ativar ou desativar o envio de emails quando alterar configurações de conferência de áudio
 
-Os usuários são notificados automaticamente por email quando estiverem habilitados para conferência de áudio. Pode haver momentos, entretanto, quando você deseja reduzir o número de emails que são enviadas para Skype para usuário Teams da Microsoft e de negócios. Nesses casos, você pode desabilitar o envio de email.
+Users are automatically notified by email when they are enabled for Audio Conferencing. There may be times, however, when you want to reduce the number of emails that are sent to Skype for Business and Microsoft Teams user. In such cases, you can disable sending email.
   
-Se você desabilitar o envio de emails, emails de conferência de áudio não serão enviadas aos seus usuários, incluindo emails para quando os usuários estão habilitados ou desabilitados para conferências de áudio, quando o seu PIN é redefinido e quando as alterações no número de telefone a ID de conferência e a conferência padrão .
+If you disable sending emails, Audio Conferencing emails won't be sent to your users, including emails for when users are enabled or disabled for audio conferencing, when their PIN is reset, and when the conference ID and the default conferencing phone number changes.
   
-Aqui está um exemplo de email enviada aos usuários quando eles estão habilitados para conferência de áudio:
+Here is an example of the email that is sent to users when they are enabled for Audio Conferencing:
   
-![Email de conferência de áudio](../images/audio-conferencing-user-enabled.png)
+![Audio Conferencing email](../images/audio-conferencing-user-enabled.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quando os emails são enviados para seus usuários?
 
-- Há vários emails que serão enviadas aos usuários em sua organização depois que eles estão habilitados para conferência de áudio:
+- There are several emails that are sent to users in your organization after they are enabled for audio conferencing:
     
-  - Quando uma licença de **Conferência de áudio** é atribuída a eles.
+  - When an **Audio Conferencing** license is assigned to them.
     
-  - Quando você redefinir manualmente os serviços de audioconferência PIN do usuário.
+  - When you manually reset the user's audio conferencing PIN.
     
   - Quando você redefine manualmente o ID de conferência do usuário.
     
-  - Quando a licença de **Conferência de áudio** seja removida deles.
+  - When the **Audio Conferencing** license is removed from them.
     
-  - Quando o provedor de serviços de audioconferência de um usuário for alterado da Microsoft para outro provedor ou **Nenhum**.
+  - When the audio conferencing provider of a user is changed from Microsoft to another provider or **None**.
     
-  - Quando o provedor de serviços de audioconferência de um usuário é alterado para Microsoft.
+  - When the audio conferencing provider of a user is changed to Microsoft.
     
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar ou desabilitar o email que está sendo enviado a usuários
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Enable or disable email from being sent to users
 
-Você pode usar o Microsoft Teams, o Skype para centro de administração de negócios, ou o Windows PowerShell para habilitar ou desabilitar o email enviado aos usuários.
+You can use Microsoft Teams, the Skype for Business admin center, or Windows PowerShell to enable or disable email sent to users.
 
-**Usando equipes da Microsoft e Skype para Business Admin Center**
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+**Using the Microsoft Teams and Skype for Business Admin Center**
+1. In the left navigation, go to **Meetings** > **Conference Bridges**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+2. At the top of the **Conference Bridges** page, click **Bridge Settings**. 
 
-3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de discagem**.
+3. In the **Bridge settings** pane, enable or disable **Automatically send emails to users if their dial-in settings change**.
 
 4. Clique em **Aplicar**.
   
-**Usando o Skype para o Centro de administração de negócios**
+**Using the Skype for Business admin center**
     
-1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, clique em **conferência de áudio**.
+1. In the **Skype for Business admin center**, in the left navigation, click **Audio conferencing**.
     
-2. Na página **configurações de ponte da Microsoft** , marque ou desmarque a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de conferência de áudio**.
+2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
     
 3. Clique em **Salvar**.
     
     > [!TIP]
-    > Você também pode enviar email a um usuário com as configurações de serviços de audioconferência indo para **conferência de áudio** > **usuários**, selecionando o usuário e, em seguida, clicando em **Enviar informações de conferência via email**.  Se fizer isso, será enviado um email que inclui somente o ID de conferência e o número de telefone de conferência, mas não o PIN.  Para obter mais informações, consulte [Enviar um email a um usuário com as informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md) .
+    > You can also send email to a user with the audio conferencing settings by going to **Audio conferencing** > **Users**, selecting the user, and clicking **Send conference info via email**.  If you do this, an email will be sent that only includes conference ID and conference phone number, but not the PIN.  See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md) for more information.
   
-**Usando o Windows PowerShell**
+**Using Windows PowerShell**
   
-- Execute o seguinte procedimento para desabilitar o envio de emails: 
+- Run the following to disable sending emails: 
     
   ```
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 
-    Para obter ajuda com este cmdlet, consulte [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
+    For help with this cmdlet, see [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
     
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
-- Quando emails automáticas estão desabilitadas, você pode acionar ainda manualmente enviar um email com o número de telefone e a ID de conferência usando o Skype para o Centro de administração de negócios. No entanto, se você fizer isso, o PIN não será incluído. Se você deseja redefinir o PIN de conferência de áudio e enviando e-mails estiver desabilitado, você precisará enviá-la ao usuário em outra forma.
-    
-- Por padrão, o remetente dos e-mails será do Office 365, mas você pode alterar o endereço de email e usando o Windows PowerShell de nome de exibição e também usar o cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757) .
-    
-    > [!NOTE]
-    >  Se você deseja alterar as informações de endereço de email, será necessário certificar-se de que as políticas de email de entrada do seu ambiente permitem emails provenientes de personalizado especificado do endereço.
-  
-  - Digite o endereço de email no parâmetro  _SendEmailFromAddress_.
-    
-  - Digite o nome exibido no email no parâmetro  _SendEmailFromDisplayName_.
-    
-  - Defina o parâmetro _SendEmailOverride_ como _True_.
-    
-  -  `Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"`
+- When automatic emails are disabled, you can still manually trigger sending an email with the conference ID and phone number using the Skype for Business admin center. However, if you do this, the PIN won't be included. If you want to reset the audio conferencing PIN and sending emails is disabled, you will need to send it to the user in another way.
     
 - O envio de emails a seus usuários pode ser desabilitado usando o Centro de administração do Skype for Business ou o Windows PowerShell.
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- Você pode usar esses cmdlets para economizar tempo ou automatizar isso.
+- You can use these cmdlets to save time or automate this.
     
   - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
@@ -121,11 +108,11 @@ Você pode usar o Microsoft Teams, o Skype para centro de administração de neg
     
 -  O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
     
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Why you need to use Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações de configuração de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making setting changes for many users at one time. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -138,7 +125,7 @@ Você pode usar o Microsoft Teams, o Skype para centro de administração de neg
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Emails enviados aos usuários ao alteram suas configurações de conferência de áudio](emails-sent-to-users-when-their-settings-change.md)
+[Emails sent to users when their Audio Conferencing settings change](emails-sent-to-users-when-their-settings-change.md)
 
 [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md)
 

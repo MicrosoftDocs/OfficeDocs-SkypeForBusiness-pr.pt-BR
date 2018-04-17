@@ -1,0 +1,1 @@
+Estamos no processo de atualização com frequência como você irá gerenciar recursos encontrados no Skype para comerciais e Teams da Microsoft, portanto, as etapas podem ser um pouco diferentes do que você vê. Use o link abaixo para nos informar se você tem um feedback.
