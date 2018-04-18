@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.date: 03/15/2018
 ms.topic: article
 ms.assetid: d01954f1-4f37-4cf5-a636-20039e5c59e9
 ms.tgt.pltfrm: cloud
@@ -23,85 +22,85 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 - LIL_Placement
-description: 'Saiba como configurar a conferência discada ou áudio para as pessoas em sua empresa que precisam para ingressar em chamadas de conferência usando um telefone. '
-ms.openlocfilehash: 4d82de668ec31f1664fb05202979dd6df94bda2b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: 'Learn how to set up dial-in or audio conferencing for the people in your business who need to join conference calls using a phone. '
+ms.openlocfilehash: f5258ed7f0b056bb9c3381211f5adf3c8ea91715
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurar conferência de áudio para o Skype for Business e Teams da Microsoft
 
-Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. Skype para Teams da Microsoft e de negócios incluir o recurso de conferência de áudio para apenas essa situação! As pessoas podem ligar para Skype para reuniões de negócios ou Microsoft Teams usando um telefone, em vez de usar o Skype para negócios ou Teams Microsoft app em um PC ou dispositivo móvel. 
+Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation! People can call in to Skype for Business or Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC. 
   
-Você precisa configurar a conferência de áudio para as pessoas que pretende agendar ou liderança de reuniões. Os participantes da reunião que discam não precisam quaisquer licenças atribuídas a eles ou outro programa de instalação.
+You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
-Para as perguntas frequentes sobre a conferência de áudio, consulte [perguntas comuns de conferência de áudio](audio-conferencing-common-questions.md).
+For frequently asked questions about Audio Conferencing, see [Audio Conferencing common questions](audio-conferencing-common-questions.md).
   
-## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>Etapa 1: Descobrir se a conferência de áudio está disponível em seu país/região
+## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>Step 1: Find out if Audio Conferencing is available in your country/region
 <a name="__top"> </a>
 
 
-Acesse a [disponibilidade do país e região para conferência de áudio e chamar planos](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) e selecione seu país ou região para obter informações sobre a conferência de áudio de disponibilidade, bem como informações sobre as tarifas de sistema telefônico, chamar planos e chamada gratuita números e créditos de comunicações. 
+Go to [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) and select your country or region to get availability information about Audio Conferencing, as well as information about Phone System, Calling Plans, toll and toll-free numbers, and Communications Credits. 
  
-## <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Obter e atribuir licenças
+## <a name="step-2-get-and-assign-licenses"></a>Step 2: Get and assign licenses
  
-1. Para conferências de áudio, você precisa de uma licença de cada usuário que irá configurar discagem reuniões. Para saber quais licenças você precisará comprar para conferência de áudio e quanto eles terá um custo, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. For Audio Conferencing, you need a license for each user who will set up dial-in meetings. To learn which licenses you need to buy for Audio Conferencing and how much they will cost, see [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
         
-2. Depois que você adquire as licenças de conferência de áudio, você irá ned para atribuí-las às pessoas em sua organização que estão indo para agendar ou liderança de reuniões. Consulte [atribuir ou remover licenças do Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) você comprou às pessoas em sua organização que pretende agendar ou líder de reuniões.
+2. After you buy the Audio Conferencing licenses, you will ned to assign them to those people in your organization who are going to schedule or lead meetings. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) you purchased to the people in your organization who are going to schedule or lead meetings.
     
-3. Também é recomendável que você atribua licenças créditos de comunicações (não custam nada) para as mesmas pessoas que você atribuiu licenças para na etapa anterior. Para saber como configurar comunicações créditos, consulte [Configurar créditos de comunicações para sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
+3. We also recommend that you assign Communications Credits licenses (they don’t cost anything) to the same people you assigned licenses to in the previous step. To learn how to set up Communications Credits, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
     
 > [!NOTE]
-> Você também pode configurar a conferência de áudio de pagamento por minuto. Vá [aqui](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md) para obter mais informações sobre como usá-los.
+> You can also set up pay-per-minute Audio Conferencing. Go [here](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md) to find out more about how to use them.
 
-## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Etapa 3: Obtenha números de serviço para seus pontes de conferência
+## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Step 3: Get service numbers for your conferencing bridges
 <a name="__top"> </a>
 
-Para conferências de áudio, você não pode usar números de telefone para usuários; Você precisará fazer os números de serviço. Você pode obter tarifas ou números gratuitos de serviço para seus pontes de conferência. Há três maneiras de Chamada Tarifada do get e números gratuitos de serviço: 
+For Audio Conferencing, you can’t use phone numbers for users; you will need to get service numbers. You can get either toll or toll-free service numbers for your conferencing bridges. There are three ways to get toll and toll-free service numbers: 
   
-- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números de serviço para seus pontes de conferência usando o Skype para o Centro de administração do Business, consulte [Getting números de telefone de serviço](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+- **Use the Skype for Business admin center.** For some countries/regions, you can get service numbers for your conferencing bridges using the Skype for Business admin center, see [Getting service phone numbers](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
     
-- **Porta de seus números de serviço existente.** A porta ou transferência existentes números do seu provedor de serviço atual ou a operadora de telefone para o Office 365. Você pode ver [transferir os números de telefone para o Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) ou [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo a fazer isso.  
+- **Port your existing service numbers.** To port or transfer existing numbers from your current service provider or phone carrier to Office 365. You can see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) or [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information to help you do this.  
   
-- **Use um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) não será possível obter seus números de serviço nova usando o Skype para o Centro de administração de negócios ou, você precisará de números de telefone específico ou códigos de área. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte o [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) . 
+- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new service numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) for more information. 
     
-## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>Etapa 4: Atribuir um número de serviço para a ponte de conferência
+## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>Step 4: Assign a service number to the conferencing bridge
 <a name="__top"> </a>
 
-Depois que você obtenha sua chamada Tarifada e/ou números de telefone gratuitos para sua ponte de conferência, você precisa atribuir números para que possam ser usadas em convites de reunião.  
+Once you get your toll and/or toll-free phone numbers for your conferencing bridge, you need to assign the numbers so they can be used on meeting invites.  
 
-Para atribuir um novo número de telefone para sua ponte de conferência de áudio, vá para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **voz** > **números de telefone**, selecione o telefone número e, em seguida, clique em **atribuir**.
+To assign a new phone number to your audio conferencing bridge, go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Voice** > **Phone numbers**, select the phone number, and click **Assign**.
 
-Para obter mais detalhes, consulte [atribuir um novo número de telefone para sua ponte de conferência de áudio](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+For more details, see [Assign a new phone number to your audio conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Etapa 5: Definir o padrão e os idiomas alternativos para uma ponte de conferência
+## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Step 5: Set the default and alternate languages for a conferencing bridge
 <a name="__top"> </a>
 
-Em seguida, você deseja [definir os idiomas de atendedor automático de conferência de áudio](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) que o atendedor automático de conferência usa para saudar um chamador quando eles discam para um número de telefone para audioconferências. 
+Next, you want to [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the conferencing auto attendant uses to greet a caller when they dial in to a phone number for Audio Conferencing. 
 
-Vá para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **audioconferências** > **configurações de ponte da Microsoft**, selecione o número de telefone de ponte de conferência e depois Clique em **definir idiomas**.
+Go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** > **Microsoft bridge settings**,  select the conferencing bridge phone number, and then click **Set languages**.
 
-## <a name="step-6-set-your-conferencing-bridge-settings"></a>Etapa 6: Definir sua conferência as configurações de ponte
+## <a name="step-6-set-your-conferencing-bridge-settings"></a>Step 6: Set your conferencing bridge settings
 <a name="__top"> </a>
     
-Após configurar sua ponte de conferência, verifique se as configurações padrão, como notificações de entrada/saída e o comprimento do PIN são aqueles que deseja usar; Se não estiver, você pode alterá-los. 
+After setting up your conferencing bridge, verify that the default settings such as entry/exit notifications and PIN length are the ones you want to use; if they're not, you can change them. 
 
-Você pode ir para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **audioconferências** > **configurações de ponte da Microsoft**. Esse procedimento abrirá a página de **configurações de ponte da Microsoft** . Para obter mais detalhes, consulte [alterar as configurações de uma ponte de conferência de áudio](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md).
+You can go to the **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** > **Microsoft bridge settings**. This will open the **Microsoft bridge settings** page. For more details, see [Change the settings for an Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md).
 
-## <a name="step-7-assign-the-audio-conferencing-provider-and-dial-in-phone-numbers"></a>Etapa 7: Atribuir os números de telefone de provedor e dial-in de serviços de audioconferência
+## <a name="step-7-assign-the-audio-conferencing-provider-and-dial-in-phone-numbers"></a>Step 7: Assign the audio conferencing provider and dial-in phone numbers
 
-Agora, você precisará certificar-se de que a Microsoft é atribuído como um provedor e definir a chamada Tarifada e números para ligações gratuitas para elas ao mesmo tempo.
+Now you need to make sure that Microsoft is assigned as the provider, and set the toll and toll-free numbers for them at the same time.
 
-Atribuir a Microsoft como um provedor para as pessoas na sua organização de avanço ou agendar reuniões, indo para **o Centro de administração do Office 365** > **Skype para negócios** > **audioconferências** > **usuários**e selecione o usuário da lista e clique em **Editar**. Se você precisar de mais detalhes, consulte [Microsoft atribuir como um provedor de serviços de audioconferência](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+Assign Microsoft as the provider to people in your organization who lead or schedule meetings, by going to **Office 365 admin center** > **Skype for Business** > **Audio conferencing** > **Users**, and then select the user from the list and click **Edit**. If you need more details, see [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
-Quando você estiver definindo o provedor, você também pode definir a chamada Tarifada e números para ligações gratuitas que serão adicionado à reunião convidam para esse usuário. Basta selecione os números de telefone nas listas suspensas. Para obter mais detalhes, consulte [Defina o telefone convidam números incluídos no](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md). 
+When you are setting the provider, you can also set the toll and toll-free numbers that will be added to meeting invites for that user. Simply select the phone numbers from the drop-down lists. For more details, see [Set the phone numbers included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md). 
 
 
-## <a name="step-8-set-up-meeting-invitations-optional"></a>Etapa 8: Configurar os convites para reunião (opcional)
+## <a name="step-8-set-up-meeting-invitations-optional"></a>Step 8: Set up meeting invitations (optional)
 <a name="__top"> </a>
  
-Os números de discagem que são definidos para o usuário serão adicionados automaticamente aos convites de reunião que são enviados para os participantes da reunião. No entanto, você pode adicionar sua própria Ajuda e links legal, uma mensagem de texto e gráfico de pequena empresa se desejar. Consulte [Personalizar convites de reunião](../set-up-skype-for-business-online/customize-meeting-invitations.md).
+The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to meeting attendees. However, you can add your own help and legal links, a text message, and small company graphic if you want. See [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md).
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -111,4 +110,4 @@ Os números de discagem que são definidos para o usuário serão adicionados au
   
 [Números de telefone para audioconferência](phone-numbers-for-audio-conferencing.md)
   
-[Definir opções para reuniões online e chamadas em conferência](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[Set options for online meetings and conference calls](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

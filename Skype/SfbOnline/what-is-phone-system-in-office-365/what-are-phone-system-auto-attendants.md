@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Phone System
 - Strat_SB_PSTN
 description: 'Saiba quais são os atendedores automáticos de sistema telefônico (nuvem PBX) e como usá-los. '
-ms.openlocfilehash: a1253419bdd321efd99a4ea375655d52f154b6ab
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 59c0dbc129e782749cdc873115e760f1e3d894e3
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>Cite atendedores automáticos de sistema telefônico.
 
@@ -225,13 +224,13 @@ Cada atendedor automático tem opções de atendimento de chamadas que podem ser
 
 Atendedores automáticos da telefone sistema permitem que você crie os prompts de menu ("Pressione 1 para vendas, pressione 2 para serviços") e defina as opções de menu para rotear chamadas com base em que o usuário seleciona. A configuração das opções de menu de um atendedor automático permite que uma organização forneça orientação interativa para levar a pessoa a seu destino mais rápido, sem contar com um operador humano para administrar as chamadas de entrada. Os prompts de menu podem ser criados usando texto em fala (gerada pelo sistema prompts) ou carregando um arquivo de áudio que foi registrado. O reconhecimento de fala usa comandos de voz para navegação sem usar as mãos, mas os chamadores também podem usar o teclado do telefone para navegar pelos menus.
   
-Keys 0 through 9 can be assigned to **Menu Options** in an auto attendant using the Skype for Business admin center. Diferentes conjuntos de opções de menu podem ser criadas para os horários comerciais e horários fora do expediente, e você pode habilitar ou desabilitar o Discar por Nome nas **Opções de Menu**. As teclas podem ser mapeadas para transferir as chamadas para:
+Teclas 0 a 9 podem ser atribuídas às **Opções de Menu** em um atendedor automático usando o Skype para o Centro de administração de negócios. Diferentes conjuntos de opções de menu podem ser criadas para os horários comerciais e horários fora do expediente, e você pode habilitar ou desabilitar o Discar por Nome nas **Opções de Menu**. As teclas podem ser mapeadas para transferir as chamadas para:
   
-- Um operador, que é mapeado para a tecla 0 por padrão. However, it can be re-assigned to any other key, or removed from the menu.
+- Um operador, que é mapeado para a tecla 0 por padrão. No entanto, ele pode ser novamente atribuído a qualquer outra tecla, ou removido do menu.
     
 - Uma fila de espera de chamada.
     
-- Outro atendedor automático. Multi-level menus can be set up by pointing a **Menu Option** in one auto attendant to another auto attendant with its own set of Menu Options, which is called a "nested" auto attendant.
+- Outro atendedor automático. Menus de vários níveis podem ser configuradas pelo apontando uma **Opção de Menu** no atendedor automático de um para o outro atendedor com seu próprio conjunto de opções de Menu, que é chamado um atendedor automático "aninhados".
     
 - Um Skype para usuário Business Online que tem um **Sistema telefônico** licenciar que esteja habilitado para Enterprise Voice ou chamar planos atribuiu a eles. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para isso, selecione uma **Pessoa em sua empresa** e defina as chamadas dessa pessoa para serem encaminhadas diretamente para a caixa postal.
     
@@ -265,7 +264,7 @@ Aplica a política ao usuário usando o cmdlet **Grant-CallingLineIdentity** . P
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-You can get more information on how to make changes to caller ID settings in your organization [How can caller ID be used in your organization](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+Você pode obter mais informações sobre como fazer alterações nas configurações de ID de chamador em sua organização [como ID do chamador pode ser usado na sua organização](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)

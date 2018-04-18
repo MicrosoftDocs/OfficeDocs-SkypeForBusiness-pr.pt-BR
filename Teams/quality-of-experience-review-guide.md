@@ -1,1172 +1,1172 @@
 ---
-title: Quality of Experience Review Guide for Microsoft Teams
+title: Qualidade da experiência Revise o guia para equipes da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Guide for analyzing real-time media performance for Microsoft Teams by using Call Quality Dashboard (CQD).
+description: Guia para analisar o desempenho de mídia em tempo real for Microsoft Teams usando o painel de controle de qualidade de chamada (CQD).
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65591f364cd40db5307208e089b6897cfb60e878
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 42af71e9062b68da6e9d3bc77a6c067eee35ec92
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="quality-of-experience-review-guide"></a>Quality of Experience Review Guide
+# <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
-This guide is about the Drive Value phase for Microsoft Teams and Skype for Business Online. You can [download a Word version](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) of this guide.
+Este guia é sobre a fase de unidade de valor para o Microsoft Teams e Skype para negócios Online. Você pode [baixar uma versão do Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) deste guia.
 
 ## <a name="introduction"></a>Introdução
 
-To have the greatest impact on improving the user experience, organizations need to operationalize the key areas that are shown in the following figure.
-Additional areas include identifying operational tasks, establishing targets for quality metrics, ascertaining the metrics to use to gauge organizational success, and narrowing areas of investigation as needed.
+Para que o maior impacto sobre como melhorar a experiência do usuário, as organizações precisam tornem operacional as principais áreas que são mostradas na figura a seguir.
+Áreas adicionais incluem identificando tarefas operacionais, estabelecimento de metas para métricas de qualidade, averiguar as métricas usar para medir o êxito organizacional e estreitando áreas de investigação conforme necessário.
 
-![Key areas for the quality of user experience include audio, reliability, user surveys, devices, and clients.](media/quality-of-experience-review-guide-image1.png)
+![Principais áreas para a qualidade da experiência do usuário incluem áudio, confiabilidade, pesquisas de usuário, dispositivos e clientes.](media/quality-of-experience-review-guide-image1.png)
 
-_Figure 1 - Key operational areas covered throughout this document_
+_Figura 1 - operacionais áreas de chave abordadas neste documento_
 
-By continually assessing and remediating the areas described in this document, you can reduce their potential to negatively affect the quality of your users’ experience. Most user-experience problems encountered in a deployment can be grouped into the following categories:
+Continuamente avaliando e correção as áreas descritas neste documento, você pode reduzir seu potencial para afetar negativamente a qualidade da experiência dos usuários. A maioria dos problemas de experiência do usuário encontrados em uma implantação podem ser agrupados nas seguintes categorias:
 
--   Incomplete firewall or proxy configuration
+-   Configuração de firewall ou proxy incompleta
 
--   Poor Wi-Fi coverage
+-   Baixa cobertura de Wi-Fi
 
--   Insufficient bandwidth
+-   Largura de banda insuficiente
 
 -   VPN
 
--   Inconsistent or outdated client versions
+-   Versões do cliente inconsistentes ou desatualizadas
 
--   Unoptimized or built-in audio devices
+-   Dispositivos de áudio não otimizados ou internos
 
--   Problematic subnets or network devices
+-   Sub-redes problemáticos ou dispositivos de rede
 
-Through proper planning and design before deploying Teams or Skype for Business Online, you can reduce the amount of effort that will be required to maintain high-quality experiences.
+Através de planejamento adequado e design antes de implantar equipes ou Skype para Business Online, você pode reduzir a quantidade de esforço que serão necessários para manter experiências de alta qualidade.
 
-This guide focuses on using the Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area, with a special emphasis on audio to maximize adoption and impact. Any improvements made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.
+Este guia se concentra no uso do Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área, com uma ênfase especial para maximizar a adoção e o impacto de áudio. Todos os aprimoramentos feitos à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
 
-To accelerate your assessment, two curated CQD templates are provided: one for managing all networks and the other is filtered for managed (internal) networks only. Although the All Networks template reports are configured to display building and network information, it can still be used while you work toward collecting and uploading building information. Uploading building information into CQD enables the service to enhance reporting by adding custom building, network, and location information while differentiating internal from external subnets. For more information, see [Building mapping](#building-mapping) later in this document.
+Para acelerar sua avaliação, dois modelos CQD curated são fornecidos: um para o gerenciamento de todas as redes e o outro fosse filtrada para gerenciados apenas as redes (internas). Embora os relatórios de modelo de todas as redes são configurados para exibir informações de rede e de construção, ele ainda pode ser usado enquanto você trabalha em direção a coleta e carregamento de informações de construção. Carregar informações em CQD do edifício habilita o serviço aperfeiçoar os relatórios adicionando informações personalizadas de construção, rede e local enquanto distinguir interna do sub-redes externos. Para obter mais informações, consulte [mapeamento de construção](#building-mapping) posteriormente neste documento.
 
-### <a name="what-is-the-cqd"></a>What is the CQD?
+### <a name="what-is-the-cqd"></a>Qual é o CQD?
 
-You use the Call Quality Dashboard (CQD) to gain insight into the quality of calls made by using Teams and Skype for Business services. CQD is designed to help Skype for Business and Teams admins and network engineers optimize the network. CQD looks at aggregate information for an entire organization where overall patterns can become apparent, allowing staff to make informed assessments of call quality. CQD provides reports of call metrics that give you insight into overall call quality, call reliability, and user experience.
+Use o painel de qualidade de chamada (CQD) para obtém ideias sobre a qualidade das chamadas feitas por meio de equipes e Skype para serviços corporativos. CQD foi projetado para ajudar Skype para os administradores corporativos e as equipes e os engenheiros de rede otimização a rede. CQD analisa agregam informações para uma organização inteira onde padrões gerais podem se tornar aparentes, permitindo que a equipe efetue informadas avaliações de qualidade de chamada. CQD fornece relatórios de métricas de chamada que lhe dão ideia da experiência do usuário, confiabilidade de chamada e qualidade geral da chamada.
 
 > [!NOTE]
-> CQD doesn’t contain any personally identifiable information (PII). PII is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. 
+> CQD não contém informações de identificação pessoal (PII). PII é informações que podem ser usadas por conta própria ou com outras informações para identificar, entre em contato ou localizar uma única pessoa ou para identificar um indivíduo em contexto. 
 
-### <a name="intended-audience"></a>Intended audience
+### <a name="intended-audience"></a>Público-alvo
 
-This document is intended to be used by partner and customer stakeholders with roles such as Collaboration Lead/Architect, Consultant, Change Management/Adoption Specialist, Support/Help Desk Lead, Network Lead, Desktop Lead, and IT Admin.
+Este documento é destinado a ser usado pelo parceiro e cliente participantes com funções como arquiteto/líder de colaboração, consultor, especialista da adoção do gerenciamento de alteração, ajuda/suporte de liderança de mesa, liderança de rede, liderança de área de trabalho e administrador de TI.
 
-This document is also intended to be used by the designated quality champion(s).
-For more information, see [the Quality Champion role](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management#the-quality-champion-role).
+Este documento também se destina a ser usado pelo champion(s) a qualidade designada.
+Para obter mais informações, consulte [a função campeão de qualidade](https://docs.microsoft.com/MicrosoftTeams/4-envision-plan-my-service-management#the-quality-champion-role).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Before using this guide, make sure you have the proper tenant [roles](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) assigned so that you can access CQD.
+Antes de usar este guia, verifique se que você tem as [funções](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) de locatário adequadas atribuído para que você possa acessar CQD.
 
--   **Office 365 Global Administrator role:** Accesses all administrative features in the Office 365 suite of services in your plan, including Skype for Business.
+-   **Função Administrador Global do office 365:** Acessa todos os recursos administrativos no conjunto do Office 365 de serviços em seu plano, incluindo Skype para negócios.
 
--   **Skype for Business Administrator role:** Configures Skype for Business for your organization and is able to view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Office 365 admin center. This role is required even if you deploy only Teams.
+-   **Skype para a função de administrador de negócios:** Configura Skype for Business para sua organização e é capaz de exibir todos os [relatórios de atividade](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no Centro de administração do Office 365. Essa função é necessária, mesmo se você implantar apenas equipes.
 
-Alternatively, you can assign the following role to an Office 365 user account to allow access to reporting features only.
+Como alternativa, você pode atribuir a função a seguir para uma conta de usuário do Office 365 deseja permitir acesso a somente os recursos de relatório.
 
--   **Reports Reader:** Can view all the [activity reports](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) in the Office 365 admin center, any reports from the [Office 365 Adoption content pack](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f), and CQD reports.
+-   **Relata leitor:** Pode exibir todos os [relatórios de atividade](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no Centro de administração do Office 365, qualquer relatórios do [pacote de conteúdo do Office 365 adoção](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e relatórios CQD.
 
-Understanding the key concepts of CQD helps maximize the impact you can make in improving your users’ experience with Teams or Skype for Business Online.
-Additional resources can be found in the [Appendix](#other-resources).
+Noções básicas sobre os principais conceitos do CQD ajuda a maximizar o impacto que você pode fazer em melhorar a experiência de seus usuários com equipes ou Skype para Business Online.
+Recursos adicionais podem ser encontrados no [Apêndice](#other-resources).
 
-## <a name="what-is-quality"></a>What is quality?
+## <a name="what-is-quality"></a>Qual é a qualidade?
 
-When discussing quality in Teams and Skype for Business, it’s important to define the term to achieve a common understanding. Quality, as defined here, is a combination of service metrics and user experience.
+Ao discutir qualidade em equipes e Skype para os negócios, é importante definir o termo para atingir um entendimento comum. A qualidade, conforme definido aqui, é uma combinação de serviço métricas e experiência do usuário.
 
-![Service metrics are made up of the poor call ratio, reliability, endpoints/devices and client versions. End user experience is made up of the user's perception of the quality of service.](media/quality-of-experience-review-guide-image2.png)
+![Métricas de serviço são compostas das versões de chamadas ruins proporção, confiabilidade, pontos de extremidade/dispositivos e cliente. Experiência do usuário final é formada pelo percepção do usuário da qualidade de serviço.](media/quality-of-experience-review-guide-image2.png)
 
-_Figure 2 - What is quality?_
+_Figura 2: o que há de qualidade?_
 
-### <a name="define-your-target-metrics"></a>Define your target metrics
+### <a name="define-your-target-metrics"></a>Definir seus métricas de destino
 
-This section discusses the core service metrics that we use to assess how services experience health. By continually assessing and driving efforts to keep these metrics below target, you’ll help ensure your users experience consistent, reliable call quality. To get you started, the following targets are provided.
-Let’s briefly cover the difference between a managed and unmanaged network:
+Esta seção discute as métricas de serviço principal que usamos para avaliar como serviços apresentem integridade. Continuamente avaliando e orientando os esforços para manter essas métricas abaixo de destino, você vai ajudar a garantir a que qualidade da chamada uniforme e confiável de experiência de seus usuários. Para começar, as metas a seguintes são fornecidas.
+Vamos resumem a diferença entre uma rede gerenciada e:
 
--   A *managed* network can be influenced and controlled by the organization.
-    This includes the internal LAN, the remote WAN, and VPN.
+-   Uma rede *gerenciados* pode ser influenciada e controlada pela organização.
+    Isso inclui LAN interna, WAN remoto e VPN.
 
--   An *unmanaged* network can’t be influenced or controlled by the organization. An example of an unmanaged network is a hotel or airport network.
+-   Uma rede *não gerenciada* não pode ser influenciada ou controlada pela organização. Um exemplo de uma rede não gerenciada é uma rede de hotel ou aeroporto.
 
-_Table 1 - Core target health assessment metrics_
+_Tabela 1 - métricas de avaliação de integridade de destino principais_
 
-|               | Quality for managed networks | Reliability for managed networks |                      |
+|               | Qualidade para redes gerenciadas | Confiabilidade para redes gerenciadas |                      |
 |---------------|------------------------------|----------------------------------|----------------------|
-| Metric name   | Audio Poor Call Ratio %      | Call Setup Failures %            | Call Drop Failures % |
-| Sample target | \<3%                         | \<1%                             | \<4%                 |
+| Nome de métrica   | % De taxa de chamada de áudio inválida      | Configuração da chamada % de falhas            | Recebimento de chamadas % de falhas |
+| Destino da amostra | \<% 3                         | \<% 1                             | \<4%                 |
 
-It’s important to discuss and define your organization’s targets to meet your business objectives. Ideally, you should identify these targets prior to deployment.
+É importante discutir e definir as metas da sua organização para atender aos seus objetivos de negócios. Idealmente, você deve identificar nestes destinos antes da implantação.
 
-#### <a name="audio-pcr-"></a>Audio PCR % 
+#### <a name="audio-pcr-"></a>% De áudio PCR 
 
-Audio Poor Call Ratio (PCR) represents the organization’s overall percentage of calls that have poor audio quality. This metric is meant to highlight areas where your organization can concentrate effort to have the strongest impact toward reducing this value and improving the user experience, which is why managed networks are the primary focus when looking at PCR. External users are important too, but investigations differs on an organizational and user basis.
-Consider providing best practices for external users, and look at external calls independently from the overall organization.
+Áudio ruim chamada proporção (PCR) representa a porcentagem geral da organização de chamadas que têm má qualidade de áudio. Essa métrica destina-se para realçar áreas onde sua organização pode se concentrar esforço para ter um impacto mais forte em direção a redução desse valor e aprimorando a experiência do usuário, o motivo pelo qual o foco principal são as redes gerenciadas ao olhar PCR. Os usuários externos são muito importantes, mas difere de investigações em uma base organizacional e de usuário.
+Considerar o fornecimento de práticas recomendadas para usuários externos e examine efetuar chamadas externas independentemente do geral da empresa.
 
-#### <a name="call-setup-failures-"></a>Call Setup Failures % 
+#### <a name="call-setup-failures-"></a>Configuração da chamada % de falhas 
 
-This represents any media session that couldn’t be established. Given the severity of the impact on the user experience measured here, the goal is to reduce this value to as close to zero as possible. A high value for this metric is more common in new deployments with incomplete firewall rules than a mature deployment, but it’s still important to watch on a regular basis. As your operational rigor matures, you can expand this metric to include video and desktop-sharing workloads.
+Isso representa qualquer sessão de mídia que não pôde ser estabelecida. Devido a gravidade do impacto sobre a experiência do usuário medida aqui, o objetivo é reduzir este valor como como próximos de zero possível. Um valor alto para essa métrica é mais comuns em novas implantações com regras de firewall incompleto do que uma implantação desenvolvido, mas ainda é importante observar regularmente. Conforme sua rigor operacional for envelhecendo, você poderá expandir essa métrica para incluir as cargas de trabalho de vídeos e compartilhamento de área de trabalho.
 
-#### <a name="call-drop-failures-"></a>Call Drop Failures % 
+#### <a name="call-drop-failures-"></a>Recebimento de chamadas % de falhas 
 
-This applies to an audio workload where the session terminated unexpectedly. As your operational rigor matures, you can expand this metric to include video and desktop-sharing workloads.
+Isso se aplica a uma carga de trabalho de áudio em que a sessão terminou inesperadamente. Conforme sua rigor operacional for envelhecendo, você poderá expandir essa métrica para incluir as cargas de trabalho de vídeos e compartilhamento de área de trabalho.
 
-### <a name="service-metrics"></a>Service metrics
+### <a name="service-metrics"></a>Métricas de serviço
 
-Service metric targets consist of specific client-based metrics.
+Destinos de métricas de serviço consistem em métricas específicas baseados no cliente.
 
 #### <a name="pcr"></a>PCR
 
-The basis for determining whether a call is classified as poor is by using the poor call ratio (PCR). PCR is made up of the five network metrics described in the following table. For a call to be classified as poor, only one metric needs to exceed the defined threshold. For more information about the call classification process, see [this blog post](https://blogs.technet.microsoft.com/jenstr/2013/09/20/what-is-the-basis-for-classifying-a-call-as-poor-in-lync-2013-qoe/).
+A base para determinar se uma chamada foi classificada como ruim é usando a proporção de chamadas ruins (PCR). PCR é formada pelas métricas de rede cinco descritas na tabela a seguir. Para uma chamada para ser classificadas como insatisfatória, apenas uma métrica deve exceder o limite definido. Para obter mais informações sobre o processo de classificação de chamada, consulte [esta postagem de blog](https://blogs.technet.microsoft.com/jenstr/2013/09/20/what-is-the-basis-for-classifying-a-call-as-poor-in-lync-2013-qoe/).
 
-_Table 2 - Poor Call Service Metrics_
+_Tabela 2 - métricas de serviço de chamadas ruins_
 
 | Métrica                                           | Descrição                                                                                                                                                                                                                                                                                                                                                                  | Experiência do usuário                                                                                                                                                          |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jitter \>30 ms                                   | This is the average change in delay between successive packets. Teams and Skype for Business can adapt to some levels of jitter through buffering. It’s only when the jitter exceeds the buffering that a participant notices the effects of jitter.                                                                                                                         | The packets arriving at different speeds cause a speaker’s voice to sound robotic.                                                                                       |
-| Packet loss rate \>10% or 0.1                    | This is often defined as a percentage of packets that are lost. Packet loss directly affects audio quality—from small, individual lost packets that have almost no impact to back-to-back burst losses that cause audio to cut out completely.                                                                                                                               | The packets being dropped and not arriving at their intended destination cause gaps in the media, resulting in missed syllables and words, and choppy video and sharing. |
-| Round-trip time \>500 ms                         | This is the time it takes to get an IP packet from point A to point B and back to point A. This network propagation delay is tied to the physical distance between the two points and the speed of light and includes additional overhead taken by the various devices in the network path.                                                                                  | The packets taking too long to arrive at their destination cause a walkie-talkie effect.                                                                                 |
-| NMOS degradation average \> 1.0                  | One or more of these network metrics, although individually weren’t poor, together caused the Network [Mean Opinion Score](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) (NMOS) to drop by more than one point. This doesn’t necessarily mean the network connection is poor, but enough issues occurred during the call that quality was reduced. | This is a combination of jitter, packet loss, and—to a lesser degree—increased round-trip time. The user might be experiencing a combination of these symptoms.          |
-| Average ratio of concealed samples \> 7% or 0.07 | One or more of these network metrics, although individually weren’t poor, caused the client to self-heal the media. A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.                                                                                                                | High values indicate that significant levels of loss concealment were applied, and resulted in distorted or lost audio.                                                  |
+| Tremulação \>30 ms                                   | Esta é a média alteração em atraso entre pacotes sucessivos. Equipes e Skype para negócios podem se adaptar alguns níveis de tremulação por meio de armazenamento em buffer. É somente quando a tremulação excede o armazenamento em buffer que um participante avisos os efeitos de variação.                                                                                                                         | Os pacotes que chegam em diferentes velocidades causarão voz do alto-falante som robótica.                                                                                       |
+| Taxa de perda de pacote \>10% ou 0,1                    | Geralmente, isso é definido como uma porcentagem dos pacotes que são perdidos. Perda de pacotes diretamente afeta a qualidade do áudio — de pequeno, indivíduo pacotes perdidos que têm quase sem afetar a perdas intermitentes em frente e verso que causa áudio Recortar completamente.                                                                                                                               | Os pacotes sendo capitular e não chegada a seu destino pretendido causarão lacunas na mídia, resultando em palavras e sílabas perdidas e entrecortada vídeos e compartilhamento. |
+| Tempo de ida e volta \>500 ms                         | Este é o tempo que leva para obter um pacote IP do ponto A ponto b e voltar para a ponto. Esse atraso de propagação de rede é associado à distância física entre os dois pontos e a velocidade da luz e inclui uma sobrecarga adicional tomada por vários dispositivos no caminho de rede.                                                                                  | Os pacotes demorando muito para chegar ao seu destino causam um efeito de walkie-talkie.                                                                                 |
+| Média de degradação NMOS \> 1.0                  | Uma ou mais destas métricas de rede, embora individualmente não foram ruim, juntos causado a rede [Pontuação média de opinião](https://technet.microsoft.com/library/bb894481(v=office.12).aspx) (NMOS) para soltar por mais de um ponto. Isso não necessariamente significa que a conexão de rede estiver baixa, mas suficiente problemas ocorreram durante a chamada que qualidade foi reduzida. | Isso é uma combinação de tremulação, perda de pacotes, e — a um grau menor — aumento do tempo de ida e volta. O usuário pode estar apresentando uma combinação desses sintomas.          |
+| Taxa média de amostras escondidas \> 7% ou 0,07 | Uma ou mais destas métricas de rede, embora individualmente não foram ruim, causou o cliente auto-restauração a mídia. Uma amostra de áudio escondida é uma técnica costumava suave check-out a transição repentina que geralmente seria causada por pacotes de rede capitular.                                                                                                                | Valores altos indicam que significativo níveis de ocultação perda foram aplicados e resultou em áudio distorcido ou perdido.                                                  |
 
-#### <a name="client-and-device-readiness"></a>Client and device readiness
+#### <a name="client-and-device-readiness"></a>Preparação de clientes e dispositivos
 
-You need a solid client and device strategy to ensure that your users have a consistent and positive user experience. A few key principles drive each readiness strategy.
+Você precisa de uma estratégia sólida de clientes e dispositivos para garantir que os usuários tenham uma experiência de usuário consistente e positivo. Cada estratégia de preparação de unidade de alguns princípios-chave.
 
-##### <a name="client-readiness"></a>Client readiness
+##### <a name="client-readiness"></a>Preparação do cliente
 
-A strong client readiness strategy ensures that your users are running the most recent version of the client while enjoying the best experience possible.
-Microsoft routinely patches the Skype for Business client; ensuring that you keep it up to date in your environment is vital to your overall success.
+Uma estratégia de preparação de cliente forte garante que os usuários estão executando a versão mais recente do cliente ao mesmo tempo aproveitando a melhor experiência possível.
+Microsoft rotineiramente patches do Skype para clientes corporativos; garantir que você o mantenha atualizado em seu ambiente é vital para o sucesso geral.
 
-We recommend that you not let your client versions fall behind by more than six months. If you’re using Office Click-to-Run, you’re already being kept up to date by the service. Use the included [Client Report](#determine-client-versions), as described later in this guide, to assist you with this process. You can also leverage the Rate My Call sample reports to further enhance your client readiness strategy.
+Recomendamos que você não permita que as versões de cliente se encaixam por mais de seis meses. Se você estiver usando o Office Click-to-Run, você estiver já sendo mantidos atualizados pelo serviço. Use o [Relatório de cliente](#determine-client-versions)incluídos, conforme descrito mais adiante neste guia, para ajudá-lo com esse processo. Você também pode aproveitar os relatórios de exemplo de taxa Minhas chamadas para aumentar ainda mais a sua estratégia de preparação de cliente.
 
 > [!IMPORTANT]
-> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
+> Atualmente, os clientes de equipes são distribuídos e atualizados automaticamente por meio da rede de entrega conteúdo do Windows Azure e serão mantidos atualizados pelo serviço. Atividades de investigação e preparação de cliente não se aplicam às equipes.
 
 
-##### <a name="device-readiness"></a>Device readiness
+##### <a name="device-readiness"></a>Preparação de dispositivo
 
-No one single strategy can affect the user experience more than your device readiness strategy. Most organizations are happy to remove unnecessary devices from users (for example, desk phones or other dedicated audio devices), and this is often a core business justification for switching to Teams or Skype for Business. However, those same organizations sometimes hesitate to provide replacement devices, even if those devices are less expensive. Modern-day laptops and PCs, though equipped with built-in microphone and speaker, aren’t optimized for business-class voice over IP (VoIP). This often creates a poor experience for all participants, especially if the speaker is in a noisy environment. Microsoft’s device certification program ensures that when a user participates in a phone call by using any device certified for Teams or Skype for Business, it produces an experience that’s superior to a non-certified device.
+Sem uma estratégia de única pode afetar a experiência do usuário mais de sua estratégia de preparação de dispositivo. A maioria das organizações são feliz remover dispositivos desnecessários de usuários (por exemplo, telefones de mesa ou outros dispositivos de áudio dedicados), e isso é geralmente uma justificativa comercial de núcleo para alternar para equipes ou Skype para negócios. No entanto, dessas organizações mesmas às vezes hesite para fornecer dispositivos de substituição, mesmo se esses dispositivos são baratos. Moderna laptops e PCs, porém equipados com interna microfone e alto-falante, não são otimizadas para empresarial voz sobre IP (VoIP). Isso geralmente cria uma experiência ruim para todos os participantes, especialmente se o alto-falante está em um ambiente com ruído. Programa de certificação da Microsoft dispositivo garante que, quando um usuário participa de uma chamada telefônica usando qualquer dispositivo certificado para equipes ou Skype for Business, ele produzirá uma experiência que é superior a usar um dispositivo não certificados.
 
-We always recommend that Teams and Skype for Business users use a certified headset or speaker when participating in a voice call by using a desktop client.
-For more information about Microsoft certified devices, review this [article about phones and qualified devices](https://technet.microsoft.com/office/dn788944.aspx). Use the [Device Report](#devices-investigations), later in this guide, for assistance with managing your devices. You can also use the Rate My Call sample reports to further enhance your device readiness strategy.
+Sempre, recomendamos que equipes e Skype para usuários comerciais usam um fone de ouvido certified ou alto-falante ao participar de uma chamada de voz usando um cliente de desktop.
+Para obter mais informações sobre dispositivos de certificados da Microsoft, revise neste [artigo sobre como telefones e dispositivos qualificados](https://technet.microsoft.com/office/dn788944.aspx). Use o [Device Report](#devices-investigations), posteriormente neste guia, para obter ajuda com o gerenciamento de seus dispositivos. Também, você pode usar os relatórios de exemplo de taxa de Minhas chamadas para aumentar ainda mais a sua estratégia de preparação de dispositivo.
 
 ### <a name="user-experience"></a>Experiência do usuário
 
-Analyzing the user experience is more art than science, because the metrics gathered here don’t always mean that there’s a problem with the network or service but rather, they indicate that the user perceives a problem. Microsoft offers a built-in survey mechanism—known as Rate My Call (RMC)—to help gauge overall user experience. RMC will help you answer the following questions from your users’ perspective:
+Analisando a experiência do usuário é mais arte do que ciência, porque as métricas coletadas aqui sempre não significa que há um problema com a rede ou serviço, mas em vez disso, eles indicam que o usuário percebe um problema. A Microsoft oferece um mecanismo de pesquisa interno — conhecido como taxa meu chamada (RMC) — para ajudar a estimar a experiência geral do usuário. RMC ajudarão você a responder às seguintes perguntas da perspectiva dos usuários:
 
--   Do I know how to use the solution?
+-   Saber como usar a solução?
 
--   Is the solution easy to use and intuitive, and does it support my day-to-day communication needs?
+-   É a solução fáceis de usar e intuitiva e oferece suporte a minhas necessidades de comunicação diárias?
 
--   Does the solution help me get my job done?
+-   A solução Ajude-me trabalho?
 
--   What’s my overall perception of the solution?
+-   Qual é a minha percepção geral da solução?
 
--   Can I use the solution at any point in time, regardless of where I am?
+-   Posso usar a solução em qualquer ponto no tempo, independentemente de onde estou?
 
--   Can I set up and maintain a call?
+-   É possível configurar e manter uma chamada?
 
 #### <a name="rmc"></a>RMC
 
-RMC is built into Teams and Skype for Business and is automatically configured to be displayed after one in every 10 calls, or 10 percent of all calls. This brief survey asks the user to rate the call and provide a little context for why the call quality might have been poor. A one or two rating is considered poor, three to four is good, and five is excellent. Although it’s somewhat of a lagging indicator, this is a useful metric for uncovering issues that service metrics can miss.
+RMC compilado no equipes e Skype para negócios e é automaticamente configurado para ser exibida depois que um em cada 10 chamadas ou 10% de todas as chamadas. Este breve pesquisa pede ao usuário classificar a chamada e fornecer um contexto de pouca para por que a qualidade da chamada pode ter sido ruim. Uma classificação de um ou dois é considerada ruim, três ou quatro é bom e cinco é excelente. Embora seja um pouco de um indicador à demora, essa é uma métrica útil para descobrir problemas que métricas de serviço podem perder.
 
 > [!NOTE]
-> Until users are instructed to respond to RMC surveys by giving good feedback in addition to bad, responses typically come back as overwhelmingly negative. Most users only respond when call quality is poor. Because of this, your RMC reports might be skewed to the poor side even while service metrics are good. 
+> Até que os usuários são instruídos para responder às pesquisas RMC, oferecendo uma boa indicação além das respostas mal, normalmente volte como predominantemente negativo. A maioria dos usuários responder somente quando a qualidade da chamada é ruim. Dessa forma, seus relatórios RMC podem ser enviesados até o lado ruim mesmo enquanto métricas de serviço estão funcionando bem. 
 
 
-You can use CQD to report on RMC user responses, and sample reports are included in the CQD template. However, they aren’t discussed in detail in this guide. For more information about RMC in Skype for Business Online and guidance for educating users to give useful RMC responses, see this [blog post](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
+Você pode usar CQD para reportar sobre as respostas do usuário RMC e relatórios de exemplo estão incluídos no modelo CQD. No entanto, eles não são abordados em detalhes neste guia. Para obter mais informações sobre o RMC Skype para Business Online e orientações para instruir os usuários a fornecer respostas RMC úteis, consulte esta [postagem de blog](https://blogs.technet.microsoft.com/jenstr/2015/05/05/rate-my-call-in-skype-for-business-2015/).
 
-### <a name="categories-of-quality"></a>Categories of quality
+### <a name="categories-of-quality"></a>Categorias de qualidade
 
-The success of operationalizing a high-quality and reliable deployment depends on your building operational rigor. Specifically, pay special attention to the three categories illustrated in the following figure; these are the focus of this guide:
+O sucesso do operacionalização de uma implantação de alta qualidade e confiável depende da sua rigor operacionais de construção. Especificamente, prestar bastante atenção em três categorias ilustrado na figura a seguir; Estes são o foco deste guia:
 
--   **Network:** Audio quality focused on the PCR metric, TCP usage, wired and wireless subnets, and identifying the use of HTTP proxies and VPN.
+-   **Rede:** Qualidade de áudio com foco na métrica PCR, o uso TCP, sub-redes com e sem fio e identificando o uso de proxies HTTP e VPN.
 
--   **Endpoints:** Audio devices and client version (Skype for Business only).
+-   **Pontos de extremidade:** Dispositivos de áudio e a versão do cliente (Skype para negócios apenas).
 
--   **Service Management:** This category comprises two sections:
+-   **Gerenciamento de serviços:** Essa categoria consiste em duas seções:
 
-    -   First is Microsoft’s responsibility to manage and maintain the Teams and Skype for Business Online services.
+    -   A primeira é responsabilidade da Microsoft para gerenciar e manter as equipes e Skype para serviços corporativos Online.
 
-    -   Second are tasks your organization must manage to ensure reliable access to the service, such as updating building information and maintaining firewalls for new Office 365 IP addresses as infrastructure is added to the service.
+    -   Segundo são tarefas de que sua organização deve gerenciar para garantir acesso confiável ao serviço, atualizando informações de criação e manutenção de firewalls para novos endereços IP do Office 365 infrastructure for adicionada ao serviço.
 
-![The categories of qualilty in an organization: service management, endpoints, and the network.](media/quality-of-experience-review-guide-image3.png)
+![As categorias de qualilty em uma organização: serviço de gerenciamento, pontos de extremidade e a rede.](media/quality-of-experience-review-guide-image3.png)
 
-_Figure 3 - Critical categories for Teams and Skype for Business Online deployment_
+_Figura 3 - críticas categorias para equipes e Skype para implantação Business Online_
 
-The graphic below outlines the tasks you must execute for each category. We recommend that you run these tasks once a week, at a minimum.
+O gráfico a seguir descreve as tarefas que você deve executar para cada categoria. Recomendamos que você execute essas tarefas uma vez por semana, no mínimo.
 
-The first time you perform these tasks will take more effort than subsequent iterations, because many of these categories require that you validate your deployment configurations. After you’ve achieved the state you want by meeting the targets you’ve defined, performing these tasks will help you maintain that state.
+Na primeira vez que você executar essas tarefas levarão pouco mais do que as iterações subsequentes, pois muitas dessas categorias exigem que você valide suas configurações de implantação. Depois que você tiver obtido o estado desejado atendendo os destinos que você definiu, execução dessas tarefas ajudará você manter esse estado.
 
-#### <a name="service-management-tasks"></a>Service management tasks
+#### <a name="service-management-tasks"></a>Tarefas de gerenciamento de serviço
 
-In a cloud-first world, you must perform certain service management tasks to maintain high-quality user experiences. These tasks range from ensuring there is sufficient bandwidth to reach the service without saturating internet links, validating that quality of service (QoS) is in place on all managed network areas, and—lastly—staying on top of [Office 365 IP ranges on firewalls](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
+Em um mundo primeiro nuvem, você deve executar algumas tarefas de gerenciamento de serviço para manter as experiências do usuário de alta qualidade. Essas tarefas variam de garantir que não há largura de banda suficiente para alcançar o serviço sem links de internet, validando que qualidade de serviço (QoS) de saturação é no lugar em todas as áreas de rede gerenciada, e — finalmente — permanecendo na parte superior [intervalos de IP do Office 365 em firewalls](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
 
-#### <a name="network-tasks"></a>Network tasks
+#### <a name="network-tasks"></a>Tarefas de rede
 
-There are two categories of network tasks: reliability and quality. Reliability focuses on measuring the user’s ability to make calls successfully and stay connected. Quality focuses on the aggregated telemetry sent to Teams and Skype for Business Online by the user’s client during and after the call has ended.
+Há duas categorias de tarefas de rede: qualidade e confiabilidade. Confiabilidade enfoca medindo a capacidade do usuário para fazer chamadas com êxito e permanecem conectadas. Qualidade enfoca a telemetria agregada enviada para equipes e Skype para Business Online pelo cliente do usuário durante e depois que ela for encerrada.
 
-Given the critical impact that reliability has on the user experience, begin assessing and investigating those metrics before diving into quality.
+Dado o impacto crítico que confiabilidade tem sobre a experiência do usuário, começar avaliar e investigando dessas métricas antes de começar em qualidade.
 
-#### <a name="endpoints-tasks"></a>Endpoints tasks
+#### <a name="endpoints-tasks"></a>Tarefas de pontos de extremidade
 
-The main task in this category is validating which client versions are running Skype for Business on desktop builds from the last six months to ensure users are getting the benefit of the continual optimizations made to the Skype for Business desktop client. Additionally, this simplifies overall client management tasks and provides a consistent user experience.
+A principal tarefa nesta categoria está validando a quais versões do cliente estiver executando o Skype para negócios em compilações da área de trabalho do últimos seis meses para garantir que os usuários estão obtendo o benefício das otimizações contínuas feitas do Skype para o cliente de desktop de negócios. Além disso, isso simplifica as tarefas de gerenciamento de cliente geral e fornece uma experiência de usuário consistente.
 
-The other important area is monitoring which devices are prevalent in your deployment and driving the use of certified devices to provide the best user experience.
+A área de importante é quais dispositivos estão predominantes em sua implantação de monitoramento e orientando o uso de dispositivos de certificados para oferecer a melhor experiência de usuário.
 
 > [!IMPORTANT]
-> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
+> Atualmente, os clientes de equipes são distribuídos e atualizados automaticamente por meio da rede de entrega conteúdo do Windows Azure e serão mantidos atualizados pelo serviço. Atividades de investigação e preparação de cliente não se aplicam às equipes.
 
 
-## <a name="using-the-reports"></a>Using the reports
+## <a name="using-the-reports"></a>Usando os relatórios
 
-This section describes the fundamentals of working with CQD. Guidance is given for the following topics:
+Esta seção descreve os conceitos básicos sobre como trabalhar com CQD. Orientação é fornecida para os seguintes tópicos:
 
--   Finding your tenant ID
+-   Localizando sua ID de Inquilino
 
--   Reporting on Teams versus Skype for Business
+-   Relatórios em equipes versus Skype para negócios
 
--   First versus second classifications
+-   Primeiro versus segunda classificações
 
--   Dimensions, measures, and filters
+-   Medidas, dimensões e filtros
 
--   Streams versus calls
+-   Fluxos de versus chamadas
 
--   Good, poor, and unclassified calls
+-   Chamadas boas, ruins e não classificadas
 
--   Getting started with CQD
+-   Introdução ao CQD
 
--   Editing reports in CQD
+-   Edição de relatórios no CQD
 
--   Filtering reports in CQD
+-   Filtragem de relatórios no CQD
 
-For more in-depth training and resources, see the [Appendix](#other-resources).
+Para obter mais aprofundado treinamento e recursos, consulte o [Apêndice](#other-resources).
 
-### <a name="tenant-id"></a>Tenant ID
+### <a name="tenant-id"></a>ID do inquilino
 
-Some CQD reports require that you include a filter for your tenant ID. Due to the way CQD aggregates data, federated participant telemetry is included.
-Although this can prove valuable when analyzing poor call metrics, client and device reports require the filtering of data to a specific tenant to exclude federated participant telemetry. If you don’t know your tenant ID, you can use one of the following methods to find it.
+Alguns relatórios CQD exigem a inclusão de um filtro para sua ID de Inquilino. Devido a maneira como CQD agrega os dados de telemetria participantes federada é incluída.
+Embora isso sejam valioso ao analisar as métricas de chamadas ruins, os relatórios de clientes e dispositivos exigem a filtragem de dados para um locatário específico a serem excluídas telemetria participantes federada. Se você não souber seu ID do inquilino, você pode usar um dos métodos a seguir para localizá-lo.
 
-Permission requirements
+Requisitos de permissão
 
--   Global Administrator Role
+-   Função de administrador global
 
--   Skype for Business Administrator Role
+-   Skype para a função de administrador de negócios
 
-#### <a name="azure-ad-portal"></a>Azure AD Portal
+#### <a name="azure-ad-portal"></a>Portal do Azure AD
 
-1.  Sign in to the Microsoft Azure portal: <https://portal.azure.com>
+1.  Logon no portal do Microsoft Azure:<https://portal.azure.com>
 
-2.  Select **Azure Active Directory**.
+2.  Selecione o **Azure Active Directory**.
 
-3.  Under **Manage**, select **Properties**. The tenant ID is shown in the **Directory ID** box.
+3.  Em **Gerenciar**, selecione **Propriedades**. A ID do inquilino é mostrada na caixa **ID do diretório** .
 
 #### <a name="azure-powershell"></a>Azure PowerShell
 
-1.  [Install the Microsoft Azure PowerShell Service Management module](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
+1.  [Instale o módulo de gerenciamento de serviço do Microsoft Azure PowerShell](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2.  Open an Azure PowerShell command window and run the following script, entering your Office 365 credentials when prompted:  
-    **Login-AzureRmAccount**
+2.  Abra uma janela de comando do Azure PowerShell e execute o seguinte script, inserir suas credenciais do Office 365, quando solicitado:  
+    **AzureRmAccount de login**
 
-3.  The tenant ID is listed in the output.
+3.  A ID do inquilino está listada na saída.
 
-#### <a name="skype-for-business-online-admin-center"></a>Skype for Business Online Admin Center
+#### <a name="skype-for-business-online-admin-center"></a>Skype para negócios Online Admin Center
 
-1.  Go to <https://portal.office.com>
+1.  Ir para<https://portal.office.com>
 
-2.  Sign in with your tenant administrator organizational account.
+2.  Entrar com sua conta organizacional do administrador de locatário.
 
-3.  Select **Skype for Business** under **Admin Centers**.
+3.  Selecione **Skype para negócios** sob **Centros do administrador**.
 
-4.  The tenant ID is listed as **Organization ID** on the Welcome page.
+4.  A ID do inquilino está listada como **ID da organização** , na página de boas-vindas.
 
-#### <a name="skype-for-business-online-using-powershell"></a>Skype for Business Online using PowerShell
+#### <a name="skype-for-business-online-using-powershell"></a>Skype para negócios Online usando o PowerShell
 
-1.  [Connect to Skype for Business Online via PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
+1.  [Conectar-se ao Skype para negócios Online por meio do PowerShell](https://technet.microsoft.com/library/dn362839(v=ocs.15).aspx).
 
 2.  Execute o seguinte comando:  
-    **(Get-cstenant).tenantid**
+    **.Tenantid (get-cstenant)**
 
-3.  The tenant ID is displayed as a GUID.
+3.  A ID do inquilino é exibida como um GUID.
 
-### <a name="teams-vs-skype-for-business"></a>Teams vs. Skype for Business
+### <a name="teams-vs-skype-for-business"></a>As equipes versus Skype para negócios
 
-CQD can report on both Teams and Skype for Business telemetry. However, there might be times when you want to develop a report to look at Teams telemetry separate from Skype for Business.
+CQD pode relatar equipes e Skype para telemetria de negócios. No entanto, pode haver ocasiões em que você deseja desenvolver um relatório a ser analisado telemetria de equipes separada do Skype para negócios.
 
-#### <a name="summary-reports"></a>Summary reports
+#### <a name="summary-reports"></a>Relatórios de resumo
 
-To modify the summary reports page to look at only Teams or Skype for Business, select the **Product Filter** drop-down menu from the top of the screen, and then select the product you want.
+Para modificar a página relatórios de resumo a ser analisado apenas equipes ou Skype para negócios, selecione o menu suspenso de **Filtro de produto** da parte superior da tela e selecione o produto desejado.
 
-![Screenshot of the Call Quality Dashboard reflecting a drop down menu showing the option to filter by workload.](media/quality-of-experience-review-guide-image4.png)
+![Captura de tela do painel de qualidade de chamada refletindo um menu drop-down mostrando a opção de filtragem por carga de trabalho.](media/quality-of-experience-review-guide-image4.png)
 
-_Figure 4 - Select a Product Filter_
+_Figura 4 - Selecione um filtro de produto_
 
-#### <a name="detailed-reports"></a>Detailed reports
+#### <a name="detailed-reports"></a>Relatórios detalhados
 
-To filter a detailed report, add the filter **Is Teams** to the report and set it to True or False. For more information, see [Editing reports](#editing-reports) later in this section.
+Para filtrar um relatório detalhado, adicione o filtro **É equipes** ao relatório e defini-la como True ou False. Para obter mais informações, consulte [relatórios de edição](#editing-reports) , mais adiante nesta seção.
 
-![Screenshot of the Call Quality Dashboard depicting the filer that can be added to a detailed report.](media/quality-of-experience-review-guide-image5.png)
+![Captura de tela do painel de qualidade de chamada que descrevam o servidor de dados que pode ser adicionado a um relatório detalhado.](media/quality-of-experience-review-guide-image5.png)
 
-_Figure 5 - Adding a Microsoft Teams filter to a report_
+_Figura 5 - adicionando um filtro de Teams da Microsoft a um relatório_
 
-### <a name="dimensions-measures-and-filters"></a>Dimensions, measures, and filters
+### <a name="dimensions-measures-and-filters"></a>Medidas, dimensões e filtros
 
-A well-formed CQD query contains all three of the following parameters:
+Uma consulta CQD bem formada contém todas as três dos parâmetros a seguir:
 
--   **Dimension:** How I want to pivot on the data.
+-   **Dimensão:** Como eu desejo os dados de tabela dinâmica.
 
--   **Measure:** What I want to report on.
+-   **Medida:** O que eu quero a ser relatado no.
 
--   **Filter:** How do I want to reduce the data set the query returns.
+-   **Filtro:** Como deseja reduzir a consulta retornar o conjunto de dados.
 
-Another way to look at this is a dimension is the grouping function, a measure is the data I’m interested in, and a filter is how I want to narrow down the results to those that are relevant to my query.
+Outra maneira de analisar isso é uma dimensão é a função de agrupamento, uma medida é os dados que estou interessado em e um filtro é como eu quiser restringir os resultados para aqueles que são relevantes à minha consulta.
 
-An example of a well-formed query is "Show me Poor Streams [Measure] by Subnet [Dimension] for Building 6 [Filter]."
+Um exemplo de uma consulta bem formado é "Mostrar-me fluxos ruins [medida] pela sub-rede [Dimension] para construção 6 [filtro]."
 
-For more information, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm).
+Para obter mais informações, consulte [dimensões e medidas disponíveis no CQD](https://aka.ms/cqd-dm).
 
-For dimensions, measures, and filters for the reports used in the CQD templates, see the [Appendix](#CQD-training).
+Para filtros para os relatórios usados nos modelos de CQD, medidas e dimensões, consulte o [Apêndice](#CQD-training).
 
-### <a name="first-vs-second"></a>First vs. second 
+### <a name="first-vs-second"></a>Primeiro versus segundo 
 
-Many of the dimensions and measures in CQD are classified as first or second.
-CQD doesn’t use caller/callee fields—these have been renamed _first_ and _second_ because there are intervening steps between the caller and callee. A seguinte lógica determina qual ponto de extremidade envolvido no fluxo ou na chamada é rotulado como o primeiro:
+Muitas das dimensões e medidas em CQD são classificadas como primeira ou segunda.
+CQD não usa os campos de chamador/receptor — eles tiverem sido renomeado _primeiro_ e _segundo_ porque há etapas intermediárias entre o chamador e o receptor. A seguinte lógica determina qual ponto de extremidade envolvido no fluxo ou na chamada é rotulado como o primeiro:
 
--   First will always be a server endpoint (Conference Server, Mediation Server, and so on) if a server is involved in the stream or call.
+-   Primeiro sempre será um ponto de extremidade do servidor (servidor de conferência, o servidor de mediação e assim por diante) se um servidor que está envolvido na chamada ou stream.
 
--   Second will always be a client endpoint unless the stream is between two server endpoints.
+-   Em segundo lugar sempre será um ponto de extremidade do cliente, a menos que o stream está entre dois pontos de extremidade do servidor.
 
--   If both endpoints are the same type, the choice of which is first is based on internal ordering of the user agent category. Isso assegura que a ordenação seja consistente.
+-   Se ambos os pontos de extremidade são do mesmo tipo, a escolha do qual é a primeira é baseada em ordem interna da categoria de agente de usuário. Isso assegura que a ordenação seja consistente.
 
-For more information about determining the first or second endpoint when they’re both the same, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm).
+Para obter mais informações sobre como determinar o ponto de extremidade de primeiro ou segundo quando eles estão ambos os mesmos, consulte [dimensões e medidas disponíveis no CQD](https://aka.ms/cqd-dm).
 
-### <a name="stream-vs-call"></a>Stream vs. call
+### <a name="stream-vs-call"></a>Stream versus chamada
 
-You need to understand the difference between a call and a stream to properly choose which dimensions or measures you’ll be looking at in CQD.
+Você precisa entender a diferença entre uma chamada e um stream adequadamente escolher quais dimensões ou medidas você vai ser observando em CQD.
 
-**Stream:** A stream exists between only two endpoints. There is only one stream for each direction, and two streams are required for communication. Streams are useful for analyzing buildings or networks. In some cases, both call and stream are used in the name (for example, Call Setup Stream or Call Dropped Stream).
-These are still classified as single streams.
+**Stream:** Um fluxo existirá apenas dois pontos de extremidade. Há apenas um fluxo para cada direção e dois fluxos são exigidos para a comunicação. Fluxos são úteis para analisar os prédios ou redes. Em alguns casos, a chamada e stream são usados no nome de usuário (por exemplo, fluxo de instalação chamada ou chamada ignorados Stream).
+Eles ainda são classificados como único fluxos.
 
-**Call:** A call is a grouping of all streams from all participants. A call consists of—at minimum—two streams. A single call will have two participants each with a minimum of one stream. Calls are useful for analyzing trends over time.
+**Chamar:** Uma chamada é um agrupamento de todos os fluxos de todos os participantes. Consiste em uma chamada — no mínimo — dois fluxos. Uma única chamada terá dois participantes cada com um mínimo de um stream. As chamadas são úteis para análise de tendências ao longo do tempo.
 
-For additional guidance on whether the dimension or measure is referring to a call or a stream, see [Dimensions and measures available in CQD](https://aka.ms/cqd-dm)
+Para obter orientação adicional sobre a dimensão ou medida fizer referência a uma chamada ou um stream, consulte [dimensões e medidas disponíveis no CQD](https://aka.ms/cqd-dm)
 
-### <a name="good-poor-and-unclassified-calls"></a>Good, poor, and unclassified calls
+### <a name="good-poor-and-unclassified-calls"></a>Chamadas boas, ruins e não classificadas
 
-A call is categorized either as good, poor, or unclassified. Let’s take a moment to talk about each one in more detail.
+Uma chamada é categorizada por como BOM, baixa ou não classificados. Vamos falar sobre cada uma em mais detalhes um pouco.
 
-**Good or poor:** A good or poor call consists of a call that contains a complete set of service metrics, for which a full QoE report was generated.
-Determining whether a call is good or poor is described [earlier in this guide](#pcr).
+**BOM ou ruim:** Uma chamada boa ou ruim consiste em uma chamada que contém um conjunto completo de métricas de serviço, para o qual um relatório de QoE completo foi gerado.
+Determinar se uma chamada é bom ou ruim está descrito [neste guia](#pcr).
 
-**Unclassified:** An unclassified call doesn’t contain a full set of service metrics. These are often short calls—usually less than 60 seconds—where averages couldn’t be computed and a QoE report wasn’t generated.
+**Não classificados:** Uma chamada não classificada não contém um conjunto completo de métricas de serviço. Essas são frequentemente chamadas curtas — geralmente menor que 60 segundos — onde não puderam ser computadas médias e um relatório de QoE não foi gerado.
 
-### <a name="access-cqd-online"></a>Access CQD Online
+### <a name="access-cqd-online"></a>Acesso CQD Online
 
-You can access CQD one of two ways.
+Você pode acessar CQD de duas maneiras.
 
--   Go to <https://cqd.lync.com>.
+-   Vá para <https://cqd.lync.com>.
 
--   Go to **Skype for Business admin center** \> **tools**, and select the link to CQD, as shown below.
+-   Vá para **Skype para centro de administração de negócios** \> **Ferramentas**e selecione o link para CQD, conforme mostrado abaixo.
 
-![Screenshot showing "tools" selected in the left nav pane, and the link to "Skype for Business Online Call Quality Dashboard" selected.](media/quality-of-experience-review-guide-image6.png)
+![Captura de tela mostrando "ferramentas" selecionadas no painel de navegação esquerdo e o link para "Skype para Business Online chamada qualidade Dashboard" selecionada.](media/quality-of-experience-review-guide-image6.png)
 
-_Figure 6 – Accessing CQD through the Skype for Business admin center_
+_Figura 6 – acessando CQD por meio do Skype para centro de administração de negócios_
 
 ### <a name="getting-started"></a>Introdução
 
-When you first browse to CQD, you’ll see the Summary Reports page. Most of the reports described in this guide are custom detailed reports. To get started using the detailed reports, select **Summary Reports** at the top of the page, and then choose **Detailed Reports**.
+Quando você procurar primeiro CQD, você verá a página relatórios de resumo. A maioria dos relatórios descritos neste guia são relatórios detalhados personalizados. Para começar a usar os relatórios detalhados, selecione **Relatórios de resumo** na parte superior da página e escolha **Relatórios detalhados**.
 
-![Screenshot of the Call Quality Dashboard depcting the different types of reports that are available.](media/quality-of-experience-review-guide-image7.png)
+![Captura de tela de depcting o painel de controle de qualidade de chamada os diferentes tipos de relatórios que estão disponíveis.](media/quality-of-experience-review-guide-image7.png)
 
-_Figure 7 - Navigating to Detailed Reports_
+_Figura 7 - navegando para relatórios detalhados_
 
-The Detailed Reports page in CQD looks like the figure shown below.
+A página de relatórios detalhados no CQD se parece com a figura mostrada abaixo.
 
-![Screenshot of the detailed report page in CQD and the different elements that make up a report.](media/quality-of-experience-review-guide-image8.png)
+![Captura de tela da página relatório detalhado no CQD e os diferentes elementos que compõem um relatório.](media/quality-of-experience-review-guide-image8.png)
 
-_Figure 8 - Detailed Reports page_
+_Figura 8 - página de relatórios detalhados_
 
-1.  The summary pane shows context for the report set that appears to the right.
+1.  O painel Resumo mostra contexto para o conjunto de relatório que aparece à direita.
 
-2.  You can select **Edit** in the summary pane to set report–level properties (including y-axis height).
+2.  Você pode selecionar **Editar** no painel Resumo para definir propriedades de nível de relatório – (incluindo a altura do eixo y).
 
-3.  The breadcrumb helps users identify their current location in the report set hierarchy.
+3.  Navegação estrutural ajuda os usuários a identificar sua localização atual na hierarquia do conjunto de relatório.
 
-4.  Reports that have child reports are shown with a blue link. By selecting the link, you can drill down to the child reports.
+4.  Relatórios que têm filhos relatórios são mostrados com um link azul. Selecionando o link, você pode analisar os relatórios de filho.
 
-Point to the bar charts and trend lines to display detailed values. The report that has focus will show the action menu: **Edit**, **Clone**, **Delete**, **Download**, and **Export Report Tree**.
+Aponte para os gráficos de barras e as linhas de tendência para exibir valores detalhados. O relatório que tem o foco mostrará no menu Ação: **Editar**, **Clone**, **Excluir**, **Baixar**e **Exportar árvore de relatório**.
 
-### <a name="editing-reports"></a>Editing reports
+### <a name="editing-reports"></a>Edição de relatórios
 
-When you select **Edit** on the action menu of a report, you’ll open Query Editor. Each report is backed by a query. Um relatório é uma visualização dos dados retornados por sua consulta. The Query Editor is a UI for editing these queries in addition to the display options for the report, as illustrated in the following figure.
+Quando você seleciona **Editar** no menu Ação, de um relatório, você vai abrir o Editor de consulta. Cada relatório é feito por uma consulta. Um relatório é uma visualização dos dados retornados por sua consulta. O Editor de consulta é uma interface do usuário para edição essas consultas além das opções de exibição para o relatório, como ilustrado na figura a seguir.
 
-![Screenshot of the detailed report page in CQD and the different elements that make up a report when the report is being edited.](media/quality-of-experience-review-guide-image9.png)
+![Captura de tela da página relatório detalhado no CQD e os diferentes elementos que compõem um relatório quando o relatório está sendo editado.](media/quality-of-experience-review-guide-image9.png)
 
-_Figure 9 - Report Editor_
+_Figura 9 - Editor de relatório_
 
-1.  You choose dimensions, measures, and filters from the left pane. Pointing to an existing value displays a close button (**X**) you can select to remove the value.
+1.  Você escolher medidas, dimensões e filtros de painel à esquerda. Apontando para um valor existente exibe um botão Fechar (**X**) que você pode optar por remover o valor.
 
-    1.  By selecting the dimension or measure, you can change the title by editing the **Title** field. You can also change the order by selecting the blue Up or Down arrows in the top pane.
+    1.  Selecionando a dimensão ou medida, você pode alterar o título editando o campo **cargo** . Você também pode alterar a ordem selecionando o azul aumentar ou diminuir setas no painel superior.
 
-    2.  Selecting (**+**) next to a heading opens the dialog box for adding a new dimension, measure, or filter.
+    2.  Selecionando (**+**) ao lado de um título abre a caixa de diálogo para adicionar uma nova dimensão, uma medida ou um filtro.
 
-    3.  Enter the first few letters of the dimension, measure, or filter in the **Find a** field to filter the list for easier searching.
+    3.  Digite as primeiras letras da dimensão, medida ou filtro no **encontrar um** campo para filtrar a lista para facilitar a pesquisa.
 
-2.  The top pane shows options for chart customization.
+2.  O painel superior mostra as opções de personalização do gráfico.
 
-3.  The Query Editor shows a preview of the report.
+3.  O Editor de consulta mostra uma visualização do relatório.
 
-4.  Use the **Edit** box at the bottom of the screen to create or edit a detailed description of the report.
+4.  Use a caixa **Editar** na parte inferior da tela para criar ou editar uma descrição detalhada do relatório.
 
-### <a name="filtering-reports"></a>Filtering reports
+### <a name="filtering-reports"></a>Filtragem de relatórios
 
-The templates provided includes several built-in queries and report filters. The following sections describe the most common filters used throughout the templates.
+Os modelos fornecidos inclui várias consultas integradas e filtros do relatório. As seções a seguir descrevem os filtros mais comuns usados em todo os modelos.
 
-#### <a name="cqd-filter"></a>CQD filter
+#### <a name="cqd-filter"></a>Filtro CQD
 
-You can use the CQD filter, or URL filter, to temporarily filter every report query. The most common CQD filter you’ll use is to filter reports to exclude federated participant telemetry. We recommend that you bookmark this filter so it becomes the default view. Excluding federated data from CQD reports is useful when you’re remediating managed buildings or networks where federated data might influence your report.
+Você pode usar o filtro CQD ou o filtro de URL, filtrar temporariamente cada consulta de relatório. O filtro de CQD mais comuns que você utilizará é filtrar relatórios a serem excluídas telemetria participantes federada. Recomendamos que você crie um indicador esse filtro para que ele se torna o modo de exibição padrão. Excluindo dados federados de relatórios CQD é útil quando você estiver correção prédios gerenciados ou redes onde os dados federados podem influenciar seu relatório.
 
-To implement a CQD filter, in the browser address bar, append the following to the end of the URL:
+Para implementar um filtro CQD, na barra de endereço do navegador, acrescente o seguinte ao final da URL:
 
-/filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
+/Filter/ [AllStreams]. [Id do inquilino segundo] \|[Sua ID do INQUILINO aqui]
 
-**Example:**  
-https://cqd.lync.com/cqd/\#/1234567/2018-02/filter/[AllStreams].[Second Tenant Id]\|[TENANTID]&tenant=TENANTID
+**Exemplo:**  
+https://cqd.lync.com/cqd/\#/ 1234567/2018-02/filtro / [AllStreams]. [Id do inquilino segundo] \|[TENANTID] & locatário = TENANTID
 
 > [!NOTE]
-> The URL example above is for visual representation only. Please use the default CQD link of <https://cqd.lync.com>.
+> O exemplo de URL acima destina-se somente a representação visual. Use o link CQD padrão de <https://cqd.lync.com>.
 
-#### <a name="query-filters"></a>Query filters
+#### <a name="query-filters"></a>Filtros de consulta
 
-Query filters are implemented by using the Report Editor. These filters are used to reduce the number of records returned by CQD, thus minimizing the report’s overall size. This is especially useful for filtering out unmanaged networks.
-The filters below use regular expressions (RegEx).
+Filtros de consulta são implementados usando o Editor de relatório. Esses filtros são usados para reduzir o número de registros retornados por CQD, minimizando o tamanho de geral do relatório. Isso é especialmente útil para filtragem de redes não gerenciados.
+Os filtros abaixo usam expressões regulares (RegEx).
 
-_Table 3 - Query filters_
+_Tabela 3 - filtros de consulta_
 
-| Filtro               | Descrição          | CQD query filter example                                  |
+| Filtro               | Descrição          | Exemplo de filtro de consulta CQD                                  |
 |----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| Valores em branco         | Some filters don’t have the option to filter for blank values. To filter blank values manually, use the blank expression and set the filter to Equals or Not Equals, depending on your needs.                                                                                                                             | Second Building Name \<\> \^\\s\*\$                       |
-| Popular home subnets | Without a valid building file to separate managed from unmanaged networks, home networks will get included in the reports. These home subnets are outside the scope of IT’s control and can be quickly excluded from a report. Popular home subnets, as defined in this guide, are 10.0.0.0, 192.168.1.0 and 192.168.0.0. | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
-| Inside vs. outside   | Used to filter a report for managed (inside) or unmanaged (outside). The managed CQD template is already preconfigured with these filters.                                                                                                                                                                                | Second Inside Corp = Inside                               |
+| Valores em branco         | Alguns filtros não tem a opção para filtrar valores em branco. Para filtrar valores em branco manualmente, use a expressão em branco e definir o filtro é igual a ou não for igual a, dependendo das suas necessidades.                                                                                                                             | Construção do segundo nome \< \> \^ \\s\*\$                       |
+| Populares sub-redes residencial | Sem um arquivo de construção válido para separar gerenciada de redes não gerenciados, redes domésticas terão obter incluídos nos relatórios. Essas sub-redes residencial estão fora do escopo do controle de TI e podem ser rapidamente excluídos de um relatório. Populares sub-redes residencial, conforme definido neste guia, são 10.0.0.0, 192.168.1.0 e 192.168.0.0. | Segunda sub-rede \< \> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
+| Inside versus fora   | Usado para filtrar um relatório para (interna) gerenciado ou (externo). O modelo CQD gerenciado já está pré-configurado com esses filtros.                                                                                                                                                                                | Segundo dentro Corp = dentro                               |
 
-#### <a name="report-filters"></a>Report filters
+#### <a name="report-filters"></a>Filtros do relatório
 
-Report filters are implemented by adding a filter to the rendered report either in the Report Editor or directly to the report. The following reports filters are used throughout the template.
+Filtros do relatório são implementados adicionando um filtro ao relatório renderizado tanto no relatório Editor ou diretamente ao relatório. Os filtros de relatórios a seguir são usados em todo o modelo.
 
-_Table 4 - Report Filter_
+_Tabela 4 - filtro de relatório_
 
-| Filtro     | Descrição                            | CQD report filter example         |
+| Filtro     | Descrição                            | Exemplo de filtro de relatório CQD         |
 |------------|----------------------------------------|-----------------------------------|
-| Month      | Start with the year first, then month. | 2017-10                           |
-| Alphabetic | Filters for any alphabetic characters. | [a-z]                             |
-| Numeric    | Filters for any numeric characters.    | [0-9]                             |
-| Porcentagem | Filters for a percentage.              | ([3-9]\\.)\|([3-9])\|([1-9][0-9]) |
+| Month      | Comece com o ano primeiro e, em seguida, mês. | 10 de 2017                           |
+| Alfabético | Filtra quaisquer caracteres alfabéticos. | [a-z]                             |
+| Numérico    | Filtra todos os caracteres numéricos.    | [0-9]                             |
+| Porcentagem | Filtra uma porcentagem.              | ([3-9]\\.) \|([3-9])\|([1-9][0-9]) |
 
-## <a name="import-the-cqd-templates"></a>Import the CQD templates
+## <a name="import-the-cqd-templates"></a>Importar os modelos CQD
 
-This guide includes [two curated CQD templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true). These templates accelerate your usage of CQD and provide you an opportunity to quickly leverage CQD’s capabilities to make an impact on your users’ Teams or Skype for Business experience. The All Networks template, though optimized to work with a building data file, can be used while you work toward collecting and uploading building information into CQD, as described in the next section.
+Este guia inclui [dois modelos CQD curated](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-1-2.zip?raw=true). Esses modelos aceleram seu uso de CQD e fornecem a você uma oportunidade para aproveitar rapidamente os recursos do CQD para tornar um impacto sobre equipes ou do Skype dos usuários para a experiência de negócios. O modelo de todas as redes, porém otimizado para funcionar com um edifício pode ser usado o arquivo de dados, enquanto você trabalha em direção a coleta e carregamento de informações de construção em CQD, conforme descrito na próxima seção.
 
-**To import the templates (.CQDX) into CQD Online**
+**Para importar os modelos (. CQDX) em CQD Online**
 
-1.  Go to <https://cqd.lync.com>.
+1.  Vá para <https://cqd.lync.com>.
 
-2.  Authenticate by using your Office 365 Administrative credentials.
-
-> [!NOTE]
-> You must have the Office 365 Global Administrator, Skype for Business Administrator, or Report Readers role to access CQD. 
-
-
-3.  Select the **Summary Reports** menu at the top of the page, and then choose **Detailed Reports**.
-
-4.  On the summary pane, select **Import**. Go to the CQDX saved location, select the CQDX template, and then select **Open**.
-
-5.  After the template is uploaded, a pop-up window will display the message “Report import was successful.” Select **OK.**
-
-![Screenshot of a pop-up window that notifies the user that the template was successfully imported.](media/quality-of-experience-review-guide-imagestep5.png)
-
-1.  Repeat steps 4 and 5 for the second CQD template.
+2.  Autentica usando suas credenciais administrativas do Office 365.
 
 > [!NOTE]
-> The CQD templates are imported per user. If additional users need to use the report, they must sign in and import the templates into their CQD instance. 
+> Você deve ter o Office 365 Global administrador Skype para administrador de negócios ou função de leitores de relatório acessar CQD. 
 
 
-## <a name="building-mapping"></a>Building mapping
+3.  Selecione o menu de **Relatórios de resumo** na parte superior da página e escolha **Relatórios detalhados**.
 
-In a Teams or Skype for Business Online deployment, all clients are external.
-That has the implication that by default, all clients are reported as outside in CQD Online, regardless of whether the client was connected on an internal corporate network.
+4.  No painel Resumo, selecione **Importar**. Vá para o CQDX salvo local, selecione o modelo CQDX e selecione **Abrir**.
 
-When you work with call quality, you need to know the location of a client and whether it was connected to a network you can manage or a network you can’t manage—the assumption being that you can only improve networks you can manage.
-By uploading network and building information to CQD Online, you enable CQD to determine whether a client was connected to an internal corporate/managed network or to an external/unmanaged network.
+5.  Depois que o modelo for carregado, uma janela pop-up será exibida a mensagem "a importação de relatório teve êxito." Selecione **Okey.**
 
-### <a name="building-data-file-structure"></a>Building data file structure
+![Captura de tela de uma janela pop-up que notifica o usuário se o modelo foi importado com êxito.](media/quality-of-experience-review-guide-imagestep5.png)
 
-The format of the data file you upload must meet the following requirements to pass the validation check before uploading.
+6.  Repita as etapas 4 e 5 para o segundo modelo CQD.
 
--   The file must be either a TSV file, which means that for each row, each column is separated by a Tab character, or a CSV file in which each column is separated by a comma.
+> [!NOTE]
+> Os modelos CQD são importados por usuário. Se outros usuários precisarem usar o relatório, eles devem entrar e importar os modelos em sua instância CQD. 
 
--   The file can’t be larger than 50 MB.
 
--   The content of the data file *must not include table headers*. In other words, the first line of the data file must be real data, not column headings such as “Network.”
+## <a name="building-mapping"></a>Mapeamento de construção
 
--   For each column, the data type can only be String, Number, or Bool. If the data type is Number, the value must be a numeric value; if it’s Bool, the value must be either 0 or 1.
+Em um equipes ou Skype para implantação Business Online, todos os clientes são externos.
+Que tem a implicação que, por padrão, todos os clientes são indicados como fora em CQD Online, independentemente de se o cliente foi conectado em uma rede corporativa interna.
 
--   For each column, if the data type is String, the data can be empty (but still must be separated by an appropriate delimiter, that is a Tab character or comma). This just assigns that field an empty string value.
+Quando você trabalha com a qualidade de chamada, você precisa saber o local de um cliente e se ele foi conectado a uma rede que você pode gerenciar ou de uma rede não é possível gerenciar — a pressuposição sendo que você só pode melhorar redes você pode gerenciar.
+Carregando informações de construção e rede para CQD Online, você deve habilitar CQD determinar se um cliente foi conectado a uma rede interna de corporativo/gerenciados ou a uma rede externa/não gerenciados.
 
--   There must be 14 columns for each row. Each column must have the data type described in the following table, and the columns must be in the order listed in the table.
+### <a name="building-data-file-structure"></a>Estrutura do arquivo de dados de construção
 
-_Table 5 - Building file structure_
+O formato do arquivo de dados que você carrega deve atender aos seguintes requisitos para passar a verificação de validação antes de carregar.
 
-| Column name        | Data type | Exemplo                   | Guidance    |
+-   O arquivo deve ser um arquivo TSV, o que significa que, para cada linha, cada coluna é separada por um caractere de tabulação, ou um arquivo CSV no qual cada coluna é separada por uma vírgula.
+
+-   O arquivo não pode ser maior do que 50 MB.
+
+-   O conteúdo dos dados de arquivo *não deve incluir cabeçalhos de tabela*. Em outras palavras, a primeira linha do arquivo de dados deve ser dados reais, e não os títulos de coluna, como "Rede".
+
+-   Para cada coluna, o tipo de dados só pode ser cadeia de caracteres, número ou Bool. Se o tipo de dados for um número, o valor deve ser um valor numérico; Se for Bool, o valor deve ser 0 ou 1.
+
+-   Para cada coluna, se o tipo de dados é a cadeia de caracteres, os dados podem estar vazios (mas ainda devem ser separados por um delimitador apropriado, que é um caractere de tabulação ou por vírgula). Isso simplesmente atribui esse campo um valor de cadeia de caracteres vazia.
+
+-   Deve haver 14 colunas para cada linha. Cada coluna deve ter o tipo de dados descrito na tabela a seguir, e as colunas devem estar na ordem listada na tabela.
+
+_Tabela 5 - Criando a estrutura do arquivo_
+
+| Nome da coluna        | Tipo de dados | Exemplo                   | Orientação    |
 |--------------------|-----------|---------------------------|-------------|
 | Rede            | Cadeia de caracteres    | 192.168.1.0               | Obrigatório    |
-| NetworkName        | Cadeia de caracteres    | USA/Seattle/SEATTLE-SEA-1 | Required\*  |
+| NetworkName        | Cadeia de caracteres    | EUA/Seattle/SEATTLE-mar-1 | Necessário\*  |
 | NetworkRange       | Número    | 26                        | Obrigatório    |
-| BuildingName       | Cadeia de caracteres    | SEATTLE-SEA-1             | Required\*  |
+| BuildingName       | Cadeia de caracteres    | SEATTLE-MAR-1             | Necessário\*  |
 | OwnershipType      | Cadeia de caracteres    | Contoso                   | Opcional    |
-| BuildingType       | Cadeia de caracteres    | IT Termination            | Opcional    |
-| BuildingOfficeType | Cadeia de caracteres    | Engineering               | Opcional    |
+| BuildingType       | Cadeia de caracteres    | Terminação de IT            | Opcional    |
+| BuildingOfficeType | Cadeia de caracteres    | Engenharia               | Opcional    |
 | Cidade               | Cadeia de caracteres    | Seattle                   | Recomendado |
-| ZipCode            | Cadeia de caracteres    | 98001                     | Recomendado |
-| Country            | Cadeia de caracteres    | US                        | Recomendado |
+| CEP            | Cadeia de caracteres    | 98001                     | Recomendado |
+| País            | Cadeia de caracteres    | CONOSCO                        | Recomendado |
 | Estado              | Cadeia de caracteres    | WA                        | Recomendado |
 | Região             | Cadeia de caracteres    | MSUS                      | Recomendado |
 | InsideCorp         | Bool      | 1                         | Obrigatório    |
 | ExpressRoute       | Bool      | 0                         | Obrigatório    |
 
-\*While not required by CQD, the templates are configured to display Building and Network name.
+\*Embora não seja necessário por CQD, os modelos estão configurados para exibir a criação e a rede nome.
 
-#### <a name="supernetting"></a>Supernetting
+#### <a name="supernetting"></a>Combinação de redes
 
-You can use supernetting, commonly called Classless Inter-Domain Routing (CIDR,) in place of defining each subnet. A *supernet* is a combination of several subnets that share a single routing prefix. Instead of adding an entry for each subnet, you can use the supernetted/CIDR address. Supernetting is supported, but we don’t recommend using it.
+Você pode usar a combinação de redes, geralmente chamado de roteamento entre domínios sem classificação (CIDR), no lugar de definição de cada sub-rede. Uma *super-rede* é uma combinação de várias sub-redes que compartilham um único prefixo de roteamento. Em vez de adicionar uma entrada para cada sub-rede, você pode usar o endereço de supernetted/CIDR. Combinação de redes é suportada, mas não recomendamos utilizá-lo.
 
-For example, Contoso’s marketing building is made up of the subnets below:
+Por exemplo, a construção de marketing da Contoso é composta das sub-redes abaixo:
 
--   10.1.0.0/24 – first floor
+-   10.1.0.0/24 – primeiro andar
 
--   10.1.1.0/24 – second floor
+-   10.1.1.0/24 – 2º andar
 
--   10.1.2.0/24 – third floor
+-   10.1.2.0/24 – 3º andar
 
--   10.1.3.0/24 – fourth floor
+-   10.1.3.0/24 – quarto andar
 
-Instead of adding an entry for each subnet, you can use the supernetted/CIDR address—in this example, 10.1.0.0/22.
+Em vez de adicionar uma entrada para cada sub-rede, você pode usar o endereço de supernetted/CIDR — neste exemplo, 10.1.0.0/22.
 
--   Network = 10.1.0.0
+-   Rede = 10.1.0.0
 
--   Network Range = 22
+-   Intervalo de rede = 22
 
-Here are a few things to consider before you implement supernetting:
+Aqui estão algumas coisas a considerar antes de implementar a combinação de redes:
 
--   Supernetting takes less time up front, but it comes at the cost of reducing the richness of your data. Let’s say there’s a quality problem involving subnet 200.1.2.0. If you implemented supernetting, you won’t know where in the building the subnet is located or what type of network it is (for example, a lab). If you’d defined all the subnets for a building and uploaded floor location information, you’d be able to see that distinction.
+-   Combinação de redes demora menos tempo desde o início, mas que se refere ao custo reduzir o aperfeiçoamento em termos de seus dados. Digamos que não há uma sub-rede de envolvendo do problema de qualidade 200.1.2.0. Se você implementou a combinação de redes, você não saberá onde a sub-rede está localizada no edifício ou tipo de rede que está (por exemplo, um laboratório). Se você tivesse definido todas as sub-redes de um edifício e carregado informações de local andar, você poderá ver essa distinção.
 
--   It’s important to ensure that the supernetted/CIDR address is correct and isn’t catching unwanted subnets.
+-   É importante garantir que o endereço de supernetted/CIDR está correto e se não está capturando sub-redes indesejadas.
 
--   Supernetting can be used in a building mapping with 8-bit to 28-bit mask.
+-   Combinação de redes pode ser usada em um mapeamento de construção com máscara de 8 bits para 28 bits.
 
--   It’s quite common to find 192.168.0.0 in data. For many organizations, this indicates that the user is at home. For others, this is the IP address scheme for a satellite office. If your organization does have offices that use this configuration, don’t include it in your building file as it’s difficult to distinguish between home and internal networks by using common subnets.
+-   Ele é bastante comum para encontrar 192.168.0.0 nos dados. Para muitas organizações, isso indica que o usuário está em casa. Para outras pessoas, esse é o esquema de endereço IP de um escritório de satélite. Se sua organização tem escritórios que usam essa configuração, não incluí-lo em seu arquivo de construção conforme é difícil distinguir entre redes domésticas e internos usando sub-redes comuns.
 
 > [!IMPORTANT]
-> The network range can be used to represent a supernet. All new building data file uploads will be checked for any overlapping ranges. If you have previously uploaded a building file, you should download the current file and upload it again to identify any overlaps and fix the issue. Any overlap in previously uploaded files might result in the wrong mappings of subnets to buildings in the reports. 
+> O intervalo de rede pode ser usado para representar uma super-rede. Todas as novas criar carregamentos de arquivos de dados será verificado para todos os intervalos de sobreposição. Se você carregou anteriormente um arquivo de construção, você deve baixar o arquivo atual e carregá-la novamente para identificar qualquer sobreposições e corrigir o problema. Qualquer sobreposição nos arquivos carregados anteriormente pode resultar em mapeamentos de sub-redes aos prédios nos relatórios errados. 
 
 
 #### <a name="vpn"></a>VPN
 
-The quality of experience (QoE) data that clients send to Office 365—which is where CQD data is sourced from—includes a VPN flag. However, this flag relies on VPN vendors’ reporting to Windows that the VPN network adapter registered is a Remote Access adapter. Not all VPN vendors properly register Remote Access adapters. Because of this, you might not be able to use the built-in VPN query filters. There are two approaches to accommodating VPN subnets in the building information file.
+A qualidade dos dados de experiência (QoE) que os clientes enviam para Office 365 — que é onde os dados CQD originados de — inclui um sinalizador VPN. No entanto, esse sinalizador depende de relatórios de fornecedores de VPN para Windows que o adaptador de rede VPN registrado é um adaptador de acesso remoto. Nem todos os fornecedores VPN adequadamente registre os adaptadores de acesso remoto. Dessa forma, você não poderá usar os filtros de consulta VPN internos. Há duas abordagens para acomodar sub-redes VPN no edifício arquivo de informações.
 
--   Define a **Network Name** by using the text “VPN” in this field for VPN subnets.
+-   Defina um **Nome de rede** usando o texto "VPN" neste campo para sub-redes da VPN.
 
-![Screenshot of a report in the Call Quality Dashboard that defines how to create a VPN subnet](media/quality-of-experience-review-guide-image10.png)
+![Captura de tela de um relatório no painel de qualidade de chamada que define como criar uma sub-rede VPN](media/quality-of-experience-review-guide-image10.png)
 
-_Figure 10 - VPN using network name_
+_Figura 10 - VPN usando o nome de rede_
 
--   Define a **Building Name** by using the text “VPN” in this field for VPN subnets.
+-   Defina um **Nome de construção** usando-se o texto "VPN" neste campo para sub-redes da VPN.
 
-![Screenshot of a report in the Call Quality Dashboard that defines how to create a building definition that comprises a VPN subnet.](media/quality-of-experience-review-guide-image11.png)
+![Captura de tela de um relatório no painel de qualidade de chamada que define como criar uma definição de construção que consiste em uma sub-rede VPN.](media/quality-of-experience-review-guide-image11.png)
 
-_Figure 11 - VPN using building name_
+_Figura 11 - VPN usando o nome do edifício_
 
 > [!IMPORTANT]
-> Certain VPN implementations don’t accurately report subnet information. If this occurs in your reporting, we recommend that when you add a VPN subnet to the building file, instead of one entry for the subnet, add separate entries for each address in the VPN subnet as a separate 32-bit network. Each row can have the same building metadata. For example, instead of one row for 172.16.18.0/24, you have 253 rows, with one row for each address from 172.16.18.1/32 through 172.16.18.254/32, inclusive.
+> Determinadas implementações de VPN com precisão não relatam informações de sub-rede. Se isso ocorrer em seu relatório, que é recomendável que, quando você adiciona uma sub-rede VPN para o arquivo de construção, em vez de uma entrada para a sub-rede, adicione entradas separadas para cada endereço na sub-rede VPN como uma rede separada de 32 bits. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você tem 253 linhas, com uma linha para cada endereço de 172.16.18.1/32 por meio de 172.16.18.254/32, inclusive.
 
 
 > [!NOTE]
-> VPN connections have been known to misidentify the network connection as wired when the underlying internet connection is wireless. When looking at quality over VPN connections, you can’t assume that the connection type has been accurately identified.
+> Conexões VPN são conhecidas por cometem erros conforme com fio quando a conexão de internet subjacente está na identificação de conexão de rede sem fio. Ao olhar qualidade em conexões VPN, você não pode assumir que o tipo de conexão foi identificado com precisão.
 
-### <a name="uploading-building-information"></a>Uploading building information
+### <a name="uploading-building-information"></a>Carregar informações de construção
 
-The CQD Summary Reports dashboard includes a **Tenant Data Upload** page, accessed by selecting the **Tenant Data Upload** link tag on the upper-right corner (look for the gear icon). This page is used for admins to upload their own information, such as mapping of IP address and geographical information, mapping each wireless access point and its MAC address, and so on.
+O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de dados de Inquilino** , acessada selecionando a marca de link de **Carregamento de dados de Inquilino** no canto superior direito (procure o ícone de engrenagem). Esta página é usada para os administradores para carregar suas próprias informações, como o mapeamento de endereço IP e informações geográficas, mapeando cada ponto de acesso sem fio e seu endereço MAC e assim por diante.
 
-1.  Go to CQD Online by browsing to <https://cqd.lync.com>.
+1.  Vá para CQD Online navegando até <https://cqd.lync.com>.
 
-2.  Select the gear icon in the upper-right corner, and choose **Tenant Data Upload** from the **Summary Reports** page.
+2.  Selecione o ícone de engrenagem no canto superior direito e escolha o **Carregamento de dados de Inquilino** na página **Relatórios de resumo** .
 
-![Screenshot of a dialog box in the Call Quality Dashboard that appears while data is being uploaded.](media/quality-of-experience-review-guide-image12.png)
+![Captura de tela de uma caixa de diálogo no painel de qualidade de chamada que é exibido enquanto dados está sendo carregados.](media/quality-of-experience-review-guide-image12.png)
 
-_Figure 12 - Tenant Data Upload menu_
+_Figura 12 - menu de carregamento de dados de Inquilino_
 
-1.  Alternatively, if this is your first time visiting CQD, you’ll be asked to upload building data. You can select **Upload Now** to quickly navigate to the **Tenant Data Upload** page.
+1.  Como alternativa, se essa for a primeira vez em que visitando CQD, você será solicitado para carregar dados de construção. Você pode selecionar **Carregar Agora** para navegar rapidamente para a página de **Carregamento de dados de Inquilino** .
 
-![Screenshot of a banner in the Call Quality Dashboard that notifies a user to upload building data.](media/quality-of-experience-review-guide-image13.png)
+![Captura de tela de um banner no painel de qualidade de chamada que notifica o usuário para carregar dados de construção.](media/quality-of-experience-review-guide-image13.png)
 
-_Figure 13 - Building data upload banner_
+_Figura 13 - Criando banner de carregamento de dados_
 
-1.  On the **Tenant Data Upload** page, select **Browse** to choose a data file.
+1.  Na página de **Carregamento de dados de Inquilino** , selecione **Procurar** para escolher um arquivo de dados.
 
-2.  After selecting a data file, specify **Start date** and, optionally, specify an end date.
+2.  Depois de selecionar um arquivo de dados, especifique a **Data de início** e, opcionalmente, especifique uma data de término.
 
-3.  After selecting **Start date**, select **Upload** to upload the file to the CQD. <br><br>Before the file is uploaded, it’s validated. If validation fails, an error message is displayed requesting that you correct the file. The following figure shows an error occurring when the number of columns in the data file is incorrect.
+3.  Depois de selecionar a **Data de início**, selecione **carregar** para carregar o arquivo para o CQD. <br><br>Antes do arquivo for carregado, ele será validado. Se a validação falhar, uma mensagem de erro é exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorrem quando o número de colunas no arquivo de dados está incorreto.
 
-![Screenshot of a dialog box in the Call Quality Dashboard that describes an error message when importing building data.](media/quality-of-experience-review-guide-image14.png)
+![Captura de tela de uma caixa de diálogo no painel de qualidade de chamada que descreve uma mensagem de erro ao importar dados de construção.](media/quality-of-experience-review-guide-image14.png)
 
-_Figure 14 - Building data upload error_
+_Figura 14: Criando o erro de carregamento de dados_
 
-4.  If no errors occur during validation, the file upload will succeed. You can then see the uploaded data file in the **My uploads** table, which shows the full list of all uploaded files for the current tenant at the bottom of that page.
+4.  Se nenhum erro ocorrer durante a validação, o carregamento de arquivo terá êxito. Em seguida, você pode ver o arquivo de dados carregados na **Minhas carregamentos de** tabela, que mostra a lista completa de todos os arquivos carregados para o locatário atual na parte inferior da página.
 
 > [!NOTE]
-> It can take up to four hours to finish processing the building file. <br><br> If you’ve already uploaded a building file and need to add subnets that might have been missed or excluded, modify the original file by adding the new subnets, remove the current file, and re-upload the newly edited file. There can be only one active building data file in CQD. 
+> Pode levar até quatro horas para concluir o processamento do arquivo de construção. <br><br> Se você já tiver carregado um arquivo de construção e precisa para adicionar as sub-redes que podem ter sido perdidas ou excluídos, modifique o arquivo original adicionando novas sub-redes, remova o arquivo atual e reenvie o arquivo recentemente editado. Pode haver construção ativa apenas um arquivo de dados em CQD. 
 
-### <a name="missing-subnets"></a>Missing subnets
+### <a name="missing-subnets"></a>Sub-redes ausentes
 
-After uploading building information for managed networks, every managed network should have a building association. However, this isn’t always the case; typically, a few subnets are missed. This section covers how to validate those missing networks.
+Após carregar as informações de construção para redes gerenciadas, cada rede gerenciada deve ter uma associação de construção. No entanto, isso nem sempre é o caso; Normalmente, as sub-redes alguns são perdidas. Esta seção aborda como validar as redes ausentes.
 
-Browse to the **Detailed Reports** page in CQD Online and navigate to the **Missing Subnet Report** included in the CQD templates. This presents all the subnets with 10 or more audio streams that are not defined in the building data file. Ensure that there are no managed networks in this list. If subnets are missing, update the original building data file and re-upload it to CQD.
+Navegue até a página de **Relatórios detalhados** no CQD Online e navegue até o **Relatório de sub-rede ausentes** incluídas nos modelos CQD. Isso apresenta todas as sub-redes com 10 ou mais áudio fluxos que não são definidos no edifício arquivo de dados. Certifique-se de que não há nenhuma redes gerenciadas nessa lista. Se não existirem sub-redes, atualize o edifício original do arquivo de dados e reenvie a CQD.
 
 > [!IMPORTANT]
-> You’ll need to add your tenant ID as a query filter for **Second Tenant ID** to this report to filter the report to view only your organization’s tenant data. Otherwise, the report will show federated subnets.
+> Você precisará adicionar sua ID de Inquilino como um filtro de consulta para a **Segunda ID do inquilino** para este relatório para filtrar o relatório para exibir somente os dados de inquilinos da sua organização. Caso contrário, o relatório mostrará sub-redes federados.
 
 > [!NOTE] 
-> Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.                                                  |
+> Certifique-se de ajuste o filtro de relatório do mês ano ao mês atual. Selecione **Editar**e ajuste o filtro de relatório do **Mês ano** para salvar o novo mês padrão.                                                  |
 
-![Report showing subnets not included in the CQD Building Data File that show usage.](media/quality-of-experience-review-guide-image15.png)
+![Relatório mostrando as sub-redes não são incluídos no arquivo de dados de construção CQD que mostram o uso.](media/quality-of-experience-review-guide-image15.png)
 
-_Figure 15 - Missing Building Report_
+_Figura 15 - ausente relatório de construção_
 
-## <a name="reliability-investigations"></a>Reliability investigations
+## <a name="reliability-investigations"></a>Investigações de confiabilidade
 
-The first step to improving quality is to assess the state of audio reliability across the organization. Because audio reliability is vital to a positive user experience, we start with the two components that measure reliability:
+A primeira etapa para aprimorar a qualidade é para avaliar o estado de confiabilidade de áudio em toda a organização. Confiabilidade de áudio, pois é vital para uma experiência de usuário positivo iniciamos com os dois componentes que medem confiabilidade:
 
-1.  **Call Setup Failures:** Session couldn’t be established.
+1.  **Falhas de instalação de chamada:** Sessão não pôde ser estabelecida.
 
-2.  **Call Drop Failures:** Session was established and unexpectedly terminated
+2.  **Falhas de recebimento de chamadas:** Sessão foi estabelecida e finalizada inesperadamente
 
-Throughout this section, we’ll cover methods to investigate both areas.
-
-> [!NOTE]
-> Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information.
-
-
-### <a name="call-setup"></a>Call setup
-
-Prioritize remediating call setup failures in this area first, because these failures have a significant negative impact on the user experience.
-
-Begin your investigation by assessing the percentage of overall call setup failures for the organization, and then prioritize areas of investigation based on the highest percentage by building or network.
-
-#### <a name="call-setup-failures-overall"></a>Call setup failures overall
-
-This chart report displays the total amount of successful call set up and call setup failures over time. Point to any one of the columns to display its individual values, as shown in the figure below.
-
-![Screenshot of a chart that shows percentage of Audio Call Stream Setup Failure](media/quality-of-experience-review-guide-image16.png)
-
-_Figure 16 - Audio Reliability - Call Stream Setup Failures_
-
-##### <a name="analysis"></a>Analysis
-
-This report displays your organization’s audio call setup usage and failures over time. By using this report, you can answer the following questions and determine your next course of action:
-
-1.  What is the total call setup failure percentage for the current month?
-
-2.  Is the total call setup failure percentage below or above the defined target metric?
-
-3.  Is the failure trend worse or better than the previous month?
-
-4.  Is the failure trend increasing, steady, or decreasing?
-
-The information presented in this report will tell the story of how often your overall call setups are failing across your organization.
-
-Irrespective of the previous answers, take the time to investigate further by using the included sub-reports to look for any individual buildings or networks that might need remediation. Although the overall failure rate might be below the target metric, often the failure rates for one or more buildings or networks are above the metric and need remediation.
-
-#### <a name="call-setup-failures-by-building-and-subnet"></a>Call setup failures by building and subnet 
-
-This table report is used to discover and isolate any buildings or networks that need remediation.
+Ao longo desta seção, abordaremos métodos para ambas as áreas de investigar.
 
 > [!NOTE]
-> Be sure to adjust the Month Year report filter to the current month. Select **Edit**, and adjust the **Month Year** report filter to save the new default month.
+> Nem todos os relatórios incluídos nos modelos são abordados neste guia. Consulte a descrição do relatório individual para obter mais informações.
 
 
-![Report that lists call setup failure reasons, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image17.png)
+### <a name="call-setup"></a>Configuração da chamada
 
-_Figure 17 - Audio Setup Failures by Building or Subnet_
+Priorize remediando falhas de instalação chamada nessa área em primeiro lugar, pois essas falhas possuem um impacto negativo significativo na experiência do usuário.
 
-##### <a name="remediation"></a>Remediation 
+Começar a investigação avaliando a porcentagem de falhas de instalação chamada geral para a organização e, em seguida, priorizar áreas de investigação com base na porcentagem mais alta, criação ou da rede.
 
-Focus your remediation efforts on buildings or subnets that have the largest volume of failures first, because this will maximize impact to the user experience and help to quickly reduce the organizational call setup failures.
-The following table lists the two reasons for call setup failures as reported by CQD.
+#### <a name="call-setup-failures-overall"></a>Falhas de instalação gerais de chamadas
 
-_Table 6 – Reasons for Call Setup Failures_
+Este relatório de gráfico exibe a quantidade total de chamada bem sucedida, configurar e falhas de instalação de chamadas ao longo do tempo. Aponte para qualquer uma das colunas para exibir seus valores individuais, conforme mostrado na figura a seguir.
 
-| Call Setup Failures reason                       | Typical cause                                                                                                                                                                                                                                                                                   |
+![Captura de tela de um gráfico que mostra o percentual de falha na instalação do fluxo de chamadas de áudio](media/quality-of-experience-review-guide-image16.png)
+
+_Figura 16 - confiabilidade de áudio - falhas de instalação de fluxo de chamada_
+
+##### <a name="analysis"></a>Análise
+
+Este relatório exibe o uso da instalação chamada de áudio e falhas de sua organização ao longo do tempo. Usando este relatório, você pode responder às seguintes perguntas e determinar sua próxima ação:
+
+1.  Qual é a porcentagem de falha de instalação chamada total para o mês atual?
+
+2.  É a porcentagem de falha de instalação chamada total abaixo ou acima a métrica destino definida?
+
+3.  É a tendência de falha pior ou melhor do que o mês anterior?
+
+4.  É a tendência de falha aumentando, steady, ou diminuindo?
+
+As informações apresentadas neste relatório informará a história da frequência suas configurações gerais de chamada estão falhando em toda a organização.
+
+Independentemente das respostas anteriores, reserve um tempo para investigar maior usando os sub-relatórios incluídos para procurar por qualquer prédios individuais ou redes que possam precisar de remediação. Embora a taxa de falha geral pode estar abaixo na métrica de destino, geralmente as taxas de falha para uma ou mais redes ou prédios são acima na métrica e precisam remediação.
+
+#### <a name="call-setup-failures-by-building-and-subnet"></a>Falhas de instalação de chamada Construindo e sub-rede 
+
+Este relatório de tabela é usado para descobrir e isolar qualquer prédios ou redes que precisam de correção.
+
+> [!NOTE]
+> Certifique-se de ajuste o filtro de relatório do mês ano ao mês atual. Selecione **Editar**e ajuste o filtro de relatório do **Mês ano** para salvar o novo mês padrão.
+
+
+![Relate que razões de falha de instalação de chamada de listas, organizados construindo, a rede e a sub-rede por mês.](media/quality-of-experience-review-guide-image17.png)
+
+_Figura 17 - falhas de configuração de áudio, criando ou sub-rede_
+
+##### <a name="remediation"></a>Remediação 
+
+Concentre os esforços de remediação em prédios ou sub-redes que tenham o maior volume de falhas em primeiro lugar, porque isso maximizar o impacto sobre a experiência do usuário e ajudam a reduzir rapidamente as falhas de instalação chamada organizacionais.
+A tabela a seguir lista as duas razões para falhas de instalação chamada conforme relatado pelo CQD.
+
+_Tabela 6 – razões para falhas de instalação chamada_
+
+| Chamar o motivo de falhas de instalação                       | Causa comum                                                                                                                                                                                                                                                                                   |
 |--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Missing FW Deep Packet Inspection Exemption Rule | Indicates that network equipment along the path prevented the media path from being established due to deep packet inspection rules. This is likely due to firewall rules not being correctly configured. In this case the TCP handshake succeeded but the SSL handshake did not.               |
-| Missing FW IP Block Exception Rule               | Indicates that network equipment along the path prevented the media path from being established to the Office 365 network. This might be due to proxy or firewall rules not being correctly configured to allow access to IP addresses and ports used for Teams and Skype for Business traffic. |
+| Regra de isenção de inspeção de pacotes de profundidade de firmware de ausentes | Indica que o equipamento de rede ao longo do caminho impedidos o caminho da mídia de sendo estabelecida devido às regras de inspeção de pacotes de profundidade. Isso é provável devido às regras de firewall não está sendo configuradas corretamente. Neste caso o handshake TCP foi bem-sucedida, mas o handshake SSL não especificou.               |
+| Regra de exceção do bloco de IP de firmware de ausentes               | Indica que o equipamento de rede ao longo do caminho impedidos o caminho da mídia de sendo estabelecida com a rede do Office 365. Isso pode ser devido às regras de firewall ou proxy não está sendo configuradas corretamente para permitir acesso aos endereços IP e portas usadas para equipes e Skype para tráfego de negócios. |
 
-Now as you begin your remediation, you can focus your efforts on a particular building or subnet. As the preceding table shows, these issues are due to firewall or proxy configurations. Review the options in the following table for remediation actions.
+Agora como começar sua remediação, é possível focar seus esforços em um edifício ou sub-rede. Conforme mostra a tabela anterior, esses problemas são devido às configurações de firewall ou proxy. Examine as opções na tabela a seguir para ações de remediação.
 
-_Table 7 - Next Steps for Call Setup Failure Remediation_
+_Tabela 7 - próximas etapas para a chamada de correção de falha de instalação_
 
-| Remediation           | Guidance     |
+| Remediação           | Orientação     |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configure firewall(s) | Work with your network team and verify your firewall(s) configuration against [the Office 365 IP address list](https://aka.ms/o365ips). Verify that the [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) and ports are included in the firewall rules. Verify that the necessary TCP and UDP ports are opened in the firewall. Media prefers UDP over TCP. TCP is considered a failback protocol.<br><ul><li>**TCP:** port 443</li><li>**UDP:** ports 3478–3481</li><ul> |
-| Verify                | Leverage the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to verify connectivity from the affected building or subnet by using the connectivity check function.    |
+| Configurar firewalls | Trabalhar com a equipe de rede e verifique se a sua configuração de firewalls contra [a lista de endereços IP do Office 365](https://aka.ms/o365ips). Verifique se as portas e [sub-redes de mídia](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) são incluídas nas regras de firewall. Verifique se que as portas TCP e UDP necessárias sejam abertas no firewall. Mídia prefere UDP sobre TCP. TCP é considerado um protocolo de failback.<br><ul><li>**TCP:** a porta 443</li><li>**UDP:** portas 3478 – 3481</li><ul> |
+| Verifique se                | Utilize a [Ferramenta de avaliação de rede Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para verificar a conectividade do edifício afetado ou sub-rede usando a função de verificação de conectividade.    |
 
 
-### <a name="call-drop"></a>Call drop
+### <a name="call-drop"></a>Recebimento de chamadas
 
-Unlike call setup failures, there is no reason code to indicate why call dropped failures occurred, which makes it difficult to isolate a specific root cause. To better triage dropped calls, use an inferred approach. By remediating any areas of interest for audio, patching clients, and driving usage of certified devices for Teams and Skype for Business, you’d expect call dropped failures to decline.
+Ao contrário de falhas de instalação chamada, não há nenhum código de motivo para indicar por que a chamada abandonada falhas ocorreu, o que torna difícil isolar uma causa raiz específica. Para melhor triagem chamadas capitular, use uma abordagem deduzida. Correção de quaisquer áreas de interesse para áudio, os clientes de aplicação de patch e orientando o uso de dispositivos de certificados para equipes e Skype for Business, você esperaria falhas de chamada queda para recusar.
 
-#### <a name="call-drop-failures-overall"></a>Call drop failures overall
+#### <a name="call-drop-failures-overall"></a>Geral de falhas de recebimento de chamadas
 
-This chart report displays the total amount of audio streams, total audio streams dropped, and total stream dropped percentage. Point to any one of the columns to display its values, as shown in the following figure.
+Este relatório de gráfico exibe a quantidade total de fluxos de áudio, fluxos de áudio total ignorados, e a porcentagem de queda de fluxo total. Aponte para qualquer uma das colunas para exibir seus valores, conforme mostrado na figura a seguir.
 
-![Screenshot of a chart showing percentage of Audio Call Streams Dropped](media/quality-of-experience-review-guide-image18.png)
+![Captura de tela de um gráfico mostrando a porcentagem de queda de fluxos de áudio de chamada](media/quality-of-experience-review-guide-image18.png)
 
-_Figure 18 - Total call dropped failure percentage_
+_Figura 18 - chamada Total queda percentual de falha_
 
-##### <a name="analysis"></a>Analysis
+##### <a name="analysis"></a>Análise
 
-This chart report displays your organization’s usage and failures over time related to call drops. By using this report, you can answer the following questions:
+Este relatório de gráfico exibe a falhas e o uso da sua organização ao longo do tempo relacionado ao chamar quedas. Usando este relatório, você pode responder às seguintes perguntas:
 
-1.  What is the current total call dropped percentage?
+1.  Qual é a chamada atual de total queda porcentagem?
 
-2.  Is the total drop percentage below the defined target metric?
+2.  É a porcentagem do total de depósito abaixo a métrica destino definida?
 
-3.  Is the failure trend worse or better than the previous month?
+3.  É a tendência de falha pior ou melhor do que o mês anterior?
 
-4.  Is the failure trend increasing, steady, or decreasing?
+4.  É a tendência de falha aumentando, steady, ou diminuindo?
 
-The information presented in this report can tell the story of how often your overall call drops are occurring across your organization.
+As informações apresentadas neste relatório podem saber a história da frequência suas geral quedas de chamada estão ocorrendo em toda a organização.
 
-Irrespective of the answers to the questions above, take the time to investigate using the sub-reports to look for any buildings or networks that might need remediation. Although the overall drop rate might be below the target metric, often the drop rate for one or more buildings or networks is above the metric and needs remediation.
+Independentemente das respostas para as perguntas acima, levar o tempo de investigar usando os sub-relatórios para procurar por qualquer prédios ou redes que possam precisar de remediação. Embora a taxa geral de recebimento pode estar abaixo na métrica de destino, muitas vezes a taxa de recebimento de um ou mais redes ou prédios estiver acima na métrica e precisa remediação.
 
-#### <a name="call-drop-failures-by-building-or-subnet"></a>Call drop failures by building or subnet
+#### <a name="call-drop-failures-by-building-or-subnet"></a>Falhas de recebimento de chamadas pela criação ou sub-rede
 
-Failures in this table report indicate that the call was dropped unexpectedly and resulted in a negative user experience. There are two table reports included in the template, one for investigating conferencing and the other for two-party.
+Falhas neste relatório de tabela indicam que a chamada foi interrompida inesperadamente e resultou em uma experiência de usuário negativo. Existem dois relatórios de tabela incluídos no modelo, um para investigar a conferência e outro para duas partes.
 
 > [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.
+> Certifique-se de ajuste o filtro de mês ano ao mês atual. Selecione **Editar**e ajustar o **Mês ano** para salvar o novo mês padrão.
 
 
-![Report that lists number and percentage of dropped calls, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image19.png)
+![Relatório que relaciona o número e a porcentagem de queda de chamadas, organizadas por construir, rede e sub-rede por mês.](media/quality-of-experience-review-guide-image19.png)
 
-_Figure 19 – Audio call dropped failures by building or subnet_
+_Figura 19 – a chamada de áudio queda de falhas pela criação ou sub-rede_
 
-##### <a name="remediation"></a>Remediation
+##### <a name="remediation"></a>Remediação
 
-Using the preceding table report, you can now isolate “hot spots” in the managed network where call drops occur above the defined target metric. Focus your remediation efforts on buildings or networks that have the highest total stream count first, to make the biggest impact.
+Usando o relatório de tabela anterior, você pode isolar agora "pontos de acesso" na rede gerenciada onde quedas de chamada ocorrerem acima a métrica destino definida. Concentre os esforços de remediação em prédios ou redes que possuem a contagem de fluxo total mais alta primeiro, para tornar o maior impacto.
 
-Common causes of call drops:
+Causas comuns de quedas de chamada:
 
--   Under-provisioned network or internet egress
+-   Saída de rede ou internet em provisionado
 
--   No QoS configured on constrained networks
+-   Nenhum QoS configurado em redes restritas
 
--   Older client versions
+-   Versões mais antigas do cliente
 
--   User behavior
+-   Comportamento do usuário
 
-After you discover hot spots, you can leverage [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) to further review users in that building for specific issues. Call Analytics contains PII data and can be useful for further isolating potential reasons for the call drops.
+Depois que você descobrir os pontos de acesso, você pode aproveitar a [Chamada análise](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) para revisar ainda mais usuários em que construção para problemas específicos. Análise de chamada contém dados PII e pode ser útil para isolar ainda mais os motivos possíveis para a cai de chamada.
 
-Regardless of your next step, it’s a good practice to notify the helpdesk that an issue has been discovered with specific buildings or subnets. This way, they can quickly respond to incoming calls and triage users more efficiently. Flagged users can then be reported back to the engineering team for further investigation.
+Independentemente da sua próxima etapa, é uma boa prática para notificar a helpdesk que foi descoberto um problema com os prédios específicos ou sub-redes. Dessa forma, rapidamente eles podem responder às chamadas recebidas e triagem usuários com mais eficiência. Usuários sinalizados, em seguida, podem ser informados volta para a equipe de engenharia para uma investigação detalhada.
 
-The following table lists some common methods to manage and remediate call drops.
+A tabela a seguir lista alguns métodos comuns para gerenciar e remediar quedas de chamada.
 
-_Table 9 - Next steps for call drop remediation_
+_A tabela 9 - próximas etapas para chamada drop remediação_
 
-| Remediation                              | Guidance     |
+| Remediação                              | Orientação     |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Network/internet                         | Now that you know which building is affected, work with your network team to monitor bandwidth at that building to determine whether there are issues with overutilization. If the issue is discovered to be related to network congestion, consider increasing bandwidth to that building. <br><br>**QoS:** If increasing bandwidth is impossible or cost-prohibitive, consider implementing QoS. This will guarantee media packets on the managed network are prioritized above non-media traffic. Alternatively, if there is no clear evidence that bandwidth is the culprit, consider these solutions:<br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment. <br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. The tool helps you assess the performance of a subnet and validate the readiness of the network against Microsoft performance [requirements](https://aka.ms/performancerequirements).<ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul>         |
-| Clients (Skype for Business Online Only) | Some older clients have known, documented issues with media reliability. Review the Call Analytics reports from multiple affected users or create a custom Client Version table report in CQD filtered to specific buildings or subnets with Total Call Dropped Failure % measure. This information will help you understand whether a relationship exists between call drops in that specific building and a specific version of the client.                                                                                                                                                              |
-| Devices                                  | The majority of device failures are due to using devices that aren’t certified for Teams or Skype for Business. Failures usually take the form of the integrated speakers or mics that are being used, or earbud/mic combinations that are plugged into the 3.5 mm audio jack on a device. Microsoft’s current recommendation is that any users who are experiencing call drops—or poor calls in general—and are using integrated devices or drivers should be provisioned a [certified headset or speakerphone](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). |
-| User Behavior                            | If you determine that neither network, devices, or clients are the issue, consider engaging [My Advisor](https://aka.ms/myadvisor) for guidance in developing a user adoption strategy to educate users how to best join and exit meetings. A smarter Teams and Skype user will produce a better user experience for all participants in the meeting. A user who puts their laptop to sleep (by closing the lid) without exiting the meeting will be classified as an unexpected call drop.     |
+| Rede/internet                         | Agora que você sabe qual construção é afetada, trabalhe com a equipe de rede para monitorar a largura de banda em que construção para determinar se há problemas com excesso. Se o problema for detectado estar relacionado ao congestionamento da rede, considere o aumento de largura de banda para essa construção. <br><br>**QoS:** Se o aumento da largura de banda é impossível ou caro, considere a implementação de QoS. Isso garantirá a pacotes de mídia na rede gerenciada são priorizados acima tráfego de mídia não. Como alternativa, se não houver nenhuma evidência clara que largura de banda é o responsável, considere estas soluções:<br><ul><li>[Orientação de QoS equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype para obter orientações de QoS de negócios](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul><br>**Executar uma avaliação de prontidão de rede:** Uma avaliação de rede fornece detalhes sobre o uso esperado de largura de banda, como lidar com largura de banda de rede e altera e redes práticas recomendadas de para equipes e Skype para negócios. Usando a tabela anterior como sua fonte, você tem uma lista de prédios ou sub-redes que são candidatos excelentes para uma avaliação. <br><ul><li>[Avaliação de prontidão de rede de equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype para avaliação de prontidão da rede de negócios](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Ferramenta de avaliação do Microsoft Network:** Usar essa ferramenta para um teste simples de desempenho de rede para determinar o quão bem a rede deve executar para um equipes ou Skype para chamada de negócios Online. A ferramenta ajuda você a avaliar o desempenho de uma sub-rede e validar a preparação da rede contra os [requisitos](https://aka.ms/performancerequirements)de desempenho da Microsoft.<ul><li>[Baixe a ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885)</li></ul>         |
+| Clientes (Skype para negócios apenas Online) | Alguns clientes mais antigos possuem conhecidos, documentados problemas com confiabilidade de mídia. Revise os relatórios de análise de chamada de vários usuários afetados ou crie um relatório de tabela de versão do cliente personalizado no CQD filtrado específicos prédios ou sub-redes com medida de % do Total de chamadas queda de falha. Essas informações ajudarão você a entender se existe uma relação entre quedas de chamada na que edifício específico e uma versão específica do cliente.                                                                                                                                                              |
+| Dispositivos                                  | A maioria das falhas de dispositivo são devido ao uso de dispositivos que não são certificados para equipes ou Skype para negócios. Falhas normalmente assumem a forma do integrada de alto-falantes ou microfones que estão sendo usados ou combinações de earbud/microfone estão conectadas à tomada de áudio de 3,5 mm em um dispositivo. Recomendação de atual da Microsoft é que todos os usuários que estão enfrentando chamar quedas — ou ruins chama em geral — e estão usar dispositivos integrados ou drivers deve ser provisionado um [certificado headset ou viva-voz](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs). |
+| Comportamento do usuário                            | Se achar que nem rede, dispositivos ou clientes são o problema, considere o envolvimento do [Meu Advisor](https://aka.ms/myadvisor) para obter orientação sobre como desenvolver uma estratégia de adoção de usuário para instruir os usuários como práticas ingressar e sair de reuniões. As equipes de uma forma mais inteligente e Skype usuário produzirá uma melhor experiência de usuário para todos os participantes da reunião. Um usuário que coloca seus laptops em suspensão (fechando a tampa) sem sair da reunião será classificado como um depósito chamada inesperada.     |
 
-## <a name="quality-investigations"></a>Quality investigations
+## <a name="quality-investigations"></a>Investigações de qualidade
 
-The next step to assess the state of audio quality across the deployment is to investigate Audio Poor Call Ratio (PCR), TCP, and proxy usage. It’s important to remember that CQD data doesn’t provide you a specific root cause, but instead provides you with likely problem areas to begin a collaborative conversation with the appropriate teams for remediation activities.
-
-> [!NOTE]
-> Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information. 
-
-
-### <a name="investigate-call-quality"></a>Investigate call quality
-
-The overall PCR percentage is primarily used to indicate whether the organization is meeting defined audio metric targets. It’s important to note that even if the overall percentage is within target, some subnets or buildings might not meet the defined targets and therefore need further investigation. For example, if the organizational audio PCR percentage is 3 percent in December, which meets the sample target, specific buildings might still be having poor experiences, depending on the distribution of that 3 percent.
-
-#### <a name="overall-organizational-poor-call-percentage"></a>Overall organizational poor call percentage
-
-To assess the overall percentage of poor calls for the organization use the Quality Overall chart report.
-
-![Screenshot of a chart showing percentage of poor quality calls](media/quality-of-experience-review-guide-image20.png)
-
-_Figure 20 – Audio Quality - Overall_
-
-##### <a name="investigation"></a>Investigation
-
-This chart report displays your organization’s usage and PCR over time. By using this report, you can answer the following questions:
-
-1.  What is the total PCR for the current month?
-
-2.  Is the PCR below the defined target metric?
-
-3.  Is the failure trend worse or better than the previous month?
-
-4.  Is the failure trend increasing, steady, or decreasing?
-
-Irrespective of the answers to the questions above, take the time to investigate by using the sub-reports to look for any buildings or networks that might need further investigation. Although the overall PCR might be below the target metric, often the PCR for one or more buildings or networks is above the metric and needs further investigation.
-
-#### <a name="audio-quality-overall"></a>Audio quality overall
-
-There are two report trees included in the templates for audio quality, one for investigating conferencing and the other for two-party calls. For the purposes of quality remediation, the investigative process is the same, so we’ll focus here on conferencing. Improvements in conference quality will also positively affect two-party call quality. Reports are also included to view audio quality for conferencing and two-party by wired and Wi-Fi.
+A próxima etapa para avaliar o estado da qualidade de áudio entre a implantação é investigar áudio ruim chamada proporção (PCR), TCP e uso de proxy. É importante lembrar que os dados CQD não fornecem uma causa raiz específica, mas fornece em vez disso, com áreas de problema provavelmente iniciar uma conversa de colaboração com as equipes apropriadas para atividades de correção.
 
 > [!NOTE]
-> Investigating two-party poor calls is similar to investigating conference calls. The task is to identify buildings or subnets that have the lowest quality to validate whether there’s a pattern of poor calls with another building or subnet. 
+> Nem todos os relatórios incluídos nos modelos são abordados neste guia. Consulte a descrição do relatório individual para obter mais informações. 
 
-![Screenshot of the Audio Quality - Conferencing report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image21.png)
 
-_Figure 21 – Audio Quality - Conferencing_
+### <a name="investigate-call-quality"></a>Investigar a qualidade da chamada
 
-##### <a name="investigation"></a>Investigation
+A porcentagem PCR geral é usada principalmente para indicar se a organização é reunião destinos de métricas de áudio definidos. É importante observar que, mesmo se a porcentagem geral estiver dentro de destino, alguns sub-redes ou prédios talvez não cumprir os objetivos definidos e, portanto, precisa as investigações. Por exemplo, se a porcentagem PCR áudio organizacional for % 3 em dezembro, que atende o destino de amostra, prédios específicos pode ainda ser tendo experiências ruins, dependendo da distribuição de que % 3.
 
-This chart report displays your organization’s conferencing or two-party usage and PCR over time. By using this report, you can answer the following questions:
+#### <a name="overall-organizational-poor-call-percentage"></a>Porcentagem de chamadas ruins organizacional geral
 
-1.  What is the total PCR for the current month?
+Para avaliar a porcentagem geral de chamadas de baixa para a organização usar o relatório de gráfico de qualidade geral.
 
-2.  Is the PCR below the defined target metric?
+![Captura de tela de um gráfico mostrando a porcentagem de chamadas de baixa qualidade](media/quality-of-experience-review-guide-image20.png)
 
-3.  Is PCR worse or better than the previous month?
+_Figura 20 – qualidade de áudio - geral_
 
-4.  Is the PCR trend increasing, steady, or decreasing?
+##### <a name="investigation"></a>Investigação
 
-Irrespective of the answers to the questions above, take the time to investigate by using the sub-reports to look for any buildings or networks that might need investigation. Although the overall PCR might be below the target metric, often the PCR for one or more buildings or networks is above the metric and needs remediation.
+Este relatório de gráfico exibe PCR e o uso da sua organização ao longo do tempo. Usando este relatório, você pode responder às seguintes perguntas:
 
-#### <a name="poor-audio-stream-by-building-and-subnet"></a>Poor audio stream by building and subnet
+1.  Qual é a PCR total para o mês atual?
 
-This table report gives you additional insight into what contributed to the calls’ being classified as poor and helps to isolate hot spots in the managed network.
+2.  É a PCR abaixo a métrica destino definida?
 
-The connection detail distinguishes between wired and Wi-Fi and includes jitter, packet loss, and round-trip time (RTT) measurements. A similar report also exists under the two-party reports, and is used to isolate two-party calls on your managed network.
+3.  É a tendência de falha pior ou melhor do que o mês anterior?
+
+4.  É a tendência de falha aumentando, steady, ou diminuindo?
+
+Independentemente das respostas para as perguntas acima, levar o tempo de investigar usando os sub-relatórios para procurar por qualquer prédios ou redes que podem precisar de mais investigação. Embora a PCR geral pode estar abaixo na métrica de destino, muitas vezes PCR para um ou mais prédios ou redes estiver acima na métrica e precisa ainda mais investigação.
+
+#### <a name="audio-quality-overall"></a>Qualidade de áudio geral
+
+Há duas árvores de relatório incluídas nos modelos de qualidade de áudio, um para investigar a conferência e outro para chamadas de duas partes. Para fins de remediação de qualidade, o processo de investigação é a mesma, portanto focaremos aqui na conferência. Melhorias na qualidade de conferência também positiva afetará a qualidade das chamadas de duas partes. Relatórios também são incluídos para exibir a qualidade de áudio para conferências e duas partes por com fio e Wi-Fi.
 
 > [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month. 
+> Investigar chamadas de baixa de duas partes é semelhante ao investigando chamadas em conferência. A tarefa é identificar prédios ou sub-redes que tenham a qualidade inferior para validar se houver um padrão de chamadas ruins com outra construção ou sub-rede. 
+
+![Captura de tela da qualidade de áudio - relatório de conferência no painel de qualidade de chamada.](media/quality-of-experience-review-guide-image21.png)
+
+_Figura 21 – qualidade de áudio - conferência_
+
+##### <a name="investigation"></a>Investigação
+
+Este relatório de gráfico exibe a conferência da sua organização ou uso de dois participantes e PCR ao longo do tempo. Usando este relatório, você pode responder às seguintes perguntas:
+
+1.  Qual é a PCR total para o mês atual?
+
+2.  É a PCR abaixo a métrica destino definida?
+
+3.  É PCR pior ou melhor do que o mês anterior?
+
+4.  É a tendência PCR aumentando, steady, ou diminuindo?
+
+Independentemente das respostas para as perguntas acima, levar o tempo de investigar usando os sub-relatórios para procurar por qualquer prédios ou redes que talvez seja necessário investigação. Embora a PCR geral pode estar abaixo na métrica de destino, geralmente PCR para um ou mais prédios ou redes estiver acima na métrica e precisa remediação.
+
+#### <a name="poor-audio-stream-by-building-and-subnet"></a>Fluxo de áudio ruim Construindo e sub-rede
+
+Este relatório de tabela oferece compreensão adicional sobre o que contribuíram para as chamadas sendo classificada como pobre e ajuda a isolar os pontos de acesso da rede gerenciada.
+
+Os detalhes de conexão distingue com fio e Wi-Fi e inclui as medições de tempo de ida e volta (tempo de resposta), perda de pacote e Tremulação. Um relatório semelhante também existe sob os relatórios de duas partes e é usado para isolar as chamadas de duas partes em sua rede gerenciada.
+
+> [!NOTE]
+> Certifique-se de ajuste o filtro de mês ano ao mês atual. Selecione **Editar**e ajustar o **Mês ano** para salvar o novo mês padrão. 
 
 > [!TIP]
-> Common home networks are difficult to triage due to their widespread use. A separate report that uses the firewall IP has been added to the All Networks template to assist with remediating offices that use common networks.
+> Redes domésticas comuns são difíceis de triagem devido ao seu uso amplo. Foi adicionado um relatório separado que usa o IP do firewall para o modelo de todas as redes para auxiliar com escritórios remediando que usam redes comuns.
 
-![Report that lists connection types, transport types, and PCR greater than 3% along with various reasons for poor quality organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image22.png)
+![Relatório que lista os tipos de conexão, tipos de transporte e PCR maior que 3%, juntamente com várias finalidades de baixa qualidade organizados por construir, rede e sub-rede por mês.](media/quality-of-experience-review-guide-image22.png)
 
-_Figure 22 - Poor Audio Stream Summary by Building and Subnet - Conferencing_
+_Figura 22 - resumo de fluxo de áudio ruim, criando - e sub-rede conferência_
 
-##### <a name="remediation"></a>Remediation
+##### <a name="remediation"></a>Remediação
 
-Focus your remediation efforts on buildings or networks that have the largest volume of audio streams, because this will maximize impact and help to improve the user experience quickly. Use the jitter, packet loss, and RTT measurements to understand what’s contributing to the poor call quality. It’s possible for there to be more than one problem:
+Concentrar os esforços de remediação em prédios ou redes que possuem o maior volume de fluxos de áudio, pois isso maximizar o impacto e ajudar a melhorar o usuário experimentam rapidamente. Use a tremulação, perda de pacotes e medidas de tempo de resposta para compreender o que está contribuindo para a qualidade da chamada ruim. É possível para ter mais de um problema:
 
--   **Jitter:** Media packets are arriving at different speeds, which causes a speaker to sound robotic.
+-   **Tremulação:** Pacotes de mídia chegam ao velocidades diferentes, o que faz com que um alto-falante som robótica.
 
--   **Packet loss:** Media packets are being dropped, which creates the effect of missing words or syllables.
+-   **Perda de pacotes:** Pacotes de mídia estão sendo eliminados, que cria o efeito das palavras ou sílabas faltando.
 
--   **RTT:** Media packets are taking a long time to get to their destination, which creates a walkie-talkie effect.
+-   **Tempo de resposta:** Pacotes de mídia estão demorando muito tempo para chegar ao seu destino, que cria um efeito de walkie-talkie.
 
-Although no single source of truth accounts for what can cause a poor call, several common methods can help you deal with network anomalies.
+Embora nenhuma fonte única de veracidade contas para o que pode causar uma chamada de baixa, vários métodos comuns podem ajudá-lo a lidar com problemas de rede.
 
-To assist your investigation into quality issues, you can leverage [Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309).
-With Call Analytics, you can look at a specific conference or users’ detailed call report. This report will contain PII data and is useful when attempting to discern a reason for failures. Once you know which building that is affected, tracking down users in that building should be straightforward.
+Para auxiliar sua investigação sobre problemas de qualidade, você pode aproveitar a [Análise de chamada](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309).
+Com a análise de chamada, você pode examinar uma conferência específica ou relatório de chamada detalhada dos usuários. Este relatório conterá os dados PII e é útil quando tentar distinguir um motivo para falhas. Quando você souber qual edifício é afetado, rastreamento de usuários em que a construção deve ser simples.
 
-Don’t forget to let the helpdesk know that these networks are experiencing quality issues, so they can quickly triage and respond to incoming calls.
+Não se esqueça de informar a helpdesk que essas redes estão enfrentando problemas de qualidade, para que possam rapidamente triagem e responder às chamadas recebidas.
 
-_Table 9 - Common contributors to high PCR_
+_A tabela 9 - comuns Contribuidores PCR alta_
 
-| Remediation                              | Guidance       |
+| Remediação                              | Orientação       |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Networks                                 | An overused or under-provisioned network can cause issues with media quality. Work with the network team to determine whether the network connections from the user to the internet egress point has enough bandwidth to support media. **Perform a network readiness assessment:** A network assessment provides details about expected bandwidth usage, how to cope with bandwidth and network changes, and recommended networking practices for Teams and Skype for Business. Using the preceding table as your source, you have a list of buildings or subnets that are excellent candidates for an assessment.<br><ul><li>[Microsoft Teams Network Readiness Assessment](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype for Business Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Microsoft Network Assessment Tool:** Use this tool for a simple test of network performance to determine how well the network would perform for a Teams or Skype for Business Online call. This tool helps you assess the performance of a subnet and validate the readiness of the network against the Microsoft performance [requirements](https://aka.ms/performancerequirements).<br><ul><li>[Download the Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) </li></ul>        |
-| Quality of Service (QoS)                 | QoS is a proven method to help prioritize packets on a network to ensure they arrive at their destination intact and on time. Consider implementing QoS across your organization to maximize the quality of the user experience where bandwidth is limited or constrained. QoS will help solve issues typically associated with high levels of packet loss, and—to a lesser degree—jitter and round-trip times. <br><ul><li>[Microsoft Teams QoS Guidance](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype for Business QoS Guidance](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul>    |
-| Wi-Fi                                    | Wi-Fi can have a significant impact on call quality. Wi-Fi design doesn’t typically take into consideration the network requirements for VoIP services and are often a source of poor quality. **QoS:** Modern wireless networks must support many devices. These devices compete for bandwidth and can lead to quality issues for VoIP services where speed and latency are vital. Consult your wireless vendor for specifics, and consider implementing QoS on your wireless network to prioritize Skype for Business and Teams media. **AP density:** Access points (APs) might be too far apart or not in an ideal location. To minimize potential interference, place extra APs in conference rooms and in locations that aren’t obstructed by walls or other objects. **2.4 GHz vs. 5 GHz:** 5 GHz provides less background interference and higher speeds, and should be prioritized when deploying VoIP over Wi-Fi. However, 5 GHz isn’t as strong as 2.4 GHz and doesn’t penetrate walls as easily. Review your building layout to determine which frequency you can rely on for the best connection. **Signal strength:** Traditionally measured in dBm (power ratio in decibels), this measures the strength of the wireless signal. After a device is connected to an AP, it doesn’t want to let go easily. As the device moves away from the AP, the signal strength falls off to a point that induces a poor connection even though another, closer AP is available. If possible, work with your AP vendor to ensure that the APs are configured to drop a device when signal strength falls below an acceptable level. This will ensure that the device doesn’t hang on to a weak AP. This is a good solution when you can’t easily add more APs. **Wireless driver:** When all else fails, ensure that wireless drivers are up to date. This will help mitigate any poor user experience related to an outdated driver. |
-| Network device                           | Larger organizations might have hundreds of devices spread out across the network. Work with your network team to ensure the network devices from the user to the internet are maintained and up to date.     |
-| VPN                                      | It has been well-documented that VPN appliances aren’t traditionally designed to handle real-time media workloads. Some VPN configurations prohibit the use of UDP (which is the preferred protocol for audio) and rely on TCP only. Consider implementing a [VPN split-tunnel solution](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) to help reduce VPN as a source of poor quality.        |
-| Clients (Skype for Business Online Only) | Older clients have been known to cause issues with media. Ensure that clients are being patched within six months of release. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a client readiness strategy and deploy [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx).      |
-| Devices                                  | The use of [optimized devices](https://partnersolutions.skypeforbusiness.com/solutionscatalog) can help to significantly improve the user experience. With all things being equal, optimized devices are designed to maximize the user experience with Teams and Skype for Business and produce superior quality. Leverage [MyAdvisor](https://aka.ms/myadvisor) for guidance on developing a device readiness strategy.   |
+| Redes                                 | Uma rede com uso excessivo ou em provisionado pode causar problemas com a qualidade de mídia. Trabalho com a equipe de rede para determinar se as conexões de rede do usuário até a saída de internet apontam tem largura de banda suficiente para oferecer suporte a mídia. **Executar uma avaliação de prontidão de rede:** Uma avaliação de rede fornece detalhes sobre o uso esperado de largura de banda, como lidar com largura de banda de rede e altera e redes práticas recomendadas de para equipes e Skype para negócios. Usando a tabela anterior como sua fonte, você tem uma lista de prédios ou sub-redes que são candidatos excelentes para uma avaliação.<br><ul><li>[Avaliação de prontidão de rede de equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#test-the-network)</li><li>[Skype para avaliação de prontidão da rede de negócios](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers/?pageState=NetworkReadiness)</li></ul><br>**Ferramenta de avaliação do Microsoft Network:** Usar essa ferramenta para um teste simples de desempenho de rede para determinar o quão bem a rede deve executar para um equipes ou Skype para chamada de negócios Online. Essa ferramenta ajuda você a avaliar o desempenho de uma sub-rede e validar a preparação da rede contra as de desempenho do Microsoft [requisitos](https://aka.ms/performancerequirements).<br><ul><li>[Baixe a ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885) </li></ul>        |
+| Qualidade de serviço (QoS)                 | QoS é um método comprovado para ajudar a priorizar pacotes em uma rede para garantir que eles cheguem a seu destino intacto e no tempo. Considere a implementação de QoS em toda a organização para maximizar a qualidade da experiência do usuário onde a largura de banda é limitada ou restrita. QoS ajudarão a solucionar problemas normalmente associados a altos níveis de perda de pacotes, e — a um grau menor — tempos de tremulação e de ida e volta. <br><ul><li>[Orientação de QoS equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams)</li><li>[Skype para obter orientações de QoS de negócios](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_8)</li></ul>    |
+| Wi-Fi                                    | Wi-Fi pode ter um impacto significativo sobre a qualidade da chamada. Design de Wi-Fi não terá normalmente em consideração os requisitos de rede para serviços de VoIP e, geralmente, é uma fonte de baixa qualidade. **QoS:** Redes sem fio modernos devem oferecer suporte a vários dispositivos. Esses dispositivos competem por largura de banda e podem causar problemas de qualidade para serviços de VoIP onde estão vitais velocidade e a latência. Consulte seu fornecedor de sem fio para obter informações específicas e considere a implementação de QoS em sua rede sem fio priorizar Skype para negócios e equipes de mídia. **Densidade AP:** Pontos de acesso (pontos de acesso) podem ser muito distantes ou não em um local ideal. Para minimizar a interferência potencial, coloque extras pontos de acesso em salas de conferência e em locais que não são obstruídos por paredes ou outros objetos. **2,4 GHz versus 5 GHz:** 5 GHz fornece menos interferência de plano de fundo e as velocidades maiores e devem ser priorizado ao implantar VoIP por Wi-Fi. No entanto, 5 GHz não é tão forte quanto 2,4 GHz e não entrar na paredes tão facilmente. Examine seu layout de construção para determinar qual frequência você pode depender para a conexão recomendada. **Intensidade do sinal:** Em geral, medido em dBm (taxa de alimentação em decibéis), mede a intensidade do sinal sem fio. Depois que um dispositivo está conectado a um ponto de acesso, ele não quer permitir que vá facilmente. Como o dispositivo se move para fora do ponto de acesso, a intensidade do sinal cai para um ponto que induz uma conexão ruim, mesmo que a outra, quanto mais perto AP está disponível. Se possível, trabalhe com seu fornecedor de AP para garantir que os pontos de acesso estão configurados para descartar um dispositivo quando a intensidade do sinal fica abaixo de um nível aceitável. Isso garantirá que o dispositivo não congele um PA fraca. Isso é uma boa solução quando você não pode adicionar facilmente mais pontos de acesso. **Driver wireless:** Quando tudo mais falhar, certifique-se de que os drivers sem fio estão atualizados. Isso ajudará a atenuar qualquer experiência de usuário ruim relacionada a um driver desatualizado. |
+| Dispositivo de rede                           | Organizações maiores podem ter centenas de dispositivos afastadas através da rede. Trabalho com a sua equipe de rede para garantir que os dispositivos de rede do usuário para a internet são mantidos e atualizados.     |
+| VPN                                      | Ele foi bem documentado que aparelhos VPN tradicionalmente não são projetados para lidar com cargas de trabalho de mídia em tempo real. Algumas configurações de VPN proíbem o uso de UDP (que é o protocolo preferido para áudio) e contam com apenas TCP. Considere a implementação de uma [solução de divisão de túnel VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) para ajudar a reduzir a VPN como uma fonte de baixa qualidade.        |
+| Clientes (Skype para negócios apenas Online) | Clientes mais antigos são conhecidos por causar problemas com a mídia. Certifique-se de que os clientes estão sendo patch dentro de seis meses após o lançamento. Aproveite [MyAdvisor](https://aka.ms/myadvisor) para obter orientação sobre como desenvolver uma estratégia de preparação de cliente e deploy [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx).      |
+| Dispositivos                                  | O uso de [dispositivos de otimizado](https://partnersolutions.skypeforbusiness.com/solutionscatalog) pode ajudar a melhorar significativamente a experiência do usuário. Com todas as coisas sendo igual, dispositivos otimizados foram projetados para maximizar a experiência do usuário com equipes e Skype para negócios e produzir qualidade superior. Aproveite [MyAdvisor](https://aka.ms/myadvisor) para obter orientação sobre como desenvolver uma estratégia de preparação de dispositivo.   |
 
 
-### <a name="investigate-tcp-audio-sessions"></a>Investigate TCP audio sessions
+### <a name="investigate-tcp-audio-sessions"></a>Investigar sessões de áudio de TCP
 
-TCP is considered a failback transport and not the primary transport you want for real-time media. The reason it’s a failback transport is due to the stateful nature of TCP. For example, if a call is made on a latent network and media packets are delayed, then packets from a few seconds ago—which are no longer useful—compete for bandwidth to get to the receiver, which can make a bad situation worse. This makes the audio healer stitch and stretch audio, resulting in audible artifacts often in the form of jitter.
+TCP é considerado um transporte failback e não o transporte principal que você deseja para a mídia em tempo real. Isso é um transporte failback é devido à natureza do TCP com informações de estado. Por exemplo, se uma chamada for feita em uma rede latente e pacotes de mídia estão atrasados, em seguida, os pacotes de alguns segundos atrás — que não são mais úteis — competem por largura de banda chegar ao destinatário, que pode tornar um pior situação ruim. Isso torna o stitch de correção de áudio e áudio Alongar, resultando em artefatos audíveis geralmente na forma de tremulação.
 
-The reports in this section don’t make a distinction between good and poor calls. Given that UDP is preferred, the reports look for the use of TCP for audio. This is primarily caused by incomplete firewall rules. For more information about firewall rules for Teams and Skype for Business Online, see [Office 365 URLs and IP address ranges](https://aka.ms/o365ips).
-
-> [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded is recommended to be able to quickly distinguish inside from outside audio streams when looking at TCP usage. 
-
-
-#### <a name="audio-streams-with-tcp-usage-overall"></a>Audio streams with TCP usage overall
-
-This report indicates the overall TCP usage for audio over the last seven months, as shown below.
-
-All further reports in this section will focus on narrowing down specific buildings and subnets where TCP is most commonly used. Further sub-reports break down TCP usage by both conferencing and two-party calls.
-
-![Screenshot of a chart showing the number of TCP audio streams per month](media/quality-of-experience-review-guide-image23.png)
-
-_Figure 23 – Audio Streams with TCP Usage_
-
-##### <a name="investigation"></a>Investigation
-
-This chart report displays your organization’s overall TCP usage. By using this report, you can answer the following questions:
-
-1.  What is the total volume of TCP calls for the current month?
-
-2.  Is it worse or better than the previous month?
-
-3.  Is the TCP usage trend increasing, steady, or decreasing?
-
-If you notice that the TCP usage trend is increasing, or above normal monthly usage, take the time to investigate by using the sub-reports to look for any buildings or networks that might need remediation. Ideally, you want as few TCP-based audio sessions as possible on the managed network.
-
-#### <a name="tcp-vs-udp"></a>TCP vs. UDP
-
-This table report identifies the volume of TCP versus UDP usage reporting on the latest month for conferences for audio, video, and video-based screen sharing (VBSS).
-
-![Report showing the volume of TCP versus UDP conference streams, with PCR shown for comparison](media/quality-of-experience-review-guide-image24.png)
-
-_Figure 24 – TCP vs. UDP - Conferencing_
-
-##### <a name="analysis"></a>Analysis
-
-Although you want TCP usage to be as low as possible, you might see a bit of TCP usage in an otherwise healthy deployment. To compare UDP to TCP usage, divide TCP audio streams by UDP audio streams to determine a percentage. A value over 1 percent needs to be further investigated.
-
-In the example above, we take 1,806 TCP streams divided by 10,481 UDP streams to arrive at a value of 17.2 percent. This value is well above 1 percent and tells us that we need to continue our investigation to determine where the TCP usage is occurring.
-
-Also included in the report is Audio Poor Percentage. This gives you a view into the comparison of call quality between UDP and TCP to help visualize how TCP is affecting overcall call quality.
-
-So now that you’ve determined that there is a high usage of TCP-based audio in your organization, what do you do next? Go to the **TCP Streams by Building and Subnet** reports to break down the TCP usage by building and subnets.
-
-#### <a name="tcp-streams-by-building-and-subnet"></a>TCP streams by building and subnet
-
-In the provided CQD templates, go to the TCP Streams by Building and Subnet table reports by using either the managed or All Networks template. There are three reports included in the template, one for investigating conferencing, with and without Microsoft relay information, and one for investigating two-party calls. For the purpose of investigating TCP usage, the process is the same, so we’ll focus the discussion here on conferencing only.
+Os relatórios nesta seção não fizer uma distinção entre chamadas boas e ruins. Visto que UDP é o preferido, os relatórios procuram o uso de TCP para áudio. Isso é principalmente causado pelas regras de firewall incompleta. Para obter mais informações sobre regras de firewall para equipes e Skype para Business Online, consulte [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips).
 
 > [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded is recommended to be able to quickly distinguish inside from outside audio streams when looking at TCP usage. 
+> Ter um válido [construção arquivo](#building-mapping) carregado é recomendável poderão rapidamente distinguir dentro de fluxos de áudio externos ao olhar para uso TCP. 
+
+
+#### <a name="audio-streams-with-tcp-usage-overall"></a>Fluxos de áudio com o uso TCP geral
+
+Este relatório indica o uso geral de TCP para áudio nos últimos sete meses, conforme mostrado abaixo.
+
+Todos os relatórios mais nesta seção abordará estreitando pressionada prédios específicos e sub-redes onde o TCP é usado com mais frequência. Mais sub-relatórios romper o uso TCP por conferência e chamadas de duas partes.
+
+![Captura de tela de um gráfico mostrando o número de fluxos de áudio de TCP por mês](media/quality-of-experience-review-guide-image23.png)
+
+_Figura 23 – fluxos de áudio com o uso TCP_
+
+##### <a name="investigation"></a>Investigação
+
+Este relatório de gráfico exibe o uso TCP geral da sua organização. Usando este relatório, você pode responder às seguintes perguntas:
+
+1.  Qual é o volume total de chamadas TCP para o mês atual?
+
+2.  É melhor do que o mês anterior ou de pior?
+
+3.  É a tendência de uso do TCP aumentando, steady, ou diminuindo?
+
+Se notar que a tendência de uso do TCP está aumentando ou acima de utilização monthly normal, levar o tempo de investigar usando os sub-relatórios para procurar por qualquer prédios ou redes que possam precisar de remediação. O ideal é que você deseja, no mínimo com base em TCP sessões de áudio possível na rede gerenciada.
+
+#### <a name="tcp-vs-udp"></a>TCP versus UDP
+
+Este relatório de tabela identifica o volume de TCP versus relatórios sobre o mês mais recente para conferências de áudio, vídeo e vídeo-based (VBSS) de compartilhamento de tela de uso do UDP.
+
+![Relatório mostrando o volume de TCP versus fluxos de conferência UDP, com PCR mostrado na comparação](media/quality-of-experience-review-guide-image24.png)
+
+_Figura 24 – TCP versus UDP - conferência_
+
+##### <a name="analysis"></a>Análise
+
+Embora você deseja o uso TCP ao ser tão baixa quanto possível, talvez você veja um pouco de uso TCP em uma implantação do contrário íntegro. Para comparar UDP com o uso TCP, divida fluxos de áudio de TCP por fluxos de áudio de UDP para determinar uma porcentagem. Um valor de mais de 1% precisa ser investigados ainda mais.
+
+No exemplo acima, pegamos 1,806 fluxos TCP divididos por 10,481 fluxos UDP chegar a um valor de 17.2%. Esse valor é bem acima % 1 e nos diz que precisamos continuar nossa investigação para determinar onde o uso TCP está ocorrendo.
+
+Também é incluída no relatório é a porcentagem de áudio ruim. Isso proporciona um modo de exibição para a comparação de qualidade da chamada entre UDP e TCP para ajudar a visualizar como TCP está afetando a qualidade da chamada overcall.
+
+Então agora que você determinou que não há um alto uso de áudio com base em TCP em sua organização, o que fazer em seguida? Vá para os relatórios de **fluxos TCP Construindo e sub-rede** para dividir o uso TCP pelo construção e sub-redes.
+
+#### <a name="tcp-streams-by-building-and-subnet"></a>Fluxos TCP Construindo e sub-rede
+
+Nos modelos de CQD fornecidos, vá para os fluxos TCP por sub-rede e criação de relatórios de tabela usando o gerenciada ou modelo de todas as redes. Há três relatórios incluídos no modelo, um para investigando conferência, com e sem informações de retransmissão da Microsoft e outro para investigando chamadas de duas partes. Para fins de investigar o uso TCP, o processo é a mesma, portanto focaremos a discussão na conferência somente.
+
+> [!IMPORTANT]
+> Ter um válido [construção arquivo](#building-mapping) carregado é recomendável poderão rapidamente distinguir dentro de fluxos de áudio externos ao olhar para uso TCP. 
 
 > [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                                  |
+> Certifique-se de ajuste o filtro de mês ano ao mês atual. Selecione **Editar**e ajustar o **Mês ano** para salvar o novo mês padrão.                                  |
 
-![Report that lists TCP streams, organized by building, network, and subnet per month.](media/quality-of-experience-review-guide-image25.png)
+![Relatório que lista os fluxos TCP, organizados por construir, rede e sub-rede por mês.](media/quality-of-experience-review-guide-image25.png)
 
-_Figure 25 – TCP Streams by Building and Subnet - Conferencing_
+_Figura 25 – TCP fluxos, criando - e sub-rede conferência_
 
-##### <a name="remediation"></a>Remediation
+##### <a name="remediation"></a>Remediação
 
-This report identifies specific buildings and subnets that are contributing to the volume of TCP usage. An additional report is also included to identify the Microsoft relay IP that was used in the call to help isolate missing firewall rules. Focus your remediation efforts on those buildings that have the highest volume of audio streams to maximize impact.
+Este relatório identifica prédios específicos e sub-redes que estão contribuindo para o volume de uso do TCP. Um relatório adicional também está incluído para identificar o IP de retransmissão Microsoft que foi usado na chamada para ajudar a isolar ausentes regras de firewall. Concentre os esforços de remediação nesses prédios que têm o maior volume de fluxos de áudio para maximizar o impacto.
 
-The most common cause of TCP usage is missing exception rules in firewalls or proxies. We’ll be talking about proxies in the next section, so for now focus your efforts on the firewalls. By using the building or subnet provided, you can determine which firewall needs to be updated.
+A causa mais comum de uso do TCP está faltando regras de exceção no firewalls ou proxies. Voltaremos falando proxies na próxima seção, portanto por enquanto concentrar os esforços nos firewalls. Usando o edifício ou sub-rede fornecido, você pode determinar o firewall que precisa ser atualizado.
 
-_Table 10 - Remediation* guidance for TCP streams by building and subnet_
+_Tabela 10 - remediação * orientação para fluxos TCP Construindo e sub-rede_
 
-| Remediation        | Guidance     |
+| Remediação        | Orientação     |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configure firewall | Verify [Office 365 IP ports and addresses](https://aka.ms/o365ips) are excluded from your firewall. Though there are many IP addresses and ports that need to be opened, for media-related TCP issues, focus your initial efforts on the following: Verify the following [media subnets](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) are in your firewall rules. Refer to Row 4 in the table shown for specific media subnet information. [UDP ports 3478–3481](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Updated-IP-ranges-and-ports-for-Skype-for-Business-Online/ba-p/47470): These ports are the preferred media ports and must be opened, otherwise the client will fail back to TCP port 443. |
-| Verify             | Use the [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) to check for connectivity issues to specific Office 365 IP addresses and ports from the affected building or subnet.    |
+| Configurar o firewall | Verifique se [as portas de IP do Office 365 e endereços](https://aka.ms/o365ips) são excluídos do seu firewall. Embora haja muitos endereços IP e portas que precisam ser aberto, problemas relacionados a mídia TCP, concentrar os esforços iniciais no seguinte: Verifique se as seguintes [sub-redes de mídia](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) estão em suas regras de firewall. Referir-se a linha 4 na tabela mostrada para obter informações de sub-rede de mídia específicos. [As portas UDP 3478 – 3481](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Updated-IP-ranges-and-ports-for-Skype-for-Business-Online/ba-p/47470): essas portas são as portas de mídia preferencial e devem ser abertas, caso contrário, o cliente falhará volta para a porta TCP 443. |
+| Verifique se             | Use a [Ferramenta de avaliação de rede Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para verificar se há problemas de conectividade para portas e endereços IP do Office 365 específicos do edifício afetado ou sub-rede.    |
 
-### <a name="investigate-http-proxy-usage"></a>Investigate HTTP proxy usage
+### <a name="investigate-http-proxy-usage"></a>Investigue o uso do proxy HTTP
 
-HTTP proxies aren’t the preferred path for establishing media sessions, for a multitude of reasons. Many contain deep packet inspection features that can prevent connections to the service from being completed and introduce disruptions. Additionally, proxies might force TCP as opposed to allowing UDP, which is recommended for optimal audio quality.
+Os proxies HTTP não é o caminho preferido para estabelecer sessões de mídia, para uma infinidade de motivos. Muitas contêm recursos de inspeção de pacotes profunda que pode impedir conexões ao serviço sejam concluídas e introduzir interrupções causadas. Além disso, os proxies talvez forçar TCP em vez de permitindo UDP, que é recomendado para melhor qualidade de áudio.
 
-It is always Microsoft’s recommendation to configure the client to directly connect to Teams and Skype for Business services. This is especially important for media-based traffic.
-
-> [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage. 
-
-
-#### <a name="audio-streams-with-http-proxy-usage-overall"></a>Audio streams with HTTP proxy usage overall
-
-This report outlines the proxy usage over time on a monthly scale. The HTTP proxy stream report in this section of the template is much like the TCP reports. It doesn’t look at whether calls are poor or good, but whether the call is connected over HTTP.
-
-![Screenshot of the Audio Streams with HTTP Proxy Usage report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image26.png)
-
-_Figure 26 – Audio Streams with HTTP Proxy Usage_
-
-##### <a name="analysis"></a>Analysis
-
-If you see a high volume of HTTP usage, consult your networking team to ensure the proper exclusions are in place so that clients are directly routing to Teams or Skype for Business Online media subnets. Ideally, there should be no HTTP usage displayed here.
-
-If you have only one internet proxy in your organization, verify the proper [Office 365 URLs and IP address range exclusions](https://aka.ms/o365ips). If more than one internet proxy is configured in your organization, leverage the HTTP sub-report to isolate which building or subnet is affected.
-
-For organizations that can’t bypass the proxy, ensure that the Skype for Business client is configured to sign in properly when it’s located behind a proxy as outlined in the article [Skype for Business should use proxy server to sign in instead of trying direct connection](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin).
-
-#### <a name="http-proxy-streams-by-building-and-subnet"></a>HTTP proxy streams by building and subnet
-
-This report identifies specific buildings and subnets that are contributing to HTTP usage.
+É sempre a recomendação da Microsoft para configurar o cliente para conectar-se diretamente a equipes e Skype para serviços corporativos. Isso é especialmente importante para o tráfego de mídia-based.
 
 > [!IMPORTANT]
-> Having a valid [building file](#building-mapping) uploaded makes it easy to properly distinguish inside from outside audio streams when analyzing proxy usage.
+> Ter um válido [construção arquivo](#building-mapping) carregado facilita adequadamente distinguir dentro de fluxos de áudio externos ao analisar o uso de proxy. 
+
+
+#### <a name="audio-streams-with-http-proxy-usage-overall"></a>Fluxos de áudio com o uso de proxy HTTP geral
+
+Este relatório descreve o uso de proxy ao longo do tempo em uma escala mensal. O relatório de fluxo de proxy HTTP nesta seção do modelo é muito semelhante os relatórios TCP. Ele não parece estar em estejam de chamadas ruins ou BOM, mas se a chamada é conectada por HTTP.
+
+![Captura de tela dos fluxos de áudio com o relatório de uso do Proxy HTTP no painel de qualidade de chamada.](media/quality-of-experience-review-guide-image26.png)
+
+_Figura 26 – fluxos de áudio com o uso de Proxy HTTP_
+
+##### <a name="analysis"></a>Análise
+
+Se você vir um alto volume de uso do HTTP, consulte sua equipe da rede para garantir que as exclusões adequadas estejam em vigor para que os clientes são roteamento diretamente para equipes ou Skype para sub-redes de mídia Business Online. Idealmente, não deve haver nenhum uso do HTTP exibido aqui.
+
+Se você tiver apenas um proxy de internet em sua organização, verifique as adequadas [URLs do Office 365 e exclusões de intervalo de endereços IP](https://aka.ms/o365ips). Se mais de um proxy de internet está configurado em sua organização, aproveitar o HTTP sub-recursos relatado para isolar qual construção ou sub-rede é afetado.
+
+Para organizações que não é possível ignorar o proxy, certifique-se que o Skype para o cliente de negócios está configurado para entrar em corretamente quando ela está localizada atrás de um proxy conforme descrito no artigo [Skype para negócios deve usar servidor proxy para entrar em vez de tentar direta conexão](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin).
+
+#### <a name="http-proxy-streams-by-building-and-subnet"></a>Fluxos de proxy HTTP Construindo e sub-rede
+
+Este relatório identifica prédios específicos e sub-redes que estão contribuindo para o uso do HTTP.
+
+> [!IMPORTANT]
+> Ter um válido [construção arquivo](#building-mapping) carregado facilita adequadamente distinguir dentro de fluxos de áudio externos ao analisar o uso de proxy.
 
 > [!NOTE]
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.                        |
+> Certifique-se de ajuste o filtro de mês ano ao mês atual. Selecione **Editar**e ajustar o **Mês ano** para salvar o novo mês padrão.                        |
 
-![Screenshot of the HTTP Proxy Usage by Building and Subnet report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image27.png)
+![Captura de tela do uso do Proxy HTTP pelo relatório de criação e a sub-rede em que o painel de controle de qualidade de chamada.](media/quality-of-experience-review-guide-image27.png)
 
-_Figure 27 – HTTP Proxy Usage by Building and Subnet_
+_Figura 27 – sub-rede e uso de Proxy HTTP, criando_
 
-##### <a name="remediation"></a>Remediation
+##### <a name="remediation"></a>Remediação
 
-Focus your remediation efforts on any buildings or subnets that have HTTP proxy usage. The most common cause of HTTP usage is missing exception rules in proxies. By using the building or subnet provided, you can determine which proxy needs to be updated.
+Concentre os esforços de remediação em qualquer prédios ou as sub-redes com o uso de proxy HTTP. A causa mais comum de uso do HTTP está faltando regras de exceção de proxies. Usando o edifício ou sub-rede fornecido, você pode determinar qual proxy precisa ser atualizado.
 
-Verify that the required [Office 365 FQDNs](https://aka.ms/o365ips) are excluded from your proxy.
+Verifique se os [FQDNs do Office 365](https://aka.ms/o365ips) de necessários são excluídos do seu proxy.
 
-## <a name="endpoint-investigations"></a>Endpoint investigations
+## <a name="endpoint-investigations"></a>Investigações de ponto de extremidade
 
-This section is focused on the tasks for reporting on Skype for Business–specific client versions and the use of certified devices.
+Esta seção se concentra nas tarefas de relatórios sobre o Skype para versões do cliente de negócios – específicas e o uso de dispositivos de certificados.
 
 > [!NOTE]
-> Not all reports included in the templates are covered in this guide. Please refer to the individual report description for more information. 
+> Nem todos os relatórios incluídos nos modelos são abordados neste guia. Consulte a descrição do relatório individual para obter mais informações. 
 
 
-### <a name="determine-client-versions"></a>Determine client versions
+### <a name="determine-client-versions"></a>Determinar as versões do cliente
 
-The report in this space focuses on identifying Skype for Business client versions in use and their relative volume in the environment.
+O relatório neste espaço enfoca identificando Skype para versões do cliente de negócios em uso e seu volume relativo no ambiente.
 
 > [!IMPORTANT]
-> Currently, Teams clients are distributed and updated automatically through the Azure Content Delivery Network (CDN) and will be kept up to date by the service. Client readiness and investigative activities aren’t applicable to Teams.
+> Atualmente, os clientes de equipes são distribuídos e atualizados automaticamente por meio de rede conteúdo de entrega Azure (CDN) e serão mantidos atualizados pelo serviço. Atividades de investigação e preparação de cliente não se aplicam às equipes.
 
-Version numbers for Skype for Business 2015 and 2016 can be found via the links below:
+Números de versão do Skype para negócios 2015 e 2016 podem ser encontrados por meio de links a seguir:
 
--   [Office 365 client update channel releases](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
+-   [Liberações de canal de atualização de cliente Office 365](https://technet.microsoft.com/office/mt465751?f=255&MSPPError=-2147217396)
 
--   [Office 365 version and build numbers for Click to run](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
+-   [Números de versão e compilação do Office 365 para clique para executar](https://support.office.com/article/Version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
 
--   [Skype for Business downloads and updates](https://technet.microsoft.com/office/dn788954.aspx)
+-   [Skype para downloads de negócios e atualizações](https://technet.microsoft.com/office/dn788954.aspx)
 
 > [!NOTE] 
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.  
+> Certifique-se de ajuste o filtro de mês ano ao mês atual. Selecione **Editar**e ajustar o **Mês ano** para salvar o novo mês padrão.  
 
 > [!IMPORTANT]
-> Client reports require you to exclude federated participant data. To exclude federated participant data, you must add a query filter for **Second Tenant ID** set to your organization’s [tenant ID](#tenant-id). |
+> Relatórios de cliente exigem que você excluir dados participantes federados. Para excluir dados de participante federados, você deve adicionar um filtro de consulta para a **Segunda ID do inquilino** definida como [ID do inquilino](#tenant-id)da sua organização. |
 
-![Screenshot of the Client and Devices report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image28.png)
+![Captura de tela do relatório de cliente e dispositivos no painel de qualidade de chamada.](media/quality-of-experience-review-guide-image28.png)
 
-_Figure 28 - Client version report_
+_Figura 28 - relatório da versão de cliente_
 
-#### <a name="remediation"></a>Remediation
+#### <a name="remediation"></a>Remediação
 
-A critical part of driving high-quality user experiences is ensuring that managed clients are running up-to-date versions of Skype for Business. This provides several benefits, among them:
+Uma parte importante de dirigir experiências do usuário de alta qualidade é garantir que os clientes de gerenciada estão executando versões atualizadas do Skype para negócios. Isso oferece vários benefícios, entre eles:
 
--   It’s easier to manage a few versions versus many versions.
+-   É mais fácil gerenciar algumas versões versus muitas versões.
 
--   It provides a level of consistency of experience.
+-   Ele fornece um nível de consistência da experiência.
 
--   It makes it easier to troubleshoot problems with call quality and usability.
+-   Ele facilita a solucionar problemas de qualidade de chamada e usabilidade.
 
--   Microsoft continually makes general improvements and optimizations across the product. Ensuring that users receive these updates reduces their risk of running into a problem that has already been solved.
+-   A Microsoft dá continuamente aperfeiçoamentos gerais e as otimizações em todo o produto. Garantir que os usuários recebam essas atualizações reduz os riscos de executar um problema que já foi resolvido.
 
-Limiting your deployment to client versions that are less than six months old will improve the overall user experience and improve manageability compared to having large numbers of different versions of the client in the same environment.
+Limitar sua implantação para as versões do cliente que são menos de seis meses, melhorar a experiência geral do usuário e melhorar a capacidade de gerenciamento em comparação a ter grandes números de diferentes versões do cliente no mesmo ambiente.
 
-If you’re using only Office Click-to-Run, you’ll automatically be within the six-month window. No further action is required.
+Se você estiver usando somente Office Click-to-Run, você estará automaticamente dentro da janela de seis meses. Nenhuma ação adicional será necessária.
 
-If, like most organizations, you have a mix of Click-to-Run and installer packages (MSI), you can use the report to verify that the MSI clients are being updated regularly. Focus your efforts on those clients where the volume is above average. If you notice clients are falling behind, work with the team responsible for managing Office updates and ensure that they’re approving and deploying client patches regularly.
+If, como a maioria das organizações, você tem uma mistura de pacotes Click-to-Run e installer (MSI), você pode usar o relatório para verificar se os clientes MSI estão sendo atualizados regularmente. Concentre seus esforços nesses clientes onde o volume está acima da média. Se você observar que os clientes são atrasado, trabalhar com a equipe responsável pelo gerenciamento de atualizações do Office e garantir que eles estiver aprovando e Implantando patches de cliente regularmente.
 
-### <a name="devices-investigations"></a>Devices investigations
+### <a name="devices-investigations"></a>Investigações de dispositivos
 
-To make use of the following device report, it’s best to understand the concept of the mean opinion score (MOS). MOS is the gold-standard measurement to gauge the perceived audio quality. It’s represented as an integer rating from 0 to 5.
+Para tornar use destes relatórios dispositivo, é melhor entender o conceito de médio de opinião pontuação (MOS). MOS é a medida padrão ouro para medir a qualidade de áudio perceptivelmente. Ele é representado como uma classificação de inteiro de 0 a 5.
 
-The basis of all measures of voice quality is how a person perceives the quality of speech. Because it’s affected by human perception, it’s inherently subjective. There are several different methodologies for subjective testing.
-Most voice quality measures are based on an absolute categorization rating (ACR) scale.
+A base de todas as medidas de qualidade de voz é como uma pessoa percebe a qualidade de voz. Como ela é afetada pela percepção humana, é naturalmente subjetiva. Existem várias metodologias diferentes para testar subjetiva.
+A maioria das medidas de qualidade de voz são baseados em uma escala de classificação (ACR) categorização absoluta.
 
-In an ACR subjective test, a statistically significant number of people rate their quality of experience on a scale of 1 (bad) to 5 (excellent). The average of the scores is the MOS. The resulting MOS depends on the range of experiences that were exposed to the group and to the type of experience being rated.
+Em um teste subjetivo ACR, um número significativo de estatística de pessoas classificar seu qualidade da experiência em uma escala de 1 (ruim) a 5 (excelente). A média das pontuações é o MOS. O MOS resultante depende do intervalo de experiências que foram expostos ao grupo e ao tipo de experiência sendo classificada como.
 
-Because it’s impractical to conduct subjective tests of voice quality for a live communication system, Teams and Skype for Business generate MOS values by using advanced algorithms to objectively predict the results of a subjective test.
+Porque ele é impraticável para conduzir testes subjetivas de qualidade de voz para um sistema de comunicação em tempo real, equipes e Skype para negócios geram valores MOS usando algoritmos avançados objetivamente prever os resultados de um teste subjetiva.
 
-The available set of MOS and associated metrics provide a view into the quality of the experience being delivered to the users.
+O conjunto disponível de MOS e métricas associadas fornecem um modo de exibição para a qualidade da experiência de ser entregue aos usuários.
 
-By supplying users with devices certified for Teams and Skype for Business, you reduce the likelihood of encountering negative experiences due to the device itself (which is more likely, for example, with built-in laptop speakers and microphones). For more information, see [Phones and devices for Skype for Business](https://technet.microsoft.com/office/dn947482).
+Fornecendo aos usuários com dispositivos certificados para equipes e Skype for Business, você reduz a probabilidade de encontrando experiências negativas devido ao próprio dispositivo (que é mais provável, por exemplo, com microfones e alto-falantes laptop internas). Para obter mais informações, consulte [telefones e dispositivos para Skype para negócios](https://technet.microsoft.com/office/dn947482).
 
-#### <a name="organizational-usage-of-capture-devices-microphones-by-volume"></a>Organizational usage of capture devices (microphones) by volume
+#### <a name="organizational-usage-of-capture-devices-microphones-by-volume"></a>Uso organizacional dos dispositivos de captura (microfones) por volume
 
-This report is used to assess microphone usage by volume and MOS score, and can be found in the accompanying templates under Clients & Devices*.*
+Este relatório é usado para avaliar o uso de microfone por volume e de pontuação do MOS e pode ser encontrado nos modelos acompanha em clientes e dispositivos*.*
 
 > [!IMPORTANT]
-> Device reports require you to exclude federated participant data. To exclude federated participant data, you must add a query filter for **Second Tenant ID** set to your organization’s [tenant ID](#tenant-id). 
+> Relatórios de dispositivo exigem que você poderá excluir dados participantes federados. Para excluir dados de participante federados, você deve adicionar um filtro de consulta para a **Segunda ID do inquilino** definida como [ID do inquilino](#tenant-id)da sua organização. 
 
 > [!NOTE] 
-> Be sure to adjust the Month Year filter to the current month. Select **Edit**, and adjust **Month Year** to save the new default month.<br><br> You might notice when viewing this report that you see the same device reported multiple times. This is due to the way the device is reported being reported to CQD. Differences in hardware and OS locale report device data differently.
+> Certifique-se de ajuste o filtro de mês ano ao mês atual. Selecione **Editar**e ajustar o **Mês ano** para salvar o novo mês padrão.<br><br> Você poderá observar quando visualizem esse relatório que você veja o mesmo dispositivo relatado várias vezes. Isso acontece devido à maneira como o dispositivo é informado de serem reportados para CQD. Diferenças de hardware e de localidade do sistema operacional relatar dados do dispositivo de forma diferente.
 
-![Screenshot of the Devices (Microphone) report in the Call Quality Dashboard.](media/quality-of-experience-review-guide-image29.png)
+![Captura de tela do relatório de dispositivos (microfone) no painel de qualidade de chamada.](media/quality-of-experience-review-guide-image29.png)
 
-_Figure 29 - – Device (Microphone) Report_
+_Figura 29 - – relatório de dispositivo (microfone)_
 
-##### <a name="remediation"></a>Remediation
+##### <a name="remediation"></a>Remediação
 
-The first task is to determine the MOS target you would like to attain. MOS scores range from 1 to 5, with 5 being the best. Choose a reasonable target based on your environment and query results. In the following example, the target is an MOS score of 3.6 or better for all devices that have over 100 streams. You’ll achieve your device quality target when:
+A primeira tarefa é determinar o alvo de MOS que você gostaria de obter. Intervalo de 1 a 5, com 5 sendo o melhor de pontuações MOS. Escolha um destino razoável, com base em seu ambiente e os resultados da consulta. No exemplo a seguir, o destino será uma pontuação do MOS de 3.6 ou superior para todos os dispositivos que tenham mais de 100 fluxos. Você obterá a qualidade do dispositivo de destino quando:
 
--   The device query results return MOS \> 3.6 for NumStreams \> 100
+-   Os resultados da consulta de dispositivo retornam MOS \> 3.6 para NumStreams \> 100
 
-Typically, you’ll need to replace poorly performing devices with certified devices. Some considerations when reviewing the device report include:
+Normalmente, você precisará substituir dispositivos com desempenho insatisfatório por dispositivos de certificados. Algumas considerações quando analisando o relatório de dispositivo incluem:
 
--   Are the devices certified or known to be good in your environment? If a certified or good device is returned in the query with a lower MOS score than your baseline, there may be unknown additional factors (such as a poor network or underpowered pc) that is contributing to the low score.
-    Additional investigation will be required.
+-   São dispositivos certificados ou conhecidos para ser boas em seu ambiente? Se um dispositivo de certificados ou boa é retornado na consulta com uma pontuação do MOS inferior que sua linha de base, pode haver desconhecidos fatores adicionais (por exemplo, uma rede ruim ou pc capacidade suficiente) que está contribuindo para a pontuação baixa.
+    Investigação adicional será necessária.
 
--   You can identify users of a device through [Call Analytics](#call-analytics-training). Check to make sure they have the latest device drivers and that their device isn’t connected through a USB hub.
+-   Você pode identificar os usuários de um dispositivo por meio da [Análise de chamada](#call-analytics-training). Verifique para garantir que eles têm os drivers de dispositivo mais recentes e que seu dispositivo não está conectado por meio de um hub USB.
 
--   Check to see whether there’s a correlation between bad devices and a particular system’s make and model. If so, the device might be incompatible or need driver upgrades.
+-   Verificar se há uma correlação entre dispositivos ruim e tornar um determinado do sistema e modelo. Em caso afirmativo, o dispositivo talvez não seja compatível ou precisa de atualizações de driver.
 
-The second task is to determine the overall usage of non-certified devices. We recommend that at least 80 percent of all audio streams use a certified device.
-This is best accomplished by exporting the Devices report to Excel and manually calculating the usage of certified or approved devices. Organizations typically keep a list of all approved devices, so filtering and sorting the data should be straightforward.
+A segunda tarefa é determinar o uso geral de dispositivos não-certificados. É recomendável que pelo menos de 80 por cento de todos os fluxos de áudio de usar um dispositivo de certificados.
+Isso é realizado melhor exportando o relatório de dispositivos para o Excel e manualmente Calculando o uso de dispositivos de certificados ou aprovados. As organizações geralmente manter uma lista de todos os dispositivos aprovados, para que filtragem e classificação dos dados devem ser simples.
 
-## <a name="appendix-a-lync-networking-guide"></a>Appendix A. Lync Networking Guide
+## <a name="appendix-a-lync-networking-guide"></a>Guia de rede do apêndice Lync r.
 
-For more background on the Teams and Skype for Business networking concepts and rationale behind their importance to quality, the [Lync Server 2013 Networking Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/) is still applicable.
+Para obter mais informações em equipes e Skype para conceitos de rede de negócios e o raciocínio por trás de sua importância a qualidade, o [Lync Server 2013 Networking Guide](https://blogs.technet.microsoft.com/nexthop/2013/06/03/lync-server-2013-networking-guide-network-planning-monitoring-and-troubleshooting-with-microsoft-lync-server/) é aplicável.
 
-## <a name="appendix-b-network-performance-requirements"></a>Appendix B. Network performance requirements
+## <a name="appendix-b-network-performance-requirements"></a>Requisitos de desempenho do apêndice B. rede
 
-The quality of real-time media (audio, video, and application sharing) over IP is greatly affected by the quality of end-to-end network connectivity. For optimal Teams or Skype for Business media quality, your network must meet the following network performance metrics.
+A qualidade de mídia em tempo real (áudio, vídeo e compartilhamento de aplicativos) sobre IP significativamente é afetada pela qualidade da conectividade de rede de ponta a ponta. Para obter melhor equipes ou Skype para qualidade de mídia de negócios, sua rede deve atender aos seguintes métricas de desempenho de rede.
 
-_Table 11 - Network performance requirements_
+_A tabela 11 - requisitos de desempenho de rede_
 
 | Métrica                           | Cliente para o Microsoft Edge           | Edge do cliente para o Microsoft Edge    |
 |----------------------------------|------------------------------------|------------------------------------|
-| Latency (one way)                | \<50 ms                            | \<30 ms                            |
-| Latency (RTT or Round-trip Time) | \<100 ms                           | \<60 ms                            |
-| Burst packet loss                | \<10% during any 200-ms interval   | \<1% during any 200-ms interval    |
-| Perda de pacote                      | \<1% during any 15-sec interval    | \<0.1% during any 15-sec interval  |
-| Packet inter-arrival Jitter      | \<30 ms during any 15-sec interval | \<15 ms during any 15-sec interval |
-| Packet reorder                   | \<0.05% out-of-order packets       | \< 0.01% out-of-order packets      |
+| Latência (uma maneira)                | \<50 ms                            | \<30 ms                            |
+| Latência (tempo de resposta ou tempo de ida e volta) | \<100 ms                           | \<60 ms                            |
+| Perda de pacotes de intermitência                | \<10% durante qualquer intervalo de 200 ms   | \<1% durante qualquer intervalo de 200 ms    |
+| Perda de pacote                      | \<1% durante qualquer intervalo de 15 segundos    | \<0,1% durante qualquer intervalo de 15 segundos  |
+| Tremulação de entre chegada de pacotes      | \<30 ms durante qualquer intervalo de 15 segundos | \<15 ms durante qualquer intervalo de 15 segundos |
+| Reordenar de pacotes                   | \<% de 0,05 pacotes de fora de ordem       | \<pacotes de fora de ordem 0,01%      |
 
-For more information, see the following article about [media quality and network performance](https://aka.ms/performancerequirements) for Teams and Skype for Business Online.
+Para obter mais informações, consulte o artigo a seguir sobre o [desempenho de rede e qualidade de mídia](https://aka.ms/performancerequirements) para equipes e Skype para negócios Online.
 
 <a name="other-resources"></a>
 
-## <a name="appendix-c-other-resources"></a>Appendix C. Other resources
+## <a name="appendix-c-other-resources"></a>Apêndice C. Outros recursos
 
-### <a name="building-data-file"></a>Building data file
+### <a name="building-data-file"></a>Criando o arquivo de dados
 
--   [Turning on and using CQD in Skype for Business Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
+-   [Ativando e usar CQD no Skype para negócios Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-in-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)
 
 <a name="CQD-training"></a>
 
-### <a name="cqd-training"></a>CQD training
+### <a name="cqd-training"></a>Treinamento de CQD
 
 -   <https://aka.ms/sof-cqd>
 
--   [Getting started with CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) guide and workshop.
+-   Guia de [Introdução ao CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) e workshop.
 
--   [CQD Dimensions and Measures online guide](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
+-   [Guia on-line CQD dimensões e medidas](https://support.office.com/article/Dimensions-and-measures-available-in-Call-Quality-Dashboard-in-Skype-for-Business-Online-e97aeeee-9e43-416f-b433-9cdd63d8874b)
 
-### <a name="call-analytics-training"></a>Call Analytics training
+### <a name="call-analytics-training"></a>Treinamento de análise de chamada
 
--   [Introducing Call Analytics](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
+-   [Apresentando a análise de chamada](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
 -   [Configurar a Análise de Chamada do Skype for Business](https://support.office.com/article/Set-up-Skype-for-Business-Call-Analytics-FBF7247A-84AE-46CC-9204-2C45B1C734CD)
 
@@ -1174,20 +1174,20 @@ For more information, see the following article about [media quality and network
 
 -   [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](https://support.office.com/article/Use-Call-Analytics-to-troubleshoot-poor-Skype-for-Business-call-quality-66945036-ae87-4c08-a0bb-984e50d6b009)
 
-### <a name="call-analytics-support"></a>Call Analytics support
+### <a name="call-analytics-support"></a>Suporte de análise de chamada
 
--   Community: [Skype for Business Preview Program](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
+-   Comunidade: [Skype para o programa de visualização de negócios](https://techcommunity.microsoft.com/t5/Skype-for-Business-Preview/bd-p/SkypeforBusinessPreviewProgram)
 
--   To get support, sign in to our preview portal [www.skypepreview.com](http://www.skypepreview.com), select **Report an issue**, and use the **Create New Bug** option to report an issue. Please note that support engineers are available to provide support from Monday through Friday, between the hours of 6 AM to 9 PM EST. Requests outside of those hours will be triaged the following day.
+-   Para obter suporte, entrar em nosso portal de visualização [www.skypepreview.com](http://www.skypepreview.com), selecione **um problema de relatório**e usar a opção **Criar novo Bug** para relatar algum problema. Observe que os engenheiros de suporte estão disponíveis para oferecer suporte de segunda à sexta-feira, entre os horários de 6 horas para 9 PM EST. Solicitações fora essas horas serão priorizadas do dia seguinte.
 
-### <a name="devices"></a>Devices
+### <a name="devices"></a>Dispositivos
 
--   [Skype for Business Solutions Catalog Personal Peripherals & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [Skype para soluções de negócios pessoais periféricos & PCs de catálogo](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
-### <a name="tenant-reporting"></a>Tenant reporting
+### <a name="tenant-reporting"></a>Relatórios de locatário
 
--   [Office 365 Adoption Content Pack](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
+-   [Pacote de conteúdo de adoção do Office 365](https://blogs.office.com/2017/05/22/announcing-the-public-preview-of-the-office-365-adoption-content-pack-in-powerbi/)
 
 -   [Relatórios do Skype for Business Online](https://support.office.com/article/Skype-for-Business-Online-reporting-4935cddf-fafa-442d-91a3-246af01f8373)
 
--   [Microsoft Teams reporting](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+-   [Relatórios de Teams da Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)

@@ -3,7 +3,6 @@ title: Administradores Definir as configurações do Skype for Business para usu
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
@@ -21,26 +20,26 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 8659434542696ccb37a0353cd491cc0d01f01e30
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 930960117a46639e86ed2d24c286a5270b21acb9
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Definir as configurações do Skype for Business para usuários individuais
 
-Este artigo explica como os administradores configuram o Skype for Business para um pequeno número de usuários. Para fazer estas etapas em massa, incluímos links para cmdlets do Windows PowerShell que você pode usar.
+Este artigo explica como os administradores configuram o Skype for Business para um pequeno número de usuários. To do these steps in bulk, we've included links to the Windows PowerShell cmdlets you can use.
   
 Para permitir (ou impedir) que todos na empresa se comuniquem com pessoas externas, veja:
   
-- [Permitir que os usuários entrar em contato com o Skype externo para usuários comerciais](allow-users-to-contact-external-skype-for-business-users.md): permitem que sua organização use avançadas Skype para recursos corporativos (compartilhamento de desktops, procure por quem está online, etc) para se comunicar com pessoas em uma determinada confiáveis corporativos (federados). O artigo também explica como bloquear a comunicação com domínios específicos.
+- [Allow users to contact external Skype for Business users](allow-users-to-contact-external-skype-for-business-users.md): You can let your organization use advanced Skype for Business features (share desktops, look for who's online, etc.) to communicate with people in a specific trusted (federated) business. The article also explains how to block communication with specific domains.
     
-- [Permitir que o Skype para usuários comerciais adicionar contatos do Skype](let-skype-for-business-users-add-skype-contacts.md). Você pode permitir que sua organização use o Skype for Business para procurar usuários do aplicativo gratuito Skype e enviar mensagens instantâneas para eles.
+- [Let Skype for Business users add Skype contacts](let-skype-for-business-users-add-skype-contacts.md). Você pode permitir que sua organização use o Skype for Business para procurar usuários do aplicativo gratuito Skype e enviar mensagens instantâneas para eles.
     
 ## <a name="configure-general-settings-for-one-user"></a>Definir configurações gerais para um usuário
 <a name="__toc325019204"> </a>
 
-Você deve ter [permissões de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar estas etapas.
+You must have [admin permissions](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) to perform these steps.
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -61,17 +60,17 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
 |**Opção**|**Detalhes**|
 |:-----|:-----|
 |Áudio e vídeo em HD  <br/> |Permita que esta pessoa grave reuniões de áudio, reuniões de áudio e vídeo e áudio, ou não permita que agendem nenhuma reunião (nenhum).  <br/> |
-|Gravar conversas e reuniões  <br/> |Escolha o que esta pessoa tem permissão para gravar.  <br/> Essa opção não está disponível com Skype para básica de negócios.  <br/> |
-|Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  Esta opção desativa a recursos que não são capturados quando você tem um [Bloqueio In-loco](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) configurado no Centro de administração do Exchange. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
+|Gravar conversas e reuniões  <br/> |Escolha o que esta pessoa tem permissão para gravar.  <br/> This option is not available with Skype for Business Basic.  <br/> |
+|Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  Selecting this option turns off features that aren't captured when you have an [In-Place Hold](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) set up in in the Exchange admin center. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
    
-Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenciando diretivas no Skype para negócios Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+To configure these settings in bulk, use PowerShell. See [Managing policies in Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
 ## <a name="block-external-communications"></a>Bloquear comunicações externas
 <a name="__toc325019206"> </a>
 
 Depois de [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md) para todos na sua empresa, você pode bloquear seletivamente as comunicações externas de indivíduos específicos usando estas etapas.
   
-1. Escolher **usuários**, selecione os usuários cujas configurações você deseja desabilitar e escolha **Editar** ![editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Choose **Users**, select the users whose settings you want to disable, and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
 2. Escolha **Comunicações externas** e desmarque as opções conforme apropriado:
     
@@ -81,23 +80,23 @@ Depois de [Permitir que os usuários do Skype for Business adicionem contatos do
     
 3. Clique em **Salvar**.
     
-Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenciando communications no Skype para negócios Online com externo usuários e organizações](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+To configure these settings in bulk, use PowerShell. See [Managing communications in Skype for Business Online with outside users and organizations](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
   
-## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar configurações de conferência de áudio para um usuário
+## <a name="edit-audio-conferencing-settings-for-one-user"></a>Edit audio conferencing settings for one user
 <a name="__toc314837483"> </a>
 
-1. Escolher **usuários**, selecione o usuário cujas configurações de conferência de áudio que você quer editar, e escolha **Editar** ![editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+1. Choose **Users**, select the user whose audio conferencing settings you wan to edit, ,and then choose **Edit** ![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     
-2. Escolha a **conferência de áudio**, selecione seu provedor de serviços de audioconferência, digite ou alterar as informações solicitadas e clique em **Salvar**.
+2. Choose **Audio conferencing**, select your audio conferencing provider, type or change the requested information, and then click **Save**.
     
 |**Configuração da audioconferência**|**Descrição**|
 |:-----|:-----|
-|**Nome do provedor** <br/> |Escolha seu provedor da lista.  <br/> |
-|**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de serviços de audioconferência. Se o usuário está usando o Microsoft como um provedor de serviços de audioconferência, estes serão os números que estão definidos a ponte de conferência de áudio. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft.  <br/> |
-|**Número de chamada gratuita** <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de serviços de audioconferência. Se o usuário está usando o Microsoft como um provedor de serviços de audioconferência, estes serão os números que estão definidos a ponte de conferência de áudio. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft.  <br/> |
-|**PIN e ID de conferência** (necessário) <br/> |O código PIN do participante ou conferência, usado para ingressar em reuniões que são agendadas pelo usuário e são fornecidos a partir de um provedor de serviços de audioconferência de terceiros. Se o usuário está usando o Microsoft como um provedor de serviços de audioconferência, isso não será necessário.  <br/> |
+|**Provider name** <br/> |Choose your provider from the list.  <br/> |
+|**Número de chamada tarifada** (obrigatório) <br/> |For a third-party ACP, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Número de chamada gratuita** <br/> |For a third-party ACP, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Conference ID and PIN** (required) <br/> |The participant PIN, or conference code, used to join meetings that are scheduled by this user and are provided from a third-party audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, this won't be required.  <br/> |
    
-Para definir essas configurações em massa, use o PowerShell. Consulte [Definir convidam números incluídos no telefone](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
+To configure these settings in bulk, use PowerShell. See [Set the phone numbers included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

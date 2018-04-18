@@ -3,7 +3,7 @@ title: Guia de operações para equipes da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: lehewe
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -11,11 +11,11 @@ description: Tarefas e atividades necessárias para gerenciamento de serviço de
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d64da9bbe792031afbb3538020b7ff92fbaf493
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 4d9b76d62457c541924c6f72eb246bf63f1fe026
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="operate-my-service"></a>Operar o meu serviço
 
@@ -372,7 +372,7 @@ Essa função requer habilidades a identificar tendências no ambiente e o patro
 O campeão de qualidade aproveita as ferramentas existentes e processos documentados, como o painel de controle de qualidade de chamada (CQD) e o guia de revisão qualidade de experiência, para monitorar a experiência do usuário, identificam tendências de qualidade e remediação de unidade onde for necessário.
 O campeão de qualidade deve trabalhar com as respectivas equipes às ações de remediação de unidade e relatório para um comitê de orientação sobre o progresso e quaisquer problemas em aberto.
 
-A [Qualidade da experiência Revise o guia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) inclui atividades que avaliam e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário. As diretrizes fornecidas no guia de revisão de experiência de qualidade enfoca usando CQD Online como a ferramenta principal para relatar e investigar cada área, com foco para maximizar a adoção e o impacto de áudio. Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
+A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui atividades que avaliam e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário. As diretrizes fornecidas no guia de revisão de experiência de qualidade enfoca usando CQD Online como a ferramenta principal para relatar e investigar cada área, com foco para maximizar a adoção e o impacto de áudio. Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
 
 É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no Revise o guia de qualidade de experiência e materiais de treinamento associado.
 
@@ -394,7 +394,7 @@ A [Qualidade da experiência Revise o guia](https://github.com/MicrosoftDocs/Off
 
 [Informações de construção de carregamento](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Qualidade da experiência Revise o guia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)
+[Qualidade da experiência Revise o guia](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -443,7 +443,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Requisitos de ponto de extremidade    | Certifique-se de que o ponto de extremidade das equipes continua a atender a todos os requisitos de software para equipes [obter clientes para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).                                                                                                                                                                                       | Mensal   |               |
 | Firewalls do ponto de extremidade       | Manter as exclusões apropriadas no ponto de extremidade firewall com base nas informações no artigo [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips) . O fornecedor terceirizado terão orientação específica para como manter as exclusões. Assine o [RSS feed](https://support.office.com/en-us/o365ip/rss) para ser notificado automaticamente das alterações. | Conforme necessário |               |
-| Drivers de Wi-Fi            | Testar e atualizar os drivers de Wi-Fi no PC. Valide os resultados usando CQD ([Guia de revisão do Quality of Experience](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr/blob/CloudVoice-working/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)).                                                                                                                                                                                                                                                                   | Conforme necessário |               |
+| Drivers de Wi-Fi            | Testar e atualizar os drivers de Wi-Fi no PC. Valide os resultados usando CQD ([Guia de revisão do Quality of Experience](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Conforme necessário |               |
 | Gerenciamento de ponto de extremidade      | Manter o catálogo de pontos de extremidade com suporte e dispositivos de interface (por exemplo, headsets). Gerenciar contratos de fornecedores, garantia, distribuição, substituição e reparar políticas.                                                                                                                                                                                                        | Mensal   |               |
 | Solução de problemas do ponto de extremidade | Tarefas de solução de problemas pode incluir; Verificando a conectividade, a lista de problemas conhecidos, log de coleta, análise e escalonamento para o Microsoft Support ou fornecedores terceirizados de consultoria.                                                                                                                                                                                               | Conforme necessário |               |
 
@@ -564,6 +564,6 @@ Continuamente avaliando e correção as áreas descritas neste documento, você 
 
 As diretrizes fornecidas no guia de revisão de experiência de qualidade enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio. Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
 
-É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no [Revise o guia de qualidade da experiência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no [Revise o guia de qualidade da experiência](https://aka.ms/qerguide).
 
 <!--ENDOFSECTION-->

@@ -1,10 +1,9 @@
 ---
-title: Otimizar sua rede
+title: Optimizing your network
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mpottier, dougand
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: b363bdca-b00d-4150-96c3-ec7eab5a8a43
 ms.tgt.pltfrm: cloud
@@ -18,16 +17,16 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: Os seguintes requisitos são realmente importantes para garantir a integridade de longo prazo e o sucesso do Skype todos os recursos de Business Online você estiver configurando para sua organização. Nós sabemos que algumas das você são muito técnicas - este documento é para você, mas há algumas das que não são. Se você precisar de ajuda para configurar Skype para Business Online, você deve ler este documento para se familiarizar com as coisas que você precisa considerar. Ele também fornecerá a você as coisas para falar sobre quando você estiver trabalhando com Microsoft FastTrack Center, seu Microsoft Services e equipes de conta, ou com parceiros da Microsoft para descobrir como você pode atender a esses requisitos.
-ms.openlocfilehash: 7817929f89731e13b09f5a6287493ea322b223d1
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: The following requirements are really important to ensure the long-term health and success for all Skype for Business Online features you are setting up for your organization. We know some of you are very technical - this document is for you, but there are some of you that aren't. If you need help setting up Skype for Business Online, you should read this document to become familiar with the things you need to consider. It will also give you things to talk about when you are working with the Microsoft FastTrack Center, your Microsoft Services and account teams, or with Microsoft partners to figure out how you can meet these requirements.
+ms.openlocfilehash: 8a6100098b2aee96ce0f9d8792f001b35b682560
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Como otimizar sua rede para o Skype for Business Online
 
-Os seguintes requisitos são realmente importantes para garantir a integridade de longo prazo e o sucesso do Skype todos os recursos de Business Online você estiver configurando para sua organização. Nós sabemos que algumas das você são muito técnicas - este documento é para você, mas há algumas das que não são. Se você precisar de ajuda para configurar Skype para Business Online, você deve ler este documento para se familiarizar com as coisas que você precisa considerar. Ele também fornecerá a você as coisas para falar sobre quando você estiver trabalhando com o [Microsoft FastTrack Center](https://fasttrack.microsoft.com/office), seu Microsoft Services e equipes de conta, ou com [parceiros da Microsoft](https://partnercenter.microsoft.com/en-us/pcv/search) para descobrir como você pode atender a esses requisitos.
+The following requirements are really important to ensure the long-term health and success for all Skype for Business Online features you are setting up for your organization. We know some of you are very technical - this document is for you, but there are some of you that aren't. If you need help setting up Skype for Business Online, you should read this document to become familiar with the things you need to consider. It will also give you things to talk about when you are working with the [Microsoft FastTrack Center](https://fasttrack.microsoft.com/office), your Microsoft Services and account teams, or with [Microsoft partners](https://partnercenter.microsoft.com/en-us/pcv/search) to figure out how you can meet these requirements.
   
 ## <a name="a-quick-overview"></a>Uma rápida visão geral
 
@@ -51,7 +50,7 @@ Com o Skype for Business, você pode:
 
 A qualidade das mídias em tempo real (áudio, vídeo e compartilhamento de aplicativos) por meio de IP é bastante afetada pela qualidade da conectividade de rede de ponta a ponta. Para obter uma excelente qualidade de mídia com o Skype for Business Online, é importante ter uma conexão de alta qualidade entre a rede da sua empresa e o Skype for Business Online. A melhor maneira de conseguir isso é configurar sua rede interna e a conectividade de nuvem com base na capacidade da sua rede para acomodar o volume de pico de tráfego do Skype for Business Online em todas as conexões.
   
-Trabalhando com um [parceiro da Microsoft](https://partnercenter.microsoft.com/en-us/pcv/search), você pode se conectar a uma variedade de aplicativos do Office 365 incluindo Skype para Business Online na nuvem para sua rede e voz em tempo real e recursos de comunicação de vídeo para Skype para negócios exigem rede serviços devem ser configurados especificamente para oferecer suporte a essas cargas de trabalho do Office 365 em tempo real. Isso inclui uma rede com largura de banda suficiente para transportar o volume de tráfego necessário e que pode dar suporte a Qualidade de Serviço (QoS) para oferecer uma experiência de classe empresarial aos usuários.
+Working with a [Microsoft partner](https://partnercenter.microsoft.com/en-us/pcv/search), you can connect a variety of Office 365 applications including Skype for Business Online in the cloud to your network and real-time voice and video communications capabilities for Skype for Business require network services must be specifically configured to support these Office 365 real-time workloads. Isso inclui uma rede com largura de banda suficiente para transportar o volume de tráfego necessário e que pode dar suporte a Qualidade de Serviço (QoS) para oferecer uma experiência de classe empresarial aos usuários.
   
 Juntamente com as informações aqui, há outros recursos que podem ajudar você a planejar e implantar os serviços e recursos do Skype for Business Online e garantir que seus serviços de rede cumpram esses requisitos:
   
@@ -67,7 +66,7 @@ Antes de migrar para o Skype for Business Online, você deve dar uma olhada na c
   
 O tráfego em tempo real do Skype for Business é sensível à perda de pacotes, atraso e tremulação, que ocorrem frequentemente em redes congestionadas. A QoS (Qualidade de Serviço), às vezes chamada de Classe de Serviço, também deve ser implantada em WANs externas gerenciadas, LANs internas gerenciadas e redes Wi-Fi baseadas em empresas. Isso ajudará a priorizar adequadamente o tráfego em tempo real do Skype for Business, como áudio e vídeo, em vez de outro tráfego que não seja em tempo real nas redes locais e pela WAN, criando uma melhor experiência para os usuários finais.
   
-O áudio do Skype for Business deve ser implantado na fila EF (Expedited Forwarding - DSCP 46), e o vídeo do Skype for Business deve ser implantado na fila AF41 (Assured Forwarding - DSCP 34). Isso é verdadeiro mesmo para tráfego de ponto a ponto e conferências, independentemente se o sistema telefônico no Office 365 ou outros recursos de telefonia estão sendo implantados.
+O áudio do Skype for Business deve ser implantado na fila EF (Expedited Forwarding - DSCP 46), e o vídeo do Skype for Business deve ser implantado na fila AF41 (Assured Forwarding - DSCP 34). This is true even for peer-to-peer and conferencing traffic, regardless of whether Phone System in Office 365 or other telephony features are being deployed.
   
 Enquanto políticas de QoS existentes podem já estar em vigor na LAN e na WAN para outros produtos de telefonia IP, o Skype for Business proporciona mobilidade aos usuários, que podem se deslocar de um local para outro durante o uso do serviço. Por causa disso, as políticas de QoS devem ser marcadas na LAN, na WAN e em redes sem fio, a fim de ter certeza de que todo o tráfego do Skype for Business esteja sendo priorizado nas redes gerenciadas.
   
@@ -75,7 +74,7 @@ Para ajudar você a dimensionar sua rede, baixe a [Calculadora de Largura de Ban
   
 Para saber mais sobre qualidade de mídia e QoS, veja [Qualidade de Mídia e Desempenho de Conectividade de Rede no Skype for Business Online](media-quality-and-network-connectivity-performance.md).
   
-Para obter mais informações sobre como configurar e gerenciar o QoS, consulte [Gerenciando Quality of Service](https://technet.microsoft.com/en-us/library/gg425841.aspx).
+For more about setting up and managing QoS, see [Managing Quality of Service](https://technet.microsoft.com/en-us/library/gg425841.aspx).
   
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>Ignorar proxies e dispositivos de otimização de WAN
 
@@ -123,7 +122,7 @@ Uma configuração de rede adicional também pode ser necessária para suporte a
   
 ## <a name="use-phones-and-devices-optimized-for-skype-for-business"></a>Usar telefones e dispositivos otimizados para o Skype for Business.
 
-Em uma sessão de mídia em tempo real, dispositivos de mídia que são usados por todos os participantes, como headsets e webcams, têm grande impacto sobre a qualidade geral do áudio e do vídeo. Dispositivos de qualidade inferior ou dispositivos com drivers de dispositivo incorreto causarão qualidade geral som inferior para qualidade de imagem de áudio e mais baixa para vídeo. Por outro lado, dispositivos certificados ou de boa qualidade ajudam a eliminar o eco, filtram ruídos, aumentam a resolução de vídeo e reduzem a latência.
+Em uma sessão de mídia em tempo real, dispositivos de mídia que são usados por todos os participantes, como headsets e webcams, têm grande impacto sobre a qualidade geral do áudio e do vídeo. Lower-quality devices or devices with incorrect device drivers will produce lower overall sound quality for audio and lower image quality for video. Por outro lado, dispositivos certificados ou de boa qualidade ajudam a eliminar o eco, filtram ruídos, aumentam a resolução de vídeo e reduzem a latência.
   
 Telefones e dispositivos fazem uma enorme diferença na qualidade do áudio e do vídeo para usuários finais. O programa de certificação do Skype for Business é uma evolução do programa "Compatível com Lync" e valida que o dispositivo atende aos padrões da Microsoft para áudio e vídeo. Há uma série de telefones IP, dispositivos de áudio e vídeo USB, computadores e dispositivos para salas de reuniões que foram testados e qualificados pela Microsoft. Você deve examinar a lista de dispositivos que são otimizados para o Skype for Business e trabalhar para fornecer diferentes dispositivos, a fim de atender às diferentes necessidades e preferências pessoais dos usuários finais na sua organização.
   
@@ -139,7 +138,7 @@ Para obter mais informações sobre dispositivos aceitos e certificados, veja as
     
 O ambiente e a área vizinha onde os usuários estão fazendo a reunião e usando dispositivos de áudio e vídeo são outro fator importante para a qualidade. Os usuários que fizerem chamadas em um ambiente barulhento terão áudio com eco, abafado e indistinto. Os usuários que estiverem em um ambiente escuro ou com pouca luz não obterão uma qualidade de imagem clara e viva. Em uma sala de conferência, o local do microfone e do dispositivo de vídeo afeta diretamente a qualidade do som e da imagem que os participantes receberão.
   
-Para obter uma imagem mais nítida de uso de áudio e vídeo de experiência do usuário do Skype para o aplicativo de negócios **Ferramentas** > **Opções** > **Dispositivo de áudio** ou **Dispositivo de vídeo** para fazer alterações para o dispositivo em uso e personalizar as configurações de TI. Você também pode verificar a qualidade de áudio de uma chamada ao clicar em **Verificar qualidade da chamada**. Quando você clica em **Verificar Qualidade da Chamada**, é possível reportar a qualidade e os problemas encontrados na chamada de teste.
+To get a clearer picture of a user's audio and video experience use the Skype for Business app **Tools** > **Options** > **Audio Device** or **Video Device** to make changes to the device in use and customize it's settings. You can also check the audio quality of a call by clicking **Check Call Quality**. Quando você clica em **Verificar Qualidade da Chamada**, é possível reportar a qualidade e os problemas encontrados na chamada de teste.
   
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
   

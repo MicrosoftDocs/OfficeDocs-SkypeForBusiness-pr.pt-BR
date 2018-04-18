@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 03/30/2018
 ms.topic: article
 ms.assetid: 57893158-1acd-44ac-acaf-19f58264a9e0
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 4f591807dcfb4ed4b4d9fceb8340ba18b11549ec
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 194f38811766f96ad192b38730158f01ce9ab234
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-calling-plans"></a>Configurar planos de chamada
 Chamadas para outro Skype para usuários corporativos são livres, mas se quiser que os usuários possam chamar telefones fora da sua empresa, fazer um planejamento chamar domésticas ou internacional chamar planejar no Office 365. É fácil configurar isso-se no seu negócio. 
@@ -46,7 +45,7 @@ Acesse a [disponibilidade do país e região para conferência de áudio e chama
 ## <a name="step-3-get-phone-numbers"></a>Etapa 3: Obter os números de telefone
 Há três maneiras de obter novos números de usuário:
 
-- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus usuários usando o Skype para centro de administração de negócios, consulte [Obtendo os números de telefone para seus usuários.](../what-is-phone-system-in-office-365/getting-phone-numbers-for-your-users.md).
+- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus usuários usando o Skype para centro de administração de negócios, consulte [Obtendo os números de telefone para seus usuários.](getting-phone-numbers-for-your-users.md).
     
 - **Porta de seus números de existentes.** Você pode porta ou transferir números existentes do seu provedor de serviço atual ou a operadora de telefone para o Office 365. Consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo a fazer isso.  
   

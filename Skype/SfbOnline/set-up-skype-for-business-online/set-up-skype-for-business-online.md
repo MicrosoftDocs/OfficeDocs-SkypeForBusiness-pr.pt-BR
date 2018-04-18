@@ -3,7 +3,6 @@ title: Configurar o Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud
@@ -22,11 +21,11 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Saiba como configurar seu domínio, usuários, IM e presença para sua organização para instalar o Skype para negócios. Consulte também como configurar serviços de audioconferência, sistema telefônico e chamar planos e transmissão de reunião do Skype. '
-ms.openlocfilehash: ad0608dbb637b4b2343bf39d47b2beea0ca9e12c
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 2b542d3d2f19d03db3137c6e7939ed3cd4a26d31
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar o Skype for Business Online
   

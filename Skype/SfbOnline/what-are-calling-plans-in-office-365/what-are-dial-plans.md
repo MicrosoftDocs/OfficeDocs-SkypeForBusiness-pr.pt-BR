@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b
 ms.tgt.pltfrm: cloud
@@ -25,11 +24,11 @@ description: 'Saiba como escolher uma para sua organização e que tipo de disca
 search.appverid:
 - MED150
 - MOE150
-ms.openlocfilehash: 8e32143b78d9ed6da81910f24ecf2bcbe9baaf70
-ms.sourcegitcommit: cacd16f596460c1400dd514437794afd04bddadc
+ms.openlocfilehash: c24727dec0a9d938b3b0e40ef6f47501944e70e1
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="what-are-dial-plans"></a>Quais são os planos de discagem?
 

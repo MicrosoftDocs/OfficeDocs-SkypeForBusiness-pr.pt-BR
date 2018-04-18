@@ -1,10 +1,9 @@
 ---
-title: Os usuários podem fazer chamadas de saída para esses países e regiões
+title: Users can make outbound calls to these countries and regions
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
@@ -20,19 +19,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Este tópico contém todos os países/regiões que os usuários podem fazer chamadas de saída para que tenham um plano de chamada.
-ms.openlocfilehash: 9cac97144bec681773eca2811751525e0c2950d5
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: This topic contains all of the countries/regions that users can place outbound calls to if they have a Calling Plan.
+ms.openlocfilehash: bd8ce62b5f1d5c8b032503a045e40c72bbe5d00b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas de saída para esses países e regiões
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Users can make outbound calls to these countries and regions
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>Consulte o que os usuários de países/regiões podem fazer chamadas de saída para se o usuário tem um doméstico ou nacionais e licença internacional chamar planejar
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-a-domestic-or-domestic-and-international-calling-plan-license"></a>See what countries/regions users can make outbound calls to if the user has a Domestic or Domestic and International Calling Plan license
 
 
-|**UMA - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
+|**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
 ---|---|---|---|---|---|
 |Afeganistão|Equador |Islândia |Macau |Paquistão |Taiwan   |
 |Albânia|Egito |Índia |Macedônia |Palau |Tajiquistão   |

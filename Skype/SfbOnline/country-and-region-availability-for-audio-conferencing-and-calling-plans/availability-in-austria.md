@@ -1,10 +1,9 @@
 ---
-title: Availability in Austria
+title: Disponibilidade em Áustria
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 298c6df7-0054-48cf-867c-082bdb695999
 ms.tgt.pltfrm: cloud
@@ -21,25 +20,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Here are the Office 365 services for Skype for Business and Microsoft Teams available for Austria.
-ms.openlocfilehash: aa3b78dbd5c22137ec6887df19ecfa46da55b993
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Áustria.
+ms.openlocfilehash: 63a8c8a5ed29c2605e4ce405f7e0cadc9ff0373b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="availability-in-austria"></a>Availability in Austria
+# <a name="availability-in-austria"></a>Disponibilidade em Áustria
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Here are the Office 365 services for Skype for Business and Microsoft Teams available for Austria.
+Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Áustria.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Yes, for Vienna. Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para Viena. Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia

@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.date: 03/22/2018
 ms.topic: article
 ms.assetid: 3ed752b1-5983-43f9-bcfd-760619ab40a7
 ms.tgt.pltfrm: cloud
@@ -23,11 +22,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento recursos aos quais você obterá com ele, como comprá-los para o seu produto e como usar sua operadora existente com eles. Você pode obter informações sobre preços e plano de detalhes para o Office 365, créditos de comunicação, e planos de chamada. '
-ms.openlocfilehash: eaaf093e49dd6719d8cea8b1543f248f29467a57
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 0b479d25e074c22aa83c66f06ec8034e9a38d92a
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype para licenciamento de complemento Teams da Microsoft e de negócios
 
