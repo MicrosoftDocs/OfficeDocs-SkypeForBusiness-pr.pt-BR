@@ -3,7 +3,6 @@ title: Configurar o computador para o Windows PowerShell
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: ebf5adf0-d848-4e99-baf4-387d1711e1d0
 ms.tgt.pltfrm: cloud
@@ -17,44 +16,44 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Descubra os requisitos para o gerenciamento remoto do Skype para negócios Online por meio do Windows PowerShell, incluindo os sistemas operacionais suportados.
-ms.openlocfilehash: 16ff297e7a7730bdba9a0172efe6d1c559f3050e
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 94f5fe81e510b5722bde38a64fe3f8473a7f5c8b
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="set-up-your-computer-for-windows-powershell"></a><span data-ttu-id="c903f-103">Configurar o computador para o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c903f-103">Set up your computer for Windows PowerShell</span></span>
+# <a name="set-up-your-computer-for-windows-powershell"></a><span data-ttu-id="f7e0f-103">Configurar o computador para o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="f7e0f-103">Set up your computer for Windows PowerShell</span></span>
 
-<span data-ttu-id="c903f-104">Gerenciamento remoto do Skype para Business Online usando o Microsoft PowerShell tem suporte apenas nos computadores de 64 bits executando um dos seguintes sistemas operacionais:</span><span class="sxs-lookup"><span data-stu-id="c903f-104">Remote management of Skype for Business Online by using Microsoft PowerShell is supported only on 64-bit computers running one of the following operating systems:</span></span>
+<span data-ttu-id="f7e0f-104">Gerenciamento remoto do Skype para Business Online usando o Microsoft PowerShell tem suporte apenas nos computadores de 64 bits executando um dos seguintes sistemas operacionais:</span><span class="sxs-lookup"><span data-stu-id="f7e0f-104">Remote management of Skype for Business Online by using Microsoft PowerShell is supported only on 64-bit computers running one of the following operating systems:</span></span>
   
-- <span data-ttu-id="c903f-105">Windows 10</span><span class="sxs-lookup"><span data-stu-id="c903f-105">Windows 10</span></span>
+- <span data-ttu-id="f7e0f-105">Windows 10</span><span class="sxs-lookup"><span data-stu-id="f7e0f-105">Windows 10</span></span>
     
-- <span data-ttu-id="c903f-106">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="c903f-106">Windows 8.1</span></span>
+- <span data-ttu-id="f7e0f-106">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="f7e0f-106">Windows 8.1</span></span>
     
-- <span data-ttu-id="c903f-107">Windows 8</span><span class="sxs-lookup"><span data-stu-id="c903f-107">Windows 8</span></span>
+- <span data-ttu-id="f7e0f-107">Windows 8</span><span class="sxs-lookup"><span data-stu-id="f7e0f-107">Windows 8</span></span>
     
-- <span data-ttu-id="c903f-108">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="c903f-108">Windows Server 2012 R2</span></span>
+- <span data-ttu-id="f7e0f-108">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="f7e0f-108">Windows Server 2012 R2</span></span>
     
-- <span data-ttu-id="c903f-109">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="c903f-109">Windows Server 2012</span></span>
+- <span data-ttu-id="f7e0f-109">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="f7e0f-109">Windows Server 2012</span></span>
     
-- <span data-ttu-id="c903f-110">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="c903f-110">Windows Server 2008</span></span>
+- <span data-ttu-id="f7e0f-110">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="f7e0f-110">Windows Server 2008</span></span>
     
-- <span data-ttu-id="c903f-111">Windows 7</span><span class="sxs-lookup"><span data-stu-id="c903f-111">Windows 7</span></span>
+- <span data-ttu-id="f7e0f-111">Windows 7</span><span class="sxs-lookup"><span data-stu-id="f7e0f-111">Windows 7</span></span>
     
-<span data-ttu-id="c903f-112">Além do sistema operacional com suporte, o computador também deve estar executando o seguinte:</span><span class="sxs-lookup"><span data-stu-id="c903f-112">In addition to the supported operating system, the computer must also be running the following:</span></span>
+<span data-ttu-id="f7e0f-112">Além do sistema operacional com suporte, o computador também deve estar executando o seguinte:</span><span class="sxs-lookup"><span data-stu-id="f7e0f-112">In addition to the supported operating system, the computer must also be running the following:</span></span>
   
-- <span data-ttu-id="c903f-113">PowerShell</span><span class="sxs-lookup"><span data-stu-id="c903f-113">PowerShell</span></span>
+- <span data-ttu-id="f7e0f-113">PowerShell</span><span class="sxs-lookup"><span data-stu-id="f7e0f-113">PowerShell</span></span>
     
-- <span data-ttu-id="c903f-114">Skype para módulo Business Connector Online</span><span class="sxs-lookup"><span data-stu-id="c903f-114">Skype for Business Online Connector module</span></span>
+- <span data-ttu-id="f7e0f-114">Skype para módulo Business Connector Online</span><span class="sxs-lookup"><span data-stu-id="f7e0f-114">Skype for Business Online Connector module</span></span>
     
-<span data-ttu-id="c903f-115">Você pode encontrar informações sobre como baixar e instalar esses itens nos seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="c903f-115">You can find information about downloading and installing these items in the following topics:</span></span>
+<span data-ttu-id="f7e0f-115">Você pode encontrar informações sobre como baixar e instalar esses itens nos seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="f7e0f-115">You can find information about downloading and installing these items in the following topics:</span></span>
   
-- [<span data-ttu-id="c903f-116">Baixe e instale o Skype para módulo Business Connector Online</span><span class="sxs-lookup"><span data-stu-id="c903f-116">Download and install the Skype for Business Online Connector module</span></span>](download-and-install-the-skype-for-business-online-connector.md)
+- [<span data-ttu-id="f7e0f-116">Baixe e instale o Skype para módulo Business Connector Online</span><span class="sxs-lookup"><span data-stu-id="f7e0f-116">Download and install the Skype for Business Online Connector module</span></span>](download-and-install-the-skype-for-business-online-connector.md)
     
-- [<span data-ttu-id="c903f-117">Baixar e instalar o Windows PowerShell 3.0</span><span class="sxs-lookup"><span data-stu-id="c903f-117">Download and install Windows PowerShell 3.0</span></span>](download-and-install-windows-powershell-3-0.md)
+- [<span data-ttu-id="f7e0f-117">Baixar e instalar o Windows PowerShell 3.0</span><span class="sxs-lookup"><span data-stu-id="f7e0f-117">Download and install Windows PowerShell 3.0</span></span>](download-and-install-windows-powershell-3-0.md)
     
-## <a name="related-topics"></a><span data-ttu-id="c903f-118">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="c903f-118">Related topics</span></span>
-[<span data-ttu-id="c903f-119">Diagnosticar problemas de conexão com o Skype para o business connector online</span><span class="sxs-lookup"><span data-stu-id="c903f-119">Diagnose connection problems with the skype for business online connector</span></span>](diagnose-problems-with-the-skype-for-business-online-connector.md)
+## <a name="related-topics"></a><span data-ttu-id="f7e0f-118">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="f7e0f-118">Related topics</span></span>
+[<span data-ttu-id="f7e0f-119">Diagnosticar problemas de conexão com o Skype para o business connector online</span><span class="sxs-lookup"><span data-stu-id="f7e0f-119">Diagnose connection problems with the skype for business online connector</span></span>](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   
  

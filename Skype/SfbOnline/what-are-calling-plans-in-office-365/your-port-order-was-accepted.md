@@ -4,7 +4,6 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.date: 01/22/2018
 ms.topic: article
 ms.assetid: 5c2e57c2-76c4-4a36-9d01-92cd15c5eb3e
 ms.tgt.pltfrm: cloud
@@ -21,37 +20,37 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 946c07c7d5a686b755fa0a9694552ee6afe02890
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 9f6f74138dcfbc8db306ddb847e6eedce28af8e6
+ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="your-port-order-was-accepted"></a><span data-ttu-id="2bfea-103">Seu pedido de portabilidade foi aceito</span><span class="sxs-lookup"><span data-stu-id="2bfea-103">Your port order was accepted</span></span>
+# <a name="your-port-order-was-accepted"></a><span data-ttu-id="1ac08-103">Seu pedido de portabilidade foi aceito</span><span class="sxs-lookup"><span data-stu-id="1ac08-103">Your port order was accepted</span></span>
 
-<span data-ttu-id="2bfea-104">Seu pedido de porta em particular for aprovado!</span><span class="sxs-lookup"><span data-stu-id="2bfea-104">Your port order is approved!</span></span> <span data-ttu-id="2bfea-105">Procure por seus números de telefone do **Skype para centro de administração de negócios** > **voz** > **números de telefone**.</span><span class="sxs-lookup"><span data-stu-id="2bfea-105">Look for your phone numbers in the **Skype for Business admin center** > **Voice** > **Phone numbers**.</span></span>
+<span data-ttu-id="1ac08-104">Seu pedido de porta em particular for aprovado!</span><span class="sxs-lookup"><span data-stu-id="1ac08-104">Your port order is approved!</span></span> <span data-ttu-id="1ac08-105">Procure por seus números de telefone do **Skype para centro de administração de negócios** > **voz** > **números de telefone**.</span><span class="sxs-lookup"><span data-stu-id="1ac08-105">Look for your phone numbers in the **Skype for Business admin center** > **Voice** > **Phone numbers**.</span></span>
   
- <span data-ttu-id="2bfea-106">**IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.</span><span class="sxs-lookup"><span data-stu-id="2bfea-106">**IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
+ <span data-ttu-id="1ac08-106">**IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.</span><span class="sxs-lookup"><span data-stu-id="1ac08-106">**IMPORTANT**: For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
   
-<span data-ttu-id="2bfea-107">Agora que ele for aprovado e seus números de telefone estiver prontos, você precisará fazer algumas coisas a fazer tudo configurado.</span><span class="sxs-lookup"><span data-stu-id="2bfea-107">Now that it's approved and your phone numbers are ready, you will need to do a couple things to get everything set up.</span></span>
+<span data-ttu-id="1ac08-107">Agora que ele for aprovado e seus números de telefone estiver prontos, você precisará fazer algumas coisas a fazer tudo configurado.</span><span class="sxs-lookup"><span data-stu-id="1ac08-107">Now that it's approved and your phone numbers are ready, you will need to do a couple things to get everything set up.</span></span>
   
-- <span data-ttu-id="2bfea-108">Verifique se você [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="2bfea-108">Make sure you [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span> <span data-ttu-id="2bfea-109">Você precisará de um **Sistema telefônico** e **Chamar domésticas planejar** ou **Internacional chamar planejar**.</span><span class="sxs-lookup"><span data-stu-id="2bfea-109">You will need an **Phone System** and **Domestic Calling Plan** or **International Calling Plan**.</span></span>
+- <span data-ttu-id="1ac08-108">Verifique se você [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span><span class="sxs-lookup"><span data-stu-id="1ac08-108">Make sure you [Skype for Business and Microsoft Teams add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).</span></span> <span data-ttu-id="1ac08-109">Você precisará de um **Sistema telefônico** e **Chamar domésticas planejar** ou **Internacional chamar planejar**.</span><span class="sxs-lookup"><span data-stu-id="1ac08-109">You will need an **Phone System** and **Domestic Calling Plan** or **International Calling Plan**.</span></span>
     
-- <span data-ttu-id="2bfea-110">Criar seu [Adicionar ou remover uma emergência de endereços para sua organização](add-or-remove-an-emergency-address-for-your-organization.md) e, se desejar, sua[Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md) (em alguns países/regiões, você obtém um endereço de emergência com o número de telefone).</span><span class="sxs-lookup"><span data-stu-id="2bfea-110">Create your [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) and, if you want to, your[Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md) (in some countries/regions, you get an emergency address with the phone number).</span></span>
+- <span data-ttu-id="1ac08-110">Criar seu [Adicionar ou remover uma emergência de endereços para sua organização](add-or-remove-an-emergency-address-for-your-organization.md) e, se desejar, sua[Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md) (em alguns países/regiões, você obtém um endereço de emergência com o número de telefone).</span><span class="sxs-lookup"><span data-stu-id="1ac08-110">Create your [Add or remove an emergency address for your organization](add-or-remove-an-emergency-address-for-your-organization.md) and, if you want to, your[Add, change, or remove an emergency location for your organization](add-change-or-remove-an-emergency-location-for-your-organization.md) (in some countries/regions, you get an emergency address with the phone number).</span></span>
     
-- <span data-ttu-id="2bfea-111">Vá em frente e [atribuir, alterar ou remover um número de telefone para um usuário](assign-change-or-remove-a-phone-number-for-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="2bfea-111">Go ahead and [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).</span></span>
+- <span data-ttu-id="1ac08-111">Vá em frente e [atribuir, alterar ou remover um número de telefone para um usuário](assign-change-or-remove-a-phone-number-for-a-user.md).</span><span class="sxs-lookup"><span data-stu-id="1ac08-111">Go ahead and [Assign, change, or remove a phone number for a user](assign-change-or-remove-a-phone-number-for-a-user.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2bfea-112">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="2bfea-112">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="1ac08-112">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="1ac08-112">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="2bfea-113">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="2bfea-113">Related topics</span></span>
-[<span data-ttu-id="2bfea-114">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="2bfea-114">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="1ac08-113">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="1ac08-113">Related topics</span></span>
+[<span data-ttu-id="1ac08-114">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="1ac08-114">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
 
-[<span data-ttu-id="2bfea-115">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="2bfea-115">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="1ac08-115">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="1ac08-115">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="2bfea-116">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="2bfea-116">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="1ac08-116">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="1ac08-116">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
 
-[<span data-ttu-id="2bfea-117">Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="2bfea-117">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
+[<span data-ttu-id="1ac08-117">Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="1ac08-117">Skype for Business Online: Emergency Calling disclaimer label</span></span>](https://go.microsoft.com/fwlink/?LinkID=692099)
 
   
  
