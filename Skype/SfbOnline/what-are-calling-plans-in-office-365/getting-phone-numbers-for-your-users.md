@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn how to get new, port, or transfer existing numbers for Skype for Business, and how to show the changes to your users. '
-ms.openlocfilehash: 7bd4acd7155851ec99b95fca63f151c477fa70ae
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c9e5d08879f9ec176cbe4659d49e351ba08ffce7
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtendo números de telefone para seus usuários
 
@@ -33,7 +33,7 @@ Antes de você pode configurar os usuários em sua organização façam e receba
   
 Há três maneiras de obter novos números de usuário:
 
-- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus usuários usando o Skype para centro de administração de negócios, consulte [Obtendo números de telefone para seus usuários.](getting-phone-numbers-for-your-users.md).
+- **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus usuários usando o Skype para centro de administração de negócios, consulte [Getting números de telefone para seus usuários](getting-phone-numbers-for-your-users.md).
     
 - **Porta de seus números de existentes.** Você pode porta ou transferir números existentes do seu provedor de serviço atual ou a operadora de telefone para o Office 365. Consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo a fazer isso.  
   
@@ -44,9 +44,7 @@ Você deve usar a página **Adicionar novo usuário números** para ver, pesquis
 > [!NOTE]
 > Se você precisar de ajuda para configurar números de telefone para sua organização, você pode [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
-## 
-
- **Obtenha novos números de telefone para seus usuários**
+## <a name="get-new-phone-numbers-for-your-users"></a>Obtenha novos números de telefone para seus usuários
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -54,7 +52,8 @@ Você deve usar a página **Adicionar novo usuário números** para ver, pesquis
     
 3. No painel de navegação esquerdo, vá para **voz** > **números de telefone**, clique em **Adicionar novo número** ![botão Adicionar](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)e clique em **novo usuário números**.
     
-    **IMPORTANTE**: para ver a opção **Voz** na navegação à esquerda no Centro de Administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento de **Sistema Telefônico** ou uma licença de complemento de **Audioconferência**.
+    > [!IMPORTANT]
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
 4. Na página **Adicionar novos números de usuário** , escolha o seguinte:
     

@@ -266,7 +266,7 @@
 
 # Solução de problemas e suporte
 ## [Obter ferramentas para dar suporte na implantação do Teams](rollout-tools.md)
-## [Problemas conhecidos do Teams](known-issues.md)
+## [Problemas conhecidos do Teams](Known-issues.md)
 ## [Recursos de suporte para o Teams](support-resources.md)
 ## [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ## [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)

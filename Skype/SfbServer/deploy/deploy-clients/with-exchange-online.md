@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Exchange Online.
-ms.openlocfilehash: 59724ae9b0fc77f16a072e0e08b125407c6e43e3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4fea489c2ae8c3e2fbf8205936ad3ddbff52927a
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Implantar o Skype Room Systems versão 2 com o Exchange Online (Híbrida)
  
@@ -63,16 +63,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Set-CalendarProcessing -Identity 'PROJECTRIGEL01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-4. Digite a senha da conta. Você deverá redigitá-la para verificação. Verifique se a caixa de seleção **A senha nunca expira** é a única opção selecionada.
     
-    > [!NOTE]
-    > Selecionando a **senha nunca expira** é um requisito para Skype para Business Server 2015 em sistemas de sala Skype v2. As regras do domínio podem proibir senhas que não expiram. Nesse caso, você precisará criar uma exceção para cada conta de usuário do Skype sala sistemas v2.
-  
-5. Clique em **Concluir** para criar a conta.
-    
-6. Depois de criar a conta, execute a sincronização do diretório. Depois de concluir, vá para a página de usuários e verifique se as duas contas criadas nas etapas anteriores foram mescladas.
-    
-7. Você deverá conectar-se ao Azure AD para aplicar algumas configurações à conta. Você poderá executar este cmdlet para se conectar.
+4. Você deverá conectar-se ao Azure AD para aplicar algumas configurações à conta. Você poderá executar este cmdlet para se conectar.
     
    ```
    Connect-MsolService -Credential $cred
@@ -83,6 +75,16 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 1. Na ferramenta de **usuários do Active Directory e computadores AD** , clique com botão direito na pasta ou unidade organizacional que seus sistemas de sala Skype v2 contas serão criadas, clique em **novo**e clique em **usuário**.
     
 2. Digite o nome de exibição do cmdlet anterior na caixa **Nome completo** e o alias na caixa **Nome de logon do usuário**. Clique em **Avançar**.
+
+
+3. Digite a senha da conta. Você deverá redigitá-la para verificação. Verifique se a caixa de seleção **A senha nunca expira** é a única opção selecionada.
+    
+    > [!NOTE]
+    > Selecionando a **senha nunca expira** é um requisito para Skype para Business Server 2015 em sistemas de sala Skype v2. As regras do domínio podem proibir senhas que não expiram. Nesse caso, você precisará criar uma exceção para cada conta de usuário do Skype sala sistemas v2.
+  
+4. Clique em **Concluir** para criar a conta.
+    
+5. Depois de criar a conta, execute a sincronização do diretório. Depois de concluir, vá para a página de usuários e verifique se as duas contas criadas nas etapas anteriores foram mescladas.
     
 ### <a name="assign-an-office-365-license"></a>Atribuir uma licença do Office 365
 
@@ -97,6 +99,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    Get-MsolAccountSku
    Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
    ```
+
 
 ### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>Habilitar a conta de usuário com o Skype for Business Server 2015
 

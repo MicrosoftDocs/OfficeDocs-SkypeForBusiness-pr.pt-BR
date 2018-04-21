@@ -11,11 +11,11 @@ description: Os administradores podem usar o MSI equipes para em massa implantar
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a2031a567b96db6987c6c9c035631f17fd3d03f
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: e8d1f8b77b4b362b95fb03d3f0202bfc6da619e8
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/20/2018
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar usando o MSI Teams da Microsoft
 ===========================================
@@ -37,7 +37,7 @@ O MSI equipes colocará um instalador em arquivos de programa. Sempre que um usu
 Não use o MSI para implantar as atualizações, o cliente irá atualizar automaticamente quando detecta que uma nova versão é disponibilizada pelo serviço. Para reimplantar o instalador mais recente use o processo de reimplantando MSI descrito abaixo. Se você implantar uma versão mais antiga do pacote do MSI, o cliente será atualizado automaticamente sempre que possível para o usuário. Se uma versão antiga muito obtém implantada, o MSI irá disparar uma atualização do aplicativo antes que o usuário seja capaz de usar equipes. 
 
 > [!Important] 
-> Não recomendamos que você altere os locais de instalação padrão, como isso poderia quebrará o fluxo de atualização. Que então eventualmente bloqueará os usuários acessem o serviço. 
+> Não recomendamos que você altere os locais de instalação padrão, como isso poderia quebrará o fluxo de atualização. Ter uma versão antiga muito eventualmente bloqueará os usuários acessem o serviço. 
 
 
 ## <a name="target-machine-requirements"></a>Requisitos de máquina de destino

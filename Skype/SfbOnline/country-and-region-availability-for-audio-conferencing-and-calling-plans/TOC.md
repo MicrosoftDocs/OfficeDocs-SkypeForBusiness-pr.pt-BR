@@ -33,7 +33,6 @@
 ### [Iniciar uma audioconferência por telefone sem um PIN](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
-### [Usar IDs dinâmicas de audioconferência em sua organização](../audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)
 
 ## [Planos de Chamadas no Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Adicionar, alterar ou remover um local de emergência para sua organização](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -60,6 +59,7 @@
 #### [Gerenciamento de números de telefone para os EUA](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Como a ID de chamadas pode ser usada em sua organização](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Quantos números de telefone você pode obter?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
+### [Mais informações sobre como chamar o ID de linha e chamar o nome do participante](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 ### [Pesquisar números de telefone para usuários](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Ver uma lista de números de telefone em sua organização](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Definir a identificação de chamadas para um usuário](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -72,6 +72,7 @@
 ### [O que são planos de discagem?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
 ## Sistema de Telefonia no Office 365
+### [O que é o Sistema de Telefonia no Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Criar uma fila de chamadas do Sistema de Telefonia](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtendo telefones para o Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implantando telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)

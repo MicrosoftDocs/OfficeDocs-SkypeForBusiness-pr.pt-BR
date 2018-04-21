@@ -21,22 +21,19 @@ ms.custom:
 - Strat_SB_PSTN
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 077b35169b3829262c38c9ebc44451aba8bd110d
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3c40c4bb59dd6628730542f73d8bdbddae7b9ad7
+ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/20/2018
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Redefinir o ID de conferência de um usuário
 
-Quando suas organizações não tiver sido habilitado para IDs de conferência dinâmico, uma ID de conferência estática é criada automaticamente quando um Skype para negócios ou Microsoft Teams usuário está habilitado para conferência de áudio usando o Microsoft como o provedor. Esta ID de conferência é incluído na parte inferior da reunião convites, juntamente com os números de telefone de discagem que podem ser usados por chamadores para efetuar uma chamada para uma reunião. Quando o usuário disca o número de telefone, o atendedor automático para a reunião pedirá que o chamador para inserir esta ID de conferência, de forma que eles podem participar da reunião.
+Uma ID de conferência dinâmico é incluída na parte inferior da reunião convites, juntamente com os números de telefone de discagem que podem ser usados por chamadores para efetuar uma chamada para uma reunião. Quando o usuário disca o número de telefone, o atendedor automático para a reunião pedirá que o chamador para inserir esta ID de conferência, de forma que eles podem participar da reunião.
   
 > [!NOTE]
-> Se seu provedor de conferência for Microsoft, IDs de conferência dos usuários são definidos para somente dinâmico por padrão. Infelizmente, você não poderá alterá-lo no Skype para o Centro de administração de negócios ou usando o Windows Powershell. Você precisará contatar o suporte da Microsoft. 
-  
-IDs estáticas são usadas quando as pessoas na sua organização não desejam Lembre-se de um número aleatório; eles podem selecionar um certo número ou use um que seja fácil de lembrar. Se IDs de conferência dinâmicas estiverem sendo usadas, cada reunião agendada por um usuário terá uma ID de conferência exclusiva atribuída. Se você deseja atribuir dinâmico em vez de conferência estática IDs, [acesse aqui](using-audio-conferencing-dynamic-ids-in-your-organization.md).
-  
-IDs de conferência são definidas apenas automaticamente somente para Skype para usuários empresariais e Microsoft Teams habilitado para serviços de audioconferência usando o Microsoft como seu provedor de serviços de audioconferência. Se você precisar redefinir uma ID de conferência para um usuário que está usando um provedor de serviços de audioconferência de terceiros (ACP), você precisará digitar manualmente uma ID de conferência na página Propriedades do usuário.
+> Se seu provedor de conferência for Microsoft, IDs de conferência dos usuários são definidos para somente dinâmico por padrão. Infelizmente, não há nenhuma capacidade para alterá-lo no Skype para o Centro de administração de negócios ou usando o Windows Powershell para se tornar estáticas, como agora está sem suporte.
+IDs de conferência são definidas apenas automaticamente somente para Skype para usuários de negócios e Teams Microsoft habilitados para conferência de áudio. 
   
 ## <a name="resetting-the-conference-id-for-a-user"></a>Redefinindo o ID de conferência para um usuário
 
@@ -81,7 +78,7 @@ IDs de conferência são definidas apenas automaticamente somente para Skype par
 
 - O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
