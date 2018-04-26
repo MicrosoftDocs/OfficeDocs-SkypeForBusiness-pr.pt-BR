@@ -12,7 +12,7 @@ ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: Leia este tópico para aprender como ativar o recurso de lista inteligente de contatos no cliente do Skype for Business.
 ms.openlocfilehash: f5b5b8f7baa0ce848765a0f2b62aabb118ecb224
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

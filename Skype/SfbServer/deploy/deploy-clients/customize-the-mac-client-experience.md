@@ -12,7 +12,7 @@ ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o cliente do Skype for Business no Mac e como editá-los de fora do aplicativo.
 ms.openlocfilehash: 8c779ad35d82b42bc8e162599265f6a25f7a65c3
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---
@@ -22,18 +22,18 @@ Este artigo descreve as preferências e os padrões do cliente disponíveis para
   
 ## <a name="skype-for-business-on-mac-client-preference-settings"></a>Configurações de preferência do cliente Skype for Business para Mac
 
-Determinados recursos e comportamentos que estão disponíveis para Skype para negócios nos clientes Mac são determinados pelas configurações de preferência no cliente. O Skype para negócios preferências de Mac são encontradas em um arquivo localizado em Macs que instalaram o Skype para o cliente de negócios, localizada no seguinte caminho: 
+Certos recursos e comportamentos que estão disponíveis para clientes do  no Mac são determinados por configurações de preferência no cliente. As preferências do  no Mac são encontradas em um arquivo em Macs que tenham instalado o cliente do , localizado no seguinte caminho: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
-Para definir essas preferências, obtenha um prompt de terminal no Mac do cliente e conforme necessário insira padrões com.microsoft.SkypeForBusiness principais comandos de gravação usando as teclas de preferência descritas na tabela a seguir.
+Para definir essas preferências, acesse um prompt de terminal no Mac do cliente e, conforme necessário, insira os comandos  usando as teclas de preferência descritas na tabela a seguir.
   
 **Chaves de preferência do cliente**
 
 
 |**Chave**|**Tipo**|**Valor**|**Descrição**|
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)  <br/> |Especifique como o Skype para negócios identifica o transporte e o servidor a ser usado durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**. <br/> |
+|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)  <br/> |Especificar como o  identifica o transporte e o servidor a serem usados durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**. <br/> |
 |internalAutoDiscoveryURL  <br/> |Cadeia de caracteres  <br/> |URL completa de descoberta automática  <br/> |URL interna de descoberta automática  <br/> |
 |externalAutoDiscoveryURL  <br/> |Cadeia de caracteres  <br/> |URL completa de descoberta automática  <br/> |URL externa de descoberta automática  <br/> |
 |httpProxyDomain  <br/> |Cadeia de caracteres  <br/> ||Domínio do Proxy HTTP  <br/> |
@@ -42,21 +42,21 @@ Para definir essas preferências, obtenha um prompt de terminal no Mac do client
 |trustedDomainList  <br/> |Matriz  <br/> ||Lista de domínios confiáveis ​​para redirecionamentos HTTP.  <br/> |
 |autoAcceptTimeout  <br/> |Número  <br/> |300 (padrão)  <br/> |Tempo limite de Autenticação Automática para usuários sem Histórico da Conversa do Servidor.  <br/> |
 |warnWhenUnknownLocationForE911  <br/> |Bool  <br/> |0 = Desabilitado  <br/> 1 = Habilitado  <br/> |Avisa o usuário ao discar um número de emergência de um local desconhecido.  <br/> |
-|sipAddress  <br/> |Cadeia de caracteres  <br/> ||O endereço do SIP (Email) usado para entrar no Skype para negócios.  <br/> |
-|nome de usuário  <br/> |Cadeia de caracteres  <br/> ||O UPN (nome de usuário) usado para entrar no Skype para negócios.  <br/> |
-|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = exibem o campo nome do usuário na tela principal entrar e na caixa de diálogo Propriedades avançadas  <br/> 1 = exibir o campo de nome de usuário somente na caixa de diálogo Propriedades avançadas (padrão)  <br/> |Especifique onde o campo nome de usuário é exibido durante a entrada.  <br/> |
+|SIPAddress  <br/> |Cadeia de caracteres  <br/> ||O endereço SIP (Email) usado para entrar no .  <br/> |
+|Username  <br/> |Cadeia de caracteres  <br/> ||O UPN (UserName) usado para entrar no .  <br/> |
+|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = display the User Name field on the main sign-in screen and in the Advanced Properties dialog box  <br/> 1 = display the User Name field only in the Advanced Properties dialog box (default)  <br/> |Specify where the User Name field is displayed during sign-in.  <br/> |
    
 ### <a name="usage-examples"></a>Exemplos de uso
 
-Para adicionar um único domínio (Contoso.com) à lista de domínios confiáveis você usaria a chave trustedDomainList, conforme mostrado:
+Para adicionar um único domínio (Contoso.com) à lista de domínios confiáveis, você usaria a chave trustedDomainList conforme mostrado:
   
-padrões de gravação com.microsoft.SkypeForBusiness trustedDomainList-matriz-adicionar "Contoso.com"
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   
 Para adicionar diversos domínios à lista de domínios confiáveis, você usaria a chave trustedDomainList conforme mostrado:
   
-padrões de gravação com.microsoft.SkypeForBusiness trustedDomainList-matriz-adicionar "sfb.com" "abc.com" "test.org"
+defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "sfb.com" "abc.com" "test.org"
   
-Orientação sobre o uso do comando padrões pode ser encontrada na [biblioteca de referência da Apple](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl). Embora essa página seja antiga e não esteja mais recebendo manutenção, as informações sobre o comando defaults estão inalteradas e ainda se aplicam.
+Orientação sobre o uso do comando defaults pode ser encontrada na [biblioteca de referência da Applehttps://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.html](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/defaults.1.mdl). Embora essa página seja antiga e não esteja mais recebendo manutenção, as informações sobre o comando defaults estão inalteradas e ainda se aplicam.
   
 ### <a name="sample-unedited-settings"></a>Exemplo de configurações não editadas
 

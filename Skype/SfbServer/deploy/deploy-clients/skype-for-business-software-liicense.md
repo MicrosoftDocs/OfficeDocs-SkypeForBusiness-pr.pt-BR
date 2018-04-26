@@ -12,7 +12,7 @@ ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Leia este tópico para saber como verificar se você tem uma licença de volume do software Skype for Business.
 ms.openlocfilehash: e91a009c29647031d91e791ba5fd41ccc4578d1e
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

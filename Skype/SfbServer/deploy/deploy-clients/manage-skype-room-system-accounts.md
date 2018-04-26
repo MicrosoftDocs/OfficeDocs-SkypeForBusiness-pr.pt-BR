@@ -12,7 +12,7 @@ ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 description: Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.
 ms.openlocfilehash: c47765b617e0856d1db25c7ed4902fe0af9924f2
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

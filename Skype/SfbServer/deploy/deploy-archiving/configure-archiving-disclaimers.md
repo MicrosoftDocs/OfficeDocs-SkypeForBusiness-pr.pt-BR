@@ -12,7 +12,7 @@ ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Resumo: Leia este tópico para aprender como configurar um aviso de isenção de responsabilidade de arquivamento para o .'
 ms.openlocfilehash: 3790160024010084c69df7d9865f17622fca4f0d
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

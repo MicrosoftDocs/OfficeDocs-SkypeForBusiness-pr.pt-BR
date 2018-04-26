@@ -17,7 +17,7 @@ ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumo: conheça as etapas que você precisa realizar para configurar a  na sua implantação híbrida local do .'
 ms.openlocfilehash: e788a263223ea3fa0f4ce9ed844fb5b4eb0ae898
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

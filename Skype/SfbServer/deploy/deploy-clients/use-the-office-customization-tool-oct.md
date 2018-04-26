@@ -12,7 +12,7 @@ ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Resumo: como usar a Ferramenta de Personalização do Office com o cliente .'
 ms.openlocfilehash: b0e8dd399af7a75a6f575d554cbe6c25c4e8ffd3
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

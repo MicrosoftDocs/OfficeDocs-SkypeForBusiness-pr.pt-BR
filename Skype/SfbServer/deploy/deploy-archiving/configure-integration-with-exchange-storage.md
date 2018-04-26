@@ -12,7 +12,7 @@ ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Resumo: leia este tópico para aprender como configurar a integração com o armazenamento do Exchange no .'
 ms.openlocfilehash: 2d814bb297999062aaf93160286031afec51c3a9
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

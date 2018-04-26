@@ -12,7 +12,7 @@ ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Summary: Overview of enterprise client installation methods for Skype for Business.'
 ms.openlocfilehash: d41ce5b2fe9b4717a9af78fb3072ae0da48b72ec
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

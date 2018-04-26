@@ -12,7 +12,7 @@ ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Summary: Overview of installation methods and tools for Skype for Business.'
 ms.openlocfilehash: 8f74f3930e296d8f49eca4bf2a097c88883d7981
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

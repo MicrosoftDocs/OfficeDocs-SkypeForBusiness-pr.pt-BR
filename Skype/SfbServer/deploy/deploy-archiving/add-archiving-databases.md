@@ -9,31 +9,31 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
-description: 'Resumo: Leia este tópico para saber como adicionar bancos de dados de arquivamento à sua Skype para implantação Business Server 2015.'
+description: 'Resumo: Leia este tópico para saber como adicionar bancos de dados de arquivamento à sua implantação do .'
 ms.openlocfilehash: 09185eed2a8bd0cc9b2a03fc6361abeadbd01829
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server-2015"></a>Adicionar bancos de dados de arquivamento a uma implantação existente no Skype for Business Server 2015
  
-**Resumo:** Leia este tópico para saber como adicionar bancos de dados de arquivamento à sua Skype para implantação Business Server 2015.
+Resumo: Leia este tópico para saber como adicionar bancos de dados de arquivamento à sua implantação do .
   
-É necessário incorporar o arquivamento à sua topologia antes de configurar sua implantação para suportar o arquivamento. As informações neste tópico explicam como usar o construtor de topologias para:
+É necessário incorporar o arquivamento à sua topologia antes de configurar sua implantação para suportar o arquivamento. As informações neste tópico explicam como usar o  para:
   
 - Adicionar um banco de dados de arquivamento à sua topologia.
     
-- Publica a topologia atualizada para adicionar o banco de dados de arquivamento à sua Skype para implantação Business Server 2015.
+- Publicar a topologia atualizada para adicionar o banco de dados de arquivamento à sua implantação do .
     
 > [!NOTE]
-> Se desejar usar a integração do Microsoft Exchange para armazenar arquivos nos servidores do Exchange para todos os seus usuários e dados de arquivamento em sua implantação, não especifique as informações de **repositório de arquivamento do SQL Server** ou **espelhamento do repositório de servidor SQL de uso** .
+> Se você quiser usar a integração do  para armazenar dados de arquivamento e arquivos nos servidores do  para todos seus usuários em sua implantação, não especifique informações do  ou .
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>Adicionar um banco de dados de arquivamento à sua topologia
 
-1. Em um computador que esteja executando o Skype para Business Server ou em que o Skype para ferramentas administrativas do Business Server estão instaladas, faça logon usando uma conta que seja membro do grupo local de usuários (ou uma conta com direitos de usuário equivalentes).
+1. Em um computador que está executando o  ou no qual as ferramentas administrativas do  estejam instaladas, faça logon usando uma conta que seja membro do grupo de usuários local (ou uma conta com direitos de usuário equivalentes).
     
-2. Inicie o construtor de topologias.
+2. Start Topology Builder.
     
 3. Na árvore do console, navegue até o pool de Front-Ends no qual você deseja implantar o arquivamento e clique no nome do pool.
     
@@ -45,61 +45,61 @@ ms.lasthandoff: 03/28/2018
     
 7. Marque a caixa de seleção **Arquivamento**.
     
-8. Em **repositório de arquivamento do SQL Server,** siga um destes procedimentos:
+8. Under **Archiving SQL Server store,** do one of the following:
     
-   - Para usar um armazenamento existente do SQL Server, na caixa de listagem suspensa, clique no nome do armazenamento do SQL Server que deseja usar. Se todos os usuários estão hospedados no Microsoft Exchange Server 2013 ou acima, você pode arquivar Skype para comunicações comerciais de todos os usuários do Exchange. Nesse caso, você não precisará configurar o repositório de arquivamento do SQL Server.
+   - Para usar um armazenamento existente do SQL Server, na caixa de listagem suspensa, clique no nome do armazenamento do SQL Server que deseja usar. Se todos os seus usuários estiverem hospedados no  ou acima, você poderá arquivar as comunicações do  para todos os seus usuários no . Nesse caso, não é necessário configurar o repositório de Arquivamento do .
     
-   - Para especificar um novo repositório do SQL Server, clique em **novo**e, em seguida, na caixa de diálogo **Definir novo repositório do SQL Server** , faça o seguinte:
+   - Para especificar um novo armazenamento do SQL Server, clique em **Novo** e, depois, na caixa de diálogo **Definir novo armazenamento do SQL Server** e faça o seguinte:
     
-   - Em **FQDN do SQL Server**, especifique o FQDN do servidor no qual você deseja criar o novo repositório do SQL Server.
+   - Em FQDN do SQL Server, especifique o FQDN do servidor no qual deseja criar o armazenamento do .
     
    - Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
     
-   - Se a instância especificada do SQL Server estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
+   - Na instância do  especificada em uma relação de espelhamento, marque a caixa de seleção Esta instância do SQL está em relação de espelhamento e, então, em Número da porta espelho, especifique o número da porta.
     
-9. Se você quiser usar o espelhamento do repositório do SQL Server, selecione **Habilitar SQL Server Store espelhamento**e, em seguida, faça o seguinte:
+9. If you want to use SQL Server store mirroring, select **Enable SQL Server Store mirroring**, and then do the following:
     
-   - Para usar um armazenamento existente do SQL Server para espelhamento, na caixa de listagem suspensa **espelho do repositório de arquivamento do SQL Server** , clique no nome do repositório do SQL Server que você deseja usar para espelhamento.
+   - Para usar um armazenamento existente do  para espelhamento, na caixa de listagem suspensa Espelho do armazenamento do SQL Server de arquivamento, clique no nome do armazenamento do  que deseja usar para espelhamento.
     
-   - Para especificar um novo repositório do SQL Server para espelhamento, clique em **novo**e, em seguida, na caixa de diálogo **Definir novo repositório do SQL Server** , siga um destes procedimentos:
+   - Para especificar um novo armazenamento do  para espelhamento, clique em Novo e, então, na caixa de diálogo Definir novo armazenamento do SQL Server, realize uma das seguintes ações:
     
-    a. Em **FQDN do SQL Server**, especifique o FQDN do SQL Server no qual você deseja criar o novo repositório do SQL Server.
+    a. Em FQDN do SQL Server, especifique o FQDN do SQL Server no qual deseja criar o novo armazenamento do .
     
     b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
     
-    c. Se a instância especificada do SQL Server estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
+    c. Na instância do  especificada em uma relação de espelhamento, marque a caixa de seleção Esta instância do SQL está em relação de espelhamento e, então, em Número da porta espelho, especifique o número da porta.
     
-   - Se você habilitar o espelhamento do SQL Server e deseja incluir um (uma terceira, separada instância do SQL Server que pode detectar a integridade das instâncias do SQL Server e espelho primárias) de testemunha de espelhamento do SQL Server, selecione o **testemunha de espelhamento de usar do SQL Server para habilitar automática failover** caixa de seleção e, em seguida, execute um dos seguintes:
+   - Se você habilitar o espelhamento do  e quiser adicionar ou alterar uma testemunha de espelhamento do  (uma terceira instância do  separada, que possa detectar a integridade do servidor primário do  e as instâncias de espelho), marque a caixa de seleção Usar testemunha de espelhamento do SQL Server para habilitar failover automático e, em seguida, realize uma destas ações:
     
-    a. Em **FQDN do SQL Server**, especifique o FQDN do servidor no qual você deseja criar o novo SQL Server testemunha de espelhamento.
+    a. Em FQDN do SQL Server, especifique o FQDN do servidor no qual deseja criar a nova testemunha de espelhamento do .
     
     b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar para a testemunha de espelhamento.
     
-    c. Se a instância especificada do SQL Server estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
+    c. Na instância do  especificada em uma relação de espelhamento, marque a caixa de seleção Esta instância do SQL está em relação de espelhamento e, então, em Número da porta espelho, especifique o número da porta.
     
 10. Para salvar a configuração, clique em **OK**.
     
 ### <a name="publish-the-updated-topology-to-add-an-archiving-database-to-your-deployment"></a>Publique a topologia atualizada para adicionar o banco de dados de arquivamento à sua implantação
 
-1. Em um computador que esteja executando o Skype para Business Server ou em que o Skype para ferramentas administrativas do Business Server estão instaladas, faça logon usando uma conta que seja membro do grupo local de usuários (ou uma conta com direitos de usuário equivalentes).
+1. Em um computador com o  em execução ou em que as ferramentas administrativas  estejam instaladas, faça logon usando uma conta que faça parte do grupo de usuários local (ou uma conta com direitos de usuário equivalentes).
     
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo de usuários local, mas para publicar uma topologia, o que é necessário para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo **Administradores** de domínio e o **RTCUniversalServer Os administradores** grupo e que tem permissões de controle total (leitura, gravação e modificar) no compartilhamento de arquivos que você está usando para o Skype para repositório de arquivos do servidor de negócios (para que o construtor de topologias possa configurar a lista de controle de acesso discricionário necessária (DACLs) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia utilizando uma conta que seja membro do grupo Usuários local, mas para publicar uma topologia (que é necessário para adicionar um servidor à topologia), você deve utilizar uma conta que seja membro do grupo Administradores de domínio e o grupo RTCUniversalServerAdmins e que possui permissões de controle total (ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivo  (de forma que  possa configurar a lista de controle de acesso condicional (DACLs) ou uma conta com direitos equivalentes.
   
-2. Abra a topologia que você criou na seção anterior utilizando o construtor de topologias.
+2. Abra a topologia que você criou na seção anterior utilizando o .
     
-3. Na árvore de console, clique com o botão **Skype para Business Server**e, em seguida, clique em **Publicar topologia**.
+3. Na árvore do console, clique com o botão direito do mouse em **** e depois em **Publicar Topologia**.
     
 4. Na página **Publicar a topologia**, clique em **Avançar**.
     
 5. Na página **Criar banco de dados**, verifique se o banco de dados está selecionado e, então, clique em **Avançar**. 
     
     > [!NOTE]
-    > Se você não possuir as permissões adequadas para criar bancos de dados, você pode cancelar a seleção do banco de dados e alguém com as permissões adequadas podem criar o banco de dados. > Somente bancos de dados em servidores dedicados do SQL podem ser instalados usando o construtor de topologia. Bancos de dados em SQL Servers que são colocados com outros componentes de servidor devem ser instalados executando a instalação local em tal computador. 
+    > Se você não possuir as permissões adequadas para criar bancos de dados, você pode cancelar a seleção do banco de dados e alguém com as permissões adequadas podem criar o banco de dados. Apenas bancos de dados em SQL Servers dedicados podem ser instalados utilizando o . Bancos de dados em SQL Servers que são colocados com outros componentes de servidor devem ser instalados executando a instalação local em tal computador. 
   
 6. Na página **Assistente de publicação concluído**, verifique se a topologia foi publicada com êxito e clique em **Concluir**.
     
     > [!IMPORTANT]
-    > Após publicar a topologia, você deve configurar as opções e políticas de Arquivamento antes que qualquer conteúdo seja arquivado. Para obter detalhes, consulte [Configurar opções de arquivamento para Skype para Business Server 2015](configure-archiving-options.md) e [Configure políticas para Skype para negócios 2015 de servidor de arquivamento](configure-archiving-policies.md). 
+    > Após publicar a topologia, você deve configurar as opções e políticas de Arquivamento antes que qualquer conteúdo seja arquivado. For details, see [Configure archiving options for Skype for Business Server 2015](configure-archiving-options.md) and [Configure archiving policies for Skype for Business Server 2015](configure-archiving-policies.md). 
   
 

@@ -12,7 +12,7 @@ ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 description: Leia estes tópicos para aprender como provisionar as contas do Exchange e Skype para o Sistema de Salas do Skype.
 ms.openlocfilehash: 32163bbaa4751e1a8479337d28cde20dc9ba2bd9
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---
