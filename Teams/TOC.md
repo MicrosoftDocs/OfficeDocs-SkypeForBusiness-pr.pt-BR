@@ -94,9 +94,8 @@
 
 
 ## [Diretrizes de implantação](cloud-voice-deployment.md)
-### [Definir meu success - conferência de áudio](1-envision-define-my-success-audio-conferencing.md)
+### [Definir meu sucesso](1-envision-define-my-success-cloud-voice.md)
 ### [Decisões meu serviço - conferência de áudio](2-envision-make-my-service-decisions-audio-conferencing.md)
-### [Definir meu success - sistema telefônico com planos de chamada](1-envision-define-my-success-phone-system.md)
 ### [Decisões meu serviço - sistema telefônico com planos de chamada](2-envision-make-my-service-decisions-phone-system.md)
 ### [Avaliar o meu ambiente](3-envision-evaluate-my-environment.md)
 ### [Planejar o meu gerenciamento de serviço](4-envision-plan-my-service-management.md)
@@ -157,7 +156,7 @@
 ### [Iniciar uma audioconferência por telefone sem um PIN](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Experimentar ou comprar a audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Período complementar de discagem de audioconferência](/SkypeForBusiness/accessibility-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Período complementar de discagem de audioconferência](/SkypeForBusiness/legal-and-regulatory/complimentary-dial-out-period?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Vídeos - Audioconferência no Teams](audio-conferencing-videos.md)
 
 ## Planos de Chamadas
@@ -193,8 +192,8 @@
 ### [Perguntas comuns sobre a transferência de números de telefone](/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [O que são Planos de Chamadas no Office 365?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [O que são locais e endereços de emergência e encaminhamento de chamadas?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Plano de Chamadas no Office 365 - código de prática no Reino Unido (RU)](/SkypeForBusiness/accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Plano de Chamadas no Office 365 - código de tratamento de reclamação no Reino Unido (RU)](/SkypeForBusiness/accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Plano de Chamadas no Office 365 - código de prática no Reino Unido (RU)](/SkypeForBusiness/legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Plano de Chamadas no Office 365 - código de tratamento de reclamação no Reino Unido (RU)](/SkypeForBusiness/legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## Sistema de Telefonia
@@ -210,7 +209,7 @@
 
 
 # Segurança e conformidade
-## [Práticas de coleta de dados no Skype for Business e no Teams](/SkypeForBusiness/accessibility-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Práticas de coleta de dados no Skype for Business e no Teams](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Conduzir uma investigação eDiscovery de conteúdo no Teams](ediscovery-investigation.md)
 ## [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
 ## [Visão geral de segurança e conformidade no Teams](security-compliance-overview.md)
@@ -275,8 +274,8 @@
 
 
 # Acessibilidade
-## [Declaração de conformidade relativa à acessibilidade do Skype for Business Online na França](/SkypeForBusiness/accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Soluções de acessibilidade do Skype for Business Online na França](/SkypeForBusiness/accessibility-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Declaração de conformidade relativa à acessibilidade do Skype for Business Online na França](/SkypeForBusiness/legal-and-regulatory/accessibility-declaration-of-conformance-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Soluções de acessibilidade do Skype for Business Online na França](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 #Microsoft Teams for Education
 ## [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
