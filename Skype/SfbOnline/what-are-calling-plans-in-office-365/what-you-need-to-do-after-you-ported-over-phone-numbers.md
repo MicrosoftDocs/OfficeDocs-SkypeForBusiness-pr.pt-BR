@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Consulte o que você precisa fazer em seguida depois que você tiver duas portas seus números de telefone para Skype para negócios.
-ms.openlocfilehash: 4245f4e794b1ca94d46d688f00f8ddb01abcdeae
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: acec8952f77402538f7eabae9330f7f031e70155
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>O que você precisa ser feito depois de você ter migradas seus números de telefone?
 
@@ -47,9 +47,9 @@ Depois que você enviou seu pedido de porta, iremos entre em contato com sua ope
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

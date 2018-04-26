@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 8a437920f1ba901addbdc626e2d5a6bfad5779a4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 9bbb411ed09390cbdb4676e5715aacf1d54ee8c0
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>O que são locais e endereços de emergência e encaminhamento de chamadas?
 
@@ -72,9 +72,9 @@ Locais e endereços de emergências são usados durante o processo de roteamento
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Termos e condições das Chamadas de Emergência](../what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

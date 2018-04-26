@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: ID do chamador pode ser controlado para chamadas de entrada e saídas dos usuários de sistema telefônico usando uma política denominada CallingLineIdentity.
-ms.openlocfilehash: b242249ef42781fa84e87a2b5eee5ba823eb200b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4dc596e8301310f2c229c46add5795e72c432daf
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -88,9 +88,9 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

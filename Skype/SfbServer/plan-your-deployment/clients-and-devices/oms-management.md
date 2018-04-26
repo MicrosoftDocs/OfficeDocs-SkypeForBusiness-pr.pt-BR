@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: Este artigo aborda as considerações de planejamento para usar o Operations Management Suite para administrar os dispositivos do Skype Room Systems v2 em sua implementação do Skype for Business Server 2015.
-ms.openlocfilehash: e6409370da3597623526379581081e617f48dd81
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS
  
@@ -42,9 +42,9 @@ Você deve se familiarizar, conforme o necessário, com o uso do Designer de Exi
   
 ### <a name="related-tasks"></a>Tarefas relacionadas
 
-1. Depois que se inscrito para OMS, crie campos personalizados (descritos [Mapear campos personalizados](../../deploy/deploy-clients/with-oms.md#Custom_fields)) necessários para analisar as informações que serão enviadas de consoles de v2 Skype sistemas de sala. Isso inclui Noções básicas sobre o esquema JSON documentado nos [entender as entradas de log](../../manage/skype-room-systems-v2/oms.md#Telemetry).
+1. Depois de inscritos OMS, crie personalizado campos (conforme descrito em [Mapear campos personalizados](../../deploy/deploy-clients/with-oms.md#Custom_fields)) necessário para analisar as informações que serão enviadas de consoles de v2 Skype sistemas de sala. Isso inclui Noções básicas sobre o esquema JSON documentado nos [entender as entradas de log](../../manage/skype-room-systems-v2/oms.md#Telemetry).
     
-2. Desenvolver um modo de exibição de gerenciamento do Skype sala sistemas v2 no OMS (consulte [modos de definir o v2 SRS OMS](../../deploy/deploy-clients/with-oms.md#Views)) usando o Designer de modo de exibição mencionado anteriormente.
+2. Desenvolva um modo de exibição de gerenciamento do Skype sala sistemas v2 no OMS. Você pode a [criar um painel de v2 Skype sala sistemas usando o método de importação](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-by-using-the-import-method) ) ou [Crie um painel do Skype sala sistemas v2 manualmente](../../deploy/deploy-clients/with-oms.md#create-a-skype-room-systems-v2-dashboard-manually).
     
 ## <a name="individual-skype-room-systems-v2-console-requirements"></a>Requisitos de Console do v2 Skype sala sistemas individuais
 

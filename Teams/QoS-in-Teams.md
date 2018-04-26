@@ -1,166 +1,186 @@
 ---
-title: "Qualidade de Serviço (QoS) no Microsoft Teams"
+title: QoS em equipes da Microsoft - equipes da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
-ms.date: 02/16/2018
+ms.date: 04/23/2018
 ms.topic: article
 ms.service: msteams
-description: "Prepare a rede da sua organização para a Qualidade de Serviço (QoS) no Microsoft Teams"
+ms.reviewer: rowille
+description: Prepare a rede da sua organização para a Qualidade de Serviço (QoS) no Microsoft Teams
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 61bebd64c7d1478c16e114631b696dee2bf59625
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 884055dce490b9db8fd31f6e52042a4315633e00
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/26/2018
 ---
-<a name="quality-of-service-qos-in-microsoft-teams"></a>Qualidade de Serviço (QoS) no Microsoft Teams
-==========================================
-Este guia ajudará na preparação da rede da sua organização para a Qualidade de Serviço (QoS) no Microsoft Teams.
+# <a name="quality-of-service-qos-in-microsoft-teams"></a>Qualidade de Serviço (QoS) no Microsoft Teams
 
+Este artigo ajudará você a preparar a rede da sua organização Quality of a Service (QoS) no Microsoft Teams.
+QoS é um mecanismo que você usará para priorizar certos tipos de tráfego de rede. Priorizar o tráfego de serviços de comunicação em tempo real, como equipes é importante para proporcionar uma experiência de usuário de nível de negócios. Para QoS seja realmente eficaz, você deve configurar uma conexão com capacidade para QoS da extremidade final (PC, comutadores de rede e roteadores para a nuvem), pois qualquer parte do caminho que está falhando para dar suporte a QoS pode prejudicar a qualidade da chamada inteira.
 
-A Qualidade de Serviço (QoS) é um mecanismo que permite priorizar determinados tipos de tráfego de rede. A priorização do tráfego de serviços de comunicação em tempo real, como o Microsoft Teams, é importante para oferecer uma experiência do usuário em nível corporativo. Para que a QoS seja realmente efetiva, é necessário configurar uma conexão compatível com QoS de ponta a ponta (computadores, comutadores de rede e roteadores para a nuvem), pois se não houver suporte à QoS em alguma parte do caminho, a qualidade de toda a chamada poderá ser reduzida.
+![a relação entre redes de uma organização e serviços do Office 365: conectam a rede e os dispositivos com uma rede de interconexão, que por sua vez, se conecta com os serviços do Office 365 nuvem voz e conferência de áudio no local.] (media/Qos-in-Teams-Image1.png "a relação entre redes de uma organização e serviços do Office 365: conectam a rede e os dispositivos com uma rede de interconexão, que por sua vez, se conecta com os serviços do Office 365 nuvem voz e conferência de áudio no local.")
 
-
-![Captura de tela de um diagrama que ilustra a relação entre as redes de uma organização e os serviços do Office 365.](media/Qos-in-Teams-Image1.png)
-
+_Figura 1. A relação entre redes de uma organização e serviços do Office 365_
  
 
-Na maioria dos casos, a rede de interconexão será uma rede não gerenciada, uma conexão com a Internet. Uma opção disponível para abordar a QoS de ponta a ponta é o [ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Recomendamos ainda implementar a QoS nas partes da rede sobre as quais você tem controle, ou seja, sua rede local. Assim, a qualidade das cargas de trabalho de comunicação em tempo real será melhor em toda a implantação, e os pontos de estrangulamento na implantação existente serão aliviados. 
+Na maioria dos casos, a rede de interconexão será uma conexão de internet de rede não gerenciado. Uma opção disponível para QoS de ponta a ponta de endereços é [ExpressRoute do Windows Azure](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Ainda recomendamos que você implemente QoS nas partes da rede você tenha controle sobre, notadamente sua rede local. Isso irá aumentar a qualidade das cargas de trabalho de comunicação em tempo real em toda sua implantação e atenuar os pontos de estrangulamento na implantação existente. 
 
-## <a name="objectives"></a>Objetivos 
 
-Este guia foca a maneira de priorizar o tráfego da comunicação em tempo real do Microsoft Teams, especialmente de voz e vídeo. Também é possível priorizar outros tipos de tráfego de acordo com as suas necessidades.
+## <a name="prioritize-teams-network-traffic-for-qos"></a>Priorizar o tráfego de rede de equipes para QoS 
 
-Há várias maneiras de priorizar o tráfego, mas a mais comum é usando marcações DSCP (Ponto de Código de Serviços Diferenciados). Elas podem ser aplicadas com base nos intervalos de portas, mas também via Objetos de Política de Grupo. Neste documento, vamos abordar os dois casos.
+Este artigo aborda como priorizar o tráfego de comunicação em tempo real de equipes — ou seja, voz e vídeo. Você também pode priorizar os outros tipos de tráfego, com base em suas necessidades.
 
-O controle da marcação DSCP via GPO (Objetos de Política de Grupo) garante que os computadores que ingressaram em um domínio recebam as configurações corretas e que essas configurações possam ser gerenciadas somente por um administrador. 
+Há várias maneiras de priorizar o tráfego, mas a mais comum é usando marcações DSCP (Ponto de Código de Serviços Diferenciados). Eles podem ser aplicados ("marcados") com base em intervalos de porta e também por meio de objetos de diretiva de grupo. Abordaremos ambos neste artigo. Recomendamos que você use marcação com base em intervalos de porta, pois ele funcionará para todos os dispositivos, e não apenas aquelas que ingressou no domínio.
 
-É importante entender que a QoS só funciona quando implementada em todos os links que conectam o autor e o destinatário da chamada. Se usarmos a QoS na rede interna e um usuário entrar de um local remoto, a priorização será possível somente dentro da rede interna gerenciada. Locais remotos poderiam receber uma conexão gerenciada por meio da implementação de uma VPN, mas não é recomendável executar o tráfego de comunicação em tempo real pela VPN.
+Controlando a marcação de DSCP por meio de objetos de diretiva de grupo garante que os computadores de domínio recebam as configurações corretas e que somente um administrador pode gerenciá-los.
+ 
+É importante entender que QoS funciona apenas quando implementada em todos os links que conectar o chamador para o receptor. Se você usar a QoS na rede interna e um usuário entrar em um local remoto, você pode priorizar somente dentro de sua rede interna, gerenciada. Embora os locais remotos podem receber uma conexão gerenciada por meio da implementação de uma rede virtual privada (VPN), é recomendável que você evite executando o tráfego de comunicação em tempo real através da VPN.
 
 > [!NOTE]
-> Nossa recomendação é implementar um túnel dividido para usuários remotos conectados via VPN a fim de proporcionar a melhor experiência do usuário possível. Consulte o documento [Deploy-Guidance-VPN Split Tunnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) para obter mais informações.
+> É recomendável que você implemente túnel em divisão para usuários remotos conectados VPN maximizar a qualidade da experiência do usuário. Faça o download do documento [Orientação-Deploy-VPN divisão túnel](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) MyAdvisor para obter mais informações.
 
-Em uma organização global com links gerenciados espalhados por vários continentes, é altamente recomendável usar a QoS, pois a largura de banda é limitada em comparação com a LAN (rede local).
+Em uma organização global com links gerenciadas que abrangem continentes, QoS é altamente recomendável porque a largura de banda para esses links é limitada em comparação com o da LAN.
 
-## <a name="quality-of-service"></a>Qualidade de Serviço
+## <a name="qos-queues"></a>Filas de QoS
 
-Para oferecer um nível de serviço garantido para um aplicativo na rede, os dispositivos de rede subjacentes devem ser capazes de classificar diferentes tipos de tráfego. Um roteador, por exemplo, precisa diferenciar o tráfego de voz e o tráfego normal de navegação na Web, se for esperado que a voz receba um tratamento melhor. 
+Para fornecer um nível de serviço para um aplicativo garantido na rede, os dispositivos de rede subjacente devem ter uma maneira de classificar os diferentes tipos de tráfego. Se sua organização quiser priorizam do tráfego de voz sobre outro tráfego, um roteador (por exemplo) deve ser capaz de distinguir entre o tráfego de voz e o tráfego normal de navegação da web. 
 
-O DiffServ (Serviços Diferenciados) fornece uma estrutura na qual o tráfego é tratado por dispositivos de rede com prioridades baseadas no campo de ToS (tipo de serviços) no cabeçalho do pacote IPv4/IPv6. Os seis bits mais significativos do campo DiffServ são chamados de Ponto de Código de Serviços Diferenciados ou DSCP. Usando essa estrutura, é possível classificar o tráfego como um tipo de tráfego específico (voz) e marcá-lo (101110 ou 46, em decimal), de modo que, quando os dispositivos de rede processarem essas marcações, o tráfego poderá ser priorizado de maneira correspondente (neste exemplo, Expedited Forwarding).
+Serviços diferenciados (DiffServ) oferece uma estrutura na qual o tráfego será priorizado diferentes por dispositivos de rede com base no tipo de campo de serviços (ToS) no cabeçalho de um pacote IPv4/IPv6. Os seis bits mais significativos do campo DiffServ são o ponto de código de serviços diferenciados ou DSCP. Usando essa estrutura, tráfego pode ser classificado como um tipo específico de tráfego (por exemplo, voz) e, em seguida, marcado (101110 ou 46 em decimal para tráfego de voz), para que quando os dispositivos de rede processam essas marcas, o tráfego pode ser priorizados adequadamente ( Encaminhamento expedido, neste exemplo).
 
-Quando o tráfego de rede entra em um roteador, ele é colocado em uma fila. Se não houver QoS em vigor, haverá basicamente uma única fila, e os dados serão tratados por ordem de chegada. Isso quer dizer que o tráfego de voz (que é muito sensível a atrasos) poderia ficar travado atrás do tráfego de serviços de streaming online. Ao implementar a QoS, é possível definir várias filas com diferentes recursos de gerenciamento de congestionamento (como o Priority Queuing (PQ) e o Class Based Weighted Fair Queue (CBWFQ) da Cisco) e recursos para evitar congestionamentos (como o Weighted Random Early Detection (WRED)).
+Quando o tráfego de rede entra em um roteador, o tráfego é colocado em uma fila — se não houver nenhuma QoS in-loco, essencialmente, há apenas uma fila e os dados são tratados como first-in, First. Isso significa que o tráfego de voz (que é muito sensível a atrasos) pode cair por trás de tráfego do online services streaming. Ao implementar o QoS, você pode definir várias filas usando os recursos de gerenciamento de congestionamento diferentes (por exemplo, da Cisco enfileiramento prioritário e baseada em classe ponderada justa fila [CBWFQ]) e recursos de prevenção de congestionamento (por exemplo, aleatória ponderada antecipada [de detecção WRED]).
 
-![Captura de tela de um diagrama que ilustra filas de QoS no Microsoft Teams.](media/Qos-in-Teams-Image2.png)
+![Largura de banda total disponível é dividida entre várias filas — áudio, vídeo e outros tráfegos — que tiverem sido atribuídas prioridades diferentes.] (media/Qos-in-Teams-Image2.png "Largura de banda total disponível é dividida entre várias filas — áudio, vídeo e outros tráfegos — que tiverem sido atribuídas prioridades diferentes.")
 
-Figura 1: Visualização das filas de QoS
+_Figura 2. Filas de QoS visualizadas_
 
-Quando essas peças estão no lugar, é possível fornecer uma qualidade de serviço previsível, pois a rede gerenciada subjacente sabe como classificar, marcar e priorizar o tráfego. Da perspectiva do Microsoft Teams, o item de configuração mais importante é a classificação e a marcação de pacotes. Mas é necessário um planejamento cuidadoso para alinhar a configuração do aplicativo com a configuração de rede subjacente para que a QoS de ponta a ponta seja bem-sucedida.
+Depois que essas partes estão funcionando, é possível entregar QoS previsível porque a rede gerenciada subjacente agora entende como classificar, marcar e priorizar o tráfego. Sob a perspectiva de equipes, a etapa de configuração mais importante é a classificação e a marcação dos pacotes, mas para QoS de ponta a ponta obter êxito, você também precisará Alinhe cuidadosamente a configuração do aplicativo com a configuração de rede subjacente.
 
-## <a name="qos-scenarios"></a>Cenários de QoS
+## <a name="teams-qos-scenarios"></a>Cenários de QoS de equipes
 
-Ao implementar a QoS para o Microsoft Teams, baseamos nossas orientações em quatro cenários iniciais:
+As orientações para a implementação de QoS para equipes se baseia em quatro cenários:
 
-1.  Você implantou ou está implantando o Microsoft Teams e planeja implementar a QoS via marcação baseada em porta. A marcação baseada em porta é o método mais confiável porque funciona universalmente em todas as plataformas e é o mais fácil de implementar. 
+*  **Cenário 1:** Você tiver implantado, ou estiver implantando, equipes e estiver planejando a implementação da QoS via baseados na porta marcação. A marcação baseados na porta é o método mais confiável, porque ele funciona universal em toda a todas as plataformas e é o mais fácil para implementar.  
 
-2.  Você implantou ou está implantando o Microsoft Teams e planeja implementar a QoS via marcação de Objetos de Política de Grupo. Às vezes, essa opção é usada em combinação com o cenário 1. Embora esse cenário seja inteiramente válido e esteja descrito a seguir, é importante saber que ele só funcionará para clientes Windows que ingressaram no domínio. Não é possível habilitar dispositivos que não são clientes Windows ingressados no domínio para a marcação de QoS\DSCP. 
+*  **Cenário 2:** Você tiver implantado, ou estiver implantando, equipes e estiver planejando implementar QoS via marcação de objeto de diretiva de grupo. Às vezes, essa opção é usada em combinação com o cenário 1. Embora esta situação é válida inteiramente, é importante entender só funcionará para clientes do domínio Windows. Qualquer dispositivo que não é um cliente do domínio do Windows não será ativado para DSCP marcação.
 
-3.  Você tem o Skype for Business Online implantado, incluindo a marcação de QoS, e está implantando o Microsoft Teams. Se for o seu caso, o Microsoft Teams respeitará a configuração existente e usará os mesmos intervalos de portas e a mesma marcação do cliente Skype for Business. Não deve ser necessária qualquer configuração adicional. 
+*  **Cenário 3:** Você tiver implantado o Skype para negócios Online, incluindo a marcação de QoS e agora está implantando equipes. Se for o seu caso, o Microsoft Teams respeitará a configuração existente e usará os mesmos intervalos de portas e a mesma marcação do cliente Skype for Business. Na maioria dos casos, nenhuma configuração adicional será necessária. 
+ 
     > [!NOTE]
-    > Se você está usando a marcação de QoS de Nome do Aplicativo via Política de Grupo, deve adicionar “Teams.exe” como Nome do Aplicativo.
-4.  Você implantou ou está implantando o Microsoft Teams e deseja implementar a QoS via marcação baseada em porta com um intervalo de portas personalizado.
+    > Se você estiver usando a QoS de nome de aplicativo marcação via diretiva de grupo, você deve adicionar Teams.exe como o nome do aplicativo.
 
-## <a name="recommended-differentiated-services-code-point-dscp-markings"></a>Marcações DSCP (Ponto de Código de Serviços Diferenciados) recomendadas
+*  **Cenário 4:** Você tiver implantado, ou estiver implantando, equipes e quiser implementar o QoS via baseados na porta marcação usando um intervalo de porta personalizados.
 
-O primeiro passo é classificar os fluxos de tráfego (por exemplo, de áudio e vídeo), utilizando os intervalos de portas exclusivos, não sobrepostos, com um valor de DSCP. O valor de DSCP atribuído aqui determinará a prioridade do tráfego que passa pela rede (com base na configuração de rede). Cada carga de trabalho recebe seu próprio valor de DSCP, embora alguns clientes possam definir o mesmo valor para voz e vídeo, atribuindo a elas a mesma prioridade na rede. 
+## <a name="recommended-dscp-markings"></a>Marcações de DSCP recomendadas
 
-O valor de DSCP que deve ser usado depende da maneira como a carga de trabalho é priorizada. Por exemplo, requisitos de negócios poderiam impor que o compartilhamento de aplicativos deve ser tratado com o mesmo nível de prioridade que o vídeo (e, portanto, marcado com o mesmo valor de DSCP que o vídeo). Outros ambientes podem ter uma estratégia de QoS existente já em vigor. 
+A primeira etapa é classificar os fluxos de tráfego (por exemplo, áudio e vídeo), atribuindo valores DSCP para os intervalos de porta exclusivo e não sobrepostos. O valor DSCP atribuído aqui determinará a prioridade do tráfego passar pela rede, com base na configuração de rede. Cada carga de trabalho obtém seu próprio valor DSCP, porém não necessariamente um valor exclusivo — alguns clientes podem definir o mesmo valor para cargas de trabalho de voz e vídeo, concedendo a eles a mesma prioridade na rede.  
 
-A Tabela 1 abaixo mostra as marcações DSCP requeridas ao utilizar o Microsoft Teams com ExpressRoute. Isso serviria como um bom ponto de partida para clientes que não têm certeza sobre o que usar em seu próprio ambiente. Para saber mais, consulte [Requisitos de QoS para o ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+O valor DSCP a ser usado depende de como você deseja priorizar a carga de trabalho. Por exemplo, requisitos de negócios podem exigir que você forneça o aplicativo a mesma prioridade de vídeo de compartilhamento (e, portanto, marcá-lo com o mesmo valor DSCP de vídeo). Outros ambientes podem ter uma estratégia de QoS existente no lugar, que ajudará você a determinar a prioridade das cargas de trabalho de rede. 
+
+A tabela 1 mostra as marcas de DSCP necessárias ao utilizar as equipes com ExpressRoute. Essas marcas podem servir como um bom ponto de partida para os clientes que não tem certeza sobre o que usar em seus próprios ambientes. Para saber mais, consulte [Requisitos de QoS para o ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 
-| Porta de origem do cliente|Protocolo|Categoria da mídia|Valor DSCP comum|Classe DSCP|
+_Tabela 1. Marcações de DSCP_
+    
+| Intervalo de porta de origem do cliente |Protocolo|Categoria da mídia|Valor de DSCP|Classe DSCP|
 |---------|---------|---------|---------|---------|
-| 50.000 – 50.019|TCP/UDP|Áudio|46|Expedited Forwarding (EF)|
-| 50.020 – 50.039|TCP/UDP|Vídeo|34|Assured Forwarding (AF41)|
-| 50.040 – 50.059|TCP/UDP|Compartilhamento de aplicativos/área de trabalho e transferência de arquivos|18|Seletor de classe (CS3)|
-
-Tabela 1: Marcações DSCP
+| 50.000 – 50,019|TCP/UDP|Áudio|46|Expedited Forwarding (EF)|
+| 50,020 – 50,039|TCP/UDP|Vídeo|34|Assured Forwarding (AF41)|
+| 50,040 – 50,059|TCP/UDP|Compartilhamento de aplicativo/área de trabalho|18|Assured Forwarding (AF21)|
 
 Veja aqui algumas condições que devem ser observadas ao usar as informações da Tabela 1:
-
-- O compartilhamento de arquivos e o compartilhamento de aplicativos usam o mesmo intervalo de portas de origem. Dessa maneira, usariam as mesmas marcações DSCP ao utilizar a marcação baseada em porta. Por isso, é necessário determinar qual prioridade se aplica melhor *às duas* modalidades (Interativa ou Padrão).
     
-- Se houver planos de implementar o ExpressRoute no futuro e a QoS ainda não tiver sido implementada, é recomendável seguir as orientações fornecidas acima de modo que os valores de DSCP sejam iguais do remetente ao destinatário. 
+-  Se você pretende implementar ExpressRoute no futuro e ainda não foi implementado QoS, recomendamos que você siga as orientações na tabela 1, para que os valores DSCP são os mesmos do remetente para o receptor. 
+
+-  Todos os clientes, incluindo clientes móveis e dispositivos de equipes, usarão esses intervalos de porta e serão afetados pela implementar qualquer política DSCP que usa esses intervalos de porta de origem. Os únicos clientes que continuarão a usar portas dinâmicas são os clientes baseados em navegador (ou seja, os clientes que permitem que os participantes participar de reuniões usando seus navegadores).
+
+-  Embora o cliente Mac usem os mesmos intervalos de porta, o cliente Mac também usa valores codificados para (EF) de áudio e vídeo (AF41). Esses valores não são configuráveis.
+ 
     
 ## <a name="source-ports-used-by-teams"></a>Portas de origem usadas pelo Microsoft Teams
 
-No Microsoft Teams, a QoS deve ser configurada com base nas portas de origem usadas pelas diferentes cargas de trabalho. Neste momento, não é possível configurar os intervalos de portas do lado do servidor, nem do lado do cliente. 
+No Microsoft Teams, a QoS deve ser configurada com base nas portas de origem usadas pelas diferentes cargas de trabalho. Nenhum dos intervalos de porta do servidor nem do cliente são configuráveis no momento. 
 
-Para implantar a QoS, use os intervalos de portas de origem do cliente listados na Tabela 2 com as marcações DSCP de QoS associadas.
+Observe os intervalos de porta de origem do cliente listados na tabela 2 e usar suas marcações de QoS DSCP associadas.
 
-| Porta de origem do cliente|Protocolo|Categoria da mídia|Valor DSCP comum|Classe DSCP|
+_Tabela 2. Intervalos de porta de origem do cliente_
+
+| Intervalo de porta de origem do cliente |Protocolo|Categoria da mídia|Valor de DSCP|Classe DSCP|
 |---------|---------|---------|---------|---------|
-| 50.000 – 50.019|TCP/UDP|Áudio|46|Expedited Forwarding (EF)|
-| 50.020 – 50.039|TCP/UDP|Vídeo|34|Assured Forwarding (AF41)|
-| 50.040 – 50.059|TCP/UDP|Compartilhamento de aplicativos/área de trabalho e transferência de arquivos|18|Seletor de classe (CS3)|
+| 50.000 – 50,019|TCP/UDP|Áudio|46|Expedited Forwarding (EF)|
+| 50,020 – 50,039|TCP/UDP|Vídeo|34|Assured Forwarding (AF41)|
+| 50,040 – 50,059|TCP/UDP|Compartilhamento de aplicativo/área de trabalho|18|Assured Forwarding (AF21)|
 
-Tabela 2: Intervalos de portas de origem do cliente
+O método recomendado de implementação essas políticas de QoS é usar as portas de origem do cliente com um endereço IP de origem e destino de "Nenhum". Isso irá capturar ambas tráfego de mídia de entrada e saída na rede interna. 
 
 > [!NOTE]
-> Se você já configurou a QoS com base nos intervalos de portas de origem para o Skype for Business Online, a mesma configuração se aplicará ao Microsoft Teams. Não é necessário alterar mais nada. Se você implantou o Skype for Business Server (no local), será necessário reestruturar suas Políticas de QoS.
+> Se você já tiver configurado a QoS com base em intervalos de porta de origem para Skype para Business Online, a mesma configuração será aplicada às equipes e nenhuma alteração será necessária. Se você implantou Skype para Business Server local, você precisará reconstruir suas políticas de QoS.
 
-## <a name="setting-differentiated-services-code-point-dscp-markings"></a>Definição de marcações DSCP (Ponto de Código de Serviços Diferenciados)
+## <a name="setting-dscp-markings"></a>Definindo as marcações de DSCP
 
-Há várias abordagens para definir as marcações DSCP corretas para a classificação do tráfego.
+Há várias abordagens para definir as marcas de DSCP apropriadas para a classificação de tráfego:
 
-- Marcação DSCP no ponto de extremidade: em geral, essa é a opção preferencial, pois o próprio ponto de extremidade fornece as marcações corretas. No momento, isso deve ser feito usando um GPO, mas isso só é possível em clientes Windows que ingressaram no domínio. Os clientes Mac OSX ou móveis, por exemplo, não fornecem um mecanismo para marcar o tráfego com valores de DSCP.
+-  **a marcação DSCP no ponto de extremidade:** Isso geralmente é a opção preferencial, porque o ponto de extremidade próprio fornece as marcações adequadas. No momento isso pode ser feito usando-se um objeto de diretiva de grupo, mas só pode ser usado em clientes do domínio Windows. Clientes móveis não fornecem um mecanismo para marcar o tráfego usando valores DSCP. Embora você não pode definir não&ndash;clientes associados a um domínio do Windows ao tráfego de marca, clientes como o Mac OS ter codificadas marcas e sempre será marcar tráfego conforme descrito acima.
 
-- Baseada em portas usando ACLs nos roteadores: essa é uma opção muito comum em ambientes heterogêneos do Windows e do Mac. Nesse cenário, a equipe de rede marca o tráfego nos roteadores de entrada/saída (normalmente na WAN (rede de longa distância)) com base nos intervalos de portas de origem definidos para cada modalidade. Embora isso funcione em várias plataformas, a marcação é feita somente na borda da WAN, não por todo o caminho até o computador cliente, e agrega sobrecarga de gerenciamento.
+-  **Usando listas de controle de acesso (ACLs) em roteadores de marcação de DSCP baseados na porta:** Essa é uma opção muito comuns encontrada em ambientes Windows e Mac heterogêneos. Neste cenário, a equipe de rede marca o tráfego nos roteadores de entrada/saída (normalmente localizado na rede de longa distância) com base nos intervalos de porta de origem definidos para cada modalidade. Embora isso funcione em todas as plataformas, ele marca somente o tráfego da borda de WAN — não totalmente para a máquina cliente — e, portanto, gera sobrecarga de gerenciamento.
     
-- Combinação de marcações DSCP no cliente e ACLs baseadas em portas nos roteadores.
+-  **Uma combinação de marcações de DSCP no ponto de extremidade e baseados na porta ACLs em roteadores:** Recomendamos esta combinação, se possível em seu ambiente. Use um objeto de diretiva de grupo para capturar a maioria dos clientes e também utilizar para garantir que mobile, Mac e outros clientes ainda obterão tratamento de QoS (pelo menos parcialmente) de marcação de DSCP baseados na porta.
     
-Se possível, recomendamos uma combinação das duas abordagens, usando um GPO para pegar a maioria dos clientes e também a marcação DSCP baseada em portas para garantir que clientes móveis, Mac e outros clientes possam receber um tratamento de QoS (parcial).
+Você pode usar a QoS baseada em diretivas dentro da diretiva de grupo para definir o valor DSCP para o intervalo de porta de origem predefinidos no cliente equipes. Use os intervalos de porta especificados na tabela 3 para criar uma política para cada carga de trabalho.
 
-A definição do valor de DSCP para o intervalo de portas de origem predefinido no cliente Microsoft Teams pode ser feita usando a QoS baseada em política dentro da Política de Grupo. A tabela a seguir usa os intervalos de portas especificados para criar uma política para cada carga de trabalho.
-
+_Tabela 3. Intervalos de porta por tipo de tráfego_
 | Tipo de tráfego do cliente|Início do intervalo de portas|Final do intervalo de portas|Valor de DSCP|
 |---------|---------|---------|--------|
 | Áudio|50000|50019|46|
 | Vídeo|50020|50039|34|
 | Compartilhamento de aplicativos|50040|50059|18|
-| Transferência de arquivos|50040|50059|18|
 
-Tabela 3: Intervalos de portas por tipo de tráfego
+> [!NOTE]
+> Os intervalos de porta definidos por equipes não podem ser alterados. Examine [Este artigo de suporte](https://support.microsoft.com/kb/2409256) para obter as informações mais recentes. 
 
-Observação: Não é possível mudar ou alterar os intervalos de portas definidos pelo Microsoft Teams. Consulte nesta página as informações mais recentes: https://support.microsoft.com/ kb/2409256
+Depois que você identificou os intervalos de porta, a próxima etapa é definir as configurações de QoS baseada em diretivas dentro de um objeto de diretiva de grupo. Para obter mais informações sobre essas etapas podem ser encontradas no [artigo da TechNet](https://technet.microsoft.com/library/jj205371(v=ocs.15).aspx). 
 
-Depois que os intervalos de portas tiverem sido determinados, a próxima etapa é definir as configurações de QoS baseada em política dentro de um GPO (Objeto de Política de Grupo). Os detalhes desse procedimento estão disponíveis no [TechNet](https://technet.microsoft.com/library/jj205371(v=ocs.15).aspx). 
+As novas políticas que você criou não terão efeito até que a diretiva de grupo tenha sido atualizada em seus computadores cliente. Embora a diretiva de grupo for atualizada periodicamente por si só, você pode forçar uma atualização imediata.
 
-As novas políticas que você criou só entrarão em vigor quando a Política de Grupo for atualizada nos computadores cliente. Embora a Política de Grupo seja periodicamente atualizada por si só, você pode forçar a atualização imediata executando o comando a seguir em cada computador em que a Política de Grupo deve ser atualizada:
+### <a name="force-group-policy-refresh"></a>Atualização de diretiva de grupo Force
 
-        gpudate.exe /force
+1. Em cada computador para o qual você deseja atualizar a diretiva de grupo, abra um console de comando. Certifique-se de que o console de comando está definido para executar como administrador.
 
-Esse comando pode ser executado em qualquer janela de comando executada com credenciais de administrador. Para executar uma janela de comando com credenciais de administrador, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**.
+2. No prompt de comando, digite:
+```
+    gpudate.exe /force
+```
 
-## <a name="verifying-the-dscp-markings-in-gpo"></a>Verificação das marcações DSCP no GPO
+## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Verifique se as marcações de DSCP no objeto de diretiva de grupo
 
-Para verificar se os valores do GPO foram definidos, faça o seguinte:
+Para verificar se os valores do objeto de diretiva de grupo foram definidos, execute as seguintes etapas.
 
-1.  Use gpresult para verificar se as configurações do GPO foram recebidas pelo computador local. gpresult /R >gp.txt gerará um relatório e o enviará para um arquivo de texto, gp.txt.
+1.  Abra um console de comando. Certifique-se de que o console de comando está definido para executar como administrador.
 
-    ![Captura de tela do Prompt de Comando do Administrador executando o comando gpresult.](media/Qos-in-Teams-Image3.png)
+2.  No prompt de comando, digite: 
+    ```
+    gpresult /R >gp.txt
+    ```
 
-    Figura 2: Verificação dos Objetos de Política de Grupo aplicados
-    > [!NOTE]
-    > Como opção, você pode executar gpresult /H gp.html para produzir os mesmos dados em um relatório HTML mais amigável. 
-2.  No arquivo gerado, procure o cabeçalho: Applied Group Policy Objects e verifique se os nomes dos GPOs criados estão na lista de políticas aplicadas. 
+    Isso irá gerar um relatório e enviá-la para um arquivo de texto chamado GP. txt. Como alternativa, você pode inserir o seguinte comando para produzir os mesmos dados em um relatório HTML mais legível chamado gp.html:
+    ```
+    gpresult /H >gp.html
+    ```
+ 
+   ![Captura de tela da janela do console, executando o comando gpresult.] (media/Qos-in-Teams-Image3.png "Captura de tela da janela do console, executando o comando gpresult.")
 
-3.  Abra o editor do Registro e navegue até:
+3.  No arquivo gerado, procure por título de **Objetos de diretiva de grupo aplicados** e verifique se os nomes dos objetos de diretiva de grupo criados anteriormente estão na lista de diretivas aplicadas. 
+
+4.  Abra o Editor do registro e vá para:
 
     HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-    Verifique os valores do Registro listados na Tabela 3 a seguir.
+    Verifique se os valores para as entradas do Registro listadas na tabela 3.
+
+    _Tabela 3. Valores para entradas de registro do Windows para QoS_
     
     | Nome | Tipo | Dados|
     |---------|---------|---------
@@ -171,97 +191,42 @@ Para verificar se os valores do GPO foram definidos, faça o seguinte:
     | Porta Local|REG_SZ|50000-50019|
     | Protocolo|REG_SZ|*|
     | IP Remoto|REG_SZ|*|
-    | Prefixo do IP Remoto|REG_SZ|*|
+    | Prefixo IP remoto|REG_SZ|*|
     | Porta Remota|REG_SZ|*|
     | Taxa de Aceleração|REG_SZ|-1|
     
-    Tabela 3: Valores do Registro do Windows para QoS
+5.  Verificar se o valor para a entrada de nome do aplicativo está correto para o cliente que você está usando e verificar que o valor DSCP e a porta Local entradas reflitam as configurações no objeto de diretiva de grupo.
 
-4.  Verifique se o Nome do Aplicativo está correto para o cliente que você está usando e se o valor de DSCP e a Porta Local refletem as configurações no GPO.
+## <a name="validate-qos-by-analyzing-teams-traffic-on-the-network"></a>Validar a QoS ao analisar o tráfego de equipes na rede
 
-## <a name="validating-qos-analyzing-teams-traffic-on-the-network"></a>Validação da QoS: analisando o tráfego do Microsoft Teams na rede
+O valor DSCP definido pelas necessidades de objeto de diretiva de grupo estar presentes do chamador para o receptor na ordem de QoS para serem eficientes. Examinando o tráfego gerado pelo cliente equipes, você pode verificar que o valor DSCP não será alterado ou retirado quando o tráfego de carga de trabalho de equipes percorre a rede. 
 
-O valor de DSCP definido pelo GPO precisa estar presente do autor da chamada até o destinatário da chamada para que a QoS seja efetiva. É possível verificar se o DSCP não foi alterado ou removido ao percorrer a rede examinando o tráfego gerado pelo cliente Microsoft Teams. 
+De preferência, você capturar o tráfego no ponto de saída de rede. Você pode usar o espelhamento de porta em um comutador ou roteador para ajudá-lo com isso.
 
-Seria preferível capturar o tráfego no ponto de saída da rede. O espelhamento de porta pode ser usado em um comutador ou roteador para auxiliar na captura do tráfego na rede. 
+### <a name="use-network-monitor-to-verify-dscp-values"></a>Use o Monitor de rede para verificar os valores DSCP
 
-### <a name="looking-at-network-traffic-using-network-monitor"></a>Exame do tráfego de rede usando o Monitor de Rede
+Monitor de rede é uma ferramenta que você pode [fazer o download da Microsoft](https://www.microsoft.com/download/4865) para analisar o tráfego de rede.
 
-A ferramenta Monitor de Rede pode ser baixada da Microsoft para analisar o tráfego de rede. Baixe o [Monitor de Rede 3.4](https://www.microsoft.com/download/4865).
+1.  No PC executando o Monitor de rede, conecte-se à porta que foi configurada para o espelhamento de porta e iniciar a captura de pacotes. 
 
-Conecte o computador que está executando o Monitor de Rede à porta que foi configurada para o espelhamento de porta e inicie a captura de pacotes. Faça uma chamada usando o cliente Skype for Business. Verifique se a mídia foi estabelecida antes de desligar a chamada. Pare a captura, crie um filtro de exibição correspondente ao IP de origem do computador que fez a chamada e refine o filtro definindo o valor de DSCP 46 (hex 0xb8) como critério de pesquisa:
+2.  Fazer uma chamada usando o Skype para o cliente de negócios. Certifique-se de mídia foi estabelecida antes de desligar a chamada. 
 
-Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8 
+3.  Pare a captura.
 
-![Captura de tela da caixa de diálogo Filtro de exibição no Monitor de Rede, mostrando os filtros que devem ser aplicados.](media/Qos-in-Teams-Image4.png)
+4. No campo de **Filtro de exibição** , use o endereço IP de origem do PC que fez a chamada e refinar o filtro definindo o valor DSCP 46 (hex 0xb8) como critérios de pesquisa, conforme mostrado no exemplo a seguir:
 
+    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8 
 
-Clique em **Aplicar** para ativar o filtro. Na janela **Frame Summary** (Resumo do Quadro), selecione o primeiro pacote UDP e examine os detalhes do quadro:
+    ![Captura de tela da caixa de diálogo de filtro de exibição no Monitor de rede, mostrando os filtros a serem aplicados.] (media/Qos-in-Teams-Image4.png "Captura de tela da caixa de diálogo de filtro de exibição no Monitor de rede, mostrando os filtros a serem aplicados.")
 
-![Captura de tela da caixa de diálogo Frame Details (Detalhes do Quadro) no Monitor de Rede, destacando as configurações de DSCP.](media/Qos-in-Teams-Image5.png)
+5.  Selecione **Aplicar** para ativar o filtro.
 
-Expanda IPv4 e examine o valor no final da linha DSCP. Nesse exemplo, vemos que o valor de DSCP está definido como 46, que é o valor correto, já que a porta de origem usada é a 50019. Isso nos informa que a carga de trabalho é de voz. 
+6.  Na janela de **Quadro de resumo** , selecione o primeiro pacote UDP.
+
+7.  Na janela **Detalhes do quadro** , expanda o item de lista de IPv4 e observe o valor no final da linha que começa com **DSCP**. 
+
+    ![Captura de tela da caixa de diálogo Detalhes do quadro no Monitor de rede, as configurações de DSCP de realce.] (media/Qos-in-Teams-Image5.png "Captura de tela da caixa de diálogo Detalhes do quadro no Monitor de rede, as configurações de DSCP de realce.")
+
+Neste exemplo, o valor DSCP é definido como 46. Isso está correto, porque a porta de origem usada é 50019, que indica que isso é uma carga de trabalho de voz. 
 
 Repita a verificação para cada carga de trabalho que foi marcada pelo GPO. 
-
-> [!NOTE]
-> Confirme se as marcações também são respeitadas para o tráfego ponto a ponto. Isso pode ser feito instalando o Monitor de Rede em dois clientes e fazendo chamadas entre eles. Examine o tráfego de mídia que flui entre os clientes da maneira descrita acima.
-
-### <a name="sample-filters-to-use-for-network-monitor-or-wireshark"></a>Filtros de exemplo para usar com o Monitor de Rede ou o Wireshark
-
-|Uso  |Filtro de exemplo  |
-|---------|---------|
-|Voz (observação: a mixagem deve estar desligada)     |   udp.port==3479 AND Ipv4.DifferentiatedServicesField.DSCP==46      |
-|Vídeo     | udp.port==3480 AND Ipv4.DifferentiatedServicesField.DSCP==34        |
-|Compartilhamento de tela     |  udp.port==3481 AND Ipv4.DifferentiatedServicesField.DSCP==18       |
-
-### <a name="filter-media-traffic-from-microsoft-relays-requires-azure-expressroutehttpsazuremicrosoftcomservicesexpressroute"></a>Filtro: tráfego de mídia de relés da Microsoft (requer o [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/))
-
-ip.src em {52.114.188.0/22 52.114.220.0/22 52.114.124.0/22 52.114.60.0/22} e (udp.srcport em {3479 3480 3481} ou (udp.srcport ge 50000 e udp.srcport lt 60000))
-
-### <a name="filter-media-traffic-to-microsoft-relays"></a>Filtro: tráfego de mídia de relés da Microsoft
-
-ip.dst em {52.114.188.0/22 52.114.220.0/22 52.114.124.0/22 52.114.60.0/22} e (udp.dstport em {3479 3480 3481} ou (udp.dstport ge 50000 e udp.dstport lt 60000))
-
-
-Você deve ver o tráfego de e para os relés da Microsoft. É possível verificar as marcações DSCP na camada IP no Wireshark conforme mostrado na próxima seção.
-
-### <a name="expected-dscp-markings"></a>Marcações DSCP esperadas
-
-Fluxos de áudio: 46
-
-Fluxos de vídeo: 34
-
-Fluxos de dados: 18
-
-### <a name="filter-dscp-condition-to-network"></a>Filtro: condição de DSCP para rede
-
-ip.dsfield.dscp em {46 34 18}
-
-
-
-### <a name="looking-at-network-traffic-using-wireshark"></a>Exame do tráfego de rede usando o Wireshark
-
-O Wireshark, https://www.wireshark.org/, é uma ferramenta eficiente que permite filtrar e gravar dados de rede para análise adicional. Conecte um computador que está executando o Wireshark à porta que foi configurada para o espelhamento de porta e inicie a captura de pacotes. Faça uma chamada usando o cliente Microsoft Teams. Verifique se a mídia foi estabelecida antes de desligar a chamada.
-
-Pare o rastreamento de pacotes e crie um filtro para exibir apenas o IP de origem do computador em que o cliente Microsoft Teams está instalado. Por exemplo, *ip.src_host == 192.168.137.201* e procure os pacotes que usam uma porta de origem do intervalo especificado para voz, 50.000 – 50.019:
-
-![Captura de tela do Wireshark com configurações de filtro.](media/Qos-in-Teams-Image6.png)
- 
-
-Marque o pacote e expanda o cabeçalho IPV4 no painel de detalhes do pacote:
-
-![Captura de tela do Wireshark com as configurações de Differentiated Services Codepoint em destaque.](media/Qos-in-Teams-Image7.png)
- 
-
-Verifique se o valor de *Differentiated Services Codepoint* corresponde ao valor da carga de trabalho específica, nesse caso, 46 (binário 101110) para voz.
-
-Repita a verificação para cada carga de trabalho que foi marcada pelo GPO.
-
-> [!NOTE]
-> Confirme se as marcações são respeitadas para o tráfego ponto a ponto. Isso pode ser feito instalando o WireShark ou o Monitor de Rede em dois clientes e fazendo chamadas entre eles. Examine o tráfego de mídia que flui entre os clientes da maneira descrita acima.
-
-## <a name="summary"></a>Resumo
-
-A Qualidade de Serviço é uma peça importante para fornecer experiências de nível empresarial com o Microsoft Teams. No entanto, é sempre importante lembrar que a QoS só é eficiente em redes gerenciadas corretamente. Dessa maneira, a equipe de implantação deve trabalhar de perto com as equipes de rede para garantir que as informações apropriadas sejam passadas em nível de rede, idealmente gerenciadas de ponta a ponta.
-

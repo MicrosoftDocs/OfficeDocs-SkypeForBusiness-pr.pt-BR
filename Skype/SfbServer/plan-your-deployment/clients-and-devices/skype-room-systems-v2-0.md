@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Este artigo explica as considerações de planejamento relevantes para implantar sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 3d958c5d07cfafd2eeddd6076182a635cfff19de
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Planejar o Skype Room Systems versão 2
  
@@ -55,11 +55,11 @@ Sistemas de sala Skype v2 é a solução de conferência mais recente da Microso
     
 - Ingestão interna com fio para projetar o compartilhamento de área de trabalho para a sala e para a Reunião do Skype
     
-- Seleção de usuário no aplicativo de sala áudio e vídeos dispositivos USB U1 da reunião
+- Seleção de usuário no aplicativo de reunião sala de áudio e vídeo dispositivos USB & #x 2776;
     
-- Suporte de tela dual (para correspondência de sistema herdado) U2
+- Suporte de tela dual (para correspondência de sistema herdado) & #x 2777;
     
-- Themability (temas internos e a capacidade de definir o tema personalizado) U2
+- Themability (temas internos e a capacidade de definir o tema personalizado) & #x 2777;
     
  **Fácil de implantar, simples de gerenciar**
   
@@ -77,39 +77,39 @@ Sistemas de sala Skype v2 é a solução de conferência mais recente da Microso
     
 - É executado no tablet Surface Pro 4
     
-- Integrado status da sala console relatórios para clientes usando o pacote de gerenciamento do Microsoft Operations (consulte [management v2 de sistemas de sala Skype planejar com OMS](oms-management.md)) U1
+- Integrado status da sala console relatórios para clientes usando o pacote de gerenciamento do Microsoft Operations (consulte [management v2 de sistemas de sala Skype planejar com OMS](oms-management.md)) & #x 2776;
     
-- Capacidade de fornecer comentários para o público compilações U2
+- Capacidade de fazer comentários para compilações públicas & #x 2777;
     
-- Telemetria aprimorada em torno de confiabilidade de ingresso U2 da reunião
+- Telemetria aprimorada em torno da reunião ingressar confiabilidade & #x 2777;
     
-- OMS adicionais reporting U2
+- Relatórios de OMS & #x 2777; adicionais
     
-- Capacidade do administrador de TI configurar dispositivos remotamente U2
+- Capacidade para o administrador de TI para configurar dispositivos remotamente & #x 2777;
     <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
-- É executado em um tablet Surface Pro U3
+- É executado em um tablet Surface Pro & #x 2778;
     
-- Suporta U3 de atualização (idioma inglês, compilação 1703) do criador do Windows 10 Enterprise
+- Suporta Windows 10 Enterprise criador de atualização (idioma inglês, compilação 1703) e #x 2778;
     
-- Suporte para [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) encaixa hardware U3
+- Suporte para [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) encaixa hardware & #x 2778;
     
-- Suporte de OEM para ambiente controla U3 (Crestron)
+- Suporte de OEM para controles do ambiente (Crestron) & #x 2778;
     
-- Suporte para a [Série de MSR Polycom](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) encaixa hardwareU4
+- Suporte para a [Série de MSR Polycom](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) encaixa hardware & #x 2779;
     
-- Suporte para o U4 [Logitech Brio](https://www.logitech.com/en-us/product/brio)
+- Suporte para [Logitech Brio](https://www.logitech.com/en-us/product/brio) & #x 2779;
 
-- Suporte para [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)U5 encaixa o hardware  
+- Suporte para [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) encaixa hardware & #x277A;  
     
-U1 - recurso introduzido na atualização 1 (SW Ver. 2.0.2.0).
+& #x 2776; -Recurso introduzido na atualização 1 (SW Ver. 2.0.2.0).
   
-U2 - recurso introduzido na atualização 2 (SW Ver. 3.0.6.0). 
+& #x 2777; -Recurso introduzido na atualização 2 (SW Ver. 3.0.6.0). 
   
-U3 - recurso introduzido na atualização 3 (SW Ver. 3.0.12.0). 
+& #x 2778; -Recurso introduzido na atualização 3 (SW Ver. 3.0.12.0). 
   
-U4 - recurso introduzido na atualização 4 (SW Ver. 3.0.15.0). 
+& #x 2779; -Recurso introduzido na atualização 4 (SW Ver. 3.0.15.0). 
 
-U5 - recurso introduzido na atualização 5 (SW Ver. 3.1.98.0). 
+& #x277A; -Recurso introduzido na atualização 5 (SW Ver. 3.1.98.0). 
   
 ## <a name="preparing-your-skype-for-business-environment"></a>Preparando o ambiente do Skype for Business
 

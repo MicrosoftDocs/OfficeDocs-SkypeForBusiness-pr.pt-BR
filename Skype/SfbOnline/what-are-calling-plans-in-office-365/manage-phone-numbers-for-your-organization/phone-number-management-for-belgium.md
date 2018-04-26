@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Bélgica.
-ms.openlocfilehash: d340807c7e83c801ae625d60ba5e2106fb979c9a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a123b306fbade2f0331715436a0cfbcb296df115
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="phone-number-management-for-belgium"></a>Gerenciamento de números de telefone para a Bélgica
 
@@ -46,9 +46,9 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para chamar planos para obter informações sobre os números de telefone diferentes que são usados em Skype para negócios Online.
-ms.openlocfilehash: c128708611405b8c3f4da25a0be38801ad3b38f9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 9e98f179753f7c9e135c398e718d7cf9ee418e66
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Números de telefone de quantos você consegue?
 
@@ -54,9 +54,9 @@ Você pode ver o número de números de telefone, que você pode obter na págin
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-[Termos e condições das chamadas de emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das chamadas de emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

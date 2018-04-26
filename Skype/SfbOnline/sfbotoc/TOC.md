@@ -34,6 +34,8 @@
 ### [Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
+
+
 ## [Planos de Chamadas no Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Adicionar, alterar ou remover um local de emergência para sua organização](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Adicionar ou remover um endereço de emergência para sua organização](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -59,7 +61,7 @@
 #### [Gerenciamento de números de telefone para os EUA](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Como a ID de chamadas pode ser usada em sua organização](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Quantos números de telefone você pode obter?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-### [Mais informações sobre como chamar o ID de linha e chamar o nome do participante](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
+###[Mais informações sobre como chamar o ID de linha e chamar o nome do participante](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [Pesquisar números de telefone para usuários](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Ver uma lista de números de telefone em sua organização](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Definir a identificação de chamadas para um usuário](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -169,11 +171,12 @@
 ### [Gerenciar contas de usuário](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Gerenciar organizações usando o Conector do Skype for Business Online](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## Acessibilidade e regulamentação
-### [Declaração de conformidade relativa à acessibilidade do Skype for Business Online na França](../accessibility-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Soluções de acessibilidade do Skype for Business Online na França](../accessibility-and-regulatory/accessibility-solutions-in-france.md)
-### [Período de discagem gratuita](../accessibility-and-regulatory/complimentary-dial-out-period.md)
-### [Código de conduta para o Reino Unido (UK)](../accessibility-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
-### [Código para lidar com reclamações para o Reino Unido (UK)](../accessibility-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Práticas de coleta de dados](../accessibility-and-regulatory/data-collection-practices.md)
-### [Fim do programa de vida para a integração do Skype for Business com os serviços de audioconferência de terceiros](../accessibility-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+## Legais e normativos
+### [Declaração de conformidade relativa à acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
+### [Soluções de acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Período de discagem gratuita](../legal-and-regulatory/complimentary-dial-out-period.md)
+### [Código de conduta para o Reino Unido (UK)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
+### [Código para lidar com reclamações para o Reino Unido (UK)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Práticas de coleta de dados](../legal-and-regulatory/data-collection-practices.md)
+### [Rótulos de chamada de emergência](../legal-and-regulatory/emergency-calling-labels.md)
+### [Fim do programa de vida para a integração do Skype for Business com os serviços de audioconferência de terceiros](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

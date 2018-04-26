@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba o que fazer se a sua operadora não estiver listada no Skype para negócios. '
-ms.openlocfilehash: 1cebfb2858161f03c4a688592454b8602b6606f0
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 80946b3950965b3b2f3ce8aaff46f29622f2b5a5
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se a operadora meu telefone não está listada como a operadora de fonte?
 
@@ -43,9 +43,9 @@ Um exemplo:
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
 
-[Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições para chamadas de emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

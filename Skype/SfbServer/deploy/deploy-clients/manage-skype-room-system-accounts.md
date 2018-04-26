@@ -12,7 +12,7 @@ ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 description: Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.
 ms.openlocfilehash: c47765b617e0856d1db25c7ed4902fe0af9924f2
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---
@@ -20,24 +20,24 @@ ms.lasthandoff: 03/28/2018
  
 Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.
   
-## <a name="move-the-skype-room-system-account-between-pools"></a>Mover a conta do sistema do Skype sala entre pools
+## <a name="move-the-skype-room-system-account-between-pools"></a>Move the Skype Room System account between pools
 
-Se você precisar mover a conta do sistema do Skype sala de um Skype para pool de servidores corporativos para outro (por exemplo, durante as atualizações), use o seguinte comando para mover o pool de conta do sistema do Skype sala: 
+Se for necessário transferir a conta do  de um pool do  para outro (por exemplo, durante upgrades), use o seguinte comando para mover o pool da conta do : 
   
 ```
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
-## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Desabilitar a conta do sistema do Skype sala para Skype para serviços corporativos
+## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Disable the Skype Room System account for Skype for Business services
 
-Se você precisar desativar uma Skype sala sistema conta existente do Skype para serviços corporativos em um Skype para pool de servidores corporativos, use o seguinte comando para desabilitar a conta: 
+If you need to disable an existing Skype Room System account from Skype for Business services on a Skype for Business Server pool, use the following command to disable the account: 
   
 ```
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 
-## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Opcional: Criar um grupo de administrador do sistema do Skype sala no Active Directory
+## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Opcional: criar um grupo de administradores do  no Active Directory
 
-Cada cliente do sistema de sala Skype que ingressa no domínio pode ser totalmente gerenciado por um usuário de domínio com direitos de administrador local no dispositivo do sistema de sala Skype PC. Portanto, você pode criar grupo dos administradores um dedicado no Active Directory e dar este direitos administrativos do grupo durante set up da máquina nova sistema de sala Skype.
+Cada cliente do  que participa do domínio pode ser totalmente gerenciado por um usuário de domínio com direitos de administrador local no PC do cliente . Portanto, você pode criar um grupo administradores dedicados no Active Directory e dar a este grupo direitos administrativos durante a configuração da nova máquina do .
   
 

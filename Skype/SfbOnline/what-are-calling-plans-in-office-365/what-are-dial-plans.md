@@ -24,11 +24,11 @@ description: 'Saiba como escolher uma para sua organização e que tipo de disca
 search.appverid:
 - MED150
 - MOE150
-ms.openlocfilehash: c24727dec0a9d938b3b0e40ef6f47501944e70e1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 1ddf0203b2fb2c0d03d9607e96086972cf18304d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="what-are-dial-plans"></a>Quais são os planos de discagem?
 
@@ -125,14 +125,14 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Nome da regra** <br/> |**Descrição** <br/> |**Padrão de número** <br/> |**Conversão** <br/> |**Exemplo** <br/> |
-|4digitExtension  <br/> |Converte extensões de 4 dígitos.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 é convertido em +14255550100  <br/> |
-|5digitExtension  <br/> |Converte extensões de 5 dígitos.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |Converte números de 7 dígitos para números locais Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/>|
+|4digitExtension  <br/> |Converte extensões de 4 dígitos.  <br/> |^ (\\d{4}) $  <br/> |+1425555$1  <br/> |0100 é convertido em +14255550100  <br/> |
+|5digitExtension  <br/> |Converte extensões de 5 dígitos.  <br/> |^ 5 (\\d{4}) $  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |Converte números de 7 dígitos para números locais Redmond.  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/>|
 |RedmondOperator  <br/> |Converte 0 para o Operador Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 é convertido em +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Converte números com o prefixo (6) na rede e o código de local do Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
-|5digitRange  <br/> |Converte extensões de 5 dígitos iniciando com o intervalo de dígitos de 3 a 7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+142570$1  <br/> |54567 é convertido em +14255554567  <br/> |
-|PrefixAdded  <br/> |Adiciona um prefixo de país na frente de um número de 9 dígitos com restrições no primeiro e terceiro dígitos.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 é convertido em 14255554567  <br/> |
-|NoTranslation  <br/> |Corresponde 5 dígitos, mas não faz a conversão.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 é convertido em 34567  <br/> |
+|RedmondSitePrefix  <br/> |Converte números com o prefixo (6) na rede e o código de local do Redmond (222).  <br/> |^ 6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
+|5digitRange  <br/> |Converte extensões de 5 dígitos iniciando com o intervalo de dígitos de 3 a 7 inclusive.  <br/> |^ ([3-7]\\d{4}) $  <br/> |+142570$1  <br/> |54567 é convertido em +14255554567  <br/> |
+|PrefixAdded  <br/> |Adiciona um prefixo de país na frente de um número de 9 dígitos com restrições no primeiro e terceiro dígitos.  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 é convertido em 14255554567  <br/> |
+|NoTranslation  <br/> |Corresponde 5 dígitos, mas não faz a conversão.  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 é convertido em 34567  <br/> |
    
  **Plano de discagem de Redmond com base nas regras de normalização mostradas acima.**
   
@@ -153,9 +153,9 @@ A tabela a seguir ilustra um exemplo de plano de discagem para Redmond, Washingt
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

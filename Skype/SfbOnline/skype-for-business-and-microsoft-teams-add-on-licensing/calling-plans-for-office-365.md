@@ -25,11 +25,11 @@ ms.custom:
 - Strat_SB_PSTN
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: d4b5f7c85e879a53de53d21eae8cf202ad2e3ba5
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 2de1aa91df462461ca17edfe032d0f290422eada
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="calling-plans-for-office-365"></a>Planos de chamada do Office 365
 
@@ -47,7 +47,7 @@ Minutos mensais para cada país/região e de cada organização estão localizad
 > O país/região baseia-se no local da licença do usuário no **Centro de administração do Office 365** > **usuários ativos** e **não** o endereço de faturamento listado abaixo do **Perfil de organização** no Centro de administração **Office 365 **.   
 ![Local de licença do usuário](../images/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-Para obter informações detalhadas sobre os limites de uso e termos de uso, consulte [conferência de áudio complementar período de discagem](../accessibility-and-regulatory/complimentary-dial-out-period.md).
+Para obter informações detalhadas sobre os limites de uso e termos de uso, consulte [conferência de áudio complementar período de discagem](../legal-and-regulatory/complimentary-dial-out-period.md).
   
 ## <a name="how-to-buy-a-calling-plan"></a>Como comprar um plano de chamada
 

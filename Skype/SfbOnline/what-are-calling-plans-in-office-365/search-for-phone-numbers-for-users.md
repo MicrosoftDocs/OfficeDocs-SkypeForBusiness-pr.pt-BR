@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
-ms.openlocfilehash: aa6faaf80b23d4011f9859916a56fb8d9041cc76
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: eeb46b41f44e53d4ad02c688f1a90b0e2f4c6385
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Pesquisar números de telefone para usuários
 
@@ -68,9 +68,9 @@ Se você precisa de ajuda com a obtenção de números de telefone, você poder�
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

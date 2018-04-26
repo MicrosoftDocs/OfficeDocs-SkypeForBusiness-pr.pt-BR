@@ -11,11 +11,11 @@ description: Sabia quais funcionalidades existem entre o Microsoft Teams e as di
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3162de2ff5ab5e4aa15fe63545382f1c48378d
-ms.sourcegitcommit: d70e5a5e7d05a2226c1d011895fb12187d73fad0
+ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2018
+ms.lasthandoff: 04/26/2018
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -30,12 +30,12 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 
 **Ações suportadas:** 
 
-| A caixa de correio do usuário está hospedada em:   | Criar equipes   |Entrar em equipes|Criar canais|Criar e visualizar reuniões|Modificar fotos de perfil de usuário|Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots|
-|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated vNext**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim|Sim|Sim|Não|Não|Não|Sim| Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim|Sim|Sim|Sim*|Não|Não|Sim|Sim|
+| A caixa de correio do usuário está hospedada em: | eDisovery| Retenção legal | Retenção| Mgmt de equipe e de canal |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar os contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**Exchange Online**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
+|**Exchange Online Dedicated vNext**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim (lista de permissões)|Não|Não|Sim|Não|Não|Sim|Sim|Não|Sim (Exchange 2013 +)|Não|Sim|Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim (lista de permissões)|Não|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Sim (Exchange 2013 +)|Não|Sim|Sim|
                                                             
 *\*Suporte para o Exchange 2016 CU3 e versões acima*
 

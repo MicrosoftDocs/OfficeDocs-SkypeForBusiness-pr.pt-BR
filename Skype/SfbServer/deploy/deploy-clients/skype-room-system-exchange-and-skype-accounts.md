@@ -12,7 +12,7 @@ ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 description: Leia estes tópicos para aprender como provisionar as contas do Exchange e Skype para o Sistema de Salas do Skype.
 ms.openlocfilehash: 32163bbaa4751e1a8479337d28cde20dc9ba2bd9
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---
@@ -21,9 +21,9 @@ ms.lasthandoff: 03/28/2018
 Leia estes tópicos para aprender como provisionar as contas do Exchange e Skype para o Sistema de Salas do Skype.
   
 > [!NOTE]
-> Provisionamento de conta de sistema de sala Skype depende do tipo de topologia que sua organização tem. Para saber mais sobre as topologias do Active Directory, consulte [requisitos de ambiente para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
+> O provisionamento de contas do  depende do tipo de topologia que sua organização tem. To know more about Active Directory topologies, see [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md). 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Provisionamento do Skype sala sistema Exchange &amp; Skype para contas de negócios
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Provisionamento das contas do Exchange e Skype for Business do Sistema de Salas do Skype
 
 Os tópicos a seguir descrevem como provisionar e gerenciar as contas do Exchange e Skype for Business do Sistema de Salas do Skype para:
   

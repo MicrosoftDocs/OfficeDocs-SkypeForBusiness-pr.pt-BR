@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este tópico descreve as ferramentas do Skype para Business Server 2015 Resource Kit, incluindo o propósito de cada ferramenta e exemplos de seu uso. O Skype para Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para administradores de TI que implantam e gerenciam Skype para Business Server 2015. Por exemplo, a ferramenta de dados do Web Conf pode ser usada para controlar facilmente dados carregado pelos usuários durante uma reunião online. A ferramenta de SEFAUtil pode ser usada para configurar uma chamada de representante encaminhamento e atendimento de chamadas para usuários. Recomendamos que os administradores de TI para usar essas ferramentas para gerenciar com mais eficiência Skype para Business Server 2015.
-ms.openlocfilehash: 8367400ea7730eabbd2686c3bb2b7c16cdf9a1f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7178b7e5566badfea8096e314b1ac23213173a35
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentação das Ferramentas do Kit de Recursos do Skype for Business Server 2015
  
@@ -82,6 +82,9 @@ Veja aqui os principais cenários da ferramenta:
 - Permitir que os administradores restaurem as configurações padrão do Serviço de Catálogo de Endereços.
     
 A ferramenta ABSConfig pode ser iniciada usando o arquivo absConfig.exe. A ferramenta é aberto na guia **Configurar atributos** . Esta tabela possui opções para mapear os atributos do Active Directory Domain Services para os campos de atributo do Skype para Business Server 2015 e para especificar quais usuários devem ser incluídos ou excluídos nos arquivos do serviço de catálogo de endereços com base em filtros específicos de atributo. Ela também tem opções para personalizar quais números telefônicos serão incluídos no arquivo do Catálogo de Endereços. A opção **Restaurar Padrões** permite aos administradores restaurar os valores padrão das configurações do Serviço de Catálogo de Endereços.
+
+> [!NOTE]
+> Novamente o mapeamento dos atributos do AD para diferentes nomes de campo do OC será somente trabalho para Download de arquivo do catálogo de endereços e não é suportado pelo Address Book Web Query.
   
 ### <a name="output"></a>Resultado
 

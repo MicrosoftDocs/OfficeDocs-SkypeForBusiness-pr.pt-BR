@@ -13,18 +13,18 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58fb8598f8e63aa3e8abc943dcffde64452da462
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 50490b08986f1a8f312aa79d5492b1ed8a97ecc8
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Os aplicativos consistem em guias, conectores, bots ou qualquer combinação dos três, fornecidos por um serviço de terceiros. Existem políticas de administração do Teams que podem ser configuradas no Centro de administração do Office 365 para controlar quais aplicativos externos de terceiros são permitidos. Essas políticas permitem especificar quais aplicativos são permitidos ou não, o comportamento do novo aplicativo externo e se o sideload de aplicativos é permitido.
+Os aplicativos consistem em guias, conectores, bots ou qualquer combinação dos três, fornecidos por um serviço de terceiros. Existem políticas de administração do Teams que podem ser configuradas no Centro de administração do Office 365 para controlar quais aplicativos externos de terceiros são permitidos. Essas diretivas permitem especificar quais aplicativos são permitidos e não permitidos, novo comportamento de aplicativo externo, e se os aplicativos do lado do carregamento é permitido.
 
 > [!NOTE]
 > Para gerenciar as configurações de administração de aplicativos no Microsoft Teams, vá para o Centro de administração do Office 365 e abra **Configurações** > **Serviços e complementos** e escolha **Microsoft Teams**. Se você tiver entrado como administrador do Office 365, este link deverá direcioná-lo corretamente:
@@ -47,6 +47,9 @@ Por padrão, a **permissão de aplicativos externos no Microsoft Teams** está h
  
 Para ativar alguns aplicativos (e desativar outros), desative **Allow sideloading of external apps** (Permitir o sideload de aplicativos externos). Em seguida, desative os aplicativos que você não quer que os usuários utilizem. Opcional: desative a opção **Enable new external apps by default** (Habilitar novos aplicativos externos por padrão) (se quiser controlar os novos aplicativos). 
 
+> [!NOTE]
+> Aplicativos padrão, como as criadas pela Microsoft, não são afetados pela definição **habilitar novos aplicativos externos por padrão** .
+
 Quando essa opção está ativada, os usuários podem ativar novos aplicativos assim que eles são adicionados ao catálogo de aplicativos do Teams. Para abrir o catálogo de aplicativos do Teams, clique em **Loja** na parte inferior do Teams e clique em **Aplicativos**. Para controlar os aplicativos que estão disponíveis, desative essa opção. Obviamente, se você desativá-la, precisará lembrar de revisar os novos aplicativos periodicamente para que sua organização não perca novos aplicativos bacanas. 
 
 O sideload é a forma de adicionar um aplicativo ao Teams carregando um arquivo zip diretamente para uma equipe. O sideload permite testar um aplicativo durante seu desenvolvimento. E também possibilita a criação de um aplicativo somente para uso interno, compartilhando-o com a sua equipe sem enviá-lo para o catálogo de aplicativos do Teams na Office Store. 
@@ -55,10 +58,9 @@ Apenas os proprietários de equipes ou os membros aos quais foram concedidas per
 
 ![Captura de tela da seção Apps expandida nas configurações de todo o inquilino.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
 
-
 ## <a name="creating-and-uploading-app-packages"></a>Criação e upload de pacotes de aplicativos 
 
-Para saber mais sobre aplicativos, leia [Desenvolver aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
+Para saber mais sobre os aplicativos, consulte [desenvolver aplicativos para equipes](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
 
 
 

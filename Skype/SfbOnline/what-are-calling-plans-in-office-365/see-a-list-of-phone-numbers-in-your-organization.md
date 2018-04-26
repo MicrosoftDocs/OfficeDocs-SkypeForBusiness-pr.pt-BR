@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Saiba como ver uma lista de todos os números de telefone em sua organização, todos os números atribuídos aos usuários e todos os números são atribuídos a usuários de voz, a partir do Skype para centro de administração de negócios.
-ms.openlocfilehash: 459001a410b7b3eeadb223cbdbd5d98d2f868fdf
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f1bbb27fc1432d411a8241c75bf4e7ba12ccbe0d
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -105,9 +105,9 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

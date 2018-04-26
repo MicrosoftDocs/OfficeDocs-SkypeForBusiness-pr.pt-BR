@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: 7d0a7efd6c524050f53e168a85ca652095a35c3e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4be2e366a241dfe07a22dfa6487c377283fd58ba
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -158,7 +158,7 @@ Na Audioconferência, há um recurso chamado "*Telefonar para Mim*" que pode ser
 É possível discar de uma reunião para outro país/região do mundo que não está listado a seguir usando os [Créditos de Comunicação do Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md). Para esses usuários, será necessário [configurar os Créditos de Comunicação para a sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
   
 > [!NOTE]
-> Durante o período de lançamento, ao usar o recurso Telefonar para Mim ou ao adicionar outras pessoas a uma reunião, os usuários de todas as organizações podem discar para os países/regiões a seguir sem custo adicional. No entanto, isso está sujeito aos [Período de discagem gratuita da Audioconferência](../accessibility-and-regulatory/complimentary-dial-out-period.md). 
+> Durante o período de lançamento, ao usar o recurso Telefonar para Mim ou ao adicionar outras pessoas a uma reunião, os usuários de todas as organizações podem discar para os países/regiões a seguir sem custo adicional. No entanto, isso está sujeito aos [Período de discagem gratuita da Audioconferência](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### <a name="phone-system"></a>Sistema de Telefonia
 Com o Sistema de Telefonia, você pode criar atendedores automáticos e filas de chamadas (com um número de chamada tarifada ou gratuita) para atender às chamadas de entrada de sua organização e, quando adicionar um Plano de Chamadas para os usuários, eles poderão usar o Skype for Business para cuidar de tarefas básicas de controle de chamadas, como fazer e receber chamadas, transferir chamadas e ativar e desativar o mudo das chamadas. Os usuários do **Sistema de Telefonia** podem clicar em um nome no catálogo de endereços, e o Skype for Business faz uma chamada para essa pessoa. Para fazer e receber chamadas, os usuários do **Sistema de Telefonia** podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC, ou um dos muitos telefones IP que funcionam com o Skype for Business.

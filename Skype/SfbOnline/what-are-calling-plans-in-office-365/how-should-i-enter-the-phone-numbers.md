@@ -19,11 +19,11 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Saiba como configurar os números de telefone quando transportá-las para Skype para negócios. '
-ms.openlocfilehash: 66e86d01b11f2dc6ad45d59d19f2ccc5a6f6311a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 74914b98ccc60984f1d2be16f6a3351e7b26b2cf
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>Como deve inserir os números de telefone?
 
@@ -93,9 +93,9 @@ Quando você estiver portar números de telefone, você deverá inseri-los no fo
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

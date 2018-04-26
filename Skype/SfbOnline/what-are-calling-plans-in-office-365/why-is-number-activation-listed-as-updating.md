@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 1ec5344ff9fce646952f050d480fa6855186eef4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 972998f3dcb991a1b76e57ca88fcd482fdcfa5fd
+ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação número está listada como atualizar?
 
@@ -101,9 +101,9 @@ A validação de endereços é uma etapa importante da configuração de Planos 
 
 [Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://go.microsoft.com/fwlink/?LinkID=692099)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  
