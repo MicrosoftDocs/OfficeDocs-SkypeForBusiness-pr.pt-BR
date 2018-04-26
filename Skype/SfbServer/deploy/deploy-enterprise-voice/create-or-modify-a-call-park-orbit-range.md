@@ -14,7 +14,7 @@ ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Criar ou modificar um intervalo de Órbita do Call Park no Skype for Business 2015
 ms.openlocfilehash: 3617fb739d56e395c31359c6cedae74e9fb63756
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

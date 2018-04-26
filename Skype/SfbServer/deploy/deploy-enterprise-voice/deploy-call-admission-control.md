@@ -14,7 +14,7 @@ ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: O serviço de controle de admissão de chamadas (CAC) é uma solução que determina se uma sessão em tempo real pode ou não ser estabelecida com base na largura de banda disponível, para ajudar a evitar uma qualidade audiovisual ruim para os usuários em redes congestionadas. Planejamento do controle de admissão de chamadas no Skype for Business Server 2015
 ms.openlocfilehash: 0302663546a099e682b5dc405625d4519fe998d9
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---

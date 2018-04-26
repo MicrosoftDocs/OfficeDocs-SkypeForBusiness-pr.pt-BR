@@ -12,7 +12,7 @@ ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Resumo: Leia este tópico para saber como adicionar bancos de dados de arquivamento à sua implantação do .'
 ms.openlocfilehash: 09185eed2a8bd0cc9b2a03fc6361abeadbd01829
 ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/28/2018
 ---
