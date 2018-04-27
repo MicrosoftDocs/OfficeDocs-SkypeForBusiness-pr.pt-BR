@@ -1,25 +1,8 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: b43453eaa50cd5028781de5f102bf8a0f8e81cc9
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 1c997b6b97120fdb89001e5a2fd8e818d1f1d7db
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/27/2018
 ---
-<<<<<<< CABEÇALHO
-# <a name="welcome-to-sharepoint-and-onedrive"></a>Bem-vindo ao SharePoint e ao OneDrive
-
-Agora, o SharePoint e o OneDrive estão em docs.microsoft.com. 
-
-O SharePoint Server 2016 é um ambiente de colaboração que organizações de todos os portes podem usar para aumentar a eficiência dos processos de negócios. 
-
-Os sites do SharePoint Server 2016 oferecem ambientes que os administradores podem configurar para oferecer acesso personalizado a documentos e outras informações. Os recursos de pesquisa permitem que os usuários encontrem conteúdo de forma eficiente, independentemente da localização física dos dados.
-
-Certifique-se de conferir nossa página de [Diagramas técnicos](https://technet.microsoft.com/library/cc263199(v=office.16).aspx) de soluções recomendadas para o SharePoint.
-
-=======
->>>>>>> master
-
-![Miniatura para pôsteres](media/testfile.png)
-
-[Confira também a orientação sobre acessibilidade](https://technet.microsoft.com/library/mt790686(v=office.16).aspx)

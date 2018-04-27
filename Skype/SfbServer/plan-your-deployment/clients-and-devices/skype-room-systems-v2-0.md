@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Este artigo explica as considerações de planejamento relevantes para implantar sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 372c920eaeaaee050e420cd25195565555426561
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 7b36e9bc9c85a57b81be542f09d65c357f6020c0
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="plan-for-skype-room-systems-v2"></a>Planejar o Skype Room Systems versão 2
  
@@ -24,12 +24,12 @@ Este artigo explica as considerações de planejamento relevantes para implantar
   
 Sistemas de sala Skype v2 usa um aplicativo UWP desenvolvido especificamente, que atua como a interface do usuário de reunião do Skype. Ele é executado em um 4 de Surface Pro ou Surface Pro em um modo de console (uma vez implantado o aplicativo UWP é o único aplicativo que serão executados no dispositivo) e ele requer sua própria conta de dispositivo em sua Skype para a implementação de negócios. Ele usa equipamentos existentes, como painéis de LCD e câmeras e microfones periféricos de custo relativamente baixo, para oferecer uma experiência de sala de reunião de qualidade. O software é atualizado via Windows Store e Windows Update.
   
-Antes de preparar o ambiente, certifique-se de ter o hardware e o software necessários. Para obter mais informações, consulte [requisitos de v2 de sistemas de sala Skype](requirements.md). 
+Antes de começar Preparando seu ambiente, certifique-se de que você tem o hardware necessário e software. Para obter mais informações, consulte [requisitos de v2 de sistemas de sala Skype](requirements.md). 
   
 > [!NOTE]
 > Sistemas de sala Skype v2 destina para uso com Skype para Business Server 2015 ou Skype Business Online. Plataformas anteriores, como o Lync Server 2013 não devem trabalhar com sistemas de sala Skype v2. 
   
-Sistemas de sala Skype v2 é a solução de conferência mais recente da Microsoft projetada para transformar a sala de reunião em um Skype rica e colaboração para a experiência de negócios. Os usuários apreciarão a interface familiar do Skype for Business, e os administradores de TI ficarão satisfeitos com a implantação e o gerenciamento fáceis do aplicativo Reunião do Skype para Windows 10. Sistemas de sala Skype v2 foi projetado para aproveitar o equipamento existente como painéis LCD para facilitar da instalação para trazer Skype for Business para sala de reunião.
+
   
  **Projetado para o Skype for Business**
   

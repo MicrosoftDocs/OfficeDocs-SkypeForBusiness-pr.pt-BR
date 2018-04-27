@@ -11,11 +11,11 @@ description: Guia para analisar o desempenho de mídia em tempo real for Microso
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42af71e9062b68da6e9d3bc77a6c067eee35ec92
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 1f0f5eb9ff2521d56214a9e07be715da21a5bed3
+ms.sourcegitcommit: 5cc51e2d3898fccd1969accedb5e185a332e83bf
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
@@ -1095,7 +1095,7 @@ Fornecendo aos usuários com dispositivos certificados para equipes e Skype for 
 
 #### <a name="organizational-usage-of-capture-devices-microphones-by-volume"></a>Uso organizacional dos dispositivos de captura (microfones) por volume
 
-Este relatório é usado para avaliar o uso de microfone por volume e de pontuação do MOS e pode ser encontrado nos modelos acompanha em clientes e dispositivos*.*
+Este relatório é usado para avaliar o uso de microfone por volume e de pontuação do MOS e pode ser encontrado nos modelos acompanha em clientes e dispositivos *.*
 
 > [!IMPORTANT]
 > Relatórios de dispositivo exigem que você poderá excluir dados participantes federados. Para excluir dados de participante federados, você deve adicionar um filtro de consulta para a **Segunda ID do inquilino** definida como [ID do inquilino](#tenant-id)da sua organização. 

@@ -3,7 +3,7 @@
 
 ## [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-## [Audioconferência no Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md)  
+## [Audioconferência no Office 365](../audio-conferencing-in-office-365/audio-conferencing-in-office-365.md) 
 ### [Atribuir a Microsoft como provedor de audioconferência](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)
 ### [Perguntas comuns sobre a audioconferência](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md)
 ### [Idiomas compatíveis com a audioconferência](../audio-conferencing-in-office-365/audio-conferencing-supported-languages.md)
@@ -33,6 +33,7 @@
 ### [Iniciar uma audioconferência por telefone sem um PIN](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
+
 
 
 ## [Planos de Chamadas no Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
@@ -93,10 +94,19 @@
 ### [Fazer alterações nas configurações da Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
 ## [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+### Opções de licença com base no seu plano
+#### [O Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Premium do Office 365, o Office 365 ProPlus, ou Skype para negócios Online plano 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+#### [O office 365 Enterprise E1, E3 e E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
+#### [O Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
+#### [E5 do Office 365 Enterprise (sem serviços de audioconferência)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
+#### [Skype Room Systems v2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+#### [GOV, EDU e organizações sem fins lucrativos](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 ### [Adicionar fundos e gerenciar Créditos de Comunicação](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Atribuir licenças do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audioconferência Pagar por Minuto](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
 ### [Configurar Créditos de Comunicação para a sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Planos de Chamadas para o Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [O que são Créditos de Comunicação?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
 ## [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -164,6 +174,8 @@
 ## Legais e normativos
 ### [Declaração de conformidade relativa à acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [Soluções de acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Retransmissão de IP no Canadá - Inscreva-se](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [Retransmissão de IP no Canadá - guia do usuário](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Período de discagem gratuita](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [Código de conduta para o Reino Unido (UK)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Código para lidar com reclamações para o Reino Unido (UK)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
