@@ -152,7 +152,6 @@
 ### [Definir idiomas do atendedor automático para a audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Definir os números de telefone incluídos em convites](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Definir o tamanho do PIN para reuniões de Audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 ### [Iniciar uma audioconferência por telefone sem um PIN](/SkypeForBusiness/audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Experimentar ou comprar a audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](/SkypeForBusiness/audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -209,10 +208,10 @@
 
 
 # Segurança e conformidade
+## [Visão geral de segurança e conformidade no Teams](security-compliance-overview.md)
 ## [Práticas de coleta de dados no Skype for Business e no Teams](/SkypeForBusiness/legal-and-regulatory/data-collection-practices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Conduzir uma investigação eDiscovery de conteúdo no Teams](ediscovery-investigation.md)
 ## [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
-## [Visão geral de segurança e conformidade no Teams](security-compliance-overview.md)
 ## [Colocar um usuário ou uma equipe do Teams em retenção legal](legal-hold.md)
 ## [Pesquisar o registro de auditoria de eventos no Teams](audit-log-events.md)
 ## [Usar a pesquisa de conteúdo no Teams](content-search.md)
