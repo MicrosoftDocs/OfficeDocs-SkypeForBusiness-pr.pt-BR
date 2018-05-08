@@ -73,8 +73,7 @@
 ### [O que são locais e endereços de emergência e encaminhamento de chamadas?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [O que são planos de discagem?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## Sistema de Telefonia no Office 365
-### [O que é o Sistema de Telefonia no Office 365?](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Sistema telefônico no Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Criar uma fila de chamadas do Sistema de Telefonia](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtendo telefones para o Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implantando telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
@@ -86,7 +85,8 @@
 #### [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Configurando o sistema telefônico na sua organização](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
-### [O que são os atendedores automáticos do Sistema de Telefonia?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+### [O que são atendedores automáticos do Sistema de Telefonia?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
 ## [Configurar a rede para a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Licenças de usuário bloqueadas para a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
