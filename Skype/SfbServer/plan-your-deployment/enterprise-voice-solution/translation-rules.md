@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Saiba mais sobre as regras de conversão e discar normalization de cadeia de caracteres no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: ff3718e89d152a2b6c7d1c78ccaaa055d00ffcdb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c72e3909fdc0e4485683382b84a5d737fa75b8fc
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="translation-rules-in-skype-for-business-server-2015"></a>Regras de tradução no Skype for Business Server 2015
  
@@ -37,7 +39,7 @@ Para obter detalhes sobre como implementar as regras de conversão, consulte [De
   
 |**Descrição**|**Dígitos iniciais**|**Tamanho**|**Dígitos a serem removidos**|**Dígitos a adicionar**|**Padrão de correspondência**|**Conversão**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Discagem convencional de longa distância nos EUA  <br/> (retirar o '+')  <br/> |+ 1  <br/> |Exatamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10}) $  <br/> |$1  <br/> |+14255551010 se torna 14255551010  <br/> |
+|Discagem convencional de longa distância nos EUA  <br/> (retirar o '+')  <br/> |+ 1  <br/> |Exatamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 se torna 14255551010  <br/> |
 |Discagem de longa distância internacional dos EUA  <br/> (retirar '+' e adicionar 011)  <br/> |+  <br/> |Pelo menos 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 se torna 011441235551010  <br/> |
    
 

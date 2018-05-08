@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: acb81529ec4c391a54357b874ce5047c3b87c2ec
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: db355e71ff90a43c46900ad2b95b9e8593a9094d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gerenciar as configurações de áudio da conferência para minha organização
 
@@ -54,9 +53,7 @@ Talvez seja mais fácil para ver todas as configurações de serviços de audioc
   
 ## <a name="assign-a-conference-id-for-a-user"></a>Atribuir uma ID de conferência a um usuário
 
-Uma ID de conferência é atribuída automaticamente a um usuário quando eles estiverem configurados para conferência de áudio usando o Microsoft como um provedor de serviços de audioconferência. A ID de conferência atribuída pode ser estáticos ou dinâmicos e é enviada no convite da reunião, quando a reunião foi agendada. 
-  
-IDs estáticas são usadas quando as pessoas na sua organização não desejam Lembre-se de um número aleatório; eles podem selecionar um certo número ou escolha que é fácil de lembrar. Se IDs de conferência dinâmicas estiverem sendo usadas, cada reunião agendada por um usuário terá uma ID de conferência exclusiva atribuída. Se você desejar atribuir dinâmico em vez de IDs de conferência estático, consulte [IDs de conferência de áudio usando dinâmicos em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Uma ID de conferência é atribuída automaticamente a um usuário quando eles estiverem configurados para conferência de áudio usando o Microsoft como um provedor de serviços de audioconferência. A ID de conferência é enviada no convite da reunião, quando a reunião foi agendada. Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas.
   
 O Centro de administração do Skype for Business não pode ser usado para atribuir uma ID de conferência a um usuário, mas você pode usar o Windows PowerShell para fazer isso.
   
@@ -78,9 +75,11 @@ Veja [Consulte, alterar e redefina um ID de conferência atribuído a um usuári
   
 ## <a name="change-the-audio-conferencing-provider-from-microsoft-to-a-third-party-provider"></a>Alterar o provedor de serviços de audioconferência da Microsoft a um provedor de terceiros
 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
 3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e então e selecione o usuário que você deseja alterar o provedor de serviços de audioconferência para.
     
@@ -93,12 +92,22 @@ Veja [Consulte, alterar e redefina um ID de conferência atribuído a um usuári
   
 6. Clique em **Salvar**. 
     
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar os e-mails enviados para usuários de serviços de audioconferência
 
-Você pode usar o Skype para centro de administração de negócios ou o Windows PowerShell para habilitar ou desabilitar o email enviado aos usuários.
-  
- **Usando o Skype para o Centro de administração de negócios**
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+
+3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de discagem**.
+
+4. Clique em **Salvar**.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -146,6 +155,18 @@ Consulte [Emails que são enviados automaticamente para os usuários quando alte
   
 ## <a name="reset-the-meeting-conference-id"></a>Redefinir a ID de conferência de reunião
 
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Em **Conferência de áudio**, clique em **Redefinir ID de conferência**.  
+
+4. No **Redefinir ID de conferência?** janela, clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**  
+
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
@@ -155,16 +176,24 @@ Consulte [Emails que são enviados automaticamente para os usuários quando alte
 4. No **Redefinir ID de conferência?** janela, clique em **Sim**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
     
     > [!IMPORTANT]
-    >  [!IMPORTANTE] Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar o Skype para ferramenta de migração de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte: [ferramenta de atualização de reunião para Skype para negócios e Lync] ((https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para negócios Online, ferramenta de migração de reunião (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047)e [Skype para Business Online Ferramenta de migração (32 bits) da reunião](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+    >  [!IMPORTANTE] Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar o Skype para ferramenta de migração de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte: [Ferramenta de atualização de reunião para Skype para negócios e Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para negócios Online, a ferramenta de migração de reunião (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047)e [Skype para Business Online Meeting Ferramenta de migração (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
 Veja [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Redefinir o PIN de um organizador da conferência
 
-IDs estáticas são usadas quando as pessoas na sua organização não desejam Lembre-se de um número aleatório; eles podem selecionar um certo número ou use um que seja fácil de lembrar. Se IDs de conferência dinâmicas estiverem sendo usadas, cada reunião agendada por um usuário terá uma ID de conferência exclusiva atribuída. Se você deseja atribuir dinâmico em vez de conferência estática IDs, [IDs de conferência de áudio usando dinâmicos em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md).
+Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas. Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número ou os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. Você pode usar o Skype para centro de administração de negócios e do Windows PowerShell para exibir, alterar e redefinir a sua ID de conferência.
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Em **Conferência de áudio**, clique em **Redefinir PIN**e clique em **Redefinir**. 
   
-Embora uma ID de conferência estática será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número ou os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. Você pode usar o Skype para centro de administração de negócios e do Windows PowerShell para exibir, alterar e redefinir a sua ID de conferência.
-  
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios** 
+
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business** e no painel de navegação esquerdo, clique em **conferência de áudio**.
@@ -175,9 +204,22 @@ Embora uma ID de conferência estática será criada automaticamente e atribuíd
     
 Os usuários receberão um email com o PIN quando elas são habilitadas para conferência de áudio ou quando o PIN ser redefinido. Mas, se você desabilitou automaticamente enviando e-mails, um email de redefinição PIN não será enviado e você terá que enviar manualmente o PIN para o usuário. O PIN será exibido somente uma vez depois de ser redefinido. Depois que ele é exibido depois de ser redefinido, o PIN não será mostrado mais sobre as propriedades de usuário; em vez disso, * * * serão exibidos. 
   
-Veja [Redefinir o PIN de conferência de áudio para um usuário](reset-the-audio-conferencing-pin-for-a-user.md).
+Consulte [Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin.md).
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com informações de conferência de áudio a um usuário
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Em **Conferência de áudio**, clique em **Enviar informações de conferência no email**. 
+
+    > [!NOTE]
+    > Quando você fizer isso, os serviços de audioconferência PIN não será enviado ao usuário. 
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**  
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -236,9 +278,27 @@ Consulte [Definir convidam números incluídos no telefone](set-the-phone-number
     
 Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md).
   
-## <a name="setting-audio-conferencing-bridge-settings"></a>Definindo as configurações de ponte de conferência de áudio
+## <a name="choosing-audio-conferencing-bridge-settings"></a>Escolher configurações de ponte de conferência de áudio
 
- **Definir a experiência da reunião, quando os chamadores ingressem em uma reunião**
+**Definir a experiência da reunião, quando os chamadores ingressem em uma reunião**
+
+ ![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+
+3. No painel de **configurações de ponte** , habilitar ou desabilitar a **entrada de reunião e sair de notificações**.
+
+    Isso é ativado por padrão. Se você desabilitar essa opção, os usuários que já tenham ingressado na reunião por padrão não serão notificados quando alguém entra ou sai da reunião.
+
+4. Em **tipo de anúncio de entrada/saída**, escolha **tons** ou **nomes ou números de telefone**. 
+
+    Se você escolher **nomes ou números de telefone**, você também pode optar por habilitar ou desabilitar **os chamadores Ask registrar seus nomes antes de ingressar na reunião**. 
+
+1. Clique em **Salvar**.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios** 
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -259,6 +319,18 @@ Consulte [Definir convidam números incluídos no telefone](set-the-phone-number
 Consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Definir o tamanho PIN para reuniões**
+
+ ![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+
+3. No painel de **configurações de ponte** , insira o número de dígitos que você deseja para o PIN na lista **tamanho PIN** e clique em **Salvar**.
+
+    O PIN deve ter entre 4 e 12 dígitos. O padrão é 5.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios** 
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -273,6 +345,22 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](cha
 Consulte [alterar as configurações de uma ponte de conferência de áudio](change-the-settings-for-an-audio-conferencing-bridge.md).
   
  **Habilitar ou desabilitar o email que está sendo enviado a usuários de áudio**
+
+ ![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
+
+3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de conferência de áudio**.
+
+4. Clique em **Salvar**. 
+ 
+    Você também pode enviar email para o usuário com as configurações de conferência de áudio, indo para propriedades de conferência de áudio do usuário e clicar em **Enviar informações de conferência no email**.
+    
+    Se você fizer isso, será enviado um email somente com o número de telefone e a ID da conferência, mas o PIN não será incluído.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios** 
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -288,7 +376,17 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](cha
     
     Veja [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md).
     
-## <a name="see-and-set-the-primary-and-secondary-languages-on-an-audio-conferencing-bridge"></a>Consulte e definir os idiomas principais e secundários em uma ponte de conferência de áudio
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Consulte e defina o principal (padrão) e os idiomas secundários de (alternativos) em uma ponte de conferência de áudio
+
+ ![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Selecione um número de telefone na lista e clique em **Editar**.
+
+3. Escolha os idiomas desejado em **idioma padrão** e **idiomas alternativos (opcionais)**.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios** 
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -302,7 +400,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](cha
     
 Veja [Definir idiomas do atendedor automático para conferência de áudio](set-auto-attendant-languages-for-audio-conferencing.md).
   
-## <a name="see-audio-conferencing-dial-in-numbers"></a>Consulte serviços de audioconferência discada números
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--see-audio-conferencing-dial-in-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  Consulte serviços de audioconferência discada números
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -320,7 +418,7 @@ Você pode ir para a **conferência de áudio** > **usuários** e selecione Prop
   
 Consulte [ver uma lista de números de conferência de áudio](see-a-list-of-audio-conferencing-numbers.md).
   
-## <a name="see-a-list-of-users-that-are-enabled"></a>Visualizar uma lista de usuários habilitados
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-see-a-list-of-users-that-are-enabled"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Visualizar uma lista de usuários habilitados
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     

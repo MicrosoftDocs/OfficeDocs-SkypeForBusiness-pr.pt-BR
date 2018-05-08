@@ -7,16 +7,18 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Saiba mais sobre servidores de mediação no Skype para Business Server, incluindo suas topologias suportadas e suas relações M:N troncos, bypass de mídia e controle de admissão de chamada.
-ms.openlocfilehash: a17c6d83c51c8de1101437072f8404202f600e12
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 73166df66acac493717ce2c07e42e5429176a400
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="mediation-server-component-in-skype-for-business-server-2015"></a>Componente do Servidor de Mediação no Skype for Business Server 2015
  

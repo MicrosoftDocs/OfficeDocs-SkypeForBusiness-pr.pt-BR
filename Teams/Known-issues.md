@@ -3,18 +3,18 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/18/2018
+ms.date: 4/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c8ce7b7d53e03ae265f41105dabd09978a62e61
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 303e2d14e009d2a0f6493646f3f2466b94920fa4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -137,6 +137,11 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |As reuniões não estão disponíveis  <br/> |A funcionalidade e o ícone da reunião não estão disponíveis quando a caixa de correio do Exchange está hospedada (ou estabelecida) localmente.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
 
 ## <a name="mobile"></a>Mobile
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível ver os canais de auto-favorited  <br/> |Alguns membros não conseguem ver auto-favorited canais em que o aplicativo móvel.  <br/> |Membros devem entrar para o aplicativo de área de trabalho ou web primeiro para ver os canais de auto-favorited em seus aplicativos móveis.  <br/> |4/30/18  <br/>|
+
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Os usuários podem não conseguir alternar entre contas em dispositivos móveis gerenciados pelo Intune  <br/> |Os usuários podem não conseguir alternar entre contas em dispositivos móveis gerenciados pelo Intune.  <br/> |Não há solução alternativa.  <br/> |20/09/2017  <br/>|
@@ -148,6 +153,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Diferenças de Layout de equipes do cliente móvel  <br/> |As equipes estão listadas em ordem alfabética e os canais não podem ser recolhidos no cliente móvel.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/>|
+
 
 ## <a name="people"></a>Pessoas
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|

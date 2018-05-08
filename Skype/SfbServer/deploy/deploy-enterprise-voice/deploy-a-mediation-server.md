@@ -7,16 +7,18 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumo: Saiba como definir e implantar um servidor de mediação no construtor de topologia no Skype para Business Server 2015.'
-ms.openlocfilehash: bfb915528ba73851d3bd60cc8ff3b33b968376e7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1923b75f36690cf6c4ab49cb69591032b188ace5
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server-2015"></a>Implantar um Servidor de Mediação no Construtor de Topologias do Skype for Business Server 2015
  

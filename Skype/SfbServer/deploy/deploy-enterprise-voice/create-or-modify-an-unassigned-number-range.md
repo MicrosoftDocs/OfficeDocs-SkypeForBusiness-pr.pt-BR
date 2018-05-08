@@ -7,16 +7,18 @@ ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
-ms.openlocfilehash: e4a62072eeffd1cfe8d1cb81fceeb4e52cc68199
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 22de5516a11231b9ad706242c559608d9b9964db
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server-2015"></a>Criar ou modificar um intervalo de números não atribuídos no Skype for Business Server 2015
  
@@ -59,7 +61,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     
    - Se o número inicial ou o número final do intervalo incluir um número de ramal, ambos os números devem incluir um ramal, que deve ser o mesmo para ambos.
     
-   - Os números devem corresponder à expressão regular (tel:) ? (\+) ? [1-9] \d {0,17} (; ext = [1-9] \d {0,9}) ?. Isso significa que o número pode começar com o cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ele será automaticamente adicionado para você), um sinal de adição (+) e um dígito entre 1 e 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.
+   - Os números devem corresponder à expressão regular (tel:) ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Isso significa que o número pode começar com o cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ele será automaticamente adicionado para você), um sinal de adição (+) e um dígito entre 1 e 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.
     
 6. Em **Serviço de Comunicado**, execute um dos seguintes procedimentos: 
     

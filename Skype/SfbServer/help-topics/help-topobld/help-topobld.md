@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c7a60ee-b803-4cd4-a7cc-6552f3b238b8
-description: Inserir a introdução aqui.
-ms.openlocfilehash: 4f78365e47c5f15916c21641c2a11e44af05fcab
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Tópicos do construtor de topologia
+ms.openlocfilehash: 87d64bd6282386903dfcdc08f476b5b99ec602d8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="help-topobld"></a>Ajuda-TopoBld
  
-Inserir a introdução aqui.
+Este nó contém tópicos da Ajuda para o Skype para o construtor de topologia de servidor de negócios.
   
-## <a name="section-heading"></a>Cabeçalho da seção
 
-Inserir o corpo da seção aqui.
-  
-### <a name="subsection-heading"></a>Cabeçalho da subseção
-
-Inserir o corpo da subseção aqui.
   
 

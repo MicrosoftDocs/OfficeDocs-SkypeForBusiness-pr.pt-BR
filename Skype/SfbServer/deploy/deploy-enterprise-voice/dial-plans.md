@@ -7,16 +7,18 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Resumo: Saiba como criar ou modificar um plano de discagem usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: eaa2446c86b117558953416d0815a38371b205b1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 573633d6281cf6abe966e90f38f99a4f96e25604
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server-2015"></a>Criar ou modificar um plano de discagem no Skype for Business Server 2015
  
@@ -79,7 +81,7 @@ ms.lasthandoff: 03/28/2018
 10. Verifique se que as regras de normalização do plano de discagem são organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique em cima ou seta para baixo.
     
     > [!IMPORTANT]
-    > Skype para Business Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > O $ de rule^(\d{11}) **Manter todos** normalização padrão corresponde a qualquer número de 11 dígitos. Por exemplo, se você adicionar uma regra de normalização que faz a correspondência de números de 11 dígitos que começam com 1425, certifique-se de **Manter todos** é classificado abaixo da regra de $ restrictive^(1425\d{7}) mais.
+    > Skype para Business Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > A regra de normalização padrão **Manter todos** ^(\d{11})$ corresponde a qualquer número de 11 dígitos. Por exemplo, se você adicionar uma regra de normalização que faz a correspondência de números de 11 dígitos que começam com 1425, certifique-se de **Manter todos** é classificado abaixo mais restritivo ^(1425\d{7}) regra$.
   
 11. (Opcional) Insira um número para testar o plano de discagem e, em seguida, clique em  **Ir**. Os resultados do teste são exibidos em  **Insira um número de teste**.
     
@@ -138,7 +140,7 @@ ms.lasthandoff: 03/28/2018
 10. Verifique se que as regras de normalização do plano de discagem são organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique em cima ou seta para baixo.
     
     > [!IMPORTANT]
-    > Skype para Business Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > O $ de rule^(\d{11}) **Manter todos** normalização padrão corresponde a qualquer número de 11 dígitos. Se, por exemplo, você pode adicionar uma regra de normalização que faz a correspondência de números de 11 dígitos que começam com 1425, certifique-se de **Manter todos** é classificado abaixo da regra de $ restrictive^(1425\d{7}) mais.
+    > Skype para Business Server percorre a lista de regras de normalização de cima para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um plano de discagem de modo que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas. > A regra de normalização padrão **Manter todos** ^(\d{11})$ corresponde a qualquer número de 11 dígitos. Se, por exemplo, você pode adicionar uma regra de normalização que faz a correspondência de números de 11 dígitos que começam com 1425, certifique-se de **Manter todos** é classificado abaixo mais restritivo ^(1425\d{7}) regra$.
   
 11. (Opcional) Insira um número para testar o plano de discagem e, em seguida, clique em  **Ir**. Os resultados do teste são exibidos em  **Insira um número de teste**.
     

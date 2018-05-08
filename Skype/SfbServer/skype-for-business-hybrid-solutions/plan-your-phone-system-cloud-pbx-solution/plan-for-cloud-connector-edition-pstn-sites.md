@@ -7,15 +7,17 @@ ms.date: 3/30/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Leia este tópico para saber como planejar os sites de nuvem conector Edition PSTN para garantir o roteamento de chamada de eficiência e economia.
-ms.openlocfilehash: 70e5806ac6187d23b725f98ef288acaca7c03a54
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f9aaec14c0a3a13d38e579f3803bbe4216811741
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plano para sites PSTN do Cloud Connector Edition
  

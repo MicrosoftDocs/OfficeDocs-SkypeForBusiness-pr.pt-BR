@@ -7,20 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Skype16
-- IT_Skype16
-ms.custom:
 - Strat_SB_Admin
-- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Criar ou modificar um intervalo de números de atendimento de chamada do grupo no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 3a717f5607764ef1d5677e7bc70368f8803fc854
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e67c8094bf66590d006fbce75f49258bb3f4f2a9
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business-2015"></a>Criar ou modificar um intervalo numérico de Recebimento de Chamadas em Grupo no Skype for Business 2015
  
@@ -45,7 +43,7 @@ Os intervalos de números de grupo de atendimento de chamadas precisam estar de 
     
 - Se o intervalo de números começa com o caractere \* ou #, o intervalo deve ser maior que 100.
     
-- Valores válidos: deve coincidir com a cadeia de caracteres de expressão regular ([\\* | #] ?[1-9]\d{0,7}) | (\d [1-9] {0,8}). Isso significa que o valor deve ser uma cadeia de caracteres iniciada com o caractere \* ou #, ou um número entre 1 e 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for \* ou #, o caractere seguinte deve ser um número entre 1 e 9 (ele não pode ser um zero). Os caracteres subsequentes podem ser qualquer número entre 0 e 9 até sete caracteres adicionais (por exemplo, "#6000", "\*92000", "\*95551212" e "915551212"). Se o primeiro caractere não for \* ou #, o primeiro caractere deve ser um número entre 1 e 9 (ele não pode ser zero), seguido por até oito caracteres, cada um número entre 0 e 9 (por exemplo, "915551212", "41212", "300").
+- Valores válidos: deve coincidir com a cadeia de caracteres de expressão regular ([\\* | #] ? [1-9] \d{0,7}) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres iniciada com o caractere \* ou #, ou um número entre 1 e 9 (o primeiro caractere não pode ser um zero). Se o primeiro caractere for \* ou #, o caractere seguinte deve ser um número entre 1 e 9 (ele não pode ser um zero). Os caracteres subsequentes podem ser qualquer número entre 0 e 9 até sete caracteres adicionais (por exemplo, "#6000", "\*92000", "\*95551212" e "915551212"). Se o primeiro caractere não for \* ou #, o primeiro caractere deve ser um número entre 1 e 9 (ele não pode ser zero), seguido por até oito caracteres, cada um número entre 0 e 9 (por exemplo, "915551212", "41212", "300").
     
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>Para criar ou modificar um intervalo de grupo de atendimento de chamadas
 

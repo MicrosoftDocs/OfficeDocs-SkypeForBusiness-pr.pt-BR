@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
-description: Inserir a introdução aqui.
-ms.openlocfilehash: 5ac5f1dd0d2542002b117bd795418af0e5b121ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Tópicos de ferramenta de planejamento
+ms.openlocfilehash: a2045d0a68618f22e40aa0903b6c3aa6002fa2d9
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="help-planning"></a>Planejamento de ajuda
  
-Inserir a introdução aqui.
+Os tópicos neste nó fornecem ajuda para o Skype para ferramenta de planejamento do Business Server.
   
-## <a name="section-heading"></a>Cabeçalho da seção
 
-Inserir o corpo da seção aqui.
-  
-### <a name="subsection-heading"></a>Cabeçalho da subseção
-
-Inserir o corpo da subseção aqui.
   
 

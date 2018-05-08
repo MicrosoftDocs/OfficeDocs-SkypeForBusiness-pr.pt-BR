@@ -7,16 +7,18 @@ ms.date: 10/13/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejamento de roteamento baseado no local para conferências no Skype para Business Server Enterprise Voice, incluindo com consultoria transferências de chamada.
-ms.openlocfilehash: 4cfa76e10ed0107c1dc1fe4c1759a89536529ada
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 778f8156d2d4ab4cf6613975567a88e80c1e6b9c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server-2015"></a>Roteamento com base no local  para conferência no Skype for Business Server 2015
  

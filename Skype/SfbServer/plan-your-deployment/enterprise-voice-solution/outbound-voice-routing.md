@@ -7,16 +7,18 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Saiba mais sobre o roteamento de voz de saída em Skype para Business Server Enterprise Voice, incluindo configurações de roteamento de chamada, planos de discagem, regras de normalização, políticas de voz, registros de uso PSTN e roteamentos de voz.
-ms.openlocfilehash: 9a26f734faaa7bb070c826a427b47f805ad7438f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Planejamento de roteamento de voz de saída no Skype for Business Server 2015
  
@@ -144,16 +146,16 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 |**Nome da regra**|**Descrição**|**Padrão de número**|**Conversão**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |Converte extensões de 4 dígitos  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 é convertido em +14255550100  <br/> |
-|5digitExtension  <br/> |Converte extensões de 5 dígitos  <br/> |^5(\d{4})$  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
+|5digitExtension  <br/> |Converte extensões de 5 dígitos  <br/> |^ 5(\d{4})$  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |Converte números de 7 dígitos em números locais de Redmond  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/> |
 |7digitcallingDallas  <br/> |Converte números de 7 dígitos em números locais de Dallas  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 é convertido em +19725550100  <br/> |
 |10digitcallingUS  <br/> |Converte números de 10 dígitos nos Estados Unidos  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 é convertido em +12065550100  <br/> |
-|LDCallingUS  <br/> |Converte números com prefixos de longa distância nos Estados Unidos  <br/> |^1(\d{10})$  <br/> |+$1  <br/> |12145550100 é convertido em +2145550100  <br/> |
+|LDCallingUS  <br/> |Converte números com prefixos de longa distância nos Estados Unidos  <br/> |^ 1(\d{10})$  <br/> |+$1  <br/> |12145550100 é convertido em +2145550100  <br/> |
 |IntlCallingUS  <br/> |Converte números com prefixos internacionais nos Estados Unidos  <br/> |^ 011(\d\*)$  <br/> |+$1  <br/> |01191445550100 é convertido em +91445550100  <br/> |
 |RedmondOperator  <br/> |Converte 0 no operador de Redmond  <br/> |^0$  <br/> |+14255550100  <br/> |0 é convertido em +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Redmond (222)  <br/> |^6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
-|NYSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Nova York (333)  <br/> |^6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 é convertido em +12025550100  <br/> |
-|DallasSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Dallas (444)  <br/> |^6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 é convertido em +19725550100  <br/> |
+|RedmondSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Redmond (222)  <br/> |^ 6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
+|NYSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Nova York (333)  <br/> |^ 6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 é convertido em +12025550100  <br/> |
+|DallasSitePrefix  <br/> |Converte números com o prefixo dentro da rede (6) e o código de área de Dallas (444)  <br/> |^ 6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 é convertido em +19725550100  <br/> |
    
 A tabela a seguir ilustra um exemplo de plano de discagem para Redmond, Washington, Estados Unidos, com base nas regras de normalização mostradas na tabela anterior.
   

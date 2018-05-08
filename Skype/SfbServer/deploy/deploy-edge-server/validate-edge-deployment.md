@@ -6,15 +6,17 @@ ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Resumo: Saiba como verificar se sua implantação do servidor de borda ou pool de servidor de borda está funcionando no Skype para Business Server 2015.'
-ms.openlocfilehash: 02f909310e6b491ae97e31b7013b1307c7688ada
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>Validar sua implantação de Borda no Skype for Business Server 2015
  

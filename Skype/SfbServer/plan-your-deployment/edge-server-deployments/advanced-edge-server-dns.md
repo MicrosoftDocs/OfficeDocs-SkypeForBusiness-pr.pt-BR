@@ -6,20 +6,18 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - IT_Skype16
-- IT_Skype16
-ms.custom:
 - Strat_SB_Hybrid
-- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumo: Revise os cenários de Skype para opções de implantação de negócios Server 2015. Se você deseja que um único servidor ou preferir um pool de servidores com o DNS ou HLB, este tópico deve ajudar.'
-ms.openlocfilehash: fed6aa349c7c8e6644cc207bc2fb85eac5cd1a16
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 575bbacfa58f52197d50b335942909dc8748a965
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server-2015"></a>Advanced DNS do servidor de borda planejando Skype para Business Server 2015
  
@@ -203,7 +201,7 @@ Portanto, agora que sabemos que tudo isso, se você precisar requisito automáti
 
 Para configurar o DNS para redirecionar Skype para tráfego de web Business Server 2015 sua recuperação de desastres (DR) e em sites de failover, você precisará usar um provedor DNS que ofereça suporte a GeoDNS. Você pode configurar seus registros DNS para oferecer suporte a recuperação de desastres, para que os recursos que utilizam serviços web continuam mesmo se um pool de Front-End inteiro cair. Esse recurso de DR suporta URLs simples de Descoberta Automática, de reunião e discado.
   
-Você define e configura registros adicionais de host de DNS A (AAAA, se estiver usando IPv6) para resolução de serviços da Web internos e externos em seu provedor GeoDNS. As informações a seguir supõem pools emparelhados e geograficamente dispersos, GeoDNS suportado por seu provedor ****com DNS round robin **ou** configurado para usar o Pool1 como primário e failover para o Pool2, em caso de perda de comunicações ou falha de energia.
+Você define e configura registros adicionais de host de DNS A (AAAA, se estiver usando IPv6) para resolução de serviços da Web internos e externos em seu provedor GeoDNS. As informações a seguir supõem pools emparelhados e geograficamente dispersos, GeoDNS suportado por seu provedor **** com DNS round robin **ou** configurado para usar o Pool1 como primário e failover para o Pool2, em caso de perda de comunicações ou falha de energia.
   
 Todos os registros DNS nesta tabela são exemplos.
   

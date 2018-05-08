@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Resume as etapas necessárias para habilitar o E9-1-1 em Skype para Business Server Enterprise Voice, dependendo se você tem um provedor de serviços de E9-1-1 de tronco SIP ou um gateway ELIN.
-ms.openlocfilehash: 69f6f9189db9293e0c171072db4a6a6fcf7a935c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 20e741c9bdffb51b2e210c506dfd3ad2dc52d792
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server-2015"></a>Definir seus requisitos para chamadas de emergência no Skype for Business Server 2015
  

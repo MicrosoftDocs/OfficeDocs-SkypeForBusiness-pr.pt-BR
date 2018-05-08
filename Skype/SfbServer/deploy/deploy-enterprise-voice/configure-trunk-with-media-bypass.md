@@ -7,16 +7,18 @@ ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumo: Configure um tronco com bypass de mídia habilitado para Skype para Business Server 2015. Isso permitirá a minimizar o número de servidores de mediação, supondo que o seu provedor de tronco SIP lhe fornecer apoio.'
-ms.openlocfilehash: acb1b3877c1c4e2a50d8a226cf573625656b58f0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1ccca75e25203b007bfcc0472206a04f105ba378
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Configurar um tronco com bypass de mídia no Skype for Business Server 2015
  

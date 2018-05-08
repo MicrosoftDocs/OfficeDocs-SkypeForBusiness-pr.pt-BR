@@ -7,16 +7,18 @@ ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Resumo: Aprenda sobre o novo Skype para as etapas a que seguir para preparar seu ambiente e seus usuários para a atualização, quer você esteja usando Skype para Business Online, Skype para Lync Server 2010, Lync Server 2013 ou Business Server 2015 e de negócios.'
-ms.openlocfilehash: 6ab79741a7a536e80beda0bc529351741136ea13
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: eaa8b7835cb3834ff9cc24a6dc941b47a2796b9f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-the-skype-for-business-client-experience-for-your-users"></a>Planejar a experiência do cliente Skype for Business para seus usuários
  

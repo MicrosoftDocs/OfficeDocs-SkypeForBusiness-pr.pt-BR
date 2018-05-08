@@ -7,15 +7,17 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Resumo: Saiba como implantar servidores de borda em sua Skype para ambiente de negócios Server 2015.'
-ms.openlocfilehash: ec69655ad5a614e9a2a22e82b7c1e56eed52102b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>Implantar Servidores de Borda no Skype for Business Server 2015
  
@@ -255,7 +257,7 @@ Requisitos de certificado para o servidor de borda podem ser encontrados na docu
     
 &nbsp;&nbsp;&nbsp;Eu. No **Assistente de Exportação de Certificado**, clique em  **Avançar**. Selecione **Sim, exportar a chave privada**. Clique em **Avançar**.
     
-&nbsp;&nbsp;&nbsp;j. Na caixa de diálogo **Exportar Formatos de Arquivo**, selecione **Troca de Informações Pessoais - PKCS#12 (.PFX)**e selecione:
+&nbsp;&nbsp;&nbsp;j. Na caixa de diálogo **Exportar Formatos de Arquivo**, selecione **Troca de Informações Pessoais - PKCS#12 (.PFX)** e selecione:
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu. Incluir todos os certificados no caminho de certificação, se possível.
     

@@ -7,16 +7,18 @@ ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como suporte a resiliência de voz em Skype para Business Server Enterprise Voice, em sites centrais e sites de filiais. Opções de site de filial incluem Implantando aparelhos de filial persistente ou servidores de filial persistente.
-ms.openlocfilehash: 4303df46b7430ec8a7e3891baec7f9ff99d85480
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planejar a resiliência do Enterprise Voice no Skype for Business Server 2015
  
@@ -378,8 +380,8 @@ Para obter detalhes, consulte [requisitos de servidor para Skype para Business S
 
 |**Nome da rota**|**Padrão de número**|**Uso do telefone**|**Tronco**|**Gateway**|
 |:-----|:-----|:-----|:-----|:-----|
-|Rota Local de Redmond  <br/> |^\+1 (425|206|$ 253)(\d{7})  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
-|Rota Local de Dallas  <br/> |^\+1 (972|214|$ 469)(\d{7})  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
+|Rota Local de Redmond  <br/> |^\+1 (425|206|253)(\d{7})$  <br/> |Local  <br/> RedmondLocal  <br/> |Trunk1  <br/> Trunk2  <br/> |Red-GW1  <br/> Red-GW2  <br/> |
+|Rota Local de Dallas  <br/> |^\+1 (972|214|469)(\d{7})$  <br/> |Local  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
 |Rota Universal  <br/> |^\+?(\d\*)$  <br/> |GlobalPSTNHopoff  <br/> |Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> |Red-GW1  <br/> Red-GW2  <br/> Dallas-GW1  <br/> |
 |Rota de Usuários de Dallas  <br/> |^\+?(\d\*)$  <br/> |DallasUsers  <br/> |Trunk3  <br/> |Dallas-GW1  <br/> |
    

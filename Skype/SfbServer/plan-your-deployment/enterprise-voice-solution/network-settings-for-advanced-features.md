@@ -7,16 +7,18 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todos eles devem ser configurados para implantar o plano de bypass de mídia no Skype para negócios 2015, planeje o controle de admissão de chamada no Skype para Business Server 2015), ou plano para serviços de emergência no Skype para 2015 do servidor de negócios no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: eb24dc5098fe71cecc8099c2949039a91e61ebd7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c08ac0a4e5f93c15cc3bfa43bd622381017118be
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Configurações de rede para recursos avançados do Enterprise Voice no Skype for Business Server 2015
  

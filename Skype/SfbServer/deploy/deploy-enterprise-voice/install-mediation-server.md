@@ -7,16 +7,18 @@ ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Resumo: Saiba como instalar os arquivos para o servidor de mediação em Skype para Business Server 2015.'
-ms.openlocfilehash: 8b7b68142c180ee1b06963afbb1b7a9ca6d4319c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d296cc43e58f18037176c498149db97698b7c03
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server-2015"></a>Instalar os arquivos do Servidor de Mediação no Skype for Business Server 2015
  
@@ -31,7 +33,7 @@ Use as etapas neste tópico para executar o Skype para o Assistente de implanta�
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>Para instalar os arquivos em um pool do Servidor de Mediação autônomo
 
-1. Na mídia de instalação, clique com o botão _ \<mídia de instalação\> _ **\setup\amd64\setup.exe.**e clique em **Executar como administrador**.
+1. Na mídia de instalação, clique com o botão _ \<mídia de instalação\> _ **\setup\amd64\setup.exe.** e clique em **Executar como administrador**.
     
 2. Na página **Local de instalação**, clique em **OK**.
     

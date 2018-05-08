@@ -7,16 +7,18 @@ ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e4337a6aaa37a7105b5ab9fbbcc8242237a6954c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 61aec2a537a9351c73c9e1e903685f686d500517
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server-2015"></a>Gerenciar locais para fornecedores de serviço de tronco SIP no Skype for Business Server 2015
  

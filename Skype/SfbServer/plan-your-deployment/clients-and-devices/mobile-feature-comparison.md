@@ -1,5 +1,5 @@
 ---
-title: Mobile client feature comparison for Skype for Business
+title: Comparação de recursos do cliente móvel para Skype para negócios
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -7,22 +7,24 @@ ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.collection: IT_Skype16
-ms.custom: Strat_SB_Admin
+localization_priority: Priority
+ms.collection:
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 'Summary: Review the feature support for the mobile client while planning for Skype for Business Server 2015.'
-ms.openlocfilehash: 4287c5baf0642fab9d55d291470b2352f3da5932
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+description: 'Resumo: Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server 2015.'
+ms.openlocfilehash: 3ec2662915b72993de41b2398355bb4010810b3d
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Mobile client feature comparison for Skype for Business
+# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparação de recursos do cliente móvel para Skype para negócios
  
-**Summary:** Review the feature support for the mobile client while planning for Skype for Business Server 2015.
+**Resumo:** Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server 2015.
   
-This article compares the features and capabilities among Skype for Business mobile clients and the Skype for Business desktop client in the following categories:
+Este artigo compara os recursos e capacidades entre Skype para clientes móveis de negócios e do Skype para o cliente de desktop corporativos nas seguintes categorias:
   
 - Conexão, notificações por push e recursos gerais
     
@@ -32,7 +34,7 @@ This article compares the features and capabilities among Skype for Business mob
     
 - IM (sistema de mensagens instantâneas)
     
-- Skype for Business to Skype for Business audio and video
+- Skype para a Skype para negócios de áudio e vídeo de negócios
     
 - Conferência
     
@@ -44,99 +46,99 @@ This article compares the features and capabilities among Skype for Business mob
     
 -  Autenticação moderna
     
-The following tables list the features that are available to Skype for Business users in an on-premises deployment of Skype for Business Server 2015. The same features are also available to Skype for Business Online and Microsoft Office 365 users, unless otherwise indicated in the table footnotes.
+As tabelas a seguir listam os recursos que estão disponíveis para Skype para usuários comerciais em uma implantação local do Skype para Business Server 2015. Os mesmos recursos também estão disponíveis para Skype para usuários corporativos Online e o Microsoft Office 365, a menos que indicado de outra forma nas notas de rodapé de tabela.
   
 > [!NOTE]
-> For online help and resources for end users, see [Discover Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
+> Para obter ajuda online e recursos para usuários finais, consulte [Skype descobrir para a empresa](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
-> To compare the features available in other Skype for Business clients, see [Desktop client feature comparison for Skype for Business](desktop-feature-comparison.md). 
+> Para comparar os recursos disponíveis em outro Skype para clientes corporativos, consulte [comparação de recursos do cliente de Desktop do Skype para negócios](desktop-feature-comparison.md). 
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>Conexão, notificações por push e recursos gerais
 
  
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype for Business session remains signed in  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
-|Suporte para notificações de push  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714;|&#x2714;|
-|As informações de conta de vários usuários podem ser armazenadas em cache no mesmo dispositivo  <br/> |&#x2714;||||
-|Leitor de tela/voice over  <br/> |&#x2714;|&#x2714; &#x2777;           English only  <br/> |&#x2714;|&#x2714;|
-|Use um teclado externo para acessibilidade  <br/> |&#x2714;||&#x2714;|&#x2714;|
-|Apoio ao Programa de Aperfeiçoamento da Experiência do Usuário  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype para sessão de negócios permanece conectada no  <br/> |& #x 2714;|& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714;|
+|Suporte para notificações de push  <br/> |& #x 2714; & #x 2778; |& #x 2714;|& #x 2714;|& #x 2714;|
+|As informações de conta de vários usuários podem ser armazenadas em cache no mesmo dispositivo  <br/> |& #x 2714;||||
+|Leitor de tela/voice over  <br/> |& #x 2714;|& #x 2714; & #x 2777;           Apenas em inglês  <br/> |& #x 2714;|& #x 2714;|
+|Use um teclado externo para acessibilidade  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|
+|Apoio ao Programa de Aperfeiçoamento da Experiência do Usuário  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
    
- &#x2776;  On Windows Phone, Skype for Business signs out automatically after a period of inactivity, as follows:
+ & #x 2776;  No Windows Phone, Skype para negócios desconecta-se automaticamente após um período de inatividade, da seguinte maneira:
   
-- If the user has enabled push notifications, Skype for Business signs out after 10 days of inactivity.
+- Se o usuário habilitou notificações de push, o Skype para negócios desconecta-se após 10 dias de inatividade.
     
-- If the user has not enabled push notifications, Skype for Business signs out as soon as the user leaves the app.
+- Se o usuário não habilitou notificações de push, Skype para negócios desconecta-se assim que o usuário deixa o aplicativo.
     
-On iOS devices, Skype for Business signs out automatically after the mobile client has not contacted the server for 10 days due to loss of network connectivity or other issues.
+Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois que o cliente móvel não tem contatar o servidor para 10 dias devido à perda de conectividade de rede ou outros problemas.
   
- &#x2777;  In app only.
+ & #x 2777;  No aplicativo.
   
- &#x2778;  Notifications are available when the app is running in the background.
+ & #x 2778;  As notificações estão disponíveis quando o aplicativo está sendo executado em segundo plano.
   
 ## <a name="enhanced-presence-support"></a>Suporte para presença avançada
 
 
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Publicar e exibir status  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir status com base nas informações de disponibilidade de calendário  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir notas de status e mensagens de Ausência Temporária  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Adicionar um local personalizado  <br/> |&#x2714;||||
-|Adicionar uma nota personalizada  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Publicar status com base na informação de disponibilidade do calendário   <br/> |&#x2714; &#x2776; ||||
-|Definir estado de presença manual (como Ocupado, Não Incomodar e assim por diante)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Publicar e exibir status  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir status com base nas informações de disponibilidade de calendário  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir notas de status e mensagens de Ausência Temporária  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Adicionar um local personalizado  <br/> |& #x 2714;||||
+|Adicionar uma nota personalizada  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Publicar status com base na informação de disponibilidade do calendário   <br/> |& #x 2714; & #x 2776; ||||
+|Definir estado de presença manual (como Ocupado, Não Incomodar e assim por diante)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
    
- &#x2776;  Skype for Business mobile clients do not update a user's presence based on the user's free/busy calendar information. If a mobile client user is also signed in to the Skype for Business desktop client, the desktop client updates the user's presence based on the user's free/busy calendar information. If the user is signed in to a mobile client only, the user's presence does not update based on free/busy calendar information.
+ & #x 2776;  Skype para clientes móveis de negócios não atualizar a presença de um usuário com base nas informações de disponibilidade de calendário do usuário. Se um usuário do cliente móvel também é conectado ao Skype para o cliente de desktop de negócios, o cliente de desktop atualiza a presença do usuário com base nas informações de disponibilidade de calendário do usuário. Se o usuário está conectado ao apenas um cliente móvel, a presença do usuário não é atualizada com base nas informações de disponibilidade informações de calendário.
   
 ## <a name="contacts-and-contact-groups-support"></a>Suporte para contatos e grupos de contatos
 
 
- | Recurso/capacidade  | Skype for Business Lync 2013 desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios Lync 2013  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Exibir lista de contatos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir grupos de contato  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir grupos de contatos frequentes  <br/> |&#x2714;||||
-|Modificar lista de contatos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Marcar contatos para alertas de alteração de status  <br/> |&#x2714;||||
-|Controlar relações de privacidade  <br/> |&#x2714;||||
-|Pesquisar o catálogo de endereços corporativo  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Pesquisar lista de contatos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Gerenciar grupos de contatos  <br/> |&#x2714;|||&#x2714;|
-|Expandir grupos de distribuição  <br/> |&#x2714;|&#x2714;||&#x2714;|
-|Pesquisar grupos de resposta  <br/> |&#x2714; &#x2776; |&#x2714;||&#x2714;|
-|Exibir ou ocultar fotos do contato  <br/> |&#x2714;|&#x2714;|||
-|Fixe um contato em sua tela inicial  <br/> ||&#x2714;|||
+|Exibir lista de contatos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir grupos de contato  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir grupos de contatos frequentes  <br/> |& #x 2714;||||
+|Modificar lista de contatos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Marcar contatos para alertas de alteração de status  <br/> |& #x 2714;||||
+|Controlar relações de privacidade  <br/> |& #x 2714;||||
+|Pesquisar o catálogo de endereços corporativo  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Pesquisar lista de contatos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Gerenciar grupos de contatos  <br/> |& #x 2714;|||& #x 2714;|
+|Expandir grupos de distribuição  <br/> |& #x 2714;|& #x 2714;||& #x 2714;|
+|Pesquisar grupos de resposta  <br/> |& #x 2714; & #x 2776; |& #x 2714;||& #x 2714;|
+|Exibir ou ocultar fotos do contato  <br/> |& #x 2714;|& #x 2714;|||
+|Fixe um contato em sua tela inicial  <br/> ||& #x 2714;|||
    
- &#x2776;  Not available to Skype for Business Online and/or Office 365 users.
+ & #x 2776;  Não disponível para Skype para usuários corporativos Online e/ou Office 365.
   
 ## <a name="instant-messaging-support"></a>Suporte ao sistema de mensagens instantâneas
 
 
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Iniciar IM (sistema de mensagens instantâneas) com um contato  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Participar de IM com vários participantes  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Convidar outros por uma janela de conversa  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir conversas atuais  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Navegar entre várias conversas de IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Fazer o login automaticamente de conversas de IM no Exchange  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Enviar uma conversa de IM como uma mensagem de email  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Iniciar um email para um contato  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir convites de IM perdidos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Vibrar com IM em entrada  <br/> ||&#x2714; &#x2776; |&#x2714;|&#x2714;|
+|Iniciar IM (sistema de mensagens instantâneas) com um contato  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Participar de IM com vários participantes  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Convidar outros por uma janela de conversa  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir conversas atuais  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Navegar entre várias conversas de IM  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Fazer o login automaticamente de conversas de IM no Exchange  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Enviar uma conversa de IM como uma mensagem de email  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Iniciar um email para um contato  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir convites de IM perdidos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Vibrar com IM em entrada  <br/> ||& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;|
    
- &#x2776;  This device vibrates every time an IM is received even if the current message in the IM conversation is displayed
+ & #x 2776;  Este dispositivo vibra cada vez que uma IM é recebida, mesmo se a mensagem atual na conversa de IM é exibida
   
-## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype for Business to Skype for Business audio and video
+## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype para a Skype para negócios de áudio e vídeo de negócios
 
 
- | Recurso/funcionalidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/funcionalidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype for Business-to-Skype for Business voice  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Skype for Business-to-Skype for Business video  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype para negócios para Skype para voice de negócios  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Skype para negócios para Skype para vídeo de negócios  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
    
 > [!NOTE]
 > Por padrão, o vídeo em um dispositivo móvel requer uma conexão Wi-Fi.  
@@ -144,100 +146,100 @@ On iOS devices, Skype for Business signs out automatically after the mobile clie
 ## <a name="conferencing-support"></a>Suporte a conferências
 
 
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Clicar em um link no lembrete de reunião para participar de uma reunião com vídeo ou VoIP  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Participar de IM com vários participantes  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Usar a conferência discada (o servidor chama o dispositivo móvel)  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
-|Usar conferência de áudio discada  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir vídeo da reunião  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Exibir vídeo com vários participantes (modo de exibição de galeria)  <br/> |&#x2714;||||
-|Aguardar no lobby da reunião  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Usar os controles do apresentador na reunião  <br/> |&#x2714;||||
-|Acessar lista de participação da reunião detalhada para conferências de áudio  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Acessar lista de participação da reunião detalhada para conferências de IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Compartilhar área de trabalho ou programa  <br/> |&#x2714;||||
-|View shared desktop or program (VbSS or RDP)  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
-|Exibir arquivos compartilhados do PowerPoint  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
-|Carregar e apresentar arquivos do PowerPoint  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
-|Usar ferramentas de reunião (usar quadro de comunicações, conduzir votações, compartilhar arquivos)  <br/> |&#x2714;||||
-|Navegar por uma lista de suas reuniões  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Join a meeting even if you don't have a Skype for Business account  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Visualize mais informações sobre os participantes da reunião  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Inicie uma conversa de grupo não agendada com vários participantes diretamente de seu cliente ou dispositivo   <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Clicar em um link no lembrete de reunião para participar de uma reunião com vídeo ou VoIP  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Participar de IM com vários participantes  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Usar a conferência discada (o servidor chama o dispositivo móvel)  <br/> |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |
+|Usar conferência de áudio discada  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir vídeo da reunião  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Exibir vídeo com vários participantes (modo de exibição de galeria)  <br/> |& #x 2714;||||
+|Aguardar no lobby da reunião  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Usar os controles do apresentador na reunião  <br/> |& #x 2714;||||
+|Acessar lista de participação da reunião detalhada para conferências de áudio  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Acessar lista de participação da reunião detalhada para conferências de IM  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Compartilhar área de trabalho ou programa  <br/> |& #x 2714;||||
+|Exibir a área de trabalho compartilhada ou programa (VbSS ou RDP)  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
+|Exibir arquivos compartilhados do PowerPoint  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
+|Carregar e apresentar arquivos do PowerPoint  <br/> |& #x 2714;||& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
+|Usar ferramentas de reunião (usar quadro de comunicações, conduzir votações, compartilhar arquivos)  <br/> |& #x 2714;||||
+|Navegar por uma lista de suas reuniões  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Ingressar em uma reunião, mesmo se você não tiver um Skype para a conta de negócios  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Visualize mais informações sobre os participantes da reunião  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Inicie uma conversa de grupo não agendada com vários participantes diretamente de seu cliente ou dispositivo   <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
    
- &#x2776;  For Office 365 users, this feature requires Enterprise Voice, which is part of the E5 license.
+ & #x 2776;  Para usuários do Office 365, esse recurso exige Enterprise Voice, o que faz parte da licença E5.
   
- &#x2777;  Requires a WiFi connection by default.
+ & #x 2777;  Requer uma conexão WiFi por padrão.
   
 ## <a name="telephony-support"></a>Suporte a telefonia
 
 
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|In Skype for Business, tap the call icon to call a contact  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Transferir uma chamada  <br/> |&#x2714;|&#x2714;|&#x2714;||
-|Transferência consultiva  <br/> |&#x2714; &#x2778; ||||
-|Gerenciar o encaminhamento de chamadas  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;|&#x2714;|
-|Gerenciar configurações de chamadas de equipe  <br/> |&#x2714; &#x2776; ||||
-|Gerenciar representantes  <br/> |&#x2714; &#x2776; ||||
-|Iniciar uma chamada para um Grupo de Resposta  <br/> |&#x2714; &#x2776; ||||
-|Serviços de suporte a emergências  <br/> |&#x2714; &#x2777; ||||
-|Realizar chamadas em nome de outro contato (cenário de gerente/representante)  <br/> |&#x2714; &#x2776; ||||
-|Handle another contact's calls, if configured as a delegate  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
-|Use Telefonar via Trabalho   <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
-|Acessar caixa postal  <br/> |&#x2714;|&#x2714;|&#x2714;||
-|Use the keypad in Skype for Business  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
+|No Skype para os negócios, toque no ícone de chamada para chamar um contato  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Transferir uma chamada  <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
+|Transferência consultiva  <br/> |& #x 2714; & #x 2778; ||||
+|Gerenciar o encaminhamento de chamadas  <br/> |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;|& #x 2714;|
+|Gerenciar configurações de chamadas de equipe  <br/> |& #x 2714; & #x 2776; ||||
+|Gerenciar representantes  <br/> |& #x 2714; & #x 2776; ||||
+|Iniciar uma chamada para um Grupo de Resposta  <br/> |& #x 2714; & #x 2776; ||||
+|Serviços de suporte a emergências  <br/> |& #x 2714; & #x 2777; ||||
+|Realizar chamadas em nome de outro contato (cenário de gerente/representante)  <br/> |& #x 2714; & #x 2776; ||||
+|Lidar com chamadas de outro contato, se configurado como um delegado  <br/> |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |
+|Use Telefonar via Trabalho   <br/> |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||
+|Acessar caixa postal  <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
+|Use o teclado no Skype para negócios  <br/> |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||
    
- &#x2776;  Available to Skype for Business Online and/or Office 365 E5 users, and users homed on Skype for Business Server 2015 or Lync 2013 with Enterprise Voice enabled.
+ & #x 2776;  Disponível para Skype para usuários corporativos Online e/ou Office 365 E5, e os usuários hospedados no Skype para Business Server 2015 ou o Lync 2013 com o Enterprise Voice habilitado.
   
- &#x2777;  For Skype for Business Online and/or Office 365 users, this feature is supported by Microsoft partners.
+ & #x 2777;  Para Skype para usuários corporativos Online e/ou Office 365, este recurso é suportado por parceiros da Microsoft.
   
- &#x2778;  Windows Desktop client only.
+ & #x 2778;  Somente cliente de área de trabalho do Windows.
   
 ## <a name="external-user-support"></a>Suporte a usuários externos
 
 
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Iniciar IM com um contato público  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Iniciar IM com um contato federado  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Conduzir chamadas de duas partes com usuários externos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Conduzir chamadas de várias partes com usuários externos  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Use Call via Work to reach a federated contact on their mobile phone by calling their published work number  &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|Iniciar IM com um contato público  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Iniciar IM com um contato federado  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Conduzir chamadas de duas partes com usuários externos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Conduzir chamadas de várias partes com usuários externos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Usar chamada via trabalho para alcançar um contato federado em seu telefone móvel chamando o seu número comercial publicado & #x 2776;            <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
    
- &#x2776;  By default, federated users are assigned the External Contacts privacy relationship. Para que seja possível chamar um contato federado em seu telefone celular ligando para seu número comercial publicado, o contato federado deve atribuir manualmente a você a relação de privacidade Colegas.
+ & #x 2776;  Por padrão, os usuários federados são atribuídos a relação de privacidade contatos externos. Para que seja possível chamar um contato federado em seu telefone celular ligando para seu número comercial publicado, o contato federado deve atribuir manualmente a você a relação de privacidade Colegas.
   
 ## <a name="address-book-integration"></a>Integração do catálogo de endereços
 
 
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Ligar para contatos do catálogo de endereços do dispositivo  <br/> ||&#x2714;|&#x2714;|&#x2714;|
-|Make Skype for Business calls to contacts directly from device address book  <br/> ||||&#x2714;|
+|Ligar para contatos do catálogo de endereços do dispositivo  <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
+|Tornar Skype para chamadas de negócios para os contatos diretamente do catálogo de endereços do dispositivo  <br/> ||||& #x 2714;|
    
 ## <a name="archiving-and-compliance-support"></a>Suporte a arquivamento e conformidade
 
 
- | Recurso/capacidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Oferece arquivamento no lado do cliente  <br/> |&#x2714;||||
-|Oferece gravação no lado do cliente  <br/> |&#x2714; &#x2776; ||||
+|Oferece arquivamento no lado do cliente  <br/> |& #x 2714;||||
+|Oferece gravação no lado do cliente  <br/> |& #x 2714; & #x 2776; ||||
    
- &#x2776;  Not available to Skype for Business Online and/or Office 365 users.
+ & #x 2776;  Não disponível para Skype para usuários corporativos Online e/ou Office 365.
   
 ## <a name="modern-authentication"></a>Autenticação moderna
 
 Essa tabela abrange os recursos que precisam de suporte à autenticação moderna.
   
-Modern authentication also requires a topology described in [Skype for Business topologies supported with Modern Authentication](../../plan-your-deployment/modern-authentication/topologies-supported.md).
+Autenticação moderna também requer uma topologia descrita em [Skype para topologias de negócios compatíveis com autenticação moderno](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
- | Recurso/funcionalidade  | Skype for Business desktop client  | Windows Phone  | iOS  | Android |
+ | Recurso/funcionalidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Autenticação moderna  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Autenticação multifator  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Autenticação baseada em certificado  <br/> |&#x2714;(Domain-joined device only)  <br/> ||&#x2714;|&#x2714;|
-|Mobile Application Management (via Intune)  <br/> |||&#x2714;|&#x2714;|
+|Autenticação moderna  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Autenticação multifator  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Autenticação baseada em certificado  <br/> |& #x 2714; (apenas para domínio dispositivo)  <br/> ||& #x 2714;|& #x 2714;|
+|Gerenciamento de aplicativos móveis (via Intune)  <br/> |||& #x 2714;|& #x 2714;|
    
 
