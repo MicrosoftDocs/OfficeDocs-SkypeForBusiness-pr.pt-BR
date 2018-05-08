@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: df4e85dbe0549035984a518ad378307a41740fa9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 47225eff4d7d8bd091b2b7ba9d795c600cbd4b0e
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="emails-sent-to-users-when-their-settings-change"></a>Emails enviados aos usuários ao alteram suas configurações
 
@@ -59,7 +58,7 @@ Por padrão, há quatro tipos de email que será enviada para os usuários habil
   
 - **O PIN de um usuário de serviços de audioconferência é redefinido.**
     
-    Este email contém serviços de audioconferência do organizador PIN, o ID de conferência existente e número de telefone de conferência padrão para o usuário. Veja [Redefinir o PIN de conferência de áudio para um usuário](reset-the-audio-conferencing-pin-for-a-user.md).
+    Este email contém serviços de audioconferência do organizador PIN, o ID de conferência existente e número de telefone de conferência padrão para o usuário. Consulte [Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin.md).
     
     > [!NOTE]
     > [!OBSERVAçãO] Se a sua organização estiver habilitada para IDs de conferência dinâmicas, todas as reuniões de um usuário agendadas terão IDs de conferência exclusivas. Você pode configurar as [IDs de conferência de áudio dinâmicos em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
@@ -105,24 +104,27 @@ Ao desativar o envio de emails para os usuários, o email não será enviado mes
   
 Por padrão, emails serão enviadas aos seus usuários, mas se desejar impedir a email de recebimento para conferência de áudio, você pode usar o Microsoft Teams, o Skype para o Centro de administração de negócios, ou o Windows PowerShell. 
 
-**Usando equipes da Microsoft e Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
 1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
 
 3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de discagem**.
 
-4. Clique em **Aplicar**.
+4. Clique em **Salvar**.
   
-**Usando o Skype para o Centro de administração de negócios**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **usando o Skype para centro de administração de negócios**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
 2. Na página **configurações de ponte da Microsoft** , marque ou desmarque **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de conferência de áudio**. 
     
 3. Clique em **Salvar**. 
-    
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+  
 **Usando o Windows PowerShell**
   
 1. Execute os seguintes procedimentos para desabilitar o envio de email a todos os seus usuários:

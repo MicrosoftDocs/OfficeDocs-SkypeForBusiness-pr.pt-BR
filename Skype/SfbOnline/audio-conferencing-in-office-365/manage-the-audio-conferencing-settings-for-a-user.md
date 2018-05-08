@@ -15,24 +15,25 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Como um administrador do Office 365, você pode editar as configurações de conferência de áudio — como o provedor, tarifas padrão ou número de discagem gratuito, ID de conferência ou PIN — para um usuário individual em sua organização. Se você deseja editar as configurações para a sua organização, consulte Manage a conferência de áudio configurações para minha organização.
-ms.openlocfilehash: 29eb81881bf768b4b398e0fdac38a908ab5833ce
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: d842d2cfeb126b799ed1d763834c9a6e90662a2a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user"></a>Gerenciar as configurações de conferência de áudio para um usuário
 
 Como um administrador do Office 365, você pode editar as configurações de conferência de áudio — como o provedor, tarifas padrão ou número de discagem gratuito, ID de conferência ou PIN — para um usuário individual em sua organização. Se você deseja editar as configurações para a sua organização, consulte [Gerenciar as configurações de áudio da conferência para minha organização](manage-the-audio-conferencing-settings-for-my-organization.md).
   
 ![Mostra a página de propriedades de conferência de áudio para um usuário](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
-  
+ 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+ 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Escolha **Centros de administração** > **Skype for Business**.
@@ -51,10 +52,13 @@ Como um administrador do Office 365, você pode editar as configurações de con
 |**Permitir usando números para ligações gratuitas na ponte Microsoft da sua organização para ingressar em reuniões deste usuário** <br/> |Selecione essa opção se desejar permitir que o usuário de números para ligações gratuitas para participar de reuniões.  <br/> |
 |**Enviar informações de conferência via email** <br/> |Clique neste link apenas se você quiser imediatamente, envie um email para o usuário com sua conferência ID e número de telefone. (Este email não inclui o PIN.) Consulte [Enviar um email para um usuário com as informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**ID de conferência** <br/> |Selecione **Redefinir** se você precisar redefinir o ID de conferência para o usuário. Para obter mais informações, consulte [Redefinir uma ID de conferência para um usuário](reset-a-conference-id-for-a-user.md).  <br/> |
-|**PIN** <br/> |Selecione **Redefinir** se você precisar redefinir o PIN do usuário. Para obter mais informações, consulte [Redefinir o PIN de conferência de áudio para um usuário](reset-the-audio-conferencing-pin-for-a-user.md).  <br/> |
+|**PIN** <br/> |Selecione **Redefinir** se você precisar redefinir o PIN do usuário. Para obter mais informações, consulte [Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Permitir que os chamadores não autenticados ser as primeira pessoas em uma reunião** <br/> |Selecione essa opção para permitir que os chamadores não-autenticados seja o primeiro a ingressar em reuniões.  <br/> |
 |**Restrições a serem dial-outs de reuniões deste usuário** <br/> |Selecione uma opção nessa lista se desejar restringir transferências de discagem para apenas domésticas ou se desejar impedir todas as transferências de discagem de reuniões.  <br/> |
    
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Gerenciar as configurações de audioconferência em minha organização](manage-the-audio-conferencing-settings-for-my-organization.md)

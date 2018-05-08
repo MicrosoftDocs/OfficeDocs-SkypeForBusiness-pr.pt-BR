@@ -15,18 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Licensing
-- Strat_SB_PSTN
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento recursos aos quais você obterá com ele, como comprá-los para o seu produto e como usar sua operadora existente com eles. Você pode obter informações sobre preços e plano de detalhes para o Office 365, créditos de comunicação, e planos de chamada. '
-ms.openlocfilehash: 0b479d25e074c22aa83c66f06ec8034e9a38d92a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4bc58d0863890ab9cdd610f3bfa21803c81f8671
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Skype para licenciamento de complemento Teams da Microsoft e de negócios
 

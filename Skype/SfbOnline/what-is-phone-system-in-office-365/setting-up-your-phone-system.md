@@ -1,5 +1,5 @@
 ---
-title: Setting up Phone System in your organization
+title: Configurando o sistema telefônico na sua organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,73 +7,74 @@ ms.reviewer: makolomi
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- Adm_Skype4B_Online
+- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-- Strat_SB_PSTN
-description: 'Learn how to set up Phone System (Cloud PBX) for your organization. '
-ms.openlocfilehash: 95fed9f26cefddce80de5c8f12a0e18d7368d1f4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Saiba como configurar o sistema telefônico (nuvem PBX) para sua organização. '
+ms.openlocfilehash: 3092442f9b2421bb0dc8a7a6ac7683761176d64c
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>Setting up Phone System in your organization
+# <a name="setting-up-phone-system-in-your-organization"></a>Configurando o sistema telefônico na sua organização
 
-The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.  
+A seguir está um guia passo a passo para configurar o sistema telefônico no Office 365. Links para informações detalhadas adicionais estão disponíveis no final de cada etapa.  
 
-## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Step 1: Make sure that Phone System is available in your country or region
+## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Etapa 1: Certifique-se de que o sistema telefônico está disponível em seu país ou região
 
-1.  First go to [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md), and select your country or region from the list at the top of the page. 
-2.  Under **Phone System**, review the list of features and details. 
-3.  If Phone System is available, go to step 2. 
+1.  Primeiro vá para a [disponibilidade de país e região para conferência de áudio e chamar planos](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)e selecione seu país ou região na lista na parte superior da página. 
+2.  Em um **Sistema telefônico**, examine a lista de recursos e detalhes. 
+3.  Se o sistema telefônico estiver disponível, vá para a etapa 2. 
 
-**To learn more about regional availability of Phone System and Audio Conferencing, see [Country and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).**
+**Para saber mais sobre disponibilidade regional do sistema telefônico e conferência de áudio, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).**
 
-## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Step 2: Buy and assign Phone System and Calling Plan licenses
+## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Etapa 2: Comprar e atribuir licenças do sistema telefônico e chamar planejar
 
-To assign a Phone System and Calling Plan license to a single user the steps are the same as assigning an Office 365 license. See [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). If you want to assign multiple users in bulk, see (../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+Para atribuir uma licença de sistema telefônico e chamar planejar a um único usuário, as etapas são os mesmos atribuir uma licença do Office 365. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Se você desejar atribuir vários usuários em massa, consulte (… / skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
-## <a name="step-3-get-phone-numbers-for-your-users"></a>Step 3: Get phone numbers for your users
+## <a name="step-3-get-phone-numbers-for-your-users"></a>Etapa 3: Obtenha números de telefone para seus usuários
 
-Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them. 
+Antes de você pode configurar os usuários em sua organização façam e recebam chamadas telefônicas, você deve obter números de telefone para eles. 
 
-You have three ways of getting numbers for your users: 
+Há três maneiras de obtenção de números para seus usuários: 
 - Obtenha novos números por meio do centro de administração do Skype for Business.
-- Get new numbers that aren't available in the Skype for Business admin center.
-- Port or transfer your existing numbers from your current service provider or phone carrier to Office 365.
+- Obtenha novos números que não estão disponíveis no Skype para centro de administração de negócios.
+- Porta ou transferir seus números de existentes do seu provedor de serviço atual ou a operadora de telefone para o Office 365.
 
-You must use the **Add new user numbers** page to see, search, acquire, and reserve those numbers. You can search by Country/Region, State, and City, and then enter the number of phone numbers you will need for your users. 
+Você deve usar a página **Adicionar novo usuário números** para ver, pesquisa, adquirir e reservar esses números. Você pode pesquisar por cidade, estado e país/região e digite o número dos números de telefone, que você precisará para seus usuários. 
 
-### <a name="get-new-user-phone-numbers"></a>Get new user phone numbers 
+### <a name="get-new-user-phone-numbers"></a>Obtenha números de telefone do novo usuário 
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Phone numbers**, click **Add new number** ![Add button](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png), and then click **New user numbers**.
+3. No painel de navegação esquerdo, vá para **voz** > **números de telefone**, clique em **Adicionar novo número** ![botão Adicionar](../images/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)e clique em **novo usuário números**.
     
-### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Get new numbers that aren't available in the Skype for Business admin center
+### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Obtenha novos números que não estão disponíveis no Skype para centro de administração de negócios
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.   
+Às vezes (dependendo do seu país/região) não será possível obter seus números de novos usando o Skype para o Centro de administração de negócios. Nesse caso, você precisará fazer o download de um formulário e enviá-la de volta para nós. Consulte [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para saber como solicitar novos números de usuário.   
   
 ### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Fazer a portabilidade ou transferir os números de telefone de seu provedor de serviços ou de sua operadora de telefonia
   
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](..//what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
+- Se você precisar 999 ou menos números de telefone para seus usuários, você pode usar o Assistente de **Nova ordem de porta do número Local** do Skype para centro de administração de negócios. Siga as etapas encontradas em [números de telefone de transferência para o Office 365](..//what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md) para transferir seus números de telefone sobre para Skype para negócios Online.
     
-- If you need to port more than 999 phone numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to submit a port order service request or order to get all of these phone numbers ported over to Office 365. 
+- Se você precisar mais do que 999 números de telefone de porta, consulte [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para enviar uma solicitação de serviço de ordem de porta ou a ordem para obter todos esses números de telefone migrados para o Office 365. 
 
-**For detailed information about getting new phone numbers or transferring existing numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).**
+**Para obter informações detalhadas sobre obtendo novos números de telefone ou transferindo números existentes, consulte [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365\manage-phone-numbers-for-your-organization\manage-phone-numbers-for-your-organization.md).**
 
-## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Step 4: Get service phone numbers (audio conferencing, call queues, auto attendants)
+## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Etapa 4: Obtenha números de telefone do serviço (audioconferência, filas de chamada, atendedores automáticos)
 
-In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes. For example, a service number can handle 100s of calls simultaneously, whereas a user's phone number can only handle a few calls simultaneously.
+Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como serviços de audioconferência (para pontes de conferência), atendedores automáticos e filas de chamada (também chamadas de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes. Por exemplo, um número de serviço pode manipular 100s de chamadas simultaneamente, enquanto o número de telefone de um usuário pode manipular apenas algumas chamadas simultaneamente.
 
 ### <a name="get-new-service-numbers"></a>Obtenha novos números de serviço
 
@@ -81,26 +82,26 @@ In addition to getting phone numbers for your users from Office 365, you can sea
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. In the left navigation go to **Voice** > **Phone numbers** > **Add new number**, and then click **New service numbers**.
+3. No painel de navegação esquerdo, vá para **voz** > **números de telefone** > **Adicionar novo número**e clique em **novos números de serviço**.
     
     > [!IMPORTANT] 
-    > For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Get new numbers that aren't available in the Skype for Business admin center
+### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Obtenha novos números que não estão disponíveis no Skype para centro de administração de negócios
   
-Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new numbers. 
+Às vezes (dependendo do seu país/região) não será possível obter seus números de novos usando o Skype para o Centro de administração de negócios. Nesse caso, você precisará fazer o download de um formulário e enviá-la de volta para nós. Consulte [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para saber como solicitar novos números. 
 
 ### <a name="port-or-transfer-existing-service-numbers"></a>Fazer a portabilidade ou transfira números de serviço existentes
 
-If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Se você deseja transferir os números de serviço do seu provedor de serviço atual ou a operadora, você precisa enviar manualmente uma ordem de porta para a Microsoft. Você precisa enviar pedidos de porta separada para cada tipo de número de serviço (Chamada Tarifada versus gratuitos) que serão transferidos usando uma letra de autorização (LOA). Na carta de autorização (LOA), você deve selecionar o tipo de número de serviço correto. Ao contatar o suporte da Microsoft, verifique se que você especificar que você está transferindo um número de serviço (*e não um número de assinante ou de usuário*), ou a capacidade de chamadas simultânea talvez não seja suficiente para lidar com volumes de chamada. Se você deseja transferir os números de telefone ou fazer outras coisas com seus números de telefone, consulte [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>Step 5: If you want to set up Calling Plans
+## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>Etapa 5: Se você quiser configurar planos de chamada
 
-If you have been following the steps above, you have already bought and assigned Phone System and licenses and a Calling Plan (step 2) and acquired phone numbers for your users (step 3), so your calling plan is partially set up. Follow the three procedures below to complete the setup of your Calling Plan.
+Se você tiver sido seguindo as etapas acima, você já comprou e atribuído sistema telefônico e licenças e um plano de chamada (etapa 2) e adquirido números de telefone para seus usuários (etapa 3), então seu plano de chamada é parcialmente configurado. Siga os três procedimentos abaixo para concluir a configuração do seu plano de chamada.
 
-### <a name="add-emergency-addresses-and-locations-for-your-organization"></a>Add emergency addresses and locations for your organization
+### <a name="add-emergency-addresses-and-locations-for-your-organization"></a>Adicionar endereços de emergências e locais para sua organização
 
-1. On the **Voice** page, choose **Emergency locations** > **Add new address**.
+1. Na página de **voz** , escolha **locais de emergência** > **Adicionar novo endereço**.
     
 2. No painel **Novo endereço**, insira um nome para seu endereço. Em seguida, preencha as caixas restantes.
     
@@ -114,7 +115,7 @@ If you have been following the steps above, you have already bought and assigned
     Se necessário, você será solicitado a fazer correções no endereço. 
     
     > [!CAUTION]
-    > [!CUIDADO] Validar um endereço de rua ou civil envolve a certificação de que ele é legítimo e foi corretamente formatado. It is possible that a partially correct emergency address, such as if you mistyped the name of the city, may still pass validation. Mesmo que tenha sido escrito errado e aprovado na validação, a combinação do nome errado da cidade com outras partes corretas do endereço é suficiente para encaminhar a chamada para o centro de despacho de emergência apropriado. 
+    > [!CUIDADO] Validar um endereço de rua ou civil envolve a certificação de que ele é legítimo e foi corretamente formatado. É possível que um endereço de emergência parcialmente correto, tais como se você digitado incorretamente o nome da cidade, talvez ainda passar validação. Mesmo que tenha sido escrito errado e aprovado na validação, a combinação do nome errado da cidade com outras partes corretas do endereço é suficiente para encaminhar a chamada para o centro de despacho de emergência apropriado. 
   
     > [!TIP]
     > [!DICA] Se o endereço precisar ser corrigido para resposta a emergências, uma faixa verde será exibida para informar que o endereço foi atualizado. 
@@ -126,25 +127,25 @@ If you have been following the steps above, you have already bought and assigned
 > [!TIP]
 > [!DICA] Se você adicionar mais pessoas à sua empresa antes de realizar esta etapa, é possível que leve **várias horas** para que elas apareçam na página **Usuários de voz**. Há uma latência.
   
-1. On the **Voice users** page, select the people who you want to assign a phone number and emergency address to.
+1. Na página **usuários de voz** , selecione as pessoas que você deseja atribuir um número de telefone e endereço de emergência para.
     
 2. No painel Ação, clique em **Atribuir número**.
     
-3. On the **Assign number** page, in the **Select number to assign** list, select the phone number for the user.
+3. Na página **Atribuir número** , na lista **Selecione o número a ser atribuído** , selecione o número de telefone para o usuário.
     
-4. To select an emergency address, enter name of the city in the box and choose **Search**.
+4. Selecione um endereço de emergência, insira o nome da cidade na caixa e escolha **Pesquisar**.
     
     > [!IMPORTANT]
-    > If you are outside the United States, your numbers already have an emergency address, but you can change it now. Veja [Atribuir ou alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md). 
+    > Se você estiver fora dos Estados Unidos, seus números já tem um endereço de emergência, mas você pode alterá-lo agora. Veja [Atribuir ou alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md). 
   
 5. Depois de atribuir o número de telefone e o endereço de emergência, clique em **Salvar**.
     
-### <a name="tell-your-users-about-their-new-phone-numbers"></a>Tell your users about their new phone numbers
+### <a name="tell-your-users-about-their-new-phone-numbers"></a>Informar os usuários sobre seus números de telefone de novo
 
 
 Recomendamos o envio de emails ou o uso do método de comunicação preferido da sua empresa para avisar as pessoas sobre os novos números de telefone. 
 
-Here's how they can see that phone number in their **Skype for Business** app:
+Aqui está como eles podem ver o número de telefone no app seus **Skype para negócios** :
   
 1. Entrar no Skype for Business em sua área de trabalho.
     
@@ -156,117 +157,117 @@ Here's how they can see that phone number in their **Skype for Business** app:
     
     ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](../images/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
-In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
+Em **Equipes da Microsoft**, os usuários poderão ver seu número de telefone, clicando em **chamadas** no painel de navegação à esquerda. O número de telefone é mostrado acima do teclado de discagem.
 
-![A user can see their number in Microsoft Teams by clicking Calls in the left navigation.](../images/teams-phone-number.png)
+![Um usuário pode ver seu número de Teams Microsoft clicando em chamadas no painel de navegação à esquerda.](../images/teams-phone-number.png)
 
-**For more detailed information about all of the steps involved in setting up a Calling Plan, see [Set up Calling Plans](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).**
+**Para obter informações mais detalhadas sobre todas as etapas envolvidas na configuração de um plano de chamada, consulte [Configurar planos de chamada](../what-are-calling-plans-in-office-365/set-up-calling-plans.md).**
 
 
-## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Step 6: If you want to set up Audio Conferencing
+## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Etapa 6: Se você deseja configurar a conferência de áudio
 
-Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. Skype for Business and Microsoft Teams include the audio conferencing feature for just this situation! People can call in to Skype for Business or Microsoft Teams meetings using a phone, instead of using the Skype for Business or Microsoft Teams app on a mobile device or PC. 
+Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. Skype para Teams da Microsoft e de negócios incluir o recurso de conferência de áudio para apenas essa situação! As pessoas podem ligar para Skype para reuniões de negócios ou Microsoft Teams usando um telefone, em vez de usar o Skype para negócios ou Teams Microsoft app em um PC ou dispositivo móvel. 
   
-You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
+Você precisa configurar a conferência de áudio para as pessoas que pretende agendar ou liderança de reuniões. Os participantes da reunião que discam não precisam quaisquer licenças atribuídas a eles ou outro programa de instalação.
   
-For frequently asked questions about Audio Conferencing, see [Audio Conferencing common questions](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md).
+Para as perguntas frequentes sobre a conferência de áudio, consulte [perguntas comuns de conferência de áudio](../audio-conferencing-in-office-365/audio-conferencing-common-questions.md).
     
-1. If you purchased **Audio Conferencing** add-on licenses and Communications Credits licenses, assign them too. For instructions, see [Assign Skype for Business and Microsoft Teams licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+1. Se adquiriu licenças de complemento de **Conferência de áudio** e licenças créditos de comunicações, atribua muito. Para obter instruções, consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
-    Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider: 
+    Decida sobre o seu provedor de serviços de audioconferência. Um provedor de serviços de audioconferência fornece uma ponte de conferência de áudio. A ponte de conferência define seus números de telefone de discagem, PINs e IDs de conferência para reuniões. Decida quanto ao uso da Microsoft ou um provedor de serviços de audioconferência de terceiros: 
 
     > [!NOTE]
-    > Microsoft Teams users can't user a third-party audio conferencing provider. 
+    > Usuários do Microsoft Teams não não um provedor de serviços de audioconferência de terceiros do usuário. 
   
-    - **Microsoft as your audio conferencing provider**: If you want the easiest solution for audio conferencing, choose Microsoft as your audio conferencing provider.
+    - **Microsoft como seu provedor de serviços de audioconferência**: se você desejar a solução mais simples para conferência de áudio, escolha Microsoft como seu provedor de serviços de audioconferência.
     
-    - **Third party as your audio conferencing provider**: If you are in a country where Audio Conferencing in Office 365 isn't available, the service quality isn't great because of its location, or you have an existing contract, choose a third-party audio conferencing provider. To find a provider, go to [Microsoft PinPoint](http://go.microsoft.com/fwlink/?LinkId=797530).
+    - **Terceiros como o seu provedor de serviços de audioconferência**: se você estiver em um país onde os serviços de audioconferência no Office 365 não está disponível, a qualidade de serviço não é ótima devido a seu local ou você tiver um contrato existente, escolha um áudio de terceiros provedor de conferência. Para localizar um provedor, vá para a [Microsoft identifique](http://go.microsoft.com/fwlink/?LinkId=797530).
  
-2.  Assign the audio conferencing provider to people who lead or schedule meetings. See [Assign Microsoft as the audio conferencing provider](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+2.  Atribua o provedor de serviços de audioconferência para as pessoas de avanço ou agendem reuniões. Consulte [Atribuir Microsoft como um provedor de serviços de audioconferência](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
 
-3. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them: 
+3. Configure convites de reunião. As etapas a seguir são opcionais, mas muita admins like para executá-las: 
   
-    1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). Os números de discagem definidos para o usuário serão adicionados automaticamente aos convites da reunião enviados aos participantes. However, you can add your own help and legal links, a text message, and small company graphic.
+    1. [Personalizar convites de reunião](../set-up-skype-for-business-online/customize-meeting-invitations.md). Os números de discagem definidos para o usuário serão adicionados automaticamente aos convites da reunião enviados aos participantes. No entanto, você pode adicionar sua própria Ajuda e links legal, uma mensagem de texto e gráfico de pequena empresa.
     
-    2. [Set the Audio Conferencing phone numbers for meeting organizers that are included on invites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by the user.
+    2. [Conjunto de números de telefone de conferência de áudio para organizadores que estão incluídos nos convites de reunião](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md). Esse é o número de telefone que serão exibidas na reunião programada pelo usuário.
     
-    3. [Set auto attendant languages for Audio Conferencing](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) that the audio conferencing auto attendant uses to greet a caller when they dial in to an Audio Conferencing phone number. This step only applies if you're using Microsoft as your audio provider.
+    3. [Definir os idiomas de atendedor automático de conferência de áudio](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) que o atendedor automático de conferência de áudio usa para saudar um chamador quando eles discam para um número de telefone de conferência de áudio. Esta etapa só se aplica se você estiver usando o Microsoft como seu provedor de áudio.
     
-    4. [Set the length of the PIN for Audio Conferencing meetings](../audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings.md).
+    4. [Definir o tamanho do PIN para reuniões de conferência de áudio](../audio-conferencing-in-office-365/set-the-pin-length-for-audio-conferencing-meetings.md).
     
     > [!NOTE]
-    > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE). 
+    > Esse recurso ainda não disponível para clientes usando o Office 365 operado pela 21Vianet na China. Para saber mais, consulte [Saiba mais sobre o Office 365 operado pela 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE). 
 
-**For more information about Audio Conferencing, see [Set up Audio Conferencing](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).**
+**Para obter mais informações sobre a conferência de áudio, consulte [Configurar conferências de áudio](../audio-conferencing-in-office-365/set-up-audio-conferencing.md).**
 
-## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>Step 7: If you want to set up a Phone System call queue
+## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>Etapa 7: Se você deseja configurar uma fila de chamada do sistema telefônico
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar um único ou vários filas de chamada para sua organização.
 
-Antes de você poder criar e configurar as filas de chamada, será necessário receber ou transferir os números de serviço de chamada gratuita ou tarifada. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](getting-service-phone-numbers.md) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Antes de você poder criar e configurar as filas de chamada, será necessário receber ou transferir os números de serviço de chamada gratuita ou tarifada. Após você fazer a chamada Tarifada ou números de telefone gratuitos de serviço, eles serão exibidos no **Skype para centro de administração de negócios** > **voz** > **números de telefone**e a disposição de **tipo de número** listado listada como **serviço - chamada gratuita **. Para obter seus números de serviço, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](getting-service-phone-numbers.md) ou se você deseja transferir e o número de serviço existente, consulte [transferir os números de telefone para o Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
-> If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
+> Se você estiver fora dos Estados Unidos, você não pode usar o Skype para centro de administração de negócios para obter os números de serviço. Vá para [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez disso, para ver como fazê-lo de fora dos Estados Unidos.
 
-To create a new call queue, in the **Skype for Business admin center**, click **Call routing** > **Call queues**, click **Add new**, and then follow the instructions in **Step 3** of  [Create a Phone System call queue]( create-a-phone-system-call-queue.md#step-3---create-a-new-call-queue).
+Para criar uma nova fila de espera de chamada, o **Skype para centro de administração de negócios**, clique em **roteamento de chamadas** > **filas de chamada**, clique em **Adicionar novo**e siga as instruções na **etapa 3** de [criar uma fila de chamada do sistema telefônico]( create-a-phone-system-call-queue.md#step-3---create-a-new-call-queue).
 
-**For more details about call queues, see [Create a Phone System call queue](create-a-phone-system-call-queue.md).**
+**Para obter mais detalhes sobre as filas de chamada, consulte [criar uma fila de chamada do sistema telefônico](create-a-phone-system-call-queue.md).**
 
-## <a name="step-8-if-you-want-to-set-up-a-phone-system-auto-attendant"></a>Step 8: If you want to set up a Phone System auto attendant
+## <a name="step-8-if-you-want-to-set-up-a-phone-system-auto-attendant"></a>Etapa 8: Se você quiser configurar um sistema telefônico atendedor automático
 
-Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center. 
+Atendedores automáticos permitem que as pessoas que ligam para sua organização e navegue para conectá-los ao departamento direita, chame a fila, pessoa ou o operador de um sistema de menus. Você pode criar um atendedor automático para sua organização usando o Skype para o Centro de administração de negócios. 
 
-To create a new auto attendant, in the Skype for Business admin center, click **Call routing** > **Auto attendants**, click **Add new**, and then follow the instructions for each page in **Step 2** of [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md#step-2---create-a-new-auto-attendant).
+Para criar um novo atendedor automático, o Skype para centro de administração de negócios, clique em **roteamento de chamadas** > **atendedores automáticos**, clique em **Adicionar novo**e siga as instruções para cada página na **etapa 2** do [Set up automático de um sistema telefônico Attendant](set-up-a-phone-system-auto-attendant.md#step-2---create-a-new-auto-attendant).
 
-**For more details about Phone System auto attendants, see [Set up a Phone System auto attendant](set-up-a-phone-system-auto-attendant.md).**
+**Para obter mais detalhes sobre os atendedores automáticos de sistema telefônico, consulte [Configurar um atendedor automático de sistema telefônico](set-up-a-phone-system-auto-attendant.md).**
 
-## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Step 9: Assign service phone numbers (audio conferencing, call queues, auto attendants)
+## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Etapa 9: Atribuir números de telefone do serviço (audioconferência, filas de chamada, atendedores automáticos)
 
-Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
+Depois que você tiver seus números de serviço da **etapa 4 acima**, você precisará atribuí-las a cada tipo de serviço que você deseja. Por exemplo, se quiser que um número de telefone do serviço dedicado (tarifas ou gratuitos), você precisará atribuir o número a ponte de conferência.
 
-- For Audio Conferencing, you can assign a dedicated number to a conferencing bridge by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Audio conferencing** and click on the conference bridge or by seeing  [Change the toll or toll-free numbers on your Audio Conferencing bridge](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- Para conferências de áudio, você pode atribuir um número dedicado a uma ponte de conferência indo para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **conferência de áudio** e clique no ponte de conferência ou consultando [alterar as tarifas ou números para ligações gratuitas na sua ponte de conferência de áudio](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- For Auto Attendants, you can assign a dedicated number to an auto attendant by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Auto attendants** and click on the auto attendant. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Set up a Phone System Auto Attendant](set-up-a-phone-system-auto-attendant.md).
+- Para atendedores automáticos, você pode atribuir um número dedicado a um atendedor automático indo para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **roteamento de chamadas** > atendedores automáticos de** **e clique em sobre o atendedor automático. Na página **Geral** , o número de serviço que você já tiver vão ser listados no **número de telefone** suspensa. Para obter detalhes, consulte [Configurar um atendedor automático do sistema telefônico](set-up-a-phone-system-auto-attendant.md).
 
-- For Call Queues, you can assign a dedicated number to a call queue by going to **Office 365 admin center** > **Admin centers** > **Skype for Business** > **Call routing** > **Call queues** and click on the call queue. On the **General** page the service number you already have will be listed in the **Phone number** drop down. For details, see [Create a Phone System call queue](create-a-phone-system-call-queue.md).
+- Para chamadas de filas, você pode atribuir um número dedicado para uma fila de chamada indo para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **roteamento de chamadas** > **filas de chamadas** e clique em a fila de chamada. Na página **Geral** , o número de serviço que você já tiver vão ser listados no **número de telefone** suspensa. Para obter detalhes, consulte [criar uma fila de chamada do sistema telefônico](create-a-phone-system-call-queue.md).
 
-**For detailed information about getting new service numbers and porting existing service numbers, see [Getting service phone numbers](getting-service-phone-numbers.md).**
+**Para obter informações detalhadas sobre a obtenção de novos números de serviço e portando números de serviço existente, consulte [Getting números de telefone de serviço](getting-service-phone-numbers.md).**
 
-## <a name="step-10-set-up-communications-credits-for-your-organization"></a>Step 10: Set up Communications Credits for your organization
+## <a name="step-10-set-up-communications-credits-for-your-organization"></a>Etapa 10: Configurar os créditos de comunicações para sua organização
 
-You will need to set up Communications Credits if you would like to use toll-free numbers with Skype for Business and Microsoft Teams. Also, we recommend that you set up Communications Credits for your Calling Plans (Domestic or International) and Audio Conferencing users who need the ability to dial out to **any destination**. Many countries/regions are included, but some destinations may not be included in your Calling Plan or Audio Conferencing subscriptions. If you don't set up Communications Credits billing and assign a **Communications Credits** license to your users and you run out minutes for your organization (depending on your Calling Plan or Audio Conferencing plan in your country/region), those users won't be able to make calls or dial out from Audio Conferencing meetings. You can get more information, including recommended funding amounts, by reading [What are Communications Credits?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+Você precisará configurar créditos de comunicações, se você quiser usar números para ligações gratuitas com Skype para Teams da Microsoft e de negócios. Além disso, é recomendável que você configure créditos de comunicações para seus planos de chamada (doméstico ou internacional) e audioconferências usuários que precisam ter a capacidade de discar para **qualquer destino**. Muitos países/regiões são incluídos, mas alguns destinos não podem ser incluídos em suas assinaturas chamar planejar ou conferência de áudio. Se você não configurar créditos de comunicação de cobrança e atribuir uma licença **Créditos de comunicações** para seus usuários e executar check-out de minutos para sua organização (dependendo do seu plano de chamada ou conferência de áudio plano em seu país/região), esses usuários não será possível fazer chamadas ou discar a partir de reuniões de conferência de áudio. Você pode obter mais informações, incluindo recomendado, as quantidades de financiamento lendo [Cite Communications créditos?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
   
 > [!NOTE]
-> To find out how much it costs, [see the rates here](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
+> Para descobrir quanto custa, [Consulte as taxas de aqui](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
 
-### <a name="to-set-up-communications-credits"></a>To set up Communications Credits 
+### <a name="to-set-up-communications-credits"></a>Configurar comunicações créditos 
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. In the left navigation of the Office 365 admin center, go to **Billing** > **Subscriptions** > **Add-ons** > **Buy add-ons**, and then choose **Communications Credits** > **Buy now**.
+2. No painel de navegação à esquerda do Centro de administração do Office 365, vá para **faturamento** > **assinaturas** > **Complementos** > **comprar complementos**e escolha **Communications créditos** > **Compre agora**.
     
-3. On the **Communications Credits** subscription page, fill in your information, and then click **Next**.
+3. Na página de inscrição **Créditos de comunicações** , preencha as informações e clique em **Avançar**.
         
-4. Enter your payment information and click **Place order**.
+4. Insira suas informações de pagamento e clique em **Fazer pedido**.
     >[!IMPORTANT]
-    >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
+    >Se você for um cliente de licenciamento por volume, você pode escolher seu número de contrato empresarial para pagamento. Se você tiver vários números de contrato enterprise, você poderá selecionar qual contrato de empresa que você gostaria de usar para pagamento. Você também terá a oportunidade de especificar um número de ordem de compra para associar o número do contrato de empresa (se aplicável).
     
-**For more detailed information about setting up Communications Credits, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
+**Para obter informações mais detalhadas sobre como configurar comunicações créditos, consulte [Configurar créditos de comunicações para sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
   
-### <a name="assign-a-communications-credits-license-to-users"></a>Assign a Communications Credits license to users
+### <a name="assign-a-communications-credits-license-to-users"></a>Atribuir uma licença de comunicações créditos aos usuários
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. In the left navigation of the Office 365 admin center, go to **Users** > **Active users**, and then select a user or users from the list.
+2. No painel de navegação à esquerda do Centro de administração do Office 365, vá para **usuários** > **usuários ativos**e selecione um ou mais usuários da lista.
     
 3. No painel Ação em **Licenças de**, clique em **Editar**.
     
-4. On the **Product licenses** page, toggle ** Communications Credits** to **On** to assign this license, and then click **Save**.
+4. Na página **licenças do produto** , alternar * * Communications créditos * * para **em** atribuir essa licença e clique em **Salvar**.
     
     > [!NOTE]
-    > Even if you have users who are assigned an **Enterprise E5** license, it's still recommended that you do this.
+    > Mesmo se você tiver usuários que receberem uma licença **Enterprise E5** , ainda é recomendado que você faça isso.
 
-**To learn more about assigning Communications Credits licenses, see [Set up Communications Credits for your organization](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
+**Para saber mais sobre como atribuir licenças créditos de comunicações, consulte [Configurar créditos de comunicações para sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
 
 ## <a name="related-topics"></a>Tópicos relacionados
 Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)

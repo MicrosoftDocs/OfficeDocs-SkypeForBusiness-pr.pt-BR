@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 9db213285a24ad0a67d305a84f275f21ce741013
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Ativar ou desativar o envio de emails quando alterar configurações de conferência de áudio
 
@@ -57,16 +56,16 @@ Aqui está um exemplo de email enviada aos usuários quando eles estão habilita
 
 Você pode usar o Microsoft Teams, o Skype para centro de administração de negócios, ou o Windows PowerShell para habilitar ou desabilitar o email enviado aos usuários.
 
-**Usando equipes da Microsoft e Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
 
 3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de discagem**.
 
-4. Clique em **Aplicar**.
+4. Clique em **Salvar**.
   
-**Usando o Skype para o Centro de administração de negócios**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, clique em **conferência de áudio**.
     
@@ -77,6 +76,9 @@ Você pode usar o Microsoft Teams, o Skype para centro de administração de neg
     > [!TIP]
     > Você também pode enviar email a um usuário com as configurações de serviços de audioconferência indo para **conferência de áudio** > **usuários**, selecionando o usuário e, em seguida, clicando em **Enviar informações de conferência via email**.  Se fizer isso, será enviado um email que inclui somente o ID de conferência e o número de telefone de conferência, mas não o PIN.  Para obter mais informações, consulte [Enviar um email a um usuário com as informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md) .
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 **Usando o Windows PowerShell**
   
 - Execute o seguinte procedimento para desabilitar o envio de emails: 

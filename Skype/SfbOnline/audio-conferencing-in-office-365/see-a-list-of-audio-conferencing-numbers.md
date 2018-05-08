@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to look up your dial-in conferencing numbers from within Skype for Business. '
-ms.openlocfilehash: d4e1ef41a02a0197133d2b5cc08a4f35f961e4ee
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c50c7a06aae2e9e68a5f9a2c66fc04f912a35705
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers"></a>Ver uma lista de números de conferência de áudio
 
@@ -43,7 +42,7 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
 > [!NOTE]
 > [!OBSERVAçãO] Números de discagem locais são dedicados à sua organização e são os únicos que podem ser definidos como números de telefone padrão. No entanto, números de discagem internacionais podem ser compartilhados entre várias organizações. 
   
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para exibir seus números de telefone de conferência de áudio
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--to-view-your-audio-conferencing-phone-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  Para exibir seus números de telefone de conferência de áudio
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -57,6 +56,9 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
     
 > [!NOTE]
 > Você pode ir para a **conferência de áudio** > **usuários** e selecione Propriedades do usuário para alterar o padrão de número, escolhendo um novo número da lista de números disponíveis em sua organização. Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md). 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 

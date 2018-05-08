@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 8a4b9c9cbb21c8a269e9d07285e4ecf68d2f2a7a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 4deb415e9fd7154d72b7d598bcc5dfb8eabed6ed
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Iniciar uma conferência de áudio por telefone sem um PIN
 
@@ -37,7 +36,7 @@ Um PIN não é necessário para o organizador da reunião, se alguém tiver inic
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
 
-**Usando equipes da Microsoft e Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
 1. No painel de navegação esquerdo, clique em **usuários**. 
 
@@ -49,7 +48,7 @@ Um PIN não é necessário para o organizador da reunião, se alguém tiver inic
     
 4. Clique em **Aplicar**. 
 
-**Usando o Skype para o Centro de administração de negócios**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**. 
     
@@ -58,6 +57,9 @@ Um PIN não é necessário para o organizador da reunião, se alguém tiver inic
 3. Na página de propriedades do usuário, em **Opções de reunião**, marque ou desmarque **chamadores de permitir não autenticado para ser as primeira pessoas em uma reunião. Se não, em seguida, eles aguardará no lobby até que um usuário autenticado**.
     
 4. Clique em **Salvar**. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
  **Usando o Windows Powershell**
   
@@ -69,7 +71,7 @@ Um PIN não é necessário para o organizador da reunião, se alguém tiver inic
 
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
-- Se você quiser redefinir o PIN, consulte [Redefinir o PIN de conferência de áudio para um usuário](reset-the-audio-conferencing-pin-for-a-user.md).
+- Se você deseja redefinir o PIN, consulte [Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin.md).
     
 - Se o acesso anônimo ou não exigir um PIN iniciar uma reunião, estiver habilitado:
     

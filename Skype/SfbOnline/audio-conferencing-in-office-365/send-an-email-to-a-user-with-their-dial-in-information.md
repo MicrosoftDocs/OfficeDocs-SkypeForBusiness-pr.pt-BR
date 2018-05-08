@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Envie um email com suas informações de conferência de áudio para seus usuários.
-ms.openlocfilehash: 23eb461d84395672f97fc4ff97c4c0ded7aa92e2
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Enviar um email para um usuário com suas informações de conferência de áudio
 
@@ -35,14 +34,12 @@ Em alguns casos, talvez seja necessário Skype para usuários corporativos ou Mi
     
 - A ID de conferência do usuário.
     
-    > [!NOTE]
-    > IDs estáticas são usadas quando as pessoas na sua organização não desejam Lembre-se de um número aleatório; eles podem selecionar um certo número ou use um que seja fácil de lembrar. Se IDs de conferência dinâmicas estiverem sendo usadas, cada reunião agendada por um usuário terá uma ID de conferência exclusiva atribuída. Se você deseja atribuir dinâmico em vez de conferência estática IDs, [acesse aqui](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
-  
+   
 Aqui está um exemplo do email que será enviado:
   
 ![Email para conferência discada](../images/audio-conferencing-info.png)
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com informações de conferência de áudio a um usuário
+## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Enviar um email com informações de conferência de áudio a um usuário
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -54,7 +51,10 @@ Aqui está um exemplo do email que será enviado:
     
 > [!TIP]
 > Você também pode enviar email para o usuário com as configurações de serviços de audioconferência editando as propriedades do usuário e, em seguida, clicando em **audioconferências** > **Enviar informações de conferência via email**. 
-  
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="what-else-should-you-know-about-this-email"></a>O que mais devo saber sobre esse email?
 
 - Há vários emails que serão enviadas aos usuários em sua organização depois que eles estão habilitados para conferência de áudio:

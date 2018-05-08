@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: b20e782955b946f676cca5221f63b06cdd4d1be1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Definir o tamanho PIN para reuniões de conferência de áudio
 
@@ -35,7 +34,7 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
 
-**Usando equipes da Microsoft e Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
 1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
 
@@ -45,7 +44,7 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
 
 4. Clique em **Aplicar**.
 
-**Usando o Skype para o Centro de administração de negócios**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
  
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
@@ -53,6 +52,9 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
     
 > [!NOTE]
 > [!OBSERVAçãO] Um PIN é diferente de um ID de conferência. IDs de conferência são usados pelos chamadores quando eles participam da reunião. São usados para identificar a reunião. O PIN é usado para autenticar um chamador como organizador da reunião. 
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="want-to-know-more-about-pin-settings"></a>Quer saber mais sobre configurações de PIN?
 

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: cb38da52bd2c67a66e354b21712b8cc0d986796c
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: de5959a6182e354a9f12669100b60f66fd70f88f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone na sua ponte de conferência de áudio
 
@@ -53,6 +52,9 @@ Além dos números já atribuídos a sua ponte de conferência, você pode [obte
     > [!NOTE]
     > [!OBSERVAçãO] Após a atribuição do novo número de telefone, mesmo que ele se torne o novo número padrão, o número padrão dos usuários existentes não mudará. Para definir as tarifas padrão ou um número de chamada gratuito que é adicionado à reunião do organizador convida, consulte [Defina o telefone convidam números incluídos no](set-the-phone-numbers-included-on-invites.md). 
   
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Etapa 2 - Alterar os números de telefone padrão que são incluídos nos convites de reunião de usuários (opcional)
 
 Os números de telefone padrão para o usuário são aqueles incluídos em seus convites de reunião quando agendam uma reunião. Para obter mais informações, consulte [definir o telefone convidam números incluídos no](set-the-phone-numbers-included-on-invites.md).

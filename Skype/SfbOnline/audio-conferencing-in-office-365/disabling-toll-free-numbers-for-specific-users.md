@@ -12,17 +12,16 @@ ms.collection:
 - Strat_SB_PSTN
 ms.audience: Admin
 ms.appliesto: Skype for Business, Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
-- Strat_SB_PSTN
 - Audio Conferencing
 description: Os administradores podem controlar como os organizadores podem usar números para ligações gratuitas para suas reuniões.
-ms.openlocfilehash: 0d2b4d16d6475587dd85223e0a88f64562664429
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a63078256ac9ac52b3d405bd3cf1b63120fb77ce
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="disabling-toll-free-numbers-for-specific-users"></a>Desabilitando números para ligações gratuitas para usuários específicos
 
@@ -43,7 +42,7 @@ Quando os números para ligações gratuitas estão desabilitados para um determ
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Desabilitando números para ligações gratuitas para usuários específicos 
 
-**Usando equipes da Microsoft e Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
@@ -55,7 +54,7 @@ Quando os números para ligações gratuitas estão desabilitados para um determ
 
 5. Clique em **se aplicam.** 
 
-**Usando o Skype para o Centro de administração de negócios**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis. 
 
@@ -64,6 +63,9 @@ Quando os números para ligações gratuitas estão desabilitados para um determ
 3. Desmarque **Permitir usando números de discagem gratuita para participar de reuniões deste usuário**. 
  
 4. Clique em **Salvar**. 
+ 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
 **Usando o PowerShell**  
 

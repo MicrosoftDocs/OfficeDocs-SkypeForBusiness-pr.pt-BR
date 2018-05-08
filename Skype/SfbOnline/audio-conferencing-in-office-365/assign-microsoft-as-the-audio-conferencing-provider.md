@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-- Strat_SB_PSTN
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
-ms.openlocfilehash: 2ccb2b9a2b0a611d46056a8369dcb92d294c081f
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e5e11adb4bf02e87de316d70be48b60d3ecd1d7f
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como um provedor de serviços de audioconferência
 
@@ -35,7 +34,7 @@ Conferência de áudio da Microsoft fornece os números de telefone de discagem,
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Atribuir a Microsoft como um provedor de serviços de audioconferência
 
-### <a name="using-the-skype-for-business-admin-center"></a>Usar o Centro de administração do Skype for Business
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Usar o Centro de administração do Skype for Business
 
 1. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
@@ -49,6 +48,9 @@ Conferência de áudio da Microsoft fornece os números de telefone de discagem,
     > Como você está usando o Microsoft como o provedor de serviços de audioconferência e há vários números de telefone, você pode usar a lista suspensa de **número de Chamada Tarifada padrão** para selecionar um número de áudio padrão para o usuário.
   
 5. Clique em **Salvar**.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
 ### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>Como usar um script do Windows PowerShell para uma pequena quantidade de usuários
 

@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: O sistema telefônico no Office 365 fornece uma ID de chamador padrão que é o número de telefone atribuído do usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Saiba mais sobre como usar o ID do chamador em sua organização indo como ID do chamador pode ser usado na sua organização.
-ms.openlocfilehash: 8935aa0c7cf54ef5bb04fefa10957daaf91a560f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 8e1ba6806ea48b0a33e70b0dcc21dfdece8e52a8
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Definir a identificação de chamadas para um usuário
 O sistema telefônico no Office 365 fornece uma ID de chamador padrão que é o número de telefone atribuído do usuário. Você pode alterar ou bloquear a ID de chamadas (também chamada de ID da linha de chamada) de um usuário. Saiba mais sobre como usar o ID do chamador em sua organização indo [como ID do chamador pode ser usado na sua organização](how-can-caller-id-be-used-in-your-organization.md).
@@ -117,7 +116,6 @@ Consulte mais detalhes e exemplos para [Get-CsCallingLineIdentity](https://techn
   ```
   New-CsCallingLineIdentity  -Identity Anonymous -Description "Anonymous policy" -CallingIDSubstitute Anonymous -EnableUserOverride $false
   ```
-
   > [!NOTE]  
   > Em todos os casos, o campo "Serviço Number" não deve incluir um initial "+".
 
@@ -183,9 +181,11 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 [Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Mais informações sobre como chamar o ID de linha e chamar o nome do participante](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+
+[Termos e condições para chamadas de emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
-  
+ 
  
