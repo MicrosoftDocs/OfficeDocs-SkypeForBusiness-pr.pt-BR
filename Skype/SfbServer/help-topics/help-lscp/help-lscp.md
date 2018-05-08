@@ -8,23 +8,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d90fce21-d7ff-4a9a-bc20-68021a37dca4
-description: Inserir a introdução aqui.
-ms.openlocfilehash: 786488ca8740743ea6af48fc668f1967a23570bb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Tópicos de painel de controle
+ms.openlocfilehash: 736222729762277b9d0e23b30c7289358d69b66b
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="help-lscp"></a><span data-ttu-id="237bf-103">Ajuda-LSCP</span><span class="sxs-lookup"><span data-stu-id="237bf-103">Help-LSCP</span></span>
+# <a name="help-lscp"></a><span data-ttu-id="555f6-103">Ajuda-LSCP</span><span class="sxs-lookup"><span data-stu-id="555f6-103">Help-LSCP</span></span>
  
-<span data-ttu-id="237bf-104">Inserir a introdução aqui.</span><span class="sxs-lookup"><span data-stu-id="237bf-104">Insert introduction here.</span></span>
+<span data-ttu-id="555f6-104">Os tópicos neste nó fornecem ajuda para o Skype para painel de controle do servidor de negócios.</span><span class="sxs-lookup"><span data-stu-id="555f6-104">The topics in this node provide help for the Skype for Business Server Control Panel.</span></span>
   
-## <a name="section-heading"></a><span data-ttu-id="237bf-105">Cabeçalho da seção</span><span class="sxs-lookup"><span data-stu-id="237bf-105">Section Heading</span></span>
 
-<span data-ttu-id="237bf-106">Inserir o corpo da seção aqui.</span><span class="sxs-lookup"><span data-stu-id="237bf-106">Insert section body here.</span></span>
-  
-### <a name="subsection-heading"></a><span data-ttu-id="237bf-107">Cabeçalho da subseção</span><span class="sxs-lookup"><span data-stu-id="237bf-107">Subsection Heading</span></span>
-
-<span data-ttu-id="237bf-108">Inserir o corpo da subseção aqui.</span><span class="sxs-lookup"><span data-stu-id="237bf-108">Insert subsection body here.</span></span>
-  
 

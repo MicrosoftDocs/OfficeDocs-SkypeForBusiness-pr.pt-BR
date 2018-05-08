@@ -7,38 +7,39 @@ ms.date: 12/3/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
 - IT_Skype4B_Hybrid
-ms.custom: Strat_SB_Hybrid
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 3a8176fc-47ee-4809-ba2f-d8b8090c1cf3
 description: Antes de realmente mover o usuário para o Office 365, primeiro você deve confirmar que eles são sincronizados com a nuvem e atribuí-las uma licença. Para fazer isso, use o Centro de Administração do Office 365.
-ms.openlocfilehash: 7f7e10a6367a7ebb134ea5f9e82ce205998640f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 71f989f1b6151f227aa10f0a334654b9733cbf1a
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="synchronize-users-to-the-cloud-and-assign-licenses"></a><span data-ttu-id="39583-104">Sincronizar usuários com a nuvem e atribuir licenças</span><span class="sxs-lookup"><span data-stu-id="39583-104">Synchronize users to the cloud and assign licenses</span></span>
+# <a name="synchronize-users-to-the-cloud-and-assign-licenses"></a><span data-ttu-id="d9ec7-104">Sincronizar usuários com a nuvem e atribuir licenças</span><span class="sxs-lookup"><span data-stu-id="d9ec7-104">Synchronize users to the cloud and assign licenses</span></span>
  
-<span data-ttu-id="39583-105">Antes de realmente mover o usuário para o Office 365, primeiro você deve confirmar que eles são sincronizados com a nuvem e atribuí-las uma licença.</span><span class="sxs-lookup"><span data-stu-id="39583-105">Before actually moving the user to Office 365, you must first confirm that they are synchronized to the cloud, and assign them a license.</span></span> <span data-ttu-id="39583-106">Para fazer isso, use o Centro de Administração do Office 365.</span><span class="sxs-lookup"><span data-stu-id="39583-106">To do this, you use the Office 365 Admin Center.</span></span>
+<span data-ttu-id="d9ec7-105">Antes de realmente mover o usuário para o Office 365, primeiro você deve confirmar que eles são sincronizados com a nuvem e atribuí-las uma licença.</span><span class="sxs-lookup"><span data-stu-id="d9ec7-105">Before actually moving the user to Office 365, you must first confirm that they are synchronized to the cloud, and assign them a license.</span></span> <span data-ttu-id="d9ec7-106">Para fazer isso, use o Centro de Administração do Office 365.</span><span class="sxs-lookup"><span data-stu-id="d9ec7-106">To do this, you use the Office 365 Admin Center.</span></span>
   
-### <a name="to-confirm-that-a-user-is-synchronized-with-office-365"></a><span data-ttu-id="39583-107">Para confirmar que um usuário é sincronizado com o Office 365</span><span class="sxs-lookup"><span data-stu-id="39583-107">To confirm that a user is synchronized with Office 365</span></span>
+### <a name="to-confirm-that-a-user-is-synchronized-with-office-365"></a><span data-ttu-id="d9ec7-107">Para confirmar que um usuário é sincronizado com o Office 365</span><span class="sxs-lookup"><span data-stu-id="d9ec7-107">To confirm that a user is synchronized with Office 365</span></span>
 
-1. <span data-ttu-id="39583-108">Abra o Centro de administração do Office 365 (https://portal.office.com).</span><span class="sxs-lookup"><span data-stu-id="39583-108">Open the Office 365 Admin Center (https://portal.office.com).</span></span>
+1. <span data-ttu-id="d9ec7-108">Abra o Centro de administração do Office 365 (https://portal.office.com).</span><span class="sxs-lookup"><span data-stu-id="d9ec7-108">Open the Office 365 Admin Center (https://portal.office.com).</span></span>
     
-2. <span data-ttu-id="39583-109">No painel de navegação à esquerda, clique em **Usuários** e, em seguida, **Usuários Ativos**.</span><span class="sxs-lookup"><span data-stu-id="39583-109">On the left navigation pane, click **Users** and then **Active Users**.</span></span>
+2. <span data-ttu-id="d9ec7-109">No painel de navegação à esquerda, clique em **Usuários** e, em seguida, **Usuários Ativos**.</span><span class="sxs-lookup"><span data-stu-id="d9ec7-109">On the left navigation pane, click **Users** and then **Active Users**.</span></span>
     
-3. <span data-ttu-id="39583-110">Clique em **Pesquisar um Usuário**e digite o nome do usuário.</span><span class="sxs-lookup"><span data-stu-id="39583-110">Click **Search for a User**, and type the name of the user.</span></span>
+3. <span data-ttu-id="d9ec7-110">Clique em **Pesquisar um Usuário**e digite o nome do usuário.</span><span class="sxs-lookup"><span data-stu-id="d9ec7-110">Click **Search for a User**, and type the name of the user.</span></span>
     
-4. <span data-ttu-id="39583-111">Confirme que você visualizou o usuário e que seu status é **Sincronizado com Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="39583-111">Confirm that you see the user, and that their status is **Synched with Active Directory**.</span></span>
+4. <span data-ttu-id="d9ec7-111">Confirme que você visualizou o usuário e que seu status é **Sincronizado com Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="d9ec7-111">Confirm that you see the user, and that their status is **Synched with Active Directory**.</span></span>
     
-    <span data-ttu-id="39583-112">Se o usuário ainda não está sincronizado, a próxima sincronização automática deve acontecer no prazo de três horas.</span><span class="sxs-lookup"><span data-stu-id="39583-112">If the user is not yet synchronized, the next automatic synchronization should happen within three hours.</span></span> <span data-ttu-id="39583-113">Ou você pode forçar uma sincronização mais cedo.</span><span class="sxs-lookup"><span data-stu-id="39583-113">Or you could force a synchronization sooner.</span></span> <span data-ttu-id="39583-114">Para obter mais informações, consulte [Forçar sincronização de diretórios](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx).</span><span class="sxs-lookup"><span data-stu-id="39583-114">For more information, see [Force Directory Synchronization](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx).</span></span>
+    <span data-ttu-id="d9ec7-112">Se o usuário ainda não está sincronizado, a próxima sincronização automática deve acontecer no prazo de três horas.</span><span class="sxs-lookup"><span data-stu-id="d9ec7-112">If the user is not yet synchronized, the next automatic synchronization should happen within three hours.</span></span> <span data-ttu-id="d9ec7-113">Ou você pode forçar uma sincronização mais cedo.</span><span class="sxs-lookup"><span data-stu-id="d9ec7-113">Or you could force a synchronization sooner.</span></span> <span data-ttu-id="d9ec7-114">Para obter mais informações, consulte [Forçar sincronização de diretórios](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx).</span><span class="sxs-lookup"><span data-stu-id="d9ec7-114">For more information, see [Force Directory Synchronization](https://msdn.microsoft.com/en-us/library/azure/JJ151771.aspx).</span></span>
     
-## <a name="to-assign-the-license"></a><span data-ttu-id="39583-115">Para atribuir a licença</span><span class="sxs-lookup"><span data-stu-id="39583-115">To assign the license</span></span>
+## <a name="to-assign-the-license"></a><span data-ttu-id="d9ec7-115">Para atribuir a licença</span><span class="sxs-lookup"><span data-stu-id="d9ec7-115">To assign the license</span></span>
 
-<span data-ttu-id="39583-116">Para atribuir a licença no Office 365, consulte [atribuir ou remover uma licença de nuvem PBX para um usuário](https://support.office.com/article/Assign-or-unassign-a-Cloud-PBX-license-for-a-user-36c6d5a6-5ea8-4c44-9f18-fea33d5a847e).</span><span class="sxs-lookup"><span data-stu-id="39583-116">To assign the license in Office 365, see [Assign or unassign a Cloud PBX license for a user](https://support.office.com/article/Assign-or-unassign-a-Cloud-PBX-license-for-a-user-36c6d5a6-5ea8-4c44-9f18-fea33d5a847e).</span></span>
+<span data-ttu-id="d9ec7-116">Para atribuir a licença no Office 365, consulte [atribuir ou remover uma licença de nuvem PBX para um usuário](https://support.office.com/article/Assign-or-unassign-a-Cloud-PBX-license-for-a-user-36c6d5a6-5ea8-4c44-9f18-fea33d5a847e).</span><span class="sxs-lookup"><span data-stu-id="d9ec7-116">To assign the license in Office 365, see [Assign or unassign a Cloud PBX license for a user](https://support.office.com/article/Assign-or-unassign-a-Cloud-PBX-license-for-a-user-36c6d5a6-5ea8-4c44-9f18-fea33d5a847e).</span></span>
   
 

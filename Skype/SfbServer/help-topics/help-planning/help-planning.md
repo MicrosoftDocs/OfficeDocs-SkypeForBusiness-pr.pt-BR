@@ -8,23 +8,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
-description: Inserir a introdução aqui.
-ms.openlocfilehash: 5ac5f1dd0d2542002b117bd795418af0e5b121ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Tópicos de ferramenta de planejamento
+ms.openlocfilehash: a2045d0a68618f22e40aa0903b6c3aa6002fa2d9
+ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/03/2018
 ---
-# <a name="help-planning"></a><span data-ttu-id="48163-103">Planejamento de ajuda</span><span class="sxs-lookup"><span data-stu-id="48163-103">Help-Planning</span></span>
+# <a name="help-planning"></a><span data-ttu-id="5725f-103">Planejamento de ajuda</span><span class="sxs-lookup"><span data-stu-id="5725f-103">Help-Planning</span></span>
  
-<span data-ttu-id="48163-104">Inserir a introdução aqui.</span><span class="sxs-lookup"><span data-stu-id="48163-104">Insert introduction here.</span></span>
+<span data-ttu-id="5725f-104">Os tópicos neste nó fornecem ajuda para o Skype para ferramenta de planejamento do Business Server.</span><span class="sxs-lookup"><span data-stu-id="5725f-104">The topics in this node provide help for the Skype for Business Server planning tool.</span></span>
   
-## <a name="section-heading"></a><span data-ttu-id="48163-105">Cabeçalho da seção</span><span class="sxs-lookup"><span data-stu-id="48163-105">Section Heading</span></span>
 
-<span data-ttu-id="48163-106">Inserir o corpo da seção aqui.</span><span class="sxs-lookup"><span data-stu-id="48163-106">Insert section body here.</span></span>
-  
-### <a name="subsection-heading"></a><span data-ttu-id="48163-107">Cabeçalho da subseção</span><span class="sxs-lookup"><span data-stu-id="48163-107">Subsection Heading</span></span>
-
-<span data-ttu-id="48163-108">Inserir o corpo da subseção aqui.</span><span class="sxs-lookup"><span data-stu-id="48163-108">Insert subsection body here.</span></span>
   
 
