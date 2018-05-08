@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os Estados Unidos.
-ms.openlocfilehash: 34ef8a3ead8dfc37690f3588b8b61c8f1b467f95
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidade nos Estados Unidos (EUA)
 
@@ -55,7 +55,16 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |3000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o limite que for atingido primeiro). As chamadas nacionais nos EUA incluem chamadas para todos os 50 estados norte-americanos e Porto Rico. Os usuários atribuídos com a localização de uso de licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.  <br/> |
+|Minutos disponíveis para chamar planos. |Existem três opções de planejamento disponível por mês do calendário:
+- 120 minuto domésticas chamada Plan (disponibilidade é limitada)
+- 240 minuto domésticas chamada Plan (disponibilidade é limitada)
+- Plano de chamada de 1200 minuto domésticas
+- Plano de chamada de 1200 minuto domésticas
+- Minutos 600 para chamadas internacionais (se você comprou um doméstico & internacional chamar planejar)
+
+As chamadas nacionais nos EUA incluem chamadas para todos os 50 estados norte-americanos e Porto Rico. Os usuários atribuídos com a localização de uso de licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.
+|||
+|:-----|:-----|
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

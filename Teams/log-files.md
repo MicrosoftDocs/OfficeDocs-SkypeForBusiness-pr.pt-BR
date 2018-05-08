@@ -6,14 +6,14 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas."
+description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51cac5707b6465b2de4c1c69fdd430914769bb91
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 4fb5cdb663a2769e4362461c69d8313fa24ade88
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 05/08/2018
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -87,7 +87,7 @@ Os registros de mídia contêm dados de diagnóstico de áudio, vídeo e compart
 
 |Cliente |Localização |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\media-stack\*.etl         |
+|Windows     |%AppData%\Microsoft\Teams\media-Stack\*. etl         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
 
 
@@ -98,5 +98,5 @@ Os registros de desktop, também conhecidos como registros de bootstrapper, cont
 
 |Cliente |Localização |
 |---------|---------|
-|Windows     |%appdata%\Roaming\Microsoft\Teams\logs.txt         |
+|Windows     |%AppData%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

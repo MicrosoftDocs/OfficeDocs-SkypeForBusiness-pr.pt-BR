@@ -7,15 +7,17 @@ ms.date: 11/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
-ms.custom: Strat_SB_Hybrid
+localization_priority: Priority
+ms.collection:
+- Strat_SB_Hybrid
+ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: a9f03d1d83d398a6aa78f90a4741d0010ea50392
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 61beeec57bf245b899a898beb7bca8b14e462dca
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  

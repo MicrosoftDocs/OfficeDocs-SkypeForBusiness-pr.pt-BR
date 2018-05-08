@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 303e2d14e009d2a0f6493646f3f2466b94920fa4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -30,6 +30,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Opções de conector está ausente para algumas equipes  <br/> |Quando você clica com o botão direito em um canal, a opção Conectores não é exibida para nenhum membro da equipe.  <br/> |O criador da equipe precisa ter uma caixa de correio online; caso contrário, nenhuma opção do conector estará disponível. É esse o comportamento esperado.  <br/> |26/06/2017  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|"Atribuições" app permanece visble quando desabilitada  <br/> |Quando o aplicativo "Atribuições" está desabilitado no Centro de administração, permanece visível no cliente equipes para usuários licenciados EDU. Selecionando-o quando desabilitada retornará um erro indicando, "Doh! Algo deu errado..."  <br/> |Não há solução alternativa.  <br/> |12/29/17  <br/> |
 
 ## <a name="authentication"></a>Autenticação
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -73,6 +77,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Os usuários não conseguem criar novamente o nome de um canal preexistente  <br/> |Depois que o nome de um canal é criado, mesmo que seja excluído, não pode ser criado novamente. Nosso sistema mantém esses dados para cenários de proteção de informações.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Renomear um canal em Microsoft Teams não renomeia a pasta correspondente no SharePoint Online  <br/> |Se um canal é renomeado no Teams da Microsoft, a pasta na biblioteca de documentos do SharePoint Online correspondente para a equipe não altera para corresponder. Em vez disso, uma nova pasta é criada para coincidir com o novo nome de canal. Os arquivos na pasta da biblioteca de documentos originais não são migrados.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 
 ## <a name="chat"></a>Chat
 

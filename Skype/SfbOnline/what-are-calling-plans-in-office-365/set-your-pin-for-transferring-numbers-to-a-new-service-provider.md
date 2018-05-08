@@ -15,17 +15,16 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-- Strat_SB_PSTN
 description: Para transferir ou porta check-out de números de telefone do Skype para Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN. Depois de definir o PIN, você precisará incluí-lo quando você solicitar o check-out de um número de telefone da porta.
-ms.openlocfilehash: 80b782880f8acc2767ed6743ddf2e89f24299308
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 30eaed1f5ec139f82dce75cfec77c873b8f491de
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Definir seu PIN para transferência de números para um novo provedor de serviço
 

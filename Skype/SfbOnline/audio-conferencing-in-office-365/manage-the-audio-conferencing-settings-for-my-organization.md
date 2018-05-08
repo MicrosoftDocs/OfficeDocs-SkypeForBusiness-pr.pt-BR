@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: db355e71ff90a43c46900ad2b95b9e8593a9094d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
+ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gerenciar as configurações de áudio da conferência para minha organização
 
@@ -72,29 +72,7 @@ Consulte [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?L
 >  [!IMPORTANTE]  Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar o Skype para ferramenta de migração de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte: [Ferramenta de atualização de reunião para Skype para negócios e Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para negócios Online, a ferramenta de migração de reunião (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047)e [Skype para Business Online Meeting Ferramenta de migração (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
   
 Veja [Consulte, alterar e redefina um ID de conferência atribuído a um usuário](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
-  
-## <a name="change-the-audio-conferencing-provider-from-microsoft-to-a-third-party-provider"></a>Alterar o provedor de serviços de audioconferência da Microsoft a um provedor de terceiros
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
-
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
-    
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e então e selecione o usuário que você deseja alterar o provedor de serviços de audioconferência para.
-    
-4. No Painel de Ações, clique em **Editar**. 
-    
-5. Na página **Propriedades** , em **nome do provedor**, escolha o provedor de serviços de audioconferência para o usuário.
-    
-    > [!NOTE]
-    > Você só pode selecionar Microsoft como o provedor de serviços de audioconferência ou **Nenhum** se você tiver selecionado vários usuários.
-  
-6. Clique em **Salvar**. 
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar os e-mails enviados para usuários de serviços de audioconferência
 
 ![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
