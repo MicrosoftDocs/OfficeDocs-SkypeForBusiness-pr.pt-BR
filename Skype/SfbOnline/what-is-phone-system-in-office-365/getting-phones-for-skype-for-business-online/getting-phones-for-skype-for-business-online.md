@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 7efddd118ca80f0610f287746e0f14ee0146d3c3
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cba66559fada6edb0965fb5bf7095bccdedaa307
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
@@ -68,8 +68,7 @@ Esta é a versão de software mínimos necessária para telefones com suporte tr
 |Yealink  <br/> |X.8.1.52  <br/> |Fevereiro de 2017  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezembro de 2016  <br/> |
    
-> [!NOTE]
-> [!OBSERVAçãO] Os telefones Lync Phone Edition (LPE) configurados para sua implantação local devem ser atualizados para o firmware mínimo ou superior necessário antes de você mover esses usuários para o Skype for Business Online. Se você mover os usuários locais para o Skype for Business Online antes de atualizar o firmware nos telefones, esses telefones não poderão conectar-se ao Skype for Business Online. 
+> [NOTA] Telefones de edição de telefone do Lync (LPE) que você definiu para a sua implantação local devem ser atualizados para o firmware mínimo ou posterior necessário antes de mover os usuários para Skype para negócios Online. Se você mover os usuários locais para o Skype for Business Online antes de atualizar o firmware nos telefones, esses telefones não poderão conectar-se ao Skype for Business Online. 
   
 ## <a name="required-licenses"></a>Licenças necessárias
 

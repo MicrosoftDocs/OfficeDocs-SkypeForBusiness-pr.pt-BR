@@ -20,11 +20,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: ad2e9745d68a3c47e60aa03f957054a1eeef1deb
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="peer-to-peer-activity-report"></a>Relatório de atividades ponto a ponto
 
@@ -55,7 +55,7 @@ Você pode obter uma visão de sua atividade ponto a ponto do Skype for Business
 ![Relatório de ponto a ponto do Skype com textos explicativos.](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade ponto a ponto do Skype for Business**, é possível ver as tendências dos últimos sete dias, 30 dias, 90 dias ou 180 dias.
+![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade ponto a ponto do Skype for Business**, é possível ver as tendências dos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (consulte número 7) mostrará dados por 30 dias, até a data (consulte número 2) para quando o relatório foi gerado.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

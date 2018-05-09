@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: e9cec9045d297bb1b627338824baa1d5ac2a1dcf
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 36aef8125e27d4d327b5d6f279a9cd711af3e490
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="conference-participant-activity-report"></a>Relatório de atividade dos participantes da conferência
 
@@ -51,7 +51,7 @@ Nesse relatório, juntamente com o outro Skype para relatórios de negócios, of
 ![Relatório de atividade de participante de conferência do Skype](../images/a5fb6a3f-d8bc-402e-850e-87a75fbc2546.PNG)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade de participantes de conferências do Skype for Business**, é possível ver as tendências dos últimos sete dias, 30 dias, 90 dias ou 180 dias.
+![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade de participantes de conferências do Skype for Business**, é possível ver as tendências dos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (consulte número 7) mostrará dados por 30 dias, até a data (consulte número 2) para quando o relatório foi gerado.
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

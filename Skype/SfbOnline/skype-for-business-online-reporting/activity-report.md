@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: fd167f9effb06bca43362fa4e9db3652ae8d15a4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 0b376ddecf13a1346e17f23bbc1780e2780255dc
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
@@ -54,7 +54,7 @@ Para visualizar a atividade de seus usuários no Skype for Business, examine os 
   
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>
-No relatório **Atividade do Skype for Business**, é possível ver as tendências dos últimos sete, 30, 90 ou 180 dias.
+O relatório de atividade de email do **Skype para atividade de negócios** pode ser exibido para tendências nos últimos 7 dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (consulte número 7) mostrará dados por até 28 dias a partir da data atual (não a data que o relatório foi gerado).
 
     > [!Note]
     > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.

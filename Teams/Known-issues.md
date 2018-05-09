@@ -3,18 +3,18 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/8/2018
+ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
-ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
+ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
+ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -76,7 +76,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 ## <a name="channels"></a>Canais
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Quando um usuário deixa a empresa, ela será exibida na Microsoft Teams como "Usuário desconhecido"<br/> |Quando um usuário deixa a empresa, ela será exibida na Microsoft Teams como "Usuário desconhecido". Além disso, a guia de conversa exibe: "usuário desconhecido foi adicionado para a equipe." Problema arquivado como:https://domoreexp.visualstudio.com/MSTeams/_workitems/edit/168830  <br/> |Não há solução alternativa.  <br/> |9/12/17  <br/> |
+|Quando um usuário deixa a empresa, ela será exibida na Microsoft Teams como "Usuário desconhecido"<br/> |Quando um usuário deixa a empresa, ela será exibida na Microsoft Teams como "Usuário desconhecido". Além disso, a guia de conversa exibe: "usuário desconhecido foi adicionado para a equipe." <br/> |Não há solução alternativa.  <br/> |9/12/17  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
