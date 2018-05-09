@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envie um email com suas informações de conferência de áudio para seus usuários.
-ms.openlocfilehash: da006b1e63dd36234acf20bb02fdffba2dc70fa2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Enviar um email para um usuário com suas informações de conferência de áudio
 
@@ -39,7 +39,25 @@ Aqui está um exemplo do email que será enviado:
   
 ![Email para conferência discada](../images/audio-conferencing-info.png)
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-send-an-email-with-audio-conferencing-information-to-a-user"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Enviar um email com informações de conferência de áudio a um usuário
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com informações de conferência de áudio a um usuário
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Em **Conferência de áudio**, clique em **Enviar informações de conferência no email**.
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -51,9 +69,6 @@ Aqui está um exemplo do email que será enviado:
     
 > [!TIP]
 > Você também pode enviar email para o usuário com as configurações de serviços de audioconferência editando as propriedades do usuário e, em seguida, clicando em **audioconferências** > **Enviar informações de conferência via email**. 
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="what-else-should-you-know-about-this-email"></a>O que mais devo saber sobre esse email?
 

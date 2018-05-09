@@ -3,15 +3,15 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 4/30/2018
+ms.date: 5/8/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl, ninadara, v-leslc
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 087273d7d5d4d1eb20b83925087479ac702e72a3
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 5aaa22ee981fc3369d82aa118fafe017cc6dda01
+ms.sourcegitcommit: 0d649ac15d8b50e497b05531b724bc9a171a2953
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/08/2018
@@ -22,6 +22,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 ## 
 
 ## <a name="administration"></a>Administração
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled estiver definido como false  <br/> |Quando este valor é definido como false no AAD, cliente não é capaz de adicionar membros interno/externo em Teams da Microsoft e a seguinte mensagem de erro é exibida: "não podemos não pôde adicionar membro. Executamos em um problema. Tente novamente mais tarde." No entanto, os membros podem ser adicionados diretamente para grupos do Office 365.    <br/> |Altere essa configuração como true no AAD.  <br/> |4/10/18  <br/> |
+
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Gerenciamento de administração dos conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector no cliente e versão online recebemos o erro: Ocorreu um erro inesperado. Tente novamente. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Desabilite com configurações de equipes. Consulte o artigo de suportehttps://msdn.microsoft.com/en-us/microsoft-teams/connectors  <br/> |21/06/2017  <br/> |
@@ -179,6 +183,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |Os usuários não conseguem criar uma equipe  <br/> |A sua empresa pode ter definido uma política que restringe quem pode criar grupos ou equipes no Office 365.  <br/> |Verifique com o seu administrador de TI para entender a política da sua empresa para a criação de grupos e equipes.  <br/> |13/03/2017  <br/> |
 
 ## <a name="tabs"></a>Guias
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Guia de site, levando a confusão do cliente  <br/> |Guias de site não são equivalentes ao seu navegador. Um número de sites, especialmente aquelas que exija autenticação ou usar pop-ups, não funcionará quando fixados como uma guia de site.  <br/> |Estamos trabalhando em melhorando a interface do usuário para tornar mais nítido para clientes.  <br/> |5/2/18  <br/> |
+
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Guias não funcionam desde a habilitação do acesso condicional <br/> |Algumas guias não podem carregar mais no cliente Desktop desde a habilitação do acesso condicional no locatário do. As guias de carga ao usar o cliente Web. Algumas guias que podem ser afetados são: PowerBI, formulários, VSTS, PowerApps e lista do SharePoint.  <br/> |Para ver as guias afetadas, você deve usar equipes em borda, IE ou Chrome com a extensão de contas do Windows 10 instalada. Algumas guias ainda dependem da autenticação de web, que não está funcionando no cliente da área de trabalho quando a autoridade de certificação está habilitada. Estamos trabalhando com parceiros para habilitar esses cenários; até agora, podemos habilitou planejador, OneNote e Stream. <br/> |4/5/18  <br/>|

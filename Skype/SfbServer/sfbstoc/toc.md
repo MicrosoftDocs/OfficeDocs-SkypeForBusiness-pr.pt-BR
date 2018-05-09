@@ -768,8 +768,8 @@
 #### [Alterações feitas pela preparação do domínio](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md)
 #### [Alterações feitas por Grant-CsSetupPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-cssetuppermission.md)
 #### [Alterações feitas por Grant-CsOUPermission](../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-grant-csoupermission.md)
-## [Tópicos de ajuda](../help-topics/help-topics.md)
-### [Ajuda-DepWiz](../help-topics/help-depwiz/help-depwiz.md)
+## Tópicos de ajuda
+### Ajuda-DepWiz
 #### [Preparar servidor Standard Edition único (Introdução)](../help-topics/help-depwiz/prepare-single-standard-edition-server-intro.md)
 #### [Preparar servidor Standard Edition único (invocar)](../help-topics/help-depwiz/prepare-single-standard-edition-server-invoke.md)
 #### [Exibir certificado](../help-topics/help-depwiz/view-certificate.md)
@@ -840,7 +840,7 @@
 #### [Assistente de implantação: Caminho instalador MSI](../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md)
 #### [Assistente de implantação: Windows Update](../help-topics/help-depwiz/deployment-wizard-windows-update.md)
 #### [Assistente de implantação: Unified Communications API](../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md)
-### [Ajuda-LSCP](../help-topics/help-lscp/help-lscp.md)
+### Ajuda-LSCP
 #### [Use o painel de controle](../help-topics/help-lscp/use-the-control-panel.md)
 #### [Política de versão de cliente: Criar nova ou editar existente](../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md)
 #### [Política de versão do cliente](../help-topics/help-lscp/client-version-policy.md)
@@ -1009,7 +1009,7 @@
 #### [Assistente híbrida: mover um usuário](../help-topics/help-lscp/hybrid-wizard-move-user.md)
 #### [Assistente de gerenciabilidade híbrida](../help-topics/help-lscp/hybrid-manageability-wizard.md)
 #### [Assistente híbrida: entrar no Office 365](../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md)
-### [Planejamento de ajuda](../help-topics/help-planning/help-planning.md)
+### Planejamento de ajuda
 #### [Archiving](../management-tools/planning-tool/archiving.md)
 #### [Videoconferência de áudio](../management-tools/planning-tool/audio-video-conferencing.md)
 #### [Sites de filiais](../management-tools/planning-tool/branch-sites.md)
@@ -1035,7 +1035,7 @@
 #### [Infraestrutura de voz](../management-tools/planning-tool/voice-infrastructure.md)
 #### [Tráfego de voz](../management-tools/planning-tool/voice-traffic.md)
 #### [Webconferência](../management-tools/planning-tool/web-conferencing.md)
-### [Ajuda-TopoBld](../help-topics/help-topobld/help-topobld.md)
+### Ajuda-TopoBld
 #### [Adicionar domínios SIP adicionais](../help-topics/help-topobld/add-additional-sip-domains.md)
 #### [Adicionar repositório de arquivos do servidor de arquivamento](../help-topics/help-topobld/add-archiving-server-file-store.md)
 #### [Adicionar servidor de arquivamento](../help-topics/help-topobld/add-archiving-server.md)

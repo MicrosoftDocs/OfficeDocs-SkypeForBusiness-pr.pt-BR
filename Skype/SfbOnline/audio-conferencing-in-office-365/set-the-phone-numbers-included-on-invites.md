@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 03b6f3b2ce270d1dd6e2855dec4ee2af9a2447c8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ade5a68483319fe437d83c51dbe40ddb4f0fbc0
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Defina o telefone convidam números incluídos no
 
@@ -38,7 +38,28 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
 > [!NOTE]
 > Pode haver um máximo de chamada um Tarifada e um número de telefone gratuitos no convite da reunião para um organizador de reunião, mas também existe um link localizado na parte inferior de cada convite de reunião que abre a lista completa de todos os números de telefone de discagem que podem ser usados para ingressar em uma reunião. 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Definir o número de telefone de discagem padrão para o organizador da reunião
+## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Definir o número de telefone de discagem padrão para o organizador da reunião
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+    ![Mostra a seleção de usuários no Microsoft Teams e Skype para centro de administração do Business](../images/teamsselectusers.png)
+
+2. Na parte superior da página, clique em **Editar**.
+
+    ![Clique em Editar no Microsoft equipes e Skype para Business Admin Center](../images/teamsedituser.png)
+
+3. Ao lado de **Conferência de áudio**, clique em **Editar**. 
+    
+    ![Clique em Editar ao lado de conferência de áudio](../images/teamseditaudioconf.png)
+
+4. Use os campos de **número de Chamada Tarifada** ou **número de chamada gratuito** para inserir os números para o usuário.
+
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -70,11 +91,23 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
     > Pelo menos um número de chamada gratuito deve ser atribuído à sua ponte de conferência antes que ela pode ser definida como o número de chamada gratuita do padrão de um usuário. Para obter um número de discagem gratuito, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **Um terceiro é o provedor**: Use os campos de **número de Chamada Tarifada** e **número de chamada gratuito** para inserir os números para o usuário.
-    
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-audio-conferencing-phone-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Redefinir os números de telefone de conferência de áudio
+
+## <a name="change-the-audio-conferencing-phone-number-for-users"></a>Alterar o número de telefone de conferência de áudio para usuários
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Ao lado de **Conferência de áudio**, clique em **Editar**. 
+    
+4. Use os campos de **número de Chamada Tarifada** ou **número de chamada gratuito** para inserir os números para o usuário.
+
+## <a name="reset-audio-conferencing-phone-numbers"></a>Redefinir os números de telefone de conferência de áudio
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. No **Skype para centro de administração de negócios**, escolha a **conferência de áudio**.
     

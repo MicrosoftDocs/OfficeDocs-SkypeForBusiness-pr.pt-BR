@@ -21,8 +21,8 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os Estados Unidos.
-ms.openlocfilehash: db1d6c2473e45479cc9eca16951946a8c2ead9b5
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/08/2018
@@ -55,17 +55,10 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para chamar planos. |Existem três opções de planejamento disponível por mês do calendário:
-- 120 minuto domésticas chamada Plan (disponibilidade é limitada)
-- 240 minuto domésticas chamada Plan (disponibilidade é limitada)
-- Plano de chamada de 1200 minuto domésticas
-- Plano de chamada de 1200 minuto domésticas
-- Minutos 600 para chamadas internacionais (se você comprou um doméstico & internacional chamar planejar)
-
-As chamadas nacionais nos EUA incluem chamadas para todos os 50 estados norte-americanos e Porto Rico. Os usuários atribuídos com a localização de uso de licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.
-|||
-|:-----|:-----|
-|É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
+|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar (disponibilidade é limitada)</li><li>240 minuto domésticas chamar planejar (disponibilidade é limitada)</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>600 minutos para nacionais e internacionais chamar planos</li></li> 
+|É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
+>[!Note] 
+> As chamadas nacionais nos EUA incluem chamadas para todos os 50 estados norte-americanos e Porto Rico. Os usuários atribuídos com a localização de uso de licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

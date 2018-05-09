@@ -20,13 +20,13 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
-ms.openlocfilehash: 4922f896daa2bec976d7fb72dd519e9dd91d74f4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 73c5d3cc95b7967cd9d6eaae83a14e19143e431b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 ---
-# <a name="see-change-and-reset-a-conference-id-assigned-to-a-user"></a>Consulte, alterar e redefina um ID de conferência atribuído a um usuário
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário
 
 Uma ID de conferência é atribuída automaticamente a um Skype para usuário de negócios ou Microsoft Teams quando eles estiverem configurados para conferência de áudio no Office 365 e usarem o Microsoft como um provedor de serviços de audioconferência. A ID de conferência atribuída é enviada no convite da reunião, quando a reunião foi agendada. Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas. 
   
@@ -34,9 +34,35 @@ Embora uma ID de conferência será criada automaticamente e atribuída a um usu
   
 Um email será enviado ao usuário com a ID de conferência e os números de telefone de conferência de áudio padrão, ou se você redefinir o ID de conferência um email diferente será enviado que incluírem o ID de conferência, mas não um PIN. Para obter mais informações sobre como redefinir o PIN do organizador da conferência, [acesse aqui](reset-a-conference-id-for-a-user.md). 
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-view-and-change-conference-ids"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Exibir e alterar as IDs de conferência
+## <a name="view-and-reset-conference-ids"></a>Visualizar e redefinir as IDs de conferência
 
 ### <a name="to-view-the-conference-id"></a>Para exibir a ID de conferência
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Em **Conferência de áudio**, procure em **ID da conferência**.
+
+    > [!TIP]
+    > Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de áudio clicando no link **Enviar informações de conferência no email** .
+
+  
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
+Você pode usar o Windows PowerShell para exibir a ID de conferência para um usuário. Para fazer isso, execute:
+    
+  ```
+  Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"  
+  ```
+
+    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 Você pode exibir sua ID de conferência e enviá-la aos usuários.
   
@@ -50,9 +76,6 @@ Você pode exibir sua ID de conferência e enviá-la aos usuários.
     
     > [!TIP]
     > Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de áudio clicando no link **Enviar informações de conferência via email** depois de selecionar o usuário na página **usuários** .
-  
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 Você pode usar o Windows PowerShell para exibir a ID de conferência para um usuário. Para fazer isso, execute:
     
@@ -62,26 +85,29 @@ Você pode usar o Windows PowerShell para exibir a ID de conferência para um us
 
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
     
-### <a name="to-assign-or-change-the-conference-id"></a>Para atribuir ou alterar a ID de conferência
-
-Você pode atribuir ou alterar um ID de conferência para um usuário se, por exemplo, alguém uma ID de conferência que é fácil de lembrar.
-
-  > [!NOTE]
-  > O Skype para centro de administração de negócios não pode ser usado para editar uma ID de conferência que foi criada automaticamente, mas você pode usar o Windows PowerShell para editar ou alterar uma ID de conferência que você definiu. 
-     
-Para editar ou alterar a ID de conferência para um usuário, execute:
-    
-  ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964
-  ```
-
-  > [!TIP]
-  > Uma ID de conferência deve conter 7 dígitos, e você não pode alterá-lo no Skype para centro de administração de negócios ou usando o Windows PowerShell. 
   
-### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-to-reset-the-conference-id"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Para redefinir o ID de conferência
+### <a name="to-reset-the-conference-id"></a>Para redefinir o ID de conferência
 
 Você pode redefinir uma ID de conferência para um usuário se, por exemplo, caso eles tenha esquecido.
   
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Em **Conferência de áudio**, clique em **Redefinir ID de conferência**.
+
+4. Na janela **Redefinir ID de conferência** , clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+    
+    Você pode redefinir a ID de conferência para um usuário usando o Windows PowerShell. Para fazer isso, execute:
+    
+  ```
+  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
+  ```
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.

@@ -19,9 +19,9 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'See steps to assign a dial-in conferencing license and conference ID to a user, set up a third party conferencing provider, and many other dial-in conferencing settings. '
-ms.openlocfilehash: b2759e4ee1f8e8cac2f753eb5afecbf13642abb0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: 'Consulte as etapas para atribuir uma ID de conferência e a licença de conferência discada a um usuário e outras configurações de conferência discada. '
+ms.openlocfilehash: 7a5f82a827049f591d012af7f752e26ac4f9d87b
+ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/08/2018
@@ -51,28 +51,6 @@ Talvez seja mais fácil para ver todas as configurações de serviços de audioc
 > [!NOTE]
 > Após atribuir a licença, Microsoft talvez não sejam exibidos inicialmente na lista como um provedor de serviços de audioconferência. Caso isso aconteça, saia do Centro de administração do Office 365 ou pressione CTRL+F5 para atualizar a janela do navegador. 
   
-## <a name="assign-a-conference-id-for-a-user"></a>Atribuir uma ID de conferência a um usuário
-
-Uma ID de conferência é atribuída automaticamente a um usuário quando eles estiverem configurados para conferência de áudio usando o Microsoft como um provedor de serviços de audioconferência. A ID de conferência é enviada no convite da reunião, quando a reunião foi agendada. Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas.
-  
-O Centro de administração do Skype for Business não pode ser usado para atribuir uma ID de conferência a um usuário, mas você pode usar o Windows PowerShell para fazer isso.
-  
-Para definir a ID de conferência para um usuário, execute:
-  
-```
-Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ConferenceId 8271964 
-```
-
-> [!IMPORTANT]
-> Uma ID de conferência deve conter 7 dígitos, e você não pode alterá-lo no Skype para centro de administração de negócios ou usando o Windows PowerShell. 
-  
-Consulte [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) para saber mais sobre o cmdlet.
-  
-> [!IMPORTANT]
->  [!IMPORTANTE]  Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar o Skype para ferramenta de migração de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte: [Ferramenta de atualização de reunião para Skype para negócios e Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para negócios Online, a ferramenta de migração de reunião (64-bit)](http://go.microsoft.com/fwlink/?LinkID=626047)e [Skype para Business Online Meeting Ferramenta de migração (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
-  
-Veja [Consulte, alterar e redefina um ID de conferência atribuído a um usuário](see-change-and-reset-a-conference-id-assigned-to-a-user.md).
-    
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar os e-mails enviados para usuários de serviços de audioconferência
 
 ![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
@@ -212,9 +190,19 @@ Consulte [Redefinir o PIN de conferência de áudio](reset-the-audio-conferencin
   
 Veja [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md).
   
-## <a name="setting-the-default-audio-conferencing-phone-number-for-meeting-organizers"></a>Definindo o número de telefone de conferência de áudio padrão para organizadores de reunião
+## <a name="setting-the-phone-numbers-included-on-invites"></a>Configuração do telefone convidam números incluídos no
 
- **Para definir o número de telefone de conferência de áudio padrão para organizadores de reunião, quando você estiver habilitando um usuário para conferência de áudio**
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Ao lado de **Conferência de áudio**, clique em **Editar**.
+ 
+3. No painel de **Conferência de áudio** , você pode definir o **número de Chamada Tarifada** e, se permitido, o **número de chamada gratuito**.
+
+4. Clique em **Salvar**.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**  
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -222,39 +210,12 @@ Veja [Enviar um email para um usuário com suas informações de conferência de
     
 3. No painel de navegação esquerdo, vá para **conferência de áudio** > **usuários**. Selecione o usuário que você deseja habilitar para conferência de áudio.
     
-4. No painel de ações, nas propriedades do usuário, clique em **Editar**.
-    
-5. Na página **Propriedades** , em **nome do provedor**, use a lista suspensa para selecionar o provedor de serviços de audioconferência.
-    
-  - Se você selecionar Microsoft como um provedor de serviços de audioconferência, você pode escolher o número de telefone de conferência de áudio padrão da lista.  
-    
-  - Se você selecionar um ACP de terceiros como o provedor de serviços de audioconferência, você precisará digitar manualmente as tarifas e, se necessário, o número de telefone gratuitos. Esses números de telefone serão o número de telefone padrão.
-    
-    O número de telefone de conferência de áudio padrão de um usuário é o número que é exibido no convite da reunião, quando eles agendam uma reunião.
-    
-6. Clique em **Salvar**. 
+4. No painel de ações, você pode definir o **número de Chamada Tarifada** e, se permitido, o **número de chamada gratuito**.
+
+5. Clique em **Salvar**.
     
 Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md).
   
- **Para definir o número de telefone de conferência de áudio padrão para organizadores de reunião depois de habilitar um usuário para conferência de áudio**
-  
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
-    
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
-    
-3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**, selecione o usuário desejado e na página ação, clique em **Editar**.
-    
-4. Na página **Propriedades** , em **nome do provedor**, use a lista suspensa para selecionar o provedor de serviços de audioconferência.
-    
-  - Se o usuário usa o Microsoft como um provedor de serviços de audioconferência, você pode escolher o número de telefone de conferência de áudio padrão da lista.  
-    
-  - Se o usuário utilizar um ACP de terceiros como o provedor de serviços de audioconferência, você precisará digitar manualmente as tarifas e, se necessário, o número de telefone gratuitos.
-    
-    O número de telefone de conferência de áudio padrão de um usuário é o número que é exibido no convite da reunião, quando eles agendam uma reunião.
-    
-5. Clique em **Salvar**. 
-    
-Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md).
   
 ## <a name="choosing-audio-conferencing-bridge-settings"></a>Escolher configurações de ponte de conferência de áudio
 
@@ -378,7 +339,20 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](cha
     
 Veja [Definir idiomas do atendedor automático para conferência de áudio](set-auto-attendant-languages-for-audio-conferencing.md).
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png--see-audio-conferencing-dial-in-numbers"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  Consulte serviços de audioconferência discada números
+## <a name="see-audio-conferencing-dial-in-numbers"></a>Consulte serviços de audioconferência discada números
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+
+2. Selecione um número de telefone na lista e clique em **Editar**. Aqui, você pode:
+    
+  - Exiba os números de telefone definidos pelo Office 365 a serem usados para conferência de áudio. 
+    
+  - Exiba o local e o idioma principal, que será usado pelo atendedor automático conferência de áudio.
+
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**  
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -413,7 +387,7 @@ Existem diversas configurações que podem ser gerenciadas no nível da organiza
 Para obter mais ajuda sobre cada cmdlet, consulte [Cmdlets do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=627324).
 
 Aqui estão as configurações de nível de organização: 
-> 
+ 
 - **Definir notificações de entrada/saída** O padrão é _$true_.
   ```
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false 
