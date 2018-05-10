@@ -16,15 +16,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumo: Leia este tópico para saber como atribuir uma política de voz para os usuários que usam o sistema telefônico no Office 365 com uma conectividade PSTN local.'
-ms.openlocfilehash: fc11fabeb7f6a8bacc0f3a6dd48d6ed24edd3403
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0699e4c4da94c680f86ec607950a1c3b42b5690a
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/10/2018
 ---
 # <a name="assign-a-voice-routing-policy"></a>Atribuir uma Política de Roteamento de Voz
  
-**Resumo:** Leia este tópico para saber como atribuir uma política de voz para os usuários que usam o sistema telefônico no Office 365 com uma conectividade PSTN local.
+**Resumo:** Leia este tópico para saber como atribuir uma política de voz para os usuários que usam o sistema telefônico no Office 365 com uma conectividade PSTN local. 
   
 Depois que um usuário estiver ligado Skype para Business Online e usando o sistema telefônico no Office 365 com conectividade PSTN de local, duas políticas de voz serão aplicadas a eles. Um é uma política de roteamento de voz de local que você irá atribuir no local. Essa diretiva pode ser global ou específico do usuário e define a quais registros de uso PSTN associados ao usuário. Este tópico explica como atribuir esta política.
   

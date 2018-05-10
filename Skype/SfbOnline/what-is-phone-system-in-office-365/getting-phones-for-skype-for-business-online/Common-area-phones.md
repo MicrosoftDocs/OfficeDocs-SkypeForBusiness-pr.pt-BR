@@ -1,11 +1,10 @@
 ---
-title: Implantar telefones para o Skype for Business Online
+title: Configurar telefones de área comum
 description: Conheça as etapas de implantação para obter o firmware correto, atualizá-la, se necessário, atribuir licenças e definir configurações para telefones de área comum.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: wasseemh
-ms.date: 01/22/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -20,13 +19,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 - Strat_SB_PSTN
-ms.openlocfilehash: 453f9db6a022e924406594c567ea564b10f58694
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 12ed7d5c24649903f7cd3020d66ee4e9fcb77b6f
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/10/2018
 ---
-## <a name="common-area-phones"></a>Telefones de área comum
+# <a name="set-up-common-area-phones"></a>Configurar telefones de área comum
+
 Um telefone de área comum ou COBRIR, é geralmente colocada em uma área compartilhada e não associado a um usuário individual. Por exemplo, um telefone de área de recepção, porta telefone ou sala de reunião telefone, maiusculas são configuradas como dispositivos em vez de usuários e entrar automaticamente à rede. Nas etapas abaixo, podemos ajudá-lo a configurar uma conta para o sistema de telefone da Microsoft com planos de chamada e, em seguida, implantar uma Capitular.
 
 ## <a name="prerequisites-for-common-area-phones"></a>Pré-requisitos para telefones de área comum
@@ -36,7 +36,6 @@ Confirme que você tenha o seguinte:
     - Adquirido SKU do telefone de área comum 
     - (Consulte suporte Firmware tópico do firmware atualizadohttps://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
     - Telefones aprovadas (exibir a lista nohttps://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones) 
-
 
 ## <a name="check-the-firmware-for-your-phone"></a>Verifique o firmware para o seu telefone
 - **Telefones Polycom VVX**, vá para **Configurações** > **Status** > **Plataforma** > **Aplicativo** > **Principal**.
@@ -84,37 +83,38 @@ Você pode criar o COBRIR definindo as configurações antes de configurar o tel
     
 ## <a name="configure-phone"></a>Configurar o telefone
 
-**Preparar os telefones físicos** 
+**Preparar os telefones físicos**
 
-Seu telefone selecionado precisa ter o modo de telefone de área comum. 
+Seu telefone escolhido precisa ter o modo de telefone de área comum. 
 
 ***Telefone de Polycom VVX de exemplo***
 
-Habilite o modo do telefone de área comum em Polycom VVX seguindo estas etapas:
+Habilite o modo de telefone de área comum para o VVX Polycom seguindo estas etapas:
 1. No seu navegador, use a interface da web para habilitar o modo de COBRIR o VVX
 2. Vá para **configuração** e no Skype para a opção de configuração de negócios, selecione o **Telefone de área comum**.
-3. Clique em **Salvar** para salvar as suas definições de configuração.
+3. Clique em **Sim** para salvar as suas definições de configuração.
 
-Agora que o modo de telefone COBRIR estiver habilitado, configure o telefone usando a exibição do telefone.
+Agora que o modo de telefone COBRIR estiver habilitado, configure o telefone usando a exibição do telefone. A exibição deve mostrar "CaAP está habilitado".
 
-1. Nas configurações, selecione **Avançado**.
-2. Insira a senha.
-3. Nas configurações de administração, selecione **Configurações de telefone de área comum**.
-4. Habilitar o Common Area Phone and COBRIR Admin
-5. Selecione **Salvar o arquivo Config**.
+1. Clique em **configurações**.
+2. Selecione **Avançado**.
+3. Insira a senha.
+4. Nas configurações de administração, selecione **Configurações de telefone de área comum**.
+5. Habilite **COBRIR** e **modo COBRIR Admin**.
+6. Clique em **Salvar o arquivo Config**.
 
 Seu telefone está pronto para ser provisionados, o qual você vai fazer quando você entrar na tela inicial.
 
-1. Entrar selecionando **Configurações > recursos > Skype for Business.**
-2. Selecione as credenciais do usuário e, em seguida, selecione selecionar **entrar na web (COBRIR)** para gerar um código..
-3. Vá para o portal de provisionamento http://aka.ms/skypecape entrar como **admin**.
+1. Entrar, selecionando **configurações** > **recursos** > **Skype for Business.**
+2. Selecione **As credenciais do usuário**e, em seguida, selecione **entrar na web (COBRIR)** para gerar um código..
+3. Vá para o portal do provisionamento em http://aka.ms/skypecape entrar como **admin**.
 4. Insira o nome de exibição (por exemplo, Main recepção) para exibir seu limite.
 
 >[Nota] Se "Pesquisa para telefones de área comum apenas" estiver marcada, desmarque a caixa de seleção e pesquisar novamente.
 
 5. Na janela de código de emparelhamento, insira o código exibido no telefone e clique em **fornecimento**.
 
-WHT essa última etapa, o telefone deve entrar automaticamente.
+Após essa última etapa, o telefone deve entrar automaticamente.
 
 Saiba mais sobre os telefones disponíveis em [ ](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones).
 

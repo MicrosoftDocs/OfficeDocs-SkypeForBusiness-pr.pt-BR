@@ -1,7 +1,24 @@
 ---
-título: "Bloquear entrada chamadas no Skype para Business Online" ms.author: tonysmit autor: tonysmit manager: serdars ms.date: 05/07/2018 ms.topic: ms.assetid do artigo: ms.tgt.pltfrm: ms.service na nuvem: ms.collection Skype-para-business-online: Adm_Skype4B_ Ms.audience online: appliesto Admin: Skype para negócios localization_priority: f1keywords Normal: nenhum ms.custom: descrição do PowerShell: "Usar o PowerShell para gerenciar a entrada chamada bloqueio no Skype para negócios Online".
+title: Bloquear chamadas de entrada no Skype para negócios Online
+ms.author: tonysmit
+author: tonysmit
+manager: serdars
+ms.date: 05/07/2018
+ms.topic: article
+ms.assetid: ''
+ms.tgt.pltfrm: cloud
+ms.service: skype-for-business-online
+ms.collection: Adm_Skype4B_Online
+ms.audience: Admin
+appliesto: Skype for Business
+localization_priority: Normal
+ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
+ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
+ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/10/2018
 ---
-
  # <a name="block-inbound-calls"></a>Bloquear chamadas de entrada
 
 Skype para negócios Online chamar planos agora oferece suporte a bloqueio de chamadas de entrada da rede telefônica pública comutada (PSTN). Este recurso permite que uma lista global de locatário de padrões de número a ser definida para que a ID de chamadas da PSTN cada entrada chamada para o inquilino pode ser verificada em relação à lista uma correspondência. Se for feita uma correspondência, uma chamada de entrada é rejeitada. 
@@ -14,7 +31,6 @@ Esse recurso ainda não está disponível para roteamento direto.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Bloqueando informações e controles de Admin de chamada
 São fornecidos controles de administração para números de bloqueio usando apenas o PowerShell. Padrões de bloco de números são definidos como padrões de expressão regular. A ordem das expressões não é importante – o primeiro padrão correspondido na lista resultará na chamada estão sendo bloqueada. Um novo número ou padrão adicionados ou removidos de bloqueios lista de chamadores pode demorar até 24 horas para o padrão para se tornar ativo.
-
 ## <a name="call-blocking-powershell-commands"></a>Chamar o bloqueio de comandos do PowerShell
 
 *InboundBlockedNumberPattern* Padrões de número é gerenciado via os comandos *CsInboundBlockedNumberPattern* **New**, **obter**, **Definir**e **Remover**.  
@@ -57,4 +73,4 @@ Use o PowerShell interno capacidades de filtragem para analisar os valores retor
 Conforme mencionado anteriormente, o padrão de correspondência para bloquear os chamadores é feito usando expressões regulares (regex). Existem várias ferramentas disponíveis online para ajudar a validar uma correspondência de padrão regex. Se você não estiver familiarizado com os padrões de regex, recomendamos que você leve algum tempo para se familiarizar com os conceitos básicos e para certificar-se de que você obtém os resultados esperados, use uma ferramenta para a validação de padrões correspondentes antes de adicionar novo bloqueado número corresponder ao seu locatário. 
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar seu computador e Skype para gerenciamento online de negócios usando o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
+[Configure seu computador para Skype para gerenciamento de negócios Online usando o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell )
