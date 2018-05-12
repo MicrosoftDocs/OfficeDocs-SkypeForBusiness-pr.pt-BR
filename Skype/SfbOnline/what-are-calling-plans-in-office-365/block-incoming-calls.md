@@ -13,11 +13,11 @@ ms.audience: Admin
 appliesto: Skype for Business
 localization_priority: Normal
 ms.custom: Use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 9a9ff446d7b95588f1d9c2460db1284de717e557
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 7a9d9637973f18e5322e1c39d38627b0883f2c9f
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 05/11/2018
 ---
  # <a name="block-inbound-calls"></a>Bloquear chamadas de entrada
 
@@ -27,7 +27,8 @@ Esse recurso de bloqueio de chamada de entrada funciona somente em chamadas de e
 
 Esse recurso ainda não está disponível para roteamento direto.
 
->[Nota] Chamadores bloqueados perceba ligeiramente diferentes comportamentos quando foram bloqueados. O comportamento será baseado em como operadora do chamador bloqueados trata a notificação de que a chamada não é permitida para ser concluída com êxito. Os exemplos podem incluir uma mensagem de operadora informando que a chamada não pode ser concluída como discado, ou simplesmente ignorar a chamada.
+>[!NOTE]
+ Chamadores bloqueados perceba ligeiramente diferentes comportamentos quando foram bloqueados. O comportamento será baseado em como operadora do chamador bloqueados trata a notificação de que a chamada não é permitida para ser concluída com êxito. Os exemplos podem incluir uma mensagem de operadora informando que a chamada não pode ser concluída como discado, ou simplesmente ignorar a chamada.
 
 ## <a name="call-blocking-admin-controls-and-information"></a>Bloqueando informações e controles de Admin de chamada
 São fornecidos controles de administração para números de bloqueio usando apenas o PowerShell. Padrões de bloco de números são definidos como padrões de expressão regular. A ordem das expressões não é importante – o primeiro padrão correspondido na lista resultará na chamada estão sendo bloqueada. Um novo número ou padrão adicionados ou removidos de bloqueios lista de chamadores pode demorar até 24 horas para o padrão para se tornar ativo.

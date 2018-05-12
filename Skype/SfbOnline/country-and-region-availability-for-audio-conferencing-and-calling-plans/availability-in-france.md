@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da França.
-ms.openlocfilehash: 27b20b58acd55329be1fc748b980d19ff2d8ce28
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: d9149fdf8f2c220526164b2f3244359ab60dda8b
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-france"></a>Disponibilidade na França
 
@@ -38,7 +38,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para Paris. Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li> Paris</ul> Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -62,7 +62,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Angers <br/>  Bordeaux <br/>  Carcassonne <br/>  Dijon <br/>  Grenoble <br/>  Le Havre <br/>  Lille <br/>  Lyon <br/>  Marselha <br/>  Montpellier <br/>  Nantes <br/>  Nice <br/>  Paris <br/>  Reims <br/>  Rennes <br/>  Saint-Etienne <br/>  Estrasburgo <br/>  Toulon <br/>  Toulouse <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Angers <li>  Bordeaux <li>  Carcassonne <li>  Dijon <li>  Grenoble <li>  Le Havre <li>  Lille <li>  Lyon <li>  Marselha <li>  Montpellier <li>  Nantes <li>  Nice <li>  Paris <li>  Reims <li>  Rennes <li>  Saint-Etienne <li>  Estrasburgo <li>  Toulon <li>  Toulouse </ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

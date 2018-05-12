@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os Estados Unidos.
-ms.openlocfilehash: 36a33915108d11a65349e8c1fca73c57fe1feae7
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 5ecc646fc00725d05c2623d0097b236ee4ff1f80
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidade nos Estados Unidos (EUA)
 
@@ -38,7 +38,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para Chicago, Los Angeles, Dallas e Nova York. Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para: <br/><ul><li> Chicago<li>Dallas<li>Los Angeles<li>Nova York</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -64,7 +64,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Alabama, Birmingham <br/>  Arizona, Phoenix <br/>  Arkansas, Little Rock <br/>  Califórnia, Los Angeles <br/>  Califórnia, San Francisco <br/>  Colorado, Denver <br/>  Columbia, Washington DC <br/>  Connecticut, Hartford <br/>  Delaware, Wilmington <br/>  Flórida, Miami <br/>  Geórgia, Atlanta <br/>  Havaí, Honolulu <br/>  Idaho, Boise <br/>  Illinois, Aurora <br/>  Illinois, Chicago <br/>  Illinois, Cicero <br/>  Indiana, Indianápolis <br/>  Iowa, Iowa City <br/>  Kansas, Wichita <br/>  Kentucky, Louisville <br/>  Louisiana, New Orleans <br/>  Maine, Portland <br/>  Maryland, Baltimore <br/>  Massachusetts, Boston <br/>  Michigan, Pontiac <br/>  Minnesota, Minneapolis <br/>  Minnesota, St. Paul <br/>  Mississippi, Jackson <br/>  Missouri, Kansas City <br/>  Missouri, St. Louis <br/>  Montana, Billings <br/>  Carolina do Norte, Charlotte <br/>  Dakota do Norte, Fargo <br/>  Nebraska, Omaha <br/>  Nevada, Las Vegas <br/>  New Hampshire, Manchester <br/>  Nova Jersey, Newark <br/>  Novo México, Albuquerque <br/>  Nova York, Nova Iorque <br/>  Ohio, Columbus <br/>  Oklahoma, Oklahoma City <br/>  Oregon, Portland <br/>  Pensilvânia, Filadélfia <br/>  Rhode Island, Providence <br/>  Carolina do Sul, Charleston <br/>  Dakota do Sul, Sioux Falls <br/>  Tennessee, Memphis <br/>  Texas, Dallas <br/>  Texas, Houston <br/>  Utah, Salt Lake City <br/>  Vermont, Brattleboro <br/>  Virgínia, Richmond <br/>  Washington, Seattle <br/>  Virgínia Ocidental, Charleston <br/>  Wisconsin, Milwaukee <br/>  Wyoming, Laramie <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Alabama, Birmingham <li>  Arizona, Phoenix <li>  Arkansas, Little Rock <li> Califórnia, Los Angeles <li> Califórnia, San Francisco <li>  Colorado, Denver <li>  Columbia, Washington DC <li>  Connecticut, Hartford <li>  Delaware, Wilmington <li>Flórida, Miami <li>  Geórgia, Atlanta <li> Havaí, Honolulu <li> Idaho, Boise <li> Illinois, Aurora <li> Illinois, Chicago <li> Illinois, Cicero<li>  Indiana, Indianápolis <li>  Iowa, Iowa City <li>  Kansas, Wichita <li> Kentucky, Louisville <li>  Louisiana, New Orleans <li> Maine, Portland <li> Maryland, Baltimore <li>  Massachusetts, Boston <li> Michigan, Pontiac <li> Minnesota, Minneapolis <li> Minnesota, St. Paul <li> Mississippi, Jackson <li>  Missouri, Kansas City <li>Missouri, St. Louis <li>  Montana, Billings <li> Carolina do Norte, Charlotte<li>Dakota do Norte, Fargo <li> Nebraska, Omaha <li> Nevada, Las Vegas <li>  New Hampshire, Manchester <li> Nova Jersey, Newark <li> Novo México, Albuquerque <li>  Nova York, Nova Iorque <li>Ohio, Columbus <li>Oklahoma, Oklahoma City <li> Oregon, Portland <li> Pensilvânia, Filadélfia <li> Rhode Island, Providence <li>  Carolina do Sul, Charleston <li>Dakota do Sul, Sioux Falls <li>  Tennessee, Memphis <li> Texas, Dallas <li>  Texas, Houston <li> Utah, Salt Lake City <li> Vermont, Brattleboro<li> Virgínia, Richmond <li> Washington, Seattle <li>  Virgínia Ocidental, Charleston<li>  Wisconsin, Milwaukee <li> Wyoming, Laramie</ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

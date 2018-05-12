@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Argentina.
-ms.openlocfilehash: 24c67f2104ec64340a9d1470bc44e75925085ab4
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 00f7d05855afd56382e162a1664a108f91beb858
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="availability-in-argentina"></a>Disponibilidade em Argentina
 
@@ -38,7 +38,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para Buenos Aires. Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li>Buenos Aires</ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Não disponível <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -62,7 +62,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Buenos Aires <br/>  Córdoba <br/>  La Plata <br/>  Mar Del Plata <br/>  Mendoza <br/>  Rosário <br/>  San Miguel de Tucuman <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | <ul><li>Buenos Aires <li>Córdoba <li>La Plata <li>Mar Del Plata <li>Mendoza <br/>  <li>San Miguel de Tucuman <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Números gratuitos tarifados estão disponíveis?  <br/> |Sim  <br/> |
    

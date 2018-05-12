@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Este artigo discute o gerenciamento remoto das configurações padrão usada por um dispositivo de v2 Skype sistemas de sala, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 14891401c8cd13f35879ea064f2be49f88b1c68a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74f098e44e3b25eafd48d1309e0454034f56d1f5
+ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console do Skype Room Systems v2 remotamente usando um arquivo de configuração XML
  
@@ -72,7 +72,7 @@ Se o arquivo XML formado incorretamente (ou seja, um valor da variável é do ti
 |\<SkypeSettings\>  <br/> |Contêiner para todos os elementos.  <br/> ||Obrigatório.  <br/> |
 | \<AutoScreenShare\> <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> | Se verdadeiro, o compartilhamento automático de tela será habilitado. <br/> |
 |\<HideMeetingName\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Se verdadeiro, os nomes das reuniões ficarão ocultos.  <br/> |
-|\<UserAccount\>  <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> |Contêiner para os parâmetros de credenciais.  <br/> Em geral, o endereço de entrada, o endereço do Exchange ou o endereço de email são iguais, por exemplo, RanierConf@contoso.com.   <br/> |
+|\<UserAccount\>  <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> |Contêiner para os parâmetros de credenciais.  <br/> Endereço, o endereço do Exchange ou o endereço de email de entrada geralmente é os mesmos, como RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Habilitado por padrão.  <br/> |
 |\<TeamsMeetingsEnabled\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Desabilitado por padrão.  <br/> O arquivo XML é considerado mal formado se ambos os \<SkypeMeetingsEnabled\> e\<TeamsMeetingsEnabled\> são desabilitadas, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |Cadeia de caracteres 3 <br/> ||O nome de entrada da conta do dispositivo do Skype for Business no console.  <br/> |
@@ -109,16 +109,16 @@ Na inicialização, se um console do Skype sala sistemas v2 encontrar um arquivo
   
 Quantos dispositivos v2 de sistemas de sala Skype dependendo da sua empresa tenha e como você optar por gerenciar configurá-los, há várias maneiras de colocar o arquivo de configuração XML. Quando o arquivo for enviado por push para o console, reinicie-o para processar as alterações de configuração. O arquivo de configuração XML é excluído após seu processamento bem-sucedido. Os métodos de gerenciamento sugeridos para dispositivos do Skype sala sistemas v2 são abordados em:
   
-- [Configurando a Política de Grupo para o Skype Room Systems v2](skype-room-systems-v2.md#GroupPolicy)
+- [Configurando a Política de Grupo para o Skype Room Systems v2](room-systems-v2-operations.md#GroupPolicy)
     
-- [Gerenciamento remoto usando o PowerShell](skype-room-systems-v2.md#RemotePS) e [Configure um Item de arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+- [Gerenciamento remoto usando o PowerShell](room-systems-v2-operations.md#RemotePS) e [Configure um Item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
 Você pode usar o método de sua preferência, desde que possa usá-lo para transferir arquivos e disparar a reinicialização do dispositivo de console. O arquivo deve ser capaz de excluir pela conta de usuário local do dispositivo (preferencialmente, ele deve pertencer a e têm privilégios totais concedido a esse usuário), gravável e legíveis. Se as permissões do arquivo não forem definidas corretamente, o software pode não conseguir aplicar as configurações, pode não conseguir excluir o arquivo após o processamento bem-sucedido e, possivelmente, pode até falhar.
   
 ## <a name="custom-theme-images"></a>Imagens de tema personalizado
 <a name="Themes"> </a>
 
-O arquivo de imagem de tema personalizado deve ser colocado no **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, digite apenas o nome de arquivo e extensão no <CustomThemeImageUrl> variável.
+O arquivo de imagem de tema personalizado deve ser colocado no **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, digite apenas o nome de arquivo e extensão no \<CustomThemeImageUrl\> variável.
   
 O arquivo de imagem deve ter exatamente 3840X1080 pixels e estar em um destes formatos: jpg, jpeg, png e bmp. Se sua organização deseja uma imagem personalizada, um designer gráfico será útil nosso [Modelo de Photoshop tema personalizado](https://go.microsoft.com/fwlink/?linkid=870441) . Ele contém mais detalhes sobre onde colocar vários elementos em uma imagem do tema e as áreas que aparecerão na consoles e a exibe.
   
@@ -132,5 +132,5 @@ O arquivo de configuração XML deve ser atualizado na inicialização do dispos
 [Gerenciar Skype sala v2 de sistemas](skype-room-systems-v2.md)
 #### 
 
-[Configurar um Item de arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx)
+[Configurar um Item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 

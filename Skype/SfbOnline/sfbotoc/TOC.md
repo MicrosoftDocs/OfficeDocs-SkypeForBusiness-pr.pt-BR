@@ -34,13 +34,12 @@
 ### [Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-
-
 ## [Planos de Chamadas no Office 365](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md)
 ### [Adicionar, alterar ou remover um local de emergência para sua organização](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Adicionar ou remover um endereço de emergência para sua organização](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Atribuir, alterar ou remover o número de telefone de um usuário](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Atribuir ou alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
+### [Bloquear chamadas de entrada](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [Problemas conhecidos nos Planos de Chamadas](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Alterar o local de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -77,6 +76,7 @@
 ### [Criar uma fila de chamadas do Sistema de Telefonia](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtendo telefones para o Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implantando telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+#### [A definição de backup telefones de área comum (COBRIR)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Veja o você recebe com o Sistema de Telefonia](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Caixa postal do Sistema de Telefonia
