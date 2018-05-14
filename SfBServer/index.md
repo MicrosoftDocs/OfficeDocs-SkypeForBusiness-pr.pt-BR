@@ -1,0 +1,1 @@
+# <a name="welcome-to-officedocs-skypeforbusinessserver"></a>Bem-vindo ao OfficeDocs-SkypeForBusinessServer!
