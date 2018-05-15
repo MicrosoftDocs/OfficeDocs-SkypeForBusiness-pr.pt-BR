@@ -9,8 +9,8 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: e5995955e35c707f5ce3d21f884c54a62188c27d
-ms.sourcegitcommit: c63e7a8a746d427a1c886e8dca4d631c851e417c
+ms.openlocfilehash: 39a3811b411256b1d2a00f9f0e3f48f333fc2df7
+ms.sourcegitcommit: 92f2fa97c8870f8ad86c6001f2240a74261e2600
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 05/14/2018
@@ -37,52 +37,49 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 | RTM (1.0.8) | 12/7/2016  | 
 
 
-
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de sala Skype v2 recurso Introdução e resoluções de problemas
 
-
 ### <a name="311040-04162018"></a>3.1.104.0 (16/04/2018)
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização: 
 - Corrigir para melhorar OSK (teclado virtual) comportamento em sistemas baseados em janela 10 versão 1709
 - Aprimoramentos para se preparar para atualizações futuras do sistema operacional
 
 
 ### <a name="311000-03162018"></a>3.1.100.0 (16/03/2018)
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização:  
 - Atualizado para melhorar a telemetria de aplicativo.
 
 ### <a name="31990-03142018"></a>3.1.99.0 (14/03/2018)
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização: 
 - Correções um problema onde de participação da reunião intermitente problemas podem ocorrer.
-- Um problema saber para resultar em um dispositivo de correções "travar" experiência.
+- Corrige um problema conhecido por resultar em uma experiência de "congelamento do dispositivo".
 
 ### <a name="31980--382018"></a>3.1.98.0 (8/3/2018)
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização: 
 - Correções para melhorar a estabilidade de bug/travamento
 - Suporte para o console de tamanho variável
 - Processamento de áudio periférico descarregamento (lista de exceções de mídia adicionais)
-- Também inclui as otimizações que habilitará a profissionais de TI a criação de imagens de tipo faça você mesmo com a atualização de janeiro de Windows 10 versão 1709 e posterior.  
+- Otimizações que habilitará a profissionais de TI a criação de imagens de tipo faça você mesmo com a atualização de janeiro de Windows 10 versão 1709 e posterior.  
 
 <!--### 3.1.97.0 (00/00/0000)
-**New feature(s)** introduced in this update: 
+Introduced in this update:  
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  hardware only.  -->
 
 
 ### <a name="30160-11272017"></a>3.0.16.0 (27/11/2017)
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização:  
 - Resolve um problema com o recurso de "Fornecer comentários".
 
 ### <a name="30150-1032017"></a>3.0.15.0 (3/10/2017)
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização: 
 - Suporte para a [Série de MSR Polycom](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) encaixa o hardware
 - Suporte para o [Logitech Brio](https://www.logitech.com/en-us/product/brio)
-- [: 52 10H] David noivo
-- resolve um problema onde exibe (console e frente da sala) falha para entrar no modo de suspensão quando não há nenhuma atividade na sala.
+- Resolve um problema onde exibe (console e frente da sala) falha para entrar no modo de suspensão quando não há nenhuma atividade na sala.
 
 
 ### <a name="30120-912017"></a>3.0.12.0 (1/9/2017)
-**Novos recursos** introduzidos nessa atualização:  
-- É executado no Surface Pro tablet (2017)  
+Introduzido nessa atualização:   
+- É executado em um tablet (2017) Surface Pro  
 - Oferece suporte a atualização do criador do Windows 10 Enterprise (idioma inglês, compilação 1703)    
 - Suporte para [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) encaixa o hardware    
 - Suporte de OEM para controles do ambiente (Crestron)
@@ -90,11 +87,11 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 A versão de 64 bits do edition de aniversário no Windows 10 Enterprise (idioma inglês, versão 1607) não é mais suportada a partir de sistemas de sala Skype v2 versão 3.0.12.0 (atualização de 3). 
 
 ### <a name="3080-842017"></a>3.0.8.0 (4/8/2017) 
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização: 
 - Resolve problemas observados quando procurando por usuários através do campo de pesquisa participantes federados. Anterior para essa correção, os resultados da pesquisa para usuários federados externos não podem ter resolvido corretamente e em vez disso retornado resultados incorretos. 
 
 ### <a name="3060-772017"></a>3.0.6.0 (7/7/2017) 
-**Novos recursos** introduzidos nessa atualização:  
+Introduzido nessa atualização: 
 - Suporte de tela dual (para correspondência de sistema herdado)   
 - Themability (temas internos e a capacidade de definir o tema personalizado) 
 - Capacidade de fazer comentários para compilações públicas     
@@ -105,7 +102,7 @@ A versão de 64 bits do edition de aniversário no Windows 10 Enterprise (idioma
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
-**Novos recursos** introduzidos nessa atualização: 
+Introduzido nessa atualização: 
 - Seleção de usuário no aplicativo de dispositivos USB de áudio e vídeos de sala de reunião
 - Integrado status da sala console relatórios para clientes usando o pacote de gerenciamento do Microsoft Operations (consulte [management v2 de sistemas de sala Skype planejar com OMS](oms-management.md)) 
 
@@ -114,43 +111,28 @@ A versão de 64 bits do edition de aniversário no Windows 10 Enterprise (idioma
 
  **Projetado para o Skype for Business**
   
-- Reuniões do Skype com apenas um toque
-    
+- Reuniões do Skype com apenas um toque    
 - Experiência de Reunião do Skype otimizada para salas com vídeo HD de preenchimento de tela e áudio de banda larga HD
-    
 - Todos os participantes podem se conectar à Reunião do Skype usando o dispositivo que quiserem, onde quer que estejam
-    
 - Convide pessoas a partir de seu diretório, onde você pode ver imediatamente a disponibilidade de cada contato, ou por chamada telefônica
-    
 - Compatível com os recursos de Conferência e Chamada PSTN do Skype for Business para substituir o telefone de conferência em sua sala
     
  **Transforme qualquer sala de reunião**
   
 - Aplicativo dedicado à Reunião do Skype, otimizado para o controlador de tela touch de centro da mesa e para a grande tela frontal da sala
-    
 - Aproveite os investimentos existentes em seus projetores ou na tela frontal da sala
-    
 - Funciona para todos os tipos de espaços de reunião, de espaços pequenos a grandes salas de conferência
-    
 - Os dispositivos de áudio e vídeo certificados do Skype for Business estão disponíveis para vários tamanhos de sala
-    
 - Ingestão interna com fio para projetar o compartilhamento de área de trabalho para a sala e para a Reunião do Skype
-    
     
  **Fácil de implantar, simples de gerenciar**
   
 - Dispositivo sempre ativo que aciona as telas automaticamente quando detecta pessoas na sala
-    
 - Implantação e atualização simples do aplicativo de Reunião do Skype da UWP (Plataforma Universal do Windows)
-    
 - O Windows AppLocker bloqueia o dispositivo para o aplicativo de Reunião do Skype
-    
 - Monitorado e gerenciado como um dispositivo do Windows 10 Enterprise via Intune e SCCM (MDM)
-    
 - Confiabilidade de nível empresarial
-    
 - Esforço mínimo para usuários finais devido à semelhança com a interface do usuário do Skype
-    
 - É executado no tablet Surface Pro 4
  
 

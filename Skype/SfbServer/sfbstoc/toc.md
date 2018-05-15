@@ -66,6 +66,9 @@
 ###### [Update-CcCACertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md)
 ###### [Update-CcServerCertificate](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md)
 ##### [Solucionar problemas de sua implantação do conector de nuvem](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md)
+#### Plano de sistema telefônico Microsoft direcionar circulação
+##### [Planejar o roteamento direto](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
+##### [Configurar o roteamento direto](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
 ### [Planejar a conectividade híbrida](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [Implantar a conectividade híbrida](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Configure a federação do Skype para negócios Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
