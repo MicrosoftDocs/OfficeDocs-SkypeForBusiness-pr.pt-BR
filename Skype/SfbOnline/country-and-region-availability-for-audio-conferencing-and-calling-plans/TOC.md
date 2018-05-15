@@ -77,6 +77,7 @@
 ### [Criar uma fila de chamadas do Sistema de Telefonia](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtendo telefones para o Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implantando telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
+###[A definição de backup telefones de área comum (COBRIR)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Veja o você recebe com o Sistema de Telefonia](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Caixa postal do Sistema de Telefonia
