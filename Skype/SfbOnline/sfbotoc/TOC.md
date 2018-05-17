@@ -143,10 +143,9 @@
 ### [Fluxo de chamadas usando Rota Expressa](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [ExpressRoute e QoS no Skype for Business Online](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Qualidade de mídia e desempenho de conectividade de rede](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Servidores proxy para o Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
+### [Servidores proxy para o Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md) 
 
-## Usando a Qualidade de Chamadas em sua organização
-### [Análise de chamada e o painel de controle de qualidade de chamada](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+## [Análise de chamada e o painel de controle de qualidade de chamada](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurar a Análise de Chamada do Skype for Business](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Ativando e usando o Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)

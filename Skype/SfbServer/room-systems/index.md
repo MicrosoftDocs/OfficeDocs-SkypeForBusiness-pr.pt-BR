@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: As considerações de planejamento relevantes para a implantação de sistemas de sala Skype v2 e como implantar e gerenciar o sistema.
 ms.openlocfilehash: 649899f31cdc0e584f954408f269b77fce891b9d
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.sourcegitcommit: fecc87046d16a973499403f6cd097a608b6272f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 <h2>Skype sala sistemas v2 & #x 2013; <br>a próxima geração de sistemas de sala do Skype </h2>
 <ul class="panelContent cardsW cols cols2">
