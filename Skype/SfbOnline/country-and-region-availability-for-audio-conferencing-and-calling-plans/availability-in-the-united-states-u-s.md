@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os Estados Unidos.
-ms.openlocfilehash: 5ecc646fc00725d05c2623d0097b236ee4ff1f80
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidade nos Estados Unidos (EUA)
 
@@ -56,6 +56,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
 |Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar (disponibilidade é limitada)</li><li>240 minuto domésticas chamar planejar (disponibilidade é limitada)</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>600 minutos para nacionais e internacionais chamar planos</li></li> 
+|Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 >[!Note] 
 > As chamadas nacionais nos EUA incluem chamadas para todos os 50 estados norte-americanos e Porto Rico. Os usuários atribuídos com a localização de uso de licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.

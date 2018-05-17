@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para o Reino Unido.
-ms.openlocfilehash: fd81f016ede49843a1f2ae8b431514d07ba55c5f
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 9d4fc73f3ccc1d6bda1b7d5c2ab308de02a37ed9
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidade no Reino Unido (Reino Unido)
 
@@ -56,6 +56,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
 |Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
+|Pode fazer chamadas de saída para números premium? <br/> | Parcialmente suportado: chamadas para números de custo de compartilhadas (prefixa 44843, 44844, 44845, 44870, 44871, 44872) têm suporte.  Chamadas para 449XX prefixos não são suportadas. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumo: Saiba mais sobre Skype para integração de Business Server 2015 com o Exchange e SharePoint.'
-ms.openlocfilehash: 12f6974a6a0d3641242eda072332667ece31c72a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integração com o Exchange e SharePoint
  
@@ -35,7 +35,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
   
  **Skype para Business Server no local e do Exchange no local**
   
-| |
+
 |**Recurso**|**Observações**|
 |:-----|:-----|
 |IM/presença no Outlook  <br/> |Para obter mais informações, consulte [IM e presença](http://technet.microsoft.com/library/6a93ae95-3b64-410b-ab72-74dea232f065.aspx).  <br/> |
@@ -55,7 +55,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
    
  **Skype para Business Server no local e o Exchange Online**
   
-| |
+
 |**Recurso**|**Observações**|
 |:-----|:-----|
 |IM/presença no Outlook  <br/> |Para obter mais informações, consulte [Configure de integração entre o local Skype para Business Server 2015 e Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
@@ -75,7 +75,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
    
  **Skype para Business Online e do Exchange no local**
   
-| |
+ 
 |**Recurso**|**Observações**|
 |:-----|:-----|
 |Presença no Outlook  <br/> ||
@@ -92,7 +92,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
    
  **Skype para negócios on-line e no Exchange Online**
   
-| |
+
 |**Recurso**|**Observações**|
 |:-----|:-----|
 |IM/presença no Outlook  <br/> ||

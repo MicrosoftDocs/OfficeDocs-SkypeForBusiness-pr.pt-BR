@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os países baixos.
-ms.openlocfilehash: 0977d1c6d099f0a49ec7d5cfd42138a0e70367ef
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: d0992da6e45a4ecdc6fde70ac181f02df4e77fe5
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-the-netherlands"></a>Disponibilidade na Holanda
 
@@ -56,6 +56,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
 |Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
+|Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

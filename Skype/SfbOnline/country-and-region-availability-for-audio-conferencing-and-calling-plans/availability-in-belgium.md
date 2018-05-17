@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bélgica.
-ms.openlocfilehash: d13461ca83362b056dca0eab9e58c2c9b1f77810
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 4a53ef00e022d4df175adb9d76eb2d4c1eda07c0
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-belgium"></a>Disponibilidade na Bélgica
 
@@ -56,6 +56,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
 |Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
+|Pode fazer chamadas de saída para números premium?  <br/> | Não suportado no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

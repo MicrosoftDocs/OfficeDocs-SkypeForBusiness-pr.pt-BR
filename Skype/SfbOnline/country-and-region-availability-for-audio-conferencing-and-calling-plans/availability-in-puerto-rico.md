@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Porto Rico.
-ms.openlocfilehash: 92bde6e252f750a065e0068e18f1003f4efdcb49
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 8032f38bf51db5762e0256e4aadb005b6b7caf8a
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilidade em Porto Rico
 
@@ -56,6 +56,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |3000 minutos de chamadas domésticas ou 600 minutos de chamadas internacionais (o limite que for atingido primeiro). As chamadas nacionais nos EUA incluem chamadas para todos os 50 estados norte-americanos e Porto Rico. Os usuários atribuídos com a localização de uso de licença dos EUA e/ou Porto Rico compartilham o mesmo pool de minutos.  <br/> |
+|Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

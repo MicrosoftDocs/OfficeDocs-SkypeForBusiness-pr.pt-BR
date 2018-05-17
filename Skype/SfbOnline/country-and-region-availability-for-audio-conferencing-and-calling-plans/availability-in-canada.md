@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Canadá.
-ms.openlocfilehash: ecb8310f6440698ba8cd367d6128cde5b643b088
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 7547e82f6e5554ccb881ac167719f67d578ca5fe
+ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/16/2018
 ---
 # <a name="availability-in-canada"></a>Disponibilidade no Canadá
 
@@ -56,6 +56,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
 |Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
+|Pode fazer chamadas de saída para números premium?  <br/> | Não suportado no momento.<br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 > [!Note]
 > Chamadas para os Estados Unidos são tratadas como chamadas nacionais.
