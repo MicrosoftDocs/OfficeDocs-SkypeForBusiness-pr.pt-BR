@@ -146,11 +146,12 @@
 ### [Servidores proxy para o Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
 ## Usando a Qualidade de Chamadas em sua organização
-### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
+### [Análise de chamada e o painel de controle de qualidade de chamada](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+### [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurar a Análise de Chamada do Skype for Business](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Ativando e usando o Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Diferenças entre a Análise de Chamada e o Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
+
 
 ## [Relatórios do Skype for Business Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Relatório de atividades](../skype-for-business-online-reporting/activity-report.md)

@@ -7,6 +7,7 @@
 ## [Preparo da rede da sua organização para o Teams](prepare-network.md)
 ## [URLs do Office 365 e intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md)
 ## [Especificações para equipes e limites](limits-specifications-teams.md)
+## [Criar a estratégia de gerenciamento de alteração](change-management-strategy.md)
 
 
 
@@ -253,6 +254,7 @@
 ### [Tutorial: Criar uma equipe englobando toda a empresa usando o PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Gerenciamento
+### [Qualidade da experiência Revise o guia](quality-of-experience-review-guide.md)
 ### [Preparo da rede da sua organização para o Teams](prepare-network.md)
 ### [Ferramentas e workshops: Planejamento, implantação e operação do Microsoft Teams](planning-workshop-practical-guide.md)
 ### [Visão geral da implantação do Microsoft Teams](deployment-overview.md)
