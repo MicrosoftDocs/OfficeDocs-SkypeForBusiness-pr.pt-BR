@@ -39,7 +39,6 @@
 ### [Adicionar ou remover um endereço de emergência para sua organização](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Atribuir, alterar ou remover o número de telefone de um usuário](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Atribuir ou alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Bloquear chamadas de entrada](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [Problemas conhecidos nos Planos de Chamadas](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Alterar o local de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -150,7 +149,6 @@
 ### [Configurar a Análise de Chamada do Skype for Business](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Ativando e usando o Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
 
 ## [Relatórios do Skype for Business Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Relatório de atividades](../skype-for-business-online-reporting/activity-report.md)
