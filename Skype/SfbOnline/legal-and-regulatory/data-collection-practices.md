@@ -19,11 +19,11 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft coleta dados censo, erro e uso para entender como Skype para negócios está sendo usada e onde os usuários encontrarem problemas. Os dados são usados para planejar os aperfeiçoamentos do produto.
-ms.openlocfilehash: 46a292e462708b77b60aa1c8a52c2148fbc82775
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+ms.openlocfilehash: 8ea357aefe96505285d9c7bb870ef852ea2649a4
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para práticas de conjunto de dados corporativos e Teams da Microsoft
 
@@ -77,8 +77,9 @@ Coleta de dados de uso está habilitado por padrão, mas admins pode desativá-l
 Os usuários finais não podem ativar a coleta de dados de uso ou desativar.
   
 Para aplicativos do Skype reuniões e páginas da web de iniciador de ingresso, a maneira de controlar telemetria é por meio dessa diretiva:
-  
-Set-CsWebServiceConfiguration - MeetingUxEnableTelemetry $True
+ 
+`Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True` 
+
   
 Essa diretiva padrão é false, portanto a coleção de telemetria está desativado por padrão. Essa configuração é por pool e controla todos os usuários que se conectam ao Skype reuniões App para uma reunião hospedada nesse servidor.
   
@@ -99,9 +100,9 @@ Relatório de erros exige duas coisas:
   
 - A configuração de diretiva de grupo DisableAutomaticSendTracing ser definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão). Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) para obter mais informações.
     
-- Os usuários finais individualmente aceitar da guia Geral (clique no ícone de engrenagem e a caixa de diálogo de opção é aberto com a guia geral exibida) o Skype para o cliente de negócios.
+- Os usuários finais individualmente aceitar a partir da guia Geral (clique no ícone de engrenagem ![ícone de engrenagem](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) e abre a caixa de diálogo **Opções** com a guia **Geral** exibida) no Skype para o cliente de negócios.
     
-     ![Ícone de engrenagem](../images/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)
+ 
   
 ![Skype para checkbox de conjunto de dados corporativos nas opções de > diálogo geral](../images/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   

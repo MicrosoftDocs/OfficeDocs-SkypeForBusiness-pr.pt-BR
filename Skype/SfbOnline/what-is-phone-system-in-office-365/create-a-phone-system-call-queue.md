@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 81fbb40aad10687d3a75020a23b20cbeee7d5c2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 119e56f27edc992466a6565235715d2703b1cb12
+ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada do sistema telefônico
 
@@ -127,7 +127,10 @@ No **Centro de administração do Skype for Business**, clique em **Encaminhamen
 ![Mostra a chamada opções de método de distribuição](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Chame o método de distribuição** Você pode escolher **Attendant** ou **Serial** para seu método de distribuição de fila de chamada. Todas as filas de chamada novas e existentes terão roteamento attendant selecionada por padrão. Para usar o roteamento em série, você deve escolher explicitamente a opção de roteamento **Serial** na interface do usuário e cmdlets. <br/><br/> Quando o roteamento em série for escolhido e a fila de chamada é salvo, as chamadas da fila tocarão seus agentes um por um, começando do início da lista de operadores. Se um operador descarta ou não atender uma chamada, a chamada tocará o próximo operador na lista e tentará todos os operadores gradativamente até que ele é buscado ou tempos de espera na fila.  <br/><br/>  **Observação:** Roteamento em série irá ignorar os operadores que estão **Offline**, tem definido sua presença como **Não incomodar**ou tem **retirado** de obtenção de chamadas da fila de espera.  
+![Número 1](../images/sfbcallout1.png)<br/>**Chame o método de distribuição** Você pode escolher **Attendant** ou **Serial** para seu método de distribuição de fila de chamada. Todas as filas de chamada novas e existentes terão roteamento attendant selecionada por padrão. Para usar o roteamento em série, você deve escolher explicitamente a opção de roteamento **Serial** na interface do usuário e cmdlets. <br/><br/> Quando o roteamento em série for escolhido e a fila de chamada é salvo, as chamadas da fila tocarão seus agentes um por um, começando do início da lista de operadores. Se um operador descarta ou não atender uma chamada, a chamada tocará o próximo operador na lista e tentará todos os operadores gradativamente até que ele é buscado ou tempos de espera na fila.   
+
+> [!NOTE]
+> Roteamento em série irá ignorar os operadores que estão **Offline**, tem definido sua presença como **Não incomodar**ou tem **retirado** de obtenção de chamadas da fila de espera. 
    
 ### <a name="select-an-agent-opt-out-option"></a>Selecione um operador rejeitar opção
 
@@ -222,7 +225,7 @@ Veja os cmdlets necessários para gerenciar uma fila de chamadas.
     
 ### <a name="more-about-windows-powershell"></a>Mais sobre o Windows PowerShell
 
-- O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
