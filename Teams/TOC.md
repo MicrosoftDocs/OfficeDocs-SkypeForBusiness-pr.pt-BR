@@ -16,6 +16,7 @@
 ## [Gerenciamento do acesso de usuários ao Teams](user-access.md)
 ## [Obter clientes para o Microsoft Teams](get-clients.md)
 ## [Requisitos de hardware para o aplicativo de equipes](hardware-requirements-for-the-teams-app.md)
+## [Migração e interoperabilidade com Skype para negócios](migration-interop-guidance-for-teams-with-skype.md)
 ## [Inscreva-se às equipes](sign-in-teams.md)
 ## [Visão geral da implantação do Microsoft Teams](deployment-overview.md)
 ## [Configurar o Teams na sua organização do Office 365](Office-365-set-up.md)
@@ -34,7 +35,7 @@
 ## [Licença do Office 365 para o Teams](office-365-licensing.md)
 ## [Atribuir licenças do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Gerenciar a oferta de avaliação do operador de informações para equipes](iw-trial-teams.md)
+## [Gerenciar a oferta de avaliação de equipes comerciais](iw-trial-teams.md)
 ## [Configurar Créditos de Comunicação para a sua organização](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [O que são Créditos de Comunicação?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
