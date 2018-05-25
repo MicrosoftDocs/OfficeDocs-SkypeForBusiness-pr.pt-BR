@@ -1,9 +1,9 @@
 ---
-title: Gerenciar a oferta de avaliação de IW for Microsoft Teams
+title: Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 04/27/2018
+ms.date: 05/17/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,16 +11,16 @@ ms.service: msteams
 localization_priority: Normal
 description: Os usuários do Office 365 que não estejam licenciados for Microsoft Teams podem iniciar uma versão de avaliação das equipes 1 ano.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 491f7503843d1feebbff88579fba1eae11895e0e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e282481cc8cdb5eba23a56ef32adff2e812fefbf
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
-<a name="manage-the-iw-trial-offer-for-microsoft-teams"></a>Gerenciar a oferta de avaliação de IW for Microsoft Teams
-=============================================
+<a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
+=======================================================
 
-Teams da Microsoft é uma ótima ferramenta colaborativa para sua organização. Ele capacita pessoas e equipes para discutir, inovem e compartilhem ideias usando o poder do Office 365. Oferta de avaliação IW for Microsoft Teams oferece usuários existentes do Office 365 em sua organização que não são licenciados for Microsoft Teams iniciar uma versão de avaliação do produto 1 ano. Os administradores têm a capacidade de ligar ou desligar esse recurso para os usuários de seu locatário.
+Teams da Microsoft é uma ótima ferramenta colaborativa para sua organização. Ele capacita pessoas e equipes para discutir, inovem e compartilhem ideias usando o poder do Office 365. O Microsoft equipes comerciais nuvem avaliação oferece usuários existentes do Office 365 em sua organização que não são licenciados for Microsoft Teams iniciar uma versão de avaliação do produto 1 ano. Os administradores têm a capacidade de ligar ou desligar esse recurso para os usuários de seu locatário.
 
 ## <a name="whats-in-the-offer"></a>Novidades da oferta de
 
@@ -38,11 +38,16 @@ Os planos de serviço incluídos nesta oferta são:
 
 ## <a name="who-is-eligible"></a>Quem pode participar
 
-Os usuários que não têm uma licença do Office 365 que inclui as equipes podem iniciar a oferta de avaliação do operador de informações. Por exemplo, se um usuário tem o Office 365 Business Premium (que inclui as equipes) e o plano de serviço de equipes está desabilitado, eles não estão qualificados para a versão de avaliação.
+Os usuários que não têm uma licença do Office 365 que inclui as equipes podem iniciar a oferta de avaliação de nuvem comercial do Microsoft equipes. Por exemplo, se um usuário tem o Office 365 Business Premium (que inclui as equipes) e o plano de serviço de equipes está desabilitado, eles não estão qualificados para a versão de avaliação.
 
-No nível de locatário, equipes como um serviço precisa estar habilitado (no Centro de administração de equipes). (Para obter mais informações, consulte [os recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md). Além disso, os usuários devem ser habilitados para se inscrever para aplicativos e avaliações (no Centro de administração do Office 365). Para obter mais informações, consulte [Manage a avaliação do operador de informações](#manage-the-iw-trial) neste artigo.
+Além disso, seu locatário não é qualificado para a avaliação se: 
+- Você é um cliente de parceiro agregação
+- Você é um cliente de parceiro do revendedor
+- Você é um cliente EDU, GOV ou GCC
 
-Inquilinos GOV e EDU não estão qualificados para o operador de informações avaliação.
+Além disso, se seu locatário não qualificado para a oferta de avaliação de comercial nuvem Microsoft equipes, você não verá a opção **Permitir que os usuários a instalar os serviços e aplicativos de avaliação** .
+
+No nível de locatário, equipes como um serviço precisa estar habilitado (no Centro de administração de equipes). Para obter mais informações, consulte [os recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md). Além disso, os usuários devem ser habilitados para se inscrever para aplicativos e avaliações (no Centro de administração do Office 365). Para obter mais informações, consulte [Manage a avaliação do operador de informações](#manage-the-iw-trial) neste artigo.
 
 ## <a name="how-users-sign-up-for-the-trial"></a>Como os usuários Inscreva-se para a versão de avaliação
 

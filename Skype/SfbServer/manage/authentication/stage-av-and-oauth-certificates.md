@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server 2015.'
-ms.openlocfilehash: 4117707e7a86833ebb235100c26e27d16e1df9db
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7c5abf07c5b30e4e015936fcf0987e989f1d8117
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>Adaptar certificados AV e OAuth no Skype for Business Server 2015 usando -Roll in Set-CsCertificate
  
@@ -133,7 +133,6 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 #### 
 
 [Gerenciar a autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server 2015](server-to-server-and-partner-applications.md)
-#### 
 
 [Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   

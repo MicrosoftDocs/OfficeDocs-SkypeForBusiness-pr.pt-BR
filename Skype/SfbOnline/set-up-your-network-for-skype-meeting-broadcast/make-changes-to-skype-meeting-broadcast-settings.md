@@ -18,11 +18,11 @@ f1keywords:
 ms.custom:
 - SMB
 description: Você pode habilitar a transmissão do Skype reunião e fazer alterações em configurações e políticas para essas reuniões.
-ms.openlocfilehash: e4e51e7e23138fe2e0b0cd1ce05d19f275c085b9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 7cba3f66713d76e32da01d3dd318a6096dbed35c
+ms.sourcegitcommit: faea19005301c56a081b6e6157965becac76ec2f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Fazer alterações nas configurações de transmissão do Skype reunião para sua organização
 
@@ -32,7 +32,7 @@ Você pode habilitar a transmissão do Skype reunião e fazer alterações em co
     
 - **Recursos de habilitar visualização de transmissão de reunião de Skype para minha organização** O Skype para programas de negócios do cliente fornecem acesso antecipado para novos produtos e recursos. Isso permite que sua organização uma espiada no quais são as novidades e a oportunidade de testar os novos recursos em seu próprio ambiente e fornecer comentários antes de lançamento de compilações de produto para o público em geral.<br/>[Skype para visualização de negócios](https://www.skypepreview.com/)
     
-- **Permitir que os organizadores para agendar reuniões anônimas** Isso permite que os organizadores faça legendas codificadas ou tradução para reuniões de transmissão.
+- **Permitir que os organizadores para agendar reuniões anônimas** Isso permite que os organizadores criar eventos de transmissão que permitem que qualquer pessoa fora da sua organização ingressem sem um requisito para entrar.
     
 - **Permitir reuniões de transmissão seja gravada** Isso permite que as reuniões que você precisa estar registradas pelo organizador ou apresentador.
     

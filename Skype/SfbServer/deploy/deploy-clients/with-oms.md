@@ -13,11 +13,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de sistemas de sala Skype v2 dispositivos de forma integrada e de ponta a ponta, usando o pacote de gerenciamento de operações do Microsoft.
-ms.openlocfilehash: 13648c9a74cbd30f69884eb19fde5004999cc4e3
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 7d8dc8a7e7f5a74c68fbc7bf5ecb98664c2b02ad
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implantar o gerenciamento do Skype Room Systems v2 com OMS
  
@@ -169,7 +169,7 @@ Depois que os dados são coletados e campos personalizados são mapeados, você 
 
 Você pode importar um painel do pacote de gerenciamento de operações e iniciar o monitoring seus dispositivos imediatamente. Siga as etapas a seguir para importar o painel:
 
-1.  Obtenha o arquivo de painel [SkypeRoomSystems_v2.omsview](room-systems-v2-scripts.md) .
+1.  Obtenha o arquivo de painel [SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) .
 2.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
 3.  Abra o **Designer de modo de exibição**.
 4.  Selecione **Importar**e selecione o arquivo **SkypeRoomSystems_v2.omsview** .

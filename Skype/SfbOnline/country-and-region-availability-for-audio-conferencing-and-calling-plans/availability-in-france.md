@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da França.
-ms.openlocfilehash: 4ee896a8b38a786a355ab91c25ed07d6edfea9e5
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: 4c1617169f1f3bf048f585c4b2a7a83587a8aea5
+ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="availability-in-france"></a>Disponibilidade na França
 
@@ -55,7 +55,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
+|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
 |Pode fazer chamadas de saída para números premium? <br/> | Sim, totalmente compatível neste momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

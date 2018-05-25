@@ -7,6 +7,7 @@
 ## [Preparo da rede da sua organização para o Teams](prepare-network.md)
 ## [URLs do Office 365 e intervalos de endereços IP](Office-365-URLs-IP-address-ranges.md)
 ## [Especificações para equipes e limites](limits-specifications-teams.md)
+## [Criar a estratégia de gerenciamento de alteração](change-management-strategy.md)
 
 
 
@@ -24,7 +25,7 @@
 ## [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Configurar a Análise de Chamada do Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-## [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [Análise de chamada e o painel de controle de qualidade de chamada](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 
@@ -49,7 +50,6 @@
 ## [Configurar uma organização híbrida do Exchange para uso com o Teams](exchange-hybrid-organization.md)
 ## [Adicionar o domínio SMTP ao Teams como um domínio aceito no Exchange Online](smtp-accepted-domain.md)
 ## [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
-
 
 
 
@@ -121,10 +121,10 @@
 
 ## Monitorar qualidade da chamada e QOS
 ### [QoS no Microsoft Teams](QoS-in-Teams.md)
+### [Análise de chamada e o painel de controle de qualidade de chamada](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](/SkypeForBusiness/using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configurar a Análise de Chamada do Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## Audioconferência
@@ -253,6 +253,7 @@
 ### [Tutorial: Criar uma equipe englobando toda a empresa usando o PowerShell](company-wide-team-creation-powershell.yml)
 
 ## Gerenciamento
+### [Qualidade da experiência Revise o guia](quality-of-experience-review-guide.md)
 ### [Preparo da rede da sua organização para o Teams](prepare-network.md)
 ### [Ferramentas e workshops: Planejamento, implantação e operação do Microsoft Teams](planning-workshop-practical-guide.md)
 ### [Visão geral da implantação do Microsoft Teams](deployment-overview.md)

@@ -10,11 +10,11 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13db401651181bf186a61f643b80c7750b9978a0
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -84,7 +84,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Renomear um canal em Microsoft Teams não renomeia a pasta correspondente no SharePoint Online  <br/> |Se um canal é renomeado no Teams da Microsoft, a pasta na biblioteca de documentos do SharePoint Online correspondente para a equipe não altera para corresponder. Em vez disso, uma nova pasta é criada para coincidir com o novo nome de canal. Os arquivos na pasta da biblioteca de documentos originais não são migrados.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
+|Renomear um canal em Microsoft Teams não renomeia a pasta correspondente no SharePoint Online  <br/> |Se um canal é renomeado no Teams da Microsoft, a pasta na biblioteca de documentos do SharePoint Online correspondente para a equipe não altera para corresponder. O nome correto da pasta do SharePoint Online é exibido na parte superior da guia arquivos canal renomeado.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 
 ## <a name="chat"></a>Chat
 

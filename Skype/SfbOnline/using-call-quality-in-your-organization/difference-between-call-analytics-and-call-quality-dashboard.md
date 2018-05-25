@@ -1,5 +1,5 @@
 ---
-title: O que é a diferença entre a análise de chamada e o painel de controle de qualidade de chamada?
+title: Análise de chamada e o painel de controle de qualidade de chamada
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,13 +18,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade de chamada no Skype para negócios.
-ms.openlocfilehash: 869b4373d6e1bea65700532b52959aa2126d94d9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: c8d73ee128425f106174ccad60a0b0c947cc07e5
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="whats-the-difference-between-call-analytics-and-call-quality-dashboard"></a>O que é a diferença entre a análise de chamada e o painel de controle de qualidade de chamada?
+# <a name="call-analytics-and-call-quality-dashboard"></a>Análise de chamada e o painel de controle de qualidade de chamada
 
 Skype para negócios oferece duas maneiras para monitorar e solucionar problemas de qualidade da chamada: análise de chamada e o painel de controle de qualidade de chamada. Este artigo descreve os dois e informa quando usar cada uma delas.
   

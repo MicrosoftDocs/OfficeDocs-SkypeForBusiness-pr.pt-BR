@@ -6,7 +6,6 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  interactive: azurecli
   ms.author: tbinder
   manager: serdars
   ms.service: msteams
@@ -15,11 +14,11 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 4c23c7aebcf45c190da29287f4cf7f6f1a4aeb7d
-  ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+  ms.openlocfilehash: 623fffb3f6470571b039c106ec5f0a4205f6c35a
+  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/03/2018
+  ms.lasthandoff: 05/17/2018
 items:
 - durationInMinutes: 1
   content: "Neste treinamento, apresentamos as funcionalidades de chamadas do Teams, que são acionadas pelo recurso de Sistema de Telefonia no Office 365. Vamos explicar o planejamento técnico necessário para implementar o Sistema de Telefonia, como configurá-lo e como monitorar o uso e a qualidade das chamadas em sua implementação.\n\nEste treinamento será útil se você for: \n\n- Profissional de TI.\n\n- Responsável pelo planejamento, implantação ou gerenciamento do Teams.\n\n- Alguém que planeja introduzir funcionalidades de chamadas em sua implantação do Teams.\n\nVocê aprenderá:\n\n- O que são as chamadas do Teams?\n\n- Como planejar as chamadas no Teams.\n\n- Como configurar as chamadas no Teams.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nSe quiser fazer alguma pergunta ou comentário sobre o treinamento:\n\n- Poste na seção de comentários na parte inferior da página “próximos passos” deste tutorial</a>\n\n- Envie um email para [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Calling)\n\nPara fazer comentários sobre o produto Teams, como ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"

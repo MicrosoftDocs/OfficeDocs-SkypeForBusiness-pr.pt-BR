@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: A seguir estão algumas das principais perguntas que recebemos de nossos clientes que desejam usar conferência de áudio.
-ms.openlocfilehash: bc902c8c01abc7edab52c8e5341b93d2aaaaaeb7
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1162b8550eac78f72d64202c681961f4b0eb723c
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="audio-conferencing-common-questions"></a>Áudio perguntas comuns de conferência
 
@@ -54,7 +54,7 @@ Se você estiver chamando usando um telefone ou o Skype para aplicativos de neg�
   
 ## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Pode adicionar um número de chamada gratuito para meus usuários de conferência de áudio?
 
-Sim, os números de telefone gratuitos (números de serviço) estão disponíveis, mas somente em alguns países/regiões. Para ver uma lista dos números que estão disponíveis, vá [aqui](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Sim, os números de telefone gratuitos (números de serviço) estão disponíveis, mas somente em alguns países/regiões. Para obter uma lista dos números que estão disponíveis, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="how-many-local-dial-in-numbers-are-currently-supported"></a>Quantos números de discagem locais são suportados?
 

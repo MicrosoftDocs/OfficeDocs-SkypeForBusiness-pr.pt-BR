@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Projetar e criar fluxos de trabalho do grupo de resposta, no Skype para Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
-ms.openlocfilehash: 71380d7dc048663eca9543a31d67462ead0321c3
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 21c4b5beb8b4653bc31481d956f235a2c4fe722e
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Conceber e criar fluxos de trabalho do Grupo de Resposta no Skype for Business 2015
  
@@ -646,10 +646,8 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 #### 
 
 [(Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios 2015](optional-define-response-group-holiday-sets.md)
-#### 
 
 [(Opcional) Grupo de resposta definir expediente no Skype para negócios 2015](optional-define-response-group-business-hours.md)
-#### 
 
 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   

@@ -11,15 +11,21 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Visão geral do interoperação de scanner antivírus com Skype para Business Server 2015.
-ms.openlocfilehash: bb188b25c61269ee7c38829e1887a3443a0f77c4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 054ed03146964de7ec0621138186e3c41843c236
+ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/21/2018
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server-2015"></a>Exclusões de escaneamento de antivírus para Skype for Business Server 2015
  
-Visão geral do interoperação de scanner antivírus com Skype para Business Server 2015. 
+Visão geral do interoperação de scanner antivírus com Skype para Business Server 2015.
+
+Este artigo contém recomendações que podem ajudar a um administrador determinar a causa do possível instabilidade em um computador que está executando uma versão compatível do Microsoft Windows quando ele é usado com o software antivírus em um domínio do Active Directory ambiente ou em um ambiente de negócios gerenciados.
+
+É recomendável que você aplique temporariamente estes procedimentos para avaliar um sistema. Se o desempenho do sistema ou a estabilidade é aprimorada pelas recomendações feitas neste artigo, entre em contato com seu fornecedor de software antivírus para obter instruções ou para uma versão atualizada do software antivírus.
+
+Este artigo contém informações que mostram como ajudar a diminuir as configurações de segurança ou como desativar temporariamente os recursos de segurança em um computador. Você pode fazer essas alterações para entender a natureza de um problema específico. Antes de fazer essas alterações, recomendamos que você avaliar os riscos associados à implementação dessa solução alternativa no ambiente específico. Se você implementar essa solução alternativa, execute quaisquer etapas apropriadas adicionais para ajudar a proteger os arquivos que não são mais estão sendo examinados pelo seu software antivírus no computador.
   
 Para garantir que o scanner antivírus não interfere com a operação do Skype para Business Server 2015, você deve excluir diretórios e processos específicos para cada Skype para Business Server 2015 server ou função de servidor em que você executa um scanner antivírus. Os seguintes processos e diretórios devem ser excluídos:
   

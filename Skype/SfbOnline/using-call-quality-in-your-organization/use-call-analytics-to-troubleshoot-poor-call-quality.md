@@ -19,11 +19,11 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Use os detalhes de chamada análise sobre dispositivos, redes e conectividade para solucionar problemas de usuário com o Skype para reuniões e chamadas comerciais.
-ms.openlocfilehash: 8f782a18dd7cb7fe7cbae73c7bd43b3e44c6928c
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: cb887a1c582c9547616c2133c2f175ac634e2da8
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Qualidade de chamada de análise de uso chamada solucionar ruim Skype para negócios
 
@@ -75,7 +75,7 @@ Para sessões de áudio que tenham dados qualidade da experiência (QoE), a tabe
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar a Análise de Chamada do Skype for Business](set-up-call-analytics.md)
 
-[Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

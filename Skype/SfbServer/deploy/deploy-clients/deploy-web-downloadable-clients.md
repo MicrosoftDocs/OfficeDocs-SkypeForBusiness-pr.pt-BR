@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumo: Implante o Skype para negócios Web App e Skype App de reuniões usado com Skype para negócios.'
-ms.openlocfilehash: e1cee2741e1538da1e4c5ed8e25509415cb16ac3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a81e8744208261934635aee4f8a872a81b179c90
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Implantar clientes para download da Web no Skype for Business Server 2015
  
@@ -154,7 +154,6 @@ Esse procedimento é opcional. Se você não usá-lo, os usuários externos cont
 [Planejar para clientes de reuniões (Web App e reuniões App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
   
 [Planejar para clientes de reuniões (Web App e reuniões App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-#### 
 
 [Configurando a página de participação da reunião](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
   

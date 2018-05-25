@@ -1,5 +1,6 @@
 ---
 title: Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
+ms.date: 05/23/2018
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,11 +24,11 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: 5707784f04dc52697ecd3d65b4c48ec105d10247
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 5a8ccbda886b72b0ad960a92152d37d68784197d
+ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -163,7 +164,7 @@ Na Audioconferência, há um recurso chamado "*Telefonar para Mim*" que pode ser
 ### <a name="phone-system"></a>Sistema de Telefonia
 Com o Sistema de Telefonia, você pode criar atendedores automáticos e filas de chamadas (com um número de chamada tarifada ou gratuita) para atender às chamadas de entrada de sua organização e, quando adicionar um Plano de Chamadas para os usuários, eles poderão usar o Skype for Business para cuidar de tarefas básicas de controle de chamadas, como fazer e receber chamadas, transferir chamadas e ativar e desativar o mudo das chamadas. Os usuários do **Sistema de Telefonia** podem clicar em um nome no catálogo de endereços, e o Skype for Business faz uma chamada para essa pessoa. Para fazer e receber chamadas, os usuários do **Sistema de Telefonia** podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC, ou um dos muitos telefones IP que funcionam com o Skype for Business.
 
-Além de obter números de telefone para usuários individuais do Office 365, também é possível pesquisar e adquirir números de telefone de chamada gratuita ou tarifada para serviços como Audioconferência (para pontes de conferência), atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço. Consulte [números de telefone do serviço de Introdução](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) para obter os números de telefone. Mas, depois que você atribuir um Plano de Chamadas a seus usuários, poderá atribuir um número de telefone do usuário para que possam fazer e receber chamadas telefônicas. Você encontra esses números de telefone [aqui](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Veja também [Atribuir, alterar ou remover o número de telefone de um usuário](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
+Além de obter números de telefone para usuários individuais do Office 365, também é possível pesquisar e adquirir números de telefone de chamada gratuita ou tarifada para serviços como Audioconferência (para pontes de conferência), atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço. Consulte [números de telefone do serviço de Introdução](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md) para obter os números de telefone. Mas, depois que você atribuir um Plano de Chamadas a seus usuários, poderá atribuir um número de telefone do usuário para que possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, vá para [obter números de telefone para seus usuários](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md). Veja também [Atribuir, alterar ou remover o número de telefone de um usuário](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md). 
 
 [Preços do Sistema de Telefonia](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
 

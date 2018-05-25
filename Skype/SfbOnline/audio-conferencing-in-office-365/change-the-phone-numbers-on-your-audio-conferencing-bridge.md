@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: de5959a6182e354a9f12669100b60f66fd70f88f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 89bc5d0ad31deec9ebc0a970bedc62cb5ed50bee
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone na sua ponte de conferência de áudio
 
@@ -39,6 +39,9 @@ Além dos números já atribuídos a sua ponte de conferência, você pode [obte
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Etapa 1 - atribuir o novo número de telefone para sua ponte de conferência de áudio
 
+> [!Note]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 1. Entre no Office 365 com sua conta corporativa.
     
 2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **voz** > **números de telefone**.
@@ -52,8 +55,7 @@ Além dos números já atribuídos a sua ponte de conferência, você pode [obte
     > [!NOTE]
     > [!OBSERVAçãO] Após a atribuição do novo número de telefone, mesmo que ele se torne o novo número padrão, o número padrão dos usuários existentes não mudará. Para definir as tarifas padrão ou um número de chamada gratuito que é adicionado à reunião do organizador convida, consulte [Defina o telefone convidam números incluídos no](set-the-phone-numbers-included-on-invites.md). 
   
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 
 ### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Etapa 2 - Alterar os números de telefone padrão que são incluídos nos convites de reunião de usuários (opcional)
 
@@ -140,15 +142,15 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 ### <a name="to-verify-that-windows-powershell-is-ready-to-go"></a>Para verificar se o Windows PowerShell está pronto
 
- **Verifique se está executando o Windows PowerShell 3.0 ou versão superior**
+ Estas etapas Verifique que você está executando o Windows PowerShell versão 3.0 ou superior.
   
-1. Para verificar se você está executando a versão 3.0 ou superior: **Menu Iniciar** > **Windows PowerShell**.
+1. Digite o **Menu Iniciar** > **do Windows PowerShell**.
     
-2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
+2. Digite _Get-Host_ na janela do **Windows PowerShell** para verificar a versão.
     
 3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Confira [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
     
-4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
+4. Você também precisará instalar o módulo do Windows PowerShell para Skype para Business Online que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype para negócios Online. Este módulo só tem suporte em computadores de 64 bits e pode ser baixado do Microsoft Download Center em um [Módulo do Windows PowerShell para Skype para negócios Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
 Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
   
@@ -173,9 +175,9 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
 
 Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
-### <a name="save-time-or-automate"></a>Economizar tempo ou automatizar
+### <a name="save-time-and-automate"></a>Poupe tempo e automatizar
 
-Para economizar tempo ou automatizar esse processo, você pode usar o [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) ou os cmdlets **Set-CsOnlineDialInConferencingUserDefaultNumber** .
+Para poupar tempo automatizando esse processo, você pode usar o [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) ou os cmdlets **Set-CsOnlineDialInConferencingUserDefaultNumber** .
   
 - Use o cmdlet [Set-CsOnlineDialInConferencingUser](http://go.microsoft.com/fwlink/?LinkId=617688) para mudar o número de chamada tarifada ou gratuita padrão de usuários específicos.
     
@@ -213,7 +215,7 @@ Para economizar tempo ou automatizar esse processo, você pode usar o [Set-CsOnl
   
 ## <a name="about-windows-powershell"></a>Sobre o Windows PowerShell
 
-O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+Com o Windows PowerShell, você pode gerenciar usuários e o que eles são ou não têm permissão para fazer. Windows PowerShell pode ajudá-lo a gerenciar o Office 365 e Skype para negócios Online usando um único ponto de administração que pode simplificar o seu trabalho diário, especialmente quando você acaba de criar várias tarefas fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

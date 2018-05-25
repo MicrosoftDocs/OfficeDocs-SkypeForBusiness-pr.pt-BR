@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: Saiba mais sobre o que considerar ao planejar o painel de controle de qualidade de chamada.'
-ms.openlocfilehash: 25438b759e367d70df6ae09b7d4a5cc093dc1e7a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b54b151fbf9777311af68fcba1611f2bd174a9b7
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>Planejar o painel de controle de qualidade de chamada for Skype para Business Server 2015
  
@@ -186,8 +186,8 @@ Esta seção torna a pressuposição de que há um único banco de dados QoEMetr
 
 |**Máquina**|**Núcleos de CPU**|**RAM**|**Cubo no mesmo disco e arquivamento de QoE**|**Arquivo morto do QoE e SQL Temp DB no mesmo disco**|
 |:-----|:-----|:-----|:-----|:-----|
-|Mmachine virtual  <br/> |4  <br/> |7 GB  <br/> |Sim  <br/> |Sim  <br/> |
-|Ccore 4  <br/> |4  <br/> |20 GB  <br/> |Sim  <br/> |Não  <br/> |
+|Máquina virtual  <br/> |4  <br/> |7 GB  <br/> |Sim  <br/> |Sim  <br/> |
+|4 núcleos  <br/> |4  <br/> |20 GB  <br/> |Sim  <br/> |Não  <br/> |
 |8 núcleos  <br/> |8  <br/> |32 GB  <br/> |Sim  <br/> |Não  <br/> |
 |16 núcleos  <br/> |16  <br/> |128 GB  <br/> |Não  <br/> |Não  <br/> |
    

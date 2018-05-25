@@ -1,0 +1,45 @@
+---
+title: Defina o tronco raiz para um novo IP ou Gateway PSTN
+ms.author: heidip
+author: microsoftheidi
+manager: serdars
+ms.date: 11/17/2014
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.tb.AddPstnGatewayTrunkPage
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
+description: 'Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:'
+ms.openlocfilehash: e9f42114e64351290322b9ae0e520c9556c457f0
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/24/2018
+---
+# <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Defina o tronco raiz para um novo IP ou Gateway PSTN
+ 
+Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:
+  
+- **Nome do tronco**: defina o nome de domínio totalmente qualificado associado ao tronco
+    
+- **Porta de escuta do gateway IP/PSTN**: defina a porta na qual esse tronco escutará
+    
+- **Protocolo de transporte SIP**: selecione na lista **TCP** ou **TLS**, com base nos requisitos de tronco
+    
+- **Servidor de mediação associado**: selecione na lista de servidores de mediação disponíveis em sua implantação
+    
+- **Porta do servidor de mediação associado**: defina a porta que o servidor de mediação selecionado está escutando
+    
+## <a name="see-also"></a>Consulte também
+
+#### 
+
+[Configurar um tronco com bypass de mídia no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+  
+[Configurar um tronco sem bypass de mídia no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+#### 
+
+[Suporte ao tronco SIP](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
+

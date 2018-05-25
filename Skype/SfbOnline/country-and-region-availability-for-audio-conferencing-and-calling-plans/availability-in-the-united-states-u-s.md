@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para os Estados Unidos.
-ms.openlocfilehash: b1d5f66f1ebb63553904a9b1992bf9e08d46a98a
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: 5120f4f6e51f2a5ce3a87a8febf4b82fd68288fd
+ms.sourcegitcommit: 5e094591704e27d9d802ff86c1ada6d775ab783a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidade nos Estados Unidos (EUA)
 
@@ -55,7 +55,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar (disponibilidade é limitada)</li><li>240 minuto domésticas chamar planejar (disponibilidade é limitada)</li></li><li>3000 minuto domésticas chamar planejar </li></li><li>600 minutos para nacionais e internacionais chamar planos</li></li> 
+|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar (disponibilidade é limitada)</li><li>240 minuto domésticas chamar planejar (disponibilidade é limitada)</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>600 minutos para nacionais e internacionais chamar planos</li></li> 
 |Pode fazer chamadas de saída para números premium? <br/> | Não suportado no momento. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 >[!Note] 

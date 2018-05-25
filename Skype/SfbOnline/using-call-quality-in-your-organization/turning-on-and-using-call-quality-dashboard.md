@@ -19,11 +19,11 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte como ativar e usar o Skype para Business Online chamada qualidade Dashboard e obter relatórios de resumo de qualidade de chamadas. '
-ms.openlocfilehash: 10826d22d2110d73b5233c36837fc5d20d34e382
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
+ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online
 
@@ -247,7 +247,7 @@ Se você deseja exibir as dimensões e medidas para um tipo de mídia único, a 
 
 [Análise de uso chamada solucionar problemas de qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Diferença entre a análise de chamada e o painel de controle de qualidade de chamada?](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análise de Cll e painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

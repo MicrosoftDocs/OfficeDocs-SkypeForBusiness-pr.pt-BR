@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumo: Revise neste tópico para obter informações sobre como integrar o Skype para negócios 2015 de servidor com o Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 6d3d88183cfb99597829f01aae70b1c5cdd6f09a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3c71509fc05ecabdf34f1d6ce8ec4f1a7af523be
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plano para integrar o Skype for Business e o Exchange
  
@@ -117,7 +117,6 @@ A tabela a seguir fornece detalhes sobre os recursos suportados em várias combi
 [Configure a integração entre o local Skype para Business Server 2015 e Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)
   
 [Configurar OAuth entre Skype para Business Online e o Exchange no local](../../deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises.md)
-#### 
 
 [Integrar Skype para Business Server 2015 com o Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)
   

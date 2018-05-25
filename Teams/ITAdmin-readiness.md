@@ -11,11 +11,11 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2dbb006fa9e44d1f2f08efc716063c1c6b1540c
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 5913b67c8c15fbff7f59b1155f7c2e366d6bb93c
+ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
 ---
 <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 ==================================
@@ -35,6 +35,7 @@ Conheça o Microsoft Teams e saiba como promover sua utilização na sua organiz
 | [Vídeos de audioconferência](audio-conferencing-videos.md) |Vídeos de apresentação da Audioconferência no Microsoft Teams para administradores de TI.  |
 | [Tutorial: Reuniões no Teams](tutorial-meetings-in-teams.yml) | Este treinamento introduz reuniões em equipes. Ele aborda as capacidades de reunião, além de requisitos e considerações de planejamento. |
 | Implantação e operação do Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/E7yDOfkpG48" frameborder="0" allowfullscreen></iframe>   |
+| Direcionar circulação para equipes da Microsoft (Preview)   | <iframe width="350" height="200" src="https://www.youtube.com/watch?v=RjJAn9BAxDw" frameborder="0" allowfullscreen></iframe>   |
 | Imersão no acesso de convidados <br>Sessão de café na nuvem com Laith Al e Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/D8DW2Urv5y8" frameborder="0" allowfullscreen></iframe>   |
 | e-Discovery no Microsoft Teams <br> Sessão de café na nuvem com Ansuman Acharya e Karuana Gatimu  | <iframe width="350" height="200" src="https://www.youtube.com/embed/OF65_p_07cE" frameborder="0" allowfullscreen></iframe>   |
 | Microsoft Teams: Introdução passo a passo para usar, habilitar e gerenciar a experiência <br> Sessão de Microsoft Mechanics com Dan Stevenson e Jeremy Chapman |  <iframe width="350" height="200" src="https://www.youtube.com/embed/tAqAtI6K7NY" frameborder="0" allowfullscreen></iframe>   |

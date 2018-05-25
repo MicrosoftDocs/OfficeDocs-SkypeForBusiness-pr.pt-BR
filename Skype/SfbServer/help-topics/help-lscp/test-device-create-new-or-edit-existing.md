@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: O recurso Dispositivo de Teste funciona em conjunto com o recurso Atualização de Dispositivo. Você pode adicionar um dispositivo de teste para a página de dispositivo de teste e, em seguida, usar este dispositivo para verificar a funcionalidade das novas atualizações antes de implantar as atualizações de dispositivos de produção. É possível testar um dispositivo globalmente (em todo seu ambiente) ou dentro de um único site. Você identifica um dispositivo de teste por seu endereço MAC (Controle de acesso à mídia) ou número de série. Quando você adiciona um dispositivo, ela será exibida na lista na página Testar dispositivo do Skype para painel de controle do Business Server.
-ms.openlocfilehash: 022a56797952986f52772cb5fbed6d1f09bf7d75
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 765bd7db9cbce369a92d3bb532076e480374ebb4
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Dispositivo de Teste: Criar Novo ou Editar Existente
  
@@ -54,7 +54,6 @@ Para obter detalhes sobre dispositivos de teste, consulte [Add a Device to Test 
 #### 
 
 [Dispositivo de teste](test-device.md)
-#### 
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   

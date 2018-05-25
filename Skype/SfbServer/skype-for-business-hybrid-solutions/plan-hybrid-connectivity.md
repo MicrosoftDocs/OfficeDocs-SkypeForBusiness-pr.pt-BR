@@ -17,11 +17,11 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumo: Leia este tópico para saber como planejar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online. A configuração da conectividade híbrida é a primeira etapa da implantação de muitas soluções híbridas do Skype for Business.'
-ms.openlocfilehash: ef2ecb665baf5942d1ad9ee9d5175192e348a2f6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d61bdd8ecf7ce35e1f80e5b69ede590d5d2c1cd1
+ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/22/2018
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online
  
@@ -298,8 +298,8 @@ Além dos requisitos de porta para a comunicação interna, você também deve c
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |SIP (MTLS)  <br/> |TCP  <br/> |Borda de Acesso  <br/> |Office 365  <br/> |Qualquer  <br/> |5061  <br/> |Sinalização  <br/> |
 |SIP (MTLS)  <br/> |TCP  <br/> |Office 365  <br/> |Borda de Acesso  <br/> |Qualquer  <br/> |5061  <br/> |Sinalização  <br/> |
-|STUN  <br/> |TCP  <br/> |Borda A/V  <br/> |Office 365  <br/> |50000-59999  <br/> |443, 50000-59999  <br/> |Abertas para sessões de áudio, vídeo e compartilhamento de aplicativos  <br/> |
-|STUN  <br/> |TCP  <br/> |Office 365  <br/> |Borda A/V  <br/> |443  <br/> |50000-59999  <br/> |Abertas para sessões de áudio, vídeo e compartilhamento de aplicativos  <br/> |
+|STUN  <br/> |TCP  <br/> |Borda A/V  <br/> |Office 365  <br/> |50000-59999  <br/> |443  <br/> |Abertas para sessões de áudio, vídeo e compartilhamento de aplicativos  <br/> |
+|STUN  <br/> |TCP  <br/> |Office 365  <br/> |Borda A/V  <br/> |50000-59999  <br/> |443  <br/> |Abertas para sessões de áudio, vídeo e compartilhamento de aplicativos  <br/> |
 |STUN  <br/> |UDP  <br/> |Borda A/V  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Abertas para sessões de áudio, vídeo  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |Borda A/V  <br/> |3478  <br/> |3478  <br/> |Abertas para sessões de áudio, vídeo  <br/> |
    

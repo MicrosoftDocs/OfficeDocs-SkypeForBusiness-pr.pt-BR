@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Configurando o seguinte:'
-ms.openlocfilehash: e9f42114e64351290322b9ae0e520c9556c457f0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d2eb66e7603fec6cdf5ac7c41066e3d1c8e7c09
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Defina o tronco raiz para um novo IP ou Gateway PSTN
  
@@ -39,7 +39,6 @@ Defina o tronco raiz para o IP ou rede telefônica pública comutada (PSTN) Conf
 [Configurar um tronco com bypass de mídia no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
   
 [Configurar um tronco sem bypass de mídia no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
-#### 
 
 [Suporte ao tronco SIP](http://technet.microsoft.com/library/e3042831-e8d8-4ea2-baa2-1a697401ffa0.aspx)
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumo: Crie um pool de servidores de interoperabilidade de vídeo no Skype para negócios 2015 de servidor usando o construtor de topologia.'
-ms.openlocfilehash: ab34cf5b547301314bf169b56481818f78e9908a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 89fcdf34480bc9b99295993d28e32ca547f07893
+ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Criar um pool VIS no Skype for Business Server 2015
  
@@ -67,7 +67,6 @@ Todas as tarefas executadas usando o Construtor de Topologias devem estar conclu
 #### 
 
 [Implantar a função de servidor VIS no Skype para Business Server 2015](deploy-the-vis-server-role.md)
-#### 
 
 [Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
   
