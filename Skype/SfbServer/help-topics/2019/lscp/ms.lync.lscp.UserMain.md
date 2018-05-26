@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Você pode usar os resultados de uma consulta de pesquisa para configurar usuários para Skype para Business Server. É possível pesquisar por usuários por nome de exibição, nome, sobrenome, nome de conta SAM (Gerenciador de contas de segurança), endereço SIP ou URI (Uniform Resource Identifier) de linha. Também é possível pesquisar por usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory.
-ms.openlocfilehash: 9cf6384d10cc4b6d2931fb21c75fd09da873d383
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 188c60467f5579a56cd4b5fa85a616f2e4639663
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="control-panel---updated-user-search"></a>Painel de Controle - atualizado: Pesquisa de Usuário
  
@@ -30,19 +30,19 @@ Você pode usar os resultados de uma consulta de pesquisa para configurar usuár
     
 - [Habilitar ou desabilitar usuários para o Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Mover usuário](move-user.md)
+- [Mover usuário](ms.lync.lscp.UserMove.md)
     
-- [Mover todos os usuários](move-all-users.md)
+- [Mover todos os usuários](ms.lync.lscp.UserMoveAll.md)
     
 - [Atribuir políticas aos usuários](http://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
     
-- [Habilitar usuários para o Enterprise Voice no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar usuários para o Enterprise Voice no Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Configurar a federação, acesso de usuário remoto e conectividade de IM pública para usuários](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
 - [Configurar telefonia para usuários](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="ui-reference"></a>Referência de UI
 
@@ -72,9 +72,9 @@ Adicione outro texto descritivo, conforme o apropriado.
   
 ### <a name="search-results-menus"></a>Menus de resultados da pesquisa
 
-- **Permitir que os usuários** Clique para abrir o [usuários: novo usuário do Lync Server](users-new-lync-server-user.md) caixa de diálogo, onde você pode adicionar um novo usuário à Skype para Business Server.
+- **Permitir que os usuários** Clique para abrir o [usuários: novo usuário do Lync Server](ms.lync.lscp.UserNew.md) caixa de diálogo, onde você pode adicionar um novo usuário à Skype para Business Server.
     
-    Para adicionar um novo contato, clique na seta e selecione **Habilitar contatos** para abrir o [usuários: New Contact Objects](users-new-contact-objects.md) diálogo.
+    Para adicionar um novo contato, clique na seta e selecione **Habilitar contatos** para abrir o [usuários: New Contact Objects](ms.lync.lscp.UserNewContact.md) diálogo.
     
 - **Editar** Clique em **Editar** e clique em **Mostrar detalhes** para exibir os detalhes do usuário selecionado, ou clique em **Selecionar todos os resultados de pesquisa** para selecionar todos os usuários exibidos na tabela de resultados.
     
@@ -84,11 +84,11 @@ Adicione outro texto descritivo, conforme o apropriado.
     
   - **Desabilitar temporariamente para o Lync Server** Desabilita a conta de usuário no Skype para Business Server até reabilitá-lo, sem remover a conta de usuário.
     
-  - **Atribuir políticas** Abre o [usuários: Atribuir políticas](users-assign-policies.md) caixa de diálogo, onde você pode configurar as políticas atribuídas ao usuário.
+  - **Atribuir políticas** Abre o [usuários: Atribuir políticas](ms.lync.lscp.UserAssignPolicy.md) caixa de diálogo, onde você pode configurar as políticas atribuídas ao usuário.
     
-  - **Exibir status do PIN** Abre o [usuários: exibir o Status do PIN](users-view-pin-status.md) caixa de diálogo, que exibe os dados PIN do usuário selecionado.
+  - **Exibir status do PIN** Abre o [usuários: exibir o Status do PIN](ms.lync.lscp.UserViewPin.md) caixa de diálogo, que exibe os dados PIN do usuário selecionado.
     
-  - **Definir PIN** Abre a caixa de diálogo [Definir PIN](set-pin.md) , onde é possível definir o PIN do usuário selecionado.
+  - **Definir PIN** Abre a caixa de diálogo [Definir PIN](ms.lync.lscp.UserSetPin.md) , onde é possível definir o PIN do usuário selecionado.
     
   - **Bloquear PIN** Bloqueia o PIN do usuário.
     
@@ -98,8 +98,8 @@ Adicione outro texto descritivo, conforme o apropriado.
     
   - **Remover certificado do usuário** Remove todos os certificados concedidos ao usuário.
     
-  - **Mover usuários selecionados para o pool** Abre a caixa de diálogo [Move User](move-user.md) , onde você pode selecionar um pool para mover o usuário selecionado.
+  - **Mover usuários selecionados para o pool** Abre a caixa de diálogo [Move User](ms.lync.lscp.UserMove.md) , onde você pode selecionar um pool para mover o usuário selecionado.
     
-  - **Mover todos os usuários ao pool** Abre a caixa de diálogo [Move User](move-user.md) , onde você pode selecionar um pool a fim de mover todos os usuários selecionados.
+  - **Mover todos os usuários ao pool** Abre a caixa de diálogo [Move User](ms.lync.lscp.UserMove.md) , onde você pode selecionar um pool a fim de mover todos os usuários selecionados.
     
 

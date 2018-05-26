@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Para uma implantação do Enterprise Edition, é possível colocar qualquer A / V Conferencing serviço, o servidor de mediação ou ambos em um pool Front-End, ou você podem implantar cada um deles como servidores autônomos. Para uma implantação de servidor do Standard Edition, A / o serviço de conferência de V é sempre colocado se conferência estiver habilitada.
-ms.openlocfilehash: f8a1abf168447af7f45ed8f222ef80f029aff2bc
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 555f23cc9a6cf07f9a095edb56c8307c495def6c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Adicionar colocações de servidor de Front End 2010
  
@@ -33,6 +33,6 @@ Você pode colocar a função de servidor de mediação em um servidor Standard 
     
 Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para avaliar se o pool de Front-End, onde você deseja colocar o servidor de mediação pode manipular a carga. Se seu ambiente não pode atender a esses requisitos, você deve implantar um pool do servidor de mediação autônomo.
   
-Em geral, colocação da / V Conferencing Server ou servidor de mediação não é recomendado, se sua organização tem alta disponibilidade e escalabilidade requirementsFor detalhes sobre colocando essas funções de servidor em um pool de Front-End em uma versão Enterprise Edition implantação, consulte [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de implantação. Para obter detalhes sobre A / recurso de conferência V e componentes, consulte [Planning for Conferencing](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) na documentação de planejamento. Para obter detalhes sobre os recursos do Enterprise Voice e componentes, incluindo o servidor de mediação, consulte [Plan for Enterprise Voice no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) na documentação de planejamento.
+Em geral, colocação da / V Conferencing Server ou servidor de mediação não é recomendado, se sua organização tem alta disponibilidade e escalabilidade requirementsFor detalhes sobre colocando essas funções de servidor em um pool de Front-End em uma versão Enterprise Edition implantação, consulte [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de implantação. Para obter detalhes sobre A / recurso de conferência V e componentes, consulte [Planning for Conferencing](http://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) na documentação de planejamento. Para obter detalhes sobre os recursos do Enterprise Voice e componentes, incluindo o servidor de mediação, consulte [Plan for Enterprise Voice no Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) na documentação de planejamento.
   
 

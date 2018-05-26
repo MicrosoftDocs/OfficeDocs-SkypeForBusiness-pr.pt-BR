@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Clique com o botão troncos no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: e164e11c3185e8306146f3558459afbcf9fe52f5
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: fbd9f99a8f8b98589f204835a45a5ed7bd0984da
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="trunks-scope-node"></a>Nó de escopo de troncos
  
@@ -26,7 +26,7 @@ Clique com o botão **troncos** no construtor de topologias para executar o segu
     
 Além da opção Novo Tronco, você pode executar as seguintes tarefas gerais:
   
-![Nó de escopo de troncos](../../media/Trunks_Scope_Node.jpg)
+![Nó de escopo de troncos](../../../media/Trunks_Scope_Node.jpg)
   
 - **Topologia**. Você pode usar esta opção para definir uma nova topologia, abrir uma topologia existente, baixar a topologia atual, salvar uma cópia ou publicar a topologia, instalar um banco de dados, mesclar componentes de versões anteriores ou remover a implantação.
     

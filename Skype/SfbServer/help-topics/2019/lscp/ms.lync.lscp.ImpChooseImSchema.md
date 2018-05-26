@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Use a caixa de diálogo Selecionar prefixo de hiperlink para selecionar os tipos de hiperlinks que você deseja bloquear, enviar uma mensagem de aviso ou permitir marcando (para bloquear ou enviar uma mensagem de aviso) ou desmarcando (para permitir) as caixas de seleção para suas extensões das categorias em Prefixos de hiperlink. Clique na seta para expandir uma categoria e exibir todos os prefixos de hiperlink para essa categoria. Se você deseja selecionar todos os prefixos de hiperlink para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: 6b4b888ba6836b88fb70c030287e09bd15f4dba8
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: de3009bab2193b2c4e423727290d6ff01c5f84db
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-hyperlink-prefix"></a>Selecionar prefixo de hiperlink
  
@@ -26,6 +26,6 @@ Se você não vir um prefixo de hiperlink que você deseja selecionar listados e
   
 Depois que todos os prefixos de hiperlink que você deseja adicionar à lista de **prefixos de hiperlink selecionados** , clique em **Okey**.
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
   
 

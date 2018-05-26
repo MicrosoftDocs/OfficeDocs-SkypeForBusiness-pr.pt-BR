@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Iniciar o construtor de topologias para configurar as propriedades e a configuração da sua implantação do Microsoft Lync Server 2013. Na inicialização, o construtor de topologias exibe uma caixa de diálogo que pergunta qual será a fonte do documento de topologia. Você selecionar uma das três opções:'
-ms.openlocfilehash: 754d7a4e9f69c97891714dc02b325bf1d2b8b168
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f7e41d99b24f7064bd68f8c8a44565078eba87cf
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="topology-builder-startup-dialog"></a>Caixa de diálogo de inicialização do Construtor de Topologias
  
@@ -28,7 +28,7 @@ Iniciar o construtor de topologias para configurar as propriedades e a configura
     
 - **Nova topologia** Selecione essa opção para começar a configuração de um novo documento de topologia. Essa opção abre um novo documento de topologia que você configurar para atender os requisitos de implantação que você irá configurar.
     
-![Caixa de diálogo de inicialização do Construtor de Topologias](../../media/Topology_Builder_Startup_Dialog.jpg)
+![Caixa de diálogo de inicialização do Construtor de Topologias](../../../media/Topology_Builder_Startup_Dialog.jpg)
   
 ## <a name="see-also"></a>Consulte também
 

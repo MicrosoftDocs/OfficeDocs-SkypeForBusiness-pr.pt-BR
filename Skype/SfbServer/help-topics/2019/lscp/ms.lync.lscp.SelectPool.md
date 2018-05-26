@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Use selecionar uma caixa de diálogo de serviço para encontrar os serviços disponíveis no seu ambiente. Para usar um serviço existente, clique em um serviço na lista e clique em Okey.
-ms.openlocfilehash: fa302a1ed6273d54dbd1e6ea74e6e2c6acb0daba
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8e7d96479a0c5703a8b480ce88267ba74e5a35d7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-service"></a>Selecionar um Serviço
  
 Use a caixa de diálogo **Selecionar um Serviço** para localizar serviços disponíveis no seu ambiente. Para usar um serviço existente, clique em um serviço na lista e clique em **OK**. 
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -34,7 +34,7 @@ Para obter detalhes sobre os diferentes procedimentos que você pode executar us
     
 - [Configurar opções do servidor de bate-papo persistente globalmente ou para o Pool do servidor de bate-papo persistente](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de bate-papo
 

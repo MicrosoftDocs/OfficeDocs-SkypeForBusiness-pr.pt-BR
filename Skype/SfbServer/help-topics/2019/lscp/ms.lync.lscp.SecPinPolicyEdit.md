@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: d415b056e66ec0dd3757691f8b027c605f5bd01d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9e991433dd416424a7dc99f0b60daba5c4cd193f
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Política PIN: Criar nova ou editar existente
  
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
   
-- [Criar uma nova política PIN no Skype para Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
+- [Criar uma nova política PIN no Skype para Business Server 2015](../../../manage/authentication/create-a-new-pin-policy.md)
     
-- [Modificar uma política PIN existente no Skype para Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Modificar uma política PIN existente no Skype para Business Server 2015](../../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [Excluir uma política PIN no Skype para Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
+- [Excluir uma política PIN no Skype para Business Server 2015](../../../manage/authentication/delete-a-pin-policy.md)
     
 - [Criar ou modificar as configurações de PIN de conferência discada para um Site ou grupo de usuários](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     
@@ -34,5 +34,5 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
     
 - [Excluir configurações de PIN de conferência discada para um Site ou grupo de usuários](http://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
 

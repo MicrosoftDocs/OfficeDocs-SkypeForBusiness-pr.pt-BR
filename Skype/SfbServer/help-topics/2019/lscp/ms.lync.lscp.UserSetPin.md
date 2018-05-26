@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Para gerar o PIN do usuário, selecione Gerar automaticamente um PIN válido.
-ms.openlocfilehash: f09103a0a1300a32098547b896dc7872b1339c6b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4cc95fb7dbbf66aee293d73aa3b61d46fdfc59a3
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="set-pin"></a>Definir PIN
  
@@ -24,7 +24,7 @@ Para gerar o PIN do usuário, selecione **Gerar automaticamente um PIN válido**
   
 Para criar seu próprio PIN, selecione **Inserir um PIN específico manualmente**, e depois insira um PIN na caixa de texto que atenda às exigências de PIN especificadas em suas definições de política de PIN. 
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="see-also"></a>Consulte também
 

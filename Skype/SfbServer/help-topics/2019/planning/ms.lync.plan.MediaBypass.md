@@ -13,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: Bypass de mídia refere-se à remoção do servidor de mediação do caminho de mídia sempre que possível para chamadas cuja sinalização percorre o servidor de mediação. Para obter mais detalhes, consulte planejar media bypass no Skype para negócios 2015.
-ms.openlocfilehash: d6d11898df06ea1a9af5e62a5363f503a0bd3853
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 311e1c19b703af20e525e8cd0cf667e6353e0865
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="media-bypass-planning-tool"></a>Bypass de mídia (ferramenta de planejamento)
  
-Bypass de mídia refere-se à remoção do servidor de mediação do caminho de mídia sempre que possível para chamadas cuja sinalização percorre o servidor de mediação. Para obter mais detalhes, consulte [Plan for media bypass no Skype para negócios 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+Bypass de mídia refere-se à remoção do servidor de mediação do caminho de mídia sempre que possível para chamadas cuja sinalização percorre o servidor de mediação. Para obter mais detalhes, consulte [Plan for media bypass no Skype para negócios 2015](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
   
 

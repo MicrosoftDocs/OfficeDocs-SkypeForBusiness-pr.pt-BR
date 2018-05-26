@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: 'Você pode usar a nova configuração de tronco: nova regra de conversão de número de chamada para criar uma nova regra de conversão. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:'
-ms.openlocfilehash: 7757a1499b72ce75289337a9c0b99220f02e8567
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 046e06f12c48ba5b2a33389fbfe0f4514470b0fc
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="new-calling-number-translation-rule"></a>Nova regra de conversão de número de chamada
  
 Você pode usar a **Nova configuração do tronco**: **Nova chamada regra de conversão de número** para criar uma nova regra de conversão. Para obter detalhes sobre as regras de transição, consulte os seguintes tópicos:
   
-1. [Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+1. [Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
     
 2. [Configuração do tronco e regras de conversão](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx)
     

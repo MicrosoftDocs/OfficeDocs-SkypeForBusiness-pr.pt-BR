@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: Para começar a criação de um novo servidor de Chat persistente ou o pool do servidor de Chat persistente, no construtor de topologia você clique com o botão direito em pools de Chat persistente e selecione Novo Pool de Chat persistente
-ms.openlocfilehash: 4a1d9d3be44a1bc185f7f3db6ec98c04b939bb6b
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c3806adaaa03fcedfe72a7538afdb30c65bb4c1f
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-scope-node"></a>Nó de Escopo de Chat Persistente
  
@@ -30,7 +30,7 @@ Para começar a criação de um novo servidor de Chat persistente ou o pool do s
 
 #### 
 
-[Planejar o servidor de Chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar o servidor de Chat persistente no Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
 

@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: Você pode usar a seção Add-in da página Chat persistente para associar URLs salas de Chat persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
-ms.openlocfilehash: 701a128095cd2d9e001109fb6623659d189b2fbb
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7c7dab8b3109834882e2f8cd8fc8285269fbec89
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Página Principal do Suplemento de Chat Persistente
  
@@ -24,13 +24,13 @@ Você pode usar a seção **Add-in** da página **Chat persistente** para associ
   
 Os suplementos são usados para estender a experiência na sala. Um suplemento típico pode incluir uma URL que aponta para um aplicativo Silverlight que intercepta quando um registrador de cotações é postado em uma sala de bate-papo e mostra o histórico de estoque no painel de extensibilidade. Outros exemplos incluem a URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
   
-Para criar suplementos para salas de Chat persistente, consulte [Configurar suplementos para salas de Chat persistente no Skype para Business Server 2015](../../manage/persistent-chat/configure-add-ins.md). Se você for um administrador de Chat persistente, você pode criar suplementos usando o painel de controle ou os cmdlets do Windows PowerShell.
+Para criar suplementos para salas de Chat persistente, consulte [Configurar suplementos para salas de Chat persistente no Skype para Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md). Se você for um administrador de Chat persistente, você pode criar suplementos usando o painel de controle ou os cmdlets do Windows PowerShell.
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
 É possível executar as seguintes tarefas na página **Suplemento**:
   
-- [Configurar suplementos para salas de Chat persistente no Skype para Business Server 2015](../../manage/persistent-chat/configure-add-ins.md)
+- [Configurar suplementos para salas de Chat persistente no Skype para Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md)
     
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Para configurar Suplementos para as salas de chat
 
@@ -58,6 +58,6 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
     
 ### 
 
-Para obter detalhes sobre os recursos de servidor de Chat persistente e recursos, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server na Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Gerenciar o servidor de Chat persistente no Skype para Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Para obter detalhes sobre os recursos de servidor de Chat persistente e recursos, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server na Skype para Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Gerenciar o servidor de Chat persistente no Skype para Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
   
 

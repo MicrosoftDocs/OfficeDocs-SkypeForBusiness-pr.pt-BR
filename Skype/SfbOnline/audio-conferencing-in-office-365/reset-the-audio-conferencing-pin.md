@@ -20,11 +20,11 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra o que você deve saber sobre PINs e como redefini-las. '
-ms.openlocfilehash: 092d51061c374e14485527993a95e03e8e29649d
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>Redefinir o PIN de conferência de áudio
 
@@ -32,7 +32,17 @@ Um PIN é um código formado por números que são criados para cada Skype para 
   
 Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando um Skype para aplicativo de negócios ou Microsoft Teams ou quando o organizador ingressa com seu PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
   
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-reset-a-users-pin"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Redefinir o PIN de um usuário
+## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
+
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+
+2. Na parte superior da página, clique em **Editar**.
+
+3. Em **Conferência de áudio**, clique em **Redefinir PIN**.
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **usando o Skype para centro de administração de negócios**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -45,9 +55,16 @@ Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-have-a-user-reset-his-or-her-own-pin"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Faça com que um usuário redefinir o PIN de seu próprio
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Faça com que um usuário redefinir o PIN de seu próprio
 
-Um usuário pode redefinir um PIN, utilizando a opção **Redefinir PIN** na página **conferência discada** . Página Thsi pode ser acessada em uma destas três formas:
+![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+
+1. Solicite que o usuário acesse [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+2. Clique em **Redefinir o PIN**. 
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **usando o Skype para centro de administração de negócios**
+
+Um usuário pode redefinir um PIN, utilizando a opção **Redefinir PIN** na página **conferência discada** . Essa página pode ser acessada em uma destas três formas:
 
 * Em um navegador, vá para [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling).
 * Na Skype para a empresa, clique na seta **Mostrar Menu** ao lado de **Opções**e, em seguida, clique em **Ferramentas** > **Configurações de conferência discada**.

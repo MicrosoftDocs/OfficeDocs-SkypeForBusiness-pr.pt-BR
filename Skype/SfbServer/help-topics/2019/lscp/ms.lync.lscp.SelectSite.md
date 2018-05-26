@@ -12,11 +12,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Use selecionar uma caixa de diálogo de Site para encontrar sites disponíveis no seu ambiente. Para usar um site existente, clique em um site na lista e clique em Okey.
-ms.openlocfilehash: 7c39b0d4d0fad775f1c271542f76889060267c33
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7aba1089d73188c2d65771a87f01a20f93c48c4a
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="select-a-site"></a>Selecionar um Site
  
@@ -25,7 +25,7 @@ Use a caixa de diálogo **Selecionar um Site** para localizar sites disponíveis
 > [!NOTE]
 > Clique no ícone de busca na caixa de busca sem ter inserido nada para obter todos os sites disponíveis. 
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
@@ -35,7 +35,7 @@ Para obter detalhes sobre os diferentes procedimentos que você pode executar us
     
 - [Criar uma política de Site para o bate-papo persistente](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
+Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
   
 ## <a name="to-configure-persistent-chat-options-globally"></a>Para configurar as opções de Chat persistente globalmente
 

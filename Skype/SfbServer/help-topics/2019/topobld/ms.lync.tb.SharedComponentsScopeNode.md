@@ -12,27 +12,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Você right clicar em componentes compartilhados na árvore de hierarquia do construtor de topologias para criar novos componentes compartilhados ou para acessar as opções de nível de topologia.
-ms.openlocfilehash: aab7c14a4135b6e4cda88872098bff0a8eeb0566
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: c3d5ad676439658beee774cbb71e6ea9a1660872
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="shared-components-scope-node"></a>Nó de escopo de componentes compartilhados
  
 Você right clicar em **Componentes compartilhados** na árvore de hierarquia do construtor de topologias para criar novos componentes compartilhados ou para acessar as opções de nível de topologia.
   
-![Nó de escopo de componentes compartilhados](../../media/Shared_Components_Scope_Node.jpg)
+![Nó de escopo de componentes compartilhados](../../../media/Shared_Components_Scope_Node.jpg)
   
 Selecione **novo** para criar um novo filestore, um novo Gateway IP/PSTN, um novo Office Web Apps Server, um novo repositório do SQL Server ou um novo tronco.
   
 > [!NOTE]
 > Consulte os tópicos de ajuda para cada uma dessas opções. 
   
-![Nó de escopo de componentes compartilhados](../../media/Shared_Components_Scope_NodeB.jpg)
+![Nó de escopo de componentes compartilhados](../../../media/Shared_Components_Scope_NodeB.jpg)
   
 Você selecionar a **topologia** , clique em opções para abrir um novo documento de topologia. Abrir um documento de topologia existente, fazer Download da topologia atual do repositório de gerenciamento Central, salvar uma cópia do documento a topologia atual, publicar o documento da topologia atual, instalar banco de dados para criar as configurações de banco de dados configurado no momento, Mescle o Office Communications Server 2007 R2 no implantação atual ou para remover implantação.
   
-![Nó de escopo de componentes compartilhados C](../../media/Shared_Components_Scope_NodeC.jpg)
+![Nó de escopo de componentes compartilhados C](../../../media/Shared_Components_Scope_NodeC.jpg)
   
 
