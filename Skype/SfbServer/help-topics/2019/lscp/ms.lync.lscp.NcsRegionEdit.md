@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 298d688935bd8ebcb28a3091744c04046761324c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 763017a605328b4fcaabcf79d7970cee6e608baf
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="0f5c8-104">Configurar uma região de rede: Criar nova ou editar existente</span><span class="sxs-lookup"><span data-stu-id="0f5c8-104">Configure a Network Region: Create New or Edit Existing</span></span>
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a><span data-ttu-id="59b19-104">Configurar uma região de rede: Criar nova ou editar existente</span><span class="sxs-lookup"><span data-stu-id="59b19-104">Configure a Network Region: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="0f5c8-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="0f5c8-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="59b19-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="59b19-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="0f5c8-107">Configurando regiões de rede</span><span class="sxs-lookup"><span data-stu-id="0f5c8-107">Configuring Network Regions</span></span>](http://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
+- [<span data-ttu-id="59b19-107">Configurando regiões de rede</span><span class="sxs-lookup"><span data-stu-id="59b19-107">Configuring Network Regions</span></span>](http://technet.microsoft.com/library/bd08bb66-5976-4ece-b45c-7de19569f814.aspx)
     
-<span data-ttu-id="0f5c8-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0f5c8-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="59b19-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="59b19-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 

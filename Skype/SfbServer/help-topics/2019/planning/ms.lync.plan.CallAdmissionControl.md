@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo.
-ms.openlocfilehash: 10750b7f3653eed9051b59ebd0b79174cd92f5c9
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 5aa8a606251712c47c69838b8ec6d45a0fe48b8c
+ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 05/25/2018
 ---
-# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="03c4d-103">Controle de admissão de chamada (ferramenta de planejamento)</span><span class="sxs-lookup"><span data-stu-id="03c4d-103">Call Admission Control (Planning Tool)</span></span>
+# <a name="call-admission-control-planning-tool"></a><span data-ttu-id="6e07a-103">Controle de admissão de chamada (ferramenta de planejamento)</span><span class="sxs-lookup"><span data-stu-id="6e07a-103">Call Admission Control (Planning Tool)</span></span>
  
-<span data-ttu-id="03c4d-104">O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo.</span><span class="sxs-lookup"><span data-stu-id="03c4d-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
+<span data-ttu-id="6e07a-104">O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo.</span><span class="sxs-lookup"><span data-stu-id="6e07a-104">Call admission control (CAC) determines, based on available network bandwidth, whether to allow real-time communications sessions such as voice or video calls to be established.</span></span>
   
-<span data-ttu-id="03c4d-105">Para obter detalhes sobre o planejamento de controle de admissão de chamada, consulte [Planejar o controle de admissão de chamada no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="03c4d-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
+<span data-ttu-id="6e07a-105">Para obter detalhes sobre o planejamento de controle de admissão de chamada, consulte [Planejar o controle de admissão de chamada no Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span><span class="sxs-lookup"><span data-stu-id="6e07a-105">For details about planning for call admission control, see [Plan for call admission control in Skype for Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).</span></span>
   
 
