@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: ff8f9bae2c292720bb3fd9943bc541a8eeb6759c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8a15d8da91235b4927bfaf35eadad625db42f45c
+ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/31/2018
+ms.locfileid: "19526379"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implantar o painel de controle de qualidade de chamada para Skype para Business Server 2015
  
