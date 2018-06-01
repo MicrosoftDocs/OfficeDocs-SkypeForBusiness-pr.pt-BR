@@ -17,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o Skype para relatório de minuto pools corporativos PSTN para ver o número de minutos gastos durante o mês atual dentro da sua organização.
-ms.openlocfilehash: 850a6659311b030fff6ca6c10660491694c50c27
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: be1b3cbea37f8d66c25ef6c1e75f18e7473a299e
+ms.sourcegitcommit: 0a0fd436d4d732710bb65e1809ac28dd2e0df41a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/31/2018
+ms.locfileid: "19526940"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools minuto PSTN
 
@@ -38,6 +39,8 @@ Nesse relatório, juntamente com o outro Skype para relatórios de negócios, of
 > [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Como obter para o Skype para relatório de minuto pools corporativos PSTN
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 - Vá para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para centro de administração de negócios** > **relatórios** > **pools minutos do PSTN**.
     
@@ -57,12 +60,11 @@ Esta é a aparência do relatório.
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão dos pools minutos por licença (recurso) e o local de uso. 
 *    **O recurso** é o plano de serviço/licença usado para a chamada. Os planos de serviço/licença, que talvez você veja neste relatório incluem:
-     * MCOPSTNPP - créditos de comunicações
      * MCOPSTN1 - domésticas chamar planejar (3000 minutos planos de 1200/US-minuto UE
      * MCOPSTN2 - plano de chamadas internacionais
      * MCOPSTN5 - domésticas chamar Plan (plano de chamada de 120 minutos)
+     * MCOPSTN6 - domésticas chamar Plan (plano de chamada 240 minutos)
      * MCOMEETADD - serviços de audioconferência
-     * MCOMEETACPEA - pagamento por minuto serviços de audioconferência
 *    **Descrição do recurso** é uma descrição do tipo de licença utilizado para a chamada.
 *    **País minuto Pool** é o local de uso de licença do (s) que compartilham o pool de minuto. 
 *    **Minutos usado** é o número de minutos usados por mês.
