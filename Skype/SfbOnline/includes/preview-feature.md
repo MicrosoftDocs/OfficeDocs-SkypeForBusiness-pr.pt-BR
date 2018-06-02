@@ -1,0 +1,1 @@
+Este é um recurso de versão prévia ou lançamento antecipado.
