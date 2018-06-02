@@ -18,11 +18,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 0b376ddecf13a1346e17f23bbc1780e2780255dc
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 3240f26159e39169e1e31dcdb278acbd43a13f11
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19516860"
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
@@ -56,8 +57,9 @@ Para visualizar a atividade de seus usuários no Skype for Business, examine os 
 ![Número 1](../images/sfbcallout1.png)<br/>
 O relatório de atividade de email do **Skype para atividade de negócios** pode ser exibido para tendências nos últimos 7 dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (consulte número 7) mostrará dados por até 28 dias a partir da data atual (não a data que o relatório foi gerado).
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Se você clicar em detalhes de um dia específico, a tabela mostrará apenas dados por 30 dias até a data quando o relatório foi gerado.
+
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>
 Cada relatório tem uma data de geração. Geralmente, os relatórios refletem uma latência de 24 a 48 horas de tempo de atividade. 
@@ -80,7 +82,10 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 ![Número 7](../images/sfbcallout7.png)<br/>
 A tabela mostra uma análise detalhada de todas as atividades de conferência por usuário. Mostra todos os usuários que têm Skype para negócios atribuídos a eles e suas atividades de conferência. Você pode adicionar mais colunas à tabela.
 *    **Nome de usuário** é o nome do usuário.
-*    **Excluído** indica que a licença do usuário foi removida. <br/> <br/> **Observação:** Atividade de um usuário excluído ainda será exibida em um relatório, desde que ele foi licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.<br/><br/>
+*    **Excluído** indica que a licença do usuário foi removida.<br/><br/>
+    > [!NOTE]
+    > Atividade de um usuário excluído ainda será exibida em um relatório, desde que ele foi licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+     
 *    **Deleted date** is the date on which the user's license was removed.
 *    **Data da última atividade (UTC)** é a última vez que o usuário se envolveu em uma sessão entre pares, organizou uma conferência ou participou de uma.
 *    **-A-ponto** mostra o número total de sessões de conferência ponto a ponto que o usuário tiver usado.

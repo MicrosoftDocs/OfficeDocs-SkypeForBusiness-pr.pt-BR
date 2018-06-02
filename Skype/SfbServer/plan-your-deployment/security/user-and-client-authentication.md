@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Um usuário confiável é aquele cujas credenciais foram autenticadas por um servidor confiável no Skype para Business Server 2015. Esse servidor é geralmente um servidor Standard Edition, servidor de Front End Enterprise Edition ou diretor. Skype para Business Server depende do Active Directory Domain Services como o repositório de back-end único e confiável de credenciais de usuário.
-ms.openlocfilehash: d8fa9265a4c27432dd4c2dba6e15c07e39f348b8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0cdf51da260c8251ca5abbb3ce0834e196a8d51b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546520"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server-2015"></a>Autenticação de usuário e cliente para o Skype for Business Server 2015
  
@@ -45,4 +46,17 @@ Os protocolos ICE e TURN também utilizam o mecanismo de desafio Digest, conform
   
 Certificados de cliente fornecem uma maneira alternativa dos usuários serem autenticados pelo Skype para Business Server 2015. Em vez de fornecer um nome de usuário e senha, os usuários possuem um certificado e a chave privada correspondente ao certificado exigida para resolver um desafio criptográfico. (Esse certificado deve ter um nome de entidade ou nome alternativo da entidade que identifica o usuário e deve ser emitido por uma autoridade de certificação raiz confiável para servidores que executam o Skype para Business Server 2015, estar dentro do período de validade do certificado e não foi revogado.) Para ser autenticado, os usuários precisam apenas digitar um número de identificação pessoal (PIN). Os certificados são particularmente úteis para telefones, celulares e outros dispositivos onde é difícil inserir um nome de usuário e senha.
   
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos criptográficos devido ao ASP .NET 4.5 
 
+A partir do Skype para Business Server 2015 CU5, AES não é suportado para ASP.NET 4.6 e isso pode causar Skype App de reuniões não sejam iniciados. Se um cliente estiver usando o AES como o valor de validação de chave de máquina, você precisará redefinir o valor da chave de máquina SHA-1 ou outro algoritmo com suporte no nível do site Skype reuniões App no IIS. Se necessário, consulte [Gerenciamento de configuração do IIS 8.0 ASP.NET](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obter instruções.
+  
+Outros valores suportados são:
+  
+- HMACSHA256
+    
+- HMACSHA384
+    
+- HMACSHA512
+    
+ Os valores AES, 3DES e MD5 não são permitidos, como costumavam no ASP.NET 4. [Aprimoramentos criptográficos no ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) tem mais detalhes.
+  

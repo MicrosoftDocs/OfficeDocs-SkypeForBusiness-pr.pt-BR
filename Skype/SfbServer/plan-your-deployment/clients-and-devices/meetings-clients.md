@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server 2015. Este artigo não se destina os usuários desses aplicativos.'
-ms.openlocfilehash: 921afbb6c446633128b2e2ead3c714dcdad91dd3
-ms.sourcegitcommit: c8963d8a1de4197ddb72229b3c26460e9e0aae77
+ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546558"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar para clientes de reuniões (Web App e reuniões App)
  
@@ -158,25 +159,13 @@ Para usuários finais, a [Ajuda online](https://aka.ms/smahelp) para esses aplic
     
 - Você pode precisa para [Ativar o JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) dá suporte no seu navegador para alguns Skype para recursos corporativos Web App funcionar conforme o esperado.
     
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos criptográficos devido ao ASP .NET 4.5
+### <a name="aes-support"></a>Suporte AES 
 
-A partir do Skype para Business Server 2015 CU5, AES não é suportado para ASP.NET 4.6 e isso pode causar Skype App de reuniões não sejam iniciados. Se um cliente estiver usando o AES como o valor de validação de chave de máquina, você precisará redefinir o valor da chave de máquina SHA-1 ou outro algoritmo com suporte no nível do site Skype reuniões App no IIS. Se necessário, consulte [Gerenciamento de configuração do IIS 8.0 ASP.NET](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obter instruções.
-  
-Outros valores suportados são:
-  
-- HMACSHA256
-    
-- HMACSHA384
-    
-- HMACSHA512
-    
- Os valores AES, 3DES e MD5 não são permitidos, como costumavam no ASP.NET 4. [Aprimoramentos criptográficos no ASP.NET 4.5, pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) tem mais detalhes.
+A partir do Skype para Business Server 2015 CU5, AES não é suportado para ASP.NET 4.6 e isso pode causar Skype App de reuniões não sejam iniciados. [Requisitos criptográficos devido ao ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) tem mais detalhes.
   
 ## <a name="see-also"></a>Ver também
 <a name="BKMK_Conferencing"> </a>
 
-#### 
 [Implantar clientes para download da Web no Skype para Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-#### 
 [Plataformas com suporte para o aplicativo de reuniões do Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

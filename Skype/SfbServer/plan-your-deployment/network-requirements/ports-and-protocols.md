@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 4bf9b7f9f1d0d0b99a8add76c4f73d4adcebea16
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546589"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -26,7 +27,7 @@ ms.lasthandoff: 05/03/2018
   
 Skype para Business Server requer que portas específicas nos firewalls internos e externos estejam abertos. Adicionalmente, se o protocolo IPsec (Internet Protocol security) tiver sido implantado em sua organização, ele deverá estar desabilitado no intervalo de portas usadas para a distribuição de áudio, vídeo e vídeo panorama. 
   
-Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para o planejamento, isso pode ser feito usando o [Skype para ferramenta de planejamento do Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Depois que você tiver ido pelas perguntas do assistente sobre quais recursos você planeja usar, para cada site que você define você pode exibir o relatório de Firewall dentro do relatório de administração de borda e use as informações na lista para criar regras de yourfirewall. Você também pode fazer ajustes muitos dos nomes e endereços IP usados para obter detalhes consulte [Review o relatório de Firewall](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Lembre-Lembre-se pode exportar o relatório de administração de borda para uma planilha do Excel e o relatório de Firewall será uma das planilhas no arquivo. 
+Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para o planejamento, isso pode ser feito usando o [Skype para ferramenta de planejamento do Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Depois que você tiver ido pelas perguntas do assistente sobre quais recursos você planeja usar, para cada site que você define você pode exibir o relatório de Firewall dentro do relatório de administração de borda e use as informações na lista para criar regras de yourfirewall. Você também pode fazer ajustes muitos dos nomes e endereços IP usados para obter detalhes consulte [Review o relatório de Firewall](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Lembre-Lembre-se pode exportar o relatório de administração de borda para uma planilha do Excel e o relatório de Firewall será uma das planilhas no arquivo. 
   
 Você também pode encontrar as informações nestas tabelas no formulário de diagrama examinando o cartaz de cargas de trabalho de protocolo vinculado do artigo [Technical diagrams for Skype para Business Server 2015](../../technical-diagrams.md) .
   

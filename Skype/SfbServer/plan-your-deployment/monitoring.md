@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumo: Revise esse tópico durante o planejamento para o serviço de monitoramento no Skype de negócios Server 2015.'
-ms.openlocfilehash: 82cad33f6094711f592633229db81b598df56fcb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f277f74de3c7adee914c141ac4472b3c2fba1575
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546551"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server-2015"></a>Planejar o monitoramento no Skype for Business Server 2015
  
@@ -122,10 +123,7 @@ Os dados de monitoramento pode compartilhar uma instância do SQL Server com out
     
 Em outras palavras, não é possível ter duas instâncias do banco de dados LcsCdr na mesma instância do SQL Server. Se você precisa de várias instâncias do banco de dados LcsCdr, deve configurar várias instâncias do SQL Server.
   
-## <a name="see-also"></a>Ver também
-<a name="topologies"> </a>
+## <a name="see-also"></a>Consulte também
 
-#### 
 
 [Implantando o Monitoring](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-

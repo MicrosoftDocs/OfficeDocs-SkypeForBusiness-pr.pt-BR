@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumo: Saiba mais sobre Skype para integração de Business Server 2015 com o Exchange e SharePoint.'
-ms.openlocfilehash: 51943ac3b67ec204429a1970836f03f04acec0d5
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: be40510a5a33545a7aa6fc84d6d67a20a2cd89cf
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 06/02/2018
+ms.locfileid: "19546473"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integração com o Exchange e SharePoint
  
@@ -47,7 +48,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
 |Publique o status com base nas informações de ocupado/livre do calendário do Outlook  <br/> ||
 |Lista de contatos (via repositório de contato unificado)  <br/> |Exige 2016 do Exchange ou o Exchange 2013.  <br/> É necessário um Lync 2013 ou Skype para o cliente de desktop de negócios.  <br/>  Para obter mais informações, consulte [Configurar Skype para negócios 2015 de servidor usar o repositório unificado de contatos](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Foto de alta resolução contato no cliente do Lync 2013, Skype para o cliente de negócios e Lync Web App.  <br/> |Exige 2016 do Exchange ou o Exchange 2013.  <br/> Para obter mais informações, consulte [Configurar o uso de fotos de alta resolução no Skype para Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local.  <br/> |
+|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [Skype para soluções híbridas de negócios](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do exchange do usuário  <br/> ||
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> |Exige 2016 do Exchange ou o Exchange 2013.  <br/> Para obter mais informações, consulte a [Lista de verificação de implantação para arquivamento](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Pesquise o conteúdo arquivado  <br/> |Exige 2016 do Exchange ou o Exchange 2013.  <br/> |
@@ -67,7 +68,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
 |Publique o status com base nas informações de ocupado/livre do calendário do Outlook  <br/> ||
 |Lista de contatos (via repositório de contato unificado).  <br/> |Lync Server 2013 apenas. É necessário um Lync 2013 ou Skype para o cliente de desktop de negócios.  <br/> Para obter mais informações, consulte [Configurar Skype para negócios 2015 de servidor usar o repositório unificado de contatos](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Foto de alta resolução contato no cliente do Lync 2013, Skype para o cliente de negócios e Lync Web App.  <br/> |Para obter mais informações, consulte [Configurar o uso de fotos de alta resolução no Skype para Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> |
-|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local.  <br/> |
+|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [Skype para soluções híbridas de negócios](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do Exchange do usuário  <br/> ||
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> |Para obter mais informações, consulte a [Lista de verificação de implantação para arquivamento](http://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Pesquise o conteúdo arquivado  <br/> |Para obter mais informações, consulte em [Configure o Exchange para SharePoint eDiscovery Center](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
@@ -86,7 +87,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
 |Publique o status com base nas informações de ocupado/livre do calendário do Outlook  <br/> ||
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do exchange do usuário  <br/> ||
 |Foto de alta resolução contatos no Lync 2013 ou Skype para o cliente de negócios.  <br/> |Exige 2016 do Exchange ou o Exchange 2013. Isso não é suportado no Lync Web App quando os usuários hospedados no Skype para negócios Online.  <br/> |
-|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local.  <br/> |
+|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [Skype para soluções híbridas de negócios](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do Exchange do usuário  <br/> ||
 |Histórico da Conversa no Lado do Servidor  <br/> ||
    
@@ -105,7 +106,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do exchange do usuário  <br/> ||
 |Lista de contatos (via repositório de contato unificado)  <br/> |Lync Server 2013 ou Skype para o cliente de negócios necessário  <br/> |
 |Foto de alta resolução contatos no Lync 2013, Skype para o cliente de negócios e Lync Web App  <br/> ||
-|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local.  <br/> |
+|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [Skype para soluções híbridas de negócios](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> ||
 |Pesquise o conteúdo arquivado  <br/> ||
 |Caixa postal  <br/> ||
