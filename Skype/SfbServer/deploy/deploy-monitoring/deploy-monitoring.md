@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumo: Saiba como implantar o monitoramento no Skype para Business Server 2015.'
-ms.openlocfilehash: a25165add0ca6f9acd08e77efeda42cf7a8819ef
-ms.sourcegitcommit: 4eae947e339e728e5e1f338677860b910aafc029
+ms.openlocfilehash: 8f96fa2b240bc41e83de8e618114d948127c6c55
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502014"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server-2015"></a>Implantar monitoramento no Skype for Business Server 2015
  
@@ -95,7 +96,5 @@ Se você preferir, você também pode habilitar o QoE monitoring de dentro do Sk
 Como observado, os exemplos precedentes habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE em toda a sua organização. Como alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond e desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas definições de configuração de monitoramento, consulte o tópico do guia de implantação [Configurar registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server 2015](call-detail-recording-and-qoe.md).
   
 ## <a name="see-also"></a>Consulte também
-
-#### 
 
 [Plano para monitoramento no Skype para Business Server 2015](../../plan-your-deployment/monitoring.md)

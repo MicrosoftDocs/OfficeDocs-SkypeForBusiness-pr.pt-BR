@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Resumo: Aprenda sobre as ferramentas de gerenciamento do serviço do Skype para Business Server 2015.'
-ms.openlocfilehash: 7cd0ba452b0f018cc18a2063d75cda96a46ddd9d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c844ab5b8d5062a178ac565a084f06a860757074
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504611"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Ferramentas de gerenciamento do Skype for Business Server 2015
  
@@ -41,9 +42,6 @@ Skype Business Server 2015 software de comunicações (anteriormente Lync Server
    
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Ferramentas do Lync Server 2013](https://technet.microsoft.com/en-us/library/dn163598%28v=ocs.15%29.aspx)
   
 [Ferramentas do Lync Server 2010](https://technet.microsoft.com/en-us/library/dn145002%28v=ocs.14%29.aspx)
-

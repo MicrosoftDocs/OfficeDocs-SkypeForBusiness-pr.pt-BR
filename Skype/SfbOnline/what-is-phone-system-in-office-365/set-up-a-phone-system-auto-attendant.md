@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização. '
-ms.openlocfilehash: dae8dc68162944f6547615626d5e94912a99caf2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 255b93c40419eaf10994b42de214d4495cd09b6a
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501105"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar um atendedor automático de sistema telefônico
 
@@ -46,6 +47,9 @@ Se você deseja saber mais sobre os atendedores automáticos, consulte [Cite ate
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Etapa 2 - Criar um novo atendedor automático
 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+
+
 No **Centro de administração do Skype for Business**, clique em **Encaminhamento de chamadas** > **Atendedores Automáticos** e clique em **Adicionar novas**:
   
 ### <a name="edit-general-info-page"></a>Editar página de informações gerais
@@ -58,8 +62,9 @@ No **Centro de administração do Skype for Business**, clique em **Encaminhamen
 
 ![Número 2](../images/sfbcallout2.png)<br/>**Número de telefone** Essa configuração é opcional. Se desejar, selecione um número de telefone para o atendedor automático. Você pode selecionar qualquer tarifas do serviço disponível ou o número de chamada gratuita que você precisa para sua organização. Se não existirem números de telefone listados, você deverá obter um número de serviço de chamada tarifada e gratuita. Vá [aqui](getting-service-phone-numbers.md) para conectá-los. <br/> <br/>
 
-    > [!Note]
-    > **User (subscriber)** numbers can't be assigned to auto attendants.
+> [!NOTE]
+> **User (subscriber)** numbers can't be assigned to auto attendants.
+    
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>**Fuso horário** Você deve definir o fuso horário para o atendedor automático, mas ele não precisa corresponder ao fuso horário do endereço principal de sua organização. Cada atendedor automático pode ter um fuso horário diferente e os horários comerciais definidos para o atendedor automático serão definidos com base no fuso horário que você selecionar aqui.
 ***
@@ -115,13 +120,17 @@ Você pode configurar saudações e prompts menus que as pessoas que a chamada n
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>**Prompt do menu** Para criar o prompt do menu principal, você pode usar a conversão de texto em fala ou carregar um arquivo de áudio (.wav, .mp3 ou .wma). Você pode digitar o prompt na caixa **Os chamadores ouvirão** ou gravar um arquivo de áudio e dizer, por exemplo: "Para Vendas, pressione ou fale 1. Para Serviços, pressione ou fale 2. Para Suporte ao Cliente, pressione ou fale 3. Para falar com o operador, pressione ou fale 0. Para ouvir este menu novamente, pressione a tecla de asterisco ou fale repetir". **Criar um prompt personalizado** Se você escolher isso, deverá inserir o texto que deseja que o sistema leia (até 1000 caracteres). **Carregar um arquivo de áudio** Se você escolher isso, deverá gravar a saudação e depois carregar o arquivo de áudio (nos formatos .wav, .mp3 ou .wma).
 ***
-![Número 4](../images/sfbcallout4.png)<br/>**Discagem por nome** Se você escolher essa opção, isso permitirá que as pessoas que ligam para pesquisar por pessoas em uma organização usando a pesquisa de diretório. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Qualquer usuário online com uma licença de **Sistema telefônico** , ou qualquer usuário hospedado no local usando Skype para Business Server 2015 ou o Lync Server 2013, podem ser encontradas com discagem por nome.<br/><br/>  **Cuidado:** Usuários hospedados no local usando o Lync 2010 **não pode ser acessado** com discagem por nome.
+![Número 4](../images/sfbcallout4.png)<br/>**Discagem por nome** Se você escolher essa opção, isso permitirá que as pessoas que ligam para pesquisar por pessoas em uma organização usando a pesquisa de diretório. You can select which people will be listed as available or not available for Dial by Name by setting up those options on the **Dial scope** page. Qualquer usuário online com uma licença de **Sistema telefônico** , ou qualquer usuário hospedado no local usando Skype para Business Server 2015 ou o Lync Server 2013, podem ser encontradas com discagem por nome.<br/><br/>  
+
+> [!WARNING]
+> Usuários hospedados no local usando o Lync 2010 **não pode ser acessado** com discagem por nome.
 ***
 
 ![Número 5](../images/sfbcallout5.png)<br/>**Edit menu options** Menu options can be added or removed by using key buttons on the keypad. To add a menu option, press the corresponding key on the keypad. The keys in use will change in color and the corresponding row of options will appear below. Para excluir uma opção de menu, basta clicar na tecla de correspondente no controle do teclado para desmarcar essa chave. A linha de mapeamento de teclas será removida.<br/><br/>  **Dica:** Você precisará atualizar o texto de prompts de menu ou gravar novamente o áudio separadamente ao adicionar a removendo opções porque ele não será feito automaticamente para o prompt do menu existente.  <br/><br/>  Qualquer opção de menu pode ser adicionada e removida em qualquer ordem, e os mapeamentos de teclas não precisam ser contínuo. Por exemplo, é possível, para criar um menu com as teclas de 0, 1 e 3 mapeadas para opções, enquanto a tecla 2 não será usada.<br/><br/> 
 
-    > [!Note] 
-    > The keys * (Repeat) and # (Back) are reserved by the system and can't be reassigned. If speech recognition is enabled, pressing * will correspond with "Repeat" and # will correspond with the "Back" voice commands. <br/><br/>
+> [!NOTE]
+> As teclas * (repetir) e n º (Back) são reservados pelo sistema e não pode ser reatribuído. Se o reconhecimento de fala estiver habilitado, pressionando * corresponderá com "Repetir" e # corresponderá com os comandos de voz "Volta".
+
 
 Para configurar suas opções de menu, depois de selecionar as chaves, você precisará: 
 - **Digite o nome da opção** Isso pode ter até 64 caracteres de comprimento e pode conter várias palavras como "E atendimento"ao cliente ou"operações pó." Se o reconhecimento de fala está habilitado, o nome será reconhecido automaticamente e a pessoa chamando em poderão Pressione 3, diga "três", ou dizer "Atendimento ao cliente" para selecionar a opção mapeada para a tecla 3. 
@@ -231,7 +240,7 @@ Veja os cmdlets necessários para gerenciar um atendedor automático.
    
 ### <a name="more-about-windows-powershell"></a>Mais sobre o Windows PowerShell
 
-- O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
@@ -246,7 +255,7 @@ Veja os cmdlets necessários para gerenciar um atendedor automático.
   - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ## <a name="related-topics"></a>Tópicos relacionados
-Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](getting-service-phone-numbers.md)
 

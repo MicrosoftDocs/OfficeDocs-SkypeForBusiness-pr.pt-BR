@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 96878a2deb9a75ab0c927c2e1cd2c9e4dd34c2bd
-ms.sourcegitcommit: 7ec95ea34422e635661f3659bbc43a7a3484ff99
+ms.openlocfilehash: 7303a87d263148f091d6cd2f1b44d79a4b9c0ae8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500506"
 ---
 # <a name="peer-to-peer-activity-report"></a>Relatório de atividades ponto a ponto
 
 O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para atividade de ponto a ponto de negócios** para ver quanto os usuários estão usando mensagens Instantâneas, o aplicativo de áudio, vídeo, compartilhamento e transferência de arquivos. 
 
-Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
   
 Nesse relatório, juntamente com o outro Skype para relatórios de negócios, oferece detalhes sobre a atividade em toda a organização. Esses detalhes são muito úteis na investigação, no planejamento e na tomada de outras decisões de negócios para a sua organização. 
   
@@ -57,8 +58,9 @@ Você pode obter uma visão de sua atividade ponto a ponto do Skype for Business
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>No relatório **Atividade ponto a ponto do Skype for Business**, é possível ver as tendências dos últimos sete dias, 30 dias, 90 dias ou 180 dias. No entanto, se você clicar em um determinado dia no relatório, a tabela (consulte número 7) mostrará dados por 30 dias, até a data (consulte número 2) para quando o relatório foi gerado.
 
-    > [!Note]
-    > If you click into the details of a specific day, the table will only show data for the 30 days up to the date when the report was generated.
+> [!NOTE]
+> Se você clicar em detalhes de um dia específico, a tabela mostrará apenas dados por 30 dias até a data quando o relatório foi gerado.
+
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Cada relatório tem uma data de geração. Geralmente, os relatórios refletem uma latência de 24 a 48 horas de tempo de atividade. 
 ***

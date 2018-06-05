@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: Saiba como configurar seu Skype para Business Server 2015 infra-estrutura para funcionar com o System Center Operations Manager.'
-ms.openlocfilehash: 998413a20f775f48cedfc501650d7562850c9965
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cb2eb053142bcbc4c24a61f6dbd7322a3772f4a6
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504786"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gerenciar o Skype for Business Server 2015 usando o pacote de gerenciamento do SCOM
  
@@ -250,7 +251,4 @@ Para obter informações adicionais sobre o Operations Manager, consulte os segu
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Skype para ferramentas de gerenciamento de servidor 2015 corporativos](../../management-tools/management-tools.md)
-

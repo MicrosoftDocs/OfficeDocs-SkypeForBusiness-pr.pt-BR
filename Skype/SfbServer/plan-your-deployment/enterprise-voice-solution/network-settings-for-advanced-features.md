@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todos eles devem ser configurados para implantar o plano de bypass de mídia no Skype para negócios 2015, planeje o controle de admissão de chamada no Skype para Business Server 2015), ou plano para serviços de emergência no Skype para 2015 do servidor de negócios no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: c08ac0a4e5f93c15cc3bfa43bd622381017118be
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e76c88df482dfd5e58d6c0e11449eb6f6242b796
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504093"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Configurações de rede para recursos avançados do Enterprise Voice no Skype for Business Server 2015
  
@@ -69,11 +70,8 @@ Para associar sub-redes a sites de rede, você poderá usar a seção **Configur
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Planejar o controle de admissão de chamada no Skype for Business Server 2015](call-admission-control.md)
   
 [Planejamento de serviços de emergência no Skype para Business Server 2015](emergency-services.md)
   
 [Planejar o bypass de mídia no Skype para negócios 2015](media-bypass.md)
-

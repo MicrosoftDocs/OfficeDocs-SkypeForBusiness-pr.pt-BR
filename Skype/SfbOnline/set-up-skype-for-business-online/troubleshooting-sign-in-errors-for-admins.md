@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Skype for Business Online sign-in errors for administrators
+title: Skype para solução de problemas para erros de entrada no Business Online para administradores
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,199 +15,202 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Learn common causes for Skype for Business Online sign-errors and Work through troubleshooting these problems. '
-ms.openlocfilehash: 5c3204304d44729be2e2f382ed213507832536b1
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+description: 'Saiba as causas comuns para Skype para erros de entrada Business Online e trabalho por meio de solucionar esses problemas. '
+ms.openlocfilehash: 560b8244cae99d0af2603181d3cf0c2a02c491d5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501240"
 ---
-# <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Troubleshooting Skype for Business Online sign-in errors for administrators
+# <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype para solução de problemas para erros de entrada no Business Online para administradores
 
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
+Para solucionar Skype para erros de entrada no Business Online, inicie, eliminando as causas mais comuns de dificuldade entrar. Se necessário, você poderá seguir etapas com base no tipo de erro de resolução específica. Se o usuário ainda não conseguir entrar, coletar informações adicionais e, em seguida, seek ajuda adicional. 
   
 ## <a name="what-do-you-want-to-do"></a>O que você deseja fazer?
 <a name="top"> </a>
 
-> [Check for common causes of Skype for Business Online sign-in errors](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
+> [Procurar causas comuns da Skype para erros de entrada no Business Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
     
-> [Follow resolution steps for a specific error (Enterprise only)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
+> [Siga as etapas de solução para um erro específico (Enterprise)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
     
-> [Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
+> [Adicionar uma entrada de firewall para msoidsvc.exe ao seu servidor proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
     
-> [Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
+> [Atualizar configurações de DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
     
-> [Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
+> [Instalar um certificado SSL de terceiros em seu servidor ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
     
-> [Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
+> [Atualizar as credenciais de segurança](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
     
-> [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
+> [Modifique as chaves de registro de TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
     
-> [Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
+> [Atualizar configurações de usuário no Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
     
-> [Use the Microsoft Support troubleshooting guide](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
+> [Use a guia resolução de problemas do Microsoft Support](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
     
-> [Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
+> [Coletar mais informações e buscar ajuda adicional](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
     
-## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Check for common causes of Skype for Business Online sign-in errors
+## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Procurar causas comuns da Skype para erros de entrada no Business Online
 <a name="toc323194094"> </a>
 
-Most sign-in issues can be traced to a small number of causes, and many of these are easy to correct. The table below lists some common causes of sign-in errors and some steps you or the users can take to resolve them.
+A maioria dos problemas de login podem ser rastreados para um pequeno número de causas e muitos deles são fáceis de corrigir. A tabela a seguir lista algumas causas comuns de erros de entrada e algumas etapas que você ou os usuários podem ser executadas para resolvê-los.
   
-|**Possible Cause**|**Resolution**|
+|**Possível causa**|**Resolução**|
 |:-----|:-----|
-|During sign-in, a dialog box appears that contains the following phrase: **cannot verify that the server is trusted for your sign-in address. Connect anyway?** <br/> |Verify that the domain name in the dialog box is a trusted server in your organization—for example, **domainName.contoso.com**. Ask the user to select the **Always trust this server** check box, and then click **Connect**. <br/> Enterprise customers can prevent this message from appearing when a user signs in for the first time by modifying the Windows registry on each user's computer. For details, see [Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-|Mistyped sign-in address, user name, or password  <br/> | Confirm that the user's sign-in name and password are correct. <br/>  Verify that the user's sign-in name is formatted as follows: **bobk@contoso.com**. This may be different from the format you use to sign in to your organization's network.  <br/>  Ask the user to try signing in again. <br/> |
-|Forgotten password  <br/> |Reset the user's password and notify him or her of the new temporary password.  <br/> |
-|Not licensed to use Skype for Business Online  <br/> |Confirm that the user is registered as a Skype for Business Online user. If not, register the user, and then ask him or her to sign in again.  <br/> |
-|Wrong version of Skype for Business Online installed  <br/> |This issue is usually associated with an error message that contains the following phrase: **the authentication service may be incompatible with this version of the program**.  <br/> Ask the user to uninstall and reinstall Skype for Business Online from the Office 365 Portal.  <br/> |
-|Problem acquiring a personal certificate that is required to sign in  <br/> |If the user's sign-in address has recently changed, they may need to delete cached sign-in data. Ask users to sign out, click the Delete my sign-in info link on the sign-in screen, and then try again.  <br/> |
-|You set up a custom domain name, and the changes may not have finished propagating through the system.  <br/> |First, ensure that you have modified the Domain Name Service (DNS) records to reflect the change.  <br/> If you have already made the necessary DNS changes, advise the user to try logging in later. DNS changes can take up to 72 hours to be reflected throughout the system.  <br/> |
-|System clock out of sync with server clock  <br/> |Ensure that your network domain controller is synchronizing with a reliable external time source. For details, see the Microsoft Knowledge Base article 816042, [How to configure an authoritative time server in Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
+|Durante a entrada, uma caixa de diálogo é exibida que contenha a frase a seguir: **não foi possível verificar se o servidor é confiável para o seu endereço de entrada. Conectar mesmo assim?** <br/> |Verifique se o nome de domínio na caixa de diálogo é um servidor confiável na sua organização — por exemplo, **domainName.contoso.com**. Peça que o usuário para selecionar a caixa de seleção **Sempre confiar neste servidor** e clique em **Conectar**. <br/> Os clientes corporativos podem impedir que essa mensagem apareça quando um usuário entrar pela primeira vez, modificando o registro do Windows no computador de cada usuário. Para obter detalhes, consulte [chaves do registro para modificar TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+|Endereço de entrada erros de digitação, nome de usuário ou senha  <br/> | Confirme que o nome de usuário e a senha do usuário estão corretas. <br/>  Verificar se o nome de entrada do usuário é formatado como se segue: **bobk@contoso.com**. Isso pode ser diferente do que o formato usado para entrar rede da sua organização.  <br/>  Peça que o usuário tentar entrar novamente. <br/> |
+|Recuperação de senha  <br/> |Redefinir a senha do usuário e notificá-lo sobre a nova senha temporária.  <br/> |
+|Não licenciada para usar o Skype para negócios Online  <br/> |Confirme que o usuário está registrado como um Skype para usuário Business Online. Caso contrário, registre o usuário e, em seguida, solicite que ela entrar novamente.  <br/> |
+|Versão incorreta do Skype para Business Online instalado  <br/> |Esse problema é geralmente associado a uma mensagem de erro que contenha a frase a seguir: **o serviço de autenticação pode ser incompatível com esta versão do programa**.  <br/> Peça que o usuário desinstalar e reinstalar o Skype para negócios Online do Portal do Office 365.  <br/> |
+|Problema adquirir um certificado pessoal é necessária para entrar  <br/> |Se o endereço de entrada do usuário foi alterada recentemente, eles talvez seja necessário excluir dados armazenados em cache entrar. Peça aos usuários para sair, clique no botão Excluir link na tela entrar minhas informações de entrada e tente novamente.  <br/> |
+|Configurar um nome de domínio personalizado e as alterações podem não ter terminado propagando através do sistema.  <br/> |Em primeiro lugar, certifique-se de que você modificou os registros de serviço de nome de domínio (DNS) para refletir a alteração.  <br/> Se você já tiver feito as alterações necessárias do DNS, avisa o usuário tentar fazer logon no posteriormente. Alterações DNS podem levar até 72 horas sejam refletidas em todo o sistema.  <br/> |
+|Sistema relógio fora de sincronia com o relógio do servidor  <br/> |Certifique-se de que seu controlador de domínio de rede está sincronizando com uma fonte de tempo externa confiável. Para obter detalhes, consulte o artigo da Base de Conhecimento Microsoft 816042, [como configurar um servidor de horário autoritativo no Windows Server](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
    
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
+Para solucionar Skype para erros de entrada no Business Online, inicie, eliminando as causas mais comuns de dificuldade entrar. Se necessário, você poderá seguir etapas com base no tipo de erro de resolução específica. Se o usuário ainda não conseguir entrar, coletar informações adicionais e, em seguida, seek ajuda adicional. 
   
-## <a name="follow-resolution-steps-for-a-specific-error-enterprise-only"></a>Follow resolution steps for a specific error (Enterprise only)
+## <a name="follow-resolution-steps-for-a-specific-error-enterprise-only"></a>Siga as etapas de solução para um erro específico (Enterprise)
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  These instructions are intended primarily for Microsoft Office 365 Plan E customers. If you are an Office 365 Plan P customer, continue to the following section,[Collect more information and seek additional help ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information). 
+>  Estas instruções destinam-se principalmente para clientes do Microsoft Office 365 planejar F. Se você for um cliente do Office 365 planejar P, continue a seção a seguir,[coletar mais informações e buscar ajuda adicional ](troubleshooting-sign-in-errors-for-admins.md#collect-more-information). 
   
-If the user cannot sign in after you have tried the suggestions in the previous section, then you can do additional troubleshooting based on the type of error. The table below lists the most common error messages and possible causes. Following the table are detailed procedures to address each issue.
+Se o usuário não conseguir entrar após ter tentado as sugestões da seção anterior, você poderá fazer adicionais de solução de problemas com base no tipo de erro. A tabela abaixo lista as mensagens de erro mais comuns e as possíveis causas. A tabela a seguir está os procedimentos detalhados para cada questão de endereços.
   
-|**Error message**|**Possible cause**|**Resolution**|
+|**Mensagem de erro**|**Possível causa**|**Resolução**|
 |:-----|:-----|:-----|
-|Sign-in address not found  <br/> |Sign-in requests from the Microsoft Online Services Sign-On Assistant (msoidsvc.exe) are not going through your external firewall, or proxy server.  <br/> |[Add a firewall entry for msoidsvc.exe to your proxy server](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
-|Server is temporarily unavailable  <br/> |If your organization has a custom domain, the necessary Domain Name System (DNS) settings may be missing or incorrect.  <br/> |[Update DNS settings](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
-|Server is temporarily unavailable  <br/> |If your organization is using single sign-on with Active Directory Federation Services (ADFS), you may have used a self-signed Secure Socket Layer (SSL) certificate rather than one from a third-party certification authority.  <br/> |[Install a third-party SSL certificate on your ADFS server](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
-|Problem acquiring a personal certificate that is required to sign in  <br/> |If you've already removed the cached server data used to sign in and the error continues to appear, the user's security credentials may be corrupted, or an RSA folder on the user's computer may be blocking authentication.  <br/> |[Update security credentials](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
-|A certificate trust dialog box appears when a user signs in for the first time.  <br/> |This dialog box appears if your Skype for Business server is not yet listed in the **TrustModelData** registry key. <br/> |[Modify TrustModelData registry keys](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
-|User is not SIP enabled  <br/> |If your organization had a previous installation of Microsoft Office Communications Server or Microsoft Lync Server 2010, you may not have deleted your users from the server before decommissioning it. As a result, the **msRTCSIP-UserEnabled** attribute is still set to **FALSE** in Active Directory Domain Services. <br/> |[Update user settings in Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
+|Endereço de entrada não encontrado  <br/> |As solicitações de entrada da Microsoft Online Services Sign-On Assistant (msoidsvc.exe) não serão através de seu firewall externo ou o servidor proxy.  <br/> |[Adicionar uma entrada de firewall para msoidsvc.exe ao seu servidor proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall) <br/> |
+|Servidor está temporariamente indisponível  <br/> |Se sua organização tiver um domínio personalizado, as configurações necessárias do sistema de nome de domínio (DNS) podem ser ausentes ou incorretos.  <br/> |[Atualizar configurações de DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service) <br/> |
+|Servidor está temporariamente indisponível  <br/> |Se sua organização estiver usando o logon único com o Active Directory Federation Services (ADFS), você pode ter usado um certificado autoassinado de camada de soquete seguro (SSL) em vez de um em uma autoridade de certificação de terceiros.  <br/> |[Instalar um certificado SSL de terceiros em seu servidor ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and) <br/> |
+|Problema adquirir um certificado pessoal é necessária para entrar  <br/> |Se você já tiver removido os dados armazenados em cache do servidor usado para entrar na e o erro continua a ser exibida, credenciais de segurança do usuário podem estar corrompidas ou uma pasta RSA no computador do usuário pode estar bloqueando autenticação.  <br/> |[Atualizar as credenciais de segurança](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials) <br/> |
+|Uma caixa de diálogo de confiança do certificado aparece quando um usuário entrar pela primeira vez.  <br/> |Esta caixa de diálogo é exibida se seu Skype para Business server ainda não estiver listado na chave do registro **TrustModelData** . <br/> |[Modifique as chaves de registro de TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) <br/> |
+|O usuário não é habilitados para SIP  <br/> |Se sua organização tiver uma instalação anterior do Microsoft Office Communications Server ou Microsoft Lync Server 2010, você pode não ter excluído os usuários do servidor antes de encerrar a ele. Como resultado, o atributo **msRTCSIP-UserEnabled** ainda é definido como **FALSE** nos serviços de domínio Active Directory. <br/> |[Atualizar configurações de usuário no Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)<br/> |
    
-### <a name="add-a-firewall-entry-for-msoidsvcexe-to-your-proxy-server"></a>Add a firewall entry for msoidsvc.exe to your proxy server
+### <a name="add-a-firewall-entry-for-msoidsvcexe-to-your-proxy-server"></a>Adicionar uma entrada de firewall para msoidsvc.exe ao seu servidor proxy
 <a name="add-a-firewall"> </a>
 
-This procedure is a possible fix for the following error message: **Sign-in address not found**.
+Esse procedimento é uma correção possível para a seguinte mensagem de erro: **endereço de entrada não encontrado**.
+
+> [!NOTE]
+> As etapas a seguir consideram que você está usando o Microsoft Forefront Threat Management Gateway (TMG) 2010. Se você tiver uma solução de gateway web diferente, use as configurações descritas na etapa 4 abaixo.
   
- **NOTE**: The following steps assume you are using Microsoft Forefront Threat Management Gateway (TMG) 2010. If you have a different web gateway solution, use the settings described in step 4 below.
   
-To create an application entry for Msoidsvc.exe in Forefront TMG 2010, follow these steps:
+Para criar uma entrada de aplicativo para Msoidsvc.exe no Forefront TMG 2010, siga estas etapas:
   
-1. In the Forefront left pane, click **Networking**.
+1. No painel à esquerda do Forefront, clique em **rede**.
     
-2. Click the **Network** tab. Under the **Tasks** tab in the right pane, click **Configure Forefront TMG Client Settings**.
+2. Clique na guia **rede** . Sob a guia **tarefas** no painel direito, clique em **Configurar definições de cliente do Forefront TMG**.
     
-3. In the **Forefront TMG Client Settings** dialog box, click **New**.
+3. Na caixa de diálogo **Configurações de cliente do Forefront TMG** , clique em **novo**.
     
-4. In the **Application Entry Setting** dialog box, configure the following rules:
+4. Na caixa de diálogo **Configuração de entrada de aplicativo** , configure as regras a seguir:
     
-|**Aplicativo**|**Key**|**Value**|
+|**Aplicativo**|**Chave**|**Valor**|
 |:-----|:-----|:-----|
-|**msoidsvc** <br/> |Disable  <br/> |0  <br/> |
+|**msoidsvc** <br/> |Desabilitar  <br/> |0  <br/> |
 |**msoidsvc** <br/> |DisableEx  <br/> |0  <br/> |
    
-For details, see the Microsoft Knowledge Base article 2409256, [You cannot connect to Skype for Business Online because an on-premises firewall blocks the connection](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
+Para obter detalhes, consulte o artigo da Base de Conhecimento Microsoft 2409256, [que você não pode se conectar ao Skype para Business Online porque um firewall local bloqueia a conexão](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2409256).
   
-### <a name="update-dns-settings"></a>Update DNS settings
+### <a name="update-dns-settings"></a>Atualizar configurações de DNS
 <a name="update-dns-service"> </a>
 
-If your organization has a custom domain, this procedure is a possible fix for the following error message: **Server is temporarily unavailable**.
+Se sua organização tiver um domínio personalizado, esse procedimento é uma correção possível para a seguinte mensagem de erro: **servidor está temporariamente indisponível**.
   
-- Contact your domain name registrar for information on how to add the following CNAME record to your domain:
+- Para obter informações sobre como adicionar o seguinte registro CNAME para o seu domínio, entre em contato com seu registrador de nome de domínio:
     
-  - **DNS record type**: CNAME 
+  - **Tipo de registro de DNS**: CNAME 
     
-  - **Name**: sip
+  - **Nome**: sip
     
-  - **Value/Destination**: sipdir.online.microsoft.com
+  - **Valor/destino**: sipdir.online.microsoft.com
     
-For details, see the Microsoft Knowledge Base article 2566790, [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
+Para obter detalhes, consulte o artigo da Base de Conhecimento Microsoft 2566790, [Skype de solução de problemas para problemas de configuração de DNS de negócios Online no Office 365](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
   
-### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Install a third-party SSL certificate on your ADFS server
+### <a name="install-a-third-party-ssl-certificate-on-your-adfs-server"></a>Instalar um certificado SSL de terceiros em seu servidor ADFS
 <a name="verify-upn-and"> </a>
 
-To install a third-party SSL certificate on your Active Domain Federation Services (ADFS) server, follow these steps:
+Para instalar um certificado SSL de terceiros em seu servidor de serviços de federação de domínio Active (ADFS), siga estas etapas:
   
-1. Obtain an SSL certificate from a third-party certification authority such as VeriSign or Thawte.
+1. Obter um certificado SSL de uma autoridade de certificação de terceiros, como VeriSign ou Thawte.
     
-2. Install the certificate on your ADFS server by using the ADFS management console. 
+2. Instale o certificado do seu servidor ADFS usando o console de gerenciamento do ADFS. 
     
-### <a name="update-security-credentials"></a>Update security credentials
+### <a name="update-security-credentials"></a>Atualizar as credenciais de segurança
 <a name="update-security-credentials"> </a>
 
-This procedure is a possible fix for the error message **Problem acquiring a personal certificate required to sign in**.
+Esse procedimento é uma correção possível para a mensagem de erro **problema adquirir um certificado pessoal precisa para entrar**.
   
-To eliminate possible certificate or credential problems, first renew the user's certificate in Windows Certificate Manager. To do this, follow these steps:
+Para eliminar possíveis problemas de certificado ou credential, primeiro renove o certificado do usuário no Gerenciador de certificados do Windows. Para fazer isso, siga estas etapas:
   
-1. Open Windows Certificate Manager. To do this, click **Start**, click **Run**, type **certmgr.msc**, and then click **OK**. 
+1. Abra o Gerenciador de certificados do Windows. Para fazer isso, clique em **Iniciar**, clique em **Executar**, digite **certmgr. msc**e clique em **Okey**. 
     
-2. Double-click **Personal**, and then double-click **Certificates**. 
+2. Clique duas vezes em **pessoal**e, em seguida, clique duas vezes em **certificados**. 
     
-3. Sort by the **Issued By** column, and then look for a certificate that is issued by Communications Server.
+3. Classificar por coluna **Emitido por** e, em seguida, procure por um certificado emitido pelo Communications Server.
     
-4. Right-click the certificate, and then click **Delete**. 
+4. Com o botão direito no certificado e, em seguida, clique em **Excluir**. 
     
-Next, if the user is running Windows 7, remove their stored credentials in Windows Credential Manager. To do this, follow these steps:
+Em seguida, se o usuário estiver executando o Windows 7, remova suas credenciais armazenadas no Gerenciador de credenciais do Windows. Para fazer isso, siga estas etapas:
   
-1. Click **Start**, click **Control Panel**, and then click **Credential Manager**. 
+1. Clique em **Iniciar**, clique em **Painel de controle**e, em seguida, clique em **Gerenciador de credenciais**. 
     
-2. Locate the set of credentials that is used to connect to Skype for Business Online. 
+2. Localize o conjunto de credenciais que é usado para conectar Skype para Business Online. 
     
-3. Expand the set of credentials, and then click **Remove from Vault**. 
+3. Expanda o conjunto de credenciais e, em seguida, clique em **Remover do Vault**. 
     
-4. Sign in again and reenter the user's credentials.
+4. Entrar novamente e reinserir as credenciais do usuário.
     
-Finally, if the user still cannot sign in after you've updated their credentials, try deleting the RSA folder on the user's computer, because it could be blocking completion of the user authentication process:
+Finalmente, se o usuário ainda não conseguir entrar depois que você atualizou suas credenciais, tente excluir a pasta RSA no computador do usuário, pois ele pode estar bloqueando a conclusão do processo de autenticação de usuário:
   
-1. Sign in to the user's computer using an administrator account.
+1. Entrar no computador do usuário usando uma conta de administrador.
     
-2. If necessary, turn on the folder view option **Show hidden files**. 
+2. Se necessário, ative a opção de exibição da pasta **Mostrar arquivos ocultos**. 
     
-3. Type the following into the address bar of File Explorer: **C:\\Documents and Settings\\UserName\\Application Data\\Microsoft\\Crypto\\RSA**, where ***UserName*** is your Windows sign-in name.
+3. Digite o seguinte na barra de endereços do arquivo Explorer: **c:\\Documents and Settings\\UserName\\dados do aplicativo\\Microsoft\\criptografia\\RSA**, onde o ***nome de usuário*** é o seu nome de logon do Windows.
     
-4. Delete any folder that begins with the name **S-1-5-21-** followed by a string of numbers.
+4. Exclua qualquer pasta que começa com o nome **S-1-5-21 -** seguido por uma cadeia de caracteres de números.
     
-### <a name="modify-trustmodeldata-registry-keys"></a>Modify TrustModelData registry keys
+### <a name="modify-trustmodeldata-registry-keys"></a>Modifique as chaves de registro de TrustModelData
 <a name="modify-trustmodeldata-registry"> </a>
 
-When a user signs in for the first time, they may receive a dialog box that contains something like the following: **Cannot verify that the server is trusted for your sign-in address. Connect anyway?** This is a security feature, and not an error. However, you can prevent the dialog box from appearing by using a Group Policy Object (GPO) to update users' machines with your domain name before they sign in for the first time. To accomplish this, do the following:
+Quando um usuário entrar pela primeira vez, eles podem receber uma caixa de diálogo que contém parecido com o seguinte: **não foi possível verificar se o servidor é confiável para o seu endereço de entrada. Conectar mesmo assim?** Esse é um recurso de segurança e não um erro. No entanto, você pode impedir que a caixa de diálogo que aparecem, usando um objeto de diretiva de grupo (GPO) para atualizar máquinas dos usuários com seu nome de domínio antes de eles entrarem pela primeira vez. Para realizar isso, faça o seguinte:
   
-- Create and deploy a GPO that appends your Skype for Business domain name—for example, domainName.contoso.com—to the current value of HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData.
+- Criar e implantar um GPO que acrescenta sua Skype para nome de domínio de negócios — por exemplo, domainName.contoso.com—to o valor atual do HKEY_LOCAL_MACHINE\\Software\\políticas\\Microsoft\\Communicator\\ TrustModelData.
     
 > [!IMPORTANT]
->  You must *append*  your domain name to the existing value, not simply replace it.
+>  Você deve *Acrescentar* o nome do seu domínio ao valor existente, não basta substituí-la.
   
-For details, see the Microsoft Knowledge Base article 2531068, [Skype for Business (Lync) cannot verify that the server is trusted for your sign-in address](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
+Para obter detalhes, consulte o artigo da Base de Conhecimento Microsoft 2531068, [que Skype para negócios (Lync) não foi possível verificar se o servidor é confiável para o seu endereço de entrada](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068).
   
 ### <a name="update-user-settings-in-active-directory"></a>Atualizar as configurações de usuário no Active Directory
 <a name="update-user-settings"> </a>
 
-If your organization had a previous installation of Microsoft Office Communications Server or Microsoft Lync Server 2010, you may not have deleted your users from the server before decommissioning it. As a result, the **msRTCSIP-UserEnabled** attribute is still set to **FALSE** in Active Directory Domain Services.
+Se sua organização tiver uma instalação anterior do Microsoft Office Communications Server ou Microsoft Lync Server 2010, você pode não ter excluído os usuários do servidor antes de encerrar a ele. Como resultado, o atributo **msRTCSIP-UserEnabled** ainda é definido como **FALSE** nos serviços de domínio Active Directory.
   
-To fix this issue, follow these steps:
+Para corrigir esse problema, siga estas etapas:
   
-1. Update the **msRTCSIP-UserEnabled** attribute for all affected users to **TRUE**.
+1. Atualize o atributo **msRTCSIP-UserEnabled** para todos os usuários afetados como **TRUE**.
     
-2. Rerun the Microsoft Online Services Directory Synchronization Tool (DirSync). For details, see [AIntegrate your on-premises directories with Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx). 
+2. Execute novamente a ferramenta de sincronização de diretório do Microsoft Online Services (DirSync). Para obter detalhes, consulte [diretórios AIntegrate seu local com o Windows Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx). 
     
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
-## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Use the Microsoft Support troubleshooting guide
+Para solucionar Skype para erros de entrada no Business Online, inicie, eliminando as causas mais comuns de dificuldade entrar. Se necessário, você poderá seguir etapas com base no tipo de erro de resolução específica. Se o usuário ainda não conseguir entrar, coletar informações adicionais e, em seguida, seek ajuda adicional. 
+## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Use a guia resolução de problemas do Microsoft Support
 <a name="toc325626447"> </a>
 
-If you're still not able to resolve the user's sign-in problems, review the suggestions in Microsoft Knowledge Base article 2541980, [How to troubleshoot sign-in issues in Skype for Business Online](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
+Se você ainda não foi possível resolver problemas de entrada do usuário, revise as sugestões no artigo da Base de Conhecimento Microsoft 2541980, [como solucionar problemas de login no Skype para negócios Online](http://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2541980).
   
-## <a name="collect-more-information-and-seek-additional-help"></a>Collect more information and seek additional help
+## <a name="collect-more-information-and-seek-additional-help"></a>Coletar mais informações e buscar ajuda adicional
 <a name="collect-more-information"> </a>
 
-If you've followed the guidance above and still can't resolve your sign-in issues, you must collect additional information and contact technical support. To do this, follow these steps: 
+Se você ter seguido as diretrizes acima e ainda não é possível resolver problemas de login, você deve coletar informações adicionais e entre em contato com o suporte técnico. Para fazer isso, siga estas etapas: 
   
-1. Obtain the log files and Windows Event log details from the user's machine. For step-by-step instructions, see the end-user help topic [Turn on error logs in Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
+1. Obter os arquivos de log e os detalhes do log de eventos do Windows no computador do usuário. Para obter instruções detalhadas, consulte o tópico de Ajuda do usuário final [ativem logs de erros no Lync](http://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c).
     
-2. Send the log files and detailed information about the error to Microsoft technical support.
+2. Envie os arquivos de log e as informações detalhadas sobre o erro para suporte técnico da Microsoft.
     
-You may be asked to supply additional diagnostic information by installing the Microsoft Online Services Diagnostic and Logging (MOSDAL) Support Toolkit on the affected user's machine. For details, see [Using the MOSDAL Support Toolkit](http://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
+Você pode ser solicitado a fornecer informações de diagnósticos adicionais por meio da instalação do Microsoft Online Services diagnóstico e o Kit de ferramentas de suporte de Logging (MOSDAL) na máquina do usuário afetado. Para obter detalhes, consulte [usando as ferramentas de suporte do MOSDAL](http://support.office.com/article/ddf1f52f-24a1-4675-abe0-141052c88b72).
   
-To troubleshoot Skype for Business Online sign-in errors, start by eliminating the most common causes of sign-in difficulty. If necessary, you can then follow specific resolution steps based on the type of error. If the user still cannot sign in, collect additional information, and then seek additional help. 
+Para solucionar Skype para erros de entrada no Business Online, inicie, eliminando as causas mais comuns de dificuldade entrar. Se necessário, você poderá seguir etapas com base no tipo de erro de resolução específica. Se o usuário ainda não conseguir entrar, coletar informações adicionais e, em seguida, seek ajuda adicional. 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar o Skype for Business Online](set-up-skype-for-business-online.md)

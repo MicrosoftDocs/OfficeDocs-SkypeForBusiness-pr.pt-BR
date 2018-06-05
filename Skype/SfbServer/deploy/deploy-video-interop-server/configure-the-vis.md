@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumo: Configure a função de servidor de interoperabilidade de vídeo (VIS) no Skype para Business Server 2015.'
-ms.openlocfilehash: 7192135f5822e3086de7533afbdc8492194a3889
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 783900004d4f3ed9b060e7f237a62dfc5cf124f1
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501928"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server-2015"></a>Configurar o Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015
  
@@ -85,7 +86,4 @@ Cmdlets do Windows PowerShell para configuração de tronco de vídeo mencionado
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Configurar CUCM para interoperação com Skype para Business Server 2015](configure-cucm-for-interoperation.md)
-

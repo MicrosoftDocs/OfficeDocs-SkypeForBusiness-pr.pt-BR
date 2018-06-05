@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como serviços de audioconferência (para pontes de conferência), atendedores automáticos e filas de chamada (também chamadas de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes.
-ms.openlocfilehash: 9a7761ca39295ef36531f74b835d9e0dbd498d51
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 78bb84b60e6c7b4632e8eef84e2b6dc057af136e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500723"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtendo números de telefone do serviço
 
@@ -43,6 +44,8 @@ Você tem duas maneiras de obter os números de serviço para que possa usá-los
     > Quando você transfere seus números de serviço, é altamente recomendável que você entre em contato com o [suporte da Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) para garantir que a capacidade de chamadas simultânea superior é considerada e configurada corretamente.
   
 ## <a name="get-new-service-numbers"></a>Obtenha novos números de serviço
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -82,7 +85,7 @@ Se você deseja transferir os números de serviço do seu provedor de serviço a
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para Administradores](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="related-topics"></a>Tópicos relacionados
-Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

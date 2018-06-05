@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.'
-ms.openlocfilehash: f519e404459489709870aceefdc7fe35e4b2696e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 17696844d20bda6a709b3ae609e6963d8fb4a090
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501015"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Implantar regiões da rede, sites e sub-redes no Skype for Business 2015
  
@@ -317,8 +318,6 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 ## <a name="see-also"></a>Ver também
 <a name="BKMK_AssociateSubnets"> </a>
 
-#### 
-
 [New-CsNetworkRegion.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -334,4 +333,3 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 [Set-CsNetworkSubnet.](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
-

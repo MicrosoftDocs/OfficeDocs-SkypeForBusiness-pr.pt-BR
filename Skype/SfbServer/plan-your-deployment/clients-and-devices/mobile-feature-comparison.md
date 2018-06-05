@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumo: Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server 2015.'
-ms.openlocfilehash: 3ec2662915b72993de41b2398355bb4010810b3d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b4e7e0bd186a3622c8f6fdf671799efdd8ab792d
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504296"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparação de recursos do cliente móvel para Skype para negócios
  
@@ -166,7 +167,7 @@ Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois q
 |Navegar por uma lista de suas reuniões  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Ingressar em uma reunião, mesmo se você não tiver um Skype para a conta de negócios  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Visualize mais informações sobre os participantes da reunião  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Inicie uma conversa de grupo não agendada com vários participantes diretamente de seu cliente ou dispositivo   <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Inicie uma conversa de grupo não agendada com vários participantes diretamente de seu cliente ou dispositivo   <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
    
  & #x 2776;  Para usuários do Office 365, esse recurso exige Enterprise Voice, o que faz parte da licença E5.
   

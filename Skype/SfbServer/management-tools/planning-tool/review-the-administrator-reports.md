@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas suas seleções marcadas em Sites de Design. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede e definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
-ms.openlocfilehash: 989623fe8966a7f26f43bae0470da2cc57c3ddc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1d2cea3b1e0b4e19192f19734b2dcd278ca8a38b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504758"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar os relatórios do administrador no Skype for Business Server 2015
  
@@ -84,7 +85,4 @@ Você deve ter uma revisão detalhada do Relatório DNS feita por sua equipe de 
 ## <a name="see-also"></a>Ver também
 <a name="DNS_Report"> </a>
 
-#### 
-
 [Analisando os relatórios do administrador](http://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
-

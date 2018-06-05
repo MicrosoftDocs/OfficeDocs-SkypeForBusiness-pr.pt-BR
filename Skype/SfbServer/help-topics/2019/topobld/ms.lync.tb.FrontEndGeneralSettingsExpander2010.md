@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Você pode editar as propriedades do pool do servidor Front-End ou Front-End editando ou configurar os seguintes atributos. A página de configuração é separada nas seguintes seções:'
-ms.openlocfilehash: 11d93e27ab333fc03a65d0d578ca3bbeb933a43a
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3fcc23cfb794260f79e285e6e49efc7c657e4df0
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19502476"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configurações gerais de Front End do Lync Server 2010
  
@@ -97,7 +98,4 @@ Clique em **Ajuda** para ler esse tópico de Ajuda.
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Definir e configurar um Pool de Front-End ou servidor Standard Edition](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)
-

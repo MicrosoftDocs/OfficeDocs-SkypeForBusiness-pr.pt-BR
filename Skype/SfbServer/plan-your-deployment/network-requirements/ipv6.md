@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: Implemente IPv6 antes de instalar Skype para Business Server 2015.'
-ms.openlocfilehash: 4bd7a76e6b55b0b09cf0be469cb84c3d6384f109
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 20a1e711d5a9a3a195d9b89328b3c2903d13988c
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504219"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
  
@@ -203,8 +204,6 @@ Os cenários a seguir são suportados durante a migração e coexistência:
 ## <a name="see-also"></a>Ver também
 <a name="migration"> </a>
 
-#### 
-
 [Configurar tipos de endereço IP no Skype para negócios](ip-address-types.md)
 
 [Arquitetura de endereçamento do IP versão 6](https://tools.ietf.org/html/rfc4291)
@@ -212,4 +211,3 @@ Os cenários a seguir são suportados durante a migração e coexistência:
 [Formato de endereço Unicast Global de IPv6](https://tools.ietf.org/html/rfc3587)
   
 [Endereços de Unicast IPv6 locais exclusivo](https://tools.ietf.org/html/rfc4193)
-

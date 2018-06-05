@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Este artigo explica as preparações de infraestrutura para implantar sistemas de sala Skype v2.
-ms.openlocfilehash: b8f1e52686cfab957f2fb81a33deecc778514673
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: 46e40acf8d82c0fe5feee66781ac9ebefda68f3e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504765"
 ---
 # <a name="prepare-your-environment"></a>Prepare seu ambiente
 
@@ -164,8 +165,6 @@ Muito como qualquer dispositivo do Windows, o nome da máquina podem ser renomea
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Planejar a sala Skype v2 de sistemas](skype-room-systems-v2-0.md)
 
 [Requisitos de v2 de sistemas de sala do Skype](requirements.md)
@@ -175,4 +174,3 @@ Muito como qualquer dispositivo do Windows, o nome da máquina podem ser renomea
 [Configurar um console v2 de sistemas de sala do Skype](../../deploy/deploy-clients/console.md)
   
 [Gerenciar Skype sala v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
-

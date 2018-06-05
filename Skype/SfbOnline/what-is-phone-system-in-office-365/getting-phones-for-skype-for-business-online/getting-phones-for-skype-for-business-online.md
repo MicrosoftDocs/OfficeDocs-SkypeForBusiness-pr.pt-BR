@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: 894637bbde15a80f377098e61d1eba77fbef4bf2
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19494008"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
@@ -32,7 +33,7 @@ Skype para Business Online qualifica e oferece suporte a telefones de mesa para 
   
 Para obter as atualizações mais recentes e a maioria das informações atualizadas sobre os dispositivos suportados, consulte o [Skype para catálogo de dispositivo corporativos](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
-## <a name="supported-phones"></a>Telefones com suporte
+## <a name="supported-phones"></a>Telefones compatíveis
 
 Para Skype para usuários corporativos Online, você poderá escolher entre vários modelos dentro do *certificado para Skype para telefones de negócios* e telefones executando a edição de telefone do Lync (LPE) listado sob o Skype para a categoria Business Online no [Skype para o dispositivo de negócios Catálogo](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
@@ -56,7 +57,7 @@ Para obter mais detalhes em AudioCodes telefones, consulte [Skype para telefones
 > [!NOTE]
 > Lync Phone Edition é compatível com Skype para negócios Online. Suporte principal para a plataforma LPE encerrada até 10/abril/2014, com suporte estendido até abril/11/2023 para alinhar com o ciclo de vida de suporte de produto do Lync Server 2013. Para obter detalhes sobre o ciclo de vida LPE, consulte o [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . Modelos de COBRIR LPE não são suportados com Skype para negócios Online.
   
-## <a name="supported-firmware"></a>Firmware compatível
+## <a name="supported-firmware"></a>Com suporte do firmware
 
 Esta é a versão de software mínimos necessária para telefones com suporte trabalhar com o sistema telefônico no Office 365:
   
@@ -77,7 +78,7 @@ Skype para Business Online não exige qualquer licença da Microsoft adicional q
   
 Modelos de licenciamento do fabricante pode variar entre open SIP e Skype para negócios Certified firmware. Se você estiver reorientando um modelo de certificado com um firmware de SIP aberto, deverá verificar os requisitos de licenciamento do firmware com o fabricante.
   
-## <a name="skype-for-business-online-connected-phones-feature-set"></a>Conjunto de recursos dos telefones conectados ao Skype for Business Online
+## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype para o conjunto de recursos de telefones corporativos Online conectados
 
 Para o dispositivo completo de recursos e capacidades, verifique os guias de usuário do fabricante.
   
@@ -105,16 +106,17 @@ Para o dispositivo completo de recursos e capacidades, verifique os guias de usu
 |Integração da imagem do contato  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
 ||||||
 
-    > [!NOTE]
-    > CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
-   
+     
+> [!NOTE]
+> CX 600 ou quaisquer outros telefones Aries não oferecem suporte a autenticação multifator (MFA). Se você forçar MFA, esses dispositivos falhará entrar. Esses dispositivos devem usar somente ID da organização para autenticação.
+ 
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 Para obter instruções de configuração passo a passo, veja [Implantar telefones para o Skype for Business Online](deploying-skype-for-business-online-phones.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../getting-service-phone-numbers.md)
 
-Eis o que você obtém com o [Sistema de Telefonia no Office 365](../here-s-what-you-get-with-phone-system.md)
+[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](../here-s-what-you-get-with-phone-system.md)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

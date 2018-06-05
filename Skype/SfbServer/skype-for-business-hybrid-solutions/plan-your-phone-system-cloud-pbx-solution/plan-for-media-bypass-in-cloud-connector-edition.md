@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Leia este tópico para revisar as considerações de planejamento para implementar o bypass de mídia com a versão 2.0 do Cloud Connector Edition e posteriores. Para obter informações sobre como implantar o media bypass, consulte Deploy media bypass na nuvem conector Edition.
-ms.openlocfilehash: a2dfca68d7bfe02ae0701dc13d76bc24121a1cb8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0cf79a256030635ccab92653f8f7b40b5ba0b555
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504562"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planejar o bypass de mídia no Cloud Connector Edition
  
@@ -111,7 +112,4 @@ Com o bypass de mídia habilitado, o tráfego de mídia entre um cliente e um SB
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Implantar o bypass de mídia na nuvem conector Edition](deploy-media-bypass-in-cloud-connector.md)
-

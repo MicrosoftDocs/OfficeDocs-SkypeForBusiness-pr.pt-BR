@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Resumo: Configure CUCM para trabalhar com Skype para Business Server 2015.'
-ms.openlocfilehash: f05b55b875cb344da369f5fd74f16a73faf43907
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 04913508ba0200da4b34e8b1e18c3e57a5fc7141
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501966"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server-2015"></a>Configurar o CUCM para interoperação com o Skype for Business Server 2015
  
@@ -140,7 +141,4 @@ Agora, o gateway de vídeo do CUCM está configurado para funcionar com o VIS. V
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Configurar um VTC para interoperação com Skype para Business Server 2015](configure-a-vtc-for-interoperation.md)
-

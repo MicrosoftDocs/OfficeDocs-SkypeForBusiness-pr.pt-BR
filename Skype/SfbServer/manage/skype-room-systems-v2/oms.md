@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'Este artigo descreve como gerenciar os dispositivos do Skype Room Systems v2 de modo integrado e completo usando o Microsoft Operations Management Suite. '
-ms.openlocfilehash: 4290e89f2a5faba6fa4efdfb48e57345bc0c35f5
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504233"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Gerenciar dispositivos do Skype Room Systems v2 com o OMS
  
@@ -39,12 +40,9 @@ Se você entender essas descrições de eventos, será alertado rapidamente sobr
 |3001  <br/> Evento Error  <br/> |Este é um evento de erro de hardware. O aplicativo SRS tem um processo que verificará a integridade dos componentes de hardware conectados (tela frontal da sala, microfone, alto-falante, câmera) a cada 5 minutos. Se um ou mais componentes não estiverem íntegros, ele gravará a ID do Evento 3001 no log de eventos. Esse evento continuará sendo gravado a cada 5 minutos até que o problema com o dispositivo seja corrigido.  <br/> |{"Descrição": " **Front de sala Exibir status: não íntegros.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy. ","ResourceState":"Unhealthy","OperationName":"HardwareCheckEngine","OperationResult":"Fail","OS":"Windows 10","OSVersion":"10.0.14393.1198","Alias":"alias@contoso.com","DisplayName":"Yosemite conference room","AppVersion":"2.0.58.0","IPv4Address":"10.10.10.10","IPv6Address":"IPv6Address","IPv4Address2":"10.10.10.10"} <br/>  Os periféricos de hardware são mostrados como Healthy ou Unhealthy. <br/> Neste exemplo, há duas telas frontais da sala configuradas e, no momento, nenhuma delas está disponível. Conference Microphone status é Unhealthy, o que poderia ter diversas causas possíveis. Como pelo menos um recurso não passou na verificação, ResourceState é listado como Unhealthy. Peça para um técnico investigar melhor.  <br/> |
 |4000  <br/> Informações  <br/> |Este é um evento de reinício do aplicativo. Sempre que o aplicativo é reiniciado, esse evento é registrado no log de eventos do Windows.  <br/> | {"Description":"App restarts.","ResourceState":"Healthy","OperationName":"Restart","OperationResult":"Pass","OS":"Windows 10","OSVersion":"10.0.14393.693","Alias":"alias@domain.com","DisplayName":"Display Name","AppVersion":"1.0.38.0","IPv4Address":"10.10.10.10","IPv6Address":"ip v6 address"} <br/> O aplicativo Skype for Business pode ser reiniciado por diversos motivos. Compare a frequência de reinício dos dispositivos no mesmo prédio e em prédios diferentes, considerando problemas conhecidos, como flutuações e falhas de energia, pois eles podem indicar problemas de infraestrutura. <br/> |
    
-## <a name="see-also"></a>Ver também
-<a name="Telemetry"> </a>
-
-#### 
+## <a name="see-also"></a>Consulte também
+<a name="Telemetry"></a>
 
 [Planejar o gerenciamento de v2 Skype sala sistemas com OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
 [Implantar o gerenciamento de v2 Skype sala sistemas com OMS](../../deploy/deploy-clients/with-oms.md)
-

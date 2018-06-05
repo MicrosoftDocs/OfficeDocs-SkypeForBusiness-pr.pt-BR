@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: f180dc41bb76c8ceba0ce657232b543afebd5e6b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: fdb0b7585c2462b64d4735bc4c59d9020e6466e3
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500757"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testar a instalação do Skype for Business Online
 
@@ -47,7 +48,7 @@ Veja o que você precisa:
 ## <a name="set-up-test-accounts"></a>Configurar contas de teste
 <a name="__toc328126910"> </a>
 
-1. Acesse **Administrador** > **Office 365** > **Usuários e grupos**, depois selecione adicionar![Adicionar](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) e insira as informações necessárias.
+1. Vá até **Admin** > **Office 365** > **usuários e grupos**e selecione adiciona![Add](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) e insira as informações necessárias.
     
 2. Quando você chegar na Etapa 4 (Email), digite seu endereço de email. Assim, você terá um registro do novo nome de usuário e senha. 
     
@@ -75,7 +76,7 @@ Depois de configurar seus usuários para a audioconferência, eles recebem uma m
   
  **Para adicionar informações da audioconferência à conta de um de seus usuários de teste**
   
-1. Clique em **Audioconferência** > **Usuários**.
+1. Clique em **Serviços de audioconferência** > **usuários**.
     
 2. Clique nos nomes dos usuários que você quer configurar para a conferência discada e clique em **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
     

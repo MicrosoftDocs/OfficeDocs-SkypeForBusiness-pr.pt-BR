@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumo: Configure um tronco com bypass de mídia habilitado para Skype para Business Server 2015. Isso permitirá a minimizar o número de servidores de mediação, supondo que o seu provedor de tronco SIP lhe fornecer apoio.'
-ms.openlocfilehash: 08853388e17956be64fe11e18efd9f436007312d
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f8e353e7d11bb3921839f957be25e0bfb6804a03
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501291"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server-2015"></a>Configurar um tronco com bypass de mídia no Skype for Business Server 2015
  
@@ -183,8 +184,6 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
 Depois de ter configurado o tronco, continue Configurando media bypass escolhendo entre global media bypass opções, conforme descrito em [o bypass de mídia Deploy no Skype para Business Server 2015](deploy-media-bypass.md) na documentação de implantação.
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Configurar um tronco sem bypass de mídia no Skype para Business Server 2015](configure-trunk-without-media-bypass.md)
 
 [Implantar o bypass de mídia no Skype para Business Server 2015](deploy-media-bypass.md)
@@ -192,4 +191,3 @@ Depois de ter configurado o tronco, continue Configurando media bypass escolhend
 [Definindo regras de conversão](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx)
   
 [Configurar o Bypass de mídia](http://technet.microsoft.com/library/f50a7a13-c6a0-48f1-bee1-e45fa2b2f9b8.aspx)
-

@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: 61beeec57bf245b899a898beb7bca8b14e462dca
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 0d147cbd1f6497757aa73e380ebeca0c03f1de7b
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505192"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -183,7 +184,4 @@ Neste ponto, os clientes que fizerem consultas DNS da sub-rede de Amsterdã para
 ## <a name="see-also"></a>Ver também
 <a name="Example"> </a>
 
-#### 
-
 [Planejar o bypass de mídia na nuvem conector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
-

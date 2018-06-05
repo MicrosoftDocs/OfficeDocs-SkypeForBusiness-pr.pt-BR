@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumo: Use a autenticação de dois fatores com Skype para Business Server 2015 e Skype para negócios.'
-ms.openlocfilehash: 6bb2133533b640cd573730ca608f5845164ea282
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 081065facfcf01b6bb87bce3d621cf4a6ecd4dd6
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504919"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server-2015"></a>Usar a autenticação de dois fatores com o cliente Skype for Business e o Skype for Business Server 2015
  
@@ -142,9 +143,6 @@ Antes de usar seu cartão inteligente pela primeira vez, é recomendável que vo
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Gerenciar a autenticação de dois fatores em Skype para Business Server 2015](two-factor-authentication.md)
   
 [Configurar a autenticação de dois fatores no Skype para Business Server 2015](configure.md)
-

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para 2015 do servidor de negócios com o Exchange 2013.'
-ms.openlocfilehash: 1a1ea968f9feb14c0a7b0d69c13ad273a18a53f5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ab3ab1e7cad9f09c6713ea0fbfbc7b7e1a9cc2e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505108"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
  
@@ -133,7 +134,4 @@ Para obter detalhes sobre como habilitar ou desabilitar o Unified Messaging no M
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Visão geral do processo de implantação para integrar o local de Unificação de mensagens e Skype para negócios](deployment-overview.md)
-

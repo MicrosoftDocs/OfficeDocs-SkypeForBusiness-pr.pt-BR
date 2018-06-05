@@ -9,11 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 'Skype para obter informações de planejamento e configuração de Business Server 2015 para vídeo com base no compartilhamento de tela (VbSS), que agora está disponível para download: Skype para KB3061064 de atualização cumulativa do Business Server 2015.'
-ms.openlocfilehash: 21b7868efb9b1a6621aa85cae277114629d67551
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 50ba16703d391724a413e59e5d9e41cdb94b06af
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19504359"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server-2015"></a>Compartilhamento de tela baseado em vídeo do Skype for Business Server 2015
  
@@ -190,9 +191,6 @@ A grande vantagem é, depois que você instalou o Skype para Business Server 201
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Skype para Business Server 2015 atualização cumulativa KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   
 [Vídeo com base no compartilhamento de tela (VBSS) está disponível no Skype para Business Server 2015](https://support.microsoft.com/en-us/kb/3170163)
-

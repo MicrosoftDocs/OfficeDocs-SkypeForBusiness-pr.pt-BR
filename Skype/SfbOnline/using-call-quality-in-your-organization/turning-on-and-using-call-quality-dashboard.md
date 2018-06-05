@@ -19,11 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte como ativar e usar o Skype para Business Online chamada qualidade Dashboard e obter relatórios de resumo de qualidade de chamadas. '
-ms.openlocfilehash: f8a7a71a0e0c0e64ceb7447c53c15483d977e16a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 966dc71705344b1cece9b0e706539d64df95bf50
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501264"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online
 
@@ -50,7 +51,9 @@ Consulte este artigo para obter uma lista de [dimensões e medidas disponíveis 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Ativar os relatórios de resumo de painel (CQD) de qualidade de chamada da Microsoft
 
 Antes de começar a usar o CQD, você precisará ativá-lo para sua organização do Office 365.
-  
+ 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+ 
 1. Entrar em sua organização do Office 365 usando uma conta de administrador e selecione os blocos de **administrador** para abrir o Centro de administração.
     
 2. No painel esquerdo, em **Administração centrais**, selecione **Skype for Business** para abrir o Skype para centro de administração de negócios.
@@ -59,11 +62,11 @@ Antes de começar a usar o CQD, você precisará ativá-lo para sua organizaçã
     
      ![Skype para as ferramentas de negócios](../images/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
-4. Na página que é aberta, faça logon com sua conta de Administrador Global e, em seguida, forneça as credenciais da conta quando solicitado.
+4. Na página que é aberta, entrar com sua conta de Administrador Global e, em seguida, forneça as credenciais da conta quando solicitado.
     
      ![CQD Login](../images/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
-Depois que você efetuar login, uma vez ativado, o CQD começará a coletando e o processamento de dados.
+Depois de entrar, uma vez ativado, o CQD começará a coletando e o processamento de dados.
   
 > [!NOTE]
 > Pode levar algumas horas para processar dados suficientes para exibir resultados significativos nos relatórios. 

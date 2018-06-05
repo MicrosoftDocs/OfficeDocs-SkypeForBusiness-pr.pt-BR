@@ -19,11 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (nuvem PBX) para sua organização. '
-ms.openlocfilehash: 3092442f9b2421bb0dc8a7a6ac7683761176d64c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 26ffa60322c4b3f37b8f524c43efdf9a74cb1305
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19501036"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurando o sistema telefônico na sua organização
 
@@ -39,7 +40,7 @@ A seguir está um guia passo a passo para configurar o sistema telefônico no Of
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Etapa 2: Comprar e atribuir licenças do sistema telefônico e chamar planejar
 
-Para atribuir uma licença de sistema telefônico e chamar planejar a um único usuário, as etapas são os mesmos atribuir uma licença do Office 365. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Se você desejar atribuir vários usuários em massa, consulte (… / skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+Para atribuir uma licença de sistema telefônico e chamar planejar a um único usuário, as etapas são os mesmos atribuir uma licença do Office 365. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Se você desejar atribuir vários usuários em massa, consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Etapa 3: Obtenha números de telefone para seus usuários
 
@@ -53,7 +54,10 @@ Há três maneiras de obtenção de números para seus usuários:
 Você deve usar a página **Adicionar novo usuário números** para ver, pesquisa, adquirir e reservar esses números. Você pode pesquisar por cidade, estado e país/região e digite o número dos números de telefone, que você precisará para seus usuários. 
 
 ### <a name="get-new-user-phone-numbers"></a>Obtenha números de telefone do novo usuário 
-  
+ 
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+
+ 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
@@ -77,6 +81,9 @@ Você deve usar a página **Adicionar novo usuário números** para ver, pesquis
 Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como serviços de audioconferência (para pontes de conferência), atendedores automáticos e filas de chamada (também chamadas de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes. Por exemplo, um número de serviço pode manipular 100s de chamadas simultaneamente, enquanto o número de telefone de um usuário pode manipular apenas algumas chamadas simultaneamente.
 
 ### <a name="get-new-service-numbers"></a>Obtenha novos números de serviço
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -262,7 +269,7 @@ Você precisará configurar créditos de comunicações, se você quiser usar n�
     
 3. No painel Ação em **Licenças de**, clique em **Editar**.
     
-4. Na página **licenças do produto** , alternar * * Communications créditos * * para **em** atribuir essa licença e clique em **Salvar**.
+4. Na página **licenças do produto** , alternar **Créditos de comunicações** para **em** para atribuir essa licença e clique em **Salvar**.
     
     > [!NOTE]
     > Mesmo se você tiver usuários que receberem uma licença **Enterprise E5** , ainda é recomendado que você faça isso.
@@ -270,7 +277,7 @@ Você precisará configurar créditos de comunicações, se você quiser usar n�
 **Para saber mais sobre como atribuir licenças créditos de comunicações, consulte [Configurar créditos de comunicações para sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).**
 
 ## <a name="related-topics"></a>Tópicos relacionados
-Eis o que você obtém com o [Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](getting-service-phone-numbers.md)
 

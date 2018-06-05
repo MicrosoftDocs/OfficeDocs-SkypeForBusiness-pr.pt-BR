@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1eb72cd0260826c845b033aca849e85a94d6ba6b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 849e3329bce87414c9544b79429a295a2c72a22e
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19500896"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar comunicações créditos para sua organização
 
@@ -89,7 +90,7 @@ Quando você estiver configurando créditos de comunicações, você precisará 
     
 3. No painel Ação em **Licenças de**, clique em **Editar**.
     
-4. Na página **licenças do produto** , alternar * * Communications créditos * * para **em** atribuir essa licença e clique em **Salvar**.
+4. Na página **licenças do produto** , alternar **Créditos de comunicações** para **em** para atribuir essa licença e clique em **Salvar**.
     
     > [!NOTE]
     > Mesmo se você tiver usuários que receberem uma licença **Enterprise E5** , ainda é recomendado que você faça isso.

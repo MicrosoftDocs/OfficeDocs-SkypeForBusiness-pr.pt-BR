@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Cada registro representa uma única linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Um áudio e vídeo (A / V) sessão geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão pode conter duas linhas de mídia de vídeo, se um dispositivo de conferência for usado, ou se o modo de exibição de galeria é usado.
-ms.openlocfilehash: 03da40b97c6a067f13a9855cd51b1bbb4780f2ad
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: fdbfc89e4d805ab30a1e870504fba72d2febe60a
+ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19505080"
 ---
 # <a name="medialine-table"></a>Tabela MediaLine
  
@@ -24,7 +25,7 @@ Cada registro representa uma única linha de mídia. (Uma sessão de áudio gera
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primária  <br/> |Referenciado da [tabela de sessão](session.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária  <br/> |Referenciado da [tabela de sessão](session.md).  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primária  <br/> |0 é áudio principal, 1 é o vídeo principal e 2 é vídeo panorâmico, 3 é o compartilhamento de aplicativo/área de trabalho. Esse rótulo deve ser exclusivo dentro de uma única sessão.  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primária  <br/> |0 é áudio principal, 1 é o vídeo principal e 2 é vídeo panorâmico, 3 é o compartilhamento de aplicativo/área de trabalho, 16 é o vídeo com base em compartilhamento de tela (VbSS). Esse rótulo deve ser exclusivo dentro de uma única sessão.  <br/> |
 |**ConnectivityIce** <br/> |tinyint  <br/> | <br/> |Essa coluna está presente, mas não utilizado no Microsoft Lync Server 2013. Informações sobre a conectividade usada para uma linha de mídia são capturadas nas colunas CallerConnectivityICE e CalleeConnectivityICE.  <br/> |
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descrito em sinalizadores de bits. Para obter detalhes, consulte a *Qualidade da experiência do Monitoring Server especificação de protocolo* , disponível para download. <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Mesmo como CallerIceWarningFlags, mas no lado do receptor. Para obter detalhes, consulte a *Qualidade da experiência do Monitoring Server especificação de protocolo* , disponível para download. <br/> |
