@@ -69,6 +69,8 @@
 #### Plano de sistema telefônico Microsoft direcionar circulação
 ##### [Planejar o roteamento direto](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-direct-routing.md)
 ##### [Configurar o roteamento direto](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-direct-routing.md)
+##### [Migrando para o roteamento direto](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/migrating-to-direct-routing.md)
+##### [Contas de usuário em um ambiente híbrido com conectividade PSTN](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/user-accounts-in-a-hybrid-environment-with-pstn.md)
 ### [Planejar a conectividade híbrida](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md)
 ### [Implantar a conectividade híbrida](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
 #### [Configure a federação do Skype para negócios Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md)
