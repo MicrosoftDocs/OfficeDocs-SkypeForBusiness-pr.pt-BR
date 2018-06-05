@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, preencher e publicar o banco de dados de localização E9-1-1 no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 0a08d248c5eb7ec406a86f8357c565507bb10ed6
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568328"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Configurar o banco de dados de localização no Skype for Business Server 2015
  
@@ -70,7 +71,6 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
    ```
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
-
    ```
 
 2. Execute o seguinte cmdlet para adicionar locais sem fio ao banco de dados de localização.
@@ -125,7 +125,6 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
    ```
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
-
    ```
 
 3. Execute o cmdlet a seguir para validar os endereços no banco de dados de localização.
@@ -150,7 +149,6 @@ Se você usar gateways ELIN, também é necessário carregar os ELINs para o ban
     
   ```
   Publish-CsLisConfiguration
-
   ```
 
 
