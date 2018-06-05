@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Resumo: Saiba como exibir configurações de reunião no Skype para Business Server 2015.'
-ms.openlocfilehash: 382e50a0f41301953f4313c5019d1eb0d27804e5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1af530732df37ed78e47ee5b5d5914c00fbbd4bf
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568721"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Exibir definições de configuração de reuniões no Skype for Business Server 2015
  
@@ -50,7 +51,7 @@ Get-CsMeetingConfiguration
 
 Este comando retorna informações semelhantes para o seguinte:
   
-```
+<pre>
 Identity                        : Global
 PstnCallersBypassLobby          : True
 EnableAssignedConferenceType    : True
@@ -63,8 +64,7 @@ LegalURL                        :
 HelpURL                         :
 CustomFooterText                :
 AllowConferenceRecording        : True
-
-```
+</pre>
 
 Para obter mais informações, incluindo uma lista completa de parâmetros, consulte [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).
   

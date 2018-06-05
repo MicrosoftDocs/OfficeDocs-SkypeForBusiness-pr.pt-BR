@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumo: Revise a carga balanceamento considerações antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 5d5c1c58746fe9656a0eb123d211ed5b3f330063
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: dee231f9c50e8ad71ead0ad6b31ad20e00da1b7a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569488"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para o Skype for Business
  
@@ -151,6 +152,12 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 Skype para Business Server habilita DNS com carga balanceada, uma solução de software que pode reduzir significativamente a administração de sobrecarga de balanceamento de carga em sua rede. Balanceamento de carga DNS equilibra o tráfego de rede que seja exclusivo para Skype para Business Server, como o tráfego SIP e tráfego de mídia.
   
 Se você implantar o balanceamento de carga do DNS, administração da sua organização sobrecarga de balanceadores de carga de hardware será minimizada. Além disso, a solução complexa de problemas relacionados à configuração incorreta de balanceadores de carga de tráfego SIP será eliminada. Você também pode impedir as conexões de servidor para que seja possível assumir servidores offline. O balanceamento de carga de DNS também garante que os problemas do balanceador de carga de hardware não afetem elementos do tráfego SIP, como o encaminhamento básico de chamadas.
+
+O diagrama a seguir mostra um exemplo que inclui tanto interna e balanceamento de carga de DNS externo: 
+  
+**Diagrama de rede de borda usando endereços IPv4 público**
+
+![exemplo de diagrama de rede de DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 Se usar o balanceamento de carga DNS, você também poderá adquirir balanceadores de carga de hardware de custo mais baixo do que se usasse os balanceadores de carga de hardware para todos os tipos de tráfego. Você deve usar os balanceadores de carga que passaram qualificação de interoperabilidade o teste com Skype Business Server. Para obter detalhes sobre o teste de interoperabilidade do balanceador de carga, consulte [Parceiros de Balanceador de carga do Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=202452). O seu conteúdo se aplica a Skype para Business Server.
   
@@ -160,7 +167,7 @@ O balanceamento de carga do DNS normalmente é implementado no nível dos aplica
   
 Por exemplo, se houver três servidores front-end em um pool chamado pool01.contoso.com, acontecerá o seguinte:
   
-- Clientes executando o Skype para negócios consultam DNS para pool01. contoso.com. A consulta retorna os endereços de IP três e armazena em cache da seguinte maneira (não necessariamente na ordem):
+- Clientes executando o Skype para negócios consultam DNS para pool01. contoso.com. A consulta retorna três endereços de IP e os armazena em cache da seguinte maneira (não necessariamente nesta ordem):
     
     pool01. contoso.com 192.168.10.90
     

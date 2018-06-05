@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Resumo: Saiba como configurar suplementos para salas de chat Persistent Chat Server na Skype para Business Server 2015.'
-ms.openlocfilehash: dbd1eba6cf73783d02b502930f271ada93e28145
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 64017115370c24c8c4a117f595230a6f5f741afd
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569962"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar suplementos para salas de Chat Persistente no Skype for Business Server 2015
  
@@ -52,7 +53,7 @@ Para configurar suplementos para salas de chat usando o Painel de Controle:
 
 Você pode configurar suplementos para salas de chat usando os seguintes cmdlets do Windows PowerShell. Para obter detalhes sobre a sintaxe, incluindo todos os parâmetros disponíveis, consulte [Skype do Shell de gerenciamento do Business Server 2015](../management-shell.md).
   
-| |
+
 |**Cmdlet**|**Descrição**|
 |:-----|:-----|
 |New-CsPersistentChatAddin  <br/> |Criar um novo suplemento  <br/> |

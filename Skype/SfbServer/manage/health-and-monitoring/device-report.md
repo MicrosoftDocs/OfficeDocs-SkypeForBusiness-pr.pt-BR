@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Resumo: Saiba mais sobre o relatório de dispositivo no Skype para Business Server 2015.'
-ms.openlocfilehash: e9fa190c73deaee275c49bfa04f338b41579ce55
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569481"
 ---
 # <a name="device-report-in-skype-for-business-server-2015"></a>Relatório de Dispositivos no Skype for Business Server 2015
  
@@ -115,11 +116,7 @@ $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
 $x
 ```
 
-Esse procedimento retornará um único valor que representa o número total de chamadas usando um dispositivo de captura Aastra. Por exemplo:
-  
-```
-384
-```
+Esse procedimento retornará um único valor que representa o número total de chamadas usando um dispositivo de captura Aastra. Por exemplo: 384
 
 ## <a name="filters"></a>Filtros
 

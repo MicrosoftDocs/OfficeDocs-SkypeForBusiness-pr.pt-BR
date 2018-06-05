@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Leia este tópico para saber como implantar o Sistema de Salas do Skype em um ambiente local de floresta única.
-ms.openlocfilehash: b998c0b1e139951297eca8a963536dd59dcd4b39
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9d9e3b837ea4adc0244ee83d843c05b47625f6eb
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569955"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Implantações locais de uma única floresta do Sistema de Salas do Skype
  
@@ -108,7 +109,6 @@ Depois de criar uma conta de caixa de correio de recurso para as salas de confer
    ```
    Set-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com -LineURItel: +14255550555;ext=50555"
    Set-CsMeetingRoom -domaincontroller DC-ND-001.contoso.com -Identity LRS01 -EnterpriseVoiceEnabled $true
-
    ```
 
 > [!NOTE]

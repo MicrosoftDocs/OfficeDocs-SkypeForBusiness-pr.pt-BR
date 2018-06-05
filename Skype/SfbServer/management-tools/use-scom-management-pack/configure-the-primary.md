@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Resumo: Configurar o servidor de gerenciamento primário, instalar o System Center Operations Manager e importar pacotes de gerenciamento para Skype para Business Server 2015.'
-ms.openlocfilehash: 6554ddc3fbe99ba70663b72794eb59dfc5d0d3e3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5495b2752143995c5ad054b460542554e33d355a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569948"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar o Servidor de Gerenciamento principal
  
@@ -109,5 +110,3 @@ Em geral, é mais fácil importar os pacotes de gerenciamento usando o console d
   ```
   Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
   ```
-
-
