@@ -102,6 +102,7 @@
 #### [Compatibilidade com o Office](../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 #### [Resoluções de vídeo](../plan-your-deployment/clients-and-devices/video-resolutions.md)
 #### [Clientes de reuniões](../plan-your-deployment/clients-and-devices/meetings-clients.md)
+##### [Requisitos mínimos de rede de aplicativo de reuniões do Skype](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Requisitos para Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
 #### [Skype Room Systems v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ##### [Suporte para as versões atuais de filial](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
