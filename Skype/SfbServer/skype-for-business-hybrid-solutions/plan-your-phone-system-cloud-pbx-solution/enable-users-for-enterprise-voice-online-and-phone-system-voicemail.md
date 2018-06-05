@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Aprenda a habilitar o sistema telefônico nos serviços de voz do Office 365 para sua Skype para usuários comerciais.
-ms.openlocfilehash: 1810be3f891e1f66e724133732ed16e94a1d8015
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 7855fd7cdb2bfd30b99bf6ad17543e7aea973a6b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569558"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar usuários para Enterprise Voice online e o sistema telefônico no correio de voz do Office 365
  
@@ -122,7 +123,6 @@ Você pode atribuir os planos de discagem com o Windows PowerShell e o cmdlet [G
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
-
   ```
 
 > [!NOTE]
