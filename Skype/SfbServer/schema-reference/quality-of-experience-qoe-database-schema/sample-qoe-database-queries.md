@@ -10,23 +10,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Esta seção contém exemplos de consultas do banco de dados de qualidade da experiência (QoE).
-ms.openlocfilehash: 20ca6bc8aea6035ebe27fc5f77d512464cd82dcc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 70fff2c34e7eade21e5f2c29893a175ee65e39b0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570175"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="ce55a-103">Exemplo de consultas ao banco de dados de QoE</span><span class="sxs-lookup"><span data-stu-id="ce55a-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="80589-103">Exemplo de consultas ao banco de dados de QoE</span><span class="sxs-lookup"><span data-stu-id="80589-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="ce55a-104">Esta seção contém exemplos de consultas do banco de dados de qualidade da experiência (QoE).</span><span class="sxs-lookup"><span data-stu-id="ce55a-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="80589-104">Esta seção contém exemplos de consultas do banco de dados de qualidade da experiência (QoE).</span><span class="sxs-lookup"><span data-stu-id="80589-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="ce55a-105">Use o exemplo a seguir para obter a tremulação e perda de pacote média para todos os fluxos de áudio.</span><span class="sxs-lookup"><span data-stu-id="ce55a-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="80589-105">Use o exemplo a seguir para obter a tremulação e perda de pacote média para todos os fluxos de áudio.</span><span class="sxs-lookup"><span data-stu-id="80589-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
 ```
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="ce55a-106">Use o exemplo a seguir para localizar o número total de conferências que usaram o Console de reunião.</span><span class="sxs-lookup"><span data-stu-id="ce55a-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="80589-106">Use o exemplo a seguir para localizar o número total de conferências que usaram o Console de reunião.</span><span class="sxs-lookup"><span data-stu-id="80589-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
 ```
 select avg(ConversationalMOS)
@@ -37,10 +38,9 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and m.MediaLineLabel = 0 -- audio media line
    and s.CallerUserAgentType = 4 -- Lync
    and s.CalleeUserAgentType = 4 -- Lync
-
 ```
 
-<span data-ttu-id="ce55a-107">Use o exemplo a seguir para obter ConversstionalMOS, SendingMOS e ListendingMOS por dispositivo de captura.</span><span class="sxs-lookup"><span data-stu-id="ce55a-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="80589-107">Use o exemplo a seguir para obter ConversstionalMOS, SendingMOS e ListendingMOS por dispositivo de captura.</span><span class="sxs-lookup"><span data-stu-id="80589-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
 ```
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
@@ -65,7 +65,4 @@ from
 )as t
 group by t.DeviceName
 order by SampleNum desc
-
 ```
-
-
