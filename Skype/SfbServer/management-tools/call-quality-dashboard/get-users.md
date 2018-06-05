@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Resumo: Saiba mais sobre a operação obter usuários, que é parte do serviço do usuário. O serviço de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: ed26614c0fd4b443e9c5d698d1db9467291ca3d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d4de424776514479ed2204eeb0a5315a7323662
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569695"
 ---
 # <a name="get-users"></a>Colocar os usuários
  
@@ -64,7 +65,6 @@ Obtenha uma lista de usuários de retorna os usuários no repositório.
 "loginName": "SAMPLEDOMAIN\\testuser2",
 "defaultItemId": 1774
 }]
-
 ```
 
 

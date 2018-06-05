@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList é uma tabela estática que armazena a lista de vários tipos de mídia.
-ms.openlocfilehash: b44a6dd8a4263f50cd187b6c4b154815e1e6350a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c9309219399fac30e318f8e112dd82269fff5ac2
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569765"
 ---
 # <a name="medialist-table"></a>Tabela MediaList
  
@@ -30,5 +31,3 @@ Se você está tentando determinar o tipo de modalidade dos valores em LcsCDR.Se
 ```
 LEFT JOIN on Media.MediaId = MediaList.MediaId
 ```
-
-

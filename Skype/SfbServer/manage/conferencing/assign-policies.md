@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumo: Saiba como atribuir políticas de conferência do Skype para Business Server 2015.'
-ms.openlocfilehash: 532065bee6f33b492639f5bcf949e29b082c5e84
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 22e82ef12c8ec6dc0c9029c0c8f2861fd5578509
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568804"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server-2015"></a>Atribuir políticas de conferência no Skype for Business Server 2015
  
@@ -28,14 +29,12 @@ No exemplo a seguir, a política SalesConferencingPolicy é atribuída ao usuár
   
 ```
 Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPolicy
-
 ```
 
 Neste exemplo, a política de conferência FinanceConferencingPolicy é atribuída a todos os usuários que tenham contas na unidade organizacional Finance. Para atribuir a mesma política a todos os usuários em uma OU (unidade organizacional) específica, o cmdlet Get-CsUser é usado para recuperar todas as contas dessa OU. Depois que todas as contas de usuário são recuperadas, essas informações são canalizadas para o cmdlet Grant-CsConferencingPolicy, que atribui a política FinanceConferencingPolicy a todos os usuários da coleção.
   
 ```
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
-
 ```
 
 Para obter mais informações, incluindo a sintaxe completa e uma lista de parâmetros, consulte [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).

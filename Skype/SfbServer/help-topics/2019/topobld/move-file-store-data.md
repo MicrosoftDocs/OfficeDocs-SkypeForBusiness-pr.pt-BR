@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Se você precisa remover o servidor de arquivos que esteja atuando como o repositório de arquivos para seu Skype para implantação Business Server 2015, ou se você precisar fazer outras alterações que tornaria o arquivo atual armazenam indisponível, você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:'
-ms.openlocfilehash: 0fe535bef6878406f60560a256d6c89f91b91375
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: cb79fe34afee093647b7d871bdd3096ce6040f7a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569418"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Mover dados do repositório de arquivos para um novo repositório de arquivos no Skype for Business Server 2015
  
@@ -69,7 +70,6 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
     
   ```
   Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
   ```
 
     > [!TIP]
@@ -85,9 +85,6 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Reatribuir um servidor para um repositório de arquivo diferente](http://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
   
 [Remover um repositório de arquivos](http://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

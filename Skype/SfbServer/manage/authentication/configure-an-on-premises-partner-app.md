@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumo: Configure um aplicativo de parceiro no local para Skype para Business Server 2015.'
-ms.openlocfilehash: 4a31d97f7a4c2f717084c72cbc349c4f495597ea
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2f13196288fb7b609e5e3d39996c12eab04493dc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569446"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server-2015"></a>Configurar um aplicativo de parceiro local para o Skype for Business Server 2015
  
@@ -69,7 +70,6 @@ else
    }
 
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
-
 ```
 
 Depois de copiar o código, salve o script usando a extensão de arquivo .PS1 (por exemplo, C:\Scripts\ServerToServerAuth.ps1). Observe que, antes de executar esse script, você deve substituir as URLs de metadados https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 e http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 com as URLs de metadados usadas pelos seus servidores Exchange 2013 e SharePoint, respectivamente. Consulte a documentação do produto para o Exchange 2013 e SharePoint para obter informações sobre como você pode identificar a URL de metadados do respectivo produto.

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Resumo: Saiba mais sobre a operação obter ancestrais do Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: ab5cc9dd388d1192922430e2a728bb8073b3e0d7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 60d77ff1fd14a994d55a42516cd686891a56595f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569198"
 ---
 # <a name="get-item-ancestors"></a>Obter ancestrais do Item
  
@@ -57,7 +58,6 @@ Get Item ancestrais retorna uma ancestrais itens específicos do repositório.
 "item2": 1,
 "item3": "All Audio Streams"
 }]
-
 ```
 
  *Item1* - ID do item.

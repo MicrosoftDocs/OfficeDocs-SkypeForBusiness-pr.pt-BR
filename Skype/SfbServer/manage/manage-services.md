@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: Este artigo descreve como gerenciar os serviços em execução em um Skype para a topologia de negócios Server 2015.
-ms.openlocfilehash: f8406d473b1d2ae644ac56d071313d2b488169fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87bf9fd90c68155504e6be5b28b56d571eaad924
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569572"
 ---
 # <a name="manage-services-for-skype-for-business-server-2015"></a>Gerenciar os serviços para Skype para Business Server 2015
 
@@ -105,7 +106,6 @@ Você pode usar o Skype para painel de controle do Business Server para iniciar 
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
-
   ```
 
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 

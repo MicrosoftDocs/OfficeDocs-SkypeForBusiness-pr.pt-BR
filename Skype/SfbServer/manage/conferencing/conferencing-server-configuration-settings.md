@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Resumo: Saiba como gerenciar definições de configuração de servidor conferência no Skype para Business Server 2015.'
-ms.openlocfilehash: 88c127acdd569945eddb41e997034e5ea23ea2a6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e59bfce2a1317d67b1a77f7277996d5a964a314f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569459"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do servidor de conferência no Skype for Business Server 2015
  
@@ -43,7 +44,6 @@ O seguinte comando cria uma nova coleção de definições de configuração de 
   
 ```
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
-
 ```
 
 Observe que você pode ter apenas uma coleção dessas por site, portanto, esse comando falhará se o site Redmond já tiver uma coleção de definições de configuração de conferência. 
@@ -60,7 +60,6 @@ Finalmente, o terceiro comando usa o cmdlet **Set-CsConferencingConfiguration** 
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
-
 ```
 
 Se você não chamar o cmdlet **Set-CsConferencingConfiguration**, as novas configurações nunca terão efeito. Em vez disso, elas desaparecerão assim que você terminar a sessão do Windows PowerShell ou excluir a variável $x.

@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Resumo: Configure a autenticação de servidor para servidor para o Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server 2015.'
-ms.openlocfilehash: d7b3d93126c5b2db06e5f7343f5636b3c305d7c8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c53a11931140c6f540e3f139f9164c484b3ffa52
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568954"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-2015-and-exchange-server"></a>Configurar aplicativos de parceiros no Skype para Business Server 2015 e o Exchange Server
  
@@ -79,5 +80,3 @@ No comando anterior, o SipUri representa o endereço SIP de um usuário com uma 
 > Se você receber uma resposta 401 desse cmdlet, provavelmente é porque a configuração padrão para o Exchange não inclui suporte para aceitar tokens Oauth. Para obter mais informações sobre como usar Oauth no Exchange, consulte [Configure OAuth authentication com o SharePoint 2013 e Skype para Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkId=513103). 
   
 Se o teste for bem sucedido e a conectividade for estabelecida, você poderá então prosseguir para configurar recursos opcionais, como integração de arquivamento e repositório de contato unificado.
-  
-

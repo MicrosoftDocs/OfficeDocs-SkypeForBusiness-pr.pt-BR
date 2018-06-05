@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Resumo: Saiba como atribuir uma política de arquivamento para usuários no Skype para Business Server 2015.'
-ms.openlocfilehash: fc9811aa57a1ba397dedce325f03ea2d77e4413b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0a9b19f6b02daae09f71b1f9933c90bfc86c5e23
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569383"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server-2015"></a>Aplicar uma política de arquivamento aos usuários no Skype for Business Server 2015
 
@@ -54,11 +55,10 @@ O comando a seguir atribui a política de arquivamento por usuário RedmondArchi
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-Esse comando atribui por usuário arquivamento política RedmondArchivingPolicy a todos os usuários que têm contas hospedadas no registrador pool atl-cs-001.contoso.com. Para obter detalhes sobre o parâmetro de filtro usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
+Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que possuem contas hospedadas no pool de registradores atl-cs-001.contoso.com. Para obter detalhes sobre o parâmetro de filtro usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
   
 ```
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
-
 ```
 
 O comando a seguir remove a política de arquivamento por usuário anteriormente atribuída a Ken Myer. Depois que a política de voz por usuário é removida, Ken Myer será automaticamente gerenciado usando uma política global ou, se existir, a política do seu site local. A política de site tem precedência sobre a política global.

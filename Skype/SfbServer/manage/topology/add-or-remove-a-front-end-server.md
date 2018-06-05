@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Saiba como adicionar ou remover servidores Front-End no Skype para Business Server.'
-ms.openlocfilehash: aed52becf5d4cc97307f9788a81f8d6563d1d25d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 80b0dab56d3adfb08856348b7ec749ef2e91079f
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569003"
 ---
 # <a name="add-or-remove-a-front-end-server-in-skype-for-business-server-2015"></a>Adicionar ou remover um Servidor Front-End no Skype for Business Server 2015
  
@@ -64,5 +65,3 @@ Você pode usar o procedimento a seguir, quando a adição ou remoção de um se
    ```
    Start-CsPool
    ```
-
-

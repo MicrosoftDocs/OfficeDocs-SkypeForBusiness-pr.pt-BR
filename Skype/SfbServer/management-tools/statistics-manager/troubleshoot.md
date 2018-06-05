@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Resumo: Leia este tópico para solucionar problemas de sua implantação do Gerenciador de estatísticas para Skype para Business Server 2015.'
-ms.openlocfilehash: 6fa9011ed3ff6ac18e64539bbe8f7a2314857188
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3af372effd41fd679733324e1615de6b2c49ce0b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569830"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Solução de problemas do Gerenciador de estatísticas do Skype for Business Server 2015
  
@@ -46,7 +47,6 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
-
   ```
 
     > [!NOTE]

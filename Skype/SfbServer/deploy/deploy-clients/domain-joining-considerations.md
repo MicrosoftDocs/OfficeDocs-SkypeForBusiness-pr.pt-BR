@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Leia este tópico para saber como ingressar o PC do cliente do Sistema de Salas do Skype em seu domínio.
-ms.openlocfilehash: e858122b8c931c53a7cb2eff0fe58ff225547a07
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: ffc55984df3b42b06f4db8faa6a286ea41e99480
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568658"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Considerações de ingresso no domínio do Sistema de Salas do Skype
  
@@ -57,7 +58,6 @@ $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
-
 ```
 
 Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas políticas que podem causar problemas a um nível superior. A configuração Política de Grupo sem Substituição supera uma UO com uma configuração Bloquear Herança de Política. Para obter mais informações, consulte o artigo "Sem substituir relativamente comparado a bloquear herança de diretiva" na documentação de diretiva de grupo em http://technet.microsoft.com/en-us/library/cc978255.aspx.
@@ -65,8 +65,6 @@ Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas
 Você pode ter várias abordagens para resolver esses problemas. Recomendamos que você consulte os especialistas em Active Directory para garantir que sejam fornecidas a você as configurações de GPO apropriadas ou pelo menos uma Unidade Organizacional na qual as políticas descritas anteriormente não existem. É recomendável para habilitar o Quality of Service (QoS) para dispositivos de sistema do Skype sala.
 
 ## <a name="see-also"></a>Consulte também
-
-#### 
   
 [Configuração de dispositivo: Criar nova ou editar existente](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

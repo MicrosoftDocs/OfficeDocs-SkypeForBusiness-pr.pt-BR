@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Resumo: Saiba como limpar manualmente registros do CDR e os bancos de dados do QoE usados pelo Skype para Business Server 2015.'
-ms.openlocfilehash: 805bf72b3d4846bb00d3c3772b033242976cd7c3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1451187112e636e58fbcd32061ce1e8bec1b7b9a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568529"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server-2015"></a>Limpar manualmente o registro de detalhes das chamadas e os bancos de dados de Qualidade da Experiência no Skype for Business Server 2015
  
@@ -32,7 +33,7 @@ Além das que automatic limpeza, dois novos cmdlets & #x 2014; Invoke-CsCdrDatab
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-No comando anterior ambos chamam de registros de detalhe e registros de dados de diagnóstico mais antigos do que 10 dias são excluídos do banco de dados de monitoramento no atl-sql-001. litwareinc.com. (Registros de detalhe de chamada são relatórios de sessão do usuário. Registros de dados de diagnóstico são carregados por aplicativos de cliente, como Skype para Business Server 2015 logs de diagnóstico.)
+No comando anterior, os registros de detalhes das chamadas e os registros de dados de diagnósticos com mais de 10 dias eram excluídos do banco de dados de monitoramento em atl-sql-001.litwareinc.com. (Os registros de detalhes das chamadas são relatórios de usuário/sessão. Registros de dados de diagnóstico são carregados por aplicativos de cliente, como Skype para Business Server 2015 logs de diagnóstico.)
   
 Como mostrado acima, quando o cmdlet Invoke-CsCdrDatabasePurge é executado, os parâmetros PurgeCallDetaiDataOlderThanDays e PurgeDiagnosticDataOlderThanDays devem ser incluídos. No entanto, esses parâmetros não precisam ser definidos com o mesmo valor. Por exemplo, é possível limpar registros de detalhes das chamadas com mais de 10 dias e, ao mesmo, tempo deixar todos os registros de dados de diagnósticos no banco de dados. Para fazer isso, defina PurgeCallDetailDataOlderThanDays como 10 e PurgeDiagnosticDataOlderThanDays como 0. Por exemplo:
   
@@ -42,12 +43,12 @@ Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwa
 
 Por padrão, sempre que o Invoke-CsCdrDatabasePurge é executado, um aviso semelhante a esse é exibido para cada tabela de banco de dados que deve ser limpa:
   
-```
+<pre>
 Confirm
 Are you sure you want to perform this action?
 Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Server:atl-sql-001.litwareinc.com\archinst Database: lcscdr".
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All [S] Suspend  [?] Help (default is "Y"):
-```
+</pre>
 
 É preciso digitar S (Sim) ou T (Sim para Todos) para que a limpeza do banco de dados ocorra de fato. Se você preferir suprimir esse avisos de confirmação, adicione o seguinte parâmetro ao final de sua chamada para Invoke-CsCdrDatabasePurge:
   

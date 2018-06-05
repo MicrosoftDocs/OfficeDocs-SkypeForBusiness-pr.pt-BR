@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Resumo: Saiba mais sobre o relatório de atividade do usuário no Skype para Business Server 2015.'
-ms.openlocfilehash: b3a69f067f2acbc27b84b58c7ebc9ba53c979f92
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569390"
 ---
 # <a name="user-activity-report-in-skype-for-business-server-2015"></a>Relatório de Atividades do Usuário no Skype for Business Server 2015
  
@@ -24,7 +25,7 @@ O Relatório de Atividades do Usuário oferece uma lista detalhada das sessões 
   
 O Relatório de Atividades do Usuário é referenciado algumas vezes como o relatório do "suporte técnico". Isso se deve ao fato de o relatório ser sempre usado pela equipe do suporte técnico para recuperar informações sobre a sessão para um usuário específico. É possível filtrar chamadas feitas para ou por um usuário individual simplesmente digitando o URI do SIP do usuário na caixa URI do usuário.
   
-Se você fizer isso, o relatório de atividades do usuário irá retornar informações para qualquer usuário cujo URI do SIP começa com a cadeia de caracteres especificada. Por exemplo, se você digitar **ken** na caixa URI, o User Activity Report localizará **Ken**. Myer@litwareinc.com. no entanto, ele também localizará esses usuários:
+Se você fizer isso, o relatório de atividades do usuário irá retornar informações para qualquer usuário cujo URI do SIP começa com a cadeia de caracteres especificada. Por exemplo, se você digitar **ken** na caixa URI, o Relatório de Atividades do usuário localizará **Ken**.Myer@litwareinc.com. No entanto, ele localizará também esses usuários:
   
 - **Ken** azi@litwareinc.com
     
@@ -69,7 +70,7 @@ $x | Group-Object "From user" | Select Name | Sort-Object Name
 
 Em outras palavras:
   
-```
+<pre>
 Name
 ----
 David.Ahs@litwareinc.com
@@ -77,7 +78,7 @@ Gilead.Amosnino@litwareinc.com
 Henrik.Jensen@litwareinc.com
 Ken.Myer@litwareinc.com
 Pilar.Ackerman@litwareinc.com
-```
+</pre>
 
 Este comando lista os usuários exclusivos (com base no número total de sessões das quais participaram:
   
@@ -87,7 +88,7 @@ $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descendi
 
 Este retorna dados semelhantes a estes:
   
-```
+<pre>
 Count    Name
 -----    ----
   523    Ken.Myer@litwareinc.com
@@ -95,7 +96,7 @@ Count    Name
    29    Pilar.Ackerman@litwareinc.com
    17    Gilead.Amosnino@litwareinc.com
    10    Henrik.Jensen@litwareinc.com
-```
+</pre>
 
 Este comando limita as sessões reportadas àquelas que incluíram áudio como modalidade:
   

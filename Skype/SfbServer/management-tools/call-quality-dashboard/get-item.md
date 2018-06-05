@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Resumo: Saiba mais sobre a operação obter Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 6e4ba82c804937025b72da2d443c2a828d92d98a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 29811f7f760644d257a2600dea08e54e1a53421b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569149"
 ---
 # <a name="get-item"></a>Obtenha Item
  
@@ -53,7 +54,6 @@ Obtenha o Item Retorna um item específico no repositório.
 "type": "application/json",
 "subItemIds": [1653, 1710]
 }
-
 ```
 
  *itemId* - ID do item.

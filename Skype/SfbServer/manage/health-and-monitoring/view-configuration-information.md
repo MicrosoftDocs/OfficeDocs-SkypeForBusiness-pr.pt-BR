@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Resumo: Saiba como usar a gravação de detalhes das chamadas (CDR) no Skype para Business Server 2015.'
-ms.openlocfilehash: 6eacc6c300cfc1faae843a1dc610b17b45ae9c88
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: cd143db6ebc0c4e284763ccf4beb9c545fa24ff5
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569439"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server-2015"></a>Visualizar informações de configuração do CDR no Skype for Business Server 2015
  
@@ -44,15 +45,14 @@ Você pode exibir as definições de configuração de CDR usando o Windows Powe
 
     Isso retornará informações parecidas com:
     
-  ```
-  Identity               : Global
+<pre>
+Identity               : Global
 EnableCDR              : True
 EnablePurging          : True
 KeepCallDetailForDays  : 90
 KeepErrorReportForDays : 60
 PurgeHourOfDay         : 2
-
-  ```
+</pre>
 
 Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) .
   

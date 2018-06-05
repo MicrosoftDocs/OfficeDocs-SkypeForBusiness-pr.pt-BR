@@ -16,11 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumo: Leia este tópico para saber como atribuir uma política de voz para os usuários que usam o sistema telefônico no Office 365 com uma conectividade PSTN local.'
-ms.openlocfilehash: 0699e4c4da94c680f86ec607950a1c3b42b5690a
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 43d8939e6e0cd49f66234e127f05cb421700a15a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569495"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Atribuir uma Política de Roteamento de Voz
  
@@ -51,14 +52,12 @@ Antes de usar uma política de roteamento de voz global para seu sistema telefô
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-
   ```
 
     Por exemplo:
     
   ```
   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-
   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>Crie uma nova política de roteamento de voz

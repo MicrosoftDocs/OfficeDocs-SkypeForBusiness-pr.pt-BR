@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte cumulativa 9 do pacote de atualização para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 8de94fc0e15b1d851b43b386b476abfa776fad2d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569135"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar espelhamento de SQL para alta disponibilidade do servidor back-end no Skype for Business Server 2015
  
@@ -128,19 +129,17 @@ A maneira mais fácil de configurar o espelhamento é usando o construtor de top
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 
-
    ```
 
     Por exemplo:
     
    ```
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose 
-
    ```
 
     Você verá:
     
-  ```
+ <pre>
   Database Name:rtcxds 
         Data File:D:\CsData\BackendStore\rtc\DbPath\rtcxds.mdf 
          Log File:D:\CsData\BackendStore\rtc\LogPath\rtcxds.ldf 
@@ -214,8 +213,7 @@ A maneira mais fácil de configurar o espelhamento é usando o construtor de top
      Witness SQL : AB14-lct.los_a.lsipt.local\rtc 
           Account: LOS_A\AB14-lct$
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "Y"): 
-
-  ```
+</pre>
 
 2. Verifique se:
     
@@ -253,14 +251,12 @@ Para remover o espelhamento de SQL de um pool no Construtor de Topologias, prime
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
-
 ```
 
 Por exemplo, para remover o espelhamento e os bancos de dados de usuários, digite:
   
 ```
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
-
 ```
 
 O `-DropExistingDatabasesOnMirror` opção faz com que os bancos de dados afetados sejam excluídas do espelho.

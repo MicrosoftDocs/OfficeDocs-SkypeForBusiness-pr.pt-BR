@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Resumo: Saiba como alterar o usuário políticas de arquivamento para Skype para Business Server 2015.'
-ms.openlocfilehash: f03ddc0799868e825c46fad2f93ba93d3b8a071a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 21774eaff8b58c585b347e1f657aa7afcc3b6106
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569404"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server-2015"></a>Alterar uma política de arquivamento existente no Skype for Business Server 2015
  
@@ -59,21 +60,18 @@ Para habilitar o arquivamento de sessões de comunicações internas, defina o v
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True
-
 ```
 
 Para habilitar o arquivamento de sessões de comunicações externas, defina o valor do parâmetro ArchiveExternal como Verdadeiro ($True): 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveExternal $True
-
 ```
 
 Para habilitar o arquivamento de sessões de comunicações internas e externas, defina o valor dos parâmetros de ArchiveInternal e ArchiveExternal como verdadeiro: 
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
-
 ```
 
 ### <a name="disable-archiving-policies"></a>Desabilitar políticas de arquivamento
@@ -82,5 +80,4 @@ Para desabilitar o arquivamento como um todo, defina os parâmetros ArchiveInter
   
 ```
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $False -ArchiveExternal $False
-
 ```

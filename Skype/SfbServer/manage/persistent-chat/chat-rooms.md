@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Resumo: Saiba como gerenciar salas de chat Persistent Chat Server Skype para Business Server 2015.'
-ms.openlocfilehash: fd927e3a54f1f3a8df429677f481ea224534b984
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 7febc9736f43f3168d7bc62b0ddf833fa6b5864b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569397"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar salas de chat no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -76,7 +77,7 @@ Além de parâmetros acima, o cmdlet **Set-CsPersistentChatRoom** permite atribu
   
 ## <a name="create-a-new-room"></a>Criar uma nova sala
 
-Você pode criar uma nova sala usando o cmdlet **New-CsPersistentChatRoom**. Por exemplo, o comando a seguir cria uma nova sala de bate-papo chamada ITChatRoom no pool atl-cs-001.contoso.com. Neste exemplo, a sala de bate-papo é adicionada à categoria IT:
+Você pode criar uma nova sala usando o cmdlet **New-CsPersistentChatRoom**. Por exemplo, o comando a seguir cria uma nova sala de chat chamada ITChatRoom no pool atl-cs-001.contoso.com. Neste exemplo, a sala de chat é adicionada à categoria de TI:
   
 ```
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
@@ -130,7 +131,6 @@ Para habilitar uma sala de chat, defina o parâmetro Disabled para False:
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
-
 ```
 
 ## <a name="get-information-about-rooms"></a>Obtenha informações sobre salas

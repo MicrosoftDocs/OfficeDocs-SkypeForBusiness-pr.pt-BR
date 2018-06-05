@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server 2015. Este artigo não se destina os usuários desses aplicativos.'
-ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 832cc68dfb645132c95baaefb9c9af5d9e996a2a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546558"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569879"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar para clientes de reuniões (Web App e reuniões App)
  
@@ -30,7 +30,7 @@ Depois que você implementou Skype para Business Server, os usuários da organiz
 No futuro, esses usuários podem criar reuniões e convidar usuários de fora da organização e os convidados da reunião não podem ter qualquer versão do Skype para o cliente de negócios. Quando os usuários clicam na URL de convite da reunião, a falta de um cliente será detectada e o convidado sem um Skype para o cliente de negócios será solicitado a baixar e instalar um cliente leve, somente para reuniões, portanto, eles poderão ingressar na reunião.
   
 > [!NOTE]
-> O Skype para negócios Web App e Skype reuniões App só estarão disponíveis quando você tentar fazer logon uma reunião sem ter uma Skype para negócios. Ajuda do usuário para esses aplicativos está em [https://aka.ms/smahelp](https://aka.ms/smahelp). 
+> O Skype para negócios Web App e Skype reuniões App só estarão disponíveis quando você tentar fazer logon uma reunião sem ter uma Skype para negócios. Ajuda do usuário para esses aplicativos está em https://aka.ms/smahelp. 
   
 > [!NOTE]
 > Pré-você não pode instalar qualquer um do Skype para negócios Web App ou aplicativo de reuniões do Skype, mas os usuários de [telefone inteligente](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) e [tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) podem conseguir instalar baratos clientes móveis, que eles podem usar para participar de reuniões.
@@ -165,6 +165,8 @@ A partir do Skype para Business Server 2015 CU5, AES não é suportado para ASP.
   
 ## <a name="see-also"></a>Ver também
 <a name="BKMK_Conferencing"> </a>
+
+[Requisitos mínimos de rede de aplicativo de reuniões do Skype](minimum-network-requirements.md)
 
 [Implantar clientes para download da Web no Skype para Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 

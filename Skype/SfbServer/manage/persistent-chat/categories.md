@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumo: Saiba como gerenciar categorias de servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: e24beb1c4e1ebe7bb541a7bd6226f098c1bcb58b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 418cdc395a611c880da5b9455c10367fe19c6843
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568616"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -102,7 +103,7 @@ Para obter informações completas sobre a sintaxe do cmdlet, incluindo todos os
   
 ### <a name="create-a-new-category"></a>Criar uma nova categoria
 
-Você pode criar uma nova categoria usando o cmdlet **New-CsPersistentChatCategory**. Por exemplo, o comando a seguir cria uma nova categoria denominada assistência técnica no pool atl-cs-001.contoso.com. Neste exemplo, o carregamento de arquivo está habilitado:
+Você pode criar uma nova categoria usando o cmdlet **New-CsPersistentChatCategory**. Por exemplo, o comando a seguir cria uma nova categoria chamada HelpDesk no pool atl-cs-001.contoso.com. Neste exemplo, o envio de arquivos está habilitado:
   
 ```
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
@@ -134,5 +135,3 @@ Você pode remover uma categoria usando o cmdlet **Remove-CsPersistentChatCatego
 ```
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```
-
-

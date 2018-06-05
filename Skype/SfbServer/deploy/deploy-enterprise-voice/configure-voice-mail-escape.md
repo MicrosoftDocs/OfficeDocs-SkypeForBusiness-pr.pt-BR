@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Resumo: Saiba como configurar escape da caixa postal no Skype para Business Server 2015 usando o Skype do Shell de gerenciamento do servidor de negócios.'
-ms.openlocfilehash: dea96ffb9eb670a430e9f983660a793444812438
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2f8cf7549fd91c8153803a42f5dfb3b78a311e56
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568287"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business-2015"></a>Configurar escape de caixa postal no Skype for Business 2015
  
@@ -42,14 +43,9 @@ Essa configuração é realizada usando o Skype para o cmdlet do Shell de gerenc
 
 ```
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
-
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
-
 ```
 
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Configurando políticas de voz e registros de uso do PSTN para autorizar privilégios e recursos de chamada](http://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
-

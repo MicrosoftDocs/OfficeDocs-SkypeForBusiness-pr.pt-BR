@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumo: Habilite o repositório unificado de contatos no Skype para Business Server 2015.'
-ms.openlocfilehash: fbe94023a6693f7d016d2963d49d88646c9b969e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2004ab4074af98381fbbfdf67ba4ce0bac9503a8
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568714"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server-2015"></a>Implantar repositório unificado de contatos no Skype for Business Server 2015
  
@@ -76,7 +77,6 @@ Quando você implantar Skype para Business Server 2015 e publique a topologia, o
    ```
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
-
    ```
 
     > [!NOTE]
@@ -87,7 +87,6 @@ Quando você implantar Skype para Business Server 2015 e publique a topologia, o
    ```
    New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
-
    ```
 
     > [!NOTE]

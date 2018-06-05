@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumo: Defina discada um usuário PIN para Skype para Business Server 2015.'
-ms.openlocfilehash: d94df7ff557c9a229fd5f049ca10f9c1e7f22407
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568818"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Configurar PIN de conferência discada de um usuário no Skype for Business Server 2015
  
@@ -86,7 +87,6 @@ O comando a seguir atribui um número PIN ao usuário Ken Myer. Porque o parâme
     
   ```
   Set-CsClientPin -Identity "Ken Myer" 
-
   ```
 
 ### <a name="to-assign-a-specific-pin-number-to-a-user"></a>Para atribuir um número PIN específico a um usuário

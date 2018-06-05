@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumo: Saiba como configurar o serviço de conformidade de servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: a77b07b0e05a248c351e73c5b8a5f2cebf97236c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568623"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -376,5 +377,3 @@ O exemplo de código a seguir contém um exemplo de transformação em XSL:
 </xsl:stylesheet>
 
 ```
-
-

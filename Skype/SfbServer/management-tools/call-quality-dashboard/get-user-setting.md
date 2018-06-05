@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Resumo: Saiba mais sobre a operação de obter a configuração do usuário, que faz parte do serviço de configurações de usuário. O serviço de configurações de usuário é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 562886196f06030aef30efbd6f583c29d7f29e59
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e3646b1c6d5a7f959ee76565bb7b92ac84cbe8a4
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569247"
 ---
 # <a name="get-user-setting"></a>Obter a configuração do usuário
  
@@ -52,7 +53,6 @@ Obtenha a configuração do usuário retorna a configuração de um único usuá
 "key": "ShowDescriptions",
 "value": "true"
 }
-
 ```
 
  *userId* - ID do usuário.
