@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Resumo: Como usar o arquivo config. XML para especificar instruções de instalação adicionais.'
-ms.openlocfilehash: f55683d672df890be8baf0ac7ca50b3170faf3d2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e3c27aab3e821f7dcd621e40fd4339e4db2b985
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568553"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-server-2015"></a>Usar o Config.xml para executar as tarefas de instalação no Skype for Business Server 2015
  
@@ -75,9 +76,9 @@ Informações detalhadas sobre como usar o arquivo config. XML para executar tar
     
 3. Modifique a entrada do elemento com as opções silenciosas que você deseja usar. Certifique-se de que você remova os delimitadores de comentário, "\<! –" e "–\>". Por exemplo, use a seguinte sintaxe:
     
-  ```
+  <pre>
   < DistributionPoint Location="\\server\share\Skype15" />
-  ```
+  </pre>
 
 4. Salve o arquivo Config.xml.
     

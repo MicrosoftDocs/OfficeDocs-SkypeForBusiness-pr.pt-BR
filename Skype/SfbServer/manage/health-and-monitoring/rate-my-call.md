@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Resumo: Saiba sobre o recurso de taxa de chamada Meu Skype para Business Server 2015.'
-ms.openlocfilehash: 1e0088c563f38be59bda0fad10dbd367ea0646e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 54e751731e305767eecb755f274de667949379f2
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569794"
 ---
 # <a name="rate-my-call-in-skype-for-business-server-2015"></a>Rate My Call no Skype for Business Server 2015
  
@@ -52,7 +53,6 @@ Não há nenhuma ação é necessária para habilitar o recurso de base, no enta
   
 ```
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
-
 ```
 
 ## <a name="accessing-rate-my-call-data"></a>Acessando a taxa de meus dados de chamada

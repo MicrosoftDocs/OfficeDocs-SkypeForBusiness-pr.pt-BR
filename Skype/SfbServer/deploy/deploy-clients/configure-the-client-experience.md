@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumo: Leia este tópico para saber como configurar a experiência do cliente para Skype para usuários comerciais.'
-ms.openlocfilehash: 9c1bc182c383ea7d806ce779f3d727e7925a59d4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 28d7968a631e4ee0cca172d300e924596b6d2147
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569823"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business"></a>Configurar a experiência do cliente com o Skype for Business
  
@@ -88,13 +89,13 @@ Se você quiser exibir a interface do usuário do Lync quando os usuários inici
     
     A chave deve ser semelhante a esta:
     
-  ```
-  [HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
+ <pre>
+[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]
 "CanSharePptInCollab"=dword:00000001
 "CanShareOneNoteInCollab"=dword:00000001
 "CanAppShareInCollab"=dword:00000001
 "EnableSkypeUI"=hex:00,00,00,00
-  ```
+</pre>
 
 A interface do usuário do Lync será exibida quando os usuários iniciarem o cliente Skype for Business pela primeira vez.
   
@@ -106,9 +107,7 @@ Na chave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, crie um no
   
 A chave deve ser semelhante a esta:
   
-```
-"IsBasicTutorialSeenByUser"=dword:00000001
-```
+`"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>Desativar o tutorial do cliente
 

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: O cmdlet Restore Cc-credenciais restaura todas as credenciais do Skype atual para a implantação do conector de nuvem Business Edition.
-ms.openlocfilehash: 045d7f651408b1cbdbd508966da3272ac61d7c04
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bb74444c5f63b792abf6c12c317c1a824298426c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569730"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
@@ -23,7 +24,6 @@ O cmdlet Restore Cc-credenciais restaura todas as credenciais do Skype atual par
 Este cmdlet se aplica a Skype para negócios nuvem conector Edition 2.1.
   
 ```
-
 Restore-CcCredentials 
 ```
 

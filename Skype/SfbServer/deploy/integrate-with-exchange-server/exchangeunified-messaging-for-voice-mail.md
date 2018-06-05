@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumo: Configure o Unificação de mensagens do Exchange Server para Skype para caixa postal Business Server.'
-ms.openlocfilehash: 9f4cb3dcd43d8f6300a5fbe38bd37c40d48e8273
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5cc8825e04e348004f4105d483eb7a92dd0e5c60
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569219"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-2015-voice-mail"></a>Configurar a Unificação de Mensagens do Exchange Server para a caixa postal do Skype for Business Server 2015
  
@@ -86,7 +87,6 @@ Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com poderá
   
 ```
 $credential = Get-Credential "litwareinc\kenmyer"
-
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
@@ -94,8 +94,5 @@ Se você tiver um segundo usuário que tenha sido habilitado para Unificação d
   
 ```
 $credential = Get-Credential "litwareinc\pilar"
-
 Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential
 ```
-
-

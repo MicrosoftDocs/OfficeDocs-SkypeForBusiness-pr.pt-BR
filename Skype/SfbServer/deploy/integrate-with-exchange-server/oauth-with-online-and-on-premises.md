@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configurando o OAuth a autenticação entre o Exchange no local e Skype para Business Online permite que o Skype para recursos de integração do Exchange e de negócios descritos no suporte ao recurso.
-ms.openlocfilehash: adb811a8934fdc6ea574dc934efa57ee28e6fba6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ff7b45f3fcdbaaf752817d1705acb047a4c71f12
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568898"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Configurar OAuth entre o Skype for Business Online e o Exchange no local
  
@@ -71,7 +72,6 @@ Esses dois próximos comandos atribuirão a função de gerenciamento de UserApp
   
 ```
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN> 
-
 ```
 
 ```
@@ -142,7 +142,7 @@ Especifique um domínio verificado para sua organização do Exchange. Esse dom�
 > [!NOTE]
 > A execução bem sucedida do script a seguir requer que o Windows PowerShell para Azure Active Directory esteja conectado ao seu locatário do Microsoft Online Azure AD, conforme explicado na etapa 4 na seção anterior. 
   
-1. Salve o texto a seguir em um arquivo de script do PowerShell denominado, por exemplo, RegisterEndpoints.ps1. Este exemplo usa um caractere curinga para registrar todos os pontos de extremidade para contoso.com. Substitua contoso.com por uma autoridade de nome de host para a sua organização do Exchange local
+1. Salve o texto a seguir em um arquivo de script do PowerShell denominado, por exemplo, RegisterEndpoints.ps1. Este exemplo usa um curinga para registrar todos os pontos de extremidade para contoso.com. Substitua contoso.com por uma autoridade de nome de host para a sua organização do Exchange local
     
   ```
   $externalAuthority="*.<your Verified Domain>" 

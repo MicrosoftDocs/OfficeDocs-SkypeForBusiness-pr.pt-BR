@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Resumo: Saiba mais sobre a operação de executar consulta, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 6e294625e173854382e39abc098a0480871586ac
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3720ce118537963e5093741c4f05315e887bd60d
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569744"
 ---
 # <a name="run-query"></a>Executar a consulta
  
@@ -69,7 +70,6 @@ Execute a consulta operação fornece a capacidade de executar uma consulta no c
 "Type": 0
 }
 }
-
 ```
 
  *Filtros* - uma lista de expressões de filtro a ser aplicado, de forma que o conjunto de dados resultante refletirão apenas o subconjunto dos dados interessantes.
@@ -127,5 +127,3 @@ Execute a consulta operação fornece a capacidade de executar uma consulta no c
  *Resultado de dados* - o resultado da consulta. É uma matriz bidimensional que contém todas as permutas dos membros das dimensões e cada elemento contendo nomes de membros das dimensões, bem como os valores agregados das medidas especificados.
   
  *Resultado é o Cache de* - de diagnósticos. Indica se o resultado provém do cache ou do cubo QoE.
-  
-

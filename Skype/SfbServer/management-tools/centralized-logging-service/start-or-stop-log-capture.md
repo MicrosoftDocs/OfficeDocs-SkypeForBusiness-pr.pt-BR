@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumo: Saiba como iniciar ou parar uma sessão de captura do log de Centralized Logging Service no Skype para Business Server 2015.'
-ms.openlocfilehash: 3a66e9320734900c3f944b2a7abce55359a765d8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504723"
+ms.locfileid: "19570154"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
  
@@ -75,7 +75,6 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
     
   ```
   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-
   ```
 
     O execução com sucesso deste cenário devolve um resultado como o seguinte:

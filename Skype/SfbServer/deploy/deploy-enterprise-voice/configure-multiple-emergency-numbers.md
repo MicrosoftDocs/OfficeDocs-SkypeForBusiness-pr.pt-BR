@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Leia este tópico para saber como configurar vários números de emergência no Skype for Business Server 2015.
-ms.openlocfilehash: ad2f048294b7eeef6d675fdf80884ae13cc75a61
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 176233639a6ca935165e4640471377cc012db103
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568232"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business-2015"></a>Configurar vários números de emergência no Skype for Business 2015
  
@@ -36,7 +37,6 @@ O comando a seguir cria um novo número de emergência com a cadeia de caractere
   
 ```
 > $a = New-CsEmergencyNumber -DialString 911 
-
 ```
 
 O próximo comando associa o número à política de local especificada, especificando o parâmetro EmergencyNumbers no cmdlet Set-CsLocationPolicy:

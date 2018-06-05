@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Aprenda a habilitar ou desabilitar Offline as mensagens Instantâneas no Skype para Business Server 2015.
-ms.openlocfilehash: a9133ad82e4d25fae2aebd266273ecbb37c2a010
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 46adfbea2e3164944d9670310819d3ae46d8d07c
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569809"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server-2015"></a>Habilitar ou desabilitar o IM (Sistema de Mensagens Instantâneas) Offline no Skype for Business Server 2015
  
@@ -58,13 +59,9 @@ Para mensagens offline enviadas de organização federada, elas serão recebidas
 
 Não há um timer minuto dois quando uma mensagem offline é enviado a quando ele tem buscadas e processadas. Se mensagens offline não podem ser processadas, eles aparecerão no seguinte diretório: 
   
-   ```
-  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler
-  ```
+  <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
 O Skype principal para o log de negócios ETL irá conter informações sobre o processamento de mensagens Offline e é a melhor fonte para solução de problemas/investigação. 
   
 > [!NOTE]
 > Foi relatado um problema em que as mensagens offline não eram enviadas e a pasta "Rascunhos" era preenchida com mensagens. Isso ocorria em caixas de correio do Exchange no Local. O problema foi resolvido em todos os canais C2R em 14/06/2016.  
-  
-

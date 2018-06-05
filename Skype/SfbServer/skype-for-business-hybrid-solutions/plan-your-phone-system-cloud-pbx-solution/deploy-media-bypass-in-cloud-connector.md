@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: 0d147cbd1f6497757aa73e380ebeca0c03f1de7b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505192"
+ms.locfileid: "19570041"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -55,7 +55,6 @@ Para verificar a replicação on-line para seu pool de locatário, execute o seg
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
-
 ```
 
 Para verificar a replicação do local, conecte-se para os servidores de mediação do conector de nuvem, execute o seguinte comando no PowerShell e confirme que Enabled = True e AlwaysBypass = True

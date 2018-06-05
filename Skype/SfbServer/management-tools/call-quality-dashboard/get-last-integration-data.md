@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Resumo: Saiba mais sobre a operação obter dados de integração com o último, que é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: d3d8ec70b0b15120214fce736ea6d538dfe26ef4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: bcef1a1ad8a42f01133c45a6af093e3c7d1e3123
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570196"
 ---
 # <a name="get-last-integration-data"></a>Obter dados de integração com o últimos
  
@@ -69,7 +70,4 @@ Esse recurso é desabilitado por padrão, e ele precisa estar habilitado, config
 "LastDataIntegrationStart": null,
 "LastCubeProcessingStart": "01/18/2015 10:30:16"
 }
-
 ```
-
-

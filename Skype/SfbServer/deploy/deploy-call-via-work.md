@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Resumo: Saiba como implantar chamada Via trabalho no Skype para Business Server 2015 para alguns ou todos os seus usuários.'
-ms.openlocfilehash: e101cf39daedb8d94879b6cf99cd0c7b4ae00e8d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6b4dcb12458fb3421db5b500b550061c24d51bc1
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568246"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Implantar Telefonar via Trabalho no Skype for Business Server 2015
  
@@ -72,9 +73,7 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
 - Digite o seguinte cmdlet
     
   ```
-  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber
-    <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
-
+  New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     Por exemplo, o cmdlet a seguir cria uma política de chamada Via trabalho denominada ContosoUser1CvWP requer que o usuário usar um número de retorno de chamada de admin e define esse número de retorno de chamada para 1-555-789-1234.
@@ -98,8 +97,6 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
   ```
 
 ## <a name="see-also"></a>Consulte também
-
-#### 
 
 [Planejar para chamada Via trabalho no Skype para Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

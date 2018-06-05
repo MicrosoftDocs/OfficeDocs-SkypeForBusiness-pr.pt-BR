@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Resumo: Saiba como pesquisar e ler logs de captura Centralized Logging Service no Skype for Business Server 2015.'
-ms.openlocfilehash: ccf9827848d190179b5f942646a74947047c02c5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: eb90fcab49bca13e1a3cbe89102301167e059fda
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570161"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Pesquisar logs de captura criados para o Serviço de Registro em Log no Skype for Business Server 2015
  
@@ -169,7 +170,6 @@ A pesquisa resultante retorna todas as entradas de log com componentes de rastre
     
   ```
   Search-CsClsLogging -Components "SIPStack","S4","UserServices" -StartTime "11/1/2012 00:00:01 AM" -EndTime "11/20/2012 2:45:00 PM" -SkipNetworkLogs -OutputFilePath "C:\Logfiles\logfile.txt"
-
   ```
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>Lendo registros de captura do Serviço de Registro em Log

@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Resumo: Saiba como exibir políticas de conferência no Skype para Business Server 2015.'
-ms.openlocfilehash: 4d91a04456f7c9d877e58caed1d576edc0f80b41
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 5a0e99506d5c9fb7bc8799abcb15e4bb4224a3bc
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19568665"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server-2015"></a>Exibir políticas de conferência no Skype for Business Server 2015
  
@@ -48,7 +49,7 @@ Get-CsConferencingPolicy
 
 O cmdlet retorna informações como as seguintes:
   
-```
+<pre>
 Identity                                  : Global
 AllowIPAudio                              : True
 AllowIPVideo                              : True
@@ -83,8 +84,7 @@ AppSharingBitRateKb                       : 50000
 FileTransferBitRateKb                     : 50000
 TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
-
-```
+</pre>
 
 Para obter mais informações, incluindo uma descrição de sintaxe completa e a lista de parâmetros, consulte [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).
   

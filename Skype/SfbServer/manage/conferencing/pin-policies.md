@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Resumo: Saiba como gerenciar políticas de PIN para conferência discada no Skype para Business Server 2015.'
-ms.openlocfilehash: ecc1c41c4d08583baaec4279ea35d9ba796d3e5e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569048"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Gerenciar políticas de PIN para conferência discada no Skype para Business Server 2015
  
@@ -48,7 +49,6 @@ Para exibir informações sobre políticas de PIN, use o cmdlet **Get-CsPinPolic
   
 ```
 Get-CsPinPolicy -Identity "site:Redmond"
-
 ```
 
 Para obter mais informações, incluindo uma descrição de sintaxe completa e a lista de parâmetros, consulte [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps).
@@ -94,7 +94,6 @@ O seguinte comando altera o valor de MinPasswordLength em todas as políticas de
   
 ```
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
-
 ```
 
 Para obter mais informações, incluindo uma descrição de sintaxe completa e a lista de parâmetros, consulte [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).
@@ -176,7 +175,6 @@ O seguinte comando modifica a política de PIN atribuída ao site de Redmond. Ne
   
 ```
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
-
 ```
 
 Para obter mais informações, incluindo uma descrição de sintaxe completa e a lista de parâmetros, consulte [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps).

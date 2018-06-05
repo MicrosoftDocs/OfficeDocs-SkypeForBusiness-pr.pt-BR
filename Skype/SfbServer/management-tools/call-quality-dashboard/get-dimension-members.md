@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Resumo: Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 6da1b8f6d93dc197df320f1fb5875a6269a9b45a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e15f63d5ad52c9fbc52d692fd5bbb0480a41a50a
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569275"
 ---
 # <a name="get-dimension-members"></a>Obtenha os membros de dimensão
  
@@ -47,7 +48,6 @@ Operação de membros da dimensão Get retorna a lista de membros de uma dimens�
 "PageNumber": 0,
 "PageSize": 8000
 }
-
 ```
 
  **Resposta** - a resposta inclui um código de status HTTP e um conjunto de cabeçalhos de resposta.
@@ -82,7 +82,4 @@ Operação de membros da dimensão Get retorna a lista de membros de uma dimens�
 ["[2031-01-01T00:00:00]",
 "January 2031"]]
 }
-
 ```
-
-

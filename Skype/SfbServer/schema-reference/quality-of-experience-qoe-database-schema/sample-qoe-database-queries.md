@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Esta seção contém exemplos de consultas do banco de dados de qualidade da experiência (QoE).
-ms.openlocfilehash: 20ca6bc8aea6035ebe27fc5f77d512464cd82dcc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 70fff2c34e7eade21e5f2c29893a175ee65e39b0
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570175"
 ---
 # <a name="sample-qoe-database-queries"></a>Exemplo de consultas ao banco de dados de QoE
  
@@ -37,7 +38,6 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and m.MediaLineLabel = 0 -- audio media line
    and s.CallerUserAgentType = 4 -- Lync
    and s.CalleeUserAgentType = 4 -- Lync
-
 ```
 
 Use o exemplo a seguir para obter ConversstionalMOS, SendingMOS e ListendingMOS por dispositivo de captura.
@@ -65,7 +65,4 @@ from
 )as t
 group by t.DeviceName
 order by SampleNum desc
-
 ```
-
-

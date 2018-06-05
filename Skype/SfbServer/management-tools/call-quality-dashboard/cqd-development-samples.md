@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumo: Revise amostras de desenvolvimento e tutorial para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 40e6defd85cc9e8dd86956a3539b51e1846b6da5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 567e6e22e3763183158562a6cf733a0127893ba6
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569816"
 ---
 # <a name="cqd-development-samples"></a>Amostras de Desenvolvimento para o CQD
  
@@ -63,8 +64,7 @@ Vejamos um exemplo simples primeiro. Se quisermos mostrar a contagem de Fluxos d
   
 É preciso enviar uma chamada para o Serviço de Dados com os parâmetros corretos e mostrar os resultados da consulta em uma tabela HTML. A seguir, uma amostra do código JavaScript:
   
-```
-        
+```        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -94,7 +94,6 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
            }
             });
         });
-
 ```
 
 Este exemplo pode ser segmentado em três etapas:
@@ -188,7 +187,6 @@ Colocar o código JavaScript em uma página HTML, e a página mostrará um relat
     </table>
 </body>
 </html>
-
 ```
 
 Até agora, o relatório ainda é muito simples. O usuário pode adicionar mais medidas, dimensões ou filtros para personalizá-lo. Por exemplo, se você quiser mostrar a porcentagem de chamadas ruins de AppSharing, uma nova medida de AppSharing precisará ser adicionada. Se você quiser mostrar todas as chamadas TCP x UDP, uma nova dimensão sobre o tipo de transporte deverá ser adicionada. Se você quiser mostrar o número de chamadas ruins dentro de um edifício específico, um novo filtro deverá ser adicionado para selecionar as chamadas de e para esse edifício.
@@ -310,7 +308,6 @@ A seguir, apresentamos um exemplo rápido, o código contém um bloco que é um 
     </script>
 </body>
 </html>
-
 ```
 
 O processo acima resultará em uma página da Web como a da figura (sem a definição de relatório na visita inicial). Obter a ID do conjunto de relatório do portal CQD (ele é depois '/ #/' entrar no portal CQD URL (ex.: na primeira figura o relatório de identificação do conjunto é 3024) e colocar a ID do conjunto de relatório para a seção de entrada desta página da web. Pressione o botão "carga" e consulte a definição completa (medidas, dimensões, listas de filtros) do conjunto de relatório.
@@ -735,7 +732,4 @@ Código HTML do Exemplo 3 (amostra de scorecard):
     </script>
 </body>
 </html>
-
 ```
-
-

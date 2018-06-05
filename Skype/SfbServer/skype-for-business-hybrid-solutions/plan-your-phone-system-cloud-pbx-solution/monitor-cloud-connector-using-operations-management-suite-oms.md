@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para saber como monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações da Microsoft (OMS).
-ms.openlocfilehash: 8cb454cfcb61bb11e0545ab5ff7dd45d1403ce55
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 160fcfc4baade7bc59d41771b0fd86d3cb725cab
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569758"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitorar o conector de nuvem usando o pacote de gerenciamento de operações (OMS)
  
@@ -152,8 +153,7 @@ Para criar esse par de alerta:
 - A consulta para o alerta de erro é:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
     A consulta usa o filtro de computador *em que o computador contém "MediationServer"* . O filtro seleciona apenas o computador cujo nome contém a cadeia de caracteres "MediationServer".
@@ -165,8 +165,7 @@ Para criar esse par de alerta:
 - A consulta para o alerta de redefinição é:
     
   ```
-  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)
- | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
+  Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     A consulta reset faz exatamente a oposto coisa da consulta de erro. Para cada computador, ele retornará um se o último evento for o serviço iniciado evento; ele não retornará nada se o último evento é o evento de parada do serviço.
@@ -178,9 +177,7 @@ Para criar esse alerta:
 - A consulta para o alerta de erro é:
     
   ```
-  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName 
-== "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
+  Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
     Para cada computador, a consulta obterá os contadores de últimos de chamada de entrada e chamadas de saída e soma esses dois valores. Ele retornará um log se o valor de soma exceder 500; ele não retornará nada se isso não acontecer. Em resumo, a consulta retornará uma lista de servidores cujas chamadas simultâneas são muitos na janela de tempo.
@@ -188,21 +185,17 @@ Para criar esse alerta:
 - A consulta para o alerta de redefinição é:
     
   ```
-  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==
- "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize
- TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
-
+  Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     A consulta reset faz exatamente a oposto coisa da consulta de erro. Para cada computador, a consulta obterá os contadores de últimos de chamada de entrada e chamadas de saída e soma esses dois valores. Ele retornará um log se o valor de soma for menor do que 500; ele retornará nothing caso contrário.
     
- **Criar um alerta: "uso da CPU \> 90 ou RTCMEDIARELAY interrompido em servidores" alerta**
+ \>
   
 Para criar esse alerta, a consulta é:
   
 ```
-search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==
- "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
+search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 
 A consulta receberá todos os contadores de uso do processador e evento de parada do serviço de todos os computadores e o retorno de um log se o uso do processador exceder 90% ou serviço nunca foi interrompido. 
