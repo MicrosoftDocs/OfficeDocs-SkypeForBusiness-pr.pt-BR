@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Resumo: Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: d94995e75ecbb4df973a01ebfa5f00ed91575c19
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630144"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de endereço IP no Skype for Business
  
@@ -78,20 +79,15 @@ Usando o construtor de topologias, execute as etapas no procedimento a seguir pa
     > [!NOTE]
     > Não há suporte para a instalação de NICs adicionais para dar suporte a configuração de endereço IP PSTN nos servidores de mediação autônomo. Para obter mais informações sobre configurações de NIC com suporte para Skype para Business Server, consulte [Server hardware platforms do Lync Server 2013](http://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx). 
   
-## <a name="deploy-ip-address-types-on-a-edge-server"></a>Implantar tipos de endereço IP em um Servidor de Borda
+## <a name="deploy-ip-address-types-on-an-edge-server"></a>Implantar tipos de endereço IP em um Servidor de Borda
 
-Usando o construtor de topologias, execute as etapas no procedimento a seguir para implantar tipos de endereço IP em um servidor de borda.
+Usando o construtor de topologias, execute as seguintes etapas:
   
 ### <a name="to-deploy-ip-address-types-on-an-edge-server"></a>Para implantar tipos de endereço IP em um servidor de borda
 
 1. No construtor de topologia, em **pools de borda**, o servidor de um pool do mouse em e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
     
-2. Na janela **Editar Propriedades**, selecione a configuração de endereço IP para a qual deseja oferecer suporte. As figuras a seguir mostram uma configuração de pilha dupla para as interfaces interna e externa.
-    
-   **Interface interna do servidor de borda com pilha dupla**
-
-   **Interface externa do servidor de borda sobreposta dupla**
+2. Na janela **Editar Propriedades**, selecione a configuração de endereço IP para a qual deseja oferecer suporte.    
 
 3. Para cada tipo de endereço selecionado, você deve fornecer os endereços internos e externos apropriados.
     
-

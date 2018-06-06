@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 576b0247631e4f01909acb717e12efbb954d5cb0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 9f47cf2f04db02765f9693b1128fe1f9440b59e6
+ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546589"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19630151"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -30,6 +30,9 @@ Skype para Business Server requer que portas específicas nos firewalls internos
 Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para o planejamento, isso pode ser feito usando o [Skype para ferramenta de planejamento do Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Depois que você tiver ido pelas perguntas do assistente sobre quais recursos você planeja usar, para cada site que você define você pode exibir o relatório de Firewall dentro do relatório de administração de borda e use as informações na lista para criar regras de yourfirewall. Você também pode fazer ajustes muitos dos nomes e endereços IP usados para obter detalhes consulte [Review o relatório de Firewall](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Lembre-Lembre-se pode exportar o relatório de administração de borda para uma planilha do Excel e o relatório de Firewall será uma das planilhas no arquivo. 
   
 Você também pode encontrar as informações nestas tabelas no formulário de diagrama examinando o cartaz de cargas de trabalho de protocolo vinculado do artigo [Technical diagrams for Skype para Business Server 2015](../../technical-diagrams.md) .
+> [!NOTE]
+> - Skype para usuários corporativos Online deve referir ao [Office 365 URLs e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - Você pode ter os firewalls de hardware ou software, podemos não exigem modelos específicos ou versões. O que importa é que portas são na lista branca, portanto, o firewall não prejudicar o funcionamento do Skype para Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalhes de protocolo e porta
 
