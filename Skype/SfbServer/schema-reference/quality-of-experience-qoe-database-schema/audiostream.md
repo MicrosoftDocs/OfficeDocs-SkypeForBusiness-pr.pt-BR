@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio normalmente contém dois fluxos de áudio.
-ms.openlocfilehash: 63cd2f63eed5d423750a50a23ae347a97725d65f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19570048"
 ---
 # <a name="audiostream-table"></a>Tabela AudioStream
  
 Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio normalmente contém dois fluxos de áudio.
   
-|Coluna * * *|Dados tipo * * *|Chave / índice * * *|Detalhes * * *|
+|Coluna|Tipo de dados|Chave/índice|Detalhes|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primária  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
@@ -84,5 +85,3 @@ Cada registro representa um fluxo de áudio. Uma linha de mídia de áudio norma
 |**AudioPostFECPLR** <br/> |float  <br/> ||Taxa de perda de pacotes após a correção de erro antecipada tiver sido aplicada.  <br/> Esta coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
 |**EncodeStereoPercent** <br/> |float  <br/> ||Porcentagem de chamadas codificadas como estéreo.  <br/> Esta coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
 |**AecCaptureStereoPercent** <br/> |float  <br/> ||Porcentagem da chamada capturada como estéreo pelo acoustic echo canceller.  <br/> Esta coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
-   
-

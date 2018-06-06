@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.'
-ms.openlocfilehash: 17696844d20bda6a709b3ae609e6963d8fb4a090
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501015"
+ms.locfileid: "19568379"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Implantar regiões da rede, sites e sub-redes no Skype for Business 2015
  
@@ -53,7 +53,6 @@ No entanto, pode ser necessário modificar uma definição de região da rede ex
     
    ```
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
-
    ```
 
     Neste exemplo, você criou uma região de rede chamada "NorthAmerica" que é associado a um site central com a ID de site CHICAGO.
@@ -94,7 +93,6 @@ No entanto, pode ser necessário modificar uma definição de região da rede ex
     
    ```
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
-
    ```
 
     Neste exemplo, você modificou uma região de rede existente chamada "NorthAmerica" (criado usando os procedimentos, anteriormente neste tópico), alterando a descrição. Se uma descrição existia para a área de "NorthAmerica", este comando a substituiria por esse valor; Se não tiver sido definida, esse comando define-lo.
@@ -137,7 +135,6 @@ Se você já criou sites de rede para um desses recursos, você não precisará 
     
    ```
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
-
    ```
 
     Neste exemplo, você criou um site de rede chamado "Chicago" que está na região de rede "NorthAmerica".
@@ -191,7 +188,6 @@ Se você já criou sites de rede para um desses recursos, você não precisará 
     
    ```
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
-
    ```
 
     Neste exemplo, o site chamado "Albuquerque" é movido para a região de rede "NorthAmerica". Para modificar a configuração do site da rede para implantar o serviço de controle de admissão de chamadas, o E9-1-1 ou desvio de mídia, modifique o site da rede executando o cmdlet Set-CsNetworkSite com os parâmetros do BWPolicyProfileID ou LocationPolicy, respectivamente.

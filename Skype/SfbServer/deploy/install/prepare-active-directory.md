@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumo: Saiba como preparar o domínio do Active Directory para uma instalação do Skype para Business Server 2015. Baixe uma versão de avaliação gratuita do Skype para negócios 2015 de servidor do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 0e031cc16bef00fc7b1ca8c2bd910fd0d36d5dde
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 97aa431627fd8e17734060b8447b0434cb8f1949
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500988"
+ms.locfileid: "19568386"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server-2015"></a>Preparar o Active Directory para Skype for Business Server 2015
  
@@ -132,7 +132,6 @@ Veja as etapas do vídeo para **Preparar o Active Directory**:
     
    ```
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
- 
    ```
 
     > [!NOTE]
@@ -142,7 +141,6 @@ Veja as etapas do vídeo para **Preparar o Active Directory**:
     
    ```
    Get-CsAdDomain -Domain contoso.local -GlobalSettingsDomainController dc.contoso.local
-
    ```
 
     > [!NOTE]
