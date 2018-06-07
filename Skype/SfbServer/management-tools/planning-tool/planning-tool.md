@@ -11,17 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Orientação sobre como usar o Skype para ferramenta de planejamento do Business Server 2015.
-ms.openlocfilehash: 9995b17274377025f2531ca53966859d1ca716b6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6780e69c5a547a96ca9b1b9dc2b3ee54386f1b9b
+ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19691228"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Ferramenta de Planejamento do Skype for Business Server 2015
  
 Orientação sobre como usar o Skype para ferramenta de planejamento do Business Server 2015.
   
-O Skype para ferramenta de planejamento do Business Server 2015 é um assistente orientado, ferramenta de entrevista semelhantes que faz perguntas sobre o Skype para Business Server 2015 topologia que você está criando. Os usos da ferramenta de planejamento as informações fornecidas, juntamente com preferenciais recomendadas para design de topologia e capacidade, para apresentar uma topologia recomendada com base nas respostas fornecidas. Você pode baixar a ferramenta de planejamento do [Centro de Downloads da Microsoft](https://go.microsoft.com/fwlink/p/?LinkID=282725).
+O Skype para ferramenta de planejamento do Business Server 2015 é um assistente orientado, ferramenta de entrevista semelhantes que faz perguntas sobre o Skype para Business Server 2015 topologia que você está criando. Os usos da ferramenta de planejamento as informações fornecidas, juntamente com preferenciais recomendadas para design de topologia e capacidade, para apresentar uma topologia recomendada com base nas respostas fornecidas. Você pode baixar a ferramenta de planejamento do [Skype para ferramenta de planejamento do Business Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725).
   
 Por fim, o objetivo da ferramenta de planejamento é facilitar a complexidade potencial de projetar um Skype completa para a topologia de negócios Server 2015. A ferramenta também fornece referências contextuais à documentação de planejamento e implantação dentro da ferramenta, contanto que uma conexão com a Internet esteja disponível para se conectar ao site Microsoft TechNet.
   
@@ -55,9 +56,6 @@ Os tópicos a seguir apresentam e a ferramenta de planejamento de detalhes.
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Instale o Skype para o servidor de negócios 2015](../../deploy/install/install.md)
   
 [Planejar o sistema de mensagens instantâneas e presença em Skype for Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md)
-

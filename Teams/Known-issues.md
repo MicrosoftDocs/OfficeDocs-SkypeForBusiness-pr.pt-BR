@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara, v-leslc
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 420e303ebd517a472dcd3bcde1004acf44ca2dc3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
+ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569896"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19691213"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -100,10 +100,6 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Os usuários do Skype for Business local não recebem minhas mensagens  <br/> |O envio de mensagens não será concluído quando os usuários do Microsoft Teams tentarem enviar uma mensagem para outro indivíduo que esteja usando o Skype for Business local. <br/> | Existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business Online. Os usuários do Teams podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business Online. <br/> Não existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business local. Os usuários do Teams não podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business local. <br/> |02/11/2016  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Skype para a interoperabilidade de negócios e equipes <br/> |Depois que os usuários são atualizados para equipes eles não é possível fechar o cliente de equipes e use, em seguida, o Skype para o cliente de negócios da mesma maneira que antes de atualizar para equipes. <br/> | Depois que os usuários atualizaram às equipes eles devem ter as equipes e Skype para clientes corporativos abram ao mesmo tempo ou têm apenas o cliente de equipes abrir. Eles Evite tendo apenas o Skype para open, caso contrário, as mensagens serão encaminhadas para emails de cliente de negócios.<br/> |05/01/18  <br/> |
 
 ## <a name="client"></a>Cliente
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
