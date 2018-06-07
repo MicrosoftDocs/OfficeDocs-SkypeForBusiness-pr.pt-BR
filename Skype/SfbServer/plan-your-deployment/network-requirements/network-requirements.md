@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: Revise as considerações de componente de rede abaixo antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: cd3d1650903e1615fdaca309be1e8070624fd7b0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 4cf76cc162e358de0e59ffdd325381fc13583d37
+ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505059"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19691206"
 ---
 # <a name="plan-network-requirements-for-skype-for-business-2015"></a>Planejamento dos requisitos de rede para o Skype for Business 2015
  
@@ -261,5 +261,3 @@ QoS também é discutido no whitepaper de [Planejamento de rede, monitoramento e
 [Requisitos do Skype para negócios de balanceamento de carga](load-balancing.md)
   
 [Requisitos de DNS para Skype para Business Server 2015](dns.md)
-  
-[Requisitos de porta e protocolo para servidores](ports-and-protocols.md)
