@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 8fb9ca844c8397d57bba7c87b1a7b8701beff20f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3a6eb76f20883db12b498e22eaba0f18e9b783d3
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569977"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649647"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -193,7 +193,10 @@ A tabela abaixo resume as relações entre data centers terciário principal e s
 
 ## <a name="media-traffic-port-ranges"></a>Tráfego de mídia: intervalos de porta
 
-O tráfego de mídia flui de e para um serviço separado em que o Microsoft Cloud. O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir: 
+O tráfego de mídia flui de e para um serviço separado em que o Microsoft Cloud. O intervalo de IP para o tráfego de mídia:
+- 52.112.0.0 /14 (endereços IP de 52.112.0.1 a 52.115.255.254).
+
+O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir: 
 
 |**Tráfego**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
 |:--- |:--- |:--- |:--- |:--- |

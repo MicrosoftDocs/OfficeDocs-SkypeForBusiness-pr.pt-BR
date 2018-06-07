@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: c3ac8c47d0936ecede1532bd9356d0db0807142a
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 18988c7d6f913b85d11bc465c336dfd265fa34a0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501088"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649578"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada do sistema telefônico
 
@@ -155,7 +155,7 @@ No **Centro de administração do Skype for Business**, clique em **Encaminhamen
 ***
 ![Número 1](../images/sfbcallout1.png)<br/><br/>Agentes de chamada (máximo de 50) podem ser:
 *    Um usuário Online com uma licença de **Sistema telefônico** e habilitados para o Enterprise Voice ou com um plano de chamada. <br/><br/> **Observação:**  Para redirecionar chamadas para pessoas na sua organização que estiverem Online, ele devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem um plano de chamar. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Usuários online com um com uma licença de **Sistema telefônico** e a chamada Plan que são adicionados a um grupo do Office 365, uma lista de distribuição habilitado para email ou um grupo de segurança. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. Um grupo de segurança ou de lista de distribuição recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamada. Recém-criadas grupos do Office 365 estão disponíveis quase imediatamente. <br/> 
+*    Usuários online com uma licença de **Sistema telefônico** e um plano de chamada que são adicionados a um grupo do Office 365, uma lista de distribuição habilitado para email ou um grupo de segurança. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. Um grupo de segurança ou de lista de distribuição recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamada. Recém-criadas grupos do Office 365 estão disponíveis quase imediatamente. <br/> 
 
     > [!NOTE] 
     > Usuários hospedados no local usando o Lync Server 2010 não são suportados.           

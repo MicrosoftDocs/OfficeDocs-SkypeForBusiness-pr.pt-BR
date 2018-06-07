@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Saiba como configurar a integração do Cloud Connector com seu locatário do Office 365.
-ms.openlocfilehash: 62caf2cd70b16f0a8e85a38b381478d49e4ee37c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
+ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "19649640"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar a integração do Cloud Connector com seu locatário do Office 365
  
@@ -165,7 +166,7 @@ Quando uma chamada de P2P será escalonada para uma conferência PSTN, o Skype p
     
     Use o domínio SIP padrão do conector de nuvem (o primeiro domínio SIP do arquivo. ini) como o domínio do usuário.
     
-    Não atribua nenhuma licença do O365 (como a E5) à conta criada. Espere a conclusão da sincronização do AD do O365.
+    Atribua um licenças do Office 365 (por exemplo, E5) para a conta que você criar.
     
 2. Iniciar uma sessão de PowerShell remota do inquilino usando suas credenciais de administrador de locatário e execute o seguinte cmdlet para definir o servidor de mediação e o FQDN do servidor de borda para o usuário da conta, substituir \<DisplayName\> com o nome de exibição do usuário para o conta criada:
     
