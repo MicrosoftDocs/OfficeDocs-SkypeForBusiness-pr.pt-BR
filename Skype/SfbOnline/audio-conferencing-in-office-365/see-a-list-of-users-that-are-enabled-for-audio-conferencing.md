@@ -20,75 +20,76 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703460"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a><span data-ttu-id="d86b9-103">Ver uma lista de usuários habilitados para conferência de áudio</span><span class="sxs-lookup"><span data-stu-id="d86b9-103">See a list of users that are enabled for Audio Conferencing</span></span>
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a><span data-ttu-id="d162d-103">Ver uma lista de usuários habilitados para conferência de áudio</span><span class="sxs-lookup"><span data-stu-id="d162d-103">See a list of users that are enabled for Audio Conferencing</span></span>
 
-<span data-ttu-id="d86b9-104">Depois que você habilitou Skype para usuários corporativos ou Teams da Microsoft na sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados.</span><span class="sxs-lookup"><span data-stu-id="d86b9-104">After you have enabled Skype for Business or Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> <span data-ttu-id="d86b9-105">Quando você examinar a lista, você verá também para cada usuário na lista o tipo de provedor de serviços de audioconferência que estão usando, o número de telefone de discagem padrão para o usuário, e se a sua organização não está habilitada para IDs de conferência dinâmico, as IDs de conferência estático para reuniões de conferência de áudio que eles organizam.</span><span class="sxs-lookup"><span data-stu-id="d86b9-105">When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.</span></span>
-  
-## <a name="viewing-a-list-of-users"></a><span data-ttu-id="d86b9-106">Exibir uma lista de usuários</span><span class="sxs-lookup"><span data-stu-id="d86b9-106">Viewing a list of users</span></span>
+<span data-ttu-id="d162d-104">Depois que você habilitou Skype para usuários corporativos ou Teams da Microsoft na sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados.</span><span class="sxs-lookup"><span data-stu-id="d162d-104">After you have enabled Skype for Business or Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> <span data-ttu-id="d162d-105">Quando você examinar a lista, você verá também para cada usuário na lista o tipo de provedor de serviços de audioconferência que estão usando, o número de telefone de discagem padrão para o usuário, e se a sua organização não está habilitada para IDs de conferência dinâmico, as IDs de conferência estático para reuniões de conferência de áudio que eles organizam.</span><span class="sxs-lookup"><span data-stu-id="d162d-105">When you look at the list, you will also see for each user in the list the type of audio conferencing provider that they are using, the default dial-in phone number for the user, and if you organization isn't enabled for dynamic conference IDs, the static conference IDs for audio conferencing meetings that they organize.</span></span>
 
-<span data-ttu-id="d86b9-107">![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**</span><span class="sxs-lookup"><span data-stu-id="d86b9-107">![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
-
-- <span data-ttu-id="d86b9-108">No painel de navegação esquerdo, clique em **usuários**.</span><span class="sxs-lookup"><span data-stu-id="d86b9-108">In the left navigation, click **Users**.</span></span>
-
-<span data-ttu-id="d86b9-109">![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**</span><span class="sxs-lookup"><span data-stu-id="d86b9-109">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
-    
-- <span data-ttu-id="d86b9-110">No painel de navegação esquerdo, vá para **conferência de áudio** > **usuários**.</span><span class="sxs-lookup"><span data-stu-id="d86b9-110">In the left navigation, go to **Audio conferencing** > **Users**.</span></span>
-
-> [!Note]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
-## <a name="what-else-should-i-know"></a><span data-ttu-id="d86b9-111">O que mais devo saber?</span><span class="sxs-lookup"><span data-stu-id="d86b9-111">What else should I know?</span></span>
+  
+## <a name="viewing-a-list-of-users"></a><span data-ttu-id="d162d-106">Exibir uma lista de usuários</span><span class="sxs-lookup"><span data-stu-id="d162d-106">Viewing a list of users</span></span>
 
-- <span data-ttu-id="d86b9-112">Ao exibir a lista de usuários que estão habilitados, você pode selecione um usuário na lista e use o painel de ação para editar as configurações de serviços de audioconferência para esse usuário.</span><span class="sxs-lookup"><span data-stu-id="d86b9-112">When you view the list of users that are enabled, you can select a user from the list and use the Action pane to edit the audio conferencing settings for that user.</span></span>
-    
-- <span data-ttu-id="d86b9-113">Quando você seleciona um único usuário que está configurado para usar o Microsoft como um provedor de serviços de audioconferência, você pode exibir o número de telefone padrão e se a sua organização está habilitada para IDs de conferência dinâmico e você pode redefinir a ID de conferência para reuniões que o organizadas pelo usuário.</span><span class="sxs-lookup"><span data-stu-id="d86b9-113">When you select a single user that is configured to use Microsoft as the audio conferencing provider, you can view the default phone number and whether your organization is enabled for dynamic conference IDs, and you can reset the conference ID for meetings that the user organizes.</span></span>
-    
-- <span data-ttu-id="d86b9-114">Quando você seleciona um único usuário que está configurado para usar um provedor de serviços de audioconferência de terceiros, você pode exibir o nome do provedor de serviços de audioconferência, o número de telefone de Chamada Tarifada e o número de telefone gratuitos (se eles estão configurados).</span><span class="sxs-lookup"><span data-stu-id="d86b9-114">When you select a single user who is configured to use a third-party audio conferencing provider, you can view the name of the audio conferencing provider, the toll phone number, and the toll-free phone number (if they are set up).</span></span>
-    
-- <span data-ttu-id="d86b9-115">Você pode usar as opções de filtro para exibir os usuários com:</span><span class="sxs-lookup"><span data-stu-id="d86b9-115">You can use the filter options to show users that have:</span></span>
-    
-  - <span data-ttu-id="d86b9-116">**Serviços de audioconferência em**</span><span class="sxs-lookup"><span data-stu-id="d86b9-116">**Audio conferencing on**</span></span>
-    
-  - <span data-ttu-id="d86b9-117">**Serviços de audioconferência desativado**</span><span class="sxs-lookup"><span data-stu-id="d86b9-117">**Audio conferencing off**</span></span>
-    
-  - <span data-ttu-id="d86b9-118">**Provedor de conferência - Microsoft**</span><span class="sxs-lookup"><span data-stu-id="d86b9-118">**Conferencing provider - Microsoft**</span></span>
-    
-  - <span data-ttu-id="d86b9-119">**Provedor de conferência - outros**</span><span class="sxs-lookup"><span data-stu-id="d86b9-119">**Conferencing provider - others**</span></span>
-    
-- <span data-ttu-id="d86b9-120">Você pode usar o botão de pesquisa para procurar um usuário individual na lista</span><span class="sxs-lookup"><span data-stu-id="d86b9-120">You can use the search button to search for an individual user in the list.</span></span>
-    
-- <span data-ttu-id="d86b9-121">Você pode selecionar mais de um usuário e fazer o seguinte:</span><span class="sxs-lookup"><span data-stu-id="d86b9-121">You can select more than one user and do the following:</span></span>
-    
-  - <span data-ttu-id="d86b9-122">Selecionar um número padrão diferente para esses usuários.</span><span class="sxs-lookup"><span data-stu-id="d86b9-122">Select a different default number for these users.</span></span>
-    
-  - <span data-ttu-id="d86b9-123">Desative o serviços de audioconferência para o usuário, alterando o provedor como **Nenhum**.</span><span class="sxs-lookup"><span data-stu-id="d86b9-123">Turn off audio conferencing for the user by changing the provider to **None**.</span></span>
-    
-  - <span data-ttu-id="d86b9-124">Alternar para a Microsoft como um provedor de serviços de audioconferência se o usuário tiver sido atribuído uma licença de **Serviços de audioconferência** .</span><span class="sxs-lookup"><span data-stu-id="d86b9-124">Switch to Microsoft as the audio conferencing provider if the user has been assigned an **Audio Conferencing** license.</span></span>
-    
-  - <span data-ttu-id="d86b9-125">Permitir/proibir que usuários anônimos ativem as reuniões por telefone dos usuários selecionados.</span><span class="sxs-lookup"><span data-stu-id="d86b9-125">Allow/disallow anonymous users to activate the selected users' phone meetings.</span></span>
-    
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="d86b9-126">Quer saber como gerenciar com o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="d86b9-126">Want to know how to manage with Windows PowerShell?</span></span>
+<span data-ttu-id="d162d-107">![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**</span><span class="sxs-lookup"><span data-stu-id="d162d-107">![teams-logo-30x30.png](../images/teams-logo-30x30.png) **Using the Microsoft Teams and Skype for Business Admin Center**</span></span>
 
-- <span data-ttu-id="d86b9-p102">O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="d86b9-p102">When it comes to Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
-    
-  - [<span data-ttu-id="d86b9-130">Uma introdução ao Windows PowerShell e ao Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d86b9-130">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [<span data-ttu-id="d86b9-131">Por que você precisa usar o PowerShell do Office 365</span><span class="sxs-lookup"><span data-stu-id="d86b9-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-- <span data-ttu-id="d86b9-p103">O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação a usar somente o centro de administração do Office 365, como para fazer alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="d86b9-p103">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
-    
-  - [<span data-ttu-id="d86b9-134">Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d86b9-134">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-  - [<span data-ttu-id="d86b9-135">Usar o Windows PowerShell para gerenciar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d86b9-135">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [<span data-ttu-id="d86b9-136">Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d86b9-136">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## <a name="related-topics"></a><span data-ttu-id="d86b9-137">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="d86b9-137">Related topics</span></span>
+- <span data-ttu-id="d162d-108">No painel de navegação esquerdo, clique em **usuários**.</span><span class="sxs-lookup"><span data-stu-id="d162d-108">In the left navigation, click **Users**.</span></span>
 
-[<span data-ttu-id="d86b9-138">Experimentar ou comprar a audioconferência no Office 365</span><span class="sxs-lookup"><span data-stu-id="d86b9-138">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+<span data-ttu-id="d162d-109">![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**</span><span class="sxs-lookup"><span data-stu-id="d162d-109">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+    
+- <span data-ttu-id="d162d-110">No painel de navegação esquerdo, vá para **conferência de áudio** > **usuários**.</span><span class="sxs-lookup"><span data-stu-id="d162d-110">In the left navigation, go to **Audio conferencing** > **Users**.</span></span>
+
+## <a name="what-else-should-i-know"></a><span data-ttu-id="d162d-111">O que mais devo saber?</span><span class="sxs-lookup"><span data-stu-id="d162d-111">What else should I know?</span></span>
+
+- <span data-ttu-id="d162d-112">Ao exibir a lista de usuários que estão habilitados, você pode selecione um usuário na lista e use o painel de ação para editar as configurações de serviços de audioconferência para esse usuário.</span><span class="sxs-lookup"><span data-stu-id="d162d-112">When you view the list of users that are enabled, you can select a user from the list and use the Action pane to edit the audio conferencing settings for that user.</span></span>
+    
+- <span data-ttu-id="d162d-113">Quando você seleciona um único usuário que está configurado para usar o Microsoft como um provedor de serviços de audioconferência, você pode exibir o número de telefone padrão e se a sua organização está habilitada para IDs de conferência dinâmico e você pode redefinir a ID de conferência para reuniões que o organizadas pelo usuário.</span><span class="sxs-lookup"><span data-stu-id="d162d-113">When you select a single user that is configured to use Microsoft as the audio conferencing provider, you can view the default phone number and whether your organization is enabled for dynamic conference IDs, and you can reset the conference ID for meetings that the user organizes.</span></span>
+    
+- <span data-ttu-id="d162d-114">Quando você seleciona um único usuário que está configurado para usar um provedor de serviços de audioconferência de terceiros, você pode exibir o nome do provedor de serviços de audioconferência, o número de telefone de Chamada Tarifada e o número de telefone gratuitos (se eles estão configurados).</span><span class="sxs-lookup"><span data-stu-id="d162d-114">When you select a single user who is configured to use a third-party audio conferencing provider, you can view the name of the audio conferencing provider, the toll phone number, and the toll-free phone number (if they are set up).</span></span>
+    
+- <span data-ttu-id="d162d-115">Você pode usar as opções de filtro para exibir os usuários com:</span><span class="sxs-lookup"><span data-stu-id="d162d-115">You can use the filter options to show users that have:</span></span>
+    
+  - <span data-ttu-id="d162d-116">**Serviços de audioconferência em**</span><span class="sxs-lookup"><span data-stu-id="d162d-116">**Audio conferencing on**</span></span>
+    
+  - <span data-ttu-id="d162d-117">**Serviços de audioconferência desativado**</span><span class="sxs-lookup"><span data-stu-id="d162d-117">**Audio conferencing off**</span></span>
+    
+  - <span data-ttu-id="d162d-118">**Provedor de conferência - Microsoft**</span><span class="sxs-lookup"><span data-stu-id="d162d-118">**Conferencing provider - Microsoft**</span></span>
+    
+  - <span data-ttu-id="d162d-119">**Provedor de conferência - outros**</span><span class="sxs-lookup"><span data-stu-id="d162d-119">**Conferencing provider - others**</span></span>
+    
+- <span data-ttu-id="d162d-120">Você pode usar o botão de pesquisa para procurar um usuário individual na lista</span><span class="sxs-lookup"><span data-stu-id="d162d-120">You can use the search button to search for an individual user in the list.</span></span>
+    
+- <span data-ttu-id="d162d-121">Você pode selecionar mais de um usuário e fazer o seguinte:</span><span class="sxs-lookup"><span data-stu-id="d162d-121">You can select more than one user and do the following:</span></span>
+    
+  - <span data-ttu-id="d162d-122">Selecionar um número padrão diferente para esses usuários.</span><span class="sxs-lookup"><span data-stu-id="d162d-122">Select a different default number for these users.</span></span>
+    
+  - <span data-ttu-id="d162d-123">Desative o serviços de audioconferência para o usuário, alterando o provedor como **Nenhum**.</span><span class="sxs-lookup"><span data-stu-id="d162d-123">Turn off audio conferencing for the user by changing the provider to **None**.</span></span>
+    
+  - <span data-ttu-id="d162d-124">Alternar para a Microsoft como um provedor de serviços de audioconferência se o usuário tiver sido atribuído uma licença de **Serviços de audioconferência** .</span><span class="sxs-lookup"><span data-stu-id="d162d-124">Switch to Microsoft as the audio conferencing provider if the user has been assigned an **Audio Conferencing** license.</span></span>
+    
+  - <span data-ttu-id="d162d-125">Permitir/proibir que usuários anônimos ativem as reuniões por telefone dos usuários selecionados.</span><span class="sxs-lookup"><span data-stu-id="d162d-125">Allow/disallow anonymous users to activate the selected users' phone meetings.</span></span>
+    
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a><span data-ttu-id="d162d-126">Quer saber como gerenciar com o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="d162d-126">Want to know how to manage with Windows PowerShell?</span></span>
+
+- <span data-ttu-id="d162d-127">O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer.</span><span class="sxs-lookup"><span data-stu-id="d162d-127">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="d162d-128">Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer.</span><span class="sxs-lookup"><span data-stu-id="d162d-128">With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="d162d-129">Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="d162d-129">To get started with Windows PowerShell, see these topics:</span></span>
+    
+  - [<span data-ttu-id="d162d-130">Uma introdução ao Windows PowerShell e ao Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d162d-130">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
+    
+  - [<span data-ttu-id="d162d-131">Por que você precisa usar o PowerShell do Office 365</span><span class="sxs-lookup"><span data-stu-id="d162d-131">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+- <span data-ttu-id="d162d-p103">O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação a usar somente o centro de administração do Office 365, como para fazer alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="d162d-p103">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center such as when you are making setting changes for many users at one time. Learn about these advantages in the following topics:</span></span>
+    
+  - [<span data-ttu-id="d162d-134">Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d162d-134">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+  - [<span data-ttu-id="d162d-135">Usar o Windows PowerShell para gerenciar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d162d-135">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [<span data-ttu-id="d162d-136">Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d162d-136">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
+    
+## <a name="related-topics"></a><span data-ttu-id="d162d-137">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="d162d-137">Related topics</span></span>
+
+[<span data-ttu-id="d162d-138">Experimentar ou comprar a audioconferência no Office 365</span><span class="sxs-lookup"><span data-stu-id="d162d-138">Try or purchase Audio Conferencing in Office 365</span></span>](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
