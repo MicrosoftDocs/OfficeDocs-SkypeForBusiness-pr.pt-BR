@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha as etapas que necessárias para alterar configurações para uma ponte de conferência que é usado para solicitar que os chamadores e coletar nomes e pins para organizadores de reunião, quando eles não estão usando Skype para aplicativos de negócios ou Teams da Microsoft. '
-ms.openlocfilehash: 439907b6b1055db2487491c4b0be89cbb96bdf72
-ms.sourcegitcommit: 7bb52d5d998415555a535a32419e99b68e3be6a2
+ms.openlocfilehash: d01ef5f96483ae26ccfaf429e87221b1a5c61d11
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703674"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de conferência de áudio
 
@@ -35,7 +36,7 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
   > [!IMPORTANT]
   > Um PIN só é necessário para o organizador da reunião quando um Skype para o usuário de aplicativo de negócios ou Microsoft Teams já não tiver iniciado a reunião. Se todos estiver discando para a reunião, o PIN é necessário para o organizador da reunião iniciar a reunião. 
 
-> [!CAUTION]
+> [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="teams-logo-30x30pngimagesteams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
@@ -133,4 +134,4 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar a audioconferência](set-up-audio-conferencing.md)
+[Configurar a Audioconferência](set-up-audio-conferencing.md)

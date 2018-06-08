@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn how to assign a conference ID to a user in Skype for Business and what the conference ID's parameters should be. "
-ms.openlocfilehash: 73c5d3cc95b7967cd9d6eaae83a14e19143e431b
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: eccbcd31add14026d2b5f3a57348ae5d6f1db2a5
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703400"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário
 
@@ -33,6 +34,9 @@ Uma ID de conferência é atribuída automaticamente a um Skype para usuário de
 Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número, ou quando os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. Você pode usar o **Skype para centro de administração de negócios** e do Windows PowerShell para exibir, alterar e redefinir a sua ID de conferência.
   
 Um email será enviado ao usuário com a ID de conferência e os números de telefone de conferência de áudio padrão, ou se você redefinir o ID de conferência um email diferente será enviado que incluírem o ID de conferência, mas não um PIN. Para obter mais informações sobre como redefinir o PIN do organizador da conferência, [acesse aqui](reset-a-conference-id-for-a-user.md). 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="view-and-reset-conference-ids"></a>Visualizar e redefinir as IDs de conferência
 
@@ -48,11 +52,7 @@ Um email será enviado ao usuário com a ID de conferência e os números de tel
 
     > [!TIP]
     > Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de áudio clicando no link **Enviar informações de conferência no email** .
-
   
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 Você pode usar o Windows PowerShell para exibir a ID de conferência para um usuário. Para fazer isso, execute:
     
   ```

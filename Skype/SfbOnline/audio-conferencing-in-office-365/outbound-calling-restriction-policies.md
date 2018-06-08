@@ -16,11 +16,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários.
-ms.openlocfilehash: 2929198a8bfff866f0d9f6d375593cd429885b2e
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0533a15d6c60720f37c859f110b30af617d95774
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703420"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Saída diretivas de restrição de chamada para chamadas PSTN de conferência de áudio e usuário
 
@@ -36,6 +37,8 @@ Controles de chamada de saída podem ser aplicados em uma base por usuário e fo
    > [!NOTE]
    > Uma chamada é considerada domésticas se o número de telefone chamado esteja no mesmo país que o país que tiver sido definido no Office 365 para o organizador da reunião (no caso de serviços de audioconferência) ou o usuário final (no caso de chamadas da PSTN de usuário final). 
 
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir as chamadas de saída de conferência de áudio 
 

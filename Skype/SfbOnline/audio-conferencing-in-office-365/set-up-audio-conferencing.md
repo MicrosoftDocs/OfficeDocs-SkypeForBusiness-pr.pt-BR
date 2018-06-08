@@ -22,11 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Saiba como configurar a conferência discada ou áudio para as pessoas em sua empresa que precisam para ingressar em chamadas de conferência usando um telefone. '
-ms.openlocfilehash: d91a3637a0f7d35d319368017e0f9c6611faf2a7
-ms.sourcegitcommit: 4e9574c8a9eac270135684aa4a8b77621aa46403
+ms.openlocfilehash: 52872b9995d5973ee872e3105c870ccf7bb07abc
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703480"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business-and-microsoft-teams"></a>Configurar conferência de áudio para o Skype for Business e Teams da Microsoft
 
@@ -35,6 +36,9 @@ ms.lasthandoff: 05/09/2018
 Você precisa configurar a conferência de áudio para as pessoas que pretende agendar ou liderança de reuniões. Os participantes da reunião que discam não precisam quaisquer licenças atribuídas a eles ou outro programa de instalação.
   
 Para as perguntas frequentes sobre a conferência de áudio, consulte [perguntas comuns de conferência de áudio](audio-conferencing-common-questions.md).
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="step-1-find-out-if-audio-conferencing-is-available-in-your-countryregion"></a>Etapa 1: Descobrir se a conferência de áudio está disponível em seu país/região
 <a name="__top"> </a>
@@ -125,7 +129,7 @@ Os números de discagem que são definidos para o usuário serão adicionados au
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Perguntas comuns sobre a audioconferência](audio-conferencing-common-questions.md)
+[Perguntas comuns sobre a Audioconferência](audio-conferencing-common-questions.md)
   
 [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
   

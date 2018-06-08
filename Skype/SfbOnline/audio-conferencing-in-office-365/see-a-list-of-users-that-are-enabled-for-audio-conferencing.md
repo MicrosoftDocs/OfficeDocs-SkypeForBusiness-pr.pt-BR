@@ -20,15 +20,19 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: 28fb899586c6a0904126249b769e6fb0004878ca
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d7a5c272968def249df22af25fd36d257f8c74a0
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703460"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing"></a>Ver uma lista de usuários habilitados para conferência de áudio
 
 Depois que você habilitou Skype para usuários corporativos ou Teams da Microsoft na sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados. Quando você examinar a lista, você verá também para cada usuário na lista o tipo de provedor de serviços de audioconferência que estão usando, o número de telefone de discagem padrão para o usuário, e se a sua organização não está habilitada para IDs de conferência dinâmico, as IDs de conferência estático para reuniões de conferência de áudio que eles organizam.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Exibir uma lista de usuários
 
@@ -40,9 +44,6 @@ Depois que você habilitou Skype para usuários corporativos ou Teams da Microso
     
 - No painel de navegação esquerdo, vá para **conferência de áudio** > **usuários**.
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-    
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
 - Ao exibir a lista de usuários que estão habilitados, você pode selecione um usuário na lista e use o painel de ação para editar as configurações de serviços de audioconferência para esse usuário.
@@ -75,7 +76,7 @@ Depois que você habilitou Skype para usuários corporativos ou Teams da Microso
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
-- O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

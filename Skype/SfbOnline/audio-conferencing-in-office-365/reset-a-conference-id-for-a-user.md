@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: eb827cff5bdfbc86bf85aab63a8f29165a91f034
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 3a02ae779b55aa9ca4f340d5a88d6e5fb9c5f750
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703410"
 ---
 # <a name="reset-a-conference-id-for-a-user"></a>Redefinir o ID de conferência de um usuário
 
@@ -33,7 +34,10 @@ Uma ID de conferência dinâmico é incluída na parte inferior da reunião conv
 > [!NOTE]
 > Se seu provedor de conferência for Microsoft, IDs de conferência dos usuários são definidos para somente dinâmico por padrão. Infelizmente, não há nenhuma capacidade para alterá-lo no Skype para o Centro de administração de negócios ou usando o Windows Powershell para se tornar estáticas, como agora está sem suporte.
 IDs de conferência são definidas apenas automaticamente somente para Skype para usuários de negócios e Teams Microsoft habilitados para conferência de áudio. 
-  
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="resetting-the-conference-id-for-a-user"></a>Redefinindo o ID de conferência para um usuário
 
 ![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
@@ -80,7 +84,7 @@ IDs de conferência são definidas apenas automaticamente somente para Skype par
 
 - O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
-  - [Introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     

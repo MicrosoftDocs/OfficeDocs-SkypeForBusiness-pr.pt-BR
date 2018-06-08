@@ -12,28 +12,28 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17a2a7e4be22878cf0625077b23fad388b38bc9e
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 6aaa763c423d7756808856706375f96f99224b9e
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19576942"
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694885"
 ---
-<a name="manage-the-microsoft-teams-private-app-store"></a>Gerenciar o Microsoft equipes privados App Store
+<a name="publish-apps-to-the-microsoft-teams-private-app-store"></a>Publicar aplicativos para o Microsoft equipes privados App Store
 ============================================
 
 > [!IMPORTANT]
 > Esta página descreve um recurso de pré-lançamento e contém conteúdo preliminar que pode ser alterado substancialmente antes do lançamento. Qualquer capturas de tela são espaços reservados e podem parecer diferentes de que você vê.
 
-Você pode usar o Microsoft Teams Private App Store para criar e distribuir seus aplicativos de linha de negócios para sua organização. 
+Você pode usar o Microsoft Teams Private App Store para testar e distribuir aplicativos de linha de negócios para sua organização. 
 
 Microsoft Teams Private App Store permite que você distribuir seus aplicativos de linha de negócios que foram criados especificamente para sua organização e que você depende para concluem as funções essenciais aos negócios para seus usuários. 
  
-Há dois métodos para gerenciar equipes privados App Store:
+Há dois métodos para publicar aplicativos para equipes privados App Store:
 - Diretamente a partir do cliente de equipes 
-- Cmdlets que aproveitam APIs do Microsoft Graph (esse método ainda não está disponível.)
+- Cmdlets que aproveitam APIs do Microsoft Graph (esse método não ainda disponível para visualização.)
 
-## <a name="manage-the-teams-private-app-store-from-the-teams-client"></a>Gerenciar equipes privados App Store do cliente equipes
+## <a name="publish-an-app-to-the-teams-private-app-store-from-the-teams-client"></a>Publicar um aplicativo para equipes privados App Store do cliente equipes
 
 ### <a name="get-a-teams-app-package"></a>Obtenha um pacote de aplicativos de equipes
 

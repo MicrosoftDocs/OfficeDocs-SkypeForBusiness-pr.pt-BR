@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: 0eceff97470bf6c0df6b0818734955ebf71d0f76
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 1801a3501e865ca91081a0e298efc45882a872eb
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568359"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703644"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone na sua ponte de conferência de áudio
 
@@ -35,13 +35,13 @@ Além dos números já atribuídos a sua ponte de conferência, você pode [obte
   
 > [!NOTE]
 > Para poder atribuir/retirar a atribuição de um número de telefone para uma ponte de conferência, o número de telefone deve ser um número de '*service*'. Você pode ver o tipo de número é navegando até **voz** > **números de telefone** e procurando na coluna **Tipo de número** . Créditos de comunicações do Office 365 deve ser configurados primeiro, em ordem, para que os usuários discam para a ponte de um número de telefone gratuito. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Etapas durante a atribuição de um novo número de telefone de serviço a sua ponte de conferência
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Etapa 1 - atribuir o novo número de telefone para sua ponte de conferência de áudio
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 1. Entre no Office 365 com sua conta corporativa.
     

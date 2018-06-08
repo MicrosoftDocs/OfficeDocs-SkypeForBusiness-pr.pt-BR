@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: a588c5b425fe3d71ecd6d73193348b98e8e2f298
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9656dc25347661626397e4f95daee7bd5f460a6d
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703440"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Ativar ou desativar o envio de emails quando alterar configurações de conferência de áudio
 
@@ -52,6 +53,9 @@ Aqui está um exemplo de email enviada aos usuários quando eles estão habilita
     
   - Quando o provedor de serviços de audioconferência de um usuário é alterado para Microsoft.
     
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar ou desabilitar o email que está sendo enviado a usuários
 
 Você pode usar o Microsoft Teams, o Skype para centro de administração de negócios, ou o Windows PowerShell para habilitar ou desabilitar o email enviado aos usuários.

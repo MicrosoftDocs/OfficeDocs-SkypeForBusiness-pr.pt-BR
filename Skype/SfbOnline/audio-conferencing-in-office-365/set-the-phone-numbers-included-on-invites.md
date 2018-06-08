@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 5ddc20d1b9166315581a6f894c5d630d9e247881
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: eb2c5c5e8cdc0562cb5a2e391c741763b1da0bd4
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568277"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703744"
 ---
 # <a name="set-the-phone-numbers-included-on-invites"></a>Defina o telefone convidam números incluídos no
 
@@ -38,6 +38,9 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
   
 > [!NOTE]
 > Pode haver um máximo de chamada um Tarifada e um número de telefone gratuitos no convite da reunião para um organizador de reunião, mas também existe um link localizado na parte inferior de cada convite de reunião que abre a lista completa de todos os números de telefone de discagem que podem ser usados para ingressar em uma reunião. 
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Definir o número de telefone de discagem padrão para o organizador da reunião
 
@@ -56,9 +59,6 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
     ![Clique em Editar ao lado de conferência de áudio](../images/teamseditaudioconf.png)
 
 4. Use os campos de **número de Chamada Tarifada** ou **número de chamada gratuito** para inserir os números para o usuário.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 

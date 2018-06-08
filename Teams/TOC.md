@@ -101,6 +101,7 @@
 ### [Definir meu sucesso](1-envision-define-my-success-cloud-voice.md)
 ### [Decisões meu serviço - conferência de áudio](2-envision-make-my-service-decisions-audio-conferencing.md)
 ### [Decisões meu serviço - sistema telefônico com planos de chamada](2-envision-make-my-service-decisions-phone-system.md)
+### [Decisões meu serviço - Roteamento direto de sistema do telefone](2-envision-make-my-service-decisions-direct-routing.md)
 ### [Avaliar o meu ambiente](3-envision-evaluate-my-environment.md)
 ### [Planejar o meu gerenciamento de serviço](4-envision-plan-my-service-management.md)
 ### [Planejar a experiência de meus usuários](5-envision-plan-my-users-experience.md)

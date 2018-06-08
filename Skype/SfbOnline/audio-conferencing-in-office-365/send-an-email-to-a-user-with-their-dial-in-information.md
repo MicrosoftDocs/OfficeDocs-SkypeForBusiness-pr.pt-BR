@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envie um email com suas informações de conferência de áudio para seus usuários.
-ms.openlocfilehash: 0ac6aa097b9c34c23c27afb2e99e4e40e3f587c8
-ms.sourcegitcommit: b93d1a0012aacb164d700db0143683cb6f276bf4
+ms.openlocfilehash: 363c2ada59dfc0e61944e032d19f6d47a2d30343
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703390"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information"></a>Enviar um email para um usuário com suas informações de conferência de áudio
 
@@ -38,6 +39,9 @@ Em alguns casos, talvez seja necessário Skype para usuários corporativos ou Mi
 Aqui está um exemplo do email que será enviado:
   
 ![Email para conferência discada](../images/audio-conferencing-info.png)
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com informações de conferência de áudio a um usuário
 
@@ -46,10 +50,6 @@ Aqui está um exemplo do email que será enviado:
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
 2. Na parte superior da página, clique em **Editar**.
-
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 

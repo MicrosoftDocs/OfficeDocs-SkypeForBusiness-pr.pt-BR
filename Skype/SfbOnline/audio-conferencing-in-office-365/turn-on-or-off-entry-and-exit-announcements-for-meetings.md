@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 8c2eee6d9a6631fa9ade4e3f1dc4b54b74ea4465
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 18b22e5491b67b6f4ec3f089803bcfb5e486eb14
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703450"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões
 
 Quando você estiver configurando a conferência de áudio no Office 365, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para efetuar uma chamada para um Skype para reunião de negócios ou Teams da Microsoft. 
   
 A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência respostas do chamador com prompts de voz de um atendedor automático de conferência e, em seguida, dependendo das suas configurações, pode reproduzir notificações, peça aos chamadores registrar seu nome e configurar a segurança PIN. Um PIN é fornecido para um Skype para negócios ou Microsoft Teams organizador da reunião e permite que eles iniciar uma reunião se eles não é possível iniciar a reunião usando um Skype para aplicativo de negócios ou Teams da Microsoft. Você pode, no entanto, defini-lo para que não é necessário um PIN para iniciar uma reunião.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Definir as opções de participação da reunião
 
@@ -60,8 +64,6 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
     
 5. Depois de fazer suas alterações, clique em **Salvar**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 
@@ -86,4 +88,4 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Perguntas comuns sobre a audioconferência](audio-conferencing-common-questions.md)
+[Perguntas comuns sobre a Audioconferência](audio-conferencing-common-questions.md)

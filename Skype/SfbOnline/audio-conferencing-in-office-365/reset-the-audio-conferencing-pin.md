@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra o que você deve saber sobre PINs e como redefini-las. '
-ms.openlocfilehash: 956c8e1ec7a83832c9aa2605845bc7fd42a047f7
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 85e890327da538016ffb874ee01be0e86959f47e
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703754"
 ---
 # <a name="reset-the-audio-conferencing-pin"></a>Redefinir o PIN de conferência de áudio
 
 Um PIN é um código formado por números que são criados para cada Skype para usuário Teams da Microsoft e de negócios que esteja habilitado para serviços de audioconferência. PINs de conferência de áudio são usados pelo organizadores de reunião para identificar se eles são o organizador da reunião e permitir que eles se iniciar uma reunião por telefone. Se eles usarem o Skype para aplicativo de negócios ou Teams da Microsoft para iniciar a reunião, um PIN não é exigido. Se os usuários se esquecer seu PIN e eles não é possível encontrá-lo no email que foi enviado para acessá-los quando eles foram habilitados para conferência de áudio, um administrador pode redefinir seu PIN, ou eles podem redefinir o PIN de seu próprios.
   
 Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando um Skype para aplicativo de negócios ou Microsoft Teams ou quando o organizador ingressa com seu PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 

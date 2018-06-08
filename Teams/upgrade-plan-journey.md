@@ -2,20 +2,24 @@
 title: Atualização para equipes da Microsoft
 author: dearbeen
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 05/30/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: ESPAÇO RESERVADO
 MS.collection: Strat_MT_TeamsAdmin
+robots: noindex
+redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/journey-skypeforbusiness-teams
+redirect_document_id: true
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd1343a03f2e7e6193cde64c14da9b187f642a68
-ms.sourcegitcommit: 265fbdc1a8ac566751e707874656bd6b90de980d
+ms.openlocfilehash: 100ca887a15bdc961638c3da9b0fb1fe05e9eaf5
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695147"
 ---
 # <a name="plan-the-journey"></a>Planejar a jornada
 

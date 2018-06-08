@@ -20,17 +20,21 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 318e24bf30563d0a790584f9c1ccceb01d93c793
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 16b6a34e5de790964f5472cb2ef598eebf4f838f
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703814"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Definir o tamanho PIN para reuniões de conferência de áudio
 
 Quando você estiver configurando serviços de audioconferência para Skype para negócios ou Teams da Microsoft, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído em convites de reunião para Skype para aplicativos de negócios e Teams da Microsoft.
   
 A ponte de conferência de áudio atende uma chamada para pessoas que estão discando para uma reunião usando um telefone. Ela atende do chamador com prompts de voz de um atendedor automático e em seguida, dependendo de suas definições, pode reproduzir notificações e será feita aos chamadores a registrar seu nome. **Configurações de ponte da Microsoft** permitem que você alterar as configurações de notificações de reunião e experiência de ingresso na reunião e definir o tamanho dos pinos que são usados pelo organizadores de reunião. Organizadores de reunião usam PINs para iniciar reuniões, se eles não podem ingressar na reunião usando o Skype para aplicativos de negócios ou Teams da Microsoft.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
 
@@ -53,9 +57,6 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
 > [!NOTE]
 > [!OBSERVAçãO] Um PIN é diferente de um ID de conferência. IDs de conferência são usados pelos chamadores quando eles participam da reunião. São usados para identificar a reunião. O PIN é usado para autenticar um chamador como organizador da reunião. 
 
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="want-to-know-more-about-pin-settings"></a>Quer saber mais sobre configurações de PIN?
 
 - PINs podem ter entre 4 para 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.

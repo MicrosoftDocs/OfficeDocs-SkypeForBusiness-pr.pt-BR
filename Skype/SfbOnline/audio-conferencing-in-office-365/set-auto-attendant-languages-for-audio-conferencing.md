@@ -20,11 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio.
-ms.openlocfilehash: c4461f61ce05afedc2663a3e5b61d37370394cd4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 44c05f081115ddf50eefd8df97765b3cbd82ef56
+ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "19703764"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Definir idiomas do atendedor automático para conferência de áudio
 
@@ -34,6 +35,9 @@ Escolher um idioma principal e até quatro idiomas secundários. O idioma princi
   
 > [!NOTE]
 >  Você pode configurar os idiomas em apenas números de telefone de acesso de áudio domésticas.
+
+> [!NOTE]
+> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir a conferência idiomas de atendedor automático
 
@@ -65,9 +69,6 @@ Você deve ser um [administrador global do Office 365](https://support.office.co
   
 4. Clique em **Salvar**.
     
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-
 ## <a name="want-else-should-i-know"></a>O que mais devo saber?
 
 - Para ver a lista de idiomas com suporte para conferência de áudio, consulte [idiomas com suporte de conferência de áudio](audio-conferencing-supported-languages.md).
