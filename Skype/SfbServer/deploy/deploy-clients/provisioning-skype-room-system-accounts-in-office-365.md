@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Leia este tópico para aprender sobre provisionamento de contas do Sistema de Salas do Skype no Office 365.
-ms.openlocfilehash: be90831eba5f16f5a3b41f4c74c26333bf728926
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 93e8c07665240813317750491cd9c3355f0c3a90
+ms.sourcegitcommit: 7c6036c60a8b18556215f5d540dda2a3f068479d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19747060"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Provisionamento das contas do Sistema de Salas do Skype no Office 365
  
@@ -87,10 +88,16 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 Os comandos anteriores configurar ou criar uma nova conta de caixa de correio de recurso Exchange para uso do sistema de sala Skype habilitando a conta.
   
 Depois de criar a caixa de correio, você pode usar o cmdlet Set-CalendarProcessing no PowerShell do Exchange Online para configurar a caixa de correio. Consulte as etapas de 3 a 6 sob Implantações locais da floresta única para obter mais detalhes.
+
+## <a name="assigning-a-skype-for-business-online-license"></a>Atribuindo uma licença do Skype for Business Online 
+
+Agora você pode atribuir um Skype para Business Online (plano 2) ou Skype licença Business Online (plano 3) usando o portal do Office 365 administrativo conforme descrito em [atribuir ou remover licenças para o Office 365 para empresas](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou em [Skype para o complemento de negócios licenciamento](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+  
+Depois de atribuir uma licença para Skype para Business Online, você poderá fazer logon e validar se a conta está ativa usando qualquer Skype para o cliente de negócios.
   
 ## <a name="skype-for-business-online-provisioning"></a>Provisionamento do Skype for Business Online  
 
-Depois que uma conta de caixa de correio de sala de recurso foi criada e habilitada, conforme mostrado anteriormente, a conta serão sincronizadas da floresta do Exchange Online com Skype para floresta Business Online por meio da floresta do Active Directory do Windows Azure. As etapas a seguir são necessárias para provisionar a conta de sistema do Skype sala no Skype para pool Business Online. Estas etapas são as mesmas para uma conta existente de caixa de correio de recurso ou de uma conta recém-criada (confrm1 ou confrm2), porque quando estiverem habilitados no Exchange Online, ambos dessas contas serão sincronizados com o Skype para Business Online da mesma maneira:
+Depois de uma sala de recurso conta da caixa de correio foi criada e habilitada, conforme mostrado anteriormente e você tiver licenciado a conta para Skype For Business ar que a conta sincronizará da floresta do Exchange Online para Skype para floresta Business Online usando o Windows Floresta do Windows Azure do Active Directory. As etapas a seguir são necessárias para provisionar a conta de sistema do Skype sala no Skype para pool Business Online. Estas etapas são as mesmas para uma conta existente de caixa de correio de recurso ou de uma conta recém-criada (confrm1 ou confrm2), porque quando estiverem habilitados no Exchange Online, ambos dessas contas serão sincronizados com o Skype para Business Online da mesma maneira:
   
 1. Crie uma sessão do PowerShell remoto. Observe que você precisará baixar Skype para negócios on-line do módulo do conector e o assistente Microsoft Online Services entrar e certifique-se de que o seu computador está configurado. Para obter mais informações, consulte [Configurando o computador para o gerenciamento do Lync Online](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
     
@@ -112,11 +119,6 @@ Depois que uma conta de caixa de correio de sala de recurso foi criada e habilit
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-## <a name="assigning-a-skype-for-business-online-license"></a>Atribuindo uma licença do Skype for Business Online 
-
-Após habilitar uma conta de sistema do Skype sala no Skype para a empresa, você pode atribuir um Skype para negócios Online (plano 2) ou Skype licença Business Online (plano 3) usando o portal do Office 365 administrativo conforme descrito em [atribuir ou remover licenças para Office 365 para empresas](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou em [Skype para licenciamento de complemento de negócios](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
-  
-Depois de atribuir uma licença para Skype para Business Online, você poderá fazer logon e validar se a conta está ativa usando qualquer Skype para o cliente de negócios.
   
 ## <a name="password-expiration"></a>Expiração da senha
 
