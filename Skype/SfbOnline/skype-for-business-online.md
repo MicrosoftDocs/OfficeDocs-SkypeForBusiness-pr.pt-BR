@@ -12,12 +12,12 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: e92f5fdf9aa3b7d60ccf956d0eca872fd7b3f43f
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 8df54547474376266cabad2f70be6877f12f246d
+ms.sourcegitcommit: 75f9d15ec5c6284191c28e783761619326b57d53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2018
-ms.locfileid: "19546456"
+ms.lasthandoff: 06/13/2018
+ms.locfileid: "19862896"
 ---
 # <a name="skype-for-business-online-admin"></a>Administrador do Skype for Business Online
 
@@ -107,7 +107,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Jornada de migração do Skype for Business para o Microsoft Teams</h3>
+                        <h3>Migração do Skype for Business para o Microsoft Teams</h3>
                     </div>
                 </div>
             </div>
@@ -132,7 +132,9 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                     </div>
                     <div class="cardText">
                         <h3>Artigos</h3>
-                        <p><a href=" ">Nome do link</a></p>
+                        <p><a 
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configuração do Sistema de Telefonia na sua organização</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>
                     </div>
                 </div>
             </div>
@@ -149,7 +151,8 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                     </div>
                     <div class="cardText">
                         <h3>Novos recursos</h3>
-                        <p><a href=" ">Nome do link</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">Planos de Chamadas no Canadá (disponibilidade geral)</a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">Planos de Chamadas na Austrália (somente versão prévia)</a></p>
                     </div>
                 </div>
             </div>
@@ -166,7 +169,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                     </div>
                     <div class="cardText">
                         <h3>Atualizações principais</h3>
-                        <p><a href=" ">Nome do link</a></p>
+                        <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Configurar a Audioconferência</a></p>
                     </div>
                 </div>
             </div>
