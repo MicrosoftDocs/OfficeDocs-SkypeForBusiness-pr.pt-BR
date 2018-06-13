@@ -10,9 +10,9 @@
 ### [Solução de problemas e problemas conhecidos da audioconferência](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 ### [Alterar as configurações de uma ponte de audioconferência](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Alterar os números de telefone da sua ponte de audioconferência](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
-### [Discando a partir de uma reunião para que outras pessoas possam ingressar](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
+### [Discar a partir de uma reunião para que outras pessoas possam ingressar](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
 ### [Desativar números gratuitos para usuários específicos](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
-### [E-mails enviados para usuários quando as configurações são alteradas](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
+### [E-mails enviados para os usuários quando suas configurações são alteradas](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Habilitar ou desabilitar o envio de emails quando as configurações são alteradas](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
 ### [Gerenciar as configurações de audioconferência em minha organização](../audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization.md)
@@ -32,7 +32,7 @@
 ### [Configurando o Meeting Migration Service (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 ### [Iniciar uma audioconferência por telefone sem um PIN](../audio-conferencing-in-office-365/start-an-audio-conference-over-the-phone-without-a-pin.md)
 ### [Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
+### [Ligar os desligar os anúncios de entrada e saída em reuniões](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
 
 
@@ -78,18 +78,18 @@
 ### [Obtendo telefones para o Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implantação de telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 ###[Configuração de Telefones de Área Comum (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
-### [Obtenção de números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+### [Obter números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Veja o você recebe com o Sistema de Telefonia](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Caixa postal do Sistema de Telefonia
 #### [Alterar o idioma padrão para emails e saudações de caixa postal em sua organização](../what-is-phone-system-in-office-365/phone-system-voicemail/change-the-default-language-for-greetings-and-emails.md)
 #### [Idiomas para saudações e mensagens da caixa postal do Skype for Business](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
-### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+### [Configurar um atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Configuração do Sistema de Telefonia na sua organização](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
-### [O que são os atendedores automáticos do Sistema de Telefonia?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
-#### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+### [O que são atendedores automáticos do Sistema de Telefonia?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
+#### [Configurar um atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
-## [Configurar a rede para a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
+## [Configurar a sua rede para a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
 ### [Licenças de usuário bloqueadas para a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/blocked-user-licenses-for-skype-meeting-broadcast.md)
 ### [Habilitar a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Fazer alterações nas configurações da Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
@@ -106,7 +106,7 @@
 ### [Adicionar fundos e gerenciar Créditos de Comunicação](../skype-for-business-and-microsoft-teams-add-on-licensing/add-funds-and-manage-communications-credits.md)
 ### [Atribuir licenças do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audioconferência Pagar por Minuto](../skype-for-business-and-microsoft-teams-add-on-licensing/audio-conferencing-pay-per-minute.md)
-### [Configurar Créditos de Comunicação para a sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
+### [Configurar Créditos de Comunicação da sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md)
 ### [Planos de Chamadas para o Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md)
 ### [O que são Créditos de Comunicação?](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
 
@@ -146,11 +146,11 @@
 ### [Qualidade de mídia e desempenho de conectividade de rede](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Servidores proxy para o Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 
-## [Análise de Chamadas e Painel de Qualidade de Chamadas] (../using-call-quality-in-your-organization/difference-between-call-analytics-and-all-quality-dashboard.md)
+## [Análise de Chamadas e Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurar a Análise de Chamada do Skype for Business](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Ativando e usando o Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
-### [Usar a Análise de Chamadas para solucionar problemas de baixa qualidade das chamadas](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ## [Relatórios do Skype for Business Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Relatório de atividades](../skype-for-business-online-reporting/activity-report.md)
