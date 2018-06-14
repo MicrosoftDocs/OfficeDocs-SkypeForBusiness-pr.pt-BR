@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Exchange Online.
-ms.openlocfilehash: f97b4a140a220440c18c5a3094af01299da9dddf
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649609"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881571"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Implantar o Skype Room Systems versão 2 com o Exchange Online (Híbrida)
  
@@ -141,8 +141,6 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 Para validação, você deve ser capaz de usar qualquer Skype para o cliente de negócios para fazer logon conta.
   
 ## <a name="see-also"></a>Consulte também
-
-#### 
 
 [Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

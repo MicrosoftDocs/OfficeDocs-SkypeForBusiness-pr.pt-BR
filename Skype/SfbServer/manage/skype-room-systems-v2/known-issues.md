@@ -8,19 +8,21 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Este artigo aborda os problemas conhecidos do Skype sala sistemas v2 filial as versões atuais.
-ms.openlocfilehash: cdcd33566c4e14078b14ed5d3656eb1bffee6c6a
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+description: Este artigo aborda os problemas conhecidos do Skype sala sistemas v2, pela área de recurso.
+ms.openlocfilehash: 2fde12d616260963dc342df2d9cef94acf616756
+ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19881539"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
 Este artigo lista os problemas conhecidos para sistemas de sala Skype v2, pela área de recurso.
 <!-- If we get word that one of these issues no longer applies, contact meerak@microsoft.com or msmets@microsoft.com and let them know to EoL the corresponding KB  -->
 
-<a name="update"></a> ## Atualização 
+<a name="update"> </a>  
+## <a name="update"></a>Atualização 
 
 | Título do problema |  Comportamento \/ sintoma | Para solucionar esse problema conhecido | Artigo da KB |
 |  ---        |      ---             |   ---            | --- |
@@ -53,15 +55,12 @@ Sempre use uma conexão de rede 1 Gbps com fio para garantir que você terá a l
 ***
 Se o seu dispositivo v2 de sistemas de sala Skype perde a confiança com o domínio (por exemplo, se você remover o v2 Skype sala sistemas do domínio depois que ele for unido ao domínio), você não conseguirá autenticar no dispositivo e abra o backup das configurações. Como alternativa, é possível entrar com a conta de Administrador local. 
 ***
-A versão de 64 bits do edition de aniversário no Windows 10 Enterprise (idioma inglês, versão 1607) não é mais suportada a partir de sistemas de sala Skype v2 versão 3.0.12.0 (atualização de 3). 
+A versão de 64 bits do edition de aniversário no Windows 10 Enterprise (idioma inglês, versão 1607) não é mais suportada a partir de sistemas de sala Skype v2 versão 3.0.12.0. 
 ***
 
 <a name="See"> </a>  
 ## <a name="see-also"></a>Ver também
 
-
-#### 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Gerenciar Skype sala v2 de sistemas](skype-room-systems-v2.md)
-#### 
