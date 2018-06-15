@@ -12,25 +12,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: Leia este tópico para saber mais sobre como configurar contas para sistemas de sala Skype v2 no Exchange e Skype para Business Server 2015.
-ms.openlocfilehash: fb0bbe4b8048bfeda0acf10a0e6cfc73ce8163ea
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+description: Leia este tópico para saber mais sobre como configurar contas para sistemas de sala Skype v2 no Exchange e Skype para negócios.
+ms.openlocfilehash: 8284795df5f3cc50db0a4089deb9755239e5876e
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856160"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887895"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurar contas para sistemas de sala Skype v2
  
-Leia este tópico para saber mais sobre os sistemas de sala Skype v2 e como ele se integra com o Exchange e Skype para Business Server 2015.
+Leia este tópico para saber mais sobre os sistemas de sala Skype v2 e como ele se integra com o Exchange e Skype para negócios.
   
-Este tópico apresenta como criar as contas usadas por sistemas de sala Skype v2 no Microsoft Exchange e Skype para Business Server 2015. Instruções de implantação para dispositivos do Skype sala sistemas v2 é abordada em [Configure um console do Skype sala sistemas v2](console.md). É provável que sua infraestrutura esteja incluída em uma destas configurações:
+Este tópico apresenta como criar as contas usadas pelos sistemas de sala Skype v2 no Microsoft Exchange e Skype para negócios. Instruções de implantação para dispositivos do Skype sala sistemas v2 é abordada em [Configure um console do Skype sala sistemas v2](console.md). É provável que sua infraestrutura esteja incluída em uma destas configurações:
   
 - Implantação online: ambiente da sua organização estiver implantado inteiramente no Office 365. Para obter mais informações, consulte [implantar sistemas de sala Skype v2 com o Office 365](with-office-365.md).
     
 - Implantação no local: sua organização tem servidores que ele controla, onde o Active Directory, Exchange e Skype para Business Server 2015 são hospedados. Para obter mais informações, consulte [implantar sistemas de sala Skype v2 com Skype para Business Server 2015](with-skype-for-business-server-2015.md)
     
-- Implantação híbrida: sua organização tem uma mistura de serviços, com algumas hospedados no local e algumas hospedadas online por meio do Office 365. Com sistemas de sala Skype v2, há suporte para os seguintes cenários híbridos: 
+- Implantações híbridas: sua organização tem uma mistura de serviços, com algumas hospedados no local e algumas hospedadas online por meio do Office 365. Com sistemas de sala Skype v2, há suporte para os seguintes cenários híbridos: 
     
   - Exchange Online com Skype para negócios 2015 de servidor no local. Para obter mais informações, consulte [implantar sistemas de sala Skype v2 com o Exchange Online (híbrido)](with-exchange-online.md).
     
@@ -76,7 +76,7 @@ Enquanto as propriedades para a configuração básica permitirá que a conta de
 |:-----|:-----|
 |Autenticação baseada em certificado  <br/> |Certificados podem ser necessários para o Exchange e Skype para Business Server. Para implantar certificados, você pode carregá-los quando estiver conectado como Administrador.  <br/> |
    
-A melhor maneira de configurar as contas de usuário é configurá-los usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript.ps1](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomProvisioningScript.ps1.txt), um script que ajudarão a criar novas contas de usuário ou validar contas existentes de recurso, que você ter para ajudá-lo a transformá-los em contas de usuário de v2 Skype sala sistemas compatíveis.
+A maneira mais fácil de configurar as contas de usuário é configurá-los usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudarão a criar novas contas de usuário ou validar contas existentes de recurso, que você ter para ajudá-lo a transformá-los em contas de usuário de v2 Skype sala sistemas compatíveis.
   
 Se você preferir usar a interface do usuário do Office 365 sobre cmdlets do Windows PowerShell, algumas etapas podem ser realizadas manualmente. Consulte o [tópico Criando uma conta de dispositivo usando o Office 365](https://technet.microsoft.com/itpro/surface-hub/create-a-device-account-using-office-365).
   

@@ -1,5 +1,5 @@
 ---
-title: Implantar o Skype Room Systems versão 2 com o Exchange Online (Híbrida)
+title: Implantar o Skype Room Systems versão 2 com o Exchange Online
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,18 +13,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Exchange Online.
-ms.openlocfilehash: bb9f236db41b4eabd2dd73f2e9344f1ff3681cf7
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881571"
+ms.locfileid: "19887888"
 ---
-# <a name="deploy-skype-room-systems-v2-with-exchange-online-hybrid"></a>Implantar o Skype Room Systems versão 2 com o Exchange Online (Híbrida)
+# <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Implantar o Skype Room Systems versão 2 com o Exchange Online 
  
-Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Exchange Online.
+Leia este tópico para obter informações sobre como implantar v2 de sistemas de sala Skype com o Exchange Online e Skype para Business Server local.
   
-Se a sua organização tem uma combinação de serviços hospedados no local e online, a configuração depende de onde cada serviço está hospedado. Este tópico aborda as implantações híbridas para sistemas de sala Skype v2 com o Exchange hospedado online. Como existem muitas variações nesse tipo de implantação, não é possível fornecer instruções detalhadas para todas elas. O processo a seguir funcionará para várias configurações. Se o processo não é ideal para sua instalação, é recomendável usar o Windows PowerShell (consulte o Apêndice: PowerShell) para obter o mesmo resultado final conforme documentadas aqui e para obter outras opções de implantação. Em seguida, você deve usar o script do Windows PowerShell fornecido para verificar a instalação do Skype sala sistemas v2. (Veja Script de verificação de conta.)
+Se a sua organização tem uma combinação de serviços hospedados no local e online, a configuração depende de onde cada serviço está hospedado. Este tópico aborda as implantações híbridas para sistemas de sala Skype v2 com o Exchange hospedado online. Como existem muitas variações nesse tipo de implantação, não é possível fornecer instruções detalhadas para todas elas. O processo a seguir funcionará para várias configurações. Se o processo não é ideal para sua instalação, é recomendável usar o Windows PowerShell para obter o mesmo resultado final conforme documentadas aqui e para obter outras opções de implantação. 
+
+A maneira mais fácil de configurar as contas de usuário é configurá-los usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudarão a criar novas contas de usuário ou validar contas existentes de recurso, que você ter para ajudá-lo a transformá-los em contas de usuário de v2 Skype sala sistemas compatíveis. Se você preferir, você pode seguir as etapas abaixo para configurar contas para que seu dispositivo v2 de sistemas de sala Skype usará.
+
+
   
 ## <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Implantar o Skype Room Systems versão 2 com o Exchange Online
 
@@ -141,6 +145,8 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 Para validação, você deve ser capaz de usar qualquer Skype para o cliente de negócios para fazer logon conta.
   
 ## <a name="see-also"></a>Consulte também
+
+[Configurar contas para sistemas de sala Skype v2](room-systems-v2-configure-accounts.md)
 
 [Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Office 365.
-ms.openlocfilehash: b44633ae7e0dab875771cbc3146688215d1bdcbc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bf23da871b3e736bd9fce2ee821b716fc43830b1
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569516"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887902"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implantar o Skype Room Systems versão 2 com o Office 365 
  
-Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Office 365.
-  
-Este tópico descreve como adicionar uma conta de dispositivo para sistemas de sala Skype v2 quando você tem uma implantação online do Office 365.
+Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Office 365, onde Skype para negócios e do Exchange são ambos online. 
+
+A maneira mais fácil de configurar as contas de usuário é configurá-los usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudarão a criar novas contas de usuário ou validar contas existentes de recurso, que você ter para ajudá-lo a transformá-los em contas de usuário de v2 Skype sala sistemas compatíveis. Se você preferir, você pode seguir as etapas abaixo para configurar contas para que seu dispositivo v2 de sistemas de sala Skype usará.
   
 ## <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implantar o Skype Room Systems versão 2 com o Office 365 
 
@@ -180,6 +180,8 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 > Assim, você adiciona CloudPBX e PSTNCallingDomesticAndInternational. Além disso, será necessário usar a Interface do administrador para atribuir um número de telefone. 
   
 ## <a name="see-also"></a>Consulte também
+
+[Configurar contas para sistemas de sala Skype v2](room-systems-v2-configure-accounts.md)
 
 [Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

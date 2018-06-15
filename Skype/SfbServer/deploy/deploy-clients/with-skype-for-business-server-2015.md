@@ -13,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com Skype para Business Server 2015.
-ms.openlocfilehash: 9705d849027f03a4d4befc6c433f0fe6fb4bc414
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: da5d0319e3dd582d6f446471424814ece3a9d178
+ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568253"
+ms.lasthandoff: 06/14/2018
+ms.locfileid: "19887824"
 ---
 # <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Implantar o Skype Room Systems versão 2 com o Skype for Business Server 2015
- 
-Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com Skype para Business Server 2015.
   
 Este tópico explica como adicionar uma conta de dispositivo para sistemas de sala Skype v2 quando você tem uma implantação de floresta única, no local.
   
 Se você tiver uma floresta única, a implantação no local com Exchange 2013 SP1 ou posterior e Skype para Business Server 2015 ou posterior, você pode usar os scripts do Windows PowerShell fornecidos para criar contas de dispositivo. Se você estiver usando uma implantação de várias floresta, você pode usar os cmdlets equivalentes que produzirá os mesmos resultados. Esses cmdlets são descritos nesta seção.
+
+A maneira mais fácil de configurar as contas de usuário é configurá-los usando o Windows PowerShell remoto. A Microsoft fornece [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), um script que ajudarão a criar novas contas de usuário ou validar contas existentes de recurso, que você ter para ajudá-lo a transformá-los em contas de usuário de v2 Skype sala sistemas compatíveis. Se você preferir, você pode seguir as etapas abaixo para configurar contas para que seu dispositivo v2 de sistemas de sala Skype usará.
   
 ## <a name="deploy-skype-room-systems-v2-with-skype-for-business-server-2015"></a>Implantar o Skype Room Systems versão 2 com o Skype for Business Server 2015
 
@@ -123,6 +123,8 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
 ## <a name="see-also"></a>Consulte também
+
+[Configurar contas para sistemas de sala Skype v2](room-systems-v2-configure-accounts.md)
 
 [Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
