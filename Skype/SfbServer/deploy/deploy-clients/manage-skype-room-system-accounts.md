@@ -10,34 +10,38 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 description: Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.
-ms.openlocfilehash: c47765b617e0856d1db25c7ed4902fe0af9924f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4d3535c9583481273f7a511143244b511cdb5819
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927785"
 ---
-# <a name="manage-skype-room-system-accounts"></a><span data-ttu-id="310c2-103">Gerenciar contas do Sistema de Salas do Skype</span><span class="sxs-lookup"><span data-stu-id="310c2-103">Manage Skype Room System accounts</span></span>
+# <a name="manage-skype-room-system-accounts"></a><span data-ttu-id="19d38-103">Gerenciar contas do Sistema de Salas do Skype</span><span class="sxs-lookup"><span data-stu-id="19d38-103">Manage Skype Room System accounts</span></span>
  
-<span data-ttu-id="310c2-104">Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.</span><span class="sxs-lookup"><span data-stu-id="310c2-104">Read this topic to learn how to manage Skype Room System accounts.</span></span>
-  
-## <a name="move-the-skype-room-system-account-between-pools"></a><span data-ttu-id="310c2-105">Move the Skype Room System account between pools</span><span class="sxs-lookup"><span data-stu-id="310c2-105">Move the Skype Room System account between pools</span></span>
+<span data-ttu-id="19d38-104">Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.</span><span class="sxs-lookup"><span data-stu-id="19d38-104">Read this topic to learn how to manage Skype Room System accounts.</span></span> 
 
-<span data-ttu-id="310c2-106">Se for necessário transferir a conta do  de um pool do  para outro (por exemplo, durante upgrades), use o seguinte comando para mover o pool da conta do :</span><span class="sxs-lookup"><span data-stu-id="310c2-106">If you need to move the  account from one  pool to another   (for example, during upgrades), use the following command to move the  account pool:</span></span> 
+> [!NOTE]
+> <span data-ttu-id="19d38-105">Sistemas de sala Skype v2 é um produto diferente com diferentes dependências e procedimentos de implantação.</span><span class="sxs-lookup"><span data-stu-id="19d38-105">Skype Room Systems v2 is a different product with different dependencies and deployment procedures.</span></span> <span data-ttu-id="19d38-106">Para obter informações sobre os sistemas de sala Skype v2, consulte sistemas de sala Skype v2 [Visão geral do gerenciamento](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).</span><span class="sxs-lookup"><span data-stu-id="19d38-106">For information on Skype Room Systems v2, see the Skype Room Systems v2 [management overview](../../manage/skype-room-systems-v2/skype-room-systems-v2.md).</span></span>
+  
+## <a name="move-the-skype-room-system-account-between-pools"></a><span data-ttu-id="19d38-107">Mover a conta do sistema do Skype sala entre pools</span><span class="sxs-lookup"><span data-stu-id="19d38-107">Move the Skype Room System account between pools</span></span>
+
+<span data-ttu-id="19d38-108">Se você precisar mover a conta do sistema do Skype sala de um Skype para pool de servidores corporativos para outro (por exemplo, durante as atualizações), use o seguinte comando para mover o pool de conta do sistema do Skype sala:</span><span class="sxs-lookup"><span data-stu-id="19d38-108">If you need to move the Skype Room System account from one Skype for Business Server pool to another (for example, during upgrades), use the following command to move the Skype Room System account pool:</span></span> 
   
 ```
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
-## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a><span data-ttu-id="310c2-107">Disable the Skype Room System account for Skype for Business services</span><span class="sxs-lookup"><span data-stu-id="310c2-107">Disable the Skype Room System account for Skype for Business services</span></span>
+## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a><span data-ttu-id="19d38-109">Desabilitar a conta do sistema do Skype sala para Skype para serviços corporativos</span><span class="sxs-lookup"><span data-stu-id="19d38-109">Disable the Skype Room System account for Skype for Business services</span></span>
 
-<span data-ttu-id="310c2-108">If you need to disable an existing Skype Room System account from Skype for Business services on a Skype for Business Server pool, use the following command to disable the account:</span><span class="sxs-lookup"><span data-stu-id="310c2-108">If you need to disable an existing Skype Room System account from Skype for Business services on a Skype for Business Server pool, use the following command to disable the account:</span></span> 
+<span data-ttu-id="19d38-110">Se você precisar desativar uma Skype sala sistema conta existente do Skype para serviços corporativos em um Skype para pool de servidores corporativos, use o seguinte comando para desabilitar a conta:</span><span class="sxs-lookup"><span data-stu-id="19d38-110">If you need to disable an existing Skype Room System account from Skype for Business services on a Skype for Business Server pool, use the following command to disable the account:</span></span> 
   
 ```
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 
-## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a><span data-ttu-id="310c2-109">Opcional: criar um grupo de administradores do  no Active Directory</span><span class="sxs-lookup"><span data-stu-id="310c2-109">Optional: Create a  administrator group in Active Directory</span></span>
+## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a><span data-ttu-id="19d38-111">Opcional: Criar um grupo de administrador do sistema do Skype sala no Active Directory</span><span class="sxs-lookup"><span data-stu-id="19d38-111">Optional: Create a Skype Room System administrator group in Active Directory</span></span>
 
-<span data-ttu-id="310c2-110">Cada cliente do  que participa do domínio pode ser totalmente gerenciado por um usuário de domínio com direitos de administrador local no PC do cliente .</span><span class="sxs-lookup"><span data-stu-id="310c2-110">Each  client that joins the domain can be fully managed by a domain user with local administrator rights on the  appliance PC.</span></span> <span data-ttu-id="310c2-111">Portanto, você pode criar um grupo administradores dedicados no Active Directory e dar a este grupo direitos administrativos durante a configuração da nova máquina do .</span><span class="sxs-lookup"><span data-stu-id="310c2-111">Therefore, you can create a dedicated administrators’ group in Active Directory and give this group administrative rights during set up of the new  machine.</span></span>
+<span data-ttu-id="19d38-112">Cada cliente do sistema de sala Skype que ingressa no domínio pode ser totalmente gerenciado por um usuário de domínio com direitos de administrador local no dispositivo do sistema de sala Skype PC.</span><span class="sxs-lookup"><span data-stu-id="19d38-112">Each Skype Room System client that joins the domain can be fully managed by a domain user with local administrator rights on the Skype Room System appliance PC.</span></span> <span data-ttu-id="19d38-113">Portanto, você pode criar grupo dos administradores um dedicado no Active Directory e dar este direitos administrativos do grupo durante set up da máquina nova sistema de sala Skype.</span><span class="sxs-lookup"><span data-stu-id="19d38-113">Therefore, you can create a dedicated administrators' group in Active Directory and give this group administrative rights during set up of the new Skype Room System machine.</span></span>
   
 
