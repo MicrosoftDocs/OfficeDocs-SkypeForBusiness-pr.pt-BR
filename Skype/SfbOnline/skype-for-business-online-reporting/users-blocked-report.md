@@ -17,11 +17,13 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Nesse relatório, juntamente com outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo o uso da PSTN em toda a organização. '
-ms.openlocfilehash: 90de47e67307b90b3f1e375237654cf48e0cb84a
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+search.appverid: MET150
+ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
+ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19933043"
 ---
 # <a name="users-blocked-report"></a>Relatório dos usuários bloqueados
 
@@ -30,9 +32,11 @@ O novo Skype para painel de **relatórios** de negócios mostra a visão geral d
  Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) mais de relatórios estão disponíveis.
   
 > [!NOTE]
-> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
+> Você pode ver todos o Skype para relatórios de negócios quando você entra no como um administrador para o Centro de administração do Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Como obter para o Skype para usuários comerciais bloqueados relatório
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 - Vá para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para centro de administração de negócios** > **relatórios** > **usuários bloqueados**.
     
