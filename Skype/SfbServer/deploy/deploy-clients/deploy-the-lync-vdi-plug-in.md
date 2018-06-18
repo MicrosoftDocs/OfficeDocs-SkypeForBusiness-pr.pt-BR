@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Este tópico aborda os procedimentos de implantação para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual.
-ms.openlocfilehash: 47491b4409f21386cf28f811b6c2c3cbffe1e69b
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 4e4193998a9374c1aa0160999ad53a9ec3d8aab7
+ms.sourcegitcommit: 0f089f0c1bc641793c61928fb1c8fa62b2dfabee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501668"
+ms.lasthandoff: 06/18/2018
+ms.locfileid: "19927849"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server-2015"></a>Implantar o plug-in VDI do Lync com o Skype for Business Server 2015
  
-Este tópico aborda os procedimentos de implantação para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual. 
+Este tópico aborda os procedimentos de implantação para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual. Considerações de planejamento correm [Planejar Skype para os negócios em ambientes de VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md).
   
 Um ambiente VDI (Virtual Desktop Infrastructure) é usado em algumas organizações nas quais questões de segurança e conformidade são especialmente sensíveis. Seus usuários trabalham em computadores Windows locais e utilizam clientes em uma área de trabalho virtual. Usando Skype para a empresa em uma conexão como esta requer o software de plug-in de VDI adicional.
   
