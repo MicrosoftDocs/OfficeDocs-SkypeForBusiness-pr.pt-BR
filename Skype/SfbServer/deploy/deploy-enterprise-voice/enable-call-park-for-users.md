@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilite usuários para o estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: b93a9393a095a4860bfd8f392f95d834dad6fa71
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 88385ae1332905ae242cf0b4a5002f96b336a1af
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500448"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Habilitar Estacionamento de Chamada para usuários no Skype for Business 2015
  
@@ -64,7 +65,4 @@ Por padrão, o estacionamento de chamadas está desabilitado para todos os usuá
 
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios 2015](voice-policy-and-pstn-usage-records.md)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personalize a música de espera no Skype para Business Server Enterprise Voice de estacionamento de chamadas.
-ms.openlocfilehash: 95e332aad7d96c366cfc73ca1bcf3f289b5f14ab
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: df9312e30ef918b6a2d9ef8bdafb907070a119ee
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500570"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business-2015"></a>Personalizar a música de espera do estacionamento de chamadas no Skype for Business 2015
  
@@ -53,9 +54,6 @@ Você pode especificar seu próprio arquivo de música a ser usado para a músic
 
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
-

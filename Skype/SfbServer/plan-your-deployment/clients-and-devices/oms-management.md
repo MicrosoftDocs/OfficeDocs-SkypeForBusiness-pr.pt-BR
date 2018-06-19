@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: Este artigo aborda as considerações de planejamento para usar o Operations Management Suite para administrar os dispositivos do Skype Room Systems v2 em sua implementação do Skype for Business Server 2015.
-ms.openlocfilehash: b117b243b638c9e06b21901f14515b51d6931d23
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: d69916854b4d737b4d1e52bdf45a5ee453d48e55
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504632"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS
  
@@ -60,9 +61,6 @@ Durante a utilização do OMS para gerenciar seus dispositivos de conferência d
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Implantar o gerenciamento de v2 Skype sala sistemas com OMS](../../deploy/deploy-clients/with-oms.md)
   
 [Gerencia dispositivos de v2 de sistemas de sala Skype com OMS](../../manage/skype-room-systems-v2/oms.md)
-

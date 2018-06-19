@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Criar ou modificar os links de região de rede, que são usados pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: e0fbabb811ec604b3a0155074a01bc4b02bd6152
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d1f8814c60a99ecd76fe87993549e8dba733e52c
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500672"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server-2015"></a>Criar links de região de rede no Skype for Business Server 2015
  
@@ -69,8 +70,6 @@ A topologia de exemplo possui um link entre as regiões da América do Norte e A
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [New-CsNetworkRegionLink.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
@@ -78,4 +77,3 @@ A topologia de exemplo possui um link entre as regiões da América do Norte e A
 [Set-CsNetworkRegionLink.](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
-

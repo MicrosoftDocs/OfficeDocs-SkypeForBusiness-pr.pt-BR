@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gerenciando configurações de grupo de resposta de nível de aplicativo, como configurações de música de espera e chamada de retorno, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: eaf31904958997561be056da728ff3b0b31f9d8b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2133a85a9ae929a55e5edf0206932d3048dace34
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500533"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business-2015"></a>Gerenciando as configurações do Grupo de Resposta no nível do aplicativo no Skype for Business 2015
  
@@ -55,11 +56,8 @@ A música de espera padrão é tocada quando uma chamada é coloca em espera, ap
 
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
 [Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
-

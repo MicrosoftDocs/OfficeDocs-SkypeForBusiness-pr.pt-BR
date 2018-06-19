@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Leia este tópico para saber mais sobre o hardware, software e requisitos de infraestrutura para execução Skype para negócios em um Mac.
-ms.openlocfilehash: a963a3bd563f82a2fd26b2a72e0610c10c0be742
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9fd03dbc04937dc34145c97a3abd4fc561ae0270
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503953"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype para negócios nos requisitos de cliente do Mac
  
@@ -73,11 +74,8 @@ Para obter mais informações, consulte: [Implantação de mobilidade no Lync Se
 ## <a name="see-also"></a>Ver também
 <a name="Infrastructure"> </a>
 
-#### 
-
 [Requisitos de DNS para Skype para Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
 
 [Perguntas frequentes](https://go.microsoft.com/fwlink/p/?LinkId=798227)
   
 [Problemas conhecidos](https://go.microsoft.com/fwlink/p/?LinkId=798228)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: 6cb3e22151596fe388f5f72f3a9325c97671e257
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 51516e07a75cc4239d89310c9d33194a225b3a02
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500587"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>Criar perfis de política de largura de banda no Skype for Business Server 2015
  
@@ -91,8 +92,6 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [New-CsNetworkBandwidthPolicyProfile.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
@@ -100,4 +99,3 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
 [Set-CsNetworkBandwidthPolicyProfile.](https://docs.microsoft.com/powershell/module/skype/set-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkbandwidthpolicyprofile?view=skype-ps)
-

@@ -14,11 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Crie políticas entre sites, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server de rede.
-ms.openlocfilehash: f8c09f850a001b634ee63199210733000775fd0a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6dc1469950bfac46110953c0e354cd50f4f89688
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19500716"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Criar políticas entre sites da rede no Skype for Business Server 2015
  
@@ -45,8 +46,6 @@ Na região América do Norte da topologia de exemplo, existe um link direto entr
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   
 [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/get-csnetworkintersitepolicy?view=skype-ps)
@@ -54,4 +53,3 @@ Na região América do Norte da topologia de exemplo, existe um link direto entr
 [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/set-csnetworkintersitepolicy?view=skype-ps)
   
 [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkintersitepolicy?view=skype-ps)
-
