@@ -3,7 +3,6 @@ title: Nó do Escopo de Monitoramento
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
-description: 'No construtor de topologias do Lync Server 2013, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois clicando em uma das seguintes opções para o servidor executando o monitoramento:'
-ms.openlocfilehash: f1e59900993444218df820f81668c1c6d4762162
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: 'No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em ação na barra de ferramentas, ou uma tarefa no painel Ações e, em seguida, clicando em um dos as seguintes opções para o servidor executando o monitoramento:'
+ms.openlocfilehash: 006bfb85db15bd5d842644ca63edf55cf3b9b495
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987268"
 ---
 # <a name="monitoring-scope-node"></a>Nó do Escopo de Monitoramento
  
-No construtor de topologias do Lync Server 2013, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em **ação** na barra de ferramentas ou clicando em uma tarefa nas ações painel e, em seguida, clicando em uma das seguintes opções para o servidor executando o monitoramento:
+No construtor de topologia, você pode executar tarefas relacionadas a um servidor individual executando o monitoramento clicando o servidor executando o monitoramento na árvore de console, clicando em **ação** na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois clicando em uma das seguintes opções para o servidor executando o monitoramento:
   
 - **Editar Propriedades**. Abre a página **Editar propriedades** para o servidor executando o monitoramento, onde você pode alterar o nome de domínio totalmente qualificado (FQDN) do servidor executando o banco de dados do SQL Server monitoramento ou de monitoramento.
     

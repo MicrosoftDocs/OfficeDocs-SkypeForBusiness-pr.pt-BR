@@ -3,7 +3,6 @@ title: Adicionar o FQDN do servidor de borda
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Você deve especificar um nome de domínio totalmente qualificado (FQDN) para o serviço de borda de acesso. Se você não selecionou o uso de um único FQDN &amp; opção de endereço IP em Selecionar recursos de página, você também deve especificar um FQDN para o serviço de borda de webconferência e para A / serviço de borda V.
-ms.openlocfilehash: 06ac7f789b7fd3b8d380c3303c13977313c06a40
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 74ddd2ed5359ce535d8c447b640f5fae44bb6339
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19990116"
 ---
 # <a name="add-edge-server-fqdn"></a>Adicionar o FQDN do servidor de borda
  

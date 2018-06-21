@@ -3,7 +3,6 @@ title: Solicitação de certificado (solicitação gerada de assinatura de certi
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 description: A página do arquivo de solicitação de certificado é exibida depois de ter concluído uma solicitação offline para um certificado. Para exibir a solicitação de certificado e prepare-se para enviá-la à sua autoridade de certificação offline (CA) ou a autoridade de certificação pública, clique no botão Exibir. A solicitação de certificado é exibida no bloco de notas do Windows (por padrão). Você pode copiar e colar a solicitação de certificado codificado a partir dessa exibição ou concluir o processamento da solicitação de certificado seguindo as instruções do escolhida para sua autoridade de certificação offline ou a autoridade de certificação pública. Clique em Concluir para continuar.
-ms.openlocfilehash: b74bc98a540e39fef60bcb7bf08df3c98e25354f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 3ccd40cbdef40e9ded4e81b2c9cb50185f8f23d8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987834"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>Solicitação de certificado (solicitação gerada de assinatura de certificado)
  

@@ -3,7 +3,6 @@ title: Adicionar Servidor de Monitoramento
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 description: Para incorporar um Monitoring Server em seu design de topologia, você deve especificar o nome de domínio totalmente qualificado (FQDN) do servidor no qual você deseja implantar o Monitoring Server. Antes de publicar uma topologia que inclua o Monitoring Server e instalando Skype para Business Server no servidor, você deve concluir todos os pré-requisitos para implantar o monitoramento. Para obter detalhes sobre esses pré-requisitos, consulte Deploying Monitoring na documentação de implantação.
-ms.openlocfilehash: 93cda4f4cdf9e43198e2b5fdee311901c24b3aaf
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8c396335126ce2d5b1df51e1f967a4375f329a2f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19992122"
 ---
 # <a name="add-monitoring-server"></a>Adicionar Servidor de Monitoramento
  

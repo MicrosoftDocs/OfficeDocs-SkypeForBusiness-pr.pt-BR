@@ -3,7 +3,6 @@ title: Grupos de resposta criar novo ou Editar grupo de agentes existente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 description: Os grupos de agente definem quem podem responder às chamadas para um grupo de respostas (conhecido como agentes) e as configurações que se aplicam a todos os agentes no grupo.
-ms.openlocfilehash: f1802c77c991f91b317f6ac6f6a405259c1bec30
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: af09b13d6fc6853a43719688b0f97ab60c20990f
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19988443"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Grupos de Resposta: Criar Novo ou Editar Grupo de Agentes Existente
  
@@ -61,12 +61,12 @@ A lista a seguir descreve os campos na página.
     > A ordem na qual os agentes estão listados na lista de distribuição afeta a ordem na qual os agentes recebem chamadas para round robin e roteamento em série. 
   
     > [!NOTE]
-    > Associações ou listas ocultas podem ficar visíveis ao grupo de resposta administradores ou usuários. Para obter detalhes, consulte [criar ou modificar um grupo de operadores em Skype para negócios 2015](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md). 
+    > Associações ou listas ocultas podem ficar visíveis ao grupo de resposta administradores ou usuários. Para obter detalhes, consulte [criar ou modificar um grupo de operadores em Skype para negócios](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md). 
   
   - Selecione **Definir um grupo personalizado de operadores** para selecionar os usuários que você deseja atribuir como agentes para o grupo de respostas. Clique em **Selecionar** para adicionar um agente à lista. Clique em  **Remover** para excluir um agente selecionado da lista.
     
     As setas para cima e para baixo movem um agente selecionado para cima e para baixo na lista de agentes. A ordem de agentes na lista afeta a ordem na qual os agentes recebem chamadas para roteamento round robin e serial.
     
-Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server 2015](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com grupos de operadores, consulte [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação operações.
+Para obter detalhes sobre os recursos de grupo de resposta, consulte [Planejar para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Para obter detalhes sobre como trabalhar com grupos de operadores, consulte [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação operações.
   
 
