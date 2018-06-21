@@ -3,7 +3,6 @@ title: Assistente de implantação solicitar um certificado
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,15 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
-description: Para obter detalhes sobre como usar o Assistente de implantação para instalar Skype para Business Server 2015, consulte instalar Skype for Business Server 2015.
-ms.openlocfilehash: 9593a9ff75163c5034071ddbf138861ea2130c70
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Para obter detalhes sobre como usar o Assistente de implantação para instalar Skype para Business Server 2015, consulte instalar Skype for Business Server.
+ms.openlocfilehash: f771a77e4a52f6a66f5f8cd65878fdb0129bc001
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19992213"
 ---
-# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="b0a9c-103">Assistente de Implantação: Solicitar um Certificado</span><span class="sxs-lookup"><span data-stu-id="b0a9c-103">Deployment Wizard: Request a Certificate</span></span>
+# <a name="deployment-wizard-request-a-certificate"></a><span data-ttu-id="aa5b8-103">Assistente de Implantação: Solicitar um Certificado</span><span class="sxs-lookup"><span data-stu-id="aa5b8-103">Deployment Wizard: Request a Certificate</span></span>
  
-<span data-ttu-id="b0a9c-104">Para obter detalhes sobre como usar o Assistente de implantação para instalar Skype para Business Server 2015, consulte [Instalar Skype para Business Server 2015](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="b0a9c-104">For details about using Deployment Wizard to install Skype for Business Server 2015, see [Install Skype for Business Server 2015](../../../deploy/install/install.md).</span></span>
+<span data-ttu-id="aa5b8-104">Para obter detalhes sobre como usar o Assistente de implantação para instalar Skype para Business Server, consulte [Instalar Skype para Business Server](../../../deploy/install/install.md).</span><span class="sxs-lookup"><span data-stu-id="aa5b8-104">For details about using Deployment Wizard to install Skype for Business Server, see [Install Skype for Business Server](../../../deploy/install/install.md).</span></span>
   
 

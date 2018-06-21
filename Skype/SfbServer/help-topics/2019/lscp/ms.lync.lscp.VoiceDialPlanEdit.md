@@ -3,7 +3,6 @@ title: Plano de discagem criar novo ou editar existente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,23 +11,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 6f178beed48950a4c34d62262e2a93a27681641c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 53acc62ac2f69bbff2725b467e0518653ea92bb4
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19991632"
 ---
-# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="8f37c-104">Plano de discagem: Criar nova ou editar existente</span><span class="sxs-lookup"><span data-stu-id="8f37c-104">Dial Plan: Create New or Edit Existing</span></span>
+# <a name="dial-plan-create-new-or-edit-existing"></a><span data-ttu-id="74464-104">Plano de discagem: Criar nova ou editar existente</span><span class="sxs-lookup"><span data-stu-id="74464-104">Dial Plan: Create New or Edit Existing</span></span>
  
-<span data-ttu-id="8f37c-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="8f37c-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="74464-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="74464-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="8f37c-107">Criar ou modificar um plano de discagem no Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="8f37c-107">Create or modify a dial plan in Skype for Business Server 2015</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [<span data-ttu-id="74464-107">Criar ou modificar um plano de discagem no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="74464-107">Create or modify a dial plan in Skype for Business Server</span></span>](../../../deploy/deploy-enterprise-voice/dial-plans.md)
     
-- [<span data-ttu-id="8f37c-108">Modificar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="8f37c-108">Modify a Dial Plan</span></span>](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
+- [<span data-ttu-id="74464-108">Modificar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="74464-108">Modify a Dial Plan</span></span>](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx)
     
-- [<span data-ttu-id="8f37c-109">Criar ou modificar uma regra de normalização no Skype para negócios 2015</span><span class="sxs-lookup"><span data-stu-id="8f37c-109">Create or modify a normalization rule in Skype for Business 2015</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [<span data-ttu-id="74464-109">Criar ou modificar uma regra de normalização no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="74464-109">Create or modify a normalization rule in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
     
-- [<span data-ttu-id="8f37c-110">Criar ou modificar uma regra de normalização manualmente</span><span class="sxs-lookup"><span data-stu-id="8f37c-110">Create or Modify a Normalization Rule Manually</span></span>](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
+- [<span data-ttu-id="74464-110">Criar ou modificar uma regra de normalização manualmente</span><span class="sxs-lookup"><span data-stu-id="74464-110">Create or Modify a Normalization Rule Manually</span></span>](http://technet.microsoft.com/library/fc0335e6-8830-4cfb-8c64-6aeb98c0a992.aspx)
     
-<span data-ttu-id="8f37c-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="8f37c-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+<span data-ttu-id="74464-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="74464-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
 

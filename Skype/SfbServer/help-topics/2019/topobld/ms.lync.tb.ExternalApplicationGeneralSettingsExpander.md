@@ -3,7 +3,6 @@ title: Expansor de configurações gerais de aplicativo externo
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,34 +11,35 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Para editar as propriedades de um servidor de aplicativos confiáveis que já foi definido, siga estas instruções.
-ms.openlocfilehash: 4104b9cf22a3db36afd159c0b7d9812142112ece
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: f6acc3f31e294cab08b688327c7cc9b8f25bea3b
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19987281"
 ---
-# <a name="external-application-general-settings-expander"></a><span data-ttu-id="f069e-103">Expansor de configurações gerais de aplicativo externo</span><span class="sxs-lookup"><span data-stu-id="f069e-103">External Application General Settings Expander</span></span>
+# <a name="external-application-general-settings-expander"></a><span data-ttu-id="828b2-103">Expansor de configurações gerais de aplicativo externo</span><span class="sxs-lookup"><span data-stu-id="828b2-103">External Application General Settings Expander</span></span>
  
-<span data-ttu-id="f069e-104">Para editar as propriedades de um servidor de aplicativos confiáveis que já foi definido, siga estas instruções.</span><span class="sxs-lookup"><span data-stu-id="f069e-104">To edit the properties for a trusted application server that has already been defined, follow these instructions.</span></span>
+<span data-ttu-id="828b2-104">Para editar as propriedades de um servidor de aplicativos confiáveis que já foi definido, siga estas instruções.</span><span class="sxs-lookup"><span data-stu-id="828b2-104">To edit the properties for a trusted application server that has already been defined, follow these instructions.</span></span>
   
-<span data-ttu-id="f069e-105">Há duas seções que você pode modificar:</span><span class="sxs-lookup"><span data-stu-id="f069e-105">There are two sections that you can modify:</span></span>
+<span data-ttu-id="828b2-105">Há duas seções que você pode modificar:</span><span class="sxs-lookup"><span data-stu-id="828b2-105">There are two sections that you can modify:</span></span>
   
-> <span data-ttu-id="f069e-106">Configurações gerais</span><span class="sxs-lookup"><span data-stu-id="f069e-106">General settings</span></span>
+> <span data-ttu-id="828b2-106">Configurações gerais</span><span class="sxs-lookup"><span data-stu-id="828b2-106">General settings</span></span>
     
-> <span data-ttu-id="f069e-107">Configurações de próximo salto</span><span class="sxs-lookup"><span data-stu-id="f069e-107">Next hop settings</span></span>
+> <span data-ttu-id="828b2-107">Configurações de próximo salto</span><span class="sxs-lookup"><span data-stu-id="828b2-107">Next hop settings</span></span>
     
-## <a name="general-settings"></a><span data-ttu-id="f069e-108">Configurações gerais</span><span class="sxs-lookup"><span data-stu-id="f069e-108">General Settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="828b2-108">Configurações gerais</span><span class="sxs-lookup"><span data-stu-id="828b2-108">General Settings</span></span>
 
-<span data-ttu-id="f069e-109">Você pode modificar o nome de domínio totalmente qualificado (FQDN) atual para o pool de servidores de aplicativos confiáveis.</span><span class="sxs-lookup"><span data-stu-id="f069e-109">You can modify the current fully qualified domain name (FQDN) for the trusted application server pool.</span></span> <span data-ttu-id="f069e-110">Edite o nome do FQDN do pool.</span><span class="sxs-lookup"><span data-stu-id="f069e-110">Edit the name of the pool FQDN.</span></span> <span data-ttu-id="f069e-111">Os registros de host (A) do sistema de nome de domínio (DNS) devem existir para a nova entrada antes de clientes ou servidores podem se conectar para o novo nome do pool.</span><span class="sxs-lookup"><span data-stu-id="f069e-111">The Domain Name System (DNS) host (A) records must exist for the new entry before clients or servers can connect to the new pool name.</span></span>
+<span data-ttu-id="828b2-109">Você pode modificar o nome de domínio totalmente qualificado (FQDN) atual para o pool de servidores de aplicativos confiáveis.</span><span class="sxs-lookup"><span data-stu-id="828b2-109">You can modify the current fully qualified domain name (FQDN) for the trusted application server pool.</span></span> <span data-ttu-id="828b2-110">Edite o nome do FQDN do pool.</span><span class="sxs-lookup"><span data-stu-id="828b2-110">Edit the name of the pool FQDN.</span></span> <span data-ttu-id="828b2-111">Os registros de host (A) do sistema de nome de domínio (DNS) devem existir para a nova entrada antes de clientes ou servidores podem se conectar para o novo nome do pool.</span><span class="sxs-lookup"><span data-stu-id="828b2-111">The Domain Name System (DNS) host (A) records must exist for the new entry before clients or servers can connect to the new pool name.</span></span>
   
-<span data-ttu-id="f069e-112">Selecione **habilitar replicação de dados de configuração para este pool** se você precisa ter a replicação de dados de configuração para este pool.</span><span class="sxs-lookup"><span data-stu-id="f069e-112">Select **Enable replication of configuration data to this pool** if you need to have replication of configuration data to this pool.</span></span> <span data-ttu-id="f069e-113">Desmarque a marca de seleção se não desejar replicar os dados de configuração.</span><span class="sxs-lookup"><span data-stu-id="f069e-113">Clear the check mark if you do not want to replicate the configuration data.</span></span>
+<span data-ttu-id="828b2-112">Selecione **habilitar replicação de dados de configuração para este pool** se você precisa ter a replicação de dados de configuração para este pool.</span><span class="sxs-lookup"><span data-stu-id="828b2-112">Select **Enable replication of configuration data to this pool** if you need to have replication of configuration data to this pool.</span></span> <span data-ttu-id="828b2-113">Desmarque a marca de seleção se não desejar replicar os dados de configuração.</span><span class="sxs-lookup"><span data-stu-id="828b2-113">Clear the check mark if you do not want to replicate the configuration data.</span></span>
   
-## <a name="next-hop-settings"></a><span data-ttu-id="f069e-114">Configurações de próximo salto</span><span class="sxs-lookup"><span data-stu-id="f069e-114">Next Hop Settings</span></span>
+## <a name="next-hop-settings"></a><span data-ttu-id="828b2-114">Configurações de próximo salto</span><span class="sxs-lookup"><span data-stu-id="828b2-114">Next Hop Settings</span></span>
 
-<span data-ttu-id="f069e-115">Você pode especificar o servidor de próximo salto do pool de servidores de aplicativos confiáveis, selecionando o pool de Front End do Enterprise Edition ou Standard Edition servidor Front-End de definido na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="f069e-115">You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="f069e-116">Um diretor ou diretor pool não é uma seleção válida para um próximo salto do servidor aplicativos confiáveis e não aparecerão na lista.</span><span class="sxs-lookup"><span data-stu-id="f069e-116">A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.</span></span>
+<span data-ttu-id="828b2-115">Você pode especificar o servidor de próximo salto do pool de servidores de aplicativos confiáveis, selecionando o pool de Front End do Enterprise Edition ou Standard Edition servidor Front-End de definido na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="828b2-115">You can specify the trusted application server pool's next hop server by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="828b2-116">Um diretor ou diretor pool não é uma seleção válida para um próximo salto do servidor aplicativos confiáveis e não aparecerão na lista.</span><span class="sxs-lookup"><span data-stu-id="828b2-116">A Director or Director pool is not a valid selection for a trusted application server next hop and will not appear in the list.</span></span>
   
 ## 
 
-<span data-ttu-id="f069e-117">Clique em **Okey** para aceitar e salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="f069e-117">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="f069e-118">Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.</span><span class="sxs-lookup"><span data-stu-id="f069e-118">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="828b2-117">Clique em **Okey** para aceitar e salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="828b2-117">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="828b2-118">Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.</span><span class="sxs-lookup"><span data-stu-id="828b2-118">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
 
