@@ -3,7 +3,6 @@ title: Expansor de Configurações de Serviço de Mediação
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Para o servidor de mediação, você pode especificar o seguinte:'
-ms.openlocfilehash: e322b2ffd383c2bd0170852a6fec6c3122251700
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: b1d7f088165c1287599d19e103b3a418d5f4a5f8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/21/2018
+ms.locfileid: "19997084"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de Configurações de Serviço de Mediação
  
