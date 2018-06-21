@@ -3,7 +3,6 @@ title: Expansor das Configurações Gerais do Servidor de Arquivamento
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 'No construtor de topologia, você pode editar as propriedades de um servidor individual executando o arquivamento ou lado direito do mouse o servidor de arquivamento em execução na árvore de console e clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e, em seguida, clicando em Editar Propriedades e alterar qualquer uma das seguintes opções:'
-ms.openlocfilehash: 76225fe039fea402779e42dd5a33b68a3ab6a8ec
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 9ccad6b4808bc5ffe2066576eff9b2e298f9c236
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19978171"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Expansor das Configurações Gerais do Servidor de Arquivamento
  

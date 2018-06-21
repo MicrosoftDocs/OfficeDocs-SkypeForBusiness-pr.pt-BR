@@ -3,7 +3,6 @@ title: Diretor (ferramenta de planejamento)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 4/8/2016
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Um diretor é um servidor que executa o Skype Business Server 2015 software de comunicações que pode autenticar solicitações de usuário, mas não hospeda nenhuma conta de usuário.
-ms.openlocfilehash: b379388b05e4beda934b13517f36bc792b6f0748
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+description: Um diretor é um servidor que executa o Skype Business Server software de comunicações que pode autenticar solicitações de usuário, mas não hospeda nenhuma conta de usuário.
+ms.openlocfilehash: a1920d11ed354cab3409a9f2a1fd39280ce2d29d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975985"
 ---
 # <a name="director-planning-tool"></a>Diretor (ferramenta de planejamento)
  
-Um diretor é um servidor que executa o Skype Business Server 2015 software de comunicações que pode autenticar solicitações de usuário, mas não hospeda nenhuma conta de usuário. 
+Um diretor é um servidor que executa o Skype Business Server software de comunicações que pode autenticar solicitações de usuário, mas não hospeda nenhuma conta de usuário. 
   
 Essa função é opcional, que você escolheria implantar um diretor em dois cenários a seguir:
   

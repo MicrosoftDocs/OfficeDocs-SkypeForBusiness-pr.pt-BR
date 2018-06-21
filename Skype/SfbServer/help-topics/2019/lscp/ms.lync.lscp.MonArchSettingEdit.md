@@ -3,7 +3,6 @@ title: Configuração de arquivamento criar novo ou editar existente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Use as configurações de Arquivamento para controlar as opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global, e, como opção, uma ou mais configurações de site e de pool:'
-ms.openlocfilehash: 93bddc8bbba3280ae4e40c0031e65acc6965aa72
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19976869"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuração de Arquivamento: Criar Novo ou Editar Existente
  
@@ -29,7 +29,7 @@ Use as configurações de Arquivamento para controlar as opções de arquivament
 - **Configuração de pool (opcional)** Você pode especificar um ou mais pool as configurações de arquivamento, para controlar opções de arquivamento para um pool específico. Uma configuração de pool substitui a configuração global e a configuração de site, mas somente para os pools especificados nas configurações de pool de Arquivamento. É possível editar ou excluir as configurações de pool.
     
 > [!NOTE]
-> Configurações de arquivamento se aplicam a usuários hospedados no Skype para Business Server e, se você habilitar a opção de integração do Microsoft Exchange para usar o Exchange 2013 para armazenar dados de arquivamento no Microsoft Exchange, para usuários hospedados no Exchange 2013. No entanto, algumas opções são implementadas ligeiramente diferente para usuários hospedados no Exchange 2013, conforme descrito na próxima seção. 
+> Configurações de arquivamento se aplicam a usuários hospedados no Skype para Business Server e, se você habilitar a opção de integração do Microsoft Exchange para usar o Exchange para armazenar dados de arquivamento no Microsoft Exchange, para usuários hospedados no Exchange. No entanto, algumas opções são implementadas ligeiramente diferente para usuários hospedados no Exchange, conforme descrito na próxima seção. 
   
 Para definir as configurações de uma configuração de Arquivamento nova ou existente, especifique as seguintes opções:
 - **Nome** Cada configuração de arquivamento requer um nome. O nome é determinado pelo tipo de configuração que você está adicionando ou editando:
@@ -58,7 +58,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
     
     As mensagens instantâneas e conferências são recuperadas automaticamente após as falhas serem corrigidas.
     
-- **Integração com o Microsoft Exchange** Selecione essa opção se você tiver usuários hospedados no Exchange 2013. Com essa opção, o Exchange 2013 é usado para armazenar dados para os usuários, se suas caixas de correio tiverem sido colocadas em retenção In-loco. Se todos os usuários hospedados no Exchange 2013, você não precisará configurar bancos de dados do SQL Server separados para armazenamento de dados de arquivamento.
+- **Integração com o Microsoft Exchange** Selecione essa opção se você tiver usuários hospedados no Exchange. Com essa opção, o Exchange é usado para armazenar dados para os usuários, se suas caixas de correio tiverem sido colocadas em retenção In-loco. Se todos os usuários hospedados no Exchange, você não precisará configurar bancos de dados do SQL Server separados para armazenamento de dados de arquivamento.
     
 - **Habilitar a limpeza de dados de arquivamento** Selecione essa opção para habilitar a limpeza e especificar as opções de limpeza, que incluem o seguinte:
     
@@ -67,7 +67,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
   - Limpeza após os dados de arquivamento terem sido exportado (que contém os dados que foram carregados para o Exchange, se você habilitar a integração com o Microsoft Exchange).
     
     > [!NOTE]
-    > Se você habilitar a integração do Microsoft Exchange, limpeza para usuários hospedados no Exchange 2013 e com suas caixas de correio colocadas em retenção In-loco é controlado pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são excluídos do compartilhamento de arquivo somente após serem exportados (carregados no Exchange), se você selecionar a opção para limpar os dados após a exportação dos dados de arquivamento ou após o número máximo de dias especificado, se você especificar um número máximo de dias para retenção. 
+    > Se você habilitar a integração do Microsoft Exchange, limpeza para usuários hospedados no Exchange e com suas caixas de correio colocadas em retenção In-loco é controlado pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são excluídos do compartilhamento de arquivo somente após serem exportados (carregados no Exchange), se você selecionar a opção para limpar os dados após a exportação dos dados de arquivamento ou após o número máximo de dias especificado, se você especificar um número máximo de dias para retenção. 
   
 Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração do Exchange, consulte [Planejar para arquivamento no Skype para Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Deploy arquivamento para Skype para Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)e [Gerenciar o arquivamento no Skype para Business 2015 de servidor](../../../manage/archiving/archiving.md).
 

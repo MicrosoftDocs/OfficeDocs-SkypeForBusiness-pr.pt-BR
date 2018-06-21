@@ -3,7 +3,6 @@ title: Configuração de Arquivamento
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Você usa as configurações de arquivamento para controlar opções de arquivamento para sua Skype para implantação de servidor de negócios, incluindo habilitando e desabilitando as seguintes opções:'
-ms.openlocfilehash: c35991318159196fd131a20ef3f36719eefa9dd1
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3bac88f44fea669c0eb1219046067f1e348c413c
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973210"
 ---
 # <a name="archiving-configuration"></a>Configuração de Arquivamento
  
@@ -24,7 +24,7 @@ Você usa as configurações de arquivamento para controlar opções de arquivam
   
 - Bloqueio de mensagens instantâneas (IM) ou sessões de conferência se o arquivamento falhar
     
-- Integração com o armazenamento do Exchange 2013, para usuários hospedados no Exchange 2013
+- Integração com o armazenamento do Exchange, para usuários hospedados no Exchange
     
 - Limpeza de dados arquivados
     
@@ -37,7 +37,7 @@ As configurações de arquivamento incluem a configuração global e, como opç�
 - **Configuração de pool (opcional)** Você pode especificar um ou mais pool configuração de arquivamento, para controlar opções de arquivamento para um pool específico. Uma configuração de pool substitui a configuração global e a configuração de site, mas somente para os pools especificados nas configurações de pool de Arquivamento. É possível editar ou excluir as configurações de pool.
     
 > [!NOTE]
-> Configurações de arquivamento se aplicam a usuários hospedados no Skype para Business Server e, se você usar o Exchange para armazenar dados de arquivamento no Microsoft Exchange, para usuários hospedados no Exchange 2013, mas são implementadas de forma ligeiramente diferente para usuários hospedados no Exchange 2013. As diferenças são descritas na próxima seção. 
+> Configurações de arquivamento se aplicam a usuários hospedados no Skype para Business Server e, se você usar o Exchange para armazenar dados de arquivamento no Microsoft Exchange, para usuários hospedados no Exchange, mas são implementadas de forma ligeiramente diferente para usuários hospedados no serviço do Exchange. As diferenças são descritas na próxima seção. 
   
 A página **Configuração de Arquivamento** lista cada política de Arquivamento configurada para sua implantação. Também mostra o nome da política, o escopo (global, site ou pool), e quais opções de arquivamento estão habilitadas para cada configuração de Arquivamento. Na página  **Configuração de Arquivamento**, você tem as seguintes opções:
 - **Novo** Você pode adicionar um ou mais de cada uma das seguintes configurações de arquivamento opcionais.

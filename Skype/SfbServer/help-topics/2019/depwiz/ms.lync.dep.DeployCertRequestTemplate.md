@@ -3,7 +3,6 @@ title: Solicitação de Certificado (Especificar Modelo)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: A página especificar modelo de certificado alternativo permite que você defina um modelo de certificado diferente do modelo de certificado de WebServer é usado por padrão. Selecione a caixa de seleção Usar modelo de certificado alternativo para a autoridade de certificação selecionada e, em seguida, defina o nome do modelo de certificado alternativo no nome de modelo de certificado de caixa de texto. É necessário usar o nome do modelo definido na autoridade de certificação (AC). Clique em Voltar para voltar à página anterior. Clique em Cancelar para encerrar o processo de solicitação de certificado.
-ms.openlocfilehash: 856ad66b4bf2974e43e8684ca6016494df26019f
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 730992312f13557145ebe88aef757bd0fdf433d8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979929"
 ---
 # <a name="certificate-request-specify-termplate"></a>Solicitação de Certificado (Especificar Modelo)
  

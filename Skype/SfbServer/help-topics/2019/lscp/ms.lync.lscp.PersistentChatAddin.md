@@ -3,7 +3,6 @@ title: Suplemento de Chat Persistente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Você pode usar a seção Add-in da página Chat persistente para associar URLs salas de Chat persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
-ms.openlocfilehash: b9b10c7c4b055c694d58b6cfda9b1e2a84739483
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 9aebe2f1bb1f17a562130e06e3c3030f533659b8
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19964587"
 ---
 # <a name="persistent-chat-add-in"></a>Suplemento de Chat Persistente
  
 Você pode usar a seção **Add-in** da página **Chat persistente** para associar URLs salas de Chat persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
   
-Os suplementos são usados para estender a experiência na sala. Um suplemento típico pode incluir uma URL que aponta para um aplicativo Silverlight que intercepta quando um registrador de cotações é postado em uma sala de bate-papo e mostra o histórico de estoque no painel de extensibilidade. Outros exemplos incluem a URL do OneNote 2013 na sala de chat como um suplemento para incluir algum contexto compartilhado, como o "Mais lembrado" ou "Assunto do dia."
+Os suplementos são usados para estender a experiência na sala. Um suplemento típico pode incluir uma URL que aponta para um aplicativo Silverlight que intercepta quando um registrador de cotações é postado em uma sala de bate-papo e mostra o histórico de estoque no painel de extensibilidade. Outros exemplos incluem incorporando uma URL OneNote na sala de bate-papo como um suplemento para incluir alguns contexto compartilhado, como "Parte superior da mente" ou "Tópico do dia".
   
 Para criar suplementos para salas de Chat persistente, consulte [Configurar suplementos para salas de Chat persistente no Skype para Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md). Se você for um administrador de Chat persistente, você pode criar suplementos usando o painel de controle ou os cmdlets do Windows PowerShell.
   

@@ -1,9 +1,8 @@
 ---
 title: Dispositivo de teste criar novo ou editar existente
-ms.author: laurawi
-author: LauraWi
+ms.author: SerdarS
+author: SerdarSoysal
 manager: serdars
-ms.date: 3/23/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: O recurso Dispositivo de Teste funciona em conjunto com o recurso Atualização de Dispositivo. Você pode adicionar um dispositivo de teste para a página de dispositivo de teste e, em seguida, usar este dispositivo para verificar a funcionalidade das novas atualizações antes de implantar as atualizações de dispositivos de produção. É possível testar um dispositivo globalmente (em todo seu ambiente) ou dentro de um único site. Você identifica um dispositivo de teste por seu endereço MAC (Controle de acesso à mídia) ou número de série. Quando você adiciona um dispositivo, ela será exibida na lista na página Testar dispositivo do Skype para painel de controle do Business Server.
-ms.openlocfilehash: 0eb79ad604b228ce4531738b4f7f1423ab5b98e2
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 3f3c896f0ec6c373a4edfc3049a9838b815bb448
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974254"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>Dispositivo de Teste: Criar Novo ou Editar Existente
  
@@ -51,14 +51,10 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 Para obter detalhes sobre dispositivos de teste, consulte [Add a Device to Test Update Functionality](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) na documentação operações.
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Dispositivo de teste](ms.lync.lscp.ClientDeviceTestMain.md)
-#### 
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   
 [Set-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/set-cstestdevice?view=skype-ps)
   
 [Exibir atualizações de Software para dispositivos em sua organização](http://technet.microsoft.com/library/d2cca12b-ed43-4e1f-90ab-d14bca8b482c.aspx)
-

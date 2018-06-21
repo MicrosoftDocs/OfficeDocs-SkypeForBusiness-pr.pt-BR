@@ -3,7 +3,6 @@ title: Expansor de Configurações do Servidor
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/25/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do servidor (FQDN) e a configuração do endereço IP para este servidor. É possível executar as seguintes ações:'
-ms.openlocfilehash: ba6af8ec91f93ecb29bae490f964bd42b33ba67a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 7b2f6acf518181bba8b85ad2a0596602a3edf969
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966834"
 ---
 # <a name="server-settings-expander"></a>Expansor de Configurações do Servidor
  

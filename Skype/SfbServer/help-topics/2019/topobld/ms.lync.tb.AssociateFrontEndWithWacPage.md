@@ -3,7 +3,6 @@ title: Associar Front-End com Página do Servidor do Office Web Apps
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: O Servidor do Office Web Apps fornece serviços parecidos com o carregamento de um documento pelo apresentador para uso em uma reunião, mas possibilita outros recursos que não havia nas versões anteriores.
-ms.openlocfilehash: af9d5667f425309dc097afa62081cedfee02791c
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: ea7df7254dc17b3db0107df9d92ba69d8c51b128
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19970658"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Associar Front-End com Página do Servidor do Office Web Apps
  
@@ -34,7 +34,4 @@ As opções nessa caixa de diálogo são as seguintes:
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Publicação do Office Web Apps Server usando um servidor Proxy reverso](http://technet.microsoft.com/library/0babe39f-c4b9-46f0-995a-33dc99c2be03.aspx)
-

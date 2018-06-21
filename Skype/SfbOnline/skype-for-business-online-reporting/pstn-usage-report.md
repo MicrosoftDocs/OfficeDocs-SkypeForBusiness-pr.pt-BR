@@ -18,12 +18,12 @@ ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
 search.appverid: MET150
-ms.openlocfilehash: 62b6bff4952a590bfeef47a6d1fe23e1fe3d49d5
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933123"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973364"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso do PSTN
 
@@ -89,6 +89,7 @@ Esta é a aparência do relatório.
      *    **MCOPSTNPP** - créditos de comunicações <br/> **MCOPSTN1** - domésticas chamar planejar (min 3000 US / planos de 1200 min da UE) 
      *    **MCOPSTN2** - plano de chamadas internacionais 
      *    **MCOPSTN5** - domésticas chamar Plan (plano de chamada 120 min) 
+     *    **MCOPSTN6** - domésticas chamar Plan (plano de chamada min 240) Observação: disponibilidade limitada
      *    **MCOMEETADD** - serviços de audioconferência
      *    **MCOMEETACPEA** - pagamento por minuto serviços de audioconferência 
 ***

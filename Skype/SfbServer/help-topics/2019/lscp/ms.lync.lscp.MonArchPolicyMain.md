@@ -3,7 +3,6 @@ title: Política de Arquivamento
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Use as políticas de arquivamento para habilitar e desabilitar arquivamento para usuários hospedados no Skype para Business Server. Em cada política de Arquivamento, é possível habilitar ou desabilitar o arquivamento para uma das seguintes opções, ou para ambas:'
-ms.openlocfilehash: 6bdccd0f717314fb36a698ee8dd9d237a47d6bdd
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979964"
 ---
 # <a name="archiving-policy"></a>Política de Arquivamento
  
@@ -35,7 +35,7 @@ As políticas de arquivamento incluem a política global, e, como opção, uma o
 - **Política de usuário (opcional)** Você pode especificar um ou mais usuários as políticas de arquivamento, que cada um dos quais você pode configurar para habilitar e desabilitar o arquivamento de comunicações internas ou externas para um usuário específico ou grupo de usuários. Uma política de usuário substitui a política global e as políticas de site, mas somente para os usuários e grupos de usuário aos quais você atribui políticas de Arquivamento no nível do usuário. É possível editar ou excluir as políticas de usuário.
     
 > [!NOTE]
-> Políticas de arquivamento aplicam-se somente a usuários hospedados no Skype para Business Server. Se você usar a integração do Exchange para armazenar dados no Microsoft Exchange, em seguida, o Exchange 2013 políticas de arquivamento o controle de arquivamento para usuários hospedados no Exchange 2013. Para habilitar o arquivamento para os usuários, a caixa de correio do usuário deve ser colocada em retenção In-loco. 
+> Políticas de arquivamento aplicam-se somente a usuários hospedados no Skype para Business Server. Se você usa a integração do Exchange para armazenar dados de arquivamento no Microsoft Exchange, troca o arquivamento de controle de políticas para usuários hospedados no Exchange. Para habilitar o arquivamento para os usuários, a caixa de correio do usuário deve ser colocada em retenção In-loco. 
   
 A página  **Política de Arquivamento** lista cada política de Arquivamento configurada para sua implantação. Também mostra o nome da política, o escopo (global, site ou usuário), e quais opções de arquivamento estão habilitadas para cada política de Arquivamento. Na página  **Política de Arquivamento**, você tem as seguintes opções:
 - **Novo** Você pode adicionar um ou mais de cada uma das seguintes políticas de arquivamento opcionais:

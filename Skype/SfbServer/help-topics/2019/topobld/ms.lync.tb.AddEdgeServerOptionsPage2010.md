@@ -3,7 +3,6 @@ title: Adicionar opções de servidor de borda do Lync Server 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Você pode define um novo servidor de borda ou pool de borda e é apresentados a oportunidade de definir os recursos para o novo servidor ou pool. As opções que você pode escolher são:'
-ms.openlocfilehash: c031480dd3553aa4fc1ca2f2a8ddd03f67d9bc02
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: d9dae42d815855cea4c7f07b484e026c72ce22cf
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19974012"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Adicionar opções de servidor de borda do Lync Server 2010
  
@@ -33,9 +33,6 @@ Você pode define um novo servidor de borda ou pool de borda e é apresentados a
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Planejando o acesso de usuário externo](http://technet.microsoft.com/library/ea098933-eff5-461e-aba3-e7f128784dc2.aspx)
   
 [Implantando o acesso de usuário externo](http://technet.microsoft.com/library/d40c9574-c16b-4fe6-b848-21ae0b7e4f0e.aspx)
-

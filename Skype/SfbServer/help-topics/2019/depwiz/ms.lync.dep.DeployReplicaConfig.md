@@ -3,7 +3,6 @@ title: Instalar repositório de configuração Local invocar (configuração)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 description: Para iniciar a instalação do banco de dados que acomodará a cópia local de somente leitura do repositório de gerenciamento Central, selecione entre recuperar a configuração definida publicada usando o construtor de topologias da Central já instalado e configurado Repositório de gerenciamento ou ler a configuração definida de outra mídia. Para um computador que esteja na rede interna da sua organização, selecione recuperar configuração automaticamente do repositório de gerenciamento Central.
-ms.openlocfilehash: 74269ee40116b91097c77702942f42de9f7d882a
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 4a061ddec04e2b80412b8e60badb8600633093d9
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19979999"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar repositório de configuração Local invocar (configuração)
  

@@ -3,7 +3,6 @@ title: Expansor de configurações AV MCU
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Para editar as propriedades de um A / pool V Conferencing Server que você já tenha definido, faça o seguinte:'
-ms.openlocfilehash: df686ad876aaf70b26e9bd402521373ad47d1c37
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 2882617450373b3e6ec0c22af6f59a1c432a4042
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19975192"
 ---
 # <a name="av-mcu-settings-expander"></a>Expansor de configurações AV MCU
  
