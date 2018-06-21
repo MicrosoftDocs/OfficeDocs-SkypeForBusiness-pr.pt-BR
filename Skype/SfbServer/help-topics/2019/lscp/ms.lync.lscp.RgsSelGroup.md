@@ -3,7 +3,6 @@ title: Selecionar grupos
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,28 +11,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Filas de espera do grupo de resposta chamadas aos grupos de resposta em espera até que um operador responde à chamada. Filas atribuiu a grupos de operadores. Quando você cria ou editar uma fila, use a caixa de diálogo Selecionar grupos para selecionar um ou mais grupos de operadores a ser atribuído à fila.
-ms.openlocfilehash: 19c0f228922a3c0c83d7f932a8379b5e638da101
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 8b8ebcce726b92e40f20f077319dcec1272d35f2
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19973998"
 ---
-# <a name="select-groups"></a><span data-ttu-id="07fc0-105">Selecionar grupos</span><span class="sxs-lookup"><span data-stu-id="07fc0-105">Select Groups</span></span>
+# <a name="select-groups"></a><span data-ttu-id="fcaeb-105">Selecionar grupos</span><span class="sxs-lookup"><span data-stu-id="fcaeb-105">Select Groups</span></span>
  
-<span data-ttu-id="07fc0-106">Filas de espera do grupo de resposta chamadas aos grupos de resposta em espera até que um operador responde à chamada.</span><span class="sxs-lookup"><span data-stu-id="07fc0-106">Response Group queues hold calls to response groups until an agent answers the call.</span></span> <span data-ttu-id="07fc0-107">Filas atribuiu a grupos de operadores.</span><span class="sxs-lookup"><span data-stu-id="07fc0-107">Queues have assigned agent groups.</span></span> <span data-ttu-id="07fc0-108">Quando você cria ou editar uma fila, use a caixa de diálogo **Selecionar grupos** para selecionar um ou mais grupos de operadores a ser atribuído à fila.</span><span class="sxs-lookup"><span data-stu-id="07fc0-108">When you create or edit a queue, you use the **Select Groups** dialog box to select one or more agent groups to be assigned to the queue.</span></span>
+<span data-ttu-id="fcaeb-106">Filas de espera do grupo de resposta chamadas aos grupos de resposta em espera até que um operador responde à chamada.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-106">Response Group queues hold calls to response groups until an agent answers the call.</span></span> <span data-ttu-id="fcaeb-107">Filas atribuiu a grupos de operadores.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-107">Queues have assigned agent groups.</span></span> <span data-ttu-id="fcaeb-108">Quando você cria ou editar uma fila, use a caixa de diálogo **Selecionar grupos** para selecionar um ou mais grupos de operadores a ser atribuído à fila.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-108">When you create or edit a queue, you use the **Select Groups** dialog box to select one or more agent groups to be assigned to the queue.</span></span>
   
-## <a name="ui-reference"></a><span data-ttu-id="07fc0-109">Referência de UI</span><span class="sxs-lookup"><span data-stu-id="07fc0-109">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="fcaeb-109">Referência de UI</span><span class="sxs-lookup"><span data-stu-id="fcaeb-109">UI Reference</span></span>
 
-<span data-ttu-id="07fc0-110">A lista a seguir descreve os campos na caixa de diálogo **Selecionar grupos** e controles.</span><span class="sxs-lookup"><span data-stu-id="07fc0-110">The following list describes the controls and fields in the **Select Groups** dialog box.</span></span>
+<span data-ttu-id="fcaeb-110">A lista a seguir descreve os campos na caixa de diálogo **Selecionar grupos** e controles.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-110">The following list describes the controls and fields in the **Select Groups** dialog box.</span></span>
   
-- <span data-ttu-id="07fc0-111">Pesquisas de caixa de pesquisa para o nome de um grupo de operadores.</span><span class="sxs-lookup"><span data-stu-id="07fc0-111">Search box Searches for name of an agent group.</span></span> <span data-ttu-id="07fc0-112">Digite todo ou parte do nome.</span><span class="sxs-lookup"><span data-stu-id="07fc0-112">Enter all or part of the name.</span></span> <span data-ttu-id="07fc0-113">Deixe a caixa de pesquisa vazio para exibir todos os grupos de operadores para a sua organização.</span><span class="sxs-lookup"><span data-stu-id="07fc0-113">Leave the search box empty to display all the agent groups for your organization.</span></span> 
+- <span data-ttu-id="fcaeb-111">Pesquisas de caixa de pesquisa para o nome de um grupo de operadores.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-111">Search box Searches for name of an agent group.</span></span> <span data-ttu-id="fcaeb-112">Digite todo ou parte do nome.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-112">Enter all or part of the name.</span></span> <span data-ttu-id="fcaeb-113">Deixe a caixa de pesquisa vazio para exibir todos os grupos de operadores para a sua organização.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-113">Leave the search box empty to display all the agent groups for your organization.</span></span> 
     
-- <span data-ttu-id="07fc0-114">**Nome** Exibe os nomes dos grupos de agente retornados.</span><span class="sxs-lookup"><span data-stu-id="07fc0-114">**Name** Displays the names of the returned agent groups.</span></span>
+- <span data-ttu-id="fcaeb-114">**Nome** Exibe os nomes dos grupos de agente retornados.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-114">**Name** Displays the names of the returned agent groups.</span></span>
     
-- <span data-ttu-id="07fc0-115">**Política de participação** Exibe a política de participação definida para o grupo de agentes: formal ou informal.</span><span class="sxs-lookup"><span data-stu-id="07fc0-115">**Participation policy** Displays the participation policy defined for the agent group: formal or informal.</span></span>
+- <span data-ttu-id="fcaeb-115">**Política de participação** Exibe a política de participação definida para o grupo de agentes: formal ou informal.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-115">**Participation policy** Displays the participation policy defined for the agent group: formal or informal.</span></span>
     
-- <span data-ttu-id="07fc0-116">**Método de roteamento** Exibe o tipo de roteamento definido para o grupo de operadores.</span><span class="sxs-lookup"><span data-stu-id="07fc0-116">**Routing method** Displays the type of routing defined for the agent group.</span></span>
+- <span data-ttu-id="fcaeb-116">**Método de roteamento** Exibe o tipo de roteamento definido para o grupo de operadores.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-116">**Routing method** Displays the type of routing defined for the agent group.</span></span>
     
-<span data-ttu-id="07fc0-117">Para obter detalhes sobre como trabalhar com filas, consulte [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="07fc0-117">For details about working with queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="fcaeb-117">Para obter detalhes sobre como trabalhar com filas, consulte [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="fcaeb-117">For details about working with queues, see [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
   
 

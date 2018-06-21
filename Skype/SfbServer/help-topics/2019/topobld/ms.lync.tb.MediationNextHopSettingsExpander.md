@@ -3,7 +3,6 @@ title: Expansor de Configurações de Próximo Salto de Mediação
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/26/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,16 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 description: Especifique o pool do servidor de mediação ou próximo salto do servidor de mediação selecionando o pool definido de Front End do Enterprise Edition ou Standard Edition servidor Front-End da lista suspensa. Um diretor ou diretor pool não é uma seleção válida de um pool do servidor de mediação ou o próximo salto do servidor de mediação e não aparecerão na lista. Clique em Okey para aceitar e salvar suas alterações. Clique em Cancelar para descartar suas alterações e sair da página de propriedades.
-ms.openlocfilehash: ab18e79fcdebbb0bb4a5c4ba8db424276d8203f9
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 1edf712ad9bb21aba6b05c964b6e40d0c247c240
+ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "19966267"
 ---
-# <a name="mediation-next-hop-settings-expander"></a><span data-ttu-id="c7ec3-106">Expansor de Configurações de Próximo Salto de Mediação</span><span class="sxs-lookup"><span data-stu-id="c7ec3-106">Mediation Next Hop Settings Expander</span></span>
+# <a name="mediation-next-hop-settings-expander"></a><span data-ttu-id="9528d-106">Expansor de Configurações de Próximo Salto de Mediação</span><span class="sxs-lookup"><span data-stu-id="9528d-106">Mediation Next Hop Settings Expander</span></span>
  
-<span data-ttu-id="c7ec3-107">Especifique o pool do servidor de mediação ou próximo salto do servidor de mediação selecionando o pool definido de Front End do Enterprise Edition ou Standard Edition servidor Front-End da lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="c7ec3-107">You specify the Mediation Server pool or Mediation Server next hop by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="c7ec3-108">Um diretor ou diretor pool não é uma seleção válida de um pool do servidor de mediação ou o próximo salto do servidor de mediação e não aparecerão na lista.</span><span class="sxs-lookup"><span data-stu-id="c7ec3-108">A Director or Director pool is not a valid selection for a Mediation Server pool or Mediation Server next hop, and will not appear in the list.</span></span> <span data-ttu-id="c7ec3-109">Clique em **Okey** para aceitar e salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="c7ec3-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="c7ec3-110">Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.</span><span class="sxs-lookup"><span data-stu-id="c7ec3-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
+<span data-ttu-id="9528d-107">Especifique o pool do servidor de mediação ou próximo salto do servidor de mediação selecionando o pool definido de Front End do Enterprise Edition ou Standard Edition servidor Front-End da lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="9528d-107">You specify the Mediation Server pool or Mediation Server next hop by selecting the defined Enterprise Edition Front End pool or Standard Edition Front End Server from the drop-down list.</span></span> <span data-ttu-id="9528d-108">Um diretor ou diretor pool não é uma seleção válida de um pool do servidor de mediação ou o próximo salto do servidor de mediação e não aparecerão na lista.</span><span class="sxs-lookup"><span data-stu-id="9528d-108">A Director or Director pool is not a valid selection for a Mediation Server pool or Mediation Server next hop, and will not appear in the list.</span></span> <span data-ttu-id="9528d-109">Clique em **Okey** para aceitar e salvar suas alterações.</span><span class="sxs-lookup"><span data-stu-id="9528d-109">Click **OK** to accept and save your changes.</span></span> <span data-ttu-id="9528d-110">Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.</span><span class="sxs-lookup"><span data-stu-id="9528d-110">Click **Cancel** to discard your changes and exit the properties page.</span></span>
   
-<span data-ttu-id="c7ec3-111">Para obter detalhes sobre as configurações para o pool do servidor de mediação ou servidor de mediação, consulte [Deploy um servidor de mediação no construtor de topologia no Skype para Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="c7ec3-111">For details about the settings for the Mediation Server pool or Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.</span></span>
+<span data-ttu-id="9528d-111">Para obter detalhes sobre as configurações para o pool do servidor de mediação ou servidor de mediação, consulte [Deploy um servidor de mediação no construtor de topologia no Skype para Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="9528d-111">For details about the settings for the Mediation Server pool or Mediation Server, see [Deploy a Mediation Server in Topology Builder in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in the Deployment documentation.</span></span>
   
 
