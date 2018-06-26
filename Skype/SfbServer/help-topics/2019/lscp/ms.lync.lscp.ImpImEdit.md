@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 079ef16414e5ceb3dd21f51f691845fc3232b3e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4a5a0c430fa8cd9fc7e84ca35229c2b14c608ff3
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987589"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044099"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>Filtro de URL: Criar nova ou editar existente
  
@@ -26,5 +26,5 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
     
 - [Criar um novo filtro de URL para tratar hiperlinks em conversas de mensagens Instantâneas](http://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
 

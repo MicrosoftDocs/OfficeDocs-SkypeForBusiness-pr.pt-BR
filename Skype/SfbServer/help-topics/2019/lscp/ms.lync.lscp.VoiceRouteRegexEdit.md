@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: Digite uma expressão regular do .NET Framework para especificar o padrão de correspondência para números de telefone de destino ao qual a rota será aplicada.
-ms.openlocfilehash: 8b133c766acd69699bdb1af07b8244e9b5830675
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7c5451ac93de4bbc131dc33adec6d16de57a92a9
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976665"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044092"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>Regra de normalização: Digite uma expressão Regular
  
 Digite uma expressão regular do .NET Framework para especificar o padrão de correspondência para números de telefone de destino ao qual a rota será aplicada. 
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 

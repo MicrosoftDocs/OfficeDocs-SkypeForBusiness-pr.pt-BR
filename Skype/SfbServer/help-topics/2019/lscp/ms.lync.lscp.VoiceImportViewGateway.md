@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 description: Em gateway implantado, clique no gateway para onde você deseja importar o arquivo de configuração de voz que você selecionou.
-ms.openlocfilehash: 92d641928bba85ba7aafc9aacd94893dd88932c4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 64d73ed207aab86a4ba8ef7d8216f5241d0fc637
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997098"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046106"
 ---
 # <a name="view-gateways-import-configuration"></a>Exibir Gateways (Importar configuração)
  
 Em **gateway implantado**, clique no gateway para onde você deseja importar o arquivo de configuração de voz que você selecionou.
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 

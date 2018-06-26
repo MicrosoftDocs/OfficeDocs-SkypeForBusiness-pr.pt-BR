@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 description: As regras de normalização do rules usam expressões regulares do .NET Framework para converter números de telefone discados para o formato E.164. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
-ms.openlocfilehash: 87fa2c4264ea5d4fd0beb30c620db5b4f44e9193
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 86455a41a89338bce681d8844c648943327c7449
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974961"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044015"
 ---
 # <a name="select-normalization-rules"></a>Selecionar Regras de Normalização
  
@@ -24,6 +24,6 @@ As regras de normalização do rules usam expressões regulares do .NET Framewor
   
 Clique em uma regra na lista e clique em **OK** para utilizar uma regra de normalização existente.
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 

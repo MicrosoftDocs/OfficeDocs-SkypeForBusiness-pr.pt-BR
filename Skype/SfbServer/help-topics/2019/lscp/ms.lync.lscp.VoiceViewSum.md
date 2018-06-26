@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: Use a caixa de diálogo Definições de configuração de voz não confirmadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em Fechar. Depois que você fechar esta caixa de diálogo, você pode modificar suas alterações ou confirmá-las.
-ms.openlocfilehash: 923a2e2084b91acab1780132eb0ca4047ba82aff
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 54f86d653e8dd748bec868c4c1fc79b70727ef15
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969838"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043819"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Definições de configuração de voz não confirmadas: revisar
  
 Use a caixa de diálogo **Definições de configuração de voz não confirmadas** para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em **Fechar**. Depois que você fechar esta caixa de diálogo, você pode modificar suas alterações ou confirmá-las.
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 

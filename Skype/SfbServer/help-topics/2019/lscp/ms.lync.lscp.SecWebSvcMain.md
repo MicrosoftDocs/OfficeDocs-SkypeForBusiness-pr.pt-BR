@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 346159cb29896130252ec8194a172846a7ff8aa7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fe7b5d8421a58b9bb674a2ac1a9a267db7a4b9ca
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979943"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043840"
 ---
 # <a name="web-service-security-settings"></a>Configurações de segurança do serviço Web
  
@@ -28,5 +28,5 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
     
 - [Excluir um serviço Web](http://technet.microsoft.com/library/c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: b5bb05ef0f5015ec7bd072b565b8d2829d92381b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a6532ccbb2f02faace58575198c79039fef3c38d
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987785"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043896"
 ---
 # <a name="topology-view-simple-url-detail"></a>Topologia: Exibir detalhes de URL simples
  
@@ -28,5 +28,5 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
     
 - [Gerenciando URL simples](http://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
 
