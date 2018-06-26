@@ -11,24 +11,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: def3644bf7e7f136ae21ebd10b5caef61b12ae74
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 7b57c7665f223270c770fd9547f26d8e334daab0
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990657"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20043945"
 ---
-# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="911e1-104">Testar roteamento de voz: casos de teste</span><span class="sxs-lookup"><span data-stu-id="911e1-104">Test Voice Routing: Test Cases</span></span>
+# <a name="test-voice-routing-test-cases"></a><span data-ttu-id="1c53d-104">Testar roteamento de voz: casos de teste</span><span class="sxs-lookup"><span data-stu-id="1c53d-104">Test Voice Routing: Test Cases</span></span>
  
-<span data-ttu-id="911e1-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="911e1-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="1c53d-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="1c53d-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="911e1-107">Criar um caso de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="911e1-107">Create a Voice Routing Test Case</span></span>](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [<span data-ttu-id="1c53d-107">Criar um caso de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="1c53d-107">Create a Voice Routing Test Case</span></span>](http://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
     
-- [<span data-ttu-id="911e1-108">Exportar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="911e1-108">Export Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+- [<span data-ttu-id="1c53d-108">Exportar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="1c53d-108">Export Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
     
-- [<span data-ttu-id="911e1-109">Importar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="911e1-109">Import Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+- [<span data-ttu-id="1c53d-109">Importar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="1c53d-109">Import Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
     
-- [<span data-ttu-id="911e1-110">Executar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="911e1-110">Run Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [<span data-ttu-id="1c53d-110">Executar casos de teste de roteamento de voz</span><span class="sxs-lookup"><span data-stu-id="1c53d-110">Run Voice Routing Test Cases</span></span>](http://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
     
-<span data-ttu-id="911e1-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="911e1-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 

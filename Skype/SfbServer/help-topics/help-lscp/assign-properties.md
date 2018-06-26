@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: Use a caixa de diálogo atribuir propriedades para especificar uma ID de site de rede e descrição para várias sub-redes de uma só vez. Em Descrição, digite a descrição que você deseja usar para as sub-redes que você selecionou. Na identificação do site de rede, selecione a identificação de site de rede que você deseja atribuir para as sub-redes que você selecionou. Para atribuir essas propriedades para as sub-redes que você selecionou, clique em Okey.
-ms.openlocfilehash: c22e1b44408c11cee77c2f78b259f2ba69404b4a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 17ea661fbc02bb554c47e7a6b47916c234e6c0f7
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20044078"
 ---
-# <a name="assign-properties"></a><span data-ttu-id="d0659-106">Atribuir propriedades</span><span class="sxs-lookup"><span data-stu-id="d0659-106">Assign Properties</span></span>
+# <a name="assign-properties"></a><span data-ttu-id="a22dc-106">Atribuir propriedades</span><span class="sxs-lookup"><span data-stu-id="a22dc-106">Assign Properties</span></span>
  
-<span data-ttu-id="d0659-107">Use a caixa de diálogo **Atribuir propriedades** para especificar uma ID de site de rede e descrição para várias sub-redes de uma só vez.</span><span class="sxs-lookup"><span data-stu-id="d0659-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="d0659-108">Em **Descrição**, digite a descrição que você deseja usar para as sub-redes que você selecionou.</span><span class="sxs-lookup"><span data-stu-id="d0659-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="d0659-109">**ID do site de rede**, selecione a identificação de site de rede que você deseja atribuir para as sub-redes que você selecionou.</span><span class="sxs-lookup"><span data-stu-id="d0659-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="d0659-110">Para atribuir essas propriedades para as sub-redes que você selecionou, clique em **Okey**.</span><span class="sxs-lookup"><span data-stu-id="d0659-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
+<span data-ttu-id="a22dc-107">Use a caixa de diálogo **Atribuir propriedades** para especificar uma ID de site de rede e descrição para várias sub-redes de uma só vez.</span><span class="sxs-lookup"><span data-stu-id="a22dc-107">Use the **Assign Properties** dialog box to specify a description and network site ID to multiple subnets at one time.</span></span> <span data-ttu-id="a22dc-108">Em **Descrição**, digite a descrição que você deseja usar para as sub-redes que você selecionou.</span><span class="sxs-lookup"><span data-stu-id="a22dc-108">In **Description**, type the description you want to use for the subnets you selected.</span></span> <span data-ttu-id="a22dc-109">**ID do site de rede**, selecione a identificação de site de rede que você deseja atribuir para as sub-redes que você selecionou.</span><span class="sxs-lookup"><span data-stu-id="a22dc-109">In **Network site ID**, select the network site ID that you want to assign to the subnets you selected.</span></span> <span data-ttu-id="a22dc-110">Para atribuir essas propriedades para as sub-redes que você selecionou, clique em **Okey**.</span><span class="sxs-lookup"><span data-stu-id="a22dc-110">To assign these properties to the subnets you selected, click **OK**.</span></span>
   
-<span data-ttu-id="d0659-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d0659-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-  
+
 

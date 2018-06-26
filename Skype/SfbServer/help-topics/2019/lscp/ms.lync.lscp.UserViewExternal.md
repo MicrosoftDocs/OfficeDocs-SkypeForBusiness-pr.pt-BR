@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: abed16379dd830a05e484d7b1d25c34a84122744
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cea125c31850e9d4f8a18b7eae30b2541dd383df
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19965981"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20046365"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="8ed72-104">Usuários: Exibir ou configurar política de acesso externo</span><span class="sxs-lookup"><span data-stu-id="8ed72-104">Users: View or Configure External Access Policy</span></span>
+# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="815e5-104">Usuários: Exibir ou configurar política de acesso externo</span><span class="sxs-lookup"><span data-stu-id="815e5-104">Users: View or Configure External Access Policy</span></span>
  
-<span data-ttu-id="8ed72-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="8ed72-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="815e5-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="815e5-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="8ed72-107">Configurar a federação, acesso de usuário remoto e conectividade de IM pública para usuários</span><span class="sxs-lookup"><span data-stu-id="8ed72-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="815e5-107">Configurar a federação, acesso de usuário remoto e conectividade de IM pública para usuários</span><span class="sxs-lookup"><span data-stu-id="815e5-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     
-<span data-ttu-id="8ed72-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="8ed72-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 

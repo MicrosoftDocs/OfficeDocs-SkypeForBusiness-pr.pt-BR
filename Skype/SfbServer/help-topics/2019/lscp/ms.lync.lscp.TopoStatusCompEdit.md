@@ -11,24 +11,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 30de033d0fd0e7f4d4dcdd29c5c191a7dba1a41f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: da19f7a53597aca4691ae7aabc3704ab79d4766b
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989997"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20045397"
 ---
-# <a name="topology-view-computer-detail"></a><span data-ttu-id="1d2ac-104">Topologia: Exibir detalhes do computador</span><span class="sxs-lookup"><span data-stu-id="1d2ac-104">Topology: View Computer Detail</span></span>
+# <a name="topology-view-computer-detail"></a><span data-ttu-id="2bc85-104">Topologia: Exibir detalhes do computador</span><span class="sxs-lookup"><span data-stu-id="2bc85-104">Topology: View Computer Detail</span></span>
  
-<span data-ttu-id="1d2ac-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="1d2ac-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2bc85-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="2bc85-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="1d2ac-107">Exibir uma lista de computadores que executam o Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="1d2ac-107">View a List of Computers Running Lync Server 2010</span></span>](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
+- [<span data-ttu-id="2bc85-107">Exibir uma lista de computadores que executam o Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="2bc85-107">View a List of Computers Running Lync Server 2010</span></span>](http://technet.microsoft.com/library/44eeec27-8b99-44f0-b0bd-622c12393d34.aspx)
     
-- [<span data-ttu-id="1d2ac-108">Exibir detalhes sobre um serviço</span><span class="sxs-lookup"><span data-stu-id="1d2ac-108">View Details About a Service</span></span>](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
+- [<span data-ttu-id="2bc85-108">Exibir detalhes sobre um serviço</span><span class="sxs-lookup"><span data-stu-id="2bc85-108">View Details About a Service</span></span>](http://technet.microsoft.com/library/bc8e8202-cd68-47e4-95b2-bb36e51cc124.aspx)
     
-- [<span data-ttu-id="1d2ac-109">Iniciar ou parar serviços do Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="1d2ac-109">Start or Stop Lync Server 2010 Services</span></span>](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
+- [<span data-ttu-id="2bc85-109">Iniciar ou parar serviços do Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="2bc85-109">Start or Stop Lync Server 2010 Services</span></span>](http://technet.microsoft.com/library/1c70b4ec-9de5-4f7a-a3c9-c0eb76710505.aspx)
     
-- [<span data-ttu-id="1d2ac-110">Evitar novas conexões aos serviços</span><span class="sxs-lookup"><span data-stu-id="1d2ac-110">Prevent New Connections to Services</span></span>](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
+- [<span data-ttu-id="2bc85-110">Evitar novas conexões aos serviços</span><span class="sxs-lookup"><span data-stu-id="2bc85-110">Prevent New Connections to Services</span></span>](http://technet.microsoft.com/library/977dcc5c-2aac-48ef-86a1-a8d47b4d9e74.aspx)
     
-<span data-ttu-id="1d2ac-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="1d2ac-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../../manage/manage.md).</span></span>
+ 
 
