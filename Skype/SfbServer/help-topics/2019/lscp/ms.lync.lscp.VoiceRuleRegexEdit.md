@@ -11,17 +11,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 description: Em corresponder este campo padrão, especifique o padrão que será usado para corresponder os números a serem convertidos. No campo regra de conversão, especifique um padrão para o formato dos números convertidos. Por exemplo, se você inserir ^\+(\d{9}\d+)$ em corresponder este padrão de campo e 011$ 1 no campo regra de conversão, a regra converterá + 441235551010 em 011441235551010.
-ms.openlocfilehash: ad8e723d4539a44917b1fed009601183535284b8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f7218ae5b10b0e0b9ad4358eed37f181141f3469
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991035"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049181"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Regra de conversão: Digite uma expressão Regular
  
 No campo **corresponder este padrão** , especifique o padrão que será usado para corresponder os números a serem convertidos. No campo **regra de conversão** , especifique um padrão para o formato dos números convertidos. Por exemplo, se você inserir ^\+(\d{9}\d+)$ no campo **corresponder este padrão** e 011$ 1 no campo **regra de conversão** , a regra converterá + 441235551010 em 011441235551010.
   
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 

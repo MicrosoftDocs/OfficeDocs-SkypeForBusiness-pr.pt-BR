@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Criando e gerenciando salas de Chat persistente são muito mais fácil com o uso correto das categorias. Um administrador de Chat persistente pode definir uma lista de membros para cada categoria e também pode definir as configurações de sala de chat padrão e os comportamentos que serão aplicados a todas as salas de chat criadas na categoria. Os administradores de bate-papo persistentes criar e gerenciar categorias usando Skype para painel de controle do Business Server ou o Windows PowerShell cmdlets.
-ms.openlocfilehash: 91ad59a0bfc42fb354bee4de59e018accfe1b594
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: a6fe9ea02d8056d5b26c898e060e37d2e87ff7d4
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049146"
 ---
 # <a name="select-creators"></a>Selecionar Criadores
  
@@ -30,7 +31,7 @@ Criando e gerenciando salas de Chat persistente são muito mais fácil com o uso
     
 - [Novos recursos de servidor de bate-papo persistente](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
     
-Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../../manage/manage.md).
+ 
   
 ## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de bate-papo
 
@@ -42,8 +43,6 @@ Para obter detalhes sobre os recursos de servidor de Chat persistente e capacida
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Noções básicas sobre a associação do bate-papo persistente](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
   
 [Usando categorias para administrar o servidor de bate-papo persistente](http://technet.microsoft.com/library/dfcb3ad1-da90-467e-b08c-f4e68673b7b5.aspx)
@@ -51,4 +50,3 @@ Para obter detalhes sobre os recursos de servidor de Chat persistente e capacida
 [Movendo uma sala de bate-papo de uma categoria para outro](http://technet.microsoft.com/library/7e93b8f6-5a18-4476-a432-3918e01bcfa6.aspx)
   
 [Criando ou editando uma nova sala](http://technet.microsoft.com/library/aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4.aspx)
-

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: Skype para conferência discada do Business Server permite que os usuários participem do áudio de uma Skype para conferência Business Server usando um telefone do telefônica pública comutada (PSTN) de rede sem exigir um provedor de serviços de audioconferência de terceiros.
-ms.openlocfilehash: 7b4c30d9d94e7d587aa2a6be9b20b8d1216d552d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0b9534e68d3cfaf5638f076b7d53cedf1ec51a19
+ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987820"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "20049202"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>(Ferramenta de planejamento) de conferência discada
  
@@ -25,6 +25,6 @@ Skype para conferência discada do Business Server permite que os usuários part
   
 Para detalhes de planejamento sobre como ativar a conferência discada na sua organização, consulte o seguinte tópico e os tópicos aos quais ele está vinculado: 
   
-- [Planejamento de conferência no Skype para Business Server 2015](../../../plan-your-deployment/conferencing/conferencing.md)
+- [Planejamento de conferência no Skype para Business Server](../../../plan-your-deployment/conferencing/conferencing.md)
     
 
