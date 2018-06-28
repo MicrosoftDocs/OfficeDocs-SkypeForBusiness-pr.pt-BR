@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 6da5c0d1d82eb33598f21b3612af012d97a7970e
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: a614c27c50266b04419eca7d8dbf1e0cab2b7c87
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045418"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088487"
 ---
 # <a name="users-new-contact-objects"></a>Usuários: Novos objetos de contato
  
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
   
-- [Habilitar ou desabilitar usuários para o Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [Habilitar ou desabilitar usuários](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
 - [Atribuir uma política de conferência para modificar a experiência de reunião padrão do usuário](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     

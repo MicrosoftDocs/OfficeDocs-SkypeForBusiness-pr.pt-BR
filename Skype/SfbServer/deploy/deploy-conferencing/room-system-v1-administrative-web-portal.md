@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: O Skype para sistemas de sala Business Server 2015 Skype v1 (SRS v1, anteriormente conhecido como o sistema de sala do Lync) administrativas Portal da Web é um portal da web que as organizações podem usar para manter suas salas de conferência de sistemas de sala Skype. Os administradores podem usar o Portal da Web SRS v1 administrativas para monitorar a integridade do dispositivo, por exemplo por meio do monitoramento de dispositivos de áudio/vídeo. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a integridade da sala de conferência.
-ms.openlocfilehash: d87241cc983fabf76a952bce4941063169f787c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088529"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Implantar o Portal da Web Administrativo do SRS v1 no Skype for Business Server 2015
  
@@ -29,9 +30,9 @@ Após o v1 SRS que administrativas Portal da Web é implantado no servidor, os a
   
 Neste tópico:
   
-- [Configurar seu ambiente para o Portal da Web SRS v1 administrativas](room-system-v1-administrative-web-portal.md#Config_Env)
+- [Configurar seu ambiente para o Portal da Web Administrativo do SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)
     
-- [Instalar o Portal do SRS v1 Web administrativo](room-system-v1-administrative-web-portal.md#Install_SRS)
+- [Instalar o Portal da Web Administrativo do SRS v1](room-system-v1-administrative-web-portal.md#Install_SRS)
     
 - [Usar o Portal da Web Administrativo do SRS](room-system-v1-administrative-web-portal.md#Use_Portal)
     
@@ -65,7 +66,7 @@ Para usar o Portal da Web Administrativo do SRS v1, será necessário instalar o
     
     Crie o grupo com Escopo do Grupo como Global e Tipo de Grupo como Segurança. Os usuários habilitados para SIP adicionados a este grupo estão autorizados a usar todas as funcionalidades de portal de administração incluindo gerenciamento de massa do Skype para salas de negócios. 
     
-6. Adicione SRSFullAccessAdminGroup como membro de LRSSupportAdminGroup.
+6. Adicione LRSFullAccessAdminGroup como membro do LRSSupportAdminGroup.
     
      ![Página Membros de Propriedades LRSSupportAdminGroup](../../media/LRS_Add_LRSSupportAdminGroup.png)
   
@@ -106,7 +107,7 @@ Para instalar o Portal da Web Administrativo do SRS v1, use as etapas a seguir.
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
-6. Se a porta usada for diferente de 5061, adicione a seguinte linha no arquivo Web. config: 
+6. Se a porta usada for diferente de 5061, adicione a seguinte linha no arquivo Web.Config:  
     
    ```
    <add key="PortalUserRegistrarPort" value="5061" />

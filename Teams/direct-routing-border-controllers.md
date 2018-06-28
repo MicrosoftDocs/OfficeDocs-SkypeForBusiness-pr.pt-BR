@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seu SBC para trabalham com o roteamento direto.
-ms.openlocfilehash: 92ecd76a50668b0a2e03a0580daa2193d93c197e
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 0de9b13cb6a1b4df24c83959b1f01843b912ccf6
+ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084406"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20088465"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de certificados para o roteamento direto de controladores de borda de sessão
 
@@ -38,18 +38,18 @@ A tabela abaixo lista os dispositivos de certificados para o roteamento direto.
 
 |Fornecedor  |Produto  |Bypass de mídia não  |Bypass de mídia  |Versão do software|
 |---------|---------|---------|---------|---------|
-|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |         |    Pendente      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |         |     Pendente    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |         |    Pendente     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |         |    Pendente     |    7.20A.200.055      |
-|     |    Mediant 1000B SBC      |         |  Pendente       |    7.20A.200.055      |
-|     |   Virtual Edition SBC       |     |Pendente         |     7.20A.200.055     |
-|[Faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110         |         |   Pendente      |     6.2     |
-|     |SBC 5110         |         |    Pendente     |    6.2      |
-|     | SBC 5400         |         |    Pendente     |   6.2       |
-|     |SBC 7000         |         |    Pendente     |    6.2      |
-|     | SBC SWe         |         |    Pendente     |    6.2      |
-|     |SBC 1000         |         |     Pendente    |    V7.0.2      |
-|     | SBC 2000         |         |    Pendente     |    V7.0.2      |
+|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    & #10004;     |    Pendente      |     7.20A.200.055     |
+|  |   Mediant 800 SBC       |    & #10004;      |     Pendente    |      7.20A.200.055    |
+|     |      Mediant 2600 SBC    |     & #10004;     |    Pendente     |    7.20A.200.055      |
+|     |   Mediant 4000 SBC       |     & #10004;     |    Pendente     |    7.20A.200.055      |
+|     |    Mediant 1000B SBC   |    & #10004;      |  Pendente       |    7.20A.200.055   |
+|     |   Virtual Edition SBC    |   & #10004;   |Pendente         |     7.20A.200.055     |
+|[Faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   Pendente      |     6.2     |
+|     |SBC 5210     |     & #10004;     |    Pendente     |    6.2      |
+|     | SBC 5400     |    & #10004;      |    Pendente     |   6.2    |
+|     |SBC 7000     |     & #10004;     |    Pendente     |    6.2      |
+|     | SBC SWe  |   & #10004;       |    Pendente     |    6.2      |
+|     |SBC 1000   |     & #10004;     |     Pendente    |    V7.0.2   |& #10004; 
+|     | SBC 2000    |     & #10004;     |    Pendente     |    V7.0.2      |
 |[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Pense SBC 365      |  Pendente       |    Pendente     |   V 1.4       |
 |     |         |         |         |         |
