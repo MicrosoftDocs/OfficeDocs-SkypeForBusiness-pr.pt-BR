@@ -1,5 +1,5 @@
 
-# [Skype para administração de negócios Online](../skype-for-business-online.md)
+# [Administrador do Skype for Business Online](../skype-for-business-online.md)
 
 ## [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
@@ -11,7 +11,7 @@
 ### [Alterar as configurações de uma ponte de audioconferência](../audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge.md)
 ### [Alterar os números de telefone de sua ponte de audioconferência](../audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 ### [Discando a partir de uma reunião para que outras pessoas possam ingressar](../audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it.md)
-### [Desabilitando números para ligações gratuitas para usuários específicos](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
+### [Desativar números gratuitos para usuários específicos](../audio-conferencing-in-office-365/disabling-toll-free-numbers-for-specific-users.md)
 ### [Emails enviados para os usuários quando suas configurações são alteradas](../audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change.md) 
 ### [Habilitar ou desabilitar o envio de emails quando as configurações são alteradas](../audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change.md)
 ### [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](../audio-conferencing-in-office-365/enable-users-to-record-their-name-when-they-join-a-meeting.md)
@@ -39,7 +39,6 @@
 ### [Adicionar ou remover um endereço de emergência para sua organização](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
 ### [Atribuir, alterar ou remover o número de telefone de um usuário](../what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Atribuir ou alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user.md)
-### [Bloquear chamadas de entrada](../what-are-calling-plans-in-office-365/block-incoming-calls.md)
 ### [Problemas conhecidos nos Planos de Chamadas](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Alterar o local de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
@@ -60,7 +59,7 @@
 #### [Gerenciamento de números de telefone para os EUA](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 ### [Como a ID de chamadas pode ser usada em sua organização](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md)
 ### [Quantos números de telefone você pode obter?](../what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get.md)
-###[Mais informações sobre como chamar o ID de linha e chamar o nome do participante](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
+###[Mais informações sobre a Identificação de linha da chamada e o nome do chamador](../what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name.md)
 ### [Pesquisar números de telefone para usuários](../what-are-calling-plans-in-office-365/search-for-phone-numbers-for-users.md)
 ### [Ver uma lista de números de telefone em sua organização](../what-are-calling-plans-in-office-365/see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Definir a identificação de chamadas para um usuário](../what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user.md)
@@ -72,11 +71,11 @@
 ### [O que são locais e endereços de emergência e encaminhamento de chamadas?](../what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing.md)
 ### [O que são planos de discagem?](../what-are-calling-plans-in-office-365/what-are-dial-plans.md)
 
-## [Sistema telefônico no Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
+## [Sistema de Telefonia no Office 365](../what-is-phone-system-in-office-365/what-is-phone-system-in-office-365.md)
 ### [Criar uma fila de chamadas do Sistema de Telefonia](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtendo telefones para o Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implantando telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
-#### [A definição de backup telefones de área comum (COBRIR)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
+#### [Configuração de Telefones de Área Comum (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
 ### [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 ### [Veja o você recebe com o Sistema de Telefonia](../what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system.md)
 ### Caixa postal do Sistema de Telefonia
@@ -84,7 +83,7 @@
 #### [Idiomas para saudações e mensagens da caixa postal do Skype for Business](../what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages.md)
 #### [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md)
 ### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
-### [Configurando o sistema telefônico na sua organização](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
+### [Configuração do Sistema de Telefonia na sua organização](../what-is-phone-system-in-office-365/setting-up-your-phone-system.md)
 ### [O que são atendedores automáticos do Sistema de Telefonia?](../what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)
 #### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 
@@ -95,7 +94,7 @@
 
 ## [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### Opções de licença com base no seu plano
-#### [O Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+#### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Premium do Office 365, o Office 365 ProPlus, ou Skype para negócios Online plano 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 #### [O office 365 Enterprise E1, E3 e E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 #### [O Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
@@ -150,7 +149,7 @@
 ### [Configurar a Análise de Chamada do Skype for Business](../using-call-quality-in-your-organization/set-up-call-analytics.md)
 ### [Ativando e usando o Painel de Qualidade de Chamadas](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md)
 ### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](../using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
+### [Classificação de fluxo no painel de controle de qualidade de chamada](../using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard.md)
 
 ## [Relatórios do Skype for Business Online](../skype-for-business-online-reporting/skype-for-business-online-reporting.md)
 ### [Relatório de atividades](../skype-for-business-online-reporting/activity-report.md)
@@ -171,14 +170,14 @@
 ### [Gerenciar contas de usuário](../set-up-your-computer-for-windows-powershell/manage-user-accounts.md)
 ### [Gerenciar organizações usando o Conector do Skype for Business Online](../set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations.md)
 
-## Legais e normativos
+## Jurídico e regulatório
 ### [Declaração de conformidade relativa à acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
 ### [Soluções de acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-solutions-in-france.md)
-### [Retransmissão de IP no Canadá - Inscreva-se](../legal-and-regulatory/ip-relay-canada-email-signup.md)
-### [Retransmissão de IP no Canadá - guia do usuário](../legal-and-regulatory/ip-relay-canada-user-guide.md)
+### [IP Relay no Canadá - Criar conta](../legal-and-regulatory/ip-relay-canada-email-signup.md)
+### [IP Relay no Canadá - Manual de instruções](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Período de discagem gratuita](../legal-and-regulatory/complimentary-dial-out-period.md)
 ### [Código de conduta para o Reino Unido (UK)](../legal-and-regulatory/code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Código para lidar com reclamações para o Reino Unido (UK)](../legal-and-regulatory/complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Práticas de coleta de dados](../legal-and-regulatory/data-collection-practices.md)
-### [Rótulos de chamada de emergência](../legal-and-regulatory/emergency-calling-labels.md)
-### [Fim do programa de vida para a integração do Skype for Business com os serviços de audioconferência de terceiros](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
+### [Rótulos da chamada de emergência](../legal-and-regulatory/emergency-calling-labels.md)
+### [Programa de fim de vida útil para a integração do Skype for Business com a audioconferência de terceiros](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

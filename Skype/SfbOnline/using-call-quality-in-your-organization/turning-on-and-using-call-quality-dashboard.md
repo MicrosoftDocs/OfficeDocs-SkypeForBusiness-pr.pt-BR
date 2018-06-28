@@ -1,5 +1,5 @@
 ---
-title: Ativando e usando o painel de controle de qualidade de chamada
+title: Ativando e usando o Painel de Qualidade de Chamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte como ativar e usar o Skype para Business Online chamada qualidade Dashboard e obter relatórios de resumo de qualidade de chamadas. '
-ms.openlocfilehash: 856cf70085bbd0c7ca5cd5e253aec991bb970d62
-ms.sourcegitcommit: dfcdb18d0eb3205ef9180f048674f586aac92de0
+ms.openlocfilehash: 6651525ced62b89b690a8100ec69a36b5fd5695c
+ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570312"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "20091604"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online
 
@@ -42,7 +42,9 @@ As alterações mais recentes para CQD são:
 - Inclui os dados do Microsoft Teams além do Skype para dados corporativos on-line.
     
 - Relatórios de resumo incluem um filtro de produto para selecionar todos os dados, os dados de Teams da Microsoft ou Skype para dados corporativos on-line.
-    
+
+- Lógica de classificação de qualidade stream de vídeo e VBSS foi atualizada. Consulte a [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md) para as definições de classificador mais recentes.
+
 Consulte este artigo para obter uma lista de [dimensões e medidas disponíveis no painel de controle de qualidade de chamada](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 > [!NOTE]
@@ -117,7 +119,7 @@ Use os dados nesta guia para avaliar o status de qualidade de chamada e as tend�
   
 ![Chave CQD dados](../images/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Fluxos são classificados em três grupos: BOM, ruim e não classificados. Há também são calculadas *% ruim* valores que fornecem a você a proporção entre fluxos classificada como *ruim* à contagem total stream classificados. Desde que *% ruim = ruins fluxos / (baixa fluxos + fluxos boa) * 100* , isso torna o *ruim %* não afetado pela presença com vários fluxos de *Unclassified* . Para o que é usado para classificar um stream como ruim ou BOM, consulte [Limites de qualidade de chamada](https://aka.ms/cqd_quality_thresholds).
+Fluxos são classificados em três grupos: BOM, ruim e não classificados. Há também são calculadas *% ruim* valores que fornecem a você a proporção entre fluxos classificada como *ruim* à contagem total stream classificados. Desde que *% ruim = ruins fluxos / (baixa fluxos + fluxos boa) * 100* , isso torna o *ruim %* não afetado pela presença com vários fluxos de *Unclassified* . Para o que é usado para classificar um stream como ruim ou BOM, consulte a [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).
   
 Use a escala à esquerda para medir os valores de contagem de stream.
   
