@@ -1,0 +1,55 @@
+---
+title: Lista de certificados para o roteamento direto de controladores de borda de sessão
+ms.author: jambirk
+author: jambirk
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.collection: ''
+description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seu SBC para trabalham com o roteamento direto.
+ms.openlocfilehash: 92ecd76a50668b0a2e03a0580daa2193d93c197e
+ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "20084406"
+---
+# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de certificados para o roteamento direto de controladores de borda de sessão
+
+Parceiros da Microsoft com selecionado fornecedores de controladores de borda de sessão (SBC) para certificar que seus SBCs para trabalhar com o roteamento direto. 
+
+Com cada fornecedor, Microsoft: 
+
+- Funciona em conjunto com os fornecedores SBC nos protocolos interconexão SIP.
+- Realiza testes intensos por meio de um laboratório de terceiros; somente os dispositivos que passaram nos testes são certificados. 
+- Executa testes diários com todos os dispositivos de certificados em ambientes de produção e de pré-produção. Validar os dispositivos em ambientes de pré-produção e garante que as novas versões de código de roteamento direto na nuvem funcionará com certificados SBCs. 
+- Tem um processo de suporte em conjunto com os fornecedores SBC.
+ 
+
+  > [!NOTE]
+  > Microsoft suporta apenas o sistema telefônico se um dispositivo de certificados ou dispositivos conectados por meio de roteamento direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que um dispositivo não certificados está conectado ao sistema telefônico via roteamento direto. 
+
+A tabela abaixo lista os dispositivos de certificados para o roteamento direto. 
+
+[Saiba mais sobre o roteamento direto](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-NOW-in-Public-Preview/ba-p/193915). 
+
+
+|Fornecedor  |Produto  |Bypass de mídia não  |Bypass de mídia  |Versão do software|
+|---------|---------|---------|---------|---------|
+|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |         |    Pendente      |     7.20A.200.055     |
+|  |   Mediant 800 SBC       |         |     Pendente    |      7.20A.200.055    |
+|     |      Mediant 2600 SBC    |         |    Pendente     |    7.20A.200.055      |
+|     |   Mediant 4000 SBC       |         |    Pendente     |    7.20A.200.055      |
+|     |    Mediant 1000B SBC      |         |  Pendente       |    7.20A.200.055      |
+|     |   Virtual Edition SBC       |     |Pendente         |     7.20A.200.055     |
+|[Faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110         |         |   Pendente      |     6.2     |
+|     |SBC 5110         |         |    Pendente     |    6.2      |
+|     | SBC 5400         |         |    Pendente     |   6.2       |
+|     |SBC 7000         |         |    Pendente     |    6.2      |
+|     | SBC SWe         |         |    Pendente     |    6.2      |
+|     |SBC 1000         |         |     Pendente    |    V7.0.2      |
+|     | SBC 2000         |         |    Pendente     |    V7.0.2      |
+|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Pense SBC 365      |  Pendente       |    Pendente     |   V 1.4       |
+|     |         |         |         |         |
