@@ -6,16 +6,16 @@ manager: serdars
 ms.date: 5/9/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara, v-leslc
+ms.reviewer: marcl, ninadara
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6624aa94ef6581805e3ba2b79f09aefb95616bb0
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
+ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19691213"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "20136930"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -23,6 +23,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 ## 
 
 ## <a name="administration"></a>Administração
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Logs de auditoria podem informar um nome de usuário incorreta como iniciador quando alguém foi removido da equipe  <br/> |As equipes de equipe é um grupo moderno em AAD. Quando você adicionar ou remove um membro por meio da interface de usuário de equipes, o fluxo sabe exatamente o usuário que iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário membro por meio de AAD de adiciona/remove, a alteração é sincronizada no back-end de equipes sem informando equipes que iniciou a ação. Microsoft Teams seleciona o primeiro proprietário da equipe como iniciador, eventualmente será refletido no log de auditoria.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled estiver definido como false  <br/> |Quando este valor é definido como false no AAD, cliente não é capaz de adicionar membros interno/externo em Teams da Microsoft e a seguinte mensagem de erro é exibida: "não podemos não pôde adicionar membro. Executamos em um problema. Tente novamente mais tarde." No entanto, os membros podem ser adicionados diretamente para grupos do Office 365.    <br/> |Altere essa configuração como true no AAD.  <br/> |4/10/18  <br/> |
@@ -205,6 +209,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |As equipes Planejador integração com Planejador online <br/> |Partições de memória de tarefas no planejador não aparecem na experiência online do planejador.  <br/> |Não há solução alternativa. <br/> |28/02/2017  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Logs de auditoria podem informar um nome de usuário incorreta como iniciador quando alguém foi removido da equipe  <br/> |As equipes de equipe é um grupo moderno em AAD. Quando você adicionar ou remove um membro por meio da interface de usuário de equipes, o fluxo sabe exatamente o usuário que iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário membro por meio de AAD de adiciona/remove, a alteração é sincronizada no back-end de equipes sem informando equipes que iniciou a ação. Microsoft Teams seleciona o primeiro proprietário da equipe como iniciador, eventualmente será refletido no log de auditoria.    <br/> |  <br/> |5/11/18  <br/> |
+
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |O carregamento de fotos para o Teams não está bloqueado no Outlook Web App/Outlook, embora isso seja um requisito da política   <br/> | O Teams permite que os usuários carreguem fotos diretamente para o Office 365, apesar de as configurações da política em vigor impedirem o carregamento de fotos para o Outlook Web App.   <br/> |<br/>  |16/10/2017  <br/> |
