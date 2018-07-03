@@ -502,7 +502,7 @@
 #### [Estágio AV e OAuth certificados](../manage/authentication/stage-av-and-oauth-certificates.md)
 #### [Aplicativos de servidor-para-servidor e parceiro](../manage/authentication/server-to-server-and-partner-applications.md)
 ##### [Atribuir um certificado de servidor-para-servidor](../manage/authentication/assign-a-server-to-server-certificate.md)
-##### [Configurar um ambiente híbrido](../manage/authentication/configure-a-hybrid-environment.md)
+##### [Configurar a autenticação de servidor-para-servidor em um ambiente híbrido](../manage/authentication/configure-a-hybrid-environment.md)
 ##### [Configurar um aplicativo de parceiro no local](../manage/authentication/configure-an-on-premises-partner-app.md)
 #### [Definições de configuração do registrador](../manage/authentication/registrar-configuration-settings.md)
 #### [Definições de configuração do serviço Web](../manage/authentication/web-service-configuration-settings.md)
