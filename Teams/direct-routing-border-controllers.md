@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seu SBC para trabalham com o roteamento direto.
-ms.openlocfilehash: 72d1567dbc827685316fc390e532d82a254f7748
-ms.sourcegitcommit: b859f9b3cb89f0b0ac4aacbba75f916e38981a26
+ms.openlocfilehash: d5cb169aaf1545d496e19e533c1466e68258d35c
+ms.sourcegitcommit: 13bec625269307e5988acecd3b765c29594d66fe
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20091669"
+ms.lasthandoff: 07/04/2018
+ms.locfileid: "20192656"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de certificados para o roteamento direto de controladores de borda de sessão
 
@@ -51,5 +51,5 @@ A tabela abaixo lista os dispositivos de certificados para o roteamento direto.
 |     | SBC SWe  |   & #10004;    |    Pendente     |    6.2      |
 |     |SBC 1000   |     & #10004;   |     Pendente    |    V7.0.2   |& #10004; 
 |     | SBC 2000    |     & #10004;   |    Pendente     |    V7.0.2      |
-|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Pense SBC 365      |  Pendente       |    Pendente     |   V 1.4       |
+|[Thinktel](http://www.thinktel.ca/services/think-365/think-365-overview/)     |    Pense SBC 365      |  & #10004;       |    Pendente     |   V 1.4       |
 |     |         |         |         |         |
