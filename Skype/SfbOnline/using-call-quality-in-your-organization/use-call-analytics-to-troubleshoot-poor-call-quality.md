@@ -1,5 +1,5 @@
 ---
-title: Qualidade de chamada de análise de uso chamada solucionar ruim Skype para negócios
+title: Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,18 +19,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Use os detalhes de chamada análise sobre dispositivos, redes e conectividade para solucionar problemas de usuário com o Skype para reuniões e chamadas comerciais.
-ms.openlocfilehash: cb887a1c582c9547616c2133c2f175ac634e2da8
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: 933c041fd9683dd84d82fd9abdcf4cc627cf4366
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205001"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-skype-for-business-call-quality"></a>Qualidade de chamada de análise de uso chamada solucionar ruim Skype para negócios
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas
 
-Análise de chamada ajuda você a solucionar problemas de chamada ou a conexão com o Skype para negócios. Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade para as chamadas e reuniões de cada usuário na sua Skype para a conta de negócios. Se criando, site e de inquilinos informações foram adicionadas para análise de chamada, ele também será mostrado para cada chamada e a sessão. Informações disponíveis por meio da análise de chamada podem ajudá-lo a descobrir por que um usuário teve uma chamada de baixa ou experiência da reunião. 
+Análise de chamada ajuda você a solucionar problemas de chamada ou conexão com equipes Microsof e Skype para negócios. Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade para as chamadas e reuniões de cada usuário na sua conta do Office 365. Se criando, site e de inquilinos informações foram adicionadas para análise de chamada, ele também será mostrado para cada chamada e a sessão. Informações disponíveis por meio da análise de chamada podem ajudá-lo a descobrir por que um usuário teve uma chamada de baixa ou experiência da reunião. 
   
 > [!NOTE]
-> Análise de chamada está sendo preview. Texto e imagens descritas aqui podem não corresponder sua experiência.
+> Análise de chamada está agora disponível na Microsoft Teams e Skype para centro de administração de negócios em https://admin.teams.microsoft.com.  Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses.  Enquanto isso, você pode continuar a usar o ponto de extremidade em https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2.
   
 ## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Solucionar problemas de qualidade de chamada usando a análise de chamada
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar o Skype para análise de chamada de negócios
+title: Configurar a Análise de Chamada do Skype for Business
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft.
-ms.openlocfilehash: 5cba53e1a01b1aff3a08f4ec84cea60dc455fb35
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
+ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500689"
+ms.lasthandoff: 07/06/2018
+ms.locfileid: "20205011"
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>Configurar o Skype para análise de chamada de negócios
+# <a name="set-up-skype-for-business-call-analytics"></a>Configurar a Análise de Chamada do Skype for Business
 
 Como um Skype do admin Business Online, você pode usar o Analytics chamada solucionar Skype for Business e Microsoft Teams problemas de qualidade e conexão de chamada. Você pode achar útil para configurar os seguintes recursos na análise de chamada:
   
@@ -34,7 +34,7 @@ Como um Skype do admin Business Online, você pode usar o Analytics chamada solu
 - Adicione informações de Inquilino, site e construção para análise chamada carregando um arquivo de dados. tsv ou. csv.
     
 > [!NOTE]
-> Análise de chamada está sendo preview. Texto e imagens descritas aqui podem não corresponder sua experiência. 
+> Análise de chamada está agora disponível na Microsoft Teams e Skype para centro de administração de negócios em https://admin.teams.microsoft.com. Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses. Enquanto isso, você pode continuar a usar o ponto de extremidade em https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2. 
   
 ## <a name="set-call-analytics-permissions"></a>Definir permissões de análise de chamada
 <a name="BKMK_SetCAPerms"></a>
