@@ -15,14 +15,15 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: c4fc0b4e75a7e4e3cd2c391102580c37c0b826af
-  ms.sourcegitcommit: 8ceb230c058471210b89449dde0034300e6c4da1
+  ms.openlocfilehash: d072c7f8d1ca0998fbe0a1ddee152717b6c69843
+  ms.sourcegitcommit: 1fde3af8f5c93c1328842990c7d14cbc0fbfdf97
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/17/2018
+  ms.lasthandoff: 07/05/2018
+  ms.locfileid: "20201354"
 items:
 - durationInMinutes: 1
-  content: "Neste treinamento, apresentamos a nova visão de comunicações inteligentes e explicamos o futuro do Skype for Business e do Microsoft Teams.\n\nEste treinamento será útil se você for: \n\n- Um profissional de TI \n\n- Responsável pelo planejamento, a implantação ou o gerenciamento do Skype for Business\n\n- Interessado em entender como introduzir o Microsoft Teams em sua organização\n\nVamos apresentar detalhes de como esses dois produtos interagem e explicar as etapas que você pode executar agora para preparar um ambiente existente do Skype for Business para o Microsoft Teams. Os principais aprendizados deste tutorial são:\n\n- Entender a visão de comunicações inteligentes\n\n- Entender a jornada de migração do Skype for Business Online para o Microsoft Teams\n\n- Entender quais ações devem ser realizadas agora\n\nNão vamos abordar os procedimentos de \"Como fazer\" para ativar o Microsoft Teams ou executar o Skype for Business e o Microsoft Teams lado a lado. Para obter essas informações, consulte:\n\n- Sessão do Microsoft Ignite 2017: [Como habilitar e configurar o Microsoft Teams para seus usuários](https://myignite.microsoft.com/sessions/53318)\n\n- [Processo de atualização e execução paralela do Skype for Business e do Microsoft Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nSe quiser fazer alguma pergunta ou comentário sobre o treinamento:\n\n- Poste na seção de comentários na parte inferior da página “próximos passos” deste tutorial</a>\n\n- Envie um email para [AskTeams@microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)\n\n- Para fazer comentários sobre o produto, como solicitações de recursos, acesse o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
+  content: "Neste treinamento, apresentamos a nova visão de comunicações inteligentes e explicamos o futuro do Skype for Business e do Microsoft Teams.\n\nEste treinamento será útil se você for: \n\n- Um profissional de TI \n\n- Responsável pelo planejamento, a implantação ou o gerenciamento do Skype for Business\n\n- Interessado em entender como introduzir o Microsoft Teams em sua organização\n\nVamos apresentar detalhes de como esses dois produtos interagem e explicar as etapas que você pode executar agora para preparar um ambiente existente do Skype for Business para o Microsoft Teams. Os principais aprendizados deste tutorial são:\n\n- Entender a visão de comunicações inteligentes\n\n- Entender a jornada de migração do Skype for Business Online para o Microsoft Teams\n\n- Entender quais ações devem ser realizadas agora\n\nNão vamos abordar os procedimentos de \"Como fazer\" para ativar o Microsoft Teams ou executar o Skype for Business e o Microsoft Teams lado a lado. Para obter essas informações, consulte:\n\n- Sessão do Microsoft Ignite 2017: [Como habilitar e configurar o Microsoft Teams para seus usuários](https://myignite.microsoft.com/sessions/53318)\n\n- [Processo de atualização e execução paralela do Skype for Business e do Microsoft Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) \n\nSe quiser fazer alguma pergunta ou comentário sobre o treinamento:\n\n- Poste na seção de comentários na parte inferior da página “próximos passos” deste tutorial</a>\n\n- Para fazer comentários sobre o produto, como solicitações de recursos, acesse o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"
 - title: Entenda as comunicações inteligentes
   durationInMinutes: 4
   content: >
@@ -111,5 +112,4 @@ items:
 
     5.  Nos envie seus comentários
         - Faça comentários ou tire suas dúvidas sobre este treinamento na seção **Comentários** na parte inferior desta página
-        - Envie um email para [AskTeams@Microsoft.com](mailto:askteams@microsoft.com?subject=Tutorial-Journey)
         - Para fazer comentários sobre o produto Microsoft Teams ou solicitar um novo recurso, acesse o [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)
