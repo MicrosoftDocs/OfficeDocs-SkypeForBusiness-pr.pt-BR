@@ -1,5 +1,5 @@
 ---
-title: Configurar a Análise de Chamada do Skype for Business
+title: Configurar a análise de chamada
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft.
-ms.openlocfilehash: d9483d702280bfe7119ff64431e5d42b168f9021
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 748f421a9ec2d5d44ca41192db50c48cc6edcf05
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205011"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211038"
 ---
-# <a name="set-up-skype-for-business-call-analytics"></a>Configurar a Análise de Chamada do Skype for Business
+# <a name="set-up-call-analytics"></a>Configurar a análise de chamada
 
 Como um Skype do admin Business Online, você pode usar o Analytics chamada solucionar Skype for Business e Microsoft Teams problemas de qualidade e conexão de chamada. Você pode achar útil para configurar os seguintes recursos na análise de chamada:
   
@@ -33,13 +33,15 @@ Como um Skype do admin Business Online, você pode usar o Analytics chamada solu
     
 - Adicione informações de Inquilino, site e construção para análise chamada carregando um arquivo de dados. tsv ou. csv.
     
-> [!NOTE]
-> Análise de chamada está agora disponível na Microsoft Teams e Skype para centro de administração de negócios em https://admin.teams.microsoft.com. Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses. Enquanto isso, você pode continuar a usar o ponto de extremidade em https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2. 
+**Análise de chamada agora está disponível no Microsoft Teams e Skype para Business Admin Center.** Para ver todas as informações de chamada e os dados de um usuário, use a guia de **Histórico de chamadas** . Você pode fazer isso por procurando na página de perfil do usuário, qualquer procurando por usuário do painel ou localizar o usuário dos **usuários** no painel de navegação à esquerda.
+
+> [!IMPORTANT]
+> Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses. Enquanto isso, você pode continuar a usar https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2.
   
 ## <a name="set-call-analytics-permissions"></a>Definir permissões de análise de chamada
 <a name="BKMK_SetCAPerms"></a>
 
-Como o administrador, você deve obter acesso total a todos os recursos de análise de chamada. Além disso, você pode usar um modelo de assistência técnica na análise de chamada que inclui os grupos de permissões de nível 1 e 2 de camada. Usuários com permissões de nível 1 podem acessar apenas um modo de exibição limitado de análise de chamada. Usuários com permissões de nível 2 podem acessar a funcionalidade completa do Analytics chamada. Ambos os níveis de permissão impedem o acesso ao restante do Skype para centro de administração de negócios. Você pode conceder acesso às camadas, adicionando um grupo que contém o usuário a camada 1 ou a seção de nível 2 da página permissões. Para obter detalhes, consulte [Configure permissões hierárquicos na análise de chamada](set-up-call-analytics.md#BKMK_SetUpTier).
+Como o administrador, você deve obter acesso total a todos os recursos de análise de chamada. Além disso, você pode usar um modelo de assistência técnica na análise de chamada que inclui os grupos de permissões de nível 1 e 2 de camada. Usuários com permissões de nível 1 podem acessar apenas um modo de exibição limitado de análise de chamada. Usuários com permissões de nível 2 podem acessar a funcionalidade completa do Analytics chamada. Ambos os níveis de permissão impedem o acesso ao restante do Microsoft Teams e Skype para Business Admin Center. Você pode conceder acesso às camadas, adicionando um grupo que contém o usuário a camada 1 ou a seção de nível 2 da página permissões. Para obter detalhes, consulte [Configure permissões hierárquicos na análise de chamada](set-up-call-analytics.md#BKMK_SetUpTier).
   
 Operadores de assistência técnica da camada 1 lidar com problemas de qualidade de chamada básicos. Os agentes de nível 1 não investigar problemas com reuniões; eles coletam informações relacionadas e, em seguida, escalonar para um agente de nível 2. Os agentes de nível 2 ver a informação é oculto da camada 1 agentes nos logs de chamada detalhadas. A tabela a seguir oferece uma visão geral das informações disponíveis para os operadores por meio de análises de chamada.
 
@@ -59,16 +61,16 @@ Operadores de assistência técnica da camada 1 lidar com problemas de qualidade
  **Configurar as permissões hierárquicos na análise de chamada** 
  <a name="BKMK_SetUpTier"> </a>
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
   
 1. Criar grupos de segurança do Office 365 para camada 1 e 2 de camada e adicione as pessoas que deseja a cada grupo. Você também pode reutilizar os grupos de segurança existentes. Para obter mais informações, consulte [Criar, editar ou excluir um grupo de segurança no centro de administração do Office 365](https://support.office.com/article/55c96b32-e086-4c9e-948b-a018b44510cb).
     
 2. No Centro de administração do Office 365, vá até **Admin centrais** > **Skype para negócios**.
-    
+
     > [!NOTE]
-    > Se você pousar no Skype antigo para o Centro de administração de negócios, vá para a nova versão clicando em **vêm tente nosso novo centro de administração**. 
+    > Se você estiver nas **equipes da Microsoft e Skype para Business Admin Center**, no painel de navegação esquerdo, clique em **portal herdada**.
   
-3. Em que o novo Skype para centro de administração de negócios, clique em **permissões**.
+3. Na **Análise de chamada (preview)**, clique em **permissões**.
     
 4. Adicione os grupos de segurança do Office 365 para as caixas de **nível 1** e **2 de camada** . Você pode adicionar vários grupos a cada função.
     
@@ -90,7 +92,7 @@ Se você estiver criando o arquivo. csv ou. tsv desde o início, consulte o [for
 ## <a name="related-topics"></a>Tópicos relacionados
 <a name="BKMK_UploadFiles"> </a>
 
-[Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
 

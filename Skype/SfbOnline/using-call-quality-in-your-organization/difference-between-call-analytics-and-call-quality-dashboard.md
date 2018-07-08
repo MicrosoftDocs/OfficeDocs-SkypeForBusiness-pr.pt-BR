@@ -17,33 +17,43 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade de chamada no Skype para negócios.
-ms.openlocfilehash: 3871db21fef268f9589246b31ee285aa117d0412
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
+ms.openlocfilehash: a929f88d502d7a1a999114a42093b389f6d3cdfb
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205082"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211028"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de chamada e o painel de controle de qualidade de chamada
 
 Skype para negócios e o Teams da Microsoft oferecem duas maneiras para monitorar e solucionar problemas de qualidade da chamada: análise de chamada e o painel de controle de qualidade de chamada. Este artigo descreve os dois e informa quando usar cada uma delas.
   
-> [!NOTE]
-> Análise de chamada está agora disponível na Microsoft Teams e Skype para centro de administração de negócios em https://admin.teams.microsoft.com. Somente últimos 30 dias de dados está disponível na análise de chamada.
+**Análise de chamada agora está disponível no Microsoft Teams e Skype para Business Admin Center.** Para ver todas as informações de chamada e os dados de um usuário, use a guia de **Histórico de chamadas** . Você pode fazer isso por procurando na página de perfil do usuário, qualquer procurando por usuário do painel ou localizar o usuário dos **usuários** no painel de navegação à esquerda.
+
+> [!IMPORTANT]
+> Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses. Enquanto isso, você pode continuar a usar https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2.
   
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>O que é chamada de análise e quando devo usá-lo?
 
 Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionados à chamadas específicas e reuniões para cada usuário em um Microsoft Teams ou Skype para a conta de negócios. Se você for um administrador do Office 365, você pode usar a chamada análise para solucionar problemas de qualidade e conexão de chamada no Microsoft Teams e Skype para negócios.
 
-> [!NOTE]
-> Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses.
+Para ver essas informações para um usuário no Microsoft Teams e Skype para Business Admin Center, clique na guia **Histórico de chamadas** para esse usuário na página de detalhes do usuário, mostrando todas as chamadas e reuniões que o usuário tem participou nos últimos 30 dias.
+
+![Chame a análise de dados do usuário.](../images/call-analytics-user-data.png)
+
+Para obter informações adicionais sobre uma determinada sessão, incluindo mídia detalhadas e estatísticas de rede, clique em uma sessão para ver os detalhes.
+
+![Chame a análise de dados da sessão de usuário.](../images/call-analytics-user-data-session.png)
 
 Se desejar que não-administradores, como operadores de assistência técnica de um fornecedor externo, para usar a análise de chamada, você pode atribuir permissões para que eles podem usar a análise de chamada, mas não podem acessar o restante do Skype para Business Admin center: 
   
 - **Operadores de assistência técnica com permissões de nível 1**: agentes vejam um conjunto limitado de dados e informações de identificação pessoal (PII) na análise de chamada. Solucionam chamadas, mas eles serão entregar problemas com reuniões para um agente de nível 2.
     
 - **Operadores de assistência técnica com permissões de nível 2**: agentes ver todos os dados disponíveis na análise de chamada e solucionar problemas de chamadas e reuniões. Eles têm acesso completo ao chamar os logs e informações do cliente.
+
+> [!IMPORTANT]
+> Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses. Enquanto isso, você pode continuar a usar https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2.
     
 Para obter detalhes sobre como configurar a análise de chamada, consulte [Configurar Skype para análise de chamada de negócios](set-up-call-analytics.md). Para obter mais informações sobre como os operadores de assistência técnica podem trabalhar com a análise de chamada, consulte [Análise de uso chamada solucionar problemas de qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
@@ -64,9 +74,6 @@ Análise de chamada e CQD executem em paralelo e podem ser usado independentemen
 Para obter mais informações sobre CQD, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para Business Online](turning-on-and-using-call-quality-dashboard.md) e [dimensões e medidas disponíveis no painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar a Análise de Chamada do Skype for Business](set-up-call-analytics.md)
+[Configurar a análise de chamada](set-up-call-analytics.md)
 
-[Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-
-  
- 
+[Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)

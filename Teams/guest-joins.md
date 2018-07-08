@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Obtenha um breve panorama de como um convidado é chamado para entrar em uma equipe do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb8672168b3f9f249f5f2d538c6f152c9012e29f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969368"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211048"
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado entra em uma equipe
 ========================
@@ -46,4 +46,4 @@ Durante a utilização de equipes, texto e dos ícones dê todos os membros da e
 Os convidados podem sair da equipe a qualquer momento através dos clientes web e desktop do Teams. Para obter detalhes, consulte [Como posso sair de uma equipe?](https://support.office.com/article/How-do-I-leave-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_howdoileaveateam)
 
 > [!NOTE]
-> Deixando a equipe não remove a conta de convidado da organização/inquilino. Consulte [saem de uma organização, como um usuário convidado](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) sobre como remover você mesmo da capacidade das organizações. Como alternativa, o administrador da organização pode remover usuários convidados de Inquilino.
+> Deixando a equipe não remove a conta de convidado da organização/inquilino. Consulte [saem de uma organização, como um usuário convidado](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization) sobre como remover seu nome da organização. Como alternativa, o administrador da organização pode remover usuários convidados de Inquilino.

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba o que é necessário para migrar o roteamento direto de um Skype para Business Online e perspectiva de configuração de equipes.
-ms.openlocfilehash: 4a1cb3d96d6f5d024b8da6a42288b09b3a8cde3d
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084403"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211140"
 ---
 # <a name="migrating-to-direct-routing"></a>Migrando para o roteamento direto
 
@@ -99,7 +99,7 @@ Para obter mais informações sobre a migração do sistema telefônico com cone
  
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
-Set-CsUserPstnSettings -Identity <UPN> -AllowInternationCalls $false -HybridPSTNSite $null 
+Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```
 
 
