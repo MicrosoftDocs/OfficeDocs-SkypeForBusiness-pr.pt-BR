@@ -1,5 +1,5 @@
 ---
-title: Relatório de uso do PSTN
+title: Relatório de uso de PSTN
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
 search.appverid: MET150
-ms.openlocfilehash: 59a1fbae9614fa6742f73b46c442d7912c71f88d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 3c2148b54c04950867feef1844a4ca1595f708e5
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973364"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246484"
 ---
-# <a name="pstn-usage-report"></a>Relatório de uso do PSTN
+# <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 
 O novo Skype para a área do Centro de administração de negócios **relatórios** mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de **detalhes do uso de PSTN do Skype for Business** para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
   
@@ -74,8 +74,9 @@ Esta é a aparência do relatório.
      *    **conf_out** (uma chamada de saída da ponte de conferência de áudio geralmente para adicionar um número PSTN à conferência)
 
      **Aplicativos de comunicação unificada (UCAP)** 
-     *    **ucap_in** (uma chamada de entrada para o aplicativo de comunicação unificada como a fila de chamada e atendente automático) 
-     *    **ucap_out** (uma chamada de saída do aplicativo de comunicação unificada, como a fila de chamada e atendente automático)
+     *    **ucap_in** (uma chamada PSTN entrada para o aplicativo de comunicação unificada como a fila de chamada e atendente automático) 
+     *    **ucap_out** (uma chamada PSTN saída do aplicativo de comunicação unificada, como a fila de chamada e atendente automático)
+     *    **Observação:** Chamadas que foram transferidas para um usuário do aplicativo de comunicação unificada como uma fila de espera chamada e atendente automático não aparecerá no relatório de uso de PSTN como estes trechos de chamada são chamadas de áudio ponto a ponto (P2P). Você pode acessar as chamadas de P2P no Skype para Business Admin Center em "Ferramentas > Skype para chamar análise comercial" e pesquisar por nome de usuário ou SIP o endereço correlacionando a chamada por data/hora e/ou originadas CLID (ID de linha de chamada). 
 *     
      **Doméstico/internacional** informa se a chamada realizada era considerada internacionais (fora de um país/região) ou domésticas (dentro de um país/região) com base no local do usuário. 
 *    **Destino discado** é o nome do destino do país/região que é discado como França, Alemanha ou dos Estados Unidos (EUA). 

@@ -3,7 +3,7 @@ title: Implantar as equipes da Microsoft para o Hub de superfície
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 07/10/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 948f9f9ed32f4e5846248dfbcd2b96577a0f34ee
-ms.sourcegitcommit: 2b15226723c299fe94f1a012aa21222173fe3af8
+ms.openlocfilehash: cfd9e5fd267de180907c2ea41c53541c08ff28b7
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "20192176"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266934"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
@@ -141,46 +141,33 @@ Depois de concluir as etapas anteriores para permitir que as equipes de conta do
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalar equipes para o Hub de superfície do repositório de Microsoft 
 
-Essas instruções incluem as soluções alternativas de atuais para a instalação de equipes para o Hub de superfície do Microsoft Store. 
+Essas instruções são para a instalação de equipes para o Hub de superfície do Microsoft Store. 
  
-1. Inicie o repositório do Windows:<br>
+1. Inicie o repositório da Microsoft:<br>
    a. Toque em **Iniciar** > **todos os aplicativos** > **configurações**.<br> b. Toque em **conta de dispositivo do Hub de superfície, gerenciamento**.<br>
    c. À esquerda, toque em da guia **aplicativos e recursos** .<br> d. À direita, toque no botão **Abrir armazenamento** . 
-2. Do Microsoft Store, procure *As equipes da Microsoft*. As **Equipes da Microsoft para o Hub de superfície (Preview)** será exibida. Toque no botão **obter o aplicativo** para instalar.  
+2. Do Microsoft Store, procure *As equipes da Microsoft*. As **Equipes da Microsoft para o Hub de superfície** será exibida. Toque no botão **obter o aplicativo** para instalar.  
 3. Quando a instalação estiver concluída, reinicie o Hub de superfície. 
-4. Depois que o Hub de superfície for reiniciado, você poderá iniciar o aplicativo de equipes do menu **Iniciar** e ingressar em uma reunião do calendário. 
 
-## <a name="make-teams-the-default-vtc-application"></a>Tornar as equipes aplicativo VTC padrão
+> [!NOTE]
+> Não toque no **início** do repositório de página de listagem.
 
-As equipes podem ser definidas até ser o aplicativo de VTC padrão, em vez de Skype para negócios. Uma política de gerenciamento de dispositivo móvel (MDM) deve ser aplicada ao dispositivo Hub de superfície. 
+## <a name="make-teams-the-default-calling-and-meetings-application"></a>Tornar as equipes a chamada padrão e a aplicação de reuniões
  
-Há duas opções para configurar políticas MDM: 
+Há duas opções para configurar a política padrão de aplicativo de chamada e reuniões: 
 
-- Se você tiver uma diretiva configurada, você deve adicioná-lo por meio do aplicativo de gerenciamento do dispositivo. 
-- Se você não tiver uma diretiva remoto configurada, temos um arquivo de pacote provisionados que pode ser carregado em uma chave USB.
-
-### <a name="device-management-configuration"></a>Configuração de gerenciamento de dispositivo
-
-O exemplo a seguir é um exemplo da adição de uma política MDM configurada em uma autoridade de MDM central. Se você estiver na rede corporativa, você pode usar as seguintes instruções textual, incluindo a conta de usuário. 
+- **Opção 1**: configurar via chave USB. 
+- **Opção 2**: configurar via MDM como InTune.
  
-1. Na seção **Gerenciamento de dispositivo** , toque em **+**.<br>
-   A caixa de diálogo **conectar ao trabalhar ou escola** será aberto. 
-2. Insira o endereço de email de diretiva e a senha, quando solicitado.<br>
-   **Observação:**  Não há um bug do sistema operacional que não atualizar automaticamente a interface do usuário depois que você inseriu sua conta de gerenciamento de dispositivo. Você precisará feche e abra novamente as configurações para ver a conta listada. 
-3. Ele vai levar alguns minutos para as configurações de diretiva MDM sincronizar. Se desejar forçar uma sincronização, toque no botão de **conta MDM** e, em seguida, toque no botão **Info** . Isso exibirá a janela de informações onde você pode toque em **sincronização**. 
-4. Para verificar se você tem o que você precisa, é possível verificar o registro. Você deverá ver duas chaves em **HKLM\Software\Microsoft\Windows\CurrentVersion\PPI\VtcCallSettings**. <br><br>
-   O valor DWORD **VtcAppMeetingHandlingMode** indica que as equipes é o aplicativo padrão. Os valores a seguir são reconhecidos. <br><br>
-    |Número | Valor   |
-    |-------|---------|
-    |0      | SkypePreferred            |
-    |1      | VtcPreferred (equipes)      |
-    |2      | VtcExclusive (somente para equipes) |
+### <a name="option-1-configure-via-usb-key"></a>Opção 1: Configurar via chave USB 
+ 
+Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Selecione a adequada para o pacote que você estiver planejando instalar e copiá-lo para uma chave USB. O arquivo .ppkg correto a ser usado depende a diretiva de aplicação de padrão que você gostaria de aplicar da seguinte maneira: 
 
-    O **VtcCallAppPackageId** é o nome do pacote equipes instalado. Se isso não for exibido, certifique-se de que ter instalado o pacote de equipes e resincronização. 
- 
-### <a name="configure-mdm-via-usb-key"></a>Configurar MDM via chave USB 
- 
-Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!ArcnbnREun0Vnp9Wps9MlWB-UJZw3g). Selecione a adequada para o pacote que você estiver planejando instalar e copiá-lo para uma chave USB. O arquivo .ppkg correto a ser usado depende do pacote de equipes que tenha sido instalado do repositório e a política que você gostaria de aplicar (Skype exclusivo, Skype preferencial, equipes preferenciais, exclusive equipes). 
+|Número  |Descrição  |
+|---------|---------|
+|0     | App preferencial do Skype na tela Iniciar, equipes de reuniões disponíveis        |
+|1     | As equipes de app preferencial na tela Iniciar, Skype reuniões disponíveis        |
+|2     | Equipes de aplicativo exclusivo na tela Iniciar (Skype app não disponível)        |
  
 1. Anexe a chave USB com o dispositivo do Hub de superfície. 
 2. Abra o aplicativo de **configurações** em um dispositivo do Hub de superfície. 
@@ -189,8 +176,27 @@ Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!Ar
 5. Clique em **Adicionar ou remover um pacote de provisionamento**. 
 6. Clique em **Adicionar pacote**.
 7. Selecione a opção de **Mídia removível** no menu suspenso. 
-8. Adicione o **Allowbuildspreview.ppkg**e, em seguida, selecione o pacote de superfície Hub que você deseja adicionar. 
+8. Adicione o pacote adequado **TeamsRTMMode*.ppkg** que anteriormente foi copiado para a chave USB. 
 9. Reinicie o dispositivo do Hub de superfície. 
+10. Depois que o dispositivo for reiniciado, você poderá iniciar o aplicativo de equipes na tela de início e ingressar em uma reunião do calendário. 
+
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opção 2: Configurar via MDM como InTune 
+
+Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via InTune.
+
+|Configuração   |Valor    |Descrição    |
+|----------|---------|---------|
+|Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
+|Tipo de dados | inteiro (0-2)   |0 - app preferencial do Skype na tela Iniciar, equipes de reuniões disponíveis<br>1 - equipes preferencial app na tela Iniciar, Skype reuniões disponíveis<br>2 - equipes de aplicativo exclusivo na tela Iniciar (Skype app não disponível) |
+|Operações| Obter, definir        |
+
+|Configuração   |Valor    |
+|----------|---------|
+|Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
+|Tipo de dados | cadeia de caracteres (conjunto de cadeia de caracteres para equipes ID do pacote de aplicativo como - **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! As equipes**) |
+|Operações| Obter, definir        |
+
+Reinicie o dispositivo do Hub de superfície. Depois que o dispositivo for reiniciado, você poderá iniciar o aplicativo de equipes na tela de início e ingressar em uma reunião do calendário.
 
 > [!NOTE]
 > Se seu dispositivo ou dispositivos de sua organização não atualmente fazem parte do programa Insider Windows e você estiver nos países cobertos pela regulamentação de proteção de dados gerais (GDPR) (ou você tiver alterado manualmente suas configurações de telemetria para básico), em seguida, você deve verificar novamente que você tenha permitido telemetria completa antes de participar do programa Insider. GDPR alterado o comportamento padrão de dispositivos de superfície Hub na UE para definir telemetria como básica.

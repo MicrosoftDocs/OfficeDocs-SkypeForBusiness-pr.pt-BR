@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumo: Leia este tópico para saber mais sobre os requisitos de hardware e software para o servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: a56f939360edae0da47198e4a3810f70712b6ab8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8db3bda71cb27ec059dcf4c73f8d4754ffcb8b2d
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246653"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware e software para Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -59,10 +60,12 @@ Persistent Chat Server requer o software de banco de dados do SQL Server para ar
 Para preparar uma plataforma de servidor de banco de dados, verifique se todos os computadores atendem aos requisitos de hardware, depois instale o software de pré-requisito. A plataforma de servidor para os servidores de banco de dados de Chat persistente requer os mesmos itens de hardware do Skype para servidor de banco de dados de back-end do Business Server 2015. Para obter detalhes, consulte [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
   
 No servidor de banco de dados. verifique se um dos seguintes aplicativos de software está instalado:
-  
-- Microsoft SQL Server 2012. Para obter detalhes sobre como instalar o Microsoft SQL Server 2012, consulte [instalar o SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
-    
-- Microsoft SQL Server 2008 R2. Para obter detalhes sobre como instalar o Microsoft SQL Server 2008 R2, consulte [Instalação do SQL Server (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702).
+
+- Microsoft SQL Server 2016 e você deve executar com Skype para Business Server atualização cumulativa 7 ou versões posteriores. É recomendável que executa o SQL Server 2016 com o service pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2016, consulte [instalar o SQL Server 2016](https://docs.microsoft.com/pt-pt/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+
+- Microsoft SQL Server 2012 (edição de 64 bits) e é recomendável execução com o service pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2012, consulte [instalar o SQL Server 2012](https://go.microsoft.com/fwlink/p/?LinkID=248559).
+
+- Microsoft SQL Server 2008 R2 (64-bit edition) e é recomendado para execução com o service pack mais recente. Para obter detalhes sobre como instalar o Microsoft SQL Server 2008 R2, consulte [Instalação do SQL Server (SQL Server 2008 R2)](https://go.microsoft.com/fwlink/p/?LinkId=275702). 
     
 ## <a name="persistent-chat-server-certificate-requirements"></a>Requisitos de certificado de servidor de Chat persistentes
 
@@ -72,8 +75,8 @@ Para obter detalhes sobre a aquisição de certificados, criando o banco de dado
 
 Para obter informações sobre os requisitos de hardware e software, consulte os seguintes tópicos:
   
-- [Requisitos de servidor do Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+- [Requisitos de servidor no Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
     
-- [Requisitos de ambiente para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
+- [Requisitos de ambiente para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)
     
 

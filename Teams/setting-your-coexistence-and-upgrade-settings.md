@@ -12,11 +12,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b23869226081b46a3668d33b0a25528de4e04ec4
-ms.sourcegitcommit: 86a88975f9ac8d282ae5fc71d6c2f8f6208c0b6a
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19748906"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266886"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Definindo as configurações de atualização e coexistência
 

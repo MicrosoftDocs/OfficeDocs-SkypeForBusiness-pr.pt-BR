@@ -10,12 +10,12 @@ ms.reviewer: marcl, ninadara
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65417bc9d64ac895811736f11dfdb565c42704f2
-ms.sourcegitcommit: f7554cd4fab65ce948aba269f8aabde2fe5fa082
+ms.openlocfilehash: ee04fc9452342b78dc94a3c5c4e977f944d9164b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "20136930"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246542"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -100,10 +100,6 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Os usuários do Skype for Business local não recebem minhas mensagens  <br/> |O envio de mensagens não será concluído quando os usuários do Microsoft Teams tentarem enviar uma mensagem para outro indivíduo que esteja usando o Skype for Business local.  <br/> | Existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business Online. Os usuários do Teams podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business Online. <br/> Não existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business local. Os usuários do Teams não podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business local.  <br/> |02/11/2016  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Os usuários do Skype for Business local não recebem minhas mensagens  <br/> |O envio de mensagens não será concluído quando os usuários do Microsoft Teams tentarem enviar uma mensagem para outro indivíduo que esteja usando o Skype for Business local. <br/> | Existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business Online. Os usuários do Teams podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business Online. <br/> Não existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business local. Os usuários do Teams não podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business local. <br/> |02/11/2016  <br/> |
 
 ## <a name="client"></a>Cliente
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
