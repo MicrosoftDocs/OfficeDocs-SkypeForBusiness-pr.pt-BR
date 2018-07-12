@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Skype for Business
 description: Skype for Business
-ms.openlocfilehash: 8c09204d6651787de29de48e37ff517b5d70a746
-ms.sourcegitcommit: fb1022abfa10e9cc07528e9b6b821a7214bf45bd
+ms.openlocfilehash: 1962f30a1a6ea4f6822c369c95dd1d72758e8e6d
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19942657"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20299382"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -145,8 +145,27 @@ ms.locfileid: "19942657"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Skype Room Systems versão 2</h3>
+                                                    <h3>Sistemas de Salas Skype versão 2</h3>
                                                     <p>Saiba como planejar, implantar e gerenciar os Sistemas de Salas Skype v2.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>                            
+                            <li>
+                                <a href="/SkypeForBusiness/certification/overview">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1"> 
+                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/SkypeForBusiness-Certified-400x140.svg" alt="Certification" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Programa de certificação do Skype for Business</h3>
+                                                    <p>Saiba mais sobre soluções e dispositivos certificados.</p>
                                                 </div>
                                             </div>
                                         </div>

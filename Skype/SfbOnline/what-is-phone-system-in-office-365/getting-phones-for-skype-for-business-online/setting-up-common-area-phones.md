@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda as etapas de implantação para obter o firmware correto, atualize-o, se necessário, atribua licenças e defina configurações para telefones de área comum.
-ms.openlocfilehash: 25605e7538792080213eebb898e612be6ce5bfab
-ms.sourcegitcommit: bdf9946b7c65ef7985d6b03a1479ea3a5c17a304
+ms.openlocfilehash: b32995839da45975449cd8b4cd077c97cff8ad38
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/23/2018
-ms.locfileid: "19426797"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302176"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar telefones de área comum
 Um CAP (telefone de área comum) é normalmente colocado em áreas como saguões ou outras áreas disponíveis para muitas pessoas. Por exemplo, telefones de áreas de recepção, interfones ou telefones de salas de reunião, os CAPs são configurados como dispositivos em vez de usuários e se conectam automaticamente a uma rede. Nas etapas a seguir, ajudaremos você a configurar uma conta para o Sistema de Telefonia com planos de chamada, de modo que você possa implantar esses tipos de telefones na sua organização.
@@ -42,7 +42,7 @@ A primeira coisa a ser feita é confirmar que você já:
 
     As atualizações de firmware são gerenciadas pelo Serviço do Skype for Business. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão. 
 
-    Dependendo do tempo de inatividade no telefone e dos intervalos de sondagem, os telefones baixarão e instalarão automaticamente as compilações certificadas mais recentes. Você pode desativar as configurações de atualização do dispositivo usando o cmdlet [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) e definindo o parâmetro *EnableDeviceUpdate* como `false`.
+    Dependendo do tempo de inatividade no telefone e nos intervalos de sondagem, os telefones baixarão e instalarão automaticamente os builds certificados mais recentes. Você pode desativar as configurações de atualização do dispositivo usando o cmdlet [Set-CsIPPhonePolicy](https://docs.microsoft.com/powershell/module/skype/set-csipphonepolicy) e definindo o parâmetro *EnableDeviceUpdate* como `false`.
 
 ## <a name="setting-up-a-common-area-phone"></a>Configuração de um telefone de área comum
 Você precisará seguir estas etapas:
@@ -106,8 +106,7 @@ Se você está se perguntando, também é possível usar o número de telefone d
 
 **Configuração do modo em um telefone**
 
-O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área Comum** ligado. É melhor conferir para ver se está tudo certo.
- 
+O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área Comum** ligado. É melhor conferir para ver se está tudo certo. 
 
 **Veja um exemplo de como configurar um telefone Polycom VVX**
 
@@ -121,7 +120,6 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
     1. Clique em **Configurações**.
     2. Selecione **Avançado**.
     3. Insira a senha.
-
     4. Em **Configurações de administração**, selecione **Configurações do Telefone de Área Comum**.
     5. Habilite o **CAP** e o **Modo de Administração do CAP**.
     6. Clique em **Salvar configurações**.
@@ -139,10 +137,15 @@ O telefone ou telefones que você possui devem ter o **Modo de Telefone de Área
     5. Na janela de código de pareamento, insira o código exibido no telefone e clique em **Provisão**.
 
         Após essa última etapa, é possível entrar automaticamente.
+        
+
+> [!NOTE]
+> O site de configuração do CAP informa que ele redefinirá a senha da conta CAP para uma senha aleatória. Observe que a conta à qual o CAP está se referindo é a conta do Active Directory do Azure (AAD). Se você criou a conta somente no AAD, então o processo é direto. Se você tiver sincronizado um Active Directory local para o AAD, anote as credenciais que estiver usando e que serão alteradas pela configuração do CAP.
+
 
 ### <a name="related-topics"></a>Tópicos relacionados
 
 - Saiba mais sobre os telefones disponíveis em [Implantação de telefones do Skype for Business Online](deploying-skype-for-business-online-phones.md).
-- [Obtenção de telefones para o Skype for Business Online](getting-phones-for-skype-for-business-online.md)
+- [Obtendo telefones para o Skype for Business Online](getting-phones-for-skype-for-business-online.md)
 
 
