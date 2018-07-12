@@ -250,6 +250,7 @@
 #### [Planejar o roteamento direto](direct-routing-plan.md)
 #### [Configurar o roteamento direto](direct-routing-configure.md)
 #### [Migrando para o roteamento direto](direct-routing-migrating.md)
+#### [Monitorar e solucionar problemas de roteamento direto](direct-routing-monitor-and-troubleshoot.md)
 #### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configurar um controlador de borda de sessão para vários locatários](direct-routing-sbc-multiple-tenants.md)
 #### [Lista de certificados para o roteamento direto de controladores de borda de sessão](direct-routing-border-controllers.md)
