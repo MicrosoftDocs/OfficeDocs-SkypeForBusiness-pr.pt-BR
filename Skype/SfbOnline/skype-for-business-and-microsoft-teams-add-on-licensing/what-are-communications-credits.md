@@ -1,5 +1,5 @@
 ---
-title: Cite créditos de comunicações.
+title: O que são Créditos de Comunicação?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 5d3a1c2b3565f8497bf108d9af6ad44379f2515b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 070816cf38fd86bf89bb05d27f1aedf5a5f90da5
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20326991"
 ---
-# <a name="what-are-communications-credits"></a>Cite créditos de comunicações.
+# <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
 Comunicações créditos são uma maneira conveniente de pagar por conferência de áudio e chamar planejar minutos. Ele ajuda a garantir a que você e seus usuários nunca são interceptados sem ser capaz de:
   
@@ -76,7 +77,7 @@ Quando você estiver configurando créditos de comunicações, você precisará 
   
 ## <a name="recommended-funding-amounts"></a>Quantias de financiamento recomendadas
 
-É recomendável que você comece usando uma pequena quantidade de financiamento, que poderia ser até mesmo o mínimo de US $20 para organizações menores. Depois de reunir um ou dois meses de uso PSTN usando o relatório de detalhes de uso do PSTN, você poderá ajustar os valores para atender o uso normal em sua organização.
+É recomendável que você comece usando uma pequena quantidade de financiamento, que poderia ser até mesmo o mínimo de US $50 para organizações menores. Depois de reunir um ou dois meses de uso PSTN usando o relatório de detalhes de uso do PSTN, você poderá ajustar os valores para atender o uso normal em sua organização.
   
 Se você estiver pronto para defini-la sempre para cima, consulte [Configurar créditos de comunicações para sua organização](set-up-communications-credits-for-your-organization.md).
   
@@ -84,11 +85,11 @@ Se você estiver pronto para defini-la sempre para cima, consulte [Configurar cr
 
 Você pode ver os planos e preços do visitando um dos seguintes links:
   
-- [Planos de chamada](https://go.microsoft.com/fwlink/?linkid=799761)
+- [Planos de Chamadas](https://go.microsoft.com/fwlink/?linkid=799761)
     
 - [Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762)
     
-- [Sistema telefônico](https://go.microsoft.com/fwlink/?linkid=799763 )
+- [Sistema de Telefonia](https://go.microsoft.com/fwlink/?linkid=799763 )
     
 Você também pode ver informações sobre preços entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.
   
