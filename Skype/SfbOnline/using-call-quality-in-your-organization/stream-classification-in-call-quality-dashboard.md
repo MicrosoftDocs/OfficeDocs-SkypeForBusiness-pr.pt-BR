@@ -17,16 +17,16 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 7806178b355d3f86cbc470f6d7401b3f76077b12
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 6cd19fb1f163f6e7a9e11598b03f539b5fc1a02d
+ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246619"
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20327074"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classificação de fluxo no Painel de Qualidade de Chamadas
 
-Com o Painel de Qualidade de Chamadas (PQC) para o Microsoft Teams e o Skype for Business Online, você tem acesso a informações sobre a qualidade das chamadas feitas usando os serviços do Microsoft Teams e Skype for Business. Este tópico fornece informações detalhadas sobre a classificação de qualidade dos fluxos de mídia. Para saber mais sobre o PQC e como habilitá-lo, veja [Ativar e usar o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md).
+Com o PQC (Painel de Qualidade de Chamadas) para o Microsoft Teams e Skype for Business Online, você tem acesso a informações sobre a qualidade das chamadas feitas usando os serviços do Microsoft Teams e do Skype for Business. Este tópico fornece informações detalhadas sobre a classificação de qualidade dos fluxos de mídia. Para saber mais sobre o PQC e como habilitá-lo, veja [Ativar e usar o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>Definições do classificador
 
@@ -38,11 +38,11 @@ Um fluxo de áudio é marcado como ruim se uma ou mais das seguintes condições
 
 |**Métrica**|**Condição**|**Explicação**|
 |:-----|:-----|:-----|
-|Média de degradação de áudio|> 1,0|Média da degradação da pontuação média de opinião sobre a rede para stream. Representa o quanto a perda e a tremulação da rede afetou a qualidade do áudio recebido.|
-|Viagem de ida e volta|> 500|Tempo médio de propagação da rede de ida e volta calculado conforme especificado em RFC3550 em milissegundos.|
-|Taxa de perda de pacotes|> 0,1|Taxa média de perda de pacote do stream.|
-|Tremulação|> 30|Média de tremulação para stream em milissegundos.|
-|Taxa média de amostras escondidas|> 0,07|Taxa média do número de quadros de áudio com amostras ocultas geradas por recuperação de perda de pacotes para o número total de quadros de áudio.|
+|Média de degradação de áudio|> 1,0|Média da degradação da pontuação média de opinião sobre a rede para transmissão. Representa o quanto a perda e a tremulação da rede afetou a qualidade do áudio recebido.|
+|Viagem de ida e volta|> 500|Tempo médio da viagem de ida e volta de propagação da rede calculado conforme especificado em RFC3550 em milissegundos.|
+|Taxa de perda de pacotes|> 0,1|Taxa média de perda de pacotes da transmissão.|
+|Tremulação|> 30|Média de tremulação para transmissão em milissegundos.|
+|Taxa média de amostras ocultas|> 0,07|Taxa média do número de quadros de áudio com amostras ocultas geradas por recuperação de perda de pacotes para o número total de quadros de áudio.|
 
 ### <a name="video-classifier"></a>Classificador de Vídeo
 
@@ -51,8 +51,8 @@ Um fluxo de vídeo é marcado como bom ou ruim com base no valor da primeira mé
 |**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Média percentual de perda de quadros de vídeo locais|> 50% |Ruim|Bom|Seguir para a Etapa 2|Porcentagem média da perda dos quadros de vídeo conforme exibido para o usuário. Isso inclui quadros recuperados das perdas de rede.|
-|2|Média da taxa de quadros de vídeo|<7|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para um stream de vídeo calculados durante a sessão.|
-|3|Postagem de vídeo FECPLR|> 0,15|Ruim|Bom|Não classificado|Taxa de perda de pacotes após a aplicação de FEC ter sido agregada em todos os fluxos e codecs de vídeo.|
+|2|Média da taxa de quadros de vídeo|<7|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para uma transmissão de vídeo calculados durante a sessão.|
+|3|Postagem de vídeo FECPLR|> 0,15|Ruim|Bom|Não classificado|Taxa de perda de pacotes após a aplicação de FEC ter sido agregada em todos as transmissões e codecs de vídeo.|
 
 ### <a name="vbss-classifier"></a>Classificador VBSS
 
@@ -60,9 +60,9 @@ Um fluxo VBSS é marcado como bom ou ruim com base no valor da primeira métrica
 
 |**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Média percentual de perda de quadros VBSS locais|> 50% |Ruim|Bom|Seguir para a Etapa 2|Porcentagem média da perda dos quadros de vídeo conforme exibido para o usuário. Isso inclui quadros recuperados das perdas de rede.|
-|2|Média da taxa de quadros VBSS|< 2|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para um stream de vídeo calculados durante a sessão.|
-|3|Postagem de VBSS FECPLR|> 0,15|Ruim|Bom|Não classificado|Não classificado|Taxa de perda de pacotes após a aplicação de FEC ter sido agregada em todos os fluxos e codecs de vídeo.|
+|1|Média percentual de perda de quadros de vídeo locais|> 50% |Ruim|Bom|Seguir para a Etapa 2|Porcentagem média da perda dos quadros de vídeo conforme exibido para o usuário. Isso inclui quadros recuperados das perdas de rede.|
+|2|Média da taxa de quadros de vídeo|< 2|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para uma transmissão de vídeo calculados durante a sessão.|
+|3|Postagem de vídeo FECPLR|> 0,15|Ruim|Bom|Não classificado|Taxa de perda de pacotes após a aplicação de FEC ter sido agregada em todos as transmissões e codecs de vídeo.|
 
 ### <a name="application-sharing-classifier"></a>Classificador de compartilhamento de aplicativos
 
@@ -70,7 +70,7 @@ Um fluxo de compartilhamento de aplicativo é marcado como ruim se uma ou mais d
 
 **Métrica**|**Condição**|**Explicação**|
 |:-----|:-----|:-----|
-|Total percentual de blocos descartados|>36|Porcentagem de blocos que são descartados em vez de serem enviados para um ponto remoto (por exemplo, da MCU para um visualizador). Os blocos descartados podem ser causados por restrições de largura de banda entre o cliente e o servidor.|
+|Total percentual de blocos danificados|>36|Percentual de blocos que são descartados em vez de serem enviados para um par remoto (por exemplo, da MCU para um visualizador). Os blocos descartados podem ser causados por restrições de largura de banda entre o cliente e o servidor.|
 |Média de latência de processamento de blocos RDP no Compartilhamento de Aplicativo|> 400|Média de latência de blocos de processamento em milissegundos na pilha RDP no servidor de conferência.|
 |Média unidirecional relativa do compartilhamento de aplicativo|> 1,75|Média de atraso unidirecional relativo entre os pontos de extremidade em milissegundos para fluxos de compartilhamento de aplicativo.|
 
@@ -99,8 +99,8 @@ Se a conectividade ICE for bem-sucedida para um fluxo não classificado, o fluxo
 > A dimensão "Utilização de pacote" e a medida "Utilização média de pacote" podem ser usadas para determinar a atividade de pacote de um fluxo.
 
 
-## <a name="related-topics"></a>Tópicos Relacionados
-[Ativando e usando o Painel de Qualidade de Chamadas (PQC)](turning-on-and-using-call-quality-dashboard.md)
+## <a name="related-topics"></a>Tópicos relacionados
+[Ativar e usar o Painel de Qualidade de Chamadas (PQC)](turning-on-and-using-call-quality-dashboard.md)
 
 [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
