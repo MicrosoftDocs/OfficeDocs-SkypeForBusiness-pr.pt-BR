@@ -3,7 +3,7 @@ title: Execute o Microsoft Teams em um ambiente virtual
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/12/2018
+ms.date: 07/13/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d00ee6a3c14b5a1bb97685124293b13977c323af
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: 08a82c2450d238a59d7e076ceb95368c3dce91e2
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20328722"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363919"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Execute o Microsoft Teams em um ambiente virtual
 ============================================
@@ -55,7 +55,7 @@ Os cmdlets *CsTeamsCallingPolicy* permitem que os administradores controlem se c
 \>> *Import-PSSession $sfboSession*<br>
 3.  Exiba a lista de opções de política de chamada:<br>
 \>> *Get-CsTeamsCallingPolicy*
-4.  Procure a opção pré-configurado onde todas as políticas de reunião são desabilitadas:<br>
+4.  Procure a opção pré-configurado onde todas as diretivas de chamada são desabilitadas:<br>
 ![Captura de tela da opção de reuniões com todas as políticas de reunião desabilitada.](media/virtual-environment-image2.png)
 5.  Aplique a opção de política pré-configurado "DisallowCalling" para todos os usuários que usarão as equipes em um ambiente virtualizado:<br>
 \>> *Grant-CsTeamsMeetingPolicy - PolicyName AllOff-Identity "id de email do usuário"*

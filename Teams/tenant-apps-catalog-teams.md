@@ -3,7 +3,7 @@ title: Publicar aplicativos para o catálogo de aplicativos do locatário equipe
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 06/26/2018
+ms.date: 07/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -12,18 +12,15 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 298caf3cee6fe6af38f22ef9ac7dd85991fd6dba
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 11db7dec3122de3eb783152483a1575cf92dc585
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20050448"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20363901"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos para o catálogo de aplicativos do locatário equipes da Microsoft
 =======================================================
-
-> [!IMPORTANT]
-> Esta página descreve um recurso de pré-lançamento e contém conteúdo preliminar que pode ser alterado substancialmente antes do lançamento. Qualquer capturas de tela são espaços reservados e podem parecer diferentes de que você vê.
 
 Você pode usar o catálogo de aplicativos do Microsoft equipes locatário para testar e distribuir aplicativos de linha de negócios para sua organização. 
 

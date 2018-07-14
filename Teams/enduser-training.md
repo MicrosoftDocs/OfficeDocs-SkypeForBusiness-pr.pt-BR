@@ -10,12 +10,12 @@ ms.reviewer: lolaj, ninadara
 description: Os recursos de treinamento que o administrador pode utilizar para ter sucesso na implantação e adoção do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c490717f0b2b6242735a01bd4e420588b3b06f
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 95841fe18e8435d319c4f1c5e5e7c5754a46d0c6
+ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266104"
+ms.lasthandoff: 07/14/2018
+ms.locfileid: "20361126"
 ---
 <a name="end-user-training-for-microsoft-teams"></a>Treinamento para o usuário final do Microsoft Teams
 =====================================
@@ -33,9 +33,8 @@ Use esses recursos de treinamento para ajudar sua organização a agregar valor 
 | [Canal do YouTube do Microsoft Teams](https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw) |  |
 | [Canal Coffee in the Cloud no YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) |Vídeos de instruções, práticas recomendadas e revisão de recursos  |
 | Introdução ao Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/GPmjfqnvuG4" frameborder="0" allowfullscreen></iframe>   |
-| Introdução às equipes da Microsoft para educação  | <iframe width="350" height="200" src="https://youtu.be/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
-| Cinco minutos para configurar ótimas equipes, canais e guias   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
-| Colaborar amplamente - adicionar convidados a sua equipe da Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   |
-| Acelerar seu Collaboration - usando a barra de comandos em equipes da Microsoft  | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
+| Introdução às equipes da Microsoft para educação  | <iframe width="350" height="200" src="https://youtube.com/embed/xz4Jn_OtdUI" frameborder="0" allowfullscreen></iframe>   |
+
+| 5 minutos à configuração de guias, canais e equipes ótima | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | | Colaborar amplamente - adicionar convidados a sua equipe Microsoft | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | | Acelerar seu Collaboration - usando a barra de comandos em equipes da Microsoft | <iframe width="350" height="200" src="https://www.youtube.com/embed/wYrRCRphrp0" frameborder="0" allowfullscreen></iframe>   |
 
 
