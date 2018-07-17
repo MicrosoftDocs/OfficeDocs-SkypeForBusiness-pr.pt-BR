@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: 8c473ee6d1d94b2f382c43ad1383546a69138781
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397144"
+ms.locfileid: "20412273"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
  
@@ -49,7 +49,7 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
 |Console|Processador|RAM|Disco|
 |:-----|:-----|:-----|:-----|
 |[Hub de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo i5  |8GB  |128GB  |  
- <!-- HP dock is still pending  -->  
+|[Fatia de Elite HP para G2 salas de reunião](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo i5  |8GB  |128GB  |  
     
 - Uma das seguintes opções de estação de encaixe para proteger um tablet à reunião sala tabela. 
     

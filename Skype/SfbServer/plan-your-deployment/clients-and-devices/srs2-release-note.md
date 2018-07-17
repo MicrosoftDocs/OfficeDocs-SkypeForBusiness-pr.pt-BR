@@ -1,7 +1,7 @@
 ---
 title: Notas de versão
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: 3c8c314000fddf78f9247efaefa989f586c1e7b4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: bd99a4c3772836d6352228bfd90cecd592af557f
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412322"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -97,8 +98,7 @@ Introduzido nessa atualização:
 - Capacidade de fazer comentários para compilações públicas     
 - Telemetria aprimorada em torno de confiabilidade de participação da reunião     
 - Relatórios de OMS adicionais     
-- Capacidade do administrador de TI configurar dispositivos remotamente 
-    <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Capacidade do administrador de TI configurar dispositivos remotamente<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
@@ -139,8 +139,6 @@ Introduzido nessa atualização:
 <a name="See"> </a>  
 ## <a name="see-also"></a>Ver também
 
-
-#### 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Preparar seu Skype para ambiente de negócios](srs-v2-prep.md)
@@ -149,6 +147,6 @@ Introduzido nessa atualização:
 
 [Problemas conhecidos para sistemas de sala Skype v2](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Planejar a sala Skype v2 de sistemas](skype-room-systems-v2-0.md)
+[Planejar o Skype Room Systems versão 2](skype-room-systems-v2-0.md)
 
-[Gerenciar Skype sala v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar o Skype Room Systems versão 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
