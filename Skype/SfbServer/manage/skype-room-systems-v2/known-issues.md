@@ -1,7 +1,7 @@
 ---
 title: Problemas conhecidos
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo aborda os problemas conhecidos do Skype sala sistemas v2, pela área de recurso.
-ms.openlocfilehash: 2fde12d616260963dc342df2d9cef94acf616756
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 2880cdfd2098a0c6ac63e5aab8157e76381943f6
+ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881539"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20412308"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -24,7 +24,7 @@ Este artigo lista os problemas conhecidos para sistemas de sala Skype v2, pela �
 <a name="update"> </a>  
 ## <a name="update"></a>Atualização 
 
-| Título do problema |  Comportamento \/ sintoma | Para solucionar esse problema conhecido | Artigo da KB |
+| Título do problema |  Comportamento \/ sintoma | Solução alternativa conhecida | Artigo da KB |
 |  ---        |      ---             |   ---            | --- |
 |  App desatualizada         |    O console do Skype sala sistemas v2 mostra um erro "system config desatualizada".                |   [Use a ferramenta de recuperação de v2 de sistemas de sala do Skype](recovery-tool.md)             |  Nenhum |
 
@@ -32,7 +32,7 @@ Este artigo lista os problemas conhecidos para sistemas de sala Skype v2, pela �
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Interface do usuário 
 
-| Título do problema |  Comportamento \/ sintoma | Para solucionar esse problema conhecido | Artigo da KB |
+| Título do problema |  Comportamento \/ sintoma | Solução alternativa conhecida | Artigo da KB |
 |  ---        |      ---             |   ---            | --- |
 |Teclado virtual ausentes   | O teclado virtual não aparece quando você precisa inserir informações nos sistemas de sala Skype v2. Esse problema ocorre após a atualização de criadores de 10 do Windows (versão 1703) está instalada no 4 Surface Pro no qual sistemas de sala Skype v2 estiver em execução. | Para contornar esse problema, abra o teclado virtual manualmente. Para fazer isso, siga estas etapas:<br><br> **1.** toque e mantenha a barra de tarefas e, em seguida, toque em botão **teclado de toque de Mostrar** . Um ícone de teclado deve aparecer no lado direito da barra de tarefas. <br><br> **2.** toque no ícone de teclado para abrir o teclado virtual. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
    
@@ -40,7 +40,7 @@ Este artigo lista os problemas conhecidos para sistemas de sala Skype v2, pela �
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Hardware
 
-| Título do problema |  Comportamento \/ sintoma | Para solucionar esse problema conhecido | Artigo da KB |
+| Título do problema |  Comportamento \/ sintoma | Solução alternativa conhecida | Artigo da KB |
 |  ---        |      ---             |   ---            |   --- |
 | Monitores não detectados | Quando você executar sistemas de sala Skype v2 em um dispositivo Surface Pro (modelo de 2017), monitores não são detectados. |  Mantenha pressionado o botão de alimentação de Surface Pro por 20 ou mais segundos. Quando você fizer isso, o dispositivo é reiniciado e limpa o cache de elementos gráficos. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
           
@@ -63,4 +63,4 @@ A versão de 64 bits do edition de aniversário no Windows 10 Enterprise (idioma
 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Gerenciar Skype sala v2 de sistemas](skype-room-systems-v2.md)
+[Gerenciar o Skype Room Systems versão 2](skype-room-systems-v2.md)
