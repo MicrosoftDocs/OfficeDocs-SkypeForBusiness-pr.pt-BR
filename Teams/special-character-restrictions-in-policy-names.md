@@ -17,26 +17,92 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - me.teamsadmincenter.policies.naming.error
 description: Consulte quais problemas que existem com caracteres especiais nos nomes de políticas e o que você pode fazer para corrigi-lo.
-ms.openlocfilehash: 7d835669f0acc7cd2a2e42acb1aa9fa9d2fdf765
-ms.sourcegitcommit: 26d93a15c9d4704c08f3fabc5635839ce2456b2d
+ms.openlocfilehash: 4ddd6a618c42f629acd64162ad608aede6b1819f
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "20205074"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20397085"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caractere especial nas políticas de equipes?
 
-**Embora os caracteres especiais podem ser usados para criar políticas de equipes com o PowerShell, você será limitada no gerenciamento essas políticas.  Sendo assim, é altamente recomendável nomes de política não incluir caracteres especiais.**
+**Você não pode criar ou editar políticas que possuem um caractere especial no nome no Microsoft Teams e Skype para Business Admin Center (para mensagens, reuniões, etc.).** 
 
-Nomes de política que você criar usando o PowerShell para reuniões e bate-papo no equipes podem ter caracteres especiais, como @, #, $. No entanto, se você estiver buscando editar a política no Microsoft Teams e Skype para centro de administração de negócios, você não conseguirá. Você deve usar o Windows PowerShell e o cmdlet diretiva correta para fazer alterações.
+Se um nome de política contiver caracteres especiais, você será limitada no gerenciamento essas diretivas no Microsoft Teams e Skype para Business Admin Center. **Sendo assim, é altamente recomendável que os nomes de política não incluem caracteres especiais**. 
 
-Se você tiver um objeto de diretiva com caracteres especiais e você deseja remover os caracteres especiais para gerenciar melhor a política na Microsoft Teams e Skype para centro de administração de negócios, você precisará usar o abaixo procedimento. 
+Nomes de política que foram criados usando o PowerShell para reuniões e equipes de mensagens podem ter caracteres especiais, como @, #, $. No entanto, se você estiver buscando fazer alterações na política na Microsoft Teams e Skype para Business Admin Center, você não conseguirá. 
 
-Observação: O procedimento organizado aqui usa o exemplo de uma política de mensagens.  O mesmo processo seria usado para outro tipo de política (por exemplo em reuniões) por subsituting os cmdlets relevantes. 
+Se você tiver uma diretiva com caracteres especiais, você precisará editar a política usando o Windows PowerShell (para sempre) ou criar uma nova política no Microsoft Teams e Skype para centro de administração de negócios com as mesmas configurações como a diretiva old e atribuí-lo para o mesmo agrupar p de usuários.
 
-1). chamar Get-CSMessagingPolicy-identity < nome_da_diretiva_antiga > e capture a saída da política.
-2). chamar Set-CSMessagingPolicy-identity < nome_da_diretiva_nova > para criar uma nova política com a mesma configuração como a diretiva original, mas sem caracteres especiais no nome de usuário.
-3.) chamada Delete-CSMessagingPolicy-identity < nome_da_diretiva_antiga > para excluir a diretiva.  Se este comando for bem-sucedido, você terminar e pode começar a atribuir usuários à nova diretiva usando o PowerShell ou o Microsoft Teams e Skype para centro de administração de negócios.
-4.) se o comando acima não tiver êxito, é porque a diretiva old foi atribuída a um usuário.  Executar retirar a atribuição de cmdlet para retirar a atribuição de política de usuário, atribua a nova política e execute dwlete novamente.
+## <a name="to-remove-special-characters"></a>Para remover caracteres especiais
 
 
+
+**Etapa 1 - fazer uma conexão remota com o PowerShell.** 
+ [Configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , se ainda não o fez.
+```
+ Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+ $credential = Get-Credential
+ $session = New-CsOnlineSession -Credential $credential
+ Import-PSSession $session
+```
+
+
+**Etapa 2 - Obtenha as configurações para a diretiva old e capturar a saída.**
+
+> [!NOTE]
+> Este exemplo é para uma política de [mensagens](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  As etapas que podem ser as mesmas para outros tipos de política, mas você deve usar o cmdlet correto. 
+
+  ```
+  Get-CsTeamsMessagingPolicy -id <old_policy_name>
+  ```
+
+
+**Etapa 3: criar uma nova política.**
+
+Você pode criar a nova política com a mesma configuração usando o Microsoft Teams e Skype para o Centro de administração de negócios ou PowerShell.
+
+Executando isso criará uma nova política para você, mas você precisará adicionar as configurações corretas vendo [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) e, em seguida, executá-lo:
+
+  ```
+  Set-CsTeamsMessagingPolicy -id <new_policy_name>
+ ```
+**Etapa 4 - atribuir a política.**
+ ```
+Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
+ ```
+Consulte, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
+
+**Etapa 5 - excluir a diretiva old.**
+
+Isso excluirá a diretiva old com os caracteres especiais.
+  ```
+  Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
+  ```
+Consulte, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
+
+Se este comando for bem-sucedido, terminar. Se o comando acima retornará um erro, é porque a diretiva old é atribuída a usuários e, portanto, você precisará executar para remover todos os usuários atribuídos da diretiva:
+
+```
+Grant-CsMessagingPolicy -Policy <old_policy_name> $null
+```
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
+
+O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
+    
+  - [Por que você precisa usar o PowerShell do Office 365?](https://go.microsoft.com/fwlink/?LinkId=525041)
+    
+  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+    
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações nas configurações de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
+    
+  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+    
+    [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+    
+  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+    
+    > [!NOTE]
+    > O módulo do Windows PowerShell para Skype para Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype para Business Online e Teams da Microsoft. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
+  
+### <a name="related-topics"></a>Tópicos relacionados

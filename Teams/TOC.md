@@ -95,19 +95,52 @@
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
-# [Jornada de migração do Skype for Business para o Teams](Journey-SkypeforBusiness-Teams.md)
-## [1 - Otimize o seu ambiente atual do Skype for Business para o Teams](prepare-teams.md)
-### [1.1 - detecção ambiental para distribuição de equipes da Microsoft](environmental-discovery-for-microsoft-teams-rollout.md)
-## [2 - Piloto do Teams paralelamente ao Skype for Business](pilot-essentials.md)
-### [2.1 - Selecione os usuários para seu piloto de equipes](select-users-for-your-teams-pilot.md)
-## [3 - entender a coexistência e atualizar modos Skype for Business e equipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [3.1 - equipes e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-## [4 - Gerar valor através da adoção dos usuários](continue-journey.md)
-## [Perguntas frequentes - visão do Skype for Business e do Teams](FAQ-journey.md)
-## [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
-<!-- ============================================================ -->
+<!-- 
+# [Journey from Skype for Business to Teams](Journey-SkypeforBusiness-Teams.md)
+## [1 - Optimize your current Skype for Business environment for Teams](prepare-teams.md)
+### [1.1 - Environmental Discovery for Microsoft Teams Rollout](environmental-discovery-for-microsoft-teams-rollout.md)
+## [2 - Pilot Teams alongside Skype for Business](pilot-essentials.md)
+### [2.1 - Select users for your Teams pilot](select-users-for-your-teams-pilot.md)
+## [3 - Understand coexistence and upgrade modes for Skype for Business and Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [3.1 - Teams and Skype for Business coexistence and interoperability](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+## [4 - Drive value through user adoption](continue-journey.md)
+## [FAQ - Skype for Business & Teams vision](FAQ-journey.md)
+## [Tutorial: Journey from Skype for Business to Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+ -->
 
+<!-- NEW ============================================================ -->
+# [Atualização do Skype for Business para equipes da Microsoft](Journey-SkypeforBusiness-Teams.md)
+## [Tutorial: Jornada de migração do Skype for Business para o Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Atualização básica](upgrade-basic.md)
+### [Pesquisas e emails de amostra](upgrade-emails-surveys.md)
+## [Atualizar Pro](upgrade-pro.md)
+## [Planejar sua jornada de atualização](upgrade-plan-journey.md)
+### [Inscrever seus participantes do projeto](upgrade-enlist-stakeholders.md)
+### [Definir o escopo do projeto](upgrade-define-project-scope.md)
+### [Entender a interoperabilidade e coexistência](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [Escolha sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Planejar a qualidade](upgrade-plan-for-quality.md)
+## [Preparar seu ambiente para equipes](upgrade-prepare-environment.md)
+### [Preparar a equipe de TI para equipes](upgrade-prepare-IT-pros.md)
+### [Pré-requisitos](upgrade-plan-journey-prerequisites.md)
+### [Avaliar o seu ambiente](upgrade-plan-journey-evaluate-environment.md)
+### [Prepare a sua rede](upgrade-prepare-environment-prepare-network.md)
+### [Preparar seu serviço](upgrade-prepare-environment-prepare-service.md)
+## [Preparar sua organização para equipes](upgrade-prepare-organization.md)
+### [Avalie a preparação de alteração organizacional](upgrade-org-change-readiness.md)
+### [Preparar um plano de preparação do usuário](upgrade-user-readiness.md)
+## [Conduza um piloto de usuário](pilot-essentials.md)
+## [Executar a atualização para equipes](upgrade-to-teams.md)
+### [Atualização do Skype para negócios Online para equipes](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+### [Atualizar do Skype para o híbrido de negócios para equipes](upgrade-to-Teams-execute-SkypeforBusinessHybrid.md)
+### [Atualização do Skype para negócios local para equipes](upgrade-to-Teams-execute-SkypeforBusinessOnpremises.md)
+## [Unidade de valor por meio de adoção de usuário](continue-journey.md)
+### [Operar o seu serviço](upgrade-operate-my-service.md)
+### [Monitorar a qualidade](upgrade-monitor-quality.md)
+### [Melhorar seu serviço](upgrade-enhance-my-service.md)
+## [Perguntas Freqüentes](FAQ-journey.md)
+
+<!-- END NEW ============================================================ -->
 
 <!-- ============================================================ -->
 # Segurança e conformidade
