@@ -16,9 +16,10 @@
 ## [URLs do Office 365 e intervalos de endereços IP](office-365-urls-ip-address-ranges.md)
 ## [Especificações para equipes e limites](limits-specifications-teams.md)
 ## [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-office-365-groups.md)
-## [Criar a estratégia de gerenciamento de alteração](change-management-strategy.md)
 ## [Obter ferramentas para dar suporte na implantação do Teams](rollout-tools.md)
 ## [Planejar Microsoft 365 governamental - implantações GCC](plan-for-government-gcc.md)
+## Incentivar a adoção
+### [Criar a estratégia de gerenciamento de alteração](change-management-strategy.md)
 <!-- ============================================================ -->
 
 
