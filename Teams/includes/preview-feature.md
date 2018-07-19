@@ -1,1 +1,1 @@
-<span data-ttu-id="5e732-101">Este é um recurso de versão prévia ou lançamento antecipado.</span><span class="sxs-lookup"><span data-stu-id="5e732-101">This is a preview or early release feature.</span></span>
+<span data-ttu-id="1dadd-101">Este é um recurso de versão prévia ou lançamento antecipado.</span><span class="sxs-lookup"><span data-stu-id="1dadd-101">This is a preview or early release feature.</span></span>
