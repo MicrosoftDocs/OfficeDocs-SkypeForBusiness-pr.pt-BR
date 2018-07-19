@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: e99b425e16bb26ff8fc8f225b703b46224d1f4a4
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 405b7cd6fefd7fb6fbd6168957bbc2b41a83bea8
+ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412273"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "20509532"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
  
@@ -125,8 +125,8 @@ As tabelas a seguir fornecem recomendações para periféricos com base no taman
 
 Para criar sua própria imagem do Skype sala sistemas v2, siga as instruções em [Configure um console do Skype sala sistemas v2](../../deploy/deploy-clients/console.md). Essas instruções vão orientá-lo por meio de baixar todo o software necessário para o processo de instalação. 
 
-    > [!NOTE]
-    > IT professionals will need access to Windows 10 Enterprise ISO files through their volume licensing agreement.
+> [!NOTE]
+> Profissionais de TI precisará ter acesso aos arquivos do Windows 10 Enterprise ISO por meio de seu contrato de licenciamento por volume.
 
 Além disso, você pode querer uma cópia do [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), frequentemente usadas para provisionar contas do Skype sala sistemas v2.
 
