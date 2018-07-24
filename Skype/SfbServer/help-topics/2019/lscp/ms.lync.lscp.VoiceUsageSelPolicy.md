@@ -10,15 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
-description: Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte gerenciar Skype for Business Server 2015.
-ms.openlocfilehash: b289a1feb739940193f6a32c98d59e54a2d8cb01
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte gerenciar Skype for Business Server.
+ms.openlocfilehash: e8ba3e0b0c23608876b5fa193b25bde10bf59f90
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049069"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972931"
 ---
-# <a name="voice-usage-policy"></a><span data-ttu-id="b8756-103">Política de uso de voz</span><span class="sxs-lookup"><span data-stu-id="b8756-103">Voice Usage Policy</span></span>
+# <a name="voice-usage-policy"></a><span data-ttu-id="07c60-103">Política de uso de voz</span><span class="sxs-lookup"><span data-stu-id="07c60-103">Voice Usage Policy</span></span>
  
  
   

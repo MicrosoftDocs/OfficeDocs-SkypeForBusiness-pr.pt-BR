@@ -3,7 +3,7 @@ title: Definir o endereço IP do Gateway PSTN ou IP
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Você pode definir os endereços IPv4 ou IPv6 para o gateway IP ou telefone PSTN (rede) de telefônica comutada selecionando habilitar IPv4 ou IPv6 habilitar. Você pode escolher Use todos os endereços IP configurados ou limitar o uso do serviço aos endereços IP selecionados.
-ms.openlocfilehash: 13e8cd916a568174b754ba8804faeb2612656421
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6f1ec0f4364c95b36092d74b27df1d3ba27fe0ac
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003557"
 ---
-# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="32fc1-104">Definir o endereço IP do Gateway PSTN ou IP</span><span class="sxs-lookup"><span data-stu-id="32fc1-104">Define the IP Address of the IP or PSTN Gateway</span></span>
+# <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a><span data-ttu-id="8bd19-104">Definir o endereço IP do Gateway PSTN ou IP</span><span class="sxs-lookup"><span data-stu-id="8bd19-104">Define the IP Address of the IP or PSTN Gateway</span></span>
  
-<span data-ttu-id="32fc1-105">Você pode definir os endereços IPv4 ou IPv6 para o gateway IP ou telefone PSTN (rede) de telefônica comutada selecionando **Habilitar IPv4** ou **IPv6 habilitar**.</span><span class="sxs-lookup"><span data-stu-id="32fc1-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="32fc1-106">Você pode escolher **usar todos os endereços IP configurados** ou **limitar o uso do serviço aos endereços IP selecionados**.</span><span class="sxs-lookup"><span data-stu-id="32fc1-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
+<span data-ttu-id="8bd19-105">Você pode definir os endereços IPv4 ou IPv6 para o gateway IP ou telefone PSTN (rede) de telefônica comutada selecionando **Habilitar IPv4** ou **IPv6 habilitar**.</span><span class="sxs-lookup"><span data-stu-id="8bd19-105">You define the IPv4 or IPv6 addresses for the IP or phone switched telephone network (PSTN) gateway by selecting either **Enable IPv4** or **Enable IPv6**.</span></span> <span data-ttu-id="8bd19-106">Você pode escolher **usar todos os endereços IP configurados** ou **limitar o uso do serviço aos endereços IP selecionados**.</span><span class="sxs-lookup"><span data-stu-id="8bd19-106">You can choose either **Use all configured IP addresses** or **Limit service usage to selected IP addresses**.</span></span>
   
-<span data-ttu-id="32fc1-107">Se você selecionar **usar todos os endereços IP configurados**, todos os endereços configurados no gateway serão usados.</span><span class="sxs-lookup"><span data-stu-id="32fc1-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="32fc1-108">Opcionalmente, selecione **limitar o uso do serviço para selecionado endereços IP**, que permite a entrada de **endereço IP PSTN** .</span><span class="sxs-lookup"><span data-stu-id="32fc1-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="32fc1-109">Insira o endereço IPv4 ou IPv6 que foi atribuído para este gateway.</span><span class="sxs-lookup"><span data-stu-id="32fc1-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
+<span data-ttu-id="8bd19-107">Se você selecionar **usar todos os endereços IP configurados**, todos os endereços configurados no gateway serão usados.</span><span class="sxs-lookup"><span data-stu-id="8bd19-107">If you select **Use all configured IP addresses**, all addresses configured on the gateway will be used.</span></span> <span data-ttu-id="8bd19-108">Opcionalmente, selecione **limitar o uso do serviço para selecionado endereços IP**, que permite a entrada de **endereço IP PSTN** .</span><span class="sxs-lookup"><span data-stu-id="8bd19-108">Optionally, select **Limit service usage to selected IP addresses**, which enables the **PSTN IP address** entry.</span></span> <span data-ttu-id="8bd19-109">Insira o endereço IPv4 ou IPv6 que foi atribuído para este gateway.</span><span class="sxs-lookup"><span data-stu-id="8bd19-109">Enter the IPv4 or IPv6 address that has been assigned for this gateway.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="32fc1-110">Consulte também</span><span class="sxs-lookup"><span data-stu-id="32fc1-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8bd19-110">Consulte também</span><span class="sxs-lookup"><span data-stu-id="8bd19-110">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="32fc1-111">Requisitos de conferência de Dial-In</span><span class="sxs-lookup"><span data-stu-id="32fc1-111">Dial-In Conferencing Requirements</span></span>](http://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)
-
+[<span data-ttu-id="8bd19-111">Requisitos de conferência de Dial-In</span><span class="sxs-lookup"><span data-stu-id="8bd19-111">Dial-In Conferencing Requirements</span></span>](http://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx)

@@ -3,7 +3,7 @@ title: Definir o FQDN do Gateway PSTN
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: Você pode especificar o nome de domínio totalmente qualificado (FQDN) do gateway PSTN (rede) telefônica comutada pública que conectará seus componentes do Enterprise Voice a uma PSTN ou privada Central de comutação telefônica (PBX).
-ms.openlocfilehash: c0aeed79091eab26cb61f953d1f181550d9c824c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4ba646ad500ec27940108a8948e372343887513d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968000"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="2b7ef-103">Definir o FQDN do Gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="2b7ef-103">Define the PSTN Gateway FQDN</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="d7a32-103">Definir o FQDN do Gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="d7a32-103">Define the PSTN Gateway FQDN</span></span>
  
-<span data-ttu-id="2b7ef-104">Você pode especificar o nome de domínio totalmente qualificado (FQDN) do gateway PSTN (rede) telefônica comutada pública que conectará seus componentes do Enterprise Voice a uma PSTN ou privada Central de comutação telefônica (PBX).</span><span class="sxs-lookup"><span data-stu-id="2b7ef-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+<span data-ttu-id="d7a32-104">Você pode especificar o nome de domínio totalmente qualificado (FQDN) do gateway PSTN (rede) telefônica comutada pública que conectará seus componentes do Enterprise Voice a uma PSTN ou privada Central de comutação telefônica (PBX).</span><span class="sxs-lookup"><span data-stu-id="d7a32-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
   
-<span data-ttu-id="2b7ef-105">Para obter detalhes, consulte [PSTN connectivity components no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="2b7ef-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+<span data-ttu-id="d7a32-105">Para obter detalhes, consulte [PSTN connectivity components no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="d7a32-105">For details, see [PSTN connectivity components in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="2b7ef-106">Consulte também</span><span class="sxs-lookup"><span data-stu-id="2b7ef-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7a32-106">Consulte também</span><span class="sxs-lookup"><span data-stu-id="d7a32-106">See also</span></span>
 
-#### 
-
-[<span data-ttu-id="2b7ef-107">Opções de implantação de Gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="2b7ef-107">PSTN Gateway Deployment Options</span></span>](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
-
+[<span data-ttu-id="d7a32-107">Opções de implantação de Gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="d7a32-107">PSTN Gateway Deployment Options</span></span>](http://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

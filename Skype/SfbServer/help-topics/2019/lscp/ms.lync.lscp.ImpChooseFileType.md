@@ -10,22 +10,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
+ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar extensões de tipo de arquivo para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de arquivo Digite extensões. Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria. Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.
-ms.openlocfilehash: 413a53b7dfa3b3b13534df9e64d57063e5c09102
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e9dd652859a5aeda5c1d8a95b20964018b88e3de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979649"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975124"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="e4d05-105">Selecionar extensões de tipo de arquivo</span><span class="sxs-lookup"><span data-stu-id="e4d05-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="f5426-105">Selecionar extensões de tipo de arquivo</span><span class="sxs-lookup"><span data-stu-id="f5426-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="e4d05-106">Use a caixa de diálogo **Selecionar extensões de tipo de arquivo** para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de **extensões de tipo de arquivo**.</span><span class="sxs-lookup"><span data-stu-id="e4d05-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="e4d05-107">Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria.</span><span class="sxs-lookup"><span data-stu-id="e4d05-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="e4d05-108">Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.</span><span class="sxs-lookup"><span data-stu-id="e4d05-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="f5426-106">Use a caixa de diálogo **Selecionar extensões de tipo de arquivo** para selecionar as extensões de tipo de arquivo que você deseja bloquear ou permitir marcando (para bloquear) ou desmarcando (para permitir) as caixas de seleção ao lado das extensões de **extensões de tipo de arquivo**.</span><span class="sxs-lookup"><span data-stu-id="f5426-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="f5426-107">Clique na seta para expandir uma categoria e exibir todas as extensões de tipo de arquivo para essa categoria.</span><span class="sxs-lookup"><span data-stu-id="f5426-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="f5426-108">Se você deseja selecionar todas as extensões de tipo de arquivo para uma categoria, selecione o nome da categoria.</span><span class="sxs-lookup"><span data-stu-id="f5426-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="e4d05-109">Se você não vir a extensão para um tipo de arquivo que você deseja selecionar listada em **extensões de tipo de arquivo**, digite a extensão na caixa de texto em **Adicionar novas extensões de arquivo à lista**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="e4d05-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="f5426-109">Se você não vir a extensão para um tipo de arquivo que você deseja selecionar listada em **extensões de tipo de arquivo**, digite a extensão na caixa de texto em **Adicionar novas extensões de arquivo à lista**e, em seguida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="f5426-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="e4d05-110">Depois que todas as extensões de tipo de arquivo que você deseja adicionar à lista de **extensões de tipo de arquivo selecionados** , clique em **Okey**.</span><span class="sxs-lookup"><span data-stu-id="e4d05-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="f5426-110">Depois que todas as extensões de tipo de arquivo que você deseja adicionar à lista de **extensões de tipo de arquivo selecionados** , clique em **Okey**.</span><span class="sxs-lookup"><span data-stu-id="f5426-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
-<span data-ttu-id="e4d05-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server](../../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="e4d05-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server](../../../manage/manage.md).</span></span>
+ 
   
 

@@ -3,7 +3,6 @@ title: Adicionar Repositório de Servidor SQL de Chat Persistente
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,51 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: Configure os repositórios do SQL Server que fornecerão bancos de dados para o servidor de Chat persistente ou o pool de servidor de Chat persistente.
-ms.openlocfilehash: 9ab15949a4cc051e56407fc56063e4d8980be87e
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: f22530a6fbf53a584383cae170d2076d8228eb2f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977781"
 ---
-# <a name="add-persistent-chat-sql-server-store"></a><span data-ttu-id="5fd8f-103">Adicionar Repositório de Servidor SQL de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="5fd8f-103">Add Persistent Chat SQL Server Store</span></span>
- 
-<span data-ttu-id="5fd8f-104">Configure os repositórios do SQL Server que fornecerão bancos de dados para o servidor de Chat persistente ou o pool de servidor de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-104">You configure the SQL Server stores that will provide databases for the Persistent Chat Server or Persistent Chat Server pool.</span></span>
-  
- <span data-ttu-id="5fd8f-105">**O SQL Server store**: selecione um SQL Server existente e, opcionalmente, uma instância para o Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-105">**SQL Server store**: Select an existing SQL Server and optionally an instance for Persistent Chat.</span></span>
-  
-<span data-ttu-id="5fd8f-106">Clique em **novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para os dados de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-106">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat data.</span></span>
-  
-<span data-ttu-id="5fd8f-107">Marque a caixa de seleção **Habilitar o SQL Server store espelhamento** para configurar um banco de dados do SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-107">Select the **Enable SQL Server store mirroring** checkbox to configure a SQL Server database and optional instance that will provide a mirrored database for the Persistent Chat data.</span></span>
-  
-<span data-ttu-id="5fd8f-108">Selecione na lista **espelhando o SQL Server store** um SQL Server e uma instância opcional para agir como o espelho do SQL Server para o SQL Server de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-108">Select from the list **Mirroring SQL Server store** a SQL Server and optional instance to act as the SQL Server mirror for the Persistent Chat SQL Server.</span></span>
-  
-<span data-ttu-id="5fd8f-109">Clique em **novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para o espelhamento de Persistent Chat SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-109">Click **New** to define a new SQL Server and optionally a new instance for the Persistent Chat SQL Server mirroring.</span></span>
-  
-<span data-ttu-id="5fd8f-110">Na lista **Usar testemunha de espelhamento do SQL Server para habilitar o failover automático**, selecione um SQL Server que atuará como o servidor testemunha em cenários de failover.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-110">Select the list **Use SQL Server mirroring witness to enable automatic failover** a SQL Server that will act as the witness server in failover scenarios.</span></span> <span data-ttu-id="5fd8f-111">O servidor testemunha faz não os dados de espelho ou host para os servidores de Chat persistente, mas garante que apenas um SQL Server em uma configuração espelhada esteja ativo SQL Server a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-111">The witness server does not mirror or host data for the Persistent Chat servers, but ensures that only one SQL Server in a mirrored configuration is the active SQL Server at any time.</span></span>
-  
-<span data-ttu-id="5fd8f-112">Clique em **novo** para definir uma nova testemunha de SQL Server, opcionalmente, uma instância para o servidor de SQL Chat persistente testemunha de espelhamento.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-112">Click **New** to define a new SQL Server witness optionally an instance for the Persistent Chat SQL Server mirroring witness.</span></span>
-  
-<span data-ttu-id="5fd8f-113">Clique em  **Voltar** para voltar à caixa de diálogo de definição de pool anterior.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-113">Click **Back** to go back to the previous pool definition dialog.</span></span>
-  
-<span data-ttu-id="5fd8f-114">Clique em **Avançar** depois de concluir a inserção das opções para configuração de repositório do SQL Server desse pool e para prosseguir com a definição do pool de servidor de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-114">Click **Next** after you have finished entering the options for this pool's SQL Server store configuration and to proceed with the Persistent Chat Server pool definition.</span></span>
-  
-<span data-ttu-id="5fd8f-115">Clique em **Cancelar** para descartar todas as alterações e encerrar o assistente **Definir Novo Pool de Chat Persistente**.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-115">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
-  
-<span data-ttu-id="5fd8f-116">Clique em **Ajuda** para acessar a ajuda contextual, como esta página.</span><span class="sxs-lookup"><span data-stu-id="5fd8f-116">Click **Help** to access context sensitive help, such as this page.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="5fd8f-117">Consulte também</span><span class="sxs-lookup"><span data-stu-id="5fd8f-117">See also</span></span>
+# <a name="add-persistent-chat-sql-server-store"></a><span data-ttu-id="50303-103">Adicionar Repositório de Servidor SQL de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="50303-103">Add Persistent Chat SQL Server Store</span></span>
 
-#### 
-
-[<span data-ttu-id="5fd8f-118">Planejar o servidor de Chat persistente no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="5fd8f-118">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[<span data-ttu-id="5fd8f-119">Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015</span><span class="sxs-lookup"><span data-stu-id="5fd8f-119">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-  
-[<span data-ttu-id="5fd8f-120">Requisitos de hardware e software para o servidor de Chat persistente no Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="5fd8f-120">Hardware and software requirements for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
-  
-[<span data-ttu-id="5fd8f-121">Requisitos de servidor do Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="5fd8f-121">Server requirements for Skype for Business Server 2015</span></span>](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
-  
-[<span data-ttu-id="5fd8f-122">Noções básicas de topologia para Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="5fd8f-122">Topology Basics for Skype for Business Server 2015</span></span>](../../../plan-your-deployment/topology-basics/topology-basics.md)
-  
-[<span data-ttu-id="5fd8f-123">Configurar alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="5fd8f-123">Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-
+> [!NOTE] 
+> <span data-ttu-id="50303-104">Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="50303-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="50303-105">A mesma funcionalidade está disponível em equipes.</span><span class="sxs-lookup"><span data-stu-id="50303-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="50303-106">Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="50303-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="50303-107">Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="50303-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

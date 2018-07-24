@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para continuar com o processo de solicitação de certificado, clique em Avançar. Para sair do processo sem alterações para o sistema, clique em Cancelar.
-ms.openlocfilehash: 59537798ca6f3ac833cf7b6093842c444a672751
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1c83908d49aa9b614439567bc69f4b100d24c614
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972473"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995178"
 ---
-# <a name="certificate-request-intro"></a><span data-ttu-id="c5aa5-104">Solicitação de certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="c5aa5-104">Certificate Request (Intro)</span></span>
+# <a name="certificate-request-intro"></a><span data-ttu-id="1aeb0-104">Solicitação de certificado (Introdução)</span><span class="sxs-lookup"><span data-stu-id="1aeb0-104">Certificate Request (Intro)</span></span>
  
-<span data-ttu-id="c5aa5-105">Para continuar com o processo de solicitação de certificado, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="c5aa5-105">To continue with the certificate request process, click **Next**.</span></span> <span data-ttu-id="c5aa5-106">Para sair do processo sem alterações para o sistema, clique em **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="c5aa5-106">To exit the process with no changes to the system, click **Cancel**.</span></span>
+<span data-ttu-id="1aeb0-105">Para continuar com o processo de solicitação de certificado, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="1aeb0-105">To continue with the certificate request process, click **Next**.</span></span> <span data-ttu-id="1aeb0-106">Para sair do processo sem alterações para o sistema, clique em **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="1aeb0-106">To exit the process with no changes to the system, click **Cancel**.</span></span>
   
 

@@ -3,7 +3,6 @@ title: Adicionar Página de Próximo Salto de Chat Persistente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/14/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,14 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 description: Use esta página para definir o próximo salto do servidor Persistent Chat Server em sua implantação. Para obter mais informações sobre como implantar o servidor de Chat persistente, consulte implantar Persistent Chat Server in Skype for Business Server 2015.
-ms.openlocfilehash: 0663cf5415f3fbcf8b1b460894f0157ec3838dcb
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 96da8b80f76cf54b03d711b92a38b75eec277900
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020527"
 ---
-# <a name="add-persistent-chat-next-hop-page"></a><span data-ttu-id="6ed96-104">Adicionar Página de Próximo Salto de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="6ed96-104">Add Persistent Chat Next Hop Page</span></span>
- 
-<span data-ttu-id="6ed96-105">Use esta página para definir o próximo salto do servidor Persistent Chat Server em sua implantação.</span><span class="sxs-lookup"><span data-stu-id="6ed96-105">Use this page to define the Next Hop from the Persistent Chat Server server in your deployment.</span></span> <span data-ttu-id="6ed96-106">Para obter mais informações sobre como implantar o servidor de Chat persistente, consulte [Implantar Persistent Chat Server in Skype para Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="6ed96-106">For more information about how to deploy Persistent Chat Server, see [Deploy Persistent Chat Server in Skype for Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md).</span></span> 
+# <a name="add-persistent-chat-next-hop-page"></a><span data-ttu-id="553e0-104">Adicionar Página de Próximo Salto de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="553e0-104">Add Persistent Chat Next Hop Page</span></span>
+
+> [!NOTE] 
+> <span data-ttu-id="553e0-105">Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="553e0-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="553e0-106">A mesma funcionalidade está disponível em equipes.</span><span class="sxs-lookup"><span data-stu-id="553e0-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="553e0-107">Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="553e0-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="553e0-108">Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="553e0-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
   
 
