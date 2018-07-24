@@ -1,26 +1,26 @@
 ---
-title: Gerenciar definições de configuração de reuniões no Skype for Business Server 2015
+title: Gerenciar configurações de reunião no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: 'Resumo: Aprenda a gerenciar configurações de reunião no Skype para Business Server 2015.'
-ms.openlocfilehash: 30b19eee5e298bfaa5eefe1eee50c9ea615b5682
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Aprenda a gerenciar configurações de reunião no Skype para Business Server.'
+ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966063"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar definições de configuração de reuniões no Skype for Business Server 2015
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Gerenciar configurações de reunião no Skype para Business Server
  
-**Resumo:** Saiba como gerenciar configurações de reunião no Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar configurações de reunião no Skype para Business Server.
   
-Este tópico descreve como gerenciar as definições das configurações de reunião. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan para conferências no Skype para Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferência no Skype para Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar as definições das configurações de reunião. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan para conferências no Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 As definições das configurações de reunião informam o tipo de reuniões que os usuários podem criar, além de controlar como (ou até se) usuários anônimos e usuários de conferência discada podem participar dessas reuniões. Observe que essas configurações só afetam reuniões programadas; eles não afetam as reuniões ad hoc criados clicando-se a opção reunir agora Skype para negócios.
   
