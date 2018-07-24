@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Para adicionar URLs simples adicionais para a definição da implantação, especifique a URL da nova URL simple.
-ms.openlocfilehash: 038263195c1c79f06d808de41e9fbec0698c9430
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d86c383213b5dfa5472cec9cb46f67abf220e289
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19996907"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005995"
 ---
 # <a name="add-simple-url"></a>Adicionar URL simples
  
@@ -29,6 +29,5 @@ Para adicionar URLs simples adicionais para a definição da implantação, espe
 > [!IMPORTANT]
 > Você pode ter um discar URL simples e uma URL reunir simples ativa a qualquer momento. Adicionando uma nova URL simples e tornando-o a URL ativa definirão todas as solicitações futuras para usar a nova URL simple. Você deixar a URL simples inativo para lidar com conferências e outras solicitações feitas quando a URL simples mais antiga esteve ativa. 
   
-Para obter mais detalhes sobre como adicionar uma URL simples, consulte [requisitos de DNS para URLs simples no Skype para Business Server 2015](../../../plan-your-deployment/network-requirements/simple-urls.md).
-  
+
 

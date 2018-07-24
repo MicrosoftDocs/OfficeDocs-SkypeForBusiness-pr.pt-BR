@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Use as políticas de arquivamento para habilitar e desabilitar arquivamento para usuários hospedados no Skype para Business Server. Em cada política de Arquivamento, é possível habilitar ou desabilitar o arquivamento para uma das seguintes opções, ou para ambas:'
-ms.openlocfilehash: efe2a17e5f3e85b83e937e38613b630e3a78f7d9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d673aa5474864d99895efc1e16e1e307f078c72f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979964"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973818"
 ---
 # <a name="archiving-policy"></a>Política de Arquivamento
  
@@ -64,5 +65,5 @@ A página  **Política de Arquivamento** lista cada política de Arquivamento co
     
 - **Atualizar** É possível atualizar a página **Política** de arquivamento para verificar o status das opções de todas as políticas de arquivamento.
     
-Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração do Exchange, consulte [Planejar para arquivamento no Skype para Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Deploy arquivamento para Skype para Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)e [Gerenciar o arquivamento no Skype para Business 2015 de servidor](../../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração do Exchange, consulte [planejamento para arquivamento no Skype para Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy arquivamento para Skype para Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e [Gerenciar o arquivamento no Skype para negócios Servidor](../../../manage/archiving/archiving.md).
 

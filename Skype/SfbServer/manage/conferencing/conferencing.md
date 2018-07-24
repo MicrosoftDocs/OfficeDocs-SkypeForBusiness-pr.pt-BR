@@ -1,26 +1,26 @@
 ---
-title: Gerenciar conferências no Skype for Business Server 2015
+title: Gerenciar as conferências em Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
-description: 'Resumo: Saiba como gerenciar as conferências em Skype para Business Server 2015.'
-ms.openlocfilehash: 2239c5aae8754e381bf6cf7b8b41aa6ef31b8033
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como gerenciar as conferências em Skype para Business Server.'
+ms.openlocfilehash: 031c0b19d8132d9c8658702a5bdb30d84b418ae3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973336"
 ---
-# <a name="manage-conferencing-in-skype-for-business-server-2015"></a>Gerenciar conferências no Skype for Business Server 2015
+# <a name="manage-conferencing-in-skype-for-business-server"></a>Gerenciar as conferências em Skype para Business Server
  
-**Resumo:** Saiba como gerenciar as conferências em Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar as conferências em Skype para Business Server.
   
-Este tópico descreve como gerenciar conferências. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan para conferências no Skype para Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferência no Skype para Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar conferências. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan para conferências no Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Em Skype para Business Server, você pode gerenciar os detalhes de conferência especificando a configuração e as configurações de diretiva da seguinte maneira. Observe que os termos conferência e reunião são usados, às vezes, de forma intercambiável. Mas em geral, você pode pensar em uma reunião como uma instância específica de conferência.
   
@@ -135,7 +135,7 @@ Você pode usar o seguinte Skype para cmdlets do Shell de gerenciamento do Busin
 |[Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Modifica as definições de sinalização DTMF (multifrequência de tom dual) utilizadas em conferências discadas.  <br/> |
 |[Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |Modifica um plano de discagem existente.  <br/> |
    
-**Configurações de diretiva PIN**
+**Configurações de política de PIN**
 
 |**Cmdlet**|**Descrição**|
 |:-----|:-----|
@@ -167,7 +167,7 @@ Você pode usar o seguinte Skype para cmdlets do Shell de gerenciamento do Busin
 |[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Verifica se é ou não um par de usuários pode participar de uma Skype para Webconferência Business Server que inclui atividades como compartilhamento ou exibição de slides do PowerPoint, quadros de comunicações ou votações. O cmdlet também verifica se o Skype para serviço de webconferência Business Server pode descobrir os Office Web Apps Server e que um cliente pode carregar um arquivo do PowerPoint para transmissão pelo Office Web Apps Server.  <br/> |
 |[Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Verifica se um usuário pode participar de uma sessão de conferência discada.  <br/> |
 |[Test-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Testa um número de telefone em relação a um plano de discagem (anteriormente conhecido como perfil de localidade) e retorna a regra de normalização que será aplicada ao número, bem como o número convertido depois que a regra de normalização tiver sido aplicada.  <br/> |
-|[Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testa a capacidade de três usuários participem de uma Skype para conferência de serviço de mobilidade do Business Server. O serviço de mobilidade permite que os usuários de celulares como iPhones e Windows Phones fazer coisas como trocar mensagens instantâneas e informações de presença; armazenar e recuperar caixa postal internamente, em vez de com seu provedor sem fio; e aproveitar Skype para recursos de Business Server, como chamada via trabalho e conferências de discagem.  <br/> |
+|[Test-CsMcxConference](https://docs.microsoft.com/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testa a capacidade de três usuários participem de uma Skype para conferência de serviço de mobilidade do Business Server. O serviço de mobilidade permite que os usuários de celulares como iPhones e Windows Phones fazer coisas como trocar mensagens instantâneas e informações de presença; armazenar e recuperar caixa postal internamente, em vez de com seu provedor sem fio; e aproveitar Skype para recursos de Business Server, como chamada via trabalho e conferências de discagem.  <br/> **Observação:** Clientes que usam MCX não são suportados no Skype para Business Server 2019.|
 |[Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Testa a capacidade de um par de usuários para participar, programar e conduzir uma conferência online usando a Unified Communications Web API (UCWA).  <br/> |
 |[Debug-CsDataConference](https://docs.microsoft.com/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Retorna informações de diagnóstico para os recursos de conferência de dados incluídas no Skype para Business Server.  <br/> |
    

@@ -11,12 +11,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
-description: Você pode usar a seção de categoria da página Chat persistente para configurar categorias. Uma categoria de sala de bate-papo persistente é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de listas de controle de acesso (ACLs) para controle dos usuários e dos grupos de usuários que podem criar ou ingressar em salas de chat. É possível usar as categorias para aplicar paredes éticas entre diferentes subdivisões dentro de suas organizações.
-ms.openlocfilehash: 24be7e342e5c87d355d577a05a7039872c0b2602
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: É possível usar a seção Categoria da página Chat Persistente para configurar as categorias. Uma categoria de sala de bate-papo persistente é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de listas de controle de acesso (ACLs) para controle dos usuários e dos grupos de usuários que podem criar ou ingressar em salas de chat. É possível usar as categorias para aplicar paredes éticas entre diferentes subdivisões dentro de suas organizações.
+ms.openlocfilehash: 0e9286d37b0f80ecd1c23a20ebd9852c8a0d712d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011779"
 ---
 # <a name="persistent-chat-category"></a>Categoria de Chat Persistente
  
@@ -75,7 +76,7 @@ Para criar uma nova categoria, consulte [Gerenciar categorias no servidor de Cha
     
 8. Clique em **Confirmar**.
     
-### 
+## <a name="see-also"></a>Consulte também
 
 Para obter detalhes sobre os recursos de servidor de Chat persistente e recursos, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server na Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Gerenciar o servidor de Chat persistente no Skype para Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   

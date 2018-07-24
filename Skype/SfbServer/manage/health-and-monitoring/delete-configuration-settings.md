@@ -1,28 +1,28 @@
 ---
-title: Excluir um conjunto existente das configurações de CDR no Skype for Business Server 2015
+title: Excluir um conjunto existente de definições de configuração de CDR em Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: 'Resumo: Saiba como remover as definições de configuração de CDR em Skype para Business Server 2015.'
-ms.openlocfilehash: d7379817b808ac800694c01014469fe0d159d68f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como remover as definições de configuração de CDR em Skype para Business Server.'
+ms.openlocfilehash: ed8f729d78ea64b230d91d9142d0ba7dae743b0e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003696"
 ---
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server-2015"></a>Excluir um conjunto existente das configurações de CDR no Skype for Business Server 2015
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Excluir um conjunto existente de definições de configuração de CDR em Skype para Business Server
  
-**Resumo:** Saiba como remover as definições de configuração de CDR em Skype para Business Server 2015.
+**Resumo:** Saiba como remover as definições de configuração de CDR em Skype para Business Server.
   
 O registro de detalhes das chamadas (CDR) permite rastrear o uso de aspectos como as sessões de mensagens instantâneas ponto a ponto, chamadas de telefone VoIP e chamadas de conferência. Esses dados de uso incluem informações os usuários envolvidos na chamadas, o horário e o período da chamada.
   
-Quando você instala o Skype para Business Server 2015, uma única coleção global de definições de configuração de CDR é criada para você. Os administradores também têm a opção de criar conjuntos personalizados de definições que podem ser aplicados a locais individuais. Através do design, as definições configuradas no escopo do site têm precedência sobre aquelas no escopo global. Se você excluir as definições no escopo do site, então o CDR será gerenciado nesse site usando as definições globais.
+Quando você instala o Skype para Business Server, uma única coleção global de definições de configuração de CDR é criada para você. Os administradores também têm a opção de criar conjuntos personalizados de definições que podem ser aplicados a locais individuais. Através do design, as definições configuradas no escopo do site têm precedência sobre aquelas no escopo global. Se você excluir as definições no escopo do site, então o CDR será gerenciado nesse site usando as definições globais.
   
 Observe que você também pode "excluir" as definições globais. Contudo, elas não serão realmente removidas. Em vez disso, todas as propriedades nessa coleção serão redefinidas para os valores padrão. Por exemplo, como padrão, a limpeza está ativada em uma coleção de definições de configuração de CDR. Suponha que você modifique a coleção global de forma que a limpeza seja desativada. Se depois você resolver apagar as definições globais, todas as propriedades serão redefinidas para os valores padrão. Nesse caso, isso significa que a exclusão será habilitada novamente.
   
@@ -70,5 +70,5 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove
   
 ## <a name="see-also"></a>Consulte também
 
-[Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server 2015](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

@@ -10,17 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumo: Saiba como gerenciar o servidor de Chat persistente alto disponibilidade e recuperação de desastres em Skype para Business Server 2015.'
-ms.openlocfilehash: 8bc80ff6a38238b81b658a7f4d9620dc3a56b9be
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008220"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Saiba como gerenciar o servidor de Chat persistente alto disponibilidade e recuperação de desastres em Skype para Business Server 2015.
   
 Este tópico descreve como realizar failover e failback volta Persistent Chat Server. Antes de ler este tópico, não deixe de ler [Planejar para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) e Configure [alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business 2015 de servidor](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+
+> [!NOTE]
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
   
 ## <a name="fail-over-persistent-chat-server"></a>Failover de servidor de Chat persistente
 

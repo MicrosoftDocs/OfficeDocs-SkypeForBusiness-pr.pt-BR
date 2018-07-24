@@ -1,26 +1,25 @@
 ---
-title: Usar a autenticação de dois fatores com o cliente Skype for Business e o Skype for Business Server 2015
+title: Usar a autenticação de dois fatores com Skype para o cliente de negócios e Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: 'Resumo: Use a autenticação de dois fatores com Skype para Business Server 2015 e Skype para negócios.'
-ms.openlocfilehash: 081065facfcf01b6bb87bce3d621cf4a6ecd4dd6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Use a autenticação de dois fatores com Skype para Business Server e do Skype para negócios.'
+ms.openlocfilehash: 95e44c50dec37eea86b90317575a09509df80649
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504919"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986548"
 ---
-# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server-2015"></a>Usar a autenticação de dois fatores com o cliente Skype for Business e o Skype for Business Server 2015
+# <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Usar a autenticação de dois fatores com Skype para o cliente de negócios e Skype para Business Server
  
-**Resumo:** Use a autenticação de dois fatores com Skype para Business Server 2015 e Skype para negócios.
+**Resumo:** Use a autenticação de dois fatores com Skype para Business Server e do Skype para negócios.
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Entrar no Skype for Business pela primeira vez
 
@@ -46,7 +45,7 @@ Suas informações de entrada geralmente são configuradas automaticamente quand
 
 Quando tiver terminado de uso do Skype for Business, você pode fechar a exibição, sair de sua sessão ou sair do programa, tudo a partir do menu arquivo. A tabela a seguir explica as diferenças nas opções.
   
-|**Opção**|**O que ele faz**|**Como executá-lo**|
+|**Opção**|**O que ela faz**|**Como executar**|
 |:-----|:-----|:-----|
 |Fechar  <br/> |Fecha o seu vídeo, mas permite que o Skype para sessão de negócios identificado com seu usuário ID continue em execução. Isso acontece para que você possa continuar a obter notificações e a interagir com outras pessoas. <br/> <br/> Você pode obter a exibição de volta a qualquer momento clicando o Skype para o ícone de negócios na barra de tarefas ou área de notificação na parte inferior da tela.  <br/> | Na Skype para a janela principal de negócios, siga um destes procedimentos: <br/> 1. Selecione o botão **Opções** e selecione o **arquivo** > **Close**.  <br/> 2. Clique no botão **Fechar** (X) no canto superior direito da janela. <br/> |
 |Sair  <br/> |Termina a sessão associada com sua ID de usuário, mas Skype para negócios continua a ser executado em segundo plano. Quando você sair, a janela de entrada aparecerá.  <br/> **Dica:** Selecione **Excluir minhas informações de entrada** quando você sair remover o registro de sua ID de logon e senha do computador. Fazer isso torna mais fácil para o pessoal de suporte solucionar problemas de entrada. Também ajuda a garantir que suas informações de entrada fiquem mais seguras ao dificultar que usuários não autorizados façam logon com suas credenciais. <br/> |Na Skype para a janela principal de negócios, selecione o botão **Opções** e selecione o **arquivo** > **Sair**.  <br/> |
@@ -62,7 +61,7 @@ Algumas organizações usam um processo de entrada de várias etapas, chamado de
     
 ### <a name="enroll-your-smart-card"></a>Registrar seu cartão inteligente
 
-Antes de você pode entrar com um cartão inteligente, o cartão deve ser "inscritos" — ou seja, suas credenciais de usuário precisa ser identificados com o cartão. Esse será o caso seja o cartão físico ou virtual. Esse processo talvez já foram transportados saem pelo seu Skype para administrador Business Server 2015. Verifique com eles se você não tiver certeza se que tiver sido estabelecida.
+Antes de você pode entrar com um cartão inteligente, o cartão deve ser "inscritos" — ou seja, suas credenciais de usuário precisa ser identificados com o cartão. Esse será o caso seja o cartão físico ou virtual. Esse processo talvez já foram transportados saem pelo seu Skype para o administrador do servidor de negócios. Verifique com eles se você não tiver certeza se que tiver sido estabelecida.
   
 > [!NOTE]
 > Como cada cartão inteligente virtual está associado apenas com o dispositivo está instalado no, será necessário inscritos de cada computador do Windows 8 que você usa um cartão separado. 
@@ -143,6 +142,6 @@ Antes de usar seu cartão inteligente pela primeira vez, é recomendável que vo
   
 ## <a name="see-also"></a>Consulte também
 
-[Gerenciar a autenticação de dois fatores em Skype para Business Server 2015](two-factor-authentication.md)
+[Gerenciar a autenticação de dois fatores no Skype para Business Server](two-factor-authentication.md)
   
-[Configurar a autenticação de dois fatores no Skype para Business Server 2015](configure.md)
+[Configurar a autenticação de dois fatores no Skype para Business Server](configure.md)

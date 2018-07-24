@@ -3,7 +3,6 @@ title: Expansor de Máquinas de Chat Persistente
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,30 +10,15 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
-description: Ativar ou desativar um implantados Persistent Chat Server ou o pool de servidor de Chat persistente usando os servidores ou pools listados nas configurações de estado da máquina. Selecione um servidor ou pool na lista e clique no botão tornar ativo para definir um servidor ou pool como ativa.
-ms.openlocfilehash: 30ffdd1f136f738ea21bec38242f86c6b3a5e360
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+description: Ativar ou desativar um implantados Persistent Chat Server ou o pool de servidor de Chat persistente usando os servidores ou pools listados nas configurações de estado da máquina. Selecione um servidor ou pool na lista e clique no botão Tornar Ativo para definir um servidor ou pool como ativo.
+ms.openlocfilehash: 25a2dc09d45bb01be1f2e4e03093a3fe2186755a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974984"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de Máquinas de Chat Persistente
- 
-Ativar ou desativar um implantados Persistent Chat Server ou o pool de servidor de Chat persistente usando os servidores ou pools listados nas **configurações de estado da máquina**. Selecione um servidor ou pool na lista e clique no botão **Tornar Ativo** para definir um servidor ou pool como ativo.
-  
-Defina um implantados Persistent Chat Server ou o pool de servidor de Chat persistente para inativo, selecionando o servidor ou pool na lista e clique em **tornar inativa**. Pelo menos um servidor precisa ser definido como ativo.
-  
- **OK** Aceita e confirma as alterações na caixa de diálogo.
-  
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
-  
- **Ajuda** Exibe essa tela de ajuda.
-  
-## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar o servidor de Chat persistente no Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.

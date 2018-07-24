@@ -1,24 +1,24 @@
 ---
-title: Modificar políticas de conferência no Skype for Business Server 2015
+title: Modificar políticas de conferência do Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: 'Resumo: Saiba como modificar políticas de conferência do Skype para Business Server 2015.'
-ms.openlocfilehash: b0456db5d0c6131b3b3999a87fc824d6ee3b4b30
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como modificar políticas de conferência do Skype para Business Server.'
+ms.openlocfilehash: 5883af04310f671e536460dbd466ce583cb52ebd
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970237"
 ---
-# <a name="modify-conferencing-policies-in-skype-for-business-server-2015"></a>Modificar políticas de conferência no Skype for Business Server 2015
+# <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modificar políticas de conferência do Skype para Business Server
  
-**Resumo:** Saiba como modificar políticas de conferência do Skype para Business Server 2015.
+**Resumo:** Saiba como modificar políticas de conferência do Skype para Business Server.
   
 Você pode modificar as políticas de conferência usando Skype para o painel de controle do Business Server ou usando o Skype do Shell de gerenciamento do servidor de negócios.
   

@@ -3,7 +3,7 @@ title: Fluxo de trabalho de grupos de resposta
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Fluxos de trabalho do grupo de resposta definem as ações que serão executadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
-ms.openlocfilehash: d4fa4f946c8dd54d0abab6bea41cc632f780f747
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 268d97ae92755da336577c3cdee8bd7ca916759c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006885"
 ---
 # <a name="response-groups-workflow"></a>Fluxo de trabalho de grupos de resposta
  

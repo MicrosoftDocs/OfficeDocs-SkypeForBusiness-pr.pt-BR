@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
-description: As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: cdb5c64bc84c7fbc755296c0082ff3323b9a32cb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam a reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
+ms.openlocfilehash: bbcbd0858fd620bbe5158454401b2e1355995915
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19990755"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009698"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuração da Reunião: Criar Nova ou Editar Existente
  

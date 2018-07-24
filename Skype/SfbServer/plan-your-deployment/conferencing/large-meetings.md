@@ -1,24 +1,24 @@
 ---
-title: Planejar reuniões grandes no Skype for Business Server 2015
+title: Planejar para grandes reuniões em Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
-description: 'Resumo: Leia este tópico para saber mais sobre práticas recomendadas para implementar e gerenciar grandes reuniões em Skype para Business Server 2015.'
-ms.openlocfilehash: 6a2af2ef9e7698f9141baf78f99b9bc9febfaa67
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Leia este tópico para saber mais sobre práticas recomendadas para implementar e gerenciar grandes reuniões em Skype para Business Server.'
+ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970504"
 ---
-# <a name="plan-for-large-meetings-in-skype-for-business-server-2015"></a>Planejar reuniões grandes no Skype for Business Server 2015
+# <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planejar para grandes reuniões em Skype para Business Server
  
-**Resumo:** Leia este tópico para saber mais sobre práticas recomendadas para implementar e gerenciar grandes reuniões em Skype para Business Server 2015.
+**Resumo:** Leia este tópico para saber mais sobre práticas recomendadas para implementar e gerenciar grandes reuniões em Skype para Business Server.
   
 O tamanho de reuniões que suporta o Skype para Business Server depende se a conferência está hospedada em um pool compartilhado ou dedicado: em qualquer lugar de 250 participantes em um pool compartilhado aos participantes de 1000 em um pool dedicado. 
   
@@ -56,7 +56,7 @@ Para ter recursos de CPU e memória suficientes para as reuniões com até 1.000
   
 Um Skype para pool de servidores de negócios dedicado à hospedagem de grandes reuniões deve hospedar um e apenas uma reunião de até 1.000 usuários ao mesmo tempo, então os horários de reuniões precisar ser reservado antecipadamente por meio de um limite da faixa de agendamento de processo para garantir o suporte dedicado do Servidores de Front-End. Para dar suporte a mais de uma grande reunião ao mesmo tempo, recomendamos a configuração de vários pools dedicados a grandes reuniões.
   
-Para obter mais informações sobre planejamento e requisitos de software e hardware uma topologia que suporta a grandes reuniões, consulte [requisitos de Hardware e software para conferências no Skype para Business Server 2015](hardware-and-software-requirements.md) e [planejar sua topologia de conferência para Skype para Business Server 2015](conferencing-topology.md).
+Para obter mais informações sobre planejamento e requisitos de software e hardware uma topologia que suporta a grandes reuniões, consulte [requisitos de Hardware e software para conferências no Skype para Business Server](hardware-and-software-requirements.md) e [planejar sua topologia de conferência para Skype para Business Server](conferencing-topology.md).
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Implante práticas recomendadas para grandes reuniões
 
@@ -96,7 +96,7 @@ Moderador reunião pode usar todas as funcionalidades do apresentador do Skype p
     
 - Alterar as funções dos participantes
     
-- Convidar mais participantes durante a reunião usando a funcionalidade de arrastar e soltar, discagem por telefone ou email do Lync
+- Convidar mais participantes durante a reunião usando arrastar e soltar funcionalidade, discagem de telefone ou email
     
 - Retirar a voz e inserir voz do público ou usuários individuais
     
@@ -197,6 +197,6 @@ Além disso, você precisará configurar o pool de reunião grande dedicado, de 
     
 - Certifique-se de que a caixa de seleção **Admitir usuários anônimos por padrão** não esteja selecionada, a menos que seja obrigatória. Esta configuração afeta o padrão de reuniões agendado pelo suplemento de Reunião Online para Skype para os negócios, quando não usando uma conferência atribuída do tipo de acesso. A opção adequada para essa configuração depende da necessidades da sua organização. Se a maioria das grandes reuniões da sua organização for interna, não selecione essa opção. Se a maioria das grandes reuniões exigir que usuários externos possam participar, selecione essa opção.
     
-Para obter mais informações sobre como criar uma política de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+Para obter mais informações sobre como criar uma política de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server](../../manage/conferencing/conferencing-policies.md).
   
 

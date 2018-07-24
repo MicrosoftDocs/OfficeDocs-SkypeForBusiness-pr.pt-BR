@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para verificar se a extensão do esquema foi replicada com êxito em sua floresta do Active Directory Domain Services, faça o seguinte:'
-ms.openlocfilehash: 964e5e235326f9579893676f4b739dd1eac4781f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: bfcc5cba79f023c746aac3d5c312871003f333b2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964755"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020462"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Verificar a replicação de partição do esquema
  
@@ -35,7 +36,7 @@ Para verificar se a extensão do esquema foi replicada com êxito em sua florest
     
 5. Na caixa de diálogo **Configurações de conexão** em **Selecione um Contexto de nomenclatura bem conhecido**, selecione **Esquema** e clique em **OK**.
     
-6. No contêiner de esquema, procure por CN = ms-RTC-SIP-SchemaVersion. Se esse objeto existir e o valor do atributo **rangeUpper** for 1150 e o valor do atributo **rangeLower** é 3, em seguida, o esquema foi com êxito atualizado e replicado. Se este objeto não existir ou se os valores dos atributos **rangeUpper** e **rangeLower** não são como especificado, em seguida, o esquema não foi modificado ou não foi replicado.
+6. No contêiner de esquema, procure por CN=ms-RTC-SIP-SchemaVersion. Se esse objeto existir e o valor do atributo **rangeUpper** for 1150 e o valor do atributo **rangeLower** é 3, em seguida, o esquema foi com êxito atualizado e replicado. Se este objeto não existir ou se os valores dos atributos **rangeUpper** e **rangeLower** não são como especificado, em seguida, o esquema não foi modificado ou não foi replicado.
     
 > [!NOTE]
 > Se a sua seleção da replicação do esquema não mostrar uma replicação bem-sucedida ainda, aguarde aproximadamente 15 minutos e verifique novamente. Replicação do Active Directory é baseada em um modelo de consistência ampliada e alguns latência de replicação pode ocorrer, com base em vários fatores no servidor e infra-estrutura. 

@@ -3,18 +3,18 @@ title: Implantações híbridas do Sistema de Salas do Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/17/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Leia este tópico para saber como implantar o sistema de sala do Skype em um ambiente híbrido.
-ms.openlocfilehash: e4ef63ec39106a2cb35201d43ca012b4ce173911
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997290"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Implantações híbridas do Sistema de Salas do Skype
  
@@ -40,7 +40,7 @@ Para fins ilustrativos, usamos LyncSample.com para o domínio local e LyncSample
     
 4. Acionar a sincronização de diretórios e, depois de sincronização estiver concluída, verifique se os usuários mesclagem em AAD e que não é possível alterar as propriedades em recursos do destinatário Office365 Exchange admin center.
     
-5. Verifique a conectividade do OWA usando lrstest5@LyncSample.com. (Anteriormente, você verificou conectividade do OWA usando o domínio on-line.)
+5. Verifique a conectividade do OWA usando lrstest5@LyncSample.com. (Anteriormente, você verificou a conectividade OWA utilizando o domínio online.)
     
     Depois de criar a caixa de correio, você pode utilizar o Set-CalendarProcessing no Shell de Gerenciamento do Exchange Online para configurar a caixa de correio do. Consulte as etapas de 3 a 6 sob Implantações Locais da Floresta única para obter mais detalhes.
     

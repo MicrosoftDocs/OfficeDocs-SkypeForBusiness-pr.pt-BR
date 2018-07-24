@@ -1,25 +1,25 @@
 ---
-title: Gerenciar configurações do Registrador Avançado no Skype for Business Server 2015
+title: Gerenciar definições de configuração de registrador no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
-description: 'Resumo: Gerencie definições de configuração de registrador para Skype para Business Server 2015.'
-ms.openlocfilehash: 5cdcf1cba045f5105b1f375fbcebb22b7b00a25d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Gerencie definições de configuração de registrador para Skype para Business Server.'
+ms.openlocfilehash: 65dfae7e518ef1b561a6782f9555de2d5dd6a6fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998992"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do Registrador Avançado no Skype for Business Server 2015
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Gerenciar definições de configuração de registrador no Skype para Business Server
  
-**Resumo:** Gerencie definições de configuração de registrador para Skype para Business Server 2015.
+**Resumo:** Gerencie definições de configuração de registrador para Skype para Business Server.
   
 É possível usar o Registrador para configurar métodos de autenticação do servidor proxy. O protocolo de autenticação que você especificar determina que tipo de desafios os servidores no pool vão gerar para os clientes. Os protocolos disponíveis são:
   
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/28/2018
     
 - **NTLM** Esta é a autenticação baseada em senha disponível para os clientes que usam um esquema de hash de desafio-resposta na senha. Essa é a única forma de autenticação disponível para clientes sem conectividade com um Centro de distribuição de chaves (controlador de domínio Kerberos), como usuários remotos. Se um servidor autenticar somente usuários remotos, escolha NTLM.
     
-- **Autenticação de certificado** Este é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Phone Edition, telefones de área comum, Skype para a empresa e o aplicativo da Windows Store do Lync. Nos clientes do Lync Phone Edition, depois que um usuário entra no e é autenticado com êxito, fornecendo um número de identificação pessoal (PIN), Skype para Business Server 2015 e provisiona o URI do SIP para o telefone e provisiona um Skype para Business Server assinado certificado ou um certificado de usuário que identifica Joe (ex.: SN=joe@contoso.com) para o telefone. Esse certificado é usado para autenticar com o registrador e serviços da Web.
+- **Autenticação de certificado** Este é o novo método de autenticação quando o servidor precisa obter certificados de clientes do Lync Phone Edition, telefones de área comum, Skype para a empresa e o aplicativo da Windows Store do Lync. Nos clientes do Lync Phone Edition, depois que um usuário entra no e é autenticado com êxito, fornecendo um número de identificação pessoal (PIN), Skype para Business Server e provisiona o URI do SIP para o telefone e provisiona um Skype para Business Server assinado certificado ou um certificado de usuário que identifica Joe (ex.: SN=joe@contoso.com) para o telefone. Esse certificado é usado para autenticar com o registrador e serviços da Web.
     
 > [!NOTE]
 > Recomendamos a habilitação do Kerberos e NTLM quando um servidor suporta autenticação para clientes remotos e empresariais. O Servidor de Borda e os servidores internos se comunicam para assegurar que somente a autenticação NTLM seja oferecida aos clientes remotos. Se somente Kerberos for habilitado nesses servidores, não poderão autenticar usuários remotos. Se os usuários empresariais também autenticarem com base no servidor, o Kerberos será usado. 
@@ -36,7 +36,7 @@ Se você usará a clientes de aplicativo da Windows Store do Lync, você deverá
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>Para criar novas configurações de Registrador
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     
@@ -58,7 +58,7 @@ Se você usará a clientes de aplicativo da Windows Store do Lync, você deverá
     
 ## <a name="modify-existing-registrar-configuration-settings"></a>Modificar as configurações existentes do Registrador
 
-Você pode usar o Registrador para configurar protocolos de autenticação de servidor proxy. Para obter informações sobre os protocolos disponíveis, consulte [registrador gerenciar definições de configuração no Skype para Business Server 2015](registrar-configuration-settings.md).
+Você pode usar o Registrador para configurar protocolos de autenticação de servidor proxy. 
   
 > [!NOTE]
 > Recomendamos a habilitação do Kerberos e NTLM quando um servidor suporta autenticação para clientes remotos e empresariais. O Servidor de Borda e os servidores internos se comunicam para assegurar que somente a autenticação NTLM seja oferecida aos clientes remotos. Se somente Kerberos for habilitado nesses servidores, não poderão autenticar usuários remotos. Se os usuários empresariais também autenticarem com base no servidor, o Kerberos será usado. 
@@ -67,7 +67,7 @@ Siga estas etapas para modificar um Registrador Avançado existente.
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>Para modificar as configurações existentes do Registrador
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     
@@ -87,7 +87,7 @@ Siga estas etapas para modificar um Registrador Avançado existente.
     
 ### <a name="to-delete-registrar-configuration-settings"></a>Para excluir as definições de configuração do Registrador
 
-1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
     

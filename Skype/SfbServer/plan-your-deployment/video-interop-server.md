@@ -1,9 +1,8 @@
 ---
-title: Planejar Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015
+title: Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 f1_keywords:
@@ -11,23 +10,23 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
-description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para Business Server 2015 com dispositivos de terceiros teleconferência.'
-ms.openlocfilehash: cd8d4ec7ad854dc87d9bf9c86e2552996a09215d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para Business Server com os dispositivos de terceiros teleconferência.'
+ms.openlocfilehash: c4308b27371c9e0da312eee0fa5c52602674c45c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505178"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975631"
 ---
-# <a name="plan-for-video-interop-server-in-skype-for-business-server-2015"></a>Planejar Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015
+# <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server
  
-**Resumo:** Analise este tópico durante o planejamento para integrar o Skype para Business Server 2015 com dispositivos de terceiros teleconferência.
+**Resumo:** Analise este tópico durante o planejamento para integrar o Skype para Business Server com os dispositivos de terceiros teleconferência.
   
 Skype para Business Server agora permite que você integre determinadas soluções VTC (Video Teleconferencing System) de terceiros. A nova função de servidor que permite a este interoperabilidade de conferência de vídeo é o vídeo interoperacional Server (VIS), que no momento é implementado como uma função de servidor autônomo disponível somente para instalações locais. Um VIS atua como um intermediário entre um sistema de teleconferência de terceiros e um Skype para implantação de servidor de negócios. Para essa versão, o VIS se concentra na interoperabilidade com os sistemas de vídeo da Cisco e da Tandberg. Revise este artigo para determinar quando usar esse recurso no seu Skype para instalação do servidor de negócios.
   
 ## <a name="device-interoperability"></a>Interoperabilidade de dispositivos
 
-A interoperação é testada e tem suporte nos VTCs da Cisco registrados com o CUCM versão 10.5 e troncos SIP TCP configurados entre CUCM e o VIS.
+Interoperação é testada e suportada com Cisco VTCs Registrando com Cisco Unified Communications Manager (CallManager ou CUCM) versão 10.5 e troncos SIP TCP configurada entre CUCM e o VIS.
   
 Os VTCs atualmente compatíveis são:
   
@@ -117,9 +116,9 @@ O VIS é compatível com chamada recebida de um CUCM que seja transmitido sobre 
     O VIS também implantará um temporizador de 10 segundos pelo tronco do SIP de vídeo. Se o pool de Front-End do próximo salto principal foi usado para uma chamada de vídeo tronco SIP e o Front-End de principal do próximo salto para pool não respondeu com alguma mensagem SIP (incluindo Trying 100) para o convite enviado a ele dentro esse valor de timer, o proxy de próximo salto de backup para a chamada s hould ser tentado se configurado. 
     
     > [!NOTE]
-    > Se o próximo salto backup foi tentado primeiro, o principal não será testado Avançar. 
+    > Se a primeira tentativa for com o próximo salto de backup, não haverá tentativa com o primário em seguida. 
   
-    O administrador também pode usar o comando de failover do Windows PowerShell para forçar o VIS para usar o backup pool de Front-End, por exemplo, quando a manutenção deve ser executado no pool de Front-End principal.
+    O administrador também pode usar o comando de failover do Windows PowerShell para forçar o VIS a usar o pool de front-ends do backup, por exemplo, quando a manutenção precisar ser executada no pool de front-ends.
     
 ## <a name="co-existence-of-voice-and-video-trunks-to-the-same-gateway-peer"></a>Coexistência de troncos de voz e de vídeo para o mesmo par de gateway
 <a name="resiliency"> </a>
@@ -147,11 +146,11 @@ O VIS só poderá ser implantado como parte da implantação do Skype for Busine
   
 O VIS não é compatível com a transcodificação entre RTV e H.264. Não há interoperabilidade do vídeo entre clientes pré-Lync 2013 e participantes de VTC em uma conferência.
   
-Ter pré-Lync 2013 clientes em uma conferência fará com que os clientes móveis enviar usando RTV, resultando em VTCs não recebendo nenhum vídeo quando o cliente móvel se torna o alto-falante dominante.
+Se houver clientes anteriores ao Lync 2013 em uma conferência, os clientes móveis enviarão usando RTV, fazendo com que os VTCs não recebam nenhum vídeo quando o cliente móvel tornar-se o alto-falante dominante.
   
-Para o Lync 2013 funcione corretamente com VIS que faz parte de um Skype para implantação de negócios, Lync 2013 precisa a CU apropriada a ser aplicado que atualiza o cliente do Lync 2013, CAA e AVMCU para trabalhar com VIS.
+Para o Lync 2013 funcionar corretamente com o VIS que faz parte da implantação do Skype for Business, o Lync 2013 precisará da aplicação do gerenciador de comunicações adequado para atualizar o cliente do Lync 2013, o CAA e o AVMCU.
   
-Interoperabilidade de VIS com o Lync 2013 e Skype para clientes de área de trabalho de negócios foi testada e é suportada.
+A interoperabilidade do VIS com os clientes de desktop do Lync 2013 e do Skype for Business foi testada e é compatível.
   
 Interoperabilidade do VIS com desktop (Android, Ipad, Iphone, Windows Phone, LMX, etc.) Skype para clientes corporativos disponíveis do armazenamento de aplicativos aplicável no momento da versão VIS foi testada e é suportado.
   
@@ -187,4 +186,4 @@ O suporte a VTCs que entram para reuniões federadas via VIS não faz parte do S
 ## <a name="see-also"></a>Ver também
 <a name="resiliency"> </a>
 
-[Implante o servidor de interoperabilidade de vídeo em Skype para Business Server 2015](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)
+[Implante o servidor de interoperabilidade de vídeo em Skype para Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

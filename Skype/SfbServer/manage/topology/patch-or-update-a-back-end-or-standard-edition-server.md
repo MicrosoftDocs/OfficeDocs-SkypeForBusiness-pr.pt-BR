@@ -1,23 +1,22 @@
 ---
-title: Corrigir ou atualizar um Servidor Back End ou um servidor Standard Edition no Skype for Business Server 2015
+title: Patch ou atualização de um servidor Back-End ou servidor Standard Edition no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Resumo: Saiba como instalar uma atualização ou patch em um servidor Back-End no Skype para Business Server.'
-ms.openlocfilehash: 40437deb77fc5b212a6c579030ed77939c421050
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7815c42443afae6fef7aaec71399120fb61ece82
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569376"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969128"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server-2015"></a>Corrigir ou atualizar um Servidor Back End ou um servidor Standard Edition no Skype for Business Server 2015
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Patch ou atualização de um servidor Back-End ou servidor Standard Edition no Skype para Business Server
  
 **Resumo:** Saiba como instalar uma atualização ou patch em um servidor Back-End no Skype para Business Server.
   
@@ -31,7 +30,7 @@ Se for um servidor Back-End para baixo pelo menos 30 minutos enquanto você esti
     
 2. Faça o download do pacote de atualizações e extraia os arquivos para um disco rígido local.
     
-3. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique em **Skype para negócios 2015**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de Business**..
+3. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique **Skype para negócios**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de negócios**..
     
 4. Pare Skype para serviços de Business Server. Na linha de comando, digite:
     
@@ -49,7 +48,7 @@ Se for um servidor Back-End para baixo pelo menos 30 minutos enquanto você esti
     
 7. Atualize a atualização.
     
-8. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique em **Skype para negócios 2015**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de Business**..
+8. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique **Skype para negócios**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de negócios**.
     
 9. Pare Skype para serviços de Business Server novamente para capturar assemblies -d do Cache de Assembly Global (GAC). Na linha de comando, digite:
     

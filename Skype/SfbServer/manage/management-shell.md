@@ -1,9 +1,8 @@
 ---
-title: Shell de Gerenciamento do Skype for Business Server 2015
+title: Shell de Gerenciamento do Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 9/20/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,14 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: O Skype do Shell de gerenciamento do Business Server fornece a interface de linha de comando para gerenciamento e administração de servidor. Ele é baseado no Windows PowerShell e inclui um conjunto abrangente de gerenciamento e administração cmdlets específicos ao Skype e produtos de servidor herdados do Lync.
-ms.openlocfilehash: 50e76784526a3430c6e91a3c6cfdd76962fda3cd
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266878"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997353"
 ---
-# <a name="skype-for-business-server-2015-management-shell"></a>Shell de Gerenciamento do Skype for Business Server 2015
+# <a name="skype-for-business-server-management-shell"></a>Shell de Gerenciamento do Skype for Business Server
  
 O Skype do Shell de gerenciamento do Business Server fornece a interface de linha de comando para gerenciamento e administração de servidor. Ele é baseado no Windows PowerShell e inclui um conjunto abrangente de gerenciamento e administração cmdlets específicos ao Skype e produtos de servidor herdados do Lync.
   
@@ -27,7 +26,7 @@ Windows PowerShell permite gerenciar aplicativos da Microsoft a partir da linha 
 > [!NOTE]
 > A referência do cmdlet do Skype for Business mudou para docs.microsoft.com. Ao clicar nos links abaixo, você será direcionado para a nova página docs.microsoft.com. O conteúdo agora está aberto e disponível para contribuições da comunidade através do GitHub. Tem interesse em contribuir? Confira Leiame no repo aqui:[https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-Skype para Business Server 2015 é fornecido com mais de 700 cmdlets que permitem que administradores gerenciem Skype para Business Server usando o Skype do Shell de gerenciamento do servidor de negócios. Você pode obter ajuda para um cmdlet diretamente a partir da linha de comando digitando um comando similar ao seguinte:
+Skype para Business Server é fornecido com mais de 700 cmdlets que permitem que administradores gerenciem Skype para Business Server usando o Skype do Shell de gerenciamento do servidor de negócios. Você pode obter ajuda para um cmdlet diretamente a partir da linha de comando digitando um comando similar ao seguinte:
   
 ```
 Get-Help New-CsVoicePolicy -Full

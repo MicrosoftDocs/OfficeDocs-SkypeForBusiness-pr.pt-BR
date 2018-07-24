@@ -1,28 +1,28 @@
 ---
-title: Excluir configurações da Qualidade da Experiência no Skype for Business Server 2015
+title: Excluir definições de configuração de qualidade da experiência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: 'Resumo: Saiba como excluir configurações de Quality of Experience (QoE) no Skype para Business Server 2015.'
-ms.openlocfilehash: 52008e14ca7a7b2a7a26726a2749f6d4dd083bbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como excluir configurações de Quality of Experience (QoE) no Skype para Business Server.'
+ms.openlocfilehash: a0ed68fa6670f66512023e1dcf0754be5e95ed53
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029406"
 ---
-# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server-2015"></a>Excluir configurações da Qualidade da Experiência no Skype for Business Server 2015
+# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Excluir definições de configuração de qualidade da experiência no Skype para Business Server
  
-**Resumo:** Aprenda a excluir definições de qualidade da experiência (QoE) no Skype para Business Server 2015.
+**Resumo:** Aprenda a excluir definições de qualidade da experiência (QoE) no Skype para Business Server.
   
 As métricas de Qualidade da Experiência (QoE) rastreiam a qualidade das chamadas de áudio e vídeo feitas na organização, inclusive o número de pacotes de rede perdidos, o ruído de fundo e a quantidade de tremulação (diferenças no atraso de pacotes). Essas métricas são armazenadas em um banco de dados separado de outros dados (como registros de detalhes das chamadas), permitindo a habilitação e desabilitação da QoE, independente de outros registros de dados.
   
-Quando você instala o Skype para Business Server 2015, uma única coleção global de definições de configuração de QoE é criada para você. Os administradores também têm a opção de criar conjuntos personalizados de definições que podem ser aplicados a locais individuais. Por design, as configurações no escopo local têm precedência sobre configurações no escopo global. Se você excluir definições no escopo local, a QoE será gerenciada naquele local usando as configurações globais.
+Quando você instala o Skype para Business Server, uma única coleção global de definições de configuração de QoE é criada para você. Os administradores também têm a opção de criar conjuntos personalizados de definições que podem ser aplicados a locais individuais. Por design, as configurações no escopo local têm precedência sobre configurações no escopo global. Se você excluir definições no escopo local, a QoE será gerenciada naquele local usando as configurações globais.
   
 Observe que você também pode "excluir" as definições globais. Contudo, elas não serão realmente removidas. Em vez disso, todas as propriedades naquele conjunto serão redefinidas de acordo com os valores padrão. Por exemplo, por padrão, a exclusão é habilitada em um conjunto de configurações de QoE. Digamos que você modifique o conjunto global para que a exclusão seja desabilitada. Se depois você resolver apagar as definições globais, todas as propriedades serão redefinidas para os valores padrão. Nesse caso, isso significa que a exclusão será habilitada novamente.
   
@@ -72,5 +72,5 @@ Para obter detalhes, consulte [Remove-CsQoEConfiguration](https://docs.microsoft
   
 ## <a name="see-also"></a>Consulte também
 
-[Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server 2015](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+[Limpar manualmente o registro de detalhes da chamada e bancos de dados de qualidade da experiência no Skype para Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

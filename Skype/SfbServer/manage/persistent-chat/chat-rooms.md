@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Resumo: Saiba como gerenciar salas de chat Persistent Chat Server Skype para Business Server 2015.'
-ms.openlocfilehash: 7febc9736f43f3168d7bc62b0ddf833fa6b5864b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 25d13b8b44e16d476191fdae337eb72d73e77dbc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569397"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973772"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar salas de chat no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -23,6 +23,9 @@ ms.locfileid: "19569397"
   
 Criar e gerenciar sala de chat é mais fácil com o uso correto de categorias. Uma categoria define quem pode criar ou ingressar em salas de chat. Antes de tentar gerenciar salas de bate-papo, não deixe de ler [as categorias de chat persistente, salas de bate-papo e funções de usuário no Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) e [Gerenciar categorias no servidor de bate-papo persistente no Skype para Business Server 2015](categories.md).
   
+> [!NOTE]
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+
 Você pode configurar e gerenciar salas de bate-papo por meio da interface de linha de comando do Windows PowerShell, ou usando o Skype para o cliente de negócios, se você é um membro da sala de chat. Esse tópico descreve como gerenciar salas de chat usando a interface de linha de comando do Windows PowerShell. Se você deseja gerenciar salas de chat usando o Skype para cliente corporativos, consulte a Ajuda do cliente. 
   
 Salas de chat pode ser um dos dois tipos: Normal e auditório. Uma sala Normal permite que todos os membros publiquem e leiam mensagens. Uma sala Auditório permite que apenas Apresentadores publiquem, mas todos podem ler.

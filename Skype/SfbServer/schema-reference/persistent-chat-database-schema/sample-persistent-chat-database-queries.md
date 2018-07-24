@@ -3,19 +3,19 @@ title: Amostragem de consultas de banco de dados de Chat Persistente
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Esta seção contém exemplos de consultas do banco de dados de Chat persistente.
-ms.openlocfilehash: 805257fce0a0f892995636133ce6f07f9bd16d3a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: ab4db61e70108bb922646add050ddcf7f52951b1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570210"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025916"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Amostragem de consultas de banco de dados de Chat Persistente
  

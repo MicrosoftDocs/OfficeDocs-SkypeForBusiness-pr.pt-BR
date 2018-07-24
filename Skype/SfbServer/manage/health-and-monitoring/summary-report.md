@@ -1,24 +1,24 @@
 ---
-title: Relatório de Resumo de Diagnóstico de Chamadas no Skype for Business Server 2015
+title: Chamar o relatório de resumo de diagnóstico em Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 'Resumo: Saiba mais sobre o diagnóstico relatório de resumo chamadas usada no Skype para Business Server 2015.'
-ms.openlocfilehash: 8d040ab2d59fdbc822448de2d3c9918ec39ae289
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o diagnóstico relatório de resumo chamadas usada no Skype para Business Server.'
+ms.openlocfilehash: 6d4db52f266e9c7387662563a8640cfaeab56ca8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976818"
 ---
-# <a name="call-diagnostic-summary-report-in-skype-for-business-server-2015"></a>Relatório de Resumo de Diagnóstico de Chamadas no Skype for Business Server 2015
+# <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Chamar o relatório de resumo de diagnóstico em Skype para Business Server
  
-**Resumo:** Saiba mais sobre o diagnóstico relatório de resumo chamadas usada no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o diagnóstico relatório de resumo chamadas usada no Skype para Business Server.
   
 O Relatório de Resumo de Diagnóstico de Chamadas fornece uma visão geral de sessões peer-to-peer e de conferências que falharam. O relatório mostra a taxa de falha geral para os dois tipos de sessão, e detalha as informações de falha por tipo de modalidade de sessão:
   
@@ -34,7 +34,7 @@ O Relatório de Resumo de Diagnóstico de Chamadas fornece uma visão geral de s
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Como acessar o Relatório de resumo de diagnóstico de chamadas
 
-O Relatório de resumo de diagnóstico de chamadas é acessado na página inicial dos Relatórios de Monitoramento. Do relatório de resumo do diagnóstico de chamada, você pode acessar o [relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server 2015](peer-to-peer-activity-diagnostic-report.md) clicando na métrica de taxa de falha na seção Resumo de sessão ponto a ponto do relatório. Você também pode acessar o [Relatório de diagnóstico de conferência no Skype para Business Server 2015](conference-diagnostic-report.md) clicando em qualquer uma das seguintes métricas de conferência:
+O Relatório de resumo de diagnóstico de chamadas é acessado na página inicial dos Relatórios de Monitoramento. Do relatório de resumo do diagnóstico de chamada, você pode acessar o [relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-diagnostic-report.md) clicando na métrica de taxa de falha na seção Resumo de sessão ponto a ponto do relatório. Você também pode acessar o [Relatório de diagnóstico de conferência no Skype para Business Server](conference-diagnostic-report.md) clicando em qualquer uma das seguintes métricas de conferência:
   
 - Taxa de falha de sessão geral
     
@@ -44,7 +44,7 @@ O Relatório de resumo de diagnóstico de chamadas é acessado na página inicia
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Como usar melhor o Relatório de resumo de diagnóstico de chamadas
 
-O relatório de resumo de diagnóstico chamadas inclui gráficos que comparam taxas de falha para as diversas modalidades usadas no Skype para Business Server 2015. As colunas nesses gráficos são realmente hotlinks; Por exemplo, se você clicar na coluna de mensagens instantânea para sessões ponto a ponto, você vai fazer uma busca detalhada uma instância do [relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server 2015](peer-to-peer-activity-diagnostic-report.md), um relatório que fornece detalhes adicionais sobre todos os incluído no relatório de resumo de diagnóstico chamadas de sessões de mensagens instantâneas.
+O relatório de resumo de diagnóstico chamadas inclui gráficos que comparam taxas de falha para as diversas modalidades usadas no Skype para Business Server. As colunas nesses gráficos são realmente hotlinks; Por exemplo, se você clicar na coluna de mensagens instantânea para sessões ponto a ponto, você vai fazer uma busca detalhada uma instância do [relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-diagnostic-report.md), um relatório que fornece detalhes adicionais sobre todos os incluído no relatório de resumo de diagnóstico chamadas de sessões de mensagens instantâneas.
   
 ## <a name="filters"></a>Filtros
 
@@ -52,7 +52,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resumo de Diagnóstico de Chamadas.
   
-**Filtros do relatório de resumo de diagnóstico de chamadas**
+**Filtros do Relatório de Resumo de Diagnóstico de Chamadas**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|

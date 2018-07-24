@@ -1,27 +1,26 @@
 ---
-title: Gerenciar configurações do servidor de conferência no Skype for Business Server 2015
+title: Gerenciar definições de configuração de servidor conferência no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Resumo: Saiba como gerenciar definições de configuração de servidor conferência no Skype para Business Server 2015.'
-ms.openlocfilehash: e59bfce2a1317d67b1a77f7277996d5a964a314f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como gerenciar definições de configuração de servidor conferência no Skype para Business Server.'
+ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569459"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009891"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do servidor de conferência no Skype for Business Server 2015
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gerenciar definições de configuração de servidor conferência no Skype para Business Server
  
-**Resumo:** Saiba como gerenciar definições de configuração de servidor conferência no Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar definições de configuração de servidor conferência no Skype para Business Server.
   
-Este tópico descreve como gerenciar definições de configuração de conferência. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan para conferências no Skype para Business Server 2015](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferência no Skype para Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Este tópico descreve como gerenciar definições de configuração de conferência. Para obter mais informações sobre como planejar e implantar a conferência, consulte [Plan para conferências no Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Definições de configuração de conferência determinam coisas como o tamanho máximo permitido para o conteúdo das reuniões e folhetos; quantidade máxima de largura de banda para o serviço de conferência de compartilhamento de aplicativo; limites de armazenamento e períodos de expiração; as URLs internas e externas downloads do cliente com suporte; ponteiros para URLs internas e externas, onde os usuários podem obter ajuda de conferência e recursos; e as portas usadas para compartilhamento de aplicativos, áudio do cliente, transferências de arquivos e tráfego de mídia. Essas configurações permitem que você gerencie os servidores reais. Essas configurações podem ser definidas usando Skype do Shell de gerenciamento do servidor de negócios.
   

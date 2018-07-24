@@ -1,25 +1,25 @@
 ---
-title: Modificar uma política de PIN existente no Skype for Business Server 2015
+title: Modificar uma política PIN existente no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
-description: 'Resumo: Modificar uma política PIN existente no Skype para Business Server 2015.'
-ms.openlocfilehash: bb9be5807da0e72dfbc59d2000af82b181bfc6d6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Modificar uma política PIN existente no Skype para Business Server.'
+ms.openlocfilehash: 30b9926a7f8094cae1e23be6d0e9a0ade6d8d8a6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006182"
 ---
-# <a name="modify-an-existing-pin-policy-in-skype-for-business-server-2015"></a>Modificar uma política de PIN existente no Skype for Business Server 2015
+# <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modificar uma política PIN existente no Skype para Business Server
  
-**Resumo:** Modificar uma política PIN existente no Skype para Business Server 2015.
+**Resumo:** Modificar uma política PIN existente no Skype para Business Server.
   
 Você pode usar a guia **Política de PIN** para fornecer autenticação de (PIN) número de identificação pessoal para usuários que estão se conectando ao Skype for Business com telefones IP. Para usar a autenticação PIN, certifique-se de que **Habilitar Autenticação PIN** esteja selecionado nas configurações do Web Service.
   
@@ -27,7 +27,7 @@ Siga estas etapas para modificar uma política de PIN no nível de usuário ou l
   
 ### <a name="to-modify-an-existing-pin-policy"></a>Para modificar uma política de PIN existente
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
     

@@ -1,26 +1,26 @@
 ---
-title: Relatório de Resumo das Atividades Ponto a Ponto no Skype for Business Server 2015
+title: Relatório de resumo de atividade ponto a ponto no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Resumo: Saiba mais sobre o relatório de resumo de atividade ponto a ponto no Skype para Business Server 2015.'
-ms.openlocfilehash: bebef02fbae79f1b85cab8c03f6f27c8e49ea879
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de resumo de atividade ponto a ponto no Skype para Business Server.'
+ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975722"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server-2015"></a>Relatório de Resumo das Atividades Ponto a Ponto no Skype for Business Server 2015
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Relatório de resumo de atividade ponto a ponto no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de resumo de atividade ponto a ponto no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de resumo de atividade ponto a ponto no Skype para Business Server.
   
-O Relatório de Resumo de Atividades Ponto a Ponto fornece uma visão geral de suas sessões de comunicação ponto a ponto. Normalmente, uma sessão ponto a ponto envolve apenas dois usuários e não requer o uso do Skype para serviços de conferência Business Server. Por comparação, uma conferência geralmente envolve mais de dois usuários e requer o uso do Skype para serviços de conferência Business Server 2015. As atividades de conferência são relatadas no Relatório de Resumo de Conferências.
+O Relatório de Resumo de Atividades Ponto a Ponto fornece uma visão geral de suas sessões de comunicação ponto a ponto. Normalmente, uma sessão ponto a ponto envolve apenas dois usuários e não requer o uso do Skype para serviços de conferência Business Server. Por comparação, uma conferência geralmente envolve mais de dois usuários e requer o uso do Skype para serviços de conferência Business Server. As atividades de conferência são relatadas no Relatório de Resumo de Conferências.
   
 O Relatório de Resumo de Atividades Ponto a Ponto ajuda você a responder perguntas como as seguintes:
   
@@ -32,7 +32,7 @@ O Relatório de Resumo de Atividades Ponto a Ponto ajuda você a responder pergu
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Acessando o Relatório de Resumo de Atividades Ponto a Ponto
 
-O Relatório de Resumo de Atividades Ponto a Ponto é acessado na página inicial de Relatórios de Monitoramento. Você pode abrir o [relatório de mensagens Instantâneas ponto a ponto no Skype para Business Server 2015](im-report.md) clicando em uma das seguintes métricas:
+O Relatório de Resumo de Atividades Ponto a Ponto é acessado na página inicial de Relatórios de Monitoramento. Você pode abrir o [relatório de mensagens Instantâneas ponto a ponto no Skype para Business Server](im-report.md) clicando em uma das seguintes métricas:
   
 - Total de sessões de mensagens instantâneas ponto a ponto
     
@@ -58,7 +58,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resumo de Atividades Ponto a Ponto.
   
-**Filtros do relatório de resumo de atividades ponto a ponto**
+**Filtros do Relatório de Resumo de Atividades Ponto a Ponto**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -70,7 +70,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 
 A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Atividades Ponto a Ponto.
   
-**Métricas do relatório de resumo de atividade ponto a ponto**
+**Métricas do Relatório de Resumo de Atividades Ponto a Ponto**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

@@ -3,7 +3,7 @@ title: Os usuários editam o usuário
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 507c70863513809a37fc1722a4272e2e726a3836
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1532291004b4f60b710161143888632fb98ebf3a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981266"
 ---
 # <a name="users-edit-user"></a>Usuários: Editar usuário
  
@@ -24,13 +25,13 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
   
 - [Habilitar ou desabilitar usuários para o Lync Server 2010](http://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
     
-- [Habilitar usuários para o Enterprise Voice no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Habilitar usuários do Enterprise Voice no Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
     
 - [Atribuir uma política de conferência para modificar a experiência de reunião padrão do usuário](http://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
     
 - [Especificar versões do cliente suportadas para a entrada por um usuário](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Atribuir uma política de PIN por usuário no Skype para Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Atribuir uma política de PIN por usuário no Skype for Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Configurar a federação, acesso de usuário remoto e conectividade de IM pública para usuários](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

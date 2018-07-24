@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar as configurações para um aparelho de filial persistente ou o servidor de filial persistente existente, são apresentadas as seguintes seções:'
-ms.openlocfilehash: 1f0c1b47d0ea042f29172f4557ef78db42f83216
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8994bb04234242021149f1155fde8dfa0b62a223
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000981"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de Configurações Gerais de Aparelho de Filial
  
@@ -28,11 +29,11 @@ Para editar as configurações para um aparelho de filial persistente ou o servi
     
 - Configurações do Servidor de Mediação
     
-## 
+
 
 Para um aparelho de filial persistente ou servidor de filial persistente, são apresentadas com os seguintes itens:
   
-### <a name="general-settings"></a>Configurações gerais
+## <a name="general-settings"></a>Configurações gerais
 
 O nome de domínio totalmente qualificado (FQDN) do aparelho de filial persistente ou servidor de filial persistente. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host DNS (Sistema de Nome de Domínio) que coincida com o novo valor.
   
@@ -49,7 +50,7 @@ Em **Associações**, é possível editar ou especificar o seguinte:
     
 - Associe pool permite que você selecione essa opção para associar um pool ou servidor de borda com o aparelho de filial persistente ou servidor de filial persistente de borda. Você pode escolher entre um Servidor de Borda ou pool já definido, selecionando o servidor na lista suspensa, ou clicar em **Novo** para especificar um novo Servidor de Borda ou pool.
     
-### <a name="resiliency"></a>Resiliência
+## <a name="resiliency"></a>Resiliência
 
 A resiliência oferece alta disponibilidade ao pool de Registradores. Ao providenciar um Registrador de backup, se o Registrador principal falhar, o Registrador de backup poderá assumir suas funções e permitir que os usuários se conectem e se comuniquem. Dependendo dos sistemas que falharam com o Registrador principal, os usuários poderão enfrentar uma redução de funcionalidades.
   
@@ -58,7 +59,7 @@ Na lista suspensa, selecione o pool de Front End do Enterprise Edition ou Standa
 > [!IMPORTANT]
 > Quando definir o intervalo de detecção de falha e de fallback, cuidado para não inserir um intervalo que provoque o failover e o fallback se o Registrador não responder por um curto período. É possível que o Registrador principal não responda por curtos períodos, baseado no carregamento do pool ou servidores. Os valores padrão para um aparelho de filial persistente ou um servidor de filial persistente em um site para um pool ou servidor Standard Edition Front End é 120 segundos para failover e 240 segundos para fallback. 
   
-### <a name="mediation-server"></a>Servidor de Mediação
+## <a name="mediation-server"></a>Servidor de Mediação
 
 No caso do **Servidor de Mediação**, você pode especificar o seguinte:
   
@@ -70,7 +71,7 @@ Você define os gateways PSTN associados com o servidor de mediação colocado. 
   
 Se você tiver mais de um gateway associado a um servidor de mediação, o primeiro gateway associado será o gateway padrão. Caso precise escolher outro gateway como gateway padrão, selecione o gateway para tornar padrão e clique em **Tornar Padrão**.
   
-### 
+## <a name="see-also"></a>Consulte também
 
 Para obter detalhes sobre como definir e configurar as definições para o aparelho de filial persistente ou servidor de filial persistente, consulte [Branch-Site Resiliency Solutions](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
   

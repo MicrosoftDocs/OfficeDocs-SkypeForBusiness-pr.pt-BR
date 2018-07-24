@@ -3,7 +3,7 @@ title: Instalar e criar bancos de dados
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Você seleciona os bancos de dados que você deseja criar sua implantação. Por padrão, o banco de dados será criado no SQL Server definido no site do definido e será automaticamente implantar e configurar os arquivos de banco de dados com base em você estiver colocando os bancos de dados no SQL Server.
-ms.openlocfilehash: cf838e66dc5e9592ba71dd9d44fa5fc333c6dbc7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 89284989f4d30e83d06424895efce12deb5eec2f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975652"
 ---
 # <a name="install-and-create-databases"></a>Instalar e criar bancos de dados
  

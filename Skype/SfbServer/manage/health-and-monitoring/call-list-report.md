@@ -1,27 +1,26 @@
 ---
-title: Relatório de Lista de Chamadas do Grupo de Resposta no Skype for Business Server 2015
+title: Relatório de lista de chamada o grupo de resposta no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
-description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server 2015.'
-ms.openlocfilehash: 6f7d2938f02b84942b2dc09e4fc3058ab6ee63db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server.'
+ms.openlocfilehash: 90806465f3de57d30701eaf541f7ca685be180d3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568996"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997240"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server-2015"></a>Relatório de Lista de Chamadas do Grupo de Resposta no Skype for Business Server 2015
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamada o grupo de resposta no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o aplicativo de grupo de resposta no Skype para Business Server.
   
-Aplicativo grupo de resposta fornece uma maneira de Skype para negócios 2015 de servidor atender e rotear as chamadas telefônicas com base no número discado e, opcionalmente, em que as respostas do chamador para uma série de perguntas. Geralmente, as chamadas do Grupo de Resposta não são encaminhadas a uma pessoa específica, mas sim para uma equipe de pessoas referida como grupo de agentes. Por exemplo, se alguém liga para o número de telefone para seu help desk, Skype para Business Server 2015 pode rotear automaticamente chamada ao primeiro operador mesa ajuda disponíveis. Como alternativa, Skype para Business Server pode pedir que uma série de perguntas ("Pressione 1 se você estiver tendo problemas de hardware. Pressione 2 se tiver problemas de software. Pressione 3 se você estiver tendo problemas de rede.") e, em seguida, rotear a chamada para o agente de mesa ajuda mais apropriada com base na responder a essas perguntas.
+Aplicativo grupo de resposta fornece uma maneira de Skype para Business Server atender e rotear as chamadas telefônicas com base no número discado e, opcionalmente, em que as respostas do chamador para uma série de perguntas. Geralmente, as chamadas do Grupo de Resposta não são encaminhadas a uma pessoa específica, mas sim para uma equipe de pessoas referida como grupo de agentes. Por exemplo, se alguém liga para o número de telefone para seu help desk, Skype para Business Server pode rotear automaticamente chamada ao primeiro operador mesa ajuda disponíveis. Como alternativa, Skype para Business Server pode pedir que uma série de perguntas ("Pressione 1 se você estiver tendo problemas de hardware. Pressione 2 se tiver problemas de software. Pressione 3 se você estiver tendo problemas de rede.") e, em seguida, rotear a chamada para o agente de mesa ajuda mais apropriada com base na responder a essas perguntas.
   
 O Relatório da Lista de Chamadas de Grupo de Resposta representa uma coleção de chamadas feitas por um período específico de tempo e para um tipo específico de chamada. O Relatório de Uso do Grupo de Resposta (que deve ser aberto primeiro, antes de abrir o Relatório da Lista de Chamadas de Grupo de Resposta) reconhece os seguintes tipos de chamadas:
   
@@ -39,7 +38,7 @@ O Relatório da Lista de Chamadas de Grupo de Resposta representa uma coleção 
     
 ## <a name="accessing-the-response-group-call-list-report"></a>Como acessar o Relatório da Lista de Chamadas de Grupo de Resposta
 
-O relatório de lista de chamadas grupo de resposta pode ser acessado apenas clicando em uma das seguintes métricas encontradas no [Response Group Usage Report no Skype para Business Server 2015](response-group-usage-report.md):
+O relatório de lista de chamadas grupo de resposta pode ser acessado apenas clicando em uma das seguintes métricas encontradas no [Response Group Usage Report no Skype para Business Server](response-group-usage-report.md):
   
 - Chamadas recebidas
     
@@ -55,7 +54,7 @@ O relatório de lista de chamadas grupo de resposta pode ser acessado apenas cli
 
 O Relatório da Lista de Chamadas de Grupo de Resposta permite que você limite os dados exibidos para chamadas que envolvem um fluxo de trabalho específico de Grupo de Resposta. Para fazer isso, você precisa inserir o URI do fluxo de trabalho (o endereço SIP do fluxo de trabalho) na caixa URI do Fluxo de Trabalho. Antes que você possa fazer isso, no entanto, é necessário realmente poder ver a caixa URI do Fluxo de Trabalho. Para exibir as opções de filtragem do Relatório da Lista de Chamadas de Grupo de Resposta, clique no botão Exibir/Ocultar Parâmetros, na parte superior esquerda da janela do relatório.
   
-Observe que a Lista de Chamadas de Grupo de Resposta não exibe informações sobre o Código de resposta nem da ID do Diagnóstico se você manter o mouse sobre uma dessas métricas. Se você precisar de mais informações, você talvez Observe o código de resposta e/ou ID de diagnóstico e procure esses valores no [Relatório de falhas principais no Skype para Business Server 2015](top-failures-report.md).
+Observe que a Lista de Chamadas de Grupo de Resposta não exibe informações sobre o Código de resposta nem da ID do Diagnóstico se você manter o mouse sobre uma dessas métricas. Se você precisar de mais informações, você talvez Observe o código de resposta e/ou ID de diagnóstico e procure esses valores no [Relatório de falhas principais no Skype para Business Server](top-failures-report.md).
   
 uma pergunta como esta: "Qual é o fluxo de trabalho individual que recebeu a maioria das chamadas?", é possível fazer o seguinte:
   
@@ -88,7 +87,7 @@ Count    Name
 
 Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. A tabela a seguir lista os filtros que podem ser usados com o Relatório da Lista de Chamadas de Grupo de Resposta.
   
-**Filtros do relatório de lista de chamada de grupo de resposta**
+**Filtros do Relatório da Lista de Chamadas de Grupo de Resposta**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -101,7 +100,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
 
 A tabela a seguir lista as informações fornecidas no Relatório da Lista de Chamadas de Grupo de Resposta para cada chamada recebida pelo aplicativo Grupo de Resposta.
   
-**Métricas do relatório de lista de chamada de grupo de resposta**
+**Métricas do Relatório da Lista de Chamadas de Grupo de Resposta**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Depois de concluir a instalação do Skype para ferramenta de planejamento do Business Server, você estará pronto para iniciar a ferramenta de planejamento e começar a projetar o Skype proposto para infraestrutura de Business Server 2015.
-ms.openlocfilehash: 4a2d1fc8215091011ad6fdbdc4a3c0a956d981e4
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 504c6b6c3f0675af06a6edb79d3f47a1569a27d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504835"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969870"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Criar o design de topologia inicial para o Skype for Business Server 2015
  
@@ -42,7 +42,7 @@ Depois de concluir a instalação do Skype para ferramenta de planejamento do Bu
 4. Responda cada seção selecionando os critérios apropriados para seu design e clique em **Avançar ** para prosseguir à próxima página do assistente. Clique em **Voltar** para fazer alterações nas páginas anteriores.
     
     > [!TIP]
-    > Cada página possui uma descrição do critério de seleção e recomendações com base nas práticas preferidas e no planejamento de capacidade. Se você precisar detalhes adicionais, clique em **Saiba mais** para ler informações detalhadas do Skype para documentação de planejamento do Business Server 2015 no site Microsoft TechNet. Você deve ter uma conectividade com a Internet para acessar o site da Microsoft TechNet.
+    > Cada página possui uma descrição do critério de seleção e recomendações com base nas práticas preferidas e no planejamento de capacidade. Se você precisar detalhes adicionais, clique em **Saiba mais** para ler informações detalhadas do Skype para documentação de planejamento do Business Server 2015 no site da Microsoft. Você deve ter conectividade com a Internet para acessar o site da Microsoft.
   
 5. Selecione as opções adequadas para seu design. Após o critério inicial ser definido, uma página confirmará que sua Visão Geral dos Recursos está concluída. 
     

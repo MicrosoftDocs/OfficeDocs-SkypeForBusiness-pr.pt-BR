@@ -1,25 +1,25 @@
 ---
-title: Excluir uma política de PIN no Skype for Business Server 2015
+title: Excluir uma política PIN no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: 'Resumo: Exclua discada um usuário PIN para Skype para Business Server 2015.'
-ms.openlocfilehash: b64a4509105214358549f320cf8885d6386986f7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Exclua discada um usuário PIN para Skype para Business Server.'
+ms.openlocfilehash: 22c70204aa73430c49cf232dfba859d3ef54b74c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974893"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server-2015"></a>Excluir uma política de PIN no Skype for Business Server 2015
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Excluir uma política PIN no Skype para Business Server
  
-**Resumo:** Exclua discada um usuário PIN para Skype para Business Server 2015.
+**Resumo:** Exclua discada um usuário PIN para Skype para Business Server.
   
 Siga estas etapas para excluir uma política de PIN (número de identificação pessoal).
   
@@ -28,7 +28,7 @@ Siga estas etapas para excluir uma política de PIN (número de identificação 
   
 ### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Para excluir uma política de PIN no Skype para painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     

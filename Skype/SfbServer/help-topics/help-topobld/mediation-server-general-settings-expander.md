@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: 51e00323c3c0d5df3915b2652b273f1fa189143e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ecb8a924bc72dd8220ab5d40481418cbec78737a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969849"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Mediação
  
-## 
 
-### <a name="general-settings"></a>Configurações gerais
+
+## <a name="general-settings"></a>Configurações gerais
 
 Nome de domínio totalmente qualificado (FQDN) do pool do servidor de mediação ou servidor de mediação. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host DNS (Sistema de Nome de Domínio) que coincida com o novo valor.
   
@@ -29,11 +30,11 @@ Na seção **associações** , você pode selecionar um servidor de borda ou poo
   
 Se você não tiver um servidor de borda definidos atualmente e precisa associar o servidor de mediação um servidor de borda, clique em **novo** e definir o novo servidor de borda ou o pool do servidor de borda em definir o Assistente de pool de borda novo.
   
-### <a name="next-hop-settings"></a>Configurações de próximo salto
+## <a name="next-hop-settings"></a>Configurações de próximo salto
 
 Especifique o pool do servidor de mediação ou próximo salto do servidor de mediação selecionando o pool definido de Front End do Enterprise Edition ou Standard Edition servidor Front-End da lista suspensa. Um diretor ou diretor pool não é uma seleção válida de um pool do servidor de mediação ou o próximo salto do servidor de mediação e não aparecerão na lista. Clique em **Okey** para aceitar e salvar suas alterações. Clique em **Cancelar** para descartar suas alterações e sair da página de propriedades.
   
-### <a name="pstn-gateway-settings"></a>Configurações de gateway PSTN
+## <a name="pstn-gateway-settings"></a>Configurações de gateway PSTN
 
 1. Você define os gateways PSTN associados com o pool do servidor de mediação ou servidor de mediação. Se você já tenha definido gateways, eles estarão disponíveis para associar o servidor de mediação. Se você habilitar a colocação do Servidor de Mediação, defina o intervalo de porta de escuta nos servidores do pool para TLS. Por padrão, essa porta é a 5067. Se você selecionar **Habilitar porta TCP**, será necessário definir uma porta TCP para o Servidor de Mediação colocado. Essa é uma configuração opcional, e você deverá verificar seus requisitos de gateway ou PSTN a fim de determinar se isso é necessário. Por padrão, o valor da porta TCP é 5068.
     

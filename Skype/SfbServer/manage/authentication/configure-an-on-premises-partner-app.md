@@ -1,28 +1,27 @@
 ---
-title: Configurar um aplicativo de parceiro local para o Skype for Business Server 2015
+title: Configurar um aplicativo de parceiro no local para Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: 'Resumo: Configure um aplicativo de parceiro no local para Skype para Business Server 2015.'
-ms.openlocfilehash: 2f13196288fb7b609e5e3d39996c12eab04493dc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Configure um aplicativo de parceiro no local para Skype para Business Server.'
+ms.openlocfilehash: 1377957797108f3cbc8e290b7750e9fba489cbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569446"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009722"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server-2015"></a>Configurar um aplicativo de parceiro local para o Skype for Business Server 2015
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar um aplicativo de parceiro no local para Skype para Business Server
  
-**Resumo:** Configure um aplicativo de parceiro no local para Skype para Business Server 2015.
+**Resumo:** Configure um aplicativo de parceiro no local para Skype para Business Server.
   
-Depois que você atribuiu o certificado OAuthTokenIssuer, em seguida, você deve configurar seu Skype para aplicativos de parceiros de negócios Server 2015. (O procedimento prestes a ser abordadas configura tanto Microsoft Exchange Server 2013 e SharePoint para agir como aplicativos de parceiros, que é opcional.) Para configurar um aplicativo de parceiro no local, você deve iniciar o seguinte script do Windows PowerShell de copiando e colando o código no bloco de notas (ou qualquer outro editor de texto):
+Depois que você atribuiu o certificado OAuthTokenIssuer, em seguida, você deve configurar seu Skype para aplicativos de parceiros de negócios Server. (O procedimento prestes a ser abordadas configura tanto Microsoft Exchange Server 2013 e SharePoint para agir como aplicativos de parceiros, que é opcional.) Para configurar um aplicativo de parceiro no local, você deve iniciar o seguinte script do Windows PowerShell de copiando e colando o código no bloco de notas (ou qualquer outro editor de texto):
   
 ```
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -102,7 +101,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 Essa mensagem de erro geralmente significa que: 1) uma das URLs especificadas no script não é válida (ou seja, uma das URLs de metadados não é realmente uma URL de metadados); ou 2) não foi possível acessar uma das URLs de metadados. Se isso acontecer, verifique se as URLs estão corretas e acessíveis e execute o script novamente.
   
-Depois de criar o aplicativo de parceiro do Skype para Business Server 2015, em seguida, configure Skype para Business Server seja um aplicativo parceiro do Exchange 2013. Você pode configurar aplicativos de parceiros para o Exchange 2013 executando o script Configure-EnterprisePartnerApplication.ps1; tudo o que você precisa fazer é especificar a URL de metadados de Skype para Business Server e indicar que o Skype para Business Server é o novo aplicativo de parceiro. 
+Depois de criar o aplicativo de parceiro do Skype para Business Server, você deve configurar então Skype para Business Server seja um aplicativo parceiro do Exchange 2013. Você pode configurar aplicativos de parceiros para o Exchange 2013 executando o script Configure-EnterprisePartnerApplication.ps1; tudo o que você precisa fazer é especificar a URL de metadados de Skype para Business Server e indicar que o Skype para Business Server é o novo aplicativo de parceiro. 
   
 Para configurar o Skype para Business Server como um aplicativo de parceiro do Exchange, abra o Shell de gerenciamento do Exchange e execute um comando semelhante ao seguinte
   

@@ -1,24 +1,24 @@
 ---
-title: Relatório de Distribuição de Falha no Skype for Business Server 2015
+title: Relatório de distribuição de falha no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Resumo: Saiba mais sobre o relatório de distribuição de falha no Skype para Business Server 2015.'
-ms.openlocfilehash: 002f8e9b72ded0d5793b775e445cd57f20f35af5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de distribuição de falha no Skype para Business Server.'
+ms.openlocfilehash: 47cb4374f8e443d9c288ab07dc97b1447ccacf45
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008505"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server-2015"></a>Relatório de Distribuição de Falha no Skype for Business Server 2015
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Relatório de distribuição de falha no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de distribuição de falha no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de distribuição de falha no Skype para Business Server.
   
 O Relatório de Distribuição de Falhas classifica sessões com falha nas seguintes categorias:
   
@@ -44,13 +44,13 @@ O Relatório de Distribuição de Falhas classifica sessões com falha nas segui
 
 É possível acessar o Relatório de Distribuição de Falhas a partir de qualquer um dos seguintes relatórios clicando nas medidas **Volume de falhas esperado** ou **Volume de falhas não esperado**:
   
-- [Relatório de falhas principais no Skype para Business Server 2015](top-failures-report.md)
+- [Relatório de falhas principais no Skype para Business Server](top-failures-report.md)
     
-- [Relatório de diagnóstico conferência no Skype para Business Server 2015](conference-diagnostic-report.md)
+- [Relatório de diagnóstico conferência no Skype para Business Server](conference-diagnostic-report.md)
     
-- [Relatório de diagnóstico atividade ponto a ponto no Skype para Business Server 2015](peer-to-peer-activity-diagnostic-report.md)
+- [Relatório de diagnóstico atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-Relatório de falha de distribuição, você pode clicar em qualquer uma das seguintes medidas para exibir o [Failure List Report no Skype para Business Server 2015](failure-list-report.md):
+Relatório de falha de distribuição, você pode clicar em qualquer uma das seguintes medidas para exibir o [Relatório de lista de falhas no Skype para Business Server](failure-list-report.md):
   
 - Principais motivos diagnósticos (sessões)
     
@@ -84,7 +84,7 @@ O filtro é uma maneira de retornar um conjunto de dados mais refinado e direcio
   
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha na Distribuição.
   
-**Filtros do relatório de distribuição de falha**
+**Filtros do Relatório de Falha na Distribuição**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -123,7 +123,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos pools que apresentaram mais falhas.
   
-**Métricas para os principais Pools**
+**Métricas para os principais pools**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -159,7 +159,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falha de Di
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falha de Distribuição, com base nos usuários que apresentaram mais falhas quando tentaram chamar alguém (conhecidos como usuários "De").
   
-**Métricas para os principais usuários de origem**
+**Métricas para os principais usuários "Para"**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

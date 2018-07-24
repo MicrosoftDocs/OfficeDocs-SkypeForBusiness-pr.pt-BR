@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumo: Saiba como configurar o serviço de conformidade de servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: 99c09408fbc404edd7ccd6c3844f59dca77a35f0
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568623"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026613"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -36,6 +36,9 @@ A conformidade de Chat Persistente permite que os administradores mantenham um u
 - Baixa um arquivo
     
 Essas informações podem ser recuperadas do banco de dados SQL de Conformidade, se necessário. 
+
+> [!NOTE]
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
   
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configure o serviço de Conformidade usando o Windows PowerShell
 
@@ -130,7 +133,7 @@ Os atributos de mensagem Type, Content e ID são descritos na tabela a seguir.
   
 **Atributos do elemento Messages**
 
-|**Atributo**|**Descrição**|**Opcional/necessários**|
+|**Atributo**|**Descrição**|**Opcional/Obrigatório**|
 |:-----|:-----|:-----|
 |Tipo  <br/> |Especifica o tipo de mensagem. Os tipos de mensagens são descritos na tabela Tipos de mensagem dos elementos Messages.  <br/> |Obrigatório  <br/> |
 |Conteúdo  <br/> |Contém o conteúdo da mensagem. As mensagens com um tipo Ingressar ou Participar não usam esse atributo.  <br/> |Opcional  <br/> |
@@ -140,7 +143,7 @@ Cada elemento Sender contém cinco atributos: nome de usuário, identificação,
   
 **Atributos do elemento Sender**
 
-|**Atributo**|**Descrição**|**Opcional/necessários**|
+|**Atributo**|**Descrição**|**Opcional/Obrigatório**|
 |:-----|:-----|:-----|
 |Username  <br/> |O nome do remetente.  <br/> |Opcional  <br/> |
 |ID  <br/> |ID exclusiva de. do remetente  <br/> |Obrigatório  <br/> |

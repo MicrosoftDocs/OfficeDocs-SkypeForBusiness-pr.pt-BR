@@ -3,7 +3,6 @@ title: Selecionar Membros Negados
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,36 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
+ROBOTS: NOINDEX, NOFOLLOW
 description: Um administrador de Chat persistente pode criar e gerenciar categorias de sala de chat. Como parte do criando e gerenciando categorias de sala de chat, um administrador de Chat persistente pode configurar entidades (Active Directory Domain Services grupos/contêineres/usuários) que têm acesso ao ser membros/criadores de salas de bate-papo de uma categoria específica. A Persistent Chat Administrator também pode adicionar DeniedMembers a uma categoria e eles se tornam exclusões explícitas à lista de permissões. DeniedMembers substituir o que está em uma lista.
-ms.openlocfilehash: b5d203c02e8bec67da2a9a94fb7726675a6151cf
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 66c2dc6fb42af3387eff77f7f9257795a72bc6ad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20049083"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974900"
 ---
 # <a name="select-denied-members"></a>Selecionar Membros Negados
- 
-Um administrador de Chat persistente pode criar e gerenciar categorias de sala de chat. Como parte do criando e gerenciando categorias de sala de chat, um administrador de Chat persistente pode configurar entidades (Active Directory Domain Services grupos/contêineres/usuários) que têm acesso ao ser membros/criadores de salas de bate-papo de uma categoria específica. A Persistent Chat Administrator também pode adicionar DeniedMembers a uma categoria e eles se tornam exclusões explícitas à lista de permissões. DeniedMembers substituir o que está em uma lista.
-  
-## <a name="tasks-that-you-can-perform"></a>Tarefas que podem ser executadas
 
-É possível executar as seguintes tarefas na página **Selecionar Membros Negados**:
-  
-- [Configurar categorias](http://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
-    
-- [Novos recursos de servidor de bate-papo persistente](http://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
-    
- 
-  
-## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorias salas de bate-papo
-
-Em **associação**, na seção **membros negados** , adicione ou remova usuários e outras entidades do Active Directory associadas aos membros sendo negados da sala.
-  
-### 
-
-Para obter detalhes sobre os recursos de servidor de Chat persistente e capacidades, consulte [Visão geral do servidor de Chat persistente](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com as configurações de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação operações.
-  
-## <a name="see-also"></a>Consulte também
-
-[Noções básicas sobre a associação do bate-papo persistente](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.

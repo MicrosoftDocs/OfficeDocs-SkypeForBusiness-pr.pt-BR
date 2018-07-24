@@ -1,25 +1,24 @@
 ---
-title: Relatório de Atividades do Usuário no Skype for Business Server 2015
+title: Relatório de atividades do usuário no Skype para Business Server 25
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
-description: 'Resumo: Saiba mais sobre o relatório de atividade do usuário no Skype para Business Server 2015.'
-ms.openlocfilehash: ed0e61d2e5593287c4f793d8b0c4cf647d772478
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba mais sobre o relatório de atividade do usuário no Skype para Business Server.'
+ms.openlocfilehash: 13e5eb691e81994e2fac368244522fdcab2003df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569390"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981203"
 ---
-# <a name="user-activity-report-in-skype-for-business-server-2015"></a>Relatório de Atividades do Usuário no Skype for Business Server 2015
+# <a name="user-activity-report-in-skype-for-business-server"></a>Relatório de atividades do usuário no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de atividade do usuário no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de atividade do usuário no Skype para Business Server.
   
 O Relatório de Atividades do Usuário oferece uma lista detalhada das sessões ponto a ponto e de conferência realizadas pelos usuários em um determinado período. Diferente de muitos dos Relatórios de Monitoramento, o Relatório de Atividades do Usuário vincula cada chamada a usuários individuais. Por exemplo, as sessões ponto a ponto especificam URIs do SIP da pessoa que iniciou a chamada (o usuário de origem) e a pessoa que está sendo chamada (o usuário de destino). Se as informações forem ampliadas para uma conferência, será possível ver uma lista de todos os participantes da conferência e a função que desempenham na conferência.
   
@@ -41,14 +40,14 @@ Ken.My
   
 ## <a name="to-access-the-user-activity-report"></a>Para acessar o Relatório de Atividades do Usuário
 
-O Relatório de Atividades do Usuário é acessado pela home page dos Relatórios de Monitoramento. Você também pode alcançar o User Activity Report clicando na métrica URI do usuário no [Relatório de inventário de telefones IP no Skype para Business Server 2015](ip-phone-inventory-report.md). No Relatório de Atividades do Usuário, ao clicar em URI da Conferência (para uma conferência), você será levado para o Relatório Detalhado de Conferências. Da mesma forma, clicando na métrica detalhe de uma chamada ponto a ponto leva você para o [relatório de detalhes de sessão ponto a ponto no Skype para Business Server 2015](peer-to-peer-session-detail-report.md).
+O Relatório de Atividades do Usuário é acessado pela home page dos Relatórios de Monitoramento. Você também pode alcançar o User Activity Report clicando na métrica URI do usuário no [Relatório de inventário de telefones IP no Skype para Business Server](ip-phone-inventory-report.md). No Relatório de Atividades do Usuário, ao clicar em URI da Conferência (para uma conferência), você será levado para o Relatório Detalhado de Conferências. Da mesma forma, clicando na métrica detalhe de uma chamada ponto a ponto leva você para o [relatório de detalhes de sessão ponto a ponto no Skype para Business Server](peer-to-peer-session-detail-report.md).
   
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Fazendo o melhor uso do relatório de atividades do usuário
 
-Embora haja muitas informações relevantes no Relatório de Atividades do Usuário, essas informações podem, por vezes, ser difíceis de localizar. Por exemplo, toda a atividade do usuário que acontece em sua organização durante um período especificado está incluída no relatório de atividade do usuário; que significa que incluída, dentro do relatório são informações sobre quais usuários usaram realmente Skype para Business Server 2015 de alguma maneira.
+Embora haja muitas informações relevantes no Relatório de Atividades do Usuário, essas informações podem, por vezes, ser difíceis de localizar. Por exemplo, toda a atividade do usuário que acontece em sua organização durante um período especificado está incluída no relatório de atividade do usuário; que significa que incluída, dentro do relatório são informações sobre quais usuários usaram realmente Skype para Business Server de alguma maneira.
   
 > [!NOTE]
-> Tecnicamente, é possível que alguns atividade do usuário poderá ficar sem registro: enquanto Skype para Business Server se esforça para manter informações sobre todas as chamadas telefônicas, é possível que uma chamada poderia foram feita sem as informações sobre a chamada está sendo gravada o banco de dados. Skype para Business Server foi projetado para dar uma olhada extremamente precisa, mas não necessariamente perfeita na como Skype para Business Server 2015 está sendo usado. (O fato de que não há nenhuma garantia de que 100% de todas as chamadas são registradas explica por que Skype para monitoramento Business Server não deve ser usado como um sistema de faturamento.) Segundo, uma relatório de monitoramento can somente exibição, no máximo, 1.000 registros. Dependendo da quantidade de usuários que você tem e também de período com o qual está trabalhado, isso significa que sua consulta pode não retornar todos os dados realmente armazenados no banco de dados. 
+> Tecnicamente, é possível que alguns atividade do usuário poderá ficar sem registro: enquanto Skype para Business Server se esforça para manter informações sobre todas as chamadas telefônicas, é possível que uma chamada poderia foram feita sem as informações sobre a chamada está sendo gravada o banco de dados. Skype para Business Server foi projetado para dar uma olhada extremamente precisa, mas não necessariamente perfeita na como Skype para Business Server está sendo usado. (O fato de que não há nenhuma garantia de que 100% de todas as chamadas são registradas explica por que Skype para monitoramento Business Server não deve ser usado como um sistema de faturamento.) Segundo, uma relatório de monitoramento can somente exibição, no máximo, 1.000 registros. Dependendo da quantidade de usuários que você tem e também de período com o qual está trabalhado, isso significa que sua consulta pode não retornar todos os dados realmente armazenados no banco de dados. 
   
 - Quais usuários usaram realmente o sistema durante este período?
     
@@ -112,7 +111,7 @@ O filtro é uma maneira de retornar um conjunto de dados mais refinado e direcio
   
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Atividades do Usuário.
   
-**Filtros de relatório de atividades do usuário**
+**Filtros do relatório de atividades do usuário**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|

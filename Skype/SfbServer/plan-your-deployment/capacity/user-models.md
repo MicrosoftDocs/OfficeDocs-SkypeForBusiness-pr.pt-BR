@@ -1,31 +1,31 @@
 ---
-title: Modelos de usuário no Skype for Business Server 2015
+title: Modelos de usuário Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
-description: Os modelos de usuário descritos aqui oferecem a base para as medições e recomendações descritas no Capacity de planejamento de capacidade planejando uso de modelo de usuário Skype para Business Server 2015.
-ms.openlocfilehash: d26929f7ed9cf24ca3d13bf4f2ea7bf30172413d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Os modelos de usuário descritos aqui oferecem a base para as medições e recomendações descritas no Capacity de planejamento de capacidade planejando uso de modelo de usuário Skype para Business Server.
+ms.openlocfilehash: 4f2c9ed9701b7b90812960c050f27bedcf8aab4d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987367"
 ---
-# <a name="user-models-in-skype-for-business-server-2015"></a>Modelos de usuário no Skype for Business Server 2015
+# <a name="user-models-in-skype-for-business-server"></a>Modelos de usuário Skype para Business Server
  
-Os modelos de usuário descritos aqui oferecem a base para as medições e recomendações descritas no [uso de modelo de usuário para Skype para Business Server 2015 de planejamento de capacidade](user-model.md)de planejamento de capacidade.
+Os modelos de usuário descritos aqui oferecem a base para as medições e recomendações descritas no [uso de modelo de usuário para Skype para Business Server de planejamento de capacidade](user-model.md)de planejamento de capacidade.
   
 ## <a name="skype-for-business-server-user-models"></a>Skype para modelos de usuário do servidor de negócios
 
 A tabela a seguir descreve o modelo de usuário para registro, contatos, mensagens instantâneas (IM) e presença para Skype para Business Server.
   
-**Modelo de usuário de registro e de ambiente**
+**Modelo de usuário de ambiente e registro**
 
 |**Categoria**|**Descrição**|
 |:-----|:-----|
@@ -39,22 +39,22 @@ A tabela a seguir descreve o modelo de usuário para registro, contatos, mensage
 |Distribuição dos contatos  <br/> |O número máximo de contatos de um usuário é 1.000. Menos de um 1% dos usuários tem 1.000 contatos. Menos de 25% dos usuários têm 100 ou mais contatos.  <br/> Média de 80 contatos para usuários com conectividade pública na nuvem. Desses usuários:  <br/> • 50% dos contatos que estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.  <br/> • 40% dos contatos são usuários Skype.  <br/> • 10% dos contatos são de parceiros federados.  <br/> Média de 50 contatos para usuários sem conectividade pública na nuvem. Desses usuários:  <br/> • 80% dos contatos que estão dentro da organização. 10% desses usuários são usuários remotos, se conectando de fora do firewall.  <br/> • 20% dos contatos são de parceiros federados.  <br/> Cada usuário possui 1 grupo de distribuição em sua lista de contatos. Para testar o desempenho, assumimos que os grupos de distribuição são sempre expandidos.  <br/> |
 |Tempo de sessão  <br/> |A sessão média de logon do usuário dura 12 horas. Todos os usuários fazem logon em até 120 minutos após o início da sessão.  <br/> |
    
-**Modelo de usuário de presença e IM**
+**Modelo de usuário de IM e presença**
 
 |**Categoria**|**Descrição**|
 |:-----|:-----|
 |Sessões de IM ponto a ponto  <br/> |Cada usuário tem em média seis sessões de IM ponto a ponto por dia.  <br/> 10 mensagens instantâneas por sessão.  <br/> Cada mensagem é correspondida com duas mensagens de INFO SIP e 2 mensagens SIP 200 Okey (para os indicadores de status como "\<nome\> está digitando")  <br/> |
 |Sessões IM de Grupo  <br/> |O número médio de mensagens enviadas em um grupo somente de IM é de 5 sessão por usuário.  <br/> O número médio de mensagens enviadas em uma parcela de IM é de 2 conferências de AV por usuário.  <br/> |
 |Sondagem de presença  <br/> |Em geral, supomos o pool de presença com uma média de 60 pools por usuário, por hora. Para cada usuário, suponha uma média de:  <br/> • Um votação por dia da presença de usuários na guia organização do usuário (mas não a lista de contatos). Número médio de contatos no guia de organização do usuário é 15 usuários. Dois cartões de visita visualizando operações por dia.  <br/> • Sondagem de presença de um toda vez que o usuário clica em outro usuário para iniciar uma conversa, estimado de uma vez por hora.  <br/> • Seis usuário procura por hora. Cada vez que uma pesquisa é realizada, um pool de lote é enviado para todos na lista de resultados da pesquisa. Suponha que o tamanho médio dos resultados da pesquisa é 20. Se os resultados da pesquisa permanecem na tela, o pool de lote é atualizado a cada 5 minutos; assumimos que haverá duas atualizações por hora.  <br/> • Quando o usuário abre ou visualiza um email no Outlook, uma sondagem de presença de usuários no campo para: e CC: campos do email, estimadas em cinco e-mails por hora e quatro usuários por email.  <br/> |
-|Assinaturas de presença  <br/> |Quando um usuário adiciona outro como um contato, o primeiro usuário é inscrever-se em cinco categorias de informações sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário. <br/> Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.  <br/> A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.  <br/> Inscrições curtas acontecer quando um usuário fizer logon, há uma assinatura de lote para todos os contatos do usuário e, em seguida, o usuário breve efetua logoff. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos. <br/> |
+|Assinaturas de presença  <br/> |Quando um usuário adiciona outro como contato, o primeiro usuário está se inscrevendo em cinco categorias de informação sobre o segundo usuário. As atualizações dessas categorias de informação são automaticamente enviadas ao primeiro usuário. <br/> Para cada cliente, uma única solicitação de inscrição em lote é enviada para obter o estado de presença em uma média de 40 contatos, com 40 diálogos adicionais para obter presença de contatos federados.  <br/> A presença de membros de um grupo de distribuição expandido é encontrada através de inscrições de presença persistente, não pool, e é modelada como 1 expansão por usuário para cada 2 horas.  <br/> Inscrições curtas acontecer quando um usuário fizer logon, há uma assinatura de lote para todos os contatos do usuário e, em seguida, o usuário breve efetua logoff. Assumimos 6 inscrições curtas por usuário, por hora, onde cada inscrição dura 10 minutos. <br/> |
 |Publicação de Presença  <br/> |O estado de presença é publicado em uma média de 4 publicações por usuário, por hora, com um máximo de 6 por usuário, por hora.  <br/> |
 |Tamanho do Documento de Presença  <br/> |O tamanho médio de um documento de presença completo é assumido como 4K, com um máximo de 25K.  <br/> |
    
 A tabela a seguir descreve o modelo de usuário para uso do catálogo de endereços.
   
-**Modelo de usuário do uso de catálogo de endereços**
+**Modelo de usuário para uso do catálogo de endereços**
 
-|**Modo de pesquisa do catálogo de endereços**|**Uso**|
+|**Modo de pesquisa do Catálogo de endereços**|**Uso**|
 |:-----|:-----|
 |Consulta da web do Catálogo de endereços somente (todas as consultas realizadas pelo serviço Consulta da web do Catálogo de endereços)  <br/> |Quatro consultas de prefixo por usuário, por dia.  <br/> 60 consultas de pesquisa exatas por usuário, por dia. 40% delas são em lote, com uma média de 20 contatos por consulta. Os outros 60% das consultas servem para um único contato.  <br/> 25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.  <br/> Uma consulta de pesquisa de organização por usuário, por dia.  <br/> |
 |Modo misto, arquivo do catálogo de endereços e consultas da web usadas. Esse é o modo padrão.  <br/> |Somente dois tipos de consulta vão para a rede, as consultas de pesquisa de foto e organizacional total.  <br/> 25 consultas de foto por usuário, por dia. 24 para uma única foto, o restante é uma consulta em lote com uma média de 20 contatos.  <br/> Uma consulta de pesquisa de organização por usuário, por dia.  <br/> |
@@ -73,7 +73,7 @@ A tabela a seguir descreve o modelo de conferência.
 |Distribuição dos participantes da reunião  <br/> |50% de usuários internos autenticados.  <br/> 25% de usuários de acesso remoto autenticados.  <br/> 15% de usuários anônimos.  <br/> 10% de usuários federados.  <br/> |
 |Distribuição de ingresso na reunião  <br/> |Os usuários são simulados como participação da reunião dentro dos primeiros 5 minutos.  <br/> |
    
-Em pools de Front-End regulares, Skype para Business Server tem um tamanho máximo de reunião com suporte de 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, consulte [Planejar para grandes reuniões em Skype para Business Server 2015](../../plan-your-deployment/conferencing/large-meetings.md).
+Em pools de Front-End regulares, Skype para Business Server tem um tamanho máximo de reunião com suporte de 250 usuários. Cada pool pode hospedar uma reunião de 250 usuários por vez. Enquanto esta grande reunião está ocorrendo, o pool também pode hospedar outras conferências menores. Além disso, é possível suportar reuniões de até 1000 usuários configurando um pool exclusivo para hospedar estas reuniões. Para obter detalhes, consulte [Planejar para grandes reuniões em Skype para Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
   
 Conferências foram simuladas como a seguir:
   
@@ -98,7 +98,7 @@ A tabela a seguir fornece detalhes sobre o modelo de usuário para conferências
    
 A tabela a seguir fornece detalhes sobre o modelo de usuário para lobbies de conferência.
   
-**Modelo de usuário de Lobby de conferência**
+**Modelo de usuário de lobby de conferência**
 
 |**Categoria**|**Descrição**|
 |:-----|:-----|
@@ -116,7 +116,7 @@ A tabela a seguir descreve o modelo de usuário para outras sessões ponto a pon
    
 A tabela a seguir descreve o modelo de usuário para políticas.
   
-**Modelo de usuário de políticas**
+**Políticas de Modelo do Usuário**
 
 |**Categoria**|**Descrição**|
 |:-----|:-----|

@@ -1,30 +1,30 @@
 ---
-title: Relatório de Diagnóstico das Atividades Ponto a Ponto no Skype for Business Server 2015
+title: Relatório de diagnóstico atividade ponto a ponto no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server 2015.'
-ms.openlocfilehash: 72b749d3b26bf189c336b1b361d43e2385c98e6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server.'
+ms.openlocfilehash: ccc0c793a27df51c86d7ae0a6a9b575c7f6a5659
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980813"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server-2015"></a>Relatório de Diagnóstico das Atividades Ponto a Ponto no Skype for Business Server 2015
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico atividade ponto a ponto no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de diagnóstico de atividade ponto a ponto no Skype para Business Server.
   
-O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que Skype para Business Server 2015 faz distinção entre diferentes tipos de falha:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que Skype para Business Server faz distinção entre diferentes tipos de falha:
   
-- **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, isso era uma falha esperada: Skype para Business Server 2015 não espera que você atender o telefone se você não estiver disponível para atender o telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
+- **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, isso era uma falha esperada: Skype para Business Server não espera que você atender o telefone se você não estiver disponível para atender o telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
     
-- **Falha inesperada**. Uma falha inesperada é exatamente o que o nome diz: um erro que, baseado nas circunstâncias, você não esperaria que ocorresse. Por exemplo, suponha que você chamar alguém e que pessoa está disponível para atender à chamada; No entanto, quando Skype para Business Server 2015 tenta rotear a chamada para a caixa postal a chamada falhará porque a conectividade com a Unificação de mensagens do Exchange foi perdida. Esse é um erro inesperado: você espera que as chamada sempre sejam encaminhadas para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
+- **Falha inesperada**. Uma falha inesperada é exatamente o que o nome diz: um erro que, baseado nas circunstâncias, você não esperaria que ocorresse. Por exemplo, suponha que você chamar alguém e que pessoa está disponível para atender à chamada; No entanto, quando Skype para Business Server tenta rotear a chamada para a caixa postal a chamada falhará porque a conectividade com a Unificação de mensagens do Exchange foi perdida. Esse é um erro inesperado: você espera que as chamada sempre sejam encaminhadas para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
     
 Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não acrescentem à métrica Total de sessões. Por exemplo, na ilustração anterior, temos os seguintes valores:
   
@@ -36,7 +36,7 @@ Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Atividades Ponto a Ponto
 
-O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [Relatório de falha de distribuição no Skype para Business Server 2015](failure-distribution-report.md) clicando em uma das seguintes métricas:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
   
 - Volume de falha inesperado
     
@@ -52,7 +52,7 @@ Filtros oferecem uma maneira de você retornar um conjunto de dados mais preciso
   
 A tabela a seguir lista os filtros que você pode utilizar com o Relatório de Diagnóstico de Atividade Ponto-a-Ponto.
   
-**Filtros do relatório de diagnóstico de atividade ponto a ponto**
+**Filtros de Relatório de Diagnóstico de Atividade Ponto-a-Ponto**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|

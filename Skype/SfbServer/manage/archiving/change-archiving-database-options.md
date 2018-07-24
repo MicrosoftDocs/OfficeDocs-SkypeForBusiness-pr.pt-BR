@@ -1,24 +1,24 @@
 ---
-title: Alterar opções do banco de dados de Arquivamento no Skype for Business Server 2015
+title: Alterar as opções de banco de dados de arquivamento no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
-description: 'Resumo: Saiba como alterar as opções de banco de dados arquivamento para Skype para Business Server 2015.'
-ms.openlocfilehash: 5bb7ee9329cc3fa7a0795115f9a0d11768ab7aa4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como alterar as opções de banco de dados arquivamento para Skype para Business Server.'
+ms.openlocfilehash: af1cc1e6398652efac5be20114dac6bf228ef892
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010075"
 ---
-# <a name="change-archiving-database-options-in-skype-for-business-server-2015"></a>Alterar opções do banco de dados de Arquivamento no Skype for Business Server 2015
+# <a name="change-archiving-database-options-in-skype-for-business-server"></a>Alterar as opções de banco de dados de arquivamento no Skype para Business Server
 
-**Resumo:** Saiba como alterar as opções de banco de dados arquivamento para Skype para Business Server 2015.
+**Resumo:** Saiba como alterar as opções de banco de dados arquivamento para Skype para Business Server.
   
 Se você implantar o arquivamento usando o armazenamento do SQL Server para armazenamento de arquivamento para qualquer um dos seus usuários, você pode fazer o seguinte banco de dados alterações de armazenamento:
   
@@ -91,7 +91,7 @@ Para tornar qualquer uma dessas alterações, você deve executar o construtor d
 8. Para salvar a configuração, clique em **OK**.
     
     > [!IMPORTANT]
-    > As alterações feitas no construtor de topologia não entrarão em vigor até que você publica a nova topologia. Para obter detalhes, consulte [bancos de dados de arquivamento de adicionar a uma implantação existente no Skype para Business Server 2015](../../deploy/deploy-archiving/add-archiving-databases.md). 
+    > As alterações feitas no construtor de topologia não entrarão em vigor até que você publica a nova topologia. Para obter detalhes, consulte [bancos de dados de arquivamento de adicionar a uma implantação existente no Skype para Business Server](../../deploy/deploy-archiving/add-archiving-databases.md). 
   
 ## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Alterar a localização do banco de dados de arquivamento usando o Windows PowerShell
 

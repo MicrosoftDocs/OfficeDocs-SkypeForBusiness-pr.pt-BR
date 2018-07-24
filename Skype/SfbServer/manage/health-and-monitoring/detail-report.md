@@ -1,24 +1,24 @@
 ---
-title: Relatório de Detalhes de Conferência no Skype for Business Server 2015
+title: Relatório de detalhes de conferência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/13/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Resumo: Saiba mais sobre o relatório de detalhes de conferência usado no Skype para Business Server 2015.'
-ms.openlocfilehash: 4c55b2f339aa3d591f01d73d0f60d8fbc0bb483f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de detalhes de conferência usado no Skype para Business Server.'
+ms.openlocfilehash: ebccaf35464c54eac6c1b8c5a2febf2ebea02b7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971312"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server-2015"></a>Relatório de Detalhes de Conferência no Skype for Business Server 2015
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Relatório de detalhes de conferência no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de detalhes de conferência usado no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de detalhes de conferência usado no Skype para Business Server.
   
 O Relatório de Detalhe da Conferência fornece informações detalhadas sobre todos os usuários que participaram de uma conferência. Por exemplo, você pode ver tal informação como a data e hora que um usuário participou da conferência, a data e hora que o usuário saiu da conferência e o agente do usuário do ponto de extremidade que foi usado para conectar o usuário à conferência. Também é possível ver informações da função do usuário em cada conferência (por exemplo, Apresentador ou Participante). Talvez, o mais importante, você pode ver rapidamente quais usuários participaram com sucesso e concluíram a conferência e quais usuários não puderam participar e concluir a conferência.
   
@@ -26,13 +26,13 @@ O Relatório de Detalhe da Conferência fornece informações detalhadas sobre t
 
 O Relatório de Detalhe da Conferência pode ser acessado pelos seguintes relatórios:
   
-- O [Relatório de controle de admissão chamada no Skype para Business Server 2015](call-admission-control-report.md) (clicando na métrica detalhe de uma conferência)
+- O [Relatório de controle de admissão chamada no Skype para Business Server](call-admission-control-report.md) (clicando na métrica detalhe de uma conferência)
     
-- O [Failure List Report no Skype para Business Server 2015](failure-list-report.md) (clicando na métrica conferência)
+- O [Relatório de lista de falhas no Skype para Business Server](failure-list-report.md) (clicando na métrica conferência)
     
-- O [Relatório de atividades do usuário no Skype para Business Server 2015](user-activity-report.md) (clicando na métrica URI de conferência)
+- O [Relatório de atividades do usuário no Skype para Business Server](user-activity-report.md) (clicando na métrica URI de conferência)
     
-Do relatório de detalhes de conferência, você pode acessar o [Relatório de diagnóstico no Skype para Business Server 2015](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhe).
+Do relatório de detalhes de conferência, você pode acessar o [Relatório de diagnóstico no Skype para Business Server](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhe).
   
 ## <a name="filters"></a>Filtros
 
@@ -42,7 +42,7 @@ Nenhum. Você não pode filtrar o Relatório de Detalhe da Conferência.
 
 A tabela a seguir lista as informações fornecidas na seção Informação da Conferência do Relatório de Detalhe da Conferência.
   
-**Métricas de informações de conferência**
+**Métricas de Informação da Conferência**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -54,7 +54,7 @@ A tabela a seguir lista as informações fornecidas na seção Informação da C
    
 A tabela a seguir lista as informações oferecidas na Seção de Participação da Conferência do Relatório de Detalhe da Conferência.
   
-**Métricas de participação da conferência**
+**Métricas de Participação da Conferência**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -68,7 +68,7 @@ A tabela a seguir lista as informações oferecidas na Seção de Participação
    
 A tabela a seguir lista as informações fornecidas na seção modalidades de conferência do relatório de detalhes de conferência.
   
-**Métricas das modalidades da conferência**
+**Métricas das Modalidades da Conferência**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Para editar as configurações de um pool de Front-Ends ou servidor Standard Edition existente, as seguintes seções são disponibilizadas:'
-ms.openlocfilehash: 84b26c929f2f662c93163df2fd73a6e3576a3a97
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 74a26ca009d0a050babd10e72aeae2e814905cd4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986866"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de Configurações Gerais de Front-End
  
@@ -133,7 +134,7 @@ Para um servidor Standard Edition, você pode definir configurações gerais, de
 
 Você pode definir as seguintes configurações gerais:
   
-- * * FQDN * *. Observe que o FQDN não pode ser alterado. É necessário remover e redefinir o servidor Standard Edition para alterar o FQDN associado a ele.
+- **FQDN**. Observe que o FQDN não pode ser alterado. É necessário remover e redefinir o servidor Standard Edition para alterar o FQDN associado a ele.
     
 - Selecione **Usar todos os endereços IP configurados** ou **Limitar o uso do serviço para os endereços IP selecionados**. Caso selecione a opção para limitar o serviço aos endereços IP definidos, você definirá o endereço IP primário que o servidor usará para todas as comunicações, exceto para PSTN. Defina um endereço IP diferente para uso da PSTN. Você também pode selecionar **Habilitar IPv6** a fim de habilitar o IPv6 para esse servidor.
     

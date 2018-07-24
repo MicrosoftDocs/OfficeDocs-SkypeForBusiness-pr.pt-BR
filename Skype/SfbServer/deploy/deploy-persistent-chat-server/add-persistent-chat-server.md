@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Resumo: Leia este tópico para saber como adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015.'
-ms.openlocfilehash: 3d00e24dbe8f25b2a1887b8c1c79a63bda3471f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973007"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015
  
@@ -24,8 +25,11 @@ Depois de instalar o software de pré-requisito em cada servidor no qual você p
   
 - Atualizar sua topologia para incluir o Servidor de Chat Persistente
     
-- Publicar a topologia atualizada
+- Postar a topologia atualizada
     
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Atualizar sua topologia para incluir o Servidor de Chat Persistente
 
 Execute as seguintes etapas para instalar um único pool de servidor de Chat persistente sem uma configuração de recuperação de desastres. Para configurar um pool de servidor de Chat persistente ampliado para alta disponibilidade e recuperação de desastres, consulte [Configure alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).

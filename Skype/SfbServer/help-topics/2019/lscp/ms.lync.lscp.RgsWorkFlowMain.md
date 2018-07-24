@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
+ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Fluxos de trabalho do grupo de resposta definem as ações que serão executadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
-ms.openlocfilehash: 6af4d40b75ae090cd3e99746ea111e3d804aed60
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: eabf3dfdd8e9dd9f63bb7fed6e71c1a7b2cbed38
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997021"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997530"
 ---
 # <a name="response-groups-workflow"></a>Fluxo de trabalho de grupos de resposta
  
@@ -56,6 +57,6 @@ A lista a seguir descreve os campos na página.
     
 - **Habilitado** Indica se o fluxo de trabalho está ativado para receber chamadas.
     
-Para obter detalhes sobre os recursos de grupo de resposta, consulte [Planejar para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Para obter detalhes sobre como trabalhar com fluxos de trabalho do grupo de resposta, consulte [Gerenciando fluxos de grupo de resposta](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) na documentação operações.
+Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com fluxos de trabalho do grupo de resposta, consulte [Gerenciando fluxos de grupo de resposta](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) na documentação operações.
   
 

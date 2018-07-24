@@ -1,27 +1,26 @@
 ---
-title: Relatório de Dispositivos no Skype for Business Server 2015
+title: Relatório de dispositivo no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-description: 'Resumo: Saiba mais sobre o relatório de dispositivo no Skype para Business Server 2015.'
-ms.openlocfilehash: af09f26bc91c132363367c8145846837734ad73f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba mais sobre o relatório de dispositivo no Skype para Business Server.'
+ms.openlocfilehash: d62aa2fbf1bb597b34609d2069ecbccb62f1ef0c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569481"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008649"
 ---
-# <a name="device-report-in-skype-for-business-server-2015"></a>Relatório de Dispositivos no Skype for Business Server 2015
+# <a name="device-report-in-skype-for-business-server"></a>Relatório de dispositivo no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de dispositivo no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de dispositivo no Skype para Business Server.
   
-O Relatório de Dispositivos poderia trocar de nome para Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se você estiver interessado em telefones IP (também conhecidos como "dispositivos"), use o [Relatório de inventário de telefones IP no Skype para Business Server 2015](ip-phone-inventory-report.md) .
+O Relatório de Dispositivos poderia trocar de nome para Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada. Se você estiver interessado em telefones IP (também conhecidos como "dispositivos"), use o [Relatório de inventário de telefones IP no Skype para Business Server](ip-phone-inventory-report.md) .
   
 O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está apresentando mais chamadas de baixa qualidade que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.
   
@@ -52,13 +51,13 @@ Se você preferir ver os totais combinados para um determinado dispositivo (por 
    
 ## <a name="accessing-the-device-report"></a>Acessando o relatório de dispositivos
 
-O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. No entanto, se você estiver exibindo o [Relatório detalhado de chamadas no Skype para Business Server 2015](call-detail-report.md) você pode analisar o relatório de dispositivo para um dispositivo específico clicando em uma das seguintes métricas:
+O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento. No entanto, se você estiver exibindo o [Relatório detalhado de chamadas no Skype para Business Server](call-detail-report.md) você pode analisar o relatório de dispositivo para um dispositivo específico clicando em uma das seguintes métricas:
   
 - Dispositivo de captura
     
 - Dispositivo de renderização
     
-Do relatório de dispositivo, você pode analisar o [Call List Report no Skype para Business Server 2015](call-list-report-0.md) clicando em uma das seguintes métricas:
+Do relatório de dispositivo, você pode analisar o [Call List Report no Skype para Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
   
 - Volume da chamada
     
@@ -105,7 +104,7 @@ Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamen
 - Microfone Aastra 6725ip (Dispositivo de áudio USB)-V0
     
 > [!NOTE]
-> Tenha em mente que nomes de dispositivos de captura podem não ser o mesmo se você estiver executando versões localizadas do Skype para Business Server 2015. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol. 
+> Tenha em mente que nomes de dispositivos de captura podem não ser o mesmo se você estiver executando versões localizadas do Skype para Business Server. Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol. 
   
 Muitas vezes você precisará desse nível de detalhe; mas, em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo. Uma forma de obter informações deste tipo é exportar os dados do Relatório de Dispositivos para o Microsoft Excel e salvar esses dados em um arquivo de valores separados por vírgulas (por exemplo, C:\Data\Devices_Report.csv). É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:
   
@@ -124,7 +123,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado 
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dispositivos.
   
-**Filtros do relatório de dispositivo**
+**Filtros do Relatório de Dispositivos**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -143,7 +142,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Disp
 
 A tabela a seguir lista a informação apresentada no Relatório de Dispositivos.
   
-**Métricas do relatório de dispositivo**
+**Métricas do Relatório de Dispositivos**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

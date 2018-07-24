@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'O painel de executar comandos exibe o status das tarefas de instalação da réplica local de somente leitura do repositório de gerenciamento Central. Enquanto estiver executando as tarefas, o painel de tarefas é atualizado conforme os comandos são executados. Você deve revisar o status da tarefa e observe quaisquer erros ou avisos que são exibidos. Quando as tarefas estiverem concluídas, o status da tarefa de mensagem: concluído for exibida, e a lista suspensa para os arquivos de log exibe os nomes dos arquivos de log. Para exibir os arquivos de log que foram criados, escolha um arquivo de log para exibir e clique em Exibir Log. Revise todos os arquivos de log para o sucesso, erros e mensagens de aviso.'
-ms.openlocfilehash: 5fb7d100a863191eb8a308057e98360666512fb6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6977804f333c7cee4e71fd9d45d1e25416f0af81
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969439"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989475"
 ---
 # <a name="install-local-configuration-store-invoke"></a>Instalar repositório de configuração Local (invocar)
  

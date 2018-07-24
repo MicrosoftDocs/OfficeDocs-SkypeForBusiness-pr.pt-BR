@@ -3,7 +3,7 @@ title: Preparar a floresta atual (invocar)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 description: 'Página executando comandos exibe um resumo das tarefas como que eles são executados. Leia a tela Resumo e certifique-se de que as tarefas foram bem-sucedidas e que não há nenhum erro. Revise os avisos para certificar-se de que eles esperados. No painel Resumo, você deverá ver o status da tarefa: concluída. Na lista suspensa, o arquivo de log preparar floresta deve estar visível. Se não for, selecione o arquivo de log e, em seguida, clique em Exibir Log para revisar as ações detalhadas e os resultados das tarefas. Clique em Concluir para concluir a preparação da floresta.'
-ms.openlocfilehash: 2d61701acb61f3c72520ceed179257c395ad803f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c2ca2e41acbf8efece9aff935af9ed364318f635
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003703"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Preparar a floresta atual (invocar)
  

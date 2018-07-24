@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-description: Para solicitar, atribuir, remover ou exibir certificados, você deve usar o Assistente de certificado. É necessário estar conectado como membro do grupo RTCUniversalServerAdmins. Para solicitar um certificado de uma autoridade de certificação (AC) pública, não são necessárias quaisquer associações de grupo adicionais. Para solicitar um certificado de infraestrutura de chave pública (PKI) de sua organização, será necessário confirmar o que adicionais — se houver — você precisará de associações de grupo. Durante a tarefa de solicitação, você pode inserir credenciais alternativas que serão usadas para solicitar que o certificado em sua PKI emissão da autoridade de certificação.
-ms.openlocfilehash: 5216b190aafc095f00cd66e931c84caebd115a69
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Para Solicitar, Atribuir, Remover ou Exibir certificados, use o Assistente de Certificado. É necessário estar conectado como membro do grupo RTCUniversalServerAdmins. Para solicitar um certificado de uma autoridade de certificação (AC) pública, não são necessárias quaisquer associações de grupo adicionais. Para solicitar um certificado de infraestrutura de chave pública (PKI) de sua organização, será necessário confirmar o que adicionais — se houver — você precisará de associações de grupo. Durante a tarefa de solicitação, você pode inserir credenciais alternativas que serão usadas para solicitar que o certificado em sua PKI emissão da autoridade de certificação.
+ms.openlocfilehash: 6254ae2601387fa7ef6c6900fe7479db9d7c6ee3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997035"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001458"
 ---
 # <a name="certificate-wizard"></a>Assistente de Certificado
  

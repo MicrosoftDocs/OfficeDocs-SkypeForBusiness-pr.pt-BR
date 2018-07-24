@@ -1,26 +1,26 @@
 ---
-title: Planejar sua topologia de conferência para o Skype for Business Server 2015
+title: Planeje sua topologia de conferência Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
-description: 'Resumo: Leia este tópico para saber mais sobre como planejar sua topologia de conferência no Skype Business Server 2015.'
-ms.openlocfilehash: b81a8eeb1300fa6bad887ba923c28fc4d2676fe8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Leia este tópico para saber mais sobre como planejar sua topologia de conferência no Skype Business Server.'
+ms.openlocfilehash: 3110588585291ccfb55b45750d336863fea7329b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006122"
 ---
-# <a name="plan-your-conferencing-topology-for-skype-for-business-server-2015"></a>Planejar sua topologia de conferência para o Skype for Business Server 2015
+# <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planeje sua topologia de conferência Skype para Business Server
  
-**Resumo:** Leia este tópico para saber mais sobre como planejar sua topologia de conferência no Skype Business Server 2015.
+**Resumo:** Leia este tópico para saber mais sobre como planejar sua topologia de conferência no Skype Business Server.
   
-Este tópico descreve os conhecimentos básicos de topologia de conferências no Skype for Business Server 2015:
+Este tópico descreve os conceitos básicos de topologia de conferência no Skype para Business Server:
   
 - Topologias suportadas
     
@@ -30,11 +30,11 @@ Este tópico descreve os conhecimentos básicos de topologia de conferências no
     
 - Requisitos para grandes reuniões
     
-Para obter mais informações sobre os requisitos de hardware e software, consulte [requisitos de Hardware e software para conferências no Skype para Business Server 2015](hardware-and-software-requirements.md).
+Para obter mais informações sobre os requisitos de hardware e software, consulte [requisitos de Hardware e software para conferências no Skype para Business Server](hardware-and-software-requirements.md).
   
 ## <a name="supported-topologies"></a>Topologias suportadas
 
-Skype para Business Server, o servidor que executa serviços de conferência é sempre colocado com os servidores de servidores Front-End ou Standard Edition. Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente. É possível especificar a implantação de web, áudio e vídeo (A/V) e conferência discada usando o Construtor de Topologias. Você também pode usar o Construtor de Topologias para adicionar conferências a uma implantação existente. Para obter detalhes sobre noções básicas de topologia e colocação cenários, consulte [Noções básicas de topologia para Skype para Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+Skype para Business Server, o servidor que executa serviços de conferência é sempre colocado com os servidores de servidores Front-End ou Standard Edition. Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente. É possível especificar a implantação de web, áudio e vídeo (A/V) e conferência discada usando o Construtor de Topologias. Você também pode usar o Construtor de Topologias para adicionar conferências a uma implantação existente. Para obter detalhes sobre noções básicas de topologia e colocação cenários, consulte [Noções básicas de topologia para Skype para Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 É possível implantar a conferência discada nas seguintes topologias e configurações:
   
@@ -62,7 +62,7 @@ Se você estiver implantando a conferência discada, será necessário considera
     
 - Você deve implantar a conferência discada em cada pool onde você implanta o Skype para conferências Business Server. Não é necessário atribuir números de acesso em cada pool, mas é necessário implantar o recurso de conferência discada em cada pool. Esse requisito oferece suporte ao recurso de nome registrado quando um usuário disca um número de acesso de um pool para ingressar em uma Skype para conferência Business Server em um pool diferente. 
     
-Para obter mais informações, consulte [Planejar a conferência discada no Skype para Business Server 2015](dial-in-conferencing.md).
+Para obter mais informações, consulte [Planejar a conferência discada no Skype para Business Server](dial-in-conferencing.md).
   
 ## <a name="web-conferencing-considerations"></a>Considerações sobre a webconferência
 
@@ -73,7 +73,7 @@ A webconferência requer o seguinte:
 - Integração com o Servidor do Office Web Apps/Servidor do Office Online, necessárias para compartilhar arquivos do PowerPoint durante uma conferência.
     
 > [!NOTE]
-> A iteração mais recente do Office Web Apps Server é nomeada Office Online Server, que é suportado pelo Skype para Business Server 2015. Para obter mais detalhes, consulte a [documentação do servidor do Office Online](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
+> A iteração mais recente do Office Web Apps Server é nomeada Office Online Server, que é suportado pelo Skype para Business Server. Para obter mais detalhes, consulte a [documentação do servidor do Office Online](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx). 
   
 Skype para Business Server oferece as seguintes maneiras de configurar o Office Web Apps Server/Office Online Server. Dependendo de seus requisitos, você pode:
   
@@ -87,7 +87,7 @@ Skype para Business Server oferece as seguintes maneiras de configurar o Office 
     
     Se o Office Web Apps Server/Office Online Server for implantado fora do firewall interno, selecione a opção o **que Office Web Apps Server é implantado em uma rede externa** (ou seja, de perímetro/Internet) no construtor de topologia.
     
-Para obter mais informações, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md). 
+Para obter mais informações, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
 Independentemente da topologia selecionada, é fundamental que as portas do firewall certas estejam abertas. Você deve certificar-se de que nomes DNS, endereços IP e portas não estão bloqueadas por firewalls no Skype, o balanceador de carga ou o Office Web Apps Server/Office Online Server para Business Server.
   
@@ -98,7 +98,7 @@ Independentemente da topologia selecionada, é fundamental que as portas do fire
 
 Uma grande reunião exige pelo menos um Servidor Front-End e um Servidor Back-End. No entanto, para permitir alta disponibilidade, recomendamos um pool com dois Servidores Front-End com Servidores Back-End espelhados, como exibido no diagrama a seguir:
   
-**Topologia de reunião grande**
+**Topologia de grandes reuniões**
 
 ![Topologia de grandes reuniões](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
@@ -106,16 +106,16 @@ O usuário que hospeda as grandes reuniões deve ter sua conta de usuário hospe
   
 Gerenciar um pool com exatamente dois Servidores Front-End exige algumas considerações especiais. Para obter mais informações, consulte [Noções básicas de topologia para Skype para Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) e [topologias de referência para Skype para Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
-Além disso, se você quiser oferecer failover e backup de recuperação de desastres para o pool usado em grandes reuniões, poderá emparelhar com um pool dedicado de configuração semelhante em outro datacenter. Para obter detalhes, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Além disso, se você quiser oferecer failover e backup de recuperação de desastres para o pool usado em grandes reuniões, poderá emparelhar com um pool dedicado de configuração semelhante em outro datacenter. Para obter detalhes, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
-Observações adicionais sobre a topologia incluem:
+As notas adicionais sobre a topologia incluem:
   
 - Um compartilhamento de arquivo é necessário para armazenar conteúdo da reunião e, se o Servidor de Arquivamento estiver implantado e habilitado, armazenar os arquivos de arquivo. O compartilhamento de arquivo pode ser dedicado ao pool ou pode ser o mesmo compartilhamento de arquivo usado por outro pool no site em que o pool é implantado. Para obter detalhes sobre como configurar o compartilhamento de arquivos, consulte [criar um compartilhamento de arquivo no Skype para Business Server 2015](../../deploy/install/create-a-file-share.md).
     
-- É necessário haver um Servidor do Office Web Apps/Servidor do Office Online para habilitar a função de apresentação do PowerPoint em grandes reuniões. O Servidor do Office Web Apps/Servidor do Office Online pode ser dedicado ao pool de grandes reuniões ou pode ser o mesmo Servidor do Office Web Apps/Servidor do Office Online usado por outros pools no site em que o pool dedicado está implantado. Para obter mais informações, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md). 
+- É necessário haver um Servidor do Office Web Apps/Servidor do Office Online para habilitar a função de apresentação do PowerPoint em grandes reuniões. O Servidor do Office Web Apps/Servidor do Office Online pode ser dedicado ao pool de grandes reuniões ou pode ser o mesmo Servidor do Office Web Apps/Servidor do Office Online usado por outros pools no site em que o pool dedicado está implantado. Para obter mais informações, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
 - Os Servidores Front-End exige balanceamento de carga para tráfego HTTP (como download de conteúdo de reunião). O balanceamento de carga DNS é recomendado para tráfego SIP. Para obter detalhes, consulte [requisitos do Skype para negócios de balanceamento de carga](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
-- Se desejar usar o Monitoring Server para o pool de reunião grande dedicado, recomendamos usando o Monitoring Server e seu banco de dados que são compartilhados em todos os pools de servidor Front-End da sua Skype para implantação de servidor de negócios. Para obter mais informações, consulte [Plan for monitoring no Skype para Business Server 2015](../../plan-your-deployment/monitoring.md).
+- Se desejar usar o Monitoring Server para o pool de reunião grande dedicado, recomendamos usando o Monitoring Server e seu banco de dados que são compartilhados em todos os pools de servidor Front-End da sua Skype para implantação de servidor de negócios. Para obter mais informações, consulte [Plan for monitoring no Skype para Business Server](../../plan-your-deployment/monitoring.md).
     
 

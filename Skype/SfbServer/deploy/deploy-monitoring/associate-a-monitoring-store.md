@@ -1,26 +1,25 @@
 ---
-title: Associar um repositório de monitoramento com um Pool de Front-Ends no Skype for Business Server 2015
+title: Associar um repositório de monitoramento um pool de Front-End no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 9/1/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
-description: 'Resumo: Saiba como associar pools de Front-End com um repositório de monitoramento usado pelo Skype para Business Server 2015.'
-ms.openlocfilehash: 6706185264df4220b723f72c0863f11d84e2dc05
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como associar pools de Front-End com um repositório de monitoramento usado pelo Skype para Business Server.'
+ms.openlocfilehash: a7a7965016ed659d120cf4bff642e85e9941b193
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968206"
 ---
-# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server-2015"></a>Associar um repositório de monitoramento com um Pool de Front-Ends no Skype for Business Server 2015
- 
-**Resumo:** Saiba como associar pools de Front-End com um repositório de monitoramento usado pelo Skype para Business Server 2015.
+# <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Associar um repositório de monitoramento um pool de Front-End no Skype para Business Server 
+**Resumo:** Saiba como associar pools de Front-End com um repositório de monitoramento usado pelo Skype para Business Server.
   
-No Skype para Business Server 2015, dados de monitoramento só podem ser obtidos em pools de Front-End que tenham sido associados um repositório de monitoramento, uma tarefa que normalmente executada quando você definir um pool de Front-End no construtor de topologia.
+No Skype para Business Server, dados de monitoramento só podem ser obtidos em pools de Front-End que tenham sido associados um repositório de monitoramento, uma tarefa que normalmente executada quando você definir um pool de Front-End no construtor de topologia.
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>Associar um repositório de monitoramento ao pool de front-ends
 

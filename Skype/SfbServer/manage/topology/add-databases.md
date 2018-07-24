@@ -1,24 +1,24 @@
 ---
-title: Adicionar bancos de dados a um grupo de disponibilidade do AlwaysOn no Skype para Business Server 2015
+title: Adicionar bancos de dados a um grupo de disponibilidade do AlwaysOn no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/30/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: 'Resumo: Saiba como adicionar mais Skype para bancos de dados do Business Server a um grupo de disponibilidade do AlwaysOn existente no Skype para Business Server 2015.'
-ms.openlocfilehash: 31678d6cc374ecdbe40d2fdf3039905176c0178d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como adicionar mais Skype para bancos de dados do Business Server a um grupo de disponibilidade do AlwaysOn existente no Skype para Business Server.'
+ms.openlocfilehash: f055466788494f10575b7bd3710705a138c456b2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976321"
 ---
-# <a name="add-databases-to-an-alwayson-availability-group-in-skype-for-business-server-2015"></a>Adicionar bancos de dados a um grupo de disponibilidade do AlwaysOn no Skype para Business Server 2015
+# <a name="add-databases-to-an-alwayson-availability-group-in-skype-for-business-server"></a>Adicionar bancos de dados a um grupo de disponibilidade do AlwaysOn no Skype para Business Server
  
-**Resumo:** Saiba como adicionar mais Skype para bancos de dados do Business Server a um grupo de disponibilidade do AlwaysOn existente no Skype para Business Server 2015.
+**Resumo:** Saiba como adicionar mais Skype para bancos de dados do Business Server a um grupo de disponibilidade do AlwaysOn existente no Skype para Business Server.
   
 ### <a name="adding-databases-to-an-alwayson-availability-group"></a>Adicionar bancos de dados para um grupo de disponibilidade do AlwaysOn
 

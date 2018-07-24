@@ -3,7 +3,6 @@ title: Configurar sua implantação local para Transmissão de Reunião do Skype
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -15,12 +14,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumo: Saiba mais sobre as etapas que necessárias para executar para configurar a transmissão do Skype reunião para o seu Skype local para implantação híbrida do Business Server.'
-ms.openlocfilehash: da34ecdf1a83ffb0b2e259756d9124af8e628b9f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 55b7c5c1e97c2e059ead73384ae2914b07d47c4b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568403"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004690"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurar sua implantação local para Transmissão de Reunião do Skype
  

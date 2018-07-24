@@ -3,19 +3,18 @@ title: Provisionamento das contas do Sistema de Salas do Skype no Office 365
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Leia este tópico para aprender sobre provisionamento de contas do Sistema de Salas do Skype no Office 365.
-ms.openlocfilehash: 93e8c07665240813317750491cd9c3355f0c3a90
-ms.sourcegitcommit: 7c6036c60a8b18556215f5d540dda2a3f068479d
+ms.openlocfilehash: 63b195dd2989e6da2d3a2cecdbc76ccff741cd87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19747060"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21010038"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Provisionamento das contas do Sistema de Salas do Skype no Office 365
  
@@ -97,9 +96,13 @@ Depois de atribuir uma licença para Skype para Business Online, você poderá f
   
 ## <a name="skype-for-business-online-provisioning"></a>Provisionamento do Skype for Business Online  
 
-Depois de uma sala de recurso conta da caixa de correio foi criada e habilitada, conforme mostrado anteriormente e você tiver licenciado a conta para Skype For Business ar que a conta sincronizará da floresta do Exchange Online para Skype para floresta Business Online usando o Windows Floresta do Windows Azure do Active Directory. As etapas a seguir são necessárias para provisionar a conta de sistema do Skype sala no Skype para pool Business Online. Estas etapas são as mesmas para uma conta existente de caixa de correio de recurso ou de uma conta recém-criada (confrm1 ou confrm2), porque quando estiverem habilitados no Exchange Online, ambos dessas contas serão sincronizados com o Skype para Business Online da mesma maneira:
+Depois de uma sala de recurso conta da caixa de correio foi criada e habilitada, conforme mostrado anteriormente, e a conta possui licenciado para Skype para Business Online da conta serão sincronizadas da floresta do Exchange Online com Skype para floresta Business Online usando o Floresta do Active Directory do Windows Azure. As etapas a seguir são necessárias para provisionar a conta de sistema do Skype sala no Skype para pool Business Online. Estas etapas são as mesmas para uma conta existente de caixa de correio de recurso ou de uma conta recém-criada (confrm1 ou confrm2), porque quando estiverem habilitados no Exchange Online, ambos dessas contas serão sincronizados com o Skype para Business Online da mesma maneira:
   
-1. Crie uma sessão do PowerShell remoto. Observe que você precisará baixar Skype para negócios on-line do módulo do conector e o assistente Microsoft Online Services entrar e certifique-se de que o seu computador está configurado. Para obter mais informações, consulte [Configurando o computador para o gerenciamento do Lync Online](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
+<<<<<<< CABEÇALHO
+1. Crie uma sessão do PowerShell remoto. Observe que você precisará baixar Skype para negócios on-line do módulo do conector e o assistente Microsoft Online Services entrar e certifique-se de que o seu computador está configurado. Para obter mais informações, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+=======
+1. Crie uma sessão do PowerShell remoto. Observe que você precisará baixar Skype para negócios on-line do módulo do conector e o assistente Microsoft Online Services entrar e certifique-se de que o seu computador está configurado. Para obter mais informações, consulte [Configurar o computador para o Windows PowerShell](http://technet.microsoft.com/library/bca143e2-659a-4161-9220-59ffd9fc2874.aspx).
+>>>>>>> 0a230b02c47ae4de6638a638b76ed38243c71ab9
     
    ```
    Import-Module LyncOnlineConnector
@@ -137,6 +140,6 @@ No Office 365, a política de expiração de senha padrão para todas as contas 
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Para obter mais informações, consulte [Using Windows PowerShell para gerenciar o Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+Para obter mais informações, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 

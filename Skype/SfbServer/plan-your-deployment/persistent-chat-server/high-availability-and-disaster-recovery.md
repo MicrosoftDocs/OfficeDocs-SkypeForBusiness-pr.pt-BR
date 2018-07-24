@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Resumo: Leia este tópico para saber como planejar para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype Business Server 2015.'
-ms.openlocfilehash: 2730d72b47d02772bf2c5c59c819bbe23e8816db
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971652"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plano para alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015
  
@@ -24,6 +25,9 @@ Alta disponibilidade e recuperação de desastres para o servidor de Chat persis
   
 > [!NOTE]
 > O uso de Grupos de Disponibilidade AlwaysOn do SQL não tem suporte com bancos de dados de Servidor de Chat Persistente. 
+
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
   
 ## <a name="resource-requirements"></a>Requisitos de recursos
 
@@ -75,7 +79,7 @@ A Figura 1 mostra uma topologia ampliada do pool de servidor de Chat persistente
     
   - Um pool de Servidores Front-End e um banco de dados de backup, que é o destino do envio de logs do SQL, no Site 2.
     
-**Pool de servidor de Chat persistente ampliado quando os data centers estão Geo-localizados com alta largura de banda/baixa latência**
+**Pool de servidor de chat persistente ampliado quando os data centers estão localizados geograficamente com alta largura de banda/baixa latência.**
 
 ![Pool Estendido de Chat Persistente com alta largura de banda/baixa latência](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
@@ -99,7 +103,7 @@ Figura 2 mostra uma topologia ampliada do pool de servidor de Chat persistente o
     
   - Um pool de Servidores Front-End e um banco de dados de backup, que é o destino do envio de logs do SQL, no Site 2.
     
-**Pool de servidor de Chat persistente ampliado quando os data centers estão Geo-localizados com baixa largura de banda/alta latência**
+**Pool de servidor de chat persistente ampliado quando os data centers estão localizados geograficamente com baixa largura de banda/alta latência.**
 
 ![Pool Estendido de Chat Persistente com baixa largura de banda/alta latência](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   

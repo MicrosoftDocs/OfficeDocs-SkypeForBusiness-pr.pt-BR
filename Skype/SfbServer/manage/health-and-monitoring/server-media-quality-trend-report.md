@@ -1,24 +1,24 @@
 ---
-title: Relatório de tendência de qualidade de mídia do servidor no Skype for Business Server 2015
+title: Servidor relatório qualidade de mídia tendência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Resumo: Saiba mais sobre o servidor Media Quality tendência Report no Skype para Business Server 2015.'
-ms.openlocfilehash: e257243eed1934cecc39f1feec26b3d83862e8c2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o servidor Media Quality tendência Report no Skype para Business Server.'
+ms.openlocfilehash: 1d4f2407dc7a4cc56e1688a955f4196a450114f4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029118"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server-2015"></a>Relatório de tendência de qualidade de mídia do servidor no Skype for Business Server 2015
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Servidor relatório qualidade de mídia tendência no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o servidor Media Quality tendência Report no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o servidor Media Quality tendência Report no Skype para Business Server.
   
 O Relatório de Tendências de Qualidade de Mídia do Servidor é uma forma gráfica de comparar até cinco servidores em relação a métricas de Qualidade da Experiência, como volume da chamada, percentagem de chamadas ruins, perda de pacotes e tremulação. Ele facilita determinadas tarefas como identificar servidores com desempenho ruim, subutilizados e superutilizados.
   
@@ -26,21 +26,21 @@ O Relatório de Tendências de Qualidade de Mídia do Servidor é uma forma grá
 
 O Relatório de Tendências de Qualidade de Mídia do Servidor pode ser acessado por um destes relatórios:
   
-- [Relatório de desempenho do servidor no Skype para Business Server 2015](server-performance.md) (clicando na métrica de tendência)
+- [Server Performance Report no Skype para Business Server](server-performance.md) (clicando na métrica de tendência)
     
-- [Relatório de detalhes no Skype para Business Server 2015 chamadas](call-detail-report.md) (clicando na borda a / V métrica de servidor. Se o chamador ou o receptor for um servidor, você também pode alcançar o relatório de tendências de mídia de qualidade do servidor clicando no nome do ponto de extremidade.)
+- [Relatório detalhado no Skype para Business Server de chamadas](call-detail-report.md) (clicando na borda a / V métrica de servidor. Se o chamador ou o receptor for um servidor, você também pode alcançar o relatório de tendências de mídia de qualidade do servidor clicando no nome do ponto de extremidade.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Aproveitando ao máximo o Relatório de Tendências de Qualidade de Mídia do Servidor
 
-Quando você clica na métrica de tendência no [Relatório de desempenho do servidor no Skype para Business Server 2015](server-performance.md) para um servidor específico, o relatório de tendências de qualidade de mídia do servidor será aberta. No entanto, você verá uma instância em branco do relatório; o servidor selecionado no Relatório de Desempenho do Servidor não será exibido na tela. Será necessário selecionar o servidor em questão no menu suspenso "Servidores". O menu suspenso "Servidores" apresenta também a opção "Selecionar tudo". Essa opção não funcionará caso haja mais de cinco servidores; o relatório de tendências de qualidade de mídia do servidor só pode exibir dados para, no máximo, cinco servidores por vez.
+Quando você clica na métrica de tendência no [Relatório de desempenho do servidor no Skype para Business Server](server-performance.md) para um servidor específico, o relatório de tendências de qualidade de mídia do servidor será aberta. No entanto, você verá uma instância em branco do relatório; o servidor selecionado no Relatório de Desempenho do Servidor não será exibido na tela. Será necessário selecionar o servidor em questão no menu suspenso "Servidores". O menu suspenso "Servidores" apresenta também a opção "Selecionar tudo". Essa opção não funcionará caso haja mais de cinco servidores; o relatório de tendências de qualidade de mídia do servidor só pode exibir dados para, no máximo, cinco servidores por vez.
   
-Nos gráficos exibidos pelo relatório de tendências de qualidade de mídia do servidor, os pontos de rotulado Volume de chamadas e a porcentagem de chamadas ruins são hotlinks; clicar em um ponto no gráfico será aberto em uma instância do [Call List Report no Skype para Business Server 2015](call-list-report-0.md) mostrando o total de chamadas (ou chamadas ruins) para o período de tempo especificado.
+Nos gráficos exibidos pelo relatório de tendências de qualidade de mídia do servidor, os pontos de rotulado Volume de chamadas e a porcentagem de chamadas ruins são hotlinks; clicar em um ponto no gráfico será aberto em uma instância do [Call List Report no Skype para Business Server](call-list-report-0.md) mostrando o total de chamadas (ou chamadas ruins) para o período de tempo especificado.
   
 ## <a name="filters"></a>Filtros
 
 Os filtros são uma forma de obter dados mais direcionados ou visualizar os dados obtidos de diferentes maneiras. A tabela a seguir relaciona os filtros que podem ser usados no relatório de tendências de qualidade de mídia do servidor.
   
-**Filtros de relatório de tendências de qualidade de mídia de servidor**
+**Filtros do Relatório de Tendências de Qualidade de Mídia do Servidor**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -57,7 +57,7 @@ Os filtros são uma forma de obter dados mais direcionados ou visualizar os dado
 
 A tabela a seguir lista as informações fornecidas no relatório de tendências de qualidade de mídia do servidor.
   
-**Métricas de relatório de tendências de qualidade de mídia de servidor**
+**Métricas do relatório de tendências de qualidade de mídia do servidor**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

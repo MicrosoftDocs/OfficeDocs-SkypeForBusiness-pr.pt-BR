@@ -1,40 +1,40 @@
 ---
-title: Usando relatórios de monitoramento no Skype for Business Server 2015
+title: Usando relatórios de monitoramento no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 'Resumo: Saiba sobre o monitoramento de relatórios no Skype para Business Server 2015.'
-ms.openlocfilehash: ff34efdf698e19006e99819c52c01c68dba2c3ae
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba sobre o monitoramento de relatórios no Skype para Business Server.'
+ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003790"
 ---
-# <a name="using-monitoring-reports-in-skype-for-business-server-2015"></a>Usando relatórios de monitoramento no Skype for Business Server 2015
+# <a name="using-monitoring-reports-in-skype-for-business-server"></a>Usando relatórios de monitoramento no Skype para Business Server 
  
-**Resumo:** Saiba mais sobre o monitoramento de relatórios no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o monitoramento de relatórios no Skype para Business Server.
   
-Skype para Business Server 2015 inclui um conjunto de relatórios padrão publicados pelo serviço de relatório do Microsoft SQL Server. Esses relatórios, que podem ser acessados com um navegador da Web, oferecem informações sobre utilização, diagnóstico de chamadas e qualidade de mídia, todas baseadas nos registros de detalhes das chamadas (CDR) e de Qualidade da Experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
+Skype para Business Server inclui um conjunto de relatórios padrão publicados pelo serviço de relatório do Microsoft SQL Server. Esses relatórios, que podem ser acessados com um navegador da Web, oferecem informações sobre utilização, diagnóstico de chamadas e qualidade de mídia, todas baseadas nos registros de detalhes das chamadas (CDR) e de Qualidade da Experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
   
 Para usar esses relatórios, você deve instalar os relatórios do Monitoring em um computador que esteja executando uma instância do SQL Server.
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Usando o painel de monitoramento no Skype para Business Server 2015](monitoring-dashboard.md) Fornece aos administradores uma visão geral rápida da integridade e uso do sistema.
+- [Usando o painel de monitoramento no Skype para Business Server](monitoring-dashboard.md) Fornece aos administradores uma visão geral rápida da integridade e uso do sistema.
     
-- [Relatórios de uso do sistema na Skype para Business Server 2015](system-usage-reports.md) Fornece informações de uso do sistema com base nos dados de CDR coletados pelo Skype para Business Server.
+- [Relatórios de uso do sistema na Skype para Business Server](system-usage-reports.md) Fornece informações de uso do sistema com base nos dados de CDR coletados pelo Skype para Business Server.
     
-- [Chamada relatórios de diagnóstico (por usuário) no Skype para Business Server 2015](call-diagnostic-reports-per-user.md) Fornece informações por usuário sobre sessões ponto a ponto e conferências com falha.
+- [Chamada relatórios de diagnóstico (por usuário) no Skype para Business Server](call-diagnostic-reports-per-user.md) Fornece informações por usuário sobre sessões ponto a ponto e conferências com falha.
     
-- [Relatórios de diagnóstico no Skype para Business Server 2015 de chamada](call-diagnostic-reports.md) Fornece informações de resumo e dados de diagnóstico para sessões de conferência e ponto a ponto com falha.
+- [Relatórios de diagnóstico no Skype para Business Server de chamada](call-diagnostic-reports.md) Fornece informações de resumo e dados de diagnóstico para sessões de conferência e ponto a ponto com falha.
     
-- [Relatórios de diagnóstico de qualidade de mídia no Skype para Business Server 2015](media-quality-diagnostic-reports.md) Fornece informações sobre a qualidade da chamada, bem como informações de diagnóstico e solução de problemas para chamadas com falha.
+- [Relatórios de diagnóstico de qualidade de mídia no Skype para Business Server](media-quality-diagnostic-reports.md) Fornece informações sobre a qualidade da chamada, bem como informações de diagnóstico e solução de problemas para chamadas com falha.
     
 ## <a name="locating-records"></a>Localizar registros
 

@@ -1,28 +1,28 @@
 ---
-title: O Relatório de Distribuição da Métrica de Qualidade de Mídia no Skype for Business Server 2015
+title: O Media Quality métricas distribuição Report no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: 'Resumo: Saiba mais sobre o Media Quality métricas distribuição Report no Skype para Business Server 2015.'
-ms.openlocfilehash: 8883a15e4d78ee0eb5fad298fcbdddea6aedb5a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o Media Quality métricas distribuição Report no Skype para Business Server.'
+ms.openlocfilehash: ef15807cdc0377d2548a83f8da56de9b6cf85e04
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014135"
 ---
-# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server-2015"></a>O Relatório de Distribuição da Métrica de Qualidade de Mídia no Skype for Business Server 2015
+# <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>O Media Quality métricas distribuição Report no Skype para Business Server 
  
-**Resumo:** Saiba mais sobre o Media Quality métricas distribuição Report no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o Media Quality métricas distribuição Report no Skype para Business Server.
   
 O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um gráfico que mostra os valores de distribuição para a métrica Qualidade da Experiência, como tremulação ou perda de pacotes. Por exemplo, suponha que seus usuários fazem um total de 10 ligações telefônicas; essas 10 chamadas relatam os seguintes tempos de ida e volta:
   
-|**Número de chamada**|**Tempo de ida e volta (milissegundos)**|
+|**Número da chamada**|**Tempo de viagem de ida e volta (milissegundos)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
@@ -45,7 +45,7 @@ O Relatório de Distribuição da Métrica de Qualidade de Mídia ajuda a evitar
 
 Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. A tabela a seguir lista os filtros que você pode usar com o Relatório de Distribuição da Métrica de Qualidade de Mídia.
   
-**Filtros de relatório de distribuição de métricas de qualidade de mídia**
+**Filtros do Relatório de Distribuição da Métrica de Qualidade de Mídia**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|

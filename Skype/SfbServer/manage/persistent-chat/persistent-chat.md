@@ -10,17 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 'Resumo: Saiba como gerenciar o servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: 294c6bcecbbfb57bb8d2a6a785cdf20775119510
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2511de09c321c70d73d824f5fc94bf21fa674131
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967895"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar Servidor de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Saiba como gerenciar o servidor de Chat persistente no Skype para Business Server 2015.
   
 Quando você configura o servidor de Chat persistente para sua organização, você pode especificar a configuração inicial durante a implantação. No entanto, pode haver ocasiões em que você deseja alterar como implementar o suporte do servidor de Chat persistente. Por exemplo, você pode precisar configurar o suporte do servidor de Chat persistente e controles de forma diferente para uma equipe específico ou um grupo dentro da sua organização. Esta seção fornece informações e procedimentos para ajudá-lo a personalizar sua implantação de servidor de Chat persistente. Para obter detalhes sobre os recursos e funcionalidade que você pode definir para o servidor de Chat persistente, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Para obter detalhes sobre como implantar o servidor de Chat persistente, consulte [Implantar Persistent Chat Server in Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+
+> [!NOTE]
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
   
 Você pode gerenciar o servidor de Chat persistente usando o painel de controle ou usando cmdlets do Windows PowerShell. 
   

@@ -1,27 +1,26 @@
 ---
-title: Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server 2015
+title: Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 'Resumo: Saiba como configurar o CDR e QoE no Skype para Business Server 2015.'
-ms.openlocfilehash: 0d5a6ba25a524578a13f16c92149977b0180fbdb
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como configurar o CDR e QoE no Skype para Business Server.'
+ms.openlocfilehash: 7c94815efd30f7f3a30b3a72cfae756085e6aad4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569453"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015000"
 ---
-# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server-2015"></a>Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server 2015
+# <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurar o registro de detalhes de chamada e configurações de qualidade da experiência no Skype para Business Server
  
-**Resumo:** Saiba como configurar o CDR e QoE no Skype para Business Server 2015.
+**Resumo:** Saiba como configurar o CDR e QoE no Skype para Business Server.
   
-Configure o CDR e QoE monitoring usando relatórios do SQL Server Reporting Services para Skype para Business Server 2015.
+Configure o CDR e QoE monitoring usando relatórios do SQL Server Reporting Services para Skype para Business Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Configurar o CDR e QoE
 
@@ -31,14 +30,14 @@ Depois que você tiver associado a um repositório de monitoramento com um pool 
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-Quando você instala o Skype para Business Server 2015, também instalará um conjunto predefinido de definições de configuração global de CDR e QoE. Os valores padrão para algumas das configurações usados com mais frequência pelo Registro de Detalhes das Chamadas são exibidos na tabela a seguir:
+Quando você instala o Skype para Business Server, você também instalará um conjunto predefinido de definições de configuração global de CDR e QoE. Os valores padrão para algumas das configurações usados com mais frequência pelo Registro de Detalhes das Chamadas são exibidos na tabela a seguir:
   
 |**Propriedade**|**Descrição**|**Valor padrão**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |Indica se o CDR está habilitado ou não. Se for True, todos os registros de CDR serão coletados e gravados no banco de dados de monitoramento.  <br/> |True  <br/> |
 |EnablePurging  <br/> |Indica se os registros CDR serão excluídos periodicamente do banco de dados. Se for True, os registros serão excluídos após o período especificado pelas propriedades KeepCallDetailForDays (para registros CDR) e KeepErrorReportForDays (para erros de CDR). Se for Falso, os registros CDR serão mantidos indefinidamente.  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |Indica o número de dias durante os quais os registros CDR serão mantidos no banco de dados; quaisquer registros mais antigos do que o número especificado de dias serão automaticamente excluídos. No entanto, isso ocorrerá somente se a exclusão tiver sido habilitada.  <br/> KeepCallDetailForDays pode ser definido como qualquer valor inteiro entre 1 e 2.562 dias (aproximadamente sete anos).  <br/> |60 dias  <br/> |
-|KeepErrorReportForDays  <br/> |Indica o número de dias que os relatórios de erros de CDR são mantidos; todos os relatórios mais antigos do que o número de dias especificado serão excluídos automaticamente. Relatórios de erros de CDR são relatórios de diagnósticos, carregados por aplicativos de cliente, como Skype para Business Server 2015.  <br/> É possível definir essa propriedade como qualquer valor inteiro entre 1 e 2562 dias.  <br/> |60 dias  <br/> |
+|KeepErrorReportForDays  <br/> |Indica o número de dias que os relatórios de erros de CDR são mantidos; todos os relatórios mais antigos do que o número de dias especificado serão excluídos automaticamente. Relatórios de erros de CDR são carregados por aplicativos de cliente, como Skype para Business Server de relatórios de diagnóstico.  <br/> É possível definir essa propriedade como qualquer valor inteiro entre 1 e 2562 dias.  <br/> |60 dias  <br/> |
    
 Da mesma forma, os valores padrão para as configurações de QoE selecionadas são exibidas nesta tabela:
   

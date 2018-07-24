@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar a floresta do Active Directory Domain Services, você deve com êxito estender o esquema, conforme descrito no tópico Running Schema Preparation e certifique-se de que o esquema foi replicado.
-ms.openlocfilehash: f993236fc13fc2274acaa8bb4c6b0ae1105afccb
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 8bab8fecef4980c2d82f92a90f5c11c6bf7870f1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987484"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971894"
 ---
 # <a name="prepare-current-forest"></a>Preparar Floresta Atual
  
@@ -29,7 +30,7 @@ Depois de atender a esses pré-requisitos, você pode começar a **Etapa 3: prep
 2. Na página **Preparar Floresta**, clique em **Próximo**.
     
     > [!NOTE]
-    > A preparação da floresta permite que você escolha onde colocar os grupos universais do Skype para Business Server 2015. Escolha um local que atenda aos requisitos de sua organização. 
+    > A preparação da floresta permite que você escolha onde colocar os grupos universais do Skype para Business Server. Escolha um local que atenda aos requisitos de sua organização. 
   
 3. Na página **Executando Comandos**, procure por **Status da tarefa: Concluída** e clique em **Exibir Log**. Certifique-se de que não haja erros. Revise os avisos a fim de determinar se são esperados e normais para sua infraestrutura.
     

@@ -3,7 +3,7 @@ title: Instalar página de opção de banco de dados de espelho
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Você pode configurar definições de banco de dados de espelho definindo o seguinte:'
-ms.openlocfilehash: c51c3c6e4ee4c86fe97830c639374ab9d97278da
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: aadb4ddc61603a827ff1e9f2bc1c2d332ad8d7db
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974589"
 ---
 # <a name="install-mirror-database-option-page"></a>Instalar página de opção de banco de dados de espelho
  
@@ -35,7 +36,4 @@ Você pode configurar **Definições de banco de dados de espelho** definindo o 
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Implantar o espelhamento do SQL para alta disponibilidade do servidor Back-End no Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
-
+[Implantar espelhamento de SQL para alta disponibilidade do servidor back-end no Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

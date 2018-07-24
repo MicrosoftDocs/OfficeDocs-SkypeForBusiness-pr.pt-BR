@@ -1,24 +1,24 @@
 ---
-title: Relatório de Comparação de Qualidade de Mídia no Skype for Business Server 2015
+title: Media Quality Comparison Report no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 'Resumo: Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype para Business Server 2015.'
-ms.openlocfilehash: 045a3d91e39d69c352d30ee51747d70f47fc4238
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype para Business Server.'
+ms.openlocfilehash: f3c40b2f496d03ecd74cb188f0111d3f15735630
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980971"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server-2015"></a>Relatório de Comparação de Qualidade de Mídia no Skype for Business Server 2015
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Media Quality Comparison Report no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de comparação de qualidade de mídia no Skype para Business Server.
   
 O Relatório de Comparação de Qualidade da Mídia permite comparar os valores de qualidade da chamada para diferentes tipos de chamadas de áudio (por exemplo, chamadas realizadas por uma rede sem fio contra chamadas realizadas em uma conexão com fio).
   
@@ -30,7 +30,7 @@ O Relatório de Comparação de Qualidade de Mídia é acessado na página inici
 
 Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou exibir os dados retornados em formas diferentes. A tabela a seguir lista os filtros que você pode usar com o Relatório de Comparação de Qualidade de Mídia.
   
-**Filtros do relatório de comparação de qualidade de mídia**
+**Filtros do Relatório de Comparação de Qualidade de Mídia**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -44,7 +44,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 
 A tabela a seguir lista as informações fornecidas no Relatório de Comparação de Qualidade da Mídia.
   
-**Métricas do relatório de comparação de qualidade de mídia**
+**Métricas do Relatório de Comparação de Qualidade da Mídia**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

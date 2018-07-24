@@ -3,25 +3,26 @@ title: Configurar o SharePoint Server para pesquisar dados arquivados do Skype f
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: 'Resumo: Configure SharePoint Server para pesquisar dados arquivados pelo Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server 2015.'
-ms.openlocfilehash: 161e4dd530490d22d14f5392539e2cc3d788d6bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Configure SharePoint Server para pesquisar dados arquivados pelo Exchange Server e do Skype para Business Server.'
+ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971796"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar o SharePoint Server para pesquisar dados arquivados do Skype for Business
  
-**Resumo:** Configure o SharePoint Server para pesquisar dados arquivados pelo Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server 2015.
+**Resumo:** Configure o SharePoint Server para pesquisar dados arquivados pelo Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server.
   
-Uma das principais vantagens do armazenamento de mensagens instantâneas e transcrições de conferência da Web no Exchange Server 2016 ou Exchange Server 2013 em vez do Skype para Business Server 2015 é que o armazenamento de dados no mesmo local permite que os administradores usam uma única ferramenta para Pesquise os dados arquivados do Exchange e/ou arquivado Skype para dados de Business Server. Porque todos os dados são armazenados no mesmo colocam (Exchange) também pode pesquisar qualquer ferramenta que pode pesquisar dados arquivados do Exchange arquivada Skype para dados de Business Server.
+Uma das principais vantagens do armazenamento de mensagens instantâneas e transcrições de conferência da Web no Exchange Server, em vez de Skype para Business Server é que o armazenamento de dados no mesmo local permite que os administradores usem uma única ferramenta para procurar dados arquivados do Exchange e/ou arquivado Skype para dados de Business Server. Porque todos os dados são armazenados no mesmo colocam (Exchange) também pode pesquisar qualquer ferramenta que pode pesquisar dados arquivados do Exchange arquivada Skype para dados de Business Server.
   
 Uma ferramenta que torna fácil pesquisar dados arquivados é o Microsoft SharePoint Server 2013. Se você gostaria de usar o SharePoint para pesquisar Skype para dados de Business Server, você deve primeiro concluir todas as etapas envolvidas na configuração de arquivamento do Exchange no Skype para Business Server. Depois que o Exchange Server e do Skype para Business Server foi integrado com êxito, em seguida, instale o Exchange [Web Services Managed API](https://go.microsoft.com/fwlink/p/?LinkId=258305) no seu servidor do SharePoint. O arquivo baixado (EWSManagedAPI.msi) pode ser salvo em qualquer pasta do SharePoint Server.
   
@@ -29,7 +30,7 @@ Depois que o arquivo for baixado, conclua o procedimento a seguir no servidor do
   
 1. Abra uma janela de comando clicando em **Iniciar**, **Todos os Programas**, **Acessórios**, clicando com o botão direito em **Prompt de comando**, e então clicando em **Executar como administrador**.
     
-2. Na janela de comando, use o comando cd para alterar o diretório atual para a pasta onde o arquivo ewsmanagedapi. msi foi salvo. Por exemplo, se você salvou o arquivo em C:\Downloads, digite o seguinte comando na janela de comando e pressione Enter:
+2. Na janela de comando, use o comando cd para mudar o diretório atual para a pasta onde o arquivo EWSManagedAPI.msi foi salvo. Por exemplo, se você salvou o arquivo em C:\Downloads, digite o seguinte comando na janela de comando e pressione Enter:
     
    ```
    cd C:\Downloads

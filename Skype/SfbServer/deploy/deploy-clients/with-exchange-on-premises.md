@@ -3,7 +3,6 @@ title: Implantar o Skype Room Systems versão 2 com o Exchange no local
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +10,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: 4fd9b1f2ef7f40f0dac72bd97c25b59d18698154
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 930cc8916459562af89c15aefb60a2bf2c33c7e4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887831"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965447"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Implantar o Skype Room Systems versão 2 com o Exchange no local
  
@@ -151,11 +150,11 @@ Para validação, você deve ser capaz de usar qualquer Skype para o cliente de 
 
 [Configurar contas para sistemas de sala Skype v2](room-systems-v2-configure-accounts.md)
 
-[Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planejar o Skype Room Systems versão 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Implantar Skype sala v2 de sistemas](room-systems-v2.md)
+[Implantar o Skype Room Systems versão 2](room-systems-v2.md)
   
-[Configurar um console v2 de sistemas de sala do Skype](console.md)
+[Configurar o console do Skype Room Systems versão 2](console.md)
   
-[Gerenciar Skype sala v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar o Skype Room Systems versão 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

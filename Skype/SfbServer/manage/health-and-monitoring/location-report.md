@@ -1,24 +1,24 @@
 ---
-title: Relatório de Localização no Skype for Business Server 2015
+title: Relatório de localização no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
-description: 'Resumo: Saiba mais sobre o relatório de localização no Skype para Business Server 2015.'
-ms.openlocfilehash: 54bf28225e45691003047b0ce3d619ba6311c681
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de localização no Skype para Business Server.'
+ms.openlocfilehash: 61e9ab93189a9bf8597e879b5996761d5d937195
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977469"
 ---
-# <a name="location-report-in-skype-for-business-server-2015"></a>Relatório de Localização no Skype for Business Server 2015
+# <a name="location-report-in-skype-for-business-server"></a>Relatório de localização no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de localização no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de localização no Skype para Business Server.
   
 O Relatório de Localização oferece informações sobre as métricas de qualidade de chamada agrupadas pelo local de rede (isto é, pela subrede). Se seus usuários enfrentarem problemas com suas chamadas, este relatório pode ajudar você a determinar se estes problemas são amplos ou estão confinados a um determinado segmento da rede.
   
@@ -36,7 +36,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Locais.
   
-**Filtros do relatório de localização**
+**Filtros do Relatório de Locais**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Loca
 
 A tabela a seguir lista as informações fornecidas no Relatório de Locais.
   
-**Métricas do relatório de localização**
+**Métricas do Relatório de Locais**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -60,7 +60,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Locais.
 |**Volume da chamada** <br/> |Sim  <br/> |Número total de chamadas realizadas.  <br/> |
 |**Porcentagem de chamadas ruins** <br/> |Sim  <br/> |Percentual de chamadas classificadas como ruins. Uma chamada ruim é qualquer chamada da qual pelo menos uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada que experimentou tremulação excessiva).  <br/> |
 |**Viagem de ida e volta (ms)** <br/> |Sim  <br/> |Quantidade média de (em milissegundos) exigida para que um pacote RTP (protocolo de transporte em tempo real) viaje até outra extremidade e retorne. Tempos de viagem de ida e volta de 100 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de ida e volta pode ser causados por roteamento de chamada internacional, um erro de configuração de roteamento ou um servidor de mídia sobrecarregado. Tempos de ida e volta altos resultam em dificuldades com conversas de áudio em tempo real e bidirecionais.  <br/> |
-|**Degradação (MOS)** <br/> |Sim  <br/> |Quantidade média da degradação da pontuação média de opinião (MOS, mean opinion score) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. No Skype para Business Server 2015, um conjunto de algoritmos prever como usuários classificou uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
+|**Degradação (MOS)** <br/> |Sim  <br/> |Quantidade média da degradação da pontuação média de opinião (MOS, mean opinion score) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. Historicamente, pontuações de opções médias foram calculadas com usuários classificando a qualidade de uma chamada em uma escala de 1 a 5. No Skype para Business Server, um conjunto de algoritmos prever como usuários classificou uma chamada.  <br/> Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.  <br/> |
 |**Perda de pacote** <br/> |Sim  <br/> |Taxa média de perda de pacote RTP. (A perda de pacote ocorre quando os pacotes RTP, um protocolo usado para transmissão de áudio e vídeo pela Internet, não conseguem chegar aos seus destinos.) Taxas de perda altas normalmente são causadas por congestionamento, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia sobrecarregado. A perda de pacote normalmente resulta em perda ou distorção de áudio.  <br/> |
 |**Tremulação** <br/> |Sim  <br/> |Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
 |**Taxa de correção oculta** <br/> |Sim  <br/> |Taxa média de amostras de áudio ocultas para o número total de amostras. (Uma amostra de áudio oculta é uma técnica usada para suavizar a transição abrupta que normalmente seria causada por pacotes de rede descartados.) Valores altos indicam níveis consideráveis de perda de ocultação aplicada causada por perda de pacote ou tremulação e resulta na perda ou distorção de áudio.  <br/> |

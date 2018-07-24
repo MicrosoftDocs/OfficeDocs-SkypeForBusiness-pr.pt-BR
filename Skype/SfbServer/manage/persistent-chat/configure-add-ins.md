@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Resumo: Saiba como configurar suplementos para salas de chat Persistent Chat Server na Skype para Business Server 2015.'
-ms.openlocfilehash: 64017115370c24c8c4a117f595230a6f5f741afd
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569962"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967730"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar suplementos para salas de Chat Persistente no Skype for Business Server 2015
  
@@ -25,6 +25,9 @@ Os suplementos são usados para estender a experiência na sala por meio da asso
   
  Antes que os usuários possam ver um suplemento em um cliente, você deve adicionar o suplemento à lista de suplementos registrados, e Gerentes ou Criadores de salas de chat precisam associar as salas com os suplementos.
   
+> [!NOTE]
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
+
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Configure suplementos para salas de chat usando o Painel de Controle
 
 Para configurar suplementos para salas de chat usando o Painel de Controle:

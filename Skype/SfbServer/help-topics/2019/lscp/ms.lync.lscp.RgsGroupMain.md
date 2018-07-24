@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
+ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Um grupo de operadores é um grupo de pessoas que são projetados para atender chamadas de grupo de resposta.
-ms.openlocfilehash: ea4441a65abe6d2acb3f57a920b75e9f893e9b72
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f2915ab536ceb5dc7f4bf58defedcc737e705eec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19974216"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973148"
 ---
 # <a name="response-groups-group"></a>Grupos de resposta: grupo
  
@@ -52,6 +53,6 @@ A lista a seguir descreve os campos na página.
     
 - **Descrição** A descrição do grupo de agentes.
     
-Para obter detalhes sobre os recursos de grupo de resposta, consulte [Planejar para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Para obter detalhes sobre como trabalhar com grupos de operadores, consulte [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação operações.
+Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com grupos de operadores, consulte [Managing Agent Groups](http://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) na documentação operações.
   
 

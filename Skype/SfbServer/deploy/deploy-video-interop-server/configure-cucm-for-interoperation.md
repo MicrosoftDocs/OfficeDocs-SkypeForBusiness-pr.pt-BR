@@ -1,29 +1,28 @@
 ---
-title: Configurar o CUCM para interoperação com o Skype for Business Server 2015
+title: Configurar CUCM para interoperação com Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: 'Resumo: Configure CUCM para trabalhar com Skype para Business Server 2015.'
-ms.openlocfilehash: 04913508ba0200da4b34e8b1e18c3e57a5fc7141
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Configure CUCM para trabalhar com Skype para Business Server.'
+ms.openlocfilehash: 6ace5eb2f6cb9763bf78b3930536ae50f8fee815
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501966"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986555"
 ---
-# <a name="configure-cucm-for-interoperation-with-skype-for-business-server-2015"></a>Configurar o CUCM para interoperação com o Skype for Business Server 2015
+# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurar CUCM para interoperação com Skype para Business Server
  
-**Resumo:** Configure CUCM para trabalhar com Skype para Business Server 2015.
+**Resumo:** Configure CUCM para trabalhar com Skype para Business Server.
   
 > [!CAUTION]
-> Este recurso é testado com o CUCM versão 10.5 usando apenas a configuração de Troncos sobre TCP. Verifique se o ambiente do CUCM atende a esses critérios antes de continuar. 
+> Esse recurso é testado com Cisco Unified Communications Manager (CallManager ou CUCM) versão 10.5 usando troncos instalação somente sobre TCP. Verifique se o ambiente do CUCM atende a esses critérios antes de continuar. 
   
 As configurações descritas aqui servem apenas como exemplos de como CUCM pode ser configurado para funcionar com um VIS. Outras configurações e/ou aplicações da funcionalidade alternativa do CUCM também poderiam ser usadas para alcançar o mesmo resultado. Não há qualquer recomendação implícita quanto à configuração ideal para determinado cenário.
   
@@ -62,7 +61,7 @@ Várias configurações do CUCM precisam ser confirmadas ou alteradas para inter
    
 9. Na mesma tela, role até a seção de informações de perfil de SDP. Por padrão, a opção **Modificador de Largura de Banda de Nível de Sessão SDP para Early Offer e Re-invites** está definida como TIAS e AS. Altere-a para TIAS somente. Se você deixar essa opção em sua configuração padrão, Skype para Business Server não compreenderá as informações do modificador de largura de banda da mensagem SIP. TIAS significa Transport Independent Application Specific (Específico de Aplicativo Independente de Transporte) e AS significa Application Specific (Específico de Aplicativo). Essas são opções SIP especificadas na RFC3890.
     
-10. Role a tela mais para baixo. Em configuração específica do tronco do perfil SIP, selecione * * logo oferecem suporte para chamadas de voz e vídeo * * e defini-la à opção **obrigatório (insert MTP, se necessário)** . Isso permitirá que o CUCM configure uma chamada SIP de saída com Early Offer. Um novo recurso do CUCM 8.5 e acima é o suporte para a configuração de chamadas de saída com Early Offer sem a necessidade de um MTP (Ponto de Terminação de Mídia).
+10. Role a tela mais para baixo. Em configuração específica do tronco do perfil SIP, selecione **Inicial oferecer suporte a chamadas de voz e vídeos** e defini-la como a opção **obrigatório (insert MTP, se necessário)** . Isso permitirá que o CUCM configure uma chamada SIP de saída com Early Offer. Um novo recurso do CUCM 8.5 e acima é o suporte para a configuração de chamadas de saída com Early Offer sem a necessidade de um MTP (Ponto de Terminação de Mídia).
     
 11. Verifique se, na seção de ping de Opções SIP, a caixa ao lado de "Ativar Ping de OPÇÕES para monitorar o status do destino de Troncos com o Tipo de Serviço 'Nenhum (Padrão)'" está marcada.
     
@@ -141,4 +140,4 @@ Agora, o gateway de vídeo do CUCM está configurado para funcionar com o VIS. V
   
 ## <a name="see-also"></a>Consulte também
 
-[Configurar um VTC para interoperação com Skype para Business Server 2015](configure-a-vtc-for-interoperation.md)
+[Configurar um VTC para interoperação com Skype para Business Server](configure-a-vtc-for-interoperation.md)

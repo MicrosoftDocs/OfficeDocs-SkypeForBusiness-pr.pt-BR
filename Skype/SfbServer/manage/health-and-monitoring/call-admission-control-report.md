@@ -1,24 +1,24 @@
 ---
-title: Relatório de Controle de Admissão de Chamadas no Skype for Business Server 2015
+title: Relatório de controle de admissão de chamadas no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Resumo: Saiba mais sobre os relatórios de controle de admissão chamada usada no Skype para Business Server 2015.'
-ms.openlocfilehash: 53c3767ad93b7faa4c7f9a7f33213dde21dd7ca5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre os relatórios de controle de admissão chamada usada no Skype para Business Server.'
+ms.openlocfilehash: c3828eb890ed8f70c41bc669785278f9be017893
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21011243"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server-2015"></a>Relatório de Controle de Admissão de Chamadas no Skype for Business Server 2015
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de controle de admissão de chamadas no Skype para Business Server
  
-**Resumo:** Saiba mais sobre os relatórios de controle de admissão chamada usada no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre os relatórios de controle de admissão chamada usada no Skype para Business Server.
   
 O Relatório de Controle de Admissão de Chamadas fornece informações sobre sessões de conferência e ponto a ponto que eram conduzidas sob restrições impostas pelo Controle de Admissão de Chamadas. O Controle de Admissão de Chamadas fornece uma maneira para que os administradores permitam (ou não) sessões de comunicação baseadas em limites de largura de banda. Por exemplo, os administradores podem criar políticas que imponham um limite na quantidade de banda disponível para chamadas de voz e vídeo. Caso o limite de banda seja alcançado, novas chamadas de voz ou vídeo não poderão ser feitas até que uma das chamadas atuais termine e libere os recursos de rede necessários.
   
@@ -44,7 +44,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Controle de Admissão de Chamadas.
   
-**Filtros do relatório de controle de admissão de chamada**
+**Filtros do Relatório de Controle de Admissão de Chamadas**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -89,7 +89,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Controle de
 
 A tabela a seguir lista as informações fornecidas no Relatório de Controle de Admissão de Chamadas para participantes individuais da conferência.
   
-**Métricas para participantes individuais de conferência**
+**Métricas para participantes individuais da conferência**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Configurar Skype para negócios 2015 de servidor usar o arquivamento do Exchange Server
+title: Configurar Skype para Business Server usar o arquivamento do Exchange Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,21 +10,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
-description: 'Resumo: Configure transcrições de mensagens Instantâneas para o Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server 2015.'
-ms.openlocfilehash: 280b86d223cc1dd90eb7fe7bc17e4ab3499e7f5d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Configure transcrições de mensagens Instantâneas para o Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server.'
+ms.openlocfilehash: eee0c67a1f0f1595fb0ba287fe6a3aa662e45d9c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014533"
 ---
-# <a name="configure-skype-for-business-server-2015-to-use-exchange-server-archiving"></a>Configurar Skype para negócios 2015 de servidor usar o arquivamento do Exchange Server
+# <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurar Skype para Business Server usar o arquivamento do Exchange Server
  
-**Resumo:** Configure as transcrições de mensagens Instantâneas para o Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server 2015.
+**Resumo:** Configure o transcrições de mensagens Instantâneas do Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server.
   
-Skype para Business Server 2015 oferece aos administradores a opção de configurar mensagens instantâneas e transcrições de conferência Web arquivadas 2016 do Exchange Server ou o Exchange Server 2013 correio de um usuário ao invés de um banco de dados do SQL Server. Se você habilitar essa opção, as transcrições serão gravadas na Pasta de limpeza do usuário. A Pasta de limpeza é uma pasta oculta encontrada na pasta Itens Recuperáveis. Embora essa pasta não estiver visível aos usuários finais, a pasta é indexada pelo mecanismo de pesquisa do Exchange e pode ser descoberta usando a pesquisa de caixas de correio do Exchange e/ou o Microsoft SharePoint Server 2013. Porque as informações são armazenadas na mesma pasta usada pelo recurso de bloqueio de In-loco do Exchange (responsável para arquivamento de email e outras comunicações do Exchange), os administradores podem usar uma única ferramenta para procurar todas as comunicações eletrônicas arquivados para um usuário.
+Skype para Business Server oferece aos administradores a opção de configurar mensagens instantâneas e transcrições de conferência Web arquivadas 2016 do Exchange Server ou o Exchange Server 2013 correio de um usuário ao invés de um banco de dados do SQL Server. Se você habilitar essa opção, as transcrições serão gravadas na Pasta de limpeza do usuário. A Pasta de limpeza é uma pasta oculta encontrada na pasta Itens Recuperáveis. Embora essa pasta não estiver visível aos usuários finais, a pasta é indexada pelo mecanismo de pesquisa do Exchange e pode ser descoberta usando a pesquisa de caixas de correio do Exchange e/ou o Microsoft SharePoint Server 2013. Porque as informações são armazenadas na mesma pasta usada pelo recurso de bloqueio de In-loco do Exchange (responsável para arquivamento de email e outras comunicações do Exchange), os administradores podem usar uma única ferramenta para procurar todas as comunicações eletrônicas arquivados para um usuário.
   
 > [!IMPORTANT]
-> Para desabilitar completamente o arquivamento de conversas, você também deverá desabilitar o histórico da conversa. Para obter mais informações, consulte os seguintes tópicos: [Gerenciando o arquivamento de comunicações internas e externas no Skype para Business Server 2015](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)e [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
+> Para desabilitar completamente o arquivamento de conversas, você também deverá desabilitar o histórico da conversa. Para obter mais informações, consulte os seguintes tópicos: [Gerenciando o arquivamento de comunicações internas e externas no Skype para Business Server](http://technet.microsoft.com/library/6c2cf941-3204-4f1a-a7e0-416c828056d9.aspx), [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/new-csclientpolicy?view=skype-ps)e [Set-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
   
 Para arquivar as transcrições ao Exchange Server, você deve começar por configurar a autenticação servidor-para-servidor entre Skype para Business Server e o Exchange Server. Após a autenticação de servidor-para-servidor no lugar, você pode então realizar as seguintes tarefas no Skype para Business Server (Observe que, dependendo do programa de instalação e configuração, você talvez não precisará concluir todas essas tarefas):
   

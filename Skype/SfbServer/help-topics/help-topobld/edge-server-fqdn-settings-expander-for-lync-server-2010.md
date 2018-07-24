@@ -3,7 +3,7 @@ title: Expansor de configurações de FQDN de servidor de borda do Lync Server 2
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir as propriedades em configurações externas, configure o seguinte:'
-ms.openlocfilehash: 2954c9add818e67f471cfb97893fef42e862bea3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 27bc29afd26ac280eaeb7469af530862c94b03a6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999727"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configurações de FQDN de servidor de borda do Lync Server 2010
  

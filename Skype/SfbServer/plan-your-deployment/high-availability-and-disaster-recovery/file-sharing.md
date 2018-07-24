@@ -1,9 +1,8 @@
 ---
-title: Alta disponibilidade de compartilhamento de arquivos no Skype for Business Server 2015
+title: Alta disponibilidade de compartilhamento de arquivos no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Saiba mais sobre a garantir a alta disponibilidade de seus compartilhamentos de arquivo no Skype para Business Server, o uso do DFS.
-ms.openlocfilehash: f96e4aaca70c501425528b12207eeab01027c9a9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 645aa70ffc0c42cddb6941c9766cb91bed898dc8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989906"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server-2015"></a>Alta disponibilidade de compartilhamento de arquivos no Skype for Business Server 2015
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Alta disponibilidade de compartilhamento de arquivos no Skype para Business Server
  
 Saiba mais sobre a garantir a alta disponibilidade de seus compartilhamentos de arquivo no Skype para Business Server, o uso do DFS.
   

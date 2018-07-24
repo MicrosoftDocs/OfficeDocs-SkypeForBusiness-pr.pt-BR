@@ -1,9 +1,8 @@
 ---
-title: (Opcional) Verificar implantação de Estacionamento de Chamada no Skype for Business 2015
+title: (Opcional) Verificar a implantação de estacionamento de chamada no Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: Verificando a implantação do estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e8b3b0abd06ab8dc69bbe1fbcc5f091dd1350966
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b07b3b3bfb709770a4f30f2f6cb43e5ce5dbcc3a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000526"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business-2015"></a>(Opcional) Verificar implantação de Estacionamento de Chamada no Skype for Business 2015
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Opcional) Verificar a implantação de estacionamento de chamada no Skype para negócios
  
 Verificando a implantação do estacionamento de chamada no Skype para Business Server Enterprise Voice. 
   

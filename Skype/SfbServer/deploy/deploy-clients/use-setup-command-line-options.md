@@ -1,22 +1,22 @@
 ---
-title: Usar opções de linha de comando Setup no Skype for Business Server 2015
+title: Use as opções de linha de comando de instalação com Skype para clientes corporativos
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Resumo: Saiba sobre as operações de linha de comando Setup.exe na instalação do Office.'
-ms.openlocfilehash: 0fa4f31750697f0bd0dbe87bbde025cbc7f530bd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 13005f96b353b8648ed676ef68af54b76a99e48c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974449"
 ---
-# <a name="use-setup-command-line-options-in-skype-for-business-server-2015"></a>Usar opções de linha de comando Setup no Skype for Business Server 2015
+# <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Use as opções de linha de comando de instalação com Skype para clientes corporativos
  
 **Resumo:** Saiba mais sobre as operações de linha de comando Setup.exe na instalação do Office.
   
@@ -24,9 +24,9 @@ A linha de comando Setup.exe é usada em poucas operações na instalação do O
   
 A linha de comando Setup.exe do Office reconhece as opções de linha de comando descritas na tabela a seguir.
   
-**Opções de linha de comando de instalação do Office**
+**Opções de linha de comando Setup do Office**
 
-|**Opção de linha de comando de instalação**|**Descrição**|
+|**Opção de linha de comando Setup**|**Descrição**|
 |:-----|:-----|
 |/admin  <br/> |Executa a Ferramenta de personalização do Office para criar um arquivo de personalização de Setup (arquivo .msp).  <br/> |
 |/adminfile [caminho]  <br/> |Aplica o arquivo de personalização de Setup à instalação. Você pode especificar um caminho de arquivo de personalização específico (arquivo .msp) ou a pasta onde você armazena os arquivos de personalização.  <br/> |
@@ -35,6 +35,5 @@ A linha de comando Setup.exe do Office reconhece as opções de linha de comando
 |/repair Skype  <br/> |Executa o Setup do computador do usuário para reparar Skype para negócios.  <br/> |
 |/uninstall Skype  <br/> |Executa o Setup para remover Skype for Business do computador do usuário.  <br/> |
    
-Para obter detalhes sobre como usar as opções de linha de comando de instalação, consulte [https://go.microsoft.com/fwlink/p/?linkid=267515](https://go.microsoft.com/fwlink/p/?linkid=267515). 
-  
+
 

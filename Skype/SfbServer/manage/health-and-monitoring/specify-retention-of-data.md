@@ -1,24 +1,24 @@
 ---
-title: Especificar retenção de dados de CDR no Skype for Business Server 2015
+title: Especificar a retenção de dados de CDR em Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
-description: 'Resumo: Saiba como gerenciar os detalhes da chamada (CDR) dados de gravação para Skype para Business Server 2015.'
-ms.openlocfilehash: cb15468f1980f0103c2333676a92ae1ca1280f1b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como gerenciar os detalhes da chamada (CDR) dados de gravação para Skype para Business Server.'
+ms.openlocfilehash: ce35d8d2cac0968cca912031ec5e406ebe93e2eb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005829"
 ---
-# <a name="specify-retention-of-cdr-data-in-skype-for-business-server-2015"></a>Especificar retenção de dados de CDR no Skype for Business Server 2015
+# <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Especificar a retenção de dados de CDR em Skype para Business Server
  
-**Resumo:** Saiba como gerenciar os detalhes da chamada (CDR) dados de gravação para Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar os detalhes da chamada (CDR) dados de gravação para Skype para Business Server.
   
 Por padrão, os dados de CDR (registro de detalhes das chamadas) são purgados após 60 dias. É possível usar as configurações da página **Registro de Detalhes das Chamadas** para manter os dados por um período maior ou menor. Se você desabilitar o CDR, os dados que foram capturados antes da desabilitação do CDR também poderão ser purgados.
   
@@ -29,7 +29,7 @@ Use o procedimento a seguir para definir as configurações de limpeza de dados 
   
 ### <a name="to-specify-retention-of-cdr-data"></a>Para especificar a retenção de dados de CDR
 
-1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     
@@ -69,7 +69,4 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-Cs
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Gravação (CDR) no Skype para Business Server 2015 de detalhes da chamada](call-detail-recording-cdr.md)
-
+[Gravação (CDR) no Skype para Business Server de detalhes da chamada](call-detail-recording-cdr.md)

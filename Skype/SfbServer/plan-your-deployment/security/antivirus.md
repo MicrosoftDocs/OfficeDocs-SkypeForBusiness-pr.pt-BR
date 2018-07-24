@@ -1,25 +1,25 @@
 ---
-title: Exclusões de escaneamento de antivírus para Skype for Business Server 2015
+title: Exclusões de varredura Skype para Business Server de antivírus
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/24/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Visão geral do interoperação de scanner antivírus com Skype para Business Server 2015.
-ms.openlocfilehash: 054ed03146964de7ec0621138186e3c41843c236
-ms.sourcegitcommit: 1cb8ab7d1e3debb84f051be404403e4a116ee741
+description: Visão geral do interoperação de scanner antivírus com Skype para Business Server.
+ms.openlocfilehash: 2e85816b10a808224a79b065153ecf466c4911c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009261"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server-2015"></a>Exclusões de escaneamento de antivírus para Skype for Business Server 2015
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusões de varredura Skype para Business Server de antivírus
  
-Visão geral do interoperação de scanner antivírus com Skype para Business Server 2015.
+Visão geral do interoperação de scanner antivírus com Skype para Business Server.
 
 Este artigo contém recomendações que podem ajudar a um administrador determinar a causa do possível instabilidade em um computador que está executando uma versão compatível do Microsoft Windows quando ele é usado com o software antivírus em um domínio do Active Directory ambiente ou em um ambiente de negócios gerenciados.
 
@@ -27,15 +27,15 @@ Este artigo contém recomendações que podem ajudar a um administrador determin
 
 Este artigo contém informações que mostram como ajudar a diminuir as configurações de segurança ou como desativar temporariamente os recursos de segurança em um computador. Você pode fazer essas alterações para entender a natureza de um problema específico. Antes de fazer essas alterações, recomendamos que você avaliar os riscos associados à implementação dessa solução alternativa no ambiente específico. Se você implementar essa solução alternativa, execute quaisquer etapas apropriadas adicionais para ajudar a proteger os arquivos que não são mais estão sendo examinados pelo seu software antivírus no computador.
   
-Para garantir que o scanner antivírus não interfere com a operação do Skype para Business Server 2015, você deve excluir diretórios e processos específicos para cada Skype para Business Server 2015 server ou função de servidor em que você executa um scanner antivírus. Os seguintes processos e diretórios devem ser excluídos:
+Para garantir que o scanner antivírus não interfere com a operação do Skype para Business Server, você deve excluir diretórios e processos específicos para cada Skype para servidor de Business Server ou função de servidor em que você executa um scanner antivírus. Os seguintes processos e diretórios devem ser excluídos:
   
 > [!NOTE]
-> Locais de arquivo e pasta listadas a seguir são os locais de padrão do Skype para Business Server 2015. Para quaisquer locais, para os quais você não usa o padrão, exclua os locais que você especificou para a sua organização em vez dos locais padrão especificados neste tópico. 
+> Locais de arquivo e pasta listadas a seguir são os locais de padrão do Skype para Business Server. Para quaisquer locais, para os quais você não usa o padrão, exclua os locais que você especificou para a sua organização em vez dos locais padrão especificados neste tópico. 
   
 > [!IMPORTANT]
 > Observe que alguns programas antivírus podem precisar de caminhos absolutos e não relativos, para a sua lista de exclusão. 
   
-- Skype para processos de negócios Server 2015:
+- Skype para processos de negócios Server:
     
   - ABServer.exe
     
@@ -125,6 +125,9 @@ Para garantir que o scanner antivírus não interfere com a operação do Skype 
   - %systemroot%\SysWow64\LogFiles
     
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
+
+    > [!NOTE]
+    > Observe que esses caminhos são específicos para Skype para a versão do servidor de negócios. 
     
   - %programfiles%\Skype for Business Server 2015
     

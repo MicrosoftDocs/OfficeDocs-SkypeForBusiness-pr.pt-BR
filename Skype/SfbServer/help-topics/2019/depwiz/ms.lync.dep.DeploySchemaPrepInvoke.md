@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
-description: 'Página executando comandos exibe um resumo dos comandos emitidos para estender o esquema do Skype para Business Server 2015. Quando as tarefas forem concluídas, o painel de resumo indicará se as tarefas foram bem-sucedidas ou se falharam. Leia a tela Resumo e verifique se o status da tarefa: concluída é exibida em um painel Resumo. A lista suspensa no painel de resumo permite que você selecione e exiba o arquivo de log, Preparar Esquema. Clique em Exibir Log para verificar o arquivo de log. Se você tiver recebido erros durante a preparação do esquema, os erros encontrados pela tarefa são registrados aqui. Em seguida, é possível executar uma ação para corrigir qualquer erro e executar novamente a preparação do esquema.'
-ms.openlocfilehash: b992838aea493b7318d88d6ff04ce84ff4bd77a7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Página executando comandos exibe um resumo dos comandos emitidos para estender o esquema para Skype para Business Server.
+ms.openlocfilehash: 629672673a240e66ca097f6a61af4caad7ee32c6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964424"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974596"
 ---
 # <a name="prepare-schema-invoke"></a>Preparar Esquema (Invocar)
  

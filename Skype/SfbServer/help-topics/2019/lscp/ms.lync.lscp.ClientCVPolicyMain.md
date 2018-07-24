@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: É possível especificar a versão de clientes aceitos em seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente. Para tornar o maior uso dos recursos incluídos em Skype para Business Server e para melhorar a experiência geral do usuário, você pode usar o filtro de versão de cliente para restringir as versões do cliente que são usadas em seu ambiente. Ao usar o filtro de versão do cliente, também é possível ajudar a reduzir os custos associados ao suporte de várias versões de cliente.
-ms.openlocfilehash: 539d0fe24678b9bc9784adf9d3512c1441298010
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: É possível especificar a versão de clientes aceitos em seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente.
+ms.openlocfilehash: 2743c62f6fbd692723c4ed9ea464e665a65d0abc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969572"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009691"
 ---
 # <a name="client-version-policy"></a>Política de Versão do Cliente
  
@@ -26,7 +27,7 @@ ms.locfileid: "19969572"
 
 É possível executar as seguintes tarefas na página **Política da Versão do Cliente**:
   
-- Editar a política da versão do cliente padrão (**Global**).
+- Edite a política de versão de cliente padrão ( **Global**).
     
 - Criar políticas de versão do cliente para um site específico ou pool.
     

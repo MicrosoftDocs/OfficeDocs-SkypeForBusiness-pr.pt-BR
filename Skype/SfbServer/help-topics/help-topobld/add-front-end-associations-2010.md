@@ -3,7 +3,7 @@ title: Adicionar associações Front End 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 'Você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores associando as funções de servidor com o pool de Front-End neste momento. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:'
-ms.openlocfilehash: 74cf2ca8e04043d9cf6556bc220b42502e014a07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 467321e8b0ebaab9ece6a82c1f191457db1cf863
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020815"
 ---
 # <a name="add-front-end-associations-2010"></a>Adicionar associações Front End 2010
  

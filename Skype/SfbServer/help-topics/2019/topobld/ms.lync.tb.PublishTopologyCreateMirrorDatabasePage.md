@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: 90e7bcc235f2613789e56cb31e2b0dec654506b9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: e6b20c1050630507bf48fbfc075dcf182a30fe91
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988254"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007249"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Publicar a topologia Criar página de banco de dados de espelho
  
@@ -26,6 +26,3 @@ Construtor de topologia analisa todas as definições de configuração em seu d
   
  Se você selecionar para optar por não instalar um ou todos esses bancos de dados neste momento, você desmarcar os bancos de dados que não serão instalados. Posteriormente, você optar por usar **Instalar banco de dados** pelo botão direito do mouse na maioria dos itens de nó no construtor de topologia.
   
-## <a name="see-also"></a>Consulte também
-
-[Implantar o espelhamento do SQL para alta disponibilidade do servidor Back-End no Skype para Business Server](../../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

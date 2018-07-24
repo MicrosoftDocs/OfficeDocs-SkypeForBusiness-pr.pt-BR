@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
+ROBOTS: NOINDEX, NOFOLLOW
 description: Na página executando comandos, as tarefas de instalação do SQL Server Express e configurando para agir como o repositório de gerenciamento Central podem ser exibidas no painel de tarefas. Por padrão, uma instância de um banco de dados baseado em SQL Server denominada RTC é criada. Regras de firewall também são criadas para permitir o acesso de entrada e saído para servidores e clientes para se comunicar com o banco de dados e a instância. Quando a tarefa for concluída, você pode selecionar o arquivo de log da lista suspensa. O arquivo de log é chamado de Bootstrap máquina local. Depois de selecionar o arquivo de log, clique em Exibir Log. Revise o arquivo de log para quaisquer erros e avisos. Quando você estiver pronto para prosseguir, clique em Concluir. Agora você deve definir sua topologia com o construtor de topologias, se você ainda não tiver feito isso.
-ms.openlocfilehash: ec6cd9d7f8e7812ca61138e053fd18abf4e24d96
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 44fae0f1349b9252f207248fa99b714b0a8550ce
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964530"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987508"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Preparar servidor Standard Edition único (invocar)
  

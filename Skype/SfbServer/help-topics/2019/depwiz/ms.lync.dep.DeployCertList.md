@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
+ROBOTS: NOINDEX, NOFOLLOW
 description: Para atribuir um certificado, selecione o certificado no repositório de certificado local. Clique em Avançar para continuar.
-ms.openlocfilehash: f9e1a37054206375eacf0fa4287e8148745fbcf0
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 62dcc2abfde1d2216288b8137a9ab2a2448d5404
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992024"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987476"
 ---
 # <a name="certificate-list"></a>Lista de Certificados
  

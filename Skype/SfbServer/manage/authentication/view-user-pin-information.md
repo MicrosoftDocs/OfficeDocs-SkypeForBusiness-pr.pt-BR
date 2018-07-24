@@ -1,31 +1,30 @@
 ---
-title: Exibir informações de PIN do usuário no Skype for Business Server 2015
+title: Exibir usuário informações de PIN no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: 'Resumo: Exibir as informações de PIN de usuário no Skype para Business Server 2015.'
-ms.openlocfilehash: fecd4c983cad20b0efa77cbd5c6fc809db777aec
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Exibir as informações de PIN de usuário no Skype para Business Server.'
+ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568756"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008556"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server-2015"></a>Exibir informações de PIN do usuário no Skype for Business Server 2015
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>Exibir usuário informações de PIN no Skype para Business Server
  
-**Resumo:** Usuário exibir informações de PIN no Skype para Business Server 2015.
+**Resumo:** Usuário exibir informações de PIN no Skype para Business Server.
   
-Para ingressar na conferência discada como usuário autenticado, um Skype para usuário Business Server 2015 com credenciais do Active Directory Domain Services (AD DS) requer um número de identificação pessoal (PIN). Você pode exibir informações de PIN de um usuário do Skype de painel de controle do servidor de negócios.
+Para ingressar na conferência discada como usuário autenticado, um Skype para usuário Business Server com credenciais do Active Directory Domain Services (AD DS) requer um número de identificação pessoal (PIN). Você pode exibir informações de PIN de um usuário do Skype de painel de controle do servidor de negócios.
   
 > [!NOTE]
-> Você pode exibir as informações de status de PIN, como se o PIN foi definido ou quando ele foi alterado pela última vez, mas não pode ver o PIN atual consultando o status de PIN. Se um usuário tiver perdido seu PIN, você pode redefini-lo seguindo os procedimentos no [conjunto de discada um usuário PIN no Skype para Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+> Você pode exibir as informações de status de PIN, como se o PIN foi definido ou quando ele foi alterado pela última vez, mas não pode ver o PIN atual consultando o status de PIN. Se um usuário tiver perdido seu PIN, você pode redefini-lo seguindo os procedimentos no [conjunto de discada um usuário PIN no Skype para Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
 ### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Para exibir o PIN de um usuário no Skype para painel de controle do servidor de negócios
 
@@ -87,6 +86,6 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-Cs
   
 ## <a name="see-also"></a>Consulte também
 
-[Definir discada um usuário PIN no Skype para Business Server 2015](set-a-user-s-dial-in-conferencing-pin.md)
+[Definir discada um usuário PIN no Skype para Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Bloquear ou desbloquear um PIN em Skype do usuário para Business Server 2015](lock-or-unlock-a-user-pin.md)
+[Bloquear ou desbloquear um PIN em Skype do usuário para o servidor de negócios](lock-or-unlock-a-user-pin.md)

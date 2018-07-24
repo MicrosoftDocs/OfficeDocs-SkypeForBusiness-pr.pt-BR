@@ -1,24 +1,24 @@
 ---
-title: Gerenciar o ingresso na conferência e anúncios de saída no Skype for Business Server 2015
+title: Gerenciar o ingresso na conferência e deixar anúncios em Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Resumo: Saiba como gerenciar o ingresso na conferência e deixar anúncios em Skype para Business Server 2015.'
-ms.openlocfilehash: 33e01efebc7d188fe329c1c39718aaf661af1e44
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como gerenciar o ingresso na conferência e deixar anúncios em Skype para Business Server.'
+ms.openlocfilehash: 84c9b5f9457d16570e58b119329d6b8fcefa4205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008488"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server-2015"></a>Gerenciar o ingresso na conferência e anúncios de saída no Skype for Business Server 2015
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gerenciar o ingresso na conferência e deixar anúncios em Skype para Business Server
  
-**Resumo:** Saiba como gerenciar o ingresso na conferência e deixar anúncios em Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar o ingresso na conferência e deixar anúncios em Skype para Business Server.
   
 Quando os usuários discados ingressar ou sair de uma conferência, o aplicativo de anúncio de conferência pode anunciar seu entrada ou saia por reproduzir um tom ou dizendo seus nomes. Você pode alterar como os anúncios funcionam usando Skype para o Shell de gerenciamento de servidor de negócios e o cmdlet **Set-CsDialinConferencing** com os seguintes parâmetros:
   

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
+ROBOTS: NOINDEX, NOFOLLOW
 description: Uma configuração de dispositivo é uma coleção de definições utilizadas para gerenciar Skype para dispositivos de negócios Phone Edition, globalmente ou dentro de um site. Essas configurações permitem que você configure aspectos como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
-ms.openlocfilehash: afe0efd9612ac8fa73173fc8281b60e7949e58e6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fac770e05b6e85644f813c026dea51e855584e2a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970399"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008367"
 ---
 # <a name="device-configuration"></a>Configuração de Dispositivos
  
@@ -52,6 +53,6 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
 ## <a name="see-also"></a>Consulte também
 
-[Configuração de dispositivo: Criar nova ou editar existente](ms.lync.lscp.ClientDeviceTestEdit.md)
+[Configuração de Dispositivo: Criar Nova ou Editar Existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

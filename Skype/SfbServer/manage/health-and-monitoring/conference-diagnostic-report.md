@@ -1,24 +1,24 @@
 ---
-title: Relatório de Diagnósticos da Conferência no Skype for Business Server 2015
+title: Relatório de diagnóstico conferência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de conferência usado no Skype para Business Server 2015.'
-ms.openlocfilehash: 6d638efbd011026cd4481d3a68d0a4836fb792a3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de diagnóstico de conferência usado na Skype para servidor de negócios.'
+ms.openlocfilehash: 75d12f8b2906e84a8ca786a7103ce41d87f3f300
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981126"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server-2015"></a>Relatório de Diagnósticos da Conferência no Skype for Business Server 2015
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico conferência no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de diagnóstico de conferência usado no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de diagnóstico de conferência usado na Skype para servidor de negócios.
   
 O Relatório de Diagnóstico de Conferência oferece informações sobre o êxito e a falha de todas as sessões de conferência. Observe que Skype para Business Server faz distinção entre diferentes tipos de falha:
   
@@ -36,7 +36,7 @@ Somando 2024 + 469 + 16, você obtém um total de 2.509 sessões e, no entanto, 
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Conferência
 
-O Relatório de Diagnóstico de Conferência é acessado na página inicial de Relatórios de Monitoramento. Você pode acessar o [Relatório de falha de distribuição no Skype para Business Server 2015](failure-distribution-report.md) clicando em uma das seguintes métricas:
+O Relatório de Diagnóstico de Conferência é acessado na página inicial de Relatórios de Monitoramento. Você pode acessar o [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md) clicando em uma das seguintes métricas:
   
 - Volume de falha inesperado
     
@@ -44,7 +44,7 @@ O Relatório de Diagnóstico de Conferência é acessado na página inicial de R
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Como usar o Relatório de Diagnóstico de Conferência da melhor maneira possível
 
-O Relatório de Diagnóstico de Conferência inclui uma série de gráficos. Cada uma das colunas exibidas no gráfico é, na verdade, um hiperlink. Se você clicar em uma coluna, você vai ver os detalhes do [Relatório de falha de distribuição no Skype para Business Server 2015](failure-distribution-report.md) para esse período de tempo e que tipo de conferência.
+O Relatório de Diagnóstico de Conferência inclui uma série de gráficos. Cada uma das colunas exibidas no gráfico é, na verdade, um hiperlink. Se você clicar em uma coluna, você vai ver os detalhes do [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md) para esse período de tempo e que tipo de conferência.
   
 ## <a name="filters"></a>Filtros
 
@@ -52,7 +52,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Diagnóstico de Conferência.
   
-**Filtros do relatório de diagnóstico de conferência**
+**Filtros do Relatório de Diagnóstico de Conferência**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Diag
 
 A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstico de Conferência para cada tipo de sessão de conferência.
   
-**Métricas do relatório de diagnóstico de conferência**
+**Métricas do Relatório de Diagnóstico de Conferência**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

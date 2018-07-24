@@ -3,18 +3,18 @@ title: Ferramentas e capacidade de gerenciamento do Sistema de Salas do Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Leia este tópico para aprender sobre o gerenciamento de ferramentas para o Sistema de Salas do Skype.
-ms.openlocfilehash: c18c8a1e8f4580551dc809d3a8cedbf6f6a3fbfa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8e509059cc2fdffc35bba0d43a84c0699aa536d5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977455"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Ferramentas e capacidade de gerenciamento do Sistema de Salas do Skype
  
@@ -24,19 +24,13 @@ Leia este tópico para aprender sobre o gerenciamento de ferramentas para o Sist
 
 Para Skype para implantações em instalações de Business Server, você pode usar o portal do sistema de sala Skype administrativo ativamente gerenciar e monitorar implantações de sistemas de sala Skype dentro da sua organização.
   
-Consulte os seguintes artigos para obter mais detalhes:
+Consulte o artigo a seguir para obter mais detalhes:
   
-- [Implantando o Portal de Web administrativo do sistema de sala do Lync no Lync Server 2013](http://technet.microsoft.com/library/ecba5b36-632e-40b9-9c2e-ab825baf7a46.aspx)
-    
-- [Configurando o seu ambiente do Lync Server 2013 para o Lync sala sistema administrativas Portal da Web](http://technet.microsoft.com/library/1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2.aspx)
-    
-- [Instalando o Portal de Web administrativo do sistema de sala do Lync no Lync Server 2013](http://technet.microsoft.com/library/dd19e368-c338-4e21-a40d-6439d46a9748.aspx)
-    
-- [Usando o Portal de Web administrativo do sistema de sala do Lync no Lync Server 2013](http://technet.microsoft.com/library/c387b2a3-3e42-4642-af72-88126ed2820f.aspx)
+- [Implantar o Portal de Web administrativo do SRS v1 no Skype para Business Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
 ## <a name="system-center-operations-manager"></a>System Center Operations Manager
 
-Sistema de sala Skype podem ser monitorado por meio do System Center Operations Manager (SCOM) baixando o [Pacote de gerenciamento de sistema do Skype sala](https://www.microsoft.com/en-us/download/details.aspx?id=42320) e instalá-lo em seu servidor SCOM. Você pode usar o SCOM para definir alertas, monitorar a integridade do sistema do Skype sala, gerar relatórios de tempo de atividade e muito mais. Sistema de sala do Skype vem com um agente de monitoramento pré-instaladas que pode ser configurado para apontar para o servidor SCOM. Consulte o guia de instalação fornecido pelo fabricante do seu sistema de sala Skype para saber como configurar o agente de monitoramento no sistema de sala do Skype.
+Sistema de sala Skype podem ser monitorado por meio do System Center Operations Manager (SCOM) baixando o [Pacote de gerenciamento de sistema do Skype sala](https://www.microsoft.com/download/details.aspx?id=42320) e instalá-lo em seu servidor SCOM. Você pode usar o SCOM para definir alertas, monitorar a integridade do sistema do Skype sala, gerar relatórios de tempo de atividade e muito mais. Sistema de sala do Skype vem com um agente de monitoramento pré-instaladas que pode ser configurado para apontar para o servidor SCOM. Consulte o guia de instalação fornecido pelo fabricante do seu sistema de sala Skype para saber como configurar o agente de monitoramento no sistema de sala do Skype.
   
 ## <a name="exchange-checklist"></a>Verificação do Exchange
 
@@ -52,10 +46,8 @@ Sistema de sala Skype podem ser monitorado por meio do System Center Operations 
 
 - Executar as seguintes ferramentas:
     
-  - Skype para negócios Best Practices Analyzer 
-    
-  - Skype para ferramenta de análise de integridade comercial (Excel) 
-    
+  - Skype para negócios Best Practices Analyzer     
+  - Skype para ferramenta de análise de integridade comercial (Excel)    
   - Skype para o analisador de conectividade de negócios, 32 bits ou 64 bits
     
 - Examine a [solução de problemas novo útil e ferramentas de análise para o Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirme que você tem um Skype para pool de negócios e um servidor de Office Web Apps e pode compartilhar um deck de PowerPoint usando o Skype para clientes corporativos.
@@ -100,7 +92,7 @@ Sistema de sala Skype é um sistema de incorporado que pode ser totalmente integ
     
   - Skype para negócios usa criptografia de ponta a ponta e autorização para todos os modos de comunicação
     
-  - Sistema de sala Skype suporta Skype para padrões de segurança e conformidade de negócios. Consulte Planejamento de segurança no Lync Server 2013 para obter mais informações.
+  - Sistema de sala Skype suporta Skype para padrões de segurança e conformidade de negócios. Para obter mais informações, consulte [Planejar a segurança no Skype para Business Server](../../plan-your-deployment/security/security.md) .
     
 ## <a name="license"></a>Licença
 
@@ -108,7 +100,7 @@ Verify that you use a KMS for activating software. Nesse caso, você talvez prec
   
 ## <a name="license-keys"></a>Chaves de Licença
 
-Skype sala sistema executa o Skype para o cliente de desktop de negócios em segundo plano. Se o sistema de sala do Skype é um membro do domínio, ele descobre seu KMS. (Se houver a chave Lync KMS de Licenciamento de Volume, ela será ativada automaticamente). O Licenciamento do Volume também oferece um MAK, que você digita quando ele exibe xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa ter acesso à Internet para ativar utilizando o MAK, mas não o KMS). Para obter mais informações, consulte ativação do Volume do Office 2013.
+Skype sala sistema executa o Skype para o cliente de desktop de negócios em segundo plano. Se o sistema de sala do Skype é um membro do domínio, ele descobre seu KMS. (e se ele tiver a chave KMS de licenciamento do Volume será ativado automaticamente). O Licenciamento do Volume também oferece um MAK, que você digita quando ele exibe xxxxx-xxxxx-xxxxx-xxxxx. (Você precisa ter acesso à Internet para ativar utilizando o MAK, mas não o KMS). Para obter mais informações, consulte ativação do Volume do Office 2013.
   
 - Para inserir a chave MAK, vá para configurações de OEM \> SRS Licensing Tool. Clique em Verificar Estado. Quando o status diz "produto não está ativado", digite a chave.
     
@@ -134,13 +126,13 @@ Verifique se sua Autoridade de Certificação tem um caminho de http para a list
   
 Instalar certificados na configuração do administrador do sistema Skype sala em configurações do sistema \> Gerenciador de certificados. Você precisa de um CA de Raiz Corporativa para seu certificado interno.
   
-Uma maneira de obter os certificados que você precisa consiste em descobrir a CA que emitiu seus certificados. Skype para Business Server, em um PC em Skype para a empresa, clique em configurações \> ferramentas \> configurações de conferência discada. Esta opção abrirá uma página da web protegida pelo nome de CA que emitiu os certificados internos do Lync. Clique no ícone de Cadeado na barra de endereço do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade do Ponto de Distribuição de CRL. O segundo parâmetro de CN deve ser o nome do servidor de CA. Abra o Windows Explorer para esse endereço agora \\ \< nome do servidor CA \>\CertEnroll. Copie o dois arquivos .crl e o arquivo .crt em uma unidade flash e coloque-os no lado esquerdo da placa SMART.
+Uma maneira de obter os certificados que você precisa consiste em descobrir a CA que emitiu seus certificados. Skype para Business Server, em um PC em Skype para a empresa, clique em configurações \> ferramentas \> configurações de conferência discada. Isso abre uma página da web protegido pela autoridade de certificação que emitiu os certificados internos. Clique no ícone de Cadeado na barra de endereço do navegador para exibir um relatório de segurança. Clique em Exibir Certificados e examine a propriedade do Ponto de Distribuição de CRL. O segundo parâmetro de CN deve ser o nome do servidor de CA. Abra o Windows Explorer para esse endereço agora \\ \< nome do servidor CA \>\CertEnroll. Copie o dois arquivos .crl e o arquivo .crt em uma unidade flash e coloque-os no lado esquerdo da placa SMART.
   
 Importe o arquivo. CRT para o sistema de sala Skype sob a pasta autoridades de certificação da sala.
   
 Importe os arquivos. CRL no sistema de sala Skype sob a pasta autoridades de certificação intermediários. (Será necessário alterar o filtro de extensão de arquivo no Gerenciador de Certificados para .crl para visualizar os arquivos.)
   
-Nota: o servidor do Office Web Apps 2013 pode compartilhar a mesma CA do Lync. Caso contrário, você não poderá compartilhar PowerPoint em uma reunião. Verifique com o departamento de TI e permita que os arquivos CRT e CRL fora da rede de CA compartilhem CertEnroll como explicado acima. 
+Observação: O servidor de Office Web Apps 2013 pode compartilhar a mesma CA que Skype para negócios. Caso contrário, você não poderá compartilhar PowerPoint em uma reunião. Verifique com o departamento de TI e permita que os arquivos CRT e CRL fora da rede de CA compartilhem CertEnroll como explicado acima. 
   
 A associação de domínio pode simplificar algumas coisas porque você pode tratar o sistema de sala Skype como um sistema Windows, e ele pode depender do Active Directory para alguns dos aspectos de certificado. No entanto, é melhor gerenciar este assunto manualmente.
   

@@ -1,24 +1,24 @@
 ---
-title: Habilitar gravação de detalhes da chamada no Skype for Business Server 2015
+title: Habilitar gravação de detalhes de chamada no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Resumo: Saiba como habilitar detalhes das chamadas (CDR) registros de gravação no Skype para Business Server 2015.'
-ms.openlocfilehash: 3fe33f3cfde310b3674c125b7eb8ab1bf04f7c03
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como habilitar detalhes das chamadas (CDR) registros de gravação no Skype para Business Server.'
+ms.openlocfilehash: 55fafd037e271166eaf94b460f656b811720e00f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995738"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server-2015"></a>Habilitar gravação de detalhes da chamada no Skype for Business Server 2015
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar gravação de detalhes de chamada no Skype para Business Server
  
-**Resumo:** Aprenda a habilitar detalhes das chamadas (CDR) registros de gravação no Skype para Business Server 2015.
+**Resumo:** Aprenda a habilitar detalhes das chamadas (CDR) registros de gravação no Skype para Business Server.
   
 O CDR (registro de detalhes das chamadas) registra informações de utilização e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas do protocolo VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões. Os dados de uso podem ser utilizados para calcular o ROI (retorno sobre o investimento), enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões. 
   
@@ -29,7 +29,7 @@ Use o procedimento a seguir para ativar o CDR para a organização inteira ou pa
   
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Para habilitar o CDR com Skype para painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
     

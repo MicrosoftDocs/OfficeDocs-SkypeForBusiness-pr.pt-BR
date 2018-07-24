@@ -1,24 +1,24 @@
 ---
-title: Relatório de Tendências de Local no Skype for Business Server 2015
+title: Relatório de tendências de local no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Resumo: Saiba mais sobre o relatório de tendências de local no Skype para Business Server 2015.'
-ms.openlocfilehash: c28a22fdf4122dde45b506e90cf752794deaf781
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de tendências de local no Skype para Business Server.'
+ms.openlocfilehash: 007bd549dbccffdbbe83ff4d96ebd09b83b7c5e3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973602"
 ---
-# <a name="location-trend-report-in-skype-for-business-server-2015"></a>Relatório de Tendências de Local no Skype for Business Server 2015
+# <a name="location-trend-report-in-skype-for-business-server"></a>Relatório de tendências de local no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de tendências de local no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de tendências de local no Skype para Business Server.
   
 O Relatório de Tendências de Local fornece informações sobre as tendências de qualidade de chamada para locais de rede.
   
@@ -28,7 +28,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Tendências de Local. 
   
-**Filtros do relatório de tendências de local**
+**Filtros do Relatório de Tendências de Local**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|

@@ -1,27 +1,26 @@
 ---
-title: Implantar repositório unificado de contatos no Skype for Business Server 2015
+title: 'Implantar o armazenamento unificado de contatos no Skype para Business Server '
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
-description: 'Resumo: Habilite o repositório unificado de contatos no Skype para Business Server 2015.'
-ms.openlocfilehash: 2004ab4074af98381fbbfdf67ba4ce0bac9503a8
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Habilite o repositório unificado de contatos no Skype para Business Server.'
+ms.openlocfilehash: 36515e9542a18d422254292b0cf2a2b4ef937178
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568714"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978218"
 ---
-# <a name="deploy-unified-contact-store-in-skype-for-business-server-2015"></a>Implantar repositório unificado de contatos no Skype for Business Server 2015
+# <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implantar o armazenamento unificado de contatos no Skype para Business Server
  
-**Resumo:** Habilite o repositório unificado de contatos no Skype para Business Server 2015.
+**Resumo:** Habilite o repositório unificado de contatos no Skype para Business Server.
   
-Habilitar o repositório unificado de contatos no Skype para Business Server 2015 não exige qualquer configuração de topologia. Para habilitar o repositório unificado de contatos para os usuários é necessário:
+Habilitar o repositório unificado de contatos no Skype para Business Server não exige qualquer configuração de topologia. Para habilitar o repositório unificado de contatos para os usuários é necessário:
   
 - Que a política do repositório unificado de contatos esteja habilitada (ela é habilitada por padrão).
     
@@ -34,11 +33,11 @@ Depois que contatos um usuário foram migrados, que ocorre automaticamente quand
   
 ## <a name="enable-users-for-unified-contact-store"></a>Habilitar usuários para repositório unificado de contatos
 
-Quando você implantar Skype para Business Server 2015 e publique a topologia, o armazenamento unificado de contatos está habilitado para todos os usuários por padrão. Você não precisará executar qualquer ação adicional para permitir o armazenamento de contato unificado após a implantação do Skype para Business Server 2015. No entanto, você pode usar o cmdlet **Set-CsUserServicesPolicy** para personalizar quais usuários têm unificada disponíveis do repositório de contato. Você pode habilitar esse recurso globalmente, por local, por locatário ou por indivíduos ou grupos de indivíduos.
+Quando você implantar Skype para Business Server e publica a topologia, o armazenamento unificado de contatos está habilitado para todos os usuários por padrão. Você não precisará executar qualquer ação adicional para permitir o armazenamento de contato unificado após a implantação do Skype para Business Server. No entanto, você pode usar o cmdlet **Set-CsUserServicesPolicy** para personalizar quais usuários têm unificada disponíveis do repositório de contato. Você pode habilitar esse recurso globalmente, por local, por locatário ou por indivíduos ou grupos de indivíduos.
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Para permitir o repositório unificado de contatos
 
-1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+1. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique **Skype para negócios**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de negócios**.
     
 2. Execute qualquer uma das seguintes ações:
     
@@ -90,7 +89,7 @@ Quando você implantar Skype para Business Server 2015 e publique a topologia, o
    ```
 
     > [!NOTE]
-    > No exemplo anterior, o primeiro comando cria uma nova política por usuário denominada UCS habilitado para usuários com o sinalizador UcsAllowed definido como True. O segundo comando atribui a política ao usuário com o nome Ken Myer, o que significa que Ken Myer está habilitado para o repositório unificado de contatos.
+    > No exemplo anterior, o primeiro comando cria uma nova política por usuário chamada Usuários do UCS Permitidos, com o sinalizador AcsAllowed definido como True. O segundo comando atribui a política ao usuário com o nome Ken Myer, o que significa que Ken Myer está habilitado para o repositório unificado de contatos.
   
 ## <a name="migrate-users-to-unified-contact-store"></a>Migrar usuários para o repositório unificado de contatos
 
@@ -124,11 +123,11 @@ Se o usuário fizer logon com um cliente anterior ou o Lync, ou se o usuário n�
 
 Se você precisar reverter o contato unificado armazenar recurso, reverter os contatos somente se você mover o usuário de volta para o Exchange 2010 ou o Lync Server 2010. Para reverter, desabilite a política para o usuário e, em seguida, execute o cmdlet **Invoke-CsUcsRollback** . Simplesmente executar **Invoke-CsUcsRollback** sozinho não é suficiente para garantir a reversão permanente, porque a migração do repositório unificado de contatos será iniciada novamente se a diretiva não está desabilitada. Por exemplo, se um usuário é revertido porque Exchange 2013 será revertida para o Exchange 2010 e, em seguida, a caixa de correio do usuário é movida para o Exchange 2013, a migração do repositório unificado de contatos será iniciada novamente sete dias após a reversão, desde que o repositório de contato unificado ainda está habilitado para o usuário na política de serviços de usuário.
   
-O cmdlet **Move-CsUser** automaticamente reverte o repositório de contatos do usuário do Exchange 2013 para Skype para Business Server 2015 nas seguintes situações:
+O cmdlet **Move-CsUser** automaticamente reverte o repositório de contatos do usuário do Exchange 2013 para Skype para Business Server nas seguintes situações:
   
-- Quando os usuários são movidos do Skype para Business Server 2015 para Microsoft Lync Server 2013 ou o Lync Server 2010. 
+- Quando os usuários são movidos do Skype para Business Server para Microsoft Lync Server 2013 ou o Lync Server 2010. 
     
-- Quando os usuários são migrados entre locais, como quando um usuário é movido do Skype para Business Online para Skype para Business Server 2015 local, ou vice-versa.
+- Quando os usuários são migrados entre locais, como quando um usuário é movido do Skype para Business Online para Skype para Business Server local, ou vice-versa.
     
 Importar os dados do repositório de contato unificado de um banco de dados de backup pode fazer com que os dados do repositório de contato unificado e os dados do usuário sejam corrompidos se o modo do repositório de contato unificado mudar entre a exportação e a importação. Por exemplo:
   

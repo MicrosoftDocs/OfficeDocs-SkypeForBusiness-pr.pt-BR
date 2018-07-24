@@ -3,18 +3,18 @@ title: Política de conferência das contas do Sistema de Salas do Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Leia este tópico para aprender como atribuir as políticas de conferência às contas do Sistema de Salas do Skype.
-ms.openlocfilehash: 07ce5031bd053837d69d3ed3da27aabb344c3a65
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a9eb05c8e29a3db216bc74e5e016c2c6a8413a33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973420"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Política de conferência das contas do Sistema de Salas do Skype
  
@@ -59,7 +59,7 @@ A política de conferência atribuída à conta de sistema do Skype sala deve te
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Recomendamos que você defina este item o mais alto possível. A largura de banda efetiva depende de condições de rede no momento de conferências.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Deve ser TRUE para o sistema de sala Skype garantir que os fluxos de vídeo de multi-exibição  <br/> |
    
-* Para obter informações sobre o planejamento de largura de banda, consulte [Requisitos de largura de banda de rede para tráfego de mídia](https://technet.microsoft.com/en-us/library/jj688118%28v=ocs.15%29.aspx).
+* Para obter informações sobre o planejamento de largura de banda, consulte [requisitos de largura de banda de rede para tráfego de mídia](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic).
   
 > [!NOTE]
 > Se o cliente do sistema de sala Skype tentar ingressar em uma reunião agendada organizada por um usuário hospedado em um pool do Lync Server 2010, política de conferência do organizador da reunião pode impedir que o cliente do sistema de sala Skype realizando a colaboração. 

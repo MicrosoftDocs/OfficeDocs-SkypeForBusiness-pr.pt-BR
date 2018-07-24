@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Use as configurações de Arquivamento para controlar as opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global, e, como opção, uma ou mais configurações de site e de pool:'
-ms.openlocfilehash: 3cc5c560ebafdf5dbf1ddac05d7c6b25653c0eb4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1e85367566618638da8e8c9a826c56eecad6b029
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19976869"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974805"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuração de Arquivamento: Criar Novo ou Editar Existente
  
@@ -69,5 +70,5 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
     > [!NOTE]
     > Se você habilitar a integração do Microsoft Exchange, limpeza para usuários hospedados no Exchange e com suas caixas de correio colocadas em retenção In-loco é controlado pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são excluídos do compartilhamento de arquivo somente após serem exportados (carregados no Exchange), se você selecionar a opção para limpar os dados após a exportação dos dados de arquivamento ou após o número máximo de dias especificado, se você especificar um número máximo de dias para retenção. 
   
-Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração do Exchange, consulte [Planejar para arquivamento no Skype para Business Server 2015](../../../plan-your-deployment/archiving/archiving.md), [Deploy arquivamento para Skype para Business Server 2015](../../../deploy/deploy-archiving/deploy-archiving.md)e [Gerenciar o arquivamento no Skype para Business 2015 de servidor](../../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração do Exchange, consulte [planejamento para arquivamento no Skype para Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy arquivamento para Skype para Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e [Gerenciar o arquivamento no Skype para negócios Servidor](../../../manage/archiving/archiving.md).
 

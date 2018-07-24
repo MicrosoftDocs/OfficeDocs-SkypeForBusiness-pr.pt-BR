@@ -1,9 +1,8 @@
 ---
-title: Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server 2015
+title: Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,14 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implante um sempre no grupo de disponibilidade na sua Skype (instalação) para o Business Server deployment.
-ms.openlocfilehash: 7a277421c13243ba7096a794b59ed93218644f22
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569502"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026729"
 ---
-# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server-2015"></a>Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server 2015
+# <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server
  
 Implante um sempre na disponibilidade grupo (AG) no seu Skype (instalação) para o Business Server deployment.
   
@@ -122,13 +121,13 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página**Resumo** , verifique se todas as configurações e clique em Concluir.
     
-7. Use o construtor de topologias para criar o pool de Front-End, conforme explicado em [criar e publicar a nova topologia no Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md). Quando você fizer isso, especifique a AG como o repositório SQL para o pool.
+7. Use o construtor de topologias para criar o pool de Front-End, conforme explicado em [criar e publicar a nova topologia no Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Quando você fizer isso, especifique a AG como o repositório SQL para o pool.
     
 8. Após o pool e o AG são implantados, realize algumas etapas finais para certificar-se de que os logons do SQL estão em cada uma das réplicas no grupo de disponibilidade do AlwaysOn. 
     
    - Abra o construtor de topologia, selecione **Baixar topologia da implantação existente**e clique em **Okey**.
     
-   - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Clique com o botão o repositório SQL do novo grupo de disponibilidade do AlwaysOn e, em seguida, clique em * * Editar propriedades * *.
+   - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Clique com o botão o repositório SQL do novo grupo de disponibilidade do AlwaysOn e clique em **Editar propriedades**.
     
     - Na parte inferior da página, na caixa **FQDN do SQL Server** , altere o valor para o FQDN do ouvinte da AG.
     
@@ -418,7 +417,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
     - Abra o construtor de topologia, selecione **Baixar topologia da implantação existente**e clique em **Okey**.
     
-    - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Com o botão direito o repositório SQL da AG novo e, em seguida, clique em * * Editar propriedades * *.
+    - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Com o botão direito o repositório SQL da AG novo e clique em **Editar propriedades**.
     
     - Na parte inferior da página, na caixa **FQDN do SQL Server** , altere o valor para o FQDN do ouvinte da AG.
     

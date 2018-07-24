@@ -1,34 +1,33 @@
 ---
-title: Gerenciar os serviços para Skype para Business Server 2015
+title: Gerenciar os serviços para Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: Este artigo descreve como gerenciar os serviços em execução em um Skype para a topologia de negócios Server 2015.
-ms.openlocfilehash: 87bf9fd90c68155504e6be5b28b56d571eaad924
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Este artigo descreve como gerenciar os serviços em execução em um Skype para a topologia de servidor de negócios.
+ms.openlocfilehash: 0bf12ed7719be7804b2cb4d69e29a7d0a058e142
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569572"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977000"
 ---
-# <a name="manage-services-for-skype-for-business-server-2015"></a>Gerenciar os serviços para Skype para Business Server 2015
+# <a name="manage-services-for-skype-for-business-server"></a>Gerenciar os serviços para Skype para Business Server
 
-Este artigo descreve como gerenciar os serviços em execução em um Skype para a topologia de negócios Server 2015.
+Este artigo descreve como gerenciar os serviços em execução em um Skype para a topologia de servidor de negócios.
   
-## <a name="view-a-list-of-computers-running-skype-for-business-server-2015"></a>Exibir uma lista de computadores que executam o Skype para Business Server 2015
+## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Exibir uma lista de computadores que executam o Skype para Business Server
 <a name="view_list"> </a>
 
-Você pode usar o Skype para painel de controle do Business Server para exibir uma lista de todos os computadores que estejam executando o Skype para negócios 2015 de servidor em sua topologia e ver o status do serviço de cada um. Você pode classificar a lista por computador, pool ou site. 
+Você pode usar o Skype para painel de controle do Business Server para exibir uma lista de todos os computadores que estão executando o Skype para Business Server em sua topologia e ver o status do serviço de cada um. Você pode classificar a lista por computador, pool ou site. 
   
 ### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>Para exibir uma lista de computadores que executam o Skype para Business Server
 
-1. Usando uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidas para Skype para Business Server 2015, faça logon em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Skype para Business Server 2015, consulte **Planning for Role-Based Access Control**.   
+1. Usando uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidas para Skype para Business Server, faça logon em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Skype para Business Server, consulte **Planning for Role-Based Access Control**.   
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.   
 3. Na barra de navegação à esquerda, clique em **topologia** e clique em **Status**.   
 4. Na página **Status** , faça qualquer um dos seguintes procedimentos conforme necessário:
@@ -36,7 +35,7 @@ Você pode usar o Skype para painel de controle do Business Server para exibir u
    - Clique em **Atualizar** para exibir a lista mais atualizada.  
    - Procure um computador específico, digitando o nome do computador no campo de pesquisa.
     
-## <a name="view-the-status-of-services-running-on-a-skype-for-business-2015-server"></a>Exibir o status dos serviços executados em um Skype para o servidor de negócios 2015
+## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>Exibir o status dos serviços executados em um Skype para Business server
 <a name="view-status"> </a>
 
 Você pode usar o Skype para painel de controle do Business Server para exibir todos os serviços que estão sendo executados em um determinado computador em sua Skype para a topologia de servidor de negócios e ver o status de cada serviço.
@@ -84,7 +83,7 @@ Você pode usar o Skype para painel de controle do Business Server para exibir d
   
 ### <a name="to-view-details-for-a-service"></a>Para visualizar detalhes de um serviço
 
-1. Usando uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidas para Skype para Business Server 2015, faça logon em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Skype para Business Server 2015, consulte **Planning for Role-Based Access Control**.
+1. Usando uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidas para Skype para Business Server, faça logon em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Skype para Business Server, consulte **Planning for Role-Based Access Control**.
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
 3. Na barra de navegação à esquerda, clique em **topologia** e clique em **Status**.
 4. Na página **Status** , classifique ou pesquisa na lista e, em seguida, clique no computador que você deseja exibir.
@@ -95,14 +94,14 @@ Você pode usar o Skype para painel de controle do Business Server para exibir d
    - Para ver os detalhes desse serviço específico, clique em **Propriedades** e, em seguida, clique em **Fechar**.
    - Para retornar à lista de todos os computadores em sua topologia, clique em **Fechar**.
     
-## <a name="start-or-stop-skype-for-business-server-2015-services"></a>Iniciar ou parar Skype para serviços de Business Server 2015
+## <a name="start-or-stop-skype-for-business-server-services"></a>Iniciar ou parar Skype para serviços de Business Server
 <a name="StartStop"> </a>
 
-Você pode usar o Skype para painel de controle do Business Server para iniciar ou parar todos o Skype para serviços de Business Server 2015 executados em um computador específico ou para iniciar ou parar um serviço específico.
+Você pode usar o Skype para painel de controle do Business Server para iniciar ou parar todos o Skype para serviços de Business Server em execução em um computador específico ou para iniciar ou parar um serviço específico.
   
 ### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>Para iniciar ou parar todos os Skype para serviços corporativos em um computador
 
-1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015. Você pode determinar se você tiver atribuído a CsServerAdministrator ou a função CsAdministrator RBAC executando um comando semelhante ao seguinte:
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server . Você pode determinar se você tiver atribuído a CsServerAdministrator ou a função CsAdministrator RBAC executando um comando semelhante ao seguinte:
     
   ```
   Get-CsAdminRoleAssignment -Identity "kenmyer"
@@ -129,11 +128,11 @@ Você pode usar o Skype para painel de controle do Business Server para iniciar 
 ## <a name="prevent-sessions-for-services"></a>Evitar sessões de serviços
 <a name="prevent_session"> </a>
 
-Você pode usar o Skype para painel de controle do Business Server para impedir novas sessões para todos o Skype para serviços de Business Server 2015 executados em um computador específico ou para impedir novas sessões para um Skype específico para o serviço de Business Server 2015.
+Você pode usar o Skype para painel de controle do Business Server para impedir novas sessões para todos o Skype para serviços de Business Server em execução em um computador específico ou para impedir novas sessões para um Skype específico para o serviço servidor de negócios.
   
 ### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>Para impedir novas sessões para todos os Skype para serviços corporativos de um computador
 
-1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
 3. Na barra de navegação à esquerda, clique em **topologia** e clique em **Status**.
 4. Na página **Status** , classificação ou pesquisa através da lista como necessário para localizar o computador que está executando os serviços para o qual você deseja impedir novas sessões e, em seguida, clique nele.
@@ -142,7 +141,7 @@ Você pode usar o Skype para painel de controle do Business Server para impedir 
     
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>Para impedir novas sessões para um serviço específico
 
-1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
 3. Na barra de navegação à esquerda, clique em **topologia** e clique em **Status**.
 4. Na página **Status** , classificação ou pesquisa até a lista conforme necessário para localizar o computador que está executando o serviço que você deseja iniciar ou parar e, em seguida, clique nele. 

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
+ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode usar os resultados de uma consulta de pesquisa para configurar usuários para Skype para Business Server. É possível pesquisar por usuários por nome de exibição, nome, sobrenome, nome de conta SAM (Gerenciador de contas de segurança), endereço SIP ou URI (Uniform Resource Identifier) de linha. Também é possível pesquisar por usuários usando o Painel de Controle do Lync Server ou o snap-in Usuários e Computadores do Active Directory.
-ms.openlocfilehash: eb123d3fcbf13b75687f40d7311d8d9af8cb8fda
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 54bb0001352d1232a86b5b289f20829a3f34ba3e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088543"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21020221"
 ---
 # <a name="control-panel---updated-user-search"></a>Painel de Controle - atualizado: Pesquisa de Usuário
  

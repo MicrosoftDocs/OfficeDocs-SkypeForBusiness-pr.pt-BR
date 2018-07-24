@@ -3,7 +3,7 @@ title: Configuração de notificação de Push do cliente móvel
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar as notificações de push da Microsoft e notificações de push do Apple, você deve criar uma política para definir quais tipos de notificação por push você exige.
-ms.openlocfilehash: 946e083ab9f3f4dbc2b59f7f3026ec3a6dd5ed19
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1e3c132fe030bd238fbb01af6fa53a1fce2657d7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975939"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvel: Configuração de notificação por Push
  

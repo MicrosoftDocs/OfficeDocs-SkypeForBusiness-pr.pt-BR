@@ -1,22 +1,22 @@
 ---
-title: Corrigir ou atualizar Servidores Front-End no Skype for Business Server 2015
+title: Patch ou atualização de servidores Front-End do Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 4/4/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 description: 'Resumo: Saiba como aplicar atualizações ou patches a servidores Front-End do Skype para Business Server.'
-ms.openlocfilehash: 1f5ccd6531338d1e6b47dd8363b9386bcbeba0fc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 29191192b1dab16b79cc594cc0a7b3b68aaa906f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972769"
 ---
-# <a name="patch-or-update-front-end-servers-in-skype-for-business-server-2015"></a>Corrigir ou atualizar Servidores Front-End no Skype for Business Server 2015
+# <a name="patch-or-update-front-end-servers-in-skype-for-business-server"></a>Patch ou atualização de servidores Front-End do Skype para Business Server
  
 **Resumo:** Saiba como aplicar atualizações ou patches para servidores Front-End do Skype para Business Server.
   

@@ -3,7 +3,7 @@ title: Política PIN criar nova ou editar existente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,21 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: d415b056e66ec0dd3757691f8b027c605f5bd01d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2d24b25ddcd5c1b041bf4fb0ae10b72a28fc6f2c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014440"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Política PIN: Criar nova ou editar existente
  
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
   
-- [Criar uma nova política PIN no Skype para Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
+- [Criar uma nova política de PIN no Skype for Business Server 2015](../../manage/authentication/create-a-new-pin-policy.md)
     
-- [Modificar uma política PIN existente no Skype para Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [Modificar uma política de PIN existente no Skype for Business Server 2015](../../manage/authentication/modify-an-existing-pin-policy.md)
     
-- [Excluir uma política PIN no Skype para Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
+- [Excluir uma política de PIN no Skype for Business Server 2015](../../manage/authentication/delete-a-pin-policy.md)
     
 - [Criar ou modificar as configurações de PIN de conferência discada para um Site ou grupo de usuários](http://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
     

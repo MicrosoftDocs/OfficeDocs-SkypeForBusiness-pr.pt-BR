@@ -11,18 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Para definir uma atribuição de rota de Federação do site, você primeiro deve ter a federação habilitada no servidor de borda ou pool de servidor de borda. Se a federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de federação para o site não estará disponíveis para modificação.
-ms.openlocfilehash: 7933809dc53be713a9a745e2c1fd100e4de1c6b6
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 260a5dd836adb0c2e99d660f134e57a15a257f18
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988282"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986810"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configurações de rota de Federação
  
 Para definir uma atribuição de rota de Federação do site, você primeiro deve ter a federação habilitada no servidor de borda ou pool de servidor de borda. Se a federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de federação para o site não estará disponíveis para modificação.
-  
-## 
 
 Se a configuração de federação no servidor de borda ou pool tiver sido configurada, você pode configurar as seguintes opções: 
   

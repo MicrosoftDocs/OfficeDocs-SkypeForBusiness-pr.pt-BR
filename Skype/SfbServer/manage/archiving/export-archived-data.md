@@ -1,24 +1,24 @@
 ---
-title: Exportar dados arquivados no Skype for Business Server 2015
+title: Exportar dados arquivados no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 'Resumo: Saiba como exportar os dados arquivados para Skype para Business Server 2015.'
-ms.openlocfilehash: f5fe222589efa5ce6e8e21151817042497fb6cc6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como exportar os dados arquivados para Skype para Business Server.'
+ms.openlocfilehash: 9b03ea23fd907a386b15005f18c3c0becdb79589
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975764"
 ---
-# <a name="export-archived-data-in-skype-for-business-server-2015"></a>Exportar dados arquivados no Skype for Business Server 2015
+# <a name="export-archived-data-in-skype-for-business-server"></a>Exportar dados arquivados no Skype para Business Server
 
-**Resumo:** Saiba como exportar os dados arquivados para Skype para Business Server 2015.
+**Resumo:** Saiba como exportar os dados arquivados para Skype para Business Server.
   
 Os dados arquivados em bancos de dados de Arquivamento não estão em um formato legível ou com possibilidade de pesquisa, mas é possível usar o cmdlet **Export-CsArchivingData** para extrair registros do banco de dados e salvá-los como um arquivo do Outlook Electronic Mail (EML).
   
@@ -34,7 +34,7 @@ O seguinte comando exporta todos os dados de arquivamento gravados no banco de d
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"
 ```
 
-O comando a seguir exporta dados para um único usuário de arquivamento: kenmyer@contoso.com. Isso é feito incluindo o parâmetro de UserUri, seguido pelo endereço SIP do usuário. Por exemplo: 
+O comando a seguir exporta dados de arquivamento para um único usuário: kenmyer@contoso.com. Isso é feito incluindo o parâmetro de UserUri, seguido pelo endereço SIP do usuário. Por exemplo: 
   
 ```
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports" -UserUri "sip:kenmyer@contoso.com"

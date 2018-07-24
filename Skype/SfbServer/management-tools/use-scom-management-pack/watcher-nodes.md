@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumo: Instalar e configurar nós do Inspetor do Skype para transações sintéticas do Business Server.'
-ms.openlocfilehash: 2ba6c6e0ac201d9721d281c87665fe9bf9c0407c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015635"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar e configurar nós do inspetor
  
@@ -33,7 +34,7 @@ Para obter detalhes sobre o processo de adição de outras transações sintéti
   
 As transações sintéticas disponíveis para os nós do inspetor incluem as seguintes:
   
-|**Nome do cmdlet (nome de teste)**|**Descrição**|
+|**Nome do cmdlet (nome do teste)**|**Descrição**|
 |:-----|:-----|
 |Test-CsAddressBookService (ABS)  <br/> |Confirma se os usuários podem pesquisar outros usuários que não estão em sua lista de contatos.  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |Confirma se os usuários podem pesquisar outros usuários que não estão em sua lista de contatos via HTTP.  <br/> |
@@ -52,12 +53,12 @@ As transações sintéticas disponíveis para os nós do inspetor incluem as seg
 |Test-CsExumConnectivity (ExumConnectivity)  <br/> |Confirma se um usuário pode se conectar ao Exchange Unified Messaging (UM).  <br/> |
 |Test-CsGroupIM - TestJoinLauncher (JoinLauncher)  <br/> |Confirma se os usuários podem criar reuniões agendadas e ingressar nelas através de um link de endereço Web.  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)  <br/> |Confirma se usuários de dispositivos móveis podem registrar-se e enviar mensagens instantâneas.  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirma que o servidor de interoperabilidade de vídeo está atualizado e pode lidar com conexões de entrada em um tronco SIP de vídeo.  <br/> |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)  <br/> |Confirma que o servidor de interoperabilidade de vídeo está atualizado e pode lidar com conexões de entrada em um tronco SIP de vídeo.  <br/> **Observação:** Suporte MCX para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. |
 |Test-CsPersistentChatMessage (PersistentChatMessage)  <br/> |Confirma se os usuários podem trocar mensagens usando o serviço de chat persistente.  <br/> |
 |Test-CsUcwaConference (UcwaConference)  <br/> |Confirma se os usuários podem participar de conferências via Web.  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirma se os contatos de um usuário podem ser acessados por meio do repositório unificado de contatos. O armazenamento unificado de contatos fornece uma maneira para que os usuários manter um único conjunto de contatos que podem ser acessados por meio do Skype para Business Server 2015, Outlook mensagens e cliente de colaboração e/ou Outlook Web Access.  <br/> |
-|Test-CsXmppIM (XmppIM)  <br/> |Confirma se uma mensagem instantânea pode ser enviada através do gateway XMPP.  <br/> |
-   
+|Test-CsXmppIM (XmppIM)  <br/> |Confirma se uma mensagem instantânea pode ser enviada através do gateway XMPP.  <br/> Gateways de XMPP e proxies estão disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019.  |
+
 Você não precisará instalar nós do Inspetor para usar o System Center Operations Manager. Se você não instalar esses nós, você pode ainda obter alertas em tempo real do Skype para componentes de negócios Server 2015 sempre que ocorre um problema. (O componente e o pacote de gerenciamento do usuário não usa nós do observador.) No entanto, nós do Inspetor são necessários se você deseja monitorar cenários de ponta a ponta usando o pacote de gerenciamento de monitoramento ativo.
   
 > [!NOTE]
@@ -152,8 +153,8 @@ Ao configurar um nó do observador, você também deve escolher o tipo de métod
   
 ||**Descrição**|**Locais suportados**|
 |:-----|:-----|:-----|
-|TrustedServer  <br/> |Usa uma certificação para personificar um servidor interno e desafios de autenticação de desvio.  <br/> É útil para os administradores que preferem gerenciar um único certificado, em vez de várias senhas do usuário em cada nó do observador.  <br/> |Dentro da empresa.  <br/> Com este método, o nó do observador deve estar no mesmo domínio que os pools sendo monitorados. Se o nó do observador e os pools estão em domínios diferentes, use a Autenticação de Credencial.  <br/> |
-|Negotiate  <br/> |Armazena os nomes de usuário e senhas com segurança no Gerenciador de credenciais do Windows em cada nó do observador.  <br/> Este modo exige mais gerenciamento de senha, mas é a única opção para nós do observador fora da empresa. Estes nós do observador não podem ser tratados como um ponto de extremidade confiável para autenticação.  <br/> |Fora da empresa.  <br/> Dentro da empresa.  <br/> |
+|TrustedServer  <br/> |Usa uma certificação para personificar um servidor interno e desafios de autenticação de bypass.  <br/> Útil para os administradores que preferem gerenciar um único certificado ao invés de várias senhas do usuário no nó do observador.  <br/> |Dentro da empresa.  <br/> Com este método, o nó do observador deve estar no mesmo domínio que os pools sendo monitorados. Se o nó do observador e os pools estão em domínios diferentes, use a Autenticação de Credencial.  <br/> |
+|Negotiate  <br/> |Armazena os nomes de usuário e senhas com segurança no Gerenciador de Credencial do Windows no nó do observador.  <br/> Este modo exige mais gerenciamento de senha, mas é a única opção para nós do observador fora da empresa. Estes nós do observador não podem ser tratados como um ponto de extremidade confiável para autenticação.  <br/> |Fora da empresa.  <br/> Dentro da empresa.  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>Configurar um nó inspetor para usar a autenticação de servidor confiável
 <a name="enable_synthetic_trans"> </a>
@@ -163,7 +164,7 @@ Caso seu computador de nó do inspetor esteja dentro da rede de perímetro, util
 Para configurar autenticação de Servidor Confiável, você deve primeiro criar um pool de aplicativo confiável para hospedar o computador de nó do inspetor. Depois que você criou o pool de aplicativos confiáveis, você deve configurar, em seguida, as transações sintéticas nesse nó de inspetor para executar aplicativos confiáveis.
   
 > [!NOTE]
-> Um aplicativo confiável é um aplicativo que recebe o status confiável seja executado como parte do Skype para Business Server 2015, mas não é uma parte interna do produto. Status confiável significa que o aplicativo não será desafiado para autenticação cada vez que ele é executado.
+> Um aplicativo confiável é um aplicativo que recebe o status confiável seja executado como parte do Skype para Business Server 2015, mas não é uma parte interna do produto. O status de confiável significa que o aplicativo não será desafiado para autenticação toda vez que executar.
   
 Para criar um pool de aplicativos confiáveis, abra o Skype do Shell de gerenciamento do servidor de negócios e execute um comando semelhante a esta:
   

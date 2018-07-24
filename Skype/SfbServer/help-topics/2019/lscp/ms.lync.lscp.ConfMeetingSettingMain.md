@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: Definições de configuração de reunião definem o tipo de conferências (também chamado de reuniões) que os usuários podem criar e controlar como (ou se) usuários anônimos e usuários de conferência discada podem participar dessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: a3a175d6dd49502a3686ea356c30c9da5c7ad01d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Definições de configuração de reunião definem o tipo de conferências (também calledmeetings) que os usuários podem criar e controlar como (ou se) usuários anônimos e usuários de conferência discada podem participar dessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
+ms.openlocfilehash: 57e7b9fab39c9dbbad92758dfc7281164bacc763
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997028"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974729"
 ---
 # <a name="meeting-configuration"></a>Configuração de Reunião
  

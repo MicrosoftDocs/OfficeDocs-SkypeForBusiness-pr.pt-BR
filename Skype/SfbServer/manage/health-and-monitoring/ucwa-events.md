@@ -1,26 +1,26 @@
 ---
-title: Eventos do UCWA no Skype for Business Server 2015
+title: Eventos do UCWA no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Resumo: Aprenda sobre a API (UCWA) da Web das comunicações unificadas em Skype para Business Server 2015.'
-ms.openlocfilehash: cc9b62a4d00e9c4ed4feadfbfecfa4e3f8ca79fa
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Aprenda sobre as comunicações unificadas Web API (UCWA) no Skype para Business Server.'
+ms.openlocfilehash: 5a9fa42fa1367cd4afd74bc40f30549ca5777950
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981090"
 ---
-# <a name="ucwa-events-in-skype-for-business-server-2015"></a>Eventos do UCWA no Skype for Business Server 2015
+# <a name="ucwa-events-in-skype-for-business-server"></a>Eventos do UCWA no Skype para Business Server
  
-**Resumo:** Saiba mais sobre a API (UCWA) da Web das comunicações unificadas no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre a Web de comunicação unificada API (UCWA) no Skype para Business Server.
   
-Skype para Business Server 2015 usa o API de Web de comunicações unificadas (UCWA) para um número de objetivos de acessar o Microsoft Exchange para pesquisas de contatos para a atualização de presença para clientes móveis.
+Skype para Business Server usa a API de Web de comunicações unificadas (UCWA) para um número de objetivos de acessar o Microsoft Exchange para pesquisas de contatos para a atualização de presença para clientes móveis.
   
 A UCWA gravará registros de comportamento operacional como tipos de evento Informacional, Aviso e Erro. A tabela a seguir descreve tais eventos que podem ser gravados com componentes da UCWA.
   

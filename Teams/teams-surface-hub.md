@@ -3,7 +3,7 @@ title: Implantar as equipes da Microsoft para o Hub de superfície
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 07/23/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abb049c0185fa52b804c893d6f7abf73a1a902ab
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20397059"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981575"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
@@ -140,6 +140,9 @@ Depois de concluir as etapas anteriores para permitir que as equipes de conta do
 6. Clique em **Salvar** para concluir a tarefa.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalar equipes para o Hub de superfície do repositório de Microsoft 
+
+> [!NOTE]
+> Para usar o Microsoft Teams para o Hub de superfície (Preview), seu dispositivo deve inscritos no programa de Insider do Windows. Para sair do programa Insider, você deverá redefinir o Hub de superfície usando a recuperação de nuvem.<br> Para se tornar um membro do programa de Insider Windows, o Hub de superfície deve ser definido para telemetria completo antes de ingressar o programa de Insider Windows. Devido às normas GDPR, as configurações padrão de telemetria do Windows recentemente alterado do acesso completo para básico nos países da UE. Você deve verificar suas configurações antes de ingressar o programa de Insider Windows. Tentando ingressar no programa de Insider do Windows, quando definido como Telemetria básica pode exigir uma redefinição do Hub superfície. Para validar as configurações de telemetria do Windows em um Hub de superfície, escolha **configurações** > **privacidade** > **comentários e diagnósticos**e definido como **completo**.
 
 Essas instruções são para a instalação de equipes para o Hub de superfície do Microsoft Store. 
  

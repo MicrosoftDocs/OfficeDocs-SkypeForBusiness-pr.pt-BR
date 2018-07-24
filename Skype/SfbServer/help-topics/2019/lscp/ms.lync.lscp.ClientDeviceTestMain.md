@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: Você pode adicionar um dispositivo de teste para a página de dispositivo de teste e, em seguida, usar este dispositivo para verificar a funcionalidade das novas atualizações antes de implantar as atualizações de dispositivos de produção. É possível testar um dispositivo globalmente (em todo seu ambiente) ou dentro de um único site. Você identifica um dispositivo de teste por seu endereço MAC (Controle de acesso à mídia) ou número de série. Quando você adiciona um dispositivo, ela será exibida na lista na página Testar dispositivo do Skype para painel de controle do Business Server.
-ms.openlocfilehash: a95366b712d9dcdc44d6bc3b4f7f51af0d59f5aa
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: É possível adicionar um dispositivo de teste à página Dispositivo de Teste e usar esse dispositivo para verificar a funcionalidade de novas atualizações antes de implantar as atualizações a dispositivos de produção. É possível testar um dispositivo globalmente (em todo seu ambiente) ou dentro de um único site. Você identifica um dispositivo de teste por seu endereço MAC (Controle de acesso à mídia) ou número de série. Quando você adiciona um dispositivo, ela será exibida na lista na página Testar dispositivo do Skype para painel de controle do Business Server.
+ms.openlocfilehash: fad6d8295ba10715aa3808be053d4150ba546568
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969579"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999946"
 ---
 # <a name="test-device"></a>Dispositivo de teste
  
@@ -53,7 +54,7 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 Para obter detalhes sobre dispositivos de teste, consulte [Add a Device to Test Update Functionality](http://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) na documentação operações.
 ## <a name="see-also"></a>Consulte também
 
-[Dispositivo de teste: Criar nova ou editar existente](ms.lync.lscp.ClientDeviceTestEdit.md)
+[Dispositivo de Teste: Criar Novo ou Editar Existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 
 [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/new-cstestdevice?view=skype-ps)
   

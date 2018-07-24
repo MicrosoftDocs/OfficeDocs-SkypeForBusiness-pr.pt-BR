@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
+ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
-ms.openlocfilehash: 8ebdc6a421261f049bcfdd1da8054d3d05849f3f
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9d5176b84612c627ed9fbba333c6524ea55be539
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971472"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026606"
 ---
 # <a name="response-groups-queue"></a>Fila de grupos de resposta
  
@@ -52,6 +53,6 @@ A lista a seguir descreve os campos na página.
     
 - **Descrição** A descrição para a fila.
     
-Para obter detalhes sobre os recursos de grupo de resposta, consulte [Planejar para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md). Para obter detalhes sobre como trabalhar com filas de espera do grupo de resposta, consulte [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação operações.
+Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com filas de espera do grupo de resposta, consulte [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação operações.
   
 

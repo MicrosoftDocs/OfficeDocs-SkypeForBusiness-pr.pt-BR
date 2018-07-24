@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumo: Leia este tópico para saber mais sobre o planejamento de capacidade do servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: 5e8978e145c96b9a2fec7d81f02e0010484411bb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 395beed6a295a76c781aa65c654bcbf2693bbc40
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21026449"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejamento de capacidade para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -25,6 +26,9 @@ Servidor de bate-papo persistente pode executar chat em tempo real de vários us
 Planejamento de capacidade é uma parte importante do Preparando para implantar o servidor de Chat persistente. Este tópico fornece tabelas de planejamento de capacidade que você pode usar para determinar a melhor configuração para a sua implantação. Também descreve como gerenciar melhor implantações de servidor de Chat persistente que requerem oferece maior capacidade em horários de pico.
   
 Antes de ler esta seção, é importante você se familiarizar com as topologias do Chat Persistente. Para obter mais informações, consulte [topologia de planejar Persistent Chat Server](topology.md).
+
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>Planejamento de capacidade de servidor de Chat persistente
 
@@ -60,7 +64,7 @@ A tabela de exemplo a seguir pode ajudá-lo a planejar o gerenciamento de acesso
   
 **Gerenciando o exemplo de acesso da sala de chat**
 
-||**Salas de Chat pequenas**|**Salas de Chat médias**|**Salas de Chat grandes**|**Total**|
+||**Salas de chat pequenas**|**Salas de chat médias**|**Salas de chat grandes**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Tamanho das salas de chat (número de usuários conectados)  <br/> |30 por sala  <br/> |150 por sala  <br/> |16.000 por sala  <br/> ||
 |Salas de chat  <br/> |32.000  <br/> |1,067  <br/> |10  <br/> |33,077  <br/> |
@@ -115,9 +119,9 @@ Os dados de exemplo na tabela a seguir pressupõem que, na página de  **configu
 > [!IMPORTANT]
 > Se o valor calculado para o número de convites gerado pelo servidor exceder 1 milhão, o desempenho do servidor pode degradar significativamente. Para evitar esse problema, certifique-se de que você minimizar o número de salas de chat que estão configurados para enviar convites ou restringir o número de usuários que podem ingressar em salas de chat que tiverem sido configuradas para enviar convites. 
   
-**Acesso de sala de chat por amostra de convite**
+**Acesso à sala de chat por amostra de convite**
 
-||**Salas de Chat pequenas**|**Salas de Chat médias**|**Salas de Chat grandes**|**Total**|
+||**Salas de chat pequenas**|**Salas de chat médias**|**Salas de chat grandes**|**Total**|
 |:-----|:-----|:-----|:-----|:-----|
 |Usuários que podem acessar a sala de chat  <br/> |30 por sala  <br/> |150 por sala  <br/> |16.000 por sala  <br/> ||
 |Porcentagem de salas com convites  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||

@@ -1,32 +1,32 @@
 ---
-title: Gerenciar a conferência discada no Skype for Business Server 2015
+title: Gerenciar a conferência discada no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
-description: 'Resumo: Saiba como gerenciar a conferência discada no Skype para Business Server 2015.'
-ms.openlocfilehash: 44427a9109fd061233d1c8676166788e162c7e08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como gerenciar a conferência discada no Skype para Business Server.'
+ms.openlocfilehash: dac805421539116f89e007c68689ffd89400d059
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969635"
 ---
-# <a name="manage-dial-in-conferencing-in-skype-for-business-server-2015"></a>Gerenciar a conferência discada no Skype for Business Server 2015
+# <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Gerenciar a conferência discada no Skype para Business Server
  
-**Resumo:** Saiba como gerenciar a conferência discada no Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar a conferência discada no Skype para Business Server.
   
-Este tópico descreve como gerenciar conferência discada. Para obter mais informações sobre como planejar e configurar a conferência discada em deployment, consulte [Plan para conferência discada no Skype para Business Server 2015](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and [Configure a conferência discada no Skype para Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+Este tópico descreve como gerenciar conferência discada. Para obter mais informações sobre como planejar e configurar a conferência discada em deployment, consulte [Plan para conferência discada no Skype para Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and [Configure a conferência discada no Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 Você pode executar as seguintes tarefas para gerenciar a conferência discada: habilitar ou desabilitar conferência discada, gerenciar números de acesso, gerenciar diretivas de PIN para conferência discada, gerenciar o ingresso na conferência e deixar anúncios, modificar mapeamentos de teclas para DTMF comandos e usuários bem-vindas à conferência discada. 
   
-Para obter mais informações sobre como gerenciar planos de discagem, consulte [criar ou modificar um plano de discagem no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md).
+Para obter mais informações sobre como gerenciar planos de discagem, consulte [criar ou modificar um plano de discagem no Skype para Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
-Para obter mais informações sobre o uso do PSTN, consulte [Configure políticas de voz, registros de uso do PSTN e rotas de voz no Skype para negócios 2015](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
+Para obter mais informações sobre o uso do PSTN, consulte [Configure políticas de voz, registros de uso do PSTN e rotas de voz no Skype para negócios](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Gerenciar a conferência discada usando o Skype para painel de controle do servidor de negócios
 
@@ -77,7 +77,7 @@ Para gerenciar a conferência discada usando Skype do Shell de gerenciamento do 
 |[Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |Modifica as definições de sinalização DTMF (multifrequência de tom dual) utilizadas em conferências discadas.  <br/> |
 |[Set-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/set-csdialplan?view=skype-ps) <br/> |Modifica um plano de discagem existente.  <br/> |
    
-**Configurações de diretiva PIN**
+**Configurações de política de PIN**
 
 |**Cmdlet**|**Descrição**|
 |:-----|:-----|

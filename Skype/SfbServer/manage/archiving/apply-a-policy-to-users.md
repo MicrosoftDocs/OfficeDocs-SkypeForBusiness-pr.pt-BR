@@ -1,30 +1,29 @@
 ---
-title: Aplicar uma política de arquivamento aos usuários no Skype for Business Server 2015
+title: Aplicar uma política de arquivamento a usuários Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: 'Resumo: Saiba como atribuir uma política de arquivamento para usuários no Skype para Business Server 2015.'
-ms.openlocfilehash: 0a9b19f6b02daae09f71b1f9933c90bfc86c5e23
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como atribuir uma política de arquivamento para usuários no Skype para Business Server.'
+ms.openlocfilehash: bc54c25a710e4e1cca44fb7311a47101f31ef7df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569383"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985613"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server-2015"></a>Aplicar uma política de arquivamento aos usuários no Skype for Business Server 2015
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar uma política de arquivamento a usuários Skype para Business Server
 
-**Resumo:** Saiba como atribuir uma política de arquivamento para usuários no Skype para Business Server 2015.
+**Resumo:** Saiba como atribuir uma política de arquivamento para usuários no Skype para Business Server.
   
-Se você criou um ou mais políticas de usuário para arquivamento para usuários hospedagem no Skype para Business Server 2015, você pode implementar o suporte ao arquivamento para usuários específicos, aplicando as políticas adequadas a esses usuários ou grupos de usuários. Por exemplo, se você criar uma política para suportar o arquivamento das comunicações internas, você pode aplicá-lo a pelo menos um usuário ou grupo de usuário para suportar o arquivamento do Skype do usuário para comunicações comerciais Server 2015.
+Se você criou um ou mais políticas de usuário para arquivamento para usuários hospedagem no Skype para Business Server, você pode implementar o suporte ao arquivamento para usuários específicos, aplicando as políticas adequadas a esses usuários ou grupos de usuários. Por exemplo, se você criar uma política para suportar o arquivamento das comunicações internas, você pode aplicá-lo a pelo menos um usuário ou grupo de usuário para suportar o arquivamento do Skype do usuário para comunicação entre servidores de negócios.
   
 > [!NOTE]
-> Se você ativou a integração do Microsoft Exchange para sua implantação, o controle de políticas de retenção de In-loco do Exchange se o arquivamento estiver habilitado para os usuários hospedados no Exchange e tem colocado de suas caixas de correio em bloqueio In-loco. Para obter detalhes, consulte [Planejar o arquivamento no Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md) e [Configure integração com Exchange storage para Skype para Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Se você ativou a integração do Microsoft Exchange para sua implantação, o controle de políticas de retenção de In-loco do Exchange se o arquivamento estiver habilitado para os usuários hospedados no Exchange e tem colocado de suas caixas de correio em bloqueio In-loco. Para obter detalhes, consulte [Planejar o arquivamento no Skype para Business Server](../../plan-your-deployment/archiving/archiving.md) e [Configure integração com Exchange storage para Skype para Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Aplicar uma política de usuário usando o Painel de Controle
 

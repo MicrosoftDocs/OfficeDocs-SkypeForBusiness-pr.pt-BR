@@ -3,7 +3,7 @@ title: Selecionar grupos
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Filas de espera do grupo de resposta chamadas aos grupos de resposta em espera até que um operador responde à chamada. Filas atribuiu a grupos de operadores. Quando você cria ou editar uma fila, use a caixa de diálogo Selecionar grupos para selecionar um ou mais grupos de operadores a ser atribuído à fila.
-ms.openlocfilehash: 19c0f228922a3c0c83d7f932a8379b5e638da101
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 13fe8c25892cce2655e5a348734644c323437f86
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974331"
 ---
 # <a name="select-groups"></a>Selecionar grupos
  

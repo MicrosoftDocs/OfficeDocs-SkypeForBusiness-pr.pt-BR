@@ -1,38 +1,38 @@
 ---
-title: Personalizar instalação do cliente no Skype for Business Server 2015
+title: Personalizar a instalação de cliente do Windows no Skype para Business Server
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
-ms.date: 10/20/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
-description: 'Summary: Overview of installation methods and tools for Skype for Business.'
-ms.openlocfilehash: 8f74f3930e296d8f49eca4bf2a097c88883d7981
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Visão geral dos métodos de instalação e ferramentas para Skype para negócios.'
+ms.openlocfilehash: e5d575e7a1efc54ade19d76575f3d5ec2937de62
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009169"
 ---
-# <a name="customize-windows-client-installation-in-skype-for-business-server-2015"></a>Personalizar instalação do cliente no Skype for Business Server 2015
+# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar a instalação de cliente do Windows no Skype para Business Server
  
-**Summary:** Overview of installation methods and tools for Skype for Business.
+**Resumo:** Visão geral dos métodos de instalação e ferramentas para Skype para negócios.
   
 > [!NOTE]
-> For installation information about Skype for Business that comes with Office 365, see [Deploy the Skype for Business client in Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
+> Para obter informações de instalação sobre Skype for Business que vem com o Office 365, consulte [Deploy a Skype para o cliente de negócios no Office 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96). 
   
-Os administradores corporativos podem personalizar a instalação pelo Windows Installer (.msi) do  usando os métodos abordados nesta seção. Como nenhuma ferramenta individual oferece todas as opções de personalização, você provavelmente usará uma combinação desses métodos em sua implantação do . Você poderá usar pelo menos as ferramentas descritas nas seguintes seções:
+Os administradores de empresa podem personalizar a instalação de baseadas no Windows Installer (. msi) das versões de licença de volume do Skype para negócios usando os métodos discutidos nesta seção. Como nenhum única ferramenta fornece todas as opções de personalização, você provavelmente utilizará uma combinação desses métodos no seu Skype para implantação de negócios. Você poderá usar pelo menos as ferramentas descritas nas seguintes seções:
   
-- [Use the Office Customization Tool (OCT) in Skype for Business Server 2015](use-the-office-customization-tool-oct.md) to customize setup options and features for Skype for Business and other Office programs.
+- [Use a ferramenta de personalização do Office (OCT) no Skype para Business Server](use-the-office-customization-tool-oct.md) para personalizar opções de instalação e recursos para Skype para outros programas do Office e de negócios.
     
-- [Use Config.xml to perform installation tasks in Skype for Business Server 2015](use-config-xml-to-perform-installation-tasks.md) to specify the path of the network installation point and perform silent installation.
+- [Usar config. XML para executar tarefas de instalação no Skype para Business Server](use-config-xml-to-perform-installation-tasks.md) para especificar o caminho do ponto de instalação de rede e executar a instalação silenciosa.
     
-- [Use Setup command-line options in Skype for Business Server 2015](use-setup-command-line-options.md) to specify the Config.xml file to use during installation.
+- [Use Setup Command-line options em Skype para Business Server](use-setup-command-line-options.md) para especificar o arquivo config. XML a ser usada durante a instalação.
     
-- [Configure client bootstrapping policies in Skype for Business Server 2015](configure-client-bootstrapping-policies.md) by using the Group Policy Object Editor MMC snap-in.
+- [Configurar políticas de inicialização do cliente no Skype para Business Server](configure-client-bootstrapping-policies.md) usando o snap-in do MMC do Editor de objeto de diretiva de grupo.
     
-Provavelmente, haverá outras opções que você desejará configurar ao implantar o pacote de produtos do Office. Os tópicos desta seção oferecem uma visão geral dessas ferramentas de personalização e abordam considerações específicas do . Estão inclusos links para a ajuda detalhada do Office referente a cada ferramenta. 
+Provavelmente será outras opções que você vai querer configurar ao implantar o conjunto de produtos do Office. Os tópicos desta seção apresentaremos uma visão geral dessas ferramentas de personalização e discutem as considerações específicas para Skype para negócios. Estão inclusos links para a ajuda detalhada do Office referente a cada ferramenta. 
   
 

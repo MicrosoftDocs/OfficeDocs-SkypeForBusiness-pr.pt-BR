@@ -1,28 +1,28 @@
 ---
-title: Planejar para conferência discada no Skype for Business Server 2015
+title: Planejar a conferência discada no Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: 'Resumo: Leia este tópico para saber mais sobre o planejamento de conferência discada em Skype para Business Server 2015.'
-ms.openlocfilehash: d1e1109ff264655dc73afd26049be5844160bc0b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Leia este tópico para saber mais sobre o planejamento de conferência discada em Skype para Business Server.'
+ms.openlocfilehash: 1b051cc757c0e55fb2f16b790921da962738ade3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973574"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Planejar para conferência discada no Skype for Business Server 2015
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planejar a conferência discada no Skype for Business Server
  
-**Resumo:** Leia este tópico para saber mais sobre o planejamento de conferência discada em Skype para Business Server 2015.
+**Resumo:** Leia este tópico para saber mais sobre o planejamento de conferência discada em Skype para Business Server.
   
 Conferência discada é um recurso opcional do Skype para Business Server que permite que os participantes da reunião ingressar na parte de áudio de uma reunião chamando reunião de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Este tópico descreve o que você precisa considerar antes de implantar a conferência discada em sua organização. 
   
-Alguns dos componentes necessários para conferência discada são específicas para conferência discada e alguns componentes do Enterprise Voice. Embora a conferência discada use alguns dos mesmos componentes do Enterprise Voice, você pode implantar a conferência discada mesmo se não implantar o Enterprise Voice. Esta seção descreve os componentes necessários para a conferência discada. Para obter mais informações sobre como planejar uma solução completa do Enterprise Voice, consulte [planejar sua solução do Enterprise Voice no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Alguns dos componentes necessários para conferência discada são específicas para conferência discada e alguns componentes do Enterprise Voice. Embora a conferência discada use alguns dos mesmos componentes do Enterprise Voice, você pode implantar a conferência discada mesmo se não implantar o Enterprise Voice. Esta seção descreve os componentes necessários para a conferência discada. Para obter mais informações sobre como planejar uma solução completa do Enterprise Voice, consulte [planejar sua solução do Enterprise Voice no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 A conferência discada exige que você forneça conectividade à Rede Telefônica Pública Comutada (PSTN) com a implantação de um Servidor de Mediação. Além de implantar um Servidor de Mediação, será necessário considerar o seguinte para permitir a conferência discada em sua organização:
   
@@ -41,13 +41,13 @@ A conferência discada exige que você forneça conectividade à Rede Telefônic
   
 ## <a name="plan-for-pstn-connectivity"></a>Planejamento de conectividade PSTN
 
-Conferência discada requer pelo menos um servidor de mediação e pelo menos um gateway PSTN (rede) telefônica pública comutada. 
+A conferência discada exige pelo menos um Servidor de Mediação e pelo menos um gateway de Rede Telefônica Pública Comutada (PSTN). 
   
 Você pode implantar um Servidor de Mediação em um site central ou em um site de filial. No site central, você pode colocar um Servidor de Mediação em um Pool de Front-Ends ou servidor Standard Edition, ou pode implantá-lo em um servidor ou pool autônomo. Em um site de filial, você pode implantar um Servidor de Mediação em um servidor autônomo ou como um componente do Aparelho de Filial Persistente.
   
 Você pode implantar um gateway PSTN em um site central ou em um site de filial. Em um site de filial, o gateway PSTN pode ser autônomo ou um componente do Aparelho de Filial Persistente.
   
-Para obter detalhes sobre o servidor de mediação e requisitos de gateway PSTN, consulte [componente de servidor de mediação em Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implantar um servidor de mediação no construtor de topologia no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)e [definir um gateway na Construtor de topologia no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Para obter detalhes sobre o servidor de mediação e requisitos de gateway PSTN, consulte o [componente de servidor de mediação em Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implantar um servidor de mediação no construtor de topologia no Skype para Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)e [definir um gateway na topologia Construtor de Skype para Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planejamento para planos de discagem, números de acesso e regiões de conferência
 
@@ -83,7 +83,7 @@ Antes de configurar os planos de discagem, é importante planejar como você des
     
 - Qualquer usuário de qualquer localização pode ligar para qualquer número de acesso de discagem para entrar em uma conferência.
     
-Para obter mais informações sobre como criar um plano de discagem, consulte [criar ou modificar um plano de discagem no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar ou modificar uma regra de normalização no Skype para negócios 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Para obter mais informações sobre como criar um plano de discagem, consulte [criar ou modificar um plano de discagem no Skype para Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar ou modificar uma regra de normalização no Skype para negócios](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planejamento para diretórios de conferência
 
@@ -105,7 +105,7 @@ Conferências devem ser habilitadas para acesso de discagem ao configurar polít
     
 - Um link para uma página Configurações de Conferência Discada, que contém uma lista completa dos números de acesso com os seus idiomas associados; um lugar para criar, redefinir ou desbloquear os números de identificação pessoal (PINs); e outras informações, como controles de multifrequência de tom dual (DTMF)
     
-Para obter mais informações sobre diretivas de conferência, consulte [Configure a conferência discada no Skype para Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md) e [Gerenciar políticas de conferência no Skype para Business Server 2015](../../manage/conferencing/conferencing-policies.md).  
+Para obter mais informações sobre diretivas de conferência, consulte [Configure a conferência discada no Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) e [Gerenciar políticas de conferência no Skype para Business Server](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Suporte para usuários corporativos e anônimos
 

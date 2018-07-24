@@ -3,7 +3,7 @@ title: Adicionar URL simples
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Para adicionar URLs simples adicionais para a definição da implantação, especifique a URL da nova URL simple.
-ms.openlocfilehash: cbe129419d52e0030311c62c1cd6afeec97eef36
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 20db564e90051ffa274aa46587603273a8ca7581
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21007271"
 ---
 # <a name="add-simple-url"></a>Adicionar URL simples
  

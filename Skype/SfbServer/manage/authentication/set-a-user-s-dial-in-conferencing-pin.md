@@ -1,28 +1,27 @@
 ---
-title: Configurar PIN de conferência discada de um usuário no Skype for Business Server 2015
+title: Definir discada um usuário PIN no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: 'Resumo: Defina discada um usuário PIN para Skype para Business Server 2015.'
-ms.openlocfilehash: 557aaa3fc191e6423ae323e53d2dacdf5f0019b1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Defina discada um usuário PIN para Skype para servidor de negócios.'
+ms.openlocfilehash: e5d14af74c208aaf29fffe94937afc1253a032da
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568818"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009379"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server-2015"></a>Configurar PIN de conferência discada de um usuário no Skype for Business Server 2015
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Definir discada um usuário PIN no Skype para Business Server
  
-**Resumo:** Defina discada um usuário PIN para Skype para Business Server 2015.
+**Resumo:** Defina discada um usuário PIN para Skype para servidor de negócios.
   
-Para ingressar na conferência discada como usuário autenticado, um Skype para usuário Business Server 2015 com credenciais do Active Directory Domain Services (AD DS) requer um número de identificação pessoal (PIN). Se um usuário esquece a conferência discada PIN ou não definiu o PIN usando Skype para Business Server 2015, você pode definir o PIN do usuário do Skype para painel de controle do servidor de negócios. Você pode gerar automaticamente o PIN ou criá-lo manualmente.
+Para ingressar na conferência discada como usuário autenticado, um Skype para usuário Business Server com credenciais do Active Directory Domain Services (AD DS) requer um número de identificação pessoal (PIN). Se um usuário esquece a conferência discada PIN ou não definiu o PIN usando Skype para Business Server, você pode definir o PIN do usuário do Skype para painel de controle do servidor de negócios. Você pode gerar automaticamente o PIN ou criá-lo manualmente.
   
 > [!NOTE]
 > Características específicas do PIN, como seu tamanho mínimo, podem ser configuradas como uma política. Além da política global, é possível configurar uma política de PIN para sites ou usuários individuais. 
@@ -63,7 +62,7 @@ Para ingressar na conferência discada como usuário autenticado, um Skype para 
     
 7. Na caixa de diálogo **Definir PIN**, siga um destes procedimentos:
     
-   - Para permitir que Skype para o servidor de negócios 2015 gere o PIN do usuário, selecione **Gerar automaticamente um PIN válido** (padrão).
+   - Para permitir que Skype para Business Server gere o PIN do usuário, selecione **Gerar automaticamente um PIN válido** (padrão).
     
    - Para criar seu próprio PIN, clique em **Inserir manualmente um PIN específico**, clique na caixa de texto e digite um PIN na caixa de texto que atenda aos requisitos de PIN especificados nas configurações de política de PIN.
     

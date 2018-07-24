@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
-description: A página especificar modelo de certificado alternativo permite que você defina um modelo de certificado diferente do modelo de certificado de WebServer é usado por padrão. Selecione a caixa de seleção Usar modelo de certificado alternativo para a autoridade de certificação selecionada e, em seguida, defina o nome do modelo de certificado alternativo no nome de modelo de certificado de caixa de texto. É necessário usar o nome do modelo definido na autoridade de certificação (AC). Clique em Voltar para voltar à página anterior. Clique em Cancelar para encerrar o processo de solicitação de certificado.
-ms.openlocfilehash: 730992312f13557145ebe88aef757bd0fdf433d8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: A página Especificar Modelo de Certificado Alternativo permite que você defina um modelo de certificado diferente do modelo de certificado WebServer usado por padrão. Marque a caixa de seleção Usar um modelo de certificado alternativo para autoridade de certificação selecionada e defina o nome do modelo de certificado alternativo na caixa de texto Nome do modelo de certificado. É necessário usar o nome do modelo definido na autoridade de certificação (AC). Clique em Voltar para voltar à página anterior. Clique em Cancelar para encerrar o processo de solicitação de certificado.
+ms.openlocfilehash: 77d26d0587139b4ea3e1f0a6745e8771a1188c8f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979929"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006919"
 ---
 # <a name="certificate-request-specify-termplate"></a>Solicitação de Certificado (Especificar Modelo)
  

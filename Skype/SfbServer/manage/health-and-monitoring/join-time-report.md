@@ -1,24 +1,24 @@
 ---
-title: Relatório de hora de ingresso na conferência no Skype for Business Server 2015
+title: Relatório de tempo de ingresso conferência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Resumo: Saiba mais sobre o conferência Join tempo relatório de resumo no Skype para Business Server 2015.'
-ms.openlocfilehash: ce5bd7b3f1182c9c00171b87a2b0b63556992327
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o conferência Join tempo relatório de resumo no Skype para Business Server.'
+ms.openlocfilehash: 111222b915aafee346f27e4a509c0484e2ec3e00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981119"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server-2015"></a>Relatório de hora de ingresso na conferência no Skype for Business Server 2015
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Relatório de tempo de ingresso conferência no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o conferência Join tempo relatório de resumo no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o conferência Join tempo relatório de resumo no Skype para Business Server.
   
 O Resumo do Tempo de Ingresso em Conferência permite que você determine quanto tempo demora para que seus usuários ingressarem em uma conferência. O relatório mostra o tempo médio de ingresso (em milissegundos) e também oferece um detalhamento que permite que você saiba quantos usuários foram capazes de se juntar a uma conferência em 2 segundos ou menos, quantos usuários necessitaram de 2 a 5 segundos para ingressar em uma conferência, etc.
   
@@ -30,7 +30,7 @@ O Relatório do Tempo de Ingresso em Conferência é acessado pela página inici
 
 Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. A tabela a seguir lista os filtros que você pode usar com os Relatórios do Tempo de Ingresso em Conferência.
   
-**Filtros de relatório de tempo de ingresso em conferência**
+**Filtros de Relatório do Tempo de Ingresso em Conferência**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -44,7 +44,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado 
 
 A tabela a seguir lista as informações fornecidas no Relatório de Tempo de Ingresso em Conferência.
   
-**Métricas do relatório de tempo de ingresso de conferência**
+**Métricas do Relatório de Tempo de Ingresso em Conferência**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

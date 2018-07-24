@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-description: 'Quando você faz uma solicitação de certificado para uma CA (autoridade de certificação online) (normalmente, esses são os servidores que estão em sua rede interna) na página Escolher uma autoridade de certificação (CA), são apresentadas duas opções:'
-ms.openlocfilehash: 0092e29f7cb477686cb873aa7318519d12381f72
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Ao fazer uma solicitação de certificado para uma autoridade de certificação online (AC) (normalmente, servidores que estão em sua rede interna) na página Escolher uma Autoridade de Certificação (AC), as duas opções a seguir são apresentadas:'
+ms.openlocfilehash: 860faad4bcbb78010cabf835817ad852aca1e66b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973112"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975397"
 ---
 # <a name="certificate-request-certificate-authority"></a>Solicitação de Certificado (Autoridade de Certificação)
  

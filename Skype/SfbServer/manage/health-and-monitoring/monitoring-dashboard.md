@@ -1,26 +1,26 @@
 ---
-title: Usando o Painel de Monitoramento no Skype for Business Server 2015
+title: Usando o painel de monitoramento no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype para Business Server 2015.'
-ms.openlocfilehash: d2297d0dddfd9d49d36c181e578bd02915994a49
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype para Business Server.'
+ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20969386"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server-2015"></a>Usando o Painel de Monitoramento no Skype for Business Server 2015
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usando o painel de monitoramento no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o painel de monitoramento no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o painel de monitoramento no Skype para Business Server.
   
-O painel de monitoramento fornece aos administradores uma visão geral rápida dos seu Skype para uso de sistema e de integridade do sistema de negócios Server 2015. O Painel foi projetado para fornecer uma exibição agregada das principais métricas do sistema e para fazer isso exibindo:
+O painel de monitoramento fornece aos administradores uma visão geral rápida dos seu Skype para uso de sistema e de integridade do sistema Business Server. O Painel foi projetado para fornecer uma exibição agregada das principais métricas do sistema e para fazer isso exibindo:
   
 - Os totais para o dia atual. Observe que os valores mostrados para o dia atual representam dados que foram gravados da meia-noite até a hora atual (com base na hora local do servidor de relatório). Isso significa que você geralmente estará vendo dados referentes a um dia parcial, não a um período de 24 horas. Por exemplo, se a hora local do servidor é 8:00 AM, você verá vale oito horas de dados porque há oito horas entre meia-noite e a hora atual de 8:00 AM.
     
@@ -28,7 +28,7 @@ O painel de monitoramento fornece aos administradores uma visão geral rápida d
     
 - Totais para o mês e os totais de tendência dos últimos seis meses (apenas para uso do sistema).
     
-Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para retornar a URL usada para acessar o Skype para relatórios de monitoramento do 2015 Business Server:
+Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para retornar a URL usada para acessar o Skype para relatórios de monitoramento de servidor de negócios:
   
 ```
 Get-CsReportingConfiguration
@@ -176,7 +176,7 @@ O Painel de Monitoramento oferece várias formas de exportar a exibição do pai
     
 - Word
     
-Para exportar a exibição do painel atual (e seus valores), clique na opção de exportação desejada. Skype para Business Server 2015 gera um relatório no formato especificado e, em seguida, fornecer a opção de abrir esse relatório ou salvá-lo. Observe que, por padrão, Skype para Business Server títulos do **Painel de monitoramento** de relatório e salva-o em sua pasta de Downloads. Para dar um nome diferente ou armazená-lo em uma pasta diferente, clique na seta ao lado do botão **Salvar** e clique em **Salvar Como**. Se você concorda com o nome **Painel de Monitoramento** e em salvar na pasta Downloads, basta clicar no botão **Salvar**.
+Para exportar a exibição do painel atual (e seus valores), clique na opção de exportação desejada. Skype para Business Server gera um relatório no formato especificado e, em seguida, fornecer a opção de abrir esse relatório ou salvá-lo. Observe que, por padrão, Skype para Business Server títulos do **Painel de monitoramento** de relatório e salva-o em sua pasta de Downloads. Para dar um nome diferente ou armazená-lo em uma pasta diferente, clique na seta ao lado do botão **Salvar** e clique em **Salvar Como**. Se você concorda com o nome **Painel de Monitoramento** e em salvar na pasta Downloads, basta clicar no botão **Salvar**.
   
 É possível que, ao tentar exportar os dados do painel, uma caixa de diálogo **Alerta de Segurança** seja exibida junto com a mensagem "Suas configurações atuais não permitem que este arquivo seja baixado". Se isso ocorrer, faça o seguinte:
   
@@ -184,7 +184,7 @@ Para exportar a exibição do painel atual (e seus valores), clique na opção d
     
 - Na caixa de diálogo **Opções de Internet**, na guia **Segurança**, clique em **Sites confiáveis** e em **Sites**.
     
-- Na caixa de diálogo **sites confiáveis** , clique em **Adicionar** para adicionar o Skype de negócios 2015 de servidor que está executando o Skype para relatórios do servidor de negócios para os conjuntos de sites confiáveis.
+- Na caixa de diálogo **sites confiáveis** , clique em **Adicionar** para adicionar o Skype para Business Server que está executando o Skype para relatórios do servidor de negócios para os conjuntos de sites confiáveis.
     
 - Clique em **Fechar** e em **OK**.
     

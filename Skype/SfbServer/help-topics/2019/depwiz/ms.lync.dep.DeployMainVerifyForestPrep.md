@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para confirmar que tenham a replicação do Catálogo Global e a criação de objetos durante a preparação da floresta foi bem-sucedida, faça o seguinte:'
-ms.openlocfilehash: f45fb8f6c24d0cd9e8bcc108afbd9ec8cc9aa607
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 26ea7b544e3b38c47fd33bdcd0dbaa22f49e59be
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964523"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967937"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Verificar a replicação da preparação da floresta
  

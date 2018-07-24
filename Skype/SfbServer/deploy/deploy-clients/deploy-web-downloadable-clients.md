@@ -1,44 +1,43 @@
 ---
-title: Implantar clientes para download da Web no Skype for Business Server 2015
+title: Implantar clientes para download da Web no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumo: Implante o Skype para negócios Web App e Skype App de reuniões usado com Skype para negócios.'
-ms.openlocfilehash: 9dcb528a43ca80135cda30505739cde11e499d8c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 216d1a3bc82c3845a8302847c3488dd9f495fa74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569537"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995838"
 ---
-# <a name="deploy-web-downloadable-clients-in-skype-for-business-server-2015"></a>Implantar clientes para download da Web no Skype for Business Server 2015
+# <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implantar clientes para download da Web no Skype para Business Server
  
-**Resumo:** Implante o Skype para negócios Web App e Skype reuniões App usado com Skype para negócios.
+**Resumo:** Implante o Skype para negócios 2015 Web App e Skype reuniões App usado com Skype para Business Server 2015.
   
-Skype para negócios Web App é um cliente de web do Internet Information Services (IIS) que está instalado no servidor que executa o Skype para Business Server 2015 e o padrão que é implantado por demanda aos usuários de reunião que ainda não tiver o Skype para o cliente de negócios. Esses usuários de reunião são mais frequência que não se conectando de fora da rede. Sempre que um usuário clica em uma URL de reunião, mas não tem o Skype para o cliente de negócios instalado, o usuário é apresentado com a opção para ingressar na reunião usando a versão mais recente do Skype para negócios Web App.
+Skype para negócios Web App é um cliente de web do Internet Information Services (IIS) que está instalado no servidor que executa o Skype para Business Server 2015 e por padrão, ele é implantado por demanda aos usuários de reunião que ainda não tiver o Skype para o cliente de negócios. Esses usuários de reunião são mais frequência que não se conectando de fora da rede. Sempre que um usuário clica em uma URL de reunião, mas não tem o Skype para o cliente de negócios instalado, o usuário é apresentado com a opção para ingressar na reunião usando a versão mais recente do Skype para negócios Web App ou aplicativo de reuniões do Skype.
   
 Recursos de voz, vídeo e compartilhamento em Skype para negócios Web App requerem um controle Microsoft ActiveX que é usado como um plug-in pelo navegador do usuário. Você pode instalar o controle ActiveX antecipadamente ou permitir que os usuários instalem-quando solicitado, o que acontece na primeira vez que eles usam Skype para negócios Web App ou na primeira vez que eles acessem um recurso que requer que o controle ActiveX.
   
 > [!NOTE]
-> Skype para implantações de servidor de borda de 2015 Business Server, um proxy reverso de HTTPS na rede de perímetro será necessário para Skype para acesso de cliente de negócios Web App. Você também deve publicar URLs simples. Para obter detalhes, consulte [Configuração Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) "e" [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx). 
+> Skype para implantações de servidor de borda de 2015 Business Server, um proxy reverso de HTTPS na rede de perímetro será necessário para Skype para acesso de cliente de negócios Web App. Você também deve publicar URLs simples. Para obter detalhes, consulte [Configuração Up Reverse Proxy Servers](http://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) e [requisitos de DNS para URLs simples no Skype para Business Server](../../plan-your-deployment/network-requirements/simple-urls.md). 
   
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar a autenticação multifator para Skype para negócios Web App
 <a name="MFA"> </a>
 
-O Skype para a versão do Business Server 2015 do Skype para negócios Web App oferece suporte a autenticação multifator. Além do nome de usuário e senha, você pode exigir que os métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar os usuários que estão ingressando a partir de redes externas quando entrarem no Skype para reuniões de negócios. Você pode habilitar a autenticação multifator Implantando o servidor de Federação do serviço de Federação do Active Directory (AD FS) e habilitando autenticação passiva no Skype para Business Server 2015. Depois que o AD FS estiver configurado, os usuários externos que tentarem ingressar Skype para reuniões de negócios são apresentados com uma AD FS a autenticação multifator página da Web que contém o nome de usuário e senha desafiar junto com quaisquer métodos de autenticação adicional que você configurou.
+O Skype para negócios Web App e Skype reuniões App oferecem suporte a autenticação multifator. Além do nome de usuário e senha, você pode exigir que os métodos de autenticação adicionais, como cartões inteligentes ou PINs, para autenticar os usuários que estão ingressando a partir de redes externas quando entrarem no Skype para reuniões de negócios. Você pode habilitar a autenticação multifator Implantando o servidor de Federação do serviço de Federação do Active Directory (AD FS) e habilitando autenticação passiva no Skype para Business Server. Depois que o AD FS estiver configurado, os usuários externos que tentarem ingressar Skype para reuniões de negócios são apresentados com uma AD FS a autenticação multifator página da Web que contém o nome de usuário e senha desafiar junto com quaisquer métodos de autenticação adicional que você configurou.
   
 > [!IMPORTANT]
 > As considerações a seguir são importantes se você deseja planejar a configuração do AD FS para a autenticação multifator: 
   
 - A autenticação multifator do ADFS funciona se o participante e o organizador da reunião estiverem na mesma organização ou forem de uma organização federada do AD FS. A autenticação do ADFS de vários fatores não funciona para usuários federados do Lync porque a infraestrutura da Web do servidor do Lync não dà suporte à ela atualmente.
     
-- Se você usar os balanceadores de carga de hardware, habilite a persistência de cookie nos balanceadores de carga para que todas as requisições do Skype para cliente corporativos Web App são manipuladas pelo mesmo servidor Front-End.
+- Se você usar os balanceadores de carga de hardware, habilite a persistência de cookie nos balanceadores de carga para que todas as requisições do Skype para clientes corporativos Web App ou aplicativo de reuniões são manipuladas pelo mesmo servidor Front-End.
     
 - Quando se estabelece uma terceira parte confiável entre Skype para servidores Business Server e o AD FS, atribua uma token vida que é grande o suficiente para abranger o comprimento máximo do seu Skype para reuniões de negócios. Normalmente, uma vida de token de 240 minutos é suficiente.
     
@@ -75,7 +74,7 @@ O Skype para a versão do Business Server 2015 do Skype para negócios Web App o
 
 O recurso BranchCache no Windows 7 e Windows Server 2008 R2 pode interferir Skype de componentes da web de negócios Web App. Para evitar problemas de Skype para usuários corporativos Web App, certifique-se de que o BranchCache não está habilitado. 
   
-Para obter detalhes sobre como desabilitar o BranchCache, consulte o guia de implantação do BranchCache, que está disponível no formato do Word no Microsoft Download Center em [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?LinkId=268788) e no formato HTML na Library do Windows Server 2008 R2 técnica em [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?LinkId=268789).
+Para obter detalhes sobre como desabilitar o BranchCache, consulte o [Guia de implantação do BranchCache](https://docs.microsoft.com/en-us/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
   
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Verificando Skype para implantação de aplicativo Web de negócios
 <a name="MFA"> </a>
@@ -114,10 +113,10 @@ Se a instalação do plug-in falhar em um computador executando o Windows Server
     
 5. Reingresse na reunião.
     
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional"></a>Habilitar o Aplicativo Reuniões do Skype para substituir o Skype for Business Web App (opcional)
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Habilitar o aplicativo de reuniões do Skype substituir Skype para negócios Web App (opcional, Skype para negócios 2015 de servidor somente)
 <a name="SMA_Enable"> </a>
 
-Esse procedimento é opcional. Se você não usá-lo, os usuários externos continuarão participar de reuniões usando Skype para negócios Web App. 
+Esse procedimento é opcional e se aplica a Skype para Business Server 2015 CU5 e posterior. Se você não usá-lo, os usuários externos continuarão participar de reuniões usando Skype para negócios Web App. 
   
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Habilitar ingresso em reunião simplificado e Aplicativo Reuniões do Skype
 
@@ -133,7 +132,7 @@ Esse procedimento é opcional. Se você não usá-lo, os usuários externos cont
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    As informações enviadas à Microsoft estão em conformidade com [Skype para práticas de coleta de dados corporativos](https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad?ui=en-US&amp;rs=en-US&amp;ad=US).
+    As informações enviadas à Microsoft estão em conformidade com [Skype para práticas de coleta de dados corporativos](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
     
 3. Defina o tempo limite antes de queda de volta para o Skype hospedado localmente para a experiência de negócios Web App se CDN não estiver disponível. O valor padrão é de seis segundos. Se esse valor estiver definido como 0, não haverá tempo limite.
     
@@ -145,10 +144,8 @@ Esse procedimento é opcional. Se você não usá-lo, os usuários externos cont
 <a name="SMA_Enable"> </a>
 
 [Planejar para clientes de reuniões (Web App e reuniões App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
-  
-[Planejar para clientes de reuniões (Web App e reuniões App)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
-[Configurando a página de participação da reunião](http://technet.microsoft.com/library/45880423-47f4-49af-b825-cbd8e3fc1046.aspx)
+[Configurar a reunião página de ingresso em Skype para Business Server](../../manage/conferencing/meeting-join-page.md)
   
 [Declaração de privacidade do Microsoft Online Services](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
   
