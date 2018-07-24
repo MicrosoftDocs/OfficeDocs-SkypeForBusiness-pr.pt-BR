@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
+ROBOTS: NOINDEX, NOFOLLOW
 description: Construtor de topologia fornece uma maneira para instalar bancos de dados em um repositório do SQL Server. Quando você instala os bancos de dados usando o construtor de topologia, o aplicativo lê as informações de topologia e em seguida, instala os bancos de dados necessários no computador SQL Server especificado ou cluster do SQL Server. Este é o único tipo de instalação de banco de dados disponível se for usar o Construtor de Topologias. Se você precisa instalar um banco de dados específico em um computador específico, ou se você deve instalar um banco de dados colocado, você deve usar o cmdlet Install-CsDatabase e interface de linha de comando do Windows PowerShell.
-ms.openlocfilehash: f9d351d4b6b7cb37d2daeb889caabb1f4090e74e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 087bed64e0e1d53cd610433c5695899107a9aa71
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979796"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066109"
 ---
 # <a name="create-database"></a>Criar Banco de Dados
  

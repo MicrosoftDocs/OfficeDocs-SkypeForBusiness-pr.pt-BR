@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
+ROBOTS: NOINDEX, NOFOLLOW
 description: A / V Conferencing habilita comunicações de áudio e vídeos comunicações entre seus usuários (ou seja, se eles tenham dispositivos clientes apropriados, como fones de ouvido para conferências de áudio e webcams para videoconferências). Se sua implantação oferece suporte a conferências e habilitar a webconferência e A / V Conferencing, você pode colocar A / V Conferencing Server com o servidor Front-End), ou você pode implantar um ou mais stand-alone A / V Conferencing Servers (A / pool de conferência V) . Se você escolher a opção de implantar uma stand-alone A / V Conferencing Server, você deve defini-la no construtor de topologia.
-ms.openlocfilehash: 978000c4c3ab459542734f30fe50a040127cb99b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 27484924ee08a413de831e2d33edd20c9c17d763
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973224"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069607"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Associar Front End com AV MCU
  

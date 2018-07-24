@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra a configuração do nome de domínio totalmente qualificado do pool (FQDN) e pools de Front-End associados para esse pool de Conferência A/V. É possível executar as seguintes ações:'
-ms.openlocfilehash: 650ad55d4d03f2adcbac6b6ae446da0c25ad6f34
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2cd2b92cc89c36d5ee59e830f948d40f3ee82081
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997112"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065456"
 ---
 # <a name="av-mcu-scope-node"></a>Nó de Escopo de MCU de A/V
  

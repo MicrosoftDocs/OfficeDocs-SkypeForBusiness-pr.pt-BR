@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
-description: 'O nó repositórios de arquivo lista os repositórios de arquivos em sua topologia. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: 91ad72e19c45f5695310ccff01209a86089604c2
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'O nó de Repositórios de Arquivos lista os Repositórios de Arquivos em sua topologia. Você pode executar a seguinte ação:'
+ms.openlocfilehash: 2510061abeeedbdd63d16c37edb80dfdb25ce0ed
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966316"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057269"
 ---
 # <a name="file-stores-scope-node"></a>Nó de Escopo de Repositórios de Arquivos
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
-description: Para definir ou modificar o pool do próximo salto que os servidores de borda usará para se comunicar com a infraestrutura interna, selecione um pool de diretor, pool diretor, servidor Front-End ou servidor Front-End, na lista. Apenas os diretores ou servidores Front-End que tiverem sido configuradas no construtor de topologia aparecem na lista.
-ms.openlocfilehash: 5c2009e9cd62c2bac2171379eadbeb0d4f9a6255
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Para configurar ou modificar o Pool de próximo salto que os Servidores de Borda utilizarão para se comunicar à infraestrutura interna, selecione na lista um Diretor, pool de Diretores, Servidores Front-End ou um pool de Servidores Front-End. Apenas os diretores ou servidores Front-End que tiverem sido configuradas no construtor de topologia aparecem na lista.
+ms.openlocfilehash: a5912dba3266af38f2316d4f578a2cecf68108b8
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19973189"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057220"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Borda
  

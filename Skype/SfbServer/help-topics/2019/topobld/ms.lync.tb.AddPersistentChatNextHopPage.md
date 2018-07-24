@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
+ROBOTS: NOINDEX, NOFOLLOW
 description: Use esta página para definir o próximo salto do servidor Persistent Chat Server em sua implantação. Para obter mais informações sobre como implantar o servidor de Chat persistente, consulte implantar Persistent Chat Server in Skype for Business Server 2015.
-ms.openlocfilehash: 96da8b80f76cf54b03d711b92a38b75eec277900
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d8b874c72bdd69dc36618e91d85dd89a752edf7a
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020527"
+ms.locfileid: "21060875"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Adicionar Página de Próximo Salto de Chat Persistente
 

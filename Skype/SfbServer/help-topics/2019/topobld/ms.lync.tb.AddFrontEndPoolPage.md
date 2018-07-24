@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
+ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique o nome de domínio totalmente qualificado (FQDN) do pool de Front-End que você está criando. Depois de publicar a topologia que contém o pool de Front-End, você não pode alterar o FQDN de um pool. Se você precisar renomear um pool, você deve excluir o pool e, em seguida, adicionar um novo pool com o novo FQDN.
-ms.openlocfilehash: 3ff70f03ce447a30d081ad5ce3b45e52ecb4a81b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9730c1857ccb68e5aeb05a66d89e306aa9646246
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19997105"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068230"
 ---
 # <a name="add-front-end-pool-fqdn"></a>Adicionar FQDN do Pool de Front-End
  

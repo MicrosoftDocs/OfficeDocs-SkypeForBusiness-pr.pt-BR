@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'No construtor de topologia, você pode editar as propriedades de um Monitoring Server individual, clicando no Monitoring Server na árvore de console e, em seguida, clicando em ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e clicando em Editar propriedades e alterar qualquer uma das seguintes opções:'
-ms.openlocfilehash: fb4bc9a26cddc3497a7f80f02821ae578742a199
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'No Construtor de Topologias, você pode editar as propriedades de um Monitoring Server individual. Basta clicar com o botão direito do mouse nesse Monitoring Server e, na árvore de console, clicar em Ação na barra de ferramentas ou clicar em uma tarefa no painel Ações e depois em Editar Propriedades e alterar qualquer uma destas opções:'
+ms.openlocfilehash: fbea857fc4588ae43b936e647f0d2697a5da5cd2
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19977037"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057377"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de Configurações Gerais de Servidor de Monitoramento
  

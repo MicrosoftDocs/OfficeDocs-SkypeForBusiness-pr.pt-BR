@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
+ROBOTS: NOINDEX, NOFOLLOW
 description: O Monitoring Server requer uma edição de 64 bits com suporte do software de banco de dados do SQL Server para armazenar os dados de monitoramento. Você pode selecionar um banco de dados do SQL Server definido anteriormente a serem usados para monitoramento, ou definir um novo banco de dados do SQL Server, especificando um nome de domínio totalmente qualificado (FQDN) do servidor no qual o banco de dados do SQL Server residem, além da instância do SQL Servidor que você deseja usar para o novo banco de dados do SQL Server (que pode ser a instância padrão ou uma instância nomeada que você especificar).
-ms.openlocfilehash: 362f4be3d778d0c5607f6c0ee1233d85d6b9149e
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1a8a5dc3e17daa63ed844a3fa566089ee0ee7064
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19969768"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069502"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>Adicionar servidor SQL Server Store de monitoramento
  

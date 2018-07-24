@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
+ROBOTS: NOINDEX, NOFOLLOW
 description: Todos os servidores Enterprise Edition Front End de um site central que não têm um colocado uma / serviço V Conferencing pode usar a mesma stand-alone A / pool de conferência V. Para cada pool de conferência V, você deve especificar um nome de domínio totalmente qualificado (FQDN) para o pool e se ele terá somente um único a / V Conferencing Server ou múltiplo, com balanceamento de carga A / V Conferencing Servers.
-ms.openlocfilehash: 67cb56d1a8556464906e0b05bae26c0c6a2e7340
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c58d2e405d642209f91e38d98d5c6cbef924cd2e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966848"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060085"
 ---
 # <a name="add-av-mcu-pool"></a>Adicionar A / V MCU Pool
  

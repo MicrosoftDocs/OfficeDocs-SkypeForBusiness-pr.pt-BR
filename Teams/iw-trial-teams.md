@@ -3,7 +3,7 @@ title: Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 author: ChuckEdmonson
 ms.author: chucked
 manager: lolaj
-ms.date: 07/17/2018
+ms.date: 07/24/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 description: Os usuários do Office 365 que não estejam licenciados for Microsoft Teams podem iniciar uma versão de avaliação das equipes 1 ano.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: ec12fa2687255fb3097d4bbe637389bc643d77cd
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
+ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412329"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21068919"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 =======================================================
@@ -33,7 +33,7 @@ Os planos de serviço incluídos nesta oferta são:
 - Equipes da Microsoft (Teams1, equipes IW)
 - Office Online
 - PowerApps para o Office 365 plano 1
-- SharePoint Online plano 1
+- SharePoint Online quiosque
 - Sway
 - O Yammer Enterprise
 
@@ -56,9 +56,11 @@ Usuários qualificados podem Inscreva-se para a oferta de avaliação por log em
 
 ![Captura de tela da página inicial para a versão de avaliação do operador de informações de equipes.](media/iw-trial-start-screen.png)
 
-A versão de avaliação de IW concede uma versão de avaliação de 1 ano em toda sua organização. Outros usuários elegíveis dentro da sua organização podem Inscreva-se para a avaliação de IW indo pelo mesmo processo.
- 
+A versão de avaliação concede uma versão de avaliação de um ano em toda sua organização. Avaliação fará 500.000 licenças disponíveis para atribuição. Para cada licença foi atribuída, a versão de avaliação alocará 2 GB de armazenamento do SharePoint Online. Usuários elegíveis adicionais dentro da sua organização podem Inscreva-se para a versão de avaliação por meio do mesmo processo.
+
 Todas as tentativas dentro da sua organização compartilham o mesmo datas de início e término, que é a data que o primeiro usuário conectado para a versão de avaliação. Por exemplo, se o usuário inicia a versão de avaliação primeiro em 25 de abril de 2018 e o usuário B inicia uma avaliação de 3 de junho de 2018, avaliação de ambos os usuários expirará em 25 de abril de 2019.
+
+A primeira pessoa que se inscreveu para a versão de avaliação é o "proprietário" da assinatura. Somente essa pessoa pode gerenciar a assinatura. 
 
 ## <a name="manage-the-trial"></a>Gerenciar a versão de avaliação
 

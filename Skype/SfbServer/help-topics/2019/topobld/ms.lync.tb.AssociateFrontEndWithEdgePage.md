@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
+ROBOTS: NOINDEX, NOFOLLOW
 description: Cada pool de Front-Ends pode ter apenas um Servidor de Borda ou pool de Borda associado a ele. Ao habilitar o acesso de usuário externo para um site, você pode dar suporte a usuários remotos. Também é possível habilitar o suporte a usuários federados, o que pode incluir suporte a usuários de determinados provedores de conectividade a redes públicas de mensagens instantâneas (como Windows Live) e suporte a usuários anônimos.
-ms.openlocfilehash: b4faaf7e6708af6b369846391087ac35742e1d42
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 79c4a17f1d59a071470534915f5421e964f59d1b
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987337"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063060"
 ---
 # <a name="associate-front-end-with-edge"></a>Associar Front-End com Borda
  

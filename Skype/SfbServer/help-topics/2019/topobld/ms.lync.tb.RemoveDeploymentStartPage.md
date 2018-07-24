@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
+ROBOTS: NOINDEX, NOFOLLOW
 description: Execute o Assistente de implantação remover apenas se você quiser descomissionar sua implantação inteira. Este assistente cria uma topologia vazia que consiste em um único servidor Front-End. Depois de executar este assistente e publique a topologia vazia, você não poderá revertê-lo à sua topologia original.
-ms.openlocfilehash: 3e83ba506cf3376a90a7ec245816627328853816
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 2e94504c9ab33392219ad98ecad39ad37794800e
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19966715"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066007"
 ---
 # <a name="remove-deployment-introduction"></a>Remover a introdução de implantação
  

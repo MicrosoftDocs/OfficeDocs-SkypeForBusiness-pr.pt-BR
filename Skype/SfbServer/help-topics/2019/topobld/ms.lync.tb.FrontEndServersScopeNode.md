@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: 'O nó pools de Front End do Enterprise Edition lista os pools de Front-End neste site e os nós de servidores Standard Edition Front End lista os servidores Standard Edition neste site. Você pode realizar a seguinte ação:'
-ms.openlocfilehash: cc9c7e04e3037d2e3d9e8d0c658579d76c9601c3
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'O nó de Pools de Front-Ends Enterprise Edition lista os pools de Front-Ends neste site, e o nó de Servidores Front-End Standard Edition lista os servidores Standard Edition neste site. Você pode executar a seguinte ação:'
+ms.openlocfilehash: f6ca2a8b27b0868492862c551cebfe12e9e32ffa
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991014"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21065582"
 ---
 # <a name="front-end-servers-scope-node"></a>Nó de Escopo de Servidores Front-End
  

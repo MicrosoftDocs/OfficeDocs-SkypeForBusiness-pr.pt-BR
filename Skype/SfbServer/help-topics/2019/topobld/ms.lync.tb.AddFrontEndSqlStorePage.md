@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
+ROBOTS: NOINDEX, NOFOLLOW
 description: Uma implantação de servidor do Standard Edition instala automaticamente o software de banco de dados do Microsoft SQL Server Express necessárias e o banco de dados do SQL Server. Portanto, todas as opções são pré-preenchido, e você não pode fazer alterações na configuração padrão.
-ms.openlocfilehash: 2b7527207974310c30b559011a580fe8871164d1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9a05561ac1e3c59aa8d66d6a872bc5159308f162
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964488"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21060959"
 ---
 # <a name="add-front-end-sql-server-store"></a>Adicionar repositório de servidor do Front End SQL
  

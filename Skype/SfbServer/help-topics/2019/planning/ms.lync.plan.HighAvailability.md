@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
+ROBOTS: NOINDEX, NOFOLLOW
 description: O esquema principal de alta disponibilidade para a maioria das funções de servidor em Skype para Business Server se baseia em redundância de servidor por meio do pool. Se um servidor que executa determinada função de servidor falhar, os outros servidores que executam a mesma função no pool assumirão a carga daquele servidor.
-ms.openlocfilehash: 140f413644360e8c776c48dbde5979cb4b57b04a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9c11f5a2b754766d51f47c87cb11e334f8755dea
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990118"
+ms.locfileid: "21063678"
 ---
 # <a name="high-availability-planning-tool"></a>Alta disponibilidade (ferramenta de planejamento)
  

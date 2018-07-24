@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto quando observado, os componentes fazem parte dos cenários de servidor de borda no Skype para Business Server e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:'
-ms.openlocfilehash: 331bc8f8bd34868e97e8c7de6b573108d0e9a071
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 489898cb144b99f069665ccb4f6f8aed3004b3bb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975659"
+ms.locfileid: "21057772"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Rede de borda (ferramenta de planejamento) em Skype para negócios 
  

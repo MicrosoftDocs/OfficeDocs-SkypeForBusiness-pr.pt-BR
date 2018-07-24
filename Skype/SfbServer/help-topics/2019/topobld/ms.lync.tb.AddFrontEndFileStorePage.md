@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
+ROBOTS: NOINDEX, NOFOLLOW
 description: É necessário especificar um compartilhamento de arquivo a ser usado como o repositório de arquivo para o servidor Standard Edition ou pool de Front-Ends Enterprise Edition. É possível usar um compartilhamento de arquivos existente para o repositório de arquivos, ou é possível especificar um novo compartilhamento de arquivos especificando o nome de domínio totalmente qualificado (FQDN) do servidor de arquivos no qual o compartilhamento de arquivos será localizado e um nome de pasta para o novo compartilhamento de arquivo.
-ms.openlocfilehash: b8e29253a3ed918755d29ff6d1432f879a6164ea
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cb280a8c9bb554ee3321fc38cf075d039388dfc6
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979936"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21059925"
 ---
 # <a name="add-front-end-file-store"></a>Adicionar Repositório de Arquivos de Front-End
  

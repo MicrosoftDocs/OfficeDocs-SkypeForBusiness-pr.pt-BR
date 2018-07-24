@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: Você seleciona os bancos de dados que você deseja criar sua implantação. Por padrão, o banco de dados será criado no SQL Server definido no site do definido e será automaticamente implantar e configurar os arquivos de banco de dados com base em você estiver colocando os bancos de dados no SQL Server.
-ms.openlocfilehash: 70bd185b4e559215df7d3623dc5591648e718ed9
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 6138608bc98b921ba90401e35bea584efe37a9cb
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979355"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21063007"
 ---
 # <a name="install-and-create-databases"></a>Instalar e criar bancos de dados
  

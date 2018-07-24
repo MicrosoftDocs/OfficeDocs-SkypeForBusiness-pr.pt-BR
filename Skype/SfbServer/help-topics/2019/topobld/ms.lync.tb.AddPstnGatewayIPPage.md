@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
+ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode definir os endereços IPv4 ou IPv6 para o gateway IP ou telefone PSTN (rede) de telefônica comutada selecionando habilitar IPv4 ou IPv6 habilitar. Você pode escolher Use todos os endereços IP configurados ou limitar o uso do serviço aos endereços IP selecionados.
-ms.openlocfilehash: adb8bfee46bbf32edef6111ee40843ebf47bb453
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 472b87c91a1f34bffac797df401053c427d45881
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987351"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21067676"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definir o endereço IP do Gateway PSTN ou IP
  

@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
+ROBOTS: NOINDEX, NOFOLLOW
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server.
-ms.openlocfilehash: c9f356ed2c11326e68cd6c95ee444aa41b35f940
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 2f8682d511e1d845ea4f49c724fecbb89d6071d9
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20046246"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21066274"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Expansor das configurações de porta do Servidor de interoperabilidade de vídeo
  

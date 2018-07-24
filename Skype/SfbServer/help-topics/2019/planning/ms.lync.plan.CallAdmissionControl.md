@@ -11,13 +11,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
+ROBOTS: NOINDEX, NOFOLLOW
 description: O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo.
-ms.openlocfilehash: 3e4d19fd9195795a87c48567b27f286a16a5e092
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: c1c2cf96f2f8537ca609e7f3a0a5f0c37661be42
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975915"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21057318"
 ---
 # <a name="call-admission-control-planning-tool"></a>Controle de admissão de chamada (ferramenta de planejamento)
  
