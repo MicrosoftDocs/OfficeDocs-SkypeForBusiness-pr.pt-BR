@@ -1,11 +1,27 @@
 ---
-<span data-ttu-id="b0c65-101">título: "Regra tipo de expressão Regular de conversão" ms.author: kenwith autor: Gerenciador de kenwith: serdars ms.audience: ms.topic de profissionais de TI: f1_keywords do artigo:</span><span class="sxs-lookup"><span data-stu-id="b0c65-101">title: "Translation Rule Type a Regular Expression" ms.author: kenwith author: kenwith manager: serdars ms.audience: ITPro ms.topic: article f1_keywords:</span></span>
-- <span data-ttu-id="b0c65-102">ms.lync.lscp.VoiceRuleRegexEdit ms.prod: localization_priority Skype-para-business-profissionais de TI: Normal ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4 ROBOTS: NOINDEX, descrição NOFOLLOW: "em corresponder este campo padrão, especifique o padrão que será usado para corresponder os números a serem convertidos.</span><span class="sxs-lookup"><span data-stu-id="b0c65-102">ms.lync.lscp.VoiceRuleRegexEdit ms.prod: skype-for-business-itpro localization_priority: Normal ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4 ROBOTS: NOINDEX, NOFOLLOW description: "In the Match this pattern field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="b0c65-103">No campo regra de conversão, especifique um padrão para o formato dos números convertidos.</span><span class="sxs-lookup"><span data-stu-id="b0c65-103">In the Translation rule field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="b0c65-104">Por exemplo, se você inserir ^\+(\d{9}\d+)$ em corresponder este padrão de campo e 011$ 1 no campo regra de conversão, a regra converterá + 441235551010 em 011441235551010. "</span><span class="sxs-lookup"><span data-stu-id="b0c65-104">For example, if you enter ^\+(\d{9}\d+)$ in the Match this pattern field and 011$1 in the Translation rule field, the rule will translate +441235551010 to 011441235551010."</span></span>
+title: Tipo de regra de conversão uma expressão Regular
+ms.author: kenwith
+author: kenwith
+manager: serdars
+ms.audience: ITPro
+ms.topic: article
+f1_keywords:
+- ms.lync.lscp.VoiceRuleRegexEdit
+ms.prod: skype-for-business-itpro
+localization_priority: Normal
+ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
+ROBOTS: NOINDEX, NOFOLLOW
+description: 'Em corresponder este campo padrão, especifique o padrão que será usado para corresponder os números a serem convertidos. No campo regra de conversão, especifique um padrão para o formato dos números convertidos. '
+ms.openlocfilehash: 5a3696122c721fab3ece2d33a573d0e2f089fb96
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21069523"
 ---
-
-# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="b0c65-105">Regra de conversão: Digite uma expressão Regular</span><span class="sxs-lookup"><span data-stu-id="b0c65-105">Translation Rule: Type a Regular Expression</span></span>
+# <a name="translation-rule-type-a-regular-expression"></a><span data-ttu-id="a5835-104">Regra de conversão: Digite uma expressão Regular</span><span class="sxs-lookup"><span data-stu-id="a5835-104">Translation Rule: Type a Regular Expression</span></span>
  
-<span data-ttu-id="b0c65-106">No campo **corresponder este padrão** , especifique o padrão que será usado para corresponder os números a serem convertidos.</span><span class="sxs-lookup"><span data-stu-id="b0c65-106">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="b0c65-107">No campo **regra de conversão** , especifique um padrão para o formato dos números convertidos.</span><span class="sxs-lookup"><span data-stu-id="b0c65-107">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="b0c65-108">Por exemplo, se você inserir ^\+(\d{9}\d+)$ no campo **corresponder este padrão** e 011$ 1 no campo **regra de conversão** , a regra converterá + 441235551010 em 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="b0c65-108">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span>
+<span data-ttu-id="a5835-105">No campo **corresponder este padrão** , especifique o padrão que será usado para corresponder os números a serem convertidos.</span><span class="sxs-lookup"><span data-stu-id="a5835-105">In the **Match this pattern** field, specify the pattern that will be used to match the numbers to be translated.</span></span> <span data-ttu-id="a5835-106">No campo **regra de conversão** , especifique um padrão para o formato dos números convertidos.</span><span class="sxs-lookup"><span data-stu-id="a5835-106">In the **Translation rule** field, specify a pattern for the format of translated numbers.</span></span> <span data-ttu-id="a5835-107">Por exemplo, se você inserir ^\+(\d{9}\d+)$ no campo **corresponder este padrão** e 011$ 1 no campo **regra de conversão** , a regra converterá + 441235551010 em 011441235551010.</span><span class="sxs-lookup"><span data-stu-id="a5835-107">For example, if you enter ^\+(\d{9}\d+)$ in the **Match this pattern** field and 011$1 in the **Translation rule** field, the rule will translate +441235551010 to 011441235551010.</span></span> 
   
  
   

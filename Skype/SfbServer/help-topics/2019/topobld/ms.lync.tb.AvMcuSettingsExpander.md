@@ -10,30 +10,31 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
+ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar as propriedades de um A / pool V Conferencing Server que você já tenha definido, faça o seguinte:'
-ms.openlocfilehash: 1d9222b895d9df025519c2e7ad01f37757f2ed68
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9bbdeb4d03971884d6a68ed858da94912f2f6911
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991491"
+ms.locfileid: "21069551"
 ---
-# <a name="av-mcu-settings-expander"></a><span data-ttu-id="897d2-103">Expansor de configurações AV MCU</span><span class="sxs-lookup"><span data-stu-id="897d2-103">AV MCU Settings Expander</span></span>
+# <a name="av-mcu-settings-expander"></a><span data-ttu-id="0f46c-103">Expansor de configurações AV MCU</span><span class="sxs-lookup"><span data-stu-id="0f46c-103">AV MCU Settings Expander</span></span>
  
-<span data-ttu-id="897d2-104">Para editar as propriedades de um A / pool V Conferencing Server que você já tenha definido, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="897d2-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:</span></span>
+<span data-ttu-id="0f46c-104">Para editar as propriedades de um A / pool V Conferencing Server que você já tenha definido, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="0f46c-104">To edit the properties for an A/V Conferencing Server pool that you have already defined, do the following:</span></span>
   
-## <a name="general-settings"></a><span data-ttu-id="897d2-105">Configurações gerais</span><span class="sxs-lookup"><span data-stu-id="897d2-105">General Settings</span></span>
+## <a name="general-settings"></a><span data-ttu-id="0f46c-105">Configurações gerais</span><span class="sxs-lookup"><span data-stu-id="0f46c-105">General Settings</span></span>
 
-<span data-ttu-id="897d2-106">Para atualizar o nome de domínio totalmente qualificado (FQDN) do / pool V Conferencing Server, digite o nome do pool como ela é definida no sistema de nome de domínio (DNS).</span><span class="sxs-lookup"><span data-stu-id="897d2-106">To update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool, type in the name of the pool as it is defined in the Domain Name System (DNS).</span></span> <span data-ttu-id="897d2-107">Você deve ter um registro de host (A) DNS que corresponde com A / V Conferencing Server nome do pool.</span><span class="sxs-lookup"><span data-stu-id="897d2-107">You must have a DNS host (A) record that corresponds with the A/V Conferencing Server pool name.</span></span>
+<span data-ttu-id="0f46c-106">Para atualizar o nome de domínio totalmente qualificado (FQDN) do / pool V Conferencing Server, digite o nome do pool como ela é definida no sistema de nome de domínio (DNS).</span><span class="sxs-lookup"><span data-stu-id="0f46c-106">To update the fully qualified domain name (FQDN) of the A/V Conferencing Server pool, type in the name of the pool as it is defined in the Domain Name System (DNS).</span></span> <span data-ttu-id="0f46c-107">Você deve ter um registro de host (A) DNS que corresponde com A / V Conferencing Server nome do pool.</span><span class="sxs-lookup"><span data-stu-id="0f46c-107">You must have a DNS host (A) record that corresponds with the A/V Conferencing Server pool name.</span></span>
   
-## <a name="av-conferencing-service"></a><span data-ttu-id="897d2-108">A / V o serviço de conferência</span><span class="sxs-lookup"><span data-stu-id="897d2-108">A/V Conferencing Service</span></span>
+## <a name="av-conferencing-service"></a><span data-ttu-id="0f46c-108">A / V o serviço de conferência</span><span class="sxs-lookup"><span data-stu-id="0f46c-108">A/V Conferencing Service</span></span>
 
-<span data-ttu-id="897d2-109">Para associar um A / pool V Conferencing Server, selecione o pool de Front-End ou pools que você precisa associar A / pool V Conferencing Server.</span><span class="sxs-lookup"><span data-stu-id="897d2-109">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
+<span data-ttu-id="0f46c-109">Para associar um A / pool V Conferencing Server, selecione o pool de Front-End ou pools que você precisa associar A / pool V Conferencing Server.</span><span class="sxs-lookup"><span data-stu-id="0f46c-109">To associate an A/V Conferencing Server pool, select the Front End pool or pools that you have to associate with the A/V Conferencing Server pool.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="897d2-110">Se nenhum pools de Front-End são exibidos na **Selecionar os pools de Front-End para associar A / pool de conferência V** painel, você ter colocado ou A / V Conferencing Server com o pool de Front-End, ou não selecionou para adicionar a conferência nos recursos ** funcionalidade e** seção de propriedades do pool de Front-End.</span><span class="sxs-lookup"><span data-stu-id="897d2-110">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool, or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
+> <span data-ttu-id="0f46c-110">Se nenhum pools de Front-End são exibidos na **Selecionar os pools de Front-End para associar A / pool de conferência V** painel, você ter colocado ou A / V Conferencing Server com o pool de Front-End, ou não selecionou para adicionar a conferência nos recursos ** funcionalidade e** seção de propriedades do pool de Front-End.</span><span class="sxs-lookup"><span data-stu-id="0f46c-110">If no Front End pools are displayed in the **Select the Front End pools to associate with this A/V Conferencing pool** pane, you have either collocated the A/V Conferencing Server with the Front End pool, or did not select to add Conferencing in the **Features and functionality** section of the Front End pool properties.</span></span>
   
 
-<span data-ttu-id="897d2-111">Quando terminar, clique em **Okey** para concluir a edição de A / V Conferencing Server configurações do pool.</span><span class="sxs-lookup"><span data-stu-id="897d2-111">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="897d2-112">Clique em **Cancelar** para descartar quaisquer alterações.</span><span class="sxs-lookup"><span data-stu-id="897d2-112">Click **Cancel** to discard any changes.</span></span>
+<span data-ttu-id="0f46c-111">Quando terminar, clique em **Okey** para concluir a edição de A / V Conferencing Server configurações do pool.</span><span class="sxs-lookup"><span data-stu-id="0f46c-111">When finished, click **OK** to complete the editing of the A/V Conferencing Server pool settings.</span></span> <span data-ttu-id="0f46c-112">Clique em **Cancelar** para descartar quaisquer alterações.</span><span class="sxs-lookup"><span data-stu-id="0f46c-112">Click **Cancel** to discard any changes.</span></span>
   
 
