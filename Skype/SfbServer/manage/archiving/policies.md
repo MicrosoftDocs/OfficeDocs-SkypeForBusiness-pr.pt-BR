@@ -1,5 +1,5 @@
 ---
-title: Gerenciar políticas de arquivamento no Skype for Business Server 2015
+title: Gerenciar políticas de arquivamento no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,16 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
-description: 'Resumo: Saiba como gerenciar políticas de usuário para arquivamento para Skype para Business Server 2015.'
-ms.openlocfilehash: 584849862e106098bc4bbad92ed4e0b87be410e9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como gerenciar políticas de usuário para arquivamento para Skype para Business Server.'
+ms.openlocfilehash: d29d30c99320631279114d3ebdfa8ee7db00b677
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013318"
 ---
-# <a name="manage-archiving-policies-in-skype-for-business-server-2015"></a>Gerenciar políticas de arquivamento no Skype for Business Server 2015
+# <a name="manage-archiving-policies-in-skype-for-business-server"></a>Gerenciar políticas de arquivamento no Skype para Business Server
 
-**Resumo:** Saiba como gerenciar políticas de usuário para arquivamento para Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar políticas de usuário para arquivamento para Skype para Business Server.
   
 Inicialmente, você configurar políticas de arquivamento quando você implanta o arquivamento, mas você pode alterar, adicionar e excluir configurações após a implantação. Políticas de arquivamento determinam se deseja arquivar: 
   
@@ -29,7 +30,7 @@ Inicialmente, você configurar políticas de arquivamento quando você implanta 
 Políticas de arquivamento podem ser definido no nível global, site ou nível de usuário.
   
 > [!NOTE]
-> Se você ativou a integração do Microsoft Exchange para sua implantação, o controle de políticas do Exchange se o arquivamento estiver habilitado para os usuários hospedados no Exchange e tem colocado de suas caixas de correio em bloqueio In-loco. Para obter detalhes, consulte [Planejar o arquivamento no Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md) e [Configure integração com Exchange storage para Skype para Business Server 2015](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Se você ativou a integração do Microsoft Exchange para sua implantação, o controle de políticas do Exchange se o arquivamento estiver habilitado para os usuários hospedados no Exchange e tem colocado de suas caixas de correio em bloqueio In-loco. Para obter detalhes, consulte [Planejar o arquivamento no Skype para Business Server](../../plan-your-deployment/archiving/archiving.md) e [Configure integração com Exchange storage para Skype para Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Gerenciar políticas de arquivamento usando o Painel de Controle
 
@@ -43,7 +44,7 @@ Você pode gerenciar políticas de arquivamento usando o Painel de Controle da s
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Gerenciar políticas de arquivamento usando o Windows PowerShell
 
-Você também pode configurar políticas de arquivamento usando os cmdlets do Windows PowerShell listados na seguinte tabela. Para obter detalhes sobre a sintaxe, incluindo todos os parâmetros disponíveis, consulte [Skype do Shell de gerenciamento do Business Server 2015](../management-shell.md).
+Você também pode configurar políticas de arquivamento usando os cmdlets do Windows PowerShell listados na seguinte tabela. Para obter detalhes sobre a sintaxe, incluindo todos os parâmetros disponíveis, consulte [Skype do Shell de gerenciamento do servidor de negócios](../management-shell.md).
   
 
 |**Cmdlet**|**Descrição**|

@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Servidores de borda podem ser configurados para permitir que os usuários internos e externos acesso aos contatos em organizações parceiras ou serviços.
-ms.openlocfilehash: da8580752a07d5d2552adbffd3bdf5924ad5b8e1
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: d3541fae214d64a87f9bbc51603e3ae19346c686
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19972361"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983809"
 ---
 # <a name="federation-planning-tool"></a>Federação (ferramenta de planejamento)
  
 Servidores de borda podem ser configurados para permitir que os usuários internos e externos acesso aos contatos em organizações parceiras ou serviços.
   
- Federação funciona como fazia para Microsoft Lync 2013. Para obter mais detalhes sobre como preparar seu ambiente para a Federação, consulte os seguintes tópicos:
+ Federação funciona no Skype para Business Server como fazia para Microsoft Lync 2013. Para obter mais detalhes sobre como preparar seu ambiente para a Federação, consulte os seguintes tópicos:
   
 - [Planejamento para federação do Lync Server 2013 e Office Communications Server](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
     

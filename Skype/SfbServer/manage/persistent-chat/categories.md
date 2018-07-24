@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumo: Saiba como gerenciar categorias de servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: 418cdc395a611c880da5b9455c10367fe19c6843
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568616"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979502"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -36,6 +36,9 @@ Usuários, Unidades Organizacionais (OUs) e grupos de usuários identificados co
 Antes de configurar categorias, certifique-se de ler [as categorias de chat persistente, salas de chat e funções de usuário no Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md).
   
 Você pode configurar e gerenciar categorias usando o Painel de Controle ou por meio dos cmdlets do Windows PowerShell.
+
+> [!NOTE]
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Configurar categorias usando o Painel de Controle
 

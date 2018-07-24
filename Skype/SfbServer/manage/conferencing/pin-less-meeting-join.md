@@ -3,23 +3,22 @@ title: Configurar ingresso em reunião sem PIN no Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 'Resumo: Saiba como configurar o PIN sem a opção de ingresso em Skype para Business Server 2015 da reunião.'
-ms.openlocfilehash: 375c008cd8cec072e9d2b71de1765756e4c0f881
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como configurar o PIN sem a opção de ingresso em Skype para Business Server da reunião.'
+ms.openlocfilehash: 843ea92a331391faa47e4cbc32191312c6dfbc6b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569338"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20985960"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar ingresso em reunião sem PIN no Skype for Business Server
  
-**Resumo:** Saiba como configurar o PIN sem a opção de ingresso em Skype para Business Server 2015 da reunião.
+**Resumo:** Saiba como configurar o PIN sem a opção de ingresso em Skype para Business Server da reunião.
   
 Quando um chamador discada tenta ingressar em uma reunião, o serviço de atendedor automático da conferência (CAA) coloca o chamador em uma caneta fornecerá diferente do Lobby & #x 2014; Se um apresentador não ainda estiver em uma chamada e o chamador discada não tiver inserido um líder de PIN. A opção de ingresso na reunião sem o PIN permite a participação na reunião discada dos chamadores sem inserir PIN de líder, mesmo se eles forem a primeira pessoa que da chamada. 
   

@@ -1,25 +1,24 @@
 ---
-title: Exibir definições de configuração de reuniões no Skype for Business Server 2015
+title: Configurações de reunião no Skype para Business Server de modo de exibição
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: 'Resumo: Saiba como exibir configurações de reunião no Skype para Business Server 2015.'
-ms.openlocfilehash: 1af530732df37ed78e47ee5b5d5914c00fbbd4bf
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como exibir configurações de reunião no Skype para Business Server.'
+ms.openlocfilehash: 44154b9cdba4743eed9c2a4153545651657d4e72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568721"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988822"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server-2015"></a>Exibir definições de configuração de reuniões no Skype for Business Server 2015
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Configurações de reunião no Skype para Business Server de modo de exibição
  
-**Resumo:** Saiba como exibir configurações de reunião no Skype para Business Server 2015.
+**Resumo:** Saiba como exibir configurações de reunião no Skype para Business Server.
   
 Você pode exibir configurações de reunião usando o Skype para painel de controle do Business Server ou usando Skype do Shell de gerenciamento do servidor de negócios.
   
@@ -38,7 +37,7 @@ Você pode exibir configurações de reunião usando o Skype para painel de cont
     
     **Editar configuração de reunião - \<política\> ** abre exibindo as configurações para a política selecionada.
     
-    Para obter detalhes sobre como definir as configurações, consulte [criar definições de configuração do Skype para Business Server 2015 da reunião](create-settings.md).
+    Para obter detalhes sobre como definir as configurações, consulte [criar definições de configuração do Skype para Business Server da reunião](create-settings.md).
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Exibir configurações de reunião usando o Skype do Shell de gerenciamento do servidor de negócios
 <a name="BKMK_ViewJoinSettings"> </a>

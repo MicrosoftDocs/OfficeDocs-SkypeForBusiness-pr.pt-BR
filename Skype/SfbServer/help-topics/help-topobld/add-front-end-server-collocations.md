@@ -3,7 +3,7 @@ title: Adicionar colocações de servidor de Front-End
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Para uma implantação do Enterprise Edition, A / o serviço de conferência V é colocado no pool Front-End. Você também pode colocar o servidor de mediação no pool de Front-End, ou você pode implantá-lo como um servidor autônomo. A / o serviço de conferência de V é sempre colocado se conferência estiver habilitada.
-ms.openlocfilehash: c68ed9e05252d72739f2912f109951d0be723699
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 12be7ca8b860869329e736f15f021c7b86e5bb4d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990249"
 ---
 # <a name="add-front-end-server-collocations"></a>Adicionar colocações de servidor de Front-End
  

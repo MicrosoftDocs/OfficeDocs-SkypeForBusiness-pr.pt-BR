@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Visão geral do gerenciamento de sistemas de sala Skype v2.
-ms.openlocfilehash: 5e6fe310051d5fc48875a878e64868a8a5672346
-ms.sourcegitcommit: febd51fd7988602a8c9839e4e9872ae8f5d77c63
+ms.openlocfilehash: 81ad0e43f68127e3a178434ebdd8ac8a43c94adc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21014900"
 ---
 # <a name="management-overview"></a>Visão geral do gerenciamento 
 
@@ -39,7 +40,7 @@ Informações sobre o estado do aplicativo de v2 Skype sala sistemas e dispositi
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Permite que os sistemas de sala Skype v2 inicialize  <br/> |
 |Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Permite que os sistemas de sala Skype v2 desativar exibe anexado e automaticamente de ativação  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou um modo equivalente de desabilitar a expiração da senha na conta local. A impossibilidade de fazer isso pode causar uma falha no logon com a conta do Skype com uma mensagem de senha expirada. Observe que isso afeta todas as contas locais do computador. Portanto, se isso não for definido, com o tempo, a conta de administrador também vai expirar.   <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
 Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
@@ -74,14 +75,14 @@ Recomendamos que você configure conforme descrito na seção acima para que sua
 
 Para obter mais informações sobre o modo de administração e solução de problemas, consulte [gerenciar sistemas de sala Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
-### <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planejar o Skype Room Systems versão 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
-[Implantar Skype sala v2 de sistemas](../../deploy/deploy-clients/room-systems-v2.md)
+[Implantar o Skype Room Systems versão 2](../../deploy/deploy-clients/room-systems-v2.md)
 
-[Configurar um console v2 de sistemas de sala do Skype](../../deploy/deploy-clients/console.md)
+[Configurar o console do Skype Room Systems versão 2](../../deploy/deploy-clients/console.md)
 
-[Gerenciar configurações de sistemas de sala Skype do console v2 remotamente com um arquivo de configuração XML](xml-config-file.md)
+[Gerenciar as configurações de um console do Skype Room Systems v2 remotamente usando um arquivo de configuração XML](xml-config-file.md)

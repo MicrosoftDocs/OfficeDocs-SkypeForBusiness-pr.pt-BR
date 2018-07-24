@@ -13,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Ferramenta de Planejamento do Skype for Business Server 2015
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ebc528c2c73a9bcb15141cf238ae9edb4b2055df
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987667"
 ---
 # <a name="feature-overview-planning-tool"></a>Visão geral do recurso (ferramenta de planejamento)
  
@@ -33,6 +34,9 @@ Para completar a definição do site central, primeiro você precisa fornecer as
     
 - **Nuvem hospedados usuários** Insira o número de usuários que estão hospedados em um site central do Skype para Business Online.
     
+> [!NOTE]
+> Essa ferramenta não será atualizada para Skype para Business Server 2019.
+
 ## <a name="ui-elements"></a>Elementos da interface do usuário
 
 Os elementos restantes foram populados com respostas que você forneceu às perguntas apresentadas no assistente da **Introdução** ou, se você tiver pulado o assistente, será populado automaticamente pela ferramenta de planejamento.
@@ -76,6 +80,9 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
 - **Federação com provedor de serviço com base XMPP**
     
     Skype para Business Server 2015 introduz um proxy XMPP totalmente integrado (implantado nos servidores de borda) e um gateway XMPP implantado em seus servidores Front-End. É possível implantar adicionando e configurando o proxy XMPP e o gateway XMPP permitirá que seu Skype para usuários corporativos Server 2015 adicionar contatos de parceiros XMPP para mensagens instantâneas (IM) e presença.
+
+> [!NOTE]
+> Gateways de XMPP e proxies estão disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019. Consulte a [federação XMPP migrando](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações.
     
 - **Mobilidade**
     

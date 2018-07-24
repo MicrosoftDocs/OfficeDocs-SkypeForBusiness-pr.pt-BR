@@ -1,24 +1,24 @@
 ---
-title: Relatório de voz e vídeo ponto a ponto no Skype for Business Server 2015
+title: -A-ponto relatório de voz e vídeo no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Resumo: Saiba mais sobre o relatório de vídeo no Skype para Business Server 2015 e voz ponto a ponto.'
-ms.openlocfilehash: 39b76b355addffb86954c302e9a8b7b0b7dde391
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de vídeo no Skype para Business Server e voz ponto a ponto.'
+ms.openlocfilehash: 791333a979bb9a292fc689eb19869cf835b77d68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008093"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server-2015"></a>Relatório de voz e vídeo ponto a ponto no Skype for Business Server 2015
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>-A-ponto relatório de voz e vídeo no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de vídeo no Skype para Business Server 2015 e voz ponto a ponto.
+**Resumo:** Saiba mais sobre o relatório de vídeo no Skype para Business Server e voz ponto a ponto.
   
 O Relatório de Vídeo e Voz Ponto a Ponto oferece uma visão detalhada da distribuição de chamadas de voz e vídeo por um período específico (por exemplo, chamadas por hora ou chamadas por dia). O relatório também oferece a opção de exibir todas as chamadas de voz e vídeo realizadas ou de exibir apenas as chamadas bem-sucedidas ou com falha. Os relatórios mostram as informações das chamadas divididas nos seguintes agrupamentos:
   
@@ -65,7 +65,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 
 A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Voz Ponto a Ponto para cada pool.
   
-**Métricas para atividade de vídeo pelo pool e voz ponto a ponto**
+**Métricas para atividade de vídeo e voz ponto a ponto por pool**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -77,7 +77,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 
 A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Voz Ponto a Ponto para cada tipo de chamada realizada.
   
-**Métricas para atividade de vídeo por tipo de chamada e voz ponto a ponto**
+**Métricas da atividade de vídeo e voz ponto a ponto por tipo de chamada**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -89,7 +89,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 
 A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Voz Ponto a Ponto para cada tipo de acesso à rede.
   
-**Métricas para atividade de vídeo por tipo de acesso e voz ponto a ponto**
+**Métricas da atividade de vídeo e voz ponto a ponto por tipo de acesso**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -101,7 +101,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 
 A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada servidor de mediação.
   
-**Métricas para atividade de vídeo pelo servidor de mediação e voz ponto a ponto**
+**Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

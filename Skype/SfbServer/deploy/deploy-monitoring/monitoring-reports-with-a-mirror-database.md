@@ -1,24 +1,24 @@
 ---
-title: Associar relatórios de monitoramento a um banco de dados de espelho em Skype para Business Server 2015
+title: Associar relatórios de monitoramento a um banco de dados de espelho em Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 'Resumo: Saiba como associar relatórios de monitoramento de um banco de dados de espelho usado pelo Skype para Business Server 2015.'
-ms.openlocfilehash: 246f16fd54133e2a6cf1e26a8126d0ec546bd686
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como associar relatórios de monitoramento de um banco de dados de espelho usado pelo Skype para Business Server.'
+ms.openlocfilehash: e5d9072c2315a2d82f2f41559167a488747fa205
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000768"
 ---
-# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server-2015"></a>Associar relatórios de monitoramento a um banco de dados de espelho em Skype para Business Server 2015
+# <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associar relatórios de monitoramento a um banco de dados de espelho em Skype para Business Server 
  
-**Resumo:** Saiba como associar relatórios de monitoramento de um banco de dados de espelho usado pelo Skype para Business Server 2015.
+**Resumo:** Saiba como associar relatórios de monitoramento de um banco de dados de espelho usado pelo Skype para Business Server.
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Monitoramento de relatórios com um banco de dados espelho
 
@@ -66,9 +66,6 @@ Para que o failover dos Relatórios de Monitoramento seja executado automaticame
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Instalar o monitoramento de relatórios no Skype para Business Server 2015](install-monitoring-reports.md)
+[Instalar os relatórios de monitoramento em Skype para Business Server](install-monitoring-reports.md)
   
-[Usando relatórios do Skype de monitoramento para Business Server 2015](../../manage/health-and-monitoring/monitoring-reports.md)
-
+[Usando relatórios de monitoramento no Skype para Business Server](../../manage/health-and-monitoring/monitoring-reports.md)

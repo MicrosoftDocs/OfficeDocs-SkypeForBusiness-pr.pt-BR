@@ -1,33 +1,32 @@
 ---
-title: Rate My Call no Skype for Business Server 2015
+title: Taxa, minha chamada em Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/13/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: 'Resumo: Saiba sobre o recurso de taxa de chamada Meu Skype para Business Server 2015.'
-ms.openlocfilehash: 54e751731e305767eecb755f274de667949379f2
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba sobre o recurso de taxa de chamada Meu Skype para Business Server.'
+ms.openlocfilehash: 737d6a71f6880139d558d601a14d8f76c61d80f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569794"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989060"
 ---
-# <a name="rate-my-call-in-skype-for-business-server-2015"></a>Rate My Call no Skype for Business Server 2015
+# <a name="rate-my-call-in-skype-for-business-server"></a>Taxa, minha chamada em Skype para Business Server
  
-**Resumo:** Saiba mais sobre o recurso de taxa de chamada Meu Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o recurso de taxa de chamada Meu Skype para Business Server.
   
-Taxa de chamada My é um novo recurso do Skype para 2015 de negócios e clientes de 2016 no Windows que oferece uma maneira de obter feedback de seus usuários finais de empresas.
+Taxa de chamada Meu era um novo recurso do Skype para 2015 de negócios e clientes de 2016 no Windows que oferece uma maneira de obter feedback de seus usuários finais de empresas.
   
 A janela de taxa de chamada My oferece um sistema de classificação "star" e tokens predefinidos para as chamadas de áudio e vídeos. Além disso, os administradores podem habilitar um campo personalizado fornecer comentários.
   
 Atualmente, os dados coletados do recurso Rate My Call não estão incluídos em nenhum relatório de monitoramento existente, mas sim em um relatório de monitoramento separado. Dados são coletados nas tabelas do SQL que podem ser acessadas executando consultas SQL.
   
-## <a name="rate-my-call-prerequisites"></a>Classifique os pré-requisitos minha chamada
+## <a name="rate-my-call-prerequisites"></a>Pré-requisitos do Rate My Call
 
 Antes que os usuários na sua Skype para implantação de servidor de negócios podem acessar a funcionalidade de taxa de chamada Meu, o seguinte conjunto de componentes deve ser implantado e configurado:
   
@@ -41,7 +40,7 @@ Antes que os usuários na sua Skype para implantação de servidor de negócios 
     
 - Recomendamos a implantação do Painel de Qualidade da Chamada (CQD, Call Quality Dashboard).
     
-## <a name="configure-rate-my-call"></a>Configurar a taxa de minha chamada
+## <a name="configure-rate-my-call"></a>Configurar o recurso Rate my Call
 
 O recurso chamada de minha taxa é habilitado por padrão na política de cliente com as seguintes configurações:
   
@@ -55,7 +54,7 @@ Não há nenhuma ação é necessária para habilitar o recurso de base, no enta
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>Acessando a taxa de meus dados de chamada
+## <a name="accessing-rate-my-call-data"></a>Acessando os dados de Rate My Call
 
 Dados de usuários são coletados em duas tabelas do banco de dados de monitoramento.
   
@@ -63,7 +62,7 @@ Dados de usuários são coletados em duas tabelas do banco de dados de monitoram
   
  **[QoeMetrics]. dbo. [CallQualityFeedbackTokenDef]** -Esta tabela contém definições de tokens.
   
-Definições de tokens são codificadas da seguinte maneira:
+As definições do token são codificadas da seguinte forma:
   
 |||
 |:-----|:-----|
@@ -110,7 +109,7 @@ Definições de tokens são codificadas da seguinte maneira:
   
 Dados de tabelas podem ser chamados usando um **Selecione \* de [Table.Name]** consulta ou usando o Microsoft SQL Server Management Studio.
   
-As seguintes consultas SQL podem ser usadas:
+Podem ser usadas as seguintes consultas em SQL:
   
  **Áudio**
   

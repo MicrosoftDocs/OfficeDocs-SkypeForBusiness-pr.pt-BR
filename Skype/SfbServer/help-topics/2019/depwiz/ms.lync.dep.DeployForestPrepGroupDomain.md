@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
+ROBOTS: NOINDEX, NOFOLLOW
 description: Você deve indicar onde você precisa criar grupos universais na floresta. A página de local do grupo Universal usa o domínio no qual o computador que você efetuou logon em é um membro de como o padrão. Se você preferir criar os grupos universais em um domínio que não seja o domínio Local padrão, selecione o FQDN do domínio e digite o nome de domínio totalmente qualificado (FQDN) na caixa de texto. Fornecer que um domínio alternativo é útil quando você estiver executando a tarefa de preparação de floresta de um domínio diferente de onde você deseja que os grupos universais criados. Clique em Avançar para continuar.
-ms.openlocfilehash: 38445a33422bf4ee97fc60f0f91183b8490b9f06
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 0abf9be2bea6b69545d2274c34fd433b0ecc9c00
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987253"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980013"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Preparar a floresta atual (local do grupo Universal)
  

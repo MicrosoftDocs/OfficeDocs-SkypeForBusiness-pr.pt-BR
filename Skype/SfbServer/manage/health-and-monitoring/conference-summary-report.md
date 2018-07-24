@@ -1,26 +1,26 @@
 ---
-title: Relatório de Resumo de Conferência no Skype for Business Server 2015
+title: Relatório de resumo de conferência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
-description: 'Resumo: Saiba mais sobre o relatório de resumo de conferência no Skype para Business Server 2015.'
-ms.openlocfilehash: 802eb43bf63479221bda90d6692adf497f7ebdf0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de resumo de conferência no Skype para Business Server.'
+ms.openlocfilehash: c2a31665bb8c3f10bf14a936ca32dde08d3ea5aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990225"
 ---
-# <a name="conference-summary-report-in-skype-for-business-server-2015"></a>Relatório de Resumo de Conferência no Skype for Business Server 2015
+# <a name="conference-summary-report-in-skype-for-business-server"></a>Relatório de resumo de conferência no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de resumo de conferência no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de resumo de conferência no Skype para Business Server.
   
-O Relatório de Resumo de Conferências traz uma visão geral de suas sessões de conferência online. Normalmente, uma conferência envolve mais de 2 usuários e exige o uso de serviços de conferência. Por comparação, uma sessão ponto a ponto normalmente envolve 2 apenas usuários e não requer o uso do Skype para serviços de conferência Business Server. Atividades ponto a ponto informadas sobre o [relatório de resumo de atividade ponto a ponto no Skype para Business Server 2015](peer-to-peer-activity-summary-report.md).
+O Relatório de Resumo de Conferências traz uma visão geral de suas sessões de conferência online. Normalmente, uma conferência envolve mais de 2 usuários e exige o uso de serviços de conferência. Por comparação, uma sessão ponto a ponto normalmente envolve 2 apenas usuários e não requer o uso do Skype para serviços de conferência Business Server. Atividades ponto a ponto informadas sobre o [relatório de resumo de atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-summary-report.md).
   
 O relatório de resumo de conferência não apenas informa quantos conferências conduzidas durante um período de tempo determinado (cada hora, diariamente, semanalmente, mensalmente), mas também informa o número total de pessoas que participou dessas conferências e o número total de conferência exclusivas organizadores.
   
@@ -70,7 +70,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Resumo de Conferências.
   
-**Filtros do relatório de resumo de conferências**
+**Filtros do Relatório de Resumo de Conferências**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -82,7 +82,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Resum
 
 A tabela a seguir as informações fornecidas pelo Relatório de Resumo de Conferências.
   
-**Métricas do relatório de resumo de conferência**
+**Métricas do Relatório de Resumo de Conferências**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

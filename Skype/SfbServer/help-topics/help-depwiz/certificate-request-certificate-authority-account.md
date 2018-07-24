@@ -3,7 +3,7 @@ title: Solicitação de certificado (conta de autoridade de certificado)
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Para enviar uma solicitação, sua autoridade de certificação (CA) pode exigir credenciais diferentes do usuário que você esteja atualmente conectado como. Para permitir que uma solicitação de certificado como um usuário diferente, marque as caixa de seleção especificar credenciais alternativas da autoridade de certificação e, em seguida, digite o nome de usuário ou domínio \ nome_de_usuário, para um usuário que pode solicitar o certificado. Na caixa de texto senha, digite a senha para o usuário que você especificou. O nome de usuário e senha são enviadas como parte do processo de solicitação de certificado, mas não na solicitação de certificado real, para uma autoridade de certificação online.
-ms.openlocfilehash: 47ea9e3c1b83d62faa169fdd291b325f19c8cfad
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 65824674fb95c3894061f83e6c2a572eaf8b0d78
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995902"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Solicitação de certificado (conta de autoridade de certificado)
  

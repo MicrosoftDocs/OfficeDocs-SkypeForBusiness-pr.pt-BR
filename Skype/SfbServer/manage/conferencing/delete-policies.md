@@ -1,24 +1,24 @@
 ---
-title: Excluir políticas de conferência no Skype for Business Server 2015
+title: Excluir políticas de conferência do Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: 'Resumo: Saiba como excluir políticas de conferência do Skype para Business Server 2015.'
-ms.openlocfilehash: 783e2ef4c1bc0732fd93949427cea21c5ca165ea
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como excluir políticas de conferência do Skype para Business Server.'
+ms.openlocfilehash: 157307fc81bf5e5d0e93bd65b9a513f92b317a68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012620"
 ---
-# <a name="delete-conferencing-policies-in-skype-for-business-server-2015"></a>Excluir políticas de conferência no Skype for Business Server 2015
+# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Excluir políticas de conferência do Skype para Business Server
  
-**Resumo:** Aprenda a excluir políticas de conferência do Skype para Business Server 2015.
+**Resumo:** Aprenda a excluir políticas de conferência do Skype para Business Server.
   
 Você pode excluir diretivas de conferência usando Skype para o painel de controle do Business Server ou usando o Skype do Shell de gerenciamento do servidor de negócios.
   

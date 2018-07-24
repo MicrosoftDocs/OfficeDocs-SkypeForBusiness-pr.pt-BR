@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
-description: Para iniciar a instalação de um novo Skype para o servidor de função de servidor de negócios, você deve instalar primeiro o servidor local de SQL que hospedará o repositório de configuração local. O repositório de configuração local irão agir como uma réplica somente leitura do Skype para o repositório de gerenciamento Central do Business Server (CMS). Você deve estar conectado ao servidor que você estiver executando a etapa instalar repositório de configuração Local como o administrador local no computador e a associação ao grupo RTCUniversalServerAdmins ou o grupo de RTCUniversalGlobalReadOnlyGroup. Se você estiver executando a configuração em um Servidor de Borda, não precisará ser membro do grupo RTCUniversalServerAdmins ou RTCUniversalGlobalReadOnlyGroup. O documento de definição do construtor de topologia serão lidas do documento em vez de definição exportada do repositório de gerenciamento Central. Para exportar o documento de definição do construtor de topologias e disponibilizá-lo aos servidores de borda, consulte o tópico exportar Your Topology e cópia-la na mídia externa para instalação de borda.
-ms.openlocfilehash: fd2e6a51d0ff7d6194f0ec39592765807ea55da4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Para iniciar a instalação de um novo Skype para o servidor de função de servidor de negócios, você deve instalar primeiro o servidor local de SQL que hospedará o repositório de configuração local. O repositório de configuração local irão agir como uma réplica somente leitura do Skype para o repositório de gerenciamento Central do Business Server (CMS).
+ms.openlocfilehash: ab19a45925a25b97e9b1c478c631ee71fe999b83
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19988296"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993667"
 ---
 # <a name="install-local-configuration-store"></a>Instalar Repositório de Configuração Local
  

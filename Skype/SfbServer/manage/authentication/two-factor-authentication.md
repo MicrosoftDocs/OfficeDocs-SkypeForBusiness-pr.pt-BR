@@ -1,32 +1,31 @@
 ---
-title: Gerenciar autenticação de dois fatores no Skype for Business Server 2015
+title: Gerenciar a autenticação de dois fatores no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
-description: 'Resumo: Gerencie autenticação de dois fatores no Skype para Business Server 2015.'
-ms.openlocfilehash: c72e998b7e12993f328aa4e331c67d5b660e94aa
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Gerencie autenticação de dois fatores no Skype para Business Server.'
+ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504513"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002854"
 ---
-# <a name="manage-two-factor-authentication-in-skype-for-business-server-2015"></a>Gerenciar autenticação de dois fatores no Skype for Business Server 2015
+# <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gerenciar a autenticação de dois fatores no Skype para Business Server
  
-**Resumo:** Gerencie a autenticação de dois fatores em Skype para Business Server 2015.
+**Resumo:** Gerencie a autenticação de dois fatores no Skype para Business Server.
   
 A autenticação de dois fatores oferece maior segurança ao exigir que os usuários forneçam duas formas de autenticação ou identificação, ou seja, uma combinação de nome de usuário/senha e um token ou certificado. Isso também é conhecida como "algo que você tem, algo que você conhece." 
   
 Um exemplo típico da autenticação de dois fatores com um certificado é o uso de cartões inteligentes. Um cartão inteligente contém um certificado associado à conta do usuário e pode ser validado com as informações e certificado e usuário que estão armazenadas em um servidor. Ao comparar as informações do usuário (nome do usuário e senha) ao certificado fornecido, o servidor valida as credenciais e autentica o usuário.
   
-Ao configurar um Skype para ambiente de negócios Server 2015 para suportar a autenticação de dois fatores, considere os seguintes assuntos.
+Ao configurar um Skype para ambiente de servidor de negócios para suportar a autenticação de dois fatores, considere os seguintes assuntos.
   
 ## <a name="client-support"></a>Suporte de Cliente
 
@@ -34,9 +33,9 @@ As atualizações cumulativas do Lync Server 2013: julho de 2013 cliente de desk
   
 ## <a name="topology-requirements"></a>Requisitos de topologia
 
-Os clientes são altamente encorajados implantar a autenticação de dois fatores usando Skype dedicado para Business Server 2015 com borda, diretor e Pools de usuário. Para habilitar a autenticação passiva para usuários, é necessário desabilitar outros métodos de autenticação para outras funções e serviços, tais como:
+Os clientes são altamente encorajados implantar a autenticação de dois fatores usando Skype dedicado para Business Server com borda, diretor e Pools de usuário. Para habilitar a autenticação passiva para usuários, é necessário desabilitar outros métodos de autenticação para outras funções e serviços, tais como:
   
-|**Tipo de configuração**|**Tipo de serviço**|**Função de servidor**|**Tipo de autenticação para desabilitar**|
+|**Tipo de configuração**|**Tipo de serviço**|**Função de servidor**|**Tipo de autenticação a ser desabilitada**|
 |:-----|:-----|:-----|:-----|
 |Serviço Web  <br/> |WebServer  <br/> |Diretor  <br/> |Kerberos, NTLM e Certificado  <br/> |
 |Serviço Web  <br/> |WebServer  <br/> |Front-End  <br/> |Kerberos, NTLM e Certificado  <br/> |
@@ -57,7 +56,7 @@ Clientes que implantaram autenticação de dois fatores para o Microsoft Exchang
 
 Skype para usuários de negócios que estiverem configurados para aproveitar o recurso de repositório unificado de contatos encontrará que seus contatos não estão mais disponíveis após entrar com autenticação de dois fatores.
   
-Você deve usar o cmdlet **Invoke-CsUcsRollback** remover contatos do usuário existente do repositório unificado de contatos e armazená-los no Skype para Business Server 2015 antes de habilitar a autenticação de dois fatores.
+Você deve usar o cmdlet **Invoke-CsUcsRollback** remover contatos do usuário existente do repositório unificado de contatos e armazená-los no Skype para Business Server antes de habilitar a autenticação de dois fatores.
   
 ## <a name="skill-search"></a>Pesquisa de Habilidades
 
@@ -73,7 +72,7 @@ Usuários devem usar a opção **Excluir minhas informações de entrar** no Sky
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 
-Com o método de autenticação Kerberos ou NTLM, as credenciais do Windows do usuário são usadas automaticamente para autenticação. Em um Skype típica para implantação Business Server 2015 onde Kerberos e/ou NTLM está habilitado para autenticação, os usuários não devem ter que inserir suas credenciais cada vez que entrarem.
+Com o método de autenticação Kerberos ou NTLM, as credenciais do Windows do usuário são usadas automaticamente para autenticação. Em um Skype típica para implantação Business Server onde o Kerberos e/ou NTLM está habilitado para autenticação, os usuários não devem ter que inserir suas credenciais cada vez que entrarem.
   
 Se as credenciais dos usuários forem inadvertidamente solicitadas antes de ser necessário informar o PIN, a chave de registro **DisableNTCredentials** pode estar configurada por engano nos computadores clientes, possivelmente através de uma Política de Grupo.
   
@@ -109,6 +108,5 @@ Configurando um Proxy do ADFS ou Proxy reverso para suportar Skype para autentic
   
 ## <a name="see-also"></a>Consulte também
 
-[Configurar a autenticação de dois fatores no Skype para Business Server 2015](configure.md)
+[Configurar a autenticação de dois fatores no Skype para Business Server](configure.md)
   
-[Configurar a autenticação de dois fatores no Skype para Business Server 2015](configure.md)

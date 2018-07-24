@@ -1,25 +1,24 @@
 ---
-title: Relatório de Inventário de Telefones IP no Skype for Business Server 2015
+title: Relatório de inventário de telefones IP no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
-description: 'Resumo: Saiba mais sobre o relatório de inventário de telefones IP no Skype para Business Server 2015.'
-ms.openlocfilehash: fd68e94f9d4c30aafb86302d8211b52909f737db
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba mais sobre o relatório de inventário de telefones IP no Skype para Business Server.'
+ms.openlocfilehash: bbcbe74fe95d719bee2b8c660d110854088b1150
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569551"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017975"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server-2015"></a>Relatório de Inventário de Telefones IP no Skype for Business Server 2015
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Relatório de inventário de telefones IP no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de inventário de telefones IP no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de inventário de telefones IP no Skype para Business Server.
   
 O Relatório de Inventário de Telefones IP relata informações sobre os telefones IP em uso no momento em sua organização. O Relatório de Inventário de Telefones IP fornece uma lista detalhada de telefones IP que foram usados durante o período de relatório especificado. Entre outras coisas, esse relatório permite que os administradores saibam se há algum telefone velho e desatualizado em uso que deveria ser substituído; ele também alerta os administradores para o fato de que há telefones caros na organização, que raramente são usados. Esse tipo de informação pode ser inestimável quando se trata de comprar novos telefones ou redistribuir os existentes. (Por exemplo, um usuário que raramente usa seu telefone caro pode pedir para trocar com um usuário que usa seu telefone com muito mais frequência).
   
@@ -91,7 +90,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
   
 A tabela seguir lista os filtros que podem ser usados com o Relatório de Inventário de Telefones IP.
   
-**Filtros de relatório de inventário de telefone IP**
+**Filtros do Relatório de Inventário de Telefones IP**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -109,7 +108,7 @@ A tabela seguir lista os filtros que podem ser usados com o Relatório de Invent
 
 A tabela a seguir lista as informações fornecidas no Relatório de Inventário de Telefones IP.
   
-**Métricas do relatório de inventário de telefone IP**
+**Métricas do Relatório de Inventário de Telefones IP**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

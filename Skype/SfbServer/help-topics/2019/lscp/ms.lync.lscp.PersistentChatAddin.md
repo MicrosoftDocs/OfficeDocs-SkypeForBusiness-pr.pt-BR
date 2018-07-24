@@ -10,54 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
+ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode usar a seção Add-in da página Chat persistente para associar URLs salas de Chat persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
-ms.openlocfilehash: 9aebe2f1bb1f17a562130e06e3c3030f533659b8
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 302bb3fbf58d19eac59c9983b4a32474bc6cdf40
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964587"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984425"
 ---
 # <a name="persistent-chat-add-in"></a>Suplemento de Chat Persistente
- 
-Você pode usar a seção **Add-in** da página **Chat persistente** para associar URLs salas de Chat persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
-  
-Os suplementos são usados para estender a experiência na sala. Um suplemento típico pode incluir uma URL que aponta para um aplicativo Silverlight que intercepta quando um registrador de cotações é postado em uma sala de bate-papo e mostra o histórico de estoque no painel de extensibilidade. Outros exemplos incluem incorporando uma URL OneNote na sala de bate-papo como um suplemento para incluir alguns contexto compartilhado, como "Parte superior da mente" ou "Tópico do dia".
-  
-Para criar suplementos para salas de Chat persistente, consulte [Configurar suplementos para salas de Chat persistente no Skype para Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md). Se você for um administrador de Chat persistente, você pode criar suplementos usando o painel de controle ou os cmdlets do Windows PowerShell.
-  
-## <a name="tasks-that-you-can-perform"></a>Tarefas que podem ser executadas
 
-É possível executar as seguintes tarefas na página **Suplemento**:
-  
-- [Configurar suplementos para salas de Chat persistente no Skype para Business Server 2015](../../../manage/persistent-chat/configure-add-ins.md)
-    
-## <a name="to-configure-add-ins-for-chat-rooms"></a>Para configurar Suplementos para as salas de chat
-
-As listas a seguir descrevem os menus, comando, campos e propriedades na página.
-  
-1. A partir de uma conta de usuário com a função CsPersistentChatAdministrator ou CsAdministrator atribuída, faça o logon em qualquer computador na sua implementação interna.
-    
-2. No menu **Iniciar** , selecione o Skype para painel de controle do Business Server ou abrir uma janela de navegador e insira a URL do administrador. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle, consulte [Abrir ferramentas administrativas do Lync Server](http://technet.microsoft.com/library/8c58de94-9e0a-4368-9e14-9afcaa1142d0.aspx).
-    
-3. Na barra de navegação esquerda, clique em **Chat Persistente** e depois em **Suplemento**.
-    
-    Para várias implantações de pool de servidor de Chat persistente, selecione o pool apropriado na lista suspensa.
-    
-4. Na página **Suplementos**, clique em **Novo**.
-    
-5. Em **Selecionar um serviço**, selecione o serviço correspondente para o pool do servidor de Chat persistente onde você precisa criar o suplemento. Os Suplementos não podem ser movidos de um pool a outro nem compartilhado entre pools diferentes.
-    
-6. Em **Suplementos novos**, faça o seguinte:
-    
-  - Em **Nome**, especifique um nome para o novo suplemento.
-    
-  - Em **URL**, especifique a URL que deve ser associada ao suplemento. As URLs são limitadas aos protocolos http e https.
-    
-7. Clique em **Confirmar**.
-    
-### 
-
-Para obter detalhes sobre os recursos de servidor de Chat persistente e recursos, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server na Skype para Business Server 2015](../../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)e [Gerenciar o servidor de Chat persistente no Skype para Business Server 2015](../../../manage/persistent-chat/persistent-chat.md).
-  
-
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.

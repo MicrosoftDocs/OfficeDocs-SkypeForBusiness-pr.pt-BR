@@ -1,5 +1,5 @@
 ---
-title: Aqui está o que fazer com o sistema telefônico no Office 365
+title: Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: e2ba535de48e11e503280b8bd65fbe78611dc47d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4d3ec5d9d490a7ad0064611d36b788da69b726e2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975439"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Aqui está o que fazer com o sistema telefônico no Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365
 
 Um PBX é um sistema telefônico interno da empresa. O sistema telefônico no complemento do Office 365 oferece recursos de PBX, mas sem o equipamento de complicado e caro. 
   
@@ -77,7 +78,7 @@ Consulte estes artigos para planejar e configurar o sistema telefônico na sua e
   
 - [Configurar planos de chamar](../what-are-calling-plans-in-office-365/set-up-calling-plans.md): Este artigo tem instruções passo a passo para configurar o com seus números de telefone ou para transferir seus números de telefone existente para Skype para negócios.
     
-- [Planejar seu sistema telefônico na solução do Office 365 (PBX nuvem)](https://go.microsoft.com/fwlink/?LinkId=708645): TechNet deste artigo dispõe todas as opções de implantação. Ele também tem informações sobre o planejamento de uma solução inteiramente de nuvem. 
+- [Planejar seu sistema telefônico na solução do Office 365 (PBX nuvem)](https://go.microsoft.com/fwlink/?LinkId=708645): Este artigo dispõe todas as opções de implantação. Ele também tem informações sobre o planejamento de uma solução inteiramente de nuvem. 
     
 - [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md): Saiba quais licenças você precisará comprar para obter o sistema telefônico no Office 365.
     

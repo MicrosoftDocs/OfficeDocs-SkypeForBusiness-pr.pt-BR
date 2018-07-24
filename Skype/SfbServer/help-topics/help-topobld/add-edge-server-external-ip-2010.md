@@ -3,7 +3,7 @@ title: Adicionar IP externo do servidor de borda 2010
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Você pode configurar as propriedades dessa página para apontar o servidor de borda para os locais externos do serviço de borda de acesso, serviço de borda de webconferência e uma / serviço de borda V.
-ms.openlocfilehash: 0a233552a28c4f171c0f244b99d81c1b98e916b2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 38ed7bb591b7802a348529fbac02b7e59abd5ea7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993885"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Adicionar IP externo do servidor de borda 2010
  

@@ -1,5 +1,5 @@
 ---
-title: Configurar Skype para negócios 2015 de servidor usar o repositório unificado de contatos
+title: Configurar o Skype for Business Server para usar o repositório unificado de contatos
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
-description: 'Resumo: Configure o repositório unificado de contatos para o Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server 2015.'
-ms.openlocfilehash: 479032425c8a3d2d66bd341f54908a071dd5480d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Configure o repositório unificado de contatos para Exchange Server e do Skype para Business Server.'
+ms.openlocfilehash: 6dccf6b2e6461ede26f49fa9efb3386bd04a9db3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988766"
 ---
-# <a name="configure-skype-for-business-server-2015-to-use-the-unified-contact-store"></a>Configurar Skype para negócios 2015 de servidor usar o repositório unificado de contatos
+# <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar o Skype for Business Server para usar o repositório unificado de contatos
  
-**Resumo:** Configure o repositório unificado de contatos para o Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server 2015.
+**Resumo:** Configure o repositório unificado de contatos para o Exchange Server 2016 ou Exchange Server 2013 e Skype para Business Server.
   
-Usando o repositório unificado de contatos, os usuários mantém uma lista de contatos único e então tem esses contatos disponíveis em vários aplicativos, incluindo Skype para negócios, Microsoft Outlook 2013 e Microsoft Outlook Web App 2013. Quando você habilita o repositório unificado de contatos para um usuário, os contatos do usuário não estiverem armazenados em Skype para Business Server 2015 e recuperados conforme necessário. Em vez disso, seus contatos são armazenados no Exchange Server 2016 ou Exchange Server 2013 e serão recuperados usando serviços Web do Exchange.
+Usando o repositório unificado de contatos, os usuários mantém uma lista de contatos único e então tem esses contatos disponíveis em vários aplicativos, incluindo Skype para negócios, Microsoft Outlook 2013 e Microsoft Outlook Web App 2013. Quando você habilita o repositório unificado de contatos para um usuário, os contatos do usuário não estiverem armazenados no Skype para Business Server e recuperados conforme necessário. Em vez disso, seus contatos são armazenados no Exchange Server 2016 ou Exchange Server 2013 e serão recuperados usando serviços Web do Exchange.
   
 > [!NOTE]
 > Tecnicamente, informações de contato são armazenadas em um par de pastas encontradas na caixa de correio do Exchange do usuário. Os contatos sozinhos são armazenados em uma pasta denominada Skype para contatos comerciais que é visível aos usuários finais; metadados sobre os contatos são armazenados em uma subpasta que não é visível aos usuários finais. 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>Habilitando o repositório unificado de contatos para um usuário
 
-Se a autenticação de servidor-para-servidor entre o Skype para Business Server 2015 e Exchange Server 2016 ou Exchange Server 2013 já está configurada, então você também tenha habilitado o armazenamento unificado de contatos; Nenhuma configuração de servidor adicional é necessária. No entanto, será necessária configuração adicional da conta do usuário para transferir os contatos de um usuário para o repositório unificado de contatos. Por padrão, os contatos do usuário são mantidos no Skype para Business Server e não no repositório unificado de contatos.
+Se a autenticação de servidor-para-servidor entre o Skype para Business Server e o Exchange Server já está configurada, então você também tenha habilitado o armazenamento unificado de contatos; Nenhuma configuração de servidor adicional é necessária. No entanto, será necessária configuração adicional da conta do usuário para transferir os contatos de um usuário para o repositório unificado de contatos. Por padrão, os contatos do usuário são mantidos no Skype para Business Server e não no repositório unificado de contatos.
   
 Acesso ao repositório unificado de contatos é gerenciado por meio de Skype para políticas de serviços de usuário do servidor de negócios. As políticas de serviços de usuário têm uma única propriedade (UcsAllowed), que é usada para determinar o local onde os contatos de um usuário são armazenados. Se um usuário for gerenciado por uma política de serviços de usuário em que UcsAllowed foi definida como True ($True), os contatos do usuário serão armazenados no repositório unificado de contatos. Se o usuário é gerenciado por um usuário onde UcsAllowed tiver sido definida como False ($False) e seus contatos serão armazenados no Skype para Business Server de política de serviços.
   
@@ -60,7 +61,7 @@ Você pode verificar que os contatos de um usuário com êxito foram migrados pa
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Se Test-CsUnifiedContactStore for bem-sucedido, significa que os contatos do usuário sip:kenmyer@litwareinc.com foram migrados para o repositório unificado de contatos.
+Se Test-CsUnifiedContactStore for bem-sucedido, significa que os contatos para o usuário sip: kenmyer @<span></span>litwareinc<span></span>.com foram migrados para o armazenamento unificado de contatos.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Revertendo o repositório unificado de contatos
 

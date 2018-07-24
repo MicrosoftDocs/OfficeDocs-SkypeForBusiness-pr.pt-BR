@@ -1,24 +1,24 @@
 ---
-title: Relatório de Resumo de Qualidade de Mídia no Skype for Business Server 2015
+title: Media Quality relatório de resumo no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 6/29/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: 'Resumo: Saiba mais sobre o Media Quality relatório de resumo no Skype para Business Server 2015.'
-ms.openlocfilehash: 3691995cfc826bc4fb214800a36a6d51177a9cd3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o Media Quality relatório de resumo no Skype para Business Server.'
+ms.openlocfilehash: 42c6b36a9e5164f62a003dd1a3fb2f2709b3a6e1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004560"
 ---
-# <a name="media-quality-summary-report-in-skype-for-business-server-2015"></a>Relatório de Resumo de Qualidade de Mídia no Skype for Business Server 2015
+# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Media Quality relatório de resumo no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o Media Quality relatório de resumo no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o Media Quality relatório de resumo no Skype para Business Server.
   
 O Relatório de resumo de qualidade de mídia é talvez a melhor maneira de analisar a qualidade das chamadas em sua organização: este relatório fornece métricas de chamada para Qualidade de Serviço (QoS) divididas nas seguintes categorias:
   
@@ -38,13 +38,13 @@ O Relatório de resumo de qualidade de mídia é talvez a melhor maneira de anal
     
 Ao abrir pela primeira vez o relatório, você verá informações resumidas para cada uma das categorias. Sem deixar o relatório, você pode expandir cada categoria a ser analisado subcategorias como chamadas feitas a partir do Office Communicator 2007 R2 para Skype para negócios. Por sua vez, você pode ver os detalhes de cada chamada feita dentro dessa subcategoria.
   
-No Skype para Business Server 2015 o relatório de resumo de qualidade de mídia ainda mais divide os dados em três tipos de chamada: chamadas de áudio, vídeo e chamadas de compartilhamento de aplicativos. Cada tipo de chamada tem sua própria seção no relatório, e seu próprio conjunto de métricas de chamadas.
+No Skype para Business Server o relatório de resumo de qualidade de mídia ainda mais divide os dados em três tipos de chamada: chamadas de áudio, vídeo e chamadas de compartilhamento de aplicativos. Cada tipo de chamada tem sua própria seção no relatório, e seu próprio conjunto de métricas de chamadas.
   
 O Relatório de resumo de qualidade de mídia também permite aplicar filtros que permitem comparar a qualidade de chamada de chamadas com fio em relação a chamadas sem fio, chamadas internas x chamadas externas e chamadas VPN x chamadas não VPN.
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Como acessar o Relatório de resumo de qualidade de mídia
 
-O Relatório de resumo de qualidade de mídia é acessado na página inicial dos Relatórios de Monitoramento. Você pode analisar o [Call List Report no Skype para Business Server 2015](call-list-report-0.md) clicando em uma das seguintes métricas:
+O Relatório de resumo de qualidade de mídia é acessado na página inicial dos Relatórios de Monitoramento. Você pode analisar o [Call List Report no Skype para Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
   
 - Volume da chamada
     
@@ -72,7 +72,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resumo de Qualidade de Mídia.
   
-**Filtros do relatório de resumo de qualidade de mídia**
+**Filtros do Relatório de Resumo de Qualidade de Mídia**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -86,7 +86,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 
 A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Qualidade de Mídia.
   
-**Métricas do relatório de resumo de qualidade de mídia: Resumo de chamada de áudio**
+**Métricas do Relatório de Resumo de Qualidade de Mídia: Resumo da chamada de áudio**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -104,7 +104,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
 |**Taxa de correção estendida** <br/> |Não  <br/> |Taxa média de amostras de áudio estendidas para o número total de amostras. (Áudio estendido é o áudio que foi expandido a fim de ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos indicam níveis significativos de extensão de amostra causada por tremulação e resultam em um som robótico ou distorcido.  <br/> |
 |**Taxa de correção compactada** <br/> |Não  <br/> |Taxa média de amostras de áudio compactadas para o número total de amostras. (Áudio compactado é o áudio que foi compactado para ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos podem indicar níveis consideráveis de compactação de amostra causada por tremulação e resultam em um som acelerado ou distorcido.  <br/> |
    
-**Métricas do relatório de resumo de qualidade de mídia: Resumo de chamada de vídeo**
+**Métricas do Relatório de Resumo de Qualidade de Mídia: Resumo da chamada de vídeo**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -123,7 +123,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Resumo de Q
 |**% de taxa de quadros baixa de entrada** <br/> |Não  <br/> |Porcentagem da chamada onde a taxa de bits foi baixa para vídeo de entrada.  <br/> |
 |**% de integridade do cliente** <br/> ||Indica o estado relativo do dispositivo do cliente durante a chamada.  <br/> |
    
-**Métricas do relatório de resumo de qualidade de mídia: Resumo da chamada de compartilhamento de aplicativos**
+**Métricas do Relatório de resumo de qualidade de mídia: Resumo de chamada de compartilhamento de aplicativos**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

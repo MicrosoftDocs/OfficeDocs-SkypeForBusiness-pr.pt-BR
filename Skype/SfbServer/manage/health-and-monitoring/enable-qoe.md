@@ -1,24 +1,24 @@
 ---
-title: Habilitar a Qualidade da Experiência no Skype for Business Server 2015
+title: Habilitar a qualidade da experiência do Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
-description: 'Resumo: Saiba como habilitar a qualidade da experiência (QoE) no Skype para Business Server 2015.'
-ms.openlocfilehash: 8c63a1bf493e601c4936b83cc9edfaa6e3727f26
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como habilitar a qualidade da experiência (QoE) no Skype para Business Server.'
+ms.openlocfilehash: 37775223016a463fc7f090f82163fbf8271cd050
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993198"
 ---
-# <a name="enable-quality-of-experience-in-skype-for-business-server-2015"></a>Habilitar a Qualidade da Experiência no Skype for Business Server 2015
+# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Habilitar a qualidade da experiência do Skype para Business Server
  
-**Resumo:** Aprenda a habilitar a qualidade da experiência (QoE) no Skype para Business Server 2015.
+**Resumo:** Aprenda a habilitar a qualidade da experiência (QoE) no Skype para Business Server.
   
 A QoE (Qualidade da Experiência) registra dados numéricos que indicam a qualidade da mídia e informações sobre participantes, nomes de dispositivo, drivers, endereços IP e tipos de ponto de extremidade envolvidos em chamadas e sessões. Para obter detalhes, consulte [Planejando o monitoramento](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx) na documentação de planejamento.
   
@@ -29,7 +29,7 @@ Use o procedimento a seguir para habilitar QoE para toda sua organização ou pa
   
 ### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Para habilitar o QoE usando Skype para o painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     

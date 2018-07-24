@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
+ROBOTS: NOINDEX, NOFOLLOW
 description: As configurações da versão cliente são usadas para ativar ou desativar o controle de versão do cliente. A configuração de versão de cliente Global instala com Skype para Business Server e é usada para habilitar ou desabilitar o controle de versão de cliente para a implantação de servidores inteiro. Quando a configuração Global é habilitada, quaisquer políticas de versão do cliente existentes entrarão em vigor quando os usuários tentarem fazer logon. É possível desabilitar a configuração da versão do cliente Global se não quiser que ocorra qualquer controle de versão de cliente.
-ms.openlocfilehash: 3b03ae27b20ddd84a371c91c95bb3372457df33b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: a5647926d8fca4548dd376da6218e6f9aac27d3c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19987575"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983767"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuração de Versão de Cliente: Criar Nova ou Editar Existente
  

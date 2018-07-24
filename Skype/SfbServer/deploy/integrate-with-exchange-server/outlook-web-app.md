@@ -1,5 +1,5 @@
 ---
-title: Configure a integração entre o local Skype para Business Server 2015 e Outlook Web App
+title: Configurar a integração entre o local Skype para Business Server e o Outlook Web App
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,17 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumo: Integre Skype para Business Server e o Outlook Web App.'
-ms.openlocfilehash: 4ac4d6a71f8006e813d09631f8ccf28742940ff2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 206100ce74731b9ffa6b2987e4884b7589f6e2c8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20995845"
 ---
-# <a name="configure-integration-between-on-premises-skype-for-business-server-2015-and-outlook-web-app"></a>Configure a integração entre o local Skype para Business Server 2015 e Outlook Web App
+# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar a integração entre o local Skype para Business Server e o Outlook Web App
  
 **Resumo:** Integre Skype para Business Server e o Outlook Web App.
   
-Clientes que utilizam o local Skype para implantações de negócios Server 2015 podem configurar a interoperabilidade com o Microsoft Outlook Web App no Microsoft Exchange Online em um modo de implantação híbrida. Recursos de interoperabilidade incluem logon único, sistemas de mensagens instantâneas (IM) e integração de presença com a interface do Outlook Web App. Para habilitar essa integração, você deverá configurar o servidor de borda na sua Skype local para implantação de servidor de negócios concluindo as seguintes tarefas: 
+Clientes que utilizam o local Skype para implantações de servidor de negócios podem configurar a interoperabilidade com o Microsoft Outlook Web App no Microsoft Exchange Online em um modo de implantação híbrida. Recursos de interoperabilidade incluem logon único, sistemas de mensagens instantâneas (IM) e integração de presença com a interface do Outlook Web App. Para habilitar essa integração, você deverá configurar o servidor de borda na sua Skype local para implantação de servidor de negócios concluindo as seguintes tarefas: 
   
 - Configurar um espaço de endereçamento SIP compartilhado
     
@@ -31,7 +32,7 @@ Clientes que utilizam o local Skype para implantações de negócios Server 2015
     
 ## <a name="configure-a-shared-sip-address-space"></a>Configurar um espaço de endereçamento SIP compartilhado
 
-Para integrar o local Skype para 2015 do servidor de negócios com o Exchange Online, você deve configurar um espaço de endereçamento SIP compartilhado. O mesmo espaço de endereço de domínio SIP é compatível com Skype para Business Server e o serviço do Exchange Online.
+Para integrar o local Skype para Business Server com o Exchange Online, você deve configurar um espaço de endereçamento SIP compartilhado. O mesmo espaço de endereço de domínio SIP é compatível com Skype para Business Server e o serviço do Exchange Online.
   
 Usando o Skype do Shell de gerenciamento do servidor de negócios, configure o servidor de borda para federação executando o cmdlet **Set-CSAccessEdgeConfiguration** , usando os parâmetros exibidos no exemplo a seguir:
   
@@ -41,7 +42,7 @@ Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 - Parâmetro **AllowFederatedUsers** Especifica se os usuários internos poderão se comunicar com usuários de domínios federados. Essa propriedade também determina se os usuários internos podem se comunicar com usuários em um cenário de espaço de endereço SIP compartilhado com Skype para Business Server e o Exchange Online.
     
-Para obter detalhes sobre como usar o Skype do Shell de gerenciamento do servidor de negócios, consulte [Skype do Shell de gerenciamento do Business Server 2015](../../manage/management-shell.md).
+Para obter detalhes sobre como usar o Skype do Shell de gerenciamento do servidor de negócios, consulte [Skype do Shell de gerenciamento do servidor de negócios](../../manage/management-shell.md).
   
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Configurar um provedor de hospedagem no Servidor de Borda
 
@@ -86,9 +87,6 @@ Get-CsHostingProvider -LocalStore
 
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Fornecendo Skype para Business Server 2015 caixa postal aos usuários em UM do Exchange hospedado](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
+[Fornecendo Skype para Business Server caixa postal aos usuários em UM do Exchange hospedado](http://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
   
-[Hospedado integração Exchange Unified Messaging no Skype para Business Server 2015](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)
-
+[Hospedado integração Exchange Unified Messaging no Skype para Business Server](http://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx)

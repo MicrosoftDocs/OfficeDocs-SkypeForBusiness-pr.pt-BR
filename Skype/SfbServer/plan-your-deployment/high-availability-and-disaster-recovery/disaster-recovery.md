@@ -1,9 +1,8 @@
 ---
-title: Recuperação de desastre do pool de Front-Ends no Skype for Business Server 2015
+title: Front-End pool disaster recovery no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,18 +10,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Recuperação de desastres, Skype para Business Server oferece pareamento com failover no caso de um pool cair do pool.
-ms.openlocfilehash: 77d0f681b8fc4b88837ed46d1afc6bb415f46932
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 4f7be2c41155c25984a3a4892fdabe982384756a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505031"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979888"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server-2015"></a>Recuperação de desastre do pool de Front-Ends no Skype for Business Server 2015
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Front-End pool disaster recovery no Skype para Business Server
  
 Recuperação de desastres, Skype para Business Server oferece pareamento com failover no caso de um pool cair do pool.
   
-Para as mais robustas opções recuperação de desastres no Skype para Business Server, implante o pares de pools de Front-End entre dois sites geograficamente dispersos. Cada site tem um Pool de Front-Ends emparelhado com um Pool de Front-Ends correspondente no outro site. Os dois sites estão ativos, e o Serviço de Backup oferece replicação de dados em tempo real para manter os pools sincronizados. Consulte [Deploy emparelhada pools de Front-End para recuperação de desastres em Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) se você quiser implementar o pareamento de pool de Front-End.
+Para as mais robustas opções recuperação de desastres no Skype para Business Server, implante o pares de pools de Front-End entre dois sites geograficamente dispersos. Cada site tem um Pool de Front-Ends emparelhado com um Pool de Front-Ends correspondente no outro site. Os dois sites estão ativos, e o Serviço de Backup oferece replicação de dados em tempo real para manter os pools sincronizados. Consulte [Deploy emparelhada pools de Front-End para recuperação de desastres em Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) , se você quiser implementar o pareamento de pool de Front-End.
   
 ![Mostra Pools de Front-End em dois sites diferentes, emparelhados](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
@@ -30,9 +29,9 @@ Se o pool em um local falhar, é possível fazer failover dos usuários desse po
   
 Dois data centers que incluem Pools de Front-Ends emparelhados podem estar a qualquer distância um do outro. Recomendamos que os dois data centers sejam emparelhados na mesma região do mundo, com links de alta velocidade entre eles. 
   
-Ter dois data centers em regiões geográficas distintas é possível, mas poderia incorrer maior perda de dados, se houver um desastre, devido à latência na replicação dos dados.
+Ter dois data centers em regiões geográficas distintas é possível, mas pode incorrer em maior perda de dados caso ocorra algum desastre devido à latência na replicação dos dados.
   
-Quando você planejar quais pools emparelhar, você deve ter em mente que que somente os emparelhamentos a seguir são suportados:
+Ao planejar quais pools emparelhar, você deve ter em mente que somente os emparelhamentos a seguir são aceitos:
   
 - Os pools Enterprise Edition podem ser emparelhados somente com outros pools Enterprise Edition. Da mesma forma, pools Standard Edition podem ser emparelhados somente com outros pools Standard Edition.
     
@@ -46,7 +45,7 @@ Nem o Construtor de Topologias nem a validação da topologia proibirão o empar
 
 Além de permitir a recuperação de desastre, dois pools emparelhados atuam como os Registradores de backup entre si. Cada pool pode ser o backup para apenas um outro pool de Front-End.
   
-Embora as relações de backup entre dois pools de Front-End devem ser 1:1 e simétricas, cada pool de Front-End ainda pode ser o registrador de backup para qualquer número de aparelhos de filial persistente.
+Ainda que as relações de backup entre dois Pools de Front-Ends devam ser 1:1 e simétricas, cada Pool de Front-Ends ainda pode ser o registrador de backup de qualquer quantidade de Aparelhos de Filial Persistente.
   
 Observe que o Skype for Business não estende o suporte de recuperação de desastre a usuários hospedados em um Aparelho de Filial Persistente. Se um Pool de Front-Ends que atua como o backup para um Aparelho de Filial Persistente sair do ar, os usuários conectados ao Aparelho de Filial Resistente entrarão no modo de resiliência mesmo que seja feito o failover dos usuários hospedados no Pool de Front-Ends para o backup do Pool de Front-End.
   
@@ -66,11 +65,11 @@ Se você emparelhar o pool que hospeda o Repositório de Gerenciamento Central, 
   
 ![Mostra dois Pools de Front-End, um com repositório de CMS ativo e o outro com o repositório de CMS de backup passivo](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
-Durante um failover de pool que envolve o pool que hospeda o repositório de gerenciamento Central, você deve fazer o failover do repositório de gerenciamento Central antes de você failover de pool Front-End.
+Durante um failover do pool que envolve o pool que está hospedando o Repositório de Gerenciamento Central, você tem que fazer failover do Repositório de Gerenciamento Central antes de fazer failover do Pool de Front-Ends.
   
 Depois que o desastre for resolvido, não será necessário fazer failback do Repositório de Gerenciamento Central. Ele poderá permanecer no pool para o qual você fez failover.
   
-Os alvos projetados para failover do repositório de gerenciamento Central serão de 5 minutos para objetivo de tempo de recuperação (RTO) e objetivo (RPO) de ponto de 5 minutos para a recuperação.
+Os destinos projetados para failover do Repositório de Gerenciamento Central para o objetivo de tempo de recuperação (RTO) e para o objetivo de ponto de recuperação (RPO) são de 5 minutos.
   
 ## <a name="front-end-pool-pairing-data-security"></a>Segurança de dados de emparelhamento do Pool de Front-Ends
 
@@ -90,13 +89,13 @@ Nós não implicam que é a única solução, nem que podemos implicam que é a 
   
 Outra solução possível é usar o IPSec apenas para ajudar a proteger os dados enviados pelo próprio Serviço de Backup. Se você escolher este método, deverá configurar as regras do IPSec para o protocolo SMB nos seguintes servidores, onde Pool A e Pool B são dois Pools de Front-Ends emparelhados.
   
-- O serviço de SMB (TCP/445) de cada servidor Front-End no Pool A para o repositório de arquivos usado pelo Pool b
+- O Serviço SMB (TCP/445) de cada Servidor Front-End no Pool A para o Repositório de Arquivos usado pelo Pool B.
     
-- O serviço SMB (TCP/445) de cada servidor Front-End no Pool B para o repositório de arquivos usado pelo Pool A.
+- O Serviço SMB (TCP/445) de cada Servidor Front-End no Pool B para o Repositório de Arquivos usado pelo Pool A.
     
 > [!CAUTION]
 >  O IPsec não deve ser usado para substituir a segurança no nível de aplicativo, como SSL/TLS. Uma vantagem de usar o IPsec é que ele pode fornecer segurança ao tráfego da rede para os aplicativos existentes sem ter de alterá-los. As empresas que deseja apenas o transporte seguro entre os dois data centers devem consultar seus respectivos fornecedores de hardware de rede sobre as maneiras de configurar as conexões WAN seguras usando o equipamento do fornecedor.
   
 ## <a name="see-also"></a>Consulte também
 
-[Implantar pools de Front-End pareados para recuperação de desastres em Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[Implantar pools de Front-End pareados para recuperação de desastres em Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

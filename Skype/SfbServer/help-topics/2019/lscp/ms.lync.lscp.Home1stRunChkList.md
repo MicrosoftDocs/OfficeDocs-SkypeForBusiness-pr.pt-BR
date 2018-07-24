@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
+ROBOTS: NOINDEX, NOFOLLOW
 description: Bem-vindo ao Skype para painel de controle do Business Server, a interface de usuário baseada na web para administração e gerenciamento do Skype para Business Server. Você pode usar o painel de controle para executar os tipos de tarefas administrativas que eram executados no Console de Gerenciamento Microsoft nas versões anteriores.
-ms.openlocfilehash: 6dabfb48568d7b0eeff5148c4c35dc1a9ceec255
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+ms.openlocfilehash: 543edca48ad12c5047e2a68004aaa5a9ec7f5178
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088458"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968520"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Executar primeiro lista de verificação do Painel de Controle do Skype for Business Server.
  
@@ -38,6 +39,6 @@ Há um número de tarefas importantes que é altamente recomendável que você e
 |Caso tenha implantado ou queira implantar o Enterprise Voice, configure uma conexão de tronco SIP para habilitar a conectividade à Rede Telefônica Pública Comutada (PSTN).  <br/> |**Roteamento de Voz** <br/> |[Configurando troncos e regras de conversão](http://technet.microsoft.com/library/0c339511-a185-484e-94f0-dbe918b7e48a.aspx) <br/> |
 |Caso tenha implantado o Enterprise Voice, verifique suas configurações de roteamento.  <br/> |**Roteamento de Voz** <br/> |[Testar roteamento de voz](http://technet.microsoft.com/library/d3aae909-fef6-440f-b144-0b62dc82bf5d.aspx) <br/> |
 |Verifique se as políticas e configurações de arquivamento atendem às necessidades de conformidade de sua organização, caso tenha implantado um Servidor de Arquivamento.  <br/> |**Monitoramento e Arquivamento** <br/> |[Gerenciando o arquivamento](http://technet.microsoft.com/library/48c6cc8c-c2c1-4534-9a8a-fd5eb738076a.aspx) <br/> |
-|Caso tenha implantado o Servidor de Monitoramento, consulte seus relatórios para visualizar informações sobre uso e diagnóstico.  <br/> |**Página Inicial** <br/> |[Gerenciar a saúde e o monitoramento no Skype for Business Server 2015](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
+|Caso tenha implantado o Servidor de Monitoramento, consulte seus relatórios para visualizar informações sobre uso e diagnóstico.  <br/> |**Página Inicial** <br/> |[Gerenciar a integridade e monitoramento no Skype para Business Server](../../../manage/health-and-monitoring/health-and-monitoring.md) <br/> |
    
 

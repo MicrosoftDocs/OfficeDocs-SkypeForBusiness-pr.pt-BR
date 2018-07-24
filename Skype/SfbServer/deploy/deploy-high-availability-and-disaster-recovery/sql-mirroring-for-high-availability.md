@@ -3,21 +3,20 @@ title: Implantar espelhamento de SQL para alta disponibilidade do servidor back-
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/14/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte cumulativa 9 do pacote de atualização para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 9edbda5d793fed48d31625c3e0d53ab2f9e6d349
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a0baf639b050d323a29eb347c14b38505f059ef2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569135"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016203"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar espelhamento de SQL para alta disponibilidade do servidor back-end no Skype for Business Server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar o espelhamento do SQL para servidor Back-End alta disponibilidade em Skype para Business server 2015
  
 
 Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte [cumulativa 9 para SQL Server 2008 Service Pack 1 do pacote de atualização ](http://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -121,11 +120,11 @@ Lembre-se disto ao configurar o espelhamento de SQL:
     
   - [O banco de dados (SQL Server) do ponto de extremidade de espelhamento](https://go.microsoft.com/fwlink/p/?LinkId=247347)
     
-## <a name="using-skype-for-business-server-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Usando o Skype para Cmdlets do Shell de gerenciamento de servidor de negócios para configurar o espelhamento do SQL
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Usando o Skype para Cmdlets do Shell de gerenciamento do Business Server 2015 ao conjunto o espelhamento SQL
 
 A maneira mais fácil de configurar o espelhamento é usando o construtor de topologia, mas você também pode fazer isso usando cmdlets.
   
-1. Abra um Skype para a janela do Shell de gerenciamento do servidor de negócios e execute o seguinte cmdlet:
+1. Abra um Skype para a janela do Shell de gerenciamento do Business Server 2015 e execute o seguinte cmdlet:
     
    ```
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose 

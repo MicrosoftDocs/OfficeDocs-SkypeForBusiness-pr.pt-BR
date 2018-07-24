@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
+ROBOTS: NOINDEX, NOFOLLOW
 description: Na página nova configuração de dispositivo ou Editar configuração de dispositivo, você pode criar ou modificar um conjunto de configurações usadas para gerenciar Skype para negócios Phone Edition. Essas configurações permitem que você configure aspectos como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
-ms.openlocfilehash: f2bea8a2bdeb5a217444cfa18706adfa087a7229
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 9e91313db84a870ef4f85105ddf2b2138d8948aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979348"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997927"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuração de Dispositivo: Criar Nova ou Editar Existente
  
@@ -60,6 +61,6 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
     
 ## <a name="see-also"></a>Consulte também
 
-[Configuração de dispositivo](ms.lync.lscp.ClientDeviceCfgMain.md)
+[Configuração de Dispositivos](ms.lync.lscp.ClientDeviceCfgMain.md)
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

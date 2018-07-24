@@ -1,25 +1,24 @@
 ---
-title: Gerenciar políticas de PIN para conferência discada no Skype para Business Server 2015
+title: Gerenciar políticas de PIN para conferência discada no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 'Resumo: Saiba como gerenciar políticas de PIN para conferência discada no Skype para Business Server 2015.'
-ms.openlocfilehash: ee6a303a59ef6bc17ca3bd3300a701505cf9042b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como gerenciar políticas de PIN para conferência discada no Skype para Business Server.'
+ms.openlocfilehash: 0fd6d8a3ebfaeee0c6b4b3757a7b58b8d3882d71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569048"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013411"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server-2015"></a>Gerenciar políticas de PIN para conferência discada no Skype para Business Server 2015
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gerenciar políticas de PIN para conferência discada no Skype para Business Server
  
-**Resumo:** Saiba como gerenciar políticas de PIN para conferência discada no Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar políticas de PIN para conferência discada no Skype para Business Server.
   
 Skype para usuários de Business Server que possuem credenciais do Active Directory Domain Services (AD DS) em sua organização pode ingressar em conferências discadas como usuários autenticados usando um número de identificação pessoal (PIN). A política de PIN define as regras de funcionamento dos PINs de conferências de discagem.
   
@@ -35,7 +34,7 @@ Você pode exibir informações sobre diretivas de PIN usando Skype para o paine
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Exibir informações sobre diretivas de PIN usando Skype para o painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2.  Abra o Skype para painel de controle do servidor de negócios.
     
@@ -59,7 +58,7 @@ Você pode modificar a política PIN global usando Skype para o painel de contro
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar a conferência de discagem global política de PIN usando Skype para o painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2.  Abra o Skype para painel de controle do servidor de negócios.
     
@@ -104,7 +103,7 @@ Você pode criar um usuário ou a política de PIN de site usando Skype para o p
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Criar um usuário ou a política de PIN de site usando o Skype para painel de controle do servidor de negócios
 
-1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1. A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2.  Abra o Skype para painel de controle do servidor de negócios.
     
@@ -155,7 +154,7 @@ Você pode modificar a um usuário ou a política de PIN de site usando Skype pa
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modificar um usuário ou a política de PIN de site usando Skype para o painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2.  Abra o Skype para painel de controle do servidor de negócios.
     
@@ -185,7 +184,7 @@ Você pode excluir um usuário ou a política de PIN de site usando Skype para o
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Excluir um usuário ou a política de PIN de site usando o Skype para painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2.  Abra o Skype para painel de controle do servidor de negócios.
     

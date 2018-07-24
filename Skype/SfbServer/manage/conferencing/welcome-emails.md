@@ -1,24 +1,24 @@
 ---
-title: Enviar um email de boas-vindas para usuários de discagem no Skype for Business Server 2015
+title: Enviar e-mail de boas vindas discada usuários em Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Resumo: Saiba como receba os usuários conferência discada no Skype para Business Server 2015.'
-ms.openlocfilehash: 0aa939e2ef742c554339967e31204461bca52b6f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como receba os usuários conferência discada no Skype para Business Server.'
+ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008677"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server-2015"></a>Enviar um email de boas-vindas para usuários de discagem no Skype for Business Server 2015
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar e-mail de boas vindas discada usuários em Skype para Business Server
  
-**Resumo:** Aprenda a receba os usuários conferência discada no Skype para Business Server 2015.
+**Resumo:** Aprenda a receba os usuários conferência discada no Skype para Business Server.
   
 Depois de configurar a conferência discada e de testar para verificar se ela está funcionando corretamente, defina PINs (números de identificação pessoal) para os usuários e notifique-os sobre a disponibilidade do recurso. Você pode incluir instruções introdutórias como o PIN inicial e o link para a página da Web de Configurações da Conferência Discada. 
   
@@ -28,9 +28,9 @@ Normalmente, você usar o cmdlet **Set-CsClientPin** para redefinir o PIN, mas v
   
 É possível criar um script que executa o script **Set-CsPinSendCAWelcomeMail** iterativamente a fim de definir PINs e enviar email a um grupo de usuários. É possível modificar o modelo de email (ou seja, o arquivo CAWelcomeEmailTemplate.html) para adicionar mais links às páginas da intranet ou modificar o texto do email.
   
-## 
 
-### <a name="set-an-initial-pin-and-send-welcome-email"></a>Definir um PIN inicial e enviar um email de boas vindas
+
+## <a name="set-an-initial-pin-and-send-welcome-email"></a>Definir um PIN inicial e enviar um email de boas vindas
 
 1. Faça logon como membro do grupo RTCUniversalServerAdmins.
     

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Para especificar novas, remover as existentes ou alterar a ativa as URLs simples, faça o seguinte:'
-ms.openlocfilehash: 5aa9b62c9c87002544fdc0ee5b045436ee80dd84
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 064d26bb3b77f0ba151ee3a6714e0ac233a7bfa0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19992220"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20990592"
 ---
 # <a name="simple-url-settings-expander"></a>Expansor de configurações de URL simples
  
@@ -44,7 +44,7 @@ Para editar ou alterar a URL de acesso Administrativo, edite a entrada.
   
 Depois de terminar com todas as alterações na página Editar propriedades, clique em **Okey** para salvar as alterações. Clique em **Cancelar** para descartar as alterações.
   
-## 
+###  <a name="see-also"></a>Consulte também
 
 Para obter detalhes, consulte [Planning for Simple URLs](http://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
   

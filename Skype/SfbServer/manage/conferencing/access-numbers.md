@@ -1,29 +1,28 @@
 ---
-title: Gerenciar os números de acesso da conferência discada no Skype for Business Server 2015
+title: 'Gerenciar os números de acesso de conferência discada em Skype para Business Server '
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: 'Resumo: Saiba como gerenciar os números de acesso de conferência discada em Skype para Business Server 2015.'
-ms.openlocfilehash: 3bbde214863fa7d08214569e4d9aa2a767016eb4
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como gerenciar os números de acesso de conferência discada em Skype para Business Server.'
+ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569432"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21008185"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server-2015"></a>Gerenciar os números de acesso da conferência discada no Skype for Business Server 2015
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gerenciar os números de acesso de conferência discada em Skype para Business Server
  
-**Resumo:** Saiba como gerenciar os números de acesso de conferência discada em Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar os números de acesso de conferência discada em Skype para Business Server.
   
 Ao implantar uma conferência discada, você precisa configurar números de telefone que os usuários poderão discar da PSTN para participar da parte de áudio das conferências. Esses números de acesso de discagem aparecem nos convites de reunião e na página Configurações de Conferência Discada. 
   
-Este tópico descreve como exibir, modificar ou excluir números de acesso de conferência discada existentes. Para obter mais informações sobre como criar os números de acesso de discagem inicial, consulte [Configure a conferência discada no Skype para Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+Este tópico descreve como exibir, modificar ou excluir números de acesso de conferência discada existentes. Para obter mais informações sobre como criar os números de acesso de discagem inicial, consulte [Configure a conferência discada no Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Visualizar números de acesso de conferência discada
 
@@ -122,7 +121,7 @@ Você pode modificar os números de acesso discado usando Skype para o painel de
     
     É possível escolher até quatro idiomas secundários para cada número de acesso de discagem. Os usuários podem selecionar um idioma secundário antes de inserir o ID de conferência ao ligarem para uma.
     
-12. Para adicionar uma região para o número de acesso de discagem, em **regiões associadas**, clique em * * Add * *, clique em uma ou mais regiões associadas com os planos de discagem para este número de acesso de discagem e clique em **Okey**.
+12. Para adicionar uma região para o número de acesso de discagem, em **regiões associadas**, clique em **Adicionar**, clique em uma ou mais regiões que estão associados com os planos de discagem para este número de acesso de discagem e clique em **Okey**.
     
 13. Para excluir uma região do número de acesso de discagem, em **Regiões Associadas**, clique na região a ser excluída e clique em **Remover**.
     
@@ -152,7 +151,7 @@ Você pode excluir um número de acesso de conferência discada usando Skype par
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Excluir um número de acesso de conferência discada usando o Skype para painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2.  Abra o Skype para painel de controle do servidor de negócios.
     

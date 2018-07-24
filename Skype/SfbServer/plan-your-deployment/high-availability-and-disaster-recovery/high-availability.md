@@ -3,7 +3,6 @@ title: Alta disponibilidade e gerenciamento de Pool de Front-Ends
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Saiba mais sobre o gerenciamento de pool de Front-End do Skype para Business Server, incluindo o gerenciamento de pools, perda de quórum e etapas especiais para pools com apenas dois servidores Front-End.
-ms.openlocfilehash: f348fcc4fee6a48a41265da88fe432d9e4550b6c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005243"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidade e gerenciamento de Pool de Front-Ends
  
@@ -29,9 +29,9 @@ No Skype para Business Server, a arquitetura de pools de Front-End usa um modelo
   
 Com o modelo distribuído para pools de Front-End, um determinados números dos servidores de um pool devem estar executando para o pool funcione. Há dois modos de perda de um pool.
   
-- Perda de quórum de nível de grupo de roteamento, causado por não há servidores de réplica para um determinado grupo de roteamento. Um grupo de roteamento é um conjunto de usuários hospedados no pool. Cada grupo de roteamento tem três réplicas no pool: uma réplica primária e duas réplicas secundárias.
+- Perda de quórum no nível do grupo de roteamento, causada por servidores de réplica insuficientes para um grupo de roteamento em particular. Um grupo de roteamento é um conjunto de usuários hospedados no pool. Cada grupo de roteamento tem três réplicas no pool: uma réplica primária e duas réplicas secundárias.
     
-- Perda de quórum de nível de pool, causada quando não há servidores de propagação estão executando no pool. 
+- Perda de quórum no nível do pool, causada quando um número insuficiente de servidores de propagação está em execução no pool. 
     
 ### <a name="routing-group-level-quorum-loss"></a>Perda de quórum no nível do grupo de roteamento
 
@@ -77,7 +77,7 @@ Observe alguns outros fatores para garantir que seus Pools de Front-Ends permane
   
 - Quando você mover usuários para o pool pela primeira vez, certifique-se pelo menos que três dos servidores Front-End estão em execução.
     
-- Se você estabelecer um relacionamento de emparelhamento entre este e um outro pool para fins de recuperação de desastres, após estabelecer esse relacionamento você deve garantir que o pool tenha três servidores Front-End em execução simultânea em algum momento para sincronizar adequadamente os dados com o pool de backup. Para obter mais informações sobre os recursos de recuperação de desastres e pareamento do pool, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server 2015](high-availability-and-disaster-recovery.md). 
+- Se você estabelecer um relacionamento de emparelhamento entre este e um outro pool para fins de recuperação de desastres, após estabelecer esse relacionamento você deve garantir que o pool tenha três servidores Front-End em execução simultânea em algum momento para sincronizar adequadamente os dados com o pool de backup. Para obter mais informações sobre os recursos de recuperação de desastres e pareamento do pool, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server](high-availability-and-disaster-recovery.md). 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Pool de Front-Ends com dois servidores Front-End
 

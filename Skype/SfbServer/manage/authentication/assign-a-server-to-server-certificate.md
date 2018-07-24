@@ -1,32 +1,32 @@
 ---
-title: Atribuir um certificado de autenticação servidor para servidor ao Skype for Business Server 2015
+title: Atribuir um certificado de autenticação de servidor-para-servidor ao Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
-description: 'Resumo: Atribua um certificado de autenticação de servidor-para-servidor para Skype para Business Server 2015.'
-ms.openlocfilehash: 7bc697d9c45b55708ffb3fa20f04fbeb3eec9de9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Atribua um certificado de autenticação de servidor-para-servidor para Skype para Business Server.'
+ms.openlocfilehash: 9bf2cf1ceaa43d5471d699a44f3e965b1bc5eda8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993754"
 ---
-# <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server-2015"></a>Atribuir um certificado de autenticação servidor para servidor ao Skype for Business Server 2015
-**Resumo:** Atribua um certificado de autenticação de servidor-para-servidor para Skype para Business Server 2015.
+# <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Atribuir um certificado de autenticação de servidor-para-servidor ao Skype para Business Server
+**Resumo:** Atribua um certificado de autenticação de servidor-para-servidor para Skype para Business Server.
   
-Para determinar se ou não um certificado de autenticação de servidor-para-servidor já tenha sido atribuído a Skype para Business Server 2015, execute o seguinte comando do Skype do Shell de gerenciamento do servidor de negócios:
+Para determinar se ou não um certificado de autenticação de servidor-para-servidor já tenha sido atribuído a Skype para Business Server, execute o seguinte comando do Skype do Shell de gerenciamento do servidor de negócios:
   
 ```
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-Se nenhuma informação de certificado for retornada, você deverá atribuir um certificado emissor de token antes de poder usar a autenticação servidor- servidor. Como regra geral, qualquer Skype para Business Server 2015 certificado pode ser usado como seu certificado OAuthTokenIssuer; Por exemplo, seu Skype para o certificado padrão de negócios Server 2015 também pode ser usado como o certificado OAuthTokenIssuer. (O certificado OAUthTokenIssuer também pode ser qualquer certificado de servidor Web que inclui o nome do seu domínio SIP no campo assunto.) Os dois requisitos principais para o certificado usado para autenticação de servidor-para-servidor são estes: 1) o mesmo certificado deve ser configurado como o certificado OAuthTokenIssuer em todos os seus servidores Front-End; e, 2) o certificado deve ser de pelo menos 2048 bits.
+Se nenhuma informação de certificado for retornada, você deverá atribuir um certificado emissor de token antes de poder usar a autenticação servidor- servidor. Como regra geral, qualquer Skype para o certificado de servidor de negócios pode ser usado como seu certificado OAuthTokenIssuer; Por exemplo, seu Skype para o certificado do servidor de negócios padrão também pode ser usado como o certificado OAuthTokenIssuer. (O certificado OAUthTokenIssuer também pode ser qualquer certificado de servidor Web que inclui o nome do seu domínio SIP no campo assunto.) Os dois requisitos principais para o certificado usado para autenticação de servidor-para-servidor são estes: 1) o mesmo certificado deve ser configurado como o certificado OAuthTokenIssuer em todos os seus servidores Front-End; e, 2) o certificado deve ser de pelo menos 2048 bits.
   
 Se você não tiverum certificado que possa ser usado para autenticação servidor-servidor, é possível obter um novo certificado, importá-lo e usar para autenticação servidor-servidor. Após ter obtido o novo certificado e solicitado pode fazer logon em qualquer um dos seus servidores Front-End e usar um comando do Windows PowerShell semelhante a essa para importar e atribuir o certificado:
   
@@ -43,9 +43,9 @@ $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
 
-No comando anterior, o certificado recuperado é configurado para funcionar como o certificado de autenticação de servidor-para-servidor global; Isso significa que o certificado será replicado e usado por, todos os seus servidores Front-End. Novamente, este comando deve ser executado somente uma vez e apenas em um dos seus servidores Front-End. Embora todos os servidores Front-End deve usar o mesmo certificado, você não deve configurar o certificado OAuthTokenIssuer em cada servidor Front-End. Em vez disso, configure o certificado de uma vez e permitir que o Skype para o servidor de duplicação Business Server 2015 cuidar de copiar o certificado para cada servidor.
+No comando anterior, o certificado recuperado é configurado para funcionar como o certificado de autenticação de servidor-para-servidor global; Isso significa que o certificado será replicado e usado por, todos os seus servidores Front-End. Novamente, este comando deve ser executado somente uma vez e apenas em um dos seus servidores Front-End. Embora todos os servidores Front-End deve usar o mesmo certificado, você não deve configurar o certificado OAuthTokenIssuer em cada servidor Front-End. Em vez disso, configure o certificado de uma vez e permitir que o Skype para o servidor de duplicação Business Server cuidam de copiar o certificado para cada servidor.
   
-O cmdlet Set-CsCertificate leva o certificado em questão e configura o certificado para agir como o certificado OAuthTokenIssuer atual imediatamente. (Skype para Business Server 2015 mantém duas cópias de um tipo de certificado: o certificado atual e o certificado anterior.) Se você precisar o novo certificado para iniciar imediatamente agir como o certificado OAuthTokenIssuer, em seguida, você deve usar o cmdlet Set-CsCertificate.
+O cmdlet Set-CsCertificate leva o certificado em questão e configura o certificado para agir como o certificado OAuthTokenIssuer atual imediatamente. (Skype para Business Server mantém duas cópias de um tipo de certificado: o certificado atual e o certificado anterior.) Se você precisar o novo certificado para iniciar imediatamente agir como o certificado OAuthTokenIssuer, em seguida, você deve usar o cmdlet Set-CsCertificate.
   
 Também é possível usar o cmdlet Set-CsCertificate para "criar" um novo certificado. "Criar" um certificado simplesmente significa que você configura um novo certificado para se tornar o certificado OAuthTokenIssuer atual em um determinado ponto no tempo. Por exemplo, esse comando recupera o certificado padrão e configura o certificado para assumir como o certificado OAuthTokenIssuer atual a partir de 1° de julho de 2015:
   
@@ -54,20 +54,20 @@ $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2015" -Roll
 ```
 
-Em 1° de julho de 2015, o novo certificado será configurado como o certificado OAuthTokenIssuer atual e o certificado OAuthTokenIssuer "antigo" será configurado como o certificado anterior.
+Em 1º de julho de 2015, o novo certificado será configurado como o certificado OAuthTokenIssuer atual e o certificado OAuthTokenIssuer "antigo" será configurado como o certificado anterior.
   
 Se você não quiser usar o Windows PowerShell, você também pode usar o console do MMC de certificados para exportar um certificado de um servidor Front-End e depois importar o mesmo certificado em todos os seus outros servidores Front-End. Se você fizer isso, certifique-se de exportar a chave privada junto com o próprio certificado.
   
 > [!CAUTION]
-> Nesse caso, o procedimento deve ser executado em cada servidor Front-End. Quando a exportação e importação de certificados dessa maneira Skype para Business Server 2015 não replicará esse certificado para cada servidor Front-End. 
+> Nesse caso, o procedimento deve ser executado em cada servidor Front-End. Quando a exportação e importação de certificados dessa maneira Skype para Business Server não replicará esse certificado para cada servidor Front-End. 
   
 Depois que o certificado foi importado para todos os seus servidores Front-End, esse certificado pode ser atribuído usando o Skype para o Assistente de implantação Business Server, em vez do Windows PowerShell. Para atribuir um certificado usando o Assistente de Implantação, conclua as seguintes etapas em um computador no qual o Assistente de Implantação tenha sido instalado:
   
-1. Clique em Iniciar, clique em todos os programas, clique em **Skype para Business Server 2015**e clique **Skype para o Assistente de implantação de servidor de negócios**.
+1. Clique em Iniciar, clique em todos os programas, clique **Skype para Business Server**e clique em **Skype para o Assistente de implantação de servidor de negócios**.
     
 2. No Assistente de implantação, clique em **instalar ou Skype de atualização para o sistema de servidor de negócios**.
     
-3. Em Skype para Business Server 2015 página, clique no botão **Executar** , sob o título **etapa 3: solicitar, instalar ou atribuir certificados**. (Observação: Se você já tiver instalado certificados neste computador, o botão **Executar** será chamado **Executar novamente**.)
+3. Sobre o Skype para página Business Server, clique no botão **Executar** , sob o título **etapa 3: solicitar, instalar ou atribuir certificados**. (Observação: Se você já tiver instalado certificados neste computador, o botão **Executar** será chamado **Executar novamente**.)
     
 4. No Assistente de Certificado, selecione o certificado **OAuthTokenIssuer** e clique em **Atribuir**.
     

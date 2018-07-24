@@ -1,9 +1,8 @@
 ---
-title: Estimando o uso de voz e o tráfego para Skype para Business Server 2015
+title: Estimando o uso de voz e o tráfego para Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 10/22/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: Você pode usar a métrica a seguir para estimar o tráfego de usuário em cada local e o número de portas necessárias para dar suporte a esse tráfego.
-ms.openlocfilehash: dffcfdf7dcf70162b2a9c9ce65ab56b9025a4db0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ec4079608bedc19e9cba2e6c1e872d770e6bce46
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980461"
 ---
-# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server-2015"></a>Estimando o uso de voz e o tráfego para Skype para Business Server 2015
+# <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Estimando o uso de voz e o tráfego para Skype para Business Server
  
 Você pode usar a métrica a seguir para estimar o tráfego de usuário em cada local e o número de portas necessárias para dar suporte a esse tráfego.
   

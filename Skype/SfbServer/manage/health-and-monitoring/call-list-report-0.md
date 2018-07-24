@@ -1,26 +1,26 @@
 ---
-title: Relatório de lista de chamadas no Skype for Business Server 2015
+title: Relatório de lista de chamadas no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: 'Resumo: Saiba mais sobre o Call List Report usada no Skype para Business Server 2015.'
-ms.openlocfilehash: 8e26f5e9dbe3b72cb07333dae7a10cc2d4bcb80d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o Call List Report usada no Skype para Business Server.'
+ms.openlocfilehash: af9c729adf17fd0df24a76bd13f48501b0f2eba1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968351"
 ---
-# <a name="call-list-report-in-skype-for-business-server-2015"></a>Relatório de lista de chamadas no Skype for Business Server 2015
+# <a name="call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamadas no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o Call List Report usada no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o Call List Report usada no Skype para Business Server.
   
-O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experiência) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependem de como você acessa o relatório de Lista de Chamadas. Por exemplo, se você abrir o relatório do [Relatório de dispositivo no Skype para Business Server 2015](device-report.md), você verá métricas, como a seguir, as métricas que também são relatadas no relatório de dispositivo:
+O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experiência) para chamadas individuais feitas e recebidas em sua organização. Observe que as métricas reais relatadas dependem de como você acessa o relatório de Lista de Chamadas. Por exemplo, se você abrir o relatório do [Relatório de dispositivo no Skype para Business Server](device-report.md), você verá métricas, como a seguir, as métricas que também são relatadas no relatório de dispositivo:
   
 - Microfone do chamador
     
@@ -32,7 +32,7 @@ O Relatório de Lista de Chamadas fornece métricas de QoE (qualidade da experi�
     
 - Tempo de troca da taxa de voz 
     
-No entanto, se você abrir o relatório de lista de chamadas do [Location Report no Skype para Business Server 2015](location-report.md), você não verá nenhuma dessas métricas; em vez disso, você verá métricas como estes:
+No entanto, se você abrir o relatório de lista de chamadas do [Location Report no Skype para Business Server](location-report.md), você não verá nenhuma dessas métricas; em vez disso, você verá métricas como estes:
   
 - Viagem de ida e volta (ms)
     
@@ -48,15 +48,15 @@ Há métricas relatadas no Relatório de Local. Entretanto, a partir do Relatór
 
 O Relatório de Lista de Chamadas pode ser acessado de qualquer um dos seguintes relatórios:
   
-- O [Relatório de localização no Skype para Business Server 2015](location-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [Relatório de localização no Skype para Business Server](location-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
     
-- O [Relatório de dispositivo no Skype para Business Server 2015](device-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [Relatório de dispositivo no Skype para Business Server](device-report.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
     
-- O [Relatório de resumo de qualidade de mídia no Skype para Business Server 2015](summary.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [Relatório de resumo de qualidade de mídia no Skype para Business Server](summary.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
     
-- O [Server Performance Report no Skype para Business Server 2015](server-performance.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
+- O [Server Performance Report no Skype para Business Server](server-performance.md) (clicando o volume de chamadas ou na medida percentual de chamadas ruins)
     
-De dentro do Call List Report você pode acessar o [Relatório detalhado de chamadas no Skype para Business Server 2015](call-detail-report.md) clicando na métrica detalhe.
+De dentro do Call List Report você pode acessar o [Relatório detalhado de chamadas no Skype para Business Server](call-detail-report.md) clicando na métrica detalhe.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Como usar melhor o Relatório de Lista de Chamada
 
@@ -70,7 +70,7 @@ Nenhum. Não é possível filtrar o Relatório de Lista de Chamadas.
 
 A tabela a seguir lista as informações detalhadas fornecidas no Relatório de Lista de Chamadas para cada chamada.
   
-**Métricas do relatório de lista de chamadas**
+**Métricas do Relatório de Lista de Chamadas**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

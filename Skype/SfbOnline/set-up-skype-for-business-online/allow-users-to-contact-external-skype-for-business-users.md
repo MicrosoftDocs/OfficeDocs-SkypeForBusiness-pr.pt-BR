@@ -25,12 +25,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: d8cac3838550530666c2e7550c616a0b77cfd820
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: bd03e7c85b91bb9995dcbac3fc5d885cba2c7bd0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500679"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968456"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
@@ -107,9 +107,9 @@ Após habilitar comunicações externas com outro Skype para usuários corporati
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Dicas para configurar comunicações com empresas federadas
 <a name="bk_preview"> </a>
 
-- Para configurar a federação entre o Skype for Business 2015 e o Skype for Business Online, veja este artigo do TechNet: [Configurar federação com o Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Para configurar a federação entre Skype para negócios 2015 e Skype para Business Online, consulte este artigo: [Configurar federação com Skype para negócios Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- Para configurar a federação entre o Lync e o Skype for Business Online, veja este artigo do TechNet: [Configurando o suporte de federação para um cliente do Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Para configurar a federação entre o Lync e Skype para Business Online, consulte este artigo: [Configurando o suporte de federação para um cliente Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
     
 - Quando dois usuários do Skype for Business no Office 365 estão se comunicando entre si em domínios separados, eles só podem usar os recursos do Skype for Business (por exemplo, conversas por vídeo ou compartilhamento de área de trabalho) que estejam ativados em ambas as organizações.
     

@@ -1,24 +1,24 @@
 ---
-title: Configurar as opções de arquivamento para lidar com falhas no Skype for Business Server 2015
+title: Configurar opções de arquivamento para lidar com falhas no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 'Resumo: Saiba como bloquear sessões de mensagens Instantâneas e conferência no caso de um Skype para Business Server 2015 falha que impediriam a arquivamento.'
-ms.openlocfilehash: 4ad6b8eb496555751aab31949aa3e710749e0262
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como bloquear sessões de mensagens Instantâneas e conferência no caso de um Skype para falha do servidor de negócios que impediriam a arquivamento.'
+ms.openlocfilehash: 952ee82ca3be045fc0407a6ce2f61fdaead12030
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998711"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server-2015"></a>Configurar as opções de arquivamento para lidar com falhas no Skype for Business Server 2015
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opções de arquivamento para lidar com falhas no Skype para Business Server
 
-**Resumo:** Saiba como bloquear sessões de mensagens Instantâneas e conferência no caso de um Skype para Business Server 2015 falha que impediriam a arquivamento.
+**Resumo:** Saiba como bloquear sessões de mensagens Instantâneas e conferência no caso de um Skype para falha do servidor de negócios que impediriam a arquivamento.
   
 Se o arquivamento é um requisito para sua organização, você pode bloquear sessões de mensagens Instantâneas e conferência em caso de um Skype para falha do servidor de negócios que impediria a arquivamento. Isso às vezes é chamado de modo crítico. Por exemplo, se houver um problema com um serviço de armazenamento, o IM seria bloqueado para usuários cujas comunicações estivessem habilitadas para arquivamento. Tanto sessões de IM quanto de conferência são restauradas após a correção das falhas. 
   

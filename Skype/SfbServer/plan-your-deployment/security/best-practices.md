@@ -1,22 +1,22 @@
 ---
-title: Práticas recomendadas para sua infraestrutura principal do Skype for Business Server 2015
+title: Práticas recomendadas para a infraestrutura principal no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Provavelmente, você já executou etapas para projetar a tolerância a falhas em seu sistema, usando práticas como assegurar a redundância de hardware, proteger contra falta de energia, instalar rotineiramente atualizações de segurança e medidas antivírus e atividade do Monitoring Server. Essas práticas beneficiam não apenas sua Skype infra-estrutura de servidor de negócios, mas também toda a sua rede. Se você não implementou essas práticas, recomendamos que você faça isso antes de implantar o Skype para Business Server.
-ms.openlocfilehash: 9d79f98ebc66807f21f8d1eef468efc400dd5fbb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f88461e7563d28dce145d01a9b47a0176ef0d97f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996591"
 ---
-# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server-2015"></a>Práticas recomendadas para sua infraestrutura principal do Skype for Business Server 2015
+# <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Práticas recomendadas para a infraestrutura principal no Skype para Business Server
  
 Provavelmente, você já executou etapas para projetar a tolerância a falhas em seu sistema, usando práticas como assegurar a redundância de hardware, proteger contra falta de energia, instalar rotineiramente atualizações de segurança e medidas antivírus e atividade do Monitoring Server. Essas práticas beneficiam não apenas sua Skype infra-estrutura de servidor de negócios, mas também toda a sua rede. Se você não implementou essas práticas, recomendamos que você faça isso antes de implantar o Skype para Business Server.
   

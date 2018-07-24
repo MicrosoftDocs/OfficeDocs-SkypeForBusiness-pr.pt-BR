@@ -3,7 +3,6 @@ title: Selecionar um Site
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,40 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: Use selecionar uma caixa de diálogo de Site para encontrar sites disponíveis no seu ambiente. Para usar um site existente, clique em um site na lista e clique em Okey.
-ms.openlocfilehash: 7ebf146d6887ec0f2fafc8655c6d448fbd0573fb
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: Use a caixa de diálogo Selecionar um Site para localizar sites disponíveis no seu ambiente. Para usar um site existente, escolha um site na lista e clique em OK.
+ms.openlocfilehash: 6eb2c4ccaeb7b6558af78f655c97f3e549285829
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044106"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993610"
 ---
 # <a name="select-a-site"></a>Selecionar um Site
- 
-Use a caixa de diálogo **Selecionar um Site** para localizar sites disponíveis no seu ambiente. Para usar um site existente, escolha um site na lista e clique em **OK**.
-  
-> [!NOTE]
-> Clique no ícone de busca na caixa de busca sem ter inserido nada para obter todos os sites disponíveis. 
-  
- 
-  
-## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
-É possível executar as seguintes tarefas na página **Selecionar um Site**:
-  
-- [Configurar opções do servidor de bate-papo persistente globalmente ou para o Pool do servidor de bate-papo persistente](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
-- [Criar uma política de Site para o bate-papo persistente](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
-    
- 
-  
-## <a name="to-configure-persistent-chat-options-globally"></a>Para configurar as opções de Chat persistente globalmente
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.
 
-Em **Selecionar um Site**, selecione o site a ser configurado para a configuração de site do servidor de Chat persistente.
-  
-## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Para criar uma política de Chat persistente para um site
-
-Em **Selecionar um Site**, clique no site ao qual a política deverá ser aplicada. 
-  
-Para obter detalhes sobre os recursos de servidor de Chat persistente e capacidades, consulte [Visão geral do servidor de Chat persistente](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com as configurações de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação operações.
 

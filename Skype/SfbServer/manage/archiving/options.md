@@ -1,24 +1,24 @@
 ---
-title: Gerenciar opções de arquivamento no Skype for Business Server 2015
+title: Gerenciar opções de arquivamento no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: 'Resumo: Saiba como configurar opções de arquivamento do Skype for Business Server 2015.'
-ms.openlocfilehash: 29800fef7054cd0e82f203d2ad6ec1ed53251ca4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como configurar opções de arquivamento para Skype para Business Server.'
+ms.openlocfilehash: 235a0170a4301e48caeae17b7315a174ca2c8aee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993564"
 ---
-# <a name="manage-archiving-options-in-skype-for-business-server-2015"></a>Gerenciar opções de arquivamento no Skype for Business Server 2015
+# <a name="manage-archiving-options-in-skype-for-business-server"></a>Gerenciar opções de arquivamento no Skype para Business Server
 
-**Resumo:** Saiba como configurar opções de arquivamento do Skype for Business Server 2015.
+**Resumo:** Saiba como configurar opções de arquivamento para Skype para Business Server.
   
 Inicialmente, você configura o arquivamento no momento da implantação, mas você e pode alterar, adicionar e excluir configurações após a implantação. As opções de arquivamento determinam: 
   
@@ -42,7 +42,7 @@ Você pode especificar opções de configuração nos seguintes níveis:
     
 - Configurações opcionais de nível do pool que especificam como o arquivamento é implementado para um pool específico
     
-Você pode excluir uma configuração de site ou de pool, mas não a configuração global. Se você excluir a configuração global, ela será automaticamente redefinida para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas e a hierarquia de arquivamento configurações, consulte [Planejar para arquivamento no Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Você pode excluir uma configuração de site ou de pool, mas não a configuração global. Se você excluir a configuração global, ela será automaticamente redefinida para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas e a hierarquia de arquivamento configurações, consulte [Planejar para arquivamento no Skype para Business Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurar opções de arquivamento usando o Painel de Controle
 
@@ -56,7 +56,7 @@ Você pode configurar opções de arquivamento usando o Painel de Controle da se
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configurar opções de arquivamento usando o Windows PowerShell
 
-Você também pode configurar opções de arquivamento usando os cmdlets do Windows PowerShell listados na seguinte tabela. Para obter detalhes sobre a sintaxe, incluindo todos os parâmetros disponíveis, consulte [Skype do Shell de gerenciamento do Business Server 2015](../management-shell.md).
+Você também pode configurar opções de arquivamento usando os cmdlets do Windows PowerShell listados na seguinte tabela. Para obter detalhes sobre a sintaxe, incluindo todos os parâmetros disponíveis, consulte [Skype do Shell de gerenciamento do servidor de negócios](../management-shell.md).
   
 
 |**Cmdlet**|**Descrição**|

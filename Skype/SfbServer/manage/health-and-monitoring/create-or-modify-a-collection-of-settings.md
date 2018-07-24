@@ -1,32 +1,32 @@
 ---
-title: Criar ou modificar um conjunto de configurações de CDR no Skype for Business Server 2015
+title: Criar ou modificar uma coleção de definições de configuração de CDR em Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: 'Resumo: Saiba mais sobre os detalhes de chamada (CDR) de gravação no Skype para Business Server 2015.'
-ms.openlocfilehash: 9861c3e2fba0f601e47e093a664999052d128f95
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre os detalhes de chamada (CDR) de gravação no Skype para Business Server.'
+ms.openlocfilehash: f1bbf12f3766156b5f30ef3f2760669791e8c4c0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970369"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server-2015"></a>Criar ou modificar um conjunto de configurações de CDR no Skype for Business Server 2015
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Criar ou modificar uma coleção de definições de configuração de CDR em Skype para Business Server
  
-**Resumo:** Saiba mais sobre os detalhes da chamada (CDR) de gravação no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre os detalhes da chamada (CDR) de gravação no Skype para Business Server.
   
 O registro de detalhes das chamadas (CDR) permite rastrear o uso de coisas como sessões de mensagens instantâneas ponto a ponto, telefonemas de protocolo VoIP (voz sobre Internet) e chamadas em conferência. Esses dados de uso incluem informações sobre quem ligou para quem, quando a ligação foi feita e quanto tempo durou a conversa.
   
-Quando você instala o Skype para Business Server 2015 uma única coleção global de definições de configuração de CDR é criada para você. Os administradores também podem ter a opção de criar configurações personalizadas no escopo local. Sempre que essas configurações de escopo local forem usadas, elas terão precedência sobre as configurações globais. Por exemplo, se você criar configurações de escopo local para o local Redmond, essas configurações (e não as configurações globais) serão usadas para gerenciar CDR em Redmond.
+Quando você instala o Skype para Business Server uma única coleção global de definições de configuração de CDR é criada para você. Os administradores também podem ter a opção de criar configurações personalizadas no escopo local. Sempre que essas configurações de escopo local forem usadas, elas terão precedência sobre as configurações globais. Por exemplo, se você criar configurações de escopo local para o local Redmond, essas configurações (e não as configurações globais) serão usadas para gerenciar CDR em Redmond.
   
 Você pode criar definições de configuração de CDR usando qualquer um dos Skype para painel de controle do Business Server ou o cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) . Você pode usar o Skype para painel de controle do Business Server ou o cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) para modificar definições existentes. Se você estiver usando o Skype para painel de controle do Business Server para criar ou modificar as configurações, as seguintes opções estarão disponíveis para você:
   
-|**Configuração de interface do usuário**|**Parâmetro do PowerShell**|**Descrição**|
+|**Configuração de UI**|**Parâmetro do PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
 |Nome  <br/> |Identidade  <br/> |Identificador exclusivo das definições de configuração CDR sendo criada. Estas configurações podem ser criadas apenas no escopo local.  <br/> |
 |Habilitar monitoramento de CDRs  <br/> |EnableCDR  <br/> |Indica se o CDR está habilitado ou não.  <br/> |

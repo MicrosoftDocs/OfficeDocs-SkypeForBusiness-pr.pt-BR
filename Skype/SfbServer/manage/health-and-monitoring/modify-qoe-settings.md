@@ -1,24 +1,24 @@
 ---
-title: Modificar as configurações de Qualidade da Experiência no Skype for Business Server 2015
+title: Modificar as configurações de qualidade da experiência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: 'Resumo: Saiba como especificar a retenção de dados de QoE em Skype para Business Server 2015.'
-ms.openlocfilehash: 99a85a389b225d57b48b52b3f6f1d5b66e93f122
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como especificar a retenção de dados de QoE em Skype para Business Server.'
+ms.openlocfilehash: a456a2528b78242849f651209e70c98046ebe0c3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012663"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server-2015"></a>Modificar as configurações de Qualidade da Experiência no Skype for Business Server 2015
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar as configurações de qualidade da experiência no Skype para Business Server
  
-**Resumo:** Saiba como especificar a retenção de dados de QoE em Skype para Business Server 2015.
+**Resumo:** Saiba como especificar a retenção de dados de QoE em Skype para Business Server.
   
 Por padrão, os dados de QoE (Qualidade de Experiência) são limpos após 60 dias. Você pode usar as configurações da página **Dados de Qualidade de Experiência** para manter os dados por um período maior ou menor. Se você desabilitar a QoE, os dados capturados antes da habilitação da QoE também ficarão sujeitos à limpeza.
   
@@ -67,7 +67,4 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Set-Cs
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [Implantando o Monitoring](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-

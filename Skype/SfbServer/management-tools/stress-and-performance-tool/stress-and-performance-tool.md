@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: O Skype para ferramenta de desempenho e estresse do Business Server 2015 é usado durante o planejamento de capacidade e ajuste em ambientes de não-produção ou de teste de desempenho.
-ms.openlocfilehash: 0a0a5b17a6e45b2e8944e0e0dd4b3840fc62e102
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9ccd4b851ad64f829a15bd6138764995f789dbf6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984460"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype para Business Server 2015 ferramenta de Stress e desempenho
  
@@ -29,6 +30,9 @@ O Skype para ferramenta de desempenho e estresse do Business Server 2015 inclui 
 - Medir o desempenho do seu Skype para implantações de servidor de negócios
     
 Normalmente você usaria esta ferramenta depois de usar o [Skype para ferramenta de planejamento do Business Server 2015](../../management-tools/planning-tool/planning-tool.md) para projetar a topologia e refinando a topologia com o [Skype para Calculadora de planejamento de capacidade do Business Server 2015](../../management-tools/capacity-planning-calculator.md). 
+
+> [!NOTE]
+> Essa ferramenta não será atualizada para Skype para Business Server 2019.
   
 ## <a name="tests"></a>Testes
 
@@ -60,7 +64,7 @@ Esses aplicativos são parte do Skype para ferramenta de desempenho e estresse d
 
 Se você precisa saber mais, você deve examinar os seguintes artigos:
   
-- [Pré-requisitos e a instalação do Skype para visita do ferramenta de Stress e desempenho](prerequisites-and-setup.md)
+- [Pré-requisitos e configuração da Ferramenta de Stress and Performance do Skype for Business](prerequisites-and-setup.md)
     
 - [Cenários de desempenho para o Skype para Business Server 2015 ferramenta de Stress e desempenho](scenarios.md)
     

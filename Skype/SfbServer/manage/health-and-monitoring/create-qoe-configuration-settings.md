@@ -1,32 +1,32 @@
 ---
-title: Criar configurações da Qualidade da Experiência no Skype for Business Server 2015
+title: Criar definições de configuração de qualidade da experiência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
-description: 'Resumo: Saiba mais sobre configurações de Quality of Experience (QoE) no Skype para Business Server 2015.'
-ms.openlocfilehash: a6ba2906b54ac5d963b0c8394c1fcf254cffd12d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre configurações de Quality of Experience (QoE) no Skype para Business Server.'
+ms.openlocfilehash: 678f57ba06008244bf9872ee44b26ea0c1e9a0f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968192"
 ---
-# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server-2015"></a>Criar configurações da Qualidade da Experiência no Skype for Business Server 2015
+# <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Criar definições de configuração de qualidade da experiência no Skype para Business Server
  
-**Resumo:** Saiba mais sobre configurações de Quality of Experience (QoE) no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre configurações de Quality of Experience (QoE) no Skype para Business Server.
   
 As métricas de Qualidade da Experiência (QoE) rastreiam a qualidade das chamadas de áudio e vídeo feitas na organização, inclusive o número de pacotes de rede perdidos, o ruído de fundo e a quantidade de tremulação (diferenças no atraso de pacotes). Essas métricas são armazenadas em um banco de dados separado de outros dados (como registros de detalhes das chamadas), permitindo a habilitação e desabilitação da QoE, independente de outros registros de dados.
   
-Quando você instala o Skype para Business Server 2015, uma única coleção global de definições de configuração de QoE é criada para você. Os administradores também podem ter a opção de criar configurações personalizadas no escopo local. Sempre que essas configurações do escopo do site forem usadas, elas prevalecerão sobre as configurações globais. Por exemplo, se você criar configurações de escopo de site para o site da cidade de Redmond, essas configurações (em vez das globais) serão usadas para gerenciar a QoE em Redmond.
+Quando você instala o Skype para Business Server, uma única coleção global de definições de configuração de QoE é criada para você. Os administradores também podem ter a opção de criar configurações personalizadas no escopo local. Sempre que essas configurações do escopo do site forem usadas, elas prevalecerão sobre as configurações globais. Por exemplo, se você criar configurações de escopo de site para o site da cidade de Redmond, essas configurações (em vez das globais) serão usadas para gerenciar a QoE em Redmond.
   
 Configurações de QoE podem ser criadas usando qualquer um dos Skype para painel de controle do Business Server ou o cmdlet [New-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csqoeconfiguration?view=skype-ps) . Se você estiver usando o Skype para painel de controle do Business Server para criar novas configurações as seguintes opções estarão disponíveis para você:
   
-|**Configuração de interface do usuário**|**Parâmetro do PowerShell**|**Descrição**|
+|**Configuração de UI**|**Parâmetro do PowerShell**|**Descrição**|
 |:-----|:-----|:-----|
 |Nome  <br/> |Identidade  <br/> |Identificador exclusivo das configurações a serem criadas. As configurações de QoE só podem ser criadas no escopo do site.  <br/> |
 |Habilitar monitoramento de dados de QoE  <br/> |EnableQoE  <br/> |Especifica se os registros QoE serão coletados e salvos no banco de dados de monitoramento.  <br/> |

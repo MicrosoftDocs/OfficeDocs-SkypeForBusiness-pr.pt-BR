@@ -1,22 +1,22 @@
 ---
-title: Personalizar propriedades da conta de usuário para Skype para Business Server 2015
+title: Personalizar propriedades da conta de usuário para Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/8/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Você pode usar os procedimentos nesta seção para modificar as propriedades de conta de usuário individual.
-ms.openlocfilehash: fc15dac499fe5d812d5d084a919db10096e6dc56
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8546d660d0d79f36fa37abf43fcf06dc8e863691
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968856"
 ---
-# <a name="customize-user-account-properties-for-skype-for-business-server-2015"></a>Personalizar propriedades da conta de usuário para Skype para Business Server 2015
+# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar propriedades da conta de usuário para Skype para Business Server
  
 Você pode usar os procedimentos nesta seção para modificar as propriedades de conta de usuário individual.
   
@@ -29,7 +29,7 @@ Há duas operações básicas que podem ser feitas no nível do usuário individ
 ## <a name="configure-telephony-options-for-a-specific-user-account"></a>Configurar opções de telefonia para uma conta de usuário específica
 <a name="Tel_Op"> </a>
 
-Você pode personalizar as configurações de telefonia para um usuário específico (desde que o usuário individual tiver sido habilitado para Skype para Business Server 2015 e a organização dá suporte à telefonia).
+Você pode personalizar as configurações de telefonia para um usuário específico (desde que o usuário individual foi habilitado para Skype para Business Server e a organização dá suporte à telefonia).
   
 Skype para opções de telefonia do usuário Business Server incluem o seguinte:
   
@@ -37,11 +37,11 @@ Skype para opções de telefonia do usuário Business Server incluem o seguinte:
     
 - **PC-PC somente** O usuário pode fazer somente PC-PC áudio ou vídeos chamadas.
     
-- **Enterprise Voice** O usuário pode usar o Skype para Business Server 2015 infra-estrutura para rotear todas as chamadas de entrada e saídas. O usuário também pode fazer chamadas de PC para PC.
+- **Enterprise Voice** O usuário pode usar o Skype infra-estrutura de servidor de negócios para rotear todas as chamadas de entrada e saídas. O usuário também pode fazer chamadas de PC para PC.
     
-- **Controle de chamada remota** O usuário pode usar o Skype para Business Server 2015 para controlar um telefone de mesa e também pode fazer chamadas de PC para PC.
+- **Controle de chamada remota** O usuário pode usar o Skype para Business Server para controlar um telefone de mesa e também pode fazer chamadas de PC para PC.
     
-Para obter detalhes sobre como configurar telefonia para uma organização, consulte [habilitar usuários para Enterprise Voice no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) e [Implantar o Enterprise Voice no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) na documentação de implantação.
+Para obter detalhes sobre como configurar telefonia para uma organização, consulte [habilitar usuários para Enterprise Voice no Skype para Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) e [Implantar o Enterprise Voice no Skype para Business Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) na documentação de implantação.
   
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
@@ -63,7 +63,7 @@ Para obter detalhes sobre como configurar telefonia para uma organização, cons
     
    - Para rotear chamadas de telefone do usuário usando o Skype para a infra-estrutura de negócios de acordo com a classe de política de serviço, incluindo a comunicação de áudio PC-PC, clique em **Enterprise Voice**. Em **URI da linha**, especifique o número de telefone para o Enterprise Voice. Na **política do plano de discagem** e **diretiva de voz**, especifique as políticas apropriadas para o usuário. Para especificar as regras de normalização para traduzir números de telefone discados pelo usuário para o formato e. 164, selecione o perfil de local apropriado na **política local**.
     
-   - Para habilitar a chamada remota o controle, que permite aos usuários controlar sua linha de telefone de mesa do Skype para negócios 2015 de Server fazer chamadas de PC para PC e chamadas de PC para telefone, clique em **controle de chamada remota**. Em **URI da linha**, especifique o número de telefone para controle de chamada remota. O usuário deve ter um telefone de mesa e a conexão do privada de comutação telefônica (PBX) para roteamento de chamadas.
+   - Para habilitar a chamada remota o controle, que permite aos usuários controlar sua linha de telefone de mesa do Skype para Business Server fazer chamadas de PC para PC e chamadas de PC para telefone, clique em **controle de chamada remota**. Em **URI da linha**, especifique o número de telefone para controle de chamada remota. O usuário deve ter um telefone de mesa e a conexão do privada de comutação telefônica (PBX) para roteamento de chamadas.
     
 ## <a name="move-users-to-another-pool"></a>Mover usuários para outro pool
 <a name="Move_Users"> </a>
@@ -71,7 +71,7 @@ Para obter detalhes sobre como configurar telefonia para uma organização, cons
 Você pode usar o Skype para painel de controle do Business Server para atribuir usuários a um servidor ou pool específico.
   
 > [!TIP]
-> Mover todos os usuários existentes de um pool de origem que está executando o Lync Server 2010 ou versão anterior para um Skype para Business Server 2015 pool de destino em um ambiente do Active Directory complexo pode resultar em mais lenta replicação do Active Directory. Para evitar isso, você pode usar filtros de pesquisa para mover usuários de pools que estejam executando o Lync Server 2010 ou anteriormente separadamente, ou você pode usar o Skype para Business Server Management Shell para mover usuários com cmdlets. Além disso, a funcionalidade do filtro funciona com o Skype para usuários corporativos Server 2015. 
+> Mover todos os usuários existentes de um pool de origem que está executando o Lync Server 2010 ou versão anterior para um Skype para pool de destino do servidor de negócios em um ambiente do Active Directory complexo pode resultar em mais lenta replicação do Active Directory. Para evitar isso, você pode usar filtros de pesquisa para mover usuários de pools que estejam executando o Lync Server 2010 ou anteriormente separadamente, ou você pode usar o Skype para Business Server Management Shell para mover usuários com cmdlets. Além disso, a funcionalidade do filtro funciona com o Skype para usuários corporativos Server. 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>Para mover usuários selecionados para um outro servidor ou pool
 
@@ -141,13 +141,13 @@ Você pode usar o Skype para painel de controle do Business Server para atribuir
   
 ### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Para mover usuários de um pool para outro usando cmdlets do Windows Powershell
 
-1. Dependendo de como você executa comandos do Windows PowerShell (ou seja, local ou remotamente), você precisa fazer logon como membro do Skype correto para funções administrativas do Business Server 2015 da seguinte maneira:
+1. Dependendo de como você executa comandos do Windows PowerShell (ou seja, local ou remotamente), você precisa fazer logon como membro do Skype correto para funções administrativas do Business Server da seguinte maneira:
     
    a. Se você estiver executando os comandos na máquina local (por exemplo, você faça logon diretamente em um servidor Front-End): faça logon no computador onde o Skype do Shell de gerenciamento do servidor de negócios está instalado como membro do grupo RTCUniversalServerAdmins ou com o necessário direitos de usuário, conforme descrito em **Delegate Setup Permissions**.
     
    b. Se você estiver executando os comandos remotamente em outro computador (por exemplo, você faz logon seu computador e executa os comandos remotamente em um Standard Edition servidor Front-End): a partir de uma conta de usuário atribuída à função CsUserAdministrator ou a CsAdministrator função, faça logon em qualquer computador em sua implantação interna.
     
-2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
+2. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique **Skype para negócios**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de negócios**.
     
 3. Para mover usuários únicos, use o cmdlet Move-CsUser conforme segue:
     

@@ -1,24 +1,24 @@
 ---
-title: Relatório das principais falhas no Skype for Business Server 2015
+title: Relatório de falhas principais no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Resumo: Saiba mais sobre o relatório de falhas principais no Skype para Business Server 2015.'
-ms.openlocfilehash: 3eb536fdeaa606c16c78954401bc43e91dd520d9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de falhas principais no Skype para Business Server.'
+ms.openlocfilehash: 7050c156d78ed7b4c254976cf4fd2027f3a677d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002155"
 ---
-# <a name="top-failures-report-in-skype-for-business-server-2015"></a>Relatório das principais falhas no Skype for Business Server 2015
+# <a name="top-failures-report-in-skype-for-business-server"></a>Relatório de falhas principais no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de falhas principais no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de falhas principais no Skype para Business Server.
   
 O Relatório de Falhas Principais apresenta uma noção das falhas mais frequentemente relatadas e suas tendências ao longo do tempo. As falhas são baseadas em uma combinação das seguintes métricas:
   
@@ -30,7 +30,7 @@ A informação é relatada não apenas para o número total de sessões quando u
   
 ## <a name="accessing-the-top-failures-report"></a>Acessando o Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é acessado a partir da home page Relatórios de Monitoramento. Clicando na métrica de sessões relatado te redireciona para o [Relatório de falha de distribuição no Skype para Business Server 2015](failure-distribution-report.md).
+O Relatório de Falhas Principais é acessado a partir da home page Relatórios de Monitoramento. Clicando na métrica de sessões relatado te redireciona para o [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Fazendo o melhor uso do Relatório de Falhas Principais
 
@@ -50,7 +50,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
   
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Falhas Principais.
   
-**Filtros do relatório de falhas principais**
+**Filtros de Relatório de Falhas Principais**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -67,7 +67,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falhas Principais.
   
-**Métricas do relatório de falhas principais**
+**Métricas do Relatório de Falhas Principais**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

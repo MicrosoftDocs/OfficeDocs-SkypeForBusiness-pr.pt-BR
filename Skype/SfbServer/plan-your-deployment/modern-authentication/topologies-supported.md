@@ -3,7 +3,6 @@ title: Topologias do Skype for Business compatíveis com a autenticação modern
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
-ms.date: 12/4/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,11 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: Este artigo lista as topologias online e locais que são compatíveis com a autenticação moderna no Skype for Business, bem como os recursos de segurança aplicáveis a cada topologia.
-ms.openlocfilehash: a6be001bf1aeeeba9823c291ee9726c33ec9009a
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: cc849dc1df0f4bf97bb362449ef1ded58596cb91
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001796"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Topologias do Skype for Business compatíveis com a autenticação moderna
  
@@ -34,7 +34,7 @@ Se considerarmos o Skype for Business, o Skype for Business Online, o Exchange S
 
 Há potencialmente dois aplicativos de servidor e duas cargas de trabalho do Office 365 envolvidos com as topologias do Skype for Business utilizadas pela autenticação moderna.
   
-- Skype for Business Server 2015 (atualização cumulativa 5) local
+- Skype para negócios (5 CU) de servidor local
     
 - Skype for Business Online (SFBO)
     
@@ -48,7 +48,7 @@ Outra parte importante da autenticação moderna é saber onde acontecerá a aut
     
 - Active Directory Federation Server (ADFS) local
     
-Então é mais ou menos assim, com o EXO e o SFBO na Nuvem com o Azure AD, e o Exchange Server (EXCH) e o Skype for Business Server 2015 (SFB) locais.
+Para que ele um pouco parecida com esta, com EXO e SFBO na nuvem com o Azure AD e o Exchange Server (EXCH) e Skype para negócios o servidor (SFB) prem.
   
 ![Um exemplo de todos os aplicativos (Exchange e Skype for Business) e cargas de trabalho (EXO e SFBO), e ambos os servidores de autorização (ADFS e evoSTS) que podem ser envolvidos ao ativar o MA.](../../media/18a3b451-1e64-40fc-b47f-7ce9587814bb.PNG)
   

@@ -1,26 +1,25 @@
 ---
-title: Exibir informações de política de PIN no Skype for Business Server 2015
+title: Exibir informações de política PIN no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
-description: 'Resumo: Exiba informações de política PIN do usuário de Skype para Business Server 2015.'
-ms.openlocfilehash: 57960037f5a89cd93e03dc37d3f010343313e1e6
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Exiba informações de política PIN do usuário de Skype para Business Server.'
+ms.openlocfilehash: 8401f429184122539f66186c470034f2829536b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568763"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21017152"
 ---
-# <a name="view-pin-policy-information-in-skype-for-business-server-2015"></a>Exibir informações de política de PIN no Skype for Business Server 2015
+# <a name="view-pin-policy-information-in-skype-for-business-server"></a>Exibir informações de política PIN no Skype para Business Server
  
-**Resumo:** Exiba informações de política PIN do usuário de Skype para Business Server 2015.
+**Resumo:** Exiba informações de política PIN do usuário de Skype para Business Server.
   
 Você pode usar a guia **Política de PIN** para exibir identificação pessoal número (PIN) a autenticação de usuários que estiverem se conectando ao Skype for Business com telefones IP. Para usar a autenticação PIN, certifique-se de que **Habilitar Autenticação PIN** esteja selecionado nas configurações do Web Service.
   
@@ -28,7 +27,7 @@ Siga estas etapas para modificar uma política de PIN no nível de usuário ou l
   
 ### <a name="to-view-information-about-a-pin-policy-in-skype-for-business-server-control-panel"></a>Para exibir informações sobre uma política PIN no Skype para painel de controle do servidor de negócios
 
-1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server 2015.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou que tenha direitos de usuário equivalentes), ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon no qualquer computador que esteja na rede em que você implantou Skype para Business Server .
     
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.  
     
@@ -64,4 +63,4 @@ Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-Cs
   
 ## <a name="see-also"></a>Consulte também
 
-[Criar uma nova política PIN no Skype para Business Server 2015](create-a-new-pin-policy.md)
+[Criar uma nova política PIN no Skype para Business Server](create-a-new-pin-policy.md)

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Para editar as configurações de um pool de Borda de um único ou vários servidores existente, você pode usar as seguintes seções:'
-ms.openlocfilehash: 642e71aed428326140dd72646426f833c8d760b7
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 601350dc96da80e04bccb975572b7655dc3c3e52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964580"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987688"
 ---
 # <a name="edge-settings-expander"></a>Expansor de Configurações de Borda
  
@@ -28,23 +28,22 @@ Para editar as configurações de um pool de Borda de um único ou vários servi
     
 - Configuração do Servidor de Borda
     
-## 
 
-### <a name="general-settings"></a>Configurações gerais
+## <a name="general-settings"></a>Configurações gerais
 
 FQDN (nome de domínio totalmente qualificado) de pool interno do pool de Servidor de Borda. Edite o FQDN do pool para alterar essa configuração.
   
-Marque a caixa de seleção **Habilitar federação para este pool de borda (porta 5061)** se você irá configurar federação com o Lync Server 2013, Microsoft Lync Server 2010 ou o Microsoft Office Communications Server 2007 R2 parceiro confiável.
+Marque a caixa de seleção **Habilitar federação para este pool de borda (porta 5061)** se você irá configurar federação com um parceiro confiável do Lync Server 2013, o Microsoft Lync Server 2010 ou o Microsoft Office Communications Server 2007 R2.
   
 Selecione  **Habilitar federação XMPP para este pool de Borda** para habilitar a federação XMPP.
   
 Especifique o número da porta para **Porta de Replicação de Configuração Interna (HTTPS)**.
   
-### <a name="next-hop-selection-settings"></a>Configurações de seleção de próximo salto
+## <a name="next-hop-selection-settings"></a>Configurações de seleção de próximo salto
 
 Para configurar ou modificar o **Pool de próximo salto** que os Servidores de Borda utilizarão para se comunicar com a infraestrutura interna, selecione um Diretor, pool de Diretores, Servidor Front-Ends ou pool de Servidor Front-Ends na lista suspensa. Apenas os diretores ou Front-Ends que tiverem sido configuradas no construtor de topologia aparecerá para seleção.
   
-### <a name="edge-server-configuration"></a>Configuração do Servidor de Borda
+## <a name="edge-server-configuration"></a>Configuração do Servidor de Borda
 
 Para editar ou especificar as configurações das **Configurações Externas** de Servidores de Borda, é possível determinar primeiro se você utilizará endereços IP separados para o acesso SIP, webconferência e serviço de Áudio/Vídeo.
   
@@ -60,7 +59,7 @@ Caso você determine que sua organização utilizará um único endereço IP e F
 > [!IMPORTANT]
 > Se alterar alguma destas configurações, incluindo usar endereços IP ou FQDN ou portas separadas, você deverá atualizar todos os outros serviços que dependerão dos valores configurados inicialmente. 
   
-### 
+## <a name="see-also"></a>Consulte também 
 
 Para obter detalhes sobre como definir e configurar as definições para os serviços de borda, consulte [Define Your Edge Topology](http://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
   

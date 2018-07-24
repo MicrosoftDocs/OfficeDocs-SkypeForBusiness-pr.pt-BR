@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Resumo: Leia este tópico para saber como configurar alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015.'
-ms.openlocfilehash: f0bf1a98bb8967a7310844d9aa85d17d4ef4d167
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c2e4ff1d210e5a8fa5fccbc002ebd1c4ca59a545
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004683"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -24,6 +25,9 @@ Skype para Business Server suporta vários modos de alta disponibilidade para se
   
 > [!NOTE]
 > Não há suporte para grupos de disponibilidade do AlwaysOn com servidores de Chat persistente. 
+
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015.
   
 Antes de configurar a implantação do Chat persistente para alta disponibilidade e recuperação de desastres, certifique-se de que você está familiarizado com os conceitos apresentados no [plano de alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). A solução de recuperação de desastres para o servidor de Chat persistente descritas nestes tópicos baseia-se em um pool do servidor de Chat persistente ampliado. O conteúdo de planejamento descreve os requisitos de recursos e a topologia de pool ampliado que permite alta disponibilidade e recuperação de desastres para o servidor de Chat persistente, incluindo o uso de espelhamento do SQL Server para alta disponibilidade e o envio de logs do SQL Server recuperação de desastres.
   

@@ -1,26 +1,26 @@
 ---
-title: Mover dados do repositório de arquivos para um novo repositório de arquivos no Skype for Business Server 2015
+title: Dados do repositório de arquivos de movimentação para um novo repositório de arquivos no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/30/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 'Se você precisa remover o servidor de arquivos que esteja atuando como o repositório de arquivos para seu Skype para implantação Business Server 2015, ou se você precisar fazer outras alterações que tornaria o arquivo atual armazenam indisponível, você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:'
-ms.openlocfilehash: 567db1e418d5c5c63af8e52146c5d6e1272d7677
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Se você precisa remover o servidor de arquivos que esteja atuando como o repositório de arquivos para seu Skype para implantação de servidor de negócios ou se você precisar fazer outras alterações que tornaria o arquivo atual armazenam indisponível, você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:'
+ms.openlocfilehash: a80e6b4e039f7423a3e622062b6bee237ee00947
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992305"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Mover dados do repositório de arquivos para um novo repositório de arquivos no Skype for Business Server 2015
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Dados do repositório de arquivos de movimentação para um novo repositório de arquivos no Skype para Business Server
  
-Se você precisa remover o servidor de arquivos que esteja atuando como o repositório de arquivos para seu Skype para implantação Business Server 2015, ou se você precisar fazer outras alterações que tornaria o arquivo atual armazenam indisponível, você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:
+Se você precisa remover o servidor de arquivos que esteja atuando como o repositório de arquivos para seu Skype para implantação de servidor de negócios ou se você precisar fazer outras alterações que tornaria o arquivo atual armazenam indisponível, você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:
   
-1. Desligue o Skype para serviços de Business Server 2015 que usam o repositório de arquivos que você planeja remover.
+1. Desligue o Skype para serviços de Business Server que usam o repositório de arquivos que você planeja remover.
     
 2. Definir o repositório de arquivos no construtor de topologia e publicar as alterações para disponibilizar o novo arquivo de repositório para sua implantação.
     
@@ -32,7 +32,7 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
     
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>Para mover os dados do repositório de arquivos de um repositório para outro
 
-1. Faça logon em um computador como membro do grupo RTCUniversersalServerAdmins ou CsServerAdministrator onde o Skype para Business Server 2015, ferramentas administrativas estão instaladas.
+1. Faça logon em um computador como membro do grupo RTCUniversersalServerAdmins ou CsServerAdministrator onde o Skype para Business Server, ferramentas administrativas estão instaladas.
     
 2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios. 
     
@@ -42,7 +42,7 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
     
 5. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
     
-6. Inicie o construtor de topologia: Clique em **Iniciar**, clique em **Todos os programas**, clique em **Skype para Business Server 2015**e clique **Skype para o construtor de topologias do Business Server 2015**.
+6. Inicie o construtor de topologia: Clique em **Iniciar**, clique em **Todos os programas**, clique em **Skype para Business Server**e clique **Skype para o construtor de topologia de servidor de negócios**.
     
 7. Selecione um servidor ou pool que usa o repositório de arquivos e faça o seguinte:
     

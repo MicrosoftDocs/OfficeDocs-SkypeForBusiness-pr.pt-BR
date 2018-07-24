@@ -1,30 +1,30 @@
 ---
-title: Relatório do Sistema de Mensagens Instantâneas Ponto a Ponto no Skype for Business Server 2015
+title: Relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Resumo: Saiba mais sobre o relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server 2015.'
-ms.openlocfilehash: 0b7fc3d60aebc22e6c4c53e2e8c38fea12b0a6c0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server.'
+ms.openlocfilehash: e7e65e11d6a8710c4a37fc3afe0a983d5ce9b14d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968611"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server-2015"></a>Relatório do Sistema de Mensagens Instantâneas Ponto a Ponto no Skype for Business Server 2015
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de mensagens Instantâneas de ponto a ponto no Skype para Business Server.
   
 O Relatório de Mensagens Instantâneas Ponto a Ponto fornece informações de tendência sobre sessões de IM (mensagens instantâneas) ponto a ponto, detalhadas por pool e tipo de autenticação. O relatório pode mostrar o número total de sessões que aconteceram durante o período de tempo especificado (por exemplo, dia por dia ou hora por hora), ou pode mostrar o número total de mensagens instantâneas enviadas durante esse período de tempo.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Acessando o Relatório de Mensagens Instantâneas Ponto a Ponto
 
-Você pode acessar o relatório de mensagens Instantâneas ponto a ponto apenas abrindo o [relatório de resumo de atividade ponto a ponto no Skype para Business Server 2015](peer-to-peer-activity-summary-report.md) e clicando em qualquer uma das seguintes métricas:
+Você pode acessar o relatório de mensagens Instantâneas ponto a ponto apenas abrindo o [relatório de resumo de atividade ponto a ponto no Skype para Business Server](peer-to-peer-activity-summary-report.md) e, em seguida, clicando em qualquer uma das seguintes métricas:
   
 - Total de sessões de mensagens instantâneas ponto a ponto
     
@@ -38,7 +38,7 @@ Por padrão, o Relatório de Mensagens Instantâneas Ponto a Ponto mostra a voc�
 
 Os filtros fornecem uma maneira de obter um resultado mais refinado de conjunto de dados ou visualizar os dados resultantes de maneiras diferentes. A tabela a seguir lista os filtros que você pode utilizar com o Relatório do Sistema de Mensagens Instantâneas Ponto a Ponto.
   
-**Filtros do relatório de mensagens Instantâneas de ponto a ponto**
+**Filtros do Relatório do Sistema de Mensagens Instantâneas Ponto a Ponto**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ Os filtros fornecem uma maneira de obter um resultado mais refinado de conjunto 
 
 A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema de Mensagens Instantâneas Ponto a Ponto.
   
-**Métricas para sessão de mensagens Instantâneas de ponto a ponto por Pool**
+**Medição da sessão do Sistema de Mensagens Instantâneas Ponto a Ponto por Pool**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -63,7 +63,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
 
 A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema de Mensagens Instantâneas Ponto a Ponto para cada tipo de autenticação usada pelos participantes em uma sessão ponto a ponto.
   
-**Métricas para sessão de mensagens Instantâneas de ponto a ponto por tipo de autenticação**
+**Medição da sessão do Sistema de Mensagens Instantâneas Ponto a Ponto por tipo de autenticação**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

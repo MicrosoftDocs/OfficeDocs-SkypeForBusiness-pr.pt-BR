@@ -1,9 +1,8 @@
 ---
-title: Alta disponibilidade do Servidor Back-End no Skype for Business Server 2015
+title: Back End alta disponibilidade do servidor no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/20/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Saiba mais sobre as opções de alta disponibilidade do servidor Back-End compatíveis com o Skype para Business Server, incluindo grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e cluster de failover do SQL.
-ms.openlocfilehash: f0831ffb757d04e954ece8a1874dffad9e6e74d0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 57cc09765ab8f753e60a5f76f5d93b385c7fd406
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983181"
 ---
-# <a name="back-end-server-high-availability-in-skype-for-business-server-2015"></a>Alta disponibilidade do Servidor Back-End no Skype for Business Server 2015
+# <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back End alta disponibilidade do servidor no Skype para Business Server
  
 Saiba mais sobre as opções de alta disponibilidade do servidor Back-End compatíveis com o Skype para Business Server, incluindo grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn, espelhamento de banco de dados e cluster de failover do SQL.
   
@@ -75,6 +75,9 @@ Com o espelhamento SQL, o modo de recuperação de banco de dados fica sempre de
   
 > [!IMPORTANT]
 > Usando o construtor de topologia ou cmdlets para configurar e remover SQL espelhamento é aceito somente quando o principal, espelho e servidores de testemunha (se desejar) pertencem ao mesmo domínio. Se quiser configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server. 
+
+> [!NOTE]
+> Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>Tempo de recuperação para failover automático do Servidor Back-End com espelhamento de banco de dados
 
@@ -99,7 +102,7 @@ Para usar grupos de disponibilidade do AlwaysOn ou instâncias de Cluster de Fai
 > [!IMPORTANT]
 > Nomes de instância para várias instâncias do grupo de disponibilidade do AlwaysOn devem ser o mesmo. 
   
-Para obter etapas para a implantação de grupos de disponibilidade AlwaysOn, consulte [Deploy um grupo de disponibilidade do AlwaysOn em um servidor Back-End no Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
+Para obter etapas para a implantação de grupos de disponibilidade AlwaysOn, consulte [Deploy um grupo de disponibilidade do AlwaysOn em um servidor Back-End no Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md).
   
 ## <a name="sql-server-failover-clustering"></a>Clustering de Failover do SQL Server
 

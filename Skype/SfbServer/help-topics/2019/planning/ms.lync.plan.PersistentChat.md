@@ -12,17 +12,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: Servidor de Chat persistente permite que os usuários participem de conversas com vários participantes, com base no tópico que persistam ao longo do tempo.
-ms.openlocfilehash: fca9f9ee208227b773a957fd8699a90071c302a4
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: b1a9715effc40e2b2e0126e1d48b0dcac11c32a3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19980013"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20983417"
 ---
 # <a name="persistent-chat-planning-tool"></a>Bate-papo persistente (ferramenta de planejamento)
- 
-Servidor de Chat persistente permite que os usuários participem de conversas com vários participantes, com base no tópico que persistam ao longo do tempo.
-  
-Para obter mais detalhes sobre como preparar seu ambiente para o servidor de Chat persistente, consulte [Plan for Persistent Chat Server in Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
-  
+
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.
 

@@ -1,28 +1,28 @@
 ---
-title: Gerenciar a limpeza de dados arquivados no Skype for Business Server 2015
+title: Gerenciar a limpeza de dados arquivados no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: 'Resumo: Saiba como gerenciar a limpeza de dados arquivados do Skype para Business Server 2015.'
-ms.openlocfilehash: caeddcd927c20f0622cbd45b6d93abb2bf5d6618
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como gerenciar a limpeza de dados arquivados do Skype para Business Server.'
+ms.openlocfilehash: fce7c8214eddd55736a54b960d57053a88cdc859
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997941"
 ---
-# <a name="manage-purging-of-archived-data-in-skype-for-business-server-2015"></a>Gerenciar a limpeza de dados arquivados no Skype for Business Server 2015
+# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Gerenciar a limpeza de dados arquivados no Skype para Business Server
 
-**Resumo:** Saiba como gerenciar a limpeza de dados arquivados do Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar a limpeza de dados arquivados do Skype para Business Server.
   
-O banco de dados de arquivamento não se destina a retenção de longo prazo e Skype para Business Server 2015 não ofereça uma solução de descoberta eletrônica (pesquisa) para dados arquivados, portanto é necessário ser movido para outro armazenamento de dados. Skype para Business Server oferece uma ferramenta de exportação de sessão que você pode usar para exportar os dados arquivados em transcrições pesquisáveis. Você precisa definir quando limpar dados arquivados e exportados. 
+O banco de dados de arquivamento não se destina a retenção de longo prazo e Skype para Business Server não ofereça uma solução de descoberta eletrônica (pesquisa) para dados arquivados, portanto é necessário ser movido para outro armazenamento de dados. Skype para Business Server oferece uma ferramenta de exportação de sessão que você pode usar para exportar os dados arquivados em transcrições pesquisáveis. Você precisa definir quando limpar dados arquivados e exportados. 
   
-Para obter mais informações sobre como exportar dados usando o cmdlet **Export-CsArchivingData** , consulte [exportar os dados arquivados no Skype para Business Server 2015](export-archived-data.md).
+Para obter mais informações sobre como exportar dados usando o cmdlet **Export-CsArchivingData** , consulte [exportar os dados arquivados no Skype para Business Server](export-archived-data.md).
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>Gerenciar limpeza de dados usando o Painel de Controle
 
@@ -74,7 +74,7 @@ Para desabilitar a limpeza automática dos registros de arquivamento, defina o p
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-O exemplo a seguir usa o cmdlet **Invoke-CsArchivingDatabasePurge** para limpar todos os registros mais de 24 horas a partir do banco de dados de arquivamento no atl-sql-001.contoso.com. Para garantir que todos os registros são excluídos, incluindo os registros que não tenham sido exportados, o parâmetro PurgeExportedArchivesOnly é definido como False ($False):
+O exemplo a seguir usa o cmdlet **Invoke-CsArchivingDatabasePurge** para limpar todos os registros mais de 24 horas a partir do banco de dados de arquivamento no atl-sql-001.contoso.com. Para assegurar que todos os registros serão limpos, incluindo registros que não foram exportados, o parâmetro PurgeExportedArchivesOnly é definido para Falso ($False):
   
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

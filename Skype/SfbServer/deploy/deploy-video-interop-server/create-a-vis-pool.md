@@ -1,30 +1,29 @@
 ---
-title: Criar um pool VIS no Skype for Business Server 2015
+title: Criar um pool VIS no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 'Resumo: Crie um pool de servidores de interoperabilidade de vídeo no Skype para negócios 2015 de servidor usando o construtor de topologia.'
-ms.openlocfilehash: c66889530bbcc8753e8003667e6ea26589cd5daf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Crie um pool de servidores de interoperabilidade de vídeo no Skype para Business Server usando o construtor de topologias.'
+ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501699"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978813"
 ---
-# <a name="create-a-vis-pool-in-skype-for-business-server-2015"></a>Criar um pool VIS no Skype for Business Server 2015
+# <a name="create-a-vis-pool-in-skype-for-business-server"></a>Criar um pool VIS no Skype para Business Server
  
-**Resumo:** Crie um pool de servidores de interoperabilidade de vídeo no Skype para negócios 2015 de servidor usando o construtor de topologia.
+**Resumo:** Crie um pool de servidores de interoperabilidade de vídeo no Skype para Business Server usando o construtor de topologias.
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Crie um pool VIS ou VIS usando o Construtor de Topologias
 
-1. Abra o Construtor de Topologias no servidor de front-end. No painel esquerdo do construtor de topologia, clique com botão direito * * vídeo interoperacional Server Pools * * e escolha **Novo Pool de servidor de interoperabilidade de vídeo**. 
+1. Abra o Construtor de Topologias no servidor de front-end. No painel à esquerda do construtor de topologia, clique com o botão direito em **Pools de servidor de interoperabilidade de vídeo** e escolha **Novo Pool de servidor de interoperabilidade de vídeo**. 
     
 2. Isso abrirá um assistente **Criar um novo pool de servidor interop de vídeo**. Fornecer o FQDN do Pool para o novo servidor de interoperabilidade de vídeo e selecione **pool com um servidor** ou **pool com vários servidores** com base em suas necessidades, em seguida, pressione **Avançar**.
     
@@ -42,7 +41,7 @@ ms.locfileid: "19501699"
     
 5. Defina uma porta TCP ou TLS.
     
-    Selecione o servidor recém-adicionado de interoperabilidade de vídeo do painel esquerdo do construtor de topologia, clique com botão direito-lo e escolha **Editar propriedades**. Habilite ou atualize a porta TCP ou TLS de acordo com o seu requisito e escolha **OK**. Embora a porta TLS seja adicionada por padrão, somente TCP foi totalmente testado com CUCM.
+    Selecione o servidor recém-adicionado de interoperabilidade de vídeo do painel esquerdo do construtor de topologia, clique com botão direito-lo e escolha **Editar propriedades**. Habilite ou atualize a porta TCP ou TLS de acordo com o seu requisito e escolha **OK**. Embora por padrão o TLS é adicionado, apenas TCP foi totalmente testado com Cisco Unified Communications Manager (CallManager ou CUCM).
     
 6. Adicione um gateway de vídeo. Para fazer isso, expanda os Componentes compartilhados, clique com o botão direito do mouse sobre **Gateways de vídeo** e selecione **Novo gateway de vídeo**.
     
@@ -65,8 +64,8 @@ ms.locfileid: "19501699"
 Todas as tarefas executadas usando o Construtor de Topologias devem estar concluídas. Prossiga com a instalação do software no novo servidor ou servidores VIS.
 ## <a name="see-also"></a>Consulte também
 
-[Implantar a função de servidor VIS no Skype para Business Server 2015](deploy-the-vis-server-role.md)
+[Implantar a função de servidor VIS no Skype para Business Server](deploy-the-vis-server-role.md)
 
-[Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
+[Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server](../../plan-your-deployment/video-interop-server.md)
   
-[Criar e publicar a nova topologia no Skype para Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+[Criar e publicar uma nova topologia no Skype for Business Server 2015](../../deploy/install/create-and-publish-new-topology.md)

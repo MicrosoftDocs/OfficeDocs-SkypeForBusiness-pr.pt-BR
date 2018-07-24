@@ -1,24 +1,24 @@
 ---
-title: Sub-relatório de resumo de Conferências no Skype for Business Server 2015
+title: Subrelatório de resumo de conferência no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 'Resumo: Saiba mais sobre o subrelatório de resumo de conferência no Skype para Business Server 2015.'
-ms.openlocfilehash: 39c71ebfa5798d861a9b8afd8865486dba033c1d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o subrelatório de resumo de conferência no Skype para Business Server.'
+ms.openlocfilehash: 1a35d772e368fe9755d0b7640d6a69f1ec46d4ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997726"
 ---
-# <a name="conference-summary-subreport-in-skype-for-business-server-2015"></a>Sub-relatório de resumo de Conferências no Skype for Business Server 2015
+# <a name="conference-summary-subreport-in-skype-for-business-server"></a>Subrelatório de resumo de conferência no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o subrelatório de resumo de conferência no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o subrelatório de resumo de conferência no Skype para Business Server.
   
 O Sub-relatório de Resumo de Conferências oferece uma visão geral de sessões de conferências com falha. Estas sessões com falha são detalhadas pelo tipo de sessão: sessões de Foco e sessões MCU.
   
@@ -26,7 +26,7 @@ O Sub-relatório de Resumo de Conferências oferece uma visão geral de sessões
 
 Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou para exibir os dados retornados de formas diferentes. A tabela a seguir lista os filtros que você pode usar com o Sub-relatório de Resumo de Conferências.
   
-**Filtros do subrelatório de resumo de conferências**
+**Filtros do Sub-relatório de Resumo de Conferências**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -38,7 +38,7 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais detalhado ou
 
 A tabela a seguir lista as informações fornecidas no Sub-relatório de Resumo de Conferências.
   
-**Métricas do subrelatório de resumo de conferência**
+**Métricas do Sub-relatório de Resumo de Conferências**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

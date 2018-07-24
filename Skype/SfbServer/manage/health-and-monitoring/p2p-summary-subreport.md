@@ -1,24 +1,24 @@
 ---
-title: Sub-relatório de resumo P2P no Skype for Business Server 2015
+title: Subrelatório de resumo P2P no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: 'Resumo: Saiba mais sobre o subrelatório de resumo P2P no Skype para Business Server 2015.'
-ms.openlocfilehash: db610f21eda9b4decd01facf55f69699c48aa9f2
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o subrelatório de resumo P2P no Skype para Business Server.'
+ms.openlocfilehash: 216545644456a3cfd6285aaf73a4279879a12ef1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981786"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server-2015"></a>Sub-relatório de resumo P2P no Skype for Business Server 2015
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Subrelatório de resumo P2P no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o subrelatório de resumo P2P no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o subrelatório de resumo P2P no Skype para Business Server.
   
 O sub-relatório de resumo P2P oferece uma visão geral das sessões de comunicação ponto a ponto que falharam.
   
@@ -26,7 +26,7 @@ O sub-relatório de resumo P2P oferece uma visão geral das sessões de comunica
 
 Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. A tabela a seguir lista os filtros que você pode usar com o sub-relatório de resumo P2P.
   
-**Filtros do subrelatório de resumo P2P**
+**Filtros de sub-relatório de resumo P2P**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -38,7 +38,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 
 A tabela a seguir apresenta as informações oferecidas no sub-relatório de resumo P2P.
   
-**Métricas do subrelatório de resumo P2P**
+**Métricas de sub-relatório de resumo P2P**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

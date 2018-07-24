@@ -3,19 +3,18 @@ title: Considerações de ingresso no domínio do Sistema de Salas do Skype
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/4/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Leia este tópico para saber como ingressar o PC do cliente do Sistema de Salas do Skype em seu domínio.
-ms.openlocfilehash: ffc55984df3b42b06f4db8faa6a286ea41e99480
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b89ca5c5619c8d090aa765d0be1765b0b13900de
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568658"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972475"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Considerações de ingresso no domínio do Sistema de Salas do Skype
  
@@ -60,12 +59,12 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas políticas que podem causar problemas a um nível superior. A configuração Política de Grupo sem Substituição supera uma UO com uma configuração Bloquear Herança de Política. Para obter mais informações, consulte o artigo "Sem substituir relativamente comparado a bloquear herança de diretiva" na documentação de diretiva de grupo em http://technet.microsoft.com/en-us/library/cc978255.aspx.
+Mesmo que você crie uma Unidade Organizacional e bloqueie herança, há algumas políticas que podem causar problemas a um nível superior. A configuração Política de Grupo sem Substituição supera uma UO com uma configuração Bloquear Herança de Política. Para obter mais informações, consulte o artigo [Não substituir em relação ao bloquear herança de diretiva](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) na documentação de diretiva de grupo.
   
 Você pode ter várias abordagens para resolver esses problemas. Recomendamos que você consulte os especialistas em Active Directory para garantir que sejam fornecidas a você as configurações de GPO apropriadas ou pelo menos uma Unidade Organizacional na qual as políticas descritas anteriormente não existem. É recomendável para habilitar o Quality of Service (QoS) para dispositivos de sistema do Skype sala.
 
 ## <a name="see-also"></a>Consulte também
   
-[Configuração de dispositivo: Criar nova ou editar existente](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
+[Configuração de Dispositivo: Criar Nova ou Editar Existente](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 
-[Gerenciando a qualidade de serviço](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)
+[Gerenciando a Qualidade de Serviço](../../plan-your-deployment/network-requirements/network-requirements.md#managing-quality-of-service)

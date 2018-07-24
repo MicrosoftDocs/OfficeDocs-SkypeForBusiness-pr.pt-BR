@@ -1,24 +1,24 @@
 ---
-title: Planejar para conferência no Skype for Business Server 2015
+title: Planejamento de conferência no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
-description: 'Resumo: Leia este tópico para saber mais sobre os recursos de conferência e capacidades no Skype para Business Server 2015.'
-ms.openlocfilehash: d53f3a787a32b784f8d0bd7514e9a6ae868076ba
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Leia este tópico para saber mais sobre os recursos de conferência e capacidades no Skype para Business Server.'
+ms.openlocfilehash: b9c28c2a4f4f45bb9b79413269ebecd5a7f83464
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002868"
 ---
-# <a name="plan-for-conferencing-in-skype-for-business-server-2015"></a>Planejar para conferência no Skype for Business Server 2015
+# <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planejamento de conferência no Skype para Business Server
  
-**Resumo:** Leia este tópico para saber mais sobre os recursos de conferência e capacidades no Skype para Business Server 2015.
+**Resumo:** Leia este tópico para saber mais sobre os recursos de conferência e capacidades no Skype para Business Server.
   
 Conferência em Skype para Business Server permite que os usuários atender e participar de conferências on-line usando seu Skype para o cliente de negócios, em vez de todas as pessoas se unindo na mesma sala. Os participantes da reunião podem se conectar a uma reunião com seu Skype para o cliente de negócios para uma experiência de vídeo e o áudio completo ou discar para uma conferência usando um telefone. As conferências também são compatíveis com mensagens instantâneas, compartilhamento da área de trabalho e de aplicativos, e quadros de comunicação interativos.
   
@@ -38,7 +38,7 @@ Este tópico inclui as seguintes seções:
 
 Há quatro tipos de conferência disponíveis no Skype para Business Server: webconferências, áudio e vídeo (A / V) conferência, conferência discada e conferência de mensagem instantânea (IM). 
   
-Você pode optar por habilitar todos os tipos ou usar apenas um tipo, dependendo de suas necessidades. Por exemplo, você pode permitir que todos os tipos, incluindo conferência discada permitir que os usuários que não conseguem ingressar em uma conferência com um Skype para cliente corporativos chamada e participar de áudio da reunião de um telefone. Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente; você especificar se deseja implantar a web, A / V e conferência discada usando o construtor de topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md). 
+Você pode optar por habilitar todos os tipos ou usar apenas um tipo, dependendo de suas necessidades. Por exemplo, você pode permitir que todos os tipos, incluindo conferência discada permitir que os usuários que não conseguem ingressar em uma conferência com um Skype para cliente corporativos chamada e participar de áudio da reunião de um telefone. Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente; você especificar se deseja implantar a web, A / V e conferência discada usando o construtor de topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
 Nas subseções a seguir, estão descritos os recursos e as funcionalidades de cada tipo de conferência.
   
@@ -84,11 +84,11 @@ A conferência de áudio e vídeo permite sons e imagem na reunião. O áudio pe
     
 ### <a name="dial-in-conferencing"></a>Conferência discada
 
-Conferência discada permite que os participantes da reunião ingressar na parte de áudio de uma reunião chamando reunião de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Para obter mais informações sobre conferência discada, consulte [Planejar a conferência discada no Skype para Business Server 2015](dial-in-conferencing.md) e [Configure a conferência discada no Skype para Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
+Conferência discada permite que os participantes da reunião ingressar na parte de áudio de uma reunião chamando reunião de um telefone. A conferência discada é um subconjunto da conferência de áudio e exige configuração adicional. Para obter mais informações sobre conferência discada, consulte [Planejar a conferência discada no Skype para Business Server](dial-in-conferencing.md) e [Configure a conferência discada no Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
 ### <a name="instant-messaging-conferencing"></a>Conferência por mensagens instantâneas
 
-A conferência por mensagens instantâneas (IM) permite que mais de dois participantes se comuniquem em uma única sessão de mensagens instantâneas. Para obter detalhes sobre a conferência de mensagens Instantâneas, consulte [Planejar a mensagens instantâneas e presença no Skype para Business Server 2015](../../plan-your-deployment/instant-messaging-and-presence.md).
+A conferência por mensagens instantâneas (IM) permite que mais de dois participantes se comuniquem em uma única sessão de mensagens instantâneas. Para obter detalhes sobre a conferência de mensagens Instantâneas, consulte [Planejar a mensagens instantâneas e presença no Skype para Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 ## <a name="conferencing-components"></a>Componentes de conferência
 
@@ -121,7 +121,7 @@ Os componentes compatíveis com os recursos de conferência incluem o seguinte:
     
 ## <a name="conferencing-policies"></a>Políticas de conferência
 
-Para impor políticas e o uso de largura de banda do controle da sua organização, você pode definir políticas para os tipos de reuniões que os usuários podem organizar. É possível definir uma ampla variedade de políticas de conferência e atribuí-las a cada usuário e grupo de usuários. Você também pode definir políticas que regem as conversas ponto a ponto. Para obter detalhes sobre como definir políticas de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server 2015](../../manage/conferencing/conferencing-policies.md). Para obter detalhes sobre o gerenciamento de largura de banda, consulte [Planejar o controle de admissão de chamada no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Para impor políticas e o uso de largura de banda do controle da sua organização, você pode definir políticas para os tipos de reuniões que os usuários podem organizar. É possível definir uma ampla variedade de políticas de conferência e atribuí-las a cada usuário e grupo de usuários. Você também pode definir políticas que regem as conversas ponto a ponto. Para obter detalhes sobre como definir políticas de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server](../../manage/conferencing/conferencing-policies.md). Para obter detalhes sobre o gerenciamento de largura de banda, consulte [Planejar o controle de admissão de chamada no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ## <a name="support-for-large-meetings"></a>Suporte a reuniões grandes
 
@@ -131,9 +131,9 @@ O tamanho de reuniões que suporta o Skype para Business Server depende se a con
     
 - Em um pool dedicado, Skype para Business Server pode suportar reuniões com até participantes de 1000 usando web e áudio/vídeo (A / V) conferências, incluindo compartilhamento de apresentações do PowerPoint. Esse suporte exige um pool dedicado, configurado para suportar grandes reuniões e gerenciado de forma a garantir a hospedagem de apenas uma grande reunião por vez. 
     
-Para obter mais informações sobre o gerenciamento de grandes reuniões, consulte [Planejar para grandes reuniões em Skype para Business Server 2015](large-meetings.md).
+Para obter mais informações sobre o gerenciamento de grandes reuniões, consulte [Planejar para grandes reuniões em Skype para Business Server](large-meetings.md).
   
-Se sua organização requer maiores capacidades de reunião, você deve considerar a implementação de um ambiente híbrido que tiram vantagens do Skype transmitir reunião, um novo serviço online que faz parte do Office 365. A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. Todos os usuários devem estabelecer um locatário online, isso é um pré-requisito. Se você estiver interessado em implantar uma solução híbrida que pode tirar proveito da transmissão do Skype reunião, consulte [Configure sua implantação no local para transmissão do Skype reunião](../../deploy/configure-skype-meeting-broadcast.md).
+Se sua organização requer maiores capacidades de reunião, você deve considerar a implementação de um ambiente híbrido que tiram vantagens do Skype transmitir reunião, um serviço online que faz parte do Office 365. A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. Todos os usuários devem estabelecer um locatário online, isso é um pré-requisito. Se você estiver interessado em implantar uma solução híbrida que pode tirar proveito da transmissão do Skype reunião, consulte [Configure sua implantação no local para transmissão do Skype reunião](../../deploy/configure-skype-meeting-broadcast.md).
   
 ## <a name="determine-your-organizations-needs"></a>Determine as necessidades da sua organização
 
@@ -144,21 +144,21 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
   
 - **Você deseja habilitar a webconferência, que inclui a colaboração em documentos e o compartilhamento de aplicativos?**
     
-    Em caso positivo, você precisará habilitar a conferência para seu pool de Front-Ends usando a Ferramenta de Planejamento ou o Construtor de Topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+    Em caso positivo, você precisará habilitar a conferência para seu pool de Front-Ends usando a Ferramenta de Planejamento ou o Construtor de Topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
-    O compartilhamento de aplicativos requer e usa mais largura de banda que a colaboração em documentos. Skype para Business Server oferece um mecanismo de limitação para controlar a cada sessão de compartilhamento de aplicativos. Por padrão, isso é definido como 1,5 KB por segundo para cada sessão. Se você não deseja habilitar o compartilhamento de aplicativo, mas desejar a colaboração de documentos, você pode habilitar a conferência e usar políticas de conferência para desabilitar o compartilhamento de aplicativos. Para obter detalhes sobre como configurar políticas de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+    O compartilhamento de aplicativos requer e usa mais largura de banda que a colaboração em documentos. Skype para Business Server oferece um mecanismo de limitação para controlar a cada sessão de compartilhamento de aplicativos. Por padrão, isso é definido como 1,5 KB por segundo para cada sessão. Se você não deseja habilitar o compartilhamento de aplicativo, mas desejar a colaboração de documentos, você pode habilitar a conferência e usar políticas de conferência para desabilitar o compartilhamento de aplicativos. Para obter detalhes sobre como configurar políticas de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server](../../manage/conferencing/conferencing-policies.md).
     
-    Para habilitar os usuários a compartilharem apresentações do PowerPoint, é preciso configurar o Servidor do Office Web Apps. Para obter detalhes sobre como configurar o Office Web Apps Server, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Para habilitar os usuários a compartilharem apresentações do PowerPoint, é preciso configurar o Servidor do Office Web Apps. Para obter detalhes sobre como configurar o Office Web Apps Server, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
-- **Você deseja habilitar a conferência de áudio e vídeo?**
+- **Deseja habilitar a conferência de áudio e vídeo?**
     
-    Em caso positivo, você precisará habilitar a conferência para seu pool de Front-Ends usando a Ferramenta de Planejamento ou o Construtor de Topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md).
+    Em caso positivo, você precisará habilitar a conferência para seu pool de Front-Ends usando a Ferramenta de Planejamento ou o Construtor de Topologias. Para obter mais informações, consulte [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
     A conferência A/V exige e usa mais largura de banda que a webconferência (que inclui a colaboração em documentos e o compartilhamento de aplicativos). Se você não quiser habilitar a conferência de áudio e vídeo, mas quiser habilitar a webconferência, poderá habilitar a conferência e usar as políticas para desabilitar conferências A/V.
     
     Se você quiser habilitar a conferência de áudio, mas não a conferência de vídeo, poderá habilitar a conferência A/V e usar políticas de conferência para impedir as conferências de vídeo. Como alternativa, você pode habilitar a conferência A/V e permitir que somente determinados usuários iniciem ou participem de conferências A/V. 
     
-    Para obter mais informações sobre como configurar políticas de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server 2015](../../manage/conferencing/conferencing-policies.md).
+    Para obter mais informações sobre como configurar políticas de conferência, consulte [Gerenciar políticas de conferência no Skype para Business Server](../../manage/conferencing/conferencing-policies.md).
     
     > [!NOTE]
     > O Enterprise Voice não é necessário para você usar a conferência A/V. Se você habilitar a conferência A/V, seus usuários poderão adicionar áudio às conferências, caso tenham dispositivos de áudio, mesmo que você use um sistema PBX como solução de telefonia. 
@@ -167,21 +167,21 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
     Em caso afirmativo, implante e habilite a conferência de discagem. Em seguida, os usuários convidados (dentro e fora da sua organização) poderão ingressar na parte de áudio de conferências usando um telefone PSTN.
     
-    Conferência discada é um recurso opcional que você pode configurar quando você implanta o Skype para conferências Business Server. Embora a conferência discada use alguns dos mesmos componentes do Enterprise Voice, você pode implantar a conferência discada mesmo se não implantar o Enterprise Voice. A conferência discada é compatível com usuários corporativos e anônimos. Para obter mais informações sobre Configurando conferências discadas para enterprise e usuários anônimos, consulte [Deploy conferência no Skype para Business Server 2015](../../deploy/deploy-conferencing/deploy-conferencing.md) e [Configure a conferência discada no Skype para Business Server 2015](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+    Conferência discada é um recurso opcional que você pode configurar quando você implanta o Skype para conferências Business Server. Embora a conferência discada use alguns dos mesmos componentes do Enterprise Voice, você pode implantar a conferência discada mesmo se não implantar o Enterprise Voice. A conferência discada é compatível com usuários corporativos e anônimos. Para obter mais informações sobre Configurando conferências discadas para enterprise e usuários anônimos, consulte [Deploy conferência no Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) and [Configure a conferência discada no Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
-- **Deseja permitir que usuários externos com Skype para clientes corporativos ingressar em conferências?**
+- **Deseja permitir que usuários externos com clientes Skype for Business ingressem nas conferências?**
     
     Permitindo a participação externa em reuniões, você maximizar seu investimento em Skype para Business Server. Entre os usuários externos podem estar:
     
   - **Usuários remotos.** Os usuários da organização, quando eles estão trabalhando fora dos firewalls e estão usando seus laptops ou outro Skype para dispositivos do servidor de negócios.
     
-  - * * Usuários federados. * * Usuários de empresas que você trabalhe com quem também executar Skype para Business Server. Para habilitar seus usuários a contatar facilmente esses usuários, crie relacionamentos federados com essas empresas.
+  - **Usuários federados.** Os usuários de empresas que você trabalhe com quem também executar Skype para Business Server. Para habilitar seus usuários a contatar facilmente esses usuários, crie relacionamentos federados com essas empresas.
     
-  - * * Usuários anônimos. * * Quaisquer outros usuários externos que são convidados especificamente por seus usuários ingressem em conferências específicas. O organizador de uma reunião em sua empresa pode enviar um convite de uma conferência por email a um usuário externo. O email inclui um link no qual o usuário externo pode clicar para ingressar na conferência.
+  - **Usuários anônimos.** Quaisquer outros usuários externos que são convidados especificamente por seus usuários para participar de conferências específicas. O organizador de uma reunião em sua empresa pode enviar um convite de uma conferência por email a um usuário externo. O email inclui um link no qual o usuário externo pode clicar para ingressar na conferência.
     
     Se você quiser permitir que usuários externos, você precisará implantar servidores de borda. Além disso, com os Servidores de Borda implantados, você pode criar relacionamentos federados com outras organizações, como clientes ou fornecedores, e os usuários dessas organizações poderão colaborar mais facilmente com seus usuários.
     
-    Para obter detalhes sobre como implantar os Servidores de Borda, consulte Plano para Servidores de Borda e Implantar Servidores de Borda. Para obter detalhes sobre como habilitar o acesso externo para Office Web Apps Server, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server 2015](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Para obter detalhes sobre como implantar os Servidores de Borda, consulte Plano para Servidores de Borda e Implantar Servidores de Borda. Para obter detalhes sobre como habilitar o acesso externo para Office Web Apps Server, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
 - **Você deseja controlar os clientes que podem ingressar Skype para reuniões Business Server?**
     

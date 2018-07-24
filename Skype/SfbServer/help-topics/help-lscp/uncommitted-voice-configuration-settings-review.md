@@ -3,7 +3,7 @@ title: Revisão de definições de configuração de voz não confirmadas
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa2bc914-dfe0-4a1f-b827-41092a715a5d
 description: Use a caixa de diálogo Definições de configuração de voz não confirmadas para revisar todas as alterações feitas. Role pela caixa de diálogo para revisar todas as alterações não autorizadas ou clique nas setas para expandir ou recolher as várias seções. Quando terminar, clique em Fechar. Depois que você fechar esta caixa de diálogo, você pode modificar suas alterações ou confirmá-las.
-ms.openlocfilehash: 80b828d2d32daac5247bca0c9ba9b5c85b2dfe2e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 87446600b72caf1a2bd46fa27cd718724ad24ddb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21004358"
 ---
 # <a name="uncommitted-voice-configuration-settings-review"></a>Definições de configuração de voz não confirmadas: revisar
  

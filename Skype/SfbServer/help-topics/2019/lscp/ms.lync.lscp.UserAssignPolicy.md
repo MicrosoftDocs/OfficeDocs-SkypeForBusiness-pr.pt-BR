@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
+ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: cf071e29a12aca3f52deed997e2767ecb5e8426b
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 92b598bd6ea379fec3cbdeb66bf1fc929f3be3f7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045271"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998789"
 ---
 # <a name="users-assign-policies"></a>Usuários: Atribuir políticas
  
@@ -37,8 +38,7 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
 - [Configurar telefonia para usuários](http://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
     
 - [Atribuir uma política de mobilidade por usuário](http://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
-    
-- [Atribuir uma política de Chat persistente por usuário](http://technet.microsoft.com/library/e22168f2-fde1-4f0a-b194-1fc881436822.aspx)
+
     
  
 

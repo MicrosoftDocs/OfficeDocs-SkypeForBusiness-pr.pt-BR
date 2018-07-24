@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Resumo: Saiba como configurar opções de servidor de Chat persistente em escopo global, site ou nível de pool no Skype para Business Server 2015.'
-ms.openlocfilehash: 6fe06b6a5383178f0a9465624f7a0e739c2a32e6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1da6acc83c051e2de3b2453aae04f40c5b18d456
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988836"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurar opções do Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -29,7 +30,10 @@ Você pode especificar várias opções para o servidor de Chat persistente que 
 - Limite de atualização do participante. O número máximo de participantes de uma determinada sala de chat para a qual um Chat persistente enviará atualizações. O padrão global é de 75.
     
 - URL de gerenciamento de sala. A URL usada para gerenciar a sala de chat personalizada. A configuração permite o uso de uma solução de gerenciamento de sala personalizado. 
-    
+   
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015.
+ 
 ## <a name="configure-persistent-chat-server-global-options"></a>Configurar opções globais do servidor de Chat persistente
 
 Para configurar as opções globais do servidor de Chat persistente:

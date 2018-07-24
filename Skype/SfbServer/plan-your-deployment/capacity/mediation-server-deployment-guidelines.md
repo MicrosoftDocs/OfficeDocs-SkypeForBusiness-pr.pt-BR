@@ -1,9 +1,8 @@
 ---
-title: Orientações de implantação para Servidor de Mediação no Skype for Business Server 2015
+title: Diretrizes de implantação para o servidor de mediação em Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,13 +10,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Este tópico descreve as diretrizes de planejamento para implantação de servidor de mediação.
-ms.openlocfilehash: e1017e9fab43578fd3c10e8043c7dcc747d313b9
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967930"
 ---
-# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server-2015"></a>Orientações de implantação para Servidor de Mediação no Skype for Business Server 2015
+# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Diretrizes de implantação para o servidor de mediação em Skype para Business Server
  
 Este tópico descreve as diretrizes de planejamento para implantação de servidor de mediação.
   
@@ -39,7 +39,7 @@ Se você implantou os gateways PSTN, IP-PBXs ou controladores de borda de sessã
     
 - Aceite tráfego de qualquer servidor de mediação em um pool.
     
-Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para avaliar se colocando o servidor de mediação com seu pool de Front-End pode manipular a carga. Se seu ambiente não pode atender a esses requisitos, você precisará implantar um pool do servidor de mediação autônomo.
+Você pode usar o Skype para a ferramenta de planejamento de negócios para avaliar se colocando o servidor de mediação com seu pool de Front-End pode manipular a carga. Se seu ambiente não pode atender a esses requisitos, você precisará implantar um pool do servidor de mediação autônomo.
   
 ## <a name="central-site-and-branch-site-considerations"></a>Considerações sobre o local central e o local da filial
 

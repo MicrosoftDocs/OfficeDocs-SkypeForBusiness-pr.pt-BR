@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
+ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 1ce522283a2914f554f994de2ae59fafe6f120a5
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: ac155e55efdd4f8b4f15048efcd5cd93148be513
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044057"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986426"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>Usuários: Exibir ou configurar plano de discagem
  

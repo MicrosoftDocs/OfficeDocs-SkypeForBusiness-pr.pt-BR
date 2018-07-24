@@ -1,24 +1,24 @@
 ---
-title: Criar uma configuração de arquivamento no Skype for Business Server 2015
+title: Criar uma configuração de arquivamento no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 'Resumo: Saiba como criar uma configuração de arquivamento para Skype for Business Server 2015.'
-ms.openlocfilehash: 5675117d14d35e0055c7e494ce9476d421dda443
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como criar uma configuração de arquivamento para Skype for Business Server.'
+ms.openlocfilehash: b46aa3605d34ba083b7021424536b9c2d1c9bbea
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019842"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server-2015"></a>Criar uma configuração de arquivamento no Skype for Business Server 2015
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Criar uma configuração de arquivamento no Skype para Business Server
 
-**Resumo:** Saiba como criar uma configuração de arquivamento para Skype for Business Server 2015.
+**Resumo:** Saiba como criar uma configuração de arquivamento para Skype for Business Server.
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurar opções de arquivamento usando o Painel de Controle
 

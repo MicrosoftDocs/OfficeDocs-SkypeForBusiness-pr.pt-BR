@@ -1,24 +1,24 @@
 ---
-title: Criar uma nova política de arquivamento no Skype for Business Server 2015
+title: Criar uma nova política de arquivamento no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Resumo: Saiba como criar uma nova política de arquivamento para Skype for Business Server 2015.'
-ms.openlocfilehash: 38a87892620a4d4fdd70b2cf855dc37d371b1b57
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como criar uma nova política de arquivamento para Skype for Business Server.'
+ms.openlocfilehash: e900bd9ac73a6e192eba7a506d713a56a69e794d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970355"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server-2015"></a>Criar uma nova política de arquivamento no Skype for Business Server 2015
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Criar uma nova política de arquivamento no Skype para Business Server
 
-**Resumo:** Saiba como criar uma nova política de arquivamento para Skype for Business Server 2015.
+**Resumo:** Saiba como criar uma nova política de arquivamento para Skype for Business Server.
   
 Você pode criar novas políticas de arquivamento usando o Painel de Controle ou cmdlets do Windows PowerShell.
   
@@ -51,7 +51,7 @@ Para criar uma nova política de arquivamento usando o Painel de Controle:
 6. Clique em **Confirmar**.
     
     > [!IMPORTANT]
-    > As configurações de uma política do usuário se aplicam somente a usuários específicos e grupos de usuários aos quais você aplica a política. Para obter detalhes, consulte [Aplicar uma política de arquivamento para usuários no Skype para Business Server 2015](apply-a-policy-to-users.md). 
+    > As configurações de uma política do usuário se aplicam somente a usuários específicos e grupos de usuários aos quais você aplica a política. Para obter detalhes, consulte [Aplicar uma política de arquivamento para usuários no Skype para Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Criar uma nova política de arquivamento usando o Windows PowerShell
 

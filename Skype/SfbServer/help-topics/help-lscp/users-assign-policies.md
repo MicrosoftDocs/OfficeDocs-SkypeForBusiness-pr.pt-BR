@@ -3,7 +3,7 @@ title: Os usuários atribuir políticas
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 03aea975fae29b6a905753a2365007fb5b8a584f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: a07f2216cbd67c23d732d56bc66abf806dcadf2c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993385"
 ---
 # <a name="users-assign-policies"></a>Usuários: Atribuir políticas
  
@@ -26,7 +27,7 @@ O que você deseja fazer? Clique no link da tarefa que você deseja executar.
     
 - [Especificar versões do cliente suportadas para a entrada por um usuário](http://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
     
-- [Atribuir uma política de PIN por usuário no Skype para Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Atribuir uma política de PIN por usuário no Skype for Business Server 2015](../../manage/authentication/assign-a-per-user-pin-policy.md)
     
 - [Configurar a federação, acesso de usuário remoto e conectividade de IM pública para usuários](http://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
     

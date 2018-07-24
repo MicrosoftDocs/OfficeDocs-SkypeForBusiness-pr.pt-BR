@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 0d096ba8c2303ca952100a8142b356944b775dcc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569184"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988983"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implantar o painel de controle de qualidade de chamada para Skype para Business Server 2015
  
@@ -41,18 +41,18 @@ Implantação de cubo obtém informações do usuário no qual o arquivamento de
 Instalação do portal cria um banco de dados do repositório que armazena o mapeamento de usuários CQD/consultas de relatórios de cada usuário. Em seguida, ele configura um aplicativo web do IIS que é o painel onde os usuários podem ver um conjunto predefinido de relatórios, bem como personalizar e criar suas próprias consultas para visualizar os dados do cubo. A instalação do portal cria dois aplicativos web adicionais que expõe APIs para os usuários acessarem programaticamente o repositório e o cubo. (Essas APIs são usados internamente pelo painel também.)
   
 
-|**Fase**|**Etapas**|**Funções e a associação de grupo**|**Documentação**|
+|**Fase**|**Etapas**|**Funções e associação de grupo**|**Documentação**|
 |:-----|:-----|:-----|:-----|
 |Instale pré-requisitos de hardware e software.  <br/> |Decidir sobre a configuração de CQD e escolha um SQL Server a partir do qual efetuar a instalar.  <br/> |Usuário do domínio que é membro do grupo local de administradores.  <br/> |Seção "Pré-requisitos de instalar" na documentação de implantação.  <br/> |
 |Instale o CQD.  <br/> |Execute o MSI seguindo o documento de implantação.  <br/> |Para executar a instalação, a conta de instalação deve ser um usuário de domínio que seja membro do grupo Administradores local e ter acesso de leitura ao banco de dados de métricas de QoE no Monitoring Server.  <br/> |Seções "Contas e as etapas de implantação" na documentação de implantação.  <br/> |
 |Conceder acesso de usuário.  <br/> |Para gerenciar a autorização de usuários ao Portal, recomendamos o uso de autorização de URL, que foi introduzido no IIS 7.0. Para obter mais informações, consulte [Understanding IIS 7.0 a autorização de URL](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Usuário do domínio que é membro do grupo local de administradores.  <br/> |Gerenciando o acesso de usuário para a seção de Portal na documentação de implantação.  <br/> |
 |Opcional: Forneça informações de mapeamento de sub-rede.  <br/> |Preencha a rede e tabelas de mapeamento de construção no banco de dados de arquivo morto de QoE.  <br/> |Uma conta com acesso de gravação no banco de dados de arquivo morto de QoE.  <br/> |Seção "Fornecendo informações de sub-rede" na documentação do usuário.  <br/> |
    
-## 
+
 
 Configurando a infraestrutura e instalando o software envolve a implantação do painel de controle de qualidade de chamada. O procedimento a seguir destaca o processo.
   
-### <a name="deployment-steps"></a>Etapas da implantação
+## <a name="deployment-steps"></a>Etapas da implantação
 
 1. Copie o CallQualityDashboard.msi máquina onde deve ser instalado o componente de banco de dados de arquivamento do CQD (essa é a máquina que tenha o SQL Server instalado). 
     
@@ -168,7 +168,7 @@ A próxima etapa é configurar o painel do CQD. Depois que os usuários são aut
 > [!IMPORTANT]
 > É importante apenas alterar essa configuração para o aplicativo CQD e não para os dois aplicativos de API: QoEDataService e QoERepositoryService. 
   
-### <a name="configuring-file-access-for-the-cqd-dashboard"></a>Configurando o acesso a arquivos para o CQD (painel)
+## <a name="configuring-file-access-for-the-cqd-dashboard"></a>Configurando o acesso a arquivos para o CQD (painel)
 
 1. Abra o Editor de configuração para CQD.
     
@@ -214,7 +214,7 @@ Para habilitar o SSL/TLS no IIS e forçar os usuários a se conectar via HTTPS s
     
 2. Para obter instruções sobre como ativar TLS as conexões do SQL Server, consulte [como habilitar a criptografia SSL para uma instância do SQL Server usando o Console de gerenciamento Microsoft ](https://support.microsoft.com/en-us/kb/316898/).
     
-### <a name="cube-sync-fails"></a>Falha na sincronização de cubo
+## <a name="cube-sync-fails"></a>Falha na sincronização de cubo
 
 QoEMetrics podem conter alguns registros inválidos com base no relógio do usuário final. Se a diferença de horário for maior do que 60 anos, a importação de cubo falhará.
   

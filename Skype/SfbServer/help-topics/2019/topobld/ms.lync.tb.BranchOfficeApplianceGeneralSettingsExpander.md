@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar as configurações para um aparelho de filial persistente ou o servidor de filial persistente existente, são apresentadas as seguintes seções:'
-ms.openlocfilehash: eb82254746ea74e06dcd51231712d4694fa8aa9c
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 194324a845442041b8dd2bc11274b100ba145276
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991597"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989074"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de Configurações Gerais de Aparelho de Filial
  
@@ -28,7 +28,6 @@ Para editar as configurações para um aparelho de filial persistente ou o servi
     
 - Configurações do Servidor de Mediação
     
-## 
 
 Para um aparelho de filial persistente ou servidor de filial persistente, são apresentadas com os seguintes itens:
   
@@ -70,7 +69,6 @@ Você define os gateways PSTN associados com o servidor de mediação colocado. 
   
 Se você tiver mais de um gateway associado a um servidor de mediação, o primeiro gateway associado será o gateway padrão. Caso precise escolher outro gateway como gateway padrão, selecione o gateway para tornar padrão e clique em **Tornar Padrão**.
   
-### 
 
 Para obter detalhes sobre como definir e configurar as definições para o aparelho de filial persistente ou servidor de filial persistente, consulte [Branch-Site Resiliency Solutions](http://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
   

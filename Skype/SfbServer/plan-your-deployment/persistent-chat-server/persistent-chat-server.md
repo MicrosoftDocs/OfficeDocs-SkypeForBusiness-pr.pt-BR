@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Resumo: Leia este tópico para saber como planejar o servidor de Chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 0380b5ebb43e198160faa3e7f10b1563b4def80f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f4d3378de2c2854141d358eaaff7d6c9c6ceba07
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996626"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejar Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -28,11 +29,14 @@ Servidor de Chat persistente pode ajudar a melhorar a comunicação dentro da su
     
 - Permitir o compartilhamento eficiente de informações 
     
-- Melhorando a comunicação entre equipes, incluindo equipes geograficamente distante e multifuncionais
+- Melhorar a comunicação entre as equipes, incluindo equipes geograficamente dispersas e multifuncionais
     
 - Reduzir a sobrecarga de informações
     
 - Cumprir normas de conformidade por meio da implantação opcional de serviço de Conformidade de Chat Persistente
+
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Arquitetura de alto nível de Servidor de Chat Persistente
 
@@ -58,7 +62,7 @@ O serviço de Chat, também chamado de serviço de Canal, é o serviço principa
   
 - Aceita as mensagens recebidas
     
-- Registra e lista os participantes em uma sala de Chat persistente
+- Registra e lista os participantes em uma sala do Chat Persistente
     
 - Retransmite mensagens a outros assinantes do canal
     

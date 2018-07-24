@@ -1,26 +1,25 @@
 ---
-title: Atribuir uma política de PIN por usuário no Skype for Business Server 2015
+title: Atribuir uma política de PIN por usuário no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server 2015.'
-ms.openlocfilehash: 6eba19d67f2b2b04c98ed993fa02ca0c2052f28a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server.'
+ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569509"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21005950"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server-2015"></a>Atribuir uma política de PIN por usuário no Skype for Business Server 2015
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Atribuir uma política de PIN por usuário no Skype para Business Server
 
-**Resumo:** Estágio AV e OAuth certificados para Skype para Business Server 2015.
+**Resumo:** Estágio AV e OAuth certificados para Skype para Business Server.
   
 A política PIN (número) de identificação pessoal de conferência discada é uma das configurações individuais de uma conta de usuário que podem ser configuradas no Skype para painel de controle do servidor de negócios.
   
@@ -67,7 +66,7 @@ Após a criação de pelo menos uma política de PIN por usuário, use o procedi
     > [!NOTE]
     > Porque há várias políticas que você pode definir usando a caixa de diálogo **Atribuir políticas** , ** \<manter encontram\> ** é selecionada por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário não realizando alterações nesta configuração.
   
-   - Permitir Skype para o servidor de negócios 2015 escolha automaticamente a política a nível global ou, se definida, a política de nível de site.
+   - Permitir Skype para Business Server escolha automaticamente a política a nível global ou, se definida, a política de nível de site.
     
    - Clique no nome de uma política PIN por usuário definida anteriormente na página  **Política de PIN**.
     
@@ -108,4 +107,4 @@ Para obter detalhes, consulte [Grant-CsPinPolicy](https://docs.microsoft.com/pow
   
 ## <a name="see-also"></a>Consulte também
 
-[Criar uma nova política PIN no Skype para Business Server 2015](create-a-new-pin-policy.md)
+[Criar uma nova política PIN no Skype para Business Server](create-a-new-pin-policy.md)

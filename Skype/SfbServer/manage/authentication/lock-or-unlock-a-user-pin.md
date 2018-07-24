@@ -1,25 +1,25 @@
 ---
-title: Bloquear ou desbloquear um PIN de usuário no Skype for Business Server 2015
+title: Bloquear ou desbloquear um PIN em Skype do usuário para o servidor de negócios
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 'Resumo: Bloquear ou desbloquear discada um usuário PIN para Skype para Business Server 2015.'
-ms.openlocfilehash: 5bd4a334f9c0b543d9b4cade8631f992a920dfb1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Bloquear ou desbloquear discada um usuário PIN para Skype para Business Server.'
+ms.openlocfilehash: 89e971ac8c935c7998c206ce365c8899e0617cc4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986320"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server-2015"></a>Bloquear ou desbloquear um PIN de usuário no Skype for Business Server 2015
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Bloquear ou desbloquear um PIN em Skype do usuário para o servidor de negócios
  
-**Resumo:** Bloquear ou desbloquear discada um usuário PIN para Skype para Business Server 2015.
+**Resumo:** Bloquear ou desbloquear discada um usuário PIN para Skype para Business Server.
   
 Você pode bloquear ou desbloquear o PIN de um usuário da seção de **usuários** do Skype para painel de controle do servidor de negócios.
   

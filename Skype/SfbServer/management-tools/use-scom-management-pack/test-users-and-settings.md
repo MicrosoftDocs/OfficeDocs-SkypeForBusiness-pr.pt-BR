@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Resumo: Configure contas de usuário de teste e configurações de nó do observador do Skype para transações sintéticas do Business Server.'
-ms.openlocfilehash: ee5330f10dd97e8ecc8a3e3e30962e6e8a69555b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569872"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20989885"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar usuários de teste e configurações do nó do inspetor
  
@@ -31,9 +31,9 @@ Depois de configurar o computador que atuará como um nó do inspetor, você dev
 ## <a name="configure-test-user-accounts"></a>Configurar contas de usuário de teste
 <a name="testuser"> </a>
 
-Contas de teste não precisará representam pessoas reais, mas eles devem ser contas válidas do Active Directory. Além disso, essas contas devem ser habilitadas para Skype para Business Server 2015, eles devem ter endereços válidos de SIP e eles devem ser habilitados para o Enterprise Voice (usar a transação sintética de Test-CsPstnPeerToPeerCall). 
+Contas de teste não precisará representam pessoas reais, mas eles devem ser contas válidas do Active Directory. Além disso, essas contas devem ser habilitadas para Skype para Business Server, eles devem ter endereços válidos de SIP e eles devem ser habilitados para o Enterprise Voice (usar a transação sintética de Test-CsPstnPeerToPeerCall). 
   
-Se você estiver usando o método de autenticação TrustedServer, tudo o que você precisa fazer é certificar-se de que essas contas existem e configurá-las como observado. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar. Se você estiver usando o método de autenticação negociar, você também deve usar o cmdlet Set-CsTestUserCredential e do Skype para Business Server Management Shell habilitar essas contas para trabalhar com as transações sintéticas de teste. Fazer isso executando um comando semelhante ao seguinte (esses comandos assumem que as três contas de usuário do Active Directory foram criadas e que essas contas estão habilitadas para Skype para Business Server 2015):
+Se você estiver usando o método de autenticação TrustedServer, tudo o que você precisa fazer é certificar-se de que essas contas existem e configurá-las como observado. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar. Se você estiver usando o método de autenticação negociar, você também deve usar o cmdlet Set-CsTestUserCredential e do Skype para Business Server Management Shell habilitar essas contas para trabalhar com as transações sintéticas de teste. Fazer isso executando um comando semelhante ao seguinte (esses comandos assumem que as três contas de usuário do Active Directory foram criadas e que essas contas estão habilitadas para Skype para Business Server):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -84,7 +84,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Os resultados desse comando devem ser armazenados em uma variável. Neste exemplo, é uma variável chamada de $pstnTest. 
   
-Nesse ponto, você pode usar o cmdlet **New-CsWatcherNodeConfiguration** para associar o tipo de teste (armazenado na variável $pstnTest) a um pool do Skype for Business Server 2015. Por exemplo, o seguinte comando cria uma nova configuração de nó do inspetor para o pool atl-cs-001.litwareinc.com, adicionando os três usuários de teste que foram criados anteriormente e também adicionando o tipo de teste de PSTN:
+Em seguida, você pode usar o cmdlet **New-CsWatcherNodeConfiguration** para associar o tipo de teste (armazenado na variável $pstnTest) para um Skype para pool de servidores de negócios. Por exemplo, o seguinte comando cria uma nova configuração de nó do inspetor para o pool atl-cs-001.litwareinc.com, adicionando os três usuários de teste que foram criados anteriormente e também adicionando o tipo de teste de PSTN:
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -128,7 +128,7 @@ Os seguintes componentes não serão testados por padrão:
     
 - JoinLauncher
     
-- MCXP2PIM (mensagens instantâneas do dispositivo móvel)
+- MCXP2PIM (herdado dispositivo móvel mensagens instantâneas)
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -244,7 +244,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-Esse comando remove todas as configurações de nó do inspetor do computador especificado, o que impede que o computador execute transações sintéticas automaticamente. No entanto, o comando não desinstala os arquivos de agente do System Center nem os arquivos de sistema do Skype for Business Server 2015.
+Esse comando remove todas as configurações de nó do inspetor do computador especificado, o que impede que o computador execute transações sintéticas automaticamente. No entanto, o comando não desinstala os arquivos de agente do System Center ou o Skype para arquivos de sistema do servidor de negócios.
   
 Por padrão, os nós do inspetor usam as URLs da Web externas de uma organização durante a realização de seus testes. No entanto, também é possível configurá-los para usar as URLs da Web internas da organização. Isso permite que os administradores verifiquem o acesso a URLs para os usuários localizados dentro da rede de perímetro. Para configurar um nó do inspetor para usar as URLs internas em vez das externas, defina a propriedade UseInternalWebUrls como True ($True):
   
@@ -326,7 +326,7 @@ Para executar essa transação sintética, você deve configurar:
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transações Sintéticas do Repositório Unificado de Contatos
 
-A transação sintética do Repositório Unificado de Contatos verifica a capacidade do Skype for Business Server 2015 recuperar contatos em nome de um usuário do Exchange.
+A transação sintética do repositório unificado de contatos verifica a capacidade do Skype para Business Server recuperar contatos em nome de um usuário do Exchange.
   
 Para usar essa transação sintética, as seguintes condições devem ser atendidas:
   
@@ -358,7 +358,10 @@ Para habilitar a transação sintética XMPP, um parâmetro XmppTestReceiverMail
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-No exemplo, uma regra do Skype for Business Server 2015 precisará existir para encaminhar mensagens de litwareinc.com para um gateway XMPP
+Neste exemplo, um Skype para regra Business Server precisará existir para encaminhar mensagens de litwareinc.com para um gateway XMPP.
+
+> [!NOTE]
+> Gateways de XMPP e proxies estão disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019. Consulte a [federação XMPP migrando](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações. 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transação sintética do Servidor de Interoperabilidade de Vídeo (VIS)
 
@@ -438,4 +441,4 @@ Você pode exibir esses arquivos usando o Windows Internet Explorer, o Microsoft
 Transações sintéticas executadas a partir de dentro do System Center Operations Manager irá gerar automaticamente esses arquivos de log para falhas. Esses logs não serão gerados se a execução falhar antes que o Skype for Business Server PowerShell seja capaz de carregar e executar a transação sintética. 
   
 > [!IMPORTANT]
-> Por padrão, o  Skype for Business Server 2015 salva arquivos de log em uma pasta que não é compartilhada. Para tornar esses logs prontamente acessíveis, é preciso compartilhar essa pasta. Por exemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> Por padrão, o Skype para Business Server salva os arquivos de log para uma pasta que não seja compartilhada. Para tornar esses logs prontamente acessíveis, é preciso compartilhar essa pasta. Por exemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 

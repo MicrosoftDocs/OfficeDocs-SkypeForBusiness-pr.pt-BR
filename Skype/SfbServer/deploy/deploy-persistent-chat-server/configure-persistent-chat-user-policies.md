@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumo: Leia este tópico para saber como criar políticas de usuário inicial para o servidor de Chat persistente no Skype para Business Server 2015. As diretivas de usuário de Chat persistentes determinam se ou não os usuários poderão acesso a salas de bate-papo.'
-ms.openlocfilehash: 01ed6eb048f1949c93260c554eb58d0c76c5259f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000833"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar políticas de usuário de Chat Persistente no Skype for Business Server 2015
  
@@ -32,6 +33,9 @@ Este tópico inclui as seguintes seções:
     
 - Aplicar uma política a um usuário ou grupo de usuários
     
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015.
+
 ## <a name="configure-the-global-policy"></a>Configurar a política global
 
 Para configurar a política global:

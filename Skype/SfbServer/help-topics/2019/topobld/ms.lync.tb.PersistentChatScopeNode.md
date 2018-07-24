@@ -3,7 +3,6 @@ title: Nó de Escopo de Chat Persistente
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 3/27/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,25 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: Para começar a criação de um novo servidor de Chat persistente ou o pool do servidor de Chat persistente, no construtor de topologia você clique com o botão direito em pools de Chat persistente e selecione Novo Pool de Chat persistente
-ms.openlocfilehash: c3806adaaa03fcedfe72a7538afdb30c65bb4c1f
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 5e419127138140ce02b877fb3bf7357c79007350
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012642"
 ---
 # <a name="persistent-chat-scope-node"></a>Nó de Escopo de Chat Persistente
- 
-Para começar a criação de um novo servidor de Chat persistente ou o pool do servidor de Chat persistente, no construtor de topologia você clique com o botão direito em **pools de Chat persistente** e selecione **Novo Pool de Chat persistente**
-  
-- **Topologia**. Você pode usar essa opção para definir uma nova topologia, abra uma topologia existente, baixe a topologia atual, salvar uma cópia da topologia, publique a topologia, instale um banco de dados, mesclar os componentes de versões anteriores do Office Communications Server ou remover o implantação.
-    
-- **Ajuda**. Você pode usar esta opção para acessar a Ajuda para o nó ativo.
-    
-## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar o servidor de Chat persistente no Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.

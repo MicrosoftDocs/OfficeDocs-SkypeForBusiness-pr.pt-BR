@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Para editar as propriedades de um A / pool V Conferencing Server que você já tenha definido, faça o seguinte:'
-ms.openlocfilehash: 2882617450373b3e6ec0c22af6f59a1c432a4042
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1d9222b895d9df025519c2e7ad01f37757f2ed68
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975192"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991491"
 ---
 # <a name="av-mcu-settings-expander"></a>Expansor de configurações AV MCU
  
@@ -33,7 +33,6 @@ Para associar um A / pool V Conferencing Server, selecione o pool de Front-End o
 > [!NOTE]
 > Se nenhum pools de Front-End são exibidos na **Selecionar os pools de Front-End para associar A / pool de conferência V** painel, você ter colocado ou A / V Conferencing Server com o pool de Front-End, ou não selecionou para adicionar a conferência nos recursos ** funcionalidade e** seção de propriedades do pool de Front-End.
   
-## 
 
 Quando terminar, clique em **Okey** para concluir a edição de A / V Conferencing Server configurações do pool. Clique em **Cancelar** para descartar quaisquer alterações.
   

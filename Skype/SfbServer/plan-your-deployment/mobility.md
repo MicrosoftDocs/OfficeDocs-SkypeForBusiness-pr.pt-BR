@@ -1,5 +1,5 @@
 ---
-title: Planejar a mobilidade no Skype for Business Server 2015
+title: Planejar para mobilidade Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/17/2018
@@ -9,20 +9,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
-description: Planeje sua implementação de mobilidade para Skype para Business Server 2015.
-ms.openlocfilehash: f0d822050055ea7255786128fcaecd144f91367a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Planeje sua implementação de mobilidade para Skype para Business Server.
+ms.openlocfilehash: 660f5013cd2e41ea08fdd2567fb9d51f58c1b8c6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003004"
 ---
-# <a name="plan-for-mobility-for-skype-for-business-server-2015"></a>Planejar a mobilidade no Skype for Business Server 2015
+# <a name="plan-for-mobility-for-skype-for-business-server"></a>Planejar para mobilidade Skype para Business Server
  
-Planeje sua implementação de mobilidade para Skype para Business Server 2015.
+Planeje sua implementação de mobilidade para Skype para Business Server.
   
-Com o Skype para Business Server 2015, você pode implantar o recurso de mobilidade para fornecer Skype para a funcionalidade do Business Server 2015 em dispositivos móveis. Este artigo fornece detalhes sobre o recurso de mobilidade e ajuda a planejar sua implantação.
+Com o Skype para Business Server, você pode implantar o recurso de mobilidade para fornecer Skype para a funcionalidade do servidor de negócios em dispositivos móveis. Este artigo fornece detalhes sobre o recurso de mobilidade e ajuda a planejar sua implantação.
   
-O recurso de mobilidade para Skype para Business Server 2015 é capaz de oferecer suporte a clientes móveis do Skype para a empresa, bem como os clientes do Lync voltando 2010. Depois que ele for implantado, os usuários podem se conectar ao seu Skype para o uso de implantação do Business Server 2015 suportado iOS, Android e Windows Phone dispositivos móveis tirar vantagem dos vários recursos diferentes, incluindo recursos do Enterprise Voice. Incluímos uma lista parcial abaixo, e você também pode verificar a [comparação de recursos do cliente de Desktop do Skype for Business](clients-and-devices/desktop-feature-comparison.md) para obter mais informações:
+O recurso de mobilidade para Skype para Business Server é capaz de oferecer suporte a clientes móveis do Skype para a empresa, bem como os clientes do Lync voltando 2010. Depois que ele for implantado, os usuários podem se conectar ao seu Skype para implantação de servidor de negócios usando com suporte em iOS, Android e Windows Phone dispositivos móveis tirar vantagem dos vários recursos diferentes, incluindo recursos do Enterprise Voice. Incluímos uma lista parcial abaixo, e você também pode verificar a [comparação de recursos do cliente de Desktop do Skype for Business](clients-and-devices/desktop-feature-comparison.md) para obter mais informações:
   
 - Enviar e receber mensagens
     
@@ -46,10 +47,10 @@ O recurso de mobilidade para Skype para Business Server 2015 é capaz de oferece
     
 - Exibir o conteúdo da reunião (PowerPoint e compartilhamento de área de trabalho/aplicativos)
     
-Tudo isso é feito por meio da API Web de Comunicações Unificadas (UCWA). UCWA foi introduzida pela primeira vez no Lync Server 2013 e ainda está em uso para Skype para Business Server 2015 hoje. Não há uma funcionalidade adicional para se comunicar com clientes do Lync 2010 e que é o serviço de mobilidade (MCX). Esses são serviços complementares, permitindo o Lync Server 2010 e clientes 2013, bem como Skype para clientes corporativos, para acessar o Skype para implantações de servidor de negócios com êxito.
+Tudo isso é feito por meio da API Web de Comunicações Unificadas (UCWA). UCWA foi introduzida pela primeira vez no Lync Server 2013 e ainda está em uso para Skype para Business Server. Não há uma funcionalidade adicional para se comunicar com clientes do Lync 2010 e que é o serviço de mobilidade (MCX). Esses são serviços complementares, permitindo o Lync Server 2010 e clientes 2013, bem como Skype para clientes corporativos, para acessar o Skype para implantações de servidor de negócios com êxito.
   
 > [!NOTE]
-> Incluiu MCX aqui, mas deseja deixar claro que enquanto isso é suportado, podemos planeja preterir isso em nossa próxima versão, portanto, que deve ser algo que você tenha em mente para fins de planejamento. Podemos continuarão a usar o UCWA e recomendável Lync 2013 e Skype para clientes corporativos ser usados no futuro em um ambiente de pós-MCX final. 
+> Suporte MCX para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Os usuários precisarem de atualização para um cliente atual. 
   
 É importante observar que enquanto todos esses recursos estão disponíveis depois que tiver sido implementada mobilidade, eles podem funcionar um pouco diferente em alguns dispositivos. Temos um site que discute a quais recursos funcionam em quais dispositivos, em [comparação de recursos do cliente móvel para Skype para negócios](clients-and-devices/mobile-feature-comparison.md). Também temos alguns excelente dispositivo e informações do sistema operacional em [plano para clientes e dispositivos](clients-and-devices/clients-and-devices.md).
   
@@ -70,11 +71,11 @@ Para obter mais informações, confira as seguintes seções:
 ## <a name="mobility-components"></a>Componentes de mobilidade
 <a name="MobilityComponents"> </a>
 
-Há quatro serviços que compõem a mobilidade para Skype para Business Server 2015:
+Há quatro serviços que compõem a mobilidade para Skype para Business Server:
   
 - **API Web de Comunicações Unificadas (UCWA)**
     
-    Fornece serviços de comunicação em tempo real com o mobile e clientes da web para o Skype para Business Server 2015. Quando for implantado Skype para Business Server, do diretório virtual um UCWA criado nos serviços web internos e externos. Um componente virtual nesse diretório virtual aceita chamadas de clientes habilitados para UCWA. Os aplicativos cliente se comunicam por meio de uma interface REST (transferência de estado representacional) para:
+    Fornece serviços de comunicação em tempo real com o mobile e clientes da web para o Skype para Business Server. Quando for implantado Skype para Business Server, do diretório virtual um UCWA criado nos serviços web internos e externos. Um componente virtual nesse diretório virtual aceita chamadas de clientes habilitados para UCWA. Os aplicativos cliente se comunicam por meio de uma interface REST (transferência de estado representacional) para:
     
   - presença
     
@@ -95,11 +96,11 @@ Há quatro serviços que compõem a mobilidade para Skype para Business Server 2
     Suporta Skype para a funcionalidade do servidor de negócios, como mensagens Instantâneas, presença e contatos, em dispositivos móveis. O serviço de mobilidade está instalado em cada servidor Front-End em cada pool que tenha destinado ao suporte Skype para a funcionalidade do servidor de negócios em dispositivos móveis. Quando você instala o Skype para Business Server 2015 um novo diretório virtual (Mcx) é criado sob os sites internos e externos em seus servidores Front-End.
     
     > [!NOTE]
-    > Como mencionado acima, o MCX será preterido na próxima versão do produto. 
+    > Suporte MCX para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Os usuários precisarem de atualização para um cliente atual.
   
 - **Serviço de Descoberta Automática**
     
-    Identifica a localização do usuário e permite que dispositivos móveis e outro Skype para clientes corporativos localizar recursos (por exemplo, as URLS internas e externas do Skype para serviços da Web 2015 Business Server, a URL Mcx ou UCWA URL), independentemente do local de rede. A descoberta automática usa nomes de host codificados (lyncdiscoverinternal para usuários da rede e lyncdiscover para usuários fora da rede) e o domínio SIP do usuário. Ela dá suporte a conexões de clientes que usam HTTP ou HTTPS. 
+    Identifica a localização do usuário e permite que dispositivos móveis e outro Skype para clientes corporativos localizar recursos (por exemplo, as URLS internas e externas do Skype para Business Server Web Services, a URL Mcx ou UCWA URL), independentemente do local de rede. A descoberta automática usa nomes de host codificados (lyncdiscoverinternal para usuários da rede e lyncdiscover para usuários fora da rede) e o domínio SIP do usuário. Ela dá suporte a conexões de clientes que usam HTTP ou HTTPS. 
     
     O serviço Descoberta automática é instalado em cada servidor Front-End e em cada diretor em cada pool que tenha destinado ao suporte Skype para a funcionalidade do servidor de negócios em dispositivos móveis. Quando você instala o serviço, um novo diretório virtual (descoberta automática) é criado sob os sites internos e externos em seus servidores Front-End e diretores.
     
@@ -129,7 +130,7 @@ O serviço de mobilidade é suportado nos servidores Front-End quando colocado c
 
 Os serviços de mobilidade Mcx e UCWA usam o DNS da mesma maneira. Com a Descoberta Automática, os dispositivos móveis usam DNS para localizar recursos. Durante a pesquisa de DNS, é feita uma tentativa de conexão com o FQDN que está associado ao registro DNS interno (lyncdiscoverinternal.[nome de domínio interno]). Se o registro DNS interno não puder ser usado para estabelecer essa conexão, será feita uma segunda tentativa de conexão, dessa vez com o registro DNS externo (lyncdiscover.[sipdomain]). Então, por que há dois? Um dispositivo móvel que é interno à sua rede poderá usar a URL de Descoberta Automática interna. Dispositivos móveis externos usarão a URL de Descoberta Automática externa. Em ambos os casos, o serviço Descoberta automática retornará todas as URLs de serviço Web para o pool primário do usuário, que inclui o serviço de mobilidade (Mcx e UCWA).
   
-Espera-se que as solicitações de descoberta automática externas serão encaminhadas através do proxy reverso que você configurou para Skype para Business Server 2015. No entanto, a URL interna do serviço de mobilidade e a URL externa do serviço de mobilidade estão associadas com o FQDN de serviços Web externos. Portanto, independentemente se um dispositivo móvel é interno ou externo à sua rede, o dispositivo sempre se conecta ao Skype para serviço de mobilidade do Business Server 2015 externamente, por meio do proxy reverso.
+Espera-se que as solicitações de descoberta automática externas serão encaminhadas através do proxy reverso que você configurou para Skype para Business Server. No entanto, a URL interna do serviço de mobilidade e a URL externa do serviço de mobilidade estão associadas com o FQDN de serviços Web externos. Portanto, independentemente se um dispositivo móvel é interno ou externo à sua rede, o dispositivo sempre se conecta ao Skype para serviço de mobilidade de servidor de negócios externamente, por meio do proxy reverso.
   
 > [!NOTE]
 > Conforme observado apenas, todo tráfego de serviço de mobilidade (interno e externo) serão encaminhadas através do proxy reverso. Porém, às vezes, surge um problema quando o tráfego interno sai por uma interface, para depois tentar voltar pela mesma interface. Isso pode violar suas regras de segurança contra falsificação (formalmente, isso é chamado de falsificação de pacote TCP). Você precisará permitir que a **Forma de fixação** ter a função de mobilidade.
@@ -188,11 +189,11 @@ Este deve ser um processo simples, se você está solicitando os novos certifica
   
 ### <a name="windows-and-iis-requirements"></a>Requisitos do Windows e do IIS
 
-Conforme indicado na nossa principais [requisitos do servidor para Skype para Business Server 2015](requirements-for-your-environment/server-requirements.md) artigo, você deve ter o Windows Server 2012 ou Windows Server 2012 R2 para seu Skype para ambiente de servidor de negócios. Como resultado, também deve ter o IIS 8 ou o IIS 8.5 para suas necessidades de mobilidade. Será necessário haver algumas alterações às configurações ASP.NET padrão, mas o instalador do serviço de mobilidade que fará automaticamente.
+Você deve ter uma versão com suporte do Windows Server para sua Skype para ambiente de servidor de negócios. Como resultado, também deve ter o IIS 8 ou o IIS 8.5 para suas necessidades de mobilidade. Será necessário haver algumas alterações às configurações ASP.NET padrão, mas o instalador do serviço de mobilidade que fará automaticamente.
   
 ### <a name="hlb-requirements"></a>Requisitos de HLB
 
-Se você estiver usando uma topologia para Skype para Business Server 2015 que inclui um HLB para o pool de Front-End (que seria qualquer topologia que inclui mais de um servidor Front-End), o externo dos serviços Web IPs virtuais (VIPs) para tráfego de serviços da Web precisarão ser configurado para a fonte. A afinidade da origem garante que várias conexões de um único cliente sejam enviadas ao mesmo servidor para manter o estado da sessão.
+Se você estiver usando uma topologia para Skype para servidor de negócios que inclui um HLB para o pool de Front-End (que seria qualquer topologia que inclui mais de um servidor Front-End), o externo dos serviços Web IPs virtuais (VIPs) para tráfego de serviços da Web precisam ser configurados para a fonte. A afinidade da origem garante que várias conexões de um único cliente sejam enviadas ao mesmo servidor para manter o estado da sessão.
   
 Se você pretende suportar Skype para clientes móveis do Business somente através da rede de Wi-Fi interna, você deve configurar seu VIPs de serviços Web internos para a fonte como descrito VIPs de serviços Web externos. Nessa situação, você deve usar source_addr (ou TCP) afinidade para VIPs no HLB serviços Web internos.
   
@@ -213,7 +214,7 @@ Agora que já analisamos as topologias, os componentes e os requisitos técnicos
   
 ### <a name="do-you-want-to-use-automatic-discovery-for-skype-for-business-mobile-clients"></a>Você deseja usar a descoberta automática para clientes móveis do Skype for Business?
 
-É altamente recomendável que você use a descoberta automática. Ela exigirá a criação de novos registros DNS internos e externos, conforme documentado na seção Requisitos técnicos acima. Com a descoberta automática, o Skype para clientes corporativos pode localizar automaticamente Skype para serviços da Web 2015 Business Server de qualquer local, sem a necessidade de uma URL a ser inserido manualmente.
+É altamente recomendável que você use a descoberta automática. Ela exigirá a criação de novos registros DNS internos e externos, conforme documentado na seção Requisitos técnicos acima. Com a descoberta automática, o Skype para clientes corporativos pode localizar automaticamente Skype para serviços corporativos de Web Server de qualquer local, sem a necessidade de uma URL a ser inserido manualmente.
   
 Você poderá usar as configurações manuais, se precisar. Estas URLs precisarão ser inseridas pelos usuários em seus dispositivos móveis:
   
@@ -256,6 +257,6 @@ Para os usuários tenham acesso aos recursos de mobilidade e telefonar via traba
 De qualquer forma, a política de voz que você atribuir precisará ter registros de uso de PSTN (rede telefônica pública comutada) e rotas que definirão para onde os usuários poderão discar para ingressar em conferências.
   
 > [!NOTE]
-> Os usuários móveis que deseja usar o recurso Clique para ingressar exigem uma política de voz, juntamente com os registros relacionados de uso PSTN e rotas de voz, porque quando eles clicam no link em seus dispositivos móveis, uma chamada de saída do Skype para Business Server 2015 será o resultado. 
+> Os usuários móveis que deseja usar o recurso Clique para ingressar exigem uma política de voz, juntamente com os registros relacionados de uso PSTN e rotas de voz, porque quando eles clicam no link em seus dispositivos móveis, uma chamada de saída do Skype para Business Server será o resultado. 
   
 

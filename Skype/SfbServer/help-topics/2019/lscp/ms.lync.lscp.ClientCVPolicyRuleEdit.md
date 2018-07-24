@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
+ROBOTS: NOINDEX, NOFOLLOW
 description: Uma política de versão de cliente é composta por um conjunto de regras de versão de cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente.
-ms.openlocfilehash: 8f2e969b2724ed1239f7531bd4be03552be9039b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19991498"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988731"
 ---
 # <a name="client-version-rule"></a>Regra de Versão do Cliente
  

@@ -1,24 +1,24 @@
 ---
-title: Gerenciar o mapeamento de teclas para comandos DTMF no Skype for Business Server 2015
+title: Gerenciar o mapeamento de teclas para comandos DTMF no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Resumo: Saiba como gerenciar o mapeamento de teclas dos comandos de multifrequência de tom DTMF (Multifrequência) no Skype para Business Server 2015.'
-ms.openlocfilehash: 0dca7143b59b7cf4ded0302f763053e71be3bb2b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba como gerenciar o mapeamento de teclas dos comandos de multifrequência de tom DTMF (Multifrequência) no Skype para Business Server.'
+ms.openlocfilehash: 629db0c94b71b9cbf54ebf2c6f6a5074b4b611fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992679"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server-2015"></a>Gerenciar o mapeamento de teclas para comandos DTMF no Skype for Business Server 2015
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Gerenciar o mapeamento de teclas para comandos DTMF no Skype para Business Server
  
-**Resumo:** Saiba como gerenciar o mapeamento de teclas dos comandos de multifrequência de tom DTMF (Multifrequência) no Skype para Business Server 2015.
+**Resumo:** Saiba como gerenciar o mapeamento de teclas dos comandos de multifrequência de tom DTMF (Multifrequência) no Skype para Business Server.
   
 Os usuários de conferência discada podem pressionar teclas no teclado do telefone para executar comandos DTMF (multifrequência de tom dual). Comandos DTMF permitem que os usuários que discam para uma conferência controlem as configurações da conferência (como ativar ou desativar o próprio microfone, ou bloquear e desbloquear a conferência) pelo teclado do telefone. 
   

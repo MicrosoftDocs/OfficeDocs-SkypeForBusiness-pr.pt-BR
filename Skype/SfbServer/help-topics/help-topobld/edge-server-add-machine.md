@@ -3,7 +3,7 @@ title: Máquina de adição de servidor de borda
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Especifique o nome de domínio totalmente qualificado (FQDN) de cada computador que você deseja adicionar como um servidor de borda no pool. Depois de adicionar um computador à lista, você pode atualizar o FQDN do computador ou removê-lo do pool, a qualquer momento antes da publicação da topologia. Depois de publicar a topologia, alterando o FQDN requer, excluindo o servidor no construtor de topologia e, em seguida, adicionando um novo servidor ao pool com o novo FQDN. Para obter detalhes sobre como projetar a topologia para um pool de borda, consulte Define Your Edge Topology na documentação de implantação de borda.
-ms.openlocfilehash: 3efa42994fd01baea43145ec285a79256243628f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 685039ba7370f6da47f9f910a17fa104ddb89503
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988829"
 ---
 # <a name="edge-server-add-machine"></a>Máquina de adição de servidor de borda
  

@@ -1,23 +1,22 @@
 ---
-title: Adicionar ou remover um Servidor Front-End no Skype for Business Server 2015
+title: Adicionar ou remover um servidor Front-End no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 7/12/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Saiba como adicionar ou remover servidores Front-End no Skype para Business Server.'
-ms.openlocfilehash: 80b0dab56d3adfb08856348b7ec749ef2e91079f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 07f23f3dfb913a353a72ac855915d4001ed02f24
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569003"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018780"
 ---
-# <a name="add-or-remove-a-front-end-server-in-skype-for-business-server-2015"></a>Adicionar ou remover um Servidor Front-End no Skype for Business Server 2015
+# <a name="add-or-remove-a-front-end-server-in-skype-for-business-server"></a>Adicionar ou remover um servidor Front-End no Skype para Business Server
  
 **Resumo:** Saiba como adicionar ou remover servidores Front-End no Skype para Business Server.
   

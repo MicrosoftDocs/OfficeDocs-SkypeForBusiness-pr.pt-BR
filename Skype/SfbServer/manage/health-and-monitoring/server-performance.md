@@ -1,26 +1,26 @@
 ---
-title: Relatório de Desempenho do Servidor no Skype for Business Server 2015
+title: Server Performance Report no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Resumo: Saiba mais sobre o relatório de desempenho do servidor no Skype para Business Server 2015.'
-ms.openlocfilehash: d0079863a4cfe1c1549889774b6c4e0fb65c3850
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de desempenho do servidor no Skype para Business Server.'
+ms.openlocfilehash: b902d5b02922e390a50af97365965b261c13002f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980641"
 ---
-# <a name="server-performance-report-in-skype-for-business-server-2015"></a>Relatório de Desempenho do Servidor no Skype for Business Server 2015
+# <a name="server-performance-report-in-skype-for-business-server"></a>Server Performance Report no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de desempenho do servidor no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de desempenho do servidor no Skype para Business Server.
   
-Server Performance Report fornece uma lista de Skype para Business Server 2015 servidores que enfrentaram a maior porcentagem de chamadas ruins. O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:
+Server Performance Report fornece uma lista de Skype para servidores de Business Server que enfrentaram a maior porcentagem de chamadas ruins. O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:
   
 - Servidor de Mediação
     
@@ -40,7 +40,7 @@ Server Performance Report fornece uma lista de Skype para Business Server 2015 s
   
 ## <a name="accessing-the-server-performance-report"></a>Como avaliar o Relatório de desempenho do servidor
 
-O Relatório de desempenho do servidor é acessado na página inicial dos Relatórios de Monitoramento. Você pode analisar o [Call List Report no Skype para Business Server 2015](call-list-report-0.md) clicando em uma das seguintes métricas:
+O Relatório de desempenho do servidor é acessado na página inicial dos Relatórios de Monitoramento. Você pode analisar o [Call List Report no Skype para Business Server](call-list-report-0.md) clicando em uma das seguintes métricas:
   
 - Volume da chamada
     
@@ -60,7 +60,7 @@ Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibi
   
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Desempenho do Servidor.
   
-**Filtros do relatório de desempenho de servidor**
+**Filtros do Relatório de Desempenho do Servidor**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -76,9 +76,9 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 
 A tabela a seguir lista as informações fornecidas no Relatório de Desempenho do Servidor.
   
-**Métricas do relatório de desempenho de servidor: Resumo de chamada de áudio**
+**Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de áudio**
 
-|**Nome**|**Pode classificar**|**Descrição**|
+|**Nome**|**É possível classificar por**|**Descrição**|
 |:-----|:-----|:-----|
 |**Servidor** <br/> |Não  <br/> |Nome/endereço IP do servidor.  <br/> |
 |**Volume da chamada** <br/> |Não  <br/> |Número total de chamadas realizadas.  <br/> |
@@ -91,7 +91,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 |**Taxa de correção estendida** <br/> |Sim  <br/> |Taxa média de amostras de áudio estendidas para o número total de amostras. (Áudio estendido é o áudio que foi expandido a fim de ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos indicam níveis significativos de extensão de amostra causada por tremulação e resultam em um som robótico ou distorcido.  <br/> |
 |**Taxa de correção compactada** <br/> |Sim  <br/> |Taxa média de amostras de áudio compactadas para o número total de amostras. (Áudio compactado é o áudio que foi compactado para ajudar a manter a qualidade da chamada quando um pacote de rede descartado é detectado.) Valores altos podem indicar níveis consideráveis de compactação de amostra causada por tremulação e resultam em um som acelerado ou distorcido.  <br/> |
    
-**Métricas do relatório de desempenho de servidor: Resumo de chamada de vídeo**
+**Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de vídeo**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
@@ -110,7 +110,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 |**% de taxa de quadros baixa de entrada** <br/> |Não  <br/> |Porcentagem da chamada onde a taxa de bits foi baixa para vídeo de entrada.  <br/> |
 |**% de integridade do cliente** <br/> ||Indica o estado relativo do dispositivo do cliente durante a chamada.  <br/> |
    
-**Métricas do relatório de desempenho de servidor: Resumo da chamada de compartilhamento de aplicativos**
+**Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de compartilhamento de aplicativo**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

@@ -1,24 +1,24 @@
 ---
-title: Requisitos de DNS para URLs simples no Skype para Business Server 2015
+title: Requisitos de DNS para URLs simples no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 11/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 'Resumo: Revise as considerações de URL simples neste tópico antes de implementar os registros DNS para Skype para Business Server 2015.'
-ms.openlocfilehash: 87346a7c4c03837e5ebfdf0143cdb7c786f0e43b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+description: 'Resumo: Revise as considerações de URL simples neste tópico antes de implementar os registros DNS para Skype para Business Server.'
+ms.openlocfilehash: 9786037cde74b77b855946551f5d4ed5ffc91701
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984383"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server-2015"></a>Requisitos de DNS para URLs simples no Skype para Business Server 2015
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos de DNS para URLs simples no Skype para Business Server
  
-**Resumo:** Revise as considerações de URL simples neste tópico antes de implementar os registros DNS para Skype para Business Server 2015.
+**Resumo:** Revise as considerações de URL simples neste tópico antes de implementar os registros DNS para Skype para Business Server.
   
 URLs simples facilitam o ingresso de reuniões para seus usuários e conhecendo o Skype para ferramentas administrativas do Business Server mais fácil para os administradores. URLs simples usam seu próprio domínio, que não deverá corresponder a qualquer um dos domínios SIP que você define. 
   
@@ -111,7 +111,7 @@ Meet-ext.geolb.contoso.com
 Em seguida, crie registros CNAME que resolvam sua URL simples de reunião (como meet.contoso.com) nos dois endereços de GeoDNS.
   
 > [!NOTE]
-> Se a sua rede usa hairpinning (roteamento todo seu URL simples o tráfego através do link externo, incluindo o tráfego que vem de dentro da sua organização), em seguida, basta configurar o endereço de GeoDNS externo e resolver sua URL simples Meet apenas que endereço externo.
+> Se sua rede usar grampeamento (encaminhamento de todo o tráfego das URLs simples pelos links externos, inclusive o tráfego que vem de dentro da sua organização), será possível simplesmente configurar os endereços externos de GeoDNS e resolver a URL simples de reunião apenas nesses endereços externos.
   
 Quando esse método é usado, é possível configurar cada endereço de GeoDNS para usar um método de round robin e distribuir solicitações nos dois pools ou para conectar-se principalmente com um pool (como o pool geograficamente mais próximo) e usar o outro pool apenas em caso de falhas de conectividade. 
   

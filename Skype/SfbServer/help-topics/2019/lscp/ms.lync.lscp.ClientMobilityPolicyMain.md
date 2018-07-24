@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
+ROBOTS: NOINDEX, NOFOLLOW
 description: A página política de ClientsMobility exibe as políticas de mobilidade disponíveis em sua implantação.
-ms.openlocfilehash: 32ebb45e8622ec5f442a2506f55d73427865da66
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: f45c6676c370b079205e5a488b053af5b0af81bc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19989885"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992637"
 ---
 # <a name="clients-mobility-policy"></a>Clientes: Política de mobilidade
  
@@ -36,7 +37,7 @@ Você pode executar as seguintes tarefas na página **Política de mobilidade** 
 
 As listas a seguir descrevem os menus, comando, campos e propriedades na página.
   
-### 
+
 
 - **Campo de pesquisa** Digite uma cadeia de caracteres na caixa de texto para filtrar as políticas exibidas.
     

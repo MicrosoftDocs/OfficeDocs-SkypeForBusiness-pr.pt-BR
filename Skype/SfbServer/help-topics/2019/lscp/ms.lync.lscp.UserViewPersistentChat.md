@@ -3,7 +3,6 @@ title: Os usuários exibir Chat persistente
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,40 +10,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
+ROBOTS: NOINDEX, NOFOLLOW
 description: Membros da função CsPersistentChatAdministrator (administradores de bate-papo persistente) podem conceder permissões e direitos de gerente de sala de chat a outros usuários e a próprios.
-ms.openlocfilehash: 0b12223fd51158d2525986b2a475e62604ab7252
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ms.openlocfilehash: 06cda7eeaffdafeaae5553c4260b5b8e63e564ff
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20045250"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013353"
 ---
-# <a name="users-view-persistent-chat"></a>Usuários: Exibir Chat persistente
- 
-Membros da função **CsPersistentChatAdministrator** (administradores de bate-papo persistente) podem conceder permissões e direitos de gerente de sala de chat a outros usuários e a próprios.
-  
-Um administrador de Chat persistente pode fazer o seguinte:
-  
-- Crie categorias de sala e salas de chat.
-    
-- Defina a associação de todas as categorias e salas de chat.
-    
-- Gerencie todas as configurações de todas as categorias e salas de bate-papo.
-    
-- Habilitar ou desabilitar a política for Persistent Chat Server.
-    
-- Definir e gerenciar definições de configuração em um pool do servidor de Chat persistente.
-    
-Para obter detalhes, consulte [Adding a Persistent Chat Administrator](http://technet.microsoft.com/library/c107eb20-4e58-4463-b4f9-63fb5b1d9534.aspx) na documentação de implantação.
-  
-## <a name="tasks-that-you-can-perform"></a>Tarefas que você pode executar
+# <a name="users-view-persistent-chat"></a>Os usuários exibir Chat persistente
 
-É possível executar as seguintes tarefas no **usuários: Exibir Chat persistente** página:
-  
-- [Habilitando um usuário para gerenciar categorias, salas de bate-papo e os direitos e permissões](http://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
-    
-- [Noções básicas sobre a associação do bate-papo persistente](http://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
-    
- 
-  
-
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.

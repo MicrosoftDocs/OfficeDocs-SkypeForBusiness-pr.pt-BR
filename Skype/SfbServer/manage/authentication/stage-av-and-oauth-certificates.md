@@ -1,35 +1,34 @@
 ---
-title: Adaptar certificados AV e OAuth no Skype for Business Server 2015 usando -Roll in Set-CsCertificate
+title: Preparar certificados AV e OAuth no Skype para Business Server usando - Roll in Set-CsCertificate
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server 2015.'
-ms.openlocfilehash: 8d13a2e647861fadcc89c0a95442a79fe45c6124
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server.'
+ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504912"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996420"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-2015-using--roll-in-set-cscertificate"></a>Adaptar certificados AV e OAuth no Skype for Business Server 2015 usando -Roll in Set-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Preparar certificados AV e OAuth no Skype para Business Server usando - Roll in Set-CsCertificate
  
-**Resumo:** Estágio AV e OAuth certificados para Skype para Business Server 2015.
+**Resumo:** Estágio AV e OAuth certificados para Skype para Business Server.
   
-Áudio/vídeo (A / V) comunicações são um componente chave do Skype para Business Server 2015. Recursos, como compartilhamento e audioconferência e videoconferência aplicativo contam com os certificados atribuídos à / serviço de borda de V, especificamente A / V Authentication service.
+Áudio/vídeo (A / V) comunicações são um componente chave do Skype para Business Server. Recursos, como compartilhamento e audioconferência e videoconferência aplicativo contam com os certificados atribuídos à / serviço de borda de V, especificamente A / V Authentication service.
   
 > [!IMPORTANT]
 > Esse novo recurso é projetado para funcionar para A / o certificado OAuthTokenIssuer e serviço de borda V. Outros tipos de certificados podem ser provisionados junto com A / serviço de borda V e OAuth o tipo de certificado, mas não serão beneficiados com o comportamento de coexistência que A / será de certificado do serviço de borda V.
   
-O Skype para cmdlets do Shell de gerenciamento do Business Server PowerShell usados para gerenciar o Skype para certificados Business Server 2015 refere-se para A / V Edge serviço certificado como o tipo de certificado AudioVideoAuthentication e o certificado OAuthServer como typeOAuthTokenIssuer. Para o restante deste tópico e identificar de forma exclusiva os certificados, eles serão chamados pelo mesmo tipo de identificador, AudioVideoAuthentication andOAuthTokenIssuer.
+O Skype para cmdlets do Shell de gerenciamento do Business Server PowerShell usados para gerenciar o Skype para certificados de servidor de negócios refere-se para A / V Edge serviço certificado como o tipo de certificado AudioVideoAuthentication e o certificado OAuthServer como typeOAuthTokenIssuer. Para o restante deste tópico e identificar de forma exclusiva os certificados, eles serão chamados pelo mesmo tipo de identificador, AudioVideoAuthentication andOAuthTokenIssuer.
   
-O serviço de Autenticação A/V é responsável por emitir tokens que são usados por clientes e outros consumidores A/V. Os tokens são gerados de atributos no certificado e, quando o certificado expira, a perda de conexão e o requisito para participar novamente com um novo token gerado pelo novo certificado resultará. Um novo recurso do Skype para Business Server 2015 irá aliviar esse problema - a capacidade de estágio um novo certificado antes de começar a antiga aquele que ele expire e permitindo que os dois certificados continuar a funcionar por um período de tempo. Esse recurso usa a funcionalidade atualizada no Skype Set-CsCertificate para o cmdlet do Shell de gerenciamento do servidor de negócios. O parâmetro new-distribuição, com o parâmetro existente - EffectiveDate, colocará o novo certificado AudioVideoAuthentication no repositório de certificados. O certificado AudioVideoAuthentication mais antigo permanecerá para tokens emitidos serem validados. Começando a colocar o novo certificado AudioVideoAuthentication, a seguinte série de eventos ocorrerá:
+O serviço de Autenticação A/V é responsável por emitir tokens que são usados por clientes e outros consumidores A/V. Os tokens são gerados de atributos no certificado e, quando o certificado expira, a perda de conexão e o requisito para participar novamente com um novo token gerado pelo novo certificado resultará. Um novo recurso do Skype para Business Server irá aliviar esse problema - a capacidade de estágio um novo certificado antes de começar a antiga aquele que ele expire e permitindo que os dois certificados continuar a funcionar por um período de tempo. Esse recurso usa a funcionalidade atualizada no Skype Set-CsCertificate para o cmdlet do Shell de gerenciamento do servidor de negócios. O parâmetro new-distribuição, com o parâmetro existente - EffectiveDate, colocará o novo certificado AudioVideoAuthentication no repositório de certificados. O certificado AudioVideoAuthentication mais antigo permanecerá para tokens emitidos serem validados. Começando a colocar o novo certificado AudioVideoAuthentication, a seguinte série de eventos ocorrerá:
   
 > [!TIP]
 > Usando o Skype para cmdlets do Shell de gerenciamento do Business Server para gerenciar certificados, você poderá solicitar certificados separados e distintos para cada finalidade no servidor de borda. Usando o Assistente de certificado no Skype para o Assistente de implantação do Business Server ajuda na criação de certificados, mas geralmente é do tipo **padrão** quais Casais usa de todos os certificados para o servidor de borda em um único certificado. A prática recomendada se você usar o recurso de agrupamento de certificado é desagrupar o certificado AudioVideoAuthentication de outros objetivos. É possível provisionar e dividir um certificado do tipo Padrão, mas apenas a parte do AudioVideoAuthentication do certificado combinado será beneficiada da separação. Um usuário estiver envolvido em (por exemplo) uma conversa de mensagem quando o certificado expirar instantânea precisará efetuar logout e logon novamente para fazer uso do novo certificado associado ao serviço de borda de acesso. Comportamento semelhante ocorrerá para um usuário envolvido em uma conferência da Web usando o serviço de borda de webconferência. O certificado OAuthTokenIssuer é um tipo específico compartilhado em todos os servidores. Crie e gerencie o certificado em um único local e o certificado está armazenado no repositório de gerenciamento Central para todos os outros servidores.
@@ -82,7 +81,7 @@ Para compreender melhor o processo que Set-CsCertificate, - Roll e - EffectiveDa
   
 ![Usando os parâmetros Roll e EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**Texto explicativo**|**Estágio**|
+|**Legenda**|**Estágio**|
 |:-----|:-----|
 |1  <br/> |Início: 22/07/2015 00:00:00  <br/> O certificado AudioVideoAuthentication atual expira 14:00:00 em 22/07/2015. Isso é determinado pelo carimbo de data/hora de vencimento no certificado. Planeje a substituição e sobreposição do certificado na conta para sobreposição de 8 horas (tempo do token padrão) antes do certificado existente atingir a hora de vencimento. O tempo limite 02:00:00 é utilizado neste exemplo para permitir que o administrador tenha tempo suficiente para colocar e provisionar os novos certificados antes da hora efetiva 06:00:00.  <br/> |
 |2  <br/> |22/07/2015 02:00:00 - 22/07/2015 05:59:59  <br/> Definir os certificados nos servidores de borda com tempo efetivo de 6:00:00 AM (4 horas prazo é neste exemplo, mas pode ser mais tempo) usando Set-CsCertificate-tipo \<tipo de uso de certificados\> -Thumbprint \<impressão digital do novo certificado\> - Distribuir - EffectiveDate \<cadeia de caracteres de data/hora do tempo efetivo para o novo certificado\>  <br/> |
@@ -131,7 +130,7 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>Consulte também
 
-[Gerenciar a autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server 2015](server-to-server-and-partner-applications.md)
+[Gerenciar a autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/set-cscertificate?view=skype-ps)
   

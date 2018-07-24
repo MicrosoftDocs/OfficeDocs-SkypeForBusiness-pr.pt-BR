@@ -1,30 +1,30 @@
 ---
-title: Relatório de Registro de Usuário no Skype for Business Server 2015
+title: Relatório de registro do usuário no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
-description: 'Resumo: Saiba mais sobre o relatório de registro de usuário no Skype para Business Server 2015.'
-ms.openlocfilehash: fcf1640b3d8b87664de060ae5866b830ceea3d3b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de registro de usuário no Skype para Business Server.'
+ms.openlocfilehash: 6136e90700bf371621f2b7b27c87453ceb04d854
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001625"
 ---
-# <a name="user-registration-report-in-skype-for-business-server-2015"></a>Relatório de Registro de Usuário no Skype for Business Server 2015
+# <a name="user-registration-report-in-skype-for-business-server"></a>Relatório de registro do usuário no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de registro de usuário no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de registro de usuário no Skype para Business Server.
   
-O relatório de registro do usuário fornece uma visão geral da atividade de logon do usuário, principalmente informações sobre o número de usuários que tiverem feito logon Skype para Business Server 2015 durante um período de tempo especificado (por hora, diariamente, semanalmente, mensalmente). Lembre-se de que o relatório mostra apenas quantas pessoas fizeram logon. Ele não informar quais pessoas que fizeram logon. Relatórios de monitoramento não fornecem informações sobre quais usuários específicos estão usando Skype para Business Server 2015 (e quais não estão). No entanto, você pode obter uma estimativa aproximada de informações de usuário usando o Relatório de Atividades de Usuário.
+O relatório de registro do usuário fornece uma visão geral da atividade de logon do usuário, principalmente informações sobre o número de usuários que tiverem feito logon Skype para Business Server durante um período de tempo especificado (por hora, diariamente, semanalmente, mensalmente). Lembre-se de que o relatório mostra apenas quantas pessoas fizeram logon. Ele não mostra quais pessoas fizeram logon. Relatórios de monitoramento não fornecem informações sobre quais usuários específicos estão usando Skype para Business Server (e quais não estão). No entanto, você pode obter uma estimativa aproximada de informações de usuário usando o Relatório de Atividades de Usuário.
   
 Ao fornecer informações sobre logons de usuários, o Relatório de Registro de Usuário faz duas distinções importantes. Primeiro, ele desdobra os logons em duas categorias primárias: logons internos e logons externos. Logons internos representam usuários que fizeram logon de dentro do firewall de sua organização (isto é, enquanto estavam conectados à rede corporativa). Logons externos representam os usuários que tiverem feito logon de fora do firewall por meio de um servidor de borda (por exemplo, um usuário que fez logon a partir de um café contará como um logon externo da Internet). Caso precise saber quantos de seus usuários estão fazendo logon de fora do firewall, o Relatório de Registro de Usuário pode fornecer essa informação.
   
-Além disso, o relatório de registro de usuário notas quantos usuários ativos estavam presentes durante um período de tempo determinado. Um usuário ativo é um usuário que participou de uma sessão (IM), de mensagens instantâneas participou um Skype para reunião de servidor de negócios, feitas recebeu uma chamada telefônica ou caso contrário usado Skype para Business Server durante esse período de tempo. Isso é diferente de um usuário que fez logon mas nunca usou o sistema de fato.
+Além disso, o Relatório de Registro de Usuário indica quantos usuários ativos estavam presentes durante um dado período de tempo. Um usuário ativo é um usuário que participou de uma sessão (IM), de mensagens instantâneas participou um Skype para reunião de servidor de negócios, feitas recebeu uma chamada telefônica ou caso contrário usado Skype para Business Server durante esse período de tempo. Isso é diferente de um usuário que fez logon mas nunca usou o sistema de fato.
   
 ## <a name="accessing-the-user-registration-report"></a>Acessando o Relatório de Registro de Usuário
 
@@ -38,7 +38,7 @@ Por comparação, a métrica Total de logons mostra a quantidade total de vezes 
   
 Para explicar de modo mais aprofundado a diferença entre total de logons e logons exclusivos, considere os logons em determinado período de tempo na tabela a seguir.
   
-|**Usuário**|**Tempo de logon**|
+|**Usuário**|**Horário de logon**|
 |:-----|:-----|
 |Ken Myer  <br/> |7/7/2015 8:45  <br/> |
 |Ken Myer  <br/> |7/7/2015 8:46  <br/> |
@@ -59,7 +59,7 @@ Se o comando anterior retorna um valor de 1,236 e métrica de usuários de logon
 > [!CAUTION]
 > Lembre-se de que as métricas de logon registram usuários que realmente fizeram logons durante o período de tempo especificado. Elas não rastreiam os usuários que já estão logados no sistema. Por exemplo, se a sua métrica de Usuários de logon exclusivos mostrar 667 logons e você tiver 1.236 usuários, isso sugere que metade de seus usuários estão fazendo logon no sistema. No entanto, suponhamos que 300 usuários já estavam logados no sistema no momento em que você começou a verificar os dados de logon. Que significaria que você realmente tinha quase 1.000 usuários conectados ao Skype para Business Server, o que significaria que quase 80% dos usuários conectados. 
   
-Você também deve comparar o valor de Usuários de logon exclusivos com o valor da métrica de Usuários ativos exclusivos. A métrica de usuários ativos exclusivos informa quantos usuários únicos realmente usaram Skype para Business Server: eles feita uma chamada telefônica, eles ingressou um Skype para Business Server reunião ou participaram de uma sessão de mensagens Instantâneas. Isso é informações úteis, pois Skype para Business Server 2015 pode ser configurado para ser iniciado automaticamente sempre que um usuário inicia o Windows. Por isso, você pode ter um grande número de usuários que fazem logon automaticamente para Skype para negócios quando fizer logon no Windows por dia, mas nunca realmente usar Skype para Business Server durante esse período de tempo.
+Você também deve comparar o valor de Usuários de logon exclusivos com o valor da métrica de Usuários ativos exclusivos. A métrica de usuários ativos exclusivos informa quantos usuários únicos realmente usaram Skype para Business Server: eles feita uma chamada telefônica, eles ingressou um Skype para Business Server reunião ou participaram de uma sessão de mensagens Instantâneas. Isso é informações úteis, pois Skype para Business Server pode ser configurado para ser iniciado automaticamente sempre que um usuário inicia o Windows. Por isso, você pode ter um grande número de usuários que fazem logon automaticamente para Skype para negócios quando fizer logon no Windows por dia, mas nunca realmente usar Skype para Business Server durante esse período de tempo.
   
 A métrica de usuários ativos exclusivos também fornece dados mais significativos em uma organização onde os usuários normalmente não fizer logoff do Windows no final do dia. Em vez disso, eles simplesmente bloquear seus computadores e deixe o Windows e Skype para continuidade dos negócios. Em uma situação assim, você pode acabar com poucos logons por dia, pois seus usuários fizeram logon vários dias atrás e nunca fizeram o logoff. No entanto, usuários ativos exclusivos informa se os usuários estão usando ativamente Skype para negócios ou outro Skype para cliente Business Server.
   
@@ -69,7 +69,7 @@ Os filtros fornecem uma maneira de obter um resultado mais refinado de conjunto 
   
 A tabela a seguir lista os filtros que você pode usar com o Relatório de registro do usuário.
   
-**Filtros do relatório de registro de usuário**
+**Filtros do Relatório de registro do usuário**
 
 |**Nome**|**Descrição**|
 |:-----|:-----|
@@ -82,7 +82,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de regis
 
 A tabela a seguir lista as informações fornecidas no Relatório de Registro de Usuário. 
   
-**Métricas do relatório de registro de usuário**
+**Métrica do Relatório de Registro de Usuário**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

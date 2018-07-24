@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Este artigo discute o gerenciamento remoto das configurações padrão usada por um dispositivo de v2 Skype sistemas de sala, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 939b0ce13aac70a9a80b1cae246a9491b4c098de
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569156"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015596"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console do Skype Room Systems v2 remotamente usando um arquivo de configuração XML
  
@@ -105,7 +105,7 @@ Se o arquivo XML formado incorretamente (ou seja, um valor da variável é do ti
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Gerenciar as configurações do console usando um arquivo de configuração XML
 
-Na inicialização, se um console do Skype sala sistemas v2 encontrar um arquivo XML denominado SkypeSettings.xml no local * * C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, ele aplicará as definições de configuração indicadas pelo arquivo XML, em seguida, exclua o arquivo XML.
+Na inicialização, se um console do Skype sala sistemas v2 encontra um arquivo XML denominado SkypeSettings.xml no local **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, ele aplicará as definições de configuração indicado pelo arquivo XML, então, excluir o arquivo XML.
   
 Quantos dispositivos v2 de sistemas de sala Skype dependendo da sua empresa tenha e como você optar por gerenciar configurá-los, há várias maneiras de colocar o arquivo de configuração XML. Quando o arquivo for enviado por push para o console, reinicie-o para processar as alterações de configuração. O arquivo de configuração XML é excluído após seu processamento bem-sucedido. Os métodos de gerenciamento sugeridos para dispositivos do Skype sala sistemas v2 são abordados em:
   
@@ -127,6 +127,6 @@ O arquivo de configuração XML deve ser atualizado na inicialização do dispos
 ## <a name="see-also"></a>Ver também
 <a name="Themes"> </a>
 
-[Gerenciar Skype sala v2 de sistemas](skype-room-systems-v2.md)
+[Gerenciar o Skype Room Systems versão 2](skype-room-systems-v2.md)
 
 [Configurar um Item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

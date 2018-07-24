@@ -3,7 +3,6 @@ title: Adicionar Repositório de Arquivo de Chat Persistente
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/8/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,36 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Você deve especificar um compartilhamento de arquivos a ser usado como o repositório de arquivos para o servidor Standard Edition ou o pool de Front-Ends Enterprise Edition. É possível usar um compartilhamento de arquivos existente para o repositório de arquivos ou definir um novo especificando o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos no qual o compartilhamento de arquivos deve estar localizado e um nome de pasta para o novo compartilhamento de arquivos.
-ms.openlocfilehash: 989e11adfd7059c94067dd8360527d86759ae81c
-ms.sourcegitcommit: 9d816453083c26fd24f8a1cdc0f53f3d218c43b3
+ms.openlocfilehash: 7dfef13fe52fb4cdc1960d80158d0daeb6a8046f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993499"
 ---
 # <a name="add-persistent-chat-file-store"></a>Adicionar Repositório de Arquivo de Chat Persistente
- 
-Você deve especificar um compartilhamento de arquivos a ser usado como o repositório de arquivos para o servidor Standard Edition ou o pool de Front-Ends Enterprise Edition. É possível usar um compartilhamento de arquivos existente para o repositório de arquivos ou definir um novo especificando o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos no qual o compartilhamento de arquivos deve estar localizado e um nome de pasta para o novo compartilhamento de arquivos.
-  
-> [!IMPORTANT]
-> O compartilhamento de arquivo para Skype para Business Server não pode ser localizado no servidor Enterprise Edition Front End, mas pode estar localizado em um servidor Standard Edition. 
-  
-> [!IMPORTANT]
-> Você pode definir o compartilhamento de arquivos no Construtor de Topologias antes de criar o repositório de arquivos, mas deve criar o repositório de arquivos no local definido por você antes de publicar a topologia. 
-  
-> [!IMPORTANT]
-> Quando você adicionar um servidor de Chat persistente ou servidor de Chat persistente pool a sua topologia, construtor de topologia deve ser capaz de configurar o arquivo armazenar e configurar o controle de acesso discricionário DACLs (listas) no compartilhamento de arquivos a serem usados para o repositório de arquivos. Isso exige que, quando executar o Construtor de Topologias para publicar a nova topologia, você esteja conectado com uma conta que tenha permissões de controle total (ler/escrever/modificar) sobre o compartilhamento de arquivos. 
-  
-## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar o servidor de Chat persistente no Skype for Business Server 2015](../../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
-  
-[Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015](../../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-  
-[Requisitos de hardware e software para o servidor de Chat persistente no Skype para Business Server 2015](../../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
-  
-[Requisitos de servidor do Skype para Business Server 2015](../../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
-  
-[Noções básicas de topologia para Skype para Business Server 2015](../../../plan-your-deployment/topology-basics/topology-basics.md)
-
+> [!NOTE] 
+> Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.

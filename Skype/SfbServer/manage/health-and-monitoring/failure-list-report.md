@@ -1,31 +1,30 @@
 ---
-title: Relatório de lista de falhas no Skype for Business Server 2015
+title: Failure List Report no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Resumo: Saiba mais sobre o Failure List Report no Skype para Business Server 2015.'
-ms.openlocfilehash: 7cb146569958908e79700e725d473bc246295c9d
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba mais sobre o Failure List Report no Skype para Business Server.'
+ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569317"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992630"
 ---
-# <a name="failure-list-report-in-skype-for-business-server-2015"></a>Relatório de lista de falhas no Skype for Business Server 2015
+# <a name="failure-list-report-in-skype-for-business-server"></a>Failure List Report no Skype para Business Server 
  
-**Resumo:** Saiba mais sobre o Failure List Report no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o Failure List Report no Skype para Business Server.
   
 O Relatório da lista de falhas fornece informações sobre os participantes individuais de uma sessão de conferência ou ponto a ponto com falha. Essas informações incluem o URI do usuário que teve o problema, bem como o código de resposta SIP e o ID de diagnóstico associado à falha.
   
 ## <a name="accessing-the-failure-list-report"></a>Acessando o Relatório da lista de falhas
 
-O Failure List Report é acessado clicando em qualquer uma das seguintes métricas do [Relatório de falha de distribuição no Skype para Business Server 2015](failure-distribution-report.md):
+O Failure List Report é acessado clicando em qualquer uma das seguintes métricas do [Relatório de falha de distribuição no Skype para Business Server](failure-distribution-report.md):
   
 - Principais motivos diagnósticos (sessões)
     
@@ -43,7 +42,7 @@ O Failure List Report é acessado clicando em qualquer uma das seguintes métric
     
 - Principais agentes do usuários "De" (sessões)
     
-Do Failure List Report, você pode acessar o [relatório de detalhes de sessão ponto a ponto no Skype para Business Server 2015](peer-to-peer-session-detail-report.md) clicando na métrica detalhe de sessão para uma sessão ponto a ponto. Você também pode acessar o Relatório de detalhes da conferência clicando na métrica Conferência de uma conferência.
+Do Failure List Report, você pode acessar o [relatório de detalhes de sessão ponto a ponto no Skype para Business Server](peer-to-peer-session-detail-report.md) clicando na métrica detalhe de sessão para uma sessão ponto a ponto. Você também pode acessar o Relatório de detalhes da conferência clicando na métrica Conferência de uma conferência.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprimorando o uso do Relatório da lista de falhas
 
@@ -97,7 +96,7 @@ Nenhum. Não é possível filtrar o Relatório de Lista de Falhas.
 
 A tabela a seguir lista as informações fornecidas no Relatório de Lista de Falhas para cada chamada mal-sucedida.
   
-**Métricas do relatório de lista de falha**
+**Métricas do Relatório de Lista de Falhas**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|

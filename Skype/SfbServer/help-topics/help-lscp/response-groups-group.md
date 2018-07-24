@@ -3,7 +3,7 @@ title: Grupo de grupos de resposta
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Um grupo de operadores é um grupo de pessoas que são projetados para atender chamadas de grupo de resposta.
-ms.openlocfilehash: 78acb2219b5db0598a262812c6127ae7f8d56715
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 30de87b0f44d5ece414b5c5940cda96212604d13
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20973896"
 ---
 # <a name="response-groups-group"></a>Grupos de resposta: grupo
  

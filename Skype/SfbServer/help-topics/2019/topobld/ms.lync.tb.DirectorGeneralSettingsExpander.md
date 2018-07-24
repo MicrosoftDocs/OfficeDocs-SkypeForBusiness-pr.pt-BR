@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 'Para editar as configurações de um diretor existente, são apresentadas as seguintes seções:'
-ms.openlocfilehash: 47eddf9761c9751960f887c173521587c4e6c54a
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: fb42d87140b3a4db2cef0bb70a976d1b9242bbf8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19971338"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003410"
 ---
 # <a name="director-general-settings-expander"></a>Expansor de configurações gerais de diretor
  
@@ -26,9 +26,8 @@ Para editar as configurações de um diretor existente, são apresentadas as seg
     
 - Serviços Web
     
-## 
 
-### <a name="general-settings"></a>Configurações gerais
+## <a name="general-settings"></a>Configurações gerais
 
 Nome de domínio totalmente qualificado (FQDN) do pool de diretores. Edite o FQDN do servidor para alterar o valor. É necessário ter um registro (A) de host DNS (Sistema de Nome de Domínio) que coincida com o novo valor.
   
@@ -41,7 +40,7 @@ Monitorando o armazenamento do SQL Server.
 > [!IMPORTANT]
 > Antes da publicação da topologia recém-definida, o servidor especificado precisa existir e ter ingressado no domínio. Se você criou um novo compartilhamento de arquivos, compartilhamento de arquivo deve ser criado no servidor que você designar. 
   
-### <a name="web-services"></a>Serviços Web
+## <a name="web-services"></a>Serviços Web
 
 Para editar ou especificar configurações adicionais para os serviços Web no pool de diretor, modifique ou especifique configurações nos serviços Web internos e serviços Web externos.
   
@@ -50,7 +49,7 @@ Internal **serviços da web** , você pode especificar o seguinte:
 > [!CAUTION]
 > Se você tiver mais de um pool de Front-End ou servidor Front-End os serviços Web externos FQDN deve ser exclusivo. Por exemplo, se você definir os serviços Web externos FQDN de um servidor Front-End como **pool01. contoso.com**, você não pode usar **pool01. contoso.com** para outro pool de Front-End ou servidor Front-End. Se você estiver implantando o diretores também, o external FQDN definido para qualquer Diretor de serviços da Web ou pool de diretores deve ser exclusivo de qualquer outro diretor ou diretor do pool, bem como qualquer pool Front-End ou servidor Front-End. Se você decidir substituir os serviços web internos com um FQDN auto-definido, cada FQDN deve ser exclusivo de qualquer outro pool de Front-End, diretor ou um pool de diretores.
   
-Se você selecionar substituir FQDN, você pode especificar um FQDN diferente para a identidade de serviços Web internos no pool. Por padrão, a configuração é o nome do pool atual, conforme definido para o pool de diretor.
+Se você selecionar Substituir FQDN, poderá especificar um FQDN diferente para a identidade dos serviços Web internos no pool. Por padrão, a configuração é o nome do pool atual, conforme definido para o pool de diretor.
   
 Você pode especificar as portas de escuta e publicadas para HTTP e HTTPS exigidos para a implantação. A configuração padrão da porta 80 para HTTP e a porta 443 para HTTPS são as configurações mais comuns e geralmente não precisa ser alterado, a menos que você tenha requisitos específicos dentro da organização e design de infraestrutura.
   

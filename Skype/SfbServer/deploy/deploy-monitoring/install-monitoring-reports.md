@@ -1,49 +1,48 @@
 ---
-title: Instalar relatórios de monitoramento no Skype for Business Server 2015
+title: Instalar os relatórios de monitoramento em Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/21/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
-description: 'Resumo: Saiba como instalar um serviço que irá gerar relatórios de monitoramento no Skype para Business Server 2015.'
-ms.openlocfilehash: 239274c6692358c06863d2e074bda1daf9d6c6b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como instalar um serviço que irá gerar relatórios de monitoramento no Skype para Business Server.'
+ms.openlocfilehash: 51d7e452be546c41daacbb0a0a77c142bace6e31
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569544"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016595"
 ---
-# <a name="install-monitoring-reports-in-skype-for-business-server-2015"></a>Instalar relatórios de monitoramento no Skype for Business Server 2015
+# <a name="install-monitoring-reports-in-skype-for-business-server"></a>Instalar os relatórios de monitoramento em Skype para Business Server
  
-**Resumo:** Saiba como instalar um serviço que irá gerar relatórios de monitoramento no Skype para Business Server 2015.
+**Resumo:** Saiba como instalar um serviço que irá gerar relatórios de monitoramento no Skype para Business Server.
   
-Skype para Business Server 2015 Monitoring Reports fornecem uma ampla gama de informações sobre a qualidade e a quantidade de sessões de comunicação que ocorrem em sua organização. 
+Skype para relatórios de monitoramento de servidor de negócios fornecem uma ampla gama de informações sobre a qualidade e a quantidade de sessões de comunicação que ocorrem em sua organização. 
   
 ## <a name="install-monitoring-reports"></a>Instalar relatórios de monitoramento
 
-Relatórios de monitoramento não são instalados automaticamente quando você instala o Skype para negócios 2015 do servidor; em vez disso, você deve instalar os relatórios de monitoramento separadamente e somente depois Skype para Business Server foi instalada no computador.
+Relatórios de monitoramento não são instalados automaticamente quando você instala o Skype para Business Server. em vez disso, você deve instalar os relatórios de monitoramento separadamente e somente depois Skype para Business Server foi instalada no computador.
   
 > [!NOTE]
 > Recomenda-se a instalação dos relatórios de monitoramento no mesmo computador em que o banco de dados de monitoramento está instalado. Isso simplifica o processo de atribuição de permissões para acessar os relatórios: a com a instalação dos relatórios de monitoramento no computador que hospeda o repositório de monitoramento, você não precisará configurar permissões que permitam que um banco de dados em um computador interaja com os Reporting Services em execução em outro computador. 
   
 Skype para relatórios de monitoramento de servidor de negócios incluir mais de 30 relatórios projetados para fornecer informações detalhadas sobre conferências, sessões de IM ponto a ponto, os registros de usuário, o aplicativo grupo de resposta e muito mais. Para a versão 2013, Skype para relatórios de monitoramento de servidor de negócios incluem várias melhorias:
   
-- **Novos relatórios de qualidade de voz**. Esses novos relatórios incluem o [Relatório de comparação de qualidade de mídia no Skype para Business Server 2015](../../manage/health-and-monitoring/comparison.md), que compara a qualidade entre tipos diferentes de chamadas (por exemplo, entre as chamadas com fio e chamadas sem fio); e requer que o [Relatório de tempo de ingresso de conferência no Skype para Business Server 2015](../../manage/health-and-monitoring/join-time-report.md), que fornece informações sobre a quantidade de tempo para que os usuários ingressar em uma conferência. 
+- **Novos relatórios de qualidade de voz**. Esses novos relatórios incluem o [Relatório de comparação de qualidade de mídia no Skype para Business Server](../../manage/health-and-monitoring/comparison.md), que compara a qualidade entre tipos diferentes de chamadas (por exemplo, entre as chamadas com fio e chamadas sem fio); e requer que o [Relatório de tempo de ingresso de conferência no Skype para Business Server](../../manage/health-and-monitoring/join-time-report.md), que fornece informações sobre a quantidade de tempo para que os usuários ingressar em uma conferência. 
     
-- **Relatórios aprimorados para analisar e solucionar problemas de sessões de vídeo e compartilhamento de aplicativos.** o [Relatório de resumo de qualidade de mídia no Skype para Business Server 2015](../../manage/health-and-monitoring/summary.md) fornece uma maneira de analisar o vídeo e compartilhamento de chamadas, enquanto o [Relatório de desempenho do servidor no Skype para Business Server 2015](../../manage/health-and-monitoring/server-performance.md) detalha o desempenho dos servidores de aplicativos Gerando essas chamadas. Vídeo e métricas de compartilhamento de aplicativos também agora informados pelo [relatório de detalhes de sessão ponto a ponto no Skype para Business Server 2015](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) e o [Relatório de detalhes de conferência no Skype para Business Server 2015](../../manage/health-and-monitoring/detail-report.md).
+- **Relatórios aprimorados para analisar e solucionar problemas de sessões de vídeo e compartilhamento de aplicativos.** o [Relatório de resumo de qualidade de mídia no Skype para Business Server](../../manage/health-and-monitoring/summary.md) fornece uma maneira de analisar o vídeo e compartilhamento chamadas, enquanto o [Relatório de desempenho do servidor no Skype para Business Server](../../manage/health-and-monitoring/server-performance.md) detalha o desempenho dos servidores gerar estes de aplicativos chamadas. Vídeo e métricas de compartilhamento de aplicativos também agora informados pelo [relatório de detalhes de sessão ponto a ponto no Skype para Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) e o [Relatório de detalhes de conferência no Skype para Business Server](../../manage/health-and-monitoring/detail-report.md).
     
 - **Desempenho de relatórios aprimorado**. Inclui tempos menores de resposta e recuperação de dados, bem como navegação mais rápida e fácil pelos relatórios.
     
 Encontre mais informações sobre os relatórios individuais na documentação dos relatórios de monitoramento.
   
 > [!NOTE]
-> Não há outro relatório - QoE chamada detalhe sub-relatório - incluído no Skype para Business Server 2015. Porém, seu uso é principalmente interno e o acesso a ele não pode ser feito diretamente. 
+> Não há outro relatório - QoE chamada detalhe sub-relatório - incluído no Skype para Business Server. Porém, seu uso é principalmente interno e o acesso a ele não pode ser feito diretamente. 
   
-Existem duas maneiras de instalar o Skype para relatórios de monitoramento de servidor de negócios: você pode usar o Skype para o Assistente de implantação de servidor de negócios ou você pode usar um script do Windows PowerShell incluído com o Skype para arquivos de instalação do Business Server 2015. Independente do método usado para instalar os relatórios, primeiro você deve certificar-se de:
+Existem duas maneiras de instalar o Skype para relatórios de monitoramento de servidor de negócios: você pode usar o Skype para o Assistente de implantação de servidor de negócios ou você pode usar um script do Windows PowerShell incluído com o Skype para arquivos de instalação do servidor de negócios. Independente do método usado para instalar os relatórios, primeiro você deve certificar-se de:
   
 - Ter o direito de adicionar uma função de banco de dados a uma conta de usuário no banco de dados de monitoramento.
     
@@ -95,6 +94,6 @@ No comando anterior, a propriedade ReportingUrl deve ser definida como a URL do 
     
 3. No Gerenciador de Configuração do Reporting Services, clique na URL do Gerenciador de Relatório. Uma ou mais URLs devem aparecer no painel URL do Gerenciador de Relatório. Todas essas URLs podem ser usadas como URL de relatório, embora, mais uma vez, seja recomendado que ReportingUrl use o protocolo HTTPS.
     
-Se tiver configurado um banco de dados de espelho para monitoramento do banco de dados, você também deverá associar os Relatórios de Monitoramento com o banco de dados de espelho. Consulte o artigo [Associar relatórios de monitoramento com um banco de dados de espelho em Skype para Business Server 2015](monitoring-reports-with-a-mirror-database.md) para obter detalhes.
+Se tiver configurado um banco de dados de espelho para monitoramento do banco de dados, você também deverá associar os Relatórios de Monitoramento com o banco de dados de espelho. Consulte o artigo [Associar relatórios de monitoramento com um banco de dados de espelho em Skype para Business Server](monitoring-reports-with-a-mirror-database.md) para obter detalhes.
   
 

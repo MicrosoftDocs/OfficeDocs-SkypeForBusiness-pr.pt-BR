@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Se você tiver pools de Front-End, pools de diretores ou pools de servidor de borda, você precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Para detalhes, consulte:'
-ms.openlocfilehash: cb6dd800e3e9e9e61d284cad5591a1ad21bba44d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4f20a046f851e524b337ed0e58b94151883f47e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970455"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002492"
 ---
 # <a name="load-balancer-planning-tool"></a>(Ferramenta de planejamento) do balanceador de carga
  
 Se você tiver pools de Front-End, pools de diretores ou pools de servidor de borda, você precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Para detalhes, consulte:
   
-- [Requisitos do Skype para negócios de balanceamento de carga](../../../plan-your-deployment/network-requirements/load-balancing.md)
+- [Requisitos de balanceamento de carga para o Skype for Business](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [Requisitos de DNS para Skype para Business Server 2015](../../../plan-your-deployment/network-requirements/dns.md)
+
     
 

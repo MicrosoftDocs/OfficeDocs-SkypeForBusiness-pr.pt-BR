@@ -3,7 +3,7 @@ title: Expansor de configurações de rota de Federação
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Para definir uma atribuição de rota de Federação do site, você primeiro deve ter a federação habilitada no servidor de borda ou pool de servidor de borda. Se a federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de federação para o site não estará disponíveis para modificação.
-ms.openlocfilehash: dcb6a6689561a397ebe1befa594687ba012407bf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 798019c4be9de360c6530865860ee425b1a2bea5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972454"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configurações de rota de Federação
  
 Para definir uma atribuição de rota de Federação do site, você primeiro deve ter a federação habilitada no servidor de borda ou pool de servidor de borda. Se a federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de federação para o site não estará disponíveis para modificação.
   
-## 
 
 Se a configuração de federação no servidor de borda ou pool tiver sido configurada, você pode configurar as seguintes opções: 
   

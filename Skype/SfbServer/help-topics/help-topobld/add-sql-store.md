@@ -3,7 +3,7 @@ title: Adicionar repositório SQL
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 11/17/2014
+ms.date: 11/17/2018
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: Para definir um novo repositório SQL, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
-ms.openlocfilehash: fcc498ea217afec1cac09ed4dc167878c58002f0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6089060c3cb049e98c403776f8fa27d32e247fb7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992453"
 ---
 # <a name="add-sql-store"></a>Adicionar repositório SQL
  

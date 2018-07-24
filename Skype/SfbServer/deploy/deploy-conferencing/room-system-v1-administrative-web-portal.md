@@ -1,25 +1,24 @@
 ---
-title: Implantar o Portal da Web Administrativo do SRS v1 no Skype for Business Server 2015
+title: Implantar o Portal de Web administrativo do SRS v1 no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/3/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
-description: O Skype para sistemas de sala Business Server 2015 Skype v1 (SRS v1, anteriormente conhecido como o sistema de sala do Lync) administrativas Portal da Web é um portal da web que as organizações podem usar para manter suas salas de conferência de sistemas de sala Skype. Os administradores podem usar o Portal da Web SRS v1 administrativas para monitorar a integridade do dispositivo, por exemplo por meio do monitoramento de dispositivos de áudio/vídeo. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a integridade da sala de conferência.
-ms.openlocfilehash: 84f9d84861980f970fb496f957c712a1d7dfead4
-ms.sourcegitcommit: 9c5c67eb50006f84c425456dfb3ecfcf4638d5fc
+description: O Skype para sistemas de sala Business Server Skype v1 (SRS v1, anteriormente conhecido como o sistema de sala do Lync) administrativas Portal da Web é um portal da web que as organizações podem usar para manter suas salas de conferência de sistemas de sala Skype. Os administradores podem usar o Portal da Web SRS v1 administrativas para monitorar a integridade do dispositivo, por exemplo por meio do monitoramento de dispositivos de áudio/vídeo. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a integridade da sala de conferência.
+ms.openlocfilehash: f9f11674bdc40a5a93b9d2e40c9a02a12fe30214
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "20088529"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013360"
 ---
-# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server-2015"></a>Implantar o Portal da Web Administrativo do SRS v1 no Skype for Business Server 2015
+# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implantar o Portal de Web administrativo do SRS v1 no Skype para Business Server
  
-O Skype para sistemas de sala Business Server 2015 Skype v1 (SRS v1, anteriormente conhecido como o sistema de sala do Lync) administrativas Portal da Web é um portal da web que as organizações podem usar para manter suas salas de conferência de sistemas de sala Skype. Os administradores podem usar o Portal da Web SRS v1 administrativas para monitorar a integridade do dispositivo, por exemplo por meio do monitoramento de dispositivos de áudio/vídeo. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a integridade da sala de conferência.
+O Skype para sistemas de sala Business Server Skype v1 (SRS v1, anteriormente conhecido como o sistema de sala do Lync) administrativas Portal da Web é um portal da web que as organizações podem usar para manter suas salas de conferência de sistemas de sala Skype. Os administradores podem usar o Portal da Web SRS v1 administrativas para monitorar a integridade do dispositivo, por exemplo por meio do monitoramento de dispositivos de áudio/vídeo. Com esse portal, os administradores podem coletar remotamente informações de diagnóstico para monitorar a integridade da sala de conferência.
   
 Para usar esse recurso, o Portal da Web administrativo SRS v1 precisa ser implantado em cada Skype para Business Server servidor Front-End. Este guia fornece instruções para os administradores sobre como instalar e configurar o Portal da Web Administrativo do SRS. Ele foi projetado para administradores que tem conhecimento do Skype para administração de servidor de negócios, e que tenha direitos de usuário de administrador para modificar o Skype para a topologia de servidor de negócios.
   
