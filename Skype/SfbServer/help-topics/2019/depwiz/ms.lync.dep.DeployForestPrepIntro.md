@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
-description: Para começar a tarefa de preparar floresta, clique em Avançar. Executando a tarefa de preparar floresta cria configurações globais e grupos universais para uso por Skype para Business Server.
-ms.openlocfilehash: 00ef82f59ba61f49fd69906cce27840144b0322b
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: Para começar a tarefa Preparar Floresta, clique em Avançar. Executando a tarefa de preparar floresta cria configurações globais e grupos universais para uso por Skype para Business Server.
+ms.openlocfilehash: 4173dad7490a39ea7dbd78b3b6cc432d44718e64
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19979110"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20984418"
 ---
-# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="47e26-104">Preparar Floresta Atual (Introdução)</span><span class="sxs-lookup"><span data-stu-id="47e26-104">Prepare Current Forrest (Intro)</span></span>
+# <a name="prepare-current-forrest-intro"></a><span data-ttu-id="84604-104">Preparar Floresta Atual (Introdução)</span><span class="sxs-lookup"><span data-stu-id="84604-104">Prepare Current Forrest (Intro)</span></span>
  
-<span data-ttu-id="47e26-105">Para começar a tarefa **Preparar Floresta**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="47e26-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="47e26-106">Executando a tarefa de **Preparar floresta** cria configurações globais e grupos universais para uso por Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="47e26-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server.</span></span>
+<span data-ttu-id="84604-105">Para começar a tarefa **Preparar Floresta**, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="84604-105">To begin the **Prepare Forest** task, click **Next**.</span></span> <span data-ttu-id="84604-106">Executando a tarefa de **Preparar floresta** cria configurações globais e grupos universais para uso por Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="84604-106">Running the **Prepare Forest** task creates global settings and creates universal groups for use by Skype for Business Server.</span></span>
   
 

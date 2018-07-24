@@ -10,16 +10,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
-description: A página de resumo de solicitação de certificado exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estão corretas, clique em Avançar para continuar com a geração da solicitação e prepará-lo para envio para a autoridade de certificação (CA).
-ms.openlocfilehash: 5345078a9b05ad5966eff0b00f40229f1de57d82
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: A página Resumo da Solicitação de Certificado exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estiverem corretas, clique em Avançar para continuar com a geração da solicitação e prepará-la para envio para a Autoridade de Certificação (AC).
+ms.openlocfilehash: e39e210291d23cf1d239e0ada8a032edbaa32c83
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19975810"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996112"
 ---
-# <a name="certificate-request-summary"></a><span data-ttu-id="c258c-106">Solicitação de Certificado (Resumo)</span><span class="sxs-lookup"><span data-stu-id="c258c-106">Certificate Request (Summary)</span></span>
+# <a name="certificate-request-summary"></a><span data-ttu-id="32292-106">Solicitação de Certificado (Resumo)</span><span class="sxs-lookup"><span data-stu-id="32292-106">Certificate Request (Summary)</span></span>
  
-<span data-ttu-id="c258c-p102">A página **Resumo da Solicitação de Certificado** exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estiverem corretas, clique em **Avançar** para continuar com a geração da solicitação e prepará-la para envio para a Autoridade de Certificação (AC).</span><span class="sxs-lookup"><span data-stu-id="c258c-p102">The **Certificate Request Summary** page displays a detailed summary of all options and configurations for the certificate. The summary represents what the certificate request will contain, and subsequently, how the certificate will be issued. You should carefully review the summary to make sure that all of the entries and options that you selected are correct. If your selections are correct, click **Next** to continue with the generation of the request and prepare it for sending to the Certification Authority (CA).</span></span>
+<span data-ttu-id="32292-p102">A página **Resumo da Solicitação de Certificado** exibe um resumo detalhado de todas as opções e configurações para o certificado. O resumo representa o que a solicitação de certificado conterá, e subsequentemente, como o certificado será emitido. Revise com atenção o resumo para se certificar de que todas as outras entradas e opções selecionadas estão corretas. Se suas seleções estiverem corretas, clique em **Avançar** para continuar com a geração da solicitação e prepará-la para envio para a Autoridade de Certificação (AC).</span><span class="sxs-lookup"><span data-stu-id="32292-p102">The **Certificate Request Summary** page displays a detailed summary of all options and configurations for the certificate. The summary represents what the certificate request will contain, and subsequently, how the certificate will be issued. You should carefully review the summary to make sure that all of the entries and options that you selected are correct. If your selections are correct, click **Next** to continue with the generation of the request and prepare it for sending to the Certification Authority (CA).</span></span>
   
 

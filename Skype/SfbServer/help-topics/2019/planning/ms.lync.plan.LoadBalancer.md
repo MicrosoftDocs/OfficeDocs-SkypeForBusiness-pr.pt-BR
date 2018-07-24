@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Se você tiver pools de Front-End, pools de diretores ou pools de servidor de borda, você precisará implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Para detalhes, consulte:'
-ms.openlocfilehash: cb6dd800e3e9e9e61d284cad5591a1ad21bba44d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 4f20a046f851e524b337ed0e58b94151883f47e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19970455"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21002492"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="d2f6f-105">(Ferramenta de planejamento) do balanceador de carga</span><span class="sxs-lookup"><span data-stu-id="d2f6f-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="ea283-105">(Ferramenta de planejamento) do balanceador de carga</span><span class="sxs-lookup"><span data-stu-id="ea283-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="d2f6f-106">Se você tiver pools de Front-End, pools de diretores ou pools de servidor de borda, você precisará implantar o balanceamento de carga para esses pools.</span><span class="sxs-lookup"><span data-stu-id="d2f6f-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="d2f6f-107">O balanceamento de carga distribui o tráfego entre os servidores em um pool.</span><span class="sxs-lookup"><span data-stu-id="d2f6f-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="d2f6f-108">Para detalhes, consulte:</span><span class="sxs-lookup"><span data-stu-id="d2f6f-108">For details, see:</span></span>
+<span data-ttu-id="ea283-106">Se você tiver pools de Front-End, pools de diretores ou pools de servidor de borda, você precisará implantar o balanceamento de carga para esses pools.</span><span class="sxs-lookup"><span data-stu-id="ea283-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="ea283-107">O balanceamento de carga distribui o tráfego entre os servidores em um pool.</span><span class="sxs-lookup"><span data-stu-id="ea283-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="ea283-108">Para detalhes, consulte:</span><span class="sxs-lookup"><span data-stu-id="ea283-108">For details, see:</span></span>
   
-- [<span data-ttu-id="d2f6f-109">Requisitos do Skype para negócios de balanceamento de carga</span><span class="sxs-lookup"><span data-stu-id="d2f6f-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="ea283-109">Requisitos de balanceamento de carga para o Skype for Business</span><span class="sxs-lookup"><span data-stu-id="ea283-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [<span data-ttu-id="d2f6f-110">Requisitos de DNS para Skype para Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d2f6f-110">DNS requirements for Skype for Business Server 2015</span></span>](../../../plan-your-deployment/network-requirements/dns.md)
+
     
 

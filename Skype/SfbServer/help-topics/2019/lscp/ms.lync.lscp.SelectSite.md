@@ -3,7 +3,6 @@ title: Selecionar um Site
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/24/2015
 ms.audience: ITPro
 ms.topic: article
 f1_keywords:
@@ -11,40 +10,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: Use selecionar uma caixa de diálogo de Site para encontrar sites disponíveis no seu ambiente. Para usar um site existente, clique em um site na lista e clique em Okey.
-ms.openlocfilehash: 7ebf146d6887ec0f2fafc8655c6d448fbd0573fb
-ms.sourcegitcommit: b42a6a56a0e1e4be1239174c1c3b4ab86517d043
+ROBOTS: NOINDEX, NOFOLLOW
+description: Use a caixa de diálogo Selecionar um Site para localizar sites disponíveis no seu ambiente. Para usar um site existente, escolha um site na lista e clique em OK.
+ms.openlocfilehash: 6eb2c4ccaeb7b6558af78f655c97f3e549285829
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "20044106"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20993610"
 ---
-# <a name="select-a-site"></a><span data-ttu-id="3a8ba-104">Selecionar um Site</span><span class="sxs-lookup"><span data-stu-id="3a8ba-104">Select a Site</span></span>
- 
-<span data-ttu-id="3a8ba-p102">Use a caixa de diálogo **Selecionar um Site** para localizar sites disponíveis no seu ambiente. Para usar um site existente, escolha um site na lista e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="3a8ba-p102">Use the **Select a Site** dialog box to find sites available in your environment. To use an existing site, click a site in the list and then click **OK**.</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="3a8ba-107">Clique no ícone de busca na caixa de busca sem ter inserido nada para obter todos os sites disponíveis.</span><span class="sxs-lookup"><span data-stu-id="3a8ba-107">To retrieve all available sites, do not type anything in the search box and then click the search icon.</span></span> 
-  
- 
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="3a8ba-108">Tarefas que podem ser executadas</span><span class="sxs-lookup"><span data-stu-id="3a8ba-108">Tasks you can perform</span></span>
+# <a name="select-a-site"></a><span data-ttu-id="07fcd-104">Selecionar um Site</span><span class="sxs-lookup"><span data-stu-id="07fcd-104">Select a Site</span></span>
 
-<span data-ttu-id="3a8ba-109">É possível executar as seguintes tarefas na página **Selecionar um Site**:</span><span class="sxs-lookup"><span data-stu-id="3a8ba-109">You can perform the following tasks on the **Select a Site** page:</span></span>
-  
-- [<span data-ttu-id="3a8ba-110">Configurar opções do servidor de bate-papo persistente globalmente ou para o Pool do servidor de bate-papo persistente</span><span class="sxs-lookup"><span data-stu-id="3a8ba-110">Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool</span></span>](http://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
-    
-- [<span data-ttu-id="3a8ba-111">Criar uma política de Site para o bate-papo persistente</span><span class="sxs-lookup"><span data-stu-id="3a8ba-111">Create a Site Policy for Persistent Chat</span></span>](http://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
-    
- 
-  
-## <a name="to-configure-persistent-chat-options-globally"></a><span data-ttu-id="3a8ba-112">Para configurar as opções de Chat persistente globalmente</span><span class="sxs-lookup"><span data-stu-id="3a8ba-112">To configure Persistent Chat options globally</span></span>
+> [!NOTE] 
+> <span data-ttu-id="07fcd-105">Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="07fcd-105">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="07fcd-106">A mesma funcionalidade está disponível em equipes.</span><span class="sxs-lookup"><span data-stu-id="07fcd-106">The same functionality is available in Teams.</span></span> <span data-ttu-id="07fcd-107">Para obter mais informações, consulte [Atualizar Skype para negócios às equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="07fcd-107">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="07fcd-108">Se você precisar utilizar o chat persistente, suas opções são migrar usuários exigir que essa funcionalidade para equipes ou continuar usando Skype para Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="07fcd-108">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
 
-<span data-ttu-id="3a8ba-113">Em **Selecionar um Site**, selecione o site a ser configurado para a configuração de site do servidor de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="3a8ba-113">In **Select a Site**, select the site to be configured for the Persistent Chat Server site configuration.</span></span>
-  
-## <a name="to-create-a-persistent-chat-policy-for-a-site"></a><span data-ttu-id="3a8ba-114">Para criar uma política de Chat persistente para um site</span><span class="sxs-lookup"><span data-stu-id="3a8ba-114">To create a Persistent Chat policy for a site</span></span>
-
-<span data-ttu-id="3a8ba-115">Em **Selecionar um Site**, clique no site ao qual a política deverá ser aplicada.</span><span class="sxs-lookup"><span data-stu-id="3a8ba-115">In **Select a Site**, click the site to which the policy is to be applied.</span></span> 
-  
-<span data-ttu-id="3a8ba-116">Para obter detalhes sobre os recursos de servidor de Chat persistente e capacidades, consulte [Visão geral do servidor de Chat persistente](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="3a8ba-116">For details about Persistent Chat Server features and capabilities, see [Overview of Persistent Chat Server](http://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) in the Planning documentation.</span></span> <span data-ttu-id="3a8ba-117">Para obter detalhes sobre como trabalhar com as configurações de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) na documentação de implantação e [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="3a8ba-117">For details about working with Persistent Chat Server configurations, see [Configuring Persistent Chat Server](http://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) in the Deployment documentation and [Managing Lync Server 2013, Persistent Chat Server](http://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) in the Operations documentation.</span></span>
 
