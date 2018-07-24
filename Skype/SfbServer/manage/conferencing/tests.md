@@ -1,25 +1,24 @@
 ---
-title: Testar a conferência discada no Skype for Business Server 2015
+title: Teste a conferência discada no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Resumo: Saiba como testar conferência discada em Skype para Business Server 2015.'
-ms.openlocfilehash: 7e6e53d5d4ee3e3e28beadc54ca86a79c6118637
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como testar conferência discada em Skype para Business Server.'
+ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569268"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966409"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server-2015"></a>Testar a conferência discada no Skype for Business Server 2015
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Teste a conferência discada no Skype para Business Server
  
-**Resumo:** Saiba como testar conferência discada em Skype para Business Server 2015.
+**Resumo:** Saiba como testar conferência discada em Skype para Business Server.
   
 Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e para números de acesso que não especificaram uma região de conferência discada. Você também deve verificar se a página da web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente.
   

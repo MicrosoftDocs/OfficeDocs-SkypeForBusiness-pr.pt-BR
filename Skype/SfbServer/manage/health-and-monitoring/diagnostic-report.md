@@ -1,24 +1,24 @@
 ---
-title: Relatório de Diagnósticos no Skype for Business Server 2015
+title: Relatório de diagnóstico no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Resumo: Saiba mais sobre o relatório de diagnóstico no Skype para Business Server 2015.'
-ms.openlocfilehash: 86639f5687cb6d19ff18c9aafb869a74fb777113
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o relatório de diagnóstico no Skype para Business Server.'
+ms.openlocfilehash: 15ef3d6e5663dee7ec0056ed48dc45119ad09db2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966381"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server-2015"></a>Relatório de Diagnósticos no Skype for Business Server 2015
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico no Skype para Business Server
  
-**Resumo:** Saiba mais sobre o relatório de diagnóstico no Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o relatório de diagnóstico no Skype para Business Server.
   
 O Relatório de diagnóstico fornece diagnósticos e informações para a solução de problemas de uma sessão com falha. Essas informações incluem a ID de diagnóstico e o cabeçalho de Diagnóstico que foram importados quando a sessão falhou. A ID de diagnóstico é um identificador exclusivo (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP, enquanto a cabeçalho de Diagnóstico fornece uma descrição da ID de diagnóstico. O relatório também pode conter detalhes importantes para a solução de problemas e que são conhecidos pelo componente de relatório. Por exemplo:
   
@@ -30,7 +30,7 @@ O Relatório de diagnóstico fornece diagnósticos e informações para a soluç
     
 ## <a name="accessing-the-diagnostic-report"></a>Acessando o relatório de diagnósticos
 
-O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) no [relatório de detalhes de sessão ponto a ponto no Skype para Business Server 2015](peer-to-peer-session-detail-report.md) ou o relatório de detalhe da conferência.
+O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) no [relatório de detalhes de sessão ponto a ponto no Skype para Business Server](peer-to-peer-session-detail-report.md) ou o relatório de detalhe da conferência.
   
 ## <a name="filters"></a>Filtros
 
@@ -40,7 +40,7 @@ Nenhum. Não é possível filtrar o Relatório de Diagnóstico.
 
 A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstico para cada sessão.
   
-**Métricas do relatório de diagnóstico**
+**Métricas do Relatório de Diagnóstico**
 
 |**Nome**|**Você pode classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
