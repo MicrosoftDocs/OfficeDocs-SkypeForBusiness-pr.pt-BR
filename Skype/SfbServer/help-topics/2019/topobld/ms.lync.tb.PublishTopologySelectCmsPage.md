@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
+ROBOTS: NOINDEX, NOFOLLOW
 description: Publicar a topologia que você configurou usando o construtor de topologia. Será solicitado que você selecione em uma lista na qual pool de Front-End ou de servidor Front-End assumirá a função de reter o repositório de gerenciamento Central. Somente um pool de Front-End ou de servidor Front-End pode conter esta função em um determinado momento.
-ms.openlocfilehash: 295d94686b6fa2c2e351089e9dfb80e66506c103
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 1f815bd49cecf84ca92f653d39915014a3a510db
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19978059"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082654"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar página CMS de seleção de topologia
  

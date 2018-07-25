@@ -10,13 +10,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
-description: No construtor de topologias, você pode executar tarefas relacionadas a um servidor de arquivamento individual, o botão direito do mouse o servidor de arquivamento na árvore de console, clicando em ação na barra de ferramentas, ou clicando em uma tarefa no painel Ações e clicando em de arquivamento a seguir Opção de servidor.
-ms.openlocfilehash: a42a215a3a8af193c68c12bdf953948d449d3536
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ROBOTS: NOINDEX, NOFOLLOW
+description: No Construtor de Topologias é possível executar tarefas relacionadas a um Servidor de Arquivamento individual clicando com o botão direito do mouse em Servidor de Arquivamento na árvore do console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois na opção a seguir do Servidor de Arquivamento.
+ms.openlocfilehash: 881ccca58456f227f868a2a0e288b2c0a139583d
+ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19967569"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21082640"
 ---
 # <a name="archiving-servers-scope-node"></a>Nó do Escopo dos Servidores de Arquivamento
  
