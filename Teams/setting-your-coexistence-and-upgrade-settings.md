@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b23869226081b46a3668d33b0a25528de4e04ec4
-ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
+ms.openlocfilehash: c2f5b518beceb00909e7b6b97f7bfd6eb513edd8
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "20266886"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148421"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Definindo as configurações de atualização e coexistência
 
@@ -26,6 +26,10 @@ ms.locfileid: "20266886"
 Quando você estiver atualizando seu Skype para os usuários corporativos usem equipes, você tem várias opções para ajudá-lo a torná-lo um processo direto para seus usuários. Você tem a opção para tornar a coexistência e atualizar as configurações para todos os usuários em sua organização ao mesmo tempo, ou você pode fazer alterações de configurações para um único ou um conjunto de usuários em sua organização. Observe que as versões mais antigas do Skype para clientes corporativos não podem atendê-essas configurações.
 
 Configurações atribuídas em um nível de usuário têm precedência sobre as configurações aplicadas no nível de toda a organização. Você pode obter uma compreensão melhor dos tipos de modos que estão disponíveis para você lendo [entender a coexistência e atualizar jornada para Skype para equipes e de negócios](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md).  
+
+> [!IMPORTANT]
+> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+
 
 ## <a name="setting-upgrade-options-for-all-users-in-your-organization"></a>Configurando opções de atualização para todos os usuários em sua organização
 

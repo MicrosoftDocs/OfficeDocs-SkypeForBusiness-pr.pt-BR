@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seu SBC para trabalham com o roteamento direto.
-ms.openlocfilehash: 27586342fd81046dc21c97267b6875c41926de71
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 2ba827e734916b983c54f910b00af92fc8d74bdb
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246645"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21148244"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de certificados para o roteamento direto de controladores de borda de sessão
 
@@ -33,7 +33,7 @@ Com cada fornecedor, Microsoft:
 
 A tabela abaixo lista os dispositivos de certificados para o roteamento direto. 
 
-[Saiba mais sobre o roteamento direto](https://aka.ms/dr). 
+[Saiba mais sobre o roteamento direto](https://aka.ms/dr). Se você tiver alguma dúvida sobre o programa de certificação de SBC para roteamento direto envie um e-mail para drsbccertification@microsoft.com
 
 
 |Fornecedor  |Produto  |Bypass de mídia não  |Bypass de mídia  |Versão do software|

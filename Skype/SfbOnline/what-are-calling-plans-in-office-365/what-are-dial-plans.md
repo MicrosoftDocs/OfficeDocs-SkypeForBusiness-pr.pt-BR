@@ -1,5 +1,5 @@
 ---
-title: Quais são os planos de discagem?
+title: O que são planos de discagem?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como escolher uma para sua organização e que tipo de discagem chamando planos (planos de discagem PSTN chamar) estão disponíveis com o Office 365.  '
-ms.openlocfilehash: 5df6b2e9f9e5ccb83d6320cbd43f78ef4fc44424
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 27e65cb0651171f7e0a5d0262db0072b4d620851
+ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933161"
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21145289"
 ---
-# <a name="what-are-dial-plans"></a>Quais são os planos de discagem?
+# <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
 Um plano de discagem é um conjunto nomeado de regras de normalização que converte os números de telefone discados por um usuário em um formato alternativo (normalmente E.164) para fins de autorização e roteamento de chamadas.
   
@@ -127,7 +127,7 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 |7digitcallingRedmond  <br/> |Converte números de 7 dígitos para números locais Redmond.  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/>|
 |RedmondOperator  <br/> |Converte 0 para o Operador Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 é convertido em +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Converte números com o prefixo (6) na rede e o código de local do Redmond (222).  <br/> |^ 6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
-|5digitRange  <br/> |Converte extensões de 5 dígitos iniciando com o intervalo de dígitos de 3 a 7 inclusive.  <br/> |^ ([3-7]\\d{4}) $  <br/> |+142570$1  <br/> |54567 é convertido em +14255554567  <br/> |
+|5digitRange  <br/> |Converte extensões de 5 dígitos iniciando com o intervalo de dígitos de 3 a 7 inclusive.  <br/> |^ ([3-7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |54567 é convertido em +14255554567  <br/> |
 |PrefixAdded  <br/> |Adiciona um prefixo de país na frente de um número de 9 dígitos com restrições no primeiro e terceiro dígitos.  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 é convertido em 14255554567  <br/> |
 |NoTranslation  <br/> |Corresponde 5 dígitos, mas não faz a conversão.  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 é convertido em 34567  <br/> |
    

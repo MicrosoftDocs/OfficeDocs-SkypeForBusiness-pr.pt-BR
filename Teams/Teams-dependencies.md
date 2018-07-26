@@ -6,15 +6,16 @@ manager: serdars
 ms.date: 11/10/17
 ms.topic: article
 ms.service: msteams
-ms.reviwer: laal
+ms.reviewer: laal
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe399bb7b28f834575aeff344ff3fc4cca1b5dae
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
+ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 07/25/2018
+ms.locfileid: "21136303"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
@@ -36,7 +37,7 @@ Esses níveis diferentes de autorização fornecem flexibilidade para a forma co
 ![Diagrama de dependências de autorização para acesso de convidados.](media/teams_dependencies_image1.png)
 
 
-##<a name="azure-active-directory"></a>Azure Active Directory
+## <a name="azure-active-directory"></a>Azure Active Directory
 
 Com a colaboração B2B do Azure AD, o envio de convites para usuários convidados potenciais não é restrito aos administradores de locatários. Em vez disso, você pode usar políticas para delegar o envio de convites a usuários cujas funções permitem o envio de convites.
 
@@ -56,7 +57,7 @@ Azure AD inclui as configurações a seguir para configurar usuários externos:
 > [!NOTE]
 > Também é possível gerenciar quais domínios podem ser convidados para seu locatário como convidados. Consulte [permitir/bloquear o acesso de convidado a grupos do Office 365](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
 
-##<a name="microsoft-teams"></a>Microsoft Teams
+## <a name="microsoft-teams"></a>Microsoft Teams
 No Microsoft Teams, você pode controlar se a experiência do convidado será habilitada ou desabilitada para a sua organização. A configuração é desabilitada por padrão e é aplicável no nível do locatário somente no Microsoft Teams.
 
 
@@ -64,11 +65,11 @@ No Microsoft Teams, você pode controlar se a experiência do convidado será ha
 Você pode gerenciar as configurações de acesso de convidados do Microsoft Teams no Centro de administração do Office 365. Para obter mais detalhes, consulte [Habilitar ou desabilitar o acesso de convidados no Microsoft Teams](set-up-guests.md). 
 
 
-##<a name="office-365-groups"></a>Grupos do Office 365
+## <a name="office-365-groups"></a>Grupos do Office 365
 
 Nos Grupos do Office 365, você pode controlar a adição de usuários convidados e o acesso de convidados a todos os grupos do Office 365 e ao Microsoft Teams em sua organização.
 
-1. Inicie sessão na sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Entre usando sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
   
 2. No menu de navegação, escolha **Configurações** e, em seguida, selecione **Serviços &amp; complementos**.
@@ -90,7 +91,7 @@ Nos Grupos do Office 365, você pode controlar a adição de usuários convidado
 As configurações anteriores são aplicáveis no nível de locatário e controlam a experiência dos convidados nos Grupos do Office 365 e no Microsoft Teams.
 
 
-##<a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online e OneDrive for Business
+## <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online e OneDrive for Business
 
 O Teams depende do SharePoint Online e do OneDrive for Business para armazenar arquivos e documentos para canais e conversas de bate-papo.  
   
