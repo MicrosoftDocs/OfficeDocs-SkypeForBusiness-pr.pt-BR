@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: As considerações de planejamento relevantes para a implantação de sistemas de sala Skype v2 e como implantar e gerenciar o sistema.
-ms.openlocfilehash: d52f44c302b9f99389b45c1f8e74bef6ef362447
-ms.sourcegitcommit: 3356670f2849306ce329899509d2104fe0404939
+ms.openlocfilehash: 02dcbb2ccdd1b7737dff25475fa8f623d5cff926
+ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19949790"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21249226"
 ---
 <h2>Skype sala sistemas v2 & #x 2013; <br>a próxima geração de sistemas de sala do Skype </h2>
 <ul class="panelContent cardsW cols cols2">
@@ -78,7 +78,7 @@ ms.locfileid: "19949790"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Implantar</h3>
+                        <h3>Implantar </h3>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "19949790"
 </ul>
 
 > [!NOTE]
-> Sistemas de sala Skype v2 destina para uso com Skype para Business Server 2015 ou Skype Business Online. Suporte da Microsoft Teams é muito breve. <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013. 
+> Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online.  <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013. 
 
 Estes artigos destinam-se para pessoas encarregadas de planejar, implantar e gerenciar esses dispositivos e não para os usuários do sistema. Os usuários serão mais interessados na [Ajuda online do](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)Skype sala sistemas v2.
 
