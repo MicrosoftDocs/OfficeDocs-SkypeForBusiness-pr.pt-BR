@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a3905d0a131e36c0d2e5315a2e3436c468d49bd
-ms.sourcegitcommit: dba47a65b0725806c98702bb7362a1b105cc93df
+ms.openlocfilehash: 2a10056c201ad5adb1192f599106c533571507ef
+ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21249345"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "21597541"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gerenciamento do acesso de usuários ao Microsoft Teams
 =====================================
@@ -45,7 +45,7 @@ Uma licença de usuário de equipes pode estar desabilitada a qualquer momento. 
 
 ## <a name="manage-via-powershell"></a>Gerenciar via PowerShell
 
-A habilitação e desabilitação do Microsoft Teams como uma licença de carga de trabalho pelo PowerShell é realizada da mesma forma que com qualquer outra carga de trabalho. O nome do plano de serviço é TEAMS1 for Microsoft Teams. (Consulte mais informações em [Desabilitar o acesso aos serviços com o PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).)
+A habilitação e desabilitação do Microsoft Teams como uma licença de carga de trabalho pelo PowerShell é realizada da mesma forma que com qualquer outra carga de trabalho. O nome do plano de serviço é TEAMS1 for Microsoft Teams. Para o governo, o nome do plano de serviço é TEAMS_GOV. (Consulte mais informações em [Desabilitar o acesso aos serviços com o PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell).)
 
 **Exemplo:** A seguir é apenas uma amostra rápida sobre como você faria desabilitar equipes para todas as pessoas em um tipo de licença específico. Você precisa fazer isso primeiro e depois habilitá-lo individualmente para os usuários que devem ter acesso para fins de piloto.
 

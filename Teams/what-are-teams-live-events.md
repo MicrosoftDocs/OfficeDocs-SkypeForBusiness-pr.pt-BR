@@ -1,33 +1,25 @@
----
-title: Quais são as equipes live eventos?
-author: TonySmith
-ms.author: tonysmit
-manager: serdars
-ms.date: 7/11/2018
-ms.topic: article
-ms.service: msteams
-ms.reviwer: tonysmit
-description: Saiba como Live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
-appliesto:
+– título: quais são as equipes live eventos? autor: ms.author TonySmith: tonysmit manager: serdars ms.date: 11/7/2018 ms.topic: ms.service do artigo: msteams ms.reviwer: tonysmit Descrição: Saiba como Live eventos permitem que os usuários a transmissão de vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.  
+AppliesTo: 
 - Microsoft Teams
-ms.openlocfilehash: 5d259231709b7b9a16afc6d10afbcc9b9a7ed410
-ms.sourcegitcommit: b9f33329cbf3352bfe3741717abcf871e7395657
-ms.translationtype: MT
-ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20412300"
 ---
+
 # <a name="what-are-teams-live-events"></a>Quais são as equipes live eventos?
-**Resumo**: Saiba como live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
+**Resumo**: Saiba como live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.  
+Observação: Este é um recurso de versão inicial ou o preview.
 
 ## <a name="overview"></a>Visão geral
-Eventos ao vivo no Microsoft 365 habilitar usuários para transmissão de vídeo e de conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e [Microsoft Stream](https://docs.microsoft.com/en-us/stream/). 
+Eventos ao vivo no Microsoft 365 habilitar usuários para transmissão de vídeo e de conteúdo para audiências online grandes.  Eventos ao vivo do Microsoft 365 trazem vídeo ao vivo streaming para um novo nível, indo além da qual foi possível anteriormente com transmissão do Skype reunião, encorajando conexão em todo o ciclo de vida de compromisso inteira com participantes antes, durante e após eventos ao vivo. Você pode criar um evento ao vivo, onde quer que seu público-alvo, equipe ou comunidades residam, usando o Microsoft Stream, Microsoft Teams ou Yammer.  
 
 Teams da Microsoft oferece a colaboração baseada em bate-papo, chamar, reuniões e com eventos ao vivo, você pode expandir a audiência das suas reuniões. Eventos ao vivo de Teams da Microsoft é uma extensão de reuniões de equipes, permitindo que os usuários transmitir conteúdo de reunião e vídeo para um grande público on-line. Essas servem para comunicações de um-para-muitos onde o host do evento é líder interações e a participação de audiência é principalmente para exibir o conteúdo compartilhado por host. Os participantes podem assistir o evento ao vivo ou gravado no Yammer, equipes e/ou Microsoft Stream e podem interagir com os apresentadores via moderado perguntas e respostas ou conversa do Yammer. 
 
 As equipes de eventos ao vivo é considerada a próxima versão do Skype transmissão de reunião e será eventualmente substituem os recursos fornecidos na transmissão do Skype reunião. Para a versão de demonstração pública de eventos ao vivo, Microsoft continuará dar suporte a transmissão do Skype reunião, sem interrupções no serviço para eventos novos ou futuros. Recomendamos que você experimentar eventos ao vivo em equipes aproveitar os novos recursos, incluindo a tela de compartilhamento, a contagem de participantes e suporte para codificadores de software/hardware externo. 
 
-Relacionados: [Visão geral de eventos do live equipes da Microsoft](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US).
+Artigos relacionados: 
+
+- [Eventos ao vivo entre Microsoft 365 no Yammer, Teams da Microsoft e Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
+- [Eventos ao vivo no Microsoft Teams](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US)
+- [Eventos ao vivo no Yammer](https://support.officeppe.com/en-us/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57?ui=en-US&rs=en-US&ad=US)
+- [Eventos ao vivo em Stream da Microsoft](https://review.docs.microsoft.com/en-us/stream/live-event-overview)
 
 ## <a name="key-components"></a>Principais componentes
 O diagrama a seguir mostra os componentes de nível altos envolvidos em eventos ao vivo do Microsoft 365. 
@@ -40,7 +32,7 @@ As equipes fornece a capacidade dos organizadores criar um evento com o nome do 
 ### <a name="production"></a>Produção
 Os eventos ao vivo no Microsoft 365 oferecem suporte a uma variedade de cenários de produção, inclua um evento de início rápido usando webcams ou um evento do codificador externo com o equipamento de qualidade studio. A entrada de vídeo é a base dos eventos ao vivo e ele pode variar de uma webcam única para a produção de vídeo professional uma câmera multi. Os clientes podem escolher essas opções, dependendo de suas necessidades de projeto e o orçamento. 
 - **Início rápido**: O método de inicialização rápida permite aos usuários produzir seus eventos ao vivo usando reuniões de equipes. Esta é a melhor opção se você deseja usar o áudio e vídeos dispositivos conectado ao PC e/ou estão convidando apresentadores remotos / de participação no evento que os participantes. Essa opção permite que os usuários facilmente use seus webcams e compartilhar sua tela como entrada na transmissão. 
-- **Codificador externa (em breve)**: codificadores externos permitir que usuários produzir seus eventos ao vivo diretamente a partir de um hardware externo ou baseada em software codificador com Microsoft Stream. Esta é a melhor opção se você já tiver equipamento de qualidade studio (por exemplo, misturadores de mídia) quais streaming de suporte para um serviço RTMP. Essa opção é geralmente usada nos eventos de grande escala, como executivos corredores da cidade – onde um único fluxo de um mixer de mídia é difundido para a audiência. 
+- **Codificador externo**: codificadores externos permitir que usuários produzir seus eventos ao vivo diretamente a partir de um hardware externo ou baseada em software codificador com Microsoft Stream. Esta é a melhor opção se você já tiver equipamento de qualidade studio (por exemplo, misturadores de mídia) quais streaming de suporte para um serviço RTMP. Essa opção é geralmente usada nos eventos de grande escala, como executivos corredores da cidade – onde um único fluxo de um mixer de mídia é difundido para a audiência. 
 
 ### <a name="streaming-platform"></a>Plataforma de fluxo contínuo
 Isso é composto das seguintes partes.
@@ -95,7 +87,7 @@ A tabela a seguir destaca os principais recursos oferecidos em eventos ao vivo e
 
 |Recurso   |Transmissão de Reunião do Skype |Eventos ao vivo de equipes (início rápido) |Eventos ao vivo de equipes (codificador externo) |
 |---------|---------|---------|---------|
-|Tamanho máximo de audiência |10.000 participantes |10.000 participantes |10.000 participantes |
+|Tamanho máximo de audiência |10.000 participantes |10.000 participantes * |10.000 participantes * |
 |Criação de evento ao vivo |   Portal de transmissão de reunião do Skype |As equipes, Yammer via equipes | As equipes, Yammer via fluxo, equipes |
 |Compromisso de público-alvo – o Yammer |& #x 2714; |& #x 2714; (experiência integrada) |& #x 2714; (experiência integrada) |
 |Compromisso de público-alvo – moderados perguntas e respostas |& #x 2714;  |& #x 2714; |& #x 2714; |
@@ -116,6 +108,8 @@ Convidar um apresentador durante a reunião |& #x 2714; (Skype para negócios) |
 |Parceiro eCDN suporte |& #x 2714; (Hive, Kollective, conheça) |& #x 2714; (em breve) |& #x 2714; (Hive, Kollective, conheça) |
 |Relatório de pós-transmissão de presença para produtores |& #x 2714; |& #x 2714; (em breve) |X |
 |Análise de sentimento público-alvo – Live votação & votações |& #x 2714; (Microsoft pulso) |X |X |
+
+* Os limites são durante a visualização e está sujeita a alterações 
 
 ## <a name="planning--setup"></a>Planejamento e instalação
 Este artigo explica como você pode configurar usuários com eventos ao vivo de equipes em sua organização.
@@ -143,11 +137,53 @@ Você pode usar eventos ao vivo de equipes em várias regiões. As informações
 - China
   - Membros da equipe de evento e os participantes não poderão usar eventos ao vivo de equipes, porque o Windows Azure CDN não está acessível na China. Uma solução alternativa é usar uma conexão VPN, que obtém o cliente conectado CDN via rede corporativa do cliente da empresa.
 
-### <a name="set-up-your-network-for-teams-live-events"></a>Configurar sua rede para equipes eventos ao vivo 
+### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Configurar sua rede para live eventos no Microsoft Teams
 Em breve.
 
-### <a name="set-up-ecdn-provider-for-teams-live-events"></a>Configurar o provedor de eCDN para equipes eventos ao vivo
-Em breve.
+### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Configurar o provedor de eCDN para live eventos no Microsoft Teams 
+Reprodução de vídeos do evento ao vivo usa a taxa de bits adaptável streaming (ABR), mas é um fluxo de unicast, que significa que cada visualizador está recebendo o seu próprio fluxo de vídeo da internet. Para eventos ao vivo ou vídeos enviados para grandes partes da sua organização, pode haver uma quantidade significativa de largura de banda de internet consumida por visualizadores.  Para organizações que desejam reduzir esse tráfego da internet para eventos ao vivo, eventos ao vivo soluções integradas da Microsoft confiam definidos de parceiros de entrega de vídeo oferecem software redes (SDNs) ou redes de fornecimento de conteúdo corporativo (eCDNs). Esses SDN eCDN plataformas permitem que as organizações a otimizar a largura de banda de rede sem prejudicar o usuário final experiências de exibição. Nossos parceiros podem ajudar a habilitar uma distribuição mais flexível e eficiente de vídeo em sua rede corporativa.
+
+#### <a name="purchase--setup-your-solution-outside-of-microsoft-teams"></a>Comprar & sua solução fora do Microsoft Teams de instalação
+Obtenha ajuda especializada com o dimensionamento de entrega de vídeo aproveitando parceiros de entrega confiável de vídeo da Microsoft.  Para poder habilitar um provedor de entrega de vídeo ser usado com o Microsoft Teams, você deve adquirir e a solução SDN/eCDN externamente e separada da Microsoft Teams de instalação.
+
+As seguintes soluções SDN/eCDN previamente são integradas e podem ser configurado para ser usado com o Microsoft Stream. Consulte as informações dos provedores abaixo:
+
+Streaming de hive fornece uma solução de simple e eficiente para distribuição de vídeo da empresa ao vivo e sob demanda. Hive é uma solução baseada em software que não exige nenhum hardware adicional ou a largura de banda e fornece uma maneira segura para habilitar milhares de visualizadores de vídeos simultâneos sem afetar a sua rede. Para clientes que desejem para entender que o vídeo do impacto está tendo em sua rede antes da compra de uma solução SDN/eCDN, Hive Streaming também fornece uma solução de análise baseada em navegador para os clientes da Microsoft. [Saiba mais](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+ 
+Inteligente, baseada na nuvem aos distribuição plataforma do Kollective aproveita a infra-estrutura de rede existente para entregar conteúdo, em vários formulários, (live streaming de vídeo, vídeo sob demanda, atualizações de software, patches de segurança, etc.) mais rápido e mais confiável e com menos largura de banda. Nossa plataforma segura é confiável por maiores instituições financeiras de todo o mundo e sem hardware adicional, são fáceis de instalação e manutenção. [Saiba mais](http://www.kollective.com)
+ 
+Conheça OmniCache fornece a distribuição de rede de última geração e garante a perfeita fornecimento de conteúdo de vídeo entre WANs globais, ajudando produtores de evento otimizar a largura de banda de rede e suporte de transmissões de evento ao vivo bem-sucedida e streaming sob demanda. O suporte para OmniCache conheça para eventos ao vivo do início rápido estarão disponíveis em breve.  [Saiba mais](http://www.ramp.com) 
+ 
+[!NOTE] Sua solução eCDN escolhida está sujeito selecionado de [termos do provedor de terceiros 3º da política de privacidade e de serviço](), que orientará sua utilização da solução do provedor eCDN. O uso da solução do provedor eCDN não estará sujeito a termos de licenciamento de volume do Microsoft ou termos de serviços Online. Se não concordar com os [termos do provedor de terceiros 3º](), não habilite a solução de eCDN no Teams da Microsoft. 
+
+#### <a name="configure-ecdn-for-quick-start-live-events"></a>Configurar eCDN para eventos de "Quick start" ao vivo 
+Você pode configurar o provedor de eCDN para eventos ao vivo no Microsoft Teams via PowerShell. Observação: apenas um provedor de eCDN único pode ser configurado para o locatário a qualquer momento. 
+
+Configurar Hive eCDN provedor 
+
+Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar o provedor de eCDN. 
+1. Obter a URL do modelo de licença ID e a API do seu contato Hive. 
+2. Execute o seguinte cmdlet do PowerShell
+```
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
+```
+
+Configurar Kollective eCDN provedor 
+
+Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar o provedor de eCDN. 
+1. Obter o token de API e a URL do modelo de API do seu contato Kollective. 
+2. Execute o seguinte cmdlet do PowerShell
+```
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
+```
+
+Configurar conheça eCDN provedor 
+
+Em breve 
+
+#### <a name="configure-ecdn-for-external-encoder-live-events"></a>Configurar eCDN para eventos de "Codificador externo" ao vivo 
+Se você planeja criar eventos ao vivo que usam codificadores externos, você precisará [configurar seu provedor de eCDN com Microsoft Stream](https://docs.microsoft.com/stream/network-caching) também. Se você planeja criar "Quick start" eventos ao vivo por meio de Teams da Microsoft ou Yammer, você precisará configurar seu provedor SDN/eCDN sejam integrados ao Microsoft Teams também.
+
 
 ### <a name="enable-live-event-scheduling-for-the-user"></a>Habilite o agendamento de evento ao vivo para o usuário
 O agendamento de evento ao vivo é habilitado por padrão para um usuário de equipes.  
