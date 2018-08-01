@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 6cd19fb1f163f6e7a9e11598b03f539b5fc1a02d
-ms.sourcegitcommit: 411d59a92ad73555cf39d9c64822b24240b5af8a
+ms.openlocfilehash: a77ca0605589c99b88ba3287bf8febcc7514cbd1
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20327074"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21645304"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classificação de fluxo no Painel de Qualidade de Chamadas
 
@@ -39,8 +39,8 @@ Um fluxo de áudio é marcado como ruim se uma ou mais das seguintes condições
 |**Métrica**|**Condição**|**Explicação**|
 |:-----|:-----|:-----|
 |Média de degradação de áudio|> 1,0|Média da degradação da pontuação média de opinião sobre a rede para transmissão. Representa o quanto a perda e a tremulação da rede afetou a qualidade do áudio recebido.|
-|Viagem de ida e volta|> 500|Tempo médio da viagem de ida e volta de propagação da rede calculado conforme especificado em RFC3550 em milissegundos.|
-|Taxa de perda de pacotes|> 0,1|Taxa média de perda de pacotes da transmissão.|
+|Viagem de ida e volta|> 500|Tempo médio de propagação da rede de ida e volta calculado conforme especificado em RFC3550 em milissegundos.|
+|Taxa de perda de pacotes|> 0,1|Taxa média de perda de pacote do stream.|
 |Tremulação|> 30|Média de tremulação para transmissão em milissegundos.|
 |Taxa média de amostras ocultas|> 0,07|Taxa média do número de quadros de áudio com amostras ocultas geradas por recuperação de perda de pacotes para o número total de quadros de áudio.|
 
@@ -51,7 +51,7 @@ Um fluxo de vídeo é marcado como bom ou ruim com base no valor da primeira mé
 |**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Média percentual de perda de quadros de vídeo locais|> 50% |Ruim|Bom|Seguir para a Etapa 2|Porcentagem média da perda dos quadros de vídeo conforme exibido para o usuário. Isso inclui quadros recuperados das perdas de rede.|
-|2|Média da taxa de quadros de vídeo|<7|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para uma transmissão de vídeo calculados durante a sessão.|
+|2|Média da taxa de quadros de vídeo|<7|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para uma transmissão de vídeo calculada durante a sessão.|
 |3|Postagem de vídeo FECPLR|> 0,15|Ruim|Bom|Não classificado|Taxa de perda de pacotes após a aplicação de FEC ter sido agregada em todos as transmissões e codecs de vídeo.|
 
 ### <a name="vbss-classifier"></a>Classificador VBSS
@@ -61,7 +61,7 @@ Um fluxo VBSS é marcado como bom ou ruim com base no valor da primeira métrica
 |**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Média percentual de perda de quadros de vídeo locais|> 50% |Ruim|Bom|Seguir para a Etapa 2|Porcentagem média da perda dos quadros de vídeo conforme exibido para o usuário. Isso inclui quadros recuperados das perdas de rede.|
-|2|Média da taxa de quadros de vídeo|< 2|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para uma transmissão de vídeo calculados durante a sessão.|
+|2|Média da taxa de quadros de vídeo|< 2|Ruim|Bom|Seguir para a Etapa 3|Média de quadros por segundo recebidos para uma transmissão de vídeo calculada durante a sessão.|
 |3|Postagem de vídeo FECPLR|> 0,15|Ruim|Bom|Não classificado|Taxa de perda de pacotes após a aplicação de FEC ter sido agregada em todos as transmissões e codecs de vídeo.|
 
 ### <a name="application-sharing-classifier"></a>Classificador de compartilhamento de aplicativos
@@ -72,7 +72,7 @@ Um fluxo de compartilhamento de aplicativo é marcado como ruim se uma ou mais d
 |:-----|:-----|:-----|
 |Total percentual de blocos danificados|>36|Percentual de blocos que são descartados em vez de serem enviados para um par remoto (por exemplo, da MCU para um visualizador). Os blocos descartados podem ser causados por restrições de largura de banda entre o cliente e o servidor.|
 |Média de latência de processamento de blocos RDP no Compartilhamento de Aplicativo|> 400|Média de latência de blocos de processamento em milissegundos na pilha RDP no servidor de conferência.|
-|Média unidirecional relativa do compartilhamento de aplicativo|> 1,75|Média de atraso unidirecional relativo entre os pontos de extremidade em milissegundos para fluxos de compartilhamento de aplicativo.|
+|Média unidirecional relativa do compartilhamento de aplicativo|> 1,75|Média de atraso unidirecional relativo entre os pontos de extremidade em segundos para fluxos de compartilhamento de aplicativo.|
 
 ## <a name="unclassified-streams"></a>Fluxos não classificados
 
