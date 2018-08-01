@@ -1,5 +1,5 @@
 ---
-title: Gerenciar as configurações de áudio da conferência para minha organização
+title: Gerenciar as configurações de audioconferência em minha organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte as etapas para atribuir uma ID de conferência e a licença de conferência discada a um usuário e outras configurações de conferência discada. '
-ms.openlocfilehash: 26d80b71344227aeaec7089e2bb9f9a9dfe32ad2
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f3ab0f2d1ac32de5744dc4ac994e8030a1540ba4
+ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703664"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "21642471"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gerenciar as configurações de áudio da conferência para minha organização
+# <a name="manage-the-audio-conferencing-settings-for-my-organization"></a>Gerenciar as configurações de audioconferência em minha organização
 
 Talvez seja mais fácil para ver todas as configurações de serviços de audioconferência para Skype para Teams da Microsoft em um único local e de negócios. 
 
@@ -86,7 +86,7 @@ Talvez seja mais fácil para ver todas as configurações de serviços de audioc
 - Também é possível usar o Windows PowerShell e executar: 
     
   ```
-  Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $true|$false
+  Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
     Você pode usar o [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) para gerenciar outras configurações da sua organização, incluindo email.

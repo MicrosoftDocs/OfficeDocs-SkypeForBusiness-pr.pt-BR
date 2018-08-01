@@ -8,7 +8,7 @@ AppliesTo:
 Observação: Este é um recurso de versão inicial ou o preview.
 
 ## <a name="overview"></a>Visão geral
-Eventos ao vivo no Microsoft 365 habilitar usuários para transmissão de vídeo e de conteúdo para audiências online grandes.  Eventos ao vivo do Microsoft 365 trazem vídeo ao vivo streaming para um novo nível, indo além da qual foi possível anteriormente com transmissão do Skype reunião, encorajando conexão em todo o ciclo de vida de compromisso inteira com participantes antes, durante e após eventos ao vivo. Você pode criar um evento ao vivo, onde quer que seu público-alvo, equipe ou comunidades residam, usando o Microsoft Stream, Microsoft Teams ou Yammer.  
+Eventos ao vivo no Microsoft 365 habilitar usuários para transmissão de vídeo e de conteúdo para audiências online grandes.  Eventos ao vivo do Microsoft 365 trazem vídeo ao vivo streaming para um novo nível, encorajando conexão em todo o ciclo de vida de compromisso inteira com participantes antes, durante e após eventos ao vivo. Você pode criar um evento ao vivo, onde quer que seu público-alvo, equipe ou comunidades residam, usando o Microsoft Stream, Microsoft Teams ou Yammer.  
 
 Teams da Microsoft oferece a colaboração baseada em bate-papo, chamar, reuniões e com eventos ao vivo, você pode expandir a audiência das suas reuniões. Eventos ao vivo de Teams da Microsoft é uma extensão de reuniões de equipes, permitindo que os usuários transmitir conteúdo de reunião e vídeo para um grande público on-line. Essas servem para comunicações de um-para-muitos onde o host do evento é líder interações e a participação de audiência é principalmente para exibir o conteúdo compartilhado por host. Os participantes podem assistir o evento ao vivo ou gravado no Yammer, equipes e/ou Microsoft Stream e podem interagir com os apresentadores via moderado perguntas e respostas ou conversa do Yammer. 
 
@@ -17,9 +17,9 @@ As equipes de eventos ao vivo é considerada a próxima versão do Skype transmi
 Artigos relacionados: 
 
 - [Eventos ao vivo entre Microsoft 365 no Yammer, Teams da Microsoft e Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)
-- [Eventos ao vivo no Microsoft Teams](https://support.office.com/en-us/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US)
-- [Eventos ao vivo no Yammer](https://support.officeppe.com/en-us/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57?ui=en-US&rs=en-US&ad=US)
-- [Eventos ao vivo em Stream da Microsoft](https://review.docs.microsoft.com/en-us/stream/live-event-overview)
+- [Eventos ao vivo no Microsoft Teams](https://support.office.com/article/microsoft-teams-live-event-overview-d077fec2-a058-483e-9ab5-1494afda578a)
+- [Eventos ao vivo no Yammer](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
+- [Eventos ao vivo em Stream da Microsoft](https://review.docs.microsoft.com/stream/live-event-overview)
 
 ## <a name="key-components"></a>Principais componentes
 O diagrama a seguir mostra os componentes de nível altos envolvidos em eventos ao vivo do Microsoft 365. 
@@ -138,7 +138,9 @@ Você pode usar eventos ao vivo de equipes em várias regiões. As informações
   - Membros da equipe de evento e os participantes não poderão usar eventos ao vivo de equipes, porque o Windows Azure CDN não está acessível na China. Uma solução alternativa é usar uma conexão VPN, que obtém o cliente conectado CDN via rede corporativa do cliente da empresa.
 
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Configurar sua rede para live eventos no Microsoft Teams
-Em breve.
+Os eventos de início rápido ao vivo exigem que você preparar [a rede da sua organização para equipes da Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+
+Para o início rápido e eventos ao vivo do codificador externo 
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Configurar o provedor de eCDN para live eventos no Microsoft Teams 
 Reprodução de vídeos do evento ao vivo usa a taxa de bits adaptável streaming (ABR), mas é um fluxo de unicast, que significa que cada visualizador está recebendo o seu próprio fluxo de vídeo da internet. Para eventos ao vivo ou vídeos enviados para grandes partes da sua organização, pode haver uma quantidade significativa de largura de banda de internet consumida por visualizadores.  Para organizações que desejam reduzir esse tráfego da internet para eventos ao vivo, eventos ao vivo soluções integradas da Microsoft confiam definidos de parceiros de entrega de vídeo oferecem software redes (SDNs) ou redes de fornecimento de conteúdo corporativo (eCDNs). Esses SDN eCDN plataformas permitem que as organizações a otimizar a largura de banda de rede sem prejudicar o usuário final experiências de exibição. Nossos parceiros podem ajudar a habilitar uma distribuição mais flexível e eficiente de vídeo em sua rede corporativa.
