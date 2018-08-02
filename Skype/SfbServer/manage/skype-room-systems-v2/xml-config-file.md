@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Este artigo discute o gerenciamento remoto das configurações padrão usada por um dispositivo de v2 Skype sistemas de sala, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 9310683d3dbe274721f2bdcd583492b63a10d821
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015596"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711048"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console do Skype Room Systems v2 remotamente usando um arquivo de configuração XML
  
@@ -39,6 +39,9 @@ A tabela a seguir explica os elementos mostrados neste exemplo SkypeSettings.xml
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
              <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
+  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+  <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+  <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
   <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled> 
   <DualScreenMode>true</DualScreenMode>
@@ -74,14 +77,16 @@ Se o arquivo XML formado incorretamente (ou seja, um valor da variável é do ti
 |\<HideMeetingName\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Se verdadeiro, os nomes das reuniões ficarão ocultos.  <br/> |
 |\<UserAccount\>  <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> |Contêiner para os parâmetros de credenciais.  <br/> Endereço, o endereço do Exchange ou o endereço de email de entrada geralmente é os mesmos, como RanierConf<span></span>@contoso.com.  <br/> |
 |\<SkypeMeetingsEnabled\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Habilitado por padrão.  <br/> |
-|\<TeamsMeetingsEnabled\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Desabilitado por padrão.  <br/> O arquivo XML é considerado mal formado se ambos os \<SkypeMeetingsEnabled\> e\<TeamsMeetingsEnabled\> são desabilitadas, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo.  <br/> |
 |\<SkypeSignInAddress\>  <br/> |Cadeia de caracteres 3 <br/> ||O nome de entrada da conta do dispositivo do Skype for Business no console.  <br/> |
 |\<ExchangeAddress\>  <br/> |Cadeia de caracteres 3 <br/> ||O nome de entrada da conta do dispositivo do Exchange no console.  <br/> Se ExchangeAddress for omitido, SkypeSignInAddress não será reutilizado automaticamente.   <br/> |
 |\<DomainUsername\>  <br/> |Cadeia de caracteres & #x 2778; <br/> ||O domínio e o nome do usuário do dispositivo de console, por exemplo, Seattle\RanierConf.  <br/> |
 |\<Senha\>  <br/> |Cadeia de caracteres 3 <br/> || O parâmetro de senha é a mesma senha usada para entrar na conta do dispositivo do Skype for Business.  <br/> |
 | \<ConfigureDomain\> <br/> |Cadeia de caracteres & #x 2778; <br/> ||Você pode listar vários domínios, separados por vírgulas.  <br/> |
 |\<AutoRotatePassword\>  <br/> |Boolean & #x 2777; <br/> |||
-| \<DualScreenMode\> <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Se for true, o modo de tela dual está habilitado. Caso contrário, o dispositivo usará o modo de tela única.  <br/> |
+|\<TeamsMeetingsEnabled\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Desabilitado por padrão.  <br/> O arquivo XML é considerado mal formado se ambos os \<SkypeMeetingsEnabled\> e\<TeamsMeetingsEnabled\> são desabilitadas, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo.  <br/> |
+|\<IsTeamsDefaultClient > |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Desabilitado por padrão. <br/>|
+|\<BluetoothAdvertisementEnabled > |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Habilitado por padrão. <br/>|
+|\<DualScreenMode\> <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Se for true, o modo de tela dual está habilitado. Caso contrário, o dispositivo usará o modo de tela única.  <br/> |
 |\<SendLogs\>  <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> ||
 |\<EmailAddressForLogsAndFeedback\>  <br/> |Cadeia de caracteres & #x 2778; <br/> ||Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "Enviar Comentários" for exibida.   <br/> |
 |\<SendLogsAndFeedback\>  <br/> |Boolean & #x 2777; <br/> || Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs). <br/> |

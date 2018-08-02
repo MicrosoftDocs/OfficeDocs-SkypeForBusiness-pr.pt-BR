@@ -1,5 +1,5 @@
 ---
-title: Criar uma fila de chamada do sistema telefônico
+title: Criar uma fila de chamadas do Sistema de Telefonia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 18988c7d6f913b85d11bc465c336dfd265fa34a0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649578"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708346"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada do sistema telefônico
+# <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamadas do Sistema de Telefonia
 
 Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar um único ou vários filas de chamada para sua organização.
   
@@ -90,6 +90,14 @@ Para começar a usar as filas de chamadas, é importante lembrar-se de que:
   - iPhone Skype para Business Client (versão 6.16.0 e posterior)
     
   - iPad Skype para Business Client (versão 6.16.0 e posterior)
+
+  - Cliente do Microsoft Windows de equipes (versões de 32 e 64 bits)
+
+  - Cliente do Microsoft equipes Mac
+
+  - Microsoft Teams iPhone app
+
+  - App Android de equipes da Microsoft
     
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Etapa 2 - Como adquirir e transferir números de telefone de serviço de chamada gratuita ou tarifada
 

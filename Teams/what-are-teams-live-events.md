@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Saiba como Live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8050f105202063a0404de281100deaeca29584d
-ms.sourcegitcommit: d802b3091f9dccc851093eed0e2acbc34d1e9d9b
+ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21653681"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21711066"
 ---
 # <a name="what-are-teams-live-events"></a>Quais são as equipes live eventos?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -147,7 +147,7 @@ Você pode usar eventos ao vivo de equipes em várias regiões. As informações
 ### <a name="set-up-your-network-for-live-events-in-microsoft-teams"></a>Configurar sua rede para live eventos no Microsoft Teams
 Os eventos de início rápido ao vivo exigem que você preparar [a rede da sua organização para equipes da Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
 
-Para o início rápido e eventos ao vivo do codificador externo 
+Para início rápido e codificador externo eventos ao vivo, vá para o [Office 365 URLs e intervalos de endereços IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) para uma lista detalhada e atualizada de URLs, endereços IP, portas e protocolos que devem estar corretamente configurados para equipes e fluxo. A Microsoft está continuamente aperfeiçoando o serviço Office 365 e adicionar a nova funcionalidade, que significa que as portas necessárias, URLs, e endereços IP podem mudar ao longo do tempo. Recomendamos que você Inscreva-se via RSS para receber notificações quando esta informação é atualizada ou alterada.
 
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Configurar o provedor de eCDN para live eventos no Microsoft Teams 
 Reprodução de vídeos do evento ao vivo usa a taxa de bits adaptável streaming (ABR), mas é um fluxo de unicast, que significa que cada visualizador está recebendo o seu próprio fluxo de vídeo da internet. Para eventos ao vivo ou vídeos enviados para grandes partes da sua organização, pode haver uma quantidade significativa de largura de banda de internet consumida por visualizadores.  Para organizações que desejam reduzir esse tráfego da internet para eventos ao vivo, eventos ao vivo soluções integradas da Microsoft confiam definidos de parceiros de entrega de vídeo oferecem software redes (SDNs) ou redes de fornecimento de conteúdo corporativo (eCDNs). Esses SDN eCDN plataformas permitem que as organizações a otimizar a largura de banda de rede sem prejudicar o usuário final experiências de exibição. Nossos parceiros podem ajudar a habilitar uma distribuição mais flexível e eficiente de vídeo em sua rede corporativa.
