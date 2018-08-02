@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: c73141e4f77816d5e090a1cf0208eb66a1e29811
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084404"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762939"
 ---
 # <a name="configure-direct-routing"></a>Configurar o roteamento direto
 
@@ -530,47 +530,8 @@ Antes de um usuário pode ver a guia chamadas no Teams da Microsoft, você preci
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Definir Teams Microsoft como o cliente de chamada preferencial para os usuários
 
-Roteamento direto encaminharão as chamadas apenas ao Teams da Microsoft, portanto, você deve certificar-se de que a Microsoft Teams é o cliente preferencial da chamada para os usuários. Isso é controlado pelo TeamsCallingPolicy e o TeamsInteropPolicy. 
+Roteamento direto apenas rotear as chamadas para e de usuários se eles usarem equipes Cleint. Se sua organização usar somente equipes cleint, definindo "Equipes apenas" na política de atualização é recomendado. Se você organização usa Skype para Business Server ou Skype para Business Online, revise o seguinte documento [Noções básicas sobre a jornada coexistência e atualização para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) e selecione a opção apropriada. 
 
-1. Primeiro, use o seguinte cmdlet em uma sessão PowerShell remota no Skype para o admin center Business Online para ver quais políticas que o usuário tenha sido atribuído. 
-
-  ```
-  Get-CsOnlineUser -identity <User Name> | fl *teams*
-  ```
- 
-2. Em seguida, revise as instâncias de política diferente. 
-
-  ```
-  Get-CsTeamsCallingPolicy
-  ``` 
- e 
-
-  ```
-  Get-CsTeamsInteropPolicy
-  ``` 
-
-Para que usuários do Microsoft Teams podem usar o serviço, há etapas adicionais que você pode precisar ser adotada para aplicar a política de chamada e permitir chamadas.
-
-### <a name="teams-calling-policy"></a>Política de chamada de equipes
-
-Você deve certificar-se de que o usuário tem um TeamsCallingPolicy com AllowCalling = True. Essa diretiva pode ser a política Global no seu locatário ou uma diretiva específica concedidas ao usuário. Se você precisar conceder a um usuário uma diretiva específica, você pode usar o cmdlet:
-
-```
-Grant-CsTeamsCallingPolicy -PolicyName <policy> -Identity <User Name>
-```
-
-### <a name="teams-interop-policy"></a>Política de interoperabilidade de equipes
-
-Certifique-se de que o usuário tenha o cliente preferencial da chamada para definir a Teams da Microsoft. Isso pode ser feito de duas maneiras:
-
-- O usuário define o cliente preferencial da chamada no cliente do Microsoft Teams.
-- O usuário tenha sido atribuído a uma política que define o cliente preferencial da chamada.
-
-Para atribuir uma política que define o Microsoft Teams como o cliente de chamada preferencial, certifique-se de que o usuário recebe uma política cuja CallingDefaultClient = equipes. Um cmdlet do exemplo é mostrado abaixo:
-
-```
-Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity “<User Name>”
-```
 
 ## <a name="see-also"></a>Consulte também
 

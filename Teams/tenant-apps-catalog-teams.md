@@ -3,7 +3,7 @@ title: Publicar aplicativos para o catálogo de aplicativos do locatário equipe
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/13/2018
+ms.date: 08/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11db7dec3122de3eb783152483a1575cf92dc585
-ms.sourcegitcommit: 11adc15c5191d7bf6bb37058cae3d54649c25e97
+ms.openlocfilehash: 655a9da3670a7894e581cd2e6adebd02ef22706b
+ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/14/2018
-ms.locfileid: "20363901"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21762931"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos para o catálogo de aplicativos do locatário equipes da Microsoft
 =======================================================
@@ -32,7 +32,7 @@ Você pode publicar aplicativos para o catálogo de aplicativos do locatário eq
 
 ### <a name="get-a-teams-app-package"></a>Obtenha um pacote de aplicativos de equipes
 
-Um pacote de aplicativos de equipes é criado usando o [Studio de App equipes](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-app-studio). Depois que você tiver o pacote de aplicativos, você pode adicioná-lo ao catálogo de aplicativos do enterprise. Enquanto todos os usuários no inquilino podem exibir o catálogo de aplicativos, apenas administradores têm a capacidade de gerenciar a ele.
+Um pacote de aplicativos de equipes é criado usando o [Studio de App equipes](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Depois que você tiver o pacote de aplicativos, você pode adicioná-lo ao catálogo de aplicativos do enterprise. Enquanto todos os usuários no locatário, pode exibir o catálogo de aplicativos, atualmente apenas globais administradores têm a capacidade de publicar e gerenciá-lo. (Eventualmente, equipes admins será capaz de fazer isso também.)
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Vá para o catálogo de aplicativos do locatário
 
