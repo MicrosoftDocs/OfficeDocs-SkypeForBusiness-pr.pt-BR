@@ -4,17 +4,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 4aa222a98a0c95dd49b40172543aa1f5482a964f
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 66929e86e6e049ee1dd5c839bfcc4adcc3edf35f
+ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148513"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21752559"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -107,8 +108,10 @@ A tabela a seguir mostra exemplos de nomes DNS registrados para o locatário, se
 |**Nome DNS**|**Pode ser usado para o FQDN de SBC**|**Exemplos de nomes de FQDN**|
 |:--- |:--- |:--- |
 Contoso.com|Sim|**Nomes válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
-|Contoso.onmicrosoft.com|Não|**Nome inválido não:**<br/>sbc1.Europe.contoso.com (requer registrando europe.contoso.com de nome de domínio em "Domínios" primeiro)
-|
+|Contoso.onmicrosoft.com|Não|<br/>Usando *. onmicrosoft.com domínios não há suporte para nomes SBC
+
+Se você quiser usar um novo nome de domínio. Por exemplo, o seu locatário tiver contoso.com como um nome de domin registrado no seu locatário. Você deseja usar sbc1.sip.contoso.com. Antes de você pode emparelhar um SBC com nome sbc1.sip.contoso.com, você precisa registrar sip.contoso.com de nome de domínio em "Domínios" no seu locatário. Se você tentar emparelhamento sbc1.sip.contoso.com um SBC receberá um erro "Não pode usar o domínio"sbc1.sip.contoso.com"à medida que ele não foi configurado para este locatário."
+Depois que você adicionou o nome de domínio, você também precisará criar um usuário com o UPN user@sip.contoso.com e assing um lisence "Equipes". Ela pode levar até 24 horas para provisionar totalmente o nome de domínio após ela adicionada à "Domínios" de locatário, um usuário com o novo nome criado e um lisence atribuída ao usuário. 
 
 É possível que uma empresa pode ter vários espaços de endereçamento SIP em um locatário. Por exemplo, uma empresa pode ter contoso.com como um espaço de endereço SIP e fabrikam.com como o espaço de endereço SIP segundo. Alguns usuários têm endereço user@contoso.com e alguns usuários têm user@fabrikam.com endereço. 
 
@@ -212,7 +215,7 @@ Os seguintes fornecedores estiver sendo certified:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
 - Faixa de opções (anteriormente Sonus):
    - [Série de borda de SBC](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core série TBD](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
+   - [SBC Core série](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel não vende os SBCs para as empresas, mas seu SBC está sendo certified.  
  
 ## <a name="see-also"></a>Consulte também
