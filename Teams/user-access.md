@@ -12,12 +12,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a10056c201ad5adb1192f599106c533571507ef
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: a7d30f5516ba0b44bc5ff854fcc9f5482fdf24c2
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21597541"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21779507"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gerenciamento do acesso de usuários ao Microsoft Teams
 =====================================
@@ -31,7 +31,7 @@ Atualmente, não existem opções para equipes ou um subconjunto dos recursos de
 > [!NOTE]
 >A Microsoft recomenda que você ativar equipes para todos os usuários em uma empresa para que as equipes podem ser formadas organicamente para projetos e outras iniciativas dinâmicas. Mesmo se você decidir para piloto, ainda será útil manter equipes habilitadas para todos os usuários, mas apenas as comunicações para o grupo piloto de usuários de destino.
 
-## <a name="manage-directly-through-the-office-365-admin-center"></a>Gerenciar diretamente por meio do Centro de administração do Office 365
+## <a name="manage-teams-through-the-office-365-admin-center"></a>Gerenciar equipes por meio do Centro de administração do Office 365
 
 As equipes licenças de nível de usuário são gerenciadas diretamente por meio das interfaces de gerenciamento de usuário do Office 365 admin center. Um administrador pode atribuir licenças a novos usuários quando novas contas de usuário forem criadas ou a usuários com contas existentes. O administrador precisa ter privilégios do Administrador Global do Office 365 ou Administrador de Gerenciamento de Usuários para administrar as licenças do Microsoft Teams.
 
@@ -66,19 +66,6 @@ Para desabilitar as equipes de todos os usuários com uma licença ativa para o 
 |![Ícone de ponto de decisão.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Ponto de decisão         |<ul><li>O que é o planejamento da sua organização para inclusão de equipes em toda a organização?  (Piloto ou Aberto)</li></ul>         |
 |![Ícone de próximos passos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se for iniciar via piloto fechado, decida se deseja fazê-lo através de licenciamento ou comunicação direcionada.</li><li>Dependendo de decisão, siga as etapas para certificar-se testar apenas usuários que têm permissão para acessar as equipes (se necessário).</li><li>Documente as diretrizes para quais usuários que serão (ou não) têm acesso às equipes.</li></ul>         |
 
-## <a name="manage-via-office-sku-level-switch"></a>Gerenciar por meio de switch de nível de Sku do Office
+## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gerenciar equipes a nível de locatário do Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 
-1.  Entre no [Centro de Administração do Office 365](https://go.microsoft.com/fwlink/?linkid=854614) com uma conta que tenha privilégios de administrador global.
-
-2.  Vá até **Configurações** > **Serviços e suplementos**.
-
-    ![Captura de tela da seção de Configurações do centro de administração do Office 365 com Serviços e complementos selecionado. ](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image1.png)
-
-3.  Na página se Serviços e complementos, clique em **Microsoft Teams**.
-
-    ![Captura de tela da página de Serviços e complementos com o Microsoft Teams selecionado.](media/Set_up_Microsoft_Teams_in_your_Office_365_organization_image2.png)
-
-4.  Para ativar o Microsoft Teams para a organização, use o seletor de licenças e escolha cada licença. Depois definina a opção como **Ativado** e clique em **Salvar**.
-
-    ![Captura de tela da página de configurações do Microsoft Teams mostrando o botão de alternância como Habilitado para habilitar o Microsoft Teams.](media/Services-and-addins-control-Microsoft-Teams.PNG)

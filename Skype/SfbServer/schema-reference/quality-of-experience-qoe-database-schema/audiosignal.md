@@ -10,17 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Cada registro representa métricas de sinal de áudio para um ponto de extremidade. Geralmente, cada chamada tem dois registros, um é do chamador e um é para o receptor.
-ms.openlocfilehash: 25d565538ecdf7cae15ff23f539a2e2eddf8680f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0ffab37f49e55f73d8d414258e208265e2b5e9ff
+ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21781645"
 ---
 # <a name="audiosignal-table"></a>Tabela AudioSignal
  
 Cada registro representa métricas de sinal de áudio para um ponto de extremidade. Geralmente, cada chamada tem dois registros, um é do chamador e um é para o receptor. 
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primária  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária  <br/> |Referenciado de [MediaLine table](medialine-0.md).  <br/> |
@@ -53,5 +54,6 @@ Cada registro representa métricas de sinal de áudio para um ponto de extremida
 |**SendSignalLevelCh2** <br/> |int  <br/> ||Nível de sinal como enviado no canal 2.  <br/> Esta coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh1** <br/> |int  <br/> ||Nível de ruído como enviado no canal 1.  <br/> Esta coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh2** <br/> |int  <br/> ||Nível de ruído como enviado no canal 2.  <br/> Esta coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |
-   
+|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||DBFS do sinal enviado para o alto-falante para reprodução de nível. Contas para todos os ajustes ganho feitos ao sinal recebido. <br/> Esta coluna foi introduzida no Microsoft Lync Server 2013.  <br/> |   
+|**RenderNoiseLevel** <br/> |int  <br/> ||Nível na dBFS do conteúdo do sinal enviado para o alto-falante para reprodução de ruído <br/> |
 
