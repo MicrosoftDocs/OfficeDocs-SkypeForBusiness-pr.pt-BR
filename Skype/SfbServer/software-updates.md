@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Localize e gerencie atualizações para Skype para Business Server ou o Lync 2013. Use os links para obter mais informações e baixe as atualizações.
-ms.openlocfilehash: 75931385134b3570fa6fa8058f8a812cff441656
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 9963aa2a9736c4e450d1fb7f79359dad636b864c
+ms.sourcegitcommit: 973cb74fca3fe50fbd38f80f5975b6f3d17e0b68
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21169687"
+ms.lasthandoff: 08/03/2018
+ms.locfileid: "21822512"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype para downloads de negócios e atualizações 
 
@@ -24,7 +24,6 @@ A página da web _Skype para downloads de negócios e atualizações_ que estava
 - [Atualizações do Skype para clientes corporativos](sfb-client-updates.md) que contém as seções:
     - [Skype para negócios 2016 atualizações do cliente](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [Skype para atualizações do cliente de negócios 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Skype para atualizações do cliente móvel de negócios](sfb-client-updates.md#skype-for-business-mobile-client-updates)
     - [Skype para negócios sobre atualizações de cliente do Mac](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
     - [Atualizações de cliente do Lync 2013](sfb-client-updates.md#lync-2013-client-updates)
         - [Atualizações do Lync Phone Edition](sfb-client-updates.md#lync-phone-edition-updates)
@@ -32,7 +31,6 @@ A página da web _Skype para downloads de negócios e atualizações_ que estava
         - [Software de avaliação do Lync Basic 2013](sfb-client-updates.md#trial-software)
     - [Lync para Mac 2011 atualizações do cliente](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Atualizações de cliente do Lync 2010](sfb-client-updates.md#lync-2010-client-updates)
-        - [Atualizações do cliente do Lync 2010 de plataforma móvel](sfb-client-updates.md#lync-mobile-platform-2010-client-updates)
         - [Atualizações do Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Atualizações do Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates) 
 
