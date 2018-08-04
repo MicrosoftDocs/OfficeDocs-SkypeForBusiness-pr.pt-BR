@@ -1,5 +1,5 @@
 ---
-title: Diagnosticar problemas de conexão com o Skype para o Business Connector Online
+title: Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,13 +16,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solucionar problemas de criação de uma sessão PowerShell remota para se conectar ao Skype para negócios Online, incluindo Import-Module, shell simultânea, Live ID e erros de permissão.
-ms.openlocfilehash: 0a5742c3e5c5681c9433d59b6a7464c8021ddc57
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 296b6fc4c4b6f0ffbabb1dacf7f7ac4ad1f05f13
+ms.sourcegitcommit: 978d01431a1c6ac3f5a4390cb900491445e32c15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 08/04/2018
+ms.locfileid: "21855088"
 ---
-# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Skype para o Business Connector Online
+# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 
 Este tópico fornece informações que ajudarão você a diagnosticar e resolver problemas que podem ocorrer quando você tentar criar uma sessão remota do Microsoft PowerShell que se conecta ao Skype para negócios Online. Consulte as seções a seguir:
   
@@ -135,7 +136,7 @@ Cada administrador é permitido um máximo de três conexões remotas simultâne
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>O número máximo de shells simultâneos para este locatário do Skype para Business Online foi excedido
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Embora cada administrador pode ter até três conexões simultâneas para um Skype para locatário Business Online, nenhuma inquilino único tem permissão para ter mais de nove conexões simultâneas. Por exemplo, três os administradores podem cada têm três sessões abertas. Se um quarto administrador tenta fazer uma conexão (resultando em um total de 10 conexões simultâneas), essa tentativa falhará, com a seguinte mensagem de erro:
+Embora cada administrador pode ter até três conexões simultâneas para um Skype para locatário Business Online, nenhuma inquilino único tem permissão para ter mais de 20 conexões simultâneas. Por exemplo, seis os administradores podem cada têm três sessões abertas. Se um quarto administrador tenta fazer mais de 2 conexões (resultando em um total de conexões simultâneas 21), essa tentativa falhará, com a seguinte mensagem de erro:
   
 - **Erro**: *New-PSSession: [admin.vdomain.com] conectando-se ao servidor remoto admin.vdomain.com falhou com a seguinte mensagem de erro: serviço o WS-Management não pode processar a solicitação. O número máximo de shells simultâneos para este locatário foi excedido. Feche shells existentes ou aumentar a cota para este locatário. Para obter mais informações, consulte o [remoto Troubleshooting] (https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 
