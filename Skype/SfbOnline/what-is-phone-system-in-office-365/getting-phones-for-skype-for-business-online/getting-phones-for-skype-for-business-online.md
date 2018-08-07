@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn which phones work with Skype for Business from Polycom, HP, and Mitel, and the required licenses. '
-ms.openlocfilehash: c58f9c6fe4174f58f4c430fe121cd071a0b5b9a5
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: f12952944c85c77778a018de0f4f4b2bd39945b0
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19494008"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22101960"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
@@ -55,7 +55,9 @@ Para obter mais detalhes sobre os telefones Yealink, veja [Telefones IP do Skype
 Para obter mais detalhes em AudioCodes telefones, consulte [Skype para telefones IP de negócios](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition é compatível com Skype para negócios Online. Suporte principal para a plataforma LPE encerrada até 10/abril/2014, com suporte estendido até abril/11/2023 para alinhar com o ciclo de vida de suporte de produto do Lync Server 2013. Para obter detalhes sobre o ciclo de vida LPE, consulte o [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . Modelos de COBRIR LPE não são suportados com Skype para negócios Online.
+> Lync Phone Edition é suportado com Skype para Business Online, mas não com o Microsoft Teams. Suporte principal para a plataforma LPE encerrada até 10/abril/2014, com suporte estendido até abril/11/2023 para alinhar com o ciclo de vida de suporte de produto do Lync Server 2013. Para obter detalhes sobre o ciclo de vida LPE, consulte o [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . Modelos de COBRIR LPE não são suportados com Skype para negócios Online.
+>
+> Este ano, Office 365 não dará suporte a qualquer versão do TLS mais antigos do que 1.2. Desde que o sistema operacional subjacente do LPE não oferece suporte a TLS 1.2, não será suportada LPE para conectar ao Office 365 mais. Para obter mais informações, consulte o [Preparando para o uso obrigatório de TLS 1.2 no Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) .
   
 ## <a name="supported-firmware"></a>Com suporte do firmware
 

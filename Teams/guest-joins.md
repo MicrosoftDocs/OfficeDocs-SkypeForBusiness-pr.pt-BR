@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Obtenha um breve panorama de como um convidado é chamado para entrar em uma equipe do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa6efbf95d0f68b6871aa0693a6e6bf1062b9f84
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 8d8853e9b383d90ca2b030edd6f6a9f896a6bed7
+ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211048"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22100129"
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado entra em uma equipe
 ========================
@@ -33,7 +33,7 @@ Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convida
 
 Veja como um convidado se torna membro de uma equipe:
 
-- **Passo 1** Um proprietário de equipe ou um administrador do Office 365 [adiciona um convidado a uma equipe](https://support.office.com/article/adds-a-guest-to-a-team-df38ae23-8f85-46d3-b071-cb11b9de5499#bkmk_addingguests).
+- **Passo 1** Um proprietário de equipe ou um administrador do Office 365 [adiciona um convidado a uma equipe](https://support.office.com/en-us/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
     
   
 - **Passo 2** O proprietário de equipe ou o administrador do Office 365 pode gerenciar os recursos de um convidado conforme a necessidade. Por exemplo, permitir que um convidado adicione ou exclua canais, ou desabilitando o acesso a arquivos.
