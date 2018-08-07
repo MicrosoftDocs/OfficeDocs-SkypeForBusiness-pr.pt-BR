@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Saiba como Live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4017e059f202a89451b9aad419fd007bb4758765
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: a4d0ee65bc5cb8ad0d7e58ad407dbddf72cc28ca
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21711066"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22111859"
 ---
 # <a name="what-are-teams-live-events"></a>Quais são as equipes live eventos?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -22,9 +22,9 @@ ms.locfileid: "21711066"
 Saiba como live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.  
 
 ## <a name="overview"></a>Visão geral
-Eventos ao vivo no Microsoft 365 habilitar usuários para transmissão de vídeo e de conteúdo para audiências online grandes.  Eventos ao vivo do Microsoft 365 trazem vídeo ao vivo streaming para um novo nível, encorajando conexão em todo o ciclo de vida de compromisso inteira com participantes antes, durante e após eventos ao vivo. Você pode criar um evento ao vivo, onde quer que seu público-alvo, equipe ou comunidades residam, usando o Microsoft Stream, Microsoft Teams ou Yammer.  
+Eventos ao vivo no Microsoft 365 habilitar usuários para transmissão de vídeo e de conteúdo para audiências online grandes. Eventos ao vivo do Microsoft 365 trazem vídeo ao vivo streaming para um novo nível, encorajando conexão em todo o ciclo de vida de compromisso inteira com participantes antes, durante e após eventos ao vivo. Você pode criar um evento ao vivo, onde quer que seu público-alvo, equipe ou comunidades residam, usando o Microsoft Stream, Teams da Microsoft, ou do Yammer.  
 
-Teams da Microsoft oferece a colaboração baseada em bate-papo, chamar, reuniões e com eventos ao vivo, você pode expandir a audiência das suas reuniões. Eventos ao vivo de Teams da Microsoft é uma extensão de reuniões de equipes, permitindo que os usuários transmitir conteúdo de reunião e vídeo para um grande público on-line. Essas servem para comunicações de um-para-muitos onde o host do evento é líder interações e a participação de audiência é principalmente para exibir o conteúdo compartilhado por host. Os participantes podem assistir o evento ao vivo ou gravado no Yammer, equipes e/ou Microsoft Stream e podem interagir com os apresentadores via moderado perguntas e respostas ou conversa do Yammer. 
+Teams da Microsoft oferece a colaboração baseada em bate-papo, chamada, reuniões e com eventos ao vivo, você pode expandir a audiência das suas reuniões. Eventos ao vivo de Teams da Microsoft é uma extensão de reuniões de equipes, permitindo que os usuários transmitir conteúdo de reunião e vídeo para um grande público on-line. Essas servem para comunicações de um-para-muitos onde o host do evento é líder interações e a participação de audiência é principalmente para exibir o conteúdo compartilhado por host. Os participantes podem assistir o evento ao vivo ou gravado no Yammer, equipes e/ou Microsoft Stream e podem interagir com os apresentadores via moderado perguntas e respostas ou conversa do Yammer. 
 
 As equipes de eventos ao vivo é considerada a próxima versão do Skype transmissão de reunião e será eventualmente substituem os recursos fornecidos na transmissão do Skype reunião. Para a versão de demonstração pública de eventos ao vivo, Microsoft continuará dar suporte a transmissão do Skype reunião, sem interrupções no serviço para eventos novos ou futuros. Recomendamos que você experimentar eventos ao vivo em equipes aproveitar os novos recursos, incluindo a tela de compartilhamento, a contagem de participantes e suporte para codificadores de software/hardware externo. 
 
@@ -34,7 +34,7 @@ O diagrama a seguir mostra os componentes de nível altos envolvidos em eventos 
 ![Eventos ao vivo de equipes](media/teams-live-events.png)
 
 ### <a name="scheduling"></a>Agendamento
-As equipes fornece a capacidade dos organizadores criar um evento com o nome do participante apropriado permissões, designar os membros da equipe de evento, selecionar produção método convidar participantes. Se o evento ao vivo foi criado de dentro de um grupo do Yammer, os participantes do evento ao vivo poderão usar uma conversa do Yammer para interagir com a equipe de evento. 
+As equipes fornece a capacidade dos organizadores criar um evento com o nome do participante apropriado permissões, designar os membros da equipe de evento, selecione o método de produção e convidar participantes. Se o evento ao vivo foi criado de dentro de um grupo do Yammer, os participantes do evento ao vivo poderão usar uma conversa do Yammer para interagir com a equipe de evento. 
 
 ### <a name="production"></a>Produção
 Os eventos ao vivo no Microsoft 365 oferecem suporte a uma variedade de cenários de produção, inclua um evento de início rápido usando webcams ou um evento do codificador externo com o equipamento de qualidade studio. A entrada de vídeo é a base dos eventos ao vivo e ele pode variar de uma webcam única para a produção de vídeo professional uma câmera multi. Os clientes podem escolher essas opções, dependendo de suas necessidades de projeto e o orçamento. 
@@ -57,7 +57,7 @@ O objetivo do eCDN é obter o conteúdo de vídeo da internet e distribuir o con
 - Conheça (em breve ao início rápido)
 
 ### <a name="attendee-experience"></a>Experiência do participante
-A experiência do participante é o aspecto mais importante dos eventos ao vivo e é muito importante que os participantes podem participar de evento ao vivo sem problemas. A experiência do participante usa o Media Player do Windows Azure e funciona em desktop, navegador e mobile (iOS, Android). O Office 365 fornece Yammer e equipes como dois hubs de colaboração e o nome do participante ao vivo experiência é integrada a essas ferramentas de colaboração. Os eventos ao vivo do codificador externo com base também podem ser acessados pelos participantes no portal do Microsoft Stream.
+A experiência do participante é o aspecto mais importante dos eventos ao vivo e é muito importante que os participantes podem participar de evento ao vivo sem problemas. A experiência do participante usa o Media Player do Windows Azure e funciona em desktop, navegador e mobile (iOS, Android). O Office 365 fornece Yammer e equipes como dois hubs de colaboração e o nome do participante ao vivo experiência é integrada a essas ferramentas de colaboração. Os eventos ao vivo externos baseado em codificador também podem ser acessados pelos participantes no portal do Microsoft Stream.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -118,10 +118,10 @@ Convidar um apresentador durante a reunião |& #x 2714; (Skype para negócios) |
 
 * Os limites são durante a visualização e está sujeita a alterações 
 
-## <a name="planning--setup"></a>Planejamento e instalação
-Este artigo explica como você pode configurar usuários com eventos ao vivo de equipes em sua organização.
+## <a name="planning-and-setup"></a>Planejamento e instalação
+Este artigo explica como é possível configurar outros usuários com equipes eventos ao vivo na sua organização.
 
-1. Verifique a [disponibilidade regional para equipes live eventos](#configure-live-events) para entender as regiões eventos ao vivo estão atualmente disponíveis no.
+1. Verifique a [disponibilidade regional para equipes live eventos](#configure-live-events) para entender as regiões onde eventos ao vivo estão disponíveis no momento.
 2. Se você ainda não tiver feito isso, configure [Skype para Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online?redirectSourcePath=%252fen-us%252farticle%252fset-up-skype-for-business-online-40296968-e779-4259-980b-c2de1c044c6e) para a sua organização.
 3. Se você tiver participantes ingressando a partir da rede corporativa, considere a possibilidade de inclusão e [Configurar um provedor de eCDN - recomendadas pela Microsoft](#set-up-ecdn-provider-for-teams-live-events) para otimizar sua largura de banda de rede. 
 4. Certifique-se de que você tenha atribuições de licença correta para [quem pode criar eventos ao vivo](#who-can-create-live-events) e [quem pode Assista eventos ao vivo](#who-can-watch-live-event). 
@@ -152,36 +152,37 @@ Para início rápido e codificador externo eventos ao vivo, vá para o [Office 3
 ### <a name="set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Configurar o provedor de eCDN para live eventos no Microsoft Teams 
 Reprodução de vídeos do evento ao vivo usa a taxa de bits adaptável streaming (ABR), mas é um fluxo de unicast, que significa que cada visualizador está recebendo o seu próprio fluxo de vídeo da internet. Para eventos ao vivo ou vídeos enviados para grandes partes da sua organização, pode haver uma quantidade significativa de largura de banda de internet consumida por visualizadores.  Para organizações que desejam reduzir esse tráfego da internet para eventos ao vivo, eventos ao vivo soluções integradas da Microsoft confiam definidos de parceiros de entrega de vídeo oferecem software redes (SDNs) ou redes de fornecimento de conteúdo corporativo (eCDNs). Esses SDN eCDN plataformas permitem que as organizações a otimizar a largura de banda de rede sem prejudicar o usuário final experiências de exibição. Nossos parceiros podem ajudar a habilitar uma distribuição mais flexível e eficiente de vídeo em sua rede corporativa.
 
-#### <a name="purchase--setup-your-solution-outside-of-microsoft-teams"></a>Comprar & sua solução fora do Microsoft Teams de instalação
-Obtenha ajuda especializada com o dimensionamento de entrega de vídeo aproveitando parceiros de entrega confiável de vídeo da Microsoft.  Para poder habilitar um provedor de entrega de vídeo ser usado com o Microsoft Teams, você deve adquirir e a solução SDN/eCDN externamente e separada da Microsoft Teams de instalação.
+#### <a name="purchase-and-set-up-your-solution-outside-of-microsoft-teams"></a>Comprar e configurar sua solução fora do Microsoft Teams
+Obtenha ajuda especializada com o dimensionamento de entrega de vídeo aproveitando parceiros de entrega confiável de vídeo da Microsoft. Para poder habilitar um provedor de entrega de vídeo ser usado com o Microsoft Teams, você deve adquirir e configurar a solução SDN/eCDN externamente e separada da Microsoft Teams.
 
-As seguintes soluções SDN/eCDN previamente são integradas e podem ser configurado para ser usado com o Microsoft Stream. Consulte as informações dos provedores abaixo:
+As seguintes soluções SDN/eCDN previamente são integradas e podem ser configuradas para ser usado com o Microsoft Stream. Consulte as informações dos provedores abaixo:
 
 Streaming de hive fornece uma solução de simple e eficiente para distribuição de vídeo da empresa ao vivo e sob demanda. Hive é uma solução baseada em software que não exige nenhum hardware adicional ou a largura de banda e fornece uma maneira segura para habilitar milhares de visualizadores de vídeos simultâneos sem afetar a sua rede. Para clientes que desejem para entender que o vídeo do impacto está tendo em sua rede antes da compra de uma solução SDN/eCDN, Hive Streaming também fornece uma solução de análise baseada em navegador para os clientes da Microsoft. [Saiba mais](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
  
-Inteligente, baseada na nuvem aos distribuição plataforma do Kollective aproveita a infra-estrutura de rede existente para entregar conteúdo, em vários formulários, (live streaming de vídeo, vídeo sob demanda, atualizações de software, patches de segurança, etc.) mais rápido e mais confiável e com menos largura de banda. Nossa plataforma segura é confiável por maiores instituições financeiras de todo o mundo e sem hardware adicional, são fáceis de instalação e manutenção. [Saiba mais](http://www.kollective.com)
+Inteligente, baseada na nuvem aos distribuição plataforma do Kollective aproveita a infra-estrutura de rede existente para entregar conteúdo, em vários formulários (streaming de vídeo ao vivo, vídeo sob demanda, atualizações de software, patches de segurança e assim por diante), mais rápido e mais confiável, e com menos largura de banda. Plataforma segura do Kollective é confiável por maiores instituições financeiras de todo o mundo e sem hardware adicional, são fáceis de instalação e manutenção. [Saiba mais](http://www.kollective.com)
  
 Conheça OmniCache fornece a distribuição de rede de última geração e garante a perfeita fornecimento de conteúdo de vídeo entre WANs globais, ajudando produtores de evento otimizar a largura de banda de rede e suporte de transmissões de evento ao vivo bem-sucedida e streaming sob demanda. O suporte para OmniCache conheça para eventos ao vivo do início rápido estarão disponíveis em breve.  [Saiba mais](http://www.ramp.com) 
  
-[!NOTE] Sua solução eCDN escolhida está sujeito selecionado de [termos do provedor de terceiros 3º da política de privacidade e de serviço](), que orientará sua utilização da solução do provedor eCDN. O uso da solução do provedor eCDN não estará sujeito a termos de licenciamento de volume do Microsoft ou termos de serviços Online. Se não concordar com os [termos do provedor de terceiros 3º](), não habilite a solução de eCDN no Teams da Microsoft. 
+> [!NOTE] 
+> Sua solução eCDN escolhida está sujeito selecionado de [termos do provedor de terceiros 3º da política de privacidade e de serviço](), que orientará sua utilização da solução do provedor eCDN. O uso da solução do provedor eCDN não estará sujeito a termos de licenciamento de volume do Microsoft ou termos de serviços Online. Se não concordar com os [termos do provedor de terceiros 3º](), não habilite a solução de eCDN no Teams da Microsoft. 
 
 #### <a name="configure-ecdn-for-quick-start-live-events"></a>Configurar eCDN para eventos de "Quick start" ao vivo 
-Você pode configurar o provedor de eCDN para eventos ao vivo no Microsoft Teams via PowerShell. Observação: apenas um provedor de eCDN único pode ser configurado para o locatário a qualquer momento. 
+Você pode usar o PowerShell para configurar um provedor de eCDN para eventos ao vivo no Microsoft Teams. Observe que apenas um provedor de eCDN único pode ser configurado para o locatário a qualquer momento. 
 
 **Configurar Hive eCDN provedor** 
 
-Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar o provedor de eCDN. 
-1. Obter a URL do modelo de licença ID e a API do seu contato Hive. 
-2. Execute o seguinte cmdlet do PowerShell
+Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar um provedor de eCDN. 
+1. Obter a URL de modelo de licença ID e a API do seu contato Hive. 
+2. Execute o seguinte cmdlet do PowerShell.
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 
 **Configurar Kollective eCDN provedor** 
 
-Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar o provedor de eCDN. 
+Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar um provedor de eCDN. 
 1. Obter o token de API e a URL do modelo de API do seu contato Kollective. 
-2. Execute o seguinte cmdlet do PowerShell
+2. Execute o seguinte cmdlet do PowerShell.
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
@@ -189,7 +190,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Configurar conheça eCDN provedor**
 
 #### <a name="configure-ecdn-for-external-encoder-live-events"></a>Configurar eCDN para eventos de "Codificador externo" ao vivo 
-Se você planeja criar eventos ao vivo que usam codificadores externos, você precisará [configurar seu provedor de eCDN com Microsoft Stream](https://docs.microsoft.com/stream/network-caching) também. Se você planeja criar "Quick start" eventos ao vivo por meio de Teams da Microsoft ou Yammer, você precisará configurar seu provedor SDN/eCDN sejam integrados ao Microsoft Teams também.
+Se você planeja criar eventos ao vivo que usam codificadores externos, você precisará [configurar seu provedor de eCDN com Microsoft Stream](https://docs.microsoft.com/stream/network-caching). Se você planeja criar eventos ao vivo por meio de Teams da Microsoft ou Yammer de inicialização rápida, você precisará configurar seu provedor SDN/eCDN sejam integrados ao Microsoft Teams também.
 
 ### <a name="enable-live-event-scheduling-for-the-user"></a>Habilite o agendamento de evento ao vivo para o usuário
 O agendamento de evento ao vivo é habilitado por padrão para um usuário de equipes.  
@@ -228,12 +229,12 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastScheduling $fa
 ### <a name="enable-creation-of-external-encoder-based-live-events-for-users"></a>Habilitar a criação baseada em codificador live eventos externos para usuários
 
 #### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>Habilitar o Microsoft Stream para os usuários da organização
-Microsoft Stream está disponível como parte das assinaturas do Office 365 elegíveis ou como um serviço autônomo. Para obter mais detalhes, consulte [Visão geral do licenciamento de Stream](https://docs.microsoft.com/en-us/stream/license-overview) . Observação Microsoft Stream não está incluído nos planos Business Essentials ou Business Premium.  
+Microsoft Stream está disponível como parte das assinaturas do Office 365 elegíveis ou como um serviço autônomo. Para obter mais detalhes, consulte [Visão geral do licenciamento de Stream](https://docs.microsoft.com/en-us/stream/license-overview) . Observe que a Microsoft Stream não está incluído no Business Essentials ou Business Premium planos.  
 
 Saiba mais sobre como você pode [Atribuir licenças aos usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários podem acessar o Microsoft Stream. Certifique-se de que Microsoft Stream não é bloqueado para os usuários conforme definido [neste](https://docs.microsoft.com/en-us/stream/disable-user-organization)artigo.
 
 #### <a name="ensure-users-have-live-event-creation-permission-in-microsoft-stream"></a>Certifique-se de que os usuários têm permissão de criação de evento ao vivo em Stream da Microsoft
-Por padrão, todos na empresa podem criar conteúdo em Stream, depois que o Stream está habilitado e uma licença está atribuída ao usuário. Administrador do Microsoft Stream pode [restringir funcionários para a criação de conteúdo](https://docs.microsoft.com/en-us/stream/restrict-uploaders) no fluxo. Os usuários que estão nesta lista restritos não poderão gravar reuniões.
+Por padrão, todos na empresa podem criar conteúdo em Stream depois que o Stream está habilitado e uma licença está atribuída ao usuário. Um administrador do Microsoft Stream pode [impedir os funcionários de criação de conteúdo](https://docs.microsoft.com/en-us/stream/restrict-uploaders) no fluxo. Os usuários que estão nesta lista restritos não poderão gravar reuniões.
 
 #### <a name="ensure-live-event-organizers-have-consented-to-the-company-policy-set-by-stream-admin"></a>Certifique-se de tem consentiu organizadores a diretiva de empresa definida pelo administrador do fluxo de evento ao vivo
 Se um administrador do Microsoft Stream [definir uma política de diretrizes da empresa](https://docs.microsoft.com/en-us/stream/company-policy-and-consent) e requer funcionários aceitar essa política antes de salvar conteúdo, em seguida, os usuários devem fazer isso antes de criar um evento ao vivo (com a produção de codificador externa) no Microsoft Teams. Antes da distribuição o recurso de eventos ao vivo na organização, certifique-se de tem consentiu usuários que criarão esses eventos ao vivo a política. 
@@ -243,7 +244,7 @@ Se um administrador do Microsoft Stream [definir uma política de diretrizes da 
 ### <a name="set-up-event-support-link-coming-soon"></a>Configurar o link de suporte de evento (em breve)
 Este é o link que será exibido para os participantes do evento ao vivo. 
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 No Windows PowerShell, execute o seguinte cmdlet:
 ```
@@ -258,7 +259,7 @@ Isso permite que os organizadores de evento ao vivo criar eventos com visibilida
 |EveryoneInCompany     |O usuário tem uma opção para criar eventos ao vivo com a visibilidade de participante a seguir: todos na empresa e pessoas específicas. O usuário não pode criar eventos ao vivo que podem ser assistidos por usuários anônimos.|
 |InvitedUsers |O usuário só pode criar eventos que são limitados a pessoas específicas, como inseridas pelo organizador evento ao vivo. O usuário não pode criar eventos ao vivo com público e todos na autenticação de empresa. |
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 Use o BroadcastAttendeeVisibility em TeamsMeetingBroadcastPolicy no PowerShell de configuração para controlar se os usuários podem agendar a transmissão de eventos que podem ser observados por participantes anônimos. Saiba mais sobre como gerenciar TeamsMeetingBroadcastPolicy com o Office 365 PowerShell aqui.  
 
@@ -270,17 +271,17 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ### <a name="configure-recording-options"></a>Configurar opções de gravação
 > [!NOTE]
-> Essa opção é aplicável a eventos que usam o método de produção do início rápido somente.
+> Essa opção é aplicável a eventos que usam apenas o método de produção de início rápido.
 
-Isso permite que administradores controlar se os eventos ao vivo sempre são registrados, nunca registrada ou o organizador de evento pode optar por registrar o evento ou não.  
+Isso permite que administradores controlar se os eventos ao vivo sempre são registrados, nunca registrados, ou se o organizador de evento pode optar por registrar o evento ou não.  
 
 |**Valores**  |**Comportamento**  |
 |---------|---------|
-|Sempre habilitada |Os eventos ao vivo organizados pelo usuário sempre são registrados. Usuário não tem uma opção para substituir. Se o evento ao vivo é registrado, os membros da equipe de evento são capazes de fazer o download de gravação após o evento e os participantes podem assistir o evento após o evento está sobre. |
-|AlwaysDisabled |Os eventos ao vivo organizados pelo usuário nunca são registrados. Usuário não tem uma opção para substituir. Se o evento ao vivo é registrado, nenhum registro é criado para os membros da equipe de evento e os participantes não podem assistir o evento após ele está sobre. |
-|UserOverride |Usuário poderá decidir se o evento ao vivo é registrado para um arquivo de gravação que pode ser criado para os membros da equipe de evento e os participantes podem Assista o evento após o evento está sobre. |
+|Sempre habilitada |Os eventos ao vivo organizados pelo usuário sempre são registrados. O usuário não tem uma opção para substituir. Se o evento ao vivo é registrado, os membros da equipe de evento são capazes de fazer o download de gravação após o evento e os participantes podem assistir o evento após o evento está sobre. |
+|AlwaysDisabled |Os eventos ao vivo organizados pelo usuário nunca são registrados. O usuário não tem uma opção para substituir. Se o evento ao vivo é registrado, nenhum registro é criado para os membros da equipe de evento e os participantes não podem assistir o evento após ele está sobre. |
+|UserOverride |Usuário poderá decidir se o evento ao vivo é registrado para que um arquivo de gravação que pode ser criado para os membros da equipe de evento, e os participantes podem assistir o evento após o evento está sobre. |
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 Use a configuração BroadcastRecordingMode no TeamsMeetingBroadcastPolicy no PowerShell ao controle opções dos eventos ao vivo criados pelo organizador evento ao vivo de gravação.
 
@@ -290,15 +291,15 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ### <a name="configure-real-time-transcription-and-translation-in-teams-live-events-coming-soon"></a>Configurar a transcrição em tempo real e uma tradução em eventos ao vivo de equipes (em breve)
 > [!NOTE]
-> Essa opção é aplicável a eventos que usam o método de produção do início rápido somente.
+> Essa opção é aplicável a eventos que usam apenas o método de produção de início rápido.
 
 Isso permite que os organizadores de evento ao vivo Ativar legendas em tempo real e uma tradução para os participantes do evento ao vivo. 
 
-PowerShell
+#### <a name="powershell"></a>PowerShell
 
 Use a configuração AllowBroadcastTranscription no TeamsMeetingBroadcastPolicy no PowerShell para controlar se os participantes do evento ao vivo poderão ver a transcrição e uma tradução. Saiba mais sobre como gerenciar TeamsMeetingBroadcastPolicy com o Office 365 PowerShell aqui.  
 
-A menos que você atribuiu uma política personalizada para os usuários, os usuários obtêm a política Global, que tem transcrição & tradução desabilitado por padrão.
+A menos que você atribuiu uma política personalizada para os usuários, os usuários obtêm a política Global, que tem a transcrição e uma tradução desabilitado por padrão.
 
 No Windows PowerShell, execute o seguinte cmdlet para ativar a transcrição e uma tradução em para os participantes do evento na política global:
 ```
@@ -307,21 +308,21 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ## <a name="self-service-administration-tools"></a>Ferramentas de administração de autoatendimento 
 Embora a Microsoft diretamente controla todos os centros de dados Online do Office 365 e é responsável pelo desempenho geral do sistema, ele pode controlar apenas uma parte dos elementos que são combinados para fornecer a experiência total para usuários do Office 365. Organizações sozinhos são responsáveis por conexões de rede para os data centers, rede de longa distância (WAN), do cliente e do cliente redes locais (LANs). Além disso, eles estarão responsável por dispositivos de usuário e sua configuração.Eles também são responsável por manter o licenciamento necessários por usuário para qualquer recurso desejado, incluindo, mas não limitado a, a capacidade de gerenciar esses recursos, para desde que o usuário precisar de acesso ao recurso.
 
-Os clientes podem usar as seguintes ferramentas para gerenciar uma variedade de tarefas relacionadas do equipes eventos ao vivo.
+Os clientes podem usar as seguintes ferramentas para gerenciar uma variedade de tarefas de eventos relacionados ao vivo de equipes.
 - [Centro de administração do Microsoft Office 365](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_Office365admincenterl)
 - [Microsoft Teams e Skype para Business Online admin center](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_ExchangeAdministrationCenter)
 - Centro de administração do Microsoft Stream
 - [Windows PowerShell remoto](https://technet.microsoft.com/en-us/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
 
 ### <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
-- Quando se trata de Windows PowerShell, ele é tudo sobre o gerenciamento de usuários e quais os usuários poderão ou não podem para fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
-  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
-  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
+Quando se trata de Windows PowerShell, ele é tudo sobre o gerenciamento de usuários e quais os usuários poderão ou não podem para fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e Skype para negócios Online usando um único ponto de administração que pode simplificar o seu trabalho diário quando você tem várias tarefas fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+ - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+ - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação a usar somente o centro de administração do Office 365, como para fazer alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
-  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
-  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
-  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação a usar somente o centro de administração do Office 365, como para fazer alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+ - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+ - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
+ - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 
 ### <a name="related-topics"></a>Tópicos relacionados: 
