@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir uma atribuição de rota de Federação do site, você primeiro deve ter a federação habilitada no servidor de borda ou pool de servidor de borda. Se a federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de federação para o site não estará disponíveis para modificação.
-ms.openlocfilehash: 5878c7fc5ad41ab4359e4d4cd8cf808b958e7be8
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 989ebd13e4491e7b4c28bb936795f9532d7fe88f
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061507"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196038"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configurações de rota de Federação
  
@@ -30,5 +30,8 @@ Se a configuração de federação no servidor de borda ou pool tiver sido confi
 - **Habilitar federação SIP** Selecione essa opção para habilitar uma rota de Federação SIP e, em seguida, selecione um pool de diretores ou de borda como a rota de Federação.
     
 - **Habilitar federação XMPP** Selecione essa opção para habilitar uma rota de Federação XMPP e, em seguida, selecione um pool de diretores ou de borda como a rota de Federação.
+- 
+> [!NOTE]
+> Gateways de XMPP e proxies estão disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019. Consulte a [federação XMPP migrando](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações.
     
 

@@ -12,21 +12,14 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: 7c5ce978f46390b01e284352733c3508b51646f2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03048decb58ec1db1bff93133e3c2f504be414b3
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064338"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196111"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Instalar banco de dados Criar página de banco de dados de espelho
  
-Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-  
-Se você escolher não instalar os bancos de dados de espelho do SQL Server durante o processo de publicação, instalá-las usando **Instalar banco de dados** de um botão direito do mouse em qualquer nó no construtor de topologia. Você selecione o repositório de espelho para instalar. Clique em **configurações** para definir as configurações avançadas.
-  
-## <a name="see-also"></a>Consulte também
-
-[Install-CsMirrorDatabase](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
-  
-[Install-CsDatabase](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+> [!NOTE]
+> Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.
