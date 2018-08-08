@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: dd3abfd0ed390f2576271f6fecc3d27d121706c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 62ddcf4dd58bf4c2beb041f25127d9efead9cd08
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002688"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138531"
 ---
-# <a name="xmpp-federated-partners"></a><span data-ttu-id="3fcd3-104">Parceiros federados XMPP</span><span class="sxs-lookup"><span data-stu-id="3fcd3-104">XMPP Federated Partners</span></span>
+# <a name="xmpp-federated-partners"></a><span data-ttu-id="0e835-104">Parceiros federados XMPP</span><span class="sxs-lookup"><span data-stu-id="0e835-104">XMPP Federated Partners</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="0e835-105">Gateways de XMPP e proxies estão disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="0e835-105">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="0e835-106">Consulte a [federação XMPP migrando](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="0e835-106">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
  
-<span data-ttu-id="3fcd3-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="3fcd3-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="3fcd3-107">Gerenciar parceiros federados XMPP para sua organização</span><span class="sxs-lookup"><span data-stu-id="3fcd3-107">Manage XMPP Federated Partners for Your Organization</span></span>](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+<span data-ttu-id="0e835-107">Consulte [Gerenciar parceiros federados XMPP para sua organização](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)</span><span class="sxs-lookup"><span data-stu-id="0e835-107">See [Manage XMPP Federated Partners for Your Organization](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)</span></span>
     
  
 
