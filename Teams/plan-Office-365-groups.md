@@ -6,15 +6,17 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "Saiba as decisões que você deverá tomar ao planejar os grupos do Office 365, como escolher grupos públicos e privados, usar o cliente Teams ou o console do administrador web do Office 365 e como instruir as suas equipes para usar as conversas."
+description: Saiba as decisões que você deverá tomar ao planejar os grupos do Office 365, como escolher grupos públicos e privados, usar o cliente Teams ou o console do administrador web do Office 365 e como instruir as suas equipes para usar as conversas.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa8cc431c3bed8fcb332bad05228de6410177fee
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: d15e0859c6177d05d6ad243b8247eaa797a7b650
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "18999016"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planejar-se para grupos do Office 365 ao criar equipes no Microsoft Teams
 ==========================================================

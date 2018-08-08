@@ -1,5 +1,5 @@
 ---
-title: "Como é a experiência do convidado"
+title: Como é a experiência do convidado
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
@@ -7,15 +7,17 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
-description: "Conheça a funcionalidade do Microsoft Teams disponível para usuários convidados."
+description: Conheça a funcionalidade do Microsoft Teams disponível para usuários convidados.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500d8b0aa1ed8f006fdbab2d67771c2d65ebaa53
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 9d30b7b554b07ccc29233210419f2a3129349a1e
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "19178878"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -59,6 +61,8 @@ A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para o
 |Compartilhar um arquivo de canal  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
 |Compartilhar um arquivo de bate-papo  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Adicionar aplicativos (guias, bots ou conectores)  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Criar reuniões ou agendas de acesso  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|OneDrive de acesso para armazenamento de negócios  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Criar políticas de acesso de convidados de equipes/canais de todos os locatários  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Convidar um usuário de fora do domínio do locatário do Office 365 <br/>  *Os proprietário de equipes controlam essa configuração.*  <br/> <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Criar uma equipe  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
