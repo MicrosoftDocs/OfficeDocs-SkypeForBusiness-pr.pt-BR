@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 9f47cf2f04db02765f9693b1128fe1f9440b59e6
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server.'
+ms.openlocfilehash: 4d6a6096ea4f98f41a66173058743ae7d134e997
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630151"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996890"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
-**Resumo:** Revise as considerações de uso da porta antes de implementar Skype para Business Server 2015.
+**Resumo:** Revise as considerações de uso da porta antes de implementar Skype para Business Server.
   
 Skype para Business Server requer que portas específicas nos firewalls internos e externos estejam abertos. Adicionalmente, se o protocolo IPsec (Internet Protocol security) tiver sido implantado em sua organização, ele deverá estar desabilitado no intervalo de portas usadas para a distribuição de áudio, vídeo e vídeo panorama. 
   
@@ -45,7 +45,7 @@ Para obter detalhes sobre a configuração de firewall para componentes de borda
   
 A tabela a seguir lista as portas que precisam ser abertas em cada função de servidor interno. 
   
-**Portas do servidor necessárias (por função de servidor)**
+**Portas do servidor necessárias (por Função de servidor)**
 
 |**Função de servidor**|**Nome do serviço**|**Porta**|**Protocolo**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -88,7 +88,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 |Front servidores End em que reside o repositório de gerenciamento Central  <br/> | Skype para o serviço agente replicador mestre do servidor de negócios <br/> |445  <br/> |TCP  <br/> |Usado para enviar dados de configuração do repositório de gerenciamento Central para os servidores que executam o Skype para Business Server.  <br/> |
 |Todos os servidores  <br/> |Navegador do SQL  <br/> |1434  <br/> |UDP  <br/> |Navegador do SQL para cópia local replicada do gerenciamento Central armazenam dados na instância local do SQL Server  <br/> |
 |Todos os servidores internos  <br/> |Vários  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usada para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram áudio: servidores Front-End (para Skype para o serviço Atendedor de conferência do servidor de negócios, Skype para serviço de anúncio de conferência do servidor de negócios e Skype para o serviço de conferência de áudio/vídeo do Business Server), e Servidor de mediação.  <br/> |
-|Servidor Office Web Apps  <br/> ||443  <br/> ||Usada pelo Skype para Business Server 2015 para se conectar ao servidor do Office Web Apps.  <br/> |
+|Servidor Office Web Apps  <br/> ||443  <br/> ||Usada pelo Skype para Business Server para se conectar ao servidor do Office Web Apps.  <br/> |
 |Diretores  <br/> |Skype para serviço de front-end Server de negócios  <br/> |5060  <br/> |TCP  <br/> |Usada como opção para rotas estáticas até os serviços confiáveis, como servidores de controle de chamada remota.  <br/> |
 |Diretores  <br/> |Skype para serviço de front-end Server de negócios  <br/> |444  <br/> |HTTPS  <br/> TCP  <br/> |Comunicação entre servidores entre Front-End e Diretor. Além disso, o certificado de cliente publicar (para servidores Front-End) ou validar se o certificado de cliente já tiver sido publicado.  <br/> |
 |Diretores  <br/> |Skype para serviço de compatibilidade da Web Server Business  <br/> |80  <br/> |TCP  <br/> |Usada para comunicação inicial dos Diretores com os FQDNs de farm da web (as URLs usadas pelos componentes da web IIS). Em uma operação normal, trocará para tráfego HTTPS, usando a porta 443 e o tipo de protocolo TCP.  <br/> |
@@ -107,7 +107,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
   
 Para os seus pools que usam somente o balanceamento de carga de hardware (não o balanceamento de carga DNS), a tabela a seguir mostra as portas que precisam abrir os balanceadores de carga de hardware.
   
-**Balanceamento de carga de portas de Balanceador de carga de hardware se estiver usando apenas o Hardware**
+**Portas do balanceador de carga de hardware se estiver usando somente o balanceador de carga de hardware**
 
 |**Balanceador de carga**|**Porta**|**Protocolo**|
 |:-----|:-----|:-----|
@@ -145,7 +145,7 @@ Seus pools do Front-End e do Diretor que usam o balanceamento de carga DNS tamb�
 |Balanceador de carga do Diretor  <br/> |443  <br/> |HTTPS  <br/> |
 |Balanceador de carga do Diretor  <br/> |4443  <br/> |HTTPS (do proxy reverso)  <br/> |
    
-**Portas necessárias do cliente**
+**Portas do cliente necessárias**
 
 |**Componente**|**Porta**|**Protocolo**|**Observações**|
 |:-----|:-----|:-----|:-----|
@@ -178,7 +178,7 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
   
 **Exceções recomendadas do IPsec**
 
-|**Nome da regra**|**IP de origem**|**Destino IP**|**Protocolo**|**Porta de origem**|**Porta de destino**|**Requisito de autenticação**|
+|**Nome da regra**|**IP de origem**|**IP de destino**|**Protocolo**|**Porta de origem**|**Porta de destino**|**Requisito de autenticação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Entrada interna do Servidor de Borda A/V  <br/> |Qualquer um  <br/> |Interno do Servidor de Borda A/V  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
 |Entrada externa do Servidor de Borda A/V  <br/> |Qualquer um  <br/> |Externo do Servidor de Borda A/V  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |

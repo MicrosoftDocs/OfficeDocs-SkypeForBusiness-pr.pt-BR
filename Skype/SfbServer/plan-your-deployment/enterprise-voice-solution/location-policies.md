@@ -1,9 +1,8 @@
 ---
-title: Planejar políticas de local do Skype for Business Server 2015
+title: Planejar políticas de local Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Leia este tópico para saber como planejar políticas de local para uma implantação de serviços de emergência avançado (E9-1-1) no Skype Business Server Enterprise Voice.
-ms.openlocfilehash: 013eeea9858910c6ef94c928f92c42a742908355
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: cbc4bdbf552c3839cef0701dcf3e47e4603a270e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20971164"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server-2015"></a>Planejar políticas de local do Skype for Business Server 2015
+# <a name="plan-location-policies-for-skype-for-business-server"></a>Planejar políticas de local Skype for Business Server
  
 Leia este tópico para saber como planejar políticas de local para uma implantação de serviços de emergência avançado (E9-1-1) no Skype Business Server Enterprise Voice. 
   
 > [!NOTE]
-> Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Se você deseja configurar vários números de emergências, você deve seguir as informações em [vários números de emergências Skype para Business Server 2015 planejar](multiple-emergency-numbers.md) e [Configurar vários números de emergências Skype para negócios 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
+> Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Se você deseja configurar vários números de emergências, você deve seguir as informações em [vários números de emergências Skype para Business Server planejar](multiple-emergency-numbers.md) e [Configurar vários números de emergências Skype para negócios](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Crie políticas de local usando o Skype para painel de controle corporativos ou usando o cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obter mais informações, consulte [criar políticas de local no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md).
+Crie políticas de local usando o Skype para painel de controle corporativos ou usando o cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) . Para obter mais informações, consulte [criar políticas de local no Skype para Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Cada política de local contém as seguintes informações:
   
@@ -37,7 +37,7 @@ Quando este valor é habilitado, o cliente está habilitado para os serviços de
   
  **Local**
   
-Essa configuração é usada somente quando **Habilitar Enhanced 9-1-1** estiver habilitado.
+Esta configuração é usada somente quando a opção **Habilitar E9-1-1** está habilitada. 
   
 Você pode configurar o **Local ** para definir o comportamento do cliente, como a seguir:   
   

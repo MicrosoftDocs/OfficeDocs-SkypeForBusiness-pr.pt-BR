@@ -1,5 +1,5 @@
 ---
-title: Criar registros DNS para Skype for Business Server 2015
+title: Criar registros DNS para Skype for Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,21 +13,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: 'Resumo: Saiba como configurar o DNS e criar registros DNS para uma instalação do Skype para Business Server 2015. Baixe uma versão de avaliação gratuita do Skype para negócios 2015 de servidor do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 67114ce24da3676a3278c9685169d1a1f2bed4db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como configurar o DNS e criar registros DNS para uma instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: ca28eb2a439ea807f24969b9a5537b6a2aae4fa9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018889"
 ---
-# <a name="create-dns-records-for-skype-for-business-server-2015"></a>Criar registros DNS para Skype for Business Server 2015
+# <a name="create-dns-records-for-skype-for-business-server"></a>Criar registros DNS para Skype for Business Server
  
-**Resumo:** Saiba como configurar o DNS e criar registros DNS para uma instalação do Skype para Business Server 2015. Baixe uma versão de avaliação gratuita do Skype para negócios 2015 de servidor do centro da Evaluation da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Resumo:** Saiba como configurar o DNS e criar registros DNS para uma instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Para Skype para Business Server funcionem adequadamente, várias configurações de sistema de nome de domínio (DNS) devem ser in-loco. Isso é para que os clientes instruídos como acessar os serviços e que os servidores saber sobre umas às outras. Essas configurações precisam ser concluída apenas uma vez por implantação porque uma vez você atribuir uma entrada DNS, ele está disponível em todo o domínio. As etapas 1 a 5 podem ser executadas em qualquer ordem. No entanto, você deve executar as etapas 6, 7 e 8 nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Criar registros DNS compreende a etapa 5 de 8. Para obter mais informações sobre o planejamento de DNS, consulte [requisitos de ambiente para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md).
+Para Skype para Business Server funcionem adequadamente, várias configurações de sistema de nome de domínio (DNS) devem ser in-loco. Isso é para que os clientes instruídos como acessar os serviços e que os servidores saber sobre umas às outras. Essas configurações precisam ser concluída apenas uma vez por implantação porque uma vez você atribuir uma entrada DNS, ele está disponível em todo o domínio. As etapas 1 a 5 podem ser executadas em qualquer ordem. No entanto, você deve executar as etapas 6, 7 e 8 nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Criar registros DNS compreende a etapa 5 de 8. Para obter mais informações sobre o planejamento de DNS, consulte [requisitos de ambiente para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 > [!IMPORTANT]
-> É importante notar que este é apenas um exemplo de como criar registros DNS em um ambiente DNS do Windows Server. Há muitas outras entradas DNS necessários para Skype para Business Server e o procedimento para criar registros DNS depende do sistema que você está usando para gerenciar o DNS em sua organização. Para obter uma lista completa dos requisitos de DNS, consulte [requisitos de DNS para Skype para Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
+> É importante notar que este é apenas um exemplo de como criar registros DNS em um ambiente DNS do Windows Server. Há muitas outras entradas DNS necessários para Skype para Business Server e o procedimento para criar registros DNS depende do sistema que você está usando para gerenciar o DNS em sua organização. Para obter uma lista completa dos requisitos de DNS, consulte [requisitos de DNS para Skype para Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
 ![Diagrama de visão geral](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
@@ -35,7 +36,7 @@ Para Skype para Business Server funcionem adequadamente, várias configurações
 
 Registros DNS são necessários para Skype para Business Server funcionar corretamente e ser acessível pelos usuários.
   
-Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.local. Este pool consiste em três servidores que executam o Skype para Business Server 2015 Enterprise Edition. Um servidor front-end da Standard Edition pode conter apenas um único servidor. No Standard Edition, você usaria o FQDN (nome de domínio totalmente qualificado) do servidor único Standard Edition ao referenciar a função de front-end em vez de criar um pool de carga balanceada DNS de servidores, como mostra este exemplo. Este simples exemplo que usa apenas a função de front-end inclui as entradas DNS na seguinte tabela. Para planejar seus requisitos de DNS específicos, consulte [requisitos de DNS para Skype para Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
+Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.local. Este pool consiste em três servidores que executam o Skype para Business Server Enterprise Edition. Um servidor front-end da Standard Edition pode conter apenas um único servidor. No Standard Edition, você usaria o FQDN (nome de domínio totalmente qualificado) do servidor único Standard Edition ao referenciar a função de front-end em vez de criar um pool de carga balanceada DNS de servidores, como mostra este exemplo. Este simples exemplo que usa apenas a função de front-end inclui as entradas DNS na seguinte tabela. Para planejar seus requisitos de DNS específicos, consulte [requisitos de DNS para Skype para Business Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
 |**Descrição**|**Tipo de registro**|**Nome**|**Resolve para**|**Tipo de balanceamento de carga**|
@@ -76,7 +77,7 @@ Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.
    |SFB02  <br/> |Host (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |Host (A)  <br/> |10.0.0.7  <br/> |
    
-7. Em seguida, crie as entradas de balanceamento de carga DNS para o pool. O balanceamento de carga DNS permite que o DNS envie solicitações para os servidores individuais no pool enquanto usa o mesmo nome do pool DNS. Para obter mais informações sobre o DNS e balanceamento de carga, consulte [requisitos de DNS para Skype para Business Server 2015](../../plan-your-deployment/network-requirements/dns.md). 
+7. Em seguida, crie as entradas de balanceamento de carga DNS para o pool. O balanceamento de carga DNS permite que o DNS envie solicitações para os servidores individuais no pool enquanto usa o mesmo nome do pool DNS. Para obter mais informações sobre o DNS e balanceamento de carga, consulte [requisitos de DNS para Skype para Business Server](../../plan-your-deployment/network-requirements/dns.md). 
     
     > [!NOTE]
     > O agrupamento de vários servidores em pools está disponível apenas em implantações da versão Enterprise Edition. Se você estiver implantando um único servidor Enterprise ou Standard Edition, terá que criar somente um registro A para o único servidor. 
@@ -119,7 +120,7 @@ Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.
     
 5. Se você estiver suportando clientes herdados e tiver criado o registro SRV, verifique-o digitando **set type=srv** no prompt **nslookup** e depois aperte Enter.
     
-6. Tipo * * sipinternaltls. *domínio* * * (por exemplo, _sipinternaltls._tcp.contoso.local), e pressione Enter.
+6. Digite **sipinternaltls. *domínio* ** (por exemplo, _sipinternaltls._tcp.contoso.local), e pressione Enter.
     
 7. O resultado esperado deve ser similar ao mostrado na figura. Observe que nem todos os registros DNS são mostrados na amostra do resultado, mas todos os registros devem ser verificados. 
     

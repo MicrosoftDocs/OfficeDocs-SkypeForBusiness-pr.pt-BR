@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Resumo: Saiba como mover as contas de usuário de online para no local no Skype para Business Server.'
-ms.openlocfilehash: 7e0400a0a77a50253e6932c8255c64eb58574229
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569474"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025678"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Mover os usuários do Skype para Business Online no local
  
@@ -70,9 +70,7 @@ Antes de iniciar a migração dos usuários online para seu ambiente local, veri
   Import-PSSession $CSSession -AllowClobber
   ```
 
-    Para obter mais informações sobre como estabelecer uma sessão PowerShell remota com Skype para Business Online, consulte [Connecting to Lync Online por usando o Windows PowerShell](http://technet.microsoft.com/library/6167dad9-9628-4fdb-bed1-bdb3f7108e64.aspx).
-    
-    Para obter mais informações sobre como usar o Skype para o módulo de PowerShell do conector Business Online, consulte [Using Windows PowerShell para gerenciar o Lync Online](http://technet.microsoft.com/library/9ef2d853-10fb-4e02-a552-dcf6818d7153.aspx).
+    Para obter mais informações sobre como usar o PowerShell com Skype para Business Online, consulte [Configurar o computador para o Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 - Seu locatário online deve ser configurado para um espaço de endereçamento SIP compartilhado. Para fazer isso, primeiro inicie uma sessão Powershell remota com Skype para negócios Online. Em seguida, execute este cmdlet:
     
@@ -101,7 +99,7 @@ Depois que terminar estas etapas, você pode migrar contas de usuário, conforme
 
 2. Confirme se em seus servidores de borda de local, você tem a cadeia de certificados que permite a conexão para Skype para negócios Online, conforme mostrado na tabela a seguir. Você pode baixar essa cadeia aqui: [https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip](https://corp.sts.microsoft.com/Onboard/ADFS_Onboarding_Pack/corp_sts_certs.zip).
     
-|**Certificado**|**Repositório de certificados**|
+|**Certificado**|**Repositório de Certificado**|
 |:-----|:-----|
 |Raiz do Baltimore CyberTrust  <br/> |AC Raiz Confiável  <br/> |
 |Microsoft Internet Authority (novo certificado CA)  <br/> |CA intermediário  <br/> |
@@ -131,9 +129,9 @@ Depois que terminar estas etapas, você pode migrar contas de usuário, conforme
     
   - Atualize o **lyncdiscover.contoso.com** Um registro para apontar ao FQDN do servidor de proxy reverso do local.
     
-  - Atualização do * * *SIP* . _tls.contoso.com** SRV registrar para resolver ao endereço IP ou o VIP público do serviço de borda de acesso do Lync local.
+  - Atualização do ** *SIP* . _tls.contoso.com** registro SRV para resolver para o endereço IP ou o VIP público do serviço de borda de acesso do Lync local.
     
-  - Atualização do * * *sipfederationtls* . _tcp.contoso.com** SRV registrar para resolver ao endereço IP ou o VIP público do serviço de borda de acesso do Skype para Business Server 2015 local.
+  - Atualização do ** *sipfederationtls* . _tcp.contoso.com** registro SRV para resolver para o endereço IP ou o VIP público do serviço de borda de acesso do Skype para Business Server 2015 local.
     
   - Se sua organização utiliza dividido (às vezes chamado de "Split-Brain DNS") de DNS, certifique-se de que os usuários a resolução de nomes por meio da zona DNS interno são direcionados para o Pool Front-End.
     
@@ -189,7 +187,7 @@ Depois que terminar estas etapas, você pode migrar contas de usuário, conforme
   Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
   ```
 
-|**Atributo do Active Directory**|**Nome do atributo**|**Valor correto para o usuário on-line**|**Valor correto para usuários locais**|
+|**Atributo do Active Directory**|**Nome do atributo**|**Valor correto para usuário Online**|**Valor correto para usuários locais**|
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed  <br/> |SRV:  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:username@contoso.com  <br/> |SIP:username@contoso.com  <br/> |

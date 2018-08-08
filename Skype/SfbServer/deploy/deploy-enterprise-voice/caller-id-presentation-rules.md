@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar uma regra de conversão para apresentação de ID de Chamadas no Skype for Business Server 2015
+title: Criar ou modificar uma regra de conversão para a apresentação de ID do chamador em Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Resumo: Saiba como configurar o ID do chamador, usando o Skype para painel de controle do Business Server.'
-ms.openlocfilehash: cd4d11be6c24cc6ba092de4655e5d0b9530c3ac8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2748677c00e74de4b26cd62494d90dc44c4b5a6a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21000152"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server-2015"></a>Criar ou modificar uma regra de conversão para apresentação de ID de Chamadas no Skype for Business Server 2015
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de conversão para a apresentação de ID do chamador em Skype para Business Server
  
 **Resumo:** Saiba como configurar o ID do chamador, usando o Skype para painel de controle do Business Server.
   

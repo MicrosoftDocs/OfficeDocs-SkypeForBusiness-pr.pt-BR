@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Este tópico aborda considerações de planejamento para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual.
-ms.openlocfilehash: 2b682b010211f46ebd405131ed47bebc1b0d1e29
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 40591ed1e0560d23bb48979bdaa6b18d2c68c9ef
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972524"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planejar para o Skype for Business em ambientes VDI
  
@@ -34,7 +35,7 @@ Há três soluções disponíveis para o componente de plug-in de VDI, oferecido
 - O **Pacote de virtualização VMWare horizonte** para Skype para empresas, desenvolvida em colaboração com VMWare, permite oferecer Skype para a empresa em uma área de trabalho virtual enquanto oferecem uma experiência de usuário excelente. O works solução utilizando o mecanismo de mídia no cliente para criar uma solução otimizada, com o ponto de extremidade do cliente fornecendo mídia descarregamento de recursos para chamadas de áudio e vídeos. Essa solução que pode oferecer áudio e vídeo tanto diretamente entre os pontos de extremidade para colaboração individuais ou descarregamento de para uma central multiponto unidade de controle (MCU) para chamadas de conferência com vários participantes ou reuniões.
     
 > [!NOTE]
-> O Skype para clientes de 2016 ou 2015 básica de negócios não são suportados com o pacote de otimização do Citrix HDX em tempo real ou o pacote de virtualização VMWare horizonte. 
+> O Skype para clientes corporativos básica não são suportados com o pacote de otimização do Citrix HDX em tempo real ou o pacote de virtualização VMWare horizonte. 
   
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
@@ -87,7 +88,7 @@ Confira os seguintes links para obter mais informações:
     
 - [Pré-requisitos do plug-in VDI do Lync](vdi-environments.md#VDI_prereq)
     
-- [Implantar o Lync VDI plug-in com Skype para Business Server 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+- [Implantar o Lync VDI plug-in com Skype para Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
 - Artigo do Centro de dados de conhecimento do Citrix [CTX138408](https://support.citrix.com/article/CTX138408)
     
@@ -116,13 +117,13 @@ O plug-in Lync VDI foi desenvolvido para usar APIs independente de plataforma de
 Em um ambiente VDI, as máquinas virtuais e o computador local do usuário devem atender os requisitos destacados nesta seção.
   
 > [!NOTE]
->  Seu provedor de soluções de virtualização pode fornecer detalhes de como instalar e implantar o ambiente. Para obter informações gerais sobre como implantar um ambiente virtualizado com base no Hyper-V e os serviços de área de trabalho remota, consulte os seguintes artigos na TechNet Library Microsoft: [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514), [Os serviços de área de trabalho remota no Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=247513) 
+>  Seu provedor de soluções de virtualização pode fornecer detalhes de como instalar e implantar o ambiente. Para obter informações gerais sobre como implantar um ambiente virtualizado com base no Hyper-V e os serviços de área de trabalho remota, consulte os seguintes artigos na Microsoft Library: [Hyper-V](https://go.microsoft.com/fwlink/p/?linkid=247514), [Os serviços de área de trabalho remota no Windows Server 2008 R2](https://go.microsoft.com/fwlink/p/?linkid=247513) 
   
 Máquinas virtuais deve ser configuradas com Windows 8, Windows 7 ou Windows Server 2008 R2 com os service packs mais recentes.
   
 Computador local do usuário deve atender aos seguintes requisitos:
   
-- O usuário deve ser hospedado em Skype para Business Server 2015 ou o Lync Server 2013.
+- O usuário deve ser hospedado em Skype para Business Server ou o Lync Server 2013.
     
 - O computador local deve estar executando o Windows Embedded Standard 7 com SP1, Windows 7 com SP1 ou Windows 8.
     
@@ -165,5 +166,5 @@ Não há suporte para o Lync VDI plug-in em um ambiente do Office 365.
 ## <a name="see-also"></a>Ver também
 <a name="Citrix_RT"> </a>
 
-[Implantar o Lync VDI plug-in com Skype para Business Server 2015](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
+[Implantar o Lync VDI plug-in com Skype para Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
 

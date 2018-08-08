@@ -2,20 +2,22 @@
 title: Tomar decisões de serviço de conferência de áudio - Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Saiba mais sobre as reuniões, o licenciamento e a disponibilidade, definir as configurações de ponte de conferência, adquirir ou transferir os números de telefone, escolha locatário planos de discagem.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa51cda9a9ce57d7672b152b45eb9c8e3cf4ba46
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 577ee414529223dbc435d8570a55adb6883fd8a2
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695618"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -330,15 +332,15 @@ Para saber mais sobre os planos de discagem, consulte [quais são os planos de d
 >|Nome do plano de discagem de locatário<br>_Descrição_  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para o escritório de One Epping Road, North Ryde, NSW, Austrália_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+>||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+>||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+>||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 >|**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) do office orientações, Cingapura_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+>||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+>||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du Président Roosevelt do escritório, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalização de número gratuito na França_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalização de número de serviço na França_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]

@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: 98f28f652e8a4bfdda6b3f8a93a73788f0d09c8c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: bdf113f6feef33d9af55994ef79ecd91b0120c7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21012503"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
  
@@ -74,9 +75,9 @@ Considere o seguinte ao planejar a implantação de nuvem conector Edition:
     
 Este tópico inclui as seguintes seções:
   
-- [Componentes de edição do conector de nuvem](plan-skype-for-business-cloud-connector-edition.md#BKMK_Components)
+- [Componentes da Edição Cloud Connector](plan-skype-for-business-cloud-connector-edition.md#BKMK_Components)
     
-- [Topologias de edição do conector de nuvem](plan-skype-for-business-cloud-connector-edition.md#BKMK_Topologies)
+- [Topologias da Edição do Cloud Connector](plan-skype-for-business-cloud-connector-edition.md#BKMK_Topologies)
     
 - [Requisitos para a implantação](plan-skype-for-business-cloud-connector-edition.md#BKMK_Requirements)
     
@@ -88,7 +89,7 @@ Este tópico inclui as seguintes seções:
     
 - [Fluxo de mídia do Cloud Connector](plan-skype-for-business-cloud-connector-edition.md#BKMK_MediaFlow)
     
-- [Monitorando e Solucionando problemas](plan-skype-for-business-cloud-connector-edition.md#BKMK_Monitor)
+- [Monitoramento e solução de problemas](plan-skype-for-business-cloud-connector-edition.md#BKMK_Monitor)
     
 - [Para obter mais informações](plan-skype-for-business-cloud-connector-edition.md#BKMK_MoreInfo)
     
@@ -195,7 +196,7 @@ O diagrama a seguir mostra um único appliance de nuvem conector Edition em um �
   
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>Vários sites PSTN com uma ou mais instâncias de Cloud Connector por site
 
-Também é possível ter vários sites PSTN com uma ou mais instâncias de Cloud Connector Edition em cada site. Se seu site PSTN atingir o limite de chamadas simultâneas, você pode adicionar outro site do PSTN para manipular a carga.
+Também é possível ter vários locais de PSTN com uma ou mais instâncias de Cloud Connector Edition em cada site. Se o seu local de PSTN atingir o limite de chamadas simultâneas, será possível adicionar outro local de PSTN para lidar com a carga. 
   
 Vários sites PSTN também permitem que você fornecer conectividade para gateways mais próximos aos seus usuários. Por exemplo, suponha que você tem os gateways PSTN em Seattle e Amsterdã. Você pode implantar dois sites PSTN — um em Seattle, um Amsterdã — e atribuir aos usuários para usar o site PSTN que está mais próximo a eles. Os usuários de Seattle serão roteados para o site de Seattle PSTN e os gateways, enquanto usuários em Amsterdã serão roteados para o site de Amsterdã PSTN e gateways:
   
@@ -246,7 +247,7 @@ Antes de implantar Edition do conector de nuvem, certifique-se de que ter o segu
     
 - PBX/Tronco qualificado ou SBC/Gateway qualificado (um mínimo de dois gateways é recomendado).
     
-    O Cloud Connector dá suporte aos mesmos SBCs (Controladores de Borda da Sessão) que são certificados para o Skype for Business. Para obter mais informações, consulte [Infraestrutura de telefonia para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947483.aspx). 
+    O Cloud Connector dá suporte aos mesmos SBCs (Controladores de Borda da Sessão) que são certificados para o Skype for Business. Para obter mais informações, consulte [Infraestrutura de telefonia para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
     
 - Uma conta de administrador do servidor local com permissões para instalar e configurar o Hyper-V em servidores host. A conta deve ter permissões de administrador no servidor local onde o Hyper-V está instalado e configurado.
     
@@ -335,7 +336,7 @@ Essa tabela mostra as portas e os intervalos de portas para a habilitação da c
 
 
 
-|**IP de origem**|**Destino IP**|**Porta de origem**|**Porta de destino**|
+|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de Destino**|
 |:-----|:-----|:-----|:-----|
 |Componente de mediação do conector de nuvem  <br/> |SBC/Gateway de PSTN:  <br/> |Qualquer um  <br/> |TCP 5060\*\*  <br/> |
 |SBC/Gateway de PSTN:  <br/> |Componente de mediação do conector de nuvem  <br/> |Qualquer um  <br/> |TCP 5068/TLS 5067  <br/> |
@@ -374,7 +375,7 @@ Nesse caso, todo o tráfego de mídia para a internet irá fluir através da bor
 
 
 
-|**IP de origem**|**Destino IP**|**Porta de origem**|**Porta de destino**|
+|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
 |Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
@@ -393,10 +394,10 @@ Nesse caso, todo o tráfego de mídia para o ponto de extremidade na internet po
 > [!NOTE]
 > Essa solução não funcionará se o ponto de extremidade do usuário estiver usando um NAT simétrico. 
   
-**Firewall externo - configuração recomendado**
+**Firewall externo - configuração recomendada**
 
 
-|**IP de origem**|**Destino IP**|**Porta de origem**|**Porta de destino**|
+|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de Destino**|
 |:-----|:-----|:-----|:-----|
 |Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
@@ -458,7 +459,7 @@ Para cada site PSTN que você planeja implantar, será necessário coletar as se
   
 Ao configurar informações de gateway, lembre-se do seguinte:
   
-- Se houver apenas um gateway, remova a seção do arquivo .ini para o segundo gateway. Se houver mais de dois gateways, siga o formato existente para adicionar novos.
+- Se houver apenas um gateway, remova a seção do arquivo .ini para o segundo gateway. Se houver mais de dois gateways, siga o formato existente para adicionar novos. 
     
 - Verifique se o endereço IP e a porta do(s) gateway(s) estão corretos.
     
@@ -468,7 +469,7 @@ Ao configurar informações de gateway, lembre-se do seguinte:
   
 
 
-|**Parâmetros de site**|**Descrição**|**Observações**|
+|**Parâmetros do site**|**Descrição**|**Observações**|
 |:-----|:-----|:-----|
 |Nome de domínio da máquina virtual  <br/> |Nome de domínio para os componentes internos do conector de nuvem. Esse domínio precisa ser diferente do domínio de produção. O nome precisa ser o mesmo em todos os dispositivos do Cloud Connector.  <br/> Nome do arquivo. ini: "VirtualMachineDomain"  <br/> |.domínio local é o preferencial.   <br/> |
 |Nome do controlador de domínio de conector de nuvem  <br/> |Nome do controlador de domínio   <br/> Nome do arquivo. ini: "ServerName"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> |
@@ -487,17 +488,18 @@ Ao configurar informações de gateway, lembre-se do seguinte:
 |Nome do comutador para rede externa  <br/> |Nome do comutador que será usada para a rede externa do conector de nuvem.  <br/> Na maioria dos casos, o valor padrão sugerido pode ser usado.  <br/> Nome do arquivo. ini: "InternetSwitchName" em "parâmetros para um pool de rede VM  <br/> ||
 |Gateway Padrão para rede interna  <br/> |Este gateway deverá fornecer acesso à Internet (Internet também requer a definição de servidor DNS) e serão configurados nas interfaces internas dos componentes do conector de nuvem.  <br/> Nome do arquivo. ini: "CorpnetDefaultGateway" em "parâmetros para um pool de rede VM  <br/> ||
 |Gateway Padrão para a interface externa do componente de Borda  <br/> |Será configurado na interface externa do componente de Borda.  <br/> Nome do arquivo. ini: "InternetDefaultGateway" em "parâmetros para um pool de rede VM  <br/> ||
-|Servidor DNS para rede interna  <br/> |Será configurado na interface interna da VM temporária. Deve fornecer a resolução de nomes para nomes de Internet. Sem fornecer um servidor DNS, conexão de Internet falhará e implantação não será concluída.  <br/> Nome do arquivo. ini: "CorpnetDNSIPAddress" em "parâmetros para um pool de rede VM  <br/> ||
+|Servidor DNS para rede interna  <br/> |Será configurado na interface interna da VM temporária. Deve fornecer uma resolução de nome para nomes da Internet. Sem o fornecimento de um servidor DNS, a conexão com a Internet apresentará falha e a implantação não será concluída.   <br/> Nome do arquivo. ini: "CorpnetDNSIPAddress" em "parâmetros para um pool de rede VM  <br/> ||
 |Servidor DNS para a interface externa do componente de Borda  <br/> |Será configurado na interface externa de Borda.  <br/> Nome do arquivo. ini: "InternetDNSIPAddress" em "parâmetros para um pool de rede VM  <br/> ||
 |Nome da central de gerenciamento  <br/> |Opção de gerenciamento é uma opção temporária que será criada automaticamente, e que será usado para a configuração do conector de nuvem durante a implantação. Ele será desconectado automaticamente após a implantação. Ela deve ser uma sub-rede diferente do quaisquer outras redes usadas no conector de nuvem.  <br/> Na maioria dos casos, o valor padrão sugerido pode ser usado.  <br/> Nome do arquivo. ini: "ManagementSwitchName" em "parâmetros para um pool de rede VM  <br/> ||
 |Endereço de sub-rede/máscara de sub-rede de gerenciamento  <br/> |A sub-rede de gerenciamento é uma sub-rede temporária que será criada automaticamente, e que será usado para a configuração do conector de nuvem durante a implantação. Ela será removida automaticamente após a implantação. Ela deve ser uma sub-rede diferente do quaisquer outras redes usadas no conector de nuvem.  <br/> Nomes de arquivo. ini: "ManagementIPPrefix" e "ManagementIPPrefixLength" em "parâmetros para um pool de rede VM  <br/> ||
-|Máquina de repositório de gerenciamento central (CMS)  <br/> |FQDN exclusivo utilizado para o Repositório de Gerenciamento Central (CMS). O nome do Domínio do AD será utilizado para gerar o FQDN.  <br/> Nome do arquivo. ini: "ServerName" em "parâmetros para principal serviço de gerenciamento Central  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> (Nome do Pool do CMS = Nome do Servidor)  <br/> |
+|Máquina de repositório de gerenciamento central (CMS)  <br/> |FQDN exclusivo utilizado para o Repositório de Gerenciamento Central (CMS). O nome do Domínio do AD será utilizado para gerar o FQDN.   <br/> Nome do arquivo. ini: "ServerName" em "parâmetros para principal serviço de gerenciamento Central  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> (Nome do Pool do CMS = Nome do Servidor)  <br/> |
 |Endereço IP da máquina CMS  <br/> |Endereço IP para o servidor de CMS (interno à rede de perímetro).  <br/> Nome do arquivo INI: "IP" em "parâmetros para principal serviço de gerenciamento Central  <br/> ||
 |Nome do Compartilhamento de Arquivo   <br/> |Nome do compartilhamento de arquivo a ser criado no servidor CMS para Skype para dados corporativos de replicação (por exemplo, CmsFileStore).  <br/> Na maioria dos casos, o valor padrão sugerido pode ser usado.  <br/> Nome do arquivo. ini: "CmsFileStore" em "parâmetros para principal serviço de gerenciamento Central  <br/> ||
-|Nome do Pool de componente de mediação  <br/> |Nome do Pool do componente de Mediação. Insira apenas o nome Netbios. O nome de domínio AD será usado para gerar o FQDN.  <br/> Nome do arquivo. ini: "Nome_conjunto" em "Parâmetros para um pool de servidores de mediação"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> |
+|Nome do Pool de componente de mediação  <br/> |Nome do Pool do componente de Mediação. Insira apenas o nome Netbios. O nome do Domínio do AD será usado para gerar o FQDN.   <br/> Nome do arquivo. ini: "Nome_conjunto" em "Parâmetros para um pool de servidores de mediação"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> |
 |Nome do componente de mediação  <br/> |Nome de Componente do componente de Mediação 1. Insira apenas o nome Netbios. O nome de domínio AD será usado para gerar o FQDN.   <br/> Nome do arquivo. ini: "ServerName" em "Parâmetros para um pool de servidores de mediação"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> |
 |Endereço de IP de máquina de componente de mediação  <br/> |IP Corpnet interno para o componente de mediação (interno na rede de perímetro).  <br/> Nome do arquivo. ini: "IP" em "Parâmetros para um pool de servidores de mediação"  <br/> ||
-|Nome interno do pool de Borda  <br/> |Nome do Pool do componente de Borda. Insira apenas o nome Netbios. O nome de domínio AD será usado para gerar o FQDN.  <br/> Nome do arquivo. ini: "InternalPoolName" em "Parâmetros para um pool de servidores de borda"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> |
+|Nome interno do pool de Borda  <br/> |Nome do Pool do componente de Borda. Insira apenas o nome Netbios. O nome do Domínio do AD será usado para gerar o FQDN.
+  <br/> Nome do arquivo. ini: "InternalPoolName" em "Parâmetros para um pool de servidores de borda"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> |
 |Nome interno do Servidor de Borda  <br/> |Nome de Componente do componente de Borda. Insira apenas o nome Netbios. O nome de domínio AD será usado para gerar o FQDN.   <br/> Nome do arquivo. ini: "InternalServerName" em "Parâmetros para um pool de servidores de borda"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> |
 |IP Interno de Servidor de Borda   <br/> |Componente de IP de borda de rede de perímetro interno para se comunicar com outros componentes do conector de nuvem.  <br/> Nome do arquivo. ini: "InternalServerIPs" em "Parâmetros para um pool de servidores de borda"  <br/> ||
 |Nome externo do pool de acesso  <br/> |Nome da Borda de Acesso; por exemplo, AP. Esse nome deve corresponder ao nome fornecido para o certificado SSL. Insira apenas o nome Netbios. O nome do Domínio SIP será usado para gerar o FQDN. Um nome de pool externo será usado para todos os componentes de borda no pool. Um pool de borda de acesso é necessário por site PSTN.  <br/> Nome do arquivo. ini: "ExternalSIPPoolName" em "Parâmetros para um pool de servidores de borda"  <br/> |Deve conter 15 caracteres ou menos. Insira apenas o nome Netbios.  <br/> "sip" é reservado e, portanto, não pode ser usado como o nome.  <br/> O nome FQDN gerado deve corresponder ao nome fornecido para o certificado SSL.   <br/> |
@@ -525,7 +527,7 @@ Ao configurar informações de gateway, lembre-se do seguinte:
 |CABackupFile  <br/> Versão 2.0 e posteriores  <br/> |Usado para salvar o serviço da autoridade de certificação do servidor do Active Directory em um arquivo durante a implantação de vários dispositivos em um site do conector de nuvem. Verifique se utilizar a mesma senha para todos os aparelhos dentro de um site do conector de nuvem para importar o arquivo de backup de autoridade de certificação para o novo adicionado appliance com êxito.  <br/> ||
 |CCEService  <br/> Versão 2.0 e posteriores  <br/> |Usado para o serviço de Gerenciamento do Cloud Connector; precisa de acesso ao diretório de sites do Cloud Connector. Certifique-se de usar a mesma senha para todos os dispositivos dentro de um site do Cloud Connector.   <br/> ||
 |Administração de locatários do Office 365  <br/> | O Cloud Connector utiliza a conta para atualização e gerenciamento de configurações de locatário do Cloud Connector: <br/>  Versão 2.0 e posteriores: credenciais para um dedicado do Office 365 considerar com Skype direitos de administrador de negócios. <br/>  Versões anteriores à 2.0: credenciais para uma conta dedicada do Office 365 com os direitos de administrador global de locatários. <br/> ||
-|Habilitar o suporte REFER  <br/> |Isso definirá se o suporte a SIP REFER está habilitado ou não na Configuração do Tronco de seu IP/PBX. O valor padrão é True. Se seu Gateway IP/PBX é compatível com o suporte REFER, deixe True. Caso contrário, o valor precisa ser alterado para False. Se você não tiver certeza se seu gateway suporta REFER, consulte [qualificado IP-PBXs e Gateways](https://technet.microsoft.com/en-us/office/dn788945).  <br/> ||
+|Habilitar o suporte REFER  <br/> |Isso definirá se o suporte a SIP REFER está habilitado ou não na Configuração do Tronco de seu IP/PBX. O valor padrão é True. Se seu Gateway IP/PBX é compatível com o suporte REFER, deixe True. Caso contrário, o valor precisa ser alterado para False. Se você não tiver certeza se seu gateway suporta REFER, consulte [qualificado IP-PBXs e Gateways](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
 |EnableFastFailoverTimer  <br/> Versão 2.0 e posteriores  <br/> |Com o valor padrão "Verdadeiro", se as chamadas de saída não for atendidas pelo gateway dentro de 10 segundos eles serão roteados para o próximo gateway disponível; Se não houver nenhuma troncos adicionais, em seguida, a chamada será descartada automaticamente.  <br/> No entanto, em uma organização com redes e respostas de gateway lentas, ou quando o processo de estabelecimento de chamadas demora mais de 10 segundos, isso pode resultar em chamadas canceladas sem necessidade.   <br/> Ao fazer chamadas para alguns países, por exemplo o Emirados Árabes Unidos ou Afeganistão, chamada estabelecer processo pode levar mais de 10 segundos. Você precisará alterar o valor como False se você encontrar problemas semelhantes. Não se esqueça de alterar a configuração correspondente no Gateway ou SBC conectado.  <br/> O valor pode ser True ou False. O padrão é True.  <br/> ||
 |ForwardCallHistory  <br/> Versão 2.0 e posteriores  <br/> | Utiliza-se esse parâmetro para a ativação dos cabeçalhos SIP que são usados para relatar o chamador inicial em cenários de Toque simultâneo, Encaminhamento de chamadas e Transferência de chamadas. Definir o parâmetro como True ativará dois cabeçalhos SIP:<br/>  Informações do Histórico <br/>  Mencionado por <br/>  O cabeçalho de histórico-Info é usado para solicitações SIP de direcionamento novamente e "faz recomendações um mecanismo padrão para capturar as informações de histórico de solicitação para habilitar uma ampla variedade de serviços para redes e usuários finais" ([RFC 4244 - seção 1.1](http://www.ietf.org/rfc/rfc4244.txt)). Para as interfaces de tronco do Cloud Connector, isso é usado em cenários de Toque simultâneo e Encaminhamento de chamadas.  <br/>  O valor pode ser True ou False. O padrão é False.<br/> ||
 |Encaminhamento PAI  <br/> Versão 2.0 e posteriores  <br/> |PAI é uma extensão privada SIP que permite que os servidores SIP reivindicar a identidade de usuários autenticados. Para o provedor de tronco SIP, PAI pode ser usado para fins de bill que histórico-Info e cabeçalhos de mencionados não estão presentes. Quando Forward P-Asserted-Identity está habilitado na configuração, o servidor de mediação encaminhará cabeçalhos PAI com SIP &amp; Tel URI do conector de nuvem para o tronco SIP. O servidor de mediação encaminhará cabeçalhos PAI com tel URI &amp; números e. 164 só recebidos no tronco SIP ao conector de nuvem. O servidor de mediação encaminhará também quaisquer cabeçalhos de privacidade recebidos em ambas as direções. Se o SIP solicitação enviada pelo servidor de mediação inclui um cabeçalho de privacidade do formulário - "privacidade: id" em conjunto com o cabeçalho do PAI, em seguida, a identidade-declarada deve ser mantida privada fora do domínio de confiança de rede.  <br/> O valor pode ser True ou False. O padrão é False.  <br/> ||
@@ -596,7 +598,7 @@ Se você estiver usando o TLS entre o gateway e o Servidor de Mediação, será 
 ## <a name="dial-plan-considerations"></a>Considerações sobre plano de discagem
 <a name="BKMK_DailPlan"> </a>
 
-O Cloud Connector requer a utilização de um plano de discagem online. Para obter mais informações sobre como configurar um plano de discagem online, consulte [quais são os planos de discagem de PSTN chamar?](https://support.office.com/en-US/article/What-are-PSTN-Calling-dial-plans-2f0cfb59-1ca1-4e31-84ce-09d0b1a7ce1b)
+O Cloud Connector requer a utilização de um plano de discagem online. Para obter mais informações sobre como configurar um plano de discagem online, consulte [quais são os planos de discagem?](../../../SfbOnline/what-are-calling-plans-in-office-365/what-are-dial-plans.md) 
   
 ## <a name="high-availability-considerations"></a>Considerações de Alta disponibilidade
 <a name="BKMK_HA"> </a>
@@ -708,12 +710,12 @@ O Cloud Connector 2.1 e versões posteriores dão suporte ao monitoramento do Cl
 
 Para obter mais informações, consulte:
   
-- [Planejar seu sistema telefônico na solução do Office 365 (nuvem PBX)](plan-your-phone-system-cloud-pbx-solution.md)
+- [Planejar sua solução de Sistema de Telefonia do Office 365 (Cloud PBX)](plan-your-phone-system-cloud-pbx-solution.md)
     
-- [Configurar e gerenciar Skype para o conector de nuvem Business Edition](configure-skype-for-business-cloud-connector-edition.md)
+- [Configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
     
-- [Planejar o bypass de mídia na nuvem conector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+- [Planejar o bypass de mídia no Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
     
-- [Implantar o bypass de mídia na nuvem conector Edition](deploy-media-bypass-in-cloud-connector.md)
+- [Implantar o bypass de mídia no Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md)
     
 

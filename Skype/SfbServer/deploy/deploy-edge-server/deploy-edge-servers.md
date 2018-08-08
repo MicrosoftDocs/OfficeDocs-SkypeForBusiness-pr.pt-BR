@@ -1,9 +1,8 @@
 ---
-title: Implantar Servidores de Borda no Skype for Business Server 2015
+title: Implante servidores de borda em Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: 'Resumo: Saiba como implantar servidores de borda em sua Skype para ambiente de negócios Server 2015.'
-ms.openlocfilehash: c7dfdfeef9eea4ffae0e113665b487da4856b83c
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como implantar servidores de borda em sua Skype para ambiente de servidor de negócios.'
+ms.openlocfilehash: fc4791918ef078bc43e73f8e404aad758531eb21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003121"
 ---
-# <a name="deploy-edge-servers-in-skype-for-business-server-2015"></a>Implantar Servidores de Borda no Skype for Business Server 2015
+# <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implante servidores de borda em Skype para Business Server
  
-**Resumo:** Aprenda a implantar servidores de borda em sua Skype para ambiente de negócios Server 2015.
+**Resumo:** Aprenda a implantar servidores de borda em sua Skype para ambiente de servidor de negócios.
   
-As seções a seguir contêm etapas que devem ser seguidas após o Skype para obter a documentação Business Server 2015 [Planejar para implantações de servidor de borda em Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) foi analisada. As etapas da implantação são:
+As seções a seguir contêm etapas que devem ser seguidas após o Skype para obter a documentação Business Server [Planejar para implantações de servidor de borda em Skype para Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) foi analisada. As etapas da implantação são:
   
 - Interfaces de Rede
     
@@ -48,11 +48,11 @@ Conforme observado em Planning, você estará seja configurando sua interface de
     
    a. Três endereços IP estáticos na sub-rede da rede externa de perímetro e, em seguida, aponte o gateway padrão à interface interna do firewall externo. Defina as configurações de DNS do adaptador para apontar para um par de servidores DNS de perímetro.
     
-   b. Um endereço IP estático na sub-rede da rede externa de perímetro e, em seguida, aponte o gateway padrão à interface interna do firewall externo. Defina as configurações de DNS do adaptador para apontar para um par de servidores DNS de perímetro. Essa configuração só é aceitável se você tiver configurado anteriormente sua topologia para valores não-padrão nas atribuições de portas, que é abordada no artigo [criar sua topologia de borda para Skype para Business Server 2015](create-your-edge-topology.md) .
+   b. Um endereço IP estático na sub-rede da rede externa de perímetro e, em seguida, aponte o gateway padrão à interface interna do firewall externo. Defina as configurações de DNS do adaptador para apontar para um par de servidores DNS de perímetro. Essa configuração só é aceitável se você tiver configurado anteriormente sua topologia para valores não-padrão nas atribuições de portas, que é abordada no artigo [criar sua topologia de borda para Skype para Business Server](create-your-edge-topology.md) .
     
 3. Na interface interna, configure um IP estático na sub-rede da rede de perímetro interno e não definir um gateway padrão. Defina as configurações do DNS do adaptador a fim de apontar para pelo menos um servidor DNS, preferencialmente um par de servidores DNS de perímetro.
     
-4. Crie rotas estáticas persistentes na interface interna para todas as redes internas onde residem os clientes, Skype para Business Server 2015 e servidores do Exchange Unified Messaging (UM).
+4. Crie rotas estáticas persistentes na interface interna para todas as redes internas onde residem os clientes, Skype para Business Server e os servidores Exchange Unified Messaging (UM).
     
 ### <a name="interface-configuration-without-dns-servers-in-the-perimeter-network"></a>Configuração da interface sem os servidores DNS na rede de perímetro
 
@@ -65,17 +65,17 @@ Conforme observado em Planning, você estará seja configurando sua interface de
     
    a. Três endereços IP estáticos na sub-rede da rede externa de perímetro. Você também precisará configurar o gateway padrão na interface externa, por exemplo, definindo o roteador voltado à internet ou o firewall externo como o gateway padrão. Defina as configurações de DNS do adaptador a fim de apontar para um servidor de DNS externo, preferencialmente um par de servidores DNS externos.
     
-   b. Um endereço IP estático na sub-rede da rede externa de perímetro. Você também precisará configurar o gateway padrão na interface externa, por exemplo, definindo o roteador voltado à internet ou o firewall externo como o gateway padrão. Defina as configurações de DNS do adaptador a fim de apontar para um servidor DNS externo, ou preferencialmente para um par de servidores DNS externos. Essa configuração só é aceitável se você tiver configurado anteriormente sua topologia para valores não-padrão nas atribuições de portas, que é abordada no artigo [criar sua topologia de borda para Skype para Business Server 2015](create-your-edge-topology.md) .
+   b. Um endereço IP estático na sub-rede da rede externa de perímetro. Você também precisará configurar o gateway padrão na interface externa, por exemplo, definindo o roteador voltado à internet ou o firewall externo como o gateway padrão. Defina as configurações de DNS do adaptador a fim de apontar para um servidor DNS externo, ou preferencialmente para um par de servidores DNS externos. Essa configuração só é aceitável se você tiver configurado anteriormente sua topologia para valores não-padrão nas atribuições de portas, que é abordada no artigo [criar sua topologia de borda para Skype para Business Server](create-your-edge-topology.md) .
     
 3. Na interface interna, configure um IP estático na sub-rede da rede de perímetro interno e não definir um gateway padrão. Deixe as configurações DNS do adaptador vazias.
     
-4. Crie rotas estáticas persistentes na interface interna para todas as redes internas onde residem os clientes, Skype para Business Server 2015 e servidores do Exchange Unified Messaging (UM).
+4. Crie rotas estáticas persistentes na interface interna para todas as redes internas onde residem os clientes, Skype para Business Server e os servidores Exchange Unified Messaging (UM).
     
 5. Edite o arquivo HOST em cada servidor de borda para conter um registro para o servidor de próximo salto ou IP virtual (VIP). Esse registro será o diretor, servidor Standard Edition ou pool de Front-End que você configurou como o endereço de salto seguinte do servidor de borda no construtor de topologia. Se você estiver usando o balanceamento de carga DNS, inclua uma linha de cada membro do pool de próximo salto.
     
 ## <a name="installation"></a>Instalação
 
-Para concluir estas etapas com êxito, você precisará ter seguido as etapas no artigo [criar sua topologia de borda para Skype para Business Server 2015](create-your-edge-topology.md) .
+Para concluir estas etapas com êxito, você precisará ter seguido as etapas no artigo [criar sua topologia de borda para Skype para Business Server](create-your-edge-topology.md) .
   
 1. Faça logon no servidor que você tiver sido configurando para a função de servidor de borda com uma conta que está no grupo de administradores locais.
     
@@ -95,7 +95,7 @@ Para concluir estas etapas com êxito, você precisará ter seguido as etapas no
     
 9. Depois que o processo de **Execução de Comandos** for concluído, clique em **Concluir**.
     
-10. No Assistente de implantação, clique em **etapa 2. Instalar ou remover Skype para componentes de servidor de negócios**. Em seguida, o assistente instalará o Skype Business Server 2015 para componentes de borda especificado no arquivo de configuração XML que foi armazenado no computador local.
+10. No Assistente de implantação, clique em **etapa 2. Instalar ou remover Skype para componentes de servidor de negócios**. Em seguida, o assistente instalará o Skype para componentes de servidor de borda de negócios especificados no arquivo de configuração XML que foi armazenado no computador local.
     
 11. Depois que a instalação 's completa, você pode mover para as etapas na seção **certificados** abaixo.
     
@@ -114,7 +114,7 @@ Requisitos de certificado para o servidor de borda podem ser encontrados na docu
  
 #### <a name="nbspnbspnbsp-a-download-using-certsrv-web-site"></a>&nbsp;&nbsp;&nbsp;um. Fazer o download usando o site da web certsrv
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu. Faça logon em um Skype para Business Server 2015 server em sua rede interna como membro do grupo Administradores local.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu. Acesse um Skype para Business Server em sua rede interna como membro do grupo Administradores local.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Abra o backup **Iniciar**e **execute** (ou **pesquisa** e **execute** ) e, em seguida, digite o seguinte:
     
@@ -188,7 +188,7 @@ Requisitos de certificado para o servidor de borda podem ser encontrados na docu
     
 &nbsp;&nbsp;&nbsp;b. Na página **Solicitação de Certificado**, certifique-se que **Certificado da Borda Interna** está selecionado e clique em **Solicitação**.
     
-&nbsp;&nbsp;&nbsp;c. Na página **Solicitações Atrasadas ou Imediatas**, escolha **Enviar a solicitação imediatamente para uma autoridade de certificação online** se você tiver acesso a um ambiente da Borda, ou caso contrário, escolha **Preparar a solicitação agora, mas enviá-la  Posteriormente**.
+&nbsp;&nbsp;&nbsp;c. Na página **solicitações atrasadas ou imediatas** , escolha **Enviar a solicitação imediatamente para uma autoridade de certificação online** se você tem acesso a uma no seu ambiente de borda ou **preparar a solicitação agora, mas enviá-la mais tarde** caso contrário.
     
 &nbsp;&nbsp;&nbsp;d. Na página **Arquivo de Solicitação de Certificado**, insira a parte completa e o nome do arquivo para onde o arquivo será salvo (como c:\SkypeInternalEdgeCert cer). Clique em **Avançar**.
     
@@ -378,15 +378,15 @@ Requisitos de certificado para o servidor de borda podem ser encontrados na docu
     
 &nbsp;&nbsp;&nbsp;g. Clique duas vezes em **Certificados (Computador Local)** para expandir os repositórios de certificados. Clique duas vezes em **Pessoal**e em **Certificados**.
     
-    > [!NOTE]
-    > You may be here, and you don't see any certificates in the Certificates Personal store for the local computer. You don't need to hunt around, if the key's not there, the imported certificate didn't have a private key associated with it. Try the request and import steps above one more time, and if you're sure you got all that right, talk to your CA administrator or provider. 
+   > [!NOTE]
+   > Você pode estar aqui e você não vir a todos os certificados no certificados pessoais armazenar para o computador local. Você não precisa de busca ao redor, se a chave não existe, do importado certificado não tinha uma chave privada associada a ela. Tente a solicitação e importar as etapas acima mais uma vez e, se você tiver certeza de que você obteve muito direita, fale com o administrador da autoridade de certificação ou provedor. 
   
 &nbsp;&nbsp;&nbsp;h. No **repositório de certificados pessoais** do computador local, clique com botão direito no certificado que você está exportando. Selecione **Todas as Tarefas** no menu resultante e, em seguida, clique em **Exportar**.
     
 &nbsp;&nbsp;&nbsp;Eu. No **Assistente de Exportação de Certificado**, clique em  **Avançar**. Selecione **Sim, exportar a chave privada**. Clique em **Avançar**.
     
-    > [!NOTE]
-    > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. You need to request the certificate from the provider again, with the private key set to export, before doing this successfully.
+   > [!NOTE]
+   > Se **Sim, exportar a chave privada** não estiver disponível, a chave privada desse certificado não foi marcada para exportação antes de você obteve-lo. Você precisa solicitar o certificado do provedor novamente, com a chave privada definida como exportação, antes de realizar a operação com sucesso.
   
 &nbsp;&nbsp;&nbsp;j. Na caixa de diálogo Exportar Formatos de Arquivo, selecione Troca de Informações Pessoais - PKCS#12 (.PFX)  e selecione o seguinte:
     
@@ -394,8 +394,8 @@ Requisitos de certificado para o servidor de borda podem ser encontrados na docu
     
  &nbsp;&nbsp;&nbsp;II. Exportar todas as propriedades avançadas.
     
-    > [!NOTE]
-    > **NEVER** select **Delete the private key if the export is successful**. It'll mean you have to reimport the certificate and private key back to this Edge Server.
+   > [!NOTE]
+   > **NUNCA** selecione **Excluir a chave privada se a exportação for realizada com sucesso**. Ele vai média que você precisará reimportar o certificado e a chave privada volta ao servidor de borda.
   
 &nbsp;&nbsp;&nbsp;k. Se quiser atribuir uma senha para proteger a chave privada, você pode digitar uma senha para a chave privada. Insira a senha novamente para confirmar e clique em **Avançar**.
     
@@ -425,7 +425,7 @@ Requisitos de certificado para o servidor de borda podem ser encontrados na docu
 &nbsp;&nbsp;&nbsp;g. Depois de concluir esse procedimento, é realmente uma boa ideia para abrir o snap-in MMC de certificados em cada servidor, expanda **certificados (computador Local)**, expanda **pessoal**, clique em **certificados**e confirme se a borda interna certificado está listado no painel de detalhes.
     
    > [!NOTE]
-    > Você também deverá configurar os certificados para seu servidor de proxy reverso. Que é abordado em servidores de Proxy reverso a instalação for Skype para tópico Business Server 2015. 
+   > Você também deverá configurar os certificados para seu servidor de proxy reverso. 
   
 ## <a name="starting-the-edge-servers"></a>Iniciando os servidores de borda
 
@@ -439,6 +439,6 @@ Depois que a instalação for concluída, você precisará iniciar os serviços 
     
 4. (Opcional) Ainda na **Etapa 4: Iniciar Serviços**, clique em **Status de Serviços**.
     
-5.  No **MMC de serviços** em cada servidor, verifique se que todos o Skype para serviços de Business Server 2015 estejam em execução.
+5.  No **MMC de serviços** em cada servidor, verifique se que todos o Skype para serviços de Business Server estejam em execução.
     
 

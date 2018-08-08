@@ -1,9 +1,8 @@
 ---
-title: Configurar políticas de voz, registros de uso de PSTN e rotas de voz no Skype for Business 2015
+title: Configurar políticas de voz, registros de uso PSTN e roteamentos de voz no Skype para negócios
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
-description: 'Resumo: Saiba como configurar políticas de voz, registros de uso PSTN e roteamentos de voz no Skype para Business Server 2015.'
-ms.openlocfilehash: b0d5d9edaf94cb0c8041ef5ef679ad81b9c54edd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como configurar políticas de voz, registros de uso PSTN e roteamentos de voz no Skype para Business Server.'
+ms.openlocfilehash: 0292ae0f7f8579c4856059587ed75b172617fe72
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006503"
 ---
-# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business-2015"></a>Configurar políticas de voz, registros de uso de PSTN e rotas de voz no Skype for Business 2015
+# <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Configurar políticas de voz, registros de uso PSTN e roteamentos de voz no Skype para negócios
  
-**Resumo:** Saiba como configurar políticas de voz, registros de uso PSTN e roteamentos de voz no Skype para Business Server 2015.
+**Resumo:** Saiba como configurar políticas de voz, registros de uso PSTN e roteamentos de voz no Skype para Business Server.
   
 Políticas de voz, registros de uso PSTN e rotas de voz estão totalmente relacionados. Configure as políticas de voz selecionando um conjunto de recursos de chamada e, em seguida, atribuindo à política um conjunto de registros de uso da PSTN, que especificam quais direitos serão autorizados para os usuários ou grupos aos quais foi atribuída a política de voz. As rotas de voz também recebem registros de uso da PSTN, que servem para corresponder as rotas aos usuários que têm autorização para usá-las. Isto é, os usuários podem somente fazer chamadas que utilizem as rotas para as quais exista um registro de uso da PSTN correspondente.
   
@@ -35,16 +35,16 @@ Para as etapas detalhas para realizar cada uma destas tarefas, consulte os proce
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios 2015](voice-policy-and-pstn-usage-records.md)
+- [Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios](voice-policy-and-pstn-usage-records.md)
     
-- [Configurar escape da caixa postal no Skype para negócios 2015](configure-voice-mail-escape.md)
+- [Configurar escape da caixa postal no Skype para negócios](configure-voice-mail-escape.md)
     
-- [Exibir registros de uso PSTN em Skype para negócios 2015](view-pstn-usage-records.md)
+- [Exibir registros de uso PSTN em Skype para negócios](view-pstn-usage-records.md)
     
-- [Criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md)
+- [Criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md)
     
-- [Exportar ou importar um arquivo de configuração de rota de voz no Skype para negócios 2015](voice-route-configuration-import-export.md)
+- [Exportar ou importar um arquivo de configuração de rota de voz no Skype para negócios](voice-route-configuration-import-export.md)
     
-- [Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md)
+- [Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md)
     
 

@@ -13,31 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: 'Resumo: Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server 2015. Este artigo não se destina os usuários desses aplicativos.'
-ms.openlocfilehash: 88006a758909f56f21724706bf9670077d603caa
-ms.sourcegitcommit: 1b4e93727f65b120068a74064b4144f0117f230c
+description: 'Resumo: Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server. Este artigo não se destina os usuários desses aplicativos.'
+ms.openlocfilehash: f0fbf6cfec073ba3fdd25bdd4cb87c458144d3b7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19691199"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009677"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar para clientes de reuniões (Web App e reuniões App)
  
-**Resumo:** Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server 2015. Este artigo não se destina os usuários desses aplicativos.
+**Resumo:** Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server. Este artigo não se destina os usuários desses aplicativos.
   
 Depois que você implementou Skype para Business Server, os usuários da organização provavelmente terá o Skype para instalado como parte do processo de implantação de cliente de negócios. 
   
 No futuro, esses usuários podem criar reuniões e convidar usuários de fora da organização e os convidados da reunião não podem ter qualquer versão do Skype para o cliente de negócios. Quando os usuários clicam na URL de convite da reunião, a falta de um cliente será detectada e o convidado sem um Skype para o cliente de negócios será solicitado a baixar e instalar um cliente leve, somente para reuniões, portanto, eles poderão ingressar na reunião.
   
 > [!NOTE]
-> O Skype para negócios Web App e Skype reuniões App só estarão disponíveis quando você tentar fazer logon uma reunião sem ter uma Skype para negócios. Ajuda do usuário para esses aplicativos está em [https://aka.ms/smahelp](https://aka.ms/smahelp). 
+> O Skype para negócios Web App e Skype reuniões App só estarão disponíveis quando você tentar fazer logon uma reunião sem ter que Skype para negócios. Ajuda do usuário para esses aplicativos está em [https://aka.ms/smahelp](https://aka.ms/smahelp). 
   
 > [!NOTE]
 > Pré-você não pode instalar qualquer um do Skype para negócios Web App ou aplicativo de reuniões do Skype, mas os usuários de [telefone inteligente](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-1) e [tablet](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-2) podem conseguir instalar baratos clientes móveis, que eles podem usar para participar de reuniões.
   
 Por padrão, o servidor que hospeda a reunião direcionará o usuário baixe e instale o Skype para negócios Web App ingressar na reunião. O Skype para negócios Web App está armazenado no servidor Front-End e obtém enviada para participantes da reunião. 
   
-Iniciando com Skype Business Server CU5, Skype reuniões App está disponível como uma substituição para Skype para negócios Web App, mas fornecer o aplicativo de reuniões Skype requer configuração adicional descrita em [Habilitar Skype reuniões App substituir Skype para Negócios Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable). Se Skype reuniões App for habilitada, os usuários serão baixar a versão mais recente do aplicativo do Office 365 conteúdo entrega rede (CDN), em vez do seu Skype para Business server.
+Para Skype para Business Server 2015, Skype reuniões App está disponível como um substituto do Skype para início de negócios Web App com CU5, mas fornecer o aplicativo de reuniões Skype requer configuração adicional descrita em [Habilitar Skype reuniões App substituir Skype para negócios Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Se Skype reuniões App for habilitada, os usuários serão baixar a versão mais recente do aplicativo do Office 365 conteúdo entrega rede (CDN), em vez do seu Skype para Business server. Para Skype para Business Server 2019 Skype reuniões App é a única opção.
   
 Skype reuniões App oferece uma experiência de navegador simplificado para baixar e instalar o aplicativo e ingressar em reuniões, incluindo a associação de um clique para usuários do Internet Explorer. Skype reuniões App também tem vários aprimoramentos sobre theSkype para negócios Web App para obter confiabilidade e a experiência da reunião. 
   
@@ -87,7 +87,7 @@ Os requisitos de hardware são determinados pelo sistema operacional e pelo nave
 ## <a name="network-requirements"></a>Requisitos de rede
 <a name="Network"> </a>
 
-Se um usuário do Skype para negócios Web App ou aplicativo de reuniões do Skype experiências problemas de conexão de reunião, chances são a que infraestrutura de rede da sua organização não estiver configurada para suportar o Office 365, conforme descrito em [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). Esse é o caso se a reunião foi criada por um usuário do Skype para Business Online ou Skype para Business Server 2015. 
+Se um usuário do Skype para negócios Web App ou aplicativo de reuniões do Skype experiências problemas de conexão de reunião, chances são a que infraestrutura de rede da sua organização não estiver configurada para suportar o Office 365, conforme descrito em [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US). Esse é o caso se a reunião foi criada por um usuário do Skype para Business Online ou Skype para Business Server. 
   
 Se o usuário estiver em uma rede não configurada conforme descrito, muitos recursos de aplicativo podem ou não podem funcionar e podem não ser capazes de se conectar à reunião mudaram.
   
@@ -96,10 +96,10 @@ Se o usuário estiver em uma rede não configurada conforme descrito, muitos rec
 
 Esta tabela compara os recursos de reuniões disponíveis para os usuários do Skype para o cliente de negócios, Skype para negócios Web App, Skype reuniões App e Lync Web App. Lync Web App está listado para fins de comparação de recurso: um usuário só seria baixando e usando o Lync Web App se a reunião foi hospedada em um servidor do Lync 2013.
 
-| Recurso/funcionalidade | Skype para 2016 de negócios do cliente | Skype para negócios no cliente do Mac | Aplicativo Reuniões do Skype | Skype for Business Web App | Lync Web App |
+| Recurso/funcionalidade | Skype para negócios 2016 ou cliente 2019 | Skype para negócios no cliente do Mac | Aplicativo Reuniões do Skype | Skype for Business Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Adicionar áudio do computador  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
-|Adicionar vídeo  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |& #x 2714;(requires plug-in)  <br/> |
+|Adicionar áudio do computador  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (exige plug-in)  <br/> |& #x 2714; (exige plug-in)  <br/> |& #x 2714; (exige plug-in)  <br/> |
+|Adicionar vídeo  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (exige plug-in)  <br/> |& #x 2714; (exige plug-in)  <br/> |& #x 2714; (exige plug-in)  <br/> |
 |Alternar o áudio a um telefone para participantes autenticados  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Alternar o áudio a um telefone para os participantes convidados  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
 |Exibir vídeo com vários participantes (modo de exibição de galeria)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -166,6 +166,6 @@ A partir do Skype para Business Server 2015 CU5, AES não é suportado para ASP.
 ## <a name="see-also"></a>Ver também
 <a name="BKMK_Conferencing"> </a>
 
-[Implantar clientes para download da Web no Skype para Business Server 2015](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Implantar clientes para download da Web no Skype para Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
 [Plataformas com suporte para o aplicativo de reuniões do Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

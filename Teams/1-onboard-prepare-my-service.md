@@ -2,20 +2,22 @@
 title: Preparar para implantar o serviço de voz de nuvem Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 03/13/2018
+manager: serdars
+ms.date: 06/07/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Use as listas de verificação de inclusão preparar o Office 365 para equipes e configurar recursos principais de equipes, rede e cargas de trabalho de voz na nuvem.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e4b6e690450b8ec81209a0244769444ee2d30d
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 6cde789ed0a2c3e6bba56ac1213898a5240d6e81
+ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/12/2018
+ms.locfileid: "20302204"
 ---
 # <a name="prepare-my-service"></a>Preparar o meu serviço
 
@@ -23,20 +25,22 @@ Este artigo fornece uma visão geral dos requisitos de preparação dos serviço
 
 ## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>Listas de verificação de inclusão for Microsoft Teams cargas de trabalho de voz
 
-As listas de verificação a seguintes percorrer as etapas para implementar o sistema telefônico e conferência de áudio com recursos de planos de chamada no Microsoft Teams.
+As listas de verificação a seguintes orientam você pelas etapas de implementação da conferência de áudio, o sistema telefônico com chamar planos ("chamar planos") e recursos do sistema direto roteamento de telefone ("direto roteamento") no Microsoft Teams.
 
-*  [Preparar o Office 365 para equipes](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365)
+*  [Preparar o Office 365 para equipes](onboarding-checklist-enable-office-365.md)
 
-*  [Configurar os principais recursos de equipes](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities)
+*  [Configurar os principais recursos de equipes](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-*  [Configurar a rede](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking)
+*  [Configurar a rede](onboarding-checklist-configure-networking.md)
 
-*  [Configurar as cargas de trabalho de voz de nuvem em equipes](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams)
+*  [Configurar as cargas de trabalho de voz de nuvem em equipes](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+
+*  [Configurar o roteamento direta em equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
 
 As tarefas e atividades nestas listas de verificação são core "tarefas pendentes" itens que se aplicam a todas as implantações de recursos de voz com as equipes de nuvem. Você pode personalizar as listas de verificação para incluir as atividades e tarefas que são específicas para sua própria jornada de equipes.
 
 >[!NOTE]
->Esta orientação enfoca exclusivamente o sistema telefônico com planos de chamada e conferência de áudio. Se estiver familiarizado com as equipes, analise a [Visão geral das equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/teams-overview). Para obter orientações gerais para planejar a implantação de equipes, consulte o [Guia de planejamento de equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams).
+>Estas diretrizes se concentra somente nos planos de chamada, conferência de áudio e roteamento direto. Se estiver familiarizado com as equipes, analise a [Visão geral das equipes da Microsoft](teams-overview.md). Para obter orientações gerais para planejar a implantação de equipes, consulte o [Guia de planejamento de equipes da Microsoft](quick-start-enable-teams.md).
 
 Use as listas de verificação fornecidas para rastrear o status de cada atividade individual e a tarefa e ter a certeza de que você ainda não ignorados nenhuma etapa crítica. Cada atividade inclui uma descrição detalhada de ações necessárias e referências para obter informações adicionais que você pode usar para concluir essa atividade.
 
@@ -56,7 +60,7 @@ Quando você estiver inclusão de usuários em uma base por site, é altamente r
 
 ## <a name="continue-onboarding"></a>Continuar a inclusão
 
-Depois de concluir esta lista de verificação, você vai adicionou com êxito os recursos de voz à sua implantação de equipes.
+Após concluir estas listas de verificação, você vai adicionou com êxito os recursos de voz à sua implantação de equipes.
 
 Como a próxima etapa, use a [Guia estratégico de habilitação de Site para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para ajudá-lo a seus usuários em cada site integrado e ajudar a garantir que você planejar e executar atividades importantes de específicas do site.
 
@@ -76,7 +80,8 @@ Você pode aproveitar o plano de sucesso de negócios que você definiu durante 
 
 ## <a name="define-your-testing-approach"></a>Definir sua abordagem de teste
 
-Na sua forma mais simples, sua abordagem de teste baseia-se em sua revisar os recursos do sistema telefônico ou conferência de áudio com o serviço de chamar planos e desenvolver um plano de teste para verificar se seus requisitos de funcionalidade foram atendidos para usuários no escopo. A seguir está um plano de teste de exemplo para a fase de Onboard de uma implementação de serviços de audioconferência.
+Na sua forma mais simples, sua abordagem do teste se baseia em sua revisar os recursos de conferências de áudio, chamar planos, ou plano de serviço de roteamento direto e desenvolvendo um teste verificar se os seus requisitos de funcionalidade foram atendidos para usuários no escopo. A seguir está um plano de teste de exemplo para a fase de Onboard de uma implementação de serviços de audioconferência.
+
 
 | Recurso de conferência de áudio para testar | Resumo dos resultados | Observações adicionais |
 |------------|-----------------|------------------|
@@ -85,27 +90,41 @@ Na sua forma mais simples, sua abordagem de teste baseia-se em sua revisar os re
 | Ingressar em outras pessoas a uma reunião existente discando a eles através da PSTN | Aprovação/reprovação | TBD |
 
 
-| Sistema de telefone com o recurso de chamada planos para testar | Resumo dos resultados | Observações adicionais |
+
+| Roteamento direto ou em chamada planos de recurso para testar | Resumo dos resultados | Observações adicionais |
 |----------------------------------------------------|-----------------|------------------|
-| Fazer uma chamada PSTN para discando um número PSTN       | Aprovação/reprovação       | TBD |
+| Fazer uma chamada PSTN, discando um número PSTN       | Aprovação/reprovação       | TBD |
 | Receber uma chamada PSTN discando o número do seu PSTN a partir de uma linha externa (linha fixa a móvel) | Aprovação/reprovação | TBD|
-|Transferir uma chamada PSTN de um usuário de equipes para outro | Aprovação/reprovação | TBD |
+| Transferir uma chamada PSTN de um usuário de equipes para outro | Aprovação/reprovação | TBD |
 
 
 >[!TIP]
->Para auxiliar na criação de caso de teste como um ponto de partida, consulte a lista de diretrizes de usuário de serviços de audioconferência disponível em [equipes reuniões e chamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8?ui=en-US&rs=en-US&ad=US#bkmk_havingmeetings).
+>Para auxiliar na criação de caso de teste como um ponto de partida, consulte a lista de usuário orientação disponível em [equipes reuniões e chamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings).
 
 <!--ENDOFSECTION-->
 
 ## <a name="set-up-cloud-voice-workloads-for-teams"></a>Configurar as cargas de trabalho de voz de nuvem para equipes
 
-Agora que você definiu sua abordagem de teste, a próxima etapa é configurar o seu ambiente de serviço e os usuários no escopo para recursos de voz de nuvem de equipes. Para obter informações adicionais, consulte [Planejamento técnica de conferência de áudio](https://docs.microsoft.com/microsoftteams/audio-conferencing#technical-planning-for-audio-conferencing) e [Configurar a conferência de áudio para Skype para equipes da Microsoft e de negócios](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) além de [Planejamento técnico para o sistema telefônico com planos de chamada](https://docs.microsoft.com/microsoftteams/phone-system-with-calling-plans#technical-planning-for-phone-system-with-calling-plans) e [Set up Planos de chamada do Skype para equipes da Microsoft e de negócios](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+Agora que você definiu sua abordagem de teste, a próxima etapa é configurar o seu ambiente de serviço e os usuários no escopo para recursos de voz de nuvem de equipes.
 
-<!--ENDOFSECTION-->
+Para obter informações adicionais, consulte:
+
+- [Planejamento técnico da Audioconferência](audio-conferencing.md#technical-planning-for-audio-conferencing)
+
+- [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+
+- [Técnicas de planejamento para o sistema telefônico com a chamada de planos](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+
+- [Configure planos de chamar para Skype para negócios e Teams da Microsoft](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+
+- [Planejar o roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+
+- [Configurar o roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### <a name="execute-the-test-plan"></a>Executar o plano de teste
 
-Depois que os ambientes de serviço de conferência de áudio e usuário tiverem sido configurados, a última etapa de teste inclui a execução de plano de teste com foco na validação de funcionalidade e recursos. 
+[//]: # (Editar okey? "Usuário" parecia um pouco ambíguo para mim.)
+Depois que o ambiente do usuário e o serviço tiverem sido configurados, a última etapa de teste inclui a execução de plano de teste com foco na validação de funcionalidade e recursos. 
 
 **Serviços de audioconferência testes pré-requisitos e suposições para sites e usuários no escopo:**
 
@@ -125,11 +144,11 @@ Depois que os ambientes de serviço de conferência de áudio e usuário tiverem
 
 -   Requisitos de conformidade de conferência de áudio foram identificados e configurados.
 
-**Sistema telefônico com chamar planos de testes de pré-requisitos e suposições para sites e usuários no escopo:**
+**Planos de testes de pré-requisitos e suposições para sites e usuários no escopo de chamada:**
 
--   Definição de casos de uso comercial para o sistema telefônico com planos de chamar o serviço foi concluída.
+-   Negócios usar definição de maiusculas para a chamada planos de serviço foi concluído.
 
--   Necessário para o sistema telefônico com chamar planos de licenciamento está disponível e foi atribuído.
+-   Necessário para chamar planos de licenciamento está disponível e foi atribuído.
 
 -   A lista de sites organizacionais e de grupos de usuários foram identificados.
 
@@ -137,18 +156,36 @@ Depois que os ambientes de serviço de conferência de áudio e usuário tiverem
 
 -   [Créditos de comunicações](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (se necessário) tiverem sido configurados para sua organização.
 
--   Diretivas de usuário de Inquilino e configurações de plano de discagem que suportam o sistema telefônico com cenários de planos de chamada foram identificadas, configuradas e aplicadas.
+-   Diretivas de usuário de Inquilino e configurações de plano de discagem que fundamentam os cenários de planos de chamar foram identificadas, configuradas e aplicadas.
 
--   O sistema telefônico com planos de chamar os requisitos de conformidade foram identificados e configurados.
+-   Chamando planos de requisitos de conformidade foram identificados e configurados.
+
+**Testes de pré-requisitos e suposições para sites e usuários no escopo de roteamento direto:**
+
+-   Negócios usar definição de maiusculas para o roteamento direto serviço foi concluído.
+
+-   Licenciamento necessários para roteamento direto está disponível e foi atribuído.
+
+-   A lista de sites organizacionais e de grupos de usuários foram identificados.
+
+-   Um [certificado do controlador de borda de sessão (SBC)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) tenha sido implantado, configurado e juntamente com o sistema telefônico.
+
+-   Voz empresarial tiver sido habilitada e os números de telefone que tiverem sido atribuídos.
+
+-   Políticas de roteamento de voz foram identificadas, configuradas e atribuídas.
+
+-   Microsoft Teams tiver sido definida como o cliente de chamada preferencial para os usuários no escopo.
+ 
+-   Requisitos de conformidade de roteamento diretos foram identificados e configurados.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida quais recursos do recurso de conferência de áudio serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para conferência de áudio.</li><li>Identifique os requisitos de configuração do serviço de conferência de áudio.</li><li>Decida qual sistema telefônico com recursos chamar planos de recurso será implantado (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para o sistema telefônico com planos de chamada.</li><li>Identifique o requisito de configuração de serviço para o sistema telefônico com planos de chamada.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Desenvolver e documentar sua abordagem de plano de teste.</li><li>Prepare seu ambiente de serviço e os usuários no escopo de recursos de conferência de áudio.</li><li>Prepare seu ambiente de serviço e os usuários no escopo para o sistema telefônico com recursos de planos de chamada.</li><li>Execute o teste de validação para os recursos de conferência de áudio que você deseja habilitar.</li><li>Execute validação de teste para o sistema telefônico com planos de chamar os recursos que você deseja habilitar.</li><li>Para qualquer falhas de teste, confirme se sua configuração está correta, analise os artigos de comunidade, e — se for necessário — elevar um caso de suporte.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida quais recursos do recurso de conferência de áudio serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para conferência de áudio.</li><li>Identifique os requisitos de configuração do serviço de conferência de áudio.</li><br><li>Decida se roteamento direto ou chamar planos serão implantados e configurados.<li>Decida quais recursos do sistema telefônico serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para planos de chamar ou roteamento direto.</li><li>Identifique o requisito de configuração de serviço para planos de chamar ou roteamento direto.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Desenvolver e documentar sua abordagem de plano de teste.</li><li>Prepare seu ambiente de serviço e os usuários no escopo de recursos de conferência de áudio.</li><li>Prepare seu ambiente de serviço e os usuários no escopo para recursos de roteamento direto ou em planos de chamada.</li><li>Execute o teste de validação para os recursos de conferência de áudio que você deseja habilitar.</li><li>Execute o teste de validação para os recursos de roteamento direto ou em planos de chamada que você deseja habilitar.</li><li>Para qualquer falhas de teste, confirme se sua configuração está correta, analise os artigos de comunidade, e — se for necessário — elevar um caso de suporte.</li></ul></td></tr>
 </table>
 
 
-Para obter orientações detalhadas adicionais sobre como executar o teste para conferência de áudio em equipes, consulte o [detalhado testing guia para audioconferências] (https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-Audio-Conferencing).
+Para obter orientações detalhadas adicionais sobre como executar o teste para conferência de áudio em equipes, consulte o [detalhadas testando guia para conferência de áudio](onboarding-test-plan-for-enterprises-Audio-Conferencing.md).
 
-Para obter orientações detalhadas adicionais sobre como executar o teste para o sistema telefônico com chamar planos em equipes, consulte o [detalhadas testando guia para o sistema telefônico](https://docs.microsoft.com/MicrosoftTeams/onboarding-test-plan-for-enterprises-Phone-System).
+Para obter orientações detalhadas adicionais sobre como executar o teste chamar planos em equipes, consulte o [detalhadas testando guia para o sistema telefônico](onboarding-test-plan-for-enterprises-Phone-System.md).
 
 <!--ENDOFSECTION-->

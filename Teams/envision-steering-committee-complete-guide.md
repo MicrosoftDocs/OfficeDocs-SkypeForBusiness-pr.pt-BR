@@ -2,20 +2,22 @@
 title: Comitê de orientação para implantação de voz de nuvem Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Identifique um grupo de administração dos principais participantes e os líderes do projeto para identificar objetivos de implantação, acompanhar o progresso e remover bloqueadores.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30553d989a48fb008b6dc52c759150b2997ac01b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: b4f3651ca59819ba732f5fe1e705201d4ee44757
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20266125"
 ---
 # <a name="steering-committee"></a>Comitê de direcionamento
 
@@ -66,7 +68,7 @@ Comitê de direcionamento de cada precisa liderança forte e claramente funçõe
 | Executivos de decisão de negócios | Favor do projeto, certifique-se de que sua direção permanecerá em alinhamento com a visão da organização | | |
 | Arquiteto | Garantir que as decisões de tecnologia são viáveis e alinhados à resultados de negócios concordou em. | | |
 | Equipe de projeto principal | Forneça os detalhes sobre qualquer componente específico, técnico ou não técnico (por exemplo, o gerenciamento de adoção e alterar) | | |
-| Campeão de qualidade | Ser responsável juntando métricas de qualidade. | | |
+| Defensor da qualidade | Ser responsável juntando métricas de qualidade. | | |
 | Gerente de projeto/programa | Assumir a responsabilidade para a apresentação e a coleção de comentários para incorporar ao projeto. | | |
 | Equipe de contas de parceiros | Forneça feedback do ponto de vista do parceiro de uma perspectiva mais ampla, outras atividades de parceiro. | | |
 | Equipe de projeto de parceiro | Forneça feedback do ponto de vista do parceiro relacionadas a entrega do projeto | | |
@@ -108,7 +110,7 @@ Ativos a seguir devem ser concluídos e incluídos no deck de apresentação par
 
     -   Contém detalhes técnicos mais focalizados em questões de rotina e menos nos status geral do projeto.
 
--   Log de problemas e riscos registram [Link problemas de risco Log (conteúdo da Web)]
+-   Log de problemas e [riscos registrar](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
     -   Compartilhe o status de quaisquer problemas que comissão de está acompanhando.
 
@@ -122,7 +124,7 @@ Ativos a seguir devem ser concluídos e incluídos no deck de apresentação par
 
         -   Identifica as próximas etapas e que tipo de Ajuda pode ser necessário de membros da comissão.
 
--   Visão geral de qualidade: usar os relatórios do campeão de qualidade [LINK para o planejamento de qualidade (conteúdo da Web) e o gerenciamento de serviço]
+-   Visão geral de qualidade: usar os relatórios do [campeão de qualidade](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
 
     -   Prepare-se para explicar os resultados desses relatórios de qualidade aprofundados e inclui recomendações para corrigir qualquer problema observado.
 

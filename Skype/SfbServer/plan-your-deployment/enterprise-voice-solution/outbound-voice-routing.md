@@ -1,9 +1,8 @@
 ---
-title: Planejamento de roteamento de voz de saída no Skype for Business Server 2015
+title: Planejar o roteamento de voz de saída em Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Saiba mais sobre o roteamento de voz de saída em Skype para Business Server Enterprise Voice, incluindo configurações de roteamento de chamada, planos de discagem, regras de normalização, políticas de voz, registros de uso PSTN e roteamentos de voz.
-ms.openlocfilehash: 35ba2a8991b35a22b6abcacc42f1323d167c0d4d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1f399ff44eafdc1fc61fb5bab41b0d8949127e62
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21029186"
 ---
-# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server-2015"></a>Planejamento de roteamento de voz de saída no Skype for Business Server 2015
+# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planejar o roteamento de voz de saída em Skype para Business Server
  
 Saiba mais sobre o roteamento de voz de saída em Skype para Business Server Enterprise Voice, incluindo configurações de roteamento de chamada, planos de discagem, regras de normalização, políticas de voz, registros de uso PSTN e roteamentos de voz.
   
@@ -81,7 +81,7 @@ Para planejar uma discagem, siga estas instruções:
     
     Se sua organização mantenha um único plano de discagem em vários locais, você ainda precisará criar um plano de discagem separado para usuários do Enterprise Voice que estiver migrando de uma central privada (PBX) e quem precisa ter suas extensões existentes retidos.
     
-- Decida se os planos de discagem por usuário são necessários. Por exemplo, se você tiver usuários em um site de filial que são registrados com o site central, ou se você tiver usuários que estão registrados em um aparelho de filial, você pode considerar especiais cenários de discagem para tais usuários usando por usuário planos de discagem e regras de normalização . Para obter detalhes, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server 2015](enterprise-voice-resiliency.md).
+- Decida se os planos de discagem por usuário são necessários. Por exemplo, se você tiver usuários em um site de filial que são registrados com o site central, ou se você tiver usuários que estão registrados em um aparelho de filial, você pode considerar especiais cenários de discagem para tais usuários usando por usuário planos de discagem e regras de normalização . Para obter detalhes, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](enterprise-voice-resiliency.md).
     
 - Determine o escopo do plano de discagem (como descrito anteriormente neste tópico).
     
@@ -141,7 +141,7 @@ Para obter detalhes sobre como usar expressões regulares do .NET Framework, con
 
 A tabela a seguir mostra exemplos de regras de normalização que são gravadas como expressões reguladores do .NET Framework. São apenas exemplos e não deve ser uma referência prescritiva para a criação de regras de normalização.
   
-**Tabela 1. as regras de normalização usando expressões regulares do .NET Framework**
+**Tabela 1. Regras de normalização usando expressões regulares do .NET Framework**
 
 |**Nome da regra**|**Descrição**|**Padrão de número**|**Conversão**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -159,7 +159,7 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
    
 A tabela a seguir ilustra um exemplo de plano de discagem para Redmond, Washington, Estados Unidos, com base nas regras de normalização mostradas na tabela anterior.
   
-**Tabela 2. Plano de discagem Redmond baseado nas regras de normalização mostradas na tabela 1**
+**Tabela 2. Plano de discagem de Redmond com base em regras de normalização mostradas na Tabela 1**
 
 |**Redmond.forestFQDN**|
 |:-----|
@@ -197,7 +197,7 @@ As etapas a seguir o ajudarão a planejar as políticas de voz que você precisa
     
 ### <a name="voice-policy-scope"></a>Escopo da política de voz
 
-Escopo da política de voz determina o nível de hierárquico no qual a diretiva pode ser aplicada. Skype para Business Server, você pode configurar políticas de voz com os seguintes níveis de escopo (listadas da mais específica para o mais geral).
+O escopo da política de voz determina o nível hierárquico no qual a política pode ser aplicada. Skype para Business Server, você pode configurar políticas de voz com os seguintes níveis de escopo (listadas da mais específica para o mais geral).
   
 - A **política de voz de usuário** pode ser atribuída a usuários individuais, grupos ou objetos de contato. Essa á política de nível mais baixo. As políticas de voz de usuário podem ser implantadas para habilitar recursos para determinados usuários ou grupos em um local, mas não para outros no mesmo local. Por exemplo, talvez você queira desabilitar a discagem de longa distância para alguns funcionários. Para a finalidade de atribuição de uma política de voz, um objeto de contato será tratado como um usuário individual.
     
@@ -247,7 +247,7 @@ O planejamento dos registros de uso de PSTN consiste principalmente em listar to
   
 A tabela a seguir mostra um quadro típico de uso de PSTN.
   
-**Registros de uso PSTN**
+**Registros de uso de PSTN**
 
 |**Atributo do telefone**|**Descrição**|
 |:-----|:-----|

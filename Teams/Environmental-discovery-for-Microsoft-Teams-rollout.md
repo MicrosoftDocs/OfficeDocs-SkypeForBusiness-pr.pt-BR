@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Como executar uma descoberta ambiental detalhada à medida que você planeja sua jornada do Skype para negócios a Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5fde916c4fe9ece9ad80ec63dad1618fa0d1ae5
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: e62d6425f5e38d4763f54c27821a544d3c063420
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246526"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta de ambiente para uma distribuição Teams da Microsoft
 ===================================================
@@ -72,13 +74,13 @@ Use a tabela a seguir para capturar informações sobre o locatário do Office 3
 > | Observe o locatário de produção Office 365 <br>nome e a identificação da coluna de resposta <br/>Se você tiver mais de um inquilino <br>associado à sua organização, <br>Observe que todos os IDs.  | Nome do locatário: <br/>ID do inquilino:| |
 > | Em quais regiões os locatários são implantados?| | |
 > | São esses inquilinos multi-Inquilinos do Office 365 ou <br>Dedicado? | <input type="checkbox">Multi-inquilinos<br/> <input type="checkbox">Dedicada | |
-> | Quais produtos Microsoft Online estão em uso no momento? <br/>Observe o número de usuários habilitados para cada um <br>serviço na coluna comentários. | <input type="checkbox">Equipes da Microsoft <br/> <input type="checkbox">Skype para negócios <br>&nbsp;&nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Outros|                                   |
+> | Quais produtos Microsoft Online estão em uso no momento? <br/>Observe o número de usuários habilitados para cada um <br>serviço na coluna comentários. | <input type="checkbox">Equipes da Microsoft <br/> <input type="checkbox">Skype para negócios <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Outros|                                   |
 > | Qual nível de licença está habilitado para Skype para <br>Usuários Online de negócios? | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 E5 | O número de usuários <br>para cada SKU: |
 > | Qual é a floresta do Active Directory atual <br>nível funcional no ambiente? <br/>Se houver mais de uma floresta, observe os detalhes <br>na coluna comentários. | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
 > | O que você está usando para o diretório <br>sincronização hoje? |<input type="checkbox">Nenhum sync (somente nuvem) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Conectar <br/> <input type="checkbox">Outros (especifique na <br>&nbsp;&nbsp; &nbsp;Coluna comentários.)| |
 > | A identidade federada está implantada no momento? <br/>(Serviços de Federação do active Directory ou <br>terceiros) | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Se você estiver usando a identidade federada, qual é o <br>infraestrutura de Federação? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox">Federação de terceiros <br>&nbsp;&nbsp; &nbsp;gateway <br>&nbsp;&nbsp; &nbsp;(Observe os detalhes do <br>&nbsp;&nbsp; &nbsp;Coluna comentários.) | |
-> | Se você mantiver atualmente um ativo do Office 365 <br>locatários, é o domínio SMTP/SIP da sua <br>direcionados os usuários associados com o locatário? | <input type="checkbox">N/d – sem o Office 365 <br>&nbsp;&nbsp; &nbsp;locatário in-loco <br/> <input type="checkbox">Não, SMTP/SIP dos usuários <br>&nbsp;&nbsp; &nbsp;domínio não está associado <br>&nbsp;&nbsp; &nbsp;com qualquer locatários em <br>&nbsp;&nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Sim, SMTP/SIP dos usuários <br>&nbsp;&nbsp; &nbsp;domínio está associado <br>&nbsp;&nbsp; &nbsp;com um locatário existente <br>&nbsp;&nbsp; &nbsp;no Office 365 | |
+> | Se você mantiver atualmente um ativo do Office 365 <br>locatários, é o domínio SMTP/SIP da sua <br>direcionados os usuários associados com o locatário? | <input type="checkbox">N/d – sem o Office 365 <br>&nbsp;&nbsp; &nbsp;locatário in-loco <br/> <input type="checkbox">Não, SMTP/SIP dos usuários <br>&nbsp;&nbsp; &nbsp;domínio não está associado <br>&nbsp;&nbsp; &nbsp;com qualquer locatários em <br>&nbsp; &nbsp; &nbsp;Office 365 <br/> <input type="checkbox">Sim, SMTP/SIP dos usuários <br>&nbsp;&nbsp; &nbsp;domínio está associado <br>&nbsp;&nbsp; &nbsp;com um locatário existente <br>&nbsp;&nbsp; &nbsp;no Office 365 | |
 > | Usuário UPNs coincidem seu endereço SMTP principal? | <input type="checkbox">Sim <br/> <input type="checkbox">Não <br/> <input type="checkbox">Modo inconsistente | |
 
 <a name="existing-collaboration-platform-summary"></a>Plataforma de colaboração existente resumida
@@ -96,6 +98,7 @@ Use a tabela a seguir para capturar informações sobre a implantação de plata
 > | Você tem outras plataformas de terceiros implantadas <br>e, em uso atualmente? Em caso afirmativo, observe o número de usuários do <br>Essas plataformas e os detalhes de uso nos comentários <br>coluna. | <input type="checkbox">Cisco WebEx <br/> <input type="checkbox">Margem de atraso <br/> <input type="checkbox">Outros (Especifique nos comentários <br>&nbsp;&nbsp; &nbsp;coluna.) | Número de usuários: <br/>Detalhes:|
 > | Você está planejando mover usuários desses softwares de terceiros <br>plataformas às equipes? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Qual é a solução de conferência e telefonia atual <br>os usuários que fazem parte do escopo essa iniciativa? | | |
+> | Você tem [SBC que dê suporte direto de roteamento](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) implantados para seus escritórios que fazem parte do escopo essa iniciativa? <br>Em caso afirmativo, observe os detalhes na coluna comentários.| <input type="checkbox">Sim <br/> <input type="checkbox">Não ||
 
 <a name="collaboration-platform-deployment-details"></a>Detalhes de implantação de plataforma de colaboração
 -----------------------------------------

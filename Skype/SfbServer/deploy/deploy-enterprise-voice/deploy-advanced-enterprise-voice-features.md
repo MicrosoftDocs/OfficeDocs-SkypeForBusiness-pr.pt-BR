@@ -1,9 +1,8 @@
 ---
-title: Implantar recursos avançados de Enterprise Voice no Skype for Business Server 2015
+title: Implantar os recursos avançados do Enterprise Voice do Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,32 +13,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Implante os recursos avançados do Enterprise Voice do Skype para Business Server.
-ms.openlocfilehash: fc36659dff4bc83cd1a7862b366c88b1f275bd14
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ca9d25ec79c6eb86fca8055b5ae00748cf9c3468
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20999433"
 ---
-# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Implantar recursos avançados de Enterprise Voice no Skype for Business Server 2015
+# <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Implantar os recursos avançados do Enterprise Voice do Skype para Business Server
  
 Implante os recursos avançados do Enterprise Voice do Skype para Business Server.
   
 Após configurar a funcionalidade básica do Enterprise Voice para sua organização, será possível implantar opcionalmente um ou mais recursos avançados do Enterprise Voice seguindo os procedimentos desta seção. 
   
-- [Planejar o bypass de mídia no Skype para negócios 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+- [Planejar o bypass de mídia no Skype para negócios](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     
-- [Planejar o controle de admissão de chamada no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+- [Planejar o controle de admissão de chamada no Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
     
-- [Planejamento de serviços de emergência no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
+- [Planejamento de serviços de emergência no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)
     
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Implantar regiões de rede, sites e sub-redes em Skype para negócios 2015](deploy-network.md)
+- [Implantar regiões de rede, sites e sub-redes em Skype para negócios](deploy-network.md)
     
-- [Implantar o bypass de mídia no Skype para Business Server 2015](deploy-media-bypass.md)
+- [Implantar o bypass de mídia no Skype para Business Server](deploy-media-bypass.md)
     
-- [Implantar o controle de admissão de chamada no Skype para Business Server 2015](deploy-call-admission-control.md)
+- [Implantar o controle de admissão de chamada no Skype para Business Server](deploy-call-admission-control.md)
     
-- [Implantar serviços de emergência no Skype para Business Server 2015](deploy-emergency-services.md)
+- [Implantar serviços de emergência no Skype para Business Server](deploy-emergency-services.md)
     
 

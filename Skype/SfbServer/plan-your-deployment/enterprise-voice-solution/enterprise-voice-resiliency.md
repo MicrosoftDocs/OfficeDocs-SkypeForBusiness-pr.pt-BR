@@ -1,9 +1,8 @@
 ---
-title: Planejar a resiliência do Enterprise Voice no Skype for Business Server 2015
+title: Planejamento de resiliência do Enterprise Voice em Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como suporte a resiliência de voz em Skype para Business Server Enterprise Voice, em sites centrais e sites de filiais. Opções de site de filial incluem Implantando aparelhos de filial persistente ou servidores de filial persistente.
-ms.openlocfilehash: f5497c31e407d5d03564ab7caf7a0b8c8d4e0914
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: fb3dadfc1dcb38508ec696e1f0c257638f6ec5a7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966647"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server-2015"></a>Planejar a resiliência do Enterprise Voice no Skype for Business Server 2015
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejamento de resiliência do Enterprise Voice em Skype para Business Server
  
 Saiba como suporte a resiliência de voz em Skype para Business Server Enterprise Voice, em sites centrais e sites de filiais. Opções de site de filial incluem Implantando aparelhos de filial persistente ou servidores de filial persistente.
   
@@ -207,7 +207,7 @@ A resiliência de sites de filial proporciona vantagens evidentes à sua organiz
   
 Há três opções para fornecer a resiliência do site de filial. A tabela a seguir o ajudará a determinar qual opção é a melhor para sua organização.
   
-|**Se você …**|**Recomendamos que você use um …**|
+|**Se você…**|**Recomendamos que você use um(a)…**|
 |:-----|:-----|
 |Hospedar entre 25 e 1.000 usuários no seu site de filial e se o retorno sobre o investimento não permitir uma implantação completa ou quando não houver suporte administrativo local disponível  <br/> |Aparelho de Filial Persistente  <br/> O aparelho de filial persistente é um servidor blade padrão do setor com um Skype para negócios servidor registrador e o servidor de mediação em execução no Windows Server 2008 R2. O aparelho de filial persistente também contém um gateway PSTN (rede) telefônica pública comutada. Dispositivos qualificados de terceiros (desenvolvidos por parceiros da Microsoft no programa de qualificação/certificação SBA [Aparelho de Filial Persistente]) fornecem uma conexão PSTN contínua em caso de falha da WAN, mas essa abordagem não oferece presença e conferência resilientes porque esses recursos dependem dos Servidores Front-End do site central.  <br/> Para obter detalhes sobre os aparelhos de filial persistente, consulte "Detalhes de aparelho de filial persistente", mais adiante neste tópico.  <br/> **Observação:** Se você decidir usar também um tronco SIP com seu aparelho de filial persistente, contate o fornecedor de aparelho de filial persistente para aprender sobre qual provedor de serviços é mais adequado para sua organização. <br/> |
 |Hospede entre 1.000 e 2.000 usuários no seu site de filial, não têm uma conexão WAN resiliente e tendo treinado Skype para administradores do servidor de negócios disponíveis  <br/> |Servidor de filial persistente ou dois aparelhos de filial persistente.  <br/> O servidor de filial persistente é um servidor de Windows atender aos requisitos de hardware especificado que tem Skype para negócios servidor registrador e o servidor de mediação software instalado nele. Ele deve estar conectado a um provedor de serviços telefônicos por meio de um gateway PSTN ou de um tronco SIP.  <br/> Para obter detalhes sobre servidores de filial persistente, consulte "Detalhes de servidor de filial persistente", mais adiante neste tópico.  <br/> |
@@ -245,7 +245,7 @@ O aparelho de filial persistente é fabricado pela fabricantes originais dos equ
   
 Para obter detalhes sobre essas fases, consulte [Implantando um servidor ou aparelho de filial persistente](http://technet.microsoft.com/library/cb780c14-dc5f-41ba-8092-f20ae905bd16.aspx) na documentação de implantação.
   
-|**Fase**|**Etapas**|**Direitos de usuário**|
+|**Fase**|**Etapas**|**Direitos do usuário**|
 |:-----|:-----|:-----|
 |Configurar serviços de domínio do Active Directory para o aparelho de filial persistente  <br/> |**No site central:** <br/>  Crie uma conta de usuário de domínio (ou a identidade corporativa) para o técnico que for instalar e ativar o aparelho de filial persistente no site da filial. <br/>  Crie uma conta de computador (com o nome de domínio totalmente qualificado aplicável (FQDN)) para o aparelho de filial persistente nos serviços de domínio Active Directory. <br/>  No construtor de topologia, crie e publique o aparelho de filial persistente. <br/> |A conta de usuário do técnico deve ser membro do grupo RTCUniversalSBATechnicians. O aparelho de filial deve pertencer ao grupo RTCSBAUniversalServices, que ocorre automaticamente quando você usa o construtor de topologias.  <br/> |
 |Instalar e ativar o aparelho de filial persistente.  <br/> |**No site de filial:** <br/>  Conecte o aparelho de filial persistente para uma porta Ethernet e porta da PSTN. <br/>  Inicie o aparelho de filial persistente. <br/>  Conectar o aparelho de filial para o domínio, usando a conta de usuário de domínio criada para o aparelho de filial persistente no site central. Defina o FQDN e o endereço IP para corresponderem ao FQDN criado na conta do computador. <br/>  Configure o aparelho de filial persistente, usando a interface de usuário OEM. <br/>  Teste a conectividade PSTN. <br/> |A conta de usuário do técnico deve ser membro do grupo RTCUniversalSBATechnicians.  <br/> |
@@ -284,7 +284,7 @@ Para ajudar a garantir que as chamadas de entrada aos usuários do site de filia
 > [!NOTE]
 > Para contabilizar o consumo de recursos do site central pelos usuários de um site de filial que dependam do site central para fins de presença, conferência ou failover, é recomendável considerar cada usuário do site de filial como se estivesse registrado no site central. No momento, não há nenhum limite no número de usuários do site de filial, incluindo usuários registrados com um aparelho de filial persistente. 
   
-Também é recomendável criar um plano de discagem e uma política de voz em nível de usuário, e atribuí-los aos usuários do site de filial. Para obter detalhes, consulte [criar ou modificar um plano de discagem no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar a política de roteamento do VoIP para usuários de filiais](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) na documentação de implantação.
+Também é recomendável criar um plano de discagem e uma política de voz em nível de usuário, e atribuí-los aos usuários do site de filial. Para obter detalhes, consulte [criar ou modificar um plano de discagem no Skype para Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar a política de roteamento do VoIP para usuários de filiais](http://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) na documentação de implantação.
   
 #### <a name="routing-extension-numbers"></a>Roteamento de números de ramal
 
@@ -292,7 +292,7 @@ Ao preparar planos de discagem e políticas de voz para usuários do site de fil
   
 As regras de normalização e de conversão que fazem a correspondência das URIs de Linha que contêm um número de ramal, exclusivamente ou além de um número de telefone E.164 completo, têm requisitos adicionais. Esta seção descreve vários cenários de exemplo para encaminhar chamadas para URIs de Linha com um número de ramal.
   
-Se sua organização não tiver os números de telefone de discagem DID (direta) configurados para usuários individuais e o URI de linha de cada usuário é configurado com apenas um número de ramal, os usuários internos podem chamar um outro discando apenas um número de ramal. No entanto, é necessário configurar regras de normalização aplicáveis às chamadas de um usuário do site de filial para outro do site central, que façam a correspondência dos números de ramal.
+Se a sua organização não tiver números de telefone de Discagem Direta Interna (DDI) configurados para usuários individuais, e a URI da Linha de cada usuário estiver configurada apenas com um número de ramal, os usuários internos poderão ligar uns para os outros discando apenas um número de ramal. No entanto, é necessário configurar regras de normalização aplicáveis às chamadas de um usuário do site de filial para outro do site central, que façam a correspondência dos números de ramal.
   
 Em um cenário em que o link WAN entre um site de filial e um site central esteja disponível, as chamadas de usuários do site de filial para os do site central não exigirão que a regra de normalização de correspondência converta o número porque a chamada não é encaminhada através da PSTN. Por exemplo:
   

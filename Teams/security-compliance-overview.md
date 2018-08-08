@@ -3,19 +3,21 @@ title: Visão geral de segurança e conformidade no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 07/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
 description: Uma visão geral dos recursos de segurança e conformidade do Microsoft Teams, incluindo auditoria e relatórios, pesquisa de conteúdo de conformidade, eDiscovery e muito mais.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 857e4b691256ff13b6f9308bcd9fb12dfb10297d
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+ms.openlocfilehash: 7dbbee64837e9a00ec09e09d93342741bee3a7c7
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20265895"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -26,27 +28,31 @@ O Teams tem conformidade de Camada C no lançamento. Isso inclui as seguintes no
 
 Os serviços das categorias de conformidade C e D que têm compromissos de conformidade líderes do setor estão habilitados por padrão. Os serviços das categorias A e B vêm com controles de ativação ou desativação para a organização inteira. Você pode encontrar detalhes em [Estrutura de conformidade para as normas e regulamentos do setor](https://go.microsoft.com/fwlink/?linkid=855777). O Microsoft Teams também dá suporte à conformidade com o Cloud Security Alliance.
 
-O Teams também aplica uma autenticação de dois fatores para todas as equipe e organizações, registro único através do diretório ativo e criptografia de dados em trânsito e em repouso. Os arquivos ficam armazenados no SharePoint e são respaldados pela criptografia do SharePoint. As notas ficam armazenadas no OneNote e são respaldadas pela criptografia do OneNote.
+O Teams também aplica uma autenticação de dois fatores para todas as equipe e organizações, registro único através do diretório ativo e criptografia de dados em trânsito e em repouso. Os arquivos ficam armazenados no SharePoint e são respaldados pela criptografia do SharePoint. As notas ficam armazenadas no OneNote e são respaldadas pela criptografia do OneNote. Os dados do OneNote são armazenados no site do SharePoint da equipe. Na guia Wiki também pode ser usada para fazer anotações e seu conteúdo também é armazenado no site do SharePoint team.
 
 Também acrescentamos suporte para pesquisa de registros de auditoria, eDiscovery e retenção legal para canais, bate-papos e arquivos, bem como gerenciamento de aplicativos móveis com o Microsoft Intune. Vá para o Centro de conformidade de segurança do Office 365 para gerenciar essas configurações. 
 
 ## <a name="auditing-and-reporting"></a>Auditoria e relatórios
 
-A pesquisa de registros de auditoria se conecta diretamente ao Centro de Segurança e Conformidade do Office 365 e tem a capacidade de configurar alertas e/ou relatórios em um evento de auditoria ao disponibilizar e exportar conjuntos de eventos de carga de trabalho genéricos ou específicos para uso e pesquisa do administrador em uma linha de tempo de auditoria ilimitada. Todos os dados de registro de auditoria estão disponíveis para configurar aletas no Centro de Segurança e Conformidade do Office 365, bem como para filtragem e exportação para análises mais profundas.
+A pesquisa de registros de auditoria se conecta diretamente ao Centro de Segurança e Conformidade do Office 365 e tem a capacidade de configurar alertas e/ou relatórios em um evento de auditoria ao disponibilizar e exportar conjuntos de eventos de carga de trabalho genéricos ou específicos para uso e pesquisa do administrador em uma linha de tempo de auditoria ilimitada. Todos os dados de registro de auditoria estão disponíveis para configurar aletas no Centro de Segurança e Conformidade do Office 365, bem como para filtragem e exportação para análises mais profundas. Consulte este [link](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para saber mais sobre como realizar uma pesquisa de log de auditoria para eventos do Microsoft Teams no Centro de conformidade e segurança do Office 365. 
 
 ## <a name="compliance-content-search"></a>Pesquisa de conteúdo de conformidade
 
-A pesquisa de conteúdo pode ser usada para fazer pesquisas no Microsoft Teams por meio de funcionalidades sofisticadas de filtragem e exportada para um contêiner específico para dar suporte à conformidade e litígios. Isso pode ser feito com ou sem um caso do eDiscovery.
+Pesquisa de conteúdo pode ser usada para procurar todos os dados de equipes por meio de recursos de filtragem de rich e exportada para um contêiner específico para suporte de conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletar dados de equipes em todos os usuários, revisar e exportá-lo para processamento adicional. Consulte este [link](https://support.office.com/en-us/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4?ui=en-US&rs=en-US&ad=US#teamsandgroups) para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para conteúdo de Teams da Microsoft na Central de segurança do Office 365 e Complianc. 
+
+Dica: O MicrosoftTeams kind pode ser usado para filtrar por meio Teams Microsoft somente conteúdo, ou seja, Chat e mensagens de canal, reuniões e chamadas. 
 
 ## <a name="ediscovery"></a>eDiscovery
 
-A descoberta eletrônica é o aspecto eletrônico de identificar, coletar e produzir informações armazenadas eletronicamente (ESI) em resposta a uma solicitação de produção em uma ação judicial ou investigação.
+A descoberta eletrônica é o aspecto eletrônico de identificar, coletar e produzir informações armazenadas eletronicamente (ESI) em resposta a uma solicitação de produção em uma ação judicial ou investigação. Recursos incluem o gerenciamento de casos, preservação, pesquisa, análise e exportação de dados de equipes. Isso inclui resumos de bate-papo, mensagens e arquivos, reuniões e chamadas. Para reuniões de equipes e chamadas, um resumo dos eventos que ocorreram na reunião e da chamada são criados e torná-los disponível no eDiscovery. 
 
-Recursos incluem o gerenciamento de casos, preservação, pesquisa, análise e exportação de dados de equipes. Isso inclui bate-papos, mensagens e dados de arquivos.
+Para obter mais detalhes sobre como fazer a descoberta eletrônica no Centro de segurança e conformidade e pesquisa de conteúdo de execução de conformidade para conteúdo de equipes, vá para os links abaixo: 
 
-Os clientes podem se beneficiar do In-place eDiscovery ou do [Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)
+[eDiscovery](https://support.office.com/en-us/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US) 
 
-As diferenças entre os dois estão destacadas na tabela a seguir:
+[Pesquisa de conteúdo](https://support.office.com/en-us/article/search-for-content-in-office-365-df2d1e0f-b476-42c9-aade-4a260b24f193)
+
+Os clientes podem aproveitar descoberta eletrônica in-loco ou [eDiscovery Avançado] por seus requisitos (https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4). As diferenças entre os dois estão destacadas na tabela a seguir:
 
 
 | |In-place eDiscovery  |Advanced eDiscovery  |
@@ -63,18 +69,20 @@ As diferenças entre os dois estão destacadas na tabela a seguir:
 
 ## <a name="legal-hold"></a>Retenção legal
 
-Quando uma equipe do Microsoft Teams é colocada em Bloqueio In-loco ou em Retenção de Litígio, a retenção é colocada na caixa de correio dos grupos.
+Durante um litígio, geralmente é necessário que todos os dados associados a um usuário (dos responsáveis) ou uma equipe é preservada imutavelmente, portanto pode ser usada como evidência para o caso. Isso é feito colocando-se um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe dentro equipes será colocada em (subconjunto do conjunto de sites ou de caixa de correio até o destino de consultas ou conteúdo filtrado) de bloqueio In-loco ou retenção de litígio (coleção inteira de caixa de correio ou site), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluir ou editar as mensagens de canal são incluídas na caixa de correio de grupo, imutáveis cópias desse conteúdo são mantidos e estejam disponíveis na pesquisa eDisscovery. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [Este](https://support.office.com/en-us/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo para saber mais sobre preservação e isenções na Central de segurança do Office 365 e conformidade da Ajuda. 
 
-As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery.
+## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitetura de proteção de informações para as equipes da Microsoft. 
 
-A figura abaixo indica o fluxo de trabalho dos dados do Teams para o Exchange e o SharePoint.
+A figura a seguir indica que o fluxo de inclusão de dados de equipes para Exchange e SharePoint para mensagens e arquivos de equipes. 
 
 ![Diagrama do fluxo de trabalho dos dados do Microsoft Teams para o Exchange e o SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
+A figura a seguir indica que o fluxo de inclusão de reuniões de equipes e dados de chamada para o Exchange.
+
+![Diagrama do fluxo de trabalho de reuniões de equipes e dados de chamada para o Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
-> Pode haver um atraso de até 24 horas para revelar o conteúdo do Teams.
-
+> Pode haver até um atraso de 24 horas para descobrir o conteúdo de equipes.
 
 ## <a name="retention-policies"></a>Políticas de retenção
 
@@ -126,7 +134,7 @@ Na Central de segurança e conformidade, quando você configurar uma política d
 
 ### <a name="can-we-include-teams-in-org-wide-policies"></a>Podemos incluir equipes em políticas de toda a organização? 
 
-Não, não no momento. Você deve criar políticas específicas para mensagens de chat e canal de equipes usando a linha de local de equipes ou esses cmdlets equipes: New-TeamsRetentionCompliancePolicy & New-TeamsComplianceRetentionRule. Esses cmdlets ter get e definir as versões também.
+Não, não no momento. Você deve criar políticas específicas para mensagens de chat e canal de equipes usando a linha de local de equipes ou esses cmdlets equipes: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-TeamsComplianceRetentionRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Esses cmdlets ter get e definir as versões também.
 
 ### <a name="are-these-retention-policies-retroactive"></a>Essas políticas de retenção são retroativas? 
 
@@ -144,6 +152,8 @@ Sim, você deve fazer. No Assistente de criação de política, na etapa locais,
 
 Se você usar a caixa de correio de grupo e linhas de local de caixa de correio do usuário para o Exchange Online, equipes de dados serão excluídas das caixas de correio especificadas. No entanto, isso só remove dados da caixa de correio. Ela não exclui os outros dados de equipes, como o serviço de bate-papos. É recomendável usar políticas de retenção de equipes para gerenciar todos os dados de equipes de forma adequada. Uma política de retenção de equipes remove dados de equipes de todos os armazenamento locais – caixas de correio, serviço de Chat, os clientes de equipes. 
 
+Observação: O início do recurso de políticas de retenção para equipes certifica-se de que apenas as políticas de equipes excluir itens de equipes armazenados em locais de caixa de correio do Exchange (usuário ou grupo). A instalação de outras políticas em caixas de correio não pode afetar a itens de equipes. Isso era true no passado, mas foi corrigido com o lançamento do recurso de políticas de retenção. 
+
 ### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>O que acontece com Skype para chats de interoperabilidade Business Online e equipes – eles são afetados pelas políticas de retenção?
 
 Sim, Skype para Business Online e chats de interoperabilidade de equipes funciona da mesma maneira. Depois que o Skype para chat Business Online entra em equipes, ela se torna uma mensagem em um segmento de bate-papo de equipes e obtém incluída em uma caixa de correio apropriada. Para que o mesmo fluxo works – políticas de exclusão de equipes excluirá essas mensagens do thread equipes. No entanto, se o histórico da conversa está ativado para Skype para Business Online e do Skype para Business Online lado do cliente aqueles estão sendo salvos em uma caixa de correio, esses dados de chat não são tratados por uma política de retenção de equipes.
@@ -154,10 +164,10 @@ Absolutamente. Você pode criar políticas de retenção de equipes usando [cmdl
 
 |Política|Regra|
 |---|---|
-|New-TeamsRetentionCompliancePolicy| New-TeamsRetentionComplianceRule|
-|Get-TeamsRetentionCompliancePolicy| Get-TeamsRetentionComplianceRule|
-|Get - TeamsRetentionCompliancePolicy| Set - TeamsRetentionComplianceRule|
-|Remove - TeamsRetentionCompliancePolicy| Remove - TeamsRetentionComplianceRule|
+|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
+|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
 ### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>Se houver várias políticas de retenção para equipes variadas durações, qual delas wins?
 
@@ -224,9 +234,20 @@ Para ver qual região hospeda os dados de seu locatário, vá para o [Centro de 
 
 ![Captura de tela da tabela Local dos dados, inclusive do Microsoft Teams, no Centro de administração do Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
+<a name="how-do-conditional-access-policies-work-for-teams"></a>Como funcionam as políticas de acesso condicional para equipes?
+-------------------------
+
+Microsoft Teams depende muito Exchange Online, SharePoint Online e Skype para negócios on-line para cenários de produtividade de núcleo, como reuniões, calendários, bate-papos interoperacional & compartilhamento de arquivo. Políticas de acesso condicional que são definidas para esses aplicativos de nuvem se aplicam ao Microsoft Teams quando um usuário se conecta diretamente à Microsoft Teams - em qualquer cliente. 
+
+Microsoft Teams é suportada separadamente como um aplicativo de nuvem em políticas de acesso condicional do Azure Active Directory. Políticas de acesso condicional que são definidas para o aplicativo de nuvem da Microsoft Teams se aplicam ao Microsoft Teams quando um usuário entrar. No entanto, sem as políticas corretas em outros aplicativos como o Exchange Online e SharePoint Online usuários ainda poderá acessar esses recursos diretamente. Para mais informações sobre como configurar uma política de acesso condicional no portal do azure, vá aqui: (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+
+Clientes de desktop Teams da Microsoft para Windows e Mac suportam a autenticação moderna. Autenticação moderna traz entrar com base no Azure Active Directory autenticação biblioteca (ADAL) para aplicativos cliente do Microsoft Office em todas as plataformas.
+
+Aplicativo de área de trabalho do Microsoft Teams suporta AppLocker.  Para obter mais informações sobre os pré-requisitos do AppLocker, consulte: requisitos para usar o AppLocker (https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/requirements-to-use-applocker).
+
 <a name="privacy-in-teams"></a>Privacidade no Microsoft Teams
 --------------------------
 
 Como cliente do Office 365, você detém e controla seus dados. A Microsoft não usa seus dados para nenhum outro fim, além de lhe fornecer o serviço ao qual você se inscreveu. Como um provedor de serviços, não examinamos seu e-mail, seus documentos nem suas equipes para publicidade ou propósitos que não estejam relacionados ao serviço. A Microsoft não tem acesso para carregar conteúdo. Assim como o OneDrive for Business e o SharePoint Online, os dados do cliente permanecem no locatário.
 
-Confira mais sobre nossos confiabilidade e segurança relacionados informações no [Centro de confiança do Office 365](https://go.microsoft.com/fwlink/?linkid=855779). O Teams segue os mesmos princípios e orientações da Centro de Confiabilidade do Office 365.
+Veja mais informações relacionadas a confiabilidade e segurança no [Centro de Confiabilidade do Office 365](https://go.microsoft.com/fwlink/?linkid=855779). O Teams segue os mesmos princípios e orientações da Centro de Confiabilidade do Office 365.

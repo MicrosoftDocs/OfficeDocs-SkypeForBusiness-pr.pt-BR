@@ -1,9 +1,8 @@
 ---
-title: Criar sua topologia de borda para Skype for Business Server 2015
+title: Criar a topologia de borda para Skype for Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 2/6/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,18 +11,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
-description: 'Resumo: Saiba como criar, publicar e exportar a topologia de servidor de borda no Skype para Business Server 2015.'
-ms.openlocfilehash: 335713fdcc8c8a88fb31f180ab4553bd64497d9f
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como criar, publicar e exportar a topologia de servidor de borda no Skype para Business Server.'
+ms.openlocfilehash: 2c938312e90c339044a45c654838ec5c587bbd7e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019174"
 ---
-# <a name="create-your-edge-topology-for-skype-for-business-server-2015"></a>Criar sua topologia de borda para Skype for Business Server 2015
+# <a name="create-your-edge-topology-for-skype-for-business-server"></a>Criar a topologia de borda para Skype for Business Server
  
-**Resumo:** Saiba como criar, publicar e exportar a topologia de servidor de borda no Skype para Business Server 2015.
+**Resumo:** Saiba como criar, publicar e exportar a topologia de servidor de borda no Skype para Business Server.
   
-Construtor de topologia é a ferramenta que você precisa usar para construir sua topologia de servidor de borda, assim como ele é usado para qualquer componente de topologia para Skype para Business Server 2015. Antes de seguir as etapas abaixo, você precisará tenha configurado pelo menos um pool de Front-End ou um servidor Standard Edition.
+Construtor de topologia é a ferramenta que você precisa usar para construir sua topologia de servidor de borda, assim como ele é usado para qualquer componente de topologia para Skype para servidor de negócios. Antes de seguir as etapas abaixo, você precisará tenha configurado pelo menos um pool de Front-End ou um servidor Standard Edition.
   
 Neste artigo, abordamos os seguintes tópicos:
   
@@ -42,7 +42,7 @@ Neste artigo, abordamos os seguintes tópicos:
     
 ## <a name="build-your-edge-server-topology"></a>Criar sua topologia de servidor de borda
 
-A primeira etapa na implantação está criando seu Skype para topologia de servidor de borda de 2015 Business Server, que consiste em uma das três opções:
+A primeira etapa na implantação está criando seu Skype para topologia de servidor de borda do Business Server, que consiste em uma das três opções:
   
 - Um único servidor de borda
     
@@ -54,9 +54,9 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
   
 ### <a name="defining-the-topology-for-a-single-edge-server"></a>Definindo a topologia para um único servidor de borda
 
-1. Faça logon em seu Skype para Business Server 2015 Standard Edition ou um Skype para pool de negócios 2015 Front-End Server.
+1. Faça logon em seu Skype para Business Server Standard Edition ou um Skype para pool de Front End do servidor de negócios.
     
-2. Uma vez lá, abra **Skype para o construtor de topologias do Business Server 2015**.
+2. Uma vez lá, abra **Skype para o construtor de topologia de servidor de negócios**.
     
 3. Na árvore de console, expanda o site que você pretende implantar o servidor de borda para.
     
@@ -68,7 +68,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
 7. Na tela **Selecionar recursos**, você tem uma escolha:
     
-   - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para o serviço de conferência da Web Business Server 2015 e sua uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
+   - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para serviço de Webconferência de servidor de negócios e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
     
    - Se você planejar habilitar a federação, marque a caixa de seleção **Habilitar federação para este servidor de Borda (porta 5061)**.
     
@@ -108,17 +108,17 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
 14. Na tela **associar Front End pools** , você precisará especificar um ou mais pools internos, incluindo os pools de Front-End e servidores Standard Edition, para associar a esse servidor de borda. Escolha os nomes dos pools internos desejado usando esse servidor de borda para se comunicar com usuários externos com suporte. Clique em **Avançar**.
     
     > [!NOTE]
-    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda de 2015 Business Server, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
+    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda do servidor de negócios, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
   
 15. Clique em **Concluir** na próxima tela.
     
-16. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server 2015](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
+16. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
     
 ### <a name="defining-the-topology-for-a-dns-load-balanced-edge-server-pool"></a>Definindo a topologia para um DNS com balanceamento de carga pool do servidor de borda
 
-1. Faça logon em seu Skype para Business Server 2015 Standard Edition ou um Skype para Business Server 2015 servidor Front-End.
+1. Faça logon em seu Skype para Business Server Standard Edition ou um Skype para Business Server servidor Front-End.
     
-2. Uma vez lá, abra **Skype para o construtor de topologias do Business Server 2015**.
+2. Uma vez lá, abra **Skype para o construtor de topologia de servidor de negócios**.
     
 3. Na árvore de console, expanda o site que você pretende implantar o servidor de borda para.
     
@@ -130,7 +130,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
 7. Na tela **Selecionar recursos**, você tem uma escolha:
     
-    - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para o serviço de conferência do Business Server 2015 Web e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
+    - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para serviço de webconferência Business Server e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
     
     - Se você planejar habilitar a federação, marque a caixa de seleção **Habilitar federação para este servidor de Borda (porta 5061)**.
     
@@ -176,17 +176,17 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
 17. Na tela **associar Front End pools** , você precisará especificar um ou mais pools internos, incluindo os pools de Front-End e pools Standard Edition, para associar a esse servidor de borda. Escolha os nomes dos pools internos desejado usando esse servidor de borda para se comunicar com usuários externos com suporte. Clique em **Avançar**.
     
     > [!NOTE]
-    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda de 2015 Business Server, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
+    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda do servidor de negócios, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
   
 18. Clique em **Concluir** na próxima tela.
     
-19. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server 2015](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
+19. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
     
 ### <a name="defining-the-topology-for-a-hardware-load-balanced-edge-server-pool"></a>Definindo a topologia para uma carga de hardware balanceada pool do servidor de borda
 
-1. Faça logon em seu Skype para Business Server 2015 Standard Edition ou um Skype para Business Server 2015 servidor Front-End.
+1. Faça logon em seu Skype para Business Server Standard Edition ou um Skype para Business Server servidor Front-End.
     
-2. Uma vez lá, abra **Skype para o construtor de topologias do Business Server 2015**.
+2. Uma vez lá, abra **Skype para o construtor de topologia de servidor de negócios**.
     
 3. Na árvore de console, expanda o site que você pretende implantar o servidor de borda para.
     
@@ -198,7 +198,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
 7. Na tela **Selecionar recursos**, você tem uma escolha:
     
-   - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para o serviço de conferência do Business Server 2015 Web e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
+   - Talvez você pretende usar o mesmo endereço IP e FQDN para seu serviço de acesso SIP, sua Skype para serviço de webconferência Business Server e seu uma / serviço de borda V. Se esse for o caso, você deve marcar a caixa de seleção **Use um único FQDN e endereço IP** (e lembre-se disso na Etapa 9 abaixo)
     
    - Se você planejar habilitar a federação, marque a caixa de seleção **Habilitar federação para este servidor de Borda (porta 5061)**.
     
@@ -245,19 +245,19 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
 16. Na tela **associar Front End pools** , você precisará especificar um ou mais pools internos, incluindo os pools de Front-End e pools Standard Edition, para associar a esse servidor de borda. Escolha os nomes dos pools internos desejado usando esse servidor de borda para se comunicar com usuários externos com suporte. Clique em **Avançar**.
     
     > [!NOTE]
-    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda de 2015 Business Server, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
+    > Algo que deve ter em mente aqui é, se os seus pools internos ou servidores autônomos já estiver usando um Skype diferente para o servidor de borda do servidor de negócios, eles não podem ter várias associações. Se você escolher um pool interno ou um servidor autônomo que é nessa situação, você verá a aparecer um aviso informando sobre o servidor de borda, e você pode decidir se deseja continuar ou não. Se você prosseguir com essa nova associação, a conexão com o outro Servidor de Borda será interrompida. 
   
 17. Clique em **Concluir** na próxima tela.
     
-18. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server 2015](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
+18. Agora você vai ser capaz de publicar essa tecnologia atualizada e siga as instruções em [Implantar servidores de borda no Skype para Business Server](deploy-edge-servers.md) para implantar no servidor de borda a partir daqui.
     
 ## <a name="publish-your-edge-server-topology"></a>Publicar sua topologia do Servidor de Borda
 
-Depois que tiver concluído as etapas acima, é hora de publicar essa nova topologia, que também permitirá que você exportá-lo para seu Skype para pool de servidor de borda do Business Server 2015 ou de borda. Siga estas etapas:
+Depois que tiver concluído as etapas acima, é hora de publicar essa nova topologia, que também permitirá que você exportá-lo para seu Skype para pool de borda ou servidor de borda do servidor de negócios. Siga estas etapas:
   
 1. Inicie o **Construtor de Topologia** (se ele já não foi iniciado no procedimento anterior).
     
-2. No **Construtor de topologia**, na árvore de console, clique com o botão **Skype para Business Server 2015** e clique em **Skype para o construtor de topologia de servidor de negócios**.
+2. No **Construtor de topologia**, na árvore de console, clique com o botão **Skype para Business Server** e clique em **Skype para o construtor de topologia de servidor de negócios**.
     
 3. Na página **Bem-vindo** do assistente, clique em **Avançar**.
     
@@ -271,7 +271,7 @@ Depois que tiver concluído as etapas acima, é hora de publicar essa nova topol
     
 ## <a name="export-your-edge-server-topology"></a>Exportar sua topologia do Servidor de Borda
 
-Para implantar com êxito, o Skype para o Assistente de implantação do Business Server 2015 precisa acessar os dados do repositório de gerenciamento Central. Para servidores internos no seu domínio ou floresta, isso normalmente é bem direto. Servidores de borda estão fora do domínio e, portanto, é necessário exportar manualmente o arquivo de topologia para o local do servidor de borda, geralmente em uma mídia física. Esta exportação é feita via PowerShell:
+Para implantar com êxito, o Skype para o Assistente de implantação do Business Server precisa acessar os dados do repositório de gerenciamento Central. Para servidores internos no seu domínio ou floresta, isso normalmente é bem direto. Servidores de borda estão fora do domínio e, portanto, é necessário exportar manualmente o arquivo de topologia para o local do servidor de borda, geralmente em uma mídia física. Esta exportação é feita via PowerShell:
   
 1. Inicie o **Skype do Shell de gerenciamento do servidor de negócios**.
     

@@ -1,9 +1,8 @@
 ---
-title: Criar um novo conjunto de definições de configuração de tronco no Skype for Business Server 2015
+title: Criar uma nova coleção de tronco definições de configuração no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,15 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Resumo: Saiba como criar uma nova coleção de tronco definições de configuração usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 2dd402e61e87642234410b74cb5c6b28b89c69a9
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e77e6fb0a84761363eb81b62858e800e2e5d65fa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025797"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Criar um novo conjunto de definições de configuração de tronco no Skype for Business Server 2015
- 
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Criar uma nova coleção de tronco definições de configuração no Skype para Business Server 
+
 **Resumo:** Saiba como criar uma nova coleção de tronco definições de configuração usando o Skype para painel de controle do servidor de negócios.
   
 As configurações do tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e o gateway da Rede Telefônica Pública Comutada (PSTN), uma Central Privada de Comutação de IP (PBX) ou um Controlador de Borda de Sessão (SBC) no provedor de serviço. Essas configurações realizam atividades como especificar:

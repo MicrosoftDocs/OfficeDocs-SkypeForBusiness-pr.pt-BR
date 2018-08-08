@@ -2,20 +2,22 @@
 title: Planejar a experiência dos usuários do Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Escolha a aplicativos de cliente de equipes, planejar a qualidade do ponto de extremidade, obtém recomendações para a implantação de pontos de extremidade Wi-Fi e escolhendo dispositivos de áudio.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 866395a4dd58016c0989ec4b34f602877251d021
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 4e328f591ac97ace73b2cd2bb45aab61db75f064
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695346"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência dos meus usuários
 

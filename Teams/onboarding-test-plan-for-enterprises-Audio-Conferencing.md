@@ -2,20 +2,22 @@
 title: Plano de teste de empresa para conferência de áudio no Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Valide que as expectativas da sua organização sejam atendidas por meio de testes de conferência de áudio em recursos de equipes, a funcionalidade e usabilidade.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0630cb5bf054c693f1175101f9e1edbe7c408b2f
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3a561e6d81394aa9bf7c3e1b9b8b0ac9f2b3a7ed
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695578"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definir e documentar sua conferência de áudio no plano de teste de equipes para empresas 
 ===============================================================================
@@ -79,7 +81,7 @@ Como parte da definição de requisitos de recurso de conferência de áudio par
 > [!TIP]
 > O mapa de equipes mais recente para identificar os recursos de conferência de áudio no escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
 
-Agora que a pessoa de conferência de áudio e os recursos tenham sido definidos, o próximo critério para avaliação será a experiência de interoperabilidade com equipes. Para obter informações adicionais sobre a experiência de interoperabilidade, juntamente com as opções de configuração disponíveis, consulte [as equipes da Microsoft e Skype para a interoperabilidade de negócios](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+Agora que a pessoa de conferência de áudio e os recursos tenham sido definidos, o próximo critério para avaliação será a experiência de interoperabilidade com equipes. Para obter informações adicionais sobre a experiência de interoperabilidade, juntamente com as opções de configuração disponíveis, consulte [as equipes da Microsoft e Skype para a interoperabilidade de negócios](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
 #### <a name="audio-conferencing-feature-definition"></a>Áudio definição de recurso de conferência
 
@@ -274,7 +276,7 @@ Em um alto nível, isso normalmente consiste em:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decida atividade de cronograma, etapa do projeto e tarefas que você precisa controlar.</li><li>Decida quais recursos você precisará atribuir.</li><li>Decida a data em que você espera que seja feito.</li><li>Identifica o proprietário de entrega.</li><li>Decida quanto tempo levará para concluir a atividade, etapa do projeto ou tarefa.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida atividade de cronograma, etapa do projeto e tarefas que você precisa controlar.</li><li>Decida quais recursos você precisará atribuir.</li><li>Decida a data em que você espera que seja feito.</li><li>Identifica o proprietário de entrega.</li><li>Decida quanto tempo levará para concluir a atividade, etapa do projeto ou tarefa.</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Documente o cronograma do teste usando o modelo fornecido e incluem:<ul><li>Linha do tempo atividade, etapa do projeto e tarefas que precisam ser rastreados.</li><li>Recursos que precisam ser atribuídas.</li><li>Data de conclusão previsto.</li><li>Proprietário de entrega.</li><li>Tempo necessário para concluir a atividade, etapa do projeto ou tarefa.</li></ul></li><li>Inclua o modelo concluído como parte do seu plano de teste geral.</li></ul></td></tr>
 </table>
 
@@ -389,7 +391,7 @@ Normalmente, um plano de relatório e correção de defeitos inclui o seguinte:
 
 | ID de defeito                                | Descrição de defeito                                                                                          | Avaliação de prioridade de defeito                                           | Proprietário de defeito atribuídas | Ponto de escalonamento de defeito atribuídas | Método de escalonamento de defeito                                          | Status de defeito | Resolução necessária por data | Data de status |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1    | Para usuários que foram habilitados para RHM, discar coordenadas não são preenchidas via o suplemento de agendamento do Outlook de equipes. | Médio                                                               | Lisa Gray             | Louis Lahr                       | Weekly Triage Review High-priority email to affected stakeholders | Open          | ASAP                        | 1/12/2018   |
+| 1    | Para usuários que foram habilitados para RHM, discar coordenadas não são preenchidas via o suplemento de agendamento do Outlook de equipes. | Médio                                                               | Lisa cinza             | Louis Lahr                       | E-mail de alta prioridade triagem revisão semanal para partes interessadas afetadas | Abra o           | ASAP                        | 1/12/2018   |
 
 
 
@@ -426,12 +428,12 @@ Em um alto nível, esses geralmente incluem, mas não estão limitados a:
 | Plano de teste                                | Palavra                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Relatórios de gerenciamento de defeito                | Palavra                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 | Teste os relatórios de status                   | Palavra                         | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
-| Test results summary                     | Word PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
+| Resumo de resultados do teste                     | Word PPTX                    | TBD                                                                                                                              | TBD                            | TBD                            | TBD                                 |
 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Decision points</td><td><ul><li>Decide which deliverables are to be created and captured as output from each testing phase. Para cada produto, decida sobre seu:<ul><li>Formato</li><li>Proprietário</li><li>Reviewer</li><li>Approver</li></ul></li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida quais produtos devem ser criadas e capturado como saída de cada fase de teste. Para cada produto, decida sobre seu:<ul><li>Formato</li><li>Proprietário</li><li>Revisor</li><li>Aprovador</li></ul></li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Um plano produto criação e entrega matriz de teste do documento.</li></ul></td></tr>
 </table>
 
@@ -460,8 +462,8 @@ Para ajudar a determinar o nível de otimização de rede necessária para sites
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide which network sites are in scope for deployment of Teams services.</li><li>Decide the personas required for Teams modalities in scope.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Complete the Network Planner (through MyAdvisor) for the list of sites that are in scope.</li><li>Document Network Planner validation results in the test plan results template provided.</li><li>Validate that the ExpressRoute (if applicable), internet, and WAN bandwidth that was calculated for sites in scope aligns to bandwidth values that are currently allocated.</li><li>Para sites que não têm a largura de banda adequada, execute planos de escalação e correção para resolver problemas de largura de banda.</li><li>Estabeleça uma rede de monitoramento de solução para sites no escopo para monitorar o uso de largura de banda e QoS para ExpressRoute (se aplicável), internet e os segmentos de WAN.</li><li>Agende uma reunião comitê de orientação para analisar os resultados de Planejador de rede.</li><li>Apresentar os resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação do planejamento de largura de banda.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Pontos de decisão</td><td><ul><li>Decida quais sites de rede estão dentro do escopo para a implantação das equipes de serviços.</li><li>Decida as personagens necessárias para modalidades de equipes em escopo.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Conclua Planejador de rede (por meio de MyAdvisor) para a lista de sites que estão dentro do escopo.</li><li>Validação de rede Planejador de documento resulta no modelo de resultados de plano de teste fornecido.</li><li>Valide o ExpressRoute (se aplicável), a internet e a largura de banda WAN que foram calculada para sites no escopo alinha com os valores de largura de banda que estão atualmente alocados.</li><li>Para sites que não têm a largura de banda adequada, execute planos de escalação e correção para resolver problemas de largura de banda.</li><li>Estabeleça uma rede de monitoramento de solução para sites no escopo para monitorar o uso de largura de banda e QoS para ExpressRoute (se aplicável), internet e os segmentos de WAN.</li><li>Agende uma reunião comitê de orientação para analisar os resultados de Planejador de rede.</li><li>Apresentar os resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação do planejamento de largura de banda.</li></ul></td></tr>
 </table>
 
 
@@ -474,30 +476,30 @@ Para obter orientação adicional sobre como configurar, implantar e validar a p
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decida sobre a configuração de QoS a serem implementadas.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Configure QoS.</li><li>Execute QoS validation as outlined from steps listed via the “validate via GPO” and “validate via Message Analyzer” sections above.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Pontos de decisão</td><td><ul><li>Decida sobre a configuração de QoS a serem implementadas.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Configure a QoS.</li><li>Execute validação de QoS, conforme destacado de etapas listadas via o "validar via GPO" e "validar por meio do analisador de mensagem" seções acima.</li></ul></td></tr>
 </table>
 
  
 
-### <a name="document-qos-configuration-validation-test-results"></a>Document QoS configuration validation test results
+### <a name="document-qos-configuration-validation-test-results"></a>Documente os resultados de testes de validação de configuração de QoS
 
-After you’ve completed QoS validation testing by using Group Policy for sites in scope, create a report that summarizes testing results to present during the final steering committee review.
+Depois de concluir testes usando a diretiva de grupo para sites no escopo de validação de QoS, crie um relatório que resume os resultados dos testes para apresentar durante a revisão final comitê de orientação.
 
-#### <a name="site-a-qos-configuration-validation-testing-summary-report"></a>Site A: QoS configuration validation testing summary report
+#### <a name="site-a-qos-configuration-validation-testing-summary-report"></a>Site r: validação da configuração de QoS testando o relatório de resumo
 
 > [!TIP]
-> Below is an example testing summary report template that you can review during the next steering committee meeting when you’re deciding when to onboard Audio Conferencing services in the Pilot phase.
+> A seguir está um exemplo testando modelo de relatório de resumo que você possa examinar durante a próxima reunião comitê de direcionamento ao decidir quando para serviços de conferência de áudio integrado na fase piloto.
 
-**QoS configuration validation via GPO and Message Analyzer**
+**Validação da configuração de QoS por meio do GPO e o analisador de mensagem**
 
-**Results Summary**:&nbsp;&nbsp;&nbsp;&#9744;Pass&nbsp;&nbsp;&nbsp; &#9744;Partial&nbsp;&nbsp;&nbsp; &#9744;Fail
+**Resumo dos resultados**:&nbsp;&nbsp;&nbsp;& #9744; Passe&nbsp; &nbsp; &nbsp; & #9744; Parcial&nbsp; &nbsp; &nbsp; & #9744; Falhar
 
 <table>
-<tr><th colspan="2">Testing highlights </th></tr>
+<tr><th colspan="2">Destaques de teste </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testing lowlights  </th></tr>  
-<tr><td>**Issue**: TBD</td><td>**Remediation:** TBD</td></tr>
+<tr><th colspan="2">Testando pontos menos importantes  </th></tr>  
+<tr><td>**Problema**: TBD</td><td>**Remediação:** TBD</td></tr>
 <tr><th colspan="2">Bloqueadores identificados </td></tr>
 <tr><td>**Bloqueador**: TBD</td><td>**Correção**: TBD</td></tr>
 </table>
@@ -507,7 +509,7 @@ After you’ve completed QoS validation testing by using Group Policy for sites 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate QoS test results to ensure that Teams real-time media traffic is being properly marked and prioritized.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Pontos de decisão</td><td><ul><li>Avaliar os resultados do teste de QoS para garantir que as equipes de tráfego de mídia em tempo real está sendo adequadamente marcado e priorizados.</li></ul></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Resultados do teste de QoS de documento no modelo de resultado do plano de teste fornecido.</li><li>Execute planos de escalação e correção para resolver problemas onde QoS pode não estar configurado corretamente ou não funcionar como esperado para suportar o tráfego de mídia de equipes.</li></ul></td></tr><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li>
 </table>
 
@@ -525,20 +527,20 @@ Para garantir que o tráfego de mídia de equipes faz *desviar soluções de ace
 Para obter orientação adicional sobre como configurar e validar a preparação da rede de configuração de divisão de túnel para equipes, consulte Preparação da [rede](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
 
 > [!NOTE]
-> Due to the sheer volume of remote access solutions available in the marketplace, this document can’t provide vendor-specific details, just general guidelines for what should be configured on remote access solutions.
+> Devido ao volume total de soluções de acesso remoto disponíveis no mercado, este documento não pode fornecer detalhes específicos do fornecedor, diretrizes gerais apenas para o que devem ser configuradas em soluções de acesso remoto.
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Decide the split-tunnel configuration to implement.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Implement split-tunnel configuration.</li><li>Test and validate the split-tunnel configuration.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Pontos de decisão</td><td><ul><li>Decida implementar a configuração de divisão de túnel.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Implementar a configuração de divisão de túnel.</li><li>Testar e validar a configuração de divisão de túnel.</li></ul></td></tr>
 </table>
 
 
-### <a name="document-split-tunnel-configuration-validation-test-results"></a>Document split-tunnel configuration validation test results
+### <a name="document-split-tunnel-configuration-validation-test-results"></a>Resultados de testes de validação de configuração de divisão de túnel de documento
 
-After you’ve completed testing split-tunnel configuration for sites in scope, create a report that summarizes test results and present it during the next steering committee review.
+Depois de concluir teste de configuração de divisão de túnel para sites no escopo, crie um relatório que resume os resultados do teste e apresentá-lo durante a próxima revisão do Comitê de orientação.
 
-#### <a name="site-a-split-tunnel-configuration-validation-testing-summary-report"></a>Site A: Split-tunnel configuration validation testing summary report
+#### <a name="site-a-split-tunnel-configuration-validation-testing-summary-report"></a>Site r: validação da configuração de divisão de túnel testando o relatório de resumo
 
 > [!TIP]
 > A seguir está um exemplo testando modelo de relatório de resumo que você possa examinar durante a próxima reunião comitê de direcionamento ao decidir quando para serviços de conferência de áudio integrado na fase piloto.
@@ -552,17 +554,17 @@ After you’ve completed testing split-tunnel configuration for sites in scope, 
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testando pontos menos importantes  </th></tr>  
 <tr><td>**Problema**: TBD</td><td>**Remediação:** TBD</td></tr>
-<tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><th colspan="2">Bloqueadores identificados </td></tr>
+<tr><td>**Bloqueador**: TBD</td><td>**Correção**: TBD</td></tr>
 </table>
 
 > [!TIP]
-> To facilitate further discussion during the final steering committee review, you can use the updated [Test Results matrix](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) from [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) to document and highlight additional areas that require remediation.
+> Para facilitar a discussão adicional durante a revisão final comitê de orientação, você pode usar atualizado [matriz de resultados de testes](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) de [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) para documentar e destacar áreas adicionais que exigem remediação.
 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png)<br/>Decision points</td><td><ul><li>Evaluate split-tunnel testing results to ensure that Teams real-time traffic is being excluded from the remote access solution.</li></ol></td></tr>
+<tr><td>![](media/audio_conferencing_image7.png)<br/>Pontos de decisão</td><td><ul><li>Avalie a divisão de túnel os resultados dos testes para garantir que o tráfego de equipes em tempo real está sendo excluído da solução de acesso remoto.</li></ol></td></tr>
 <tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Documente os resultados de testes de conectividade de divisão de túnel no modelo de resultado do plano de teste fornecido.</li><li>Execute planos de escalação e correção para resolver problemas em que o roteamento apropriado talvez não exista para dar suporte a mídia de equipes em uma configuração de divisão de túnel.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
 </table>
 
@@ -573,10 +575,10 @@ After you’ve completed testing split-tunnel configuration for sites in scope, 
 
 A ferramenta de avaliação de rede da Microsoft realiza testes de conectividade e simulação de tráfego por streaming simulados pacotes de áudio, para um período predefinido e o número de iterações, para o site mais próximo de borda que fornece conectividade com o serviço de equipes. Um objetivo deste teste é avaliar métricas de desempenho de rede para a porcentagem de reordenar pacotes de cada chamada simulada, latência de ida e volta, tremulação e perda de pacotes. Além disso, o teste valida que a conectividade apropriada é permitida entre interno e elementos de rede para todos os pontos de ingresso de borda que oferecem suporte à conectividade aos serviços de equipes de borda.
 
-For additional guidance on how to confirm and evaluate Teams network readiness for designated sites in scope, see [Network](https://docs.microsoft.com/MicrosoftTeams/prepare-network) Readiness.
+Para obter orientação adicional sobre como confirmar e avaliar a preparação da rede de equipes para sites designados nesse escopo, consulte Preparação da [rede](https://docs.microsoft.com/MicrosoftTeams/prepare-network) .
 
 > [!TIP]
-> To complete network readiness analysis and readiness for sites in scope, designate a lead for each site who can assist with your network readiness evaluation efforts.
+> Para concluir a análise de preparação de rede e preparação para sites no escopo, designe um líder para cada site que pode auxiliar com os esforços de avaliação de prontidão de rede.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png)<br/>Pontos de decisão</td><td><ul><li>Decida a avaliação da rede e o perfil de teste de conectividade para sites no escopo.</li><li>Requisitos de arquivo de configuração de avaliação de rede para sites no escopo de decidir.</li></ol></td></tr>
@@ -600,28 +602,28 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 
 
 
-| Métrica                                                        | Destino                                                                                                             | Weekday: office hours 9:30 AM to 11:00 AM                                                                                                                                                                                                                                                                                                 | Weekday: office hours 2:30 PM to 4:30 PM | Weekday: after hours 10:30 PM to 12:30 AM | Weekend: after hours 9:30 AM to 11:30 AM | Weekend: after hours 2:30 PM to 4:30 PM |
+| Métrica                                                        | Destino                                                                                                             | Weekday: meu horário de trabalho 9:30 AM para 11:00 AM                                                                                                                                                                                                                                                                                                 | Weekday: meu horário de trabalho 2:30 PM para 4:30 PM | Weekday: depois do expediente 10:30 PM para 12:30 AM | Final de semana: depois do expediente 9:30 AM para 11:30 AM | Final de semana: após o horário 2:30 PM para 4:30 PM |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
-| Latência (uma maneira)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
+| Latência (unidirecional)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latência (tempo de ida e volta, ou tempo de resposta)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
-| Perda de pacotes de intermitência                                             | \<10% durante qualquer intervalo de 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | % de 0.2                                     | 0,1%                                    |
+| Perda de pacote de intermitência                                             | \<10% durante qualquer intervalo de 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | % de 0.2                                     | 0,1%                                    |
 | Perda de pacote                                                   | \<1% durante qualquer intervalo de 15 segundos                                                                                   | % de 0.4                                                                                                                                                                                                                                                                                                                                      | % de 0,3                                     | % de 0,3                                      | 0,1%                                     | 0%                                      |
 | Tremulação de entre chegada de pacotes                                   | \<30 ms durante qualquer intervalo de 15 segundos                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
-| Reordenar de pacotes                                                | \<% de 0,05 pacotes de fora de ordem                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
+| Novo pedido de pacotes                                                | \<% de 0,05 pacotes de fora de ordem                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
 
 
 <table>
 <tr><th colspan="2">Destaques de teste </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
-<tr><th colspan="2">Testing lowlights  </th></tr>  
-<tr><td>**Issue**: High latency</td><td>**Remediation:** Investigate packet routing and implement the ideal route.</td></tr>
-<tr><td>**Issue**: Round-trip time isn't double the latency</td><td>**Remediation:** Investigate a possible firewall or router configuration issue. Investigate traffic paths.</td></tr>
-<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Verify through the Network Planner that enough bandwidth has been allocated. </td></tr>
-<tr><td>**Issue**: High jitter </td><td> **Remediation:** Investigate whether the correct differentiated services code point (DSCP) values are being used. </td></tr>
-<tr><td>**Issue**: High packet loss </td><td>**Remediation:** Investigate packet loss. </td></tr>
-<tr><td>**Issue**: High packet reorder </td><td>**Remediation:** Investigate router queueing and bandwidth. </td></tr>
-<tr><th colspan="2">Blockers identified </td></tr>
-<tr><td>**Blocker**: TBD</td><td>**Remediation**: TBD</td></tr>
+<tr><th colspan="2">Testando pontos menos importantes  </th></tr>  
+<tr><td>**Problema**: alta latência</td><td>**Remediação:** Investigue o roteamento de pacotes e implementar a rota ideal.</td></tr>
+<tr><td>**Problema**: o tempo de ida e volta de double a latência não é</td><td>**Remediação:** Investigar um problema de configuração de firewall ou roteador possível. Investigar os caminhos de tráfego.</td></tr>
+<tr><td>**Problema**: alta perda de pacotes </td><td>**Remediação:** Verifique se que a largura de banda suficiente tenha sido alocada por meio do Planejador de rede. </td></tr>
+<tr><td>**Problema**: tremulação alta </td><td> **Remediação:** Investigue se os valores DSCP (ponto) do código de serviços diferenciados corretas estão sendo usados. </td></tr>
+<tr><td>**Problema**: alta perda de pacotes </td><td>**Remediação:** Investigue perda de pacotes. </td></tr>
+<tr><td>**Problema**: reordenar pacotes alta </td><td>**Remediação:** Investigue queueing roteador e largura de banda. </td></tr>
+<tr><th colspan="2">Bloqueadores identificados </td></tr>
+<tr><td>**Bloqueador**: TBD</td><td>**Correção**: TBD</td></tr>
 </table>
 
  
@@ -635,13 +637,13 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 <a name="execute-service-number-port-validation"></a>Execute validação número de porta do serviço
 --------------------------------------
 
-Se você vai precisar transferir números como parte do fornecimento de recursos nos serviços de audioconferência suportados por equipes de discagem, você deve realizar uma porta parcial para um número de serviço. This will help you validate the expectations, requirements, and reasonable timeline as you finish preparing your deployment of Audio Conferencing services in your production environment.
+Se você vai precisar transferir números como parte do fornecimento de recursos nos serviços de audioconferência suportados por equipes de discagem, você deve realizar uma porta parcial para um número de serviço. Isso ajudará a validar as expectativas, requisitos e linha do tempo razoável à medida que você concluir a preparação da implantação do serviços de conferência de áudio em seu ambiente de produção.
 
-To complete a partial port of a service number from your current PSTN service provider to Teams, walk through the steps described below.
+Para concluir uma porta parcial de um número de serviço do seu provedor de serviços PSTN atual para equipes, percorra as etapas descritas abaixo.
 
-#### <a name="step-1"></a>Step 1
+#### <a name="step-1"></a>Etapa 1
 
-Identify the test number that you would like to port to Office 365 as a dial-in number (service number) for Audio Conferencing
+Identificar o número de teste que você gostaria de porta para o Office 365 como um número de discagem (número de serviço) para conferência de áudio
 
 **Importante**
 
@@ -661,20 +663,20 @@ Normalmente, você pode encontrar as informações que você precisará no bill 
 Baixe e criar uma letra de autorização (LOA) para seu país/região que é baseado em "serviço de número" como o tipo de portabilidade number.
 
 > [!NOTE]
-> Because LOA formats can differ by country, region, or number type (that is geographic versus non-geographic or user number versus service or toll-free number), verify that you’re using the correct LOA template for your specific scenario type. See [Download a Letter of Authorization (LOA)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa) for more information about choosing the LOA, or go directly to the [download page](https://www.microsoft.com/download/details.aspx?id=49167).
+> Porque os formatos LOA podem diferir por tipo de número, região ou país (que é geográfica versus não geográfica ou número de usuário versus serviço ou número de chamada gratuito), verificar se você estiver usando o modelo LOA correto para o seu tipo de cenário específico. Consulte [baixar uma letra de autorização (LOA)](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/download-a-letter-of-authorization-loa) para obter mais informações sobre como escolher o LOA ou ir diretamente para a [página de download](https://www.microsoft.com/download/details.aspx?id=49167).
 
 > [!NOTE]
-> **United States only**<br/>
-> Because we’re only porting one service number for this test, be sure to select the appropriate fields in the LOA as shown below:
+> **Estados Unidos somente**<br/>
+> Porque só podemos estiver portar um número de serviço para este teste, certifique-se de selecionar os campos apropriados no LOA, conforme mostrado abaixo:
 
-![How many phone numbers will you be transferring? Answer: I am only transferring some of my numbers from my current carrier.](media/onboarding-test-plan-image1.png "How many phone numbers will you be transferring? Answer: I am only transferring some of my numbers from my current carrier.") 
+![Como muitos números de telefone serão transferidos? Resposta: eu estou transferindo apenas alguns dos Meus números de minha operadora atual.] (media/onboarding-test-plan-image1.png "Como muitos números de telefone serão transferidos? Resposta: eu estou transferindo apenas alguns dos Meus números de minha operadora atual.") 
 
 
-![What kind of phone numbers will you be transferring? Answer: I am transferring voice service phone numbers like for auto attendants or conference bridges.](media/onboarding-test-plan-image2.png "What kind of phone numbers will you be transferring? Answer: I am transferring voice service phone numbers like for auto attendants or conference bridges.")
+![Qual tipo de números de telefone serão você ser transferindo? Resposta: eu estou transferindo números de telefone do serviço de voz como para atendedores automáticos ou pontes de conferência.] (media/onboarding-test-plan-image2.png "Qual tipo de números de telefone serão você ser transferindo? Resposta: eu estou transferindo números de telefone do serviço de voz como para atendedores automáticos ou pontes de conferência.")
 
 > [!IMPORTANT]
 > Se você tiver os números de serviço de pontes de conferência de áudio, atendedores automáticos ou outros números de serviço, gratuitos números de telefone, ou ter mais do que 999 números de telefone do usuário que você precisa transferir para equipes, você precisará enviar manualmente uma ordem de porta.<br/><br/>
->   When you manually port phone numbers by using an LOA, make sure you select the correct type of phone number. Você deve enviar pedidos de porta separada para cada tipo de número de telefone que você deseja transferir.</br><br/>
+>   Quando você manualmente a porta números de telefone usando uma LOA, certifique-se de que selecionar o tipo de número de telefone correto. É necessário enviar pedidos de portabilidade separados para cada tipo de número de telefone que você queira transferir.</br><br/>
 >   Porque queremos testar o número da porta processo usando um número de telefone associado com o mesmo número de telefone faturamento (BTN), você precisará garantir que o número de telefone de faturamento *não* está incluído com o número de telefone específico que está sendo migrado.
 
 #### <a name="step-4"></a>Etapa 4

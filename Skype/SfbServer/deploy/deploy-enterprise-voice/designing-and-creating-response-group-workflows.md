@@ -1,9 +1,8 @@
 ---
-title: Conceber e criar fluxos de trabalho do Grupo de Resposta no Skype for Business 2015
+title: Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Projetar e criar fluxos de trabalho do grupo de resposta, no Skype para Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
-ms.openlocfilehash: a1fe613d006378f8908b038ed0f03449c06b3fdf
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: a4a0d436e4ed2387218825559bca2b383a95c8b4
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501298"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006596"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business-2015"></a>Conceber e criar fluxos de trabalho do Grupo de Resposta no Skype for Business 2015
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Projetando e criando fluxos de trabalho do grupo de resposta no Skype para negócios
  
 Projetar e criar fluxos de trabalho do grupo de resposta, no Skype para Business Server Enterprise Voice. São abordados os fluxos de trabalho interativos e do grupo de busca.
   
-Um fluxo de trabalho define o comportamento de uma chamada desde a hora que o telefone toca até a hora que alguém atende essa chamada. O fluxo de trabalho Especifica a fila a ser usada para manter a chamada e especifica o método de roteamento a ser usado para fluxos de trabalho de grupo de busca ou as perguntas e respostas a ser usado para fluxos de trabalho de grupo de resposta interativa. 
+Um fluxo de trabalho define o comportamento de uma chamada desde a hora que o telefone toca até a hora que alguém atende essa chamada. O fluxo de trabalho especifica a fila que deve ser usada para colocar a chamada em espera, o método de roteamento a ser usado para fluxos de trabalho de grupos de busca ou as perguntas e respostas a serem usadas para fluxos de trabalho de grupos de respostas interativos.
+ 
   
 Um fluxo de trabalho também define configurações, como a mensagem de boas-vindas, a música de espera, o horário comercial e os feriados.
   
@@ -122,7 +122,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
     
      > [!NOTE]
-     > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet **New-CSRgsHoursOfBusiness**. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios 2015](optional-define-response-group-business-hours.md). 
+     > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet **New-CSRgsHoursOfBusiness**. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios](optional-define-response-group-business-hours.md). 
   
      > [!NOTE]
      > Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
@@ -161,7 +161,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
     
     > [!NOTE]
-    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [os conjuntos de feriados do grupo de resposta (opcional) definir no Skype para negócios 2015](optional-define-response-group-holiday-sets.md). 
+    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [conjuntos de feriados do grupo de resposta (opcional) definir Skype para negócios](optional-define-response-group-holiday-sets.md). 
   
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
     
@@ -242,7 +242,7 @@ Um fluxo de trabalho também define configurações, como a mensagem de boas-vin
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Se você deseja definir o horário comercial e feriados, é necessário criá-los antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios 2015](optional-define-response-group-business-hours.md) e [conjuntos de feriados do grupo de resposta (opcional) definir no Skype para negócios 2015](optional-define-response-group-holiday-sets.md).
+6. Se você deseja definir o horário comercial e feriados, é necessário criá-los antes de criar ou modificar o fluxo de trabalho. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios](optional-define-response-group-business-hours.md) e [conjuntos de feriados do grupo de resposta (opcional) definir Skype para negócios](optional-define-response-group-holiday-sets.md).
     
 7. Se você quiser prompts de chamadas recebidas fora do horário comercial ou em feriados, use o cmdlet **New-CsRgsPrompt** para definir o prompt e use o **New-CsRgsCallAction** para definir a ação a ser executada após o aviso. Para obter detalhes, consulte [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) e [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
     
@@ -452,7 +452,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
    - Para usar uma agenda pré-definida de horário comercial, clique em **Usar uma agenda predefinida** e selecione a agenda que deseja usar na lista suspensa.
     
      > [!NOTE]
-     > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet **New-CSRgsHoursOfBusiness**. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios 2015](optional-define-response-group-business-hours.md). Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
+     > Você deve ter definido no mínimo uma agenda predefinida anteriormente para selecionar esta opção. É possível definir agendamentos de predefinições usando o cmdlet **New-CSRgsHoursOfBusiness**. Para obter detalhes, consulte [horário comercial de grupo de resposta (opcional) definir no Skype para negócios](optional-define-response-group-business-hours.md). Ao selecionar uma agenda predefinida, **Dia**, **Abertura** e **Fechamento** são automaticamente preenchidos com os dias e horas em que o grupo de resposta está disponível.
   
    - Para usar uma agenda personalizada que se aplique somente a este fluxo de trabalho, clique em **Usar uma agenda personalizada**.
     
@@ -488,7 +488,7 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 24. Sob **Etapa 5 Especifique seus Feriados**, clique nas opções para um ou mais conjuntos de feriados que definem quando o grupo de resposta estará fechado para negócios.
     
     > [!NOTE]
-    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [os conjuntos de feriados do grupo de resposta (opcional) definir no Skype para negócios 2015](optional-define-response-group-holiday-sets.md). 
+    > É necessário definir feriados e conjuntos de feriados antes de configurar o fluxo de trabalho. Use os cmdlets **New-CsRgsHoliday** e **New-CsRgsHolidaySet** para definir feriados e conjuntos de feriados. Para obter detalhes, consulte [conjuntos de feriados do grupo de resposta (opcional) definir Skype para negócios](optional-define-response-group-holiday-sets.md). 
   
 25. Se você deseja reproduzir uma mensagem nos feriados, selecione a opção **Reproduzir uma mensagem durante os feriados** e especifique a mensagem a ser executada realizado um dos seguintes procedimentos:
     
@@ -644,9 +644,9 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
   
 ## <a name="see-also"></a>Consulte também
 
-[(Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios 2015](optional-define-response-group-holiday-sets.md)
+[(Opcional) Conjuntos de feriados do grupo de resposta definir Skype para negócios](optional-define-response-group-holiday-sets.md)
 
-[(Opcional) Grupo de resposta definir expediente no Skype para negócios 2015](optional-define-response-group-business-hours.md)
+[(Opcional) Grupo de resposta definir expediente no Skype para negócios](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](https://docs.microsoft.com/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
   
@@ -655,3 +655,4 @@ A lista a seguir descreve algumas práticas recomendadas para projetar sua IVR:
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps)
   
 [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+

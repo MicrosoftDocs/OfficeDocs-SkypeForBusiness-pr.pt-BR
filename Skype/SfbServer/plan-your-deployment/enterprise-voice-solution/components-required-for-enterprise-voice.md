@@ -1,9 +1,8 @@
 ---
-title: Componentes obrigatórios para Enterprise Voice no Skype for Business Server 2015
+title: Componentes necessários para o Enterprise Voice no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Um resumo dos componentes do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: 4f28b0dc42b9a64cae7883490a7e9f5e09dd8d80
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 800a12b2d83703f188fff04452cf865757d5cad9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970476"
 ---
-# <a name="components-required-for-enterprise-voice-in-skype-for-business-server-2015"></a>Componentes obrigatórios para Enterprise Voice no Skype for Business Server 2015
+# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Componentes necessários para o Enterprise Voice no Skype para Business Server
  
 Um resumo dos componentes do Enterprise Voice no Skype para Business Server.
   
 Para implantar o Enterprise Voice, os seguintes componentes são necessários na sua topologia. 
   
-- Um ou mais servidores de mediação, que convertem a sinalização e, em algumas configurações, mídia entre seu Skype interno para Business Server, a infraestrutura do Enterprise Voice e um gateway PSTN (rede) telefônica comutada pública ou um protocolo de iniciação de sessão Tronco (SIP). Os servidores de mediação são o componente mais crucial na sua implantação do Enterprise Voice. Para obter mais informações, consulte [componente de servidor de mediação em Skype para Business Server 2015](mediation-server.md).
+- Um ou mais servidores de mediação, que convertem a sinalização e, em algumas configurações, mídia entre seu Skype interno para Business Server, a infraestrutura do Enterprise Voice e um gateway PSTN (rede) telefônica comutada pública ou um protocolo de iniciação de sessão Tronco (SIP). Os servidores de mediação são o componente mais crucial na sua implantação do Enterprise Voice. Para obter mais informações, consulte [componente de servidor de mediação em Skype para Business Server](mediation-server.md).
     
     Servidores de mediação podem ser colocados com servidores Front-End ou instalados como servidores autônomos.
     
-- Componentes de conectividade PSTN, que podem incluir troncos SIP ou gateways PSTN gateways. Para obter mais informações, consulte [componentes de conectividade PSTN em Skype para Business Server 2015](pstn-connectivity.md).
+- Componentes de conectividade PSTN, que podem incluir troncos SIP ou gateways PSTN gateways. Para obter mais informações, consulte [componentes de conectividade PSTN em Skype para Business Server](pstn-connectivity.md).
     
 - Servidores de borda, que permite o uso dos recursos do Enterprise Voice pelos usuários quando eles estão fora do firewall da organização. 
     
@@ -38,6 +38,6 @@ Para implantar o Enterprise Voice, os seguintes componentes são necessários na
     
     O serviço de Autenticação A/V está colocado no serviço de Borda A/V e fornece a este serviços de autenticação. Os usuários externos que tentam se conectar ao serviço de Borda A/V necessitam um token de autenticação fornecido pelo Serviço de Autenticação A/V, antes que suas chamadas possam ser feitas.
     
-- Além disso, alguns componentes do Enterprise Voice executados nos servidores Front-End. Para obter detalhes sobre esses componentes, consulte [componentes de VoIP de servidor Front End para Skype para Business Server 2015](front-end-server-voip.md)
+- Além disso, alguns componentes do Enterprise Voice executados nos servidores Front-End. Para obter detalhes sobre esses componentes, consulte [componentes de VoIP de servidor Front End para Skype para Business Server](front-end-server-voip.md)
     
 

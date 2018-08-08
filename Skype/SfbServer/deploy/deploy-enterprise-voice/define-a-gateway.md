@@ -1,9 +1,8 @@
 ---
-title: Definir um gateway no Construtor de Topologia no Skype for Business Server 2015
+title: Definir um gateway no construtor de topologia no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
-description: 'Resumo: Saiba como definir um gateway PSTN no construtor de topologia no Skype para Business Server 2015.'
-ms.openlocfilehash: ae8656d60d819a92a22db6e97f83ea847ee15765
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como definir um gateway PSTN no construtor de topologia no Skype para Business Server.'
+ms.openlocfilehash: c83951c26a125c568535bfba7d487324a9b725d0
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20998550"
 ---
-# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server-2015"></a>Definir um gateway no Construtor de Topologia no Skype for Business Server 2015
+# <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir um gateway no construtor de topologia no Skype para Business Server
  
-**Resumo:** Saiba como definir um gateway PSTN no construtor de topologia no Skype para Business Server 2015.
+**Resumo:** Saiba como definir um gateway PSTN no construtor de topologia no Skype para Business Server.
   
 Siga estas etapas para usar o construtor de topologias para definir um ponto com os quais você pode associar um servidor de mediação para fornecer conectividade com a rede telefônica pública comutada (PSTN) para usuários habilitados para o Enterprise Voice. Um par ao servidor de mediação pode ser um gateway PSTN, um IP-PBX ou um controlador de borda de sessão (SBC) para um Internet telefonia serviço provedor (ITSP) ao qual você se conecta Configurando um tronco SIP.
   
@@ -38,7 +38,7 @@ Siga estas etapas para usar o construtor de topologias para definir um ponto com
   
 4. Defina um modo de ouvinte (IPv4 ou IPv6) ou o endereço IP do seu novo gateway PSTN e clique em **Avançar**.
 
-5. Defina um tronco de raiz para o gateway PSTN. Um tronco é uma conexão lógica entre um servidor de mediação e um gateway exclusivamente identificado pela tupla.
+5. Defina um tronco raiz para o gateway PSTN. Um tronco é uma conexão lógica entre um servidor de mediação e um gateway exclusivamente identificado pela tupla.
     
     {FQDN do servidor de mediação, porta de escuta do servidor de mediação (TLS ou TCP): gateway IP e FQDN, porta de escuta do gateway}
     

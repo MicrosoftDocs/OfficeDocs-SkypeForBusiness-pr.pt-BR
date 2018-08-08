@@ -2,20 +2,22 @@
 title: Avaliar o seu ambiente para cargas de trabalho de voz de nuvem Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Use personagens e análise de rede para avaliar a preparação da sua organização, abra as portas TCP e UDP corretas, executar qualquer correção de rede.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b97a588a55eb1b7183315751a9483d69eeb0b6b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 72c7e7cc159634edcbd6b108c60fe42108adebac
+ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "20396761"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar o meu ambiente
 
@@ -37,7 +39,7 @@ Você deve incorporar essas informações no registrador risco.
 Como parte do seu ambiente descoberta, incluir todos os assuntos relacionados à computação do usuário final, como uma avaliação de prontidão de PCs e dispositivos móveis para dar suporte a conferência de áudio e o sistema telefônico com chamar planejar business casos de uso, de requisitos de hardware para requisitos de software.
 
 Descoberta do ambiente também poderá revelar se você precisar de [números de telefone de transferência para a Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
-Sabendo disso ajudarão sua organização ajuste seu plano de projeto e preparar as informações necessárias para o número de porta. Você pode usar a [Descoberta ambiental para distribuição de equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) de MyAdvisor para executar a descoberta ambiental.
+Sabendo disso ajudarão sua organização ajuste seu plano de projeto e preparar as informações necessárias para o número de porta. Você pode usar a [Descoberta ambiental para distribuição de equipes da Microsoft](environmental-discovery-for-microsoft-teams-rollout.md) de MyAdvisor para executar a descoberta ambiental.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela conclusão uma avaliação do ambiente?</li></ol></td></tr>

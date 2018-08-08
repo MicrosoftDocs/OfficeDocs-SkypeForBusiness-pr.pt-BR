@@ -1,9 +1,8 @@
 ---
-title: Implantar regiões da rede, sites e sub-redes no Skype for Business 2015
+title: Implantar regiões de rede, sites e sub-redes em Skype para negócios
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,24 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.'
-ms.openlocfilehash: 39fb65f3f2bef0ab81833b42fe50cbf866bee65b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 427ab9102fe7a840aee68e0dbc2c372b908930e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568379"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980771"
 ---
-# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business-2015"></a>Implantar regiões da rede, sites e sub-redes no Skype for Business 2015
+# <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implantar regiões de rede, sites e sub-redes em Skype para negócios
  
 Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.
   
-Os recursos avançados do Enterprise Voice são [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md), e [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Todos esses recursos exigem que você criar regiões de rede, sites de rede e sub-redes. Por exemplo, todos estes recursos requerem que cada sub-rede em sua topologia seja associada a um local de rede específico, e cada site da rede deve ser associado a uma região da rede. Para obter mais informações sobre estes termos, consulte [configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Os recursos avançados do Enterprise Voice são [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md), e [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Esses recursos todos exigem que você crie regiões da rede, sites da redee sub-redes. Por exemplo, todos estes recursos requerem que cada sub-rede em sua topologia seja associada a um local de rede específico, e cada site da rede deve ser associado a uma região da rede. Para obter mais informações sobre estes termos, consulte [configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
   
 O controle de admissão de chamada e o E9-1-1 têm requisitos adicionais de configuração para os sites da rede:
   
-- Controle de admissão de chamada exige que um perfil de política de largura de banda ser especificado para cada site que é restrito por limitações de largura de banda WAN. Se você planeja implantar o controle de admissão de chamada, você deverá[criar perfis de política de largura de banda em Skype para Business Server 2015](create-bandwidth-policy-profiles.md) antes de configurar os locais de rede.
+- O serviço de controle de admissão de chamadas requer que um perfil de política de largura de banda seja especificado para cada site restrito pelas limitações de largura de banda WAN. Se você planeja implantar o controle de admissão de chamada, você deverá [criar perfis de política de largura de banda em Skype para Business Server](create-bandwidth-policy-profiles.md) antes de configurar os locais de rede.
     
-- E9-1-1 requer que uma política de local ser especificado para cada site. Se você pretende implantar o E9-1-1, você deverá[criar políticas de local no Skype para Business Server 2015](create-location-policies.md) antes de configurar os locais de rede.
+- O E9-1-1 requer que uma política local seja especificada para cada site. Se você pretende implantar o E9-1-1, você deverá [criar políticas de local no Skype para Business Server](create-location-policies.md) antes de configurar os locais de rede.
     
 ## <a name="create-or-modify-a-network-region"></a>Criar ou modificar uma região da rede
 
@@ -314,6 +313,7 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 ## <a name="see-also"></a>Ver também
 <a name="BKMK_AssociateSubnets"> </a>
 
+
 [New-CsNetworkRegion.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
   
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
@@ -329,3 +329,4 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 [Set-CsNetworkSubnet.](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
   
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
+

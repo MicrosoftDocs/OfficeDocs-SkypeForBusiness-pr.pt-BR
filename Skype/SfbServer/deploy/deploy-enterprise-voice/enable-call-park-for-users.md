@@ -1,9 +1,8 @@
 ---
-title: Habilitar Estacionamento de Chamada para usuários no Skype for Business 2015
+title: Habilitar o estacionamento de chamada para usuários no Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilite usuários para o estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 88385ae1332905ae242cf0b4a5002f96b336a1af
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 44e72cab776b08cbd0290bb15010d36d370d86b3
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500448"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968220"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business-2015"></a>Habilitar Estacionamento de Chamada para usuários no Skype for Business 2015
+# <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar o estacionamento de chamada para usuários no Skype para negócios
  
 Habilite usuários para o estacionamento de chamada no Skype para Business Server Enterprise Voice.
   
@@ -65,4 +64,7 @@ Por padrão, o estacionamento de chamadas está desabilitado para todos os usuá
 
 ## <a name="see-also"></a>Consulte também
 
-[Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios 2015](voice-policy-and-pstn-usage-records.md)
+
+
+[Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios](voice-policy-and-pstn-usage-records.md)
+

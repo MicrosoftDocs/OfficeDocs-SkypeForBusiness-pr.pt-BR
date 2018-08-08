@@ -1,9 +1,8 @@
 ---
-title: Planejamento de Telefonar via Trabalho no Skype for Business Server 2015
+title: Planejar para chamada Via trabalho no Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planejamento de chamada Via trabalho no Skype para Business Server, que permite integração entre o Skype para a empresa e seu sistema telefônico PBX, para que os usuários podem utilizar Skype for Business para controlar seus telefones PBX.
-ms.openlocfilehash: 29c7c894d15621c0560eeef30ac7e5cbb28044fa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 3a79ac426ff009ddc934d5bb4b1dadd0077941dc
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003924"
 ---
-# <a name="plan-for-call-via-work-in-skype-for-business-server-2015"></a>Planejamento de Telefonar via Trabalho no Skype for Business Server 2015
+# <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planejar para chamada Via trabalho no Skype para Business Server
  
 Planejamento de chamada Via trabalho no Skype para Business Server, que permite integração entre o Skype para a empresa e seu sistema telefônico PBX, para que os usuários podem utilizar Skype for Business para controlar seus telefones PBX.
   
@@ -98,9 +98,7 @@ Para habilitar os usuários para chamada Via trabalho, você deve ter alguns pro
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar o controle de chamada remota no Skype para negócios 2015](remote-call-control.md)
+[Planejar o controle de chamada remota no Skype para negócios](remote-call-control.md)
   
-[Implantar a chamada Via trabalho no Skype para Business Server 2015](../../deploy/deploy-call-via-work.md)
+[Implantar Telefonar via Trabalho no Skype for Business Server 2015](../../deploy/deploy-call-via-work.md)
 

@@ -2,20 +2,22 @@
 title: Documente o seu planejamento de sucesso Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Escolher um modelo de implantação, desenvolver uma matriz de (RACI) responsável-responsável-consultado-informados, criar planos a governança e execução.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70ed024e606e7419a5cd2645cb60ef487fa72982
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: dddc3763f0fa2934d473999d42702746bbb531ee
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695858"
 ---
 # <a name="document-my-success-plan"></a>Documente o meu planejamento de sucesso
 
@@ -84,10 +86,10 @@ O exemplo a seguir é um exemplo de um plano de execução trimestral para a fas
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | Estados Unidos: Nova York                             | 2000                | Sim                | Sistema de Telefonia com Planos de Chamadas | CY2018 T1          |
 | Irlanda: Dublin                          | 300                 | Sim                | Sistema de Telefonia com Planos de Chamadas | CY2018 T1          |
-| Áustria: Viena                          | 500                 | Sim                | N/A                             | T2 CY2018          |
-| Itália: Milão                             | 200                 | Sim                | N/A                             | T2 CY2018          |
-| América do Sul: Brasil                    | 1500                | Sim                | N/A                             | T2 CY2018          |
-| Índia: Délhi                             | 7000                | Sim                | N/A                             | T3 CY2018          |
+| Áustria: Viena                          | 500                 | Sim                | Roteamento direto de sistema do telefone     | T2 CY2018          |
+| Itália: Milão                             | 200                 | Sim                | N/D                             | T2 CY2018          |
+| América do Sul: Brasil                    | 1500                | Sim                | Roteamento direto de sistema do telefone     | T2 CY2018          |
+| Índia: Délhi                             | 7000                | Sim                | N/D                             | T3 CY2018          |
 
 
 <table>

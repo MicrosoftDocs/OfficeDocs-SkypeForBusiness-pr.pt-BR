@@ -2,21 +2,23 @@
 title: Definir o sucesso no sistema telefônico com planos de chamar - Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Medir os resultados do seu sistema telefônico com chamar planos de implantação e verifique se que você tiver obtido os resultados que você queria.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: a5e4345009622758720e246677f830e21428dc57
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 2d342e9ea5a1209a87a7c896de439f2b39b3fd0e
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695546"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 

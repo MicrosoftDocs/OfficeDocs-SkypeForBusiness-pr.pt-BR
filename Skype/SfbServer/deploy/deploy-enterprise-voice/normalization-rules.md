@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar uma regra de normalização no Skype for Business 2015
+title: Criar ou modificar uma regra de normalização no Skype para negócios
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: 'Resumo: Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server 2015.'
-ms.openlocfilehash: 5ee0b138d118d0c437255cb3e90321019119aedf
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server.'
+ms.openlocfilehash: d9c56d96c0eb9069e4ec02b196a326ad8b599e75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20972545"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business-2015"></a>Criar ou modificar uma regra de normalização no Skype for Business 2015
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Criar ou modificar uma regra de normalização no Skype para negócios
  
-**Resumo:** Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server 2015.
+**Resumo:** Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server.
   
 Definir, criar e modificar as regras de normalização no Skype para Business Server.
   
@@ -30,7 +30,7 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 
 1. Abra o Skype para painel de controle do servidor de negócios
     
-2. (Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server 2015](dial-plans.md) por meio da etapa 11 ou [Modify a Dial Plan](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) até a etapa 10.
+2. (Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md) por meio da etapa 11 ou [Modify a Dial Plan](http://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) até a etapa 10.
     
 3. Na **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **nome** (por exemplo, 5DigitExtension).
     
@@ -72,13 +72,13 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 11. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**. 
     
     > [!NOTE]
-    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
 ### <a name="to-define-a-normalization-rule-manually"></a>Para definir uma regra de normalização manualmente
 
 1. Abra o Skype para painel de controle do servidor de negócios
     
-2. (Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server 2015](dial-plans.md). 
+2. (Opcional) Siga as etapas em [criar ou modificar um plano de discagem no Skype para Business Server](dial-plans.md). 
     
 3. Na **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **nome** (por exemplo, nome rule5DigitExtension a normalização).
     
@@ -105,6 +105,6 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 11. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**.
     
     > [!NOTE]
-    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Sempre que criar ou alterar uma regra de normalização, você deve executar o comando **Confirmar todos** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
 

@@ -1,9 +1,8 @@
 ---
-title: Implantar recursos de gerenciamento de chamada no Skype for Business 2015
+title: Implantar os recursos de gerenciamento de chamada do Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Implantando os recursos de gerenciamento de chamada do Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 181c8e983416c91e6847869786170ad2f73c8728
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: a63f53970b25c9148c65c95890df14e77feb0008
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025656"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business-2015"></a>Implantar recursos de gerenciamento de chamada no Skype for Business 2015
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Implantar os recursos de gerenciamento de chamada do Skype para negócios
  
 Implantando os recursos de gerenciamento de chamada do Skype para Business Server Enterprise Voice.
   
@@ -38,12 +38,12 @@ Esta seção descreve como configurar esses recursos de gerenciamento de chamada
   
 ## <a name="in-this-section"></a>Nesta seção
 
-- [Processo de implantação do estacionamento de chamada no Skype para negócios 2015](deployment-process-for-call-park.md)
+- [Processo de implantação do estacionamento de chamada no Skype para negócios](deployment-process-for-call-park.md)
     
-- [Deployment process for Group Call Pickup in Skype for Business 2015](deployment-process-for-group-call-pickup.md)
+- [Processo de implantação para atendimento de chamada do grupo no Skype para negócios](deployment-process-for-group-call-pickup.md)
     
-- [Processo de implantação do grupo de resposta no Skype para negócios 2015](deployment-process-for-response-group.md)
+- [Processo de implantação do grupo de resposta no Skype para negócios](deployment-process-for-response-group.md)
     
-- [Processo de implantação para o aplicativo de anúncio no Skype para Business Server 2015](deployment-process-for-the-announcement-application.md)
+- [Processo de implantação para o aplicativo de anúncio no Skype para Business Server](deployment-process-for-the-announcement-application.md)
     
 

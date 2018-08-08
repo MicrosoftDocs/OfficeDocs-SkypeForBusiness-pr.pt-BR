@@ -1,9 +1,8 @@
 ---
-title: Tronco SIP do site da filial no Skype for Business Server 2015
+title: Tronco Branch site SIP no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Saiba mais sobre o tronco SIP em sites de filial em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 862a39e7472ab461725957cea6e5a89e0c156286
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e14d6ba3101c1981b719ea0f030d2e92fbd4ab7b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966268"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server-2015"></a>Tronco SIP do site da filial no Skype for Business Server 2015
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Tronco Branch site SIP no Skype para Business Server
  
 Saiba mais sobre o tronco SIP em sites de filial em Skype para Business Server Enterprise Voice.
   
-Em alguns casos, você precisará implementar o tronco SIP distribuído em sites de filiais selecionado. Para determinar se um SIP tronco é necessária para um site de filial e para obter detalhes sobre as opções de topologia suportadas para a implantação de troncos SIP nos sites de filiais, consulte o [tronco SIP no Skype para Business Server 2015](sip-trunking.md).
+Em alguns casos, você precisará implementar o tronco SIP distribuído em sites de filiais selecionado. Para determinar se um SIP tronco é necessária para um site de filial e para obter detalhes sobre as opções de topologia suportadas para a implantação de troncos SIP nos sites de filiais, consulte o [tronco SIP no Skype para Business Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Análise de requisitos do tronco SIP do exemplo de local de filial
 

@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 description: Conheça todos os recursos do Microsoft Teams que você pode ativar ou desativar na sua organização do Office 365, incluindo configurações de todo o locatário, integração de email, aplicativos, armazenamento em nuvem e muito mais.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4e450f4ffcb178a19d185b14d65b7adb880924b
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 50650d852e87cb885beae4403022464fafb57373
+ms.sourcegitcommit: 8c3dcfc564c489f4d33bd5f391a5a66b99ded07e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "20265943"
 ---
 <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar recursos de Teams da Microsoft em sua organização do Office 365
 ======================================================

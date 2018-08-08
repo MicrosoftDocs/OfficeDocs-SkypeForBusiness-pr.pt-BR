@@ -1,9 +1,8 @@
 ---
-title: Definir troncos adicionais no Construtor de Topologias no Skype for Business Server 2015
+title: Definir troncos adicionais no construtor de topologia no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,23 +12,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
-description: 'Resumo: Saiba como definir um tronco adicional entre um servidor de mediação e um par de gateway no construtor de topologia no Skype para Business Server 2015.'
-ms.openlocfilehash: e76555d0f03b884ad3f3c91c5ca4ad5d687711a2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como definir um tronco adicional entre um servidor de mediação e um par de gateway no construtor de topologia no Skype para Business Server.'
+ms.openlocfilehash: 65ed4bb850c88c873b61090cbc34a133cb9d95e8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979738"
 ---
-# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server-2015"></a>Definir troncos adicionais no Construtor de Topologias no Skype for Business Server 2015
+# <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definir troncos adicionais no construtor de topologia no Skype para Business Server
  
-**Resumo:** Saiba como definir um tronco adicional entre um servidor de mediação e um par de gateway no construtor de topologia no Skype para Business Server 2015.
+**Resumo:** Saiba como definir um tronco adicional entre um servidor de mediação e um par de gateway no construtor de topologia no Skype para Business Server.
   
 Siga estas etapas para definir um tronco adicional para o qual você pode associar um ponto com um servidor de mediação. Um ponto fornece aos usuários habilitados para o Enterprise Voice com conectividade para a comutação telefônica PSTN (rede pública). Um ponto pode ser um gateway PSTN, um PBX IP ou um Controlador de Borda da Sessão (SBC) para um Provedor de Serviço Telefônico de Internet (ITSP).
   
 Um tronco é uma conexão lógica entre um servidor de mediação e um gateway.
   
 > [!NOTE]
-> Este tópico pressupõe que você tenha o programa de instalação um gateway PSTN e tronco raiz com pelo menos um servidor de mediação autônomo ou posicionado pool ou, conforme descrito em [definir um gateway no construtor de topologia no Skype para Business Server 2015](define-a-gateway.md) na documentação de implantação.
+> Este tópico pressupõe que você tenha o programa de instalação um gateway PSTN e tronco raiz com pelo menos um servidor de mediação autônomo ou posicionado pool ou, conforme descrito em [definir um gateway no construtor de topologia no Skype para Business Server](define-a-gateway.md) na documentação de implantação.
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Para definir um tronco adicional entre um servidor de mediação e um par de gateway
 

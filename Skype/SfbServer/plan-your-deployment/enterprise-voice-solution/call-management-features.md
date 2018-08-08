@@ -1,9 +1,8 @@
 ---
-title: Planejamento de recursos de gerenciamento de chamadas no Skype for Business 2015
+title: Planejar recursos de gerenciamento de chamada do Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Visão geral dos recursos de gerenciamento de chamadas com suporte do Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d7a0f171af9ddd79e5f373af89787423bc752ffe
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 9e09775adbd664032f65e9ed15a661763fc11a16
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006531"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business-2015"></a>Planejamento de recursos de gerenciamento de chamadas no Skype for Business 2015
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planejar recursos de gerenciamento de chamada do Skype para negócios
  
 Visão geral dos recursos de gerenciamento de chamadas com suporte do Skype para Business Server Enterprise Voice.
   

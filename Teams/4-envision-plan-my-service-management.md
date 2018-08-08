@@ -2,20 +2,22 @@
 title: Planejar o gerenciamento de serviço do Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Entregar e manter uma implantação de alta qualidade Planejando funções operacionais e atribuindo um campeão de qualidade.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31a5f9a88feb775ec385808ca92f3c9368cf73e6
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: 3857bde4a71e3745c4e83546c0ad1b0114469197
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695498"
 ---
 # <a name="plan-my-service-management"></a>Planejar o meu gerenciamento de serviço
 
@@ -63,8 +65,9 @@ Guia de operações fornece uma lista de tarefas comuns mapeada para funções t
 |Operações de rede|Execute LAN, WAN, Wi-Fi e acesso à internet|TBA|TBA|
 |Cliente e equipe de pontos de extremidade|Gerenciar implantações de desktop|TBA|TBA|
 |Operações de identidade|Gerenciar a infraestrutura de identidade (Active Directory, serviços de Federação do Active Directory, Azure AD)|TBA|TBA|
-|Gerenciamento de mudanças/adoção|Gerenciar a divulgação, treinamento e adoção da solução|TBA|TBA|
+|Gerenciamento de alterações/adoção|Gerenciar a divulgação, treinamento e adoção da solução|TBA|TBA|
 |Operações do Exchange|Gerenciar o ambiente do Exchange|TBA|TBA|
+|Operações de telefonia|Gerenciar o SBC e os números de telefone|TBA|TBA|
 
 Para facilitar uma mais detalhada funções operacionais mapeamento, incluindo as tarefas associadas a cada função operacional, você pode usar a [Pasta de trabalho de mapeamento de função operacionais](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) para capturar os detalhes que fornecerão o esclarecimento sobre funções e responsabilidades para oferecer suporte a cargas de trabalho de voz de nuvem.
 

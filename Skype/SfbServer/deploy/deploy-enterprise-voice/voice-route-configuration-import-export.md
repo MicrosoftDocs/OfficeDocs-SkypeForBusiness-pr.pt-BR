@@ -1,9 +1,8 @@
 ---
-title: Exportar ou importar um arquivo de configuração de rota de voz no Skype for Business 2015
+title: Exportar ou importar um arquivo de configuração de rota de voz no Skype para negócios
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Resumo: Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype para Business Server 2015 usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: ba16e68ec3218a06d1baf21c238b14e3f566f630
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.'
+ms.openlocfilehash: 462bcf471e4a43bfedf32b0d062731ea7cbd06f9
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965405"
 ---
-# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business-2015"></a>Exportar ou importar um arquivo de configuração de rota de voz no Skype for Business 2015
+# <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar ou importar um arquivo de configuração de rota de voz no Skype para negócios
  
-**Resumo:** Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype para Business Server 2015 usando o Skype para painel de controle do servidor de negócios.
+**Resumo:** Saiba como exportar ou importar um arquivo de configuração de roteamento de voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.
   
 Se quiser salvar sua configuração de roteamento de voz sem publicá-la, siga estas etapas para salvar e recuperar um instantâneo da sua configuração de roteamento de voz. 
   
@@ -57,6 +57,6 @@ Se você tiver feito as alterações não confirmadas às configurações em qua
 6. Clique em **Confirmar** e, em seguida, clique em **Confirmar tudo**.
     
     > [!NOTE]
-    > Sempre que importar um arquivo de configuração de voz, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Sempre que importar um arquivo de configuração de voz, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
 

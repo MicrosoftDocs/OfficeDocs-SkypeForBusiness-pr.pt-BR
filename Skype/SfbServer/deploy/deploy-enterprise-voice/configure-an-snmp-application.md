@@ -1,9 +1,8 @@
 ---
-title: Configurar um aplicativo SNMP no Skype for Business Server 2015
+title: Configurar um aplicativo SNMP no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Configure um aplicativo SNMP para funcionar com o E9-1-1 em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 6024119042bede23f6b38f07c6ccdffa86a76db7
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 9c325777b43c455016657caf4e15316a07282b52
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500414"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992432"
 ---
-# <a name="configure-an-snmp-application-in-skype-for-business-server-2015"></a>Configurar um aplicativo SNMP no Skype for Business Server 2015
+# <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configurar um aplicativo SNMP no Skype para Business Server
  
 Configure um aplicativo SNMP para funcionar com o E9-1-1 em Skype para Business Server Enterprise Voice. 
   

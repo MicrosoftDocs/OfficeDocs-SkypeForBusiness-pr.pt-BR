@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Leia este tópico para revisar as considerações de planejamento para implementar o bypass de mídia com a versão 2.0 do Cloud Connector Edition e posteriores. Para obter informações sobre como implantar o media bypass, consulte Deploy media bypass na nuvem conector Edition.
-ms.openlocfilehash: 0cf79a256030635ccab92653f8f7b40b5ba0b555
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 70c7f8721386c3ef0270e7ef938624a70184b942
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504562"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967133"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planejar o bypass de mídia no Cloud Connector Edition
  
@@ -36,7 +36,7 @@ Embora a sinalização pegue o mesmo caminho com ou sem bypass de mídia, o flux
   
 Por exemplo, nesta topologia — que não o utilizam media bypass — um Skype para o cliente de negócios faz uma chamada PSTN para um número externo, a sinalização SIP vai para o Office 365 e Office 365, em seguida, direciona o tráfego de sinalização de acordo com a voz do usuário final política. Para usuários do conector de nuvem, a política de voz direciona o tráfego de sinalização para o servidor de borda de conector de nuvem, que encaminha o tráfego de sinalização para um controlador de borda de sessão (SBC) PSTN ou gateway através do servidor de mediação de conector de nuvem. Mídia flui do Skype para o cliente de negócios para o servidor de mediação do conector de nuvem e depois para o SBC ou gateway, conforme mostrado no diagrama a seguir:
   
-**Bypass de mídia e sinalização básicos sem mídia**
+**Caminhos de sinalização e mídia sem o bypass de mídia**
 
 ![Sinalizando Sem Bypass de Mídia](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
@@ -44,7 +44,7 @@ Uma chamada de entrada de PSTN usa o mesmo caminho de sinalização na direção
   
 Na topologia da próxima — que utilizam media bypass — sinalização leva o mesmo caminho, mas a mídia fluirá diretamente entre o Skype para Business client e o SBC ou gateway, conforme mostrado no diagrama a seguir:
   
-**Bypass de mídia e sinalização básicos com mídia**
+**Caminhos de sinalização e mídia com o bypass de mídia**
 
 ![Sinalizando Com Bypass de Mídia](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
@@ -52,7 +52,7 @@ Na topologia da próxima — que utilizam media bypass — sinalização leva o 
 
 Bypass de mídia também é útil quando você deseja fornecer serviços de telefonia para vários sites usando um único appliance de conector de nuvem. Porque o conector de nuvem não é possível rotear chamadas com base em números de origem ou de destino, a maioria das empresas implantar um SBC ou gateway por trás de conector de nuvem para tomar decisões de roteamento. O bypass de mídia nesse cenário elimina o salto entre o cliente e o SBC ou o gateway central, conforme mostrado no seguinte diagrama:
   
-**Aplicativo de vários local**
+**Aplicativo multissite**
 
 ![Exemplo de multissite do Cloud Connector](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
@@ -79,7 +79,7 @@ Com a primeira versão do bypass de mídia, o único cliente com suporte é o Sk
   
 Para obter mais informações sobre os canais de versão, consulte [Overview of canais de atualização do Office 365 ProPlus](https://support.office.com/en-us/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Para a versão de lançamento atual dos clientes no canais diferentes, consulte o [canal de versões de atualização de cliente do Office 365](https://technet.microsoft.com/en-us/office/mt465751.aspx). 
+Para a versão de lançamento atual dos clientes no canais diferentes, consulte a [divulgar informações atualizações para o Office 365 ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Considerações de capacidade do Cloud Connector com bypass de mídia
 
@@ -112,4 +112,4 @@ Com o bypass de mídia habilitado, o tráfego de mídia entre um cliente e um SB
   
 ## <a name="see-also"></a>Consulte também
 
-[Implantar o bypass de mídia na nuvem conector Edition](deploy-media-bypass-in-cloud-connector.md)
+[Implantar o bypass de mídia no Cloud Connector Edition](deploy-media-bypass-in-cloud-connector.md)

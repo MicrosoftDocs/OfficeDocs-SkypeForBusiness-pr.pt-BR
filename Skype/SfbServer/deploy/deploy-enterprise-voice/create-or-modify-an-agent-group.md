@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar um grupo de agente no Skype for Business 2015
+title: Criar ou modificar um grupo de operadores em Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Criar ou modificar um grupo de operadores no grupo de resposta, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 5555272fdcaa7b9a3576dc2b943eaeda064e3bb5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: a6b57eca83c230c86e041eb6727d5b3696b689d1
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568342"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018946"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business-2015"></a>Criar ou modificar um grupo de agente no Skype for Business 2015
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Criar ou modificar um grupo de operadores em Skype para negócios
  
 Criar ou modificar um grupo de operadores no grupo de resposta, no Skype para Business Server Enterprise Voice.
   
@@ -29,7 +28,7 @@ Ao criar um grupo de operadores, você seleciona os operadores atribuídos ao gr
   
 Um operador que deve entrar e sair do grupo, que é diferente de entrar ou sair do Skype para os negócios, é denominado um operador formal. Os operadores formais precisam entrar no grupo para que possam receber as chamadas roteadas para o grupo. Isso pode ser útil para os operadores que respondem às chamadas do grupo em tempo parcial. Eles entram e saem de seus grupos, clicando em um item de menu no Skype para os negócios, abra o navegador de Internet Windows Internet Explorer e exibir um console de página da Web.
   
-Um operador que não deseja entrar ou sair do grupo é denominado um operador informal. Os operadores informais entrarão automaticamente ao grupo quando entrarem no Skype para os negócios, e eles não é possível sair do grupo.
+Um operador que não precisa entrar ou sair do grupo é denominado operador informal. Os operadores informais entrarão automaticamente ao grupo quando entrarem no Skype para os negócios, e eles não é possível sair do grupo.
   
 Somente os usuários no local podem ser agentes. Se um operador for movido de local para online, chamadas de grupo de resposta não serão roteadas para esse agente.
   

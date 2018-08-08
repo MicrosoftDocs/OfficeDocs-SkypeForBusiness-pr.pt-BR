@@ -1,9 +1,8 @@
 ---
-title: Projetar o tronco SIP para E9-1-1 no Skype for Business Server 2015
+title: Projetar o tronco SIP para E9-1-1 em Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planejando as topologias de tronco SIP para uma implantação do E9-1-1 que usa os provedores de tronco SIP, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a04256bcad458b639777ec553289deb3c43ddd59
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 8a0264bc66be97a80b9ef1d14a020f438a8a89f5
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974662"
 ---
-# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server-2015"></a>Projetar o tronco SIP para E9-1-1 no Skype for Business Server 2015
+# <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Projetar o tronco SIP para E9-1-1 em Skype para Business Server
  
 Planejando as topologias de tronco SIP para uma implantação do E9-1-1 que usa os provedores de tronco SIP, no Skype para Business Server Enterprise Voice.
   
@@ -32,11 +32,11 @@ Há duas maneiras de implementar um tronco SIP em um Skype para ambiente de serv
     
 - Use um controlador de borda de sessão (SBC) no local para fornecer serviços do provedor de um ponto de demarcação seguro entre os servidores de mediação e o tronco SIP.
     
-Se você escolher o último método, certifique-se de que a marca e o modelo do SBC escolhidos foram certificados e oferecem suporte à transmissão de dados de localização PIDF-LO (objeto Local de formato de dados de informação de presença) como parte de seu SIP INVITE. Caso contrário, as chamadas chegarão ao provedor de serviços de emergência retirado das suas informações de localização. Para obter detalhes sobre certificados SBCs, consulte ["infra-estrutura para Microsoft Lync qualificados"](https://go.microsoft.com/fwlink/p/?LinkId=248425) e ["telefonia infraestrutura para Skype para negócios"](https://technet.microsoft.com/en-us/office/dn947483).
+Se você escolher o último método, certifique-se de que a marca e o modelo do SBC escolhidos foram certificados e oferecem suporte à transmissão de dados de localização PIDF-LO (objeto Local de formato de dados de informação de presença) como parte de seu SIP INVITE. Caso contrário, as chamadas chegarão ao provedor de serviços de emergência retirado das suas informações de localização. Para obter detalhes sobre certificados SBCs, consulte ["infra-estrutura para Microsoft Lync qualificados"](https://go.microsoft.com/fwlink/p/?LinkId=248425) e ["telefonia infraestrutura para Skype para negócios"](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 Os provedores de serviços E9-1-1 fornecem acesso a um par de SBCs para redundância. Você precisa tomar várias decisões sobre a topologia de servidor de mediação e a configuração de roteamento de chamadas. Você tratará os SBCs como pares iguais e utilizará o roteamento em rodízio para chamadas entre eles ou designará um SBC como primário e outro secundário?
   
-Para obter detalhes sobre como implantar um tronco SIP no Skype para Business Server, consulte o [tronco SIP no Skype para Business Server 2015](sip-trunking.md). As seguintes perguntas ajudaram você a implantar troncos SIP para E9-1-1.
+Para obter detalhes sobre como implantar um tronco SIP no Skype para Business Server, consulte o [tronco SIP no Skype para Business Server](sip-trunking.md). As seguintes perguntas ajudaram você a implantar troncos SIP para E9-1-1.
   
  **Você deve implantar o tronco SIP em uma conexão de concessão dedicada ou uma conexão compartilhada com a Internet?**
   
@@ -48,7 +48,7 @@ Para obter detalhes sobre como implantar um tronco SIP no Skype para Business Se
     
  **Você deve implantar um tronco SIP separado para cada filial?**
   
-> Skype para Business Server fornece várias estratégias para manipular a resiliência de voz em filiais, incluindo: tendo redes de dados resiliente, implantando um tronco SIP em cada ramificação da árvore ou enviando chamadas para o gateway local durante interrupções. Para obter detalhes, consulte o [tronco SIP no Skype para Business Server 2015](sip-trunking.md).
+> Skype para Business Server fornece várias estratégias para manipular a resiliência de voz em filiais, incluindo: tendo redes de dados resiliente, implantando um tronco SIP em cada ramificação da árvore ou enviando chamadas para o gateway local durante interrupções. Para obter detalhes, consulte o [tronco SIP no Skype para Business Server](sip-trunking.md).
     
  **O CAC (serviço de controle de admissão de chamada) está habilitado?**
   

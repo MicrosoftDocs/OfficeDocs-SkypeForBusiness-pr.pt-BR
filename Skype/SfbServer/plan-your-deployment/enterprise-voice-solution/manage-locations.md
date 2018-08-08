@@ -1,9 +1,8 @@
 ---
-title: Gerenciar locais para fornecedores de serviço de tronco SIP no Skype for Business Server 2015
+title: Gerenciar locais para provedores de serviços de tronco SIP no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 61aec2a537a9351c73c9e1e903685f686d500517
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 079e921debe9e5b61839795e61db199a018879aa
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20996771"
 ---
-# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server-2015"></a>Gerenciar locais para fornecedores de serviço de tronco SIP no Skype for Business Server 2015
+# <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gerenciar locais para provedores de serviços de tronco SIP no Skype para Business Server
  
 Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando provedores de tronco SIP, em Skype para Business Server Enterprise Voice.
   
@@ -51,7 +51,7 @@ Onde estão os dados e quais etapas você precisa executar para convertê-los pa
   
 Usando a opção de serviço de informações de localização secundário para se conectar a um banco de dados de terceiros, você pode agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço de informações de local pode retornar vários endereços, originário do serviço de informações de localização secundário, para um Skype para o cliente de negócios. Em seguida, o usuário pode escolher o local mais apropriado. 
   
-Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta do Lync Server local. Para obter detalhes, consulte ["[MS-E911WS]: o serviço Web para a especificação de protocolo do E911 suporte"](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obter detalhes sobre como implantar um serviço de informações de localização secundária, consulte [Configure um serviço de informações de localização secundário no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação de implantação.
+Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta do Lync Server local. Para obter detalhes, consulte ["[MS-E911WS]: o serviço Web para a especificação de protocolo do E911 suporte"](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obter detalhes sobre como implantar um serviço de informações de localização secundária, consulte [Configure um serviço de informações de localização secundário no Skype para Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação de implantação.
   
 Para obter detalhes sobre como preencher o banco de dados local, consulte [Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação de implantação.
   

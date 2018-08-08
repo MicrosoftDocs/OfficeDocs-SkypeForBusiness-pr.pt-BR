@@ -1,5 +1,5 @@
 ---
-title: Comparação de recursos do cliente de desktop do Skype para negócios
+title: Comparação de recursos do cliente de desktop do Skype para Business Server 2015
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,19 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: 867586ffd901baf4bc0c9dfe7fe880811cf4042d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223921"
 ---
-# <a name="desktop-client-feature-comparison-for-skype-for-business"></a>Comparação de recursos do cliente de desktop do Skype para negócios
+# <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2015
  
 **Resumo:** Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas compreender quais recursos são suportados em quais clientes.
   
  Antes de implantar ou atualizar para o Skype para os negócios, verifique quais clientes já estão em uso na sua organização. Use as tabelas a seguir para entender o impacto de suporte de recurso sobre esses clientes. Isso pode ajudar você a comunicar alterações aos usuários, a acompanhar o processo de implantação e a compreender totalmente os benefícios da atualização do cliente mais recente.
   
 Alguns recursos disponíveis com o Skype para Business Server 2015 não estão disponíveis no Skype para Business Online, consulte [Online ou híbrida limitações de conta de usuário](desktop-feature-comparison.md#Online-Hybrid) para obter informações específicas. Skype para administradores de negócios Online talvez queira consulte [Skype para negócios Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os planos de diferentes disponíveis para eles.
+
+Consulte a [comparação de recursos do cliente de Desktop do Skype para 2019 de negócios](../../../SfBServer2019/plan/feature-comparison.md) para o cliente de suporte no Skype para Business Server 2019.
   
 As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2015 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Consulte o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
   
@@ -92,9 +95,9 @@ Esta tabela abrange os recursos relacionados ao suporte a mensagens instantânea
 |Registrar conversas de IM no Outlook  <br/> |& #x 2714;|& #x 2714; se o histórico da conversa do lado servidor está ativado  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||Salvo no Communicator para Mac  <br/> |Salvo no Lync para Mac  <br/> |
 |Usar modelos de conversa preparados  <br/> |||||& #x 2714;|& #x 2714;||||
 |Verificar a ortografia  <br/> |& #x 2714;|& #x 2714;||& #x 2714;|||||& #x 2714;|
-|Pesquisa de habilidades (com integração com o SharePoint Server)  <br/> (O local Skype para Business Server e o local do SharePoint 2013 são necessários para pesquisa de habilidade).  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
+|Pesquisa de habilidades (com integração do SharePoint Server)   <br/> (O local Skype para Business Server e o local do SharePoint 2013 são necessários para pesquisa de habilidade).  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||
 |Integração de chat persistente (chat em grupo)  <br/> (não disponível para Skype para Business Online)  <br/> |& #x 2714;||& #x 2714;|||||||
-|Escalonar uma sala de Chat persistente para um Skype para reunião de negócios com um clique  <br/> (não disponível para Skype para Business Online)  <br/> |& #x 2714;||& #x 2714;|||||||
+|Escalonar uma sala de chat persistente para uma reunião do Skype for Business com um clique   <br/> (não disponível para Skype para Business Online)  <br/> |& #x 2714;||& #x 2714;|||||||
 |Imagens embutidas do remetente e do destinatário na janela de IM  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |Enviar mensagens à tinta  <br/> ||||& #x 2714;||||||
 |Receber mensagens à tinta  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
@@ -222,6 +225,7 @@ Autenticação moderna também requer uma topologia descrita em [Skype para topo
 |Autenticação moderna  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |Autenticação multifator  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||
 |Autenticação baseada em certificado  <br/> |& #x 2714; (apenas para domínio dispositivo)  <br/> |& #x 2714;|& #x 2714; (apenas para domínio dispositivo)  <br/> |||||||
+|Autenticação Kerberos  <br/> |& #x 2714;||& #x 2714;|||||||
    
 ## <a name="archiving-compliance-and-logging-support"></a>Suporte a arquivamento, conformidade e logs
 <a name="BKMK_Archiving"> </a>
@@ -282,5 +286,6 @@ As contas do usuário podem existir online ou no local e isso afetará os recurs
 ## <a name="see-also"></a>Ver também
 <a name="Types"> </a>
 
-[Planeje os clientes e dispositivos](clients-and-devices.md)
+[Planejar clientes e dispositivos](clients-and-devices.md)
 
+[Atualizações mais recentes para versões do Skype para empresas que usam o Windows Installer (MSI)](../../sfb-client-updates.md)

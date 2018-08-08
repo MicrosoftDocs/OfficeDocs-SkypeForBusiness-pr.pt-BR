@@ -1,47 +1,55 @@
 ---
-title: Gerar valor com a adoção do Microsoft Teams pelos usuários
-author: LolaJacobsen
-ms.author: lolaj
+title: Valor de unidade com Microsoft Teams por meio de adoção de usuário - Teams da Microsoft
+author: dearbeen
+ms.author: dearbeen
 manager: serdars
-ms.date: 03/02/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-description: Orientações para continuar a sua jornada do Skype for Business para o Microsoft Teams.
+ms.reviewer: dearbeen
+description: Diretrizes para continuar sua jornada do Skype para negócios a Microsoft Teams
+localization_priority: Priority
+ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2162fdf8a942c9a45949c52efaf4fc9b70b76b00
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
+ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "20506640"
 ---
-<a name="drive-value-with-microsoft-teams-through-user-adoption"></a>Gerar valor com a adoção do Microsoft Teams pelos usuários
-================================================================
+![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
+Este artigo faz parte do estágio da sua jornada de atualização, que começa assim que você concluir a atualização do Skype para negócios às equipes excelência operacional.
 
-As mudanças levam tempo, mas você pode começar a perceber o valor e os benefícios hoje mesmo. Enquanto ainda usa o Skype for Business, recomendamos que você progrida na jornada da sua organização para o Teams revelando o valor das comunicações inteligentes com o Office 365 e ajudando a facilitar uma mudança bem-sucedida para o Teams no futuro.
+# <a name="drive-operational-excellence-with-microsoft-teams"></a>Unidade de excelência operacional com Microsoft Teams
 
-A Microsoft está trabalhando arduamente para lhe trazer orientações práticas sob medida para garantir que você esteja estabelecido para um sucesso de logo prazo. Aproveite os recursos abaixo para continuar sua trajetória para o Teams e aguarde o lançamento de mais recursos nos próximos meses.
+Tecnologia está inovando em um ritmo sem precedentes. Manter atual e a habilitação de um ambiente de trabalho moderno tornou-se um padrão em organizações operam. Como Teams da Microsoft, Microsoft 365 e visão de comunicação inteligente da Microsoft continuam Desdobrar, ter um planejamento operacional in-loco ajudará Certifique-se de que sua organização estiver configurada para o sucesso a longo prazo. Um planejamento operacional ideal inclui a monitoração seu ambiente para a integridade e a qualidade, continuando momentum de usuário para otimizar a adoção e planejamento de uma nova funcionalidade que continuará a ficar online ao longo do tempo. 
 
-## <a name="promote-adoption-of-teams-alongside-skype-for-business"></a>Promova a adoção do Teams paralelamente ao Skype for Business 
+## <a name="monitor-for-network-health-and-quality"></a>Monitor de rede é adequada e qualidade
 
-- Personalize e compartilhe o Skype e o Teams lado a lado; recursos para a [Prontidão do usuário](https://go.microsoft.com/fwlink/?linkid=859044)
+O status da sua rede afeta a experiência do usuário. Quando um usuário possui uma experiência ruim (por exemplo, quedas de chamada ou retardo tempo ao ingressar em reuniões), eles correlacionam isso à tecnologia propriamente dito, deixá-las com a impressão de que a tecnologia não funciona e abrindo as portas para aplicativos sem suporte. Implementar um plano para monitorar e reduzir a integridade de rede ajudará a garantir uma experiência de usuário positivo além reduzindo chamadas sua mesa de suporte. Para obter mais informações, consulte os seguintes artigos:
 
-- Compartilhe os recursos de [Treinamento](https://support.office.com/article/Office-Training-Center-b8f02f81-ec85-4493-a39b-4c48e6bc4bfb) do Teams para facilitar a curva de adoção
+-   [Operar o meu serviço](upgrade-operate-my-service.md)
+-   [Monitorar a qualidade](upgrade-monitor-quality.md)
+-   [Aprimorar meu serviço](upgrade-enhance-my-service.md)
 
-- Forneça os tópicos de [Ajuda](https://support.office.com/teams) do Teams para os usuários agilizarem sua integração
+## <a name="drive-user-momentum-and-adoption"></a>Unidade de adoção e momentum do usuário
 
-- Não tem experiência com adoção e gerenciamento de mudanças? Aproveite o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045)
+Para concretizar o máximo benefício e os resultados dos negócios com equipes, os usuários devem realmente usá-lo. No entanto, atrativo inicial tende a wane e usuários reverta facilmente a antigas maneiras de trabalho. Incentivar a adoção de usuário e manter atrativo para equipes com um plano de adoção em andamento, que pode incluir:
 
+-   Inscrever campeões ponto para ajudar Pregue e incentivar os usuários colegas.
+-   Verificando o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obter dicas sobre aumentando o envolvimento e orientando a adoção.
+-   Aproveitando o [Kit de sucesso do cliente de equipes](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para melhorar a conscientização e compartilhar as práticas recomendadas.
+-   Implementando uma [estratégia de gerenciamento de adoção e alteração](http://www.successwithteams.com/) formal para ajudar a sustentar o crescimento de adoção.
 
-## <a name="get-your-organization-ready-for-your-future-move-to-teams"></a>Prepare a sua organização para movimentação futura às equipes
+## <a name="prepare-for-new-functionality"></a>Preparar para a nova funcionalidade
 
-- Use o [Mapa](https://go.microsoft.com/fwlink/?linkid=859047) para guiar a sua jornada para o Teams
+O ciclo de vida de qualquer tecnologia de determinado tornou-se um ciclo de crescimento dinâmico. Isso significa que as equipes e Microsoft 365 mapas continuará Desdobrar, com a nova funcionalidade acendendo em uma cadência regular. Estabelecer um ciclo de alteração dentro da sua organização garantirá que você está pronto para gerenciar os aprimoramentos de colaboração contínua e agregar valor máximo. Isso pode incluir:
 
-- Confira os [Recursos do Teams](https://go.microsoft.com/fwlink/?linkid=859048) e o [FastTrack](https://go.microsoft.com/fwlink/?linkid=859049) para obter assistência na implantação do Teams
+-   Monitore o [mapa](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de equipes.
+-   Implemente uma alteração no formulário de planejamento (conforme ilustrado abaixo) para preparar e implementar novas funcionalidades. Certifique-se de incluir atividades de preparação técnico e do usuário.
 
-- Entre em contato com os [Parceiros](https://go.microsoft.com/fwlink/?linkid=859050) se precisar de ajuda na implantação ou na jornada do Teams
-
-
-
+![Formulário de exemplo mostrando datas de lançamento esperada e observações sobre a nova funcionalidade, listados com as próximas etapas e proprietários] (media/upgrade-change-plan-form.png "Formulário de exemplo mostrando datas de lançamento esperada e observações sobre a nova funcionalidade, listados com as próximas etapas e proprietários")

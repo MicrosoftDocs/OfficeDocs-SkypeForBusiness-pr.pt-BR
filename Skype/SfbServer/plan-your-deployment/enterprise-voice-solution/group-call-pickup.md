@@ -1,9 +1,8 @@
 ---
-title: Planejamento de Recebimento de Chamadas em Grupo no Skype for Business 2015
+title: Planejar a retirada de chamada do grupo no Skype for Business
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planejamento de atendimento de chamada do grupo no Skype para Business Server Enterprise Voice, que permite aos usuários atender chamadas originalmente pretendidas para outras pessoas.
-ms.openlocfilehash: 6a2fde93d6fcbfa4e2b382f3512d65a8d986a8ba
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 17c3d453fa54ea72c02c022d33b0b2f1c61e8b0b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21016195"
 ---
-# <a name="plan-for-group-call-pickup-in-skype-for-business-2015"></a>Planejamento de Recebimento de Chamadas em Grupo no Skype for Business 2015
+# <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planejar a retirada de chamada do grupo no Skype for Business
  
 Planejamento de atendimento de chamada do grupo no Skype para Business Server Enterprise Voice, que permite aos usuários atender chamadas originalmente pretendidas para outras pessoas.
   

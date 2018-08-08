@@ -3,7 +3,6 @@ title: Planejamento para IPv6 no Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-description: 'Resumo: Implemente IPv6 antes de instalar Skype para Business Server 2015.'
-ms.openlocfilehash: 20a1e711d5a9a3a195d9b89328b3c2903d13988c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Implemente IPv6 antes de instalar o Skype para Business Server.'
+ms.openlocfilehash: 6bd33522492edb68ba3e0a6873e81afee59216d8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504219"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968135"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
  
-**Resumo:** Implemente o IPv6 antes de instalar Skype para Business Server 2015.
+**Resumo:** Antes de instalar o Skype para Business Server implementa o IPv6.
   
 Skype para Business Server inclui o suporte para IP versão 6 (IPv6) endereços, juntamente com o suporte contínuo de IP versão 4 (IPv4) endereços. 
 
@@ -60,7 +59,7 @@ As seções a seguir destacam a compatibilidade entre essas três configuraçõe
 ### <a name="client-registration"></a>Registro de cliente
 <a name="client"> </a>
 
-|**Rede de ponto de extremidade do cliente**|**Rede de servidor**|
+|**Extremidade de rede de cliente**|**Rede de servidor**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Pilha dual  <br/> |
@@ -75,7 +74,7 @@ As seções a seguir destacam a compatibilidade entre essas três configuraçõe
 
 As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos. Após o registro bem sucedido de ambos os clientes, as combinações a seguir são suportadas.
   
-|**Ponto de extremidade do cliente 1**|**Ponto de extremidade do cliente 2**|
+|**Extremidade de cliente 1**|**Extremidade de cliente 2**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Pilha dual  <br/> |
@@ -88,7 +87,7 @@ As comunicações ponto a ponto incluem áudio, áudio/vídeo, compartilhamento 
 
 As conferências incluem áudio/vídeo, compartilhamento de aplicativos e colaboração de dados, como uso de quadro de comunicações e compartilhamento de arquivos.
   
-|**Rede de ponto de extremidade do cliente**|**Rede de servidor**|
+|**Extremidade de rede de cliente**|**Rede de servidor**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |IPv4  <br/> |Pilha dual  <br/> |
@@ -103,7 +102,7 @@ As conferências incluem áudio/vídeo, compartilhamento de aplicativos e colabo
 
 Skype para Business Server não suporta bypass de mídia para telefônica pública comutada (PSTN) de rede chamadas se o tráfego estiver através de uma interface de IPv6. Se o desvio de mídia é necessário, recomendamos que o gateway PSTN seja configurado para IPv4. 
   
-|**Interface principal 1**|**Interface PSTN (no servidor de mediação)**|**Configuração do gateway PSTN**|
+|**Interface principal 1**|**Interface PSTN (no Servidor de Mediação)**|**Configuração do gateway PSTN**|
 |:-----|:-----|:-----|
 |IPv4  <br/> |Pilha dual  <br/> |IPv4  <br/> |
 |Pilha dual  <br/> |Pilha dual  <br/> |IPv4  <br/> |
@@ -116,7 +115,7 @@ Skype para Business Server não suporta bypass de mídia para telefônica públi
 
 As comunicações ponto a ponto com usuários remotos incluem mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
   
-|**Rede de usuários remotos**|**Servidor de borda (borda externa)**|
+|**Rede de usuários remotos**|**Servidor de borda (Borda externa)**|
 |:-----|:-----|
 |IPv4  <br/> |IPv4  <br/> |
 |Pilha dual  <br/> |IPv4  <br/> |
@@ -129,7 +128,7 @@ As comunicações ponto a ponto com usuários remotos incluem mensagens instant�
 
 A tabela a seguir mostra a matriz de suporte entre o pool do servidor Front-End e pool de servidores de borda interno.
   
-**Matriz de (borda interna) do Pool de borda e de Pool de Front-End**
+**Matriz do Pool de Front-Ends e do Pool de Borda (Borda interna)**
 
 ||**Pool de borda: IPv4** <br/> |**Pool de borda: Pilha dual** <br/> |**Pool de borda: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -141,7 +140,7 @@ A tabela a seguir mostra a matriz de suporte entre o pool do servidor Front-End 
   
 A tabela a seguir descreve a matriz de combinações suportadas das interfaces de borda interna e externa.
   
-**Pool de borda (borda interna) e borda (borda externa) matriz do pool**
+**Matriz do Pool de borda (Borda interna) e do Pool de borda (Borda externa)**
 
 ||**Pool de borda (Borda externa): IPv4** <br/> |**Pool de borda (Borda externa): Pilha dual** <br/> |**Pool de borda (Borda externa): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
@@ -204,7 +203,7 @@ Os cenários a seguir são suportados durante a migração e coexistência:
 ## <a name="see-also"></a>Ver também
 <a name="migration"> </a>
 
-[Configurar tipos de endereço IP no Skype para negócios](ip-address-types.md)
+[Configurar tipos de endereço IP no Skype for Business](ip-address-types.md)
 
 [Arquitetura de endereçamento do IP versão 6](https://tools.ietf.org/html/rfc4291)
   

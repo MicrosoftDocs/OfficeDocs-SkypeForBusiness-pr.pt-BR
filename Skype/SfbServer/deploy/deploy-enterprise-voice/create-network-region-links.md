@@ -1,9 +1,8 @@
 ---
-title: Criar links de região de rede no Skype for Business Server 2015
+title: Criar links de região de rede no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Criar ou modificar os links de região de rede, que são usados pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: d1f8814c60a99ecd76fe87993549e8dba733e52c
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: f184e18da816bae693fd209a97704681240538e7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500672"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965426"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server-2015"></a>Criar links de região de rede no Skype for Business Server 2015
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Criar links de região de rede no Skype para Business Server
  
 Criar ou modificar os links de região de rede, que são usados pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server. 
   
-Regiões dentro de uma rede são vinculadas através de uma conectividade WAN física. Um link de região de rede cria um link entre duas regiões configuradas para o controle de admissão de chamadas (CAC) e define as limitações de largura de banda de tráfego de áudio e vídeo entre essas regiões.
+Regiões dentro de uma rede são vinculadas através de uma conectividade WAN física. Um link de região de rede cria um link entre duas regiões configuradas para Controle de Admissão de Chamada (CAC) e define os limites da largura de banda em tráfego de áudio e vídeo entre essas regiões.
   
-A topologia de exemplo possui um link entre as regiões da América do Norte e APAC e um link entre as regiões EMEA e APAC. Cada um desses links de região é restrito por largura de banda WAN, conforme descrito na tabela de informações de largura de banda do Link de região no [exemplo: coletando os requisitos para o controle de admissão de chamada no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+A topologia de exemplo possui um link entre as regiões da América do Norte e APAC e um link entre as regiões EMEA e APAC. Cada um desses links de região é restrito por largura de banda WAN, conforme descrito na tabela de informações de largura de banda do Link de região no [exemplo: coletando os requisitos para o controle de admissão de chamada no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Para criar links de região de rede usando Skype do Shell de gerenciamento do servidor de negócios
 

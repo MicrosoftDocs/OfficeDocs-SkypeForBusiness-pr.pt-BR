@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Saiba mais sobre como preparar seu aparelho de conector de nuvem para implantação e usar com o sistema telefônico no Office 365 (nuvem PBX).
-ms.openlocfilehash: 130d593ba94eff9da163363a652bc389b713d1b0
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 54ee8394c9da5b00e6a9c9afa7d4a1f3419c2f41
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176087"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar o dispositivo do Cloud Connector
  
@@ -117,9 +118,9 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
     Especificar o caminho completo do certificado externo, incluindo o nome do arquivo. O certificado pode ser armazenado localmente ou em um compartilhamento de arquivo. Se o certificado for armazenado em uma pasta compartilhada, essa pasta deverá ser criada no primeiro dispositivo de cada site e deverá ser acessível por outros dispositivos pertencentes ao mesmo site. Esse cmdlet copia o certificado externo para o **Diretório de Dispositivos**.
     
     > [!IMPORTANT]
-    > **Se você atualizou o conector de nuvem versão 1.4.2 ou posterior**, verifique se o certificado externo preparado contém chaves privadas e a cadeia de certificados completo incluindo o certificado de autoridade de certificação raiz e a intermediário certificados de autoridade de certificação. > **se você tiver Ainda não foi atualizado para o conector de nuvem versão 1.4.2**, verifique se o certificado externo preparado contém chaves particulares. Esse certificado externo deve ser emitido pela Autoridade de Certificação que é confiável para o Windows por padrão.
+    > **Se você tiver atualizado para o Cloud Connector versão 1.4.2 ou posteriores**, verifique se o certificado externo preparado contém chaves privadas e a cadeia completa de certificados, inclusive o certificado de Autoridade de Certificação raiz e os certificados de Autoridade de Certificação intermediária.   **Se você NÃO tiver atualizado ainda para o Cloud Connector versão 1.4.2**, certifique-se de que  o certificado externo preparado contém chaves privadas. Esse certificado externo deve ser emitido pela Autoridade de Certificação que é confiável para o Windows por padrão.
   
-## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Definir o caminho para o certificado externo do gateway/SBC PSTN
+## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Definir o caminho do certificado de gateway PSTN externo/SBC
 
 Se você estiver usando o TLS entre o Servidor de Mediação e o gateway PSTN/SBC, execute o seguinte cmdlet para definir o caminho, incluindo o nome do arquivo, para o certificado de gateway. Por exemplo: C:\certs\cce\sbc.contoso.com.cer. O certificado deve conter a Autoridade de Certificação raiz e a cadeia intermediária para o certificado atribuído ao gateway:
   
@@ -157,14 +158,14 @@ Para atualizar o arquivo, execute o seguinte cmdlet para obter o modelo (CloudCo
 Export-CcConfigurationSampleFile
 ```
 
-O modelo é armazenado no **Diretório de Dispositivos**.
+O modelo é armazenado no **Diretório de Dispositivos**. 
   
-Depois de atualizá-lo com os valores para seu ambiente, salve o arquivo como CloudConnector.ini no **Diretório de Dispositivos**. É possível executar **Get-CcApplianceDirectory** para determinar o caminho para o **Aparelho de diretório**.
+Depois de atualizá-lo com os valores para seu ambiente, salve o arquivo como CloudConnector.ini no **Diretório de Dispositivos**. Você pode executar o **Get-CcApplianceDirectory** para determinar o caminho do **Diretório de Dispositivos**.
   
 Ao atualizar o arquivo .ini, considere o seguinte:
   
 > [!NOTE]
-> Nem todos os valores para o arquivo .ini são mencionados nesta seção, somente aqueles com uma consideração especial são incluídos aqui. Para obter uma lista completa, consulte a seção [parâmetros de implantação Determine](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) a [Planejar Skype para o conector de nuvem Business Edition](plan-skype-for-business-cloud-connector-edition.md) tópico. > para obter mais informações sobre quais valores precisam ser alteradas para novos sites ou de dispositivos adicionais, consulte [ Site único com alta disponibilidade (HA) em comparação com implantações de múltiplos sites](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) no tópico[implantar vários sites em nuvem de conector](deploy-multiple-sites-in-cloud-connector.md). 
+> Nem todos os valores para o arquivo .ini são mencionados nesta seção, somente aqueles com uma consideração especial são incluídos aqui. Para obter uma lista completa, consulte a seção de [parâmetros de implantação Determine](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) do tópico [Planejar Skype para o conector de nuvem Business Edition](plan-skype-for-business-cloud-connector-edition.md) . Para obter mais informações sobre quais valores devem ser alterados para dispositivo adicionais ou novos sites, consulte [Único site com alta disponibilidade em comparação com implantações de vários sites](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) no tópico [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 - **SiteName:** o valor padrão é **Site1**. Você deve atualizá-lo antes de implantar o Cloud Connector, pois quando você executar **Register-CcAppliance** para registrar um dispositivo em um site novo ou existente, o cmdlet usará **SiteName** para determinar qual site registrar.
     
@@ -180,7 +181,7 @@ Ao atualizar o arquivo .ini, considere o seguinte:
     
     Os scripts de implantação criam um adaptador de rede de gerenciamento em cada máquina virtual, atribui a cada uma delas um IP de gerenciamento e as conecta a um comutador virtual de gerenciamento. Isso permite que o servidor host se conecte a todas as máquinas virtuais e as gerencie por meio da rede de gerenciamento. O comutador virtual de gerenciamento é excluído quando a implantação é concluída.
     
-- **Configurações específicas de base VM:** Configurações nesta seção devem ser definidas para o cmdlet **Convert-CcIsoToVhdx** .
+- **Configurações específicas da VM base:** as configurações apresentadas nesta seção devem ser configuradas para o cmdlet **Convert-CcIsoToVhdx**.
     
     Durante a preparação da imagem da VM base, ela será conectada ao comutador de rede interno. As seguintes configurações são essenciais para a VM acessar a Internet:
     
@@ -306,7 +307,7 @@ A conta CceService é criada durante a implantação do Skype for Business Cloud
 
 Um inquilino do Office 365 com o Skype para Business Online e o sistema telefônico no Office 365 é necessário. Verifique se seu locatário é instalado e configurado antes de tentar usar o conector de nuvem.
   
-Algumas etapas de instalação do Office 365 exigem que você usar o PowerShell remoto do inquilino (TRPS) para configurar seu locatário do Office 365. **Isso deve ser instalado no servidor host.** Você pode baixar o Skype para módulo Business Online do PowerShell do:[Skype para negócios Online, o módulo do Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Algumas etapas de instalação do Office 365 exigem que você usar o PowerShell remoto do inquilino (TRPS) para configurar seu locatário do Office 365. **Isso deve ser instalado no servidor host.** Você pode baixar o Skype para módulo Business Online do PowerShell do: [Skype para negócios Online, o módulo do Windows PowerShell](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
   
 Crie um Skype dedicado para a conta de administrador de negócios para o gerenciamento on-line do conector de nuvem, por exemplo, CceOnlineManagmentAdministrator. Essa conta será usada pelo dispositivo para adicionar ou remover dispositivos, habilitar ou desabilitar a atualização automática do sistema operacional, habilitar ou desabilitar a atualização automática de binários. Defina a senha dessa conta para nunca expirar, assim não será necessário alterá-la para o serviço sempre que ela expirar.
   

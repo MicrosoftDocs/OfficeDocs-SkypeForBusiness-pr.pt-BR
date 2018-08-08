@@ -12,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: 'Resumo: Revise os requisitos de vídeo do cliente durante o planejamento de Skype para Business Server 2015.'
-ms.openlocfilehash: ea4c7e1cf9e0e1df24b00e817cac22128df1d0b8
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Revise os requisitos de vídeo do cliente durante o planejamento de Skype para Business Server.'
+ms.openlocfilehash: 4009cb348c9a839fb200901808555521f453d5b8
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20966753"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype para resoluções de vídeo de cliente de negócios
  
-**Resumo:** Examine os requisitos de vídeo do cliente durante o planejamento de Skype para Business Server 2015.
+**Resumo:** Examine os requisitos de vídeo do cliente durante o planejamento de Skype para Business Server.
   
 Este artigo descreve o suporte de hardware de vídeo para Skype para chamadas de vídeo de negócios e descreve como determinar a qualidade de vídeo esperada para várias configurações de dispositivo móvel, tablet e computador. 
   
@@ -61,9 +62,9 @@ A Ferramenta de Avaliação de Sistema do Windows (WinSAT) determina o WEI. Quan
     
 As três tabelas a seguir explicam a capacidade máxima de codificação e decodificação de diferentes tipos de PC, dependendo da aceleração de hardware que eles suportam. Para resoluções iguais ou maiores que 640x360, a taxa de quadros máxima suportada é de 30 quadros por segundo (fps). Para resoluções menores que 640x360, a taxa de quadros máxima suportada é de 15 fps.
   
-**Codificação acelerada por computador sem DXVA e Hardware**
+**Computador sem DXVA e sem codificador acelerado por hardware**
 
-|**Resolução do codificador capaz**|**Resolução do decodificador capaz**|**Requisito**|
+|**Capacidade de resolução do codificador**|**Capacidade de resolução do decodificador**|**Requisito**|
 |:-----|:-----|:-----|
 |424 x 240  <br/> |424x240 (640x360 a 15fps para cenários apenas de recepção)  <br/> |1 Núcleo e VideoEncodeScore ≥ 4,0  <br/> |
 |640 x 360  <br/> |640 x 360  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
@@ -73,9 +74,9 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 |1280 x 720  <br/> |1920 x 1080  <br/> |4 Núcleos e VideoEncodeScore ≥ 7.3  <br/> |
 |1920 x 1080  <br/> |1920 x 1080  <br/> |N/D  <br/> |
    
-**Codificação acelerada por computador com DXVA, mas sem Hardware**
+**Computador com DXVA, mas sem codificador acelerado por hardware**
 
-|**Resolução do codificador capaz**|**Resolução do decodificador capaz**|**Requisito**|
+|**Capacidade de resolução do codificador**|**Capacidade de resolução do decodificador**|**Requisito**|
 |:-----|:-----|:-----|
 |424 x 240  <br/> |1920 x 1080  <br/> |1 Núcleo e VideoEncodeScore ≥ 3,0  <br/> |
 |640 x 360  <br/> |1920 x 1080  <br/> |2 Núcleos e VideoEncodeScore ≥ 4,5  <br/> |
@@ -86,9 +87,9 @@ As três tabelas a seguir explicam a capacidade máxima de codificação e decod
 > [!NOTE]
 > A pontuação WinSAT no Windows 7 está limitada ao máximo de 7,9. Dessa forma, a capacidade de codificação de um computador sem um codificador acelerado por hardware pode ser atingida somente no Windows 8 ou no Windows 8.1, onde a pontuação WinSAT máxima é 9,9. 
   
-**Codificação acelerada por computador com DXVA e com Hardware Intel HD Graphics**
+**Computador com DXVA e codificador acelerado por hardware Intel HD Graphics**
 
-|**Resolução do codificador capaz**|**Resolução do decodificador capaz**|**Requisito**|
+|**Capacidade de resolução do codificador**|**Capacidade de resolução do decodificador**|**Requisito**|
 |:-----|:-----|:-----|
 |1280 x 720  <br/> |1920 x 1080  <br/> |Toda a segunda e a terceira geração Intel HD Graphics  <br/> |
 |1920 x 1080  <br/> |1920 x 1080  <br/> |Segunda e terceira geração Intel HD Graphics e GraphicsScore ≥ 5,0  <br/> |

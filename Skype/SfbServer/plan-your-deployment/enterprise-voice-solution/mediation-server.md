@@ -1,9 +1,8 @@
 ---
-title: Componente do Servidor de Mediação no Skype for Business Server 2015
+title: Componente do servidor de mediação no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Saiba mais sobre servidores de mediação no Skype para Business Server, incluindo suas topologias suportadas e suas relações M:N troncos, bypass de mídia e controle de admissão de chamada.
-ms.openlocfilehash: 73166df66acac493717ce2c07e42e5429176a400
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 95feb3b419eacf77739dfed98d2eee70eb49dc06
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009190"
 ---
-# <a name="mediation-server-component-in-skype-for-business-server-2015"></a>Componente do Servidor de Mediação no Skype for Business Server 2015
+# <a name="mediation-server-component-in-skype-for-business-server"></a>Componente do servidor de mediação no Skype para Business Server
  
 Saiba mais sobre servidores de mediação no Skype para Business Server, incluindo suas topologias suportadas e suas relações M:N troncos, bypass de mídia e controle de admissão de chamada.
   
@@ -52,7 +52,7 @@ As principais funções do servidor de mediação são:
     
 A figura a seguir mostra os protocolos de sinalização e de mídia usados pelo servidor de mediação durante a comunicação com um gateway PSTN básico e a infraestrutura do Enterprise Voice.
   
-**Protocolos de sinalização e mídia usados pelo servidor de mediação**
+**Protocolos de sinalização e a mídia usados pelo Servidor de Mediação**
 
 ![Diagrama dos protocolos do servidor de mediação](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
@@ -85,13 +85,13 @@ O CAC (controle de admissão de chamadas) gerencia o estabelecimento de sessão 
   
 O bypass de mídia e a reserva de largura de banda são mutuamente exclusivos. Se um bypass de mídia for empregado para uma chamada, o controle de admissão de chamadas não será executado para essa chamada. Presume-se que não haja links envolvidos na chamada com a largura de banda restrita. Se o controle de admissão de chamada é usado para uma chamada específica que envolve o servidor de mediação, a chamada não pode empregar bypass de mídia.
   
-Para obter detalhes sobre a mídia bypass ou controle de admissão de chamada, consulte [Plan for media bypass no Skype para negócios 2015](media-bypass.md) ou [Planejar o controle de admissão de chamada no Skype para Business Server 2015](call-admission-control.md).
+Para obter detalhes sobre a mídia bypass ou controle de admissão de chamada, consulte [Planejar media bypass no Skype para negócios](media-bypass.md) ou a [Planejar o controle de admissão de chamada no Skype para Business Server](call-admission-control.md).
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>E9-1-1 (9-1-1 Avançado) e Servidor de Mediação
 
 O servidor de mediação tem recursos estendidos para que ele corretamente possa interagir com provedores de serviços do Enhanced 9-1-1 (E9-1-1). Nenhuma configuração especial é necessária no servidor de mediação. As extensões de SIP necessárias para interação de E9-1-1 são, por padrão, incluído no protocolo SIP do servidor de mediação para suas interações com um par de gateway (gateway PSTN, IP-PBX ou o SBC de um provedor de serviços de telefonia da Internet, incluindo o serviço de E9-1-1 Provedores)
   
-Se o tronco SIP para um provedor de serviço E9-1-1 pode ser encerrado em um pool existente do servidor de mediação ou exigirá que os servidores de mediação autônomos dependerá se o SBC E9-1-1 pode interagir com um pool de servidores de mediação. Para obter detalhes, consulte [tronco M:N no Skype para Business Server 2015](m-n-trunk.md).
+Se o tronco SIP para um provedor de serviço E9-1-1 pode ser encerrado em um pool existente do servidor de mediação ou exigirá que os servidores de mediação autônomos dependerá se o SBC E9-1-1 pode interagir com um pool de servidores de mediação. Para obter detalhes, consulte [tronco M:N no Skype para Business Server](m-n-trunk.md).
   
 ## <a name="media-bypass-and-mediation-server"></a>Bypass de mídia e Servidor de Mediação
 
@@ -117,13 +117,13 @@ Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para av
   
 A figura a seguir mostra uma topologia simples que consiste em dois locais conectados por um link WAN. Servidor de mediação é colocado em um pool de Front-End no Site 1. Os servidores de mediação no Site 1 controla o gateway PSTN no Site 1 e o gateway no Site 2. Nessa topologia, o bypass de mídia está habilitado globalmente para usar as informações do local e da região, e os troncos até cada gateway PSTN (GW1 e GW2) têm bypass habilitado.
   
-**Exemplo de sites conectados por uma WAN link com um servidor de mediação no Site 1 e um gateway PSTN no Site 2**
+**Exemplo de sites conectados por um link WAN com um Servidor de Mediação no Site 1 e um gateway PSTN no Site 2**
 
 ![Topologia de voz com Gateway WAN do servidor de mediação](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 A próxima figura mostra uma topologia simple onde o servidor de mediação é colocado no pool de Front-End no Site 1 e tem uma conexão SIP direto para o IP-PBX no Site 1. Nessa figura, o servidor de mediação também controla um gateway PSTN no Site 2. Suponha que Skype para usuários comerciais existir em Sites 1 e 2. Também pressupõem que o IP-PBX possui um processador de mídia associado que deve ser desviado pela todas as mídias provenientes de Skype para pontos de extremidade de negócios antes de serem enviados aos pontos de extremidade de mídia controlados pelo IP-PBX. Nessa topologia, o bypass de mídia está habilitado globalmente para usar as informações do local e da região, e os troncos até o PBX e o gateway PSTN têm o bypass de mídia habilitado.
   
-**Exemplo de sites conectados por uma WAN link com um servidor de mediação no Site 1 e um PBX no Site 2**
+**Exemplo de sites conectados por um link WAN com um Servidor de Mediação no Site 1 e um PBX no Site 2**
 
 ![PBX WAN do servidor de mediação de topologia de voz](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
@@ -160,7 +160,7 @@ Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para av
 > [!NOTE]
 > O bypass de mídia não interopera com todos os gateways PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e fez alguns testes com IP-PBXs da Cisco. Bypass de mídia é suportado somente com produtos e versões listadas em [Unified Communications programa de interoperabilidade aberta - Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
-Se a resiliência de site de filial for necessária, um aparelho de filial persistente ou a combinação de um servidor Front-End, um servidor de mediação e um gateway deve ser implantada no site da filial. (A pressuposição com resiliência de site de filial é que presença e conferência não são resilientes no site.) Para obter orientação sobre o site de filial Planejando o voice, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server 2015](enterprise-voice-resiliency.md).
+Se a resiliência de site de filial for necessária, um aparelho de filial persistente ou a combinação de um servidor Front-End, um servidor de mediação e um gateway deve ser implantada no site da filial. (A pressuposição com resiliência de site de filial é que presença e conferência não são resilientes no site.) Para obter orientação sobre o site de filial Planejando o voice, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](enterprise-voice-resiliency.md).
   
 Para interações com um IP-PBX, se o IP-PBX não suporta corretamente interações de mídia inicial com várias caixas de diálogo iniciais e interações do RFC 3960, pode haver corte da primeira primeiras palavras da saudação de chamadas de entrada do IP-PBX para Skype para Pontos de extremidade de negócios. Esse problema pode ser mais grave se um servidor de mediação em um site central for onde a rota será encerrada em um site de filial, roteamento de chamadas para um IP-PBX por mais tempo é necessário para a conclusão de sinalização. Se você enfrentar esse comportamento, implantar um servidor de mediação no site da filial é a única maneira de reduzir o corte da primeira algumas palavras.
   

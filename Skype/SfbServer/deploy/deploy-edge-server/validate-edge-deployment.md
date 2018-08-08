@@ -1,8 +1,7 @@
 ---
-title: Validar sua implantação de Borda no Skype for Business Server 2015
+title: Validar sua implantação de borda no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,22 +10,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 'Resumo: Saiba como verificar se sua implantação do servidor de borda ou pool de servidor de borda está funcionando no Skype para Business Server 2015.'
-ms.openlocfilehash: b8adc5e8d652607156d0136671b1f149fbfe27b4
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como verificar se sua implantação do servidor de borda ou pool de servidor de borda está funcionando no Skype para Business Server.'
+ms.openlocfilehash: cb239e2777926796761dd91c1460e1147772a34a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21015094"
 ---
-# <a name="validate-your-edge-deployment-in-skype-for-business-server-2015"></a>Validar sua implantação de Borda no Skype for Business Server 2015
+# <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar sua implantação de borda no Skype para Business Server
  
-**Resumo:** Saiba como verificar se sua implantação do servidor de borda ou pool de servidor de borda está funcionando no Skype para Business Server 2015.
+**Resumo:** Saiba como verificar se sua implantação do servidor de borda ou pool de servidor de borda está funcionando no Skype para Business Server.
   
-Depois que você implantou o servidor de borda ou pool de servidor de borda, você precisa saber se ela está funcionando corretamente. Aqui estão algumas coisas que possa ajudar com confirmando seu ambiente de borda está conectada por seus servidores internos e também que os usuários externos podem se conectam ao seu Skype para ambiente de negócios Server 2015 por meio de sua borda.
+Depois que você implantou o servidor de borda ou pool de servidor de borda, você precisa saber se ela está funcionando corretamente. Aqui estão algumas coisas que possa ajudar com confirmando seu ambiente de borda está conectada por seus servidores internos e também que os usuários externos podem se conectam ao seu Skype para ambiente de servidor de negócios por meio de sua borda.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Verificar conectividade entre seus servidores internos e seus servidores de Borda
 
-Enquanto a validação de conectividade é feita automaticamente no servidor de borda ou pool de servidores de borda quando os servidores de borda estão instalados, você pode confirmar isso para si mesmo ainda com o Windows PowerShell. Execute o cmdlet Get-CsManagementStoreReplicationStatus no servidor interno que tem gerenciamento Central armazenar ou qualquer computador que ingressou domínio no qual Skype para componentes do Business Server 2015 principais (ocscore. msi) estão instalados.
+Enquanto a validação de conectividade é feita automaticamente no servidor de borda ou pool de servidores de borda quando os servidores de borda estão instalados, você pode confirmar isso para si mesmo ainda com o Windows PowerShell. Execute o cmdlet Get-CsManagementStoreReplicationStatus no servidor interno que tem gerenciamento Central armazenar ou qualquer computador que ingressou domínio no qual Skype para componentes de principais (ocscore. msi) do Business Server estão instaladas.
   
 O resultado inicial da execução deste comando pode mostrar um status Falso, em vez de Verdadeiro, para a replicação. Caso isso ocorra, execute o cmdlet Invoke-CsManagementStoreReplication. Aguarde até ele concluir a replicação e depois execute o cmdlet Get-CsManagementStoreReplicationStatus novamente.
   

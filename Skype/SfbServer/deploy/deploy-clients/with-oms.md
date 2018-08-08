@@ -3,7 +3,6 @@ title: Implantar o gerenciamento do Skype Room Systems v2 com OMS
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 4/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de sistemas de sala Skype v2 dispositivos de forma integrada e de ponta a ponta, usando o pacote de gerenciamento de operações do Microsoft.
-ms.openlocfilehash: b0e43360b92b2ac8fdc32794a03942ec5c7755dc
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: d56b67d17cd66ceaf88a2cbe0b222d4769667c4c
+ms.sourcegitcommit: 1f345f13c8edf04efb0a8dd02d6c11f793ba201a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501029"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "22109034"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implantar o gerenciamento do Skype Room Systems v2 com OMS
  
@@ -42,13 +41,13 @@ Em um nível superior, é necessário executar as seguintes tarefas:
 7.  [Configurar soluções adicionais do pacote de gerenciamento de operações](with-oms.md#Solutions)
 
 > [!IMPORTANT]
-> Embora com a configuração mínima, o pacote de gerenciamento de operações pode monitorar a um computador que executa um sistema operacional Windows, ainda há algumas etapas de sistemas de sala Skype – específicos que precisam ser executadas antes de começar a implantar agentes para todos os sistemas de sala do Skype dispositivos.
+> Embora com a configuração mínima, o pacote de gerenciamento de operações pode monitorar a um computador que executa um sistema operacional Windows, ainda há algumas etapas v2 específica Skype sala sistemas que precisam ser executadas antes de começar a implantar agentes para todas as salas do Skype Dispositivos de sistemas.
 > Portanto, é altamente recomendável que executar todas as etapas de configuração na ordem correta para um controlado de instalação e configuração. A qualidade do resultado final depende muito a qualidade da configuração inicial.
 
 ## <a name="validate-operations-management-suite-configuration"></a>Validar a configuração do pacote de gerenciamento de operações
 <a name="validate_OMS"> </a>
 
-Você precisa ter um espaço de trabalho do pacote de gerenciamento de operações para iniciar a coleta de logs de dispositivos de sistemas de sala Skype. Um espaço de trabalho é um ambiente de análise de Log exclusivo com seu próprio repositório de dados, fontes de dados e soluções. Se você já tiver um espaço de trabalho de análise de Log existente, você pode usá-lo para monitorar sua implantação de sistemas de sala Skype ou você pode criar um dedicado Log Analytics espaço de trabalho específico para o monitoramento de sistemas de sala Skype precisa.
+Você precisa ter um espaço de trabalho do pacote de gerenciamento de operações para iniciar a coleta de logs de dispositivos do Skype sala sistemas v2. Um espaço de trabalho é um ambiente de análise de Log exclusivo com seu próprio repositório de dados, fontes de dados e soluções. Se você já tiver um espaço de trabalho de análise de Log existente, você pode usá-lo para monitorar sua implantação do Skype sala sistemas v2 ou você pode criar um dedicado Log Analytics espaço de trabalho específico para o monitoramento de sistemas de sala Skype v2 precisa.
 
 Se você precisar criar um novo espaço de trabalho de análise de Log, siga as instruções no artigo [criar um espaço de trabalho de análise de Log no portal do Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-create-workspace)
 
@@ -56,28 +55,28 @@ Se você precisar criar um novo espaço de trabalho de análise de Log, siga as 
 > Para usar a análise de Log com pacote de gerenciamento de operações, você precisa ter uma assinatura do Azure active. Se você não tiver uma assinatura do Windows Azure, você pode criar [uma assinatura de avaliação gratuita](https://azure.microsoft.com/free) como ponto de partida.
 
 
-### <a name="configure-operations-management-suite-to-collect-skype-room-systems-event-logs"></a>Configurar o pacote de gerenciamento de operações para coletar logs de eventos de sistemas de sala do Skype
+### <a name="configure-operations-management-suite-to-collect-skype-room-systems-v2-event-logs"></a>Configurar o pacote de gerenciamento de operações para coletar logs de eventos do Skype sala sistemas v2
 
 Análise de log coleta somente eventos de logs de eventos do Windows que são especificados nas configurações do. Para cada log, somente os eventos a severidades selecionadas são coletados.
 
-Você precisará configurar o pacote de gerenciamento de operações para coletar os logs necessários para monitorar o status de dispositivo e aplicativo de sistemas de sala Skype. Dispositivos de v2 de sistemas de sala Skype usam o log de eventos de sistemas de sala Skype.
+Você precisará configurar o pacote de gerenciamento de operações para coletar os logs necessários para monitorar o status de dispositivo e aplicativo v2 Skype sistemas de sala. Dispositivos de v2 de sistemas de sala Skype usam o log de eventos do **Sistema do Skype sala** .
 
-Para configurar o pacote de gerenciamento de operações para coletar os eventos de sistemas de sala Skype, consulte [fontes de dados de log de eventos do Windows na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
+Para configurar o pacote de gerenciamento de operações para coletar os eventos de sistemas de sala Skype v2, consulte [fontes de dados de log de eventos do Windows na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 ![Configurações de log de eventos] (../../media/Deploy_OMS_2.png "Configurações de log de eventos")
 
 
 > [!IMPORTANT]
-> Selecione o log de eventos do sistema do Skype sala e marque as caixas de seleção de **erro**, **Aviso**e **informações** .
+> Selecione o log de eventos do **Sistema do Skype sala** e marque as caixas de seleção de **erro**, **Aviso**e **informações** .
 
 ## <a name="configure-test-devices-for-operations-management-suite-setup"></a>Configurar dispositivos de teste para a instalação do pacote de gerenciamento de operações
 <a name="configure_test_devices"> </a>
 
-É necessário preparar o pacote de gerenciamento de operações para poder monitorar eventos relacionados a sistemas de sala Skype –. Para começar com, você precisa implantar agentes do pacote de gerenciamento de operações apenas um ou dois dispositivos de sistemas de sala Skype quando você tiver acesso físico ao e tem os dispositivos de teste gerar alguns dados e push-lo no espaço de trabalho de análise de Log.
+É necessário preparar o pacote de gerenciamento de operações para poder monitorar eventos relacionados ao v2 de sistemas de sala do Skype. Para começar com, você precisa implantar agentes do pacote de gerenciamento de operações para apenas um ou dois sistemas de sala Skype v2 os dispositivos que possuem acesso físico ao e têm os dispositivos de teste gerar alguns dados e push-lo no espaço de trabalho de análise de Log.
 
 ### <a name="install-operations-management-suite-agents-to-test-devices"></a>Instale os agentes de pacote de gerenciamento de operações para dispositivos de teste
 
-Implante o agente do pacote de gerenciamento de operações para os dispositivos de teste usando as instruções fornecidas em [computadores com Windows se conectar ao serviço de Log de análise no Windows Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows). Este artigo oferece informações detalhadas sobre as etapas de implantação do Microsoft Monitoring Agent para Windows, instruções sobre como obter a identificação de espaço de trabalho do pacote de gerenciamento operações e a chave primária para obter os dispositivos de sistemas de sala Skype conectado ao seu Implantação do pacote de gerenciamento de operações e etapas para verificar a conectividade do agente para análise de Log.
+Implante o agente do pacote de gerenciamento de operações para os dispositivos de teste usando as instruções fornecidas em [computadores com Windows se conectar ao serviço de Log de análise no Windows Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows). Este artigo oferece informações detalhadas sobre as etapas de implantação do Microsoft Monitoring Agent para Windows, instruções para obter a *ID do espaço de trabalho* do pacote de gerenciamento de operações e a *chave primária* para obter os dispositivos de v2 de sistemas de sala do Skype conectado à sua implantação do pacote de gerenciamento de operações e etapas para verificar a conectividade do agente para análise de Log.
 
 ### <a name="generate-sample-skype-room-systems-events"></a>Gerar eventos de sistemas de sala Skype de amostra
 
@@ -85,19 +84,19 @@ Depois que o agente do pacote de gerenciamento de operações é implantado nos 
 
 1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
 
-2.  Liste os eventos gerados por um dispositivo de sistemas de sala Skype:
+2.  Liste os eventos gerados por um dispositivo do Skype sala sistemas v2:
     1.  Vá para a **Pesquisa de Log** e usar uma consulta para recuperar os registros que terão o campo personalizado.
     2.  Consulta de exemplo:`Event | where Source == "SRS-App"`
 
 3.  Certifique-se de que a consulta retorna registros de log que incluam eventos pulsação bem-sucedida.
 
 4.  Gerar um problema de hardware e validar que os eventos necessários são registrados no pacote de gerenciamento de operações.
-    1.  Desconecte um dos dispositivos periféricos no teste do sistema de sistemas de sala Skype. Isso poderia ser a câmera, viva-voz, microfone ou exibição da sala de frente
+    1.  Desconecte um dos dispositivos periféricos no teste do sistema do Skype sala sistemas v2. Isso poderia ser a câmera, viva-voz, microfone ou exibição da sala de frente
     2.  Aguarde 10 minutos para que o log de eventos a serem preenchidos no pacote de gerenciamento de operações.
     3.  Use uma consulta para listar eventos de erro de hardware:`Event | where EventID == 3001`
 
 5.  Gerar um problema de aplicativo e validar que os eventos necessários são registrados.
-    1.  Modificar a configuração do aplicativo de sistemas de sala Skype e digite um par de endereço/senha incorreta do protocolo de iniciação de sessão (SIP).
+    1.  Modificar a configuração de aplicativo do Skype sala sistemas v2 e digite um par de endereço/senha incorreta do protocolo de iniciação de sessão (SIP).
     2.  Aguarde 10 minutos para que o log de eventos a serem preenchidos no pacote de gerenciamento de operações.
     3.  Use uma consulta para listar eventos de erro do aplicativo:`Event | where EventID == 2001`
 
@@ -113,30 +112,31 @@ Para extrair seus campos personalizados sem os logs de eventos capturados, siga 
 
 1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
 
-2.  Liste os eventos gerados por um dispositivo de sistemas de sala Skype:
+2.  Liste os eventos gerados por um dispositivo do Skype sala sistemas v2:
     1.  Vá para a **Pesquisa de Log** e usar uma consulta para recuperar os registros que terão o campo personalizado.
     2.  Consulta de exemplo:`Event | where Source == "SRS-App"`
 
 3.  Selecione um dos registros, selecione o botão à esquerda e iniciar o Assistente de extração de campo.
 
-![Assistente de extração de campo] (../../media/Deploy_OMS_3.png "Assistente de extração de campo")
+   ![Assistente de extração de campo] (../../media/Deploy_OMS_3.png "Assistente de extração de campo")
 
 4.  Realce os dados que você deseja extrair o RenderedDescription e forneça o título de um campo. Os nomes de campo que você deve usar são fornecidos na tabela 1.
 
-![Definição do campo personalizado] (../../media/Deploy_OMS_4.png "Definição do campo personalizado")
+   ![Definição do campo personalizado] (../../media/Deploy_OMS_4.png "Definição do campo personalizado")
 
-5.  Use os mapeamentos mostrados na tabela 1. Pacote de gerenciamento de operações adicionará automaticamente o ** \_CF** quando você definir o novo campo de cadeia de caracteres.
+5.  Use os mapeamentos mostrados na *tabela 1*. Pacote de gerenciamento de operações adicionará automaticamente o ** \_CF** quando você definir o novo campo de cadeia de caracteres.
 
 > [!IMPORTANT]
 > Lembre-se de que todos os campos JSON e o pacote de gerenciamento de operações diferenciam maiusculas de minúsculas.
 
 > Preste atenção ao estado da caixa de seleção EventID na tabela a seguir. Certifique-se de que você confirme o estado dessa caixa de seleção para o pacote de gerenciamento de operações extrair com êxito os valores de campo personalizado.
+> 
 > ![Definição do campo personalizado] (../../media/Deploy_OMS_5.png "Definição do campo personalizado") 
 
 **Tabela 1**
 
-| **Campo JSON**               | **Campo personalizado de OMS**       | **ID do evento** |
-|------------------------------|----------------------------|-----------------|
+| Campo JSON                   | Campo personalizado OMS           | ID do evento        |
+|:-----------------------------|:---------------------------|:----------------|
 | Descrição                  | SRSEventDescription_CF     | Não selecionado    |
 | ResourceState                | SRSResourceState_CF        | Não selecionado    |
 | Nomedaoperação                | SRSOperationName_CF        | Não selecionado    |
@@ -183,7 +183,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
 #### <a name="configure-the-overview-tile"></a>Configurar os blocos de visão geral
 1.  Abra o **Designer de modo de exibição**.
 2.  Selecione **Os blocos de visão geral**e selecione **dois números** da Galeria.
-3.  O **Sistemas de sala Skype**lado a lado do nome.
+3.  Nomeie a **sistemas de sala Skype v2**lado a lado.
 4.  Defina o **primeira lado a lado**:<br>
     **Legenda:** Dispositivos que enviou uma pulsação pelo menos uma vez no último mês<br>
     **Consulta:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -200,7 +200,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
     **Novo grupo:** Selecionado
 4.  Defina as propriedades de **lado a lado** :<br>
     **Legenda:** Dispositivos ativos (pulsação enviada nos últimos 20 minutos)<br>
-    **Lado a lado de consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Defina as propriedades de **lista** :<br>
     **Listar consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  Defina **os títulos de coluna**:<br>
@@ -217,7 +217,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
     **Novo grupo:** Não selecionado
 3.  Defina as propriedades de **lado a lado** :<br>
     **Legenda:** Dispositivos inativos (nenhuma mensagem pulsação enviada nos últimos 20 minutos)<br>
-    **Lado a lado de consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Defina as propriedades de **lista** :<br>
     **Listar consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  Defina **os títulos de coluna**:<br>
@@ -231,11 +231,11 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
 
 1.  Selecione o **número & lista** da galeria e, em seguida, adicionar um novo quadro.
 2.  Defina as propriedades **gerais** :<br>
-    **Título de grupo:** Hardware<br>
+    **Título de grupo:** Status de hardware<br>
     **Novo grupo:** Selecionado
 3.  Defina as propriedades de **lado a lado** :<br>
     **Legenda:** Dispositivos que ocorreu um erro de hardware na última hora <br>
-    **Lado a lado de consulta:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as propriedades de **lista** :<br>
     **Listar consulta:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer```
 5.  Defina **os títulos de coluna**:<br>
@@ -245,7 +245,31 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Selecione **Aplicar**e em seguida **Fechar**.
 
-### <a name="create-a-tile-that-displays-skype-room-systems-application-versions"></a>Criar um lado que exibe as versões de aplicativo de sistemas de sala do Skype
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Criar um lado que exibe as versões de sistema operacional v2 de sistemas de sala do Skype
+
+1.  Selecione **rosca & lista** da galeria e, em seguida, adicionar um novo quadro.
+2.  Defina as propriedades **gerais** :<br>
+    **Título de grupo:** Detalhes do sistema operacionais <br>
+    **Novo grupo:** Selecionado
+3.  Defina as propriedades de **cabeçalho** :<br>
+    **Título:** Versões de sistema operacional<br>
+    **Subtítulo:** Dispositivos que executam versões específicas do sistema operacional
+4.  Defina as propriedades de **rosca** :<br>
+    **Consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **Centraliza o texto:** Dispositivos<br>
+    **Operação:** Soma
+5.  Defina as propriedades da **lista** .<br>
+    **Listar consulta:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **Ocultar gráfico:** Selecionado<br>
+    **Habilitar minigráficos:** Não selecionado
+6.  Defina **os títulos de coluna**.<br>
+    **Nome:** Nome para exibição<br>
+    **Valor:** Deixe em branco
+7.  Defina a **consulta de navegação**.<br>
+    ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
+8.  Selecione **Aplicar** e em seguida **Fechar**.
+
+### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Criar um lado que exibe as versões de aplicativo v2 de sistemas de sala do Skype
 
 1.  Selecione **rosca & lista** da galeria e, em seguida, adicionar um novo quadro.
 2.  Defina as propriedades **gerais** :<br>
@@ -277,7 +301,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
     **Novo grupo:** Não selecionado
 3.  Defina as propriedades de **lado a lado** .<br>
     **Legenda:** Dispositivos que houve um erro de aplicativo na última hora<br>
-    **Lado a lado de consulta:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as propriedades da **lista** .<br>
     **Listar consulta:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Defina **os títulos de coluna**.<br>
@@ -295,7 +319,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
     **Novo grupo:** Não selecionado
 3.  Defina as propriedades de **lado a lado** .<br>
     **Legenda:** Onde o aplicativo foi reiniciado na última 24 horas e número de reinicializações de dispositivos<br>
-    **Lado a lado de consulta:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **Consulta de bloco: ** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Defina as propriedades da **lista** .<br>
     **Listar consulta:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  Defina **os títulos de coluna**.<br>
@@ -311,7 +335,7 @@ Agora você concluiu a criação de seus modos de exibição.
 Você pode usar o portal do pacote de gerenciamento de operações do Microsoft ou clientes móveis do pacote de gerenciamento de operações para [Windows Phone](https://www.microsoft.com/en-us/store/p/microsoft-operations-management-suite/9wzdncrfjz2r), [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859)ou [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) para acessar seus modos de exibição.
 
 ## <a name="configure-alerts-in-operations-management-suite"></a>Configurar alertas no pacote de gerenciamento de operações
-<a name="Alerts"></a> Dispositivo quando um Skype sala sistemas encontra um problema, o pacote de gerenciamento de operações do Microsoft pode gerar alertas para notificar os administradores com os detalhes do problema.
+<a name="Alerts"></a> Dispositivo de v2 quando um Skype sala sistemas encontra um problema, o pacote de gerenciamento de operações do Microsoft pode gerar alertas para notificar os administradores com os detalhes do problema.
 
 Pacote de gerenciamento de operações inclui um mecanismo de alerta interno que é executado por meio de pesquisas de log agendada em intervalos regulares. Se os resultados da pesquisa log coincidir com alguns critérios específicos, um alerta registro é criado.
 
@@ -325,12 +349,12 @@ A regra pode executar automaticamente uma ou mais ações para notificá-lo do a
 Consulte [compreensão dos alertas na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) para saber mais sobre os alertas do pacote de gerenciamento de operações.
 
 > [!NOTE]
-> Os exemplos a seguir enviam alertas de email quando um dispositivo de sistemas de sala Skype gera um hardware ou um erro de aplicativo. 
+> Os exemplos a seguir enviam alertas de email quando um dispositivo de sistemas de sala Skype v2 gera um hardware ou um erro de aplicativo. 
 
 
-### <a name="configure-an-email-alert-for-skype-room-systems-hardware-issues"></a>Configurar um alerta de email para problemas de hardware de sistemas de sala do Skype
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Configurar um alerta de email para problemas de hardware do Skype sala sistemas v2
 
-Configure uma regra de alerta que verifica os dispositivos de sistemas de sala Skype que tiveram problemas de hardware na última hora.
+Configure uma regra de alerta que verifica os sistemas de sala Skype v2 dispositivos que tiveram problemas de hardware na última hora.
 1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
 
 2.  Selecione a **pesquisa de Log**.
@@ -347,21 +371,21 @@ Configure uma regra de alerta que verifica os dispositivos de sistemas de sala S
 4.  Depois que a consulta é executada, selecione **alerta**. Esse procedimento abrirá a página **Adicionar regra de alerta** .
 
 5.  Definir configurações de alerta usando as informações a seguir:<br>
-    **Nome da regra:** Alertas de falha de Hardware de sistemas de sala do Skype<br>
+    **Nome da regra:** Alertas de falha de Hardware do Skype sala sistemas v2<br>
     **Descrição:** Lista de dispositivos que enfrentaram um problema de hardware na última hora<br>
     **Gravidade:** Crítico<br>
     **Consulta:** Usar a consulta de pesquisa preenchidos<br>
     **Janela de tempo:** 1 hora<br>
     **Frequência de alerta:** 1 hora<br>
     **Número de resultados:** Maior do que 0<br>
-    **Assunto de email:** Alertas de falha de Hardware de sistemas de sala do Skype<br>
+    **Assunto de email:** Alertas de falha de Hardware do Skype sala sistemas v2<br>
     **Destinatários:** Incluir os endereços de email, vírgula como separadores<br>
 
 6.  Selecione **Salvar**.
 
-### <a name="configure-an-email-alert-for-skype-room-systems-application-issues"></a>Configurar um alerta de email para problemas de aplicativos de sistemas de sala do Skype
+### <a name="configure-an-email-alert-for-skype-room-systems-v2-application-issues"></a>Configurar um alerta de email para problemas de aplicativo v2 de sistemas de sala do Skype
 
-Configure uma regra de alerta, que verifica os dispositivos de sistemas de sala Skype que tiveram problemas de aplicativo na última hora.
+Configure uma regra de alerta, que procura Skype sala sistemas v2 dispositivos que tiveram problemas de aplicativo na última hora.
 1.  Selecione a **pesquisa de Log**.
 
 2.  Insira a seguinte consulta e selecione **Executar**.<br>
@@ -376,14 +400,14 @@ Configure uma regra de alerta, que verifica os dispositivos de sistemas de sala 
 3.  Depois que a consulta é executada, selecione **alerta**. Esse procedimento abrirá a página **Adicionar regra de alerta** .
 
 4.  Definir configurações de alerta usando as informações a seguir:<br>
-    **Nome da regra:** Alerta de falha de aplicativo de sistemas de sala do Skype<br>
+    **Nome da regra:** Alerta de falha de aplicativo do Skype sala sistemas v2<br>
     **Descrição:** Lista de dispositivos que enfrentaram um problema de aplicativo na última hora<br>
     **Gravidade:** Crítico<br>
     **Consulta:** Usar a consulta de pesquisa preenchidos<br>
     **Janela de tempo:** 1 hora<br>
     **Frequência de alerta:** 1 hora<br>
     **Número de resultados:** Maior do que 0<br>
-    **Assunto de email:** Alerta de falha de aplicativo de sistemas de sala do Skype<br>
+    **Assunto de email:** Alerta de falha de aplicativo do Skype sala sistemas v2<br>
     **Destinatários:** Incluir os endereços de email, vírgula como separadores
 
 5.  Selecione **Salvar**.
@@ -402,15 +426,15 @@ Você pode usar uma página de configurações de alerta para modificar uma conf
 > Você pode precisar usar o portal do Windows Azure para adicionar ou modificar os alertas do pacote de gerenciamento de operações se seu espaço de trabalho do pacote de gerenciamento de operações estiver configurado para estender os alertas do pacote de gerenciamento de operações no Windows Azure. Para obter mais detalhes, consulte [Extend alertas do portal OMS no Windows Azure](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-alerts-extend).
 
 ## <a name="configure-all-devices-for-operations-management-suite"></a>Configurar todos os dispositivos para o pacote de gerenciamento de operações
-<a name="configure_all_devices"></a> Após os painéis e os alertas são configuradas, você pode configurar e configurar agentes de pacote de gerenciamento de operações em todos os dispositivos de sistemas de sala Skype para concluir sua implantação de monitoramento.
+<a name="configure_all_devices"></a> Após os painéis e os alertas são configuradas, você pode configurar e configurar agentes de pacote de gerenciamento de operações em todos os dispositivos de sistemas de sala Skype v2 para concluir sua implantação de monitoramento.
 
 Embora você possa instalar e configurar os agentes de pacote de gerenciamento de operações manualmente em cada dispositivo, é altamente recomendável que você aproveitar os métodos e as ferramentas de implantação de software existente.
 
-Se você estiver criando seus dispositivos de sistemas de sala Skype pela primeira vez, convém incluir as etapas de instalação e configuração de agente do pacote de gerenciamento de operações como parte do processo de compilação. Para obter mais informações, consulte [instalar o agente usando a linha de comando](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).
+Se você estiver criando seus dispositivos de sistemas de sala Skype v2 pela primeira vez, convém incluir as etapas de instalação e configuração de agente do pacote de gerenciamento de operações como parte do processo de compilação. Para obter mais informações, consulte [instalar o agente usando a linha de comando](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows#install-the-agent-using-the-command-line).
 
 ### <a name="deploying-operations-management-suite-agents-by-using-a-group-policy-object"></a>Implantação de agentes de pacote de gerenciamento de operações por meio de um objeto de diretiva de grupo
 
-Se você já implantou os dispositivos de sistemas de sala Skype antes de implementar o pacote de gerenciamento de operações, você pode usar o script fornecido para instalar e configurar os agentes usando diretivas de grupo do Active Directory.
+Se você já implantou os dispositivos do Skype sala sistemas v2 antes de implementar o pacote de gerenciamento de operações, você pode usar o script fornecido para instalar e configurar os agentes usando diretivas de grupo do Active Directory.
 
 1.  Criar um caminho de rede compartilhado e conceder acesso de leitura ao grupo de **Computadores de domínio** .
 
@@ -420,7 +444,7 @@ Se você já implantou os dispositivos de sistemas de sala Skype antes de implem
     1.  Abra uma janela de Prompt de comando e, em seguida, executar **MMASetup-AMD64.exe /c**
     2.  Especifique o compartilhamento que você acabou de criar e extrair o conteúdo.
 
-4.  Criar um novo objeto de diretiva de grupo e atribuí-lo à unidade organizacional onde as contas de máquina de sistemas de sala Skype estão localizadas.
+4.  Criar um novo objeto de diretiva de grupo e atribuí-lo à unidade organizacional onde as contas de máquina do Skype sala sistemas v2 estão localizadas.
 
 5.  Configure a diretiva de execução do PowerShell:
     1.  Edite o objeto de diretiva de grupo recém-criado e navegue até configuração do computador \\ políticas \\ modelos administrativos \\ componentes do Windows \\ do Windows PowerShell
@@ -435,7 +459,7 @@ Se você já implantou os dispositivos de sistemas de sala Skype antes de implem
     6.  Selecione **Adicionar**e, em seguida, **Navegue**.
     7.  Selecione o script ps1 que você acabou de copiar.
 
-7.  Dispositivos de sistemas de sala Skype devem instalar e configurar o agente Monitoring Microsoft com a segunda reinicialização.
+7.  Dispositivos de v2 de sistemas de sala do Skype devem instalar e configurar o agente Monitoring Microsoft com a segunda reinicialização.
 
 
     ```
@@ -496,6 +520,6 @@ Pacote de gerenciamento de operações oferece soluções internas com sua [Gale
 
 ## <a name="see-also"></a>Consulte também
 
-[Planejar o gerenciamento de v2 Skype sala sistemas com OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[Gerencia dispositivos de v2 de sistemas de sala Skype com OMS](../../manage/skype-room-systems-v2/oms.md)
+[Gerenciar dispositivos do Skype Room Systems v2 com o OMS](../../manage/skype-room-systems-v2/oms.md)

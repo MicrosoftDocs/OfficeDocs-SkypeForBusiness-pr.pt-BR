@@ -1,9 +1,8 @@
 ---
-title: Processo de implantação para o aplicativo Comunicado no Skype for Business Server 2015
+title: Processo de implantação para o aplicativo de anúncio no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Processo de implantação e etapas para o aplicativo de anúncio no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 08a52569dede43bbe54b1bf7e62f37114ba68853
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 6aabc5090d233b991e1fd89ef61f364a6b1c5666
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968910"
 ---
-# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server-2015"></a>Processo de implantação para o aplicativo Comunicado no Skype for Business Server 2015
+# <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Processo de implantação para o aplicativo de anúncio no Skype para Business Server
  
 Processo de implantação e etapas para o aplicativo de anúncio no Skype para Business Server Enterprise Voice.
   
@@ -34,7 +34,7 @@ Esta seção fornece uma visão geral das etapas envolvidas na implantação do 
 
 |**Fase**|**Etapas**|**Funções**|**Documentação de implantação**|
 |:-----|:-----|:-----|:-----|
-|Definir configurações do comunicado  <br/> | Crie o comunicado através da gravação e carregamento de arquivos de áudio ou usando texto em fala (TTS). <br/>  Configure os intervalos de números não atribuídos na tabela de número não atribuída e os associe com o comunicado adequado. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Criar ou excluir um anúncio no Skype para Business Server 2015](create-an-announcement.md) <br/> [Criar ou modificar um intervalo de números não atribuído no Skype para Business Server 2015](create-or-modify-an-unassigned-number-range.md) <br/> |
-|Verifique a implantação do comunicado  <br/> |Faça o teste escutando os comunicados para verificar se sua configuração funciona como o esperado.  <br/> |-  <br/> |[(Opcional) Verificar a implantação do comunicado na Skype para negócios 2015](optional-verify-announcement-deployment.md) <br/> |
+|Definir configurações do comunicado  <br/> | Crie o comunicado através da gravação e carregamento de arquivos de áudio ou usando texto em fala (TTS). <br/>  Configure os intervalos de números não atribuídos na tabela de número não atribuída e os associe com o comunicado adequado. <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> |[Criar ou excluir um anúncio no Skype para Business Server](create-an-announcement.md) <br/> [Criar ou modificar um intervalo de números não atribuído no Skype para Business Server](create-or-modify-an-unassigned-number-range.md) <br/> |
+|Verifique a implantação do comunicado  <br/> |Faça o teste escutando os comunicados para verificar se sua configuração funciona como o esperado.  <br/> |-  <br/> |[(Opcional) Verificar a implantação do comunicado na Skype para negócios](optional-verify-announcement-deployment.md) <br/> |
    
 

@@ -1,8 +1,7 @@
 ---
-title: Requisitos de sistema do Servidor de Borda no Skype for Business Server 2015
+title: Requisitos de sistema do servidor de borda no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 2/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,13 +12,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumo: Saiba mais sobre os requisitos de sistema para o servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: aaf8e45c005ff6295e1c0927d6a29abade383bfb
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ede0f7f933f246496593519afa035f09ef402bfb
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013135"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server-2015"></a>Requisitos de sistema do Servidor de Borda no Skype for Business Server 2015
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos de sistema do servidor de borda no Skype para Business Server
  
 **Resumo:** Saiba mais sobre os requisitos de sistema para o servidor de borda no Skype para Business Server.
   
@@ -60,6 +60,9 @@ Os usuários externos autorizados podem usar os servidores de borda para se cone
   
 > [!NOTE]
 > Servidores de borda são implantados para fornecer conexões para Skype habilitado para clientes de negócios e outros servidores de borda (em cenários de federação). Não é possível se conectar de outros tipos de servidor ou clientes de ponto de extremidade. O servidor de Gateway XMPP pode permitir conexões com parceiros XMPP configurados. Mas, mais uma vez, esses são os únicos tipos de federação e cliente que funcionam. 
+
+> [!NOTE]
+> Gateways de XMPP e proxies estão disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019. Consulte a [federação XMPP migrando](../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações.
   
 ### <a name="reverse-proxies"></a>Proxies reversos
 <a name="ReverseProxies"> </a>
@@ -84,7 +87,7 @@ E, para dispositivos móveis:
     
 - Ele permite que as notificações por push do Office 365 para dispositivos móveis.
     
-Nossas recomendações de proxy reverso atual podem ser encontradas na página de [Infraestrutura de telefonia para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947483) . Portanto seu proxy reverso:
+Nossas recomendações de proxy reverso atual podem ser encontradas na página de [Infraestrutura de telefonia para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways) . Portanto seu proxy reverso:
   
 - deve estar apto a utilizar o protocolo TLS introduzido em seu ambiente por meio de certificados públicos para se conectar com os serviços da Web externos publicados do:
     
@@ -131,7 +134,7 @@ Por que isso importa? Uma função importante para um diretor é proteger os ser
 ### <a name="load-balancers"></a>Balanceadores de Carga
 <a name="LoadBalancers"> </a>
 
-O Skype para topologia de borda consolidada do servidor de negócios 2015 dimensionada é otimizada para novas implantações de balanceamento de carga do DNS e recomendamos isso. Se você precisar de alta disponibilidade, recomendamos o uso de um balanceador de carga de hardware para uma situação específica:
+O Skype para topologia de borda consolidada do servidor de negócios em escala é otimizada para novas implantações de balanceamento de carga do DNS e recomendamos isso. Se você precisar de alta disponibilidade, recomendamos o uso de um balanceador de carga de hardware para uma situação específica:
   
 - UM do Exchange para usuários remotos que usam UM do Exchange **anterior** para o Exchange 2013.
     
@@ -139,7 +142,7 @@ O Skype para topologia de borda consolidada do servidor de negócios 2015 dimens
 > É importante observar que não é possível misturar balanceadores de carga. Em seu Skype para ambiente de servidor de negócios todas as interfaces devem usar DNS ou HLB. 
   
 > [!NOTE]
-> Servidor direto retornar NAT do (DSR) não é compatível com Skype para Business Server 2015. 
+> Servidor direto retornar NAT do (DSR) não é compatível com Skype para Business Server. 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>requisitos do balanceador de carga de hardware para servidores de borda de servidores de borda executando A / serviço de borda V
 
@@ -157,7 +160,7 @@ Para qualquer servidor de borda executando A / serviço de borda V, estes são o
     
 #### <a name="hlb-requirements"></a>Requisitos de HLB
 
-Como com o Lync Server 2013, Skype para Business Server 2015 não tem muitos dos requisitos de afinidade baseada em cookie. Portanto, não é necessário usar um persistência baseada em cookie **, a menos que** você vai ter pools de Front-End ou de Front End Servers do Lync Server 2010 em sua Skype para ambiente de servidor de negócios. Eles precisaria afinidade baseada em cookie no método configuração recomendada para o Lync Server 2010.
+Skype para Business Server não tem muitos dos requisitos de afinidade baseada em cookie. Para que você não precisa usar a persistência baseada em cookie **, a menos que** (e isso é Skype para servidor 2015 específicos de negócios) você vai ter pools de Front-End ou de Front End Servers do Lync Server 2010 em sua Skype para ambiente de servidor de negócios. Eles precisaria afinidade baseada em cookie no método configuração recomendada para o Lync Server 2010.
   
 > [!NOTE]
 > Se você decidir ativar a afinidade com base em cookies em seu HLB, não haverá problema, mesmo se não for necessário para seu ambiente. 
@@ -179,7 +182,7 @@ Para implantações que **precisarão** de afinidade baseada em cookies:
 - O hardware load balanceador cookie **deve** ser definida em cada resposta HTTP para o qual a solicitação HTTP de entrada não tinha um cookie, independentemente se uma resposta HTTP anterior nessa mesma conexão de TCP tivessem um cookie. Se seu balanceador de carga de hardware otimiza o cookie insert para que ela ocorra somente uma vez por conexão TCP, esse otimização **não deve** ser usado.
     
 > [!NOTE]
-> É comum para configurações de HLB usar a afinidade de origem e 20 minuto TCP ciclo de vida de sessão, que é bom para Skype para Business Server 2015 e seus clientes, pois o estado de sessão é mantido por meio do uso do cliente e/ou a interação do aplicativo. 
+> É comum para configurações de HLB usar a afinidade de origem e 20 minuto TCP ciclo de vida de sessão, que é bom para Skype para o servidor de negócios e seus clientes, pois o estado de sessão é mantido por meio do uso do cliente e/ou a interação do aplicativo. 
   
 Se estiver implantando dispositivos móveis, o HLB deverá ser capaz de balancear a carga das solicitações individuais em uma sessão TCP (na verdade, você deve poder balancear a carga de uma solicitação individual com base no endereço IP de destino).
   
@@ -188,7 +191,7 @@ Se estiver implantando dispositivos móveis, o HLB deverá ser capaz de balancea
   
 Aqui estão os requisitos de HLB para o Diretor (opcional) e o pool de Front-End (obrigatório) serviços da Web:
   
-- Para sua VIPs de serviços Web internos, defina Source_addr persistência (porta interna 80, 443) em seu HLB. Skype para Business Server 2015, persistência Source_addr significa que várias conexões provenientes de um único endereço IP sempre são enviadas para um servidor, para manter o estado da sessão.
+- Para sua VIPs de serviços Web internos, defina Source_addr persistência (porta interna 80, 443) em seu HLB. Para Skype para Business Server, a persistência de Source_addr significa que várias conexões provenientes de um único endereço IP sempre são enviadas para um servidor, para manter o estado da sessão.
     
 - Use um tempo de ociosidade de TCP de 1.800 segundos.
     
@@ -196,7 +199,7 @@ Aqui estão os requisitos de HLB para o Diretor (opcional) e o pool de Front-End
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>Resumo dos requisitos de afinidade HLB
 
-|**Local do usuário do cliente**|**Requisitos de afinidade FQDN de serviços web externos**|**Requisitos de afinidade FQSN de serviços web internos**|
+|**Local do cliente/usuário**|**Requisitos de afinidade de FQDN de serviços Web externos**|**Requisitos de afinidade de FQDN de serviços Web internos**|
 |:-----|:-----|:-----|
 |Skype para negócios Web App (usuários internos e externos)  <br/> Dispositivo móvel (usuários internos e externos)  <br/> |Sem afinidade  <br/> |Afinidade do endereço de origem  <br/> |
 |Skype para negócios Web App (apenas para usuários externos)  <br/> Dispositivo móvel (usuários internos e externos)  <br/> |Sem afinidade  <br/> |Afinidade do endereço de origem  <br/> |
@@ -206,17 +209,17 @@ Aqui estão os requisitos de HLB para o Diretor (opcional) e o pool de Front-End
 
 Você definir o monitoramento de portas nos seus balanceadores de carga de hardware para determinar quando serviços específicos não estão mais disponíveis devido a falha de hardware ou communications. Por exemplo, se o serviço de servidor Front-End (RTCSRV) parar porque o servidor Front-End ou Front End pool falha, o monitoramento de HLB deve também parar de receber tráfego dos serviços Web. Implante o monitoramento de portas no HLB para monitorar o seguinte em sua interface externa do HLB:
   
-|**IP/porta virtual**|**Porta do nó**|**Máquina/Monitor do nó**|**Perfil de persistência**|**Observações**|
+|**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware e software
 
-Falamos sobre requisitos de hardware e software do servidor de borda em nossa documentação de [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) geral.
+Falamos sobre requisitos de hardware e software do servidor de borda em nossa documentação de [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [requisitos de sistema do Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) geral.
   
 ## <a name="collocation"></a>Colocação
 
-Abordamos colocação do servidor de borda em nossa documentação [Noções básicas de topologia para Skype para Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) .
+Abordamos colocação do servidor de borda em nossa documentação [Noções básicas de topologia para Skype para Business Server](../../plan-your-deployment/topology-basics/topology-basics.md) .
   
 

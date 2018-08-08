@@ -1,9 +1,8 @@
 ---
-title: Criar ou excluir um anúncio no Skype para Business Server 2015
+title: Criar ou excluir um anúncio no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Criar ou excluir comunicados para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
-ms.openlocfilehash: 5e635ec066ee5a3b76f0d3d9f25d095f57a8bf2e
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 3270daf8d157be0b6307f4112081cb331f84d69f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500709"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019507"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server-2015"></a>Criar ou excluir um anúncio no Skype para Business Server 2015
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Criar ou excluir um anúncio no Skype para Business Server
  
 Criar ou excluir comunicados para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
   
@@ -115,7 +114,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
   
 ## <a name="see-also"></a>Consulte também
 
-[Criar ou excluir um anúncio no Skype para Business Server 2015](create-an-announcement.md)
+[Criar ou excluir um anúncio no Skype para Business Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
   
@@ -124,3 +123,4 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
   
 [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
+

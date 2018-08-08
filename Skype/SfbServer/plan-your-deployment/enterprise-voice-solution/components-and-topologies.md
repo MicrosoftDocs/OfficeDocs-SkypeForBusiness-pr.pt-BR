@@ -1,9 +1,8 @@
 ---
-title: Componentes e topologias para controle de admissão de chamadas no Skype for Business 2015
+title: Componentes e topologias para chamar o controle de admissão no Skype para negócios
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planejamento do CAC (controle de admissão de chamadas) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN de terceiros ou PBX. Aplica-se à Skype para o Business Server Enterprise Voice.
-ms.openlocfilehash: bedb1737827eb18d56c15c088756c4eec9bab8c2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d08d5ca63c02a2ddf12f3f53a5e4952a7a366a71
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20977704"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business-2015"></a>Componentes e topologias para controle de admissão de chamadas no Skype for Business 2015
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes e topologias para chamar o controle de admissão no Skype para negócios
  
 Planejamento do CAC (controle de admissão de chamadas) se você tiver uma rede MPLS, um tronco SIP ou um gateway PSTN de terceiros ou PBX. Aplica-se à Skype para o Business Server Enterprise Voice.
   
@@ -57,7 +57,7 @@ Para configurar o CAC em um tronco SIP, você terá que executar as seguintes ta
     > [!NOTE]
     > Para o ITSP, essa configuração de site de rede não funciona. Os valores da política de largura de banda são, na verdade, aplicados na etapa 2. 
   
-2. Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1. Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2. Para obter detalhes, consulte [criar políticas de entre sites de rede no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) na documentação de implantação e [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
+2. Crie um link entre sites para o tronco SIP usando os valores de parâmetro relevantes para o site criado na etapa 1. Por exemplo, use o nome do site de rede na sua empresa como o valor do parâmetro NetworkSiteID1 e o site de rede ITSP como o valor do parâmetro NetworkSiteID2. Para obter detalhes, consulte [criar políticas de entre sites de rede no Skype para Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) na documentação de implantação e [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
     
 3. Obter o endereço IP da Session Border Controller (SCB) ponto de terminação de mídia do seu ITSP. Adicione o endereço IP com uma máscara de sub-rede de 32 para o site de rede que representa o ITSP. Para obter detalhes, consulte [associar uma sub-rede a um Site de rede](http://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
     
@@ -69,7 +69,7 @@ Este tópico descreve exemplos de como o controle de admissão de chamadas (CAC)
 
 CAC pode ser implantado em WAN link da interface de gateway do servidor de mediação para um gateway de PBX ou PSTN de terceiros.
   
-**Caso 1: CAC entre o servidor de mediação e um gateway PSTN**
+**Caso 1: CAC entre o Servidor de Mediação e um gateway PSTN**
 
 ![Caso 1: CAC entre o Gateway PSTN do servidor de mediação](../../media/CAC_gateways_1.jpg)
   
@@ -94,7 +94,7 @@ Isto funciona para as chamadas PSTN de entrada para um cliente no Local de Rede 
 
 Esta configuração é similar ao Caso 1. Em ambos os casos, o servidor de mediação sabe qual dispositivo finaliza a mídia no final oposto do link de WAN e o endereço IP do gateway PSTN ou PBX com o ponto de terminação de mídia (MTP) está configurado no servidor de mediação como o próximo salto.
   
-**Caso 2: CAC entre o servidor de mediação e um PBX de terceiros com MTP**
+**Caso 2: CAC entre o Servidor de Mediação e um PBX de terceiros com MTP**
 
 ![Caso 2: CAC entre o PBX do servidor de mediação com MTP](../../media/CAC_gateways_2.jpg)
   
@@ -119,7 +119,7 @@ Isto funciona para ambas, chamadas PSTN de entrada para um cliente no Local de R
 
 O Caso 3 é um ligeiramente diferente dos dois primeiros. Se não houver nenhuma MTP ao PBX de terceiros, para uma sessão de saída a solicitação para o PBX de terceiros o servidor de mediação não sabe qual mídia será terminada em que o limite de PBX. Nesse caso, a mídia flui diretamente entre o servidor de mediação e o dispositivo de ponto de extremidade de terceiros.
   
-**Caso 3: CAC entre o servidor de mediação e um PBX de terceiros sem MTP**
+**Caso 3: CAC entre o Servidor de Mediação e um PBX de terceiros sem MTP**
 
 ![Caso 3: CAC entre o PBX do servidor de mediação no MTP](../../media/CAC_gateways_3.jpg)
   

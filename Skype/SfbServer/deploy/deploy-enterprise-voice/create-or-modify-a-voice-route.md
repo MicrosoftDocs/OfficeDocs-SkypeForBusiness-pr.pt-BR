@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar uma rota de voz no Skype for Business 2015
+title: Criar ou modificar uma rota de voz no Skype para negócios
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Resumo: Saiba como criar ou modificar uma rota de voz no Skype para Business Server 2015 usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 7c1bd9e118d95e89111225e49d2e07e921d8f33c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Saiba como criar ou modificar uma rota de voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.'
+ms.openlocfilehash: 3704e973e392337700effc0d4c3278656f706d73
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500930"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21013200"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business-2015"></a>Criar ou modificar uma rota de voz no Skype for Business 2015
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Criar ou modificar uma rota de voz no Skype para negócios
  
-**Resumo:** Saiba como criar ou modificar uma rota de voz no Skype para Business Server 2015 usando o Skype para painel de controle do servidor de negócios.
+**Resumo:** Saiba como criar ou modificar uma rota de voz no Skype para Business Server usando o Skype para painel de controle do servidor de negócios.
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Para criar uma rota de voz usando o Skype para o painel de controle do Business Server
 
@@ -58,7 +57,7 @@ ms.locfileid: "19500930"
 11. Para associar um ou mais usos da Rede Telefônica Pública Comutada (PSTN) à rota de voz, clique em **Selecionar** e escolha um registro na lista de registros de uso do PSTN definida para sua implantação do Enterprise Voice.
     
     > [!NOTE]
-    > Para exibir as propriedades de cada um dos registros de uso do PSTN disponíveis, consulte [View PSTN usage records no Skype para negócios 2015](view-pstn-usage-records.md). > Para criar ou editar registros de uso do PSTN, consulte [criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios 2015](voice-policy-and-pstn-usage-records.md)
+    > Para exibir as propriedades de cada um dos registros de uso do PSTN disponíveis, consulte [View PSTN usage records no Skype para negócios](view-pstn-usage-records.md). > Para criar ou editar registros de uso do PSTN, consulte [criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business](voice-policy-and-pstn-usage-records.md)
   
 12. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição do registro na lista, destaque o nome de registro e clique em cima ou seta para baixo.
     
@@ -70,7 +69,7 @@ ms.locfileid: "19500930"
 14. Clique em **OK** para salvar a rota de voz.
     
     > [!IMPORTANT]
-    > Sempre que você criar uma rota de voz, deverá executar o comando **Confirmar tudo** para publicar a alteração da configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md). 
+    > Sempre que você criar uma rota de voz, deverá executar o comando **Confirmar tudo** para publicar a alteração da configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md). 
   
 ### <a name="to-modify-a-voice-route"></a>Para modificar uma rota de voz
 
@@ -105,7 +104,7 @@ ms.locfileid: "19500930"
 9. Para associar um ou mais usos PSTN à rota de voz, clique em **Selecionar** e escolha um registro da lista de registros de uso PSTN que tiverem sido definidas para sua implantação do Enterprise Voice.
     
     > [!NOTE]
-    > Para exibir as propriedades de cada um dos registros de uso do PSTN disponíveis, consulte [View PSTN usage records no Skype para negócios 2015](view-pstn-usage-records.md). > Para criar ou editar registros de uso do PSTN, consulte [criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios 2015](voice-policy-and-pstn-usage-records.md). 
+    > Para exibir as propriedades de cada um dos registros de uso do PSTN disponíveis, consulte [View PSTN usage records no Skype para negócios](view-pstn-usage-records.md). > Para criar ou editar registros de uso do PSTN, consulte [criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios](voice-policy-and-pstn-usage-records.md). 
   
 10. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição do registro na lista, destaque o nome de registro e clique em cima ou seta para baixo.
     
@@ -119,12 +118,13 @@ ms.locfileid: "19500930"
 13. Na página **Rota**, clique em **Confirmar** e em **Confirmar tudo**. 
     
     > [!NOTE]
-    > Toda vez que criar ou modificar uma rota de voz, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Toda vez que criar ou modificar uma rota de voz, você deve executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
 ## <a name="see-also"></a>Consulte também
 
-[Exibir registros de uso PSTN em Skype para negócios 2015](view-pstn-usage-records.md)
+[Exibir registros de uso PSTN em Skype para negócios](view-pstn-usage-records.md)
   
-[Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios 2015](voice-policy-and-pstn-usage-records.md)
+[Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios](voice-policy-and-pstn-usage-records.md)
   
-[Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md)
+[Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md)
+

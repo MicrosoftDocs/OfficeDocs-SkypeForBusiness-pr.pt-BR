@@ -1,9 +1,8 @@
 ---
-title: Configurar troncos no Skype for Business Server 2015
+title: Configurar troncos no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
-description: 'Resumo: Saiba como configurar um tronco entre um servidor de mediação e parceiros para o Enterprise Voice no Skype para Business Server 2015.'
-ms.openlocfilehash: 4944cac2b06d837facf0cf014fb3a4fd32343305
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como configurar um tronco entre um servidor de mediação e parceiros para o Enterprise Voice no Skype para Business Server.'
+ms.openlocfilehash: 7d40201cbf2305f464f66ead66ae3a8e7126ca03
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20992389"
 ---
-# <a name="configure-trunks-in-skype-for-business-server-2015"></a>Configurar troncos no Skype for Business Server 2015
+# <a name="configure-trunks-in-skype-for-business-server"></a>Configurar troncos no Skype para Business Server
  
-**Resumo:** Saiba como configurar um tronco entre um servidor de mediação e parceiros para o Enterprise Voice no Skype para Business Server 2015.
+**Resumo:** Saiba como configurar um tronco entre um servidor de mediação e parceiros para o Enterprise Voice no Skype para Business Server.
   
 Como parte da implantação do Enterprise Voice, você pode configurar um tronco entre um servidor de mediação e um ou mais dos seguintes computadores para fornecer conectividade PSTN (rede) telefônica pública comutada clientes Enterprise Voice e dispositivos em sua organização:
   
@@ -32,7 +32,7 @@ Como parte da implantação do Enterprise Voice, você pode configurar um tronco
     
 - Central privada de comutação telefônica (PBX)
     
-Para obter mais detalhes, consulte [Planejar a conectividade PSTN em Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Para obter mais detalhes, consulte [Planejar a conectividade PSTN em Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 Skype para a funcionalidade do Business Server suporta vários associações entre gateways e servidores de mediação. Essas associações são feitas por meio da definição de um tronco, que é uma associação de lógica entre um pool do servidor de mediação e um gateway PSTN (rede) telefônica pública comutada, controlador de borda de sessão (SBC) ou IP-PBX. Use o construtor de topologia para associar os gateways com servidores de mediação (ou seja, troncos).
   

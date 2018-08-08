@@ -2,20 +2,22 @@
 title: Implantar o serviço de voz de nuvem Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
-ms.date: 03/13/2018
+manager: serdars
+ms.date: 05/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Baixe o Guia estratégico habilitação de Site para planejar sua distribuição de equipes e acelerar e otimizar a adoção de usuário, percepção de qualidade e satisfação.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f59b7568f5ec0d3d9b6ef3b04f4094b222d0702b
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: a3e40009a76ef7c8f31d659d45de1e4acf0801ec
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19695506"
 ---
 # <a name="deploy-my-service"></a>Implantar o meu serviço
 
@@ -36,7 +38,7 @@ Ao concluir as atividades deste playbook, sua organização pode:
 -   Reduzir as necessidades de suporte e aumentar a satisfação do usuário.
 
 > [!NOTE]
-> Este artigo e o playbook associado não são destinados para descrever cada etapa de configuração técnicos necessários para habilitação de serviços ou fornecer um tom de discagem a um site específico. Em vez disso, eles se concentrar em atividades e tarefas recomendadas aos usuários onboard facilmente e fazê-las a começar a consumir cargas de trabalho de voz de equipes por meio de uma transição rápida e suave com uma taxa de adoção alta, enquanto minimiza os requisitos de suporte. Para obter orientações técnicas sobre como configurar melhor de voz de equipes em seu ambiente, consulte as listas de verificação do inclusão para [Configurar as cargas de trabalho de voz de equipes](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams), [principais recursos de equipes](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-microsoft-teams-core-capabilities), [rede para equipes](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-configure-networking)e [Habilitando o Office 365 ](https://docs.microsoft.com/MicrosoftTeams/onboarding-checklist-enable-office-365).
+> Este artigo e o playbook associado não são destinados para descrever cada etapa de configuração técnicos necessários para habilitação de serviços ou fornecer um tom de discagem a um site específico. Em vez disso, eles se concentrar em atividades e tarefas recomendadas aos usuários onboard facilmente e fazê-las a começar a consumir cargas de trabalho de voz de equipes por meio de uma transição rápida e suave com uma taxa de adoção alta, enquanto minimiza os requisitos de suporte. Para obter orientações técnicas sobre como configurar melhor de voz de equipes em seu ambiente, consulte as listas de verificação para [configuração de cargas de trabalho de voz de equipes](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Configurando o roteamento direta em equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), inclusão [equipes principais recursos](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [de rede para equipes](onboarding-checklist-configure-networking.md)e a [ativação do Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -45,6 +47,9 @@ Ao concluir as atividades deste playbook, sua organização pode:
 O foco do playbook é abordar os fatores que influenciam a percepção do usuário de uma implantação de voz de equipes. Atividades e tarefas estão agrupadas nas seguintes áreas de foco:
 
 -   Validação da preparação do serviço
+    - Audioconferência
+    - Planos de Chamadas
+    - Direcionar circulação
 
 -   Habilitação de usuário
 
@@ -90,15 +95,13 @@ Independentemente do tamanho e complexidade do local, permitindo que cada site r
 > [!TIP]
 > Repita as etapas acima para todos os locais que você tem.
 
-
 > [!IMPORTANT]
 > Algumas etapas podem não ser aplicáveis a todos os sites e locais. Se uma atividade específica não é relevante para um site, você deve selecionar **não aplicável** para esta atividade. **Não exclua** qualquer linhas no playbook; Se fizer isso, as fórmulas de acúmulo de status não funcionarão.<br/><br/>
 Preste atenção às atividades que podem levar mais tempo do que o planejado, como o número de porta e atividades de compras. Essas atividades podem afetar negativamente o cronograma de implantação do site. Certifique-se de revisar e atualizar a lista de atividade e a linha do tempo associada semanalmente e apresentá-las em [reuniões comitê de orientação](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) para assegurar que os participantes estão cientes do status de cada site e quaisquer possíveis desvios da agenda de implantação.
 
-
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida se o Site habilitação de Playbook é necessária para sua implantação.</li><li>Decida quem será responsável por Personalizando o Playbook de habilitação de Site for Microsoft Teams para todos os sites que você vai implantar.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Baixe o Playbook de habilitação do Site.</li><li>Personalize o Playbook de habilitação de Site para o seu primeiro site.</li><li>Repita conforme necessário para outros sites.</li></ul></td></tr>
+<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>[Baixe o Playbook de habilitação do Site](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true).</li><li>Personalize o Playbook de habilitação de Site para o seu primeiro site.</li><li>Repita conforme necessário para outros sites.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

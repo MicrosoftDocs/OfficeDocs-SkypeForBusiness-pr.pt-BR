@@ -1,9 +1,8 @@
 ---
-title: Exibir informações sobre troncos SIP individuais no Skype for Business Server 2015
+title: Exibir informações sobre individuais troncos SIP no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Resumo: Saiba como exibir informações sobre troncos SIP no Skype para Business Server 2015.'
-ms.openlocfilehash: fb9990ec4315ffd26f51adaee2414810a053a97f
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como exibir informações sobre troncos SIP no Skype para Business Server.'
+ms.openlocfilehash: 10f45def1727c083f89afcdba43fb9c1c4e7e45e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568239"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968695"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server-2015"></a>Exibir informações sobre troncos SIP individuais no Skype for Business Server 2015
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Exibir informações sobre individuais troncos SIP no Skype para Business Server
  
-**Resumo:** Saiba como exibir informações sobre troncos SIP no Skype para Business Server 2015.
+**Resumo:** Saiba como exibir informações sobre troncos SIP no Skype para Business Server.
   
 Troncos SIP são usados para conectar o Skype para Business Server voz pela rede de telefone IP com a comutação telefônica PSTN (rede pública). Na versão anterior do produto, os troncos foram usados para rotear chamadas de saída de um Servidor de Mediação para um gateway PSTN e cada gateway estava limitado a um único tronco. Como resultado, um gateway PSTN e um tronco SIP eram essencialmente idênticos. Para os administradores, isso significava que seria possível exibir informações sobre um tronco SIP individual simplesmente exibindo informações sobre o gateway PSTN associado.
   

@@ -1,8 +1,7 @@
 ---
-title: Cenários do Servidor de Borda no Skype for Business Server 2015
+title: Cenários de servidor de borda no Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,16 +11,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
-description: 'Resumo: Revise esses cenários para ajudá-lo a planejar sua topologia de servidor de borda no Skype Business Server 2015.'
-ms.openlocfilehash: 9afe23c626f2a266061c250740e52bc55dd2697d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Revise esses cenários para ajudá-lo a planejar sua topologia de servidor de borda no Skype Business Server.'
+ms.openlocfilehash: e3e6a5c0c20a8c72725456f3c67834f84123b093
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009660"
 ---
-# <a name="edge-server-scenarios-in-skype-for-business-server-2015"></a>Cenários do Servidor de Borda no Skype for Business Server 2015
+# <a name="edge-server-scenarios-in-skype-for-business-server"></a>Cenários de servidor de borda no Skype para Business Server
  
-**Resumo:** Examine esses cenários para ajudá-lo a planejar sua topologia de servidor de borda no Skype Business Server 2015.
+**Resumo:** Examine esses cenários para ajudá-lo a planejar sua topologia de servidor de borda no Skype Business Server.
   
 Temos alguns diagramas de cenários para auxiliar com visualizando e decidir sobre qual Skype para topologia de servidor de borda do servidor de negócios que você deseja implementar. Depois de escolher um bom candidato, você pode ler mais informações sobre quais requisitos ambientais serão necessários. Os seguintes são aplicados a qualquer um dos cenários, por isso, vamos mencioná-los primeiro.
   
@@ -31,7 +31,7 @@ Os diagramas mostram .com para a interface externa e .net para a interna, que ta
   
 Não incluímos o Diretor (que é um componente opcional) em qualquer um dos diagramas, mas você pode ler sobre que separadamente (mencionado em outros tópicos de planejamento).
   
-Conforme observado acima, há dados IPv6 de amostra nos esquemas. A maioria da documentação no [plano para implantações de servidor de borda no Skype para Business Server 2015](edge-server-deployments.md) fará referência ao IPv4, mas você certamente é suportados, se você quiser usar o IPv6. Observe que você precisará endereços IPv6 em seu espaço de endereços atribuído e lá eles precisarão funcionar com endereços internos e externos, assim como os IPs IPv4. É possível, graças ao Windows, usar  o recurso de pilha dupla, que é uma pilha de rede separada e distinta para IPv4 e IPv6. Se for necessário, isso permitirá que você atribua endereços IPv4 e IPv6 ao mesmo tempo.
+Conforme observado acima, há dados IPv6 de amostra nos esquemas. A maioria da documentação no [plano para implantações de servidor de borda no Skype para Business Server](edge-server-deployments.md) fará referência ao IPv4, mas você certamente é suportados, se você quiser usar o IPv6. Observe que você precisará endereços IPv6 em seu espaço de endereços atribuído e lá eles precisarão funcionar com endereços internos e externos, assim como os IPs IPv4. É possível, graças ao Windows, usar  o recurso de pilha dupla, que é uma pilha de rede separada e distinta para IPv4 e IPv6. Se for necessário, isso permitirá que você atribua endereços IPv4 e IPv6 ao mesmo tempo.
   
 Existem dispositivos NAT que permitem NAT64 (IPv6 para IPv4) e NAT66 (IPv6 para IPv6)), e isso é válido para uso com Skype para Business Server.
   

@@ -1,9 +1,8 @@
 ---
-title: Implantar a ferramenta SEFAUtil no Skype for Business 2015
+title: Implantar a ferramenta de SEFAUtil em Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implantando a ferramenta de SEFAUtil em Skype para Business Server.
-ms.openlocfilehash: 4def73d0bca655569275f61d9ebfeafb4ab7e3d4
-ms.sourcegitcommit: b394b394e6c51fe0d75b1eec47f6ada1b0265b63
+ms.openlocfilehash: 55079f1727a6671a41e87582edd5810a4daa731f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001200"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business-2015"></a>Implantar a ferramenta SEFAUtil no Skype for Business 2015
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implantar a ferramenta de SEFAUtil em Skype para negócios
  
 Implantando a ferramenta de SEFAUtil em Skype para Business Server.
   
@@ -32,7 +32,7 @@ Para implantar e gerenciar o atendimento de chamada de grupo, você precisará u
 Você pode executar a ferramenta de SEFAUtil em qualquer pool de Front-End em sua implantação. Para executar a ferramenta de SEFAUtil você deve executar as etapas 1, 2 e 3 do Skype para o Assistente de implantação de negócios no computador de aplicativos confiáveis. SEFAUtil requer o repositório de configuração local estar presentes, bem como um certificado.
   
 > [!NOTE]
-> Para obter mais detalhes sobre como executar SEFAUtil, consulte o artigo do blog Technet "[como obter SEFAutil executando?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
+> Para obter mais detalhes sobre como executar SEFAUtil, consulte o artigo do blog, "[como obter SEFAutil executando?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
   
 ### <a name="to-deploy-sefautil"></a>Para implantar a SEFAUtil
 

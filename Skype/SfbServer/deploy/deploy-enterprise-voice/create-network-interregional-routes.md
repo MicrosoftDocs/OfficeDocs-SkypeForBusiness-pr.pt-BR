@@ -1,9 +1,8 @@
 ---
-title: Criar rotas inter-regionais de rede no Skype for Business Server 2015
+title: Criar rede rotas interregional no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Criar ou modificar rotas interregional da rede, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: f9f395325ecf2df35ac43730501603c2fdda9157
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: b099910a6881958919ed9707424a9ae77f0f8983
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500604"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20978915"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server-2015"></a>Criar rotas inter-regionais de rede no Skype for Business Server 2015
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Criar rede rotas interregional no Skype para Business Server
  
 Criar ou modificar rotas interregional da rede, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server. 
   
-Uma rota de rede interregional define a rota entre um par de regiões de rede. Cada par de regiões de rede em sua implantação do serviço de controle de admissão de chamadas exige uma rota entre regiões de rede. Isso permite que cada região da rede dentro da implantação acesse todas as demais regiões.
+Uma rota entre regiões de rede define a rota entre um par de regiões de rede. Cada par de regiões de rede em sua implantação do serviço de controle de admissão de chamadas exige uma rota entre regiões de rede. Isso permite que cada região da rede dentro da implantação acesse todas as demais regiões.
   
 Enquanto os vínculos de região definem limitações de largura de banda nas conexões entre regiões, uma rota entre regiões de rede determina o caminho vinculado que a conexão percorrerá de uma região à outra.
   

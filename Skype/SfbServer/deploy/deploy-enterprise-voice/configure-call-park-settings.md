@@ -1,9 +1,8 @@
 ---
-title: Definir as configurações de estacionamento de chamadas no Skype for Business 2015
+title: Definir configurações de estacionamento de chamada no Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar configurações de estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: c0aacdf23788c56d2bd0204665d5971dc715df3b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 518cefda9cd6186c8362dea83bb80acb046d441d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568301"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019514"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business-2015"></a>Definir as configurações de estacionamento de chamadas no Skype for Business 2015
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Definir configurações de estacionamento de chamada no Skype para negócios
  
 Modificar configurações de estacionamento de chamada no Skype para Business Server Enterprise Voice.
   
@@ -32,7 +31,7 @@ Se você não quiser usar configurações de estacionamento de chamada padrão, 
   
 Use o cmdlet **New-CsCpsConfiguration** ou o cmdlet **Set-CsCpsConfiguration** para definir qualquer uma das seguintes configurações:
   
-|**Esta opção:**|**Especifica a isso:**|
+|**Esta opção:**|**Especifica:**|
 |:-----|:-----|
 |**CallPickupTimeoutThreshold** <br/> |A quantidade de tempo que passa após uma chamada ser estacionada antes que ela toque de volta no telefone no qual foi atendida.  <br/> O valor deve ser inserido no formato hh:mm:ss para especificar horas, minutos e segundos. O valor mínimo é 10 segundos e o valor máximo é 10 minutos. O padrão é 00:01:30.  <br/> |
 |**EnableMusicOnHold** <br/> |Se a música é reproduzida para um chamador enquanto uma chamada está estacionada.  <br/> Os valores são True ou False. O padrão é True.  <br/> |
@@ -60,7 +59,7 @@ Use o cmdlet **New-CsCpsConfiguration** ou o cmdlet **Set-CsCpsConfiguration** p
 
 ## <a name="see-also"></a>Consulte também
 
-[Personalizar a música de estacionamento de chamada em espera inSkype para negócios 2015](customize-call-park-music-on-hold.md)
+[Personalizar a música de espera do estacionamento de chamadas no Skype for Business 2015](customize-call-park-music-on-hold.md)
 
 [New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
   

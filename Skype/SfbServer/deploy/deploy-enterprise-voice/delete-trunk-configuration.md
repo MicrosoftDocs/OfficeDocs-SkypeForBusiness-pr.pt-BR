@@ -1,9 +1,8 @@
 ---
-title: Excluir um conjunto existente das configurações do Tronco SIP no Skype for Business Server 2015
+title: Excluir um conjunto existente de definições de configuração de tronco SIP no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumo: Saiba como excluir uma coleção de definições de configuração do tronco usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 64831efe35880b3e211543c80d9ba00939128354
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 94f6e24c645a85bf2ed9ba5ded2f8eb4f207209f
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20968828"
 ---
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server-2015"></a>Excluir um conjunto existente das configurações do Tronco SIP no Skype for Business Server 2015
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir um conjunto existente de definições de configuração de tronco SIP no Skype para Business Server
  
 **Resumo:** Saiba como excluir um conjunto de definições de configuração do tronco usando o Skype para painel de controle do servidor de negócios.
   

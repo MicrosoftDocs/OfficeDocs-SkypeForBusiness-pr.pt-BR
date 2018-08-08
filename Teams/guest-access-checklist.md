@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
 description: Use esta lista de verificação para ajudar a configurar o acesso de convidado no Microsoft Access de convidado equipes.
+localization_priority: Priority
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53800ddf452fd6596abe3e4404c79352483e946
-ms.sourcegitcommit: ccbe086ccb2c0be716984010a1253a4c8c0276b9
+ms.openlocfilehash: 9eec0425f7060597fc0d6a669a9b76821f141421
+ms.sourcegitcommit: 0fa147c33b1d7b5790af8d93339700ab62939430
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19744267"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado de equipes
 ==========================================
@@ -65,7 +67,7 @@ No Centro de administração do Office 365, vá para **configurações** > **Ser
 
 Certifique-se de **Permitir que os membros do grupo fora o conteúdo de grupo de acesso de organização** está definida como **On**. Se essa configuração estiver desativada, os convidados não conseguirá acessar nenhum conteúdo de grupo.
 
-Certifique-se de **Permitir que os proprietários de grupo adicionar pessoas fora da organização para grupos** está definida como **On**. Se essa configuração estiver desativada, os proprietários de equipe não conseguirá adicionar novos convidados. (No entanto, se um administrador tivesse adicionado a um usuário convidado para o Windows Azure AD, em seguida, o proprietário de equipe seria capaz de adicionar o usuário para a equipe.) No mínimo, essa configuração deve ser "ligado" suportar o acesso de convidado.
+Certifique-se de **Permitir que os proprietários de grupo adicionar pessoas fora da organização para grupos** está definida como **On**. Se essa configuração estiver desativada, os proprietários de equipe não conseguirá adicionar novos convidados. No mínimo, essa configuração deve ser "ligado" suportar o acesso de convidado.
 
 Para obter instruções detalhadas sobre como definir essas configurações, consulte a seção "Grupos de 365 Office" em [autorizar o acesso de convidado em equipes da Microsoft](Teams-dependencies.md) e [permitir/bloquear o acesso de convidado a grupos do Office 365](https://go.microsoft.com/fwlink/?linkid=869658).
  
@@ -75,7 +77,8 @@ Para obter instruções detalhadas sobre como definir essas configurações, con
 1. Entrar no https://portal.azure.com.
 2. No painel esquerdo, clique em **do Azure Active directory** .
 3. Em **Gerenciar**, clique em **configurações do usuário**.
-4. Em **usuários externos**, certifique-se de **que membros podem convidar** estiver definida como **Sim**. ![Captura de tela mostra um exemplo de uma alternância de configurações de AAD. ](media/guest-access-checklist-AADSettings1.png)
+4. Em **usuários externos**, clique em **configurações de gerenciar externo de colaboração**
+5. Na página **configurações de colaboração externa** , certifique-se de **que membros podem convidar** estiver definida como **Sim**. ![Captura de tela mostra um exemplo de uma alternância de configurações de AAD. ](media/guest-access-checklist-AADSettings1.png)
 
     
 

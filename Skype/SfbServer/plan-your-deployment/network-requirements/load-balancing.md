@@ -3,7 +3,6 @@ title: Requisitos de balanceamento de carga para o Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 2/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: 'Resumo: Revise a carga balanceamento considerações antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: dee231f9c50e8ad71ead0ad6b31ad20e00da1b7a
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Revise a carga balanceamento considerações antes de implementar Skype para Business Server.'
+ms.openlocfilehash: c1b9069d13111955e3957dc0bd199ac0a163fd1a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569488"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20976475"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para o Skype for Business
  
-**Resumo:** Revise o considerações de balanceamento antes de implementar Skype para Business Server 2015.
+**Resumo:** Revise o considerações de balanceamento antes de implementar Skype para Business Server.
   
 Balanceamento de carga distribui o tráfego entre os servidores em um pool. Se você tiver pools de Front-End, pools do servidor de mediação ou pools de servidor de borda, você precisará implantar o balanceamento de carga para esses pools.
   
@@ -60,7 +59,7 @@ O Skype para Business Server dimensionada consolidada de borda topologia é otim
 > [!NOTE]
 > Direct server return NAT do DSR () não é suportado com Skype para Business Server. 
   
-Para determinar se seu balanceador de carga de hardware suporta os recursos exigidos pelo Skype para Business Server, consulte [infraestrutura para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947483).
+Para determinar se seu balanceador de carga de hardware suporta os recursos exigidos pelo Skype para Business Server, consulte [infraestrutura para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Requisitos do balanceador de carga de hardware para servidores de borda que executam o serviço de Borda A/V
 
@@ -110,7 +109,7 @@ Se estiver implantando dispositivos móveis, o balanceador de carga de hardware 
 > Os balanceadores de carga de hardware F5 têm um recurso chamado OneConnect que assegura que todas as solicitações de uma conexão TCP tenham a carga balanceada individualmente. Se estiver implantando dispositivos móveis, verifique se o fornecedor do balanceador de carga de hardware tem o mesmo recurso. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS. O F5 oferece configurações específicas para isso. 
   
 > [!CAUTION]
-> Para obter detalhes sobre balanceadores de carga de hardware de terceiros, consulte [infraestrutura para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947483). 
+> Para obter detalhes sobre balanceadores de carga de hardware de terceiros, consulte [infraestrutura para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 A seguir, são apresentados os requisitos do balanceador de carga de hardware para serviços Web do pool de diretores e de front-end:
   
@@ -122,7 +121,7 @@ A seguir, são apresentados os requisitos do balanceador de carga de hardware pa
     
 ### <a name="summary-of-hardware-load-balancer-affinity-requirements"></a>Resumo dos requisitos de afinidade do balanceador de carga de hardware
 
-|**Local do usuário do cliente**|**Requisitos de afinidade FQDN de serviços web externos**|**Requisitos de afinidade FQDN de serviços web internos**|
+|**Local do cliente/usuário**|**Requisitos de afinidade de FQDN de serviços Web externos**|**Requisitos de afinidade de FQDN de serviços Web internos**|
 |:-----|:-----|:-----|
 |Lync Web App (usuários internos e externos)  <br/> Dispositivo móvel (usuários internos e externos)  <br/> |Sem afinidade  <br/> |Afinidade do endereço de origem  <br/> |
 |Lync Web App (apenas para usuários externos)  <br/> Dispositivo móvel (usuários internos e externos)  <br/> |Sem afinidade  <br/> |Afinidade do endereço de origem  <br/> |
@@ -134,14 +133,14 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
   
 **Pool de usuário do servidor Front-End - Interface interna de HLB**
 
-|**IP/porta virtual**|**Porta do nó**|**Máquina/Monitor do nó**|**Perfil de persistência**|**Observações**|
+|**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>int_mco_443_vs da web  <br/> 443  <br/> |443  <br/> |Front-End  <br/> 5061  <br/> |Origem  <br/> |HTTPS  <br/> |
 |\<pool\>int_mco_80_vs da web  <br/> 80  <br/> |80  <br/> |Front-End  <br/> 5061  <br/> |Origem  <br/> |HTTP  <br/> |
    
 **Pool de usuário do servidor Front-End - Interface externa de HLB**
 
-|**IP/porta virtual**|**Porta do nó**|**Máquina/Monitor do nó**|**Perfil de persistência**|**Observações**|
+|**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
@@ -155,7 +154,7 @@ Se você implantar o balanceamento de carga do DNS, administração da sua organ
 
 O diagrama a seguir mostra um exemplo que inclui tanto interna e balanceamento de carga de DNS externo: 
   
-**Diagrama de rede de borda usando endereços IPv4 público**
+**Diagrama da rede de borda que usa endereços IPv4 públicos**
 
 ![exemplo de diagrama de rede de DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   

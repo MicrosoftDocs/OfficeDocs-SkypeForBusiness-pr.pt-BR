@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: Conheça o Microsoft Teams, sua infraestrutura e a utilização do Teams com o Office 365.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbbd2cad0b84ccdcc887d5bcdf272c1556c9c546
-ms.sourcegitcommit: 39228142658557890b2173c41db9661eb502b946
+ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967125"
 ---
 <a name="overview-of-microsoft-teams"></a>Visão geral do Microsoft Teams
 ===========================
@@ -42,11 +44,9 @@ O Teams é desenvolvido com as tecnologias existentes da Microsoft, reunidas aos
 
 Fora da caixa, uma equipe criada no Teams criará um grupo do Office 365, um site do SharePoint Online (completo, com uma biblioteca de documentos) e uma caixa de correio de grupo do Exchange Online, que será usada pelo Teams ara armazenar informações, como convites de reunião. Uma equipe pode ser criada usando os Grupos existentes do Office 365, permitindo que as assinaturas de grupo existentes e os conteúdos armazenados no SharePoint Online e no Exchange Online sejam transferidos ao Teams.
 
-Para complementar o recurso do Teams como uma plataforma de bate-papo persistente onde ocorrem conversas informais e em tempo real, o Teams também oferece uma experiência de reunião construída em uma infraestrutura de última geração baseada em nuvem, que também é utilizada para o Skype e o Skype for Business. Esses investimentos em tecnologia incluem serviços em nuvem baseados no Azure para processamento e sinalização de mídia, codecs de vídeo H.264, codecs de áudio SILK e Opus, resiliência de rede, telemetria e diagnósticos de qualidade.
+Para complementar o recurso de equipes, como um quadro de bate-papo persistente onde conversas informais e em tempo real estas ocorrem, às equipes também fornece uma chamada e experiência criada da próxima geração baseado em nuvem de infra-estrutura que também é usada pelo Skype e Skype da reunião Negócios. Esses investimentos em tecnologia incluem serviços em nuvem baseados no Azure para processamento e sinalização de mídia, codecs de vídeo H.264, codecs de áudio SILK e Opus, resiliência de rede, telemetria e diagnósticos de qualidade.
 
 Os Grupos do Office 365 aproveitam as identidades armazenadas no Azure Active Directory (Azure AD) e, assim, todos os recursos de autenticação e autorização do Azure AD, como suporte para autenticação multifator (MFA), estão prontamente disponíveis para uso no Teams.
-
-O Teams também oferece uma experiência de chamadas e reuniões construída em uma infraestrutura de última geração baseada em nuvem, que também é utilizada para o Skype e o Skype for Business. Esses investimentos em tecnologia incluem serviços em nuvem baseados no Azure para processamento e sinalização de mídia, codecs de vídeo H.264, codecs de áudio SILK e Opus, resiliência de rede, telemetria e diagnósticos de qualidade.
 
 > [!NOTE]
 > Com base nos comentários do cliente, novos grupos de Office 365 gerado como resultado de criação de uma equipe no Microsoft Teams não mais aparecerá no Outlook por padrão. Para clientes que deseja continuar com o comportamento existente do mostrando esses grupos no Outlook, um cmdlet do PowerShell do Exchange Online será fornecido que pode permitir que o grupo para a experiência do Outlook. Grupos criados pelo Outlook e habilitado mais tarde para equipes continuará Mostrar no Outlook e equipes. Essa atualização será gradualmente roll a saída entre o Outlook e as equipes nos próximos meses.

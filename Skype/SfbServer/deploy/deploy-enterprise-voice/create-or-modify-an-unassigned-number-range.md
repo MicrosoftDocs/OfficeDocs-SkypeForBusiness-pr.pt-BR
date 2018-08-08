@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar um intervalo de números não atribuídos no Skype for Business Server 2015
+title: Criar ou modificar um intervalo de números não atribuído no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
-ms.openlocfilehash: 72a6751ec203b9b3451f5080e610ca0c09007db9
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 671d5d79e9ad38323aaa8adfb5e25f8e42976494
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500923"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967118"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server-2015"></a>Criar ou modificar um intervalo de números não atribuídos no Skype for Business Server 2015
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Criar ou modificar um intervalo de números não atribuído no Skype para Business Server
  
 Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
   

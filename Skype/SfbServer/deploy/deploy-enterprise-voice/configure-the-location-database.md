@@ -1,9 +1,8 @@
 ---
-title: Configurar o banco de dados de localização no Skype for Business Server 2015
+title: Configurar o banco de dados local no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, preencher e publicar o banco de dados de localização E9-1-1 no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: f07eafbbbfcbb62c7176e35faba48e0d1281ce39
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: bbeb695cea58feae073e5579eacbe3558d632735
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568328"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018872"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server-2015"></a>Configurar o banco de dados de localização no Skype for Business Server 2015
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados local no Skype para Business Server
  
 Configurar, preencher e publicar o banco de dados de localização E9-1-1 no Skype para Business Server Enterprise Voice. 
   
@@ -33,19 +32,19 @@ Para configurar o banco de dados local, execute as seguintes tarefas:
     
     Se você não preencher o banco de dados local e o **Local necessário** na Política de Localização está definido para **Sim** ou **Isenção de Responsabilidade**, o cliente solicitará que o usuário insira um local manualmente.
     
-- Valide os endereços em ao mestre endereço msag () mantido pelo provedor de serviços E9-1-1.
+- Valide os endereços em relação ao MSAG (catálogo de endereços principal) mantido pelo provedor de serviços de emergência.
     
 - Publique o banco de dados atualizado.
     
 ## <a name="populate-the-location-database"></a>Preencher o banco de dados de local
 
-Para localizar automaticamente clientes dentro de uma rede, primeiro é preciso preencher o banco de dados de localização com um wiremap de rede, que mapeia os elementos de rede para residenciais (ou seja, rua) endereços. Você pode usar sub-redes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
+Para localizar clientes automaticamente em uma rede, primeiro você precisa preencher o banco de dados de localização com um mapa de conexões de rede, que mapeia os elementos de rede para endereços residenciais (ou seja, ruas). Você pode usar sub-redes, pontos de acesso sem fio, opções e portas para definir o mapa de conexões.
   
 É possível adicionar endereços ao banco de dados local individualmente ou em massa usando um arquivo CSV contendo os formatos de coluna descritos na tabela a seguir.
   
 Se você usa um gateway de número da chamada de emergência (Emergency Location Identification Number - ELIN), inclua o ELIN no campo **CompanyName** para cada local. Você pode incluir diversos ELINs para cada local, separados por ponto e vírgula.
   
-|**Elemento da rede**|**Colunas obrigatórias**|
+|**Elemento de rede**|**Colunas obrigatórias**|
 |:-----|:-----|
 |**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> … \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |
 |**Sub-rede** <br/> |\<Subrede\>,\<descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> … \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |

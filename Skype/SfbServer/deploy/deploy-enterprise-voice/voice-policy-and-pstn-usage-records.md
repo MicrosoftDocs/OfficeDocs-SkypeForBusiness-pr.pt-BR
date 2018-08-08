@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business 2015
+title: Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,19 +13,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumo: Criar ou modificar políticas de voz e configurar registros de uso PSTN usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 69904c28d8121cd8416b547e17fcad866260a319
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 04cfca012490174bfefaa39c4456041ee294385c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501046"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965468"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business-2015"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype for Business 2015
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios
  
 **Resumo:** Criar ou modificar políticas de voz e configurar registros de uso PSTN usando o Skype para painel de controle do servidor de negócios.
   
 > [!NOTE]
-> Cada política de voz precisa ter pelo menos um registro de uso de Rede Telefônica Pública Comutada (PSTN) associada. Para ver uma lista de todos os registros de uso PSTN disponíveis em sua implantação do Enterprise Voice e exibir suas propriedades, consulte [View PSTN usage records no Skype para negócios 2015](view-pstn-usage-records.md). 
+> Cada política de voz precisa ter pelo menos um registro de uso de Rede Telefônica Pública Comutada (PSTN) associada. Para ver uma lista de todos os registros de uso PSTN disponíveis em sua implantação do Enterprise Voice e exibir suas propriedades, consulte [View PSTN usage records no Skype para negócios](view-pstn-usage-records.md). 
   
 ### <a name="to-create-a-voice-policy"></a>Para criar uma política de voz
 
@@ -98,7 +97,7 @@ ms.locfileid: "19501046"
     
    - Para remover uma rota do registro de uso do PSTN, realce a rota e então clique em **Remover**.
     
-   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. 
     
@@ -114,7 +113,7 @@ ms.locfileid: "19501046"
     
    - Para remover uma rota desse registro de uso do PSTN, realce a rota e então clique em **Remover**.
     
-   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. 
     
@@ -152,7 +151,7 @@ ms.locfileid: "19501046"
     
    - Para remover uma rota do registro de uso do PSTN, realce a rota e clique em **Remover**.
     
-   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. 
     
@@ -168,7 +167,7 @@ ms.locfileid: "19501046"
     
    - Para remover uma rota desse registro de uso do PSTN, realce a rota e clique em **Remover**.
     
-   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. 
     
@@ -181,9 +180,9 @@ ms.locfileid: "19501046"
 12. Na página **Política de Voz**, clique em **Confirmar** e clique em **Confirmar tudo**. 
     
     > [!NOTE]
-    > Sempre que você criar ou modificar uma política de voz, será necessário executar o comando **Confirmar tudo** para publicar a alteração de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Sempre que você criar ou modificar uma política de voz, será necessário executar o comando **Confirmar tudo** para publicar a alteração de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
-13. (Opcional) Escape de caixa postal detecta que uma chamada foi atendida imediatamente por correio de voz de celular do usuário e desconecta a chamada para a correio de voz de celular. Isso permite que a chamada para continuar a ligar para logon do usuário do outros pontos de extremidade dando ao usuário a oportunidade de atender à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurar escape da caixa postal no Skype para negócios 2015](configure-voice-mail-escape.md).
+13. (Opcional) Escape de caixa postal detecta que uma chamada foi atendida imediatamente por correio de voz de celular do usuário e desconecta a chamada para a correio de voz de celular. Isso permite que a chamada para continuar a ligar para logon do usuário do outros pontos de extremidade dando ao usuário a oportunidade de atender à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurar escape da caixa postal no Skype para negócios](configure-voice-mail-escape.md).
     
 ### <a name="to-modify-a-voice-policy"></a>Para modificar uma política de voz
 
@@ -247,7 +246,7 @@ ms.locfileid: "19501046"
     
    - Para remover uma rota do registro de uso do PSTN, realce a rota e clique em **Remover**.
     
-   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. 
     
@@ -263,7 +262,7 @@ ms.locfileid: "19501046"
     
    - Para remover uma rota desse registro de uso do PSTN, realce a rota e clique em **Remover**.
     
-   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. 
     
@@ -301,7 +300,7 @@ ms.locfileid: "19501046"
     
    - Para remover uma rota do registro de uso do PSTN, realce a rota e clique em **Remover**.
     
-   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+   - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. Para obter detalhes, consulte [modificar uma rota de voz](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -317,7 +316,7 @@ ms.locfileid: "19501046"
     
      - Para remover uma rota desse registro de uso do PSTN, realce a rota e clique em **Remover**.
     
-     - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md).
+     - Para definir uma nova rota e associar esse registro de uso do PSTN, clique em **Novo**. Para obter detalhes, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md).
     
      - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. Para obter detalhes, consulte [modificar uma rota de voz](http://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
     
@@ -330,16 +329,17 @@ ms.locfileid: "19501046"
 11. Na página **Política de Voz**, clique em **Confirmar** e clique em **Confirmar tudo**. 
     
     > [!NOTE]
-    > Sempre que criar ou modificar uma política de voz, você deve executar o comando **Confirmar todos** para publicar a alteração da configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Sempre que criar ou modificar uma política de voz, você deve executar o comando **Confirmar todos** para publicar a alteração da configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
-12. (Opcional) Escape de caixa postal detecta que uma chamada foi atendida imediatamente por correio de voz de celular do usuário e desconecta a chamada para a correio de voz de celular. Isso permite que a chamada para continuar a ligar para logon do usuário do outros pontos de extremidade dando ao usuário a oportunidade de atender à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurar escape da caixa postal no Skype para negócios 2015](configure-voice-mail-escape.md).
+12. (Opcional) Escape de caixa postal detecta que uma chamada foi atendida imediatamente por correio de voz de celular do usuário e desconecta a chamada para a correio de voz de celular. Isso permite que a chamada para continuar a ligar para logon do usuário do outros pontos de extremidade dando ao usuário a oportunidade de atender à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurar escape da caixa postal no Skype para negócios](configure-voice-mail-escape.md).
     
 ## <a name="see-also"></a>Consulte também
 
-[Exibir registros de uso PSTN em Skype para negócios 2015](view-pstn-usage-records.md)
+[Exibir registros de uso PSTN em Skype para negócios](view-pstn-usage-records.md)
   
-[Criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md)
+[Criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md)
   
-[Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md)
+[Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md)
   
-[Configurar escape da caixa postal no Skype para negócios 2015](configure-voice-mail-escape.md)
+[Configurar escape da caixa postal no Skype para negócios](configure-voice-mail-escape.md)
+

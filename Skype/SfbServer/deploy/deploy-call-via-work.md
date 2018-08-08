@@ -1,9 +1,8 @@
 ---
-title: Implantar Telefonar via Trabalho no Skype for Business Server 2015
+title: Implantar a chamada Via trabalho no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 10/31/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,19 +11,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Resumo: Saiba como implantar chamada Via trabalho no Skype para Business Server 2015 para alguns ou todos os seus usuários.'
-ms.openlocfilehash: 6b4dcb12458fb3421db5b500b550061c24d51bc1
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Saiba como implantar chamada Via trabalho no Skype para Business Server para alguns ou todos os seus usuários.'
+ms.openlocfilehash: 60890f510f5f895f3a99f070cd9cf1a7c997da61
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568246"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20991042"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server-2015"></a>Implantar Telefonar via Trabalho no Skype for Business Server 2015
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implantar a chamada Via trabalho no Skype para Business Server
  
-**Resumo:** Aprenda a implantar chamada Via trabalho no Skype para Business Server 2015 para alguns ou todos os seus usuários.
+**Resumo:** Aprenda a implantar chamada Via trabalho no Skype para Business Server para alguns ou todos os seus usuários.
   
-Use estas etapas para implantar a chamada Via trabalho para seus usuários. Considerações de planejamento são abordadas em [Planejar a chamada Via trabalho no Skype para Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Nas versões anteriores de chamada remota do Lync Server controle era um recurso que permitia aos usuários controlar seus telefones PBX com o Lync Server. Skype para Business Server, esse recurso foi substituído com a chamada Via trabalho. 
+Use estas etapas para implantar a chamada Via trabalho para seus usuários. Considerações de planejamento são abordadas em [Planejar a chamada Via trabalho no Skype para Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). Nas versões anteriores de chamada remota do Lync Server controle era um recurso que permitia aos usuários controlar seus telefones PBX com o Lync Server. Skype para Business Server, esse recurso foi substituído com a chamada Via trabalho. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Pré-requisitos para chamada Via trabalho
 
@@ -98,5 +97,5 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
 
 ## <a name="see-also"></a>Consulte também
 
-[Planejar para chamada Via trabalho no Skype para Business Server 2015](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Planejar para chamada Via trabalho no Skype para Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

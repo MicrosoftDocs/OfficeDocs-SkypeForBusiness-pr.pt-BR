@@ -1,9 +1,8 @@
 ---
-title: Componentes VoIP do Servidor Front-End no Skype for Business Server 2015
+title: Front-End VoIP do servidor de componentes para Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Saiba mais sobre os componentes do Enterprise Voice que estão localizados em servidores Front End Skype para Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
-ms.openlocfilehash: a95b437128f7ddb8dd78462d3a8443e972dd75bc
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 24cac38b62cb92fc0d2353edad1238d02b290d75
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980820"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server-2015"></a>Componentes VoIP do Servidor Front-End no Skype for Business Server 2015
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Front-End VoIP do servidor de componentes para Skype para Business Server
  
 Saiba mais sobre os componentes do Enterprise Voice que estão localizados em servidores Front End Skype para Business Server, incluindo o serviço de tradução e vários componentes de roteamento.
   
@@ -36,7 +36,7 @@ Os componentes de VoIP localizados nos servidores Front-End são:
     
 - Componente de roteamento entre clusters
     
-- [Componente do servidor de mediação no Skype para Business Server 2015](mediation-server.md)
+- [Componente do servidor de mediação no Skype para Business Server](mediation-server.md)
     
 ## <a name="translation-service"></a>Serviço de Conversão
 

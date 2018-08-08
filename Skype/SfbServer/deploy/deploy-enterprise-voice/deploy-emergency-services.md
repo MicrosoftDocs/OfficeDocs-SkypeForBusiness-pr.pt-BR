@@ -1,9 +1,8 @@
 ---
-title: Implantar E9-1-1 no Skype for Business Server 2015
+title: Implantar serviços de emergência no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: Implante o E9-1-1 em Skype para o Business Server Enterprise Voice. Inclui os pré-requisitos e a lista de verificação do processo de implantação.
-ms.openlocfilehash: 82e14f2fb86ec949a60b95746fc3ef41f9cf3b50
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 1ae67f58a4a5afb6eff9ea9eaee2e456469f0e25
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21018960"
 ---
-# <a name="deploy-emergency-services-in-skype-for-business-server-2015"></a>Implantar E9-1-1 no Skype for Business Server 2015
+# <a name="deploy-emergency-services-in-skype-for-business-server"></a>Implantar serviços de emergência no Skype para Business Server
  
 Implante o E9-1-1 em Skype para o Business Server Enterprise Voice. Inclui os pré-requisitos e a lista de verificação do processo de implantação.
   
@@ -38,9 +38,9 @@ A tabela a seguir fornece uma visão geral do processo de implantação de E9-1-
   
 |**Fase**|**Etapas**|**Funções**|**Documentação de implantação**|
 |:-----|:-----|:-----|:-----|
-|Definir utilização de voz, rotas e configurações de tronco  <br/> |1. Crie um novo registro de uso do PSTN. Este é o mesmo nome utilizado para a configuração de **Uso do PSTN** na política de local. <br/> 2. Crie ou atribua uma rota de voz ao registro de uso do PSTN criado na etapa anterior e aponte o atributo gateway ao tronco SIP do E9-1-1 ou gateway ELIN.  <br/> 3. para um provedor de serviço de E9-1-1 de tronco SIP, defina o tronco que manipulará as chamadas de E9-1-1 sobre o SIP para passar os dados de PIDF-LO usando o cmdlet **Set-CsTrunkConfiguration-EnablePIDFLOSupport** . <br/> 4. opcionalmente, para um provedor de serviço de E9-1-1 de tronco SIP, crie ou atribua uma rota local de PSTN para chamadas que não são manipuladas pelo tronco SIP do provedor de serviços E9-1-1. Essa rota será usada se a conexão com o provedor de serviços de E9-1-1 não estiver disponível. Se houver suporte para o provedor de serviços de E9-1-1, atribua uma regra de configuração de tronco ao gateway que converte a cadeia de caracteres de discagem 911 no número DID (discagem direta interna) do ECRC (Centro de resposta de chamada de emergência) nacional.  <br/> |CSVoiceAdmin  <br/> |[Configurar uma rota de voz do E9-1-1 no Skype para Business Server 2015](configure-an-e9-1-1-voice-route.md) <br/> |
-|Criar políticas locais e atribuí-las aos usuários e sub-redes  <br/> |1. Revise a política de local global.  <br/> 2. criar uma política de local com um escopo no nível do usuário; ou, se a organização tiver mais de um site com usos de emergência diferentes, crie uma política de local com um escopo no nível de rede.  <br/> 3. atribua a política de local aos sites de rede.  <br/> 4. Adicione as sub-redes apropriadas ao site de rede.  <br/> 5. (opcional) atribua a política local às políticas de usuário.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin (exceto para a criação de Políticas de Local)  <br/> |[Criar políticas de local no Skype para Business Server 2015](create-location-policies.md) <br/> [Adicionar uma política de local a um site de rede no Skype para Business Server 2015](add-a-location-policy-to-a-network-site.md) <br/> [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
-|Configurar o banco de dados de localização  <br/> |1. preencha o banco de dados com um mapeamento de elementos de rede para locais.  <br/> 2. para gateways ELIN, adicione os ELINs para o \<CompanyName\> coluna.  <br/> 3. configure a conexão para o provedor de serviço E9-1-1 para validar endereços.  <br/> 4. valide os endereços com o provedor de serviço E9-1-1.  <br/> 5. publica o banco de dados atualizado.  <br/> 6. para gateways ELIN, carregue os elins no banco de dados de identificação de local automática (ALI) da sua operadora da PSTN.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[Configurar o banco de dados local no Skype para Business Server 2015](configure-the-location-database.md) <br/> |
-|Configure os Recursos Avançados (opcional)  <br/> |1. configure a URL do aplicativo SNMP.  <br/> 2. configure a URL para o local do serviço de informações de localização secundária.  <br/> |CSVoiceAdmin  <br/> |[Configurar um aplicativo SNMP no Skype para Business Server 2015](configure-an-snmp-application.md) <br/> [Configurar um serviço de informações de localização secundário no Skype para Business Server 2015](secondary-location-information-service.md) <br/> |
+|Definir utilização de voz, rotas e configurações de tronco  <br/> |1. Crie um novo registro de uso do PSTN. Este é o mesmo nome utilizado para a configuração de **Uso do PSTN** na política de local. <br/> 2. Crie ou atribua uma rota de voz ao registro de uso do PSTN criado na etapa anterior e aponte o atributo gateway ao tronco SIP do E9-1-1 ou gateway ELIN.  <br/> 3. para um provedor de serviço de E9-1-1 de tronco SIP, defina o tronco que manipulará as chamadas de E9-1-1 sobre o SIP para passar os dados de PIDF-LO usando o cmdlet **Set-CsTrunkConfiguration-EnablePIDFLOSupport** . <br/> 4. opcionalmente, para um provedor de serviço de E9-1-1 de tronco SIP, crie ou atribua uma rota local de PSTN para chamadas que não são manipuladas pelo tronco SIP do provedor de serviços E9-1-1. Essa rota será usada se a conexão com o provedor de serviços de E9-1-1 não estiver disponível. Se houver suporte para o provedor de serviços de E9-1-1, atribua uma regra de configuração de tronco ao gateway que converte a cadeia de caracteres de discagem 911 no número DID (discagem direta interna) do ECRC (Centro de resposta de chamada de emergência) nacional.  <br/> |CSVoiceAdmin  <br/> |[Configurar uma rota de voz do E9-1-1 no Skype para Business Server](configure-an-e9-1-1-voice-route.md) <br/> |
+|Criar políticas locais e atribuí-las aos usuários e sub-redes  <br/> |1. Revise a política de local global.  <br/> 2. criar uma política de local com um escopo no nível do usuário; ou, se a organização tiver mais de um site com usos de emergência diferentes, crie uma política de local com um escopo no nível de rede.  <br/> 3. atribua a política de local aos sites de rede.  <br/> 4. Adicione as sub-redes apropriadas ao site de rede.  <br/> 5. (opcional) atribua a política local às políticas de usuário.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin (exceto para a criação de Políticas de Local)  <br/> |[Criar políticas de local no Skype para Business Server](create-location-policies.md) <br/> [Adicionar uma política de local a um site de rede no Skype para Business Server](add-a-location-policy-to-a-network-site.md) <br/> [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
+|Configurar o banco de dados de localização  <br/> |1. preencha o banco de dados com um mapeamento de elementos de rede para locais.  <br/> 2. para gateways ELIN, adicione os ELINs para o \<CompanyName\> coluna.  <br/> 3. configure a conexão para o provedor de serviço E9-1-1 para validar endereços.  <br/> 4. valide os endereços com o provedor de serviço E9-1-1.  <br/> 5. publica o banco de dados atualizado.  <br/> 6. para gateways ELIN, carregue os elins no banco de dados de identificação de local automática (ALI) da sua operadora da PSTN.  <br/> |CSVoiceAdmin  <br/> CSLocationAdmin  <br/> |[Configurar o banco de dados local no Skype para Business Server](configure-the-location-database.md) <br/> |
+|Configure os Recursos Avançados (opcional)  <br/> |1. configure a URL do aplicativo SNMP.  <br/> 2. configure a URL para o local do serviço de informações de localização secundária.  <br/> |CSVoiceAdmin  <br/> |[Configurar um aplicativo SNMP no Skype para Business Server](configure-an-snmp-application.md) <br/> [Configurar um serviço de informações de localização secundário no Skype para Business Server](secondary-location-information-service.md) <br/> |
    
 

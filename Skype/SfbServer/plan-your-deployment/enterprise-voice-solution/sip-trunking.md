@@ -1,9 +1,8 @@
 ---
-title: Tronco SIP no Skype for Business Server 2015
+title: Tronco SIP no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Saiba mais sobre o tronco SIP no Skype para Business Server Enterprise Voice
-ms.openlocfilehash: 01f8401f6573220c8995df99f863bfd95a08ffb8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 19029bd2006d269736e4b49830d202ddf07c6a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504100"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980073"
 ---
-# <a name="sip-trunking-in-skype-for-business-server-2015"></a>Tronco SIP no Skype for Business Server 2015
+# <a name="sip-trunking-in-skype-for-business-server"></a>Tronco SIP no Skype para Business Server
  
 Saiba mais sobre o tronco SIP no Skype para Business Server Enterprise Voice
   
-O SIP é usado para iniciar e gerenciar sessões de comunicações de VoIP para o serviço telefônico básico e para vários serviços de comunicação em tempo real adicionais, como sistema de mensagens instantâneas, conferência, detecção de presença e multimídia. Esta seção fornece informações de planejamento para a implementação de troncos SIP, um tipo de conexão SIP que ultrapassa o limite de sua rede local.
+O SIP é usado para iniciar e gerenciar sessões de comunicações de VoIP para o serviço telefônico básico e para vários serviços de comunicação em tempo real adicionais, como sistema de mensagens instantâneas, conferência, detecção de presença e multimídia. Esta seção apresenta informações de planejamento para a implementação de troncos SIP, um tipo de conexão SIP que se estende além do limite da rede local.
   
 ## <a name="what-is-sip-trunking"></a>O que é o tronco SIP?
 
@@ -60,9 +59,9 @@ Os recursos de voz são frequentemente a principal motivação para implantar o 
   
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>Troncos SIP vs. conexões SIP diretas
 
-O tronco termo é derivado da tecnologia de comutação por circuito. Ele se refere a uma linha física dedicada que conecta o equipamento de comutação telefônica. Como seu predecessor, troncos (TDM), a multiplexação de divisão de tempo troncos SIP são conexões entre duas redes separadas de SIP — o Skype Enterprise Business Server e o ITSP. Diferentemente dos troncos em circuitos comutados, os troncos SIP são conexões virtuais que podem ser estabelecidas em qualquer tipo de conexão de tronco SIP compatível.
+O termo tronco deriva da tecnologia de circuitos comutados. Ele se refere a uma linha física dedicada que conecta o equipamento de comutação telefônica. Como seu predecessor, troncos (TDM), a multiplexação de divisão de tempo troncos SIP são conexões entre duas redes separadas de SIP — o Skype Enterprise Business Server e o ITSP. Diferentemente dos troncos em circuitos comutados, os troncos SIP são conexões virtuais que podem ser estabelecidas em qualquer tipo de conexão de tronco SIP compatível.
   
-As conexões SIP diretas, por outro lado, são conexões SIP que não cruzam o limite de rede local (ou seja, elas se conectam a um gateway PSTN (Rede Telefônica Pública Comutada) ou PBX dentro de sua rede interna). Para obter detalhes sobre como você pode usar conexões SIP diretas com Skype para Business Server, consulte [Direct SIP connections na Skype para Business Server 2015](direct-sip.md). 
+As conexões SIP diretas, por outro lado, são conexões SIP que não cruzam o limite de rede local (ou seja, elas se conectam a um gateway PSTN (Rede Telefônica Pública Comutada) ou PBX dentro de sua rede interna). Para obter detalhes sobre como você pode usar conexões SIP diretas com Skype para Business Server, consulte [Direct SIP connections na Skype para Business Server](direct-sip.md). 
   
 ## <a name="how-do-i-implement-sip-trunking"></a>Como implemento o tronco SIP?
 
@@ -70,7 +69,7 @@ Para implementar o tronco SIP, você deve rotear a conexão através de um servi
   
 Cada servidor de mediação tem uma interface de rede interna e uma interface de rede externa. A interface interna se conecta a servidores Front-End. A interface externa é geralmente denominada a interface do gateway, porque ele foi tradicionalmente usado para conectar o servidor de mediação para um gateway PSTN (rede) telefônica comutada pública ou um IP-PBX. Para implementar um tronco SIP, você pode conectar a interface externa do servidor de mediação ao componente de borda externa do ITSP. O componente de borda externa do ITSP pode ser um SBC (Controlador de Borda da Sessão), um roteador ou um gateway.
   
-Para obter detalhes sobre servidores de mediação, consulte [componente de servidor de mediação em Skype para Business Server 2015](mediation-server.md). 
+Para obter detalhes sobre servidores de mediação, consulte [componente de servidor de mediação em Skype para Business Server](mediation-server.md). 
   
 ### <a name="centralized-vs-distributed-sip-trunking"></a>Tronco SIP centralizado versus distribuído
 
@@ -95,7 +94,7 @@ Dependendo da localização geográfica de sites e a quantidade de tráfego prev
 A decisão de implantar um tronco SIP centralizado ou distribuído exige uma análise de custo-benefício. Em alguns casos, pode ser vantajoso optar pelo modelo de implantação distribuído mesmo se ele não for necessário. Em uma implantação centralizada completamente, todo o tráfego de site de filial é roteado em links de WAN. Em vez de pagar pela largura de banda necessária ao link de WAN, convém usar o tronco SIP distribuído. Por exemplo, talvez você queira implantar um servidor Standard Edition em um site de filial com federação para o site central, ou talvez você queira implantar um aparelho de filial persistente ou um servidor de filial persistente com um gateway pequeno.
   
 > [!NOTE]
-> Para obter detalhes sobre tronco SIP distribuído, consulte [tronco SIP de site de filial em Skype para Business Server 2015](branch-site.md). 
+> Para obter detalhes sobre tronco SIP distribuído, consulte [tronco SIP de site de filial em Skype para Business Server](branch-site.md). 
   
 ### <a name="supported-sip-trunking-connection-types"></a>Tipos de conexão de tronco SIP suportadas
 
@@ -183,4 +182,5 @@ Se você usa um servidor VPN, é recomendável seguir as seguintes diretrizes:
     
 ## <a name="see-also"></a>Consulte também
 
-[Tronco Branch site SIP no Skype para Business Server 2015](branch-site.md)
+[Tronco Branch site SIP no Skype para Business Server](branch-site.md)
+

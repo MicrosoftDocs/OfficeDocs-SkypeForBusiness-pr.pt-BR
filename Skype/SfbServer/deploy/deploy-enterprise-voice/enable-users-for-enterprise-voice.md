@@ -1,9 +1,8 @@
 ---
-title: Habilitar usuários do Enterprise Voice no Skype for Business Server 2015
+title: Habilitar usuários para o Enterprise Voice no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
-description: 'Resumo: Saiba como permitir que os usuários façam e recebam chamadas usando o Enterprise Voice no Skype para Business Server 2015.'
-ms.openlocfilehash: c7cbedb083ac76006a2bc7aaaec17082f7da75dd
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como permitir que os usuários façam e recebam chamadas usando o Enterprise Voice no Skype para Business Server.'
+ms.openlocfilehash: abba652665660299ccb1e3b9a55961ca2248225e
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21025663"
 ---
-# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server-2015"></a>Habilitar usuários do Enterprise Voice no Skype for Business Server 2015
+# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar usuários para o Enterprise Voice no Skype para Business Server
  
-**Resumo:** Saiba como permitir que os usuários façam e recebam chamadas usando o Enterprise Voice no Skype para Business Server 2015.
+**Resumo:** Saiba como permitir que os usuários façam e recebam chamadas usando o Enterprise Voice no Skype para Business Server.
   
 Após a implantação do Enterprise Voice ou chamada Via trabalho, você pode usar os procedimentos a seguir para habilitar um usuário fazer chamadas usando o Enterprise Voice:
   

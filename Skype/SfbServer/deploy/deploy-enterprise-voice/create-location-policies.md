@@ -1,9 +1,8 @@
 ---
-title: Criar políticas de localização no Skype for Business Server 2015
+title: Criar políticas de local no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,29 +13,29 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Leia este tópico para saber como configurar aprimorada políticas de local de serviço de emergência (E9-1-1) em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 6687e5ac8d414ef9db49c2fccdde9dceedb93889
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 525c0a1a7a22a31e129c50ebebd68483a31cb87c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568294"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20987261"
 ---
-# <a name="create-location-policies-in-skype-for-business-server-2015"></a>Criar políticas de localização no Skype for Business Server 2015
+# <a name="create-location-policies-in-skype-for-business-server"></a>Criar políticas de local no Skype para Business Server
  
 Leia este tópico para saber como configurar aprimorada políticas de local de serviço de emergência (E9-1-1) em Skype para Business Server Enterprise Voice. 
   
-Skype para Business Server usa uma política de local para habilitar o Skype para clientes corporativos para E9-1-1 durante o registro de cliente. Uma política de local contém as configurações que definem como o serviço E9-1-1 será implementado. Para obter mais informações, consulte [planejar políticas de local para Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
+Skype para Business Server usa uma política de local para habilitar o Skype para clientes corporativos para E9-1-1 durante o registro de cliente. Uma política de local contém as configurações que definem como o serviço E9-1-1 será implementado. Para obter mais informações, consulte [planejar políticas de local para Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
   
 Defina as políticas de local usando o Skype para painel de controle corporativos ou usando o cmdlet [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) .
   
 > [!NOTE]
-> Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Se você deseja configurar vários números de emergências, você deve seguir as informações em [vários números de emergências Skype para Business Server 2015 planejar](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) e [Configurar vários números de emergências Skype para negócios 2015](configure-multiple-emergency-numbers.md). 
+> Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Se você deseja configurar vários números de emergências, você deve seguir as informações em [vários números de emergências Skype para Business Server planejar](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) e [Configurar vários números de emergências Skype para negócios](configure-multiple-emergency-numbers.md). 
   
 É possível editar a política de localização global e criar novas políticas de localização sinalizadas. Um cliente obtém uma política global quando não está localizado dentro de uma sub-rede com uma política de localização associada ou quando o cliente não foi atribuído diretamente com uma política de localização. As políticas sinalizadas são atribuídas à sub-redes ou usuários.   
   
 Para criar uma política de localização, você deve usar uma conta membro do grupo RTCUniversalServerAdmins, membro da função administrativa CsVoiceAdministrator ou com direitos e permissões de administrador equivalentes.
   
-Para obter mais informações, consulte [planejar políticas de local para Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Os cmdlets contidos neste procedimento usam uma política de local definida com os valores a seguir. Para obter uma descrição completa dos valores e de parâmetros do cmdlet, consulte [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
+Para obter mais informações, consulte [planejar políticas de local para Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Os cmdlets contidos neste procedimento usam uma política de local definida com os valores a seguir. Para obter uma descrição completa dos valores e de parâmetros do cmdlet, consulte [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps).
   
 |**Elemento**|**Valor**|
 |:-----|:-----|

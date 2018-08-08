@@ -1,9 +1,8 @@
 ---
-title: Implantar bypass de mídia no Skype no Skype for Business Server 2015
+title: Implantar o bypass de mídia no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Implante o bypass de mídia no Skype para Business Server Enterprise Voice. Inclui os pré-requisitos e a lista de verificação do processo de implantação.
-ms.openlocfilehash: ffd026465b5ad4463b8df2c3184e39198bfe5045
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ead9ebb099bd671dbbc28607bf11e1131ac7569a
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20965433"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server-2015"></a>Implantar bypass de mídia no Skype no Skype for Business Server 2015
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>Implantar o bypass de mídia no Skype para Business Server
  
 Implante o bypass de mídia no Skype para Business Server Enterprise Voice. Inclui os pré-requisitos e a lista de verificação do processo de implantação.
   
-Este tópico pressupõe que você já publicou e configurado pelo menos um ou mais servidores de mediação e o ponto de pelo menos um gateway para fornecer conectividade PSTN. Para obter mais detalhes sobre essas tarefas, consulte [implantar um servidor de mediação no construtor de topologia no Skype para Business Server 2015](deploy-a-mediation-server.md) e [definir um gateway no construtor de topologia no Skype para Business Server 2015](define-a-gateway.md).
+Este tópico pressupõe que você já publicou e configurado pelo menos um ou mais servidores de mediação e o ponto de pelo menos um gateway para fornecer conectividade PSTN. Para obter mais detalhes sobre essas tarefas, consulte [implantar um servidor de mediação no construtor de topologia no Skype para Business Server](deploy-a-mediation-server.md) e [definir um gateway no construtor de topologia no Skype para Business Server](define-a-gateway.md).
   
  Se o par ao qual você está se conectando for o SBC de um provedor de tronco SIP, certifique-se de que o provedor seja qualificado e suporte bypass de mídia. Por exemplo, vários provedores de tronco SIP permitirão que seu SBC receba tráfego do Servidor de Mediação. Em caso afirmativo, o bypass não deve ser habilitado para o tronco em questão. Além disso, não é possível habilitar o bypass de mídia, a não ser que sua organização revele seus endereços IP de rede internos para o provedor de tronco SIP.
   
@@ -44,8 +44,8 @@ A tabela a seguir apresenta uma visão geral do processo de implantação do byp
   
 |**Fase**|**Etapas**|**Funções**|**Documentação de implantação**|
 |:-----|:-----|:-----|:-----|
-|Configurar troncos para bypass de mídia  <br/> |Se você ainda não tiver feito isso, configure um ou mais troncos para bypass de mídia.  <br/> | Membro do grupo RTCUniversalServerAdmins ou membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurar um tronco com bypass de mídia no Skype para Business Server 2015](configure-trunk-with-media-bypass.md) <br/> |
-|Configurar bypass de mídia globalmente  <br/> |Configurar bypass de mídia para todas as chamadas para o PSTN ou certas chamadas com base em sites de rede e regiões de rede.  <br/> | Membro do grupo RTCUniversalServerAdmins ou membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurar o bypass de mídia no Skype para negócios 2015 de servidor para sempre ignorar o servidor de mediação](bypass-the-mediation-server.md) <br/> [Configurar as configurações globais de desvio de mídia no Skype para o servidor de negócios 2015 usem informações de site e da região](use-site-and-region-information.md) <br/> |
+|Configurar troncos para bypass de mídia  <br/> |Se você ainda não tiver feito isso, configure um ou mais troncos para bypass de mídia.  <br/> | Membro do grupo RTCUniversalServerAdmins ou membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurar um tronco com bypass de mídia no Skype para Business Server](configure-trunk-with-media-bypass.md) <br/> |
+|Configurar bypass de mídia globalmente  <br/> |Configurar bypass de mídia para todas as chamadas para o PSTN ou certas chamadas com base em sites de rede e regiões de rede.  <br/> | Membro do grupo RTCUniversalServerAdmins ou membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurar o bypass de mídia no Skype para Business Server para sempre ignorar o servidor de mediação](bypass-the-mediation-server.md) <br/> [Configurar as configurações globais de desvio de mídia no Skype para Business Server usem informações de site e da região](use-site-and-region-information.md) <br/> |
 |Associar sub-redes a sites da rede, se necessário  <br/> |Se você configurar o bypass de mídia para usar informações do site e da região, deverá associar as sub-redes de sua implantação a sites e regiões da rede (caso ainda não tenha feito isso para outro recurso de voz).  <br/> | Membro do grupo RTCUniversalServerAdmins ou membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets) <br/> |
    
 

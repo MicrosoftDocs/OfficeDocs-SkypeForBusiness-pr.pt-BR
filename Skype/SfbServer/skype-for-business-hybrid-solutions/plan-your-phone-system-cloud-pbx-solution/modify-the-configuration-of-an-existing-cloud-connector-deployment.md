@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga as etapas deste tópico para modificar a configuração de um Skype existente para o conector de nuvem Business Edition 1.4.1 ou implantação posterior.
-ms.openlocfilehash: 9e660744e05bfd0628c19b86110ad33443c58671
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 0a89c4a03d7cb316674490bc81768f27cd1a9c66
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569565"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176080"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar a configuração de uma implantação do Cloud Connector existente
  
@@ -279,7 +279,7 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
 
 Para adicionar um novo domínio SIP (ou vários domínios SIP) à sua implantação do conector de nuvem existente, faça o seguinte:
   
-1. Verifique se você concluiu as etapas para atualizar seu domínio no Office 365 e se consegue adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Office 365, consulte o vídeo [configurar seu domínio no Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Verifique se você concluiu as etapas para atualizar seu domínio no Office 365 e se consegue adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Office 365, consulte [Adicionar um domínio ao Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Atualize o arquivo de configuração do conector de nuvem com o novo domínio SIP ou domínios.
     
@@ -300,7 +300,7 @@ Para adicionar um novo domínio SIP (ou vários domínios SIP) à sua implantaç
 
 Se você precisar alterar o domínio SIP primário em sua implantação do conector de nuvem, faça o seguinte:
   
-1. Verifique se você concluiu as etapas para atualizar seu domínio no Office 365 e se consegue adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Office 365, consulte o vídeo [configurar seu domínio no Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+1. Verifique se você concluiu as etapas para atualizar seu domínio no Office 365 e se consegue adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Office 365, consulte [Adicionar um domínio ao Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Atualize o arquivo de configuração do conector de nuvem com o novo domínio SIP.
     
@@ -322,7 +322,9 @@ Se você precisar alterar o domínio SIP primário em sua implantação do conec
 
 6. 
     
-    Remova o registro de sites para cada site executando o seguinte cmdlet no Skype para negócios Online PowerShell:
+    Remova o registro do site de cada um dos sites executando o seguinte cmdlet no PowerShell do Skype for Business Online:
+
+
     
   ```
   Remove-CsHybridPSTNSite

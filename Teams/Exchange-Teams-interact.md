@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
 description: Sabia quais funcionalidades existem entre o Microsoft Teams e as diversas configurações do Exchange, como criar e entrar em equipes, criar canais e muito mais.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65bbcc3155147141b99f63be686a92b85f87c119
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a89f3670d2dda14ae5d15647213aca5d1d5398af
+ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "19569911"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -34,8 +36,8 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
 |**Exchange Online Dedicated vNext**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim (lista de permissões)|Não|Não|Sim|Não|Não|Sim|Sim|Não|Sim (Exchange 2013 +)|Não|Sim|Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim (lista de permissões)|Não|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Sim (Exchange 2013 +)|Não|Sim|Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Não|Não|Sim|Não|Não|Sim|Sim|Não|Sim (Exchange 2013 +)|Não|Sim|Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Não|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Sim (Exchange 2013 +)|Não|Sim|Sim|
                                                             
 *\*Suporte para o Exchange 2016 CU3 e versões acima*
 

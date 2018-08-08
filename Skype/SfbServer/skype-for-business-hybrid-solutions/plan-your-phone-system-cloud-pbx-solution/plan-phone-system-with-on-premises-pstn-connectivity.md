@@ -17,11 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
-ms.openlocfilehash: 79d414e26b2fe260c6fe647c818911e77ce3bfaa
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: b92a98e52f9ccf914a8100555fa683bb01d05d5b
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21001723"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server
  
@@ -55,7 +56,7 @@ Implantando o sistema telefônico no Office 365 com conectividade PSTN de local,
   
 Você pode ter um recurso personalizado ou um grande complemento para seu PBX herdado, como um call center. Se o recurso personalizado não está disponível atualmente no sistema telefônico no Office 365, você deverá manter esses usuários que exigem esse recurso personalizado local com o PBX herdado e a porta apenas os usuários que não precisam acessar o recurso personalizado para o sistema telefônico no Office 365 com a conectividade de PSTN local.
   
-Para obter uma lista dos PBXs herdados que interoperam diretamente com Skype para Business Server 2015 consulte [Qualificado de infra-estrutura para Microsoft Lync](https://technet.microsoft.com/en-us/office/dn788945.aspx). Se o seu PBX não estiver na lista, você pode usar um controlador de borda de sessão para conectar seu PBX com o sistema telefônico no Office 365 no Skype para negócios Online.
+Para obter uma lista dos PBXs herdados que interoperam diretamente com Skype para Business Server 2015 consulte [Qualificado de infra-estrutura para Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Se o seu PBX não estiver na lista, você pode usar um controlador de borda de sessão para conectar seu PBX com o sistema telefônico no Office 365 no Skype para negócios Online.
   
 ### <a name="network-considerations-for-quality-and-performance"></a>Considerações de rede para qualidade e desempenho
 

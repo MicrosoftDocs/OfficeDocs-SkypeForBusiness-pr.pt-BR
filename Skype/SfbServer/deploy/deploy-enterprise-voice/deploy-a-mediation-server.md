@@ -1,5 +1,5 @@
 ---
-title: Implantar um Servidor de Mediação no Construtor de Topologias do Skype for Business Server 2015
+title: Implantar um servidor de mediação no construtor de topologia no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
-description: 'Resumo: Saiba como definir e implantar um servidor de mediação no construtor de topologia no Skype para Business Server 2015.'
-ms.openlocfilehash: 1923b75f36690cf6c4ab49cb69591032b188ace5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como definir e implantar um servidor de mediação no construtor de topologia no Skype para Business Server.'
+ms.openlocfilehash: cc5990db7a1e8323205f6fbddbd937ad5ee75f19
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20975327"
 ---
-# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server-2015"></a>Implantar um Servidor de Mediação no Construtor de Topologias do Skype for Business Server 2015
+# <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implantar um servidor de mediação no construtor de topologia no Skype para Business Server
  
-**Resumo:** Saiba como definir e implantar um servidor de mediação no construtor de topologia no Skype para Business Server 2015.
+**Resumo:** Saiba como definir e implantar um servidor de mediação no construtor de topologia no Skype para Business Server.
   
 A carga de trabalho do Enterprise Voice, conferência discada e aplicativos avançados do Enterprise Voice (aplicativo grupo de resposta, o aplicativo de estacionamento de chamada, o controle de admissão de chamadas (CAC) e assim por diante), estão disponíveis nos pools de Front-End. A funcionalidade do servidor de mediação é inserida no servidor Front-End. Um servidor de mediação autônomo separado não é necessário. 
   
@@ -79,7 +80,7 @@ Você pode adicionar o servidor de mediação como uma função colocada em um p
    - Se desejar implantar vários servidores de mediação no pool para fornecer alta disponibilidade, selecione **pool de vários computadores**.
     
     > [!NOTE]
-    > Você deve implantar (… /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para dar suporte a pools de servidor de mediação que possuem vários servidores de mediação.
+    > Você deve [implantar](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para oferecer suporte a pools de servidor de mediação que possuem vários servidores de mediação.
   
    - Se você deseja implantar apenas um servidor de mediação no pool, porque você não requerem alta disponibilidade, selecione **pool de computador único**. Ignore a etapa seguinte.
     

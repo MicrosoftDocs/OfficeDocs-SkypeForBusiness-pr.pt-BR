@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 'Resumo: Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server 2015.'
-ms.openlocfilehash: b4e7e0bd186a3622c8f6fdf671799efdd8ab792d
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: 'Resumo: Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server.'
+ms.openlocfilehash: f773062744afeb97ddcd4f5e92b37ac534f05828
+ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504296"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "21223803"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparação de recursos do cliente móvel para Skype para negócios
  
-**Resumo:** Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server 2015.
+**Resumo:** Revise o suporte de recurso para o cliente móvel durante o planejamento de Skype para Business Server.
   
 Este artigo compara os recursos e capacidades entre Skype para clientes móveis de negócios e do Skype para o cliente de desktop corporativos nas seguintes categorias:
   
@@ -47,13 +47,16 @@ Este artigo compara os recursos e capacidades entre Skype para clientes móveis 
     
 -  Autenticação moderna
     
-As tabelas a seguir listam os recursos que estão disponíveis para Skype para usuários comerciais em uma implantação local do Skype para Business Server 2015. Os mesmos recursos também estão disponíveis para Skype para usuários corporativos Online e o Microsoft Office 365, a menos que indicado de outra forma nas notas de rodapé de tabela.
+As tabelas a seguir listam os recursos que estão disponíveis para Skype para usuários comerciais em uma implantação local do Skype para Business Server. Os mesmos recursos também estão disponíveis para Skype para usuários corporativos Online e o Microsoft Office 365, a menos que indicado de outra forma nas notas de rodapé de tabela.
   
 > [!NOTE]
 > Para obter ajuda online e recursos para usuários finais, consulte [Skype descobrir para a empresa](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
 > Para comparar os recursos disponíveis em outro Skype para clientes corporativos, consulte [comparação de recursos do cliente de Desktop do Skype para negócios](desktop-feature-comparison.md). 
+
+> [!NOTE]
+> Suporte MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Todos os Skype atual para clientes móveis do Business já use Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Usuários com clientes herdados usando MCX serão necessário atualizar para um cliente atual.
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>Conexão, notificações por push e recursos gerais
 
@@ -97,7 +100,7 @@ Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois q
 ## <a name="contacts-and-contact-groups-support"></a>Suporte para contatos e grupos de contatos
 
 
- | Recurso/capacidade  | Skype para o cliente de desktop de negócios Lync 2013  | Windows Phone  | iOS  | Android |
+ | Recurso/capacidade  | Skype para o cliente de desktop de negócios  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Exibir lista de contatos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Exibir grupos de contato  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -192,7 +195,7 @@ Em dispositivos iOS, Skype para negócios desconecta-se automaticamente depois q
 |Acessar caixa postal  <br/> |& #x 2714;|& #x 2714;|& #x 2714;||
 |Use o teclado no Skype para negócios  <br/> |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||
    
- & #x 2776;  Disponível para Skype para usuários corporativos Online e/ou Office 365 E5, e os usuários hospedados no Skype para Business Server 2015 ou o Lync 2013 com o Enterprise Voice habilitado.
+ & #x 2776;  Disponível para Skype para usuários corporativos Online e/ou Office 365 E5, e os usuários hospedados no Skype para Business Server ou o Lync Server 2013 com o Enterprise Voice habilitado.
   
  & #x 2777;  Para Skype para usuários corporativos Online e/ou Office 365, este recurso é suportado por parceiros da Microsoft.
   

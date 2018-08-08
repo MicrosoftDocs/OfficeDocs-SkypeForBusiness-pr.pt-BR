@@ -3,7 +3,6 @@ title: Instalar e configurar Opções de Disponibilidade no Skype for Business S
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 7/6/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -12,17 +11,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Leia sobre como instalar e configurar as opções de disponibilidade no Skype para Business Server 2015.
-ms.openlocfilehash: d9348077c5779984879d3ac9f0d68bf68fd0c561
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: Leia sobre como instalar e configurar opções de disponibilidade no Skype para Business Server.
+ms.openlocfilehash: 9bf647c1a1ccc5cbcad44b6a32e7763014d31547
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568211"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21003891"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar e configurar Opções de Disponibilidade no Skype for Business Server
  
-Leia sobre como instalar e configurar as opções de disponibilidade no Skype para Business Server 2015.
+Leia sobre como instalar e configurar opções de disponibilidade no Skype para Business Server.
   
 O recurso Opções de Disponibilidade é uma nova política de voz introduzida na Atualização Cumulativa de julho de 2016 que permite configurar como as chamadas de entrada serão tratadas quando o usuário já estiver em uma chamada ou em conferência ou tiver colocado uma chamada em espera. As chamadas novas ou de entrada poderão ser rejeitadas com um sinal de ocupado ou encaminhadas para a caixa postal. 
   
@@ -106,6 +105,7 @@ Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 No exemplo a seguir, o comando configura as opções de disponibilidade para a usuária "Clara Barbosa". Nessa configuração, as novas chamadas de entrada para "Clara Barbosa" serão encaminhadas para a caixa postal quando ela já estiver em uma chamada:
+
   
 ```
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy 

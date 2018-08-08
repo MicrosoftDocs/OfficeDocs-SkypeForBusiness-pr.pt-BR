@@ -2,20 +2,22 @@
 title: Tornar o sistema telefônico com planos de chamar decisões de serviço - Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Escolha de chamar planos e licenciamento, configure locais de emergência e recursos, como ID do chamador e de caixa postal, adquirir ou transferir os números de telefone.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b7b1aaff60d6aa35fa10334c8d55e6a057eccaf
-ms.sourcegitcommit: ffca287cf70db2cab14cc1a6cb7cea68317bedd1
+ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246502"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -23,7 +25,7 @@ Para planejar a implementação técnica do sistema telefônico com planos de ch
 
 ## <a name="calling-in-teams"></a>Fazendo chamadas no Microsoft Teams
 
-Com Teams da Microsoft, os usuários podem fazer ou receber chamadas telefônicas para ou da rede telefônica pública comutada (PSTN). Seus usuários podem usar seus próprios números de telefone dedicado para fazer e receber telefonemas nacionais e internacionais de aplicativos do cliente de equipes, com recursos avançados que incluem a caixa postal e chamadas de emergência (911 avançado).
+Com Teams da Microsoft, os usuários podem fazer ou receber chamadas telefônicas para ou da rede telefônica pública comutada (PSTN). Seus usuários podem usar seus próprios números de telefone dedicado para fazer e receber chamadas telefônicas de nacionais e internacionais de aplicativos do cliente de equipes, com recursos avançados que incluem a caixa postal.
 
 > [!NOTE]
 > O mapa de equipes mais recente para identificar o sistema telefônico de equipes com recursos de chamada planejar no escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
@@ -35,7 +37,7 @@ Para usuários de equipes poder fazer e receber chamadas PSTN, elas precisam ser
 Para habilitar a conectividade à PSTN, sua organização pode usar o Microsoft como seu provedor de serviços de telecomunicações. Eventualmente, você também terá a opção de provedor de serviços de telecomunicações "trazer suas próprias" para habilitar a conectividade PSTN para o sistema telefônico.
 
 > [!IMPORTANT]
-> A capacidade de escolher seu próprio provedor de serviços de telecomunicações para o sistema telefônico estarão disponível no futuro. Para saber mais sobre a linha do tempo projetada, revise o [Skype para a Microsoft Roadmap de recursos de equipes de negócios](https://aka.ms/skype2teamsroadmap).
+> A capacidade de usar seu próprio provedor de serviços de telecomunicações para o sistema telefônico com sua implantação de equipes também está disponível com o roteamento direto de sistema do telefone. Para saber mais sobre o roteamento direto, revise as [orientações de roteamento direto](2-envision-make-my-service-decisions-direct-routing.md).
 
 ## <a name="phone-system-with-calling-plans"></a>Sistema de Telefonia com Planos de Chamadas
 
@@ -58,6 +60,9 @@ Antes de planejar a implementação de chamar planos em equipes, verificar se o 
 > [!IMPORTANT]
 > Devido a restrições legais, para chamar planos esteja disponível para organizações multinacionais, o contrato para assinaturas do Office 365 deve ser baseado em um país ou região onde o serviço de planos de chamada está disponível ou onde o serviço de planos de chamada pode ser adquirida.
 
+> [!NOTE]
+> Se os planos de chamada não estão disponíveis na sua área, você pode usar o [Roteamento direto de sistema do telefone](2-envision-make-my-service-decisions-direct-routing.md) para habilitar os usuários usando equipes com recursos PSTN.
+
 Depois de confirmar que sua organização pode obter o serviço chamando planos, compile a lista de locais do usuário ou de onde você vai Implementando o serviço de planos de chamada, com base na lista de países disponíveis e regiões de escritórios.
 
 <br>
@@ -68,13 +73,13 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 
 > [!TIP]
 > Abaixo é um exemplo de um sistema telefônico com lista planos de chamada de habilitação de site.
->|Escritório   |Localização |Serviço de sistema telefônico  |
->|---------|---------|---------|
->|One Epping Road|Austrália|Serviço PSTN herdado|
->|100 Alma Road|Hong Kong SAR|Serviço PSTN herdado|
->|One Marina Boulevard|Cingapura|Serviço PSTN herdado|
->|32 London Bridge Street|Reino Unido|Sistema de Telefonia com Planos de Chamadas|
->|39 quai du Président Roosevelt|França|Sistema de Telefonia com Planos de Chamadas|
+> | **Escritório**                     | **Local**   | **Serviço de sistema telefônico** |
+> |--------------------------------|----------------|--------------------------|
+> | One Epping Road                | Austrália      | Serviço PSTN herdado |
+> | 100 Alma Road             | Hong Kong SAR  | Roteamento direto de sistema do telefone |
+> | One Marina Boulevard           | Cingapura      | Roteamento direto de sistema do telefone |
+> | 32 London Bridge Street        | Reino Unido | Sistema de Telefonia com Planos de Chamadas |
+> | 39 quai du Président Roosevelt | França         | Sistema de Telefonia com Planos de Chamadas |
 
 <!--ENDOFSECTION-->
 
@@ -85,7 +90,7 @@ Com a chamada estiver planejando no Office 365, cada usuário na sua organizaç�
 Quando você estiver configurando os números de telefone para planos de chamada, você deve atribuir um endereço de emergência para cada número de telefone antes de atribuir o número a um usuário. Isso é necessário para dar suporte às chamadas de emergência. O endereço de emergência deve ser validado para garantir que ele está no formato correto a ser usado pelos serviços de resposta de emergência.
 
 > [!IMPORTANT]
-> Serviços de emergência chamar funciona de modo diferente no serviço chamando planos que nos serviços de telefonia tradicional. É importante que você entenda essas diferenças e comunicar-se a todos os usuários. Para obter mais detalhes, consulte [Emergency chamar termos e condições](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions) .
+> Serviços de emergência chamar funciona de modo diferente no serviço chamando planos que nos serviços de telefonia tradicional. É importante que você entenda essas diferenças e comunicar-se a todos os usuários. Para obter mais detalhes, consulte [Emergency chamar termos e condições](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) .
 
 Além de fornecer um endereço de emergência validado, você pode definir o locais de emergência e associá-los com o endereço de emergência validado dar um local mais exato dentro de um endereço. Normalmente, um local de emergência consiste no número de um edifício, andar, bloco ou o número do escritório onde o usuário está localizado.
 
@@ -93,7 +98,7 @@ Para saber mais sobre os locais de emergência em relação à chamada planos, r
 
 -   [O que são locais e endereços de emergência e encaminhamento de chamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
--   [Termos e condições para chamadas de emergência](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/emergency-calling-terms-and-conditions)
+-   [Termos e condições para chamadas de emergência](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
 |         |         |         |
@@ -140,9 +145,9 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 >|Emily Braun      |Online      |Sim |Habilitado |Habilitado |
 >|Lidia Holloway   |Online      |Sim |Habilitado |Desabilitado |
 >|Louis Lahr       |No local |Sim |Habilitado |Habilitado |
->|Marcel Beauchamp |No local |Sim |Desabilitado |N/A |
->|Rachelle Cormier |Online      |Sim |Desabilitado |N/A |
->|Isabell Potvin   |No local |Sim |Desabilitado |N/A |
+>|Marcel Beauchamp |No local |Sim |Desabilitado |N/D |
+>|Rachelle Cormier |Online      |Sim |Desabilitado |N/D |
+>|Isabell Potvin   |No local |Sim |Desabilitado |N/D |
 
 <!--ENDOFSECTION-->
 
@@ -181,7 +186,7 @@ Para oferecer suporte para conferência de áudio adicionais e planos de chamar 
 
 Se sua organização pretende usar o Microsoft como provedor de serviços de telecomunicações, você precisa obter chamar planejar complementos adequados às necessidades de negócios dos usuários. Geralmente, nem todas as pessoas em uma organização precisam colocar chamadas internacionais, portanto você pode provisionar a maioria dos usuários com licenças de chamar planejar domésticas.
 
-Existem dois tipos de licenças chamar planejar:
+Há dois tipos de licenças do Plano de Chamadas:
 
 -   Plano de Chamadas Domésticas
 
@@ -200,9 +205,9 @@ Você pode configurar créditos de comunicações para suas organizações para 
 
 Para saber mais sobre o sistema telefônico e chamar planos, revise os seguintes artigos:
 
--   [Sistema telefônico](https://products.office.com/skype-for-business/phone-system)
+-   [Sistema de Telefonia](https://products.office.com/skype-for-business/phone-system)
 
--   [Planos de chamada](https://products.office.com/skype-for-business/calling-plans)
+-   [Planos de Chamadas](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
 |         |         |         |
@@ -347,15 +352,15 @@ Para obter mais informações sobre planos de discagem, consulte [quais são os 
 >|Nome do plano de discagem de locatário<br>_Descrição_  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para o escritório de One Epping Road, North Ryde, NSW, Austrália_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^([2-9]\d{7})$<br>+612$1<br>False|
->||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^(1[38]\d{4,8})\d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^(000\|1[0125]\d{1,8})$<br>$1<br>False|
+>||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+>||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+>||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
 >|**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) do office orientações, Cingapura_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7})\d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^(1\d{3,4}\|9\d{2})$<br>$1<br>False|
+>||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+>||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du Président Roosevelt do escritório, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalização de número gratuito na França_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalização de número de serviço na França_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+>||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
 > [!TIP]
@@ -390,8 +395,6 @@ Use as informações das seções anteriores deste artigo para documentar suas d
 -   Detalhes sobre a aquisição de números de telefone, números de telefone e locais de emergência
 
 -   Detalhes de configuração da caixa postal
-
--   Atribuições das configurações de ponte de conferência
 
 -   Detalhes de configuração do mascaramento de ID de Chamadas
 

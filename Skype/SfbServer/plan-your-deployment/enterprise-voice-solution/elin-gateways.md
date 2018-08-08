@@ -1,9 +1,8 @@
 ---
-title: Gerenciando locais para gateways ELIN no Skype for Business Server 2015
+title: Gerenciar locais para gateways ELIN no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/17/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando gateways ELIN, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: c89f09af2011d316485094f9fc817580b56d1d81
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: ace81abc47ac401db48b7a34fe9a229a29f18881
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974232"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server-2015"></a>Gerenciando locais para gateways ELIN no Skype for Business Server 2015
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gerenciar locais para gateways ELIN no Skype para Business Server
  
 Decisões necessárias para planejar um banco de dados de informações de local ou um semelhante banco de dados externo, para uma implantação do E9-1-1 usando gateways ELIN, no Skype para Business Server Enterprise Voice.
   
@@ -57,7 +57,7 @@ O campo de **local** de serviço de informações de local, que contém o local 
 
 Após decidir como você deseja dividir o espaço da construção em locais, é necessário decidir quantos ELINs atribuir em cada local. Por exemplo, em uma construção de vários locais ou pisos, diferentes áreas na construção podem ser atribuídas com zonas de emergência diferentes. Geralmente, cada piso na construção é designado como um local. Cada local é atribuído com um ou mais ELINs, que são usados como números de chamada durante uma chamada de emergência. Entre em contato com sua transportadora PSTN para obter os números de telefone que você pode usar para ELINs. A tabela a seguir oferece um exemplo de locais para um endereço específico.
   
-**Local de amostra e atribuições de ELIN**
+**Local de amostra e Atribuições de ELIN**
 
 |**Área de construção**|**Local**|**ELIN**|
 |:-----|:-----|:-----|
@@ -83,7 +83,7 @@ Onde estão os dados e quais etapas você precisa executar para convertê-los pa
   
 Usando a opção de serviço de informações de localização secundário para se conectar a um banco de dados de terceiros, você pode agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço de informações de local pode retornar vários endereços, originário do serviço de informações de localização secundário, para um Skype para o cliente de negócios. Em seguida, o usuário pode escolher o local mais apropriado. 
   
-Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o Skype para esquema de solicitação/resposta do Business servidor local. Para obter detalhes, consulte o [Serviço Web para o protocolo de suporte do E911](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obter detalhes sobre como implantar um serviço de informações de localização secundária, consulte [Configure um serviço de informações de localização secundário no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação de implantação.
+Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o Skype para esquema de solicitação/resposta do Business servidor local. Para obter detalhes, consulte o [Serviço Web para o protocolo de suporte do E911](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obter detalhes sobre como implantar um serviço de informações de localização secundária, consulte [Configure um serviço de informações de localização secundário no Skype para Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) na documentação de implantação.
   
 Para obter detalhes sobre como preencher o banco de dados local, consulte [Configure the Location Database](http://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) na documentação de implantação.
   

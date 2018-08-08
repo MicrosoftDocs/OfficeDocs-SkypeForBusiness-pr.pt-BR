@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de sua implantação de edição do conector de nuvem.
-ms.openlocfilehash: 41d2d43c5b47c3c0774cbdf6a29304d8c86132dc
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 82fcc8e45e231617b5804c9caac4c8adc638457b
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569667"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246467"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solução de problemas de implantação do Cloud Connector
  
@@ -85,7 +85,7 @@ Estes são soluções para problemas comuns encontrados:
 
 - 
     
-    **Problema: Depois que o servidor do Active Directory e a floresta estiverem instalados, o servidor de CMS e/ou o servidor de mediação não ingressar no domínio corretamente.**
+    **Problema: após a instalação do Servidor do Active Directory e da floresta, o Servidor CMS e/ou o Servidor de Mediação não ingressou(aram) corretamente no domínio.**
     
     **Resolução:** para resolver esse problema, faça o seguinte:
     
@@ -118,7 +118,7 @@ Estes são soluções para problemas comuns encontrados:
     
     **Problema: o servidor host foi reiniciado durante a aplicação de atualizações do Windows e ocorrem falhas nas chamadas atendidas pelo servidor.**
     
-    **Resolução:** Se você implantou um ambiente de alta disponibilidade, a Microsoft fornece um cmdlet para ajudar a mover uma máquina host (instância de implantação) para fora a topologia atual ou quando você verificar e instala o Windows update manualmente. Use as seguintes etapas para fazer isso:
+    **Resolução:** se você tiver implantado um ambiente de alta disponibilidade, a Microsoft fornece um cmdlet para ajudar a transferir um computador host (instância de implantação) para dentro ou para fora da topologia atual durante a verificação e a instalação manual da atualização do Windows. Para fazer isso, execute estas etapas:
     
 1. No servidor host, inicie um console do PowerShell como administrador e execute:
     
@@ -274,7 +274,7 @@ Estes são soluções para problemas comuns encontrados:
     
     **Resolução:** Todas as credenciais do conector de nuvem são armazenadas no seguinte arquivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Quando a senha no servidor host for alterado, você precisará atualizar as credenciais armazenadas localmente.
     
-    **Se você estiver executando o conector de nuvem versão 1.4.2,** regenerar todas as senhas de conector de nuvem, seguindo estas etapas:
+    **Se você estiver executando a versão 1.4.2 do Cloud Connector,** regenere todas as senhas do Cloud Connector seguindo estas etapas:
     
     1. Reinicie o servidor host.
     
@@ -317,7 +317,13 @@ Estes são soluções para problemas comuns encontrados:
 - **Problema: Com o conector de nuvem versão 2.1 e posterior, quando executado Register-CcAppliance ou outros cmdlets no dispositivo, você recebe uma mensagem de erro, como: "For Each-Object: A propriedade 'Comum' não pode ser localizado neste objeto. Verifique se a propriedade existe. Em C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char: 14 "**
     
     **Resolução:** Conector 2.1 em nuvem e posteriormente requer o .NET Framework 4.6.1 ou posterior. Atualize o .NET Framework no dispositivo para a versão 4.6.1 ou posterior e execute o cmdlet(s) novamente.
-    
+
+- **Problema: Com a nuvem conector Edition 2.1, ao se executar Install-CcAppliance, você recebe uma mensagem de erro, como: "Falha ao instalar a nova instância com erro: não é possível definir o"Estado", porque apenas cadeias de caracteres podem ser usadas como valores para definir propriedades de XmlNode"**
+
+   **Resolução:** Em Cloudconnector.ini, na seção [comuns], adicione o config "Estado" como a seguir: CountryCode = US State = WA cidade = Redmond
+
+   Não é obrigatório para a linha "Estado" ter valor, no entanto, a linha "Estado" não pode ser removida do arquivo Cloudconnector.ini exe.
+
 - **Problema: Você recebe a seguinte mensagem de erro "Dismount-WindowsImage: Dismount-WindowsImage falhou. Código de erro = 0xc1550115 "ao instalar ou atualizar a edição do conector de nuvem.**
     
     **Resolução:** Inicie um console do PowerShell como administrador, execute "DISM-limpeza-Wim'". Isso irá limpar todas as imagens problemáticas. Execute novamente o Install-CcAppliance ou espere os bits atualizar automaticamente.

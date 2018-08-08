@@ -1,9 +1,8 @@
 ---
-title: Planejamento de Roteamento com base em Local no Skype for Business 2015
+title: Plano para roteamento baseado em local no Skype para negócios
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 11/7/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planejando o roteamento baseado em local no Skype para Business Server Enterprise Voice, incluindo a interação com a delegação e toque simultâneo e os cenários com suporte para roteamento baseado no local.
-ms.openlocfilehash: 224bae32037ea474dc376e653db5b3d644c859ee
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 80f77db43b62629f31d1481fdd5653ba18d96d10
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967301"
 ---
-# <a name="plan-for-location-based-routing-in-skype-for-business-2015"></a>Planejamento de Roteamento com base em Local no Skype for Business 2015
+# <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plano para roteamento baseado em local no Skype para negócios
  
 Planejando o roteamento baseado em local no Skype para Business Server Enterprise Voice, incluindo a interação com a delegação e toque simultâneo e os cenários com suporte para roteamento baseado no local.
   
@@ -82,9 +82,9 @@ O Roteamento Baseado na Localização é aplicável às regras gerais a seguir d
 
 O roteamento de chamadas de saída de usuários habilitados para roteamento baseado em local é afetado por local da rede do ponto de extremidade do usuário. A tabela a seguir ilustra como baseados em local roteamento afeta o roteamento de chamadas de saída dependendo do local do ponto de extremidade do chamador. 
   
-**Colocar uma chamada de saída para o PSTN do chamador**
+**Pessoa fazendo uma chamada de saída para o PSTN**
 
-||**Ponto de extremidade do usuário localizado em um site de rede habilitado para roteamento baseado no local**|**Ponto de extremidade do usuário localizados no site de rede desconhecido ou não habilitado para roteamento baseado no local**|
+||**Ponto de extremidade do usuário localizado em um local de rede habilitado para o Roteamento com Base no Local**|**Ponto de extremidade do usuário localizado em um local de rede desconhecido ou não habilitado para o Roteamento com Base no Local**|
 |:-----|:-----|:-----|
 |Autorização de chamadas de saída  <br/> |Chamada será autorizada com base na política de voz do usuário  <br/> |Chamada será autorizada com base na política de voz do usuário  <br/> |
 |Roteamento de chamada de saída  <br/> |Chamada é roteada de acordo com a política de roteamento de voz do site de rede  <br/> |Chamada será roteada de acordo com a política de voz do usuário e somente por meio de troncos não habilitados para roteamento baseado em local (se disponível)  <br/> |
@@ -97,7 +97,7 @@ As configurações de um usuário que está habilitado para roteamento baseado n
   
 A tabela a seguir ilustra como baseados em local roteamento afeta o roteamento de chamadas de entrada dependendo do local do ponto de extremidade do receptor. O site de rede do gateway PSTN está habilitado para roteamento baseado no local e roteamento baseado em local só permite que o roteamento de chamadas do PSTN para os pontos de extremidade dentro do mesmo site de rede.
   
-**Receptor recebendo uma chamada de entrada do PSTN**
+**O destinatário da chamada recebe uma chamada de entrada da PSTN**
 
 ||**Ponto de extremidade do receptor localizado no mesmo site do gateway PSTN**|**Ponto de extremidade do receptor não localizado no mesmo site do gateway PSTN**|**Ponto de extremidade do receptor localizados no site de rede desconhecido ou não habilitado para roteamento baseado no local**|
 |:-----|:-----|:-----|:-----|
@@ -109,9 +109,9 @@ Quando um ponto de extremidade PSTN está envolvido, roteamento baseado em local
   
 A tabela a seguir ilustra o cenário de um Skype para usuário de negócios em uma chamada com um ponto de extremidade PSTN, e o Skype para o usuário de negócios transferirá a chamada para outro Skype para o usuário de negócios. Dependendo do local de site de rede do ponto de extremidade do transferido, roteamento baseado em local afeta o roteamento da transferência de chamada ou encaminhar.
   
-**Iniciando chamada transferir ou encaminhar**
+**Iniciando a transferência ou o encaminhamento de chamada**
 
-|**Usuário iniciar a chamada transferência/encaminhar**|**Ponto de extremidade de destino está no mesmo site de rede que o usuário iniciar a transferência de chamada ou encaminhar**|**Ponto de extremidade de destino está no site de rede diferente, como usuário iniciando a transferência de chamada ou encaminhar**|**Ponto de extremidade de destino no site de rede desconhecido ou site de rede não está habilitado para roteamento baseado no local**|
+|**Usuário que inicia a transferência/encaminhamento da chamada**|**O ponto de extremidade de destino está no mesmo local de rede do usuário que inicia a transferência ou o encaminhamento da chamada**|**O ponto de extremidade de destino está em um local de rede diferente do que o do usuário que inicia a transferência ou o encaminhamento da chamada**|**Ponto de extremidade de destino no site de rede desconhecido ou site de rede não está habilitado para roteamento baseado no local**|
 |:-----|:-----|:-----|:-----|
 |Skype para o usuário de negócios  <br/> |Encaminhamento ou transferência de chamada permitido  <br/> |Encaminhamento ou transferência de chamada não permitido  <br/> |Encaminhamento ou transferência de chamada não permitido  <br/> |
    
@@ -119,9 +119,9 @@ Por exemplo: um Skype para usuário de negócios em uma chamada com um ponto de 
   
 A tabela a seguir ilustra o cenário de um Skype para usuário de negócios em uma chamada com outra Skype para o usuário de negócios e um dos usuários transferirá a chamada para um ponto de extremidade PSTN. Dependendo do local do usuário para o qual a chamada está sendo transferida, a tabela detalhará como o Roteamento Baseado na Localização afeta a chamada.
   
-**Transferência de chamada ou encaminhar ao ponto de extremidade PSTN**
+**Transferência ou encaminhamento de chamada para um ponto de extremidade PSTN**
 
-|**Destino de ponto de extremidade de transferência/encaminhamento de chamadas**|**Skype para usuários comerciais no mesmo site de rede**|**Skype para usuários corporativos em sites de rede diferente**|**Um ou ambos Skype para usuários comerciais no site de rede desconhecido ou não habilitado para roteamento baseado no local de site de rede**|
+|**Destino do ponto de extremidade da transferência/encaminhamento de chamada**|**Skype para usuários comerciais no mesmo site de rede**|**Skype para usuários corporativos em sites de rede diferente**|**Um ou ambos Skype para usuários comerciais no site de rede desconhecido ou não habilitado para roteamento baseado no local de site de rede**|
 |:-----|:-----|:-----|:-----|
 |Ponto de extremidade PSTN  <br/> |Ligue para frente ou transferência permitido pela política do roteamento de voz do site do usuário transferido  <br/> |Ligue para frente ou transferência permitido pela política do roteamento de voz do site do usuário transferido  <br/> |Ligue para frente ou transferência permitida pela política de voz do usuário transferido somente por meio de troncos não habilitados para roteamento baseado no local  <br/> |
    
@@ -135,7 +135,7 @@ A tabela a seguir ilustra um usuário configurado com toque simultâneo, e o des
   
 ****
 
-|**Chamada de PSTN de entrada para**|**Localizado no mesmo site do receptor da chamada**|**Localizados no site de rede diferente que o receptor da chamada**|**Localizados no site de rede desconhecido ou não habilitado para roteamento baseado no local**|
+|**Chamadas de entrada do PSTN para**|**Localizado no mesmo local de rede do destinatário da chamada**|**Localizado em um local de rede diferente do chamador**|**Localizados no site de rede desconhecido ou não habilitado para roteamento baseado no local**|
 |:-----|:-----|:-----|:-----|
 |Skype para o usuário de negócios  <br/> |Toque simultâneo permitido  <br/> |Toque simultâneo não permitido  <br/> |Toque simultâneo não permitido  <br/> |
    
@@ -143,7 +143,7 @@ A tabela a seguir ilustra uma chamada a partir de um Skype para o usuário de ne
   
 ****
 
-|**Destino de Toque simultâneo**|**Localizado no mesmo site do receptor da chamada**|**Localizados no site de rede diferente que o receptor da chamada**|**Localizados no site de rede desconhecido ou não habilitado para roteamento baseado no local**|
+|**Destino de toque simultâneo**|**Localizado no mesmo local de rede do destinatário da chamada**|**Localizado em um local de rede diferente do chamador**|**Localizados no site de rede desconhecido ou não habilitado para roteamento baseado no local**|
 |:-----|:-----|:-----|:-----|
 |Ponto de extremidade PSTN  <br/> |Toque simultâneo permitido por meio da política do roteamento de voz do site do chamador  <br/> |Toque simultâneo permitido por meio da política do roteamento de voz do site do chamador  <br/> |Toque simultâneo permitido por meio da diretiva de voz do chamador para troncos não habilitados para roteamento baseado no local  <br/> |
    
@@ -159,7 +159,7 @@ Com a Atualização Cumulativa 4, você verá o seguinte:
     
 A tabela a seguir explica alguns dos cenários após a Atualização Cumulativa 4:
   
-|**Usuário de roteamento baseada no local**|**Outra parte**|**Ação**|**Resultado**|
+|**Usuário de roteamento baseada no local**|**Outros**|**Ação**|**Resultado**|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |PSTN  <br/> |Skype para negócios Mobile recebe uma chamada PSTN.  <br/> |A chamada é roteada através de CvW (Telefonar via Trabalho), e não de VoIP.  <br/> |
 |Skype for Business Mobile  <br/> |PSTN  <br/> |Skype para negócios Mobile faz uma chamada de PSTN de saída.  <br/> |A chamada é roteada através de CvW, e não de VoIP.  <br/> |
@@ -207,7 +207,7 @@ A tabela a seguir identifica a combinação das funções de servidor e de vers�
   
 ****
 
-|**Versão do pool**|**Versão do servidor de mediação**|**Compatível**|
+|**Versão do pool**|**Versão do Servidor de Mediação**|**Compatível**|
 |:-----|:-----|:-----|
 |Skype para atualização cumulativa Business Server ou o Lync Server 2013 de fevereiro de 2013  <br/> |Skype para atualização cumulativa Business Server ou o Lync Server 2013 de fevereiro de 2013  <br/> |sim  <br/> |
 |Skype para atualização cumulativa Business Server ou o Lync Server 2013 de fevereiro de 2013  <br/> |Lync Server 2013  <br/> |não  <br/> |

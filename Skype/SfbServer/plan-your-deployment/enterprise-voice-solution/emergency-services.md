@@ -1,9 +1,8 @@
 ---
-title: Planejamento de serviços de emergência no Skype para Business Server 2015
+title: Planejamento de serviços de emergência no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,23 +13,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Saiba mais sobre os serviços do Enhanced 9-1-1 (E9-1-1) no Skype para Business Server Enterprise Voice, incluindo a aquisição de local e o roteamento de chamada.
-ms.openlocfilehash: 7a4c03da5a7e138e68495c3bacd473f9ea073178
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f32a8dcc818795b47aa955c95084c1bc3d224236
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967308"
 ---
-# <a name="plan-for-emergency-services-in-skype-for-business-server-2015"></a>Planejamento de serviços de emergência no Skype para Business Server 2015
+# <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planejamento de serviços de emergência no Skype para Business Server
  
 Saiba mais sobre os serviços do Enhanced 9-1-1 (E9-1-1) no Skype para Business Server Enterprise Voice, incluindo a aquisição de local e o roteamento de chamada.
   
 Skype para Business Server oferece suporte a serviços do Enhanced 9-1-1 (E9-1-1) nos Estados Unidos como parte de uma implantação do Enterprise Voice. O E9-1-1 é um recurso de expedição de emergência que associa uma chamada a 9-1-1 a uma ERL (Localização de Resposta à Emergência), que consiste em endereços cívicos (ou seja, ruas) e outras informações de local mais específicas, como os números dos andares, para ligações de prédios comerciais e outras instalações multilocatário. Com o uso da ERL fornecida, um PSAP (ponto de atendimento público seguro) pode expedir os serviços de emergência imediatamente ao chamador em apuros, com risco reduzido de direcionar o respondente de forma não intencional a um local incorreto ou ambíguo.
   
 > [!NOTE]
-> Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Para obter mais informações, consulte [Planejar vários números de emergências Skype para Business Server 2015](multiple-emergency-numbers.md). 
+> Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Para obter mais informações, consulte [Planejar vários números de emergências Skype para Business Server](multiple-emergency-numbers.md). 
   
 > [!NOTE]
-> Skype para Business Server tem três recursos avançados do Enterprise Voice: bypass de mídia, serviços de emergência (E9-1-1) e controle de admissão de chamada. Para obter uma visão geral do planejamento de informações que são comuns a todos os três desses recursos, consulte [configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype para Business Server tem três recursos avançados do Enterprise Voice: bypass de mídia, serviços de emergência (E9-1-1) e controle de admissão de chamada. Para obter uma visão geral do planejamento de informações que são comuns a todos os três desses recursos, consulte [configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server](network-settings-for-advanced-features.md). 
   
 Skype para Business Server suporta Enhanced 9-1-1 (E9-1-1) chamando do Skype para clientes corporativos e dispositivos Lync Phone Edition. Quando você configurar Skype do Business Server para chamadas de E9-1-1, emergências feitas do Skype para negócios ou o Lync Phone Edition incluem informações de local de resposta de emergência (ERL) do banco de dados de serviço de informações de local. ERLs consistem em endereços cívicos (rua) e outras informações que ajudam a identificar a localização mais precisa em prédios de escritórios e outras instalações com vários locatários. Quando um usuário faz uma chamada de emergência, Skype para Business Server encaminha o áudio da chamada, junto com as informações de local e o retorno de chamada, por meio de um servidor de mediação para um provedor de serviço E9-1-1. O provedor de serviços E9-1-1 usa o endereço cívico do chamador para encaminhar a chamada para PSAP (Ponto de Atendimento Público Seguro), que atende à localização do chamador e envia também uma ESQK (Chave de Consulta de Serviço de Emergência) que PSAP usa para procurar a ERL do chamador. 
   
@@ -65,7 +65,7 @@ A partir de um Skype para perspectiva Business Server, o processo E9-1-1 pode se
     
 Esta seção descreve como esses estágios funcionam.
   
-Se planeja configurar sua infraestrutura para detectar automaticamente o local do cliente, primeiro você precisa decidir quais elementos de rede serão usados para mapear os chamadores para os locais. Para obter detalhes sobre as opções possíveis, consulte [Define os elementos de rede usados para determinar o local em Skype para Business Server 2015](network-location.md). 
+Se planeja configurar sua infraestrutura para detectar automaticamente o local do cliente, primeiro você precisa decidir quais elementos de rede serão usados para mapear os chamadores para os locais. Para obter detalhes sobre as opções possíveis, consulte [Define os elementos de rede usados para determinar o local em Skype para Business Server](network-location.md). 
   
 ## <a name="acquiring-a-location"></a>Adquirindo um local
 
@@ -93,7 +93,7 @@ Usar um tronco SIP para conectar-se a um provedor de serviços de E9-1-1 qualifi
   
 O diagrama a seguir mostra como uma chamada de emergência é encaminhada do Skype para Business Server para o PSAP atendimento público seguro ponto () quando você usa um tronco SIP e o provedor de serviço qualificado E9-1-1.
   
-**Roteamento de chamadas de E9-1-1 por meio de um tronco SIP**
+**Encaminhamento de chamadas E9-1-1 através de um tronco SIP**
 
 ![Roteamento da chamada de emergência do Lync Server para PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
   
@@ -113,9 +113,9 @@ Quando uma chamada de emergência é feita de uma Skype compatível para o clien
     
 ## <a name="routing-e9-1-1-calls-by-using-an-elin-gateway"></a>Roteamento de chamadas E9-1-1 usando um gateway ELIN
 
-Alguns parceiros do Programa de Interoperabilidade Aberta de Comunicações Unificadas fornecem gateways compatíveis com ELIN (número de identificação de local de emergência) qualificados, que podem servir como uma alternativa a uma conexão de tronco SIP com um provedor de serviços E9-1-1 qualificado. Os gateways ELIN dão suporte à conectividade CAMA (Contabilidade de Mensagem Automática Centralizada) ou ISDN com serviços E9-1-1 baseados em PSTN (Rede Telefônica Pública Comutada). Para obter detalhes sobre parceiros que oferecem gateways ELIN e links para as documentações, consulte [infraestrutura qualificada do Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) e [Infraestrutura de telefonia para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947483). 
+Alguns parceiros do Programa de Interoperabilidade Aberta de Comunicações Unificadas fornecem gateways compatíveis com ELIN (número de identificação de local de emergência) qualificados, que podem servir como uma alternativa a uma conexão de tronco SIP com um provedor de serviços E9-1-1 qualificado. Os gateways ELIN dão suporte à conectividade CAMA (Contabilidade de Mensagem Automática Centralizada) ou ISDN com serviços E9-1-1 baseados em PSTN (Rede Telefônica Pública Comutada). Para obter detalhes sobre parceiros que oferecem gateways ELIN e links para as documentações, consulte [infraestrutura qualificada do Microsoft Lync](https://go.microsoft.com/fwlink/p/?LinkId=248425) e [Infraestrutura de telefonia para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
-Assim como as conexões de tronco SIP com provedores de serviços E9-1-1, os gateways ELIN também fornecem um meio de encaminhar uma chamada de emergência para o PSAP (Ponto de Atendimento Público Seguro) mais apropriado do chamador, mas esses gateways usam um ELIN como identificador do local. Definir ELINs para cada local de resposta de emergência (ERL) em sua organização (para obter detalhes, consulte [Gerenciar locais para gateways ELIN no Skype para Business Server 2015](elin-gateways.md)). 
+Assim como as conexões de tronco SIP com provedores de serviços E9-1-1, os gateways ELIN também fornecem um meio de encaminhar uma chamada de emergência para o PSAP (Ponto de Atendimento Público Seguro) mais apropriado do chamador, mas esses gateways usam um ELIN como identificador do local. Definir ELINs para cada local de resposta de emergência (ERL) em sua organização (para obter detalhes, consulte [Gerenciar locais para gateways ELIN no Skype para Business Server](elin-gateways.md)). 
   
 Quando você usa um gateway ELIN para chamadas de emergência, use o mesmo Skype de infra-estrutura de servidor de negócios E9-1-1 que você deseja usar para uma conexão de tronco SIP. Ou seja, o banco de dados de serviço de informações de local fornece o local para o Skype para o cliente de negócios e a diretiva de local habilita o recurso e define o roteamento. Com um gateway ELIN, no entanto, você precisa adicionar os ELINs no banco de dados de serviço de informações de local e ter sua operadora da PSTN carregá-las no banco de dados de identificação de local automática (ALI).
   
@@ -128,7 +128,7 @@ Os gateways ELIN oferecem suporte a chamadas de emergência somente de dentro da
   
 O diagrama a seguir mostra como uma chamada de emergência é encaminhada do Skype para Business Server para o PSAP quando você usa um gateway ELIN.
   
-**Roteamento de chamadas de E9-1-1 com um gateway ELIN**
+**Encaminhar chamadas de E9-1-1 com um gateway ELIN**
 
 ![Mostra como uma chamada para serviços de emergência percorre o Servidor de Mediação e depois prossegue até o provedor de serviços de emergência. Depois disso, há a opção de enviar uma mensagem instantânea à segurança do local e/ou uma chamada de volta ao chamador original.](../../media/Plan_LyncServer_E911_ELINCallRouting.jpg)
   

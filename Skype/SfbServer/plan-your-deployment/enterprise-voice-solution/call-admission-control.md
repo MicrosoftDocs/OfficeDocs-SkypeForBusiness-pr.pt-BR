@@ -1,5 +1,5 @@
 ---
-title: Planejamento do controle de admissão de chamadas no Skype for Business Server 2015
+title: Planejar o controle de admissão de chamada no Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,13 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Saiba mais sobre o controle de admissão de chamada, que pode evitar chamadas de ocorrendo se eles teriam qualidade de mídia ruim, Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 11a73cb6065802b700694d6c3ffd589d935659db
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: d9af6094ae851d59775d9ce4b012ee06028901e6
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988406"
 ---
-# <a name="plan-for-call-admission-control-in-skype-for-business-server-2015"></a>Planejamento do controle de admissão de chamadas no Skype for Business Server 2015
+# <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planejar o controle de admissão de chamada no Skype for Business Server
  
 Saiba mais sobre o controle de admissão de chamada, que pode evitar chamadas de ocorrendo se eles teriam qualidade de mídia ruim, Skype para Business Server Enterprise Voice.
   
@@ -33,7 +34,7 @@ O CAC (controle de admissão de chamadas) determina se há largura de banda sufi
 Esta seção descreve a funcionalidade de controle de admissão de chamada e explica como planejar o CAC.
   
 > [!NOTE]
-> Skype para Business Server tem três recursos avançados do Enterprise Voice: chamadas (CAC) do controle de admissão, serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral do planejamento de informações que são comuns a todos os três desses recursos, consulte [configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server 2015](network-settings-for-advanced-features.md). 
+> Skype para Business Server tem três recursos avançados do Enterprise Voice: chamadas (CAC) do controle de admissão, serviços de emergência (E9-1-1) e bypass de mídia. Para obter uma visão geral do planejamento de informações que são comuns a todos os três desses recursos, consulte [configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server](network-settings-for-advanced-features.md). 
   
 O design CAC em Skype para Business Server oferece quatro principais atributos:
   
@@ -82,13 +83,13 @@ Se a sua empresa oferece suporte à mídia através de VPN, verifique se tanto o
   
 ### <a name="call-admission-control-of-outside-users"></a>Controle de admissão de chamadas de usuários externos
 
-Controle não é imposta além dos limites do Skype para Business Server 2015 organização de admissão de chamada. CAC não pode ser aplicado ao tráfego de mídia atravessando a Internet, que não é gerenciada por Skype para Business Server 2015. Verificações CAC serão realizadas na parte da chamada que chegam através da rede corporativa, se o ponto de extremidade chamado pertence à organização e o servidor de borda foi adicionado à configuração de rede, conforme descrito em [controle de admissão de chamada implantação: lista de verificação final do Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/final-checklist.md). Se a extremidade chamada não pertencer à organização, como um usuário federado ou PIC, nenhuma verificação de política de largura de banda será realizada, e a chamada realizada ignorará quaisquer restrições do CAC.
+Controle não é imposta além dos limites do Skype para a organização Business Server de admissão de chamada. CAC não pode ser aplicado ao tráfego de mídia atravessando a Internet, que não é gerenciada por Skype para Business Server. Verificações CAC serão realizadas na parte da chamada que chegam através da rede corporativa, se o ponto de extremidade chamado pertence à organização e o servidor de borda foi adicionado à configuração de rede, conforme descrito em [controle de admissão de chamada implantação: lista de verificação final do Skype para Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Se a extremidade chamada não pertencer à organização, como um usuário federado ou PIC, nenhuma verificação de política de largura de banda será realizada, e a chamada realizada ignorará quaisquer restrições do CAC.
   
 ### <a name="call-admission-control-of-pstn-connections"></a>Controle de Admissão de Chamada das Conexões PSTN
 
-Controle de admissão de chamada é aplicável no servidor de mediação, independentemente se ele está conectado a um IP/PBX, um gateway PSTN ou um tronco SIP. Como o servidor de mediação é um agente de usuário em frente e verso (B2BUA), ele termina de mídia. Ele tem dois lados de conexão: um lado que esteja conectado a Skype para Business Server e um lado do gateway, que é conectado ao gateways PSTN, IP/PBXs ou troncos SIP. Para obter detalhes sobre conexões PSTN, consulte [Planejar a conectividade PSTN em Skype para Business Server 2015](pstn-connectivity-0.md).
+Controle de admissão de chamada é aplicável no servidor de mediação, independentemente se ele está conectado a um IP/PBX, um gateway PSTN ou um tronco SIP. Como o servidor de mediação é um agente de usuário em frente e verso (B2BUA), ele termina de mídia. Ele tem dois lados de conexão: um lado que esteja conectado a Skype para Business Server e um lado do gateway, que é conectado ao gateways PSTN, IP/PBXs ou troncos SIP. Para obter detalhes sobre conexões PSTN, consulte [Planejar a conectividade PSTN em Skype para Business Server](pstn-connectivity-0.md).
   
-CAC pode ser imposto em ambos os lados do servidor de mediação, a menos que o desvio de mídia está habilitado. Se o desvio de mídia está habilitado, o tráfego de mídia não atravessa o servidor de mediação, mas em vez disso fluirá diretamente entre o Skype para o cliente de negócios e o gateway. Nesse caso, o CAC não é necessário. Para obter detalhes, consulte [Plan for media bypass no Skype para negócios 2015](media-bypass.md).
+CAC pode ser imposto em ambos os lados do servidor de mediação, a menos que o desvio de mídia está habilitado. Se o desvio de mídia está habilitado, o tráfego de mídia não atravessa o servidor de mediação, mas em vez disso fluirá diretamente entre o Skype para o cliente de negócios e o gateway. Nesse caso, o CAC não é necessário. Para obter detalhes, consulte [Plan for mídia que o desvio Skype para negócios](media-bypass.md).
   
 A figura a seguir ilustra como o CAC é imposto a conexões PSTN, com e sem o bypass de mídia habilitado.
   
@@ -100,9 +101,9 @@ A figura a seguir ilustra como o CAC é imposto a conexões PSTN, com e sem o by
 
 O planejamento do CAC (controle de admissão de chamadas) requer informações detalhadas sobre a topologia da rede corporativa. Para ajudar a planejar suas políticas do serviço de controle de admissão de chamadas, execute as etapas a seguir.
   
-1. Identifique os hubs/backbones (chamados de regiões de rede) dentro de sua rede corporativa.
+1. Identifique os hubs/backbones (denominados regiões de rede) dentro de sua rede corporativa.
     
-2. Identifique os escritórios ou locais (chamados sites de rede) dentro de cada região de rede.
+2. Identifique os escritórios ou locais (denominado locais de rede) dentro de cada região de rede.
     
 3. Determine a rota de rede entre cada par de regiões de rede.
     
@@ -115,14 +116,14 @@ O planejamento do CAC (controle de admissão de chamadas) requer informações d
     
 Para explicar esses conceitos, usaremos a topologia de rede de exemplo mostrada na figura a seguir.
   
-**Exemplo de topologia para o controle de admissão de chamadas**
+**Exemplo de topologia para o controle de admissão de chamada**
 
 ![Exemplo da topologia de rede do Litware Inc.](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
   
 > [!NOTE]
 > Todos os locais de rede estão associados a uma região de rede. Por exemplo, Portland, Reno e Albuquerque estão incluídos na região da América do Norte. Nessa figura, são mostrados apenas links WAN que têm políticas de CAC aplicadas, com limites de largura de banda. Os locais de rede de Chicago, Nova York e Detroit são mostrados dentro da região oval da América do Norte, porque eles não estão com restrições largura de banda e não exigem políticas de CAC. 
   
-Nesse exemplo, os componentes de topologia são explicados nas seções a seguir. Para obter detalhes sobre como essa topologia foi planejada, incluindo os limites de largura de banda, consulte [exemplo: coletando os requisitos para o controle de admissão de chamada no Skype para Business Server 2015](example-gathering-requirements.md).
+Nesse exemplo, os componentes de topologia são explicados nas seções a seguir. Para obter detalhes sobre como essa topologia foi planejada, incluindo os limites de largura de banda, consulte [exemplo: coletando os requisitos para o controle de admissão de chamada no Skype para Business Server](example-gathering-requirements.md).
   
 ### <a name="identify-network-regions"></a>Identificar as regiões de rede
 
@@ -139,9 +140,9 @@ CAC exige que um Skype para o site central de Business Server é definido para c
 > [!NOTE]
 > Os locais centrais não correspondem necessariamente aos locais de rede. Nos exemplos desta documentação, alguns locais centrais (Chicago, Londres e Pequim) compartilham os mesmos nomes dos locais de rede. No entanto, mesmo se um site central e o site de rede compartilham o mesmo nome, o site central é um elemento do Skype para topologia de servidor de negócios, enquanto o site de rede é uma parte da rede geral no qual o Skype para a topologia Business Server reside. 
   
-**Regiões de rede, sites centrais e sites de rede**
+**Regiões de rede, locais centrais e locais de rede**
 
-|**Região de rede**|**Site central**|**Sites de rede**|
+|**Região de rede**|**Site central**|**Locais de rede**|
 |:-----|:-----|:-----|
 |América do Norte  <br/> |Chicago  <br/> |Chicago  <br/> Nova York  <br/> Detroit  <br/> Portland  <br/> Reno  <br/> Albuquerque  <br/> |
 |EMEA  <br/> |Londres  <br/> |Londres  <br/> Colônia  <br/> |
@@ -165,7 +166,7 @@ Os links de local são indicados por linhas que conectam Portland, Reno e Albuqu
 
 Trabalhe com sua equipe de operações de rede para determinar a quantidade de largura de banda WAN que está disponível para o tráfego de vídeo e áudio em tempo real entre os links WAN na organização. As políticas de largura de banda são geralmente aplicadas aos links WAN quando o uso de largura de banda é restrito, isso é, espera-se que ele seja maior do que a largura de banda que pode ser alocada para as modalidades de áudio e vídeo.
   
-Políticas de largura de banda do CAC definem a largura de banda máxima que pode ser reservada para as modalidades de vídeo e de áudio em tempo real. Como o CAC não limita a largura de banda de outro tráfego, ele não pode impedir que outro tráfego de dados, como transferência de um arquivo grande, um streaming de música, use toda a largura de banda de rede.
+As políticas de largura de banda do CAC definem a largura de banda máxima que pode ser reservada para as modalidades de áudio e vídeo em tempo real. Como o CAC não limita a largura de banda de outro tráfego, ele não pode impedir que outro tráfego de dados, como transferência de um arquivo grande, um streaming de música, use toda a largura de banda de rede.
   
 As políticas de largura de banda do CAC podem definir o seguinte:
   
@@ -181,7 +182,7 @@ As políticas de largura de banda do CAC podem definir o seguinte:
 > Todos os valores de largura de banda do CAC representam os limites de largura de banda máxima *unidirecional* .
   
 > [!NOTE]
-> O Skype para recursos de diretiva de voz do Business Server oferecem a capacidade de substituir a política de largura de banda verifica as chamadas de entrada para o usuário (não para chamadas de saída feitas pelo usuário). Depois que a sessão for estabelecida, o consumo da largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte [criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) ou [modificar uma política de voz e configurar registros de uso do PSTN](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) na documentação de implantação.
+> O Skype para recursos de diretiva de voz do Business Server oferecem a capacidade de substituir a política de largura de banda verifica as chamadas de entrada para o usuário (não para chamadas de saída feitas pelo usuário). Depois que a sessão for estabelecida, o consumo da largura de banda será contabilizado com precisão. Essa configuração deve ser usada com moderação. Para obter detalhes, consulte [criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) ou [modificar uma política de voz e configurar registros de uso do PSTN](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) na documentação de implantação.
   
 Para otimizar a utilização da largura de banda com base por sessão, considere o tipo de codecs de áudio e vídeo que serão usados. Mais especificamente, evite alocar menos largura de banda insuficiente ara um codec que você espera usar com frequência. Por outro lado, se quiser impedir que a mídia use um codec que exija mais largura de banda, defina a largura de banda máxima por sessão menor o suficiente para desencorajar esse uso. Para o áudio, nem todos os codecs estão disponíveis para cada cenário. Por exemplo:
   
@@ -195,7 +196,7 @@ Use a tabela a seguir para ajudar a otimizar as configurações de largura de ba
   
 **Utilização de largura de banda por codecs**
 
-|**Codec**|**Requisito de largura de banda com nenhuma correção de erro antecipada (FEC)**|**Requisito de largura de banda com correção de erro antecipada (FEC)**|
+|**Codec**|**Requisito de largura de banda sem nenhuma FEC (correção de erro antecipada)**|**Requisito de largura de banda com FEC (correção de erro antecipada)**|
 |:-----|:-----|:-----|
 |RTAudio (8kHz)  <br/> |49,8 kbps  <br/> |61,6 kbps  <br/> |
 |RTAudio (16 kHz)  <br/> |67 kbps  <br/> |96 kbps  <br/> |

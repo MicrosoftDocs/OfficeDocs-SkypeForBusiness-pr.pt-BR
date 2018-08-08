@@ -1,9 +1,8 @@
 ---
-title: Criar políticas entre sites da rede no Skype for Business Server 2015
+title: Criar rede políticas entre sites no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Crie políticas entre sites, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server de rede.
-ms.openlocfilehash: 6dc1469950bfac46110953c0e354cd50f4f89688
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 49405bbaa1d761f1acc10c7506e44992cc03a153
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500716"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988519"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server-2015"></a>Criar políticas entre sites da rede no Skype for Business Server 2015
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Criar rede políticas entre sites no Skype para Business Server
  
 Crie políticas entre sites, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server de rede. 
   

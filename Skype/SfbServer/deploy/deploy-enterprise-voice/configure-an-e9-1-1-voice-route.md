@@ -1,9 +1,8 @@
 ---
-title: Configurar uma rota de voz do E9-1-1 no Skype for Business Server 2015
+title: Configurar uma rota de voz do E9-1-1 no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configure rotas de voz do E9-1-1 no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: b61b77fce36e0415d9c6f1189d8ecf2a5659d2f9
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 85259b6490b0f14d94d4d7c26f343d638911d909
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568225"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988745"
 ---
-# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server-2015"></a>Configurar uma rota de voz do E9-1-1 no Skype for Business Server 2015
+# <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurar uma rota de voz do E9-1-1 no Skype para Business Server
  
 Configure rotas de voz do E9-1-1 no Skype para Business Server Enterprise Voice. 
   
-Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chamada de emergência. Para obter detalhes sobre a criação de rotas de voz, consulte [criar ou modificar uma rota de voz no Skype para negócios 2015](create-or-modify-a-voice-route.md). É possível definir mais de uma rota se, por exemplo, sua implantação incluir um tronco SIP primário e um secundário. 
+Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chamada de emergência. Para obter detalhes sobre a criação de rotas de voz, consulte [criar ou modificar uma rota de voz no Skype para negócios](create-or-modify-a-voice-route.md). É possível definir mais de uma rota se, por exemplo, sua implantação incluir um tronco SIP primário e um secundário. 
   
 > [!NOTE]
 > Para incluir informações de localização em um E9-1-1 INVITE, você precisa configurar o tronco SIP que se conecta ao provedor de serviços de E9-1-1 para encaminhar as chamadas de emergência através do gateway. Para fazer isso, defina o sinalizador EnablePIDFLOSupport no cmdlet **Set-CsTrunkConfiguration** como True. O valor padrão de EnablePIDFLOSupport é False. Por exemplo: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` não é necessário habilitar o recebimento locais para pública fallback comutada gateways do telefone PSTN (rede) e gateways ELIN Emergency Location Identification número ().
@@ -38,7 +37,7 @@ Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chama
     
 3. Execute o cmdlet a seguir para criar um novo registro de uso PSTN. 
     
-    Esse deve ser o mesmo nome que você usará para a configuração **PSTN** na política de local. Embora sua implantação tenha vários registros de uso de telefone, o exemplo a seguir adiciona "Uso de emergência" à lista atual de usos de PSTN disponíveis. Para obter detalhes, consulte [Configure políticas de voz, registros de uso do PSTN e rotas de voz no Skype para negócios 2015](voice-and-pstn.md).
+    Esse deve ser o mesmo nome que você usará para a configuração **PSTN** na política de local. Embora sua implantação tenha vários registros de uso de telefone, o exemplo a seguir adiciona "Uso de emergência" à lista atual de usos de PSTN disponíveis. Para obter detalhes, consulte [Configure políticas de voz, registros de uso do PSTN e rotas de voz no Skype para negócios](voice-and-pstn.md).
     
    ```
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}

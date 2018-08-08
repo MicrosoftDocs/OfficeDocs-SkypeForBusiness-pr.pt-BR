@@ -1,9 +1,8 @@
 ---
-title: Planejar a solução Enterprise Voice no Skype Business Server 2015
+title: Planejar a solução Enterprise Voice no Skype Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/21/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: 'Resumo: Saiba mais sobre as opções para planejar uma solução unificada de comunicações de voz e em Skype Business Server 2015.'
-ms.openlocfilehash: b8870cb252613a362c38262185e779b06dff6136
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+description: 'Resumo: Saiba mais sobre as opções para planejar uma solução unificada de comunicações de voz e em Skype Business Server.'
+ms.openlocfilehash: 5043646f122aec8f7ba80b8b584b6e77f18a9062
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504254"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20988554"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server-2015"></a>Planejar a solução Enterprise Voice no Skype Business Server 2015
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planejar a solução Enterprise Voice no Skype Business Server
  
-**Resumo:** Saiba mais sobre as opções para planejar uma solução unificada de comunicações de voz e em Skype Business Server 2015.
+**Resumo:** Saiba mais sobre as opções para planejar uma solução unificada de comunicações de voz e em Skype Business Server.
   
 Skype para Business Server oferece dois locais Opções de Enterprise Voice — Enterprise Voice e a chamada Via trabalho — para que você integre o sistema telefônico da sua organização sua Skype para implantação de servidor de negócios, tornando para um genuíno comunicações unificadas solução. As duas opções habilitar os usuários usem sua Skype para o cliente de negócios para iniciar chamadas de voz com outros usuários, dentro e fora da sua organização.
   
@@ -31,7 +30,7 @@ Você também pode tirar proveito dos serviços de PBX de nuvem da Microsoft, in
   
 Você pode também usar Enterprise Voice e a chamada Via trabalho juntos.
   
-- O Enterprise Voice é a mais completa de voz que oferece. Trata-se de uma solução de VoIP baseada em software que fornece um rico conjunto de recursos, incluindo integração com o Outlook e o Exchange, e diversos recursos poderosos, como Grupo de Resposta, Estacionamento de Chamada, chamada de equipe, atendimento de chamada de grupo e suporte aprimorado a a Emergency E9-1-1. Com o Enterprise Voice, os usuários usar um dispositivo de áudio como um headset com seu computador, ou um telefone habilitado para VoIP, em vez de uma PSTN tradicional ou telefone PBX.
+- Enterprise Voice é a oferta de voz mais completa do mercado. Trata-se de uma solução de VoIP baseada em software que fornece um rico conjunto de recursos, incluindo integração com o Outlook e o Exchange, e diversos recursos poderosos, como Grupo de Resposta, Estacionamento de Chamada, chamada de equipe, atendimento de chamada de grupo e suporte aprimorado a a Emergency E9-1-1. Com o Enterprise Voice, os usuários usar um dispositivo de áudio como um headset com seu computador, ou um telefone habilitado para VoIP, em vez de uma PSTN tradicional ou telefone PBX.
     
 - Chamada Via trabalho oferece uma maneira de integrar seu Skype para solução de negócios com seus sistemas de telefone PBX existentes. Um usuário habilitado para chamada Via trabalho pode clicar em Skype para a chamada a outro usuário, tanto dentro de sua implantação ou um usuário externo de negócios. A chamada é realizada usando o telefone PBX do usuário. Além disso, esses usuários podem clicar em Skype for Business ingressar em conferências.
     
@@ -46,8 +45,10 @@ Obviamente, você pode ter alguns dos usuários habilitados para o Enterprise Vo
   
 ## <a name="see-also"></a>Consulte também
 
-[Planejar o Enterprise Voice no Skype for Business Server 2015](enterprise-voice.md)
+
+[Planejar o Enterprise Voice no Skype for Business Server](enterprise-voice.md)
   
-[Planejar para chamada Via trabalho no Skype para Business Server 2015](call-via-work.md)
+[Planejar para chamada Via trabalho no Skype para Business Server](call-via-work.md)
   
-[Planejar o controle de chamada remota no Skype para negócios 2015](remote-call-control.md)
+[Planejar o controle de chamada remota no Skype para negócios](remote-call-control.md)
+

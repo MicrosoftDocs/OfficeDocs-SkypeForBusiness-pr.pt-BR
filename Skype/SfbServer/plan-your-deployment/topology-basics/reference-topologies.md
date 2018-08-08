@@ -1,9 +1,8 @@
 ---
-title: Topologias de referência para o Skype for Business Server 2015
+title: Topologias de referência do Skype para Business Server
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologias de referência do Skype para Business Server, incluindo diagramas e decisões a serem tomadas grande, médio e pequenas empresas.
-ms.openlocfilehash: 006f83b51eed18e008badc00fba88e4d4c3d436a
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 284fd37a6f9d65bae5e5e90695db851e66af6cfc
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21710831"
 ---
-# <a name="reference-topologies-for-skype-for-business-server-2015"></a>Topologias de referência para o Skype for Business Server 2015
+# <a name="reference-topologies-for-skype-for-business-server"></a>Topologias de referência do Skype para Business Server
  
 Topologias de referência do Skype para Business Server, incluindo diagramas e decisões a serem tomadas grande, médio e pequenas empresas.
   
@@ -32,11 +32,11 @@ Esta seção descreve três exemplos de topologias de referência, incluindo o r
 
 A topologia de referência para pequenas organizações mostra como é possível implantar uma solução robusta, altamente disponível Implantando somente três servidores que executam o Skype para Business Server.
   
-**Topologia de referência para pequenas organizações**
+**Topologia de referência em pequenas organizações**
 
 ![Diagrama de topologia de referência que implanta três servidores](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
   
-- **Par de servidores Standard Edition implantados** Esta organização tem 4.000 usuários em seu site central. Eles implantaram dois servidores Standard Edition e os pareou para habilitar a alta disponibilidade e recuperação de desastres. Cada servidor hospeda 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um deles ficar inativo, um administrador poderá fazer o failover desses usuários para que eles sejam atendidos pelo outro servidor, com o mínimo de interrupção para os usuários. Para obter mais informações sobre a alta disponibilidade e recursos de recuperação de desastres do Skype para Business Server, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+- **Par de servidores Standard Edition implantados** Esta organização tem 4.000 usuários em seu site central. Eles implantaram dois servidores Standard Edition e os pareou para habilitar a alta disponibilidade e recuperação de desastres. Cada servidor hospeda 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um deles ficar inativo, um administrador poderá fazer o failover desses usuários para que eles sejam atendidos pelo outro servidor, com o mínimo de interrupção para os usuários. Para obter mais informações sobre a alta disponibilidade e recursos de recuperação de desastres do Skype para Business Server, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
 - **A implantação de um servidor de borda é recomendada.** Embora não seja necessário ter um servidor de borda para mensagens instantâneas internas, presença e conferência, nós o recomendamos até mesmo para pequenas implantações. Você pode maximizar seu Skype de investimento Business Server Implantando um servidor de borda para oferecer serviço aos usuários atualmente fora dos firewalls da organização. Veja alguns dos benefícios:
     
@@ -48,7 +48,7 @@ A topologia de referência para pequenas organizações mostra como é possível
     
   - Os usuários da sua organização poderão trocar mensagens instantâneas com usuários de alguns serviços públicos de mensagens instantâneas.
     
-- **Sobrevivência do site de filial.** Esta organização está executando um programa piloto do recurso do Enterprise Voice do Skype para Business Server. Alguns usuários estão usando Skype para Business Server como sua solução exclusiva de voz. Alguns desses usuários piloto do Enterprise Voice estão localizados no site de filial. O site de filial não tem um link WAN (rede) de longa distância confiável para o site central, um aparelho de filial persistente é implantado lá. Com essa implantação, mesmo que o link de WAN fique inativo, os usuários do site de filial ainda poderão fazer e receber chamadas (tanto chamadas dentro da organização quanto chamadas PSTN), contar com a funcionalidade de caixa postal e comunicar-se por mensagens instantâneas entre duas partes. Os usuários também poderão ser autenticados quando o link de WAN estiver indisponível. Para obter mais informações, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Sobrevivência do site de filial.** Esta organização está executando um programa piloto do recurso do Enterprise Voice do Skype para Business Server. Alguns usuários estão usando Skype para Business Server como sua solução exclusiva de voz. Alguns desses usuários piloto do Enterprise Voice estão localizados no site de filial. O site de filial não tem um link WAN (rede) de longa distância confiável para o site central, um aparelho de filial persistente é implantado lá. Com essa implantação, mesmo que o link de WAN fique inativo, os usuários do site de filial ainda poderão fazer e receber chamadas (tanto chamadas dentro da organização quanto chamadas PSTN), contar com a funcionalidade de caixa postal e comunicar-se por mensagens instantâneas entre duas partes. Os usuários também poderão ser autenticados quando o link de WAN estiver indisponível. Para obter mais informações, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **Implantação de UM do Exchange.** Essa topologia de referência inclui um servidor Exchange Unified Messaging (UM), que executa o Microsoft Exchange Server, não Skype para Business Server.
     
@@ -58,7 +58,7 @@ A topologia de referência para pequenas organizações mostra como é possível
 
 A topologia de referência com alta disponibilidade e um único data center é projetada para organizações de pequeno a médio porte com um site central. A topologia exata no diagrama a seguir destina-se a uma organização com 20.000 usuários. 
   
-**Topologia de referência para organizações de médias porte**
+**Topologia de referência para organizações de médio porte**
 
 ![Diagrama de topologia de referência para o data center único](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
   
@@ -76,7 +76,7 @@ A topologia de referência com alta disponibilidade e um único data center é p
     
 - **Alta disponibilidade do servidor de borda** Este exemplo de organização com 20.000 usuários, apenas um servidor de borda seria suficiente para o desempenho. No entanto, há um pool de dois servidores de borda implantado para fornecer alta disponibilidade.
     
-- **Opções de implantação de site de filiais.** A organização nessa topologia tiver implantado como sua solução de voz do Enterprise Voice. Site de filial 1 não tem um link WAN (rede) resiliente de longa distância no site central, para que ele tenha um aparelho de filial persistente implantados para manter que muitas Skype para recursos de Business Server caso o link da WAN no site central cair. Já o Site de filial 2 tem um link de WAN resiliente e, portanto, requer apenas um gateway PSTN (rede telefônica pública comutada). Como o gateway PSTN implantado dá suporte para bypass de mídia, o Site de filial 2 não requer nenhum Servidor de Mediação. Para obter mais informações, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Opções de implantação de site de filiais.** A organização nessa topologia tiver implantado como sua solução de voz do Enterprise Voice. Site de filial 1 não tem um link WAN (rede) resiliente de longa distância no site central, para que ele tenha um aparelho de filial persistente implantados para manter que muitas Skype para recursos de Business Server caso o link da WAN no site central cair. Já o Site de filial 2 tem um link de WAN resiliente e, portanto, requer apenas um gateway PSTN (rede telefônica pública comutada). Como o gateway PSTN implantado dá suporte para bypass de mídia, o Site de filial 2 não requer nenhum Servidor de Mediação. Para obter mais informações, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **Balanceamento de carga do DNS.** O pool de front-ends e o pool de servidores de borda têm balanceamento de carga do DNS para tráfego SIP implantado. Isso elimina a necessidade de balanceadores de carga de hardware para os servidores de borda e reduz significativamente a configuração e a manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte (… /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
     
@@ -100,21 +100,21 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral seguida po
 
 ![Topologia de referência para vários data centers](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
   
-**Topologia de referência para grandes organizações: visão detalhada do local Central A**
+**Topologia de referência para grandes organizações: Visão detalhada do Local Central A**
 
 ![Topologia 3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
   
-**Topologia de referência para grandes organizações: visão detalhada do local Central B**
+**Topologia de referência para grandes organizações: Visão detalhada do Local Central B**
 
 ![Topologia 3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
   
-**Topologia de referência para grandes organizações: visão detalhada do local Central C**
+**Topologia de referência para grandes organizações: Visão detalhada do Local Central C**
 
 ![Topologia 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
   
-- **Pools de Front-End são combinados para habilitar a recuperação de desastres.** Os pools de Front-End no Site A e B do Site estiver emparelhados com uns aos outros, para oferecer suporte à recuperação de desastres. Se o pool em um site falhar, o administrador pode realizar failover dos usuários do site para o pool de Front-End pareado em outro site, com um mínimo de interrupção do serviço para os usuários. Cada um desses dois pools de front-ends tem seis servidores, o que é suficiente para comportar todos os 40.000 usuários dos dois pools em caso de failover. Para obter mais informações, consulte o [plano de alta disponibilidade e recuperação de desastres em Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+- **Pools de Front-End são combinados para habilitar a recuperação de desastres.** Os pools de Front-End no Site A e B do Site estiver emparelhados com uns aos outros, para oferecer suporte à recuperação de desastres. Se o pool em um site falhar, o administrador pode realizar failover dos usuários do site para o pool de Front-End pareado em outro site, com um mínimo de interrupção do serviço para os usuários. Cada um desses dois pools de front-ends tem seis servidores, o que é suficiente para comportar todos os 40.000 usuários dos dois pools em caso de failover. Para obter mais informações, consulte o [plano de alta disponibilidade e recuperação de desastres em Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
     
-- **Servidores back-End são espelhados** Para fornecer mais alta disponibilidade de recursos de usuário básica, a organização implantou um par espelhado de servidores Back-End para cada pool de Front-End. Isso é uma topologia opcional e você pode optar por implantar um único servidor Back-End em vez disso. O clustering SQL e os grupos de disponibilidade AlwaysOn também são suportados. Para obter mais informações, consulte [alta disponibilidade do servidor Back-End no Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+- **Servidores back-End são espelhados** Para fornecer mais alta disponibilidade de recursos de usuário básica, a organização implantou um par espelhado de servidores Back-End para cada pool de Front-End. Isso é uma topologia opcional e você pode optar por implantar um único servidor Back-End em vez disso. O clustering SQL e os grupos de disponibilidade AlwaysOn também são suportados. Para obter mais informações, consulte [alta disponibilidade do servidor Back-End no Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
     
 - **Usando o servidor Standard Edition em um site de filial.** Essa organização considera o Site C um site de filial porque ele tem apenas 600 funcionários. No entanto, os usuários desse site fazem muitas conferências de áudio e vídeo entre si. Se ela foi implantada no Skype para Business Server como um site de filial, a mídia para essas conferências seria executado através da rede de longa distância (WAN) de e para um site central que tenha um servidor Front-End implantado. Para evitar essa carga potencial de largura de banda, eles instalou um par de servidores Standard Edition neste site, que irá hospedar essas conferências. E porque os servidores Standard Edition são instalados lá, Skype para Business Server, por definição, o considera um site central, e ela será tratada como tal, no construtor de topologias e ferramenta de planejamento.
     
@@ -124,15 +124,18 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral seguida po
     
 - **Monitoramento e arquivamento** Esta organização implantou o monitoramento e arquivamento. Quando você implanta esses dois recursos, eles são executados em todos os servidores front-end. Os bancos de dados desses recursos podem ser colocados com o banco de dados back-end ou em outro servidor. Essa organização colocou esses bancos de dados em um servidor separado dos servidores back-end, no Site central B. Nesse caso, os bancos de dados recebem dados do monitoramento e arquivamento dos servidores front-end em todos os sites.
     
-- **Opções de implantação de site de filiais.** Esta organização realmente tem mais de 50 sites de filiais, apenas dois dos quais são mostradas nos diagramas a detalhadas. Site de filial 1 não tem uma WAN resiliente link para o site central, para que eles tenham implantado para fornecer serviços telefônicos caso o link da WAN no site central cair de aparelhos de filial persistente. No entanto, o Site de filial 2 possui um link WAN resistente, então ele precisa de apenas um gateway PSTN (rede) telefônica pública comutada. Como o gateway PSTN implantado dá suporte para bypass de mídia, o Site de filial 2 não requer nenhum Servidor de Mediação. Para obter detalhes sobre como decidir o que instalar em um site de filial, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Opções de implantação de site de filiais.** Esta organização realmente tem mais de 50 sites de filiais, apenas dois dos quais são mostradas nos diagramas a detalhadas. Site de filial 1 não tem uma WAN resiliente link para o site central, para que eles tenham implantado para fornecer serviços telefônicos caso o link da WAN no site central cair de aparelhos de filial persistente. No entanto, o Site de filial 2 possui um link WAN resistente, então ele precisa de apenas um gateway PSTN (rede) telefônica pública comutada. Como o gateway PSTN implantado dá suporte para bypass de mídia, o Site de filial 2 não requer nenhum Servidor de Mediação. Para obter detalhes sobre como decidir o que instalar em um site de filial, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
     
 - **Tronco SIP e Servidor de Mediação.** Observe que no Site central B, o Servidor de Mediação não está colocado com os servidores front-end. Isso acontece porque recomenda-se usar um Servidor de Mediação independente para sites que usam o tronco SIP. Na maioria das demais instâncias, recomendamos colocar o Servidor de Mediação com o servidor front-end. Para obter detalhes sobre as topologias de servidor de mediação, consulte [componentes e topologias de servidor de mediação](http://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx) na documentação de planejamento.
     
 - **O chat persistente está implantado.** Essa organização implantou os servidores necessários para habilitar o chat persistente. Ela implantou vários servidores front-end de chat persistente para lidar com a carga do número de usuários no pool e proporcionar alta disponibilidade. Ela também implantou conformidade para chat persistente e colocou o repositório do chat persistente e o repositório de conformidade do chat persistente em servidores separados. Esses repositórios podem ser colocados e até mesmo colocados com o servidor back-end, mas a organização optou por separá-los para proporcionar desempenho melhor.
+
+    > [!NOTE] 
+    > Bate-papo persistente está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. A mesma funcionalidade está disponível em equipes. Para obter mais informações, consulte [jornada do Skype para negócios às equipes da Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar utilizar o chat persistente, suas opções são para migrar tanto os usuários que requerem essa funcionalidade para equipes ou para continuar usando o Skype para Business Server 2015. 
     
 - **Balanceamento de carga do DNS.** O pool de front-ends e o pool de servidores de borda usam balanceamento de carga do DNS. Isso elimina a necessidade de balanceadores de carga de hardware para a interface interna dos servidores de borda e reduz significativamente o tempo necessário para configuração e manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte (… /.. / plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
     
-- **Implantação de UM do Exchange.** Skype para Business Server funciona com implantações de bothon local do Exchange Unified Messaging (UM) andhosted UM do Exchange. Site central A inclui um servidor Exchange Unified Messaging (UM), que executa o Microsoft Exchange Server, não Skype para Business Server. A funcionalidade de UM do Exchange para Skype para Business Server executa no pool Front-End.
+- **Implantação de UM do Exchange.** Skype para Business Server funciona com ambas as implantações em instalações do Exchange Unified Messaging (UM) e Exchange hospedado. Site central A inclui um servidor Exchange Unified Messaging (UM), que executa o Microsoft Exchange Server, não Skype para Business Server. A funcionalidade de UM do Exchange para Skype para Business Server executa no pool Front-End.
     
     O Site central B usa o Exchange hospedado. Portanto, a funcionalidade do servidor de UM do Exchange também é hospedada. 
     

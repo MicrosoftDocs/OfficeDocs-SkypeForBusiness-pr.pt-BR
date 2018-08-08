@@ -3,29 +3,87 @@ title: Obter clientes para o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/27/2018
+ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara; vichau
-localization_priority: Normal
+ms.reviewer: vichau, majafry
+localization_priority: Priority
 description: Saiba como usar as diversos clientes disponíveis para o Microsoft Teams, incluindo web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone).
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 579bc0290c8375adf23a17aa8121fb7a8d363718
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 083e45097c7f2495bb73dc51a64d25202fafc13b
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708356"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-O Microsoft Teams tem clientes disponíveis para web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline.
+Microsoft Teams possui clientes móveis e disponíveis para a área de trabalho web (Windows e Mac), (Android, iOS e Windows Phone). Todos esses clientes precisam de uma conexão à internet ativa e não são suportados em modo offline.
+
+<a name="desktop-client"></a>Cliente de desktop
+--------------
+
+O cliente de desktop do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office 365 ProPlus. As equipes está disponível para o Windows (7 +), versões de 32 bits e 64 bits e macOS (10.10 +). No Windows, equipes requer o .NET framework 4.5 ou posterior; o instalador de equipes se oferecerá para instalá-lo se você não tiver a ele. 
+
+Os clientes de área de trabalho oferecem suporte a comunicação em tempo real (áudio, vídeo e conteúdo compartilhamento) para reuniões de equipe, chamadas individuais chamando e particulares do grupo.
+
+Clientes de área de trabalho podem ser baixados e instalados pelos usuários finais diretamente do [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se eles têm as permissões apropriadas de locais (direitos de administrador não são necessários para instalar o cliente de equipes em um PC, mas são necessários em um Mac).
+
+Administradores de TI podem escolher seu método preferencial para distribuir os arquivos de instalação para computadores em sua organização, como o System Center Configuration Manager (Windows) ou Jamf Pro (macOS). Para obter o pacote MSI para distribuição do Windows, consulte [instalar equipes da Microsoft usando o MSI](msi-deployment.md).
+
+> [!NOTE]
+> A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
+
+### <a name="windows"></a>Windows
+
+A instalação do Microsoft Teams para Windows oferece instaladores para download nas arquiteturas de 32 bits e 64 bits.
+
+> [!NOTE]
+> A arquitetura (32 bits versus 64 bits) do Microsoft Teams é independente da arquitetura do Windows e do Office que está instalado.
+
+O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows é instalado nos seguintes locais:
+
+- %appdata%\\local\\Microsoft\\Teams
+
+- %appdata%\\roaming\\Microsoft\\Teams
+
+Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela primeira vez, eles podem notar um aviso com as configurações de firewall do Windows, que solicita que os usuários permitam a comunicação. Os usuários podem ser instruídos para ignorar essa mensagem porque a chamada funcione, mesmo quando o aviso é descartado.
+
+![Captura de tela de um diálogo do Alerta de Segurança do Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
+
+> [!NOTE]
+> A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Serão criadas duas regras de entrada para teams.exe com a ação Block para protocolos TCP e UDP.
+
+### <a name="mac"></a>Mac
+
+Usuários de Mac podem instalar equipes usando um arquivo de instalação do pacote para computadores macOS. É obrigatório acesso administrativo para instalar o cliente Mac. O cliente macOS é instalado na pasta/aplicativos.
+
+#### <a name="install-teams-by-using-the-pkg-file"></a>Instalar as equipes usando o arquivo de pacote
+
+1. Na [página de download de equipes](https://teams.microsoft.com/downloads), **Mac**, clique em **Baixar**.
+2. Clique duas vezes o arquivo de pacote.
+3. Siga o Assistente de instalação para concluir a instalação.
+4. Pasta/aplicativos equipes serão instaladas. É uma instalação de toda a máquina.
+
+> [!NOTE]
+> Durante a instalação, o pacote vai solicitar credenciais de administrador. O usuário precisa digitar as credenciais de administrador, independentemente de estarem ou não o usuário é um administrador.
+
+Se um usuário atualmente tem uma instalação DMG das equipes e quiser substituí-la com a instalação do pacote, o usuário deve:
+
+1. Saia do aplicativo de equipes.
+2. Desinstale o aplicativo de equipes.
+3. Instale o arquivo de pacote.
+
+Administradores de TI podem usar implantação gerenciada de equipes para distribuir os arquivos de instalação para todos os Macs na sua organização, como Jamf Pro.
+
+> [!NOTE]
+> Se você perceber problemas ao instalar o pacote, fale conosco. Na seção **comentários** no final deste artigo, clique em **comentários sobre o produto**.
 
 <a name="web-client"></a>Cliente web 
 ----------
@@ -34,50 +92,7 @@ O cliente da web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Cliente web executa a detecção de versão do navegador após a conexão com [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) e se uma versão sem suporte do navegador é detectada, ela será bloqueie o acesso à interface da web e recomendável que o usuário baixe o cliente de área de trabalho ou aplicativos móveis.
-
-<a name="desktop-client"></a>Cliente de desktop
---------------
-
-O cliente de desktop do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office Pro Plus. As equipes está disponível para o Windows (7 +), versões de 32 bits e 64 bits e MacOS (10.10 +). No Windows, equipes requer o .NET framework 4.5 ou posterior; o instalador de equipes se oferecerá para instalá-lo se você não tiver a ele. 
-
-Os clientes de área de trabalho oferecem suporte a comunicação em tempo real (áudio, vídeo e conteúdo compartilhamento) para reuniões de equipe, chamadas individuais chamando e particulares do grupo.
-
-Clientes de área de trabalho podem ser baixados e instalados pelos usuários finais diretamente do [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) se eles têm as permissões apropriadas de locais (direitos de administrador não são necessários para instalar o cliente de equipes em um PC, mas são necessários em um Mac).
-
-Os administradores de TI podem escolher seu método preferido para distribuir os arquivos de instalação para as máquinas da sua organização, como o System Center Configuration Manager (Windows) ou o Casper Suite (MacOS). Para fazer a distribuição de pacote do MSI para Windows, consulte [instalar equipes da Microsoft usando o MSI](msi-deployment.md).
-
-> [!NOTE]
-> A distribuição do cliente por esses mecanismos é apenas para a instalação inicial dos clientes Microsoft Teams, e não para atualizações futuras.
-
-
-#### <a name="windows"></a>Windows
-
-A instalação do Microsoft Teams para Windows oferece instaladores para download nas arquiteturas de 32 bits e 64 bits. A arquitetura deve corresponder àquela do sistema operacional, a qual for o padrão do download online.
-
-
-
-> [!NOTE]
-> A arquitetura (32 bits x 64 bits) do Microsoft Teams é independente da arquitetura do Office que está instalado.
-
-O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows é instalado nos seguintes locais:
-
--   %appdata%\\local\\Microsoft\\Teams
-
--   %appdata%\\roaming\\Microsoft\\Teams
-
-Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela primeira vez, eles podem notar um aviso com as configurações de firewall do Windows, que solicita que os usuários permitam a comunicação. Os usuários podem ser instruídos a ignorar essa mensagem porque a chamada funcionará, mesmo quando o aviso for descartado.
-
-![Captura de tela de um diálogo do Alerta de Segurança do Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
-
-
-> [!NOTE]
-> A configuração do Firewall do Windows será alterada mesmo quando o aviso for descartado ao selecionar “Cancelar”. Serão criadas duas regras de entrada para teams.exe com a ação Block para protocolos TCP e UDP.
-
-#### <a name="mac"></a>Mac
-
-A Microsoft também fornece um arquivo de instalação DMG para computadores Mac OSX. É obrigatório acesso administrativo para instalar o cliente Mac. O cliente Mac OSX é instalado na pasta /Applications.
-
+Cliente web executa a detecção de versão do navegador após a conexão com [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Se for detectada uma versão sem suporte do navegador, ela será bloqueie o acesso à interface da web e recomendável que o usuário baixe o cliente de área de trabalho ou aplicativos móveis.
 
 <a name="mobile-clients"></a>Clientes móveis
 --------------
@@ -91,6 +106,9 @@ As plataformas móveis suportadas para os aplicativos móveis da Microsoft Teams
 -   **iOS**: 10.0 ou posterior
 
 -   **Windows Phone**: Windows 10 Mobile
+
+> [!NOTE]
+> A versão móvel deve estar disponível para o público na ordem para equipes trabalhem conforme o esperado.
 
 Os aplicativos móveis são distribuídos e atualizados apenas pela respectiva loja de aplicativos da plataforma móvel e não estão disponíveis para ser distribuídos por meio de soluções MDM (gerenciamento de dispositivos móveis) ou carregamento lateral.
 

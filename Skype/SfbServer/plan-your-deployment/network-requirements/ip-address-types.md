@@ -3,7 +3,6 @@ title: Configurar tipos de endereço IP no Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 7/22/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,17 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: 'Resumo: Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server 2015.'
-ms.openlocfilehash: adebab15a0c10310b25af30f6e933625df61dc3d
-ms.sourcegitcommit: a612ebe25e06c2cb090f776325712caf3cf3b943
+description: 'Resumo: Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server.'
+ms.openlocfilehash: 6d1e3a53e65bb3d1b3475dc19a7a2f9e1101195d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19630144"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967161"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de endereço IP no Skype for Business
  
-**Resumo:** Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server 2015.
+**Resumo:** Revise as considerações de tipo de endereço IP abaixo antes de implementar Skype para Business Server.
   
 Você pode implantar tipos de endereço IP usando as configurações de topologia que você configurar no construtor de topologias. Esta seção descreve como implantar os tipos de endereço IP em servidores Front-End, servidores de mediação e servidores de borda.
   
@@ -37,7 +36,7 @@ Usando o construtor de topologias, execute as etapas no procedimento a seguir pa
     
 2. Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dual, selecione **Habilitar IPv4** e **Habilitar IPv6**, como mostrado na seguinte imagem.
     
-   **Editar caixa de diálogo de propriedades para o pool do servidor Front-End**
+   **Editar a caixa de diálogo Propriedades do pool do servidor front-end**
 
   - **Usar todos os endereços IP configurados**. Selecione esta opção se você deseja permitir qualquer endereço IP definido no computador que será usado. 
     
@@ -63,7 +62,7 @@ Usando o construtor de topologias, execute as etapas no procedimento a seguir pa
     
 - Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dual, selecione **Habilitar IPv4** e **Habilitar IPv6**, como mostrado na seguinte imagem.
     
-   **Editar caixa de diálogo de propriedades para o pool do servidor de mediação**
+   **Caixa de diálogo Editar Propriedades para o pool de Servidores de Mediação**
 
   - **Usar todos os endereços IP configurados**. Selecione esta opção se você deseja permitir qualquer endereço IP definido no computador que será usado. 
     

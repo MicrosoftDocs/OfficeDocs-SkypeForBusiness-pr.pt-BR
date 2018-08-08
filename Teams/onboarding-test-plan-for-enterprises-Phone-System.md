@@ -2,20 +2,22 @@
 title: Enterprise testar o plano para o sistema telefônico com planos de chamada no Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Valide que as expectativas da sua organização sejam atendidas por meio de testes de sistema telefônico em recursos de equipes, a funcionalidade e usabilidade.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b07aa459f5512c30967efe65d011d6911b6f4967
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: c69ffab7fcca4fa7f2374e3527793e863ee22ef6
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694830"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definir e documentar o seu sistema telefônico com planos de chamada no plano de teste de equipes para empresas 
 ============================================================================================
@@ -81,7 +83,7 @@ Com essa linha de base identificada, a próxima etapa é avaliar o mapa de públ
 > [!TIP]
 > O mapa de equipes mais recente para identificar o sistema telefônico com planos de chamar os recursos no escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
 
-Agora que o sistema telefônico com recursos e planos de chamar pessoa tiverem sido definidos, o próximo critério para avaliação será a experiência de interoperabilidade com equipes. Para obter informações adicionais sobre a experiência de interoperabilidade, juntamente com as opções de configuração disponíveis, consulte [as equipes da Microsoft e Skype para a interoperabilidade de negócios](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-interoperability).
+Agora que o sistema telefônico com recursos e planos de chamar pessoa tiverem sido definidos, o próximo critério para avaliação será a experiência de interoperabilidade com equipes. Para obter informações adicionais sobre a experiência de interoperabilidade, juntamente com as opções de configuração disponíveis, consulte [as equipes da Microsoft e Skype para a interoperabilidade de negócios](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
 #### <a name="phone-system-with-calling-plans-feature-definition"></a>Sistema telefônico com planos de chamar a definição de recurso
 
@@ -386,7 +388,7 @@ Normalmente, um plano de relatório e correção de defeitos inclui o seguinte:
 
 | ID de defeito                                | Descrição de defeito                                                                                 | Avaliação de prioridade de defeito                                           | Proprietário de defeito atribuídas | Ponto de escalonamento de defeito atribuídas | Método de escalonamento de defeito                                          | Status de defeito | Resolução necessária por data | Data de status |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1                                        | Quando o usuário insere uma extensão de quatro dígitos, a tentativa de fazer uma chamada de saída, a chamada falhará. | Médio                                                               | Lisa cinza             | Louis Lahr                       | E-mail de alta prioridade triagem revisão semanal para partes interessadas afetadas | Open          | ASAP                        | 1/12/2018   |
+| 1                                        | Quando o usuário insere uma extensão de quatro dígitos, a tentativa de fazer uma chamada de saída, a chamada falhará. | Médio                                                               | Lisa cinza             | Louis Lahr                       | E-mail de alta prioridade triagem revisão semanal para partes interessadas afetadas | Abra o           | ASAP                        | 1/12/2018   |
 
 
 
@@ -600,12 +602,12 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 
 | Métrica                                                        | Destino                                                                                                             | Weekday: meu horário de trabalho 9:30 AM para 11:00 AM                                                                                                                                                                                                                                                                                                 | Weekday: meu horário de trabalho 2:30 PM para 4:30 PM | Weekday: depois do expediente 10:30 PM para 12:30 AM | Final de semana: depois do expediente 9:30 AM para 11:30 AM | Final de semana: após o horário 2:30 PM para 4:30 PM |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------|------------------------------------------|-----------------------------------------
-| Latência (uma maneira)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
+| Latência (unidirecional)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latência (tempo de ida e volta, ou tempo de resposta)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
-| Perda de pacotes de intermitência                                             | \<10% durante qualquer intervalo de 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | % de 0.2                                     | 0,1%                                    |
+| Perda de pacote de intermitência                                             | \<10% durante qualquer intervalo de 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | % de 0.2                                     | 0,1%                                    |
 | Perda de pacote                                                   | \<1% durante qualquer intervalo de 15 segundos                                                                                   | % de 0.4                                                                                                                                                                                                                                                                                                                                      | % de 0,3                                     | % de 0,3                                      | 0,1%                                     | 0%                                      |
 | Tremulação de entre chegada de pacotes                                   | \<30 ms durante qualquer intervalo de 15 segundos                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
-| Reordenar de pacotes                                                | \<% de 0,05 pacotes de fora de ordem                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
+| Novo pedido de pacotes                                                | \<% de 0,05 pacotes de fora de ordem                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
 
 
 
@@ -672,7 +674,7 @@ Baixe e criar uma letra de autorização (LOA) para seu país/região que é bas
 ![Qual tipo de números de telefone serão você ser transferindo? Resposta: eu estou transferindo números de telefone do serviço de voz como para atendedores automáticos ou pontes de conferência.] (media/onboarding-test-plan-image2.png "Qual tipo de números de telefone serão você ser transferindo? Resposta: eu estou transferindo números de telefone do serviço de voz como para atendedores automáticos ou pontes de conferência.")
 
 >[!IMPORTANT]
->   Quando você manualmente a porta números de telefone usando uma LOA, certifique-se de que selecionar o tipo de número de telefone correto. Você deve enviar pedidos de porta separada para cada tipo de número de telefone que você deseja transferir.<br/><br/>
+>   Quando você manualmente a porta números de telefone usando uma LOA, certifique-se de que selecionar o tipo de número de telefone correto. É necessário enviar pedidos de portabilidade separados para cada tipo de número de telefone que você queira transferir.<br/><br/>
 >   Porque queremos testar o número da porta processo usando um número de telefone associado com o mesmo número de telefone faturamento (BTN), você precisará garantir que o número de telefone de faturamento *não* está incluído com o número de telefone específico que está sendo migrado.
 
 #### <a name="step-4"></a>Etapa 4

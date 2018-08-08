@@ -1,5 +1,5 @@
 ---
-title: Criar e publicar uma nova topologia no Skype for Business Server 2015
+title: Criar e publicar a nova topologia no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,16 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: 'Resumo: Saiba como criar, publicar e verifique se uma nova topologia antes de instalar o Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para negócios 2015 de servidor do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: d49230c1fc8124e15f411ca4c93cd2a5392e64f5
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+description: 'Resumo: Saiba como criar, publicar e verifique se uma nova topologia antes de instalar o Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: 4a7ce9f078ec5b52d000c348dac7610e52f91d21
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20967336"
 ---
-# <a name="create-and-publish-new-topology-in-skype-for-business-server-2015"></a>Criar e publicar uma nova topologia no Skype for Business Server 2015
+# <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Criar e publicar a nova topologia no Skype para Business Server
  
-**Resumo:** Saiba como criar, publicar e verifique se uma nova topologia antes de instalar o Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para negócios 2015 de servidor do centro da Evaluation da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Resumo:** Saiba como criar, publicar e verifique se uma nova topologia antes de instalar o Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Antes de instalar o Skype para system Business Server em cada um dos servidores na topologia, você deve criar uma topologia e publicá-lo. Ao publicar uma topologia, você está carregando as informações da topologia no banco de dados do Repositório de Gerenciamento Central. Se o repositório for um pool Enterprise Edition, você criará o banco de dados do Repositório de Gerenciamento Central quando publicar uma nova topologia pela primeira vez. Se o repositório for um pool Standard Edition, você terá que executar o processo "Preparar primeiro servidor Standard Edition" no Assistente de Implantação antes de publicar a topologia. Esse processo prepara o Standard Edition por meio da instalação de uma instância do SQL Server Express Edition e da criação do Repositório de Gerenciamento Central. Você pode executar as etapas de 1 a 5 em qualquer ordem. No entanto, as etapas 6, 7 e 8 devem ser executadas nessa ordem, após a conclusão das etapas de 1 a 5, conforme descrito no diagrama. A criação e publicação da nova topologia são descritas na etapa 6.
   
@@ -86,7 +87,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
   
 5. Na página **Selecionar servidor colocado funções** , você pode optar por colocar o servidor de mediação no servidor Front-End ou você pode optar por implantá-lo como um servidor autônomo.
     
-    Se você pretende colocar o Servidor de Mediação no pool de front-ends Enterprise Edition, verifique se a caixa de seleção está marcada. A função de servidor será implantada nos servidores do pool. Se você pretende implantar o Servidor de Mediação como um servidor autônomo, limpe a caixa de seleção correspondente. Após a implantação do servidor Front-End completamente, você implantará o servidor de mediação em uma etapa de implantação separada. Para planejar os detalhes sobre a colocação de uma, consulte [Noções básicas de topologia para Skype para Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+    Se você pretende colocar o Servidor de Mediação no pool de front-ends Enterprise Edition, verifique se a caixa de seleção está marcada. A função de servidor será implantada nos servidores do pool. Se você pretende implantar o Servidor de Mediação como um servidor autônomo, limpe a caixa de seleção correspondente. Após a implantação do servidor Front-End completamente, você implantará o servidor de mediação em uma etapa de implantação separada. Para planejar os detalhes sobre a colocação de uma, consulte [Noções básicas de topologia para Skype para Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
     
 6. Na página **Associar funções de servidor a este pool de front-ends**, você pode definir e associar funções de servidor com o pool de front-ends. A seguinte função está disponível:
     
@@ -104,7 +105,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
     
    - Nesse caso, você vai selecionar as funções que pretende implantar ou associar ao novo servidor front-end. Em qualquer um dos casos, você continuará com a definição das funções, a configuração do hardware necessário e a instalação.
     
-7. Em seguida, você definirá o repositório de SQL Server que será usado nessa topologia. Nesse exemplo, usamos a instância padrão. Para obter mais informações sobre os recursos do SQL Server, como alta disponibilidade, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+7. Em seguida, você definirá o repositório de SQL Server que será usado nessa topologia. Nesse exemplo, usamos a instância padrão. Para obter mais informações sobre os recursos do SQL Server, como alta disponibilidade, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
     
    - Para usar um repositório de SQL Server existente que já foi definido em sua topologia, selecione uma instância do **Repositório SQL**.
     
@@ -115,6 +116,9 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
    - Para usar a instância padrão, clique em **Instância padrão**.
     
    - Para usar o espelhamento SQL, selecione **Habilitar espelhamento do SQL** e selecione uma instância existente ou crie uma nova instância.
+
+    > [!NOTE]
+    > Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019. Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.
     
     Nesse exemplo, vamos inserir o **FQDN do SQL Server**, definir as configurações de alta disponibilidade relevantes e clicar em **OK**, conforme mostra a figura.
     
@@ -131,9 +135,9 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
     Nesse exemplo, vamos clicar em **Defina um novo repositório de arquivos**, inserir o **FQDN do servidor de arquivos** e o **compartilhamento de arquivo** e clicar em **Avançar**.
     
     > [!NOTE]
-    > O compartilhamento de arquivo para Skype para Business Server pode ser colocado, mas isso não é recomendável por razões de desempenho. Observe que, nesse exemplo, o compartilhamento de arquivo localiza-se em um servidor dedicado que atuará como compartilhamento de arquivo. No entanto, recomendamos outros sistemas mais robustos de compartilhamento de arquivos, como o DFS com o uso do Windows Server 2012 R2. Para obter detalhes sobre os sistemas de compartilhamento de arquivos suportados, consulte [Requirements for sua Skype para ambiente de negócios](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Para obter mais informações sobre como criar o compartilhamento de arquivos, consulte [criar um compartilhamento de arquivo no Skype para Business Server 2015](create-a-file-share.md). Você pode definir o compartilhamento de arquivos sem que ele tenha sido criado. Além disso, você precisará criar o compartilhamento de arquivos no local definido para poder publicar a topologia. 
+    > O compartilhamento de arquivo para Skype para Business Server pode ser colocado, mas isso não é recomendável por razões de desempenho. Observe que, nesse exemplo, o compartilhamento de arquivo localiza-se em um servidor dedicado que atuará como compartilhamento de arquivo. No entanto, recomendamos outros sistemas mais robustos de compartilhamento de arquivos, como o DFS com o uso do Windows Server 2012 R2. Para obter detalhes sobre os sistemas de compartilhamento de arquivos suportados, consulte [Requirements for sua Skype para ambiente de negócios](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md). Para obter mais informações sobre como criar o compartilhamento de arquivos, consulte [criar um compartilhamento de arquivo no Skype para Business Server](create-a-file-share.md). Você pode definir o compartilhamento de arquivos sem que ele tenha sido criado. Além disso, você precisará criar o compartilhamento de arquivos no local definido para poder publicar a topologia. 
   
-10. Na página Especificar a URL dos Serviços Web, você deve decidir se é necessário substituir a URL básica do pool interno de serviços Web. Essa substituição está relacionado ao balanceamento de carga. A carga do tráfego SIP básico pode ser balanceada por meio do balanceamento de carga de DNS simples. No entanto, o tráfego de rede HTTP/HTTPS dos serviços Web deve usar uma solução de balanceamento de carga de hardware ou software compatível. Para balanceadores de carga com suporte, consulte [infraestrutura para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947483). Nesse exemplo, nós usamos o balanceamento de carga de DNS para o tráfego SIP e uma solução de balanceamento de carga de software compatível. Como estamos dividindo o tráfego dessa forma, precisamos substituir o FQDN do pool interno de serviços Web. Se tivéssemos um balanceador de carga de linha superior e enviássemos todo o tráfego por meio dele, em veze de usar o balanceamento de carga de DNS para o tráfego SIP, não seria necessário substituir a URL dos serviços Web. 
+10. Na página Especificar a URL dos Serviços Web, você deve decidir se é necessário substituir a URL básica do pool interno de serviços Web. Essa substituição está relacionado ao balanceamento de carga. A carga do tráfego SIP básico pode ser balanceada por meio do balanceamento de carga de DNS simples. No entanto, o tráfego de rede HTTP/HTTPS dos serviços Web deve usar uma solução de balanceamento de carga de hardware ou software compatível. Para balanceadores de carga com suporte, consulte [infraestrutura para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways). Nesse exemplo, nós usamos o balanceamento de carga de DNS para o tráfego SIP e uma solução de balanceamento de carga de software compatível. Como estamos dividindo o tráfego dessa forma, precisamos substituir o FQDN do pool interno de serviços Web. Se tivéssemos um balanceador de carga de linha superior e enviássemos todo o tráfego por meio dele, em veze de usar o balanceamento de carga de DNS para o tráfego SIP, não seria necessário substituir a URL dos serviços Web. 
     
     Na seção DNS deste tópico, nós criamos um registro A para webint.contoso.local. Essa é a URL que estamos usando para o tráfego HTTP/HTTPS dos serviços Web, e ela deve passar pelo balanceador de carga do software compatível que configuramos. Portanto, neste exemplo, podemos substituir a URL para informar Skype para Business Server que todo o tráfego HTTP/S deve ir para webint.contoso.local, em vez de pool.contoso.local, conforme mostrado na figura. Para obter mais informações sobre o balanceamento de carga, consulte [requisitos de carga balanceamento para Skype para negócios](../../plan-your-deployment/network-requirements/load-balancing.md).
     
@@ -197,7 +201,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
     
     Após a verificação da topologia, se não houver erros de validação, você estará pronto para publicar a topologia. Se houver erros de validação, será necessário corrigi-los antes de publicar a topologia.
     
-6. Com o botão direito no nó do **Skype para Business Server 2015** e, em seguida, clique em **Publicar topologia**.
+6. Clique com o botão direito no nó **Skype for Business Server** e, em seguida, clique em **Publicar Topologia**.
     
 7. Na página **Publicar a topologia**, clique em **Avançar**.
     
@@ -211,7 +215,7 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
 9. Na página **Selecionar bancos de dados**, selecione os bancos de dados que deseja publicar.
     
     > [!NOTE]
-    > Se você não possui os direitos apropriados para criar os bancos de dados, você poderá desmarcar as caixas de seleção ao lado desses bancos de dados e alguém com direitos apropriados posteriormente pode criar os bancos de dados. Para obter detalhes sobre os requisitos, consulte [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+    > Se você não possui os direitos apropriados para criar os bancos de dados, você poderá desmarcar as caixas de seleção ao lado desses bancos de dados e alguém com direitos apropriados posteriormente pode criar os bancos de dados. Para obter detalhes sobre os requisitos, consulte [requisitos de servidor para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
   
 10. Opcionalmente, clique em  **Avançado**. As opções avançadas de posicionamento do arquivo de dados do SQL Server permitem selecionar uma das seguintes opções: 
     
@@ -240,6 +244,6 @@ Você pode usar Skype para o construtor de topologia de servidor de negócios pa
     
     A mensagem "Concluído com avisos" exibida para a criação do banco de dados não indica que houve um erro. O processo de instalação deve alterar as configurações no SQL Server para Skype para Business Server funcione corretamente. Quando uma configuração é alterada no SQL Server, ela é registrada como um aviso para que os administradores do SQL Server possam entender exatamente o que o processo de instalação fez. Se você receber um aviso, você pode selecionar o registro e, em seguida, clique em **Exibir Logs** para exibir os detalhes de aviso.
     
-    Quando a topologia foi publicada com êxito, você pode começar a instalar uma réplica local do repositório de gerenciamento Central em cada servidor que executa o Skype para negócios 2015 de servidor em sua topologia. É recomendável começar com o primeiro pool de front-ends. 
+    Quando a topologia foi publicada com êxito, você pode começar a instalar uma réplica local do repositório de gerenciamento Central em cada servidor que executa o Skype para Business Server em sua topologia. É recomendável começar com o primeiro pool de front-ends. 
     
 

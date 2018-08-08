@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar um plano de discagem no Skype for Business Server 2015
+title: Criar ou modificar um plano de discagem no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Resumo: Saiba como criar ou modificar um plano de discagem usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 9ded641ead3aef5cb6b42b27ca06da34ba9133c6
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: cafaeaa2813586e7e3cd15827745703685148d08
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19501060"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20980005"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server-2015"></a>Criar ou modificar um plano de discagem no Skype for Business Server 2015
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Criar ou modificar um plano de discagem no Skype para Business Server
  
 **Resumo:** Saiba como criar ou modificar um plano de discagem usando o Skype para painel de controle do servidor de negócios.
   
@@ -68,7 +67,7 @@ ms.locfileid: "19501060"
     
     - Para escolher uma ou mais regras de uma lista de todas as regras de normalização disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**. Em **Selecionar as Regras de Normalização**, realce as regras que você deseja associar ao plano de discagem e clique em **OK**.
     
-   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte [criar ou modificar uma regra de normalização no Skype para negócios 2015](normalization-rules.md).
+   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte [criar ou modificar uma regra de normalização no Skype para negócios](normalization-rules.md).
     
    - Para editar uma regra de normalização que já está associada ao plano de discagem, realce o nome da regra e clique em **Mostrar detalhes**. 
     
@@ -77,7 +76,7 @@ ms.locfileid: "19501060"
    - Para remover uma regra de normalização do plano de discagem, realce o nome da regra e clique em **Remover**.
     
      > [!NOTE]
-     > Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para obter informações sobre como determinar a todas as regras de normalização um dial plan requer, consulte o [plano de voz de saída de roteamento no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação de planejamento.
+     > Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para obter informações sobre como determinar a todas as regras de normalização um dial plan requer, consulte o [plano de voz de saída de roteamento no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação de planejamento.
   
 10. Verifique se que as regras de normalização do plano de discagem são organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique em cima ou seta para baixo.
     
@@ -91,7 +90,7 @@ ms.locfileid: "19501060"
 13. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**. 
     
     > [!NOTE]
-    > Sempre que você criar um plano de discagem, será necessário executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Sempre que você criar um plano de discagem, será necessário executar o comando **Confirmar tudo** para publicar a alteração na configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
 ### <a name="to-modify-a-dial-plan"></a>Para modificar um plano de discagem
 
@@ -127,7 +126,7 @@ ms.locfileid: "19501060"
     
    - Para escolher uma ou mais regras de uma lista de todas as regras de normalização disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**. Na caixa de diálogo **Selecionar Regras de Normalização**, destaque as regras que deseja associar ao plano de discagem e clique em **OK**.
     
-   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte [criar ou modificar uma regra de normalização no Skype para negócios 2015](normalization-rules.md).
+   - Para definir uma nova regra de normalização e associá-la ao plano de discagem, clique em **Novo**. Para obter detalhes sobre como definir uma nova regra, consulte [criar ou modificar uma regra de normalização no Skype para negócios](normalization-rules.md).
     
    - Para editar uma regra de normalização que já está associada ao plano de discagem, realce o nome da regra e clique em **Mostrar detalhes**. 
     
@@ -136,7 +135,7 @@ ms.locfileid: "19501060"
    - Para remover uma regra de normalização do plano de discagem, realce o nome da regra e clique em **Remover**.
     
     > [!NOTE]
-    > Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para obter detalhes sobre como determinar a todas as regras de normalização um dial plan requer, consulte o [plano de voz de saída de roteamento no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação de planejamento.
+    > Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para obter detalhes sobre como determinar a todas as regras de normalização um dial plan requer, consulte o [plano de voz de saída de roteamento no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação de planejamento.
   
 10. Verifique se que as regras de normalização do plano de discagem são organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique em cima ou seta para baixo.
     
@@ -153,8 +152,9 @@ ms.locfileid: "19501060"
 13. Na página **Plano de Discagem**, clique em **Confirmar** e clique em **Confirmar tudo**. 
     
     > [!NOTE]
-    > Sempre que criar ou modificar um plano de discagem, você deve executar o comando  **Confirmar tudo** para publicar as alterações de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md) na documentação operações.
+    > Sempre que criar ou modificar um plano de discagem, você deve executar o comando  **Confirmar tudo** para publicar as alterações de configuração. Para obter detalhes, consulte [Publish alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md) na documentação operações.
   
 ## <a name="see-also"></a>Consulte também
 
-[Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios 2015](voice-route-config-changes.md)
+[Publicar alterações pendentes para a configuração de roteamento de voz no Skype para negócios](voice-route-config-changes.md)
+

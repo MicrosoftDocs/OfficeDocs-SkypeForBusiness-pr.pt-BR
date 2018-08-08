@@ -2,26 +2,28 @@
 title: Inclusão de lista de verificação para configuração de rede for Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Siga o núcleo, tarefas de tarefas pendentes e atividades nesta lista de verificação ao configurar sua rede para equipes.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39c0fe1eb20ca19179f02c9f0395696118770e8d
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: a45fbca1bdec4a5f3cd566a251b4bef3ff0ef20f
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694896"
 ---
 # <a name="configure-networking"></a>Configurar a rede
 
 | Não | Atividade ou tarefa | Descrição | Concluído? | Informações adicionais |
 |----|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1  | Examinar os requisitos de rede para equipes | Ter uma visão geral das suas necessidades de rede antes de ir para os detalhes de redes. | | [Preparar a rede da sua organização for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
+| 1  | Examinar os requisitos de rede para equipes | Ter uma visão geral das suas necessidades de rede antes de ir para os detalhes de redes. | | [Preparo da rede da sua organização para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
 | 2  | Entregar o workshop de preparação da rede | Conclua o workshop de preparação da rede de MyAdvisor e trabalhar com suas equipes a identificar áreas de interesse para endereço como parte do esforço de remediação. | | [Ativos de preparação de rede MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | 3  | Use o Planejador de rede | Use o Planejador de rede para calcular a largura de banda necessária para todos os sites no escopo e locais. | | [Planejador de rede MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)                                                                                   |
 | 4  | Validar o tamanho de pool NAT necessário para conectividade de usuário | Certifique-se de que adequada endereços IP públicos são atribuídos para os pools NAT para evitar o esgotamento de porta. Esgotamento de porta será contribuir para usuários internos e dispositivos sendo Impossível conectar ao serviço do Office 365. <br/><br/>Problemas de conectividade são a causa principal dos problemas de percepção do usuário para os serviços de nuvem. | | [Suporte NAT com o Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9) |

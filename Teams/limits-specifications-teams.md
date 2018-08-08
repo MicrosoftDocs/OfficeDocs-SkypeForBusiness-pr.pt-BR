@@ -3,19 +3,21 @@ title: Limites e especificações for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/09/2018
+ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ninadara
+ms.reviewer: ''
 description: Saiba mais sobre os limites, especificações e outros requisitos que se aplicam ao Microsoft Teams.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dff28cb59dabbf3d9d43dbde00cba73541280b39
-ms.sourcegitcommit: dea27df69d948b7b9cc017b7023c4013cee8e4d1
+ms.openlocfilehash: 18db7bc405dcc06a14fccd1a7b3e81ee5f625d0f
+ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "21708328"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações for Microsoft Teams
 =============================================
@@ -38,7 +40,7 @@ Este artigo descreve algumas dos limites, especificações e outros requisitos q
 
 |Recurso     | Limite máximo |
 |------------|---------------|
-|Número de pessoas em uma reunião  | 80    |
+|Número de pessoas em uma reunião  | 250    |
 |Número de pessoas em um bate-papo privado  | 20    |
 
 <a name="storage"></a>Armazenamento
@@ -54,7 +56,7 @@ Como equipes é executado em um back-end do SharePoint Online para compartilhame
 
 |Recurso                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Armazenamento                 |1 TB por organização plus 0,5 GB por licença adquirida  |1 TB por organização plus 0,5 GB por licença adquirida  |1 TB por organização plus 0,5 GB por licença adquirida   |1 TB por organização plus 0,5 GB por licença adquirida |1 TB por organização plus 0,5 GB por licença adquirida  |1 TB por organização           |
+|Armazenamento                 |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização mais de 10 GB por licença adquirida   |1 TB por organização mais de 10 GB por licença adquirida |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização           |
 |Armazenamento de arquivos de equipes |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |
 |Limite de carregamento de arquivo       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
@@ -81,7 +83,7 @@ Função de bate-papo do Microsoft Teams funciona em um back-end do Microsoft Ex
 
 Para obter mais informações, consulte [limites do Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-<a name="browsers"></a>Navegadores 
+<a name="browsers"></a>Navegadores do  
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

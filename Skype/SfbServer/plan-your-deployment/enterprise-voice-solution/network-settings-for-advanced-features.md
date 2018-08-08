@@ -1,9 +1,8 @@
 ---
-title: Configurações de rede para recursos avançados do Enterprise Voice no Skype for Business Server 2015
+title: Configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,19 +12,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todos eles devem ser configurados para implantar o plano de bypass de mídia no Skype para negócios 2015, planeje o controle de admissão de chamada no Skype para Business Server 2015), ou plano para serviços de emergência no Skype para 2015 do servidor de negócios no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e76c88df482dfd5e58d6c0e11449eb6f6242b796
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+description: Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todas estas devem ser configuradas para implantar o plano de bypass de mídia no Skype para os negócios, planejar chamada de controle de admissão no Skype para Business Server), ou plano para serviços de emergência no Skype para servidor de negócios no Skype para Business Server Enterprise Voice.
+ms.openlocfilehash: ca8cbe6de733f5a2a27552229d3f71c9fbad3b4d
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504093"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20981189"
 ---
-# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server-2015"></a>Configurações de rede para recursos avançados do Enterprise Voice no Skype for Business Server 2015
+# <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server
  
-Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todos esses devem ser configurados para implantar o [plano para a mídia ignorar no Skype para negócios 2015](media-bypass.md), [Planejar o controle de admissão de chamada no Skype para Business Server 2015](call-admission-control.md)), ou a [planejar os serviços de emergências no Skype para Business Server 2015](emergency-services.md) no Skype para Business Server Enterprise Voice.
+Aprender sobre regiões de rede, sites de rede e sub-redes IP. Todos esses devem ser configurados para implantar o [plano para a mídia ignorar no Skype for Business](media-bypass.md), [Planejar o controle de admissão de chamada no Skype para Business Server](call-admission-control.md)ou a [planejar os serviços de emergências no Skype para Business Server](emergency-services.md) no Skype para Business Server Enterprise Voice.
   
-Skype para Business Server tem três recursos avançados do Enterprise Voice: [Planejar o controle de admissão de chamada no Skype para Business Server 2015](call-admission-control.md)), [planejar os serviços de emergência Skype para Business Server 2015](emergency-services.md)e bypass [plano para a mídia no Skype para Negócios 2015](media-bypass.md). Esses recursos compartilham determinados requisitos de configuração de regiões de rede, sites de rede e associação de cada sub-rede no Skype para a topologia de servidor de negócios com um site de rede. 
+Skype para Business Server tem três recursos avançados do Enterprise Voice: [Planejar o controle de admissão de chamada no Skype para Business Server](call-admission-control.md), [planejar os serviços de emergências no Skype para Business Server](emergency-services.md)e [Planejar bypass de mídia no Skype para negócios ](media-bypass.md). Esses recursos compartilham determinados requisitos de configuração de regiões de rede, sites de rede e associação de cada sub-rede no Skype para a topologia de servidor de negócios com um site de rede. 
   
 Este tópico fornece uma visão geral dos requisitos de configuração que são comuns a todos os três desses recursos do Enterprise Voice avançados.
   
@@ -38,11 +37,11 @@ Uma região de rede é um hub de rede ou backbone de rede usada somente na confi
   
 CAC exige que cada região de rede tenha um Skype associado para o site central Business Server, que gerencia o tráfego de mídia com a região (ou seja, faz decisões com base em políticas que você configurou, relacionadas ou não um áudio em tempo real ou sessão de vídeo pode ser estabelecido). Skype para sites de central de Business Server não representam localizações geográficas, mas sim lógicos grupos de servidores que estão configurados como um pool ou um conjunto de pools. 
   
-Para configurar uma região de rede, use a guia **regiões** na seção **Configuração de rede** do Skype para painel de controle do Business Server ou executar o **New-CsNetworkRegion** ou **Set-CsNetworkRegion** Skype para negócios Cmdlets do Shell de gerenciamento de servidor. Para obter instruções, consulte [Deploy regiões de rede, sites e sub-redes em Skype para negócios 2015](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+Para configurar uma região de rede, use a guia **regiões** na seção **Configuração de rede** do Skype para painel de controle do Business Server ou executar o **New-CsNetworkRegion** ou **Set-CsNetworkRegion** Skype para negócios Cmdlets do Shell de gerenciamento de servidor. Para obter instruções, consulte [Deploy regiões de rede, sites e sub-redes em Skype para negócios](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
   
 As mesmas definições de região de rede são compartilhadas por todos os três recursos avançados do Enterprise Voice. Se você já criou áreas de rede para um recurso, não será necessário criar novas regiões de rede para outros recursos. No entanto, pode ser necessário modificar uma definição de região de rede existente para aplicar as configurações específicas do recurso. Por exemplo, se você criou áreas de rede para E9-1-1 (que não requer um site central associado) e posteriormente implantou o serviço de controle de admissão de chamadas, é necessário modificar cada uma das definições de região de rede para especificar um site central.
   
-Para associar um Skype para o site central de Business Server uma região de rede, especifique o nome do site central, usando-se a seção **Configuração de rede** do Skype para painel de controle do Business Server, ou executando o **New-CsNetworkRegion** ou os cmdlets **Set-CsNetworkRegion** . Para obter instruções, consulte [Deploy regiões de rede, sites e sub-redes em Skype para negócios 2015](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+Para associar um Skype para o site central de Business Server uma região de rede, especifique o nome do site central, usando-se a seção **Configuração de rede** do Skype para painel de controle do Business Server, ou executando o **New-CsNetworkRegion** ou os cmdlets **Set-CsNetworkRegion** . Para obter instruções, consulte [Deploy regiões de rede, sites e sub-redes em Skype para negócios](../../deploy/deploy-enterprise-voice/deploy-network.md) na documentação de implantação ou consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
   
 ## <a name="network-sites"></a>Sites de rede
 
@@ -70,8 +69,9 @@ Para associar sub-redes a sites de rede, você poderá usar a seção **Configur
   
 ## <a name="see-also"></a>Consulte também
 
-[Planejar o controle de admissão de chamada no Skype for Business Server 2015](call-admission-control.md)
+[Planejar o controle de admissão de chamada no Skype for Business Server](call-admission-control.md)
   
-[Planejamento de serviços de emergência no Skype para Business Server 2015](emergency-services.md)
+[Planejamento de serviços de emergência no Skype para Business Server](emergency-services.md)
   
-[Planejar o bypass de mídia no Skype para negócios 2015](media-bypass.md)
+[Planejar o bypass de mídia no Skype para negócios](media-bypass.md)
+

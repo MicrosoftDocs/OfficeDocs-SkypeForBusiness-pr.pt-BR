@@ -1,9 +1,8 @@
 ---
-title: Conexões SIP diretas no Skype for Business Server 2015
+title: Conexões SIP diretas no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Conexões SIP diretas são suportadas entre Skype para Business Server e os gateways PSTN e PBX IP no Enterprise Voice.
-ms.openlocfilehash: c9dca75a7b1c7ac8fa60bafc5b7a2c2fa7b51490
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 0ac21bcd0df60a2b4cb9393e8cc2e047d4f9fdf7
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21006575"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server-2015"></a>Conexões SIP diretas no Skype for Business Server 2015
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas no Skype para Business Server
  
 Conexões SIP diretas são suportadas entre Skype para Business Server e os gateways PSTN e PBX IP no Enterprise Voice.
   
@@ -123,7 +123,7 @@ Aqui estão as principais perguntas a serem considerados. Tenha em mente que as 
 
 Os servidores de mediação pode rotear chamadas através de vários gateways, controladores de borda de sessão (SBCs) fornecidas por provedores de serviços de telefonia de Internet ou uma combinação dos dois. Além disso, vários servidores de mediação no pool podem interagir com diversos gateways. A rota lógica definida entre um servidor de mediação e gateway é chamada de um tronco. Quando um usuário interno faz uma chamada PSTN, a lógica de roteamento de saída no pool de Front-End escolhe qual tronco para roteamento sobre todas as combinações possíveis que podem estar disponíveis para roteamento de chamada específica. Com o balanceamento de carga do DNS, se uma chamada não alcançarem um gateway devido a um problema com um determinado servidor de mediação no pool, a chamada será repetida a um servidor de mediação alternativo no pool. 
   
-Para obter detalhes sobre o planejamento de vários gateways, consulte [tronco M:N no Skype para Business Server 2015](m-n-trunk.md).
+Para obter detalhes sobre o planejamento de vários gateways, consulte [tronco M:N no Skype para Business Server](m-n-trunk.md).
   
 Para obter detalhes sobre outros aprimoramentos de roteamento de saída, consulte [Call Routes](http://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
   

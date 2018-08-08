@@ -1,9 +1,8 @@
 ---
-title: Planejamento do aplicativo de Grupo de Resposta no Skype for Business Server 2015
+title: Plano para o aplicativo de grupo de resposta no Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,13 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planejamento de grupos de resposta no Skype para Business Server Enterprise Voice, que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: 628126cfc3815dfabdf0e73c962e8dcff326b416
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 4fbdfd1428d66865f3f704c4005935deefd370f2
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20970181"
 ---
-# <a name="plan-for-the-response-group-application-in-skype-for-business-server-2015"></a>Planejamento do aplicativo de Grupo de Resposta no Skype for Business Server 2015
+# <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Plano para o aplicativo de grupo de resposta no Skype para Business Server
  
 Planejamento de grupos de resposta no Skype para Business Server Enterprise Voice, que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
   
@@ -49,18 +49,18 @@ No Skype para Business Server, duas funções de gerenciamento estão disponíve
   
 Para acomodar a função de gerente, o aplicativo grupo de resposta usa um **Tipo de fluxo de trabalho** do gerenciado ou não gerenciado. A tabela a seguir descreve os grupos de respostas Gerenciado ou Não gerenciado.
   
-**Grupos de respostas gerenciados e**
+**Grupos de respostas Gerenciado ou Não gerenciado**
 
-|**Tipo de grupo de resposta**|**Descrição**|
+|**Tipo de grupo de respostas**|**Descrição**|
 |:-----|:-----|
 |Não gerenciado  <br/> | Os grupos de respostas não gerenciados não têm gerentes atribuídos. Somente o administrador do grupo de resposta pode configurar esses grupos de resposta. <br/>  Vários grupos de respostas não gerenciados podem compartilhar uma fila ou grupo de agentes. <br/>  Quando você migra grupos de resposta de uma versão anterior para Skype para Business Server, o tipo é definido como não gerenciado. <br/> |
 |Gerenciado  <br/> | Administradores de grupo de resposta podem configurar qualquer aspecto de grupos de respostas gerenciados. <br/>  Gerentes de grupo de resposta não conseguem exibir ou modificar os grupos de resposta que não sejam explicitamente atribuídos a eles. <br/>  Gerentes de grupo de resposta podem definir apenas algumas configurações dos grupos de respostas explicitamente atribuídos a eles. <br/>  Os grupos de respostas gerenciados não podem compartilhas filas nem grupos de agentes com outros grupos de respostas, sejam gerenciados ou não gerenciados. <br/> |
    
 A tabela a seguir descreve as ações que os gerentes de grupo de resposta podem ou não executar para os grupos de resposta atribuídos a eles.
   
-**Recursos do gerente de grupo de resposta**
+**Recursos do gerente do grupo de respostas**
 
-|**Pode configurar:**|**Pode criar, excluir ou configurar:**|**Não é possível:**|
+|**Pode configurar:**|**Pode criar, excluir ou configurar:**|**Não pode:**|
 |:-----|:-----|:-----|
 | Agentes <br/>  Mensagem de boas-vindas <br/>  Nome do grupo de resposta <br/>  Descrição <br/>  Número para exibição <br/>  Horário comercial <br/>  Música de espera <br/>  Status (ativo/inativo) <br/>  Fluxos de trabalho de grupo de busca ou fluxos de trabalho de IVR (reposta interativa de voz) <br/> | Grupos de agentes <br/>  Filas <br/>  Conjuntos de feriados <br/> | Criar ou excluir qualquer tipo de fluxo de trabalho <br/>  Modificar configurações centrais do grupo de respostas, como: **URI do SIP**,  **Número de Telefone** ou **Tipo de Fluxo de Trabalho**.  <br/> |
    
@@ -136,7 +136,7 @@ Ferramenta de configuração de grupo de resposta suporta as combinações de si
 > [!NOTE]
 > Há suporte para as versões de 32 bits ou 64 bits do sistema operacional. Há suporte apenas para as versões de 32 bits do Internet Explorer. 
   
-**Sistemas operacionais e navegadores da Web**
+**Sistemas operacionais e navegadores da web compatíveis**
 
 |**Sistema Operacional**|**Navegador da Web**|
 |:-----|:-----|
@@ -154,7 +154,7 @@ O console de agente oferece suporte às combinações de sistemas operacionais e
 > [!NOTE]
 > Há suporte para as versões de 32 bits ou 64 bits do sistema operacional. Há suporte apenas para as versões de 32 bits do Internet Explorer. 
   
-**Sistemas operacionais e navegadores da Web**
+**Sistemas operacionais e navegadores da web compatíveis**
 
 |**Sistema Operacional**|**Navegador da Web**|
 |:-----|:-----|
@@ -202,7 +202,7 @@ A tabela a seguir descreve o modelo de usuário do grupo de resposta que você p
 > [!IMPORTANT]
 > Tenha em mente que para planejar a capacidade de recuperação de desastres, cada pool de um pool pareado deve poder lidar com cargas de trabalho de todos os grupos de resposta, em ambos os pools. 
   
-**Modelo de usuário do grupo de resposta**
+**Modelo de Usuário do Grupo de Resposta**
 
 |**Métrica**|**Por pool Enterprise Edition <br/> (com 8 servidores Front-End)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|

@@ -1,9 +1,8 @@
 ---
-title: Habilitar usuários para E9-1-1 no Skype for Business Server 2015
+title: Habilitar usuários para E9-1-1 em Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 8/17/2015
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,17 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Decisões necessárias para a política de local para uma implantação do E9-1-1 em Skype para Business Server Enterprise Voice, incluindo quais usuários habilitem e como dar suporte a usuários móveis.
-ms.openlocfilehash: 72a2a290a846ec39b13f51a16ea231249ea11b9b
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: c5dbbc7904313ffc1706615f2aec506032e20074
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20997191"
 ---
-# <a name="enable-users-for-e9-1-1-in-skype-for-business-server-2015"></a>Habilitar usuários para E9-1-1 no Skype for Business Server 2015
+# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Habilitar usuários para E9-1-1 em Skype para Business Server
  
 Decisões necessárias para a política de local para uma implantação do E9-1-1 em Skype para Business Server Enterprise Voice, incluindo quais usuários habilitem e como dar suporte a usuários móveis.
   
-Durante o registro de cliente, Skype para Business Server usa uma política de local para configurar as propriedades de E9-1-1 para usuários habilitados para o Enterprise Voice. Esta política contém as configurações que definem como o E9-1-1 é implementado. Por exemplo, a política de local contém informações como cadeia de caracteres de discagem de emergência e independentemente de um usuário precisa digitar um local manualmente, se o serviço de informações de local não ocorra automaticamente ou não fornecer um. Para obter uma definição completa de uma política de local, consulte [planejar políticas de local para Skype para Business Server 2015](location-policies.md).
+Durante o registro de cliente, Skype para Business Server usa uma política de local para configurar as propriedades de E9-1-1 para usuários habilitados para o Enterprise Voice. Esta política contém as configurações que definem como o E9-1-1 é implementado. Por exemplo, a política de local contém informações como cadeia de caracteres de discagem de emergência e independentemente de um usuário precisa digitar um local manualmente, se o serviço de informações de local não ocorra automaticamente ou não fornecer um. Para obter uma definição completa de uma política de local, consulte [planejar políticas de local para Skype para Business Server](location-policies.md).
   
 Skype para Business Server pode atribuir uma política de local para clientes baseados em sub-rede ou para usuários com base em global, cada site ou política por usuário. Para ajudar a decidir como você habilitará usuários, primeiro responda as perguntas a seguir.
   
@@ -38,6 +38,6 @@ Skype para Business Server pode atribuir uma política de local para clientes ba
     
  **Quando clientes usam perfil móvel fora da rede ou conectam a partir de uma sub-rede indefinida, os clientes ainda devem ser habilitados para E9-1-1?**
   
-> Se os usuários recebem um global, site, ou política de local por usuário, podem ser necessários para digitar manualmente um local ao cliente se o cliente não estiver localizado dentro de uma sub-rede definida ou nenhum local foi encontrado pelo serviço de informações de local. Para obter detalhes, consulte [Define a experiência do usuário para adquirir manualmente um local no Skype para Business Server 2015](manually-acquiring-a-location.md).
+> Se os usuários recebem um global, site, ou política de local por usuário, podem ser necessários para digitar manualmente um local ao cliente se o cliente não estiver localizado dentro de uma sub-rede definida ou nenhum local foi encontrado pelo serviço de informações de local. Para obter detalhes, consulte [Define a experiência do usuário para adquirir manualmente um local no Skype para Business Server](manually-acquiring-a-location.md).
     
 

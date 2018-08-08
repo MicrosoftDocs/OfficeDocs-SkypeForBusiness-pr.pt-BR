@@ -1,9 +1,8 @@
 ---
-title: Criar ou modificar um intervalo de Órbita do Call Park no Skype for Business 2015
+title: Criar ou modificar um intervalo de órbita de estacionamento de chamada no Skype para negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,14 +13,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Criar ou modificar uma tabela de intervalo de órbita de estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a2f2495683c3a3d937cc675876ae918ef0558b5c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: ccbde7291a97e834aade35fb62dc074064f9d58c
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500957"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009729"
 ---
-# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business-2015"></a>Criar ou modificar um intervalo de Órbita do Call Park no Skype for Business 2015
+# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar um intervalo de órbita de estacionamento de chamada no Skype para negócios
  
 Criar ou modificar uma tabela de intervalo de órbita de estacionamento de chamada no Skype para Business Server Enterprise Voice.
   

@@ -1,9 +1,8 @@
 ---
-title: Criar perfis de política de largura de banda no Skype for Business Server 2015
+title: Criar largura de banda perfis de política no Skype para Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 3/28/2016
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,20 +13,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: 51516e07a75cc4239d89310c9d33194a225b3a02
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ddc74ad5327651225bb6f0e78f83d8248c290806
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19500587"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20986440"
 ---
-# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server-2015"></a>Criar perfis de política de largura de banda no Skype for Business Server 2015
+# <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar largura de banda perfis de política no Skype para Business Server 
  
 Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server. 
   
-Políticas de largura de banda definem limitações em uso de largura de banda para as modalidades de vídeo e de áudio em tempo real. Políticas de largura de banda são aplicados tobandwidth perfis de política, que podem ser aplicados a vários sites de rede para controle de admissão de chamada.
+Políticas de largura de banda definem limitações de uso de largura de banda para modalidades de áudio e vídeo em tempo real. Políticas de largura de banda são aplicados tobandwidth perfis de política, que podem ser aplicados a vários sites de rede para controle de admissão de chamada.
   
-Para diretrizes sobre os limites de largura de banda que você deve definido em sua implantação do CAC, consulte [Planejar o controle de admissão de chamada no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Para diretrizes sobre os limites de largura de banda que você deve definido em sua implantação do CAC, consulte [Planejar o controle de admissão de chamada no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 As políticas de exemplo criadas no procedimento a seguir definem limites para o tráfego de áudio geral, sessões de áudio individuais, tráfego de vídeo geral e sessões de vídeo individuais. Por exemplo, o perfil de política de largura de banda 5Mb_Link define os seguintes limites: 
   
