@@ -12,21 +12,14 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: 7c5ce978f46390b01e284352733c3508b51646f2
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03048decb58ec1db1bff93133e3c2f504be414b3
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21064338"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196111"
 ---
-# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="cd2ac-104">Instalar banco de dados Criar página de banco de dados de espelho</span><span class="sxs-lookup"><span data-stu-id="cd2ac-104">Install Database Create Mirror Database Page</span></span>
+# <a name="install-database-create-mirror-database-page"></a><span data-ttu-id="2560c-104">Instalar banco de dados Criar página de banco de dados de espelho</span><span class="sxs-lookup"><span data-stu-id="2560c-104">Install Database Create Mirror Database Page</span></span>
  
-<span data-ttu-id="cd2ac-p102">Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.</span><span class="sxs-lookup"><span data-stu-id="cd2ac-p102">This is preliminary documentation and is subject to change. Blank topics are included as placeholders.</span></span>
-  
-<span data-ttu-id="cd2ac-107">Se você escolher não instalar os bancos de dados de espelho do SQL Server durante o processo de publicação, instalá-las usando **Instalar banco de dados** de um botão direito do mouse em qualquer nó no construtor de topologia.</span><span class="sxs-lookup"><span data-stu-id="cd2ac-107">If you chose not to install the SQL Server mirror databases during the Publish process, you install them using **Install Database** from a right click on any node in Topology Builder.</span></span> <span data-ttu-id="cd2ac-108">Você selecione o repositório de espelho para instalar.</span><span class="sxs-lookup"><span data-stu-id="cd2ac-108">You select the mirror store to install.</span></span> <span data-ttu-id="cd2ac-109">Clique em **configurações** para definir as configurações avançadas.</span><span class="sxs-lookup"><span data-stu-id="cd2ac-109">Click **Settings** to define any advanced settings.</span></span>
-  
-## <a name="see-also"></a><span data-ttu-id="cd2ac-110">Consulte também</span><span class="sxs-lookup"><span data-stu-id="cd2ac-110">See also</span></span>
-
-[<span data-ttu-id="cd2ac-111">Install-CsMirrorDatabase</span><span class="sxs-lookup"><span data-stu-id="cd2ac-111">Install-CsMirrorDatabase</span></span>](https://docs.microsoft.com/powershell/module/skype/install-csmirrordatabase?view=skype-ps)
-  
-[<span data-ttu-id="cd2ac-112">Install-CsDatabase</span><span class="sxs-lookup"><span data-stu-id="cd2ac-112">Install-CsDatabase</span></span>](https://docs.microsoft.com/powershell/module/skype/install-csdatabase?view=skype-ps)
+> [!NOTE]
+> <span data-ttu-id="2560c-105">Espelhamento do SQL está disponível no Skype para Business Server 2015, mas não é mais suportado no Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="2560c-105">SQL Mirroring is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="2560c-106">Os métodos de cluster de failover de grupos de disponibilidade AlwaysOn, instâncias de Cluster de Failover AlwaysOn (FCI) e SQL terão preferência com Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="2560c-106">The  AlwaysOn Availability Groups, AlwaysOn Failover Cluster Instances (FCI), and SQL failover clustering methods are preferred with Skype for Business Server 2019.</span></span>

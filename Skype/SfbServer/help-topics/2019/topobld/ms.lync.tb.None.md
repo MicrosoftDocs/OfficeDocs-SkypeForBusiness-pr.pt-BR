@@ -11,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5dcb0a970024c2fc463f8727027c2aa046061f21
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f2be08d3e84139bea42e10999c4666beeb9c490d
+ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065492"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22196119"
 ---
-# <a name="topology-builder-lync-node"></a><span data-ttu-id="d79d4-102">Nó de Lync do construtor de topologia</span><span class="sxs-lookup"><span data-stu-id="d79d4-102">Topology Builder Lync Node</span></span>
+# <a name="topology-builder-skype-for-business-server-node"></a><span data-ttu-id="f9713-102">Skype do construtor de topologia para o nó do servidor de negócios</span><span class="sxs-lookup"><span data-stu-id="f9713-102">Topology Builder Skype for Business Server Node</span></span>
  
 
 
