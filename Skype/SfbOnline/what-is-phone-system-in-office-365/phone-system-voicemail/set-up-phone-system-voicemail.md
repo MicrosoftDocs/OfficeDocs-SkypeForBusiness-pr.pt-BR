@@ -1,5 +1,5 @@
 ---
-title: Configurar a caixa postal do sistema telefônico
+title: Configurar a caixa postal do Sistema de Telefonia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 93dd33eefe587c548e346974cc86fe2608b392ec
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: f5dcf6012dc9ac6659d35c29a31ee6a5ff40eec2
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135526"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurar a caixa postal do sistema telefônico
+# <a name="set-up-phone-system-voicemail"></a>Configurar a caixa postal do Sistema de Telefonia
 
 Este artigo destina-se o [administrador do Office 365](http://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que deseje configurar o recurso de caixa postal do sistema telefônico para que todos na empresa.
   
@@ -80,7 +81,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 
 ### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>Ativando o mascaramento de obscenidades transcrição para sua organização
 
-Mascaramento de obscenidades transcrição está desabilitado por padrão para sua organização. Se houver um requisitos de negócios para habilitá-lo, você pode habilitar obscenidades transcrição mascaramento usando [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Para fazer isso, execute:
+Mascaramento de obscenidades transcrição está desabilitado por padrão para sua organização. Se houver um requisito de negócios para habilitá-lo, você pode habilitar obscenidades transcrição mascaramento usando [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798310.aspx). Para fazer isso, execute:
   
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
@@ -98,7 +99,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>Ativando o mascaramento de obscenidades transcrições de um usuário
 
-Para habilitar o mascaramento de obscenidades transcrição para um usuário específico, você pode atribuir uma política para habilitar o mascaramento de obscenidades transcrição para um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
+Para habilitar obscenidades transcrição mascaramento de um usuário específico, você pode atribuir uma política para habilitar obscenidades transcrição mascaramento de um usuário específico usando o cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/EN-US/library/mt798309.aspx) .
   
 Para habilitar obscenidades transcrição mascaramento de um único usuário, execute:
   

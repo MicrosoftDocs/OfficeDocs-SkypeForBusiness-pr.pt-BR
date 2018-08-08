@@ -16,16 +16,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Você pode habilitar seu Skype para os usuários corporativos usem o Skype interna para a ferramenta de comentários de aplicativo de negócios para permitir que usuários relatar problemas e fornecer comentários diretamente à Microsoft sobre sua experiência.
-ms.openlocfilehash: 9e995a61337a8393b869161e143d76f1df5454ae
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 09ddaa9952ab5d536c6a95937ca71c4c056a15e0
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568349"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22135536"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Ativar ou desativar o relatório de comentários do cliente Skype for Business
 
-Você pode habilitar seu Skype para os usuários corporativos usem o Skype interna para a ferramenta de comentários de aplicativo de negócios para permitir que usuários relatar problemas e fornecer comentários diretamente à Microsoft sobre sua experiência. 
+Você pode habilitar seu Skype aos usuários corporativos Online para usar o Skype interna para a ferramenta de comentários de aplicativo de negócios para permitir que usuários relatar problemas e fornecer comentários diretamente à Microsoft sobre sua experiência. 
   
 ![Skype for Business client reporting.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   

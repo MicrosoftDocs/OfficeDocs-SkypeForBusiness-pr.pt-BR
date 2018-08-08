@@ -12,18 +12,19 @@ localization_priority: Normal
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: dd3abfd0ed390f2576271f6fecc3d27d121706c0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 62ddcf4dd58bf4c2beb041f25127d9efead9cd08
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002688"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138531"
 ---
 # <a name="xmpp-federated-partners"></a>Parceiros federados XMPP
+
+> [!NOTE]
+> Gateways de XMPP e proxies estão disponíveis no Skype para Business Server 2015, mas não são mais suportados no Skype para Business Server 2019. Consulte a [federação XMPP migrando](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) para obter mais informações.
  
-O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-  
-- [Gerenciar parceiros federados XMPP para sua organização](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
+Consulte [Gerenciar parceiros federados XMPP para sua organização](http://technet.microsoft.com/library/48681433-725d-457f-926b-f91d95bcf082.aspx)
     
  
 

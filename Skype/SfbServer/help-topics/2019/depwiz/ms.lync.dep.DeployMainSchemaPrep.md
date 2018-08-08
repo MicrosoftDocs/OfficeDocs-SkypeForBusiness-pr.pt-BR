@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar o esquema do Active Directory Domain Services, você executar a etapa de preparação de esquema no Skype para o Assistente de implantação de servidor de negócios. Clique em Executar para iniciar a preparação do esquema.
-ms.openlocfilehash: adc0ad796b608671816d50a93f75dc89f2a4a13b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 829c3062fcbfc1dab41e56de63e7a469f8e6e069
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020130"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138538"
 ---
 # <a name="prepare-schema"></a>Preparar Esquema
  
@@ -26,7 +26,7 @@ Para preparar o esquema do Active Directory Domain Services, você executar a et
 > [!IMPORTANT]
 > Para estender o esquema, é necessário estar conectado ao domínio como membro do grupo Administradores de Esquema e do grupo Administradores de Empresa. 
   
-Classes e atributos são adicionados para estender o esquema do Active Directory Domain Services para suportar Skype para servidor Business Server, serviço e objetos de usuário. Antes de estender o esquema, é necessário fazer o backup do Estado do Sistema do controlador de domínio que detém a função de mestre de esquema. Para obter detalhes sobre o processo de backup do Windows Server 2008 R2 com SP1, consulte [https://go.microsoft.com/fwlink/p/?linkId=207198](https://go.microsoft.com/fwlink/p/?linkId=207198). Para Windows Server 2003 e Windows Server 2003 R2, consulte [https://go.microsoft.com/fwlink/p/?linkId=207199](https://go.microsoft.com/fwlink/p/?linkId=207199).
+Classes e atributos são adicionados para estender o esquema do Active Directory Domain Services para suportar Skype para servidor Business Server, serviço e objetos de usuário. Antes de estender o esquema, é necessário fazer o backup do Estado do Sistema do controlador de domínio que detém a função de mestre de esquema. 
   
 > [!CAUTION]
 > A extensão do esquema não é reversível. Faça o máximo para limitar o possível impacto de uma extensão de esquema sem sucesso e para assegurar que a extensão do esquema terá êxito. Isso é fundamental no caso de uma perda de comunicação ou de qualquer outra falha no servidor. Você deve executar um backup do controlador de domínio mestre de esquema e um backup completo do Active Directory. 

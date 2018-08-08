@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Depois de fornecer as informações necessárias para a implantação do Monitoring Server relata para o Microsoft SQL Server 2008 R2 ou para Microsoft serviços de relatório do SQL Server 2012, a página executar comandos exibe um resumo dos comandos emitidos para instalar o relatórios do SQL Server Reporting Services.
-ms.openlocfilehash: 25c47787144809397db51a5ac477e8db446788d1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4d2eff38570e24a063558fe62c8db7c89bc03cf3
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014142"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138562"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (Invocar)
  
-Depois de fornecer as informações necessárias para a implantação do Monitoring Server relata para o Microsoft SQL Server 2008 R2 ou para Microsoft serviços de relatório do SQL Server 2012, a página executar comandos exibe um resumo dos comandos emitidos para instalar o relatórios do SQL Server Reporting Services.
+Depois de fornecer as informações necessárias para a implantação dos relatórios do Monitoring Server para o Microsoft SQL Server Reporting Services, Execute os comandos a página exibe um resumo dos comandos emitidos para instalar os relatórios do SQL Server Reporting Serviços.
   
 Revise o resumo de comandos e anote qualquer erro ou mensagem de aviso exibido pelos comandos. Se um arquivo de log for gerado, selecione o arquivo de log na lista suspensa na janela de resumo e clique em **Exibir Log** para exibir o arquivo de log.
   

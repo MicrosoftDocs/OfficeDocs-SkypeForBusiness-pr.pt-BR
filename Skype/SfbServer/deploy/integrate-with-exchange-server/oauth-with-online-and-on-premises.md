@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configurando o OAuth a autenticação entre o Exchange no local e Skype para Business Online permite que o Skype para recursos de integração do Exchange e de negócios descritos no suporte ao recurso.
-ms.openlocfilehash: ff7b45f3fcdbaaf752817d1705acb047a4c71f12
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: cb822dd183e913fd1b3258cc136572380592733f
+ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568898"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "22138606"
 ---
 # <a name="configure-oauth-between-skype-for-business-online-and-exchange-on-premises"></a>Configurar OAuth entre o Skype for Business Online e o Exchange no local
  
@@ -167,4 +167,8 @@ Verifique se a configuração do OAuth está correta verificando se alguns recur
     
 4. Inicie o Outlook para este usuário e verifique se a conversa está visível na pasta Histórico de Conversas do Outlook.
     
+Como alternativa, examine o tráfego. O tráfego em um handshake OAuth é realmente característica (e não se parece com a autenticação básica), especialmente ao redor territórios, onde você vai começar a ver o tráfego de emissor parecida com esta: 00000004-0000-0ff1-ce00-000000000000 @ (às vezes com uma / antes o sinal @), em que estão sendo passados tokens. Você não verá um nome de usuário ou senha, que é o ponto do OAuth. Mas você verá o emissor 'Temporária' – nesse caso, '4' é Skype para negócios – e o território de sua assinatura.
 
+Se você quiser ter certeza de que você estiver usando o OAuth com êxito, certifique-se de que você sabe o que esperar e quando já souber o que o tráfego deve se parecer com. Caso [aqui está o que esperar](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), aqui está um bem standard [exemplo de tráfego de OAuth em um aplicativo da Microsoft](http://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (realmente úteis para mensagens lidas, embora não use Refresh tokens) e existem extensões Fiddler que permitirá que você procure em seu OAuth JWT (JSON Token de Web). 
+
+Aqui está um [exemplo de configuração de um](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/), mas você pode usar qualquer ferramenta de rastreamento de rede que você deseja realizar esse processo.
