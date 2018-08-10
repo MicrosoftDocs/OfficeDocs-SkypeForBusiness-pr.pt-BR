@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: laal
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac614aa35e3aa453a7522559e6fda8045404ae9
-ms.sourcegitcommit: 70fc5217f588e10ab0edb400f329ea597efaab52
+ms.openlocfilehash: 405f0138cfb368d70aec9195c493e8da604177d4
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "19178993"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso de convidados no Microsoft Teams
 ======================================
@@ -38,7 +40,8 @@ O acesso de convidados está incluído em todas as inscrições do Office 365 Bu
 Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa pode ser adicionada como convidado no Microsoft Teams. Isso significa que qualquer pessoa com uma empresa (com uma conta do Windows Azure Active Directory) ou uma conta de email do consumidor (com Outlook.com, Gmail.com ou outras pessoas) pode participar como um convidado em equipes com acesso total a chats de equipes, reuniões e arquivos.
 Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD.
 
-  
+> [!NOTE]
+> Usuários em sua organização com planos de assinatura autônomo Office 365 apenas, como Exchange Online plano 2, não podem ser convidados como convidado para a sua organização desde que equipes considera que esses usuários para pertencem à mesma organização. Esses usuários usem equipes, eles devem ser atribuídos com assinaturas de educação do Office 365, Office 365 Enterprise e Business Premium do Office 365.  
       
 
 As organizações que utilizam o Teams podem conceder acesso externo a equipes, documentos em canais, recursos, bate-papos e aplicativos para seus parceiros, mantendo o controle total dos seus próprios dados corporativos. Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e convidados podem ser gerenciados com segurança dentro do Azure Active Directory.  

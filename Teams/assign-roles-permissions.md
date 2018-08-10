@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
 description: Saiba como atribuir funções e permissões de proprietários membros de equipe no Microsoft Teams, inclusive permissões para criar equipes.
+localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0c0e64dc4a112c6f2c9ded4c68b45eb0740b5f3
-ms.sourcegitcommit: a72a1b71a8ef8e9581038503130c2c1a58a4abdb
+ms.openlocfilehash: 4b6dfc74b3d7dc740cc970f711f32fac1d75e2d5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2018
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "19441657"
 ---
 <a name="assign-roles-and-permissions-in-microsoft-teams"></a>Atribuir funções e permissões no Microsoft Teams
 ===============================================
@@ -53,50 +55,7 @@ A tabela abaixo mostra as diferenças de permissão entre um proprietário e um 
 <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 ---------------------------
 
-Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Office 365 e, portanto, um time no Microsoft Teams. Você pode ter um controle mais rígido e restringir a criação de novas equipes e, assim, a criação de novos grupos do Office 365 ao delegar direitos de criação e gerenciamento de grupos a um conjunto de usuários.
-
-Se a sua organização tiver interesse em proceder dessa forma, as instruções abaixo descrevem as tarefas necessárias para tal.
-
-1.  Identifique ou crie um grupo de segurança (SG) de usuários que tenham permissões atribuídas para criar grupos do Office 365.
-
-    a.  **Ação:** Estabeleça um grupo de segurança no Office 365 para que você possa incluir os usuários que podem criar grupos do Office 365.
-
-    b.  Para obter mais informações, consulte [Criar, editar ou excluir um grupo de segurança no centro de administração do Office 365](https://support.office.com/article/Create-edit-or-delete-a-security-group-in-the-Office-365-admin-center-55c96b32-e086-4c9e-948b-a018b44510cb).
-
-2.  Verifique se o controle na empresa para que usuários criem grupos está habilitado.
-
-    a.  **Ação:** Execute o seguinte script no PowerShell e verifique se o parâmetro UsersPermissiontoCreateGroupsEnabled está definido como **True.**
-
-    ```
-    Connect-MsolService
-
-    Get-MsolCompanyInformation
-    ```
-
-    b.  Se não estiver como true, execute o cmdlet Set-MsolCompanySettings **para defini-lo como True**.
-Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
-
-    c. Para obter mais informações, consulte: [Gerenciar criação de grupos do Office 365](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-001&ad=US#checkclevelsettings).
-
-3.  Configurar as configurações de Grupo do Office 365 para permitir que apenas grupos de segurança identificados tenham permissões para criar grupos
-
-    a.  **Ação:** Crie um objeto de configuração de grupos que contenha as configurações de grupo que receberão permissões atribuídas para a criação de grupos. 
-
-    ```
-    Connect-AzureAD
-
-    $Template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
-
-    $Setting = $template.CreateDirectorySetting()
-
-    $setting["EnableGroupCreation"] = "true"
-
-    $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
-
-    New-AzureADDirectorySetting -DirectorySetting $settings
-    ```
-
-    b. Para obter mais informações, consulte: [Gerenciar criação de grupos do Office 365](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
+Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Office 365 e, portanto, um time no Microsoft Teams. Você pode ter um controle mais rígido e restringir a criação de novas equipes e, assim, a criação de novos grupos do Office 365 ao delegar direitos de criação e gerenciamento de grupos a um conjunto de usuários. Para obter instruções, consulte [Manage quem pode criar grupos do Office 365](https://support.office.com/en-us/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||
