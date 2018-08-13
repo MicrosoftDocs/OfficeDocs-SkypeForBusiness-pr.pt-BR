@@ -39,6 +39,7 @@
 ## [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
 ### [Gerenciar equipes durante a transição para o novo Teams Microsoft & Skype para Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Atribuir funções e permissões no Teams](assign-roles-permissions.md)
+### [Publicar aplicativos no catálogo de aplicativos do inquilino de equipes](tenant-apps-catalog-teams.md)
 ## [Autenticação moderna](sign-in-teams.md)
 ## [Se comunicar com usuários de equipes em outras organizações](let-your-teams-users-communicate-with-other-people.md)
 ## [Diretrizes de implantação de voz de nuvem](cloud-voice-deployment.md)
