@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Saiba como configurar a integração do Cloud Connector com seu locatário do Office 365.
-ms.openlocfilehash: 40cb3334fb3d45432ada1a63aae8368a60433ad0
-ms.sourcegitcommit: 6340d0050a51790e40b7ab8e4e89348251ba184f
+ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
+ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "19649640"
+ms.lasthandoff: 07/08/2018
+ms.locfileid: "20211148"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar a integração do Cloud Connector com seu locatário do Office 365
  
@@ -44,13 +44,13 @@ Se você usa o protocolo TLS entre os Servidores de Mediação e os gateways, é
     
   - Modifique o modelo do servidor web existente para permitir que os usuários autenticados se inscrevam ou crie um novo modelo de servidor web para configurar outras propriedades e permitir que os usuários autenticados se inscrevam. Para obter instruções detalhadas, consulte [Modelos de certificado](https://technet.microsoft.com/en-us/library/cc730705.aspx).
     
-  - Solicite um certificado usando o snap-in certificado selecionando o modelo de servidor Web que você habilitou. Certifique-se de adicionar o nome comum no assunto e o nome DNS no nome alternativo com o FQDN do gateway e confirmar a chave privada que tornam a chave privada exportável está selecionada em Opções de chave. Para obter instruções detalhadas, consulte [solicitar um certificado](https://technet.microsoft.com/en-us/library/cc730689.aspx).
+  - Solicite um certificado usando o snap-in certificado selecionando o modelo de servidor Web que você habilitou. Certifique-se de adicionar o nome comum no assunto e o nome DNS no nome alternativo com o FQDN do gateway e confirmar a chave privada que tornam a chave privada exportável está selecionada em Opções de chave. 
     
 4. Exporte o certificado SSL com a chave privada e siga as instruções do fornecedor do gateway PSTN para importar o certificado.
     
 ## <a name="update-the-domain-for-your-tenant"></a>Atualizar o domínio do locatário
 
-Confira se você concluiu as etapas de atualização de seu domínio no Office 365 e se é capaz de adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Office 365, consulte [vídeo: configurar seu domínio no Office 365](https://support.office.com/en-us/article/Video-Set-up-your-domain-in-Office-365-703dfec1-882d-4e33-b647-937f731887b7?ui=en-US&amp;rs=en-US&amp;ad=US).
+Confira se você concluiu as etapas de atualização de seu domínio no Office 365 e se é capaz de adicionar registros DNS. Para obter mais informações sobre como configurar seu domínio no Office 365, consulte [Adicionar um domínio ao Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Adicionar registros DNS ao Office 365 para borda
 
@@ -64,7 +64,7 @@ Adicione os seguintes registros DNS a seu locatário do Office 365. Para obter i
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-office-365"></a>Configure a conectividade híbrida entre o Cloud Connector Edition e o Office 365
 
-Para configurar a conectividade híbrida entre seu Skype para implantação do conector de nuvem Business Edition e seu locatário do Office 365, execute o seguinte cmdlet em uma sessão PowerShell remota. Para saber como estabelecer uma sessão PowerShell remota, consulte: [Using Windows PowerShell para gerenciar Skype para negócios Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Para configurar a conectividade híbrida entre seu Skype para implantação do conector de nuvem Business Edition e seu locatário do Office 365, execute o seguinte cmdlet em uma sessão PowerShell remota. Para saber como estabelecer uma sessão PowerShell remota, consulte: [Configurar o computador para o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 O cmdlet define o FQDN externo da Borda de Acesso. No primeiro dos comandos, o \<FQDN de borda de acesso externo\> deve ser um para a função de borda de acesso SIP. Por padrão, este deve ser ap.\<nome de domínio\>.
   
@@ -90,7 +90,7 @@ Se você usa o protocolo TLS entre os Servidores de Mediação e os gateways, é
     
   - Modificar o modelo de servidor Web existente para permitir que os usuários autenticados registrar ou criar um novo modelo de servidor Web para configurar outras propriedades e permitir que os usuários autenticados que se inscrevam. Para obter instruções detalhadas, consulte [Modelos de certificado](https://technet.microsoft.com/library/cc730705.aspx).
     
-  - Solicite um certificado usando o snap-in certificado selecionando o modelo de servidor Web que você habilitou. Certifique-se de adicionar o nome comum no assunto e o nome DNS no nome alternativo com o FQDN do gateway e confirmar a chave privada que tornam a chave privada exportável está selecionada em Opções de chave. Para obter instruções detalhadas, consulte [solicitar um certificado](https://technet.microsoft.com/library/cc730689.aspx).
+  - Solicite um certificado usando o snap-in certificado selecionando o modelo de servidor Web que você habilitou. Certifique-se de adicionar o nome comum no assunto e o nome DNS no nome alternativo com o FQDN do gateway e confirmar a chave privada que tornam a chave privada exportável está selecionada em Opções de chave. 
     
 4. Exporte o certificado SSL com a chave privada e siga as instruções do fornecedor do gateway PSTN para importar o certificado.
     
@@ -102,7 +102,7 @@ Faça logon no portal de administração do Office 365, adicione os usuários qu
   
 ## <a name="enable-users-for-phone-system-in-office-365-voice-and-voicemail-services"></a>Habilitar usuários para os serviços de voz e de caixa postal do Sistema de Telefonia do Office 365
 
-Depois de adicionar os usuários ao Office 365, habilite suas contas para os serviços de voz do Sistema de Telefonia do Office 365, incluindo a caixa postal. Para habilitar essas funcionalidades, faça logon no locatário do Office 365 usando uma conta com função de Administrador Global do Office 365 e que seja capaz de executar o PowerShell remoto. Para saber como estabelecer uma sessão PowerShell remota, consulte: [Using Windows PowerShell para gerenciar Skype para negócios Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
+Depois de adicionar os usuários ao Office 365, habilite suas contas para os serviços de voz do Sistema de Telefonia do Office 365, incluindo a caixa postal. Para habilitar essas funcionalidades, faça logon no locatário do Office 365 usando uma conta com função de Administrador Global do Office 365 e que seja capaz de executar o PowerShell remoto. Para saber como estabelecer uma sessão PowerShell remota, consulte: [Configurar o computador para o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx)
   
 - Atribuir a política ao usuário e configure voz número de telefone comercial do usuário, que você especificar com o valor do parâmetro **Identity** :
     
@@ -141,7 +141,7 @@ Para reabilitar internacional chamar em uma base por usuário depois que ele tiv
   
 ## <a name="assign-users-to-pstn-sites"></a>Atribuir usuários a sites PSTN
 
-Use o PowerShell remoto do locatário para atribuir o site aos usuários, mesmo que você tenha implantado um único site. Para saber como estabelecer uma sessão PowerShell remota, consulte: [Using Windows PowerShell para gerenciar Skype para negócios Online](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
+Use o PowerShell remoto do locatário para atribuir o site aos usuários, mesmo que você tenha implantado um único site. Para saber como estabelecer uma sessão PowerShell remota, consulte: [Configurar o computador para o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
 ```
 # Set the site to users
@@ -166,7 +166,7 @@ Quando uma chamada de P2P será escalonada para uma conferência PSTN, o Skype p
     
     Use o domínio SIP padrão do conector de nuvem (o primeiro domínio SIP do arquivo. ini) como o domínio do usuário.
     
-    Atribua um licenças do Office 365 (por exemplo, E5) para a conta que você criar.
+    Observe que a atribuição de licença é apenas necessário para a propagação do usuário para o Skype para o diretório de negócios online. Atribua um licenças do Office 365 (por exemplo, E5) para a conta que você cria, permite até uma hora para que as alterações sejam propagadas e depois remova a licença dessa conta.
     
 2. Iniciar uma sessão de PowerShell remota do inquilino usando suas credenciais de administrador de locatário e execute o seguinte cmdlet para definir o servidor de mediação e o FQDN do servidor de borda para o usuário da conta, substituir \<DisplayName\> com o nome de exibição do usuário para o conta criada:
     

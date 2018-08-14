@@ -13,11 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Encontre informações sobre como planejar uma Skype para implantação híbrida do Business.
-ms.openlocfilehash: f77c58497b40551a23ce32ab66718999edcc360c
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 124286ea60b1bd032d9d736284a738c63aea2dc6
+ms.sourcegitcommit: 8a34b5f0295fc6059852dab6971429fda4d30b67
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "20176188"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Skype para soluções híbridas de negócios
  
@@ -29,7 +30,7 @@ Este tópico apresenta várias configurações híbridas que o ajudarão a deter
     
 - [Adicionar Skype para negócios Online em sua existente no local Skype para ambiente de negócios](skype-for-business-hybrid-solutions.md#BKMK_HybridConnectivity)
     
-- [Beneficie-se do sistema telefônico no Office 365 (nuvem PBX)](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
+- [Aproveite o Sistema de Telefonia do Office 365 (Cloud PBX)](skype-for-business-hybrid-solutions.md#BKMK_CloudPBX)
     
 - [Integração entre o Exchange e o SharePoint](skype-for-business-hybrid-solutions.md#BKMK_IntegratewExchangeSharePoint)
     
@@ -78,9 +79,9 @@ Além de sistema telefônico duas no Office 365 ofertas de híbrido, a Microsoft
   
 Há duas ofertas híbridas para o Sistema de Telefonia do Office 365: 
   
-- [Sistema telefônico no Office 365 com conectividade local fornecida pelo seu Skype para implantação de servidor de negócios](skype-for-business-hybrid-solutions.md#BKMK_Server)
+- [Sistema de Telefonia do Office 365 com conectividade local fornecida pela implantação do Skype for Business Server](skype-for-business-hybrid-solutions.md#BKMK_Server)
     
-- [Sistema telefônico no Office 365 com conectividade local fornecida pelo Skype para o conector de nuvem Business Server Edition](skype-for-business-hybrid-solutions.md#BKMK_CCE)
+- [Sistema de Telefonia do Office 365 com conectividade local fornecida pelo Skype for Business Server Cloud Connector Edition](skype-for-business-hybrid-solutions.md#BKMK_CCE)
     
 ### <a name="phone-system-in-office-365-with-on-premises-connectivity-provided-by-your-skype-for-business-server-deployment"></a>Sistema de Telefonia do Office 365 com conectividade local fornecida pela implantação do Skype for Business Server
 <a name="BKMK_Server"> </a>
@@ -207,22 +208,22 @@ Para obter mais informações, confira:
   
 - [Recursos de arquitetura de TI de nuvem da Microsoft](https://aka.ms/clouditarch)
     
-- [Identidade de nuvem da Microsoft para arquitetos da empresa](https://aka.ms/cloudidarch)
+- [Identidade de nuvem da Microsoft para arquitetos da empresa](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Prepare a sua organização para o Office 365 Enterprise](https://aka.ms/O365EntPrep)
     
 - [Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](plan-hybrid-connectivity.md)
     
-- [Implantar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Implantar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
 - [Sistema telefônico nas soluções do Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Planejar a integração do Skype para Exchange e de negócios](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plano para integrar o Skype for Business e o Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Para baixar a versão deste tópico em .pdf:
   
-- [Skype para modelos de arquitetura de negócios (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.pdf)
+- [Skype para modelos de arquitetura de negócios (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype para modelos de arquitetura de negócios (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype for Business Architectural Models.vsd)
+- [Skype para modelos de arquitetura de negócios (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 

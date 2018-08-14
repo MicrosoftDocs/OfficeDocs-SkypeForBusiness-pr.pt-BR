@@ -1,7 +1,7 @@
 ---
 title: Comparação de recursos do cliente de desktop do Skype para Business Server 2015
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: 2a65dcf1825bac80cc002962ce589e851ea2d3b3
-ms.sourcegitcommit: 3d7b62f24db33f9685d8dc08561394c434705a88
+ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "21223921"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391816"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2015
  
@@ -102,6 +102,7 @@ Esta tabela abrange os recursos relacionados ao suporte a mensagens instantânea
 |Enviar mensagens à tinta  <br/> ||||& #x 2714;||||||
 |Receber mensagens à tinta  <br/> |& #x 2714;||& #x 2714;|& #x 2714;||||||
 |Definir mensagens instantâneas com alta prioridade  <br/> |& #x 2714;||& #x 2714;|||||||
+|Transferir arquivos em conversas de IM ponto a ponto<br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|
    
 ## <a name="meetings-support"></a>Suporte para reuniões
 <a name="BKMK_Conferencing"> </a>
@@ -288,4 +289,4 @@ As contas do usuário podem existir online ou no local e isso afetará os recurs
 
 [Planejar clientes e dispositivos](clients-and-devices.md)
 
-[Atualizações mais recentes para versões do Skype para empresas que usam o Windows Installer (MSI)](../../sfb-client-updates.md)
+[Atualizações mais recentes das versões do Skype for Business que usam o Windows Installer (MSI)](../../sfb-client-updates.md)

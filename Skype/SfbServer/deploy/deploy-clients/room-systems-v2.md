@@ -3,7 +3,6 @@ title: Implantar o Skype Room Systems versão 2
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 5/10/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar sistemas de sala Skype v2.
-ms.openlocfilehash: e87d6563b155131a2eee1e08653c9320777b842b
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 08d7444eea06eae3de2970b368eb1201828c8a07
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856143"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21019453"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -37,15 +36,11 @@ Os técnicos de AV podem ser usados para a última tarefa, mas sua organização
 
 Enquanto os dispositivos ordenados estão sendo entregues para sua organização, trabalhe com a sua rede e instalações e equipes de AV para certificar-se de que as dependências de implantação são atendidas e cada site e a sala está pronto em termos de energia, rede e exibir. Além disso, certifique-se dos que requisitos de instalação física foram atendidos. Para considerações sobre a instalação física, visite o site do fornecedor e aproveite a experiência da sua equipe de AV durante a instalação e montando telas e executando o cabeamento.
 
-<!-- These are now links to nowhere; ask Lester and James about them.
+Você pode encontrar mais informações sobre essas dependências nos links de orientação planejamento abaixo:
 
-You can find out more about these dependencies in the planning guidance links below:
-
--   [Network](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#check-network-availability)
--   [Certificates](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#certificates)
--   [Proxy](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md#proxy)
-
--->
+-   [Verificar a disponibilidade da rede](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#check-network-availability) 
+-   [Certificados](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#certificates)
+-   [Proxy](../../plan-your-deployment/clients-and-devices/srs-v2-prep.md#proxy)
 
 **Dica pro** - se você pretende usar servidores proxy para fornecer acesso ao Skype para negócios Online, primeiro [Examine neste artigo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Observe que, quando se trata de Skype para tráfego de negócios sobre servidores proxy, é recomendável ignorando servidores proxy todo. Skype para tráfego de negócios já é criptografado para que servidores proxy não tornam mais seguro. Como parte da sua mais larga Skype para implantação de negócios, recomendamos que você siga as orientações em [avaliar o meu ambiente](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) de largura de banda planejamento e avaliar a viabilidade da sua rede para tráfego em tempo real. Para o planejamento de largura de banda todos, use o [MyAdvisor Planejador de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (É recomendável que você crie uma pessoa v2 de sistemas de sala Skype para refletir o uso pretendido do Skype sala sistemas v2 [vídeo, compartilhamento de tela, áudio] e atribuir um número de usuários que corresponde ao número de unidades de sistemas de sala Skype para ser implantada em cada site.) 
 
@@ -74,8 +69,8 @@ Para preparar sua implantação do Skype sistemas de sala, faça o seguinte chav
 
 Dependendo os cenários de colaboração que você decidiu habilitar com sua implantação do Skype sala sistemas v2, você precisará determinar os recursos e capacidades que você atribuir a cada conta de serviço do Skype sala sistemas v2 que permitem que você.
 
-| **Cenário**                    | **Descrição**                                                                                              | **Recurso de conta de serviço do Skype sala sistemas v2**                          |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Cenário** | **Descrição** | **Recurso de conta de serviço do Skype sala sistemas v2** |
+|---------- |------------- | --- |
 | Reuniões interativas            | Usando a voz, vídeo e compartilhamento de tela; tornando o v2 de sistemas de sala Skype um recurso bookable                     | Habilitado para Skype para os negócios, habilitados para o Exchange (caixa de correio de recursos) |
 | Conferência discada            | Habilitar reuniões iniciado *diretamente* no console do v2 Skype sala sistemas com as coordenadas de conferência discada | Habilitado para serviços de audioconferência                                          |
 | Chamada de PSTN de saída/entrada | Habilitar o console de v2 de sistemas de sala Skype façam e recebam chamadas PSTN                                         | Habilitado para o sistema telefônico                                                |

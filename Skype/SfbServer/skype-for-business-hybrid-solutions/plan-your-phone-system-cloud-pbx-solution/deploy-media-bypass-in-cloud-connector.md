@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: fc1ebe85ff3d26d66688173ea70c53c441d96e77
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 4d0400682702c528e9e1ccb324731378d8c09b2c
+ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570041"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "20246684"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -44,7 +44,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Habilitando o bypass de mídia em um processo de duas etapas. O cmdlet New-CsNetworkMedia não salva imediatamente a nova configuração; ele só cria as configurações na memória. O objeto criado por este cmdlet deve ser salvo como uma variável, e então atribuído à propriedade MediaBypassSettings da configuração da rede. Para obter mais informações, consulte [exemplo: registros DNS do site da web em ambientes de vários locais complexos de bypass de mídia](deploy-media-bypass-in-cloud-connector.md#Example).
   
-A replicação entre o local e os componentes online pode levar até 24 horas, portanto, a Microsoft recomenda que você execute os comandos necessários antes de habilitar os usuários.
+A replicação entre os componentes locais e online pode demorar até 24 horas, portanto a Microsoft recomenda que você execute os comandos necessários antes de habilitar os usuários. 
   
 ## <a name="confirm-media-bypass-settings"></a>Confirmar as configurações de bypass de mídia
 
@@ -67,7 +67,7 @@ Para verificar as configurações do cliente, sair do Skype para o cliente de ne
   
 1. Abra %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.  
     
-2. Procurar hybridconfigserviceinternalurl e confirme que a URL corresponda ao definido por você.
+2. Procure por hybridconfigserviceinternalurl e confirme se a URL corresponde à que você definiu. 
     
 ## <a name="change-media-bypass-parameters"></a>Alterar parâmetros de bypass de mídia
 
@@ -179,8 +179,12 @@ Usando-se a Localização geográfica com base em gerenciamento de tráfego, os 
 4. Crie a política DNS que conecta as sub-redes do cliente aos escopos de zona apropriados para garantir a resolução de DNS desejada.
     
 Neste ponto, os clientes que fizerem consultas DNS da sub-rede de Amsterdã para hybridvoice.adatum.biz retornarão os endereços 192.168.1.45, 192.168.1.46, 192.168.1.47 e 192.168.1.48, enquanto os clientes que fizerem a mesma consulta de Seattle retornarão 10.10.1.8, 10.10.1.9 e 10.10.1.10.
+
+> [!NOTE]
+> Se o aparelho de CCE não parece estar recebendo as configurações atualizadas, verifique se o aparelho é capaz de contatar o locatário via o PowerShell remoto. Você pode usar o PowerShell remoto para verificar o status de aparelho com Get-CsHybridPSTNAppliance ou usar o PowerShell para verificar o status com o Get-CcApplianceStatus no host CCE.
+
   
 ## <a name="see-also"></a>Ver também
 <a name="Example"> </a>
 
-[Planejar o bypass de mídia na nuvem conector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)
+[Planejar o bypass de mídia no Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md)

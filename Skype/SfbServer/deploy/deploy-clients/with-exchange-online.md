@@ -3,7 +3,6 @@ title: Implantar o Skype Room Systems versão 2 com o Exchange Online
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 1/18/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Exchange Online.
-ms.openlocfilehash: dad47f56d96da0f84383b2638684c65554e5a8f9
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: b413168d04123256472e6d01cb8cd1858619a714
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887888"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20974669"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Implantar o Skype Room Systems versão 2 com o Exchange Online 
  
@@ -85,7 +84,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 3. Digite a senha da conta. Você deverá redigitá-la para verificação. Verifique se a caixa de seleção **A senha nunca expira** é a única opção selecionada.
     
     > [!NOTE]
-    > Selecionando a **senha nunca expira** é um requisito para Skype para Business Server 2015 em sistemas de sala Skype v2. As regras do domínio podem proibir senhas que não expiram. Nesse caso, você precisará criar uma exceção para cada conta de usuário do Skype sala sistemas v2.
+    > Selecionando a **senha nunca expira** é um requisito para Skype para Business Server em sistemas de sala Skype v2. As regras do domínio podem proibir senhas que não expiram. Nesse caso, você precisará criar uma exceção para cada conta de usuário do Skype sala sistemas v2.
   
 4. Clique em **Concluir** para criar a conta.
     
@@ -93,7 +92,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     
 ### <a name="assign-an-office-365-license"></a>Atribuir uma licença do Office 365
 
-1. A conta de usuário precisa ter uma licença válida do Office 365 para garantir que Exchange e Skype para Business Server 2015 funcionará. Se você tiver a licença, você precisa atribuir um local de uso para sua conta de usuário — Isso determina quais SKUs de licença estão disponíveis para sua conta.
+1. A conta de usuário precisa ter uma licença válida do Office 365 para garantir que Exchange e Skype para Business Server funcionará. Se você tiver a licença, você precisa atribuir um local de uso para sua conta de usuário — Isso determina quais SKUs de licença estão disponíveis para sua conta.
     
 2. Em seguida, use o Get-MsolAccountSku para recuperar uma lista de SKUs disponíveis para seu locatário do Office 365.
     
@@ -106,7 +105,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
    ```
 
 
-### <a name="enable-the-user-account-with-skype-for-business-server-2015"></a>Habilitar a conta de usuário com o Skype for Business Server 2015
+### <a name="enable-the-user-account-with-skype-for-business-server"></a>Habilitar a conta de usuário com Skype para Business Server
 
 1. Crie uma sessão remota do Windows PowerShell de um PC, da seguinte maneira:
     
@@ -116,19 +115,19 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     Import-PSSession $cssess -AllowClobber
     ```
 
-2. Para habilitar sua conta do Skype sala sistemas v2 para Skype para Business Server 2015, execute este comando:
+2. Para habilitar sua conta do Skype sala sistemas v2 para Skype para Business Server, execute este comando:
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
-    Se você não tiver certeza sobre qual valor usar para o parâmetro RegistrarPool no seu ambiente, você pode obter o valor de um existente Skype para usuário Business Server 2015 usando este comando
+    Se você não tiver certeza sobre qual valor usar para o parâmetro RegistrarPool no seu ambiente, você pode obter o valor de um existente Skype para usuário Business Server usando este comando
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-skype-for-business-server-2015-license-to-your-skype-room-systems-v2-account"></a>Atribuir uma licença do Skype for Business Server 2015 a sua conta do Skype Room Systems versão 2
+### <a name="assign-a-skype-for-business-server-license-to-your-skype-room-systems-v2-account"></a>Atribuir um Skype licença Business Server à sua conta de v2 de sistemas de sala do Skype
 
 1. Logon como um administrador de locatário, abra o Portal do Office 365 administrativas e clique no aplicativo Administração.
     
@@ -148,11 +147,11 @@ Para validação, você deve ser capaz de usar qualquer Skype para o cliente de 
 
 [Configurar contas para sistemas de sala Skype v2](room-systems-v2-configure-accounts.md)
 
-[Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planejar o Skype Room Systems versão 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Implantar Skype sala v2 de sistemas](room-systems-v2.md)
+[Implantar o Skype Room Systems versão 2](room-systems-v2.md)
   
-[Configurar um console v2 de sistemas de sala do Skype](console.md)
+[Configurar o console do Skype Room Systems versão 2](console.md)
   
-[Gerenciar Skype sala v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar o Skype Room Systems versão 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

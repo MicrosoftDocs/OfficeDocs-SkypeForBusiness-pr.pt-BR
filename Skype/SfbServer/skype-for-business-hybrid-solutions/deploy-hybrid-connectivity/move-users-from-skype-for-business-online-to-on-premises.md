@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Resumo: Saiba como mover as contas de usuário de online para no local no Skype para Business Server.'
-ms.openlocfilehash: 098dc36e6551839d599042993b156073197753ec
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2d49033e499d9a52af04fcb9e23d8ed483859f5
+ms.sourcegitcommit: c18710a46018fe4c1d0ceb99710f18bbc25aad54
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21025678"
+ms.lasthandoff: 08/09/2018
+ms.locfileid: "22301439"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Mover os usuários do Skype para Business Online no local
  
@@ -191,7 +191,7 @@ Depois que terminar estas etapas, você pode migrar contas de usuário, conforme
 |:-----|:-----|:-----|:-----|
 |msRTCSIP-DeploymentLocator  <br/> |HostingProvider  <br/> |sipfed  <br/> |SRV:  <br/> |
 |msRTCSIP-PrimaryUserAddress  <br/> |SIPAddress  <br/> |SIP:username@contoso.com  <br/> |SIP:username@contoso.com  <br/> |
-|sRTCSIP-UserEnabled  <br/> |Habilitado  <br/> |True  <br/> |True  <br/> |
+|msRTCSIP-UserEnabled  <br/> |Habilitado  <br/> |True  <br/> |True  <br/> |
    
 10. Cada usuário movido precisará fazer logout e fazer login novamente. Ao fazer login, deverão verificar a lista de contatos e adicionar, caso seja necessário.
     

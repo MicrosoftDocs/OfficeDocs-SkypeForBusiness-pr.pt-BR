@@ -1,9 +1,8 @@
 ---
-title: Planejar vários números de emergência no Skype for Business Server 2015
+title: Planejar para vários números de emergências Skype Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.date: 2/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -13,16 +12,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Leia este tópico para saber como planejar vários números de emergência no Skype for Business Server 2015.
-ms.openlocfilehash: f70132e555b79e88ca09c54c0ce02544bf3d9bf8
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+description: Leia este tópico para saber como planejar para vários números de emergências Skype Business Server.
+ms.openlocfilehash: 48b71f5f4810378ec05ae769de4ec57b9a840a79
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "20979780"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server-2015"></a>Planejar vários números de emergência no Skype for Business Server 2015
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planejar para vários números de emergências Skype Business Server
  
-Leia este tópico para saber como planejar vários números de emergência no Skype for Business Server 2015.
+Leia este tópico para saber como planejar para vários números de emergências Skype Business Server.
   
 Skype para Business Server agora oferece suporte a configuração de vários números de emergências para um cliente. Vários números de emergência são um novo recurso introduzido no de 2016 junho atualizações cumulativas. Enquanto os Estados Unidos têm um único número de emergência (911), muitos países dão suporte a vários números de emergência. Reino Unido, por exemplo, oferece suporte a 999, o número de emergência específico para o Reino Unido e o 112, o número de emergência União Europeia. 
   
@@ -32,7 +32,7 @@ Esse recurso também é útil para os prestadores de serviços de saúde nos Est
 
 Você configurar chamadas de emergência criando políticas de local que definem como as chamadas de emergência serão implementadas. Você usar a diretiva de local para definir qual número constitui uma chamada de emergência — por exemplo, 911 nos Estados Unidos; 999 e 112 no Reino Unido. A política de local determina se um usuário está habilitado para chamadas de emergência e, nesse caso, qual é o comportamento de uma chamada de emergência. Você também pode definir se a segurança corporativa deve ser notificada automaticamente e como a chamada deve ser roteada.
   
-Para obter mais informações sobre como definir e modificar uma política de local, consulte [planejar políticas de local para Skype para Business Server 2015](location-policies.md) e [criar políticas de local no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estes tópicos descrevem os conceitos sobre políticas de local; No entanto, você deve seguir as instruções em [Configurar vários números de emergências Skype para negócios 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar vários números de emergências.
+Para obter mais informações sobre como definir e modificar uma política de local, consulte [planejar políticas de local para Skype para Business Server](location-policies.md) e [criar políticas de local no Skype para Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estes tópicos descrevem os conceitos sobre políticas de local; No entanto, você deve seguir as instruções em [Configurar vários números de emergências Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar vários números de emergências.
   
 Ao planejar vários números de emergência, tenha em mente o seguinte:
   
@@ -66,12 +66,12 @@ Antes de configurar vários números de emergência, lembre-se do seguinte:
     
 - Se os usuários forem discar um número correspondente à cadeia de caracteres de discagem, não será necessária uma máscara de discagem. Por exemplo, se o número que um usuário disca é 911, a cadeia de caracteres de discagem é 911 e a máscara não é necessária. 
     
-Para obter mais informações sobre como configurar vários números de emergências, consulte [Configure números de emergência vários em Skype para negócios 2015](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Para obter mais informações sobre como configurar vários números de emergências, consulte [Configure números de emergência vários em Skype para negócios](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 A tabela a seguir mostra exemplos de políticas de local (nem todos os atributos são mostrados):
   
 
-|**Nome da política de local**|**E911 habilitado**|**Cadeia de caracteres de discagem de emergência**|**Máscara de discagem**|**Números de emergência**|**Uso de PSTN**|**Local necessário**|
+|**Nome da política de local**|**E911 habilitado**|**Cadeia de discagem de emergência**|**Máscara de discagem**|**Números de emergência**|**Uso de PSTN**|**Local necessário**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Estados Unidos  <br/> |Sim  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Sim  <br/> |
 |US-Hospital  <br/> |Sim  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sim  <br/> |
@@ -101,7 +101,7 @@ A tabela a seguir mostra o suporte do cliente para vários números de emergênc
 ||Skype para Mac Business 16,9 da versão do cliente  <br/> Skype para negócios iOS versão de cliente 6.16  <br/> |
 |**Android** <br/> |**Versão** <br/> |
 ||Skype para negócios Android versão de cliente 6.17  <br/> |
-|**O Lync Phone Edition** <br/> |**Versão** <br/> |
+|**Lync Phone Edition** <br/> |**Versão** <br/> |
 || Aastra 6721ip e telefones do Aastra 6725ip - setembro de 2016 cumulativa atualizar (Build 7577.4512)-[https://support.microsoft.com/en-us/kb/3194831](https://support.microsoft.com/en-us/kb/3194831) <br/> |
 || Telefones HP 4110 e HP 4120 - atualização cumulativa de setembro de 2016 (Build 7577.4512)-[https://support.microsoft.com/en-us/kb/3194832](https://support.microsoft.com/en-us/kb/3194832) <br/> |
 ||Telefones Polycom CX500, Polycom CX600 e Polycom CX3000 - atualização cumulativa de setembro de 2016 (Build 7577.4512)-[https://support.microsoft.com/en-us/kb/3194833](https://support.microsoft.com/en-us/kb/3194833) <br/> |

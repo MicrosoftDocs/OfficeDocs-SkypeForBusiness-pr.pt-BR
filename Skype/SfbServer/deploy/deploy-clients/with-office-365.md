@@ -3,7 +3,6 @@ title: Implantar o Skype Room Systems versão 2 com o Office 365
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/8/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Office 365.
-ms.openlocfilehash: bf23da871b3e736bd9fce2ee821b716fc43830b1
-ms.sourcegitcommit: 4e9f4e2297cea3372a97f4ea178eb75ba6f8753f
+ms.openlocfilehash: 442bfa306f611d9ba642d3b74d431cfda4c46770
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19887902"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21027349"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implantar o Skype Room Systems versão 2 com o Office 365 
  
@@ -183,11 +182,11 @@ Enable-CsMeetingRoom -Identity rigel1@contoso.onmicrosoft.com -RegistrarPool sip
 
 [Configurar contas para sistemas de sala Skype v2](room-systems-v2-configure-accounts.md)
 
-[Planejar a sala Skype v2 de sistemas](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Planejar o Skype Room Systems versão 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Implantar Skype sala v2 de sistemas](room-systems-v2.md)
+[Implantar o Skype Room Systems versão 2](room-systems-v2.md)
   
-[Configurar um console v2 de sistemas de sala do Skype](console.md)
+[Configurar o console do Skype Room Systems versão 2](console.md)
   
-[Gerenciar Skype sala v2 de sistemas](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Gerenciar o Skype Room Systems versão 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 

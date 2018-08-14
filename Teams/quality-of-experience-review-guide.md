@@ -2,7 +2,7 @@
 title: Qualidade da experiência Revise o guia para equipes da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
-manager: lehewe
+manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
@@ -12,11 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0a251887b6c71c113c4ec9a25a812d4b9f6b827
-ms.sourcegitcommit: 0d584174263c044c2ba12e32d2c924349226075c
+ms.openlocfilehash: 7579a87d2c59a47304d06fd05e11b37a97544a79
+ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/07/2018
+ms.locfileid: "19694916"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
@@ -105,7 +106,7 @@ _Tabela 1 - métricas de avaliação de integridade de destino principais_
 |               | Qualidade para redes gerenciadas | Confiabilidade para redes gerenciadas |                      |
 |---------------|------------------------------|----------------------------------|----------------------|
 | Nome de métrica   | % De taxa de chamada de áudio inválida      | Configuração da chamada % de falhas            | Recebimento de chamadas % de falhas |
-| Destino da amostra | \<% 3                         | \<% 1                             | \<4%                 |
+| Destino da amostra | \<3%                         | \<% 1                             | \<4%                 |
 
 É importante discutir e definir as metas da sua organização para atender aos seus objetivos de negócios. Idealmente, você deve identificar nestes destinos antes da implantação.
 
@@ -531,9 +532,9 @@ _Tabela 5 - Criando a estrutura do arquivo_
 | Nome da coluna        | Tipo de dados | Exemplo                   | Orientação    |
 |--------------------|-----------|---------------------------|-------------|
 | Rede            | Cadeia de caracteres    | 192.168.1.0               | Obrigatório    |
-| NetworkName        | Cadeia de caracteres    | EUA/Seattle/SEATTLE-mar-1 | Necessário\*  |
+| NetworkName        | Cadeia de caracteres    | EUA/Seattle/SEATTLE-mar-1 | Obrigatório\*  |
 | NetworkRange       | Número    | 26                        | Obrigatório    |
-| BuildingName       | Cadeia de caracteres    | SEATTLE-MAR-1             | Necessário\*  |
+| BuildingName       | Cadeia de caracteres    | SEATTLE-MAR-1             | Obrigatório\*  |
 | OwnershipType      | Cadeia de caracteres    | Contoso                   | Opcional    |
 | BuildingType       | Cadeia de caracteres    | Terminação de IT            | Opcional    |
 | BuildingOfficeType | Cadeia de caracteres    | Engenharia               | Opcional    |
@@ -1138,12 +1139,12 @@ _A tabela 11 - requisitos de desempenho de rede_
 
 | Métrica                           | Cliente para o Microsoft Edge           | Edge do cliente para o Microsoft Edge    |
 |----------------------------------|------------------------------------|------------------------------------|
-| Latência (uma maneira)                | \<50 ms                            | \<30 ms                            |
-| Latência (tempo de resposta ou tempo de ida e volta) | \<100 ms                           | \<60 ms                            |
-| Perda de pacotes de intermitência                | \<10% durante qualquer intervalo de 200 ms   | \<1% durante qualquer intervalo de 200 ms    |
+| Latência (unidirecional)                | \<50 ms                            | \<30 ms                            |
+| Latência (RTT ou tempo-resposta) | \<100 ms                           | \<60 ms                            |
+| Perda de pacote de intermitência                | \<10% durante qualquer intervalo de 200 ms   | \<1% durante qualquer intervalo de 200 ms    |
 | Perda de pacote                      | \<1% durante qualquer intervalo de 15 segundos    | \<0,1% durante qualquer intervalo de 15 segundos  |
-| Tremulação de entre chegada de pacotes      | \<30 ms durante qualquer intervalo de 15 segundos | \<15 ms durante qualquer intervalo de 15 segundos |
-| Reordenar de pacotes                   | \<% de 0,05 pacotes de fora de ordem       | \<pacotes de fora de ordem 0,01%      |
+| Tremulação entre chegadas de pacote      | \<30 ms durante qualquer intervalo de 15 segundos | \<15 ms durante qualquer intervalo de 15 segundos |
+| Novo pedido de pacotes                   | \<% de 0,05 pacotes de fora de ordem       | \<pacotes de fora de ordem 0,01%      |
 
 Para obter mais informações, consulte o artigo a seguir sobre o [desempenho de rede e qualidade de mídia](https://aka.ms/performancerequirements) para equipes e Skype para negócios Online.
 

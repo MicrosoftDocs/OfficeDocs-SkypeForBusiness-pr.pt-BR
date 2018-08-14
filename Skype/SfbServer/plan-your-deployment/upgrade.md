@@ -3,7 +3,7 @@ title: Planejamento de atualização para o Skype for Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 12/20/2016
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -14,25 +14,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumo: Saiba sobre as coisas que você deve considerar ao planejar uma atualização para o Skype Business Server 2015. Baixe uma versão de avaliação gratuita do Skype para negócios 2015 de servidor do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 51123e58c57445a0ad9deffb720a7e9c378cf58c
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 15f8ba6568fc4ca26d1c9fd33a59a026a34def33
+ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19505136"
+ms.lasthandoff: 07/24/2018
+ms.locfileid: "21009141"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planejamento de atualização para o Skype for Business Server 2015
  
 Resumo: Saiba sobre as coisas que você deve considerar ao planejar uma atualização para o Skype Business Server 2015. Baixe uma versão de avaliação gratuita do Skype para negócios 2015 de servidor do centro da Evaluation da Microsoft em: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
 Como parte do seu plano para atualizar para o Skype para Business Server 2015, use este tópico para entender os caminhos de atualização recomendados para Skype para negócios 2015 do servidor, como a atualização In-loco funciona, quais são os cenários de coexistência suportados e que o processo de atualização a aparência.
+
+> [!NOTE]
+> Atualizações in-loco estavam disponíveis no Skype para Business Server 2015, mas não são mais suportadas no Skype para Business Server 2019. Lado a lado coexistência é suportada, consulte [Migration to Skype para Business Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) para obter mais informações.
   
 ## <a name="recommended-upgrade-paths-to-skype-for-business-server-2015"></a>Caminhos de atualização recomendados para Skype para Business Server 2015
 
  Para atualizar do Lync Server 2013, Lync Server 2010 ou Office Communications Server 2007 R2 para Skype para Business Server 2015, use os seguintes caminhos de atualização:
   
 > [!CAUTION]
-> A Atualização In-loco move automaticamente os diretórios de conferência do Lync Server 2013 para o Skype for Business Server 2015. No entanto, se você planeja mover manualmente os diretórios de conferência, é muito importante usar o Shell de Gerenciamento do Skype for Business Server 2015. Se você tentar usar o Shell de Gerenciamento do Lync Server 2013 para mover os diretórios de conferência do Lync Server 2013 para o Skype for Business Server 2015, poderá ocorrer perda de dados. Em geral, sempre que você estiver trabalhando com o Skype for Business Server 2015 em qualquer capacidade, deverá usar sempre o conjunto de ferramentas do Skype for Business Server 2015. 
+> A Atualização In-loco move automaticamente os diretórios de conferência do Lync Server 2013 para o Skype for Business Server 2015. No entanto, se você planeja mover manualmente os diretórios de conferência, é muito importante usar o Shell de Gerenciamento do Skype for Business Server 2015. Se você tentar usar o Shell de Gerenciamento do Lync Server 2013 para mover os diretórios de conferência do Lync Server 2013 para o Skype for Business Server 2015, poderá ocorrer perda de dados. Em geral, sempre que você estiver trabalhando com o Skype for Business Server 2015 em qualquer capacidade, deverá usar sempre o conjunto de ferramentas do Skype for Business Server 2015.  
   
 |**Versão**|**Recomendações**|
 |:-----|:-----|
@@ -59,7 +62,7 @@ Atualização in-loco envolve colocar o pool do Lync Server 2013 offline e atual
   
 ### <a name="create-an-in-place-upgrade-plan"></a>Criar um plano de atualização in-loco
 
-Tornar um plano que inclui:
+Certifique-se de que o plano defina:
   
 1. Uma compreensão da topologia atual.
     
@@ -86,7 +89,7 @@ Há dois cenários para a atualização in-loco:
     
 - O método Offline, que requer tempo de inatividade.
     
-Recomendamos que uma atualização do método Offline sejam agendadas durante um período de manutenção e os usuários são notificados do tempo de inatividade.
+Recomendamos que uma atualização com o método Offline seja agendada durante uma janela de manutenção e que os usuários sejam notificados sobre o tempo de inatividade.
   
 > [!NOTE]
 > Quando estiver atualizando um pool pareado no Lync Server 2013 e quiser atualizar os dois pools para Skype for Business Server 2015, atualize o segundo pool imediatamente após a atualização do primeiro pool. Quando um pool estiver executando o Lync Server 2013 e o segundo pool estiver executando o Skype for Business Server 2015, as opções de recuperação de desastres são minimizadas. Por exemplo, se um pool estiver executando 2013 e o segundo estiver executando o 2015 e ocorrer um desastre, é possível que você tenha perda de dados, pois a recuperação de falhas do pool não é suportada no modo desastre quando pools emparelhados não estiverem na mesma versão. 
@@ -183,8 +186,8 @@ Para topologias de coexistência do Lync Server 2010 e Lync Server 2013, alinhe 
 ## <a name="see-also"></a>Ver também
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Atualização para o Skype para Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Atualização para o Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Requisitos de ambiente para Skype para Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
+[Requisitos de ambiente para o Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Requisitos de servidor do Skype para Business Server 2015](requirements-for-your-environment/server-requirements.md)
+[Requisitos de servidor no Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)

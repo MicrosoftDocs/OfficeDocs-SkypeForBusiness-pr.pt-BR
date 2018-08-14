@@ -1,7 +1,7 @@
 ---
 title: Planejar para clientes de reuniões (Web App e reuniões App)
 ms.author: jambirk
-author: jambirk
+author: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server. Este artigo não se destina os usuários desses aplicativos.'
-ms.openlocfilehash: f0fbf6cfec073ba3fdd25bdd4cb87c458144d3b7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ba1c01625c987235c65fe2139eae4cc94989ff51
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009677"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22391759"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar para clientes de reuniões (Web App e reuniões App)
  
