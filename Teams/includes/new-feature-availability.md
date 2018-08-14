@@ -1,0 +1,2 @@
+> [!NOTE]
+> Não vê esse recurso em seu cliente do Microsoft Teams ainda? Ela está atualmente sendo distribuída e pode não estar disponível em sua organização ainda. Consulte o [Roteiro de equipes](http://aka.ms/TeamsRoadmap) para notícias sobre as versões futuras em equipes. 
