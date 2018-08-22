@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: d4fd54348cf1897a60c235f3f4fa408c051b3f0b
-ms.sourcegitcommit: 18ae1505642e985f7fb62d2e70e37e8489b5ef15
+ms.openlocfilehash: 5844b271cb89d669dac11d2dda67b62ed4bd22c1
+ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2018
-ms.locfileid: "20034642"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554029"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -158,9 +158,6 @@ Na Audioconferência, há um recurso chamado "*Telefonar para Mim*" que pode ser
 > Talvez não seja possível discar para números de telefone grátis ou de chamada gratuita, pois alguns números chamada gratuita funcionam somente a partir de um determinado país ou uma área em um país. Por exemplo, se você discar dos Estados Unidos para um número de chamada gratuita no Brasil, a chamada pode não ser concluída porque a ligação não foi feita do Brasil ou de uma região específica do Brasil. A possibilidade de discar para números de chamada gratuita varia muito de acordo com as restrições do próprio número discado. Infelizmente, no Office 365, não conseguimos controlar esse comportamento e, por isso, sua experiência pode variar dependendo do número de chamada gratuita discado e das restrições que se aplicam a ele. 
   
 É possível discar de uma reunião para outro país/região do mundo que não está listado a seguir usando os [Créditos de Comunicação do Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md). Para esses usuários, será necessário [configurar os Créditos de Comunicação para a sua organização](../skype-for-business-and-microsoft-teams-add-on-licensing/set-up-communications-credits-for-your-organization.md).
-  
-> [!NOTE]
-> Durante o período de lançamento, ao usar o recurso Telefonar para Mim ou ao adicionar outras pessoas a uma reunião, os usuários de todas as organizações podem discar para os países/regiões a seguir sem custo adicional. No entanto, isso está sujeito aos [Período de discagem gratuita da Audioconferência](../legal-and-regulatory/complimentary-dial-out-period.md). 
   
 ### <a name="phone-system"></a>Sistema de Telefonia
 Com o Sistema de Telefonia, você pode criar atendedores automáticos e filas de chamadas (com um número de chamada tarifada ou gratuita) para atender às chamadas de entrada de sua organização e, quando adicionar um Plano de Chamadas para os usuários, eles poderão usar o Skype for Business para cuidar de tarefas básicas de controle de chamadas, como fazer e receber chamadas, transferir chamadas e ativar e desativar o mudo das chamadas. Os usuários do **Sistema de Telefonia** podem clicar em um nome no catálogo de endereços, e o Skype for Business faz uma chamada para essa pessoa. Para fazer e receber chamadas, os usuários do **Sistema de Telefonia** podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC, ou um dos muitos telefones IP que funcionam com o Skype for Business.
