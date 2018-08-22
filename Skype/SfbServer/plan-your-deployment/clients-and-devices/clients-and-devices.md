@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: Revisão dos aplicativos e clientes com suporte para Skype para negócios.'
 ms.openlocfilehash: f17061c9112ca4820f47b93b2c7b515b0873c711
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
-ms.translationtype: MT
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 08/22/2018
 ms.locfileid: "22391738"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
