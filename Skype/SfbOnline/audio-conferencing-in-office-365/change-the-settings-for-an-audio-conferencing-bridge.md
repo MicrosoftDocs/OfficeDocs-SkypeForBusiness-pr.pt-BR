@@ -1,5 +1,5 @@
 ---
-title: Alterar as configurações de uma ponte de conferência de áudio
+title: Alterar as configurações de uma ponte de audioconferência
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha as etapas que necessárias para alterar configurações para uma ponte de conferência que é usado para solicitar que os chamadores e coletar nomes e pins para organizadores de reunião, quando eles não estão usando Skype para aplicativos de negócios ou Teams da Microsoft. '
-ms.openlocfilehash: d01ef5f96483ae26ccfaf429e87221b1a5c61d11
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: c649859d718ece3a8316ea8baa76be3be751561b
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703674"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490652"
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de conferência de áudio
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
 Quando você estiver configurando a conferência de áudio no Office 365, você receberá os números de telefone para seus usuários a partir o que é acionado uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. Esses números de telefone são usados quando os chamadores discam para uma reunião. O número de telefone está incluído na parte inferior do Skype para o convite de reunião de negócios ou Teams da Microsoft.
   
@@ -61,7 +61,7 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
 5. Para especificar se deseja enviar email para seus usuários, habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se altera sua configuração de serviços de audioconferência**.
     Para obter mais informações, consulte [Emails enviados automaticamente para os usuários quando alteram suas configurações de conferência de áudio](emails-sent-to-users-when-their-settings-change.md) .
  
-6. Clique em **Aplicar**. 
+6. Clique em **Salvar**. 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

@@ -1,5 +1,5 @@
 ---
-title: Números de telefone de conferência de áudio
+title: Números de telefone de audioconferência no Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,35 +14,36 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: 3c1440b29a2ceb35775ba3ed8151defb4093f94d
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: 31dccb2c46ef957b9490a8a1c61f7a20563ecf92
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490492"
 ---
-# <a name="phone-numbers-for-audio-conferencing"></a>Números de telefone de conferência de áudio
+# <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de telefone de audioconferência no Skype para negócios Online
 
-Quando você estiver configurando **A conferência de áudio** para Skype para Teams da Microsoft e de negócios, os números de telefone de discagem são automaticamente atribuídos a sua organização. Você pode ver os números de telefone que são atribuídos à sua ponte de conferência de áudio indo para o **Skype para centro de administração de negócios** > **audioconferências** > **ponte da Microsoft**. Consulte [ver uma lista de números de conferência de áudio](see-a-list-of-audio-conferencing-numbers.md).
+> [!NOTE]
+> Para obter informações sobre números de telefone em Teams da Microsoft, consulte [números de telefone de conferência de áudio em equipes da Microsoft](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams).
+
+Quando você estiver configurando a **Conferência de áudio** para Skype para negócios, os números de telefone de discagem são automaticamente atribuídos a sua organização. Você pode ver os números de telefone que são atribuídos à sua ponte de conferência de áudio indo para o **Skype para centro de administração de negócios** > **audioconferências** > **ponte da Microsoft**. Consulte [ver uma lista de números de conferência de áudio](see-a-list-of-audio-conferencing-numbers.md).
   
 > [!NOTE]
 > Não há um recurso com uma listagem de todos os números de discagem para a Audioconferência. Se você deseja verificar se há números de telefone de discagem na sua área ou país/região, use o **Skype para centro de administração do Business** > **voz** > **Números de telefone**, clique em **Adicionar**e, em seguida, clique em **novo serviço Números**. Use as listas de **País/Região**, **Estado/Região** e **Cidade** para filtrar sua pesquisa. Além disso, se você estiver procurando por números gratuitos de serviço, selecione **chamada gratuita** do **estado/região** lista.
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Preços e cobertura de conferência de áudio
 
-Para obter uma lista completa de todos os países/regiões e cidades onde a conferência de áudio está disponível, consulte [países e a disponibilidade da região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para informações sobre preços, consulte 
-  
-[Preços da Audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)
+Para obter uma lista completa de todos os países/regiões e cidades onde a conferência de áudio está disponível, consulte [países e a disponibilidade da região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para informações sobre preços, consulte [precificação para audioconferências](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de telefone de discagem em um convite de reunião
 
-Quando um Skype para Business Online ou Microsoft Teams usuário agenda uma reunião no Outlook ou no Outlook Web App, o número de conferência de áudio padrão que está definido para o usuário está incluído no convite da reunião. Se você deseja selecionar um número padrão diferente para um ou mais usuários, você poderá alterar que indo para o **Skype para centro de administração de negócios** > **audioconferências** > **usuários**. Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md).
+Quando um Skype para Business Online usuário agenda uma reunião no Outlook ou no Outlook Web App, o número de conferência de áudio padrão que está definido para o usuário está incluído no convite da reunião. Se você deseja selecionar um número padrão diferente para um ou mais usuários, você poderá alterar que indo para o **Skype para centro de administração de negócios** > **audioconferências** > **usuários**. Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md).
   
 Outros números de discagem podem ser vistos clicando no link **Localizar um número local** no convite da reunião.
   
@@ -66,7 +67,7 @@ Compartilhadas números são automaticamente atribuídos a organizações quando
 > [!CAUTION]
 > Devido à disponibilidade limitada dos números de telefone de Chamada Tarifada em Venezuela, Indonésia e Emirados Árabes Unidos (Emirados Árabes Unidos), as organizações a partir desses países/regiões não terão um número de Chamada Tarifada audioconferências automaticamente atribuído a eles. Os números de chamada gratuita destes locais são disponibilizados conforme o estoque disponível. 
   
-Números de telefone de conferência de áudio dedicado são números de serviço que você pode obter e, em seguida, atribuir a sua organização. Números de serviço podem ser encontrados por meio do **Skype para centro de administração de negócios**. Para obter detalhes, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
+Números de telefone de conferência de áudio dedicado são números de serviço que você pode obter e, em seguida, atribuir a sua organização. Números de serviço podem ser encontrados por meio do **Skype para centro de administração de negócios**. Para obter detalhes, consulte [Getting números de telefone de serviço](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md).
   
 Para ver uma lista desses países/regiões que possuem números de telefone automaticamente atribuídos às organizações, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
@@ -78,7 +79,7 @@ Para ver uma lista desses países/regiões que possuem números de telefone auto
     
 - Você pode usar o cmdlet [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) para ver os idiomas que podem ser definidos em um número de telefone de discagem dedicado.
     
-- Você pode definir até 4 idiomas para cada número de telefone de conferência de áudio - um primário e três secundário. E você também pode definir idiomas em um número de telefone de conferência de áudio dedicado.
+- Você pode definir até quatro idiomas para cada número de telefone de conferência de áudio - um primário e três secundário. E você também pode definir idiomas em um número de telefone de conferência de áudio dedicado.
     
 - Para definir o número de telefone de discagem para um usuário, consulte [Defina o telefone convidam números incluídos no](set-the-phone-numbers-included-on-invites.md).
     

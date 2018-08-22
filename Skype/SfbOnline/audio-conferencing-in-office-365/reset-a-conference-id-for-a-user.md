@@ -1,5 +1,5 @@
 ---
-title: Redefinir o ID de conferência de um usuário
+title: Redefinir um ID de conferência para um usuário no Skype Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,44 +14,30 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: "Learn the steps to reset a user's meeting conference ID, and get links to meeting update and migration tools. "
-ms.openlocfilehash: 3a02ae779b55aa9ca4f340d5a88d6e5fb9c5f750
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Saiba as etapas para redefinir um usuário da reunião ID de conferência no Skype para Business Online e get links para ferramentas de atualização e migração da reunião. '
+ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703410"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490531"
 ---
-# <a name="reset-a-conference-id-for-a-user"></a>Redefinir o ID de conferência de um usuário
+# <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Redefinir um ID de conferência para um usuário no Skype Business Online
+
+> [!NOTE]
+> Para obter informações sobre como redefinir o ID de conferência no Microsoft Teams, consulte [Redefinir uma ID de conferência para um usuário em equipes da Microsoft](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams).
 
 Uma ID de conferência dinâmico é incluída na parte inferior da reunião convites, juntamente com os números de telefone de discagem que podem ser usados por chamadores para efetuar uma chamada para uma reunião. Quando o usuário disca o número de telefone, o atendedor automático para a reunião pedirá que o chamador para inserir esta ID de conferência, de forma que eles podem participar da reunião.
   
 > [!NOTE]
-> Se seu provedor de conferência for Microsoft, IDs de conferência dos usuários são definidos para somente dinâmico por padrão. Infelizmente, não há nenhuma capacidade para alterá-lo no Skype para o Centro de administração de negócios ou usando o Windows Powershell para se tornar estáticas, como agora está sem suporte.
-IDs de conferência são definidas apenas automaticamente somente para Skype para usuários de negócios e Teams Microsoft habilitados para conferência de áudio. 
-
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+> Se seu provedor de conferência for Microsoft, IDs de conferência dos usuários são definidos para somente dinâmico por padrão. Infelizmente, não há nenhuma capacidade para alterá-lo no Skype para o Centro de administração de negócios ou usando o Windows Powershell para se tornar estáticas, como agora está sem suporte. IDs de conferência são definidas automaticamente somente para Skype para usuários de negócios habilitados para conferência de áudio. 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Redefinindo o ID de conferência para um usuário
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
-
-2. Na parte superior da página, clique em **Editar**.
-
-3. Clique no menu ao lado de **Pontes de conferência**e, em seguida, clique em **Redefinir id de conferência** na lista suspensa.
-
-2. Na janela **Redefinir id de conferência** , clique em **Okey**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Por padrão, os emails são enviados aos usuários, mas isso pode ser desativado.   
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
-    
+   
 1. No **Skype para centro de administração de negócios**, clique em **conferência de áudio** > **usuários**, selecione um usuário e clique em **Redefinir**no painel de ação em **ID da conferência** .
     
 2. No **Redefinir ID de conferência?** janela, clique em **Sim**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Por padrão, os emails são enviados aos usuários, mas isso pode ser desativado.

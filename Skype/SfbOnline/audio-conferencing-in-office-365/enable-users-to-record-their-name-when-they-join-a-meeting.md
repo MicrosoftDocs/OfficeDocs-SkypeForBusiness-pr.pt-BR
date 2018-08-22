@@ -1,5 +1,5 @@
 ---
-title: Permitir que usuários gravem o nome ao ingressar em uma reunião
+title: Permitir que os usuários registrar seus nomes quando eles ingressam em uma reunião em Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,42 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to enable or disable whether your users can record their names when they join a meeting '
-ms.openlocfilehash: 940d4eefb6a997b03bb25fc558faf15ce9edb507
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: Aprenda a habilitar ou desabilitar se seus usuários podem registrar seus nomes quando eles ingressam em uma reunião em Skype para negócios Online.
+ms.openlocfilehash: b920f0cfea6aa607f5bc3ea7c8a53b5668ba02da
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703490"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490721"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting"></a>Permitir que usuários gravem o nome ao ingressar em uma reunião
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permitir que os usuários registrar seus nomes quando eles ingressam em uma reunião em Skype para negócios Online
+
+> [!Note]
+> Se você quiser permitir que os usuários registrar seus nomes em equipes, consulte [permitem aos usuários registrar seus nomes quando ingressarem em uma reunião em equipes da Microsoft](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).
 
 Quando você estiver configurando a conferência de áudio no Office 365, você receberá números de telefone e o que é chamado uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone.
   
 A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência respostas do chamador com prompts de voz de um atendedor automático e, em seguida, dependendo das suas configurações, pode reproduzir notificações, peça aos chamadores registrar seu nome e configurar a segurança PIN para organizadores de reunião. PINs são fornecidas aos organizadores de reuniões para permitir que eles iniciar uma reunião. Entretanto, você pode configurar a reunião sem a necessidade de um PIN para começar.
 
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
-  
 ## <a name="set-whether-callers-should-record-their-name"></a>Definir se os chamadores devem gravar o nome
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
-
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
-
-3. Habilitar ou desabilitar a **Habilitar a entrada da reunião e sair notificações para ser ativado**.
-
-4. Clique em **Aplicar**.
-
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para Business Admin Center**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     

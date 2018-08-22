@@ -1,5 +1,5 @@
 ---
-title: Definir idiomas do atendedor automático para conferência de áudio
+title: Definir os idiomas de atendedor automático de audioconferência no Skype para Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio.
-ms.openlocfilehash: 44c05f081115ddf50eefd8df97765b3cbd82ef56
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio em Skype para Business Online.
+ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703764"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490511"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing"></a>Definir idiomas do atendedor automático para conferência de áudio
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas de atendedor automático de audioconferência no Skype para Business Online
 
-O atendedor automático de conferência de áudio para Skype para Teams da Microsoft e de negócios pode saudar chamadores áudio em um número de diferentes idiomas quando ingressarem em uma reunião.
+> [!Note]
+> Para obter informações sobre como definir o idioma de atendedor automático no Teams da Microsoft, consulte [definir idiomas de atendedor automático de conferência de áudio em equipes da Microsoft](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
+
+O atendedor automático de conferência de áudio para Skype para negócios pode saudar chamadores áudio em um número de diferentes idiomas quando ingressarem em uma reunião.
   
 Escolher um idioma principal e até quatro idiomas secundários. O idioma principal que você definiu será usado pela primeira vez e os idiomas secundários serão usados pelo atendedor automático que você selecionar. 
   
@@ -40,21 +42,6 @@ Escolher um idioma principal e até quatro idiomas secundários. O idioma princi
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir a conferência idiomas de atendedor automático
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**.
-
-2. Selecione o número de telefone de conferência de áudio da lista e, na parte superior da página, clique em **Editar**.
-
-3. No painel à direita, escolha o idioma padrão desejado e qualquer idiomas alternativos. 
- 
-    > [!NOTE]
-    > O padrão e os idiomas alternativos suportados são listados. A ordem na qual você selecionar listas de será a ordem dos idiomas apresentados aos chamadores. 
-
-4. Clique em **Aplicar**.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **Usando Skype para negócios on-line**
 
 Você deve ser um [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou [Skype para negócios administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar esta etapa.
     

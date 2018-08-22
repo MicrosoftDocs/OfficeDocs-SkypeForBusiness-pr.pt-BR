@@ -10,12 +10,12 @@ ms.reviewer: laal
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d31bb8eafdaa6a04fe34f8433e8484ec447e7c1
-ms.sourcegitcommit: 2ce680aba13d1d781019b766a04e4e7d46d4f72c
+ms.openlocfilehash: 9864289048b05ed80ddfeb016bf943f3f670f5b5
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21136303"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546403"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
@@ -55,7 +55,7 @@ Azure AD inclui as configurações a seguir para configurar usuários externos:
 
 
 > [!NOTE]
-> Também é possível gerenciar quais domínios podem ser convidados para seu locatário como convidados. Consulte [permitir/bloquear o acesso de convidado a grupos do Office 365](https://technet.microsoft.com/library/a86bb46f-0e5b-43a3-b6ef-7394f344a8da). 
+> Também é possível gerenciar quais domínios podem ser convidados para seu locatário como convidados. Consulte [permitir/bloquear o acesso de convidado a grupos do Office 365](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
 
 ## <a name="microsoft-teams"></a>Microsoft Teams
 No Microsoft Teams, você pode controlar se a experiência do convidado será habilitada ou desabilitada para a sua organização. A configuração é desabilitada por padrão e é aplicável no nível do locatário somente no Microsoft Teams.
@@ -104,7 +104,7 @@ Para habilitar a experiência completa de acesso de convidados no Teams, os admi
 
 - No SharePoint Online: **Permitir apenas compartilhamento com usuários externos já constantes do diretório**
     
-    Para obter mais informações, consulte [Gerenciar compartilhamento externo para o seu ambiente do SharePoint Online](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-c8a462eb-0723-4b0b-8d0a-70feafe4be85).
+    Para obter mais informações, consulte [Gerenciar compartilhamento externo para o seu ambiente do SharePoint Online](https://docs.microsoft.com/en-us/sharepoint/external-sharing-overview).
     
   
 - Nos grupos do Office 365: **Permitir que proprietários de grupos adicionem aos grupos pessoas externas à organização**

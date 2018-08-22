@@ -1,5 +1,5 @@
 ---
-title: Defina o telefone convidam números incluídos no
+title: Definir o telefone números incluídos no convidam no Skype para Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: eb2c5c5e8cdc0562cb5a2e391c741763b1da0bd4
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 7aa426a1ede348e29230b177ecf790d9d32d7fbd
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703744"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490471"
 ---
-# <a name="set-the-phone-numbers-included-on-invites"></a>Defina o telefone convidam números incluídos no
+# <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Definir o telefone números incluídos no convidam no Skype para Business Online
 
-Serviços de audioconferência no Office 365 permite aos usuários em sua organização criar Skype para reuniões de negócios e Teams da Microsoft e, em seguida, permitir que os usuários discam para essas reuniões usando um telefone. No Office 365, você tem a opção de usar uma ponte de conferência de áudio da Microsoft ou uma ponte de conferência de áudio de terceiros que é hospedada por um provedor de serviços de audioconferência aprovada (ACP).
+> [!Note]
+> Para obter informações sobre a reunião convidar os números de telefone Teams da Microsoft, consulte [Defina o telefone números incluídos no convidam em equipes da Microsoft](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
+
+Serviços de audioconferência no Office 365 permite aos usuários em sua organização crie Skype para reuniões de negócios e, em seguida, permitir que os usuários discam para essas reuniões usando um telefone. No Office 365, você tem a opção de usar uma ponte de conferência de áudio da Microsoft ou uma ponte de conferência de áudio de terceiros que é hospedada por um provedor de serviços de audioconferência aprovada (ACP).
   
 > [!NOTE]
 > Não há um recurso com uma listagem de todos os números de discagem para a Audioconferência. Se você estiver procurando para ver se existem números de telefone de discagem disponíveis na sua área ou país/região, use o **Skype para centro de administração de negócios** > **voz** > **Números de telefone**, clique em **Adicionar** e em seguida **novos números de serviço **. Use as listas de **País/região**, estado/região do **** e **cidade** para filtrar search. > Além disso, se você estiver procurando por números de serviço gratuito tarifados, selecione **chamada gratuita** do estado/região **** lista.
@@ -43,24 +45,6 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Definir o número de telefone de discagem padrão para o organizador da reunião
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
-
-    ![Mostra a seleção de usuários no Microsoft Teams e Skype para centro de administração do Business](../images/teamsselectusers.png)
-
-2. Na parte superior da página, clique em **Editar**.
-
-    ![Clique em Editar no Microsoft equipes e Skype para Business Admin Center](../images/teamsedituser.png)
-
-3. Ao lado de **Conferência de áudio**, clique em **Editar**. 
-    
-    ![Clique em Editar ao lado de conferência de áudio](../images/teamseditaudioconf.png)
-
-4. Use os campos de **número de Chamada Tarifada** ou **número de chamada gratuito** para inserir os números para o usuário.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -89,26 +73,12 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
   - **A Microsoft tem o provedor**: Use o **número de Chamada Tarifada padrão** e **número de chamada gratuito padrão** lista para selecionar os números de padrão para o usuário.
     
     > [!NOTE]
-    > Pelo menos um número de chamada gratuito deve ser atribuído à sua ponte de conferência antes que ela pode ser definida como o número de chamada gratuita do padrão de um usuário. Para obter um número de discagem gratuito, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+    > Pelo menos um número de chamada gratuito deve ser atribuído à sua ponte de conferência antes que ela pode ser definida como o número de chamada gratuita do padrão de um usuário. Para obter um número de discagem gratuito, consulte [Getting números de telefone de serviço para Skype para negócios](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **Um terceiro é o provedor**: Use os campos de **número de Chamada Tarifada** e **número de chamada gratuito** para inserir os números para o usuário.
 
 
-## <a name="change-the-audio-conferencing-phone-number-for-users"></a>Alterar o número de telefone de conferência de áudio para usuários
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
-
-2. Na parte superior da página, clique em **Editar**.
-
-3. Ao lado de **Conferência de áudio**, clique em **Editar**. 
-    
-4. Use os campos de **número de Chamada Tarifada** ou **número de chamada gratuito** para inserir os números para o usuário.
-
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Redefinir os números de telefone de conferência de áudio
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. No **Skype para centro de administração de negócios**, escolha a **conferência de áudio**.
     
@@ -119,7 +89,7 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
 Por padrão, quando você altera as configurações de conferência de um usuário, um email é enviado ao usuário. Para alterar essa opção, consulte [Habilitar ou desabilitar o envio de emails ao alteram as configurações de conferência de áudio](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
-> Quando você altera as configurações de conferência de áudio de um usuário, Skype recorrente e futura para reuniões de negócios e Teams da Microsoft deve ser atualizado e enviado aos participantes. 
+> Quando você altera as configurações de conferência de áudio de um usuário, Skype recorrente e futura para reuniões de negócios deve ser atualizado e enviado aos participantes. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 

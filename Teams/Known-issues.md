@@ -3,19 +3,19 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/9/2018
+ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: marcl, ninadara
+ms.reviewer: marcl
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7053bade0b01a35ba8e43607b182c9faec63879
-ms.sourcegitcommit: c12afd4dd5509a4552b2999430953273d36db039
+ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21779515"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546395"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -131,7 +131,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 ## <a name="meetings"></a>Reuniões
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os usuários não podem acessar reuniões/conectores, mas têm caixas de correio Exchange Online. <br/> |Cliente ativamente EWS impede que os serviços no Exchange Online, mas precisa ter MS Teams compatível com dentro políticas do EWS. <br/> |Para tornar o MS Teams compatível com, você deve adicionar a seguinte sequência de agente do usuário for MS Teams dentro do EWSAllowList: `*skypespaces*`, incluindo asteriscos. O comando completo é:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Para obter mais informações:https://technet.microsoft.com/en-us/library/aa997443(v=exchg.160).aspx <br/> |30/5/17  <br/>|
+|Os usuários não podem acessar reuniões/conectores, mas têm caixas de correio Exchange Online. <br/> |Cliente ativamente EWS impede que os serviços no Exchange Online, mas precisa ter MS Teams compatível com dentro políticas do EWS. <br/> |Para tornar o MS Teams compatível com, você deve adicionar a seguinte sequência de agente do usuário for MS Teams dentro do EWSAllowList: `*skypespaces*`, incluindo asteriscos. O comando completo é:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Para obter mais informações:https://docs.microsoft.com/en-us/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |30/5/17  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|

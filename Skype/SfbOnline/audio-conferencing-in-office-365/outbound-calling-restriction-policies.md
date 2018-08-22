@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar o tipo de usuário final e conferência PSTN chamadas de áudio que podem ser feitas pelos usuários.
-ms.openlocfilehash: 473baddce6ddac5fa523f02477cd89f6a2c4f4a2
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 6096816ef9fb98811ec3ebed5a56b90a90b58c29
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22193009"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490571"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário
 
@@ -50,11 +50,11 @@ Controles de chamada de saída podem ser aplicados em uma base por usuário e fo
 
 2. Na parte superior da página, clique em **Editar**.
 
-3. Clique no menu ao lado de **Pontes de conferência**e clique em **Editar** na lista suspensa.
+3. Ao lado de **Conferência de áudio**, clique em **Editar**.
 
-4. No painel de **provedor de ponte de conferência** , em **restrições a serem dial-outs de reuniões deste usuário**, selecione a opção de restrição de discagem desejado.
+4. Em **permissão de discagem de reuniões**, selecione a opção de discagem restrição desejada.
 
-5. Clique em **Aplicar**. 
+5. Clique em **Salvar**. 
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 

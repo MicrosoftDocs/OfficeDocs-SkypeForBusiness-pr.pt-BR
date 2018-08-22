@@ -1,5 +1,5 @@
 ---
-title: Discando a partir de uma reunião para que outras pessoas possam participar
+title: Discagem externa de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,24 +14,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
-ms.openlocfilehash: 31d81b1a61838d4fcb8151ef467b14a9c1240c4b
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 392b237c36841990caacbaafd7c6d3dd8ebc7d77
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703380"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490451"
 ---
-# <a name="dialing-out-from-a-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião para que outras pessoas possam participar
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Discagem externa de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela
 
-Como organizador da reunião, você pode discar usando um Skype para aplicativo de negócios ou Teams da Microsoft para permitir que outras pessoas ingressem na reunião mesma usando seus telefones. Apesar de não ser necessário, quando estiver discando para alguém, recomenda-se que você disque o número completo, incluindo o código do país/região. Para que a discagem funcione:
+> [!NOTE]
+> Se você estiver procurando informações sobre discando check-out de uma reunião de equipes, consulte [discando check-out de uma reunião de equipes para que outras pessoas poderá ingressar nela](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
+
+Como organizador da reunião, você pode discar usando o Skype para o aplicativo de negócios para permitir que o ingresso de outras pessoas na reunião mesma usando seus telefones. Apesar de não ser necessário, quando estiver discando para alguém, recomenda-se que você disque o número completo, incluindo o código do país/região. Para que a discagem funcione:
   
-- Você pode discar somente se você ingressar em uma reunião usando um Skype para o aplicativo de negócios ou Teams da Microsoft.
+- Você pode discar somente se você ingressar em uma reunião usando um Skype para o aplicativo de negócios.
     
 - Você, como o organizador da reunião tiverem sido habilitados para conferência de áudio.
 
@@ -54,7 +56,7 @@ A discagem está disponível apenas para alguns países/regiões. Para obter uma
 
 [Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Licenciamento de complementos do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

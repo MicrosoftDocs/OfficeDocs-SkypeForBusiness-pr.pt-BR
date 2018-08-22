@@ -1,5 +1,5 @@
 ---
-title: Ativar ou desativar anúncios de entrada e de saída para reuniões
+title: Ativar ou desativar a entrada e sair de comunicados para reuniões em Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,45 +14,31 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to turn entry and exit announcements on or off in a Skype for Business Online meeting using the Skype for Business admin center. '
-ms.openlocfilehash: 9cd2c95d0dde2e61ca1f0378fe91a215bdfc2682
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: d6d1b70713ac0cd7a38f7de9cb84f0acb54cbe30
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302147"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490481"
 ---
-# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings"></a>Ativar ou desativar anúncios de entrada e de saída para reuniões
+# <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Ativar ou desativar a entrada e sair de comunicados para reuniões em Skype para negócios Online
 
-Quando você estiver configurando a conferência de áudio no Office 365, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para efetuar uma chamada para um Skype para reunião de negócios ou Teams da Microsoft. 
+> [!Note]
+> Para obter informações sobre os anúncios de entrada e saída no Teams da Microsoft, consulte [Ativar ou desativar anúncios de entrada e saída para reuniões em equipes da Microsoft](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams).
+
+Quando você estiver configurando a conferência de áudio no Office 365, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para efetuar uma chamada para um Skype para reunião de negócios. 
   
-A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência respostas do chamador com prompts de voz de um atendedor automático de conferência e, em seguida, dependendo das suas configurações, pode reproduzir notificações, peça aos chamadores registrar seu nome e configurar a segurança PIN. Um PIN é fornecido para um Skype para negócios ou Microsoft Teams organizador da reunião e permite que eles iniciar uma reunião se eles não é possível iniciar a reunião usando um Skype para aplicativo de negócios ou Teams da Microsoft. Você pode, no entanto, defini-lo para que não é necessário um PIN para iniciar uma reunião.
+A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência respostas do chamador com prompts de voz de um atendedor automático de conferência e, em seguida, dependendo das suas configurações, pode reproduzir notificações, peça aos chamadores registrar seu nome e configurar a segurança PIN. Um PIN é fornecido a um Skype para o organizador da reunião de negócios e permite que eles iniciem uma reunião se eles não é possível iniciar a reunião usando o Skype para o aplicativo de negócios. Você pode, no entanto, defini-lo para que não é necessário um PIN para iniciar uma reunião.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Definir as opções de participação da reunião
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
-
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
-
-3. No painel de **configurações de ponte** , habilitar ou desabilitar a **Habilitar a entrada da reunião e sair notificações para ser ativado**. Esta opção é selecionada por padrão. Se você desmarcar a ele, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
-    
-4. Em **tipo de anúncio de entrada/saída**, selecione **nomes ou números de telefone** ou **tons**.
-    
-5. Habilitar ou desabilitar **os chamadores Ask registrar seus nomes antes de ingressar na reunião**.
-    
-6. Depois de fazer as alterações, clique em **Aplicar**.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     

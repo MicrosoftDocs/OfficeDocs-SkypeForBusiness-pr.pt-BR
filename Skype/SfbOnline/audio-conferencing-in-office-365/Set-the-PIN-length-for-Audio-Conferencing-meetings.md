@@ -1,5 +1,5 @@
 ---
-title: Definir o tamanho PIN para reuniões de conferência de áudio
+title: Definir o tamanho PIN para reuniões de conferência de áudio no Skype para Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,41 +14,32 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: 16b6a34e5de790964f5472cb2ef598eebf4f838f
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 54ee8e70972a7033a9a759f8df37647ba5a2b700
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703814"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490561"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings"></a>Definir o tamanho PIN para reuniões de conferência de áudio
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Definir o tamanho PIN para reuniões de conferência de áudio no Skype para Business Online
 
-Quando você estiver configurando serviços de audioconferência para Skype para negócios ou Teams da Microsoft, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído em convites de reunião para Skype para aplicativos de negócios e Teams da Microsoft.
+
+> [!NOTE]
+> Para obter informações sobre como definir o tamanho do PIN no Teams da Microsoft, consulte [definir o comprimento PIN para reuniões de conferência de áudio em equipes da Microsoft](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).
+
+Quando você estiver configurando serviços de audioconferência para Skype for Business, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído em convites de reunião para o Skype para o aplicativo de negócios.
   
-A ponte de conferência de áudio atende uma chamada para pessoas que estão discando para uma reunião usando um telefone. Ela atende do chamador com prompts de voz de um atendedor automático e em seguida, dependendo de suas definições, pode reproduzir notificações e será feita aos chamadores a registrar seu nome. **Configurações de ponte da Microsoft** permitem que você alterar as configurações de notificações de reunião e experiência de ingresso na reunião e definir o tamanho dos pinos que são usados pelo organizadores de reunião. Organizadores de reunião usam PINs para iniciar reuniões, se eles não podem ingressar na reunião usando o Skype para aplicativos de negócios ou Teams da Microsoft.
+A ponte de conferência de áudio atende uma chamada para pessoas que estão discando para uma reunião usando um telefone. Ela atende do chamador com prompts de voz de um atendedor automático e em seguida, dependendo de suas definições, pode reproduzir notificações e será feita aos chamadores a registrar seu nome. **Configurações de ponte da Microsoft** permitem que você alterar as configurações de notificações de reunião e experiência de ingresso na reunião e definir o tamanho dos pinos que são usados pelo organizadores de reunião. Organizadores de reunião usam PINs para iniciar reuniões, se eles não podem ingressar na reunião usando o Skype para o aplicativo de negócios.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
-
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
-
-3. No painel de **configurações de ponte** , em **tamanho do PIN**, selecione o número de dígitos que você deseja para o PIN.
-
-4. Clique em **Aplicar**.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
  
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
@@ -61,7 +52,7 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
 
 - PINs podem ter entre 4 para 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
     
-- Um PIN só é necessário para o organizador da reunião quando um Skype para usuário de negócios ou Microsoft Teams já não tiver iniciado a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
+- Um PIN só é necessário para o organizador da reunião quando um Skype para o usuário de negócios já não tiver iniciado a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
     
 - As configurações de segurança do PIN são aplicadas a todos os números de telefone associados a uma ponte da Microsoft. Elas serão aplicadas a todas as reuniões que usam os números de telefone associados a determinada ponte. 
     

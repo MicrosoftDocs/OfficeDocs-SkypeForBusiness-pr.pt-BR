@@ -1,5 +1,5 @@
 ---
-title: Habilitar ou desabilitar o envio de emails ao alteram suas configurações
+title: Habilitar ou desabilitar o envio de emails quando as configurações de conferência de áudio altera em Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,22 +14,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 9656dc25347661626397e4f95daee7bd5f460a6d
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: 4d52603fb0d2701cbebd58644cd002dbc94baf89
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703440"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490581"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change"></a>Ativar ou desativar o envio de emails quando alterar configurações de conferência de áudio
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar ou desabilitar o envio de emails quando as configurações de conferência de áudio altera em Skype para negócios Online
 
-Os usuários são notificados automaticamente por email quando estiverem habilitados para conferência de áudio. Pode haver momentos, entretanto, quando você deseja reduzir o número de emails que são enviadas para Skype para usuário Teams da Microsoft e de negócios. Nesses casos, você pode desabilitar o envio de email.
+> [!Note]
+> Se você deseja habilitar ou desabilitar o envio de emails em Teams da Microsoft, consulte [Habilitar ou desabilitar o envio de emails quando as configurações de conferência de áudio alterar nas equipes da Microsoft](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams).
+
+Os usuários são notificados automaticamente por email quando estiverem habilitados para conferência de áudio. Pode haver momentos, no entanto, quando você deseja reduzir o número de emails que são enviadas para Skype para usuários comerciais. Nesses casos, você pode desabilitar o envio de email.
   
 Se você desabilitar o envio de emails, emails de conferência de áudio não serão enviadas aos seus usuários, incluindo emails para quando os usuários estão habilitados ou desabilitados para conferências de áudio, quando o seu PIN é redefinido e quando as alterações no número de telefone a ID de conferência e a conferência padrão .
   
@@ -52,23 +54,13 @@ Aqui está um exemplo de email enviada aos usuários quando eles estão habilita
   - Quando o provedor de serviços de audioconferência de um usuário for alterado da Microsoft para outro provedor ou **Nenhum**.
     
   - Quando o provedor de serviços de audioconferência de um usuário é alterado para Microsoft.
-    
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Habilitar ou desabilitar o email que está sendo enviado a usuários
 
-Você pode usar o Microsoft Teams, o Skype para centro de administração de negócios, ou o Windows PowerShell para habilitar ou desabilitar o email enviado aos usuários.
+Você pode usar o Skype para centro de administração de negócios ou o Windows PowerShell para habilitar ou desabilitar o email enviado aos usuários.
 
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
-
-2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
-
-3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de discagem**.
-
-4. Clique em **Salvar**.
-  
+ 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, clique em **conferência de áudio**.

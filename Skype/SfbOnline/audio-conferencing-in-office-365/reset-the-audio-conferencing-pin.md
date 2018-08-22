@@ -1,5 +1,5 @@
 ---
-title: Redefinir o PIN de conferência de áudio
+title: Redefinir a PIN em Skype audioconferência for Business Online
 mms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,39 +14,28 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Descubra o que você deve saber sobre PINs e como redefini-las. '
-ms.openlocfilehash: 85e890327da538016ffb874ee01be0e86959f47e
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Descubra o que você deve saber sobre PINs e como redefini-las no Skype para negócios Online. '
+ms.openlocfilehash: 7e47f3e33dbb6811f5fabafc1ccd213f8e0bac11
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703754"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490601"
 ---
-# <a name="reset-the-audio-conferencing-pin"></a>Redefinir o PIN de conferência de áudio
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir a PIN em Skype audioconferência for Business Online
 
-Um PIN é um código formado por números que são criados para cada Skype para usuário Teams da Microsoft e de negócios que esteja habilitado para serviços de audioconferência. PINs de conferência de áudio são usados pelo organizadores de reunião para identificar se eles são o organizador da reunião e permitir que eles se iniciar uma reunião por telefone. Se eles usarem o Skype para aplicativo de negócios ou Teams da Microsoft para iniciar a reunião, um PIN não é exigido. Se os usuários se esquecer seu PIN e eles não é possível encontrá-lo no email que foi enviado para acessá-los quando eles foram habilitados para conferência de áudio, um administrador pode redefinir seu PIN, ou eles podem redefinir o PIN de seu próprios.
+> [!Note]
+> Para obter informações sobre a redefinição de PINs de conferência de áudio no Microsoft Teams, consulte [Redefinir o PIN de conferência de áudio em equipes da Microsoft](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams).
+
+Um PIN é um código formado por números que são criados para cada Skype para usuário Business que esteja habilitado para serviços de audioconferência. PINs de conferência de áudio são usados pelo organizadores de reunião para identificar se eles são o organizador da reunião e permitir que eles se iniciar uma reunião por telefone. Se eles usarem o Skype para o aplicativo de negócios para iniciar a reunião, um PIN não é exigido. Se os usuários se esquecer seu PIN e eles não é possível encontrá-lo no email que foi enviado para acessá-los quando eles foram habilitados para conferência de áudio, um administrador pode redefinir seu PIN, ou eles podem redefinir o PIN de seu próprios.
   
-Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando um Skype para aplicativo de negócios ou Microsoft Teams ou quando o organizador ingressa com seu PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
-
-> [!NOTE]
-> [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
+Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando o Skype para o aplicativo de negócios ou quando o organizador ingressa com seu PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
   
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
-
-2. Na parte superior da página, clique em **Editar**.
-
-3. Em **Conferência de áudio**, clique em **Redefinir PIN**.
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **usando o Skype para centro de administração de negócios**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -60,13 +49,6 @@ Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
 ## <a name="have-a-user-reset-his-or-her-own-pin"></a>Faça com que um usuário redefinir o PIN de seu próprio
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. Solicite que o usuário acesse [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
-2. Clique em **Redefinir o PIN**. 
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **usando o Skype para centro de administração de negócios**
 
 Um usuário pode redefinir um PIN, utilizando a opção **Redefinir PIN** na página **conferência discada** . Essa página pode ser acessada em uma destas três formas:
 

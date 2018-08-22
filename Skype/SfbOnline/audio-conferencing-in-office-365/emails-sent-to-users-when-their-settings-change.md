@@ -1,5 +1,5 @@
 ---
-title: Emails enviados aos usuários ao alteram suas configurações
+title: Emails enviados aos usuários quando suas configurações altera em Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,20 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Learn about what information is sent automatically to users by email when their dial-in conferencing settings change. '
-ms.openlocfilehash: 4766f8f236cbe94b11660165b8659a892d301285
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+description: 'Saiba mais sobre quais informações é enviada automaticamente aos usuários por email quando suas configurações de conferência discada alterar no Skype para negócios Online. '
+ms.openlocfilehash: cfa3e86be0d282e335b20a094e60835df3471358
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703430"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490491"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change"></a>Emails enviados aos usuários ao alteram suas configurações
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Emails enviados aos usuários quando suas configurações altera em Skype para negócios Online
+
+> [!Note]
+> Se você estiver procurando por informações de email automático no Teams da Microsoft, consulte [Emails enviados para os usuários quando suas configurações de alteração nos equipes da Microsoft](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams).
 
 Emails serão enviados automaticamente para usuários que estão [habilitados para conferência de áudio](set-up-audio-conferencing.md) usando o Microsoft como um provedor de serviços de audioconferência.
   
@@ -35,7 +37,7 @@ Por padrão, há quatro tipos de email que será enviada para os usuários habil
   
 - **Uma licença de conferência de áudio é atribuída a eles ou quando você estiver alterando o provedor de serviços de audioconferência à Microsoft.**
     
-     Este email inclui o ID de conferência, o número de telefone de conferência padrão para as reuniões, os serviços de audioconferência PIN para o usuário e as instruções e link usar o Skype para negócios Online Meeting Update Tool que é usado para atualizar as reuniões existentes para o usuário. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [Atribuir Microsoft como um provedor de serviços de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
+     Este email inclui o ID de conferência, o número de telefone de conferência padrão para as reuniões, os serviços de audioconferência PIN para o usuário e as instruções e link usar o Skype para negócios Online Meeting Update Tool que é usado para atualizar as reuniões existentes para o usuário. Consulte [Atribuir Skype para licenças de negócios](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) ou [Atribuir Microsoft como um provedor de serviços de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
     
     > [!NOTE]
     > [!OBSERVAçãO] Se a sua organização estiver habilitada para IDs de conferência dinâmicas, todas as reuniões de um usuário agendadas terão IDs de conferência exclusivas. Você pode configurar as [IDs de conferência de áudio dinâmicos em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md). 
@@ -44,7 +46,7 @@ Por padrão, há quatro tipos de email que será enviada para os usuários habil
     
      ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
   
-    Você pode encontrar mais informações sobre Skype para licenciamento de negócios, conferindo [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+    Você pode saber mais sobre as licenças do Skype for Business em [Licenciamento de complementos do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
 - **A ID de conferência ou número de telefone de conferência padrão de um usuário for alterado.**
     
@@ -106,18 +108,8 @@ Você pode usar o cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://
 
 Ao desativar o envio de emails para os usuários, o email não será enviado mesmo quando o usuário receber uma licença. Neste caso, o ID de conferência, padrão o número de telefone de conferência e, mais importante, o seu PIN de conferência de áudio não será enviada ao usuário. Quando isso acontecer, você deve informar ao usuário, enviando um email separado ou ligando para eles.
   
-Por padrão, emails serão enviadas aos seus usuários, mas se desejar impedir a email de recebimento para conferência de áudio, você pode usar o Microsoft Teams, o Skype para o Centro de administração de negócios, ou o Windows PowerShell. 
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
-
-2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
-
-3. No painel de **configurações de ponte** , habilite ou desabilite a **Enviar automaticamente os e-mails para os usuários se alteram suas configurações de discagem**.
-
-4. Clique em **Salvar**.
-  
+Por padrão, emails serão enviadas aos seus usuários, mas se você deseja impedir recebendo email para conferência de áudio, você pode usar o Skype para o Centro de administração de negócios ou o Windows PowerShell. 
+ 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **usando o Skype para centro de administração de negócios**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.

@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 112381db7d4d2bc160917b41c7e8e437ef737bcf
-ms.sourcegitcommit: d619e44d685e2109b995ffd67ff4b98e5647c8ea
+ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21762939"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546522"
 ---
 # <a name="configure-direct-routing"></a>Configurar o roteamento direto
 
 Se você não tiver feito isso, leia [Planejar roteamento direto](direct-routing-plan.md) para os pré-requisitos e para examinar outras etapas você precisará executar antes de configurar sua rede Microsoft Phone System. 
 
-Este artigo descreve como configurar o roteamento direto do Microsoft Phone System. Ele detalha como emparelhar um suportados borda controlador sessão (SBC) roteamento direto e como configurar usuários Teams da Microsoft para usar o roteamento diretas para conectar-se para a comutação telefônica PSTN (rede pública). Para concluir as etapas explicadas neste artigo, os administradores precisam de familiaridade com os cmdlets do PowerShell. Para obter mais informações sobre como usar o PowerShell, consulte [Configurar o computador para o Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+Este artigo descreve como configurar o roteamento direto do Microsoft Phone System. Ele detalha como emparelhar um suportados borda controlador sessão (SBC) roteamento direto e como configurar usuários Teams da Microsoft para usar o roteamento diretas para conectar-se para a comutação telefônica PSTN (rede pública). Para concluir as etapas explicadas neste artigo, os administradores precisam de familiaridade com os cmdlets do PowerShell. Para obter mais informações sobre como usar o PowerShell, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 Recomendamos que você confirme que seu SBC já foi configurado conforme recomendado pelo seu fornecedor SBC: 
 
@@ -43,7 +43,7 @@ Estes são os três passos de alto nível para permitem que você conecte ou emp
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>Se conectam ao Skype para Business Online usando o PowerShell 
 
-Você pode usar uma sessão do PowerShell conectada ao inquilino emparelhar o SBC à interface de roteamento direto. Para abrir uma sessão do PowerShell, execute as etapas descritas em [configurar seu computador para o Windows PowerShell](https://technet.microsoft.com/library/dn362831.aspx). 
+Você pode usar uma sessão do PowerShell conectada ao inquilino emparelhar o SBC à interface de roteamento direto. Para abrir uma sessão do PowerShell, execute as etapas descritas em [configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
 Depois de estabelecer uma sessão PowerShell remota, valide que você pode ver os comandos para gerenciar o SBC. Para validar os comandos, digite ou copiar/colar nas seguintes na sessão PowerShell e pressione Enter: 
 

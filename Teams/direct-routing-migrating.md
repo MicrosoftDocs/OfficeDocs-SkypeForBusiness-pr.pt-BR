@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba o que é necessário para migrar o roteamento direto de um Skype para Business Online e perspectiva de configuração de equipes.
-ms.openlocfilehash: 04e8f141776dd3003352b3df888092960e23dcf6
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 859ab19162f8cf16cc419f7f871fc0059e4566d6
+ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211140"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22546593"
 ---
 # <a name="migrating-to-direct-routing"></a>Migrando para o roteamento direto
 
@@ -79,8 +79,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Para obter mais informações sobre a migração do sistema telefônico com conectividade PSTN local no Skype para Business Server, consulte o seguinte:
 
-- [Planejamento](https://technet.microsoft.com/en-us/library/mt455212.aspx)
-- [Implantando](https://technet.microsoft.com/en-us/library/mt634319.aspx) 
+- [Planejamento](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [Implantando](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 É recomendável que você remova as seguintes informações de roteamento de voz previamente configurado:
 
@@ -91,8 +91,8 @@ Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN>
 
 Para obter mais informações sobre a migração do sistema telefônico com conectividade PSTN de local por meio do conector de nuvem, consulte o seguinte:
 
-- [Planejamento](https://technet.microsoft.com/en-us/library/mt605227.aspx)  
-- [Implantando](https://technet.microsoft.com/en-us/library/mt634319.aspx)
+- [Planejamento](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [Implantando](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [Configuração do usuário](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 É recomendável que você remova as seguintes informações de roteamento de voz previamente configurado:

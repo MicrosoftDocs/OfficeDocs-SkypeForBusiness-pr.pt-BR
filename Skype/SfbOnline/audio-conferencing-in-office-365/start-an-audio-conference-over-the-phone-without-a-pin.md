@@ -1,5 +1,5 @@
 ---
-title: Iniciar uma conferência de áudio por telefone sem um PIN
+title: Iniciar uma conferência de áudio por telefone sem um PIN em Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,45 +14,33 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 8abdd9bcd61c55c7d55d896feef36afed22b312f
-ms.sourcegitcommit: 527c7dd4c5edc70503ba31e7c689a71d7356b17e
+ms.openlocfilehash: f0e65b3ea4ad5c989137307a1c41bc70bc092086
+ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "19703470"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "22490551"
 ---
-# <a name="start-an-audio-conference-over-the-phone-without-a-pin"></a>Iniciar uma conferência de áudio por telefone sem um PIN
+# <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Iniciar uma conferência de áudio por telefone sem um PIN em Skype para negócios Online
 
-Talvez seja frustrante para usuários que discam para uma reunião para ser mantidos no lobby da reunião escutando música porque o Skype para negócios ou Microsoft Teams organizador da reunião não tiver iniciado a reunião. 
+> [!Note]
+> Para obter informações sobre como iniciar uma conferência de áudio sem um PIN em Teams da Microsoft, consulte [Iniciar uma conferência de áudio por telefone sem um PIN em equipes da Microsoft](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams).
+
+Talvez seja frustrante para usuários que discam para uma reunião para ser mantidos no lobby da reunião escutando música porque o Skype para o organizador da reunião de negócios não tiver iniciado a reunião. 
   
 Se o organizador da reunião chama reunião, por padrão, é necessário um PIN para iniciar uma reunião. Você pode montá-lo para que qualquer pessoa pode discar para uma reunião e não ser solicitado a fornecer um PIN para iniciar a reunião. Você pode usar o Centro de administração do Skype for Business para habilitar ou desabilitar essa configuração para um único usuário.
   
-Um PIN não é necessário para o organizador da reunião, se alguém tiver iniciado a reunião de um Skype para aplicativo de negócios ou Teams da Microsoft. É necessário inserir um PIN somente quando o organizador da reunião participa da reunião por telefone. O PIN para reuniões é enviado ao usuário áudio quando eles recebem a licença de **Serviços de audioconferência** e estão habilitados para conferência de áudio. Consulte [Enviar um email a um usuário com as informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md) e [Emails que são enviados automaticamente para os usuários quando alteram suas configurações de conferência de áudio](emails-sent-to-users-when-their-settings-change.md).
+Um PIN não é necessário para o organizador da reunião, se alguém tiver iniciado a reunião a partir do Skype para o aplicativo de negócios. É necessário inserir um PIN somente quando o organizador da reunião participa da reunião por telefone. O PIN para reuniões é enviado ao usuário áudio quando eles recebem a licença de **Serviços de audioconferência** e estão habilitados para conferência de áudio. Consulte [Enviar um email a um usuário com as informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information.md) e [Emails que são enviados automaticamente para os usuários quando alteram suas configurações de conferência de áudio](emails-sent-to-users-when-their-settings-change.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Habilitar ou desabilitar chamadores anônimos para participar de uma reunião
-
-![as equipes de logotipo-30x30.png](../images/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
-
-1. No painel de navegação esquerdo, clique em **usuários**. 
-
-2. Selecione um usuário na lista e clique em **Editar** na parte superior da página. 
-
-3. Clique no menu ao lado de **Pontes de conferência**e, em seguida, clique em **Editar**.
-
-4. No painel de tarefas do **provedor de ponte de conferência** , habilite ou desabilite **chamadores de permitir não autenticado para ser as primeira pessoas em uma reunião. Se não, em seguida, eles aguardará no lobby até que um usuário autenticado**.
-    
-4. Clique em **Aplicar**. 
-
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
     
 1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**. 
     
