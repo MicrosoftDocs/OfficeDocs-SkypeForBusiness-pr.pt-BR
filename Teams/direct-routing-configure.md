@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 664aae1a213859a6e4e73ec4c75ce39b6058788e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546522"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599418"
 ---
 # <a name="configure-direct-routing"></a>Configurar o roteamento direto
 
@@ -518,19 +518,10 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 O resultado é que a política de voz aplicada às chamadas de John Woods são unrestricted e seguirá a lógica de roteamento de chamada disponível para as chamadas dos Estados Unidos, Canadá e internacional.
 
-## <a name="enable-calling-for-microsoft-teams"></a>Habilitar a chamada para equipes da Microsoft
-
-Antes de um usuário pode ver a guia chamadas no Teams da Microsoft, você precisará habilitar privada chamadas para o inquilino no Microsoft Teams. Para fazer isso:
-
-1.  Entrar como administrador de locatários no Centro de administração do Office 365.
-2.  Vá para **configurações, serviços e suplementos** e selecione **Equipes da Microsoft**. 
-3.  Expanda **chamadas e reuniões** e verifique se **Permitir privada chamar** é **no**.
-
-    ![Captura de tela mostrando permitir chamadas privada é ativada.](media/ConfigDirectRouting-CallsandMeetingsDialog.png)
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Definir Teams Microsoft como o cliente de chamada preferencial para os usuários
 
-Roteamento direto apenas rotear as chamadas para e de usuários se eles usarem equipes Cleint. Se sua organização usar somente equipes cleint, definindo "Equipes apenas" na política de atualização é recomendado. Se você organização usa Skype para Business Server ou Skype para Business Online, revise o seguinte documento [Noções básicas sobre a jornada coexistência e atualização para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) e selecione a opção apropriada. 
+Roteamento direto apenas rotear as chamadas para e de usuários se eles usarem equipes Cleint. Se sua organização usar somente o cliente de equipes, definindo "Equipes apenas" na política de atualização é recomendado. Se você organização usa Skype para Business Server ou Skype para Business Online, revise o seguinte documento [Noções básicas sobre a jornada coexistência e atualização para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) e selecione a opção apropriada. 
 
 
 ## <a name="see-also"></a>Consulte também

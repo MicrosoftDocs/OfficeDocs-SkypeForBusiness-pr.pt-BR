@@ -10,12 +10,12 @@ ms.reviewer: marcl
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca61e36069262ddb2ea43dde300c169d6992ba8
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 07cccce7a0c0b13a42c776bff8b5b0367792d7a2
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546395"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599364"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
   
@@ -43,6 +43,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |"Atribuições" app permanece visble quando desabilitada  <br/> |Quando o aplicativo "Atribuições" está desabilitado no Centro de administração, permanece visível no cliente equipes para usuários licenciados EDU. Selecionando-o quando desabilitada retornará um erro indicando, "Doh! Algo deu errado..."  <br/> |Não há solução alternativa.  <br/> |12/29/17  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível excluir conectores como um proprietário de equipe  <br/> |A tentativa de excluir um conector como um proprietário, caso contrário, que pode adicionar um conector, enquanto "Permitir que os membros para criar, atualizar e remover conectores" está desabilitada gera um erro indicando o usuário não tem permissão para fazê-lo. <br/> |Habilitando temporariamente "Permitir que os membros criar, atualizar e remover conectores" permitirá que o proprietário para excluir o conector.  <br/> |27/7/18  <br/> |
 
 ## <a name="authentication"></a>Autenticação
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|

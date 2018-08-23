@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 66929e86e6e049ee1dd5c839bfcc4adcc3edf35f
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: b6740951e65a2c917c95cce884f3c2a42ea004e7
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21752559"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599458"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -110,8 +110,8 @@ A tabela a seguir mostra exemplos de nomes DNS registrados para o locatário, se
 Contoso.com|Sim|**Nomes válidos:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>Europe.contoso.com|
 |Contoso.onmicrosoft.com|Não|<br/>Usando *. onmicrosoft.com domínios não há suporte para nomes SBC
 
-Se você quiser usar um novo nome de domínio. Por exemplo, o seu locatário tiver contoso.com como um nome de domin registrado no seu locatário. Você deseja usar sbc1.sip.contoso.com. Antes de você pode emparelhar um SBC com nome sbc1.sip.contoso.com, você precisa registrar sip.contoso.com de nome de domínio em "Domínios" no seu locatário. Se você tentar emparelhamento sbc1.sip.contoso.com um SBC receberá um erro "Não pode usar o domínio"sbc1.sip.contoso.com"à medida que ele não foi configurado para este locatário."
-Depois que você adicionou o nome de domínio, você também precisará criar um usuário com o UPN user@sip.contoso.com e assing um lisence "Equipes". Ela pode levar até 24 horas para provisionar totalmente o nome de domínio após ela adicionada à "Domínios" de locatário, um usuário com o novo nome criado e um lisence atribuída ao usuário. 
+Se você quiser usar um novo nome de domínio. Por exemplo, o seu locatário tiver contoso.com como um nome de domínio registrado no seu locatário. Você deseja usar sbc1.sip.contoso.com. Antes de você pode emparelhar um SBC com nome sbc1.sip.contoso.com, você precisa registrar sip.contoso.com de nome de domínio em "Domínios" no seu locatário. Se você tentar emparelhamento sbc1.sip.contoso.com um SBC receberá um erro "Não é possível usar o domínio"sbc1.sip.contoso.com"à medida que ele não foi configurado para este locatário."
+Depois que você adicionou o nome de domínio você também precisará criar um usuário com o UPN user@sip.contoso.com e atribuir uma licença "Equipes". Ela pode levar até 24 horas para provisionar totalmente o nome de domínio após ela adicionada à "Domínios" de locatário, um usuário com o novo nome criado e uma licença atribuída ao usuário. 
 
 É possível que uma empresa pode ter vários espaços de endereçamento SIP em um locatário. Por exemplo, uma empresa pode ter contoso.com como um espaço de endereço SIP e fabrikam.com como o espaço de endereço SIP segundo. Alguns usuários têm endereço user@contoso.com e alguns usuários têm user@fabrikam.com endereço. 
 
@@ -130,18 +130,25 @@ Como alternativa, roteamento direto suporta um curinga no nome ou SAN comuns e o
 
 O certificado precisa ser gerado por uma das seguintes autoridades de certificação raiz:
 
+- AffirmTrust
 - AddTrust externo da autoridade de certificação raiz
 - Raiz do Baltimore CyberTrust
 - Buypass
+- CyberTrust
 - Autoridade de certificação principal pública classe 3 
+- Marcos Telekom 
 - CA de raiz Global DigiCert 
 - Entrust
 - GlobalSign
 - Go Daddy
+- GeoTrust
 - VeriSign, Inc. 
+- Campo estelar 
 - Raiz móvel Symantec Enterprise para Microsoft 
+- SwissSign
 - Carimbo de hora Thawte CA
 - Pela Trustwave.
+- TeliaSonera 
 - T-Systems internacional GmbH (marcos Telekom)
 - QuoVadis
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Saiba como configurar a integração do Cloud Connector com seu locatário do Office 365.
-ms.openlocfilehash: d5ae0b70a22219ee0430908bd3b3752d6ebd6357
-ms.sourcegitcommit: abc0f95ef0efe15a8c38cc27a3991abf7480c30e
+ms.openlocfilehash: 01a3eac7356846b7d3b153ff4e01c9b52c3744ce
+ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/08/2018
-ms.locfileid: "20211148"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22599411"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar a integração do Cloud Connector com seu locatário do Office 365
  
@@ -168,7 +168,13 @@ Quando uma chamada de P2P será escalonada para uma conferência PSTN, o Skype p
     
     Observe que a atribuição de licença é apenas necessário para a propagação do usuário para o Skype para o diretório de negócios online. Atribua um licenças do Office 365 (por exemplo, E5) para a conta que você cria, permite até uma hora para que as alterações sejam propagadas e depois remova a licença dessa conta.
     
-2. Iniciar uma sessão de PowerShell remota do inquilino usando suas credenciais de administrador de locatário e execute o seguinte cmdlet para definir o servidor de mediação e o FQDN do servidor de borda para o usuário da conta, substituir \<DisplayName\> com o nome de exibição do usuário para o conta criada:
+2. Iniciar uma sessão de PowerShell remota do locatário Azure AD usando seu global ou credenciais de administrador do usuário e execute o seguinte cmdlet para definir o departamento para a conta de usuário do Windows Azure AD configurado na etapa 1 para "HybridMediationServer":
+
+ ```
+  Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
+  ```
+
+3. Iniciar um locatário Skype para a sessão PowerShell remota comerciais usando seu Skype para credenciais de administrador de locatário de negócios e execute o seguinte cmdlet para definir o servidor de mediação e o FQDN do servidor de borda para o usuário da conta, substituir \<DisplayName\> com o nome de exibição do usuário para a conta que você criou na etapa 1:
     
   ```
   Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>

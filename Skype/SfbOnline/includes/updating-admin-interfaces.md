@@ -1,1 +1,1 @@
-Estamos constantemente atualizando as maneiras de gerenciar os recursos do Microsoft Teams, então as etapas aqui podem ser um pouco diferentes no centro de administração do Microsoft Teams e do Skype for Business.
+Estamos frequentemente atualizando o modo como você pode gerenciar recursos encontrados no Skype for Business Online, portanto as etapas aqui podem ser um pouco diferentes.
