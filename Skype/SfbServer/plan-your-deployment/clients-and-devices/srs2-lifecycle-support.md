@@ -1,7 +1,7 @@
 ---
 title: Suporte à versão
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 4/17/2018
 ms.audience: ITPro
@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute o ciclo de vida suporte para sistemas de sala Skype v2.
-ms.openlocfilehash: 596197a240d4cf44e8bcf0d0069f9cad5d5e6777
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+ms.openlocfilehash: 86f71f1ddd554c9a9d368cdb725367a368257453
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601952"
 ---
 # <a name="version-support"></a>Suporte à versão
  
@@ -38,11 +39,8 @@ Todas as versões estão listadas nas [notas de versão de sistemas de sala Skyp
 <a name="See"> </a>  
 ## <a name="see-also"></a>Ver também
 
-
-#### 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Notas de versão do Skype sala sistemas v2](srs2-release-note.md)
 
-[Planejar a sala Skype v2 de sistemas](skype-room-systems-v2-0.md)
-
+[Planejar o Skype Room Systems versão 2](skype-room-systems-v2-0.md)

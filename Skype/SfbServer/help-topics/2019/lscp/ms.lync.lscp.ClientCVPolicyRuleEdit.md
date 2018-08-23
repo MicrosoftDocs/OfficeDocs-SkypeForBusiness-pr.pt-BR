@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Uma política de versão de cliente é composta por um conjunto de regras de versão de cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente.
-ms.openlocfilehash: cd89e0bd5bf6781ea8381563e592d57a3e68434a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ddebab20af21be8a6c3cbff558cec6d118dd60d0
+ms.sourcegitcommit: c85211a22921d02ffa9f300a4f8350ffbb90b38c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988731"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "22601910"
 ---
 # <a name="client-version-rule"></a>Regra de Versão do Cliente
  
@@ -35,7 +35,7 @@ Uma política de versão de cliente é composta por um conjunto de regras de ver
 
 As listas a seguir descrevem os menus, comando, campos e propriedades na página.
   
-- **Agente do usuário** Você pode selecionar um tipo de cliente da lista. A tabela a seguir define códigos de agente de usuário.
+- **Agente do usuário** Você pode selecionar um tipo de cliente da lista. A tabela a seguir define códigos de agente de usuário. Esta lista inclui os tipos de cliente herdado, algumas das quais não são mais suportadas.  
     
 |**Nome do cliente**|**Agente do usuário**|
 |:-----|:-----|

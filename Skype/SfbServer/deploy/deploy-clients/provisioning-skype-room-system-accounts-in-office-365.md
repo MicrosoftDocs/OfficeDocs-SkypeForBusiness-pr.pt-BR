@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Leia este tópico para aprender sobre provisionamento de contas do Sistema de Salas do Skype no Office 365.
-ms.openlocfilehash: b248168870366db8f685db48197badb3bacf935f
-ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
+ms.openlocfilehash: 8120fb2fe8db35eb3907128d65f5b55bb5f544ec
+ms.sourcegitcommit: a9556a51f7f970fc05ab0acc9998401db3c1aa57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22102050"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "22601973"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Provisionamento das contas do Sistema de Salas do Skype no Office 365
  
@@ -26,7 +26,7 @@ A seção a seguir aborda a conta do sistema de sala do Skype provisionamento pa
 
 Seu locatário online deve cumprir os seguintes requisitos:
   
-- O plano do Office 365 deve incluir Skype para negócios Online plano 2, 3 do plano, ou Office 365 E1, E3 ou E5.
+- O plano do Office 365 deve incluir Skype para negócios Online 2 do plano, ou Office 365 E1, E3 ou E5. <br/>Para obter detalhes sobre Skype para negócios Online planos, consulte o [Skype para negócios Online Service Description](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Seu inquilino deve ter a capacidade de conferência do Skype para negócios habilitado.
     
@@ -44,9 +44,9 @@ Para a conta da Sala do Skype, o seguinte licenciamento é exigido:
   
 - Um Skype para negócios Online plano 2 ou Office 365 E1 ou E3 licença é necessária para habilitar Skype reuniões.
     
-- Para dão direito a sala com o recurso de Enterprise Voice para que a sala pode ser habilitada com um número de telefone, um Skype para negócios Online plano 2 com a nuvem complemento de PBX ou Office 365 E5 é necessária (1).
+- Para dão direito a sala com o recurso de Enterprise Voice para que a sala pode ser habilitada com um número de telefone, um Skype para negócios Online plano 2 com a licença do sistema telefônico ou Office 365 E5 é necessária (1).
     
-- A disponibilidade da qualificação de Conferência por PSTN em uma determinada reunião é determinada pela licença do organizador da reunião.
+- Se você precisar de recursos de dial-in de uma reunião, você precisará uma conferência de áudio e a licença do sistema telefônico.  Se você precisar de recursos de discagem de uma reunião, será necessário um locais ou nacionais e internacionais chamar planejar. 
     
 - Uma licença do Exchange Online não é necessária para a conta da Sala do Skype porque a conta deve ser configurada como uma conta de caixa postal de recursos. 
     
@@ -138,4 +138,7 @@ No Office 365, a política de expiração de senha padrão para todas as contas 
 
 Para obter mais informações, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
+## <a name="validate"></a>Validar
+
+Para validação, você deve ser capaz de usar qualquer Skype para o cliente de negócios para entrar com a conta que você criou.
 

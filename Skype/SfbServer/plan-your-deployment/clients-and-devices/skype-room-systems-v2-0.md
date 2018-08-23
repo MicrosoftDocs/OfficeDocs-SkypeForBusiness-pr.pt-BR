@@ -1,7 +1,7 @@
 ---
 title: Planejar o Skype Room Systems versão 2
 ms.author: jambirk
-author: jambirk
+author: davgroom
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Este artigo explica as considerações de planejamento relevantes para implantar sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 89bcfb0e668526893b14dba5202a4e22fed2e8a8
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
+ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856112"
+ms.lasthandoff: 08/13/2018
+ms.locfileid: "22601945"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Planejar a sala Skype v2 de sistemas 
 
@@ -74,7 +74,7 @@ Talvez você precise coordenar essas atividades em várias equipes. Fornecemos u
 | Seleção de dispositivo           | IT equipe do projeto / AV de equipe              |             | [Seleção de dispositivo](#device-selection)                      |
 | Compras                | IT equipe do projeto / AV de equipe              |             | [Compras](#procurement)                      |
 | Preparação de site             | Instalações / equipe AV / equipe de projeto de TI |             | [Preparação de site](../../deploy/deploy-clients/room-systems-v2.md#site-readiness)                      |
-| Prontidão de serviço          | IT equipe do projeto                        |             | [Preparação de serviço](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
+| Prontidão de serviço          | IT equipe do projeto                        |             | [Prontidão de serviço](../../deploy/deploy-clients/room-systems-v2.md#service-readiness)                      |
 | Configuração              | IT equipe do projeto                        |             | [Configuração e implantação](../../deploy/deploy-clients/room-systems-v2.md#configuration-and-deployment)                      |
 | Implantação                 | Instalações / equipe AV / equipe de projeto de TI |             | [Lista de verificação de implantação](../../deploy/deploy-clients/console.md#skype-room-systems-v2-deployment-checklist)                      |
 | Adoção                   | Instalações / equipe AV / equipe de projeto de TI |             | [Adoção](#plan-for-adoption-and-change-management)                      |

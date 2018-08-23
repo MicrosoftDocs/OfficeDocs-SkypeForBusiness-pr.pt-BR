@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 description: Este artigo discute o gerenciamento remoto das configurações padrão usada por um dispositivo de v2 Skype sistemas de sala, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 9e8ff661dfab6810d1072b86dddcb8621c63b8d0
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: 1d8891ab318cac6849b5b6701a8aac7b87185bd6
+ms.sourcegitcommit: 38f3757feb82aeff0c03d8a3f0dde77a4cdde2ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21711048"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "22602001"
 ---
 # <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console do Skype Room Systems v2 remotamente usando um arquivo de configuração XML
  
@@ -37,9 +37,7 @@ A tabela a seguir explica os elementos mostrados neste exemplo SkypeSettings.xml
              <DomainUsername>Seattle\RanierConf</DomainUsername>
              <Password>password</Password>
              <ConfigureDomain>domain1, domain2</ConfigureDomain>
-             <AutoRotatePassword>1</AutoRotatePassword>
   </UserAccount>    
-  <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
   <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
   <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
   <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled> 
@@ -70,37 +68,37 @@ Se o arquivo XML formado incorretamente (ou seja, um valor da variável é do ti
   
 **Elementos XML**
  
-|**Elemento**|**Tipo**|**Nível**|**Uso**|
-|:-----|:-----|:-----|:-----|
-|\<SkypeSettings\>  <br/> |Contêiner para todos os elementos.  <br/> ||Obrigatório.  <br/> |
-| \<AutoScreenShare\> <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> | Se verdadeiro, o compartilhamento automático de tela será habilitado. <br/> |
-|\<HideMeetingName\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Se verdadeiro, os nomes das reuniões ficarão ocultos.  <br/> |
-|\<UserAccount\>  <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> |Contêiner para os parâmetros de credenciais.  <br/> Endereço, o endereço do Exchange ou o endereço de email de entrada geralmente é os mesmos, como RanierConf<span></span>@contoso.com.  <br/> |
-|\<SkypeMeetingsEnabled\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Habilitado por padrão.  <br/> |
-|\<SkypeSignInAddress\>  <br/> |Cadeia de caracteres 3 <br/> ||O nome de entrada da conta do dispositivo do Skype for Business no console.  <br/> |
-|\<ExchangeAddress\>  <br/> |Cadeia de caracteres 3 <br/> ||O nome de entrada da conta do dispositivo do Exchange no console.  <br/> Se ExchangeAddress for omitido, SkypeSignInAddress não será reutilizado automaticamente.   <br/> |
-|\<DomainUsername\>  <br/> |Cadeia de caracteres & #x 2778; <br/> ||O domínio e o nome do usuário do dispositivo de console, por exemplo, Seattle\RanierConf.  <br/> |
-|\<Senha\>  <br/> |Cadeia de caracteres 3 <br/> || O parâmetro de senha é a mesma senha usada para entrar na conta do dispositivo do Skype for Business.  <br/> |
-| \<ConfigureDomain\> <br/> |Cadeia de caracteres & #x 2778; <br/> ||Você pode listar vários domínios, separados por vírgulas.  <br/> |
-|\<AutoRotatePassword\>  <br/> |Boolean & #x 2777; <br/> |||
-|\<TeamsMeetingsEnabled\>  <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Desabilitado por padrão.  <br/> O arquivo XML é considerado mal formado se ambos os \<SkypeMeetingsEnabled\> e\<TeamsMeetingsEnabled\> são desabilitadas, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo.  <br/> |
-|\<IsTeamsDefaultClient > |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Desabilitado por padrão. <br/>|
-|\<BluetoothAdvertisementEnabled > |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Habilitado por padrão. <br/>|
-|\<DualScreenMode\> <br/> |Boolean & #x 2777; <br/> |Primeira & #x 2776; <br/> |Se for true, o modo de tela dual está habilitado. Caso contrário, o dispositivo usará o modo de tela única.  <br/> |
-|\<SendLogs\>  <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> ||
-|\<EmailAddressForLogsAndFeedback\>  <br/> |Cadeia de caracteres & #x 2778; <br/> ||Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "Enviar Comentários" for exibida.   <br/> |
-|\<SendLogsAndFeedback\>  <br/> |Boolean & #x 2777; <br/> || Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs). <br/> |
-| \<Dispositivos\> <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente. <br/> |
-|\<MicrophoneForCommunication\>  <br/> |Cadeia de caracteres 3 <br/> ||Define o microfone que será usado como dispositivo de gravação em uma conferência.  <br/> |
-|\<SpeakerForCommunication\>  <br/> |Cadeia de caracteres 3 <br/> ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo alto-falante que será usado para ouvir o áudio de uma chamada.  <br/> |
-|\<DefaultSpeaker\>  <br/> |Cadeia de caracteres 3 <br/> ||Dispositivo que deve ser usado para executar o áudio de uma fonte de ingestão HDMI.   <br/> |
-| \<Temas\> <br/> |Contêiner  <br/> |Primeira & #x 2776; <br/> |Um dos recursos que podem ser aplicados usando um arquivo XML é um tema personalizado para a sua organização. Você poderá especificar um nome do tema, imagem de plano de fundo e cores.  <br/> |
-|\<ThemeName\>  <br/> |Cadeia de caracteres & #x 2778; <br/> || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Nomes de tema personalizado sempre devem usar o nome *personalizado* . A interface do usuário do cliente pode ser definida no console como Padrão ou um dos predefinidos, mas a aplicação de um tema personalizado deve ser definida remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "Sem tema" para o ThemeName. <br/> |
-|\<CustomThemeImageUrl\>  <br/> |Cadeia de caracteres & #x 2778; <br/> ||Necessário se estiver usando um tema personalizado, caso contrário, é opcional. Consulte a seção de [Imagens personalizadas do tema](xml-config-file.md#Themes) abaixo para obter mais detalhes sobre a imagem de tema personalizado. <br/> |
-|\<CustomThemeColor\>  <br/> |Contêiner  <br/> ||Contêiner para o \<RedComponent\>, \<GreenComponent\>, e \<BlueComponent\> valores. Esses valores são obrigatórios ao usar um tema personalizado.  <br/> |
-|\<RedComponent\>  <br/> |Byte (0-255)  <br/> ||Representa o componente da cor vermelha.  <br/> |
-|\<GreenComponent\>  <br/> |Byte (0-255)  <br/> ||Representa o componente da cor verde.  <br/> |
-|\<BlueComponent\>  <br/> |Byte (0-255)  <br/> ||Representa o componente da cor azul.  <br/> |
+|Elemento|Tipo|Nível|Uso|
+|:--- |:--- |:--- |:--- |
+|\<SkypeSettings\>   |Contêiner para todos os elementos.   ||Obrigatório.   |
+| \<AutoScreenShare\>  |Boolean & #x 2777;  |Primeira & #x 2776;  | Se verdadeiro, o compartilhamento automático de tela será habilitado.  |
+|\<HideMeetingName\>   |Boolean & #x 2777;  |Primeira & #x 2776;  |Se verdadeiro, os nomes das reuniões ficarão ocultos.   |
+|\<UserAccount\>   |Contêiner   |Primeira & #x 2776;  |Contêiner para os parâmetros de credenciais.   Endereço, o endereço do Exchange ou o endereço de email de entrada geralmente é os mesmos, como RanierConf<span></span>@contoso.com.   |
+|\<SkypeMeetingsEnabled\>  |Boolean & #x 2777;  |Primeira & #x 2776;  |Habilitado por padrão.   |
+|\<SkypeSignInAddress\>   |Cadeia de caracteres & #x 2778;  ||O nome de entrada da conta do dispositivo do Skype for Business no console.   |
+|\<ExchangeAddress\>   |Cadeia de caracteres & #x 2778;  ||O nome de entrada da conta do dispositivo do Exchange no console.   Se ExchangeAddress for omitido, SkypeSignInAddress não será reutilizado automaticamente.    |
+|\<DomainUsername\>   |Cadeia de caracteres & #x 2778;  ||O domínio e o nome do usuário do dispositivo de console, por exemplo, Seattle\RanierConf.   |
+|\<Senha\>   |Cadeia de caracteres 3  || O parâmetro de senha é a mesma senha usada para entrar na conta do dispositivo do Skype for Business.   |
+| \<ConfigureDomain\>  |Cadeia de caracteres & #x 2778;  ||Você pode listar vários domínios, separados por vírgulas.   |
+|\<TeamsMeetingsEnabled\>   |Boolean & #x 2777;  |Primeira & #x 2776;  |Desabilitado por padrão. <br/> <br/> O arquivo XML é considerado mal formado se ambos os \<SkypeMeetingsEnabled\> e\<TeamsMeetingsEnabled\> são desabilitadas, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo.   |
+|\<IsTeamsDefaultClient > |Boolean & #x 2777;  |Primeira & #x 2776;  |Desabilitado por padrão. |
+|\<BluetoothAdvertisementEnabled > |Boolean & #x 2777;  |Primeira & #x 2776;  |Habilitado por padrão. |
+|\<DualScreenMode\>  |Boolean & #x 2777;  |Primeira & #x 2776;  |Se for true, o modo de tela dual está habilitado. Caso contrário, o dispositivo usará o modo de tela única.   |
+|\<SendLogs\>   |Contêiner   |Primeira & #x 2776;  ||
+|\<EmailAddressForLogsAndFeedback\>   |Cadeia de caracteres & #x 2778;  ||Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "Enviar Comentários" for exibida.    |
+|\<SendLogsAndFeedback\>   |Boolean & #x 2777;  || Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs).  |
+| \<Dispositivos\>  |Contêiner   |Primeira & #x 2776;  | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente.  |
+|\<MicrophoneForCommunication\>   |Cadeia de caracteres & #x 2778;  ||Define o microfone que será usado como dispositivo de gravação em uma conferência.   |
+|\<SpeakerForCommunication\>   |Cadeia de caracteres & #x 2778;  ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo alto-falante que será usado para ouvir o áudio de uma chamada.   |
+|\<DefaultSpeaker\>   |Cadeia de caracteres & #x 2778;  ||Dispositivo que deve ser usado para executar o áudio de uma fonte de ingestão HDMI.    |
+| \<Temas\>  |Contêiner   |Primeira & #x 2776;  |Um dos recursos que podem ser aplicados usando um arquivo XML é um tema personalizado para a sua organização. Você poderá especificar um nome do tema, imagem de plano de fundo e cores.   |
+|\<ThemeName\>   |Cadeia de caracteres & #x 2778;  || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Nomes de tema personalizado sempre devem usar o nome *personalizado* . A interface do usuário do cliente pode ser definida no console como Padrão ou um dos predefinidos, mas a aplicação de um tema personalizado deve ser definida remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "Sem tema" para o ThemeName.  |
+|\<CustomThemeImageUrl\>   |Cadeia de caracteres & #x 2778;  ||Necessário se estiver usando um tema personalizado, caso contrário, é opcional. Consulte a seção de [Imagens personalizadas do tema](xml-config-file.md#Themes) abaixo para obter mais detalhes sobre a imagem de tema personalizado.  |
+|\<CustomThemeColor\>   |Contêiner   ||Contêiner para o \<RedComponent\>, \<GreenComponent\>, e \<BlueComponent\> valores. Esses valores são obrigatórios ao usar um tema personalizado.   |
+|\<RedComponent\>   |Byte (0-255)   ||Representa o componente da cor vermelha.   |
+|\<GreenComponent\>   |Byte (0-255)   ||Representa o componente da cor verde.   |
+|\<BlueComponent\>   |Byte (0-255)   ||Representa o componente da cor azul.   |
+| | | |
    
 & #x 2776; Todos os elementos de primeiro nível são opcionais. Se um elemento de primeiro nível for omitido, todos os seus parâmetros filho permanecerão inalterados no dispositivo.
   
@@ -129,8 +127,8 @@ O arquivo de imagem deve ter exatamente 3840X1080 pixels e estar em um destes fo
   
 O arquivo de configuração XML deve ser atualizado na inicialização do dispositivo para reconhecer a imagem de tema. Depois que o novo arquivo XML for processado e excluído, o arquivo gráfico do tema será excluído do diretório.
   
-## <a name="see-also"></a>Ver também
-<a name="Themes"> </a>
+## <a name="see-also"></a>Consulte também
+
 
 [Gerenciar o Skype Room Systems versão 2](skype-room-systems-v2.md)
 
