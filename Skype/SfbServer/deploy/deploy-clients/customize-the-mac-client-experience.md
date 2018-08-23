@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o cliente do Skype for Business no Mac e como editá-los de fora do aplicativo.
-ms.openlocfilehash: 37ea82cc87e58303ab412c7adbd427dd11c74f89
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21014637"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22912840"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  
@@ -31,20 +31,20 @@ Para definir essas preferências, obtenha um prompt de terminal no Mac do client
 **Chaves de preferência do cliente**
 
 
-|**Chave**|**Tipo**|**Valor**|**Descrição**|
+| Chave | Tipo | Valor | Descrição |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDicoveryURLs  <br/> |Bool  <br/> |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)  <br/> |Especifique como o Skype para negócios identifica o transporte e o servidor a ser usado durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**. <br/> |
-|internalAutoDiscoveryURL  <br/> |Cadeia de caracteres  <br/> |URL completa de descoberta automática  <br/> |URL interna de descoberta automática  <br/> |
-|externalAutoDiscoveryURL  <br/> |Cadeia de caracteres  <br/> |URL completa de descoberta automática  <br/> |URL externa de descoberta automática  <br/> |
-|httpProxyDomain  <br/> |Cadeia de caracteres  <br/> ||Domínio do Proxy HTTP  <br/> |
-|httpProxyUserName  <br/> |Cadeia de caracteres  <br/> ||Nome de usuário do Proxy HTTP  <br/> |
-|httpProxyPassword  <br/> |Cadeia de caracteres  <br/> ||Senha do Proxy HTTP  <br/> |
-|trustedDomainList  <br/> |Matriz  <br/> ||Lista de domínios confiáveis ​​para redirecionamentos HTTP.  <br/> |
-|autoAcceptTimeout  <br/> |Número  <br/> |300 (padrão)  <br/> |Tempo limite de Autenticação Automática para usuários sem Histórico da Conversa do Servidor.  <br/> |
-|warnWhenUnknownLocationForE911  <br/> |Bool  <br/> |0 = Desabilitado  <br/> 1 = Habilitado  <br/> |Avisa o usuário ao discar um número de emergência de um local desconhecido.  <br/> |
-|sipAddress  <br/> |Cadeia de caracteres  <br/> ||O endereço do SIP (Email) usado para entrar no Skype para negócios.  <br/> |
-|nome de usuário  <br/> |Cadeia de caracteres  <br/> ||O UPN (nome de usuário) usado para entrar no Skype para negócios.  <br/> |
-|userNameInAdvancedOnly  <br/> |Bool  <br/> |0 = exibem o campo nome do usuário na tela principal entrar e na caixa de diálogo Propriedades avançadas  <br/> 1 = exibir o campo de nome de usuário somente na caixa de diálogo Propriedades avançadas (padrão)  <br/> |Especifique onde o campo nome de usuário é exibido durante a entrada.  <br/> |
+|AutoDetectAutoDiscoveryURLs    |Bool    |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)    |Especifique como o Skype para negócios identifica o transporte e o servidor a ser usado durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**.   |
+|internalAutoDiscoveryURL    |Cadeia de caracteres    |URL completa de descoberta automática    |URL interna de descoberta automática    |
+|externalAutoDiscoveryURL    |Cadeia de caracteres    |URL completa de descoberta automática    |URL externa de descoberta automática    |
+|httpProxyDomain    |Cadeia de caracteres    ||Domínio do Proxy HTTP    |
+|httpProxyUserName    |Cadeia de caracteres    ||Nome de usuário do Proxy HTTP    |
+|httpProxyPassword    |Cadeia de caracteres    ||Senha do Proxy HTTP    |
+|trustedDomainList    |Matriz    ||Lista de domínios confiáveis ​​para redirecionamentos HTTP.    |
+|autoAcceptTimeout    |Número    |300 (padrão)    |Tempo limite de Autenticação Automática para usuários sem Histórico da Conversa do Servidor.    |
+|warnWhenUnknownLocationForE911    |Bool    |0 = Desabilitado  <br/> 1 = Habilitado    |Avisa o usuário ao discar um número de emergência de um local desconhecido.    |
+|sipAddress    |Cadeia de caracteres    ||O endereço do SIP (Email) usado para entrar no Skype para negócios.    |
+|nome de usuário    |Cadeia de caracteres    ||O UPN (nome de usuário) usado para entrar no Skype para negócios.    |
+|userNameInAdvancedOnly    |Bool    |0 = exibem o campo nome do usuário na tela principal entrar e na caixa de diálogo Propriedades avançadas  <br/> 1 = exibir o campo de nome de usuário somente na caixa de diálogo Propriedades avançadas (padrão)    |Especifique onde o campo nome de usuário é exibido durante a entrada.    |
    
 ### <a name="usage-examples"></a>Exemplos de uso
 
@@ -55,7 +55,6 @@ padrões de gravação com.microsoft.SkypeForBusiness trustedDomainList-matriz-a
 Para adicionar diversos domínios à lista de domínios confiáveis, você usaria a chave trustedDomainList conforme mostrado:
   
 padrões de gravação com.microsoft.SkypeForBusiness trustedDomainList-matriz-adicionar "sfb.com" "abc.com" "test.org"
-  
   
 ### <a name="sample-unedited-settings"></a>Exemplo de configurações não editadas
 
@@ -109,7 +108,4 @@ Para referência, aqui está um arquivo de configurações de exemplo usando som
     firstRun = 0;
     showEndCallDialog = 1;
 }
-
 ```
-
-

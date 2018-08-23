@@ -1,7 +1,7 @@
 ---
 title: Configurar o roteamento direto
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: bad3709635ccca83a4093e5115e46352f5dcaaff
-ms.sourcegitcommit: 5943c41bac520558733d08f4a9ecc4425c422ff9
+ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
+ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/23/2018
-ms.locfileid: "22599418"
+ms.locfileid: "22914748"
 ---
 # <a name="configure-direct-routing"></a>Configurar o roteamento direto
 
@@ -519,9 +519,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 O resultado é que a política de voz aplicada às chamadas de John Woods são unrestricted e seguirá a lógica de roteamento de chamada disponível para as chamadas dos Estados Unidos, Canadá e internacional.
 
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-the-users"></a>Definir Teams Microsoft como o cliente de chamada preferencial para os usuários
+## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Configurar o Microsoft Teams como o cliente de chamada preferencial para usuários
 
-Roteamento direto apenas rotear as chamadas para e de usuários se eles usarem equipes Cleint. Se sua organização usar somente o cliente de equipes, definindo "Equipes apenas" na política de atualização é recomendado. Se você organização usa Skype para Business Server ou Skype para Business Online, revise o seguinte documento [Noções básicas sobre a jornada coexistência e atualização para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype) e selecione a opção apropriada. 
+Roteamento direto somente roteia as chamadas de e para os usuários se eles usarem o cliente de equipes. Se sua organização usa somente equipes, definindo "Equipes apenas" na política de atualização é recomendado. Se sua organização usa Skype para Business Server ou Skype para Business Online, consulte o seguinte artigo para obter mais informações e selecione a opção apropriada: [entender a coexistência e atualizar jornada para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Consulte também
