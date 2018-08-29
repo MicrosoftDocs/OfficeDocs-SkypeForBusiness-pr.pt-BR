@@ -12,30 +12,30 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Selecione cada recurso que você deseja habilitar para o pool de Front-End. No mínimo, você deve implantar mensagens instantâneas (IM), que está sempre habilitada e não pode ser desmarcado. Você também tem a opção de implantação de outros recursos, como conferências, Enterprise Voice e (CAC) do controle de admissão de chamadas. Alguns recursos dependem de sua topologia.
-ms.openlocfilehash: 9a6b6f38983174e3b13982b9d273e45a7dd5dacb
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 9c75e213ccef2bf76d144bddae607a0930b0093a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21067816"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260507"
 ---
 # <a name="add-front-end-features"></a>Adicionar recursos de Front-End
- 
-Selecione cada recurso que você deseja habilitar para o pool de Front-End. No mínimo, você deve implantar mensagens instantâneas (IM), que está sempre habilitada e não pode ser desmarcado. Você também tem a opção de implantação de outros recursos, como conferências, Enterprise Voice e (CAC) do controle de admissão de chamadas. Alguns recursos dependem de sua topologia. 
-  
+
+Selecione cada recurso que você deseja habilitar para o pool de Front-End. No mínimo, você deve implantar mensagens instantâneas (IM), que está sempre habilitada e não pode ser desmarcado. Você também tem a opção de implantação de outros recursos, como conferências, Enterprise Voice e (CAC) do controle de admissão de chamadas. Alguns recursos dependem de sua topologia.
+
 - Conferência
-    
+
 - Enterprise Voice
-    
+
 - Controle de admissão de chamadas (CAC)
-    
+
 - Archiving
-    
+
 - Monitoramento
-    
+
 > [!NOTE]
-> Se você gostaria de habilitar o CAC em sua implantação, você deverá habilitar CAC exatamente um pool por site central. Recomendamos CAC, se você estiver implantando os recursos de voz ou de A / V Conferencing. 
-  
-Para obter detalhes sobre como especificar recursos para um pool Enterprise Edition, consulte [Define and Configure a Front End Pool](http://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de implantação.
-  
+> Se você gostaria de habilitar o CAC em sua implantação, você deverá habilitar CAC exatamente um pool por site central. Recomendamos CAC, se você estiver implantando os recursos de voz ou de A / V Conferencing.
+
+Para obter detalhes sobre como especificar recursos para um pool Enterprise Edition, consulte [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) na documentação de implantação.
+
 

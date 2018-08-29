@@ -9,34 +9,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Resumo: Saiba mais sobre tarefas de configuração de monitoramento e de integridade no Skype para Business Server.'
-ms.openlocfilehash: 5f87b5884521b29d86d4995f3b13df13def55108
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ba96f380789f88bab2393e326cfe2b8650367bb4
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016823"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23254596"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gerenciar a integridade e monitoramento no Skype para Business Server
- 
+
 **Resumo:** Saiba mais sobre as tarefas de configuração de monitoramento e integridade no Skype para Business Server.
-  
+
 Os tópicos desta seção oferecem procedimentos passo a passo para monitorar e tarefas de configuração de integridade você pode executar em Skype para painel de controle do servidor de negócios e Skype do Shell de gerenciamento do servidor de negócios.
-  
+
 ## <a name="in-this-section"></a>Nesta seção
 
 - [Gravação (CDR) no Skype para Business Server de detalhes da chamada](call-detail-recording-cdr.md)
-    
+
 - [Qualidade da experiência (QoE) no Skype para Business Server](quality-of-experience.md)
-    
+
 - [Monitorar a mobilidade de desempenho no Skype para Business Server](monitor-mobility-performance.md)
-    
+
 - [Usando relatórios de monitoramento no Skype para Business Server](monitoring-reports.md)
-    
+
 ## <a name="see-also"></a>Consulte também
 
 
 
-[Planejar o monitoramento](http://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
-  
-[Implantar o monitoramento](http://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Planejar o monitoramento](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+
+[Implantar o monitoramento](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

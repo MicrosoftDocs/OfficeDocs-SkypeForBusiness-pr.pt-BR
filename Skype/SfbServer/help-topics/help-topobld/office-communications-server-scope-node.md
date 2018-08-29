@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-ms.openlocfilehash: 95eec987cf8cc15210df477a85d813e725313ecc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 19490132992a86af0afce38ad02b3aaacf0c78b3
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980297"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248262"
 ---
 # <a name="office-communications-server-scope-node"></a>Nó de escopo do Office Communications Server
- 
+
 Esta documentação é preliminar e está sujeita a alterações. Os tópicos em branco são incluídos como espaços reservados.
-  
+
 Clicar em **Office Communications Server 2007 R2** para expandir a seleção sob o nó ou right clicar para acessar as opções de **topologia** , ou acessar esta página de **Ajuda** .
-  
+
 ## <a name="see-also"></a>Consulte também
 
-[Mesclar usando o Assistente de mesclagem do construtor de topologia](http://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
-  
-[Verificar informações de topologia](http://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)
+[Mesclar usando o Assistente de mesclagem do construtor de topologia](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+
+[Verificar informações de topologia](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

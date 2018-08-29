@@ -12,32 +12,32 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Você pode edita as configurações de resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: 201ccc2ed52d5f483da5a66998aaf988bdeef268
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e44c9b2f18d5c6eec26dfa73b2d96650ef675b8a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973091"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23260549"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configurações SBA do registrador
- 
+
 Você pode edita as configurações de **resiliência** e configure as seguintes propriedades:
-  
+
 - Selecione o **serviço de usuário associados e o pool de registradores de backup** na lista.
-    
+
     Como opção, marque a caixa de seleção **failover automático e failback para voz** .
-    
+
     Configure o **intervalo de detecção de falha de voz (s)** e o **intervalo de failback de voz (s)**. Por padrão, os intervalos são 120 para detecção de falha de voz e 240 segundos para failback de voz.
-    
+
     > [!CAUTION]
-    > O número de segundos que você define para os intervalos de failover e failback deve ser testado cuidadosamente para garantir que a resiliência funciona conforme o esperado. Definir o intervalo para baixo (ou seja, menos de 120 segundos) ou o failover e failback definir muito parecido podem resultar na real failover e failback não funcionando conforme o esperado. 
-  
+    > O número de segundos que você define para os intervalos de failover e failback deve ser testado cuidadosamente para garantir que a resiliência funciona conforme o esperado. Definir o intervalo para baixo (ou seja, menos de 120 segundos) ou o failover e failback definir muito parecido podem resultar na real failover e failback não funcionando conforme o esperado.
+
  **OK** Aceita e confirma as alterações na caixa de diálogo.
-  
+
  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
-  
+
  **Ajuda** Exibe essa tela de ajuda.
-  
+
 ## <a name="see-also"></a>Consulte também
 
-[Planejamento para o Enterprise Voice Resiliency](http://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[Planejamento para o Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

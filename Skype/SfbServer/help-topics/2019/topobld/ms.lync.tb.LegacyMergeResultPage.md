@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a mesclar uma implantação herdada com Skype para Business Server, clique em Avançar. Para obter detalhes sobre como executar o Assistente de mesclagem do construtor de topologias, consulte Merge usando o construtor de Assistente de mesclagem topologia na documentação de migração.
-ms.openlocfilehash: f7ff816795a450184ed740a165c549f8ed9b8a91
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 965096d462bda1c8180acc91010799f68771a14d
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069600"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253493"
 ---
 # <a name="legacy-merge-results"></a>Resultados de Mesclagem de Legado
- 
-Para começar a mesclar uma implantação herdada com Skype para Business Server, clique em **Avançar**. Para obter detalhes sobre como executar o Assistente de mesclagem do construtor de topologias, consulte [Merge usando o construtor de Assistente de mesclagem topologia](http://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) na documentação de migração.
-  
+
+Para começar a mesclar uma implantação herdada com Skype para Business Server, clique em **Avançar**. Para obter detalhes sobre como executar o Assistente de mesclagem do construtor de topologias, consulte [Merge usando o construtor de Assistente de mesclagem topologia](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx) na documentação de migração.
+
 

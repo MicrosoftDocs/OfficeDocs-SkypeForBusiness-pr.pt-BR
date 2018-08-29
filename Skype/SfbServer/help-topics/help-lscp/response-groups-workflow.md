@@ -12,51 +12,51 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Fluxos de trabalho do grupo de resposta definem as ações que serão executadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
-ms.openlocfilehash: 268d97ae92755da336577c3cdee8bd7ca916759c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c2b57fd156689b5804e2705d79c515ffe52498b6
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006885"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23258281"
 ---
 # <a name="response-groups-workflow"></a>Fluxo de trabalho de grupos de resposta
- 
-Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Fluxos de trabalho do grupo de resposta definem as ações que serão executadas quando o aplicativo grupo de resposta recebe uma chamada telefônica. 
-  
+
+Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Fluxos de trabalho do grupo de resposta definem as ações que serão executadas quando o aplicativo grupo de resposta recebe uma chamada telefônica.
+
 Os **Grupos de resposta** - página**fluxo de trabalho** exibe uma lista de todos os grupo de resposta fluxos de trabalho que são definidas para sua organização.
-  
+
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
 Você pode executar as seguintes tarefas dos **Grupos de resposta** - página**fluxo de trabalho** :
-  
+
 - Criar ou alterar um fluxo de trabalho do grupo de busca
-    
+
 - Criar ou alterar um fluxo de trabalho interativo
-    
+
 ## <a name="ui-reference"></a>Referência de UI
 
 A lista a seguir descreve os comandos na página.
-  
+
 - **Criar ou editar um fluxo de trabalho** Abre a ferramenta de configuração do grupo de resposta para criação ou edição de um fluxo de trabalho.
-    
+
 - **Atualizar** Atualiza a lista de fluxos de trabalho.
-    
+
 A lista a seguir descreve os campos na página.
-  
+
 - **Nome** O nome exclusivo atribuído ao fluxo de trabalho.
-    
+
 - **Serviço** O serviço **ApplicationServer** que hospeda o fluxo de trabalho.
-    
+
 - **Endereço SIP** O endereço SIP do grupo que atenderá chamadas no fluxo de trabalho.
-    
+
 - **Telefone** O número de telefone que é chamado para acessar este grupo de resposta.
-    
+
 - **Idioma** O que é usado para reconhecimento de fala e conversão de texto em idioma.
-    
+
 - **IVR** Indica se o fluxo de trabalho é um grupo de busca ou um fluxo de trabalho interativo.
-    
+
 - **Habilitado** Indica se o fluxo de trabalho está ativado para receber chamadas.
-    
-Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com fluxos de trabalho do grupo de resposta, consulte [Gerenciando fluxos de grupo de resposta](http://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) na documentação operações.
-  
+
+Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com fluxos de trabalho do grupo de resposta, consulte [Gerenciando fluxos de grupo de resposta](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) na documentação operações.
+
 

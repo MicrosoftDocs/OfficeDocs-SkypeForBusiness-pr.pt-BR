@@ -12,47 +12,47 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
-ms.openlocfilehash: 9d5176b84612c627ed9fbba333c6524ea55be539
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d42290fc43464de3c540a2a642f71ba161a71dd3
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026606"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23250585"
 ---
 # <a name="response-groups-queue"></a>Fila de grupos de resposta
- 
-Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada. 
-  
+
+Grupos de resposta consistem de grupos de operadores, filas e fluxos de trabalho. Filas de espera do grupo de resposta chamadas para um grupo de resposta em espera até que um operador responde à chamada.
+
 Os **Grupos de resposta** - página**fila** exibe uma lista de todas as filas do grupo de resposta que são definidas para sua organização.
-  
+
 ## <a name="tasks-you-can-perform"></a>Tarefas que podem ser executadas
 
 Você pode executar as seguintes tarefas dos **Grupos de resposta** - página**fila** :
-  
+
 - Criar uma nova fila
-    
+
 - Alterar uma fila existente
-    
+
 - Excluir uma fila
-    
+
 ## <a name="ui-reference"></a>Referência de UI
 
 A lista a seguir descreve os comandos na página.
-  
+
 - **Novo** Inicia uma nova fila.
-    
+
 - **Editar** Abre a fila selecionada para editá-la, seleciona todas as filas na lista ou exclui a fila selecionada.
-    
+
 - **Atualizar** Atualiza a lista de filas.
-    
+
 A lista a seguir descreve os campos na página.
-  
+
 - **Nome** O nome exclusivo que identifica a fila.
-    
+
 - **Serviço** O serviço **ApplicationServer** que hospeda a fila.
-    
+
 - **Descrição** A descrição para a fila.
-    
-Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com filas de espera do grupo de resposta, consulte [Managing Response Group Queues](http://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação operações.
-  
+
+Para obter detalhes sobre os recursos de grupo de resposta, consulte o [plano para o aplicativo de grupo de resposta no Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com filas de espera do grupo de resposta, consulte [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) na documentação operações.
+
 

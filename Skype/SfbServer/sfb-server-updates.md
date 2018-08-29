@@ -11,12 +11,12 @@ localization_priority: Priority
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações do Skype for Business Server 2015 e do Lync 2013 em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
-ms.openlocfilehash: c83e3994c47876e6064b58265848c64487e47b76
-ms.sourcegitcommit: 3915a89d072f0f801d5662286bea08839ed2a9e6
+ms.openlocfilehash: e3b1ae326494a14c502a7427d30f664646bfe373
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601903"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23253052"
 ---
 # <a name="skype-for-business-updates"></a>Atualizações do Skype for Business
 
@@ -76,7 +76,7 @@ Para obter o Skype as atualizações mais recentes do Business Online e do Offic
 * * *
 
 ## <a name="lync-server-2013-update-history"></a>Histórico de atualizações do Lync Server 2013
-    
+
 |Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |
 |Atualização Cumulativa 9 do Lync Server 2013  |[KB 2809243](https://www.microsoft.com/en-us/download/details.aspx?id=36820) |Julho de 2017 |
@@ -90,7 +90,7 @@ Para obter o Skype as atualizações mais recentes do Business Online e do Offic
 |Atualização cumulativa 5.0.8308.956 do Lync Server 2013, Servidor de mediação |[KB 3140586](https://support.microsoft.com/kb/3140586)|Abril de 2016 |
 |Atualização cumulativa 5.0.8308.956 do Lync Server 2013, Serviço do grupo de resposta |[KB 3140585](https://support.microsoft.com/kb/3140585)|Abril de 2016 |
 |Atualização cumulativa 5.0.8308.956 do Lync Server 2013, Servidor de conferências |[KB 3140584](https://support.microsoft.com/kb/3140584)|Abril de 2016 |
-|Atualização cumulativa 5.0.8308.956 do Lync Server 2013, Servidor do Front End e Servidor de Borda |[KB 3140582](https://support.microsoft.com/kb/3140582)|Abril de 2016 | 
+|Atualização cumulativa 5.0.8308.956 do Lync Server 2013, Servidor do Front End e Servidor de Borda |[KB 3140582](https://support.microsoft.com/kb/3140582)|Abril de 2016 |
 |Atualização cumulativa 5.0.8308.956 do Lync Server 2013, Componentes principais |[KB 3140581](https://support.microsoft.com/kb/3140581)|Abril de 2016 |
 |Atualização cumulativa 5.0.8308.945 do Lync Server 2013, Servidor de componentes da web |[KB 3126638](https://support.microsoft.com/kb/3126638)|Janeiro de 2016 |
 |Atualização cumulativa 5.0.8308.945 do Lync Server 2013, Componentes principais |[KB 3126637](https://support.microsoft.com/kb/3126637)|Janeiro de 2016 |
@@ -205,7 +205,7 @@ Nome do pacote/Link|Data do lançamento|
 
 ### <a name="resource-kit-technical-reference"></a>Resource Kit (referência técnica)
 
-Acesse o site de download do [Resource Kit do Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) para baixar capítulos individualmente OU baixar um arquivo .zip contendo [os 19 capítulos do Resource Kit](http://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
+Acesse o site de download do [Resource Kit do Microsoft Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=22644) para baixar capítulos individualmente OU baixar um arquivo .zip contendo [os 19 capítulos do Resource Kit](https://download.microsoft.com/download/9/4/E/94ED1EF4-A2EF-4686-9841-B0390072D524/Microsoft_Lync_Server_2010_Resource_Kit_Chapters.zip).
 
 ### <a name="group-chat"></a>Chat de Grupo
 
@@ -226,9 +226,9 @@ Nome do pacote/Link|Data do lançamento|
 
 ## <a name="additional-information"></a>Informações adicionais
 
-As atualizações de software incluem qualquer atualização, pacote cumulativo de atualizações, pacote de serviços, pacote de recursos, atualização crítica, atualização de segurança ou hotfix. Consulte [KB 824684](https://support.microsoft.com/kb/824684) para obter uma descrição da terminologia padrão usada para descrever as atualizações de software da Microsoft. 
+As atualizações de software incluem qualquer atualização, pacote cumulativo de atualizações, pacote de serviços, pacote de recursos, atualização crítica, atualização de segurança ou hotfix. Consulte [KB 824684](https://support.microsoft.com/kb/824684) para obter uma descrição da terminologia padrão usada para descrever as atualizações de software da Microsoft.
 
- 
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Instalar o Skype for Business Server 2015](https://docs.microsoft.com/en-us/SkypeForBusiness/deploy/install/install)

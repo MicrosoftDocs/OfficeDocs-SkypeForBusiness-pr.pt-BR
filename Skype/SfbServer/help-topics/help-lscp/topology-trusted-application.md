@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: a630d7eb34c91f526fde3046f04ab6f0101cc603
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 83803513e83b58defdadb038427761d190a9293c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966077"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23248241"
 ---
 # <a name="topology-trusted-application"></a>Topologia: Aplicativo confiável
- 
+
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-  
-- [Exibir uma lista de aplicativos confiáveis](http://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
-    
+
+- [Exibir uma lista de aplicativos confiáveis](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+
 Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
 
