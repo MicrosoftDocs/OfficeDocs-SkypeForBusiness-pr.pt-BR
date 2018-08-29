@@ -3,7 +3,7 @@ title: Implantar as equipes da Microsoft para o Hub de superfície
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/23/2018
+ms.date: 08/29/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7757f7d220ae58914a296e3dc3850179219b475
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981575"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246154"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
@@ -141,9 +141,6 @@ Depois de concluir as etapas anteriores para permitir que as equipes de conta do
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalar equipes para o Hub de superfície do repositório de Microsoft 
 
-> [!NOTE]
-> Para usar o Microsoft Teams para o Hub de superfície (Preview), seu dispositivo deve inscritos no programa de Insider do Windows. Para sair do programa Insider, você deverá redefinir o Hub de superfície usando a recuperação de nuvem.<br> Para se tornar um membro do programa de Insider Windows, o Hub de superfície deve ser definido para telemetria completo antes de ingressar o programa de Insider Windows. Devido às normas GDPR, as configurações padrão de telemetria do Windows recentemente alterado do acesso completo para básico nos países da UE. Você deve verificar suas configurações antes de ingressar o programa de Insider Windows. Tentando ingressar no programa de Insider do Windows, quando definido como Telemetria básica pode exigir uma redefinição do Hub superfície. Para validar as configurações de telemetria do Windows em um Hub de superfície, escolha **configurações** > **privacidade** > **comentários e diagnósticos**e definido como **completo**.
-
 Essas instruções são para a instalação de equipes para o Hub de superfície do Microsoft Store. 
  
 1. Inicie o repositório da Microsoft:<br>
@@ -201,5 +198,3 @@ Use o seguinte para configurar a chamada e reuniões aplicativo política padrã
 
 Reinicie o dispositivo do Hub de superfície. Depois que o dispositivo for reiniciado, você poderá iniciar o aplicativo de equipes na tela de início e ingressar em uma reunião do calendário.
 
-> [!NOTE]
-> Se seu dispositivo ou dispositivos de sua organização não atualmente fazem parte do programa Insider Windows e você estiver nos países cobertos pela regulamentação de proteção de dados gerais (GDPR) (ou você tiver alterado manualmente suas configurações de telemetria para básico), em seguida, você deve verificar novamente que você tenha permitido telemetria completa antes de participar do programa Insider. GDPR alterado o comportamento padrão de dispositivos de superfície Hub na UE para definir telemetria como básica.

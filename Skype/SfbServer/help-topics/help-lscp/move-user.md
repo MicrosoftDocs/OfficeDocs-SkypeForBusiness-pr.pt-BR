@@ -11,17 +11,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
-description: Na página mover usuários, você pode selecionar um pool de destino para mover o usuário selecionado.
-ms.openlocfilehash: 1ec8d94548189d434aab74290de12c6fec8ff5b0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Na página Mover Usuários, é possível mover o usuário selecionado até o pool de destino escolhido.
+ms.openlocfilehash: 97c207df2a72f5cf746b0274e213af83a223aa8a
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23250987"
 ---
 # <a name="move-user"></a>Mover Usuário
- 
+
 Na página **Mover Usuários**, é possível mover o usuário selecionado até o pool de destino escolhido.
-  
-Para obter mais informações sobre como mover usuários, consulte [Move Users to Another Pool](http://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).
-  
+
+Para obter mais informações sobre como mover usuários, consulte [Move Users to Another Pool](https://technet.microsoft.com/library/e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8.aspx).
+
 

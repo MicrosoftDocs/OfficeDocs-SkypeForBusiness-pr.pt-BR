@@ -12,20 +12,20 @@ localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 50dbe0092c1303fcbd9318c0e30bd9d58a2b2392
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0f7a3d5187185dcbef9b8b22f2c543b452359225
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969572"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23241824"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Regra de conversão: Criar nova ou editar existente
- 
+
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-  
+
 - [Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
-    
-- [Criar ou modificar uma regra de conversão manualmente](http://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
-    
- 
+
+- [Criar ou modificar uma regra de conversão manualmente](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+
+
 

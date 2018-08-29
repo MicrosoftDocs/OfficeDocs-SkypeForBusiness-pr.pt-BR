@@ -9,61 +9,61 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Resumo: Leia este tópico para saber como implantar a conferência em Skype para Business Server.'
-ms.openlocfilehash: b893a78ae5abb7c920c588cae948779cc3095c63
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e004afdc420bcd99679e20c29bf6ba7efc7f735f
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010516"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263820"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Implantar a conferência em Skype para Business Server
- 
+
 **Resumo:** Leia este tópico para saber como implantar a conferência em Skype para Business Server.
-  
-Há quatro tipos de conferência disponíveis no Skype para Business Server: webconferências, áudio e vídeo (A / V) conferência, conferência discada e conferência de mensagem instantânea (IM). Você pode optar por habilitar todos os tipos ou usar apenas um tipo, dependendo de suas necessidades. 
-  
-Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente. Quando você criar e publicar uma nova topologia usando o Construtor de Topologias, você especifica se devem ser implantadas ou não a webconferência, a conferência A/V e a conferência discada, conforme descrito nas listas de verificação abaixo: 
-  
+
+Há quatro tipos de conferência disponíveis no Skype para Business Server: webconferências, áudio e vídeo (A / V) conferência, conferência discada e conferência de mensagem instantânea (IM). Você pode optar por habilitar todos os tipos ou usar apenas um tipo, dependendo de suas necessidades.
+
+Quando você implanta o Skype para Business Server, recursos de conferência de mensagem Instantânea serão implantados automaticamente. Quando você criar e publicar uma nova topologia usando o Construtor de Topologias, você especifica se devem ser implantadas ou não a webconferência, a conferência A/V e a conferência discada, conforme descrito nas listas de verificação abaixo:
+
 - [Deployment checklist for web and audio/video conferencing](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
-    
+
 - [Fluxograma de implantação e Lista de verificação para conferência discada](deploy-conferencing.md#BKMK_DialinConferencing)
-    
+
 Antes de implantar a conferência, você deve ler os seguintes tópicos de planejamento:
-  
+
 - [Planejamento de conferência no Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md)
-    
+
 - [Requisitos de hardware e software para conferências no Skype para Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
-    
+
 - [Planeje sua topologia de conferência Skype para Business Server](../../plan-your-deployment/conferencing/conferencing-topology.md)
-    
+
 - [Planejar a conferência discada no Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)
-    
+
 - [Planejar para grandes reuniões em Skype para Business Server](../../plan-your-deployment/conferencing/large-meetings.md)
-    
+
 ## <a name="deployment-checklist-for-web-and-audiovideo-conferencing"></a>Verificação da implantação para webconferência e conferência de áudio/vídeo
 <a name="BKMK_ChecklistWebConferencing"> </a>
 
-A tabela a seguir fornece uma visão geral das etapas necessárias para implantar webconferência e conferência de áudio/vídeo em uma topologia existente. Os links para o planejamento associado e a documentação de procedimentos estão incluídos. 
-  
+A tabela a seguir fornece uma visão geral das etapas necessárias para implantar webconferência e conferência de áudio/vídeo em uma topologia existente. Os links para o planejamento associado e a documentação de procedimentos estão incluídos.
+
 |**Fase**|**Etapas**|**Funções e associações de grupo**|**Documentação**|
 |:-----|:-----|:-----|:-----|
 |**Instalar hardware e software necessários** <br/> |Conferência é executado em servidores Front-End de um pool de Front-End e servidores Standard Edition. Consulte os requisitos ambientais e do servidor para Servidores Front-end.  <br/> Se você estiver habilitando a Webconferência, você precisará garantir que o Skype para Business Server pode se comunicar com o Office Web Apps Server, que é usado para tratar de compartilhamento e de renderização de apresentações do PowerPoint.  <br/> Para webconferências, você também precisará especificar um compartilhamento de arquivo a ser usado como repositório de arquivos.  <br/> Deseja permitir que usuários externos com clientes Skype for Business ingressem nas conferências? Se esse for o caso, você precisa implantar Servidores de Borda.  <br/> |Domínio do usuário que é membro do grupo local de Administradores  <br/> | [Requisitos de servidor do Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) <br> [Requisitos de servidor no Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) <br/> [Requisitos de ambiente para o Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) <br/> [Requisitos de hardware e software para conferências no Skype para Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md) <br/> [Configurar a integração com o Office Web Apps Server no Skype para Business Server](office-web-app-server.md) <br/> [Crie um compartilhamento de arquivo no Skype para Business Server](../../deploy/install/create-a-file-share.md) <br/> [Planejar implantações do Servidor de Borda no Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) <br/> [Implantar o Servidor de Borda no Skype for Business Server 2015](../../deploy/deploy-edge-server/deploy-edge-server.md) <br/> |
 |**Crie a topologia interna apropriada para dar suporte à conferência** <br/> |Você precisará executar o construtor de topologias para adicionar conferências à topologia e, em seguida, publique a topologia.  <br/> |Para definir a topologia, uma conta que é membro do grupo local de Usuários  <br/> Para publicar a topologia, uma conta que seja membro do grupo Administradores de domínio e grupo RTCUniversalServerAdmins e que tem permissões de controle total (leitura/gravação/modificar) no compartilhamento de arquivos a serem usados para o Skype para repositório de arquivos do servidor de negócios (para que topologia Construtor pode configurar as DACLs necessárias)  <br/> |[Criar e publicar a nova topologia no Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Configurar políticas de conferência e definições de configuração** <br/> |Use o Skype para painel de controle do Business Server ou Skype para Business Server Management Shell para configurar políticas de conferência e definições de configuração.  <br/> |Grupo RTCUniversalServerAdmins (somente para o Windows PowerShell) ou atribua usuários à função CSAdministrator  <br/> |[Gerenciar políticas de conferência do Skype para Business Server](../../manage/conferencing/conferencing-policies.md) <br/> [Gerenciar configurações de reunião no Skype para Business Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
-   
+
 ## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Fluxograma de implantação e Lista de verificação para conferência discada
 <a name="BKMK_DialinConferencing"> </a>
 
  A conferência discada permite aos usuários discarem da rede telefônica pública comutada (PSTN) para participar de uma conferência de áudio/vídeo.
-  
-Alguns dos componentes necessários para conferência discada também são usados para o Enterprise Voice. Por exemplo, se você estiver implantando o Enterprise Voice, você também deverá implantar um Servidor de Mediação e um gateway PSTN--componentes que também são exigidos para conferência discada. Portanto, o modo como você implanta a conferência discada depende do fato de você estar implantando também uma solução Enterprise Voice. 
-  
+
+Alguns dos componentes necessários para conferência discada também são usados para o Enterprise Voice. Por exemplo, se você estiver implantando o Enterprise Voice, você também deverá implantar um Servidor de Mediação e um gateway PSTN--componentes que também são exigidos para conferência discada. Portanto, o modo como você implanta a conferência discada depende do fato de você estar implantando também uma solução Enterprise Voice.
+
 O fluxograma de conferência discada mostra as etapas que você deve cumprir se estiver implantando também uma solução Enterprise Voice. A tabela depois do fluxograma fornece uma visão geral das etapas necessárias e recomendadas para implantar a conferência discada. Os links para o planejamento associados e documentação de procedimentos também estão incluídos. Para obter mais informações sobre como planejar uma solução completa do Enterprise Voice, consulte [planejar sua solução do Enterprise Voice no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
-  
+
 **Fluxograma de conferência discada**
 
 ![Implantar o fluxograma da conferência de discagem](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
-  
+
 **Verificação da implantação de conferência discada**
 
 |**Fase**|**Etapas**|**Funções e associação de grupo**|**Documentação**|
@@ -78,9 +78,9 @@ O fluxograma de conferência discada mostra as etapas que você deve cumprir se 
 |**(Opcional) Verifique ou modifique os requisitos do número de identificação pessoal (PIN) do usuário.** <br/> |Use Skype para painel de controle do Business Server ou Skype para Business Server Management Shell para exibir ou modificar a **Política de PIN**de conferência. Você pode especificar o comprimento mínimo do PIN, o número máximo de tentativas de logon, a expiração do PIN e se padrões comuns são permissíveis.  <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gerenciar políticas de PIN para conferência discada no Skype para Business Server](../../manage/conferencing/pin-policies.md) <br/> [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> [Set-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps) <br/> |
 |**(Opcional) Modifique o mapeamento de teclas dos comandos DTMF** <br/> |Use o cmdlet **Set-CsDialinConferencingDtmfConfiguration** para modificar as teclas usadas para comandos DTMF que os participantes podem usar para controlar as configurações da conferência (como silenciar e ativar ou travar e destravar). <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gerenciar o mapeamento de teclas para comandos DTMF no Skype para Business Server](../../manage/conferencing/key-mapping-for-dtmf-commands.md) <br/> [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps) <br/> |
 |**(Opcional) Modifique o comportamento do anúncio de entrada e saída da conferência** <br/> |Use o cmdlet  **Set-CsDialinConferencingConfiguration** para alterar como os anúncios funcionam quando participantes entram e saem das conferências. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gerenciar o ingresso na conferência e deixar anúncios em Skype para Business Server](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
-|**(Recomendado) Configurar diretórios de conferência** <br/> |Use o cmdlet **New-CsConferenceDirectory** para criar um diretório de conferência para cada 999 usuários no pool. <br/> |RTCUniversalServerAdmins  <br/> |[(Recomendado) Criar diretórios de conferência](http://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
+|**(Recomendado) Configurar diretórios de conferência** <br/> |Use o cmdlet **New-CsConferenceDirectory** para criar um diretório de conferência para cada 999 usuários no pool. <br/> |RTCUniversalServerAdmins  <br/> |[(Recomendado) Criar diretórios de conferência](https://technet.microsoft.com/library/787f4c94-1c96-468a-a74d-e06b7bd4b8a3.aspx) <br/> [New-CsConferenceDirectory](https://docs.microsoft.com/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**(Opcional) Verifique as configurações da conferência discada** <br/> |Use o cmdlet  **Get-CsDialinConferencingAccessNumber** para pesquisar planos de discagem que tenham uma região de conferência discada que não seja usada por qualquer número de acesso e números de acesso que não possuam região atribuída. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> CsHelpDesk  <br/> |[Configurar a conferência discada no Skype para Business Server](dial-in-conferencing.md) <br/> [Teste a conferência discada no Skype para Business Server](../../manage/conferencing/tests.md) <br/> [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
 |**(Opcional) Verifique a conferência discada** <br/> |Use o cmdlet  **Test-CsDialInConferencing** para testar se os números de acesso para o pool especificado estão funcionando corretamente. <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Teste a conferência discada no Skype para Business Server](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
 |**(Opcional) Receba os usuários em conferências discadas e defina o PIN inicial** <br/> |Use o script **Set-CsPinSendCAWelcomeMail** para definir o PIN inicial dos usuários e envie um e-mail de boas-vindas que contenha o PIN inicial e um link para a página de configurações de conferência discada. <br/> |RTCUniversalServerAdmins  <br/> |[Enviar e-mail de boas vindas discada usuários em Skype para Business Server](../../manage/conferencing/welcome-emails.md) <br/> |
-   
+
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este tópico para saber mais sobre como implantar sistemas de sala Skype v2 em implantações de grande escala.
-ms.openlocfilehash: 5ed6e041eb862c7bb50bde89ef172f9012ca8c2e
-ms.sourcegitcommit: 81c6775fdcf8726d2df83c421a85b7908f1f7412
+ms.openlocfilehash: 3b34d584bf98326257964e30431f622a0be6dee2
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "22601994"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247454"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implantar sistemas de sala Skype v2 usando o System Center Configuration Manager
 
@@ -81,7 +81,7 @@ Use as instruções a seguir para verificar se os recursos de implantação (OSD
 
 2.  Selecione o servidor de ponto de distribuição que atender a implantação do Skype sala sistemas v2 e selecione **Propriedades**.
 
-3.  Selecione a guia **PXE** e certifique-se de que as configurações a seguir estão habilitadas: 
+3.  Selecione a guia **PXE** e certifique-se de que as configurações a seguir estão habilitadas:
     -   Habilitar o suporte a PXE para clientes
     -   Permitir que esse ponto de distribuição responder às solicitações de entrada PXE
     -   Habilitar o suporte de computador desconhecido
@@ -212,7 +212,7 @@ Crie a seguinte estrutura de pasta no site de administração central do System 
       Wait-Process -name wusa
    }
 ```
-3.  Baixe os pacotes do Windows Update obrigatórios para a mesma pasta.  
+3.  Baixe os pacotes do Windows Update obrigatórios para a mesma pasta.
     > [!NOTE]
     > No momento em que este artigo foi publicado, [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) era necessária. Verifique se [Configure um console do Skype sala sistemas v2](console.md), para ver se quaisquer outras atualizações são necessárias.
 
@@ -319,21 +319,21 @@ Você criar este pacote para distribuir o certificado raiz para dispositivos que
         strHTMLText = strHTMLText & "<br><br> Click Accept to use this as the computer name and continue deployment, or Change to set a new name."
         strHTMLText = strHTMLText & "<p><input type=""button"" value=""Accept"" name = ""Accept_Button"" onclick=""SetComputerName"" />"
         strHTMLText = strHTMLText & " <input type=""button"" value=""Change"" name = ""Change_Button"" onclick=""ChangeComputerName"" />"
-        TextArea2.innerHTML = strHTMLText   
+        TextArea2.innerHTML = strHTMLText
     End Sub
-    
+
     Sub SetComputerName()
         dim result
         result = MsgBox("Computer Name to be assigned: " & strNewComputerName &vbcrlf & "Are you sure you want to continue?", 36)
-        If (result = vbYes) then 
-            SET env = CreateObject("Microsoft.SMS.TSEnvironment") 
+        If (result = vbYes) then
+            SET env = CreateObject("Microsoft.SMS.TSEnvironment")
             env("OSDComputerName") = strNewComputerName
-            self.close  
+            self.close
         elseif (result = vbNo) then
             Window_OnLoad
         End If
     End Sub
-    
+
     Sub UpdateComputerName()
         strNewComputerName = newcomputername.value
         if len(trim(strNewComputerName)) = 0 then
@@ -342,26 +342,26 @@ Você criar este pacote para distribuir o certificado raiz para dispositivos que
         end if
         SetComputerName
     End Sub
-    
+
     Sub ChangeComputerName()
         TextArea2.innerHTML = "<p>Type the new computer name and click Accept:  <input type=""text"" name=""newcomputername"" value =" & strNewComputerName & " />"
         TextArea2.innerHTML = TextArea2.innerHTML & "<br><input type=""button"" value=""Update"" name = ""Update_Button"" onclick=""UpdateComputerName"" />"
     End Sub
-    
+
     Sub Window_OnLoad
         Set oTSProgressUI = CreateObject("Microsoft.SMS.TsProgressUI")
         oTSProgressUI.CloseProgressDialog
         GenerateComputerName
     End Sub
     </script>
-    
+
     <body>
     <span id = "TextArea1"></span>
     <span id = "TextArea2">
     </span>
     </body>
     </html>
-    
+
     ```
 3.  No console do Configuration Manager, vá para **A biblioteca de Software** \> **Gerenciamento de aplicativos** \> **pacotes**e, em seguida, selecione **Criar pacote**.
 
@@ -390,16 +390,16 @@ Você criar este pacote para distribuir o certificado raiz para dispositivos que
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
     <settings pass="specialize">
-        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Embedded-BootExp" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="NonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <DisableBootMenu>1</DisableBootMenu>
             <DisplayDisabled>1</DisplayDisabled>
         </component>
-        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-powercpl" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <PreferredPlan>8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c</PreferredPlan>
         </component>
     </settings>
     <settings pass="oobeSystem">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="https://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>
                 <HideLocalAccountScreen>true</HideLocalAccountScreen>
@@ -625,11 +625,11 @@ Você pode baixar e facilmente importar uma sequência de tarefas de amostra e p
     16. **Adicionar usuário Local do Skype**: essa etapa cria a conta do Skype local usada para entrar no Windows e inicie o aplicativo do Skype sala sistemas v2 automaticamente. Esta etapa não tem nenhum pacote de software associado a ela, e sem personalização é necessária para ele.
 
     17. **Definido para cima e para configurar o aplicativo de SRS**: esta etapa configura a instalação do aplicativo Skype sala sistemas v2 para a próxima inicialização do sistema operacional.
-        -   Verifique se que o **redirecionamento de sistema de arquivo desabilitar 64 bits** e **SRS v2 – configurar pacote de instalação do SRS** estão selecionadas.       
+        -   Verifique se que o **redirecionamento de sistema de arquivo desabilitar 64 bits** e **SRS v2 – configurar pacote de instalação do SRS** estão selecionadas.
 
 > [!IMPORTANT]
 > É muito importante que as etapas de sequência de tarefa devem ser na ordem fornecida. Modificar a ordem das etapas ou etapas adicionais de configuração pode interromper a implantação.
-> 
+>
 > **Definido para cima e para configurar o aplicativo de SRS** etapa deve ser a última etapa na sequência de tarefas, caso contrário, a implantação pode falhar.
 
 ### <a name="create-deployment-for-the-task-sequence"></a>Criar a implantação da sequência de tarefas

@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 79413713fb3ba4c656dad7d835931003dd688615
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3cd4fa6d367cc0509831b06c66c054a71c8e0d4c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995527"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242093"
 ---
 # <a name="bandwidth-policy-profile"></a>Perfil de política de largura de banda
- 
+
 O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-  
-- [Configurando o perfil de política de largura de banda](http://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
-    
+
+- [Configurando o perfil de política de largura de banda](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+
 Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).
 

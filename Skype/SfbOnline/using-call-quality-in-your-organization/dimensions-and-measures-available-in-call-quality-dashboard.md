@@ -18,29 +18,29 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 2949f170aef6567d186adcd8414e39c7689537e2
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: 95194240a110a5372a6891c884e729b5a0cc7d43
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645206"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23245433"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas
 
 O painel de qualidade de chamada (CQD) for Microsoft Teams e Skype para Business Online permite que você adquira ideias sobre a qualidade das chamadas feitas usando o Microsoft Teams e Skype para serviços corporativos. Este tópico fornece informações detalhadas sobre as dimensões e medidas expostas pelo CQD. Para saber mais sobre CQD e como ativá-la, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online](turning-on-and-using-call-quality-dashboard.md).
-  
+
 ## <a name="first-and-second-endpoint-classification"></a>Classificação de primeiro e segundo ponto de extremidade
 
 Muitas das dimensões e medidas no Painel de Qualidade de Chamada (CQD) são rotulados como primeiro ou segundo. A seguinte lógica determina qual ponto de extremidade envolvido no fluxo ou na chamada é rotulado como o primeiro:
-  
+
 - Primeiro sempre será um ponto de extremidade do servidor (AV MCU, servidor de mediação, etc.) se um servidor que está envolvido na chamada/stream.
-    
+
 - O segundo será sempre um ponto de extremidade de Cliente, a menos que o fluxo seja entre dois pontos de extremidade de Servidor.
-    
+
 - Se ambos os pontos de extremidade são do mesmo tipo, a ordem para o qual é o primeira versus segundo baseia-se em ordem interno da categoria de agente do usuário. Isso assegura que a ordenação seja consistente.
-    
+
 Por exemplo, cada linha representa um par de Agentes do Usuário envolvidos em um fluxo:
-  
+
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Categoria do Agente do Usuário do Autor da Chamada** <br/> |**Categoria do Agente do Usuário do Destinatário da Chamada** <br/> |**First Endpoint** <br/> |**Second Endpoint** <br/> |**First Is Caller** <br/> |
@@ -51,14 +51,14 @@ Por exemplo, cada linha representa um par de Agentes do Usuário envolvidos em u
 |Servidor de Mediação  <br/> |AV-MCU  <br/> |Servidor de Mediação  <br/> |AV-MCU  <br/> |VERDADEIRO  <br/> |
 |OC (cliente Skype for Business)  <br/> |Telefone OC (telefone IP do Skype for Business)  <br/> |OC (cliente Skype for Business)  <br/> |Telefone OC (telefone IP do Skype for Business)  <br/> |VERDADEIRO  <br/> |
 |Telefone OC (telefone IP do Skype for Business)  <br/> |OC (cliente Skype for Business)  <br/> |OC (cliente Skype for Business)  <br/> |Telefone OC (telefone IP do Skype for Business)  <br/> |FALSO  <br/> |
-   
+
 > [!NOTE]
 > [!OBSERVAçãO] Essa classificação Primeiro e Segundo é separada da classificação de qual ponto de extremidade é o autor da chamada ou o destinatário da chamada. A dimensão "O Primeiro é o Autor da Chamada" pode ser usada para ajudar a identificar qual ponto de extremidade foi o autor da chamada ou o destinatário da chamada.
-  
+
 ## <a name="dimensions"></a>Dimensões
 
 A seguinte tabela lista as dimensões disponíveis atualmente no CQD:
-  
+
 |||||
 |:-----|:-----|:-----|:-----|
 |**Nome da dimensão** <br/> |**Tipo de dados/Unidades** <br/> |**Descrição** <br/> |**Valores** <br/> |
@@ -321,17 +321,17 @@ A seguinte tabela lista as dimensões disponíveis atualmente no CQD:
 |Inside Corp Pair  <br/> |Par enumerado  <br/> | Par que mostra se os pontos de extremidade estavam localizados dentro ou fora da rede corporativa com base no mapeamento de sub-rede. Valores possíveis: <br/>  Inside : Inside <br/>  Inside : Outside <br/>  Outside : Outside <br/> |**Valor de exemplo:** Dentro: dentro  <br/> |
 |Scenario Pair  <br/> |Par enumerado  <br/> |Par que mostra se os pontos de extremidade estavam localizados dentro ou fora da rede corporativa com base no mapeamento de sub-rede e nos detalhes de conexão da rede.  <br/> **Observação:** Os pares são separados por ' – '.           |Valores em branco na enumeração indicam que o tipo de conectividade de rede era desconhecido para um ou os dois pontos de extremidade. <br/>**Valor de exemplo:** Cliente-Inside – cliente-Inside-wifi  <br/> |
 |É equipes  <br/> |Booliano  <br/> |True indica que o agente do usuário de primeira ou segunda para o fluxo de um ponto de extremidade do Microsoft Teams.  <br/> False indica que os agentes de usuário são Skype para pontos de extremidade de negócios.  |**Valor de exemplo:** True  |
-   
+
 ### <a name="notes-on-dimension-data-typeunits"></a>Observações sobre tipo de dados/unidades de dimensões:
 
 #### <a name="range"></a>Intervalo
 
 As dimensões que são fornecidas como intervalos ou grupos de valores são mostradas neste formato:
-  
+
  _\<cadeia de caracteres de ordem de classificação\> [\<limite inferior inclusive\> - \<limite superior exclusive\>)_
-  
+
 Por exemplo, a dimensão Duration (Minutes) representa a duração da chamada em segundos, com os valores informados como um intervalo de valores.
-  
+
 |||
 |:-----|:-----|
 |**Duration (Minutes)** <br/> |**Como interpretar** <br/> |
@@ -340,22 +340,22 @@ Por exemplo, a dimensão Duration (Minutes) representa a duração da chamada em
 |065: [2 - 3)  <br/> |2 minutos < = duração do fluxo < 3 minutos  <br/> |
 |066: [3 - 4)  <br/> |3 minutos < = duração do fluxo < 4 minutos  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 A <cadeia de caracteres de ordem de classificação> é usada para controlar a ordem de classificação ao apresentar os dados e pode ser usada para filtragem. Por exemplo, um filtro de Duration (Minutes) < "065", mostraria os fluxos com duração inferior a 2 minutos (o '0' à esquerda é necessário para que o filtro funcione como esperado).
-  
+
 > [!NOTE]
-> [!OBSERVAçãO] O valor real da cadeia de caracteres da ordem de classificação não importa. 
-  
+> [!OBSERVAçãO] O valor real da cadeia de caracteres da ordem de classificação não importa.
+
 #### <a name="enumeration-pair"></a>Par enumerado
 
 As dimensões que são fornecidas como um par enumerado são mostradas neste formato:
-  
+
  _\<valor de enumeração de um ponto de extremidade\> : \<o valor de enumeração do outro ponto de extremidade\>_
-  
+
 A ordem dos valores de enumeração é consistente, mas não reflete a ordem do primeiro ou segundo pontos de extremidade.
-  
+
 Por exemplo, Network Connection Detail Pair mostra os valores de Network Connection Detail dos dois pontos de extremidade:
-  
+
 |||
 |:-----|:-----|
 |**Network Connection Detail Pair** <br/> |**Como interpretar** <br/> |
@@ -363,15 +363,15 @@ Por exemplo, Network Connection Detail Pair mostra os valores de Network Connect
 |Wired : wifi  <br/> |O primeiro ponto de extremidade usava uma conexões Ethernet com fio, e o segundo ponto de extremidade usava uma conexão Wi-Fi, ou o segundo ponto de extremidade usava uma conexões Ethernet com fio e o primeiro ponto de extremidade usava uma conexão Wi-Fi.  <br/> |
 |: wifi  <br/> |O primeiro ponto de extremidade usava uma conexão Wi-Fi e a conexão de rede usada pelo segundo ponto de extremidade é desconhecida, ou o segundo ponto de extremidade usava uma conexão Wi-Fi e a conexão de rede usada pelo primeiro ponto de extremidade é desconhecida.  <br/> |
 |…  <br/> |…  <br/> |
-   
+
 #### <a name="blank-values"></a>Valores em branco
 
 A tabela acima lista possíveis motivos pelos quais uma dimensão pode estar em branco. Muitas dimensões e medidas ficarão em branco se a dimensão Registro de QoE Disponível for false. Isso ocorre normalmente quando a chamada não é estabelecida com sucesso.
-  
+
 ## <a name="measures"></a>Medidas
 
 A tabela a seguir lista as medidas disponíveis atualmente no CQD (Call Quality Dashboard, Painel de Qualidade de Chamada):
-  
+
 ||||
 |:-----|:-----|:-----|
 |**Nome da avaliação** <br/> |**Unidades** <br/> |**Descrição** <br/> |
@@ -425,10 +425,10 @@ A tabela a seguir lista as medidas disponíveis atualmente no CQD (Call Quality 
 |Second Feedback Token Audio Issue Count  <br/> |Número de fluxos classificados  <br/> |Número de fluxos onde o usuário que usa o segundo ponto de extremidade indicou uma falha de áudio.  <br/> |
 |First Feedback Token Video Issue Count  <br/> |Número de fluxos classificados  <br/> |Número de fluxos de onde o usuário usando o primeiro ponto de extremidade indicado um problema com vídeo.  <br/> |
 |Second Feedback Token Video Issue Count  <br/> |Número de fluxos classificados  <br/> |Número de fluxos de onde o usuário usando o segundo ponto de extremidade indicado um problema com vídeo.  <br/> |
-|Audio SLA Good Call Count  <br/> |Número de chamadas  <br/> |Número de chamadas de áudio dentro do escopo do Skype para Business SLA de qualidade de voz ([Licenciamento por Volume para produtos da Microsoft e de serviços Online](http://aka.ms/voicequalitysla)) classificado como reunião as metas de desempenho de rede.  <br/> |
-|Audio SLA Poor Call Count  <br/> |Número de chamadas  <br/> |Número de chamadas de áudio dentro do escopo do Skype para negócios voz qualidade SLA ([Licenciamento por Volume para produtos da Microsoft e de serviços Online](http://aka.ms/voicequalitysla)) classificada como não atender as metas de desempenho de rede.  <br/> |
-|Audio SLA Call Count  <br/> |Número de chamadas  <br/> |Número de chamadas de áudio dentro do escopo do Skype para Business SLA de qualidade de voz ([Licenciamento por Volume para produtos e do Microsoft Online Services](http://aka.ms/voicequalitysla)).  <br/> |
-|Audio SLA Good Call Percentage  <br/> |Porcentagem  <br/> |Porcentagem de chamadas de áudio dentro do escopo do SLA de qualidade de voz do Skype for Business ([Licenciamento por volume dos produtos e serviços online da Microsoft ](http://aka.ms/voicequalitysla)) classificadas como metas de desempenho de rede atendidas  <br/> |
+|Audio SLA Good Call Count  <br/> |Número de chamadas  <br/> |Número de chamadas de áudio dentro do escopo do Skype para Business SLA de qualidade de voz ([Licenciamento por Volume para produtos da Microsoft e de serviços Online](https://aka.ms/voicequalitysla)) classificado como reunião as metas de desempenho de rede.  <br/> |
+|Audio SLA Poor Call Count  <br/> |Número de chamadas  <br/> |Número de chamadas de áudio dentro do escopo do Skype para negócios voz qualidade SLA ([Licenciamento por Volume para produtos da Microsoft e de serviços Online](https://aka.ms/voicequalitysla)) classificada como não atender as metas de desempenho de rede.  <br/> |
+|Audio SLA Call Count  <br/> |Número de chamadas  <br/> |Número de chamadas de áudio dentro do escopo do Skype para Business SLA de qualidade de voz ([Licenciamento por Volume para produtos e do Microsoft Online Services](https://aka.ms/voicequalitysla)).  <br/> |
+|Audio SLA Good Call Percentage  <br/> |Porcentagem  <br/> |Porcentagem de chamadas de áudio dentro do escopo do SLA de qualidade de voz do Skype for Business ([Licenciamento por volume dos produtos e serviços online da Microsoft ](https://aka.ms/voicequalitysla)) classificadas como metas de desempenho de rede atendidas  <br/> |
 |Audio Good Call Stream Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio, onde os dois fluxos de áudio na chamada (trecho de chamada) não são classificados como ruins com base nas métricas de rede listado aqui: [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Call Stream Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio onde pelo menos um fluxo de áudio na chamada (trecho de chamada) foi classificado como pobre com base nas métricas de rede listado aqui: [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Unclassified Call Stream Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio onde dois fluxos de áudio na chamada (trecho de chamada) não puderam ser classificados devido à falta de métricas de rede.  <br/> |
@@ -496,7 +496,7 @@ A tabela a seguir lista as medidas disponíveis atualmente no CQD (Call Quality 
 |Firewall IP Blocked Media Failure Percentage  <br/> |Porcentagem  <br/> |Porcentagem de fluxos que não puderam ser estabelecidos porque o equipamento de rede bloqueou o acesso a servidores do Skype for Business. Normalmente, essas falhas indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usados pelo Skype for Business no Office 365.  <br/> |
 |Media Failed Due To Firewall DPI Stream Count  <br/> |Número de fluxos  <br/> |Número de fluxos que não puderam ser estabelecidos porque o equipamento de rede bloqueou o acesso, pois a inspeção profunda de pacotes não permitiu o tráfego do Skype for Business. Normalmente, essas falhas indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usados pelo Skype for Business no Office 365.  <br/> |
 |Firewall DPI Media Failure Percentage  <br/> |Porcentagem  <br/> |Porcentagem de fluxos que não puderam ser estabelecidos porque o equipamento de rede bloqueou o acesso, pois a inspeção profunda de pacotes não permitiu o tráfego do Skype for Business. Normalmente, essas falhas indicam que um proxy, firewall ou outro dispositivo de segurança de rede não está configurado corretamente para acessar o endereço IP e as portas usados pelo Skype for Business no Office 365.  <br/> |
-   
+
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar a Análise de Chamada do Skype for Business](set-up-call-analytics.md)
 
@@ -504,5 +504,4 @@ A tabela a seguir lista as medidas disponíveis atualmente no CQD (Call Quality 
 
 [Análise de chamada e o painel de controle de qualidade de chamada](Difference-between-call-analytics-and-call-quality-dashboard.md)
 
-  
- 
+

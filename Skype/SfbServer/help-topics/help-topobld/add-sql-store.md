@@ -12,21 +12,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: Para definir um novo repositório SQL, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
-ms.openlocfilehash: 6089060c3cb049e98c403776f8fa27d32e247fb7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ac1c38911e8763669a3bc80691d7b9bf541fd76e
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992453"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23251246"
 ---
 # <a name="add-sql-store"></a>Adicionar repositório SQL
- 
+
 Para definir um novo repositório SQL, o que significa que você está especificando um banco de dados baseado em SQL Server e uma instância do SQL Server — uma instância padrão ou uma instância nomeada — especifique o seguinte.
-  
+
 Especifique o nome de domínio totalmente qualificado (FQDN) do SQL Server que irá hospedar a instância de banco de dados que você está definindo.
-  
+
 Especifique a instância do SQL Server que hospedará os dados. Você pode especificar a instância padrão, ou você pode especificar uma instância nomeada.
-  
-Colocação de bancos de dados no instâncias específicas deve ser muito claramente compreendida. Para obter detalhes sobre a colocação do servidor e colocação de instância de banco de dados, consulte o [Posicionamento do servidor em uma implantação de Pool de Front-End](http://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) e [Colocação de servidor em uma implantação de servidores Standard Edition](http://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
-  
+
+Colocação de bancos de dados no instâncias específicas deve ser muito claramente compreendida. Para obter detalhes sobre a colocação do servidor e colocação de instância de banco de dados, consulte o [Posicionamento do servidor em uma implantação de Pool de Front-End](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) e [Colocação de servidor em uma implantação de servidores Standard Edition](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).
+
 
