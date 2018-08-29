@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 79413713fb3ba4c656dad7d835931003dd688615
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3cd4fa6d367cc0509831b06c66c054a71c8e0d4c
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995527"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242093"
 ---
-# <a name="bandwidth-policy-profile"></a><span data-ttu-id="4a04d-104">Perfil de política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="4a04d-104">Bandwidth Policy Profile</span></span>
- 
-<span data-ttu-id="4a04d-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="4a04d-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="4a04d-107">Configurando o perfil de política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="4a04d-107">Configuring Bandwidth Policy Profile</span></span>](http://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
-    
-<span data-ttu-id="4a04d-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="4a04d-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+# <a name="bandwidth-policy-profile"></a><span data-ttu-id="f5fda-104">Perfil de política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="f5fda-104">Bandwidth Policy Profile</span></span>
+
+<span data-ttu-id="f5fda-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="f5fda-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="f5fda-107">Configurando o perfil de política de largura de banda</span><span class="sxs-lookup"><span data-stu-id="f5fda-107">Configuring Bandwidth Policy Profile</span></span>](https://technet.microsoft.com/library/08a2e18f-9b0d-4a2f-aa14-13bbf79ec745.aspx)
+
+<span data-ttu-id="f5fda-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="f5fda-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

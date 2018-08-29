@@ -12,22 +12,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: b9c456dab073d15a619adf7792fdb2055389999c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 53ba95cbc7220f4f530755548b335408ad9c71fe
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246586"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="027eb-104">Política de Acesso Externo: Criar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="027eb-104">External Access Policy: Create New or Edit Existing</span></span>
- 
-<span data-ttu-id="027eb-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="027eb-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="027eb-107">Redefinir ou excluir políticas de acesso de usuário externo</span><span class="sxs-lookup"><span data-stu-id="027eb-107">Reset or Delete External User Access Policies</span></span>](http://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
-    
-- [<span data-ttu-id="027eb-108">Configurar políticas para controlar o acesso de usuário federado</span><span class="sxs-lookup"><span data-stu-id="027eb-108">Configure Policies to Control Federated User Access</span></span>](http://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
-    
-- [<span data-ttu-id="027eb-109">Gerenciar o acesso de usuário remoto</span><span class="sxs-lookup"><span data-stu-id="027eb-109">Manage Remote User Access</span></span>](http://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
-    
-- [<span data-ttu-id="027eb-110">Configurar políticas para controlar o acesso por usuários de provedores de serviço de mensagens Instantâneas</span><span class="sxs-lookup"><span data-stu-id="027eb-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](http://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
-    
+# <a name="external-access-policy-create-new-or-edit-existing"></a><span data-ttu-id="d5bc8-104">Política de Acesso Externo: Criar Nova ou Editar Existente</span><span class="sxs-lookup"><span data-stu-id="d5bc8-104">External Access Policy: Create New or Edit Existing</span></span>
+
+<span data-ttu-id="d5bc8-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="d5bc8-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="d5bc8-107">Redefinir ou excluir políticas de acesso de usuário externo</span><span class="sxs-lookup"><span data-stu-id="d5bc8-107">Reset or Delete External User Access Policies</span></span>](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
+
+- [<span data-ttu-id="d5bc8-108">Configurar políticas para controlar o acesso de usuário federado</span><span class="sxs-lookup"><span data-stu-id="d5bc8-108">Configure Policies to Control Federated User Access</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+
+- [<span data-ttu-id="d5bc8-109">Gerenciar o acesso de usuário remoto</span><span class="sxs-lookup"><span data-stu-id="d5bc8-109">Manage Remote User Access</span></span>](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+
+- [<span data-ttu-id="d5bc8-110">Configurar políticas para controlar o acesso por usuários de provedores de serviço de mensagens Instantâneas</span><span class="sxs-lookup"><span data-stu-id="d5bc8-110">Configure Policies to Control Access by Users of IM Service Providers</span></span>](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+
 
