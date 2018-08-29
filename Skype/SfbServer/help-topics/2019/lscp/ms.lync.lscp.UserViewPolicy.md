@@ -12,20 +12,20 @@ localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 2e0206be82526fe39d77db711f42683d389cb9f3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9d9030ae9b86d5165114db6ea78184ede8343575
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21019352"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23246021"
 ---
-# <a name="users-view-voice-policy"></a><span data-ttu-id="dde9c-104">Usuários: Exibir política de voz</span><span class="sxs-lookup"><span data-stu-id="dde9c-104">Users: View Voice Policy</span></span>
- 
-<span data-ttu-id="dde9c-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="dde9c-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
-  
-- [<span data-ttu-id="dde9c-107">Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="dde9c-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
-    
-- [<span data-ttu-id="dde9c-108">Modificar uma política de voz e configurar registros de uso PSTN</span><span class="sxs-lookup"><span data-stu-id="dde9c-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](http://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
-    
- 
+# <a name="users-view-voice-policy"></a><span data-ttu-id="2abf5-104">Usuários: Exibir política de voz</span><span class="sxs-lookup"><span data-stu-id="2abf5-104">Users: View Voice Policy</span></span>
+
+<span data-ttu-id="2abf5-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="2abf5-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+
+- [<span data-ttu-id="2abf5-107">Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="2abf5-107">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+
+- [<span data-ttu-id="2abf5-108">Modificar uma política de voz e configurar registros de uso PSTN</span><span class="sxs-lookup"><span data-stu-id="2abf5-108">Modify a Voice Policy and Configure PSTN Usage Records</span></span>](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx)
+
+
 

@@ -12,68 +12,69 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: fa1ca0907d3316066e2ca6e1fcf8a1d09a9c315a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8dea581da6111973ee7d7ec3d8cfcc27d3c1346b
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23261837"
 ---
-# <a name="location-policy"></a><span data-ttu-id="99def-103">Política de Local</span><span class="sxs-lookup"><span data-stu-id="99def-103">Location Policy</span></span>
- 
-<span data-ttu-id="99def-104">As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.</span><span class="sxs-lookup"><span data-stu-id="99def-104">Location policies determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it is used, as well as how location information is used for users and contacts.</span></span> 
-  
-<span data-ttu-id="99def-105">As políticas de local incluem a política global e, como opção, uma ou mais políticas de site e de usuário:</span><span class="sxs-lookup"><span data-stu-id="99def-105">Location policies include the global policy and, optionally, one or more site and user policies:</span></span>
-  
-- <span data-ttu-id="99def-106">**Política global:** A política global criada por padrão.</span><span class="sxs-lookup"><span data-stu-id="99def-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="99def-107">É possível editar a política global, mas não é possível excluí-la.</span><span class="sxs-lookup"><span data-stu-id="99def-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="99def-108">Se você tentar remover a política global, todas as configurações serão redefinidas para os valores padrão.</span><span class="sxs-lookup"><span data-stu-id="99def-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
-    
-- <span data-ttu-id="99def-109">**(Opcionais) de políticas de site:** Você pode criar políticas de local site um ou mais, cada um deles se aplica a um site específico.</span><span class="sxs-lookup"><span data-stu-id="99def-109">**Site policies (optional):** You can create one or more site location policies, each of which applies to a specific site.</span></span> <span data-ttu-id="99def-110">As políticas de site substituem a política global.</span><span class="sxs-lookup"><span data-stu-id="99def-110">Site policies override the global policy.</span></span>
-    
-- <span data-ttu-id="99def-111">**Políticas de usuário (opcionais):** Você pode criar políticas de local usuário um ou mais, cada um deles se aplica a um usuário específico ou grupo de usuários.</span><span class="sxs-lookup"><span data-stu-id="99def-111">**User policies (optional):** You can create one or more user location policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="99def-112">As políticas de usuário substituem a política global e as políticas de site.</span><span class="sxs-lookup"><span data-stu-id="99def-112">User policies override the global policy and site policies.</span></span>
-    
+# <a name="location-policy"></a><span data-ttu-id="3012e-103">Política de Local</span><span class="sxs-lookup"><span data-stu-id="3012e-103">Location Policy</span></span>
+
+<span data-ttu-id="3012e-104">As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.</span><span class="sxs-lookup"><span data-stu-id="3012e-104">Location policies determine whether Enhanced 9-1-1 (E9-1-1) is enabled and how it is used, as well as how location information is used for users and contacts.</span></span>
+
+<span data-ttu-id="3012e-105">As políticas de local incluem a política global e, como opção, uma ou mais políticas de site e de usuário:</span><span class="sxs-lookup"><span data-stu-id="3012e-105">Location policies include the global policy and, optionally, one or more site and user policies:</span></span>
+
+- <span data-ttu-id="3012e-106">**Política global:** A política global criada por padrão.</span><span class="sxs-lookup"><span data-stu-id="3012e-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="3012e-107">É possível editar a política global, mas não é possível excluí-la.</span><span class="sxs-lookup"><span data-stu-id="3012e-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="3012e-108">Se você tentar remover a política global, todas as configurações serão redefinidas para os valores padrão.</span><span class="sxs-lookup"><span data-stu-id="3012e-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
+
+- <span data-ttu-id="3012e-109">**(Opcionais) de políticas de site:** Você pode criar políticas de local site um ou mais, cada um deles se aplica a um site específico.</span><span class="sxs-lookup"><span data-stu-id="3012e-109">**Site policies (optional):** You can create one or more site location policies, each of which applies to a specific site.</span></span> <span data-ttu-id="3012e-110">As políticas de site substituem a política global.</span><span class="sxs-lookup"><span data-stu-id="3012e-110">Site policies override the global policy.</span></span>
+
+- <span data-ttu-id="3012e-111">**Políticas de usuário (opcionais):** Você pode criar políticas de local usuário um ou mais, cada um deles se aplica a um usuário específico ou grupo de usuários.</span><span class="sxs-lookup"><span data-stu-id="3012e-111">**User policies (optional):** You can create one or more user location policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="3012e-112">As políticas de usuário substituem a política global e as políticas de site.</span><span class="sxs-lookup"><span data-stu-id="3012e-112">User policies override the global policy and site policies.</span></span>
+
 > [!NOTE]
-> <span data-ttu-id="99def-113">Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes.</span><span class="sxs-lookup"><span data-stu-id="99def-113">You can also assign location policies to network sites, which are groups of subnets.</span></span> <span data-ttu-id="99def-114">As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário.</span><span class="sxs-lookup"><span data-stu-id="99def-114">Location policies assigned to network sites take precedence over all other user policies.</span></span> <span data-ttu-id="99def-115">Para obter detalhes sobre como atribuir políticas de local aos sites de rede usando cmdlets, consulte [Adicionar uma política de local em um site de rede no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="99def-115">For details about assigning location policies to network sites by using cmdlets, see [Add a location policy to a network site in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md).</span></span> <span data-ttu-id="99def-116">Para obter detalhes sobre como usar o Skype para painel de controle do Business Server para atribuir uma política de local a um site de rede, consulte [Configurando Sites de rede](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).</span><span class="sxs-lookup"><span data-stu-id="99def-116">For details about using Skype for Business Server Control Panel to assign a location policy to a network site, see [Configuring Network Sites](http://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).</span></span> 
-  
-<span data-ttu-id="99def-117">A página  **Política de Local** exibe uma lista de todas as políticas de local definidas para sua organização.</span><span class="sxs-lookup"><span data-stu-id="99def-117">The **Location Policy** page displays a list of all the location policies that are defined for your organization.</span></span>
-  
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="99def-118">Tarefas que podem ser executadas</span><span class="sxs-lookup"><span data-stu-id="99def-118">Tasks you can perform</span></span>
+> <span data-ttu-id="3012e-113">Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes.</span><span class="sxs-lookup"><span data-stu-id="3012e-113">You can also assign location policies to network sites, which are groups of subnets.</span></span> <span data-ttu-id="3012e-114">As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário.</span><span class="sxs-lookup"><span data-stu-id="3012e-114">Location policies assigned to network sites take precedence over all other user policies.</span></span> <span data-ttu-id="3012e-115">Para obter detalhes sobre como atribuir políticas de local aos sites de rede usando cmdlets, consulte [Adicionar uma política de local em um site de rede no Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md).</span><span class="sxs-lookup"><span data-stu-id="3012e-115">For details about assigning location policies to network sites by using cmdlets, see [Add a location policy to a network site in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md).</span></span> <span data-ttu-id="3012e-116">Para obter detalhes sobre como usar o Skype para painel de controle do Business Server para atribuir uma política de local a um site de rede, consulte [Configurando Sites de rede](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).</span><span class="sxs-lookup"><span data-stu-id="3012e-116">For details about using Skype for Business Server Control Panel to assign a location policy to a network site, see [Configuring Network Sites](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).</span></span>
 
-<span data-ttu-id="99def-119">É possível executar as seguintes tarefas na página  **Política de Local**:</span><span class="sxs-lookup"><span data-stu-id="99def-119">You can perform the following tasks from the **Location Policy** page:</span></span>
-  
-- <span data-ttu-id="99def-120">Criar uma nova política de local de site ou uma política de local de usuário</span><span class="sxs-lookup"><span data-stu-id="99def-120">Create a new site location policy or user location policy</span></span>
-    
-- <span data-ttu-id="99def-121">Alterar a política global ou uma política de site existente ou política de usuário</span><span class="sxs-lookup"><span data-stu-id="99def-121">Change the global policy or an existing site policy or user policy</span></span>
-    
-- <span data-ttu-id="99def-122">Excluir uma política de site ou de usuário</span><span class="sxs-lookup"><span data-stu-id="99def-122">Delete a site policy or user policy</span></span>
-    
-## <a name="ui-reference"></a><span data-ttu-id="99def-123">Referência de UI</span><span class="sxs-lookup"><span data-stu-id="99def-123">UI Reference</span></span>
+<span data-ttu-id="3012e-117">A página  **Política de Local** exibe uma lista de todas as políticas de local definidas para sua organização.</span><span class="sxs-lookup"><span data-stu-id="3012e-117">The **Location Policy** page displays a list of all the location policies that are defined for your organization.</span></span>
 
-<span data-ttu-id="99def-124">A lista a seguir descreve os comandos na página.</span><span class="sxs-lookup"><span data-stu-id="99def-124">The following list describes the commands on the page.</span></span>
-  
-- <span data-ttu-id="99def-125">**Novo** Inicia uma nova política de local de site ou política de local do usuário.</span><span class="sxs-lookup"><span data-stu-id="99def-125">**New** Starts a new site location policy or user location policy.</span></span>
-    
-- <span data-ttu-id="99def-126">**Editar** Abre a política de localização selecionada para editá-la, seleciona todas as políticas de local na lista ou exclui a política de site selecionado ou usuário.</span><span class="sxs-lookup"><span data-stu-id="99def-126">**Edit** Opens the selected location policy to edit it, selects all location policies in the list, or deletes the selected site policy or user policy.</span></span>
-    
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="3012e-118">Tarefas que podem ser executadas</span><span class="sxs-lookup"><span data-stu-id="3012e-118">Tasks you can perform</span></span>
+
+<span data-ttu-id="3012e-119">É possível executar as seguintes tarefas na página  **Política de Local**:</span><span class="sxs-lookup"><span data-stu-id="3012e-119">You can perform the following tasks from the **Location Policy** page:</span></span>
+
+- <span data-ttu-id="3012e-120">Criar uma nova política de local de site ou uma política de local de usuário</span><span class="sxs-lookup"><span data-stu-id="3012e-120">Create a new site location policy or user location policy</span></span>
+
+- <span data-ttu-id="3012e-121">Alterar a política global ou uma política de site existente ou política de usuário</span><span class="sxs-lookup"><span data-stu-id="3012e-121">Change the global policy or an existing site policy or user policy</span></span>
+
+- <span data-ttu-id="3012e-122">Excluir uma política de site ou de usuário</span><span class="sxs-lookup"><span data-stu-id="3012e-122">Delete a site policy or user policy</span></span>
+
+## <a name="ui-reference"></a><span data-ttu-id="3012e-123">Referência de UI</span><span class="sxs-lookup"><span data-stu-id="3012e-123">UI Reference</span></span>
+
+<span data-ttu-id="3012e-124">A lista a seguir descreve os comandos na página.</span><span class="sxs-lookup"><span data-stu-id="3012e-124">The following list describes the commands on the page.</span></span>
+
+- <span data-ttu-id="3012e-125">**Novo** Inicia uma nova política de local de site ou política de local do usuário.</span><span class="sxs-lookup"><span data-stu-id="3012e-125">**New** Starts a new site location policy or user location policy.</span></span>
+
+- <span data-ttu-id="3012e-126">**Editar** Abre a política de localização selecionada para editá-la, seleciona todas as políticas de local na lista ou exclui a política de site selecionado ou usuário.</span><span class="sxs-lookup"><span data-stu-id="3012e-126">**Edit** Opens the selected location policy to edit it, selects all location policies in the list, or deletes the selected site policy or user policy.</span></span>
+
     > [!NOTE]
-    > <span data-ttu-id="99def-127">Para a política global, **Excluir** redefine as configurações para os valores padrão.</span><span class="sxs-lookup"><span data-stu-id="99def-127">For the global policy, **Delete** resets the settings to the default values.</span></span>
-  
-- <span data-ttu-id="99def-128">**Atualizar** Atualiza a lista de políticas de local.</span><span class="sxs-lookup"><span data-stu-id="99def-128">**Refresh** Refreshes the list of location policies.</span></span>
-    
-<span data-ttu-id="99def-129">A lista a seguir descreve os campos na página.</span><span class="sxs-lookup"><span data-stu-id="99def-129">The following list describes the fields on the page.</span></span>
-  
-- <span data-ttu-id="99def-130">**Nome** Identifica a diretiva de local.</span><span class="sxs-lookup"><span data-stu-id="99def-130">**Name** Identifies the location policy.</span></span>
-    
-- <span data-ttu-id="99def-131">**Escopo** Identifica o escopo da política de local: global, site ou usuário.</span><span class="sxs-lookup"><span data-stu-id="99def-131">**Scope** Identifies the scope of the location policy: global, site, or user.</span></span>
-    
-- <span data-ttu-id="99def-132">**E9-1-1** Verificado se os usuários atribuídos a essa política de local estão habilitados para E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="99def-132">**E9-1-1** Checked if users assigned this location policy are enabled for E9-1-1.</span></span>
-    
-- <span data-ttu-id="99def-133">**Local** Especifica se é ou não os usuários são solicitados a digitar informações de localização quando seu cliente registra com Skype para Business Server em um novo local e se eles verão um aviso de isenção se recusar o aviso, sem digitar informações de local.</span><span class="sxs-lookup"><span data-stu-id="99def-133">**Location** Specifies whether or not users are prompted to enter location information when their client registers with Skype for Business Server at a new location, and whether they see a disclaimer if they dismiss the prompt without entering location information.</span></span>
-    
-- <span data-ttu-id="99def-134">**Uso da PSTN** Especifica o uso PSTN (rede) telefônica comutada pública que é usado para determinar a rota de voz usada para rotear chamadas de emergência de clientes usando esse perfil.</span><span class="sxs-lookup"><span data-stu-id="99def-134">**PSTN usage** Specifies the public switched telephone network (PSTN) usage that is used to determine the voice route used to route emergency calls from clients using this profile.</span></span>
-    
-- <span data-ttu-id="99def-135">**Número de E9-1-1** Especifica o número discado para acessar os serviços de emergências.</span><span class="sxs-lookup"><span data-stu-id="99def-135">**E9-1-1 number** Specifies the number that is dialed to reach emergency services.</span></span>
-    
-- <span data-ttu-id="99def-136">**Máscara de E9-1-1** Especifica um número discado pelo usuário que é convertido no número de discagem de emergência.</span><span class="sxs-lookup"><span data-stu-id="99def-136">**E9-1-1 mask** Specifies a number that a user dials that is then translated into the emergency dial number.</span></span>
-    
-<span data-ttu-id="99def-137">Para obter detalhes sobre os recursos de serviço de emergência do Enterprise Voice e recursos, consulte [Visão geral do E9-1-1](http://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="99def-137">For details about Enterprise Voice emergency service features and capabilities, see [Overview of E9-1-1](http://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in the Planning documentation.</span></span> <span data-ttu-id="99def-138">Para obter detalhes sobre como trabalhar com políticas de localização, consulte [Configurando a política de local](http://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="99def-138">For details about working with location policies, see [Configuring Location Policy](http://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) in the Operations documentation.</span></span>
-  
+    > <span data-ttu-id="3012e-127">Para a política global, **Excluir** redefine as configurações para os valores padrão.</span><span class="sxs-lookup"><span data-stu-id="3012e-127">For the global policy, **Delete** resets the settings to the default values.</span></span>
+
+- <span data-ttu-id="3012e-128">**Atualizar** Atualiza a lista de políticas de local.</span><span class="sxs-lookup"><span data-stu-id="3012e-128">**Refresh** Refreshes the list of location policies.</span></span>
+
+<span data-ttu-id="3012e-129">A lista a seguir descreve os campos na página.</span><span class="sxs-lookup"><span data-stu-id="3012e-129">The following list describes the fields on the page.</span></span>
+
+- <span data-ttu-id="3012e-130">**Nome** Identifica a diretiva de local.</span><span class="sxs-lookup"><span data-stu-id="3012e-130">**Name** Identifies the location policy.</span></span>
+
+- <span data-ttu-id="3012e-131">**Escopo** Identifica o escopo da política de local: global, site ou usuário.</span><span class="sxs-lookup"><span data-stu-id="3012e-131">**Scope** Identifies the scope of the location policy: global, site, or user.</span></span>
+
+- <span data-ttu-id="3012e-132">**E9-1-1** Verificado se os usuários atribuídos a essa política de local estão habilitados para E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="3012e-132">**E9-1-1** Checked if users assigned this location policy are enabled for E9-1-1.</span></span>
+
+- <span data-ttu-id="3012e-133">**Local** Especifica se é ou não os usuários são solicitados a digitar informações de localização quando seu cliente registra com Skype para Business Server em um novo local e se eles verão um aviso de isenção se recusar o aviso, sem digitar informações de local.</span><span class="sxs-lookup"><span data-stu-id="3012e-133">**Location** Specifies whether or not users are prompted to enter location information when their client registers with Skype for Business Server at a new location, and whether they see a disclaimer if they dismiss the prompt without entering location information.</span></span>
+
+- <span data-ttu-id="3012e-134">**Uso da PSTN** Especifica o uso PSTN (rede) telefônica comutada pública que é usado para determinar a rota de voz usada para rotear chamadas de emergência de clientes usando esse perfil.</span><span class="sxs-lookup"><span data-stu-id="3012e-134">**PSTN usage** Specifies the public switched telephone network (PSTN) usage that is used to determine the voice route used to route emergency calls from clients using this profile.</span></span>
+
+- <span data-ttu-id="3012e-135">**Número de E9-1-1** Especifica o número discado para acessar os serviços de emergências.</span><span class="sxs-lookup"><span data-stu-id="3012e-135">**E9-1-1 number** Specifies the number that is dialed to reach emergency services.</span></span>
+
+- <span data-ttu-id="3012e-136">**Máscara de E9-1-1** Especifica um número discado pelo usuário que é convertido no número de discagem de emergência.</span><span class="sxs-lookup"><span data-stu-id="3012e-136">**E9-1-1 mask** Specifies a number that a user dials that is then translated into the emergency dial number.</span></span>
+
+<span data-ttu-id="3012e-137">Para obter detalhes sobre os recursos de serviço de emergência do Enterprise Voice e recursos, consulte [Visão geral do E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="3012e-137">For details about Enterprise Voice emergency service features and capabilities, see [Overview of E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) in the Planning documentation.</span></span> <span data-ttu-id="3012e-138">Para obter detalhes sobre como trabalhar com políticas de localização, consulte [Configurando a política de local](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="3012e-138">For details about working with location policies, see [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) in the Operations documentation.</span></span>
+
 
