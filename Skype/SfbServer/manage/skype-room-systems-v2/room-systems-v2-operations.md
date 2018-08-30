@@ -9,11 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: d8dfb5c04d73717e8f20352c6cb422498f5a9b34
-ms.sourcegitcommit: 5a0b3fe49b64f08979c89443f66b15827034e755
+ms.openlocfilehash: ae5f8537db63aac74adbcdc8ec13cb7aaa44ad77
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485789"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operações e manutenção de v2 de sistemas de sala do Skype 
  
@@ -56,7 +57,7 @@ Se a sistemas de sala Skype v2 não está funcionando bem, realizar uma restaura
 A tabela a seguir resume as operações remotas possíveis e os métodos que você pode usar para executá-las.
   
 
-|**Grupo de trabalho**|**Não unido ao domínio**|**Ingressado no domínio**|
+|**Grupo de trabalho **|**Não ingresso em domínio**|**Ingresso em domínio**|
 |:-----|:-----|:-----|
 |Reiniciar  <br/> |Área de trabalho remota  <br/> PowerShell Remoto  <br/> |Área de trabalho remota (requer configuração adicional)  <br/> Powershell remoto (requer configuração adicional)  <br/> SCCM  <br/> |
 |Atualização do sistema operacional  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
@@ -72,9 +73,9 @@ Esta seção aborda as configurações do sistema que sistemas de sala Skype v2 
 
 |**Configuração**|**Permite**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (dword) 1  <br/> |Permite que os sistemas de sala Skype v2 inicialize  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |Permite que os sistemas de sala Skype v2 inicialize  <br/> |
 |Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Permite que os sistemas de sala Skype v2 desativar exibe anexado e automaticamente de ativação  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou um modo equivalente de desabilitar a expiração da senha na conta local. A impossibilidade de fazer isso pode causar uma falha no logon com a conta do Skype com uma mensagem de senha expirada. Observe que isso afeta todas as contas locais do computador. Portanto, se isso não for definido, com o tempo, a conta de administrador também vai expirar.   <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
 Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
