@@ -4,12 +4,12 @@ hide_bc: true
 title: Documentação e orientações práticas do Microsoft Teams
 description: Documentação e orientações práticas do Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: a9fa022e0d70655f916ab76988199fa6d06b648e
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: 519a5a254fcc75b0f29c8f83c7bdf87b00103ccf
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546347"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289895"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -90,7 +90,7 @@ ms.locfileid: "22546347"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Cloud voice</h3>
-                                                    <p>Encontre as orientações práticas de que você precisa para começar a implantação da Audioconferência e do Sistema de Telefonia usando o Microsoft Teams</p>
+                                                    <p>Implantar serviços de audioconferência, chamar planos e sistema nas equipes de telefone</p>
                                                 </div>
                                             </div>
                                         </div>
