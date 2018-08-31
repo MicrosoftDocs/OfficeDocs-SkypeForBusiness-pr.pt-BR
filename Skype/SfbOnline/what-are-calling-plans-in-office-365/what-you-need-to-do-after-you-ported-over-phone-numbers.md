@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Consulte o que você precisa fazer em seguida depois que você tiver duas portas seus números de telefone para Skype para negócios.
-ms.openlocfilehash: acec8952f77402538f7eabae9330f7f031e70155
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 9011ba858bf57c9bd1b425fffc19ac508f3f4f23
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779254"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>O que você precisa ser feito depois de você ter migradas seus números de telefone?
 
 Depois que você enviou seu pedido de porta, iremos entre em contato com sua operadora e elaborar os detalhes com eles. Quando a data final transferência tiver sido definida, você receberá uma notificação por e-mail. No entanto, enquanto aguardam na sua operadora para aceitar a ordem, prossiga e criar os endereços de emergências necessários que você usará com esses números.
   
-- Saiba mais sobre [Cite locais de emergência, endereços e roteamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md).
+- Saiba mais sobre [Cite locais de emergência, endereços e roteamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
     
 - Você pode [Adicionar ou remover uma emergência de endereços para sua organização](add-or-remove-an-emergency-address-for-your-organization.md) se precisar.
     
@@ -43,11 +44,11 @@ Depois que você enviou seu pedido de porta, iremos entre em contato com sua ope
 
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
