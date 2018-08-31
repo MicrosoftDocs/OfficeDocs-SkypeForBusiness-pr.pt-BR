@@ -1,5 +1,5 @@
 ---
-title: O que eu colocar número de conta?
+title: O que devo colocar em número de conta?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,30 +20,31 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Consulte o que você deve colocar como um número de conta na Skype para negócios e onde você pode encontrar que. '
-ms.openlocfilehash: 4fecbe26aeccc45527a296427f7b7d358f89072c
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: a0b9ba63f6c42a57d1d38dc217da61ab9b3d2c53
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780723"
 ---
-# <a name="what-should-i-put-in-for-the-account-number"></a>O que eu colocar número de conta?
+# <a name="what-should-i-put-in-for-the-account-number"></a>O que devo colocar em número de conta?
 
 Normalmente, você pode encontrar o número de conta em qualquer bill ou faturas, que você tem de seu provedor de serviços ou operadora ou você podem fazer logon no site da sua operadora. Se você ainda não souber o número de conta, você pode contatar o seu provedor de serviços ou sua operadora para obtê-lo.
   
 > [!CAUTION]
 >  É importante que você se certifique de que você não usar espaços, traços ou hífens ao inserir seu número de conta de serviço provedor ou operadora.
   
- **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
