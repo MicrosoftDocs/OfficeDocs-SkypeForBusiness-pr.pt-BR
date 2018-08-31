@@ -1,5 +1,5 @@
 ---
-title: Como deve inserir os números de telefone?
+title: Como devo inserir os números de telefone?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
 description: 'Saiba como configurar os números de telefone quando transportá-las para Skype para negócios. '
-ms.openlocfilehash: 74914b98ccc60984f1d2be16f6a3351e7b26b2cf
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: b5b547a88dab1c812a47c310645254985cc0b606
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780595"
 ---
-# <a name="how-should-i-enter-the-phone-numbers"></a>Como deve inserir os números de telefone?
+# <a name="how-should-i-enter-the-phone-numbers"></a>Como devo inserir os números de telefone?
 
 Quando você estiver portar números de telefone, você deverá inseri-los no formato correto. 
   
@@ -80,20 +81,20 @@ Quando você estiver portar números de telefone, você deverá inseri-los no fo
     
   - O "-" é usado para separar apenas dois números. Isso não é suportado para incluir vários "-" no intervalo de números. Por exemplo, **(425) 555-0649-(425) 555-1115** deve ser inserido como **(425) 5550649 - for (425) 5551115**.
     
- **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
