@@ -20,17 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: e524ddd8c86837033fe34caba5260c3f6547987f
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 81f15ee3d5cf2dda1664f3414ae11c0dea7b588e
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779264"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Enviar uma solicitação de atendimento ao cliente manualmente
 
-Se você tiver os números de serviço de pontes de conferência discada, atendedores automáticos ou outros números de serviço, o telefone gratuitos números ou tem mais do que 999 números de telefone do usuário (assinante) que você precisa transferir para Skype para a empresa, você precisa para [Gerenciar telefone números para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Se você tiver os números de serviço de pontes de conferência discada, atendedores automáticos ou outros números de serviço, o telefone gratuitos números ou tem mais do que 999 números de telefone do usuário (assinante) que você precisa transferir para Skype para a empresa, você precisa para [Gerenciar telefone números para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
 
-Em alguns países/regiões, você também precisará manualmente enviar uma solicitação de serviço personalizado, se você quiser obter números de telefone, liberar os números ou alteração de endereços. Para ver o que é necessário para cada país/região ou Saiba mais sobre o número de porta, consulte [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Em alguns países/regiões, você também precisará manualmente enviar uma solicitação de serviço personalizado, se você quiser obter números de telefone, liberar os números ou alteração de endereços. Para ver o que é necessário para cada país/região ou Saiba mais sobre o número de porta, consulte [gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Se você precisar criar e enviar um acompanhamento de solicitação de serviço estas etapas:
@@ -108,13 +109,13 @@ Em alguns países/regiões, você também precisará manualmente enviar uma soli
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

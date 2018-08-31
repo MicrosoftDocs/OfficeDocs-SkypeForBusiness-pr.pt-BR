@@ -1,5 +1,5 @@
 ---
-title: Relatório de detalhes de sessão
+title: Relatório de detalhes da sessão
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,20 +18,20 @@ ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto.
 search.appverid: MET150
-ms.openlocfilehash: 63d0d049e7522d1e62f717c063eb92f658a5623f
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933171"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780851"
 ---
-# <a name="session-details-report"></a>Relatório de detalhes de sessão
+# <a name="session-details-report"></a>Relatório de detalhes da sessão
 
 O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para obter detalhes de sessão de negócios** para ver detalhes sobre as experiências de chamada do usuário individual.
   
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) mais de relatórios estão disponíveis.
   
-Nesse relatório, juntamente com o outro Skype para relatórios de negócios fornecem detalhes sobre a atividade em toda a organização, incluindo detalhes de sessão. Esses detalhes são muito úteis quando você investigando, planejamento e tornando outros negócios decisões para sua organização e para configurar [créditos de comunicações](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md).
+Nesse relatório, juntamente com o outro Skype para relatórios de negócios fornecem detalhes sobre a atividade em toda a organização, incluindo detalhes de sessão. Esses detalhes são muito úteis quando você investigando, planejamento e tornando outros negócios decisões para sua organização e para configurar [créditos de comunicações](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
 > [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 

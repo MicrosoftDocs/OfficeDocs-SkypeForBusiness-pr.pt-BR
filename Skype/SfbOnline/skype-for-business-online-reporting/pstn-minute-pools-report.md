@@ -1,5 +1,5 @@
 ---
-title: Relatório de pools minuto PSTN
+title: Relatório de pools de minutos PSTN
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o Skype para relatório de minuto pools corporativos PSTN para ver o número de minutos gastos durante o mês atual dentro da sua organização.
 search.appverid: MET150
-ms.openlocfilehash: 876455807887694f7e885038e7473634a40f5f21
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: a12597faf9f5669809cbf97a2ea8a054c65a8a0c
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933053"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779664"
 ---
-# <a name="pstn-minute-pools-report"></a>Relatório de pools minuto PSTN
+# <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
 >[!NOTE]
 >Este relatório só está disponível para clientes de visualização.
@@ -34,7 +34,7 @@ O novo Skype para a área do Centro de administração de negócios **relatório
   
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) mais de relatórios estão disponíveis.
   
-Nesse relatório, juntamente com o outro Skype para relatórios de negócios, oferece detalhes sobre a atividade em toda a organização. Esses detalhes são muito úteis quando investigando, planejar e realizar outras decisões de negócios para sua organização e para configurar a [Comunicação créditos](../skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits.md)
+Nesse relatório, juntamente com o outro Skype para relatórios de negócios, oferece detalhes sobre a atividade em toda a organização. Esses detalhes são muito úteis quando investigando, planejar e realizar outras decisões de negócios para sua organização e para configurar a [Comunicação créditos](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 

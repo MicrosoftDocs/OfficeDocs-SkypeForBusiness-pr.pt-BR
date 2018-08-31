@@ -1,5 +1,5 @@
 ---
-title: Informações de conta da ordem de porta
+title: Informação de conta de pedido de portabilidade
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba quais informações de conta, você precisará quando estiver trabalhando com um Assistente de nova ordem de porta do número Local. '
-ms.openlocfilehash: bd2f929a7268db03c1d9e3660d6f3df20ff9cc72
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 69d972709e0711f8ac17131a81c604044d869c85
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780477"
 ---
-# <a name="port-order-account-information"></a>Informações de conta da ordem de porta
+# <a name="port-order-account-information"></a>Informação de conta de pedido de portabilidade
 
 Quando você estiver usando a página de **informações da conta** no Assistente de **Nova ordem de porta do número Local** para enviar um pedido de porta, você precisará quase todas as mesmas informações que você poderia fornecer em LOA, incluindo:
   
@@ -66,19 +67,19 @@ Para fazer enviando a ordem de porta fácil e evitar erros, não deixe de que fa
 > [!CAUTION]
 > [!CUIDADO] **Não cancele seus serviços com o provedor de serviços ou a operadora.**> **Você deve manter seu serviço anterior ativo para transferir seus números de telefone para o Skype for Business Online.**> **Não congele sua conta com o provedor de serviços ou a operadora. Isso impede a alteração de operadoras na conta. O usuário autorizado precisará enviar um pedido para a operadora atual para remover o congelamento. Esse processo pode demorar de uma a três semanas, dependendo da operadora.**> 
   
- **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-(.. / what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Termos e condições para chamadas de emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

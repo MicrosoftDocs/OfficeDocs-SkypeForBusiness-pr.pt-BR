@@ -1,5 +1,5 @@
 ---
-title: Qualidade de mídia e o desempenho da conectividade de rede
+title: Qualidade de mídia e desempenho de conectividade de rede
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,13 +18,14 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Este tópico define o conjunto de requisitos de desempenho de rede para Skype para serviços corporativos Online e como você pode optar por usar o Internet ou ExpressRoute para a conectividade entre a rede e Skype para Business Online com base em sua avaliação da rede conectividade. Se você tiver decidido implantar ExpressRoute do Windows Azure para conectividade dedicada para o Office 365, este documento também fornece orientação sobre como planejar suas conexões ExpressRoute em diferente Skype para cenários de implantação de negócios Online.
-ms.openlocfilehash: a3af3ac55d39089f2fa6146c93a92fcd174a8cb6
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 3a57ba58e2881f2e279949877d17e115cb1c23df
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779352"
 ---
-# <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualidade de mídia e o desempenho de conectividade de rede no Skype para negócios on-line
+# <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualidade de mídia e desempenho da conectividade de rede no Skype for Business Online
 
 Este tópico define o conjunto de requisitos de desempenho de rede para Skype para serviços corporativos Online e como você pode optar por usar o Internet ou ExpressRoute para a conectividade entre a rede e Skype para Business Online com base em sua avaliação da rede conectividade. Se você tiver decidido implantar ExpressRoute do Windows Azure para conectividade dedicada para o Office 365, este documento também fornece orientação sobre como planejar suas conexões ExpressRoute em diferente Skype para cenários de implantação de negócios Online.
   
@@ -45,7 +46,7 @@ Há vários fatores diferentes que contribuem para o Skype para qualidade de mí
 
 Em uma sessão de mídia em tempo real, mídia captura e o processamento de dispositivos que são usados por todos os participantes, como headsets e webcams tem um grande impacto na qualidade de vídeo e áudio geral. Dispositivos de qualidade inferior ou com drivers incorretos produzirão uma qualidade geral inferior de som e imagem. Por outro lado, dispositivos certificados ou de boa qualidade ajudam a eliminar o eco, filtram ruídos, aumentam a resolução de vídeo e reduzem a latência.
   
-Embora o certificado para dispositivos de mídia de áudio e vídeo não são necessários, é altamente recomendável dispositivos certified para Skype for Business para a experiência de mídia ideal. Para obter uma lista de todos os Skype para negócios dispositivos de certificados, consulte [telefones e dispositivos para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947482). Pode usar o [Skype para negócios Online chamada qualidade painel](../using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard.md), encontrado no **Skype para Business admin center**, para verificar dispositivos em uso estão funcionando corretamente e monitorar a qualidade da mídia de áudio e vídeo.
+Embora o certificado para dispositivos de mídia de áudio e vídeo não são necessários, é altamente recomendável dispositivos certified para Skype for Business para a experiência de mídia ideal. Para obter uma lista de todos os Skype para negócios dispositivos de certificados, consulte [telefones e dispositivos para Skype para negócios](https://technet.microsoft.com/en-us/office/dn947482). Pode usar o [Skype para negócios Online chamada qualidade painel](/microsoftteams/turning-on-and-using-call-quality-dashboard), encontrado no **Skype para Business admin center**, para verificar dispositivos em uso estão funcionando corretamente e monitorar a qualidade da mídia de áudio e vídeo.
   
 > [!TIP]
 > **Um dispositivo de certificados é necessário para o Skype mais ideal para a experiência de qualidade de mídia de negócios**.
@@ -126,13 +127,13 @@ Para melhor Skype para qualidade de mídia de negócios, as metas de métricas d
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Destino** <br/> |
-|Latência (uma maneira)  <br/> |< 50 ms  <br/> |
-|Latência (tempo de resposta ou tempo de ida e volta)  <br/> |< 100 ms  <br/> |
-|Perda de pacotes de intermitência  <br/> |<10% durante qualquer intervalo de 200 ms  <br/> |
+|**Métrica** <br/> |**Destino ** <br/> |
+|Latência (unidirecional)  <br/> |< 50 ms  <br/> |
+|Latência (RTT ou tempo-resposta)  <br/> |< 100 ms  <br/> |
+|Perda de pacote de intermitência  <br/> |<10% durante qualquer intervalo de 200 ms  <br/> |
 |Perda de pacote  <br/> |<1% durante qualquer intervalo de 15 s  <br/> |
-|Tremulação de entre chegada de pacotes  <br/> |<30 ms durante qualquer intervalo de 15 s  <br/> |
-|Reordenar de pacotes  <br/> |<0,05% de pacotes com problemas  <br/> |
+|Tremulação entre chegadas de pacote  <br/> |<30 ms durante qualquer intervalo de 15 s  <br/> |
+|Novo pedido de pacotes  <br/> |<0,05% de pacotes com problemas  <br/> |
    
  **Outros requisitos de destino de desempenho:**
   
@@ -152,13 +153,13 @@ Estas são as metas de desempenho de rede ou limites necessários para a conexã
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Destino** <br/> |
-|Latência (uma maneira)  <br/> |< 30 ms  <br/> |
+|**Métrica** <br/> |**Destino ** <br/> |
+|Latência (unidirecional)  <br/> |< 30 ms  <br/> |
 |Latência (tempo de resposta)  <br/> |< 60 ms  <br/> |
-|Perda de pacotes de intermitência  <br/> |<1% durante qualquer intervalo de 200 ms  <br/> |
+|Perda de pacote de intermitência  <br/> |<1% durante qualquer intervalo de 200 ms  <br/> |
 |Perda de pacote  <br/> |<0,1% durante qualquer intervalo de 15 s  <br/> |
-|Tremulação de entre chegada de pacotes  <br/> |<15 ms durante qualquer intervalo de 15 s  <br/> |
-|Reordenar de pacotes  <br/> |<0,01% de pacotes com problemas  <br/> |
+|Tremulação entre chegadas de pacote  <br/> |<15 ms durante qualquer intervalo de 15 s  <br/> |
+|Novo pedido de pacotes  <br/> |<0,01% de pacotes com problemas  <br/> |
    
  **Outros requisitos de destino de desempenho:**
   

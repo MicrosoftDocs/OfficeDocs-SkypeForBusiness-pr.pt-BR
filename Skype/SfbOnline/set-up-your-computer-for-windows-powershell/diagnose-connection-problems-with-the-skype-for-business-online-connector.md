@@ -1,5 +1,5 @@
 ---
-title: Diagnosticar problemas de conexão com o Skype para o Business Connector Online
+title: Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,13 +16,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solucionar problemas de criação de uma sessão PowerShell remota para se conectar ao Skype para negócios Online, incluindo Import-Module, shell simultânea, Live ID e erros de permissão.
-ms.openlocfilehash: 7daf8702d2e21ff83bc5d246aff61bfcdb945418
-ms.sourcegitcommit: f76ac33ae47eafa2ae853cc031b6ac53c2d4fbbd
+ms.openlocfilehash: 60ed4be1d4c20426a645002f1b7a71f65f120774
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779091"
 ---
-# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Skype para o Business Connector Online
+# <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 
 Este tópico fornece informações que ajudarão você a diagnosticar e resolver problemas que podem ocorrer quando você tentar criar uma sessão remota do Microsoft PowerShell que se conecta ao Skype para negócios Online. Consulte as seções a seguir:
   

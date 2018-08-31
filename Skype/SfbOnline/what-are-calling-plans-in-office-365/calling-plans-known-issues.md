@@ -1,5 +1,5 @@
 ---
-title: Problemas conhecidos de planos de chamada
+title: Problemas conhecidos nos Planos de Chamadas
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,18 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn known issues with the calling plan for Office 365 (PSTN Calling) and what you can do about them. '
-ms.openlocfilehash: d201db80c2da09223d8e3b1935c383089f997382
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 6846fc2e5bd2e1293ca5185a642a813275921ea4
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779294"
 ---
-# <a name="calling-plans-known-issues"></a>Problemas conhecidos de planos de chamada
+# <a name="calling-plans-known-issues"></a>Problemas conhecidos nos Planos de Chamadas
 
 Planos de chamadas no Office 365 são um novo recurso, encontrado no Skype para Business Online. A seguir estão os problemas atuais que estão sendo rastreados e ativamente investigados. Eles serão potencialmente resolvidos quando o recurso for atualizado em compilações futuras no Office 365 e Skype para Business Online.
   
-## <a name="calling-plans-known-issues"></a>Problemas conhecidos de planos de chamada
+## <a name="calling-plans-known-issues"></a>Problemas conhecidos nos Planos de Chamadas
 
 |**Problema conhecido**|**Comentários**|
 |:-----|:-----|
@@ -38,13 +39,13 @@ Planos de chamadas no Office 365 são um novo recurso, encontrado no Skype para 
 > Se você precisar fazer mais números de telefone que isso, por favor, [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

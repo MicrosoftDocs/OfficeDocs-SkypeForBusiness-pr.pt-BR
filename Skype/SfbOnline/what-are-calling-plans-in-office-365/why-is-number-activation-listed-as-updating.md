@@ -1,5 +1,5 @@
 ---
-title: Por que a ativação número está listada como atualizar?
+title: Por que a ativação do número está listada como sendo atualizada?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 972998f3dcb991a1b76e57ca88fcd482fdcfa5fd
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: f9dac26299a4efa0b6235dac3b7ce221c61bce3b
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779322"
 ---
-# <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação número está listada como atualizar?
+# <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação do número está listada como sendo atualizada?
 
 A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se por algum motivo um número de telefone não é ativado e está listado como **a atualização** devido a validação de endereço, você precisará criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
@@ -97,13 +98,12 @@ A validação de endereços é uma etapa importante da configuração de Planos 
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
   
  

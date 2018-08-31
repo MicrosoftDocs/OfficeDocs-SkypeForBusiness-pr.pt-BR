@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 44181b47f4edaca019bb51fd0819dd6c17360fae
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: c84e8b28d6a13e3dca64a08a63aa516556357dde
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914748"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779767"
 ---
 # <a name="configure-direct-routing"></a>Configurar o roteamento direto
 
@@ -31,7 +31,7 @@ Você pode configurar seu sistema telefônico de Microsoft e permitem aos usuár
 
 - [Emparelhar o SBC com um sistema de telefone da Microsoft e validar o emparelhamento](#pair-the-sbc-to-direct-routing-service-of-phone-system)
 - [Habilitar usuários para o serviço de roteamento direto](#enable-users-for-direct-routing-service)
-- [Certifique-se de que a Microsoft Teams é o cliente preferencial da chamada para os usuários](#set-microsoft-teams-as-the-preferred-calling-client-for-the-users) 
+- [Certifique-se de que a Microsoft Teams é o cliente preferencial da chamada para os usuários](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
 ## <a name="pair-the-sbc-to-direct-routing-service-of-phone-system"></a>Emparelhar o SBC para direcionar o serviço de roteamento do sistema telefônico 
 
@@ -517,7 +517,6 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 </pre>
 
 O resultado é que a política de voz aplicada às chamadas de John Woods são unrestricted e seguirá a lógica de roteamento de chamada disponível para as chamadas dos Estados Unidos, Canadá e internacional.
-
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Configurar o Microsoft Teams como o cliente de chamada preferencial para usuários
 

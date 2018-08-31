@@ -1,5 +1,5 @@
 ---
-title: Qual é o meu telefone de faturamento?
+title: Qual é o meu número de telefone de faturamento?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,28 +20,29 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Saber o que há sua Skype para número de telefone de cobrança de negócios e aonde ir para obter instruções passo a passo sobre como transferir um número.
-ms.openlocfilehash: 498ccb436adb181aa1399c9643dcaf52f3884663
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: e73a8d003d3be6b14aaacc36fe0c9a8b3f4159b1
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780925"
 ---
-# <a name="what-is-my-billing-telephone-number"></a>Qual é o meu telefone de faturamento?
+# <a name="what-is-my-billing-telephone-number"></a>Qual é o meu número de telefone de faturamento?
 
 O número de telefone de cobrança (BTN) é o número de telefone principal que está incluído na sua conta e cobrado por seu provedor de serviço ou a operadora. Se você está transferindo um número de telefone de uma conta que tenha somente um número de telefone, você precisará colocar esse número de telefone em. Se você está transferindo números de telefone de uma conta que tenha mais de um, você pode examinar seu bill ou entre em contato com seu provedor de serviços ou operadora para determinar o que é o número de telefone de cobrança para sua conta.
   
- **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**
+ **Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+[Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
