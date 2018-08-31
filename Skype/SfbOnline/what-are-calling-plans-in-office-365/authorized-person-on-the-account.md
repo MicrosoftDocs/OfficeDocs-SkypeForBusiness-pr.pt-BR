@@ -1,5 +1,5 @@
 ---
-title: Pessoa autorizada a conta
+title: Pessoa autorizada na conta
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,34 +20,35 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Saiba por que você precisa adicionar uma pessoa autorizada que pode fazer alterações à conta quando você usar o Assistente de nova ordem de porta do número Local.
-ms.openlocfilehash: ecf625fa32b43205af4c4ca8551e85850ac7f4e5
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 13b6b96f7f4701f02715059b3edd0c8e1b2cf284
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779342"
 ---
-# <a name="authorized-person-on-the-account"></a><span data-ttu-id="94893-103">Pessoa autorizada a conta</span><span class="sxs-lookup"><span data-stu-id="94893-103">Authorized person on the account</span></span>
+# <a name="authorized-person-on-the-account"></a><span data-ttu-id="278fb-103">Pessoa autorizada na conta</span><span class="sxs-lookup"><span data-stu-id="278fb-103">Authorized person on the account</span></span>
 
-<span data-ttu-id="94893-104">No Assistente de **Nova ordem de porta do número Local** , você deve inserir o nome da pessoa que está autorizado a fazer alterações à conta com o provedor de serviços ou operadora.</span><span class="sxs-lookup"><span data-stu-id="94893-104">In the **New Local Number Port Order** wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier.</span></span> <span data-ttu-id="94893-105">O nome não é usado para processar a ordem de porta, mas é usado no caso de litígio, ou se algo está incorreto quando números são duas portas.</span><span class="sxs-lookup"><span data-stu-id="94893-105">The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported.</span></span> <span data-ttu-id="94893-106">Essa pessoa será responsável para a carta de autorização (LOA) para uma ordem de porta.</span><span class="sxs-lookup"><span data-stu-id="94893-106">This person will be accountable for the Letter of Authorization (LOA) for a port order.</span></span>
+<span data-ttu-id="278fb-104">No Assistente de **Nova ordem de porta do número Local** , você deve inserir o nome da pessoa que está autorizado a fazer alterações à conta com o provedor de serviços ou operadora.</span><span class="sxs-lookup"><span data-stu-id="278fb-104">In the **New Local Number Port Order** wizard, you must enter the name of the person that is authorized to make changes to the account with the service provider or carrier.</span></span> <span data-ttu-id="278fb-105">O nome não é usado para processar a ordem de porta, mas é usado no caso de litígio, ou se algo está incorreto quando números são duas portas.</span><span class="sxs-lookup"><span data-stu-id="278fb-105">The name isn't used to process the port order, but is used in the case of a dispute, or if something is incorrect when numbers are ported.</span></span> <span data-ttu-id="278fb-106">Essa pessoa será responsável para a carta de autorização (LOA) para uma ordem de porta.</span><span class="sxs-lookup"><span data-stu-id="278fb-106">This person will be accountable for the Letter of Authorization (LOA) for a port order.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="94893-107">Não tendo o nome completo, como a caixa está limitada a 15 caracteres (incluindo espaços), não atrasar ou cancelar a ordem de porta.</span><span class="sxs-lookup"><span data-stu-id="94893-107">Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order.</span></span> 
+> <span data-ttu-id="278fb-107">Não tendo o nome completo, como a caixa está limitada a 15 caracteres (incluindo espaços), não atrasar ou cancelar a ordem de porta.</span><span class="sxs-lookup"><span data-stu-id="278fb-107">Not having the complete name, because the box is limited to 15 characters (including spaces), won't delay or cancel the port order.</span></span> 
   
- <span data-ttu-id="94893-108">**Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).**</span><span class="sxs-lookup"><span data-stu-id="94893-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).**</span></span>
+ <span data-ttu-id="278fb-108">**Para instruções passo a passo, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span><span class="sxs-lookup"><span data-stu-id="278fb-108">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="94893-109">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="94893-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="278fb-109">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="278fb-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="94893-110">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="94893-110">Related topics</span></span>
-[<span data-ttu-id="94893-111">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="94893-111">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+## <a name="related-topics"></a><span data-ttu-id="278fb-110">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="278fb-110">Related topics</span></span>
+[<span data-ttu-id="278fb-111">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="278fb-111">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="94893-112">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="94893-112">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="278fb-112">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="278fb-112">Different kinds of phone numbers used for Calling Plans</span></span>](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="94893-113">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="94893-113">Manage phone numbers for your organization</span></span>](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[<span data-ttu-id="278fb-113">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="278fb-113">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="94893-114">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="94893-114">Emergency calling terms and conditions</span></span>](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="278fb-114">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="278fb-114">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="94893-115">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="94893-115">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="278fb-115">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="278fb-115">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
