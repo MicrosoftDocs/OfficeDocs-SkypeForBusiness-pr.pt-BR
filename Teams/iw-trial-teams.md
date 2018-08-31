@@ -2,8 +2,8 @@
 title: Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
-ms.date: 07/24/2018
+manager: serdars
+ms.date: 08/31/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,17 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 description: Os usuários do Office 365 que não estejam licenciados for Microsoft Teams podem iniciar uma versão de avaliação das equipes 1 ano.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 23d36f161b19af18ff379c2a929ea5b701b8cc6b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 67463a7014f4060baadb8348f8d12347f0166d34
+ms.sourcegitcommit: a601dbd212ea483e4b7bfac27674d9d8e92e3a2a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068919"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "23790911"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 =======================================================
 
 Teams da Microsoft é uma ótima ferramenta colaborativa para sua organização. Ele capacita pessoas e equipes para discutir, inovem e compartilhem ideias usando o poder do Office 365. O Microsoft equipes comerciais nuvem avaliação oferece usuários existentes do Office 365 em sua organização que não são licenciados for Microsoft Teams iniciar uma versão de avaliação do produto 1 ano. Os administradores têm a capacidade de ligar ou desligar esse recurso para os usuários de seu locatário.
+
+> [!NOTE]
+> Esta oferta ainda não está disponível publicamente, mas estarão disponíveis check-out nas próximo mês.
 
 ## <a name="whats-in-the-offer"></a>Novidades da oferta de
 
