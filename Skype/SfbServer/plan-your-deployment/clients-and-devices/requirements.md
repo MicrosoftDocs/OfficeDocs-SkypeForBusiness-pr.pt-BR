@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: 0cb0a2cc0508f3499c94971647a22a936fc0648d
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: ce5b8343973fca50970132accd7833641ed9c5a1
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601931"
+ms.lasthandoff: 09/01/2018
+ms.locfileid: "23797341"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
  
@@ -51,9 +51,9 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
 **Consoles com suporte**
 |Console|Processador|RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|[Hub de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo i5  |8GB  |128GB  |  
+|[Hub de ThinkSmart Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo i5  |8GB  |128GB  |  
 |[Fatia de Elite HP para G2 salas de reunião](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo i5  |8GB  |128GB  |  
-    
+
 - Uma das seguintes opções de estação de encaixe para proteger um tablet à reunião sala tabela. 
     
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
