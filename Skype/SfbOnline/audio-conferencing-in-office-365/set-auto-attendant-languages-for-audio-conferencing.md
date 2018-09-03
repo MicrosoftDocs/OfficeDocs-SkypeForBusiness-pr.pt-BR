@@ -1,5 +1,5 @@
 ---
-title: Definir os idiomas de atendedor automático de audioconferência no Skype para Business Online
+title: Definir os idiomas para o atendedor automático de Audioconferência no Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,58 +18,58 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio em Skype para Business Online.
-ms.openlocfilehash: 026a09290c6e008493784c0d883220e03d13559f
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
-ms.translationtype: MT
+description: Consulte como selecionar idiomas para o atendedor automático para um número de Audioconferência no Skype for Business Online.
+ms.openlocfilehash: fe0abceba1f01b148f1a81163525be0750ef4980
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490511"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779071"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas de atendedor automático de audioconferência no Skype para Business Online
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas para o atendedor automático de Audioconferência no Skype for Business Online
 
 > [!Note]
-> Para obter informações sobre como definir o idioma de atendedor automático no Teams da Microsoft, consulte [definir idiomas de atendedor automático de conferência de áudio em equipes da Microsoft](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
+> Para obter informações sobre como definir idiomas para o atendedor automático no Microsoft Teams, consulte [Definir idiomas para o atendedor automático de Audioconferência no Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams).
 
-O atendedor automático de conferência de áudio para Skype para negócios pode saudar chamadores áudio em um número de diferentes idiomas quando ingressarem em uma reunião.
+O atendedor automático de Audioconferência do Skype for Business pode saudar as pessoas que ligam em vários idiomas diferentes quando ingressarem em uma reunião.
   
-Escolher um idioma principal e até quatro idiomas secundários. O idioma principal que você definiu será usado pela primeira vez e os idiomas secundários serão usados pelo atendedor automático que você selecionar. 
+Escolha um idioma principal e até quatro idiomas secundários. O idioma primário definido será usado primeiro e os idiomas secundários serão usados pelo atendedor automático na ordem selecionada. 
   
 > [!NOTE]
->  Você pode configurar os idiomas em apenas números de telefone de acesso de áudio domésticas.
+>  Você pode configurar os idiomas apenas em números de telefone de acesso de áudio doméstico.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir a conferência idiomas de atendedor automático
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir idiomas para o atendedor automático de conferência
 
-Você deve ser um [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou [Skype para negócios administrador](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar esta etapa.
+Você deve ser um [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou [administrador do Skype for Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar esta etapa.
     
-1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio**e, em seguida, clique em **Microsoft ponte**.
+1. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **Audioconferência** e clique em **Ponte Microsoft**.
     
-2. Selecione o número de telefone de conferência de áudio na lista e, no painel de ações, clique em **definir idiomas**. 
+2. Selecione o número de telefone de conferência de áudio na lista e, no painel Ações, clique em **Definir idiomas**. 
     
-3. Na página **conjunto** de idiomas, clique na lista de **idioma principal** para exibir a lista completa de idiomas disponíveis. Se for necessário, clique em cada uma das listas **idiomas secundários** para selecionar um idioma secundário.
+3. Na página **Definir idiomas**, clique na lista **Idioma principal** para visualizar a lista completa de idiomas disponíveis. Se for necessário, clique em cada uma das listas **Idiomas secundários** para selecionar um idioma secundário.
     
     > [!NOTE]
-    > [!OBSERVAçãO] Os idiomas primário e secundários aceitos são listados. A ordem na qual você selecionar listas de será a ordem dos idiomas apresentados aos chamadores. 
+    > Os idiomas primário e secundários que oferecem suporte são listados. A ordem na qual você selecioná-los nas listas será a ordem dos idiomas apresentados aos chamadores. 
   
 4. Clique em **Salvar**.
     
 ## <a name="want-else-should-i-know"></a>O que mais devo saber?
 
-- Para ver a lista de idiomas com suporte para conferência de áudio, consulte [idiomas com suporte de conferência de áudio](audio-conferencing-supported-languages.md).
+- Para ver a lista de idiomas com suporte para Audioconferência, consulte [Idiomas com suporte para Audioconferência](/MicrosoftTeams/audio-conferencing-supported-languages).
     
-- Idiomas podem ser definidos para dedicado, mas não para números de telefone compartilhado.
+- Os idiomas podem ser definidos para números de telefone dedicados, mas não para números compartilhados.
     
-- Para ver uma lista de países/regiões na qual a conferência de áudio no Office 365 usando o Microsoft como o provedor está disponível, consulte [números de telefone de conferência de áudio](phone-numbers-for-audio-conferencing.md).
+- Para ver uma lista de países/regiões onde a Audioconferência no Office 365 usando a Microsoft como provedor está disponível, consulte [Números de telefone para AudioConferência](phone-numbers-for-audio-conferencing.md).
     
 ## <a name="want-to-use-windows-powershell"></a>Você deseja usar o Windows PowerShell?
 
-Para automatizar essa etapa, você pode usar os cmdlets [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) e [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .
+Para automatizar essa etapa, você pode usar os cmdlets [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) e [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684).
   
-Para saber mais, consulte [Usando o Windows PowerShell para fazer Skype comuns para tarefas de gerenciamento de negócios Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+Para saber mais, confira [Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar Audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
