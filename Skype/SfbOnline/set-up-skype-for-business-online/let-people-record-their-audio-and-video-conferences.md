@@ -17,15 +17,18 @@ f1keywords:
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: bec8910c838e253a135a605d53306185aae3383e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: eaf94874dc55dd333911b8bdfade085e137916a8
+ms.sourcegitcommit: dbef8028cb7f8c6366e0fdb34f5f2e2a30d8c32a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/04/2018
+ms.locfileid: "19500523"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permitir que as pessoas gravem suas conferências de áudio e vídeo
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Escolher o padrão de gravação de configuração para um único usuário ou para todos em sua organização
+
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. Vá para o **Centro de administração do Office 365** > **Skype para os negócios**e, em seguida, clique em **usuários**.
     
