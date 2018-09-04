@@ -19,20 +19,21 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: 48091ec9a3b5d689c8ecc72947712404bee2ecd2
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
-ms.translationtype: MT
+description: 'Saiba como adicionar um endereço de emergência à sua conta do Skype for Business. '
+ms.openlocfilehash: df0a820b49db88efffa5d040741d6628c4e0dc47
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780915"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Adicionar ou remover um endereço de emergência para sua organização
 
-Um endereço de emergência deve ser associado um número de telefone - mas quando isso acontece pode variar entre países/regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando você atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual.
+Um endereço de emergência deve ser associado a um número de telefone - mas quando isso acontece pode variar entre países/regiões. Por exemplo, nos Estados Unidos, você precisa associar um endereço de emergência quando atribui o número de telefone para o usuário. No Reino Unido, você precisa associar um endereço de emergência para o número de telefone quando você está obtendo os números de telefone do Office 365 ou transferindo números de telefone do seu provedor de serviço atual.
   
-Não importa qual país/região estiver em, é possível adicionar um local ou locais de emergência de endereços ou remover um endereço de emergência. Dependendo do número de locais físicos em sua organização, você pode criá-los para prédios, andares e escritórios. Consulte [Cite locais de emergência, endereços e roteamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md) para alguns detalhes.
+Não importa qual em país/região você estiver, é possível adicionar um local ou mais locais a um endereço de emergência ou remover um endereço de emergência. Dependendo do número de locais físicos de sua organização, você pode criá-los para edifícios, andares e escritórios. Consulte [O que são locais de emergência, endereços e roteamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para alguns detalhes.
   
-Para saber como obter um plano de chamada e quanto custa, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenciamento de complemento para Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 ## <a name="to-add-an-emergency-address"></a>Para adicionar um endereço de emergência
 
@@ -40,19 +41,19 @@ Para saber como obter um plano de chamada e quanto custa, consulte [Skype para l
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e, em seguida, clique no botão **Adicionar novo endereço** .
+3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e, em seguida, clique no botão **Adicionar novo endereço**.
     
     > [!Important]
-    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
+    > Para ver a opção **Voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiramente você deve comprar pelo menos uma **licença Enterprise E5**, uma licença do suplemento de **Sistema de Telefonia** ou uma licença do suplemento de **Audioconferência**.
     
-4. No painel de ações, em **Novo endereço**, digite as informações necessárias nas caixas.
+4. No painel de Ações, em **Novo endereço**, digite as informações necessárias nas caixas.
     
-5. Depois de digitar todas as informações do endereço, clique em **Validar**.
+5. Depois de incluir todas as informações do endereço, clique em **Validar**.
     
     > [!IMPORTANT]
-    > [!IMPORTANTE] Validar um endereço cívico envolve certificar-se de que ele é legítimo e está formatado corretamente. É possível que um endereço de emergência parcialmente correto, tais como se você digitado incorretamente o nome da cidade, talvez ainda passar validação. Mesmo que tenha sido escrito errado e aprovado na validação, a combinação do nome errado da cidade com outras partes corretas do endereço é suficiente para encaminhar a chamada para o centro de despacho de emergência apropriado. 
+    > Validar uma rua ou endereço envolve certificar-se de que ele é legítimo e está formatado corretamente. É possível que um endereço de emergência parcialmente correto (com erros de digitação) passe na validação. Mesmo que tenha sido escrito errado e aprovado na validação, a combinação do nome errado da cidade com outras partes corretas do endereço é suficiente para encaminhar a chamada para o centro de despacho de emergência apropriado. 
   
-    Se o endereço não pode ser validado, você pode enviar uma solicitação de validação manual ao clicar em **Enviar uma solicitação de validação** , se você estiver tentando validar um endereço dos Estados Unidos ou clique em **Abrir uma solicitação de serviço para obter ajuda com a validação de endereço** , se você estiver fora do Estados Unidos.
+    Se o endereço não puder ser validado, você pode enviar uma solicitação de validação manual clicando em **Enviar uma solicitação de validação** se estiver tentando validar um endereço dos Estados Unidos, ou clique em **Abrir uma solicitação de serviço para obter ajuda com a validação de endereço** se você estiver fora dos Estados Unidos.
     
 6. Depois que o endereço for validado, clique em **Salvar**.
     
@@ -62,17 +63,17 @@ Para saber como obter um plano de chamada e quanto custa, consulte [Skype para l
     
 2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **local de emergência**, selecione o endereço que você deseja excluir e, no painel de ações, clique em **Excluir**.
+3. No painel de navegação esquerdo, vá para **Voz** > **Local de emergência**, selecione o endereço que você deseja excluir e, no painel de Ações, clique em **Excluir**.
     
     > [!IMPORTANT]
-    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
+    > Para ver a opção **Voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiramente você deve comprar pelo menos uma **licença Enterprise E5**, uma licença do suplemento de **Sistema de Telefonia** ou uma licença do suplemento de **Audioconferência**.
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[O que são locais e endereços de emergência e encaminhamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
+[O que são locais e endereços de emergência e encaminhamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[Gerenciar os números de telefone de sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[Termos e condições das Chamadas de Emergência](../legal-and-regulatory/emergency-calling-terms-and-conditions.md)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
