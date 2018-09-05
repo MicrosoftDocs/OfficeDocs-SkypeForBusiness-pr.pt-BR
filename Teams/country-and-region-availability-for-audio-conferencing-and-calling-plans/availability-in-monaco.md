@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Mônaco.
-ms.openlocfilehash: df4ae2593127d1dcba7d45397ac7a6d991f80419
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3d5d0c0ee8165fa980f7f6a36cd115aa2b5a34b1
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783306"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829094"
 ---
 # <a name="availability-in-monaco"></a>Disponibilidade em Mônaco
 
@@ -40,7 +40,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
-|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Não disponível  <br/> |
+|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Requer créditos de comunicação  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
 

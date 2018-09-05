@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96eb92c45af065b5f09ab9312f79198377067c4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: aed0cc2b26fa55dcf47b2d90bbd974720c371663
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246154"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829262"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
@@ -157,7 +157,7 @@ Essas instruções são para a instalação de equipes para o Hub de superfície
 Há duas opções para configurar a política padrão de aplicativo de chamada e reuniões: 
 
 - **Opção 1**: configurar via chave USB. 
-- **Opção 2**: configurar via MDM como InTune.
+- **Opção 2**: configurar via MDM como Intune.
  
 ### <a name="option-1-configure-via-usb-key"></a>Opção 1: Configurar via chave USB 
  
@@ -180,9 +180,11 @@ Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!Ar
 9. Reinicie o dispositivo do Hub de superfície. 
 10. Depois que o dispositivo for reiniciado, você poderá iniciar o aplicativo de equipes na tela de início e ingressar em uma reunião do calendário. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opção 2: Configurar via MDM como InTune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opção 2: Configurar via MDM como Intune 
 
-Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via InTune.
+Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via Intune.
+
+.
 
 |Configuração   |Valor    |Descrição    |
 |----------|---------|---------|

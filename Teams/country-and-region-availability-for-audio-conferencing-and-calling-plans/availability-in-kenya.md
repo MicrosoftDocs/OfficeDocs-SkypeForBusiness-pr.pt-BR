@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Quênia.
-ms.openlocfilehash: ffa83c5fc5648e139173332584e0b290dbe83ab2
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 4c40d8f721f07b6ccf981cd3f29b52b63bcaaff2
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783202"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829382"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidade em Quênia
 
@@ -40,7 +40,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
-|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Não disponível  <br/> |
+|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Requer créditos de comunicação  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
 

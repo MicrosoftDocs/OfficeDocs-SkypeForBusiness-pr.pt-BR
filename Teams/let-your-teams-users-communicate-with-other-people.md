@@ -12,12 +12,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: a77ad4ad50c316e594ee9d3ee2c0e7b5accc0935
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: b8c3705b288abd81e85bd941ab019bb8e8e0e40e
+ms.sourcegitcommit: 53c10589c284c6e4bbba574a7ba2df2d29519d1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19863372"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23829110"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 
@@ -27,7 +27,7 @@ Siga as etapas descritas neste artigo quando:
     
 - Você deseja as pessoas na sua organização usar equipes para contatar pessoas na empresas específicas fora da sua organização.
     
--Você deseja qualquer pessoa no mundo que usa as equipes possam encontrar e contatá-lo, usando seu endereço de email. Se a ambos você habilitar o acesso externo e permitir que cada um dos outros domínios, isso funcionará. Caso contrário, o usuário deverá verificar se a configuração não está bloqueando seu domínio.
+- Deseja que qualquer pessoa no mundo que usa as equipes possam encontrar e contatá-lo, usando seu endereço de email. Se você e outro usuário habilitar o acesso externo e permitem uns dos outros domínios, isso funcionará. Se ela não funcionar, o outro usuário verifique se seu ou sua configuração não está bloqueando o seu domínio.
 
 Siga estas etapas:
 
