@@ -19,38 +19,38 @@ localization_priority: Priority
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 9b86bec84846dff36e509488eb34f0415fe8cd95
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
-ms.translationtype: MT
+description: 'Saiba como configurar filas de chamadas para o Sistema de Telefonia do Office 365 (Cloud PBX) de modo a ter uma saudação da sua organização, música de espera e redirecionamento de chamadas para agentes em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e opções de administração de chamadas. '
+ms.openlocfilehash: 5a3ace77542a86aea1dd77e1ddcf594f61abb738
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21708346"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780419"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamadas do Sistema de Telefonia
 
-Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar um único ou vários filas de chamada para sua organização.
+Filas de chamadas do Sistema de Telefonia incluem saudações usadas quando alguém liga para um número de telefone da sua organização, a capacidade de automaticamente colocar chamadas em espera e pesquisar o próximo operador disponível para atender a chamada enquanto a pessoa que ligou escuta a música de espera. Você pode criar uma única file de chamadas para a sua empresa, ou várias.
   
-Filas de chamada do sistema telefônico podem fornecer:
+As filas de chamadas do Sistema de Telefonia oferecem:
   
 - Uma saudação organizacional.
     
 - Música enquanto a pessoa estiver aguardando em espera.
     
-- Redirecionando de chamadas para operadores em listas de distribuição habilitado para email e grupos de segurança de chamada.
+- Redirecionamento de chamadas para agentes usando listas de distribuição e grupos de segurança habilitados por e-mail.
     
-- Criação de configurações para o tamanho máximo da fila de chamada, tempo limite e opções de manipulação de chamadas.
+- Configurações para tamanho máximo de fila de chamadas, tempo limite e opções de administração de chamadas.
     
-Quando alguém ligar um número de telefone que está definido para cima backup com uma fila de espera de chamada, ele ouvirá uma saudação primeiro (se qualquer um estiver configurado) e, em seguida, eles serão colocados na fila e aguarde o próximo operador de chamada disponível. A pessoa que liga ouvirá música quando estiverem esperando e as chamadas serão oferecidas aos agentes de chamada do modo  *Primeiro a entrar, Primeiro a sair*  (FIFO).
+Quando alguém liga para um número de telefone configurado com uma fila de chamadas, essa pessoa primeiro ouve uma saudação (se configurada) e depois é colocada na fila para aguardar o próximo agente disponível. A pessoa ouvirá música enquanto estiver esperando e a chamada será encaminhada para os agentes de chamadas seguindo o método FIFO,  *(primeiro a entrar, primeiro a sair)*.
   
-Aguardando na fila de todas as chamadas serão distribuídas usando um modo de roteamento attendant ou o modo serial de roteamento:
+Todas as chamadas em espera na fila são distribuídas usando um método de encaminhamento para atendedor ou método de encaminhamento em série:
   
-- Com o Atendedor de roteamento, a primeira chamada na fila tocarão todos os operadores ao mesmo tempo.
+- Com o encaminhamento para atendedor, a primeira chamada da fila chama todos agentes ao mesmo tempo.
     
-- Com o roteamento em série, a primeira chamada na fila tocarão todos os agentes de chamada um de cada vez.
+- Com o encaminhamento em série, a primeira chamada da fila chama todos os agentes, um de cada vez.
     
     > [!NOTE]
-    > Agentes de chamada que estão **Offline**, tem definido sua presença como **Não incomodar** ou tem decidido para fora da fila de chamada não serão chamados.
+    > Agentes de chamada que estão **Offline**, definiram sua presença como **Não incomodar** ou optaram por não serem incluídos na fila de chamadas e, portanto, não serão chamados.
   
 - Somente uma notificação de chamada de entrada (para a chamada no início da fila) de cada vez será enviada para os agentes de chamadas.
     
@@ -60,163 +60,163 @@ Aguardando na fila de todas as chamadas serão distribuídas usando um modo de r
 
 Para começar a usar as filas de chamadas, é importante lembrar-se de que:
   
-- Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** atribuídos afeta o número de números de serviço que estão disponíveis para serem usados para as filas de chamada. O número de filas de chamada, que você pode ter é dependente do número de licenças de **Sistema telefônico** e **Conferência de áudio** que são atribuídas em sua organização. Para saber mais sobre licenciamento, vá [aqui](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Sua organização deve ter (no mínimo), uma licença de **Sistema de Telefonia** Enterprise E3 plus ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema de Telefonia** atribuídas afeta o número de números de serviço disponíveis para uso nas filas de chamadas. O número de filas de chamadas que você pode ter depende do número de licenças de **Sistema de Telefonia** e **Audioconferência** atribuídas na sua organização. Para saber mais sobre o licenciamento, vá [aqui](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!NOTE]
-    > Para redirecionar chamadas para pessoas na sua organização que estiverem Online, eles devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem chamando de planos do Office 365. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirecionar chamadas para pessoas na sua organização que estão Online, elas devem ter uma licença de **Sistema de Telefonia** e ser habilitadas para o Enterprise Voice ou ter Planos de Chamadas do Office 365. Veja [Atribuir licenças do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Para saber mais sobre a chamada de planos do Office 365, consulte [Cite chamar planos no Office 365?](../what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365.md) e [Chamar planos do Office 365](../skype-for-business-and-microsoft-teams-add-on-licensing/calling-plans-for-office-365.md).
+- Para saber mais sobre os Planos de Chamadas do Office 365, consulte [O que são os Planos de Chamadas do Office 365?](/microsoftteams/what-are-calling-plans-in-office-365) e [Planos de Chamadas para Office 365](/microsoftteams/calling-plans-for-office-365).
     
     > [!NOTE]
-    > Usuários hospedados no local usando o Lync Server 2010 não são suportados como agentes de fila uma chamada. 
+    > Usuários com hospedagem local usando o Lync Server 2010 não têm suportados como agentes de fila uma chamadas. 
   
-- Você só pode atribuir Chamada Tarifada e números de telefone de chamada gratuita do serviço que você obteve no **Skype para centro de administração de negócios** ou transferidos do outro provedor de serviços para as filas de chamada do sistema telefônico. Para obter e usar números gratuitos de serviço, você precisará configurar créditos de comunicações.
+- Você só pode atribuir números de telefone de serviço gratuitos e pagos que obteve no **centro de administração do Skype for Business** ou que transferiu de outro provedor de serviços para as filas de chamadas do Sistema de Telefonia. Para obter e usar números de serviço gratuitos, você precisa configurar Créditos de Comunicações.
     
     > [!NOTE]
     > [!OBSERVAçãO] Os números de telefone (assinante) não podem ser atribuídos às filas de chamada  somente números de telefone de serviço chamadas gratuitas ou tarifas podem ser usados. 
   
-- Quando você estiver distribuindo as chamadas de entrada de uma fila de espera de chamada de sistema telefônico, esses clientes são suportados para os agentes de chamada:
+- Quando estiver distribuindo as chamadas de uma fila de Sistema de Telefonia, esses clientes têm suporte para agentes de chamadas:
     
   - Cliente de desktop Skype for Business 2016 (versões de 32 e 64 bits)
     
   - Cliente de desktop Lync 2013 (versões de 32 e 64 bits)
     
-  - Todos os modelos de telefone IP suportados para o Skype for Business Online. Consulte [Obter telefones para o Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
+  - Todos os modelos de telefone IP com suporte para Skype for Business Online. Consulte [Obter telefones para o Skype for Business Online](getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
     
-  - Mac Skype para Business Client (versão 16.8.196 e posterior) 
+  - Cliente Mac do Skype for Business (versão 16.8.196 e posterior) 
     
-  - Skype Android para Business Client (versão 6.16.0.9 e posterior)
+  - Cliente Android do Skype for Business (versão 6.16.0.9 e posterior)
     
-  - iPhone Skype para Business Client (versão 6.16.0 e posterior)
+  - Cliente iPhone do Skype for Business (versão 6.16.0 e posterior)
     
-  - iPad Skype para Business Client (versão 6.16.0 e posterior)
+  - Cliente iPad do Skype for Business (versão 6.16.0 e posterior)
 
-  - Cliente do Microsoft Windows de equipes (versões de 32 e 64 bits)
+  - Cliente do Windows para Microsoft Teams (versões de 32 e 64 bits)
 
-  - Cliente do Microsoft equipes Mac
+  - Cliente Mac para Microsoft Teams
 
-  - Microsoft Teams iPhone app
+  - Aplicativo do Microsoft Teams para iPhone
 
-  - App Android de equipes da Microsoft
+  - Aplicativo do Microsoft Teams para Android
     
-## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Etapa 2 - Como adquirir e transferir números de telefone de serviço de chamada gratuita ou tarifada
+## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Etapa 2 - Como adquirir e transferir números de telefone de serviço de chamada gratuita ou paga
 
-Antes de você poder criar e configurar as filas de chamada, será necessário receber ou transferir os números de serviço de chamada gratuita ou tarifada. Após você fazer a chamada Tarifada ou números de telefone gratuitos de serviço, eles serão exibidos no **Skype para centro de administração de negócios** > **voz** > **números de telefone**e a disposição de **tipo de número** listado listada como **serviço - chamada gratuita **. Para obter seus números de serviço, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](getting-service-phone-numbers.md) ou se você deseja transferir e o número de serviço existente, consulte [transferir os números de telefone para o Office 365](../what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365.md).
+Antes de você poder criar e configurar as filas de chamada, será necessário receber ou transferir os números de serviço de chamada gratuita ou tarifada. Após obter os números de telefone de serviço gratuitos ou pagos, eles serão exibidos no **centro de administração do Skype for Business** > **Voz** > **Números de telefone**, e o **Tipo de número** listado será **Serviço - Gratuito**. Para obter seus números de serviço, consulte [Obter números de telefone de serviço para Skype for Business e Microsoft Teams](getting-service-phone-numbers.md), ou se deseja transferir um número de serviço existente, consulte [Transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).
   
 > [!NOTE]
-> Se você estiver fora dos Estados Unidos, você não pode usar o Skype para centro de administração de negócios para obter os números de serviço. Vá para [gerenciar números de telefone para sua organização](../what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez disso, para ver como fazê-lo de fora dos Estados Unidos.
+> Se você estiver fora dos Estados Unidos, não será possível usar o centro de administração do Skype for Business para obter os números de serviço. Acesse [Gerenciar números de telefone da sua organização](/microsoftteams/manage-phone-numbers-for-your-organization) para ver como fazer isso fora dos Estados Unidos.
   
-## <a name="step-3---create-a-new-call-queue"></a>Etapa 3 - Criar uma nova fila de chamada
+## <a name="step-3---create-a-new-call-queue"></a>Etapa 3 - Criar uma nova Fila de Chamadas
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
+![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Usar o centro de administração do Skype for Business**
 
-No **Centro de administração do Skype for Business**, clique em **Encaminhamento de chamadas** > **Filas de chamadas** e clique em **Adicionar novas**:
+No **centro de administração do Skype for Business**, clique em **Encaminhamento de chamadas** > **Filas de chamadas** e depois em **Adicionar novas**:
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>Definir o nome de exibição da fila de chamada, número de telefone e domínio (se houver)
 
-![Setting up a call queue.](../images/37ecc300-a108-4294-8463-fce570dfce72.png)
+![Configurar uma fila de chamadas.](../images/37ecc300-a108-4294-8463-fce570dfce72.png)
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>
-**Nome** Digite um nome de exibição descritivo para a fila de chamadas. Esse nome é obrigatório e pode conter até 64 caracteres, incluindo espaços.<br/> Esse nome será exibido na notificação da chamada de entrada.
+**Nome** Digite um nome de exibição descritivo para a fila de chamadas. Esse nome é obrigatório e pode ter até 64 caracteres, incluindo espaços. <br/> Esse nome será exibido na notificação da chamada de entrada.
 ***
-![Número 2](../images/sfbcallout2.png)<br/>**Número de telefone** Selecione um número de telefone de serviço de chamada gratuita ou tarifada para a fila de chamadas. Isso é opcional. <br/> Se nenhum for listado, você deverá obter os números de serviço antes de poder criar esta fila de chamadas. Para obter seus números de serviço, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](getting-service-phone-numbers.md)
+![Número 2](../images/sfbcallout2.png)<br/>**Número de telefone** Selecione um número de telefone de serviço gratuito ou pago para a fila de chamadas. Isso é opcional. <br/> Se não houver nenhum listado, você deve obter os números de serviço antes de poder criar esta fila de chamadas. Para obter seus números de serviço, consulte [Obter números de telefone de serviço para Skype for Business e Microsoft Teams](getting-service-phone-numbers.md)
 ***
-![Número 3](../images/sfbcallout3.png)<br/>**Domínio** Se algum estiver disponível, escolha o domínio do Office 365 que você deseja usar. Ele só estará disponível ser você tiver mais de um domínio sendo usado com o Office 365. Se você tiver mais de um, deverá escolher o nome do domínio na lista.<br/> Por exemplo, você poderia ter um domínio como:  _contoso.com or redmond.contoso.com_.
+![Número 3](../images/sfbcallout3.png)<br/>**Domínio** Se algum estiver disponível, escolha o domínio do Office 365 que você deseja usar. Ele só estará disponível ser você tiver mais de um domínio sendo usado com o Office 365. Se você tiver mais de um, deverá escolher o nome do domínio na lista. <br/> Por exemplo, você poderia ter um domínio como:  _contoso.com or redmond.contoso.com_.
    
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Definir a saudação e a música reproduzida durante a espera
 
-![Setting up a call queue.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![Configurar uma fila de chamadas.](../images/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Saudação** é opcional. Esta é a saudação que será reproduzida para as pessoas que a chamada para o número de chamada da fila. <br/> Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. wma).
+![Número 1](../images/sfbcallout1.png)<br/>A **saudação** é opcional. Essa é a saudação reproduzida para pessoas que ligam para o número da fila de chamadas. <br/> Você pode carregar um arquivo de áudio (formatos .wav, .mp3 ou .wma).
 ***
-![Número 2](../images/sfbcallout2.png)<br/>**Música de espera** Você pode usar o padrão de música em espera fornecida com a fila chamada ou você pode carregar um arquivo de áudio nos formatos. wav, mp3 ou. wma a ser usado como sua música personalizada em espera. 
+![Número 2](../images/sfbcallout2.png)<br/>**Música de espera**, Você pode usar a música de espera padrão fornecida com a fila de chamadas ou carregar um arquivo de áudio nos formatos .wav, mp3 ou .wma para usar como música de espera personalizada. 
    
 
-### <a name="select-the-call-distribution-method"></a>Selecione o método de distribuição de chamada
+### <a name="select-the-call-distribution-method"></a>Selecione o método de distribuição de chamadas
 
-![Mostra a chamada opções de método de distribuição](../images/5d249515-d532-4af2-90da-011404028b89.png)
+![Mostra as opções de métodos de distribuição de chamadas](../images/5d249515-d532-4af2-90da-011404028b89.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Chame o método de distribuição** Você pode escolher **Attendant** ou **Serial** para seu método de distribuição de fila de chamada. Todas as filas de chamada novas e existentes terão roteamento attendant selecionada por padrão. Para usar o roteamento em série, você deve escolher explicitamente a opção de roteamento **Serial** na interface do usuário e cmdlets. <br/><br/> Quando o roteamento em série for escolhido e a fila de chamada é salvo, as chamadas da fila tocarão seus agentes um por um, começando do início da lista de operadores. Se um operador descarta ou não atender uma chamada, a chamada tocará o próximo operador na lista e tentará todos os operadores gradativamente até que ele é buscado ou tempos de espera na fila.   
+![Número 1](../images/sfbcallout1.png)<br/>**Método de distribuição de chamadas** Você pode escolher o método de distribuição para **Atendedor** ou **em Série** para a sua fila de chamadas. Todas as filas de chamadas novas e existentes terão encaminhamento para o atendedor como padrão. Para mudar isso, você deve escolher explicitamente a opção de encaminhamento em **Série** na interface do usuário e nos cmdlets. <br/><br/> Quando o encaminhamento em série é escolhido e a fila de chamadas é salvo, as chamadas na fila ligaram para os seus agentes um por um, começando pelo início da lista de agentes. Se um agente ignora ou não atende uma chamada, ela passa para o próximo operador da lista, tentando cada agente, um por um, até que seja atendida ou exceda o tempo de espera na fila.   
 
 > [!NOTE]
-> Roteamento em série irá ignorar os operadores que estão **Offline**, tem definido sua presença como **Não incomodar**ou tem **retirado** de obtenção de chamadas da fila de espera. 
+> O encaminhamento em série ignora agentes que estão **Offline**, com a presença definida como **Não incomodar** ou que **recusaram** receber chamadas da fila de espera. 
    
-### <a name="select-an-agent-opt-out-option"></a>Selecione um operador rejeitar opção
+### <a name="select-an-agent-opt-out-option"></a>Selecionar uma opção de recusa do agente
 
-![Caixa de seleção mostra o agente rejeitar](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
+![Exibe a caixa de seleção de recusa para o agente](../images/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>**Agente rejeitar opção** Você pode optar por permitir que os agentes de fila de chamada recusar aproveitando chamadas a partir de uma determinada fila, selecionando a **Opção rejeitar agente**.  <br/> A habilitação dessa opção permite que todos os agentes na fila de espera para iniciar ou parar de receber a chamada dessa fila de espera de chamada em serão. Você pode revogar os privilégios do operador recusar a qualquer momento, desmarcando a caixa de seleção, causando a se tornar aceitos automaticamente para essa fila novamente (configuração padrão para todos os agentes) agentes.  <br/><br/> Para acessar a opção de recusar, operadores podem fazer o seguinte:
- 1. Abrir **Opções** seu Skype da área de trabalho para o cliente de negócios. 
- 2. Na guia **Encaminhamento de chamadas** , clique no link **Editar configurações online** .
- 3. Na página de configurações do usuário, clique em **Chamar filas**e desmarque as caixas de seleção para qualquer filas para o qual deseja rejeitar.
+![Número 1](../images/sfbcallout1.png)<br/>**Opção de recusa do agente** Você pode optar por permitir que os agentes se recusem a receber chamadas de uma determinada fila selecionando a **Opção de recusa do agente**.  <br/> Habilitar essa opção permite que todos os agentes da fila de espera recebam ou deixem de receber chamadas dessa fila quando quiserem. Você pode revogar os privilégios de recusa do agente a qualquer momento desmarcando a caixa de seleção, o que faz com que eles automaticamente aceitem participar da fila novamente (configuração padrão para todos os agentes).  <br/><br/> Para acessar a opção de recusa, os agentes podem:
+ 1. Abrir as **Opções** no cliente Skype for Business na área de trabalho. 
+ 2. Na guia **Encaminhamento de chamadas**, clicar no link **Editar configurações online**.
+ 3. Na página de configurações do usuário, clicar em **Filas de Chamadas**e desmarcar as caixas de seleção de todas as filas que desejam recusar.
  
     > [!NOTE] 
-    > Agentes usando Mac, mobile, ou clientes do Lync 2013 ou usuários de voz híbrida que estão hospedados no local usando Skype para o servidor de negócios 2015, pode ir para [https://aka.ms/cqsettings](https://aka.ms/cqsettings) para acessar o consentimento check-out de opção.
+    > Agentes que usam clientes Mac, móveis ou do Lync 2013 ou usuários Hybrid Voice hospedados no local usando o servidor Skype for Business 2015, podem ir em [https://aka.ms/cqsettings](https://aka.ms/cqsettings) para acessar a opção de recusa.
    
-### <a name="add-call-agents-to-a-call-queue"></a>Adicionar agentes de chamada para uma fila de chamadas
+### <a name="add-call-agents-to-a-call-queue"></a>Adicionar agentes a uma fila de chamadas
 
-![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
+![Configurar filas de chamadas.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/><br/>Agentes de chamada (máximo de 50) podem ser:
-*    Um usuário Online com uma licença de **Sistema telefônico** e habilitados para o Enterprise Voice ou com um plano de chamada. <br/><br/> **Observação:**  Para redirecionar chamadas para pessoas na sua organização que estiverem Online, ele devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem um plano de chamar. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
-*    Usuários online com uma licença de **Sistema telefônico** e um plano de chamada que são adicionados a um grupo do Office 365, uma lista de distribuição habilitado para email ou um grupo de segurança. It might take up to 30 minutes for a new agent added for a distribution list or a security group to start receiving calls from a call queue. Um grupo de segurança ou de lista de distribuição recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamada. Recém-criadas grupos do Office 365 estão disponíveis quase imediatamente. <br/> 
+![Número 1](../images/sfbcallout1.png)<br/><br/>Agentes de chamadas (máximo de 50) podem ser:
+*    Um usuário Online com uma licença de **Sistema de Telefonia** e habilitados para o Enterprise Voice ou com um Plano de Chamadas. <br/><br/> **Observação:** Para redirecionar chamadas para pessoas na sua organização que estão Online, elas devem ter uma licença de **Sistema de Telefonia** e ser habilitadas para o Enterprise Voice ou ter um Plano de Chamadas. Veja [Atribuir licenças do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
+*    Usuários online com uma licença de **Sistema de Telefonia** e um Plano de Chamadas que são adicionados a um grupo do Office 365, uma lista de distribuição habilitada para e-mails ou um grupo de segurança. Poderá demorar até 30 minutos para que um novo agente adicionado a uma lista de distribuição ou um grupo de segurança comece a receber chamadas de uma fila. Um grupo de segurança ou uma de lista de distribuição recém-criados podem levar até 48 horas para se tornar disponíveis para uso com filas de chamadas. Grupos recém-criados do Office 365 ficam disponíveis quase que imediatamente. <br/> 
 
     > [!NOTE] 
-    > Usuários hospedados no local usando o Lync Server 2010 não são suportados.           
+    > Não há suporte para usuários hospedados no local usando o Lync Server 2010.           
    
 ### <a name="set-the-maximum-queue-size-and-maximum-wait-time"></a>Definir o tamanho máximo da fila e o tempo máximo de espera
 
-![Set up a call queue.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
+![Configurar uma fila de chamadas.](../images/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/><br/>**Máximo de chamadas na fila** Use isso para definir o tempo máximo que as chamadas podem esperar na fila ao mesmo tempo. O valor padrão é 50, mas ela pode variar de 0 a 200. quando esse limite for atingido, a chamada será manipulada de forma que você definiu na configuração **quando o número máximo de chamadas for alcançado** abaixo.
+![Número 1](../images/sfbcallout1.png)<br/><br/>**Máximo de chamadas na fila** Use isso para definir o tempo máximo que as chamadas podem esperar na fila ao mesmo tempo. O valor padrão é 50, mas pode variar de 0 a 200. Quando esse limite é atingido, a chamada é manipulada da maneira definida na configuração **Quando o número máximo de chamadas é atingido** abaixo.
 ***
-![Número 2](../images/sfbcallout2.png)<br/><br/>**Quando o número máximo de chamadas é atingido** Quando a fila chamada atinge seu tamanho máximo (definido usando a configuração **máximo de chamadas na fila** ), você pode escolher o que acontece às novas chamadas de entrada.
+![Número 2](../images/sfbcallout2.png)<br/><br/>**Quando o número máximo de chamadas é atingido** Quando a fila de chamadas atinge seu tamanho máximo (defina com a configuração **Máximo de chamadas na fila**), você pode decidir o que acontece com as chamadas recebidas.
 *    **Desconectar com um sinal de ocupado** A chamada será desconectada.
-*    **Encaminhar essa chamada para** Quando você escolhe essa opção, você terá estas opções:
-     *    **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter um plano de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. <br/> <br/>Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal do sistema telefônico](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
+*    **Encaminhar esta chamada para** Quando você escolhe isso, terá estas opções:
+     *    Pessoa na sua empresa Um usuário Online com uma licença de Sistema de Telefonia e habilitado para o Enterprise Voice ou com um Plano de Chamadas.** ** ** ** Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **Pessoa em sua empresa** e defina que essa pessoa terá suas chamadas encaminhadas diretamente para a caixa postal. <br/> <br/>Para saber sobre o licenciamento necessário para a caixa postal, consulte [Configurar caixa postal do Sistema de Telefonia](/microsoftteams/set-up-phone-system-voicemail). 
      
         > [!Note]
-        > Usuários hospedados no local usando o Lync Server 2010 não são suportados.<br/>
+        > Não há suporte para usuários hospedados no local usando o Lync Server 2010.<br/>
      
-     *    **Fila de chamadas** Você já deve ter criado outra fila de espera de chamada, mas depois que você fizer isso, você pode selecionar essa fila de chamada.
-     *    **Atendedor automático** Você já deve ter criado um atendedor automático, mas depois que você fizer isso, você pode selecionar esse atendedor automático. Consulte [Configurar um atendedor automático de sistema telefônico](set-up-a-phone-system-auto-attendant.md).
+     *    **Fila de Chamadas** Você já deve ter criado uma outra fila de chamadas, depois que fizer isso, você pode selecionar essa fila.
+     *    **Atendedor Automático** Você já deve ter criado um atendedor automático, então poderá selecioná-lo. Veja [Configurar o atendedor automático do Sistema de Telefonia](set-up-a-phone-system-auto-attendant.md).
 ***
-![Número 3](../images/sfbcallout3.png)<br/><br/>**Quanto tempo uma chamada pode esperar na fila** Você também pode decidir quanto tempo uma chamada pode ficar em espera na fila antes de seu tempo limite expirar e precisar ser redirecionada ou desconectada. Para onde ela será direcionada dependerá da configuração da opção **Quando uma chamada atinge o tempo limite.** Você pode definir um período de 0 a 45 minutos. <br/><br/> O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segundos. Isso permite que você manipule o fluxo de chamadas com granularidade menor. Por exemplo, você pode especificar que todas as chamadas não respondidas por um agente dentro de 30 segundos ir para um atendedor automático da pesquisa diretório. 
+![Número 3](../images/sfbcallout3.png)<br/><br/>**Quanto tempo uma chamada pode esperar na fila** Você também pode decidir quanto tempo uma chamada pode ficar em espera na fila antes de seu tempo limite expirar e precisar ser redirecionada ou desconectada. Para onde ela será direcionada dependerá da configuração da opção **Quando uma chamada atinge o tempo limite.** Você pode definir um período de 0 a 45 minutos. <br/><br/> O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segundos. Isso permite que você administre o fluxo de chamadas com mais precisão. Por exemplo, você pode especificar que todas as chamadas não atendidas por um agente em até 30 segundos vão para um Atendedor Automático de Pesquisa de Diretório. 
 
 ***
 ![Número 4](../images/sfbcallout4.png)<br/><br/>**Quando uma chamada atinge o tempo limite** Quando uma chamada atinge o tempo limite que você definiu na configuração **Por quanto tempo uma chamada pode esperar na fila**, é possível escolher o que acorrerá com essa chamada:
 *    **Desconectar** A chamada será desconectada.
-*    **Encaminhar essa chamada para** Quando você escolhe essa opção, você terá estas opções:
-     *    **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema telefônico** e ser habilitado para o Enterprise Voice ou ter planos de chamada. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **pessoa na sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. </br><br/>  Para saber sobre o licenciamento necessários para a caixa postal, consulte [Configure a caixa postal do sistema telefônico](../what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail.md). 
+*    **Encaminhar esta chamada para** Quando você escolhe isso, terá estas opções:
+     *    **Pessoa na sua empresa** Um usuário Online com uma licença de **Sistema de Telefonia** e habilitado para o Enterprise Voice ou com um Plano de Chamadas. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione uma **Pessoa em sua empresa** e defina que essa pessoa terá suas chamadas encaminhadas diretamente para a caixa postal. </br><br/>  Para saber sobre o licenciamento necessário para a caixa postal, consulte [Configurar caixa postal do Sistema de Telefonia](/microsoftteams/set-up-phone-system-voicemail). 
 
         > [!Note]
-        > Usuários hospedados no local usando o Lync Server 2010 não são suportados.<br/>
+        > Não há suporte para usuários hospedados no local usando o Lync Server 2010.<br/>
 
-     *    **Fila de chamadas** Você já deve ter criado outra fila de espera de chamada, mas depois que você fizer isso, você pode selecionar essa fila de chamada.
-     *    **Atendedor automático** Você já deve ter criado um atendedor automático, mas depois que você fizer isso, você pode selecionar esse atendedor automático. Consulte [Configurar um atendedor automático de sistema telefônico](set-up-a-phone-system-auto-attendant.md).
+     *    **Fila de Chamadas** Você já deve ter criado uma outra fila de chamadas, depois que fizer isso, você pode selecionar essa fila.
+     *    **Atendedor Automático** Você já deve ter criado um atendedor automático, então poderá selecioná-lo. Veja [Configurar o atendedor automático do Sistema de Telefonia](set-up-a-phone-system-auto-attendant.md).
    
-## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Alterar a ID de chamador do usuário para ser um número de telefone da chamada de uma fila
+## <a name="changing-the-users-caller-id-to-be-a-call-queues-phone-number"></a>Alterar a identificação de chamadas do usuário para um número de telefone de fila de chamadas
 
-Você pode proteger a identidade de um usuário alterando sua ID de chamador das chamadas de saída para uma fila de chamada em vez disso, criando uma política utilizando o cmdlet **New-CallingLineIdentity** .
+Você pode proteger a identidade de um usuário alterando a identificação de chamadas dele para chamadas de saída para uma fila de chamadas criando uma política com o cmdlet **New-CallingLineIdentity**.
   
-Para fazer isso, execute:
+Para isso, execute:
   
 ```
 New-CsCallingLineIdentity -Identity "UKSalesQueue" -CallingIdSubstitute "Service" -ServiceNumber 14258828080 -EnableUserOverride $False -Verbose
 ```
 
-Aplica a política ao usuário usando o cmdlet **Grant-CallingLineIdentity** . Para fazer isso, execute:
+Então, aplique a política ao usuário usando o cmdlet **Grant-CallingLineIdentity**. Para isso, execute:
   
 ```
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-Você pode obter mais informações sobre como fazer alterações nas configurações de ID de chamador em sua organização [aqui](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+Você pode obter mais informações sobre como fazer alterações nas configurações de identificação de chamadas em sua organização [aqui](../what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
   
 ## <a name="want-to-know-more"></a>Deseja saber mais?
 
@@ -251,11 +251,11 @@ Veja os cmdlets necessários para gerenciar uma fila de chamadas.
   - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](getting-service-phone-numbers.md)
 
-[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
   
  
