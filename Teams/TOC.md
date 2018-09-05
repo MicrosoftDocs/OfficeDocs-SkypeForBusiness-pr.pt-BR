@@ -105,25 +105,20 @@
 <!-- ============================================================ -->
 # Gerenciamento
 ## [Qualidade da experiência Revise o guia](quality-of-experience-review-guide.md)
-## Análise de chamada
+## Monitorar a qualidade de chamada e QoS
+### [QoS no Microsoft Teams](QoS-in-Teams.md)
+### [Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
 ### [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Configurar a análise de chamada](set-up-call-analytics.md)
 ### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
-
+### [Classificação de fluxo no Painel de Qualidade de Chamadas](stream-classification-in-call-quality-dashboard.md)
 ## Solução de problemas e suporte
 ### [Problemas conhecidos do Teams](Known-issues.md)
 ### [Recursos de suporte para o Teams](support-resources.md)
 ### [Solucionar problemas de conectividade do cliente Teams](connectivity-issues.md)
 ### [Usar arquivos de registro para solucionar problemas no Teams](log-files.md)
 ### [Verificar a integridade do serviço para o Teams](service-health.md)
-## Monitorar qualidade da chamada e QOS
-### [QoS no Microsoft Teams](QoS-in-Teams.md)
-### [Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [Configurar a Análise de Chamada do Skype for Business](set-up-call-analytics.md)
-### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [Classificação de fluxo no Painel de Qualidade de Chamadas](stream-classification-in-call-quality-dashboard.md)
+
 <!-- ============================================================ -->
 
 
@@ -150,7 +145,7 @@
 ##  [Período de discagem gratuita](complimentary-dial-out-period.md)
 ## [Práticas de coleta de dados](data-collection-practices.md)
 ##  [Rótulos de chamada de emergência](emergency-calling-labels.md)
-##  [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
+##  [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
 <!-- ============================================================ -->
