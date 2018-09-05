@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 7abf23aeb74807597b337c66e769b0625d862d0f
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22914116"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835003"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -220,7 +220,7 @@ Os dispositivos que tiverem sido validados são listados como certificado para e
 
 Os seguintes fornecedores estiver sendo certified:
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Faixa de opções (anteriormente Sonus):
+- Comunicações da faixa de opções (anteriormente Sonus):
    - [Série de borda de SBC](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
    - [SBC Core série](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
 - ThinkTel: ThinkTel não vende os SBCs para as empresas, mas seu SBC está sendo certified.  

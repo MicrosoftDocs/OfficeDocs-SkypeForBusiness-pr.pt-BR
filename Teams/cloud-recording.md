@@ -9,12 +9,12 @@ description: Orientações práticas para a implantação dos recursos de Cloud 
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edf168d099df6c7d799cf0e513f0343f4902b67
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64a0dd2cccfe92fe1385b40caa45551bfe91bba9
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242492"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835019"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reunião de nuvem de equipes
 
@@ -114,9 +114,13 @@ O tamanho de uma gravação de 1 hora é 400 MB. Verifique se você compreende a
 ## <a name="manage-meeting-recordings"></a>Gerenciar gravações de reuniões
 As gravações de reunião são consideradas conteúdo pertencentes a locatário. Se o proprietário da gravação deixa a empresa, o administrador pode abrir a URL de vídeo de gravação em Microsoft Stream no modo de administrador. O administrador pode excluir a gravação, atualizar qualquer metadado de gravação ou alterar permissões para a gravação de vídeo. Saiba mais sobre [os recursos de administração no Stream](https://docs.microsoft.com/en-us/stream/manage-content-permissions).
 
+## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformidade e eDiscovery para gravações da reunião
+As gravações de reunião são armazenadas no Microsoft Stream, que é 365 Office camada-C compatível. Para oferecer suporte a solicitações de descoberta eletrônica para os administradores de conformidade que estiverem interessados em gravações de reunião ou chamada de Streams da Microsoft, a mensagem de gravação concluídas está disponível na funcionalidade de pesquisa de conteúdo de conformidade for Microsoft Teams. Administradores de conformidade podem procurar a palavra-chave "gravação" na linha de assunto do item na visualização da pesquisa de conteúdo de conformidade e descobrir reunião e os registros de chamada na organização. Um pré-requisito para que eles possam exibir todas as gravações é que eles precisam ser configurados no Microsoft Stream com acesso de administrador. Saiba mais sobre a [atribuição de permissões de administrador no fluxo](https://docs.microsoft.com/en-us/stream/assign-administrator-user-role).
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações de configuração de muitos usuários de uma só vez. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 
 - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 - [Configurar seu computador para o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525038)
+
