@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04a5f6d09270b489d8f3a26e1b127d79b0d491b0
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 94e1fdc1caa477df281336859e4b537dfd86d080
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398105"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780655"
 ---
 <a name="about-upgrade-basic"></a>
 # <a name="upgrade-basic"></a>Atualização básica 
@@ -123,7 +123,7 @@ Manter atualização momentum habilitando a notificação de atualização de us
 
 **Recursos:**
 
--   [Definindo as configurações de atualização e coexistência](upgrade-basic-powershell.md)
+-   [Definindo as configurações de atualização e coexistência](setting-your-coexistence-and-upgrade-settings.md)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -156,7 +156,7 @@ Hoje é o dia em que sua organização oficialmente atualiza para equipes como s
 
 **Recursos:**
 
--   [Definir seu coexistência e as configurações de atualização](upgrade-basic-powershell.md)
+-   [Definir seu coexistência e as configurações de atualização](setting-your-coexistence-and-upgrade-settings.md)
 -   [E-mail de exemplo: os usuários a equipes de boas-vindas](upgrade-emails-surveys.md#step-7-email)
 
 [Retornar ao topo](#about-upgrade-basic)

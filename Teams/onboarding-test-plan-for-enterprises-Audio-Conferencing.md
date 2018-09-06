@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a561e6d81394aa9bf7c3e1b9b8b0ac9f2b3a7ed
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 8295884d973dc873a7646be629bd639adba2156a
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695578"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779121"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definir e documentar sua conferência de áudio no plano de teste de equipes para empresas 
 ===============================================================================
@@ -655,7 +655,7 @@ Identificar e documentar todas as informações de conta (incluindo o nome usado
 Normalmente, você pode encontrar as informações que você precisará no bill mais recente ou faturas do seu provedor de serviço atual.
 
 > [!TIP]
-> Você pode transferir ou números de telefone de transferência dentro de todas as atualmente suportadas países/regiões; No entanto, a maneira como você envia uma solicitação de pedido de porta pode ser diferentes dependendo do país/região onde os números de telefone são originados de. Para obter a lista mais recente dos países/regiões atualmente com suporte, consulte [países e a disponibilidade da região para conferência de áudio e planos de chamar](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). < /br/ ><br/>
+> Você pode transferir ou números de telefone de transferência dentro de todas as atualmente suportadas países/regiões; No entanto, a maneira como você envia uma solicitação de pedido de porta pode ser diferentes dependendo do país/região onde os números de telefone são originados de. Para obter a lista mais recente dos países/regiões atualmente com suporte, consulte [países e a disponibilidade da região para conferência de áudio e planos de chamar](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). < /br/ ><br/>
 >   Para obter informações adicionais sobre como transferir números de telefone para conferência de áudio — juntamente com restrições possíveis — consulte [transferir os números de telefone para o Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) e [ligação gratuita discando restrições no Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Etapa 3

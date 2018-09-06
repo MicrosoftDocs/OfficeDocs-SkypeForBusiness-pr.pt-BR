@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: 73d25486544c4832b9fe30235128c8c3d4c5ae82
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: beb118d39ea2fa98025c5038436810d90a5472ea
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391816"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23263890"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2015
  
@@ -120,7 +120,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Adicionar áudio de computador  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Adicionar vídeo  <br/> |& #x 2714;|& #x 2714;|& #x 2714;(requires plug-in)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|& #x 2714;|
 |Exibir vídeo com vários participantes (modo de exibição de galeria)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||||
-|Compartilhamento de tela baseado em vídeo  <br/> |& #x 2714;|& #x 2714; apenas para usuários hospedados no Skype para negócios Online  <br/> |& #x 2714; Somente exibição  <br/> |||||||||
+|Compartilhamento de tela baseado em vídeo  <br/> |& #x 2714;|& #x 2714;|& #x 2714; Somente exibição  <br/> |||||||||
 |Usar os controles do apresentador na reunião  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||& #x 2714;|
 |Acessar a lista de participantes detalhada da reunião  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|||& #x 2714;|
 |Participar de IM com vários participantes  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|
@@ -129,7 +129,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Adicionar participantes anônimos (se habilitado)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;||||& #x 2714;|
 |Usar reuniões de áudio discadas  <br/> |& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714;|& #x 2714;|||& #x 2714;|
 |Iniciar uma reunião do tipo Reunir Agora  <br/> |& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||& #x 2714;|
-|Adicionar e apresentar arquivos do Microsoft PowerPoint  <br/> |& #x 2714;| & #x 2778; Somente exibição, anotações não estão disponíveis  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|Somente apresentação  <br/> |& #x 2714;|||| & #x 2778; Somente exibição, anotações não estão disponíveis  <br/> |
+|Adicionar e apresentar arquivos do Microsoft PowerPoint  <br/> |& #x 2714;| & #x 2778; Anotações não disponíveis  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|Somente apresentação  <br/> |& #x 2714;|||| & #x 2778; Somente exibição, anotações não estão disponíveis  <br/> |
 |Navegar por arquivos do Microsoft PowerPoint  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||& #x 2714;|
 |Usar e editar notas de reunião do OneNote  <br/> |& #x 2714;||Somente editar (sem adicionar)  <br/> |& #x 2714;|& #x 2714;|||||||
 |Usar um quadro de comunicações  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|||||
@@ -142,9 +142,8 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Ativar mudo da audiência  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||||||& #x 2714;|
 |Tornar todos participantes  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;||||||& #x 2714;|
 |Produzir Transmissão de Reunião do Skype  <br/> |& #x 2714;|||||||||||
-|O representante pode agendar uma reunião em nome do delegador  <br/> |& #x 2714;|Apenas Skype for Business Online <br/>|& #x 2714;|||||||||
+|O representante pode agendar uma reunião em nome do delegador  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||||||||
 |Sincronizar representantes entre o Skype for Business e o Outlook  <br/> |& #x 2714;||& #x 2714;|||||||||
-|Compartilhamento de tela baseado em vídeo  <br/> |& #x 2714;| Apenas Skype for Business Online <br/> |& #x 2714;||& #x 2714;|||||||
 |Definir Destaque de Vídeo (bloquear vídeo)  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|
 |Conceder/cancelar controle de compartilhamento de tela  <br/> |& #x 2714;||& #x 2714;|||||||||
    
@@ -181,7 +180,7 @@ Esta tabela abrange os recursos relacionados ao suporte a serviços de voz.
 |Gerenciar grandes volumes de chamadas  <br/> |||||& #x 2714;|& #x 2714;||||
 |Estacionamento de chamada  <br/> |& #x 2714;||& #x 2714; & #x 2776; |||||||
 |Recebimento de chamadas em grupo  <br/> |& #x 2714;||& #x 2714; & #x 2776; ||||& #x 2714;|||
-|Roteamento com base no local  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|
+|Roteamento com base no local  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;||& #x 2714;|
 |Gerenciar Grupo de chamada de equipe/Grupo de Resposta  <br/> |& #x 2714;||& #x 2714;|||||||
    
  & #x 2776;  Esse recurso não está disponível no Skype para negócios Online.
@@ -236,7 +235,7 @@ Esta tabela abrange os recursos relacionados ao suporte a funções de arquivame
 
  | Recurso/funcionalidade | Cliente Skype for Business 2015 ou 2016 | Skype for Business para Mac | Cliente do Lync 2013 | Aplicativo Lync Windows Store | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | **Communicator para Mac 2011** | Lync para Mac 2011 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Arquivamento de conversas de IM no Histórico da Conversa do Outlook  <br/> |& #x 2714; & #x 2776; |& #x 2714; se o histórico da conversa do lado servidor está ativado  <br/> |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||Salvo no Communicator para Mac  <br/> |Salvo no Lync para Mac  <br/> |
+|Arquivamento de conversas de IM no Histórico da Conversa do Outlook  <br/> |& #x 2714; & #x 2776; |& #x 2714; se o histórico da conversa do lado servidor está habilitado <br/> |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714;|& #x 2714;||Salvo no Communicator para Mac  <br/> |Salvo no Lync para Mac  <br/> |
 |Arquivamento do compartilhamento de áudio, vídeo e aplicativos, do compartilhamento de área de trabalho e do conteúdo carregado do lado do cliente  <br/> |& #x 2714; & #x 2776; ||& #x 2714; & #x 2776; ||& #x 2714;|||||
 |Arquivamento de transferências de arquivos, páginas compartilhadas do OneNote e anotações do PowerPoint do lado do cliente  <br/> (não disponível em Skype para Business Online)  <br/> |& #x 2714;||& #x 2714;||& #x 2714;|||||
 |Entrar logs de acesso do Skype para o ícone de negócios na barra de tarefas  <br/> |& #x 2714;||& #x 2714;|||||||

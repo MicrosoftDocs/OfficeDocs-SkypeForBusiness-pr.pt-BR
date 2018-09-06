@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082ad5913cfd95750eaac9f36b424b62610c0c26
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 1d6b45c13cf387ff31044ea7d439a0a1e5081eca
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20506640"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23247531"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -26,7 +26,7 @@ Este artigo faz parte do estágio da sua jornada de atualização, que começa a
 
 # <a name="drive-operational-excellence-with-microsoft-teams"></a>Unidade de excelência operacional com Microsoft Teams
 
-Tecnologia está inovando em um ritmo sem precedentes. Manter atual e a habilitação de um ambiente de trabalho moderno tornou-se um padrão em organizações operam. Como Teams da Microsoft, Microsoft 365 e visão de comunicação inteligente da Microsoft continuam Desdobrar, ter um planejamento operacional in-loco ajudará Certifique-se de que sua organização estiver configurada para o sucesso a longo prazo. Um planejamento operacional ideal inclui a monitoração seu ambiente para a integridade e a qualidade, continuando momentum de usuário para otimizar a adoção e planejamento de uma nova funcionalidade que continuará a ficar online ao longo do tempo. 
+Tecnologia está inovando em um ritmo sem precedentes. Manter atual e a habilitação de um ambiente de trabalho moderno tornou-se um padrão em organizações operam. Como Teams da Microsoft, Microsoft 365 e visão de comunicação inteligente da Microsoft continuam Desdobrar, ter um planejamento operacional in-loco ajudará Certifique-se de que sua organização estiver configurada para o sucesso a longo prazo. Um planejamento operacional ideal inclui a monitoração seu ambiente para a integridade e a qualidade, continuando momentum de usuário para otimizar a adoção e planejamento de uma nova funcionalidade que continuará a ficar online ao longo do tempo.
 
 ## <a name="monitor-for-network-health-and-quality"></a>Monitor de rede é adequada e qualidade
 
@@ -42,7 +42,7 @@ Para concretizar o máximo benefício e os resultados dos negócios com equipes,
 
 -   Inscrever campeões ponto para ajudar Pregue e incentivar os usuários colegas.
 -   Verificando o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obter dicas sobre aumentando o envolvimento e orientando a adoção.
--   Aproveitando o [Kit de sucesso do cliente de equipes](http://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para melhorar a conscientização e compartilhar as práticas recomendadas.
+-   Aproveitando o [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para melhorar a conscientização e compartilhar as práticas recomendadas.
 -   Implementando uma [estratégia de gerenciamento de adoção e alteração](http://www.successwithteams.com/) formal para ajudar a sustentar o crescimento de adoção.
 
 ## <a name="prepare-for-new-functionality"></a>Preparar para a nova funcionalidade

@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc6cc0f6b4208ddfe4975760a5e9d7874a7e5665
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 36285914ac90517f54b50bb357a21822c5423f25
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398041"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23242662"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -31,14 +31,14 @@ Este artigo faz parte do estágio de preparação de usuários de sua atualizaç
 
 # <a name="assess-organizational-change-readiness"></a>Avalie a preparação de alteração organizacional
 
-Após você ter protegido sua equipe de projeto e definido sua visão, escopo e objetivos, a próxima etapa na sua jornada de atualização é garantir que sua organização e os usuários estejam prontos para equipes — uma atividade que você concluir em paralelo com garantindo que sua prontidão técnica. Para compreender o valor de equipes, os usuários devem realmente usá-lo. Habilitar simplesmente equipes não garante que você obtenha seu objetivo.  Os usuários têm diferentes casos de uso e os estilos de aprendizagem variados e adaptar-se para uma nova tecnologia em velocidades diferentes. A boa notícia é que o gerenciamento de alterações não é muito complicado, mas exige um esforço concentrado. As discussões guiadas abaixo são projetadas para ajudá-lo a entender sua base de usuários, para que você pode preparar o nível adequado de educação para facilitar e acelerar a adoção dos usuários. Há três maneiras que você deve examinar sua base de usuários: 
+Após você ter protegido sua equipe de projeto e definido sua visão, escopo e objetivos, a próxima etapa na sua jornada de atualização é garantir que sua organização e os usuários estejam prontos para equipes — uma atividade que você concluir em paralelo com garantindo que sua prontidão técnica. Para compreender o valor de equipes, os usuários devem realmente usá-lo. Habilitar simplesmente equipes não garante que você obtenha seu objetivo.  Os usuários têm diferentes casos de uso e os estilos de aprendizagem variados e adaptar-se para uma nova tecnologia em velocidades diferentes. A boa notícia é que o gerenciamento de alterações não é muito complicado, mas exige um esforço concentrado. As discussões guiadas abaixo são projetadas para ajudá-lo a entender sua base de usuários, para que você pode preparar o nível adequado de educação para facilitar e acelerar a adoção dos usuários. Há três maneiras que você deve examinar sua base de usuários:
 
 -   **Preparação de alterar organizacional**: Compreendendo a rapidez (ou não) os usuários geralmente reagem para alterar. Essas informações ajudarão a informar a quantidade de divulgação, treinamento, e as vendas valor talvez seja necessário fazer para incentivar a adoção de usuário.
 -   **Casos de uso**: avaliar como a nova tecnologia melhora a produtividade do usuário. Essas informações fará a alteração relevante para usuários com base em como eles funcionam.
 -   **Personagens**: avaliar quais indivíduos ou grupos pode exigir atenção personalizada. Essas informações permitem que você ao reconhecimento e treinamento de destino para aqueles que esperar ou precisar de mais focalizada atenção (por exemplo, executivos).
 
 > [!Note]
-> É possível adaptar as atividades de avaliação fornecidas abaixo para qualquer iniciativa de alteração em sua organização. Endereços simplesmente as perguntas com base no escopo do seu projeto. Nas discussões a seguir, "nova solução" pode aplicar ao chamar, audioconferências ou a atualização do Skype para negócios às equipes de áudio. 
+> É possível adaptar as atividades de avaliação fornecidas abaixo para qualquer iniciativa de alteração em sua organização. Endereços simplesmente as perguntas com base no escopo do seu projeto. Nas discussões a seguir, "nova solução" pode aplicar ao chamar, audioconferências ou a atualização do Skype para negócios às equipes de áudio.
 
 |    |     |
 |-----------|------------|
@@ -68,11 +68,11 @@ Use o seguinte para iniciar a conversação para realizar uma avaliação de pro
 
 
 > [!Tip]
-> Inscrever-se seus usuários iniciais para seu teste piloto além atuando como campeões ponto. Campeões ajudam Pregue nova tecnologia e liderar pelo exemplo para mostrar como agregar valor de seus colegas. Para saber mais sobre a criação de um programa de campeões formal, consulte o [guia de adoção do Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Suas retardatários talvez seja necessário mais convencendo antes que eles adotarem uma nova tecnologia. Se mais de 20% da sua organização se enquadra no processo de Balde, dedique mais tempo comunicando-se de que o valor de mensagens e pelo fornecimento de treinamento de adaptados. Além disso, oferecer suporte a eles através da alteração, abrindo um loop de feedback para entender melhor e seus hesitations de endereços. 
+> Inscrever-se seus usuários iniciais para seu teste piloto além atuando como campeões ponto. Campeões ajudam Pregue nova tecnologia e liderar pelo exemplo para mostrar como agregar valor de seus colegas. Para saber mais sobre a criação de um programa de campeões formal, consulte o [guia de adoção do Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Suas retardatários talvez seja necessário mais convencendo antes que eles adotarem uma nova tecnologia. Se mais de 20% da sua organização se enquadra no processo de Balde, dedique mais tempo comunicando-se de que o valor de mensagens e pelo fornecimento de treinamento de adaptados. Além disso, oferecer suporte a eles através da alteração, abrindo um loop de feedback para entender melhor e seus hesitations de endereços.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>Que porcentagem dos usuários se enquadram em cada competência?
 
-<!-- 
+<!--
 | **Type of learner**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
 | *Self-motivated* learners seek out resources, learn by doing.                      |       |
@@ -84,7 +84,7 @@ Use o seguinte para iniciar a conversação para realizar uma avaliação de pro
 | Esses alunos check-out de recursos de pesquisa, saiba fazendo. | Esses usuários gostam de grupo e treinamento interativo; eles irão junto com os colegas de trabalho. | Esses usuários esperam "luva de branca" ou assistência pessoal durante. |
 
 > [!Tip]
-> Nem todos aprende da mesma maneira. Para aqueles que são despachado, aponte para vídeos online e os artigos de treinamento da Microsoft. Se 20% ou mais players de equipe, inscrever-se de sua equipe de treinamento ou de um parceiro a fim de oferecer o treinamento ao vivo, interativo (pessoalmente ou online). Normalmente, você encontrará executivos ou direcionadas a funções na categoria detentores de mão. Este é um grupo crítico que beneficiasse de sessões de treinamento personalizadas, curto. Inscrever-se os representantes para ajudar a fornecer treinamento a esses usuários, para uma experiência ideal. 
+> Nem todos aprende da mesma maneira. Para aqueles que são despachado, aponte para vídeos online e os artigos de treinamento da Microsoft. Se 20% ou mais players de equipe, inscrever-se de sua equipe de treinamento ou de um parceiro a fim de oferecer o treinamento ao vivo, interativo (pessoalmente ou online). Normalmente, você encontrará executivos ou direcionadas a funções na categoria detentores de mão. Este é um grupo crítico que beneficiasse de sessões de treinamento personalizadas, curto. Inscrever-se os representantes para ajudar a fornecer treinamento a esses usuários, para uma experiência ideal.
 
 ## <a name="use-cases"></a>Casos de uso
 
@@ -127,14 +127,14 @@ A tabela a seguir mostra um exemplo de um caso de uso de destino.
 
 
 > [!Tip]
-> Precisa de ajuda para começar? Visite a biblioteca de produtividade: http://aka.ms/productivitylibrary.
+> Precisa de ajuda para começar? Visite a biblioteca de produtividade: https://aka.ms/productivitylibrary.
 
 ## <a name="personas"></a>Personagens
 
-Fazendo a análise de nível de pessoas, você obter compreensão de suas personagens de usuário e casos de uso. Demorando para entender quem são os usuários e como eles funcionam, você vai ajudar a garantir que eles tenham o que precisam ser bem-sucedidas, como eles implementam a alteração. Isso pode incluir mensagens direcionado, treinamento ou até mesmo dispositivos como headsets e webcams. Por exemplo, um executivo era esperado treinamento pessoal durante enquanto um representante de campo viagem pode se beneficiar de um vídeo, que eles podem assistir em seu tempo livre de treinamento. Além disso, sua análise de nível de pessoas pode ajudar a identificar quem pode mover para equipes hoje versus que podem ser mais bem atendidas pela aguardar até mais tarde. 
+Fazendo a análise de nível de pessoas, você obter compreensão de suas personagens de usuário e casos de uso. Demorando para entender quem são os usuários e como eles funcionam, você vai ajudar a garantir que eles tenham o que precisam ser bem-sucedidas, como eles implementam a alteração. Isso pode incluir mensagens direcionado, treinamento ou até mesmo dispositivos como headsets e webcams. Por exemplo, um executivo era esperado treinamento pessoal durante enquanto um representante de campo viagem pode se beneficiar de um vídeo, que eles podem assistir em seu tempo livre de treinamento. Além disso, sua análise de nível de pessoas pode ajudar a identificar quem pode mover para equipes hoje versus que podem ser mais bem atendidas pela aguardar até mais tarde.
 
 Comece pelo segmentação sua base de usuários em grupos de pessoa/cohort (por exemplo, executivos, "viajantes," colaborativos trabalhadores ou varejo). Para o gerenciamento, mantenha sua lista mais do que oito grupos.
- 
+
 ### <a name="activity"></a>Atividade
 
 Identifica os perfis de usuário de destino que exigem assistência de preparação técnico ou de usuário específica. Veja abaixo uma avaliação de pessoa de amostra para um perfil de executivo.
