@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 12ebb45fdeb145f72e2fe4e501cc144216c155e1
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 0652428cf33db0af1043fc672f1962dca1c4f9c6
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783282"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848629"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 Chamadas para outro Skype para usuários corporativos são livres, mas se quiser que os usuários possam chamar telefones fora da sua empresa, fazer um planejamento chamar domésticas ou internacional chamar planejar no Office 365. É fácil configurar isso-se no seu negócio. 
@@ -120,14 +120,14 @@ No **Microsoft Teams**, os usuários podem ver o número de telefone clicando em
 
 Se você conhece o Windows PowerShell, é possível usar os cmdlets a seguir para automatizar a atribuição de números de telefone aos seus usuários. 
   
-- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/en-us/library/mt243818.aspx): Recupera os números de telefone do Diretório Empresarial de Voz.
+- [Get-CsOnlineTelephoneNumber](https://technet.microsoft.com/library/mt243818.aspx): Recupera os números de telefone do Diretório Empresarial de Voz.
     
-- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/en-us/library/mt243817.aspx): Define os números de telefone.
+- [Set-CsOnlineVoiceUser](https://technet.microsoft.com/library/mt243817.aspx): Define os números de telefone.
     
-Para saber mais, veja [Referência rápida: Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362776%28v=ocs.15%29.aspx).
+Para saber mais, veja [Referência rápida: Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx).
   
    > [!NOTE]
-   > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para Administradores](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+   > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

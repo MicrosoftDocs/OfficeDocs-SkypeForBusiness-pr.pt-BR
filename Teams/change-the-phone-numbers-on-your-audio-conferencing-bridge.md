@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: 178bafb7327fa4734a5f743c4a2eebdab07fc0d9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 69783cdfeaa1787a2da432491ff15f2a3a147d68
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783210"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848589"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone de sua ponte de audioconferência
 
@@ -153,7 +153,7 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype para Business Online que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype para negócios Online. Este módulo só tem suporte em computadores de 64 bits e pode ser baixado do Microsoft Download Center em um [Módulo do Windows PowerShell para Skype para negócios Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 Se for solicitado, reinicie o seu computador.
 
-Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
 ### <a name="to-start-windows-powershell"></a>Para iniciar o Windows PowerShell
 
@@ -174,7 +174,7 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
     Import-PSSession $session
   ```
 
-Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx).
 
 ### <a name="save-time-and-automate"></a>Poupe tempo e automatizar
 

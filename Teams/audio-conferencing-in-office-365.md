@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 7e76f6de9ca0f3d49e3a6dc7984a3a26804131c6
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 2979977c06e34314f90e28723a9d688053761c93
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784026"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848605"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 Serviços de audioconferência no Office 365 permite que os usuários liga para reuniões de seus telefones. Serviços de audioconferência permite que até 250 participantes de telefone.
@@ -37,12 +37,12 @@ Chamadas em (discam) para reuniões é muito útil para usuários que estão em 
 - As pessoas podem ingressar em uma reunião com as "mãos livres" por meio de dispositivos Bluetooth.
 - As pessoas encontram é mais fácil e conveniente para sua situação.
 
-Você precisa configurar a conferência de áudio para as pessoas que pretende agendar ou liderança de reuniões. Os participantes da reunião que discam não precisam quaisquer licenças atribuídas a eles ou outro programa de instalação.
+Você precisa configurar a conferência de áudio para as pessoas que pretende agendar ou liderança de reuniões. Os participantes da reunião não precisam de nenhuma licença atribuída ou configuração adicional.
 
 Depois que os participantes tiverem ingressado reunião, eles também podem discar e convidar outros chamadores em um Skype para reunião de negócios ou Teams da Microsoft. Consulte [discando check-out de uma reunião de equipes para que outras pessoas poderá ingressar nela](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) ou [discando check-out de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>Quanto custa?
-Para informações de preços, consulte [precificação para audioconferências](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="where-is-it-available"></a>Onde está disponível?
 Com a conferência de áudio, os usuários podem utilizar Chamada Tarifada e números de telefone gratuitos para discar para reuniões. Números tarifados (serviço) recebem automaticamente como números de serviços de audioconferência compartilhada para organizações quando elas são habilitadas para conferência de áudio. Os números de chamada gratuita e tarifados dedicados podem ser atribuídos à sua organização a partir de cidades adicionais.
@@ -76,16 +76,16 @@ Compartilhadas números são automaticamente atribuídos a organizações quando
 > [!CAUTION]
 > Devido à disponibilidade limitada dos números de telefone de Chamada Tarifada em Venezuela, Indonésia e Emirados Árabes Unidos (Emirados Árabes Unidos), as organizações a partir desses países/regiões não terão um número de Chamada Tarifada audioconferências automaticamente atribuído a eles. Os números de chamada gratuita destes locais são disponibilizados conforme o estoque disponível. 
   
-Para ver uma lista desses países/regiões que possuem números de telefone automaticamente atribuídos às organizações, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Para ver uma lista dos países/regiões que têm números de telefone automaticamente atribuídos às organizações, consulte [Disponibilidade de Audioconferência e Planos de Chamada por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>Como você obter números de telefone dedicado?
 Números de telefone de conferência de áudio dedicado são números de serviço que você pode obter e, em seguida, atribuir a sua organização. Você pode obter tarifas dedicada e números de telefone gratuitos para seus pontes de conferência em uma destas três formas:
 
 - **Use o Skype para centro de administração de negócios.** Para alguns países/regiões, você pode obter números para seus pontes de conferência usando o Skype para o Centro de administração de negócios. Consulte [Getting números de telefone de serviço](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
     
-- **Porta de seus números de existentes.** Você pode porta ou transferir números existentes do seu provedor de serviço atual ou a operadora de telefone para o Office 365. Consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo a fazer isso.  
+- **Fazer a portabilidade de seus números existentes.** Você pode fazer a portabilidade/transferência de números existentes do seu provedor de serviços ou operadora de telefonia atual para o Office 365. Consulte [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações que ajudem você a fazer isso.  
   
-- **Use um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) não será possível obter seus números de telefone novo usando o Skype para o Centro de administração de negócios ou, você precisará de números de telefone específico ou códigos de área. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte o [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
+- **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) não será possível obter seus números de telefone novo usando o Skype para o Centro de administração de negócios ou, você precisará de números de telefone específico ou códigos de área. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="how-do-you-set-it-up"></a>Como você configura-lo?
 Depois que você tiver decidido configurar a conferência de áudio para seus usuários, consulte [Configurar conferências de áudio para Skype para equipes da Microsoft e de negócios](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) para as etapas que podem ser seguidas para fazê-lo.
@@ -96,4 +96,4 @@ Depois que você tiver decidido configurar a conferência de áudio para seus us
   
 [Números de telefone de audioconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Números de telefone de audioconferência no Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Números de telefone para Audioconferência no Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: aa816f0e7da1745e3c8ced9f174b2f60eb2e38ce
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835003"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23848613"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -37,9 +37,9 @@ A Microsoft também oferece soluções de voz all nuvem, como planejar a chamada
 - Sua organização exige conexão para dispositivos analógicos de terceiros, centros de chamada e assim por diante. 
 - Sua organização tem um contrato existente com uma operadora de telefonia PSTN.
 
-Roteamento direto também oferece suporte a usuários que têm a licença adicional para o Microsoft chamar plano. Para obter mais informações, consulte [Chamando planos no Office 365](https://docs.microsoft.com/en-us/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) e o [licenciamento e outros requisitos](#licensing-and-other-requirements). 
+Roteamento direto também oferece suporte a usuários que têm a licença adicional para o Microsoft chamar plano. Para obter mais informações, consulte [Chamando planos no Office 365](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) e o [licenciamento e outros requisitos](#licensing-and-other-requirements). 
 
-Com o roteamento direto, quando os usuários participem de uma conferência agendada, o número de discagem é fornecido pelo serviço de conferência de áudio da Microsoft, que requer o licenciamento correto.  Ao fazer chamadas, o serviço de conferência de áudio Microsoft coloca a chamada usando os recursos de chamada online, que requer o licenciamento correto. (Observe que a discagem externa não é roteado por meio de roteamento direto). Para obter mais informações, consulte [Reuniões Online com equipes](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions). 
+Com o roteamento direto, quando os usuários participem de uma conferência agendada, o número de discagem é fornecido pelo serviço de conferência de áudio da Microsoft, que requer o licenciamento correto.  Ao fazer chamadas, o serviço de conferência de áudio Microsoft coloca a chamada usando os recursos de chamada online, que requer o licenciamento correto. (Observe que a discagem externa não é roteado por meio de roteamento direto). Para obter mais informações, consulte [Reuniões Online com equipes](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planejamento da implantação do roteamento direto é fundamental para uma implementação bem-sucedida. Este artigo descreve os requisitos de licenciamento e de infraestrutura e fornece informações sobre conectividade SBC: 
 
@@ -62,15 +62,15 @@ Os requisitos de infraestrutura para os SBCs com suporte, domínios e outros req
 |Troncos de telefonia conectados ao SBC|Um ou mais troncos de telefonia conectados ao SBC. Em uma extremidade, o SBC conecta-se ao sistema telefônico Microsoft via roteamento direto. O SBC também pode se conectar ao entidades de telefonia de terceiros, como PBXs, adaptadores de telefonia analógico e assim por diante. Qualquer opção de conectividade PSTN conectada ao SBC funcionará. (Observação: configuração de troncos PSTN para SBC, consulte os fornecedores SBC ou provedores de tronco.)|
 |Locatário do Office 365|Um locatário do Office 365 que você pode usar para hospedar os usuários Teams da Microsoft e a configuração e a conexão para o SBC.|
 |Registrador do usuário|Usuário deve ser hospedado no Office 365.<br/>Se sua empresa tiver Skype um local para o ambiente de negócios ou no Lync com conectividade híbrida para o Office 365, não será possível habilitar voz em equipes para um usuário hospedado no local.<br/><br/>Para verificar o registrador de um usuário, use a seguinte Skype para o cmdlet do PowerShell Online de negócios:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>A saída do cmdlet deve mostrar:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domínios|Um ou mais domínios adicionados ao seus locatários do Office 365.<br/><br/>**Observação:** Não é possível utilizar o domínio padrão, *. onmicrosoft.com, que é criado automaticamente para o seu locatário.<br/><br/>Para exibir os domínios, você pode usar o Skype o seguinte cmdlet do PowerShell Online de negócios:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obter mais informações sobre os domínios e locatários do Office 365, consulte [FAQ de domínios](https://support.office.com/en-us/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domínios|Um ou mais domínios adicionados ao seus locatários do Office 365.<br/><br/>**Observação:** Não é possível utilizar o domínio padrão, *. onmicrosoft.com, que é criado automaticamente para o seu locatário.<br/><br/>Para exibir os domínios, você pode usar o Skype o seguinte cmdlet do PowerShell Online de negócios:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Para obter mais informações sobre os domínios e locatários do Office 365, consulte [FAQ de domínios](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Endereço IP público para o SBC|Um endereço IP público que pode ser usado para conexão com o SBC. Com base no tipo de SBC, o SBC pode usar NAT.|
 |Nome de domínio totalmente qualificado (FQDN) para o SBC|Um FQDN para o SBC, onde a parte de domínio do FQDN é um dos domínios registrados no seu locatário do Office 365. Para obter mais informações, consulte [nomes de domínio SBC](#sbc-domain-names).|
 |Entrada DNS pública para o SBC |Uma entrada de DNS pública mapear o FQDN SBC para o endereço IP público. |
 |Certificado confiável público para o SBC |Um certificado para o SBC a ser usado para toda a comunicação com o roteamento direto. Para obter mais informações, consulte o [certificado público de confiável para o SBC](#public-trusted-certificate-for-the-sbc).|
 |Pontos de Conexão para roteamento direto |Os pontos de conexão para roteamento direto são os FQDNs de três seguintes:<br/><br/>`sip.pstnhub.microsoft.com`– FQDN global, deve ser tentado primeiro.<br/>`sip2.pstnhub.microsoft.com`– FQDN secundário, geograficamente mapeia à segunda região prioridade.<br/>`sip3.pstnhub.microsoft.com`– FQDN terciária, geograficamente mapeia para a região de prioridade de terceiro.<br/><br/>Para obter informações sobre os requisitos de configuração, consulte [a sinalização SIP: FQDNs e portas do firewall](#sip-signaling-fqdns-and-firewall-ports).|
-|Endereços IP do firewall e portas de mídia de roteamento direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy, que trata a sinalização SIP<br/>Processador de mídia, que trata a mídia-, exceto quando o desvio de mídia está ligado<br/><br/>Esses dois serviços tem endereços IP separados no Microsoft Cloud, descrito mais adiante neste documento.<br/><br/>Para obter mais informações, consulte a [seção de equipes da Microsoft](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) em [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Endereços IP do firewall e portas de mídia de roteamento direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy, que trata a sinalização SIP<br/>Processador de mídia, que trata a mídia-, exceto quando o desvio de mídia está ligado<br/><br/>Esses dois serviços tem endereços IP separados no Microsoft Cloud, descrito mais adiante neste documento.<br/><br/>Para obter mais informações, consulte a [seção de equipes da Microsoft](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) em [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
 |Perfil de transporte de mídia|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
-Endereços IP do firewall e portas de mídia Teams da Microsoft |Para obter mais informações, consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Endereços IP do firewall e portas de mídia Teams da Microsoft |Para obter mais informações, consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licenciamento e outros requisitos 
@@ -95,9 +95,9 @@ Roteamento direto também oferece suporte a usuários que são licenciados para 
 
 Combinação de conectividade de chamada planejar e roteamento direto para o mesmo usuário é opcional, mas pode ser útil, por exemplo, quando o usuário é atribuído a um Microsoft chamar planejar mas deseja rotear algumas chamadas via SBC. Um dos cenários mais comuns são chamadas para PBXs de terceiros.  Com terceiros PBXs, todas as chamadas, exceto as chamadas para os telefones conectados a esse PBXs, são roteadas via chamar plano Microsoft; mas chamadas para os telefones conectados a terceiros PBXs ir para o SBC, portanto ficar dentro da rede corporativa e não à PSTN. 
 
-Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [obter o máximo do Office com o Office 365](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=2) e [Opções de planejamento do Office 365](https://technet.microsoft.com/en-us/library/office-365-plan-options.aspx). 
+Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [obter o máximo do Office com o Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) e [Opções de planejamento do Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
 
 ## <a name="sbc-domain-names"></a>Nomes de domínio SBC
 
