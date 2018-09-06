@@ -1,5 +1,5 @@
 ---
-title: "Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams"
+title: Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,14 +7,15 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: "Saiba o que fazer quando precisar executar uma Descoberta Eletrônica, como quando precisar enviar todas as informações armazenadas eletronicamente para procedimentos judiciais."
+description: Saiba o que fazer quando precisar executar uma Descoberta Eletrônica, como quando precisar enviar todas as informações armazenadas eletronicamente para procedimentos judiciais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d42879d9d1a65fd6ac206fb5f0c115a02fed2a4
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 02efc096362c194d580edc259f9afa5c65fd1cda
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843705"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 ============================
@@ -23,7 +24,7 @@ As grandes empresas são muitas vezes expostas a processos judiciais com penalid
 
 Todos os bate-papos em grupo ou Teams 1:1 são rastreados para as caixas de correio dos respectivos usuários e todas as mensagens do canal são rastreadas para a caixa de correio do grupo que representa a equipe. Os arquivos carregados são cobertos pela funcionalidade de Descoberta Eletrônica para SharePoint Online e OneDrive for Business.
 
-1.  Para conduzir uma investigação de Descoberta Eletrônica com conteúdo no Microsoft Teams consulte [este link:](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&rs=en-US&ad=US#step1).
+1.  Para conduzir uma investigação de descoberta eletrônica com conteúdo Teams da Microsoft, revise a etapa 1 [neste](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da) link.
 
 2.  Os dados do Microsoft Teams serão exibidos como **IM ou Conversas** na saída em Excel output, ou você pode montar o **.PST** no Outlook.
 

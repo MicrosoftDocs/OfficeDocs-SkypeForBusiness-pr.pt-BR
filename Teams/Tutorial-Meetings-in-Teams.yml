@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: f6c5be006d2e76efcd58cc4e6a63b6a0bf357570
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: a2ebb3628c2557fc41f44b12764e78c75698ed15
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253529"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23843881"
 items:
 - durationInMinutes: 1
   content: >
@@ -66,7 +66,7 @@ items:
     Para fazer comentários sobre o produto Teams, como ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Reuniões no Teams
   durationInMinutes: 16
-  content: "\nPara entender as reuniões no Teams, consulte o seguinte:\n-   “Tenha reuniões” no [Reuniões e chamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (tempo de leitura estimado de seis minutos)\n\n-   [Reunir Agora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf?ui=en-US&rs=en-US&ad=US) vídeo (1:45 minuto)\n\n-   [Reuniões agendadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137?ui=en-US&rs=en-US&ad=US) vídeo (1:45 minuto)\n\n-   [Nove dicas para fazer reuniões com o Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para aprender sobre o lobby de reunião, entrando em reuniões anonimamente e mais (tempo de leitura estimado de seis minutos)\n"
+  content: "\nPara entender as reuniões no Teams, consulte o seguinte:\n-   “Tenha reuniões” no [Reuniões e chamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (tempo de leitura estimado de seis minutos)\n\n-   [Reunir Agora](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) vídeo (1:45 minuto)\n\n-   [Reuniões agendadas](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) vídeo (1:45 minuto)\n\n-   [Nove dicas para fazer reuniões com o Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) para aprender sobre o lobby de reunião, entrando em reuniões anonimamente e mais (tempo de leitura estimado de seis minutos)\n"
 - title: Cenário - Tipos de Reunião
   durationInMinutes: 1
   content: "\nGarth trabalha para a Contoso, uma empresa que tem vários escritórios. Garth precisa se conectar com pessoas de escritórios que estão em locais diferentes, regularmente:\n\n-  A sua equipe de projeto se reúne todas as segundas-feiras por uma hora. Por eles já terem um canal dedicado para o seu projeto no Microsoft Teams, Garth agenda uma “Reunião de Canal” para esta sincronização regular. Isso traz diversos benefícios para Garth e sua equipe:\n   -   Todos os membros da equipe são automaticamente convidados.\n   -   Quaisquer discussões relacionadas com a reunião, antes, durante ou depois da reunião fazem parte da discussão no canal.\n   -   A reunião e a discussão são visíveis para todos que são membros da equipe.\n-   Garth também precisa se sincronizar com as pessoas individualmente, mas não quer que essas reuniões fiquem visíveis para os demais membros da equipe. Para essa finalidade, Garth agenda uma “Reunião privada”\n    As reuniões privadas permitem que Garth inicie um chat antes de a reunião começar. Essa experiência pré-reunião ajuda a fazer com que a reunião seja mais eficaz, porque Garth pode compartilhar materiais com antecedência ou discutir a pauta com os principais membros da equipe. Esse chat fica disponível durante a reunião para registrar anotações e pode ser usado posteriormente para acompanhamentos.\n-   De vez em quando a equipe tem discussões acaloradas no canal e Garth precisa que eles cheguem a uma decisão rapidamente. Ele decide que ao invés de todo mundo ficar digitando, uma chamada de vídeo pode ser a maneira mais eficaz de comunicação. Neste caso, Garth agenda uma reunião ad-hoc selecionando **Reunir Agora** na conversa atual.\n"

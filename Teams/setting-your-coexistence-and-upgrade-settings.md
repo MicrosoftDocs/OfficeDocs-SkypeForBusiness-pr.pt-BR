@@ -11,12 +11,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2f5b518beceb00909e7b6b97f7bfd6eb513edd8
-ms.sourcegitcommit: b45077dd1b5d366fa9a30698aa66ed4b13264eee
+ms.openlocfilehash: 16cbe6c20661da3c4e6dd18255055b2c661a4758
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2018
-ms.locfileid: "21148421"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845577"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Definindo as configurações de atualização e coexistência
 
@@ -68,4 +68,4 @@ Configurações atribuídas em um nível de usuário têm precedência sobre as 
 
 [Entender a coexistência e atualizar jornada Skype for Business e equipes](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](https://docs.microsoft.com/en-us/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)

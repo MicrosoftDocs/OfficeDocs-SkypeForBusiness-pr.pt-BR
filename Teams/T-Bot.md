@@ -1,24 +1,25 @@
 ---
-title: "Usar o T-Bot para ajudar os usuários com o Microsoft Teams"
+title: Usar o T-Bot para ajudar os usuários com o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-description: "O T-Bot é um bot com o qual os usuários podem interagir para fazer perguntas sobre como usar o Microsoft Teams e obter respostas a uma ampla variedade de perguntas."
+description: O T-Bot é um bot com o qual os usuários podem interagir para fazer perguntas sobre como usar o Microsoft Teams e obter respostas a uma ampla variedade de perguntas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a274f9ee44536129bb8bf97629351e011b2fe9
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
-ms.translationtype: HT
+ms.openlocfilehash: 1cdbe4366b84ac93236c8e9f3ca6f1eb8e3f6ba7
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23843769"
 ---
 <a name="use-t-bot-to-help-users-with-microsoft-teams"></a>Usar o T-Bot para ajudar os usuários com o Microsoft Teams
 ============================================
 
-Para obter ajuda ao usar o Microsoft Teams, garanta que seus usuários e defensores se familiarizem com o [T-Bot](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#bkmk_bots). O T-Bot é um bot com o qual os usuários podem interagir para fazer perguntas sobre como usar o Microsoft Teams e obter respostas a uma ampla variedade de perguntas.
+Para obter ajuda ao usar o Microsoft Teams, garanta que seus usuários e defensores se familiarizem com o [T-Bot](https://support.office.com/article/Apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b). O T-Bot é um bot com o qual os usuários podem interagir para fazer perguntas sobre como usar o Microsoft Teams e obter respostas a uma ampla variedade de perguntas.
 
 ![Captura de tela da página do T-Bot do Microsoft Teams.](media/Use_T-Bot_to_help_users_with_Microsoft_Teams_image1.png)
 

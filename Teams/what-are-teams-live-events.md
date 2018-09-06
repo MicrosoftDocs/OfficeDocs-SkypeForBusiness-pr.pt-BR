@@ -9,12 +9,12 @@ ms.reviwer: tonysmit
 description: Saiba como Live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad798ae4b0fa1fc5d2430f418c43c716a1f2ed74
-ms.sourcegitcommit: bc125c655e76129b086f821011f63a983fb23e7b
+ms.openlocfilehash: 21f524d6156e13f5c27fe12da97dd287c9f2f3bc
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554065"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846617"
 ---
 # <a name="what-are-teams-live-events"></a>Quais são as equipes live eventos?
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
@@ -47,8 +47,8 @@ Os eventos ao vivo no Microsoft 365 oferecem suporte a uma variedade de cenário
 ### <a name="streaming-platform"></a>Plataforma de fluxo contínuo
 A plataforma de fluxo contínuo de evento ao vivo é composta das seguintes quatro partes:
 
-- **Azure Media Services** [Azure Media Services](https://docs.microsoft.com/en-us/azure/media-services/previous/) oferece qualidade de transmissão serviços de fluxo de vídeos para alcançar maiores audiências em dispositivos móveis mais populares de hoje.   Media Services aprimora a acessibilidade, distribuição e escalabilidade e torna fácil e econômico para transmitir conteúdo aos públicos-locais ou em todo o mundo — tudo isso enquanto protegendo seu conteúdo.
-- **Rede de fornecimento de conteúdo Azure (CDN)**  Depois que o seu fluxo fica ativo, que é entregue via a [Rede de entrega conteúdo do Windows Azure (CDN)](https://docs.microsoft.com/en-us/azure/cdn/). Azure Media Services fornece CDN integrado para streaming de pontos de extremidade. Isso permite que os fluxos sejam exibidas em todo o mundo com nenhum armazenamento em buffer.
+- **Azure Media Services** [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) oferece qualidade de transmissão serviços de fluxo de vídeos para alcançar maiores audiências em dispositivos móveis mais populares de hoje.   Media Services aprimora a acessibilidade, distribuição e escalabilidade e torna fácil e econômico para transmitir conteúdo aos públicos-locais ou em todo o mundo — tudo isso enquanto protegendo seu conteúdo.
+- **Rede de fornecimento de conteúdo Azure (CDN)**  Depois que o seu fluxo fica ativo, que é entregue via a [Rede de entrega conteúdo do Windows Azure (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services fornece CDN integrado para streaming de pontos de extremidade. Isso permite que os fluxos sejam exibidas em todo o mundo com nenhum armazenamento em buffer.
 - **Rede de entrega de conteúdo corporativo (eCDN)**  O objetivo do eCDN é obter o conteúdo de vídeo da internet e distribuir o conteúdo em toda a empresa sem afetar o desempenho da rede. Você pode usar um dos seguintes eCDN parceiros certificados para otimizar sua rede para eventos ao vivo mantidos dentro da sua organização:
     - Hive
     - Kollective
@@ -140,9 +140,9 @@ Você pode usar eventos ao vivo de equipes em vários regiões no mundo inteiro.
 Quando você estiver configurando para eventos ao vivo, há diversas etapas que devem ser executadas:
 
 ### <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>Etapa 1: Configurar sua rede para live eventos no Microsoft Teams
-Os eventos de início rápido ao vivo exigem que você preparar [a rede da sua organização para equipes da Microsoft](https://docs.microsoft.com/en-us/microsoftteams/prepare-network).  
+Os eventos de início rápido ao vivo exigem que você preparar [a rede da sua organização para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
-### <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Obter e atribuir licenças
+### <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
 Verifique se você tem as atribuições de licença correta para [quem pode criar e agendar eventos ao vivo?](#who-can-create-and-schedule-live-events) e [quem pode assistir eventos ao vivo?](#who-can-watch-live-events).
 
 ### <a name="step-3-enable-live-event-scheduling-for-users"></a>Etapa 3: Habilitar o agendamento de evento ao vivo para usuários

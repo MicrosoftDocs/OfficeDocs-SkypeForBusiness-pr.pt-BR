@@ -16,12 +16,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de bate-papo collaboratif d'Office 365 intègre toutes les personnes, contenus et outils não votre équipe um besoin sólido être plus impliquée et efficace. "
-ms.openlocfilehash: 380b233b5246be518214d72771a7113ba733e54f
-ms.sourcegitcommit: 1d3b18265488fa14175f72d80fb8a2aa25a3ae62
+ms.openlocfilehash: 148071fdea294893b4107cc31347d4e4b1dc8e2c
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "20518699"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846913"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
@@ -37,11 +37,11 @@ Versão du produit: 1.1.84.22103
 
 Web site: [Equipes da Microsoft](https://teams.microsoft.com/)
 
-Entre em contato com sólido plus d'informations: [Equipes de suporte da Microsoft](https://support.office.com/en-us/teams)
+Entre em contato com sólido plus d'informations: [Equipes de suporte da Microsoft](https://support.office.com/teams)
 
 Sites da web en matière d'accessibilité: [Acessibilidade da Microsoft](https://www.microsoft.com/accessibility/)
 
-Serviço de réponse auxiliares perguntas d'utilisateurs en situação de deficiente: [eDAD](https://support.microsoft.com/en-us/answerdesk/accessibility)
+Serviço de réponse auxiliares perguntas d'utilisateurs en situação de deficiente: [eDAD](https://support.microsoft.com/answerdesk/accessibility)
 
 Colocar obtenir de l'aide sur ce interesse mútuo, veuillez [email de un envoyer bom senso](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
@@ -204,4 +204,4 @@ Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Soluções de acessibilidade do Skype for Business Online na França](https://docs.microsoft.com/en-us/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)
+[Soluções de acessibilidade do Skype for Business Online na França](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france)

@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft coleta dados censo, erro e uso para entender como Skype para negócios está sendo usada e onde os usuários encontrarem problemas. Os dados são usados para planejar os aperfeiçoamentos do produto.
-ms.openlocfilehash: e4270a56e24d621511c94c9dc925fb1d1ca120ba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: d33f4037517936b39bd81ccb6ec5b7df3ef5a3b8
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783066"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846433"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para práticas de conjunto de dados corporativos e Teams da Microsoft
 
@@ -52,7 +52,7 @@ Dados Census são adquiridos exclusivamente para fornecer, suporte e aprimorar S
 |UserID  <br/> |E296D735-4F36-4E18-7C3B-52E1A02A0164  <br/> |A ID é misturada duas vezes: uma vez no cliente e, novamente, o serviço de telemetria. O hash garante que a ID não pode ser vinculada a um usuário específico.  <br/> |
 |DeviceID  <br/> |5E872200-F546-4CCD-8F23-AF5F507AA2DD  <br/> |ID do dispositivo é um GUID gerado uma vez no dispositivo e enviadas para o serviço de telemetria aleatoriamente.  <br/> |
 
-Dados do Census não for contêm alguma informação que identifica a sua organização ou usuários. Consulte o [Skype para a declaração de privacidade de negócios](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) para obter mais informações.
+Dados do Census não for contêm alguma informação que identifica a sua organização ou usuários. Consulte o [Skype para a declaração de privacidade de negócios](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) para obter mais informações.
 
 Dados de censo está habilitado por padrão e não podem ser desativados por administradores ou usuários finais.
 
@@ -73,7 +73,7 @@ Dados de uso deve conter informações que identifica a sua organização, por e
 
 Dados de uso não for contêm alguma informação que identifica os usuários.
 
-Coleta de dados de uso está habilitado por padrão, mas admins pode desativá-la usando a configuração de diretiva de grupo DisableAutomaticSendTracing em Skype para Business Server 2015 no local. Desativar essa configuração afeta todos os usuários na organização. Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) para obter mais informações.
+Coleta de dados de uso está habilitado por padrão, mas admins pode desativá-la usando a configuração de diretiva de grupo DisableAutomaticSendTracing em Skype para Business Server 2015 no local. Desativar essa configuração afeta todos os usuários na organização. Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) para obter mais informações.
 
 Os usuários finais não podem ativar a coleta de dados de uso ou desativar.
 
@@ -94,11 +94,11 @@ Dados de relatório de erros podem incluir informações sobre desempenho e conf
 |ID do thread de conversação  <br/> |AdDO8hsJqilU93hQHC3OZaPR2saEA = =  <br/> ||
 |UserID  <br/> |amosmarble <br/> |A ID é enviada em texto não criptografado, o serviço de telemetria hashes antes de armazená-lo  <br/> |
 
-Dados de relatórios de erro também podem conter informações de identificação pessoal, como o endereço IP e a sessão Initiation Protocol Uniform Resource Identifier (URI do SIP) do usuário. Consulte o [Skype para a declaração de privacidade de negócios](https://www.microsoft.com/privacystatement/en-us/SkypeforBusiness/Default.aspx) para uma explicação detalhada sobre o que é coletado.
+Dados de relatórios de erro também podem conter informações de identificação pessoal, como o endereço IP e a sessão Initiation Protocol Uniform Resource Identifier (URI do SIP) do usuário. Consulte o [Skype para a declaração de privacidade de negócios](https://www.microsoft.com/privacystatement/SkypeforBusiness/Default.aspx) para uma explicação detalhada sobre o que é coletado.
 
 Relatório de erros exige duas coisas:
 
-- A configuração de diretiva de grupo DisableAutomaticSendTracing ser definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão). Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/EN-US/library/gg425941.aspx) para obter mais informações.
+- A configuração de diretiva de grupo DisableAutomaticSendTracing ser definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão). Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) para obter mais informações.
     
 - Os usuários finais individualmente aceitar a partir da guia Geral (clique no ícone de engrenagem ![ícone de engrenagem](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) e abre a caixa de diálogo **Opções** com a guia **Geral** exibida) no Skype para o cliente de negócios.
     
@@ -114,6 +114,6 @@ Você pode ver a [configurar sua rede para Skype para negócios on-line](https:/
 Se você estiver usando o Office 365 operado pela 21Vianet na China, consulte [configurar sua rede para Skype para Business Online operado pela 21Vianet](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Tópicos relacionados
-[Programa de Aperfeiçoamento da experiência do usuário](https://www.microsoft.com/products/ceip/en-US/default.mspx)
+[Programa de Aperfeiçoamento da experiência do usuário](https://www.microsoft.com/products/ceip/default.mspx)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve como monitorar e solucionar problemas de configuração de roteamento direto.
-ms.openlocfilehash: 850fa11a6ebbd5e193c4fd7258d65714f1bc9499
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 1a29ec3f58666752cb22bc4a8b3adbe24a0399bf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20314965"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844769"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas de roteamento direto
 
@@ -72,7 +72,7 @@ Você pode usar as seguintes ferramentas para monitorar sua configuração:
 
 O serviço de roteamento direto tem os códigos de erro de muito descritivo reportados para análise de chamada ou os logs SBC. 
 
-O painel de controle de qualidade de chamada fornece informações sobre a qualidade da chamada e a confiabilidade. Para saber mais sobre como solucionar problemas usando a análise de chamada, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para Business Online](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) e [Análise de uso chamada solucionar problemas de qualidade de chamadas ruins](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+O painel de controle de qualidade de chamada fornece informações sobre a qualidade da chamada e a confiabilidade. Para saber mais sobre como solucionar problemas usando a análise de chamada, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para Business Online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) e [Análise de uso chamada solucionar problemas de qualidade de chamadas ruins](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
 
 No caso de falhas de chamada, chamada Analytics fornece códigos SIP padrão para ajudar a solucionar problemas. 
 

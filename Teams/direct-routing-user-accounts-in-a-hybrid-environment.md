@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
-ms.openlocfilehash: 03fd0f57d4c9f504c2f40d6675e44c8ba96adb13
-ms.sourcegitcommit: 2f3d105203edbc21bbbb9c17390b1d3011ef4546
+ms.openlocfilehash: 04f0237dd7df6c856b6fef117f435ea2db052c82
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "20084397"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23846257"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
@@ -66,4 +66,4 @@ Um Skype para ambiente híbrido de negócios com conectividade PSTN fornece flex
 Para todos os usuários, o usuário objeto **deve** ser criado no local AD e sincronizadas com o Azure AD usando a ferramenta de conectar do Azure AD. Habilitando usuários para equipes/Skype para o Business **não é suportado** se o objeto de usuário é criado diretamente no Azure AD em uma configuração híbrida. Para novos usuários, como uma nova contratação, que será habilitado diretamente para equipes, o usuário deve ser hospedado no Skype for Business no local inicialmente e movido para o registrador online. Criando usuários no Skype online para equipes ou comercial sem primeiro ativá-las em pool de local com o Enterprise Voice **não é suportada**.
   
 
-O usuário deve ser habilitado para Skype para negócios e usando o Enterprise Voice no local Skype para ferramentas de gerenciamento de usuário de negócios. Habilitando usuários para o Skype para negócios online única **não é suportada**. Consulte [Este artigo](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) para obter mais detalhes sobre como habilitar usuários para Skype para negócios na configuração híbrida.
+O usuário deve ser habilitado para Skype para negócios e usando o Enterprise Voice no local Skype para ferramentas de gerenciamento de usuário de negócios. Habilitando usuários para o Skype para negócios online única **não é suportada**. Consulte [Este artigo](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) para obter mais detalhes sobre como habilitar usuários para Skype para negócios na configuração híbrida.

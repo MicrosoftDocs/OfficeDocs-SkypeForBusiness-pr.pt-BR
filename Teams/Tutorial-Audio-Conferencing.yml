@@ -16,12 +16,12 @@ metadata:
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 698bb6a90d3ba6b64b3288b60d55eec2dac17453
-  ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+  ms.openlocfilehash: aedc8c450c7d3aebfb4c73378e53859dae8d08f2
+  ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/28/2018
-  ms.locfileid: "23253434"
+  ms.lasthandoff: 09/06/2018
+  ms.locfileid: "23845657"
 items:
 - durationInMinutes: 1
   content: >
@@ -64,7 +64,7 @@ items:
     Para fazer comentários sobre o produto Teams, como ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
 - title: Serviços de audioconferência em equipes
   durationInMinutes: 12
-  content: "\nCom a conferência de áudio, os participantes usar um telefone comum para participar de reuniões de equipes — ligando para a reunião de seu telefone ou usando a funcionalidade de discagem de dentro da reunião. Revise os seguintes recursos para saber mais sobre a conferência de áudio:\n-   [Recursos de conferência de áudio](https://products.office.com/skype-for-business/audio-conferencing#Features) (tempo estimado de leitura de 1 minuto)\n-   [9 dicas para reunião com equipes da Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (estimado lendo o tempo para \"\\#1 - ingressar em uma reunião por meio de conferência de áudio\" é 1 minuto; mais se você leu o artigo inteiro)\n-   [Perguntas comuns de conferência de áudio](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (7 minutos do tempo de leitura de estimado)\n-   [Discagem externa de uma reunião para que outras pessoas poderá ingressar nela](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tempo de leituras estimada 2 minutos)\n"
+  content: "\nCom a conferência de áudio, os participantes usar um telefone comum para participar de reuniões de equipes — ligando para a reunião de seu telefone ou usando a funcionalidade de discagem de dentro da reunião. Revise os seguintes recursos para saber mais sobre a conferência de áudio:\n-   [Recursos de conferência de áudio](https://products.office.com/skype-for-business/audio-conferencing#Features) (tempo estimado de leitura de 1 minuto)\n-   [9 dicas para reunião com equipes da Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (estimado lendo o tempo para \"\\#1 - ingressar em uma reunião por meio de conferência de áudio\" é 1 minuto; mais se você leu o artigo inteiro)\n-   [Perguntas comuns de conferência de áudio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) (7 minutos do tempo de leitura de estimado)\n-   [Discagem externa de uma reunião para que outras pessoas poderá ingressar nela](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) (tempo de leituras estimada 2 minutos)\n"
 - title: Cenário – serviços de audioconferência
   durationInMinutes: 1
   content: "\nGarth funciona na Contoso, uma empresa que tem vários escritórios. Garth frequentemente precisa conectar-se com pessoas em outros locais do office e porque ele geralmente funciona em casa ou sai na estrada, ele é um enorme ventilador de reuniões de equipes. Quando o Garth envia um convite da reunião, ele adiciona automaticamente informações de conferência de áudio. Isso possibilita os seguintes cenários:\n-   Alice deseja participar de reunião do Garth, mas ela estiver viajando e não tem acesso a uma rede confiável. Portanto, ela participa da reunião usando as coordenadas de discagem do convite da reunião. Durante o processo de discagem, ela usa o seu PIN para autenticar, portanto, ela é reconhecida pelo sistema como \"Alice.\"\n-   Bob, que está atualmente em um hotel, participa da reunião usando o cliente de equipes em seu PC. Infelizmente, a qualidade de áudio sobre a conexão de internet no hotel não é ótima, portanto Bob discar para seu próprio número de telefone da reunião para ingressar através da rede telefônica pública comutada (PSTN).\n-   Se os participantes da reunião decidir durante a chamada que deseja adicionar usuários em um número de telefone diferente, eles apenas podem discar para o telefone de número e traga outras pessoas para a reunião.\n-   Outros usuários também podem ingressar no cliente equipes em seu PC, Mac ou dispositivo móvel.\n"

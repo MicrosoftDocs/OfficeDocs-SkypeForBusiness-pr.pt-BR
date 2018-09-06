@@ -9,18 +9,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 455ae4bd419dd4e92152615adc42f879168e4f15
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 23be9bae259767ffd4eb26d03a22f5449b4b9222
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835027"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23845937"
 ---
 # <a name="configure-direct-routing"></a>Configurar o roteamento direto
 
 Se você não tiver feito isso, leia [Planejar roteamento direto](direct-routing-plan.md) para os pré-requisitos e para examinar outras etapas você precisará executar antes de configurar sua rede Microsoft Phone System. 
 
-Este artigo descreve como configurar o roteamento direto do Microsoft Phone System. Ele detalha como emparelhar um suportados borda controlador sessão (SBC) roteamento direto e como configurar usuários Teams da Microsoft para usar o roteamento diretas para conectar-se para a comutação telefônica PSTN (rede pública). Para concluir as etapas explicadas neste artigo, os administradores precisam de familiaridade com os cmdlets do PowerShell. Para obter mais informações sobre como usar o PowerShell, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+Este artigo descreve como configurar o roteamento direto do Microsoft Phone System. Ele detalha como emparelhar um suportados borda controlador sessão (SBC) roteamento direto e como configurar usuários Teams da Microsoft para usar o roteamento diretas para conectar-se para a comutação telefônica PSTN (rede pública). Para concluir as etapas explicadas neste artigo, os administradores precisam de familiaridade com os cmdlets do PowerShell. Para obter mais informações sobre como usar o PowerShell, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
 
 Recomendamos que você confirme que seu SBC já foi configurado conforme recomendado pelo seu fornecedor SBC: 
 
@@ -43,7 +43,7 @@ Estes são os três passos de alto nível para permitem que você conecte ou emp
 
 ### <a name="connect-to--skype-for-business-online-by-using-powershell"></a>Se conectam ao Skype para Business Online usando o PowerShell 
 
-Você pode usar uma sessão do PowerShell conectada ao inquilino emparelhar o SBC à interface de roteamento direto. Para abrir uma sessão do PowerShell, execute as etapas descritas em [configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
+Você pode usar uma sessão do PowerShell conectada ao inquilino emparelhar o SBC à interface de roteamento direto. Para abrir uma sessão do PowerShell, execute as etapas descritas em [configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell). 
  
 Depois de estabelecer uma sessão PowerShell remota, valide que você pode ver os comandos para gerenciar o SBC. Para validar os comandos, digite ou copiar/colar nas seguintes na sessão PowerShell e pressione Enter: 
 
@@ -97,7 +97,7 @@ A tabela a seguir lista os parâmetros adicionais que você pode usar a configur
 
 |Necessário?|Nome|Descrição|Padrão|Valores possíveis|Tipo e restrições|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Sim|FQDN|O nome do FQDN do SBC |Nenhum|Nome de NoneFQDN, limitar 63 caracteres|Cadeia de caracteres, lista de caracteres permitidos e não permitidos nas [convenções de nomenclatura no Active Directory para computadores, domínios, sites e OUs](https://support.microsoft.com/en-us/help/909264)|
+|Sim|FQDN|O nome do FQDN do SBC |Nenhum|Nome de NoneFQDN, limitar 63 caracteres|Cadeia de caracteres, lista de caracteres permitidos e não permitidos nas [convenções de nomenclatura no Active Directory para computadores, domínios, sites e OUs](https://support.microsoft.com/help/909264)|
 |Não|MediaBypass |O parâmetro reservado para uso futuro. Parâmetro indicado do SBC suporta Bypass de mídia e o administrador deseja usá-lo.|Nenhum|Verdadeiro<br/>Falso|Booliano|
 |Sim|SipSignallingPort |Porta de escuta usada para comunicação com os serviços de roteamento direta usando o protocolo de segurança de camada de transporte (TLS).|Nenhum|Qualquer porta|0 a 65.535 |
 |Não|FailoverTimeSeconds |Quando definido como 10 (valor padrão), chamadas de saída que não for atendidas pelo gateway dentro de 10 segundos são roteadas para o próximo tronco disponível; Se não houver nenhuma troncos adicionais, a chamada será interrompida automaticamente. Em uma organização com respostas de redes e gateway lentas, isso pode resultar em chamadas sendo derrubadas desnecessariamente. O valor padrão é 10.|10|Número|Int|
@@ -158,8 +158,8 @@ Quando você estiver pronto para habilitar usuários para o serviço de roteamen
 
 Há duas opções para criar um novo usuário no Office 365. No entanto, recomendamos que sua organização selecione e usar uma opção para evitar problemas de roteamento: 
 
-- Crie o usuário no Active Directory de no local e sincronizar o usuário para a nuvem. Consulte [os diretórios de seu local integra-se com o Windows Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect).  
-- Crie o usuário diretamente no Portal do administrador do Office 365. Consulte [Adicionar usuários individualmente ou em massa para o Office 365 - ajuda de Admin](https://support.office.com/en-us/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Crie o usuário no Active Directory de no local e sincronizar o usuário para a nuvem. Consulte [os diretórios de seu local integra-se com o Windows Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).  
+- Crie o usuário diretamente no Portal do administrador do Office 365. Consulte [Adicionar usuários individualmente ou em massa para o Office 365 - ajuda de Admin](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
   Se você construir o sistema que coexiste com Skype para negócios 2015 ou o Lync 2010/2013 local, a única opção com suporte é criar o usuário no Active Directory no local e sincronizar o usuário para a nuvem (opção 1). 
 
@@ -520,7 +520,7 @@ O resultado é que a política de voz aplicada às chamadas de John Woods são u
 
 ## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Configurar o Microsoft Teams como o cliente de chamada preferencial para usuários
 
-Roteamento direto somente roteia as chamadas de e para os usuários se eles usarem o cliente de equipes. Se sua organização usa somente equipes, definindo "Equipes apenas" na política de atualização é recomendado. Se sua organização usa Skype para Business Server ou Skype para Business Online, consulte o seguinte artigo para obter mais informações e selecione a opção apropriada: [entender a coexistência e atualizar jornada para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+Roteamento direto somente roteia as chamadas de e para os usuários se eles usarem o cliente de equipes. Se sua organização usa somente equipes, definindo "Equipes apenas" na política de atualização é recomendado. Se sua organização usa Skype para Business Server ou Skype para Business Online, consulte o seguinte artigo para obter mais informações e selecione a opção apropriada: [entender a coexistência e atualizar jornada para Skype para equipes e de negócios](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Consulte também

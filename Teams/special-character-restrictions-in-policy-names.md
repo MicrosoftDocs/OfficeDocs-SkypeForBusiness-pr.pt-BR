@@ -17,12 +17,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Consulte quais problemas que existem com caracteres especiais nos nomes de políticas e o que você pode fazer para corrigi-lo.
-ms.openlocfilehash: 6aabd3c1d7e373c048ea1d1f723f83ad1108dbe0
-ms.sourcegitcommit: e5a54e2ead0edd9e450bbed4b6e50b3cfd2e91c0
+ms.openlocfilehash: b0ae1458e81bdb6ee527c954ab0f2faf3461e3cf
+ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "21645384"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "23844809"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caractere especial nas políticas de equipes?
 
@@ -39,7 +39,7 @@ Se você tiver uma diretiva com caracteres especiais, você precisará editar a 
 
 
 **Etapa 1 - fazer uma conexão remota com o PowerShell.** 
- [Configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/en-us/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , se ainda não o fez.
+ [Configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , se ainda não o fez.
 ```
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
@@ -71,7 +71,7 @@ Executando isso criará uma nova política para você, mas você precisará adic
  ```
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-Consulte, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
+Consulte, [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
 
 **Etapa 5 - excluir a diretiva old.**
 
@@ -79,7 +79,7 @@ Isso excluirá a diretiva old com os caracteres especiais.
   ```
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-Consulte, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
+Consulte, [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) para obter mais informações sobre esse cmdlet.
 
 Se este comando for bem-sucedido, terminar. Se o comando acima retornará um erro, é porque a diretiva old é atribuída a usuários e, portanto, você precisará executar para remover todos os usuários atribuídos da diretiva:
 
