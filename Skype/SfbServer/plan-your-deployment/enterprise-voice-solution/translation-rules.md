@@ -13,33 +13,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Saiba mais sobre as regras de conversão e discar normalization de cadeia de caracteres no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 4ef5f92b8c5ef91abeb5ce2b6ea1e4c0eebe7580
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9372ed2f0ab5f9ba2dcd4a37d54c3ef19300eb45
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973183"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256892"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Regras de conversão no Skype para Business Server
- 
+
 Saiba mais sobre as regras de conversão e discar normalization de cadeia de caracteres no Skype para Business Server Enterprise Voice.
-  
+
  O Enterprise Voice requer que todas as cadeias de caracteres de discagem ser normalizado no formato e. 164 para fins de executar a pesquisa inversa (RNL). Regras de conversão são suportadas para os números de chamada e chamada. Thetrunk ponto (ou seja, o gateway associado, privada de comutação de PBX ou tronco SIP) pode exigir que os números estar em um formato de discagem local. Para traduzir números de formato e. 164 em um formato de discagem local, é possível definir uma ou mais regras de conversão para manipular o URI de solicitação antes de roteá-la para o ponto do tronco. Por exemplo, é possível elaborar uma regra de conversão para remover o +44 do início de uma cadeia de caracteres de discagem e substituí-lo por 0144.
-  
+
 Executando a conversão da rota de saída no servidor, você pode reduzir os requisitos de configuração em cada par de tronco individual para converter os números de telefone em um formato de discagem. Quando você planejar quais gateways e quantos gateways, para associar um cluster de servidor de mediação específico, pode ser útil para pares de tronco de grupo com local semelhante requisitos de discagem. Isso pode reduzir o número de regras de conversão necessárias e o tempo necessário para gravá-las.
-  
+
 > [!IMPORTANT]
-> Associar um ou mais regras de conversão de uma configuração de tronco do Enterprise Voice deverão ser usada como uma alternativa para configurar as regras de conversão no ponto do tronco. Não associe regras de conversão com uma configuração de tronco do Enterprise Voice se você tiver configurado as regras de conversão no ponto do tronco, pois as duas regras podem entrar em conflito. 
-  
+> Associar um ou mais regras de conversão de uma configuração de tronco do Enterprise Voice deverão ser usada como uma alternativa para configurar as regras de conversão no ponto do tronco. Não associe regras de conversão com uma configuração de tronco do Enterprise Voice se você tiver configurado as regras de conversão no ponto do tronco, pois as duas regras podem entrar em conflito.
+
 ## <a name="example-translation-rules"></a>Exemplo de regras de conversão
 
 Os exemplos a seguir de regras de conversão mostram como você pode desenvolver as regras no servidor para converter números do formato E.164 para um formato local para o par de tronco.
-  
-Para obter detalhes sobre como implementar as regras de conversão, consulte [Defining Translation Rules](http://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) na documentação de implantação.
-  
+
+Para obter detalhes sobre como implementar as regras de conversão, consulte [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) na documentação de implantação.
+
 |**Descrição**|**Dígitos iniciais**|**Tamanho**|**Dígitos a serem removidos**|**Dígitos a serem adicionados**|**Padrão de correspondência**|**Conversão**|**Exemplo**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Discagem convencional de longa distância nos EUA  <br/> (retirar o '+')  <br/> |+ 1  <br/> |Exatamente 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10}) $  <br/> |$1  <br/> |+14255551010 se torna 14255551010  <br/> |
 |Discagem de longa distância internacional dos EUA  <br/> (retirar '+' e adicionar 011)  <br/> |+  <br/> |Pelo menos 11  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 se torna 011441235551010  <br/> |
-   
+
 

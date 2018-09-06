@@ -12,12 +12,12 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12a58e28fce68960fab2e2a91cdc4f2c3d6524ca
-ms.sourcegitcommit: 1530670628e8645b9f8e2fc2786dddd989a9e908
+ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "20246502"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23780907"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -55,7 +55,7 @@ Cada tipo de chamada plano aloca um determinado número de minutos de chamada po
 
 ## <a name="availability-of-calling-plans"></a>Disponibilidade de Planos de Chamadas
 
-Antes de planejar a implementação de chamar planos em equipes, verificar se o serviço de planos de chamada está disponível na sua área examinando a [disponibilidade do país e região para conferência de áudio e planos de chamada](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Antes de planejar a implementação de chamar planos em equipes, verificar se o serviço de planos de chamada está disponível na sua área examinando a [disponibilidade do país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Devido a restrições legais, para chamar planos esteja disponível para organizações multinacionais, o contrato para assinaturas do Office 365 deve ser baseado em um país ou região onde o serviço de planos de chamada está disponível ou onde o serviço de planos de chamada pode ser adquirida.
@@ -98,7 +98,7 @@ Para saber mais sobre os locais de emergência em relação à chamada planos, r
 
 -   [O que são locais e endereços de emergência e encaminhamento de chamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
--   [Termos e condições para chamadas de emergência](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Termos e condições das Chamadas de Emergência](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
 |         |         |         |

@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0050834f55568a6a747d84e8efdffb3e898d226
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20398025"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779944"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -148,7 +148,7 @@ As diretrizes fornecidas no guia de revisão de experiência de qualidade enfoca
 
 É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no guia de revisão de experiência de qualidade.
 
-O guia de revisão de experiência de qualidade podem ser encontrado [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+O guia de revisão de experiência de qualidade podem ser encontrado [aqui](https://aka.ms/qerguide).
 
 ## <a name="plan-for-network-quality"></a>Planejar a qualidade da rede 
 
@@ -341,8 +341,8 @@ Esta tabela inclui um resumo das atividades de planejamento com links para conte
 | Área | Detalhes | Referências |
 |-----------------------------|----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Planejar o gerenciamento de serviço | Conduzir um exercício de mapeamento de função operacionais <br/> Aprovação de equipes responsáveis <br/> Preparação de função | [Guia de operações](1-drive-value-operate-my-service.md) |
-| | Designar Champion(s) de qualidade <br/> Preparação de campeões de qualidade| [Saiba CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Revise o guia experiência de qualidade](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) |
-| | Instalar modelos de revisão de experiência de qualidade <br/> Carregar um arquivo de construção | [Modelos de QERLite](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/> [Informações de construção de carregamento](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)|
+| | Designar Champion(s) de qualidade <br/> Preparação de campeões de qualidade| [Saiba CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Revise o guia experiência de qualidade](https://aka.ms/qerguide) |
+| | Instalar modelos de revisão de experiência de qualidade <br/> Carregar um arquivo de construção | [Modelos de QERLite](https://aka.ms/qertemplates) <br/> [Informações de construção de carregamento](turning-on-and-using-call-quality-dashboard.md)|
 | Planejar a qualidade da rede | Execute Planejador de rede | [Planejador de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementar o QoS | [Qualidade de serviço em equipes da Microsoft](qos-in-teams.md) |
 | | Ignorar servidores proxy | [Orientação de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |

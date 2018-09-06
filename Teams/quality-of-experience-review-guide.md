@@ -3,7 +3,7 @@ title: Qualidade da experiência Revise o guia para equipes da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 08/24/2018
+ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -12,16 +12,16 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9f50cd0751a64fb0e76793dfc45c1c2278a143b
-ms.sourcegitcommit: 77ac57c5dc3f5836915d02e3e61305f1d3ea1600
+ms.openlocfilehash: 1d3de3f704fc8c89325f671258a1005e850c2784
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "23042579"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835043"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
-<!-- Note that the link to the Word doc is intentionally NOT the aka.ms/qerquide link -->Este guia é sobre a fase de unidade de valor para o Microsoft Teams e Skype para negócios Online. Você pode [baixar uma versão do Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) deste guia.
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->Este guia é sobre a fase de unidade de valor para o Microsoft Teams e Skype para negócios Online. Você pode [baixar uma versão do Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) deste guia.
 
 ## <a name="introduction"></a>Introdução
 
@@ -88,7 +88,7 @@ Métricas do serviço consistem em métricas específicas baseados no cliente. D
 
 A taxa de fluxo ruim (PSR) representa a porcentagem geral da organização dos fluxos com baixa qualidade. Essa métrica destina-se para realçar áreas onde sua organização pode se concentrar esforço para ter um impacto mais forte em direção a redução desse valor e aprimorando a experiência do usuário, razão pela qual [redes gerenciadas](#managed-vs-unmanaged-networks) são o foco principal ao olhar PSR. Os usuários externos são muito importantes, mas difere de investigação em uma base organizacional. Considerar o fornecimento de práticas recomendadas para usuários externos e investigar efetuar chamadas externas independentemente do geral da empresa.
 
-A medida real em CQD varia por carga de trabalho, mas para os fins da qualidade da experiência revisão podemos enfocam principalmente a medida _Percentual de áudio ruim_ . PSR é composto de cinco médias de métricas de rede descritas na tabela a seguir. Para um fluxo ser classificadas como insatisfatória, apenas uma métrica deve exceder o limite definido. Para obter mais informações sobre o processo de classificação do fluxo, consulte [Este artigo](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard).
+A medida real em CQD varia por carga de trabalho, mas para os fins da qualidade da experiência revisão podemos enfocam principalmente a medida _Percentual de áudio ruim_ . PSR é composto de cinco médias de métricas de rede descritas na tabela a seguir. Para um fluxo ser classificadas como insatisfatória, apenas uma métrica deve exceder o limite definido. Para obter mais informações sobre o processo de classificação do fluxo, consulte [Este artigo](stream-classification-in-call-quality-dashboard.md).
 
 > [!Note]
 > CQD fornece o "ruim devidos à..." medidas para melhor compreendam qual condição causada stream a serem classificadas como inválida.
@@ -269,6 +269,33 @@ CQD, embora útil para analisar tendências e sub-redes, nem sempre fornece uma 
 -   CQD chamará áreas para uma investigação detalhada com base nos tendências.
 -   CQD não contém qualquer PII.
 
+### <a name="report-editions"></a>Edições de relatório
+
+Há duas edições do relatório no CQD Online: Resumo e detalhado. Use o menu suspenso localizado na barra de ferramentas azul na parte superior da tela para abrir uma edição de relatório. O nome da edição relatório selecionado é exibido na parte superior da tela.
+
+-   Relatórios de resumo são estáticos e não podem ser editados, exportado ou baixado. 
+-   Relatórios detalhados são totalmente personalizáveis e podem ser baixados para um arquivo CSV, exportado ou clonada.
+
+Para obter uma descrição completa da diferença entre as duas edições, consulte [Este artigo](turning-on-and-using-call-quality-dashboard.md).
+
+![Menu suspenso com relatórios de resumo selecionadas](media/qerguide-image-reportcategories.png)
+
+_Figura 4 - categorias de relatório CQD_
+
+Os relatórios de resumo são divididos em quatro categorias:
+
+-   **Relatórios de resumo do** foco na análise de tendências de qualidade com diariamente, mensalmente e os relatórios de tabela para ajudá-lo a identificar sub-redes com baixa qualidade. Esta é a página de aterrissagem padrão quando você entra pela primeira vez CQD online.
+-   **Relatórios de Location-Enhanced** foco na análise de tendências de qualidade com base nas informações de local. Para usar esses relatórios, você deve ter carregado um arquivo de construção.
+-   **Relatórios de confiabilidade** foco na análise de tendências de confiabilidade para (VBSS) de compartilhamento de tela de áudio, vídeo, com base em vídeo e compartilhamento de aplicativo.
+-   **Relatórios de qualidade de experiência** são uma versão "reduzida" dos modelos de QER detalhadas, concentrando-se nas áreas principais para analisar a confiabilidade e a qualidade do áudio.
+
+### <a name="report-types"></a>Tipos de relatório
+
+Você pode escolher entre dois tipos de relatórios no CQD, dependendo de como você deseja exibir os dados. Embora este guia não aborda as especificações de criação de um tipo de relatório sobre a outra, os modelos de QER CQD fornecem uma mistura de relatórios de gráfico e tabela personalizáveis para uso:
+
+-   Relatórios de gráfico criar gráficos de barras gráficos para representar os dados em um formato visual. Relatórios de gráfico melhor são usados para visualizar os dados em um período de tempo determinado.
+-   Relatórios de tabela são úteis para olhando dimensões e medidas individuais ao exportar os relatórios para arquivos CSV para manipulação no Microsoft Excel.
+
 ### <a name="tenant-id"></a>ID do inquilino
 
 Alguns relatórios CQD exigem a inclusão de um filtro para sua ID de Inquilino. Devido a maneira como CQD agrega os dados de telemetria participantes federada é incluída. Embora isso sejam valioso ao analisar tendências, relatórios de clientes e dispositivos exigem que você filtrar dados para um locatário específico a serem excluídas telemetria participantes federada. Se você não souber seu ID do inquilino, você pode usar um dos métodos a seguir para localizá-lo.
@@ -328,7 +355,7 @@ Para modificar a página relatórios de resumo a ser analisado apenas equipes ou
 
 ![Menu suspenso mostrando a opção de filtragem de relatórios CQD por carga de trabalho](media/qerguide-image-productfilter.png)
 
-_Figura 4 - Selecione um filtro de produto_
+_Figura 5 - Selecione um filtro de produto_
 
 #### <a name="detailed-reports"></a>Relatórios detalhados
 
@@ -348,7 +375,7 @@ Para filtrar um relatório detalhado individual, adicione o filtro ``Is Teams`` 
 
 ![Adicione um filtro a um relatório detalhado.](media/qerguide-image-addteamsfilter.png)
 
-_Figura 5 - adicionando um filtro de Teams da Microsoft a um relatório_
+_Figura 6 - adicionando um filtro de Teams da Microsoft a um relatório_
 
 
 ### <a name="managed-vs-unmanaged-networks"></a>Recursos gerenciados versus redes não gerenciados
@@ -368,7 +395,7 @@ Uma consulta CQD bem formada contém todas as três dos parâmetros a seguir:
 
 -   **Filtro:** Como eu desejo reduzir o conjunto de dados a consulta retorna.
 
-Outra maneira de analisar isso é: uma _dimensão_ é a função de agrupamento, uma _medida_ é os dados que estou interessado em e um _filtro_ é como eu quiser restringir os resultados para aqueles que são relevantes à minha consulta.
+Outra maneira de analisar isso é que uma _dimensão_ é a função de agrupamento, uma _medida_ é os dados que estou interessado em e um _filtro_ é como eu quiser restringir os resultados para aqueles que são relevantes à minha consulta.
 
 Um exemplo de uma consulta bem formado é **ruim fluxos de Mostrar-me [medem] pela sub-rede [Dimension] para construção 6 [filtro]**. Para obter mais informações, consulte [dimensões e medidas disponíveis no CQD](https://aka.ms/cqd-dm).
 
@@ -402,7 +429,7 @@ Uma chamada é categorizada por como BOM, baixa ou não classificados. Vamos fal
 
 -   **Não classificados:** Um fluxo não classificado não contém um conjunto completo de métricas de serviço. Eles podem ser chamadas curtas — geralmente menor que 60 segundos — onde não puderam ser computadas médias e um relatório de QoE não foi gerado. O motivo mais comum de chamadas a ser não classificados é que houve pouco ou nenhum utilização de pacotes. Um exemplo disso seria um participante que ingressa em uma reunião em mudo e nunca fala. O participante está recebendo, mas não transmitir mídia. Sem mídia sendo transmitida, não haver qualquer métricas disponíveis para CQD usar para classificar o fluxo de mídia de saída do ponto de extremidade.
 
-Para obter mais informações sobre o processo de classificação do fluxo, consulte [Este artigo](/skypeforbusiness/using-call-quality-in-your-organization/stream-classification-in-call-quality-dashboard).
+Para obter mais informações sobre o processo de classificação do fluxo, consulte [Este artigo](stream-classification-in-call-quality-dashboard.md).
 
 ### <a name="common-subnets"></a>Sub-redes comuns
 
@@ -439,13 +466,13 @@ Você pode acessar CQD uma destas três formas:
 
 ![No painel de navegação esquerdo, o link para o painel de controle de qualidade de chamada está selecionado.] (media/qerguide-image-mopo.png "No painel de navegação esquerdo, o link para o painel de controle de qualidade de chamada está selecionado.")
 
-_Figura 6 – acessando CQD através do Skype para Business Admin Center & equipes da Microsoft_
+_Figura 7 – acessando CQD através do Skype para Business Admin Center & equipes da Microsoft_
 
 -   Vá até o herdado **Skype para centro de administração de negócios** > **Ferramentas**e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
 ![Ferramentas está selecionado no painel de navegação esquerdo e o link para CQD está selecionado no painel principal.] (media/qerguide-image-legacyui.png "Ferramentas está selecionado no painel de navegação esquerdo e o link para CQD está selecionado no painel principal.")
 
-_Figura 7 - acessando CQD através do Skype para centro de administração de negócios_
+_Figura 8 - acessando CQD através do Skype para centro de administração de negócios_
 
 
 ### <a name="getting-started"></a>Introdução
@@ -454,7 +481,7 @@ Quando você procurar primeiro CQD, você verá a página relatórios de resumo.
 
 ![Diferentes tipos de relatórios que estão disponíveis no CQD](media/qerguide-image-choosereports.png)
 
-_Figura 8 - navegando para relatórios detalhados_
+_Figura 9 - navegando para relatórios detalhados_
 
 A página de relatórios detalhados no CQD se parece com a ilustração a seguir.
 
@@ -467,7 +494,7 @@ A página de relatórios detalhados no CQD se parece com a ilustração a seguir
 | ![três] (media/qerguide-image-callout3.png "três") | Navegação estrutural ajuda os usuários a identificar sua localização atual na hierarquia do conjunto de relatório. |
 | ![quatro] (media/qerguide-image-callout4.png "quatro") | Relatórios que têm filhos relatórios são mostrados com um link azul. Selecionando o link, você pode analisar os relatórios de filho. |
 
-_Figura 9 - página de relatórios detalhados_
+_Figura 10 - página de relatórios detalhados_
 
 Aponte para gráficos de barras e linhas de tendência no relatório para exibir valores detalhados. O relatório que tem o foco mostrará no menu Ação: **Editar**, **Clone**, **Excluir**, **Baixar**e **Exportar árvore de relatório**.
 
@@ -484,7 +511,7 @@ Quando você seleciona **Editar** no menu Ação, de um relatório, você vai ab
 | ![três] (media/qerguide-image-callout3.png "três") | O Editor de consulta mostra uma visualização do relatório. |
 | ![quatro] (media/qerguide-image-callout4.png "quatro") | Use a caixa **Editar** na parte inferior da tela para criar ou editar uma descrição detalhada do relatório. |
 
-_Figura 10 - Editor de consulta_
+_Figura 11 - Editor de consulta_
 
 ### <a name="filtering-reports"></a>Filtragem de relatórios
 
@@ -653,13 +680,13 @@ A qualidade dos dados de experiência (QoE) que os clientes enviam para Office 3
 
   ![Relatório CQD que define como criar uma sub-rede VPN](media/qerguide-image-vpnnetworkname.png)
 
-  _Figura 11 - VPN usando o nome de rede_
+  _Figura 12 - VPN usando o nome de rede_
 
 -   Defina um **Nome de construção** usando-se o texto "VPN" neste campo para sub-redes da VPN.
 
   ![Relatório CQD que define como criar uma definição de construção que consiste em uma sub-rede VPN.](media/qerguide-image-vpnbuildingname.png)
 
-  _Figura 12 - VPN usando o nome do edifício_
+  _Figura 13 - VPN usando o nome do edifício_
 
 > [!IMPORTANT]
 > Determinadas implementações de VPN com precisão não relatam informações de sub-rede. Se isso ocorrer em seu relatório, que é recomendável que, quando você adiciona uma sub-rede VPN para o arquivo de construção, em vez de uma entrada para a sub-rede, adicione entradas separadas para cada endereço na sub-rede VPN como uma rede separada de 32 bits. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você tem 253 linhas, com uma linha para cada endereço de 172.16.18.1/32 por meio de 172.16.18.254/32, inclusive.
@@ -678,13 +705,13 @@ O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de
 
   ![Caixa de diálogo é exibida enquanto está sendo carregados dados](media/qerguide-image-tenantdataupload.png)
 
-  _Figura 13 - menu de carregamento de dados de Inquilino_
+  _Figura 14 - menu de carregamento de dados de Inquilino_
 
 3.  Como alternativa, se essa for a primeira vez em que visitando CQD, você será solicitado para carregar dados de construção. Você pode selecionar **Carregar Agora** para navegar rapidamente para a página de **Carregamento de dados de Inquilino** .
 
   ![Banner que notifica o usuário para carregar dados de construção](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Figura 14: Construindo banner de carregamento de dados_
+  _Figura 15 - criando banner de carregamento de dados_
 
 4.  Na página de **Carregamento de dados de Inquilino** , selecione **Procurar** para escolher um arquivo de dados.
 
@@ -694,7 +721,7 @@ O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de
 
   ![Exemplo de uma caixa de diálogo que exibe uma mensagem de erro ao importar dados de construção](media/qerguide-image-buildingdatauploaderror.png)
  
-  _Figura 15: Criando o erro de carregamento de dados_
+  _Figura 16 - criando o erro de carregamento de dados_
 
 7.  Se nenhum erro ocorrer durante a validação, o carregamento de arquivo terá êxito. Em seguida, você pode ver o arquivo de dados carregados na **Minhas carregamentos de** tabela, que mostra a lista completa de todos os arquivos carregados para o locatário atual na parte inferior da página.
 
@@ -741,7 +768,7 @@ Navegue até a página de **Relatórios detalhados** no CQD Online e navegue at�
 
 ![Relatório mostrando as sub-redes não são incluídos no arquivo de dados de construção CQD que mostram o uso.](media/qerguide-image-missingbuildingreport.png)
 
-_Figura 16 - ausente relatório de construção_
+_Figura 17 - ausente relatório de construção_
 
 ### <a name="building-mapping-tools"></a>Ferramentas de mapeamento de construção
 
@@ -766,6 +793,36 @@ Embora Planejador de rede não automatizar o processo de mapeamento de construç
 
 É altamente recomendável que você aproveitar Planejador de rede ao implantar cargas de trabalho de mídia em sua rede para avaliar o impacto geral. Para obter mais informações sobre o Planejador de rede, visite [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
+
+## <a name="diagnostic-alerts"></a>Alertas de diagnósticos
+
+Microsoft monitora proativamente telemetria CQD para criar alertas de diagnósticos para os problemas conhecidos que afetam negativamente a experiência do usuário. Esses alertas serão entregues automaticamente ao administrador do serviço por meio do Centro de mensagens. A tabela a seguir descreve os alertas de diagnósticos que são mostrados no Centro de mensagens, juntamente com links para mais informações.
+
+_Tabela 6 - alertas de diagnósticos_
+
+| Alerta                                                                | Mais informações             |
+|----------------------------------------------------------------------|------------------------------|
+| Conhecidos mal executando versões do cliente estão em uso                   | [Versões do cliente](#client-versions)              |
+| Drivers de áudio estão causando quedas de chamada                                 | [Dispositivos](#devices)                      |
+| Restrições no firewall estão causando falhas de instalação chamada         | [Investigações de falha de instalação](#setup-failure-investigations) |
+| Profunda inspeção de pacotes está causando falhas de instalação chamada                | [Investigações de falha de instalação](#setup-failure-investigations) |
+| Dispositivos de sala de reunião em redes Wi-Fi estão causando uma qualidade de chamadas ruins | [Investigações de qualidade](#quality-investigations)       |
+| Tráfego UDP está sendo limitado, que faz com que a chamada de baixa qualidade         | [TCP](#tcp)                          |
+| Uso VPN está afetando a qualidade da chamada                                  | [Investigações de qualidade](#quality-investigations)       |
+
+
+### <a name="message-center"></a>Centro de mensagens
+
+O Centro de mensagens envia alertas sobre problemas, recursos ou novas atualizações. O Centro de mensagens está disponível no Centro de administração do Office 365 para administradores de serviço. Cada post fornece uma visão geral de como a atualização, o recurso ou o problema afeta os usuários e oferece links para informações mais detalhadas.
+
+Para abrir o Centro de mensagens, no Centro de administração do Office 365, vá para **integridade** > **Centro de mensagens**ou selecione o cartão de centro de mensagem no painel de **casa** . O painel exibe as três últimas mensagens que foram lançadas e links para a página do Centro de mensagem completa.
+ 
+
+![O cartão de centro de mensagem exibe as três últimas mensagens que foram postadas](media/qerguide-image-messagecentercard.png)
+
+_Figura 18 - cartão do Centro de mensagem_
+
+Você também pode usar o [aplicativo de administração do Office 365](https://go.microsoft.com/fwlink/p/?linkid=627216) no seu dispositivo móvel para exibir o Centro de mensagens, que é uma ótima maneira de permanecer atualizado com as notificações por push. Para obter mais informações, consulte [Este artigo](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
 
 ## <a name="reliability-investigations"></a>Investigações de confiabilidade
 
@@ -793,7 +850,7 @@ Este relatório exibe a quantidade total de fluxos de falhas de instalação do 
 
 ![Gráfico que mostra o percentual do fluxo de falhas de instalação](media/qerguide-image-streamsetupfailures.png)
 
-_Figura 16 - confiabilidade de áudio - falhas de instalação de fluxo_
+_Figura 19 - confiabilidade de áudio - falhas de instalação de fluxo_
 
 ##### <a name="analysis"></a>Análise
 
@@ -819,13 +876,17 @@ Este relatório de resumo é usado para descobrir e isolar qualquer prédios ou 
 
 ![Uma lista das razões para falhas de instalação chamada, organizadas por construir, rede e sub-rede por mês](media/qerguide-image-setupfailuresbysubnet.png)
 
-_Figura 18 - falhas de configuração de áudio pela sub-rede_
+_Figura 20 - falhas de configuração de áudio pela sub-rede_
+
+##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
+
+Se você tiver recebido um alerta de diagnóstico "Restrições no firewall estão causando falhas de instalação chamada" ou "profunda inspeção de pacotes está causando falhas de instalação chamada," concentrar os esforços de remediação naqueles identificado pela primeira vez sub-redes. O alerta identificou sub-redes que estão afetando negativamente o confiabilidade de chamada. Você pode usar os relatórios de falhas de instalação encontrados na seção de confiabilidade para ajudar na correção.
 
 ##### <a name="remediation"></a>Remediação 
 
 Concentre-se os esforços de remediação primeiro em prédios ou sub-redes que tenham o maior volume de falhas. Isso irá maximizar o impacto sobre a experiência do usuário e ajudam a reduzir rapidamente a taxa de falhas de instalação chamada organizacionais. A tabela a seguir lista as duas razões para falhas de instalação, conforme relatado pelo CQD.
 
-_Tabela 6 – razões para falhas de instalação chamada_
+_A tabela 7 – razões para falhas de instalação chamada_
 
 | Chamar o motivo de falhas de instalação       | Causa comum                    |
 |----------------------------------|----------------------------------|
@@ -834,7 +895,7 @@ _Tabela 6 – razões para falhas de instalação chamada_
 
 Agora como começar sua remediação, é possível focar seus esforços em um edifício ou sub-rede. Conforme mostra a tabela anterior, esses problemas são devido às configurações de firewall ou proxy. Examine as opções na tabela a seguir para ações de remediação.
 
-_Tabela 7 - próximas etapas para a chamada de correção de falha de instalação_
+_A tabela 8 - próximas etapas para a chamada de correção de falha de instalação_
 
 | Remediação           | Orientação     |
 |-----------------------|--------------|
@@ -852,7 +913,7 @@ Este relatório exibe a quantidade total de fluxos de áudio, drop total falhas 
 
 ![Gráfico mostrando a porcentagem de fluxos que foram cancelados](media/qerguide-image-droppedstreamrate.png)
 
-_Figura 19 - taxa de fluxo capitular_
+_Figura 21 - taxa de fluxo capitular_
 
 ##### <a name="analysis"></a>Análise
 
@@ -875,7 +936,7 @@ Falhas informadas aqui indicam que a chamada foi interrompida inesperadamente e 
 
 ![Relatar que o número de listas e a porcentagem de falhas de recebimento, organizados construindo, a rede e a sub-rede por mês](media/qerguide-image-dropfailuresbysubnet.png)
 
-_Figura 20 – falhas de recebimento na sub-rede_
+_Figura 22 – falhas de recebimento na sub-rede_
 
 ##### <a name="remediation"></a>Remediação
 
@@ -894,7 +955,7 @@ Independentemente da sua próxima etapa, é uma boa prática para notificar a he
 
 A tabela a seguir lista alguns métodos comuns para gerenciar e corrigir falhas de recebimento.
 
-_A tabela 8 - próximas etapas para chamada drop remediação_
+_A tabela 9 - próximas etapas para chamada drop remediação_
 
 | Remediação                              | Orientação                      |
 |------------------------------------------|-------------------------------|
@@ -924,11 +985,11 @@ Relatórios de tendências exibem informações de qualidade ao longo do tempo e
 > Investigando duas partes, chamada de PSTN e salas de reunião são semelhantes às investigando conferência. O foco é isloate prédios ou sub-redes que têm a qualidade pior e identificam o motivo de baixa qualidade.
 
 > [!Important]
-> Relatórios baseados em VPN são filtrados por meio da dimensão segundo VPN. Essa dimensão requer que o adaptador de rede VPN adequadamente ser registrada como um adaptador de acesso remoto.  VPN fornecedores don'tt confiável use esse sinalizador e sua mileage irá variar dependendo do fornecedor VPN implantado em sua organização. Siga as orientações relata contorno [anteriores neste guia](NEED LINK) para modificar a VPN, se necessário, usando o nome de rede ou de construção.
+> Relatórios baseados em VPN são filtrados por meio da dimensão segundo VPN. Essa dimensão requer que o adaptador de rede VPN adequadamente ser registrada como um adaptador de acesso remoto. Fornecedores de VPN confiável não usam esse sinalizador e sua mileage irá variar dependendo do fornecedor VPN implantado em sua organização. Siga as orientações relata contorno [anteriores neste guia](#vpn) para modificar a VPN, se necessário, usando o nome de rede ou de construção.
 
 ![Gráfico mostrando a porcentagem de fluxos de baixa qualidade](media/qerguide-image-audioqualityconferencing.png)
 
-_Figura 21 – qualidade de áudio - conferência_
+_Figura 23 – qualidade de áudio - conferência_
 
 ##### <a name="investigation"></a>Investigação
 
@@ -945,7 +1006,7 @@ Independentemente das respostas para as perguntas acima, levar o tempo de invest
 
 A qualidade de relatórios de resumo oferecem mais aprofundada percepção que contribuíram dos fluxos sendo classificada como pobre e ajuda a isolar áreas de problemas na rede gerenciada.
 
-Embora as dimensões usadas poderá diferir ligeiramente entre o relatório, cada relatório incluirá as medidas fluxos total, total de fluxos de baixa, PSR e baixa qualidade devido a. Relatórios de tabela terem sido criados para cada área de interesse: conferência, duas partes, salas de PSTN chamar, VPN e a reunião. O modelo de rede gerenciados inclui relatórios adicionais para aproveitar as informações de localização carregadas por meio do arquivo construção.
+Embora as dimensões usadas poderá diferir ligeiramente entre o relatório, cada relatório incluirá as medidas fluxos total, total de fluxos de baixa, PSR e baixa qualidade devido a. Relatórios que tiverem sido criados para cada área de interesse: conferência, duas partes, salas de PSTN chamar, VPN e a reunião. O modelo de rede gerenciados inclui relatórios adicionais para aproveitar as informações de localização carregadas por meio do arquivo construção.
 
 > [!NOTE]
 > Certifique-se de ajuste o filtro de mês ano ao mês atual. Selecione **Editar**e ajustar o **Mês ano** para salvar o novo mês padrão.
@@ -956,7 +1017,13 @@ Embora as dimensões usadas poderá diferir ligeiramente entre o relatório, cad
 
 ![Fluxo de áudio ruim resumo](media/qerguide-image-poorqualitysummary.png)
 
-_Figura 22 – resumo de fluxo de áudio ruim, criando - e sub-rede conferência_
+_Figura 24 – resumo de fluxo de áudio ruim, criando - e sub-rede conferência_
+
+##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
+
+Se você tiver recebido um diagnóstico "dispositivos de sala de reunião em redes Wi-Fi estão causando a qualidade de chamadas ruins" incluem e priorizar esses dispositivos em seus esforços de remediação de alerta. O alerta identificou as salas de reunião em Wi-Fi que estão ativamente contribuindo para chamada de baixa qualidade.
+
+Se você receber um alerta de diagnóstico "uso VPN está afetando a qualidade da chamada," investigar uma solução de divisão de túnel para ignorar o aparelho de VPN e permitir a mídia conectar-se diretamente ao serviço. O alerta identificou que VPN negativamente está afetando a qualidade da chamada.
 
 ##### <a name="remediation"></a>Remediação
 
@@ -970,7 +1037,7 @@ Para auxiliar sua investigação sobre problemas de qualidade, você pode aprove
 
 Não se esqueça de informar a helpdesk que essas redes estão enfrentando problemas de qualidade, para que possam rapidamente triagem e responder às chamadas recebidas.
 
-_A tabela 9 - comuns Contribuidores PSR alta_
+_Tabela 10 - comuns Contribuidores PSR alta_
 
 | Remediação                              | Orientação                         |
 |------------------------------------------|----------------------------------|
@@ -982,12 +1049,14 @@ _A tabela 9 - comuns Contribuidores PSR alta_
 | **Clientes** <br>(Skype para negócios apenas Online) | Clientes mais antigos são conhecidos por causar problemas com a mídia. Certifique-se de que os clientes estão sendo patch dentro de seis meses após o lançamento. Use [MyAdvisor](https://aka.ms/myadvisor) para obter orientação sobre como desenvolver uma estratégia de preparação de cliente e deploy [Click-to-Run](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus). |
 | **Dispositivos** | O uso de [dispositivos de otimizado](https://partnersolutions.skypeforbusiness.com/solutionscatalog) pode ajudar a melhorar significativamente a experiência do usuário. Com todas as coisas sendo igual, dispositivos otimizados foram projetados para maximizar a experiência do usuário com equipes e Skype para negócios e produzir qualidade superior. Use [MyAdvisor](https://aka.ms/myadvisor) para obter orientação sobre como desenvolver uma estratégia de preparação de dispositivo. |
 | **Drivers** | Aplicando o patch de rede (Ethernet Wi-Fi), áudio, vídeo e drivers USB deve ser parte de sua estratégia de gerenciamento de patches geral. Muitos problemas de qualidade são resolvidos por Atualizando drivers. |
+| **Salas de reunião Wi-Fi** | É altamente recomendável que os dispositivos de sala serão conectados à rede por meio de pelo menos uma conexão de Ethernet de 1 Gbps. Dispositivos de sala de reunião geralmente incluem vários fluxos de áudio e vídeos, juntamente com o conteúdo das reuniões como compartilhamento de tela e têm requisitos de rede mais que outras equipes ou Skype para pontos de extremidade de negócios. Salas de reunião são, por definição, dispositivos pardos onde Wi-Fi, garantindo um benefício apenas durante a instalação.<br><br>As salas de reunião precisam ser tratada com atenção para garantir que a experiência usando estes dispositivos é da reunião ou superar as expectativas e cuidados especiais. Problemas de qualidade com salas de reunião geralmente vai ser escalonado rapidamente, porque eles são geralmente usados pela equipe de nível sênior.<br><br>Com todas as coisas sendo igual (, além de conveniência), Wi-Fi desempenho é geralmente menor que uma conexão com fio. Com a elevação de políticas "traga seu próprio dispositivo" e a proliferação de laptops, pontos de acesso Wi-Fi frequentemente são exagerada utilizados. Não pode ser priorizadas mídia em tempo real em redes Wi-Fi, que podem resultar em problemas de qualidade durante os horários de pico de uso. Este uso pesado pode coincidir com uma reunião onde pode haver um pequeno número de pessoas na presença, cada um com seu próprio laptop e o smartphone, todos os conectados ao mesmo ponto de acesso Wi-Fi como a reunião dispositivo de sala.<br><br>Wi-Fi só deve ser considerado como uma solução temporária, para uma instalação móvel ou quando Wi-Fi tenha sido provisionada adequadamente para dar suporte a mídia empresarial, baseado em tempo real. |
+
 
 ### <a name="tcp"></a>TCP
 
 TCP é considerado um transporte failback e não o transporte principal que você deseja para a mídia em tempo real. Isso é um transporte failback é devido à natureza do TCP com informações de estado. Por exemplo, se uma chamada for feita em uma rede latente e pacotes de mídia estão atrasados, em seguida, os pacotes de alguns segundos atrás — que não são mais úteis — competem por largura de banda chegar ao destinatário, que pode tornar um pior situação ruim. Isso torna o stitch de correção de áudio e áudio Alongar, resultando em artefatos audíveis, geralmente na forma de tremulação.
 
-Os relatórios nesta seção não fizer uma distinção entre fluxos boas e ruins. Visto que UDP é o preferido, os relatórios procuram o uso de TCP para áudio, vídeo e vídeo-based (VBSS) de compartilhamento de tela. Isso é principalmente causado pelas regras de firewall incompleta. Para obter mais informações sobre regras de firewall para equipes e Skype para Business Online, consulte [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips).
+Os relatórios nesta seção não fizer uma distinção entre fluxos boas e ruins. Visto que UDP é o preferido, os relatórios procuram o uso de TCP para áudio, vídeo e vídeo-based (VBSS) de compartilhamento de tela. Taxas de fluxo de baixa são fornecidas para ajudar a comparar a qualidade UDP versus qualidade TCP para que você possa se concentrar os esforços de onde o impacto é o maior. Uso TCP é principalmente causado pelas regras de firewall incompleta. Para obter mais informações sobre regras de firewall para equipes e Skype para Business Online, consulte [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips).
 
 > [!Important]
 > Ter um [arquivo de construção válido](#building-mapping) carregados é altamente recomendável para que você pode distinguir rapidamente dentro de fluxos externos ao olhar para uso TCP.
@@ -1000,7 +1069,7 @@ Os relatórios nesta seção não fizer uma distinção entre fluxos boas e ruin
 Relatórios TCP indica o uso geral de TCP nos últimos sete meses. Todos os relatórios mais nesta seção abordará estreitando pressionada prédios específicos e sub-redes onde o TCP é usado com mais frequência. Relatórios separados estão disponíveis para conferência e fluxos de duas partes.
 
 ![Gráfico mostrando a porcentagem de fluxos de áudio que usam TCP](media/qerguide-image-audiostreamswithtcp.png)
-_Figura 23 – fluxos de áudio com o uso de TCP_
+_Figura 25 – fluxos de áudio com o uso de TCP_
 
 
 ##### <a name="investigation"></a>Investigação
@@ -1020,13 +1089,11 @@ Este relatório identifica o volume de TCP versus no último mês para áudio, v
 
 ![Relatório mostrando o volume dos fluxos que usam TCP versus UDP](media/qerguide-image-tcpvsudp.png)
 
-_Figura 24 – TCP versus UDP - conferência_
+_Figura 26 – TCP versus UDP - conferência_
 
 ##### <a name="analysis"></a>Análise
 
-Embora você deseja o uso TCP ao ser tão baixa quanto possível, talvez você veja um pouco de uso TCP em uma implantação do contrário íntegro. Embora sempre haverá alguns pequena quantidade de uso do TCP, que você deseja ver como pouco uso do TCP possível para áudio, vídeo e VBSS.
-
-Também é incluída no relatório é a taxa de baixa stream. Isso oferece uma visão de comparação de qualidade entre UDP e TCP para ajudar a visualizar como o uso TCP está afetando a qualidade geral.
+Embora você deseja o uso TCP ao ser tão baixa quanto possível, talvez você veja um pouco de uso TCP em uma implantação do contrário íntegro. TCP por si só não contribuem para uma chamada de baixa, portanto taxas de fluxo são fornecidas para ajudar a identificar se o uso TCP é um colaborador baixa qualidade. 
 
 #### <a name="tcp-investigations"></a>Investigações TCP
 
@@ -1040,7 +1107,11 @@ Nos modelos de CQD fornecidos, navegue até os fluxos TCP por relatórios de cri
 
 ![Uso TCP Construindo e sub-rede](media/qerguide-image-tcpstreams.png)
 
-_Figura 25 – TCP fluxos, criando - e sub-rede conferência_
+_Figura 27 – TCP fluxos, criando - e sub-rede conferência_
+
+##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
+
+Se você tiver recebido um alerta de diagnóstico "tráfego UDP está sendo limitado, que faz com que a qualidade de chamadas ruins" concentrar os esforços de remediação TCP nessas sub-redes pela primeira vez. O alerta identificou sub-redes onde o uso de TCP negativamente está afetando a qualidade da chamada.
 
 ##### <a name="remediation"></a>Remediação
 
@@ -1049,7 +1120,7 @@ Este relatório identifica prédios específicos e sub-redes que estão contribu
 A causa mais comum de uso do TCP está faltando regras de exceção no firewalls ou proxies. Voltaremos falando proxies na próxima seção, portanto por enquanto concentrar os esforços nos firewalls. Usando o edifício ou sub-rede fornecido, você pode determinar o firewall que precisa ser atualizado.
 
 
-_Tabela 10 - remediação * orientação para fluxos TCP Construindo e sub-rede_
+_A tabela 11 - diretrizes de remediação de fluxos de TCP Construindo e sub-rede_
 
 | Remediação        | Orientação     |
 |--------------------|--------------------------------------|
@@ -1073,7 +1144,7 @@ O relatório de fluxo de proxy HTTP nesta seção do modelo é muito semelhante 
 
 ![Relatório de fluxos de áudio que usam o HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
-_Figura 26 – fluxos de áudio com o uso de Proxy HTTP_
+_Figura 28 – fluxos de áudio com o uso de Proxy HTTP_
 
 ##### <a name="analysis"></a>Análise
 
@@ -1096,7 +1167,7 @@ Este relatório identifica prédios específicos e sub-redes que estão contribu
 
 ![Relatório de uso do Proxy HTTP, criando e sub-rede](media/qerguide-image-httpproxyusage.png)
 
-_Figura 27 – sub-rede e uso de Proxy HTTP, criando_
+_Figura 29 – sub-rede e uso de Proxy HTTP, criando_
 
 ##### <a name="remediation"></a>Remediação
 
@@ -1108,7 +1179,7 @@ Verifique se os [FQDNs do Office 365](https://aka.ms/o365ips) de necessários es
 
 Para obter mais informações sobre como usar proxies com Skype para equipes e Business Online, consulte [Este artigo](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
 
-## <a name="clients-and-devices"></a>Clientes e dispositivos
+## <a name="endpoint-investigations"></a>Investigações de ponto de extremidade
 
 Esta seção se concentra nas tarefas de relatórios em versões do cliente e o uso de dispositivos de certificados. Relatórios estão disponíveis para uso para versões do cliente, tipo de cliente, dispositivos de captura e drivers (microfone), os dispositivos de captura de vídeo e versões de fornecedor e driver Wi-Fi de estrutura de tópicos.
 
@@ -1130,24 +1201,28 @@ Os relatórios neste espaço focalizar identificando Skype para versões do clie
 
 ![Relatório de dispositivos e clientes](media/qerguide-image-clientversionreport.png)
 
-_Figura 28 - relatório da versão de cliente_
+_Figura 30 - relatório da versão de cliente_
+
+#### <a name="diagnostic-alert"></a>Alerta de diagnóstico
+
+Se você tiver recebido um diagnóstico alerta "conhecidos mal executando versões do cliente estão em uso", focalizar atualizar esses clientes pela primeira vez. O alerta identificou que esses clientes negativamente estão afetando a qualidade da chamada. Você pode usar o relatório de dispositivos & cliente (mostrado acima) para ajudar a garantir que os clientes que têm problemas conhecidos não estão sendo atualizados.
 
 #### <a name="remediation"></a>Remediação
 
-Uma parte importante de dirigir experiências do usuário de alta qualidade é garantir que clientes gerenciados estiver executando versões atualizadas do Skype para a empresa, além de garantir que os drivers de suportados são atualizados. Isso oferece vários benefícios, entre eles: 
+Uma parte importante de acionadoras experiências de usuário de alta qualidade é garantir que clientes gerenciados estiverem executando versões atualizadas do Skype para a empresa, além de garantir o suporte de áudio, vídeo, rede e drivers USB estão atualizados. Isso oferece vários benefícios, entre eles: 
 
 -   É mais fácil gerenciar algumas versões versus muitas versões.
 -   Ele fornece um nível de consistência da experiência.
 -   Ele facilita a solucionar problemas de qualidade de chamada e usabilidade.
 -   A Microsoft dá continuamente aperfeiçoamentos gerais e as otimizações em todo o produto. Garantir que os usuários recebam essas atualizações reduz os riscos de executar um problema que já foi resolvido.
 
-Limitar sua implantação para as versões do cliente que são menos de seis meses, melhorar a experiência geral do usuário e melhorar a capacidade de gerenciamento em comparação a ter grandes números de diferentes versões do cliente no mesmo ambiente.
+Limitar sua implantação para as versões do cliente que são menos de seis meses, melhorar a experiência geral do usuário e melhorar a capacidade, reduzindo o número de versões que precisam ser suportados.
 
 Se você estiver usando somente Office Click-to-Run, você estará automaticamente dentro da janela de seis meses. Nenhuma ação adicional será necessária.
 
 Se você tiver uma mistura de Click-to-Run e pacotes do installer (MSI), você pode usar o relatório para verificar se os clientes MSI estão sendo atualizados regularmente. Se você observar que os clientes são atrasado, trabalhar com a equipe responsável pelo gerenciamento de atualizações do Office e garantir que eles estiver aprovando e Implantando patches de cliente regularmente.
 
-Também é importante considerar e certifique-se de que os drivers de áudio e USB estão sendo corrigidos também. Pode ser fácil ignore esses drivers e não incluí-las em sua estratégia de gerenciamento de patch.
+Também é importante considerar e certifique-se de que a rede, vídeo, USB e drivers de áudio estão sendo corrigido também. Pode ser fácil ignore esses drivers e não incluí-las em sua estratégia de gerenciamento de patch.
 
 Números de versão do Skype para negócios podem ser encontrados por meio de links a seguir:
 
@@ -1182,7 +1257,11 @@ Os relatórios de dispositivo são usados para avaliar o uso do dispositivo por 
 
 ![Relatório de dispositivos (microfone)](media/qerguide-image-devicesmicrophone.png)
 
-_Figura 29 - relatam de dispositivos (microfone)_
+_Figura 31 - relatam de dispositivos (microfone)_
+
+##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
+
+Se você tiver recebido um alerta de diagnóstico enfocam "drivers de áudio estão causando quedas de chamada," correção esses drivers pela primeira vez. O alerta identificou que drivers ruim conhecidos estão fazendo com que as chamadas para descartar e negativamente estão afetando a confiabilidade de chamada. Você pode usar o relatório de Drivers de microfone (mostrado acima), que se encontra na seção do cliente e dispositivos, para ajudá-lo com o processo.
 
 ##### <a name="remediation"></a>Remediação
 
@@ -1206,9 +1285,17 @@ Drivers de Wi-Fi também precisam ser corrigido em uma cadência regular também
 
 ## <a name="appendix"></a>Apêndice 
 
+### <a name="office-365-network-connectivity-principles"></a>Princípios de conectividade de rede do Office 365
+
+Antes de começar a planejar sua rede para conectividade de rede do Office 365, é importante entender os princípios de conectividade para gerenciar o tráfego de Office 365 de forma segura e obter o melhor desempenho possível. O artigo a seguir o ajudarão a entender as orientações mais recentes para otimizar com segurança de conectividade de rede do Office 365:
+
+[Princípios de conectividade de rede do Office 365](https://aka.ms/pnc)
+
 ### <a name="planning-for-wi-fi"></a>Planejamento para Wi-Fi
 
-A abordagem da Microsoft para qualidade de unidade e agilidade para as redes sem fio vem com três partes: planejamento de ponta a ponta, práticas recomendadas no implantação e as operações e manutenção proativa. Este resumo da solução o orienta durante esse processo para garantir uma Skype sem fio de classe empresarial para a experiência de negócios: [garantindo um Skype sem fio de classe empresarial para a experiência de negócios](https://www.microsoft.com/download/details.aspx?id=47257)
+A abordagem da Microsoft para qualidade de unidade e agilidade para as redes sem fio vem com três partes: planejamento de ponta a ponta, práticas recomendadas no implantação e as operações e manutenção proativa. Este resumo da solução o orienta durante esse processo para garantir uma Skype sem fio de classe empresarial para a experiência de negócios:
+
+[Garantindo que um Skype sem fio de classe empresarial para a experiência de negócios](https://www.microsoft.com/download/details.aspx?id=47257)
 
 ### <a name="lync-networking-guide"></a>Guia de rede do Lync
 
@@ -1218,7 +1305,7 @@ Para obter mais informações em equipes e Skype para conceitos de rede de negó
 
 A qualidade de mídia em tempo real (áudio, vídeo e compartilhamento de aplicativos) sobre IP significativamente é afetada pela qualidade da conectividade de rede de ponta a ponta. Para obter melhor equipes ou Skype para qualidade de mídia de negócios, sua rede deve atender aos seguintes métricas de desempenho de rede.
 
-_A tabela 11 - requisitos de desempenho de rede_
+_A tabela 12 - requisitos de desempenho de rede_
 
 | Métrica                            | Cliente para o Microsoft Edge           | Edge do cliente para o Microsoft Edge    |
 |-----------------------------------|------------------------------------|------------------------------------|
@@ -1235,7 +1322,7 @@ Para obter mais informações, consulte [Este artigo sobre o desempenho de rede 
 
 #### <a name="building-data-file"></a>Criando o arquivo de dados
 
--   [Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)
+-   [Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online](turning-on-and-using-call-quality-dashboard.md)
 
 #### <a name="cqd-training"></a>Treinamento de CQD
 
@@ -1249,11 +1336,11 @@ Para obter mais informações, consulte [Este artigo sobre o desempenho de rede 
 
 -   [Apresentando a análise de chamada](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Configurar a análise de chamada](/SkypeForBusiness/using-call-quality-in-your-organization/set-up-call-analytics)
+-   [Configurar a análise de chamada](set-up-call-analytics.md)
 
--   [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+-   [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)
+-   [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Suporte de análise de chamada
 

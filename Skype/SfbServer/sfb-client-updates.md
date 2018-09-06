@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Priority
 ms.collection: IT_Skype16
 description: Oferece aos profissionais de TI informações sobre as atualizações mais recentes de versões perpétuas dos clientes do Skype for Business 2016, do Skype for Business 2015 e do Lync 2013
-ms.openlocfilehash: cf87fbb903e7bff015f77881ede956a4c4999b07
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
-ms.translationtype: HT
+ms.openlocfilehash: 015285bb5a513f0d490a596af28b83b662a518ce
+ms.sourcegitcommit: c9b68cbc8199d21a3fa4275db7a663695784afb3
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247588"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23485796"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Atualizações mais recentes das versões do Skype for Business que usam o Windows Installer (MSI)
 
@@ -36,7 +36,6 @@ A compatibilidade do Skype for Business com o Office 365 e seu ambiente local de
   - [Requisitos para o seu ambiente do Skype for Business](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Requisitos do sistema do Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
-
 
 ## <a name="skype-for-business-2016-client-updates"></a>Atualizações do Cliente Skype for Business 2016
 |Número do pacote|Número KB|Data do lançamento|
@@ -72,8 +71,6 @@ A compatibilidade do Skype for Business com o Office 365 e seu ambiente local de
 |Atualização de segurança do Skype for Business 2016 |[KB 3114372](https://support.microsoft.com/kb/3114372) | Dezembro de 2015|
 |Atualização de segurança do Skype for Business 2016 |[KB 3085634](https://support.microsoft.com/kb/3085634) | Novembro de 2015|
 |Atualização de segurança do Skype for Business 2016 |[KB 2910994](https://support.microsoft.com/kb/2910994) | Setembro de 2015|
-
-
 
 ## <a name="skype-for-business-2015-client-updates"></a>Atualizações do Cliente Skype for Business 2015
 
@@ -118,15 +115,12 @@ A compatibilidade do Skype for Business com o Office 365 e seu ambiente local de
 |Atualização de segurança do Skype for Business 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | Setembro de 2015 |
 |Atualização do Skype for Business 2015/Lync 2013|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | Junho de 2015 |
 
-
 ### <a name="skype-for-business-on-mac-client-updates"></a>Atualizações para o cliente Mac do Skype for Business
 
 |Número do pacote|Data do lançamento|
 |:--- |:--- |
 |[Atualização do Skype for Business no Mac](https://www.microsoft.com/en-us/download/details.aspx?id=54108) | Junho de 2018 |
 |[Notas da versão atual do Skype for Business para Mac](https://support.office.com/article/cece9f93-add1-4d93-9a38-56cc598e5781#OS_Type=Mac) | Junho de 2018 |
-
-
 
 * * *
 
@@ -175,8 +169,6 @@ Número do pacote|Número KB|Data do lançamento|
 |Atualização de segurança do Skype for Business 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | Setembro de] 2015 |
 |Atualização do Skype for Business 2015/Lync 2013|[KB 3054791 ](https://support.microsoft.com/kb/3054791) | Junho de 2015 |
 
-
-
 ### <a name="lync-phone-edition-updates"></a>Atualizações do Lync Phone Edition
 
 Número do pacote|Número KB|Data do lançamento|
@@ -201,7 +193,6 @@ Número do pacote|Data do lançamento|
 |[Lync Phone Edition para Polycom CX500, Polycom CX600 e Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | Abril de 2017 |
 |[Lync Phone Edition para Polycom CX700 e LG-Nortel IP Phone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Dezembro de 2015 |
 
-
 ### <a name="lync-basic-2013-trial-software"></a>Software de avaliação Lync Basic 2013
 
 Número do pacote|Data do lançamento|
@@ -211,14 +202,12 @@ Número do pacote|Data do lançamento|
 
 * * *
 
-
 ### <a name="lync-for-mac-2011-client-updates"></a>Atualizações do cliente Lync for Mac 2011
 
 Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |
 |Atualização do Lync for Mac 2011 |[KB 3175174](https://support.microsoft.com/kb/3175174)|Julho de 2016|
 |Atualizações cumulativas do Lync for Mac 2011 |[KB 3074981](https://support.microsoft.com/kb/3074981)|Julho de 2015|
-
 
 ### <a name="lync-2010-client-updates"></a>Atualização do cliente do Lync 2010
 
@@ -234,7 +223,6 @@ Número do pacote|Número KB|Data do lançamento|
 |Atualização de segurança do Lync 2010 |[KB 3096735](https://support.microsoft.com/kb/3096735) | Novembro de 2015|
 |Atualização de segurança do Lync 2010 |[KB 3081087](https://support.microsoft.com/kb/3081087) | Setembro de 2015|
 |Atualizações cumulativas do Lync 2010 |[KB 3072611](https://support.microsoft.com/kb/3072611) | Julho de 2015|
-
 
 ### <a name="lync-2010-attendant-updates"></a>Atualizações do Lync 2010 Attendant
 
@@ -276,3 +264,6 @@ Número do pacote|Número KB|Data do lançamento|
 |[Avaliação do Lync 2010 (32 bits) ](https://www.microsoft.com/en-us/download/details.aspx?id=5484)| Novembro de 2010 |
 |[Avaliação do Lync 2010 (64 bits) ](https://www.microsoft.com/en-us/download/details.aspx?id=10400)| Novembro de 2010 |
 
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Atualizações do Skype for Business Server](sfb-server-updates.md)

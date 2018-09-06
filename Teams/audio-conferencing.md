@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/en-us/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 8f5f6eef85352a0c20d08b3e3bf2a327abfd9ca0
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
+ms.openlocfilehash: 7f79257847780ec4c3f9b0c4dd2cda25241a3518
+ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "19004838"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23779218"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Orientações práticas de Audioconferência no Microsoft Teams
 ============================================================
@@ -234,7 +234,7 @@ Para planejar a implementação técnica da Audioconferência, várias decisões
 
 ## <a name="availability-of-audio-conferencing"></a>Disponibilidade da Audioconferência
 
-A Audioconferência está disponível nestes [países e regiões](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+A Audioconferência está disponível nestes [países e regiões](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
 > [!IMPORTANT]
 > Devido a restrições legais, para que a Audioconferência esteja disponível para organizações multinacionais, o contrato de assinaturas do Office 365 deve ser obtido de países e regiões cobertos pelo serviço de Audioconferência ou de onde o serviço de Audioconferência está disponível comercialmente.

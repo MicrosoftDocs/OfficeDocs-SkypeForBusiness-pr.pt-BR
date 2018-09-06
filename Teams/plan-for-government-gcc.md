@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c54e553edb464dc094c45b4e9dd545827b625d3
-ms.sourcegitcommit: 046cc4a880f3b6b5f912278483cf28fa25619b6e
+ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
+ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "21600513"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "23835035"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
@@ -64,7 +64,9 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | Aplicativos       | Aplicativos (por exemplo, conectores, guias e bots) não estarão disponíveis inicialmente, mas estamos trabalhando para disponibilizá-los assim que a barra de conformidade FedRAMP moderadas atendem a todos os seus componentes. |
 | Um canal de email             | A arquitetura do recurso atual não é suportada nos planos do governo. |
 | Presença unificada            | Estamos Finalizar trabalho para clientes empresariais primeiro para esse recurso importante. Ele estará disponível para clientes do governo no futuro. |
-| Notificações por email         | A arquitetura do recurso atual não é compatível com os planos do governo conosco. Trabalho está em andamento para disponibilizar esse recurso para os clientes do governo conosco plano no futuro. |
+| Chat interoperabilidade entre equipes & SfB usuários            | Interoperação é dependente no serviço de presença unificada (UPS) e não pode funcionar até GCC equipes inquilinos habilitados para um no-break. |
+
+| Notificações de email | A arquitetura do recurso atual não é compatível com os planos do governo conosco. Trabalho está em andamento para disponibilizar esse recurso para os clientes do governo conosco plano no futuro. |
 
 
 |    |     |
@@ -84,13 +86,17 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 
 Tendo decidiu que esse serviço é certo para sua organização, inicie o processo de [aplicação para esse serviço aqui](https://products.office.com/en-us/government/eligibility-validation).
 
-## <a name="step-5-deploy-teams-for-collaboration"></a>Etapa 5. Implantar equipes para colaboração
+## <a name="step-5-plan-for-governance"></a>Etapa 5. Plano de governança
+
+Determine os requisitos de governança e como você pode atender a eles. Vá para [Planejar a governança em equipes](plan-teams-governance.md) para obter mais informações.
+
+## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
 
 Depois que você fez onboarded ao Microsoft 365 governo - GCC, você pode seguir a abordagem de implantação padrão do uso [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) e seu parceiro escolhido para integrado ao serviço.
 
 Quando você estiver pronto, implante equipes para [Habilitar a colaboração dentro da sua organização por meio de equipes e canais](teams-overview.md). Certifique-se de que se comprometer com sua equipe de adoção e gerenciamento de alterações ou os campeões equipes.
 
-## <a name="step-6-deploy-teams-for-meetings-and-voice"></a>Etapa 6. Implantar equipes para reuniões e voz
+## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Etapa 7. Implantar equipes para reuniões e voz
 
 Isso também é um ótimo momento para usar equipes com seu grupo das partes interessadas mais largo para iniciar o planejamento para a distribuição dos [recursos de voz de nuvem](cloud-voice-deployment.md)e reuniões.
 

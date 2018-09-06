@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25124f8e324dc2b713e9243c21b5dc4376deafb3
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: e5537ddef4c693d74c3b158a9a9b39fbc66be510
+ms.sourcegitcommit: 088003651ab18492c9520503b4f2bc0f30b0815d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "21750348"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "23531899"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licença do Office 365 para o Microsoft Teams
 ========================================
@@ -42,9 +42,7 @@ Para obter mais informações sobre a obtenção de equipes, confira [como obter
 > [!NOTE]
 > O Microsoft Teams também está disponível para organizações sem fins lucrativos. As equipes começará a aplicação conosco governamentais nuvem da comunidade (GCC) em 17 de julho e esteja disponível para todos os clientes qualificados no final de agosto de 2018. Estamos trabalhando para trazer Teams da Microsoft para as outras nuvens de governamentais de US (GCC alta e DoD) em breve. Leitura mais no blog Microsoft Teams [aqui](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
         
-
-
-Em termos de funcionalidades de principais de equipes, não existem diferenças entre as assinaturas do Office 365. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).
+Em termos de funcionalidades de principais de equipes, não existem diferenças entre as assinaturas do Office 365. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md). Para obter uma lista detalhada dos recursos disponíveis em cada assinatura, consulte a [Descrição do serviço de plataforma do Office 365](https://technet.microsoft.com/en-us/library/office-365-platform-service-description.aspx).
 
 **Recursos de voz de nuvem**: para conferência de áudio, sua organização precisará comprar e atribuir uma licença de conferência de áudio para cada usuário que vai configurar discagem reuniões. Para chamar planos, cada usuário precisará um sistema telefônico plus um doméstico ou doméstico e internacional chamar planejar. Para saber mais, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 

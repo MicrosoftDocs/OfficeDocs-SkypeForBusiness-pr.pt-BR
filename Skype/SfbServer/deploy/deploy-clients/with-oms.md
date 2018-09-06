@@ -12,23 +12,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de sistemas de sala Skype v2 dispositivos de forma integrada e de ponta a ponta, usando o pacote de gerenciamento de operações do Microsoft.
-ms.openlocfilehash: 3e6c162619d42fcf181a3f3b279f6b89106d4a1c
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 0d1cd51bb80a287078ca4d85bdaec721e78d24ff
+ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22391774"
+ms.lasthandoff: 08/28/2018
+ms.locfileid: "23256347"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implantar o gerenciamento do Skype Room Systems v2 com OMS
- 
+
 Este artigo discute como configurar e implantar o gerenciamento integrado de ponta a ponta de dispositivos do Skype sala sistemas v2 usando o pacote de gerenciamento de operações do Microsoft.
-  
+
 Você pode configurar o Microsoft Operations Management Suite para fornecer Telemetria básica e alertas que ajudarão você a gerenciar Skype dispositivos de sala de reunião. Como sua solução de gerenciamento for envelhecendo, talvez você decida implantar recursos de gerenciamento para criar uma visão mais detalhada de desempenho e disponibilidade de dispositivo e dados adicionais.
 
 Seguindo este guia, você pode usar um painel semelhante ao seguinte exemplo para obter o status detalhado de relatórios para disponibilidade de dispositivo, aplicativo e integridade de hardware e a distribuição de versão de aplicativo do Skype sala sistemas v2.
 
 ![Modo de exibição de amostra OMS para v2 SRS] (../../media/Deploy_OMS_1.png "Modo de exibição de amostra OMS para v2 SRS")
-  
+
 Em um nível superior, é necessário executar as seguintes tarefas:
 
 
@@ -82,7 +82,7 @@ Implante o agente do pacote de gerenciamento de operações para os dispositivos
 
 Depois que o agente do pacote de gerenciamento de operações é implantado nos dispositivos de teste, verifique se que os dados de log de eventos necessários são coletados pela análise de Log.
 
-1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
+1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](https://aka.ms/omsportal).
 
 2.  Liste os eventos gerados por um dispositivo do Skype sala sistemas v2:
     1.  Vá para a **Pesquisa de Log** e usar uma consulta para recuperar os registros que terão o campo personalizado.
@@ -110,7 +110,7 @@ Você pode usar campos personalizados para extrair dados específicos de logs de
 
 Para extrair seus campos personalizados sem os logs de eventos capturados, siga estas etapas:
 
-1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
+1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](https://aka.ms/omsportal).
 
 2.  Liste os eventos gerados por um dispositivo do Skype sala sistemas v2:
     1.  Vá para a **Pesquisa de Log** e usar uma consulta para recuperar os registros que terão o campo personalizado.
@@ -130,8 +130,8 @@ Para extrair seus campos personalizados sem os logs de eventos capturados, siga 
 > Lembre-se de que todos os campos JSON e o pacote de gerenciamento de operações diferenciam maiusculas de minúsculas.
 
 > Preste atenção ao estado da caixa de seleção EventID na tabela a seguir. Certifique-se de que você confirme o estado dessa caixa de seleção para o pacote de gerenciamento de operações extrair com êxito os valores de campo personalizado.
-> 
-> ![Definição do campo personalizado] (../../media/Deploy_OMS_5.png "Definição do campo personalizado") 
+>
+> ![Definição do campo personalizado] (../../media/Deploy_OMS_5.png "Definição do campo personalizado")
 
 **Tabela 1**
 
@@ -170,8 +170,8 @@ Depois que os dados são coletados e campos personalizados são mapeados, você 
 
 Você pode importar um painel do pacote de gerenciamento de operações e iniciar o monitoring seus dispositivos imediatamente. Siga as etapas a seguir para importar o painel:
 
-1.  Obtenha o arquivo de painel [SkypeRoomSystems_v2.omsview](http://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) .
-2.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
+1.  Obtenha o arquivo de painel [SkypeRoomSystems_v2.omsview](https://download.microsoft.com/download/9/0/D/90D4826A-9FD2-47D2-B911-97BF1737F4F7/SkypeRoomSystems_v2.omsview) .
+2.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](https://aka.ms/omsportal).
 3.  Abra o **Designer de modo de exibição**.
 4.  Selecione **Importar**e selecione o arquivo **SkypeRoomSystems_v2.omsview** .
 5.  Selecione **Salvar**.
@@ -349,13 +349,13 @@ A regra pode executar automaticamente uma ou mais ações para notificá-lo do a
 Consulte [compreensão dos alertas na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts) para saber mais sobre os alertas do pacote de gerenciamento de operações.
 
 > [!NOTE]
-> Os exemplos a seguir enviam alertas de email quando um dispositivo de sistemas de sala Skype v2 gera um hardware ou um erro de aplicativo. 
+> Os exemplos a seguir enviam alertas de email quando um dispositivo de sistemas de sala Skype v2 gera um hardware ou um erro de aplicativo.
 
 
 ### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Configurar um alerta de email para problemas de hardware do Skype sala sistemas v2
 
 Configure uma regra de alerta que verifica os sistemas de sala Skype v2 dispositivos que tiveram problemas de hardware na última hora.
-1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](http://aka.ms/omsportal).
+1.  Entrar no [portal do pacote de gerenciamento de operações do Microsoft](https://aka.ms/omsportal).
 
 2.  Selecione a **pesquisa de Log**.
 
@@ -364,7 +364,7 @@ Configure uma regra de alerta que verifica os sistemas de sala Skype v2 disposit
     Event
     | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF 
+    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF
     |sort by TimeGenerated desc
     ```
 
@@ -438,7 +438,7 @@ Se você já implantou os dispositivos do Skype sala sistemas v2 antes de implem
 
 1.  Criar um caminho de rede compartilhado e conceder acesso de leitura ao grupo de **Computadores de domínio** .
 
-2.  Baixe a versão de 64 bits do Operations Management Suite agente for Windows de<http://go.microsoft.com/fwlink/?LinkID=517476>
+2.  Baixe a versão de 64 bits do Operations Management Suite agente for Windows de<https://go.microsoft.com/fwlink/?LinkID=517476>
 
 3.  Extraia o conteúdo do pacote de instalação em compartilhamento de rede.
     1.  Abra uma janela de Prompt de comando e, em seguida, executar **MMASetup-AMD64.exe /c**
@@ -464,34 +464,34 @@ Se você já implantou os dispositivos do Skype sala sistemas v2 antes de implem
 
     ```
     # Install-OMSAgent.ps1
-    <# 
-    Date:        04/20/2018 
-    Script:      Install-OMSAgent.ps1 
+    <#
+    Date:        04/20/2018
+    Script:      Install-OMSAgent.ps1
     Version:     1.0
-    #> 
-    
+    #>
+
     # Set the parameters
     $WorkspaceId = "<your workspace id>"
     $WorkspaceKey = "<your workspace key>"
     $SetupPath = "\\Server\Share"
-    
+
     $SetupParameters = "/qn NOAPM=1 ADD_OPINSIGHTS_WORKSPACE=1 OPINSIGHTS_WORKSPACE_AZURE_CLOUD_TYPE=0 OPINSIGHTS_WORKSPACE_ID=$WorkspaceId OPINSIGHTS_WORKSPACE_KEY=$WorkspaceKey AcceptEndUserLicenseAgreement=1"
-    
+
     # $SetupParameters = $SetupParameters + " OPINSIGHTS_PROXY_URL=<Proxy server URL> OPINSIGHTS_PROXY_USERNAME=<Proxy server username> OPINSIGHTS_PROXY_PASSWORD=<Proxy server password>"
-    
+
     # Start PowerShell logging
-    Start-Transcript -Path C:\OMSAgentInstall.Log  
-    
+    Start-Transcript -Path C:\OMSAgentInstall.Log
+
     # Check if the Microsoft Monitoring Agent is installed
     $mma = New-Object -ComObject 'AgentConfigManager.MgmtSvcCfg'
-    
-    # Check if the Microsoft Monitoring agent is installed 
+
+    # Check if the Microsoft Monitoring agent is installed
     if (!$mma)
     {
         #Install agent
         Start-Process -FilePath "$SetupPath\Setup.exe" -ArgumentList $SetupParameters -ErrorAction Stop -Wait
     }
-    
+
     # Check if the agent has a valid configuration
     $CheckOMS = $mma.GetCloudWorkspace($WorkspaceId).AgentId
     if (!$CheckOMS)
@@ -499,12 +499,12 @@ Se você já implantou os dispositivos do Skype sala sistemas v2 antes de implem
         # Apply new configuration
         $mma.AddCloudWorkspace($WorkspaceId, $WorkspaceKey)
         $mma.ReloadConfiguration()
-    } 
-    
-    Stop-Transcript 
-    
+    }
+
+    Stop-Transcript
+
     ```
-    
+
 > [!NOTE]
 > Você pode consultar o artigo [Gerenciando e mantendo o agente de análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-manage) quando você precisar reconfigurar um operador, movê-la para outro espaço de trabalho ou modificar as configurações de proxy após a instalação inicial.
 
@@ -521,5 +521,5 @@ Pacote de gerenciamento de operações oferece soluções internas com sua [Gale
 ## <a name="see-also"></a>Consulte também
 
 [Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
-  
+
 [Gerenciar dispositivos do Skype Room Systems v2 com o OMS](../../manage/skype-room-systems-v2/oms.md)

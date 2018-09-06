@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 4d6a6096ea4f98f41a66173058743ae7d134e997
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 762ec5d0e07cde90c9f09d852d6bc6773024d7cb
+ms.sourcegitcommit: 309941f79f0f8dbcbce620fe90e9f73dd0bcfcbd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996890"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "23289911"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -47,60 +47,61 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
   
 **Portas do servidor necessárias (por Função de servidor)**
 
-|**Função de servidor**|**Nome do serviço**|**Porta**|**Protocolo**|**Observações**|
+|Função de servidor|Nome do serviço|Porta|Protocolo|Notas|
 |:-----|:-----|:-----|:-----|:-----|
-|Todos os servidores  <br/> |Navegador do SQL  <br/> |1434  <br/> |UDP  <br/> |Navegador SQL para a cópia replicada local do banco de dados do Repositório de Gerenciamento Central.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de front-end Server de negócios  <br/> |5060  <br/> |TCP  <br/> |Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de front-end Server de negócios  <br/> |5061  <br/> | TCP (TLS) <br/> |Usada pelos servidores Standard Edition e pools de front-ends em todas as comunicações SIP internas entre servidores (MTLS), em comunicações SIP entre o servidor e o cliente (TLS) e em comunicações SIP entre os servidores front-end e os servidores de mediação (MTLS). Também é usada em comunicações com o Monitoring Server.  <br/> |
-| Servidores Front-End <br/> |Skype para serviço de front-end Server de negócios  <br/> |444  <br/> | HTTPS <br/> TCP  <br/> |Usado para comunicação HTTPS entre o foco (o Skype para componente Business Server que gerencia o estado da conferência) e os servidores individuais.  <br/> Essa porta também é usada para comunicação TCP entre servidores Front-End e de aparelhos de filial persistente.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de front-end Server de negócios  <br/> |135  <br/> |DCOM e RPC (controle de procedimento remoto)  <br/> |Usada para operações com base em DCOM, como Movendo Usuários, Sincronização do Replicador do Usuário e Sincronização do Catálogo de Endereços.  <br/> |
-|Servidores Front-End  <br/> |Skype para o serviço de conferência de mensagens Instantâneas do servidor de negócios  <br/> |5062  <br/> |TCP  <br/> |Usado para solicitações SIP de entrada para conferência de IM (mensagem instantânea).  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de Webconferência de servidor de negócios  <br/> |8057  <br/> |TCP (TLS)  <br/> |Usada para escutar conexões PSOM (Modelo de Objeto Compartilhado Persistente) do cliente.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de compatibilidade de webconferência Business Server  <br/> |8058  <br/> |TCP (TLS)  <br/> |Usado para escutar conexões do modelo de objeto Persistent Shared (PSOM) do cliente do Live Meeting e de versões anteriores do Skype para Business Server.  <br/> |
-|Servidores Front-End  <br/> |Skype para o serviço de conferência de áudio/vídeo do Business Server  <br/> |5063  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada para conferência de áudio/vídeo (A/V).  <br/> |
-|Servidores Front-End  <br/> |Skype para o serviço de conferência de áudio/vídeo do Business Server  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usado para videoconferência.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de compatibilidade da Web Server Business  <br/> |80  <br/> |HTTP  <br/> |Usada para comunicação dos Servidores Front-End com os FQDNs do farm da web (as URLs usadas pelos componentes da web IIS) quando HTTPS não é usado.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de compatibilidade da Web Server Business  <br/> |443  <br/> |HTTPS  <br/> |Usado para comunicação dos servidores front-End no farm da web FQDNs (as URLs usadas pelos componentes da web do IIS).  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de compatibilidade da Web Server Business  <br/> |8080  <br/> |TCP e HTTP  <br/> |Usado pelos componentes da Web para acesso externo.  <br/> |
-|Servidores Front-End  <br/> |Servidor de componentes da Web  <br/> |4443  <br/> |HTTPS  <br/> |Comunicações entre pools de front-end HTTPS (de Proxy Reverso) e HTTPS para conexão de Descoberta automática.  <br/> |
-|Servidores Front-End  <br/> |Servidor de componentes da Web  <br/> |8060  <br/> |TCP (MTLS)  <br/> ||
-|Servidores Front-End  <br/> |Servidor de componentes da Web  <br/> |8061  <br/> |TCP (MTLS)  <br/> ||
-|Servidores Front-End  <br/> |Componente dos serviços de mobilidade  <br/> |5086  <br/> |TCP (MTLS)  <br/> |Porta SIP usada pelos processos internos dos Serviços de Mobilidade  <br/> |
-|Servidores Front-End  <br/> |Componente dos serviços de mobilidade  <br/> |5087  <br/> |TCP (MTLS)  <br/> |Porta SIP usada pelos processos internos dos Serviços de Mobilidade  <br/> |
-|Servidores Front-End  <br/> |Componente dos serviços de mobilidade  <br/> |443  <br/> |HTTPS  <br/> ||
-|Servidores Front-End  <br/> |Skype para o serviço Atendedor de conferência Business Server (conferência discada)  <br/> |5064  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada para conferência discada.  <br/> |
-|Servidores Front-End  <br/> |Skype para o serviço Atendedor de conferência Business Server (conferência discada)  <br/> |5072  <br/> |TCP  <br/> |Usado para solicitações SIP de entrada para Atendedor (discada).  <br/> |
-|Servidores Front-End que também executam um Servidor de Mediação Colocado  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5070  <br/> |TCP  <br/> |Usada pelo Servidor de Mediação para solicitações de entrada do Servidor Front-End para o Servidor de Mediação.  <br/> |
-|Servidores Front-End que também executam um Servidor de Mediação Colocado  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5067  <br/> |TCP (TLS)  <br/> |Usada para solicitações SIP de entrada do gateway PSTN para o Servidor de Mediação.  <br/> |
-|Servidores Front-End que também executam um Servidor de Mediação Colocado  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5068  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada do gateway PSTN para o Servidor de Mediação.  <br/> |
-|Servidores Front-End que também executam um Servidor de Mediação Colocado  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5081  <br/> |TCP  <br/> |Usada para solicitações SIP de saída do Servidor de Mediação para o gateway PSTN.  <br/> |
-|Servidores Front-End que também executam um Servidor de Mediação Colocado  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5082  <br/> |TCP (TLS)  <br/> |Usada para solicitações SIP de saída do Servidor de Mediação para o gateway PSTN.  <br/> |
-|Servidores Front-End  <br/> |Skype para o serviço de compartilhamento de aplicativos de servidor de negócios  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
-|Servidores Front-End  <br/> |Skype para o serviço de compartilhamento de aplicativos de servidor de negócios  <br/> |49152-65535  <br/> |TCP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de anúncio de conferência do servidor de negócios  <br/> |5073  <br/> |TCP  <br/> |Usado para solicitações SIP de entrada para o Skype para serviço de anúncio de conferência do servidor de negócios (ou seja, para conferência discada).  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de estacionamento de chamada do servidor de negócios  <br/> |5075  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada para o aplicativo Estacionamento de Chamadas.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de teste de áudio do servidor de negócios  <br/> |5076  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada para o serviço Teste de Áudio.  <br/> |
-|Servidores Front-End  <br/> |Não aplicável  <br/> |5066  <br/> |TCP  <br/> |Usada para o gateway de E9-1-1 (9-1-1 Avançado) de saída.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de grupo de resposta do servidor de negócios  <br/> |5071  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada para o aplicativo Grupo de Respostas.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de grupo de resposta do servidor de negócios  <br/> |8404  <br/> |TCP (MTLS)  <br/> |Usada para solicitações SIP de entrada para o aplicativo Grupo de Respostas.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de política de largura de banda do Business Server  <br/> |5080  <br/> |TCP  <br/> |Usada para controle de admissão de chamada pelo serviço Política de Largura de banda para tráfego TURN de Borda A/V.  <br/> |
-|Servidores Front-End  <br/> |Skype para serviço de política de largura de banda do Business Server  <br/> |448  <br/> |TCP  <br/> |Usada para controle de admissão de chamada pelo Skype para serviço de política de largura de banda Business Server.  <br/> |
-|Front servidores End em que reside o repositório de gerenciamento Central  <br/> | Skype para o serviço agente replicador mestre do servidor de negócios <br/> |445  <br/> |TCP  <br/> |Usado para enviar dados de configuração do repositório de gerenciamento Central para os servidores que executam o Skype para Business Server.  <br/> |
-|Todos os servidores  <br/> |Navegador do SQL  <br/> |1434  <br/> |UDP  <br/> |Navegador do SQL para cópia local replicada do gerenciamento Central armazenam dados na instância local do SQL Server  <br/> |
-|Todos os servidores internos  <br/> |Vários  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usada para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram áudio: servidores Front-End (para Skype para o serviço Atendedor de conferência do servidor de negócios, Skype para serviço de anúncio de conferência do servidor de negócios e Skype para o serviço de conferência de áudio/vídeo do Business Server), e Servidor de mediação.  <br/> |
-|Servidor Office Web Apps  <br/> ||443  <br/> ||Usada pelo Skype para Business Server para se conectar ao servidor do Office Web Apps.  <br/> |
-|Diretores  <br/> |Skype para serviço de front-end Server de negócios  <br/> |5060  <br/> |TCP  <br/> |Usada como opção para rotas estáticas até os serviços confiáveis, como servidores de controle de chamada remota.  <br/> |
-|Diretores  <br/> |Skype para serviço de front-end Server de negócios  <br/> |444  <br/> |HTTPS  <br/> TCP  <br/> |Comunicação entre servidores entre Front-End e Diretor. Além disso, o certificado de cliente publicar (para servidores Front-End) ou validar se o certificado de cliente já tiver sido publicado.  <br/> |
-|Diretores  <br/> |Skype para serviço de compatibilidade da Web Server Business  <br/> |80  <br/> |TCP  <br/> |Usada para comunicação inicial dos Diretores com os FQDNs de farm da web (as URLs usadas pelos componentes da web IIS). Em uma operação normal, trocará para tráfego HTTPS, usando a porta 443 e o tipo de protocolo TCP.  <br/> |
-|Diretores  <br/> |Skype para serviço de compatibilidade da Web Server Business  <br/> |443  <br/> |HTTPS  <br/> |Usada para comunicação dos Diretores com os FQDNs de farm da web (as URLs usadas pelos componentes da web IIS).  <br/> |
-|Diretores  <br/> |Skype para serviço de front-end Server de negócios  <br/> |5061  <br/> |TCP  <br/> |Usada para comunicações internas entre os servidores e para conexões do cliente.  <br/> |
-|Servidores de mediação  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5070  <br/> |TCP  <br/> |Usada pelo Servidor de mediação para solicitações de entrada do Servidor Front-End.  <br/> |
-|Servidores de mediação  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5067  <br/> |TCP (TLS)  <br/> |Usada para solicitações SIP de entrada do gateway PSTN.  <br/> |
-|Servidores de mediação  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5068  <br/> |TCP  <br/> |Usada para solicitações SIP de entrada do gateway PSTN.  <br/> |
-|Servidores de mediação  <br/> |Skype para serviço de mediação do servidor de negócios  <br/> |5070  <br/> |TCP (MTLS)  <br/> |Usada para solicitações SIP dos Servidores Front-End.  <br/> |
-|Servidor de front-end de bate-papo persistente  <br/> |SIP de bate-papo persistente  <br/> |5041  <br/> |TCP (MTLS)  <br/> ||
-|Servidor de front-end de bate-papo persistente  <br/> |Bate-papo persistente do Windows Communication Foundation (WCF)  <br/> |881  <br/> |TCP (TLS) e TCP (MTLS)  <br/> ||
-|Servidor de front-end de bate-papo persistente  <br/> |Serviço de transferência de arquivos de bate-papo persistente  <br/> |443  <br/> |TCP (TLS)  <br/> ||
+|Todos os servidores  |Navegador do SQL  |1434  |UDP  |Navegador SQL para a cópia replicada local do banco de dados do Repositório de Gerenciamento Central.  |
+|Servidores Front-End  |Skype para serviço de front-end Server de negócios  |5060  |TCP  |Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.  |
+|Servidores Front-End  |Skype para serviço de front-end Server de negócios  |5061  | TCP (TLS) |Usada pelos servidores Standard Edition e pools de front-ends em todas as comunicações SIP internas entre servidores (MTLS), em comunicações SIP entre o servidor e o cliente (TLS) e em comunicações SIP entre os servidores front-end e os servidores de mediação (MTLS). Também é usada em comunicações com o Monitoring Server.  |
+| Servidores Front-End |Skype para serviço de front-end Server de negócios  |444  | HTTPS <br/> TCP  |Usado para comunicação HTTPS entre o foco (o Skype para componente Business Server que gerencia o estado da conferência) e os servidores individuais.  <br/> Essa porta também é usada para comunicação TCP entre servidores Front-End e de aparelhos de filial persistente.  |
+|Servidores Front-End  |Skype para serviço de front-end Server de negócios  |135  |DCOM e RPC (controle de procedimento remoto)  |Usada para operações com base em DCOM, como Movendo Usuários, Sincronização do Replicador do Usuário e Sincronização do Catálogo de Endereços.  |
+|Servidores Front-End  |Skype para o serviço de conferência de mensagens Instantâneas do servidor de negócios  |5062  |TCP  |Usado para solicitações SIP de entrada para conferência de IM (mensagem instantânea).  |
+|Servidores Front-End  |Skype para serviço de Webconferência de servidor de negócios  |8057  |TCP (TLS)  |Usada para escutar conexões PSOM (Modelo de Objeto Compartilhado Persistente) do cliente.  |
+|Servidores Front-End  |Skype para serviço de compatibilidade de webconferência Business Server  |8058  |TCP (TLS)  |Usado para escutar conexões do modelo de objeto Persistent Shared (PSOM) do cliente do Live Meeting e de versões anteriores do Skype para Business Server.  |
+|Servidores Front-End  |Skype para o serviço de conferência de áudio/vídeo do Business Server  |5063  |TCP  |Usada para solicitações SIP de entrada para conferência de áudio/vídeo (A/V).  |
+|Servidores Front-End  |Skype para o serviço de conferência de áudio/vídeo do Business Server  |57501-65535  |TCP/UDP  |Intervalo de porta de mídia usado para videoconferência.  |
+|Servidores Front-End  |Skype para serviço de compatibilidade da Web Server Business  |80  |HTTP  |Usada para comunicação dos Servidores Front-End com os FQDNs do farm da web (as URLs usadas pelos componentes da web IIS) quando HTTPS não é usado.  |
+|Servidores Front-End  |Skype para serviço de compatibilidade da Web Server Business  |443  |HTTPS  |Usado para comunicação dos servidores front-End no farm da web FQDNs (as URLs usadas pelos componentes da web do IIS).  |
+|Servidores Front-End  |Skype para serviço de compatibilidade da Web Server Business  |8080  |TCP e HTTP  |Usado pelos componentes da Web para acesso externo.  |
+|Servidores Front-End  |Servidor de componentes da Web  |4443  |HTTPS  |Comunicações entre pools de front-end HTTPS (de Proxy Reverso) e HTTPS para conexão de Descoberta automática.  |
+|Servidores Front-End  |Servidor de componentes da Web  |8060  |TCP (MTLS)  ||
+|Servidores Front-End  |Servidor de componentes da Web  |8061  |TCP (MTLS)  ||
+|Servidores Front-End  |Componente dos serviços de mobilidade  |5086  |TCP (MTLS)  |Porta SIP usada pelos processos internos dos Serviços de Mobilidade  |
+|Servidores Front-End  |Componente dos serviços de mobilidade  |5087  |TCP (MTLS)  |Porta SIP usada pelos processos internos dos Serviços de Mobilidade  |
+|Servidores Front-End  |Componente dos serviços de mobilidade  |443  |HTTPS  ||
+|Servidores Front-End  |Skype para o serviço Atendedor de conferência Business Server (conferência discada)  |5064  |TCP  |Usada para solicitações SIP de entrada para conferência discada.  |
+|Servidores Front-End  |Skype para o serviço Atendedor de conferência Business Server (conferência discada)  |5072  |TCP  |Usado para solicitações SIP de entrada para Atendedor (discada).  |
+|Servidores Front-End que também executam um Servidor de Mediação Colocado  |Skype para serviço de mediação do servidor de negócios  |5070  |TCP  |Usada pelo Servidor de Mediação para solicitações de entrada do Servidor Front-End para o Servidor de Mediação.  |
+|Servidores Front-End que também executam um Servidor de Mediação Colocado  |Skype para serviço de mediação do servidor de negócios  |5067  |TCP (TLS)  |Usada para solicitações SIP de entrada do gateway PSTN para o Servidor de Mediação.  |
+|Servidores Front-End que também executam um Servidor de Mediação Colocado  |Skype para serviço de mediação do servidor de negócios  |5068  |TCP  |Usada para solicitações SIP de entrada do gateway PSTN para o Servidor de Mediação.  |
+|Servidores Front-End que também executam um Servidor de Mediação Colocado  |Skype para serviço de mediação do servidor de negócios  |5081  |TCP  |Usada para solicitações SIP de saída do Servidor de Mediação para o gateway PSTN.  |
+|Servidores Front-End que também executam um Servidor de Mediação Colocado  |Skype para serviço de mediação do servidor de negócios  |5082  |TCP (TLS)  |Usada para solicitações SIP de saída do Servidor de Mediação para o gateway PSTN.  |
+|Servidores Front-End  |Skype para o serviço de compartilhamento de aplicativos de servidor de negócios  |5065  |TCP  |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  |
+|Servidores Front-End  |Skype para o serviço de compartilhamento de aplicativos de servidor de negócios  |49152-65535  |TCP  |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  |
+|Servidores Front-End  |Skype para serviço de anúncio de conferência do servidor de negócios  |5073  |TCP  |Usado para solicitações SIP de entrada para o Skype para serviço de anúncio de conferência do servidor de negócios (ou seja, para conferência discada).  |
+|Servidores Front-End  |Skype para serviço de estacionamento de chamada do servidor de negócios  |5075  |TCP  |Usada para solicitações SIP de entrada para o aplicativo Estacionamento de Chamadas.  |
+|Servidores Front-End  |Skype para serviço de teste de áudio do servidor de negócios  |5076  |TCP  |Usada para solicitações SIP de entrada para o serviço Teste de Áudio.  |
+|Servidores Front-End  |Não aplicável  |5066  |TCP  |Usada para o gateway de E9-1-1 (9-1-1 Avançado) de saída.  |
+|Servidores Front-End  |Skype para serviço de grupo de resposta do servidor de negócios  |5071  |TCP  |Usada para solicitações SIP de entrada para o aplicativo Grupo de Respostas.  |
+|Servidores Front-End  |Skype para serviço de grupo de resposta do servidor de negócios  |8404  |TCP (MTLS)  |Usada para solicitações SIP de entrada para o aplicativo Grupo de Respostas.  |
+|Servidores Front-End  |Skype para serviço de política de largura de banda do Business Server  |5080  |TCP  |Usada para controle de admissão de chamada pelo serviço Política de Largura de banda para tráfego TURN de Borda A/V.  |
+|Servidores Front-End  |Skype para acesso do servidor de compartilhamento de arquivos do servidor de negócios  |445   |SMB/TCP  | Usado para recuperar o catálogo de endereço, conteúdo da reunião e outros itens armazenados no servidor de compartilhamento de arquivos.  |
+|Servidores Front-End  |Skype para serviço de política de largura de banda do Business Server  |448  |TCP  |Usada para controle de admissão de chamada pelo Skype para serviço de política de largura de banda Business Server.  |
+|Front servidores End em que reside o repositório de gerenciamento Central  | Skype para o serviço agente replicador mestre do servidor de negócios |445  |TCP  |Usado para enviar dados de configuração do repositório de gerenciamento Central para os servidores que executam o Skype para Business Server.  |
+|Todos os servidores  |Navegador do SQL  |1434  |UDP  |Navegador do SQL para cópia local replicada do gerenciamento Central armazenam dados na instância local do SQL Server  |
+|Todos os servidores internos  |Vários  |49152-57500  |TCP/UDP  |Intervalo de porta de mídia usada para audioconferência em todos os servidores internos. Usado por todos os servidores que encerram áudio: servidores Front-End (para Skype para o serviço Atendedor de conferência do servidor de negócios, Skype para serviço de anúncio de conferência do servidor de negócios e Skype para o serviço de conferência de áudio/vídeo do Business Server), e Servidor de mediação.  |
+|Servidor Office Web Apps  ||443  ||Usada pelo Skype para Business Server para se conectar ao servidor do Office Web Apps.  |
+|Diretores  |Skype para serviço de front-end Server de negócios  |5060  |TCP  |Usada como opção para rotas estáticas até os serviços confiáveis, como servidores de controle de chamada remota.  |
+|Diretores  |Skype para serviço de front-end Server de negócios  |444  |HTTPS  <br/> TCP  |Comunicação entre servidores entre Front-End e Diretor. Além disso, o certificado de cliente publicar (para servidores Front-End) ou validar se o certificado de cliente já tiver sido publicado.  |
+|Diretores  |Skype para serviço de compatibilidade da Web Server Business  |80  |TCP  |Usada para comunicação inicial dos Diretores com os FQDNs de farm da web (as URLs usadas pelos componentes da web IIS). Em uma operação normal, trocará para tráfego HTTPS, usando a porta 443 e o tipo de protocolo TCP.  |
+|Diretores  |Skype para serviço de compatibilidade da Web Server Business  |443  |HTTPS  |Usada para comunicação dos Diretores com os FQDNs de farm da web (as URLs usadas pelos componentes da web IIS).  |
+|Diretores  |Skype para serviço de front-end Server de negócios  |5061  |TCP  |Usada para comunicações internas entre os servidores e para conexões do cliente.  |
+|Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5070  |TCP  |Usada pelo Servidor de mediação para solicitações de entrada do Servidor Front-End.  |
+|Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5067  |TCP (TLS)  |Usada para solicitações SIP de entrada do gateway PSTN.  |
+|Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5068  |TCP  |Usada para solicitações SIP de entrada do gateway PSTN.  |
+|Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5070  |TCP (MTLS)  |Usada para solicitações SIP dos Servidores Front-End.  |
+|Servidor de front-end de bate-papo persistente  |SIP de bate-papo persistente  |5041  |TCP (MTLS)  ||
+|Servidor de front-end de bate-papo persistente  |Bate-papo persistente do Windows Communication Foundation (WCF)  |881  |TCP (TLS) e TCP (MTLS)  ||
+|Servidor de front-end de bate-papo persistente  |Serviço de transferência de arquivos de bate-papo persistente  |443  |TCP (TLS)  ||
    
 > [!NOTE]
 > Alguns cenários de controle de chamada remota exigem uma conexão TCP entre o Servidor Front-End ou o Diretor e o PBX. Embora Skype para Business Server não são mais usa a porta TCP 5060, durante a implantação do controle de chamada remota você criar uma configuração de servidores confiáveis, que associa o FQDN do servidor de linha RCC a porta TCP que o servidor Front-End ou diretor usará para se conectar ao Sistema PBX. Para obter detalhes, consulte o cmdlet **CsTrustedApplicationComputer** no Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
@@ -109,64 +110,64 @@ Para os seus pools que usam somente o balanceamento de carga de hardware (não o
   
 **Portas do balanceador de carga de hardware se estiver usando somente o balanceador de carga de hardware**
 
-|**Balanceador de carga**|**Porta**|**Protocolo**|
+|Balanceador de carga|Porta|Protocolo|
 |:-----|:-----|:-----|
-|Balanceador de carga do Servidor Front-End  <br/> |5061  <br/> |TCP (TLS)  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |444  <br/> |HTTPS  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |135  <br/> |DCOM e RPC (controle de procedimento remoto)  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |80  <br/> |HTTP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |8080  <br/> |Clientes TCP - recuperação de clientes e dispositivos do certificado raiz do servidor Front-End - e dispositivos autenticados por NTLM  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |443  <br/> |HTTPS  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |4443  <br/> |HTTPS (do proxy reverso)  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |5072  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |5073  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |5075  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |5076  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |5071  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |5080  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |448  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor de mediação  <br/> |5070  <br/> |TCP  <br/> |
-|Balanceador de carga do Servidor Front-End (se o pool também executa o Servidor de mediação)  <br/> |5070  <br/> |TCP  <br/> |
-|Balanceador de carga do Diretor  <br/> |443  <br/> |HTTPS  <br/> |
-|Balanceador de carga do Diretor  <br/> |444  <br/> |HTTPS  <br/> |
-|Balanceador de carga do Diretor  <br/> |5061  <br/> |TCP  <br/> |
-|Balanceador de carga do Diretor  <br/> |4443  <br/> |HTTPS (do proxy reverso)  <br/> |
+|Balanceador de carga do Servidor Front-End  |5061  |TCP (TLS)  |
+|Balanceador de carga do Servidor Front-End  |444  |HTTPS  |
+|Balanceador de carga do Servidor Front-End  |135  |DCOM e RPC (controle de procedimento remoto)  |
+|Balanceador de carga do Servidor Front-End  |80  |HTTP  |
+|Balanceador de carga do Servidor Front-End  |8080  |Clientes TCP - recuperação de clientes e dispositivos do certificado raiz do servidor Front-End - e dispositivos autenticados por NTLM  |
+|Balanceador de carga do Servidor Front-End  |443  |HTTPS  |
+|Balanceador de carga do Servidor Front-End  |4443  |HTTPS (do proxy reverso)  |
+|Balanceador de carga do Servidor Front-End  |5072  |TCP  |
+|Balanceador de carga do Servidor Front-End  |5073  |TCP  |
+|Balanceador de carga do Servidor Front-End  |5075  |TCP  |
+|Balanceador de carga do Servidor Front-End  |5076  |TCP  |
+|Balanceador de carga do Servidor Front-End  |5071  |TCP  |
+|Balanceador de carga do Servidor Front-End  |5080  |TCP  |
+|Balanceador de carga do Servidor Front-End  |448  |TCP  |
+|Balanceador de carga do Servidor de mediação  |5070  |TCP  |
+|Balanceador de carga do Servidor Front-End (se o pool também executa o Servidor de mediação)  |5070  |TCP  |
+|Balanceador de carga do Diretor  |443  |HTTPS  |
+|Balanceador de carga do Diretor  |444  |HTTPS  |
+|Balanceador de carga do Diretor  |5061  |TCP  |
+|Balanceador de carga do Diretor  |4443  |HTTPS (do proxy reverso)  |
    
 Seus pools do Front-End e do Diretor que usam o balanceamento de carga DNS também precisam ter um balanceador de carga de hardware implantado. A tabela a seguir mostra as portas que precisam ser abertas nesses balanceadores de carga de hardware.
   
 **Portas do balanceador de carga de hardware se estiver usando o balanceamento de carga DNS**
 
-|**Balanceador de carga**|**Porta**|**Protocolo**|
+|Balanceador de carga|Porta|Protocolo|
 |:-----|:-----|:-----|
-|Balanceador de carga do Servidor Front-End  <br/> |80  <br/> |HTTP  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |443  <br/> |HTTPS  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |8080  <br/> |Clientes TCP - recuperação de clientes e dispositivos do certificado raiz do servidor Front-End - e dispositivos autenticados por NTLM  <br/> |
-|Balanceador de carga do Servidor Front-End  <br/> |4443  <br/> |HTTPS (do proxy reverso)  <br/> |
-|Balanceador de carga do Diretor  <br/> |443  <br/> |HTTPS  <br/> |
-|Balanceador de carga do Diretor  <br/> |4443  <br/> |HTTPS (do proxy reverso)  <br/> |
-   
+|Balanceador de carga do Servidor Front-End  |80  |HTTP  |
+|Balanceador de carga do Servidor Front-End  |443  |HTTPS  |
+|Balanceador de carga do Servidor Front-End  |8080  |Clientes TCP - recuperação de clientes e dispositivos do certificado raiz do servidor Front-End - e dispositivos autenticados por NTLM  |
+|Balanceador de carga do Servidor Front-End  |4443  |HTTPS (do proxy reverso)  |
+|Balanceador de carga do Diretor  |443  |HTTPS  |
+|Balanceador de carga do Diretor  |4443  |HTTPS (do proxy reverso)  |
+
 **Portas do cliente necessárias**
 
-|**Componente**|**Porta**|**Protocolo**|**Observações**|
+|Componente|Porta|Protocolo|Notas|
 |:-----|:-----|:-----|:-----|
-|Clientes  <br/> |67/68  <br/> |DHCP  <br/> |Usado pelo Skype para Business Server para encontrar o FQDN do registrador (ou seja, se o DNS SRV falhar e as configurações manuais não forem definidas).  <br/> |
-|Clientes  <br/> |443  <br/> |TCP (TLS)  <br/> |Usada para tráfego SIP do cliente para o servidor para acesso de usuário externo.  <br/> |
-|Clientes  <br/> |443  <br/> |TCP (PSOM/TLS)  <br/> |Usada para acesso de usuário externo às sessões de webconferência.  <br/> |
-|Clientes  <br/> |443  <br/> |TCP (STUN/MSTURN)  <br/> |Usada para acesso de usuário externa às sessões de A/V e mídia (TCP)  <br/> |
-|Clientes  <br/> |3478  <br/> |UDP (STUN/MSTURN)  <br/> |Usada para acesso de usuário externo às sessões de A/V e mídia (UDP)  <br/> |
-|Clientes  <br/> |5061  <br/> |TCP (MTLS)  <br/> |Usada para tráfego SIP do cliente para o servidor para acesso de usuário externo.  <br/> |
-|Clientes  <br/> |6891-6901  <br/> |TCP  <br/> |Usado para transferência de arquivos entre Skype para clientes corporativos e antigos clientes.  <br/> |
-|Clientes  <br/> |1024-65535\*  <br/> |TCP/UDP  <br/> |Intervalo de porta de áudio (mínimo de 20 portas necessárias)  <br/> |
-|Clientes  <br/> |1024-65535\*  <br/> |TCP/UDP  <br/> |Intervalo de porta de vídeo (mínimo de 20 portas necessárias).  <br/> |
-|Clientes  <br/> |1024-65535\*  <br/> |TCP  <br/> |Transferência de arquivos ponto a ponto (para transferência de arquivo de conferência, clientes que usam PSOM).  <br/> |
-|Clientes  <br/> |1024-65535\*  <br/> |TCP  <br/> |Compartilhamento de aplicativos.  <br/> |
-|Telefone de área comum Aastra 6721ip  <br/> Telefone de mesa Aastra 6725ip  <br/> Telefone IP HP 4110 (telefone de área comum)  <br/> Telefone IP HP 4120 (telefone de mesa)  <br/> Telefone de área comum IP Polycom CX500  <br/> Telefone de mesa IP Polycom CX600  <br/> Telefone de mesa IP Polycom CX700  <br/> Telefone de conferência IP Polycom CX3000  <br/> |67/68  <br/> |DHCP  <br/> |Usada pelos dispositivos listados para encontrar o Skype para o certificado do servidor de negócios, fornecendo FQDN e FQDN do registrador.  <br/> |
+|Clientes  |67/68  |DHCP  |Usado pelo Skype para Business Server para encontrar o FQDN do registrador (ou seja, se o DNS SRV falhar e as configurações manuais não forem definidas).  |
+|Clientes  |443  |TCP (TLS)  |Usada para tráfego SIP do cliente para o servidor para acesso de usuário externo.  |
+|Clientes  |443  |TCP (PSOM/TLS)  |Usada para acesso de usuário externo às sessões de webconferência.  |
+|Clientes  |443  |TCP (STUN/MSTURN)  |Usada para acesso de usuário externa às sessões de A/V e mídia (TCP)  |
+|Clientes  |3478  |UDP (STUN/MSTURN)  |Usada para acesso de usuário externo às sessões de A/V e mídia (UDP)  |
+|Clientes  |5061  |TCP (MTLS)  |Usada para tráfego SIP do cliente para o servidor para acesso de usuário externo.  |
+|Clientes  |6891-6901  |TCP  |Usado para transferência de arquivos entre Skype para clientes corporativos e antigos clientes.  |
+|Clientes  |1024-65535\*  |TCP/UDP  |Intervalo de porta de áudio (mínimo de 20 portas necessárias)  |
+|Clientes  |1024-65535\*  |TCP/UDP  |Intervalo de porta de vídeo (mínimo de 20 portas necessárias).  |
+|Clientes  |1024-65535\*  |TCP  |Transferência de arquivos ponto a ponto (para transferência de arquivo de conferência, clientes que usam PSOM).  |
+|Clientes  |1024-65535\*  |TCP  |Compartilhamento de aplicativos.  |
+|Telefone de área comum Aastra 6721ip  <br/> Telefone de mesa Aastra 6725ip  <br/> Telefone IP HP 4110 (telefone de área comum)  <br/> Telefone IP HP 4120 (telefone de mesa)  <br/> Telefone de área comum IP Polycom CX500  <br/> Telefone de mesa IP Polycom CX600  <br/> Telefone de mesa IP Polycom CX700  <br/> Telefone de conferência IP Polycom CX3000  |67/68  |DHCP  |Usada pelos dispositivos listados para encontrar o Skype para o certificado do servidor de negócios, fornecendo FQDN e FQDN do registrador.  |
    
 \*Para configurar portas específicas para esses tipos de mídia, use o cmdlet CsConferencingConfiguration (parâmetros ClientMediaPortRangeEnabled, ClientMediaPort e ClientMediaPortRange).
   
 > [!NOTE]
 > Os programas de instalação de Skype para clientes corporativos criam automaticamente as exceções de firewall necessárias para o sistema operacional no computador cliente. 
-  
+
 > [!NOTE]
 > As portas que são usadas para acesso de usuários externos são necessárias para qualquer cenário no qual o cliente deve atravessar do firewall da organização (por exemplo, qualquer comunicações externas ou reuniões hospedadas por outras empresas). 
   
@@ -178,22 +179,20 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
   
 **Exceções recomendadas do IPsec**
 
-|**Nome da regra**|**IP de origem**|**IP de destino**|**Protocolo**|**Porta de origem**|**Porta de destino**|**Requisito de autenticação**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Entrada interna do Servidor de Borda A/V  <br/> |Qualquer um  <br/> |Interno do Servidor de Borda A/V  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Entrada externa do Servidor de Borda A/V  <br/> |Qualquer um  <br/> |Externo do Servidor de Borda A/V  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Saída interna do Servidor de Borda A/V  <br/> |Interno do Servidor de Borda A/V  <br/> |Qualquer um  <br/> |UDP &amp; TCP  <br/> |Qualquer  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Saída externa do Servidor de Borda A/V  <br/> |Externo do Servidor de Borda A/V  <br/> |Qualquer um  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Entrada do Servidor de Mediação  <br/> |Qualquer um  <br/> |Mediação  <br/> Servidor(es)  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Saída do Servidor de Mediação  <br/> |Mediação  <br/> Servidor(es)  <br/> |Qualquer um  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Entrada do Atendedor de Conferência  <br/> |Qualquer um  <br/> |Servidor Front-End executando o Atendedor de Conferência  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Saída do Atendedor de Conferência  <br/> |Servidor Front-End executando o Atendedor de Conferência  <br/> |Qualquer um  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Entrada de Conferência A/V  <br/> |Qualquer um  <br/> |Servidores Front-End  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Saída de Conferência A/V  <br/> |Servidores Front-End  <br/> |Qualquer um  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Entrada do Exchange  <br/> |Qualquer um  <br/> |Unificação de Mensagens do Exchange  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Entrada dos Servidores de Compartilhamento de Aplicativo  <br/> |Qualquer um  <br/> |Servidores de Compartilhamento de Aplicativos  <br/> |TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Saída do Servidor de Compartilhamento de Aplicativos  <br/> |Servidores de Compartilhamento de Aplicativos  <br/> |Qualquer um  <br/> |TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Saída do Exchange  <br/> |Unificação de Mensagens do Exchange  <br/> |Qualquer um  <br/> |UDP e TCP  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-|Clientes  <br/> |Qualquer um  <br/> |Qualquer um  <br/> |UDP  <br/> |Intervalo especificado de portas de mídia  <br/> |Qualquer um  <br/> |Não autenticar  <br/> |
-   
-
+|Nome da regra|IP de origem|IP de destino|Protocolo|Porta de origem|Porta de destino|Requisito de autenticação|
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|Entrada interna do Servidor de Borda A/V  |Qualquer um  |Interno do Servidor de Borda A/V  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Entrada externa do Servidor de Borda A/V  |Qualquer um  |Externo do Servidor de Borda A/V  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Saída interna do Servidor de Borda A/V  |Interno do Servidor de Borda A/V  |Qualquer um  |UDP &amp; TCP  |Qualquer  |Qualquer um  |Não autenticar  |
+|Saída externa do Servidor de Borda A/V  |Externo do Servidor de Borda A/V  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Entrada do Servidor de Mediação  |Qualquer um  |Mediação  <br/> Servidor(es)  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Saída do Servidor de Mediação  |Mediação  <br/> Servidor(es)  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Entrada do Atendedor de Conferência  |Qualquer um  |Servidor Front-End executando o Atendedor de Conferência  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Saída do Atendedor de Conferência  |Servidor Front-End executando o Atendedor de Conferência  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Entrada de Conferência A/V  |Qualquer um  |Servidores Front-End  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Saída de Conferência A/V  |Servidores Front-End  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Entrada do Exchange  |Qualquer um  |Unificação de Mensagens do Exchange  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Entrada dos Servidores de Compartilhamento de Aplicativo  |Qualquer um  |Servidores de Compartilhamento de Aplicativos  |TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Saída do Servidor de Compartilhamento de Aplicativos  |Servidores de Compartilhamento de Aplicativos  |Qualquer um  |TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Saída do Exchange  |Unificação de Mensagens do Exchange  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
+|Clientes  |Qualquer um  |Qualquer um  |UDP  |Intervalo especificado de portas de mídia  |Qualquer um  |Não autenticar  |
