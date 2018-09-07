@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Use personagens e análise de rede para avaliar a preparação da sua organização, abra as portas TCP e UDP corretas, executar qualquer correção de rede.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c7e7cc159634edcbd6b108c60fe42108adebac
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 1ba38b78727e21286c05eed556ad0238b2359499
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396761"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857199"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar o meu ambiente
 
@@ -191,7 +192,7 @@ Quando o teste esses problemas, podemos distinguir entre dois segmentos separado
 
 -   O *segmento de cliente* é o segmento de rede lógica nos quais residem os seus clientes.
 
-Você deve testar os dois segmentos usando a ferramenta de avaliação de rede. Para testar o segmento, navegue até o diretório e insira **networkassessmenttool.exe** no prompt de comando. Os resultados são gravados em um arquivo chamado Results.tsv e compará-los com os [requisitos](https://docs.microsoft.com/en-us/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?ui=en-US&rs=en-US&ad=US) para cada segmento.
+Você deve testar os dois segmentos usando a ferramenta de avaliação de rede. Para testar o segmento, navegue até o diretório e insira **networkassessmenttool.exe** no prompt de comando. Os resultados são gravados em um arquivo chamado Results.tsv e compará-los com os [requisitos](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) para cada segmento.
 
 Observe que os dois segmentos devem cumprir os requisitos para uma implantação de alta qualidade. Recomendamos que você execute a ferramenta várias vezes por uma hora diretamente para fazer uma boa indicação de desempenho da sua rede.
 

@@ -3,21 +3,22 @@ title: Implantação do Cloud Voice
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: MyAdvisor
 description: Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12c7f9378144134a0e09d90e838ca3bc62178ffb
-ms.sourcegitcommit: 57c8211047e6e6501cd1f9eefddfe4da36cb7d7f
+ms.openlocfilehash: 001c1b0f69108630267f368b065cc8d72c0b38c5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2018
-ms.locfileid: "20302131"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855275"
 ---
 # <a name="cloud-voice-deployment"></a>Implantação do Cloud Voice
 
@@ -41,7 +42,7 @@ O Sistema de Telefonia é um recurso do Office 365 que permite gerenciar o encam
 
 Planos de chamada é um serviço complementar para o recurso de sistema telefônico, fornecido por meio de equipes e Skype para negócios Online. Planos de chamada exige que o usuário em questão ser hospedados em Skype para negócios Online trabalhar em Teams da Microsoft. Planos de chamadas fornecem as pessoas em sua empresa com um número de telefone principal e permite que eles façam e recebam chamadas telefônicas fora da sua organização no PSTN.
 
-Para saber mais, leia [aqui está o que fazer com o sistema telefônico no Office 365](https://support.office.com/article/Here-s-what-you-get-with-Phone-System-in-Office-365-bc9756d1-8a2f-42c4-98f6-afb17c29231c) e [Cite chamar planos no Office 365?](https://support.office.com/article/What-are-Calling-Plans-in-Office-365-3dc773b9-95e0-4448-b2f1-887c54022429)
+Para saber mais, leia [aqui está o que fazer com o sistema telefônico no Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) e [Cite chamar planos no Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
 
 
 ## <a name="phone-system-direct-routing-direct-routing"></a>Sistema de telefone direto roteamento ("diretos de roteamento")

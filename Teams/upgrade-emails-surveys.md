@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Plano de e-mails de exemplo e pesquisas usar em conjunciton com a ação de etapa de dez acelerada para atualizar do Skype for Business para equipes
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 723a90609b6ef704d368e93ce915ac9027d58d4a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 89a4f9f1d43c3bb10038460104fa6198c2939b87
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244512"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850879"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Emails de amostra e pesquisas para comunicações atualizar básica
 

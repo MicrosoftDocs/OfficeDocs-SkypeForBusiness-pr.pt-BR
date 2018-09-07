@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Use estas diretrizes para saber mais sobre os requisitos necessários para entregar e manter uma implantação do Microsoft Teams de alta qualidade.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6114120998425acdd443ab852b3f39fd2549b5ff
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 58f99698f5168f428900095a813a8361955255e6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779944"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854145"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -345,7 +346,7 @@ Esta tabela inclui um resumo das atividades de planejamento com links para conte
 | | Instalar modelos de revisão de experiência de qualidade <br/> Carregar um arquivo de construção | [Modelos de QERLite](https://aka.ms/qertemplates) <br/> [Informações de construção de carregamento](turning-on-and-using-call-quality-dashboard.md)|
 | Planejar a qualidade da rede | Execute Planejador de rede | [Planejador de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
 | | Implementar o QoS | [Qualidade de serviço em equipes da Microsoft](qos-in-teams.md) |
-| | Ignorar servidores proxy | [Orientação de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a?ad=US#ID0EABAAA=2._Proxies&ID0EAEAAA=2._Proxies) |
+| | Ignorar servidores proxy | [Orientação de proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implementar a divisão de túnel VPN | [Orientação de túnel de divisão VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Otimizar redes Wi-Fi para a mídia em tempo real  | Consulte fornecedores terceirizados |
 | | Implementar a saída de internet local | [Saída de Internet local](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |

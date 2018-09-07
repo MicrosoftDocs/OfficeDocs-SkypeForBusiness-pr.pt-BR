@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
+search.appverid: MET150
 description: Compreender como gerenciar todo o inquilino e configurações de usuário para as equipes durante a transição das equipes de experiência com o Centro de administração do Office 365 para o novo Teams Microsoft & Skype para Business Admin Center.
 localization_priority: Priority
 ms.custom:
@@ -15,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5528ecfc3d47738e0f34b56f007e36d193d95da6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b81853b33f457dd8a69890774b4b7ff8902d8226
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968184"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864823"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Gerenciar equipes durante a transição para o novo Teams da Microsoft e Skype para Business Admin Center
 ======================================================
@@ -44,7 +45,7 @@ A nova experiência do Centro de administração fornecerá a você uma experiê
 Iniciando em março intermediário 2018, os seguintes recursos foram disponíveis no novo Teams Microsoft & Skype para Business Admin Center: 
 
 - **Política de mensagens de equipes da Microsoft**: criar a política de gerenciamento de nível do usuário da experiência do cliente do Microsoft Teams para cenários de mensagens.
-- **Política de atualização de equipes da Microsoft**: configurar a experiência de atualização e interoperabilidade entre Skype para negócios e Teams da Microsoft. Consulte, https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
+- **Política de atualização de equipes da Microsoft**: configurar a experiência de atualização e interoperabilidade entre Skype para negócios e Teams da Microsoft. Consulte, https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype. 
 - **Configurações de mensagens de convidado de equipes da Microsoft**: controlar os recursos de mensagens para contas de convidado no Microsoft Teams. 
 - **Configurações de Federação**: gerenciar a federação entre locatários for Microsoft Teams e Skype para negócios. 
 - **Gerenciamento de usuários**: Atribuir políticas e configurar as contas de usuário. 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. '
-ms.openlocfilehash: 96cdb021ef2563a0f2de014bf14675cf0722a197
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 712f7ac65e3a473968632bb8dcc0569bd9471b0d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23784146"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855665"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
-Se você é [Administrador global do Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), pode configurar o Skype for Business para reproduzir a saudação padrão da caixa postal em outro idioma. A saudação padrão do sistema é semelhante a: "Por favor, deixe uma mensagem para John Smith. Grave sua mensagem após o sinal. Ao final da gravação, desligue ou pressione a tecla jogo da velha para ver mais opções". 
+Se você é [Administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d), pode configurar o Skype for Business para reproduzir a saudação padrão da caixa postal em outro idioma. A saudação padrão do sistema é semelhante a: "Por favor, deixe uma mensagem para John Smith. Grave sua mensagem após o sinal. Ao final da gravação, desligue ou pressione a tecla jogo da velha para ver mais opções". 
   
  **Primeiro, leia estas informações importantes:**
   
@@ -40,13 +41,13 @@ Se você é [Administrador global do Office 365](https://support.office.com/en-u
     > [!NOTE]
     > Depois de entrar, os usuários podem alterar seu próprio idioma de saudação por meio das configurações. 
   
-- **Deseja gravar sua mensagem de caixa postal de saída?** Veja [Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/en-us/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+- **Deseja gravar sua mensagem de caixa postal de saída?** Veja [Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
 
 - **Você deseja alterar o idioma de prompt de caixa postal?** Vá para [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em **Prompt de idioma**.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Alterar o idioma do sistema para todas as pessoas na organização
 
-1. Entrar com sua conta de [administrador global do Office 365](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
+1. Entrar com sua conta de [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) em[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home). 
     
 2. No Centro de administração, escolha **Configurações** > **Perfil da organização**. 
     
@@ -70,11 +71,11 @@ Se você é [Administrador global do Office 365](https://support.office.com/en-u
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Alterar seu idioma de exibição e fuso horário no Office 365 para empresas](https://support.office.com/en-us/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Alterar seu idioma de exibição e fuso horário no Office 365 para empresas](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
-- [Adicionar um idioma ou definir preferências de idioma no Office 2010 e posterior](https://support.office.com/en-us/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
+- [Adicionar um idioma ou definir preferências de idioma no Office 2010 e posterior](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     
-- [Habilitar ou alterar o idioma de layout do teclado](https://support.office.com/en-us/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+- [Habilitar ou alterar o idioma de layout do teclado](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
  

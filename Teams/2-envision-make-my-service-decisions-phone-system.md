@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Escolha de chamar planos e licenciamento, configure locais de emergência e recursos, como ID do chamador e de caixa postal, adquirir ou transferir os números de telefone.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 477a68996e50c916923948fecbb1dc1e978450b9
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 90cdd9efb2d4b80f9ad8c9ef9bb38dd2adf8bbcd
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780907"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23859993"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -125,7 +126,7 @@ Caixa postal de sistema telefônico, possibilitada pela serviços de caixa posta
 
 Por padrão, o sistema telefônico voicemail funciona com o Exchange Online; No entanto ele tenha um mínimo com suporte Exchange local versão e implantação modelo para permitir a entrega de mensagens de caixa postal para caixas de correio do usuário na implantação do Exchange local.
 
-A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) para obter mais detalhes.
+A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) para obter mais detalhes.
 
 >[!NOTE]
 > Foi implementado um mecanismo de fallback de modo que a caixa postal do Sistema de Telefonia possa reenviar mensagens usando o protocolo SMTP. Isso quer dizer que os usuários com uma caixa de correio em um sistema de email de terceiros receberá suas mensagens da caixa postal. Esse mecanismo não inclui o tempo de atividade de serviço garantido ou outros recursos de caixa postal, como alterar a saudação da caixa postal.

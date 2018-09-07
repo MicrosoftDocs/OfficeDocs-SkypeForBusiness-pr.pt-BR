@@ -9,6 +9,7 @@ ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -24,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: dede3b8c1d3e844399973046d0569f8b3e3fca20
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6be4aa215277fb8e5a1d4186cdac17eed5ca3d1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785602"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853339"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -149,7 +150,7 @@ Com a Audioconferência, há números de telefone de chamada tarifada e gratuita
 
 Para saber mais sobre a Audioconferência, consulte [Perguntas comuns sobre a audioconferência](../audio-conferencing-common-questions.md)
 
-[Preços da Audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements) 
+[Preços da Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Uso do recurso Telefonar para Mim ou ao adicionar outras pessoas a uma reunião para que elas possam ingressar
 Na Audioconferência, há um recurso chamado "*Telefonar para Mim*" que pode ser usado para permitir que outras pessoas ingressem em uma reunião discada. Use a lista suspensa acima para pesquisar o país/região e ver se o recurso está disponível.
@@ -164,7 +165,7 @@ Com o Sistema de Telefonia, você pode criar atendedores automáticos e filas de
 
 Além de obter números de telefone para usuários individuais do Office 365, também é possível pesquisar e adquirir números de telefone de chamada gratuita ou tarifada para serviços como Audioconferência (para pontes de conferência), atendedores automáticos e filas de chamadas. Eles são chamados de números de serviço. Consulte [números de telefone do serviço de Introdução](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) para obter os números de telefone. Mas, depois que você atribuir um Plano de Chamadas a seus usuários, poderá atribuir um número de telefone do usuário para que possam fazer e receber chamadas telefônicas. Para encontrar esses números de telefone, vá para [obter números de telefone para seus usuários](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users). Veja também [Atribuir, alterar ou remover o número de telefone de um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-change-or-remove-a-phone-number-for-a-user). 
 
-[Preços do Sistema de Telefonia](https://products.office.com/en-us/skype-for-business/phone-system#Requirements)
+[Preços do Sistema de Telefonia](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
 > A disponibilidade de números de telefone de chamada tarifada em alguns destes locais pode variar a qualquer momento dependendo dos níveis de inventário. 

@@ -1,5 +1,5 @@
 ---
-title: Lista de certificados para o roteamento direto de controladores de borda de sessão
+title: Lista de controladores de borda da sessão certificados para Roteamento Direto
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,48 +9,48 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
-description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seu SBC para trabalham com o roteamento direto.
+description: Microsoft estabelece parceria com fornecedores de SBCs selecionados para certificar os SBCs para a operação com Roteamento Direto.
 ms.openlocfilehash: f233bdfcb579bbab3d9c9a13f0ab500a8c512d2e
 ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23850831"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de certificados para o roteamento direto de controladores de borda de sessão
+# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
-Parceiros da Microsoft com selecionado fornecedores de controladores de borda de sessão (SBC) para certificar que seus SBCs para trabalhar com o roteamento direto. 
+Microsoft estabelece parceria com fornecedores de controladores de borda da sessão (SBC, Session Border Controller) selecionados para certificar os SBCs para a operação com Roteamento Direto. 
 
-Com cada fornecedor, Microsoft: 
+Em relação a cada fornecedor, a Microsoft: 
 
-- Funciona em conjunto com os fornecedores SBC nos protocolos interconexão SIP.
-- Realiza testes intensos por meio de um laboratório de terceiros; somente os dispositivos que passaram nos testes são certificados. 
-- Executa testes diários com todos os dispositivos de certificados em ambientes de produção e de pré-produção. Validar os dispositivos em ambientes de pré-produção e garante que as novas versões de código de roteamento direto na nuvem funcionará com certificados SBCs. 
-- Tem um processo de suporte em conjunto com os fornecedores SBC.
+- Trabalha em conjunto com os fornecedores de SBCs nos protocolos de interconexão SIP.
+- Realiza testes intensivos por meio de um laboratório de terceiros; somente os dispositivos aprovados nos testes são certificados. 
+- Realiza testes diários com todos os dispositivos certificados em ambientes de produção e pré-produção. A validação dos dispositivos em ambientes de pré-produção garante que as novas versões do código de Roteamento Direto na nuvem funcionarão com os SBCs certificados. 
+- Tem um processo de suporte conjunto com os fornecedores de SBCs.
  
 
   > [!NOTE]
-  > Microsoft suporta apenas o sistema telefônico se um dispositivo de certificados ou dispositivos conectados por meio de roteamento direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que um dispositivo não certificados está conectado ao sistema telefônico via roteamento direto. 
+  > A Microsoft dará suporte ao Sistema de Telefonia somente se um ou vários dispositivos certificados estiverem conectados via Roteamento Direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que há um dispositivo não certificado conectado ao Sistema de Telefonia via Roteamento Direto. 
 
-A tabela abaixo lista os dispositivos de certificados para o roteamento direto. 
+A tabela a seguir lista os dispositivos certificados para Roteamento Direto. 
 
-[Saiba mais sobre o roteamento direto](https://aka.ms/dr). Se você tiver alguma dúvida sobre o programa de certificação de SBC para roteamento direto envie um e-mail para drsbccertification@microsoft.com
+[Saiba mais sobre o Roteamento Direto](https://aka.ms/dr). Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamento Direto, envie um email para drsbccertification@microsoft.com
 
 
-|Fornecedor  |Produto  |Bypass de mídia não  |Bypass de mídia  |Versão do software|
+|Fornecedor  |Produto  |Sem bypass de mídia  |Bypass de mídia  |Versão do software|
 |---------|---------|---------|---------|---------|
-|[AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    & #10004;     |    Pendente      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |    & #10004;      |     Pendente    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |     & #10004;     |    Pendente     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |     & #10004;     |    Pendente     |    7.20A.200.055      |
-|     |    Mediant 1000B SBC   |    & #10004;      |  Pendente       |    7.20A.200.055   |
-|     |   Virtual Edition SBC    |   & #10004;   |Pendente         |     7.20A.200.055     |
-|[Comunicações de faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    & #10004;      |   Pendente      |     6.2     |
-|     |SBC 5210     |     & #10004;     |    Pendente     |    6.2      |
-|     | SBC 5400     |    & #10004;  |    Pendente     |   6.2    |
-|     |SBC 7000     |     & #10004;  |    Pendente     |    6.2      |
-|     | SBC SWe  |   & #10004;    |    Pendente     |    6.2      |
-|     |SBC 1000   |     & #10004;   |     Pendente    |    V7.0.2   |& #10004; 
-|     | SBC 2000    |     & #10004;   |    Pendente     |    V7.0.2      |
-|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Pense SBC 365      |  & #10004;       |    Pendente     |   V 1.4       |
+|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    &#10004;     |    Pendente      |     7.20A.200.055     |
+|  |   Mediant 800 SBC       |    &#10004;      |     Pendente    |      7.20A.200.055    |
+|     |      Mediant 2600 SBC    |     &#10004;     |    Pendente     |    7.20A.200.055      |
+|     |   Mediant 4000 SBC       |     &#10004;     |    Pendente     |    7.20A.200.055      |
+|     |    Mediant 1000B SBC   |    &#10004;      |  Pendente       |    7.20A.200.055   |
+|     |   Virtual Edition SBC    |   &#10004;   |Pendente         |     7.20A.200.055     |
+|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   Pendente      |     V6.2     |
+|     |SBC 5210     |     &#10004;     |    Pendente     |    V6.2      |
+|     | SBC 5400     |    &#10004;  |    Pendente     |   V6.2    |
+|     |SBC 7000     |     &#10004;  |    Pendente     |    V6.2      |
+|     | SBC SWe  |   &#10004;    |    Pendente     |    V6.2      |
+|     |SBC 1000   |     &#10004;   |     Pendente    |    V7.0.2   |&#10004; 
+|     | SBC 2000    |     &#10004;   |    Pendente     |    V7.0.2      |
+|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    Pendente     |   V1.4       |
 |     |         |         |         |         |

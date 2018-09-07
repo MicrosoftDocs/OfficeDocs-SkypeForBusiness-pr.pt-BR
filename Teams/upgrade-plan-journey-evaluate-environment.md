@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 description: Use estas diretrizes para saber mais sobre os requisitos para avaliar o ambiente atual para a atualização para equipes adequadamente.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa717d08f951d872894474d98f5b3155614595ca
-ms.sourcegitcommit: 4660539cf0a6f7fde5de0a68bc4866089962ce80
+ms.openlocfilehash: b33f85faf0bc5a4d29afddb3b047a4cb2275462e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "22102057"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853627"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 

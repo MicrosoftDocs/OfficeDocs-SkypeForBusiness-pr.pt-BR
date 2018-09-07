@@ -8,16 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 description: Descreve como a carga de trabalho de equipes utiliza fluxos do Office 365 em várias topologias.
-ms.openlocfilehash: 2374349f426de6fb25d25cc4ded7c6c8a776dd1d
-ms.sourcegitcommit: 08cf97296fb9ba6fbc4d68c3e380c8f37e86dd02
+ms.openlocfilehash: 69b4deb078a0626c8a7cc4dce808825f2d038bac
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2018
-ms.locfileid: "19964537"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861813"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Fluxos de chamada de equipes da Microsoft Online
 
@@ -50,7 +51,7 @@ Geralmente, uma rede de cliente tem várias perímetro de rede com firewalls e/o
 
 ### <a name="connectivity-to-office-365"></a>Conectividade com o Office 365
 
-Serviço de equipes requer [conectividade à Internet](https://support.office.com/en-us/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Pontos de extremidade de equipes URLs e intervalos de endereços de IP são listados em [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). (Observação: exige a conectividade para as portas TCP 80 e 443 aberta e as portas UDP 3478 3481 até.) Além disso, o serviço de equipes tem dependência em Skype para serviço online de business, daí é necessária para conectar-se também esse serviço para a Internet.
+Serviço de equipes requer [conectividade à Internet](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Pontos de extremidade de equipes URLs e intervalos de endereços de IP são listados em [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Observação: exige a conectividade para as portas TCP 80 e 443 aberta e as portas UDP 3478 3481 até.) Além disso, o serviço de equipes tem dependência em Skype para serviço online de business, daí é necessária para conectar-se também esse serviço para a Internet.
 
 Conectividade de fluxos de mídia de equipes é implementada por meio de procedimentos padrão da IETF ICE (estabelecimento de conectividade interativa).
 

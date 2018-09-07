@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Regularmente avaliam oportunidades para melhorar o serviço de equipes, monitorar o mapa de equipes para qualquer aprimoramentos de recursos interessantes.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98ccde7b481b8b57f32979bc73f6c69f4e0d24cd
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 57de86e056c9023bcafbf5d475081b8f50afbe36
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694806"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856025"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
@@ -26,11 +27,11 @@ Este artigo fornece uma visão geral dos requisitos para obter o máximo da nuve
 ## <a name="enhance-my-service-overview"></a>Aperfeiçoar minha visão geral do serviço
 Depois que você tiver implantado com êxito audioconferências ou o sistema telefônico com planos de chamar os serviços para sua organização e está operando o serviço com qualidade e confiabilidade, a próxima etapa é regularmente avaliar se você tem qualquer oportunidades para Melhore seus serviços. Isso é uma parte do aperfeiçoamento contínuo serviço planejamento, ou seja, um moderno padrão para o gerenciamento de serviços de nuvem. 
 
-Uma ótima maneira de certificar-se de que sempre obterá o máximo de seus serviços é monitorar os [mapas de equipes públicos](https://products.office.com/en-us/business/office-365-roadmap?filters=microsoft%20teams) para novas melhorias de recurso que podem interessar à sua organização. Se você tiver acesso ao portal do Office 365 Admin você receberá atualizações regulares nossas sobre recursos novos e variáveis por meio de nosso centro de mensagens. 
+Uma ótima maneira de certificar-se de que sempre obterá o máximo de seus serviços é monitorar os [mapas de equipes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para novas melhorias de recurso que podem interessar à sua organização. Se você tiver acesso ao portal do Office 365 Admin você receberá atualizações regulares nossas sobre recursos novos e variáveis por meio de nosso centro de mensagens. 
 
 Além disso, porque as organizações crescem e alteradas, você deve levar o tempo para rever e atualizar seus casos de uso de negócios em intervalos regulares para certificar-se de que o serviço é configurado para atender às necessidades de atual da sua organização.  Certifique-se de que você está obtendo comentários no mundo real do seus usuários e campeões internos, estabelecendo canais de comentários na sua organização. Essas podem ser conversas informais, meeetings regular ou por meio de um equipes de canal ou da comunidade do Yammer. 
 
-Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para fazê-la à direita. Rever nossos fases de implantação (https://docs.microsoft.com/en-us/MicrosoftTeams/quick-start-enable-teams) e aplicar a mesma orientação ponta a ponta. Quando você faz alterações pequenas e incrementais, é improvável que você precisará concluir todas as atividades e tarefas integralmente, mas você deve ter certeza avaliar cada atividade e a tarefa ao longo do percurso para oferecer a mesmo as chances em um resultado bem-sucedido.
+Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para fazê-la à direita. Rever nossos fases de implantação (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) e aplicar a mesma orientação ponta a ponta. Quando você faz alterações pequenas e incrementais, é improvável que você precisará concluir todas as atividades e tarefas integralmente, mas você deve ter certeza avaliar cada atividade e a tarefa ao longo do percurso para oferecer a mesmo as chances em um resultado bem-sucedido.
 
 
 <table>

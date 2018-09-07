@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Aprenda sobre as decisões que você deve tomar ao planejar para grupos do Office 365, como escolhendo grupos pública e privada, usando o cliente de equipes ou o console de web de administração do Office 365 e como instruir suas equipes sobre o uso de conversas.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f89b6c8c21a196903ff476ffa1a072b7c999b6ce
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 735044773ba6b0e63d5a2b544345b3bff25b6dc5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520066"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854105"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planejar-se para Grupos do Office 365 ao criar equipes no Microsoft Teams
 ==========================================================
@@ -46,4 +47,4 @@ Os artigos a seguir são um bom lugar para encontrar conteúdo de adoção e pre
 
 -   [Adicionar ou remover membros de grupos do Office 365 usando o Centro de administração do Office 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [Restaurar de um grupo de 365 excluído do Office](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [Restaurar de um grupo de 365 excluído do Office](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

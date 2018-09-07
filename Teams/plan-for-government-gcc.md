@@ -9,16 +9,17 @@ ms.service: msteams
 ms.reviewer: lehewe
 description: Diretrizes para profissionais de TI para as implantações do Office 365 de unidade nas entidades que manipular dados sujeitos a uma regulamentação do governo dos EUA
 localization_priority: Priority
+search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8091bb4e973d4e7376dd6d420578b10123051226
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: 708dda8e38d879d11589696cd901213a68b03cd8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23835035"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23869377"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
@@ -38,9 +39,9 @@ Além de usufruir os recursos e capacidades do Office 365, organizações se ben
 -   Acesso ao conteúdo de cliente da sua organização é restrito a equipe da Microsoft filtrada.
 -   Microsoft 365 governamental - GCC cumpre certificações e referências são necessárias para clientes conosco setor público.
 
-Você pode encontrar mais informações sobre o Microsoft 365 governamental - GCC oferecendo clientes governamentais conosco em [que planos do Office 365 governamental](https://products.office.com/en-us/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/en-us/government/compare-office-365-government-plans#EligibilityRequirements).
+Você pode encontrar mais informações sobre o Microsoft 365 governamental - GCC oferecendo clientes governamentais conosco em [que planos do Office 365 governamental](https://products.office.com/government/compare-office-365-government-plans), incluindo [requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-A [Descrição do serviço Office 365 US governamentais](https://technet.microsoft.com/en-us/library/mt774581.aspx) descreve os benefícios da plataforma, que são centralizados em torno de atender aos requisitos de conformidade dentro dos Estados Unidos.
+A [Descrição do serviço Office 365 US governamentais](https://technet.microsoft.com/library/mt774581.aspx) descreve os benefícios da plataforma, que são centralizados em torno de atender aos requisitos de conformidade dentro dos Estados Unidos.
 
 > [!Tip]
 > Talvez você queira os índices de informações na descrição do serviço de transferência em uma pasta de trabalho do Excel e adicionar duas colunas: **relevante para minha organização Y/N** e **atende às necessidades da minha organização Y/N**. Em seguida, você pode revisar essa lista com seus colegas para confirmar que esse serviço atenda às necessidades da sua organização.
@@ -84,7 +85,7 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 
 ## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Etapa 4. Aplicar Microsoft 365 governamental - GCC
 
-Tendo decidiu que esse serviço é certo para sua organização, inicie o processo de [aplicação para esse serviço aqui](https://products.office.com/en-us/government/eligibility-validation).
+Tendo decidiu que esse serviço é certo para sua organização, inicie o processo de [aplicação para esse serviço aqui](https://products.office.com/government/eligibility-validation).
 
 ## <a name="step-5-plan-for-governance"></a>Etapa 5. Plano de governança
 

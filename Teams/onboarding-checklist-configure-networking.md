@@ -9,15 +9,16 @@ ms.service: msteams
 ms.reviewer: rowille
 description: Siga o núcleo, tarefas de tarefas pendentes e atividades nesta lista de verificação ao configurar sua rede para equipes.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a45fbca1bdec4a5f3cd566a251b4bef3ff0ef20f
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 82866750fbce6bf1972bf38a8fd8a320c6c9619e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19694896"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867889"
 ---
 # <a name="configure-networking"></a>Configurar a rede
 

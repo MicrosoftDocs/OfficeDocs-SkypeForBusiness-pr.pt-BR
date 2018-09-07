@@ -9,17 +9,18 @@ ms.service: msteams
 ms.reviewer: ''
 description: Conheça o Microsoft Teams, sua infraestrutura e a utilização do Teams com o Office 365.
 localization_priority: Priority
+search.appverid: MET150
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86698a3bb7535a20b7fb1b6833062d118f2f9eae
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dbee055a5d91c6e0e453f0f539cba823226c347e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967125"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867577"
 ---
 <a name="overview-of-microsoft-teams"></a>Visão geral do Microsoft Teams
 ===========================
@@ -118,10 +119,4 @@ Seguem alguns casos de uso comuns de cada aplicativo do Office 365. Para obter o
 
 ## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Notas de versão do cliente Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
 
-## <a name="what-happened-to-the-teams-admin-faq"></a>O que aconteceu com as Perguntas Frequentes do Administrador do Teams?
 
-Apesar de as Perguntas Frequentes do Administrador do Teams estarem acessíveis quando lançamos o Teams, rapidamente elas se tornaram uma “sopa de letrinhas”, sendo difícil de encontrar qualquer coisa específica. Assim, encerramos as Perguntas Frequentes e incorporamos suas valiosas informações na documentação de Teams que você vê agora. Você encontrará em contexto nesta documentação todas as informações que estavam nas Perguntas Frequentes.
-
-Se você estiver procurando algo que você não consegue achar aqui, informe-nos sobre ela na seção **comentários** abaixo. Tentaremos responder aos seus comentários dentro de 24 horas.
-
-A propósito, nós ainda **temos** uma seção de Perguntas Frequentes para a [Jornada de migração do Skype for Business para o Microsoft Teams](FAQ-journey.md). 

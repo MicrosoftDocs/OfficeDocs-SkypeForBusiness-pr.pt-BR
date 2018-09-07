@@ -6,18 +6,19 @@ manager: serdars
 ms.date: 04/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: rowille
 description: Tarefas e atividades necessárias para gerenciamento de serviço de equipes, incluindo o monitoramento de integridade do serviço e avaliar e garantir a qualidade da rede e uso.
 localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 554ef6b3a974621567002dc91de8bd3d43cfbf35
-ms.sourcegitcommit: a20a9a7d0797e3e01afa1cf13957f10dad61cdf4
+ms.openlocfilehash: 2294ef8e983192e1b93cca0e815c54ef69e064db
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "20396909"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856167"
 ---
 # <a name="operate-my-service"></a>Operar o meu serviço
 
@@ -440,7 +441,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 | Atividade                 | Descrição                                                                                                                                                                                                                                                                                                                                                                     | Cadência   | Equipe atribuído |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Requisitos de ponto de extremidade    | Certifique-se de que as equipes de ponto de extremidade continua a atender a todos os requisitos de software para equipes listadas na [obter clientes para equipes da Microsoft](get-clients.md).                                                                                                                                                                                       | Mensal   |               |
-| Firewalls do ponto de extremidade       | Manter as exclusões apropriadas no ponto de extremidade firewall com base nas informações em [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips). O fornecedor terceirizado terão orientação específica para como manter as exclusões. Assine o [RSS feed](https://support.office.com/en-us/o365ip/rss) para ser notificado automaticamente das alterações. | Conforme necessário |               |
+| Firewalls do ponto de extremidade       | Manter as exclusões apropriadas no ponto de extremidade firewall com base nas informações em [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips). O fornecedor terceirizado terão orientação específica para como manter as exclusões. Assine o [RSS feed](https://support.office.com/o365ip/rss) para ser notificado automaticamente das alterações. | Conforme necessário |               |
 | Drivers de Wi-Fi            | Testar e atualizar os drivers de Wi-Fi no PC. Valide os resultados usando CQD ([Guia de revisão do Quality of Experience](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Conforme necessário |               |
 | Gerenciamento de ponto de extremidade      | Manter o catálogo de pontos de extremidade com suporte e dispositivos de interface (por exemplo, headsets). Gerenciar contratos de fornecedores, garantia, distribuição, substituição e reparar políticas.                                                                                                                                                                                                        | Mensal   |               |
 | Solução de problemas do ponto de extremidade | Tarefas de solução de problemas pode incluir a verificação da conectividade, a lista de problemas conhecidos, log de coleta, análise e escalonamento para o Microsoft Support ou fornecedores terceirizados de consultoria.                                                                                                                                                                                               | Conforme necessário |               |

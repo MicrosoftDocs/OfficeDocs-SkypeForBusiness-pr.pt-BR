@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 95a08f84-04e5-4f72-88a8-d6472a7c89d7
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: Learn what countries and regions have dial-in conferencing numbers, and how they are automatically assigned.
-ms.openlocfilehash: af1d3307f2204ab8dcf320eff2647492848db5cd
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+description: Saiba quais países e regiões têm números de teleconferência discada e como eles são atribuídos automaticamente.
+ms.openlocfilehash: ff1234e1447b4c74033971208b2a09275126f145
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779478"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851095"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de telefone de audioconferência no Microsoft Teams
 
 Quando você estiver configurando a **Conferência de áudio** for Microsoft Teams, números de telefone de discagem são automaticamente atribuídos a sua organização. Você pode ver os números de telefone que são atribuídos à sua ponte de conferência de áudio indo para **reuniões** > **pontes de conferência**. Consulte [ver uma lista de números de conferência de áudio](see-a-list-of-audio-conferencing-numbers-in-teams.md).
   
   
-## <a name="audio-conferencing-coverage-and-pricing"></a>Preços e cobertura de conferência de áudio
+## <a name="audio-conferencing-coverage-and-pricing"></a>Preços e cobertura de Audioconferência
 
-Para obter uma lista completa de todos os países/regiões e cidades onde a conferência de áudio está disponível, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para informações sobre preços, consulte [precificação para audioconferências](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+Para obter uma lista completa de todos os países/regiões e cidades onde a conferência de áudio está disponível, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Números de telefone de discagem em um convite de reunião
 
@@ -55,7 +56,7 @@ Enquanto o número de conferência de áudio padrão que é atribuído a um orga
 
 Compartilhadas números são automaticamente atribuídos a organizações quando elas são habilitadas para conferência de áudio de telefone de conferência de áudio. Após a atribuição dos números telefônicos, um número telefônico é atribuído como o número padrão da ponte de conferência. O número telefônico atribuído como o número padrão da ponte será aquele do país/região da organização.
 
-Para ver uma lista desses países/regiões que possuem números de telefone automaticamente atribuídos às organizações, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Para ver uma lista dos países/regiões que têm números de telefone automaticamente atribuídos às organizações, consulte [Disponibilidade de Audioconferência e Planos de Chamada por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
 > O local do país ou região da sua organização possa ser encontrado por entrando no **Centro de administração do Office 365** e examinando o registro em **Perfil da organização**. 

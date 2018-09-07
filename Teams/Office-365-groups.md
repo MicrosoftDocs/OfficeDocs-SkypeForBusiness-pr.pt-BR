@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Saiba como os grupos do Office 365 e as assinaturas de grupo trabalham com o Microsoft Teams.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9d7c37a0aa53f45036388bdedfc5bdc87b1cc8a
-ms.sourcegitcommit: 5fb3957b658b48edf3d9878a9d53a4002b8f55d8
+ms.openlocfilehash: 9ef86beea194dde66e3ce5d7f54bde7a522dd605
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23520058"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850019"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Grupos do Office 365 e equipes da Microsoft
 =====================================
@@ -33,7 +34,7 @@ Quando você cria um Microsoft Team, no back-end, você está criando um grupo d
 > [!NOTE]
 > A exclusão de um Grupo do Office 365 removerá o alias de caixa de correio de conversas persistentes do Outlook/OWA e os convidados da reunião do Teams, e marcará o site do SharePoint para exclusão. Leva aproximadamente 20 minutos entre a remoção de uma equipe e seu efeito no Outlook. Excluir uma equipe do cliente equipes removerá imediatamente de modo a todos os membros da equipe. Se você remover membros de um grupo do Office 365 que teve a funcionalidade de equipes ativada contidas nela, pode haver um atraso de aproximadamente duas horas antes que a equipe é removida do modo de exibição no cliente do equipes para as pessoas afetados que foram removidos.
 >
->Leia [Este](https://support.office.com/en-us/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) para obter informações sobre como restaurar um grupo do Office 365 que você excluiu.
+>Leia [Este](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54) para obter informações sobre como restaurar um grupo do Office 365 que você excluiu.
 
 <a name="group-membership"></a>Associação a grupos
 ----------------

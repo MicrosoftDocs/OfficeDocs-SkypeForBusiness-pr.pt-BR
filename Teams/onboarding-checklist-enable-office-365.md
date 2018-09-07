@@ -3,21 +3,22 @@ title: Lista de verificação de inclusão para ativar o serviço Office 365 for
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 03/16/2018
+ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Siga o núcleo, tarefas de tarefas pendentes e atividades nesta lista de verificação quando você configura o Office 365 para equipes.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c328e447149e4cd514a3535942a8b0cb7319a9f7
-ms.sourcegitcommit: d979aecf73da0ba493a0b3be1db4d8b997c6ce2d
+ms.openlocfilehash: 1e657fcefbd86f361f41e47369452b87f6463c83
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "19695690"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865139"
 ---
 # <a name="enable-office-365"></a>Habilitar o Office 365
  
@@ -31,5 +32,5 @@ ms.locfileid: "19695690"
 | 6  | Configure o ambiente para identidades. | Os usuários podem ser criados no Office 365 diretamente (no modelo de implantação online) ou sincronizados a partir do Active Directory no local ao seu locatário do Office 365. <br/><br/>Determine se você deve usar as identidades federadas, identidades sincronizadas ou identidades de nuvem. Determinando o tipo de identidade apropriada está fora do escopo da lista de verificação; No entanto, você encontrará links para informações sobre essas opções na coluna **informações adicionais** . <br/><br/>**Observação:** Se você estiver usando sincronizados ou identidades federadas, verifique se os nomes de entidade de usuário (UPNs) local coincidir com o Office 365 UPNs e todos os atributos necessários estão configurados para sincronizar com Connect do Azure AD. Para os atributos necessários para equipes, use a lista de atributos para Skype para negócios Online. | | [Noções básicas sobre a identidade do Office 365 e Windows Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) <br/><br/>[Preparar para provisionar usuários por meio da sincronização de diretório para o Office 365](https://support.office.com/article/Prepare-to-provision-users-through-directory-synchronization-to-Office-365-01920974-9e6f-4331-a370-13aea4e82b3e) <br/><br/>[Sincronização do Azure AD Connect: atributos são sincronizados com o Active Directory do Windows Azure](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-attributes-synchronized) |
 | 7  | Confirme os administradores dos locatários | Trabalhar com suas equipes de segurança para desenvolver um modelo de administração do Office 365. <br/><br/>Certifique-se identificar e documentar todos os administradores de Inquilino e o serviço. | | [Sobre funções de administrador do Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8  | Implementar funções administrativas para seu locatário | Validar que o seu modelo de administração atende às necessidades da sua organização e atribuir funções de administrador do Office 365 para seus administradores. | | [Atribuir funções de administrador no Office 365 para empresas](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
-| 9  | Acesse o carregamento do painel de controle de qualidade de chamada (CQD) suas informações de construção. | Todas as implantações de equipes devem aproveitar o CQD para obter ideias sobre a qualidade e a confiabilidade de todas as chamadas que usam equipes. <br><br>Use as diretrizes de CQD listadas na coluna **informações adicionais** para obter o benefício máximo dessa ferramenta. | | [Planejamento de gerenciamento de serviço e de qualidade](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[Revise o guia experiência de qualidade](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) <br/><br/>[Modelos de revisão de experiência de qualidade](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-lite-templates-v-2-1.zip?raw=true) <br/><br/>[Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Carregar informações do edifício](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
+| 9  | Acesse o carregamento do painel de controle de qualidade de chamada (CQD) suas informações de construção. | Todas as implantações de equipes devem aproveitar o CQD para obter ideias sobre a qualidade e a confiabilidade de todas as chamadas que usam equipes. <br><br>Use as diretrizes de CQD listadas na coluna **informações adicionais** para obter o benefício máximo dessa ferramenta. | | [Planejamento de gerenciamento de serviço e de qualidade](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[Revise o guia experiência de qualidade](https://aka.ms/qerguide) <br/><br/>[Modelos de revisão de experiência de qualidade](https://aka.ms/qertemplates) <br/><br/>[Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[Carregar informações do edifício](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
 | 10  | Valide que as informações de construção são processadas, e painel de controle de qualidade de chamada (CQD) é operável para seu locatário. | | | [Painel de Qualidade da Chamada](https://cqd.lync.com) |
