@@ -12,15 +12,16 @@ metadata:
   ms.service: msteams
   ms.topic: tutorial
   localization_priority: Priority
+  search.appverid: MET150
   ms.collection: Strat_MT_TeamsAdmin
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 2412dbd848f4da4cc619b21d0aa296eb35d43386
-  ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+  ms.openlocfilehash: ba79176f4108974d7ffe9d15cb034e51d823858d
+  ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 07/24/2018
-  ms.locfileid: "20987546"
+  ms.lasthandoff: 09/07/2018
+  ms.locfileid: "23853227"
 items:
 - durationInMinutes: 1
   content: "Este tutorial é uma introdução para o Skype para negócios jornada de atualização do Microsoft Teams e nossa estrutura de sucesso de atualização de ponta a ponta. Este tutorial rapidamente será orientar você aos recursos disponíveis para suportar a você em sua jornada, se você estiver apenas Introdução ao planejamento, equipes junto com Skype para os negócios, já estiver em execução ou prontos para atualizar para equipes e caminhos de atualização recomendados.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]\n\nEste treinamento será útil se você for:\n-   IT pro responsável pelo planejamento, implantação ou gerenciando Skype para negócios.\n-   Responsáveis pelo planejamento de gerenciamento de alteração de usuário dentro da sua organização.\n-   Interessado em Noções básicas sobre como abordar uma atualização bem-sucedida do Skype para negócios às equipes para sua organização.\n\nPassaremos a ver os detalhes sobre como esses dois produtos se reunir e explicam as etapas que podem ser realizadas hoje para preparar um Skype existente para o ambiente de negócios para equipes. \n\nAbordaremos a estrutura para ajudá-lo a planejar e executar a atualização, com uma visão geral das principais atividades para conduzir uma experiência ideal em preparação técnico e do usuário.\n\nOs principais objetivos deste tutorial são:\n-   Explore os caminhos de atualização disponíveis para ajudá-lo a planejar a atualização.\n-   Conheça as etapas essenciais necessárias para preparar e implementar sua atualização.\n-   Identifica as orientações minuciosa, modelos e recursos disponíveis para ajudá-lo na sua jornada.\n-   Compartilhe próximas etapas para começar a usar a nossa orientação.\n\n[!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]\n\nSe você tiver quaisquer dúvidas ou comentários sobre este treinamento, poste na seção comentários na parte inferior da página \"Próximas etapas\" deste tutorial.\n\nPara fazer comentários sobre o produto Teams, como ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n"

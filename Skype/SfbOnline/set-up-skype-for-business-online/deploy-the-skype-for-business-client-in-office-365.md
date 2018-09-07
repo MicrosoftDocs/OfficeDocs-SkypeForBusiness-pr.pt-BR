@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 8c563b81-22c9-4024-9efe-9fe28c7bbc96
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,11 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba como planejar e implantar Skype para negócios em organizações pequenas, médias e grandes e tornar disponível aos usuários. '
-ms.openlocfilehash: 83c2b0060f7edbb39c24709db2880b8aed014553
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 6af2ed700783fef853052b39c60270baf86919e9
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858791"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implantar o Skype para o cliente de negócios no Office 365
 

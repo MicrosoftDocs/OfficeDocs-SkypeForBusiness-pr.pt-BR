@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 3e55c5a2-baad-4573-9ad9-37d0c42dcb53
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -19,11 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Saiba quais estatísticas de usuários do Skype for Business estão disponíveis, como o número de usuários habilitados, usuários habilitados para conferência ou usuários habilitados para o Office 365.
-ms.openlocfilehash: 77fc0bbabb419ea43afa98ee9ab70c2c7d5404fd
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: bff5bd374f554bd05e443d6deb89b3a16ca10a64
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861119"
 ---
 # <a name="user-statistics-and-organization-information"></a>Estatísticas de usuários e informações da organização
 

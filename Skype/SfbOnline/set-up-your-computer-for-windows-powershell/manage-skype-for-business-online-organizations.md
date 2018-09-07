@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: c71f0d4d-5b6b-40ac-bc4a-6b97c05a121a
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,11 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use o Windows PowerShell e os cmdlets Get-CsTenant e Get-CsTenantLicensingConfiguration para obter mais informações sobre sua Skype para locatário Business Online.
-ms.openlocfilehash: 1b58686b2330b43cc5978752ac4f6b4a91f9588e
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 279f9431c69605377fcc0070bf9c81a027cb4064
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863329"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Gerenciar Skype para organizações Business Online
 

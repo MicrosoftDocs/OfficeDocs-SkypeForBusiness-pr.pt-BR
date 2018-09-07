@@ -9,6 +9,7 @@ ms.assetid: 3cd6c094-d178-4968-85dd-ab774d12b893
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de chamada gratuito.
-ms.openlocfilehash: ddbf8dccb65b0e533ebe077dd1c974ed88b45b9e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 537644c71671ccb8792d84d84a43fbe5a32a2f2d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783122"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850839"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Restrições de discagem gratuita no Emirados Árabes Unidos
 

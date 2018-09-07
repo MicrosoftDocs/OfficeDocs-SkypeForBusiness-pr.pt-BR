@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 6e7c4964-b7b4-4f87-af00-220a2cd5a1c2
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -19,12 +20,12 @@ f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 4f161b629b5a6799df2e86aa964d28c4313e228a
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: bed030a0c734d25f190d3bf5e48784afc6bc5163
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780793"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23855899"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Como faço para criar um tíquete de suporte para validação de endereços?
 

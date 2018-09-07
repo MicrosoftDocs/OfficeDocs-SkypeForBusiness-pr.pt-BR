@@ -1,5 +1,5 @@
 ---
-title: Criar políticas de acesso externo personalizadas
+title: Criar políticas personalizadas de acesso externo
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 89cbd278-5480-473c-8cd9-04e07e5f9e0b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,14 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype para Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário de políticas de cliente ou de conferência, onde você pode ter várias combinações, há três políticas de acesso externo predefinido que podem abranger a maioria dos cenários.
-ms.openlocfilehash: e166aa9af162fd6432c8932d5842ea0fd00a36b3
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: e0af31d015c69ebd91c28a229a20d3d2c6c926c4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568308"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850153"
 ---
-# <a name="create-custom-external-access-policies"></a>Criar políticas de acesso externo personalizadas
+# <a name="create-custom-external-access-policies"></a>Criar políticas personalizadas de acesso externo
 
 Skype para Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário de políticas de cliente ou de conferência, onde você pode ter várias combinações, há três políticas de acesso externo predefinido que podem abranger a maioria dos cenários. São elas:
   

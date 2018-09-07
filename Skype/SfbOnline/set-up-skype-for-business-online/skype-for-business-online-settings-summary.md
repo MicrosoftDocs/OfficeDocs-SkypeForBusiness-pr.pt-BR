@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: da3386ab-0397-4c55-b9f0-9dbeade93455
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 ms.appliesto:
@@ -17,11 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Neste resumo do Skype para configurações de usuário e organização de negócios pode ajudá-lo a saber mais sobre conectividade de IM público, convites para reuniões, registro de chamadas e reuniões e muito mais.  '
-ms.openlocfilehash: 17504d2c0e367a6bd92f427befb3aebb7ecdc364
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865593"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumo de configurações do Skype for Business Online
 

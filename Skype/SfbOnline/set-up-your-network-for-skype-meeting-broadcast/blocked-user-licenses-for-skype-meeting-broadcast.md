@@ -1,5 +1,5 @@
 ---
-title: Bloqueados licenças de usuário para transmissão de reunião do Skype
+title: Licenças de usuário bloqueadas para a Transmissão de Reunião do Skype
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b898557c-547f-4055-9478-d17fb653285f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Infelizmente, há certas licenças de usuário que são bloqueadas quando o usuário vá para https://broadcast.skype.com e deseja usar a difusão de reunião do Skype. Se um usuário veja essa mensagem, eles têm as licenças bloqueadas atribuídas a eles. Se ainda quiser que ele para usá-lo, atribua outra licença do Office 365.
-ms.openlocfilehash: f7a7bb44a6de3cfaa5af282f855b0345f0a3ea76
-ms.sourcegitcommit: 2290f152ea13d87fb1fd70007fe19523184ce947
+ms.openlocfilehash: 68ea3a6632ce5c25c0c443edc8abc66a5c6f5bbe
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19844595"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861401"
 ---
-# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Bloqueados licenças de usuário para transmissão de reunião do Skype
+# <a name="blocked-user-licenses-for-skype-meeting-broadcast"></a>Licenças de usuário bloqueadas para a Transmissão de Reunião do Skype
 
 Infelizmente, há certas licenças de usuário que são bloqueadas quando os usuários vão para https://broadcast.skype.com e deseja usar a difusão de reunião do Skype. Se um usuário veja essa mensagem, eles têm as licenças bloqueadas atribuídas a eles. Se ainda quiser que ele para usá-lo, atribua outra licença do Office 365.
   

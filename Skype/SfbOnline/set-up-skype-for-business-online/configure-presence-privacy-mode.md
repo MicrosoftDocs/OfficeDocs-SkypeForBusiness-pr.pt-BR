@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,11 +18,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Saiba como configurar o modo de privacidade para seus usuários para que eles podem controlar melhor como pessoas ver a disponibilidade deles. '
-ms.openlocfilehash: 9181962111e8e637af816351eb88ac32f7e50dcc
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e2fb222046dc936d8fbd010dc8016da2b06e1ae8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862797"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar o modo de privacidade de presença
 

@@ -7,15 +7,16 @@ ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: marcl
+search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f97c5a28bdbd266750c10b113ab826ab8ba272
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: fa72e0b417b324bbd66f80ae399bc15ddde779a2
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23843985"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23850247"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -50,7 +51,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 ## <a name="authentication"></a>Autenticação
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Ao tentar ingressar no Teams usando o Internet Explorer ou o Edge, o programa entra em loop e falha consistentemente e não entra.   <br/> | Sua organização usa Sites Confiáveis no Internet Explorer e o aplicativo baseado na Web do Teams não se conecta porque sites confiáveis não são permitidos para o Teams. <br/>|Faça as seguintes alterações nas configurações do IE usando direitos de administrador ou um Objeto de Política de Grupo:<br/><ol><li>Em **Opções da Internet** &gt; **privacidade** &gt; **Avançado**, aceitar os cookies primários e de terceiros e a caixa de seleção para **sempre permitir cookies de sessão**.</li><li>Clique em **Opções da Internet** &gt; **Sites confiáveis** &gt; **Sites**e adicione todos os seguintes:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>OBSERVAÇÃO</b>: Sempre valide e permita todas as URLs confiáveis para o Teams e os requisitos do seguinte documento: [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams).   <br/> |01/11/2017  <br/> |
+|Ao tentar ingressar no Teams usando o Internet Explorer ou o Edge, o programa entra em loop e falha consistentemente e não entra.   <br/> | Sua organização usa Sites Confiáveis no Internet Explorer e o aplicativo baseado na Web do Teams não se conecta porque sites confiáveis não são permitidos para o Teams. <br/>|Faça as seguintes alterações nas configurações do IE usando direitos de administrador ou um Objeto de Política de Grupo:<br/><ol><li>Em **Opções da Internet** &gt; **privacidade** &gt; **Avançado**, aceitar os cookies primários e de terceiros e a caixa de seleção para **sempre permitir cookies de sessão**.</li><li>Clique em **Opções da Internet** &gt; **Sites confiáveis** &gt; **Sites**e adicione todos os seguintes:<ul><li>https://\*.microsoft.com</li><li>https://\*.microsoftonline.com</li><li>https://\*.teams.skype.com</li><li>https://\*.teams.microsoft.com</li><li>https://\*.sfbassets.com</li><li>https://\*.skypeforbusiness.com</li></ul></li></ol><br/><b>OBSERVAÇÃO</b>: Sempre valide e permita todas as URLs confiáveis para o Teams e os requisitos do seguinte documento: [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e62ac09f-dfdc-4306-8e06-31349a3b27f0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto.
-search.appverid: MET150
-ms.openlocfilehash: ae892766be3b9bc18f37ae8b551678a738743325
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 46a44a61777cdd4d52b9899429b4a17ffe6ad7cb
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780851"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851805"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 

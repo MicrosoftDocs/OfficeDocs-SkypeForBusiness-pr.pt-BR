@@ -1,5 +1,5 @@
 ---
-title: Relatório de atividade do organizador de conferência
+title: Relatório de atividades dos organizadores de conferências
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 03a255d4-0e1d-4b24-b73d-7a62fae36254
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 14d82764a177d1bc483bc1c3457546352a2b4f03
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933151"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854257"
 ---
-# <a name="conference-organizer-activity-report"></a>Relatório de atividade do organizador de conferência
+# <a name="conference-organizer-activity-report"></a>Relatório de atividades dos organizadores de conferências
 
 O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório **Atividade dos organizadores de conferências do Skype for Business** para ver o quanto seus usuários estão organizando conferências usando mensagens instantâneas, áudio/vídeo, compartilhamento de aplicativos, a Web, discagem de terceiros e discagem da Microsoft. 
 

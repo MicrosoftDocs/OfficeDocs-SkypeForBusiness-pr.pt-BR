@@ -5,16 +5,17 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams.
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1ca0045eb980a83852426b9c0b2c12f1e317f0
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23845529"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851171"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reunião de nuvem de equipes
 

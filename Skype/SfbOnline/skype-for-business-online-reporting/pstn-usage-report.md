@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 74eda791-c41f-4fd9-ae0b-913342e7ab04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
-search.appverid: MET150
-ms.openlocfilehash: 562911b6ceb4751a1a808d4e8f63ddaddddfad99
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779180"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862237"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 

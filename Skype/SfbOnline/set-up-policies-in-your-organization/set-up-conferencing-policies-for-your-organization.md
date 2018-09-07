@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 9957722b-b542-49ad-8ec8-5569df7fb08b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,20 +17,20 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
-ms.openlocfilehash: 9e4c0bc5a90a97ae249b9308fd0ffc62a654a824
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: c5db13adef479bdb3a8702a2782e2ccce19195d6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500560"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861195"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 
 Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.
   
-É importante que você mantenha o controle das conferências e de suas configurações. Em alguns casos, pode haver preocupação em termos de segurança: por padrão, qualquer pessoa, incluindo usuários não autenticados, pode participar de reuniões e salvar quaisquer slides ou folhetos distribuídos durante aquelas reuniões. Além disso, podem ocorrer preocupações legais ocasionais. Por exemplo, por padrão, os participantes da reunião têm permissão para fazer anotações no conteúdo compartilhado; No entanto, essas anotações não são salvas quando a reunião é arquivada. Se sua organização precisar manter um registro de toda a comunicação eletrônica, talvez você queira desabilitar as anotações. 
+É importante que você mantenha o controle sobre conferências e suas configurações. Em alguns casos, pode haver preocupações de segurança: por padrão, qualquer pessoa, inclusive usuários não autenticados, pode participar de reuniões e salvar nenhum dos slides ou folhetos distribuídos durante essas reuniões. Além disso, pode haver questões legais ocasionais. Por exemplo, por padrão, os participantes da reunião têm permissão para fazer anotações no conteúdo compartilhado; No entanto, essas anotações não são salvas quando a reunião é arquivada. Se sua organização é necessária para manter um registro de todas as comunicações eletrônicas, você talvez queira desabilitar as anotações. 
   
-No Skype para Business Online, as conferências são gerenciadas usando políticas de conferência. As políticas de conferência determinam os recursos e as capacidades que podem ser usados em uma conferência, incluindo tudo desde se a conferência pode ou não incluir áudio e vídeo IP até o número máximo de pessoas que podem participar de uma reunião. Essas políticas podem ser configuradas no escopo global ou no escopo por uso. Isso fornece aos administradores uma flexibilidade enorme no que diz respeito a decidir quais capacidades serão disponibilizadas para quais usuários.
+No Skype para Business Online, as conferências são gerenciadas usando políticas de conferência. Diretivas de conferência determinam os recursos e capacidades que podem ser usadas em uma conferência, incluindo tudo de estarem ou não a conferência pode incluir IP, áudio e vídeo para o número máximo de pessoas que podem participar de uma reunião. Políticas de conferência podem ser configuradas no escopo global ou no escopo por usuário. Isso oferece aos administradores uma enorme flexibilidade quando se trata de decidir quais recursos serão disponibilizados para os quais usuários.
   
 Configurações de diretiva que podem ser configuradas no momento em que uma diretiva é criada ou você pode usar o cmdlet **Set-CsConferencingPolicy** para modificar as configurações de uma diretiva existente.
   

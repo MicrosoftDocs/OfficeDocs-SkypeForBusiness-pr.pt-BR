@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 40296968-e779-4259-980b-c2de1c044c6e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -21,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Saiba como configurar seu domínio, usuários, IM e presença para sua organização para instalar o Skype para negócios. Consulte também como configurar serviços de audioconferência, sistema telefônico e chamar planos e transmissão de reunião do Skype. '
-ms.openlocfilehash: 264edbeeaaca9eb2b057760ec6432deedb4b78e4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252522"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864485"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar o Skype for Business Online
 
@@ -42,7 +43,7 @@ Se você tem o **[Office 365 Business Premium](https://products.office.com/en-us
 
 Se você quer usar o Skype for Business para fazer e receber **chamadas** de pessoas *externas*  à sua empresa:
 
-- **Opção 1. Usar o [aplicativo Skype](https://www.skype.com/)** gratuito. Se você tem uma empresa bem pequena (por exemplo, uma ou duas pessoas), usar o aplicativo Skype é a melhor solução. As chamadas nacionais e internacionais são mais baratas. Você ainda pode chamadas de conferência em espera, fazer chamadas de vídeo e compartilhar sua área de trabalho para apresentações. [Confira as taxas e as opções de pagamento](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Opção 1. Usar o [aplicativo Skype](https://www.skype.com/)** gratuito. Se você tem uma empresa bem pequena (por exemplo, uma ou duas pessoas), usar o aplicativo Skype é a melhor solução. As chamadas nacionais e internacionais são mais baratas. Você ainda pode chamadas de conferência em espera, fazer chamadas de vídeo e compartilhar sua área de trabalho para apresentações. [Confira as taxas e opções de pagamento](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
 - **Opção 2. Atualize seu plano e compre o Sistema de Telefonia Office 365 e o Plano de Chamadas Office 365**. A maneira mais fácil para descobrir quanto isso custos e, em seguida, migrar, [contate o suporte para produtos de negócios - ajuda de administração](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) é e fazê-las a fazer tudo para você.
 

@@ -1,5 +1,5 @@
 ---
-title: Mais informações sobre como chamar o ID de linha e chamar o nome do participante
+title: Mais informações sobre a Identificação de linha da chamada e o nome do chamador
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,13 +18,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba por que você precisa adicionar uma pessoa autorizada que pode fazer alterações à conta quando você usar o Assistente de nova ordem de porta do número Local.
-ms.openlocfilehash: 1174ba5837bb91c3251232ab48fa63c343425ac1
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+ms.openlocfilehash: 846abfd5b6973a02ad1a7388b45a79ec709695a0
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865273"
 ---
-# <a name="more-about-calling-line-id-and-calling-party-name"></a>Mais informações sobre como chamar o ID de linha e chamar o nome do participante
+# <a name="more-about-calling-line-id-and-calling-party-name"></a>Mais informações sobre a Identificação de linha da chamada e o nome do chamador
 
 ID do chamador, conforme ele é normalmente denominado, realmente consiste de duas voltados para o usuário identificáveis partes das informações:
     - Um número de telefone (geralmente conhecido como CLID ou chamada de ID de linha) 

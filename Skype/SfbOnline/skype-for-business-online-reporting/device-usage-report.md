@@ -1,5 +1,5 @@
 ---
-title: Relatório de uso do dispositivo
+title: Relatório de uso de dispositivos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: b9019c36-034f-40c7-acb0-c2a0400b03c3
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o Skype para o relatório de uso do dispositivo de negócios para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. Confira os relatórios de atividade no Centro de administração do Office 365 para saber mais.
-search.appverid: MET150
-ms.openlocfilehash: 722a1302f3c94737b520c3c8e23101cc04629a70
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933093"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23863379"
 ---
-# <a name="device-usage-report"></a>Relatório de uso do dispositivo
+# <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
 O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para uso do dispositivo de negócios** para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. 
 

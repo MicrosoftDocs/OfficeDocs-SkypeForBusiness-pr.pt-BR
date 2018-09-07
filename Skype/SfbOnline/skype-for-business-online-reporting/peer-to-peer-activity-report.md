@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: d3b2d569-4ee9-44b8-92bf-d518142f0713
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,13 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-search.appverid: MET150
-ms.openlocfilehash: c5248baebf3e34b24427ecf192a1b1376c7afb4a
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933133"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860639"
 ---
 # <a name="peer-to-peer-activity-report"></a>Relatório de atividades ponto a ponto
 

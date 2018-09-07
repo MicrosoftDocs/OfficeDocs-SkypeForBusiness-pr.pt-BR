@@ -1,5 +1,5 @@
 ---
-title: Configurar o computador para o Windows PowerShell
+title: Configurar seu computador para o Windows PowerShell
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: ebf5adf0-d848-4e99-baf4-387d1711e1d0
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Descubra os requisitos para o gerenciamento remoto do Skype para negócios Online por meio do Windows PowerShell, incluindo os sistemas operacionais suportados.
-ms.openlocfilehash: 94f5fe81e510b5722bde38a64fe3f8473a7f5c8b
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 001e8da26daaff65a1761519073667e530688243
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862579"
 ---
-# <a name="set-up-your-computer-for-windows-powershell"></a>Configurar o computador para o Windows PowerShell
+# <a name="set-up-your-computer-for-windows-powershell"></a>Configurar seu computador para o Windows PowerShell
 
 Gerenciamento remoto do Skype para Business Online usando o Microsoft PowerShell tem suporte apenas nos computadores de 64 bits executando um dos seguintes sistemas operacionais:
   

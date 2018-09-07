@@ -6,15 +6,17 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: laal
 description: Conheça as ferramentas disponíveis para adicionar novos usuários a uma organização, incluindo clientes desktop e web do Microsoft Teams e o portal de colaboração do Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e84c8f29416f94b78b287275cd473388931105ea
-ms.sourcegitcommit: b985035b91ebd7ceff8d50e9e0fa9aa6ff971f3a
+ms.openlocfilehash: d97820a6cd5069c1e813ffbf83af20d393c084b5
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23849833"
 ---
 <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 =====================

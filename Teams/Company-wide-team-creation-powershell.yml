@@ -12,13 +12,14 @@ metadata:
   ms.service: msteams
   ms.topic: tutorial
   localization_priority: Priority
+  search.appverid: MET150
   ms.collection: Strat_MT_TeamsAdmin
-  ms.openlocfilehash: 2e0155272a0abbe400b770e04215f7052332696c
-  ms.sourcegitcommit: ddedcfe6efd4d8adec794a70c904468a45fbdeb4
+  ms.openlocfilehash: 6809063209dae8b3e75f2716709f3344fb75eb7a
+  ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 08/14/2018
-  ms.locfileid: "22415655"
+  ms.lasthandoff: 09/07/2018
+  ms.locfileid: "23863963"
 items:
 - durationInMinutes: 3
   content: "\nEste treinamento apresenta um script do PowerShell que cria uma equipe pública englobando toda a empresa no Microsoft Teams. O script usa o módulo do MicrosoftTeams do PowerShell (atualmente na fase beta) para criar uma equipe pública englobando toda a empresa. Ele também usa o módulo do AzureAD do PowerShell para buscar a lista de usuários em seu locatário. \n\nEste é um ótimo ponto de partida para lidar com alguns comandos simples do PowerShell e se familiarizar com essa eficiente ferramenta corporativa. O PowerShell é um componente importante para o gerenciamento de outros aspectos de Grupos do AzureAD, incluindo o controle de criação de grupos, que é a maneira de gerenciar quem pode criar equipes no Microsoft Teams. \n\n### <a href=\"https://docs.microsoft.com/MicrosoftTeams/scripts/powershell-script-sample-create-company-wide-team\" target=\"_blank\">:arrow_down: Obter o script do PowerShell</a>\n\n> [!IMPORTANT]\n> Este script do PowerShell adiciona apenas os primeiros 2500 membros a uma equipe. 2500 é o limite atual de tamanho da equipe. \n\n\nEste treinamento destina-se a administradores de TI ou usuários do Microsoft Teams que desejam automatizar a criação de equipes. Você aprenderá a:  \n- Instalar os módulos relevantes no PowerShell\n- Usar o script \n\nOs seguintes itens não serão abordados:\n1. Detalhes do PowerShell. Nós incluímos apenas as informações do PowerShell necessárias para fazer o script do PowerShell funcionar. Para saber mais, comece em <a href=\"https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-5.1\" target=\"_blank\">Introdução ao Windows PowerShell</a>\n2. A funcionalidade do módulo <a href=\"https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0\" target=\"_blank\">AzureAD</a>. Este script do PowerShell usa o módulo AzureAD para que um único comando busque os usuários no locatário. \n3. Os cmdlets no módulo <a href=\"https://github.com/MicrosoftDocs/office-docs-powershell/tree/master/teams/teams-ps/teams\" target=\"_blank\">MicrosoftTeams</a>. \n4. Uma orientação linha a linha do script do PowerShell. \n\n\nPara fazer perguntas ou enviar comentários sobre este treinamento:\n  - Poste na seção de comentários na parte inferior da página [Próximos passos](company-wide-team-creation-powershell.yml#step-7) deste tutorial\n  - Para fazer comentários sobre o produto, como solicitações de recursos, acesse o <a href=\"https://aka.ms/TeamsUserVoice\" target=\"_blank\">UserVoice</a>.\n"

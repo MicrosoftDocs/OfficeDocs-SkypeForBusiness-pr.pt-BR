@@ -1,5 +1,5 @@
 ---
-title: Relatório dos usuários bloqueados
+title: Relatório de usuários bloqueados
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 0ac844b2-1b08-4e5a-addf-03cde7af7a40
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,15 +18,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Nesse relatório, juntamente com outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo o uso da PSTN em toda a organização. '
-search.appverid: MET150
-ms.openlocfilehash: 0b6bc07afb44b4bb2ba7e2b31f51443c93645655
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 508d41de4a8b67e1a266bead6f91445acd041a7e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933043"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860613"
 ---
-# <a name="users-blocked-report"></a>Relatório dos usuários bloqueados
+# <a name="users-blocked-report"></a>Relatório de usuários bloqueados
 
 O novo Skype para painel de **relatórios** de negócios mostra a visão geral de atividade entre o Skype para produtos de negócios em sua organização. Ele permite analisado relatórios de nível de produtos individuais para proporcionar mais granular insight sobre as atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para usuários comerciais bloqueados** para ver os usuários em sua organização que foram bloqueados façam chamadas PSTN. Nesse relatório, juntamente com outro Skype para relatórios de negócios, oferece detalhes sobre a atividade, incluindo o uso da PSTN em toda a organização.
   

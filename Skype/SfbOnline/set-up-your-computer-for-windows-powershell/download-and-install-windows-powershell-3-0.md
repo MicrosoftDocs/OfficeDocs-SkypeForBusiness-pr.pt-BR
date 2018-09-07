@@ -1,5 +1,5 @@
 ---
-title: Baixe e instale o Windows PowerShell 3.0
+title: Baixar e instalar o Windows PowerShell 3.0
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d739cd71-3c18-42ea-879f-b408bf53b1f4
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,14 +18,14 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Baixar, instalar e, em seguida, use o Windows PowerShell 3.0 para criar uma sessão PowerShell remota que se conecta ao Skype para negócios Online.
-ms.openlocfilehash: 9c2b0f02d9da7e44cdb5585314c13a6bafbe58c6
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8470a095e516179d1d328f47c1fe10d5a9e00aa6
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19568318"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862881"
 ---
-# <a name="download-and-install-windows-powershell-30"></a>Baixe e instale o Windows PowerShell 3.0
+# <a name="download-and-install-windows-powershell-30"></a>Baixar e instalar o Windows PowerShell 3.0
 
 Se você estiver usando o Windows 8.1, Windows 8, Windows Server 2012 R2 ou Windows Server 2012, você já deve ter o Windows PowerShell 3.0. Isso acontece porque o aplicativo vem pré-instalado com esses sistemas operacionais. 
   

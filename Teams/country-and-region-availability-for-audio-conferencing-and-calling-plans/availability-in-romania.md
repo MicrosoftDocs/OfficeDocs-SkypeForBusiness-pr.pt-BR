@@ -9,6 +9,7 @@ ms.assetid: b96cfc51-5fc2-47e1-b98d-d9a098793273
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Romênia.
-ms.openlocfilehash: 1534679688a8b17d750446ad6c14d0b5b76b62b0
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: ec814a00bab93611712d62d7fa78c7ef85b9aa17
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783242"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853283"
 ---
 # <a name="availability-in-romania"></a>Disponibilidade em Romênia
 

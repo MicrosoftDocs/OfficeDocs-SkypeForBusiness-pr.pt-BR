@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 825a6cf0-3d22-419a-8358-a8678f14b61d
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Consulte o que você precisa fazer em seguida depois que você tiver duas portas seus números de telefone para Skype para negócios.
-ms.openlocfilehash: 9011ba858bf57c9bd1b425fffc19ac508f3f4f23
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 806cd5cc714e76e894336abd2bdbf74bc34b09c8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779254"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861063"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>O que você precisa ser feito depois de você ter migradas seus números de telefone?
 

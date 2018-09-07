@@ -8,14 +8,15 @@ ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+search.appverid: MET150
 ms.collection: ''
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 1749d5b26be6e3cc4c55bb9a90e47e637fc67230
-ms.sourcegitcommit: 33966ebb9ca3d922d47aaa9b9e3a2ddd26c320ca
+ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "23848613"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861737"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -68,9 +69,9 @@ Os requisitos de infraestrutura para os SBCs com suporte, domínios e outros req
 |Entrada DNS pública para o SBC |Uma entrada de DNS pública mapear o FQDN SBC para o endereço IP público. |
 |Certificado confiável público para o SBC |Um certificado para o SBC a ser usado para toda a comunicação com o roteamento direto. Para obter mais informações, consulte o [certificado público de confiável para o SBC](#public-trusted-certificate-for-the-sbc).|
 |Pontos de Conexão para roteamento direto |Os pontos de conexão para roteamento direto são os FQDNs de três seguintes:<br/><br/>`sip.pstnhub.microsoft.com`– FQDN global, deve ser tentado primeiro.<br/>`sip2.pstnhub.microsoft.com`– FQDN secundário, geograficamente mapeia à segunda região prioridade.<br/>`sip3.pstnhub.microsoft.com`– FQDN terciária, geograficamente mapeia para a região de prioridade de terceiro.<br/><br/>Para obter informações sobre os requisitos de configuração, consulte [a sinalização SIP: FQDNs e portas do firewall](#sip-signaling-fqdns-and-firewall-ports).|
-|Endereços IP do firewall e portas de mídia de roteamento direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy, que trata a sinalização SIP<br/>Processador de mídia, que trata a mídia-, exceto quando o desvio de mídia está ligado<br/><br/>Esses dois serviços tem endereços IP separados no Microsoft Cloud, descrito mais adiante neste documento.<br/><br/>Para obter mais informações, consulte a [seção de equipes da Microsoft](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) em [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+|Endereços IP do firewall e portas de mídia de roteamento direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy, que trata a sinalização SIP<br/>Processador de mídia, que trata a mídia-, exceto quando o desvio de mídia está ligado<br/><br/>Esses dois serviços tem endereços IP separados no Microsoft Cloud, descrito mais adiante neste documento.<br/><br/>Para obter mais informações, consulte a [seção de equipes da Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) em [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Perfil de transporte de mídia|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
-Endereços IP do firewall e portas de mídia Teams da Microsoft |Para obter mais informações, consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2). |
+Endereços IP do firewall e portas de mídia Teams da Microsoft |Para obter mais informações, consulte [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licenciamento e outros requisitos 

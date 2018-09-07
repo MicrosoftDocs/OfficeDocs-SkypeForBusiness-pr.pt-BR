@@ -1,5 +1,5 @@
 ---
-title: Configurar políticas de celular para sua organização
+title: Configurar políticas móveis para sua organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: beea47b2-7b9a-4b28-92d0-af65d80cd00f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,14 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Você pode configurar o como os usuários se conectam à Skype para Business Online usando o Skype para aplicativos de negócios em dispositivos móveis, como um recurso que permite que os usuários façam e recebam chamadas telefônicas em seu telefone móvel usando seu número de telefone de trabalho em vez de nu seu telefone celular número. As políticas de mobilidade também podem ser usadas para requerer conexões Wi-Fi ao fazer ou receber chamadas.
-ms.openlocfilehash: 4e52230ed6f3255b9dbe929086ada6a63cfd66ce
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 21d1b19a72686d618bf8fca484bf828e62ee3a37
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500577"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861523"
 ---
-# <a name="set-up-mobile-policies-for-your-organization"></a>Configurar políticas de celular para sua organização
+# <a name="set-up-mobile-policies-for-your-organization"></a>Configurar políticas móveis para sua organização
 
 Você pode configurar o como os usuários se conectam à Skype para Business Online usando o Skype para aplicativos de negócios em dispositivos móveis, como um recurso que permite que os usuários façam e recebam chamadas telefônicas em seu telefone móvel usando seu número de telefone de trabalho em vez de nu seu telefone celular número. As políticas de mobilidade também podem ser usadas para requerer conexões Wi-Fi ao fazer ou receber chamadas.
   

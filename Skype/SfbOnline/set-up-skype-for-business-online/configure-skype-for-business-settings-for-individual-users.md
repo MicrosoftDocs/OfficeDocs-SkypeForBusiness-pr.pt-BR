@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 77b26eac-8228-4161-ba9f-733b187bd836
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: f9b6db08c87e46326d6e9de7c82d6e1c89cffce0
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 1296ec96d194be80ae3c48a947a0398f0eefb4e3
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19500815"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860325"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Definir as configurações do Skype for Business para usuários individuais
 
@@ -66,7 +67,7 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
 |Gravar conversas e reuniões  <br/> |Escolha o que esta pessoa tem permissão para gravar.  <br/> Essa opção não está disponível com Skype para básica de negócios.  <br/> |
 |Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  Esta opção desativa a recursos que não são capturados quando você tem um [Bloqueio In-loco](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) configurado no Centro de administração do Exchange. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
    
-Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenciando diretivas no Skype para negócios Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Para definir essas configurações em massa, use o PowerShell. Veja [Como gerenciar políticas no Skype for Business Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
   
 ## <a name="block-external-communications"></a>Bloquear comunicações externas
 <a name="__toc325019206"> </a>
@@ -83,7 +84,7 @@ Depois de [Permitir que os usuários do Skype for Business adicionem contatos do
     
 3. Clique em **Salvar**.
     
-Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenciando communications no Skype para negócios Online com externo usuários e organizações](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Para definir essas configurações em massa, use o PowerShell. Veja [Gerenciar comunicações no Skype for Business Online com usuários e organizações externos](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar configurações de conferência de áudio para um usuário
 <a name="__toc314837483"> </a>
@@ -95,8 +96,8 @@ Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenci
 |**Configuração da audioconferência**|**Descrição**|
 |:-----|:-----|
 |**Nome do provedor** <br/> |Escolha seu provedor da lista.  <br/> |
-|**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de serviços de audioconferência. Se o usuário está usando o Microsoft como um provedor de serviços de audioconferência, estes serão os números que estão definidos a ponte de conferência de áudio. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft.  <br/> |
-|**Número de chamada gratuita** <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de serviços de audioconferência. Se o usuário está usando o Microsoft como um provedor de serviços de audioconferência, estes serão os números que estão definidos a ponte de conferência de áudio. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft.  <br/> |
+|**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de serviços de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft.  <br/> |
+|**Número de chamada gratuita** <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de serviços de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft.  <br/> |
 |**PIN e ID de conferência** (necessário) <br/> |O código PIN do participante ou conferência, usado para ingressar em reuniões que são agendadas pelo usuário e são fornecidos a partir de um provedor de serviços de audioconferência de terceiros. Se o usuário está usando o Microsoft como um provedor de serviços de audioconferência, isso não será necessário.  <br/> |
    
 Para definir essas configurações em massa, use o PowerShell. Consulte [Definir convidam números incluídos no telefone](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).

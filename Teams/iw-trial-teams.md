@@ -8,15 +8,16 @@ ms.topic: article
 audience: Admin
 ms.reviewer: alchen
 ms.service: msteams
+search.appverid: MET150
 localization_priority: Normal
 description: Os usuários do Office 365 que não estejam licenciados for Microsoft Teams podem iniciar uma versão de avaliação das equipes 1 ano.
 MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 67463a7014f4060baadb8348f8d12347f0166d34
-ms.sourcegitcommit: a601dbd212ea483e4b7bfac27674d9d8e92e3a2a
+ms.openlocfilehash: 10977a95d5ff86d72964270a2c6daa7d9764448e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "23790911"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858817"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 =======================================================

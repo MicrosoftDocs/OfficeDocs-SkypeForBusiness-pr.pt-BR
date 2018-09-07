@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: a8315746-0d17-4c75-ae37-eab82532a3d8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba o que fazer se a sua operadora não estiver listada no Skype para negócios. '
-ms.openlocfilehash: 3d1737f19488d737078c9747146278b0fa3a9bba
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 7e3d6e5c7b6a319cc83d85945b9fc5ab3fd9e19b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779624"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864795"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>E se a minha operadora telefônica não estiver listada como a operadora original?
 
@@ -44,7 +45,7 @@ Um exemplo:
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[Termos e condições para chamadas de emergência](/microsoftteams/emergency-calling-terms-and-conditions)
+[Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar e solucionar problemas Skype para delegação Business Online
+title: Configurar e solucionar problemas de delegação do Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: e676b911-5f82-41d8-b4ce-3d0d45c3cd04
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Este artigo explica como configurar e solucionar problemas Skype para delegação Business Online. Este artigo fornece orientações para as etapas de solução de problemas, práticas recomendadas e recomendações de instalação.
-ms.openlocfilehash: 13df45590905bd6bbf7498ec6d2ab912cf976228
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: bb1f8639d045d156d5095e33a4a012987604c6e1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23856485"
 ---
-# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar e solucionar problemas Skype para delegação Business Online
+# <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar e solucionar problemas de delegação do Skype for Business Online
 
 Este artigo explica como configurar e solucionar problemas Skype para delegação Business Online. Este artigo fornece orientações para as etapas de solução de problemas, práticas recomendadas e recomendações de instalação.
   
@@ -53,7 +55,7 @@ Configurando e instalando a delegação funcione corretamente dependem seguir es
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync/Skype para negócios básicos do cliente**| Não suportado |Não suportado
-|**Skype para negócios 2015**|Compatível | Compatível |
+|**Skype for Business 2015**|Compatível | Compatível |
 |**Skype para 2016 de negócios**|Compatível | Compatível |
 
    

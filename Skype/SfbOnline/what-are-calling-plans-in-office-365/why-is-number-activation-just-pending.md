@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e51880ae-d09d-46ba-8eaf-7b8b330e37a6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: bbd3b3ce7ba31ec65ce93f13431d7da6ea85cc43
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 44321df914ebd2bf85109a64cbc285f2e6572d6b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779101"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23860299"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Por que a ativação do número está pendente?
 

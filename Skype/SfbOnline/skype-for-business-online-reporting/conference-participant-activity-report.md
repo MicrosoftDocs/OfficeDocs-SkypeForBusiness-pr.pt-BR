@@ -1,5 +1,5 @@
 ---
-title: Relatório de atividade dos participantes da conferência
+title: Relatório de atividades dos participantes de conferências
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: c3c89995-65dd-4715-9e38-bb244c742c6b
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,15 +19,14 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-search.appverid: MET150
-ms.openlocfilehash: 76d41724223e55f10bbabf566719e2bd19e24411
-ms.sourcegitcommit: 607029d24fda331681e23006887fb484410c2b31
+ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2018
-ms.locfileid: "19933113"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23864575"
 ---
-# <a name="conference-participant-activity-report"></a>Relatório de atividade dos participantes da conferência
+# <a name="conference-participant-activity-report"></a>Relatório de atividades dos participantes de conferências
 
 Como um administrador do Office 365, o novo painel de **relatórios** mostra dados sobre o uso dos produtos do Office 365 dentro da sua organização. Você pode usar o relatório de **Skype para atividade de participante de conferência de negócios** para ver quantas mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativo, Web e e conferências de discagem/saída estão sendo participou pelos usuários em sua organização.
 

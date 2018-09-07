@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: 0a24c1d1-11e3-4971-a90d-4c3e69ef165f
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -18,11 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Aprenda a operar dentro as limitações do Skype para exibição de negócios on-line do administrador de usuários. '
-ms.openlocfilehash: 37c2df7235cdf324d273bcb2d57dcd0b0a4f05a9
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: 1f8a3c98e218b3d536c21bbfdd0efe7cecf3806b
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862991"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitações de página do Skype para os usuários do Business Online admin center
 

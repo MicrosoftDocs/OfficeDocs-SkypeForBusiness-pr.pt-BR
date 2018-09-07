@@ -9,6 +9,7 @@ ms.assetid: bbaf568d-363f-45e7-acd2-82e5ebb7fa21
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 ms.collection: Adm_Skype4B_Online
+search.appverid: MET150
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para a Suíça.
-ms.openlocfilehash: 4ef1b7fe906be84bf0ad9df5d9b73208c921b34d
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: c544bd002f7c9a4b1fde1cce4508e47dad326c14
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23785138"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23858347"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilidade em Suíça
 

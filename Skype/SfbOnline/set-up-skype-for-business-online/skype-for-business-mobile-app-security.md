@@ -1,5 +1,5 @@
 ---
-title: Skype para segurança de aplicativos móveis de negócios
+title: Segurança do aplicativo móvel do Skype for Business
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: d2be8c74-3ba2-4b2d-9807-634904e1f0e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -16,13 +17,14 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba como configurar a segurança de aplicativo móvel para seus usuários. '
-ms.openlocfilehash: 5f0ce617ae7dc3b8b6dd75e50c9594e5d5524aa3
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: a87719bc4135ab429fca8425812b285a2eed5b5e
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23861287"
 ---
-# <a name="skype-for-business-mobile-app-security"></a>Skype para segurança de aplicativos móveis de negócios
+# <a name="skype-for-business-mobile-app-security"></a>Segurança do aplicativo móvel do Skype for Business
 
 ## <a name="skype-for-business-client-security"></a>Segurança do Cliente Skype for Business
 
