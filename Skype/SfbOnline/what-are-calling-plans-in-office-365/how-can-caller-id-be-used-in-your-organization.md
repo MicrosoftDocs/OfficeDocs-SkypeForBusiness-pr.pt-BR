@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: A identificação de chamadas pode ser controlada para chamadas de entrada e saída para usuários do Sistema de Telefonia usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: 04ee6f0bc074318f30d0257e7466d2d2ec7262aa
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 410712a8fd0a6f28b0bc2821daae8143b38ceb63
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23778991"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23854221"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -52,7 +53,7 @@ Existem três opções disponíveis para a identificação de chamada PSTN de sa
     
 - Definido como anônimo.
     
-Definido como anônimo.
+No entanto, você não pode atribuir esses tipos de números de telefone para identificação de chamadas de saída:
   
 - Quaisquer números de telefone que são classificados como um  *usuário*  em seu estoque de números de telefone de Planos de Chamada.
     
@@ -62,9 +63,9 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Controle de usuário final de identificação de chamada de saída
 
-O atributo EnableUserOverride permite que um único ou vários usuários alterem a configuração da identificação de chamada para **Anônimo**. Isso é aplicável apenas quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute da LineURI ou Substituto. O valor padrão do EnableUserOverride é Falso.
+O atributo EnableUserOverride permite que um único ou vários usuários alterem a configuração da identificação de chamadas para **Anônimo**. Isso é aplicável apenas quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute da LineURI ou Substitute. O valor padrão do EnableUserOverride é False.
   
-Seus usuários finais podem definir sua identificação de chamada como **Anônimo** usando a guia **Configurações de Encaminhamento de Chamadas** no cliente desktop do Skype for Business.
+Os usuários finais podem definir a identificação de chamada como **Anônimo** usando a guia **Configurações de Encaminhamento de Chamadas** no cliente desktop do Skype for Business.
   
 ||||
 |:-----|:-----|:-----|
@@ -75,11 +76,11 @@ Seus usuários finais podem definir sua identificação de chamada como **Anôni
 |MSI  <br/> |Skype for Business  <br/> |Não  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |Não  <br/> |
    
-## <a name="inbound-caller-id"></a>Identificação de chamada de entrada
+## <a name="inbound-caller-id"></a>Identificação de chamadas de entrada
 
-O atributo BlockIncomingCallerID permite o bloqueio da identificação de chamadas nas chamadas PSTN de entrada. Você pode definir esse atributo, mas ele não está disponível para seus usuários finais na página de configurações do usuário. E ele está disponível atualmente apenas com a conectividade PSTN Online.
+O atributo BlockIncomingCallerID permite o bloqueio da identificação de chamadas nas chamadas de entrada PSTN. Você pode definir esse atributo, mas ele não está disponível para seus usuários finais na página de configurações do usuário. E está atualmente disponível apenas com conectividade PSTN Online.
   
-Para definir a identificação de chamada de saída, consulte [Definir a identificação de chamadas para um usuário](set-the-caller-id-for-a-user.md).
+Para definir a identificação de chamadas de saída, consulte [Definir a identificação de chamadas para um usuário](set-the-caller-id-for-a-user.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)

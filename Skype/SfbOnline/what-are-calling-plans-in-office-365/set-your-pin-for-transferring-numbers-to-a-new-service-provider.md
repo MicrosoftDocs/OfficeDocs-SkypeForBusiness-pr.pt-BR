@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: f1defa5b-e49c-4d8c-a5f8-3f736201af5e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Para transferir ou fazer a portabilidade de números de telefone do Skype for Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN. Depois de definir o PIN, você precisará incluí-lo quando solicitar a portabilidade do número de telefone.
-ms.openlocfilehash: 4dc60b489a6b382df5764f0c011f716f36a17cd8
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 144e3b0527b8557bbbb6a7f9c1b51ad2d61a0f1f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779137"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23851709"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Definir seu PIN para transferir números para um novo provedor de serviços
 

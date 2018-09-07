@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 7af17c94-5f8f-4452-ae1d-01f495b4dc94
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Aprenda como criar planos de discagem de chamadas (Planos de Discagem de Chamadas PSTN) no Office 365 e como gerenciá-los. '
-ms.openlocfilehash: a0bbe698e348461d9f8295035e02afcb537eb503
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 5b0de676fce07712c22bd4e3c31f824f734ff007
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779284"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23853675"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -151,7 +152,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Execute o seguinte para examinar as regras de normalização existentes, determine qual deseja excluir e use o índice para removê-la. A matriz das regras de normalização começa com o índice 0. Desejamos remover a regra de normalização de 3 dígitos, então esse é o índice 1.
+Execute este script para examinar as regras de normalização existentes, determinar qual deseja excluir e usar o seu índice para removê-la. A matriz de regras de normalização começa com o índice 0. Desejamos remover a regra de normalização de 3 dígitos, então esse é o índice 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -177,7 +178,7 @@ Execute este script para localizar todos os usuários que receberam o plano de d
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Execute estes para adicionar o plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para sua organização. Primeiro você deve salvar o plano de discagem local em um arquivo .xml e depois usá-lo para criar um novo plano de discagem de locatário.
+Execute estes scripts para adicionar um plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para sua organização. Primeiro você deve salvar o plano de discagem local em um arquivo .xml e depois usá-lo para criar o novo plano de discagem de locatário.
   
 Execute este script para salvar o plano de discagem local no arquivo .xml.
   
@@ -203,7 +204,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
 
-- O Windows PowerShell serve para o gerenciamento de usuários e do que os usuários podem ou não podem fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

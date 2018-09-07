@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 11cadb26-534d-41db-af6b-1f648edfd907
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -20,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como adicionar, alterar ou remover um local de emergência usado pelo Skype for Business na rede pública de telefonia comutada (PSTN) para sua organização. '
-ms.openlocfilehash: 000d798002ce3ef8c313baa44542c1a755fa558b
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 3ba8845b8765b15ac11df80122001fb3ac7d040c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23780897"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23857767"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
@@ -37,14 +38,14 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** > e selecione o endereço de emergência para o qual você deseja adicionar um local.
+3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e selecione o endereço de emergência para o qual você deseja adicionar um local.
     
     > [!Important]
     > Para ver a opção **Voz** no painel de navegação à esquerda no centro de administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento do **Sistema de Telefonia** ou uma licença de complemento de **Audioconferência**.
     
-4. No painel Ação, em **Locais associados**, clique em **Alterar**.
+4. No painel Ação, ao lado de **Locais associados**, clique em **Alterar**.
     
 5. Em **Locais associados**, clique em **Adicionar novo**, insira outro local associado (por exemplo, digite "Edifício 64 1º andar") e, em seguida, clique em **Enviar**.
     
@@ -54,11 +55,11 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** > e selecione o endereço de emergência para o qual você deseja adicionar um local.
+3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e selecione o endereço de emergência para o qual você deseja alterar um local.
     
-4. No painel Ação, em **Locais associados**, clique em **Alterar**.
+4. No painel Ação, ao lado de **Locais associados**, clique em **Alterar**.
     
 5. Em **Locais associados**, clique no link para o local na lista, insira os detalhes do novo local em **Alterar detalhes do local associado** e, em seguida, clique em **Enviar**.
     
@@ -68,11 +69,11 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** > e selecione o endereço de emergência para o qual você deseja adicionar um local.
+3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e selecione o endereço de emergência para o qual você deseja remover um local.
     
-4. No painel Ação, em **Locais associados**, clique em **Alterar**.
+4. No painel Ação, ao lado de **Locais associados**, clique em **Alterar**.
     
 5. Em **Locais associados**, próximo ao link para o local, clique em **Remover**.
     
