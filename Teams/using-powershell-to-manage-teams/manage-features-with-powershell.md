@@ -5,15 +5,16 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 description: Saiba como usar o Windows PowerShell para gerenciar todos os recursos encontrados no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3914b8d1534d26d3a69931f8eaaa9a359ed53eb0
-ms.sourcegitcommit: 41e325c5440e26cc39a3c8945020f597f8dfac96
+ms.openlocfilehash: 51ebac4bed4b390758fe3fd2989f274febef6f7f
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22213318"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23868209"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Usando o PowerShell para gerenciar equipes
 Eu faria isso prever como um tópico de referência que seria configurado de acordo com o recurso. Em seguida, cada conjunto de recursos teria que todos os cmdlets listados na tabela com links para o tópico de Get-Help.

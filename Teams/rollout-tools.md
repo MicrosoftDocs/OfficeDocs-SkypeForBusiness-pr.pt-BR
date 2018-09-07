@@ -8,15 +8,16 @@ ms.topic: article
 ms.service: msteams
 description: Encontre ferramentas para dar suporte à distribuição do Microsoft Teams, como modelos de email, Guias de Introdução, o Kit de sucesso do cliente e muito mais.
 localization_priority: Priority
+search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5584c56fae347b0812a9757d16db89d5aa6811de
-ms.sourcegitcommit: 0c2d1766b96b99d9985f5a0f4f90b8d8bd9aa3ef
-ms.translationtype: MT
+ms.openlocfilehash: 8cf417a3029e57eebd2ea8adb1988a1193fecde1
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "18998984"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867721"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obter ferramentas para dar suporte na implantação do Microsoft Teams
 =================================================

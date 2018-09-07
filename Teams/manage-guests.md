@@ -7,15 +7,16 @@ ms.date: 10/20/17
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rramesan
+search.appverid: MET150
 description: Os administradores de TI podem adicionar convidados em nível de locatário, definir e gerenciar políticas e permissões de usuários convidados, determinar quais usuários podem convidar convidados e extrair relatórios sobre a atividade do usuário convidado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc06626f745eec4106e65da206123fa68b4e208c
-ms.sourcegitcommit: 39516662ee3eefe2fb86735c5bae97b3fb32b7ab
+ms.openlocfilehash: b1f4faf77d55da9e16ab49c7b2b3e6bc3a8727f8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "23834907"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867705"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciamento do acesso de convidados no Microsoft Teams
 ======================================

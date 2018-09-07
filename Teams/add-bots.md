@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
+search.appverid: MET150
 ms.reviewer: lucarras
 description: Saiba como adicionar bots no Microsoft Teams para bate-papos privados e canais, criar bots personalizados e carregue seu próprio bot para bate-papo privado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08417f4aafae8c7fd844cb253a889b833d0e6266
-ms.sourcegitcommit: c05731b8a757864c0f6620bfeda3ae28a3582011
+ms.openlocfilehash: 84ddb68dd5251d943e1fe3b6cca1aae2cf8fcb45
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2018
-ms.locfileid: "19856024"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23867649"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Adicionar bots para bate-papos privados e canais no Microsoft Teams
 ==========================================================
