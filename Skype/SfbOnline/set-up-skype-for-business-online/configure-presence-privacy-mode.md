@@ -7,6 +7,7 @@ ms.topic: article
 ms.assetid: b33d57fe-b9cf-43c1-961a-edf28db738e8
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,32 +18,33 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Saiba como configurar o modo de privacidade para seus usuários para que eles podem controlar melhor como pessoas ver a disponibilidade deles. '
-ms.openlocfilehash: 9181962111e8e637af816351eb88ac32f7e50dcc
-ms.sourcegitcommit: a0d3e7a177fcd0667ab0d7d0e904f4053b09a92d
+ms.openlocfilehash: e2fb222046dc936d8fbd010dc8016da2b06e1ae8
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23862797"
 ---
-# <a name="configure-presence-privacy-mode"></a><span data-ttu-id="fcfe9-103">Configurar o modo de privacidade de presença</span><span class="sxs-lookup"><span data-stu-id="fcfe9-103">Configure presence privacy mode</span></span>
+# <a name="configure-presence-privacy-mode"></a><span data-ttu-id="33e26-103">Configurar o modo de privacidade de presença</span><span class="sxs-lookup"><span data-stu-id="33e26-103">Configure presence privacy mode</span></span>
 
-<span data-ttu-id="fcfe9-104">O Skype para configuração de presença Online de negócios dá às pessoas mais controle sobre quem pode ver se eles estão disponíveis, em uma reunião ou ausente do escritório.</span><span class="sxs-lookup"><span data-stu-id="fcfe9-104">The Skype for Business Online presence setting gives people more control over who can see whether they are available, in a meeting, or out of the office.</span></span> <span data-ttu-id="fcfe9-105">Para obter detalhes sobre Skype para presença de negócios e as configurações de privacidade, vejam a [presença de Configure no Skype para negócios Online](configure-presence-in-skype-for-business-online.md).</span><span class="sxs-lookup"><span data-stu-id="fcfe9-105">For details about Skype for Business presence and privacy settings, see [Configure presence in Skype for Business Online](configure-presence-in-skype-for-business-online.md).</span></span> 
+<span data-ttu-id="33e26-104">O Skype para configuração de presença Online de negócios dá às pessoas mais controle sobre quem pode ver se eles estão disponíveis, em uma reunião ou ausente do escritório.</span><span class="sxs-lookup"><span data-stu-id="33e26-104">The Skype for Business Online presence setting gives people more control over who can see whether they are available, in a meeting, or out of the office.</span></span> <span data-ttu-id="33e26-105">Para obter detalhes sobre Skype para presença de negócios e as configurações de privacidade, vejam a [presença de Configure no Skype para negócios Online](configure-presence-in-skype-for-business-online.md).</span><span class="sxs-lookup"><span data-stu-id="33e26-105">For details about Skype for Business presence and privacy settings, see [Configure presence in Skype for Business Online](configure-presence-in-skype-for-business-online.md).</span></span> 
   
-## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a><span data-ttu-id="fcfe9-106">Escolha a configuração de presença online de padrão para todas as pessoas na sua organização</span><span class="sxs-lookup"><span data-stu-id="fcfe9-106">Choose the default online presence setting for everyone in your organization</span></span>
-<span data-ttu-id="fcfe9-107"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="fcfe9-107"></span></span>
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a><span data-ttu-id="33e26-106">Escolha a configuração de presença online de padrão para todas as pessoas na sua organização</span><span class="sxs-lookup"><span data-stu-id="33e26-106">Choose the default online presence setting for everyone in your organization</span></span>
+<span data-ttu-id="33e26-107"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="33e26-107"></span></span>
 
-1. <span data-ttu-id="fcfe9-108">Vá até o Skype para Business Online admin center > **organização > geral**.</span><span class="sxs-lookup"><span data-stu-id="fcfe9-108">Go to the Skype for Business Online admin center > **Organization > General**.</span></span>
+1. <span data-ttu-id="33e26-108">Vá até o Skype para Business Online admin center > **organização > geral**.</span><span class="sxs-lookup"><span data-stu-id="33e26-108">Go to the Skype for Business Online admin center > **Organization > General**.</span></span>
     
-2. <span data-ttu-id="fcfe9-109">Em **modo de privacidade de presença**, escolha a configuração e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="fcfe9-109">Under **Presence privacy mode**, choose the setting, and then click **Save**.</span></span>
+2. <span data-ttu-id="33e26-109">Em **modo de privacidade de presença**, escolha a configuração e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="33e26-109">Under **Presence privacy mode**, choose the setting, and then click **Save**.</span></span>
     
-|<span data-ttu-id="fcfe9-110">**Configuração**</span><span class="sxs-lookup"><span data-stu-id="fcfe9-110">**Setting**</span></span>|<span data-ttu-id="fcfe9-111">**Quem pode exibir a presença de um usuário**</span><span class="sxs-lookup"><span data-stu-id="fcfe9-111">**Who can view a user's presence**</span></span>|
+|<span data-ttu-id="33e26-110">**Configuração**</span><span class="sxs-lookup"><span data-stu-id="33e26-110">**Setting**</span></span>|<span data-ttu-id="33e26-111">**Quem pode exibir a presença de um usuário**</span><span class="sxs-lookup"><span data-stu-id="33e26-111">**Who can view a user's presence**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="fcfe9-112">**Exibir automaticamente as informações de presença**</span><span class="sxs-lookup"><span data-stu-id="fcfe9-112">**Automatically display presence information**</span></span> <br/> |<span data-ttu-id="fcfe9-113">Qualquer usuário do Skype for Business que não esteja no grupo de privacidade **Externo** ou **Bloqueado**.</span><span class="sxs-lookup"><span data-stu-id="fcfe9-113">Any Skype for Business user who does not belong to the **External** or **Blocked** privacy group.</span></span> <br/> |
-|<span data-ttu-id="fcfe9-114">**Exibir informações de presença somente para contatos do usuário**</span><span class="sxs-lookup"><span data-stu-id="fcfe9-114">**Display presence information only to a user's contacts**</span></span> <br/> |<span data-ttu-id="fcfe9-115">Qualquer pessoa na lista de contatos de um usuário que não pertencem ao grupo de privacidade **externo** ou **bloqueado** .</span><span class="sxs-lookup"><span data-stu-id="fcfe9-115">Anyone in a user's contact list who does not belong to the **External** or **Blocked** privacy group.</span></span> <br/> <span data-ttu-id="fcfe9-116">Usuários individuais podem alterar essa configuração no Skype para caixa de diálogo **Opções** de negócios.</span><span class="sxs-lookup"><span data-stu-id="fcfe9-116">Individual users can change this setting in the Skype for Business **Options** dialog box.</span></span> <br/> |
+|<span data-ttu-id="33e26-112">**Exibir automaticamente as informações de presença**</span><span class="sxs-lookup"><span data-stu-id="33e26-112">**Automatically display presence information**</span></span> <br/> |<span data-ttu-id="33e26-113">Qualquer usuário do Skype for Business que não esteja no grupo de privacidade **Externo** ou **Bloqueado**.</span><span class="sxs-lookup"><span data-stu-id="33e26-113">Any Skype for Business user who does not belong to the **External** or **Blocked** privacy group.</span></span> <br/> |
+|<span data-ttu-id="33e26-114">**Exibir informações de presença somente para contatos do usuário**</span><span class="sxs-lookup"><span data-stu-id="33e26-114">**Display presence information only to a user's contacts**</span></span> <br/> |<span data-ttu-id="33e26-115">Qualquer pessoa na lista de contatos de um usuário que não pertencem ao grupo de privacidade **externo** ou **bloqueado** .</span><span class="sxs-lookup"><span data-stu-id="33e26-115">Anyone in a user's contact list who does not belong to the **External** or **Blocked** privacy group.</span></span> <br/> <span data-ttu-id="33e26-116">Usuários individuais podem alterar essa configuração no Skype para caixa de diálogo **Opções** de negócios.</span><span class="sxs-lookup"><span data-stu-id="33e26-116">Individual users can change this setting in the Skype for Business **Options** dialog box.</span></span> <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="fcfe9-117">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="fcfe9-117">Related topics</span></span>
-[<span data-ttu-id="fcfe9-118">Configurar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="fcfe9-118">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="33e26-117">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="33e26-117">Related topics</span></span>
+[<span data-ttu-id="33e26-118">Configurar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="33e26-118">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="fcfe9-119">Permitir que os usuários do Skype for Business adicionem contatos do Skype</span><span class="sxs-lookup"><span data-stu-id="fcfe9-119">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="33e26-119">Permitir que os usuários do Skype for Business adicionem contatos do Skype</span><span class="sxs-lookup"><span data-stu-id="33e26-119">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

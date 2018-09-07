@@ -7,6 +7,7 @@ ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -19,21 +20,21 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Você pode baixar esses rótulos de chamada de emergência quando você estiver usando planos de chamada no Office 365.
-ms.openlocfilehash: da0f6461393c3160d6a59f3be21470d70c06fa80
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 07e23e28e5de9038470be2a63d38221c62e14eb7
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23783938"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23866359"
 ---
-# <a name="emergency-calling-labels"></a><span data-ttu-id="b6a3a-103">Rótulos de chamadas de emergência</span><span class="sxs-lookup"><span data-stu-id="b6a3a-103">Emergency Calling Labels</span></span>
+# <a name="emergency-calling-labels"></a><span data-ttu-id="fcfcf-103">Rótulos de chamadas de emergência</span><span class="sxs-lookup"><span data-stu-id="fcfcf-103">Emergency Calling Labels</span></span>
 
-<span data-ttu-id="b6a3a-104">Essas são de emergências (911) rótulos de isenção de responsabilidade de chamar ou adesivos para usam com etiquetas de endereçamento Avery 5160 (1 "x 2 5/8") ou podem ser dimensionados se quiser usar outros tipos de rótulos.</span><span class="sxs-lookup"><span data-stu-id="b6a3a-104">These are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.</span></span>
+<span data-ttu-id="fcfcf-104">Essas são de emergências (911) rótulos de isenção de responsabilidade de chamar ou adesivos para usam com etiquetas de endereçamento Avery 5160 (1 "x 2 5/8") ou podem ser dimensionados se quiser usar outros tipos de rótulos.</span><span class="sxs-lookup"><span data-stu-id="fcfcf-104">These are emergency calling (911) disclaimer labels or stickers for use with Avery 5160 address labels (1" x 2 5/8") or can be sized if you want to use other types of labels.</span></span>
 
-<span data-ttu-id="b6a3a-105">[Clique para baixar um arquivo. zip para rótulos de chamada de emergência (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span><span class="sxs-lookup"><span data-stu-id="b6a3a-105">[Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span></span>
+<span data-ttu-id="fcfcf-105">[Clique para baixar um arquivo. zip para rótulos de chamada de emergência (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span><span class="sxs-lookup"><span data-stu-id="fcfcf-105">[Click to download a .zip file for Emergency Calling labels (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="b6a3a-106">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="b6a3a-106">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="fcfcf-106">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="fcfcf-106">Related topics</span></span>
 
-[<span data-ttu-id="b6a3a-107">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="b6a3a-107">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[<span data-ttu-id="fcfcf-107">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="fcfcf-107">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[<span data-ttu-id="b6a3a-108">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="b6a3a-108">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="fcfcf-108">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="fcfcf-108">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)

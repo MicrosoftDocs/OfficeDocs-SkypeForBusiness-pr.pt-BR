@@ -1,5 +1,5 @@
 ---
-title: Legais e normativos
+title: Jurídico e regulatório
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: bfda8317-12a9-4594-9fb3-c0061a82711e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
 appliesto:
@@ -17,11 +18,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Legal
-description: 'Este é o conteúdo que deverão ser publicado para atender aos requisitos de acessibilidade, conformidade e normativos para Skype para negócios Online na França. '
-ms.openlocfilehash: 498fbb07ab5d2dd6ea036e1ceeb1e5598203a8cf
-ms.sourcegitcommit: 68e68c96c18d854afc0158920e6d9d738f276d91
+description: 'Esse conteúdo deve ser publicado para atender aos requisitos de acessibilidade, conformidade e regulamentação do Skype for Business Online na França. '
+ms.openlocfilehash: 1681bedf95938a9eddc5f9e65862855a1591fd0c
+ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23865549"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="caf21-103">Legais e normativos</span><span class="sxs-lookup"><span data-stu-id="caf21-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="bc54a-103">Jurídico e regulatório</span><span class="sxs-lookup"><span data-stu-id="bc54a-103">Legal and regulatory</span></span>
