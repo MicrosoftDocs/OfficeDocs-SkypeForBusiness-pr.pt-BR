@@ -6,46 +6,46 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planejar a conectividade PSTN no Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: ed8b4d29dd6d2fdfc3592fba4236f4a99b9ee05d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0c84cc1c683f55ab003164f845071c071c620adc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003868"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23881822"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a><span data-ttu-id="18d2d-103">Planejar a conectividade PSTN em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="18d2d-103">Plan for PSTN connectivity in Skype for Business Server</span></span>
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a><span data-ttu-id="865f9-103">Planejar a conectividade PSTN em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="865f9-103">Plan for PSTN connectivity in Skype for Business Server</span></span>
  
-<span data-ttu-id="18d2d-104">Planejar a conectividade PSTN no Enterprise Voice no Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="18d2d-104">Plan for PSTN connectivity in Enterprise Voice in Skype for Business Server.</span></span>
+<span data-ttu-id="865f9-104">Planejar a conectividade PSTN no Enterprise Voice no Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="865f9-104">Plan for PSTN connectivity in Enterprise Voice in Skype for Business Server.</span></span>
   
-<span data-ttu-id="18d2d-105">Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço).</span><span class="sxs-lookup"><span data-stu-id="18d2d-105">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS).</span></span> <span data-ttu-id="18d2d-106">Os usuários que façam e recebam chamadas não devem estar cientes da tecnologia subjacente: da perspectiva do usuário, uma chamada entre a infraestrutura do Enterprise Voice e a PSTN deve ser semelhante a qualquer outra telefonema.</span><span class="sxs-lookup"><span data-stu-id="18d2d-106">Users who place and receive calls should not be aware of the underlying technology: from the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another phone call.</span></span>
+<span data-ttu-id="865f9-105">Uma solução de VoIP em nível empresarial deve fornecer chamadas de e para PSTN (rede telefônica pública comutada), sem redução de QoS (Qualidade de Serviço).</span><span class="sxs-lookup"><span data-stu-id="865f9-105">An enterprise-grade VoIP solution must provide for calls to and from the public switched telephone network (PSTN) without any decline in Quality of Service (QoS).</span></span> <span data-ttu-id="865f9-106">Os usuários que façam e recebam chamadas não devem estar cientes da tecnologia subjacente: da perspectiva do usuário, uma chamada entre a infraestrutura do Enterprise Voice e a PSTN deve ser semelhante a qualquer outra telefonema.</span><span class="sxs-lookup"><span data-stu-id="865f9-106">Users who place and receive calls should not be aware of the underlying technology: from the user's perspective, a call between the Enterprise Voice infrastructure and the PSTN should seem like just another phone call.</span></span>
   
-<span data-ttu-id="18d2d-107">Skype para Business Server fornece uma conectividade PSTN confiável e escalável usando as seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="18d2d-107">Skype for Business Server provides reliable, scalable PSTN connectivity by using the following options:</span></span>
+<span data-ttu-id="865f9-107">Skype para Business Server fornece uma conectividade PSTN confiável e escalável usando as seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="865f9-107">Skype for Business Server provides reliable, scalable PSTN connectivity by using the following options:</span></span>
   
-- <span data-ttu-id="18d2d-108">**Troncos SIP** para um provedor de serviços de telefonia da Internet (ITSP)</span><span class="sxs-lookup"><span data-stu-id="18d2d-108">**SIP trunks** to an Internet telephony service provider (ITSP)</span></span>
+- <span data-ttu-id="865f9-108">**Troncos SIP** para um provedor de serviços de telefonia da Internet (ITSP)</span><span class="sxs-lookup"><span data-stu-id="865f9-108">**SIP trunks** to an Internet telephony service provider (ITSP)</span></span>
     
-- <span data-ttu-id="18d2d-109">**Conexões SIP diretas** com um gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="18d2d-109">**Direct SIP connections** to a PSTN gateway</span></span>
+- <span data-ttu-id="865f9-109">**Conexões SIP diretas** com um gateway PSTN</span><span class="sxs-lookup"><span data-stu-id="865f9-109">**Direct SIP connections** to a PSTN gateway</span></span>
     
-- <span data-ttu-id="18d2d-110">**Conexões SIP diretas** com um PBX</span><span class="sxs-lookup"><span data-stu-id="18d2d-110">**Direct SIP connections** to a PBX</span></span>
+- <span data-ttu-id="865f9-110">**Conexões SIP diretas** com um PBX</span><span class="sxs-lookup"><span data-stu-id="865f9-110">**Direct SIP connections** to a PBX</span></span>
     
-<span data-ttu-id="18d2d-p102">Dependendo de seu tamanho, cobertura geográfica e infraestrutura de voz existente, uma determinada empresa pode usar uma, duas ou até mesmo três opções em vários locais. Para obter detalhes sobre essas opções, consulte as seções a seguir.</span><span class="sxs-lookup"><span data-stu-id="18d2d-p102">Depending on its size, geographic coverage, and existing voice infrastructure, an enterprise may use one, two, or even all three of these options at various locations. For details about these options, see the following sections.</span></span>
+<span data-ttu-id="865f9-p102">Dependendo de seu tamanho, cobertura geográfica e infraestrutura de voz existente, uma determinada empresa pode usar uma, duas ou até mesmo três opções em vários locais. Para obter detalhes sobre essas opções, consulte as seções a seguir.</span><span class="sxs-lookup"><span data-stu-id="865f9-p102">Depending on its size, geographic coverage, and existing voice infrastructure, an enterprise may use one, two, or even all three of these options at various locations. For details about these options, see the following sections.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="18d2d-113">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="18d2d-113">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="865f9-113">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="865f9-113">In this section</span></span>
 
-- [<span data-ttu-id="18d2d-114">Tronco SIP no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="18d2d-114">SIP trunking in Skype for Business Server</span></span>](sip-trunking.md)
+- [<span data-ttu-id="865f9-114">Tronco SIP no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="865f9-114">SIP trunking in Skype for Business Server</span></span>](sip-trunking.md)
     
-- [<span data-ttu-id="18d2d-115">Conexões SIP diretas no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="18d2d-115">Direct SIP connections in Skype for Business Server</span></span>](direct-sip.md)
+- [<span data-ttu-id="865f9-115">Conexões SIP diretas no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="865f9-115">Direct SIP connections in Skype for Business Server</span></span>](direct-sip.md)
     
-- [<span data-ttu-id="18d2d-116">Tronco M:N no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="18d2d-116">M:N trunk in Skype for Business Server</span></span>](m-n-trunk.md)
+- [<span data-ttu-id="865f9-116">Tronco M:N no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="865f9-116">M:N trunk in Skype for Business Server</span></span>](m-n-trunk.md)
     
-- [<span data-ttu-id="18d2d-117">Regras de conversão no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="18d2d-117">Translation rules in Skype for Business Server</span></span>](translation-rules.md)
+- [<span data-ttu-id="865f9-117">Regras de conversão no Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="865f9-117">Translation rules in Skype for Business Server</span></span>](translation-rules.md)
     
-- [<span data-ttu-id="18d2d-118">Planejar o roteamento de voz de saída em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="18d2d-118">Plan for outbound voice routing in Skype for Business Server</span></span>](outbound-voice-routing.md)
+- [<span data-ttu-id="865f9-118">Planejar o roteamento de voz de saída em Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="865f9-118">Plan for outbound voice routing in Skype for Business Server</span></span>](outbound-voice-routing.md)
     
 
