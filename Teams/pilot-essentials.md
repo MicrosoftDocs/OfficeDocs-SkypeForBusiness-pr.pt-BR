@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Diretrizes para iniciar um piloto de Teams da Microsoft para explorar todas as opções que às equipes podem oferecer a sua organização enquanto você continuar a usar o Skype para negócios
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1a21c14182f0a4666eb5ae236cc9ac382a6bced
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eff70f1a815f8ad9910143a08f38b058ae6e4148
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867913"
+ms.locfileid: "23882197"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 

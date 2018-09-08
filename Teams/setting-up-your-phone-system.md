@@ -15,17 +15,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (nuvem PBX) para sua organização. '
-ms.openlocfilehash: 83db27b8737b2027d4d983bdd736bed7785c5e60
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 54ac25bb3c2ec88a35bc8e017f7a3eb2e55edc1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853347"
+ms.locfileid: "23883233"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configuração do Sistema de Telefonia na sua organização
 

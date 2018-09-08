@@ -1,5 +1,5 @@
 ---
-title: Solução de conferência de áudio e problemas conhecidos
+title: Solução de problemas e problemas conhecidos da audioconferência
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 72979911-5319-4de2-a275-4dd9a0f44fe6
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,18 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha uma lista de problemas conhecidos ao usar o Microsoft como seu provedor de conferência discada, status e algumas soluções alternativas. '
-ms.openlocfilehash: fb22149d2aca537f491c0c8d475059ec9f6bc506
-ms.sourcegitcommit: fa61d0b380a6ee559ad78e06bba85bc28d1045a6
+ms.openlocfilehash: e5c6144081eb68426d3be53efb0ac9e9acbf41bd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887457"
 ---
-# <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de conferência de áudio e problemas conhecidos
+# <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de problemas e problemas conhecidos da audioconferência
 
  **Este artigo destina-se Skype para usuários empresariais e Teams da Microsoft usando o Microsoft como seu provedor de serviços de audioconferência. Ela não se aplica aos clientes que estão usando um provedor de serviços de audioconferência de terceiros (ACP).**
   

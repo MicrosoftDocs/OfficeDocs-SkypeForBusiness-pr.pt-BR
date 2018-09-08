@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba mais sobre quais informações é enviada automaticamente aos usuários por email quando suas configurações de conferência discada alteração nos Teams da Microsoft. '
-ms.openlocfilehash: a352ecb335469e1e988c625f638c6136675dc5fc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f351f7a1107c3f52ddc2c9f60b7cd79feb31388c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23871042"
+ms.locfileid: "23890058"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Emails enviados aos usuários quando suas configurações de alteração nos Teams da Microsoft
 

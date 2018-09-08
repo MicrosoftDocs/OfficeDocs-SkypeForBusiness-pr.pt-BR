@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumo: Saiba como excluir uma coleção de definições de configuração do tronco usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 94f6e24c645a85bf2ed9ba5ded2f8eb4f207209f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968828"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23890534"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir um conjunto existente de definições de configuração de tronco SIP no Skype para Business Server
  

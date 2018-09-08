@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 description: Os administradores podem usar o MSI equipes para em massa implantar Teams da Microsoft para selecionar usuários ou computadores.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7176b990c41f2792f0955ac3ca2e937632a707d7
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 78ceb6fa0cd70b5cf6fc25bc9537939beea99b7c
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854137"
+ms.locfileid: "23882034"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar usando o MSI Teams da Microsoft
 =================================

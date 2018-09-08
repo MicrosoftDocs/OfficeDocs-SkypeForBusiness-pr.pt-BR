@@ -7,7 +7,7 @@ ms.date: 1/26/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
-ms.openlocfilehash: b92a98e52f9ccf914a8100555fa683bb01d05d5b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 64d4072172496345a8d9aefd9f872b2987fdfe7a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001723"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882001"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server
  

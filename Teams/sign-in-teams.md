@@ -10,16 +10,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
 description: Orientação para entrar no Microsoft Teams usando autenticação moderna.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5899d002ff6492f06b42f824e8799dfc30b9f42f
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e44b05bd0daed8867247512d38f22b764351127d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849879"
+ms.locfileid: "23882026"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Entrar com equipes da Microsoft
 ==========================

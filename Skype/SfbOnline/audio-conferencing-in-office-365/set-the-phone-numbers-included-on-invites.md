@@ -15,27 +15,27 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Veja as etapas para criar um número de telefone padrão para que os autores de chamadas participem de uma reunião do Skype for Business Online. '
-ms.openlocfilehash: d4ab76fc99483812d2be6b2f7009be361f33c3c9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
+ms.openlocfilehash: cb808cb8271cfb32174106e2692793aa41a64d50
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851481"
+ms.locfileid: "23882109"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Definir os números de telefone incluídos nos convites no Skype for Business Online
 
 > [!Note]
 > Para obter informações sobre os números de telefone incluídos nos convites no Microsoft Teams, consulte [Definir os números de telefone incluídos nos convites no Microsoft Teams](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
 
-Os serviços de audioconferência no Office 365 permitem que os usuários em sua organização criem reuniões no Skype for Business e, em seguida, permite que os usuários disquem para essas reuniões usando um telefone. No Office 365, você tem a opção de usar uma ponte de audioconferência da Microsoft ou uma ponte de audioconferência de terceiros hospedada por um provedor de serviços de audioconferência (ACP).
+Os serviços de audioconferência no Office 365 permitem que os usuários em sua organização criem reuniões no Skype for Business e, em seguida, permite que os usuários disquem para essas reuniões usando um telefone. No Office 365, você tem a opção de usar uma ponte de conferência de áudio da Microsoft ou uma ponte de conferência de áudio de terceiros que é hospedada por um provedor de serviços de audioconferência aprovada (ACP).
   
 > [!NOTE]
-> Não há um recurso com uma listagem de todos os números de discagem para a Audioconferência. Para descobrir se há números de telefone disponíveis em sua área ou em seu país/região, acesse o **centro de administração do Skype for Business** > **Voz** > **Números de Telefone**, clique em **Adicionar** e em **Novos Números de Serviço**. Use as listas de **País/região**, **Estado/região** e **Cidade** para filtrar sua busca. Além disso, se você estiver procurando por números de serviço gratuitos, selecione **Números gratuitos** da lista **Estado/região**.
+> Não há um recurso com uma listagem de todos os números de discagem para a Audioconferência. Se você estiver procurando para ver se existem números de telefone de discagem disponíveis na sua área ou país/região, use o **Skype para centro de administração de negócios** > **voz** > **Números de telefone**, clique em **Adicionar** e em seguida **novos números de serviço **. Use as listas de **País/região**, **Estado/região** e **Cidade** para filtrar sua busca. Além disso, se você estiver procurando por números de serviço gratuitos, selecione **Números gratuitos** da lista **Estado/região**.
   
 Uma ponte de conferência oferece um conjunto de números de telefone de discagem para sua organização. Todos eles podem ser usados para participar das reuniões que um organizador da reunião criou, mas você pode selecionar quais serão incluídos nos convites da reunião.
   
@@ -63,9 +63,9 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
     
   - Para selecionar vários usuários, marque a caixa ao lado do nome de cada usuário.
     
-5. No painel à direita, escolha **Editar**.
+5. No painel direito, escolha **Editar**.
     
-    ![Escolha o ícone de edição.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
+    ![Choose the edit icon.](../images/5dd7c5bc-b8fa-4201-b6a6-1436ad8f88fb.png)
   
 6. Escolha **Audioconferência**.
     
@@ -74,20 +74,20 @@ Uma ponte de conferência oferece um conjunto de números de telefone de discage
   - **A Microsoft é o provedor**: Use as listas **Número de chamada tarifada padrão** e **Número de chamada gratuita padrão** para selecionar os números padrão para o usuário.
     
     > [!NOTE]
-    > Pelo menos um número de chamada gratuita deve ser atribuído à sua ponte de conferência antes que ela possa ser definida como o número de chamada gratuita padrão de um usuário. Para obter um número gratuito, consulte [Obter números de telefone de serviço para o Skype for Business](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+    > Pelo menos um número de chamada gratuita deve ser atribuído à sua ponte de conferência antes que ela possa ser definida como o número de chamada gratuita padrão de um usuário. Para obter um número de discagem gratuito, consulte [Getting números de telefone de serviço para Skype para negócios](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
   
   - **Um terceiro é o provedor**: Use os campos de **Número de chamada tarifada** e **Número de chamada gratuita** para inserir os números para o usuário.
 
 
 ## <a name="reset-audio-conferencing-phone-numbers"></a>Redefinir os números de telefone de conferência de áudio
 
-1. No **centro de administração do Skype for Business**, escolha **Audioconferência**.
+1. No **Skype para centro de administração de negócios**, escolha a **conferência de áudio**.
     
 2. Na parte superior da página, escolha **Usuários**.
     
 3. Escolha os usuários que você deseja redefinir e, em seguida, no painel de Ações, clique em **Limpar**.
     
-Por padrão, quando você altera as configurações de conferência de um usuário, um email é enviado ao usuário. Para alterar essa opção, consulte [Habilitar ou desabilitar o envio de emails ao alterar as configurações de Audioconferência](enable-or-disable-sending-emails-when-their-settings-change.md).
+Por padrão, quando você altera as configurações de conferência de um usuário, um email é enviado ao usuário. Para alterar essa opção, consulte [Habilitar ou desabilitar o envio de emails ao alteram as configurações de conferência de áudio](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
 > Quando você altera as configurações de audioconferência de um usuário, as reuniões recorrentes e futuras do Skype for Business devem ser atualizadas e enviadas aos participantes. 
@@ -104,28 +104,28 @@ Por padrão, quando você altera as configurações de conferência de um usuár
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
-- Use o cmdlet **Set-CsOnlineDialInConferencingUserDefaultNumber** para mudar o número de chamada tarifada ou gratuita padrão de usuários com base em seu número padrão original ou em sua localização.
+- Use o cmdlet **Set-CsOnlineDialInConferencingUserDefaultNumber** para mudar o número de chamada tarifada ou gratuita padrão de usuários com base no número padrão original ou no local.
     
     > [!NOTE]
-    > Para saber qual é o BridgeID, use o cmdlet **Get-CsOnlineDialInConferencingBridge**.
+    > Para localizar o BridgeID, use o cmdlet **Get-CsOnlineDialInConferencingBridge** .
   
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - Para definir +18005551234 como número de chamada gratuita padrão de todos os usuários que não têm um número, execute:
+  - Para definir o número de chamada gratuita padrão para todos os usuários sem um para +18005551234, execute:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - Para mudar o número de chamada gratuita padrão de todos os usuários que têm +18005551234 como seu número de chamada gratuita padrão para +18005551239, execute:
+  - Para alterar o número de chamada gratuita do padrão de todos os usuários que possuem +18005551234 como seu número de chamada gratuita padrão para +18005551239, execute:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - Para definir o número de chamada gratuita padrão de todos os usuários localizados nos EUA para +18005551234, execute:
+  - Para definir o número de chamada gratuita do padrão de todos os usuários localizados nos EUA para +18005551234, execute:
     
   ```
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
@@ -147,4 +147,4 @@ Por padrão, quando você altera as configurações de conferência de um usuár
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a Audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Experimentar ou comprar a audioconferência no Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

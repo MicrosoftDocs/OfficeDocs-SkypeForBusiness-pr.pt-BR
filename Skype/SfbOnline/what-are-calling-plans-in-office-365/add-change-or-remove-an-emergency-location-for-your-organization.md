@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como adicionar, alterar ou remover um local de emergência usado pelo Skype for Business na rede pública de telefonia comutada (PSTN) para sua organização. '
-ms.openlocfilehash: 3ba8845b8765b15ac11df80122001fb3ac7d040c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 68c4e60288a85f39b198eb0ea1bd05e6a1e7f5e6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857767"
+ms.locfileid: "23883674"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
@@ -40,12 +40,12 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
     
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e selecione o endereço de emergência para o qual você deseja adicionar um local.
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja adicionar um local para.
     
     > [!Important]
-    > Para ver a opção **Voz** no painel de navegação à esquerda no centro de administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento do **Sistema de Telefonia** ou uma licença de complemento de **Audioconferência**.
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. No painel Ação, ao lado de **Locais associados**, clique em **Alterar**.
+4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
     
 5. Em **Locais associados**, clique em **Adicionar novo**, insira outro local associado (por exemplo, digite "Edifício 64 1º andar") e, em seguida, clique em **Enviar**.
     
@@ -57,9 +57,9 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
     
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e selecione o endereço de emergência para o qual você deseja alterar um local.
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência para o qual você deseja alterar um local.
     
-4. No painel Ação, ao lado de **Locais associados**, clique em **Alterar**.
+4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
     
 5. Em **Locais associados**, clique no link para o local na lista, insira os detalhes do novo local em **Alterar detalhes do local associado** e, em seguida, clique em **Enviar**.
     
@@ -71,9 +71,9 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
     
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e selecione o endereço de emergência para o qual você deseja remover um local.
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja remover um local para.
     
-4. No painel Ação, ao lado de **Locais associados**, clique em **Alterar**.
+4. No painel de ações, ao lado de **locais de associado**, clique em **Alterar**.
     
 5. Em **Locais associados**, próximo ao link para o local, clique em **Remover**.
     

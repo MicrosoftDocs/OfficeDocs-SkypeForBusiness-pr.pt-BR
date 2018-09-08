@@ -16,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Aprenda como criar planos de discagem de chamadas (Planos de Discagem de Chamadas PSTN) no Office 365 e como gerenciá-los. '
-ms.openlocfilehash: 5b0de676fce07712c22bd4e3c31f824f734ff007
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 8f096a62104a8128243ea657c61f436ab5f25def
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853675"
+ms.locfileid: "23881960"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
-Depois de planejar os planos de discagem da sua organização e descobrir todas as regras de normalização que precisam ser criadas para o roteamento de chamadas, você precisará usar o Windows PowerShell para criar os planos de discagem e fazer alterações nas configurações.
+Depois que você planejou os planos de discagem para sua organização e percebeu todas as regras de normalização que precisam ser criados para roteamento de chamadas, você precisará usar o Windows PowerShell para criar os planos de discagem e faça as alterações de configuração.
   
 > [!NOTE]
 > [!OBSERVAçãO] O Centro de administração do Skype for Business não pode ser usado para criar e gerenciar planos de discagem. 
@@ -66,7 +66,7 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
     Import-PSSession $session
   ```
 
-Confira mais informações sobre como iniciar o Windows PowerShell em [Conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectar-se ao Skype for Business Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="creating-and-managing-your-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -152,7 +152,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Execute este script para examinar as regras de normalização existentes, determinar qual deseja excluir e usar o seu índice para removê-la. A matriz de regras de normalização começa com o índice 0. Desejamos remover a regra de normalização de 3 dígitos, então esse é o índice 1.
+Execute o seguinte quando você deseja examinar também as regras de normalização existente, determinar qual deles você deseja excluir e, em seguida, usar seu índice para removê-lo. A matriz das regras de normalização começam com o índice 0. Desejamos remover a regra de normalização de 3 dígitos, então esse é o índice 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -178,9 +178,9 @@ Execute este script para localizar todos os usuários que receberam o plano de d
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Execute estes scripts para adicionar um plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para sua organização. Primeiro você deve salvar o plano de discagem local em um arquivo .xml e depois usá-lo para criar o novo plano de discagem de locatário.
+Execute estes scripts para adicionar um plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para sua organização. Você precisará primeiro salvar o local plano para um arquivo. XML de discagem e usá-lo para criar o novo plano de discagem de locatário.
   
-Execute este script para salvar o plano de discagem local no arquivo .xml.
+Execute esta opção para salvar o plano de discagem do local para o arquivo. XML.
   
 ```
 $DPName = "OPDP1"

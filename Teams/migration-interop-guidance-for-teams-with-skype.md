@@ -7,17 +7,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
 description: Diretrizes para gerenciar a transição para as equipes do Skype para negócios
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11ba2e2d6d59ecd53dd1824f50c53022e15f2b69
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854179"
+ms.locfileid: "23884231"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios
 

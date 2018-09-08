@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir uma ID de conferência para um usuário no Microsoft Teams e que a conferência IDs parâmetros deveria. '
-ms.openlocfilehash: aa69788e86689fb393684bfb9367152269cfa457
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: d0ee177fbbe286cc68c45e1c41f391b52c44291e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850937"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892029"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Microsoft Teams
 
@@ -33,12 +33,12 @@ Uma ID de conferência é automaticamente atribuída a um usuário do Microsoft 
   
 Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número, ou quando os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. Você pode usar o Centro de administração do Microsoft Teams ou o Windows PowerShell para exibir, alterar e redefinir a sua ID de conferência.
   
-Um email será enviado ao usuário com a ID de conferência e os números de telefone de conferência de áudio padrão, ou se você redefinir o ID de conferência um email diferente será enviado que incluírem o ID de conferência, mas não um PIN. Para obter mais informações sobre como redefinir o PIN do organizador da conferência, [acesse aqui](reset-a-conference-id-for-a-user-in-teams.md). 
+Um e-mail será enviado ao usuário com a ID da conferência e os números de telefone da audioconferência padrão ou, se você redefinir a ID da conferência, será enviado um e-mail diferente que incluirá a ID da conferência, mas não um PIN. Para obter mais informações sobre como redefinir o PIN do organizador da conferência, [acesse aqui](reset-a-conference-id-for-a-user-in-teams.md). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="view-and-reset-conference-ids"></a>Visualizar e redefinir as IDs de conferência
+## <a name="view-and-reset-conference-ids"></a>Visualizar e redefinir as IDs de conferências
 
 ### <a name="to-view-the-conference-id"></a>Para exibir a ID de conferência
 
@@ -60,7 +60,7 @@ Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.micr
   
 ### <a name="to-reset-the-conference-id"></a>Para redefinir o ID de conferência
 
-Você pode redefinir uma ID de conferência para um usuário se, por exemplo, esquecer.
+É possível redefinir uma ID de conferência para um usuário se, por exemplo, ele a esquecer.
   
 ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 

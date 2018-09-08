@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como um administrador do Office 365, você pode editar as configurações de conferência de áudio de equipes do Microsoft — como o provedor, tarifas padrão ou número de discagem gratuito, ID de conferência ou PIN — para um usuário individual em sua organização. '
-ms.openlocfilehash: 3f6adffcccfeee38b2a8af2d56759aabee25f16c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c101b84044e98ce44c374847aeab59f23d1a41be
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857619"
+ms.locfileid: "23882948"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de conferência de áudio para um usuário no Microsoft Teams
 

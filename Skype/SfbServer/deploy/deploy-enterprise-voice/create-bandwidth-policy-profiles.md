@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Criar ou modificar políticas de largura de banda, que são usadas pelo controle de admissão de chamada do Enterprise Voice no Skype para Business Server.
-ms.openlocfilehash: ddc74ad5327651225bb6f0e78f83d8248c290806
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ac1c5ab43e810ca152097c256e087ee176caa2d3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986440"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885356"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Criar largura de banda perfis de política no Skype para Business Server 
  

@@ -16,19 +16,19 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords:
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: Cada país ou região tem instruções diferentes para obter números de telefone para usuários do Skype for Business Online e do Microsoft Teams. Siga o link abaixo correspondente ao seu país ou região para obter as informações necessárias.
-ms.openlocfilehash: 31d1b0b7d1a2719d4645addaa96aa8d82fd090fb
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f1fd767a3013064a2bba0db03595b56a1431ec0f
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858453"
+ms.locfileid: "23885402"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
 Há três maneiras de obter números de usuário e serviço (tarifados e gratuitos) para sua organização.

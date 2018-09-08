@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Bélgica.
-ms.openlocfilehash: 2471db6a5a6c31427f6913da763e3d253636546c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ae4b1db96fe6d3b77a09e23d9e48c3d9f52e71dd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859521"
+ms.locfileid: "23892482"
 ---
 # <a name="phone-number-management-for-belgium"></a>Gerenciamento de números de telefone para a Bélgica
 

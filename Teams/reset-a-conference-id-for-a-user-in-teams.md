@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba as etapas para redefinir um usuário da reunião ID de conferência em Microsoft Teams e get links para ferramentas de atualização e migração da reunião. '
-ms.openlocfilehash: d60c1a76b4e800ef07e206df31206e6d0e0bda1a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4e338e5ad00792a48e0a6c9e0791c0c5e4b759ac
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868153"
+ms.locfileid: "23887848"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir um ID de conferência para um usuário no Microsoft Teams
 

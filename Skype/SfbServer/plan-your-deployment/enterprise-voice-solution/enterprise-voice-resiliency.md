@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como suporte a resiliência de voz em Skype para Business Server Enterprise Voice, em sites centrais e sites de filiais. Opções de site de filial incluem Implantando aparelhos de filial persistente ou servidores de filial persistente.
-ms.openlocfilehash: b20666cc6a36260142fae0488983c7fefcec699a
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 76b56d7e7d00ecd6d542be3f936af6f2e834974d
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263862"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23882300"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planejamento de resiliência do Enterprise Voice em Skype para Business Server
 

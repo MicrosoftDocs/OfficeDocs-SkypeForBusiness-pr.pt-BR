@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte as etapas de Teams da Microsoft para atribuir uma ID de conferência e a licença de conferência discada a um usuário e outras configurações de conferência discada. '
-ms.openlocfilehash: b9b3198f5d66b36e986eeab72fdf5dd31521fb14
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7af89da74b0b83872954444a847d40f0d7851087
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866831"
+ms.locfileid: "23884701"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Gerenciar as configurações de áudio da conferência para minha organização em Teams da Microsoft
 

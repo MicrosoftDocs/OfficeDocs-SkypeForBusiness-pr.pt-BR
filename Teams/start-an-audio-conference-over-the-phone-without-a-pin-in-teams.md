@@ -15,17 +15,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a habilitar ou desabilitar os chamadores anônimos ingressem em uma reunião a partir do Centro de administração do equipes. '
-ms.openlocfilehash: f85cd3e2ae0c1f87810f5b5312ba8bc9dc9d34c9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c68e3a0bd9992eb53811941113a30e9362c78227
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861039"
+ms.locfileid: "23882995"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar uma conferência de áudio por telefone sem um PIN em Teams da Microsoft
 
@@ -64,13 +64,13 @@ Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.micr
     
   - Se a reunião ainda não iniciado (há ninguém na reunião ainda): um chamador será solicitado se ele for o organizador; Se ele diz Sim, ele será solicitado para seu PIN e depois que ele insere o PIN, iniciará a reunião e o usuário será ingressar na reunião.
     
-  - Se a reunião já iniciado (alguém já está na reunião): um chamador não será avisado se ele for o organizador, e ele nunca será solicitado para o PIN; a reunião já estará iniciada e o chamador participará.
+  - Se a reunião já iniciou (alguém já está na reunião): Não será perguntado a um chamador se ele é o organizador e nunca lhe será solicitado o PIN; a reunião já estará iniciada, e o chamador ingressará.
     
 - Se o acesso anônimo ou não exigir um PIN iniciar uma reunião, está desativado:
     
-  - Se a reunião ainda não iniciado (há ninguém na reunião ainda): um chamador não será avisado se ela for o organizador, e ela nunca será solicitada para o PIN. Como a configuração do organizador é definida como desativado, a reunião será iniciada e os chamadores anônimos serão ingressar na reunião.
+  - Se a reunião ainda não iniciou (não há ninguém na reunião ainda): Não será perguntado a uma chamadora se ela é a organizadora e nunca lhe será solicitado o PIN. Como a configuração do organizador é definida como desativado, a reunião será iniciada e os chamadores anônimos serão ingressar na reunião.
     
-  - Se a reunião já iniciado (alguém já está na reunião): um chamador não será avisado se ela for o organizador, e ela nunca será solicitada para o PIN, a reunião já estará iniciada e o chamador participará.
+  - Se a reunião já iniciou (alguém já está na reunião): Não será perguntado a uma chamadora se ele é a organizadora e nunca lhe será solicitado o PIN; a reunião já estará iniciada, e a chamadora ingressará.
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
 

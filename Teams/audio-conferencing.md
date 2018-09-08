@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: MyAdvisor, lolaj
 description: Orientações práticas para planejar, implantar e gerenciar a Audioconferência no Microsoft Teams usando a estrutura Concepção (planejamento), Integração (fornecimento), Geração de valor (operação).
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: f48643f21dd6614aa8cc3f0085cd395ffaddcba8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 95c7be7f2f6f20db80531cb51ef573ecff96872e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850263"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892790"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Orientações práticas de Audioconferência no Microsoft Teams
 ============================================================

@@ -9,17 +9,17 @@ ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: Diretrizes para continuar sua jornada do Skype para negócios a Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e8e060e9358ef5d2cb7043bc57c9fe3f0d6e610
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ca58b180e5b1385643d0ec7fc9433fda68e05ef9
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23859103"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892370"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 

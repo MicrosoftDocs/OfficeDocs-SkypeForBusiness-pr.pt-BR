@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. '
-ms.openlocfilehash: 712f7ac65e3a473968632bb8dcc0569bd9471b0d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1ab3b5cdb59af465cd299940ad7ccd98940181e3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855665"
+ms.locfileid: "23887518"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 

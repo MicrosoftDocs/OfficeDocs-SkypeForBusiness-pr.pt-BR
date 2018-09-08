@@ -1,5 +1,5 @@
 ---
-title: Consulte uma lista de usuários que estão habilitados para Audioconferência no Skype for Business Online
+title: Consulte uma lista de usuários que estão habilitados para conferência de áudio no Skype para negócios Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,24 +15,24 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como exibir uma lista de usuários em sua organização que estão habilitados para conferência discada a partir do centro de administração do Skype for Business. '
-ms.openlocfilehash: 5cb792a3706c93c764f119075fca657b2179a383
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 722f9e411e1781529ea68f6995a2109f58d39cb0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849849"
+ms.locfileid: "23881991"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Consulte uma lista de usuários que estão habilitados para Audioconferência no Skype for Business Online
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Consulte uma lista de usuários que estão habilitados para conferência de áudio no Skype para negócios Online
 
 > [!NOTE]
 > Para obter informações sobre os usuários habilitados no Microsoft Teams, confira [Ver uma lista de usuários que estão habilitados para Audioconferência no Microsoft Teams](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams).
 
-Depois de habilitar o Skype for Business para os usuários da sua organização para Audioconferência, você pode ver a lista dos usuários que foram habilitados. Quando examinar a lista, você também verá, para cada usuário na lista, o tipo de provedor de serviços de teleconferência que ele usa, o número de telefone de discagem padrão, e se a sua organização não estiver habilitada para IDs dinâmicos de conferência, os IDs de conferência estáticos para reuniões de teleconferência que ele organiza.
+Depois que você habilitou Skype para usuários comerciais em sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados. Quando você examinar a lista, você verá também para cada usuário na lista o tipo de provedor de serviços de audioconferência que estão usando, o número de telefone de discagem padrão para o usuário, e se a sua organização não está habilitada para IDs de conferência dinâmico, as IDs de conferência estático para reuniões de conferência de áudio que eles organizam.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -44,11 +44,11 @@ Depois de habilitar o Skype for Business para os usuários da sua organização 
 
 ## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Ao visualizar a lista de usuários habilitados, você pode selecionar um usuário da lista e usar o painel Ação para editar as configurações de Audioconferência dele.
+- Ao exibir a lista de usuários que estão habilitados, você pode selecione um usuário na lista e use o painel de ação para editar as configurações de serviços de audioconferência para esse usuário.
     
-- Quando você seleciona um único usuário que está configurado para usar a Microsoft como provedor de serviços de Audioconferência, você pode ver o número de telefone padrão de discagem e se a sua organização está habilitada para IDs dinâmicos de conferência e você pode redefinir os IDs de conferência para reuniões de teleconferência que ele organiza.
+- Quando você seleciona um único usuário que está configurado para usar o Microsoft como um provedor de serviços de audioconferência, você pode exibir o número de telefone padrão e se a sua organização está habilitada para IDs de conferência dinâmico e você pode redefinir a ID de conferência para reuniões que o organizadas pelo usuário.
     
-- Ao selecionar um único usuário configurado para usar um provedor de audiconferência de terceiros, você pode ver o nome do provedor e os números de telefone para chamadas tarifadas e gratuitas (se estiverem configurados).
+- Quando você seleciona um único usuário que está configurado para usar um provedor de serviços de audioconferência de terceiros, você pode exibir o nome do provedor de serviços de audioconferência, o número de telefone de Chamada Tarifada e o número de telefone gratuitos (se eles estão configurados).
     
 - Você pode usar as opções de filtro para exibir os usuários com:
     
@@ -60,15 +60,15 @@ Depois de habilitar o Skype for Business para os usuários da sua organização 
     
   - **Provedor de conferência - outros**
     
-- Você pode usar o botão de pesquisa para procurar um usuário individual na lista.
+- Você pode usar o botão de pesquisa para procurar um usuário individual na lista
     
 - Você pode selecionar mais de um usuário e fazer o seguinte:
     
   - Selecionar um número padrão diferente para esses usuários.
     
-  - Desative o serviços de audioconferência para o usuário, alterando o provedor para **Nenhum**.
+  - Desative o serviços de audioconferência para o usuário, alterando o provedor como **Nenhum**.
     
-  - Alterne para a Microsoft como provedor de serviços de audioconferência se uma licença de **Audioconferência** tiver sido atribuída para o usuário.
+  - Alternar para a Microsoft como um provedor de serviços de audioconferência se o usuário tiver sido atribuído uma licença de **Serviços de audioconferência** .
     
   - Permitir/proibir que usuários anônimos ativem as reuniões por telefone dos usuários selecionados.
     

@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 2d6b4ed4-e12b-4691-8405-fae720d69425
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como procurar seus números de conferência discada de dentro do Skype para negócios Online. '
-ms.openlocfilehash: 84d6f4d1d1d1358a62ec8d0eb2334c92c416adea
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: 43442d2ecee1de30126b73dd7cce8124db650c84
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490591"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891252"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver uma lista de números de conferência de áudio no Skype para Business Online
 
@@ -52,7 +53,7 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
 3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **ponte da Microsoft**e, em seguida:
     

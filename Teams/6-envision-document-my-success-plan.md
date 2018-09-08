@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Escolher um modelo de implantação, desenvolver uma matriz de (RACI) responsável-responsável-consultado-informados, criar planos a governança e execução.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59b5b3604904e7de97aa821edc823eccd97431e2
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f29778e442115aecaa9763cb55be40d66964b229
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861297"
+ms.locfileid: "23884024"
 ---
 # <a name="document-my-success-plan"></a>Documente o meu planejamento de sucesso
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use estas diretrizes se você estiver em uma grande organização ou você personalizou intensamente sua Skype para implantação de negócios.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 093cc007200976bdbd32b8d064263ed1e9e33d94
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ff25edcfc24df1040aa7d23606e62d4beccb08dd
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870994"
+ms.locfileid: "23891502"
 ---
 # <a name="upgrade-pro"></a>Atualizar Pro
 
