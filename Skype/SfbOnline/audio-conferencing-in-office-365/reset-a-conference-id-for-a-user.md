@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: 6e12242c-55f7-4bf4-90d7-0f36c0326b8e
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba as etapas para redefinir um usuário da reunião ID de conferência no Skype para Business Online e get links para ferramentas de atualização e migração da reunião. '
-ms.openlocfilehash: ac37d682d45b22eff61392ee05d7c369d67c3b67
-ms.sourcegitcommit: 6207b98e8395f6c640b61cfb3f6c85d96520e33b
+ms.openlocfilehash: d569dfb015db5cea79c57233ba455adfd90a3182
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "22490531"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23887541"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Redefinir um ID de conferência para um usuário no Skype Business Online
 
@@ -58,7 +59,7 @@ Uma ID de conferência dinâmico é incluída na parte inferior da reunião conv
     
 - O ID de conferência para um usuário para conferência de áudio pode ser exibido na parte inferior do painel de ação em **conferência de áudio** quando você seleciona o usuário na página **usuários** .
     
-- Depois que uma nova ID de conferência for criada, a ID antiga não poderá ser usada por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar Skype para ferramenta de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte:
+- [!IMPORTANTE] Depois que um novo ID de conferência for criado, o ID antigo não poderá ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar Skype para ferramenta de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar o Skype para ferramenta de atualização de reunião de negócios, consulte:
     
   - [Skype for Business (Lync) Meeting Update Tool](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     

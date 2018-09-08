@@ -7,17 +7,17 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 description: Saiba como aprimorar grupos existentes do Office 365 com o Microsoft Teams convidando uma lista de distribuição para uma equipe, adicionar grupos de segurança habilitados para e-mail, e muito mais.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c85d479d15cd3dfc1e0cf940d9bad538bf28200
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 3112e4fefd5f8e58e5a7d2dc1d0cdf48566cace1
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23852087"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23892670"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Aprimorar grupos existentes do Office 365 com o Microsoft Teams
 =======================================================

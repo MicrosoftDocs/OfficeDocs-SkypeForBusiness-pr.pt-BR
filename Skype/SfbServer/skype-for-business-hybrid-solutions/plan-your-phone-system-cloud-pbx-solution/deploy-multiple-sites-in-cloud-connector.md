@@ -7,18 +7,18 @@ ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Saiba como implantar vários sites PSTN no Cloud Connector Edition.
-ms.openlocfilehash: c0e41408b43574fdfd3e8dc6b1d2c8ffc434d8c5
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569523"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23889710"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implantar vários sites no Cloud Connector
  
@@ -76,7 +76,7 @@ Para cada site PSTN que você deseja adicionar, siga as etapas em [implantar um 
 
 A tabela a seguir lista as diferenças entre a implantação de um único site com suporte para alta disponibilidade e a implantação de vários sites.
   
-|**Categoria**|**Item**|**Site único com alta disponibilidade**|**Vários locais**|
+|**Categoria**|**Item**|**Único site com alta disponibilidade**|**Vários sites**|
 |:-----|:-----|:-----|:-----|
 |Instalação  <br/> |Pasta compartilhada  <br/> |Requer a **mesma** pasta compartilhada entre appliances <br/> |Requer uma pasta compartilhada **diferente** nos vários dispositivos <br/> |
 |Configuração  <br/> |VirtualMachineDomain  <br/> |Requer o **mesmo** domínio nos vários dispositivos <br/> |Requer o **mesmo** domínio nos vários sites PSTN <br/> |

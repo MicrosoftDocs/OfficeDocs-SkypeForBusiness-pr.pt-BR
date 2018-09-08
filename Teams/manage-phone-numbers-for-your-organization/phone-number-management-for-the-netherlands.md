@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para os Países Baixos.
-ms.openlocfilehash: 80ec745e2c3f3addb46cd239eae57b3be9451796
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 223e141e0ec9dc0122041ec2877390f5ea74551b
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856279"
+ms.locfileid: "23889881"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>Gerenciamento de números de telefone para os Países Baixos
 

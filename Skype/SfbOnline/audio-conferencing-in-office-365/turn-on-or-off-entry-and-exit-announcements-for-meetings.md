@@ -8,23 +8,24 @@ ms.topic: article
 ms.assetid: f2c7b5ea-07b6-4b77-8023-bec9596fcc32
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como ativar e desativar anúncios de entrada ou saída em reuniões no Skype for Business Online usando o centro de administração do Skype for Business. '
-ms.openlocfilehash: 874624c3d7cfb184f4206f61cf2a91a67eb2e2cd
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+ms.openlocfilehash: b00c52d905fb031c7f0eaebc57f9fbb88549daa0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779031"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884048"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Ativar ou desativar anúncios de entrada ou saída em reuniões no Skype for Business Online
 
@@ -33,20 +34,20 @@ ms.locfileid: "23779031"
 
 Quando você estiver configurando a Audioconferência no Office 365, obterá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone que as pessoas usarão para efetuar uma chamada para uma reunião com o Skype for Business Online. 
   
-A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência atende o chamador com solicitações de voz de um atendedor automático e, dependendo de suas configurações, pode reproduzir notificações, pedir para o chamador gravar o nome dele e configurar a segurança do PIN. Um PIN é fornecido para o organizador da reunião no Skype for Business e permite que ele inicie uma reunião se não puder iniciar a reunião usando o aplicativo do Skype for Business. No entanto, você pode configurar para que não seja necessário um PIN para começar uma reunião.
+A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência respostas do chamador com prompts de voz de um atendedor automático de conferência e, em seguida, dependendo das suas configurações, pode reproduzir notificações, peça aos chamadores registrar seu nome e configurar a segurança PIN. Um PIN é fornecido para o organizador da reunião no Skype for Business e permite que ele inicie uma reunião se não puder iniciar a reunião usando o aplicativo do Skype for Business. Você pode, no entanto, defini-lo para que não é necessário um PIN para iniciar uma reunião.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-meeting-join-options"></a>Definir as opções de participação da reunião
     
-1. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, acesse **Audioconferência** > **Configurações de ponte da Microsoft**.
+1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **configurações de ponte da Microsoft**.
     
-2. Em **Experiência de participação da reunião**, marque ou desmarque a opção **Habilitar a ativação de notificações de entrada e saída na reunião**. Esta opção é selecionada por padrão. Se você desmarcá-la, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entrar ou sair da reunião.
+2. Sob a **experiência de participação da reunião**, marque ou desmarque **Habilitar a entrada da reunião e sair notificações para ser ativado**. Esta opção é selecionada por padrão. Se você desmarcar a ele, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
     
 3. Em **Tipo de anúncio de entrada/saída**, selecione **Nomes ou números de telefone** ou **Tons**.
     
-4. Marque ou desmarque a opção **Peça para os chamadores gravarem seus nomes antes de ingressarem na reunião**.
+4. Marque ou desmarque **os chamadores Ask registrar seus nomes antes de ingressar na reunião**.
     
 5. Depois de fazer suas alterações, clique em **Salvar**.
     
@@ -61,7 +62,7 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- O Windows PowerShell tem muitas vantagens de velocidade, simplicidade e produtividade em comparação com o centro de administração do Office 365, como quando você está fazendo alterações de configurações para muitos usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos: 
+- Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações nas configurações de muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos: 
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

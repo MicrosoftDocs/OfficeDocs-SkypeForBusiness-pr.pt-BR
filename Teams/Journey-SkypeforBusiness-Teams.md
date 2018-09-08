@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Usar uma estrutura de sucesso comprovadas para ajudar a jornada de atualização da sua organização do Skype para negócios às equipes
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3b4d4863fc453c1563915dce75f3d38e969571
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 541c7af86b35cae10b1598b1a80afc15d66fec33
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855169"
+ms.locfileid: "23883344"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype para a atualização do Microsoft Teams de negócios
 

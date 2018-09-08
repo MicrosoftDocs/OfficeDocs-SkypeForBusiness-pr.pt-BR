@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Resumo: Planejar seu Skype para ambiente de servidor de borda de negócios. Este tópico apresenta conceitos de borda e permite que você organize-se com nossos tópicos mais aprofundados.'
-ms.openlocfilehash: 41a1d2771e43a4e217aa8bac6b98331a31d67c92
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f558a4a9623e54a38e134716afe9b95021f237dc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965440"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23886119"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planejar para implantações de servidor de borda no Skype para Business Server
  

@@ -1,5 +1,5 @@
 ---
-title: Sistemas de Salas Skype v2
+title: Skype Room Systems versão 2
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,20 +15,20 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis nos Sistemas de Salas Skype v2. '
-ms.openlocfilehash: 135b6632f82247062d05085f012785a18723ec74
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 05d07ad633dda2bb8a663e971914eecacae33d93
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854605"
+ms.locfileid: "23890351"
 ---
-# <a name="skype-room-systems-v2"></a>Sistemas de Salas Skype v2
+# <a name="skype-room-systems-v2"></a>Skype Room Systems versão 2
 <a name="bkmk_srs"> </a>
 
 A tabela a seguir lista os recursos que estão disponíveis no [Ajuda do Skype Room Systems version 2](https://support.office.com/article/e667f40e-5aab-40c1-bd68-611fe0002ba2) e quais licenças você precisa comprar para obtê-los.
@@ -38,13 +38,13 @@ A tabela a seguir lista os recursos que estão disponíveis no [Ajuda do Skype R
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Cenário de Sistema de Salas do Skype** <br/> |**Você tem atualmente o Office 365 Premium, o Office 365 ProPlus0 ou Skype for Business Autônomo Plano 2.** <br/> **Veja o que precisa comprar:** <br/> |**Atualmente você tem um plano Enterprise.** <br/> **Veja o que precisa comprar:** <br/> |**Você tem o Skype for Business Server 2015 (no local ou híbrido).** <br/> **Veja o que precisa comprar:** <br/> |
+|**Cenário do Polycom Roundtable 100 para Skype for Business** <br/> |**Você tem atualmente o Office 365 Premium, o Office 365 ProPlus0 ou Skype for Business Autônomo Plano 2.** <br/> **Veja o que precisa comprar:** <br/> |**Atualmente você tem um plano Enterprise.** <br/> **Veja o que precisa comprar:** <br/> |**Você tem o Skype for Business Server 2015 (no local ou híbrido).** <br/> **Veja o que precisa comprar:** <br/> |
 |Ingressar em uma reunião agendada.  <br/> |Skype for Business Plano Standalone 1  <br/> |E1, 3, 4 ou 5  <br/> |Skype for Business Server Standard CAL  <br/> |
-|Iniciar uma reunião ad hoc.  <br/> |Skype for Business Plano Standalone 2  <br/> |E1, 3, 4 ou 5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
-|Iniciar uma reunião ad hoc e discar de uma reunião para números de telefone.  <br/> |Skype for Business Autônomo Plano 2 com Audioconferência  <br/> **Observação:** Créditos de Comunicação são opcionais.           |E1 ou E3 com Audioconferência  <br/> OU  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
-|Dar um número de telefone para a sala e fazer ou receber chamadas a partir dela ou ingressar em uma teleconferência usando um número de telefone.  <br/> |Skype for Business Autônomo Plano 2 com o Sistema de Telefonia Office 365 e um Plano de Chamadas  <br/> **Observação:** Créditos de Comunicação são opcionais.           |E1 ou E3 com o Sistema de Telefonia Office 365 e um Plano de Chamadas Office 365  <br/> OU  <br/> E5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  <br/> |
+|Inicie uma reunião ad hoc.  <br/> |Skype for Business Plano Standalone 2  <br/> |E1, 3, 4 ou 5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
+|Iniciar uma reunião ad hoc e discar a partir de uma reunião aos números de telefone.  <br/> |Skype para negócios autônomo plano 2 com serviços de audioconferência  <br/> **Observação:** Créditos de Comunicação são opcionais.           |E1 ou E3 com serviços de audioconferência  <br/> OU  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
+|Dê a sala de um número de telefone e fazer ou receber chamadas da sala de ou ingressar em uma conferência de áudio usando um número de telefone.  <br/> |Skype for Business Autônomo Plano 2 com o Sistema de Telefonia Office 365 e um Plano de Chamadas  <br/> **Observação:** Créditos de Comunicação são opcionais.           |E1 ou E3 com o Sistema de Telefonia Office 365 e um Plano de Chamadas Office 365  <br/> OU  <br/> E5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **Use a versão certa do Windows 10**: Para clientes que desejam implantar imagens do Windows 10 em seus dispositivos, é necessário uma versão específica do Windows 10 e essa versão está disponível somente para clientes de licenciamento por volume. Você deve usar o **Windows 10 Enterprise versão 1607 ou posterior** para gerar imagens nos dispositivos com o Skype Room System v2.0. Você pode obter uma cópia no [Centro de Serviços de Licenciamento por Volume](https://www.microsoft.com/Licensing/servicecenter/).
+ **Usar a versão correta do Windows 10**: para clientes que desejam implantar o Windows 10 imagens em seus dispositivos, é necessária uma versão específica do Windows 10 e esta versão só está disponível para clientes de licenciamento de volume. Você deve usar o **Windows 10 Enterprise versão 1607 ou posterior** para gerar imagens nos dispositivos com o Skype Room System v2.0. Você pode obter uma cópia do [Centro de atendimento de licenciamento por Volume](https://www.microsoft.com/Licensing/servicecenter/).
   
 
     

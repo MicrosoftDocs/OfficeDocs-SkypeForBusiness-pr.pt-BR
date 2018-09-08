@@ -16,17 +16,17 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para o Canadá.
-ms.openlocfilehash: f3f60e8671275ea52b1a094827cca6c82d3704bf
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 38efe1280b13d9f7228170e936890adb6001e8f8
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865389"
+ms.locfileid: "23889702"
 ---
 # <a name="phone-number-management-for-canada"></a>Gerenciamento de números de telefone para o Canadá
 

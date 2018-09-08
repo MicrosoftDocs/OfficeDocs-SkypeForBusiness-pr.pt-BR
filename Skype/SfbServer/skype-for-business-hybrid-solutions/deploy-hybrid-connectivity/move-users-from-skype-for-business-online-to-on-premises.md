@@ -7,7 +7,7 @@ ms.date: 12/19/2017
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 55733bb5-6742-4daf-8db5-1c5df86f4cea
 description: 'Resumo: Saiba como mover as contas de usuário de online para no local no Skype para Business Server.'
-ms.openlocfilehash: 655c037fc2299044aa3799d06e0d231784248d7e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 77ef2ad5cf22632d3f81f35fc0c3a20054303e96
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260143"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884528"
 ---
 # <a name="move-users-from-skype-for-business-online-to-on-premises"></a>Mover os usuários do Skype para Business Online no local
 

@@ -6,19 +6,19 @@ manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Saiba mais sobre o roteamento de voz de saída em Skype para Business Server Enterprise Voice, incluindo configurações de roteamento de chamada, planos de discagem, regras de normalização, políticas de voz, registros de uso PSTN e roteamentos de voz.
-ms.openlocfilehash: 1f399ff44eafdc1fc61fb5bab41b0d8949127e62
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029186"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23883652"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planejar o roteamento de voz de saída em Skype para Business Server
  

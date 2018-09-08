@@ -6,15 +6,16 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
+search.appverid: MET150
 description: Saiba como Live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfdee5d1cf43c358d2b6a36aad66c38d3e9d8ec9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
+ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23870582"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893704"
 ---
 # <a name="what-are-teams-live-events"></a>Quais são as equipes live eventos?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -45,15 +46,19 @@ Os eventos ao vivo no Microsoft 365 oferecem suporte a uma variedade de cenário
 - **Produção codificador externo**: codificadores externos permitir que usuários produzir seus eventos ao vivo diretamente de um hardware externo ou um codificador baseada em software com a [Microsoft Stream](https://stream.microsoft.com). Esta é a melhor opção se você já tiver equipamento de qualidade studio (por exemplo, misturadores de mídia) quais streaming de suporte para um serviço (RTMP Real-Time Messaging Protocol). Esse tipo de produção é geralmente usado nos eventos de grande escala, como executivos corredores da cidade – onde um único fluxo de um mixer de mídia é transmitido para a audiência. 
 
 ### <a name="streaming-platform"></a>Plataforma de fluxo contínuo
-A plataforma de fluxo contínuo de evento ao vivo é composta das seguintes quatro partes:
+A plataforma de fluxo contínuo de evento ao vivo é composta das seguintes partes:
 
 - **Azure Media Services** [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) oferece qualidade de transmissão serviços de fluxo de vídeos para alcançar maiores audiências em dispositivos móveis mais populares de hoje.   Media Services aprimora a acessibilidade, distribuição e escalabilidade e torna fácil e econômico para transmitir conteúdo aos públicos-locais ou em todo o mundo — tudo isso enquanto protegendo seu conteúdo.
 - **Rede de fornecimento de conteúdo Azure (CDN)**  Depois que o seu fluxo fica ativo, que é entregue via a [Rede de entrega conteúdo do Windows Azure (CDN)](https://docs.microsoft.com/azure/cdn/). Azure Media Services fornece CDN integrado para streaming de pontos de extremidade. Isso permite que os fluxos sejam exibidas em todo o mundo com nenhum armazenamento em buffer.
-- **Rede de entrega de conteúdo corporativo (eCDN)**  O objetivo do eCDN é obter o conteúdo de vídeo da internet e distribuir o conteúdo em toda a empresa sem afetar o desempenho da rede. Você pode usar um dos seguintes eCDN parceiros certificados para otimizar sua rede para eventos ao vivo mantidos dentro da sua organização:
+
+### <a name="enterprise-content-delivery-network-ecdn"></a>Rede de entrega de conteúdo corporativo (eCDN)
+O objetivo do eCDN é obter o conteúdo de vídeo da internet e distribuir o conteúdo em toda a empresa sem afetar o desempenho da rede. Você pode usar um dos seguintes eCDN parceiros certificados para otimizar sua rede para eventos ao vivo mantidos dentro da sua organização:
     - Hive
     - Kollective
     - Conheça
-- **Experiência do participante**  A experiência do participante é o aspecto mais importante dos eventos ao vivo e é muito importante que os participantes podem participar de evento ao vivo sem a necessidade de quaisquer problemas. A experiência do participante usa o Media Player do Windows Azure e funciona em desktop, navegador e mobile (iOS, Android). O Office 365 fornece Yammer e equipes como dois hubs de colaboração e o nome do participante ao vivo experiência é integrada a essas ferramentas de colaboração. Os eventos ao vivo do codificador externo com base também podem ser acessados pelos participantes nas [Ferramentas administrativas](#administrative-tools).
+
+### <a name="attendee-experience"></a>Experiência do participante 
+A experiência do participante é o aspecto mais importante dos eventos ao vivo e é muito importante que os participantes podem participar de evento ao vivo sem a necessidade de quaisquer problemas. A experiência do participante usa o Media Player do Windows Azure e funciona em desktop, navegador e mobile (iOS, Android). O Office 365 fornece Yammer e equipes como dois hubs de colaboração e o nome do participante ao vivo experiência é integrada a essas ferramentas de colaboração. 
 
 ## <a name="planning-for-live-events"></a>Planejamento de eventos ao vivo
 Quando você estiver planejando eventos ao vivo de equipes para armazenar grandes reuniões em seu organizaiton, há vários fatores que você precisa considerar antes de começar a defini-la sempre para cima. 
@@ -356,7 +361,7 @@ Quando se trata de Windows PowerShell, ele é tudo sobre o gerenciamento de usu�
 O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade em relação a usar somente o centro de administração do Office 365, como para fazer alterações de configuração para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
  - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
  - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
- - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+ - [Uso do Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
 ### <a name="related-topics"></a>Tópicos relacionados: 
 - [Eventos ao vivo entre Microsoft 365 no Yammer, Teams da Microsoft e Microsoft Stream](https://docs.microsoft.com/stream/live-event-m365)

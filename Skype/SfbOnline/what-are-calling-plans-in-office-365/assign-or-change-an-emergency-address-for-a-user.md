@@ -16,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como configurar um número de telefone e endereço de emergência para cada um dos seus usuários que trabalha com a Rede Telefônica Pública Comutada (PSTN).
-ms.openlocfilehash: e4ca1934ddb604c5efd81fd6a21b6f18d39b144b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+ms.openlocfilehash: 053e0d13109f66b4e714b69f0bc5650e20acdb69
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854863"
+ms.locfileid: "23885807"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Atribuir ou alterar o endereço de emergência de um usuário
 
-Quando você configura Planos de Chamadas no Office 365, precisa atribuir um número de telefone e um endereço de emergência a cada usuário. O endereço de emergência deve ser criado antes que você possa associá-lo a um número de telefone. Para obter mais informações consulte [O que são locais, endereços e roteamento de chamadas de emergência?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing).
+Quando você estiver configurando chamar planos no Office 365, você precisará atribuir um número de telefone e endereço de emergência a cada um dos seus usuários. O endereço de emergência deve ser criado antes de atribuir um número de telefone a um usuário. Consulte [O que são locais de emergência, endereços e roteamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para obter mais informações.
   
 Quer saber como obter Planos de Chamadas no Office 365 e quanto custam? Consulte [Licenças complementares do Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -40,23 +40,23 @@ Quer saber como obter Planos de Chamadas no Office 365 e quanto custam? Consulte
     
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, acesse **Voz** e clique em **Usuários de voz**.
+3. Na navegação esquerda, vá para **voz**e clique em **usuários de voz**.
     
     > [!IMPORTANT]
-    > Para ver a opção **Voz** no painel de navegação esquerdo no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença Enterprise E5**, uma licença complementar do **Sistema de Telefonia** ou uma licença complementar de **Audioconferência**.
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
 4. Na página **Usuários de voz**, localize e selecione o usuário cujo endereço de emergência você quer alterar.
     
 5. No painel Ação, em **Local de emergência**, clique em **Alterar**.
     
     > [!NOTE]
-    > Você só pode alterar um endereço de emergência que já tenha sido validado. Para alterar um endereço de emergência que ainda não foi validado, exclua-o e crie um novo. 
+    > [!IMPORTANTE] Você só pode alterar um endereço de emergência que já foi validado. Para alterar um endereço de emergência que não foi validado, excluí-la e crie outro endereço de emergência. 
   
-6. Na página **Atribuir número** , clique em **Alterar local**.
+6. Na página **Atribuir número**, clique em **Alterar local**.
     
-7. Em **Alterar endereço de emergência para**, insira o nome da cidade e clique em **Pesquisar**.
+7. Em **Alterar endereço de emergência para**, digite o nome da cidade e clique em **Pesquisar**.
     
-8. Selecione o endereço de emergência na lista suspensa e clique em **Salvar**. 
+8. Selecione o endereço de emergência na lista suspensa endereço e clique em **Salvar**. 
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [O que é validação de endereço?](what-is-address-validation.md)

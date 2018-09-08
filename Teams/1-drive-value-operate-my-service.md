@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Tarefas e atividades necessárias para gerenciamento de serviço de equipes, incluindo o monitoramento de integridade do serviço e avaliar e garantir a qualidade da rede e uso.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2294ef8e983192e1b93cca0e815c54ef69e064db
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: f4ad66e072b68a27848c3504f9b968b03bde1d4e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856167"
+ms.locfileid: "23882322"
 ---
 # <a name="operate-my-service"></a>Operar o meu serviço
 
