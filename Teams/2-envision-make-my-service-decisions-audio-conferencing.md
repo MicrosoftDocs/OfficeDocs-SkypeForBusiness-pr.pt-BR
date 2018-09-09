@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Saiba mais sobre as reuniões, o licenciamento e a disponibilidade, definir as configurações de ponte de conferência, adquirir ou transferir os números de telefone, escolha locatário planos de discagem.
-localization_priority: Priority
+localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e17632977816261b99e4c2ae22a70c8961a040e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da156ea46486d1b6eddffce61cfb655aecf90d1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854049"
+ms.locfileid: "23889642"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 

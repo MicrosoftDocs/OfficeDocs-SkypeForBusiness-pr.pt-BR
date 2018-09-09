@@ -7,19 +7,19 @@ ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Resumo: Explore esses links para saber como instalar e configurar o Skype para Business Server 2015 e atualização de versões anteriores do Lync Server.'
-ms.openlocfilehash: 768b2dd4ca4503ff056be596ca7971d71c3089bc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8560bd52877866f861c8c98dbf22926902a0ce1e
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965412"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23890984"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Implantar o Skype for Business Server 2015
  
@@ -43,10 +43,10 @@ Os seguintes artigos sobre como instalar e configurar o Skype para Business Serv
   
 ||**Conteúdo**|**Descrição**|
 |:-----|:-----|:-----|
-|![Ícone para documentação](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Requisitos para o seu ambiente do Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Saiba mais sobre o servidor e os requisitos de ambiente para Skype para Business Server.  <br/> |
+|![Ícone para documentação](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Requisitos para o seu ambiente do Skype for Business](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Saiba mais sobre o servidor e os requisitos de ambiente para Skype para Business Server.  <br/> |
 |![Ícone para documentação](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Fundamentos de topologia para o Skype for Business Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Saiba mais sobre opções de topologia e cenários de colocação do servidor para Skype para Business Server.  <br/> |
 |![Ícone numérico com instruções](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Instalar o Skype for Business Server 2015](install/install.md) <br/> |Saiba como instalar Skype para Business Server em várias topologias em ambientes físicos e virtuais.  <br/> |
-|![Ícone numérico com instruções](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Atualização para o Skype for Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Saiba como atualizar de versões anteriores do Microsoft Lync Server.  <br/> |
+|![Ícone numérico com instruções](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Atualização para o Skype para Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Saiba como atualizar de versões anteriores do Microsoft Lync Server.  <br/> |
 |![Ícone numérico com instruções](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Configurar a experiência do cliente com o Skype for Business](deploy-clients/configure-the-client-experience.md) <br/> |Saiba como configurar a experiência do cliente.  <br/> |
 |![Ícone numérico com instruções](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implantar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |Saiba como configurar os pré-requisitos para uma implantação híbrida e configurar sua implantação para gerenciar usuários entre Skype para Business Server local e Skype para negócios Online.  <br/> |
 |![Ícone numérico com instruções](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implantar o Servidor de Borda no Skype for Business Server 2015](deploy-edge-server/deploy-edge-server.md) <br/> |Se os usuários em sua organização se comunicar com usuários externos que não são registrados em sua rede interna, você desejará implantar servidor de borda.  <br/> |

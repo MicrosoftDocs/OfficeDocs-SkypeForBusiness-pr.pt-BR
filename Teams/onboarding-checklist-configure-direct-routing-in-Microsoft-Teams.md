@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 description: Siga o núcleo, tarefas de tarefas pendentes e atividades nesta lista de verificação ao configurar o roteamento direta em equipes.
-localization_priority: Priority
+localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df2d9742f3f1c42917edff70e2174e3f04b9221d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a3bb5cf6b7ce635ad19e8bc75611a8627315bbbc
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862865"
+ms.locfileid: "23887879"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Configurar o roteamento direta em equipes da Microsoft
 

@@ -1,5 +1,5 @@
 ---
-title: Consultar, alterar e redefinir uma ID de conferência atribuída a um usuário no Skype for Business Online
+title: Consulte, alterar e redefinir uma ID de conferência atribuída a um usuário no Skype para Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,26 +15,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Saiba como atribuir um ID de conferência a um usuário no Skype for Business Online e quais devem ser os parâmetros de IDs da conferência. '
-ms.openlocfilehash: d47e188220f66e320289384c4fbe421328d8eca3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: HT
+description: 'Saiba como atribuir uma ID de conferência para um usuário no Skype para Business Online e quais devem ser os parâmetros de IDs de conferência. '
+ms.openlocfilehash: 7996cc91bd9461f733f82da3eb01eeac7109604a
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850181"
+ms.locfileid: "23883411"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Skype for Business Online
 
 > [!Note]
 > Para obter informações sobre IDs de conferência de usuários no Microsoft Teams, consulte [Exibir e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams).
 
-Um ID de conferência é atribuído automaticamente a um usuário do Skype for Business quando está configurado para Audioconferência no Office 365 e usa a Microsoft como o provedor de audioconferência. A ID de conferência atribuída é enviada no convite da reunião quando a reunião é agendada. Cada reunião programada por um usuário receberá um ID de conferência único.
+Um ID de conferência é atribuído automaticamente a um usuário do Skype for Business quando está configurado para Audioconferência no Office 365 e usa a Microsoft como o provedor de audioconferência. A ID de conferência atribuída é enviada no convite da reunião, quando a reunião foi agendada. Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas.
 
-Embora um ID de conferência seja criado e atribuído a um usuário automaticamente, podem existir ocasiões em que um usuário não deseje usá-lo e você precise configurá-lo para um determinado número, ou seus usuários não lembrem ou tenham perdido o ID da conferência. Você pode usar o **centro de administração do Skype for Business** e o Windows PowerShell para exibir, alterar e redefinir o ID da conferência.
+Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número, ou quando os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. Você pode usar o **Skype para centro de administração de negócios** e do Windows PowerShell para exibir, alterar e redefinir a sua ID de conferência.
 
 Um e-mail será enviado ao usuário com a ID da conferência e os números de telefone da audioconferência padrão ou, se você redefinir a ID da conferência, será enviado um e-mail diferente que incluirá a ID da conferência, mas não um PIN. Para obter mais informações sobre como redefinir o PIN do organizador da conferência, [acesse aqui](reset-a-conference-id-for-a-user.md).
 
@@ -43,22 +43,22 @@ Um e-mail será enviado ao usuário com a ID da conferência e os números de te
 
 ## <a name="view-and-reset-conference-ids"></a>Visualizar e redefinir as IDs de conferências
 
-### <a name="to-view-the-conference-id"></a>Para exibir a ID da conferência
+### <a name="to-view-the-conference-id"></a>Para exibir a ID de conferência
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Usar o centro de administração do Skype for Business**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 Você pode exibir sua ID de conferência e enviá-la aos usuários.
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
 
 3. Em **Centro de administração do Skype for Business**> **Audioconferências** > **Usuários**, selecione o usuário que necessita da ID da conferência.
 
 4. Na página Ação, procure em **ID da conferência**.
 
     > [!TIP]
-    > Você pode enviar todas as informações da conferência para o usuário em um email que inclua a ID da conferência e os números de telefone de áudio clicando no link **Enviar informações da conferência via email** depois de selecionar o usuário na página **Usuários**.
+    > Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de áudio clicando no link **Enviar informações de conferência via email** depois de selecionar o usuário na página **usuários** .
 
 **Usando o Windows PowerShell**
 
@@ -71,21 +71,21 @@ Você pode usar o Windows PowerShell para exibir a ID de conferência para um us
     See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
 
 
-### <a name="to-reset-the-conference-id"></a>Para redefinir a ID de conferência da reunião
+### <a name="to-reset-the-conference-id"></a>Para redefinir o ID de conferência
 
 É possível redefinir uma ID de conferência para um usuário se, por exemplo, ele a esquecer.
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
 
-3. Em **Centro de administração do Skype for Business**> **Audioconferências** > **Usuários**, no painel Ação em **ID da conferência**, clique em **Redefinir**.
+3. No **Skype para centro de administração de negócios**> **audioconferências** > **usuários**, no painel de ação em **ID da conferência**, clique em **Redefinir**.
 
-4. Na janela **Redefinir o ID da conferência?** , clique **Sim**. Uma ID de conferência será criada automaticamente e um email será enviado ao usuário com a nova ID da conferência.
+4. No **Redefinir ID de conferência?** janela, clique em **Sim**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
-**Usar o Windows PowerShell**
+**Usando o Windows PowerShell**
 
 Usando o Windows PowerShell Para fazer isso, execute:
 
@@ -96,13 +96,13 @@ Usando o Windows PowerShell Para fazer isso, execute:
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 
    > [!IMPORTANT]
-   >  Depois que uma nova ID de conferência for criada ou for redefinida, a ID antiga não poderá ser usada pelos autores de chamadas. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar a Ferramenta de Migração de Reunião do Skype for Business para atualizar suas reuniões marcadas. Para ver como baixar, instalar e executar a ferramenta, consulte: [Ferramenta de Atualização de Reunião do Skype for Business e Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Ferramenta de Migração de Reunião (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047) e [Skype for Business Online, Ferramenta de Migração de Reunião (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  Depois que uma nova ID de conferência é criada ou um é redefinido, o ID de conferência antigos não pode ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. Os usuários podem usar o Skype para ferramenta de migração de reunião de negócios para atualizar suas reuniões existentes. Para ver como baixar, instalar e executar a ferramenta, consulte: [Ferramenta de atualização de reunião para Skype para negócios e Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype para negócios Online, a ferramenta de migração de reunião (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047)e [Skype para negócios Online, a ferramenta de migração de reunião (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
 
 - Consulte [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) para saber mais sobre o cmdlet.
 
-- A ID da conferência deve atender ao comprimento em dígitos definido na ponte de audioconferência. Não é possível usar letras e caracteres especiais nas IDs de conferência, somente números.
+- A ID de conferência deve atender a duração em dígitos, defina a ponte de conferência de áudio. Você não pode usar caracteres alfabéticos ou especiais de conferência IDs; somente números podem ser usados.
 
-- Por padrão, a ID de conferência de todos os usuários da audioconferência é de sete dígitos e o número de dígitos não pode ser alterado.
+- O ID de conferência para todos os usuários de serviços de audioconferência será 7 dígitos por padrão, e o número de dígitos não pode ser alterado.
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?

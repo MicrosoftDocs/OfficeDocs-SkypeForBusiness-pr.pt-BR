@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: 2d5d3c87-af1e-487e-b86c-261f2e5a0661
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,21 +16,21 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como alterar o local de emergência para seus usuários. Com um número ilimitado de locais, você pode alterar os locais de emergência quando seus funcionários se mudam de andares ou prédios. '
-ms.openlocfilehash: 6f554a4233f6b3c60711281978212e1cbec35c10
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+ms.openlocfilehash: e8536647bedf0cdb212ca334193659a104e0e1e3
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779274"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23891170"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Alterar o local de emergência de um usuário
 
-Cada número de telefone ativo deve ter um endereço de emergência (associado quando você receber um número de telefone no Office 365 ou quando você transferir um número de telefone) quando o número de telefone é atribuído ao usuário. Quando você associa o número com um endereço de emergência, você também pode adicionar um local de emergência para fornecer um local mais exato dentro de um local físico. Um local de emergência pode ser o andar, a ala do edifício ou número do escritório onde o usuário se encontra. Você pode ter um número ilimitado de locais para um determinado endereço de emergência, e você pode alterar o local de emergência, se o usuário se muda para um escritório ou prédio diferente — por exemplo, se o usuário muda do andar 34 para o 35.
+Cada número de telefone ativo deve ter um endereço de emergência (associado quando você receber um número de telefone no Office 365 ou quando você transferir um número de telefone) quando o número de telefone é atribuído ao usuário. Quando você associa o número com um endereço de emergência, você também pode adicionar um local de emergência para fornecer um local mais exato dentro de um local físico. Um local de emergência pode ser o andar, a ala do edifício ou número do escritório onde o usuário se encontra. Você pode ter um número ilimitado de locais para um determinado endereço de emergência, e você pode alterar o local de emergência, se o usuário move a um office diferente ou construção — por exemplo, se o usuário move de andar 34 para piso 35.
   
 Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, consulte [Licenciamento de complemento para Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -37,20 +38,20 @@ Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, co
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação esquerdo, acessar **Voz** > **Usuários de voz**.
+3. No painel de navegação esquerdo, vá para **voz** > **usuários de voz**.
     
     > [!IMPORTANT]
-    > Para ver a opção **Voz** no painel de navegação à esquerda no centro de administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença de complemento do **Sistema de Telefonia** ou uma licença de complemento de **Audioconferência**.
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Na página **Usuários de voz**, localizar e selecionar o usuário cujo endereço de emergência você quer alterar.
+4. Na página **usuários de voz** , localize e selecione o usuário que você deseja alterar o local de emergência para.
     
-5. No painel Ação, em **Local de emergência**, clicar em **Alterar**.
+5. No painel Ação, em **Local de emergência**, clique em **Alterar**.
     
-6. Na página **Atribuir número** , clicar em **Alterar local**. 
+6. Na página **Atribuir número**, clique em **Alterar local**. 
     
-7. Em **Alterar endereço de emergência para**, inserir o nome da cidade na caixa e clicar em **Pesquisar**.
+7. Em **Alterar endereço de emergência para**, digite o nome da cidade na caixa e clique em **Pesquisar**.
     
 8. Selecionar o local de emergência na lista e clicar em **Salvar**.
     

@@ -8,6 +8,7 @@ ms.topic: article
 ms.assetid: e434aeb2-af99-40e7-981e-a474f0383734
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -15,48 +16,48 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir números de telefone gratuitos ou pagos para serviços como audioconferência (para pontes de conferência), atendedores automáticos e filas de chamadas (também chamados de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes.
-ms.openlocfilehash: f45bccd76e560dacc94211d6339858e82541821e
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+description: Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como serviços de audioconferência (para pontes de conferência), atendedores automáticos e filas de chamada (também chamadas de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes.
+ms.openlocfilehash: f5627333475d04b14805a1749ccf56b1337047d4
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779154"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884066"
 ---
 # <a name="getting-service-phone-numbers"></a>Obter números de telefones de serviço
 
-Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir números de telefone gratuitos ou pagos para serviços como audioconferência (para pontes de conferência), atendedores automáticos e filas de chamadas (também chamados de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes. Por exemplo, um número de serviço pode lidar com centenas de chamadas simultaneamente, enquanto um número de usuário só consegue lidar com algumas.
+Além de obter números de telefone para os usuários do Office 365, você pode pesquisar e adquirir tarifas ou números de telefone gratuitos de serviços, como serviços de audioconferência (para pontes de conferência), atendedores automáticos e filas de chamada (também chamadas de números de serviço). Os números telefônicos de serviço têm uma capacidade de chamada simultânea maior do que números de usuários ou assinantes. Por exemplo, um número de serviço pode manipular 100s de chamadas simultaneamente, enquanto o número de telefone de um usuário pode manipular apenas algumas chamadas simultaneamente.
   
 > [!NOTE]
-> Créditos de comunicações do Office 365 deve ser definidos antes de adquirir números para ligações gratuitas. Confira [Configurar Créditos de Comunicação para a sua organização](/microsoftteams/set-up-communications-credits-for-your-organization). 
+> Créditos de comunicações do Office 365 deve ser definidos antes de adquirir números para ligações gratuitas. Consulte [Configurar créditos de comunicações para sua organização](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-Há duas maneiras de obter números de serviço para que você possa usá-los com Skype for Business e Microsoft Teams:
+Você tem duas maneiras de obter os números de serviço para que possa usá-los com Skype para Teams da Microsoft e de negócios:
   
 - Obtenha novos números do Office 365.
     
-- Faça a portabilidade ou transfira os números existentes do seu provedor de serviços ou operadora de telefonia atual para o Office 365.
+- Porta ou transferir seus números de existentes do seu provedor de serviço ou a operadora de telefone para o Office 365.
     
     > [!NOTE]
-    > Quando você transfere seus números de serviço, é altamente recomendável que você entre em contato com o [suporte da Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) para garantir que a capacidade de chamadas simultâneas superior será considerada e configurada corretamente.
+    > Quando você transfere seus números de serviço, é altamente recomendável que você entre em contato com o [suporte da Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) para garantir que a capacidade de chamadas simultânea superior é considerada e configurada corretamente.
   
 ## <a name="get-new-service-numbers"></a>Obtenha novos números de serviço
 
-![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Usar o centro de administração do Skype for Business**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
     
-3. No painel de navegação à esquerda, acesse **Voz** > **Números de telefone** > **Adicionar novo número** e depois clique em **Novos números de serviço**.
+3. No painel de navegação esquerdo, vá para **voz** > **números de telefone** > **Adicionar novo número**e clique em **novos números de serviço**.
     
     > [!IMPORTANT] 
-    > Para ver a opção **Voz** no painel de navegação à esquerda no centro de administração do Skype for Business, você deve comprar pelo menos uma **licença Enterprise E5**, uma licença complementar do **Sistema de Telefonia** ou uma licença complementar de **Audioconferência**.
+    > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Na página **Adicionar novos números de serviço**, escolha o seguinte:
+4. Na página **Adicionar novos números de serviço** , escolha o seguinte:
     
   - **País/Região**
     
@@ -64,20 +65,20 @@ Há duas maneiras de obter números de serviço para que você possa usá-los co
     
   - **Cidade**
     
-5. Em **Quantidade**, digite os números de telefone que você quer para sua empresa e clique em **Adicionar** para criar uma reserva. Você tem 10 minutos para selecionar seus números de telefone; se você demorar mais de 10 minutos, os números de telefone serão retornados ao pool de números de telefone.
+5. Em **quantidade**, digite o número dos números de telefone que você deseja para a sua organização e clique em **Adicionar** para criar uma reserva. Você tem 10 minutos para selecionar seus números de telefone; Se você levar mais de 10 minutos, os números de telefone serão retornados ao pool de números de telefone.
     
     > [!NOTE]
-    > É possível ver a quantidade de números de telefone com base no número de licenças listadas ao lado de **Total de números de serviço que você pode adquirir**. Para obter mais detalhes, confira [Quantos números de telefone você pode obter?](/microsoftteams/how-many-phone-numbers-can-you-get)
+    > Você pode ver o número de números de telefone, que se baseia no número de licenças, listado ao lado de **Total Service números você pode adquirir**. Para obter detalhes, consulte [números de telefone de quantos você consegue?](/microsoftteams/how-many-phone-numbers-can-you-get)
   
-6. Clique em **Mostrar números** para ver a lista completa de números de telefone. Isso é útil se você não quiser selecionar um número de telefone específico na lista.
+6. Clique em **Mostrar números** para ver a lista completa de números de telefone. Isso é útil se você não deseja selecionar um número de telefone específico na lista.
     
-7. Selecione os números de telefone desejados e clique em **Adquirir números**.
+7. Selecione os números de telefone que você deseja e clique em **números de aquisição**.
     
 ### <a name="assign-service-numbers"></a>Atribuir números de serviço
 
-Depois que você tiver seus números de serviço, eles podem ser atribuídos a uma ponte de conferência de áudio. Para isso, veja [Mudar números de chamada tarifada ou gratuita para sua ponte de Audioconferência](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
+Depois que você tiver seus números de serviço, eles podem ser atribuídos a uma ponte de conferência de áudio. Para fazer isso, consulte [alterar as tarifas ou números de Chamada Tarifada livres na sua ponte de conferência de áudio](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).
   
-### <a name="port-or-transfer-existing-service-numbers"></a>Faça a portabilidade ou transfira números de serviço existentes
+### <a name="port-or-transfer-existing-service-numbers"></a>Fazer a portabilidade ou transfira números de serviço existentes
 
 Se deseja transferir números de serviço do seu provedor de serviço ou operadora atuais, você precisa enviar manualmente um pedido de portabilidade para a Microsoft. Você precisa enviar pedidos de portabilidade individuais para cada tipo de número de serviço (pagos e gratuitos) que serão transferidos usando uma Carta de Autorização (LOA). Na Carta de Autorização (LOA), você deve selecionar o tipo de número de serviço correto. Ao contatar o suporte da Microsoft, não esqueça de especificar que você está transferindo um número de serviço (*e não um número de assinante ou de usuário*), ou a capacidade de chamadas simultâneas talvez não seja suficiente para lidar com grandes volumes de chamadas. Se você deseja transferir números de telefone ou fazer outras coisas com seus números, consulte [Gerenciar números de telefone da sua organização](/microsoftteams/manage-phone-numbers-for-your-organization).
 

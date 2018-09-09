@@ -7,6 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
+search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
@@ -14,18 +15,18 @@ ms.audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Saiba mais sobre licenças complementares, recursos e como comprar planos do Office 365 Business Premium. '
-ms.openlocfilehash: ac7a09c99b72f643ad10516009154e65c51c1e48
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
-ms.translationtype: HT
+description: 'Saiba mais sobre como comprar o Office 365 Business Premium planos, recursos e licenças de complemento. '
+ms.openlocfilehash: 30ae65e9e9f1daad9039c95368a59f89d0596bb0
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "23779001"
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23885463"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -33,14 +34,14 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
  **Para fazer e receber chamadas de pessoas de fora da empresa, você tem duas opções**:
 
-- **Opção 1. Usar o [aplicativo Skype](https://www.skype.com/)** gratuito. Se você tem uma empresa bem pequena (por exemplo, uma ou duas pessoas), usar o aplicativo Skype é a melhor solução. As chamadas nacionais e internacionais são mais baratas. Você ainda pode fazer teleconferências, chamadas com vídeo e compartilhar sua área de trabalho para apresentações. [Confira as taxas e opções de pagamento](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
+- **Opção 1. Usar o [aplicativo Skype](https://www.skype.com/)** gratuito. Se você tem uma empresa bem pequena (por exemplo, uma ou duas pessoas), usar o aplicativo Skype é a melhor solução. As chamadas nacionais e internacionais são mais baratas. Você ainda pode chamadas de conferência em espera, fazer chamadas de vídeo e compartilhar sua área de trabalho para apresentações. [Confira as taxas e opções de pagamento](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled).
 
     Observe que o aplicativo Skype não faz parte do pacote do Office 365; portanto, ele não será integrado ao Outlook 2016, como acontece com o Skype for Business. Isso significa que seus contatos do Outlook 2016 não aparecerão no Skype; você deverá adicioná-los.
 
     Recomendamos começar com o aplicativo Skype para ver se ele atende às suas necessidades. Se isso não acontecer, considere a opção seguinte para atualizar seu plano.
 
     > [!IMPORTANT]
-    > Você deve definir uma alternância para permitir que seus funcionários usem o Skype for Business para pesquisar usuários do Skype. Confira [Permitir que os usuários do Skype for Business adicionem contatos do Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
+    > Você deve definir uma alternância para permitir que seus funcionários usar Skype for Business para procurar usuários Skype. Consulte [Skype permitem que usuários corporativos adicionar contatos do Skype](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md).
 
 
 - **Opção 2. Atualize seu plano e compre um Sistema de Telefonia e um Doméstico ou um Plano de Chamadas Doméstico e Internacional**.
@@ -52,20 +53,20 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 2. Compre o complemento **Sistema de Telefonia**.
     
-3. Compre um [Plano de Chamadas para o Office 365](/MicrosoftTeams/calling-plans-for-office-365): você só pode comprar isso após comprar o complemento de **Sistema de Telefonia**.
+3. Comprar uma [Chamada planejar para o Office 365](/MicrosoftTeams/calling-plans-for-office-365): você pode comprar isso somente depois que você compra o complemento de **Sistema telefônico** .
     
     Esta segunda opção é ideal para empresas com várias pessoas que fazem e recebem chamadas telefônicas externas.
 
-## <a name="how-to-see-prices-and-buy"></a>Como ver preços e comprar
+## <a name="how-to-see-prices-and-buy"></a>Como ver os preços e comprar
 <a name="bkmk_buypremium"> </a>
 
  **Para obter Audioconferência e Créditos de comunicação:**
 
 1. Entre no Centro de Administração do Office 365.
 
-2. Acesse **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos**.
+2. Vá para **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos**.
 
-   ![Para adquirir uma licença complementar, escolha Comprar complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Para adquirir uma licença complementar, escolha comprar complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Você verá os preços e a opção para comprar Audioconferência e configurar Créditos de comunicação.
 
@@ -75,6 +76,6 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 2. Vá para Centro de administração do Office 365 > **Cobrança** > **Assinaturas**.
 
-3. Escolha **Complementos**. Agora, você verá os preços para o Sistema de Telefonia e a opção para comprá-lo.
+3. Escolha **Complementos**. Agora, você verá os preços para o sistema telefônico e a opção de comprar.
 
-4. Depois que de comprar uma licença do **Sistema de Telefonia** você verá o preço e a opção para comprar um Plano de Chamadas.
+4. Depois que você compra uma licença de **Sistema telefônico** , você verá o preço e a opção de comprar um plano de chamada.

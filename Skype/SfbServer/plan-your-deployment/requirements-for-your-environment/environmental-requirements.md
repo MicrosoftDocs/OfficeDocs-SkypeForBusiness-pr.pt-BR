@@ -7,18 +7,19 @@ ms.date: 2/15/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não-servidor para Skype para Business Server 2015. Há uma variedade de coisas que você vai querer configurado antes de sua implantação, incluindo o Active Directory, DNS, certificados e compartilhamentos de arquivos.'
-ms.openlocfilehash: 61b5d0a9bbce1fc2549f01f7f13209e87f74caf0
-ms.sourcegitcommit: 2c084358844f02fbf7953f2ea49ed6d710cbf06f
+ms.openlocfilehash: 59bcc654b2999db5b13baa08fd83f74e06c5b1cf
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/07/2018
+ms.locfileid: "23884139"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos de ambiente para o Skype for Business Server 2015
  
@@ -75,7 +76,7 @@ Agora, o nível funcional do domínio de qualquer domínio em que você implanta
     
 - Windows Server 2008
     
-- Windows Server 2003
+- Windows Server 2003
     
 É possível ter controladores de domínio somente leitura nesses ambientes? Sim, desde que também haja controladores de domínio graváveis disponíveis.
   
@@ -269,7 +270,7 @@ Para tentar e manter as coisas simples, nós agrupamos os requisitos de certific
     
 Certificados para servidores Standard Edition:
   
-|**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo da entidade**|**Exemplo**|**Comentários**|
+|**Certificado**|**Nome de entidade/nome comum**|**Nome alternativo de entidade**|**Exemplo**|**Comentários**|
 |:-----|:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool for o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) for exigida na política do grupo, também serão necessárias entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Se esse pool for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão necessários: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |No servidor do Standard Edition de servidores Standard Edition, o FQDN do servidor é igual ao FQDN do pool.  <br/> O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também utiliza este certificado para Autenticação de Servidor para Servidor.  <br/> |
 |Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que é o mesmo que o FQDN do servidor)  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com; SAN=Admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN =\*. contoso.com  <br/> |Você não pode substituir o FQDN no construtor de topologia de web interna.  <br/> Se você possui vários Atender a URLs simples, deve incluir todos eles como nomes alternativos de entidade.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
@@ -277,7 +278,7 @@ Certificados para servidores Standard Edition:
    
 Certificados para servidores Front-End em um pool de Front-End:
   
-|**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo da entidade**|**Exemplo**|**Comentários**|
+|**Certificado**|**Nome de entidade/nome comum**|**Nome alternativo de entidade**|**Exemplo**|**Comentários**|
 |:-----|:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool for o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) for exigida na política do grupo, também serão necessárias entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Se esse pool for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão necessários: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também utiliza este certificado para Autenticação de Servidor para Servidor.  <br/> |
 |Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que não é o mesmo que o FQDN do servidor)  <br/> • O FQDN do servidor  <br/> • Skype para o FQDN do pool de negócios  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com; SAN=Admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Se você tiver vários atender a URLs simples, você acaba de criar incluir todos eles como nomes de entidade alternativos.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
@@ -285,7 +286,7 @@ Certificados para servidores Front-End em um pool de Front-End:
    
 Certificados para o Diretor:
   
-|**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo da entidade**|**Exemplo**|
+|**Certificado**|**Nome de entidade/nome comum**|**Nome alternativo de entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
 |Padrão  <br/> |Pool de diretores  <br/> |FQDN do diretor, FQDN do pool de diretores.  <br/> Se esse pool for o servidor de logon automático para clientes e estrita de DNS exigida na política de grupo, você também precisará entradas para sipdomain (para cada domínio SIP que você tiver).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Se esse pool de diretor for o servidor de logon automático para clientes e estrita de DNS for exigida na política de grupo, também serão precisos; SAN = SIP.Fabrikam.com  <br/> |
 |Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que é o mesmo que o FQDN do servidor)  <br/> • O FQDN do servidor  <br/> • Skype para o FQDN do pool de negócios  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com; SAN=Admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN =\*. contoso.com  <br/> |
@@ -293,13 +294,13 @@ Certificados para o Diretor:
    
 Certificados para o servidor de mediação autônomo:
   
-|**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo da entidade**|**Exemplo**|
+|**Certificado**|**Nome de entidade/nome comum**|**Nome alternativo de entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool  <br/> FQDN do servidor membro do pool  <br/> |SN = medsvr-pool.contoso.net; SAN = medsvr-pool.contoso.net; SAN=medsvr01.contoso .net  <br/> |
    
 Certificados para aparelho de filial persistente:
   
-|**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo da entidade**|**Exemplo**|
+|**Certificado**|**Nome de entidade/nome comum**|**Nome alternativo de entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do aplicativo  <br/> |SIP. \<sipdomain\> (necessário apenas uma entrada por domínio SIP)  <br/> |SN=sba01.contoso .net; Serão; SAN = SIP.Fabrikam.com  <br/> |
    
@@ -333,7 +334,7 @@ Se esse for o que você estiver examinando e se você tiver muitos dos domínios
   
 Requisitos de certificado do pool de diretor e o pool de Front-End:
   
-|**Descrição**|**Entrada de SAN**|
+|**Descrição**|**Entrada do SAN**|
 |:-----|:-----|
 |URL interna do serviço de Descoberta Automática  <br/> |SAN = lyncdiscoverinternal. \<sipdomain\>  <br/> |
 |URL externa do serviço de Descoberta Automática  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
@@ -342,7 +343,7 @@ Como alternativa, é possível usar SAN =\*. \<sipdomain\>
   
 Requisitos de certificado de proxy reverso (AC pública):
   
-|**Descrição**|**Entrada de SAN**|
+|**Descrição**|**Entrada do SAN**|
 |:-----|:-----|
 |URL externa do serviço de Descoberta Automática  <br/> |SAN = lyncdiscover. \<sipdomain\>  <br/> |
    
