@@ -3,7 +3,7 @@ title: Limites e especificações for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -13,12 +13,12 @@ MS.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34aec991af50ef3b06d43d705e97f6e9bba70714
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8712a40e61fbef9971637a2abdddb0fe401fca02
+ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889813"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935788"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações for Microsoft Teams
 =============================================
@@ -30,11 +30,13 @@ Este artigo descreve algumas dos limites, especificações e outros requisitos q
 
 |Recurso    | Limite máximo |
 |-----------|---------------|
-|Número de equipes que um usuário pode criar | 250         |
+|Número de equipes que um usuário pode criar | Sujeito a um limite de 250 objeto & sup1;         |
 |Número de membros da equipe | 2.500       |
 |Número de equipes que um administrador global pode criar        | Ilimitado   |
 |Número de equipes que pode fazer com que um locatário do Office 365    | 500.000     |
 |Número de canais por equipe    | 200         |
+
+& sup1; Qualquer objeto de diretório no Azure Active Directory conta rumo esse limite.
 
 <a name="meetings-and-calls"></a>Reuniões e chamadas 
 ------------------
