@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obter informações de planejamento e configuração de Business Server para vídeo com base no compartilhamento de tela (VbSS)
-ms.openlocfilehash: 8f76fbe0879cc9abd452d8b1e0064627c215b20e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a658453af5f71d7bb8103411ed16c534e3004a03
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968323"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935472"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo com base em compartilhamento de tela para Skype para Business Server 
  
@@ -120,7 +120,7 @@ Existem situações em que o compartilhamento de tela farão a transição para 
 - Se sua conta estiver hospedada em um ambiente em que o ASMCU não atende ao build mínimo compatível com VbSS.
 - Se alguém que usa uma versão mais antiga do Skype para o cliente de negócios ingressa em uma sessão, por exemplo qualquer pessoa usando qualquer versão de cliente do Windows que é menor que 16.0.6330.1000, Skype para dispositivos de sistema de sala de negócios ou Skype Mobile nos aplicativos de negócios. 
 - Se um usuário está compartilhando a partir do Skype para negócios Web App.
-- Se uma pessoa está usando o Skype para Businesson Mac e não estiver hospedada no Skype para negócios Online.
+- Se alguém está usando Skype for Business no Mac e não estiver hospedado no Skype para negócios Online.
 - Se alguém inicia qualquer compartilhamento de programa/Windows.
 - Se alguém inicia a sessão de gravação.
 - Se alguém solicita Controle de Tela Remoto durante a sessão.

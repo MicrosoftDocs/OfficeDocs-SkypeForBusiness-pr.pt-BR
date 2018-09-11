@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da Austrália.
-ms.openlocfilehash: 97a2e1b565a47f45787bc0d732f0ee622dc3ec7d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a374f83d87dc34167c8d108d08fc74755a8c1c79
+ms.sourcegitcommit: aa3258aeb5aa1296c4bb251a9d258b8896457b7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868193"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23935479"
 ---
 # <a name="availability-in-australia"></a>Disponibilidade em Austrália
 
@@ -54,7 +54,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 ## <a name="calling-plans"></a>Planos de Chamadas
 > [!IMPORTANT]
-> Atualmente disponível apenas para visualização e adoção antecipada na Austrália. Para obter mais informações, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).
+> Disponível somente por meio de Sprint para os locatários com base em australiano. Para obter mais informações, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
