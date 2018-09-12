@@ -5,9 +5,10 @@
 ### [Notas de versão](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Prepare seu ambiente](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Requisitos](../plan-your-deployment/clients-and-devices/requirements.md)
+### [Licenciamento online](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Planejar o gerenciamento de OMS](../plan-your-deployment/clients-and-devices/oms-management.md)
-## Implantar
-### [Visão geral da implantação](../deploy/deploy-clients/room-systems-v2.md)
+## Implantar 
+### [Visão geral de implantação](../deploy/deploy-clients/room-systems-v2.md)
 ### [Configurar contas](../deploy/deploy-clients/room-systems-v2-configure-accounts.md)
 ### [Com o Office 365](../deploy/deploy-clients/with-office-365.md)
 ### [Com o Skype para Business Server 2015](../deploy/deploy-clients/with-skype-for-business-server-2015.md)
@@ -25,15 +26,15 @@
 ### [Use a ferramenta de recuperação](../manage/skype-room-systems-v2/recovery-tool.md)
 # Sistemas de sala Skype (v1)
 ## Planejamento
-### [Implantar o sistema de sala Skype no Skype para Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
-## Implantar
-### [Provisionamento de troca de sistema do Skype sala e contas do Skype](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
+### [Implantar Sistema de Salas do Skype no Skype for Business Server](../deploy/deploy-clients/deploy-skype-room-system.md)
+## Implantar 
+### [Provisionamento de contas do Exchange e Skype do Sistema de Salas do Skype](../deploy/deploy-clients/skype-room-system-exchange-and-skype-accounts.md)
 #### [Floresta única de sistema de sala Skype implantações local](../deploy/deploy-clients/single-forest-on-premises-deployments.md)
 #### [Sistema de sala Skype várias florestas implantações local](../deploy/deploy-clients/multiple-forest-on-premises-deployments.md)
-#### [Provisionamento de contas de sistema do Skype sala no Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
+#### [Provisionamento das contas do Sistema de Salas do Skype no Office 365](../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md)
 #### [Implantações híbridas do sistema de sala do Skype](../deploy/deploy-clients/hybrid-deployments.md)
-#### [Parceiros federados do sistema do Skype sala e Skype para negócios](../deploy/deploy-clients/room-system-and-federated-partners.md)
-### [Política de conferência para contas de sistema de sala do Skype](../deploy/deploy-clients/conferencing-policy.md)
+#### [Parceiros federados do Sistema de Salas do Skype e Skype for Business](../deploy/deploy-clients/room-system-and-federated-partners.md)
+### [Política de conferência das contas do Sistema de Salas do Skype](../deploy/deploy-clients/conferencing-policy.md)
 ### [Domínios de sistema de sala Skype confiáveis](../deploy/deploy-clients/trusted-domains.md)
 ### [Considerações sobre migração de sistema de sala do Skype](../deploy/deploy-clients/migration-considerations.md)
 ### [Ingressando em considerações de domínio do sistema de sala do Skype](../deploy/deploy-clients/domain-joining-considerations.md)
@@ -41,4 +42,4 @@
 ### [Ferramentas e capacidade de gerenciamento do sistema de sala do Skype](../deploy/deploy-clients/manageability-and-tools.md)
 ### [Scripts de configuração de sala de sistema de sala do Skype](../deploy/deploy-clients/room-setup-scripts.md)
 ## Gerenciamento
-### [Gerenciar contas de sistema de sala do Skype](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
+### [Gerenciar contas do Sistema de Salas do Skype](../deploy/deploy-clients/manage-skype-room-system-accounts.md)
