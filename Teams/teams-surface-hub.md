@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab8bb4be2d98c33ad01827f3eb6a3c940bfb6228
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 251cc2d12dfdab2e9bc4c9bcc928e80a9c43e2c2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23868217"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937996"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
@@ -185,8 +185,6 @@ Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!Ar
 
 Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via Intune.
 
-.
-
 |Configuração   |Valor    |Descrição    |
 |----------|---------|---------|
 |Path      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
@@ -201,3 +199,5 @@ Use o seguinte para configurar a chamada e reuniões aplicativo política padrã
 
 Reinicie o dispositivo do Hub de superfície. Depois que o dispositivo for reiniciado, você poderá iniciar o aplicativo de equipes na tela de início e ingressar em uma reunião do calendário.
 
+> [!NOTE]
+> Se seu dispositivo ou dispositivos de sua organização não atualmente fazem parte do programa Insider Windows e você estiver nos países cobertos pela regulamentação de proteção de dados gerais (GDPR) (ou você tiver alterado manualmente suas configurações de telemetria para básico), em seguida, você deve verificar novamente que você tenha permitido telemetria completa antes de participar do programa Insider. GDPR alterado o comportamento padrão de dispositivos de superfície Hub na UE para definir telemetria como básica.

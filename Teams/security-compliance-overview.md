@@ -3,22 +3,22 @@ title: Visão geral de segurança e conformidade no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/02/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: anach
-description: Uma visão geral dos recursos de segurança e conformidade do Microsoft Teams, incluindo auditoria e relatórios, pesquisa de conteúdo de conformidade, eDiscovery e muito mais.
+description: Visão geral dos recursos de segurança e conformidade do Microsoft Teams, incluindo auditoria e relatórios, pesquisa de conteúdo de conformidade, eDiscovery e muito mais.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a2cf9a0b34be89b493b75473fb89efee6943977
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887036"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937894"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -224,14 +224,16 @@ Pesquisa de conteúdo e descoberta eletrônica não exigem habilitação no Cent
 <a name="location-of-data-in-teams"></a>Localização dos dados no Microsoft Teams
 -------------------------
 
-Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. No momento, o Teams tem suporte na região das Américas, EMEA e APAC. 
+Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. Atualmente, equipes suporta as regiões da Austrália, Canadá, Índia, Japão, Reino Unido, Américas, APAC e EMEA. 
 
 > [!IMPORTANT]
-> As equipes atualmente oferece residência dados na Índia, Canadá e Reino Unido para os novos locatários apenas. Um novo locatário é definido como aquele que não teve nenhum usuário sequer entrando no Microsoft Teams. Inquilinos existentes na Índia, Canadá e Reino Unido continuarão permaneça nas regiões EMEA, Américas e APAC respectivamente, até que um plano de migração será anunciado (previsto para CY2019).
+> As equipes atualmente oferece residência de dados na Austrália, Canadá, Índia, Japão e Reino Unido para os novos locatários apenas. Um novo locatário é definido como aquele que não teve nenhum usuário sequer entrando no Microsoft Teams. Inquilinos existentes da Austrália, Índia e Japão continuarão a suas equipes dos dados armazenadas na região APAC. Inquilinos existentes no Canadá e Reino Unido terão seus dados armazenados nas Américas e região EMEA, respectivamente.
 
-Para saber mais sobre o lançamento da residência de dados do Microsoft Teams da Índia e do Reino Unido, leia a postagem de Ansuman Acharya no blog, [Microsoft Teams launches India Data Residency, other geos coming soon](https://go.microsoft.com/fwlink/?linkid=867773). 
+Para saber mais sobre o lançamento da residência de dados do Microsoft Teams da Índia e do Reino Unido, leia a postagem de Ansuman Acharya no blog, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
-Para obter mais informações sobre residência de dados do Canadá para equipes, consulte [Microsoft equipes inicia Canadá dados residência, Austrália e Japão em breve](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+Para obter mais informações em residência de dados do Canadá para equipes, leia a postagem do blog de Varun Sagar, [residência de dados do Microsoft equipes inicia no Canadá, Austrália e Japão em breve](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
+
+Para saber mais sobre o lançamento do Austrália e Japão residência de dados para equipes, leia a postagem do blog de Varun Sagar, [Microsoft equipes inicia Austrália e Japão dados residência ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Para ver qual região hospeda os dados de seu locatário, vá para o [Centro de administração do Office 365](https://portal.office.com/adminportal/home) > **Configurações** > **Perfil da organização**. Role para baixo até **Local dos dados**. 
 
@@ -240,9 +242,9 @@ Para ver qual região hospeda os dados de seu locatário, vá para o [Centro de 
 <a name="how-do-conditional-access-policies-work-for-teams"></a>Como funcionam as políticas de acesso condicional para equipes?
 -------------------------
 
-Microsoft Teams depende muito Exchange Online, SharePoint Online e Skype para negócios on-line para cenários de produtividade de núcleo, como reuniões, calendários, bate-papos interoperacional & compartilhamento de arquivo. Políticas de acesso condicional que são definidas para esses aplicativos de nuvem se aplicam ao Microsoft Teams quando um usuário se conecta diretamente à Microsoft Teams - em qualquer cliente. 
+Microsoft Teams depende muito Exchange Online, SharePoint Online e Skype para Business Online para cenários de produtividade de núcleo, como reuniões, calendários, interoperabilidade de bate-papos e compartilhamento de arquivos. Políticas de acesso condicional que são definidas para esses aplicativos de nuvem se aplicam ao Microsoft Teams quando um usuário diretamente entra no Microsoft Teams - em qualquer cliente. 
 
-Microsoft Teams é suportada separadamente como um aplicativo de nuvem em políticas de acesso condicional do Azure Active Directory. Políticas de acesso condicional que são definidas para o aplicativo de nuvem da Microsoft Teams se aplicam ao Microsoft Teams quando um usuário entrar. No entanto, sem as políticas corretas em outros aplicativos como o Exchange Online e SharePoint Online usuários ainda poderá acessar esses recursos diretamente. Para mais informações sobre como configurar uma política de acesso condicional no portal do azure, vá aqui: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft Teams é suportada separadamente como um aplicativo de nuvem em políticas de acesso condicional do Azure Active Directory. Políticas de acesso condicional que são definidas para o aplicativo de nuvem da Microsoft Teams se aplicam ao Microsoft Teams quando um usuário entrar. No entanto, sem as políticas corretas em outros aplicativos como o Exchange Online e SharePoint Online, os usuários ainda poderá acessar esses recursos diretamente. Para mais informações sobre como configurar uma política de acesso condicional no portal do azure, vá para: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Clientes de desktop Teams da Microsoft para Windows e Mac suportam a autenticação moderna. Autenticação moderna traz entrar com base no Azure Active Directory autenticação biblioteca (ADAL) para aplicativos cliente do Microsoft Office em todas as plataformas.
 

@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbadb9324942cdb354570673a0fd923c9e04bdbd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 134d6d310762bc43d578085fd3f1031112307ee9
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891325"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937871"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -48,11 +48,15 @@ A instalação do Microsoft Teams para Windows oferece instaladores para downloa
 > [!NOTE]
 > A arquitetura (32 bits versus 64 bits) do Microsoft Teams é independente da arquitetura do Windows e do Office que está instalado.
 
-O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows é instalado nos seguintes locais:
+O cliente Windows é implantado na pasta AppData localizada no perfil do usuário. A implantação no perfil local do usuário permite que o cliente seja instalado sem exigir direitos elevados. O cliente Windows aproveita os seguintes locais:
 
-- %appdata%\\local\\Microsoft\\Teams
+- % LocalAppData %\\Microsoft\\equipes
 
-- %appdata%\\roaming\\Microsoft\\Teams
+- % LocalAppData %\\Microsoft\\TeamsMeetingsAddin
+
+- % AppData %\\Microsoft\\equipes
+
+- % LocalAppData %\\SquirrelTemp
 
 Quando os usuários iniciam uma chamada usando o cliente Microsoft Teams pela primeira vez, eles podem notar um aviso com as configurações de firewall do Windows, que solicita que os usuários permitam a comunicação. Os usuários podem ser instruídos para ignorar essa mensagem porque a chamada funcione, mesmo quando o aviso é descartado.
 

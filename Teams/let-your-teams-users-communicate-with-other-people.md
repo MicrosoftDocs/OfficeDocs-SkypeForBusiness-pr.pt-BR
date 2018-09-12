@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: 39be4ddb1a9f42382de30c04d3e81a990aad3547
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: da76d75ba44215b11b68550fa06d1fab87f19e56
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863101"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937823"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 
@@ -46,11 +46,13 @@ Siga estas etapas:
 
    2. Na parte superior da página de **acesso externo** , clique em **acesso externo** para **ativado**. 
 
-   3. Adicione domínio da outra organização à lista de permissões, clicando em **Adicionar domínio**. No painel de **Adicionar um domínio** , preparado o clique de nome de domínio **permitido** e **feito**.
+   3. Se você deseja permitir todas as organizações de equipes para se comunicar com usuários em sua organização, pule para a etapa 5. 
+   
+   4. Se quiser limitar quais as organizações podem se comunicar com usuários em sua organização, adicione o outro domínio da organização à lista de permissões, clicando em **Adicionar domínio**. No painel de **Adicionar um domínio** , preparado o clique de nome de domínio **permitido** e **feito**.
 
    4. Clique em **Salvar**. 
 
-   5. Verifique se que o administrador na organização do equipes segue essas etapas mesmas. Por exemplo, na lista **domínios permitidos** da outra organização, o administrador precisa inserir o domínio da sua empresa.
+   5. Verifique se que o administrador na organização do equipes segue essas etapas mesmas. Por exemplo, em sua lista de **domínios permitidos** , seu administrador precisa insira o domínio para sua empresa se eles limitam o que as organizações podem se comunicar com seus usuários. 
 
 ### <a name="step-3---test-it"></a>Etapa 3 - testá-lo
 Para testar sua configuração, você precisa de um usuário de equipes que não está atrás do firewall.
@@ -65,24 +67,24 @@ Para testar sua configuração, você precisa de um usuário de equipes que não
 
 ## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Se comunicar com usuários em um Skype para a organização Business Online
 
-Se você estiver definindo-la até permitir que os usuários de equipes localizar e contatar os usuários que estão em um Skype para organização de negócios, você será o administrador na organização que devem seguir estas etapas.
+Se você estiver configurando-lo para permitir que sua localização de usuários de equipes e visita os usuários que estão em um Skype para organização de negócios que limita quem pode contatar seus usuários, você pedirá que o administrador na organização que devem seguir estas etapas.
 
 ![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **Usando Skype para centro de administração de negócios** 
 
 Ter o administrador em que a organização siga estas etapas:
     
-1. No Centro de administração do Office 365, vá para **Centros de Administração** > **Skype for Business**.
+1. No Centro de administração do Office 365, vá para **Centros de Admin** > **equipes & Skype** > **portal herdada**.
   
 2. No **Centro de administração do Skype for Business**, escolha **Organização** > **Comunicações externas**.
     
 3. Para configurar a comunicação com um negócio específicos ou com usuários em outro domínio, na caixa suspensa, escolha **em somente para domínios permitidos**.
     
-    OU, se quiser habilitar a comunicação com todos que tiverem as políticas do Skype for Business, escolha **Ativado exceto para domínios bloqueados**. Esta é a configuração padrão.
+    OU, se deseja habilitar a comunicação com todas as outras pessoas no mundo que tenha aberto Skype para políticas de negócios, escolha **no, com exceção de domínios bloqueados**. Esta é a configuração padrão.
     
 4. Em **bloqueado ou domínios permitidos**, escolha **+** e adicione o nome do domínio que você deseja permitir. Certificar-se de que o administrador na organização do segue essas etapas mesmas. Por exemplo, na lista **domínios permitidos** da outra organização, o administrador precisa inserir o domínio da sua empresa.
     
 ### <a name="related-topics"></a>Tópicos relacionados
 
-[Inscreva-se em equipes](sign-in-teams.md)
+[Entrar no Microsoft Teams](sign-in-teams.md)
 [para equipes de treinamento do usuário final](enduser-training.md)
 

@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Office 365.
-ms.openlocfilehash: cccc86fce3eea00449b7737eabb618fa40afa6a6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9140ea2f1d88b8d56ecfee1b41d7bf5c9b571dbb
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883021"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23938012"
 ---
 # <a name="deploy-skype-room-systems-v2-with-office-365"></a>Implantar o Skype Room Systems versão 2 com o Office 365 
  
@@ -197,3 +197,4 @@ Para validação, você deve ser capaz de usar qualquer Skype para o cliente de 
   
 [Gerenciar o Skype Room Systems versão 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
+[Licenciamento do Skype sala sistemas v2](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)

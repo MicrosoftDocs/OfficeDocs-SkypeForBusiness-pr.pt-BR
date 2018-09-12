@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: 27f074526da7c63ecfdcfab912650e514c3717b3
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0f23fc6ca106530f64e9854150d922b8a32da7d2
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866999"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937831"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas
 
@@ -112,18 +112,18 @@ A seguinte tabela lista as dimensões disponíveis atualmente no CQD:
 |Duration 60 seconds or more  <br/> |Booliano  <br/> |Verdadeiro se o fluxo teve duração de 60 segundos ou mais; caso contrário, falso.  |**Valor de exemplo:** true  <br/> |
 |Duration (Seconds)  <br/> |Intervalo (segundos)  <br/> |Duração do fluxo em segundos. Valores agrupados por intervalo. |  **Valor de exemplo:** 062: [1-de 2)  <br/> |
 |Duration (Minutes)  <br/> |Intervalo (minutos)  <br/> |Duração do fluxo em minutos. Valores agrupados por intervalo. |  **Valor de exemplo:** 065: [3-4)  <br/> |
-|Data  <br/> |Cadeia de caracteres  <br/> |Data stream encerrado.  |**Valor de exemplo:** 2018-06-01  <br/> |
-|Year  <br/> |Inteiro  <br/> |Ano do fim do fluxo.  | **Valor de exemplo:** 2018  <br/> |
-|Month  <br/> |Inteiro  <br/> |Mês do final do fluxo.  | **Valor de exemplo:** 2  <br/> |
-|Day  <br/> |Inteiro  <br/> |Dia do fim do fluxo.  |**Valor de exemplo:** 1  <br/> |
-|Hour  <br/> |Inteiro  <br/> |Hora do final do fluxo.  | **Valor de exemplo:** 1  <br/> |
-|Minute  <br/> |Inteiro  <br/> |Minuto do fim do fluxo.  | **Valor de exemplo:** 30  <br/> |
-|Second  <br/> |Inteiro  <br/> |Segundo do fim do fluxo.  |**Valor de exemplo:** 12  <br/> |
-|Day Of Year  <br/> |Inteiro  <br/> |Dia do ano do fim do fluxo.  | **Valor de exemplo:** 32  <br/> |
-|Day Of Week  <br/> |Cadeia de caracteres  <br/> |Dia da semana do fim do fluxo.  | **Valor de exemplo:** Quarta-feira  <br/> |
-|Day Number Of Week  <br/> |Inteiro  <br/> |Número do dia da semana do fim do fluxo.  | **Valor de exemplo:** 3  <br/> |
-|Month Year  <br/> |Cadeia de caracteres  <br/> |Mês e ano do fim do fluxo.  |**Valor de exemplo:** 2017-02  <br/> |
-|Full Month  <br/> |Data e hora  <br/> |Mês completo do final do fluxo.  | **Valor de exemplo:** 2017-02-01 T00:00:00  <br/> |
+|Data  <br/> |Cadeia de caracteres  <br/> |Data stream encerrado. Valores são relatados no fuso horário UTC.  |**Valor de exemplo:** 2018-06-01  <br/> |
+|Year  <br/> |Inteiro  <br/> |Ano do fim do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** 2018  <br/> |
+|Month  <br/> |Inteiro  <br/> |Mês do final do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** 2  <br/> |
+|Day  <br/> |Inteiro  <br/> |Dia do fim do fluxo. Valores são relatados no fuso horário UTC.  |**Valor de exemplo:** 1  <br/> |
+|Hour  <br/> |Inteiro  <br/> |Hora do final do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** 1  <br/> |
+|Minute  <br/> |Inteiro  <br/> |Minuto do fim do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** 30  <br/> |
+|Second  <br/> |Inteiro  <br/> |Segundo do fim do fluxo. Valores são relatados no fuso horário UTC.  |**Valor de exemplo:** 12  <br/> |
+|Day Of Year  <br/> |Inteiro  <br/> |Dia do ano do fim do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** 32  <br/> |
+|Day Of Week  <br/> |Cadeia de caracteres  <br/> |Dia da semana do fim do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** Quarta-feira  <br/> |
+|Day Number Of Week  <br/> |Inteiro  <br/> |Número do dia da semana do fim do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** 3  <br/> |
+|Month Year  <br/> |Cadeia de caracteres  <br/> |Mês e ano do fim do fluxo. Valores são relatados no fuso horário UTC.  |**Valor de exemplo:** 2017-02  <br/> |
+|Full Month  <br/> |Data e hora  <br/> |Mês completo do final do fluxo. Valores são relatados no fuso horário UTC.  | **Valor de exemplo:** 2017-02-01T00:00:00  <br/> |
 |First Domain  <br/> |Cadeia de caracteres  <br/> |Domínio do usuário que está utilizando o primeiro ponto de extremidade. Se o primeiro ponto de extremidade é um servidor de conferência, é o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário.  <br/> |**Valor de exemplo:** contoso.com  <br/> |
 |Second Domain  <br/> |Cadeia de caracteres  <br/> |Domínio do usuário que está utilizando o segundo ponto de extremidade. Se o segundo ponto de extremidade é um servidor de conferência, é o domínio do organizador da reunião. Também pode ser o domínio das contas de serviço usadas no cenário.  | **Valor de exemplo:** contoso.com  <br/> |
 |First User Agent Category  <br/> |Cadeia de caracteres  <br/> |Categoria do agente do usuário do primeiro ponto de extremidade.  <br/> |Os valores em branco indicam um agente do usuário que atualmente não tem um mapeamento, como um agente do usuário de terceiros.  <br/>  **Valor de exemplo:** OC  <br/> |
@@ -198,15 +198,15 @@ A seguinte tabela lista as dimensões disponíveis atualmente no CQD:
 |Second DNS Suffix  <br/> |Cadeia de caracteres  <br/> |O sufixo do DNS associado ao adaptador de rede reportado pelo segundo ponto de extremidade. Esse valor pode ser reportado para qualquer tipo de adaptador de rede.  <br/> |Os valores em branco indicam que este valor não foi reportado pelo ponto de extremidade.  <br/>  **Valor de exemplo:** corp.contoso.com  <br/> |
 |First Wifi Band  <br/> |Cadeia de caracteres  <br/> |A banda WiFi usada, conforme reportada pelo primeiro ponto de extremidade.  <br/> |Os valores em branco indicam que o valor não foi processado pelo ponto de extremidade ou não foi reportado. <br/>  **Valor de exemplo:** 5,0 Ghz  <br/> |
 |Second Wifi Band  <br/> |Cadeia de caracteres  <br/> |A banda WiFi usada, conforme reportada pelo segundo ponto de extremidade.  <br/> |Os valores em branco indicam que o valor não foi processado pelo ponto de extremidade ou não foi reportado.   <br/> **Valor de exemplo:** 5,0 Ghz  <br/> |
-|First Wifi Signal Strength  <br/> |Cadeia de caracteres  <br/> |A intensidade do sinal WiFi em porcentagem [0-99] reportada pelo primeiro ponto de extremidade.  <br/> |Os valores em branco indicam que o valor não foi processado pelo ponto de extremidade ou não foi reportado.  <br/> **Valor de exemplo:** 081: [90-100)  <br/> |
-|Second Wifi Signal Strength  <br/> |Cadeia de caracteres  <br/> |A intensidade do sinal WiFi em porcentagem [0-99] reportada pelo segundo ponto de extremidade.  <br/> |Os valores em branco indicam que o valor não foi processado pelo ponto de extremidade ou não foi reportado.  <br/> **Valor de exemplo:** 081: [90-100)  <br/> |
+|First Wifi Signal Strength  <br/> |Cadeia de caracteres  <br/> |WiFi intensidade do sinal em porcentagem [0-100] relatada pelo primeiro ponto de extremidade.  <br/> |Os valores em branco indicam que o valor não foi processado pelo ponto de extremidade ou não foi reportado.  <br/> **Valor de exemplo:** 081: [90-100)  <br/> |
+|Second Wifi Signal Strength  <br/> |Cadeia de caracteres  <br/> |WiFi intensidade do sinal em porcentagem [0-100] relatada pelo segundo ponto de extremidade.  <br/> |Os valores em branco indicam que o valor não foi processado pelo ponto de extremidade ou não foi reportado.  <br/> **Valor de exemplo:** 081: [90-100)  <br/> |
 |First Wifi Battery Charge  <br/> |Intervalo (porcentagem)  <br/> |Carga remanescente estimada da bateria em porcentagem [0-99] reportada pelo primeiro ponto de extremidade. Os valores são agrupados por intervalos. 0 indica que o dispositivo foi conectado.  <br/> |Os valores em branco indicam que o WiFi não foi usado ou que o valor da carga não foi reportado. <br/>   **Valor de exemplo:** 081: [90-100)  <br/> |
 |Second Wifi Battery Charge  <br/> |Intervalo (porcentagem)  <br/> |Carga remanescente estimada da bateria em porcentagem [0-99] reportada pelo segundo ponto de extremidade. Os valores são agrupados por intervalos. 0 indica que o dispositivo foi conectado.  <br/> |Os valores em branco indicam que o WiFi não foi usado ou que o valor da carga não foi reportado.  <br/>  **Valor de exemplo:** 081: [90-100)  <br/> |
 |Audio Degradation Avg  <br/> |Intervalo (pontuação média de opinião de 0-5)  <br/> |Média da degradação da pontuação média de opinião sobre a rede para stream. Representa o quanto a perda e a tremulação da rede afetou a qualidade do áudio recebido. Os valores são agrupados por intervalos.  <br/> |Os valores em branco indicam que nenhuma degradação de MOS de rede foi reportada pelo ponto de extremidade que recebe o stream ou se o stream não é de áudio.   <br/> **Valor de exemplo:** 015: [0.01-0.02)  <br/> |
 |Jitter  <br/> |Intervalo (milissegundos)  <br/> |Média de tremulação para stream em milissegundos. Os valores são agrupados por intervalo.  <br/> |Os valores em branco indicam que não há dados de tremulação reportados pelo ponto de extremidade que recebe o stream.  <br/> **Valor de exemplo:** 065: [2-3)  <br/> |
 |Jitter Max  <br/> |Intervalo (milissegundos)  <br/> |Máximo de tremulação para stream em milissegundos. Os valores são agrupados por intervalo.  <br/> |Os valores em branco indicam que não há dados de tremulação reportados pelo ponto de extremidade que recebe o stream.   <br/> **Valor de exemplo:** 065: [2-3)  <br/> |
-|Packet Loss Rate  <br/> |Intervalo (porcentagem)  <br/> |Taxa média de perda de pacote do stream. Os valores são agrupados por intervalos.  <br/> |Os valores em branco indicam que não há dados de perda de pacote reportados pelo ponto de extremidade que recebe o stream.  <br/>  **Valor de exemplo:** 050: [1.8-1.9)  <br/> |
-|Packet Loss Rate Max  <br/> |Intervalo (porcentagem)  <br/> |Taxa máxima de perda de pacote do stream. Os valores são agrupados por intervalos.  <br/> |Os valores em branco indicam que não há dados de perda de pacote reportados pelo ponto de extremidade que recebe o stream.   <br/> **Valor de exemplo:** 041: [0.95-1)  <br/> |
+|Packet Loss Rate  <br/> |Intervalo (índice)  <br/> |Taxa média de perda de pacote do stream. Os valores são agrupados por intervalos. 0,1 indica perda de pacotes de 10%.  <br/> |Os valores em branco indicam que não há dados de perda de pacote reportados pelo ponto de extremidade que recebe o stream.  <br/>  **Valor de exemplo:** 015: [0.01-0.02)  <br/> |
+|Packet Loss Rate Max  <br/> |Intervalo (índice)  <br/> |Taxa máxima de perda de pacote do stream. Os valores são agrupados por intervalos. 0,1 indica perda de pacotes de 10%.  <br/> |Os valores em branco indicam que não há dados de perda de pacote reportados pelo ponto de extremidade que recebe o stream.   <br/> **Valor de exemplo:** 023: [0.09-0.1)  <br/> |
 |Overall Avg Network MOS  <br/> |Intervalo (MOS)  <br/> |Média de MOS de rede do stream. Os valores são agrupados por intervalos.  <br/> |Os valores em branco indicam que nenhuma degradação de MOS de rede foi reportada pelo ponto de extremidade que recebe o stream ou se o stream não é de áudio.   <br/> **Valor de exemplo:** 076: [4.4-4.5)  <br/> |
 |Ratio Concealed Samples Avg  <br/> |Intervalo (índice)  <br/> |O índice do número de quadros de áudio com amostras geradas por ocultação de perda de pacotes para o número total de quadros de áudio. Valores agrupados por intervalo. 0.1 indica que 10% dos quadros continham amostras ocultas.  <br/> |Os valores em branco indicam que este valor não foi reportado pelo destinatário do stream ou que o fluxo não era um stream de áudio.   <br/> **Valor de exemplo:** 015: [0.01-0.02)  <br/> |
 |Ratio Stretched Samples Avg  <br/> |Intervalo (índice)  <br/> |O índice do número de quadros de áudio com amostras que foram ampliadas para compensar a tremulação ou perda para o número total de quadros de áudio. Valores agrupados por intervalo. 0.1 indica que 10% dos quadros de áudio que continham amostras ampliadas.  <br/> |Os valores em branco indicam que este valor não foi reportado pelo destinatário do stream ou que o fluxo não era um stream de áudio.  <br/>  **Valor de exemplo:** 017: [0.03-0.04)  <br/> |
@@ -471,8 +471,8 @@ A tabela a seguir lista as medidas disponíveis atualmente no CQD (Call Quality 
 |Avg Audio Degradation  <br/> |Pontuação média de opinião (0-5)  <br/> |Média da degradação de pontuação média de opinião sobre a rede para fluxos. Representa o quanto a perda e a tremulação da rede afetaram a qualidade do áudio recebido.  <br/> |
 |Avg Jitter  <br/> |Milissegundos  <br/> |Média de tremulação de rede para fluxos em milissegundos.  <br/> |
 |Avg Jitter Max  <br/> |Milissegundos  <br/> |Máximo de tremulação de rede para fluxos em milissegundos.  <br/> |
-|Avg Packet Loss Rate  <br/> |Porcentagem  <br/> |Média da porcentagem média de perda de pacotes calculada em intervalos de 5 segundos por fluxos.  <br/> |
-|Avg Packet Loss Rate Max  <br/> |Porcentagem  <br/> |Média de porcentagem máxima de perda de pacotes calculada em intervalos de 5 segundos por fluxos.  <br/> |
+|Avg Packet Loss Rate  <br/> |Índice  <br/> |Média da porcentagem média de perda de pacotes calculada em intervalos de 5 segundos por fluxos. 0,1 indica perda de pacotes de 10%.  <br/> |
+|Avg Packet Loss Rate Max  <br/> |Índice  <br/> |Média de porcentagem máxima de perda de pacotes calculada em intervalos de 5 segundos por fluxos. 0,1 indica perda de pacotes de 10%.  <br/> |
 |Avg Overall Avg Network MOS  <br/> |Pontuação média de opinião (0-5)  <br/> |Média ou média de pontuação média de opinião de rede por fluxos. Representa a média de qualidade prevista de faturamento de áudio recebido em perda, tremulação e codec de rede.  <br/> |
 |Avg Ratio Concealed Samples  <br/> |Índice  <br/> |Média de índice médio do número de quadros de áudio com amostras geradas por ocultação de perda de pacotes para o número total de quadros de áudio por fluxos. 0.1 indica que 10% dos quadros continham amostras ocultas.  <br/> |
 |Avg Ratio Stretched Samples  <br/> |Índice  <br/> |Média do índice médio do número de quadros de áudio com amostras que foram ampliadas para compensar a tremulação ou perda para o número total de quadros de áudio por fluxos. 0.1 indica que 10% dos quadros de áudio que continham amostras ampliadas.  <br/> |

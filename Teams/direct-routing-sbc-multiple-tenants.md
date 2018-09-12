@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Saiba como configurar uma borda controlador sessão (SBC) para atender a vários locatários.
-ms.openlocfilehash: 3073800a6c200bcaeffafb557d6ea149dee598cd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 66f529c5a64c56a25a826cac8e26b3e7219cd1de
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866455"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937988"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda de sessão para vários locatários
 
@@ -52,7 +52,7 @@ A seguir estão as etapas de implementação técnica para configurar o cenário
 Para obter as etapas detalhadas sobre como implantar e configurar SBCs para um cenário de hospedagem de SBC, consulte a documentação do fornecedor SBC.
 
 - **AudioCodes:** [Notas de configuração de roteamento direto](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do SBC hospedando o cenário descrito em "Connecting AudioCodes SBC à Microsoft Teams direto roteamento Hosting modelo configuração nota". 
-- **Communications da faixa de opções:** Para cenários de hospedagem de SBC, somente a série de núcleo é suportada. Consulte o [Guia de configuração da faixa de opções Communications SBC Core Microsoft equipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe).
+- **Communications da faixa de opções:**  Consulte o [Guia de configuração da faixa de opções Communications SBC Core Microsoft equipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para documentação sobre como configurar a faixa de opções Core série SBCs e para essa página [prática de práticas recomendadas do faixa de opções - configurando operadoras para roteamento direto de equipes do Microsoft Borda SBC](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Por favor, preste atenção como configurar o cabeçalho "Contato". O cabeçalho de contato é usado para localizar o locatário do cliente na mensagem de entrada de convidar. 

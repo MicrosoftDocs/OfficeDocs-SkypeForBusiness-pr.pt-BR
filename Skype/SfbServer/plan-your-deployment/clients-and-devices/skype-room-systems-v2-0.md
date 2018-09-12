@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Este artigo explica as considerações de planejamento relevantes para implantar sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: b62e062eebfd9a79cf49b98fe6f477a0288f71d1
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: f793753b6fad2c544a4ab845b5cd220792a9b8d1
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601945"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937839"
 ---
 # <a name="plan-skype-room-systems-v2"></a>Planejar a sala Skype v2 de sistemas 
 
@@ -50,7 +50,7 @@ Além da combinação de Surface Pro / encaixe, você pode também v2 Skype sist
 
 Normalmente, os pacotes e unidades integradas incluem software pré-instalado, enquanto se comprar componentes suportados individualmente para os sistemas Surface Pro, você precisará instalar o software. Para obter instruções, consulte [Este artigo sobre como instalar o software em dispositivos](../../deploy/deploy-clients/room-systems-scale.md). 
 
-Você pode implantar sistemas de sala Skype v2 com Skype para Business Online ou Skype para implantações híbridas ou local de negócios. Suporte da Microsoft Teams é muito breve.
+Você pode implantar sistemas de sala Skype v2 com Skype para Business Online ou Skype para implantações híbridas ou local de negócios.  Consulte [Licenciamento de v2 de sistemas de sala Skype](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) para obter informações sobre as licenças necessárias.
 
 |    |     |
 |-----------|------------|

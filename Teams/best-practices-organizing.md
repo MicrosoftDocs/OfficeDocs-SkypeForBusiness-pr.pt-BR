@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73ae62ea6cf521e9f45b4de05c4dc62f408827e3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a885a79ce7e0a54a58108ce9b2fcda1c54f31616
+ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884032"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "23937846"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Boas práticas para organizar equipes no Microsoft Teams
 ======================================================
@@ -42,7 +42,7 @@ Saiba mais sobre o [funcionamento em equipes](https://support.office.com/article
 <a name="channel-best-practices"></a>Práticas recomendadas de canal
 ----------------------
 
-Nosso diretrizes de práticas recomendadas é criar equipes com um conjunto maior de membros e mais canais.  Para manter uma experiência de usuário de alta qualidade é útil minimizar o número de equipes que exigem a participação de uma pessoa.  Canais de dentro de uma equipe devem ser considerados como tópicos ou fluxos de trabalho para ajudar a organizar seus trabalhos para entregar em seus objetivos de participação da equipe.  Há um número específico de canais que deve ser criado.  Cada equipe deve criar canais com base no seu trabalho, as prioridades e estilo.  Organizações maiores talvez queira criar equipes como "modelos" para padronizar as informações que eles capturam sobre tipos específicos de trabalho.  Isso é útil para gerenciamento dos clientes estratégico, managmeent da sala de aula, cenários de saúde, gerenciamento de declaração, gerenciamento de incidentes e outros sceanrios apropriado para um setor específico.   
+Nosso diretrizes de práticas recomendadas é criar equipes com um conjunto maior de membros e mais canais.  Para manter uma experiência de usuário de alta qualidade é útil minimizar o número de equipes que exigem a participação de uma pessoa.  Canais de dentro de uma equipe devem ser considerados como tópicos ou fluxos de trabalho para ajudar a organizar seus trabalhos para entregar em seus objetivos de participação da equipe.  Há um número específico de canais que deve ser criado.  Cada equipe deve criar canais com base no seu trabalho, as prioridades e estilo.  Organizações maiores talvez queira criar equipes como "modelos" para padronizar as informações que eles capturam sobre tipos específicos de trabalho.  Isso é útil para gerenciamento dos clientes estratégico, gerenciamento de sala de aula, cenários de saúde, gerenciamento de declaração, gerenciamento de incidentes e outros cenários apropriados para um setor específico.   
 
 O **canal geral** é criada para você quando você criar a equipe por padrão. Há várias finalidades úteis nesse canal:
 
