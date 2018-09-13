@@ -10,16 +10,15 @@ ms.reviewer: MyAdvisor
 description: Orientações práticas para planejar, implantar e gerenciar o Sistema de Telefonia com Planos de Chamadas no Microsoft Teams usando a estrutura Concepção (planejamento), Integração (fornecimento), Geração de valor (operação).
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 1ef49826026d2a172f5d01b161eb1dfc17fd55b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
+ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884124"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965519"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 =========================================================================
