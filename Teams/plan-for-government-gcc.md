@@ -3,7 +3,7 @@ title: Planejar for Microsoft 365 governamental - implantações GCC - Microsoft
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 07/26/2018
+ms.date: 09/14/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lehewe
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430b6c6de5468442f7a290b07b28eb59d276e00c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 34c13d9094512a52c334acf2b660b11b6579c886
+ms.sourcegitcommit: 63c391ce9144ba5b296050ac189f77f5cea78707
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885768"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "23973682"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
@@ -66,8 +66,7 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | Um canal de email             | A arquitetura do recurso atual não é suportada nos planos do governo. |
 | Presença unificada            | Estamos Finalizar trabalho para clientes empresariais primeiro para esse recurso importante. Ele estará disponível para clientes do governo no futuro. |
 | Chat interoperabilidade entre equipes & SfB usuários            | Interoperação é dependente no serviço de presença unificada (UPS) e não pode funcionar até GCC equipes inquilinos habilitados para um no-break. |
-
-| Notificações de email | A arquitetura do recurso atual não é compatível com os planos do governo conosco. Trabalho está em andamento para disponibilizar esse recurso para os clientes do governo conosco plano no futuro. |
+| Notificações por email         | A arquitetura do recurso atual não é compatível com os planos do governo conosco. Trabalho está em andamento para disponibilizar esse recurso para os clientes do governo conosco plano no futuro. |
 
 
 |    |     |
