@@ -2,6 +2,7 @@
 title: Gerenciar dispositivos do Skype Room Systems v2 com o OMS
 ms.author: jambirk
 author: jambirk
+ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/19/2017
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 description: 'Este artigo descreve como gerenciar os dispositivos do Skype Room Systems v2 de modo integrado e completo usando o Microsoft Operations Management Suite. '
-ms.openlocfilehash: b77f7216593d30c843eb49fd8879a83b5b0025c8
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: 5c472995c4948ce83587ec130724ddf3bdb5c75f
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504233"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965916"
 ---
 # <a name="manage-skype-room-systems-v2-devices-with-oms"></a>Gerenciar dispositivos do Skype Room Systems v2 com o OMS
  
@@ -43,6 +44,6 @@ Se você entender essas descrições de eventos, será alertado rapidamente sobr
 ## <a name="see-also"></a>Consulte também
 <a name="Telemetry"></a>
 
-[Planejar o gerenciamento de v2 Skype sala sistemas com OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
+[Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS](../../plan-your-deployment/clients-and-devices/oms-management.md)
   
-[Implantar o gerenciamento de v2 Skype sala sistemas com OMS](../../deploy/deploy-clients/with-oms.md)
+[Implantar o gerenciamento do Skype Room Systems v2 com OMS](../../deploy/deploy-clients/with-oms.md)

@@ -1,7 +1,8 @@
 ---
 title: Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS
 ms.author: jambirk
-author: Turgayo
+author: jambirk
+ms.reviewer: Turgayo
 manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 description: Este artigo discute considerações de planejamento para usando o pacote de gerenciamento de operações para administrar dispositivos de v2 de sistemas de sala Skype no seu Skype para implementação da Business Server.
-ms.openlocfilehash: 2755677579f2a66a6e566be42cbfb47d13a375da
-ms.sourcegitcommit: 47f80b977fa7de3b83a521164f765623bffcf5c0
+ms.openlocfilehash: 14f6ba95e5b2bcf7619002bb2dbc1e9ae3eb474a
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2018
-ms.locfileid: "22601924"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965937"
 ---
 # <a name="plan-skype-room-systems-v2-management-with-oms"></a>Planejar o gerenciamento do Skype Room Systems versão 2 com o OMS
  

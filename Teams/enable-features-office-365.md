@@ -15,19 +15,19 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86fa8178b52c621c664afc49edd4f8d2c81c1fea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0ff482ccd6486fcab836565033a0cf7e02517717
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882049"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965616"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar recursos de Teams da Microsoft em sua organização do Office 365
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Todas as definições de equipes em breve serão migradas para o novo Teams Microsoft & Skype para Business Admin Center. O único recurso de equipes que é gerenciado no Centro de administração do Office 365 é apps. 
+Todas as definições de equipes em breve serão migradas para o novo Teams Microsoft & Skype para Business Admin Center. O único recurso de equipes que é gerenciado no Centro de administração do Office 365 é Apps. 
 
 A menos que esteja especificado, o valor padrão das opções é Ativado.
 

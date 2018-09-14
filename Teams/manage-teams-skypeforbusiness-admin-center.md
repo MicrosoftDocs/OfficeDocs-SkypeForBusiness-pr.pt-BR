@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes durante a transição para o novo Teams da Microsoft e Skype para Business Admin Center
+title: Gerenciar equipes durante a transição para o novo Teams Microsoft & Skype para Business Admin Center
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 1e334e4978ea645527273a79f49ed097038fcb36
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dddb73e5b616fead421d1b610eff6229b4191d06
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885432"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965695"
 ---
-<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-and-skype-for-business-admin-center"></a>Gerenciar equipes durante a transição para o novo Teams da Microsoft e Skype para Business Admin Center
+<a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Gerenciar equipes durante a transição para o novo Teams Microsoft & Skype para Business Admin Center
 ======================================================
 
 O novo Centro de administração do Microsoft Teams e Skype for Business estará disponível em breve! 
@@ -41,6 +41,7 @@ A nova experiência do Centro de administração fornecerá a você uma experiê
 
 ![Captura de tela do Skype para Business Admin Center & equipes da Microsoft.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
+## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Configurações migradas para o novo Teams Microsoft & Skype para Business Admin Center
 
 Iniciando em março intermediário 2018, os seguintes recursos foram disponíveis no novo Teams Microsoft & Skype para Business Admin Center: 
 
@@ -49,15 +50,9 @@ Iniciando em março intermediário 2018, os seguintes recursos foram disponívei
 - **Configurações de mensagens de convidado de equipes da Microsoft**: controlar os recursos de mensagens para contas de convidado no Microsoft Teams. 
 - **Configurações de Federação**: gerenciar a federação entre locatários for Microsoft Teams e Skype para negócios. 
 - **Gerenciamento de usuários**: Atribuir políticas e configurar as contas de usuário. 
-- **Conferência de áudio**: configurar números de discagem e configurações do Skype para Teams da Microsoft e de negócios. 
+- **Conferência de áudio**: configurar números de discagem e configurações do Skype para Teams da Microsoft e de negócios.  
 
- 
-
-## <a name="settings-migrated-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Configurações migradas para o novo Teams Microsoft & Skype para Business Admin Center
-
-As configurações existentes para gerais, integração Email, armazenamento na nuvem personalizado, chamadas e reuniões e mensagens no Microsoft Teams (consulte a imagem abaixo) serão migradas para o novo Teams Microsoft & Skype para Business Admin Center (também conhecido como o novo portal de administração) os próximos meses. 
-
-
+Além disso, as configurações existentes para gerais, integração Email, armazenamento na nuvem personalizado, chamadas e reuniões e mensagens no Microsoft Teams agora foram migradas para o novo Teams Microsoft & Skype para Business Admin Center (também conhecido como o novo Admin Portal). 
 
 > [!NOTE]
 >Você vai continuar a usar o painel de grupos no Centro de administração do Office 365 para configuração relacionada ao **equipes e canais**. As configurações para **aplicativos** permanecerão na área de equipes da Central de administração do Office 365 e serão migradas mais tarde. 
@@ -66,11 +61,9 @@ As configurações existentes para gerais, integração Email, armazenamento na 
 
 Em relação às configurações disponíveis nas **configurações por tipo de licença de usuário /**, ele fornecido essencialmente uma maneira de configurar grupos de usuários de forma diferente. Agora, com o novo portal de administração, você pode fazer isso em uma base por usuário. 
 
-
 A configuração de tipo de licença será migrado. Se atualmente você estiver usando a configuração de **Ativar equipes da Microsoft ativada ou desativada para todos os usuários desse tipo** para controlar o acesso às equipes para usuários nos SKUs, podemos manterão suas configurações atuais. No entanto, não será possível alterar essa definição no portal de administração do novo. Em vez disso, você irá atribuir as licenças apropriadas aos usuários no seu locatário por meio do Centro de administração do Office 365. Para obter mais detalhes, consulte [Manage user access às equipes da Microsoft](user-access.md). 
 
-A tabela a seguir identifica as seções da experiência de equipes atual que serão migrados e mostra a relação entre as configurações atuais e as políticas no novo portal de administração.
-
+A tabela a seguir identifica as seções da experiência de equipes do atual que foram migradas e mostra a relação entre as configurações atuais e as políticas no novo portal de administração.
 
 |Seção de equipes no Centro de administração do Office 365  |Nome da configuração (nível de locatário)  |Microsoft Teams & Skype para política do Centro de administração de negócios   |Nível: Locatário ou usuário   |
 |---------|---------|---------|---------|
@@ -102,10 +95,7 @@ A tabela a seguir identifica as seções da experiência de equipes atual que se
 |Mensagens     |Permite que os usuários chat em particular         |TeamsMessagingPolicy         |Usuário         |
 
 
-
 ## <a name="manage-settings-during-the-migration"></a>Gerenciar configurações durante a migração
-
-Pretendemos migrar as configurações de equipes nas seções na seguinte sequência: mensagens, reuniões, chamadas e por último, as seções dentro da diretiva de configuração de TeamsClient (gerais, integração de Email e armazenamento na nuvem personalizado).   
 
 Você pode continuar modificar configurações na Central de administração do Office 365 e o Skype para Business Admin center até que a migração para uma seção está concluída para o seu locatário. 
 

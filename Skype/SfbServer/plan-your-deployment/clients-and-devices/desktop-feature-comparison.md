@@ -1,7 +1,8 @@
 ---
 title: Comparação de recursos do cliente de desktop do Skype para Business Server 2015
 ms.author: jambirk
-author: PhillipGarding
+author: jambirk
+ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
 ms.audience: ITPro
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: ef7deb58db0ad6ece008a63c76cd03feb3a17feb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: cb0955dcb695b0431e73b1f575087b06ec3b0449
+ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882292"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "23965731"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2015
  
