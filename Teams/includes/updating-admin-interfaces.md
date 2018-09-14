@@ -1,0 +1,1 @@
+Estamos constantemente atualizando as formas de gerenciar os recursos do Microsoft Teams, então as etapas podem ser um pouco diferentes aqui.
