@@ -1,1 +1,1 @@
-Estamos constantemente atualizando as formas de gerenciar os recursos do Microsoft Teams, então as etapas podem ser um pouco diferentes aqui.
+Estamos frequentemente atualizando como você pode gerenciar recursos, portanto, as etapas aqui podem ser um pouco diferentes do que você vê.
