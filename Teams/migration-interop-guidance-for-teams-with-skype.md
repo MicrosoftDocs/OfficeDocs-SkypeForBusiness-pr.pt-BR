@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1028f599b3b5cacf23fa920b85c42cf8a5bd4673
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: bfd2c7efd606a143fffca25c7379f2a29bf505da
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884231"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23999020"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios
 
@@ -63,15 +63,14 @@ Para justificar a introdução dos modos de coexistência e a aposentadoria pend
 
 5.  Interoperabilidade entre equipes e Skype para usuários comerciais só será possível *se o usuário de equipes é hospedado online no Skype para negócios*. O Skype para usuários corporativos podem ser hospedados tanto no local (e é necessário configurar o Skype para o híbrido de negócios) ou online. Os usuários hospedados no Skype para negócios local podem usar as equipes no modo de ilhas (definido mais adiante neste documento), mas não podem usar as equipes para interoperabilidade ou estabelecer uma federação com outros usuários que estejam usando Skype para negócios.  
 
-6.  Para atualizar um usuário para equipes (ou seja, conceder TeamsUpgradePolicy com modo = TeamsOnly), o usuário deve ser hospedado online no Skype para negócios. Isso é necessário para assegurar a interoperabilidade, Federação e administração completa do usuário equipes. Para atualizar os usuários que estão hospedados no local, use `Move-CsUser` o local admin ferramentas para mover-se primeiro ao usuário Skype para Business Online. Em seguida, conceder TeamsUpgradePolicy e TeamsInteropPolicy ao usuário online ou usar o Portal moderno para atribuir o modo de TeamsOnly.
+6.  Para atualizar um usuário para equipes (ou seja, conceder TeamsUpgradePolicy com modo = TeamsOnly), o usuário deve ser hospedado online no Skype para negócios. Isso é necessário para assegurar a interoperabilidade, Federação e administração completa do usuário equipes. Para atualizar os usuários que estão hospedados no local, use `Move-CsUser` o local admin ferramentas para mover-se primeiro ao usuário Skype para Business Online. Em seguida, conceder TeamsUpgradePolicy e TeamsInteropPolicy ao usuário online ou usar o Portal moderno para atribuir o modo de TeamsOnly. Uma vez CU8 para Skype para Business Server 2015 é enviado, cliente pode simplesmente usar o novo `-MoveToTeams` alternar no `Move-CsUser` que combina estes 2 passos em 1.
 
 7.  As políticas de núcleo de gerenciamento de atualização e interoperabilidade são TeamsUpgradePolicy e TeamsInteropPolicy.  No entanto, TeamsInteropPolicy é no processo que está sendo desativado e toda a funcionalidade será substituída pelo TeamsUpgradePolicy. Até que a transição for concluída, os clientes devem definir o TeamsUpgradePolicy e o TeamsInteropPolicy consistentemente (conforme descrito [posterior](#important) neste documento) para garantir o funcionamento adequado, ou usar o novo Portal moderno, que faz isso automaticamente.
 
 8.  Para usar os recursos de sistema telefônico de equipes, os usuários devem estar no modo de TeamsOnly (isto é, hospedadas em Skype para Business Online e atualizados para equipes), e eles devem ser configurados para o Microsoft System direto roteamento de telefone (o que permite que você use um sistema telefônico com seu próprios SIP troncos e SBC) ou ter um Office 365 chamar plano. Roteamento direto está [disponível no mercado](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) a partir de 28 de junho de 2018.  
 
-9.  Agendamento de reuniões de equipes com a conferência de áudio (discada ou discagem via PSTN) está atualmente disponível somente para usuários que estejam hospedados em Skype para negócios Online. Suporte a usuários de equipes com Skype um local para a conta comercial está planejada.
+9.  Agendamento de reuniões de equipes com a conferência de áudio (discada ou discagem via PSTN) está atualmente disponível somente para usuários que estejam hospedados em Skype para negócios Online. Suporte a usuários de equipes com Skype um local para a conta comercial está em um toque.
 
-10. Roteamento de mensagens para as organizações que tenham ainda não foram habilitadas para o serviço de presença unificada (UPS) não honram TeamsInteropPolicy (ChatDefaultClient) ou TeamsUpgradePolicy (modo). Como a conclusão da distribuição UPS sobre as próximas semanas, TeamsInteropPolicy ou TeamsUpgradePolicy será atendido. TeamsUpgradePolicy eventualmente somente será atendido.
 
 ## <a name="coexistence-modes"></a>Modos de coexistência
 
@@ -165,7 +164,7 @@ Use a seguinte sintaxe do cmdlet, onde $policy é um dos valores acima da identi
 
 ## <a name="federation-considerations"></a>Considerações de Federação
 
-A federação de equipes para outro usuário usando o Skype para negócios requer o usuário equipes hospedados online Skype para negócios. Federação está em piloto e progressivamente se tornar disponível. Se a organização exigir a federação, você não deve atualizar até que o suporte de Federação está em vigor. Eventualmente, as equipes que os usuários hospedados no Skype para negócios local será capazes de estabelecer uma federação com outros usuários de equipes.
+A federação de equipes para outro usuário usando o Skype para negócios requer o usuário equipes hospedados online Skype para negócios. Eventualmente, as equipes que os usuários hospedados no Skype para negócios local será capazes de estabelecer uma federação com outros usuários de equipes.
 
 Depois que o suporte à Federação é habilitado, TeamsUpgradePolicy (juntamente com TeamsInteropPolicy durante a transição) rege roteamento para chamadas e chats federados de entrada. Para facilitar a outras organizações que iniciam comunicações federadas com usuários em sua organização, é recomendável escolher um modo que especificamente roteia um para Skype para negócios ou equipes, em vez de ilhas.
 </br>
@@ -267,10 +266,6 @@ Com base nos comentários forte de toque em clientes e outros usuários iniciais
 |**STATUS**|Toque em clientes ver agora três modos em UX. o Admin Como suporte para alteração #1 territórios, modos adicionais serão disponibilizados. SfBOnly modo atualmente impede que usuários usem equipes, mas ela será no futuro. |
 |||
 
-## <a name="known-issues"></a>Problemas conhecidos
-
-- Ao criar novas conversas em equipes, bate-papos não ainda respeitam TeamsUpgradePolicy ou TeamsInteropPolicy do usuário de destino. Uma correção está planejada.
-- Ao criar novas conversas no Skype para os negócios, bate-papos não ainda respeitam TeamsUpgradePolicy ou TeamsInteropPolicy se a organização ainda não está habilitada para interoperabilidade UPS/mensagens.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

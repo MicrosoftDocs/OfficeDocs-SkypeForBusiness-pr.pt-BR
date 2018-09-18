@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2012322b4707d4f581e4a1ff3798674b976963a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
+ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892638"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998988"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -71,6 +71,7 @@ O suplemento de Reunião do Teams ainda está desenvolvendo funcionalidades, ent
 
 Se você não conseguir a reunião de equipes suplemento para Outlook a fim de instalar, tente essas etapas de solução de problemas.
 
+- Certifique-se de que tiverem sido aplicadas a todas as atualizações disponíveis para o cliente de desktop do Outlook 
 - Reinicie o cliente de área de trabalho de equipes.
 - Sair e entrar novamente para o cliente de desktop equipes.
 - Reinicie o cliente de desktop do Outlook. (Certifique-se de que o Outlook não está em execução no modo de admin.)
