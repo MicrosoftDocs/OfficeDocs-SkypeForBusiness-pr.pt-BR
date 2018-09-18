@@ -1,5 +1,5 @@
 ---
-title: Considerações e permissões de aplicativos do Microsoft Teams
+title: Permissões e considerações dos aplicativos Microsoft Teams
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
@@ -8,132 +8,132 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: lehewe
-description: Saiba o que estão solicitando permissões e dados de aplicativos da sua organização.
+description: Saiba que aplicativos de dados e permissões estão solicitando da sua organização.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: eb8a6b6785e3cc4bcbf65bceeb51bf650b63a830
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23883062"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Considerações e permissões de aplicativos do Microsoft Teams
+# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
-Aplicativos do Microsoft Teams são uma maneira agregar um ou mais recursos em um _pacote de aplicativos_ que podem ser instalados, atualizados e desinstalado. Os recursos incluem:
+Os aplicativos Microsoft Teams são uma forma de agregar um ou mais recursos em um _pacote de aplicativo_ que pode ser instalado, atualizado e desinstalado. Os recursos incluem:
 
 -   Bots
 -   Extensões de mensagens
 -   Guias
 -   Conectores
 
-Aplicativos são consentiu pelos usuários e gerenciados por IT de uma perspectiva de política. No entanto, na maioria das vezes, permissões e perfil de risco de um aplicativo são definidos pelas permissões e os perfis de risco dos recursos que ele contém. Portanto, este artigo concentra-se sobre permissões e considerações no nível do recurso.
+Os aplicativos são aceitos pelos usuários e gerenciados pela TI a partir de uma perspectiva política. No entanto, na maioria das vezes, as permissões e o perfil de risco de um aplicativo são definidos pelas permissões e perfis de risco dos recursos que ele contém. Assim, este artigo foca em permissões e considerações no nível de recurso.
 
-As permissões listadas a seguir em letras maiusculas, por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparecem em qualquer lugar na [documentação do desenvolvedor de equipes da Microsoft](https://aka.ms/teamsdevdocs) ou as [permissões para o Microsoft Graph](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). Eles são simplesmente uma descritiva abreviada para fins deste artigo.
+As permissões listadas abaixo em maiúsculas, por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparece em nenhum lugar da [documentação do desenvolvedor do Microsoft Teams](https://aka.ms/teamsdevdocs) nem no [Gráfico de permissões da Microsoft](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). São somente uma abreviação descritiva para o propósito deste artigo.
 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como guia para compreender quais permissões os aplicativos que você está investigando estão solicitando.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>O aplicativo de pesquisa ou serviço propriamente dito para decidir se deseja permitir acesso a ele dentro da sua organização. Por exemplo, bots enviar e receber mensagens de usuários, e — exceto bots de linha de negócios da empresa — eles estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclui um bot requer essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
+| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Use as tabelas abaixo como um guia para entender as permissões que os aplicativos que você está investigando estão solicitando.</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Pesquise o aplicativo ou serviço para decidir se você deseja permitir o acesso a ele na sua organização. Por exemplo, os bots enviam e recebem mensagens dos usuários e, com exceção dos bots corporativos de linha de negócios, estão localizados fora do limite de conformidade. Portanto, qualquer aplicativo que inclua um bot exige essas permissões e tem esse perfil de risco, no mínimo. </li></ul>|
 
-## <a name="global-app-permissions-and-considerations"></a>Considerações e as permissões globais do aplicativo
+## <a name="global-app-permissions-and-considerations"></a>Permissões e considerações globais para aplicativos
 
 <table>
   <tr>
-    <th width="25%">Permissões necessárias</th>
+    <th width="25%">Permissões obrigatórias</th>
     <th width="25%">Permissões opcionais</th>
     <th width="50%">Considerações</th>
   </tr>
   <tr>
     <td valign="top">Nenhum</td>
     <td valign="top">Nenhum</td>
-    <td valign="top">Um aplicativo deve divulgar quais dados ele usa e quais os dados são usados para em seus termos de uso e a privacidade links de política.</td>
+    <td valign="top">Os aplicativos devem divulgar que dados usam e que dados são usados nos links dos termos de uso e política de privacidade.</td>
   </tr>
 </table>
 
-## <a name="bots-and-messaging-extensions"></a>Extensões de mensagens e bots
+## <a name="bots-and-messaging-extensions"></a>Bots e extensões de mensagem
 
 <table>
  <thead>
   <tr>
     <th width="0.5%"></th>
-    <th width="24.5%">Permissões necessárias</th>
+    <th width="24.5%">Permissões obrigatórias</th>
     <th width="25%">Permissões opcionais</th>
     <th width="50%">Considerações</th>
   </tr>
 </thead>
 <tbody>
    <tr>
-    <td valign="top" colspan="2"><ul><li>   RECEIVE_MESSAGE, REPLYTO_MESSAGE. O bot pode receber mensagens de usuários e responder a eles. <sup>1</sup></li><li>POST_MESSAGE_USER. Depois que um usuário tiver enviado uma mensagem a um bot, o bot pode ser enviar em usuário diretas mensagens (também chamadas de _mensagens proativas_) a qualquer momento.</li><li>GET_CHANNEL_LIST. Bots adicionados às equipes pode obter uma lista de nomes e identificações dos canais em uma equipe.</li></ul></td>
-    <td valign="top"><ul><li>IDENTIDADE. Quando ela é usada em um canal, bots do aplicativo pode acessar informações de identidade básica de membros da equipe (nome, sobrenome, nome principal do usuário [UPN], endereço de email); Quando ela é usada em um bate-papo pessoal ou de grupo, o bot pode acessar as mesmas informações para os usuários.</li><li> POST_MESSAGE_TEAM. Permite bots de um aplicativo enviar mensagens de (proativas) diretas para qualquer membro da equipe a qualquer momento, mesmo que o usuário nunca tiver falaram para o bot antes.</li><li>O exemplo a seguir não é permissões explícitas, mas implicado RECEIVE_MESSAGE e REPLYTO_MESSAGE e os escopos nos quais os bots pode ser usados, declarado no manifesto: <ul><li>RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL</li><li>RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT<sup>2</sup> </li><li>RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM</li></ul><li>SEND_FILES, RECEIVE_FILES. Controles de <sup>3</sup> se um bot pode enviar e receber arquivos em bate-papo pessoal (ainda não é suportado para o chat de grupo ou canais).</li></ul></td>
-    <td valign="top"><ul><li>Bots só têm acesso às equipes para que eles tenha sido adicionados ou para usuários que instalaram-los.</li><li>Bots só receberão mensagens em que eles estiver explicitamente mencionados pelos usuários. Esses dados deixam a rede corporativa.</li><li>    Bots só pode responder a conversas nas quais eles estiver mencionados.</li><li>Depois que um usuário tem conversed com um bot, se o bot armazena a ID do usuário, ele pode enviar esse usuário diretas mensagens a qualquer momento. </li><li>Ele é teoricamente possível para que as mensagens bot contêm links para sites de phishing ou malware, mas bots poderão ser bloqueados pelo usuário, o administrador de locatário, ou globalmente pela Microsoft. </li><li>Um bot pode recuperar (e pode armazenar) informações básicas de identidade para os membros da equipe que o aplicativo foi adicionado ao ou para usuários individuais em bate-papos pessoais ou de grupo. Para obter mais informações sobre esses usuários, o bot deve requer que eles para entrar no Azure Active Directory (AD Azure). </li><li>Bots pode recuperar (e podem armazenar) na lista de canais em uma equipe; Esses dados deixam a rede corporativa. </li><li>Quando um arquivo é enviado para um bot, o arquivo deixa a rede corporativa. Enviando e recebendo arquivos requerem aprovação do usuário para cada arquivo. </li><li>Por padrão, bots não têm a capacidade de atuar em nome do usuário, mas bots pode solicitar aos usuários que entrar; Assim que o usuário entra no, o bot terá um token de acesso com os quais ele pode fazer as coisas adicionais. Exatamente o que esses fatores adicionais são depende do bot e onde o usuário entra no: um bot é um aplicativo do Windows Azure AD registrado na <a href="https://apps.dev.microsoft.com/">https://apps.dev.microsoft.com/</a> e pode ter seu próprio conjunto de permissões.</li><li>Bots for informados sempre que os usuários são adicionados ou excluídos da equipe.</li><li>Bots não verá endereços IP de usuários ou outras informações de referência. Todas as informações proveniente da Microsoft. (Há uma exceção: se um bot implementa sua própria experiência de entrada, a interface do usuário entrar verá informações de referência e endereços IP de usuários.)</li><li>Por outro lado, extensões de mensagens, consulte informações de referência e endereços IP de usuários.</li><li>Diretrizes de aplicativo (e o processo de revisão de nosso AppSource) exigem o critério em mensagens de chat pessoal de lançamento para os usuários (via a permissão POST_MESSAGE_TEAM) para fins de válido. No caso de mau uso, os usuários podem bloquear o bot, administradores de Inquilino podem bloquear o aplicativo e Microsoft pode bloquear bots centralmente se necessário.</li></ul></td>
+    <td valign="top" colspan="2"><ul><li>   RECEIVE_MESSAGE, REPLYTO_MESSAGE. O bot pode receber mensagens de usuários e responder a elas.<sup>1</sup></li><li>POST_MESSAGE_USER. Depois que um usuário envia uma mensagem para um bot, ele pode enviar mensagens diretas ao usuário (também chamadas de _mensagens proativas_) a qualquer momento.</li><li>GET_CHANNEL_LIST. Os bots adicionados às equipes podem obter uma lista de nomes e IDs dos canais de uma equipe.</li></ul></td>
+    <td valign="top"><ul><li>IDENTITY. Quando usados em um canal, os bots do aplicativo podem acessar informações básicas de identidade dos membros da equipe (nome, sobrenome, nome principal de usuário [UPN], endereço de e-mail); quando é usado em um bate-papo pessoal ou em grupo, o bot pode acessar as mesmas informações desses usuários.</li><li> POST_MESSAGE_TEAM. Permite que os bots do aplicativo enviem mensagens diretas (proativas) a qualquer membro da equipe, a qualquer momento, mesmo que o usuário nunca tenha falado com o bot antes.</li><li>O que segue não são permissões explícitas, mas estão implícitas em RECEIVE_MESSAGE e REPLYTO_MESSAGE e nos escopos nos quais os bots podem ser usados, declarados no manifesto: <ul><li>RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL</li><li>RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT<sup>2</sup> </li><li>RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM</li></ul><li>SEND_FILES, RECEIVE_FILES.<sup>3</sup> Controla se um bot pode enviar e receber arquivos no bate-papo pessoal (ainda sem suporte para bate-papo ou canais em grupo).</li></ul></td>
+    <td valign="top"><ul><li>Os bots só têm acesso às equipes às quais foram adicionados ou aos usuários que os instalaram.</li><li>Os bots só recebem mensagens nas quais são mencionados explicitamente pelos usuários. Esses dados saem da rede corporativa.</li><li>    Os bots só podem responder a conversas em que são mencionados.</li><li>Depois que um usuário tiver conversado com um bot, se o bot armazenar o ID do usuário, ele poderá enviar mensagens diretas ao usuário a qualquer momento. </li><li>Teoricamente, é possível que as mensagens do bot contenham links para sites de phishing ou malware, mas os bots podem ser bloqueados pelo usuário, pelo administrador do locatário ou globalmente pela Microsoft. </li><li>O bot pode recuperar (e pode armazenar) informações de identidade básicas dos membros da equipe aos quais o aplicativo foi adicionado ou de usuários individuais em bate-papos pessoais ou em grupo. Para obter mais informações sobre esses usuários, o bot deve solicitar que façam login no Azure Active Directory (Azure AD). </li><li>Os bots podem recuperar (e podem armazenar) a lista de canais de uma equipe; esses dados saem da rede corporativa. </li><li>Quando um arquivo é enviado para um bot, o arquivo sai da rede corporativa. O envio e o recebimento de arquivos requer a aprovação do usuário para cada arquivo. </li><li>Por padrão, os bots não têm a capacidade de agir em nome do usuário, mas podem solicitar que os usuários façam login; quando o usuário faz login, o bot obtém um token de acesso com o qual pode fazer outras coisas. O que essas outras coisas são exatamente depende do bot e de onde o usuário faz login: um bot é um aplicativo do Azure AD registrado em <a href="https://apps.dev.microsoft.com/">https://apps.dev.microsoft.com/</a> e pode ter o seu próprio conjunto de permissões.</li><li>Os bots são informados sempre que usuários são adicionados ou excluídos de uma equipe.</li><li>Os bots não veem o endereço IP nem nenhuma informação referenciadora dos usuários. Todas as informações vêm da Microsoft. (Há uma exceção: se um bot implementa sua própria experiência de login, a IU de login verá o endereço IP e informações referenciadoras dos usuários.)</li><li>Por outro lado, as extensões de mensagem veem o endereço IP e informações referenciadoras dos usuários.</li><li>As diretrizes do aplicativo (e nosso processo de avaliação do AppSource) requerem discrição do usuário ao publicar mensagens de bate-papo pessoal (por meio da permissão POST_MESSAGE_TEAM) para fins válidos. No caso de abuso, os usuários podem bloquear o bot, os administradores do locatário podem bloquear o aplicativo e a Microsoft pode bloquear os bots centralmente, se necessário.</li></ul></td>
 </tr>
 </tbody>
 <tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3">Alguns bots só enviam mensagens (POST_MESSAGE_USER). São chamados "somente notificação" bots, mas o termo não se referir a um bot que é permitido ou não é permitido fazer, isso significa que o bot não deseja expor uma experiência de conversa. As equipes usa esse campo para desabilitar a funcionalidade na interface de usuário que normalmente seria habilitado; o bot não é restrito no qual ele permitiu fazer em comparação com bots que expõem uma experiência de conversa.</td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3">No momento na visualização do desenvolvedor.</td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">No momento na visualização do desenvolvedor. Governado pelo <code>supportsFiles</code> propriedade booleana no objeto bot no arquivo manifest.json para o aplicativo.</td>
+<tr><td align="right"><sup>1</sup></td><td colspan="3">Alguns bots só enviam mensagens (POST_MESSAGE_USER). Eles são chamados de bots “somente notificação”, mas o termo não se refere ao que um bot tem permissão ou não para fazer; isso significa que o bot não quer expor uma experiência de conversação. O Teams usa esse campo para desativar a funcionalidade na IU que normalmente estaria ativada; o bot não tem restrição ao que é permitido fazer em comparação com bots que expõem uma experiência de conversação.</td></tr>
+<tr><td align="right"><sup>2</sup></td><td colspan="3">Atualmente na previsualização do desenvolvedor.</td></tr>
+<tr><td align="right"><sup>3</sup></td><td colspan="3">Atualmente na previsualização do desenvolvedor. Regido pela propriedade booleana <code>supportsFiles</code> no objeto do bot, no arquivo manifest.json do aplicativo.</td>
 </tr>
 </tfoot>
 </table>
 
 > [!Note]
-> <ul><li>Se um bot tem seu próprio entrar, há um segundo — diferentes — experiência de consentimento na primeira vez em que o usuário entra no.</li><li>Atualmente, as permissões do Azure AD associadas a qualquer um dos recursos dentro de um aplicativo de equipes (bot, guia, conector ou extensão de mensagens) são totalmente separadas as permissões de equipes listadas aqui.</li></ul>
+> <ul><li>Se o bot tiver seu próprio login, haverá uma segunda experiência de consentimento diferente na primeira vez em que o usuário fizer login.</li><li>No momento, as permissões do Azure AD associadas a qualquer um dos recursos dentro de um aplicativo Teams (bot, guia, conector ou extensão de mensagem) são completamente separadas das permissões do Teams listadas aqui.</li></ul>
 
 
 ## <a name="tabs"></a>Guias
 
-Uma guia é um site executando dentro de equipes.
+Uma guia é um site sendo executado dentro do Teams.
 
 <table>
   <tr>
-    <th width="25%">Permissões necessárias</th>
+    <th width="25%">Permissões obrigatórias</th>
     <th width="25%">Permissões opcionais</th>
     <th width="50%">Considerações</th>
   </tr>
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
-    <td valign="top">Nenhum (atualmente).</td>
-    <td valign="top"><ul><li>O perfil de risco para uma guia é quase idêntico ao mesmo site executando em uma guia de navegador. </li><li>Uma guia também obtém o contexto no qual ele estiver em execução, incluindo o nome de entrada e ID de UPN do usuário atual, o objeto do Windows Azure AD para o usuário atual, a ID do Office 365 grupo (equipe) no qual ele reside, a ID do inquilino e o local atual do usuário. No entanto, para mapear essas IDs para informações de um usuário, na guia teria que tornar o usuário entrar no Azure AD.</li></ul></td>
+    <td valign="top">Nenhuma (no momento).</td>
+    <td valign="top"><ul><li>O perfil de risco de uma guia é quase idêntico ao mesmo site sendo executado em uma guia do navegador. </li><li>Uma guia também obtém o contexto no qual está sendo executada, incluindo o nome login e o UPN do usuário atual, o ID do Objeto do Azure AD do usuário atual, o ID do Grupo do Office 365 (equipe) em que reside, o ID do locatário e a localidade atual do usuário. Entretanto, para mapear esses IDs para as informações de um usuário, a guia precisa que o usuário faça login no Azure AD.</li></ul></td>
   </tr>
   </table>
 
 ## <a name="connectors"></a>Conectores
 
-Um conector posta mensagens a um canal de ocorrências de eventos em um sistema externo.
+Um conector envia mensagens para um canal quando ocorrem eventos em um sistema externo.
 
   <table>
   <tr>
-    <th width="25%">Permissões necessárias</th>
+    <th width="25%">Permissões obrigatórias</th>
     <th width="25%">Permissões opcionais</th>
     <th width="50%">Considerações</th>
   </tr>
   <tr>
     <td valign="top">POST_MESSAGE_CHANNEL</td>
-    <td valign="top">REPLYTO_CONNECTOR_MESSAGE. Determinadas conectores suportam a _mensagens acionáveis_, que permitem aos usuários postar respostas direcionadas à mensagem conector, por exemplo, adicionando uma resposta para um problema de GitHub ou uma data em um cartão de Trello.</td>
-    <td valign="top"><ul><li>O sistema que posta mensagens conector não sabe que ele é postar ou quem recebe as mensagens: nenhuma informação sobre o destinatário está divulgada. (Microsoft é o destinatário real, não o locatário; A Microsoft faz a postagem real ao canal.)</li><li>Nenhum dado deixa a rede corporativa quando mensagens do conector são lançadas em um canal.</li><li>Conectores que oferecem suporte a mensagens acionáveis (permissão REPLYTO_CONNECTOR_MESSAGE) não veja informações de referência e o endereço IP; Essas informações são enviadas à Microsoft e encaminhadas aos pontos de extremidade HTTP que foram registrados anteriormente com a Microsoft no portal de conectores.</li><li>Toda vez que um conector está configurado para um canal, uma URL exclusiva para essa instância do conector é criada. Se essa instância do conector é excluída, a URL não possa mais ser usada.</li><li>Mensagens do conector não podem conter anexos de arquivo.</li><li>A instância do conector URL deve ser tratado como segredo/confidencial: qualquer pessoa que tenha que URL pode postar a ele, como um endereço de email. Portanto, não há algum risco de spam ou links para sites de phishing ou malware. Se que acontecer, os proprietários de equipe podem excluir a instância do conector.</li><li>Se o serviço que envia mensagens de conector foram ficar comprometida e iniciar o envio de spam/phishing/malware links, um administrador de inquilino pode impedir que novas instâncias do conector seja criado e a Microsoft poderá bloqueá-la centralmente.</li></ul></td>
+    <td valign="top">REPLYTO_CONNECTOR_MESSAGE. Alguns conectores têm suporte para _mensagens acionáveis_, que permitem que os usuários postem respostas direcionadas à mensagem do conector, por exemplo, adicionando uma resposta a um problema do GitHub ou adicionando uma data a um cartão Trello.</td>
+    <td valign="top"><ul><li>O sistema que posta as mensagens do conector não sabe quem está postando nem quem recebe as mensagens: nenhuma informação sobre o destinatário é revelada. (A Microsoft é o destinatário real, não o locatário; a Microsoft faz a postagem real para o canal.)</li><li>Nenhum dado sai da rede corporativa quando as mensagens do conector são postadas em um canal.</li><li>Conectores que têm suporte para mensagens acionáveis (permissão REPLYTO_CONNECTOR_MESSAGE) também não veem informações sobre o endereço IP e informações referenciadoras; essas informações são enviadas para a Microsoft e, em seguida, roteadas para pontos de extremidade HTTP previamente registrados com a Microsoft no portal de Conectores.</li><li>Cada vez que um conector é configurado para um canal, é criada uma URL exclusiva para essa instância do conector. Se essa instância do conector for excluída, a URL não poderá mais ser usada.</li><li>As mensagens do conector não podem conter arquivos anexados.</li><li>A URL da instância do conector deve ser tratada como secreta/confidencial: qualquer pessoa que tenha essa URL pode enviar a ele, como um endereço de e-mail. Portanto, existe um certo risco de spam ou links para sites de phishing ou malware. Se isso acontecer, os proprietários da equipe podem excluir a instância do conector.</li><li>Se o serviço que envia as mensagens do conector ficar comprometido e começar a enviar links de spam/phishing/malware, o administrador do locatário poderá impedir que novas instâncias sejam criadas e a Microsoft poderá bloqueá-las centralmente.</li></ul></td>
   </tr>
 </table>
 
 > [!Note]
-> Não é possível atualmente saber quais conectores suportam a mensagens acionáveis (permissão REPLYTO_CONNECTOR_MESSAGE).
+> No momento, não é possível saber quais conectores têm suporte para mensagens acionáveis (permissão REPLYTO_CONNECTOR_MESSAGE).
 
 
-## <a name="outgoing-webhooks"></a>Saída webhooks
+## <a name="outgoing-webhooks"></a>Webhooks de saída
 
-_Webhooks de saída_ são criados dinamicamente por proprietários de equipe ou membros da equipe se sideloading estiver habilitado para um inquilino. Eles não são recursos de aplicativos de equipes; Essa informação é incluída para preservar a integridade.
+_Webhooks de saída_ são criados na hora pelos proprietários ou membros da equipe se o sideloading está habilitado para um locatário. Não são recursos dos aplicativos Teams; essa informação está incluída para fins de completude.
 
 <table>
   <tr>
-    <th width="25%">Permissões necessárias</th>
+    <th width="25%">Permissões obrigatórias</th>
     <th width="25%">Permissões opcionais</th>
     <th width="50%">Considerações</th>
   </tr>
     <tr>
     <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Pode receber mensagens de usuários e responder a eles.</td>
     <td valign="top">Nenhum</td>
-    <td valign="top"><ul><li>Webhooks de saída são semelhantes às bots, mas têm menos privilégios. Eles devem ser explicitamente mencionados, assim como bots.</li><li>Quando uma saída webhook é registrado, um _segredo_ é gerado, que permite a saída webhook verificar se o remetente está Teams da Microsoft em vez de um invasor mal-intencionado. Esse segredo deve permanecer em segredo; qualquer pessoa que tenha acesso a ele pode representar Teams da Microsoft. Se o segredo for comprometido, a saída webhook pode ser excluído e recriado e será gerado um novo segredo.</li><li>Embora seja possível criar um webhook de saída que não valida o segredo, é recomendável em relação a ele.</li><li>Diferente de receber e responder às mensagens, webhooks de saída não podem fazer muito: proativamente, eles não podem enviar mensagens, eles não podem enviar ou receber arquivos, eles não podem fazer qualquer outra coisa que bots pode exceto receber e responder a mensagens.</li></ul></td>
+    <td valign="top"><ul><li>Os webhooks de saída são semelhantes aos bots, mas possuem menos privilégios. Eles devem ser mencionados explicitamente, assim como bots.</li><li>Quando um webhook de saída é registrado, é gerado um _segredo_ que permite que ele verifique se o remetente é o Microsoft Teams, e não um invasor mal-intencionado. O segredo deve permanecer um segredo; qualquer pessoa que tenha acesso a ele, pode se passar pelo Microsoft Teams. Se o segredo for comprometido, o webhook de saída poderá ser excluído e criado novamente, e um novo segredo será gerado.</li><li>Embora seja possível criar um webhook de saída que não valide o segredo, não o recomendamos.</li><li>Além de receber e responder mensagens, os webhooks de saída não podem fazer muito: eles não podem enviar mensagens proativamente, não podem enviar nem receber arquivos, não podem fazer mais nada que os bots podem fazer, exceto receber e responder mensagens.</li></ul></td>
   </tr>
 </table>

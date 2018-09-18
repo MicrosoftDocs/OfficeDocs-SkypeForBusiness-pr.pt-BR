@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 56033a3efc5e163ddd67f6f45bff590204c03783
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882079"
@@ -47,7 +47,7 @@ Assista a este vídeo com orientações simples que devem ser consideradas quand
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Se Teams da Microsoft não está habilitada no seu locatário do Office 365 e você for um administrador execute do Office 365 as instruções em nosso artigo [Gerenciar o acesso de usuário às equipes](user-access.md) para garantir que os usuários têm acesso ao aplicativo.
+Caso o Microsoft Teams não esteja habilitado no seu locatário do Office 365 e você seja um administrador do Office 365, siga as instruções do nosso artigo [Gerenciar o acesso do usuário no Teams](user-access.md) para garantir que os usuários tenham acesso ao aplicativo.
 
 ## <a name="step-3-complete-technical-planning"></a>Etapa 3: Faça o planejamento técnico
 

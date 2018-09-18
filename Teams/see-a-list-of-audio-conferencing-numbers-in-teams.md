@@ -1,5 +1,5 @@
 ---
-title: Ver uma lista de números de conferência de áudio no Microsoft Teams
+title: Ver uma lista de números de audioconferência no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,23 +19,23 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Saiba como procurar seus números de conferência discada de dentro do Microsoft Teams. '
+description: 'Saiba como procurar seus números de conferência de discagem de entrada no Microsoft Teams. '
 ms.openlocfilehash: 2690d446b181ed3fe634c805f93c2aa09396dffe
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23887413"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de conferência de áudio no Microsoft Teams
+# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de audioconferência no Microsoft Teams
 
-Quando você configura serviços de audioconferência para usuários de Teams da Microsoft, você pode exibir os números de telefone disponíveis para acessá-los para serviços de audioconferência. Esta lista terá que todos os números de telefone de conferência de áudio que estão disponíveis para sua organização.
+Ao configurar os usuários de audioconferência para o Microsoft Teams, é possível visualizar os números de telefone que estão disponíveis para uso na audioconferência. A lista terá todos os números de telefone de audioconferência disponíveis para sua organização.
   
- **Quer saber os preços?** Consulte [os preços dos serviços de audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+ **Deseja saber os preços?** Consulte [Preços da Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
-Se houver somente um número de telefone disponível para sua organização, ele será usado como número padrão para todos os seus usuários. Quando vários números de telefone estiverem disponíveis, você pode selecionar o número de telefone padrão para cada usuário. Esse número padrão será incluído em convites para reunião Teams da Microsoft.
+Se houver somente um número de telefone disponível para sua organização, ele será usado como número padrão para todos os seus usuários. Quando vários números de telefone estão disponíveis, você pode selecionar o número de telefone padrão de cada usuário. O número padrão será incluído nos convites de reunião do Microsoft Teams.
   
-Você pode ver a [definir o telefone convidam números incluídos em](set-the-phone-numbers-included-on-invites-in-teams.md) para alterar o número de telefone de discagem de um único usuário.
+Consulte [Definir os números de telefone incluídos no convite](set-the-phone-numbers-included-on-invites-in-teams.md) para alterar o número de telefone de discagem para um único usuário.
   
 > [!NOTE]
 > [!OBSERVAçãO] Números de discagem locais são dedicados à sua organização e são os únicos que podem ser definidos como números de telefone padrão. No entanto, números de discagem internacionais podem ser compartilhados entre várias organizações. 
@@ -43,14 +43,14 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para exibir seus números de telefone de conferência de áudio
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver seus números de telefone de audioconferência
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **pontes de conferência**. 
-2.  Exiba os números de telefone disponíveis para conferência de áudio.
+1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
+2.  Visualize os números de telefone disponíveis para audioconferência.
 
-- Também é possível exibir o local e o idioma principal que será usado pelo atendedor automático de conferência de áudio.
+- Você também pode visualizar a localização e o idioma primário que será usado pelo atendedor automático da audioconferência.
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
     
@@ -58,7 +58,7 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obter mais informações sobre o Windows PowerShell, consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

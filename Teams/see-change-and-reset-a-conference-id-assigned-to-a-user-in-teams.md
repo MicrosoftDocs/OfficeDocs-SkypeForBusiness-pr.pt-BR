@@ -1,5 +1,5 @@
 ---
-title: Consulte, alterar e redefinir uma ID de conferência atribuída a um usuário no Microsoft Teams
+title: Consultar, alterar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,19 +19,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Saiba como atribuir uma ID de conferência para um usuário no Microsoft Teams e que a conferência IDs parâmetros deveria. '
+description: 'Saiba como atribuir um ID de conferência a um usuário no Microsoft Teams e quais devem ser os parâmetros do ID de conferência. '
 ms.openlocfilehash: d0ee177fbbe286cc68c45e1c41f391b52c44291e
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/08/2018
 ms.locfileid: "23892029"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Microsoft Teams
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
 
-Uma ID de conferência é automaticamente atribuída a um usuário do Microsoft Teams quando eles estiverem configurados para conferência de áudio no Office 365 e usarem o Microsoft como um provedor de serviços de audioconferência. A ID de conferência atribuída é enviada no convite da reunião, quando a reunião foi agendada. Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas. 
+Um ID de conferência é atribuído automaticamente a um usuário do Microsoft Teams quando ele está configurado para audioconferência no Office 365 e usa a Microsoft como o provedor de audioconferência. O ID de conferência atribuído é enviado no convite da reunião quando ela é agendada. Cada reunião agendada por um usuário terá um ID de conferência exclusivo atribuído. 
   
-Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número, ou quando os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. Você pode usar o Centro de administração do Microsoft Teams ou o Windows PowerShell para exibir, alterar e redefinir a sua ID de conferência.
+Ainda que um ID de conferência seja automaticamente criado e atribuído ao usuário, poderá haver momentos em que o usuário não desejará usá-lo ou você desejará defini-lo como um número específico, ou quando os usuários se esquecem ou pedem o ID de conferência. É possível usar o centro de administração do Microsoft Teams ou o Windows PowerShell para visualizar, alterar e redefinir o ID de conferência.
   
 Um e-mail será enviado ao usuário com a ID da conferência e os números de telefone da audioconferência padrão ou, se você redefinir a ID da conferência, será enviado um e-mail diferente que incluirá a ID da conferência, mas não um PIN. Para obter mais informações sobre como redefinir o PIN do organizador da conferência, [acesse aqui](reset-a-conference-id-for-a-user-in-teams.md). 
 
@@ -40,55 +40,55 @@ Um e-mail será enviado ao usuário com a ID da conferência e os números de te
   
 ## <a name="view-and-reset-conference-ids"></a>Visualizar e redefinir as IDs de conferências
 
-### <a name="to-view-the-conference-id"></a>Para exibir a ID de conferência
+### <a name="to-view-the-conference-id"></a>Para visualizar o ID de conferência
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Usar o centro de administração do Microsoft Teams e do Skype para Business:**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Na parte superior da página, clique em **Editar**.
+2. No topo da página, clique em **Editar**.
 
-3. Em **Conferência de áudio**, procure em **ID da conferência**.
+3. Em **Audioconferência**, veja **ID de conferência**.
 
     > [!TIP]
-    > Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de áudio clicando no link **Enviar informações de conferência no email** .
+    > É possível enviar todas as informações da conferência para o usuário em um e-mail que contém o ID de conferência e os números de telefone de áudio, clicando em **Enviar informações da conferência por e-mail**.
   
-**Usando o Windows PowerShell**
+**Usar o Windows PowerShell**
 
-Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
     
   
 ### <a name="to-reset-the-conference-id"></a>Para redefinir o ID de conferência
 
-É possível redefinir uma ID de conferência para um usuário se, por exemplo, ele a esquecer.
+É possível redefinir o ID de conferência para um usuário se ele esquecer o ID, por exemplo.
   
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+![teams-logo-30x30.png](media/teams-logo-30x30.png) **Usar o centro de administração do Microsoft Teams e do Skype para Business:**
 
-1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
 
-2. Na parte superior da página, clique em **Editar**.
+2. No topo da página, clique em **Editar**.
 
-3. Em **Conferência de áudio**, clique em **Redefinir ID de conferência**.
+3. Em **Audio conferência**, clique em **Redefinir ID de conferência**.
 
-4. Na janela **Redefinir ID de conferência** , clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. Na janela **Redefinir ID de conferência**, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um e-mail será enviado ao usuário com o novo ID de conferência.
   
-**Usando o Windows PowerShell**
+**Usar o Windows PowerShell**
 
-Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
 
 
-## <a name="what-else-should-you-know"></a>O que mais você deve saber?
+## <a name="what-else-should-you-know"></a>O que mais você precisa saber?
 
    > [!IMPORTANT]
-   >  Depois que uma nova ID de conferência é criada ou um é redefinido, o ID de conferência antigos não pode ser usado por chamadores. Você deve notificar aos usuários para reagendarem suas reuniões existentes para garantir que a nova ID de conferência seja incluída nos convites. 
+   >  Depois que o ID de conferência é redefinido ou um novo é criado, o ID antigo não pode ser usado pelos chamadores. Você deve notificar os usuários para que reagendem suas reuniões existentes para garantir que o novo ID de conferência seja incluído nos convites. 
   
     
-- A ID de conferência deve atender a duração em dígitos, defina a ponte de conferência de áudio. Você não pode usar caracteres alfabéticos ou especiais de conferência IDs; somente números podem ser usados.
+- O ID de conferência deve seguir o comprimento em dígitos definido na ponte de audioconferência. Não é possível usar letras e caracteres especiais nos IDs de conferência, somente números.
     
-- O ID de conferência para todos os usuários de serviços de audioconferência será 7 dígitos por padrão, e o número de dígitos não pode ser alterado.
+- O ID de conferência de todos os seus usuários de audioconferência deve ter sete dígitos por padrão; o número de dígitos não pode ser alterado.
     
     
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
     
@@ -96,7 +96,7 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obter mais informações sobre o Windows PowerShell, consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 

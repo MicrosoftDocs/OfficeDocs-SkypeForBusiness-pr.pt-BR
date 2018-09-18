@@ -1,5 +1,5 @@
 ---
-title: Definir o tamanho PIN para reuniões de conferência de áudio no Microsoft Teams
+title: Definir o tamanho do PIN para reuniões de Audioconferência no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,45 +19,45 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Saiba os parâmetros para o comprimento e os requisitos de PIN e veja como definir o tamanho para reuniões no Microsoft Teams.
+description: Conheça os parâmetros de tamanho e os requisitos de um PIN e veja como definir o tamanho para reuniões no Microsoft Teams.
 ms.openlocfilehash: 0300bba9139bdf98315b8af4200dd729ff6e70a1
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882987"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Definir o tamanho PIN para reuniões de conferência de áudio no Microsoft Teams
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Definir o tamanho do PIN para reuniões de Audioconferência no Microsoft Teams
 
-Quando você estiver configurando a audioconferência for Microsoft Teams, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído em convites de reunião para o aplicativo Microsoft Teams.
+Quando você estiver configurando a audioconferência para o Microsoft Teams, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído nos convites da reunião para o aplicativo Microsoft Teams.
   
-A ponte de conferência de áudio atende uma chamada para pessoas que estão discando para uma reunião usando um telefone. Ela atende do chamador com prompts de voz de um atendedor automático e em seguida, dependendo de suas definições, pode reproduzir notificações e será feita aos chamadores a registrar seu nome. **Configurações de ponte da Microsoft** permitem que você alterar as configurações de notificações de reunião e experiência de ingresso na reunião e definir o tamanho dos pinos que são usados pelo organizadores de reunião. Organizadores de reunião usam PINs para iniciar reuniões, se eles não podem ingressar na reunião usando o app Teams da Microsoft.
+A ponte de audioconferência atende uma chamada feita por uma pessoa que discou para uma reunião utilizando um telefone. Ela atende o chamador com comandos de voz de um atendedor automático e, dependendo das suas configurações, pode reproduzir notificações e pedir para o chamador gravar o nome dele. As **configurações de ponte da Microsoft** permitem que você altere as configurações de notificação da reunião e a experiência de participação da reunião, além de definir o tamanho dos PINs usados pelos organizadores da reunião. Os organizadores da reunião usam PINs para iniciar reuniões se não conseguem entrar usando o aplicativo Microsoft Teams.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-2. Na parte superior da página **Pontes de conferência** , clique em **Configurações de ponte**. 
+2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
 
-3. No painel de **configurações de ponte** , em **tamanho do PIN**, selecione o número de dígitos que você deseja para o PIN.
+3. No painel **Configurações da ponte**, em **tamanho do PIN**, selecione o número de dígitos que deseja para o PIN.
 
 4. Clique em **Salvar**.
 
 > [!NOTE]
 > [!OBSERVAçãO] Um PIN é diferente de um ID de conferência. IDs de conferência são usados pelos chamadores quando eles participam da reunião. São usados para identificar a reunião. O PIN é usado para autenticar um chamador como organizador da reunião. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>Quer saber mais sobre configurações de PIN?
+## <a name="want-to-know-more-about-pin-settings"></a>Deseja saber mais sobre as configurações de PIN?
 
-- PINs podem ter entre 4 para 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
+- Os PINs podem ter de 4 a 12 dígitos, o padrão é 5. São usados somente números para criar PINs. Letras e caracteres especiais não são usados.
     
-- Um PIN só é necessária para o organizador da reunião quando um usuário do Microsoft Teams já não tiver iniciado a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador começar a reunião.
+- Um PIN só é necessário para o organizador da reunião quando o usuário do Microsoft Teams ainda não tiver iniciado a reunião. Se todos entrarem na reunião com discagem, o PIN é necessário para o organizador iniciar a reunião.
     
 - As configurações de segurança do PIN são aplicadas a todos os números de telefone associados a uma ponte da Microsoft. Elas serão aplicadas a todas as reuniões que usam os números de telefone associados a determinada ponte. 
     
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:
     
@@ -65,7 +65,7 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-Para obter mais informações sobre o Windows PowerShell, consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
     
   
 ## <a name="related-topics"></a>Tópicos relacionados

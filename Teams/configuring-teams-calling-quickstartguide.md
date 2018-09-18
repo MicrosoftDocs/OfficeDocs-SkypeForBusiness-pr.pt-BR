@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
 ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/07/2018
 ms.locfileid: "23882094"
@@ -35,25 +35,25 @@ Com a inclusão dos Planos de Chamadas, um recurso do Office 365 acionado pelo S
 ![Fazendo chamadas no Microsoft Teams](media/Calling_in_Teams.png)
 
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilitar a guia **Chamadas** no Microsoft Teams
-Para habilitar a guia **Chamadas** no Microsoft Teams e permitir que os usuários façam e recebam chamadas PSTN, será necessário provisionar os usuários para o Sistema de Telefonia e os Planos de Chamadas. Para saber como configurar isso, leia [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
+Para habilitar a guia **Chamadas** no Microsoft Teams e permitir que os usuários façam e recebam chamadas PSTN, será necessário provisionar os usuários para o Sistema de Telefonia e os Planos de Chamadas. Para saber como configurar, leia [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
 
-## <a name="teams-interop-policy-configuration"></a>Configuração da política de interoperabilidade do Microsoft Teams
-Para permitir que equipes começar a receber chamadas, você precisará atualizar a política de atualização de equipes e política de interoperabilidade de equipes, usando [as equipes da Microsoft & Skype para Business Admin Center](https://aka.ms/teamsadmincenter) ou usando uma sessão remota do Windows PowerShell com o Skype para negócios [ `*-CsTeamsUpgradePolicy`e `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirecionar chamadas para equipes.
+## <a name="teams-interop-policy-configuration"></a>Configuração da política de interoperabilidade do Teams
+Para permitir que o Teams comece a receber chamadas, você precisa atualizar a política de atualização do Teams e a política de interoperabilidade do Teams usando o [Centro de Administração do Microsoft Teams e do Skype for Business](https://aka.ms/teamsadmincenter) ou uma sessão remota do Windows PowerShell com os cmdlets do Skype for Business [`*-CsTeamsUpgradePolicy` e do `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) para redirecionar chamadas ao Teams.
 
-Para obter mais informações sobre a política de atualização de equipes e política de interoperabilidade de equipes, consulte [migração e orientações de interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
+Para obter mais informações sobre a política de atualização do Teams e a política de interoperabilidade do Teams, consulte [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
 > [!TIP]
-> Para localizar os cmdlets do PowerShell que você precisa, digite "CsTeamsUpgradePolicy" ou "CsTeamsInteropPolicy" na caixa **filtro** no [Skype para documentação de cmdlet do PowerShell de negócios](https://docs.microsoft.com/powershell/module/skype).
+> Para encontrar os cmdlets do PowerShell necessários, digite “CsTeamsUpgradePolicy” ou “CsTeamsInteropPolicy” na caixa **Filtrar** na [documentação de cmdlets do PowerShell para o Skype for Business](https://docs.microsoft.com/powershell/module/skype).
 
-### <a name="default-teams-upgrade-and-interop-policies"></a>Padrão às equipes políticas de atualização e interoperabilidade
-O Microsoft Teams tem uma configuração de política padrão criada para garantir que os fluxos de trabalho de negócios existentes não sejam interrompidos durante a implantação do Microsoft Teams. Por padrão, as chamadas VoIP, PSTN e federadas para seus usuários continuarão sendo encaminhadas para o Skype for Business até que você atualize a política para habilitar as chamadas de entrada para o Microsoft Teams. Isso garante que não haja interrupções involuntárias nos serviços de voz quando você começa a testar e implantar o Microsoft Teams.
+### <a name="default-teams-upgrade-and-interop-policies"></a>Políticas de interoperabilidade e atualização padrão do Teams
+O Teams tem uma configuração de política padrão criada para garantir que os fluxos de trabalho de negócios existentes não sejam interrompidos durante a implantação do Teams. Por padrão, as chamadas VoIP, PSTN e federadas para seus usuários continuarão sendo encaminhadas para o Skype for Business até que você atualize a política para habilitar as chamadas de entrada para o Microsoft Teams. Isso garante que não haja interrupções involuntárias nos serviços de voz quando você começa a testar e implantar o Teams.
 
-As equipes de política de atualização por padrão é mantida em modo herdado que aceita a diretiva de interoperabilidade de equipes para determinar onde bate-papos e chamadas devem ser roteadas – equipes ou Skype para negócios.
+Por padrão, a política de atualização do Teams é mantida no modo herdado que honrará a política de interoperabilidade do Teams para determinar onde os bate-papos e as chamadas devem ser encaminhados: Teams ou Skype for Business.
 
 > [!NOTE]
-> Os comportamentos de equipes atualizar a política e política de interoperabilidade de equipes em breve será alterada conforme descrito na [migração e orientações de interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+> Os comportamentos da política de atualização do Teams e da política de interoperabilidade do Teams serão alterados em breve, conforme descrito em [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-A política de interoperabilidade do Microsoft Teams tem a seguinte configuração padrão:
+A política de interoperabilidade do Teams tem a seguinte configuração padrão:
 
     Identity                   : Global
     AllowEndUserClientOverride : False
@@ -67,34 +67,34 @@ Por padrão, o comportamento da configuração padrão inclui:
 > [!NOTE]
 > A guia Chamadas estará habilitada no Microsoft Teams para os usuários que foram provisionados com licenças do Sistema de Telefonia e de Planos de Chamadas para uso com o Skype for Business Online e que têm configurada a política de interoperabilidade global padrão do Microsoft Teams, e eles poderão fazer chamadas PSTN de saída no Microsoft Teams sem a necessidade de qualquer ação por parte dos administradores.
 
-## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Configuração do Microsoft Teams para receber chamadas PSTN de entrada
-Para receber chamadas de PSTN de entrada em equipes, você precisará configurar equipes como o aplicativo de chamada pela aplicação da diretiva de atualização de equipes com a política de interoperabilidade de equipes correspondente que define o padrão `CallingDefaultClient` parâmetro às equipes.
+## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Configuração do Teams para receber chamadas PSTN de entrada
+Para receber chamadas PSTN de entrada no Teams, é necessário configurar o Teams como aplicativo de chamadas padrão, aplicando a política de atualização do Teams com a política de interoperabilidade do Teams correspondente que define o parâmetro `CallingDefaultClient` para o Teams.
 
 > [!IMPORTANT]
 > Recomendamos aplicar essa configuração a um conjunto inicial de usuários para explorar as incríveis novas funcionalidades de chamadas do Microsoft Teams antes de fazer alterações mais abrangentes ou em toda a organização.
 
-Se você escolher continuar a usar a política de atualização de equipes herdada, use a diretiva de interoperabilidade de equipes pré-configurado seguinte para rotear chamadas de entrada PSTN às equipes:
+Se você optar por continuar a usar a política de atualização herdada do Teams, use a seguinte política de interoperabilidade do Teams pré-configurada para rotear chamadas PSTN de entrada para o Teams:
 
     Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
     AllowEndUserClientOverride : False
     CallingDefaultClient       : Teams
     ChatDefaultClient          : Teams
 
-Se você optar por usar a diretiva de atualização de equipes atualizada, você precisará atribuir o modo de TeamsOnly para seus usuários.
+Se você optar por usar a política de atualização do Teams atualizada, será necessário atribuir o modo TeamsOnly aos usuários.
 
-O comportamento da política acima inclui:
-* **Para os clientes existentes do Skype for Business**, esta política tem como objetivo redirecionar as chamadas de entrada para o Microsoft Teams. Isso inclui chamadas VoIP (do Microsoft Teams e do Skype for Business) e PSTN. 
-* **Para os clientes que não têm o Skype for Business**, quando em vigor, as chamadas PSTN serão recebidas no Microsoft Teams.
+Os comportamentos da política acima são os seguintes:
+* **Para os clientes existentes do Skype for Business**, esta política tem como objetivo redirecionar as chamadas de entrada para o Microsoft Teams. Isso inclui chamadas VoIP (do Teams e do Skype for Business) e chamadas PSTN. 
+* **Para os clientes que não têm o Skype for Business**, quando em vigor, as chamadas PSTN serão recebidas no Teams.
 
 > [!WARNING]
-> No momento, a alteração de `CallingDefaultClient` para o Microsoft Teams também afeta as chamadas para telefones IP do Skype for Business. As chamadas de entrada não serão recebidas em telefones e vão tocar somente nos clientes do Microsoft Teams. Consulte o [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) para obter informações sobre o suporte para telefones SIP certificados existentes.
+> No momento, a alteração de `CallingDefaultClient` para o Teams também afeta as chamadas para telefones IP do Skype for Business. As chamadas de entrada não serão recebidas em telefones e vão tocar somente nos clientes do Microsoft Teams. Consulte o [Roteiro de recursos do Skype for Business para o Microsoft Teams](https://aka.ms/skype2teamsroadmap) para obter informações sobre o suporte para telefones SIP certificados existentes.
 
-### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Como configurar usuários para PSTN de receber chamadas em equipes
-Ao usar a política de atualização de equipes herdada, aplica a política de interoperabilidade de equipes, conforme descrito acima via Skype para a sessão do Windows PowerShell remoto de negócios para redirecionar chamadas às equipes:
+### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Como configurar os usuários para receber chamadas PSTN no Teams
+Ao usar a política de atualização do Teams herdada, aplique a política de interoperabilidade do Teams, conforme descrito acima, via sessão do Windows PowerShell remoto do Skype for Business para redirecionar as chamadas para o Teams:
 
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
-Se você optar por usar o modo de TeamsOnly, você pode alterar o modo de coexistência do usuário para TeamsOnly via Teams Microsoft & Skype para Business Admin Center, ou via Skype para a sessão do Windows PowerShell remoto de negócios para redirecionar chamadas às equipes:
+Se você optar por usar o modo TeamsOnly, será possível alterar o modo de coexistência do usuário para TeamsOnly por meio do Centro de Administração do Microsoft Teams e do Skype for Business ou sessão do Windows PowerShell remoto do Skype for Business para redirecionar chamadas para o Teams:
 
     Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
     Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
@@ -102,7 +102,7 @@ Se você optar por usar o modo de TeamsOnly, você pode alterar o modo de coexis
 ## <a name="see-also"></a>Consulte também
 [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-[Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+[Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
 [Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)
 

@@ -15,7 +15,7 @@ appliesto:
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
 ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
 ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/13/2018
 ms.locfileid: "23965519"
@@ -325,7 +325,7 @@ Para obter números de telefone diretamente da Microsoft, use uma destas opçõe
 
 - [Centro de administração do Skype for Business](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets do Windows PowerShell remoto](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Enviar um formulário de nova solicitação de número de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Enviar um formulário de solicitação de novo número de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 O formulário de solicitação de novo número de telefone funciona melhor para a aquisição planejada de um número de telefone, pois você pode solicitar um bloco de números de telefone contíguos. A obtenção de números de telefone usando o Centro de administração do Skype for Business ou o Windows PowerShell remoto não está disponível em todos os países ou regiões.
 
@@ -440,8 +440,8 @@ Há um máximo de 25 regras de normalização em cada plano de discagem para loc
 >|Nome do plano de discagem de locatário<br>_Descrição  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
 >|---------|---------|---------|
 >|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 – x7999) para o escritório de 39 quai du Président Roosevelt, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+>||**FR-TollFree**<br>_Normalização de número gratuito na França_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+>||**FR-Service**<br>_Normalização de número de serviço na França_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
 > [!TIP]

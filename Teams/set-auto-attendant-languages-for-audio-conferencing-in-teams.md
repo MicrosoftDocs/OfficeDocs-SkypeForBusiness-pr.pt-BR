@@ -1,5 +1,5 @@
 ---
-title: Definir idiomas de atendedor automático para conferência de áudio no Microsoft Teams
+title: Definir idiomas do atendedor automático para audioconferência no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,45 +15,45 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Consulte como selecionar idiomas atendedor automático serviços de audioconferência para um número de conferência de áudio no Microsoft Teams.
-ms.openlocfilehash: 4be8da4bf65d189c2bfba5ceb8dd6cc7a1cbee53
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
-ms.translationtype: MT
+description: Veja como selecionar os idiomas do atendedor automático de audioconferência para um número de audioconferência no Microsoft Teams.
+ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
+ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23853371"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "23893014"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Definir idiomas de atendedor automático para conferência de áudio no Microsoft Teams
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Definir idiomas do atendedor automático para audioconferência no Microsoft Teams
 
-O atendedor automático de conferência de áudio for Microsoft Teams pode saudar chamadores áudio em um número de diferentes idiomas quando ingressarem em uma reunião.
+O atendedor automático de audioconferência do Microsoft Teams pode cumprimentar os chamadores de áudio em diversos idiomas quando entram na reunião.
   
-Escolha um idioma principal e até quatro idiomas secundários. O idioma principal que você definiu será usado pela primeira vez e os idiomas secundários serão usados pelo atendedor automático que você selecionar. 
+Escolha um idioma primário e até quatro idiomas secundários. O idioma primário definido será usado primeiro e os idiomas secundários serão usados pelo atendedor automático na ordem que você selecionar. 
   
 > [!NOTE]
->  Você pode configurar os idiomas em apenas números de telefone de acesso de áudio domésticas.
+>  Você pode configurar os idiomas somente em números de telefone de acesso a áudio locais.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir a conferência idiomas de atendedor automático
+## <a name="set-the-conferencing-auto-attendant-languages"></a>Definir os idiomas do atendedor automático de audioconferência
 
-1. No painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**.
+1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**.
 
-2. Selecione o número de telefone de conferência de áudio da lista e, na parte superior da página, clique em **Editar**.
+2. Selecione o número de telefone da audioconferência na lista e, no topo da página, clique em **Editar**.
 
-3. No painel à direita, escolha o idioma padrão desejado e qualquer idiomas alternativos. 
+3. No painel à direita, escolha o idioma padrão desejado e os idiomas alternativos. 
  
     > [!NOTE]
-    > O padrão e os idiomas alternativos suportados são listados. A ordem na qual você selecionar listas de será a ordem dos idiomas apresentados aos chamadores. 
+    > Os idiomas padrão e alternativos aceitos são listados. A ordem selecionada nas listas será a ordem em que os idiomas serão apresentados aos chamadores. 
 
 4. Clique em **Salvar**.
 
     
-## <a name="want-else-should-i-know"></a>O que mais devo saber?
+## <a name="want-else-should-i-know"></a>O que mais preciso saber?
 
 - Para ver a lista de idiomas com suporte para Audioconferência, consulte [Idiomas com suporte para Audioconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).
     
@@ -61,9 +61,9 @@ Escolha um idioma principal e até quatro idiomas secundários. O idioma princip
     
 - Para ver uma lista de países/regiões onde a Audioconferência no Office 365 usando a Microsoft como provedor está disponível, consulte [Números de telefone para AudioConferência](phone-numbers-for-audio-conferencing-in-teams.md).
     
-## <a name="want-to-use-windows-powershell"></a>Você deseja usar o Windows PowerShell?
+## <a name="want-to-use-windows-powershell"></a>Deseja usar o Windows PowerShell?
 
-Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
