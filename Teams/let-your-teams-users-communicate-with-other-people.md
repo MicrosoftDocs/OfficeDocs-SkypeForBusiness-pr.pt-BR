@@ -3,6 +3,7 @@ title: Se comunicar com usuários de equipes em outra organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
+ms.date: 09/12/2018
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -13,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: da76d75ba44215b11b68550fa06d1fab87f19e56
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: d7423109d4fba01ca85c1602bfcf92190b539abf
+ms.sourcegitcommit: 116d17befc17503968e00e45be338834aa2185b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937823"
+ms.lasthandoff: 09/18/2018
+ms.locfileid: "23998623"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 
@@ -30,9 +31,11 @@ Siga as etapas descritas neste artigo quando:
     
 - Deseja que qualquer pessoa no mundo que usa as equipes possam encontrar e contatá-lo, usando seu endereço de email. Se você e outro usuário habilitar o acesso externo e permitem uns dos outros domínios, isso funcionará. Se ela não funcionar, o outro usuário verifique se seu ou sua configuração não está bloqueando o seu domínio.
 
-Siga estas etapas:
+Isso permitirá que os usuários a localizar, chamar e lhe enviar mensagens instantâneas, bem como configurar reuniões com você. Se desejar que os usuários externos tenham acesso às equipes e canais, acesso de convidado pode ser uma melhor maneira de ir. Siga as etapas neste artigo e certifique-se para [Ativar o acesso de convidado](set-up-guests.md) para que os usuários podem se comunicar.
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
+
+Siga estas etapas.
 
 ### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Etapa 1 - certificar-se de configurar as portas e URLs que são necessários.
 
