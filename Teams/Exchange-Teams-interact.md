@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c3f795df06735c735ac29b6f46c6c8d8e9d46c
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: a422cb18cf6105ead7f0a76096a6cb5a755a1906
+ms.sourcegitcommit: 8537814aabddd7e7a6d1148c8c71ea14ae0c499a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937862"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24009041"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -33,14 +33,16 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 
 **Ações suportadas:** 
 
-| A caixa de correio do usuário está hospedada em: | eDisovery| Retenção legal | Retenção| Mgmt de equipe e de canal |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar os contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
+| A caixa de correio do usuário está hospedada em: | eDiscovery| Retenção legal | Retenção| Mgmt de equipe e de canal |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar os contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated vNext**|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Não|Não|Sim|Não|Não|Sim|Sim|Não|Não|Não|Sim|Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))|Não|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Não|Não|Não|Sim|
+|**Exchange Online**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
+|**Exchange Online Dedicated vNext**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Não|Não|Sim|Sim|Não|Não|Não|Sim|Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Não|Não|Não|Sim|
                                                             
-*\*Suporte para o Exchange 2016 CU3 e versões acima*
+<sup>1</sup> do exchange 2016 CU3 e acima suportados  
+<sup>2</sup> eDiscovery e retenção Legal para fins de conformidade em mensagens de canal é suportado para todas as opções de hospedagem.  
+<sup>3</sup> mensagens de bate-papo privado equipes ainda não são aceitas para a retenção Legal para essa opção de hospedagem.
 
 Informações adicionais:
 
@@ -55,6 +57,8 @@ Informações adicionais:
 -   Os usuários devem estar habilitados para a criação do grupo do Office 365 para criar equipes no Microsoft Teams.
 
 -   No Microsoft Teams, os recursos de segurança e conformidade, como o eDiscovery, o Content Search, arquivamento e retenção legal, funcionam melhor nos ambientes do Exchange Online e do SharePoint Online. Para conversas em canais, as mensagens serão rastreadas para a caixa de correio de grupo no Exchange Online, onde estão disponíveis para o eDiscovery. Se o SharePoint Online e o OneDrive for Business (usando contas de trabalho ou escolares) estiverem habilitados em toda a organização e para os usuários, esses recursos de conformidade estarão disponíveis para todos os arquivos dentro do Teams também.
+
+-   Para o Exchange local (implantação híbrida), você precisará configurar OAuth, conforme descrito em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > No momento, se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange.
