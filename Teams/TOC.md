@@ -328,7 +328,6 @@
 #### [Perguntas comuns sobre a audioconferência](audio-conferencing-common-questions.md)
 #### [Audioconferência Pagar por Minuto](audio-conferencing-pay-per-minute.md)
 #### [Idiomas compatíveis com a audioconferência](audio-conferencing-supported-languages.md)
-#### [Solução de problemas e problemas conhecidos da audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Alterar as configurações de uma ponte de audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Alterar os números de telefone de sua ponte de audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 #### [Discando a partir de uma reunião para que outras pessoas possam ingressar](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)
@@ -473,7 +472,7 @@
 #### [Monitorar e solucionar problemas de roteamento direto](direct-routing-monitor-and-troubleshoot.md)
 #### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configurar um controlador de borda de sessão para vários locatários](direct-routing-sbc-multiple-tenants.md)
-#### [Lista de certificados para o roteamento direto de controladores de borda de sessão](direct-routing-border-controllers.md)
+#### [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
 ### [Fluxos de chamada de equipes da Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 

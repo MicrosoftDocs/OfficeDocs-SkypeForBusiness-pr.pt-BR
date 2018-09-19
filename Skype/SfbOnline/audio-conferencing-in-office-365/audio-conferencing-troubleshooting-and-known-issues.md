@@ -15,42 +15,27 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha uma lista de problemas conhecidos ao usar o Microsoft como seu provedor de conferência discada, status e algumas soluções alternativas. '
-ms.openlocfilehash: e5c6144081eb68426d3be53efb0ac9e9acbf41bd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887457"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999170"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de problemas e problemas conhecidos da audioconferência
 
- **Este artigo destina-se Skype para usuários empresariais e Teams da Microsoft usando o Microsoft como seu provedor de serviços de audioconferência. Ela não se aplica aos clientes que estão usando um provedor de serviços de audioconferência de terceiros (ACP).**
+ **Este artigo destina-se Skype para usuários comerciais usando o Microsoft como seu provedor de serviços de audioconferência. Ela não se aplica aos clientes que estão usando um provedor de serviços de audioconferência de terceiros (ACP).**
   
 ## <a name="troubleshooting-and-known-issues"></a>Problemas conhecidos e solução de problemas
 
 Conferência de áudio que usa o Microsoft que o provedor de serviços de audioconferência tenha problemas atuais que estão sendo rastreados e ativamente investigados e serão potencialmente resolvidos quando o recurso é atualizado em futuras versões do Office 365.
   
-No momento, use isso como uma referência ao solucionar possíveis problemas com a obtenção de conferência de áudio configurado e funcionando para as pessoas que usam o Skype para aplicativos de negócios ou Teams da Microsoft em sua organização.
-  
-### <a name="microsoft-teams-app"></a>As equipes da Microsoft app
-
-|**Problema**|**Comportamento/sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Os chamadores da PSTN com o mesmo "número From" são mostrados como o mesmo usuário na lista de participação de reunião.  <br/> |Quando vários chamadores por PSTN ingressem em uma reunião, e seus IDs do chamador são mascarados como um único número, eles serão exibidas como um chamador único na lista de participação da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|Painel de informações da reunião não está aparecendo forma intermitente.  <br/> |Painel de informações da reunião pode não aparecer no cliente de equipes, quando os usuários tentam procurar para números de telefone de ponte de conferência ou ID de conferência.  <br/> |Examinar detalhes da reunião ou calendário do Outlook para exibir números de telefone de ponte de conferência ou ID de conferência.  <br/> |25/9/2017  <br/> |
-|Convites de reunião de suplemento do Outlook mostram caracteres corrompidos em coordenadas PSTN para localidades fora dos EUA.  <br/> |Ao agendar reuniões privadas usando o suplemento do Outlook for Microsoft Teams em um computador com localidades fora dos EUA, coordenadas PSTN podem conter caracteres corrompidos.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|Discagem externa precisa usar 5 dígitos ou mais.  <br/> |Os usuários que tentarem discar a partir de uma reunião precisam digitar em 5 ou mais dígitos, mesmo que a regra de normalização do plano de discagem está disponível para normalizar discagem curto dígitos em e. 164.  <br/> |Discar digitando o número total de DID ou o formato de número local em vez do número de ramal interno.  <br/> |25/9/2017  <br/> |
-|Discagem externa de controle não está aparecendo forma intermitente.  <br/> |Discagem externa controle pode não estar visível do painel de informações da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|ID de conferência estático não tem suportado para reuniões de Teams da Microsoft.  <br/> |Se o administrador substitui a configuração de padrão de ID de conferência dinâmico a ID de conferência estático, essa configuração não terá efeito para reuniões de Teams da Microsoft. Consulte as [IDs de conferência de áudio usando dinâmicos em sua organização](using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|As coordenadas de reunião de PSTN não estão disponíveis para Skype para usuários do local de negócios  <br/> |Se o usuário for um Skype para usuário local de negócios, atribuído com Skype para Business Online, conferência de áudio e licenças de equipes, todas as reuniões agendadas usando equipes não incluirá as coordenadas de reunião de PSTN. <br/> |Não há solução alternativa.  <br/> |2/1/2018  <br/> |
-   
-### <a name="skype-for-business-app"></a>Skype para o aplicativo de negócios
+No momento, use isso como uma referência ao solucionar possíveis problemas com a obtenção de conferência de áudio configurado e funcionando para as pessoas que usam o Skype para negócios em sua organização.
 
 |**Problema**|**Comportamento/sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|

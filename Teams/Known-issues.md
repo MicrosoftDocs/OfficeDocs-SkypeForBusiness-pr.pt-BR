@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4085a0da14c1b3ee298247acd28f5a7bccf2ee53
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937872"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999208"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -47,6 +47,17 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Não é possível excluir conectores como um proprietário de equipe  <br/> |A tentativa de excluir um conector como um proprietário, caso contrário, que pode adicionar um conector, enquanto "Permitir que os membros para criar, atualizar e remover conectores" está desabilitada gera um erro indicando o usuário não tem permissão para fazê-lo. <br/> |Habilitando temporariamente "Permitir que os membros criar, atualizar e remover conectores" permitirá que o proprietário para excluir o conector.  <br/> |27/7/18  <br/> |
+
+## <a name="audio-conferencing"></a>Audioconferência
+|**Problema**|**Comportamento/sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Os chamadores da PSTN com o mesmo "número From" são mostrados como o mesmo usuário na lista de participação de reunião.  <br/> |Quando vários chamadores por PSTN ingressem em uma reunião, e seus IDs do chamador são mascarados como um único número, eles serão exibidas como um chamador único na lista de participação da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|Painel de informações da reunião não está aparecendo forma intermitente.  <br/> |Painel de informações da reunião pode não aparecer no cliente de equipes, quando os usuários tentam procurar para números de telefone de ponte de conferência ou ID de conferência.  <br/> |Examinar detalhes da reunião ou calendário do Outlook para exibir números de telefone de ponte de conferência ou ID de conferência.  <br/> |25/9/2017  <br/> |
+|Convites de reunião de suplemento do Outlook mostram caracteres corrompidos em coordenadas PSTN para localidades fora dos EUA.  <br/> |Ao agendar reuniões privadas usando o suplemento do Outlook for Microsoft Teams em um computador com localidades fora dos EUA, coordenadas PSTN podem conter caracteres corrompidos.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|Discagem externa precisa usar 5 dígitos ou mais.  <br/> |Os usuários que tentarem discar a partir de uma reunião precisam digitar em 5 ou mais dígitos, mesmo que a regra de normalização do plano de discagem está disponível para normalizar discagem curto dígitos em e. 164.  <br/> |Discar digitando o número total de DID ou o formato de número local em vez do número de ramal interno.  <br/> |25/9/2017  <br/> |
+|Discagem externa de controle não está aparecendo forma intermitente.  <br/> |Discagem externa controle pode não estar visível do painel de informações da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|ID de conferência estático não tem suportado para reuniões de Teams da Microsoft.  <br/> |Se o administrador substitui a configuração de padrão de ID de conferência dinâmico a ID de conferência estático, essa configuração não terá efeito para reuniões de Teams da Microsoft. Consulte as [IDs de conferência de áudio usando dinâmicos em sua organização](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
+|As coordenadas de reunião de PSTN não estão disponíveis para Skype para usuários do local de negócios  <br/> |Se o usuário for um Skype para usuário local de negócios, atribuído com Skype para Business Online, conferência de áudio e licenças de equipes, todas as reuniões agendadas usando equipes não incluirá as coordenadas de reunião de PSTN. <br/> |Não há solução alternativa.  <br/> |2/1/2018  <br/> |
 
 ## <a name="authentication"></a>Autenticação
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|

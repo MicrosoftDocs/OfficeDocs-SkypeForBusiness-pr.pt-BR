@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Saiba como Live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fb22c259e97e27aa45d4874bc95aef7962c6024
-ms.sourcegitcommit: 53089c4c9bdf219f02eae2827432a4f40eaa9cd5
+ms.openlocfilehash: b99bd690bf504645d2967dbab31c3f58fc50fd92
+ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893704"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "23999240"
 ---
 # <a name="what-are-teams-live-events"></a>Quais são as equipes live eventos?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -67,7 +67,7 @@ Quando você estiver planejando eventos ao vivo de equipes para armazenar grande
 Os seguintes pré-requisitos são necessários para o usuário agendar um evento de equipes ao vivo.
 
 Aqui estão as licenças que devem ser atribuídas:  
-- Uma licença do Office 365 Enterprise E3 ou E5. 
+- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 A3 ou A5. 
 - Uma Teams da Microsoft, Skype para os negócios e a licença do Microsoft Stream.
 
 É importante saber o que uma licença do Office 365 é necessário para participar de um evento ao vivo como um usuário autenticado, mas isso depende do método de produção usado:
@@ -353,7 +353,7 @@ Os clientes podem usar as seguintes ferramentas para gerenciar uma variedade de 
 - [Centro de administração do Microsoft Stream](https://stream.microsoft.com)
 - [Windows PowerShell remoto](https://technet.microsoft.com/library/exchange-online-administration-and-management.aspx?f=255&MSPPError=-2147217396#BKMK_RemoteWindowsPowerShell)
 
-### <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+### <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 Quando se trata de Windows PowerShell, ele é tudo sobre o gerenciamento de usuários e quais os usuários poderão ou não podem para fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e Skype para negócios Online usando um único ponto de administração que pode simplificar o seu trabalho diário quando você tem várias tarefas fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
  - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
  - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
