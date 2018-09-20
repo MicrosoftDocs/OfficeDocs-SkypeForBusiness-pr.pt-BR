@@ -1,9 +1,9 @@
 ---
-title: Atribuir funções e permissões no Microsoft Teams
+title: Atribuir membros em Microsoft Teams e proprietários de equipe
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 08/27/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dansteve
@@ -13,20 +13,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da4bae93a35775141c246145e1375e73963ec120
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a2fd9f611d616f368973ced432e886bf4ba9d8f5
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892694"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021806"
 ---
-<a name="assign-roles-and-permissions-in-microsoft-teams"></a>Atribuir funções e permissões no Microsoft Teams
-===============================================
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir membros em Microsoft Teams e proprietários de equipe
+=================================================
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-No Microsoft Teams, existem duas funções: **Proprietário** e **Membro**. Por padrão, a um usuário que cria uma nova equipe, é atribuído o status de Proprietário. Se uma equipe for criada a partir de um Grupo existente do Office 365, as permissões são herdadas.
+Em Microsoft Teams, existem duas funções de usuário: **proprietário** e do **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Se uma equipe for criada a partir de um Grupo existente do Office 365, as permissões são herdadas.
 
 A tabela abaixo mostra as diferenças de permissão entre um proprietário e um membro:
 
@@ -43,7 +43,7 @@ A tabela abaixo mostra as diferenças de permissão entre um proprietário e um 
 |**Adicionar guias**      |Sim         |Sim*         |
 |**Adicionar conectores**      |Sim         |Sim*         |
 |**Adicionar bots**      |Sim         |Sim*         |
-\* Esses itens podem ser desativados por um proprietário em nível de equipe, e nesse caso os membros não teriam acesso para tal.
+\*Esses itens podem ser desativados por um proprietário em um nível de equipe, caso em que os membros não terá acesso a eles.
 
 \*\*Após adicionar um membro a uma equipe, o Proprietário também pode promover um Membro para o status de Proprietário. Também é possível para um Proprietário rebaixar seu próprio status para o status de Membro.
 
