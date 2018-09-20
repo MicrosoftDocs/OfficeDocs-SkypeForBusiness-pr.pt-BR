@@ -13,34 +13,34 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78ceb6fa0cd70b5cf6fc25bc9537939beea99b7c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 7aaf355c1f1fc65855c7bffb7c5632929a084b88
+ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882034"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "24057599"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
 =================================
 
-Para usar o System Center Configuration Manager, a Política de Grupo ou qualquer mecanismo de distribuição de terceiros para ampla implantação, a Microsoft oferece arquivos MSI (de [32 bits](https://aka.ms/teams32bitmsi) e [64 bits](https://aka.ms/teams64bitmsi)) que os administradores podem usar para a implantação em massa do Teams para usuários ou computadores selecionados. Os administradores podem usar esses arquivos para implantar o Teams remotamente, de modo que os usuários não precisem baixar manualmente o aplicativo Teams. Quando implantado, o Teams iniciará automaticamente para todos os usuários que fizerem login naquela máquina. Recomendamos a implantação do pacote no computador para que todos os novos usuários da máquina também se beneficiem da implantação. 
+Para usar o System Center Configuration Manager ou política de grupo ou qualquer mecanismos de distribuição de terceiros para implantação em larga escala, a Microsoft forneceu arquivos MSI ( [32 bits](https://aka.ms/teams32bitmsi) e [64 bits](https://aka.ms/teams64bitmsi)) que os administradores podem usar para a implantação em massa de equipes para selecionar os usuários ou computadores. Os administradores podem usar esses arquivos para implantar remotamente equipes para que os usuários não precisam baixar manualmente o aplicativo de equipes. Quando implantado, equipes gerará automaticamente lançamento para todos os usuários que entram nesta máquina. (É possível desabilitar depois de instalar o aplicativo de início automático. [Veja abaixo](#disable-auto-lanuch-for-the-msi-installer).) Recomendamos que você implante o pacote para o computador, para que todos os novos usuários do computador também serão beneficiados com essa implantação. 
  
 > [!Note] 
-> Para saber mais sobre o SCCM, consulte [Introdução ao System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
+> Para saber mais sobre SCCM, consulte [Introdução para o System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Procedimento de implantação (recomendado)
 1. Recupere o pacote mais recente.
-2. Use os padrões pré-preenchidos pelo MSI.
-3. Implante nos computadores quando possível.
+2. Use os padrões pré-preenchido pelo MSI.
+3. Implante em computadores quando possível.
 
-## <a name="how-the-microsoft-teams-msi-package-works"></a>Como o pacote Microsoft Teams MSI funciona
+## <a name="how-the-microsoft-teams-msi-package-works"></a>Como funciona ao pacote MSI de equipes da Microsoft
 
-O Teams MSI colocará um instalador em Arquivos de Programas. Sempre que um usuário fizer login em um novo perfil de usuário do Windows, o instalador será iniciado e uma cópia do aplicativo Teams será instalada na pasta appdata desse usuário. Se o usuário já tiver o aplicativo Teams instalado na pasta appdata, o instalador do MSI ignorará o processo para esse usuário.
+O MSI equipes colocará um instalador em arquivos de programa. Sempre que um usuário se conecta em um novo perfil de usuário do Windows, o instalador será iniciado e uma cópia do aplicativo equipes será instalada na pasta de appdata desse usuário. Se um usuário já tiver o aplicativo de equipes instalado na pasta appdata, o instalador MSI irá ignorar o processo para esse usuário.
 
-Não use o MSI para implantar atualizações, pois o cliente atualizará automaticamente quando detectar que há uma nova versão disponível no serviço. Para reimplantar o instalador mais recente, use o processo de reimplantação do MSI descrito abaixo. Se você implantar uma versão mais antiga do pacote MSI, o cliente atualizará automaticamente para o usuário quando possível. Se for implantada uma versão muito antiga, o MSI acionará uma atualização do aplicativo antes que o usuário possa usar o Teams. 
+Não use o MSI para implantar atualizações, pois o cliente irá atualizar automaticamente quando detecta que uma nova versão é disponibilizada pelo serviço. Para reimplantar o instalador mais recente use o processo de reimplantando MSI descrito abaixo. Se você implantar uma versão mais antiga do pacote do MSI, o cliente será atualizado automaticamente sempre que possível para o usuário. Se uma versão antiga muito obtém implantada, o MSI irá disparar uma atualização do aplicativo antes que o usuário seja capaz de usar equipes. 
 
 > [!Important] 
-> Não recomendamos mudar os locais de instalação padrão, pois isso pode interromper o fluxo de atualização. Uma versão muito antiga pode impedir que os usuários acessem o serviço. 
+> Não recomendamos que você altere os locais de instalação padrão, como isso poderia quebrará o fluxo de atualização. Ter uma versão antiga muito eventualmente bloqueará os usuários acessem o serviço. 
 
 
 ## <a name="target-computer-requirements"></a>Requisitos do computador de destino
@@ -49,13 +49,19 @@ Não use o MSI para implantar atualizações, pois o cliente atualizará automat
 - Windows 7 ou posterior
 - 3 GB de espaço em disco para cada perfil de usuário (recomendado)
 
-## <a name="clean-up-and-redeployment-procedure"></a>Procedimento de limpeza e reimplantação
-Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MSI rastreará que o usuário desinstalou o aplicativo Teams e não instalará mais o Teams para esse perfil de usuário. Para reimplantar o Teams para esse usuário em um determinado computador em que foi desinstalado, faça o seguinte:
+## <a name="clean-up-and-redeployment-procedure"></a>Limpeza e o procedimento de reimplantação
+Se um usuário desinstala equipes de seu perfil de usuário, o instalador MSI irá controlar que o usuário tiver desinstalado o aplicativo de equipes e não são mais instalar equipes para esse perfil de usuário. Para reimplantar equipes para esse usuário em um computador particular, onde ele foi desinstalado, faça o seguinte:
 
-1. Desinstale o aplicativo Teams instalado para todos os perfis de usuário. 
-2. Após a desinstalação, exclua o diretório recursivamente em %localappdata%\Microsoft\Teams\. 
-3. Reimplante o pacote MSI no computador específico.
+1. Desinstale o aplicativo de equipes instalado para cada perfil de usuário. 
+2. Após a desinstalação, exclua o diretório recursivamente em % localappdata%\Microsoft\Teams\. 
+3. Reimplante o pacote MSI nesse computador específico.
 
 > [!TIP] 
-> Você pode usar nosso [Script de limpeza de implantação do Microsoft Teams](.\scripts\Powershell-script-teams-deployment-clean-up.md) via SCCM para concluir as etapas 1 e 2.                              
+> Você pode usar o nosso script de [implantação de equipes da Microsoft limpar](.\scripts\Powershell-script-teams-deployment-clean-up.md) para realizar as etapas 1 e 2 por meio do SCCM.  
+                    
+## <a name="disable-auto-lanuch-for-the-msi-installer"></a>Desabilitar lanuch automático para o instalador MSI
+
+Se você deseja desabilitar o recurso de início automático, insira o seguinte prompt de comando:
+
+`msiexec /i Teams_windows.exe OPTIONS="noAutoStart=false"`
 
