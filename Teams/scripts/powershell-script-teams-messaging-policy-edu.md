@@ -8,25 +8,27 @@ ms.reviewer: ritikag
 ms.service: msteams
 description: Use esse script do PowerShell para criar uma política de mensagens em equipes e atribuí-lo aos usuários em sua organização.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 399cc6cf20554cd8ab23e6d75b66b2d6251e46de
-ms.sourcegitcommit: 31918f51e8220950af6437a16d8beeb637fba2b4
+MS.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 108272636925daadfb361c1e79ff14b9c04f514a
+ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23961888"
+ms.lasthandoff: 09/19/2018
+ms.locfileid: "24021854"
 ---
-<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="38b57-103">Exemplo de script do PowerShell - criar e atribuir uma política de mensagens</span><span class="sxs-lookup"><span data-stu-id="38b57-103">PowerShell script sample - Create and assign a messaging policy</span></span>
+<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="75718-103">Exemplo de script do PowerShell - criar e atribuir uma política de mensagens</span><span class="sxs-lookup"><span data-stu-id="75718-103">PowerShell script sample - Create and assign a messaging policy</span></span>
 -------------------------------------------------------------------------
 
-<span data-ttu-id="38b57-104">Use esse script do PowerShell para criar uma política de mensagens no Microsoft Teams e atribuí-lo aos usuários.</span><span class="sxs-lookup"><span data-stu-id="38b57-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
+<span data-ttu-id="75718-104">Use esse script do PowerShell para criar uma política de mensagens no Microsoft Teams e atribuí-lo aos usuários.</span><span class="sxs-lookup"><span data-stu-id="75718-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
 
-<span data-ttu-id="38b57-105">Para obter mais informações sobre como usar esse script do PowerShell, consulte [Quick start - Teams educacional](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span><span class="sxs-lookup"><span data-stu-id="38b57-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
+<span data-ttu-id="75718-105">Para obter mais informações sobre como usar esse script do PowerShell, consulte [Quick start - Teams educacional](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span><span class="sxs-lookup"><span data-stu-id="75718-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
 
-<span data-ttu-id="38b57-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="38b57-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="75718-106">Se você é novato no PowerShell e precisa de ajuda para começar, consulte [Visão geral do Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span><span class="sxs-lookup"><span data-stu-id="75718-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="38b57-107">Script de exemplo</span><span class="sxs-lookup"><span data-stu-id="38b57-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="75718-107">Script de exemplo</span><span class="sxs-lookup"><span data-stu-id="75718-107">Sample script</span></span>
 
 ````powershell
 <#
