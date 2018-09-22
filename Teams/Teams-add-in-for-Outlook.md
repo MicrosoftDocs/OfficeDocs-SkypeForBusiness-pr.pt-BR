@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ad125380a60116592a68eeac466c46d7daa723
-ms.sourcegitcommit: 2a1766158b21f0387cd8e4a00aab2dcde4059fbb
+ms.openlocfilehash: 07cc04f47da980bfb5a637c1cfe6bc2b72a26f8f
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2018
-ms.locfileid: "23998988"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967355"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -48,9 +48,9 @@ Para saber mais sobre como configurar a autenticação, veja [Modelos de identid
 
 ## <a name="enable-private-meetings"></a>Habilitar reuniões privadas
 
-A permissão de agendamento de reuniões privadas deve ser habilitada no [Centro de administração do Office 365](https://portal.office.com/adminportal/home) para que o plug-in seja implantado.
+Permitir o agendamento para reuniões privadas deve ser habilitada no equipes & Skype para Business Admin Center para o plug-in para obter implantado. No Centro de administração, vá para **reuniões** > **Políticas de reunião**e na seção **Geral** , alternar **Permitir o agendamento de reuniões privadas** para diante.)
 
-![Captura de tela das configurações da seção Chamadas e reuniões do Centro de administração do Office 365.](media/Enable_Microsoft_Teams_features_in_your_Office_365_organization_image9.png)
+![Captura de tela das configurações no equipes & Skype para Business Admin Center.](media/teams-add-in-for-outlook-image1.png)
 
 O cliente Teams instala o suplemento correto, determinando se os usuários precisam da versão de 32 ou de 64 bits.
 

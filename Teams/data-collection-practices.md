@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft coleta dados censo, erro e uso para entender como Skype para negócios está sendo usada e onde os usuários encontrarem problemas. Os dados são usados para planejar os aperfeiçoamentos do produto.
-ms.openlocfilehash: ec6e3cafd3df2509764b69dc5809781fc94ab882
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: eecd4594d7b0f6ccc61505ed24b023f0c01a53e5
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850961"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967469"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para práticas de conjunto de dados corporativos e Teams da Microsoft
 
@@ -99,7 +99,7 @@ Dados de relatórios de erro também podem conter informações de identificaç�
 
 Relatório de erros exige duas coisas:
 
-- A configuração de diretiva de grupo DisableAutomaticSendTracing ser definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão). Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) para obter mais informações.
+- A configuração de diretiva de grupo DisableAutomaticSendTracing é definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão). Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) para obter mais informações.
     
 - Os usuários finais individualmente aceitar a partir da guia Geral (clique no ícone de engrenagem ![ícone de engrenagem](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) e abre a caixa de diálogo **Opções** com a guia **Geral** exibida) no Skype para o cliente de negócios.
     

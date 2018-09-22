@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como alterar o local de emergência para seus usuários. Com um número ilimitado de locais, você pode alterar os locais de emergência quando seus funcionários se mudam de andares ou prédios. '
-ms.openlocfilehash: e8536647bedf0cdb212ca334193659a104e0e1e3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caf201bf71d15518ffbfbf473a904da2d1d03aa4
+ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891170"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24958207"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Alterar o local de emergência de um usuário
 
@@ -68,7 +68,7 @@ Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, co
 
 [Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc686b520c9bd765539ff5fd9f636bc876583a41
-ms.sourcegitcommit: 6732f56535d60a46e6998cde64103e8530dd6452
+ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
+ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23937894"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "24967427"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ Os serviços das categorias de conformidade C e D que têm compromissos de confo
 
 O Teams também aplica uma autenticação de dois fatores para todas as equipe e organizações, registro único através do diretório ativo e criptografia de dados em trânsito e em repouso. Os arquivos ficam armazenados no SharePoint e são respaldados pela criptografia do SharePoint. As notas ficam armazenadas no OneNote e são respaldadas pela criptografia do OneNote. Os dados do OneNote são armazenados no site do SharePoint da equipe. Na guia Wiki também pode ser usada para fazer anotações e seu conteúdo também é armazenado no site do SharePoint team.
 
-Também acrescentamos suporte para pesquisa de registros de auditoria, eDiscovery e retenção legal para canais, bate-papos e arquivos, bem como gerenciamento de aplicativos móveis com o Microsoft Intune. Vá para o Centro de conformidade de segurança do Office 365 para gerenciar essas configurações. 
+Também acrescentamos suporte para pesquisa de registros de auditoria, eDiscovery e retenção legal para canais, bate-papos e arquivos, bem como gerenciamento de aplicativos móveis com o Microsoft Intune. Vá para o Centro de conformidade & segurança do Office 365 para gerenciar essas configurações. 
 
 ## <a name="auditing-and-reporting"></a>Auditoria e relatórios
 
-A pesquisa de registros de auditoria se conecta diretamente ao Centro de Segurança e Conformidade do Office 365 e tem a capacidade de configurar alertas e/ou relatórios em um evento de auditoria ao disponibilizar e exportar conjuntos de eventos de carga de trabalho genéricos ou específicos para uso e pesquisa do administrador em uma linha de tempo de auditoria ilimitada. Todos os dados de registro de auditoria estão disponíveis para configurar aletas no Centro de Segurança e Conformidade do Office 365, bem como para filtragem e exportação para análises mais profundas. Consulte este [link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para saber mais sobre como realizar uma pesquisa de log de auditoria para eventos do Microsoft Teams no Centro de conformidade e segurança do Office 365. 
+Pesquisa de log de auditoria se conecta à direita no Centro de conformidade & segurança do Office 365 e expõe capacidades para definir alertas e/ou reportar sobre eventos de auditoria, tornando disponível, exportar de carga de trabalho específicos ou evento genérico define para uso de admin e investigação, entre um cronograma de auditoria ilimitada. Todos os dados de Log de auditoria está disponíveis para a configuração de alertas dentro do Office 365 Security & Centro de conformidade, bem como para filtrar e exportar para análise adicional. Consulte este [link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para saber mais sobre como realizar uma pesquisa de log de auditoria para eventos do Microsoft Teams no Centro de conformidade & segurança do Office 365. 
 
 ## <a name="compliance-content-search"></a>Pesquisa de conteúdo de conformidade
 
-Pesquisa de conteúdo pode ser usada para procurar todos os dados de equipes por meio de recursos de filtragem de rich e exportada para um contêiner específico para suporte de conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletar dados de equipes em todos os usuários, revisar e exportá-lo para processamento adicional. Consulte este [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para conteúdo de Teams da Microsoft no Centro de conformidade e segurança do Office 365. 
+Pesquisa de conteúdo pode ser usada para procurar todos os dados de equipes por meio de recursos de filtragem de rich e exportada para um contêiner específico para suporte de conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletar dados de equipes em todos os usuários, revisar e exportá-lo para processamento adicional. Consulte este [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para conteúdo de Teams da Microsoft no Centro de conformidade & segurança do Office 365. 
 
 Dica: O MicrosoftTeams kind pode ser usado para filtrar por meio Teams Microsoft somente conteúdo, ou seja, Chat e mensagens de canal, reuniões e chamadas. 
 
@@ -47,7 +47,7 @@ Dica: O MicrosoftTeams kind pode ser usado para filtrar por meio Teams Microsoft
 
 A descoberta eletrônica é o aspecto eletrônico de identificar, coletar e produzir informações armazenadas eletronicamente (ESI) em resposta a uma solicitação de produção em uma ação judicial ou investigação. Recursos incluem o gerenciamento de casos, preservação, pesquisa, análise e exportação de dados de equipes. Isso inclui resumos de bate-papo, mensagens e arquivos, reuniões e chamadas. Para reuniões de equipes e chamadas, um resumo dos eventos que ocorreram na reunião e da chamada são criados e torná-los disponível no eDiscovery. 
 
-Para obter mais detalhes sobre como fazer a descoberta eletrônica no Centro de segurança e conformidade e pesquisa de conteúdo de execução de conformidade para conteúdo de equipes, vá para os links abaixo: 
+Para obter mais detalhes sobre como fazer a descoberta eletrônica no Centro de conformidade e segurança e executar a pesquisa de conteúdo de conformidade para conteúdo de equipes, vá para os links abaixo: 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Os clientes podem aproveitar descoberta eletrônica in-loco ou [eDiscovery Avan�
 
 ## <a name="legal-hold"></a>Retenção legal
 
-Durante um litígio, geralmente é necessário que todos os dados associados a um usuário (dos responsáveis) ou uma equipe é preservada imutavelmente, portanto pode ser usada como evidência para o caso. Isso é feito colocando-se um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe dentro equipes será colocada em (subconjunto do conjunto de sites ou de caixa de correio até o destino de consultas ou conteúdo filtrado) de bloqueio In-loco ou retenção de litígio (coleção inteira de caixa de correio ou site), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluir ou editar as mensagens de canal são incluídas na caixa de correio de grupo, imutáveis cópias desse conteúdo são mantidos e estejam disponíveis na pesquisa eDisscovery. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [Este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo para saber mais sobre preservação e isenções na Central de segurança do Office 365 e conformidade da Ajuda. 
+Durante um litígio, geralmente é necessário que todos os dados associados a um usuário (dos responsáveis) ou uma equipe é preservada imutavelmente, portanto pode ser usada como evidência para o caso. Isso é feito colocando-se um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe dentro equipes será colocada em (subconjunto do conjunto de sites ou de caixa de correio até o destino de consultas ou conteúdo filtrado) de bloqueio In-loco ou retenção de litígio (coleção inteira de caixa de correio ou site), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluir ou editar as mensagens de canal são incluídas na caixa de correio de grupo, imutáveis cópias desse conteúdo são mantidos e estejam disponíveis na pesquisa eDisscovery. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [Este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo para saber mais sobre preservação e isenções na segurança do Office 365 & Centro de conformidade da Ajuda. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitetura de proteção de informações para as equipes da Microsoft. 
 
@@ -87,9 +87,9 @@ A figura a seguir indica que o fluxo de inclusão de reuniões de equipes e dado
 
 ## <a name="retention-policies"></a>Políticas de retenção
 
-As equipes conversas são persistentes e retido para sempre por padrão. Com a introdução das políticas de retenção, admins pode configurar políticas de retenção (preservação e exclusão) no Centro de conformidade de segurança para mensagens de chat e canal de equipes. Isso ajuda as organizações a reter dados para fins de conformidade (isto é, a diretiva de preservação) por um período específico ou se livrar de dados (ou seja, a política de exclusão), se ele é considerado um passivo após um período específico. Políticas de retenção de equipes Certifique-se de que, quando você exclui dados, ele será removido de todos os locais de armazenamento de dados permanentes no serviço equipes. 
+As equipes conversas são persistentes e retido para sempre por padrão. Com a introdução das políticas de retenção, admins pode configurar políticas de retenção (preservação e exclusão) no Centro de conformidade & segurança para mensagens de chat e canal de equipes. Isso ajuda as organizações a reter dados para fins de conformidade (isto é, a diretiva de preservação) por um período específico ou se livrar de dados (ou seja, a política de exclusão), se ele é considerado um passivo após um período específico. Políticas de retenção de equipes Certifique-se de que, quando você exclui dados, ele será removido de todos os locais de armazenamento de dados permanentes no serviço equipes. 
 
-Para gerenciar políticas de retenção de equipes works usar os cmdlets e configurações no Centro de conformidade de segurança do Office 365 em **Dados governança** > **retenção**.
+Para gerenciar políticas de retenção de equipes, use os cmdlets na segurança do Office 365 & Centro de conformidade em um **Governança de dados**e configurações > **retenção**.
 
 Políticas de retenção de equipes têm suporte para: 
     
@@ -102,7 +102,7 @@ Políticas de retenção de equipes ainda não suportam:
 - Políticas de retenção avançadas não se aplicam ao chat de equipes e locais de mensagem de canal de equipes
 - Duração de menos de 30 dias
 
-Administradores podem configurar políticas de retenção separados para mensagens de canal de equipes e chats privadas de equipes (1:1 ou 1: muitos chats). Em muitos casos, as organizações considerar os dados de bate-papo privado como mais de uma obrigação de mensagens de canal, que geralmente são mais conversas relacionados ao projeto. Configurar essas diretivas na Central de segurança e conformidade, **Governança dados** > **retenção**. Ative **equipes mensagens de canal** e **equipes de bate-papos** e, em seguida, definir políticas de retenção desses locais (também é mostradas no diagrama a seguir). 
+Administradores podem configurar políticas de retenção separados para mensagens de canal de equipes e chats privadas de equipes (1:1 ou 1: muitos chats). Em muitos casos, as organizações considerar os dados de bate-papo privado como mais de uma obrigação de mensagens de canal, que geralmente são mais conversas relacionados ao projeto. Configurar essas diretivas na segurança & Centro de conformidade, **Governança dados** > **retenção**. Ative **equipes mensagens de canal** e **equipes de bate-papos** e, em seguida, definir políticas de retenção desses locais (também é mostradas no diagrama a seguir). 
 
 Quando você ativa **as mensagens de canal de equipes**, você pode especificar as equipes ao qual esta política será aplicada. Por exemplo, para as equipes X, Y e Z, o administrador pode definir as políticas de exclusão por 1 ano (selecionando essas equipes individualmente) e aplicar uma política de exclusão de 3 anos para o restante das equipes. 
 
@@ -129,7 +129,7 @@ Para obter informações detalhadas sobre como configurar as políticas de reten
 
 ### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>Quais tipos de políticas podem configurar o modo em políticas de retenção e como elas funcionam?
 
-Na Central de segurança e conformidade, quando você configurar uma política de retenção, para equipes ou para qualquer outra carga de trabalho, você pode configurar dois tipos principais de políticas: 
+No Centro de conformidade & SSecurity, quando você configurar uma política de retenção, para equipes ou para qualquer outra carga de trabalho, você pode configurar dois tipos principais de políticas: 
 - Preservação: Essas políticas garantir que seus dados seja preservados para um determinado período de tempo, não importa o que acontece nas ferramentas do usuário final. Eles garantem que dados são preservados por motivos de conformidade e expira disponíveis no eDiscovery até neste momento. Após o tempo de expiração, sua política pode indicar se deseja fazer nada ou excluir os dados. Em equipes, se você criar uma política de preservação para 7 anos, mesmo se os usuários finais excluir suas mensagens de equipes, essas mensagens são preservadas para descoberta eletrônica por 7 anos.
 - Exclusão: Essas políticas garantem que os dados não são um risco para sua organização. Após o período especificado, os dados são excluídos do todo o armazenamento em equipes relevante. 
 
@@ -159,9 +159,9 @@ Observação: O início do recurso de políticas de retenção para equipes cert
 
 Sim, Skype para Business Online e chats de interoperabilidade de equipes funciona da mesma maneira. Depois que o Skype para chat Business Online entra em equipes, ela se torna uma mensagem em um segmento de bate-papo de equipes e obtém incluída em uma caixa de correio apropriada. Para que o mesmo fluxo works – políticas de exclusão de equipes excluirá essas mensagens do thread equipes. No entanto, se o histórico da conversa está ativado para Skype para Business Online e do Skype para Business Online lado do cliente aqueles estão sendo salvos em uma caixa de correio, esses dados de chat não são tratados por uma política de retenção de equipes.
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Posso fazer essas por meio de cmdlets do Centro de conformidade de segurança? O que devo usar? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Posso fazer essas por meio do Centro de conformidade e segurança cmdlets? O que devo usar? 
 
-Absolutamente. Você pode criar políticas de retenção de equipes usando [cmdlets do Powershell do Centro de conformidade & segurança]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Lembre-se de que não estão cmdlets do Exchange Online. Aqui estão os cmdlets que criamos para equipes. Eles siga o estilo e a nomenclatura existente da retenção cmdlets atualmente disponíveis no Centro de conformidade de segurança.
+Absolutamente. Você pode criar políticas de retenção de equipes usando [cmdlets do Powershell do Centro de conformidade & segurança]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Lembre-se de que não estão cmdlets do Exchange Online. Aqui estão os cmdlets que criamos para equipes. Eles siga o estilo e a nomenclatura existente da retenção cmdlets disponíveis atualmente no Centro de conformidade e segurança.
 
 |Política|Regra|
 |---|---|
@@ -217,7 +217,7 @@ Quando falamos em recursos de proteção de informações, as assinaturas do Off
 |![Ícone de ponto de decisão.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |A sua organização tem as licenças necessárias para atender aos requisitos empresariais de conformidade e segurança?         |
 |![Ícone de próximos passos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Próximos passos         |Revise o licenciamento atual da sua organização e confirme que ele atenda todos os requisitos de negócios para conformidade e segurança.         |
 
-Antes de habilitar qualquer um desses recursos, certifique-se de ter acesso ao Centro de Segurança e Conformidade do centro de administração do Office 365. Por padrão, os administradores de locatários têm acesso.
+Antes de habilitar qualquer um desses recursos, verifique se que você tem acesso ao centro de conformidade & segurança no Centro de administração do Office 365. Por padrão, os administradores de locatários têm acesso.
 
 Pesquisa de conteúdo e descoberta eletrônica não exigem habilitação no Centro de conformidade & segurança.
 
@@ -235,9 +235,9 @@ Para obter mais informações em residência de dados do Canadá para equipes, l
 
 Para saber mais sobre o lançamento do Austrália e Japão residência de dados para equipes, leia a postagem do blog de Varun Sagar, [Microsoft equipes inicia Austrália e Japão dados residência ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Para ver qual região hospeda os dados de seu locatário, vá para o [Centro de administração do Office 365](https://portal.office.com/adminportal/home) > **Configurações** > **Perfil da organização**. Role para baixo até **Local dos dados**. 
+Para ver qual região armazena dados para seu locatário, vá para o [Centro de administração do Office 365](https://portal.office.com/adminportal/home) > **configurações** > **perfil da organização**. Role para baixo até **Local dos dados**. 
 
-![Captura de tela da tabela Local dos dados, inclusive do Microsoft Teams, no Centro de administração do Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Captura de tela da tabela de dados local, incluindo as equipes, no Centro de administração do Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 <a name="how-do-conditional-access-policies-work-for-teams"></a>Como funcionam as políticas de acesso condicional para equipes?
 -------------------------

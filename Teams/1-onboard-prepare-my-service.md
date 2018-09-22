@@ -3,7 +3,7 @@ title: Preparar para implantar o serviço de voz de nuvem Teams da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bf138a4d79fc6fd3533de381a538c88b646db55
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b3191280621e9e8339bf1716e5eafd274170fd6b
+ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882223"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "24062006"
 ---
 # <a name="prepare-my-service"></a>Preparar o meu serviço
 
@@ -50,7 +50,7 @@ Embora seja recomendável que você siga as listas de verificação em ordem, a 
 Quando você estiver inclusão de usuários em uma base por site, é altamente recomendável que você use o [Site Playbook de habilitação para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como um guia suplementar estas listas de verificação.
 
 >[!NOTE]
->A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você pode usar Skype do Office 365 para centro de administração de empresa para definir essas configurações.
+>A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você usar o Centro de administração do Office 365 e equipes & Skype para Business Admin Center para definir essas configurações.
 
 <table>
 <tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela supervisão a conclusão das listas de inclusão de verificação?</li></ul></td></tr>
