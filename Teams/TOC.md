@@ -177,7 +177,7 @@
 ### [Soluções de acessibilidade do Skype for Business Online na França](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## Equipes e canais
 ### [Visão geral de equipes e canais no Teams](teams-channels-overview.md)
-### [Atribuir funções e permissões no Teams](assign-roles-permissions.md)
+### [Atribuir membros em Microsoft Teams e proprietários de equipe](assign-roles-permissions.md)
 ### [Boas práticas para organizar equipes no Teams](best-practices-organizing.md)
 ### [Tutorial: Criar uma equipe englobando toda a empresa usando o PowerShell](company-wide-team-creation-powershell.yml)
 ## [Acesso de convidados](guest-access.md)
@@ -203,6 +203,8 @@
 ### [Gravação de reunião de nuvem de equipes](cloud-recording.md)
 ### [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
 ### [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Interoperabilidade de vídeo de nuvem](cloud-video-interop.md)
+#### [Configurar a interoperabilidade de vídeo de nuvem](cloud-video-interop-for-teams-set-up.md)
 ### Eventos ao vivo
 #### [Quais são as equipes live eventos?](teams-live-events/what-are-teams-live-events.md)
 
@@ -465,8 +467,10 @@
 #### [Idiomas para saudações da caixa postal e mensagens](languages-for-voicemail-greetings-and-messages.md)
 #### [Definir a ID de Chamadas para um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 #### [Configurar o atendedor automático do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemplo de implementação - atendedores automáticos](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurar a caixa postal do Sistema de Telefonia](set-up-phone-system-voicemail.md)
 #### [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
+#### [Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes](answer-auto-attendant-and-call-queue-calls.md)
 ### Roteamento direto de sistema do telefone
 #### [Planejar o roteamento direto](direct-routing-plan.md)
 #### [Configurar o roteamento direto](direct-routing-configure.md)
