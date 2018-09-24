@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c6d3601e72e829f2c00fd166c3b249872e48347
-ms.sourcegitcommit: 63a560c05b4fa3bda3abc31ef5dffe60e61e4d67
+ms.openlocfilehash: e3ee2ac75015f26317f85d6cf4ecf79e71496f0b
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24960951"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975088"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -140,7 +140,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Arquitetura</h3><p>[Vídeo: Fundamentos - componentes principais de equipes](https://www.youtube.com/watch?v=xJBvJTDiQqg)</p>
+                        <h3>Arquitetura</h3><p>[Vídeo: Fundamentos - componentes principais de equipes](http://aka.ms/teams-foundations)</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                     <div class="cardText">
                         <h3>Planejar e implantar</h3>
                          <p>[Início rápido: Guia de Planejamento do Microsoft Teams](quick-start-enable-teams.md)</p>
-                         <p>[Vídeo: Cliente desktop do Windows de equipes](https://www.youtube.com/watch?v=zp1_wGzq1ic)</p>
+                         <p>[Vídeo: Cliente desktop do Windows de equipes](http://aka.ms/teams-clients)</p>
                     </div>
                 </div>
             </div>
