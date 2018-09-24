@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfd6eead5c62865d2c0c00f8719f2e6ec188ff9c
-ms.sourcegitcommit: 43bb1c1355193809c4f297d3dcb535c8b8d5d527
+ms.openlocfilehash: 9caef93f2303458d20c2d7e2142579edaae69748
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24061998"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975112"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -29,6 +29,9 @@ Microsoft Teams possui clientes móveis e disponíveis para a área de trabalho 
 
 <a name="desktop-client"></a>Cliente de desktop
 --------------
+
+> [!Tip]
+> Assista a sessão de seguir para saber mais sobre os benefícios da área de trabalho do Windows, cliente, como planejar para ele e como implantá-la: [Equipes Windows Desktop Client](https://aka.ms/teams-clients)
 
 O cliente de desktop do Microsoft Teams é um aplicativo autônomo e atualmente não faz parte do Office 365 ProPlus. As equipes está disponível para o Windows (7 +), versões de 32 bits e 64 bits e macOS (10.10 +). No Windows, equipes requer o .NET Framework 4.5 ou posterior; o instalador de equipes se oferecerá para instalá-lo se você não tiver a ele. 
 

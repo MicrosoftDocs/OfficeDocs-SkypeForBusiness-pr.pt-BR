@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff969701b9e0641ef09810f00a7aa34410e32b45
-ms.sourcegitcommit: 69d1cea64425f03e562b5fb930493e27b61db96b
+ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
+ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24968263"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24974427"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo de nuvem for Microsoft Teams
 
@@ -88,7 +88,7 @@ Quando essas etapas forem concluídas, os usuários que são habilitados individ
 ## <a name="schedule"></a>Agenda
 
 Em seguida, agende reunião de equipes com coordenadas de interoperabilidade de vídeos. O usuário habilitado pode agendar reuniões de equipes via:
-- Suplemento do Outlook cliente
+- [Suplemento para Outlook reunião de equipes](teams-add-in-for-outlook.md)
 - Cliente de equipes desktop e portáteis
 
 

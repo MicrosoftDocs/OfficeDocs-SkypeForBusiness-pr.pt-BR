@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection: ''
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 0f2fceee07b3c742496be7e9fdf5c714d66f8bc1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 91d188f63a0645d0df81817dd98dbd3ef54418a9
+ms.sourcegitcommit: c864a4b5337960deed01ff8c481326dbbd23c960
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861737"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "24975198"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -136,7 +136,8 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certifica�
 - Raiz do Baltimore CyberTrust
 - Buypass
 - CyberTrust
-- Autoridade de certificação principal pública classe 3 
+- Autoridade de certificação principal pública classe 3
+- Comodo seguro autoridade de certificação raiz
 - Marcos Telekom 
 - CA de raiz Global DigiCert 
 - Entrust
