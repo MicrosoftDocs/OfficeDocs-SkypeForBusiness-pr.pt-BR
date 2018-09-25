@@ -3,7 +3,7 @@ title: Implantar as equipes da Microsoft para o Hub de superfície
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,129 +16,17 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93cc0195f5b8ed0ccbf89315b44fda62d91b60cb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
+ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013631"
+ms.locfileid: "25018582"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
 
 Antes de implantar Teams da Microsoft para Microsoft Surface Hub, certifique-se de que você cumpre o hardware, sistema operacional e outros requisitos. Para obter mais informações, consulte o [guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
-
-## <a name="set-up-user-accounts"></a>Configurar contas de usuário
- 
-Para configurar contas de usuário que podem ser usadas com equipes para o Hub de superfície, crie a conta de dispositivo como faria para suporte com Skype para negócios. A conta do dispositivo precisa ter a autenticação multifator desabilitada (para permitir o logon automático) para os seguintes serviços dependentes de equipes no Office 365:  
-- Exchange 
-- SharePoint 
-- Aplicativos do Office 
-
-## <a name="add-a-device-account"></a>Adicionar uma conta de dispositivo 
-
-1 \. Inicie uma sessão remota do Windows PowerShell em um PC e se conectar ao Exchange. Certifique-se de que você tem as permissões corretas definidas para executar os cmdlets associados. Veja a seguir alguns exemplos de cmdlets que podem ser usados e modificados em seu ambiente.
-
-```
-Set-ExecutionPolicy Unrestricted
-$org='contoso.com'
-$cred=Get-Credential $admin@$org
-$sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ 
--Credential $cred -Authentication Basic -AllowRedirection
-Import-PSSession $sess
-```
-
-2 \. Depois de estabelecer uma sessão, você vai criar uma nova caixa de correio e habilitá-lo como um RoomMailboxAccount ou alterar as configurações de uma caixa de correio de sala existente. Isso permitirá a conta autenticar a equipes.
-
-Se você estiver alterando uma caixa de correio do recurso existente:
-
-```
-Set-Mailbox -Identity 'TEAMS01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-```
-
-Se você criar uma nova caixa de correio para o recurso:
-
-```
-New-Mailbox -MicrosoftOnlineServicesID TEAMS01@contoso.com -Alias TEAMS01 
--Name "Teams-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword
- (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-```
-
-3\. Várias propriedades do Exchange deverão ser definidas na conta de dispositivo para aprimorar a experiência de reunião. Para saber quais propriedades precisam ser definidas, confira a seção Propriedades do Exchange.
-
-```
-Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false
- -DeleteSubject $false -RemovePrivateProperty $false
-Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
-```
-
-4\. Você deverá conectar-se ao Azure Active Directory para aplicar algumas configurações à conta. Para se conectar ao Azure AD, execute o seguinte cmdlet:
-
-```
-Connect-MsolService -Credential $cred
-```
-
-5\. 	Para a senha não expirar, execute o cmdlet Set-MsolUser com a opção PasswordNeverExpires, como a seguir:   
-
-```
-Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
-```
-
-Você também pode definir um número de telefone para a sala da seguinte maneira:
-
-```
-Set-MsolUser -UniversalPrincipalName <upn> -PhoneNumber <phone number>
-```
-
-6\. A conta do dispositivo precisa ter uma licença válida do Office 365 ou Exchange e Skype para negócios não funcionará. Se você tem a licença, deve atribuir um local de uso à conta de dispositivo (isso determina quais SKUs de licença estão disponíveis para sua conta). Você pode usar o Get-MsolAccountSku para recuperar uma lista de SKUs disponíveis para seu locatário do Office 365, da seguinte maneira:
- 
-```
-Get-MsolAccountSku
-```
-
-Em seguida, você pode adicionar uma licença usando o cmdlet Set-MsolUserLicense. Nesse caso, $strLicense é o código de SKU que você vê (por exemplo, contoso:STANDARDPACK).
-
-```
-Set-MsolUser -UserPrincipalName $acctUpn -UsageLocation "US"
-Get-MsolAccountSku
-Set-MsolUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-```
-
-7\. Em seguida, você precisará habilitar a conta de dispositivo com equipes para o Hub de superfície. Certifique-se de que seu ambiente atende aos requisitos definidos no [guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
-
-Iniciar uma sessão do Windows PowerShell remota da seguinte maneira (certifique-se de instalar o Skype para componentes de negócios Online PowerShell):
-
-```
-Import-Module LyncOnlineConnector
-$cssess=New-CsOnlineSession -Credential $cred  
-Import-PSSession $cssess -AllowClobber
-```
-
-Em seguida, habilite suas equipes de conta do Hub de superfície executando o seguinte cmdlet:
-
-```
-Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
-```
-
-Obtenha as informações de RegistrarPool da nova conta de usuário sendo instalação, como mostrado neste exemplo:
-
-```
-Get-CsOnlineUser -Identity $rm | Select -Expand RegistrarPool
-```
-
-> [!NOTE]
-> Novas contas de usuário não podem ser criadas no mesmo pool do registrador contas de usuário existentes no inquilino. O comando acima evitará erros na configuração de conta devido a essa situação. 
-
-Depois de concluir as etapas anteriores para permitir que as equipes de conta do Hub de superfície, você precisa atribuir uma licença para o dispositivo do Hub de superfície v2. Usando o portal administrativo do Office 365, atribua a equipes de licença do Hub de superfície para o dispositivo.
-
-### <a name="assign-a-license-to-the-account"></a>Atribuir uma licença para a conta
-
-1. Faça logon como um administrador de locatários, abra o Centro de administração do Office 365 e clique no aplicativo Administração.
-2. Clique em **usuários e grupos**e clique em **Adicionar usuários, redefinir senhas e muito mais**.
-3. Selecione as equipes de conta do Hub de superfície e, em seguida, clique ou toque no ícone de caneta, o que significa editar.
-4. Clique na opção de **licenças** .
-5. Na seção **Atribuir licenças** , você precisa selecionar o plano, dependendo do seu licenciamento.
-6. Clique em **Salvar** para concluir a tarefa.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalar equipes para o Hub de superfície do repositório de Microsoft 
 
@@ -183,7 +71,7 @@ Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!Ar
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opção 2: Configurar via MDM como Intune 
 
-Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via Intune.
+Use o seguinte para configurar a chamada e reuniões aplicativo política padrão via Intune. Consulte também o blog, [implantar as equipes da Microsoft para aplicativo de superfície Hub usando Intune](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
 
 |Configuração   |Valor    |Descrição    |
 |----------|---------|---------|
@@ -199,5 +87,3 @@ Use o seguinte para configurar a chamada e reuniões aplicativo política padrã
 
 Reinicie o dispositivo do Hub de superfície. Depois que o dispositivo for reiniciado, você poderá iniciar o aplicativo de equipes na tela de início e ingressar em uma reunião do calendário.
 
-> [!NOTE]
-> Se seu dispositivo ou dispositivos de sua organização não atualmente fazem parte do programa Insider Windows e você estiver nos países cobertos pela regulamentação de proteção de dados gerais (GDPR) (ou você tiver alterado manualmente suas configurações de telemetria para básico), em seguida, você deve verificar novamente que você tenha permitido telemetria completa antes de participar do programa Insider. GDPR alterado o comportamento padrão de dispositivos de superfície Hub na UE para definir telemetria como básica.
