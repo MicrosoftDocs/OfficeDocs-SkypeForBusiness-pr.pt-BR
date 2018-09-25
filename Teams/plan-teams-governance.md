@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 048b9dd09e9309c4aaaf1af3b92d7e24f280d088
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 96772bfe77e2100be23c7e38816362b510b3c717
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883248"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002419"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança em equipes
 
@@ -88,7 +88,7 @@ Para obter orientações técnicas sobre como implementar essas configurações,
 
 -   [Configurar a expiração de grupos do Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Configurar políticas de retenção de equipes](security-compliance-overview.md#retention-policies).
+-   [Configurar políticas de retenção de equipes](retention-policies.md).
 
 -   [Arquivo morto ou restauração uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 

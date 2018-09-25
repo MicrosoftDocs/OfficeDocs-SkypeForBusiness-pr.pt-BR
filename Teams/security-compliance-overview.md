@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 331e4d600c26123079315a77d5d99f17496c12a9
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.openlocfilehash: 0ef01893872f1bd53fa420f4b2dc77abb21461c9
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24967427"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002370"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -84,115 +84,6 @@ A figura a seguir indica que o fluxo de inclusão de reuniões de equipes e dado
 
 > [!IMPORTANT]
 > Pode haver até um atraso de 24 horas para descobrir o conteúdo de equipes.
-
-## <a name="retention-policies"></a>Políticas de retenção
-
-As equipes conversas são persistentes e retido para sempre por padrão. Com a introdução das políticas de retenção, admins pode configurar políticas de retenção (preservação e exclusão) no Centro de conformidade & segurança para mensagens de chat e canal de equipes. Isso ajuda as organizações a reter dados para fins de conformidade (isto é, a diretiva de preservação) por um período específico ou se livrar de dados (ou seja, a política de exclusão), se ele é considerado um passivo após um período específico. Políticas de retenção de equipes Certifique-se de que, quando você exclui dados, ele será removido de todos os locais de armazenamento de dados permanentes no serviço equipes. 
-
-Para gerenciar políticas de retenção de equipes, use os cmdlets na segurança do Office 365 & Centro de conformidade em um **Governança de dados**e configurações > **retenção**.
-
-Políticas de retenção de equipes têm suporte para: 
-    
-- Preservação: Manter dados de equipes por um período especificado e, em seguida, eu não fizer nada
-- Preservação e, em seguida, excluir: manter dados de equipes por um período especificado e excluir
-- Exclusão: Excluir dados de equipes após um período especificado
-
-Políticas de retenção de equipes ainda não suportam:
-
-- Políticas de retenção avançadas não se aplicam ao chat de equipes e locais de mensagem de canal de equipes
-- Duração de menos de 30 dias
-
-Administradores podem configurar políticas de retenção separados para mensagens de canal de equipes e chats privadas de equipes (1:1 ou 1: muitos chats). Em muitos casos, as organizações considerar os dados de bate-papo privado como mais de uma obrigação de mensagens de canal, que geralmente são mais conversas relacionados ao projeto. Configurar essas diretivas na segurança & Centro de conformidade, **Governança dados** > **retenção**. Ative **equipes mensagens de canal** e **equipes de bate-papos** e, em seguida, definir políticas de retenção desses locais (também é mostradas no diagrama a seguir). 
-
-Quando você ativa **as mensagens de canal de equipes**, você pode especificar as equipes ao qual esta política será aplicada. Por exemplo, para as equipes X, Y e Z, o administrador pode definir as políticas de exclusão por 1 ano (selecionando essas equipes individualmente) e aplicar uma política de exclusão de 3 anos para o restante das equipes. 
-
-Você pode fazer a mesma coisa por **equipes chats** selecionando usuários específicos e aplicar políticas de retenção exclusivo. 
-
-![Diagrama do fluxo de trabalho dos dados do Microsoft Teams para o Exchange e o SharePoint.](media/Retention-Policies.png)
-
-
-> [!IMPORTANT]
-> Os locais de mensagem do canal de equipes e os locais de chats de equipes apenas endereços as conversas de equipes armazenadas em caixas de correio Exchange Online (caixas de correio grupo e usuário). As mensagens são excluídas de todos os locais de armazenamento relevantes, notadamente as caixas de correio, substrate e serviço de bate-papo. 
-> 
-> Para gerenciar políticas de retenção para arquivos de equipes, que são armazenados no OneDrive para negócios e do SharePoint, use suas políticas de retenção.
-
-
-
-
-Por design, as políticas de exclusão para arquivos de equipes são configuradas por meio do SharePoint Online e OneDrive para locais de negócios. Como resultado, é possível que uma política foi possível excluir um arquivo referenciado em uma mensagem de bate-papo ou canal de equipes antes que essas mensagens são excluídas. Nesse caso, o arquivo ainda serão exibidas na mensagem de equipes, mas se você clicar no arquivo, você receberá um erro "Arquivo não encontrado" (Isso também pode acontecer na ausência de uma política, se alguém manualmente exclui um arquivo do SharePoint Online ou do OneDrive for Business).
-
-
-Para obter informações detalhadas sobre como configurar as políticas de retenção para o Office 365, leia a [Visão geral das políticas de retenção](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
- 
-
-## <a name="retention-policies-faq"></a>Perguntas frequentes sobre as políticas de retenção
-
-### <a name="what-types-of-policies-can-i-setup-in-retention-policies-and-how-do-they-work"></a>Quais tipos de políticas podem configurar o modo em políticas de retenção e como elas funcionam?
-
-No Centro de conformidade & SSecurity, quando você configurar uma política de retenção, para equipes ou para qualquer outra carga de trabalho, você pode configurar dois tipos principais de políticas: 
-- Preservação: Essas políticas garantir que seus dados seja preservados para um determinado período de tempo, não importa o que acontece nas ferramentas do usuário final. Eles garantem que dados são preservados por motivos de conformidade e expira disponíveis no eDiscovery até neste momento. Após o tempo de expiração, sua política pode indicar se deseja fazer nada ou excluir os dados. Em equipes, se você criar uma política de preservação para 7 anos, mesmo se os usuários finais excluir suas mensagens de equipes, essas mensagens são preservadas para descoberta eletrônica por 7 anos.
-- Exclusão: Essas políticas garantem que os dados não são um risco para sua organização. Após o período especificado, os dados são excluídos do todo o armazenamento em equipes relevante. 
-
-### <a name="can-we-include-teams-in-org-wide-policies"></a>Podemos incluir equipes em políticas de toda a organização? 
-
-Não, não no momento. Você deve criar políticas específicas para mensagens de chat e canal de equipes usando a linha de local de equipes ou esses cmdlets equipes: [New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps) & [New-TeamsComplianceRetentionRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps). Esses cmdlets ter get e definir as versões também.
-
-### <a name="are-these-retention-policies-retroactive"></a>Essas políticas de retenção são retroativas? 
-
-Sim, eles são. Se você criar uma política de retenção para excluir os dados mais antigos do que 60 dias, ele excluirá dados de equipes criados há mais de 60 dias. 
-
-### <a name="what-is-the-default-retention-policy"></a>Qual é a política de retenção padrão? 
-
-Por padrão, o bate-papo equipes, de canal e dados de arquivos são mantidos indefinidamente. Um usuário pode excluir alguma coisa, mas na ausência de políticas de retenção, dados de equipes sempre serão arquivados no Exchange online mailboxes. (de usuário e de grupo) em permanecem lá para descoberta eletrônica. 
-
-### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Conjuntos de usuários ou equipes em uma política pode direcionar? 
-
-Sim, você deve fazer. No Assistente de criação de política, na etapa locais, pode incluir ou excluir usuários (**chat equipes**) ou equipes (**mensagens de canal de equipes**) e criar políticas de destino para a sua organização. 
-
-### <a name="what-is-the-main-difference-between-using-the-group-mailbox-location-row-and-teams-channel-messages-location-row-in-retention-policies"></a>O que é a principal diferença entre usando a linha do local de caixa de correio de grupo e a linha de local de mensagens de canal de equipes em políticas de retenção? 
-
-Se você usar a caixa de correio de grupo e linhas de local de caixa de correio do usuário para o Exchange Online, equipes de dados serão excluídas das caixas de correio especificadas. No entanto, isso só remove dados da caixa de correio. Ela não exclui os outros dados de equipes, como o serviço de bate-papos. É recomendável usar políticas de retenção de equipes para gerenciar todos os dados de equipes de forma adequada. Uma política de retenção de equipes remove dados de equipes de todos os armazenamento locais – caixas de correio, serviço de Chat, os clientes de equipes. 
-
-Observação: O início do recurso de políticas de retenção para equipes certifica-se de que apenas as políticas de equipes excluir itens de equipes armazenados em locais de caixa de correio do Exchange (usuário ou grupo). A instalação de outras políticas em caixas de correio não pode afetar a itens de equipes. Isso era true no passado, mas foi corrigido com o lançamento do recurso de políticas de retenção. 
-
-### <a name="what-happens-to-skype-for-business-online-and-teams-interop-chats--are-they-affected-by-retention-policies"></a>O que acontece com Skype para chats de interoperabilidade Business Online e equipes – eles são afetados pelas políticas de retenção?
-
-Sim, Skype para Business Online e chats de interoperabilidade de equipes funciona da mesma maneira. Depois que o Skype para chat Business Online entra em equipes, ela se torna uma mensagem em um segmento de bate-papo de equipes e obtém incluída em uma caixa de correio apropriada. Para que o mesmo fluxo works – políticas de exclusão de equipes excluirá essas mensagens do thread equipes. No entanto, se o histórico da conversa está ativado para Skype para Business Online e do Skype para Business Online lado do cliente aqueles estão sendo salvos em uma caixa de correio, esses dados de chat não são tratados por uma política de retenção de equipes.
-
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Posso fazer essas por meio do Centro de conformidade e segurança cmdlets? O que devo usar? 
-
-Absolutamente. Você pode criar políticas de retenção de equipes usando [cmdlets do Powershell do Centro de conformidade & segurança]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Lembre-se de que não estão cmdlets do Exchange Online. Aqui estão os cmdlets que criamos para equipes. Eles siga o estilo e a nomenclatura existente da retenção cmdlets disponíveis atualmente no Centro de conformidade e segurança.
-
-|Política|Regra|
-|---|---|
-|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
-|[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
-|[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
-
-### <a name="if-there-are-multiple-retention-policies-for-teams-with-varying-durations-which-one-wins"></a>Se houver várias políticas de retenção para equipes variadas durações, qual delas wins?
-
-Podemos seguem [princípios das políticas de retenção](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)e recomendamos que você faça muito. A resposta curta é: 
--   Preservação sempre supera exclusão
--   Maior período de preservação sempre wins
--   Inclusão explícita supera implícita inclusão em termos de locais
--   Mais curta wins período de exclusão
-
-
-
-## <a name="retention-policies-known-issues"></a>Problemas conhecidos de políticas de retenção
-
-1. Em Escolha equipes na linha local de mensagens do canal de equipes, talvez você veja os grupos do Office 365 que são não também às equipes. Isto será abordado no futuro.
-
-1. Em Escolha usuários na linha local equipes de bate-papo, talvez você veja convidados e os usuários não-mailbox. Políticas de retenção não devem ser definidos para convidados e estamos trabalhando para removê-los da lista. 
-
-1. Assistente de ciclo de vida do Exchange (ELC) executado diariamente, mas ele tem um SLA de 7 dias. Como resultado, é possível que, se você tiver uma política de retenção de equipes para excluir itens mais antigos do que 60 dias, esses itens poderiam persistem até 67 dias. Isso não é uma nova situação - vier o modelo do Exchange. Obviamente, na maioria dos casos, não há nenhum atraso.
-
-
-| | | |
-|---------|---------|---------|
-|![Ícone de ponto de decisão.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |Quais são os recursos de segurança e conformidade exigidos pela sua organização? A sua organização tem as licenças necessárias para atender aos requisitos empresariais de segurança e conformidade?         |
-|![Ícone de próximos passos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Próximos passos         |Documente seus recursos de segurança e conformidade necessários.         |
 
 <a name="licensing"></a>Licenças
 ---------------

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: cb0955dcb695b0431e73b1f575087b06ec3b0449
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
+ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965731"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "25002386"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2015
  
@@ -111,7 +111,8 @@ Esta tabela abrange os recursos relacionados ao suporte a mensagens instantânea
 Esta tabela abrange os recursos relacionados ao suporte a reuniões.
   
 > [!NOTE]
->  Skype para recursos de reunião de negócios não estão disponíveis no Skype para negócios Online Standalone plano 1.
+>  Skype para recursos de reunião de negócios não estão disponíveis no Skype para negócios Online Standalone plano 1.  Plano 1 está sendo [desativado](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement
+).
 
 Nas sessões de Skype para Skype, um usuário do Skype for Business Online Plan 1 poderá participar do compartilhamento de área de trabalho e de compartilhamento de aplicativos se tiver sido convidado por um usuário que tem acesso aos recursos de compartilhamento.   
 Para obter detalhes, consulte o [Skype para negócios Online Service Description](https://technet.microsoft.com/library/jj822172.aspx). 
