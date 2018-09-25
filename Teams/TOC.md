@@ -40,6 +40,7 @@
 ## [Permita que as equipes em sua organização](Office-365-set-up.md)
 ## [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
 ### [Gerenciar equipes durante a transição para o novo Teams Microsoft & Skype para Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+### [Gerenciar equipes no Skype para Business Admin Center & equipes da Microsoft](manage-teams-in-modern-portal.md)
 ### [Atribuir membros em equipes e proprietários de equipe](assign-roles-permissions.md)
 ### [Publicar aplicativos no catálogo de aplicativos do inquilino de equipes](tenant-apps-catalog-teams.md)
 ### [Configurar o aplicativo de reuniões Skype para trabalhar com equipes](configure-skype-meetings-app-to-work-with-teams.md)
@@ -78,6 +79,7 @@
 <!-- ============================================================ -->
 # [Atualização do Skype for Business para equipes](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Jornada de migração do Skype for Business para o Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Treinamento ministrado por instrutor para equipes](instructor-led-training-teams-landing-page.md)
 ## [Atualização básica](upgrade-basic.md)
 ### [Pesquisas e emails de amostra](upgrade-emails-surveys.md)
 ## [Atualizar Pro](upgrade-pro.md)
@@ -131,6 +133,7 @@
 
 <!-- ============================================================ -->
 # Treinamento
+## [Treinamento ministrado por instrutor para equipes](instructor-led-training-teams-landing-page.md)
 ## [Treinamento para o administrador do Teams](itadmin-readiness.md)
 ## [Treinamento para o usuário final do Teams](enduser-training.md)
 ## [Vídeos - Audioconferência no Teams](audio-conferencing-videos.md)
