@@ -5,17 +5,18 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams.
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14b7003ca1ccecd0574e9c7e06de5cd81d85547e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851171"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014175"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reunião de nuvem de equipes
 
@@ -36,7 +37,7 @@ Para reuniões do usuário equipes seja gravada, Microsoft Stream devem ser habi
 - Usuário aceitou as diretrizes da empresa, se configurado pelo administrador
 - Usuário tem armazenamento suficiente em Stream da Microsoft para gravações seja salvo
 - Usuário tem TeamsMeetingPolicy-AllowCloudRecording configuração definida como true
-- Usuário tem TeamsMeetingPolicy.AllowTranscription configuração definida como true, para que o usuário pode escolher se deseja transcrever automaticamente as gravações
+- Usuário tem TeamsMeetingPolicy-AllowTranscription configuração definida como true, para que o usuário pode escolher se deseja transcrever automaticamente as gravações
 - Usuário não é um anônimo, convidado ou usuário federado na reunião
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar a gravação de reunião de nuvem de equipes para usuários em sua organização
@@ -118,7 +119,7 @@ As gravações de reunião são consideradas conteúdo pertencentes a locatário
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformidade e eDiscovery para gravações da reunião
 As gravações de reunião são armazenadas no Microsoft Stream, que é 365 Office camada-C compatível. Para oferecer suporte a solicitações de descoberta eletrônica para os administradores de conformidade que estiverem interessados em gravações de reunião ou chamada de Streams da Microsoft, a mensagem de gravação concluídas está disponível na funcionalidade de pesquisa de conteúdo de conformidade for Microsoft Teams. Administradores de conformidade podem procurar a palavra-chave "gravação" na linha de assunto do item na visualização da pesquisa de conteúdo de conformidade e descobrir reunião e os registros de chamada na organização. Um pré-requisito para que eles possam exibir todas as gravações é que eles precisam ser configurados no Microsoft Stream com acesso de administrador. Saiba mais sobre a [atribuição de permissões de administrador no fluxo](https://docs.microsoft.com/stream/assign-administrator-user-role).
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o Centro de administração do Office 365, como quando você estiver fazendo alterações de configuração de muitos usuários de uma só vez. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 

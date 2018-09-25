@@ -7,10 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 3c2db9a5-3a19-4e19-b59e-8e5587f25d31
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba do que você precisa e como os organizadores da reunião podem ligar para outras pessoas usando o Teams.
-ms.openlocfilehash: 498f03e5ff42c3c99b6e151c05e1c6174054db46
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892990"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012733"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião do Microsoft Teams para que outras pessoas possam participar
 
-Como organizador da reunião, é possível discar usando um aplicativos do Teams para permitir que outras pessoas participem da mesma reunião usando o telefone. Apesar de não ser necessário, ao discar para alguém, recomenda-se discar o número completo, incluindo o código do país/região. Para que a discagem funcione:
+Como organizador da reunião, você pode discar usando o aplicativo de equipes para permitir que outras pessoas ingressem na reunião mesma usando seus telefones. Apesar de não ser necessário, quando estiver discando para alguém, recomenda-se que você disque o número completo, incluindo o código do país/região. Para que a discagem funcione:
   
 - Disque somente se você participar de uma reunião usando o Teams.
     
@@ -47,7 +48,7 @@ Como organizador da reunião, é possível discar usando um aplicativos do Teams
   
 ## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
 
-A discagem está disponível apenas para alguns países/regiões. Para ver a lista completa, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+A discagem está disponível apenas para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Deseja saber mais sobre audioconferência?
 

@@ -11,15 +11,15 @@ description: Use estas diretrizes se você estiver em uma grande organização o
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff25edcfc24df1040aa7d23606e62d4beccb08dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e3faa5874071f7587f94cf4f1719b877a9aed1d4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891502"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013663"
 ---
 # <a name="upgrade-pro"></a>Atualizar Pro
 
@@ -113,5 +113,5 @@ Em andamento: Manter momentum e a integridade da sua implantação de equipes op
 > Nosso conteúdo de profissionais de atualização está em constante evolução. Certifique-se de verificar novamente as orientações mais recentes e leia o [blog de equipes](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Se você for um administrador no seu locatário do Office 365, você pode iniciar ver as opções de atualização em seu cmdlet do PowerShell ou equipes Admin Center. Ter a opção de atualização não necessariamente significa que sua organização está pronta para que essa alteração. Para uma experiência de usuário ideal, confirme que as equipes atende aos seus requisitos de colaboração e comunicação, validar que sua rede está pronta para equipes de suporte e implementar seu plano de preparação do usuário antes de atualizar os usuários para equipes.
+> Se você for um administrador no seu locatário do Office 365, você pode iniciar ver as opções de atualização em seu cmdlet do PowerShell ou equipes & Skype para Business Admin Center. Ter a opção de atualização não necessariamente significa que sua organização está pronta para que essa alteração. Para uma experiência de usuário ideal, confirme que as equipes atende aos seus requisitos de colaboração e comunicação, validar que sua rede está pronta para equipes de suporte e implementar seu plano de preparação do usuário antes de atualizar os usuários para equipes.
  

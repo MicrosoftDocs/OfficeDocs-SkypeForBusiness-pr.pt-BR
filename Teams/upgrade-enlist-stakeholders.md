@@ -11,15 +11,15 @@ description: Inscrever-se os participantes para servir na equipe do projeto para
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe32df433159512d4e24d2bde7c2db76db23c32a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883277"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013029"
 ---
 ![Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto] (media/upgrade-banner-stakeholders.png "Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto")
 
@@ -54,7 +54,7 @@ Opcionalmente, você pode criar um comitê de orientação. Em alguns casos, gra
 | Líder de rede                    | Fornece ideias sobre o design de rede e em execução                             | 
 | Líder de segurança                   | Fornece ideias sobre o design de segurança, processo e implementação             | 
 | Líder de comunicação síncrona | É o proprietário de ferramentas, como o bate-papo, reuniões e a chamada de presença                       | 
-| Colaboração assíncrona ministrada  | É proprietário assíncrona ferramentas, como o SharePoint, OneDrive e assim por diante               | 
+| Líder de colaboração assíncrona  | É proprietário assíncrona ferramentas, como o SharePoint, OneDrive e assim por diante               | 
 | Líder de telefonia                  | Fornece visões telefonia design e implementação                      | 
 | Proprietário de serviço / campeão de qualidade | Proprietário da operação de todas as equipes-up, incluindo a qualidade da experiência do usuário | 
 | Área de trabalho e de avanço de dispositivos        | Fornece uma entrada em clientes, dispositivos e aplicativos de área de trabalho                          | 

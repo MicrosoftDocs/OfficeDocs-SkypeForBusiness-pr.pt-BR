@@ -9,16 +9,16 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Medir os resultados da sua conferência de áudio, o sistema telefônico com planos de chamar ou implantação de roteamento direto de sistema do telefone e verifique se que você tiver obtido os resultados que você queria.
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Teams_ITAdmin_PracticalGuidance
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a285d1e1fdbf11c2450a47725330f95e9d56ab50
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5ceaf269b66678be042eaad7fc9d27465104b274
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884421"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015273"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 

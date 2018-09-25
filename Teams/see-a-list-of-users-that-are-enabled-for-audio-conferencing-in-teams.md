@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: bd0cd155-4c6d-424d-a2c9-af7974a2d34c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como visualizar uma lista de usuários da sua organização habilitados para conferência discada a partir do Microsoft Teams. '
-ms.openlocfilehash: 9bbdd5fd8536554c942db19c8c9f5ac41789c461
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884443"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014031"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários habilitados para audioconferência no Microsoft Teams
 
-Depois de habilitar os usuários do Microsoft Teams da sua empresa para audioconferência, você poderá ver a lista de usuários habilitados. Ao olhar para a lista, você também verá o tipo de provedor de audioconferência padrão que cada usuário está usando, o número de telefone de discagem padrão do usuário e, se sua empresa não estiver habilitada para IDs de conferência dinâmicos, os IDs de conferência estáticos para as reuniões de audioconferência que eles organizam.
+Após ter habilitado os usuários do Microsoft Teams na sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados. Quando você examinar a lista, você verá também para cada usuário na lista o tipo de provedor de serviços de audioconferência que estão usando, o número de telefone de discagem padrão para o usuário, e se a sua organização não está habilitada para IDs de conferência dinâmico, as IDs de conferência estático para reuniões de conferência de áudio que eles organizam.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
