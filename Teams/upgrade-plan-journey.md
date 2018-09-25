@@ -11,15 +11,15 @@ description: Planejar a sua atualização inscrever participantes primeiro e, em
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07c592f8f3ef6e1021805766189e9c1cd522e8ab
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0a250c41aae8712db3964d04d375ecc834cf5d0d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883225"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017789"
 ---
 ![Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto à direita. Defina o escopo do projeto, metas e linha do tempo. Confirme preparação técnico e do usuário. Execute o seu plano de distribuição. Manter momentum para maximizar os resultados.] (media/upgrade-banner-main.png "Comece sua jornada de atualização")
 

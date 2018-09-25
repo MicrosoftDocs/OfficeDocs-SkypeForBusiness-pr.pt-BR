@@ -6,10 +6,10 @@ manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -19,18 +19,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar como os organizadores podme usar os números gratuitos para suas reuniões.
-ms.openlocfilehash: 6d37fdb6e85f6c1325c4ebea179ad54aab91fa4c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 158a4b31b0aaf65414af0d2119b3b6931a1f74ac
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887376"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014689"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Desativar números gratuitos para usuários específicos do Teams
 
 Se a sua organização tem números gratuitos na Ponte de Audioconferência da Microsoft, é possível permitir ou impedir o uso deles em reuniões de organizadores específicos.  
 
-Por padrão, todos os usuários da sua organização estão habilitados para usar números gratuitos, o que significa que esses números, se disponíveis, podem ser usados pelos participantes para participar de suas reuniões. Se esse não for o comportamento desejado para alguns usuários da sua organização, será possível restringir o uso desses números por usuários específicos em reuniões através de um controle de ativação de números gratuitos. 
+Por padrão, todos os usuários em sua organização estão habilitados para o uso de números para ligações gratuitas, que significa que esses números, se estiver disponível, podem ser usados pelos participantes ingressem em suas reuniões. Se isso não for o comportamento desejado para alguns usuários em sua organização, você pode impedir usuários específicos usando esses números em suas reuniões por meio de um controle de habilitação de números gratuitos. 
 
 Quando os números gratuitos são desativados para um determinado organizador: 
  - Seus convites de reunião não conterão mais um número gratuito. 

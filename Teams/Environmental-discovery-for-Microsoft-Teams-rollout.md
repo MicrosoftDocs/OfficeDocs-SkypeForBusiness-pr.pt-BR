@@ -10,15 +10,15 @@ ms.reviewer: dearbeen
 description: Como executar uma descoberta ambiental detalhada à medida que você planeja sua jornada do Skype para negócios a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fabfa08eb4e97e9be9cab261c538ead846a0356
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: da2519ba307f8365b384e98a5a07efd92ba8b051
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889316"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017163"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta de ambiente para uma distribuição Teams da Microsoft
 ===================================================

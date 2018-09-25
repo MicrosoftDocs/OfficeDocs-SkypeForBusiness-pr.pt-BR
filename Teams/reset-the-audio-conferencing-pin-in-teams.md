@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 67866a47-89c1-4593-8766-3a68777e2be6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Microsoft Teams. '
-ms.openlocfilehash: 9c63df504150dce7ba1d46329fc86a27c75ced8d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892950"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25014247"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
-Um PIN é um código composto de números que é criado para cada usuário do Microsoft Teams habilitado para audioconferência. Os PINs de audioconferência são usados pelos organizadores da reunião para identificá-los e permitir que iniciem uma reunião por telefone. Se usarem o aplicativo Microsoft Teams para iniciar a reunião, o PIN não será necessário. Se o usuário esquecer o PIN e não conseguir encontrá-lo no e-mail enviado quando ele foi habilitado para a audioconferência, um administrador precisará redefinir o PIN ou ele poderá redefinir o próprio PIN.
+Um PIN é um código formado por números que são criados para cada usuário do Microsoft Teams que esteja habilitado para serviços de audioconferência. PINs de conferência de áudio são usados pelo organizadores de reunião para identificar se eles são o organizador da reunião e permitir que eles se iniciar uma reunião por telefone. Se eles usarem o aplicativo Microsoft Teams para iniciar a reunião, um PIN não é exigido. Se os usuários se esquecer seu PIN e eles não é possível encontrá-lo no email que foi enviado para acessá-los quando eles foram habilitados para conferência de áudio, um administrador pode redefinir seu PIN, ou eles podem redefinir o PIN de seu próprios.
   
-As reuniões podem ser iniciadas quando um usuário autenticado entra usando o aplicativo Microsoft Teams ou quando o organizador entra com o PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
+Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando o aplicativo Microsoft Teams ou quando o organizador ingressa com seu PIN por telefone. Se a reunião exigir um PIN para ser iniciada, os usuários que entrarem por telefone serão colocados no lobby e esperarão ouvindo música até que a reunião seja iniciada. Se o organizador de uma reunião não exigir um PIN para iniciar a reunião por telefone, os chamadores não precisarão fornecer um PIN para participar.
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
@@ -52,19 +52,19 @@ As reuniões podem ser iniciadas quando um usuário autenticado entra usando o a
 
 ## <a name="what-else-should-you-know-about-pins"></a>O que mais você precisa saber sobre PINs?
 
-- Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN for redefinido por um administrador, ele será listado como ***********.
+- Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN é redefinido por um administrador, o PIN será listado como * * *.
     
-- O envio automático de e-mails para os usuários está habilitado por padrão e os usuários receberão um e-mail com o PIN quando forem habilitados para audioconferência ou quando o PIN for redefinido. Entretanto, se você tiver desabilitado o envio automático de e-mails, o e-mail de redefinição de PIN não será enviado para o usuário e você precisará enviar manualmente as informações do PIN para o usuário.
+- Automaticamente enviando emails para usuários é habilitado por padrão e os usuários receberão um email com o PIN quando elas são habilitadas para conferência de áudio ou quando o PIN ser redefinido. Mas, se você desabilitou automaticamente enviando e-mails, um email de redefinição PIN não será enviado a um usuário e você terá que enviar manualmente as informações de PIN para o usuário.
     
 - Quando uma reunião for iniciada, todos os usuários do lobby serão conectados automaticamente. Por exemplo, se dois participantes tentarem participar de uma reunião antes que ela seja iniciada, eles serão colocados no lobby e esperarão ouvindo música. Quando o organizador da reunião participar usando o PIN por telefone, a reunião será iniciada e os participantes do lobby entrarão na reunião.
     
 - A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
     
-- Ao habilitar um usuário para audioconferência, e-mails com as informações da conferência e o PIN são enviados por padrão. O usuário deve ter uma caixa de correio do Office 365, pois, quando um PIN é redefinido, um novo PIN é enviado ao usuário por e-mail para o endereço SMTP principal (alias) definido para ele.
+- Quando você habilita um usuário para conferência de áudio, por padrão, eles são enviados emails que incluem informações de conferência e o PIN. O usuário deve ter uma caixa de correio do Office 365, como quando um PIN é redefinido, um novo PIN será enviado ao usuário no email para seu endereço SMTP principal (alias) que está definido para o usuário.
     
-- Quando você configura serviços de audioconferência, você pode definir os dígitos que são necessários para os PINs em sua organização. Os PINs podem ter de 4 a 12 dígitos, o padrão é 5. Se você alterar a configuração do tamanho do PIN, a configuração será aplicada somente aos PINs recém-gerados e não será aplicada à configuração do PIN para usuários existentes que estejam habilitados para audioconferência. Consulte [Definir o tamanho do PIN para reuniões de audioconferência](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
+- Quando você configura serviços de audioconferência, você pode definir os dígitos que são necessários para os PINs em sua organização. PINs podem ter somente de 4 a 12 dígitos, o padrão é 5. Se você alterar a configuração do tamanho do PIN, a configuração será aplicada somente aos PINs recém-gerados e não será aplicada à configuração do PIN para usuários existentes que estejam habilitados para audioconferência. Consulte [definir o comprimento do PIN para reuniões de conferência de áudio](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md).
     
-- Por padrão, o email será definido como o endereço SMTP principal do Office 365 do usuário. Você pode enviar um email para um endereço que não seja do Office 365, como um endereço de email do Hotmail ou do MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso é útil se os usuários não têm uma caixa de correio do Exchange no Office 365.
+- Por padrão, o email será definido como o endereço SMTP principal do Office 365 do usuário. Você pode enviar um email para um endereço que não seja do Office 365, como um endereço de email do Hotmail ou do MSN. Você pode substituir o endereço de email padrão usando o Windows PowerShell. Isso é útil se os usuários não tiverem uma caixa de correio do Exchange no Office 365.
 
     
 

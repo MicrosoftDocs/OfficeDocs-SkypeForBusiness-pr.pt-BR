@@ -5,16 +5,17 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Saiba como usar o Windows PowerShell para gerenciar todos os recursos encontrados no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3deddb614be2ad5ee1389dcf53d8dab749a8567b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855641"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016073"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Usando o PowerShell para gerenciar equipes
 

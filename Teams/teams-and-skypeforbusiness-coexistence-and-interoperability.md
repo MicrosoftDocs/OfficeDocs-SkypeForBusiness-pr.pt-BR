@@ -3,7 +3,7 @@ title: Entender a coexistência e interoperabilidade do Skype para Teams da Micr
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 09/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -11,15 +11,15 @@ description: Detalhes do Skype para opções de coexistência de negócios e Tea
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06e425f062c47f8fa05fa69e1354fee472804e90
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887566"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25013405"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -48,13 +48,13 @@ Por padrão, os usuários podem executar as equipes junto com Skype para negóci
 Neste modo de coexistência, chamado **Ilhas**, cada um dos aplicativos cliente opera como uma ilha separada. Skype para fala de negócios para Skype for Business e equipes conversa com equipes. Os usuários executar ambos os clientes e podem se comunicar nativamente no cliente do qual a comunicação foi iniciada. Sendo assim, não é necessário para interoperabilidade no modo de **Ilhas** .
 
 > [!Tip]
-> A maioria das organizações tendem a implantação em modo **Ilhas** . Se você planeja mover para equipes rapidamente e você não espera suportar a coexistência de long, é recomendável que usar o modo de **Ilhas** . 
+> Quando os modos de futuros modos **Somente equipes** e **Skype for Business com colaboração de equipes** estão disponíveis, o modo de padrão para novos usuários online deve ser o **Skype for Business com colaboração de equipes**, até que a sua organização está pronta para Mova para **Equipes apenas**.   Os usuários existentes no modo de **Ilhas** devem mover diretamente para o modo **Somente equipes** assim que sua organização está pronta. 
 
 ### <a name="skype-for-business-only"></a>Skype para negócios apenas
 
 Neste modo de coexistência, usuários permanecem no Skype para negócios — não às equipes — para bate-papo, reunião e chamando os recursos e eles não usam equipes para equipes e canais. Esse modo está disponível atualmente; No entanto, na implementação atual modalidades de equipes não sejam desativadas para o usuário automaticamente. Esse recurso é futuro. Enquanto isso, os administradores podem remover a licença de equipes para todos os usuários que precisam ficar em Skype para negócios como seu aplicativo de comunicação somente.
 
-### <a name="teams-only-this-mode-is-rolling-out-starting-in-summer-2018"></a>As equipes apenas (esse modo é aplicação iniciada no verão 2018)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>As equipes apenas (esse modo iniciado sem interrupção abrindo verão 2018 e serão completadas a todos os locatários por queda 2018)
 
 Assim que sua organização está pronta para alguns ou todos os usuários usem equipes como seu única ferramenta de comunicação e colaboração, você pode atualizar esses usuários para o modo de **equipes apenas** .
 
@@ -87,6 +87,7 @@ Para obter mais detalhes sobre modos de coexistência, pré-requisitos e gerenci
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>Interoperabilidade de equipes e Skype para negócios
 
 Interoperabilidade é a capacidade para equipes e Skype para usuários comerciais na mesma organização se comunicarem através de equipes e Skype para negócios.
+
 
 ### <a name="native-interop-and-interop-escalation"></a>Escalonamento de interoperabilidade e interoperabilidade nativo
 

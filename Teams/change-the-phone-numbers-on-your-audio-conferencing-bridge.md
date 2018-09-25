@@ -7,9 +7,12 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 6403f6d1-c05a-44ab-a6e0-558000e246f4
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: 32376134a6faa6944c6a4bb3e36a92cf3407ebce
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23892490"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016745"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone de sua ponte de audioconferência
 
@@ -46,7 +49,7 @@ Além dos números já atribuídos a sua ponte de conferência, você pode [obte
 
 1. Entre no Office 365 com sua conta corporativa.
 
-2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **voz** > **números de telefone**.
+2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **equipes & Skype** > **portal herdada** > **voz** > **números de telefone**.
 
 3. Selecione o número de telefone da lista e, no painel de ações, clique em **atribuir**.
 
@@ -65,7 +68,7 @@ Os números de telefone padrão para o usuário são aqueles incluídos em seus 
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **audioconferências** > **usuários** e selecione os usuários na lista.
+2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **equipes & Skype** > **portal herdada** > **audioconferências** > **usuários** e selecione os usuários na lista.
 
 3. Clique em **Editar** no painel de ação.
 
@@ -129,7 +132,7 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios** > **voz** > **números de telefone**.
+2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **equipes & Skype** > **portal herdada** > **voz** > **números de telefone**.
 
 3. Selecione o número de telefone da lista e, no painel de ações, clique em **não atribuído**.
 

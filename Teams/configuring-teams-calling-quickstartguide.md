@@ -10,15 +10,17 @@ ms.reviewer: MyAdvisor, lolaj
 search.appverid: MET150
 description: Guia de Início Rápido para configurar Planos de Chamadas no Microsoft Teams.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a4862a547df6f50d0831616a42824d9f8c3287
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882094"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015929"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -35,7 +37,7 @@ Com a inclusão dos Planos de Chamadas, um recurso do Office 365 acionado pelo S
 ![Fazendo chamadas no Microsoft Teams](media/Calling_in_Teams.png)
 
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilitar a guia **Chamadas** no Microsoft Teams
-Para habilitar a guia **Chamadas** no Microsoft Teams e permitir que os usuários façam e recebam chamadas PSTN, será necessário provisionar os usuários para o Sistema de Telefonia e os Planos de Chamadas. Para saber como configurar, leia [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
+Para habilitar a guia **Chamadas** no Microsoft Teams e permitir que os usuários façam e recebam chamadas PSTN, será necessário provisionar os usuários para o Sistema de Telefonia e os Planos de Chamadas. Para saber como configurar isso, leia [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuração da política de interoperabilidade do Teams
 Para permitir que o Teams comece a receber chamadas, você precisa atualizar a política de atualização do Teams e a política de interoperabilidade do Teams usando o [Centro de Administração do Microsoft Teams e do Skype for Business](https://aka.ms/teamsadmincenter) ou uma sessão remota do Windows PowerShell com os cmdlets do Skype for Business [`*-CsTeamsUpgradePolicy` e do `*-CsTeamsInteropPolicy`](https://docs.microsoft.com/powershell/module/skype) para redirecionar chamadas ao Teams.
@@ -46,7 +48,7 @@ Para obter mais informações sobre a política de atualização do Teams e a po
 > Para encontrar os cmdlets do PowerShell necessários, digite “CsTeamsUpgradePolicy” ou “CsTeamsInteropPolicy” na caixa **Filtrar** na [documentação de cmdlets do PowerShell para o Skype for Business](https://docs.microsoft.com/powershell/module/skype).
 
 ### <a name="default-teams-upgrade-and-interop-policies"></a>Políticas de interoperabilidade e atualização padrão do Teams
-O Teams tem uma configuração de política padrão criada para garantir que os fluxos de trabalho de negócios existentes não sejam interrompidos durante a implantação do Teams. Por padrão, as chamadas VoIP, PSTN e federadas para seus usuários continuarão sendo encaminhadas para o Skype for Business até que você atualize a política para habilitar as chamadas de entrada para o Microsoft Teams. Isso garante que não haja interrupções involuntárias nos serviços de voz quando você começa a testar e implantar o Teams.
+O Microsoft Teams tem uma configuração de política padrão criada para garantir que os fluxos de trabalho de negócios existentes não sejam interrompidos durante a implantação do Microsoft Teams. Por padrão, as chamadas VoIP, PSTN e federadas para seus usuários continuarão sendo encaminhadas para o Skype for Business até que você atualize a política para habilitar as chamadas de entrada para o Microsoft Teams. Isso garante que não haja interrupções involuntárias nos serviços de voz quando você começa a testar e implantar o Microsoft Teams.
 
 Por padrão, a política de atualização do Teams é mantida no modo herdado que honrará a política de interoperabilidade do Teams para determinar onde os bate-papos e as chamadas devem ser encaminhados: Teams ou Skype for Business.
 
@@ -83,11 +85,11 @@ Se você optar por continuar a usar a política de atualização herdada do Team
 Se você optar por usar a política de atualização do Teams atualizada, será necessário atribuir o modo TeamsOnly aos usuários.
 
 Os comportamentos da política acima são os seguintes:
-* **Para os clientes existentes do Skype for Business**, esta política tem como objetivo redirecionar as chamadas de entrada para o Microsoft Teams. Isso inclui chamadas VoIP (do Teams e do Skype for Business) e chamadas PSTN. 
+* **Para os clientes existentes do Skype for Business**, esta política tem como objetivo redirecionar as chamadas de entrada para o Microsoft Teams. Isso inclui chamadas VoIP (do Microsoft Teams e do Skype for Business) e PSTN. 
 * **Para os clientes que não têm o Skype for Business**, quando em vigor, as chamadas PSTN serão recebidas no Teams.
 
 > [!WARNING]
-> No momento, a alteração de `CallingDefaultClient` para o Teams também afeta as chamadas para telefones IP do Skype for Business. As chamadas de entrada não serão recebidas em telefones e vão tocar somente nos clientes do Microsoft Teams. Consulte o [Roteiro de recursos do Skype for Business para o Microsoft Teams](https://aka.ms/skype2teamsroadmap) para obter informações sobre o suporte para telefones SIP certificados existentes.
+> No momento, a alteração de `CallingDefaultClient` para o Microsoft Teams também afeta as chamadas para telefones IP do Skype for Business. As chamadas de entrada não serão recebidas em telefones e vão tocar somente nos clientes do Microsoft Teams. Consulte o [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap) para obter informações sobre o suporte para telefones SIP certificados existentes.
 
 ### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Como configurar os usuários para receber chamadas PSTN no Teams
 Ao usar a política de atualização do Teams herdada, aplique a política de interoperabilidade do Teams, conforme descrito acima, via sessão do Windows PowerShell remoto do Skype for Business para redirecionar as chamadas para o Teams:

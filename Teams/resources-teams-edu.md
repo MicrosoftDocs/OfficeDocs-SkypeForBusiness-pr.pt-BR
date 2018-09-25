@@ -10,15 +10,15 @@ ms.reviewer: ''
 description: Lista de equipes recursos úteis para administradores de TI em educação.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9259e6ed4d6798f55fd25e553f7d31ffad715b6
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 7b296db9db0f56e77b7e8146d2cf436726a10ec0
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23866369"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015457"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos do Microsoft Teams para administradores de educação
 ==============================================

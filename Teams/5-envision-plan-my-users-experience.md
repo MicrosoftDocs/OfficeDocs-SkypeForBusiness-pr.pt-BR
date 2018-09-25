@@ -10,15 +10,15 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Escolha a aplicativos de cliente de equipes, planejar a qualidade do ponto de extremidade, obtém recomendações para a implantação de pontos de extremidade Wi-Fi e escolhendo dispositivos de áudio.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f176375767f539ca1a2b5b3892ae07f2a9f68725
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6fa7f3450f563dad6be2bfc857724e7c6fe2ba16
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23887163"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016761"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência dos meus usuários
 

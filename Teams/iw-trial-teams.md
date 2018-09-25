@@ -3,7 +3,7 @@ title: Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/11/2018
+ms.date: 09/10/2018
 ms.topic: article
 audience: Admin
 ms.reviewer: alchen
@@ -11,13 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 description: Os usuários do Office 365 que não estejam licenciados for Microsoft Teams podem iniciar uma versão de avaliação das equipes 1 ano.
-MS.collection: Strat_MT_TeamsAdmin
-ms.openlocfilehash: 7fba776f109b8785b72000af4981d64015f3054c
-ms.sourcegitcommit: 1f5786a82ad535652da22e755e9c1d3063e5425f
+MS.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: 6de25e5fe4bf844841c66f7bf797e0edb5f8844e
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2018
-ms.locfileid: "23935812"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017909"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação de nuvem comercial do Microsoft equipes
 =======================================================

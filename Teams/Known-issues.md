@@ -6,17 +6,18 @@ manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
 search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8177d7b4fa6768163c225a385229a356b49e1425
-ms.sourcegitcommit: d21e7ef1d4e36f4aced606e11837c693e8fd6410
+ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "23999208"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015481"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -82,7 +83,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível salvar a imagem de perfil  <br/> |Os usuários não conseguem salvar a imagem de perfil quando a caixa de correio do Exchange está hospedada (ou estabelecida) localmente.  <br/> |Não há solução alternativa.  <br/> |28/02/2017  <br/> |
+|Não é possível salvar a imagem de perfil  <br/> |Os usuários não podem salvar sua imagem de perfil quando a caixa de correio do Exchange é (hospedado hospedados) no local no Exchange 2016 CU2 ou inferior.  <br/> |Não há solução alternativa.  <br/> |28/02/2017  <br/> |
 
 ## <a name="browser"></a>Navegador
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -112,9 +113,6 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |:-----|:-----|:-----|:-----|
 |@ Menções para mensagem excluída enviar notificação com link de canal  <br/> |Existe uma limitação conhecida notificação quando você estiver em mencionados em uma mensagem que será excluída; a notificação no feed navegarão para o canal, mas não para uma mensagem específica. <br/> | Por design <br/> | 3/28/17  <br/>|
 
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Os usuários do Skype for Business local não recebem minhas mensagens  <br/> |O envio de mensagens não será concluído quando os usuários do Microsoft Teams tentarem enviar uma mensagem para outro indivíduo que esteja usando o Skype for Business local.  <br/> | Existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business Online. Os usuários do Teams podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business Online. <br/> Não existe suporte para a interoperabilidade entre o Teams e os usuários hospedados no Skype for Business local. Os usuários do Teams não podem enviar mensagens individuais 1:1 para usuários fora do Teams que usem o Skype for Business local.  <br/> |02/11/2016  <br/> |
 
 ## <a name="client"></a>Cliente
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -152,9 +150,6 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |:-----|:-----|:-----|:-----|
 |Skype for Business obrigatório para algumas reuniões  <br/> |O seu calendário de reuniões é convenientemente exibido no Microsoft Teams. Para inserir uma reunião, clique em **Entrar**. <br/> Enquanto continuamos o desenvolvimento nesta área, se esta reunião foi agendada com o Skype for Business e você clicar em **Entrar**, o Microsoft Teams iniciará seu cliente Skype for Business para concluir sua entrada na reunião. As reuniões agendadas no Microsoft Teams iniciarão diretamente no produto.  <br/> No futuro, simplificaremos essa experiência.  <br/> |Clique em **Entrar**. O Microsoft Teams decide de forma inteligente se o Skype for Business é obrigatório para o usuário entrar na reunião com base na URL incluída na descrição da reunião.  <br/> |13/03/2017  <br/> |
 
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|**Reuniões**perdidas ser descoberto usando a descoberta automática Exchange. <br/> Microsoft Teams ainda não dá suporte a caixas de correio no Exchange hospedadas no ícone na barra de navegação esquerdo <br/> |O ícone de **reuniões** na barra de aplicativos é atualmente somente habilitada para usuários cujas caixas de correio está na multilocatário do Office 365 e um selecione poucos dedicada usuários cujo local da caixa de correio pode - locais e Exchange dedicado. Isso está sob investigação; no entanto, não há previsão para a entrega desse recurso.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -162,7 +157,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|As reuniões não estão disponíveis  <br/> |A funcionalidade e o ícone da reunião não estão disponíveis quando a caixa de correio do Exchange está hospedada (ou estabelecida) localmente.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
+|As reuniões não estão disponíveis  <br/> |Funcionalidade de reunião não está disponível quando a caixa de correio do Exchange é (hospedado hospedados) no local na versão menor Exchange 2016 CU3.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
 
 ## <a name="mobile"></a>Mobile
 

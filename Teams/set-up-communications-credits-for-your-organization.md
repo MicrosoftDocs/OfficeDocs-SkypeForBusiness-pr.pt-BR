@@ -7,9 +7,12 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: bb9f2a8d-f5be-41ed-9d19-25dea5ca9f52
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service:
+- skype-for-business-online
+- msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 ms.audience: Admin
@@ -21,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 1e4f48caff52cf648e075d9c4c4972076e124c00
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891689"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25018005"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para a sua organização
 
@@ -58,9 +61,11 @@ Para obter mais informações, consulte [Skype para licenciamento de complemento
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. No painel de navegação à esquerda no centro de administração do Office 365, acesse **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos** e escolha **Créditos de Comunicação** > **Comprar agora**.
+2. No painel de navegação à esquerda do Centro de administração do Office 365, vá para **faturamento** > **assinaturas** > **Adicionar assinaturas**.
+
+3. Expanda **inscrições de complemento**e escolha **Communications créditos** > **Compre agora**.
     
-3. Na página de inscrição **Créditos de comunicações** , preencha as informações e clique em **Avançar**:
+4. Na página de inscrição **Créditos de comunicações** , preencha as informações e clique em **Avançar**:
     
   - **Adicionar fundos** Insira o valor que você deseja adicionar à sua conta. Se você não habilitar o autocarga, depois que essas fundos são esgotados, recursos que são habilitados usando comunicações créditos de chamada será interrompida (por exemplo, o serviço de chamada gratuito entrado). Para evitar ter que alimentar manualmente seu saldo créditos de comunicações de cada vez que sua proporção atinge 0 (zero), é recomendável que você habilita o recurso de autocarga.
     
@@ -75,7 +80,7 @@ Para obter mais informações, consulte [Skype para licenciamento de complemento
       > [!NOTE]
     > Fundos serão aplicados somente ao Communications créditos na Microsoft publicado taxas quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados. 
     
-4. Insira suas informações de pagamento e clique em **Fazer pedido**.
+5. Insira suas informações de pagamento e clique em **Fazer pedido**.
     >[!IMPORTANT]
     >Se você for um cliente de licenciamento por volume, você pode escolher seu número enterprise agreement para pagamento. Se você tiver vários números enterprise agreement, você pode escolher qual prefere usar para o pagamento. Você também poderá especificar um número de ordem de compra que será associado ao número do enterprise agreement (se aplicável).
     

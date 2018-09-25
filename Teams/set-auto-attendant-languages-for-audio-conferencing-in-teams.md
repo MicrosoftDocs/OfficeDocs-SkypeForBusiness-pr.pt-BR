@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 26d73dda-ab26-4af4-8aec-d17f3479ae50
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Veja como selecionar os idiomas do atendedor automático de audioconferência para um número de audioconferência no Microsoft Teams.
-ms.openlocfilehash: 73498e348b45b0fa2d9996344b569a92320a06b6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b9613b5e64bad0428975a6acd3b11db16a42c680
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23893014"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25017949"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Definir idiomas do atendedor automático para audioconferência no Microsoft Teams
 
 O atendedor automático de audioconferência do Microsoft Teams pode cumprimentar os chamadores de áudio em diversos idiomas quando entram na reunião.
   
-Escolha um idioma primário e até quatro idiomas secundários. O idioma primário definido será usado primeiro e os idiomas secundários serão usados pelo atendedor automático na ordem que você selecionar. 
+Escolha um idioma principal e até quatro idiomas secundários. O idioma principal que você definiu será usado pela primeira vez e os idiomas secundários serão usados pelo atendedor automático que você selecionar. 
   
 > [!NOTE]
 >  Você pode configurar os idiomas somente em números de telefone de acesso a áudio locais.
@@ -48,7 +48,7 @@ Escolha um idioma primário e até quatro idiomas secundários. O idioma primár
 3. No painel à direita, escolha o idioma padrão desejado e os idiomas alternativos. 
  
     > [!NOTE]
-    > Os idiomas padrão e alternativos aceitos são listados. A ordem selecionada nas listas será a ordem em que os idiomas serão apresentados aos chamadores. 
+    > O padrão e os idiomas alternativos suportados são listados. A ordem na qual você selecionar listas de será a ordem dos idiomas apresentados aos chamadores. 
 
 4. Clique em **Salvar**.
 

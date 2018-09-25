@@ -6,16 +6,17 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
+ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: É uma boa prática verificar se o serviço do Teams está íntegro, bem como outros componentes do Office 365, como o Exchange, o SharePoint e o OneDrive for Business.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c9a528187461fe513eb7aa5782696f80313bc5d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a9e04c6dfb42826bef29bcdf810833aec11c9ea2
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23867601"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25015433"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>Verificar a integridade do serviço para o Microsoft Teams
 ===========================================

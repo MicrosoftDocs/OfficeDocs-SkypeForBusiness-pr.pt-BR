@@ -10,28 +10,28 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Ofereça e mantenha uma implantação de alta qualidade, planejando funções operacionais e atribuindo um defensor de qualidade.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a690bca5512aa7f3969a82e414156ee461ea6250
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: b86804cf994ce15a9d450fbffb9c1e7cd8b5f9b4
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889419"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25016049"
 ---
 # <a name="plan-my-service-management"></a>Planejar meu gerenciamento de serviços
 
-Este artigo oferece uma visão geral dos requisitos necessários para oferecer e manter uma implantação de alta qualidade do Microsoft Teams. Você pode ajudar a garantir uma implantação bem-sucedida com o planejamento do gerenciamento e da qualidade do serviço durante a fase de Concepção, antes de fazer o primeiro piloto ou da primeira implantação em produção.
+Este artigo fornece uma visão geral dos requisitos necessários entregar e manter uma implantação do Microsoft Teams de alta qualidade. Você pode ajudar a garantir uma implantação bem-sucedida pelo planejamento de gerenciamento de serviço e qualidade durante a fase de Envision, antes da sua implantação piloto ou de produção primeira.
 
 ## <a name="service-management-for-teams"></a>Gerenciamento de serviços para o Teams
 
-O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço Microsoft Teams abrange o Microsoft Office 365 e os componentes de infraestrutura implantados localmente (por exemplo, a rede).
+Gerenciamento de serviço é um tópico amplo que cobre as operações diárias do serviço Microsoft Teams depois que ele tenha sido implantado e habilitado para usuários. O serviço de equipes engloba Microsoft Office 365 e os componentes de infraestrutura que são implantados no local (por exemplo, de rede).
 
-É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você provavelmente já implementou processos e tarefas que estão associados a serviços existentes. Considerando isso, é possível que você possa expandir o que já está funcionando ao planejar o gerenciamento do serviço atual para dar suporte ao Microsoft Teams no futuro.
+A noção do gerenciamento de serviços não mais provável é um novo conceito na maioria das organizações. Você provavelmente já implementou processos e as tarefas associadas com serviços existentes. Além disso, você provavelmente pode aumentar o que você tenha em mãos quando você planejar gerenciamento de serviço de hoje a suporte Teams da Microsoft no futuro.
 
-O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes do gerenciamento de serviços (os componentes de infraestrutura que o próprio serviço do Office 365 abrange) são de responsabilidade da Microsoft, ao passo que o cliente é responsável por gerenciar os diversos aspectos do Teams, a rede e os pontos de extremidade que fornecem.
-Para ver uma discussão completa sobre a responsabilidade do cliente pelo gerenciamento de serviços do Teams e como ele se relaciona com os principais componentes que sustentam a qualidade da experiência do usuário, consulte [Planejar gerenciamento de serviços e qualidade](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+Gerenciamento de serviço abrange todas as atividades e processos envolvidos no gerenciamento Teams de ponta a ponta da Microsoft. Alguns componentes do gerenciamento de serviços — os componentes de infraestrutura que compõe o próprio serviço Office 365 — são responsabilidade da Microsoft, enquanto o cliente é responsável a seus usuários para gerenciar os vários aspectos de equipes, rede, e eles oferecem de pontos de extremidade.
+Para obter uma discussão completa da responsabilidade do cliente de gerenciamento de serviço de equipes e como ele se relaciona com os principais componentes que são a base a qualidade da experiência do usuário, consulte o [plano de qualidade e o gerenciamento de serviço](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
 ![Diagrama dos três componentes da qualidade: serviço, rede e pontos de extremidade do Office 365, e como o gerenciamento de serviços se sobrepõe a todos os três.](media/plan-my-service-management-image1.png "Diagrama dos três componentes da qualidade: serviço, rede e pontos de extremidade do Office 365, e como o gerenciamento de serviços se sobrepõe a todos os três.")
 
@@ -41,17 +41,17 @@ Para ver uma discussão completa sobre a responsabilidade do cliente pelo gerenc
 
 **O que**, **quem** e **como** são três perguntas importantes que precisam ser respondidas ao lidar com o gerenciamento do serviço.
 
-O [Guia de Operações](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) pode ajudar a responder a essas três perguntas. O guia fornece uma lista de atividades que devem ser realizadas diariamente, semanalmente, mensalmente e conforme a necessidade. Essas atividades e tarefas são essenciais para a manutenção de uma implantação do Microsoft Teams de alta qualidade. A determinação de quem será responsável pela realização de atividades específicas de gerenciamento do serviço é um aspecto crítico do planejamento que você precisa fazer logo no início da fase de Concepção para garantir o sucesso da implantação. Depois que você identificar essas tarefas e atividades, os grupos ou as pessoas aos quais elas serão atribuídas deverão entendê-las e acompanhá-las. O Guia de Operações apresenta informações e orientações para a realização de cada uma das tarefas e/ou referências de conteúdo externo.
+Você pode usar o [Guia de operações](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service) para ajudá-lo a resolver todos os três dessas perguntas. O guia fornece uma lista de atividades a serem realizadas em uma base diária, semanal, mensal e conforme necessário. Essas tarefas e atividades são essenciais para manter uma implantação de equipes de alta qualidade. Determinar quem será responsável pela execução de atividades específicas no gerenciamento de serviço é um aspecto crítico do seu planejamento que você precisa fazer logo no início a fase de Envision para garantir uma implantação bem-sucedida. Depois que você calculou as tarefas e atividades, elas precisam ser compreendidos e seguido de grupos ou indivíduos que podem ser atribuídos a eles. Guia de operações fornece conhecimento e orientação sobre como executar cada uma das tarefas, e/ou as referências para conteúdo externo.
 
 ## <a name="plan-for-operational-role-mapping"></a>Plano de mapeamento de funções operacionais
 
-O planejamento inicial do gerenciamento do serviço é uma etapa crítica, pois a fase de operações começa quando os primeiros usuários piloto são habilitados. A equipe do projeto deve revisar e concordar com as tarefas e atividades necessárias, identificar a equipe que será responsável por cada tarefa operacional e então obter o comprometimento e a aprovação de cada equipe envolvida.
+No início de planejamento para gerenciamento de serviço é uma etapa crítico, porque a fase de operações começa quando os usuários piloto primeiro estão habilitados. A equipe de projeto deve revisar e concordam com as tarefas e atividades necessárias, identificar a equipe responsável por cada tarefa operacional, e, em seguida, obtenha um compromisso e aprovação de cada equipe respectivo.
 
-Após a conclusão da aprovação, a equipe responsável deve iniciar a operacionalização das funções e responsabilidades. Isso pode incluir um processo de treinamento e preparação, a atualização do modelo de alocamento de pessoal ou a verificação de que os parceiros externos estão prontos para o fornecimento.
+Após a aprovação estiver concluída, a equipe responsável deve iniciar, em seguida, operacionalização essas funções e responsabilidades. Isso pode incluir o treinamento e preparação, atualizando o modelo de equipe ou garantir que os parceiros externos sejam prontos para entregar.
 
 O mapeamento de funções operacionais no início da fase de Concepção permite que todas as equipes iniciem suas tarefas operacionais durante as operações piloto e de preparação, e garantam que tudo esteja pronto após o início da implantação.
 
-O Guia de Operações apresenta uma lista de tarefas comuns mapeadas para as funções típicas que devem ser válidas na maioria dos cenários. Você precisa personalizar essas responsabilidades de maneira adequada para a sua organização.
+Guia de operações fornece uma lista de tarefas comuns mapeada para funções típicas que deveriam estar válidas na maioria dos cenários. Você precisa personalizar essas responsabilidades para trabalhar em sua organização.
 
 >[!TIP]
 >Segue um exemplo de um modelo para documentar o resultado do exercício de mapeamento de funções operacionais que você realizou para dar suporte a esse projeto.
@@ -76,13 +76,13 @@ Para facilitar um mapeamento mais detalhado das funções operacionais, incluind
 
 ## <a name="the-quality-champion-role"></a>Função de defensor da qualidade
 
-Todos os grupos ou indivíduos precisam se responsabilizar pela qualidade em todas as organizações.
-Essa é a função mais importante do gerenciamento do serviço. O defensor de qualidade é uma função de cliente atribuída a um indivíduo ou grupo que tenha paixão pela experiência de seus usuários. Essa função requer a habilidade de identificar tendências no ambiente e a capacidade de trabalhar com outras equipes para possibilitar correções.
-O principal candidato para o defensor de qualidade costuma ser o proprietário do serviço ao cliente, que, dependendo do tamanho e da complexidade da organização, pode ser qualquer indivíduo ou grupo que tenha paixão pela experiência do usuário.
+Um grupo ou individual precisa ser responsável qualidade em todas as organizações.
+Essa é a função mais importante no gerenciamento de serviço. O campeão de qualidade é uma função de cliente que é atribuída a uma pessoa ou grupo que esteja entusiasmados pela sobre a experiência dos seus usuários. Essa função requer habilidades a identificar tendências no ambiente e o patrocínio para trabalhar com outras equipes para conduzir a correção.
+O melhor candidato para o campeão de qualidade é geralmente o proprietário do serviço de cliente, que — dependendo do tamanho e a complexidade da organização — poderia ser qualquer pessoa ou grupo que é entusiasmados pela sobre a experiência do usuário.
 
-O defensor de qualidade aproveita as ferramentas e os processos documentados existentes, como o Painel de qualidade da chamada (CQD) e o Guia de revisão da experiência da qualidade, para monitorar a experiência do usuário, identificar tendências de qualidade e orientar a correção quando necessário. O defensor da qualidade deve trabalhar com as respectivas equipes para conduzir ações de remediação, se reportando a um comitê de direção sobre o progresso e os problemas não solucionados.
+O campeão de qualidade aproveita as ferramentas existentes e processos documentados, como o painel de qualidade de chamada (CQD) e o guia de revisão qualidade de experiência, para monitorar a experiência do usuário, identificam tendências de qualidade e remediação de unidade onde for necessário. Os campeões qualidade trabalha com as respectivas equipes para ações de remediação de unidade, relatórios para um comitê de orientação sobre seus progressos e os problemas em aberto.
 
-As tarefas e atividades relacionadas à função estão documentadas no Guia de Operações. Essa função deve ser atribuída logo no início da fase de Concepção. Um etapa importante da operacionalização da função de defensor da qualidade é a obtenção do conhecimento necessário para a função e a garantia de que os pré-requisitos para a execução das tarefas foram cumpridos. Uma tarefa importante dessa função é a realização periódica de uma revisão da experiência de qualidade.
+As tarefas e atividades associadas à função são documentadas no guia de operações. Essa função deve ser atribuída a fase Envision no início. Uma etapa importante operacionalização a função do campeão de qualidade está ganhando o conhecimento necessário para a função e garantir que os pré-requisitos estejam em vigor para entregar nas tarefas. Uma tarefa de chave para essa função está executando uma revisão de experiência de qualidade regular.
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ O Guia de revisão da experiência da qualidade tem um conjunto de atividades qu
 
 ![Principais áreas a serem examinadas na revisão da experiência da qualidade: áudio, confiabilidade e resultados da pesquisa com usuários](media/plan-my-service-management-image2.png "Principais áreas a serem examinadas na revisão da experiência da qualidade: áudio, confiabilidade e resultados da pesquisa com usuários.")
 
-Por meio da avaliação e correção contínuas das áreas descritas neste documento, você pode reduzir seu potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
+Continuamente avaliando e correção as áreas descritas neste documento, você pode reduzir seu potencial para afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrados em uma implantação podem ser agrupados nas seguintes categorias:
 
 -   Configuração incompleta do firewall ou proxy
 
@@ -106,9 +106,9 @@ Por meio da avaliação e correção contínuas das áreas descritas neste docum
 
 -   Dispositivos de rede ou sub-redes com problemas
 
-As orientações fornecidas no Guia de Revisão da Experiência de Qualidade concentram-se no uso do Painel de Qualidade de Chamadas (PQC) Online como ferramenta principal para relatar e investigar cada área descrita, com foco sobre o áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
+As diretrizes fornecidas no guia de revisão de experiência de qualidade enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio. Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
 
-Recomendamos fortemente que você nomeie o defensor de qualidade o quanto antes. Após a nomeação, ele deve começar a se familiarizar com o conteúdo do [Guia de Revisão da Experiência de Qualidade](https://aka.ms/qerguide).
+É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no [Revise o guia de qualidade da experiência](https://aka.ms/qerguide).
 
 
 

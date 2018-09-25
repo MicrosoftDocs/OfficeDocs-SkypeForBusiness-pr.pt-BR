@@ -7,10 +7,10 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: 1d649328-ada7-422d-a074-d6da4da36970
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
@@ -20,23 +20,23 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba como ativar ou desativar se seus usuários podem ou não gravar o nome ao entrarem em uma reunião no Microsoft Teams.
-ms.openlocfilehash: c09cd9b5fd0a8934c61a37212de53d750f7deac7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
-ms.translationtype: HT
+ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23892998"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012933"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams
 
-Ao configurar a audioconferência discada no Office 365, você receberá números de telefone e o que chamamos de ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone, que podem ser um número de telefone exclusivo ou compartilhado.
+Quando você estiver configurando a conferência de áudio no Office 365, você receberá números de telefone e o que é chamado uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone.
   
-A ponte de conferência atende uma chamada feita por um usuário que discou para a reunião utilizando um telefone. A ponte de conferência atende o chamador com solicitações de voz de um atendedor automático e, dependendo das configurações dele, pode reproduzir notificações, pedir para o chamador gravar o nome dele e configurar a segurança do PIN para os organizadores da reunião. Os organizadores de reunião recebem PINs que os permitem iniciar uma reunião. Entretanto, você pode configurar a reunião sem a necessidade de um PIN para começar.
+A ponte de conferência atende uma chamada feita por um usuário que discou para uma reunião utilizando um telefone. A ponte de conferência respostas do chamador com prompts de voz de um atendedor automático e, em seguida, dependendo das suas configurações, pode reproduzir notificações, peça aos chamadores registrar seu nome e configurar a segurança PIN para organizadores de reunião. PINs são fornecidas aos organizadores de reuniões para permitir que eles iniciar uma reunião. Entretanto, você pode configurar a reunião sem a necessidade de um PIN para começar.
 
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Definir se os chamadores devem gravar o nome
 
-1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
+1. No Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
 
 2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
 
