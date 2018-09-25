@@ -7,8 +7,12 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: ff98c346-bfd4-40c4-8305-cbcd48ff8d4c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
-ms.collection: Adm_Skype4B_Online
+ms.service:
+- skype-for-business-online
+- msteams
+ms.collection:
+- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -20,34 +24,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 65563b1189444e76a88ce4a7d74fb0870df73c3e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 4b1ffaa7d2934572b84f0c6c7e4bda56facb5832
+ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850629"
+ms.lasthandoff: 09/25/2018
+ms.locfileid: "25012461"
 ---
-# <a name="toll-free-dialing-restrictions-in-finland"></a><span data-ttu-id="787ec-105">Restrições de discagem gratuita na Finlândia</span><span class="sxs-lookup"><span data-stu-id="787ec-105">Toll-free dialing restrictions in Finland</span></span>
+# <a name="toll-free-dialing-restrictions-in-finland"></a><span data-ttu-id="40a6e-105">Restrições de discagem gratuita na Finlândia</span><span class="sxs-lookup"><span data-stu-id="40a6e-105">Toll-free dialing restrictions in Finland</span></span>
 
-<span data-ttu-id="787ec-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="787ec-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="40a6e-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="40a6e-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="787ec-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="787ec-107">**Details**</span></span>|<span data-ttu-id="787ec-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="787ec-108">**Description**</span></span>|
+|<span data-ttu-id="40a6e-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="40a6e-107">**Details**</span></span>|<span data-ttu-id="40a6e-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="40a6e-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="787ec-109">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="787ec-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="787ec-110">Sim</span><span class="sxs-lookup"><span data-stu-id="787ec-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="787ec-111">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="787ec-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="787ec-112">0 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="787ec-112">0 800 XXX XXX</span></span> <br/> |
-|<span data-ttu-id="787ec-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="787ec-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="787ec-114">FI</span><span class="sxs-lookup"><span data-stu-id="787ec-114">FI</span></span>  <br/> |
-|<span data-ttu-id="787ec-115">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="787ec-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="787ec-116">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="787ec-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="787ec-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="787ec-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="787ec-118">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="787ec-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="787ec-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="787ec-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="787ec-120">Sim</span><span class="sxs-lookup"><span data-stu-id="787ec-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="787ec-121">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="787ec-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="787ec-122">Sim</span><span class="sxs-lookup"><span data-stu-id="787ec-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="787ec-123">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="787ec-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="787ec-124">Nenhum</span><span class="sxs-lookup"><span data-stu-id="787ec-124">None</span></span>  <br/> |
+|<span data-ttu-id="40a6e-109">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="40a6e-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="40a6e-110">Sim</span><span class="sxs-lookup"><span data-stu-id="40a6e-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="40a6e-111">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="40a6e-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="40a6e-112">0 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="40a6e-112">0 800 XXX XXX</span></span> <br/> |
+|<span data-ttu-id="40a6e-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="40a6e-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="40a6e-114">FI</span><span class="sxs-lookup"><span data-stu-id="40a6e-114">FI</span></span>  <br/> |
+|<span data-ttu-id="40a6e-115">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="40a6e-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="40a6e-116">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="40a6e-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="40a6e-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="40a6e-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="40a6e-118">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="40a6e-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="40a6e-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="40a6e-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="40a6e-120">Sim</span><span class="sxs-lookup"><span data-stu-id="40a6e-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="40a6e-121">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="40a6e-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="40a6e-122">Sim</span><span class="sxs-lookup"><span data-stu-id="40a6e-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="40a6e-123">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="40a6e-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="40a6e-124">Nenhum</span><span class="sxs-lookup"><span data-stu-id="40a6e-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="787ec-125">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="787ec-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="40a6e-125">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="40a6e-125">Related topics</span></span>
 
-[<span data-ttu-id="787ec-126">Restrições e limitações de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="787ec-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="40a6e-126">Restrições e limitações de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="40a6e-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="787ec-127">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="787ec-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="40a6e-127">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="40a6e-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
