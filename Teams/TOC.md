@@ -474,7 +474,7 @@
 #### [Idiomas para saudações da caixa postal e mensagens](languages-for-voicemail-greetings-and-messages.md)
 #### [Definir a ID de Chamadas para um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 #### [Configurar o atendedor automático do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Exemplo de implementação - atendedores automáticos](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Exemplo de pequenos negócios - configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Configurar a caixa postal do Sistema de Telefonia](set-up-phone-system-voicemail.md)
 #### [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 #### [Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes](answer-auto-attendant-and-call-queue-calls.md)
