@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ff17cc8fb28f0279f1356937465668dc6b7afe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2b6a411e3dd4f2d7f337e6823cc41d98e508423
+ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015481"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25090206"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -213,6 +213,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |As equipes Planejador integração com Planejador online <br/> |Partições de memória de tarefas no planejador não aparecem na experiência online do planejador.  <br/> |Não há solução alternativa. <br/> |28/02/2017  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Guia de página do SharePoint renderiza tela em branco<br/> |Domínios de vanity SharePoint Online não são suportados no momento. A experiência do usuário é uma tela em branco, quando o guia de página attemting para adicionar uma lista do SharePoint. <br/> |Não há solução alternativa. <br/> |8/20/18  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
