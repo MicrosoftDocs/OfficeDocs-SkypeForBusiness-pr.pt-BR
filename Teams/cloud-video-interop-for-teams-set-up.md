@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92fe72b8352e9a2152361f410f9e39f1f296a3c8
-ms.sourcegitcommit: 2d76fad92b6d6c5d1bd223a717fd6c534ecaa5be
+ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "24974427"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040776"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo de nuvem for Microsoft Teams
 
@@ -104,4 +104,4 @@ Você pode ingressar em reuniões de equipes com seus dispositivos VTC das segui
 - Discagem de um toque
     - Se você tiver uma sala de equipes integrada, você pode usar os recursos de discagem de um toque oferecidos pelo seu parceiro (sem precisar digitar qualquer cadeia de caracteres de discagem).
 
-Finalmente, engaeg com usuários de equipes em suas reuniões usando o compartilhamento de áudio, vídeo e conteúdo. 
+Finalmente, se comprometer com usuários de equipes em suas reuniões usando o compartilhamento de áudio, vídeo e conteúdo. 

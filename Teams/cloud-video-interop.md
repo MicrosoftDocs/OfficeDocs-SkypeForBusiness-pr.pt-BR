@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07f546db5acb8afa0dc457122a2462b9d0affea3
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002427"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040768"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo de nuvem para equipes da Microsoft
 
@@ -49,7 +49,9 @@ Nossos parceiros desenvolveram soluções de gateway para se conectar a terceiro
 **Pronto Enterprise**
 
 - Vídeo HD (1080p) e conteúdo (VBSS)
-- Suporte para h. 323 e dispositivos para salas de reunião de SIP-equipes/Exchange Native agendamento - design do Gateway, em vez de VMR
+- Suporte para h. 323 e dispositivos para salas de reunião de SIP
+- Agendamento de equipes/Exchange nativo
+- Design de gateway, em vez de VMR
 
 **Dimensiona para a nuvem**
 
@@ -86,7 +88,7 @@ O diagrama a seguir descreve a arquitetura de alto nível de uma solução de pa
 
 ## <a name="business-workflow-scenarios"></a>Cenários de fluxo de trabalho de negócios
 
-- **Skype para Business Server -> equipes da Microsoft:** Sua organização tem mudando do Skype para Business em prem server para Microsoft Teams e dispositivos de terceiros  
+- **Skype para Business Server -> equipes da Microsoft:** Sua organização tem mudando do Skype para Business em prem server para Microsoft Teams e dispositivos de terceiros.  
 - **Skype para negócios online -> Teams da Microsoft:** Sua organização está migrando para o Microsoft Teams do Skype para Business Online.
 - **Cisco UC -> equipes da Microsoft:** Sua organização está se movendo da Cisco para Teams da Microsoft, mas não está pronto para substituir os dispositivos Cisco.
 - **Sistema mistos -> equipes da Microsoft:** Sua organização tem vários sistemas em um ambiente lado a lado (Cisco, BroadSoft, servidor SfB, SfBO).

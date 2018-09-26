@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5028f5f1ee848d4fa7af7e15083dc06d90f9f38a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 714c30326519974c1d5e0483e8c181bb6ebf2a27
+ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017957"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25040784"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos para o catálogo de aplicativos do locatário equipes da Microsoft
 =======================================================
@@ -27,9 +27,11 @@ Você pode usar o catálogo de aplicativos do Microsoft equipes locatário para 
 
 O catálogo de aplicativos do inquilino de equipes permite que você distribuir seus aplicativos de linha de negócios que foram criados especificamente para sua organização e que você depende para concluem as funções essenciais aos negócios para seus usuários. 
  
-Você pode publicar aplicativos para o catálogo de aplicativos do locatário equipes diretamente do cliente equipes.
+Faça logon no seu cliente de equipes usando suas credenciais de administrador global e publicar aplicativos para sua organização. 
 
 ## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>Publicar um aplicativo para o catálogo de aplicativos do locatário do cliente equipes
+
+Observação: Você precisa estar conectado ao cliente Microsoft Teams usando suas credenciais de administrador global para publicar aplicativos para sua organização.
 
 ### <a name="get-a-teams-app-package"></a>Obtenha um pacote de aplicativos de equipes
 
@@ -37,7 +39,7 @@ Um pacote de aplicativos de equipes é criado usando o [Studio de App equipes](h
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Vá para o catálogo de aplicativos do locatário
 
-No Microsoft Teams Store, selecione nova seção denominada para sua organização específica (neste exemplo, Contoso). Usuários em sua organização podem exibir aplicativos no catálogo e instalá-los para equipes dos quais eles são membros. 
+Inicialize o cliente Microsoft Teams e entrar usando suas credenciais de administrador global. No Microsoft Teams Store, selecione nova seção denominada para sua organização específica (neste exemplo, Contoso). Usuários em sua organização podem exibir aplicativos no catálogo e instalá-los para equipes dos quais eles são membros. 
 
 ![Captura de tela equipes App Store mostrando o catálogo de aplicativos.](media/private-app-store-teams-image01.png)
 
