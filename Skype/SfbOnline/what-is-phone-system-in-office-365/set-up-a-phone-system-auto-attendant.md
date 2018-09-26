@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização. '
-ms.openlocfilehash: 00743fed485effe76864f3d7b619d6fb1fd28c0b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b9d6bead2fc4aec259765d322840c948eeb31ef
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884154"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019014"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar o atendedor automático do Sistema de Telefonia
 
@@ -37,14 +37,14 @@ Se você deseja saber mais sobre os atendedores automáticos, consulte [Cite ate
 ## <a name="step-1---getting-started"></a>Etapa 1 - Introdução
 
 - Antes de você poder criar e configurar os atendedores automáticos, será necessário receber ou transferir os números de serviço de chamada gratuita ou tarifada. Após você fazer a chamada Tarifada ou números gratuitos de serviço, ele serão exibido no **Skype para centro de administração de negócios** > **voz** > página**números de telefone** . Para obter seus números de serviço, consulte [Getting números de telefone de serviço para Skype para equipes da Microsoft e de negócios](getting-service-phone-numbers.md)ou se você deseja transferir e o número de serviço existente, consulte [transferir os números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365). **User (subscriber)** numbers can't be assigned to auto attendants. Se você estiver fora dos Estados Unidos, é possível utilizar o Skype para centro de administração de negócios para obter os números de serviço; Vá [aqui](/microsoftteams/manage-phone-numbers-for-your-organization) em vez disso.
-    
+
     > [!CAUTION]
-    > Para obter e usar números de telefone gratuitos, você precisa configurar Créditos de Comunicação. Para fazer isso, consulte [O que são Créditos de Comunicação?](/microsoftteams/what-are-communications-credits) e [Configurar Créditos de Comunicação para a sua organização](/microsoftteams/set-up-communications-credits-for-your-organization). 
+    > Para obter e usar números de telefone gratuitos, você precisa configurar Créditos de Comunicação. Para fazer isso, consulte [O que são Créditos de Comunicação?](/microsoftteams/what-are-communications-credits) e [Configurar Créditos de Comunicação para a sua organização](/microsoftteams/set-up-communications-credits-for-your-organization).
   
 - Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** atribuídos afeta o número de números de serviço que estão disponíveis a serem usados para atendedores automáticos. Os números dos atendedores automáticos que depende das licenças de **Sistema telefônico** e **Audioconferência** números que são atribuídas em sua organização. Para saber mais sobre licenciamento, vá [aqui](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos no Office 365 para acessá-los. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` 
+    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos no Office 365 para acessá-los. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Etapa 2 - Criar um novo atendedor automático
 
@@ -65,7 +65,7 @@ No **Centro de administração do Skype for Business**, clique em **Encaminhamen
 
 > [!NOTE]
 > **User (subscriber)** numbers can't be assigned to auto attendants.
-    
+
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>**Fuso horário** Você deve definir o fuso horário para o atendedor automático, mas ele não precisa corresponder ao fuso horário do endereço principal de sua organização. Cada atendedor automático pode ter um fuso horário diferente e os horários comerciais definidos para o atendedor automático serão definidos com base no fuso horário que você selecionar aqui.
 ***
@@ -261,6 +261,7 @@ Veja os cmdlets necessários para gerenciar um atendedor automático.
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](getting-service-phone-numbers.md)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-    
-  
- 
+
+[O que são atendedores automáticos do Sistema de Telefonia?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md)
+
+[Exemplo de pequenos negócios - configurar um atendedor automático](tutorial-org-aa.yml)  

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Conheça as etapas para redefinir o ID de conferência de reunião de um usuário no Microsoft Teams e obtenha links para as ferramentas de atualização e migração da reunião. '
-ms.openlocfilehash: 8cc418b050b254930a74db8b0894dc14ccc090e5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bed015c92e197c1ee2dc1b48e495eee98445e3f0
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014127"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019040"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Redefinir o ID de conferência de um usuário no Microsoft Teams
 
@@ -38,11 +38,13 @@ Uma ID de conferência dinâmico é incluída na parte inferior da reunião conv
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Redefinir o ID de conferência de um usuário
 
-1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
 
-2. No topo da página, clique em **Editar**.
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-3. Em **Audioconferência** clique em **Redefinir ID de conferência**.
+2. Clique em **Editar**.
+
+3. Em **Conferência de áudio** , clique em **Redefinir ID de conferência**.
 
 2. Na janela **Redefinir ID de conferência** , clique em **Redefinir**. A conference ID will be automatically created and an email sent to the user with the new conference ID. Por padrão, os emails são enviados aos usuários, mas isso pode ser desativado.   
 
@@ -53,11 +55,11 @@ Uma ID de conferência dinâmico é incluída na parte inferior da reunião conv
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a>O que mais preciso saber?
+## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
 - Você pode enviar todas as informações de conferência para o usuário em um email que inclua a ID de conferência e os números de telefone de discagem ao clicar em **Enviar informações de conferência no email** para o usuário na seção de **Conferência de áudio** . Isso não envia o PIN.
     
-- Um ID de conferência contém sete dígitos e o tamanho não pode ser alterado.
+- Uma ID de conferência conterá 7 dígitos, e não é possível alterar seu comprimento.
     
 - Depois que for redefinido, o novo ID de conferência será listado em **ID de Conferência**.
     
@@ -75,4 +77,4 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md)
+[Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin-in-teams.md)

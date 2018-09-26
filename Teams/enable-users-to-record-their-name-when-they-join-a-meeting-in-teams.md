@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba como ativar ou desativar se seus usuários podem ou não gravar o nome ao entrarem em uma reunião no Microsoft Teams.
-ms.openlocfilehash: 8583ca92de2544946eb898d128e423b6df62cb24
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cb29fccf8e1997b4c7a82900e3fa6600c603a9a9
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012933"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019056"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams
 
@@ -36,13 +36,15 @@ A ponte de conferência atende uma chamada feita por um usuário que discou para
   
 ## <a name="set-whether-callers-should-record-their-name"></a>Definir se os chamadores devem gravar o nome
 
-1. No Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, vá para **reuniões** > **Pontes de conferência**. 
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
 
-2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
+1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
-3. Ative ou desative **Notificações de entrada/saída da reunião**.
+2. Na parte superior da página **Pontes de conferência** , clique em **configurações de ponte**. 
 
-4. Se ativar as notificações, escolha **Nomes ou números de telefone** em **Tipo de anúncio de entrada/saída**, e então ative **Solicitar que os chamadores gravem seu nome antes de entrar na reunião.**
+3. Habilitar ou desabilitar a **entrada de reunião e sair de notificações**.
+
+4. Se Ativar notificações, escolha **nomes ou números de telefone** em **tipo de anúncio de entrada/saída**e, em seguida, ativar **será feita aos chamadores registrar seus nomes antes de ingressar em uma reunião.**
 
 6. Clique em **Salvar**.
     

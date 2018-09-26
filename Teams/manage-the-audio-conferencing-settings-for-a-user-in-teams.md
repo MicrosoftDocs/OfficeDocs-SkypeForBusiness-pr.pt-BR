@@ -20,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador do Office 365, você pode editar as configurações de audioconferência do Microsoft Teams, como o provedor, número de telefone padrão tarifado ou gratuito, ID de conferência ou PIN, para um usuário individual na sua organização. '
-ms.openlocfilehash: 11042cc385e2ad1f0635a459e4be34b2dafcd3bd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013871"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019048"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência de um usuário no Microsoft Teams
 
 Como um administrador do Office 365, você pode editar as configurações de audioconferência — como o provedor, número padrão de chamada tarifada ou de chamada gratuita, ID de conferência ou PIN — para um usuário individual em sua organização. Se você deseja editar as configurações para a sua organização, consulte [Gerenciar as configurações de audioconferência para minha organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
-No Microsoft equipes & Skype para Business Admin Center
+## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-2. Na parte superior da página, clique em **Editar**.
+2. Clique em **Editar**.
 
 3. Em **Conferência de áudio**, modifique qualquer uma das seguintes opções:
 
@@ -47,7 +47,8 @@ No Microsoft equipes & Skype para Business Admin Center
 |**PIN** |Se você precisar redefinir o PIN do usuário, clique em **Redefinir PIN** . Para obter mais informações, consulte [Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md). |
 |**Padrão de número de telefone de Chamada Tarifada de conferência** (necessário) |Estes serão os números que estão definidos a ponte de conferência de áudio. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft. Para alterar o número de Chamada Tarifada padrão, clique em **Editar** ao lado de **Conferência de áudio** e no painel de **Conferência de áudio** , selecione um número em um **número de Chamada Tarifada**. |
 |**Convites deste usuário podem incluir o número de chamada gratuito**|Para alterar essa configuração, clique em **Editar** ao lado de **Conferência de áudio** e no painel de **Conferência de áudio** , ativar ou desativar o **incluir números para ligações gratuitas nas solicitações deste usuário de reunião** . |
-|**Permissões de discagem**|Para alterar essa configuração, clique em **Editar** ao lado de **Conferência de áudio** e no painel de **Conferência de áudio** , escolha uma opção em **permissão de discagem de reuniões**.|
+|**Os usuários não autenticados podem ser a primeira pessoa na reunião**|Para alterar essa configuração, alternar entre **os usuários não autenticados podem ser a primeira pessoa na reunião** ativada ou desativada.
+|**Permissões de discagem**|Para alterar essa configuração, clique em **Editar** ao lado de **Conferência de áudio** e no painel de **Conferência de áudio** , escolha uma opção de **discagem de reuniões**.|
 
 ![Mostra as configurações de conferência de áudio para um usuário](media/sfbaudioconf-usersettings.png)
  

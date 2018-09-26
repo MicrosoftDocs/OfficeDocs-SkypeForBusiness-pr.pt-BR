@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como visualizar uma lista de usuários da sua organização habilitados para conferência discada a partir do Microsoft Teams. '
-ms.openlocfilehash: e82d0d265e89c5b717ff25ea7c58ec240b38bea0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014031"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019116"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários habilitados para audioconferência no Microsoft Teams
 
@@ -36,7 +36,7 @@ Após ter habilitado os usuários do Microsoft Teams na sua organização para c
   
 ## <a name="viewing-a-list-of-users"></a>Visualizar uma lista de usuários
 
-- Na barra de navegação esquerda, clique em **Usuários**.
+- No Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, clique em **usuários**.
 
 
 ## <a name="what-else-should-i-know"></a>O que mais preciso saber?

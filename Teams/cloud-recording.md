@@ -11,12 +11,12 @@ description: Orientações práticas para a implantação dos recursos de Cloud 
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41cb6fdc7d27b90939be540d04b73fdc1f052818
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014175"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019072"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reunião de nuvem de equipes
 
@@ -62,7 +62,7 @@ Se um administrador do Microsoft Stream [Configurar a política de diretriz da e
 
 Use a configuração AllowCloudRecording no TeamsMeetingPolicy no PowerShell equipes para controlar se as reuniões de um usuário poderão ser registradas ou não. Saiba mais sobre como gerenciar TeamsMeetingPolicy com o Office 365 PowerShell [aqui](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-Observe que o organizador da reunião e o iniciador gravação precisam ter as permissões de gravação para gravar a reunião. A menos que você atribuiu uma política personalizada para os usuários, os usuários obtêm a política Global, que tem a gravação habilitada por padrão.
+Observe que o organizador da reunião e o iniciador gravação precisam ter as permissões de gravação para gravar a reunião. A menos que você atribuiu uma política personalizada para os usuários, os usuários obtêm a política Global, que tem AllowTranscription desabilitado por padrão.
 
 Para um usuário voltar a política Global, use o seguinte cmdlet para remover uma atribuição de política específicas de um usuário:
 

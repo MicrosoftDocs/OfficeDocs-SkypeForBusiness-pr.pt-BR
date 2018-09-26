@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba quais são os atendedores automáticos de sistema telefônico (nuvem PBX) e como usá-los. '
-ms.openlocfilehash: d8edb924b030c9008374c8d6f49df5328b630677
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5d73a32e7df8e25c24ba7eeaa958d9b8bc4dd80d
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013799"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019098"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>O que são atendedores automáticos do Sistema de Telefonia?
 
@@ -55,7 +55,7 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 - Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** que receberem o impacto sobre o número de serviço números que está disponível a serem usados para atendedores automáticos. O número de atendedores automáticos que depende das licenças de **Sistema telefônico** e **Audioconferência** números que são atribuídas em sua organização. Para saber mais sobre o licenciamento, vá [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
     > [!TIP]
-    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos para acessá-los. Consulte[Atribuir Skype para licenças de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos para acessá-los. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obter e usar números gratuitos de serviço para seus atendedores automáticos, você precisará configurar créditos de comunicações. Para fazer isso, consulte [Cite Communications créditos?](what-are-communications-credits.md) e [Configurar créditos de comunicações para sua organização](set-up-communications-credits-for-your-organization.md).
     
@@ -276,5 +276,5 @@ Você pode obter mais informações sobre como fazer alterações nas configura�
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-  
- 
+[Exemplo de pequenos negócios - configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Microsoft Teams. '
-ms.openlocfilehash: b88ab6ee2cd498a38026e1fe2bfde04344514901
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014247"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019064"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
@@ -35,11 +35,11 @@ Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
-1. No painel de navegação à esquerda, clique em **Usuários** e selecione o usuário na lista de usuários disponíveis.
+1. No Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-2. No topo da página, clique em **Editar**.
+2. Em **Conferência de áudio**, clique em **Redefinir PIN**.
 
-3. Em **Audioconferência**, clique em **Redefinir PIN**.
+3. Clique em **Redefinir**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

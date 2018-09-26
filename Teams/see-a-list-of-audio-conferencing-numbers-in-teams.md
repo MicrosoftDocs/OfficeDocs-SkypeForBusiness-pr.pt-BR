@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como procurar seus números de conferência de discagem de entrada no Microsoft Teams. '
-ms.openlocfilehash: 0b7ddc14fd87d62dd276c5b8c76a67572ed484a1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: de92f552a873cf51a0cc8487d08cacca387e3e7a
+ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017323"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "25019032"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Ver uma lista de números de audioconferência no Microsoft Teams
 
@@ -45,7 +45,7 @@ Consulte [Definir os números de telefone incluídos no convite](set-the-phone-n
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Para ver seus números de telefone de audioconferência
 
-1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
+1. No Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, vá para **reuniões** > **pontes de conferência**. 
 2.  Visualize os números de telefone disponíveis para audioconferência.
 
 - Você também pode visualizar a localização e o idioma primário que será usado pelo atendedor automático da audioconferência.
