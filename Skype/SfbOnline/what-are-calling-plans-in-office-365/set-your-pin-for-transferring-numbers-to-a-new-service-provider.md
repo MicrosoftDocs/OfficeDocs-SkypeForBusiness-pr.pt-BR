@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Para transferir ou fazer a portabilidade de números de telefone do Skype for Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN. Depois de definir o PIN, você precisará incluí-lo quando solicitar a portabilidade do número de telefone.
-ms.openlocfilehash: f30c26d366d6ad431683ba5b80641a9796c2730c
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958247"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347087"
 ---
 # <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a>Definir seu PIN para transferir números para um novo provedor de serviços
 
@@ -55,7 +55,7 @@ Veja aqui algumas informações específicas sobre esse PIN que você deve saber
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, escolha **voz** > **pedidos de porta**.
     

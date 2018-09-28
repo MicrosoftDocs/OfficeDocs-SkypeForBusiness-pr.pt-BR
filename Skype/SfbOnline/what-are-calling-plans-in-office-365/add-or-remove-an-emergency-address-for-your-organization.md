@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como adicionar um endereço de emergência à sua conta do Skype for Business. '
-ms.openlocfilehash: 06cd8202198b49efbf2c478e233865a681d2ce34
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: a4edcfa5673ac20c571bfae4d26f41facb9f0c80
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958177"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347048"
 ---
 # <a name="add-or-remove-an-emergency-address-for-your-organization"></a>Adicionar ou remover um endereço de emergência para sua organização
 
@@ -40,7 +40,7 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e, em seguida, clique no botão **Adicionar novo endereço**.
     
@@ -62,9 +62,9 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
-3. No painel de navegação esquerdo, vá para **voz** > **local de emergência**, selecione o endereço que você deseja excluir e, no painel de ações, clique em **Excluir**.
+3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**, selecione o endereço que você deseja excluir e, no painel de ações, clique em **Excluir**.
     
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.

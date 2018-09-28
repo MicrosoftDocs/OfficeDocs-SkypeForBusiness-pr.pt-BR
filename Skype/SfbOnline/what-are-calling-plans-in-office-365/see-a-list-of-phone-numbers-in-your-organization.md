@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como ver uma lista de todos os números de telefone em sua organização, todos os números atribuídos aos usuários e todos os números são atribuídos a usuários de voz, a partir do Skype para centro de administração de negócios.
-ms.openlocfilehash: 2f7311b3b50be7bb6cea086fdd3e9f4fe67a677b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958227"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347077"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -39,7 +39,7 @@ Há tipos diferentes de números de telefone que você pode atribuir a usuários
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No **Centro de administração do Skype for Business**, na navegação esquerda, vá para **Voz** > **Números de telefone**.
     
@@ -71,7 +71,7 @@ Ao configurar usuários, talvez você só queira ver a lista de números de tele
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo do **Centro de administração do Skype for Business**, vá para **Voz** > **Usuários de voz**.
     
@@ -95,7 +95,7 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo do **Centro de administração do Skype for Business**, vá para **Voz** > **Usuários de voz**.
     

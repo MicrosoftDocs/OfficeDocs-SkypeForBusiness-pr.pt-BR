@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 69ed5566d516f89b5b3f2c96ab37e43690693708
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017893"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347541"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de telefone para o Office 365
 
@@ -53,7 +53,7 @@ Antes de iniciar a transferência de números de telefone, é recomendável que 
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **Voz** > **Pedidos de portabilidade** > clique em **Adicionar**.
     
@@ -81,7 +81,7 @@ Antes de iniciar a transferência de números de telefone, é recomendável que 
     
   - **Cidade**, **Estado**, **CEP** do endereço de serviço.
     
-6. Na página **Números**, insira os números de telefone que você deseja transferir no formato E.164. Por exemplo, para um número da América do Norte, use o formato +1XXXYYYZZZZ. Separe vários números de telefone usando vírgulas.
+6. Na página **Números**, insira os números de telefone que você deseja transferir no formato E.164. Por exemplo, para um número da América do Norte, use o formato +1XXXYYYZZZZ. Use uma vírgula para separar vários números de telefone.
     
     > [!NOTE]
     > [!DICA] Se você estiver realizando uma portabilidade completa, precisará incluir o Número de telefone de cobrança (BTN) do serviço na lista. Se você estiver fazendo uma portabilidade parcial, não inclua o Número de telefone de cobrança (BTN) do serviço na lista. 
@@ -90,7 +90,7 @@ Antes de iniciar a transferência de números de telefone, é recomendável que 
     
 7. Clique em **Continuar**.
     
-8. Na página **Data de transferência**, na lista suspensa **Dia**, selecione a data e, na lista suspensa **Hora de início**, selecione a hora (EST) e clique em **Avançar**.
+8. Na página **Transferir datas** , na lista suspensa **dia** , selecione a data e na lista suspensa **hora de início** , selecione a hora (EST) e clique em **Avançar**.
     
 9. On the **Letter of authorization** page, check each of the following boxes. Then under the **Signature** box, type the person that is authorized to make changes to the account. This is the same name that is used on the **Account Information** page > **Authorizing person**. Then click **Next**.
     

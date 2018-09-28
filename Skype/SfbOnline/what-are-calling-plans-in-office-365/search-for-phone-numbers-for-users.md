@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Veja como pesquisar números de telefone que você pode atribuir para seus usuários por país/região, estado/região ou cidade, e especifique a quantidade de números que precisa. '
-ms.openlocfilehash: d57ccfbea0020ab3ddacd894ffa6f277798bb042
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958097"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347067"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Pesquisar números de telefone para usuários
 
@@ -44,7 +44,7 @@ Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar 
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **números de telefone**e clique em **Adicionar novo número** > **novos números de usuário**.
   
@@ -59,7 +59,7 @@ Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar 
     > [!NOTE]
     > Você pode ver o número de números de telefone, que se baseia no número de licenças, listado ao lado de **números de Total de usuários, que você pode adquirir**. 
   
-6. Clique em **Mostrar números** para ver a lista completa de números de telefone. Isso é útil se você não quiser selecionar um número de telefone específico na lista.
+6. Clique em **Mostrar números** para ver a lista completa de números de telefone. Isso é útil se você não deseja selecionar um número de telefone específico na lista.
     
 7. Selecione os números de telefone que você deseja e clique em **números de aquisição**.
     

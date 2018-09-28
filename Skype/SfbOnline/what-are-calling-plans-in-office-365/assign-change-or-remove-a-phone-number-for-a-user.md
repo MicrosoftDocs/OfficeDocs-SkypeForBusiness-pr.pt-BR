@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para usuários do Skype for Business de modo que outras empresas e clientes possam ligar para eles.
-ms.openlocfilehash: 17cb05a4d9982981e65b5919a868979fca1a1aa2
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958117"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347019"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -58,7 +58,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios**.
+2. Vá para **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, clique em **voz** > **usuários de voz**.
    > [!NOTE]
@@ -73,7 +73,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
 6. Na página **Atribuir número** na lista **Selecione o número a ser atribuído** , selecione o número de telefone para o usuário.
     
     > [!TIP]
-    > Se você não vir nenhum número de telefone listado, você precisará [Getting números de telefone para seus usuários](getting-phone-numbers-for-your-users.md) pela primeira vez. Ou, se você usar o **centro de administração do Skype for Business** > **Voz** > página de**Números de telefone**, clique em **Adicionar**e depois em **Novos números de usuário**. 
+    > Se você não vir nenhum número de telefone listado, você precisará [fazer os números de telefone para seus usuários](getting-phone-numbers-for-your-users.md) pela primeira vez. Ou, se você usar o **centro de administração do Skype for Business** > **Voz** > página de**Números de telefone**, clique em **Adicionar**e depois em **Novos números de usuário**. 
   
 7. Para atribuir ou alterar o endereço de emergência associado, em **Selecionar validado emergência local**, selecione o local da lista ou, se você tiver muitos locais definidos, digite o nome da cidade na caixa Pesquisar e clique em **Pesquisar**.
     
@@ -90,7 +90,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios**.
+2. Vá para **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, clique em **voz** > **usuários de voz**.
     
@@ -114,7 +114,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **Skype para negócios**.
+2. Vá para **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, clique em **voz** > **usuários de voz**.
     

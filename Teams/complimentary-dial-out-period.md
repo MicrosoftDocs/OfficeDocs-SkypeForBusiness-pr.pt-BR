@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Os clientes podem usar o Plano de Chamadas Office 365 e a Audioconferência Office 365, conforme permitido nos Termos de Uso de Serviços PSTN do Skype for Business Online e no contrato de licenciamento por volume do Cliente.
-ms.openlocfilehash: 9e807e5bca0ed17d798a7fd71b9c8db76e146750
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9f3db1ee225633bc4a1d4084dc674d6253e49276
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017507"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347389"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -39,7 +39,7 @@ Os clientes podem usar o Plano de Chamadas Office 365 e a Audioconferência Offi
   
 ### <a name="complimentary-dial-out-period"></a>Período de discagem gratuita
 
-Como um benefício adicional para os clientes adotarem o serviço de Auditoria de Áudio Office 365, a Microsoft está fornecendo benefícios adicionais relacionados à discagem de reuniões organizadas por usuários atribuídos a uma licença da Audioconferência Office 365 até 30 de junho de 2018. Para o período por meio de 30 de junho de 2018, usuários participando de reuniões organizadas por usuários licenciados podem ser permitidos, com base nas permissões concedidas pelo organizador da reunião, faça chamadas de discagem do dentro da reunião aos números de telefone nos seguintes 44 países:
+Como um benefício adicional aos clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo benefícios adicionais relacionados ao discar a partir de reuniões organizadas por usuários atribuídos a uma licença de conferência de áudio do Office 365 através de 30 de junho de 2018. Para o período por meio de 30 de junho de 2018, usuários participando de reuniões organizadas por usuários licenciados podem ser permitidos, com base nas permissões concedidas pelo organizador da reunião, faça chamadas de discagem do dentro da reunião aos números de telefone nos seguintes 44 países:
   
 |    |
 |-----|

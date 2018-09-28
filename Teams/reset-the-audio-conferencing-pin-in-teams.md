@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Microsoft Teams. '
-ms.openlocfilehash: f331298915cea6240baeb2f6f6086ec8b9ade675
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: 292cc1c042816236fed35b536dd529b49e902203
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019064"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347494"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Redefinir o PIN de audioconferência no Microsoft Teams
 
@@ -35,22 +35,26 @@ Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando
 
 ## <a name="reset-a-users-pin"></a>Redefinir o PIN de um usuário
 
-1. No Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
 
-2. Em **Conferência de áudio**, clique em **Redefinir PIN**.
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-3. Clique em **Redefinir**.
+2. Clique em **Editar**.
+
+3. Em **Conferência de áudio**, clique em **Redefinir PIN**.
+
+4. Clique em **Redefinir**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>Como um usuário pode redefinir seu próprio PIN
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>Faça com que um usuário redefina seu próprio PIN
 
-1. O usuário deve acessar [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
-2. Clique em **Redefinir PIN**. 
+1. Solicite que o usuário acesse [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing).
+2. Clique em **Redefinir o PIN**. 
 
 
-## <a name="what-else-should-you-know-about-pins"></a>O que mais você precisa saber sobre PINs?
+## <a name="what-else-should-you-know-about-pins"></a>O que mais você deve saber sobre PINs?
 
 - Por motivos de segurança, o PIN só é mostrado para o administrador em uma ocasião: quando o PIN é redefinido. Depois que o PIN é redefinido por um administrador, o PIN será listado como * * *.
     
@@ -58,7 +62,7 @@ Reuniões podem ser iniciados quando um usuário autenticado que ingressa usando
     
 - Quando uma reunião for iniciada, todos os usuários do lobby serão conectados automaticamente. Por exemplo, se dois participantes tentarem participar de uma reunião antes que ela seja iniciada, eles serão colocados no lobby e esperarão ouvindo música. Quando o organizador da reunião participar usando o PIN por telefone, a reunião será iniciada e os participantes do lobby entrarão na reunião.
     
-- A configuração padrão é não permitir que uma reunião seja iniciada por chamadores anônimos.
+- A configuração padrão é não permitir uma reunião ser iniciado por chamadores anônimos.
     
 - Quando você habilita um usuário para conferência de áudio, por padrão, eles são enviados emails que incluem informações de conferência e o PIN. O usuário deve ter uma caixa de correio do Office 365, como quando um PIN é redefinido, um novo PIN será enviado ao usuário no email para seu endereço SMTP principal (alias) que está definido para o usuário.
     

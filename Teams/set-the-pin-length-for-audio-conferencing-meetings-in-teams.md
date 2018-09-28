@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Conheça os parâmetros de tamanho e os requisitos de um PIN e veja como definir o tamanho para reuniões no Microsoft Teams.
-ms.openlocfilehash: db7c62920dc7440cc8356dd3f5275dd551cdfd78
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014913"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347478"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Definir o tamanho do PIN para reuniões de Audioconferência no Microsoft Teams
 
@@ -38,18 +38,20 @@ A ponte de conferência de áudio atende uma chamada para pessoas que estão dis
   
 ## <a name="setting-the-pin-length"></a>Configurar o tamanho do PIN
 
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
+
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
 2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 
 
-3. No painel **Configurações da ponte**, em **tamanho do PIN**, selecione o número de dígitos que deseja para o PIN.
+3. No painel de **configurações de ponte** , em **tamanho do PIN**, selecione o número de dígitos que você deseja para o PIN.
 
 4. Clique em **Salvar**.
 
 > [!NOTE]
 > [!OBSERVAçãO] Um PIN é diferente de um ID de conferência. IDs de conferência são usados pelos chamadores quando eles participam da reunião. São usados para identificar a reunião. O PIN é usado para autenticar um chamador como organizador da reunião. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>Deseja saber mais sobre as configurações de PIN?
+## <a name="want-to-know-more-about-pin-settings"></a>Quer saber mais sobre configurações de PIN?
 
 - PINs podem ter entre 4 para 12 dígitos; o padrão é 5. Somente números são usados para criar PINs. Letras e caracteres especiais não são usados.
     

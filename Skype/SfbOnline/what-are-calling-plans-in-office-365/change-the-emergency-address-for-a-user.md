@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Consulte as etapas sobre como alterar o endereço de emergência de um usuário para trabalhar com a Rede Telefônica Pública Comutada (PSTN) nos EUA e na Europa. '
-ms.openlocfilehash: 31162e24471cb4e9259678f779143900fa61ac08
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958347"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347097"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Alterar o endereço de emergência de um usuário
 
@@ -40,7 +40,7 @@ Para saber como obter um Plano de Chamada no Office 365 e o seu preço, consulte
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **usuários de voz**.
     

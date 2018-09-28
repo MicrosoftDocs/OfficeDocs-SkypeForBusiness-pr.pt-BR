@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como alterar o local de emergência para seus usuários. Com um número ilimitado de locais, você pode alterar os locais de emergência quando seus funcionários se mudam de andares ou prédios. '
-ms.openlocfilehash: caf201bf71d15518ffbfbf473a904da2d1d03aa4
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 7ebec7ca6a2180702eec9e24b3165eb501d4a097
+ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958207"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "25347107"
 ---
 # <a name="change-the-emergency-location-for-a-user"></a>Alterar o local de emergência de um usuário
 
@@ -38,7 +38,7 @@ Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, co
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **usuários de voz**.
     
