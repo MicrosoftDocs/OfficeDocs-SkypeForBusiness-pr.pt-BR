@@ -1,2 +1,2 @@
 > [!NOTE]
-> Não vê esse recurso em seu cliente do Microsoft Teams ainda? Ela está atualmente sendo distribuída e pode não estar disponível em sua organização ainda. Consulte o [Roteiro de equipes](http://aka.ms/TeamsRoadmap) para notícias sobre as versões futuras em equipes. 
+> Esse recurso ainda não aparece em seu cliente do Microsoft Teams? Ele está sendo distribuído no momento e pode ainda não estar disponível em sua organização. Consulte o [Roteiro do Teams](https://aka.ms/TeamsRoadmap) para ver as notícias sobre os próximos lançamentos no Teams.
