@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 07/16/2018
+ms.date: 10/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c50fff8a204e00755857ede74e97fd728b032a73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6acb497937ad7548f8ffc745d12b0ddd813b3e46
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016937"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353187"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -31,6 +31,9 @@ ms.locfileid: "25016937"
 O suplemento de Reunião do Teams é instalado automaticamente para os usuários que têm o Microsoft Teams e o Office 2013 ou o Office 2016 instalados em seus computadores Windows. Os usuários verão o suplemento de Reunião do Teams na faixa de opções Calendário do Outlook. 
 
 ![Captura de tela do suplemento do Teams na faixa de opções do Outlook.](media/Teams-add-in-for-Outlook.png)
+
+> [!NOTE]
+> Os usuários do Windows 7 devem instalar a [atualização para Universal C Runtime no Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para o suplemento de reunião de equipes trabalhem.
 
 Se o suplemento de Reunião do Teams não for exibido, instrua os usuários a fechar o Outlook e o Teams e reiniciar o cliente Teams primeiro, depois entrar no Teams e então reiniciar o cliente Outlook, exatamente nessa ordem.
 

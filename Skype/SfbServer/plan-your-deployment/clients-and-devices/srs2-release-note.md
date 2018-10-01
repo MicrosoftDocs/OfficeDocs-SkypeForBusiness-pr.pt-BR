@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: e44a9ecc943bd20b451458fd1c469eee4d5cd2ea
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 7a84cd715be9d76caa9b8ce624aae1c7fbe84f35
+ms.sourcegitcommit: 38efc00dfadc98cebd362877a1239d852f804f06
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965909"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25353210"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -26,13 +26,15 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 
 | Versão | Publicado em <br>Repositório da Microsoft | 
 | ---     | ---                              |
+| 4.0.19.0|  08/31/2018    |   
+| 4.0.18.0|  27/08/2018    |   
 | 4.0.8.0|  07/06/2018    |   
 | 3.1.115.0|  18/06/2018    |
 | 3.1.113.0|  13/06/2018    |   
 | 3.1.112.0|  05/06/2018    |   
 | 3.1.104.0|  16/04/2018    |            
 | 3.1.100.0|  03/16/2018    |            
-| 3.1.99.0 | 14/3/2018      |   
+| 3.1.99.0 | 14/3/2018      |  
 | 3.1.98.0    | 3/8/2018    |   
 |  3.0.16.0    |  27/11/2017   |
 | 3.0.15.0 | 10/3/2017  |            
@@ -44,6 +46,18 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de sala Skype v2 recurso Introdução e resoluções de problemas
+
+### <a name="40190-8312018"></a>4.0.19.0 (31/8/2018)
+Introduzido nessa atualização: 
+- Hotfix para o aplicativo Crestron não launching que normalmente pode ser acessado pressionando o botão do aplicativo em dispositivos Crestron SR. Após a instalação do 4.0.19.0 é necessário reiniciar o aplicativo SRSv2 
+
+### <a name="40180-08272018"></a>4.0.18.0 (27/08/2018)
+Introduzido nessa atualização: 
+- Aprimoramentos de recurso "Informar sobre um problema" no modo de equipes (equivalente "Forneça Feedback" no Skype para o modo de negócios)
+- Habilitar capacidade para fallback de equipes Skype para o modo de negócios para chamadas SIP
+- Aprimoramentos de acessibilidade (o Narrator, Lente de aumento)
+- Reiniciar automaticamente app quando necessário depois que tiverem sido aplicadas alterações de provisionamento de XML
+- Correções Miscellaneous
 
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 Introduzido nessa atualização: 
