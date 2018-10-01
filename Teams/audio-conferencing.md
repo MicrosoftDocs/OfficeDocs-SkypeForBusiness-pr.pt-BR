@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: e611b66efb09091303c98dba6c3cdf55d693bc8c
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.openlocfilehash: d3f16e8eecb9396b4258094e761464625c2db548
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965527"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352302"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Orientações práticas de Audioconferência no Microsoft Teams
 ============================================================
@@ -229,8 +229,7 @@ Você precisa inserir isso e incluir o plano operacional como parte do plano de 
 <br>
 Planejamento técnico da Audioconferência
 -----------------------------------------
-
-Para planejar a implementação técnica da Audioconferência, várias decisões devem ser tomadas antecipadamente para melhor preparar sua organização para implementar uma solução que atenda aos requisitos da empresa. Essas decisões serão documentadas no plano de implementação técnica.
+<a name="technical-planning-for-audio-conferencing"></a> Para planejar a implementação técnica de conferência de áudio, uma série de decisões que deve ser feita antes do tempo melhor preparar sua organização para implementar uma solução que atenda aos requisitos de negócios. Essas decisões serão documentadas no plano de implementação técnica.
 
 ## <a name="availability-of-audio-conferencing"></a>Disponibilidade da Audioconferência
 

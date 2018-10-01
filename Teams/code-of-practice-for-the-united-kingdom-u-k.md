@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: e22a1c853a60af06789e98c6eb73f701712f7252
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 646d525111e18752492ad7ebc346839b7d296f9b
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016329"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352310"
 ---
 # <a name="code-of-practice-for-the-united-kingdom-uk"></a>Código de conduta para o Reino Unido (UK)
 
@@ -53,11 +53,8 @@ Você pode obter resposta a algumas de suas dúvidas visitando o [site do Skype 
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Reclamações e solução de controvérsias
 
-<<<<<<< HEAD:Teams/code-of-practice-for-the-united-kingdom-u-k.md nossas prioridades principais são satisfação do cliente e excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossa página [Chamar planos no Office 365 - código de tratamento de reclamações para o Reino Unido (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md) detalha os procedimentos para pequenas empresas no arquivo uma reclamações conosco e esquema de resolução nosso contestação independentes.
+Nossas prioridades são a satisfação do cliente e o excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossa página [Chamar planos no Office 365 - código de tratamento de reclamações para o Reino Unido (U.K.)](complaint-handling-code-for-the-united-kingdom-u-k.md) detalha os procedimentos para pequenas empresas no arquivo uma reclamações conosco e esquema de resolução nosso contestação independentes.
   
-=== Nossas prioridades principais são satisfação do cliente e excelente serviço. No entanto, se você tiver uma reclamação, trabalharemos rapidamente para resolver o problema. Nossa página [Chamar planos no Office 365 - código de tratamento de reclamações para o Reino Unido (U.K.)](code-of-practice-for-the-united-kingdom-u-k.md) detalha os procedimentos para pequenas empresas no arquivo uma reclamações conosco e esquema de resolução nosso contestação independentes.
-
->>>>>>> Master:Skype/SfbOnline/legal-and-Regulatory/Code-of-Practice-for-the-United-Kingdom-u-k.MD
 ## <a name="4-number-porting"></a>4. Portabilidade numérica
 
 Em certos casos, o Skype for Business pode ser incapaz de transferir o número de telefone do cliente para uso com o Serviço. Quando a portabilidade numérica estiver disponível, o Skype for Business executará todas as etapas razoáveis para garantir que a transferência do número e a ativação posterior sejam concluídas prontamente quando for alcançado um acordo com o provedor de serviços atual do cliente para transferir o número.

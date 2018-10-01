@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b72f40e624c63349913688e11ffc30be5a93a92b
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 8230cb0cd03e1ba0b11c43c16d8817fdb80c31ec
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347117"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352278"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
 =================================
@@ -59,7 +59,7 @@ Se um usuário desinstala equipes de seu perfil de usuário, o instalador MSI ir
 3. Reimplante o pacote MSI nesse computador específico.
 
 > [!TIP] 
-> Você pode usar o nosso script de [implantação de equipes da Microsoft limpar](.\scripts\Powershell-script-teams-deployment-clean-up.md) para realizar as etapas 1 e 2 por meio do SCCM.  
+> Você pode usar o nosso script de [implantação de equipes da Microsoft limpar](scripts/Powershell-script-teams-deployment-clean-up.md) para realizar as etapas 1 e 2 por meio do SCCM.    
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Desabilitar o recurso de início automático para o instalador MSI
 

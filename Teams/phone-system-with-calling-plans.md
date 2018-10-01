@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0d8ed28eb941618a4faf10dddb4c700d2a0d2baf
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
-ms.translationtype: HT
+ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
+ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965519"
+ms.lasthandoff: 10/01/2018
+ms.locfileid: "25352294"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 =========================================================================
@@ -231,8 +231,7 @@ Você precisa inserir isso e incluir o plano operacional como parte do plano de 
 <br>
 Planejamento técnico do Sistema de Telefonia com Planos de Chamadas
 ------------------------------------------------------
-
-Para planejar a implementação técnica do Sistema de Telefonia com Planos de Chamadas, é necessário tomar uma série de decisões antecipadamente para melhor preparar a sua organização para implementar uma solução que atenda aos requisitos da empresa. Essas decisões serão documentadas no plano de implementação técnica.
+<a name="technical-planning-for-phone-system-with-calling-plans"></a> Para planejar a implementação técnica do sistema telefônico com planos de chamada, uma série de decisões que deve ser feita antes do tempo melhor preparar sua organização para implementar uma solução que atenda aos requisitos de negócios. Essas decisões serão documentadas no plano de implementação técnica.
 
 ## <a name="availability-of-calling-plans"></a>Disponibilidade de Planos de Chamadas
 
