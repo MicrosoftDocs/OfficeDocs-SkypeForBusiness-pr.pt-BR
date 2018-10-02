@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a59134e48d71f9704054d01fecccff385e45e7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: da85bde3b0f868165fed869b8147e4408344ebc0
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015369"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358897"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes - Jornada de migração do Skype for Business para o Microsoft Teams
 
@@ -35,7 +35,7 @@ Os usuários estão trabalhando em mais de equipes, vemos a oportunidade de inte
 
 ### <a name="is-there-a-firm-deadline-by-which-customers-need-to-move-from-skype-for-business-online-to-teams"></a>Há um prazo rígido segundo o qual os clientes precisam passar do Skype for Business Online para o Teams?
 
-Fizemos nosso roteiro para equipes disponíveis para que os clientes possam avaliar os recursos para equipes em relação às suas necessidades e planejar sua migração para equipes. Os clientes podem determinar o momento de migrar para o Teams, aquele que melhor atenda às suas necessidades. Uma ótima maneira de permanecer na parte superior de notícias sobre a jornada do Skype para negócios às equipes são o [Skype para Busineses Roadmap de recursos do Microsoft equipes](https://aka.ms/skype2teamsroadmap)— um PDF para download (em apenas em inglês, pelo menos por enquanto) que dá expectativas de atuais da Microsoft sobre Skype para recursos de Business chegando ao equipes.
+Fizemos nosso roteiro para equipes disponíveis para que os clientes possam avaliar os recursos para equipes em relação às suas necessidades e planejar sua migração para equipes. Os clientes podem determinar o momento de migrar para o Teams, aquele que melhor atenda às suas necessidades. Uma ótima maneira de permanecer na parte superior de notícias sobre a jornada do Skype para negócios às equipes são o [Skype para a Microsoft Roadmap de recursos de equipes de negócios](https://aka.ms/skype2teamsroadmap)— um PDF para download (em apenas em inglês, pelo menos por enquanto) que dá expectativas de atuais da Microsoft sobre Skype para recursos de Business chegando ao equipes.
 
 ### <a name="what-is-the-future-of-skype-for-business-server"></a>Qual é o futuro do Skype for Business Server?
 

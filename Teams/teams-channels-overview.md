@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70591f040508453832943c65122f0fa0b07ef35b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
+ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014657"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25358889"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -36,13 +36,7 @@ Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parcer
 
     -   Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Os bate-papos privados só são visíveis para as pessoas que estão no bate-papo.
 
-    -   Os canais são mais valorizados quando estendidos com aplicativos que incluem Guias, Conectores e Bots, aumentando seu valor para os membros da equipe.
-    
-Invista cinco minutos para conhecer neste vídeo as práticas recomendadas para organizar equipes, canais e guias:
-
-|  |  |
-|---------|---------|
-| Cinco minutos para configurar ótimas equipes, canais e guias   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   | 
+    -   Canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam a seu valor para os membros da equipe.
 
 <a name="membership-roles-and-settings"></a>A associação, funções e configurações
 ------------------------------
@@ -52,6 +46,9 @@ Invista cinco minutos para conhecer neste vídeo as práticas recomendadas para 
 **Funções no Teams** Existem duas funções principais no Microsoft Teams: um proprietário de equipe, a pessoa que cria a equipe e os membros da equipe, as pessoas que ele convida para entrar na equipe. Os proprietários de equipe podem tornar qualquer membro da sua equipe um coproprietário quando é feito o convite para a equipe ou a qualquer momento após ele ter entrado na equipe. Ter diversos proprietários de equipe permite que você compartilhe as responsabilidade de gerenciar as configurações e associações, incluindo convites.   
 
 **Configurações da equipe** os proprietários de equipe podem gerenciar amplas configurações da equipe, diretamente no Microsoft Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais, adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes. 
+
+Siga três minutos, fazer check-out este ir para guia vídeo para proprietários de equipe: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Se você for um administrador do Microsoft Teams no Office 365, você tem acesso às configurações de todo o sistema no equipes & Skype para Business Admin Center. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode habilitar um canal padrão, “Geral”, para anúncios, discussões e recursos de toda a equipe. Esse canal aparecerá para todas as equipes.
 
