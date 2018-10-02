@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e166b3ce54f18d3efdbb856d103f6f45d6b420f3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a7a552affaf0a50325e8a90c9f6c1f7f60d2c3b2
+ms.sourcegitcommit: e49e9e8e6f42738a153306ae6f2a1d0a2e46d736
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014793"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25354336"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -37,8 +37,6 @@ Seus administradores de Inquilino do Office 365, líderes técnicos e para o sup
 Compartilhar os recursos a seguir com seus membros da equipe de TI e confirme que eles estão prontos para suportar usuários antes de começar a atualização para equipes:
 
 -   [Treinamento para o administrador do Microsoft Teams](itadmin-readiness.md)
-
--   [Guias de início rápido para administradores do Microsoft Teams](quick-start-guides.md)
  
 -   [Recursos de suporte para o Microsoft Teams](support-resources.md)
  
