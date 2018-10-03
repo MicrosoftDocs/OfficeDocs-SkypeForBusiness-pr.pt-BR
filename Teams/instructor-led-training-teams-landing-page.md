@@ -8,12 +8,12 @@ ms.topic: hub-page
 ms.author: dearbeen
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 5f721ccc993e31ae0040df7ea841ef13e86dae26
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: bcd6cb0fa2f251d015b0fe909ca0dfcd89442380
+ms.sourcegitcommit: 02ff91505a2f185bb3c1059a1b26ee31bb272438
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25090222"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "25359474"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -98,8 +98,27 @@ ms.locfileid: "25090222"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Faça a mudança do Skype para negócios às equipes: orientação do usuário final</h3>
-                                                    <p>Este curso aborda o que você precisa iniciar rapidamente o bate-papo, reunião e chamando em equipes como seus transições de organização do Skype for Business para equipes.</p>
+                                                <h3>Alternar do Skype for Business para equipes: orientação do usuário final</h3>
+                                                    <p>Obtenha o que você precisa iniciar rapidamente o bate-papo, reunião e chamando em equipes durante sua transição do Skype for Business para equipes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Obtenha vídeos & treinamento sob demanda</h3>
+                                                <p>Obtenha as equipes do usuário final treinamento e vídeos sob demanda para você e seus usuários.</p>
                                             </div>
                                         </div>
                                     </div>
