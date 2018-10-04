@@ -11,16 +11,16 @@ localization_priority: Normal
 ms.collection: ''
 robots: noindex
 description: Visão geral do uso de um atendedor automático de nuvem.
-ms.openlocfilehash: 4ff30137f81822fcf5146aedfe84f4234dc5a313
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2094fb740d1a6ebd71dbb84a0abe67d7d5812f81
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25030844"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405141"
 ---
 # <a name="plan-cloud-auto-attendant"></a>Planejar o atendedor automático de nuvem
 
-Skype para Business Server 2019 implementações híbridas usam a caixa postal de nuvem apenas e não integram com o Exchange Online.
+Skype para Business Server 2019 implementações híbridas usam atendentes automáticos da caixa postal nuvem nuvem apenas e não integram com o Exchange Online.
 
 Usando o Skype para servidor de negócios 2019 com [Atendedores automáticos da telefone sistema](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) ainda não está disponível.
 

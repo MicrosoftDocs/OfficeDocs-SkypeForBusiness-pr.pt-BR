@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, tutoriais e outros recursos para os usuários em sua organização de aprender e usar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c5caebccdf2617172ec90f1ea5d0f271455a26a
-ms.sourcegitcommit: 0cb35fd6e93939f2252d0729c7c08bac50e6cd6b
+ms.openlocfilehash: a14d678bb425100e989bd52a91e35e7804ff2789
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/04/2018
-ms.locfileid: "25402065"
+ms.locfileid: "25405148"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Treinamento para o usuário final do Microsoft Teams
 
@@ -119,7 +119,8 @@ Assista a este vídeo curto apresentando equipes</h3>
 
     
 </ul>
-****************
+
+---
 
 <h2>Treinamento em destaque</h2>
 <ul class="panelContent cardsW">

@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Saiba como live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dff1d7166451868a6d6d906b668a918fc011336
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: db8f9223c74b29f7fd2bfa27b63419abcb4219c5
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354008"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405244"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Cite Teams Microsoft live eventos?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -50,7 +50,7 @@ Os eventos ao vivo no Microsoft 365 oferecem suporte a uma variedade de cenário
 
 - **Produção de início rápido**: O método de produção do início rápido permite aos usuários produzir seus eventos ao vivo usando reuniões de equipes. Essa opção é melhor e mais rápida opção se desejar usar os dispositivos de áudio e vídeos conectado ao PC ou está convidando apresentadores remotos de participação no evento. Essa opção permite que os usuários facilmente use seus webcams e compartilhar sua tela como entrada para o evento. 
 
-! [Eventos ao vivo de equipes] (.. /Media/Teams-Live-Events-Quick-Start.png "captura de tela mostrando um evento ao vivo que é produzido usando rápido inicie o método de produção] (… /Media/Teams-Live-Events-Quick-Start.png "Captura de tela mostrando um evento ao vivo que é produzido usando o método de produção do início rápido")
+![As equipes de eventos ao vivo] (../media/teams-live-events-quick-start.png "Captura de tela mostrando um evento ao vivo, que é produzido usando rápido inicie o método de produção")
 
 - **Produção codificador externo**: codificadores externos permitir que usuários produzir seus eventos ao vivo diretamente de um hardware externo ou um codificador baseada em software com a [Microsoft Stream](https://stream.microsoft.com). Esta é a melhor opção se você já tiver equipamento de qualidade studio (por exemplo, misturadores de mídia) quais streaming de suporte para um serviço (RTMP Real-Time Messaging Protocol). Esse tipo de produção é geralmente usado nos eventos de grande escala, como executivos corredores da cidade – onde um único fluxo de um mixer de mídia é transmitido para a audiência. 
 
@@ -64,9 +64,9 @@ A plataforma de fluxo contínuo de evento ao vivo é composta das seguintes part
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Rede de entrega de conteúdo corporativo (eCDN)
 O objetivo do eCDN é obter o conteúdo de vídeo da internet e distribuir o conteúdo em toda a empresa sem afetar o desempenho da rede. Você pode usar um dos seguintes eCDN parceiros certificados para otimizar sua rede para eventos ao vivo mantidos dentro da sua organização:
-    - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-    - [Kollective](http://www.kollective.com)
-    - [Conheça](http://www.ramp.com)
+- [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
+- [Kollective](http://www.kollective.com)
+- [Conheça](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Experiência do participante 
 A experiência do participante é o aspecto mais importante dos eventos ao vivo e é muito importante que os participantes podem participar de evento ao vivo sem a necessidade de quaisquer problemas. A experiência do participante usa o Media Player do Windows Azure e funciona em desktop, navegador e mobile (iOS, Android). O Office 365 fornece Yammer e equipes como dois hubs de colaboração e o nome do participante ao vivo experiência é integrada a essas ferramentas de colaboração. 

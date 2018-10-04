@@ -10,17 +10,17 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar o live eventos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06d433b75cd0f29f328d23cb6e110d4406123a74
-ms.sourcegitcommit: 6447a3aa060452c8d6879524cd6a56aecf33b152
+ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
+ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25354368"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25405252"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar live eventos no Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
-Quando você estiver planejando eventos ao vivo de equipes para armazenar grandes reuniões em seu organizaiton, há vários fatores que você precisa considerar antes de começar a defini-la sempre para cima. 
+Quando você estiver planejando eventos ao vivo de equipes para armazenar grandes reuniões em sua organização, há vários fatores que você precisa considerar antes de começar a defini-la sempre para cima. 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>Quem pode criar e agendar eventos ao vivo? 
 Os seguintes pré-requisitos são necessários para o usuário agendar um evento de equipes ao vivo.
