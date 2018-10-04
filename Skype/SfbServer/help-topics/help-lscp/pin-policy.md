@@ -12,30 +12,30 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 4bb92cf410f0acfdee33ad5f197a420c422e5de3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2fd111f3572d2fba4450e7d71f5bb8d190cec80b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254515"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371435"
 ---
-# <a name="pin-policy"></a><span data-ttu-id="d00ec-104">Política de PIN</span><span class="sxs-lookup"><span data-stu-id="d00ec-104">PIN Policy</span></span>
+# <a name="pin-policy"></a><span data-ttu-id="936d3-104">Política de PIN</span><span class="sxs-lookup"><span data-stu-id="936d3-104">PIN Policy</span></span>
 
-<span data-ttu-id="d00ec-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="d00ec-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="936d3-p102">O que você deseja fazer? Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="936d3-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
 
- <span data-ttu-id="d00ec-107">**Trabalhar com a política de PIN para telefones IP** Essa diretiva (PIN) número de identificação pessoal suporta autenticação para usuários que se conectam ao Skype para Business Server usando um telefone IP.</span><span class="sxs-lookup"><span data-stu-id="d00ec-107">**Work with PIN policy for IP phones**This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
-- [<span data-ttu-id="d00ec-108">Criar uma nova política de PIN no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d00ec-108">Create a new PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/create-a-new-pin-policy.md)
+ <span data-ttu-id="936d3-107">**Trabalhar com a política de PIN para telefones IP** Essa diretiva (PIN) número de identificação pessoal suporta autenticação para usuários que se conectam ao Skype para Business Server usando um telefone IP.</span><span class="sxs-lookup"><span data-stu-id="936d3-107">**Work with PIN policy for IP phones**This personal identification number (PIN) policy supports authentication for users who connect to Skype for Business Server by using an IP phone.</span></span>
+- [<span data-ttu-id="936d3-108">Criar uma nova política de PIN no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="936d3-108">Create a new PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/create-a-new-pin-policy.md)
 
-- [<span data-ttu-id="d00ec-109">Modificar uma política de PIN existente no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d00ec-109">Modify an existing PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/modify-an-existing-pin-policy.md)
+- [<span data-ttu-id="936d3-109">Modificar uma política de PIN existente no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="936d3-109">Modify an existing PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [<span data-ttu-id="d00ec-110">Excluir uma política de PIN no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="d00ec-110">Delete a PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/delete-a-pin-policy.md)
+- [<span data-ttu-id="936d3-110">Excluir uma política de PIN no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="936d3-110">Delete a PIN policy in Skype for Business Server 2015</span></span>](../../manage/authentication/delete-a-pin-policy.md)
 
- <span data-ttu-id="d00ec-111">**Trabalhar com política PIN para conferência discada** Essa política PIN permite que os usuários que têm credenciais do Active Directory Domain Services em sua organização para ingressar em conferências discadas como usuários autenticados, inserindo um PIN.</span><span class="sxs-lookup"><span data-stu-id="d00ec-111">**Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
-- [<span data-ttu-id="d00ec-112">Criar ou modificar as configurações de PIN de conferência discada para um Site ou grupo de usuários</span><span class="sxs-lookup"><span data-stu-id="d00ec-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+  <span data-ttu-id="936d3-111">**Trabalhar com política PIN para conferência discada** Essa política PIN permite que os usuários que têm credenciais do Active Directory Domain Services em sua organização para ingressar em conferências discadas como usuários autenticados, inserindo um PIN.</span><span class="sxs-lookup"><span data-stu-id="936d3-111">**Work with PIN policy for dial-in conferencing**This PIN policy allows users who have Active Directory Domain Services credentials in your organization to join dial-in conferences as authenticated users by entering a PIN.</span></span>
+- [<span data-ttu-id="936d3-112">Criar ou modificar as configurações de PIN de conferência discada para um Site ou grupo de usuários</span><span class="sxs-lookup"><span data-stu-id="936d3-112">Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [<span data-ttu-id="d00ec-113">Modifique as configurações de PIN de conferência discada padrão</span><span class="sxs-lookup"><span data-stu-id="d00ec-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [<span data-ttu-id="936d3-113">Modifique as configurações de PIN de conferência discada padrão</span><span class="sxs-lookup"><span data-stu-id="936d3-113">Modify the Default Dial-in Conferencing PIN Settings</span></span>](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [<span data-ttu-id="d00ec-114">Excluir configurações de PIN de conferência discada para um Site ou grupo de usuários</span><span class="sxs-lookup"><span data-stu-id="d00ec-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [<span data-ttu-id="936d3-114">Excluir configurações de PIN de conferência discada para um Site ou grupo de usuários</span><span class="sxs-lookup"><span data-stu-id="936d3-114">Delete Dial-in Conferencing PIN Settings for a Site or Group of Users</span></span>](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
-<span data-ttu-id="d00ec-115">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="d00ec-115">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="936d3-115">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o Skype para o painel de controle do Business Server, consulte [Gerenciar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="936d3-115">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

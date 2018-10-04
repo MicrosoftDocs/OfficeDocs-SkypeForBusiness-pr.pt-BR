@@ -12,33 +12,34 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 'Edite as propriedades do serviço de Mediação definindo as seguintes propriedades:'
-ms.openlocfilehash: d8529a97459de70270fbe709d06c92e5a1b37af3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8dbe17e8c6fb0a8d4cffd9328d28ea1aa9b5074a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371421"
 ---
-# <a name="mediation-service-settings-expander-for-lync-server-2010"></a><span data-ttu-id="90cda-103">Expansor de Configurações do Serviço de Mediação para o Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="90cda-103">Mediation Service Settings Expander for Lync Server 2010</span></span>
+# <a name="mediation-service-settings-expander-for-lync-server-2010"></a><span data-ttu-id="f39cb-103">Expansor de Configurações do Serviço de Mediação para o Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="f39cb-103">Mediation Service Settings Expander for Lync Server 2010</span></span>
  
-<span data-ttu-id="90cda-104">Edite as propriedades do serviço de Mediação definindo as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="90cda-104">You edit the properties of the Mediation service by defining the following properties:</span></span>
+<span data-ttu-id="f39cb-104">Edite as propriedades do serviço de Mediação definindo as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="f39cb-104">You edit the properties of the Mediation service by defining the following properties:</span></span>
   
-- <span data-ttu-id="90cda-p101">**Portas de escuta**: defina a porta **TLS** na qual o serviço de Mediação escutará. Por padrão, o valor da porta é TCP 5067 sobre o protocolo TLS</span><span class="sxs-lookup"><span data-stu-id="90cda-p101">**Listening ports**: Define the **TLS** port that the Mediation service will listen on. By default, the port value is TCP 5067 over transport layer security (TLS)</span></span>
+- <span data-ttu-id="f39cb-p101">**Portas de escuta**: defina a porta **TLS** na qual o serviço de Mediação escutará. Por padrão, o valor da porta é TCP 5067 sobre o protocolo TLS</span><span class="sxs-lookup"><span data-stu-id="f39cb-p101">**Listening ports**: Define the **TLS** port that the Mediation service will listen on. By default, the port value is TCP 5067 over transport layer security (TLS)</span></span>
     
-    <span data-ttu-id="90cda-p102">Como opção, você define um valor de porta **TCP**. Por padrão, o valor é TCP 5068.</span><span class="sxs-lookup"><span data-stu-id="90cda-p102">Optionally, you define a **TCP** port value. By default, the value is TCP 5068.</span></span>
+    <span data-ttu-id="f39cb-p102">Como opção, você define um valor de porta **TCP**. Por padrão, o valor é TCP 5068.</span><span class="sxs-lookup"><span data-stu-id="f39cb-p102">Optionally, you define a **TCP** port value. By default, the value is TCP 5068.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="90cda-p103">A configuração do valor de porta TCP é habilitada selecionando **Habilitar porta TCP**. Consulte a documentação de seu Gateway PSTN (Rede Telefônica Pública Comutada) ou IP-PBX (Internet Protocol Private Branch Exchange) para os requisitos de configurações de porta necessários para se comunicar com o serviço de Mediação.</span><span class="sxs-lookup"><span data-stu-id="90cda-p103">The TCP port value setting is enabled by selecting **Enable TCP port**. You should refer to the documentation for your Public Switched Telephone Network (PSTN) Gateway or Internet Protocol Private Branch Exchange (IP-PBX) for the requirements for the port settings required to communicate with the Mediation service.</span></span> 
+    > <span data-ttu-id="f39cb-p103">A configuração do valor de porta TCP é habilitada selecionando **Habilitar porta TCP**. Consulte a documentação de seu Gateway PSTN (Rede Telefônica Pública Comutada) ou IP-PBX (Internet Protocol Private Branch Exchange) para os requisitos de configurações de porta necessários para se comunicar com o serviço de Mediação.</span><span class="sxs-lookup"><span data-stu-id="f39cb-p103">The TCP port value setting is enabled by selecting **Enable TCP port**. You should refer to the documentation for your Public Switched Telephone Network (PSTN) Gateway or Internet Protocol Private Branch Exchange (IP-PBX) for the requirements for the port settings required to communicate with the Mediation service.</span></span> 
   
-- <span data-ttu-id="90cda-111">Você deve **Habilitar porta TCP** para definir o valor de porta para as comunicações TCP a partir de seu gateway PSTN ou IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="90cda-111">You **Enable TCP port** to define the port value for TCP communications from your PSTN gateway or IP-PBX.</span></span>
+- <span data-ttu-id="f39cb-111">Você deve **Habilitar porta TCP** para definir o valor de porta para as comunicações TCP a partir de seu gateway PSTN ou IP-PBX.</span><span class="sxs-lookup"><span data-stu-id="f39cb-111">You **Enable TCP port** to define the port value for TCP communications from your PSTN gateway or IP-PBX.</span></span>
     
-- <span data-ttu-id="90cda-112">Uma listagem do **Tronco** associado atualmente e existente (ou seja, Troncos SIP), **Gateway** (Gateway PSTN ou IP-PBX) e **Site** (site configurado para o tronco e gateway).</span><span class="sxs-lookup"><span data-stu-id="90cda-112">A listing of currently associated and existing **Trunk** (that is, Session Initiation Protocol (SIP) Trunks), **Gateway** (PSTN gateway or IP-PBX) and **Site** (configured site for the trunk and gateway).</span></span>
+- <span data-ttu-id="f39cb-112">Uma listagem do **Tronco** associado atualmente e existente (ou seja, Troncos SIP), **Gateway** (Gateway PSTN ou IP-PBX) e **Site** (site configurado para o tronco e gateway).</span><span class="sxs-lookup"><span data-stu-id="f39cb-112">A listing of currently associated and existing **Trunk** (that is, Session Initiation Protocol (SIP) Trunks), **Gateway** (PSTN gateway or IP-PBX) and **Site** (configured site for the trunk and gateway).</span></span>
     
-- <span data-ttu-id="90cda-p104">Selecione um Tronco, Gateway e Site e clique em **Tornar Padrão** para definir a seleção como padrão para esse serviço de Mediação. Selecione o padrão atual e clique em **Desfazer Padrão** para remover a seleção como o padrão atual. Em seguida, selecione um novo o padrão e clique em **Tornar Padrão**.</span><span class="sxs-lookup"><span data-stu-id="90cda-p104">You select a Trunk, Gateway and Site and click **Make Default** to set the selection as the default for this Mediation service. You select the current default and click **Unmake Default** to remove the selection as the current default. You then select a new default and click **Make Default**.</span></span>
+- <span data-ttu-id="f39cb-p104">Selecione um Tronco, Gateway e Site e clique em **Tornar Padrão** para definir a seleção como padrão para esse serviço de Mediação. Selecione o padrão atual e clique em **Desfazer Padrão** para remover a seleção como o padrão atual. Em seguida, selecione um novo o padrão e clique em **Tornar Padrão**.</span><span class="sxs-lookup"><span data-stu-id="f39cb-p104">You select a Trunk, Gateway and Site and click **Make Default** to set the selection as the default for this Mediation service. You select the current default and click **Unmake Default** to remove the selection as the current default. You then select a new default and click **Make Default**.</span></span>
     
- <span data-ttu-id="90cda-116">**OK** Aceita e confirma as alterações na caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="90cda-116">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="f39cb-116">**OK** Aceita e confirma as alterações na caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="f39cb-116">**OK** Accepts and commits changes to the dialog.</span></span>
   
- <span data-ttu-id="90cda-117">**Cancelar** Descarta as alterações e fecha a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="90cda-117">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="f39cb-117">**Cancelar** Descarta as alterações e fecha a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="f39cb-117">**Cancel** Discards changes and closes the dialog.</span></span>
   
- <span data-ttu-id="90cda-118">**Ajuda** Exibe essa tela de ajuda.</span><span class="sxs-lookup"><span data-stu-id="90cda-118">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="f39cb-118">**Ajuda** Exibe essa tela de ajuda.</span><span class="sxs-lookup"><span data-stu-id="f39cb-118">**Help** Displays this help screen.</span></span>
   
 
