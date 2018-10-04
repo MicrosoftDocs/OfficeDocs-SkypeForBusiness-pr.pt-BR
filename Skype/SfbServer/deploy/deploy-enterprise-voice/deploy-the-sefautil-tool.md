@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implantando a ferramenta de SEFAUtil em Skype para Business Server.
-ms.openlocfilehash: dfb2b1e4634332fcf88fdce7b09a02f925dd120e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884797"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375256"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implantar a ferramenta de SEFAUtil em Skype para negócios
  
@@ -57,9 +57,9 @@ Você pode executar a ferramenta de SEFAUtil em qualquer pool de Front-End em su
   
 5. Habilite a topologia com suas alterações. Na linha de comando, digite:
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
 6. Se você ainda não estiver, baixe o Skype para Business Server versão da ferramenta SEFAUtil [nesse local](https://www.microsoft.com/en-us/download/details.aspx?id=52631)e instale-o em um pool de aplicativos confiáveis que você criou na etapa 3.
     
@@ -69,9 +69,9 @@ Você pode executar a ferramenta de SEFAUtil em qualquer pool de Front-End em su
     
     b. Exiba as configurações de um usuário de encaminhamento de chamadas. Na linha de comando, execute:
     
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
+   ```
 
 As configurações de encaminhamento de chamada do usuário serão exibidas.
     

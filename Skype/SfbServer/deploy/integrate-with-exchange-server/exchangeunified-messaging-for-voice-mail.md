@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumo: Configure o Unificação de mensagens do Exchange Server para Skype para caixa postal Business Server.'
-ms.openlocfilehash: 21664f50b657324b4e70e86da83a4abbe1c14239
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979308"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375808"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar a Unificação de Mensagens do Exchange Server para a caixa postal do Skype for Business Server
  
@@ -109,8 +109,8 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 Para configurar a Unificação de mensagens (UM) do Exchange para funcionar com o Enterprise Voice, você precisará executar as seguintes tarefas:
 
 - Configurar certificados no servidor executando os serviços do Exchange Unified Messaging (UM)
-> [!NOTE]
-> Adicione todos os servidores de caixa de correio e de acesso para cliente a todos os planos de discagem SIP URI de UM. Se não, o roteamento de chamadas de saída não funcionarão como esperado. 
+  > [!NOTE]
+  > Adicione todos os servidores de caixa de correio e de acesso para cliente a todos os planos de discagem SIP URI de UM. Se não, o roteamento de chamadas de saída não funcionarão como esperado. 
 - Crie um ou mais SIP URI de UM planos de discagem, juntamente com os números de telefone de acesso do assinante, conforme necessário e criar planos de discagem L correspondentes.
 
 - Use o script ExchUCUtil. ps1 para:
@@ -128,8 +128,8 @@ Antes de começar, a documentação desta seção pressupõe que você implantou
 Também observe o seguinte:
 - Se UM do Exchange estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de Unificação de mensagens. Além disso, cada floresta de Unificação de mensagens deve ser configurada para confiar na floresta na qual Skype para Business Server é implantado e floresta em whichSkype para Business Server é implantado deve ser configurada para confiar na floresta de cada UM.
 - Etapas de integração são realizadas em ambas as funções de Exchange Server onde estão executando os serviços de Unificação de mensagens e no servidor executando o Skype para Business Server. Você deve executar as etapas de integração da Unificação de mensagens do Exchange Server antes de executar as etapas de integração do Lync Server 2013.
-> [!NOTE]
-> Para ver quais etapas de integração são realizadas em quais servidores e por quais funções de administrador, consulte [Visão geral do processo de implantação para integrar o local de Unificação de mensagens e Skype para negócios](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
+  > [!NOTE]
+  > Para ver quais etapas de integração são realizadas em quais servidores e por quais funções de administrador, consulte [Visão geral do processo de implantação para integrar o local de Unificação de mensagens e Skype para negócios](../../plan-your-deployment/integrate-with-exchange/deployment-overview.md). 
 
 As seguintes ferramentas devem estar disponíveis em cada servidor executando o UM do Exchange:
 - Shell de gerenciamento do Exchange
@@ -151,8 +151,8 @@ Quando você estiver integrando Microsoft Skype para Business Server com Unifica
 
 - Cria um grupo de busca de UM para cada gateway IP de UM. O identificador piloto de cada grupo de busca Especifica o plano de discagem SIP URI de UM usado pelo Skype para pool Business servidor Front-End ou servidor Standard Edition que está associado ao gateway IP de UM.
 - Skype concede permissão de Business Server ler objetos UM do Active Directory de contêiner, como UM discagem planos, atendentes automáticos, gateways IP de UM e grupos de busca de UM.
-> [!IMPORTANT]
-> Cada floresta de Unificação de mensagens deve ser configurada para confiar na floresta na qual Skype para Business Server é implantado e a floresta na qual Skype para Business Server 2013 é implantado deve ser configurada para confiar na floresta de cada UM. Se UM do Exchange estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de UM, ou você precisará especificar o Skype para o domínio do servidor de negócios. Por exemplo, o ExchUCUtil. Ps1 – floresta: < lync-domínio-controlador-fqdn >. 
+  > [!IMPORTANT]
+  > Cada floresta de Unificação de mensagens deve ser configurada para confiar na floresta na qual Skype para Business Server é implantado e a floresta na qual Skype para Business Server 2013 é implantado deve ser configurada para confiar na floresta de cada UM. Se UM do Exchange estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de UM, ou você precisará especificar o Skype para o domínio do servidor de negócios. Por exemplo, o ExchUCUtil. Ps1 – floresta: < lync-domínio-controlador-fqdn >. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Usar o Shell para executar o script ExchUCUtil. Ps1
 
@@ -191,8 +191,8 @@ O Exchange Server deve ser configurado com um certificado de servidor para se co
 1. No servidor executando o UM do Exchange, clique em **Iniciar**, clique em **Executar**, tipo **http://\<nome do seu servidor de autoridade de certificação emitindo > / certsrv**e clique em **Okey**.
 2. Em selecionar uma tarefa, clique em **baixar um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados Revogados**.
 3. Em **baixar um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados Revogados**, selecione **O método de codificação em Base 64**e clique em**certificado de autoridade de certificação baixar**.
-> [!NOTE]
-> Você também pode especificar a codificação DER (regras distintas) codificação nesta etapa. Se você selecionar a codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 de **para instalar a autoridade de certificação certificado** é. p7b, em vez de. cer. 
+   > [!NOTE]
+   > Você também pode especificar a codificação DER (regras distintas) codificação nesta etapa. Se você selecionar a codificação DER, o tipo de arquivo na próxima etapa deste procedimento e na etapa 10 de **para instalar a autoridade de certificação certificado** é. p7b, em vez de. cer. 
 4. Na caixa de diálogo **Download de arquivo** , clique em **Salvar**e salve o arquivo no disco rígido do servidor. (O arquivo terá. cer ou uma extensão de arquivo. p7b, dependendo da codificação selecionada na etapa anterior.)
 
 **Para instalar o certificado de autoridade de certificação:**

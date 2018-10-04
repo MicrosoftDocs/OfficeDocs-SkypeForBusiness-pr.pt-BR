@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb19af107bc41fc088d7398570e34d0586b34e15
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fcb907a1a84dce1e1fcf550333b8b1dd788f23fa
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015785"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370749"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Habilitar ou desabilitar o acesso de convidados no Microsoft Teams
 ======================================
@@ -65,7 +65,7 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
   
 5. Clique ou toque no botão de alternância ao lado de **Tornar o Microsoft Teams habilitado ou desabilitado para todos os usuários desse tipo** para **Habilitar** para ativar o acesso de convidados no Teams para a sua organização e, em seguida, escolha **Salvar**. 
     
- Assista aos vídeos a seguir para obter mais detalhes sobre o acesso de convidados:  
+   Assista aos vídeos a seguir para obter mais detalhes sobre o acesso de convidados:  
 
 |  |  |
 |---------|---------|

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumo: Configure a autenticação de dois fatores no Skype para Business Server.'
-ms.openlocfilehash: 4fc8791cd7459ecea89bb8101b2c1a488b6eace2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bb3975c3c843e2d6d7600109c600ad948aa1de15
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250798"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373885"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurar a autenticação de dois fatores no Skype para Business Server
 
@@ -77,9 +77,9 @@ Para computadores que contam com um chip Trusted Platform Module (TPM) compatív
 
 5. Abra o Console de Gerenciamento do Trusted Platform Module (TPM) executando o seguinte comando:
 
-  ```
-  Tpm.msc
-  ```
+   ```
+   Tpm.msc
+   ```
 
 6. No Console de Gerenciamento do TPM, confira se a versão do seu TPM é 1.2 ou superior.
 
@@ -90,18 +90,18 @@ Para computadores que contam com um chip Trusted Platform Module (TPM) compatív
 
 8. No prompt de comando, crie um novo cartão inteligente virtual usando o seguinte comando:
 
-  ```
-  TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
-  ```
+   ```
+   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
+   ```
 
     > [!NOTE]
     > Para personalizar o valor do PIN ao criar o cartão inteligente virtual, use o prompt /pin.
 
 9. No prompt de comando, abre o Console de Gerenciamento do computador executando o seguinte comando:
 
-  ```
-  CompMgmt.msc
-  ```
+   ```
+   CompMgmt.msc
+   ```
 
 10. No Console de Gerenciamento do computador, selecione **Gerenciamento de Dispositivos**.
 
@@ -134,27 +134,27 @@ Para obter mais informações sobre como registrar em nome de usuários como um 
 
 7. Selecione **Usuário do Cartão Inteligente** na seção **Modelo de Certificado** e preencha a solicitação de certificado avançado com os seguintes valores:
 
-  - As **Opções de Chave** confirmam as seguintes configurações:
+   - As **Opções de Chave** confirmam as seguintes configurações:
 
-    - Selecione o botão de opção **Criar novo conjunto de chaves**
+     - Selecione o botão de opção **Criar novo conjunto de chaves**
 
-    - Em **CSP**, selecione **Microsoft Base Smart Card Crypto Provider**
+     - Em **CSP**, selecione **Microsoft Base Smart Card Crypto Provider**
 
-    - Em **Uso da Chave**, selecione **Exchange** (é a única opção disponível).
+     - Em **Uso da Chave**, selecione **Exchange** (é a única opção disponível).
 
-    - Em **Tamanho da Chave**, digite 2048
+     - Em **Tamanho da Chave**, digite 2048
 
-    - Confirme se a opção **Nome de contêiner de chave automático** está selecionada
+     - Confirme se a opção **Nome de contêiner de chave automático** está selecionada
 
-    - Deixe as outras caixas desmarcadas.
+     - Deixe as outras caixas desmarcadas.
 
-  - Em **Opções Adicionais**, confirme os seguintes valores:
+   - Em **Opções Adicionais**, confirme os seguintes valores:
 
-    - Em **Formato da Solicitação**, selecione **CMC**.
+     - Em **Formato da Solicitação**, selecione **CMC**.
 
-    - Em **Algoritmo de Hash**, selecione **sha1**.
+     - Em **Algoritmo de Hash**, selecione **sha1**.
 
-    - Para o **Nome amigável** enterSmardcard certificado.
+     - Para o **Nome amigável** enterSmardcard certificado.
 
 8. Caso você esteja usando um leitor de cartão inteligente físico, insira o cartão inteligente no dispositivo.
 
@@ -189,15 +189,15 @@ A seção a seguir descreve como configurar o Serviços de Federação do Active
 
 3. Na linha de comando do Windows PowerShell, execute o seguinte comando:
 
-  ```
-  add-pssnapin Microsoft.Adfs.PowerShell
-  ```
+   ```
+   add-pssnapin Microsoft.Adfs.PowerShell
+   ```
 
 4. Estabeleça uma parceria com cada servidor que será habilitado para a autenticação passiva executando o seguinte comando, substituindo pelo nome do servidor específico de sua implantação:
 
-  ```
-  Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
 5. No menu Ferramentas Administrativas, inicie o Console de Gerenciamento do AD FS 2.0.
 
@@ -207,24 +207,24 @@ A seção a seguir descreve como configurar o Serviços de Federação do Active
 
 8. Crie e atribua uma Regra de Autorização de Emissão para seu objeto de confiança de terceira parte confiável usando o Windows PowerShell executando os seguintes comandos:
 
-  ```
-  $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
-  ```
+   ```
+   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
--IssuanceAuthorizationRules $IssuanceAuthorizationRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
+   -IssuanceAuthorizationRules $IssuanceAuthorizationRules
+   ```
 
 9. Crie e atribua uma Regra de Transformação de Emissão para seu objeto de confiança de terceira parte confiável usando o Windows PowerShell executando os seguintes comandos:
 
-  ```
-  $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
-  ```
+   ```
+   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
+   ```
 
-  ```
-  Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
-  ```
+   ```
+   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
+   ```
 
 10. No Console de Gerenciamento do AD FS 2.0, clique com o botão direito no seu objeto de confiança de terceira parte confiável e selecione **Editar Regras de Declaração**.
 
@@ -268,9 +268,9 @@ Utilizando a autenticação baseada em formulários, você pode desenvolver uma 
 
 11. Reinicie o IIS executando o seguinte comando:
 
-  ```
-  IISReset /Restart /NoForce
-  ```
+    ```
+    IISReset /Restart /NoForce
+    ```
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>Configuração da autenticação passiva do Skype for Business Server
 
@@ -291,30 +291,30 @@ As etapas a seguir descrevem como criar uma configuração personalizada de serv
 
 3. No Skype para Business Server Management Shell de linha de comando, crie uma nova configuração do serviço Web para cada diretor, Pool Enterprise e servidor Standard Edition que será habilitado para autenticação passiva executando o seguinte comando:
 
-  ```
-  New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-  ```
+   ```
+   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+   ```
 
     > [!CAUTION]
     > O valor para o FQDN WsFedPassiveMetadataUri é o Nome de Serviço de Federação do seu servidor AD FS 2.0. O valor do Nome de Serviço de Federação pode ser encontrado no Console de Gerenciamento do AD FS 2.0 clicando com o botão direito do mouse em **Serviço** a partir do painel de navegação, selecionando em seguida **Editar propriedades do serviço de federação**.
 
 4. Verifique se os valores UseWsFedPassiveAuth e WsFedPassiveMetadataUri foram definidos corretamente executando o seguinte comando:
 
-  ```
-  Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-  ```
+   ```
+   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+   ```
 
 5. Para clientes, a Autenticação Passiva é o método de autenticação menos indicado para autenticação de webticket. Para todos os diretores, Pools Enterprise e servidores Standard Edition que serão habilitados para autenticação passiva, todos os outros tipos de autenticação devem ser desabilitados no Skype para serviços corporativos de Web executando o seguinte cmdlet:
 
-  ```
-  Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-  ```
+   ```
+   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+   ```
 
 6. Verifique se todos os outros tipos de autenticação foram desabilitados com sucesso executando o seguinte cmdlet:
 
-  ```
-  Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-  ```
+   ```
+   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+   ```
 
 ### <a name="proxy-configuration"></a>Configuração de proxy
 
@@ -326,19 +326,19 @@ As etapas a seguir descrevem como criar uma configuração personalizada de prox
 
 1. No Skype para Business Server Management Shell de linha de comando, crie uma nova configuração de proxy para cada Skype para o Pool de borda do servidor de negócios, Pool Enterprise e Standard Edition server que será habilitado para autenticação passiva executando o seguinte comandos:
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
-  ```
-  New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
-  ```
+   ```
+   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
+   ```
 
 2. Verifique se todos os outros tipos de autenticação de proxy foram desabilitados com sucesso executando o seguinte comando:
 
-  ```
-  Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-  ```
+   ```
+   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
+   ```
 
 ## <a name="see-also"></a>Consulte também
 

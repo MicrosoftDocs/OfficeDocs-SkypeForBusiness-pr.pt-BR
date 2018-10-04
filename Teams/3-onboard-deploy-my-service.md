@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45d74a26b65f788e914587b521a5bb14ea606567
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012301"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372607"
 ---
 # <a name="deploy-my-service"></a>Implantar o meu serviço
 
@@ -73,23 +73,23 @@ O [Site Playbook de habilitação para voz (Playbook)](https://github.com/Micros
 
 Independentemente do tamanho e complexidade do local, permitindo que cada site requer que você planeje suas tarefas e atividades antecipado suficiente — e executá-los na ordem ideal — antes, durante e depois da distribuição de serviço real. Recomendamos que você siga estas etapas ao planejar e executar sua própria jornada Voice Teams da Microsoft.
 
-1.  Baixe o [Guia estratégico de habilitação de Site para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para equipes da Microsoft Voice.
+1. Baixe o [Guia estratégico de habilitação de Site para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) para equipes da Microsoft Voice.
 
-2.  Crie uma cópia separada do playbook para cada site.
+2. Crie uma cópia separada do playbook para cada site.
 
-3.  Na guia da planilha chamado **Playbook para {nome_do_site código}**, substitua **{Nome_do_site código}** com o nome do site relevante e/ou o código do site.
+3. Na guia da planilha chamado **Playbook para {nome_do_site código}**, substitua **{Nome_do_site código}** com o nome do site relevante e/ou o código do site.
 
-4.  Insira o **nome do Site, o código do Site**e a **Data de início planejado**, conforme ilustrado abaixo. Isso é uma etapa importante, porque ele ajusta os prazos recomendados para todas as atividades no playbook.
+4. Insira o **nome do Site, o código do Site**e a **Data de início planejado**, conforme ilustrado abaixo. Isso é uma etapa importante, porque ele ajusta os prazos recomendados para todas as atividades no playbook.
 
-    ![Exemplo com o nome do site de Nova York, código de site NY01 e a data de início planejada de 20-Mar-18] (media/deploy-my-service-image2.png "Exemplo com o nome do site de Nova York, código de site NY01 e a data de início planejada de 20-Mar-18")
+   ![Exemplo com o nome do site de Nova York, código de site NY01 e a data de início planejada de 20-Mar-18] (media/deploy-my-service-image2.png "Exemplo com o nome do site de Nova York, código de site NY01 e a data de início planejada de 20-Mar-18")
 
-5.  Revisar cada atividade, execute as ações necessárias e atualizar o status conforme você percorrer a linha do tempo. Status é representada graficamente, conforme descrito abaixo:
-    <ul>
-    <li>![Marca de seleção verde](media/deploy-my-service-image3.png) **Sim ou não aplicável (verde):** a atividade foi concluída, ou não for aplicável para este site e nenhuma outra ação será necessária.</li>
-    <li>![Ponto de exclamação amarelo](media/deploy-my-service-image4.png) **a atividade não será concluída ainda (amarelado):** a atividade ainda não tiver sido concluída e deve ser atualizada para Sim ou não em sua agenda.</li>
-    <li>![X vermelho](media/deploy-my-service-image5.png) **Nenhuma (vermelho):** a atividade não pode ser concluída devido a um problema e deve ser transmitida para a reunião de status do projeto.</li></ul>
+5. Revisar cada atividade, execute as ações necessárias e atualizar o status conforme você percorrer a linha do tempo. Status é representada graficamente, conforme descrito abaixo:
+   <ul>
+   <li>![Marca de seleção verde](media/deploy-my-service-image3.png) <strong>Sim ou não aplicável (verde):</strong> a atividade foi concluída, ou não for aplicável para este site e nenhuma outra ação será necessária.</li>
+   <li>![Ponto de exclamação amarelo](media/deploy-my-service-image4.png) <strong>a atividade não será concluída ainda (amarelado):</strong> a atividade ainda não tiver sido concluída e deve ser atualizada para Sim ou não em sua agenda.</li>
+   <li>![X vermelho](media/deploy-my-service-image5.png) <strong>Nenhuma (vermelho):</strong> a atividade não pode ser concluída devido a um problema e deve ser transmitida para a reunião de status do projeto.</li></ul>
 
-6.  O status é acumulado dentro de cada seção e o cabeçalho de seção é formatado com um desses indicadores de status. **Status semanais** também é atualizado automaticamente.
+6. O status é acumulado dentro de cada seção e o cabeçalho de seção é formatado com um desses indicadores de status. **Status semanais** também é atualizado automaticamente.
 
 ![Captura de tela dos semanal status acúmulos de playbook] (media/deploy-my-service-image6.png "Captura de tela dos semanal status acúmulos de playbook")
 
@@ -101,8 +101,8 @@ Independentemente do tamanho e complexidade do local, permitindo que cada site r
 Preste atenção às atividades que podem levar mais tempo do que o planejado, como o número de porta e atividades de compras. Essas atividades podem afetar negativamente o cronograma de implantação do site. Certifique-se de revisar e atualizar a lista de atividade e a linha do tempo associada semanalmente e apresentá-las em [reuniões comitê de orientação](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) para assegurar que os participantes estão cientes do status de cada site e quaisquer possíveis desvios da agenda de implantação.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida se o Site habilitação de Playbook é necessária para sua implantação.</li><li>Decida quem será responsável por Personalizando o Playbook de habilitação de Site for Microsoft Teams para todos os sites que você vai implantar.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>[Baixe o Playbook de habilitação do Site](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true).</li><li>Personalize o Playbook de habilitação de Site para o seu primeiro site.</li><li>Repita conforme necessário para outros sites.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida se o Site habilitação de Playbook é necessária para sua implantação.</li><li>Decida quem será responsável por Personalizando o Playbook de habilitação de Site for Microsoft Teams para todos os sites que você vai implantar.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Baixe o Playbook de habilitação do Site</a>.</li><li>Personalize o Playbook de habilitação de Site para o seu primeiro site.</li><li>Repita conforme necessário para outros sites.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

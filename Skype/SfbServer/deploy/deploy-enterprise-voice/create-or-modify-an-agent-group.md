@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Criar ou modificar um grupo de operadores no grupo de resposta, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 0a88052d8ceba244e6971d1ebeffdffa84388ef6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0eb94658abac8d137b915fd5a499364b43b51916
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882190"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370681"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Criar ou modificar um grupo de operadores em Skype para negócios
  
@@ -83,25 +83,25 @@ Use um dos procedimentos a seguir para criar ou modificar um grupo de agentes.
     
 10. Em  **Agentes**, especifique como você deseja criar sua lista de agentes:
     
-   - Para usar uma lista de agentes personalizada, clique em **Definir um grupo personalizado de agentes**e execute um dos seguintes procedimentos:
+    - Para usar uma lista de agentes personalizada, clique em **Definir um grupo personalizado de agentes**e execute um dos seguintes procedimentos:
     
-   - Para adicionar um usuário ao grupo de agentes, clique em  **Selecionar**, depois no campo de pesquisa  **Selecionar Agentes**, digite todo ou parte do nome do usuário que você quer adicionar ao grupo e clique em  **Localizar**. Na lista de agentes resultante, clique no usuário que você quer adicionar e clique em  **OK**.
+    - Para adicionar um usuário ao grupo de agentes, clique em  **Selecionar**, depois no campo de pesquisa  **Selecionar Agentes**, digite todo ou parte do nome do usuário que você quer adicionar ao grupo e clique em  **Localizar**. Na lista de agentes resultante, clique no usuário que você quer adicionar e clique em  **OK**.
     
-   - Para remover um usuário do grupo de agentes, na lista de agentes, clique no usuário que deseja remover e clique em **Remover**.
+    - Para remover um usuário do grupo de agentes, na lista de agentes, clique no usuário que deseja remover e clique em **Remover**.
     
-   - Para alterar a ordem em que os agentes são oferecidos às chamadas nos grupos usando rodízio ou encaminhamento em série, na lista de agentes, clique em um usuário e depois clique em seta para cima ou na seta para baixo. 
+    - Para alterar a ordem em que os agentes são oferecidos às chamadas nos grupos usando rodízio ou encaminhamento em série, na lista de agentes, clique em um usuário e depois clique em seta para cima ou na seta para baixo. 
     
-   - Para usar uma lista de distribuição do Microsoft Exchange Server como grupo de agentes, clique em **Usar uma lista de distribuição de email existente**e em **Endereço da lista de distribuição**, digite o endereço de email da lista de distribuição (por exemplo, NetworkSupport@contoso.com).
+    - Para usar uma lista de distribuição do Microsoft Exchange Server como grupo de agentes, clique em **Usar uma lista de distribuição de email existente**e em **Endereço da lista de distribuição**, digite o endereço de email da lista de distribuição (por exemplo, NetworkSupport@contoso.com).
     
-     Se você usar uma lista de distribuição por email, estará sujeito às seguintes restrições:
+      Se você usar uma lista de distribuição por email, estará sujeito às seguintes restrições:
     
-     - Você não pode selecionar várias listas de distribuição para o grupo de operadores. Cada grupo oferece suporte a apenas uma lista de distribuição.
+      - Você não pode selecionar várias listas de distribuição para o grupo de operadores. Cada grupo oferece suporte a apenas uma lista de distribuição.
     
-     - Se a lista de distribuição contiver uma ou mais listas de distribuição, os membros das listas aninhadas não serão adicionados à lista de operadores.
+      - Se a lista de distribuição contiver uma ou mais listas de distribuição, os membros das listas aninhadas não serão adicionados à lista de operadores.
     
-     - Se os roteamentos em série e round robin forem selecionados, o servidor oferecerá uma chamada de entrada ao agente apropriado de acordo com o método de roteamento e com a ordem na qual os agentes estão listados na lista de distribuição.
+      - Se os roteamentos em série e round robin forem selecionados, o servidor oferecerá uma chamada de entrada ao agente apropriado de acordo com o método de roteamento e com a ordem na qual os agentes estão listados na lista de distribuição.
     
-     - Se a lista de distribuição contiver usuários, para os quais o Lync Server 2010 estiver habilitado, porém o Enterprise Voice não estiver habilitado, eles serão adicionados ao grupo de agentes como agentes não funcionais. Garanta que todos os membros da lista de distribuição tenham o Enterprise Voice habilitado em suas contas de usuário.
+      - Se a lista de distribuição contiver usuários, para os quais o Lync Server 2010 estiver habilitado, porém o Enterprise Voice não estiver habilitado, eles serão adicionados ao grupo de agentes como agentes não funcionais. Garanta que todos os membros da lista de distribuição tenham o Enterprise Voice habilitado em suas contas de usuário.
     
     > [!IMPORTANT]
     > Se você usar uma lista de distribuição de email, associações ou listas ocultas podem se tornam visíveis a usuários ou do administrador do grupo de resposta. 

@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: a65cd85c98f59f562aa8a2db37fe71090174cb25
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958107"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371869"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Enviar uma solicitação de atendimento ao cliente manualmente
 
@@ -56,13 +56,13 @@ Em alguns países/regiões, você também precisará manualmente enviar uma soli
     
 5. Na página **Identificar o problema**, selecione e insira o seguinte:
     
-  - **Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.
+   - **Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.
     
-  - **Sintoma:** insira **Chamada de Emergência**.
+   - **Sintoma:** insira **Chamada de Emergência**.
     
-  - **Resumo do problema:** insira **Validação do endereço**.
+   - **Resumo do problema:** insira **Validação do endereço**.
     
-  - **Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:
+   - **Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:
     
       - Número
     
@@ -72,8 +72,8 @@ Em alguns países/regiões, você também precisará manualmente enviar uma soli
     
       - País ou região
     
-    > [!IMPORTANT]
-    > **Informe o país/região onde oferecemos Planos de Chamadas no Office 365 para o qual você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
+     > [!IMPORTANT]
+     > **Informe o país/região onde oferecemos Planos de Chamadas no Office 365 para o qual você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
   
       - CEP
     
@@ -81,19 +81,19 @@ Em alguns países/regiões, você também precisará manualmente enviar uma soli
     
 7. Na página **Adicionar detalhes**, selecione e insira o seguinte:
     
-  - **Seu serviço está indisponível?** Selecione **Não**.
+   - **Seu serviço está indisponível?** Selecione **Não**.
     
-  - **Quantos usuários são afetados?** Selecione **Alguns usuários**.
+   - **Quantos usuários são afetados?** Selecione **Alguns usuários**.
     
-  - **Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.
+   - **Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.
     
-  - **Escolha os domínios que você deseja listar**
+   - **Escolha os domínios que você deseja listar**
     
-  - **Anexe um arquivo**, se tiver vários endereços que precisa validar.
+   - **Anexe um arquivo**, se tiver vários endereços que precisa validar.
     
-  - Clique em **Avançar**.
+   - Clique em **Avançar**.
     
-  - Insira seu número de telefone de contato.
+   - Insira seu número de telefone de contato.
     
 8. Confira as informações e clique em **Enviar solicitação**.
     

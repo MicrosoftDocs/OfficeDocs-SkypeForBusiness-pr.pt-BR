@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solucionar problemas de criação de uma sessão PowerShell remota para se conectar ao Skype para negócios Online, incluindo Import-Module, shell simultânea, Live ID e erros de permissão.
-ms.openlocfilehash: 516da269e41f7945238aa8b402793a65444bd932
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 651afa58513819eb57914bfa1cd92bc38a46298f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851509"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372900"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 
@@ -51,7 +51,7 @@ Este tópico fornece informações que ajudarão você a diagnosticar e resolver
 
 A diretiva de execução do PowerShell ajuda a determinar quais arquivos de configuração podem ser carregados no console do PowerShell e qual scripts que um usuário pode executar a partir desse console. No mínimo, o Skype para módulo Business Connector Online não pode ser importado, a menos que a diretiva de execução tiver sido definida como RemoteSigned. Se não tiver sido, então você receberá a seguinte mensagem de erro quando você tenta importar o módulo:
   
-- **Erro**: *Import-Module: c: o arquivo\\Program Files\\arquivos comuns\\Microsoft Lync Server 2013\\módulos\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 não pode ser carregado, porque em execução scripts está desativado neste sistema. Para obter mais informações, consulte about_Execution_Policies em https://go.microsoft.com/fwlink/?LinkID=135170.*
+- **Erro**: <em>Import-Module: c: o arquivo\\Program Files\\arquivos comuns\\Microsoft Lync Server 2013\\módulos\\LyncOnlineConnector\\LyncOnlineConnectorStartup.psm1 não pode ser carregado, porque em execução scripts está desativado neste sistema. Para obter mais informações, consulte about_Execution_Policies em https://go.microsoft.com/fwlink/?LinkID=135170.</em>
 
 - **Resolução** Para resolver esse problema, inicie o PowerShell como administrador e, em seguida, execute o seguinte comando:
     ```

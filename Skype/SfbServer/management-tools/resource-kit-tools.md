@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este tópico descreve as ferramentas do Skype para Business Server 2015 Resource Kit, incluindo o propósito de cada ferramenta e exemplos de seu uso. O Skype para Business Server 2015 Resource Kit ajuda a facilitar as tarefas de rotina para administradores de TI que implantam e gerenciam Skype para Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento e as respostas de chamadas de representantes para os usuários. Recomendamos que os administradores de TI para usar essas ferramentas para gerenciar com mais eficiência Skype para Business Server 2015.
-ms.openlocfilehash: e259e4252274621ac3593cfb379ddc89ee37544c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3f36edc42541dfcc9b652eb16d5062277277cbc0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257805"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372777"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentação das Ferramentas do Kit de Recursos do Skype for Business Server 2015
 
@@ -305,11 +305,11 @@ Os filtros que podem ser aplicados ao visualizador de relatórios, conforme most
 
 1. **Nome** Filtrar por links WAN (o filtro se situa no lado direito do gráfico). O prefixo denota os tipos de links a seguir; consulte a caixa (azul) vertical:
 
-  - **S Site ** O link WAN de um site da rede a uma região da rede
+   - **S Site ** O link WAN de um site da rede a uma região da rede
 
-  - **IS Entre sites** O link WAN entre dois sites da rede
+   - **IS Entre sites** O link WAN entre dois sites da rede
 
-  - **R Inter-regional** O link WAN entre duas regiões da rede
+   - **R Inter-regional** O link WAN entre duas regiões da rede
 
 2. **Limite excedido** Filtrar por links WAN cuja utilização de largura de banda seja superior à capacidade da largura de banda
 
@@ -319,13 +319,13 @@ Os filtros que podem ser aplicados ao visualizador de relatórios, conforme most
 
 5. **Tipo de link** Filtrar pelos seguintes tipos de links WAN:
 
-  - 
+   - 
             Tipo **Site da rede**
 
-  - 
+   - 
             Tipo **Entre sites**
 
-  - 
+   - 
             Tipo **Link inter-regional**
 
 6. **Região** Filtrar pela região da rede
@@ -797,15 +797,15 @@ A ferramenta permite ao administrador realizar os seguintes testes:
 
 1. Teste do Servidor de Borda A/V: a ferramenta realiza testes em todos os Servidores de Borda A/V na topologia fazendo o seguinte:
 
-  - Verificando se o Skype para serviço de autenticação de áudio/vídeo do Business Server é iniciado e pode emitir credenciais apropriadas.
+   - Verificando se o Skype para serviço de autenticação de áudio/vídeo do Business Server é iniciado e pode emitir credenciais apropriadas.
 
-  - Verificando se o Skype para serviço de borda de áudio/vídeo do Business Server é iniciado e pode alocar os recursos na borda externa com êxito.
+   - Verificando se o Skype para serviço de borda de áudio/vídeo do Business Server é iniciado e pode alocar os recursos na borda externa com êxito.
 
 2. Teste do Serviço da Política de Largura de Banda: a ferramenta realiza testes em todos os servidores que estejam executando os Serviços da Política de Largura de Banda na topologia fazendo o seguinte:
 
-  - Verificando se o Skype para o serviço de política de largura de banda do Business Server (autenticação) foi iniciado e pode emitir credenciais apropriadas.
+   - Verificando se o Skype para o serviço de política de largura de banda do Business Server (autenticação) foi iniciado e pode emitir credenciais apropriadas.
 
-  - Verificando se o Skype para o serviço de política de largura de banda do Business Server (núcleo) é iniciado e pode executar a verificação de largura de banda com êxito.
+   - Verificando se o Skype para o serviço de política de largura de banda do Business Server (núcleo) é iniciado e pode executar a verificação de largura de banda com êxito.
 
 Essa ferramenta deve ser executada em um computador que faça parte da topologia e tenha o repositório local instalado. 
 
@@ -892,7 +892,7 @@ Salvar e diagrama de topologia de rede CAC repositório no formato JPG ou BMP: S
 
 ![Salvando a configuração de rede como imagem.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- **Dados de configuração de topologia de rede CAC do modo de exibição:** Skype para administradores corporativos Server 2015 pode exibir os dados de configuração de rede relacionados como regiões de rede, sites de rede, perfis de largura de banda e endereços IP de sub-rede de site em um formato textual usando a opção de dados de configuração de rede do modo de exibição conforme mostrado abaixo.
+ <strong>Dados de configuração de topologia de rede CAC do modo de exibição:</strong> Skype para administradores corporativos Server 2015 pode exibir os dados de configuração de rede relacionados como regiões de rede, sites de rede, perfis de largura de banda e endereços IP de sub-rede de site em um formato textual usando a opção de dados de configuração de rede do modo de exibição conforme mostrado abaixo.
 
 ![Exibindo dados de configuração de rede.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1047,35 +1047,35 @@ A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte
 
 1. A ferramenta SEFAUTil pode ser executada apenas em um computador que faça parte de um pool de aplicativos confiáveis. Se necessário, a adição de um pool como um novo pool de aplicativos confiáveis pode ser feita por meio do Skype do Shell de gerenciamento do servidor de negócios com o seguinte cmdlet:
 
-  ```
-  New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
-  ```
+   ```
+   New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
+   ```
 
     > [!NOTE]
     > O UCMA 3.0 deve ser instalado em qualquer computador que será usado para executar a ferramenta SEFAUtil.
 
 2. Um aplicativo confiável precisa ser definido na topologia para a ferramenta SEFAUtil. Para definir SEFAUtil como um novo aplicativo confiável, usar o Skype para Business Server Management Shell e execute o seguinte cmdlet:
 
-  ```
-  New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
-  ```
+   ```
+   New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
+   ```
 
     > [!NOTE]
     > Uma porta diferente pode ser usada, se necessário.
 
 3. As alterações de topologia precisam ser habilitadas. Habilitar as alterações de topologia pode ser feita por meio do Skype do Shell de gerenciamento do servidor de negócios, executando o seguinte cmdlet:
 
-  ```
-  Enable-CsToplogy
-  ```
+   ```
+   Enable-CsToplogy
+   ```
 
 4. Se necessário, instale o Skype para Business Server 2015 ferramentas do Resource Kit no servidor que será usado para executar a ferramenta de SEFAUtil (o servidor deve ser parte de um pool de aplicativos confiáveis).
 
 5. Verifique se o SEFAUtil está sendo executado corretamente. Para fazer isso, execute a ferramenta em um prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamadas de um usuário na implantação. Por padrão, a ferramenta será localizada em: "...\Program Files\Skype para 2015\Reskit Business Server". Para exibir as configurações de encaminhamento de chamadas de um usuário, use o seguinte comando:
 
-  ```
-  SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
-  ```
+   ```
+   SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
+   ```
 
     As configurações de encaminhamento de chamadas do usuário devem ser exibidas.
 
@@ -1417,21 +1417,22 @@ SYSPrep.ps1 é um script do Windows PowerShell que instalarão o seguinte Skype 
 
 - Skype para arquivos de núcleo do Business Server 2015
 
- Embora o nome do script seja semelhante à Ferramenta de Preparação do Sistema para os sistemas operacionais Microsoft Windows, eles são diferentes. Esse script instalará apenas os pré-requisitos necessários para Skype para Business Server 2015. Depois que esses requisitos estiverem instalados, a ferramenta SYSPrep do Windows poderá então ser usada para criar uma imagem do servidor.
+  Embora o nome do script seja semelhante à Ferramenta de Preparação do Sistema para os sistemas operacionais Microsoft Windows, eles são diferentes. Esse script instalará apenas os pré-requisitos necessários para Skype para Business Server 2015. Depois que esses requisitos estiverem instalados, a ferramenta SYSPrep do Windows poderá então ser usada para criar uma imagem do servidor.
 
 ### <a name="requirements"></a>Requisitos
 
 Antes de executar o script SYSPrep.ps1, você deve copiar os arquivos de pré-requisito para uma pasta local no computador do sistema operacional Windows Server 2008 (por exemplo **d:\Setup.)**. Essa pasta também deverá incluir uma cópia do Skype para arquivos de negócios Server 2015, especificamente **Setup.exe.** Os arquivos de pré-requisitos podem ser baixados dos seguintes locais:
 
-|**Pré-requisito**|**Local**|
-|:-----|:-----|
-|Microsoft .Net Framework 4.5  <br/> |https://go.microsoft.com/?linkid=9816306  <br/> |
-|Microsoft SQL Server Express 2008 R2  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=23650  <br/> |
-|Windows PowerShell versão 3.0  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34595  <br/> |
-|Pacotes Redistribuíveis do Visual C++ 2010  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=5555  <br/> |
-|Atualizações do Servidor de Informações da Internet  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=34869  <br/> |
-|Windows Identity Foundation  <br/> |https://www.microsoft.com/en-us/download/details.aspx?id=17331  <br/> |
-|Skype para Business Server 2015 Setup.exe  <br/> |Copiar do Skype para mídia Business Server 2015  <br/> |
+
+| **Pré-requisito**                                | **Local**                                                            |
+|:------------------------------------------------|:------------------------------------------------------------------------|
+| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/en-us/download/details.aspx?id=23650>  <br/> |
+| Windows PowerShell versão 3.0  <br/>           | <https://www.microsoft.com/en-us/download/details.aspx?id=34595>  <br/> |
+| Pacotes Redistribuíveis do Visual C++ 2010  <br/>          | <https://www.microsoft.com/en-us/download/details.aspx?id=5555>  <br/>  |
+| Atualizações do Servidor de Informações da Internet  <br/>      | <https://www.microsoft.com/en-us/download/details.aspx?id=34869>  <br/> |
+| Windows Identity Foundation  <br/>              | <https://www.microsoft.com/en-us/download/details.aspx?id=17331>  <br/> |
+| Skype para Business Server 2015 Setup.exe  <br/> | Copiar do Skype para mídia Business Server 2015  <br/>                   |
 
 ### <a name="parameter"></a>Parâmetro
 
@@ -1505,7 +1506,6 @@ Este exemplo move os comunicados de números não atribuídos do pool de origem 
 
 ```
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
-
 ```
 
 #### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>Mudando a configuração de anúncios de números não atribuídos de um Skype para Pool de servidores 2015 de negócios para um Pool do Lync Server 2013

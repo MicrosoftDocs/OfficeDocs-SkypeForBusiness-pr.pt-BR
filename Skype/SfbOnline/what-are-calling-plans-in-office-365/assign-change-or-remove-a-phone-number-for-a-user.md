@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone de trabalho para usuários do Skype for Business de modo que outras empresas e clientes possam ligar para eles.
-ms.openlocfilehash: 57ffe302c784ff441d124017035c8031c1c737c1
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 40c067657132781d29b8f20a3738d6d28ce36331
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347019"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374654"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -50,7 +50,7 @@ Quando você está configurando usuários para que eles possam fazer e receber c
 Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte [Licenças complementares do Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Uma maneira para ver se um usuário tem uma licença atribuída é indo para **Skype para centro de administração de negócios** > **voz** > **usuários de voz** e selecionando o usuário. Se uma licença foi distribuída, ele será anotado sob **licença atribuído**. Você também pode usar o Centro de administração do Office 365. 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
  
@@ -62,7 +62,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
     
 3. No painel de navegação esquerdo, clique em **voz** > **usuários de voz**.
    > [!NOTE]
- Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
+   > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
  
    
     
@@ -80,7 +80,7 @@ Para saber como obter Planos de Chamadas no Office 365 e quanto custam, consulte
 8. Depois de escolher o número de telefone e o endereço de emergência, clique em **Salvar**.
     
     > [!NOTE]
-    > Devido a latência entre o Office 365 e Skype para Business Online, possivelmente pode demorar até 24 horas para usuários estejam habilitados. Se após 24 horas, se o número de telefone não é atribuído corretamente, faça o [contate o suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Estamos aqui para ajudar! 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumo: Saiba como definir e implantar um servidor de mediação no construtor de topologia no Skype para Business Server.'
-ms.openlocfilehash: fd83ecb44726f151dea83c19b9745446653ca33b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e4221230fbaf993b5bf3d2b647e6d7e6e7ada51
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883721"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371918"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implantar um servidor de mediação no construtor de topologia no Skype para Business Server
  
@@ -79,8 +79,8 @@ Você pode adicionar o servidor de mediação como uma função colocada em um p
     
    - Se desejar implantar vários servidores de mediação no pool para fornecer alta disponibilidade, selecione **pool de vários computadores**.
     
-    > [!NOTE]
-    > Você deve [implantar](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para oferecer suporte a pools de servidor de mediação que possuem vários servidores de mediação.
+     > [!NOTE]
+     > Você deve [implantar](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing) para oferecer suporte a pools de servidor de mediação que possuem vários servidores de mediação.
   
    - Se você deseja implantar apenas um servidor de mediação no pool, porque você não requerem alta disponibilidade, selecione **pool de computador único**. Ignore a etapa seguinte.
     

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Você pode configurar definições de banco de dados de espelho definindo o seguinte:'
-ms.openlocfilehash: aadb4ddc61603a827ff1e9f2bc1c2d332ad8d7db
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d87231b21aea86b4d9cee15cd1cc182d6610e0ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974589"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375990"
 ---
 # <a name="install-mirror-database-option-page"></a>Instalar página de opção de banco de dados de espelho
  
@@ -28,11 +28,11 @@ Você pode configurar **Definições de banco de dados de espelho** definindo o 
     > [!NOTE]
     > Instância do SQL Server principal (instância nomeada ou instância padrão) deve ter permissões de gravação para o compartilhamento de arquivos definidas aqui. O espelho (instância nomeada ou instância padrão) a instância do SQL Server deve ter permissões de leitura para o mesmo compartilhamento de arquivo. 
   
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** Aceita e confirma as alterações na caixa de diálogo.
   
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
   
- **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** Exibe essa tela de ajuda.
   
 ## <a name="see-also"></a>Consulte também
 

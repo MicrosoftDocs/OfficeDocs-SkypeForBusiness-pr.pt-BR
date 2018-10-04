@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 3b0e6e6e08378742e0efa6f24e6ec1c8ed31eeab
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: bbafd82e985cb3aabec99e73d2d13f7068a7c59d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958297"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374345"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Como faço para criar um tíquete de suporte para validação de endereços?
 
@@ -54,13 +54,13 @@ A validação de endereços é uma etapa importante da configuração de Planos 
     
 5. Na página **Identificar o problema**, selecione e insira o seguinte:
     
-  - **Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.
+   - **Recursos:** selecione **Plano de Chamadas Domésticas** e/ou **Planos de Chamadas Domésticas e Internacionais**.
     
-  - **Sintoma:** insira **Chamada de Emergência**.
+   - **Sintoma:** insira **Chamada de Emergência**.
     
-  - **Resumo do problema:** insira **Validação do endereço**.
+   - **Resumo do problema:** insira **Validação do endereço**.
     
-  - **Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:
+   - **Detalhes do problema:** insira todos os detalhes sobre os endereços que você deseja validar, como:
     
       - Número
     
@@ -70,8 +70,8 @@ A validação de endereços é uma etapa importante da configuração de Planos 
     
       - País ou região
     
-    > [!IMPORTANT]
-    > **Informe o país/região onde oferecemos Planos de Chamadas no Office 365 para o qual você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
+     > [!IMPORTANT]
+     > **Informe o país/região onde oferecemos Planos de Chamadas no Office 365 para o qual você está tentando validar um endereço de emergência ao atribuir um número de telefone.**
   
       - CEP
     
@@ -79,19 +79,19 @@ A validação de endereços é uma etapa importante da configuração de Planos 
     
 7. Na página **Adicionar detalhes**, selecione e insira o seguinte:
     
-  - **Seu serviço está indisponível?** Selecione **Não**.
+   - **Seu serviço está indisponível?** Selecione **Não**.
     
-  - **Quantos usuários são afetados?** Selecione **Alguns usuários**.
+   - **Quantos usuários são afetados?** Selecione **Alguns usuários**.
     
-  - **Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.
+   - **Insira o endereço de email de alguém que é afetado por esse problema** ou deixe em branco.
     
-  - **Escolha os domínios que você deseja listar**
+   - **Escolha os domínios que você deseja listar**
     
-  - **Anexe um arquivo**, se tiver vários endereços que precisa validar.
+   - **Anexe um arquivo**, se tiver vários endereços que precisa validar.
     
-  - Clique em **Avançar**.
+   - Clique em **Avançar**.
     
-  - Insira seu número de telefone de contato.
+   - Insira seu número de telefone de contato.
     
 8. Confira as informações e clique em **Enviar solicitação**.
     

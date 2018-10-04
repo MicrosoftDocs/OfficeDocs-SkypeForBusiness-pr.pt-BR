@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 653bde65bb5ba0fa7bc736de0e01979cf55ed63b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 6722f68da55ef9a9db7783727aaf010cd5df39ed
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860909"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374175"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Ativar ou desativar mensagens offline para administradores
 
@@ -40,7 +40,7 @@ Para obter mais informações, consulte [uso de mensagens offline do Skype para 
 
 ## <a name="to-get-you-started"></a>Para começar
 
-###
+## #
 
  **Verifique se está executando o Windows PowerShell 3.0 ou versão superior**
 
@@ -54,7 +54,7 @@ Para obter mais informações, consulte [uso de mensagens offline do Skype para 
 
 Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
 
-###
+## #
 
  **Iniciar uma sessão do Windows PowerShell**
 
@@ -97,7 +97,7 @@ Para habilitar ou desabilitar o envio de mensagens Offline mensagens Offline par
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM
   ```
 
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 - O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Criar ou modificar uma fila de espera do grupo de resposta, em Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: cdddb57c3f0e06e851f39cba4b6f8322a28fd3fa
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888148"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374512"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila de espera no Skype para negócios
  
@@ -57,8 +57,8 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para alterar a ordem em que os agentes são pesquisados, na lista de grupos de agentes, clique em um grupo e na seta para cima ou para baixo.
     
-    > [!NOTE]
-    > Quando o servidor pesquisa por um agente disponível para a fila, ele usa a ordem do grupo. Ou seja, o primeiro grupo da lista é pesquisado primeiro, seguido pelo segundo e assim sucessivamente. 
+     > [!NOTE]
+     > Quando o servidor pesquisa por um agente disponível para a fila, ele usa a ordem do grupo. Ou seja, o primeiro grupo da lista é pesquisado primeiro, seguido pelo segundo e assim sucessivamente. 
   
 8. Para especificar um período máximo de tempo para um chamador aguardar em espera antes que um agente responda à chamada, marque a caixa de seleção  **Habilitar o tempo limite da fila** e, em seguida, faça o seguinte:
     
@@ -66,15 +66,15 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
     b. Em **Ação de Chamada**, selecione a ação que ocorre quando o tempo limite de uma chamada se esgota da seguinte maneira:
     
-     - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
+   - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-     - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço da caixa postal no formato sip: _ \<username\>_@ _\<domainname\> _ (para Por exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço da caixa postal no formato sip: * \<username\>*@ *\<domainname\> * (para Por exemplo, sip:bob@contoso.com).
     
-     - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no formato sip: _ \<número\>_@ _\<domainname\>_ (por exemplo, sip:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no formato sip: * \<número\>*@ *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
     
-     - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para endereço SIP**e, em seguida, no campo **endereço SIP** , digite o URI do usuário no formato sip: _ \<username\>_@ _\<domainname\>_.
+   - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para endereço SIP**e, em seguida, no campo **endereço SIP** , digite o URI do usuário no formato sip: _ \<username\>_@ _\<domainname\>_.
     
-     - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
+   - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
     
 9. Para especificar um número máximo de chamadas que a fila de espera poderá conter, marque a caixa de seleção **Habilitar o estouro da fila** e faça o seguinte:
     
@@ -84,15 +84,15 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
     c. Em **Ação de chamada**, selecione a ação que ocorre quando o limite de excedente é atingido da seguinte forma:
     
-     - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
+   - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-     - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço da caixa postal no formato sip: _ \<username\>_@ _\<domainname\> _ (para Por exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em **Encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço da caixa postal no formato sip: * \<username\>*@ *\<domainname\> * (para Por exemplo, sip:bob@contoso.com).
     
-     - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no formato sip: _ \<número\>_@ _\<domainname\>_ (por exemplo, sip:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em **Encaminhar para número de telefone**e, no campo **endereço SIP** , digite o número de telefone no formato sip: * \<número\>*@ *\<domainname\>* (por exemplo, sip:+14255550121@contoso.com).
     
-     - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para endereço SIP**e, em seguida, no campo **endereço SIP** , digite o URI do usuário no formato sip: _ \<username\>_@ _\<domainname\>_.
+   - Para encaminhar a chamada para outro usuário, clique em **Encaminhar para endereço SIP**e, em seguida, no campo **endereço SIP** , digite o URI do usuário no formato sip: _ \<username\>_@ _\<domainname\>_.
     
-     - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
+   - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
     
 10. Clique em **Confirmar**.
     
@@ -137,24 +137,24 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
 5. Crie o prompt que será reproduzido quando o limite de excedente da fila for atingido e salve-o em uma variável. Na linha de comando, execute:
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
+   ```
 
    Por exemplo:
     
-  ```
-  $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
-  ```
+   ```
+   $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
+   ```
 
       > [!NOTE]
       > Para usar um arquivo de áudio para o prompt, use o cmdlet **Import-CsRgsAudioFile** . Para obter detalhes, consulte [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Defina a ação que será executada quando o limite de excedente da fila for atingido e salve-o em uma variável. Na linha de comando, execute:
     
-  ```
-  $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
-  ```
+   ```
+   $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
+   ```
 
     > [!NOTE]
     > Para obter detalhes sobre ações possíveis e sua sintaxe, consulte [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
@@ -194,9 +194,9 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
 
 10. Confirme se a fila foi criada. Execute:
     
-   ```
-   Get-CsRgsQueue -Name "Help Desk"
-   ```
+    ```
+    Get-CsRgsQueue -Name "Help Desk"
+    ```
 
 ## <a name="see-also"></a>Consulte também
 

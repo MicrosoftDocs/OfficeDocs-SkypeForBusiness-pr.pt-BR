@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype para Business Server.'
-ms.openlocfilehash: a3896f7ed80ec058c2ed2476e98ce61f85e78229
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e12c9faed684121def2e1a4b175f2f7a9fcb534e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969386"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375270"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usando o painel de monitoramento no Skype para Business Server
  
@@ -42,7 +42,7 @@ Por padrão, o Painel de Monitoramento mostra dados para as seguintes métricas 
   
 - Logons de usuário exclusivos
     
- **Ponto a ponto**
+  **Ponto a ponto**
   
 - Total de sessões
     
@@ -58,7 +58,7 @@ Por padrão, o Painel de Monitoramento mostra dados para as seguintes métricas 
     
 - Média de minutos da sessão de áudio
     
- **Conferência**
+  **Conferência**
   
 - Total de conferências
     
@@ -92,7 +92,7 @@ Além das métricas de Uso do Sistema, as seguintes métricas exibem o total par
     
 - Organizadores de conferência com falhas de chamada
     
- **Usuários com chamadas com qualidade ruim**
+  **Usuários com chamadas com qualidade ruim**
   
 - Total de usuários com chamadas de baixa qualidade
     

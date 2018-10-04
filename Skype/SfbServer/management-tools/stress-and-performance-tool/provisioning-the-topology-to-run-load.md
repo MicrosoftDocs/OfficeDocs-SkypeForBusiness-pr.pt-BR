@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype para alterações de topologia Business Server 2015 ou provisionamento para permitir que usuários com êxito, execute a ferramenta de Stress e desempenho.
-ms.openlocfilehash: 825dd56a7f2cb343eddd8cbed7e811cdc5154b9c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 6ff08a3b99f4dc1f05b56c2a1fa86733ccf4f852
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373775"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Provisionamento a topologia para executar a carga em cenários de Stress e desempenho
  
@@ -24,15 +25,15 @@ Dependendo as configurações existentes e a configuração de sua implantação
   
 1. Defina a diretiva de execução do Windows PowerShell como irrestrito. Se você não tiver certeza de qual é definido como atualmente, pode abrir o Skype para Business Server Management Shell e execute este comando:
     
-  ```
-  Get-ExecutionPolicy
-  ```
+   ```
+   Get-ExecutionPolicy
+   ```
 
-  Se o valor Unrestricted não for retornado, você precisará executar nesse Avançar:
+   Se o valor Unrestricted não for retornado, você precisará executar nesse Avançar:
     
-  ```
-  Set-ExecutionPolicy -Unrestricted
-  ```
+   ```
+   Set-ExecutionPolicy -Unrestricted
+   ```
 
 2. Para configurar efetivamente Skype para Business Server, você precisará:
     
@@ -42,9 +43,9 @@ Dependendo as configurações existentes e a configuração de sua implantação
     
 3. Para executar um script de linha de comando, você pode usar:
     
-  ```
-  PowerShell.exe -file <path to the file>
-  ```
+   ```
+   PowerShell.exe -file <path to the file>
+   ```
 
 4. Normalmente, depois de executar um script deste pacote, os rastreamentos resultantes serão armazenados em um arquivo no mesmo caminho em que o script foi executado. Há também um formato de nomeação \<scriptname\>$h$m$s.txt. Portanto, se você executou o ArchivingPolicy.ps1 às 12:15:00, você obterá um arquivo de log chamado ArchivingPolicy121500.txt.
     

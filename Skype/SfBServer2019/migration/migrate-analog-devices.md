@@ -8,34 +8,33 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server oferece suporte para dispositivos analógicos. Especificamente, os dispositivos analógicos com suporte são telefones áudio analógicos e máquinas de fax analógicos. Você pode configurar os gateways qualificados para o suporte ao uso de dispositivos analógicos na sua Skype para ambiente de servidor de negócios. Após migrar para o Skype para Business Server 2019, você também deve migrar os objetos de contato associados com os dispositivos analógicos. Use Skype do Shell de gerenciamento do servidor de negócios para o primeiro recuperar todos os objetos associados com os dispositivos analógicos herdados do contato e mova esses objetos para o Skype para Business Server 2019 pool.
-ms.openlocfilehash: 25de46ce2d0b6a86553b78d591f35f9d881fb55e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ea100f4e26cc38d5eb30f881de61bf415110ca36
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030410"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374847"
 ---
 # <a name="migrate-analog-devices"></a>Migrar dispositivos analógicos
 
 Skype para Business Server oferece suporte para dispositivos analógicos. Especificamente, os dispositivos analógicos com suporte são telefones áudio analógicos e máquinas de fax analógicos. Você pode configurar os gateways qualificados para o suporte ao uso de dispositivos analógicos na sua Skype para ambiente de servidor de negócios. Após migrar para o Skype para Business Server 2019, você também deve migrar os objetos de contato associados com os dispositivos analógicos. Use Skype do Shell de gerenciamento do servidor de negócios para o primeiro recuperar todos os objetos associados com os dispositivos analógicos herdados do contato e mova esses objetos para o Skype para Business Server 2019 pool.
-  
+
 ### <a name="to-migrate-analog-devices"></a>Para migrar dispositivos analógicos
 
 1. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique em **Microsoft Skype para Business Server 2019**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de negócios**.
-    
+
 2. Na linha de comando, digite:
-    
-  ```
-  Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
-  
-  ```
+
+   ```
+   Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
+   ```
 
 3. Verifique se todos os objetos de contato foram movidos para o Skype para Business Server 2019 pool. Na linha de comando, digite:
-    
-  ```
-  Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
-  ```
+
+   ```
+   Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
+   ```
 
 4. Verifique se todos os objetos de contato estão agora associados com o Skype para Business Server 2019 pool.
-    
+
 

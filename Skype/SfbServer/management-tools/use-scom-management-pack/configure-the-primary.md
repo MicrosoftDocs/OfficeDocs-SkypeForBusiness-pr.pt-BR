@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Resumo: Configurar o servidor de gerenciamento primário, instalar o System Center Operations Manager e importar pacotes de gerenciamento para Skype para Business Server 2015.'
-ms.openlocfilehash: d976c0daa6c53896b0a87dd9478174496aba8af6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a6413277b2e3c08627f0763fc110f0dab7b1c44d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250805"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373525"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar o Servidor de Gerenciamento principal
 
@@ -101,12 +101,12 @@ Em geral, é mais fácil importar os pacotes de gerenciamento usando o console d
 
 2. No Shell do Operations Manager, digite o seguinte comando no prompt, usando o caminho real para sua cópia do arquivo Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp e pressione ENTER:
 
-  ```
-  Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp"
-  ```
+   ```
+   Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp"
+   ```
 
 3. Depois de importar o primeiro pacote de gerenciamento, repita o processo usando o caminho até sua cópia do arquivo Microsoft.LS.2015.Monitoring.ComponentAndUser.mp:
 
-  ```
-  Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
-  ```
+   ```
+   Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2015.Monitoring.ComponentAndUser.mp"
+   ```

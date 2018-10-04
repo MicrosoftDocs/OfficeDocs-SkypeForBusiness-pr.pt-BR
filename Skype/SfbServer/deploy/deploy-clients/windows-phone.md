@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Resumo: Saiba como instalar e testar Skype for Business no seu Windows Phone.'
-ms.openlocfilehash: 90e8b99532e51399f9f76e5e12d60a3eeab84481
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e135441a711655e42c37d0a9bd7ff4870da1d0d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978044"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372927"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Skype for Business Server 2015: Instalar e testar o Skype for Business para Windows Phone
  
@@ -46,12 +46,12 @@ Antes que orienta os usuários em sua organização para baixar o aplicativo, co
     
 5. Toque em **Avançar** e revise as configurações de acesso do catálogo telefônico e a notificação:
     
-  - **Notificações de push** Obtenha um alerta quando você recebe uma nova IM ou chamada. Normalmente **Ligado** (recomendado).
+   - **Notificações de push** Obtenha um alerta quando você recebe uma nova IM ou chamada. Normalmente **Ligado** (recomendado).
     
-    > [!IMPORTANT]
-    > Se você desativar essa configuração, você não será notificado de mensagens instantâneas, chamadas ou outro Skype para alertas de negócios para o Windows Phone, a menos que o aplicativo está ativo. 
+     > [!IMPORTANT]
+     > Se você desativar essa configuração, você não será notificado de mensagens instantâneas, chamadas ou outro Skype para alertas de negócios para o Windows Phone, a menos que o aplicativo está ativo. 
   
-  - **Permitir acesso ao catálogo telefônico** Procurar contatos no telefone celular, quando você procurar contatos no Skype Business para Windows Phone.
+   - **Permitir acesso ao catálogo telefônico** Procurar contatos no telefone celular, quando você procurar contatos no Skype Business para Windows Phone.
     
 6. Toque em **Avançar** para começar a usar o Skype para Business para Windows Phone.
     

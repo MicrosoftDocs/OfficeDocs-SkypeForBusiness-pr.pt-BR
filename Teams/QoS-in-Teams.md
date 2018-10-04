@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a219226ca5fa7664cc83539ee4faeb9f57125c00
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4222fb19b95b9014a488d8176c63f79b6fda20be
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013293"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371191"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Qualidade de Serviço (QoS) no Microsoft Teams
 
@@ -28,7 +28,7 @@ QoS é um mecanismo que você usará para priorizar certos tipos de tráfego de 
 ![a relação entre redes de uma organização e serviços do Office 365: conectam a rede e os dispositivos com uma rede de interconexão, que por sua vez, se conecta com os serviços do Office 365 nuvem voz e conferência de áudio no local.] (media/Qos-in-Teams-Image1.png "a relação entre redes de uma organização e serviços do Office 365: conectam a rede e os dispositivos com uma rede de interconexão, que por sua vez, se conecta com os serviços do Office 365 nuvem voz e conferência de áudio no local.")
 
 _Figura 1. A relação entre redes de uma organização e serviços do Office 365_
- 
+
 
 Na maioria dos casos, a rede de interconexão será uma conexão de internet de rede não gerenciado. Uma opção disponível para QoS de ponta a ponta de endereços é [ExpressRoute do Windows Azure](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Ainda recomendamos que você implemente QoS nas partes da rede você tenha controle sobre, notadamente sua rede local. Isso irá aumentar a qualidade das cargas de trabalho de comunicação em tempo real em toda sua implantação e atenuar os pontos de estrangulamento na implantação existente. 
 
@@ -40,7 +40,7 @@ Este artigo aborda como priorizar o tráfego de comunicação em tempo real de e
 Há várias maneiras de priorizar o tráfego, mas a mais comum é usando marcações DSCP (Ponto de Código de Serviços Diferenciados). Eles podem ser aplicados ("marcados") com base em intervalos de porta e também por meio de objetos de diretiva de grupo. Abordaremos ambos neste artigo. Recomendamos que você use marcação com base em intervalos de porta, pois ele funcionará para todos os dispositivos, e não apenas aquelas que ingressou no domínio.
 
 Controlando a marcação de DSCP por meio de objetos de diretiva de grupo garante que os computadores de domínio recebam as configurações corretas e que somente um administrador pode gerenciá-los.
- 
+
 É importante entender que QoS funciona apenas quando implementada em todos os links que conectar o chamador para o receptor. Se você usar a QoS na rede interna e um usuário entrar em um local remoto, você pode priorizar somente dentro de sua rede interna, gerenciada. Embora os locais remotos podem receber uma conexão gerenciada por meio da implementação de uma rede virtual privada (VPN), é recomendável que você evite executando o tráfego de comunicação em tempo real através da VPN.
 
 > [!NOTE]
@@ -71,7 +71,7 @@ As orientações para a implementação de QoS para equipes se baseia em quatro 
 *  **Cenário 2:** Você tiver implantado, ou estiver implantando, equipes e estiver planejando implementar QoS via marcação de objeto de diretiva de grupo. Às vezes, essa opção é usada em combinação com o cenário 1. Embora esta situação é válida inteiramente, é importante entender só funcionará para clientes do domínio Windows. Qualquer dispositivo que não é um cliente do domínio do Windows não será ativado para DSCP marcação.
 
 *  **Cenário 3:** Você tiver implantado o Skype para negócios Online, incluindo a marcação de QoS e agora está implantando equipes. Se for o seu caso, o Microsoft Teams respeitará a configuração existente e usará os mesmos intervalos de portas e a mesma marcação do cliente Skype for Business. Na maioria dos casos, nenhuma configuração adicional será necessária. 
- 
+
     > [!NOTE]
     > Se você estiver usando a QoS de nome de aplicativo marcação via diretiva de grupo, você deve adicionar Teams.exe como o nome do aplicativo.
 
@@ -87,7 +87,7 @@ A tabela 1 mostra as marcas de DSCP necessárias ao utilizar as equipes com Expr
 
 
 _Tabela 1. Marcações de DSCP_
-    
+
 | Intervalo de porta de origem do cliente |Protocolo|Categoria da mídia|Valor de DSCP|Classe DSCP|
 |---------|---------|---------|---------|---------|
 | 50.000 – 50,019|TCP/UDP|Áudio|46|Expedited Forwarding (EF)|
@@ -95,14 +95,14 @@ _Tabela 1. Marcações de DSCP_
 | 50,040 – 50,059|TCP/UDP|Compartilhamento de aplicativo/área de trabalho|18|Assured Forwarding (AF21)|
 
 Veja aqui algumas condições que devem ser observadas ao usar as informações da Tabela 1:
-    
+
 -  Se você pretende implementar ExpressRoute no futuro e ainda não foi implementado QoS, recomendamos que você siga as orientações na tabela 1, para que os valores DSCP são os mesmos do remetente para o receptor. 
 
 -  Todos os clientes, incluindo clientes móveis e dispositivos de equipes, usarão esses intervalos de porta e serão afetados pela implementar qualquer política DSCP que usa esses intervalos de porta de origem. Os únicos clientes que continuarão a usar portas dinâmicas são os clientes baseados em navegador (ou seja, os clientes que permitem que os participantes participar de reuniões usando seus navegadores).
 
 -  Embora o cliente Mac usem os mesmos intervalos de porta, o cliente Mac também usa valores codificados para (EF) de áudio e vídeo (AF41). Esses valores não são configuráveis.
- 
-    
+
+
 ## <a name="source-ports-used-by-teams"></a>Portas de origem usadas pelo Microsoft Teams
 
 No Microsoft Teams, a QoS deve ser configurada com base nas portas de origem usadas pelas diferentes cargas de trabalho. Nenhum dos intervalos de porta do servidor nem do cliente são configuráveis no momento. 
@@ -129,12 +129,13 @@ Há várias abordagens para definir as marcas de DSCP apropriadas para a classif
 -  **a marcação DSCP no ponto de extremidade:** Isso geralmente é a opção preferencial, porque o ponto de extremidade próprio fornece as marcações adequadas. No momento isso pode ser feito usando-se um objeto de diretiva de grupo, mas só pode ser usado em clientes do domínio Windows. Clientes móveis não fornecem um mecanismo para marcar o tráfego usando valores DSCP. Embora você não pode definir não&ndash;clientes associados a um domínio do Windows ao tráfego de marca, clientes como o Mac OS ter codificadas marcas e sempre será marcar tráfego conforme descrito acima.
 
 -  **Usando listas de controle de acesso (ACLs) em roteadores de marcação de DSCP baseados na porta:** Essa é uma opção muito comuns encontrada em ambientes Windows e Mac heterogêneos. Neste cenário, a equipe de rede marca o tráfego nos roteadores de entrada/saída (normalmente localizado na rede de longa distância) com base nos intervalos de porta de origem definidos para cada modalidade. Embora isso funcione em todas as plataformas, ele marca somente o tráfego da borda de WAN — não totalmente para a máquina cliente — e, portanto, gera sobrecarga de gerenciamento.
-    
+
 -  **Uma combinação de marcações de DSCP no ponto de extremidade e baseados na porta ACLs em roteadores:** Recomendamos esta combinação, se possível em seu ambiente. Use um objeto de diretiva de grupo para capturar a maioria dos clientes e também utilizar para garantir que mobile, Mac e outros clientes ainda obterão tratamento de QoS (pelo menos parcialmente) de marcação de DSCP baseados na porta.
-    
+
 Você pode usar a QoS baseada em diretivas dentro da diretiva de grupo para definir o valor DSCP para o intervalo de porta de origem predefinidos no cliente equipes. Use os intervalos de porta especificados na tabela 3 para criar uma política para cada carga de trabalho.
 
 _Tabela 3. Intervalos de porta por tipo de tráfego_
+
 | Tipo de tráfego do cliente|Início do intervalo de portas|Final do intervalo de portas|Valor de DSCP|
 |---------|---------|---------|--------|
 | Áudio|50000|50019|46|
@@ -153,52 +154,54 @@ As novas políticas que você criou não terão efeito até que a diretiva de gr
 1. Em cada computador para o qual você deseja atualizar a diretiva de grupo, abra um console de comando. Certifique-se de que o console de comando está definido para executar como administrador.
 
 2. No prompt de comando, digite:
-```
+   ```
     gpudate.exe /force
-```
+   ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Verifique se as marcações de DSCP no objeto de diretiva de grupo
 
 Para verificar se os valores do objeto de diretiva de grupo foram definidos, execute as seguintes etapas.
 
-1.  Abra um console de comando. Certifique-se de que o console de comando está definido para executar como administrador.
+1. Abra um console de comando. Certifique-se de que o console de comando está definido para executar como administrador.
 
-2.  No prompt de comando, digite: 
-    ```
-    gpresult /R >gp.txt
-    ```
+2. No prompt de comando, digite: 
+   ```
+   gpresult /R >gp.txt
+   ```
 
-    Isso irá gerar um relatório e enviá-la para um arquivo de texto chamado GP. txt. Como alternativa, você pode inserir o seguinte comando para produzir os mesmos dados em um relatório HTML mais legível chamado gp.html:
-    ```
-    gpresult /H >gp.html
-    ```
- 
+   Isso irá gerar um relatório e enviá-la para um arquivo de texto chamado GP. txt. Como alternativa, você pode inserir o seguinte comando para produzir os mesmos dados em um relatório HTML mais legível chamado gp.html:
+   ```
+   gpresult /H >gp.html
+   ```
+
    ![Captura de tela da janela do console, executando o comando gpresult.] (media/Qos-in-Teams-Image3.png "Captura de tela da janela do console, executando o comando gpresult.")
 
-3.  No arquivo gerado, procure por título de **Objetos de diretiva de grupo aplicados** e verifique se os nomes dos objetos de diretiva de grupo criados anteriormente estão na lista de diretivas aplicadas. 
+3. No arquivo gerado, procure por título de **Objetos de diretiva de grupo aplicados** e verifique se os nomes dos objetos de diretiva de grupo criados anteriormente estão na lista de diretivas aplicadas. 
 
-4.  Abra o Editor do registro e vá para:
+4. Abra o Editor do registro e vá para:
 
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
+   HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-    Verifique se os valores para as entradas do Registro listadas na tabela 3.
+   Verifique se os valores para as entradas do Registro listadas na tabela 3.
 
-    _Tabela 3. Valores para entradas de registro do Windows para QoS_
-    
-    | Nome | Tipo | Dados|
-    |---------|---------|---------
-    | Nome do Aplicativo|REG_SZ|Teams.exe|
-    | Valor de DSCP|REG_SZ|46|
-    | IP Local|REG_SZ|*|
-    | Comprimento do Prefixo IP Local|REG_SZ|*|
-    | Porta Local|REG_SZ|50000-50019|
-    | Protocolo|REG_SZ|*|
-    | IP Remoto|REG_SZ|*|
-    | Prefixo IP remoto|REG_SZ|*|
-    | Porta Remota|REG_SZ|*|
-    | Taxa de Aceleração|REG_SZ|-1|
-    
-5.  Verificar se o valor para a entrada de nome do aplicativo está correto para o cliente que você está usando e verificar que o valor DSCP e a porta Local entradas reflitam as configurações no objeto de diretiva de grupo.
+   _Tabela 3. Valores para entradas de registro do Windows para QoS_
+
+
+   |          Nome          |  Tipo  |    Dados     |
+   |------------------------|--------|-------------|
+   |    Nome do Aplicativo    | REG_SZ |  Teams.exe  |
+   |       Valor de DSCP       | REG_SZ |     46      |
+   |        IP Local        | REG_SZ |     \*      |
+   | Comprimento do Prefixo IP Local | REG_SZ |     \*      |
+   |       Porta Local       | REG_SZ | 50000-50019 |
+   |        Protocolo        | REG_SZ |     \*      |
+   |       IP Remoto        | REG_SZ |     \*      |
+   |    Prefixo IP remoto    | REG_SZ |     \*      |
+   |      Porta Remota       | REG_SZ |     \*      |
+   |     Taxa de Aceleração      | REG_SZ |     -1      |
+
+
+5. Verificar se o valor para a entrada de nome do aplicativo está correto para o cliente que você está usando e verificar que o valor DSCP e a porta Local entradas reflitam as configurações no objeto de diretiva de grupo.
 
 ## <a name="validate-qos-by-analyzing-teams-traffic-on-the-network"></a>Validar a QoS ao analisar o tráfego de equipes na rede
 

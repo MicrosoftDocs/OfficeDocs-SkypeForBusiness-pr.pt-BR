@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um Monitoring Server, você pode remover os bancos de dados do SQL Server que hospedava os dados do servidor. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
-ms.openlocfilehash: 1dc18d520afd67156443ddc2fc22dc838a2aa139
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 85999f1bbb3fc443edcab9d1f1354f26187c6a75
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027974"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373354"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Remover o banco de dados do SQL Server para um servidor de monitoramento
 
@@ -35,9 +35,9 @@ Depois de remover um Monitoring Server, você pode remover os bancos de dados do
     
 3. Na linha de comando, digite o seguinte:
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     Onde _ \<FQDN\> _ é o nome de domínio totalmente qualificado (FQDN) do servidor de banco de dados, e _ \<instância\> _ é a instância do banco de dados nomeada opcional. 
     

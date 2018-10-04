@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Se você precisa remover o servidor de arquivos que esteja atuando como o repositório de arquivos para seu Skype para implantação de servidor de negócios ou se você precisar fazer outras alterações que tornaria o arquivo atual armazenam indisponível, você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:'
-ms.openlocfilehash: de76c0cbb3a6516ebd3769ba44733be5aa4485e6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5051e7ef9c0008fb3b98f7e4b7c67a06a5465d1e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375919"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Dados do repositório de arquivos de movimentação para um novo repositório de arquivos no Skype para Business Server
 
@@ -35,7 +35,7 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
 
 1. Faça logon em um computador como membro do grupo RTCUniversersalServerAdmins ou CsServerAdministrator onde o Skype para Business Server, ferramentas administrativas estão instaladas.
 
-2.  Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
+2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
 
 3. Na barra de navegação esquerda, clique em **Topologia** e em **Status**. 
 
@@ -47,41 +47,41 @@ Se você precisa remover o servidor de arquivos que esteja atuando como o reposi
 
 7. Selecione um servidor ou pool que usa o repositório de arquivos e faça o seguinte:
 
-1. Clique com o botão direito do mouse no servidor ou no pool e em **Editar Propriedades**. 
+8. Clique com o botão direito do mouse no servidor ou no pool e em **Editar Propriedades**. 
 
-2. Em **Editar propriedades**, **Associações**, **Repositório de arquivos**, clique em **Novo**.
+9. Em **Editar propriedades**, **Associações**, **Repositório de arquivos**, clique em **Novo**.
 
-3. Em **Definir Novo Repositório de Arquivos**, em **FQDN do servidor de arquivo**, digite o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos. Em **Compartilhamento de arquivos**, digite o nome da pasta para o novo compartilhamento de arquivos e clique em **OK**.
+10. Em **Definir Novo Repositório de Arquivos**, em **FQDN do servidor de arquivo**, digite o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos. Em **Compartilhamento de arquivos**, digite o nome da pasta para o novo compartilhamento de arquivos e clique em **OK**.
 
-    > [!IMPORTANT]
-    > Essa etapa define um novo repositório de arquivos para uso no construtor de topologia. Você o define apenas uma vez, não para cada servidor. Antes de você publicar a topologia, deverá criar o compartilhamento de arquivos definido no servidor de arquivos definido. Para obter detalhes, consulte [Define the File Store para o Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > Essa etapa define um novo repositório de arquivos para uso no construtor de topologia. Você o define apenas uma vez, não para cada servidor. Antes de você publicar a topologia, deverá criar o compartilhamento de arquivos definido no servidor de arquivos definido. Para obter detalhes, consulte [Define the File Store para o Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
-8. Para cada servidor ou pool que usa o repositório de arquivos, faça o seguinte:
+11. Para cada servidor ou pool que usa o repositório de arquivos, faça o seguinte:
 
-1. Clique com o botão direito do mouse no servidor ou no pool e em **Editar Propriedades**.
+12. Clique com o botão direito do mouse no servidor ou no pool e em **Editar Propriedades**.
 
-2. Em **Editar Propriedades**, **Associações**, **Repositório de arquivos**, selecione o novo compartilhamento de arquivos e em **OK**.
+13. Em **Editar Propriedades**, **Associações**, **Repositório de arquivos**, selecione o novo compartilhamento de arquivos e em **OK**.
 
-9. Publique a topologia, verifique o status de replicação e execute o Skype para o Assistente de implantação de servidor de negócios conforme necessário. Para obter detalhes, consulte [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Publique a topologia, verifique o status de replicação e execute o Skype para o Assistente de implantação de servidor de negócios conforme necessário. Para obter detalhes, consulte [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
-10. Inicie um prompt de comando: clique em **Iniciar**, clique em **Executar**e digite cmd.exe.
+15. Inicie um prompt de comando: clique em **Iniciar**, clique em **Executar**e digite cmd.exe.
 
-11. Na linha de comando, digite o seguinte:
+16. Na linha de comando, digite o seguinte:
 
-  ```
-  Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-  ```
+    ```
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > A opção /S copia sobre os arquivos, diretórios e subdiretórios. A opção /XF ignora os arquivos nomeados como Meeting.Active. As versões atuais de robocopy.exe com a opção /MT aumentam significativamente a velocidade da cópia usando vários threads. Para o switch /LOG, use um diretório caminho e o log de nome de arquivo no formato de C:\Logfiles\log.txt. Essa opção cria um arquivo de log das operações no local nomeado.
 
-12. Quando a cópia de dados estiver concluída, no painel de controle do Lync Server, clique em **topologia**e, em seguida, clique em **Status**.
+17. Quando a cópia de dados estiver concluída, no painel de controle do Lync Server, clique em **topologia**e, em seguida, clique em **Status**.
 
-13. Para cada servidor ou pool cujos serviços você interrompeu, selecione o servidor ou pool, clique em **Ação** e em **Iniciar todos os serviços**.
+18. Para cada servidor ou pool cujos serviços você interrompeu, selecione o servidor ou pool, clique em **Ação** e em **Iniciar todos os serviços**.
 
-14. Remova o antigo repositório de arquivos da topologia e publique a topologia. Para obter detalhes, consulte [Remover um repositório de arquivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Remova o antigo repositório de arquivos da topologia e publique a topologia. Para obter detalhes, consulte [Remover um repositório de arquivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 
-15. (Opcional) Faça logon no computador que contém o repositório de arquivos que você acabou de remover como membro do grupo local de administradores ou do grupo de administradores de domínio e remova o antigo diretório e compartilhamento de arquivos.
+20. (Opcional) Faça logon no computador que contém o repositório de arquivos que você acabou de remover como membro do grupo local de administradores ou do grupo de administradores de domínio e remova o antigo diretório e compartilhamento de arquivos.
 
 ## <a name="see-also"></a>Consulte também
 

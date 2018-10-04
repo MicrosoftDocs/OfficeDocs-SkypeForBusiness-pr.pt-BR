@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Resumo: Saiba como criar ou modificar um plano de discagem usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: 8c4a8013268c878390fdcea08dc79e094d8fa4dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dc60b2b2f922e5f6581f6742d055243ccfe06113
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884254"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371065"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Criar ou modificar um plano de discagem no Skype para Business Server
 
@@ -38,8 +38,8 @@ ms.locfileid: "23884254"
 
    - **Plano de discagem do usuário** pode ser aplicado a usuários ou grupos especificados.
 
-    > [!NOTE]
-    > Depois de selecionar o escopo do plano de discagem, não é possível alterá-lo.
+     > [!NOTE]
+     > Depois de selecionar o escopo do plano de discagem, não é possível alterá-lo.
 
 4. Se você estiver criando um plano de discagem do usuário, insira um nome descritivo no campo  **Nome** na caixa de diálogo **Novo Plano de Discagem**. Após o nome ser salvo, não será possível alterá-lo.
 
@@ -48,8 +48,8 @@ ms.locfileid: "23884254"
 
 5. O campo  **Nome simples** é pré-preenchido com o mesmo nome que aparece no campo  **Nome**. Como opção, é possível editar esse campo para especificar um nome mais descritivo que reflete o site, o serviço ou o usuário ao qual o plano de discagem se aplica.
 
-    > [!IMPORTANT]
-    > O **nome simples** deve ser exclusivo entre todos os planos de discagem em sua implantação. Ele não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere de caracteres alfabético ou numérico, um hífen (-), um ponto (.) ou um sublinhado (_). > caracteres **não suportados** incluem espaços e caracteres reservados como definido no RFC 3966 (http://www.ietf.org/rfc/rfc3966.txt). Caracteres reservados que estão **não tem suporte** no **Nome simples** incluem o seguinte: > ";" "/" "?" ":" "@" "&amp;" "=" "+""$",""
+   > [!IMPORTANT]
+   > O **nome simples** deve ser exclusivo entre todos os planos de discagem em sua implantação. Ele não pode exceder 256 caracteres Unicode, cada um deles pode ser um caractere de caracteres alfabético ou numérico, um hífen (-), um ponto (.) ou um sublinhado (_). > caracteres **não suportados** incluem espaços e caracteres reservados como definido no RFC 3966 (<http://www.ietf.org/rfc/rfc3966.txt>). Caracteres reservados que estão **não tem suporte** no **Nome simples** incluem o seguinte: > ";" "/" "?" ":" "@" "&amp;" "=" "+""$",""
 
 6. (Opcional) No campo **Descrição**, você pode digitar informações descritivas adicionais sobre o plano de discagem.
 
@@ -94,7 +94,7 @@ ms.locfileid: "23884254"
 
 ### <a name="to-modify-a-dial-plan"></a>Para modificar um plano de discagem
 
-1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
+1. Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte **Delegate Setup Permissions**.
 
 2. Abra uma janela do navegador e insira a URL do administrador para abrir o Skype para painel de controle do servidor de negócios.
 
@@ -134,8 +134,8 @@ ms.locfileid: "23884254"
 
    - Para remover uma regra de normalização do plano de discagem, realce o nome da regra e clique em **Remover**.
 
-    > [!NOTE]
-    > Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para obter detalhes sobre como determinar a todas as regras de normalização um dial plan requer, consulte o [plano de voz de saída de roteamento no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação de planejamento.
+     > [!NOTE]
+     > Cada plano de discagem deve ter no mínimo uma regra de normalização associada. Para obter detalhes sobre como determinar a todas as regras de normalização um dial plan requer, consulte o [plano de voz de saída de roteamento no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) na documentação de planejamento.
 
 10. Verifique se que as regras de normalização do plano de discagem são organizadas na ordem correta. Para alterar a posição de uma regra na lista, destaque o nome da regra e clique em cima ou seta para baixo.
 

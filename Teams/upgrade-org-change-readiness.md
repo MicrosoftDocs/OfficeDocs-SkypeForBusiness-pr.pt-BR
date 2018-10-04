@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f302ddca1470d0e35a6b983ae52afa08f2533c8
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016241"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374376"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -63,6 +63,7 @@ Use o seguinte para iniciar a conversação para realizar uma avaliação de pro
 | *Informed users* accept the solution as soon as its value is demonstrated.    |       |
 | *Laggards* reject the solution, even when pushed into change. |       |
 -->
+
 | Primeiros usuários  | Usuários informados  | Retardatários |
 |-----------------|-----------------|----------|
 | Esses usuários solicitarem a solução antes que ele esteja disponível. | Esses usuários aceitam a solução assim que seu valor é demonstrado. | Esses usuários rejeitam a solução, mesmo quando enviada em alterar. |
@@ -80,6 +81,7 @@ Use o seguinte para iniciar a conversação para realizar uma avaliação de pro
 | *Team-players* enjoy group and interactive training; they’ll go along with coworkers. |       |
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance.      |       |
 -->
+
 | Motivados  | Players de equipe  | Pessoas que buscam o detentor de mão |
 |-----------------|-----------------|----------|
 | Esses alunos check-out de recursos de pesquisa, saiba fazendo. | Esses usuários gostam de grupo e treinamento interativo; eles irão junto com os colegas de trabalho. | Esses usuários esperam "luva de branca" ou assistência pessoal durante. |
@@ -109,10 +111,10 @@ A tabela a seguir mostra exemplos de casos de uso universal de trabalho em equip
 
 <table>
 <tbody>
-<tr><th width="10%">**Caso de uso**</th><th width="30%">**Características**</th><th width="30%">**Desafios**</th><th width="30%">**Com as equipes**</th></tr>
-<tr><td>**Produtividade pessoal**</td><td><ul><li>Diário "para" lista</li><li>Dependência de outras pessoas a realizar suas tarefas</li></ul></td><td><ul><li>Emails e anexos sumam</li><li>Chamadas irem para a caixa postal</li><li>Colegas estão offline</li><li>Cópias locais desatualizadas se acumulam na área de trabalho</li></ul></td><td><ul><li>Enviar online e offline mensagens, que alivia precisar rastrear pessoas</li><li>Conversas persistentes com anexos de arquivo reduzem a necessidade de vários locais de pesquisa ou gerenciar várias versões</li></ul></td></tr>
-<tr><td>**Reuniões**</td><td><ul><li>Chamadas em conferência ou reuniões online</li><li>Participantes internos e/ou externos</li><li>Participantes do office/remoto</li></ul></td><td><ul><li>Pouco ou nenhum contexto fornecido antes das reuniões </li><li>Participantes remotos se sentir esquerdos atrás</li><li>Falta de conexão visual</li><li>Desafiador para acompanhar a se você tiver perdido a reunião</li><li>Se perder a POST-reunião momentum</li></ul></td><td><ul><li>Construir momentum antes da reunião com a conversa e compartilhamento de conteúdo</li><li>Ingressar em dispositivos</li><li>Conecte-se com vídeo e compartilhamento de aplicativos, garantindo o alinhamento</li><li>Gravar reuniões para absent participantes</li><li>Capturar anotações, ações (& 64 #; menções) para accountability e acompanhamento de pacientes fácil</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Dentro de uma única interface!_</td></tr>
-<tr><td>**Projetos de grupo**</td><td><ul><li>Trabalho de projeto com vários participantes</li><li>Informações e compartilhamento de documentos</li><li>Usando vários aplicativos</li></ul> </td><td><ul><li>Causa de conversas de corredor desconectar-se com o grupo maior</li><li>Aborrecimento sobre local doc e controle de versão</li><li>Confusão sobre accountability</li></ul> </td><td><ul><li>Mantenha todas as conversas em equipe/canal, orientando transparência</li><li>Link para documentos relevantes; PIN críticos são para garantir a visibilidade</li><li>Controle de versão de doc simplificados</li><li>Acessar o Office e aplicativos de terceiros, fazendo um hub true para o trabalho em equipe</li></ul> </td></tr>
+<tr><th width="10%"><strong>Caso de uso</strong></th><th width="30%"><strong>Características</strong></th><th width="30%"><strong>Desafios</strong></th><th width="30%"><strong>Com as equipes</strong></th></tr>
+<tr><td><strong>Produtividade pessoal</strong></td><td><ul><li>Diário "para" lista</li><li>Dependência de outras pessoas a realizar suas tarefas</li></ul></td><td><ul><li>Emails e anexos sumam</li><li>Chamadas irem para a caixa postal</li><li>Colegas estão offline</li><li>Cópias locais desatualizadas se acumulam na área de trabalho</li></ul></td><td><ul><li>Enviar online e offline mensagens, que alivia precisar rastrear pessoas</li><li>Conversas persistentes com anexos de arquivo reduzem a necessidade de vários locais de pesquisa ou gerenciar várias versões</li></ul></td></tr>
+<tr><td><strong>Reuniões</strong></td><td><ul><li>Chamadas em conferência ou reuniões online</li><li>Participantes internos e/ou externos</li><li>Participantes do office/remoto</li></ul></td><td><ul><li>Pouco ou nenhum contexto fornecido antes das reuniões </li><li>Participantes remotos se sentir esquerdos atrás</li><li>Falta de conexão visual</li><li>Desafiador para acompanhar a se você tiver perdido a reunião</li><li>Se perder a POST-reunião momentum</li></ul></td><td><ul><li>Construir momentum antes da reunião com a conversa e compartilhamento de conteúdo</li><li>Ingressar em dispositivos</li><li>Conecte-se com vídeo e compartilhamento de aplicativos, garantindo o alinhamento</li><li>Gravar reuniões para absent participantes</li><li>Capturar anotações, ações (& 64 #; menções) para accountability e acompanhamento de pacientes fácil</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>Dentro de uma única interface!</em></td></tr>
+<tr><td><strong>Projetos de grupo</strong></td><td><ul><li>Trabalho de projeto com vários participantes</li><li>Informações e compartilhamento de documentos</li><li>Usando vários aplicativos</li></ul> </td><td><ul><li>Causa de conversas de corredor desconectar-se com o grupo maior</li><li>Aborrecimento sobre local doc e controle de versão</li><li>Confusão sobre accountability</li></ul> </td><td><ul><li>Mantenha todas as conversas em equipe/canal, orientando transparência</li><li>Link para documentos relevantes; PIN críticos são para garantir a visibilidade</li><li>Controle de versão de doc simplificados</li><li>Acessar o Office e aplicativos de terceiros, fazendo um hub true para o trabalho em equipe</li></ul> </td></tr>
 </tbody>
 </table>
 

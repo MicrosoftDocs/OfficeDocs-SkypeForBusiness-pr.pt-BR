@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Esta seção descreve as configurações globais e objetos e os grupos universais de serviço e administração criados pela etapa de preparação de floresta.
-ms.openlocfilehash: 9ceece01d6f5184eb58f0906dd61540c2dcf2084
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6c031bf06310c6aba2ee18f532e95438bd495936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244334"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373532"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Alterações feitas pela preparação de floresta no Skype para Business Server
 
@@ -111,13 +111,14 @@ A preparação da floresta cria ACEs públicas e privadas. Ela cria ACEs particu
 
 **ACEs públicas criadas pela preparação da floresta**
 
-|**ACE**|**RTCUniversalGlobalReadOnlyGroup**|
-|:-----|:-----|
-|Ler o contêiner do sistema (não herdado) do domínio raiz**\*** <br/> |X  <br/> |
-|Contêiner DisplaySpecifiers de configuração de leitura (não herdado)  <br/> |X  <br/> |
+
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+|:------------------------------------------------------------------------|:------------------------------------|
+| Ler o contêiner do sistema (não herdado) do domínio raiz**\\**\* <br/>        | X  <br/>                            |
+| Contêiner DisplaySpecifiers de configuração de leitura (não herdado)  <br/> | X  <br/>                            |
 
 > [!NOTE]
-> **\*** As aCEs que não são herdadas não concedem acesso aos objetos filho desses contêineres. ACEs são herdadas concedem acesso aos objetos filho desses contêineres.
+> <strong>\\</strong>* As aCEs que não são herdadas não concedem acesso aos objetos filho desses contêineres. ACEs são herdadas concedem acesso aos objetos filho desses contêineres.
 
 No contêiner configuração, sob o contexto de nomenclatura de configuração, a preparação da floresta executa as seguintes tarefas:
 

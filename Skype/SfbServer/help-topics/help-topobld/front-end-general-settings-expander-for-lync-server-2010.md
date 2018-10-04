@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Você pode editar as propriedades do pool do servidor Front-End ou Front-End editando ou configurar os seguintes atributos. A página de configuração é separada nas seguintes seções:'
-ms.openlocfilehash: 85aa22c5a2cb7820ff1828c850f0440653f5b9f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3af82a83afe27ce06a3c41f881154c2850cad521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256312"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374199"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configurações gerais de Front End do Lync Server 2010
 
@@ -54,13 +54,13 @@ Você pode editar as propriedades do pool do servidor Front-End ou Front-End edi
 
 - Selecione o **associar Pool de borda (para componentes de mídia** caixa de seleção para habilitar um servidor de borda para este pool de Front-End ou de servidor Front-End. Depois de selecionar a caixa de seleção, que você selecione um pool ou servidor de borda existente na lista ou clique em **novo** para criar as definições para um novo servidor de borda ou pool.
 
- **Resiliência**
+  **Resiliência**
 
 - Marque a caixa de seleção de **pool registrador de backup associado** para selecione na lista um pool de Front-End ou de servidor Front-End que será o registrador de backup (ou seja, o servidor Front-End ou Front End pool designado como um registrador secundário em caso onde o principal Falha)
 
 - Se você selecionou o pool registrador de backup associado e tiver escolhido um registrador de backup, você pode selecionar a caixa de seleção para **failover automático e failback para voz**. Agora você pode definir propriedades numéricas para **voz failover detecção interna (s)** e **o intervalo de failback de voz (s)**. Para obter detalhes, consulte [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
- **Serviços da Web**
+  **Serviços da Web**
 
 - Para configurar **serviços web internos**, você pode definir **as portas de escuta** para **HTTP** e **HTTPS**. Por padrão, essas são a porta 80 do TCP e porta TCP 443, respectivamente. Você também pode configurar as **portas publicados** para **HTTP** e **HTTPS**. Por padrão, essas são a porta 80 do TCP e porta TCP 443, respectivamente. Com base em sua configuração de serviços web internos e uso dos balanceadores de carga (balanceadores de carga de hardware e balanceamento de carga DNS), ajustar os valores de porta para definir a escuta e portas publicadas.
 
@@ -72,7 +72,7 @@ Você pode editar as propriedades do pool do servidor Front-End ou Front-End edi
     > [!IMPORTANT]
     > Serviços web externos e escutando definido e portas publicadas são para dispositivos e clientes externos. Dispositivos e clientes externos usam os serviços web externos de escuta e publicadas portas, geralmente é definidas por seu proxy reverso, juntamente com o nome de domínio totalmente qualificado de serviços web externos definido (FQDN). A relação entre o FQDN de serviços web externos e os URLs simples definem os endereços de uniform resource locator (URL) clientes externos usarão para acessar os serviços disponíveis para usuários externos e dispositivos. Para obter mais detalhes sobre URLs simples, consulte [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx).
 
- **Servidor de Mediação**
+  **Servidor de Mediação**
 
 - Para configurar as propriedades do **Servidor de mediação** para um servidor de mediação colocado (ou seja, um servidor de mediação implantados no pool de Front-End ou de servidor Front-End), selecione o **servidor de mediação posicionado habilitado**.
 

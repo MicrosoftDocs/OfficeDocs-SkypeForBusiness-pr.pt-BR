@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fa7f3450f563dad6be2bfc857724e7c6fe2ba16
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016761"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373288"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência dos meus usuários
 
@@ -85,8 +85,8 @@ Algumas organizações preferem evitar Wi-Fi totalmente. Em alguns casos, este g
 Se sua organização usa pontos de acesso sem fio ou roteadores que não há suporte para o protocolo de economia de energia 802.11, você pode sofrer capitular chamadas ou a qualidade de chamadas ruins em Teams da Microsoft em execução em dispositivos do Windows. Se não for possível atualizar o ponto de acesso sem fio ou roteadores, você deverá atualizar as configurações de plano de energia do Windows em dispositivos que executam com bateria. Diretrizes de configuração e os detalhes mais são fornecidas no seguinte [artigo de suporte](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Quais clientes equipes serão implantados em sua organização?</li><li>Como você inicialmente implantará clientes de equipes para seus usuários?</li><li>Eles quem é responsável por avaliar os pontos de extremidade e dispositivos para validar atende aos requisitos de equipes para uma experiência de qualidade?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>O processo que será seguido para implantar clientes de equipes do documento.</li><li>Avalie os pontos de extremidade e dispositivos e executar e remediação necessária.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quais clientes equipes serão implantados em sua organização?</li><li>Como você inicialmente implantará clientes de equipes para seus usuários?</li><li>Eles quem é responsável por avaliar os pontos de extremidade e dispositivos para validar atende aos requisitos de equipes para uma experiência de qualidade?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>O processo que será seguido para implantar clientes de equipes do documento.</li><li>Avalie os pontos de extremidade e dispositivos e executar e remediação necessária.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -106,8 +106,8 @@ Depois que você selecionou os dispositivos, incluí-los no plano de teste pilot
 > Neste momento, recomendamos o uso de dispositivos de áudio que foram certificados por meio do Skype para o programa de certificação de negócios. Para localizar dispositivos certificados sob este programa, consulte o catálogo de soluções [USB dispositivos Certified para Skype para negócios](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida qual estratégia de dispositivo geral da sua organização para o usuário e experiências de sala de reunião.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Conclua um exercício de mapeamento do dispositivo de pessoa para a sua organização.</li><li>O processo para obtenção de dispositivos para usuários e salas de reunião do documento.</li><li>O processo de implantação e configuração de dispositivos para usuários e salas de reunião do documento.</li><li>Adquirir dispositivos iniciais para começar sua implantação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida qual estratégia de dispositivo geral da sua organização para o usuário e experiências de sala de reunião.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Conclua um exercício de mapeamento do dispositivo de pessoa para a sua organização.</li><li>O processo para obtenção de dispositivos para usuários e salas de reunião do documento.</li><li>O processo de implantação e configuração de dispositivos para usuários e salas de reunião do documento.</li><li>Adquirir dispositivos iniciais para começar sua implantação.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

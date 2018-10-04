@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 5e2d38c3576cd39769fd3b150ad905f37421e9bc
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: ac3c65a19d80e5218e121c1cf582753e5f5eecc5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854257"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372587"
 ---
 # <a name="conference-organizer-activity-report"></a>Relatório de atividades dos organizadores de conferências
 
@@ -80,22 +80,22 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 ![Número 7](../images/sfbcallout7.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **Atividade**, clique ou toque em **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web**, **Discagem - terceiros** e **Discagem da Microsoft** para ver apenas as informações relacionadas a cada uma das opções. Essa seleção não altera as informações contidas na tabela de grade. 
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>A tabela mostra uma divisão das atividades de conferência organizadas por usuário. São exibidos todos os usuários que têm o Skype for Business atribuído a eles e as conferências que eles organizaram. Você pode adicionar mais colunas à tabela. 
-*    **Nome de usuário** é o nome do usuário. 
-*    **Excluído** indica que a licença do usuário foi removida.<br/><br/>
-    > [!NOTE]
-    > Atividade de um usuário excluído ainda será exibida em um relatório, desde que ele foi licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+* **Nome de usuário** é o nome do usuário. 
+* **Excluído** indica que a licença do usuário foi removida.<br/><br/>
+  > [!NOTE]
+  > Atividade de um usuário excluído ainda será exibida em um relatório, desde que ele foi licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
      
-*    **Deleted date** is the date on which the user's license was removed. 
-*    **Data da última atividade (UTC)** é a data da última atividade (UTC) desse usuário. 
-*    **Mensagens instantâneas** mostra o número total de conferências de mensagens instantâneas que foram organizadas. 
-*    **Áudio/vídeo** mostra o número total de conferências de áudio/vídeo que foram organizadas.
-*    **Compartilhamento de aplicativos** mostra o número total de conferências de compartilhamento de aplicativos que foram organizadas. 
-*    **Web** mostra o número total de webconferências que foram organizadas. 
-*    **Em/discagem - parte 3º** mostra o número total de dial-in/out conferências de áudio que foram organizado que usam um provedor de serviços de audioconferência de terceiros 3º. 
-*    **Microsoft na** discagem/mostra o número total de conferências de áudio de discagem/saída que eram organizados. 
-*    **Minutos de áudio/vídeo** mostra o número total de minutos usados em conferências organizadas com áudio/vídeo. 
-*    **Minutos de dial-in Microsoft** mostra o número total de minutos de discagem usado em reuniões que foram organizados que utilizam o Microsoft como um provedor de conferência de áudio. 
-*    **Minutos de discagem Microsoft** mostra o número total de minutos de discagem usado em reuniões que foram organizados que usam o Microsoft como o provedor de conferência de áudio. 
+* **Deleted date** is the date on which the user's license was removed. 
+* **Data da última atividade (UTC)** é a data da última atividade (UTC) desse usuário. 
+* **Mensagens instantâneas** mostra o número total de conferências de mensagens instantâneas que foram organizadas. 
+* **Áudio/vídeo** mostra o número total de conferências de áudio/vídeo que foram organizadas.
+* **Compartilhamento de aplicativos** mostra o número total de conferências de compartilhamento de aplicativos que foram organizadas. 
+* **Web** mostra o número total de webconferências que foram organizadas. 
+* **Em/discagem - parte 3º** mostra o número total de dial-in/out conferências de áudio que foram organizado que usam um provedor de serviços de audioconferência de terceiros 3º. 
+* **Microsoft na** discagem/mostra o número total de conferências de áudio de discagem/saída que eram organizados. 
+* **Minutos de áudio/vídeo** mostra o número total de minutos usados em conferências organizadas com áudio/vídeo. 
+* **Minutos de dial-in Microsoft** mostra o número total de minutos de discagem usado em reuniões que foram organizados que utilizam o Microsoft como um provedor de conferência de áudio. 
+* **Minutos de discagem Microsoft** mostra o número total de minutos de discagem usado em reuniões que foram organizados que usam o Microsoft como o provedor de conferência de áudio. 
 
 Se diretivas da sua organização impede que você exibindo relatórios onde as informações do usuário são identificáveis, você poderá alterar a configuração de privacidade para todos esses relatórios. Confira o **como ocultar a detalhes de nível de usuário?** seção nos [Relatórios de atividade no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

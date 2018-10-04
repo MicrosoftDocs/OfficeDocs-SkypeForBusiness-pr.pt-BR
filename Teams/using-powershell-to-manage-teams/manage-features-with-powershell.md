@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Saiba como usar o Windows PowerShell para gerenciar todos os recursos encontrados no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51c3bf4f2f1ad7e2d391617d37051e1b09610a5c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: eccd04023324256e40d9e06315fcd80081ffe565
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015841"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371346"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Usando o PowerShell para gerenciar equipes
 Eu faria isso prever como um tópico de referência que seria configurado de acordo com o recurso. Em seguida, cada conjunto de recursos teria que todos os cmdlets listados na tabela com links para o tópico de Get-Help.
@@ -23,6 +23,7 @@ Eu faria isso prever como um tópico de referência que seria configurado de aco
 # <a name="managing-teams-features-using-powershell"></a>Gerenciando recursos de equipes usando PowerShell
 
 ## <a name="admin-roles"></a>Funções de administrador
+
 |Função |Exemplo |Link de Ajuda do cmdlet  |
 |---------|---------|---------|
 |Administrador global     |         |         |
@@ -33,6 +34,7 @@ Eu faria isso prever como um tópico de referência que seria configurado de aco
 Vincular a doc de sabrina
 
 ## <a name="audio-conferencing"></a>Serviços de audioconferência
+
 |Nome do cmdlet |Descrição |Link de Ajuda do cmdlet  |
 |---------|---------|---------|
 |Nome do cmdlet   |    O que ela faz  |    Link para o cmdlet Get-Help PS     |

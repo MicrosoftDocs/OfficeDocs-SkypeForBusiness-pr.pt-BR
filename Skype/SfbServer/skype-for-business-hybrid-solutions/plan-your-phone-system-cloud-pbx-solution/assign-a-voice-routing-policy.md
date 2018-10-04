@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumo: Leia este tópico para saber como atribuir uma política de voz para os usuários que usam o sistema telefônico no Office 365 com uma conectividade PSTN local.'
-ms.openlocfilehash: 6acc7188cbb76c101890591a822ac03a686a8246
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 12e74a6ea4a0adf652cc4e9477d20f91b4e13732
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886059"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372406"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Atribuir uma Política de Roteamento de Voz
  
@@ -50,15 +50,15 @@ Antes de usar uma política de roteamento de voz global para seu sistema telefô
     
 3. Adicione os registros de uso PSTN à política:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
+   ```
 
     Por exemplo:
     
-  ```
-  Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
-  ```
+   ```
+   Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
+   ```
 
 ## <a name="creating-a-new-voice-routing-policy"></a>Crie uma nova política de roteamento de voz
 
@@ -70,15 +70,15 @@ Antes de usar uma política de roteamento de voz global para seu sistema telefô
     
 3. Crie uma nova política de roteamento de voz:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
+   ```
 
     Por exemplo:
     
-  ```
-  New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
-  ```
+   ```
+   New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
+   ```
 
 Esse exemplo cria uma nova política de roteamento de voz, chamada HybridVoice, com dois usos de PSTN associados a ela.
   
@@ -94,15 +94,15 @@ Para política de roteamento de voz global ou específica do usuário, use as et
     
 3. Atribua uma política de voz existente a um usuário:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
+   ```
 
     Por exemplo:
     
-  ```
-  Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
-  ```
+   ```
+   Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
+   ```
 
 Neste exemplo, o usuário com o nome de exibição Bob Kelly é atribuído à política de voz criada anteriormente com o nome HybridVoice.
   

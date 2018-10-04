@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumo: Saiba como iniciar ou parar uma sessão de captura do log de Centralized Logging Service no Skype para Business Server 2015.'
-ms.openlocfilehash: dee3a9cd1b5feaf241795de6595f755b3f321409
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570154"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373761"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
  
@@ -36,15 +36,15 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
     
 2. Inicie um cenário de log com the Centralized Logging Service digitando o seguinte:
     
-  ```
-  Start-CsClsLogging -Scenario <name of scenario>
-  ```
+   ```
+   Start-CsClsLogging -Scenario <name of scenario>
+   ```
 
     Por exemplo, para iniciar o cenário **AlwaysOn**, digite:
     
-  ```
-  Start-CsClsLogging -Scenario AlwaysOn
-  ```
+   ```
+   Start-CsClsLogging -Scenario AlwaysOn
+   ```
 
     > [!NOTE]
     > O cenário AlwaysOn não tem uma duração padrão. Este cenário será executado até você pará-lo explicitamente com o cmdlet **Stop-CsClsLogging** . Para obter detalhes, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para todos os outros cenários, a duração padrão é 4 horas. 
@@ -58,9 +58,9 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
   
 4. Para iniciar outro cenários, use o cmdlet **Start-CsClsLogging** com o nome do cenário adicional para executar o seguinte (por exemplo, o cenário **autenticação**):
     
-  ```
-  Start-CsClsLogging -Scenario Authentication
-  ```
+   ```
+   Start-CsClsLogging -Scenario Authentication
+   ```
 
     > [!IMPORTANT]
     > É possível ter um total de dois cenários sendo executados em qualquer computador a qualquer momento. Se o comando for de escopo global, todos os computadores em sua implantação executarão o(s) cenário(s). Para iniciar um terceiro cenário, você deve parar o log no escopo de computador, pool, site ou global em que você queira executar o novo cenário. Caso tenho iniciado um escopo global, é possível parar o log em um ou ambos cenários em um ou mais computadores e pools. 
@@ -71,11 +71,11 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
     
 2. Estão disponíveis parâmetros adicionais para gerenciar os comandos de log. Você pode usar - duração para ajustar o período de tempo para o cenário para executar. Você também pode definir - computadores, uma lista de nomes de domínio totalmente qualificado do computador (FQDNs) separados por uma vírgula, ou - lista de FQDNs dos pools que você deseja executar o logon de separado de Pools, uma vírgula.
     
-    Você pode iniciar uma sessão de log para o cenário userreplicator também no pool "pool01". Você também define duração da sessão de log em 8 horas. Para isso, digite:
+    Você inicia uma sessão de log para o cenário UserReplicator no pool "pool01.contoso.net". Você também define duração da sessão de log em 8 horas. Para isso, digite:
     
-  ```
-  Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
-  ```
+   ```
+   Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
+   ```
 
     O execução com sucesso deste cenário devolve um resultado como o seguinte:
     
@@ -111,26 +111,26 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Consulte the Centralized Logging Service para descobrir quais cenários estão atualmente em execução digitando o seguinte:
     
-  ```
-  Show-CsClsLogging
-  ```
+   ```
+   Show-CsClsLogging
+   ```
 
-  ![Console do Windows PowerShell após a chamada a Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Console do Windows PowerShell após a chamada a Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-  O resultado de Show-CsClsLogging é um resumo dos cenários em execução e em qual escopo eles estão em execução. Para obter detalhes, consulte [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
+   O resultado de Show-CsClsLogging é um resumo dos cenários em execução e em qual escopo eles estão em execução. Para obter detalhes, consulte [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps).
     
 3. Para interromper uma sessão de registro em log atualmente em execução com um cenário específico, digite:
     
-  ```
-  Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
-  ```
-  Por exemplo:
+   ```
+   Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
+   ```
+   Por exemplo:
     
-  ```
-  Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
-  ```
+   ```
+   Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
+   ```
 
-  Esse comando interromperá o registro em log com o cenário UserReplicator em pool01.contoso.net.
+   Esse comando interromperá o registro em log com o cenário UserReplicator em pool01.contoso.net.
     
     > [!NOTE]
     > Os logs criados durante a sessão de registro em log usando o cenário UserReplicator não são excluídos. O registro em log ainda está disponível para execução de pesquisas usando o comando Search-CsClsLogging. Para obter detalhes, consulte [Search-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps). 
@@ -139,4 +139,4 @@ Agindo como o comando acompanhante para Start-CsClsLogging, o cmdlet Stop-CsClsL
 ## <a name="see-also"></a>Ver também
 <a name="stop"> </a>
 
-[Serviço de registro em log centralizado no Skype para negócios 2015](centralized-logging-service.md)
+[Serviço centralizado de registro em log no Skype for Business 2015](centralized-logging-service.md)

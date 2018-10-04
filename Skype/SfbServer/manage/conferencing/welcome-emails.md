@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Resumo: Saiba como receba os usuários conferência discada no Skype para Business Server.'
-ms.openlocfilehash: f21d130f84b248b2911d691dbcf80f2563ee60fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90c56fd97d9eb51c96c1a0cb149f732a31a70743
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008677"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373710"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar e-mail de boas vindas discada usuários em Skype para Business Server
  
@@ -38,18 +38,18 @@ Normalmente, você usar o cmdlet **Set-CsClientPin** para redefinir o PIN, mas v
     
 3. Execute o seguinte no prompt de comando:
     
-  ```
-  Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
--From <email address of sender> [-Subject <subject for email message>]
-[-UserEmailAddress <destination email address>]
-[-Cc <email address of recipients who receive copy of email>]
-[-Bcc <email address of recipients who receive blind copies>]
-[-TemplatePath <path for email template>]
-[-SmtpServer] <SMTP server name>]
-[-BodyAsPlainText] [-UseSsl]
-[-Pin <new numeric PIN>] [-Force] `
-[-Credential <SMTP server credentials used to send email with the specified From address>]
-  ```
+   ```
+   Set-CsPinSendCAWelcomeMail -UserUri <user identifier>
+   -From <email address of sender> [-Subject <subject for email message>]
+   [-UserEmailAddress <destination email address>]
+   [-Cc <email address of recipients who receive copy of email>]
+   [-Bcc <email address of recipients who receive blind copies>]
+   [-TemplatePath <path for email template>]
+   [-SmtpServer] <SMTP server name>]
+   [-BodyAsPlainText] [-UseSsl]
+   [-Pin <new numeric PIN>] [-Force] `
+   [-Credential <SMTP server credentials used to send email with the specified From address>]
+   ```
 
 **SmtpServer** Por padrão, o script usa o valor do ambiente reservadas variável **$PSEmailServer** para esse parâmetro. Se a variável **$PSEmailServer** não estiver definida, você deve especificar esse parâmetro.
     

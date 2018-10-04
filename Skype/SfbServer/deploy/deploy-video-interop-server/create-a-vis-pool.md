@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumo: Crie um pool de servidores de interoperabilidade de vídeo no Skype para Business Server usando o construtor de topologias.'
-ms.openlocfilehash: f284163bc52f4e62c3ec5b1c7966f3c663ee09f7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65771e72250ad1d5e9625bdd6cc1a8d47b5dabe2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978813"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373455"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Criar um pool VIS no Skype para Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "20978813"
     
    - Na próxima página, no item **Definir os computadores neste pool**, insira o **FQDN do computador** de cada servidor no pool no campo de texto e clique em **Adicionar**. Repita essa etapa para adicionar outro servidor de interoperabilidade de vídeo para o pool. Quando você tiver definido todos os computadores no pool, aperte **Avançar**.
     
-    Se desejar implantar apenas um servidor de interoperabilidade de vídeo no pool, pois você não requerem alta disponibilidade, em seguida, selecione o **pool com um servidor** e pressione **Avançar**.
+     Se desejar implantar apenas um servidor de interoperabilidade de vídeo no pool, pois você não requerem alta disponibilidade, em seguida, selecione o **pool com um servidor** e pressione **Avançar**.
     
 3. Selecione o próximo pool/FE na lista suspensa e aperte **Avançar**.
     

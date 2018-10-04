@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Após migrar para o Skype para Business Server 2019, você precisa mover o servidor de gerenciamento Central para o Skype para Business Server 2019 servidor Front-End ou pool, antes de poder remover o servidor herdado.
-ms.openlocfilehash: 805b5c506fdda11bdc24144a0622e674e8ef281b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030522"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373440"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Mover o servidor de gerenciamento Central herdado para Skype para Business Server 2019
 
@@ -35,9 +35,9 @@ Use os procedimentos nesta seção para preparar o Skype Business Server 2019 se
     
 3. Para criar o novo repositório de gerenciamento Central no Skype para banco de dados corporativos Server 2019 SQL Server, no Skype do Shell de gerenciamento do servidor de negócios, digite:
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
+   ```
 
 4. Confirme se o status do serviço do **Skype para Business Server front-end** é **iniciado**.
     
@@ -56,9 +56,9 @@ Use os procedimentos nesta seção para preparar o Skype Business Server 2019 se
   
 5. Para criar o novo repositório de gerenciamento Central no Skype para Business Server 2019 Standard Edition servidor Front-End no Skype do Shell de gerenciamento do servidor de negócios, digite: 
     
-  ```
-  Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
-  ```
+   ```
+   Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
+   ```
 
 6. Confirme se o status do serviço do **Skype para Business Server front-end** é **iniciado**.
     
@@ -70,18 +70,18 @@ Use os procedimentos nesta seção para preparar o Skype Business Server 2019 se
     
 3. Em Skype do Shell de gerenciamento do servidor de negócios, digite: 
     
-  ```
-  Enable-CsTopology
-  ```
+   ```
+   Enable-CsTopology
+   ```
 
     > [!CAUTION]
     > Se `Enable-CsTopology` não for bem-sucedida, resolver o problema, impedindo que o comando concluir antes de continuar. Se **Enable-CsTopology** não for bem-sucedida, a movimentação falhará e ele poderá deixar a sua topologia em um estado onde não há nenhum repositório de gerenciamento Central. 
   
 4. Sobre o Skype para pool Business Server 2019 servidor Front-End ou Front-End, no Skype do Shell de gerenciamento do servidor de negócios, digite: 
     
-  ```
-  Move-CsManagementServer
-  ```
+   ```
+   Move-CsManagementServer
+   ```
 
 5. Skype do Shell de gerenciamento do servidor de negócios exibe os pontos de conexão de serviço do estado atual e o estado de proposto, repositórios de arquivos, repositórios de banco de dados e os servidores. Leia as informações cuidadosamente e confirme que este é pretendido de origem e de destino. Digite **Y** para continuar ou **N** para interromper a movimentação. 
     
@@ -99,9 +99,9 @@ Use os procedimentos nesta seção para preparar o Skype Business Server 2019 se
     
 12. Para confirmar que a replicação com o novo repositório está ocorrendo, além de gerenciamento Central do Skype do Shell de gerenciamento do servidor de negócios, digite: 
     
-  ```
-  Get-CsManagementStoreReplicationStatus
-  ```
+    ```
+    Get-CsManagementStoreReplicationStatus
+    ```
 
     > [!NOTE]
     > A replicação pode levar algum tempo para atualizar todas as réplicas atuais. 
@@ -117,15 +117,15 @@ Use os procedimentos nesta seção para preparar o Skype Business Server 2019 se
   
 3. Para remover os arquivos de banco de dados do repositório de gerenciamento Central da herdado instalar servidor de gerenciamento Central, digite:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
+   ```
 
     Por exemplo:
     
-  ```
-  Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
-  ```
+   ```
+   Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
+   ```
 
     Onde o _ \<FQDN do SQL Server\> _ é o legados instalar o servidor Back-End em uma implantação do Enterprise Edition ou o FQDN do servidor do Standard Edition. 
     

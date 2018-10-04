@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de encerrar um pool, você deve executar o procedimento a seguir para cada diretório de conferência no seu pool herdado.
-ms.openlocfilehash: 18cbada5833a5160fc1eb81560c56bc9fcff3e2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028009"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372802"
 ---
 # <a name="move-conference-directories"></a>Mover Diretórios de Conferência
 
@@ -25,35 +25,35 @@ Antes de encerrar um pool, você deve executar o procedimento a seguir para cada
     
 2. Para obter a identidade dos diretórios de conferência em sua organização, execute o seguinte comando:
     
-  ```
-  Get-CsConferenceDirectory
-  ```
+   ```
+   Get-CsConferenceDirectory
+   ```
 
     O comando anterior retorna todos os diretórios de conferência em sua organização. Por isso, talvez você queira limitar os resultados para o pool que está sendo descomissionar. Por exemplo, se você estiver encerrando o pool com o pool01. contoso.NET do domínio totalmente qualificado (FQDN) do nome, use este comando para limitar os dados retornados aos diretórios de conferência desse pool:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
+   ```
 
     Esse comando retorna apenas os diretórios de conferência onde a propriedade ServiceID contém o pool01. contoso.NET FQDN.
     
 3. Para mover diretórios de conferência, execute o seguinte comando para cada diretório de conferência no pool:
     
-  ```
-  Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
+   ```
 
     Por exemplo, para mover diretório de conferência 3, use este comando, especificando um Skype para Business Server 2019 pool como o TargetPool:
     
-  ```
-  Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
+   ```
 
     Se você deseja mover todos os diretórios de conferência em um pool, use um comando semelhante ao seguinte:
     
-  ```
-  Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
-  ```
+   ```
+   Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
+   ```
 
 Baixe o [Microsoft Desinstalando herdado e Removendo funções de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227) para instruções passo a passo abrangentes em encerrar os pools herdados.
   

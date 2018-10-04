@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Quando um usuário clica em um link da reunião em uma solicitação de reunião, a reunião página de ingresso detecta qual cliente já estiver instalado no computador do usuário. Se um cliente já estiver instalado, o que o cliente abre e participa da reunião. Se um cliente não estiver instalado, por padrão, que o aplicativo Web é aberta.
-ms.openlocfilehash: 5e56641ce2e19c3194a92cb60bd7291380bc965a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f7c66b7e7171e9d7f0dc39f30a7e99059e53a0c2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027365"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374059"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configurar a reunião página de participação
 
@@ -34,16 +34,16 @@ Você pode modificar o comportamento de participação da reunião se você quis
     
 2. Execute o seguinte cmdlet: 
     
-  ```
-  Get-CsWebServiceConfiguration
-  ```
+   ```
+   Get-CsWebServiceConfiguration
+   ```
 
     Este cmdlet retorna as definições de configuração de serviço de web.
     
 3. Execute o seguinte comando, com os parâmetros definidos para verdadeiro ou falso, dependendo da sua preferência (para obter detalhes sobre os parâmetros deste cmdlet, consulte a documentação do [Skype do Shell de gerenciamento do servidor de negócios](../../SfbServer/manage/management-shell.md) ):
     
-  ```
-  Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
-  ```
+   ```
+   Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
+   ```
 
 

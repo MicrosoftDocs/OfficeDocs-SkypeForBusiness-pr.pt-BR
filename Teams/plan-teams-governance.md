@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29d362771b970c7c654a5bddcd51f2f6c0be257f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017707"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371854"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança em equipes
 
@@ -29,24 +29,26 @@ As equipes fornece um rico conjunto de ferramentas para implementar qualquer rec
 Sua organização pode exigir que você implemente estrito controles em como equipes devem ser nomeadas e classificadas, se os convidados podem ser adicionados como membros da equipe e quem pode criar equipes. Você pode configurar cada uma dessas áreas usando o Windows Azure Active Directory (AD Azure). 
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Sua organização requer uma convenção de nomenclatura específica para equipes?</li><li>Criadores de equipe preciso a capacidade de atribuir classificações específicas da organização para equipes?</li><li>Você precisa restringir a capacidade de adicionar convidados às equipes em uma base por equipe?</li><li>Sua organização requer limitar quem pode criar equipes?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os requisitos da sua organização para a criação de equipe, de nomeação, classificação e acesso de convidado.</li><li>Você planeja implementar esses requisitos como parte da sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
 
 > [!TIP]
-Use a tabela a seguir para capturar requisitos da sua organização.
-|Recurso |Detalhes |Premium do Azure AD <br> é necessária uma licença |Decisão |
-|---------|---------|---------|---------|
-|Diretiva de nomeação de equipe | Use personalizada, baseada no prefixo-sufixo palavras de bloqueado. |P1 |TBD |
-|Classificação de equipe |Atribua classificações de equipes. |P1 |TBD |
-|Acesso de convidado da equipe |Permitir ou impedir que os convidados sendo adicionado às equipes. |Não |TBD |
-|Criação de equipes |Limite de criação de equipe aos administradores. |Não |TBD|
-|Criação de equipes |Limite de criação de equipe para membros do grupo de segurança. |P1 |TBD|
-
+> Use a tabela a seguir para capturar requisitos da sua organização.
+> 
+> |Recurso |Detalhes |Premium do Azure AD <br> é necessária uma licença |Decisão |
+> |---------|---------|---------|---------|
+> |Diretiva de nomeação de equipe | Use personalizada, baseada no prefixo-sufixo palavras de bloqueado. |P1 |TBD |
+> |Classificação de equipe |Atribua classificações de equipes. |P1 |TBD |
+> |Acesso de convidado da equipe |Permitir ou impedir que os convidados sendo adicionado às equipes. |Não |TBD |
+> |Criação de equipes |Limite de criação de equipe aos administradores. |Não |TBD|
+> |Criação de equipes |Limite de criação de equipe para membros do grupo de segurança. |P1 |TBD|
+> 
 > [!NOTE]
 > Para ajudá-lo a planejar com antecedência, [Saiba mais sobre como definir essas políticas e quais licenças exigem](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
-
+> 
 > [!NOTE]
 > Limitando a criação de grupo e da equipe pode reduzir a produtividade dos usuários, porque muitos serviços do Office 365 exigem que os grupos seja criado para o serviço de função. Para obter informações adicionais, navegue até e expanda [por que controlar quem cria grupos do Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
@@ -72,13 +74,14 @@ A organização poderá ter requisitos adicionais para a configuração de diret
 | ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Requisitos da sua organização para expiração de equipe, retenção de dados e arquivamento de documentos.</li><li>Você planeja implementar esses requisitos como parte de sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
 
 > [!TIP]
-Use a tabela a seguir para capturar requisitos da sua organização.
-|Recurso |Detalhes |Premium do Azure AD <br>é necessária uma licença |Decisão |
-|---------|---------|---------|---------|
-|Política de expiração |Gerencie o ciclo de vida dos grupos do Office 365, definindo uma política de expiração. |P1 |TBD|
-|Política de retenção |Reter ou excluir dados (mensagens de canal de equipes e arquivos de canal) por um período de tempo específico, definindo políticas de retenção para equipes na Central de segurança e conformidade. **Observação**: usar esse recurso exige licenciamento do Office 365 Enterprise E3 ou acima. |Não |TBD |
-|Arquivamento e restauração |Arquive uma equipe quando ele não está mais ativo, mas deseja mantê-la para referência ou reativá-lo no futuro. |Não |TBD |
-
+> Use a tabela a seguir para capturar requisitos da sua organização.
+> 
+> |Recurso |Detalhes |Premium do Azure AD <br>é necessária uma licença |Decisão |
+> |---------|---------|---------|---------|
+> |Política de expiração |Gerencie o ciclo de vida dos grupos do Office 365, definindo uma política de expiração. |P1 |TBD|
+> |Política de retenção |Reter ou excluir dados (mensagens de canal de equipes e arquivos de canal) por um período de tempo específico, definindo políticas de retenção para equipes na Central de segurança e conformidade. **Observação**: usar esse recurso exige licenciamento do Office 365 Enterprise E3 ou acima. |Não |TBD |
+> |Arquivamento e restauração |Arquive uma equipe quando ele não está mais ativo, mas deseja mantê-la para referência ou reativá-lo no futuro. |Não |TBD |
+> 
 > [!Note]
 > Expiração de grupo é um recurso do Windows Azure AD Premium. Para que este recurso esteja disponível, seu inquilino deve ter uma assinatura para o Windows Azure AD Premium e licenças para o administrador que configura as configurações e os membros dos grupos afetados.
 

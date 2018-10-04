@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f15ca933c2eaeda60308f1dd7f2cbbf996b89c42
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a751834c978c205316c1fd383f571d67d349f0b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014961"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371721"
 ---
 # <a name="prepare-my-users"></a>Preparar os meus usuários
 
@@ -46,8 +46,8 @@ A imagem a seguir está um exemplo de uma instrução vision-valor para um clien
 Tabela de ![duas colunas com Vision - por que estamos fazendo isso? (nível de organização) à esquerda, e o valor - o que é por mim? (nível de usuário) no lado direito](media/prepare-my-users-new-image1.png "duas colunas de tabela com visão - por que estamos fazendo isso? (nível de organização) à esquerda, e o valor - o que é por mim? (nível de usuário) no lado direito")
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Você articular os benefícios e o valor para os usuários de uma forma que ganhos seu apoio da direção para essa nova solução?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Crie suas instruções visão e o valor para o escopo do projeto atual, garantindo que eles se alinham com seus objetivos.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Você articular os benefícios e o valor para os usuários de uma forma que ganhos seu apoio da direção para essa nova solução?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Crie suas instruções visão e o valor para o escopo do projeto atual, garantindo que eles se alinham com seus objetivos.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -57,8 +57,8 @@ Tabela de ![duas colunas com Vision - por que estamos fazendo isso? (nível de o
 Prontidão organizacional ajuda a determinar como receptivos (ou não) os usuários podem ter e alterando a maneira como eles funcionam. Saber como os usuários podem reagir para alterar capacita a sua organização proativamente preocupações, ajustar seu plano de distribuição para recepção ideal e identificar os usuários que podem se tornar seu campeões ou ambassadors para ajudar a facilitar a alteração.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>São usuários e preparada alterar para a nova solução?</li><li>Os usuários têm a capacidade ou competência para facilitar a alteração?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Use a seguir para iniciar a conversação para entender a cultura da sua organização, quando se trata de alterar. Essas informações podem ajudar a informar quanto conscientização e treinamento você talvez precisem implementar para seu projeto.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>São usuários e preparada alterar para a nova solução?</li><li>Os usuários têm a capacidade ou competência para facilitar a alteração?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Use a seguir para iniciar a conversação para entender a cultura da sua organização, quando se trata de alterar. Essas informações podem ajudar a informar quanto conscientização e treinamento você talvez precisem implementar para seu projeto.
 </li></ul></td></tr>
 </table>
 
@@ -96,8 +96,8 @@ Prontidão organizacional ajuda a determinar como receptivos (ou não) os usuár
 Análise de nível de pessoas, oferece compreensão da sua personagens do usuário, os colaboradores e os casos de uso. Tempo empregado no entender quem são os usuários e como eles funcionam, você pode garantir que eles têm o que precisam ser bem-sucedida à medida que implementa a alteração. Isso pode incluir mensagens direcionado, treinamento ou até mesmo dispositivos como headsets e webcams. Por exemplo, um executivo era esperado treinamento individuais, enquanto os representantes de campo em viagem pode se beneficiar um vídeo, que eles podem assistir em seu tempo livre de treinamento. Além disso, sua análise de nível de pessoas pode ajudar a identificar quem deve começar a usar a nova funcionalidade hoje versus que podem ser mais bem atendidas em espera.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Determinados usuários ou colaboradores têm uma dependência de núcleo nessa solução para executar suas funções efetivamente?</li><li>Existem casos de uso específicos que podem ser facilitados usando essa nova solução?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Mapear personagens do usuário. Em primeiro lugar, Segmente sua base de usuários em grupos de pessoa/cohort (executivos, viajantes, trabalhadores de colaboração, varejo e assim por diante). Para o gerenciamento, liste os grupos de mais do que oito. (Para iniciadores de conversa de amostra, consulte abaixo). Use suas descobertas ainda mais projetar suas campanhas de preparação do usuário e para segmentar aqueles que podem se beneficiar atualizando posteriormente os usuários piloto.
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Determinados usuários ou colaboradores têm uma dependência de núcleo nessa solução para executar suas funções efetivamente?</li><li>Existem casos de uso específicos que podem ser facilitados usando essa nova solução?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Mapear personagens do usuário. Em primeiro lugar, Segmente sua base de usuários em grupos de pessoa/cohort (executivos, viajantes, trabalhadores de colaboração, varejo e assim por diante). Para o gerenciamento, liste os grupos de mais do que oito. (Para iniciadores de conversa de amostra, consulte abaixo). Use suas descobertas ainda mais projetar suas campanhas de preparação do usuário e para segmentar aqueles que podem se beneficiar atualizando posteriormente os usuários piloto.
 </li><li>Mapa de casos de uso. Depois que você identificou os grupos de usuários principal que serão beneficiados com esta nova tecnologia, considere a possibilidade de sua população de usuários comuns. Noções básicas sobre os casos de uso de várias equipes e cenários, você pode visualizar a sua organização como trabalhar com essa nova tecnologia. Além disso, adicionando exemplos de caso de uso para a comunicação e os planos de treinamento realmente ajudam torná-los relevantes para seus usuários.</li></ul></td></tr>
 </table>
 
@@ -143,13 +143,13 @@ Para obter exemplos de casos de uso, visite a [Biblioteca de produtividade FastT
 Depois que você entende quem são os usuários e como eles serão funcionam na nova solução, você pode projetar seu plano de preparação. Seu plano de preparação do usuário incorpora como você vai se comunicar, treinar e suporte a seus usuários como você piloto, integrado e operar a nova solução. À medida que você descobertas nas etapas anteriores neste artigo, não é única preparação. Comece com um amplo número-alcance divulgação e plano de treinamento, incorporando o valor de mensagens são definidas no início deste processo. Em seguida, ajustar suas mensagens, treinamento e suporte ao personagens ou colaboradores que você definiu, conforme apropriado. Seu plano personalizado permitirá mais rapidamente se relacionam com a nova solução durante a demonstração que você entende suas necessidades, que ajudarão a facilitar a transição de seu usuários.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Plano de preparação que você pode oferecer para ajudar a facilitar e agilizar a adoção da nova solução?</li><li>Você tem o direita divulgação, treinamento e recursos de suporte que se alinham com a capacidade dos usuários para lidar com a alteração e as personagens de usuário que você definiu?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Use a lista na seção a seguir para gerar ideias para o seu plano de preparação. Selecione os mais relevantes&mdash;ou adicione seus próprios&mdash;projetar um plano de preparação otimizado para sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Plano de preparação que você pode oferecer para ajudar a facilitar e agilizar a adoção da nova solução?</li><li>Você tem o direita divulgação, treinamento e recursos de suporte que se alinham com a capacidade dos usuários para lidar com a alteração e as personagens de usuário que você definiu?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Use a lista na seção a seguir para gerar ideias para o seu plano de preparação. Selecione os mais relevantes&mdash;ou adicione seus próprios&mdash;projetar um plano de preparação otimizado para sua organização.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>Ideias do plano de preparação
 
 <table>
 <tr><th>Comunicação</th><th>Treinamento</th><th>Suporte</th></tr>
-<tr><td><ul><li>Email&mdash;personalizam nosso [modelos de email de voz](prepare-my-users-email-templates.md)</li><li>Cartazes e digitais pôsteres </li><li>Eventos de início</li><li>Gerentes de departamento</li><li>Defensores</li><li>Equipes e canais</li><li>Gamification</li></ul></td><td><ul><li>Artigos e vídeos da Microsoft:<ul><li>[Alternar para equipes do Skype para negócios](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)</li><li>[Treinamento em vídeo equipes](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</li><li>[Reuniões e chamadas](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)</li></li></ul><li>Assistência interna (T-Bot)</li><li>Equipe de treinamento interno</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Terceirizado para o suporte técnico</li><li>Auto-ajuda (site da intranet)</li><li>[Ajuda online e instruções](https://support.office.com/teams)</li><li>Floor-walkers e campeões</li><li>Loop de comentários&mdash;ver as [pesquisas de comentários do usuário de amostra](prepare-my-users-feedback-templates.md)</li></td></tr>
+<tr><td><ul><li>Email&mdash;personalizam nosso <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">modelos de email de voz</a></li><li>Cartazes e digitais pôsteres </li><li>Eventos de início</li><li>Gerentes de departamento</li><li>Defensores</li><li>Equipes e canais</li><li>Gamification</li></ul></td><td><ul><li>Artigos e vídeos da Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Alternar para equipes do Skype para negócios</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Treinamento em vídeo equipes</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Reuniões e chamadas</a></li></li></ul><li>Assistência interna (T-Bot)</li><li>Equipe de treinamento interno</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Terceirizado para o suporte técnico</li><li>Auto-ajuda (site da intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Ajuda online e instruções</a></li><li>Floor-walkers e campeões</li><li>Loop de comentários&mdash;ver as <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">pesquisas de comentários do usuário de amostra</a></li></td></tr>
 </table>

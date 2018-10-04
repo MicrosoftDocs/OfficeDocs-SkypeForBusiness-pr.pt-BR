@@ -9,12 +9,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
-description: 'Resumo: Como usar a ferramenta Calculadora de capacidade.'
-ms.openlocfilehash: 5d94dab15b104703efc76b227e6e9dd1286f9955
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: como usar a Ferramenta Calculadora de Capacidade.'
+ms.openlocfilehash: 6ce37865035b22a91841e98c1f3a75d6da0cb8d2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374907"
 ---
 # <a name="skype-for-business-server-2015-capacity-planning-calculator"></a>Calculadora de planejamento de capacidade do Skype for Business Server 2015
  
@@ -40,7 +41,7 @@ O modelo de uso contém as seguintes seções. Para calcular as exigências de s
     
 - **Número médio de contatos na lista Contatos** indica o número de contatos que nós estamos usando para validar as exigências de seu sistema. Esse número não muda.
     
- **Enterprise Voice**
+  **Enterprise Voice**
   
 - Em **Usuários permitidos para o Enterprise Voice**, digite a porcentagem de seus usuários que têm permissão para o Enterprise Voice. O padrão é 60%. 
     
@@ -52,7 +53,7 @@ O modelo de uso contém as seguintes seções. Para calcular as exigências de s
     
 - Em **Porcentagem de usuários de voz envolvidos nas chamadas UC-UC**, mostra a porcentagem de usuários que são ativados para o Enterprise Voice e que serão ativados apenas para as chamadas UC-UC. Esse número é calculado com base no que você digita para a **Porcentagem de usuários de voz ativados para as chamadas UC-PSTN**. 
     
- **Conferências**
+  **Conferências**
   
 - Em **Porcentagem de usuários em conferências simultâneas**, digite a porcentagem de usuários que participarão simultaneamente em conferências. O padrão é 5%. 
     
@@ -70,7 +71,7 @@ O modelo de uso contém as seguintes seções. Para calcular as exigências de s
     
   - Se 20% de suas conferências de voz incluírem uploads de dados, como as apresentações do PowerPoint, marque a caixa de seleção **Incluir conferência da Web**.
     
- **Mobilidade**
+  **Mobilidade**
   
 - Em **porcentagem de usuários ativados para mobilidade**, digite a porcentagem dos usuários que será habilitado para conectar Skype para Business Server usando dispositivos móveis. O padrão é 40%. 
     

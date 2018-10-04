@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar as propriedades de um banco de dados do SQL Server, você deve alterar a instância de banco de dados do SQL Server. Você não pode usar a caixa de diálogo Editar propriedades para executar tarefas como mover o banco de dados do servidor de arquivamento de um computador para outro. Além disso, você não pode usar a caixa de diálogo Editar propriedades para alterar a instância do SQL Server que hospeda o repositório de gerenciamento Central.
-ms.openlocfilehash: aaab5adde793a585d632c3e246f0023c92f244b0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 3079f29a82f26dac42badcb8efb2945710b1f97d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066504"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373920"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de configurações de repositório SQL
  
@@ -33,9 +33,9 @@ Para alterar a instância do SQL Server que é usado por qualquer banco de dados
     
 2. Na caixa de diálogo **Editar propriedades** , siga um destes procedimentos:
     
-  - Para usar a instância do SQL Server padrão, selecione a **Instância padrão** e clique em **Okey**.
+   - Para usar a instância do SQL Server padrão, selecione a **Instância padrão** e clique em **Okey**.
     
-  - Para usar uma instância nomeada do banco de dados, selecione a **Instância nomeada**, insira o nome da instância na caixa de texto e, em seguida, clique em **Okey**. Você deve inserir apenas o nome da instância (por exemplo, ArchivingInstance) e não o caminho inteiro do SQL Server.
+   - Para usar uma instância nomeada do banco de dados, selecione a **Instância nomeada**, insira o nome da instância na caixa de texto e, em seguida, clique em **Okey**. Você deve inserir apenas o nome da instância (por exemplo, ArchivingInstance) e não o caminho inteiro do SQL Server.
     
 Quando você estiver trabalhando na caixa de diálogo **Editar propriedades** , construtor de topologia não verificará se a instância do banco de dados que você digitou é uma instância válida. Por exemplo, se você inadvertidamente typeArchivingInstanec como o nome da instância e, em seguida, clique em **Okey**, construtor de topologia aceitará essa instância inválida. Antes de publicar essa topologia, você deve corrigir este erro: se não for encontrada uma instância do SQL Server, construtor de topologia não criará essa instância para você.
   

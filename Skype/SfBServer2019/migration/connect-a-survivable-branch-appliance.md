@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Cada aparelho de filial persistente (SBA) é associado um pool de Front-End que serve como um registrador de backup para o SBA. Quando o pool é migrado para o Skype para Business Server 2019, o SBA Front-End deve ser removido de pool Front-End, enquanto o pool é atualizado, depois que o pool foi migrado para o Skype para Business Server 2019, o SBA pode ser novamente associado a F Front atualizados pool de término. Isso envolve excluindo o SBA da topologia de legado no construtor de topologia e depois adicionar o SBA para o Skype para Business Server 2019 topologia. Usuários hospedados no SBA primeiro deve ser movido para outro pool de Front-End antes de remover o SBA da topologia de legado. Após o SBA é adicionado ao Skype para Business Server 2019 topologia, esses usuários, em seguida, podem ser movidos volta ao SBA. Essas etapas estão resumidas abaixo:'
-ms.openlocfilehash: 6de2b8c228ef9e65f57b70451ac33350a2d8a456
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff35032d9abc5c1435e44dea7aca83d841b404c6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030578"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373746"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 
@@ -58,8 +58,8 @@ Cada aparelho de filial persistente (SBA) é associado um pool de Front-End que 
     3. Clique em **aparelho de filial persistente**.
     
 9. Siga as instruções no assistente que é aberta. Para obter informações sobre os itens do assistente, consulte    
-<!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
- <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
+   <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
+   <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
     > Um aparelho de filial persistente só pode ser associado um repositório de monitoramento. 

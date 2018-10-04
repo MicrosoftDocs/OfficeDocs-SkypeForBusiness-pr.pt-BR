@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumo: Leia este tópico para saber como configurar a conferência discada no Skype para Business Server.'
-ms.openlocfilehash: a0ac408fbdf221d565f17c2d714d7aa1765d5097
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982003"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372399"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar a conferência discada no Skype para Business Server
  
@@ -137,7 +137,7 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2.  Abra o Skype para painel de controle do servidor de negócios.
+2. Abra o Skype para painel de controle do servidor de negócios.
     
 3. Na barra de navegação à esquerda, clique em **Conferência** e, então, em  **Número de acesso de discagem**.
     
@@ -147,8 +147,8 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
     
    - Clique em um dos números de acesso de discagem na lista, clique em **Editar**, e clique em **Mostrar detalhes**.
     
-    > [!NOTE]
-    > Usar o campo de busca para buscar pelos conteúdos de uma coluna na lista de números de acesso de discagem pode não apresentar os resultados esperados. Em vez disso, classifique a lista pela coluna de interesse para identificar o número de acesso de discagem a ser visualizado ou modificado. 
+     > [!NOTE]
+     > Usar o campo de busca para buscar pelos conteúdos de uma coluna na lista de números de acesso de discagem pode não apresentar os resultados esperados. Em vez disso, classifique a lista pela coluna de interesse para identificar o número de acesso de discagem a ser visualizado ou modificado. 
   
 5. Em **Número de exibição**, digite o número de telefone que os usuários de telefone da rede telefônica pública comutada (PSTN) digitam para participar de uma conferência. Esse número é exibido em convites de reunião e na página da Web de Configurações de Conferência Discada.
     
@@ -163,8 +163,8 @@ Antes de criar números de acesso discado, primeiro você precisa planejar as re
     
    - Na caixa de texto, digite um único URI do SIP para o número de acesso de conferência discada. O URI do SIP é exibido em vários locais, incluindo, mas não limitado para chamar as mensagens de notificação e versões anteriores dos clientes do Lync.
     
-    > [!NOTE]
-    > O mesmo URI do SIP não pode ser reusado por outro número de acesso de conferência discada. O URI do SIP não pode ser modificado depois de o número de acesso ter sido criado. A única maneira de altera o URI do SIP é excluir e recriar o número de acesso. 
+     > [!NOTE]
+     > O mesmo URI do SIP não pode ser reusado por outro número de acesso de conferência discada. O URI do SIP não pode ser modificado depois de o número de acesso ter sido criado. A única maneira de altera o URI do SIP é excluir e recriar o número de acesso. 
   
    - Na caixa de listagem suspensa, clique no domínio do aplicativo Atendedor de conferência que ofereça suporte a esse número de acesso de discagem.
     

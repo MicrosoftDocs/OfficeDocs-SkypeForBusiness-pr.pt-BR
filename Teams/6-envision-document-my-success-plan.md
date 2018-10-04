@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cea763c3287106f2a6c98472dea0ef43ea7e28
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013791"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374206"
 ---
 # <a name="document-my-success-plan"></a>Documente o meu planejamento de sucesso
 
@@ -46,10 +46,10 @@ Modelos de implantação possíveis incluem o seguinte:
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida o modelo de execução de implantação de equipes que se aplica à sua organização.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Documente o modelo de execução de implantação de equipes que você escolheu e inclua justificativas técnicas e negócios.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida o modelo de execução de implantação de equipes que se aplica à sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente o modelo de execução de implantação de equipes que você escolheu e inclua justificativas técnicas e negócios.</li></ul></td></tr></table>
 
-##<a name="raci-modeling"></a>Modelagem de RACI
+## <a name="raci-modeling"></a>Modelagem de RACI
 
 Para garantir que você acaba de criar clareza para quem é responsável pelo quê em seu projeto, use uma matriz de atribuição de responsabilidade (também conhecido como um RACI — responsável, responsável, consultado e informados — matriz). A pessoa ou grupo que é responsável e responsáveis por cada tarefa, juntamente com os participantes para ser consultada no processo de tomada de decisão e participantes para ficar informado sobre de cada decisão e a ação durante a execução de projeto de lista.
 
@@ -70,8 +70,8 @@ O exemplo a seguir é um exemplo de uma matriz de RACI para uma implementação 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida as atividades/funções relevantes para o projeto de implementação de voz de nuvem.</li><li>Decida o equipes ou a pessoa a ser atribuído a matriz de atribuição de responsabilidade (matriz RACI) do projeto de implementação de voz de nuvem.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>A matriz RACI do documento.</li></ul></td></tr></table>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida as atividades/funções relevantes para o projeto de implementação de voz de nuvem.</li><li>Decida o equipes ou a pessoa a ser atribuído a matriz de atribuição de responsabilidade (matriz RACI) do projeto de implementação de voz de nuvem.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>A matriz RACI do documento.</li></ul></td></tr></table>
 
 ## <a name="quarterly-execution-plan"></a>Plano de execução trimestral
 
@@ -95,8 +95,8 @@ O exemplo a seguir é um exemplo de um plano de execução trimestral para a fas
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida o plano de execução trimestral para alcançar os resultados principais agregados (OKRs).</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Documente o plano de execução trimestral.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida o plano de execução trimestral para alcançar os resultados principais agregados (OKRs).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente o plano de execução trimestral.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -117,9 +117,9 @@ O exemplo a seguir é um exemplo de um plano de governança e de comunicação q
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida de comunicação e um plano de governança, incluindo a frequência de métodos de (diariamente, semanalmente, mensalmente ou trimestral), de atualizações de status regular para conduzir reuniões de atualização de status e o proprietário de cada reunião.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida de comunicação e um plano de governança, incluindo a frequência de métodos de (diariamente, semanalmente, mensalmente ou trimestral), de atualizações de status regular para conduzir reuniões de atualização de status e o proprietário de cada reunião.</li></ul></td></tr>
 
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Documente o plano de governança e de comunicação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente o plano de governança e de comunicação.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -178,8 +178,8 @@ Você precisa inserir isso e incluir o plano operacional como parte do plano de 
 
 <table>
 
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida como você irá Documente o seu planejamento de sucesso inteira proporciona sua nuvem cargas de trabalho de voz.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Confirme se todos os componentes do seu plano de sucesso foram documentados.</li><li>Agregar componentes individuais do seu plano de sucesso em um único documento resumo (opcional).</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida como você irá Documente o seu planejamento de sucesso inteira proporciona sua nuvem cargas de trabalho de voz.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Confirme se todos os componentes do seu plano de sucesso foram documentados.</li><li>Agregar componentes individuais do seu plano de sucesso em um único documento resumo (opcional).</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

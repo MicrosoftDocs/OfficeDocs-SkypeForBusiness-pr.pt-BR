@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: ec6647c5d95701ea18a6d403132d50ae8e8ad8dc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890639"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375496"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -148,33 +148,33 @@ Usando-se a Localização geográfica com base em gerenciamento de tráfego, os 
     
     Amsterdã
     
-  - Tipo A;
+   - Tipo A;
     
-  - Nome : hybridvoice na zona DNS de adatum.biz
+   - Nome : hybridvoice na zona DNS de adatum.biz
     
-  - Destino: 192.168.1.45
+   - Destino: 192.168.1.45
     
-    Crie registros adicionais para servidores de mediação adicionais
+     Crie registros adicionais para servidores de mediação adicionais
     
-  - 192.168.1.46
+   - 192.168.1.46
     
-  - 192.168.1.47
+   - 192.168.1.47
     
-  - 192.168.1.48
+   - 192.168.1.48
     
-    Seattle
+     Seattle
     
-  - Tipo A
+   - Tipo A
     
-  - Nome : hybridvoice na zona DNS de adatum.biz
+   - Nome : hybridvoice na zona DNS de adatum.biz
     
-  - Destino: 10.10.1.8
+   - Destino: 10.10.1.8
     
-    Crie registros adicionais para servidores de mediação adicionais
+     Crie registros adicionais para servidores de mediação adicionais
     
-  - 10.10.1.9
+   - 10.10.1.9
     
-  - 10.10.1.10
+   - 10.10.1.10
     
 4. Crie a política DNS que conecta as sub-redes do cliente aos escopos de zona apropriados para garantir a resolução de DNS desejada.
     

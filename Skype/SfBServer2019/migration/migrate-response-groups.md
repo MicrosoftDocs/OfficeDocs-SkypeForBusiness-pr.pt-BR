@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois que os usuários são movidos para Skype para Business Server 2019 pools, você pode migrar seus grupos de resposta. Migrando de resposta grupos inclui copiando os grupos de operadores, filas, fluxos de trabalho, arquivos de áudio e mover objetos de contato do grupo de resposta da implantação herdada para o Skype para Business Server 2019 pool. Após migrar seus grupos de resposta de legado, as chamadas para os grupos de resposta são manipuladas pelo aplicativo grupo de resposta no Skype para Business Server 2019 pool. Chamadas para grupos de resposta não são processadas pelo pool herdado.
-ms.openlocfilehash: bdff9b96b73e925fb68b4a2f9bebb9b23edb4b56
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 89149210e8041fbc84834cec83e1c1fe13d0765c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028016"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372934"
 ---
 # <a name="migrate-response-groups"></a>Migrar grupos de resposta
 
@@ -56,15 +56,15 @@ O procedimento a seguir para migrar configurações de grupo de resposta pressup
     
 3. Execute:
     
-  ```
-  Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
-  ```
+   ```
+   Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
+   ```
 
     Por exemplo:
     
-  ```
-  Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
-  ```
+   ```
+   Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
+   ```
 
 4. Após migrar grupos de resposta e operadores para o Skype para Business Server 2019 pool, a URL que os agentes usam para entrar e sair é um Skype para Business Server 2019 URL e está disponível no menu **Ferramentas** . Lembre agentes para atualizar todas as referências, como indicadores, para a nova URL. 
     
@@ -90,31 +90,31 @@ O procedimento a seguir para migrar configurações de grupo de resposta pressup
     
     Para obter detalhes sobre os seguintes cmdlets, execute:
     
-  ```
-  Get-Help <cmdlet name> -Detailed
-  ```
+   ```
+   Get-Help <cmdlet name> -Detailed
+   ```
 
 3. Execute:
     
-  ```
-  Get-CsRgsAgentGroup
-  ```
+   ```
+   Get-CsRgsAgentGroup
+   ```
 
 4. Verifique se todos os grupos de agente no seu ambiente herdado estão incluídos na lista.
     
 5. Execute:
     
-  ```
-  Get-CsRgsQueue
-  ```
+   ```
+   Get-CsRgsQueue
+   ```
 
 6. Verifique se todas as filas em seu ambiente herdado estão incluídas na lista.
     
 7. Execute:
     
-  ```
-  Get-CsRgsWorkflow
-  ```
+   ```
+   Get-CsRgsWorkflow
+   ```
 
 8. Verifique se todos os fluxos de trabalho no seu ambiente herdado estão incluídos na lista.
     

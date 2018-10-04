@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumo: Leia este tópico para saber mais sobre os recursos de conferência e capacidades no Skype para Business Server.'
-ms.openlocfilehash: b9c28c2a4f4f45bb9b79413269ebecd5a7f83464
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d1ac78876df97d2420c0951c9c2e1a9a41e451ce
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002868"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375794"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planejamento de conferência no Skype para Business Server
  
@@ -72,7 +72,7 @@ A conferência de áudio e vídeo permite sons e imagem na reunião. O áudio pe
     
 - **Adicionando um usuário discando a eles.** Os apresentadores e participantes que tiverem permissão, pode adicionar números PSTN às conferências e ter a conferência discar para esses números.
     
- Skype para Business Server oferece vários recursos que os usuários podem usar para configurar a conferência de vídeo experiência do usuário, incluindo o seguinte:
+  Skype para Business Server oferece vários recursos que os usuários podem usar para configurar a conferência de vídeo experiência do usuário, incluindo o seguinte:
   
 - **Modo de exibição de galeria.** Em conferências de vídeo que tenham mais de duas pessoas, os usuários automaticamente veem todos na conferência. Se a conferência tiver mais de cinco participantes, o vídeo dos participantes mais ativos serão exibidos na linha superior e apenas a foto dos outros participantes será exibida. O vídeo de vários participantes está ativado como padrão.
     

@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 'Edite as propriedades do serviço de Mediação definindo as seguintes propriedades:'
-ms.openlocfilehash: d8529a97459de70270fbe709d06c92e5a1b37af3
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8dbe17e8c6fb0a8d4cffd9328d28ea1aa9b5074a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371421"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de Configurações do Serviço de Mediação para o Lync Server 2010
  
@@ -35,10 +36,10 @@ Edite as propriedades do serviço de Mediação definindo as seguintes proprieda
     
 - Selecione um Tronco, Gateway e Site e clique em **Tornar Padrão** para definir a seleção como padrão para esse serviço de Mediação. Selecione o padrão atual e clique em **Desfazer Padrão** para remover a seleção como o padrão atual. Em seguida, selecione um novo o padrão e clique em **Tornar Padrão**.
     
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** Aceita e confirma as alterações na caixa de diálogo.
   
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
   
- **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** Exibe essa tela de ajuda.
   
 

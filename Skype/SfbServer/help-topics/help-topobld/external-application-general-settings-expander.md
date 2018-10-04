@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Para editar as propriedades de um servidor de aplicativos confiáveis que já foi definido, siga estas instruções.
-ms.openlocfilehash: 4509b0c106c62391b9696acb94aec37861f8efe0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11851554f9bcea39b2ae832aa69dd626989ccf8c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998817"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371406"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de configurações gerais de aplicativo externo
  
@@ -26,7 +26,7 @@ Para editar as propriedades de um servidor de aplicativos confiáveis que já fo
 Há duas seções que você pode modificar:
   
 > Configurações gerais
-    
+> 
 > Configurações de próximo salto
     
 ## <a name="general-settings"></a>Configurações gerais

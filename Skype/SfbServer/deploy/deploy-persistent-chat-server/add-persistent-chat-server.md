@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Resumo: Leia este tópico para saber como adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015.'
-ms.openlocfilehash: 9d6845b7239056ec18be780060ba6ef96756f743
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ff2486db39546e88c4a75e27875a84a2c3b939ae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973007"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371979"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015
  
@@ -71,8 +71,8 @@ Para implantar vários pools de servidor de Chat persistente, repita o processo 
     
    - Selecione **Instância padrão** para usar a instância padrão ou **Instância nomeada** para especificar uma instância diferente e especifique a instância que deseja usar.
     
-    > [!NOTE]
-    > Para obter detalhes sobre como configurar o backup bancos de dados do SQL Server para recuperação de desastres, consulte [Configure alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > [!NOTE]
+     > Para obter detalhes sobre como configurar o backup bancos de dados do SQL Server para recuperação de desastres, consulte [Configure alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 9. Defina o SQL Server store de conformidade, se você habilitou a conformidade.
     
@@ -87,8 +87,8 @@ Para implantar vários pools de servidor de Chat persistente, repita o processo 
     
     - Em **Compartilhamento de arquivos**, especifique o repositório de arquivos que deseja usar.
     
-     > [!IMPORTANT]
-     > Você pode definir o repositório de arquivos no construtor de topologia antes de você criar o repositório de arquivos, mas você deve criar o repositório de arquivos no local definido definido por você antes de publicar a topologia. Se o repositório de arquivos não existir, as tentativas de publicar a topologia irão falhar. 
+      > [!IMPORTANT]
+      > Você pode definir o repositório de arquivos no construtor de topologia antes de você criar o repositório de arquivos, mas você deve criar o repositório de arquivos no local definido definido por você antes de publicar a topologia. Se o repositório de arquivos não existir, as tentativas de publicar a topologia irão falhar. 
   
 11. Selecione o pool de servidor Front-End a ser usado como próximo salto para este pool de servidor de Chat persistente. Este é o pool de servidor Front-End que serão capaz de rotear as solicitações de servidor de Chat persistente para esse pool.
     

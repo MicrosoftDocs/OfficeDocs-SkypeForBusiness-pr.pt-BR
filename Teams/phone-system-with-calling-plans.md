@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: e4c86bb7d918a30b0abe185d67b717904702bc93
-ms.sourcegitcommit: 88d64d333513921d9103c759e2ab8b1668432727
+ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2018
-ms.locfileid: "25352294"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371369"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 =========================================================================
@@ -63,12 +63,13 @@ Os casos de uso comercial servem para documentar os resultados comerciais espera
 
 > [!TIP]
 > Segue um exemplo de caso de uso comercial concluído:
->|         |
->|---------|
->|**Descrição do processo comercial atual**<p>A configuração padrão dos espaços de trabalho do escritório da Contoso inclui um telefone em cada mesa. Cada funcionário receberá um número de telefone DID (discagem interna direta). Os telefones de mesa são conectados a um sistema de PBX e à PSTN via tronco SIP. Os funcionários podem fazer e receber chamadas telefônicas somente nos telefones de mesa atribuídos a eles.|
->|**Desafios com os processos comerciais existentes**<p>A análise de uso dos telefones de mesa mostra que apenas 10% deles são usados ativamente. O resto é configurado para encaminhar chamadas para celulares ou para tocar simultaneamente nos celulares. A manutenção do sistema de PBX existente e dos telefones de mesa associados representa 20% do custo mensal do serviço de telefonia.|
->|**Como a tecnologia pode superar esses desafios**<p>O Sistema de Telefonia com Planos de Chamadas permitirá que os computadores dos usuários finais recebam e façam chamadas telefônicas pela rede de dados, aproveitando o aplicativo nativo do Microsoft Teams, eliminando a necessidade de distribuir e manter telefones de mesa, e cria a oportunidade de desativar o sistema de PBX existente, pois o serviço telefônico pode ser entregue pela nuvem, na rede, sem depender do sistema telefônico tradicional.|
->|**Resultados comerciais esperados e mensuráveis**<p>A remoção de requisitos para manter e desativar os telefones de mesa e PBX herdados existentes gera uma redução de 20% nas despesas mensais com serviços telefônicos. O Sistema de Telefonia com Planos de Chamadas simplificará os espaços de trabalho, permitindo que a Contoso expanda suas operações com o estabelecimento de novos escritórios com custos iniciais de telefonia mínimos.|
+> 
+> |         |
+> |---------|
+> |**Descrição do processo comercial atual**<p>A configuração padrão dos espaços de trabalho do escritório da Contoso inclui um telefone em cada mesa. Cada funcionário receberá um número de telefone DID (discagem interna direta). Os telefones de mesa são conectados a um sistema de PBX e à PSTN via tronco SIP. Os funcionários podem fazer e receber chamadas telefônicas somente nos telefones de mesa atribuídos a eles.|
+> |**Desafios com os processos comerciais existentes**<p>A análise de uso dos telefones de mesa mostra que apenas 10% deles são usados ativamente. O resto é configurado para encaminhar chamadas para celulares ou para tocar simultaneamente nos celulares. A manutenção do sistema de PBX existente e dos telefones de mesa associados representa 20% do custo mensal do serviço de telefonia.|
+> |**Como a tecnologia pode superar esses desafios**<p>O Sistema de Telefonia com Planos de Chamadas permitirá que os computadores dos usuários finais recebam e façam chamadas telefônicas pela rede de dados, aproveitando o aplicativo nativo do Microsoft Teams, eliminando a necessidade de distribuir e manter telefones de mesa, e cria a oportunidade de desativar o sistema de PBX existente, pois o serviço telefônico pode ser entregue pela nuvem, na rede, sem depender do sistema telefônico tradicional.|
+> |**Resultados comerciais esperados e mensuráveis**<p>A remoção de requisitos para manter e desativar os telefones de mesa e PBX herdados existentes gera uma redução de 20% nas despesas mensais com serviços telefônicos. O Sistema de Telefonia com Planos de Chamadas simplificará os espaços de trabalho, permitindo que a Contoso expanda suas operações com o estabelecimento de novos escritórios com custos iniciais de telefonia mínimos.|
 
 Durante a fase de Concepção, além de definir os casos de uso comercial, você também precisa esclarecer estes itens:
 - Escopo organizacional
@@ -81,24 +82,25 @@ Os casos de uso comercial definidos na etapa anterior incluirão o escopo organi
 
 > [!TIP]
 > Segue um exemplo de matriz de partes envolvidas que você pode usar para documentar as partes envolvidas do projeto:
->|Função  |Descrição  |Nome, informações de contato, localização  |
->|---------|---------|---------|
->|Patrocinador executivo do projeto|<ul><li>A autoridade e a responsabilidade final pelo projeto e pela entrega dos objetivos do projeto</li><li>Ajudar a solucionar problemas escalados pelo Líder do projeto</li><li>Comunicação do patrocinador internamente na empresa sobre os objetivos do projeto</li><li>Responsável pela tomada de decisões estratégicas</li><li>Responsável pela disponibilidade do orçamento e dos recursos necessários</li><li>Liderança da avaliação trimestral de negócios (QBR)</li><li>Aceitação e ajuda nos esforços da campanha de conscientização</li><li>Atuando como patrocinador do projeto de distribuição do programa</li></ul>|TBA|
->|Líder de projeto|<ul><li>Gerenciamento e liderança da equipe do projeto</li><li>Coordena os parceiros e as equipes de trabalho envolvidos no projeto</li><li>Responsável pela criação e pelo gerenciamento dos planos do projeto para atingir os principais resultados trimestrais</li><li>Solucionar problemas multifuncionais</li><li>Passar atualizações regulares aos patrocinadores do projeto</li><li>Incorporação dos aspectos de adoção em todo o plano do projeto</li><li>Liderança das avaliações mensais de negócios e operações (MBR), contribuindo com as avaliações trimestrais de negócios</li></ul>|TBA|
->|Líder/arquiteto de colaboração|<ul><li>Responsável pela execução da estratégia de colaboração definida pelos executivos da empresa</li><li>Analisar e escolher produtos de colaboração para a empresa que atendam aos objetivos de negócios</li><li>Responsável pela concepção das operações dos produtos de colaboração</li><li>Define o modelo de operação e suporte</li><li>Contribuir com as avaliações trimestrais de negócios</li><ul>|TBA|
->|Consultor|<ul><li>Responsável pelos serviços de configuração</li><li>Contribui na arquitetura geral da solução</li></ul>|TBA|
->|Gerente de projetos|<ul><li>Desenvolvimento e manutenção do plano do projeto</li><li>Gerenciar os produtos finais do projeto de acordo com o plano do projeto e o orçamento</li><li>Registrar e gerenciar os problemas de projeto, incluindo o dimensionamento</li><li>Conduzir chamadas stand up semanais</li><li>Conectar-se e passar atualizações para patrocinadores executivos do projeto</li><li>Trabalhar com o Arquiteto para definir a abordagem de gerenciamento de mudanças e os planos de comunicação</li></ul>|TBA|
->|Especialista em adoção/gerenciamento de mudanças|<ul><li>Alimentar a fase de Descoberta em processos de treinamento e adoção</li><li>Participar do workshop de estratégia de adoção</li><li>Desenvolvimento e responsabilidade pela estratégia de adoção</li><li>Desenvolvimento e execução do plano de comunicação</li><li>Responsável por ministrar treinamentos aos usuários finais</li><li>Coletar feedback e conduzir pesquisas</li></ul>|TBA|
->|Líder de rede|<ul><li>Alimentar a fase de Descoberta em design de rede</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de rede durante a execução do projeto</li></ul>|TBA|
->|Líder de segurança|<ul><li>Alimentar a fase de Descoberta em processos e designs de segurança</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de segurança durante a execução do projeto</li></ul>|TBA|
->|Líder de telefonia|<ul><li>Alimentar a fase de Descoberta em design de telefonia</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de telefonia durante a execução do projeto</li></ul>|TBA|
->|Líder de desktop|<ul><li>Alimentar a fase de Descoberta em clientes e processos de atualização</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de desktop durante a execução do projeto</li></ul>|TBA|
->|Líder de suporte/suporte técnico|<ul><li>Alimentar a fase de Descoberta em modelos de operação e suporte</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Participar no planejamento do modelo de suporte</li><li>Coordena o trabalho das equipes/recursos de suporte durante a execução do projeto</li></ul>|TBA|
->|Representantes das unidades de negócios|<ul><li>Contribuir com guias e materiais de adoção baseados no usuário final</li><li>Contribuir e analisar casos de uso comercial</li></ul>|TBA|
->|Líder de implantação|<ul><li>Garantir que os pré-requisitos de implantação sejam atendidos</li><li>Envolver os recursos do cliente para as atividades da fase de preparação e implantação</li><li>Participar de reuniões para analisar o status de preparação e implantação</li></ul>|TBA|
->|Administradores de TI|<ul><li>Profissionais de TI responsáveis pela assistência no planejamento e execução de testes</li></ul>|TBA|
->|Proprietário do serviço|<ul><li>Responsável pela operação do serviço de Sistema de Telefonia com Planos de Chamadas</li><li>Proprietário do serviço de Sistema de Telefonia com Planos de Chamadas</li></ul>|TBA|
->|Defensores da qualidade|<ul><li>Direciona qualidade, confiabilidade e feedback dos usuários</li><li>Identifica as tendências de qualidade e direciona remediação com as respectivas equipes</li><li>Reporta-se ao comitê de direção e de volta à liderança</li><li>Reporta-se sobre qualidade, confiabilidade e sentimento dos usuários através do Rate My Call e Net Promoter Score</li></ul>|TBA|
+> 
+> |                 Função                  |                                                                                                                                                                                                                                                                Descrição                                                                                                                                                                                                                                                                 | Nome, informações de contato, localização |
+> |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+> |       Patrocinador executivo do projeto       | <ul><li>A autoridade e a responsabilidade final pelo projeto e pela entrega dos objetivos do projeto</li><li>Ajudar a solucionar problemas escalados pelo Líder do projeto</li><li>Comunicação do patrocinador internamente na empresa sobre os objetivos do projeto</li><li>Responsável pela tomada de decisões estratégicas</li><li>Responsável pela disponibilidade do orçamento e dos recursos necessários</li><li>Liderança da avaliação trimestral de negócios (QBR)</li><li>Aceitação e ajuda nos esforços da campanha de conscientização</li><li>Atuando como patrocinador do projeto de distribuição do programa</li></ul> |                 TBA                 |
+> |             Líder de projeto              |                   <ul><li>Gerenciamento e liderança da equipe do projeto</li><li>Coordena os parceiros e as equipes de trabalho envolvidos no projeto</li><li>Responsável pela criação e pelo gerenciamento dos planos do projeto para atingir os principais resultados trimestrais</li><li>Solucionar problemas multifuncionais</li><li>Passar atualizações regulares aos patrocinadores do projeto</li><li>Incorporação dos aspectos de adoção em todo o plano do projeto</li><li>Liderança das avaliações mensais de negócios e operações (MBR), contribuindo com as avaliações trimestrais de negócios</li></ul>                   |                 TBA                 |
+> |     Líder/arquiteto de colaboração      |                                                                       <ul><li>Responsável pela execução da estratégia de colaboração definida pelos executivos da empresa</li><li>Analisar e escolher produtos de colaboração para a empresa que atendam aos objetivos de negócios</li><li>Responsável pela concepção das operações dos produtos de colaboração</li><li>Define o modelo de operação e suporte</li><li>Contribuir com as avaliações trimestrais de negócios</li><ul>                                                                        |                 TBA                 |
+> |              Consultor               |                                                                                                                                                                                                               <ul><li>Responsável pelos serviços de configuração</li><li>Contribui na arquitetura geral da solução</li></ul>                                                                                                                                                                                                                |                 TBA                 |
+> |            Gerente de projetos            |                                                      <ul><li>Desenvolvimento e manutenção do plano do projeto</li><li>Gerenciar os produtos finais do projeto de acordo com o plano do projeto e o orçamento</li><li>Registrar e gerenciar os problemas de projeto, incluindo o dimensionamento</li><li>Conduzir chamadas stand up semanais</li><li>Conectar-se e passar atualizações para patrocinadores executivos do projeto</li><li>Trabalhar com o Arquiteto para definir a abordagem de gerenciamento de mudanças e os planos de comunicação</li></ul>                                                       |                 TBA                 |
+> | Especialista em adoção/gerenciamento de mudanças |                                                                                       <ul><li>Alimentar a fase de Descoberta em processos de treinamento e adoção</li><li>Participar do workshop de estratégia de adoção</li><li>Desenvolvimento e responsabilidade pela estratégia de adoção</li><li>Desenvolvimento e execução do plano de comunicação</li><li>Responsável por ministrar treinamentos aos usuários finais</li><li>Coletar feedback e conduzir pesquisas</li></ul>                                                                                        |                 TBA                 |
+> |             Líder de rede              |                                                                                                                                                              <ul><li>Alimentar a fase de Descoberta em design de rede</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de rede durante a execução do projeto</li></ul>                                                                                                                                                               |                 TBA                 |
+> |             Líder de segurança             |                                                                                                                                                        <ul><li>Alimentar a fase de Descoberta em processos e designs de segurança</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de segurança durante a execução do projeto</li></ul>                                                                                                                                                        |                 TBA                 |
+> |            Líder de telefonia             |                                                                                                                                                              <ul><li>Alimentar a fase de Descoberta em design de telefonia</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de telefonia durante a execução do projeto</li></ul>                                                                                                                                                              |                 TBA                 |
+> |             Líder de desktop              |                                                                                                                                                          <ul><li>Alimentar a fase de Descoberta em clientes e processos de atualização</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Coordena o trabalho da equipe de desktop durante a execução do projeto</li></ul>                                                                                                                                                          |                 TBA                 |
+> |        Líder de suporte/suporte técnico         |                                                                                                                          <ul><li>Alimentar a fase de Descoberta em modelos de operação e suporte</li><li>Participar do planejamento durante o workshop de Concepção</li><li>Participar no planejamento do modelo de suporte</li><li>Coordena o trabalho das equipes/recursos de suporte durante a execução do projeto</li></ul>                                                                                                                          |                 TBA                 |
+> |     Representantes das unidades de negócios     |                                                                                                                                                                                                      <ul><li>Contribuir com guias e materiais de adoção baseados no usuário final</li><li>Contribuir e analisar casos de uso comercial</li></ul>                                                                                                                                                                                                      |                 TBA                 |
+> |            Líder de implantação            |                                                                                                                                                           <ul><li>Garantir que os pré-requisitos de implantação sejam atendidos</li><li>Envolver os recursos do cliente para as atividades da fase de preparação e implantação</li><li>Participar de reuniões para analisar o status de preparação e implantação</li></ul>                                                                                                                                                            |                 TBA                 |
+> |               Administradores de TI               |                                                                                                                                                                                                                           <ul><li>Profissionais de TI responsáveis pela assistência no planejamento e execução de testes</li></ul>                                                                                                                                                                                                                            |                 TBA                 |
+> |             Proprietário do serviço             |                                                                                                                                                                                     <ul><li>Responsável pela operação do serviço de Sistema de Telefonia com Planos de Chamadas</li><li>Proprietário do serviço de Sistema de Telefonia com Planos de Chamadas</li></ul>                                                                                                                                                                                      |                 TBA                 |
+> |           Defensores da qualidade           |                                                                                                      <ul><li>Direciona qualidade, confiabilidade e feedback dos usuários</li><li>Identifica as tendências de qualidade e direciona remediação com as respectivas equipes</li><li>Reporta-se ao comitê de direção e de volta à liderança</li><li>Reporta-se sobre qualidade, confiabilidade e sentimento dos usuários através do Rate My Call e Net Promoter Score</li></ul>                                                                                                       |                 TBA                 |
 
 <a name="define-objectives-and-key-results-key-success-indicators-and-risks"></a>Defina os objetivos e os resultados principais, os principais indicadores de sucesso e os riscos
 --------------------------------------------------------------------
@@ -111,37 +113,40 @@ Os OKRs contêm a lista dos objetivos estabelecidos no início do projeto, com o
 
 > [!TIP]
 > Consulte a seguir exemplos de OKRs relevantes à implementação do Sistema de Telefonia com Planos de Chamadas:
-><br>
->
->**Visão**: Aumentar a produtividade maximizando os investimentos no Office 365
->|Objetivos  |Resultados principais  |A fazer  |
->|---------|---------|---------|
->|Implantar o Sistema de Telefonia com Planos de Chamadas nas filiais europeias até o final do ano fiscal de 2018|3º trimestre do ano fiscal de 2018: Implantar o Sistema de Telefonia com Planos de Chamadas no escritório de Londres|Concepção<ul><li>Criar plano de sucesso</li><li>Criar plano detalhado de implementação técnica</li></ul><p>Integração<ul><li>Executar plano de sucesso</li><li>Executar plano de implementação técnica</li></ul>|
->|Encerrar o PBX herdado no escritório de Londres até o final do ano fiscal de 2018|4º trimestre do ano fiscal de 2018: Encerrar o PBX herdado no escritório de Londres|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
+> <br>
+> 
+> **Visão**: Aumentar a produtividade maximizando os investimentos no Office 365
+> 
+> |Objetivos  |Resultados principais  |A fazer  |
+> |---------|---------|---------|
+> |Implantar o Sistema de Telefonia com Planos de Chamadas nas filiais europeias até o final do ano fiscal de 2018|3º trimestre do ano fiscal de 2018: Implantar o Sistema de Telefonia com Planos de Chamadas no escritório de Londres|Concepção<ul><li>Criar plano de sucesso</li><li>Criar plano detalhado de implementação técnica</li></ul><p>Integração<ul><li>Executar plano de sucesso</li><li>Executar plano de implementação técnica</li></ul>|
+> |Encerrar o PBX herdado no escritório de Londres até o final do ano fiscal de 2018|4º trimestre do ano fiscal de 2018: Encerrar o PBX herdado no escritório de Londres|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
 
 Os KSIs mensuram a qualidade e o sucesso dos principais resultados e complementam a natureza binária dos OKRs (alcançados ou não alcançados) ao detalhar os bons e/ou maus resultados. Ao definir os KSIs, recomendamos aproveitar os critérios “específicos, mensuráveis, atribuíveis, realistas, relacionados ao tempo” ou SMART.
 
 > [!TIP]
 > Este é um exemplo de KSI relevante para esse projeto:
->|Tipo  |Pergunta e critérios do KSI  |Como foi mensurado  |Critérios de sucesso  |Mensurado  |Responsável  |
->|---------|---------|---------|---------|---------|---------|
->|Uso/adoção|A qualidade da chamada é igual ou melhor que a solução anterior|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Esquipe de Tecnologia da Informação|
->|Uso/adoção|O Microsoft Teams facilitou o processo de comunicação|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
->|Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Office 365, Painel de Qualidade da Chamada|80% dos usuários são usuários ativos diariamente|Diariamente|Equipe de gerenciamento de mudanças|
->|Uso/qualidade|A porcentagem de chamadas/conferências de má qualidade deve ser mínima|Painel de Qualidade da Chamada|< 5% de chamadas de má qualidade por mês|Diariamente|Esquipe de Tecnologia da Informação|
->|Uso/suporte|Eu sei como obter suporte técnico|Pesquisa|90% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
->|Uso/suporte|Estou satisfeito com a qualidade do suporte técnico|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após cada incidente|Esquipe de Tecnologia da Informação|
->|Financeiro|Redução das despeças mensais com serviços telefônicos|Sistema financeiro|Atingir o ROI estabelecido|Baseado no ROI|Equipe de gerenciamento de mudanças|
+> 
+> |Tipo  |Pergunta e critérios do KSI  |Como foi mensurado  |Critérios de sucesso  |Mensurado  |Responsável  |
+> |---------|---------|---------|---------|---------|---------|
+> |Uso/adoção|A qualidade da chamada é igual ou melhor que a solução anterior|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Esquipe de Tecnologia da Informação|
+> |Uso/adoção|O Microsoft Teams facilitou o processo de comunicação|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
+> |Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Office 365, Painel de Qualidade da Chamada|80% dos usuários são usuários ativos diariamente|Diariamente|Equipe de gerenciamento de mudanças|
+> |Uso/qualidade|A porcentagem de chamadas/conferências de má qualidade deve ser mínima|Painel de Qualidade da Chamada|< 5% de chamadas de má qualidade por mês|Diariamente|Esquipe de Tecnologia da Informação|
+> |Uso/suporte|Eu sei como obter suporte técnico|Pesquisa|90% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
+> |Uso/suporte|Estou satisfeito com a qualidade do suporte técnico|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após cada incidente|Esquipe de Tecnologia da Informação|
+> |Financeiro|Redução das despeças mensais com serviços telefônicos|Sistema financeiro|Atingir o ROI estabelecido|Baseado no ROI|Equipe de gerenciamento de mudanças|
 
 Como parte desse exercício, você precisa identificar os riscos de negócios e definir um plano de mitigação para cada um dos riscos identificados. Inclua essas informações em um plano de riscos.
 
 > [!TIP]
 > Seu plano de riscos pode ser documentado como no exemplo a seguir:
->|Risco  |Probabilidade  |Impacto  |Geral  |Plano de mitigação  |
->|---------|---------|---------|---------|---------|
->|A incorporação acrescentará até 1.000 pessoas|Alto|Alto|Alto|<ul><li>Para empresas incorporadas, separar o OKR com o processo próprio (Concepção, Integração, Geração de valor)</li><li>Não inclui-los nos OKRs existentes</li></ul>|
->|A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte à portabilidade dos números de telefone antes (ou seja, registros do atendimento ao cliente, detalhes de cobrança, Carta de Autorização)</li><li>Ajustar o cronograma do projeto para absorver o tempo de entrega dos resultados da execução da portabilidade dos números de telefone</li><li>Usar números de telefone temporários com a manipulação de IDs de Chamadas</li></ul>|
->|Reestruturação planejada da rede|Alto|Médio|Médio|<ul><li>Antes de implementar o Teams como uma plataforma de colaboração e comunicação moderna, execute a avaliação da prontidão da rede para sites no âmbito do projeto</li></ul>|
+> 
+> |Risco  |Probabilidade  |Impacto  |Geral  |Plano de mitigação  |
+> |---------|---------|---------|---------|---------|
+> |A incorporação acrescentará até 1.000 pessoas|Alto|Alto|Alto|<ul><li>Para empresas incorporadas, separar o OKR com o processo próprio (Concepção, Integração, Geração de valor)</li><li>Não inclui-los nos OKRs existentes</li></ul>|
+> |A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte à portabilidade dos números de telefone antes (ou seja, registros do atendimento ao cliente, detalhes de cobrança, Carta de Autorização)</li><li>Ajustar o cronograma do projeto para absorver o tempo de entrega dos resultados da execução da portabilidade dos números de telefone</li><li>Usar números de telefone temporários com a manipulação de IDs de Chamadas</li></ul>|
+> |Reestruturação planejada da rede|Alto|Médio|Médio|<ul><li>Antes de implementar o Teams como uma plataforma de colaboração e comunicação moderna, execute a avaliação da prontidão da rede para sites no âmbito do projeto</li></ul>|
 
 <a name="assess-environment-and-evaluate-adoption-readiness"></a>Avalie o ambiente e avalie a prontidão para adoção
 --------------------------------------------------
@@ -176,17 +181,18 @@ O planejamento das operações e a identificação das equipes que operarão o s
 
 > [!TIP]
 > Segue um exemplo de um modelo para documentar o resultado do exercício de mapeamento de funções operacionais que você realizou para dar suporte a esse projeto:
->|Função operacional  |Descrição  |Equipe  |Detalhes de contato  |
->|---------|---------|---------|---------|
->|Proprietário do serviço|Proprietário do serviço, interface com as divisões da empresa, estratégia|TBA|TBA|
->|Operações do Sistema de Telefonia com Planos de Chamadas|Operações diárias, migração/adição/alteração de contas de usuários e dispositivos, monitoramento|TBA|TBA|
->|Administração de locatários|Alterar configuração de todos os locatários, habilitar novos recursos|TBA|TBA|
->|Central de atendimento|Interface para os usuários finais obterem suporte|TBA|TBA|
->|Operações de rede|Executa LAN, WAN, Wi-Fi e acesso à internet|TBA|TBA|
->|Cliente e equipe de pontos de extremidade|Gerenciar implantações de desktop|TBA|TBA|
->|Operações de identidade|Gerenciar infraestrutura de identidade (AD, ADFS, Azure AD)|TBA|TBA|
->|Gerenciamento de mudanças/adoção|Gerenciar conscientização, treinamentos e adoção da solução|TBA|TBA|
->|Operações do Exchange|Gerenciar o ambiente do Exchange|TBA|TBA|
+> 
+> |Função operacional  |Descrição  |Equipe  |Detalhes de contato  |
+> |---------|---------|---------|---------|
+> |Proprietário do serviço|Proprietário do serviço, interface com as divisões da empresa, estratégia|TBA|TBA|
+> |Operações do Sistema de Telefonia com Planos de Chamadas|Operações diárias, migração/adição/alteração de contas de usuários e dispositivos, monitoramento|TBA|TBA|
+> |Administração de locatários|Alterar configuração de todos os locatários, habilitar novos recursos|TBA|TBA|
+> |Central de atendimento|Interface para os usuários finais obterem suporte|TBA|TBA|
+> |Operações de rede|Executa LAN, WAN, Wi-Fi e acesso à internet|TBA|TBA|
+> |Cliente e equipe de pontos de extremidade|Gerenciar implantações de desktop|TBA|TBA|
+> |Operações de identidade|Gerenciar infraestrutura de identidade (AD, ADFS, Azure AD)|TBA|TBA|
+> |Gerenciamento de mudanças/adoção|Gerenciar conscientização, treinamentos e adoção da solução|TBA|TBA|
+> |Operações do Exchange|Gerenciar o ambiente do Exchange|TBA|TBA|
 
 Para facilitar um mapeamento mais detalhado das funções operacionais, incluindo as tarefas associadas a cada uma das funções operacionais, você pode usar a [Pasta de trabalho de mapeamento de funções operacionais](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) para coletar os detalhes que esclarecerão as funções e responsabilidades para dar suporte ao serviço de Sistema de Telefonia com Planos de Chamadas.
 
@@ -243,6 +249,7 @@ Para descobrir onde o serviço de Planos de Chamadas está disponível, consulte
 Depois de confirmar a qualificação de sua organização para obter o complemento de Planos de Chamadas, compile a lista dos locais de usuários ou escritórios onde o serviço de Planos de Chamadas será implementado com base na lista de países e regiões disponíveis.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais de usuários ou escritórios nos quais o serviço de Planos de Chamadas será implementado</li></ul>|
@@ -250,13 +257,14 @@ Depois de confirmar a qualificação de sua organização para obter o complemen
 
 > [!TIP]
 > Segue um exemplo de lista de habilitação de locais do Sistema de Telefonia com Planos de Chamadas:
->|Escritório   |Localização |Serviço de Sistema de Telefonia  |
->|---------|---------|---------|
->|One Epping Road|Austrália|Serviço PSTN herdado|
->|100 Alma Road|Hong Kong SAR|Serviço PSTN herdado|
->|One Marina Boulevard|Cingapura|Serviço PSTN herdado|
->|32 London Bridge Street|Reino Unido|Sistema de Telefonia com Planos de Chamadas|
->|39 quai du Président Roosevelt|França|Sistema de Telefonia com Planos de Chamadas|
+> 
+> |Escritório   |Localização |Serviço de Sistema de Telefonia  |
+> |---------|---------|---------|
+> |One Epping Road|Austrália|Serviço PSTN herdado|
+> |100 Alma Road|Hong Kong SAR|Serviço PSTN herdado|
+> |One Marina Boulevard|Cingapura|Serviço PSTN herdado|
+> |32 London Bridge Street|Reino Unido|Sistema de Telefonia com Planos de Chamadas|
+> |39 quai du Président Roosevelt|França|Sistema de Telefonia com Planos de Chamadas|
 
 ## <a name="licensing-for-calling-plans"></a>Licenciamento de Planos de Chamadas
 
@@ -286,6 +294,7 @@ Se a sua organização optar por usar a recarga automática, uma recomendação 
 É possível controlar o uso de Créditos de Comunicação por usuário. Assim, você pode garantir que a funcionalidade seja atribuída a pessoas da organização que têm necessidades de negócios correspondentes.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Se a sua organização não tem a licença necessária do Sistema de Telefonia, decida se ela será adquirida com a elevação das assinaturas existentes do Office 365 ou com a aquisição de complementos do Sistema de Telefonia</li><li>Decida quais usuários precisam da licença do Plano de Chamadas Domésticas e quais precisam da licença do Plano de Chamadas Domésticas e Internacionais</li><li>Decida se os Créditos de Comunicação são necessários para a implementação dos Planos de Chamadas. Em caso positivo, decida o valor inicial de fundos a serem comprados. Onde aplicável, decida o valor do gatilho e o valor da recarga automática.</li><li>Decida quais usuários precisam usar a licença de Créditos de Comunicação</li></ul>|
@@ -293,23 +302,20 @@ Se a sua organização optar por usar a recarga automática, uma recomendação 
 
 > [!TIP]
 > Você pode documentar a lista de atribuição de licenças para usuários do Sistema de Telefonia com Planos de Chamadas usando este exemplo:
->|Usuário  |Escritório  |Licença do Office 365  |Créditos de Comunicação  |
->|---------|---------|---------|---------|
->|Emily Braun|32 London Bridge Street|Office 365 E5, Plano de Chamadas Internacionais e Domésticas|Habilitado|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5, Plano de Chamadas Domésticas|Desabilitado|
->|Pradeep Gupta|32 London Bridge Street|Office 365 E5, Plano de Chamadas Domésticas|Habilitado|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento do Sistema de Telefonia, Plano de Chamadas Domésticas|Desabilitado|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, Plano de Chamadas Internacionais e Domésticas|Habilitado|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento do Sistema de Telefonia, Plano de Chamadas Domésticas|Desabilitado|
+> 
+> |Usuário  |Escritório  |Licença do Office 365  |Créditos de Comunicação  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Office 365 E5, Plano de Chamadas Internacionais e Domésticas|Habilitado|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5, Plano de Chamadas Domésticas|Desabilitado|
+> |Pradeep Gupta|32 London Bridge Street|Office 365 E5, Plano de Chamadas Domésticas|Habilitado|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento do Sistema de Telefonia, Plano de Chamadas Domésticas|Desabilitado|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5, Plano de Chamadas Internacionais e Domésticas|Habilitado|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento do Sistema de Telefonia, Plano de Chamadas Domésticas|Desabilitado|
 
 <br>
-> [!TIP]
-> Os números do planejamento de seus Créditos de Comunicação podem ser documentados da seguinte maneira:
->|         |         |
->|---------|---------|
->|Valor inicial|US$ 1.000|
->|Valor do gatilho|US$ 400|
->|Valor da recarga automática|TBA|
+&gt; [!TIP]
+&gt;Sua créditos Communications planejamento números pode ser documentados como o seguinte: &gt;|         |         | &gt;|---------|---------|
+&gt;| Quantidade inicial | US $ 1.000 | &gt;| Quantidade de gatilho | US $ 400 | &gt;| Quantidade de autocarga | TBA |
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Números de telefone e locais de emergência
 
@@ -324,7 +330,7 @@ Para obter números de telefone diretamente da Microsoft, use uma destas opçõe
 
 - [Centro de administração do Skype for Business](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets do Windows PowerShell remoto](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Enviar um formulário de solicitação de novo número de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Enviar um formulário de nova solicitação de número de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 O formulário de solicitação de novo número de telefone funciona melhor para a aquisição planejada de um número de telefone, pois você pode solicitar um bloco de números de telefone contíguos. A obtenção de números de telefone usando o Centro de administração do Skype for Business ou o Windows PowerShell remoto não está disponível em todos os países ou regiões.
 
@@ -341,6 +347,7 @@ Ao configurar os números de telefone para os Planos de Chamadas, é necessário
 Além do endereço de emergência validado, os locais de emergência podem ser definidos e associados a endereços de emergência validados para fornecer uma localização mais exata de um endereço. Normalmente, um local de emergência consiste no número de um edifício, andar, bloco ou o número do escritório onde o usuário está localizado.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida como os números de telefone serão obtidos para locais de usuários ou escritórios que estão no escopo de implementação dos Planos de Chamadas (obter da Microsoft ou transferir números de telefone existentes)</li><li>Se você optar por adquiri-los da Microsoft, decida o método para obter os números de telefone (envio de formulários ou automatizado) para os locais de usuários ou escritórios que estão no escopo de implementação dos Planos de Chamadas</li><li>Decida o nível de granularidade das informações de locais de emergência de devem ser coletadas para os locais de usuários ou escritórios que estão no escopo de implementação dos Planos de Chamadas</li></ul>|
@@ -348,14 +355,15 @@ Além do endereço de emergência validado, os locais de emergência podem ser d
 
 > [!TIP]
 > Os detalhes da aquisição de números de telefone, os números de telefone e os detalhes dos locais de emergência podem ser documentados usando este modelo:
->|Usuário  |Local e endereço de emergência  |Aquisição de números de telefone  |Número de telefone  |
->|---------|---------|---------|---------|
->|Emily Braun|1034/32 London Bridge Street, Londres, SE1, Reino Unido|Porta existente|+44 20 7946 0034|
->|Lidia Holloway|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Porta existente|+44 20 7946 0065|
->|Pradeep Gupta|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Porta existente|+44 20 7946 0023|
->|Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França|Adquirir novo|TBA|
->|Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França|Adquirir novo|TBA|
->|Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França|Adquirir novo|TBA|
+> 
+> |Usuário  |Local e endereço de emergência  |Aquisição de números de telefone  |Número de telefone  |
+> |---------|---------|---------|---------|
+> |Emily Braun|1034/32 London Bridge Street, Londres, SE1, Reino Unido|Porta existente|+44 20 7946 0034|
+> |Lidia Holloway|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Porta existente|+44 20 7946 0065|
+> |Pradeep Gupta|1023/32 London Bridge Street, Londres, SE1, Reino Unido|Porta existente|+44 20 7946 0023|
+> |Marcel Beauchamp|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França|Adquirir novo|TBA|
+> |Rachelle Cormier|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França|Adquirir novo|TBA|
+> |Isabell Potvin|07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França|Adquirir novo|TBA|
 
 ## <a name="voicemail"></a>Caixa postal
 
@@ -369,6 +377,7 @@ A caixa postal do Sistema de Telefonia apresenta transcrição da caixa postal e
 > Foi implementado um mecanismo de fallback de modo que a caixa postal do Sistema de Telefonia possa reenviar mensagens usando o protocolo SMTP. Isso quer dizer que os usuários com uma caixa de correio em um sistema de email de terceiros receberá suas mensagens da caixa postal. Não há garantia de tempo de atividade do serviço ou de outros recursos de caixa postal, como a alteração da saudação e outras configurações da caixa postal.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se a caixa postal do Sistema de Telefonia será habilitada para a implementação de Planos de Chamadas</li><li>Se o uso do Exchange local e da implantação existente não atender aos requisitos para dar suporte à caixa postal do Sistema de Telefonia, decida sobre as opções disponíveis (atualização e instalação para dar suporte à caixa postal do Sistema de Telefonia ou migração para o Exchange Online, utilização do mecanismo de fallback)</li><li>Decida se a transcrição da caixa postal deve ser habilitada/desabilitada em toda a organização ou para usuários específicos</li></ul>|
@@ -376,20 +385,22 @@ A caixa postal do Sistema de Telefonia apresenta transcrição da caixa postal e
 
 > [!TIP]
 > Os detalhes da caixa postal do Sistema de Telefonia para a implementação do Sistema de Telefonia com Planos de Chamadas podem ser documentados da seguinte maneira:
->|Usuário  |Caixa de correio do Exchange  |Habilitar caixa postal  |Transcrição da caixa postal  |
->|---------|---------|---------|---------|
->|Emily Braun|Online|Sim|Habilitado|
->|Lidia Holloway|Online|Sim|Habilitado|
->|Pradeep Gupta|No local|Sim|Habilitado|
->|Marcel Beauchamp|No local|Sim|Desabilitado|
->|Rachelle Cormier|Online|Sim|Desabilitado|
->|Isabell Potvin|No local|Sim|Desabilitado|
+> 
+> |Usuário  |Caixa de correio do Exchange  |Habilitar caixa postal  |Transcrição da caixa postal  |
+> |---------|---------|---------|---------|
+> |Emily Braun|Online|Sim|Habilitado|
+> |Lidia Holloway|Online|Sim|Habilitado|
+> |Pradeep Gupta|No local|Sim|Habilitado|
+> |Marcel Beauchamp|No local|Sim|Desabilitado|
+> |Rachelle Cormier|Online|Sim|Desabilitado|
+> |Isabell Potvin|No local|Sim|Desabilitado|
 
 ## <a name="calling-identity"></a>Identificação de chamadas
 
 Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identificação de chamadas (ID de Chamadas). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada. Em alguns casos, há requisitos de negócios legítimos para mascarar a ID de Chamadas a fim de proteger a identidade do autor da chamada usando o número da linha principal do escritório. Normalmente, é um número de serviço atendido com a configuração do [Atendedor Automático](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants), como a ID de Chamadas ou para bloquear totalmente a apresentação da ID de Chamadas.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se a manipulação da ID de Chamadas é necessária para a implementação dos Planos de Chamadas.</li><li>Se aplicável, decida os tipos de manipulação da ID de Chamadas (mascarar com o número de serviço ou manter o anonimato) que devem ser implementados</li><li>Se aplicável, decida qual usuário requer a manipulação da ID de Chamadas e o tipo de manipulação da ID de Chamadas que deve ser atribuído a cada usuário</li></ul>|
@@ -397,14 +408,15 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 
 > [!TIP]
 > Segue um exemplo de documentação de detalhes do mascaramento de ID de Chamadas:
->|Usuário  |Habilitar mascaramento de ID de Chamadas de saída  |Tipo de mascaramento de ID de Chamadas  |Permitir a substituição pelo usuário  | Habilitar mascaramento de ID de Chamadas de entrada  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|Não|N/D|Sim|Não|
->|Lidia Holloway|Sim|Número de serviço (OrgAA, +44 20 7946 0000)|Não|Sim|
->|Pradeep Gupta|Não|N/D|Sim|Não|
->|Marcel Beauchamp|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
->|Rachelle Cormier|Sim|Manter o anonimato|Sim|Não|
->|Isabell Potvin|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
+> 
+> |Usuário  |Habilitar mascaramento de ID de Chamadas de saída  |Tipo de mascaramento de ID de Chamadas  |Permitir a substituição pelo usuário  | Habilitar mascaramento de ID de Chamadas de entrada  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|Não|N/D|Sim|Não|
+> |Lidia Holloway|Sim|Número de serviço (OrgAA, +44 20 7946 0000)|Não|Sim|
+> |Pradeep Gupta|Não|N/D|Sim|Não|
+> |Marcel Beauchamp|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
+> |Rachelle Cormier|Sim|Manter o anonimato|Sim|Não|
+> |Isabell Potvin|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
 
 ## <a name="dial-plans"></a>Planos de discagem
 
@@ -429,6 +441,7 @@ O plano de discagem efetivo atribuído aos usuários é a combinação do plano 
 Há um máximo de 25 regras de normalização em cada plano de discagem para locatários e, portanto, a duplicação das regras de normalização já disponíveis como parte do plano de discagem para serviço precisa ser evitada.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se a sua organização requer planos de discagem personalizados (requisitos de negócios, requisitos de adoção etc.).</li><li>Se aplicável, decida o escopo do plano de discagem de locatário (locatário global ou locatário usuário) para dar suporte aos requisitos dos planos de discagem personalizados</li><li>Se aplicável, decida os planos de discagem de locatário que serão criados para oferecer suporte a locais de usuários ou escritórios que estão no escopo de implementação dos Planos de Chamadas</li><li>Se aplicável, decida qual usuário requer um plano de discagem personalizado e o plano de discagem de locatário que deve ser atribuído a cada usuário</li></ul>|
@@ -436,23 +449,17 @@ Há um máximo de 25 regras de normalização em cada plano de discagem para loc
 
 > [!TIP]
 > Se aplicável para o seu projeto, você pode usar o modelo a seguir para documentar das configurações dos planos de discagem de locatário:
->|Nome do plano de discagem de locatário<br>_Descrição  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
->|---------|---------|---------|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 – x7999) para o escritório de 39 quai du Président Roosevelt, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalização de número gratuito na França_|^0?(80\d{7})\d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalização de número de serviço na França_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
+> 
+> |Nome do plano de discagem de locatário<br>_Descrição  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 – x7999) para o escritório de 39 quai du Président Roosevelt, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> O modelo de exemplo a seguir pode ser utilizado para documentar atribuições de planos de discagem para dar suporte ao seu projeto:
->|Usuário  |Escritório  |Tipo do plano de discagem  |Nome do plano de discagem  |
->|---------|---------|---------|---------|
->|Emily Braun|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Lidia Holloway|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Pradeep Gupta|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-39qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-39qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-39qdPR|
+&gt; [!TIP]
+&gt;O modelo de exemplo abaixo pode ser utilizado para atribuições de plano de discagem de documentos para dar suporte ao seu projeto: &gt;| Usuário | Office | Tipo de plano de discagem | Nome do plano de discagem | &gt;|---------|---------|---------|---------|
+&gt;| Ana Braun | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Lidia Holloway | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Pradeep Gupta | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 39qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 39qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 39qdPR |
 
 ## <a name="document-technical-implementation-plan"></a>Documentar o plano de implementação técnica
 

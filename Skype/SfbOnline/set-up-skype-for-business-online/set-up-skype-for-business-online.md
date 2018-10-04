@@ -22,12 +22,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Saiba como configurar seu domínio, usuários, IM e presença para sua organização para instalar o Skype para negócios. Consulte também como configurar serviços de audioconferência, sistema telefônico e chamar planos e transmissão de reunião do Skype. '
-ms.openlocfilehash: b4db326212b472539a483a406a7c940f0802978d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: af472553cea8a79f2fe9d918f7924f8884e834b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864485"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374471"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar o Skype for Business Online
 
@@ -54,7 +54,7 @@ Para saber mais, consulte [planejar sua instalação do Office 365 para empresas
 
 O Skype for Business Online faz parte do pacote de serviços do Office 365. Para configurar o Skype for Business Online, você precisa entrar no Office 365. Veja como fazer isso:
 
-1. Localize sua identificação de usuário do Office 365 (por exemplo,  *rob@fourthcoffee.com*  ). Você recebeu um email da Equipe do Microsoft Online Services contendo a identificação de usuário do Office 365 que você criou quando adquiriu o Skype for Business Online. O email tem esta aparência:
+1. Localize sua identificação de usuário do Office 365 (por exemplo,  <em>rob@fourthcoffee.com</em>  ). Você recebeu um email da Equipe do Microsoft Online Services contendo a identificação de usuário do Office 365 que você criou quando adquiriu o Skype for Business Online. O email tem esta aparência:
 
     ![Um exemplo de email de boas-vindas que você recebe após se inscrever no Skype for Business Online. Ele inclui a ID de usuário do Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -80,11 +80,11 @@ Mensagens instantâneas (IM) e presença ([Controlar o acesso às suas informaç
 
 1. **Escolha com quem mais seus usuários do Skype for Business podem se comunicar:**
 
-  - [Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) Você *e*  as outras empresas precisarão configurar seus sistemas.
+   - [Permitir que os usuários entrem em contato com usuários externos do Skype for Business](allow-users-to-contact-external-skype-for-business-users.md) Você *e*  as outras empresas precisarão configurar seus sistemas.
 
-    **IMPORTANTE**: se sua empresa tem dois domínios, como rob@contosowest.com e ina@contosoeast.com, você deverá executar esta etapa para que todos os seus usuários possam se comunicar uns com os outros.
+     **IMPORTANTE**: se sua empresa tem dois domínios, como rob@contosowest.com e ina@contosoeast.com, você deverá executar esta etapa para que todos os seus usuários possam se comunicar uns com os outros.
 
-  - [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md) fora da sua empresa
+   - [Permitir que os usuários do Skype for Business adicionem contatos do Skype](let-skype-for-business-users-add-skype-contacts.md) fora da sua empresa
 
 2. **Escolha quem vê se seus colegas de trabalho estão online:** o recurso de presença mostra quem está online e qual o status: disponível, ocupado, ausente ou apresentando.
 
@@ -92,9 +92,9 @@ Mensagens instantâneas (IM) e presença ([Controlar o acesso às suas informaç
 
     Você pode escolher as configurações padrão para todas as pessoas em sua empresa:
 
-  - Exibir automaticamente a presença online de uma pessoa para todos na organização
+   - Exibir automaticamente a presença online de uma pessoa para todos na organização
 
-  - Exibir a presença online de uma pessoa apenas para seus contatos
+   - Exibir a presença online de uma pessoa apenas para seus contatos
 
 Para obter instruções, veja [Configuração de presença do Skype for Business Online](configure-presence-in-skype-for-business-online.md).
 

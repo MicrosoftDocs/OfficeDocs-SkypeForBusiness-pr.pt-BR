@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumo: Saiba como gerenciar o servidor de Chat persistente alto disponibilidade e recuperação de desastres em Skype para Business Server 2015.'
-ms.openlocfilehash: 3c3da985f8d68f257257909fbc06e93868233468
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 477897362a01ae3ac6097c50eaed8f9ece31f49d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008220"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371631"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -48,15 +48,15 @@ Para fazer failover do Servidor de Chat Persistente:
   
 1. Remova o envio de logs do banco de dados Persistent Chat Server Backup envio de Log.
     
-  - Usando o SQL Server Management Studio, conecte-se à instância do banco de dados onde o banco de dados do servidor de Chat persistente mgc de backup está localizado.
+   - Usando o SQL Server Management Studio, conecte-se à instância do banco de dados onde o banco de dados do servidor de Chat persistente mgc de backup está localizado.
     
-  - Abra uma janela Consulta para o banco de dados mestre.
+   - Abra uma janela Consulta para o banco de dados mestre.
     
-  - Use o seguinte comando para remover o envio de logs:
+   - Use o seguinte comando para remover o envio de logs:
     
-  ```
-  exec sp_delete_log_shipping_secondary_database mgc
-  ```
+   ```
+   exec sp_delete_log_shipping_secondary_database mgc
+   ```
 
 2. Copie qualquer arquivo de backup não copiado do compartilhamento de backup para a pasta de destino da cópia do servidor de backup.
     
@@ -64,15 +64,15 @@ Para fazer failover do Servidor de Chat Persistente:
     
 4. Coloque o banco de dados mgc de backup online. Usando a janela Consulta que é exibida na etapa 1b, faça o seguinte:
     
-  - Encerre todas as conexões com o banco de dados mgc, se houver:
+   - Encerre todas as conexões com o banco de dados mgc, se houver:
     
-  - **exec sp_who2** para identificar as conexões com o banco de dados mgc.
+   - **exec sp_who2** para identificar as conexões com o banco de dados mgc.
     
-  - **kill \<spid\> ** para terminar estas conexões.
+   - **kill \<spid\> ** para terminar estas conexões.
     
-  - Coloque o banco de dados online:
+   - Coloque o banco de dados online:
     
-  - **Restaurar Banco de Dados mgc com recuperação**.
+   - **Restaurar Banco de Dados mgc com recuperação**.
     
 5. No Skype do Shell de gerenciamento do servidor de negócios, use o comando **Set-CsPersistentChatState-Identity "service: atl-cs-001" - PoolState FailedOver** fazer failover para o banco de dados mgc backup. Não se esqueça de substituir o nome de domínio totalmente qualificado do seu pool de Chat Persistente por atl-cs-001.litwareinc.com.
     

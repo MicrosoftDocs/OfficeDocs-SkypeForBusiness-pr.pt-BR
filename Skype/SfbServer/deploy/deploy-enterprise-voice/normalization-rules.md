@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Resumo: Saiba como definir, criar e modificar uma regra de normalização no Skype para Business Server.'
-ms.openlocfilehash: ef796d1484ec3848d7c6488127009f97ccc565ee
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ff43185da86693c230b6b238222e0fcd922a411c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882152"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375284"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Criar ou modificar uma regra de normalização no Skype para negócios
 
@@ -46,9 +46,9 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 
    - **Dígitos a adicionar** (Opcional) Especifica os dígitos a ser adicionado à números discados que você deseja que o padrão corresponda.
 
-    Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você deixar type7 de **dígitos iniciando** vazio, no campo de **comprimento** e selecione **exatamente**e especifica 0 em **dígitos a serem removidos**, a expressão regular resultante no **padrão para corresponder** é:
+     Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você deixar type7 de **dígitos iniciando** vazio, no campo de **comprimento** e selecione **exatamente**e especifica 0 em **dígitos a serem removidos**, a expressão regular resultante no **padrão para corresponder** é:
 
-    ^(\d{7})$
+     ^(\d{7})$
 
 6. Em **Regra de conversão**, especifique um padrão para o formato de números de telefone E.164 convertido da seguinte maneira:
 
@@ -56,7 +56,7 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 
    - (Opcional) Digite um valor no campo **dígitos a adicionar** para especificar os dígitos a serem anexados ao número convertido (por exemplo, + 1425).
 
-    Por exemplo, se contiver **padrão para corresponder** ^(\d{7})$ como o padrão para números discados aos quais e contém **a regra de conversão** + 1425$ 1 como o padrão para e. 164 números de telefone, a regra normaliza 5550100 para + 14255550100.
+     Por exemplo, se contiver **padrão para corresponder** ^(\d{7})$ como o padrão para números discados aos quais e contém **a regra de conversão** + 1425$ 1 como o padrão para e. 164 números de telefone, a regra normaliza 5550100 para + 14255550100.
 
 7. (Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.
 
@@ -92,7 +92,7 @@ Definir, criar e modificar as regras de normalização no Skype para Business Se
 
    - Em **Regra de conversão**, especifique um padrão para o formato dos números de telefone E.164 convertidos.
 
-    Por exemplo, se você digitar ^(\d{7})$ em **corresponder este padrão** e + 1425$ 1 em **regra de conversão**, a regra normaliza 5550100 para + 14255550100.
+     Por exemplo, se você digitar ^(\d{7})$ em **corresponder este padrão** e + 1425$ 1 em **regra de conversão**, a regra normaliza 5550100 para + 14255550100.
 
 7. (Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.
 

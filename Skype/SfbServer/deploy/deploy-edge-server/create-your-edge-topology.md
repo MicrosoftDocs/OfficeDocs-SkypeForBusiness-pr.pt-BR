@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumo: Saiba como criar, publicar e exportar a topologia de servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: 772a37437af902513d7245a1e8bd18a565fca5e9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b01f0c107207d79f62a092acc2e287e632969234
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883912"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372770"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Criar a topologia de borda para Skype for Business Server
  
@@ -144,7 +144,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Habilitar IPv6 na interface externa
     
-    Eles são bastante auto-explicativos, se você estiver usando endereços IPv4 ou IPv6, e você estiver aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isto em mente para a etapa 11). Você também tem a opção de configurar seu servidor de borda ou pool de borda para usar um endereço NAT (conversão) de endereço de rede para o endereço IP externo. Você pode fazer isso marcando a caixa de seleção **O endereço IP externo deste pool de Borda é convertido pelo NAT**. Clique em **Avançar** quando estiver pronto.
+     Eles são bastante auto-explicativos, se você estiver usando endereços IPv4 ou IPv6, e você estiver aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isto em mente para a etapa 11). Você também tem a opção de configurar seu servidor de borda ou pool de borda para usar um endereço NAT (conversão) de endereço de rede para o endereço IP externo. Você pode fazer isso marcando a caixa de seleção **O endereço IP externo deste pool de Borda é convertido pelo NAT**. Clique em **Avançar** quando estiver pronto.
     
 9. Na tela de FQDNs Externos, suas opções dependem da seleção feita na Etapa 7 acima.
     
@@ -212,10 +212,10 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Habilitar IPv6 na interface externa
     
-    Eles são bastante auto-explicativos, se você estiver usando endereços IPv4 ou IPv6, e você estiver aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isto em mente para a etapa 11).
+     Eles são bastante auto-explicativos, se você estiver usando endereços IPv4 ou IPv6, e você estiver aplicando esses endereços em seu servidor de borda interna ou externamente (você precisará ter isto em mente para a etapa 11).
     
-    > [!NOTE]
-    > Diferentemente de outras duas opções de topologia, ao usar um balanceador de carga de hardware, você **Não deve** selecionar a opção **o endereço IP externo do Pool de borda é convertido por NAT**. Essa opção **não é suportada**.
+     > [!NOTE]
+     > Diferentemente de outras duas opções de topologia, ao usar um balanceador de carga de hardware, você **Não deve** selecionar a opção **o endereço IP externo do Pool de borda é convertido por NAT**. Essa opção **não é suportada**.
   
 9. Na tela de FQDNs Externos, suas opções dependem da seleção feita na Etapa 7 acima.
     

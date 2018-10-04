@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um servidor de arquivamento, você pode remover os bancos de dados do SQL Server que hospedava os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologia e, em seguida, remover os arquivos de banco de dados e log do servidor de banco de dados.
-ms.openlocfilehash: c82f718cf86de653f6c1340d38e21e96cbaa150d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7c1fe6591564a690ea1da55fb65eb1071661d63
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027960"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370798"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Remover o banco de dados do SQL Server para um servidor de arquivamento
 
@@ -35,9 +35,9 @@ Depois de remover um servidor de arquivamento, você pode remover os bancos de d
     
 3. Na linha de comando, digite o seguinte:
     
-  ```
-  Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
-  ```
+   ```
+   Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
+   ```
 
     Onde _ \<FQDN\> _ é o nome de domínio totalmente qualificado (FQDN) do servidor de banco de dados, e _ \<instância\> _ é a instância do banco de dados nomeado (isto é, se houver uma definida). 
     

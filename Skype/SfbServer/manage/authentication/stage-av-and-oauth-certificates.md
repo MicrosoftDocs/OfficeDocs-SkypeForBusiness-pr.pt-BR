@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server.'
-ms.openlocfilehash: 3f616d7e67cf256cbf2a53ea86b3f051d959d4f5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996420"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375933"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Preparar certificados AV e OAuth no Skype para Business Server usando - Roll in Set-CsCertificate
  
@@ -60,19 +60,19 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
   
     O comando Set-CsCertificate com o parâmetro-Roll e - EffectiveTime:
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           <thumb print of new certificate> -Roll -EffectiveDate <date and time
           for certificate to become active>
-  ```
+   ```
 
     Um comando Set-CsCertificate de exemplo:
     
-  ```
-  Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
+   ```
+   Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
           6:00:00 AM"
-  ```
+   ```
 
     > [!IMPORTANT]
     > O EffectiveDate deve ser formatado para corresponder as configurações de idioma e região do seu servidor. O exemplo usa as configurações de Idioma e Região Inglês dos EUA 
@@ -106,11 +106,11 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     O comando Set-CsCertificate com o parâmetro-Roll e - EffectiveTime:
     
-  ```
-  Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
+   ```
+   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
           print of new certificate> -Roll -EffectiveDate <date and time for
           certificate to become active> -identity Global 
-  ```
+   ```
 
 Um comando Set-CsCertificate de exemplo:
     

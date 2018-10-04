@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Resumo: Saiba como usar o registro de serviço de registro em log centralizado (CLS) no Skype para Business Server 2015.'
-ms.openlocfilehash: 24b4d873694088b371a4db203c0081f7e9a8f493
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b9a42c671f90d00434a94a27830753d58afb9e0b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372125"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Agente CLS do Skype for Business Server 2015
  
@@ -74,35 +75,35 @@ Para interromper um cenário existente:
 Para pesquisar por logs, selecione a guia "Pesquisa CLS Logs" e clique no botão "Pesquisar Logs" depois de preencher os campos exibidos, conforme descrito a seguir:
   
 > **Pasta do arquivo de log** A pasta na qual os resultados da pesquisa do log são salvos. (Obrigatório)
-    
+> 
 > **Nível do log** Determina o nível mais baixo que será exibido nos resultados. Por exemplo: se for selecionado Aviso, serão exibidos somente Aviso, Erro e Fatal. O padrão é Depuração.
-    
+> 
 > **Pools** Pools de computador para executar a pesquisa de logs. Tratam-se dos nós pais no modo de exibição de árvore. (Obrigatório)
-    
+> 
 > **Computadores** Cada computador para a execução da pesquisa de logs. Todos são nós filhos no modo de exibição de árvore. (Obrigatório)
-    
+> 
 > **Hora de início** O período no qual o CLS consultará os logs. (Obrigatório)
-    
+> 
 > **Hora de fim** O período no qual o CLS interromperá a consulta dos logs. (Obrigatório)
-    
+> 
 > **Componentes** Usados para selecionar quais componentes adicionar à consulta. (Opcional)
-    
+> 
 > **ID da chamada** O ID da chamada de qualquer diálogo do SIP pelo qual ser filtrado. Observe que esse campo usa correspondência exata. (Opcional)
-    
+> 
 > **ID de conferência** O ID de conferência de todas as conferências a serem filtradas. Observe que esse campo usa correspondência exata. (Opcional)
-    
+> 
 > **Endereço IP** O endereço IP para ser filtrado. Observe que esse campo usa correspondência exata. (Opcional)
-    
+> 
 > **IDs de correlação** Instruções de rastreamento que são vinculadas logicamente por essa ID. (Opcional)
-    
+> 
 > **Número de telefone** Filtrar por número de telefone. (Opcional)
-    
+> 
 > **URI do SIP** Filtrar por URI do SIP. (Opcional)
-    
+> 
 > **Conteúdo da mensagem do SIP contém** Filtrar por conteúdo da mensagem do SIP; será uma pesquisa de substring dentro desse campo. (Opcional)
-    
+> 
 > **Corresponder qualquer** Pesquisa utilizando um OU lógico, se estiver marcado. O padrão é a correspondência exata de todos os parâmetros.
-    
+> 
 > **Ignorar logs de rede** Ignora a pesquisa pelos logs de rede, se estiver marcado.
     
 ![Registros de pesquisa do CLS Logger](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)

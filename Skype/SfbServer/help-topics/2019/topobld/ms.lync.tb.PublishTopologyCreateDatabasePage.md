@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Construtor de topologia fornece uma maneira para instalar bancos de dados em um repositório do SQL Server. Quando você instala os bancos de dados usando o construtor de topologia, o aplicativo lê as informações de topologia e em seguida, instala os bancos de dados necessários no computador SQL Server especificado ou cluster do SQL Server. Este é o único tipo de instalação de banco de dados disponível se for usar o Construtor de Topologias. Se você precisa instalar um banco de dados específico em um computador específico, ou se você deve instalar um banco de dados colocado, você deve usar o cmdlet Install-CsDatabase e interface de linha de comando do Windows PowerShell.
-ms.openlocfilehash: 087bed64e0e1d53cd610433c5695899107a9aa71
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 648dca60cd89cc9eeec7f4787b6464f716fdcee6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21066109"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371517"
 ---
 # <a name="create-database"></a>Criar Banco de Dados
  
@@ -31,9 +31,9 @@ Construtor de topologia fornece uma maneira para instalar bancos de dados em um 
     
 3. Clique em **Avançado**. Na caixa de diálogo **Selecionar Local do Arquivo de Banco de Dados**, selecione uma das opções a seguir:
     
-  - **Determinar o local do arquivo de banco de dados automaticamente**. Caso selecione essa opção, o Construtor de Topologias utiliza um algoritmo interno para escolher o local de armazenamento para os logs de banco de dados e arquivos de dados.
+   - **Determinar o local do arquivo de banco de dados automaticamente**. Caso selecione essa opção, o Construtor de Topologias utiliza um algoritmo interno para escolher o local de armazenamento para os logs de banco de dados e arquivos de dados.
     
-  - **Use o SQL Server instância padrões**. Se você selecionar essa opção, o algoritmo incorporado não é usado para escolher os locais de armazenamento para o banco de dados de logs e arquivos de dados. Em vez disso, os arquivos de log e de dados são armazenados nos locais especificados pelo caminho padrões do SQL Server (esses caminhos devem estar configurados no advanced por um administrador do SQL Server). Arquivos de dados serão armazenados no local do arquivo de dados padrão do SQL Server enquanto os arquivos de log serão armazenados no local do arquivo de log padrão do SQL Server.
+   - **Use o SQL Server instância padrões**. Se você selecionar essa opção, o algoritmo incorporado não é usado para escolher os locais de armazenamento para o banco de dados de logs e arquivos de dados. Em vez disso, os arquivos de log e de dados são armazenados nos locais especificados pelo caminho padrões do SQL Server (esses caminhos devem estar configurados no advanced por um administrador do SQL Server). Arquivos de dados serão armazenados no local do arquivo de dados padrão do SQL Server enquanto os arquivos de log serão armazenados no local do arquivo de log padrão do SQL Server.
     
 4. Clique em **OK**.
     

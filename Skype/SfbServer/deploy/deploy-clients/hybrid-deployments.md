@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Leia este tópico para saber como implantar o sistema de sala do Skype em um ambiente híbrido.
-ms.openlocfilehash: ce57178a03a466b76edfbafdcc467d9458028845
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997290"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375277"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Implantações híbridas do Sistema de Salas do Skype
  
@@ -28,9 +28,9 @@ Para fins ilustrativos, usamos LyncSample.com para o domínio local e LyncSample
   
 1. Crie uma caixa de correio de recurso no Centro de administração do Exchange (LyncSample.ccsctp.net) estabelecendo conexão com o shell de gerenciamento do Exchange Online, conforme descrito no Exchange Online provisionamento.
     
-  ```
-  New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
-  ```
+   ```
+   New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
+   ```
 
     Você pode verificar a conectividade do OWA usando lrstest5@LyncSample.ccsctp.net para fazer logon.
     
@@ -44,8 +44,8 @@ Para fins ilustrativos, usamos LyncSample.com para o domínio local e LyncSample
     
     Depois de criar a caixa de correio, você pode utilizar o Set-CalendarProcessing no Shell de Gerenciamento do Exchange Online para configurar a caixa de correio do. Consulte as etapas de 3 a 6 sob Implantações Locais da Floresta única para obter mais detalhes.
     
-    > [!NOTE]
-    > Se você tiver um ambiente híbrido com o Exchange Server e o Exchange Online, vá para o Shell de gerenciamento do Exchange e Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-sala. Em seguida, ative a Sincronização de Diretório. 
+   > [!NOTE]
+   > Se você tiver um ambiente híbrido com o Exchange Server e o Exchange Online, vá para o Shell de gerenciamento do Exchange e Enable-RemoteMailbox lrstest5@LyncSample.com - RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net-sala. Em seguida, ative a Sincronização de Diretório. 
   
     Se você quiser hospedar a caixa de correio do sistema do Skype sala no Exchange Online, estas etapas do Shell de gerenciamento do Exchange não são necessárias e prossiga para a etapa 6.
     

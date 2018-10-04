@@ -10,11 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para executar o Skype para Business Server 2015 ferramenta de Stress e desempenho, você vai precisa possam gerenciar usuários, contatos e perfis de usuário, configurar a ferramenta para execução e, em seguida, examine a saída ou resultados que são produzidos pela ferramenta.
-ms.openlocfilehash: 5f73ef6733c2f09cdf3e06bc8a6495c743d8b423
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375436"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Usando o Skype para Business Server 2015 ferramenta de Stress e desempenho
  
@@ -95,7 +96,7 @@ Quando você clica no botão **Criar usuários** , os parâmetros de entrada que
   
 Criação de usuário leva tempo, portanto, o plano de acordo. Esse processo pode levar de alguns minutos para alguns usuários, algumas horas para um grande número de usuários.
   
-Se você não tem acesso ao controlador de domínio do AD no seu ambiente de teste, você ainda pode validar a criação de usuário fazendo logon como um dos usuários no intervalo de usuários que você especificou para criar. Lembre-se utilizar o prefixo e o sufixo, juntamente com o @sipDomain como o nome de usuário. Aqui está um exemplo: *TestUser20@contoso.net* .
+Se você não tem acesso ao controlador de domínio do AD no seu ambiente de teste, você ainda pode validar a criação de usuário fazendo logon como um dos usuários no intervalo de usuários que você especificou para criar. Lembre-se utilizar o prefixo e o sufixo, juntamente com o @sipDomain como o nome de usuário. Aqui está um exemplo: <em>TestUser20@contoso.net</em> .
   
 > [!NOTE]
 > Se os usuários já existirem, clicando no botão Criar usuários irá atualizá-los com alterações na configuração. 
@@ -362,9 +363,9 @@ A ferramenta de configuração de carga (UserProfileGenerator.exe) cria um arqui
     
 2. Navegue até a pasta do cliente e executar o script de lote **RunClient** . Você pode clicar duas vezes o arquivo em lotes no Windows Explorer, e ele será executado todos os arquivos de configuração para que o cliente. Você também pode executar o script de uma pasta de cliente usando a seguinte sintaxe:
     
-  ```
-  RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
-  ```
+   ```
+   RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
+   ```
 
 Para executar a ferramenta de Stress e desempenho diretamente, abra um prompt de comando e digite o seguinte comando na linha de comando (e ao fazer isso pela primeira vez, certifique-se de registrar os contadores de desempenho `regsvr32 /i /n /s LyncPerfToolPerf.dll`, conforme mostrado na Observação neste tópico):
   

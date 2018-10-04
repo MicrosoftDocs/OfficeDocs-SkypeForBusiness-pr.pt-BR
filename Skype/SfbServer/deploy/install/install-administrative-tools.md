@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Resumo: Saiba como instalar as ferramentas administrativas necessárias para uma instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a51de57ca8eaa7d303af4240b5d30e8a5ca51f70
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f5e00075f34a6a09d36dede7c4cf2ac2a6ab60f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882127"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373054"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Instalar as ferramentas administrativas em Skype para Business Server
  
@@ -56,13 +56,13 @@ Veja as etapas do vídeo para **instalar ferramentas administrativas**:
     
     ![Componentes Principais na tela de aplicativos.](../../media/0da1d983-4c4b-4b23-a196-c3bdba4857c6.png)
   
-  - **Skype para o Assistente de implantação de servidor de negócios** Um programa de implantação que fornece um ponto de partida para instalar os vários componentes do Skype para Business Server.
+   - **Skype para o Assistente de implantação de servidor de negócios** Um programa de implantação que fornece um ponto de partida para instalar os vários componentes do Skype para Business Server.
     
-  - **Skype do Shell de gerenciamento do servidor de negócios** Um programa PowerShell pré-configurado que permita a administração do Skype para servidores de negócios.
+   - **Skype do Shell de gerenciamento do servidor de negócios** Um programa PowerShell pré-configurado que permita a administração do Skype para servidores de negócios.
     
-    Uma vez concluída a instalação dos componentes principais, o Skype para o Assistente de implantação do Business Server iniciará automaticamente, conforme mostrado na figura. 
+     Uma vez concluída a instalação dos componentes principais, o Skype para o Assistente de implantação do Business Server iniciará automaticamente, conforme mostrado na figura. 
     
-    ![Assistente de Implantação do Skype for Business Server](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Assistente de Implantação do Skype for Business Server](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. Além dos componentes principais, você também precisará instalar o Skype para o construtor de topologia de servidor de negócios e Skype para painel de controle do Business Server em pelo menos um servidor no ambiente. Clique em **Instalar ferramentas administrativas** no Assistente de Implantação.
     

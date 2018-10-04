@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: 58b84f083f77dde134dc0b2d7bab7fe60dcac5ea
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b98ba65555e8e94c743a87299b920f9ffd5efbfb
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883616"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372521"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
 
@@ -569,7 +569,7 @@ Será preciso adicionar sip.sipdomain.com a cada domínio SIP e o nome dos pools
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
-- **Opção 2.** Se você gostaria de usar um único certificado curinga em todos os servidores de pool de borda, implantar, então você pode usar uma entrada de SAN curinga de \*. sipdomain.com em vez do nome do pool de borda no certificado. O nome da entidade pode ser o nome do pool de Borda de acesso de quaisquer pools de Borda que você tenha implantado:
+- <strong>Opção 2.</strong> Se você gostaria de usar um único certificado curinga em todos os servidores de pool de borda, implantar, então você pode usar uma entrada de SAN curinga de \*. sipdomain.com em vez do nome do pool de borda no certificado. O nome da entidade pode ser o nome do pool de Borda de acesso de quaisquer pools de Borda que você tenha implantado:
 
   ```
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,

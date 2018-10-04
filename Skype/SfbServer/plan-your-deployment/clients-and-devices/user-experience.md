@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Resumo: Saiba mais sobre o novo Skype para negócios e as etapas que podem ser realizadas para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype para Business Online, Skype para Business Server 2015, Skype para Business Server 2015, Lync Server 2013, ou O Lync Server 2010.'
-ms.openlocfilehash: b5bfd0c48cb1e850fdaa88a991772306430a0b9f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 99a1be886c257c58f007b42ee549b31a2340721a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965674"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371170"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planejar o Skype para negócios 2015 experiência de cliente para seus usuários
  
@@ -80,9 +80,9 @@ Siga as etapas nesta seção se você quiser configurar a experiência de client
     
 - **Lync Server 2010** - você deve estar executando o de 2015 fevereiro atualização cumulativa (4.0.7577.710) para o Lync Server 2010 ou uma atualização posterior. Para obter informações, consulte [atualizações do Lync Server 2010](https://go.microsoft.com/fwlink/p/?LinkId=532771).
     
- **Etapa 2:** Em seguida, use uma diretiva de cliente para definir a experiência do cliente do Skype com o Skype para o cliente de negócios. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente.
+  **Etapa 2:** Em seguida, use uma diretiva de cliente para definir a experiência do cliente do Skype com o Skype para o cliente de negócios. Há **3 opções** para usar uma política de cliente para definir a experiência de cliente.
   
- **Opção 1:** defina a experiência de cliente do Skype usando uma política global. Observe que a política global se aplica a todos os usuários na sua implantação, mas as políticas de nível de usuário e site têm precedência sobre a política global:
+  **Opção 1:** defina a experiência de cliente do Skype usando uma política global. Observe que a política global se aplica a todos os usuários na sua implantação, mas as políticas de nível de usuário e site têm precedência sobre a política global:
   
 ```
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True

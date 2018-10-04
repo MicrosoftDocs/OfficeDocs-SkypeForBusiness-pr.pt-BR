@@ -18,12 +18,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 98701f55bd1cdf2c6a5f8177d05a95030a4a04a5
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3961aaa5bfe8ca17a28fa736f64a91a48414a494
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850085"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371947"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que os usuários do Skype for Business adicionem contatos do Skype
 
@@ -75,9 +75,9 @@ Para testar sua configuração, você precisa de um contato no Skype que não se
     
 4. Outra maneira de testar se o problema é o firewall é usar o wifi de um lugar que não tenha firewall, como uma cafeteria, e usar o Skype for Business para enviar uma solicitação ao contato do Skype para chat. 
     
-  - **Se você enviou uma solicitação ao seu contado do Skype e ele nunca a recebeu**, peça que ele envie uma solicitação de chat para você. Se o problema for estabelecimento de conexão entre o Skype e o Skype for Business, isso geralmente resolve o problema.
+   - **Se você enviou uma solicitação ao seu contado do Skype e ele nunca a recebeu**, peça que ele envie uma solicitação de chat para você. Se o problema for estabelecimento de conexão entre o Skype e o Skype for Business, isso geralmente resolve o problema.
     
-  - Agora, se a mensagem for enviada da cafeteria, mas não de seu trabalho, então você saberá que o problema é o firewall. 
+   - Agora, se a mensagem for enviada da cafeteria, mas não de seu trabalho, então você saberá que o problema é o firewall. 
     
 ## <a name="what-you-can-and-cant-do"></a>O que você pode ou não fazer
 

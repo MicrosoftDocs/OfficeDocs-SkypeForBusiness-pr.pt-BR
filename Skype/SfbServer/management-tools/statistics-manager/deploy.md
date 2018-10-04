@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumo: Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server 2015.'
-ms.openlocfilehash: 7730a6b933bbe1d627bffe175a24a60273be3a88
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371138"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Implantar o Gerenciador de Estatísticas para o Skype for Business Server 2015
  
@@ -87,19 +88,19 @@ Instale o serviço de ouvinte na máquina host executando o StatsManPerfAgentLis
     
 2. Na próxima página, especifique as seguintes informações:
     
-    - **Senha do Serviço:** esta é a senha que os Agentes remotos usarão para se autenticarem no serviço de escuta.
+   - **Senha do Serviço:** esta é a senha que os Agentes remotos usarão para se autenticarem no serviço de escuta.
     
-    - **Porta de serviço:** Esse é o número de porta HTTPS que o ouvinte usará para se comunicar com os agentes. Durante a instalação, essa porta poderão através do firewall local, será criada uma ACL de URL e um certificado SSL será vinculado a essa porta. O padrão é 8443.
+   - **Porta de serviço:** Esse é o número de porta HTTPS que o ouvinte usará para se comunicar com os agentes. Durante a instalação, essa porta poderão através do firewall local, será criada uma ACL de URL e um certificado SSL será vinculado a essa porta. O padrão é 8443.
     
-    - **Impressão digital do certificado:** Esta é a impressão digital do certificado que o ouvinte usará para criptografar o protocolo HTTPS. Serviço de rede deve ter acesso de leitura para a chave privada.
+   - **Impressão digital do certificado:** Esta é a impressão digital do certificado que o ouvinte usará para criptografar o protocolo HTTPS. Serviço de rede deve ter acesso de leitura para a chave privada.
     
-    Clique no botão **Selecionar...** para escolher a impressão digital.
+     Clique no botão **Selecionar...** para escolher a impressão digital.
     
-    Você pode encontrar a impressão digital do Certificado usando o Gerenciador de Certificados ou o seguinte comando do PowerShell:
+     Você pode encontrar a impressão digital do Certificado usando o Gerenciador de Certificados ou o seguinte comando do PowerShell:
     
-  ```
-  Get-ChildItem -path cert:\LocalMachine\My
-  ```
+   ```
+   Get-ChildItem -path cert:\LocalMachine\My
+   ```
 
    - **Instalar Dir:** Esse é o diretório no qual os binários serão instalados. Você pode alterá-lo do padrão usando o botão **Browse...** .
     
@@ -109,7 +110,7 @@ Instale o serviço de ouvinte na máquina host executando o StatsManPerfAgentLis
     
 Para validar a instalação, execute as etapas a seguir:
   
-1. Abra um navegador e navegue até https://localhost: \<porta do serviço\>/healthcheck/
+1. Abra um navegador e navegue atéhttps://localhost:\<service-port\>/healthcheck/
     
     Por padrão, a porta de serviço é 8443 (a menos que você tenha especificado outra porta).
     
@@ -139,7 +140,7 @@ Instale o site na máquina host executando o StatsManWebSite.msi e especificando
     
 Para exibir o site da Web, abra um navegador e navegue até: http://localhost, webport\>/.
   
-Para exibir somente informações de integridade, abra um navegador e navegue até: http://localhost: \<webport\>/verificação de integridade /.
+Para exibir somente informações de integridade, abra um navegador e navegue até: http://localhost:\<webport\>/healthcheck/.
   
 Por padrão, o número da porta da Web é 8080. Você pode alterar a associação de porta do site usando o gerenciador do IIS.
   
@@ -157,7 +158,7 @@ Instale um agente em cada Skype para servidor de negócios que você deseja moni
     
    - **URI do serviço:** Esse é o URI de onde o ouvinte reside. Ela deve usar o https://name:port formato.
     
-    Você pode usar um nome NetBIOS ou um FQDN. Você pode usar o nome que também é especificado como o **assunto** ou **Nomes alternativos do assunto** do certificado no serviço do ouvinte, mas isso não é um requisito.
+     Você pode usar um nome NetBIOS ou um FQDN. Você pode usar o nome que também é especificado como o **assunto** ou **Nomes alternativos do assunto** do certificado no serviço do ouvinte, mas isso não é um requisito.
     
    - **Pessoal Thumbprint:** Esta é a impressão digital do certificado SSL que do ouvinte está usando. O agente usará essa impressão digital para autenticar para o ouvinte. (Não farão completos de validação do certificado porque é possível usar certificados autoassinados.)
     
@@ -184,9 +185,9 @@ Para importar o Skype para topologia de servidores corporativos, siga estas etap
     
     a. Execute o seguinte comando: 
     
-  ```
-  Get-CsPool | Export-Clixml -Path mypoolinfo.xml
-  ```
+   ```
+   Get-CsPool | Export-Clixml -Path mypoolinfo.xml
+   ```
     b. Copie o arquivo de "mypoolinfo.xml" para o servidor que executa o ouvinte.
     
 2. No host que executa o Ouvinte:
@@ -195,15 +196,15 @@ Para importar o Skype para topologia de servidores corporativos, siga estas etap
     
    b. Navegue até o diretório no qual o Ouvinte está instalado. O padrão é: 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 3. Para confirmar quais servidores estão sendo adicionados e atualizados, execute o seguinte comando:
     
-  ```
+   ```
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
-  ```
+   ```
 
 O seguinte comando permite ver todas as opções:
   
@@ -221,15 +222,15 @@ Por exemplo-- se você gostaria de monitorar os servidores que não estão na su
   
 1. Navegue até o diretório no qual o Ouvinte está instalado. O padrão é: 
     
-  ```
-  cd C:\Program Files\Skype for Business Server StatsMan Listener
-  ```
+   ```
+   cd C:\Program Files\Skype for Business Server StatsMan Listener
+   ```
 
 2. Execute o seguinte comando:
     
-  ```
+   ```
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
-  ```
+   ```
 
 ## <a name="troubleshoot-your-deployment"></a>Solução de problemas de implantação
 <a name="BKMK_Troubleshoot"> </a>
@@ -273,9 +274,9 @@ A Microsoft recomenda que você use um certificado assinado por uma autoridade d
   
 1. Conectado como Administrador em um console do PowerShell, digite o seguinte:
     
-  ```
-  New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
-  ```
+   ```
+   New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
+   ```
 
 2. Tipo `certlm.msc`. Isso abrirá o Gerenciador de Certificados do computador local.
     
@@ -300,9 +301,9 @@ Para obter mais informações, consulte:
   
 - [Planejar para o Gerenciador de estatísticas de Skype Business Server 2015](plan.md)
     
-- [Atualizar o Gerenciador de estatísticas para Skype para Business Server 2015](upgrade.md)
+- [Atualização do Gerenciador de estatísticas do Skype for Business Server 2015](upgrade.md)
     
-- [Solucionar problemas de gerente de estatísticas para Skype para Business Server 2015](troubleshoot.md)
+- [Solução de problemas do Gerenciador de estatísticas do Skype for Business Server 2015](troubleshoot.md)
     
 - [Skype para o blog do Gerenciador de estatísticas do servidor de negócios](https://blogs.technet.microsoft.com/skypestatsman/)
     

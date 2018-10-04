@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e3ae4573531cebf8723294f42ee66453bfa73
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013807"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373171"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
@@ -134,14 +134,14 @@ _Tabela 2 - métricas de avaliação de integridade de destino principais_
 <tr>
 <th rowspan="2" colspan="2" valign="center">Tipo de rede</th><th rowspan="1">Destinos de qualidade</th><th colspan="2">Alvos de confiabilidade</th></tr>
 <tr><th>Fluxo de áudio de baixa taxa</th><th>Taxa de falha de instalação</th><th>Taxa de falha de recebimento</th></tr>
-<tr><td rowspan="2">**All**</td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td rowspan="2"><strong>All</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Geral</td><td>% de 3.0</td><td>% de 1.0</td><td>% de 3.0</td></tr>
-<tr><td rowspan="5">**Conferências**</td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td rowspan="5"><strong>Conferências</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Com fio interno</td><td>% de 1.0</td><td>0,5%</td><td>% de 1.0</td></tr>
 <tr><td>Wi-Fi 5 GHz interno</td><td>% de 1.0</td><td>0,5%</td><td>% de 1.0</td></tr>
 <tr><td>Wi-Fi 2,4 GHz interno</td><td>% de 4.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Geral</td><td>% de 2.0</td><td>0,5%</td><td>% de 3.0</td></tr>
-<tr><td rowspan="4">**P2P**</td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td rowspan="4"><strong>P2P</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Com fio/Wi-Fi 5 GHz interno</td><td>% de 1.0</td><td>0,5%</td><td>% de 1.0</td></tr>
 <tr><td>Com fio/Wi-Fi 5 GHz geral</td><td>% de 2.0</td><td>% de 1.0</td><td>% de 1.0</td></tr>
 <tr><td>Geral</td><td>% de 2.0</td><td>% de 1.0</td><td>% de 3.0</td></tr>
@@ -314,15 +314,15 @@ Alguns relatórios CQD exigem a inclusão de um filtro para sua ID de Inquilino.
 
 #### <a name="azure-powershell"></a>Azure PowerShell
 
-1.  [Instale o módulo de gerenciamento de serviço do Microsoft Azure PowerShell](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
+1. [Instale o módulo de gerenciamento de serviço do Microsoft Azure PowerShell](https://docs.microsoft.com/powershell/azure/servicemanagement/install-azure-ps?view=azuresmps-4.0.0).
 
-2.  Abra uma janela de comando do Azure PowerShell e execute o seguinte script, inserir suas credenciais do Office 365, quando solicitado: 
+2. Abra uma janela de comando do Azure PowerShell e execute o seguinte script, inserir suas credenciais do Office 365, quando solicitado: 
 
-  ```
-  Login-AzureRmAccount
-  ```
+   ```
+   Login-AzureRmAccount
+   ```
 
-3.  A ID do inquilino está listada na saída.
+3. A ID do inquilino está listada na saída.
 
 #### <a name="skype-for-business-online-admin-center"></a>Skype para negócios Online Admin Center
 
@@ -336,15 +336,15 @@ Alguns relatórios CQD exigem a inclusão de um filtro para sua ID de Inquilino.
 
 #### <a name="skype-for-business-online-using-powershell"></a>Skype para negócios Online usando o PowerShell
 
-1.  [Configurar o computador para o Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. [Configurar o computador para o Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-2.  Execute o seguinte comando:
+2. Execute o seguinte comando:
 
-  ```
-  (Get-cstenant).tenantid
-  ```
+   ```
+   (Get-cstenant).tenantid
+   ```
 
-3.  A ID do inquilino é exibida como um GUID.
+3. A ID do inquilino é exibida como um GUID.
 
 ### <a name="teams-vs-skype-for-business"></a>As equipes versus Skype para negócios
 
@@ -580,22 +580,22 @@ Este guia inclui [dois modelos CQD curated](https://aka.ms/qertemplates). Esses 
 
 **Para importar os modelos (. CQDX) em CQD Online**
 
-1.  Vá para <https://cqd.lync.com>.
+1. Vá para <https://cqd.lync.com>.
 
-2.  Autentica usando suas credenciais administrativas do Office 365.
+2. Autentica usando suas credenciais administrativas do Office 365.
 
-  > [!NOTE]
-  > Você deve ter o Office 365 Global administrador Skype para administrador de negócios ou função de leitores de relatório acessar CQD. 
+   > [!NOTE]
+   > Você deve ter o Office 365 Global administrador Skype para administrador de negócios ou função de leitores de relatório acessar CQD. 
 
-3.  Selecione o menu de **Relatórios de resumo** na parte superior da página e escolha **Relatórios detalhados**.
+3. Selecione o menu de **Relatórios de resumo** na parte superior da página e escolha **Relatórios detalhados**.
 
-4.  No painel Resumo, selecione **Importar**. Vá para o CQDX salvo local, selecione o modelo CQDX e selecione **Abrir**.
+4. No painel Resumo, selecione **Importar**. Vá para o CQDX salvo local, selecione o modelo CQDX e selecione **Abrir**.
 
-5.  Depois que o modelo for carregado, uma janela pop-up será exibida a mensagem "a importação de relatório teve êxito." Selecione **Okey.**
+5. Depois que o modelo for carregado, uma janela pop-up será exibida a mensagem "a importação de relatório teve êxito." Selecione **Okey.**
 
-  ![Notificação de que o modelo foi importado com êxito] (media/qerguide-image-importmessage.png "Notificação de que o modelo foi importado com êxito")
+   ![Notificação de que o modelo foi importado com êxito] (media/qerguide-image-importmessage.png "Notificação de que o modelo foi importado com êxito")
 
-6.  Repita as etapas 4 e 5 para o segundo modelo CQD.
+6. Repita as etapas 4 e 5 para o segundo modelo CQD.
 
 > [!NOTE]
 > Os modelos CQD são importados por usuário. Se outros usuários precisarem usar o relatório, eles devem entrar e importar os modelos em sua instância CQD. 
@@ -677,13 +677,13 @@ Aqui estão algumas coisas a considerar antes de implementar a combinação de r
 
 A qualidade dos dados de experiência (QoE) que os clientes enviam para Office 365 — que é onde os dados CQD originados de — inclui um sinalizador VPN. CQD verá isso como as dimensões VPN primeiro e segundo VPN. No entanto, esse sinalizador depende de relatórios de fornecedores de VPN para Windows que o adaptador de rede VPN registrado é um adaptador de acesso remoto. Nem todos os fornecedores VPN adequadamente registre os adaptadores de acesso remoto. Dessa forma, você não poderá usar os filtros de consulta VPN internos. Há duas abordagens para acomodar sub-redes VPN no edifício arquivo de informações:
 
--   Defina um **Nome de rede** usando o texto "VPN" neste campo para sub-redes da VPN.
+- Defina um **Nome de rede** usando o texto "VPN" neste campo para sub-redes da VPN.
 
   ![Relatório CQD que define como criar uma sub-rede VPN](media/qerguide-image-vpnnetworkname.png)
 
   _Figura 12 - VPN usando o nome de rede_
 
--   Defina um **Nome de construção** usando-se o texto "VPN" neste campo para sub-redes da VPN.
+- Defina um **Nome de construção** usando-se o texto "VPN" neste campo para sub-redes da VPN.
 
   ![Relatório CQD que define como criar uma definição de construção que consiste em uma sub-rede VPN.](media/qerguide-image-vpnbuildingname.png)
 
@@ -700,31 +700,31 @@ A qualidade dos dados de experiência (QoE) que os clientes enviam para Office 3
 
 O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de dados de Inquilino** , acessada selecionando a marca de link de **Carregamento de dados de Inquilino** no canto superior direito (procure o ícone de engrenagem). Esta página é usada para os administradores para carregar suas próprias informações, como o mapeamento de endereço IP e informações geográficas, mapeando cada ponto de acesso sem fio e seu endereço MAC e assim por diante.
 
-1.  Vá para CQD Online navegando até <https://cqd.lync.com>.
+1. Vá para CQD Online navegando até <https://cqd.lync.com>.
 
-2.  Selecione o ícone de engrenagem no canto superior direito e escolha o **Carregamento de dados de Inquilino** na página **Relatórios de resumo** .
+2. Selecione o ícone de engrenagem no canto superior direito e escolha o **Carregamento de dados de Inquilino** na página **Relatórios de resumo** .
 
-  ![Caixa de diálogo é exibida enquanto está sendo carregados dados](media/qerguide-image-tenantdataupload.png)
+   ![Caixa de diálogo é exibida enquanto está sendo carregados dados](media/qerguide-image-tenantdataupload.png)
 
-  _Figura 14 - menu de carregamento de dados de Inquilino_
+   _Figura 14 - menu de carregamento de dados de Inquilino_
 
-3.  Como alternativa, se essa for a primeira vez em que visitando CQD, você será solicitado para carregar dados de construção. Você pode selecionar **Carregar Agora** para navegar rapidamente para a página de **Carregamento de dados de Inquilino** .
+3. Como alternativa, se essa for a primeira vez em que visitando CQD, você será solicitado para carregar dados de construção. Você pode selecionar **Carregar Agora** para navegar rapidamente para a página de **Carregamento de dados de Inquilino** .
 
-  ![Banner que notifica o usuário para carregar dados de construção](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Banner que notifica o usuário para carregar dados de construção](media/qerguide-image-buildingdatauploadbanner.png)
 
-  _Figura 15 - criando banner de carregamento de dados_
+   _Figura 15 - criando banner de carregamento de dados_
 
-4.  Na página de **Carregamento de dados de Inquilino** , selecione **Procurar** para escolher um arquivo de dados.
+4. Na página de **Carregamento de dados de Inquilino** , selecione **Procurar** para escolher um arquivo de dados.
 
-5.  Depois de selecionar um arquivo de dados, especifique a **Data de início** e, opcionalmente, especifique uma data de término.
+5. Depois de selecionar um arquivo de dados, especifique a **Data de início** e, opcionalmente, especifique uma data de término.
 
-6.  Depois de selecionar a **Data de início**, selecione **carregar** para carregar o arquivo CQD. <br><br>Antes do arquivo for carregado, ele será validado. Se a validação falhar, uma mensagem de erro é exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorrem quando o número de colunas no arquivo de dados está incorreto.
+6. Depois de selecionar a **Data de início**, selecione **carregar** para carregar o arquivo CQD. <br><br>Antes do arquivo for carregado, ele será validado. Se a validação falhar, uma mensagem de erro é exibida solicitando que você corrija o arquivo. A figura a seguir mostra um erro que ocorrem quando o número de colunas no arquivo de dados está incorreto.
 
-  ![Exemplo de uma caixa de diálogo que exibe uma mensagem de erro ao importar dados de construção](media/qerguide-image-buildingdatauploaderror.png)
+   ![Exemplo de uma caixa de diálogo que exibe uma mensagem de erro ao importar dados de construção](media/qerguide-image-buildingdatauploaderror.png)
  
-  _Figura 16 - criando o erro de carregamento de dados_
+   _Figura 16 - criando o erro de carregamento de dados_
 
-7.  Se nenhum erro ocorrer durante a validação, o carregamento de arquivo terá êxito. Em seguida, você pode ver o arquivo de dados carregados na **Minhas carregamentos de** tabela, que mostra a lista completa de todos os arquivos carregados para o locatário atual na parte inferior da página.
+7. Se nenhum erro ocorrer durante a validação, o carregamento de arquivo terá êxito. Em seguida, você pode ver o arquivo de dados carregados na **Minhas carregamentos de** tabela, que mostra a lista completa de todos os arquivos carregados para o locatário atual na parte inferior da página.
 
 > [!NOTE]
 > Pode levar até quatro horas para concluir o processamento do arquivo de construção. <br><br> Se você já tiver carregado um arquivo de construção e precisa para adicionar as sub-redes que podem ter sido perdidas ou excluídos, modifique o arquivo original adicionando novas sub-redes, remova o arquivo atual e reenvie o arquivo recentemente editado. Pode haver construção ativa apenas um arquivo de dados em CQD. 
@@ -898,11 +898,11 @@ Agora como começar sua remediação, é possível focar seus esforços em um ed
 
 _A tabela 8 - próximas etapas para a chamada de correção de falha de instalação_
 
-| Remediação           | Orientação     |
-|-----------------------|--------------|
-| Configurar firewalls | Trabalhar com a equipe de rede e verifique se a sua configuração de firewalls contra [a lista de endereços IP do Office 365](https://aka.ms/o365ips).<br><br>Verifique se as portas e [sub-redes de mídia](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) são incluídas nas regras de firewall. <br><br>Verifique se as portas necessárias (listadas abaixo) são abertas no firewall. UDP deve ser dada prioridade porque TCP é considerado um protocolo de failback para áudio, vídeo e compartilhamento de tela de vídeo e seu uso afetará a qualidade da chamada. Compartilhamento de aplicativos RDP herdado usa apenas TCP.<br><ul><li>**TCP:** a porta 443</li><li>**UDP:** portas 3478 – 3481</li><ul> |
-| Verifique se                | Use a [Ferramenta de avaliação de rede Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para verificar a conectividade do edifício afetado ou sub-rede usando a função de verificação de conectividade.    |
 
+|      Remediação      |                                                                                                                                                                                                                                                                                                                                                                   Orientação                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configurar firewalls | Trabalhar com a equipe de rede e verifique se a sua configuração de firewalls contra [a lista de endereços IP do Office 365](https://aka.ms/o365ips).<br><br>Verifique se as portas e [sub-redes de mídia](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) são incluídas nas regras de firewall. <br><br>Verifique se as portas necessárias (listadas abaixo) são abertas no firewall. UDP deve ser dada prioridade porque TCP é considerado um protocolo de failback para áudio, vídeo e compartilhamento de tela de vídeo e seu uso afetará a qualidade da chamada. Compartilhamento de aplicativos RDP herdado usa apenas TCP.<br><ul><li>**TCP:** a porta 443</li><li>**UDP:** portas 3478 – 3481</li><ul> |
+|        Verifique se         |                                                                                                                                                                                                                                                                 Use a [Ferramenta de avaliação de rede Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para verificar a conectividade do edifício afetado ou sub-rede usando a função de verificação de conectividade.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Falhas de recebimento
 

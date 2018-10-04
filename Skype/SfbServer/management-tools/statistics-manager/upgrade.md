@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumo: Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server 2015.'
-ms.openlocfilehash: e5a9dd230f16313388cbb9a51e50910979e6c79c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374854"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Atualização do Gerenciador de estatísticas do Skype for Business Server 2015
  
@@ -49,9 +50,9 @@ O script reunirá suas informações de certificado e senha do ouvinte atuais, d
     
 2. Abra uma janela de administrador do PowerShell. Atualize o componente do Ouvinte:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Listener
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Listener
+   ```
 
 > [!NOTE]
 > A senha do serviço Gerenciador de estatísticas será exibida em texto não criptografado na linha de comando conforme ele é passado para o instalador. Proteja seu monitor conforme necessário. 
@@ -62,29 +63,29 @@ O script reunirá suas informações de certificado e senha do ouvinte atuais, d
     
 3. Continue o processo de instalação. Você notará que a senha de serviço e a impressão digital do certificado são pré-preenchidos. Se não forem, adicione os valores salvos antes de continuar.
     
-3. Abra uma janela de administrador do PowerShell. Atualize o componente do site:
+4. Abra uma janela de administrador do PowerShell. Atualize o componente do site:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Website
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Website
+   ```
 
-1. Na execução do script, você será solicitado a desinstalar a versão antiga do produto. Responda Sim.
+5. Na execução do script, você será solicitado a desinstalar a versão antiga do produto. Responda Sim.
     
-2. Se o serviço do Agente estiver em operação, você será solicitado a fechar o aplicativo antes de continuar. Permita que o aplicativo seja fechado (o serviço do Agente StatsMan será interrompido).
+6. Se o serviço do Agente estiver em operação, você será solicitado a fechar o aplicativo antes de continuar. Permita que o aplicativo seja fechado (o serviço do Agente StatsMan será interrompido).
     
-3. Continue o processo de instalação. Você notará que a senha de serviço e a impressão digital do certificado são pré-preenchidos. Se não forem, adicione os valores salvos antes de continuar.
+7. Continue o processo de instalação. Você notará que a senha de serviço e a impressão digital do certificado são pré-preenchidos. Se não forem, adicione os valores salvos antes de continuar.
     
-4. Abra uma janela de administrador do PowerShell. Atualize o componente do Agente:
+8. Abra uma janela de administrador do PowerShell. Atualize o componente do Agente:
     
-  ```
-  .\Update-StatsMan.ps1 -Service Agent
-  ```
+   ```
+   .\Update-StatsMan.ps1 -Service Agent
+   ```
 
-1. Na execução do script, você será solicitado a desinstalar a versão antiga do produto. Responda Sim.
+9. Na execução do script, você será solicitado a desinstalar a versão antiga do produto. Responda Sim.
     
-2. Continue o processo de instalação. Você notará que a porta do site é pré-preenchida. Se não for, adicione o valor salvo antes de continuar.
+10. Continue o processo de instalação. Você notará que a porta do site é pré-preenchida. Se não for, adicione o valor salvo antes de continuar.
     
-3. Verifique se o site está funcionando conforme esperado usando o navegador.
+11. Verifique se o site está funcionando conforme esperado usando o navegador.
     
 > [!NOTE]
 > A atualização do Agente pode ser usada com o comutador -NoPrompt. Isso permitirá que o processo de desinstalação/instalação seja executado silenciosamente, permitindo que ferramentas como PSExec sejam executadas remotamente durante a atualização em vários servidores. 
@@ -124,9 +125,9 @@ Para obter mais informações, consulte:
   
 - [Planejar para o Gerenciador de estatísticas de Skype Business Server 2015](plan.md)
     
-- [Implantar o Gerenciador de estatísticas para Skype para Business Server 2015](deploy.md)
+- [Implantar o Gerenciador de Estatísticas para o Skype for Business Server 2015](deploy.md)
     
-- [Solucionar problemas de gerente de estatísticas para Skype para Business Server 2015](troubleshoot.md)
+- [Solução de problemas do Gerenciador de estatísticas do Skype for Business Server 2015](troubleshoot.md)
     
 - [Skype para o blog do Gerenciador de estatísticas do servidor de negócios](https://blogs.technet.microsoft.com/skypestatsman/)
     

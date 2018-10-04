@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: 6df9574bb6d999e4800c727f6cbabe0aa68818e9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f4428a0f3ec5e1da5267c23f9064815206262893
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244192"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373840"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de telefone não atribuído: Criar nova ou editar existente
 
@@ -51,7 +51,7 @@ A lista a seguir descreve os campos na página.
 
   - **Comunicado** Selecione o anúncio a ser reproduzido para esse intervalo de números não atribuídos.
 
--  Se você tiver selecionado **UM do Exchange** para **serviço de anúncio**:
+- Se você tiver selecionado **UM do Exchange** para **serviço de anúncio**:
 
   - **Número de telefone do atendedor automático** Selecione o número de telefone para o Atendedor de automático UM do Exchange.
 

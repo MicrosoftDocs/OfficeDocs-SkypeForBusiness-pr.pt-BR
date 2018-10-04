@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Este tópico aborda os procedimentos de implantação para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual.
-ms.openlocfilehash: d939d2b269d6488de1df09e3f8aff08e2b83458e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986100"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373341"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implantar o Lync VDI plug-in com Skype para Business Server
  
@@ -50,11 +50,11 @@ Para preparar a Conexão de área de trabalho remota para o Lync VDI plug-in, si
     
 4. Clique na guia **Recursos Locais**. Em **Áudio remoto**, clique em **Configurações** e faça o seguinte:
     
-  - Em **Reprodução de áudio remoto**, selecione **Reproduzir neste computador**.
+   - Em **Reprodução de áudio remoto**, selecione **Reproduzir neste computador**.
     
-  - Em **Gravação de áudio remoto**, selecione **Não gravar**.
+   - Em **Gravação de áudio remoto**, selecione **Não gravar**.
     
-  - Clique em **OK**.
+   - Clique em **OK**.
     
 5. Clique na guia **Experiência**. Em **Desempenho**, desmarque a caixa de seleção **Armazenamento persistente de bitmaps em cache**.
     

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Resumo: Leia este tópico para saber como adicionar bancos de dados de arquivamento à sua Skype para implantação de servidor de negócios.'
-ms.openlocfilehash: 1b6aef3d1b00a6736206cd3cf4c0061f0e720ad6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c2e92b1da9dd5e9827b362bf4979ffba075c4402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969121"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372948"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Adicionar bancos de dados de arquivamento a uma implantação existente no Skype para Business Server
  
@@ -63,19 +63,19 @@ ms.locfileid: "20969121"
     
    - Para especificar um novo repositório do SQL Server para espelhamento, clique em **novo**e, em seguida, na caixa de diálogo **Definir novo repositório do SQL Server** , siga um destes procedimentos:
     
-    a. Em **FQDN do SQL Server**, especifique o FQDN do SQL Server no qual você deseja criar o novo repositório do SQL Server.
+     a. Em **FQDN do SQL Server**, especifique o FQDN do SQL Server no qual você deseja criar o novo repositório do SQL Server.
     
-    b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
+     b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
     
-    c. Se a instância especificada do SQL Server estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
+     c. Se a instância especificada do SQL Server estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
     
    - Se você habilitar o espelhamento do SQL Server e deseja incluir um (uma terceira, separada instância do SQL Server que pode detectar a integridade das instâncias do SQL Server e espelho primárias) de testemunha de espelhamento do SQL Server, selecione o **testemunha de espelhamento de usar do SQL Server para habilitar automática failover** caixa de seleção e, em seguida, execute um dos seguintes:
     
-    a. Em **FQDN do SQL Server**, especifique o FQDN do servidor no qual você deseja criar o novo SQL Server testemunha de espelhamento.
+     a. Em **FQDN do SQL Server**, especifique o FQDN do servidor no qual você deseja criar o novo SQL Server testemunha de espelhamento.
     
-    b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar para a testemunha de espelhamento.
+     b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar para a testemunha de espelhamento.
     
-    c. Se a instância especificada do SQL Server estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
+     c. Se a instância especificada do SQL Server estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação de espelhamento** e, em seguida, em **número da porta espelho**, especifique o número da porta.
     
 10. Para salvar a configuração, clique em **OK**.
     

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 52e02ff1f87d06088636b2f44706ec03c62675f3
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965888"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373644"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operações e manutenção de v2 de sistemas de sala do Skype 
  
@@ -234,9 +234,9 @@ O console agora é novamente em seu modo de operação normal. O procedimento a 
     
 4. Quando tiver terminado, reinicie a máquina.
     
- O console é reiniciado em seu modo de operação normal, executando o aplicativo de v2 Skype sistemas de sala. Você pode remover o teclado, se ele foi conectado para permitir que você executar esse procedimento.
-## <a name="troubleshooting-tips"></a>Dicas para solução de problemas
-<a name="TS"> </a>
+   O console é reiniciado em seu modo de operação normal, executando o aplicativo de v2 Skype sistemas de sala. Você pode remover o teclado, se ele foi conectado para permitir que você executar esse procedimento.
+   ## <a name="troubleshooting-tips"></a>Dicas para solução de problemas
+   <a name="TS"> </a>
 
 - Convites de reunião podem não aparecer quando enviado nos limites do domínio (por exemplo, entre as duas empresas). Nesses casos, os administradores de TI devem decidir se deseja permitir que usuários externos agendar uma reunião.
     

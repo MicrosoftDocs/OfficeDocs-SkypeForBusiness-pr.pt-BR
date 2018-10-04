@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba quais telefones da Polycom, HP, and Mitel funcionam com o Skype for Business e as licenças necessárias. '
-ms.openlocfilehash: d7b8b92d268ab6ba4cf0c5dd49eab15586c95ba3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b218161268855a1b89aa54fd0e40c4b308db40d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890271"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371561"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
-Skype para Business Online qualifica e oferece suporte a telefones de mesa para os usuários que desejam ter uma experiência de telefone tradicional, em vez de usar o Skype para o aplicativo de negócios. Este tópico aborda os telefones e as versões de firmware suportados para uso em Skype para Business Online e outras informações que podem ajudá-lo quando você estiver configurando telefones em sua organização.
+Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
   
 Para obter as atualizações mais recentes e a maioria das informações atualizadas sobre os dispositivos suportados, consulte o [Skype para catálogo de dispositivo corporativos](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
@@ -40,7 +40,7 @@ Para Skype para usuários corporativos Online, você poderá escolher entre vár
   
 Microsoft é parceria e trabalhando em conjunto com o Polycom, Yealink e AudioCodes para desenvolver e certificar a uma ampla variedade de dispositivos por meio de parceiro IP Phone programa (PIP) para o sistema telefônico no Office 365 e Skype para Business Server.
   
-Quando os pedidos novos telefones para Skype para os negócios, é importante comprar telefones com a *ID de produto certo*. Estas IDs de produto garantirá que os telefones que receber tenham o Skype para Business Online versão qualificado já instalado.
+When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
   
 |||
 |:-----|:-----|
@@ -56,9 +56,9 @@ Para obter mais detalhes sobre os telefones Yealink, veja [Telefones IP do Skype
 Para obter mais detalhes em AudioCodes telefones, consulte [Skype para telefones IP de negócios](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition é suportado com Skype para Business Online, mas não com o Microsoft Teams. Suporte principal para a plataforma LPE encerrada até 10/abril/2014, com suporte estendido até abril/11/2023 para alinhar com o ciclo de vida de suporte de produto do Lync Server 2013. Para obter detalhes sobre o ciclo de vida LPE, consulte o [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) . Modelos de COBRIR LPE não são suportados com Skype para negócios Online.
+> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/en-us/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
 >
-> Este ano, o Office 365 não dará suporte a nenhuma versão do TLS anterior a 1.2. Como o sistema operacional subjacente do LPE não oferece suporte a TLS 1.2, LPE não poderá mais se conectar ao Office 365. Para obter mais informações, consulte o [Preparando para o uso obrigatório de TLS 1.2 no Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365).
+> Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
   
 ## <a name="supported-firmware"></a>Com suporte do firmware
 
@@ -73,13 +73,13 @@ Esta é a versão mínima de software necessária para telefones compatíveis tr
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezembro de 2016  <br/> |
    
 > [!NOTE]
-[!OBSERVAçãO] Os telefones Lync Phone Edition (LPE) configurados para sua implantação local devem ser atualizados para o firmware mínimo ou superior necessário antes de você mover esses usuários para o Skype for Business Online. Se você mover os usuários locais para o Skype for Business Online antes de atualizar o firmware nos telefones, esses telefones não poderão conectar-se ao Skype for Business Online. 
+> [!OBSERVAçãO] Os telefones Lync Phone Edition (LPE) configurados para sua implantação local devem ser atualizados para o firmware mínimo ou superior necessário antes de você mover esses usuários para o Skype for Business Online. Se você mover os usuários locais para o Skype for Business Online antes de atualizar o firmware nos telefones, esses telefones não poderão conectar-se ao Skype for Business Online. 
   
 ## <a name="required-licenses"></a>Licenças necessárias
 
-Skype para Business Online não exige qualquer licença da Microsoft adicional que não seja as licenças de usuário. Para saber mais sobre as licenças de usuário necessárias, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+Skype for Business Online doesn't require any additional Microsoft license other than the user licenses. To learn more about the required user licenses, see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-Modelos de licenciamento do fabricante pode variar entre open SIP e Skype para negócios Certified firmware. Se você estiver reorientando um modelo de certificado com um firmware de SIP aberto, deverá verificar os requisitos de licenciamento do firmware com o fabricante.
+Manufacturer licensing models might vary between open SIP and Skype for Business Certified firmware. If you are repurposing a certified model with an Open SIP firmware, you will need to verify firmware license requirements with the manufacturer.
   
 ## <a name="skype-for-business-online-connected-phones-feature-set"></a>Skype para o conjunto de recursos de telefones corporativos Online conectados
 
@@ -111,7 +111,7 @@ Para o dispositivo completo de recursos e capacidades, verifique os guias de usu
 
      
 > [!NOTE]
-> CX 600 ou quaisquer outros telefones Aries não oferecem suporte a autenticação multifator (MFA). Se você forçar MFA, esses dispositivos não poderão se conectar. Esses dispositivos devem usar somente ID da organização para autenticação.
+> CX 600 or any other Aries phones don't support multifactor authentication (MFA). If you force MFA, these devices will fail to sign-in. These devices must use only Org ID for authetication.
  
 ## <a name="what-else-should-you-know"></a>O que mais você deve saber?
 Para obter instruções de configuração passo a passo, veja [Implantar telefones para o Skype for Business Online](deploying-skype-for-business-online-phones.md).

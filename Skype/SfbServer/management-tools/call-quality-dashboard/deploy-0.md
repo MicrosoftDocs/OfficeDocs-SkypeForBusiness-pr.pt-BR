@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 860792fc39deed592f0d4369018cf85dd7de4a74
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988983"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372638"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implantar o painel de controle de qualidade de chamada para Skype para Business Server 2015
  
@@ -78,15 +78,15 @@ Configurando a infraestrutura e instalando o software envolve a implantação do
     
    - **Use várias partições:** O padrão é definido como "Vários partição", que requer a edição de Business Intelligence ou Enterprise edition do SQL Server. Para o Standard edition, selecione a opção de "Única partição". Observe que o desempenho de processamento de cubo pode ser afetado se única partição for usada.
     
-    > [!NOTE]
-    > A seleção da opção usar várias partições não pode ser alterada depois que terminar a instalação. Para alterá-lo, o cubo de recurso deve ser o primeiro desinstalada e então reinstalado usando a opção "Alterar" no painel de controle. 
+     > [!NOTE]
+     > A seleção da opção usar várias partições não pode ser alterada depois que terminar a instalação. Para alterá-lo, o cubo de recurso deve ser o primeiro desinstalada e então reinstalado usando a opção "Alterar" no painel de controle. 
   
    - **Partição de diretório do arquivo:** Caminho para onde as partições do banco de dados de arquivo morto de QoE devem ser colocadas. Este deve ser em uma unidade separada (HDD3 na configuração de hardware recomendada) da unidade do sistema operacional e unidade de arquivos de log de banco de dados SQL. Observe que como os nomes de arquivo são corrigidos na instalar, para evitar conflitos potenciais, é recomendável que um diretório em branco com nenhum arquivo ser usado.
     
    - **Usuário de trabalho do SQL Agent - nome de usuário &amp; senha:** Nome de conta de serviço de domínio e a senha (mascaradas) que será usada para executar a etapa de "Dados de arquivamento do QoE" do trabalho de SQL Server Agent (que executará o procedimento armazenado para buscar dados do banco de dados de métricas de QoE em Archive DB, portanto, essa conta deve ter acesso de leitura ao banco de dados de métricas de QoE,  conforme indicado na seção contas. Essa conta também precisa ter um logon na instância do QoE Archive SQL Server).
     
-    > [!NOTE]
-    > A conta que a instância do SQL Server está sendo executado em, como NT SERVICE\MSSQLSERVER, deve ter permissão de acesso/para os diretórios de dado acima para a instalação ter sucesso. Para obter detalhes, consulte [Configurar permissões do sistema do arquivo para acesso do mecanismo de banco de dados](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > [!NOTE]
+     > A conta que a instância do SQL Server está sendo executado em, como NT SERVICE\MSSQLSERVER, deve ter permissão de acesso/para os diretórios de dado acima para a instalação ter sucesso. Para obter detalhes, consulte [Configurar permissões do sistema do arquivo para acesso do mecanismo de banco de dados](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
   
 7. Após clicar em Avançar, o instalador executará verificações de pré-requisito e o relatório se ocorrerem problemas. Quando verificações de pré-requisito tudo secreta, o instalador irão para a página Configuração do cubo. 
     
@@ -101,13 +101,13 @@ Configurando a infraestrutura e instalando o software envolve a implantação do
     
    - **Cubos do Analysis Server:** Nome de instância do SQL Server Analysis Service para onde o cubo deve ser criada. Isso pode ser uma máquina diferente, mas o usuário de instalação deve ser um membro do grupo Administradores de servidor da instância do SQL Server Analysis Service de destino.
     
-    > [!NOTE]
-    >  Para obter mais informações sobre como configurar permissões de administrador do servidor de serviços de análise, consulte [Conceder permissões de administrador do servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     > [!NOTE]
+     >  Para obter mais informações sobre como configurar permissões de administrador do servidor de serviços de análise, consulte [Conceder permissões de administrador do servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
   
    - **Use várias partições:** O padrão é definido como "Vários partição", que requer a edição de Business Intelligence ou Enterprise edition do SQL Server. Para o Standard edition, selecione a opção de "Única partição". Observe que o desempenho de processamento de cubo pode ser afetado se única partição for usada.
     
-    > [!NOTE]
-    >  A seleção da opção usar várias partições não pode ser alterada depois que terminar a instalação. Para alterá-lo, o cubo de recurso deve ser o primeiro desinstalada e então reinstalado usando a opção "Alterar" no painel de controle.
+     > [!NOTE]
+     >  A seleção da opção usar várias partições não pode ser alterada depois que terminar a instalação. Para alterá-lo, o cubo de recurso deve ser o primeiro desinstalada e então reinstalado usando a opção "Alterar" no painel de controle.
   
    - **User - nome de usuário de cubos &amp; senha:** Nome de conta de serviço de domínio e a senha (mascaradas) que acionará o processamento do cubo. Se o componente de arquivo morto de QoE foi selecionado para a instalação, esse campo será preenchido com o valor fornecido na página Configuração de arquivamento para o usuário de trabalho de agente do SQL, mas recomendamos que você especificar uma conta de serviço de domínio diferente para que a instalação pode conceder a privilégios mínimos necessários a ela.
     
@@ -259,7 +259,7 @@ Exemplos
     
 - Local de risco de junção
     
- **Sintaxe SQL de amostra**
+  **Sintaxe SQL de amostra**
   
 ```
 INSERT INTO
@@ -290,7 +290,7 @@ Exemplos
     
 - Subsidiária concedida
     
- **Sintaxe SQL de amostra**
+  **Sintaxe SQL de amostra**
   
 ```
 INSERT INTO
@@ -320,7 +320,7 @@ Exemplos
     
 - LABORATÓRIO
     
- **Sintaxe SQL de amostra**
+  **Sintaxe SQL de amostra**
   
 ```
 INSERT INTO [dbo].[CqdNetworkName] 

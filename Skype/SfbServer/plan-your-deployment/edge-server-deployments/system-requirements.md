@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumo: Saiba mais sobre os requisitos de sistema para o servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: 3e5bdd5ad47004f7908a8bd39cb122d1f03ce96f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886966"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374868"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos de sistema do servidor de borda no Skype para Business Server
  
@@ -99,7 +99,7 @@ Nossas recomendações de proxy reverso atual podem ser encontradas na página d
     
 - deve ser capaz de publicar externamente um site Web hospedado internamente, pelo uso de um nome de domínio totalmente qualificado (FQDN).
     
-- deve ser capaz de publicar todos os conteúdos do site da Web hospedado. Por padrão, você pode usar o ** / ** diretiva, que é reconhecida pela maioria dos servidores web para significar "Publicar todo o conteúdo no servidor web". Você também pode modificar a diretiva — por exemplo, **/Uwca/\***, que significa "publica todo o conteúdo sob o diretório virtual Ucwa."
+- deve ser capaz de publicar todos os conteúdos do site da Web hospedado. Por padrão, você pode usar o ** / *** diretiva, que é reconhecida pela maioria dos servidores web para significar "Publicar todo o conteúdo no servidor web". Você também pode modificar a diretiva — por exemplo, * * /Uwca/\\* * *, que significa "publica todo o conteúdo sob o diretório virtual Ucwa."
     
 - deve exigir conexões TLS com clientes que solicitam conteúdo de seu site da Web publicado.
     

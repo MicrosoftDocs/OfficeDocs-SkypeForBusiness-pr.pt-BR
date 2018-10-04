@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62eb0e6fbae734a83fd96f89203db0547938e9d3
-ms.sourcegitcommit: 7f721d89559831de2cf1495feb0fc57b22b77d78
+ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018582"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372177"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
@@ -65,7 +65,7 @@ Os pacotes podem ser encontrados na [página de download](https://1drv.ms/f/s!Ar
 5. Clique em **Adicionar ou remover um pacote de provisionamento**. 
 6. Clique em **Adicionar pacote**.
 7. Selecione a opção de **Mídia removível** no menu suspenso. 
-8. Adicione o pacote adequado **TeamsRTMMode*.ppkg** que anteriormente foi copiado para a chave USB. 
+8. Adicione o pacote adequado <strong>TeamsRTMMode*.ppkg</strong> que anteriormente foi copiado para a chave USB. 
 9. Reinicie o dispositivo do Hub de superfície. 
 10. Depois que o dispositivo for reiniciado, você poderá iniciar o aplicativo de equipes na tela de início e ingressar em uma reunião do calendário. 
 

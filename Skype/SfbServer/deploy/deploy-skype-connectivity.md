@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: Saiba como conectar Skype para Business Server com Skype consumidor. Também conhecida como a conectividade do Skype.'
-ms.openlocfilehash: f40b109fe63c05b3e7b0f2dc6a2b58b9a42d4434
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988498"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372450"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar a conectividade do Skype no Skype para Business Server
  
@@ -200,17 +200,17 @@ Também é possível configurar a Conectividade Skype usando somente o PowerShel
 
     Qual é a função dos parâmetros menos óbvios?
     
-  - ProxyFqdn: localização da borda de federação do Skype (própria/mantida pela Microsoft)
+   - ProxyFqdn: localização da borda de federação do Skype (própria/mantida pela Microsoft)
     
-  - IconURL: ícone usado pelo Lync &amp; Skype para o cliente de negócios identificar visualmente os contatos do Skype
+   - IconURL: ícone usado pelo Lync &amp; Skype para o cliente de negócios identificar visualmente os contatos do Skype
     
-  - NameDecorationRoutingDomain e NameDecorationExcludedDomainList: configurá-los permite que os usuários insiram MSAs dos usuários do Skype sem precisar saber sobre "decorando" domínios de não-Microsoft com "msn.com". Isso elimina a necessidade de digitar "@msn.com (contoso.com) do usuário" para todos os domínios que não estão no ExcludedDomainList. O cliente SfB formatará automaticamente o MSA se o domínio NÃO estiver na lista de exclusões. Adicionamos os domínios mais comuns do Microsoft Account lista excluída.
+   - NameDecorationRoutingDomain e NameDecorationExcludedDomainList: configurá-los permite que os usuários insiram MSAs dos usuários do Skype sem precisar saber sobre "decorando" domínios de não-Microsoft com "msn.com". Isso elimina a necessidade de digitar "@msn.com (contoso.com) do usuário" para todos os domínios que não estão no ExcludedDomainList. O cliente SfB formatará automaticamente o MSA se o domínio NÃO estiver na lista de exclusões. Adicionamos os domínios mais comuns do Microsoft Account lista excluída.
     
-    > [!NOTE]
-    > Em caso de alterações, o provedor público deverá ser removido e um novo provedor deverá ser adicionado. Não é permitido fazer alterações in-loco. 
+     > [!NOTE]
+     > Em caso de alterações, o provedor público deverá ser removido e um novo provedor deverá ser adicionado. Não é permitido fazer alterações in-loco. 
   
-    > [!NOTE]
-    > Adicionado ao Lync Server 2013 CU5 &amp; a situação onde adicionar contatos do Skype necessárias para os usuários do Lync "decoram" domínios de não-Microsoft para melhorar o cliente de desktop do Lync no Office 2013 SP1, NameDecorationRoutingDomain and NameDecorationExcludedDomainList identificar e roteá-los para Skype (o formato dos: user(contoso.com)@msn.com). Essas novas configurações permitirá a formatação automática do usuário endereço enter na caixa de diálogo "Adicionar contato Skype" com o NameDecorationRoutingDomain (que deve ser definida como msn.com) se ele não contiver os domínios no (NameDecorationExcludedDomainList Estamos atualmente pode suportar msn.com, live.com, Hotmail.com, outlook.com). 
+     > [!NOTE]
+     > Adicionado ao Lync Server 2013 CU5 &amp; a situação onde adicionar contatos do Skype necessárias para os usuários do Lync "decoram" domínios de não-Microsoft para melhorar o cliente de desktop do Lync no Office 2013 SP1, NameDecorationRoutingDomain and NameDecorationExcludedDomainList identificar e roteá-los para Skype (o formato dos: user(contoso.com)@msn.com). Essas novas configurações permitirá a formatação automática do usuário endereço enter na caixa de diálogo "Adicionar contato Skype" com o NameDecorationRoutingDomain (que deve ser definida como msn.com) se ele não contiver os domínios no (NameDecorationExcludedDomainList Estamos atualmente pode suportar msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. Agora, a partir de um cliente Skype for Business, os usuários podem pesquisar e adicionar usuários do Skype.
     

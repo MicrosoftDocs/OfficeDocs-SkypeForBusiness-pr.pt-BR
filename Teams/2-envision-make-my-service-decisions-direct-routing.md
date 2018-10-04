@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82063cc595694c2bf60c3f6af6ab550f647c05cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015321"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374438"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -51,6 +51,7 @@ Depois de confirmar que sua organização pode obter o recurso de sistema telef�
 
 > [!TIP]
 > Abaixo é um exemplo de uma lista de habilitação do site de roteamento direto.
+> 
 > | **Escritório**                     | **Local**   | **Serviço de sistema telefônico** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Austrália      | Serviço PSTN herdado |
@@ -67,17 +68,18 @@ Sistema telefônico exige que cada usuário na sua organização tenha um inward
 
 > [!NOTE]
 > Com o roteamento direto, os usuários possam continuar usando seus próprios números de telefone fornecidos pelo provedor de serviços PSTN.
-
+> 
 > [!TIP]
 > Você pode usar o modelo a seguir para documentar os detalhes de números de telefone.
->|Usuário |Número de telefone |
->|-----|-------------|
->|Emily Braun | + 44 23 4567 8901 |
->|Lidia Holloway | + 44 23 4567 89112 |
->|Louis Lahr | + 44 23 4567 8921 |
->|Marcel Beauchamp | TBA |
->|Rachelle Cormier | TBA |
->|Isabell Potvin | TBA |
+> 
+> |Usuário |Número de telefone |
+> |-----|-------------|
+> |Emily Braun | + 44 23 4567 8901 |
+> |Lidia Holloway | + 44 23 4567 89112 |
+> |Louis Lahr | + 44 23 4567 8921 |
+> |Marcel Beauchamp | TBA |
+> |Rachelle Cormier | TBA |
+> |Isabell Potvin | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -96,6 +98,7 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 
 > [!TIP]
 > Detalhes de caixa postal de sistema de telefone para a implementação de planos de chamada podem ser documentados como na tabela a seguir.
+> 
 > | **Usuário**         | **Caixa de correio do Exchange** | **Habilitar a caixa postal?** | **Transcrição do correio de voz** | **Mascaramento de obscenidades de transcrição de caixa postal** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Sim                   | Habilitado                     | Habilitado                                       |
@@ -104,7 +107,7 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 > | Marcel Beauchamp | No local          | Sim                   | Desabilitado                    | N/D                                           |
 > | Rachelle Cormier | Online               | Sim                   | Desabilitado                    | N/D                                           |
 > | Isabell Potvin   | No local          | Sim                   | Desabilitado                    | N/D                                           |
-
+> 
 > [!NOTE]
 > Para usar as equipes e caixa postal, os usuários devem ter caixas de correio do Exchange. Para obter mais detalhes, consulte [como o Exchange e equipes da Microsoft interagir](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
 
@@ -201,6 +204,7 @@ Para obter mais detalhes, consulte [a sinalização SIP: FQDNs e portas de firew
 
 > [!TIP]
 > Use o modelo a seguir para documentar os detalhes SBC para sua implantação de roteamento direto.
+> 
 > | **Nome DNS de SBC (FQDN)** | **SBC e o modelo** | **Certificado** | **Local**  | **Endereço IP** | **Porta de sinalização SIP** | **NAT?** | **Sessões simultâneas do max** | **Bypass de mídia habilitado?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC-Europe.contoso.com | TBD | \*. contoso.com | Amsterdã | TBD | TBD | Sim | TBD | Não |
@@ -240,13 +244,14 @@ Você pode configurar suas rotas de voz com o roteamento direto para coexistir c
 
 > [!TIP]
 > Use o modelo a seguir para documentar as políticas de voz para sua implantação de roteamento direto.
+> 
 > | **Uso de PSTN** | **Rota de voz** | **Padrão de número** | **Prioridade** | **SBC** | **Descrição** |
 > |----------------|-----------------|----------------------------|--------------|-----------------------------------|-----------------------------------------------------------------------------------------|
 > | Somente nos EUA | "Redmond 1" | \^\\+ 1 (425\|206) (\\d{7})\$ | 1 | sbc1.contoso.com sbc2.contoso.com | Roteiro ativo para números chamados +1 425 XXX XX XX ou +1 206 XXX XX XX |
 > | Somente nos EUA | "Redmond 2" | \^\\+ 1 (425\|206) (\\d{7})\$ | 2 | sbc3.contoso.com sbc4.contoso.com | Rota de backup para números chamados +1 425 XXX XX XX ou +1 206 XXX XX XX |
 > | Somente nos EUA | "Outros + 1" | \^\\+ 1 (\\d{10})\$ | 3 | sbc5.contoso.com sbc6.contoso.com | Encaminhar para números chamados + 1 XXX XXX XX XX (exceto +1 425 XXX XX XX ou +1 206 XXX XX XX) |
 > | International | International | \\d + | 4 | sbc2.contoso.com sbc5.contoso.com | Rota para qualquer número padrão |
-
+> 
 > [!IMPORTANT]
 > Os usos da PSTN em políticas de roteamento de voz são aplicados na ordem, e se uma correspondência for encontrada no primeiro uso, outros usos nunca são avaliados.
 

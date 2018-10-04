@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Você pode editar as configurações para o servidor de borda ou pool de borda, definindo as seguintes propriedades:'
-ms.openlocfilehash: e09f20840627af19f1f9f2fa33dc5ab5f6b342f3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a3dd5fa1521bf23252bef85c3c26842258413f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975925"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371578"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar Expansor de configurações de borda do Lync Server 2010
  
@@ -34,14 +34,14 @@ Você pode editar as configurações para o servidor de borda ou pool de borda, 
   
 - A **Porta de replicação de configuração interna (HTTPS)**, por padrão, a porta TCP 4443, é a porta que o local (ou seja, local para os servidores de borda) cópia do repositório de gerenciamento Central está sendo replicada. A cópia local do repositório de gerenciamento Central está no banco de dados **RTCLOCAL** no SQL Server em cada computador. A replicação é unidirecional, iniciado a partir do servidor de gerenciamento Central (ou o pool de Front-End ou de servidor Front-End que detém a função de servidor de gerenciamento Central) para os servidores de borda e é uma porta da interface interna.
     
- **Seleção do próximo salto**
+  **Seleção do próximo salto**
   
 - Selecione na lista de seu **pool de próximo salto**. Você define um diretor, pool de diretor, pool de Front-End ou de servidor Front-End para assumir essa função. O pool de próximo salto é o servidor ou pool de servidores que aceitará mensagens de SIP de entrada do servidor de borda ou interface interna do pool de borda e enviar saída SIP para a interface interna de borda.
     
     > [!NOTE]
     > O diretor é uma função opcional e se você decidir não implantar os diretores, os servidores Front-End (computador único ou pool) assumirá a função Diretor. 
   
- **Configurações externas**
+  **Configurações externas**
   
 Esta seção das propriedades permite editar propriedades para as configurações externas do servidor de borda ou pool de borda. Estas propriedades estão disponíveis para edição:
   
@@ -61,10 +61,10 @@ Esta seção das propriedades permite editar propriedades para as configuraçõe
     > [!IMPORTANT]
     > Se você tiver selecionado o **FQDN de habilitar separado e endereço IP para Webconferência e A / V** caixa de seleção, apenas o serviço de borda de acesso FQDN do Pool estarão disponível para edição. Atribua portas distintas para cada um dos três serviços de borda.
   
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** Aceita e confirma as alterações na caixa de diálogo.
   
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
   
- **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** Exibe essa tela de ajuda.
   
 

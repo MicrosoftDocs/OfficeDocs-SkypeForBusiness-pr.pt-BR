@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: 5cd9a925ecf7dd24d900ebcbd30de3a30ec7a97d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 26a6e8dcb467ceea990b974d1687e0a5998eeb4b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016745"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372238"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone de sua ponte de audioconferência
 
@@ -138,8 +138,8 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 4. Na janela de confirmação, clique em **Sim**.
 
-  > [!IMPORTANT]
-  > Após um número de telefone não atribuído a partir de uma ponte de conferência de áudio, o número de telefone ficarão mais disponível para os usuários ingressem em reuniões de novos ou existentes.
+   > [!IMPORTANT]
+   > Após um número de telefone não atribuído a partir de uma ponte de conferência de áudio, o número de telefone ficarão mais disponível para os usuários ingressem em reuniões de novos ou existentes.
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Quer saber como gerenciar com o Windows PowerShell?
 <a name="bkPowerShell"> </a>

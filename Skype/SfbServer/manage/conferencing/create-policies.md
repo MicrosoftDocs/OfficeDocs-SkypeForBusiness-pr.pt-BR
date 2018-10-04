@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumo: Saiba como criar políticas de conferência no Skype para Business Server.'
-ms.openlocfilehash: 3c71962e42e083ada13b14bdecbefafbbc44f72b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4a481d8853fdb8f022da3539c5ebeb49c3b49402
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996598"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372284"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Criar políticas de conferência no Skype para Business Server
  
@@ -26,7 +26,7 @@ Você pode criar políticas de conferência usando Skype para o painel de contro
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
     
-2.  Abra o Skype para painel de controle do servidor de negócios.
+2. Abra o Skype para painel de controle do servidor de negócios.
     
 3. Na barra de navegação esquerda, clique em **Conferência** e, em seguida, clique em **Política de Conferência**.
     
@@ -36,8 +36,8 @@ Você pode criar políticas de conferência usando Skype para o painel de contro
     
    - Para criar uma política de nível de site, clique em **Política de site**. No campo de pesquisa **Selecionar um Site**, digite todo ou parte do nome do site para o qual você deseja criar uma política. Na lista de sites, clique no site que você deseja e clique em **OK**.
     
-    > [!NOTE]
-    > O nome do site se tornará o nome da política de conferências e não poderá ser alterado. 
+     > [!NOTE]
+     > O nome do site se tornará o nome da política de conferências e não poderá ser alterado. 
   
 5. Em **Descrição**, digite uma descrição para a política.
     

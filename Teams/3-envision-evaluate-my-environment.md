@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66b86ef8789f959de9887cc1f0b3c7c1e2e8ffa3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015569"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373310"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar o meu ambiente
 
@@ -43,8 +43,8 @@ Descoberta do ambiente também poderá revelar se você precisar de [números de
 Sabendo disso ajudarão sua organização ajuste seu plano de projeto e preparar as informações necessárias para o número de porta. Você pode usar a [Descoberta ambiental para distribuição de equipes da Microsoft](environmental-discovery-for-microsoft-teams-rollout.md) de MyAdvisor para executar a descoberta ambiental.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela conclusão uma avaliação do ambiente?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Os resultados da avaliação do ambiente do documento.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela conclusão uma avaliação do ambiente?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Os resultados da avaliação do ambiente do documento.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -60,8 +60,8 @@ Implantação coloca uma nova tecnologia em mãos de um usuário, mas os resulta
 Use as seguintes considerações para avaliar a preparação para a sua organização para o gerenciamento de alterações do usuário de endereço.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Você teve sucesso anterior com a adoção de usuário do software ou serviços?</li><li>É possível controlar a adoção de uso?</li><li>Você tem os recursos para criar e gerenciar uma initial&mdash;e em andamento&mdash;campanha de adoção (divulgação, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de adoção/mudança de usuário dedicada, ou pode investir em desses recursos para garantir resultados de negócios?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Se você respondeu "Sim" para todos os itens acima, identifique participantes do gerenciamento de alteração do usuário à direita e começar seu planejamento de preparação do usuário.</li><li>Se você respondeu "não" para alguns ou todos os itens acima, considere o envolvimento de recursos externos para ajudá-lo com orientando o gerenciamento de alterações e atividades relacionadas a adoção para sua organização.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Você teve sucesso anterior com a adoção de usuário do software ou serviços?</li><li>É possível controlar a adoção de uso?</li><li>Você tem os recursos para criar e gerenciar uma initial&mdash;e em andamento&mdash;campanha de adoção (divulgação, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de adoção/mudança de usuário dedicada, ou pode investir em desses recursos para garantir resultados de negócios?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Se você respondeu &quot;Sim&quot; para todos os itens acima, identificar participantes do gerenciamento de alteração do usuário à direita e começar seu planejamento de preparação do usuário.</li><li>Se você respondeu &quot;sem&quot; para alguns ou todos os itens acima, considere envolvente fora de recursos para ajudá-lo com orientando o gerenciamento de alterações e atividades relacionadas a adoção para sua organização.</li></ol></td></tr>
 </table>
 
 
@@ -216,8 +216,8 @@ Para obter mais informações, consulte [Qualidade de serviço em equipes da Mic
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela conclusão de avaliações de rede adequado entre todos os segmentos de rede e locais da organização?</li></ol></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Você pode executar uma avaliação de rede detalhado para ajudar a garantir que sua rede está pronta para sua implantação do Microsoft Teams. Para obter mais informações, consulte [Avaliação de prontidão de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness).</li><li>Execute a correção de rede com base nos resultados da avaliação de prontidão da rede para cada segmento de rede.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela conclusão de avaliações de rede adequado entre todos os segmentos de rede e locais da organização?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Você pode executar uma avaliação de rede detalhado para ajudar a garantir que sua rede está pronta para sua implantação do Microsoft Teams. Para obter mais informações, consulte <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Avaliação de prontidão de rede</a>.</li><li>Execute a correção de rede com base nos resultados da avaliação de prontidão da rede para cada segmento de rede.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

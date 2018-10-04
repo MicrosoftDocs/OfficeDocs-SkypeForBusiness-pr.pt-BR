@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte as etapas para atribuir uma licença de conferência discada e um ID de conferência a um usuário no Microsoft Teams e várias outras configurações de conferência discada. '
-ms.openlocfilehash: 1cf3240a2b6cf286e14a8180346f8db0ed755a46
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019090"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375859"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência para a minha organização no Microsoft Teams
 
@@ -37,7 +37,7 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
 ## <a name="assign-an-audio-conferencing-license"></a>Atribui licença de audioconferência
 
 > [!NOTE]
-> Não é possível atribuir licenças usando equipes. Você deve usar o Centro de administração do Office 365. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> Não é possível atribuir licenças usando o Teams. É necessário usar o centro de administração do Office 365. Consulte [Atribuir licenças do Skype for Business e do Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
   
  **Atribuir uma licença a um usuário**
   
@@ -46,14 +46,14 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
 2. No painel de navegação esquerdo do **centro de administração do Office 365**, vá para **Usuários** > **Usuários ativos**, e selecione o usuário ou os usuários na lista de usuários disponíveis.
     
     > [!NOTE]
-    > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, clique em **Editar**, **próximo** duas vezes e em seguida, selecione a licença e clique em **Enviar**.  
+    > [!DICA] Para atribuir licenças a mais de 20 usuários ao mesmo tempo, você pode usar o menu suspenso **Selecionar uma exibição** e escolher uma das opções ou criar sua própria exibição. Em seguida, clique em **Editar**, **Próximo** duas vezes, selecione a licença e clique em **Enviar**.  
   
 3. No painel Ação em **Licenças de produto**, clique em **Editar**. 
     
-4. Na página **Licenças de produtos**, ligue a **Audioconferência** e em seguida clique em **Salvar**. Para obter mais informações sobre licenciamento, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+4. Na página **Licenças de produto**, ative **Audioconferência** e clique em **Salvar**. Para obter mais informações sobre licenças, consulte [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
     
 > [!NOTE]
-> Após atribuir a licença, Microsoft talvez não sejam exibidos inicialmente na lista como um provedor de serviços de audioconferência. Caso isso aconteça, saia do Centro de administração do Office 365 ou pressione CTRL+F5 para atualizar a janela do navegador. 
+> Depois de atribuir a licença, a Microsoft pode não aparecer inicialmente na lista como provedor de audioconferência. Caso isso aconteça, saia do centro de administração do Office 365 ou pressione CTRL+F5 para atualizar a janela do navegador. 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar o envio de e-mails para usuários de audioconferência
 
@@ -74,7 +74,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
     
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Alterar as informações de contato do remetente das mensagens de e-mail enviadas aos usuários
 
-Você pode fazer alterações para email que será enviado automaticamente aos seus usuários, incluindo o endereço de email real e o nome para exibição de informações de contato do remetente. Por padrão, o remetente dos emails é o Office 365, mas você pode alterar o endereço de email e usando o Windows PowerShell de nome de exibição. Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
+É possível fazer alterações nos e-mails enviados automaticamente para seus usuários, incluindo o endereço de e-mail real e o nome de exibição das informações de contato do remetente. Por padrão, o remetente dos e-mails é o Office 365, mas é possível alterar o endereço de e-mail e o nome exibido com o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="reset-the-meeting-conference-id"></a>Redefinir o ID de conferência de reunião
 
@@ -84,13 +84,13 @@ Você pode fazer alterações para email que será enviado automaticamente aos s
 
 2. Em **Audio conferência**, clique em **Redefinir ID de conferência**.  
 
-3. No **Redefinir ID de conferência?** janela, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
+3. Na janela **Redefinir ID de conferência?**, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
 
 Consulte [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Redefinir o PIN de um organizador da conferência
 
-Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas. Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número ou os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. 
+Cada reunião agendada por um usuário terá um ID de conferência exclusivo atribuído. Embora um ID de conferência seja automaticamente criado e atribuído a um usuário, pode haver ocasiões em que um usuário não queira usá-lo e você deseja configurá-lo para um certo número, ou os usuários não conseguem lembrar ou perderam o ID de conferência. 
 
 ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
@@ -98,7 +98,7 @@ Cada reunião que um usuário agenda será obtido atribuída uma ID de conferên
 
 2. Em **Audioconferência**, clique em **Redefinir PIN**, e então clique em **Redefinir**. 
   
-Os usuários receberão um email com o PIN quando elas são habilitadas para conferência de áudio ou quando o PIN ser redefinido. Mas, se você desabilitou automaticamente enviando e-mails, um email de redefinição PIN não será enviado e você terá que enviar manualmente o PIN para o usuário. O PIN será exibido somente uma vez depois de ser redefinido. Depois que ele é exibido depois de ser redefinido, o PIN não será mostrado mais sobre as propriedades de usuário; em vez disso, * * * serão exibidos. 
+Os usuários receberão um e-mail com o PIN quando forem habilitados para audioconferência ou quando o PIN for redefinido. Entretanto, se você tiver desabilitado o envio automático de e-mails, o e-mail de redefinição de PIN não será enviado para o usuário e você precisará enviar o PIN manualmente. O PIN será exibido somente uma vez depois de ser redefinido. Depois se ser exibido após a redefinição, o PIN não será mais mostrado nas propriedades do usuário e aparecerá como *****. 
   
 Veja [Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md).
   
@@ -205,9 +205,9 @@ Veja [Definir idiomas do atendedor automático para conferência de áudio](set-
 
 2. Selecione um número de telefone na lista e clique em **Editar**. Aqui, você pode:
     
-  - Exiba os números de telefone definidos pelo Office 365 a serem usados para conferência de áudio. 
+   - Exiba os números de telefone definidos pelo Office 365 a serem usados para conferência de áudio. 
     
-  - Exiba o local e o idioma principal, que será usado pelo atendedor automático conferência de áudio.
+   - Exiba o local e o idioma principal, que será usado pelo atendedor automático conferência de áudio.
 
   
 Consulte [ver uma lista de números de conferência de áudio](see-a-list-of-audio-conferencing-numbers-in-teams.md).

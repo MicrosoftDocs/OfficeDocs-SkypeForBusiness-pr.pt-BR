@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir as propriedades em configurações externas, configure o seguinte:'
-ms.openlocfilehash: 27bc29afd26ac280eaeb7469af530862c94b03a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d925da792e2c2c296707a99d6a4ae6b29c0545a9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20999727"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375605"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configurações de FQDN de servidor de borda do Lync Server 2010
  
@@ -38,10 +38,10 @@ Para os serviços de borda habilitados, você digita um **FQDN do Pool** e uma p
     
 - Definir o **uma / serviço de borda V** FQDN do Pool (se habilitar separar o FQDN e endereço IP para Webconferência e A / V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
     
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** Aceita e confirma as alterações na caixa de diálogo.
   
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
   
- **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** Exibe essa tela de ajuda.
   
 

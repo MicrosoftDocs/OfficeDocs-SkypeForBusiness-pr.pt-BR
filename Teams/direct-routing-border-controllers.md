@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Microsoft estabelece parceria com fornecedores de SBCs selecionados para certificar os SBCs para a operação com Roteamento Direto.
-ms.openlocfilehash: 65b36e9b09b77c2752b1bc8dd25af8de9070b541
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014399"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371792"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -32,7 +32,7 @@ Em relação a cada fornecedor, a Microsoft:
 - Realiza testes intensivos por meio de um laboratório de terceiros; somente os dispositivos aprovados nos testes são certificados. 
 - Realiza testes diários com todos os dispositivos certificados em ambientes de produção e pré-produção. A validação dos dispositivos em ambientes de pré-produção garante que as novas versões do código de Roteamento Direto na nuvem funcionarão com os SBCs certificados. 
 - Tem um processo de suporte conjunto com os fornecedores de SBCs.
- 
+
 
   > [!NOTE]
   > A Microsoft dará suporte ao Sistema de Telefonia somente se um ou vários dispositivos certificados estiverem conectados via Roteamento Direto. A Microsoft se reserva o direito de rejeitar casos de suporte em que há um dispositivo não certificado conectado ao Sistema de Telefonia via Roteamento Direto. 
@@ -42,21 +42,22 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 [Saiba mais sobre o Roteamento Direto](https://aka.ms/dr). Se tiver alguma dúvida sobre o programa de certificação de SBCs para Roteamento Direto, envie um email para drsbccertification@microsoft.com
 
 
-|Fornecedor  |Produto  |Sem bypass de mídia  |Bypass de mídia  |Versão do software|
-|---------|---------|---------|---------|---------|
-|[Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways)    |   Mediant 500 SBC       |    &#10004;     |    Pendente      |     7.20A.200.055     |
-|  |   Mediant 800 SBC       |    &#10004;      |     Pendente    |      7.20A.200.055    |
-|     |      Mediant 2600 SBC    |     &#10004;     |    Pendente     |    7.20A.200.055      |
-|     |   Mediant 4000 SBC       |     &#10004;     |    Pendente     |    7.20A.200.055      |
-|     |    Mediant 1000B SBC   |    &#10004;      |  Pendente       |    7.20A.200.055   |
-|     |   Virtual Edition SBC    |   &#10004;   |Pendente         |     7.20A.200.055     |
-|[Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)     | SBC 5110    |    &#10004;      |   Pendente      |     V6.2     |
-|     |SBC 5210     |     &#10004;     |    Pendente     |    V6.2      |
-|     | SBC 5400     |    &#10004;  |    Pendente     |   V6.2    |
-|     |SBC 7000     |     &#10004;  |    Pendente     |    V6.2      |
-|     | SBC SWe  |   &#10004;    |    Pendente     |    V6.2      |
-|     |SBC 1000   |     &#10004;   |     Pendente    |    V7.0.2   |&#10004; 
-|     | SBC 2000    |     &#10004;   |    Pendente     |    V7.0.2      |
-|     | SBC SWe Lite     |&#10004; | Pendente | V7.0.4
-|[Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)     |    Think 365 SBC      |  &#10004;       |    Pendente     |   V1.4       |
-|     |         |         |         |         |
+|                                                       Fornecedor                                                        |       Produto       | Sem bypass de mídia | Bypass de mídia | Versão do software |
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/sbcs-media-gateways) |   Mediant 500 SBC   |     &#10004;     |   Pendente    |  7.20A.200.055   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   Pendente    |  7.20A.200.055   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   Pendente    |  7.20A.200.055   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   Pendente    |  7.20A.200.055   |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pendente    |  7.20A.200.055   |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   Pendente    |  7.20A.200.055   |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   Pendente    |       V6.2       |
+|                                                                                                                     |      SBC 5210       |     &#10004;     |   Pendente    |       V6.2       |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   Pendente    |       V6.2       |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   Pendente    |       V6.2       |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   Pendente    |       V6.2       |
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   Pendente    |      V7.0.2      |
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   Pendente    |      V7.0.2      |
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   Pendente    |      V7.0.4      |
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pendente    |       V1.4       |
+|                                                                                                                     |                     |                  |              |                  |
+

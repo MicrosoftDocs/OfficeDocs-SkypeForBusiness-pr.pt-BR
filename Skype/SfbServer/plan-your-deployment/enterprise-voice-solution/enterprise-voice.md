@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice planejamento Noções básicas do Skype Business Server, incluindo sites, regiões, links de rede entre sites e estimar o tráfego de uso de voz.
-ms.openlocfilehash: 3c5cad1b37b4f3bfe3fe73cad1d185b0116a68a0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: afff1ccffbc6e967f3b18b0746d29db9085fe82c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885334"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373703"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planejar o Enterprise Voice no Skype for Business Server
  
@@ -41,9 +41,9 @@ Você também precisa considerar o uso de largura de banda que você espera que 
 O Microsoft Lync Server 2013, ferramenta de planejamento usa a métrica a seguir para estimar o tráfego de usuário em cada local e o número de portas necessárias para dar suporte a esse tráfego.
   
 > No caso de **Tráfego leve** (uma chamada PSTN por usuário por hora), calcula-se 15 usuários por porta.
-    
+> 
 > No caso de **Tráfego médio** (duas chamadas PSTN por usuário por hora), calcula-se 10 usuários por porta.
-    
+> 
 > No caso de **Tráfego pesado** (três ou mais chamadas PSTN por usuário por hora), calcula-se 5 usuários por porta.
     
 Por sua vez, o número de portas determina o número de servidores de mediação e gateways que serão necessários. Os gateways PSTN (rede) telefônica comutada pública que a maioria das organizações considera para implantação variam em tamanho de 2 portas a 960 portas. (Há gateways até maiores, mas esses são usados principalmente pelos provedores de serviços de telefonia).

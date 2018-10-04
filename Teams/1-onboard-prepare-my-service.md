@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09816666e17f657b67f8b28aa36efa3ef95e60f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013559"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374313"
 ---
 # <a name="prepare-my-service"></a>Preparar o meu serviço
 
@@ -53,8 +53,8 @@ Quando você estiver inclusão de usuários em uma base por site, é altamente r
 >A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você usar o Centro de administração do Office 365 e equipes & Skype para Business Admin Center para definir essas configurações.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela supervisão a conclusão das listas de inclusão de verificação?</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Baixe as listas de verificação de inclusão.</li><li>Trabalhar através dos itens de lista de verificação de inclusão passo a passo de acordo com o plano de implantação da sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela supervisão a conclusão das listas de inclusão de verificação?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Baixe as listas de verificação de inclusão.</li><li>Trabalhar através dos itens de lista de verificação de inclusão passo a passo de acordo com o plano de implantação da sua organização.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -180,8 +180,8 @@ Depois que o ambiente do usuário e o serviço tiverem sido configurados, a últ
 -   Requisitos de conformidade de roteamento diretos foram identificados e configurados.
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida quais recursos do recurso de conferência de áudio serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para conferência de áudio.</li><li>Identifique os requisitos de configuração do serviço de conferência de áudio.</li><br><li>Decida se roteamento direto ou chamar planos serão implantados e configurados.<li>Decida quais recursos do sistema telefônico serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para planos de chamar ou roteamento direto.</li><li>Identifique o requisito de configuração de serviço para planos de chamar ou roteamento direto.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Desenvolver e documentar sua abordagem de plano de teste.</li><li>Prepare seu ambiente de serviço e os usuários no escopo de recursos de conferência de áudio.</li><li>Prepare seu ambiente de serviço e os usuários no escopo para recursos de roteamento direto ou em planos de chamada.</li><li>Execute o teste de validação para os recursos de conferência de áudio que você deseja habilitar.</li><li>Execute o teste de validação para os recursos de roteamento direto ou em planos de chamada que você deseja habilitar.</li><li>Para qualquer falhas de teste, confirme se sua configuração está correta, analise os artigos de comunidade, e — se for necessário — elevar um caso de suporte.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quais recursos do recurso de conferência de áudio serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para conferência de áudio.</li><li>Identifique os requisitos de configuração do serviço de conferência de áudio.</li><br><li>Decida se roteamento direto ou chamar planos serão implantados e configurados.<li>Decida quais recursos do sistema telefônico serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para planos de chamar ou roteamento direto.</li><li>Identifique o requisito de configuração de serviço para planos de chamar ou roteamento direto.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Desenvolver e documentar sua abordagem de plano de teste.</li><li>Prepare seu ambiente de serviço e os usuários no escopo de recursos de conferência de áudio.</li><li>Prepare seu ambiente de serviço e os usuários no escopo para recursos de roteamento direto ou em planos de chamada.</li><li>Execute o teste de validação para os recursos de conferência de áudio que você deseja habilitar.</li><li>Execute o teste de validação para os recursos de roteamento direto ou em planos de chamada que você deseja habilitar.</li><li>Para qualquer falhas de teste, confirme se sua configuração está correta, analise os artigos de comunidade, e — se for necessário — elevar um caso de suporte.</li></ul></td></tr>
 </table>
 
 

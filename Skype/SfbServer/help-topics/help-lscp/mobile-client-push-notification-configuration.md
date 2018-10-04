@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar as notificações de push da Microsoft e notificações de push do Apple, você deve criar uma política para definir quais tipos de notificação por push você exige.
-ms.openlocfilehash: 1e3c132fe030bd238fbb01af6fa53a1fce2657d7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4b0da70e5d66f31ed1c912efcdd7a13660c396f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975939"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371473"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvel: Configuração de notificação por Push
  
@@ -34,14 +34,14 @@ Há duas seleções estão disponíveis para criação de políticas e edição:
     
 2. **Editar**: selecione uma política e clique em Editar para selecionar uma ação na lista suspensa. Você só pode editar os sites que você já criou ou editar a política Global:
     
-  - **Mostrar detalhes …**: exibe informações sobre a política selecionada no momento. Você poderá fazer alterações à diretiva existente.
+   - **Mostrar detalhes …**: exibe informações sobre a política selecionada no momento. Você poderá fazer alterações à diretiva existente.
     
-  - **Selecionar tudo**: se você tiver algumas políticas e precisa selecionar todas elas, clique em Selecionar tudo
+   - **Selecionar tudo**: se você tiver algumas políticas e precisa selecionar todas elas, clique em Selecionar tudo
     
-  - **Excluir**: removerá a política selecionada. O uso de **Selecionar tudo** e **Excluir** removerá todas as diretivas
+   - **Excluir**: removerá a política selecionada. O uso de **Selecionar tudo** e **Excluir** removerá todas as diretivas
     
-    > [!NOTE]
-    > Você não pode excluir a política **Global** de padrão. Se você tentar excluí-lo, você será notificado se a política Global foi retornada para os valores padrão (ou seja, todas as configurações estão desmarcadas), mas a política não pode ser removida.
+     > [!NOTE]
+     > Você não pode excluir a política **Global** de padrão. Se você tentar excluí-lo, você será notificado se a política Global foi retornada para os valores padrão (ou seja, todas as configurações estão desmarcadas), mas a política não pode ser removida.
   
 Criando uma nova política ou editar uma política existente está associado a duas ações:
   

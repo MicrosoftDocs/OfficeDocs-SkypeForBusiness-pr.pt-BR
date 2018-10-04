@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Você editar as propriedades dos servidores de mediação nessa caixa de diálogo. No lado esquerdo é um conjunto de links rápidos para orientá-lo às definições de configurações gerais, configurações de próximo salto e configurações de gateway PSTN. Em cada seção são as seguintes configurações:'
-ms.openlocfilehash: 262cdcbbbf4c4cfcf35a01de91c88c6511da3360
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260472"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375968"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configurações gerais do servidor de mediação do Lync Server 2010
 
@@ -29,13 +29,13 @@ Você editar as propriedades dos servidores de mediação nessa caixa de diálog
 
 - **Associações**: marque a caixa de seleção **associar pool de borda (para componentes de mídia)** e selecione um servidor de borda ou o pool de borda para o servidor de mediação para usar como o caminho de mídia para acesso externo.
 
- **Próximo salto**:
+  **Próximo salto**:
 
 - **Seleção do próximo salto**: selecione em uma lista ao pool do servidor Front-End ou Front-End para usar como o caminho para o servidor de mediação a ser usado para comunicação com sua implantação.
 
- **Gateway PSTN**:
+  **Gateway PSTN**:
 
- **Gateway PSTN do servidor de mediação**:
+  **Gateway PSTN do servidor de mediação**:
 
 - **Portas de escuta**: definir as portas que o servidor de mediação escutará. Você pode definir uma porta para segurança de camada de transporte ou **TLS** ou **TCP**, ou o protocolo de controle de transporte. Para a entrada de porta para TCP esteja disponível, você deve selecionar a caixa de seleção para **Habilitar TCP porta**.
 

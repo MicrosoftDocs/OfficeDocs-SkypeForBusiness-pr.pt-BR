@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7269c38957df9d43295f6568a2369c34e94da93
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 8877819704b438d26f981fb6816c56eb23ef9521
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013069"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371338"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -63,6 +63,7 @@ Antes de planejar a implementação da conferência de áudio em equipes, você 
 Depois de confirmar que sua organização está qualificada obter o serviço de conferência de áudio, compilar a lista de locais do usuário ou de escritórios onde você implementará o serviço de conferência de áudio, com base na lista de regiões e países disponíveis.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida quais locais de usuários ou escritórios implementarão o serviço de Audioconferência.</li></ul>|
@@ -70,13 +71,14 @@ Depois de confirmar que sua organização está qualificada obter o serviço de 
 
 > [!TIP]
 > Abaixo é um exemplo de um modelo de lista de habilitação de site de conferência de áudio:
->|Escritório   |Localização |Serviço de Conferência PSTN  |
->|---------|---------|---------|
->|One Epping Road|Austrália|Audioconferência|
->|100 Alma Road|Hong Kong SAR|Conferência PSTN herdada|
->|One Marina Boulevard|Cingapura|Audioconferência|
->|32 London Bridge Street|Reino Unido|Audioconferência|
->|39 quai du Président Roosevelt|França|Audioconferência|
+> 
+> |Escritório   |Localização |Serviço de Conferência PSTN  |
+> |---------|---------|---------|
+> |One Epping Road|Austrália|Audioconferência|
+> |100 Alma Road|Hong Kong SAR|Conferência PSTN herdada|
+> |One Marina Boulevard|Cingapura|Audioconferência|
+> |32 London Bridge Street|Reino Unido|Audioconferência|
+> |39 quai du Président Roosevelt|França|Audioconferência|
 
 <!--ENDOFSECTION-->
 
@@ -98,6 +100,7 @@ A primeira consideração ao implementar créditos de comunicações é decidir 
 Você pode aprender mais sobre Communications créditos [aqui](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Se sua organização não tiver já adquiriu a conferência de áudio necessários licenciamento, decida se você vai adquirir licenças de conferência de áudio por assinaturas do Office 365 existentes de revisão ou por adquirir licenças de complemento de conferência de áudio.</li><li>Decida se Communications créditos são necessários para a implementação da conferência de áudio. Em caso positivo, decida o valor inicial de fundos a serem comprados. Onde aplicável, decida o valor do gatilho e o valor da recarga automática.</li></ul>|
@@ -105,29 +108,26 @@ Você pode aprender mais sobre Communications créditos [aqui](https://docs.micr
 
 > [!TIP]
 > Você pode documentar a lista de atribuição de licença para usuários de conferência de áudio usando o exemplo a seguir.
->|Usuário  |Escritório  |Licença do Office 365  |
->|---------|---------|---------|
->|Adele Vance|One Epping Road|Office 365 E5|
->|Alex Wilber|One Epping Road|Office 365 E3, complemento de Audioconferência|
->|Ben Walters|One Epping Road|Office 365 E3, complemento de Audioconferência|
->|Christie Cline|One Marina Boulevard|Office 365 E3, complemento de Audioconferência|
->|Debra Berger|One Marina Boulevard|Office 365 E5|
->|Lee Gu|One Marina Boulevard|Office 365 E5|
->|Emily Braun|32 London Bridge Street|Office 365 E5|
->|Lidia Holloway|32 London Bridge Street|Office 365 E5|
->|Louis Lahr|32 London Bridge Street|Office 365 E5|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferência|
->|Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
->|Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferência|
+> 
+> |Usuário  |Escritório  |Licença do Office 365  |
+> |---------|---------|---------|
+> |Adele Vance|One Epping Road|Office 365 E5|
+> |Alex Wilber|One Epping Road|Office 365 E3, complemento de Audioconferência|
+> |Ben Walters|One Epping Road|Office 365 E3, complemento de Audioconferência|
+> |Christie Cline|One Marina Boulevard|Office 365 E3, complemento de Audioconferência|
+> |Debra Berger|One Marina Boulevard|Office 365 E5|
+> |Lee Gu|One Marina Boulevard|Office 365 E5|
+> |Emily Braun|32 London Bridge Street|Office 365 E5|
+> |Lidia Holloway|32 London Bridge Street|Office 365 E5|
+> |Louis Lahr|32 London Bridge Street|Office 365 E5|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferência|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Office 365 E5|
+> |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferência|
 
 <br>
-> [!TIP]
-> Os números do planejamento de seus Créditos de Comunicação podem ser documentados da seguinte maneira:
->|         |         |
->|---------|---------|
->|Valor inicial|US$ 1.000|
->|Valor do gatilho|US$ 400|
->|Valor da recarga automática|TBA|
+&gt; [!TIP]
+&gt;Sua créditos Communications planejamento números pode ser documentados como o seguinte: &gt;|         |         | &gt;|---------|---------|
+&gt;| Quantidade inicial | US $ 1.000 | &gt;| Quantidade de gatilho | US $ 400 | &gt;| Quantidade de autocarga | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -149,7 +149,7 @@ O serviço de Audioconferência do Office 365 inclui:
 Se você deve transferir números de telefone de ponte de conferência existente para o serviço de conferência de áudio — supondo que eles atendam aos requisitos específicos do país — você pode transferir esses números de telefone de ponte de conferência existente à Microsoft.
 
 > [!NOTE]
-A complexidade de transferência de números de telefone para o Microsoft significativamente varia dependendo do país ou região, operadora, número de circuitos envolvidos e muitos outros fatores que contribuem. Trabalhar com o provedor atual para investigar quanto tempo isso é provavelmente precisará executar para ajudar a garantir que você iniciar o processo de antecedência suficiente para atender às suas linhas de tempo.
+> A complexidade de transferência de números de telefone para o Microsoft significativamente varia dependendo do país ou região, operadora, número de circuitos envolvidos e muitos outros fatores que contribuem. Trabalhar com o provedor atual para investigar quanto tempo isso é provavelmente precisará executar para ajudar a garantir que você iniciar o processo de antecedência suficiente para atender às suas linhas de tempo.
 
 Para saber mais sobre os números de telefone de ponte de conferência, revise os seguintes artigos:
 
@@ -162,6 +162,7 @@ Para saber mais sobre os números de telefone de ponte de conferência, revise o
 -   [Transferir números de telefone para o Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização precisa números de telefone de ponte de conferência dedicado.</li><li>Decidir como os números de telefone de ponte de conferência dedicado serão obtidos para os locais do usuário ou de escritórios em escopo para a implementação da conferência de áudio (isto é, obtém de números de telefone existentes da Microsoft ou transferência).</li><li>Se você escolher obtê-las da Microsoft, decidir o método a ser usado (envio do formulário ou automatizada) para os locais do usuário ou de escritórios em escopo para a implementação da conferência de áudio.</li><li>Decida as preferências de idioma para configurar o para cada número de telefone de ponte de conferência dedicado.</li><li>Decida o número de telefone de ponte de conferência do locatário padrão.</li></ul>|
@@ -171,12 +172,13 @@ Abaixo é um exemplo de um modelo que você pode usar para capturar detalhes de 
 
 > [!TIP]
 > Veja a seguir o exemplo de um modelo para capturar detalhes da ponte de conferência:
->|Escritório   |Aquisição do número da ponte e Tipo da ponte |Número da ponte  |Idioma da ponte|
->|---------|---------|---------|---------|
->|One Epping Road|Adquirir novo, exclusivo|TBA|Inglês (Austrália)|
->|One Marina Boulevard|Adquirir novo, compartilhado|TBA|Inglês (Estados Unidos); Chinês (Simplificado, PRC)|
->|32 London Bridge Street|Porta existente, exclusiva|+44 20 7946 0001|Inglês (Reino Unido)|
->|39 quai du Président Roosevelt|Adquirir novo, exclusivo|TBA|Francês (França), Inglês (Reino Unido)|
+> 
+> |Escritório   |Aquisição do número da ponte e Tipo da ponte |Número da ponte  |Idioma da ponte|
+> |---------|---------|---------|---------|
+> |One Epping Road|Adquirir novo, exclusivo|TBA|Inglês (Austrália)|
+> |One Marina Boulevard|Adquirir novo, compartilhado|TBA|Inglês (Estados Unidos); Chinês (Simplificado, PRC)|
+> |32 London Bridge Street|Porta existente, exclusiva|+44 20 7946 0001|Inglês (Reino Unido)|
+> |39 quai du Président Roosevelt|Adquirir novo, exclusivo|TBA|Francês (França), Inglês (Reino Unido)|
 
 <!--ENDOFSECTION-->
 
@@ -212,6 +214,7 @@ Você também pode aplicar configurações adicionais para cada usuário control
 Com esses controles, você poderá decidir se os organizadores de reunião podem fornecer números de telefone de ponte de conferência de discagem gratuita para reuniões organizadas por eles e os participantes podem discar as reuniões organizados por eles. O nível de controle de discagem engloba desde completamente impedindo a discagem externa, para permitir apenas a discagem externa para números de domésticas, permitindo a discagem externa aos números nacionais e internacionais.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decidir se sua organização requer notificações de entrada e saída, e — se contiver — o tipo de notificação a serem implementados (tons, número de telefone ou nome registrado).</li><li>Decida o comprimento de PIN de conferência de áudio que atende aos seus requisitos de segurança da organização.</li><li>Decida se sua organização deseja assumir o controle das comunicações do usuário relacionadas ao serviço de conferência de áudio.</li><li>Decidir os números de telefone da ponte da conferência a serem atribuídos a cada organizador de reunião.</li><li>Decida se alguns organizadores de reunião precisam usar números de telefone de ponte de conferência de discagem gratuita para suas reuniões.</li><li>Decida se precisam de alguns organizadores de reunião permitir que os chamadores não autenticados iniciar uma reunião.</li><li>Decida se alguns organizadores de reunião precisam discar conferência seja controlado.</li></ul>|
@@ -219,31 +222,20 @@ Com esses controles, você poderá decidir se os organizadores de reunião podem
 
 > [!TIP]
 > As configurações de ponte de conferência podem ser documentadas como no exemplo a seguir.
->|         |         |
->|---------|---------|
->|Permitir notificações de entrada e saída de reuniões|Habilitado|
->|Tipo de anúncio de entrada/saída|Tons|
->|Solicitar que os autores de chamadas registrem seus nomes antes de ingressar na reunião|Desabilitado|
->|Tamanho do PIN|5|
->|Enviar emails automaticamente para os usuários quando suas configurações de discagem forem alteradas|Desabilitado|
+> 
+> |         |         |
+> |---------|---------|
+> |Permitir notificações de entrada e saída de reuniões|Habilitado|
+> |Tipo de anúncio de entrada/saída|Tons|
+> |Solicitar que os autores de chamadas registrem seus nomes antes de ingressar na reunião|Desabilitado|
+> |Tamanho do PIN|5|
+> |Enviar emails automaticamente para os usuários quando suas configurações de discagem forem alteradas|Desabilitado|
 
 <br>
-> [!TIP]
-> Você pode documentar a lista de atribuição de configurações de ponte conferência para usuários de conferência de áudio usando o exemplo a seguir.
->|Usuário  |Escritório  |Número de chamada padrão  |Número de chamada gratuita padrão  |Permitir chamada gratuita  |Autores de chamada não autenticados ignoram o lobby  |Discagem de saída de conferência  |
->|---------|---------|---------|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|TBA|TBA|Sim|Habilitado|Doméstico e internacional|
->|Alex Wilber|One Epping Road|TBA|TBA|Não|Desabilitado|Não permitido|
->|Ben Walters|One Epping Road|TBA|TBA|Não|Desabilitado|Não permitido|
->|Christie Cline|One Marina Boulevard|TBA|TBA|Sim|Desabilitado|Doméstico|
->|Debra Berger|One Marina Boulevard|TBA|TBA|Sim|Habilitado|Doméstico|
->|Lee Gu|One Marina Boulevard|TBA|TBA|Sim|Habilitado|Doméstico|
->|Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Sim|Habilitado|Não permitido|
->|Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Sim|Desabilitado|Não permitido|
->|Louis Lahr|32 London Bridge Street|+44 20 7946 0001|TBA|Sim|Desabilitado|Não permitido|
->|Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|Não|Desabilitado|Doméstico|
->|Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Sim|Habilitado|Doméstico e internacional|
->|Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|Não|Desabilitado|Doméstico|
+&gt; [!TIP]
+&gt;Você pode documentar a lista de atribuição de configurações de ponte conferência para usuários de conferência de áudio usando o exemplo a seguir.
+&gt;| Usuário | Office | Número de Chamada Tarifada padrão | Número de chamada gratuito padrão | Permitir gratuitos | Os chamadores não-autenticados bypass lobby | Conferência de discagem externa | &gt;|---------|---------|---------|---------|---------|---------|---------|
+&gt;| Adele Vance | Um Epping estrada | TBA | TBA | Sim | Habilitado | Nacionais e internacionais | &gt;| Alex Wilber | Um Epping estrada | TBA | TBA | Não | Desabilitado | Não permitidos | &gt;| Ben Walters | Um Epping estrada | TBA | TBA | Não | Desabilitado | Não permitidos | &gt;| Cristina cusar | Um Marina Boulevard | TBA | TBA | Sim | Desabilitado | Domésticas | &gt;| Debra Berger | Um Marina Boulevard | TBA | TBA | Sim | Habilitado | Domésticas | &gt;| Lee Gu | Um Marina Boulevard | TBA | TBA | Sim | Habilitado | Domésticas | &gt;| Ana Braun | 32 Londres ponte Rua | + 44 20 7946 0001 | TBA | Sim | Habilitado | Não permitidos | &gt;| Lidia Holloway | 32 Londres ponte Rua | + 44 20 7946 0001 | TBA | Sim | Desabilitado | Não permitidos | &gt;| Louis Lahr | 32 Londres ponte Rua | + 44 20 7946 0001 | TBA | Sim | Desabilitado | Não permitidos | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | TBA | TBA | Não | Desabilitado | Domésticas | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | TBA | TBA | Sim | Habilitado | Nacionais e internacionais | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | TBA | TBA | Não | Desabilitado | Domésticas |
 
 <!--ENDOFSECTION-->
 
@@ -270,6 +262,7 @@ Quando se trata de números de serviço, você precisará planejar cuidadosament
 Para obter mais informações sobre a contagem total dos números de telefone que você pode obter, consulte [números de telefone de quantos você consegue?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>Escolher o tipo de números de telefone a ser adquirida da Microsoft.</li></ul>|
@@ -292,6 +285,7 @@ Portabilidade de número de telefone é um tópico complexo e requer planejament
 -   [Perguntas comuns sobre a transferência de números de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>Escolher o tipo de números de telefone a ser transferido para a Microsoft.</li></ul>|
@@ -323,6 +317,7 @@ O plano de discagem efetivas atribuído aos usuários é a combinação do plano
 Para saber mais sobre os planos de discagem, consulte [quais são os planos de discagem?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização requer planos de discagem personalizada (requisitos de negócios, requisitos de adoção e assim por diante).</li><li>Se aplicável, decidir o escopo do plano de discagem para locatários (locatário global ou locatário usuário) para ter suporte para os requisitos dos planos de discagem personalizados.</li><li>Se aplicável, decidir os planos de discagem de locatário que você vai criar para suportar os locais do usuário ou escritórios em escopo para a implementação de voz de nuvem.</li><li>Se aplicável, decida quais usuários exigem um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário.</li></ul>|
@@ -330,36 +325,24 @@ Para saber mais sobre os planos de discagem, consulte [quais são os planos de d
 
 > [!TIP]
 > Se ele for aplicável ao seu projeto, você pode usar o modelo a seguir para documentar as configurações de plano de discagem de locatário.
->|Nome do plano de discagem de locatário<br>_Descrição_  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para o escritório de One Epping Road, North Ryde, NSW, Austrália_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) do office orientações, Cingapura_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du Président Roosevelt do escritório, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> 
+> |Nome do plano de discagem de locatário<br>_Descrição_  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para o escritório de One Epping Road, North Ryde, NSW, Austrália_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) do office orientações, Cingapura_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du Président Roosevelt do escritório, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> O modelo de exemplo a seguir pode ser utilizado para documentar atribuições de planos de discagem para dar suporte ao seu projeto:
->|Usuário  |Escritório  |Tipo do plano de discagem  |Nome do plano de discagem  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Lidia Holloway|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Louis Lahr|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;O modelo de exemplo abaixo pode ser utilizado para atribuições de plano de discagem de documentos para dar suporte ao seu projeto: &gt;| Usuário | Office | Tipo de plano de discagem | Nome do plano de discagem | &gt;|---------|---------|---------|---------|
+&gt;| Adele Vance | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Alex Wilber | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Ben Walters | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Cristina cusar | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Debra Berger | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Lee Gu | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Ana Braun | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Lidia Holloway | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Louis Lahr | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR |
 
 <!--ENDOFSECTION-->
 

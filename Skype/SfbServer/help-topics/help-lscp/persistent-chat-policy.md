@@ -11,12 +11,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
-description: Você pode usar a página política de Chat persistente do grupo de Chat persistente para gerenciar diretivas em um nível global, de inclusive configurar a política global de padrão e criando um ou mais sites e usuário diretivas adicionais para sua implantação de pool, site ou usuário. Se o servidor de Chat persistente estiver habilitado para um usuário por diretiva, o ambiente de servidor de Chat persistente aparece em seu cliente.
-ms.openlocfilehash: 13f06436f3339da46e32557dff5290d5ad5541fd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Você pode usar a página Política de Chat Persistente do grupo Chat Persistente para gerenciar políticas no nível global, de pool ou de usuário, inclusive para configurar a política global padrão e criar uma ou mais políticas de usuário e de site para sua implantação. Se o servidor de Chat persistente estiver habilitado para um usuário por diretiva, o ambiente de servidor de Chat persistente aparece em seu cliente.
+ms.openlocfilehash: 95020a24cc8f68c33028977cc5e4c3569423b219
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375780"
 ---
 # <a name="persistent-chat-policy"></a>Política de Chat Persistente
  
@@ -45,11 +46,11 @@ Você pode executar as seguintes tarefas na página **Política de Chat Persiste
     
 5. Em **Editar Política de Chat Persistent - Global**, siga este procedimento:
     
-  - Em **Nome**, especifique um novo nome para a política global, se não desejar usar o padrão Global.
+   - Em **Nome**, especifique um novo nome para a política global, se não desejar usar o padrão Global.
     
-  - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política Global para _centralSiteName_).
+   - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política Global para _centralSiteName_).
     
-  - Para controlar o Chat persistente para todos os sites e usuários não especificamente controlados através de uma política de site ou usuário, marque ou desmarque a caixa de seleção **Habilitar Chat persistente** .
+   - Para controlar o Chat persistente para todos os sites e usuários não especificamente controlados através de uma política de site ou usuário, marque ou desmarque a caixa de seleção **Habilitar Chat persistente** .
     
 6. Clique em **Confirmar**.
     
@@ -71,11 +72,11 @@ A configuração da política de site substitui a política global, mas somente 
     
 6. Em **Nova Política de Chat Persistente**, siga este procedimento:
     
-  - Em **Nome**, especifique um nome para a nova política de site (por exemplo, Redmond).
+   - Em **Nome**, especifique um nome para a nova política de site (por exemplo, Redmond).
     
-  - Em **Descrição**, forneça detalhes sobre a política de site (por exemplo, política de sala de chat de Redmond).
+   - Em **Descrição**, forneça detalhes sobre a política de site (por exemplo, política de sala de chat de Redmond).
     
-  - Para controlar o Chat Persistente para todos os sites não controlados especificamente por meio de uma política de site, marque ou desmarque a caixa de seleção **Habilitar Chat Persistente**.
+   - Para controlar o Chat Persistente para todos os sites não controlados especificamente por meio de uma política de site, marque ou desmarque a caixa de seleção **Habilitar Chat Persistente**.
     
 7. Clique em **Confirmar**.
     
@@ -95,11 +96,11 @@ A política de usuário substitui as políticas globais e de site, mas apenas pa
     
 5. Em **Nova Política de Chat Persistente**, siga este procedimento:
     
-  - Em **Nome**, especifique um nome para a nova política de usuário.
+   - Em **Nome**, especifique um nome para a nova política de usuário.
     
-  - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política de Chat persistente para usuário específico).
+   - Em **Descrição**, forneça detalhes sobre o que é a política de usuário (por exemplo, política de Chat persistente para usuário específico).
     
-  - Para controlar o Chat persistente para todos os usuários que não são especificamente controlados através de uma política de usuário, marque ou desmarque a caixa de seleção **Habilitar Chat persistente** .
+   - Para controlar o Chat persistente para todos os usuários que não são especificamente controlados através de uma política de usuário, marque ou desmarque a caixa de seleção **Habilitar Chat persistente** .
     
 6. Clique em **Confirmar**.
     

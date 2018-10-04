@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumo: Saiba como definir uma regra de conversão usando a compilar uma ferramenta de regra de conversão no Skype para Business Server.'
-ms.openlocfilehash: 1d1d8fff6c4ab114c2c12d71ec52017d5c491bef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c50b16f2753569b1a47b37f6615ef0e7f6d26cae
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886258"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370827"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de conversão para apresentação da ID chamada no Skype para Business Server
 
@@ -46,19 +46,19 @@ Se você deseja definir uma regra de conversão digitando um conjunto de valores
 
    - **Dígitos a adicionar**: (Opcional) especifique os dígitos a serem anexados aos números convertidos. Por exemplo, digite  011 se quiser que 011 seja anexado aos números convertidos quando a regra for aplicada.
 
-    Os valores inseridos nesses campos são refletidos nos campos  **Padrão a ser correspondido** e  **Regra de conversão**. Por exemplo, se você especificar os valores do exemplo anterior, a expressão regular resultante no campo  **Padrão a ser correspondido** será:
+     Os valores inseridos nesses campos são refletidos nos campos  **Padrão a ser correspondido** e  **Regra de conversão**. Por exemplo, se você especificar os valores do exemplo anterior, a expressão regular resultante no campo  **Padrão a ser correspondido** será:
 
-    ^\+(\d{9}\d+)$
+     ^\+(\d{9}\d+)$
 
-    O campo  **Regra de conversão** especifica um padrão para o formato de números convertidos. Esse padrão tem duas partes:
+     O campo  **Regra de conversão** especifica um padrão para o formato de números convertidos. Esse padrão tem duas partes:
 
    - Um valor (por exemplo, $1) que representa o número de dígitos no padrão correspondido
 
    - (Opcional) Um valor que pode ser anexado digitando no campo **Dígitos a adicionar**
 
-    Usando os valores do exemplo anterior, 011$1 aparece no campo **Regra de conversão**.
+     Usando os valores do exemplo anterior, 011$1 aparece no campo **Regra de conversão**.
 
-    Quando essa regra de conversão é aplicada, +441235551010 se torna 011441235551010.
+     Quando essa regra de conversão é aplicada, +441235551010 se torna 011441235551010.
 
 6. Clique em **OK** para salvar a regra de tradução.
 
@@ -87,7 +87,7 @@ Se você deseja definir uma regra de conversão digitando um conjunto de valores
 
    - No campo  **Regra de conversão**, especifique o padrão para o formato dos números convertidos.
 
-    Por exemplo, se você inserir ^\+(\d{9}\d+)$ em **corresponder este padrão** and011$ 1 em **regra de conversão**, a regra converterá + 441235551010 em 011441235551010.
+     Por exemplo, se você inserir ^\+(\d{9}\d+)$ em **corresponder este padrão** and011$ 1 em **regra de conversão**, a regra converterá + 441235551010 em 011441235551010.
 
 7. Clique em  **OK** para salvar a regra de tradução.
 

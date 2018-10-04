@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você pode mover um usuário de seu pool herdado para seu Skype para pool de piloto Business Server 2019 usando Skype para painel de controle do Business Server 2019 ou Skype para Business Server 2019 Management Shell. No exemplo abaixo, na coluna pool registrador, pool01. contoso.NET é o pool herdado e seis desses usuários conectados a esse pool. Use os procedimentos a seguir para mover um usuário para sua Skype para pool de negócios Server 2019 usando Skype para painel de controle do Business Server 2019 e Skype do Shell de gerenciamento do servidor de negócios.
-ms.openlocfilehash: f04cccf29fd88bf1da95f4d67f6e47c51b878717
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6742c5fc00c9d53030ac32ee698686bb8b11fa07
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028807"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372742"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Mover um usuário único ao pool piloto
 
@@ -43,15 +43,15 @@ Você pode mover um usuário de seu pool herdado para seu Skype para pool de pil
     
 2. Na linha de comando, digite o seguinte: 
     
-  ```
-  Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
-  ```
+   ```
+   Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
+   ```
 
 3. Em seguida, na linha de comando, digite o seguinte: 
     
-  ```
-  Get-CsUser -Identity "David Pelton"
-  ```
+   ```
+   Get-CsUser -Identity "David Pelton"
+   ```
 
 4. A identidade **RegistrarPool** agora aponta para o Skype para Business Server 2019 pool. A presença dessa identidade confirma que o usuário foi movido com êxito. 
 

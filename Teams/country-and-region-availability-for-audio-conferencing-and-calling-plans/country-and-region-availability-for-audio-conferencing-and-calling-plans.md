@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: c705feab5ab0288fb496544c76ce7346de3bb9d5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013647"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372481"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -136,7 +136,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 Depois de conferir se os serviços do Skype for Business ou do Microsoft Teams estão disponíveis, você verá o [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing), que ajudará na compra de licenças e em sua atribuição aos usuários.
 
 > [!NOTE]
-
+> 
 > Se você precisar fazer mais números de telefone para seus usuários, consulte [Getting números de telefone para os usuários](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users) ou, para formulários de solicitação números do telefone, [gerenciar números de telefone para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 

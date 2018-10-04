@@ -11,19 +11,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Os cmdlets este artigo contornos que dão admins mais controle dos métodos de autenticação usado dentro e fora, de uma empresa. Os administradores podem ativar métodos de autenticação ou desativar interna ou externamente para sua rede.
-ms.openlocfilehash: d460632d810eace4a6b43665d1d8e3335e3eae3c
-ms.sourcegitcommit: 1cfbf3d7cdd8b40db47aa92625aa73b63d6e86e9
+ms.openlocfilehash: f1af26c5cad98ee3416fa1bdd91d6fc8326eaf53
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22546554"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371800"
 ---
 # <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Desative os métodos de autenticação Legacy interna e externamente à sua rede.
 
 > [!NOTE]
 > Se você está prestes a ler este artigo, você já deve conhecer topologias com suporte de autenticação moderno, ADAL, e sobre a configuração de autenticação moderno, mas, caso contrário, aqui estão os artigos que você precisa iniciar o check-out: 
- + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
- + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+>  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
   
 Autenticação moderna apenas não ativa o mais seguros métodos de autenticação, como autenticação de dois fatores, ou a autenticação baseada em certificado, ele pode realizar a autorização do seu usuário sem a necessidade de um usuário ou senha muito. Ele é muito útil.
 
@@ -59,7 +59,7 @@ __Digite 1 Descrição:__ Este é o padrão __cenário quando MA é ativado para
 
 __Descrição do tipo 2:__ Essa topologia bloqueia NTLM *externamente*, mas permite que o NTLM ou Kerberos (para clientes que não oferecem suporte a ADAL) funcione *internamente*. Se seus clientes suportam ADAL eles usarão MA internamente.
 
-__Descrição do tipo 3:__ Esta topologia requer MA para todos os usuários. Todos os seus clientes capaz de ADAL funcionará nessa topologia, e não serão aproveitadas senhas.
+__Descrição do tipo 3:__ Esta topologia requer MA para todos os usuários. Todos os seus clientes capaz de ADAL funcionará nessa topologia e senhas não serão aproveitadas se, por exemplo, desativar o uso de senhas com autenticação baseada em certificado
 
 __Descrição do tipo 4:__ Essa topologia bloqueia NTLM *externamente* e MA internamente. Ele permite que *todos os clientes* usem autenticação herdado métodos *internamente* (pares capaz de ADAL clientes).
 

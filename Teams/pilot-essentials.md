@@ -14,12 +14,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6ed0f5a93f2ba3ea46c88bbdf0fa93ebb843f9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: fc88190df03ed7087013c196ac32279c88c58801
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016873"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372536"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
@@ -42,7 +42,7 @@ Para obter os resultados mais realistas, o piloto deve envolvem usuários reais,
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você usará um piloto para informar a direção do projeto?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para criar e executar o seu piloto em formal.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Use as diretrizes abaixo para criar e executar o seu piloto em formal.</li></ul>|
 
 > [!Tip]
 > Use os exemplos de [recursos do piloto](https://aka.ms/UpgradeSuccessKit) para ajudar a projetar suas comunicações, pesquisa de comentários e plano de teste.
@@ -101,11 +101,11 @@ Após concluir seu piloto, é hora de reunir todas as pesquisas de comentários,
 
 Se os resultados indicam:
 
--   **Foram obtidas suas metas piloto (por exemplo, a satisfação do usuário e a qualidade da rede)**, você deve estar pronto para prosseguir com a próxima fase da sua distribuição. Dependendo das metas do seu projeto, isso poderia ser um destes procedimentos:
-   -   Estendendo o piloto aos participantes adicionais
-   -   [Habilitando equipes junto com Skype para negócios (**Ilhas** modo) para alguns ou todos da sua organização](https://aka.ms/SkypeToTeams-SetCoexistence)
-   -   [Atualizando usuários do Skype for Business para equipes (modo de**equipes somente** ) para alguns ou todos da sua organização](https://aka.ms/SkypeToTeams-SetCoexistence)
--   **Seu piloto não alcançar os resultados que você queria (por exemplo, satisfação do usuário e qualidade de rede)**, demorar para fazer os ajustes apropriados para seu plano e rever seu piloto.
+- **Foram obtidas suas metas piloto (por exemplo, a satisfação do usuário e a qualidade da rede)**, você deve estar pronto para prosseguir com a próxima fase da sua distribuição. Dependendo das metas do seu projeto, isso poderia ser um destes procedimentos:
+  -   Estendendo o piloto aos participantes adicionais
+  -   [Habilitando equipes junto com Skype para negócios (**Ilhas** modo) para alguns ou todos da sua organização](https://aka.ms/SkypeToTeams-SetCoexistence)
+  -   [Atualizando usuários do Skype for Business para equipes (modo de**equipes somente** ) para alguns ou todos da sua organização](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **Seu piloto não alcançar os resultados que você queria (por exemplo, satisfação do usuário e qualidade de rede)**, demorar para fazer os ajustes apropriados para seu plano e rever seu piloto.
 
 > [!Tip]
 > Inscrever-se participantes piloto como campeões ponto para ajudar a Pregue e onboard novos usuários às equipes. Campeões ponto podem facilmente se relacionam com outros usuários, compartilhar suas próprias experiências e lições e oferecendo suporte e orientação aos seus colegas. Saiba mais sobre os [campeões](https://go.microsoft.com/fwlink/?linkid=859068) e como você pode usá-las em sua própria implementação. 

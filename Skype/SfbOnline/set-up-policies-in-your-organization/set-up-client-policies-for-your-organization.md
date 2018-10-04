@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: A ajuda de políticas de cliente determina os recursos do Skype for Business Online que são disponibilizados para os usuários; por exemplo, você pode dar a alguns usuários o direito de transferir arquivos enquanto nega este direito a outros usuários.
-ms.openlocfilehash: 791d54dd12e5f222958fd4513abdeca2433cbf16
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 1a5e752976aaa14adeb0b2345da830c5765ce7f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23857857"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373189"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Configurar políticas de clientes para sua organização
 
@@ -58,32 +58,32 @@ Configurações de diretiva do cliente podem ser configuradas no momento em que 
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
 
-  ```      
+   ```      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
-  ```
+   ```
 
-  Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [Conectando-se ao Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Desabilitar notificações de presença e emoticons e evitam que o salvamento de mensagens instantâneas
 
 - Para criar uma nova política para essas configurações, execute:
     
 > 
-  ```
-  New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+>   ```
 
   Consulte obter mais informações sobre o cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Para conceder a nova política que você criou para todos os usuários em sua organização, execute:
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+>   ```
 
   Consulte obter mais informações sobre o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
@@ -94,18 +94,18 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientP
 - Para criar uma nova política para essas configurações, execute:
     
 > 
-  ```
-  New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
-  ```
+>   ```
+>   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+>   ```
 
   Consulte obter mais informações sobre o cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Para conceder a nova política que você criou para todos os usuários em sua organização, execute:
     
 > 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
-  ```
+>   ```
+>   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+>   ```
 
   Consulte obter mais informações sobre o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
@@ -114,24 +114,24 @@ Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientP
 ### <a name="prevent-showing-recent-contacts"></a>Impedir a exibição de contatos recentes
 
 - Para criar uma nova política para essas configurações, execute:
-> 
-  ```
-  New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  ```
+  > 
+  > ```
+  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+  > ```
 
   Consulte obter mais informações sobre o cmdlet [New-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
     
 - Para conceder a nova política que você criou para Mármore Amos, execute:
-> 
-  ```
-  Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  ```
+  > 
+  > ```
+  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+  > ```
 
   Consulte obter mais informações sobre o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
     
   Se você já tiver criado uma política, você pode usar o cmdlet [Set-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para fazer alterações à diretiva existente e, em seguida, use o cmdlet [Grant-CsClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar as configurações para seus usuários.
   
-## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
+## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
 - O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     

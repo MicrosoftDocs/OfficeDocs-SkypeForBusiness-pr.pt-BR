@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c420697b015d3af9cfe6fb9dd96757f1542e80
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: c908cbfbd7daace3665ff99ccd3962fabf440e65
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016305"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373396"
 ---
 <a name="run-microsoft-teams-in-a-virtual-environment"></a>Execute o Microsoft Teams em um ambiente virtual
 ============================================
@@ -100,7 +100,7 @@ Os cmdlets *CsTeamsMeetingPolicy* permitem que os administradores controlem o ti
 5.  Aplique a opção de política pré-configurado "AllOff" para todos os usuários que usarão as equipes em um ambiente virtualizado:<br>
 \>> *Grant-CsTeamsMeetingPolicy - PolicyName AllOff-Identity "id de email do usuário"*
 
-##<a name="known-limitations"></a>Limitações conhecidas
+## <a name="known-limitations"></a>Limitações conhecidas
 
 Além do previosly limitações de áudio e vídeo mencionado, há algumas limitações adicionais poderão ser enfrentadas por usuários em ambientes virtualizados:
 

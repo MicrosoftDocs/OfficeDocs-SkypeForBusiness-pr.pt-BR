@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte como ativar e usar o Skype para Business Online chamada qualidade Dashboard e obter relatórios de resumo de qualidade de chamadas. '
-ms.openlocfilehash: bf7540d7c83fb8a3f7507fb4a8fcbcd8e820e2e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017885"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373804"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online
 
@@ -186,11 +186,11 @@ O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de
     
 2. Depois de selecionar o tipo de dados de arquivo, clique em **Procurar** para escolher um arquivo de dados.
     
-  - O arquivo de dados deve ser um arquivo. tsv (valores separados por tabulações) ou arquivos. csv (valores separados por vírgulas). Se estiver usando um arquivo. csv, qualquer campo que contém uma vírgula deve ser circundados por aspas ou ter a vírgula removida. Por exemplo, se o seu nome de construção é Nova York, NY, no arquivo. csv ele deve ser inserido como "Nova York, NY".
+   - O arquivo de dados deve ser um arquivo. tsv (valores separados por tabulações) ou arquivos. csv (valores separados por vírgulas). Se estiver usando um arquivo. csv, qualquer campo que contém uma vírgula deve ser circundados por aspas ou ter a vírgula removida. Por exemplo, se o seu nome de construção é Nova York, NY, no arquivo. csv ele deve ser inserido como "Nova York, NY".
     
-  - O arquivo de dados deve ser maior do que 50MB em tamanho.
+   - O arquivo de dados deve ser maior do que 50MB em tamanho.
     
-  - Para cada arquivo de dados, cada coluna no arquivo deve corresponder a um tipo de dados predefinidos, discutido posteriormente neste tópico.
+   - Para cada arquivo de dados, cada coluna no arquivo deve corresponder a um tipo de dados predefinidos, discutido posteriormente neste tópico.
     
 3. Depois de selecionar um arquivo de dados, especifique a **Data de início** e, opcionalmente, **Especifique uma data de término**.
     

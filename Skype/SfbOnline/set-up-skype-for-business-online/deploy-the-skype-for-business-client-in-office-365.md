@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba como planejar e implantar Skype para negócios em organizações pequenas, médias e grandes e tornar disponível aos usuários. '
-ms.openlocfilehash: 6af2ed700783fef853052b39c60270baf86919e9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23858791"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372567"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implantar o Skype para o cliente de negócios no Office 365
 
@@ -136,7 +136,7 @@ Para obter mais informações sobre o funcionam das atualizações de software d
     
 - [Definir configurações de atualização do Office 365 ProPlus](https://technet.microsoft.com/en-us/library/dn761708.aspx)
     
- **A frequência de obter atualizações de recurso**
+  **A frequência de obter atualizações de recurso**
   
 Além de onde você pode obter atualizações do, você pode controlar com que frequência você obtenha novos recursos para o Skype para o cliente de negócios. As duas opções são as seguintes:
   

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Resumo: Saiba como definir um tronco adicional entre um servidor de mediação e um par de gateway no construtor de topologia no Skype para Business Server.'
-ms.openlocfilehash: 6099f0542634b19bcee989e985f5a8829749daef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 1f70a1d99ebff1bbc1fbd162b322185b3cd21690
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883936"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370656"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definir troncos adicionais no construtor de topologia no Skype para Business Server
  
@@ -36,22 +36,22 @@ Um tronco é uma conexão lógica entre um servidor de mediação e um gateway.
 1. Inicie o construtor de topologia: Clique em **Iniciar**, clique em **Todos os programas**, clique em **Skype para Business Server 2015**e clique **Skype para Business Server 2015Topology Builder**.
     
 2. Em Skype para Business Server, o nome do seu site, **Componentes compartilhados**, clique com botão direito no nó **troncos** e clique em **Novo tronco**.
-    3. Em **Definir Novo Tronco**, especifique um nome amigável para identificar exclusivamente o tronco. Você não pode ter dois troncos com o mesmo nome.
+   1. Em **Definir Novo Tronco**, especifique um nome amigável para identificar exclusivamente o tronco. Você não pode ter dois troncos com o mesmo nome.
     
-    > [!NOTE]
-    > Se você especificar a segurança de camada de transporte (TLS) como o tipo de transporte, você deve especificar o FQDN ao invés do endereço IP do ponto do servidor de mediação. 
+      > [!NOTE]
+      > Se você especificar a segurança de camada de transporte (TLS) como o tipo de transporte, você deve especificar o FQDN ao invés do endereço IP do ponto do servidor de mediação. 
   
-4. Sob **Gateway PSTN associado**, selecione o ponto de gateway PSTN para associar a este tronco.
+3. Sob **Gateway PSTN associado**, selecione o ponto de gateway PSTN para associar a este tronco.
     5. Em **Porta de escuta do gateway PSTN**, digite a porta de escuta do ponto (gateway PSTN, IP-PBX ou SBC) receberá mensagens SIP do servidor de mediação que deve ser associado esse tronco. As portas de ponto padrão são 5066 para TCP (Transmission Control Protocol) e 5067 para TLS (Transport Layer Security). As portas de aparelho de filial persistente padrão são 5081 para TCP e 5082 para TLS.
     
-6. Sob **Protocolo de Transporte SIP**, clique no tipo de transporte usado pelo ponto.
+4. Sob **Protocolo de Transporte SIP**, clique no tipo de transporte usado pelo ponto.
     
     > [!NOTE]
     > Por motivos de segurança, é altamente recomendável que você implante um par ao servidor de mediação que possa utilizar TLS. 
   
-7. Em **Servidor de mediação associado**, selecione o pool de servidor de mediação para associar o tronco raiz deste ponto
+5. Em **Servidor de mediação associado**, selecione o pool de servidor de mediação para associar o tronco raiz deste ponto
     
-8. Em **porta do servidor de mediação associado**, digite a porta de escuta do servidor de mediação receberá mensagens SIP do ponto.
+6. Em **porta do servidor de mediação associado**, digite a porta de escuta do servidor de mediação receberá mensagens SIP do ponto.
     
     > [!NOTE]
     > Com suporte a troncos múltiplos no Skype para Business Server, dois troncos com nomes de tronco diferentes podem ser configurados com a mesma **porta do servidor de mediação associado** e **Porta de escuta do gateway IP/PSTN**
@@ -59,6 +59,6 @@ Um tronco é uma conexão lógica entre um servidor de mediação e um gateway.
     > [!NOTE]
     > Com suporte a troncos múltiplos no Skype para Business Server, as portas de sinalização do SIP de vários pode ser definido no servidor de mediação para comunicação com vários correspondentes. Ao definir um tronco, o número da **porta do servidor de mediação associado** deve ser dentro do intervalo das portas de escuta para o protocolo respectivo permitidos pelo servidor de mediação. Esse intervalo de portas é definido em Skype para pools Business Server e o servidor de mediação. O pool do servidor de mediação relevante do mouse em e selecione **Editar propriedades**. Especifique o intervalo de portas no campo **Portas de escuta**.
   
-9. Clique em **OK**. 
+7. Clique em **OK**. 
     
 

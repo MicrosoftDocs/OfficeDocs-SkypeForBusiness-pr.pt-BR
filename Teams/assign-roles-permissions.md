@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d5b3f52caf7de455d2b579a3360d17e18602450
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 523530647834fa2c54d18d983f25733bbe25d1be
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014287"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372645"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir membros em Microsoft Teams e proprietários de equipe
 =================================================
@@ -30,19 +30,21 @@ Em Microsoft Teams, existem duas funções de usuário: **proprietário** e do *
 
 A tabela abaixo mostra as diferenças de permissão entre um proprietário e um membro:
 
-|  |Proprietário da equipe  |Membro da equipe  |
-|---------|---------|---------|
-|**Criar equipe**     |Sim        |Não         |
-|**Sair da equipe**     |Sim         |Sim         |
-|**Editar nome/descrição da equipe**      |Sim         |Não         |
-|**Excluir equipe**      |Sim         |Não         |
-|**Adicionar canal**      |Sim         |Sim*         |
-|**Editar nome/descrição do canal**      |Sim         |Sim*         |
-|**Excluir canal**      |Sim         |Sim*         |
-|**Adicionar membros**      |Sim**         |Não         |
-|**Adicionar guias**      |Sim         |Sim*         |
-|**Adicionar conectores**      |Sim         |Sim*         |
-|**Adicionar bots**      |Sim         |Sim*         |
+
+|                                   | Proprietário da equipe | Membro da equipe |
+|-----------------------------------|------------|-------------|
+|          **Criar equipe**          |    Sim     |     Não      |
+|          **Sair da equipe**           |    Sim     |     Sim     |
+|  **Editar nome/descrição da equipe**   |    Sim     |     Não      |
+|          **Excluir equipe**          |    Sim     |     Não      |
+|          **Adicionar canal**          |    Sim     |    Sim\*    |
+| **Editar nome/descrição do canal** |    Sim     |    Sim\*    |
+|        **Excluir canal**         |    Sim     |    Sim\*    |
+|          **Adicionar membros**          |  Sim\*\*   |     Não      |
+|           **Adicionar guias**            |    Sim     |    Sim\*    |
+|        **Adicionar conectores**         |    Sim     |    Sim\*    |
+|           **Adicionar bots**            |    Sim     |    Sim\*    |
+
 \*Esses itens podem ser desativados por um proprietário em um nível de equipe, caso em que os membros não terá acesso a eles.
 
 \*\*Após adicionar um membro a uma equipe, o Proprietário também pode promover um Membro para o status de Proprietário. Também é possível para um Proprietário rebaixar seu próprio status para o status de Membro.

@@ -13,12 +13,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: c533e1d5732d2d11512a381ccdced00df9c2ec9b
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.openlocfilehash: 267ce64472fe643bb3544b80a3e3f6222db1d4ba
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965511"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373972"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -46,12 +46,13 @@ Casos de uso de negócios servem para definir e documentar os resultados de neg�
 
 > [!TIP]
 > Segue um exemplo de caso de uso comercial concluído:
->|         |
->|---------|
->|**Descrição do processo comercial atual**<br>A Contoso conta atualmente com serviços de conferência PSTN fornecidos pelo provedor de telefonia local vigente, cobrados por minutos de reunião para reuniões internas e reuniões envolvendo partes externas.|
->|**Desafios com os processos comerciais existentes**<br>A Contoso gasta cerca de US$ 1 milhão por ano com o serviço de conferência PSTN atual, com 75% do custo incorrendo para reuniões internas. O uso de pontos de extremidade de telefonia tradicional para participar de reuniões hospedadas pelo serviço de conferência PSTN não é alinhado com o plano para a organização adotar equipes como uma plataforma de colaboração e o communications moderno.|
->|**Como a tecnologia pode superar esses desafios**<br>Com a adoção da Microsoft Teams como uma plataforma de colaboração e o communications moderno, espera-se os usuários internos principalmente ingressar em reuniões usando seus PCs equipados com dispositivos de sala de reunião e headsets otimizadas. O serviço de conferência de áudio estarão disponível para dar suporte aos participantes externos ou para oferecer suporte a situações em que o uso de áudio para PC não é favorável para os participantes internos.|
->|**Resultados comerciais esperados e mensuráveis**<br>A mudança para equipes como um communications modernos e a plataforma de colaboração, combinado com o serviço de conferência de áudio, reduzirá bastante o custo para oferecer o serviço de conferência PSTN.|
+> 
+> |         |
+> |---------|
+> |**Descrição do processo comercial atual**<br>A Contoso conta atualmente com serviços de conferência PSTN fornecidos pelo provedor de telefonia local vigente, cobrados por minutos de reunião para reuniões internas e reuniões envolvendo partes externas.|
+> |**Desafios com os processos comerciais existentes**<br>A Contoso gasta cerca de US$ 1 milhão por ano com o serviço de conferência PSTN atual, com 75% do custo incorrendo para reuniões internas. O uso de pontos de extremidade de telefonia tradicional para participar de reuniões hospedadas pelo serviço de conferência PSTN não é alinhado com o plano para a organização adotar equipes como uma plataforma de colaboração e o communications moderno.|
+> |**Como a tecnologia pode superar esses desafios**<br>Com a adoção da Microsoft Teams como uma plataforma de colaboração e o communications moderno, espera-se os usuários internos principalmente ingressar em reuniões usando seus PCs equipados com dispositivos de sala de reunião e headsets otimizadas. O serviço de conferência de áudio estarão disponível para dar suporte aos participantes externos ou para oferecer suporte a situações em que o uso de áudio para PC não é favorável para os participantes internos.|
+> |**Resultados comerciais esperados e mensuráveis**<br>A mudança para equipes como um communications modernos e a plataforma de colaboração, combinado com o serviço de conferência de áudio, reduzirá bastante o custo para oferecer o serviço de conferência PSTN.|
 
 Além de definir seu negócio use casos, para definir os limites do projeto que deve ser visam esclarecimento unidade sobre:
 
@@ -60,6 +61,7 @@ Além de definir seu negócio use casos, para definir os limites do projeto que 
 -   **Cronograma do projeto:** A linha de tempo específica do projeto será executado.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Cite todos os casos de uso de negócios para conferência de áudio, você pode identificar em sua organização.</li></ul>|
@@ -73,26 +75,28 @@ O uso de negócios casos definidos na etapa anterior incluem um escopo organizac
 
 > [!TIP]
 > Segue um exemplo de matriz de partes envolvidas que você pode usar para documentar as partes envolvidas do projeto:
->|Função  |Descrição  |Nome, informações de contato, localização  |
->|---------|---------|---------|
->|Patrocinador executivo do projeto|<ul><li>Assumir ultimate autoridade e responsabilidade para o projeto e a entrega objetivos do projeto.</li><li>Ajuda a resolver problemas escalonados pelo líder da equipe do projeto.</li><li>Patrocinar comunicação dentro da empresa sobre os objetivos do projeto.</li><li>Verifique as principais decisões estratégicas.</li><li>Assegurar a disponibilidade de recursos necessários e o orçamento.</li><li>Levar trimestral análises dos negócios (QBRs).</li><li>Compre e apoio dos esforços da campanha de divulgação da unidade.</li><li>Servir como o patrocinador do projeto para a distribuição de programa.</li></ul>|TBA|
->|Líder de projeto|<ul><li>Gerenciar e levam a equipe de projeto.</li><li>Coordene parceiros e equipes de trabalho envolvidas no projeto.</li><li>Ser responsáveis pela criação e planos de gerenciamento de projeto atender aos resultados principais trimestrais.</li><li>Resolva problemas interfuncionais.</li><li>Fornecer atualizações regulares para responsáveis pelo projeto.</li><li>Incorpore aspectos de adoção ao plano de todo o projeto.</li><li>Liderança mensal de negócios e avaliações operacionais (MBRs), contribuir para QBRs.</li></ul>|TBA|
->|Líder/arquiteto de colaboração|<ul><li>Execute a estratégia de colaboração definida por executivos da empresa.</li><li>Analisar e escolha produtos de colaboração que atendam aos objetivos comerciais para a empresa.</li><li>Operações para produtos de colaboração de design.</li><li>Definir operação e suporte a modelos.</li><li>Contribui para análises de negócios mensais e trimestrais.</li></ul>|TBA|
->|Consultor|<ul><li>Ser responsável pelos serviços de configuração</li><li>Contribui para a arquitetura de solução geral.</li></ul>|TBA|
->|Gerente de projetos|<ul><li>Desenvolver e manter o plano de projeto.</li><li>Gerencie entregas do projeto alinhado com o plano de projeto e o orçamento.</li><li>Gravar e gerenciar problemas do projeto, incluindo escalações.</li><li>Realize chamadas standup semanais.</li><li>Faça a conexão com e fornecer, aos executivos responsáveis pelo projeto atualizações.</li><li>Trabalhar com o arquiteto para definir os planos de comunicação e a abordagem de gerenciamento alteração.</li></ul>|TBA|
->|Especialista em adoção/gerenciamento de mudanças|<ul><li>Fornecer entrada durante a fase de descoberta em processos de treinamento e adoção.</li><li>Participe do workshop de estratégia de adoção.</li><li>Desenvolver e assumir a responsabilidade para a estratégia de adoção.</li><li>Desenvolver e executar o plano de comunicação.</li><li>Entrega treinamentos aos usuários.</li><li>Coletar comentários e conduzir pesquisas.</li></ul>|TBA|
->|Líder de rede|<ul><li>Fornecer entrada durante a fase de descoberta em design de rede.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Coordene o trabalho da equipe de rede durante a execução do projeto.</li></ul>|TBA|
->|Líder de segurança|<ul><li>Fornecer entrada durante a fase de descoberta em processos e o design de segurança.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Coordene o trabalho da equipe de segurança durante a execução do projeto.</li></ul>|TBA|
->|Líder de telefonia|<ul><li>Fornecer entrada durante a fase de descoberta em design de telefonia.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Coordene o trabalho da equipe de telefonia durante a execução do projeto.</li></ul>|TBA|
->|Líder de desktop|<ul><li>Fornecer uma entrada durante a fase de descoberta para os clientes e o processo de atualização.</li><li>Participe de planejamento durante o workshop Envision.</li><li>Coordene o trabalho da equipe de área de trabalho durante a execução do projeto.</li></ul>|TBA|
->|Líder de suporte/suporte técnico|<ul><li>Fornecer uma entrada durante a fase de descoberta em operacionais e os modelos de suporte.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Participe de planejamento do suporte ao modelo.</li><li>Coordene o trabalho de equipes de suporte e recursos durante a execução do projeto.</li></ul>|TBA|
->|Representantes das unidades de negócios|<ul><li>Contribuir para guias de adoção baseada no usuário e materiais.</li><li>Contribuir para e revise os casos de uso de negócios.</li></ul>|TBA|
->|Líder de implantação|<ul><li>Certifique-se de que os pré-requisitos de implantação sejam atendidos.</li><li>Envolva os recursos a serem envolvidos nas atividades de fase Onboard.</li><li>Participe de reuniões para examinar e preparar relatórios sobre o status de implantação.</li></ul>|TBA|
->|Administradores de TI|<ul><li>Assistência com o planejamento de teste e execução. Essa função é para profissionais de TI.</li></ul>|TBA|
->|Proprietário do serviço|<ul><li>Se responsável para a operação do serviço de conferência de áudio, sempre para cima.</li><li>Possui o serviço de conferência de áudio.</li></ul>|TBA|
->|Defensores da qualidade|<ul><li>Unidade de comentários de qualidade, confiabilidade e usuário.</li><li>Identificar as tendências de qualidade e remediação com as respectivas equipes de unidade.</li><li>Relatar por meio do Comitê de orientação de volta à liderança.</li><li>Gerar relatórios sobre qualidade, confiabilidade e usuário sentimento por meio de taxa de chamada Meu e pontuação de Promotores Net.</li></ul>|TBA|
+> 
+> |Função  |Descrição  |Nome, informações de contato, localização  |
+> |---------|---------|---------|
+> |Patrocinador executivo do projeto|<ul><li>Assumir ultimate autoridade e responsabilidade para o projeto e a entrega objetivos do projeto.</li><li>Ajuda a resolver problemas escalonados pelo líder da equipe do projeto.</li><li>Patrocinar comunicação dentro da empresa sobre os objetivos do projeto.</li><li>Verifique as principais decisões estratégicas.</li><li>Assegurar a disponibilidade de recursos necessários e o orçamento.</li><li>Levar trimestral análises dos negócios (QBRs).</li><li>Compre e apoio dos esforços da campanha de divulgação da unidade.</li><li>Servir como o patrocinador do projeto para a distribuição de programa.</li></ul>|TBA|
+> |Líder de projeto|<ul><li>Gerenciar e levam a equipe de projeto.</li><li>Coordene parceiros e equipes de trabalho envolvidas no projeto.</li><li>Ser responsáveis pela criação e planos de gerenciamento de projeto atender aos resultados principais trimestrais.</li><li>Resolva problemas interfuncionais.</li><li>Fornecer atualizações regulares para responsáveis pelo projeto.</li><li>Incorpore aspectos de adoção ao plano de todo o projeto.</li><li>Liderança mensal de negócios e avaliações operacionais (MBRs), contribuir para QBRs.</li></ul>|TBA|
+> |Líder/arquiteto de colaboração|<ul><li>Execute a estratégia de colaboração definida por executivos da empresa.</li><li>Analisar e escolha produtos de colaboração que atendam aos objetivos comerciais para a empresa.</li><li>Operações para produtos de colaboração de design.</li><li>Definir operação e suporte a modelos.</li><li>Contribui para análises de negócios mensais e trimestrais.</li></ul>|TBA|
+> |Consultor|<ul><li>Ser responsável pelos serviços de configuração</li><li>Contribui para a arquitetura de solução geral.</li></ul>|TBA|
+> |Gerente de projetos|<ul><li>Desenvolver e manter o plano de projeto.</li><li>Gerencie entregas do projeto alinhado com o plano de projeto e o orçamento.</li><li>Gravar e gerenciar problemas do projeto, incluindo escalações.</li><li>Realize chamadas standup semanais.</li><li>Faça a conexão com e fornecer, aos executivos responsáveis pelo projeto atualizações.</li><li>Trabalhar com o arquiteto para definir os planos de comunicação e a abordagem de gerenciamento alteração.</li></ul>|TBA|
+> |Especialista em adoção/gerenciamento de mudanças|<ul><li>Fornecer entrada durante a fase de descoberta em processos de treinamento e adoção.</li><li>Participe do workshop de estratégia de adoção.</li><li>Desenvolver e assumir a responsabilidade para a estratégia de adoção.</li><li>Desenvolver e executar o plano de comunicação.</li><li>Entrega treinamentos aos usuários.</li><li>Coletar comentários e conduzir pesquisas.</li></ul>|TBA|
+> |Líder de rede|<ul><li>Fornecer entrada durante a fase de descoberta em design de rede.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Coordene o trabalho da equipe de rede durante a execução do projeto.</li></ul>|TBA|
+> |Líder de segurança|<ul><li>Fornecer entrada durante a fase de descoberta em processos e o design de segurança.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Coordene o trabalho da equipe de segurança durante a execução do projeto.</li></ul>|TBA|
+> |Líder de telefonia|<ul><li>Fornecer entrada durante a fase de descoberta em design de telefonia.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Coordene o trabalho da equipe de telefonia durante a execução do projeto.</li></ul>|TBA|
+> |Líder de desktop|<ul><li>Fornecer uma entrada durante a fase de descoberta para os clientes e o processo de atualização.</li><li>Participe de planejamento durante o workshop Envision.</li><li>Coordene o trabalho da equipe de área de trabalho durante a execução do projeto.</li></ul>|TBA|
+> |Líder de suporte/suporte técnico|<ul><li>Fornecer uma entrada durante a fase de descoberta em operacionais e os modelos de suporte.</li><li>Participe de planejamento durante o workshop de fase Envision.</li><li>Participe de planejamento do suporte ao modelo.</li><li>Coordene o trabalho de equipes de suporte e recursos durante a execução do projeto.</li></ul>|TBA|
+> |Representantes das unidades de negócios|<ul><li>Contribuir para guias de adoção baseada no usuário e materiais.</li><li>Contribuir para e revise os casos de uso de negócios.</li></ul>|TBA|
+> |Líder de implantação|<ul><li>Certifique-se de que os pré-requisitos de implantação sejam atendidos.</li><li>Envolva os recursos a serem envolvidos nas atividades de fase Onboard.</li><li>Participe de reuniões para examinar e preparar relatórios sobre o status de implantação.</li></ul>|TBA|
+> |Administradores de TI|<ul><li>Assistência com o planejamento de teste e execução. Essa função é para profissionais de TI.</li></ul>|TBA|
+> |Proprietário do serviço|<ul><li>Se responsável para a operação do serviço de conferência de áudio, sempre para cima.</li><li>Possui o serviço de conferência de áudio.</li></ul>|TBA|
+> |Defensores da qualidade|<ul><li>Unidade de comentários de qualidade, confiabilidade e usuário.</li><li>Identificar as tendências de qualidade e remediação com as respectivas equipes de unidade.</li><li>Relatar por meio do Comitê de orientação de volta à liderança.</li><li>Gerar relatórios sobre qualidade, confiabilidade e usuário sentimento por meio de taxa de chamada Meu e pontuação de Promotores Net.</li></ul>|TBA|
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Quem irá preencher cada função principal interessado para sua organização?</li></ul>|
@@ -110,13 +114,14 @@ OKRs contêm os objetivos que você definir no início do projeto, e você defin
 
 > [!TIP]
 > Consulte a seguir exemplos de OKRs relevantes à implementação da Audioconferência:
-><br>
->
->**Visão**: Aumentar a produtividade maximizando os investimentos no Office 365
->|Objetivos  |Resultados principais  |A fazer  |
->|---------|---------|---------|
->|Implantar Audioconferência no Teams até o final do ano fiscal de 2018|1º trimestre do ano fiscal de 2018: Implantar Audioconferência no Teams globalmente|Concepção<ul><li>Criar plano de sucesso</li><li>Criar plano detalhado de implementação técnica</li></ul><p>Integração<ul><li>Executar plano de sucesso</li><li>Executar plano de implementação técnica</li></ul>|
->|Encerrar globalmente o serviço de conferência PSTN herdado até o meio do ano fiscal de 2018|2º trimestre do ano fiscal de 2018: Encerrar globalmente o serviço de conferência PSTN herdado|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
+> <br>
+> 
+> **Visão**: Aumentar a produtividade maximizando os investimentos no Office 365
+> 
+> |Objetivos  |Resultados principais  |A fazer  |
+> |---------|---------|---------|
+> |Implantar Audioconferência no Teams até o final do ano fiscal de 2018|1º trimestre do ano fiscal de 2018: Implantar Audioconferência no Teams globalmente|Concepção<ul><li>Criar plano de sucesso</li><li>Criar plano detalhado de implementação técnica</li></ul><p>Integração<ul><li>Executar plano de sucesso</li><li>Executar plano de implementação técnica</li></ul>|
+> |Encerrar globalmente o serviço de conferência PSTN herdado até o meio do ano fiscal de 2018|2º trimestre do ano fiscal de 2018: Encerrar globalmente o serviço de conferência PSTN herdado|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
 
 KSIs medir a qualidade e o êxito dos principais resultados e complementar a natureza binária do OKRs (conseguiu ou não atingidos) por detalhando resultados boas e/ou inválidos.
 
@@ -134,30 +139,33 @@ Ao definir KSIs, recomendamos que você use "específicos, mensuráveis, pode se
 
 > [!TIP]
 > Este é um exemplo de KSI relevante para esse projeto:
->|Tipo  |Pergunta e critérios do KSI  |Como foi mensurado  |Critérios de sucesso  |Mensurado  |Responsável  |
->|---------|---------|---------|---------|---------|---------|
->|Uso/adoção|A qualidade da chamada é igual ou melhor que a solução anterior|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Esquipe de Tecnologia da Informação|
->|Uso/adoção|O Microsoft Teams facilitou o processo de comunicação|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
->|Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Office 365, Painel de Qualidade da Chamada|80% dos usuários são usuários ativos diariamente|Diariamente|Equipe de gerenciamento de mudanças|
->|Uso/qualidade|A porcentagem de chamadas/conferências de má qualidade deve ser mínima|Painel de Qualidade da Chamada|< 5% de chamadas de má qualidade por mês|Diariamente|Esquipe de Tecnologia da Informação|
->|Uso/suporte|Eu sei como obter suporte técnico|Pesquisa|90% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
->|Uso/suporte|Estou satisfeito com a qualidade do suporte técnico|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após cada incidente|Esquipe de Tecnologia da Informação|
->|Financeiro|Redução dos minutos de conferência herdados|Sistema financeiro|Atingir o ROI estabelecido|Baseado no ROI|Equipe de gerenciamento de mudanças|
+> 
+> |Tipo  |Pergunta e critérios do KSI  |Como foi mensurado  |Critérios de sucesso  |Mensurado  |Responsável  |
+> |---------|---------|---------|---------|---------|---------|
+> |Uso/adoção|A qualidade da chamada é igual ou melhor que a solução anterior|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Esquipe de Tecnologia da Informação|
+> |Uso/adoção|O Microsoft Teams facilitou o processo de comunicação|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
+> |Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Office 365, Painel de Qualidade da Chamada|80% dos usuários são usuários ativos diariamente|Diariamente|Equipe de gerenciamento de mudanças|
+> |Uso/qualidade|A porcentagem de chamadas/conferências de má qualidade deve ser mínima|Painel de Qualidade da Chamada|< 5% de chamadas de má qualidade por mês|Diariamente|Esquipe de Tecnologia da Informação|
+> |Uso/suporte|Eu sei como obter suporte técnico|Pesquisa|90% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
+> |Uso/suporte|Estou satisfeito com a qualidade do suporte técnico|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após cada incidente|Esquipe de Tecnologia da Informação|
+> |Financeiro|Redução dos minutos de conferência herdados|Sistema financeiro|Atingir o ROI estabelecido|Baseado no ROI|Equipe de gerenciamento de mudanças|
 
 Você precisa identificar os riscos de negócios como parte deste exercício e definir um plano de atenuação para cada risco identificado. Essas informações podem ser capturadas em um registro de riscos.
 
 > [!TIP]
 > Seu registrador de risco pode ser documentado como o exemplo a seguir:
->|Risco  |Probabilidade  |Impacto  |Geral  |Plano de mitigação  |
->|---------|---------|---------|---------|---------|
->|A incorporação acrescentará até 1.000 pessoas|Alto|Alto|Alto|<ul><li>Para empresas mescladas, crie um OKR separado que se aplica às suas próprias fases do projeto (Envision, Onboard, o valor de unidade)</li><li>Não incluir esses OKRs em OKRs existentes</li></ul>|
->|A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte ao número de telefone portando antes do tempo (registro de serviço do cliente, detalhes da carta de autorização de cobrança)</li><li>Ajustar a cronograma do projeto para acomodar o tempo de execução de portabilidade número de telefone</li><li>Comunicar o uso de novos números de conferência de discagem para os participantes externos</li></ul>|
->|Reestruturação planejada da rede|Alto|Médio|Médio|<ul><li>Antes de implementar as equipes como uma plataforma de colaboração e o communications moderno, conduzir uma avaliação de prontidão de rede para sites no escopo do projeto</li></ul>|
+> 
+> |Risco  |Probabilidade  |Impacto  |Geral  |Plano de mitigação  |
+> |---------|---------|---------|---------|---------|
+> |A incorporação acrescentará até 1.000 pessoas|Alto|Alto|Alto|<ul><li>Para empresas mescladas, crie um OKR separado que se aplica às suas próprias fases do projeto (Envision, Onboard, o valor de unidade)</li><li>Não incluir esses OKRs em OKRs existentes</li></ul>|
+> |A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte ao número de telefone portando antes do tempo (registro de serviço do cliente, detalhes da carta de autorização de cobrança)</li><li>Ajustar a cronograma do projeto para acomodar o tempo de execução de portabilidade número de telefone</li><li>Comunicar o uso de novos números de conferência de discagem para os participantes externos</li></ul>|
+> |Reestruturação planejada da rede|Alto|Médio|Médio|<ul><li>Antes de implementar as equipes como uma plataforma de colaboração e o communications moderno, conduzir uma avaliação de prontidão de rede para sites no escopo do projeto</li></ul>|
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Cite OKRs e KSIs de sua organização.</li><li>Quais riscos com que você identificou relevantes à implementação da conferência de áudio em sua organização? Quais são os planos de atenuação para os riscos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Cite sua organização & #39; s OKRs e KSIs.</li><li>Quais riscos com que você identificou relevantes à implementação da conferência de áudio em sua organização? Quais são os planos de atenuação para os riscos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os OKRs, KSIs e estabelecer a registrar riscos.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -195,6 +203,7 @@ Comitê de orientação de atende em um intervalo recorrente durante o tempo de 
 -   Fornecer comentários formal e recomendações para liderança executiva, conselho, ou outras empresas e acionistas IT, conforme aplicável.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se um comitê de orientação é necessário para sua organização.</li></ul>|

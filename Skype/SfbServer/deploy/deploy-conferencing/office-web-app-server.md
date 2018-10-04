@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Resumo: Leia este tópico para saber como configurar a integração entre o Office Web Apps Server e Skype para Business Server para habilitar as apresentações do PowerPoint para Webconferência.'
-ms.openlocfilehash: 558ba648cab4dfd2667251ea96bc83d313746f10
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6c7c19f7634c7b0266364d372b573d3d060d5a97
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997311"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375241"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurar a integração com o Office Web Apps Server no Skype para Business Server
  
@@ -33,7 +33,7 @@ Depois que o Office Web Apps Server foi instalado com êxito e seu farm de Web f
 
 Para adicionar o Servidor do Office Web Apps à sua topologia, execute estas etapas:
   
-1.  Abra o Skype do construtor de topologia de servidor de negócios.
+1. Abra o Skype do construtor de topologia de servidor de negócios.
     
 2. Na caixa de diálogo **Construtor de Topologias**, selecione **Baixar topologia da implantação existente** e clique em **OK**.
     
@@ -45,9 +45,9 @@ Para adicionar o Servidor do Office Web Apps à sua topologia, execute estas eta
     
 6. Na caixa de diálogo **Definir Novo Servidor do Office Web Apps**, digite o FQDN (nome de domínio totalmente qualificado) do computador do Servidor do Office Web Apps na caixa **FQDN do Servidor do Office Web Apps**. Quando você fizer isso, a URL de descoberta de seu Servidor do Office Web Apps deverá ser inserida automaticamente na caixa **Office Web URL de descoberta de Servidor do Office Web Apps**.
     
-  - Se o Office Web Apps Server for instalado no local e na mesma zona do Skype para Business Server, em seguida, a opção **que Office Web Apps Server é implantado em uma rede externa (ou seja, de perímetro/Internet)** não deve ser selecionado.
+   - Se o Office Web Apps Server for instalado no local e na mesma zona do Skype para Business Server, em seguida, a opção **que Office Web Apps Server é implantado em uma rede externa (ou seja, de perímetro/Internet)** não deve ser selecionado.
     
-  - Se o Servidor do Office Web Apps for implantado fora do seu firewall interno, seleciona a opção **O Servidor do Office Web Apps é implantado em uma rede externa (ou seja, de perímetro/Internet)**.
+   - Se o Servidor do Office Web Apps for implantado fora do seu firewall interno, seleciona a opção **O Servidor do Office Web Apps é implantado em uma rede externa (ou seja, de perímetro/Internet)**.
     
 7. Na caixa de diálogo **Definir Novo Servidor Office Web Apps**, clique em **OK** e em **OK** na caixa de diálogo **Editar Propriedades**. Em seguida, a URL de descoberta do Office Online será listada como uma das associações do pool.
     
@@ -85,7 +85,7 @@ Se você tiver configurado o acesso de usuários externos, você também verá a
   
  **Página externa do apresentador do Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp; incorporar**
   
- **Página interna do Office Web Apps Server: https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp; incorporar = true&amp;**
+ **Página interna do Office Web Apps Server: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp>;**
   
 Se você vir um evento de LS dados MCU com a identificação de evento do 41033 o que significa que a descoberta de Office Web Apps Server falhou. Nesse caso, Skype para Business Server tentará quantas vezes forem necessárias para descobrir o recentemente configurado Office Web Apps Server. Se o processo de descoberta falhar repetidamente você deve remover o Office Web Apps Server do seu documento de topologia, publicar a topologia atualizada e tente adicionar o Office Web Apps Server volta para a topologia após os problemas de conectividade foram resolvidos.
   

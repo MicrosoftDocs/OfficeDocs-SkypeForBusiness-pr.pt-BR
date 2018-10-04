@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Defina as propriedades dos repositórios do SQL Server para o novo pool de Front-End que você está configurando.
-ms.openlocfilehash: 95b5f33e400947b6e1990179f9838d6418a2bece
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d0d8207d45425e84d20f62bc19adadc7337684ff
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006912"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375831"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Adicionar página de repositório do Sql Front End do Lync Server 2010
  
@@ -36,12 +36,12 @@ Configurações que você pode configurar:
     
     A **instância padrão** está selecionada inicialmente. Se você preferir definir uma instância, selecione a **instância nomeada** e digite o nome da instância do que você precisa criar.
     
- **Voltar**: volta para a caixa de diálogo anterior
+  **Voltar**: volta para a caixa de diálogo anterior
   
- **Avançar**: confirma as alterações e vai para a próxima caixa de diálogo de etapa
+  **Avançar**: confirma as alterações e vai para a próxima caixa de diálogo de etapa
   
- **Cancelar**: descarta as alterações e cancela a configuração
+  **Cancelar**: descarta as alterações e cancela a configuração
   
- **Ajuda**: exibe informações, como este tópico de ajuda
+  **Ajuda**: exibe informações, como este tópico de ajuda
   
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você pode edita as configurações de resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: b4394ae2a7244ae818335bd7c4b21c6d8930f03d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: db69f930dfa747e7537e529ede3b90405867ca27
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260668"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372703"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configurações SBA do registrador
 
@@ -32,11 +32,11 @@ Você pode edita as configurações de **resiliência** e configure as seguintes
     > [!CAUTION]
     > O número de segundos que você define para os intervalos de failover e failback deve ser testado cuidadosamente para garantir que a resiliência funciona conforme o esperado. Definir o intervalo para baixo (ou seja, menos de 120 segundos) ou o failover e failback definir muito parecido podem resultar na real failover e failback não funcionando conforme o esperado.
 
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** Aceita e confirma as alterações na caixa de diálogo.
 
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
 
- **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** Exibe essa tela de ajuda.
 
 ## <a name="see-also"></a>Consulte também
 

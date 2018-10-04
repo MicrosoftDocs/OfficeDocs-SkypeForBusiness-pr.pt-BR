@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: Saiba sobre os requisitos de ambientais para o servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: 8b384b91c90997b5008f79f44de42fe9bf35876e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 30bab83832d92fa77742bdaba39757f25e496c36
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891045"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373433"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos de ambiente de servidor de borda no Skype para Business Server
  
@@ -223,23 +223,23 @@ Estes serão os registros DNS, que você vai precisar para uma servidor de borda
     
   - Nó 2
     
-     - IPs Públicos:
+    - IPs Públicos:
     
-       - Borda de acesso: 131.107.155.11 (Este é o principal, com o gateway padrão definido para o roteador público, ex.: 131.107.155.1)
+      - Borda de acesso: 131.107.155.11 (Este é o principal, com o gateway padrão definido para o roteador público, ex.: 131.107.155.1)
     
-       - Borda de webconferência: 131.107.155.21 (secundário)
+      - Borda de webconferência: 131.107.155.21 (secundário)
     
-       - A / V Edge: 131.107.155.31 (secundário)
+      - A / V Edge: 131.107.155.31 (secundário)
     
       Webconferências e uma / endereços IP públicos de borda V são endereços IP adicionais (secundários) na seção Avançado das propriedades do Internet Protocol versão 4 (TCP/IPv4) e Internet Protocol Version 6 (TCP/IPv6) as propriedades de Conexão de área Local em Windows Server.
     
   - IPs Privadas:
     
-      - Borda de acesso: 10.45.16.11 (Este é o principal, com o gateway padrão definido como roteador, ex.: 10.45.16.1)
+    - Borda de acesso: 10.45.16.11 (Este é o principal, com o gateway padrão definido como roteador, ex.: 10.45.16.1)
     
-      - Borda de webconferência: 10.45.16.21 (secundário)
+    - Borda de webconferência: 10.45.16.21 (secundário)
     
-      - A / V Edge: e 10.45.16.31 (secundário)
+    - A / V Edge: e 10.45.16.31 (secundário)
     
       Webconferências e uma / endereços IP públicos de borda V são endereços IP adicionais (secundários) na seção Avançado das propriedades do Internet Protocol versão 4 (TCP/IPv4) e Internet Protocol Version 6 (TCP/IPv6) as propriedades de Conexão de área Local em Windows Server.
     

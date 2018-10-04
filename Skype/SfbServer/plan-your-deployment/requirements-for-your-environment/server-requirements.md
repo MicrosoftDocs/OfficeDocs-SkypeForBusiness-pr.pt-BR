@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: prepare seus servidores do Skype for Business Server 2015 com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos do sistema e recomendações estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas de seu farm de servidores.'
-ms.openlocfilehash: 4e6bbe71a75097e9b1a3a34752d9d1cd46d59307
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.openlocfilehash: 5f64bbf4e455896de143991be455c3c122b4911c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040738"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374749"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor no Skype for Business Server 2015
  
@@ -97,7 +97,7 @@ Skype para Business Server 2015 Enterprise Edition é um pouco mais complicado, 
 Se você não vir a edição do SQL Server que você deseja usar listado aqui, você não pode usá-lo.
   
 > [!NOTE]
-> Você vai também precisa instalar o SQL Server Reporting Services para a função Monitoring Server, mas precisamos que você saiba que isso não vai ser suportados com SQL sempre em até post-RTM. 
+> Você vai também precisa instalar o SQL Server Reporting Services para a função Monitoring Server.
 
 ### <a name="microsoft-exchange-storage"></a>Armazenamento do Microsoft Exchange
 Arquivos de conteúdo das reuniões, tais como apresentações em PowerPoint, são arquivados como anexo. Se você deseja armazenar Skype para dados de arquivo morto de negócios com os dados de conformidade do Exchange, você deve usar o Exchange para sua implantação do Exchange e certifique-se de que o tamanho máximo de armazenamento suporta o armazenamento dos arquivos de conteúdo de reunião. Você deve implantar o Exchange antes de implantar e habilitar o arquivamento usando a opção de integração do Microsoft Exchange. 

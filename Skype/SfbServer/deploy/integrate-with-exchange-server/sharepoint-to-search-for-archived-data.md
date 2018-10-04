@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumo: Configure SharePoint Server para pesquisar dados arquivados pelo Exchange Server e do Skype para Business Server.'
-ms.openlocfilehash: efd3fc67faacba503736968786988aaf01f45073
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0663874985063f4cf051aec69792ea0bdb32bb26
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971796"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373318"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar o SharePoint Server para pesquisar dados arquivados do Skype for Business
  
@@ -125,7 +125,7 @@ Finalmente, crie um novo caso de descoberta eletrônica e um novo eDiscovery def
     
 4. Quando a página de conjunto de descoberta eletrônica aparecer, clique em **novo item** sob **Identidade e Preservação: Conjuntos de Descoberta**.
     
-5. Na página Novo: Conjunto de Descoberta, insira o alias do email do usuário na caixa **Nome do Conjunto de Descoberta**. Insira **eDiscovery Lync\* ** no **filtro** caixa e, em seguida, clique em **Add &amp; gerenciar fontes**.
+5. Na página Novo: Conjunto de Descoberta, insira o alias do email do usuário na caixa **Nome do Conjunto de Descoberta**. Insira **eDiscovery Lync\\*** no **filtro** caixa e, em seguida, clique em **Add &amp; gerenciar fontes**.
     
 6. Em Adicionar &amp; gerenciar fontes de página, insira o alias de email do usuário na primeira caixa de texto em **caixas de correio**. Clique no ícone de verificação da caixa de correio ao lado da caixa de texto para verificar se o SharePoint consegue se conectar à caixa de correio especificada.
     

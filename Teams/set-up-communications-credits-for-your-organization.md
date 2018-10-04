@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f82788d34e492b6dd3fe54c60168b8d83b3c09e2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d97c95ed3fd4d398a4422645ab1e1491e1df6e3c
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018005"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375233"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para a sua organização
 
@@ -67,18 +67,18 @@ Para obter mais informações, consulte [Skype para licenciamento de complemento
     
 4. Na página de inscrição **Créditos de comunicações** , preencha as informações e clique em **Avançar**:
     
-  - **Adicionar fundos** Insira o valor que você deseja adicionar à sua conta. Se você não habilitar o autocarga, depois que essas fundos são esgotados, recursos que são habilitados usando comunicações créditos de chamada será interrompida (por exemplo, o serviço de chamada gratuito entrado). Para evitar ter que alimentar manualmente seu saldo créditos de comunicações de cada vez que sua proporção atinge 0 (zero), é recomendável que você habilita o recurso de autocarga.
+   - **Adicionar fundos** Insira o valor que você deseja adicionar à sua conta. Se você não habilitar o autocarga, depois que essas fundos são esgotados, recursos que são habilitados usando comunicações créditos de chamada será interrompida (por exemplo, o serviço de chamada gratuito entrado). Para evitar ter que alimentar manualmente seu saldo créditos de comunicações de cada vez que sua proporção atinge 0 (zero), é recomendável que você habilita o recurso de autocarga.
     
-  - **Recarga automática** A habilitação da recarga automática recarregará sua conta automaticamente quando o saldo ficar abaixo do limite definido.
+   - **Recarga automática** A habilitação da recarga automática recarregará sua conta automaticamente quando o saldo ficar abaixo do limite definido.
     
-    É recomendável que você use a configuração de **Autocarga** para evitar qualquer interrupção do serviço deve seu saldo Communications créditos atingir 0 (zero). Você será enviado um email quando as transações de carga tiver êxito, quando as transações de carga falham (por exemplo, um cartão de crédito expirado) e quando seu saldo Communications créditos atinge 0 (zero).
+     É recomendável que você use a configuração de **Autocarga** para evitar qualquer interrupção do serviço deve seu saldo Communications créditos atingir 0 (zero). Você será enviado um email quando as transações de carga tiver êxito, quando as transações de carga falham (por exemplo, um cartão de crédito expirado) e quando seu saldo Communications créditos atinge 0 (zero).
     
-  - **Recarregar a quantidade** Insira o valor na caixa **recarregar com** ser adicionada à sua conta, uma vez que ele atinge a quantidade de gatilho abaixo.
+   - **Recarregar a quantidade** Insira o valor na caixa **recarregar com** ser adicionada à sua conta, uma vez que ele atinge a quantidade de gatilho abaixo.
     
-  - **Quantidade de gatilho** Insira o valor na caixa **quando o equilíbrio fica abaixo** que será usada ao ' *gatilho* ' a carga de automático. Depois que o seu saldo cair abaixo deste valor, a quantidade de carga será adicionada automaticamente à sua conta.
+   - **Quantidade de gatilho** Insira o valor na caixa **quando o equilíbrio fica abaixo** que será usada ao ' *gatilho* ' a carga de automático. Depois que o seu saldo cair abaixo deste valor, a quantidade de carga será adicionada automaticamente à sua conta.
 
       > [!NOTE]
-    > Fundos serão aplicados somente ao Communications créditos na Microsoft publicado taxas quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados. 
+     > Fundos serão aplicados somente ao Communications créditos na Microsoft publicado taxas quando os serviços são usados. Os fundos não usados no prazo de 12 meses a contar da data de compra expirarão e serão cancelados. 
     
 5. Insira suas informações de pagamento e clique em **Fazer pedido**.
     >[!IMPORTANT]

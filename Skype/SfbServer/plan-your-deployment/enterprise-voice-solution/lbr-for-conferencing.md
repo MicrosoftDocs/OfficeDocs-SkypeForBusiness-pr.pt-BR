@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejamento de roteamento baseado no local para conferências no Skype para Business Server Enterprise Voice, incluindo com consultoria transferências de chamada.
-ms.openlocfilehash: 97ceaeb4f7e6e24cdffe3f1fd8c737de2e429e17
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888357"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373239"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Roteamento baseado no local para conferências no Skype para Business Server
 
@@ -47,6 +47,7 @@ O serviço de roteamento com base no local para o aplicativo de conferência imp
 Essas restrições de roteamento baseados em local da conferência estão resumidas na tabela a seguir.
 
 | |
+
 |**Usuário(s) em uma conferência em um determinado ponto**|**Usuário(s) autorizados a ingressar na conferência**|**Usuário(s) não autorizados a ingressar na conferência**|
 |:-----|:-----|:-----|
 |Skype para negócios VoIP (s) de cliente de um site de rede único  <br/> |Skype para usuário de cliente VoIP de negócios do mesmo local de rede  <br/> Skype para usuário de cliente VoIP de negócios de um site de rede diferente  <br/> Skype para usuário de cliente VoIP de negócios de um site de rede desconhecido  <br/> Skype federado para o usuário do cliente de VoIP de negócios  <br/> Usuário ingressando a partir de um ponto de extremidade PSTN  <br/> |Nenhum  <br/> |
@@ -141,7 +142,7 @@ Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade de "2", o a
 
 Após localizar o valor de prioridade correto para o serviço de roteamento com base no local para o aplicativo de conferência, digite o seguinte cmdlet para cada pool de front-end ou servidor Standard Edition que hospeda usuários habilitados para o roteamento baseado no local:
 
-New-CsServerApplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-prioridade <Application Priority> -habilitado $true-crítico $true - Uri https://www.microsoft.com/LCS/LBRoutingFor exemplo:
+New-CsServerApplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-prioridade <Application Priority> -habilitado $true-crítico $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> exemplo:
 
 New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-prioridade 3 - $true Enabled-crítico $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter usando este cmdlet, reiniciar todos os servidores de Front-End no pool ou os servidores Standard Edition onde o Roteamento baseado no local para o aplicativo de conferência tiver sido habilitado.
 

@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba as causas comuns para Skype para erros de entrada Business Online e trabalho por meio de solucionar esses problemas. '
-ms.openlocfilehash: 63bcd69fa4db2266647960c119c198797c154f75
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23850209"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371145"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype para solução de problemas para erros de entrada no Business Online para administradores
 
@@ -32,23 +32,23 @@ Para solucionar Skype para erros de entrada no Business Online, inicie, eliminan
 <a name="top"> </a>
 
 > [Procurar causas comuns da Skype para erros de entrada no Business Online](troubleshooting-sign-in-errors-for-admins.md#toc323194094)
-
+> 
 > [Siga as etapas de solução para um erro específico (Enterprise)](troubleshooting-sign-in-errors-for-admins.md#toc325626440)
-
+> 
 > [Adicionar uma entrada de firewall para msoidsvc.exe ao seu servidor proxy](troubleshooting-sign-in-errors-for-admins.md#add-a-firewall)
-
+> 
 > [Atualizar configurações de DNS](troubleshooting-sign-in-errors-for-admins.md#update-dns-service)
-
+> 
 > [Instalar um certificado SSL de terceiros em seu servidor ADFS](troubleshooting-sign-in-errors-for-admins.md#verify-upn-and)
-
+> 
 > [Atualizar as credenciais de segurança](troubleshooting-sign-in-errors-for-admins.md#update-security-credentials)
-
+> 
 > [Modifique as chaves de registro de TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry)
-
+> 
 > [Atualizar as configurações de usuário no Active Directory](troubleshooting-sign-in-errors-for-admins.md#update-user-settings)
-
+> 
 > [Use a guia resolução de problemas do Microsoft Support](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
-
+> 
 > [Coletar mais informações e buscar ajuda adicional](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Procurar causas comuns da Skype para erros de entrada no Business Online
@@ -56,16 +56,17 @@ Para solucionar Skype para erros de entrada no Business Online, inicie, eliminan
 
 A maioria dos problemas de login podem ser rastreados para um pequeno número de causas e muitos deles são fáceis de corrigir. A tabela a seguir lista algumas causas comuns de erros de entrada e algumas etapas que você ou os usuários podem ser executadas para resolvê-los.
 
-|**Possível causa**|**Resolução**|
-|:-----|:-----|
-|Durante a entrada, uma caixa de diálogo é exibida que contenha a frase a seguir: **não foi possível verificar se o servidor é confiável para o seu endereço de entrada. Conectar mesmo assim?** <br/> |Verifique se o nome de domínio na caixa de diálogo é um servidor confiável na sua organização — por exemplo, **domainName.contoso.com**. Peça que o usuário para selecionar a caixa de seleção **Sempre confiar neste servidor** e clique em **Conectar**. <br/> Os clientes corporativos podem impedir que essa mensagem apareça quando um usuário entrar pela primeira vez, modificando o registro do Windows no computador de cada usuário. Para obter detalhes, consulte [chaves do registro para modificar TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
-|Endereço de entrada erros de digitação, nome de usuário ou senha  <br/> | Confirme que o nome de usuário e a senha do usuário estão corretas. <br/>  Verificar se o nome de entrada do usuário é formatado como se segue: **bobk@contoso.com**. Isso pode ser diferente do que o formato usado para entrar rede da sua organização.  <br/>  Peça que o usuário tentar entrar novamente. <br/> |
-|Recuperação de senha  <br/> |Redefinir a senha do usuário e notificá-lo sobre a nova senha temporária.  <br/> |
-|Não licenciada para usar o Skype para negócios Online  <br/> |Confirme que o usuário está registrado como um Skype para usuário Business Online. Caso contrário, registre o usuário e, em seguida, solicite que ela entrar novamente.  <br/> |
-|Versão incorreta do Skype para Business Online instalado  <br/> |Esse problema é geralmente associado a uma mensagem de erro que contenha a frase a seguir: **o serviço de autenticação pode ser incompatível com esta versão do programa**.  <br/> Peça que o usuário desinstalar e reinstalar o Skype para negócios Online do Portal do Office 365.  <br/> |
-|Problema adquirir um certificado pessoal é necessária para entrar  <br/> |Se o endereço de entrada do usuário foi alterada recentemente, eles talvez seja necessário excluir dados armazenados em cache entrar. Peça aos usuários para sair, clique no botão Excluir link na tela entrar minhas informações de entrada e tente novamente.  <br/> |
-|Configurar um nome de domínio personalizado e as alterações podem não ter terminado propagando através do sistema.  <br/> |Em primeiro lugar, certifique-se de que você modificou os registros de serviço de nome de domínio (DNS) para refletir a alteração.  <br/> Se você já tiver feito as alterações necessárias do DNS, avisa o usuário tentar fazer logon no posteriormente. Alterações DNS podem levar até 72 horas sejam refletidas em todo o sistema.  <br/> |
-|Sistema relógio fora de sincronia com o relógio do servidor  <br/> |Certifique-se de que seu controlador de domínio de rede está sincronizando com uma fonte de tempo externa confiável. Para obter detalhes, consulte o artigo da Base de Conhecimento Microsoft 816042, [como configurar um servidor de horário autoritativo no Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/> |
+
+| **Possível causa**                                                                                                                                                    | **Resolução**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Durante a entrada, uma caixa de diálogo é exibida que contenha a frase a seguir: **não foi possível verificar se o servidor é confiável para o seu endereço de entrada. Conectar mesmo assim?** <br/> | Verifique se o nome de domínio na caixa de diálogo é um servidor confiável na sua organização — por exemplo, **domainName.contoso.com**. Peça que o usuário para selecionar a caixa de seleção **Sempre confiar neste servidor** e clique em **Conectar**. <br/> Os clientes corporativos podem impedir que essa mensagem apareça quando um usuário entrar pela primeira vez, modificando o registro do Windows no computador de cada usuário. Para obter detalhes, consulte [chaves do registro para modificar TrustModelData](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry).<br/> |
+| Endereço de entrada erros de digitação, nome de usuário ou senha  <br/>                                                                                                               | Confirme que o nome de usuário e a senha do usuário estão corretas. <br/>  Verificar se o nome de entrada do usuário é formatado como se segue: <strong>bobk@contoso.com</strong>. Isso pode ser diferente do que o formato usado para entrar rede da sua organização.  <br/>  Peça que o usuário tentar entrar novamente. <br/>                                                                                                                                                                                                                             |
+| Recuperação de senha  <br/>                                                                                                                                             | Redefinir a senha do usuário e notificá-lo sobre a nova senha temporária.  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Não licenciada para usar o Skype para negócios Online  <br/>                                                                                                                  | Confirme que o usuário está registrado como um Skype para usuário Business Online. Caso contrário, registre o usuário e, em seguida, solicite que ela entrar novamente.  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
+| Versão incorreta do Skype para Business Online instalado  <br/>                                                                                                           | Esse problema é geralmente associado a uma mensagem de erro que contenha a frase a seguir: **o serviço de autenticação pode ser incompatível com esta versão do programa**.  <br/> Peça que o usuário desinstalar e reinstalar o Skype para negócios Online do Portal do Office 365.  <br/>                                                                                                                                                                                                                                                    |
+| Problema adquirir um certificado pessoal é necessária para entrar  <br/>                                                                                           | Se o endereço de entrada do usuário foi alterada recentemente, eles talvez seja necessário excluir dados armazenados em cache entrar. Peça aos usuários para sair, clique no botão Excluir link na tela entrar minhas informações de entrada e tente novamente.  <br/>                                                                                                                                                                                                                                                                                                                                |
+| Configurar um nome de domínio personalizado e as alterações podem não ter terminado propagando através do sistema.  <br/>                                                         | Em primeiro lugar, certifique-se de que você modificou os registros de serviço de nome de domínio (DNS) para refletir a alteração.  <br/> Se você já tiver feito as alterações necessárias do DNS, avisa o usuário tentar fazer logon no posteriormente. Alterações DNS podem levar até 72 horas sejam refletidas em todo o sistema.  <br/>                                                                                                                                                                                                                                                        |
+| Sistema relógio fora de sincronia com o relógio do servidor  <br/>                                                                                                                     | Certifique-se de que seu controlador de domínio de rede está sincronizando com uma fonte de tempo externa confiável. Para obter detalhes, consulte o artigo da Base de Conhecimento Microsoft 816042, [como configurar um servidor de horário autoritativo no Windows Server](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042).<br/>                                                                                                                                                                                                                                          |
 
 Para solucionar Skype para erros de entrada no Business Online, inicie, eliminando as causas mais comuns de dificuldade entrar. Se necessário, você poderá seguir etapas com base no tipo de erro de resolução específica. Se o usuário ainda não conseguir entrar, coletar informações adicionais e, em seguida, seek ajuda adicional.
 

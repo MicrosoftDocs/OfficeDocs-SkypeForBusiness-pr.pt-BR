@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Criar ou excluir comunicados para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
-ms.openlocfilehash: 63d64bb09c24609ebb05c6de879bd1fe0e92d093
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887392"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372291"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Criar ou excluir um anúncio no Skype para Business Server
 
@@ -81,7 +81,7 @@ Para criar um novo comunicado, é necessário executar as seguintes etapas:
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-  Para obter mais detalhes sobre esses cmdlets e para ver uma lista dos códigos de idioma a ser usado no parâmetro **TextToSpeechPrompt** , consulte [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Para obter mais detalhes sobre esses cmdlets e para ver uma lista dos códigos de idioma a ser usado no parâmetro **TextToSpeechPrompt** , consulte [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Excluir um comunicado para números não atribuídos
 

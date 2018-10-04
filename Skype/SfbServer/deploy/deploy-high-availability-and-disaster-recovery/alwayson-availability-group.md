@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implante um sempre no grupo de disponibilidade na sua Skype (instalação) para o Business Server deployment.
-ms.openlocfilehash: 93d27fc86393a28f4c0e546d034cbf9819ecce87
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: eaf0c935f246cfdd00aa0707475442c88dc89b8a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026729"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374369"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server
  
@@ -57,7 +57,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na caixa de**Resumo** , verifique quaisquer erros que o Assistente de relatórios. Clique em **Concluir** para concluir a validação.
     
-    O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
+     O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
 3. Crie o Cluster de Failover do Windows Server (WSFC).
     
@@ -101,7 +101,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página Selecionar bancos de dados, selecione os bancos de dados que você deseja incluir no grupo de disponibilidade do AlwaysOn. Then click **Next**.
     
-    Não inclua o **ReportServer**, **ReportServerTempDB**ou bancos de dados de Chat persistente no grupo de disponibilidade do AlwaysOn, como eles não são suportados neste cenário. Você pode incluir todos os outro Skype para bancos de dados do servidor de negócios no grupo de disponibilidade do AlwaysOn.
+     Não inclua o **ReportServer**, **ReportServerTempDB**ou bancos de dados de Chat persistente no grupo de disponibilidade do AlwaysOn, como eles não são suportados neste cenário. Você pode incluir todos os outro Skype para bancos de dados do servidor de negócios no grupo de disponibilidade do AlwaysOn.
     
    - Na página **Especificar Réplicas**, clique na guia **Réplicas**. Clique no botão **Adicionar Réplicas** e conecte-se às outras instâncias do SQL que você incluiu como nós do Clustering de Failover do Windows Server.
     
@@ -115,7 +115,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página **Selecionar Sincronização de Dados Inicial**, selecione Completo, especifique uma pasta que possa ser acessada pelas réplicas e para a qual a conta do serviço SQL Server usada por ambas as réplicas tenha permissões de Gravação. Clique em **Avançar**.
     
-    Este compartilhamento de arquivos será usado temporariamente quando você inicializar os bancos de dados. Se você usar bancos de dados grandes, recomendamos que você os inicie manualmente caso a largura de banda de sua rede não possa acomodar o tamanho dos bancos de dados de backup.
+     Este compartilhamento de arquivos será usado temporariamente quando você inicializar os bancos de dados. Se você usar bancos de dados grandes, recomendamos que você os inicie manualmente caso a largura de banda de sua rede não possa acomodar o tamanho dos bancos de dados de backup.
     
    - Na página Validação, confira se as verificações de validação foram bem-sucedidas e, em seguida, clique em **Avançar**.
     
@@ -129,7 +129,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Expanda o Skype for Business Server, expanda sua topologia e expanda **Repositórios do SQL Server**. Clique com o botão o repositório SQL do novo grupo de disponibilidade do AlwaysOn e clique em **Editar propriedades**.
     
-    - Na parte inferior da página, na caixa **FQDN do SQL Server** , altere o valor para o FQDN do ouvinte da AG.
+     - Na parte inferior da página, na caixa **FQDN do SQL Server** , altere o valor para o FQDN do ouvinte da AG.
     
    - Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**. Aguarde alguns minutos para a nova topologia ser replicada.
     
@@ -197,7 +197,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na caixa de**Resumo** , verifique quaisquer erros que o Assistente de relatórios. Clique em **Concluir** para concluir a validação.
     
-    O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
+     O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
 7. Crie o Cluster de Failover do Windows Server.
     
@@ -249,7 +249,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
     - Clique na guia **Pontos de Extremidade** e verifique se o **Número da Porta** está definido como 5022.
     
-     - Clique na guia **Ouvinte** e selecione a opção **Criar um ouvinte de grupo de disponibilidade**. Nesta opção, digite um nome para o ouvinte e defina a **Porta** como 1433 (outras portas não são suportadas para esta opção).
+      - Clique na guia **Ouvinte** e selecione a opção **Criar um ouvinte de grupo de disponibilidade**. Nesta opção, digite um nome para o ouvinte e defina a **Porta** como 1433 (outras portas não são suportadas para esta opção).
     
     - Clique em **Adicionar** e, na caixa **Endereço IPv4**, forneça o endereço IP virtual de sua preferência e clique em **OK**.
     
@@ -329,7 +329,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na caixa de**Resumo** , verifique quaisquer erros que o Assistente de relatórios. Clique em **Concluir** para concluir a validação.
     
-    O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
+     O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
 3. Crie o Cluster de Failover do Windows Server (WSFC).
     
@@ -373,7 +373,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página Selecionar bancos de dados, selecione os bancos de dados que você deseja incluir na AG. Then click **Next**.
     
-    Não inclua o **ReportServer**, **ReportServerTempDB**ou bancos de dados de Chat persistente no AG, como eles não são suportados neste cenário. Você pode incluir todos os outro Skype para bancos de dados do servidor de negócios na AG.
+     Não inclua o **ReportServer**, **ReportServerTempDB**ou bancos de dados de Chat persistente no AG, como eles não são suportados neste cenário. Você pode incluir todos os outro Skype para bancos de dados do servidor de negócios na AG.
     
    - Na página **Especificar réplicas** , clique na guia de **réplicas** . Em seguida, clique no botão **Adicionar réplicas** e conecte-se para as outras instâncias do SQL que você ingressou como nós o WSFC.
     
@@ -387,9 +387,9 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página **Selecionar Sincronização de Dados Inicial**, selecione Completo, especifique uma pasta que possa ser acessada pelas réplicas e para a qual a conta do serviço SQL Server usada por ambas as réplicas tenha permissões de Gravação. Clique em **Avançar**.
     
-    Este compartilhamento de arquivos será usado temporariamente quando você inicializar os bancos de dados. Se você usar bancos de dados grandes, recomendamos que você os inicie manualmente caso a largura de banda de sua rede não possa acomodar o tamanho dos bancos de dados de backup.
+     Este compartilhamento de arquivos será usado temporariamente quando você inicializar os bancos de dados. Se você usar bancos de dados grandes, recomendamos que você os inicie manualmente caso a largura de banda de sua rede não possa acomodar o tamanho dos bancos de dados de backup.
     
-    - Na página Validação, confira se as verificações de validação foram bem-sucedidas e, em seguida, clique em **Avançar**.
+     - Na página Validação, confira se as verificações de validação foram bem-sucedidas e, em seguida, clique em **Avançar**.
     
    - Na página **Resumo**, verifique todas as configurações e clique em Concluir.
     
@@ -427,8 +427,8 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
     - Abra o Skype do Shell de gerenciamento do servidor de negócios e digite o seguinte cmdlet para criar logons do SQL nesta réplica:
     
-     ```
-     Install-CsDatabase -Update
-     ```
+      ```
+      Install-CsDatabase -Update
+      ```
 
-     - Repita as duas etapas anteriores (failover no grupo para uma réplica secundária e, em seguida, usar `Install-CsDatabase -Update`) para cada réplica no grupo.
+      - Repita as duas etapas anteriores (failover no grupo para uma réplica secundária e, em seguida, usar `Install-CsDatabase -Update`) para cada réplica no grupo.

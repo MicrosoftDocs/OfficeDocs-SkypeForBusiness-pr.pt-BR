@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga as etapas deste tópico para modificar a configuração de um Skype existente para o conector de nuvem Business Edition 1.4.1 ou implantação posterior.
-ms.openlocfilehash: fe226e67f6f492e0fae7473156908cd4a5147ea2
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885800"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375369"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar a configuração de uma implantação do Cloud Connector existente
  
@@ -31,75 +31,75 @@ Se houver apenas um dispositivo no site, quando quiser alterar as definições d
   
 1. Execute o seguinte cmdlet para desinstalar todas as máquinas virtuais existentes no servidor host:  
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Execute o seguinte cmdlet para cancelar o registro do dispositivo:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Atualize o arquivo CloudConnector.ini no Diretório de Dispositivos.
     
 4. Execute o seguinte cmdlet para atualizar a configuração: (esta etapa só é aplicável para a versão 2; para versões anteriores, pule para a próxima etapa.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Execute o seguinte cmdlet para registrar o dispositivo novamente:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Execute o seguinte cmdlet para instalar o Skype for Business Cloud Connector Edition:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 Se houver mais de um dispositivo no site, você deverá seguir estas etapas, modificar o arquivo CloudConnector.ini e reimplantar os dispositivos um a um.
   
 1. Execute o seguinte cmdlet para desinstalar todas as máquinas virtuais existentes do dispositivo atual. 
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 2. Execute o seguinte cmdlet para cancelar o registro do dispositivo:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 3. Atualize o arquivo CloudConnector.ini no Diretório de Dispositivos.
     
 4. Execute o seguinte cmdlet para atualizar a configuração: (esta etapa só é aplicável para a versão 2; para versões anteriores, pule para a próxima etapa.)
     
-  ```
+   ```
    Import-CcConfiguration 
-  ```
+   ```
 
 5. Execute o seguinte cmdlet para registrar o dispositivo novamente:
     
-  ```
-  Register-CcAppliance
-  ```
+   ```
+   Register-CcAppliance
+   ```
 
 6. Execute o seguinte cmdlet em todos os outros dispositivos do site para selecionar a configuração mais recente:
     
-  ```
-  Publish-CcAppliance
-  ```
+   ```
+   Publish-CcAppliance
+   ```
 
 7. Execute o seguinte cmdlet para reimplantar o conector de nuvem no appliance atual:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="modify-the-configuration-of-multiple-sites"></a>Modificar a configuração de vários sites
 <a name="BKMK_MultipleSites"> </a>
@@ -115,45 +115,45 @@ Se você desabilitou as atualizações automáticas do sistema operacional ou at
   
 1. A propriedade EnableAutoUpdate do site deve ser definida como true (o valor padrão). Execute o seguinte cmdlet para garantir que EnableAutoUpdate seja definido como True:
     
-  ```
-  Get-CsHybridPSTNSite -Identity <SiteName>
-  ```
+   ```
+   Get-CsHybridPSTNSite -Identity <SiteName>
+   ```
 
 2. Crie a janela de tempo de atualização automática para o locatário.
     
     A janela de tempo pode ser diária, semanal e mensal. Todas as janelas de tempo precisam de uma hora de início e duração.
     
-  - Para a janela de tempo diária, apenas a hora de início e a duração são necessárias.  
+   - Para a janela de tempo diária, apenas a hora de início e a duração são necessárias.  
     
-  - Para a janela de tempo semanal, são necessários os dias da semana. Pode ser um único dia ou vários dias.
+   - Para a janela de tempo semanal, são necessários os dias da semana. Pode ser um único dia ou vários dias.
     
-  - Para a janela de tempo mensal, pode haver 2 tipos. A primeira maneira é especificar o dia do mês, que pode ser um único dia. A segunda maneira é especificar semanas do mês, junto com os dias da semana, que podem ser um item ou vários itens.
+   - Para a janela de tempo mensal, pode haver 2 tipos. A primeira maneira é especificar o dia do mês, que pode ser um único dia. A segunda maneira é especificar semanas do mês, junto com os dias da semana, que podem ser um item ou vários itens.
     
-  - Cada locatário pode ter 20 janelas de tempo definidas. A janela de tempo padrão será criada para um novo locatário como janela de tempo padrão para atualização do sistema operacional e do Bits. Execute os seguintes cmdlets para definir a janela de tempo diária, semanal ou mensal:
+   - Cada locatário pode ter 20 janelas de tempo definidas. A janela de tempo padrão será criada para um novo locatário como janela de tempo padrão para atualização do sistema operacional e do Bits. Execute os seguintes cmdlets para definir a janela de tempo diária, semanal ou mensal:
     
-  ```
-  New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity Night -Daily -StartTime 22:00 -Duration 6:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity WeekdayNight -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -StartTime 22:00 -Duration 4:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity FirstAndLastWeekend -Monthly -WeeksOfMonth First,Last -DaysOfWeek Sunday,Saturday -StartTime 0:00 -Duration 10:00
+   ```
 
-  ```
-  New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
-  ```
+   ```
+   New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
+   ```
 
-  - Atribuir janelas de tempo de atualização ao site. 
+   - Atribuir janelas de tempo de atualização ao site. 
     
-    As janelas de tempo de atualização do Bits e do sistema operacional são configuradas separadamente. É possível atribuir uma ou várias janelas de tempo a ambos. Cada janela de tempo pode ser atribuída a diferentes locais e finalidades (atualização do Bits e atualização do sistema operacional). Execute o seguinte cmdlet para definir a janela de tempo do site: 
+     As janelas de tempo de atualização do Bits e do sistema operacional são configuradas separadamente. É possível atribuir uma ou várias janelas de tempo a ambos. Cada janela de tempo pode ser atribuída a diferentes locais e finalidades (atualização do Bits e atualização do sistema operacional). Execute o seguinte cmdlet para definir a janela de tempo do site: 
     
-  ```
-  Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
-  ```
+   ```
+   Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
+   ```
 
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Atualizar as credenciais exclusivas de administrador do locatário 
 <a name="BKMK_MultipleSites"> </a>
@@ -178,11 +178,11 @@ Para atualizar as credenciais armazenadas localmente no dispositivo do conector 
   
 1. Execute os seguintes comandos para recuperar as senhas das quais você precisará mais tarde:  
     
-  - Get-CcCredential - AccountType DomainAdmin - DisplayPassword
+   - Get-CcCredential - AccountType DomainAdmin - DisplayPassword
     
-  - Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-  - Get-CcCredential - AccountType CceService - DisplayPassword
+   - Get-CcCredential - AccountType CceService - DisplayPassword
     
 2. Altere a senha da sua conta no servidor host.
     
@@ -226,17 +226,17 @@ Para cada dispositivo que pertence ao mesmo site PSTN, você precisará especifi
   
 1. Execute os seguintes comandos para recuperar os nomes de conta e senhas que você usará posteriormente:
     
-  ```
-  Get-CcCredential -AccountType TenantAdmin -DisplayPassword
-Get-CcCredential -AccountType TenantAdmin
-Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
-Get-CcCredential -AccountType OMSWorkspace 
-Get-CcCredential -AccountType ExternalCert -DisplayPassword
-Get-CcCredential -AccountType CABackupFile -DisplayPassword
-Get-CcCredential -AccountType CceService -DisplayPassword
-Get-CcCredential -AccountType VMAdmin -DisplayPassword
-Get-CcCredential -AccountType DomainAdmin -DisplayPassword
-  ```
+   ```
+   Get-CcCredential -AccountType TenantAdmin -DisplayPassword
+   Get-CcCredential -AccountType TenantAdmin
+   Get-CcCredential -AccountType OMSWorkspace -DisplayPassword
+   Get-CcCredential -AccountType OMSWorkspace 
+   Get-CcCredential -AccountType ExternalCert -DisplayPassword
+   Get-CcCredential -AccountType CABackupFile -DisplayPassword
+   Get-CcCredential -AccountType CceService -DisplayPassword
+   Get-CcCredential -AccountType VMAdmin -DisplayPassword
+   Get-CcCredential -AccountType DomainAdmin -DisplayPassword
+   ```
 
 2. Execute o cmdlet Enter-CcUpdate para esvaziar o aparelho e movê-lo no modo de manutenção manual.
     
@@ -250,29 +250,29 @@ Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
 6. Por padrão, VmAdmin e DomainAdmin usam a mesma senha que o CceService. Se as senhas de DomainAdmin, VMAdmin e CceService retornadas na etapa 1 forem diferentes, você deverá executar as seguintes etapas:
     
-1. Execute Set-CcCredential -AccountType DomainAdmin da seguinte maneira:
+7. Execute Set-CcCredential -AccountType DomainAdmin da seguinte maneira:
     
-  - Quando solicitada a antiga credencial da conta, insira a credencial que você usou para a senha do CceService.
+   - Quando solicitada a antiga credencial da conta, insira a credencial que você usou para a senha do CceService.
     
-  - Quando solicitada a nova credencial da conta, insira a senha do DomainAdmin retornada na etapa 1.
+   - Quando solicitada a nova credencial da conta, insira a senha do DomainAdmin retornada na etapa 1.
     
-2. Execute Set-CcCredential -AccountType VmAdmin da seguinte maneira:
+8. Execute Set-CcCredential -AccountType VmAdmin da seguinte maneira:
     
-  - Quando solicitada a antiga credencial da conta, insira a credencial que você usou para a senha do CceService.
+   - Quando solicitada a antiga credencial da conta, insira a credencial que você usou para a senha do CceService.
     
-  - Quando solicitada a nova credencial da conta, insira a senha do VmAdmin retornada na etapa 1.  
+   - Quando solicitada a nova credencial da conta, insira a senha do VmAdmin retornada na etapa 1.  
     
-7. Execute o cmdlet sair-CcUpdate para mover o aparelho de modo de manutenção manual.
+9. Execute o cmdlet sair-CcUpdate para mover o aparelho de modo de manutenção manual.
     
-8. Após concluir essas etapas em todos os aparelhos no mesmo site PSTN, exclua os seguintes arquivos no diretório raiz do site:
+10. Após concluir essas etapas em todos os aparelhos no mesmo site PSTN, exclua os seguintes arquivos no diretório raiz do site:
     
-  - CcLockFile
+    - CcLockFile
     
-  - Site_\<fqdn do Pool de Sip externa de borda\>
+    - Site_\<fqdn do Pool de Sip externa de borda\>
     
-  - Tenant_\<fqdn do Pool de Sip externa de borda\>
+    - Tenant_\<fqdn do Pool de Sip externa de borda\>
     
-  - TenantConfigLock_\<fqdn do Pool de Sip externa de borda\>
+    - TenantConfigLock_\<fqdn do Pool de Sip externa de borda\>
     
 ## <a name="add-a-new-sip-domain"></a>Adicionar um novo domínio SIP 
 <a name="BKMK_UpdatePassword"> </a>
@@ -287,9 +287,9 @@ Para adicionar um novo domínio SIP (ou vários domínios SIP) à sua implantaç
     
 4. Defina o caminho do certificado externo de Borda da seguinte maneira:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
@@ -308,17 +308,17 @@ Se você precisar alterar o domínio SIP primário em sua implantação do conec
     
 4. Defina o caminho do certificado externo de Borda da seguinte maneira:
     
-  ```
-  Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Path <Full path to External certificate>
+   ```
 
 5. 
     
     Remova o registro de Inquilino de cada dispositivo em um site executando o seguinte cmdlet no PowerShell do administrador no conector de nuvem:
     
-  ```
-  Unregister-CcAppliance
-  ```
+   ```
+   Unregister-CcAppliance
+   ```
 
 6. 
     
@@ -326,33 +326,33 @@ Se você precisar alterar o domínio SIP primário em sua implantação do conec
 
 
     
-  ```
-  Remove-CsHybridPSTNSite
-  ```
+   ```
+   Remove-CsHybridPSTNSite
+   ```
 
 7. 
     
     Desinstale cada dispositivo executando o seguinte cmdlet no PowerShell do administrador no conector de nuvem:
     
-  ```
-  Uninstall-CcAppliance
-  ```
+   ```
+   Uninstall-CcAppliance
+   ```
 
 8. 
     
      Registre cada dispositivo executando o seguinte cmdlet no PowerShell do administrador no conector de nuvem:
     
-  ```
-  Register-ccAppliance
-  ```
+   ```
+   Register-ccAppliance
+   ```
 
 9. 
     
      Instalar cada aparelho, um por um, executando o seguinte cmdlet no PowerShell do administrador no conector de nuvem:
     
-  ```
-  Install-CcAppliance
-  ```
+   ```
+   Install-CcAppliance
+   ```
 
 ## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Substitua o certificado de borda externa de um novo certificado
 <a name="BKMK_UpdatePassword"> </a>
@@ -363,9 +363,9 @@ Quando você precisa substituir o certificado de borda externa em seus aparelhos
     
 2. Execute o seguinte comando: 
     
-  ```
-  Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
-  ```
+   ```
+   Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
+   ```
 
 3. 
     

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Resumo: Saiba mais sobre o API de repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 67378b6b0e927f45605a1ca0f7cdddffafac3022
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7881766de0daf05c85c7dfe8bb85a0ef1344c7c9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989091"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374720"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>API do repositório para o painel de controle de qualidade de chamada (CQD) no Skype para Business Server 2015
  
@@ -46,7 +46,7 @@ Painel de controle de qualidade de chamada usa API de repositório para gerencia
     
 - **Configuração do usuário** - descreve um comportamento de aplicativo opcional para o usuário.
     
- **Compartilhamento (CORS) suporte para API do repositório de recursos de entre origens**
+  **Compartilhamento (CORS) suporte para API do repositório de recursos de entre origens**
   
 API do repositório oferece suporte a compartilhamento de recursos entre origens (CORS). CORS é um recurso HTTP que permite que um aplicativo da web em execução em um domínio para acessar recursos em outro domínio. Navegadores da Web implementam uma restrição de segurança conhecida como política de mesma origem da [Política de mesma origem](https://www.w3.org/Security/wiki/Same_Origin_Policy) que impede que uma página da web de APIs de chamada em um domínio diferente. CORS fornece uma maneira segura para permitir que um domínio (o domínio de origem) para chamadas de APIs em outro domínio. Consulte a [especificação de CORS](https://www.w3.org/TR/cors/) para obter detalhes sobre CORS.
   

@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Conheça as etapas de implantação para obter o firmware correto, atualizá-la, se necessário, atribuir licenças e definir configurações para Skype para telefones online de negócios
-ms.openlocfilehash: b9e38b9bff83f1ed1abc511fad815dd13b0eee75
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26748f79d62b2f4b40a249dcf1af1736bae2d06f
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887366"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374568"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantar telefones para o Skype for Business Online
 
 Este guia de implantação ajudará você a implantar os telefones IP do Skype for Business Online.
   
-Em todos os tipos de empresas, ter um número de telefone permite aos usuários fazer e receber chamadas de voz e é um requisito importante para fazer negócios. Os usuários que possuem números de telefone poderão fazer chamadas de voz entre todos os Skype para dispositivos de negócios, incluindo telefones IP, PCs e dispositivos móveis. Você pode aprender mais sobre Skype para telefones IP Business lendo [telefones de Introdução para Skype para negócios Online](getting-phones-for-skype-for-business-online.md).
+In all types of businesses, having a phone number allows users to make and get voice calls, and it is an important requirement to do business. Users who have phone numbers will be able to make voice calls across all Skype for Business devices including IP phones, PCs, and mobile devices. You can learn more about Skype for Business IP phones by reading [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
 ## <a name="deployment-steps-for-ip-phones"></a>Etapas da implantação para telefones IP
 
@@ -47,11 +47,11 @@ Antes de iniciar, é recomendável baixar os guias de administração do fabrica
     
 ### <a name="step-2---make-sure-youre-purchasing-or-migrating-a-skype-for-business-supported-ip-phone-and-firmware"></a>Etapa 2 - Certifique-se de que você está migrando para um telefone IP e firmware compatíveis com o Skype for Business ou adquirindo um assim.
 
-Um telefone e um firmware compatíveis com o Skype for Business Online também são compatíveis com o Skype for Business Server, mas o oposto nem sempre é aplicável. Para certificar-se você estiver comprar ou um telefone com suporte e firmware de provisionamento, consulte [Getting telefones para Skype para negócios Online](getting-phones-for-skype-for-business-online.md).
+A Skype for Business Online supported phone and firmware is compatible for Skype for Business Server as well, but the opposite isn't always true. To make sure you are buying or provisioning a supported phone and firmware, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
   
 ### <a name="step-3---checking-that-the-right-firmware-is-installed-and-update-the-firmware-if-required"></a>Etapa 3 - Verificar se o firmware certo foi instalado e atualizar o firmware, se necessário
 
-Verifica a versão de firmware em seus telefones. No caso de:
+Check the firmware version on your phones. For:
   
 - **Telefones Polycom VVX**, vá para **Configurações** > **Status** > **Plataforma** > **Aplicativo** > **Principal**.
     
@@ -60,20 +60,20 @@ Verifica a versão de firmware em seus telefones. No caso de:
 - **Telefones AudioCodes**, acesse **Menu** > **Status do Dispositivo** > **Versão do firmware** na tela inicial.
     
     > [!NOTE]
-    > Para obter acesso remoto para obter detalhes de telefone, consulte guias de administração do fabricante. Veja os links acima para acessar os guias de usuário e os manuais de telefone. 
+    > For remote access to phone details, refer to manufacturer administration guides. See the links above for the user guides and phone manuals. 
   
 - **Telefones Lync Phone Edition (LPE)**, vá para **Menu** > **Informações do Sistema** na tela inicial.
     
 ### <a name="step-4---device-update-considerations"></a>Etapa 4 - Considerações sobre atualização do dispositivo
 
 > [!NOTE]
-> Polycom firmware antes da 5.5.1.X tinha um mecanismo de bloqueio de dispositivo específicas do fabricante é substituído por um Skype para a implementação de negócios "Telefone-Lock." Atualizando um telefone do 5.4.X.X que tenha sido protegido com "Bloqueio de dispositivo" para 5.5.1.X com "Bloqueio de telefone" não herda o código PIN de "Dispositivo-Lock," que pode deixar o telefone não segura. Os usuários que ativaram "Bloqueio de dispositivo" precisam habilitar o seguinte parâmetro de perfil do dispositivo Polycom dar aos usuários controle de tempo de atualização (lync.deviceUpdate.popUpSK.enabled=1). 
+> Polycom firmware prior to 5.5.1.X had a manufacturer-specific device-lock mechanism that is replaced with a Skype for Business implementation "Phone-Lock." Upgrading a phone from 5.4.X.X that was secured with "Device-Lock" to 5.5.1.X with "Phone-Lock" won't inherit the PIN code from "Device-Lock," which can leave the phone unsecured. Users who have activated "Device-Lock" need to enable the following Polycom Device Profile parameter to give users control of time of upgrade (lync.deviceUpdate.popUpSK.enabled=1). 
   
-As atualizações de firmware são gerenciadas pelo Serviço do Skype for Business. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão. Dependendo do tempo de inatividade no telefone e nos intervalos de sondagem, os telefones baixarão e instalarão automaticamente os builds certificados mais recentes. Você pode desabilitar as configurações de atualização de dispositivo usando o cmdlet [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) e definindo o parâmetro _EnableDeviceUpdate_ para `false`.
+Firmware updates are managed by the Skype for Business Service. Every Skype for Business certified phone's firmware is uploaded to the Skype for Business Update server, and device update is enabled on all phones by default. Depending on the inactivity time on the phone and polling intervals, phones will automatically download and install the latest certified builds. You can disable the device update settings by using the [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) cmdlet and setting the _EnableDeviceUpdate_ parameter to `false`.
   
 ![Implementar telefones.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
-Quando um novo firmware está disponível e pronto para download e instalação, o telefone notificará o usuário. Telefones Polycom irá notificar o usuário e fornecer-lhes uma opção para **atualização** ou **Adiar**.
+When a new firmware is available and ready for download and install, the phone will notify the user. Polycom phones will notify the user and provide them with an option to **Update** or **Postpone**.
   
 ![Implementar telefones.](../../images/50956fa0-da0c-4085-9bb5-4a2e99aecebb.png)
   
@@ -94,7 +94,7 @@ Para o planejamento da infra-estrutura de rede, consulte [Skype Operations Frame
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>Etapa 6 - Preparando os usuários entrem em
 
-Para habilitar usuários entrar em um Skype para telefone comercial Online e fazer chamadas com êxito, você precisará certificar-se de que os usuários recebem as licenças corretas. No mínimo, você precisará atribuir uma licença de sistema telefônico e um plano de chamada. Para obter informações adicionais, você pode ver [Skype para licenciamento de complemento de negócios e equipes da Microsoft](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) e [Atribuir Skype para licenças de negócios e equipes da Microsoft](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+To enable users to successfully sign in to a Skype for Business Online phone and make calls, you need to make sure users are assigned the correct licenses. At a minimum, you will need to assign a Phone System license and a Calling Plan. For additional information, you can see [Skype for Business and Microsoft Teams add-on licensing](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) and [Assign Skype for Business and Microsoft Teams licenses](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
   
 Você pode encontrar mais informações sobre Planos de Chamadas em [O que são os Planos de Chamadas do Office 365?](/microsoftteams/what-are-calling-plans-in-office-365)
   
@@ -110,21 +110,21 @@ Você pode encontrar mais informações sobre Planos de Chamadas em [O que são 
   
     Para obter detalhes sobre as opções de entrar suportadas pelo fabricante, consulte [Getting telefones para Skype para negócios Online](getting-phones-for-skype-for-business-online.md).
     
-- **ID do usuário** Usando o teclado do telefone ou o teclado na tela (se disponível), os usuários podem usar o nome e a senha do usuário de sua organização para fazer logon no telefone. Por exemplo, os usuários devem usar o formato UPN como *amosm@contoso.com*  para seu nome de usuário.
+- **ID do usuário** Usando o teclado do telefone ou o teclado na tela (se disponível), os usuários podem usar o nome e a senha do usuário de sua organização para fazer logon no telefone. Por exemplo, os usuários devem usar o formato UPN como <em>amosm@contoso.com</em>  para seu nome de usuário.
     
      ![Implementar telefones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > [!OBSERVAçãO] A autenticação de PIN não é aceita no Skype for Business Online para telefones LPE e telefones IP de parceiros. 
   
-- **Usando um PC** Quando a união de forças sobre software Ethernet (BToE) está instalado no PC do usuário e habilitado, os usuários podem fazer logon no seus telefones usando a janela de autenticação em seus Skype do Windows para o aplicativo de negócios. Consulte a [etapa 7 (opcional) - se você tiver o emparelhamento de dispositivos e Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) para obter outras informações.
+- **Using a PC** When Better Together over Ethernet (BToE) software is installed on user's PC and enabled, users can log in to their phones using the authentication window on their Windows Skype for Business App. See [Step 7 (optional) - If you have device pairing and Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) for other information.
     
-    > [!NOTE]
-    > [!OBSERVAçãO] Os usuários devem usar o nome de usuário e senha da organização para fazer logon no telefone. Por exemplo, os usuários devem usar o formato UPN como  *amosm@contoso.com*  para seu nome de usuário.
+  > [!NOTE]
+  > [!OBSERVAçãO] Os usuários devem usar o nome de usuário e senha da organização para fazer logon no telefone. Por exemplo, os usuários devem usar o formato UPN como  <em>amosm@contoso.com</em>  para seu nome de usuário.
   
      ![Implementar telefones.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
-- **Usando um Web entrar**: essa é uma maneira de nova para usuários on-line autenticar usando um navegador da web padrão. Os usuários serão fornecidos com um conjunto de instruções a seguir quando utilizarem um navegador para entrar.
+- **Using a Web Sign-in**: This is a new way for Online users to authenticate using a standard web browser. Users will be provided with a set of instructions to follow when they use a browser to sign in.
     
   - Usuários com telefones **Polycom VVX 5XX/6XX** verá:
     
@@ -134,7 +134,7 @@ Você pode encontrar mais informações sobre Planos de Chamadas em [O que são 
     
      ![Logon de telefone Yealink.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
-    O código que é gerado expirará em 15 minutos. Quando ela expira, o usuário precisará clique em **Repetir** ou **Okey** para gerar um novo código, dependendo do telefone.
+    The code that is generated will expire in 15 minutes. When it expires, the user will have to click **Retry** or **OK** to generate a new code, depending on the phone.
     
   - Usuários com telefones **Polycom VVX 5XX/6XX** verá:
     
@@ -180,16 +180,16 @@ Você pode encontrar mais informações sobre Planos de Chamadas em [O que são 
 |Locais  <br/> |Online/Locais  <br/> |Nome do usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
 |Locais  <br/> |Online/Locais  <br/> |Entrada via PC (BTOE)  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
    
-- **Recursos de telefone** O conjunto de recursos pode variar ligeiramente com base no parceiro do telefone IP. Para o recurso completo definida e para saber mais sobre os recursos para cada fabricante do telefone, consulte [Getting telefones para Skype para negócios Online](getting-phones-for-skype-for-business-online.md).
+- **Phone features** The feature set may vary slightly based on the IP phone partner. For the complete feature set and for more information on the features for each phone manufacturer, see [Getting phones for Skype for Business Online](getting-phones-for-skype-for-business-online.md).
     
-- **Bloqueio de telefone** é um recurso introduzido recentemente nos telefones certificados pelo Skype for Business que é usado para proteger um telefone. Se habilitada, os usuários serão solicitados para criar um PIN após a autenticação bem-sucedida. Depois de criado, os telefones serão bloqueados quando o tempo ocioso-limite que você definir expirar, um usuário bloqueia manualmente seu telefone ou ele sincroniza o bloqueio do telefone com o bloqueio do PC usando o Emparelhamento de Telefone. Se o PIN de bloqueio de telefone for inserido errado várias vezes, o telefone irá desconectar o usuário ou requerem código do administrador para desbloquear o telefone, mas isso irá variar dependendo do parceiro de telefone. O PIN do usuário deve estar entre 6 e 15 dígitos.
+- **Phone-Lock** is a recently introduced feature in Skype for Business certified phones that is used to secure a phone. If enabled, users will be asked to create a PIN upon successful authentication. Once created, phones will lock when the idle-timeout that you define expires, a user manually locks their phone, or they sync their phone-lock with their PC lock using Phone Pairing. If the phone-lock PIN is entered wrong several times, the phone will either sign the user out or require an administrator's code to unlock the phone, but this will vary depending on the phone partner. The user's PIN should be between 6 and 15 digits.
     
-    Você pode desabilitar o bloqueio de telefone para sua organização (que é habilitada por padrão), alterar o limite de ociosidade e escolher se os usuários podem fazer chamadas telefônicas enquanto eles estão bloqueadas ou não usando configurações de inband. Consulte [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) para obter mais detalhes sobre essas configurações.
+    You can disable Phone-Lock for your organization (which is enabled by default), change the idle-timeout, and choose whether users can make phone calls while they are locked or not using inband-settings. See [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) for more details on those settings.
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Etapa 7 (opcional) - Se você tiver emparelhamento de dispositivo e Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>
 
-BToE é um telefone paining mecanismo para telefones IP de parceiro que pares de telefone de um usuário com seus Skype do Windows para o aplicativo de negócios. BToE habilita os usuários a:
+BToE is a phone paining mechanism for Partner IP phones that pairs a user's phone with their Windows Skype for Business app. BToE enables users to:
   
 - Entrar no seu telefone IP usando seu Skype para aplicativos da área de trabalho de negócios (usando um PC)
     
@@ -197,7 +197,7 @@ BToE é um telefone paining mecanismo para telefones IP de parceiro que pares de
     
 - Clique para chamar
     
-BToE pode ser configurado para operar em dois modos: *Manual* e *automático* (padrão). Ele também pode ser habilitado (padrão)/desabilitado para usuário que usam as configurações em banda do Skype for Business. Ao operar no modo *Manual*  , os usuários terão que executar um passo adicional para emparelhar o telefone ao app Windows.
+BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual*  . It can also be enabled (default)/disabled for users using Skype for Business in-band settings. When operating in *Manual*  mode, users will have to take an additional step to pair their phone with their Windows app.
   
  **Implantar BToE para os usuários**
   
@@ -207,13 +207,13 @@ BToE pode ser configurado para operar em dois modos: *Manual* e *automático* (p
   
 2. Baixe e instale o software BToE mais recente do site do fabricante usando os links abaixo. Para uma melhor experiência do usuário, você pode distribuir e instalar o software BToE usando uma solução de distribuição de administração como o SCCM (System Center Configuration Manager). Para obter ajudar sobre como usar o SCCM, consulte [Pacotes e programas no System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/apps/deploy-use/packages-and-programs).
     
-  - [Site de Download de Software do Polycom BToE](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Site de Download de Software do Polycom BToE](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
-  - [Download de software BToE Yealink](http://www.yealink.com/products_list_10.html)
+   - [Download de software BToE Yealink](http://www.yealink.com/products_list_10.html)
     
-  - [Downloads de software BToE AudioCodes](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
+   - [Downloads de software BToE AudioCodes](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. Por padrão, a configuração de servidor para BToE é definida como **ativado** e o **modo automático** . Para alterar essas configurações, consulte [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
+3. The server setting for BToE is set to **Enabled** and **Auto mode** by default. To change those settings, see [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
     
 > [!NOTE]
 > [!OBSERVAçãO] O BToE não é permitido atualmente nas plataformas Mac e VDI. 

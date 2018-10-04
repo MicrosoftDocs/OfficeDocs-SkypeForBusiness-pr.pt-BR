@@ -1,11 +1,11 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.openlocfilehash: e287cc1b6c987e29067d75e344710104cd9c2c4b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: da7786e9ae43fe6021a8358622eedcac22514e57
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246886"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370648"
 ---
 # <a name="welcome-to-office-content-on-docsmicrosoftcom"></a>Bem-vindo ao conteúdo do Office em docs.microsoft.com
 ## <a name="this-is-a-level-2-heading"></a>Este é um cabeçalho de nível 2
@@ -43,7 +43,7 @@ Eu estou adicionando um inclusão este arquivo aqui:[!INCLUDE [sample-include-fi
 <p>Vou exibir &#9744;</p>
 <p>Vou exibir &#x2610;</p>
 
-###<a name="this-is-heading-3"></a>Isso é heading 3
+### <a name="this-is-heading-3"></a>Isso é heading 3
 
 O conteúdo do Microsoft Teams encontra-se agora disponível.
 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams)

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumo: Saiba como testar conferência discada em Skype para Business Server.'
-ms.openlocfilehash: 258c860a0a808b40384a766bc5151e671789a03c
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966409"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372836"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Teste a conferência discada no Skype para Business Server
  
@@ -30,9 +30,9 @@ Como verificação final da configuração da conferência discada, você pode p
     
 3. Execute o seguinte no prompt de comando:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -EmptyRegion
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -EmptyRegion
+   ```
 
     Este cmdlet retorna todos os planos de discagem que possuem uma região de conferência discada que não é usada por um número de acesso.
     
@@ -46,9 +46,9 @@ Para obter mais informações, consulte [Get-CsDialInConferencingAccessNumber](h
     
 3. Execute o seguinte no prompt de comando:
     
-  ```
-  Get-CsDialinConferencingAccessNumber -Region NULL
-  ```
+   ```
+   Get-CsDialinConferencingAccessNumber -Region NULL
+   ```
 
     Este cmdlet retorna todos números de acesso de conferência discada que não estão associados a uma região.
     
@@ -70,12 +70,12 @@ Para verificar se a página da Web de Configurações de Conferência Discada e 
     
 3. Execute o seguinte no prompt de comando:
     
-  ```
-  $credentials = Get-Credential
+   ```
+   $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
-Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
-  ```
+   Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
+   ```
 
     O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas. -Verbose sinalizador fornece mais informações detalhadas sobre o acesso de quantos números foram encontrados e detalhes sobre cada um deles.
     

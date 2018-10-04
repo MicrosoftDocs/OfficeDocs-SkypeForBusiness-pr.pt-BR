@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como ver uma lista de todos os números de telefone em sua organização, todos os números atribuídos aos usuários e todos os números são atribuídos a usuários de voz, a partir do Skype para centro de administração de negócios.
-ms.openlocfilehash: c257991c0b867cb42b5b56af0e5595257260b25a
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347077"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370695"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -50,17 +50,17 @@ Há tipos diferentes de números de telefone que você pode atribuir a usuários
     
 5. Você pode usar a lista suspensa para filtrar a exibição por:
     
-  - **Todos** os números de telefone, inclusive números de telefone de serviço.
+   - **Todos** os números de telefone, inclusive números de telefone de serviço.
     
-  - Um telefone **intervalo de números** que você definiu.
+   - Um telefone **intervalo de números** que você definiu.
     
-  - Números de telefone que estão **atribuídos ao usuário**.
+   - Números de telefone que estão **atribuídos ao usuário**.
     
-  - Números de telefone que **atribuídos a conferência** para conferência discada.
+   - Números de telefone que **atribuídos a conferência** para conferência discada.
     
-  - Números de telefone **não atribuídos**.
+   - Números de telefone **não atribuídos**.
     
-  - O **local** dos números de telefone.
+   - O **local** dos números de telefone.
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos os números de telefone que estão atribuídos a usuários
 
@@ -78,13 +78,13 @@ Ao configurar usuários, talvez você só queira ver a lista de números de tele
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Você pode filtrar sua opinião para números de telefone que são atribuídos a usuários ou números de telefone que você pode atribuir a um usuário. Você pode filtrar por:
+4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
     
-  - **Todos** os números de telefone, inclusive números de telefone de serviço.
+   - **Todos** os números de telefone, inclusive números de telefone de serviço.
     
-  - O **número atribuído** ao usuário.
+   - O **número atribuído** ao usuário.
     
-  - **Nenhum número atribuído** ao usuário.
+   - **Nenhum número atribuído** ao usuário.
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Para ver os números de telefone atribuídos a usuários de voz
 
@@ -102,11 +102,11 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. Você pode usar a lista suspensa para filtrar a exibição para usuários ativos, se o usuário está Online ou no local, ou o estado e tipo de licenciamento para um usuário. Você pode filtrar por:
+4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
     
-  - **Usuários ativos** e se um usuário está online ou no local.
+   - **Usuários ativos** e se um usuário está online ou no local.
     
-  - **Licenças pendentes** e se um usuário está online ou no local.
+   - **Licenças pendentes** e se um usuário está online ou no local.
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Perguntas comuns sobre a transferência de números de telefone](/microsoftteams/transferring-phone-numbers-common-questions)

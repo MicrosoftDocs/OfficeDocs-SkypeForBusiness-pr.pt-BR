@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89de20a88ab128dbef994150a9767ba45e4064a5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d2c47a0dec91605dea8ab9b92ffa529ed942ddcd
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013029"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375736"
 ---
 ![Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto] (media/upgrade-banner-stakeholders.png "Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto")
 
@@ -34,12 +34,12 @@ Com a implementação de resultados finais do projeto orientando accountability,
 
 Opcionalmente, você pode criar um comitê de orientação. Em alguns casos, grandes ou mais complexos projetos acabam com "muitas cozinheiros na cozinha", resultando em desconecta entre os grupos das partes interessadas. Para esses projetos, você talvez queira um comitê de direcionamento de formulário. Comitê de direcionamento de um é responsável por conduzir decisões, fornecendo supervisão estratégico, suporte a iniciativas do projeto, e — quando necessário — removendo bloqueadores. Você pode encontrar mais informações sobre como implementar um comitê de orientação no [Comitê de direcionamento de guia](https://aka.ms/SteeringCommittee).
 
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Quem são as pessoas certas para servir como sua equipe das partes interessadas para esse projeto?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Considere o escopo do seu projeto e atribuir os participantes relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é completa.<br>**Dica**<br>Construa um responsável-responsável-consultado-informados [matrix (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para obter mais distinguir quem será responsável daquelas que simplesmente precisam ser mantidas informadas em uma área específica do projeto.</li>
-<li>Decida se deseja criar um comitê de orientação e atribuir funções conforme apropriado.</li></ul>|
 
+|                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão                 |                                                                                                                                                                                                 <ul><li>Quem são as pessoas certas para servir como sua equipe das partes interessadas para esse projeto?</li></ul>                                                                                                                                                                                                 |
+|                    ![](media/audio_conferencing_image9.png)<br/>Próximos passos                    | <ul><li>Considere o escopo do seu projeto e atribuir os participantes relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é completa.<br><strong>Dica</strong><br>Construa um responsável-responsável-consultado-informados [matrix (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para obter mais distinguir quem será responsável daquelas que simplesmente precisam ser mantidas informadas em uma área específica do projeto.</li> |
+| <li>Decida se deseja criar um comitê de orientação e atribuir funções conforme apropriado.</li></ul> |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 | Funções                           | Responsabilidade                                                                  |
 |---------------------------------|---------------------------------------------------------------------------------|

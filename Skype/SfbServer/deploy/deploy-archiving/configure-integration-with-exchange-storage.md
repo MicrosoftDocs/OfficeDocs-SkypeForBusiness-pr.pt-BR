@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 'Resumo: Leia este tópico para saber como configurar a integração com o armazenamento do Exchange no Skype para Business Server.'
-ms.openlocfilehash: 5f987ef0c2c47960a71c94a3b5a692062e787ed6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35ef648a1076283f63752221a807da21bf4208ca
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988329"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370617"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>Configurar a integração com o armazenamento do Exchange para Skype para Business Server
  
@@ -32,9 +32,9 @@ Se você usar a integração do Microsoft Exchange para todos os usuários em su
     
 4. Clique no nome da configuração apropriada de pool, site ou global na lista de configurações de arquivamento, clique em **Editar**, **Mostrar detalhes** e faça o seguinte:
     
-  - Para habilitar a integração com o armazenamento do Exchange, marque a caixa de seleção **integração do Microsoft Exchange** .
+   - Para habilitar a integração com o armazenamento do Exchange, marque a caixa de seleção **integração do Microsoft Exchange** .
     
-  - Para desabilitar a integração com o armazenamento do Exchange, desmarque a caixa de seleção **integração do Microsoft Exchange** .
+   - Para desabilitar a integração com o armazenamento do Exchange, desmarque a caixa de seleção **integração do Microsoft Exchange** .
     
 5. Clique em **Confirmar**.
     

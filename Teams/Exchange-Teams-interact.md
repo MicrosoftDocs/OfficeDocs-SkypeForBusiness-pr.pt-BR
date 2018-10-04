@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40ed3d2cef71077dcc098ab42c5ecf3518d3c5fc
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015817"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373332"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -65,9 +65,9 @@ Informações adicionais:
 
 > [!NOTE]
 > No momento, se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange.
-
+> 
 > [!IMPORTANT]
-  Os usuários participem de conversas que fazem parte da lista de bate-papo no Microsoft Teams devem ter uma caixa de correio (baseado em nuvem) on-line do Exchange para um administrador pesquisar as conversas de bate-papo. Isso ocorre porque as conversas que fazem parte da lista de bate-papo ficam armazenadas nas caixas de correio baseadas em nuvem dos participantes do bate-papo. Se um participante de bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem participar de conversas que fazem parte da lista de bate-papo do Microsoft Teams. Entretanto, nesse caso, o conteúdo dessas conversas não pode ser pesquisada e não pode ser colocada em retenção porque os usuários não possuem caixas de correio baseadas em nuvem. Para obter mais detalhes sobre pesquisas de conteúdo e o Microsoft Teams, veja [Executar uma pesquisa de conteúdo no Centro de Conformidade e Segurança do Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
-
+>   Os usuários participem de conversas que fazem parte da lista de bate-papo no Microsoft Teams devem ter uma caixa de correio (baseado em nuvem) on-line do Exchange para um administrador pesquisar as conversas de bate-papo. Isso ocorre porque as conversas que fazem parte da lista de bate-papo ficam armazenadas nas caixas de correio baseadas em nuvem dos participantes do bate-papo. Se um participante de bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem participar de conversas que fazem parte da lista de bate-papo do Microsoft Teams. Entretanto, nesse caso, o conteúdo dessas conversas não pode ser pesquisada e não pode ser colocada em retenção porque os usuários não possuem caixas de correio baseadas em nuvem. Para obter mais detalhes sobre pesquisas de conteúdo e o Microsoft Teams, veja [Executar uma pesquisa de conteúdo no Centro de Conformidade e Segurança do Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> 
 > [!TIP]
-  Para obter informações sobre como usar o Connect do Azure AD para sincronizar com o Windows Azure Active Directory, consulte [*integrando suas identidades no local com o Windows Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).
+>   Para obter informações sobre como usar o Connect do Azure AD para sincronizar com o Windows Azure Active Directory, consulte [*integrando suas identidades no local com o Windows Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).

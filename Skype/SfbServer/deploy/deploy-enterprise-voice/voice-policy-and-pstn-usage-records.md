@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumo: Criar ou modificar políticas de voz e configurar registros de uso PSTN usando o Skype para painel de controle do servidor de negócios.'
-ms.openlocfilehash: c1fb142718008bd2a53582a3952bd9b0b9477ca6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 53414afd6fcf3ee365caad9a168c88f101e8788b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888238"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371707"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Criar ou modificar uma política de voz e configurar registros de uso PSTN no Skype para negócios
 
@@ -50,8 +50,8 @@ ms.locfileid: "23888238"
 
    - **Escape da caixa postal** evita que as chamadas imediatamente sendo roteados para o sistema de correio de voz de celular do usuário, quando o toque simultâneo é configurado e o telefone estiver desativado, fora da bateria ou fora do intervalo.
 
-    > [!NOTE]
-    > Esse recurso é configurável apenas através do Skype do Shell de gerenciamento do servidor de negócios
+     > [!NOTE]
+     > Esse recurso é configurável apenas através do Skype do Shell de gerenciamento do servidor de negócios
 
    - **Encaminhamento de chamadas** permite que os usuários encaminhem chamadas a outros telefones e dispositivos clientes. Skype para Business Server fornece um intervalo significativamente maior de opções de configuração para encaminhamento de chamadas. Por exemplo, se uma organização não deseja permitir que chamadas de entrada sejam encaminhadas externamente à PSTN, um administrador por aplicar uma política especial de voz para implantar esta restrição. Habilitado por padrão.
 
@@ -69,8 +69,8 @@ ms.locfileid: "23888238"
 
    - A **substituição da política de largura de banda** permite que os administradores substituam as decisões da política de controle de admissão de chamadas de um usuário específico. Desabilitada por padrão.
 
-    > [!NOTE]
-    > A política será substituída somente para chamadas de entrada para o usuário e não para chamadas de saída feitas pelo usuário. Após o estabelecimento da sessão, o consumo de largura de banda será registrado de forma precisa. Essa configuração deve ser usada com moderação e deve ser reservado em prol de decisões apropriadas de controle de chamada.
+     > [!NOTE]
+     > A política será substituída somente para chamadas de entrada para o usuário e não para chamadas de saída feitas pelo usuário. Após o estabelecimento da sessão, o consumo de largura de banda será registrado de forma precisa. Essa configuração deve ser usada com moderação e deve ser reservado em prol de decisões apropriadas de controle de chamada.
 
    - **Rastreamento de chamada mal-intencionada** permite que os usuários reportem chamadas mal intencionadas (como ameaças) usando a UI do cliente, o que por sua vez marca as chamadas nos Registros de Detalha de Chamada (CDRs). Desabilitado por padrão.
 
@@ -84,14 +84,14 @@ ms.locfileid: "23888238"
 
    - Para definir um novo registro de uso PSTN e associá-lo a essa política de voz, faça o seguinte:
 
-    a. Clique em **Novo**.
+     a. Clique em **Novo**.
 
-    b. No campo **Nome**, digite um nome descritivo para o registro. Por exemplo, convém criar um namedRedmond de registro de uso do PSTN para funcionários em tempo integral, localizados em Redmond e outro namedRedmondTemps para funcionários temporários.
+     b. No campo **Nome**, digite um nome descritivo para o registro. Por exemplo, convém criar um namedRedmond de registro de uso do PSTN para funcionários em tempo integral, localizados em Redmond e outro namedRedmondTemps para funcionários temporários.
 
-    > [!NOTE]
-    > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
+     > [!NOTE]
+     > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
 
-    c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
+     c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
 
    - Para escolher uma ou mais rotas da lista de todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que você deseja associar a esse registro de uso do PSTN e clique em **OK**.
 
@@ -101,13 +101,13 @@ ms.locfileid: "23888238"
 
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**.
 
-    d. Clique em **OK**.
+     d. Clique em **OK**.
 
    - Para editar um registro de uso de PSTN que já está associado a essa política de voz, faça o seguinte:
 
-    a. Realce o registro de uso do PSTN que você deseja editar e então clique em **Mostrar detalhes**.
+     a. Realce o registro de uso do PSTN que você deseja editar e então clique em **Mostrar detalhes**.
 
-    b. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
+     b. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
 
    - Para escolher uma ou mais rotas da lista de todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que você deseja associar a esse registro de uso do PSTN e clique em **OK**.
 
@@ -117,7 +117,7 @@ ms.locfileid: "23888238"
 
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**.
 
-    c. Clique em **OK**.
+     c. Clique em **OK**.
 
 8. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição do registro na lista, destaque o nome de registro e clique em cima ou seta para baixo.
 
@@ -138,14 +138,14 @@ ms.locfileid: "23888238"
 
    - Para definir um novo registro de uso de PSTN e associá-lo a esta política de encaminhamento de chamadas e toque simultâneo, siga estes passos:
 
-    a. Clique em **Novo**.
+     a. Clique em **Novo**.
 
-    b. No campo **Nome**, digite um nome descritivo para o registro.
+     b. No campo **Nome**, digite um nome descritivo para o registro.
 
-    > [!NOTE]
-    > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
+     > [!NOTE]
+     > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
 
-    c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
+     c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
 
    - Para escolher uma ou mais rotas da lista de todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que você deseja associar a esse registro de uso do PSTN e clique em **OK**.
 
@@ -155,13 +155,13 @@ ms.locfileid: "23888238"
 
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**.
 
-    d. Clique em **OK**.
+     d. Clique em **OK**.
 
    - Para editar um registro de uso de PSTN que já está associado a essa política de voz, faça o seguinte:
 
-    a. Realce o registro de uso do PSTN que você deseja editar e clique em **Mostrar detalhes**.
+     a. Realce o registro de uso do PSTN que você deseja editar e clique em **Mostrar detalhes**.
 
-    b. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
+     b. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
 
    - Para escolher uma ou mais rotas da lista de todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que você deseja associar a esse registro de uso do PSTN e clique em **OK**.
 
@@ -171,7 +171,7 @@ ms.locfileid: "23888238"
 
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**.
 
-    c. Clique em **OK**.
+     c. Clique em **OK**.
 
 10. (Opcional) Insira um número para testar a política de voz e clique em **Ir**. Os resultados do teste são exibidos em **Número convertido para fazer um teste**.
 
@@ -201,8 +201,8 @@ ms.locfileid: "23888238"
 
    - **Escape da caixa postal** evita que as chamadas imediatamente sendo roteados para o sistema de correio de voz de celular do usuário, quando o toque simultâneo é configurado e o telefone estiver desativado, fora da bateria ou fora do intervalo.
 
-    > [!NOTE]
-    > Esse recurso é configurável apenas através do Skype do Shell de gerenciamento do servidor de negócios
+     > [!NOTE]
+     > Esse recurso é configurável apenas através do Skype do Shell de gerenciamento do servidor de negócios
 
    - **Encaminhamento de chamadas** permite que os usuários encaminhem chamadas a outros telefones e dispositivos clientes. Skype para Business Server fornece um intervalo significativamente maior de opções de configuração para encaminhamento de chamadas. Por exemplo, se uma organização não deseja permitir que chamadas de entrada sejam encaminhadas externamente à PSTN, um administrador por aplicar uma política especial de voz para implantar esta restrição. Habilitado por padrão.
 
@@ -233,14 +233,14 @@ ms.locfileid: "23888238"
 
    - Para definir um novo registro de uso PSTN e associá-lo a essa política de voz, faça o seguinte:
 
-    a. Clique em **Novo**.
+     a. Clique em **Novo**.
 
-    b. No campo **Nome**, digite um nome descritivo para o registro. Por exemplo, convém criar um namedRedmond de registro de uso do PSTN para funcionários em tempo integral, localizados em Redmond e outro namedRedmondTemps de registro para funcionários temporários.
+     b. No campo **Nome**, digite um nome descritivo para o registro. Por exemplo, convém criar um namedRedmond de registro de uso do PSTN para funcionários em tempo integral, localizados em Redmond e outro namedRedmondTemps de registro para funcionários temporários.
 
-    > [!NOTE]
-    > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
+     > [!NOTE]
+     > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
 
-    c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
+     c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
 
    - Para escolher uma ou mais rotas da lista de todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que você deseja associar a esse registro de uso do PSTN e clique em **OK**.
 
@@ -250,13 +250,13 @@ ms.locfileid: "23888238"
 
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**.
 
-    d. Clique em **OK**.
+     d. Clique em **OK**.
 
    - Para editar um registro de uso de PSTN que já está associado a essa política de voz, faça o seguinte:
 
-    a. Realce o registro de uso do PSTN que deseja editar e clique em **Mostrar detalhes**.
+     a. Realce o registro de uso do PSTN que deseja editar e clique em **Mostrar detalhes**.
 
-    b. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
+     b. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
 
    - Para escolher uma ou mais rotas da lista de todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que você deseja associar a esse registro de uso do PSTN e clique em **OK**.
 
@@ -266,7 +266,7 @@ ms.locfileid: "23888238"
 
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**.
 
-    c. Clique em **OK**.
+     c. Clique em **OK**.
 
 7. Organize os registros de uso do PSTN para obter o melhor desempenho. Para alterar a posição do registro na lista, destaque o nome de registro e clique em cima ou seta para baixo.
 
@@ -287,14 +287,14 @@ ms.locfileid: "23888238"
 
    - Para definir um novo registro de uso de PSTN e associá-lo a esta política de encaminhamento de chamadas e toque simultâneo, siga estes passos:
 
-    a. Clique em **Novo**.
+     a. Clique em **Novo**.
 
-    b. No campo **Nome**, digite um nome descritivo para o registro.
+     b. No campo **Nome**, digite um nome descritivo para o registro.
 
-    > [!NOTE]
-    > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
+     > [!NOTE]
+     > O nome do registro de uso de PSTN deve ser exclusivo dentro de implantação do Enterprise Voice. Após a gravação do registro, o campo **Nome** não pode ser editado.
 
-    c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
+     c. Use qualquer um dos métodos a seguir para associar e configurar rotas para este registro de uso do PSTN:
 
    - Para escolher uma ou mais rotas da lista de todas as rotas disponíveis em sua implantação do Enterprise Voice, clique em **Selecionar**, realce as rotas que você deseja associar a esse registro de uso do PSTN e clique em **OK**.
 
@@ -304,7 +304,7 @@ ms.locfileid: "23888238"
 
    - Para editar uma rota que já está associada a esse registro de uso do PSTN, realce a rota e clique em **Mostrar detalhes**. Para obter detalhes, consulte [modificar uma rota de voz](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx).
 
-    d. Clique em **OK**.
+     d. Clique em **OK**.
 
    - Para editar um registro de uso de PSTN que já está associado a essa política de voz, faça o seguinte:
 

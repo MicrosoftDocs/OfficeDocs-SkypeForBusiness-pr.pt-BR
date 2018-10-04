@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee65362d6215faac0575425d0c7a6f0dfbc0b67b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 2bca4d2bb757f8fdcece40f82ad0ddce54c1d246
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017925"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375562"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -45,8 +45,8 @@ Diagrama de ![uma ilustrando uma lista de categorias de tarefas e atividades de 
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Revise o guia de operações por completo.</li><li>Implemente uma estratégia de operações que se alinha com as metas da sua organização para oferecer a qualidade e a confiabilidade das cargas de trabalho de equipes.</li><li>Revise o guia revisão de qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente a qualidade da experiência revisões para certificar-se de que sua implantação de equipes está operando em seus recursos de pico.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Revise o guia de operações por completo.</li><li>Implemente uma estratégia de operações que se alinha com as metas da sua organização para oferecer a qualidade e a confiabilidade das cargas de trabalho de equipes.</li><li>Revise o guia revisão de qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente a qualidade da experiência revisões para certificar-se de que sua implantação de equipes está operando em seus recursos de pico.</li></ul></td></tr>
 </table>
 
 
@@ -65,7 +65,7 @@ Certifique-se de que cada equipe responsável tem um bom entendimento das ativid
 Depois de um contrato é estabelecido, as equipes correspondentes deverá começar tornem operacional suas funções.
 
 <table>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td>
 <td><ul><li>Use este documento para facilitar o exercício de mapeamento de função operacionais.</li><li>Se encontrar com as equipes de suporte respectivos para atribuir nomes a cada item na lista de atividades necessárias.</li><li>Obter a aceitação ou aprovação nas funções atribuídas.</li><li>Certifique-se de que as equipes correspondentes tenham o treinamento adequado, preparação e recursos para concluir as atividades necessárias deles.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependências de serviços de equipes
@@ -184,17 +184,21 @@ Agora que você esteja ciente das futuras alterações para o serviço de equipe
 #### <a name="feature-cloud-recording-release-date-january-2018"></a>Recurso: Gravação na nuvem (data de lançamento: janeiro de 2018)
 
 **Acompanhar geral**
+
 | Preparação de alteração | Status   | Notas/próximas etapas | Proprietário |
 |----|----|----|-----|
 | Revisão legal   | Concluído     | Esse recurso é um pré-requisito para a equipe de treinamento de inclusão. | Equipe de projeto  |
 
 **Gerenciamento de alteração técnica**
-| Preparação de alteração | Status   | Notas/próximas etapas | Proprietário |
-|----|----|----|-----|
-| Alterações IT necessárias          | Sim                  | Administrador precisa habilitar gravação identificados apenas para usuários.      | Equipe de suporte           |
-| Prontidão técnica completa | Sim                  |                                                                 | Equipe de suporte  
-         |
+
+|       Preparação de alteração       | Status |                      Notas/próximas etapas                      |    Proprietário     |
+|------------------------------|--------|------------------------------------------------------------|--------------|
+|     Alterações IT necessárias      |  Sim   | Administrador precisa habilitar gravação identificados apenas para usuários. | Equipe de suporte |
+| Prontidão técnica completa |  Sim   |                                                            | Equipe de suporte |
+|                              |        |                                                            |              |
+
 **Gerenciamento de alterações do usuário** 
+
 | Preparação de alteração | Status   | Notas/próximas etapas | Proprietário |
 |----|----|----|-----|
 | Impacto do usuário                  | Baixo                  |                                                                 |                        |
@@ -203,6 +207,7 @@ Agora que você esteja ciente das futuras alterações para o serviço de equipe
 | Treinamento pronto               | Sim                  | Treinamento irá alavancar o vídeo da Microsoft existente.                | Equipe de treinamento          |
 
 **Faixa de status**
+
 | Preparação de alteração | Status   | Notas/próximas etapas | Proprietário |
 |----|----|----|-----|
 | Status de lançamento               | em andamento          | Revisão pendente por patrocinador executivo.               | Equipe de gerenciamento de alterações |

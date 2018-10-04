@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console do Skype sala sistemas v2 e seus periféricos.
-ms.openlocfilehash: 57ee754d99c9c0fcec62347146c79e9da5995fe1
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bb23f0dad26f37554657a101dc68dc7d776080b2
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965703"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371058"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar o console do Skype Room Systems versão 2
  
@@ -145,7 +145,7 @@ Após a instalação do Windows, o aplicativo de console do Skype sala sistemas 
     
    - Alto-falante padrão: o alto-falante usado para áudio da ingestão HDMI.
     
-    Cada item tem um menu suspenso de opção para seleção. Você deve fazer uma seleção para cada dispositivo.
+     Cada item tem um menu suspenso de opção para seleção. Você deve fazer uma seleção para cada dispositivo.
     
 6. Clique em **Concluir**.
     
@@ -174,9 +174,9 @@ O console do Skype sala sistemas v2 deve confiar nos certificados usados pelo Sk
     
 3. Execute o seguinte comando:
     
-  ```
-  certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
-  ```
+   ```
+   certutil -addstore -f -enterprise root "C:\Skype Room Systems\x64\Scripts\Provisioning\CAcertificate.cer"
+   ```
 
 ### <a name="join-an-active-directory-domain-optional"></a>Ingressar em um domínio do Active Directory (opcional)
 <a name="Certs"> </a>
@@ -191,9 +191,9 @@ Você pode ingressar consoles de v2 de sistemas de sala Skype para seu domínio.
     
 3. Digite o seguinte comando no Powershell:
     
-  ```
-  Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
-  ```
+   ```
+   Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
+   ```
 
 Por exemplo, se o seu domínio totalmente qualificado for redmond.corp.microsoft.com e quiser que seus consoles de v2 Skype sala sistemas estejam em uma "sala Skype sistemas v2" UO que é um filho de uma unidade Organizacional "recursos", o comando será:
   

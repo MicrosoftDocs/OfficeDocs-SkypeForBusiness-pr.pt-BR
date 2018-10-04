@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumo: Saiba sobre os componentes de serviço e as definições de configuração para o serviço de registro em log centralizado no Skype para Business Server 2015.'
-ms.openlocfilehash: 922d1f24e2d57c4908744462eb1b3c8335255cfd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372457"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Serviço centralizado de registro em log no Skype for Business 2015
  
@@ -31,7 +32,7 @@ The Centralized Logging Service pode:
     
   - Definir um **Cenário** ou usar um cenário padrão. Um cenário Centralized Logging Service é formado pelo escopo (global ou site), um nome de cenário para identificar a finalidade do cenário e um ou mais provedores. Em um computador, você pode executar o cenário padrão e um cenário definido em um determinado momento.
     
-  - Usar um provedor existente ou criar um novo provedor. Aprovider define o que a sessão de log coleta, qual nível de detalhamento, quais componentes de rastreamento e os sinalizadores são aplicados.
+  - Usar um provedor local ou criar um novo provedor. Aprovider define o que a sessão de log coleta, qual nível de detalhamento, quais componentes de rastreamento e os sinalizadores são aplicados.
     
     > [!TIP]
     >  Se você está familiarizado com OCSLogger, o termproviders refere-se à coleção de **componentes** (por exemplo, S4, SIPStack), um **tipo de log** (por exemplo, /logfile WPP, o log de eventos ou o IIS), um **nível de rastreamento** (por exemplo, All, verbose, debug) e os **sinalizadores** (por exemplo, TF_COMPONENT, TF_DIAG). Estes itens são definidos no provedor (uma variável com o Windows PowerShell) e passados para o comando Centralized Logging Service.
@@ -50,7 +51,7 @@ The Centralized Logging Service é uma poderosa ferramenta de solução de probl
     
 - Centralizado log serviço controlador Cmdlets o Skype do Shell de gerenciamento do servidor de negócios envia comandos Iniciar, parar, Flush e pesquisa o com o clsagent. Quando comandos de pesquisa são enviados, os logs resultantes são retornados ao ClsControllerLib.dll e agregados. O controlador envia comandos para o agente, recebe o status desses comandos e gerencia os dados do arquivo de log de pesquisa à medida que eles são retornados de todos os agentes em qualquer computador no escopo da pesquisa, e agrega os dados do log em um conjunto ordenado de saída e significativa. As informações nos tópicos a seguir se concentra em usando o Skype para Business Server Management Shell.
     
-**Comunicações do ClsController com o clsagent**
+**Comunicações do ClsController com o ClsAgent**
 
 ![Relacionamento entre CLSController e CLSAgent.](../../media/Ops_CLS_Architecture.jpg)
   
@@ -93,9 +94,9 @@ The Centralized Logging Service está configurado para definir o que é o servi�
     
 2. Digite o seguinte em uma linha de comando do prompt:
     
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
     > [!TIP]
     > Você pode reduzir ou expandir o escopo das definições de configuração que são retornados definindo `-Identity` e um escopo, como "Site: Redmond", para retornar apenas o CsClsConfiguration para o site Redmond. Se você deseja obter informações detalhadas sobre uma determinada parte da configuração, você pode canalizar a saída em outro cmdlet do Windows PowerShell. Por exemplo, para obter detalhes sobre os cenários definidos na configuração para o "Redmond" local, digite: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
@@ -104,7 +105,7 @@ The Centralized Logging Service está configurado para definir o que é o servi�
   
     O resultado do cmdlet exibe a configuração atual do the Centralized Logging Service.
     
-|**Definição de configuração**|**Descrição**|
+|**Definição da Configuração**|**Descrição**|
 |:-----|:-----|
 |**Identidade** <br/> |Identifica o escopo e o nome para esta configuração. Há apenas uma configuração global e uma configuração por local.  <br/> |
 |**Cenários** <br/> |Lista de todos os cenários que são definidos para esta configuração.  <br/> |

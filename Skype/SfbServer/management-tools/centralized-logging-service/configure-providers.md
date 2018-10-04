@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumo: Aprenda a configurar provedores de cenário para o serviço de registro em log centralizado no Skype para Business Server 2015.'
-ms.openlocfilehash: bea50b6c1ea2fa805e407db4f6dd3fcfb761b4ef
-ms.sourcegitcommit: a5b8b0a1e5ae5eb718e296ca6df6687368ee9174
+ms.openlocfilehash: e67a1dee9227624ecc94c50437f60781435b2fe8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19504345"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372489"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar provedores para Serviço de Log Centralizado no Skype for Business Server 2015
  
@@ -83,21 +83,21 @@ Introduzidos em [Centralized Logging Service no Skype para negócios 2015](centr
     
 2. Para exibir a configuração dos provedores existentes, digite o seguinte:
     
-  ```
-  Get-CsClsScenario -Identity <scope and scenario name>
-  ```
+   ```
+   Get-CsClsScenario -Identity <scope and scenario name>
+   ```
 
     Por exemplo, para exibir informações sobre o participante de conferência global, digite:
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA"
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA"
+   ```
 
     O comando exibe uma lista dos provedores com os sinalizadores, as configurações e os componentes associados. Se as informações exibidas não são suficiente ou a lista é muito longa para o formato de lista padrão do Windows PowerShell, você pode exibir informações adicionais, definindo um método de saída diferente. Para isso, digite:
     
-  ```
-  Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
-  ```
+   ```
+   Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
+   ```
 
     A saída deste comando exibe cada provedor em um formato de cinco linhas com o nome do provedor, o tipo de log, o nível de log, os sinalizadores, o GUID e a função, cada um em uma linha separada. 
     
@@ -107,15 +107,15 @@ Introduzidos em [Centralized Logging Service no Skype para negócios 2015](centr
     
 2. Um provedor de cenário consiste em um componente a ser rastreado, sinalizadores a serem usados e um nível de detalhamento a ser coletado. Para isso, digite:
     
-  ```
-  $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
-  ```
+   ```
+   $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
+   ```
 
     Por exemplo, uma definição de provedor de rastreamento que define o que será coletado e em qual nível de detalhamento do provedor Lyss seria semelhante ao seguinte:
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
+   ```
 
 -Coletados pelo nível fatal, erro, aviso e informações de mensagens. Os sinalizadores usados são todos aqueles que são definidos para o provedor Lyss e incluem TF_Connection, TF_Diag e TF_Protocol.After a variável $LyssProvider estiver definida, você pode usá-lo com o cmdlet **New-CsClsScenario** para coletar rastreamentos do provedor Lyss. Para concluir a criação e a atribuição do provedor a um novo cenário, digite:
 
@@ -130,15 +130,15 @@ Onde $LyssProvider é a variável que contém o cenário definido criado com **N
     
 2. Para atualizar ou alterar a configuração de um provedor existente, digite:
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
+   ```
 
     Em seguida, você atualiza o cenário para atribuir o provedor digitando o seguinte:
     
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
+   ```
 
 O resultado final do comando é que cenário site:Redmond/RedmondLyssInfo terá atualizado os sinalizadores e o nível do provedor atribuído a ele. Você pode exibir o novo cenário usando Get-CsClsScenario. Para obter detalhes, consulte [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
@@ -157,25 +157,25 @@ Onde cada provedor definido com a diretiva Add já foi definida usando o process
     
 2. Os cmdlets fornecidos permitem que você atualize os provedores existentes e crie novos provedores. Para remover um provedor, você deve usar a diretiva de substituição para o parâmetro do provedor para **Set-CsClsScenario**. A única maneira de remover completamente um provedor é substituí-lo por um provedor redefinido com o mesmo nome e usar a diretiva Update. Por exemplo, nosso provedor LyssProvider está definido com o tipo de log WPP, o nível definido para Debug e os sinalizadores definidos como TF_CONNECTION e TF_DIAG. Você precisa alterar os sinalizadores como "All". Para alterar o provedor, digite o seguinte:
     
-  ```
-  $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
-  ```
+   ```
+   $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
+   ```
 
-  ```
-  Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
-  ```
+   ```
+   Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
+   ```
 
 3. Se você desejar remover completamente um cenário e os provedores associados a ele, digite o seguinte:
     
-  ```
-  Remove-CsClsScenario -Identity <scope and name of scenario>
-  ```
+   ```
+   Remove-CsClsScenario -Identity <scope and name of scenario>
+   ```
 
     Por exemplo:
     
-  ```
-  Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
-  ```
+   ```
+   Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
+   ```
 
     > [!CAUTION]
     > O cmdlet **Remove-CsClsScenario** não solicitar confirmação. O cenário será excluído junto com os provedores atribuídos a ele. Você pode recriar o cenário executando novamente os comandos usados para criá-lo inicialmente. Não há um procedimento para recuperar cenários ou provedores removidos.

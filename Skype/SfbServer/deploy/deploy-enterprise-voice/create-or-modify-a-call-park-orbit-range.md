@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Criar ou modificar uma tabela de intervalo de órbita de estacionamento de chamada no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 8c9ff275e384148fb6e40f96bd26e7273809f25a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6892c48c95b7c5e84242a1456855e869a70e532b
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370688"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar um intervalo de órbita de estacionamento de chamada no Skype para negócios
 
@@ -46,12 +46,12 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
 4. Na página **Estacionamento de Chamada**, execute um dos seguintes procedimentos:
 
-  - Para criar um novo intervalo de órbitas, clique em **Novo**. Em **Nome**, digite um nome de identificação para esse intervalo de números.
+   - Para criar um novo intervalo de órbitas, clique em **Novo**. Em **Nome**, digite um nome de identificação para esse intervalo de números.
 
-    > [!NOTE]
-    > Após confirmar o intervalo de órbitas do banco de dados, não será possível alterar esse nome.
+     > [!NOTE]
+     > Após confirmar o intervalo de órbitas do banco de dados, não será possível alterar esse nome.
 
-  - Para modificar um intervalo de órbitas existente, digite todo ou parte do nome do intervalo de órbitas no campo de pesquisa. Na lista de resultados de órbitas, clique na órbita que desejar, clique em **Editar** e clique em **Mostrar detalhes**.
+   - Para modificar um intervalo de órbitas existente, digite todo ou parte do nome do intervalo de órbitas no campo de pesquisa. Na lista de resultados de órbitas, clique na órbita que desejar, clique em **Editar** e clique em **Mostrar detalhes**.
 
 5. No primeiro campo do **Intervalo numérico**, digite o número inicial do intervalo de extensões desta órbita de estacionamento de chamada e, no segundo campo **Intervalo numérico**, digite o número final do intervalo. Tenha em mente:
 

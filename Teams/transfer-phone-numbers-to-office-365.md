@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 660854bc851be4409962f1177917e86f2ae3482d
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 6b67688c352ca58f863db051f5883973d221261a
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347541"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371986"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de telefone para o Office 365
 
@@ -61,25 +61,25 @@ Antes de iniciar a transferência de números de telefone, é recomendável que 
     
 5. Na página **Informações da conta**, insira as informações a seguir e clique em **Avançar**:
     
-  - **Número da conta** O número da conta para o provedor de serviços ou operadora.
+   - **Número da conta** O número da conta para o provedor de serviços ou operadora.
     
-  - **Número de telefone de cobrança** Deve estar no formato E.164 (um sinal + deve preceder o número). Por exemplo, para um número da América do Norte, use o formato +1XXXYYYZZZZ.
+   - **Número de telefone de cobrança** Deve estar no formato E.164 (um sinal + deve preceder o número). Por exemplo, para um número da América do Norte, use o formato +1XXXYYYZZZZ.
     
-  - **PIN para desbloquear o número** PIN, se necessário para provedor de serviços ou para sua operadora atual.
+   - **PIN para desbloquear o número** PIN, se necessário para provedor de serviços ou para sua operadora atual.
     
-  - **Nome da empresa** Este é o nome da sua empresa ou organização.
+   - **Nome da empresa** Este é o nome da sua empresa ou organização.
     
-    > [!NOTE]
-    > [!OBSERVAçãO] A caixa **Nome da empresa** aceitará apenas 25 caracteres, incluindo os espaços. Se o nome da empresa tiver mais de 25 caracteres, os 25 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado.
+     > [!NOTE]
+     > [!OBSERVAçãO] A caixa **Nome da empresa** aceitará apenas 25 caracteres, incluindo os espaços. Se o nome da empresa tiver mais de 25 caracteres, os 25 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado.
   
-  - **Pessoa autorizada** Nome do usuário autorizado.
+   - **Pessoa autorizada** Nome do usuário autorizado.
     
-    > [!NOTE]
-    > [!OBSERVAçãO] A caixa **Pessoa autorizada** aceitará apenas 15 caracteres, incluindo os espaços. Se o nome da pessoa tiver mais de 15 caracteres, os 15 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado.
+     > [!NOTE]
+     > [!OBSERVAçãO] A caixa **Pessoa autorizada** aceitará apenas 15 caracteres, incluindo os espaços. Se o nome da pessoa tiver mais de 15 caracteres, os 15 primeiros caracteres do nome serão enviados e o pedido de portabilidade ainda será processado.
   
-  - **Endereço de serviço** O endereço de serviço da conta. Ele será listado na conta de seu provedor de serviços ou da operadora.
+   - **Endereço de serviço** O endereço de serviço da conta. Ele será listado na conta de seu provedor de serviços ou da operadora.
     
-  - **Cidade**, **Estado**, **CEP** do endereço de serviço.
+   - **Cidade**, **Estado**, **CEP** do endereço de serviço.
     
 6. Na página **Números**, insira os números de telefone que você deseja transferir no formato E.164. Por exemplo, para um número da América do Norte, use o formato +1XXXYYYZZZZ. Use uma vírgula para separar vários números de telefone.
     

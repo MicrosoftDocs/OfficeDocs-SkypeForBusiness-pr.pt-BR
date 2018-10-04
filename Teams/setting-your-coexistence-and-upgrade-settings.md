@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a83382ff46e5a698e3755f2c1d2d859dddd65f0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0b89d75f07ecfac6e37f33c27a9272187b0794a6
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013197"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371502"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Definindo as configurações de atualização e coexistência
 
@@ -57,13 +57,13 @@ Configurações atribuídas em um nível de usuário têm precedência sobre as 
 
 1. No painel de navegação esquerdo, vá para **usuários**e, em seguida, selecione o usuário na lista. 
 2. Na guia **conta** para o usuário, em **atualização de equipes**, clique em **Editar**.
-- Você pode definir o **modo de coexistência**. Escolha entre as seguintes opções:
-    - **Configurações de toda a organização usar** - Use esta configuração se você quiser que o usuário a usar as definições nas configurações de **toda a organização** . 
-    - **Ilhas** - Use esta configuração se quiser que o usuário seja capaz de usar ambos os Skype para equipes e de negócios. 
-    - **Skype para negócios apenas** - Use esta configuração se quiser que o usuário utilize Skype para negócios. 
-    - **Equipes apenas** - Use esta configuração se quiser que o usuário use apenas as equipes. O usuário ainda poderá ingressar Skype para reuniões de negócios.
-3. Se você selecionar qualquer **modo de coexistência** que não seja de **toda a organização usar configurações**, você tem a opção para habilitar notificações no Skype do usuário para o aplicativo de negócios que atualizar para equipes estarão disponíveis em breve. É possível habilitar essa notificação para o usuário, ativando a opção **notificar o Skype para o usuário de negócios** .
-4. Clique em **Salvar** depois de fazer as alterações.
+3. Você pode definir o **modo de coexistência**. Escolha entre as seguintes opções:
+     - **Configurações de toda a organização usar** - Use esta configuração se você quiser que o usuário a usar as definições nas configurações de **toda a organização** . 
+     - **Ilhas** - Use esta configuração se quiser que o usuário seja capaz de usar ambos os Skype para equipes e de negócios. 
+     - **Skype para negócios apenas** - Use esta configuração se quiser que o usuário utilize Skype para negócios. 
+     - **Equipes apenas** - Use esta configuração se quiser que o usuário use apenas as equipes. O usuário ainda poderá ingressar Skype para reuniões de negócios.
+4. Se você selecionar qualquer **modo de coexistência** que não seja de **toda a organização usar configurações**, você tem a opção para habilitar notificações no Skype do usuário para o aplicativo de negócios que atualizar para equipes estarão disponíveis em breve. É possível habilitar essa notificação para o usuário, ativando a opção **notificar o Skype para o usuário de negócios** .
+5. Clique em **Salvar** depois de fazer as alterações.
 
 ### <a name="related-topics"></a>Tópicos relacionados
 [Planejar a jornada](upgrade-plan-journey.md)

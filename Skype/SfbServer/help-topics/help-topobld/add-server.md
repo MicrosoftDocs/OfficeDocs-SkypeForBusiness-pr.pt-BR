@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Para adicionar um novo servidor a um pool existente de servidores, na qual o pool é um dos seguintes:'
-ms.openlocfilehash: 07684b98bf2820b6a72006219b380c972985b303
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6e45048eba1758f6944ea822113622c03703d315
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974582"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372962"
 ---
 # <a name="add-server"></a>Adicionar servidor
  
@@ -45,13 +45,13 @@ Cada um dos novos servidores de pool tem requisitos diferentes. Nas seções a s
     
 - Selecione **Habilitar IPv6** para habilitar o IPv6 para esse servidor.
     
- **Servidor de diretor**
+  **Servidor de diretor**
   
 - O FQDN do novo servidor como definido no DNS.
     
 - Selecione **usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador será usado. Como alternativa, você pode selecionar **limitar o uso do serviço aos endereços IP selecionados** e insira um endereço IP específico no novo servidor. O endereço IP inserido é o único endereço IP qual responderá para os serviços hospedados.
     
- **Servidor de Mediação**
+  **Servidor de Mediação**
   
 - O FQDN do novo servidor como definido no DNS.
     
@@ -60,13 +60,13 @@ Cada um dos novos servidores de pool tem requisitos diferentes. Nas seções a s
     > [!NOTE]
     > Para o servidor de mediação, o endereço IP inserido para o endereço IP principal e o endereço IP PSTN é a mesma por padrão. Os endereços IP podem ser definidos separadamente, se você estiver usando interfaces de rede dedicada ou endereços IP separados a mesma interface de rede. Se você tiver interfaces de rede dois, um para a conexão de rede local e um para a conexão de PSTN, você deve atribuir endereços IP diferentes. 
   
- **Servidor de conferência de áudio/vídeo**
+  **Servidor de conferência de áudio/vídeo**
   
 - O FQDN do novo servidor como definido no DNS.
     
 - Selecione **usar todos os endereços IP configurados**, que significa que qualquer endereço IP definido no computador que pode ser usado. Como alternativa, você pode selecionar **limitar o uso do serviço aos endereços IP selecionados** e digite um endereço específico no novo servidor. O endereço IP inserido é o único endereço IP qual responderá para os serviços hospedados.
     
- **Servidor de aplicativos confiáveis**
+  **Servidor de aplicativos confiáveis**
   
 - O FQDN do novo servidor como definido no DNS.
     

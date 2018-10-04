@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Notificação por Push e Push Notification Clearing House (PNCH) são duas partes importantes do recurso de mobilidade. Notificação por Push é o processo no qual uma mensagem é enviada ao PNCH. A mensagem é mantida aqui até que possa ser entregue ao cliente móvel ou até esgotar o tempo limite.
-ms.openlocfilehash: 53583e59261e369aa11c8bac12f5f5b5eaf4a8dc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 0690166113f702c641e92c61001242017352bf47
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25371830"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvel: Crie ou edite a Configuração de Notificação por Push
  
@@ -34,9 +35,9 @@ Para habilitar a Notificação por Push, faça o seguinte:
   
 2. Selecione quais serviços de notificação por push você deseja habilitar clicando na caixa de seleção para:
     
-  - **Notificação de push da Microsoft permitem** habilitará a notificação por push para a nuvem PNCH para Windows Phone com o Skype para o aplicativo de negócios
+   - **Notificação de push da Microsoft permitem** habilitará a notificação por push para a nuvem PNCH para Windows Phone com o Skype para o aplicativo de negócios
     
-  - **Notificação de push habilitar Apple** habilitará a notificação por push para o PNCH da Apple para dispositivos executando o iOS da Apple (por exemplo, iPhone, iPad) e usando o Skype para o aplicativo de negócios
+   - **Notificação de push habilitar Apple** habilitará a notificação por push para o PNCH da Apple para dispositivos executando o iOS da Apple (por exemplo, iPhone, iPad) e usando o Skype para o aplicativo de negócios
     
 3. Após concluir as edições da política, clique em  **Confirmar** para salvar suas alterações. Se for necessário excluir as alterações feitas, selecione **Cancelar**. Nenhuma alteração será salva na política.
     

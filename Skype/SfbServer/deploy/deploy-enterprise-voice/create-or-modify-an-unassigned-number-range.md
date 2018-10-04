@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Criar, modificar ou excluir intervalos de números não atribuídos para o aplicativo de anúncio no Skype para Business Server Enterprise Voice. Isso afeta como o sistema lida com as chamadas para números não atribuídos.
-ms.openlocfilehash: 2acfa15ac6a5fdcdea2dc56fd74a067712875218
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ca8b3e621da3b479bcc650584ed2aea7669f07e1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886265"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372710"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Criar ou modificar um intervalo de números não atribuído no Skype para Business Server
  
@@ -50,8 +50,8 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
     
    - Para criar um novo intervalo de números, clique em **Novo**. Em **Nome**, digite o nome que identifica este intervalo de números.
     
-    > [!NOTE]
-    > Depois de confirmar o novo intervalo de números não atribuídos para o banco de dados, não é possível alterar este nome. 
+     > [!NOTE]
+     > Depois de confirmar o novo intervalo de números não atribuídos para o banco de dados, não é possível alterar este nome. 
   
    - Para modificar um intervalo de números existente, digite todo o nome do intervalo de órbita, ou parte dele, no campo de pesquisa. Na lista de resultados de intervalos de número, clique no nome desejado, clique em **Editar** e depois, clique em **Exibir Detalhes**.
     
@@ -99,7 +99,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
   
     No linha de comando, siga um destes procedimentos:
     
-     - Para criar um intervalo numérico para um serviço de Comunicado, execute:
+   - Para criar um intervalo numérico para um serviço de Comunicado, execute:
     
      ```
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
@@ -123,7 +123,7 @@ Use um dos seguintes procedimentos para configurar intervalos de números não a
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
-    O exemplo a seguir mostra como modificar os números em um intervalo numérico não atribuído existente.
+     O exemplo a seguir mostra como modificar os números em um intervalo numérico não atribuído existente.
     
      ```
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"

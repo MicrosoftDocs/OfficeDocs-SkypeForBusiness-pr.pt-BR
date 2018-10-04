@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60575e2b9a1398bf5eba6dfec5aa883e4478f648
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 96af6eb707c8f104a7810e924323d9f32996f8f1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014593"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374291"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
@@ -35,8 +35,8 @@ Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para
 
 
 <table>
-<tr><td>![](media/audio_conferencing_image7.png) <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará mapas públicos e outros anúncios de serviço para novos recursos ou serviços que sua organização pode beneficiar.</li><li>Decida sobre a cadência nas quais a ser relatado esses novos recursos ou serviços de volta para as principais partes interessadas, via seu comitê de orientação.</li></ul></td></tr>
-<tr><td>![](media/audio_conferencing_image9.png)<br/>Próximos passos</td><td><ul><li>Implemente uma estratégia para permanecer atualizado com os seus serviços para obter o valor máximo para sua organização.</li><li>Aprimoramentos de serviço por meio de um ciclo de vida de projeto completo para certificar-se de que você tiver contabilizado corretamente o impacto que causam sobre a implantação da unidade.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará mapas públicos e outros anúncios de serviço para novos recursos ou serviços que sua organização pode beneficiar.</li><li>Decida sobre a cadência nas quais a ser relatado esses novos recursos ou serviços de volta para as principais partes interessadas, via seu comitê de orientação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Implemente uma estratégia para permanecer atualizado com os seus serviços para obter o valor máximo para sua organização.</li><li>Aprimoramentos de serviço por meio de um ciclo de vida de projeto completo para certificar-se de que você tiver contabilizado corretamente o impacto que causam sobre a implantação da unidade.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

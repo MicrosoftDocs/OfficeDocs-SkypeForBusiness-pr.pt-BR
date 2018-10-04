@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como procurar seus números de conferência discada de dentro do Skype para negócios Online. '
-ms.openlocfilehash: 43442d2ecee1de30126b73dd7cce8124db650c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891252"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372883"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver uma lista de números de conferência de áudio no Skype para Business Online
 
@@ -57,9 +57,9 @@ Você pode ver a [definir o telefone convidam números incluídos em](set-the-ph
     
 3. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **ponte da Microsoft**e, em seguida:
     
-  - Você pode exibir os números de telefone disponíveis para conferência de áudio.
+   - Você pode exibir os números de telefone disponíveis para conferência de áudio.
     
-  - Você também pode exibir a localização e os idiomas principais e secundários que serão usados pelos serviços de audioconferência atendedor automático.
+   - Você também pode exibir a localização e os idiomas principais e secundários que serão usados pelos serviços de audioconferência atendedor automático.
     
 > [!NOTE]
 > Você pode ir para a **conferência de áudio** > **usuários** e selecione Propriedades do usuário para alterar o padrão de número, escolhendo um novo número da lista de números disponíveis em sua organização. Consulte [Definir convidam números incluídos no telefone](set-the-phone-numbers-included-on-invites.md). 

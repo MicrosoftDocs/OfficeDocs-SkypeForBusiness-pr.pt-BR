@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: d13ca7f70880d7ad0f3c6376e167c6222682887d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 26b835162f0db82a7ea4631d8add24dcd9ec79dc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23855571"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374488"
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
@@ -82,17 +82,17 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 ***
 ![Número 7](../images/sfbcallout7.png)<br/>
 A tabela mostra uma análise detalhada de todas as atividades de conferência por usuário. Mostra todos os usuários que têm Skype para negócios atribuídos a eles e suas atividades de conferência. Você pode adicionar mais colunas à tabela.
-*    **Nome de usuário** é o nome do usuário.
-*    **Excluído** indica que a licença do usuário foi removida.<br/><br/>
-    > [!NOTE]
-    > Atividade de um usuário excluído ainda será exibida em um relatório, desde que ele foi licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
+* **Nome de usuário** é o nome do usuário.
+* **Excluído** indica que a licença do usuário foi removida.<br/><br/>
+  > [!NOTE]
+  > Atividade de um usuário excluído ainda será exibida em um relatório, desde que ele foi licenciado em algum momento durante o período de tempo selecionado. The **Deleted** column helps you to note that the user may no longer be active, but contributed to the data in the report.
      
-*    **Deleted date** is the date on which the user's license was removed.
-*    **Data da última atividade (UTC)** é a última vez que o usuário se envolveu em uma sessão entre pares, organizou uma conferência ou participou de uma.
-*    **-A-ponto** mostra o número total de sessões de conferência ponto a ponto que o usuário tiver usado.
-*    **Conferências organizadas** mostra o número total de conferências que foram organizadas por esse usuário.
-*    **Conferências participadas** mostra o número total de conferências das quais esse usuário participou.
-*    **Produto atribuído** são os produtos do Office 365 atribuídos a esse usuário.<br/>
+* **Deleted date** is the date on which the user's license was removed.
+* **Data da última atividade (UTC)** é a última vez que o usuário se envolveu em uma sessão entre pares, organizou uma conferência ou participou de uma.
+* **-A-ponto** mostra o número total de sessões de conferência ponto a ponto que o usuário tiver usado.
+* **Conferências organizadas** mostra o número total de conferências que foram organizadas por esse usuário.
+* **Conferências participadas** mostra o número total de conferências das quais esse usuário participou.
+* **Produto atribuído** são os produtos do Office 365 atribuídos a esse usuário.<br/>
 
 Se diretivas da sua organização impedirem a exibição relatórios onde as informações do usuário são identificáveis, você poderá alterar a configuração de privacidade para todos esses relatórios. Confira a seção **Ocultar detalhes nos relatórios do usuário** nos [Relatórios de atividade no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***

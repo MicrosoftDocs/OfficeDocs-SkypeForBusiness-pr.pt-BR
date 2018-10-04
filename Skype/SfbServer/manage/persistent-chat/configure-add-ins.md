@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Resumo: Saiba como configurar suplementos para salas de chat Persistent Chat Server na Skype para Business Server 2015.'
-ms.openlocfilehash: f96f000c4ac3a78f6ca3ba4972f295e45128ce50
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967730"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25372696"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar suplementos para salas de Chat Persistente no Skype for Business Server 2015
  
@@ -46,9 +46,9 @@ Para configurar suplementos para salas de chat usando o Painel de Controle:
     
 6. Em **Suplementos novos**, faça o seguinte:
     
-  - Em **Nome**, especifique um nome para o novo suplemento.
+   - Em **Nome**, especifique um nome para o novo suplemento.
     
-  - Em **URL**, especifique a URL que deve ser associada ao suplemento. As URLs são limitadas aos protocolos http e https.
+   - Em **URL**, especifique a URL que deve ser associada ao suplemento. As URLs são limitadas aos protocolos http e https.
     
 7. Clique em **Confirmar**.
     

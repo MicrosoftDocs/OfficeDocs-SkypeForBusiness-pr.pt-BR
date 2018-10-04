@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Leia este tópico para revisar as considerações de planejamento para implementar o bypass de mídia com a versão 2.0 do Cloud Connector Edition e posteriores. Para obter informações sobre como implantar o media bypass, consulte Deploy media bypass na nuvem conector Edition.
-ms.openlocfilehash: da6432f20690162a8de2a9d63438a4c4a5bf162b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886133"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25370998"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planejar o bypass de mídia no Cloud Connector Edition
  
@@ -64,7 +64,7 @@ Bypass de mídia também é útil quando você deseja fornecer serviços de tele
     
 4. O gateway central na Amsterdã torna as decisões de roteamento apropriadas e envia o tráfego para um SBC ou gateway na Zurique, enquanto os fluxos de mídia diretamente entre o Skype para o cliente de negócios e SBC ou gateway na Amsterdã.
     
- Essa abordagem permite fazer mais usuários por uma implantação do conector de nuvem em que o conector de nuvem é centralizado. Embora o conector de nuvem é eliminado do caminho de mídia, em um cenário de multi-site centralizado mídia poderá ainda atravessar WAN duas vezes, conforme necessário para fluir através do gateway ou do SBC centralizado.
+   Essa abordagem permite fazer mais usuários por uma implantação do conector de nuvem em que o conector de nuvem é centralizado. Embora o conector de nuvem é eliminado do caminho de mídia, em um cenário de multi-site centralizado mídia poderá ainda atravessar WAN duas vezes, conforme necessário para fluir através do gateway ou do SBC centralizado.
   
 Se um cliente estiver fora da rede corporativa, colocar uma chamada de saída, o tráfego de mídia flui através dos servidores de borda e mediação de link de conector de nuvem e WAN entre Zurique e Amsterdã, conforme mostrado no diagrama a seguir:
   

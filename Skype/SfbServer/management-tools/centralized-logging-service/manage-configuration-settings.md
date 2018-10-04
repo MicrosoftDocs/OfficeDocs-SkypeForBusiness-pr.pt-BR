@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Resumo: Saiba como recuperar, atualizar e criar definições de configuração para o serviço de registro em log centralizado no Skype para Business Server 2015.'
-ms.openlocfilehash: 163ac9607e3b690aac2f069c38e967692721d819
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253115"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375598"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Gerenciar configurações do Serviço de Log Centralizado no Skype for Business Server 2015
 
@@ -66,9 +66,9 @@ Escopos de site e Global forem definidos nos cmdlets **New -**, **Set -** e **Re
 
 2. Digite o seguinte no prompt de linha de comando:
 
-  ```
-  Get-CsClsConfiguration
-  ```
+   ```
+   Get-CsClsConfiguration
+   ```
 
 Use os cmdlets **New-CsClsConfiguration** e **Set-CsClsConfiguration** para criar uma nova configuração ou para atualizar uma configuração existente. Quando você executar **Get-CsClsConfiguration**, ele exibe informações similares a seguinte captura de tela, onde a implantação atualmente tem a configuração Global, mas nenhuma configuração de site definida:
 
@@ -80,9 +80,9 @@ Use os cmdlets **New-CsClsConfiguration** e **Set-CsClsConfiguration** para cria
 
 2. Digite o seguinte no prompt de linha de comando:
 
-  ```
-  Get-CsClsConfiguration -LocalStore
-  ```
+   ```
+   Get-CsClsConfiguration -LocalStore
+   ```
 
 Quando você usa o primeiro exemplo onde **Get-CsClsConfiguration** não especifica nenhum parâmetro, as referências de comando repositório de gerenciamento Central para os dados. Se você especificar o parâmetro - LocalStore, o comando referencia o computador LocalStore em vez de repositório de gerenciamento Central.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Para recuperar uma lista de cenários definidos no momento
@@ -91,15 +91,15 @@ Quando você usa o primeiro exemplo onde **Get-CsClsConfiguration** não especif
 
 2. Digite o seguinte no prompt de linha de comando:
 
-  ```
-  Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
+   ```
 
     Por exemplo, para recuperar os cenários definidos no escopo global:
 
-  ```
-  Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
-  ```
+   ```
+   Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
+   ```
 
 O cmdlet **Get-CsClsConfiguration** sempre exibe os cenários que fazem parte da configuração de um determinado escopo. Na maioria dos casos, nem todos os cenários são exibidos e estão truncados. O comando usado aqui lista todos os cenários e as informações parciais sobre quais provedores, configurações e sinalizadores são usados.
 ### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo global para o serviço de registro em log centralizado em log usando o Windows PowerShell
@@ -108,15 +108,15 @@ O cmdlet **Get-CsClsConfiguration** sempre exibe os cenários que fazem parte da
 
 2. Digite o seguinte no prompt de linha de comando:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Por exemplo:
+   Por exemplo:
 
-  ```
-  Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
+   ```
 
 O comando diz ao CLSAgent em cada computador e pool na implantação para definir o tamanho do valor de sobreposição no arquivo de rastreamento para 40 megabytes. Os computadores e pools em todos os sites são afetados pelo comando, e definirão seu valor configurado de sobreposição de log de rastreamento para 40 megabytes.
 ### <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo de site para o serviço de registro em log centralizado em log usando o Windows PowerShell
@@ -125,15 +125,15 @@ O comando diz ao CLSAgent em cada computador e pool na implantação para defini
 
 2. Digite o seguinte no prompt de linha de comando:
 
-  ```
-  Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
-  ```
+   ```
+   Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
+   ```
 
-  Por exemplo:
+   Por exemplo:
 
-  ```
-  Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
-  ```
+   ```
+   Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
+   ```
 
 > [!NOTE]
 > Como observado no exemplo, o local padrão dos arquivos de log é %TEMP%\Tracing. No entanto, como é o CLSAgent que está gravando o arquivo, e o CSLAgent é executado no Serviço de Rede, a variável %TEMP% expande para %WINDIR%\ServiceProfiles\NetworkService\AppData\Local.
@@ -145,9 +145,9 @@ O comando diz ao CLSAgent em cada computador e pool no site da Redmond para defi
 
 2. Digite o seguinte no prompt de linha de comando:
 
-  ```
-  New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
-  ```
+   ```
+   New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
+   ```
 
     > [!NOTE]
     > New-CsClsConfiguration fornece acesso a um grande número de definições de configuração adicionais. Para obter detalhes sobre as opções de configuração, consulte [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) e [Noções básicas sobre Centralized Logging Service definições de configuração](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
@@ -165,9 +165,9 @@ Você deverá planejar cuidadosamente a criação de novas configurações e com
 
 2. Digite o seguinte no prompt de linha de comando:
 
-  ```
-  Remove-CsClsConfiguration -Identity <scope and name>
-  ```
+   ```
+   Remove-CsClsConfiguration -Identity <scope and name>
+   ```
 
 Por exemplo, para remover uma configuração de Centralized Logging Service que você criou para aumentar o tempo de sobreposição de arquivo de log, aumentar o tamanho de arquivo de log de sobreposição e definir o local de cache do arquivo de log para um compartilhamento de rede da seguinte maneira:
 

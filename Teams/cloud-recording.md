@@ -11,12 +11,12 @@ description: Orientações práticas para a implantação dos recursos de Cloud 
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068ddc726a366f5ee34b23dca0f76699d4c76afc
-ms.sourcegitcommit: 090ff859083ace43c08d483f4023009e8b6e79e4
+ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25019072"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375975"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reunião de nuvem de equipes
 
@@ -75,13 +75,13 @@ Para alterar o valor de AllowCloudRecording na Política Global, use o seguinte 
 </br>
 
 
-|Cenário|Etapas |
-|---|---|
-|Desejo que todos os usuários da minha empresa possam registrar suas reuniões |<ol><li>Confirme CsTeamsMeetingPolicy Global tem AllowCloudRecording = True<li>Todos os usuários têm o Global OR CsTeamsMeetingPolicy uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = True </ol>|
-|Desejo que a maioria dos meus usuários possam gravar suas reuniões, mas desabilitar seletivamente a usuários específicos que não são permitidos para registrar |<ol><li>Confirme GlobalCsTeamsMeetingPolicy tem AllowCloudRecording = True<li>A maioria dos usuários possuem o Global CsTeamsMeetingPolicy OR uma das diretivas de CsTeamsMeetingPolicy com AllowCloudRecording = True<li>Todos os outros usuários receberam uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = False</ol>|
-|Deseja que a ser desabilitado 100% de gravação| <ol><li>Confirme CsTeamsMeetingPolicy Global tem AllowCloudRecording = False<li>Todos os usuários que tiverem sido concedidos a Global CsTeamsMeetingPolicy OR uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = False|
-|Eu quero gravação para ser desabilitados para a maioria dos usuários, mas ativar seletivamente a usuários específicos que poderão gravar|<ol><li>Confirme CsTeamsMeetingPolicy Global tem AllowCloudRecording = False<li>A maioria dos usuários que tiverem sido concedidas a Global CsTeamsMeetingPolicy OR uma das diretivas de CsTeamsMeetingPolicy com AllowCloudRecording = False<li>Todos os outros usuários receberam uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = True <ol>|
-|||
+|                                                                 Cenário                                                                 |                                                                                                                                                                         Etapas                                                                                                                                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                    Desejo que todos os usuários da minha empresa possam registrar suas reuniões                                    |                                                                     <ol><li>Confirme CsTeamsMeetingPolicy Global tem AllowCloudRecording = True<li>Todos os usuários têm o Global OR CsTeamsMeetingPolicy uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = True </ol>                                                                     |
+| Desejo que a maioria dos meus usuários possam gravar suas reuniões, mas desabilitar seletivamente a usuários específicos que não são permitidos para registrar |        <ol><li>Confirme GlobalCsTeamsMeetingPolicy tem AllowCloudRecording = True<li>A maioria dos usuários possuem o Global CsTeamsMeetingPolicy OR uma das diretivas de CsTeamsMeetingPolicy com AllowCloudRecording = True<li>Todos os outros usuários receberam uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = False</ol>         |
+|                                                   Deseja que a ser desabilitado 100% de gravação                                                   |                                                                <ol><li>Confirme CsTeamsMeetingPolicy Global tem AllowCloudRecording = False<li>Todos os usuários que tiverem sido concedidos a Global CsTeamsMeetingPolicy OR uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = False                                                                 |
+|      Eu quero gravação para ser desabilitados para a maioria dos usuários, mas ativar seletivamente a usuários específicos que poderão gravar       | <ol><li>Confirme CsTeamsMeetingPolicy Global tem AllowCloudRecording = False<li>A maioria dos usuários que tiverem sido concedidas a Global CsTeamsMeetingPolicy OR uma das diretivas de CsTeamsMeetingPolicy com AllowCloudRecording = False<li>Todos os outros usuários receberam uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = True <ol> |
+|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
 ### <a name="enabledisable-recording-transcription-for-users"></a>Habilitar/desabilitar transcrições de gravação para usuários
 

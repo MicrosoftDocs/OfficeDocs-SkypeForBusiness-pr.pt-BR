@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: Você pode usar a seção Add-in da página Chat persistente para associar URLs salas de Chat persistente. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
-ms.openlocfilehash: 5b8e39e4cd71bdbf1ec6e5e9b93a72b469ce584f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c03566bbf6556917a876744ce9d985ddf25a28ec
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258491"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25373047"
 ---
 # <a name="persistent-chat-add-in"></a>Suplemento de Chat Persistente
 
@@ -51,9 +51,9 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 6. Em **Suplementos novos**, faça o seguinte:
 
-  - Em **Nome**, especifique um nome para o novo suplemento.
+   - Em **Nome**, especifique um nome para o novo suplemento.
 
-  - Em **URL**, especifique a URL que deve ser associada ao suplemento. As URLs são limitadas aos protocolos http e https.
+   - Em **URL**, especifique a URL que deve ser associada ao suplemento. As URLs são limitadas aos protocolos http e https.
 
 7. Clique em **Confirmar**.
 

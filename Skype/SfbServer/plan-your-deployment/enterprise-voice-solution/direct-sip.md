@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Conexões SIP diretas são suportadas entre Skype para Business Server e os gateways PSTN e PBX IP no Enterprise Voice.
-ms.openlocfilehash: a8af9b5a2809e175d861d3781c91ff1610c32db7
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 041009c5299f441e1b0e1a05c2af1e855f13f2b8
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889680"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374578"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas no Skype para Business Server
 
@@ -117,7 +117,7 @@ Aqui estão as principais perguntas a serem considerados. Tenha em mente que as 
 
 - Onde os gateways devem ser localizados? A resposta depende em parte na topologia e em parte da distribuição geográfica de sua organização.
 
- Você também deve considerar seu gateway opções de topologia (para obter detalhes, consulte topologias de Gateway posteriormente neste tópico).
+  Você também deve considerar seu gateway opções de topologia (para obter detalhes, consulte topologias de Gateway posteriormente neste tópico).
 
 #### <a name="mn-trunk-support"></a>Suporte de Tronco M:N
 

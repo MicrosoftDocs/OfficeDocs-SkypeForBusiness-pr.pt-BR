@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Para editar propriedades para aparelho de filial persistente ou servidor de filial persistente, em geral, você configurar:'
-ms.openlocfilehash: 9e698854e78837e213ac080ab02098f72e72fec5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: c61260fda0c6a49e90ecce02674df721001af4f7
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374600"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Aparelho de Filial para o Lync Server 2010
  
@@ -44,10 +45,10 @@ Para editar propriedades para aparelho de filial persistente ou servidor de fili
     
     **Associar pool de borda (para componentes de mídia)** Selecione na lista servidor de borda ou pool de borda que você deseja associar ao aparelho de filial persistente ou servidor de filial persistente
     
- **OK** Aceita e confirma as alterações na caixa de diálogo.
+  **OK** Aceita e confirma as alterações na caixa de diálogo.
   
- **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
+  **Cancelar** Descarta as alterações e fecha a caixa de diálogo.
   
- **Ajuda** Exibe essa tela de ajuda.
+  **Ajuda** Exibe essa tela de ajuda.
   
 
