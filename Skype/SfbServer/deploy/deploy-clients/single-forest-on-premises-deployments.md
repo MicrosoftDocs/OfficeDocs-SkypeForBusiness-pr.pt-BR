@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Leia este tópico para saber como implantar o Sistema de Salas do Skype em um ambiente local de floresta única.
-ms.openlocfilehash: 8c931aca8505aa4d41175dbf5e1a138b668323d0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375298"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Implantações locais de uma única floresta do Sistema de Salas do Skype
  
@@ -30,17 +30,17 @@ Para usar uma conta de caixa de correio de recursos existente (por exemplo, LRS-
   
 1. Execute o seguinte comando do PowerShell de Gerenciamento do Exchange:
     
-  ```
-  Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
 2. Se você planeja criar uma nova caixa de correio, para uma empresa do Exchange local de floresta única, execute o comando a seguir:
     
-  ```
-  New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
-  ```
+   ```
+   New-Mailbox -UserPrincipalName LRS01@contoso.com -Alias LRS01 -Name "LRS-01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   ```
 
-  O exemplo acima cria uma conta de usuário habilitada no Active Directory e uma caixa de correio para sala de conferência em uma empresa local do Exchange. O parâmetro RoomMailboxPassword especifica a senha para a conta de usuário.
+   O exemplo acima cria uma conta de usuário habilitada no Active Directory e uma caixa de correio para sala de conferência em uma empresa local do Exchange. O parâmetro RoomMailboxPassword especifica a senha para a conta de usuário.
     
 3. Configure a conta para solucionar conflitos automaticamente ao aceitar/rejeitar reuniões. Skype sala de conferência equipado com o sistema de sala contas no Exchange podem ser gerenciadas por indivíduos, mas observe que até que a pessoa aceita uma reunião não aparecerá no calendário de tela inicial do sistema de sala do Skype.
     

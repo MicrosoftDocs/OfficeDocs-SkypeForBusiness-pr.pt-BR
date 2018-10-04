@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: af4f7621f9b5a70bc9b8a7ce87e50a6e6791ea63
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: ddcc4da301d491d763baf736053fd8eaeaee1b87
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358976"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375503"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -161,7 +161,7 @@ Introduzido nessa atualização:
 - Convide pessoas a partir de seu diretório, onde você pode ver imediatamente a disponibilidade de cada contato, ou por chamada telefônica
 - Compatível com os recursos de Conferência e Chamada PSTN do Skype for Business para substituir o telefone de conferência em sua sala
     
- **Transforme qualquer sala de reunião**
+  **Transforme qualquer sala de reunião**
   
 - Aplicativo dedicado à Reunião do Skype, otimizado para o controlador de tela touch de centro da mesa e para a grande tela frontal da sala
 - Aproveite os investimentos existentes em seus projetores ou na tela frontal da sala
@@ -169,7 +169,7 @@ Introduzido nessa atualização:
 - Os dispositivos de áudio e vídeo certificados do Skype for Business estão disponíveis para vários tamanhos de sala
 - Ingestão interna com fio para projetar o compartilhamento de área de trabalho para a sala e para a Reunião do Skype
     
- **Fácil de implantar, simples de gerenciar**
+  **Fácil de implantar, simples de gerenciar**
   
 - Dispositivo sempre ativo que aciona as telas automaticamente quando detecta pessoas na sala
 - Implantação e atualização simples do aplicativo de Reunião do Skype da UWP (Plataforma Universal do Windows)

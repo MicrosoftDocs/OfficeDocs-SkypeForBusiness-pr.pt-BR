@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: Prepare seu Skype para servidores de negócios Server 2019 e infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os os requisitos do sistema e recomendações, juntamente com o certificado DNS, compartilhamento de arquivos e informações do Active Directory, estão aqui ajudar a garantir uma instalação bem-sucedida e a implantação de farm de servidores.'
-ms.openlocfilehash: eb6e0b4207d266e8b3a12ab62332fd99c717c1ec
-ms.sourcegitcommit: 9e112a00c9766af8bd30bc13980201d23d1928d0
+ms.openlocfilehash: a5422f52e9158d01f821c0a2abd051917fbed7b1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030641"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375124"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2019"></a>Requisitos de servidor do Skype para Business Server 2019
 
@@ -79,9 +79,9 @@ Hardware recomendado para servidores de borda, servidores de mediação autônom
 
 > [!NOTE]
 > Independentemente da função de servidor, também recomendamos as seguintes configurações de hardware para Skype para Business Server 2019 (Isso pode variar dependendo da marca do hardware que você comprou, isso, consulte a documentação do fabricante para obter informações específicas):
-- Configuração de BIOS - deve ser definido como plano de NUMA.
-- Habilite o Hyperthreading.
-- A configuração de fila RSS deve ser definida como 8 fila.
+> - Configuração de BIOS - deve ser definido como plano de NUMA.
+> - Habilite o Hyperthreading.
+> - A configuração de fila RSS deve ser definida como 8 fila.
 
    
 ## <a name="operating-systems-for-skype-for-business-server-2019"></a>Sistemas operacionais para Skype para Business Server 2019

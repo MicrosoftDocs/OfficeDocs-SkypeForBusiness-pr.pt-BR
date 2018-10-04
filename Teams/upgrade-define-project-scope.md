@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccfd6da7af2905485a6c8deb7a2dd1ae433b8da3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017933"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375215"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -68,13 +68,13 @@ Sua visão só pode ser realizado ao longo do tempo, por meio de diversas fases.
 
 Suas metas de definem o resultado desejado e permitem que você medir o sucesso do projeto. Metas podem ser definidas como _objetivos e resultados principais_ (OKRs) e as medidas de sucesso do projeto podem ser definidas como _indicadores de sucesso fundamental_ (KSIs). É essencial que você obtenha participação completa de participantes do projeto na definição OKRs e KSIs, para ajudar a garantir que eles sentem de propriedade e alinhar dessas medidas de sucesso tarefas de projetos definido. Metas devem incluir uma mistura de sucesso técnica e voltados para o usuário. 
 
--   **OKRs** contêm os objetivos que você define no início do projeto e os principais resultados medir em uma cadência definida (por exemplo, mensalmente ou trimestral). Examinando os resultados principais, você pode garantir seus resultados finais do projeto ou estão na agenda, identificam e atenuar problemas para fazer o seu projeto de volta na faixa. OKRs normalmente são classificadas como "conseguiu" ou "não atingidos".
--    **KSIs** medir a qualidade e o êxito dos principais resultados e complementar a natureza binária do OKRs por detalhando resultados boas e/ou inválidos. Ao definir KSIs, recomendamos que você use "específicos, mensuráveis, pode ser atribuídos, realistas, relacionadas ao tempo" critérios (inteligentes):
-    -   Específico: uma área específica, para melhoria de destino
-    -   Quantificam mensurável: ou sugerir pelo menos um indicador, do progresso da
-    -   Pode ser atribuído: especificar quem fará
-    -   Realista: estado o que os resultados na realidade podem ser atingido, determinados recursos disponíveis
-    -   Relacionadas ao tempo: especificar quando os resultados podem ser obtidos
+- **OKRs** contêm os objetivos que você define no início do projeto e os principais resultados medir em uma cadência definida (por exemplo, mensalmente ou trimestral). Examinando os resultados principais, você pode garantir seus resultados finais do projeto ou estão na agenda, identificam e atenuar problemas para fazer o seu projeto de volta na faixa. OKRs normalmente são classificadas como "conseguiu" ou "não atingidos".
+- **KSIs** medir a qualidade e o êxito dos principais resultados e complementar a natureza binária do OKRs por detalhando resultados boas e/ou inválidos. Ao definir KSIs, recomendamos que você use "específicos, mensuráveis, pode ser atribuídos, realistas, relacionadas ao tempo" critérios (inteligentes):
+  -   Específico: uma área específica, para melhoria de destino
+  -   Quantificam mensurável: ou sugerir pelo menos um indicador, do progresso da
+  -   Pode ser atribuído: especificar quem fará
+  -   Realista: estado o que os resultados na realidade podem ser atingido, determinados recursos disponíveis
+  -   Relacionadas ao tempo: especificar quando os resultados podem ser obtidos
 
 A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um Skype para negócios a equipes de projeto de atualização.
 

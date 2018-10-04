@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0794af6763dd91005bbe8dcd8b19e5a97db55d20
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014439"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25374791"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -67,6 +67,7 @@ Antes de planejar a implementação de chamar planos em equipes, verificar se o 
 Depois de confirmar que sua organização pode obter o serviço chamando planos, compile a lista de locais do usuário ou de onde você vai Implementando o serviço de planos de chamada, com base na lista de países disponíveis e regiões de escritórios.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida qual usuário locais ou escritórios você implementará o ato de chamar planos de serviço no.</li></ul>|
@@ -74,6 +75,7 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 
 > [!TIP]
 > Abaixo é um exemplo de um sistema telefônico com lista planos de chamada de habilitação de site.
+> 
 > | **Escritório**                     | **Local**   | **Serviço de sistema telefônico** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Austrália      | Serviço PSTN herdado |
@@ -102,6 +104,7 @@ Para saber mais sobre os locais de emergência em relação à chamada planos, r
 -   [Termos e condições das Chamadas de Emergência](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida a granulação das informações de local de emergência a serem coletados para os locais do usuário ou de escritórios em escopo para a implementação de planos de chamada.</li></ul>|
@@ -109,14 +112,15 @@ Para saber mais sobre os locais de emergência em relação à chamada planos, r
 
 > [!TIP]
 > Você pode usar o modelo a seguir para documentar os detalhes dos números de telefone e detalhes do local de emergência.
->|Usuário |Endereço e o local de emergência |Número de telefone |
->|-----|-------------------------------|-------------|
->|Emily Braun |1034/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8901 |
->|Lidia Holloway |Reino Unido de 1065/32 Londres ponte rua, London, SE1, |+ 44 23 4567 89112 |
->|Louis Lahr |1023/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8921 |
->|Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França | TBA |
->|Rachelle Cormier |Quai 07N15D/39 du Président Roosevelt, Issy 92130-les-Moulineaux, França | TBA |
->|Isabell Potvin |Quai 07F05E/39 du Président Roosevelt, Issy 92130-les-Moulineaux, França | TBA |
+> 
+> |Usuário |Endereço e o local de emergência |Número de telefone |
+> |-----|-------------------------------|-------------|
+> |Emily Braun |1034/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8901 |
+> |Lidia Holloway |Reino Unido de 1065/32 Londres ponte rua, London, SE1, |+ 44 23 4567 89112 |
+> |Louis Lahr |1023/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França | TBA |
+> |Rachelle Cormier |Quai 07N15D/39 du Président Roosevelt, Issy 92130-les-Moulineaux, França | TBA |
+> |Isabell Potvin |Quai 07F05E/39 du Président Roosevelt, Issy 92130-les-Moulineaux, França | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -134,6 +138,7 @@ A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que,
 Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [correio de voz de PBX do Azure suporte para o Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você habilitará o sistema telefônico de caixa postal na sua implementação chamando planos.</li><li>Se usando o Exchange local e a implantação existente não atender seus requisitos para dar suporte a caixa postal de sistema telefônico, escolha uma das opções disponíveis (atualização e configuração de suporte de caixa postal do sistema telefônico, migrar para o Exchange Online ou alavancar o mecanismo de fallback descrito anteriormente).</li><li>Decida se vai habilitar ou desabilitar a transcrição do correio de voz e caixa postal mascaramento de obscenidades transcrição em toda a organização ou usuários específicos.</li></ul>|
@@ -141,14 +146,15 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 
 > [!TIP]
 > Detalhes de caixa postal de sistema de telefone para o sistema telefônico com a implementação de planos de chamada podem ser documentados como a seguir.
->|Usuário |Caixa de correio do Exchange |Habilitar a caixa postal? |Transcrição do correio de voz |Mascaramento de obscenidades de transcrição de caixa postal |
->|------------------|------------------|-------------------|----------|----------|
->|Emily Braun      |Online      |Sim |Habilitado |Habilitado |
->|Lidia Holloway   |Online      |Sim |Habilitado |Desabilitado |
->|Louis Lahr       |No local |Sim |Habilitado |Habilitado |
->|Marcel Beauchamp |No local |Sim |Desabilitado |N/D |
->|Rachelle Cormier |Online      |Sim |Desabilitado |N/D |
->|Isabell Potvin   |No local |Sim |Desabilitado |N/D |
+> 
+> |Usuário |Caixa de correio do Exchange |Habilitar a caixa postal? |Transcrição do correio de voz |Mascaramento de obscenidades de transcrição de caixa postal |
+> |------------------|------------------|-------------------|----------|----------|
+> |Emily Braun      |Online      |Sim |Habilitado |Habilitado |
+> |Lidia Holloway   |Online      |Sim |Habilitado |Desabilitado |
+> |Louis Lahr       |No local |Sim |Habilitado |Habilitado |
+> |Marcel Beauchamp |No local |Sim |Desabilitado |N/D |
+> |Rachelle Cormier |Online      |Sim |Desabilitado |N/D |
+> |Isabell Potvin   |No local |Sim |Desabilitado |N/D |
 
 <!--ENDOFSECTION-->
 
@@ -157,6 +163,7 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identificação de chamadas (ID de Chamadas). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada. Em alguns casos, existem requisitos de negócios legítimos para mascarar a identificação do chamador para proteger a identidade de chamadores usando o número de linha principal do office — esse é normalmente um número de serviço atendido pela configuração do atendedor automático — como ID do chamador ou bloquear a ID do chamador apresentação todo.
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se manipulação da ID do chamador é necessária para a implementação de planos de chamada.</li><li>Se aplicável, decidir os tipos de manipulação da ID do chamador (máscara com o número de serviço ou tornar anônimo) a serem implementadas.</li><li>Se aplicável, decida quais usuários exigem manipulação da ID do chamador e o tipo de manipulação de ID do chamador a ser atribuído a cada usuário.</li></ul>|
@@ -164,14 +171,15 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 
 > [!TIP]
 > Este é um exemplo de mascaramento de documentação de detalhes de ID do chamador.
->|Usuário  |Habilitar mascaramento de ID de Chamadas de saída  |Tipo de mascaramento de ID de Chamadas  |Permitir a substituição pelo usuário  | Habilitar mascaramento de ID de Chamadas de entrada  |
->|---------|---------|---------|---------|---------|
->|Emily Braun|Não|N/D|Sim|Não|
->|Lidia Holloway|Sim|Número de serviço (OrgAA, +44 20 7946 0000)|Não|Sim|
->|Louis Lahr|Não|N/D|Sim|Não|
->|Marcel Beauchamp|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
->|Rachelle Cormier|Sim|Manter o anonimato|Sim|Não|
->|Isabell Potvin|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
+> 
+> |Usuário  |Habilitar mascaramento de ID de Chamadas de saída  |Tipo de mascaramento de ID de Chamadas  |Permitir a substituição pelo usuário  | Habilitar mascaramento de ID de Chamadas de entrada  |
+> |---------|---------|---------|---------|---------|
+> |Emily Braun|Não|N/D|Sim|Não|
+> |Lidia Holloway|Sim|Número de serviço (OrgAA, +44 20 7946 0000)|Não|Sim|
+> |Louis Lahr|Não|N/D|Sim|Não|
+> |Marcel Beauchamp|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
+> |Rachelle Cormier|Sim|Manter o anonimato|Sim|Não|
+> |Isabell Potvin|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
 
 <!--ENDOFSECTION-->
 
@@ -211,6 +219,7 @@ Para saber mais sobre o sistema telefônico e chamar planos, revise os seguintes
 -   [Planos de Chamadas](https://products.office.com/skype-for-business/calling-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Se sua organização não tiver a licença de sistema telefônico necessária, decida se você vai adquirir a licença do sistema telefônico passando o backup de suas assinaturas do Office 365 existentes ou adquirindo o serviço de complemento do sistema telefônico.</li><li>Decida quais usuários exigem uma licença domésticas chamar planejar e que exigem uma licença nacionais e internacionais chamar planejar.</li><li>Decida se você precisará créditos de comunicações para sua implementação chamando planos.</li></ul>|
@@ -218,14 +227,15 @@ Para saber mais sobre o sistema telefônico e chamar planos, revise os seguintes
 
 > [!TIP]
 > Você pode usar o exemplo a seguir para documentar a atribuição de licença para o sistema telefônico com usuários de planos de chamada.
->|Usuário |Escritório |Licença do Office 365 |Chamar o plano |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Office 365 E5 |Plano de Chamadas Internacionais e Domésticas |
->|Lidia Holloway |32 London Bridge Street |Office 365 E5 |Plano de Chamadas Domésticas |
->|Louis Lahr |32 London Bridge Street |Office 365 E5 |Plano de Chamadas Domésticas |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, complemento de sistema telefônico |Plano de Chamadas Domésticas |
->|Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Plano de Chamadas Internacionais e Domésticas |
->|Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, complemento de sistema telefônico |Plano de Chamadas Domésticas |
+> 
+> |Usuário |Escritório |Licença do Office 365 |Chamar o plano |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Office 365 E5 |Plano de Chamadas Internacionais e Domésticas |
+> |Lidia Holloway |32 London Bridge Street |Office 365 E5 |Plano de Chamadas Domésticas |
+> |Louis Lahr |32 London Bridge Street |Office 365 E5 |Plano de Chamadas Domésticas |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Office 365 E3, complemento de sistema telefônico |Plano de Chamadas Domésticas |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Office 365 E5 |Plano de Chamadas Internacionais e Domésticas |
+> |Isabell Potvin |39 quai du Président Roosevelt |Office 365 E3, complemento de sistema telefônico |Plano de Chamadas Domésticas |
 
 <!--ENDOFSECTION-->
 
@@ -240,6 +250,7 @@ Para obter sua implementação chamando planos, você pode controlar o uso de cr
 Para saber mais sobre créditos de comunicações, revise [Cite Communications créditos?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você precisa créditos de comunicações para a implementação da conferência de áudio ou chamar planos.</li></ul>|
@@ -247,23 +258,21 @@ Para saber mais sobre créditos de comunicações, revise [Cite Communications c
 
 > [!TIP]
 > Você pode usar o exemplo a seguir para documentar a lista de atribuição de créditos de comunicações para chamar planos de usuários.
->|Usuário |Escritório |Chamar o plano |Créditos de Comunicação |
->|----|----|----|----|
->|Emily Braun |32 London Bridge Street |Plano de Chamadas Internacionais e Domésticas |Habilitado |
->|Lidia Holloway |32 London Bridge Street |Plano de Chamadas Domésticas |Desabilitado |
->|Louis Lahr |32 London Bridge Street |Plano de Chamadas Domésticas |Habilitado |
->|Marcel Beauchamp |39 quai du Président Roosevelt |Plano de Chamadas Domésticas |Desabilitado |
->|Rachelle Cormier |39 quai du Président Roosevelt |Plano de Chamadas Internacionais e Domésticas |Habilitado |
->|Isabell Potvin |39 quai du Président Roosevelt |Plano de Chamadas Domésticas |Desabilitado |
+> 
+> |Usuário |Escritório |Chamar o plano |Créditos de Comunicação |
+> |----|----|----|----|
+> |Emily Braun |32 London Bridge Street |Plano de Chamadas Internacionais e Domésticas |Habilitado |
+> |Lidia Holloway |32 London Bridge Street |Plano de Chamadas Domésticas |Desabilitado |
+> |Louis Lahr |32 London Bridge Street |Plano de Chamadas Domésticas |Habilitado |
+> |Marcel Beauchamp |39 quai du Président Roosevelt |Plano de Chamadas Domésticas |Desabilitado |
+> |Rachelle Cormier |39 quai du Président Roosevelt |Plano de Chamadas Internacionais e Domésticas |Habilitado |
+> |Isabell Potvin |39 quai du Président Roosevelt |Plano de Chamadas Domésticas |Desabilitado |
 
 <br>
-> [!TIP]
-> Sua créditos Communications planejamento números pode ser documentados como no exemplo a seguir.
->|         |         |
->|---------|---------|
->|Valor inicial|US$ 1.000|
->|Valor do gatilho|US$ 400|
->|Valor da recarga automática|TBA|
+&gt; [!TIP]
+&gt;Sua créditos Communications planejamento números pode ser documentados como no exemplo a seguir.
+&gt;|         |         | &gt;|---------|---------|
+&gt;| Quantidade inicial | US $ 1.000 | &gt;| Quantidade de gatilho | US $ 400 | &gt;| Quantidade de autocarga | TBA |
 
 <!--ENDOFSECTION-->
 
@@ -290,6 +299,7 @@ A contagem total dos números de telefone que você pode obter dependem do tipo 
 Para obter mais informações sobre a contagem total dos números de telefone que você pode obter, consulte [números de telefone de quantos você consegue?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>Escolher o tipo de números de telefone a ser adquirida da Microsoft.</li></ul>|
@@ -312,6 +322,7 @@ Portabilidade de número de telefone é um tópico complexo e requer planejament
 -   [Perguntas comuns sobre a transferência de números de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>Escolher o tipo de números de telefone a ser transferido para a Microsoft.</li></ul>|
@@ -343,6 +354,7 @@ O plano de discagem efetivas atribuído aos usuários é a combinação do plano
 Para obter mais informações sobre planos de discagem, consulte [quais são os planos de discagem?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 
 <br>
+
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização requer planos de discagem personalizada (requisitos de negócios, requisitos de adoção e assim por diante).</li><li>Se aplicável, decida o plano de discagem de locatário do escopo (global de locatário ou Locatário do usuário) para dar suporte a seus requisitos para planos de discagem personalizada.</li><li>Se aplicável, decida os planos de discagem de locatário que você vai criar para suportar os locais do usuário ou escritórios no escopo para a implementação de voz de nuvem.</li><li>Se aplicável, decida quais usuários exigem um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário.</li></ul>|
@@ -350,36 +362,24 @@ Para obter mais informações sobre planos de discagem, consulte [quais são os 
 
 > [!TIP]
 > Se ele for aplicável ao seu projeto, você pode usar o modelo a seguir para documentar as configurações de plano de discagem de locatário.
->|Nome do plano de discagem de locatário<br>_Descrição_  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
->|---------|---------|---------|
->|**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para o escritório de One Epping Road, North Ryde, NSW, Austrália_|^(7\d{3})$<br>+6125550$1<br>True|
->||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
->||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
->||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
->|**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) do office orientações, Cingapura_|^(8\d{3})$<br>+656888$1<br>True|
->||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
->||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
->|**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du Président Roosevelt do escritório, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
->||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
->||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> 
+> |Nome do plano de discagem de locatário<br>_Descrição_  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
+> |---------|---------|---------|
+> |**AU-NSW-NorthRyde-OER**<br>_One Epping Road North Ryde, NSW, AU Dial Plan_|**AU-NSW-NorthRyde-OER-Internal**<br>_Número interno (x7000 - x7999) para o escritório de One Epping Road, North Ryde, NSW, Austrália_|^(7\d{3})$<br>+6125550$1<br>True|
+> ||**AU-NSW-Local**<br>_Normalização do número local para NSW, Austrália_|^ ([2-9] \d{7}) $<br>+612$1<br>False|
+> ||**AU-TollFree**<br>_Normalização de número gratuito na Austrália_|^ (1 [38] \d{4,8}) \d*$<br>+61$1<br>False|
+> ||**AU-Service**<br>_Normalização de número de serviço na Austrália_|^ (000\|1 [0125] \d{1,8}) $<br>$1<br>False|
+> |**SG-Singapore-OMB**<br>_OMB Singapore, SG Dial Plan_|**SG-OMB-Internal**<br>_Número interno (x8000 â €"x 8999) do office orientações, Cingapura_|^(8\d{3})$<br>+656888$1<br>True|
+> ||**SG-TollFree**<br>_Normalização de número gratuito em Cingapura_|^(1?800\d{7}) \d*$<br>+65$1<br>False|
+> ||**SG-Service**<br>_Normalização de número de serviço em Cingapura_|^ (1\d{3,4}\|9\d{2}) $<br>$1<br>False|
+> |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 â €"x 7999) para 39 quai du Président Roosevelt do escritório, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
+> ||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-> [!TIP]
-> O modelo de exemplo a seguir pode ser utilizado para documentar atribuições de planos de discagem para dar suporte ao seu projeto:
->|Usuário  |Escritório  |Tipo do plano de discagem  |Nome do plano de discagem  |
->|---------|---------|---------|---------|
->|Adele Vance|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
->|Alex Wilber|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
->|Ben Walters|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
->|Christie Cline|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
->|Debra Berger|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
->|Lee Gu|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
->|Emily Braun|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Lidia Holloway|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Louis Lahr|32 London Bridge Street|Plano de discagem para serviço|N/A|
->|Marcel Beauchamp|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
->|Rachelle Cormier|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
->|Isabell Potvin|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
+&gt; [!TIP]
+&gt;O modelo de exemplo abaixo pode ser utilizado para atribuições de plano de discagem de documentos para dar suporte ao seu projeto: &gt;| Usuário | Office | Tipo de plano de discagem | Nome do plano de discagem | &gt;|---------|---------|---------|---------|
+&gt;| Adele Vance | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Alex Wilber | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Ben Walters | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Cristina cusar | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Debra Berger | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Lee Gu | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Ana Braun | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Lidia Holloway | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Louis Lahr | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR |
 
 <!--ENDOFSECTION-->
 

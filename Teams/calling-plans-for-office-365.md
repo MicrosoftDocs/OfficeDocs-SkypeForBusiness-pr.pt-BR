@@ -28,12 +28,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: d22dc0c3102549a8728131e20bf44ecdb0d7e8e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e1e5c362ba1074b48949fffe6b2c70579f377dda
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013535"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375064"
 ---
 # <a name="calling-plans-for-office-365"></a>Planos de Chamadas para o Office 365
 
@@ -55,7 +55,7 @@ Para obter informações detalhadas sobre os limites de uso e termos de uso, con
   
 ## <a name="how-to-buy-a-calling-plan"></a>Como comprar um plano de chamada
 
-1. **Primeiro você deve adquirir uma licença do complemento de **Sistema telefônico** **. Para fazer isso, [entrar no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e escolha **faturamento** > **Serviços de compra** > **inscrições de complemento** > **Compre agora**.
+1. <strong>Pela primeira vez, você deve adquirir um * * sistema telefônico</strong> <strong>de licença do complemento. Para fazer isso, [entrar no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e escolha * * faturamento</strong> > **Serviços de compra** > **inscrições de complemento** > **Compre agora**.
     
     ![Quando você adquire suas licenças do PBX de nuvem, você verá uma opção para adquirir uma plano de chamada de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   

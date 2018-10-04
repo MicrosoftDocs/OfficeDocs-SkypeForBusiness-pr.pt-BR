@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Resumo: Leia este tópico para saber mais sobre como planejar sua topologia de conferência no Skype Business Server.'
-ms.openlocfilehash: 3110588585291ccfb55b45750d336863fea7329b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006122"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375954"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planeje sua topologia de conferência Skype para Business Server
  
@@ -48,9 +48,9 @@ Skype para Business Server, o servidor que executa serviços de conferência é 
 
 Se você estiver implantando a conferência discada, será necessário considerar o seguinte:
   
--  Conferência discada requer um servidor de mediação para convertem a sinalização (e mídia em algumas configurações) entre Skype para Business Server e o gateway PSTN e um gateway PSTN para converter a sinalização e mídia entre o servidor de mediação e o gateway PSTN .
+- Conferência discada requer um servidor de mediação para convertem a sinalização (e mídia em algumas configurações) entre Skype para Business Server e o gateway PSTN e um gateway PSTN para converter a sinalização e mídia entre o servidor de mediação e o gateway PSTN .
     
-    Antes de configurar a conferência discada, é necessário implantar o Enterprise Voice ou um Servidor de Mediação e pelo menos um dos seguintes:
+   Antes de configurar a conferência discada, é necessário implantar o Enterprise Voice ou um Servidor de Mediação e pelo menos um dos seguintes:
     
   - Gateway PSTN
     

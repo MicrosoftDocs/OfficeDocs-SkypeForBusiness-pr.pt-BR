@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente que possui várias florestas em um modelo de floresta de usuário/recurso para fornecer Skype para a funcionalidade de negócios em um cenário híbrido.
-ms.openlocfilehash: c07dde4db2457821a34a5419a259bfe611c3db1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
+ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030725"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25375103"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar um ambiente de várias floresta para o híbrido Skype para negócios
  
@@ -64,7 +64,7 @@ O [atributo de vínculo de conta foi escolhido](https://azure.microsoft.com/en-u
   
 Não sincronize os UPNs entre as florestas. Durante os testes, descobrimos que precisávamos usar um único UPN para cada floresta de usuário, pois não é possível usar o mesmo UPN para várias florestas. Como resultado, chegamos a duas possibilidades: sincronizar ou não sincronizar o UPN. 
   
--  Se o UPN exclusivo de cada floresta de usuário não foi sincronizado para o objeto associado desabilitado na floresta de recursos, logon único (SSO) poderia ser quebrado pelo menos a tentativa de entrada inicial (supondo que o usuário selecionou a opção Salvar senha). Skype para o cliente de negócios, assumimos que os valores SIP/UPN são os mesmos. Como o endereço SIP nessa situação é user@company.com, mas o UPN do objeto habilitado na floresta do usuário é na verdade user@contoso.company.com, a tentativa de logon inicial falhará e o usuário será solicitado a inserir as credenciais. Ao entrar seu UPN correto/real, a solicitação de autenticação será concluída para os controladores de domínio na floresta do usuário e a conexão será bem-sucedida.
+- Se o UPN exclusivo de cada floresta de usuário não foi sincronizado para o objeto associado desabilitado na floresta de recursos, logon único (SSO) poderia ser quebrado pelo menos a tentativa de entrada inicial (supondo que o usuário selecionou a opção Salvar senha). Skype para o cliente de negócios, assumimos que os valores SIP/UPN são os mesmos. Como o endereço SIP nessa situação é user@company.com, mas o UPN do objeto habilitado na floresta do usuário é na verdade user@contoso.company.com, a tentativa de logon inicial falhará e o usuário será solicitado a inserir as credenciais. Ao entrar seu UPN correto/real, a solicitação de autenticação será concluída para os controladores de domínio na floresta do usuário e a conexão será bem-sucedida.
     
 - Se o UPN exclusivo de cada floresta de usuário foi sincronizado para o objeto associado desabilitado na floresta de recursos, a autenticação do AD FS falhará. A regra correspondente encontrará o UPN do objeto na floresta de recurso, que foi desabilitado e não pode ser utilizado para a autenticação. 
     
