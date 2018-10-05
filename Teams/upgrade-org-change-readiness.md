@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ed741eff5ff095107693a2c94bb8438c60e7c9f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2d86e54bcab57f33c1b0031184282a8fc5f49b8a
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374376"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429463"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -70,7 +70,7 @@ Use o seguinte para iniciar a conversação para realizar uma avaliação de pro
 
 
 > [!Tip]
-> Inscrever-se seus usuários iniciais para seu teste piloto além atuando como campeões ponto. Campeões ajudam Pregue nova tecnologia e liderar pelo exemplo para mostrar como agregar valor de seus colegas. Para saber mais sobre a criação de um programa de campeões formal, consulte o [guia de adoção do Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/Office_365_Adoption_Guide.pdf). Suas retardatários talvez seja necessário mais convencendo antes que eles adotarem uma nova tecnologia. Se mais de 20% da sua organização se enquadra no processo de Balde, dedique mais tempo comunicando-se de que o valor de mensagens e pelo fornecimento de treinamento de adaptados. Além disso, oferecer suporte a eles através da alteração, abrindo um loop de feedback para entender melhor e seus hesitations de endereços.
+> Inscrever-se seus usuários iniciais para seu teste piloto além atuando como campeões ponto. Campeões ajudam Pregue nova tecnologia e liderar pelo exemplo para mostrar como agregar valor de seus colegas. Para saber mais sobre a criação de um programa de campeões formal, consulte o [guia de adoção do Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Suas retardatários talvez seja necessário mais convencendo antes que eles adotarem uma nova tecnologia. Se mais de 20% da sua organização se enquadra no processo de Balde, dedique mais tempo comunicando-se de que o valor de mensagens e pelo fornecimento de treinamento de adaptados. Além disso, oferecer suporte a eles através da alteração, abrindo um loop de feedback para entender melhor e seus hesitations de endereços.
 
 #### <a name="what-percentage-of-users-fall-into-each-competency"></a>Que porcentagem dos usuários se enquadram em cada competência?
 

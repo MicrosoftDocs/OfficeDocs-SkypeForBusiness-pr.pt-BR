@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: b349e5dc617ffe9b5247fc38d86c339f3031ceb0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 857b48d0dc7a14243a1bc246cff9c7b06e1e0da6
+ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373790"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25429456"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
 
@@ -25,11 +25,11 @@ Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
 Sua implantação envolve a criação de conta, conforme descrito em [implantar sistemas de sala Skype v2](../../deploy/deploy-clients/room-systems-v2.md) e configurar um console de reunião, conforme descrito em [Configure um console do Skype sala sistemas v2](../../deploy/deploy-clients/console.md). Você também pode precisar fazer referência à [Skype para licenciamento de complemento de negócios](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
 
 > [!NOTE]
-> Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online.  <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013. 
+> Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online. <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013. 
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
-Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala por meio de Acessórios dependendo periféricos de áudio e vídeos. Periféricos de áudio e vídeos conectem-se a sistemas de sala Skype v2 por meio de uma conexão USB ou HDMI no dispositivo de encaixe. Também será necessário:
+Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala por meio de Acessórios dependendo periféricos de áudio e vídeos. O hardware listado neste artigo suporta os modos de reunião de equipes e Skype.  Periféricos de áudio e vídeos conectem-se a sistemas de sala Skype v2 por meio de uma conexão USB ou HDMI no dispositivo de encaixe. Também será necessário:
 
 - Um 32GB ou disco maior de USB, que você irá configurar como inicializável mídia de instalação do Windows para Windows 10 Enterprise. 
 
