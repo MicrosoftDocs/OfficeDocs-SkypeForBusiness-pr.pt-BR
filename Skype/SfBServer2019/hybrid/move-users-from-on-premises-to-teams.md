@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumo: Saiba como migrar configurações do usuário e movam usuários às equipes.'
-ms.openlocfilehash: 27e8ac831f7009a373b2ed28d484f00f9462ef12
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030781"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "25436562"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover os usuários no local para equipes
 
@@ -27,8 +27,6 @@ Lembre-se que depois de mover os usuários para equipes:
 - Eles podem ingressar em reuniões do Skype por meio do Skype para Business rich client (os usuários não são solicitados para cada vez que entrar) ou o aplicativo de reuniões do Skype (requer um download único e entrar). Quando um usuário clica em um Skype para o link da reunião de negócios dentro de equipes, a reunião será iniciado no aplicativo apropriado.
 
 - Em Mobile, os usuários poderão ingressar Skype existente para reuniões de negócios usando o app nativo somente.
-
-    ![Reunião Mobile Skype](../media/mobile-skype-meeting.png)
 
 > [!NOTE]
 > Depois que um usuário é movido para o modo de TeamsOnly, o usuário está hospedado no Skype para negócios Online.

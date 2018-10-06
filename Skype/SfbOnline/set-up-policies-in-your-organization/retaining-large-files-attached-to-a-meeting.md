@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Você pode anexar arquivos a uma Skype para reunião de negócios, que os participantes, em seguida, podem abrir e baixar. Arquivos anexados a Skype para reuniões de negócios são mantidos nas caixas de correio de qualquer participante cuja caixa de correio for colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em uma espera associada a um caso de eDiscovery de segurança do Office 365 &amp; Centro de conformidade. Este conteúdo é salvo pastas de itens recuperáveis dos participantes em suas caixas de correio.
-ms.openlocfilehash: 103fa8b9602c4db1c5399a97a94613ac8e7b8621
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: e72a5e5ffa47ef3e451f4f4830e8cd6c524d70a7
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429377"
+ms.locfileid: "25436632"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Retenção de arquivos grandes anexados a um Skype para reunião de negócios
 
@@ -31,8 +31,8 @@ Você pode anexar arquivos a uma Skype para reunião de negócios, que os partic
   
 Arquivos que são mantidos em caixas de correio em espera são indexados e, portanto, podem ser pesquisados ao executar uma pesquisa de conteúdo na segurança &amp; Centro de conformidade durante a pesquisa de caixa de correio de um participante. No entanto, os arquivos anexados que são maiores do que 30 MB são divididos em dois ou mais arquivos menores e salvos como arquivos compactados (. zip). O *conteúdo* desses arquivos menores não é indexado para pesquisa e não pode ser retornados em uma pesquisa de conteúdo. No entanto, os *metadados* desses arquivos (por exemplo, o nome do arquivo e o autor) é indexado para pesquisa e podem ser retornados em uma pesquisa de conteúdo.
   
-> [!NOTE]
-> Se a caixa de correio está cheia ou o administrador de locatário tiver configurado MaxSendSize para ser menor do que 30 MB, os dados de arquivo carregado não serão mantidos nisso. O padrão MaxSendSize é 150 MB, mas os administradores de Inquilino podem configurar MaxSendSize para ser tão pequeno quanto 1 MB. 
+> [!IMPORTANT]
+> As configurações MaxReceiveSize e MaxSendSize para uma caixa de correio do Exchange Online podem afetar a capacidade de reter arquivos grandes do Skype para reuniões de negócios. As configurações padrão de MaxReceiveSize e MaxSendSize são 36 MB e 35 MB, respectivamente. No entanto, essas configurações padrão são muito pequenas para reter qualquer arquivo de um Skype para reunião de negócios que for maior do que 30 MB. Na verdade, anexados arquivos maiores do que, 23 MB não será mantida. Isso ocorre porque o Exchange Online usa a codificação Base64 de anexos de mensagens e outros dados binários. Quando uma mensagem é codificada, seu tamanho será aumentado em aproximadamente 33%. Portanto, para garantir que os arquivos grandes do Skype para reuniões de negócios são mantidos, recomendamos que você aumente o valor para MaxReceiveSize e MaxSendSize para 39 MB (que é de aproximadamente 33% maior do que o limite de tamanho de 30 MB foi explicado anteriormente) para usuários que forem colocados em espera. Caso contrário, um grande arquivo anexado a uma Skype para reunião de negócios pode não ser retido. Para obter mais informações sobre como usar o **MaxReceiveSize de Set-Mailbox** e **Set-Mailbox-MaxSendSize** comandos no PowerShell do Exchange Online, consulte [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Set-Mailbox).
   
 Caixas de correio que não estiverem em espera não terão qualquer dados da reunião salvos. Por exemplo, em uma reunião de 3 pessoas em que as caixas de correio de dois participantes estão marcadas para retenção de, os dados de reunião são salvos às caixas de correio desses dois participantes, mas não à caixa de correio do terceiro participante, cuja caixa de correio não está em espera.
   
