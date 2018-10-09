@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Leia este tópico para saber como migrar dispositivos de sistema do Lync sala para usar o software do sistema de sala Skype v2.
-ms.openlocfilehash: d97083b40c3a2baf926ecd61a5c9792ded6eddd5
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
+ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450515"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25450645"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrar dispositivos de sistema de sala do Lync (LRS) para o sistema de sala Skype v2 
 Dispositivos de sistema de sala do Lync (LRS) com o software do sistema de sala do Skype versão 1 (v1 SRS) alcançará o [fim do suporte em 9 de outubro de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Isso significa que o software do Skype sala sistemas v1 não obterá quaisquer atualizações de produto ou correções após essa data. Clientes com dispositivos de sistema do Lync sala usando o software do sistema de sala Skype v1 recomenda-se para atualizar seus dispositivos para o sistema de sala Skype v2 (versão 2 SRS).
@@ -26,7 +26,7 @@ Seus dispositivos existentes **podem** continuar a funciona depois que o suporte
 
 ## <a name="which-devices-are-affected"></a>Quais dispositivos são afetados?
 Aqui está uma lista dos dispositivos que são afetados por essa alteração:
-- [Sistemas de sala inteligentes](https://smartkapp.com/products/smart-room-systems)
+- [Sistemas de sala inteligentes](https://support.smarttech.com/en/hardware/room-systems-skype)
 - [Crestron RL2](https://www.crestron.com/en-US/Products/Featured-Solutions/Crestron-RL-2)
 - [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 - Crestron RL
