@@ -16,7 +16,7 @@
 ## [Especificações para equipes e limites](limits-specifications-teams.md)
 ## [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-office-365-groups.md)
 ## [Obter ferramentas para dar suporte na implantação do Teams](rollout-tools.md)
-## [Planejar o gerenciamento do ciclo de equipes](plan-teams-lifecycle.md)
+## [Planejar o gerenciamento de ciclo de vida no Teams](plan-teams-lifecycle.md)
 ## [Plano de governança em equipes](plan-teams-governance.md)
 ## [Planejar Microsoft 365 governamental - implantações GCC](plan-for-government-gcc.md)
 ## [Criar a estratégia de gerenciamento de alteração](change-management-strategy.md)
@@ -37,6 +37,7 @@
 ### [Implantar equipes para o Hub de superfície](teams-surface-hub.md)
 ## [Execute as equipes em um ambiente virtual](virtual-environment-teams.md)
 ## [Permita que as equipes em sua organização](Office-365-set-up.md)
+## [Usar Microsoft Teams no escopo de pesquisa de diretório](teams-scoped-directory-search.md)
 ## [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
 ### [Gerenciar equipes durante a transição para o novo Teams Microsoft & Skype para Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gerenciar equipes no Skype para Business Admin Center & equipes da Microsoft](manage-teams-in-modern-portal.md)
@@ -221,6 +222,7 @@
 ### [Usar o T-Bot para ajudar os usuários com o Teams](t-bot.md)
 ### [Usar relatórios de atividade para equipes](teams-activity-reports.md)
 ### [Usar conversão de mensagem embutida em equipes](inline-message-translation-teams.md)
+
 ## Cloud voice
 ### [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 #### [Argentina](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
