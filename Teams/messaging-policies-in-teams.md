@@ -16,29 +16,39 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como eles podem ser usados para controlar as equipes de mensagens de chat.
-ms.openlocfilehash: e0abb9297a6950e2e35cb50d2ae7befa3174da9d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7b9cb8a6a5c30806d44f5056e4dee0de79823841
+ms.sourcegitcommit: c6b62a64d198fe18ae53cf849d125c5143053456
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013509"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25453790"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>O que são mensagens políticas em equipes?
 
-Políticas de mensagens são usadas para controlar quais chat e os recursos de mensagens de canal estão disponíveis aos usuários em equipes. Você pode usar a política padrão que é criada ou crie uma ou mais políticas de mensagens personalizadas para pessoas da sua organização. Depois de criar uma política, você vai atribuí-lo um usuário ou grupos de usuários em sua organização.
+Políticas de mensagens são usadas para controlar quais recursos de mensagens de canal e de bate-papo estão disponíveis para usuários no Microsoft Teams. Você pode usar a política padrão que é criada ou crie uma ou mais políticas de mensagens personalizadas para pessoas da sua organização. Depois de criar uma política, você vai atribuí-lo um usuário ou grupos de usuários em sua organização.
+
+As políticas podem ser facilmente gerenciadas no Centro de administração de equipes (http://admin.teams.microsoft.com) fazendo logon com credenciais de administrador e clicando em **Políticas de mensagens** no painel de navegação à esquerda. Para editar a política padrão existente para a sua organização, selecione a linha de **Global (padrão de toda a organização)** e clique em **Editar**. Para criar uma nova política de mensagens, clique em **nova diretiva**.
+
+![Políticas de mensagens em equipes](media/messaging-policies.png)
+
+As configurações disponíveis para a política estão descritas abaixo: 
 
 - **Os proprietários podem excluir as mensagens enviadas**  Use esta configuração para permitir que os proprietários excluir mensagens que os usuários enviam em bate-papo.
 - **Os usuários podem excluir as mensagens enviadas** Use esta configuração para permitir que usuários excluir mensagens enviadas por eles no bate-papo.
-- **Os usuários podem editar as mensagens enviadas** Use esta configuração para permitir aos usuários editar suas mensagens enviadas por eles no bate-papo.
+- **Os usuários podem editar as mensagens enviadas** Use esta configuração para permitir aos usuários editar as mensagens enviadas por eles no bate-papo.
+- **Confirmações de leitura** Use esta configuração para especificar se a notificação de leitura estão usuário controlados, habilitado para todas as pessoas ou desabilitado.
 - **Bate-papo**  Ative esta configuração se quiser que os usuários em sua organização possam usar o aplicativo de equipes para conversar com outras pessoas.
 - **Uso Giphys em conversas**  Se você ativar isso, os usuários podem incluir Giphys em conversas de bate-papo com outras pessoas. Giphy é um banco de dados online e o mecanismo de pesquisa que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy é atribuída uma classificação de conteúdo.
 - **Classificação de conteúdo Giphy** 
-    - **Sem restrição** Isso significa que os usuários poderão inserir Giphys todos no bate-papos.
-    - **Moderada**  Isso significa que os usuários serão capaz inserir somente 
-    - **Estrito**
+    - **Sem restrição** Isso significa que os usuários poderão inserir Giphys todos no bate-papos independentemente a classificação de conteúdo.
+    - **Moderada**  Isso significa que os usuários serão capazes de inserir Giphys em bate-papos, mas serão restritos relativamente de conteúdo para adultos.
+    - **Estrito**  Isso significa que os usuários serão capazes de inserir Giphys em bate-papos, mas serão restritos estritamente de conteúdo para adultos.
 - **Uso Memes em conversas** Se você ativar isso, os usuários podem incluir Memes em conversas de bate-papo com outras pessoas. 
 - **Adesivos de uso em conversas** Se você ativar isso, os usuários podem incluir adesivos em conversas de bate-papo com outras pessoas.
+- **Visualizações de URL permitir** Use esta configuração para ativar automática URL pré-visualizar ativada ou desativada nas mensagens.
+- **Permitir que os usuários para traduzir mensagens** Ative esta configuração para permitir que os usuários automaticamente traduzir mensagens de equipes para o idioma especificado por suas configurações de idioma pessoal para o Office 365.
 
+Se você tiver criado uma política personalizada de mensagens, ele só será ativo para um usuário se essa diretiva é atribuída a um usuário.  Para atribuir uma política personalizada a um usuário no Centro de administração de equipes, clique em **usuários** no painel de navegação esquerdo, selecione o usuário que você deseja atribuir a política e escolha **Editar** em **Políticas atribuídas**.
 
 ### <a name="related-topics"></a>Tópicos relacionados
 [Políticas de reunião em equipes](meeting-policies-in-teams.md)
