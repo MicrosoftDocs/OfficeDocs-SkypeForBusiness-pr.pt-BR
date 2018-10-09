@@ -9,11 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: O cmdlet Enter-CcUpdate prepara o servidor host do Skype for Business Cloud Connector Edition para o processo de atualização colocando-o no modo de manutenção. O aparelho isdrained — ou seja, todas as chamadas existentes serão concluídas, mas novas chamadas são rejeitadas.
-ms.openlocfilehash: ed9f3f614829cd5b6bc2cd5499c6889258d67531
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f9b789bbd76bd3405617dc170af0695f9cbe94ed
+ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450508"
 ---
 # <a name="enter-ccupdate"></a>Insira-CcUpdate
  
@@ -41,7 +42,7 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>Descrição detalhada
 <a name="DetailedDescription"> </a>
 
-O cmdlet Enter-CcUpdate garantirá que todas as chamadas em execução em um aparelho de conector de nuvem concluirá, mas o aparelho rejeitará quaisquer novas chamadas são transferidas para outros aparelhos de produção. Esse cmdlet permite que você atualize um dispositivo sem afetar as chamadas dos usuários finais. Você deve garantir que os dispositivos de produção remanescentes tenham capacidade suficiente para lidar com as chamadas do dispositivo que você está preparando para atualizar.
+O cmdlet Enter-CcUpdate imediatamente irá parar todos os serviços que terminem todas as chamadas em andamento e o aparelho rejeitará quaisquer novas chamadas são transferidas para outros aparelhos de produção. Você deve garantir que os dispositivos de produção remanescentes tenham capacidade suficiente para lidar com as chamadas do dispositivo que você está preparando para atualizar.
   
 O modo de manutenção será útil se o seu dispositivo tiver a atualização automática habilitada, por exemplo, e a Microsoft lançar um hotfix crítico. O modo de manutenção também será útil se você decidir desativar as atualizações automáticas, mas executar atualizações manuais de forma consistente.
   

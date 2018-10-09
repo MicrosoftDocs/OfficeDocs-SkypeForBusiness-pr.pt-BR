@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd62d8ea24de4ce790609b710b78c7d6977821d7
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 286b29be298b5d12919dc3193602ad6331ef1a21
+ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436692"
+ms.lasthandoff: 10/08/2018
+ms.locfileid: "25450444"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações for Microsoft Teams
 =============================================
@@ -45,7 +45,7 @@ Este artigo descreve algumas dos limites, especificações e outros requisitos q
 |Recurso     | Limite máximo |
 |------------|---------------|
 |Número de pessoas em uma reunião  | 250    |
-|Número de pessoas em um bate-papo privado  | 50    |
+|Número de pessoas em um bate-papo privado  | 20    |
 
 <a name="storage"></a>Armazenamento
 -------
