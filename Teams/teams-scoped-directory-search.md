@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b62b3e27cf0aa10ea6719cb1f27980ee83f4421
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: 3e9cddc12a5ef4de6dfb42a714b83e29b6fb4f5f
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25455960"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456887"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar Microsoft Teams no escopo de pesquisa de diretório
 
@@ -28,7 +28,7 @@ A pesquisa de diretório com escopo Teams Microsoft permite que as organizaçõe
 
 Teams Microsoft permite que as organizações fornecem exibições personalizadas do diretório para seus usuários. Microsoft Teams usa [políticas de catálogo de endereços do Exchange](https://docs.microsoft.com/en-us/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para oferecer suporte a esses modos de exibição personalizados. Depois que as diretivas estão habilitadas, os resultados retornados pelo procura por outros usuários (por exemplo, para iniciar um chat ou adicionar membros a uma equipe) terá o escopo de acordo com as diretivas configuradas. Os usuários não poderão pesquisar ou descobrir e ingressar novas equipes fora essas políticas. 
 
-## <a name="when-should-you-use-scroped-directory-searches"></a>Quando você deve usar scroped pesquisas de diretório?
+## <a name="when-should-you-use-scoped-directory-searches"></a>Quando você deve usar as pesquisas de diretório com escopo?
 
 Cenários que se beneficiam de pesquisas de diretório com escopo são semelhantes aos cenários de política de catálogo de endereços. Por exemplo, convém usar a pesquisa de diretório com escopo nas seguintes situações:
 
