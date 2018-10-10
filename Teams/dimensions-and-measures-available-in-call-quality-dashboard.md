@@ -3,7 +3,7 @@ title: Dimensões e mensurações disponíveis no Painel de Qualidade de Chamada
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: siunies
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -23,16 +23,19 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: dec3548ab1f34e70d6e30aca2397791cfaa16674
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8708151be58e386650458ed882a24c1f6e4e628a
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375018"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456903"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas
 
 O painel de qualidade de chamada (CQD) for Microsoft Teams e Skype para Business Online permite que você adquira ideias sobre a qualidade das chamadas feitas usando o Microsoft Teams e Skype para serviços corporativos. Este tópico fornece informações detalhadas sobre as dimensões e medidas expostas pelo CQD. Para saber mais sobre CQD e como ativá-la, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online](turning-on-and-using-call-quality-dashboard.md).
+
+> [!NOTE]
+> Tratamento de largura de banda de equipes aprimorou Skype para Business Online: para obter uma qualidade alta chamando ou experiência (com áudio, vídeo e compartilhamento) de reunião, equipes requer apenas 1.2 Mbps. Ele também pode ser dimensionado ainda mais para super alta qualidade se não houver largura de banda suficiente disponível. Quando uma solicitação de equipes encontra uma condição de baixa largura de banda, as equipes podem rapidamente reajustar o uso de largura de banda para adaptar-se a largura de banda disponível.
 
 ## <a name="first-and-second-endpoint-classification"></a>Classificação de primeiro e segundo ponto de extremidade
 

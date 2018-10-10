@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40250062b5439726fa1a0d7f886ba99e71a2060a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 919c598b02724de2f21fce52cb5f362c8faea34b
+ms.sourcegitcommit: dba62f1cb6058e73a1a4c75f3473119a04a1b9e3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014503"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "25456863"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 =================================================
@@ -36,7 +36,7 @@ Isso impacta a rede em dois níveis: o tráfego fluirá entre os clientes Micros
 > [!IMPORTANT]
 > No momento, as reuniões têm suporte em dispositivos móveis iOS e Android, mas não no Windows Phone.
 
-Para ter uma experiência ideal com mídia em tempo real no Microsoft Teams, é necessário atender aos requisitos de rede do Office 365. Para mais informações, consulte [Qualidade de mídia e desempenho de conectividade de rede para o Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Para ter uma experiência ideal com mídia em tempo real no Microsoft Teams, é necessário atender aos requisitos de rede do Office 365. Para obter mais informações, consulte [Qualidade de mídia e desempenho de conectividade de rede para o Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Os dois segmentos de rede a ser definidos (Cliente para o Microsoft Edge e Edge do cliente para o Microsoft Edge), considere os seguintes requisitos.
 
@@ -59,6 +59,9 @@ Para testar os dois segmentos de rede, use a [ferramenta de avaliação de rede]
 ----------
 
 Os cálculos de largura de banda do Microsoft Teams são complexos e, para ajudar, foi criada uma calculadora. Para acessar a calculadora, vá para [Planejador de Rede no MyAdvisor](https://aka.ms/bwcalc/).
+
+> [!NOTE]
+> Tratamento de largura de banda de equipes aprimorou Skype para Business Online: para obter uma qualidade alta chamando ou experiência (com áudio, vídeo e compartilhamento) de reunião, equipes requer apenas 1.2 Mbps. Ele também pode ser dimensionado ainda mais para super alta qualidade se não houver largura de banda suficiente disponível. Quando uma solicitação de equipes encontra uma condição de baixa largura de banda, as equipes podem rapidamente reajustar o uso de largura de banda para adaptar-se a largura de banda disponível.
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
