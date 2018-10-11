@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Leia este tópico para saber como migrar dispositivos de sistema do Lync sala para usar o software do sistema de sala Skype v2.
-ms.openlocfilehash: b6c11e101ab3984f934dab1a9e06d80df3ce5e4f
-ms.sourcegitcommit: 80e1983fd631b8ad63c902375f1128faa957e374
+ms.openlocfilehash: 790872ceaf919d4b58bdbd753dc32e1303b2da63
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25450645"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495587"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrar dispositivos de sistema de sala do Lync (LRS) para o sistema de sala Skype v2 
-Dispositivos de sistema de sala do Lync (LRS) com o software do sistema de sala do Skype versão 1 (v1 SRS) alcançará o [fim do suporte em 9 de outubro de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Isso significa que o software do Skype sala sistemas v1 não obterá quaisquer atualizações de produto ou correções após essa data. Clientes com dispositivos de sistema do Lync sala usando o software do sistema de sala Skype v1 recomenda-se para atualizar seus dispositivos para o sistema de sala Skype v2 (versão 2 SRS).
+Dispositivos de sistema de sala do Lync (LRS) com o software do sistema de sala do Skype versão 1 (v1 SRS) atingiu o [fim do suporte em 9 de outubro de 2018](https://support.microsoft.com/en-us/help/4043450/products-reaching-end-of-support-for-2018). Isso significa que o software do Skype sala sistemas v1 não são mais receberá quaisquer atualizações de produto ou correções mais. Clientes com dispositivos de sistema do Lync sala usando o software do sistema de sala Skype v1 recomenda-se para atualizar seus dispositivos para o sistema de sala Skype v2 (versão 2 SRS).
 
 Software Skype sala sistema versão 2 (v2 SRS) funciona com Microsoft Teams além do Skype para Business Server e Online services para reuniões e chamadas em todos os dispositivos do SRS v2 suportados.
 
-Seus dispositivos existentes **podem** continuar a funciona depois que o suporte a fim de software do sistema de sala Skype v1. Este software eventualmente atingirá um bug de software que precisa Microsoft para liberar uma correção, ou pode ter um caso em que um protocolo de comunicação existente usada pelas alterações de software do sistema de sala Skype v1 ou não é mais suportado. Uma dessas alterações conhecida é preterir de TLS 1.0 / 1.1 no Microsoft Office 365. Você pode aprender mais sobre [Preparando para TLS 1.0/1.1 preterir](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608).  
+Seus dispositivos existentes **podem** continuar a funciona depois que o suporte a fim de software do sistema de sala Skype v1. No entanto, se esse software acessa um bug de software que precisa Microsoft para liberar uma correção, ela não será suportada. Software V1 de sistema do Skype sala também não será atualizado para oferecer suporte a TLS 1.2. Você pode aprender mais sobre [Preparando para TLS 1.0/1.1 preterir](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Skype sala sistema V2 está adicionando suporte a TLS 1.2 e continuarão a funcionar sem nenhum impacto deste preterir.   
 
 ## <a name="which-devices-are-affected"></a>Quais dispositivos são afetados?
 Aqui está uma lista dos dispositivos que são afetados por essa alteração:
@@ -43,7 +43,7 @@ Os clientes existentes do Crestron RL2 (também conhecido como Crestron RL200) p
 
 
 ### <a name="smart-room-systems-upgrade"></a>Atualização de sistemas de sala inteligente 
-Para clientes inteligentes LRS, além de Crestron programa de trade-in de hardware, o Microsoft e inteligente também estão trabalhando em fornecendo uma solução para atualizar para o sistema de sala Skype v2. Essa atualização será oferecida pelo inteligente para todos os clientes inteligentes LRS existentes. Para obter mais detalhes deste programa serão fornecidas nesta página em outubro de 2018. Certifique-se procurar atualizações.
+Para clientes inteligentes LRS, além de Crestron programa de trade-in de hardware, o Microsoft e inteligente também estão trabalhando em fornecendo uma solução para atualizar para o sistema de sala Skype v2. Essa atualização será fornecida pelo Inc de tecnologias inteligentes. Consulte mais informações sobre esta [aqui](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
 <!--  
 For later 

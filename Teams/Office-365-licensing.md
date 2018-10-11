@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 272dd768dfa56871db8f0241ed6c046b350717d4
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: dbdbaf0241da85489173d7eda0c36aac90c935e9
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016849"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495525"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licença do Office 365 para o Microsoft Teams
 ========================================
@@ -36,12 +36,15 @@ As seguintes assinaturas do Office 365 habilitam usuários para equipes.
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
 |     |Office 365 Enterprise E4 (desativado)         |Office 365 Education E3 (desativado)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
-|     |Office 365 Enterprise F1 |    |     |
+|     |Office 365 Enterprise F1 |    |     | 
 
 Para obter mais informações sobre a obtenção de equipes, confira [como obter acesso ao Microsoft Teams?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
 > O Microsoft Teams também está disponível para organizações sem fins lucrativos. As equipes começará a aplicação conosco governamentais nuvem da comunidade (GCC) em 17 de julho e esteja disponível para todos os clientes qualificados no final de agosto de 2018. Estamos trabalhando para trazer Teams da Microsoft para as outras nuvens de governamentais de US (GCC alta e DoD) em breve. Leitura mais no blog Microsoft Teams [aqui](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
+
+> [!NOTE]
+> Iniciando 1 de outubro de 2018, novos clientes do Office 365 com 500 estações ou menos serão onboarded às equipes e não terão acesso ao Skype para negócios Online. Inquilinos que já estão usando Skype de negócios Online poderão continuar a fazer afirmativo (incluindo o provisionamento de novos usuários) até que sejam concluídas sua transição para equipes. Para saber mais, consulte [As equipes da Microsoft agora o cliente principal para reuniões e chamar no Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
         
 Em termos de funcionalidades de principais de equipes, não existem diferenças entre as assinaturas do Office 365. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md). Para obter uma lista detalhada dos recursos disponíveis em cada assinatura, consulte a [Descrição do serviço de plataforma do Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 

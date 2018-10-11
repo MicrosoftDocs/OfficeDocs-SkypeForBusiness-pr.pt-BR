@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ffcab1a80f17bc4adc929f7e5efe63ef5ab6918
-ms.sourcegitcommit: c4254b6119bbce274f895e20d30cb3c513d5a2de
+ms.openlocfilehash: dd12b4e5f054d3410f1e62e7ed09476ffac6754b
+ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454023"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25495602"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios
 
@@ -66,7 +66,7 @@ Os modos planejados estão listados abaixo. SfBWithTeamsCollab e SfBWithTeamsCol
 
 |Modo|Comportamento de roteamento|Agendamento de reuniões|Experiência do cliente|
 |---|---|---|---|
-|Ilhas|Faz uma chamada de entrada VOIP e chats land no mesmo cliente como originador, exceto se o destinatário é federado e Ilhas modo, caso em que eles land no SfB.<sup>1</sup>|Ambos|Os usuários finais podem iniciar chamadas e chats de qualquer cliente e pode agendar reuniões de qualquer cliente.|
+|Ilhas|Entrada VOIP chama e chats land no mesmo cliente como originador, exceto se o destinatário é federado e no modo de ilhas, caso em que eles land no SfB.<sup>1</sup>|Ambos|Os usuários finais podem iniciar chamadas e chats de qualquer cliente e pode agendar reuniões de qualquer cliente.|
 |SfBOnly|Bate-papos e chamadas de entrada são roteadas para Skype para negócios|Skype para negócios apenas|Os usuários finais podem iniciar chamadas e chats do Skype para negócios e apenas agendar Skype para reuniões de negócios. (AINDA NÃO IMPOSTA)|
 |SfBWithTeamsCollab<sup>2</sup>|Bate-papos e chamadas de entrada são roteadas para Skype para negócios|Skype para negócios apenas|Os usuários finais podem iniciar chamadas e chats do Skype para negócios e apenas agendar Skype para reuniões de negócios. Eles também podem usar os canais em equipes. (AINDA NÃO IMPOSTA)|
 |SfBWithTeamsCollabAndMeetings<sup>2</sup>|Bate-papos e chamadas de entrada são roteadas para Skype para negócios|Somente as equipes|Os usuários finais podem iniciar chamadas e bate-papos do Skype para negócios somente e somente agendem reuniões de equipes. Eles também podem usar os canais em equipes. (AINDA NÃO IMPOSTA)|
@@ -147,7 +147,7 @@ Use a seguinte sintaxe do cmdlet, onde $policy é um dos valores acima da identi
 
 A federação de equipes para outro usuário usando o Skype para negócios requer o usuário equipes hospedados online Skype para negócios. Eventualmente, as equipes que os usuários hospedados no Skype para negócios local será capazes de estabelecer uma federação com outros usuários de equipes.
 
-TeamsUpgradePolicy rege o roteamento de chamadas e chats federados de entrada. Comportamento de roteamento federado está iguais do mesmo inquilino scnearios, exceto no modo de ilhas.  Quando os destinatários estão no modo de ilhas: 
+TeamsUpgradePolicy rege o roteamento de chamadas e chats federados de entrada. Comportamento de roteamento federado é iguais aos cenários de mesmo inquilino, *exceto no modo de ilhas*.  Quando os destinatários estão no modo de ilhas: 
 - Bate-papos e chamadas iniciadas a partir land equipes em SfB se o destinatário está em um *locatário federado*.
 - Bate-papos e chamadas iniciadas a partir land equipes em equipes se o destinatário está no *mesmo inquilino*.
 - Bate-papos e chamadas iniciadas a partir SfB sempre land em SfB.
