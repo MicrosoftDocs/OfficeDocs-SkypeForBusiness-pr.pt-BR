@@ -460,6 +460,7 @@
 #### [O que são locais e endereços de emergência e encaminhamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [O que é validação de endereço?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [O que são planos de discagem?](what-are-dial-plans.md)
+#### [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 ### Sistema de Telefonia
 #### [O que é o Sistema de Telefonia no Office 365?](what-is-phone-system-in-office-365.md)
 #### [Configuração do Sistema de Telefonia na sua organização](setting-up-your-phone-system.md)
