@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f86cf706d7bf507fb77fac7becf9bd48168eac6
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 1882e18bdf746acc6b6991e4c574ca28cb3176a6
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25348204"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502322"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe de toda a organização no Microsoft Teams
 
@@ -38,7 +38,7 @@ Quando uma equipe de toda a organização é criada, todos os administradores gl
 ## <a name="best-practices"></a>Práticas recomendadas
 Para obter o máximo da sua equipe de toda a organização, é recomendável que os proprietários de equipe faça o seguinte.
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que somente os proprietários de equipe postar no canal gerais
-Reduza o ruído de canal estabelecendo somente equipe postagem de proprietários no canal geral. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro** > selecione **somente proprietários podem postar**.
+Reduza o ruído de canal estabelecendo somente equipe postagem de proprietários no canal geral. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro** > selecione **somente proprietários podem postar mensagens**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar @team e @ menções [nome da equipe]
  Reduza @mentions para mantê-los da sobrecarga de toda a organização. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **@mentions** > desativar **Mostrar membros a opção de @team ou @[nome da equipe]**. 
 ### <a name="automatically-favorite-important-channels"></a>Canais de importantes automaticamente Favoritos

@@ -15,22 +15,24 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1dbfddf2f9cfba12943b8b2e18326de1877e1de3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25018819"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502330"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Gerenciar equipes na Microsoft Teams & Skype para Business Admin Center
 ==========================================
+
+[!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Visão geral
 
 Como um administrador de TI, você pode precisar exibir ou atualizar as equipes que sua organização tiver configurado para colaboração, ou você podem precisar efetuar as ações de remediação como atribuir proprietários para equipes sem proprietários. Você pode gerenciar as equipes usadas na sua organização por meio de tanto o módulo de PowerShell de equipes da Microsoft e o Microsoft Teams & Skype para Business Admin Center. Para os recursos de administração completos usando esses dois conjuntos de ferramentas, verifique se você recebem uma das seguintes funções:
 
 - Administrador global
-- Administrador de serviço de equipes
+- Administrador de Serviço de Equipes
 
 Você pode aprender mais sobre as funções de administrador no Microsoft Teams [aqui](using-admin-roles.md), e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
 

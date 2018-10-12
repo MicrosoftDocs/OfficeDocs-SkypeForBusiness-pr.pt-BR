@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: bc39b239128ffacea5c4d58d1055f57d5088fb11
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d669e6a64efe3d31b7259a3c7f7eabd447d95a65
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372481"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502362"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -144,7 +144,7 @@ Depois de conferir se os serviços do Skype for Business ou do Microsoft Teams e
 
 ### <a name="audio-conferencing"></a>Audioconferência
 
-Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. O Skype for Business e o Microsoft Teams incluem o recurso de Audioconferência exatamente para essa situação! As pessoas podem ligar para reuniões usando o telefone, em vez de usar os aplicativos do Skype for Business e do Microsoft Teams em um dispositivo móvel ou um computador. Quando você decidir usar a Audioconferência em sua organização, será necessário comprar uma licença de **Audioconferência** para cada usuário da organização que for agendar/hospedar reuniões com áudio.
+Às vezes, as pessoas em sua organização precisarão usar um telefone para ligar para uma reunião. O Skype for Business e o Microsoft Teams incluem o recurso de Audioconferência exatamente para essa situação! As pessoas podem ligar para reuniões usando o telefone, em vez de usar os aplicativos do Skype for Business e do Microsoft Teams em um dispositivo móvel ou um computador. Depois que você tiver decidido que você deseja serviços de audioconferência para sua organização, você precisará comprar uma licença de **Serviços de audioconferência** para cada pessoa em sua organização que será/host de agendar uma reunião de áudio.
   
 Com a Audioconferência, há números de telefone de chamada tarifada e gratuita que podem ser usados para discar e entrar em reuniões. Os números de chamada tarifada dos países ou regiões a seguir são atribuídos automaticamente como números de audioconferência compartilhados para as organizações ao ser habilitados para a Audioconferência. É possível atribuir números exclusivos de chamada tarifada e gratuita para sua organização a partir de outras cidades.
 

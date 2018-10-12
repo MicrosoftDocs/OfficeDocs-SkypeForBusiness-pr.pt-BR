@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como escolher uma para sua organização e que tipo de discagem chamando planos (planos de discagem PSTN chamar) estão disponíveis com o Office 365.  '
-ms.openlocfilehash: d9503655c6f836f0dc50d63133acddd6bc7474b4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371814"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502354"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -37,7 +37,7 @@ Um plano de discagem é um conjunto nomeado de regras de normalização que conv
 
 Um plano de discagem consiste em uma ou mais regras de normalização que definem como os números de telefone expressados em vários formatos são convertidos em um formato alternativo. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente nos planos de discagem diferentes, portanto, dependendo de qual plano de discagem for atribuído a um usuário específico, o mesmo discado número pode ser traduzido e roteado de forma diferente.
 
-Consulte [criar e gerenciar planos de discagem](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para criar e gerenciar planos de discagem de locatário.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar planos de discagem de locatário.
 
 ## <a name="tenant-dial-plan-scope"></a>Escopo do plano de discagem do locatário
 
@@ -59,7 +59,7 @@ A seguir são apresentados planos de discagem efetivos possíveis:
 
  **Usuário de Inquilino - país do serviço** Se um plano de discagem do usuário de Inquilino é definido e atribuído a um usuário, o usuário provisionado receberá um plano de discagem efetivo consistindo o plano de discagem do usuário de Inquilino mesclado e o plano de discagem do país de serviço associado ao seu local de uso do Office 365.
 
-Consulte [criar e gerenciar planos de discagem](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para criar seu locatário planos de discagem.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar seu locatário planos de discagem.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planejamento de planos de discagem de locatário
 
@@ -97,7 +97,7 @@ Recomendamos que você digite o nome comum e reconhecível da localização geog
 > [!NOTE]
 > [!OBSERVAçãO] Se você especificar um prefixo de acesso externo, não será necessário criar uma regra de normalização adicional para acomodar o prefixo. 
 
-Consulte [criar e gerenciar planos de discagem](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para criar seu locatário planos de discagem.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar seu locatário planos de discagem.
 
 ## <a name="normalization-rules"></a>Regras de normalização
 
@@ -115,7 +115,7 @@ As regras de normalização usam as expressões regulares do .NET Framework para
 
 Para obter detalhes sobre como usar expressões regulares do .NET Framework, consulte [Expressões regulares do .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Consulte [criar e gerenciar planos de discagem](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans) para criar e gerenciar a normalização regras para seu locatário planos de discagem.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar a normalização regras para seu locatário planos de discagem.
 
 ### <a name="sample-normalization-rules"></a>Regras de normalização de exemplo
 
@@ -152,7 +152,7 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Criar e gerenciar planos de discagem](/SkypeForBusiness/what-are-calling-plans-in-office-365/create-and-manage-dial-plans)
+[Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 [Perguntas comuns sobre a transferência de números de telefone](transferring-phone-numbers-common-questions.md)
 

@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 79ba0754178e3d638520c932e6288a92ddf6e857
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854697"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502202"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
@@ -44,7 +44,7 @@ Siga as etapas descritas neste artigo quando:
     
 - Desejar que as pessoas em sua organização usem o Skype for Business para entrar em contato com pessoas em empresas específicas de fora de sua organização.
     
--Você deseja qualquer pessoa no mundo que usa Skype for Business para conseguir encontrar e contatá-lo, usando seu endereço de email. Se as configurações padrão do Skype for Business forem usadas, isso funcionará automaticamente. Caso contrário, o usuário deverá verificar se a configuração não está bloqueando seu domínio.
+- Deseja que qualquer pessoa no mundo que usa Skype for Business para conseguir encontrar e contatá-lo, usando seu endereço de email. Se as configurações padrão do Skype for Business forem usadas, isso funcionará automaticamente. Caso contrário, o usuário deverá verificar se a configuração não está bloqueando seu domínio.
     
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Habilitar comunicações entre empresas para os usuários
 <a name="bk_preview"> </a>

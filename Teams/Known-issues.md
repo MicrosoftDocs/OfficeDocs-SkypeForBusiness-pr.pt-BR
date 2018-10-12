@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b5827e6690817f62c0146800f9e38992666cf2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d8b1497a864a1dbd271af81363151275ffe7de1e
+ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372552"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25502228"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -28,6 +28,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Logs de auditoria podem informar um nome de usuário incorreta como iniciador quando alguém foi removido da equipe  <br/> |As equipes de equipe é um grupo moderno em AAD. Quando você adicionar ou remove um membro por meio da interface de usuário de equipes, o fluxo sabe exatamente o usuário que iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário membro por meio de AAD de adiciona/remove, a alteração é sincronizada no back-end de equipes sem informando equipes que iniciou a ação. Microsoft Teams seleciona o primeiro proprietário da equipe como iniciador, eventualmente será refletido no log de auditoria.    <br/> |  <br/> |5/11/18  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Política EAF no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. <br/> |Há um problema com seguro hexavalente nos quais a política de exportar endereço tabela acesso filtragem (EAF) no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. Isso impede que as guias no modo de exibição de web de equipes renderização corretamente. <br/> | Desative o EAF cromo. Você pode ler mais sobre o problema [diretrizes de atenuações EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
