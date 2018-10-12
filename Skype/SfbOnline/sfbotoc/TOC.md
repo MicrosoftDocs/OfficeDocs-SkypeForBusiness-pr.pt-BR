@@ -129,7 +129,7 @@
 ### [Problemas conhecidos nos Planos de Chamadas](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Alterar o endereço de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-address-for-a-user.md)
 ### [Alterar o local de emergência de um usuário](../what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user.md)
-### [Criar e gerenciar planos de discagem](../what-are-calling-plans-in-office-365/create-and-manage-dial-plans.md)
+### [Criar e gerenciar planos de discagem](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Diferentes tipos de números de telefone usados para Planos de Chamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Obtendo números de telefone para seus usuários](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
 ### [Como obter Planos de Chamadas para o Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
