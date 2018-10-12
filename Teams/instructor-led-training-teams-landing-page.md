@@ -9,12 +9,12 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: d6eeea78106e13cafee5096be04d344ad216c65a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 281a864091714c1614b86b7f4f45ea48245d8108
+ms.sourcegitcommit: 45b3e3387bb1e605453c52b68d0bf5b1b79d33f5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429434"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "25501483"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -43,7 +43,7 @@ ms.locfileid: "25429434"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>#ThisIsTeams - visão geral do Microsoft Teams</h3>
-                                                    <p>O que é o Microsoft Teams? Participe para esta orientação de 30 minutos descobrir o que há de equipes e como ela pode funcionar para você.</p>
+                                                    <p>O que é o Microsoft Teams? Participe para esta orientação de 30 minutos descobrir o que há de equipes e como ela pode funcionar para você. (Audiência: todos)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,7 +62,7 @@ ms.locfileid: "25429434"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Introdução ao equipes</h3>
-                                                    <p>De bate-papo e reuniões usando canais e equipes, os usuários deixarão nesta sessão com o foundation usar equipes com confiança.</p>
+                                                    <p>De bate-papo e reuniões usando canais e equipes, os usuários deixarão nesta sessão com o foundation usar equipes com confiança. (Audiência: os usuários finais)</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ ms.locfileid: "25429434"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gerenciar a atualização do Skype for Business para equipes</h3>
-                                                <p>Obtenha comentários em planejamento e implementação de uma atualização bem-sucedida do Skype for Business para equipes. </p>
+                                                <p>Planejar e implementar uma atualização bem-sucedida do Skype for Business para equipes (audiência: profissionais de TI, gerentes de alteração de adoção)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@ ms.locfileid: "25429434"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Alternar do Skype for Business para equipes: orientação do usuário final</h3>
-                                                    <p>Obtenha o que você precisa iniciar rapidamente o bate-papo, reunião e chamando em equipes durante sua transição do Skype for Business para equipes.</p>
+                                                    <p>Obtenha o que você precisa iniciar rapidamente usando equipes durante sua transição do Skype para a equipes de negócios. (Audiência: os usuários finais)</p>
                                             </div>
                                         </div>
                                     </div>
