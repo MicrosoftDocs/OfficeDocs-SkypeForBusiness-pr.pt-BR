@@ -3,6 +3,7 @@
 
 ## [Visão geral do Microsoft Teams](Teams-overview.md)
 ## [Ferramentas e workshops: Planejamento, implantação e operação do Microsoft Teams](planning-workshop-practical-guide.md)
+## [Obter ajuda no Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
 
 

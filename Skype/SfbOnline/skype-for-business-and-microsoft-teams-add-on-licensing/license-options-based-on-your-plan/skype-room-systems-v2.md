@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis nos Sistemas de Salas Skype v2. '
-ms.openlocfilehash: 05d07ad633dda2bb8a663e971914eecacae33d93
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3f1a72bdbbe640a615bbf17c0525d3ece00295ad
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890351"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546651"
 ---
 # <a name="skype-room-systems-v2"></a>Skype Room Systems versão 2
 <a name="bkmk_srs"> </a>
@@ -44,7 +44,7 @@ A tabela a seguir lista os recursos que estão disponíveis no [Ajuda do Skype R
 |Iniciar uma reunião ad hoc e discar a partir de uma reunião aos números de telefone.  <br/> |Skype para negócios autônomo plano 2 com serviços de audioconferência  <br/> **Observação:** Créditos de Comunicação são opcionais.           |E1 ou E3 com serviços de audioconferência  <br/> OU  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL  <br/> |
 |Dê a sala de um número de telefone e fazer ou receber chamadas da sala de ou ingressar em uma conferência de áudio usando um número de telefone.  <br/> |Skype for Business Autônomo Plano 2 com o Sistema de Telefonia Office 365 e um Plano de Chamadas  <br/> **Observação:** Créditos de Comunicação são opcionais.           |E1 ou E3 com o Sistema de Telefonia Office 365 e um Plano de Chamadas Office 365  <br/> OU  <br/> E5  <br/> |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  <br/> |
    
- **Usar a versão correta do Windows 10**: para clientes que desejam implantar o Windows 10 imagens em seus dispositivos, é necessária uma versão específica do Windows 10 e esta versão só está disponível para clientes de licenciamento de volume. Você deve usar o **Windows 10 Enterprise versão 1607 ou posterior** para gerar imagens nos dispositivos com o Skype Room System v2.0. Você pode obter uma cópia do [Centro de atendimento de licenciamento por Volume](https://www.microsoft.com/Licensing/servicecenter/).
+ **Usar a versão correta do Windows 10**: para clientes que desejam implantar o Windows 10 imagens em seus dispositivos, é necessária uma versão específica do Windows 10 e esta versão só está disponível para clientes de licenciamento de volume. Você precisará usar o **Windows 10 Enterprise versão 1709 ou posterior** para o sistema de sala Skype v 2.0 dispositivos de imagem. Você pode obter uma cópia do [Centro de atendimento de licenciamento por Volume](https://www.microsoft.com/Licensing/servicecenter/).
   
 
     

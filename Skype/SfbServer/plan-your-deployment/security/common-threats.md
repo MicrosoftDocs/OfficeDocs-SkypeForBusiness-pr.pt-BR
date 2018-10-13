@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Como Skype para Business Server é um sistema de comunicação de classe empresarial, você deve estar ciente dos ataques de segurança comuns que podem afetar sua infraestrutura e comunicações.
-ms.openlocfilehash: 5609fda3fd3d58a5e5ed5df34c1c5e39e7843e85
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
+ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373061"
+ms.lasthandoff: 10/12/2018
+ms.locfileid: "25546780"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Ameaças de segurança comuns no Modern Day Computing
  
@@ -48,21 +48,25 @@ O ataque de negação de serviço ocorre quando o atacante impede o uso da rede 
     
 ## <a name="eavesdropping-sniffing-snooping"></a>Espionagem (Bisbilhotar, Intrometer)
 
-A Espionagem pode ocorrer quando um atacante ganha acesso ao caminho dos dados na rede e tem a habilidade para monitorar e ler o tráfego. Isso também é calledsniffing orsnooping. Se o tráfego está no texto plano, o atacante pode lê-lo quando o atacante ganha acesso ao caminho. Um exemplo é um ataque realizado no controle de um router no caminho dos dados. 
+A Espionagem pode ocorrer quando um atacante ganha acesso ao caminho dos dados na rede e tem a habilidade para monitorar e ler o tráfego. Isso também é chamado de bisbilhotar ou falsificar. Se o tráfego está no texto plano, o atacante pode lê-lo quando o atacante ganha acesso ao caminho. Um exemplo é um ataque realizado no controle de um router no caminho dos dados. 
   
 A configuração para o tráfego Skype para Business Server e uma recomendação padrão é usar o TLS mútuo (MTLS) entre servidores confiáveis e TLS do cliente para servidor. Essa medida protetora poderia dificultar e muito um ataque ou impossibilitar o alcance com o período de tempo no qual tal conversa ocorre. TLS autentica todas as partes e criptografa todo tráfego. Isso não impede a espionagem, mas o atacante não pode ler o tráfego, a não ser que quebre a criptografia.
   
 O protocolo de Relay de Uso Traversal NAT (TURN) não exige o tráfego para ser criptografado e as informações que são enviadas são protegidas pela integridade da mensagem. Mesmo estando abertas apara a espionagem, as informações que são enviadas (o endereço do IP e a porta) podem ser extraídas diretamente dando uma simples olhada nos endereços de saída e de destino dos pacotes. O serviço A/V Edge certifica que os dados são válidos verificando a Integridade da Mensagem da mensagem, usando a chave derivada de poucos itens, incluindo uma senha do TURN, que nunca é enviada em um texto claro. Se o ProtocoIo (SRTP) é usado, o tráfego de mídia também é criptografado.
   
-## <a name="identity-spoofing-ip-address-spoofing"></a>Falsificação de ID (endereço de IP de Falsificação)
+## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Falsificação de identidade (endereço IP e o chamador falsificação de Id)
 
-A Falsificação ocorre quando o atacante determina e usa um endereço IP de uma rede, computador ou componente de rede sem autorização para tal ação. Um ataque bem-sucedido permite que o atacante opere como se fosse a entidade normalmente identificada pelo endereço IP. Dentro do contexto do Skype para Business Server, este acontecerá somente se um administrador tiver executado um dos seguintes procedimentos:
+Falsificação de identidade ocorre quando o invasor determina e usa um número de telefone de um usuário válido (id de chamador) ou um endereço IP de uma rede, o computador ou o componente de rede sem estar autorizado a fazer isso. Um ataque bem-sucedido permite que o invasor opere como se o invasor é a entidade normalmente identificada pelo número de telefone (id de chamador) ou o endereço IP.
+
+Dentro do contexto do Skype para Business Server, falsificação de endereço IP entra em ação somente se um administrador tiver executado um dos seguintes procedimentos:
   
 - Conexões configuradas que suportam apenas o Protocolo de Controle de Transmissão (TCP) (o que não é recomendado, porque as comunicações do TCP são descriptografadas).
     
 - Marque os endereços de IP daquelas conexões como hosts confiáveis.
     
 Este é o menor dos problemas para as conexões de Transport Layer Security (TLS), uma vez que a TLS autentica toda as partes e criptografa todo o tráfego. Usar a TLS impede que um atacante falsifique o endereço IP em uma conexão específica (por exemplo, conexões TLS mútuas). Mas o invasor ainda pode falsificar o endereço do servidor DNS, que usa Skype para Business Server. No entanto, como autenticação no Skype para negócios é realizada com certificados, um invasor não tem um certificado válido necessário para realizar a falsificação uma das partes na comunicação.
+
+Por outro lado, falsificação de Id de chamador entra em ação depois de estabelecer um tronco SIP entre um provedor, gateway PSTN ou outro sistema PBX e Skype para Business Server. Nesses casos, Skype para Business Server não oferece nenhuma proteção para impedir contra falsificação de id do chamador. Isso significa que um Skype para o usuário de negócios pode receber uma chamada do tronco SIP com uma id de chamador falsificados exibindo o número de telefone do outro Skype para o usuário de negócios. Proteção ao seguinte deve ser aplicada no lado do provedor, gateway PSTN ou PBX.
   
 ## <a name="man-in-the-middle-attack"></a>Ataque a intermediário
 
