@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Leia este tópico para saber como planejar os sites de nuvem conector Edition PSTN para garantir o roteamento de chamada de eficiência e economia.
-ms.openlocfilehash: 2f3c624dce8fa406724e54a405b72939951c849e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890392"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576516"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plano para sites PSTN do Cloud Connector Edition
  
@@ -64,9 +64,9 @@ O exemplo a seguir mostra como agrupar troncos aos sites PSTN e como atribuir us
     
   -  Portland (código de área 503)
     
-Como o usuário A em Redmond e o usuário B em Bellevue estão na periferia, um perto do outro, e têm o mesmo código de área (425), a operadora A deve ser capaz de receber chamadas de emergência do usuário A em Redmond pelo tronco de Bellevue.   
+Como usuário B em Bellevue (B do Centro de dados) e usuário em Redmond (A Data Center) são no bairros próximas umas às outras e no mesmo código de área (425), operadora uma poderá levar a uma chamada de emergência do usuário A em Redmond no tronco em Bellevue. 
   
-Consequentemente, os usuários A e B e os troncos de conector de nuvem para Bellevue e Redmond, provavelmente podem ser no mesmo site PSTN conforme mostrado no diagrama a seguir. As chamadas de emergência dos usuários de um escritório podem ser encaminhadas para os troncos do outro. No entanto, você deve, verificar com a sua operadora que isso funcione.
+Consequentemente, os usuários A e B e os troncos de conector de nuvem para Bellevue e Redmond, provavelmente podem ser no mesmo site nuvem conector PSTN conforme mostrado no diagrama a seguir. As chamadas de emergência dos usuários de um escritório podem ser encaminhadas para os troncos do outro. No entanto, você deve, verificar com a sua operadora que isso funcione.
   
 ![Como configurar sites PSTN](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   

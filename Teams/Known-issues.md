@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca30bce0c5a0b96ba4ebf25d71e838aa88e4a602
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546749"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "25576549"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -117,6 +117,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |:-----|:-----|:-----|:-----|
 |Renomear um canal em Microsoft Teams não renomeia a pasta correspondente no SharePoint Online  <br/> |Se um canal é renomeado no Teams da Microsoft, a pasta na biblioteca de documentos do SharePoint Online correspondente para a equipe não altera para corresponder. O nome correto da pasta do SharePoint Online é exibido na parte superior da guia arquivos canal renomeado.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Visualização de URL não poderá mostrar para URL de todos os  <br/> |Alguns URL não poderá mostrar uma visualização.  Isso depende da URL original com a possibilidade de mostrar uma visualização. <br/> |Não há solução alternativa. <br/> |9/1/18 <br/> |
+
 ## <a name="chat"></a>Chat
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -172,6 +176,10 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |As reuniões não estão disponíveis  <br/> |Funcionalidade de reunião não está disponível quando a caixa de correio do Exchange é (hospedado hospedados) no local na versão menor Exchange 2016 CU3.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Sem áudio ao compartilhar conteúdo durante uma reunião de transmissão  <br/> |Quando o compartilhamento de conteúdo durante uma reunião de transmissão, o conteúdo compartilhado (link do youtube ou um arquivo de vídeo salvo) de áudio não pode ser ouve pelos participantes.  <br/> |Nenhum como isso é por design.  As equipes atualmente não oferece suporte a áudio de compartilhamento de conteúdo  <br/> |10/9/18  <br/> |
 
 ## <a name="mobile"></a>Mobile
 
