@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Como Skype para Business Server é um sistema de comunicação de classe empresarial, você deve estar ciente dos ataques de segurança comuns que podem afetar sua infraestrutura e comunicações.
-ms.openlocfilehash: 594bde9b01a61586364034ba026db91aea49ef88
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 354e537a7e927ed6825b5909107c80fe59e04996
+ms.sourcegitcommit: f2b89fea199e7a1d2a3c90c153c94b0a35965e6f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546780"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25599208"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Ameaças de segurança comuns no Modern Day Computing
  
@@ -66,7 +66,7 @@ Dentro do contexto do Skype para Business Server, falsificação de endereço IP
     
 Este é o menor dos problemas para as conexões de Transport Layer Security (TLS), uma vez que a TLS autentica toda as partes e criptografa todo o tráfego. Usar a TLS impede que um atacante falsifique o endereço IP em uma conexão específica (por exemplo, conexões TLS mútuas). Mas o invasor ainda pode falsificar o endereço do servidor DNS, que usa Skype para Business Server. No entanto, como autenticação no Skype para negócios é realizada com certificados, um invasor não tem um certificado válido necessário para realizar a falsificação uma das partes na comunicação.
 
-Por outro lado, falsificação de Id de chamador entra em ação depois de estabelecer um tronco SIP entre um provedor, gateway PSTN ou outro sistema PBX e Skype para Business Server. Nesses casos, Skype para Business Server não oferece nenhuma proteção para impedir contra falsificação de id do chamador. Isso significa que um Skype para o usuário de negócios pode receber uma chamada do tronco SIP com uma id de chamador falsificados exibindo o número de telefone do outro Skype para o usuário de negócios. Proteção ao seguinte deve ser aplicada no lado do provedor, gateway PSTN ou PBX.
+Por outro lado, falsificação de Id de chamador entra em ação depois de estabelecer um tronco SIP entre um provedor, gateway PSTN ou outro sistema PBX e Skype para Business Server. Nesses casos, Skype para Business Server não oferece nenhuma proteção para impedir contra falsificação de id do chamador. Isso significa que um Skype para o usuário de negócios pode receber uma chamada do tronco SIP com uma id de chamador falsificados exibindo o número de telefone ou nome de exibição (se aplica a pesquisa inversa de números) do Skype outro para o usuário de negócios. Proteção ao seguinte deve ser aplicada no lado do provedor, gateway PSTN ou PBX.
   
 ## <a name="man-in-the-middle-attack"></a>Ataque a intermediário
 
