@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b50baa8ddb7e29c4484adea7d9d0f0c6cab957dd
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 81dca894a378c5331c34b5840108e63536c8ac37
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593715"
+ms.locfileid: "25597834"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -128,6 +128,7 @@ Você pode aprender mais sobre Communications créditos [aqui](https://docs.micr
 
 > [!TIP]
 > Os números do planejamento de seus Créditos de Comunicação podem ser documentados da seguinte maneira:
+>
 > |         |         |
 > |---------|---------|
 > |Valor inicial|US$ 1.000|
@@ -237,6 +238,7 @@ Com esses controles, você poderá decidir se os organizadores de reunião podem
 > |Enviar emails automaticamente para os usuários quando suas configurações de discagem forem alteradas|Desabilitado|
 
 <br>
+
 > [!TIP]
 > Você pode documentar a lista de atribuição de configurações de ponte conferência para usuários de conferência de áudio usando o exemplo a seguir.
 >

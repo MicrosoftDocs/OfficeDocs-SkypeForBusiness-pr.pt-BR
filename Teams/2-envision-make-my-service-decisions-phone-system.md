@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
-ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
+ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
+ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/17/2018
-ms.locfileid: "25593699"
+ms.locfileid: "25597842"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -269,8 +269,10 @@ Para saber mais sobre créditos de comunicações, revise [Cite Communications c
 > |Isabell Potvin |39 quai du Président Roosevelt |Plano de Chamadas Domésticas |Desabilitado |
 
 <br>
+
 > [!TIP]
 > Sua créditos Communications planejamento números pode ser documentados como no exemplo a seguir.
+>
 > |         |         |
 > |---------|---------|
 > |Valor inicial|US$ 1.000|
@@ -380,6 +382,7 @@ Para obter mais informações sobre planos de discagem, consulte [quais são os 
 > ||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
+
 > [!TIP]
 > O modelo de exemplo a seguir pode ser utilizado para documentar atribuições de planos de discagem para dar suporte ao seu projeto:
 >
