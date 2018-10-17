@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 3d05c35929e966b150f61fe18480380dc9840d81
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 516437ac9def60b1c06304429ca3bbe9eca63a3f
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375383"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593707"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Orientações práticas de Audioconferência no Microsoft Teams
 ============================================================
@@ -306,9 +306,14 @@ Se a sua organização optar por usar a recarga automática, uma recomendação 
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento de Audioconferência|
 
 <br>
-&gt; [!TIP]
-&gt;Sua créditos Communications planejamento números pode ser documentados como o seguinte: &gt;|         |         | &gt;|---------|---------|
-&gt;| Quantidade inicial | US $ 1.000 | &gt;| Quantidade de gatilho | US $ 400 | &gt;| Quantidade de autocarga | TBA |
+> [!TIP]
+> Os números do planejamento de seus Créditos de Comunicação podem ser documentados da seguinte maneira:
+> |         |         |
+> |---------|---------|
+> |Valor inicial|US$ 1.000|
+> |Valor do gatilho|US$ 400|
+> |Valor da recarga automática|TBA|
+> 
 
 ## <a name="conference-bridge-phone-numbers"></a>Números de telefone de ponte de conferência
 
@@ -394,9 +399,23 @@ Com esses controles, você pode decidir se os organizadores da reunião podem fo
 > |Enviar emails automaticamente para os usuários quando suas configurações de discagem forem alteradas|Desabilitado|
 
 <br>
-&gt; [!TIP]
-&gt;Você pode documentar a lista de atribuição de configurações de ponte conferência para usuários de conferência de áudio usando o exemplo a seguir: &gt;| Usuário | Office | Número de Chamada Tarifada padrão | Número de chamada gratuito padrão | Permitir gratuitos | Os chamadores não-autenticados bypass lobby | Conferência de discagem externa | &gt;|---------|---------|---------|---------|---------|---------|---------|
-&gt;| Adele Vance | Um Epping estrada | TBA | TBA | Sim | Habilitado | Nacionais e internacionais | &gt;| Alex Wilber | Um Epping estrada | TBA | TBA | Não | Desabilitado | Não permitidos | &gt;| Ben Walters | Um Epping estrada | TBA | TBA | Não | Desabilitado | Não permitidos | &gt;| Cristina cusar | Um Marina Boulevard | TBA | TBA | Sim | Desabilitado | Domésticas | &gt;| Debra Berger | Um Marina Boulevard | TBA | TBA | Sim | Habilitado | Domésticas | &gt;| Lee Gu | Um Marina Boulevard | TBA | TBA | Sim | Habilitado | Domésticas | &gt;| Ana Braun | 32 Londres ponte Rua | + 44 20 7946 0001 | TBA | Sim | Habilitado | Não permitidos | &gt;| Lidia Holloway | 32 Londres ponte Rua | + 44 20 7946 0001 | TBA | Sim | Desabilitado | Não permitidos | &gt;| Pradeep Gupta | 32 Londres ponte Rua | + 44 20 7946 0001 | TBA | Sim | Desabilitado | Não permitidos | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | TBA | TBA | Não | Desabilitado | Domésticas | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | TBA | TBA | Sim | Habilitado | Nacionais e internacionais | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | TBA | TBA | Não | Desabilitado | Domésticas |
+> [!TIP]
+> Você pode documentar a lista de atribuição de configurações de ponte de conferência de usuários da Audioconferência usando este exemplo:
+>
+> |Usuário  |Escritório  |Número de chamada padrão  |Número de chamada gratuita padrão  |Permitir chamada gratuita  |Autores de chamada não autenticados ignoram o lobby  |Discagem de saída de conferência  |
+> |---------|---------|---------|---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|TBA|TBA|Sim|Habilitado|Doméstico e internacional|
+> |Alex Wilber|One Epping Road|TBA|TBA|Não|Desabilitado|Não permitido|
+> |Ben Walters|One Epping Road|TBA|TBA|Não|Desabilitado|Não permitido|
+> |Christie Cline|One Marina Boulevard|TBA|TBA|Sim|Desabilitado|Doméstico|
+> |Debra Berger|One Marina Boulevard|TBA|TBA|Sim|Habilitado|Doméstico|
+> |Lee Gu|One Marina Boulevard|TBA|TBA|Sim|Habilitado|Doméstico|
+> |Emily Braun|32 London Bridge Street|+44 20 7946 0001|TBA|Sim|Habilitado|Não permitido|
+> |Lidia Holloway|32 London Bridge Street|+44 20 7946 0001|TBA|Sim|Desabilitado|Não permitido|
+> |Pradeep Gupta|32 London Bridge Street|+44 20 7946 0001|TBA|Sim|Desabilitado|Não permitido|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|TBA|TBA|Não|Desabilitado|Doméstico|
+> |Rachelle Cormier|39 quai du Président Roosevelt|TBA|TBA|Sim|Habilitado|Doméstico e internacional|
+> |Isabell Potvin|39 quai du Président Roosevelt|TBA|TBA|Não|Desabilitado|Doméstico|
 
 ## <a name="dial-plans"></a>Planos de discagem
 
@@ -444,9 +463,24 @@ Há um máximo de 25 regras de normalização em cada plano de discagem para loc
 > ||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;O modelo de exemplo abaixo pode ser utilizado para atribuições de plano de discagem de documentos para dar suporte ao seu projeto: &gt;| Usuário | Office | Tipo de plano de discagem | Nome do plano de discagem | &gt;|---------|---------|---------|---------|
-&gt;| Adele Vance | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Alex Wilber | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Ben Walters | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Cristina cusar | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Debra Berger | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Lee Gu | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Ana Braun | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Lidia Holloway | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Pradeep Gupta | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR |
+
+> [!TIP]
+> O modelo de exemplo a seguir pode ser utilizado para documentar atribuições de planos de discagem para dar suporte ao seu projeto:
+>
+> |Usuário  |Escritório  |Tipo do plano de discagem  |Nome do plano de discagem  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Lidia Holloway|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Pradeep Gupta|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
 
 ## <a name="microsoft-teams-configurations"></a>Configurações do Microsoft Teams
 

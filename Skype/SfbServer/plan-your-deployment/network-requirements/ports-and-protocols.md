@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 4355bc35e5e8ddcf881e322c39661389f78dce1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884990"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593692"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -31,7 +31,7 @@ Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para
   
 Você também pode encontrar as informações nestas tabelas no formulário de diagrama examinando o cartaz de cargas de trabalho de protocolo vinculado do artigo [Technical diagrams for Skype para Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Skype para usuários corporativos Online deve referir ao [Office 365 URLs e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). 
+> - Se você estiver implementando Skype para negócios Online (O365) consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Ambientes híbridos serão necessário fazer referência a este tópico e também a [requisitos de porta e protocolo](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)híbrida.
 > - Você pode ter os firewalls de hardware ou software, podemos não exigem modelos específicos ou versões. O que importa é que portas são na lista branca, portanto, o firewall não prejudicar o funcionamento do Skype para Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalhes de protocolo e porta

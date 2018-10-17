@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f73c61b1c02f9560e3419d8993d998fa8f0ba9d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ccf53509b01341b482c5a687dfa3dcee66a928dc
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374791"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593699"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -269,10 +269,13 @@ Para saber mais sobre créditos de comunicações, revise [Cite Communications c
 > |Isabell Potvin |39 quai du Président Roosevelt |Plano de Chamadas Domésticas |Desabilitado |
 
 <br>
-&gt; [!TIP]
-&gt;Sua créditos Communications planejamento números pode ser documentados como no exemplo a seguir.
-&gt;|         |         | &gt;|---------|---------|
-&gt;| Quantidade inicial | US $ 1.000 | &gt;| Quantidade de gatilho | US $ 400 | &gt;| Quantidade de autocarga | TBA |
+> [!TIP]
+> Sua créditos Communications planejamento números pode ser documentados como no exemplo a seguir.
+> |         |         |
+> |---------|---------|
+> |Valor inicial|US$ 1.000|
+> |Valor do gatilho|US$ 400|
+> |Valor da recarga automática|TBA|
 
 <!--ENDOFSECTION-->
 
@@ -377,9 +380,23 @@ Para obter mais informações sobre planos de discagem, consulte [quais são os 
 > ||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;O modelo de exemplo abaixo pode ser utilizado para atribuições de plano de discagem de documentos para dar suporte ao seu projeto: &gt;| Usuário | Office | Tipo de plano de discagem | Nome do plano de discagem | &gt;|---------|---------|---------|---------|
-&gt;| Adele Vance | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Alex Wilber | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Ben Walters | Um Epping estrada | Plano de discagem de locatário | AU NSW-NorthRyde OER | &gt;| Cristina cusar | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Debra Berger | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Lee Gu | Um Marina Boulevard | Plano de discagem de locatário | Cingapura-SG-orientações | &gt;| Ana Braun | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Lidia Holloway | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Louis Lahr | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 30qdPR |
+> [!TIP]
+> O modelo de exemplo a seguir pode ser utilizado para documentar atribuições de planos de discagem para dar suporte ao seu projeto:
+>
+> |Usuário  |Escritório  |Tipo do plano de discagem  |Nome do plano de discagem  |
+> |---------|---------|---------|---------|
+> |Adele Vance|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
+> |Alex Wilber|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
+> |Ben Walters|One Epping Road|Plano de discagem para locatários|AU-NSW-NorthRyde-OER|
+> |Christie Cline|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
+> |Debra Berger|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
+> |Lee Gu|One Marina Boulevard|Plano de discagem para locatários|SG-Singapore-OMB|
+> |Emily Braun|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Lidia Holloway|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Louis Lahr|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-30qdPR|
 
 <!--ENDOFSECTION-->
 

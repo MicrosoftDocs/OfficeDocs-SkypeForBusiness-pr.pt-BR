@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: cbe14840f53d01c491159bfb3e44fe837d047558
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dce3118f79723bd6838579a9cda722dd4dc7bb90
+ms.sourcegitcommit: 0aa8b07480a68cd589bbb70a5a51c4e177758a80
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371369"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25593723"
 ---
 <a name="practical-guidance-for-phone-system-with-calling-plans-in-microsoft-teams"></a>Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 =========================================================================
@@ -313,9 +313,14 @@ Se a sua organização optar por usar a recarga automática, uma recomendação 
 > |Isabell Potvin|39 quai du Président Roosevelt|Office 365 E3, complemento do Sistema de Telefonia, Plano de Chamadas Domésticas|Desabilitado|
 
 <br>
-&gt; [!TIP]
-&gt;Sua créditos Communications planejamento números pode ser documentados como o seguinte: &gt;|         |         | &gt;|---------|---------|
-&gt;| Quantidade inicial | US $ 1.000 | &gt;| Quantidade de gatilho | US $ 400 | &gt;| Quantidade de autocarga | TBA |
+
+> [!TIP]
+> Os números do planejamento de seus Créditos de Comunicação podem ser documentados da seguinte maneira:
+> |         |         |
+> |---------|---------|
+> |Valor inicial|US$ 1.000|
+> |Valor do gatilho|US$ 400|
+> |Valor da recarga automática|TBA|
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Números de telefone e locais de emergência
 
@@ -330,7 +335,7 @@ Para obter números de telefone diretamente da Microsoft, use uma destas opçõe
 
 - [Centro de administração do Skype for Business](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users)
 - [Cmdlets do Windows PowerShell remoto](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
-- [Enviar um formulário de nova solicitação de número de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+- [Enviar um formulário de solicitação de novo número de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 O formulário de solicitação de novo número de telefone funciona melhor para a aquisição planejada de um número de telefone, pois você pode solicitar um bloco de números de telefone contíguos. A obtenção de números de telefone usando o Centro de administração do Skype for Business ou o Windows PowerShell remoto não está disponível em todos os países ou regiões.
 
@@ -453,13 +458,21 @@ Há um máximo de 25 regras de normalização em cada plano de discagem para loc
 > |Nome do plano de discagem de locatário<br>_Descrição  |Nome das regras de normalização<br>_Descrição_  |Padrão<br>Conversão<br>IsInternalExtension  |
 > |---------|---------|---------|
 > |**FR-Paris-Issy-39qdPR**<br>_39 quai du Président Roosevelt Issy-les-Moulineaux, France Dial Plan_|**FR-39qdPR-Internal**<br>_Número interno (x7000 – x7999) para o escritório de 39 quai du Président Roosevelt, Issy-les-Moulineaux, França_|^(7\d{3})$<br>+3319999$1<br>True|
-> ||**FR-TollFree**<br>_Normalização de número gratuito na França_|^ 0?(80\d{7}) \d*$<br>+33$1<br>False|
-> ||**FR-Service**<br>_Normalização de número de serviço na França_|^ (1\d{1,2}\|11 [68] \d{3}\|10\d{2}\|3\d{3}) $<br>$1<br>False|
+> ||**FR-TollFree**<br>_Normalização de número gratuito na França_|^0?(80\d{7})\d*$<br>+33$1<br>False|
+> ||**FR-Service**<br>_Normalização de número de serviço na França_|^(1\d{1,2}\|11[68]\d{3}\|10\d{2}\|3\d{3})$<br>$1<br>False|
 
 <br>
-&gt; [!TIP]
-&gt;O modelo de exemplo abaixo pode ser utilizado para atribuições de plano de discagem de documentos para dar suporte ao seu projeto: &gt;| Usuário | Office | Tipo de plano de discagem | Nome do plano de discagem | &gt;|---------|---------|---------|---------|
-&gt;| Ana Braun | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Lidia Holloway | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Pradeep Gupta | 32 Londres ponte Rua | Plano de discagem do serviço | N/D | &gt;| Marcel Beauchamp | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 39qdPR | &gt;| Rachelle Cormier | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 39qdPR | &gt;| Isabell Potvin | 39 quai du Président Roosevelt | Plano de discagem de locatário | FR-Paris Issy 39qdPR |
+
+> [!TIP]
+> O modelo de exemplo a seguir pode ser utilizado para documentar atribuições de planos de discagem para dar suporte ao seu projeto:
+> |Usuário  |Escritório  |Tipo do plano de discagem  |Nome do plano de discagem  |
+> |---------|---------|---------|---------|
+> |Emily Braun|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Lidia Holloway|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Pradeep Gupta|32 London Bridge Street|Plano de discagem para serviço|N/A|
+> |Marcel Beauchamp|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-39qdPR|
+> |Rachelle Cormier|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-39qdPR|
+> |Isabell Potvin|39 quai du Président Roosevelt|Plano de discagem para locatários|FR-Paris-Issy-39qdPR|
 
 ## <a name="document-technical-implementation-plan"></a>Documentar o plano de implementação técnica
 
