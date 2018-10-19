@@ -19,49 +19,50 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar como os organizadores podem usar números para ligações gratuitas para suas reuniões.
-ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370607"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678146"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a><span data-ttu-id="ebe1b-103">Desabilitando números para ligações gratuitas para Skype específico para usuários corporativos Online</span><span class="sxs-lookup"><span data-stu-id="ebe1b-103">Disabling toll-free numbers for specific Skype for Business Online users</span></span>
-
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a><span data-ttu-id="a0623-103">Desabilitando números para ligações gratuitas para Skype específico para usuários corporativos Online</span><span class="sxs-lookup"><span data-stu-id="a0623-103">Disabling toll-free numbers for specific Skype for Business Online users</span></span>
+ 
 > [!Note]
-> <span data-ttu-id="ebe1b-104">Para obter informações sobre como desabilitar números livre de ferramenta para usuários de equipes, consulte [Desabilitando números para ligações gratuitas para usuários específicos de equipes](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).</span><span class="sxs-lookup"><span data-stu-id="ebe1b-104">For information about disabling tool-free numbers for Teams users, see  [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).</span></span>
+> <span data-ttu-id="a0623-104">Para obter informações sobre como desabilitar números livre de ferramenta para usuários de equipes, consulte [Desabilitando números para ligações gratuitas para usuários específicos de equipes](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).</span><span class="sxs-lookup"><span data-stu-id="a0623-104">For information about disabling tool-free numbers for Teams users, see  [Disabling toll-free numbers for specific Teams users](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).</span></span>
 
-<span data-ttu-id="ebe1b-105">Se sua organização tiver números para ligações gratuitas no seu Microsoft Audio Conferencing Bridge, você pode permitir ou impedir que o seu uso nas reuniões de organizadores específicos.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-105">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
+<span data-ttu-id="a0623-105">Se sua organização tiver números para ligações gratuitas no seu Microsoft Audio Conferencing Bridge, você pode permitir ou impedir que o seu uso nas reuniões de organizadores específicos.</span><span class="sxs-lookup"><span data-stu-id="a0623-105">If your organization has toll-free numbers in its Microsoft Audio Conferencing Bridge, you can allow or prevent their usage in the meetings of specific organizers.</span></span>  
 
-<span data-ttu-id="ebe1b-106">Por padrão, todos os usuários em sua organização estão habilitados para o uso de números para ligações gratuitas, que significa que esses números, se estiver disponível, podem ser usados pelos participantes ingressem em suas reuniões.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-106">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="ebe1b-107">Se isso não for o comportamento desejado para alguns usuários em sua organização, você pode impedir usuários específicos usando esses números em suas reuniões por meio de um controle de habilitação de números gratuitos.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-107">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
+<span data-ttu-id="a0623-106">Por padrão, todos os usuários em sua organização estão habilitados para o uso de números para ligações gratuitas, que significa que esses números, se estiver disponível, podem ser usados pelos participantes ingressem em suas reuniões.</span><span class="sxs-lookup"><span data-stu-id="a0623-106">By default, all users in your organization are enabled for using toll-free numbers, meaning that those numbers, if available, can be used by participants to join their meetings.</span></span> <span data-ttu-id="a0623-107">Se isso não for o comportamento desejado para alguns usuários em sua organização, você pode impedir usuários específicos usando esses números em suas reuniões por meio de um controle de habilitação de números gratuitos.</span><span class="sxs-lookup"><span data-stu-id="a0623-107">If this is not the desired behavior for some users in your organization, you can restrict specific users from using those numbers in their meetings via a toll-free number enablement control.</span></span> 
 
-<span data-ttu-id="ebe1b-108">Quando os números para ligações gratuitas estão desabilitados para um determinado organizador:</span><span class="sxs-lookup"><span data-stu-id="ebe1b-108">When toll-free numbers are disabled for a given organizer:</span></span> 
- - <span data-ttu-id="ebe1b-109">Não é mais um número de chamada gratuito será incluído em seu ou convida sua reunião.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-109">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
- - <span data-ttu-id="ebe1b-110">Não há mais números para ligações gratuitas serão listados na página "Localizar um número local" que é referenciada no seu ou convida sua reunião.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-110">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
- - <span data-ttu-id="ebe1b-111">Os participantes não conseguirá ingressar na reunião do organizador determinado se eles discarem qualquer número de chamada gratuito da organização.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-111">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
- - <span data-ttu-id="ebe1b-112">Todas as reuniões do organizador serão reagendadas automaticamente e o número de chamada gratuito será removido do-los.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-112">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
+<span data-ttu-id="a0623-108">Quando os números para ligações gratuitas estão desabilitados para um determinado organizador:</span><span class="sxs-lookup"><span data-stu-id="a0623-108">When toll-free numbers are disabled for a given organizer:</span></span> 
+ - <span data-ttu-id="a0623-109">Não é mais um número de chamada gratuito será incluído em seu ou convida sua reunião.</span><span class="sxs-lookup"><span data-stu-id="a0623-109">A toll-free number will no longer be included in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="a0623-110">Não há mais números para ligações gratuitas serão listados na página "Localizar um número local" que é referenciada no seu ou convida sua reunião.</span><span class="sxs-lookup"><span data-stu-id="a0623-110">Toll-free numbers will no longer be listed on the "Find a local number" page that is referenced in his or her meeting invites.</span></span> 
+ - <span data-ttu-id="a0623-111">Os participantes não conseguirá ingressar na reunião do organizador determinado se eles discarem qualquer número de chamada gratuito da organização.</span><span class="sxs-lookup"><span data-stu-id="a0623-111">Participants won't be able to join the meeting of the given organizer if they dial any toll-free number of the organization.</span></span> 
+ - <span data-ttu-id="a0623-112">Todas as reuniões do organizador serão reagendadas automaticamente e o número de chamada gratuito será removido do-los.</span><span class="sxs-lookup"><span data-stu-id="a0623-112">All meetings of the organizer will be automatically rescheduled, and the toll-free number will be removed from them.</span></span>  
 
     > [!IMPORTANT]
-    > <span data-ttu-id="ebe1b-113">Isso irá Reenviar todos os convites de email do organizador para todos os participantes dessas reuniões.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-113">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
+    > <span data-ttu-id="a0623-113">Isso irá Reenviar todos os convites de email do organizador para todos os participantes dessas reuniões.</span><span class="sxs-lookup"><span data-stu-id="a0623-113">This will resend all of the email invites of the organizer to all the participants of those meetings.</span></span> 
 
- - <span data-ttu-id="ebe1b-114">Os participantes podem continuar a ingressar em reuniões do organizador usando números tarifados.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-114">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
+ - <span data-ttu-id="a0623-114">Os participantes podem continuar a ingressar em reuniões do organizador usando números tarifados.</span><span class="sxs-lookup"><span data-stu-id="a0623-114">Participants can continue joining meetings of the organizer using toll numbers.</span></span> 
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="ebe1b-115">Desativar números gratuitos para usuários específicos</span><span class="sxs-lookup"><span data-stu-id="ebe1b-115">Disabling toll-free numbers for specific users</span></span> 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a><span data-ttu-id="a0623-115">Desativar números gratuitos para usuários específicos</span><span class="sxs-lookup"><span data-stu-id="a0623-115">Disabling toll-free numbers for specific users</span></span> 
 
+<span data-ttu-id="a0623-116">Das **equipes da Microsoft & Skype para Business Admin Center**:</span><span class="sxs-lookup"><span data-stu-id="a0623-116">From the **Microsoft Teams & Skype for Business Admin Center**:</span></span>
 
-1. <span data-ttu-id="ebe1b-116">No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-116">In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Users**, and then select the user from the list of available users.</span></span> 
+1. <span data-ttu-id="a0623-117">No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.</span><span class="sxs-lookup"><span data-stu-id="a0623-117">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="ebe1b-117">No Painel de Ações, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-117">In the Action pane, click **Edit**.</span></span> 
+2. <span data-ttu-id="a0623-118">Ao lado de **Conferência de áudio**, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="a0623-118">Next to **Audio Conferencing**, click **Edit**.</span></span>
 
-3. <span data-ttu-id="ebe1b-118">Desmarque **Permitir usando números de discagem gratuita para participar de reuniões deste usuário**.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-118">Clear **Allow using toll-free numbers to join the meetings of this user**.</span></span> 
- 
-4. <span data-ttu-id="ebe1b-119">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-119">Click **Save**.</span></span> 
+3. <span data-ttu-id="a0623-119">Defina a **incluir números para ligações gratuitas nas solicitações deste usuário de reunião** para **Off**.</span><span class="sxs-lookup"><span data-stu-id="a0623-119">Set **Include toll-free numbers in meeting requests from this user** to **Off**.</span></span> 
+
+4. <span data-ttu-id="a0623-120">Clique em **Salvar.**</span><span class="sxs-lookup"><span data-stu-id="a0623-120">Click **Save.**</span></span> 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
-<span data-ttu-id="ebe1b-120">**Usando o PowerShell**</span><span class="sxs-lookup"><span data-stu-id="ebe1b-120">**Using PowerShell**</span></span>  
+<span data-ttu-id="a0623-121">**Usando o PowerShell**</span><span class="sxs-lookup"><span data-stu-id="a0623-121">**Using PowerShell**</span></span>  
 
-<span data-ttu-id="ebe1b-121">Você pode usar o parâmetro AllowTollFreeDialIn do cmdlet Set-CsOnlineDialInConferencingUser para habilitar ou desabilitar esse controle.</span><span class="sxs-lookup"><span data-stu-id="ebe1b-121">You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control.</span></span> <span data-ttu-id="ebe1b-122">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="ebe1b-122">For example:</span></span> 
+<span data-ttu-id="a0623-122">Você pode usar o parâmetro AllowTollFreeDialIn do cmdlet Set-CsOnlineDialInConferencingUser para habilitar ou desabilitar esse controle.</span><span class="sxs-lookup"><span data-stu-id="a0623-122">You can use the AllowTollFreeDialIn parameter of the Set-CsOnlineDialInConferencingUser cmdlet to enable or disable this control.</span></span> <span data-ttu-id="a0623-123">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="a0623-123">For example:</span></span> 
 
-- <span data-ttu-id="ebe1b-123">Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false</span><span class="sxs-lookup"><span data-stu-id="ebe1b-123">Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false</span></span>
+- <span data-ttu-id="a0623-124">Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false</span><span class="sxs-lookup"><span data-stu-id="a0623-124">Set-CsOnlineDialInConferencingUser user@contoso.com – AllowTollFreeDialIn $false</span></span>

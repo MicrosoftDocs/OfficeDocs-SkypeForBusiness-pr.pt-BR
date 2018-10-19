@@ -76,7 +76,7 @@
 
 <!-- ============================================================ -->
 # [Atualização do Skype for Business para equipes](Journey-SkypeforBusiness-Teams.md)
-## [Tutorial: Jornada de migração do Skype for Business para o Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
+## [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Atualização básica](upgrade-basic.md)
 ### [Pesquisas e emails de amostra](upgrade-emails-surveys.md)
 ## [Atualizar Pro](upgrade-pro.md)
@@ -168,7 +168,7 @@
 ##  [Planos de chamada do Office 365 - tratamento de reclamações de código para o Reino Unido.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ## [Práticas de coleta de dados](data-collection-practices.md)
 ##  [Rótulos de chamada de emergência](emergency-calling-labels.md)
-##  [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
+##  [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
 
 <!-- ============================================================ -->
 
@@ -181,6 +181,7 @@
 ### [Atribuir membros em Microsoft Teams e proprietários de equipe](assign-roles-permissions.md)
 ### [Boas práticas para organizar equipes no Teams](best-practices-organizing.md)
 ### [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
+### [Visão geral da participação dinâmica para equipes](dynamic-memberships.md)
 ## [Acesso de convidados](guest-access.md)
 ### [Como um convidado entra em uma equipe](guest-joins.md)
 ### [Como é a experiência do convidado](guest-experience.md)
