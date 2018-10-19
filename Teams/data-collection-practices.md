@@ -24,16 +24,16 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft coleta dados censo, erro e uso para entender como Skype para negócios está sendo usada e onde os usuários encontrarem problemas. Os dados são usados para planejar os aperfeiçoamentos do produto.
-ms.openlocfilehash: 198c78b2c6b484d3d68c7d001de4d0db12658a2c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012837"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678374"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para práticas de conjunto de dados corporativos e Teams da Microsoft
 
-Skype para Business Server 2015, Skype para negócios Online, juntamente com o Skype para aplicativos de negócios e Teams Microsoft coletar dados para ajudar a compreender como esses produtos estão sendo usados e quais tipos de erros, como erros de entrada, que ocorreram na Microsoft. Essas informações nos ajuda a entender os padrões de uso, planejar novos recursos e solucionar problemas e corrigir áreas do problema.
+Skype para Business Server e do Skype para negócios Online, juntamente com o Skype para aplicativos de negócios e Teams da Microsoft, coletar dados para ajudar a compreender como esses produtos estão sendo usados e quais tipos de erros, como erros de entrada, que ocorreram na Microsoft. Essas informações nos ajuda a entender os padrões de uso, planejar novos recursos e solucionar problemas e corrigir áreas do problema.
 
 Enquanto alguns dados de uso são coletados automaticamente, outros dados possam ser coletados apenas quando o admin e/ou o usuário optar por permitir que ele. Coleta de dados se enquadra dessas três categorias:
 
@@ -78,7 +78,7 @@ Dados de uso deve conter informações que identifica a sua organização, por e
 
 Dados de uso não for contêm alguma informação que identifica os usuários.
 
-Coleta de dados de uso está habilitado por padrão, mas admins pode desativá-la usando a configuração de diretiva de grupo DisableAutomaticSendTracing em Skype para Business Server 2015 no local. Desativar essa configuração afeta todos os usuários na organização. Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) para obter mais informações.
+Coleta de dados de uso está habilitado por padrão, mas os administradores podem desativá-lo usando a configuração de diretiva de grupo DisableAutomaticSendTracing em Skype para Business Server no local. Desativar essa configuração afeta todos os usuários na organização. Consulte [Configure políticas de inicialização do cliente](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) para obter mais informações.
 
 Os usuários finais não podem ativar a coleta de dados de uso ou desativar.
 
@@ -103,7 +103,7 @@ Dados de relatórios de erro também podem conter informações de identificaç�
 
 Relatório de erros exige duas coisas:
 
-- A configuração de diretiva de grupo DisableAutomaticSendTracing é definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão). Consulte [Configure políticas de inicialização do cliente no Skype para Business Server 2015](https://technet.microsoft.com/library/gg425941.aspx) para obter mais informações.
+- A configuração de diretiva de grupo DisableAutomaticSendTracing é definida como False, no servidor ou no Centro de administração de locatário (isto é o estado padrão). Consulte [Configure políticas de inicialização do cliente](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) para obter mais informações.
     
 - Os usuários finais individualmente aceitar a partir da guia Geral (clique no ícone de engrenagem ![ícone de engrenagem](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) e abre a caixa de diálogo **Opções** com a guia **Geral** exibida) no Skype para o cliente de negócios.
     

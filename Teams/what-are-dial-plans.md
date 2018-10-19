@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como escolher uma para sua organização e que tipo de discagem chamando planos (planos de discagem PSTN chamar) estão disponíveis com o Office 365.  '
-ms.openlocfilehash: 28e0b3d282cba17061f0573b5bd9efe7e27de786
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: a823e3665229eeb1292c4f027bda7d7e8eff79a9
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502354"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678422"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -41,7 +41,7 @@ Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 ## <a name="tenant-dial-plan-scope"></a>Escopo do plano de discagem do locatário
 
-O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os escopos são diferentes vez em um Skype para Business Server 2015 implantação no local. Os clientes obtêm o plano de discagem adequado por meio de configurações de provisionamento que são fornecidas automaticamente quando os usuários se conectam ao Skype for Business Online. Como um administrador, você pode gerenciar e atribuir níveis de escopo de plano de discagem usando o PowerShell Remoto.
+O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os escopos são diferentes em um Skype para implantação do Business Server local. Os clientes obtêm o plano de discagem adequado por meio de configurações de provisionamento que são fornecidas automaticamente quando os usuários se conectam ao Skype for Business Online. Como um administrador, você pode gerenciar e atribuir níveis de escopo de plano de discagem usando o PowerShell Remoto.
 
 No Skype para Business Online, há dois tipos de planos de discagem - com escopo de serviço e inquilino (que é para sua organização) com escopo. Um plano de discagem no escopo do serviço é definido para cada país/região em que o sistema de telefone do Office 365 está disponível. Cada usuário é automaticamente atribuído o plano de discagem do país de serviço que coincida com o local de uso do Office 365 atribuída ao usuário. Não é possível alterar o plano de discagem do país de serviço, mas você pode criar planos de discagem no escopo de locatário, qual incrementar o plano de discagem do país de serviço. Como os clientes são provisionados, eles obtenham um "plano de discagem eficaz", que é uma combinação do plano de discagem do país de serviço e o plano de discagem de locatário apropriadamente com escopo. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
 
@@ -126,14 +126,14 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Nome da regra** <br/> |**Descrição** <br/> |**Padrão de número** <br/> |**Conversão** <br/> |**Exemplo** <br/> |
-|4digitExtension  <br/> |Converte extensões de 4 dígitos.  <br/> |^ (\\d{4}) $  <br/> |+1425555$1  <br/> |0100 é convertido em +14255550100  <br/> |
-|5digitExtension  <br/> |Converte extensões de 5 dígitos.  <br/> |^ 5 (\\d{4}) $  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |Converte números de 7 dígitos para números locais Redmond.  <br/> |^ (\\d{7}) $  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/>|
+|4digitExtension  <br/> |Converte extensões de 4 dígitos.  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |0100 é convertido em +14255550100  <br/> |
+|5digitExtension  <br/> |Converte extensões de 5 dígitos.  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |50100 é convertido em +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |Converte números de 7 dígitos para números locais Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 é convertido em +14255550100  <br/>|
 |RedmondOperator  <br/> |Converte 0 para o Operador Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 é convertido em +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |Converte números com o prefixo (6) na rede e o código de local do Redmond (222).  <br/> |^ 6222 (\\d{4}) $  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
-|5digitRange  <br/> |Converte extensões de 5 dígitos iniciando com o intervalo de dígitos de 3 a 7 inclusive.  <br/> |^ ([3-7]\\d{4}) $  <br/> |+ 142555$ 1 <br/> |54567 é convertido em +14255554567  <br/> |
-|PrefixAdded  <br/> |Adiciona um prefixo de país na frente de um número de 9 dígitos com restrições no primeiro e terceiro dígitos.  <br/> |^ ([2-9]\\d\\d [2-9]\\d{6}) $  <br/> |1$1  <br/> |4255554567 é convertido em 14255554567  <br/> |
-|NoTranslation  <br/> |Corresponde 5 dígitos, mas não faz a conversão.  <br/> |^ (\\d{5}) $  <br/> |$1  <br/> |34567 é convertido em 34567  <br/> |
+|RedmondSitePrefix  <br/> |Converte números com o prefixo (6) na rede e o código de local do Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 é convertido em +14255550100  <br/> |
+|5digitRange  <br/> |Converte extensões de 5 dígitos iniciando com o intervalo de dígitos de 3 a 7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555$ 1 <br/> |54567 é convertido em +14255554567  <br/> |
+|PrefixAdded  <br/> |Adiciona um prefixo de país na frente de um número de 9 dígitos com restrições no primeiro e terceiro dígitos.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 é convertido em 14255554567  <br/> |
+|NoTranslation  <br/> |Corresponde 5 dígitos, mas não faz a conversão.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 é convertido em 34567  <br/> |
 
  **Plano de discagem de Redmond com base nas regras de normalização mostradas acima.**
 

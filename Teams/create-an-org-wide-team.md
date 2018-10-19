@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1882e18bdf746acc6b6991e4c574ca28cb3176a6
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: 3ef4426e2dca1a6ce20657e3e7480b9ee118bfa1
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502322"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678358"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe de toda a organização no Microsoft Teams
 
@@ -28,7 +28,7 @@ Com as equipes de toda a organização, os administradores globais podem criar f
 ![Captura de tela da opção toda a organização para criar uma equipe de toda a organização] (media/create-org-wide-team.png "Captura de tela da opção toda a organização para criar uma equipe de toda a organização")
 
 > [!NOTE]
-> Se você não vir a opção de **toda a organização** durante a criação de uma equipe e estiver um administrador global, o recurso ainda pode ser aplicação ou sua organização pode ter mais do que o limite de tamanho atual dos membros de 1000. Que queremos para aumentar esse limite no futuro.
+> Se você não vir a opção de **toda a organização** durante a criação de uma equipe e estiver um administrador global, o recurso ainda pode ser aplicação ou sua organização pode ter mais do que o limite de tamanho atual de 1.000 membros. Que queremos para aumentar esse limite no futuro.
 
 Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários de equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários que estão desabilitados para equipes, os usuários convidados e a maioria das salas não são adicionados para a equipe. Conforme o diretório da sua organização foi atualizado para incluir os novos usuários ativos ou se os usuários não funcionam mais na sua empresa e licença suas equipes estiver desabilitada, as alterações são automaticamente sincronizadas e os usuários forem adicionados ou removidos da equipe. Os membros da equipe não podem deixar uma equipe de toda a organização. Como um proprietário de equipe, manualmente é possível adicionar ou remover usuários, se necessário.
 
@@ -37,9 +37,13 @@ Quando uma equipe de toda a organização é criada, todos os administradores gl
 
 ## <a name="best-practices"></a>Práticas recomendadas
 Para obter o máximo da sua equipe de toda a organização, é recomendável que os proprietários de equipe faça o seguinte.
+
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que somente os proprietários de equipe postar no canal gerais
 Reduza o ruído de canal estabelecendo somente equipe postagem de proprietários no canal geral. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro** > selecione **somente proprietários podem postar mensagens**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar @team e @ menções [nome da equipe]
  Reduza @mentions para mantê-los da sobrecarga de toda a organização. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **@mentions** > desativar **Mostrar membros a opção de @team ou @[nome da equipe]**. 
 ### <a name="automatically-favorite-important-channels"></a>Canais de importantes automaticamente Favoritos
  Canais favoritos importantes para garantir que todos em sua organização participa de conversas específicas. Para saber mais, consulte [canais de Autofavorito a equipe inteira](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+
+### <a name="remove-accounts-that-might-not-belong"></a>Remover contas que não podem pertencer a
+Embora membros não é possível deixar uma equipe de toda a organização, como um proprietário de equipe, você pode gerenciar a lista de participação da equipe, removendo contas que não pertencem. Verifique se que você usar equipes para remover usuários da sua equipe de toda a organização.  Se você usar outra maneira de remover um usuário, como o Centro de administração do Microsoft 365 ou de um grupo no Outlook, o usuário pode ser adicionado novamente para a equipe de toda a organização. 

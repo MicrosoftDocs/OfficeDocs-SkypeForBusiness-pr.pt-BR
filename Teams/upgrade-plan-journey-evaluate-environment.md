@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d5e36389063ed3c03176506a1d31e4bfd488244
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c16362095538aca418991c16aeadc85d94245246
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373018"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678414"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -119,11 +119,11 @@ Se aplicável, capture os detalhes do seu Skype para implantação de negócios 
 
 > | Pergunta | Resposta | Comentários |
 > |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | Quais versões do Lync ou Skype for Business no momento <br>são implantados no local? | <input type="checkbox">O Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">O Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype para Business Server 2015 <br/> <input type="checkbox">Skype para o conector de nuvem Business Edition | |
+> | Quais versões do Lync ou Skype for Business no momento <br>são implantados no local? | <input type="checkbox">O Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">O Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype para Business Server 2015 <br/> <input type="checkbox">Skype para Business Server 2019 <br/> <input type="checkbox">Skype para o conector de nuvem Business Edition | |
 > | A implantação híbrida o Skype for Business Online está configurada? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Esse ambiente hospedado e gerenciado por um terceiro? <br/>Em caso afirmativo, observe os detalhes na coluna comentários. | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Quais modalidades e os recursos estão sendo usados <br>hoje? | <input type="checkbox">Mensagens instantâneas e presença (IM/P) <br/> <input type="checkbox">Reuniões <br/> <input type="checkbox">Federação <br/> <input type="checkbox">Gravação de reunião <br/> <input type="checkbox">Bate-papo persistente / bate-papo de grupo <br/> <input type="checkbox">Conferência de áudio da Microsoft <br>&nbsp;&nbsp; &nbsp;(anteriormente discar conferência) em sua <br>&nbsp;&nbsp; &nbsp;do Lync Server no local ou <br>&nbsp;&nbsp; &nbsp;Skype para implantação de negócios <br/> <input type="checkbox">Serviços de audioconferência de terceiros <br>&nbsp;&nbsp; &nbsp;(Observe os detalhes na coluna comentários) <br/> <input type="checkbox">Usando o Enterprise Voice local PSTN <br>&nbsp;&nbsp; &nbsp;conectividade <br/> <input type="checkbox">Planos de chamada (anteriormente PSTN chamar) via <br>&nbsp;&nbsp; &nbsp;Híbrida com Skype para negócios on-line | |
-> | Quais versões do Servidor de Borda você tem implantadas? | <input type="checkbox">O Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">O Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype para Business Server 2015 | |
+> | Quais versões do Servidor de Borda você tem implantadas? | <input type="checkbox">O Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox">O Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype para Business Server 2015 <br/> <input type="checkbox">Skype para Business Server 2019 | |
 > | Você tem Lync ou Skype para borda de negócios implantado <br>em mais de um datacenter? <br/>Em caso afirmativo, observe os detalhes na coluna comentários. | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Selecione os serviços que sua função de borda fornece hoje. | <input type="checkbox">Acesso de usuário externo (usuários corporativos) <br/> <input type="checkbox">Acesso de usuário remoto (anônimo externo <br>&nbsp;&nbsp; &nbsp;os participantes da reunião) <br/> <input type="checkbox">Federação <br/> <input type="checkbox">Retransmissão de mídia | |
 > | Quais do seguinte recursos de chamada de voz faça você <br>atualmente tem dependências? <br/>Observe quaisquer dependências adicionais nos comentários <br>coluna. | <input type="checkbox">Opções de disponibilidade <br/> <input type="checkbox">Estacionamento de chamada <br/> <input type="checkbox">Chamar retirada ou retirada de chamada de grupo <br/> <input type="checkbox">Telefones de área comum ou "hot desking" <br/> <input type="checkbox">Grupos de resposta ou grupos de busca <br/> <input type="checkbox">Aparência da linha compartilhada <br/> <input type="checkbox">Linha privada <br/> <input type="checkbox">Caixa postal <br/> <input type="checkbox">Chamada via trabalho <br/> <input type="checkbox">Números de emergência ou informações <br>&nbsp;&nbsp; &nbsp;(911, 811, 411) <br/> <input type="checkbox">Discagem de ramais <br/> <input type="checkbox">Atendedor automático <br/> <input type="checkbox">Acesso do assinante <br/> <input type="checkbox">Dispositivos analógicos <br/> <input type="checkbox">Fax <br/> <input type="checkbox">Mascaramento de ID de chamador ou alterar <br/> <input type="checkbox">Roteamento baseado no local <br/> <input type="checkbox">Roteamento de custo mínimo <br/> <input type="checkbox">Telefones elevador | |

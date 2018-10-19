@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso Skype para as ferramentas de telemetria Business Online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: 2c491a217f02af77a25f362697e6f89aceb9470c
-ms.sourcegitcommit: cbb4738e119cf366c3aad9aad7f7b369bcd86c19
+ms.openlocfilehash: 523ec9905243eaf6f2a4eb26e3757fb431f21489
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "25030697"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678130"
 ---
 # <a name="plan-call-data-connector"></a>Planejar o conector de dados de chamada
 
@@ -57,18 +57,23 @@ Obviamente, você talvez queira manter alguns dados de qualidade de chamada no l
 
 ## <a name="requirements"></a>Requisitos
 
-Os requisitos a seguir pressupõem que você já tem Skype para Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre como implantar o Skype para Business Server e topologias com suporte, consulte [Noções básicas de topologia](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics).
+Os requisitos a seguir pressupõem que você já tem Skype para Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre como implantar o Skype para Business Server e topologias com suporte, consulte [Noções básicas de topologia](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar o conector de dados da chamada, você deve:
 
-- Conectividade híbrida. Se você já tiver Skype para Business Server implantado e você deseja habilitar o conector de dados de chamadas, certifique-se de que você tem conectividade híbrida configurada entre seu local e ambientes on-line. Às vezes, isso é chamado uma configuração de domínio dividido. 
+- Habilite conectividade híbrida. Se você já tiver Skype para Business Server implantado e você deseja habilitar o conector de dados de chamadas, certifique-se de que você tem conectividade híbrida configurada entre seu local e ambientes on-line. Às vezes, isso é chamado uma configuração de domínio dividido. 
 
    Para obter mais informações, consulte [Planejar a conectividade híbrida entre Skype para Business Server e Office 365](plan-hybrid-connectivity.md) e a [Configurar a conectividade de híbrido entre Skype para Business Server e Office 365](configure-hybrid-connectivity.md).
 
-- Para configurar o conector de dados da chamada, você deve autenticar seu locatário do Office 365 e verifique se você tem as seguintes funções habilitadas:
+-  Autenticar seu locatário do Office 365 e verifique se você tem as seguintes funções habilitadas:
 
    - Skype para o administrador de servidor de negócios 
    - Administrador Global do Office 365 
 
 - Se ainda não tiver feito isso, ative o painel de controle de qualidade de chamada conforme descrito em [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
+ 
+- Habilite o pool de front-end para monitoramento, com bancos de dados LCSCdr e QoEMetrics locais. Sem isso, chame o conector de dados não terá dados de métricas para trabalhar. 
+ 
+> [!IMPORTANT]
+> Conector de dados de chamada não funcionará se monitoramento não estiver habilitado no pool de front-end.
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Relatórios de comparação dos locais e online painel de controle de qualidade de chamada (CQD)
 
@@ -84,22 +89,4 @@ Os requisitos a seguir pressupõem que você já tem Skype para Business Server 
 | Personalização de conjunto de relatórios <br> (Adicionar, excluir, modificar relatórios) | Sim | Sim |
 | Métricas de compartilhamento de tela com base em vídeo | Sim | Não |
 | APIs de dados para acesso programático <br> para CQD | Não | Sim |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+||||

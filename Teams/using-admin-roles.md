@@ -9,12 +9,12 @@ ms.service: msteams
 description: Saiba como usar as funções administrativas diferentes para gerenciar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 279fed07554589fda4d302b893e5136815963399
-ms.sourcegitcommit: ab4476127222d9f0aa9ee503132ff9bdabcaf9bc
+ms.openlocfilehash: 0e09aa4146588cf32a6dd7cf0816a89cb4bdd696
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2018
-ms.locfileid: "24025257"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678438"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar funções de administrador do Microsoft Teams para gerenciar equipes
 
@@ -28,10 +28,10 @@ Há quatro funções de administrador de equipes: administrador de serviço de e
 
 | Função | Pode fazer essas tarefas | Pode acessar as seguintes ferramentas |
 |----- | ------------------ | ------------------------------ |
-| Administrador de serviço de equipes | Gerenciar o serviço Microsoft Teams, gerenciar e criar grupos do Office 365 (Observe que as permissões para gerenciar o Office 365 grupos entram em outubro de 2018) | Tudo no Microsoft Teams & Skype para o Centro de administração de negócios e controles de PowerShell associados, incluindo:<br><br> Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Gerenciar mensagens, incluindo mensagens de políticas<sup>1,3</sup><br><br> Gerenciar todas as configurações de toda a organização, incluindo configurações de cliente equipes<sup>1,3</sup> , equipes de atualização e federação<br><br> Gerenciar as equipes na organização e suas configurações associadas, incluindo associação (estão chegando outubro de 2018) <sup>23</sup><br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
-| Administrador de comunicação de equipes | Gerenciar a chamada e recursos de reuniões dentro do serviço de Teams da Microsoft | Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>1,3</sup> |
-| Engenheiro de suporte de comunicação de equipes | Solucionar problemas de comunicação em equipes usando ferramentas **avançadas** . | Acesso à página de perfil de usuário para solucionar problemas de chamadas na análise de chamada. Pode exibir informações do Registro chamada completa. <sup>3</sup> |
-| Especialista de suporte de comunicação de equipes | Solucionar problemas de comunicação dentro de equipes, usando as ferramentas **básicas** .| Acesso à página de perfil de usuário para solucionar problemas de chamadas na análise de chamada. Só pode exibir informações do usuário para o usuário específico que está sendo procurado. <sup>3</sup>
+| Administrador de Serviço de Equipes | Gerenciar o serviço Microsoft Teams, gerenciar e criar grupos do Office 365 | Tudo no Microsoft Teams & Skype para o Centro de administração de negócios e controles de PowerShell associados, incluindo:<br><br> Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Gerenciar mensagens, incluindo mensagens de políticas<sup>1,3</sup><br><br> Gerenciar todas as configurações de toda a organização, incluindo configurações de cliente equipes<sup>1,3</sup> , equipes de atualização e federação<br><br> Gerenciar as equipes na organização e suas configurações associadas, incluindo a associação (suportado via PowerShell, gerenciamento de equipe no portal de administração de aplicação do gerenciamento de grupo) <sup>23</sup><br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
+| Administrador de Comunicações de Equipes | Gerenciar recursos de chamadas e reuniões no serviço Microsoft Teams | Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>1,3</sup> |
+| Engenheiro de Suporte de Comunicações de Equipes | Solucionar problemas de comunicação em equipes usando ferramentas **avançadas** . | Acesso à página de perfil de usuário para solucionar problemas de chamadas na análise de chamada. Pode exibir informações do Registro chamada completa. <sup>3</sup> |
+| Especialista de suporte de comunicação de equipes | Solucionar problemas de comunicação dentro de equipes, usando as ferramentas **básicas** .| Acesso à página de perfil de usuário para solucionar problemas de chamadas na análise de chamada. Só pode exibir informações do usuário específico que está sendo pesquisado.<sup>3</sup>
 
 <sup>1</sup> [PowerShell - Skype para o módulo de negócios](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - módulo de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>

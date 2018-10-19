@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para configurar o conector de dados da chamada, que permite a telemetria do Skype para negócios local para ser exibidos usando o Skype para as ferramentas de Business Online.
-ms.openlocfilehash: 7c64ff1cfb7c300c575fb1b4512c590d1ddb867d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5379b13d9b9962154a8b525109218dcf330336e4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373296"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678145"
 ---
 # <a name="configure-call-data-connector"></a>Configurar o conector de dados de chamada
 
@@ -27,10 +27,12 @@ Este artigo descreve como configurar o conector de dados chamada – um único c
 
 Para obter mais informações sobre os benefícios de conector de dados de chamadas e pré-requisitos, como requisitos de função e configurar a conectividade híbrida, consulte [Planejar conector de dados da chamada](plan-call-data-connector.md).
 
-## <a name="enable-monitoring"></a>Habilitar o monitoramento 
+## <a name="enable-monitoring"></a>Habilitar o monitoramento
+ 
+Você deve configurar o registro de dados de chamadas (CDR) e coleta de dados Quality of Experience (QoE) em seu front-end do pool de monitoramento, com LCSCdr e QoEMetrics bancos de dados locais; Caso contrário, a análise de chamada e os painéis de qualidade de chamada não obterá dados para trabalhar. Antes, você configurar conector de dados de chamada, siga as etapas fornecidas em [Deploy monitoramento no Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar tanto CDR e QoE como monitoramento básico.
 
-Você deve configurar coleta de dados de qualidade da experiência (QoE); e gravação de dados de chamadas (CDR) Caso contrário, a análise de chamada e os painéis de qualidade de chamada não obtenham as informações a serem exibidas. Antes, você configurar conector de dados de chamada, siga as etapas fornecidas em [Deploy monitoramento no Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar o CDR e QoE.
-
+> [!IMPORTANT]
+> Conector de dados de chamada não funcionará se monitoramento não estiver habilitado no pool de front-end.
 
 ## <a name="enable-call-data-connector"></a>Habilitar o conector de dados de chamada
 

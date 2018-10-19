@@ -10,12 +10,12 @@ search.appverid: MET150
 description: Saiba como usar o Windows PowerShell para gerenciar todos os recursos encontrados no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0daff64e5a0f6f876de4adb7b60d913fbcce78cb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c8eb0c37f71972bb20fac60706ff7a369d971d4
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016073"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678342"
 ---
 # <a name="using-powershell-to-manage-teams"></a>Usando o PowerShell para gerenciar equipes
 
@@ -32,7 +32,7 @@ Gerenciamento remoto do Microsoft Teams usando o PowerShell tem suporte apenas n
 - Windows 8 
 - Windows Server 2012 R2
 - Windows Server 2012
-- Windows Server 2008
+- Windows Server 2008
 - Windows 7
     
 Além de um sistema operacional, o computador também deve estar executando o seguinte:
@@ -48,7 +48,11 @@ Além de um sistema operacional, o computador também deve estar executando o se
 ### <a name="step-3-download-and-install-the-teams-connector-module"></a>Etapa 3: Baixar e instalar o módulo do conector de equipes
 [Use este tópico para obter ajuda](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 
 
-Aqui está o link de download do sabrina:https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3
+Instale o módulo mais recente da Galeria do PowerShell usando: 
+  
+  Install-Module MicrosoftTeams
+
+Ou, para obter mais informações, o pacote pode ser encontrado aqui:https://www.powershellgallery.com/packages/MicrosoftTeams/
 
 ### <a name="step-4-connect-using-the-teams-connector-module"></a>Etapa 4: Conectar usando o módulo do conector de equipes
 [Use este tópico para obter ajuda](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 

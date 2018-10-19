@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58dd3bb4e0f870cfcfff0f1297acdab7a82eb4a9
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 256ca09b8da5ccaed3ab5797e9d67246cebfee4e
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546681"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678137"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado de equipes
 ==========================================
@@ -32,7 +32,7 @@ Use esta lista de verificação para ajudá-lo a ativar e configurar o recurso d
 
 Vá para as equipes & Skype para o Centro de administração de negócios, via https://admin.teams.microsoft.com. A partir daqui, selecione 'Configurações de toda a organização' e seleciona na guia acesso do convidado por último, dentro desta guia, selecione 'Permitir acesso de convidado no Microsoft Teams' para habilitado. 
 
-## <a name="need-a-new-screenshot-for-new-admin-center-enablement"></a>Precisa de uma nova captura de tela para habilitação de novo centro de administração. 
+## <Need to display a photo of the new admin center>
 
 ## <a name="-enable-specific-settings-for-channels"></a>□ Habilitar configurações específicas para canais 
 No aplicativo de equipes, no nível equipe individuais, configure permissões de convidado para que os convidados podem criar, atualizar e excluir canais. Além dos administradores, os proprietários de equipe podem configurar essa definição.

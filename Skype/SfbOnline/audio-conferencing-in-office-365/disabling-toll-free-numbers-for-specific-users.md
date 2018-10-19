@@ -19,15 +19,15 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar como os organizadores podem usar números para ligações gratuitas para suas reuniões.
-ms.openlocfilehash: 316497b6b4569ffef4419b6ed2ce6994c604d16a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ee8274dd30b246da513d0597bf39964b94be8ca
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370607"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678146"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Desabilitando números para ligações gratuitas para Skype específico para usuários corporativos Online
-
+ 
 > [!Note]
 > Para obter informações sobre como desabilitar números livre de ferramenta para usuários de equipes, consulte [Desabilitando números para ligações gratuitas para usuários específicos de equipes](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users).
 
@@ -48,14 +48,15 @@ Quando os números para ligações gratuitas estão desabilitados para um determ
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Desativar números gratuitos para usuários específicos 
 
+Das **equipes da Microsoft & Skype para Business Admin Center**:
 
-1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio** > **usuários**e selecione o usuário da lista de usuários disponíveis. 
+1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-2. No Painel de Ações, clique em **Editar**. 
+2. Ao lado de **Conferência de áudio**, clique em **Editar**.
 
-3. Desmarque **Permitir usando números de discagem gratuita para participar de reuniões deste usuário**. 
- 
-4. Clique em **Salvar**. 
+3. Defina a **incluir números para ligações gratuitas nas solicitações deste usuário de reunião** para **Off**. 
+
+4. Clique em **Salvar.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

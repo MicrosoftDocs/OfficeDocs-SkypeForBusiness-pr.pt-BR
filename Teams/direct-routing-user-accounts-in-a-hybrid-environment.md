@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
-ms.openlocfilehash: aa2d5b7b98b4a683f7f79ee9fb9b76e04a40263b
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f6662a6a61e34a691cc058f20c356720a61dab54
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014207"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678406"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
@@ -28,7 +28,7 @@ ms.locfileid: "25014207"
 
 Este artigo se aplica a ambientes nos quais você tem todos os seguintes itens: 
  
-- Skype para Business Server 2015 ou o Lync Server 2013 
+- Skype para Business Server ou o Lync Server 2013 
 - Um locatário do Office 365 
 - Conectividade híbrida configurada entre o Skype para Business Server e Skype para locatário Business Online ou Teams da Microsoft 
 - Usuários habilitados para fazer e receber chamadas de rede de telefônica pública comutada (PSTN) para e do cliente

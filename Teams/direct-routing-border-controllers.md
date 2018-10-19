@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: Microsoft estabelece parceria com fornecedores de SBCs selecionados para certificar os SBCs para a operação com Roteamento Direto.
-ms.openlocfilehash: 375c5ca46e8af7bb31ad50b8c55a4fa629b8d2dd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seus SBCs funcionam com o roteamento direto.
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371792"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "25678446"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
-Microsoft estabelece parceria com fornecedores de controladores de borda da sessão (SBC, Session Border Controller) selecionados para certificar os SBCs para a operação com Roteamento Direto. 
+Parceiros da Microsoft com selecionado fornecedores de controladores de borda de sessão (SBC) para certificar que seus trabalhos SBCs com o roteamento direto. 
 
 Em relação a cada fornecedor, a Microsoft: 
 
