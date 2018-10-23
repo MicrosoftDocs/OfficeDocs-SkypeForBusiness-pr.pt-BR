@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 description: Leia sobre como implantar o sistema de sala do Skype, uma reunião solução de sala consiste em integrada de hardware e software que é otimizado para ingressar Skype para reuniões de negócios.
-ms.openlocfilehash: a985a209c63d6d0262db42fb07f78133960444ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020469"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699314"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planejamento da implantação do sistema de sala do Skype em Skype para negócios
  

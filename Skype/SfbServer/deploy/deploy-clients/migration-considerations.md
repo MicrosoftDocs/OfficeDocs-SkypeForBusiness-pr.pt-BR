@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Leia este tópico para saber mais sobre como implantar o sistema de sala Skype em um ambiente que possui várias versões do Skype para Business Server e o Lync Server.
-ms.openlocfilehash: 24015d85ef82b3a175564f92504d7c0ca46e9d54
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982745"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699718"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Considerações sobre migração do Sistema de Salas do Skype
  
@@ -22,7 +23,7 @@ Leia este tópico para saber mais sobre como implantar o sistema de sala Skype e
   
 ## <a name="migration-considerations"></a>Considerações sobre migração
 
-Esta seção fornece orientação se você estiver implantando o sistema de sala Skype em um ambiente de várias pool que inclui versões diferentes do Skype para Business Server, o Lync Server ou o Office Communications Server 2007 R2. 
+Esta seção fornece orientação se você estiver implantando o sistema de sala Skype em um ambiente de várias pool que inclui versões diferentes do Skype para Business Server ou o Lync Server. 
   
 O componente User Replicator (UR) no Lync Server obtém objetos de usuário do Active Directory e os coloca no back-end do Lync Server. Somente o UR no Lync Server 2013 está ciente dos objetos do sistema do Skype sala. O UR em versões anteriores do Lync Server e do Office Communications Server não detecta os atributos do Active Directory que designam os objetos LRS e, portanto, não tinha conhecimento deles. 
   

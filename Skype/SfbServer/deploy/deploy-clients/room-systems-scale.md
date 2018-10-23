@@ -5,18 +5,19 @@ author: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
+ms.reviewer: Turgayo
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este tópico para saber mais sobre como implantar sistemas de sala Skype v2 em implantações de grande escala.
-ms.openlocfilehash: c84517ba5ceb7eea582b379c8cabe5014dde43d5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372749"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699548"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implantar sistemas de sala Skype v2 usando o System Center Configuration Manager
 
@@ -610,7 +611,7 @@ Você pode baixar e facilmente importar uma sequência de tarefas de amostra e p
    11. **Arquivos de configuração de v2 SRS de cópia**: esta etapa copia os arquivos de instalação e configuração necessários do kit de implantação do Skype sala sistemas v2 para o disco rígido local. Sem personalização é necessária para esta etapa.
        -   Verifique se o **SRS v2 – SRS pacote de aplicativo** e o **redirecionamento de sistema de arquivo desabilitar 64 bits** são selecionado.
 
-   12. **Install-SRSv2-atualizações de sistema operacional**: essa etapa implanta quaisquer atualizações de obrigatório do sistema operacional necessárias com a implantação de v2 Skype sistemas de sala. Faça o seguinte:
+   12. **Install-SRSv2-atualizações de sistema operacional**: essa etapa implanta quaisquer atualizações de obrigatório do sistema operacional necessárias com a implantação de v2 Skype sistemas de sala. Do the following:
        -   Verifique o [console de configurar um v2 de sistemas de sala Skype](console.md) para ver quais atualizações são necessárias.
        -   Verifique se seu **SRS v2 – pacote de atualizações do sistema operacional** inclui todas as atualizações necessárias.
        -   Verifique se o **SRS v2 – pacote de atualizações do sistema operacional** está selecionado.
@@ -680,7 +681,7 @@ Depois de concluir as sequências de tarefas do System Center Configuration Mana
 
     5.  Selecione a **configuração de inicialização**.
 
-    6.  Use uma das seguintes opções:
+    6.  Siga um destes procedimentos:
 
         -   Selecione **inicialização PXE**e arraste-o para o topo da lista. Como alternativa, você poderá passar esquerda no adaptador de rede para inicializar o dispositivo imediatamente. Isso não afetará a ordem de inicialização.
         -   Selecione a unidade flash USB que contém a mídia de inicialização.

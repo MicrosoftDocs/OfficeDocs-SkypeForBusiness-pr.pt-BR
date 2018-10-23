@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Resumo: como usar o arquivo Config.xml para especificar instruções de instalação adicionais.'
-ms.openlocfilehash: a6234424240dc0d7ebb70762598467bfcee997e2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dfb6625146261b1bbf22e0f563717899c68beaae
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371510"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699555"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Usar o config. XML para executar tarefas de instalação no Skype para clientes corporativos
 
@@ -48,7 +49,7 @@ Os elementos do config. XML mais comuns utilizados para Skype para instalação 
 | **Elemento**              | **Descrição**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuração  <br/>     | Elemento de nível superior (obrigatório). Contém o atributo Product, por exemplo: Product=Lync (funcionará para clientes do Skype for Business)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | Especifica como os recursos específicos de produto são manipulados durante a instalação. Use os seguintes atributos para evitar a instalação dos serviços corporativos de conectividade, que inclui os componentes compartilhados que interferem no Outlook: <br/>  ID = "LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| OptionState  <br/>       | Especifica como os recursos específicos de produto são manipulados durante a instalação. Use os seguintes atributos para evitar a instalação dos serviços corporativos de conectividade, que inclui os componentes compartilhados que interferem no Outlook: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | Exibir  <br/>           | O nível deUI que a Instalação exibe para o usuário. Entre os atributos comuns estão os seguintes: <br/>  CompletionNotice = "Yes"                                                                                                                                                                                |
 | Registro em log  <br/>           | Opções para o tipo de registro em log executado pela Instalação. Entre os atributos comuns estão os seguintes: <br/>  Tipo = "Off"                                                                                                                                                                                       |
 | Configuração  <br/>           | Especifica valores para as propriedades do Windows Installer. Entre os atributos comuns estão os seguintes:<br/>  Setting Id = " *nome*" (o nome da propriedade do Windows Installer)  <br/>  Valor = " *valor*" (o valor a ser atribuído à propriedade)  <br/>                                                             |

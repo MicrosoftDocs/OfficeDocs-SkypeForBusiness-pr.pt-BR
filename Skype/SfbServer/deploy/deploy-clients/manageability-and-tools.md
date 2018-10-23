@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Leia este tópico para aprender sobre o gerenciamento de ferramentas para o Sistema de Salas do Skype.
-ms.openlocfilehash: 8e509059cc2fdffc35bba0d43a84c0699aa536d5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20977455"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699620"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Ferramentas e capacidade de gerenciamento do Sistema de Salas do Skype
  
@@ -50,7 +51,7 @@ Sistema de sala Skype podem ser monitorado por meio do System Center Operations 
   - Skype para ferramenta de análise de integridade comercial (Excel)    
   - Skype para o analisador de conectividade de negócios, 32 bits ou 64 bits
     
-- Examine a [solução de problemas novo útil e ferramentas de análise para o Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirme que você tem um Skype para pool de negócios e um servidor de Office Web Apps e pode compartilhar um deck de PowerPoint usando o Skype para clientes corporativos.
+- Revise [Novas ferramentas úteis para resolução de problemas e análise para o Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirme que você tem um Skype para pool de negócios e um servidor de Office Web Apps e pode compartilhar um deck de PowerPoint usando o Skype para clientes corporativos.
     
 - Se a sala de reunião já tiver uma caixa de correio de recurso, você deve ativá-lo para Skype para negócios.
     

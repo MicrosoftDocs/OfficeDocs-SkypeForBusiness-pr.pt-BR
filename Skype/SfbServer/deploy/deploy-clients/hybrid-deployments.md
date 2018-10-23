@@ -4,23 +4,24 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: Leia este tópico para saber como implantar o sistema de sala do Skype em um ambiente híbrido.
-ms.openlocfilehash: 4e73b182f7e957f6f8a45e2ba0ccaa113a96411f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 40cbcd7cd95b6a5dc7542f913fe7599bedc7eb85
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375277"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699669"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Implantações híbridas do Sistema de Salas do Skype
- 
+
 Leia este tópico para saber como implantar o sistema de sala do Skype em um ambiente híbrido.
   
-## <a name="hybrid-deployments"></a>Implantações Híbridas
+## <a name="hybrid-deployments"></a>Implantações híbridas
 
 Siga estas etapas se sua topologia tem Skype para Business Server e o Exchange Online, e você deseja hospedar a caixa de correio de recursos de sistema do Skype sala no Exchange Online. Esta seção também abrange um cenário híbrido onde você tem o Exchange Online e o Exchange Server implantados.
   

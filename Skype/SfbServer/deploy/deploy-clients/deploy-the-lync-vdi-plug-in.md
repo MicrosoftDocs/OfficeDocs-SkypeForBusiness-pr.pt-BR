@@ -3,18 +3,19 @@ title: Implantar o Lync VDI plug-in com Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: krishra
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Este tópico aborda os procedimentos de implantação para uso do Skype for Business durante a conexão a uma área de trabalho remota virtual.
-ms.openlocfilehash: 08f676632e11c4bf95beee9b97be03703978a4a6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 792e6ab2521be2eaf46bc3a43979173d878fcb63
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373341"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699690"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implantar o Lync VDI plug-in com Skype para Business Server
  
@@ -121,4 +122,4 @@ Veja a seguir os possíveis motivos das falhas e as ações que você pode tomar
 ## <a name="see-also"></a>Ver também
 <a name="tshoot_VDI"> </a>
 
-[Planejar para o Skype for Business em ambientes VDI](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Plan for Skype for Business in VDI environments](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

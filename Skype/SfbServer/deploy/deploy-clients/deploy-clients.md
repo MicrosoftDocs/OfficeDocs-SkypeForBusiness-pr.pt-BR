@@ -4,17 +4,18 @@ ms.author: chucked
 author: chuckedmonson
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Resumo: Visão geral dos métodos de instalação de cliente enterprise para Skype para negócios.'
-ms.openlocfilehash: 31eb109f80379487ba50342817759f8d9b30acda
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985684"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699278"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Implantar clientes para o Skype para Business Server
  
@@ -38,15 +39,15 @@ Os tópicos desta seção descrevem como usar e personalizar o Windows Installer
 
 - [Personalizar a instalação de cliente do Windows no Skype para Business Server](customize-windows-client-installation.md)
     
-- [Configurar a experiência do cliente com o Skype for Business](configure-the-client-experience.md)
+- [Configure the client experience with Skype for Business](configure-the-client-experience.md)
     
 - [Configurar lista de contatos Inteligente no Skype for Business Server](configure-smart-contacts-list.md)
     
 ## <a name="installing-device-clients"></a>Instalando clientes de dispositivos
 
-- [Skype for Business Server 2015: Instalar e testar o Skype for Business para Windows Phone](windows-phone.md)
+- [Install and test Skype for Business for Windows Phone](windows-phone.md)
     
-- [Instalar e testar o Skype for Business para iOS](ios.md)
+- [Install and test Skype for Business for iOS](ios.md)
     
 - [Implantar Sistema de Salas do Skype no Skype for Business Server](deploy-skype-room-system.md)
     

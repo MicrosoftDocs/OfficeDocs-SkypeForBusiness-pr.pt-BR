@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Visão geral do gerenciamento de sistemas de sala Skype v2.
-ms.openlocfilehash: d79c04c69e320f404c8ce245120e9b01bd8de1ca
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965653"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699349"
 ---
 # <a name="management-overview"></a>Visão geral do gerenciamento 
 
@@ -41,9 +41,9 @@ Informações sobre o estado do aplicativo de v2 Skype sala sistemas e dispositi
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (dword) 1  <br/> |Permite que os sistemas de sala Skype v2 inicialize  <br/> |
 |Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Permite que os sistemas de sala Skype v2 desativar exibe anexado e automaticamente de ativação  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou um modo equivalente de desabilitar a expiração da senha na conta local. A impossibilidade de fazer isso pode causar uma falha no logon com a conta do Skype com uma mensagem de senha expirada. Observe que isso afeta todas as contas locais do computador. Portanto, se isso não for definido, com o tempo, a conta de administrador também vai expirar.   <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
-Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+A transferência de arquivos usando Políticas de Grupo é abordada em [Configurar um item Arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gerenciamento remoto usando o PowerShell
 <a name="RemotePS"> </a>
@@ -70,17 +70,23 @@ Recomendamos que você revise e siga o [Guia Quality of Experience revisar](http
 
 Recomendamos que você atualize o Skype sala sistemas v2 SO e sistemas de sala Skype v2 aplicativo para se beneficiar de atualizações de produto e os aperfeiçoamentos. Para obter orientações detalhadas, consulte [gerenciar sistemas de sala Skype v2](room-systems-v2-operations.md#software-updates). 
 
+## <a name="windows-updates"></a>Atualizações do Windows
+
+Sistema de sala Skype v2 (SRS v2) é executado no Windows 10 Enterprise IoT ou Windows 10 Enterprise (VL) e recebe as mesmas compilações de atualizações do Windows e o sistema operacional como uma área de trabalho padrão. Consulte [Gerenciar atualizações do Windows](updates.md) para obter detalhes.
+
+
 ## <a name="troubleshooting"></a>Solução de problemas
 
 Recomendamos que você configure conforme descrito na seção acima para que sua equipe de operações e a assistência técnica serão alertados sobre qualquer problema de sistemas de sala Skype v2 alerta do pacote de gerenciamento de operações. As opções que disponíveis para gerenciamento remoto do PowerShell são descritas no [gerenciamento remoto usando o PowerShell](room-systems-v2-operations.md#remote-management-using-powershell). Se um dispositivo periférico estiver desconectado, você talvez seja necessário contam com suporte de TI para investigar e reconectar os dispositivos ou de locais "ponteiros inteligentes". 
 
 Para obter mais informações sobre o modo de administração e solução de problemas, consulte [gerenciar sistemas de sala Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
+
 ## <a name="see-also"></a>Consulte também
 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planejar o Skype Room Systems versão 2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 
 [Implantar o Skype Room Systems versão 2](../../deploy/deploy-clients/room-systems-v2.md)
 

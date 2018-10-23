@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3abecace4a15a85e4a0f8b895b44cd799b3c794f
-ms.sourcegitcommit: 4f6a5061e8ab074b80b9a46bd956e586afa9ce5f
+ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "25358889"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699306"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -41,9 +41,11 @@ Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parcer
 <a name="membership-roles-and-settings"></a>A associação, funções e configurações
 ------------------------------
 
-**Participante da Equipe** Quando o Microsoft Teams é ativado para toda a sua empresa, os proprietários de equipe designados podem convidar qualquer funcionário com quem eles trabalham para entrar em sua equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. Os proprietários de equipe também podem criar uma equipe baseado em um grupo do Office 365 existente. Quaisquer mudanças feitas ao grupo serão sincronizadas com o Microsoft Teams, automaticamente. Criar uma equipe baseada em um grupo do Office 365 existente, não apenas simplifica o processo de convidar e gerenciar os membros, mas também sincronizar os arquivos de grupo dentro do Microsoft Teams.
+**Participante da Equipe** Quando o Microsoft Teams é ativado para toda a sua empresa, os proprietários de equipe designados podem convidar qualquer funcionário com quem eles trabalham para entrar em sua equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
 
-**Funções no Teams** Existem duas funções principais no Microsoft Teams: um proprietário de equipe, a pessoa que cria a equipe e os membros da equipe, as pessoas que ele convida para entrar na equipe. Os proprietários de equipe podem tornar qualquer membro da sua equipe um coproprietário quando é feito o convite para a equipe ou a qualquer momento após ele ter entrado na equipe. Ter diversos proprietários de equipe permite que você compartilhe as responsabilidade de gerenciar as configurações e associações, incluindo convites.   
+Os proprietários de equipe também podem criar uma equipe baseado em um grupo do Office 365 existente. Quaisquer mudanças feitas ao grupo serão sincronizadas com o Microsoft Teams, automaticamente. Criar uma equipe baseada em um grupo do Office 365 existente, não apenas simplifica o processo de convidar e gerenciar os membros, mas também sincronizar os arquivos de grupo dentro do Microsoft Teams.
+
+**Funções no Teams** Existem duas funções principais no Microsoft Teams: um proprietário de equipe, a pessoa que cria a equipe e os membros da equipe, as pessoas que ele convida para entrar na equipe. Os proprietários de equipe podem tornar qualquer membro da sua equipe um coproprietário quando é feito o convite para a equipe ou a qualquer momento após ele ter entrado na equipe. Ter diversos proprietários de equipe permite que você compartilhe as responsabilidade de gerenciar as configurações e associações, incluindo convites.
 
 **Configurações da equipe** os proprietários de equipe podem gerenciar amplas configurações da equipe, diretamente no Microsoft Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais, adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes. 
 

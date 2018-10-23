@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: PhillipGarding
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumo: Implante o Skype para negócios Web App e Skype App de reuniões usado com Skype para negócios.'
-ms.openlocfilehash: 5789b239abd5acebca24b2d11b0747e6dd3bf9b5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c50a8afc4d12d7f3cf35fdcc966e322bd48199fc
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261032"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699534"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implantar clientes para download da Web no Skype para Business Server
 
@@ -132,7 +133,7 @@ Esse procedimento é opcional e se aplica a Skype para Business Server 2015 CU5 
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    As informações enviadas à Microsoft estão em conformidade com [Skype para práticas de coleta de dados corporativos](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    As informações enviadas à Microsoft estão em estrita conformidade com as [práticas de coleta de dados do Skype for Business](https://docs.microsoft.com/en-us/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Defina o tempo limite antes de queda de volta para o Skype hospedado localmente para a experiência de negócios Web App se CDN não estiver disponível. O valor padrão é de seis segundos. Se esse valor estiver definido como 0, não haverá tempo limite.
 

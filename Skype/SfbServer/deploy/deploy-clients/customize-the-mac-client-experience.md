@@ -3,18 +3,19 @@ title: Personalizar a experiência do cliente Mac no Skype for Business
 ms.author: jambirk
 author: jambirk
 manager: serdars
+ms.reviewer: PhillipGarding
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o cliente do Skype for Business no Mac e como editá-los de fora do aplicativo.
-ms.openlocfilehash: ae7f3a5c63a77820aba24e93d820ae2eff9176ad
-ms.sourcegitcommit: 25066ab000f7615aff31f77d9d39c266c65e2aa5
+ms.openlocfilehash: dd2f9b1d69e24f17cf76f33896804e5f50cd0ad3
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22912840"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699292"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  
@@ -43,7 +44,7 @@ Para definir essas preferências, obtenha um prompt de terminal no Mac do client
 |autoAcceptTimeout    |Número    |300 (padrão)    |Tempo limite de Autenticação Automática para usuários sem Histórico da Conversa do Servidor.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Desabilitado  <br/> 1 = Habilitado    |Avisa o usuário ao discar um número de emergência de um local desconhecido.    |
 |sipAddress    |Cadeia de caracteres    ||O endereço do SIP (Email) usado para entrar no Skype para negócios.    |
-|nome de usuário    |Cadeia de caracteres    ||O UPN (nome de usuário) usado para entrar no Skype para negócios.    |
+|userName    |Cadeia de caracteres    ||O UPN (nome de usuário) usado para entrar no Skype para negócios.    |
 |userNameInAdvancedOnly    |Bool    |0 = exibem o campo nome do usuário na tela principal entrar e na caixa de diálogo Propriedades avançadas  <br/> 1 = exibir o campo de nome de usuário somente na caixa de diálogo Propriedades avançadas (padrão)    |Especifique onde o campo nome de usuário é exibido durante a entrada.    |
    
 ### <a name="usage-examples"></a>Exemplos de uso

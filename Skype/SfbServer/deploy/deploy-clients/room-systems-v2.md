@@ -4,6 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar sistemas de sala Skype v2.
-ms.openlocfilehash: 2aac9e0701372fd6f0fdfd9035dca21fbaef1c9f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890954"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699627"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -118,7 +119,7 @@ Planejamento para configuração e implantação aborda as seguintes áreas prin
 -   Instalação de software de dispositivo
 -   Implantação de dispositivo
 -   Aplicativo do Skype sala sistemas v2 e configuração de dispositivos periféricos
--   Testando
+-    Testes
 -   Gerenciamento de ativos
 
 ### <a name="account-provisioning"></a>Provisionamento de contas 
@@ -193,7 +194,7 @@ Você pode usar o [PowerShell remoto](../../manage/skype-room-systems-v2/room-sy
 | ![](../../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se você vai configurar cada sistema v2 de sistemas de sala do Skype manualmente ou usar um arquivo XML de central (um por dispositivo do Skype sala sistemas v2).</li></ul>| 
 | ![](../../media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Defina sua abordagem de gerenciamento remoto.</li></ul>| 
 
-### <a name="testing"></a>Testando
+### <a name="testing"></a> Testes
 
 Depois que o sistema de v2 de sistemas de sala Skype tiver sido implantado, você deve testá-lo. Verifique se os recursos listados na [Ajuda do Skype sala sistemas v2](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) estão funcionando no dispositivo implantado. É altamente recomendável que a equipe de implantação verificar que o v2 de sistemas de sala Skype está fazendo logon em um pacote de gerenciamento do Microsoft Operations (se usado). Também é importante que você faça um número de reuniões e chamadas de teste para verificar a qualidade. Para obter mais informações, consulte essa [lista de verificação de implantação útil](console.md#skype-room-systems-v2-deployment-checklist). 
 

@@ -4,17 +4,18 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Leia este tópico para saber como implantar o Sistema de Salas do Skype em um ambiente local de floresta única.
-ms.openlocfilehash: a0c3f76d94e54c616068303a08e4e4254f5f8347
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5fd9ab3f2a2e581f2f1675bea0f663b95cfa3eb5
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375298"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25699711"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Implantações locais de uma única floresta do Sistema de Salas do Skype
  
@@ -24,7 +25,7 @@ Esta seção fornece uma visão geral das etapas para a conta do sistema de sala
   
 ## <a name="single-forest-on-premises-deployments"></a>Implantações locais de floresta única
 
-Se você já tem uma conta de caixa de correio de recursos para a sala de conferências, pode utilizá-la. Caso contrário, será necessário criar uma nova. Você pode usar o Shell de Gerenciamento do Exchange (PowerShell) ou o Console de Gerenciamento do Exchange para criar uma nova conta de caixa de correio de recursos. É recomendável usar um novo (antiga da caixa de correio de excluir e recriar) caixa de correio de recurso para o sistema de sala Skype. Faça o backup dos dados da caixa de correio antes de excluí-los e, em seguida, exporte-os novamente para a caixa de correio recriada usando o cliente Outlook (consulte Exportar ou fazer backup de mensagens, calendário, tarefas e contatos para obter mais informações). Para restaurar as reuniões perdidas, excluindo a caixa de correio, consulte [Connect ou restauração uma caixa de correio excluída](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
+Se você já tem uma conta de caixa de correio de recursos para a sala de conferências, pode utilizá-la. Caso contrário, será necessário criar uma nova. Você pode usar o Shell de Gerenciamento do Exchange (PowerShell) ou o Console de Gerenciamento do Exchange para criar uma nova conta de caixa de correio de recursos. É recomendável usar um novo (antiga da caixa de correio de excluir e recriar) caixa de correio de recurso para o sistema de sala Skype. Faça o backup dos dados da caixa de correio antes de excluí-los e, em seguida, exporte-os novamente para a caixa de correio recriada usando o cliente Outlook (consulte Exportar ou fazer backup de mensagens, calendário, tarefas e contatos para obter mais informações). Para restaurar as reuniões perdidas com a exclusão da caixa de correio, consulte [Conectar ou restaurar uma caixa de correio excluída](https://technet.microsoft.com/library/jj863438%28v=exchg.150%29.aspx). 
   
 Para usar uma conta de caixa de correio de recursos existente (por exemplo, LRS-01), siga as etapas abaixo:
   
