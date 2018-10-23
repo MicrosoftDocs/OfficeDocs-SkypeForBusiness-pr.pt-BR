@@ -1,0 +1,68 @@
+---
+title: Presença do usuário em equipes
+author: jambirk
+ms.author: jambirk
+manager: serdars
+ms.date: 08/21/2018
+ms.topic: article
+ms.service: msteams
+ms.reviewer: rakayala
+description: Os administradores de informações precisam entender sobre a presença em equipes.
+localization_priority: Normal
+search.appverid: MET150
+MS.collection: Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: d7f6ef1e7c20e4cc08d021d30a7b52062f08a2ac
+ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "25705579"
+---
+# <a name="user-presence-in-teams"></a><span data-ttu-id="d7bbe-103">Presença do usuário em equipes</span><span class="sxs-lookup"><span data-stu-id="d7bbe-103">User Presence in Teams</span></span>
+
+<span data-ttu-id="d7bbe-104">Presença faz parte de um perfil de usuário no Microsoft Teams (e ao longo do Office 365) – e indica a disponibilidade atual do usuário e o status para outros usuários na organização.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-104">Presence is part of a user’s profile in Microsoft Teams (and throughout Office 365) – and indicates the user’s current availability and status to other users in the organization.</span></span> <span data-ttu-id="d7bbe-105">Por padrão, qualquer pessoa na sua organização usando equipes pode ver ou não a outros usuários estão disponíveis online.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-105">By default, anyone in your organization using Teams can see whether or not other users are available online.</span></span>
+
+## <a name="presence-states-in-teams"></a><span data-ttu-id="d7bbe-106">Estados de presença em equipes</span><span class="sxs-lookup"><span data-stu-id="d7bbe-106">Presence states in Teams</span></span>
+
+<span data-ttu-id="d7bbe-107">Os estados de presença do usuário disponíveis em equipes são:</span><span class="sxs-lookup"><span data-stu-id="d7bbe-107">The user presence states available in Teams are:</span></span>
+
+|<span data-ttu-id="d7bbe-108">Configurado pelo usuário</span><span class="sxs-lookup"><span data-stu-id="d7bbe-108">User configured</span></span>|<span data-ttu-id="d7bbe-109">App configurada</span><span class="sxs-lookup"><span data-stu-id="d7bbe-109">App configured</span></span>|
+|:--- |:---|
+| ![Presença disponíveis](media/Presence_Available.png) <span data-ttu-id="d7bbe-111">Disponível</span><span class="sxs-lookup"><span data-stu-id="d7bbe-111">Available</span></span>|![Presença disponíveis](media/Presence_Available.png) <span data-ttu-id="d7bbe-113">Disponível</span><span class="sxs-lookup"><span data-stu-id="d7bbe-113">Available</span></span>|
+|| ![oof disponível](media/Presence_Available_OOF.png) <span data-ttu-id="d7bbe-115">Disponível, ausência temporária</span><span class="sxs-lookup"><span data-stu-id="d7bbe-115">Available, Out of Office</span></span> |
+|  ![Ocupado](media/Presence_Busy.png) <span data-ttu-id="d7bbe-117">Ocupado</span><span class="sxs-lookup"><span data-stu-id="d7bbe-117">Busy</span></span> |  ![Ocupado](media/Presence_Busy.png) <span data-ttu-id="d7bbe-119">Ocupado</span><span class="sxs-lookup"><span data-stu-id="d7bbe-119">Busy</span></span>  |
+|| ![Ocupado](media/Presence_Busy.png) <span data-ttu-id="d7bbe-121">Em uma chamada</span><span class="sxs-lookup"><span data-stu-id="d7bbe-121">In a call</span></span>|
+|| ![Ocupado](media/Presence_Busy.png) <span data-ttu-id="d7bbe-123">Em uma reunião</span><span class="sxs-lookup"><span data-stu-id="d7bbe-123">In a meeting</span></span> |
+|| ![oof ocupado](media/Presence_Busy_OOF.png) <span data-ttu-id="d7bbe-125">Em uma chamada, ausência temporária</span><span class="sxs-lookup"><span data-stu-id="d7bbe-125">In a call, out of office</span></span>|
+|  ![Não incomodar](media/Presence_DND.png) <span data-ttu-id="d7bbe-127">Não incomodar</span><span class="sxs-lookup"><span data-stu-id="d7bbe-127">Do not disturb</span></span> ||
+|| ![Não incomodar](media/Presence_DND.png) <span data-ttu-id="d7bbe-129">Apresentando</span><span class="sxs-lookup"><span data-stu-id="d7bbe-129">Presenting</span></span>|
+| ![ausente](media/Presence_Away.png) <span data-ttu-id="d7bbe-131">Ausente</span><span class="sxs-lookup"><span data-stu-id="d7bbe-131">Away</span></span>| ![ausente](media/Presence_Away.png) <span data-ttu-id="d7bbe-133">Ausente</span><span class="sxs-lookup"><span data-stu-id="d7bbe-133">Away</span></span>|
+|| <span data-ttu-id="d7bbe-134">![ausente](media/Presence_Away.png) vistas ausente última *hora*</span><span class="sxs-lookup"><span data-stu-id="d7bbe-134">![away](media/Presence_Away.png) Away Last Seen *time*</span></span>|
+|![ausente](media/Presence_Away.png) <span data-ttu-id="d7bbe-136">Volto logo</span><span class="sxs-lookup"><span data-stu-id="d7bbe-136">Be right back</span></span>| |
+|| ![ausente](media/Presence_Away.png)  <span data-ttu-id="d7bbe-138">Ausente do trabalho</span><span class="sxs-lookup"><span data-stu-id="d7bbe-138">Off Work</span></span>|
+|| ![Offline](media/Presence_Offline.png) <span data-ttu-id="d7bbe-140">Offline</span><span class="sxs-lookup"><span data-stu-id="d7bbe-140">Offline</span></span> |
+|| ![desconhecido](media/Presence_Unknown.png) <span data-ttu-id="d7bbe-142">Status desconhecido</span><span class="sxs-lookup"><span data-stu-id="d7bbe-142">Status unknown</span></span>|
+||![bloqueado](media/Presence_Blocked.png) <span data-ttu-id="d7bbe-144">Bloqueado</span><span class="sxs-lookup"><span data-stu-id="d7bbe-144">Blocked</span></span> |
+|| ![Ausência temporária](media/Presence_OOF.png) <span data-ttu-id="d7bbe-146">Ausência temporária</span><span class="sxs-lookup"><span data-stu-id="d7bbe-146">Out of Office</span></span>|
+|||
+ 
+<span data-ttu-id="d7bbe-147">Os usuários podem definir manualmente seu estado de presença atual para algumas opções e seu estado obtém refletido para todos os outros usuários.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-147">Users can manually set their current presence state to some options, and their state gets reflected to all other users.</span></span> <span data-ttu-id="d7bbe-148">Detalhes de presença do usuário adicionais são atualizados também automaticamente com base nos Estados do aplicativo de equipes, Outlook calendário estados (como em uma reunião) ou atividade do usuário (por exemplo, disponível ou ausente) (em uma chamada, apresentando), Estados recuados na lista.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-148">Additional user presence details are also automatically updated based on user activity (such as Available or Away), Outlook calendar states (such as In a meeting), or Teams app states (In a call, Presenting), to states that are indented in the list.</span></span>
+
+<span data-ttu-id="d7bbe-149">Há um limite de inatividade de 15 minutos, após o qual o estado de presença atual dos usuários será redefinido para ausente.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-149">There is a 15 minute inactivity timeout, after which your users' current presence state will be reset to Away.</span></span>
+
+<span data-ttu-id="d7bbe-150">Os usuários podem especificar que podem ser acessadas pelo (contatá-los substituindo uma configuração não incomodar).</span><span class="sxs-lookup"><span data-stu-id="d7bbe-150">Users can specify who can break through (contact them overriding a Do Not Disturb setting).</span></span> <span data-ttu-id="d7bbe-151">Essas configurações estão disponíveis no aplicativo.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-151">These settings are available in-app.</span></span>
+
+## <a name="teams-is-not-skype-for-business"></a><span data-ttu-id="d7bbe-152">As equipes não for Skype para negócios</span><span class="sxs-lookup"><span data-stu-id="d7bbe-152">Teams is not Skype for Business</span></span>
+
+<span data-ttu-id="d7bbe-153">As seguintes configurações de administração no Skype para negócios são diferentes em equipes:</span><span class="sxs-lookup"><span data-stu-id="d7bbe-153">The following Admin settings in Skype for Business are different in Teams:</span></span>
+- <span data-ttu-id="d7bbe-154">Compartilhamento de presença sempre está habilitada em equipes para usuários na organização.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-154">Presence sharing is always enabled in Teams for users in the organization.</span></span> <span data-ttu-id="d7bbe-155">Configuração de privacidade (decidir quem pode ver a presença) não está disponível em equipes.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-155">Privacy (deciding who can see Presence) configuration is not available in Teams.</span></span>
+- <span data-ttu-id="d7bbe-156">Presença compartilhamento com todos (inclusive serviços federados) está sempre habilitada para usuários de equipes.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-156">Presence sharing with everyone (including Federated services) is always enabled for users in Teams.</span></span> <span data-ttu-id="d7bbe-157">Sua lista de contatos (se eles tinham um SfB) está visível em **Chat > Contatos** ou em **chamadas > Contatos**.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-157">Their contact list (if they had one in SfB) is visible under **Chat > Contacts** or under **Calls > Contacts**.</span></span>
+- <span data-ttu-id="d7bbe-158">Recursos de cliente não incomodar e inovadora sempre estão habilitados para usuários de equipes.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-158">Client Do Not Disturb and Breakthrough features are always enabled for users in Teams.</span></span>
+- <span data-ttu-id="d7bbe-159">Calendário (inclui OOF & outras informações de calendário) integração está sempre habilitada para usuários em equipes se integrado com o Outlook.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-159">Calendar (includes OOF & other calendar info) integration  is always enabled for users in Teams if integrated with Outlook.</span></span>
+- <span data-ttu-id="d7bbe-160">O indicador *ausente desde* (se estiver em um ambiente de duplo com Skype for Business) ou *visto pela última vez* está sempre habilitada para usuários de equipes.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-160">The *Last seen* or *Away since* (if in a dual environment with Skype for Business) indicator is always enabled for users in Teams.</span></span>
+- <span data-ttu-id="d7bbe-161">A definição de um status de presença personalizados não está habilitada para usuários em equipes.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-161">Setting a custom presence status is not enabled for users in Teams.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="d7bbe-162">A capacidade de um administrador de equipes de personalizar essas configurações não é suportada no momento.</span><span class="sxs-lookup"><span data-stu-id="d7bbe-162">The ability of a Teams Admin to customize these settings is not currently supported.</span></span>
