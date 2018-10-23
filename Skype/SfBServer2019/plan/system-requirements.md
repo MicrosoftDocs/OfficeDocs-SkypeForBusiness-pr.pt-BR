@@ -9,18 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: Prepare seu Skype para servidores de negócios Server 2019 e infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os os requisitos do sistema e recomendações, juntamente com o certificado DNS, compartilhamento de arquivos e informações do Active Directory, estão aqui ajudar a garantir uma instalação bem-sucedida e a implantação de farm de servidores.'
-ms.openlocfilehash: a5422f52e9158d01f821c0a2abd051917fbed7b1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c7064f4d1c8136cf714d784fd1985efd0f21c979
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375124"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696244"
 ---
-# <a name="server-requirements-for-skype-for-business-server-2019"></a>Requisitos de servidor do Skype para Business Server 2019
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
-
+# <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos de sistema do Skype para Business Server 2019
  
 **Resumo:** Preparar-se para instalar o Skype para Business Server 2019 com este tópico. Hardware, sistema operacional, software, bancos de dados, certificados, Active Directory, DNS e compartilhamentos de arquivos são abordados aqui. Todos os requisitos do sistema e recomendações estão aqui ajudar a garantir uma instalação bem-sucedida e a implantação de farm de servidores.
   
@@ -65,14 +61,14 @@ Hardware recomendado para servidores Front-End e servidores Back-End:
 |CPU  <br/> |Processador duplo de v3 Intel Xeon E5-2673, 6-core, 2,4 gigahertz (GHz) ou superior. <br/> Processadores Intel Itanium não são suportados para Skype para funções de negócios Server 2019.  <br/> |
 |Memória  <br/> |64 gigabytes (GB).  <br/> |
 |Disco  <br/> |UMA DAS OPÇÕES:  <br/> • 8 ou mais unidades de disco rígido de 10000 RPM com pelo menos 72 GB de espaço livre (dois dos discos usando RAID 1 e 6 usando RAID 10).   <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho similar ao de 8 unidades de disco mecânicas de 10000 RPM.  <br/> |
-|Rede  <br/> |1 adaptador de rede duplo, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam estar combinados com um único endereço MAC e um único endereço IP).  <br/> Configurações duas ou multihomed são **não** suportado para servidores Front-End, servidores Back-End, Standard Edition servidores e os servidores de Chat persistente. <br/> Desde que eles não são expostos para o sistema operacional e estão sendo usados para monitorar e gerenciar o hardware de servidor, você pode ter sistemas de gerenciamento de fora da faixa, DRAC ou ILO. Esse cenário não constitui um servidor multihomed e tem suporte.  <br/> |
+|Rede  <br/> |1 adaptador de rede duplo, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam estar combinados com um único endereço MAC e um único endereço IP).  <br/> Configurações de duas ou multihomed são **não** suportado para servidores Front-End, servidores Back-End e Standard Edition servidores. <br/> Desde que eles não são expostos para o sistema operacional e estão sendo usados para monitorar e gerenciar o hardware de servidor, você pode ter sistemas de gerenciamento de fora da faixa, DRAC ou ILO. Esse cenário não constitui um servidor multihomed e tem suporte.  <br/> |
    
 Hardware recomendado para servidores de borda, servidores de mediação autônomo e diretores:
   
 |**Componente de hardware**|**Recomendado**|
 |:-----|:-----|
 |CPU  <br/> |Processador duplo de v3 Intel Xeon E5-2673, 6-core, 2,4 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não são suportados para Skype para funções de negócios Server 2019.  <br/> |
-|Memória  <br/> |16 GB.  <br/> |
+|Memória  <br/> |32 gigabytes.  <br/> |
 |Disco  <br/> |UMA DESTAS OPÇÕES:  <br/> • 4 ou mais unidades de disco rígido de 10000 RPM com pelo menos 72 GB de espaço livre (os discos devem estar em uma configuração de 2x RAID 1).  <br/> OU  <br/> • Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho similar ao de 4 unidades de disco mecânicas de 10000 RPM.  <br/> |
 |Rede  <br/> |1 adaptador de rede duplo, 1 Gbps ou superior (2 adaptadores de rede podem ser usados, mas eles precisam estar combinados com um único endereço MAC e um único endereço IP).  <br/> São configurações duas multihomed ou **não** tem suporte para servidores de interoperabilidade de vídeo e diretores. <br/> Servidores de borda exigem duas interfaces de rede que são adaptadores de rede dual-port, 1 Gbps ou superior (ou dois adaptador de rede pareados, com um total de quatro, sendo que cada par está combinado com um único endereço MAC e um único endereço IP).  <br/> Em autônoma servidores de mediação, há suporte para a instalação de placas de interface de rede adicionais (NICs) para permitir que a configuração de um endereço IP PSTN específico.  <br/> |
 
@@ -91,10 +87,19 @@ Depois que o hardware no lugar, você precisará ao instalar sistema operacional
   
 |||
 |:-----|:-----|
+|Windows Server 2019 <br/> |
 |Windows Server 2016 <br/> ||
 ||
    
-Qualquer coisa diferente do Windows Server 2016 não funcionarão corretamente; Não tente ele instalações do Skype para Business Server 2019.
+Qualquer coisa diferente de sistemas operacionais listados aqui não funcionarão corretamente; Não tente ele instalações do Skype para Business Server 2019.
+
+> [!NOTE]
+> 
+> Se você estiver instalando o Windows Admin Center 2019 em sua máquina do Windows Server 2019, avisará para escutar em uma porta. Não há um liklihood que você pode escolher a porta 443, mas se essa máquina tem Skype para negócios 2019 de servidor instaladas nele, ou terá Skype para negócios 2019 de servidor instaladas nele, em seguida, você deve escolher um número de porta diferente.
+> 
+>Por que isso é o caso? Se 2019 de centro de administração do Windows estiver em execução na porta 443, não será capaz de se conectar ao servidor usando o Skype para painel de controle de negócios, nem será capaz de se conectar a qualquer serviço da web internos em execução no servidor (serviço de Web catálogo de endereços Autodiscover Service, WebTicket Service, etc).  Na verdade, não será capaz de se conectar a qualquer URL interna do serviço Web. Escolha uma porta diferente, no caso você precise ou deseja colocar 2019 de centro de administração do Windows em um servidor com Skype para Business Server 2019.
+> 
+
   
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2019-deployment"></a>Software que deve ser instalado antes de um Skype para implantação Business Server 2019
 <a name="Software"> </a>
@@ -257,7 +262,7 @@ O nível funcional do domínio de qualquer domínio em que você implantar o Sky
     
 É possível ter controladores de domínio somente leitura nesses ambientes? Com certeza, contanto que daí também estão controladores de domínio graváveis disponíveis.
   
-É importante saber que Skype para Business Server 2019 não dá suporte a domínios com rótulo único. O que são esses domínios? Se você tiver um domínio raiz rotulado Contoso, que vai ser tudo bem. Se você tiver um domínio raiz chamado apenas local, que não vai funcionar, e não é suportado como resultado. Um pouco mais sobre isso foi escrito [neste artigo da Base de dados de Conhecimento](https://support.microsoft.com/kb/300684/en-us).
+É importante saber que Skype para Business Server 2019 não dá suporte a domínios com rótulo único. O que são esses domínios? Se você tiver um domínio raiz rotulado Contoso, que vai ser tudo bem. Se você tiver um domínio raiz chamado apenas local, que não vai funcionar, e não é suportado como resultado. Saiba mais sobre isso lendo [este artigo da base de dados de conhecimento](https://support.microsoft.com/kb/300684/en-us).
   
 Skype para Business Server 2019 também não tem suporte para renomeação de domínios. Se você tiver realmente renomear seu domínio, você vai precisa desinstalar Skype para negócios 2019 do servidor, faça a renomeação de domínio e reinstalar Skype para Business Server 2019.
   
@@ -342,7 +347,7 @@ Nessa topologia, há uma ou mais florestas de usuário e Skype para Business Ser
   
 Neste cenário há várias florestas locais, com uma topologia de floresta de recursos. Há um relacionamento de total confiança entre as florestas do Active Directory. A ferramenta Azure Active Directory Connect é usada para sincronizar contas entre as florestas de usuários locais e o Office 365.
   
- A organização também tem o Office 365 e usa o [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) para sincronizar suas contas no local com o Office 365. Os usuários habilitados para o Skype para negócios estão habilitados por meio do Office 365 e Skype para Business Online. Skype para Business Server não é implantados no local.
+ A organização também tem o Office 365 e usa o [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) para sincronizar suas contas locais com o Office 365. Os usuários habilitados para o Skype para negócios estão habilitados por meio do Office 365 e Skype para Business Online. Skype para Business Server não é implantados no local.
   
 Autenticação de logon única é fornecida por um farm de serviços de Federação do Active Directory localizado na floresta de usuário.
   
@@ -445,36 +450,36 @@ Certificados para servidores Standard Edition:
 |**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo de entidade**|**Exemplo**|**Comentários**|
 |:-----|:-----|:-----|:-----|:-----|
 |Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool for o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) for exigida na política do grupo, também serão necessárias entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Se esse pool for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão necessários: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |Nos servidores Standard Edition, o FQDN do servidor é igual ao FQDN do pool.  <br/> O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também utiliza este certificado para Autenticação de Servidor para Servidor.  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que é o mesmo que o FQDN do servidor)  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com; SAN=Admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN =\*. contoso.com  <br/> |Você não pode substituir o FQDN no construtor de topologia de web interna.  <br/> Se você tiver vários atender a URLs simples, você deve incluir todos eles como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN de web externa  <br/> AND  <br/> • Dial-in de URL simples  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Se você tiver vários atender a URLs simples, você deve incluir todos eles como nomes de entidade alternativos.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que é o mesmo que o FQDN do servidor)  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN =\*. contoso.com  <br/> |Você não pode substituir o FQDN no construtor de topologia de web interna.  <br/> Se você tiver vários atender a URLs simples, você deve incluir todos eles como SANs.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN de web externa  <br/> AND  <br/> • Dial-in de URL simples  <br/> • Atender a URLs simples por domínio SIP  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Se você tiver vários atender a URLs simples, você deve incluir todos eles como nomes de entidade alternativos.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
    
 Certificados para servidores Front-End em um pool de Front-End:
   
 |**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo de entidade**|**Exemplo**|**Comentários**|
 |:-----|:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool for o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) for exigida na política do grupo, também serão necessárias entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Se esse pool for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão necessários: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também utiliza este certificado para Autenticação de Servidor para Servidor.  <br/> |
-|Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que não é o mesmo que o FQDN do servidor)  <br/> • O FQDN do servidor  <br/> • Skype para o FQDN do pool de negócios  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com; SAN=Admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Se você tiver vários atender a URLs simples, você deve incluir todos eles como nomes de entidade alternativos.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
-|Web externa  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN de web externa  <br/> AND  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Se você tiver vários atender a URLs simples, você deve incluir todos eles como nomes de entidade alternativos.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool e FQDN do servidor  <br/> Se você tiver vários domínios SIP e tiver habilitado a configuração automática do cliente, o assistente de certificados detectará e adicionará os FQDNs de cada domínio SIP aceito.  <br/> Se esse pool for o servidor de logon automático para clientes, e a combinação estrita do Sistema de Nome de Domínio (DNS) for exigida na política do grupo, também serão necessárias entradas para o sip.sipdomain (para cada domínio de SIP que você tiver).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Se esse pool for o servidor de logon automático para clientes, e se a combinação estrita de DNS for exigida na política do grupo, também serão necessários: SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |O assistente detecta quaisquer domínios SIP especificados durante a instalação e os adiciona automaticamente ao nome alternativo para a entidade.  <br/> Você também utiliza este certificado para Autenticação de Servidor para Servidor.  <br/> |
+|Web interna  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que não é o mesmo que o FQDN do servidor)  <br/> • O FQDN do servidor  <br/> • Skype para o FQDN do pool de negócios  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Se você tiver vários atender a URLs simples, você deve incluir todos eles como nomes de entidade alternativos.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
+|Web externa  <br/> |FQDN do pool  <br/> |Cada um dos seguintes:  <br/> • FQDN de web externa  <br/> AND  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Se você tiver vários atender a URLs simples, você deve incluir todos eles como nomes de entidade alternativos.  <br/> As entradas curinga são suportadas pelas entradas de URL simples.  <br/> |
    
 Certificados para o Diretor:
   
 |**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo de entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|Padrão  <br/> |Pool de diretores  <br/> |FQDN do diretor, FQDN do pool de diretores.  <br/> Se esse pool for o servidor de logon automático para clientes e a combinação estrita DNS é exigida na política de grupo, você também precisará de entradas para sipdomain (para cada domínio SIP que você tiver).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Se esse pool de diretor for o servidor de logon automático para clientes e estrita de DNS for exigida na política de grupo, também serão precisos; SAN = SIP.Fabrikam.com  <br/> |
-|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que é o mesmo que o FQDN do servidor)  <br/> • O FQDN do servidor  <br/> • Skype para o FQDN do pool de negócios  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com; SAN=Admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN =\*. contoso.com  <br/> |
-|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN de web externa  <br/> AND  <br/> • Atender a URLs simples por domínio SIP  <br/> • Dial-in de URL simples  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |A FQDN de web externa de diretores deve ser diferente do pool de Front-End ou servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.Fabrikam.com; SAN=Dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN =\*. contoso.com  <br/> |
+|Padrão  <br/> |Pool de diretores  <br/> |FQDN do diretor, FQDN do pool de diretores.  <br/> Se esse pool for o servidor de logon automático para clientes e a combinação estrita DNS é exigida na política de grupo, você também precisará de entradas para sipdomain (para cada domínio SIP que você tiver).  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> Se esse pool de diretor for o servidor de logon automático para clientes e estrita de DNS for exigida na política de grupo, também serão precisos; SAN = SIP.Fabrikam.com  <br/> |
+|Web interna  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • Internos da web FQDN (que é o mesmo que o FQDN do servidor)  <br/> • O FQDN do servidor  <br/> • Skype para o FQDN do pool de negócios  <br/> AND  <br/> • Atender a URLs simples  <br/> • Dial-in de URL simples  <br/> • URL simples de Admin  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN =\*. contoso.com  <br/> |
+|Web externa  <br/> |FQDN do servidor  <br/> |Cada um dos seguintes:  <br/> • FQDN de web externa  <br/> AND  <br/> • Atender a URLs simples por domínio SIP  <br/> • Dial-in de URL simples  <br/> OU  <br/> • Uma entrada curinga para URLs simples  <br/> |A FQDN de web externa de diretores deve ser diferente do pool de Front-End ou servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Como usar um certificado curinga:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN =\*. contoso.com  <br/> |
    
 Certificados para o servidor de mediação autônomo:
   
 |**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo de entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool  <br/> FQDN do servidor membro do pool  <br/> |SN = medsvr-pool.contoso.net; SAN = medsvr-pool.contoso.net; SAN=medsvr01.contoso .net  <br/> |
+|Padrão  <br/> |FQDN do pool  <br/> |FQDN do pool  <br/> FQDN do servidor membro do pool  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 Certificados para aparelho de filial persistente (especificamente, aparelho de filial persistente 2015 para Skype para Business Server 2019):
   
 |**Certificado**|**Nome da entidade nome/comum**|**Nome alternativo de entidade**|**Exemplo**|
 |:-----|:-----|:-----|:-----|
-|Padrão  <br/> |FQDN do aplicativo  <br/> |SIP. \<sipdomain\> (necessário apenas uma entrada por domínio SIP)  <br/> |SN=sba01.contoso .net; Serão; SAN = SIP.Fabrikam.com  <br/> |
+|Padrão  <br/> |FQDN do aplicativo  <br/> |SIP. \<sipdomain\> (necessário apenas uma entrada por domínio SIP)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-external-user-access-edge"></a>Certificados para acesso de usuário externo (Borda)
 
@@ -525,9 +530,9 @@ Este SAN precisa ser atribuído ao certificado que, por sua vez, é atribuído a
 
 Skype para Business Server 2019 pode usar o compartilhamento de arquivo a mesma para todo o armazenamento de arquivo. Deve-se ter em mente:
   
-- Um compartilhamento de arquivo precisa estar em um armazenamento anexado direto (DAS) ou em uma rede de área de armazenamento (SAN), e isso inclui o sistema de arquivos distribuído (DFS), bem como uma matriz redundante de RAID para repositórios de arquivos. Para obter mais leitura em DFS para o Windows Server 2012, confira [esta página DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Um compartilhamento de arquivo precisa estar em um armazenamento anexado direto (DAS) ou em uma rede de área de armazenamento (SAN), e isso inclui o sistema de arquivos distribuído (DFS), bem como uma matriz redundante de RAID para repositórios de arquivos. Para ler mais sobre DFS para o Windows Server 2012, consulte [esta página do DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
-- Recomendamos um cluster compartilhado para o compartilhamento de arquivo. Se você estiver usando uma, você deve cluster Windows Server 2012 ou Windows Server 2012 R2. Por que o Windows mais recente? Versões antigas podem não ter as permissões adequadas para habilitar todos os recursos. Você pode usar o administrador de Cluster para criar os compartilhamentos de arquivo e este artigo [Criando um Cluster](https://support.microsoft.com/en-us/help/224967) KB ajudá-lo com esses detalhes.
+- Recomendamos um cluster compartilhado para o compartilhamento de arquivo. Se você estiver usando uma, você deve cluster Windows Server 2012 ou Windows Server 2012 R2. Por que o Windows mais recente? Versões antigas podem não ter as permissões adequadas para habilitar todos os recursos. Você pode usar o Administrador de Cluster para criar os compartilhamentos de arquivo e este artigo da base de dados de conhecimento, [Criando um Cluster](https://support.microsoft.com/en-us/help/224967) ajudará você a lidar com esses detalhes.
     
 > [!CAUTION]
 > Você deve saber que o uso de NAS como compartilhamento de arquivo não é compatível; portanto, use uma das opções listadas acima. 

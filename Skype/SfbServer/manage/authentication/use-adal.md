@@ -10,50 +10,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5ca71746-ead6-4e8c-90b1-461e846d1f4a
 description: Este artigo explica como usar a autenticação moderno (que se baseia na biblioteca de autenticação do Active Directory (ADAL) e OAuth 2.0) que podem ser encontradas no de 2016 março atualização cumulativa do Skype for Business para Skype para Business Server 2015.
-ms.openlocfilehash: 4bf802d2710c9c271c54cf2e127cf51b24875db1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 70878092baaee9414c8acada21a89ceea6587658
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966570"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692758"
 ---
-# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Como usar a Autenticação do modem (ADAL) com o Skype for Business
+# <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>How to use Modern Authentication (ADAL) with Skype for Business
  
-Este artigo explica como usar a autenticação moderno (que se baseia na biblioteca de autenticação do Active Directory (ADAL) e OAuth 2.0) que podem ser encontradas no de 2016 março atualização cumulativa do Skype for Business para Skype para Business Server 2015.
+Este artigo explica como usar a autenticação moderno (que se baseia na biblioteca de autenticação do Active Directory (ADAL) e OAuth 2.0) que podem ser encontradas no de 2016 março atualização cumulativa do Skype for Business para Skype para Business Server 2015 ou inicial versão do Skype Business Server 2019.
   
 ## <a name="whats-in-this-article"></a>O que há neste artigo?
 
-[O que é ADAL?](use-adal.md#BKMK_ADAL)
-  
 [Configurar ADAL em seu pool e definir o ADFS como servidor de token de segurança](use-adal.md#BKMK_Config)
   
 [Outras opções para habilitar a entrada na ADAL (como aplicativos cliente do Office)](use-adal.md#BKMK_Options)
   
 [Clientes onde a Autenticação Moderna/ADAL não é compatível](use-adal.md#BKMK_Support)
-  
-## <a name="what-is-adal"></a>O que é ADAL?
-<a name="BKMK_ADAL"> </a>
-
-ADAL é o acrônimo de “Biblioteca de Autenticação do Active Directory" e, junto com o OAuth 2.0, constitui a base da Autenticação Moderna. Esta biblioteca de código foi projetada para disponibilizar recursos protegidos em seu diretório para aplicativos de cliente (como Skype para negócios) por meio de tokens de segurança. A ADAL interage com o OAuth 2.0 para habilitar mais cenários de autenticação e autorização, como MFA (Multi-factor Authentication), bem como mais formas de Autenticação de SAML.
-  
-Vários aplicativos que atuam como clientes podem aproveitar a Autenticação Moderna para obter recursos seguros. No Skype para Business Server, essa tecnologia é usada entre clientes locais e servidores locais para fornecer aos usuários um nível adequado de autorização para recursos.
-  
-As conversas de Autenticação Moderna (que se baseiam em ADAL e OAuth 2.0) têm alguns elementos em comum.
-  
-- Não há um cliente fazendo uma solicitação para um recurso, nesse caso, o cliente for Skype para negócios.
-    
-- Não há um recurso no qual o cliente precisa de um nível específico de acesso, e esse recurso esteja protegido por um serviço de diretório, nesse caso, o recurso é Skype para Business Server.
-    
-- Não há uma conexão de OAuth, em outras palavras, uma conexão que é dedicada a *autorização de* um usuário para acessar um recurso. (OAuth também é conhecido pelo nome mais descritivo, autenticação "Servidor a Servidor' e é frequentemente abreviado como S2S.)
-    
-Skype para conversas Business Server moderno autenticação (ADAL), Skype para Business Server comunica-se por meio do ADFS (ADFS 3.0 no Windows Server 2012 R2). A autenticação pode ser feita usando algum outro IdP (Provedor de Identidade), mas o servidor do Skype for Business precisa ser configurado para se comunicar com o ADFS diretamente. Se você ainda não tiver configurado o ADFS para trabalhar com Skype para Business Server complete a [instalação do ADFS](https://technet.microsoft.com/en-us/library/adfs2-step-by-step-guides%28v=ws.10%29.aspx).
-  
-ADAL está incluído no de 2016 março atualização cumulativa do Skype para Business Server 2015 e o de 2016 março atualização cumulativa do Skype para negócios **deve** ser instalada e é necessária para que a configuração bem-sucedida.
-  
-> [!NOTE]
-> Durante a versão inicial, a autenticação moderna em um ambiente local é suportada apenas se não houver nenhuma topologia mista do Skype envolvidos. Por exemplo, se o ambiente é puramente Skype para Business Server. Esta declaração pode ser está sujeita a alterações. 
-  
-Um pacote do PowerShell incluindo arquivos .ps1 com os comandos usados por ADAL deve ser baixado para a configuração com êxito.
   
 ### <a name="configure-adal-in-your-pool-and-set-adfs-as-security-token-server"></a>Configurar ADAL em seu pool e definir o ADFS como servidor de token de segurança
 <a name="BKMK_Config"> </a>
@@ -62,7 +36,7 @@ Nesse processo, você pode conectar sua instalação do ADFS para um Skype para 
   
 1. Instalar o de 2016 março atualização cumulativa do Skype para negócios 2015 de servidor para seu Skype para pool de servidores corporativos ou servidor Standard Edition. (Agende as janelas de manutenção, conforme necessário, para executar o Windows Update para a instalação automática.)
     
-2. Em seu local ADFS servidor (es), [Baixe](https://aka.ms/sfbadalscripts) o programa de instalação-AdfsOAuthTrustForSfB script. Isso precisa ser feito por farm de ADFS ou por servidores ADFS independentes. Não precisa ser feito nos proxies ADFS.
+2. Nos servidores ADFS locais, [baixe](https://aka.ms/sfbadalscripts) o script Setup-Adfs OAuthTrustForSfB. Isso precisa ser feito por farm de ADFS ou por servidores ADFS independentes. Não precisa ser feito nos proxies ADFS.
     
 3. Anote o interna e externa do serviço Web totalmente qualificados nomes de domínio (FQDNs) para sua Skype para o pool de servidores corporativos ou servidor Standard Edition. Isso precisa ser feito para todos os Pools do Skype for Business.
     
@@ -73,7 +47,7 @@ Nesse processo, você pode conectar sua instalação do ADFS para um Skype para 
     Para qualquer pools adicionais, você precisará adicionar URLs de serviços Web do Pool manualmente para o Skype para Business Server confiança da terceira parte no ADFS.
     
     > [!IMPORTANT]
-    > Não é possível usar a Autenticação Passiva para um Pool e usar também a ADAL. Você deve desabilitar a Autenticação Passiva para poder usar a ADAL. Para cmdlets do PowerShell sobre como configurar a autenticação de um Pool, consulte [Este](https://technet.microsoft.com/en-us/library/gg398396.aspx) artigo.
+    > Não é possível usar a Autenticação Passiva para um Pool e usar também a ADAL. Você deve desabilitar a Autenticação Passiva para poder usar a ADAL. Para cmdlets do PowerShell sobre como configurar a autenticação para um pool, veja [este artigo ](https://technet.microsoft.com/en-us/library/gg398396.aspx).
   
     > [!TIP]
     > Se você tiver pools adicionais você precisa adicioná-los como [identificadores](https://technet.microsoft.com/en-us/library/gg557759%28v=ws.10%29.aspx) para a confiança da terceira parte in ADFS. > Ir para seu servidor ADFS e abra o gerenciamento do ADFS. Expanda relações de confiança \> objetos de confiança de terceiros. Clique com o botão a confiança da terceira parte que está listada e o botão direito do mouse para propriedades \> identificadores \> digite as URLs de Pool adicionais \> clique em Adicionar. 

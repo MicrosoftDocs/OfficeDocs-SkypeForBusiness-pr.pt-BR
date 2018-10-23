@@ -1,5 +1,5 @@
 ---
-title: Desativar os métodos de autenticação Legacy interna e externamente à sua rede
+title: Planejamento para desativar os métodos de autenticação Legacy interna e externamente à sua rede
 ms.author: tracyp
 author: MSFTTracyP
 manager: serdars
@@ -11,14 +11,14 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Os cmdlets este artigo contornos que dão admins mais controle dos métodos de autenticação usado dentro e fora, de uma empresa. Os administradores podem ativar métodos de autenticação ou desativar interna ou externamente para sua rede.
-ms.openlocfilehash: f1af26c5cad98ee3416fa1bdd91d6fc8326eaf53
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371800"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692751"
 ---
-# <a name="turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Desative os métodos de autenticação Legacy interna e externamente à sua rede.
+# <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejamento desativar os métodos de autenticação Legacy interna e externamente à sua rede.
 
 > [!NOTE]
 > Se você está prestes a ler este artigo, você já deve conhecer topologias com suporte de autenticação moderno, ADAL, e sobre a configuração de autenticação moderno, mas, caso contrário, aqui estão os artigos que você precisa iniciar o check-out: 

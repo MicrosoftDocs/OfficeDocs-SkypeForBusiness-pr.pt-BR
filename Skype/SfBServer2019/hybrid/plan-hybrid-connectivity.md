@@ -9,16 +9,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considerações de planejamento para a implementação de conectividade híbrida entre Skype para Business Server e do Skype para Business Online ou equipes.
-ms.openlocfilehash: 90ea0b5ee73cba718c81e5614b02b5332e223acf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "25030676"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696230"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planejar a conectividade híbrida entre Skype para Business Server e Office 365
-[!INCLUDE [disclaimer](../disclaimer.md)]
-
 
 ## <a name="overview"></a>Visão geral
 
@@ -61,7 +59,7 @@ O Active Directory local é autoritativo, o que quer dizer que você deve fazer 
 
 - Se quiserem que seus usuários para se beneficiar dos recursos online adicionais, como transmissão do Skype reunião ou caixa postal de nuvem, você precisará atribuí-las a licença apropriada no Office 365.
 
-- Depois que os usuários do Skype for Business Online tiverem uma licença atribuída a eles, será necessário habilitá-los para o Skype for Business ou para o Enterprise Voice local. Para obter mais informações, consulte [habilitar os usuários para o Enterprise Voice no local](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Para obter mais informações sobre os requisitos de voz híbrida, consulte [Planejar o sistema de telefone no Office 365 com conectividade PSTN local no Skype para Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+- Depois que os usuários do Skype for Business Online tiverem uma licença atribuída a eles, será necessário habilitá-los para o Skype for Business ou para o Enterprise Voice local. Para obter mais informações, consulte [habilitar os usuários para o Enterprise Voice no local](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Para obter mais informações sobre os requisitos do Hybrid Voice, consulte [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](../../sfbserver/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 
 ## <a name="infrastructure-requirements"></a>Requisitos de infraestrutura
@@ -76,11 +74,11 @@ Para implementar a conectividade híbrida entre seu ambiente local e serviços d
     > [!NOTE]
     > Você só pode usar um único locatário para uma configuração híbrida com sua implantação local.
 
-- Skype para ferramentas administrativas do servidor de negócios. (Se você estiver usando o Lync Server 2013 ou o Lync Server 2010, você pode usar as ferramentas administrativas do Lync Server 2013. Para obter mais informações, consulte [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
+- Skype para ferramentas administrativas do servidor de negócios. (Se você estiver usando o Lync Server 2013 ou o Lync Server 2010, você pode usar as ferramentas administrativas do Lync Server 2013. Para obter mais informações, consulte [Lync Server 2013 híbrido](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
 - Azure Active Directory Connect para sincronizar seu diretório local com o Office 365. Para obter mais informações, consulte [Connect do Azure AD: contas e permissões](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-    Para oferecer suporte ao logon único no Office 365 de modo que os usuários possam usar as mesmas credenciais de logon que no local, você pode usar os recursos de sincronização de senha do Azure Active Directory (AAD) Connect. É possível também usar Serviços de Federação do Active Directory (AD FS) para login único com o Office 365.
+    Para oferecer suporte ao logon único no Office 365 de modo que os usuários possam usar as mesmas credenciais de logon que no local, você pode usar os recursos de sincronização de senha do Azure Active Directory (AAD) Connect. É possível também usar Serviços de Federação do Active Directory (AD FS) para login único com o Office 365. 
 
 Para configurar a conectividade híbrida, você também precisará configurar a federação entre seu local e ambientes on-line e configurar sua Skype para locatário Business Online para um espaço de endereçamento compartilhado do protocolo de iniciação de sessão (SIP). Para obter mais informações sobre as etapas necessárias para configurar a conectividade híbrida, consulte [Configure conectividade de híbrida](configure-hybrid-connectivity.md).
 
@@ -215,7 +213,7 @@ Os computadores de sua rede devem ser capazes de realizar pesquisas DNS padrão 
 
 Dependendo do local do seu centro de dados do Microsoft Online Services, você também deve configurar os dispositivos de firewall de rede para aceitar conexões com base em nomes de domínio de caractere curinga (por exemplo, todo o tráfego da \*. outlook.com). Se dos firewalls da organização não oferecer suporte a configurações de nome de curinga, você terá de determinar manualmente os intervalos de endereços IP que você gostaria de permitir e as portas especificadas.
 
-Para obter mais informações, consulte [URLs do Office 365 e intervalos de endereços IP](https://go.microsoft.com/fwlink/p/?LinkId=252942).
+Para obter mais informações, veja [URLs e intervalos de endereço IP do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## <a name="port-and-protocol-requirements"></a>Requisitos de porta e protocolo
 <a name="BKMK_Ports"> </a>
@@ -232,7 +230,7 @@ Além dos requisitos de porta para a comunicação interna, você também deve c
 |STUN  <br/> |UDP  <br/> |Borda A/V  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Abertas para sessões de áudio, vídeo  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |Borda A/V  <br/> |3478  <br/> |3478  <br/> |Abertas para sessões de áudio, vídeo  <br/> |
 
-Para obter mais informações sobre a porta e firewall de planejamento para o servidor de borda, consulte [requisitos de ambiente de servidor de borda no Skype para Business Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Consulte também o [diagrama de cargas de trabalho de protocolo](https://go.microsoft.com/fwlink/p/?LinkId=550989)e [requisitos de porta e protocolo para servidores](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) .
+Para obter mais informações sobre a porta e firewall de planejamento para o servidor de borda, consulte [requisitos de ambiente de servidor de borda no Skype para Business Server](../../sfbserver/plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Consulte também [Port and protocol requirements for servers](../../sfbserver/plan-your-deployment/network-requirements/ports-and-protocols.md) e o [Diagrama de cargas de trabalho dos protocolos](https://go.microsoft.com/fwlink/p/?LinkId=550989).
 
 ## <a name="user-accounts-and-data"></a>Dados e contas de usuário
 <a name="BKMK_UserAccounts"> </a>

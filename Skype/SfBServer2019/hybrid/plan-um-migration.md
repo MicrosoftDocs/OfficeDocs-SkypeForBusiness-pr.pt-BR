@@ -7,16 +7,14 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skypeforbusiness-server-itpro
 description: Este tópico aborda o que você precisa considerar ao decidir migrar seu Skype existente para implantações Business Server ou o Exchange Server para a versão mais recente ou Skype para Business Online ou Exchange Online.
-ms.openlocfilehash: 25d0e275110df57747679efec46a77571259a3d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3678b7531d60324bd557acdd762f428b048d99fc
+ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027253"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25696216"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planeje Skype para migração Business Server e o Exchange Server
-
-[!INCLUDE [disclaimer](../disclaimer.md)]
 
 Este tópico aborda o que você precisa considerar ao decidir migrar seu Skype existente para implantações Business Server ou o Exchange Server para a versão mais recente ou Skype para Business Online ou Exchange Online. O que você pode migrar e quando, depende muito o que você já tem configurou na sua organização. No modo de visualização, estamos direcionando esforços em dar suporte a alguns cenários específicos, com cenários adicionais se tornando disponível em disponibilidade geral (GA).
 

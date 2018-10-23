@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumo: Gerencie autenticação de dois fatores no Skype para Business Server.'
-ms.openlocfilehash: f6ea9eb228a0c36df3c1ab9318f766a68a370cad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
+ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002854"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "25692737"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gerenciar a autenticação de dois fatores no Skype para Business Server
  
@@ -100,7 +100,7 @@ A configuração de registro **SavePassword** deve ser desabilitada quando Skype
 
 O AD FS 2.0 oferece um recurso chamado detecção de repetição de token, pelo qual é possível detectar várias solicitações de token que usam o mesmo token a fim de descartá-las. Quanto este recurso está habilitado, a detecção de repetição de token protege a integridade das solicitações de autenticação tanto no perfil passivo do WS-Federation quanto no perfil de SAML WebSSO, certificando-se de que o mesmo token nunca é usado mais de uma vez.
   
-Esse recurso deve ser habilitado em situações em que há grandes preocupações com a segurança, como quando se usa quiosques. Para obter mais informações sobre detecção de reprodução de token, consulte [Práticas recomendadas para proteger o planejamento e implantação do AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Esse recurso deve ser habilitado em situações em que há grandes preocupações com a segurança, como quando se usa quiosques. Para obter mais informações sobre a detecção de repetição de token, consulte [Práticas recomendadas para o planejamento e a implantação seguros do AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
   
 ## <a name="external-user-access"></a>Acesso de usuários externos
 
@@ -108,5 +108,5 @@ Configurando um Proxy do ADFS ou Proxy reverso para suportar Skype para autentic
   
 ## <a name="see-also"></a>Consulte também
 
-[Configurar a autenticação de dois fatores no Skype para Business Server](configure.md)
+[Configurar a autenticação de dois fatores no Skype para Business Server](configure-two-factor.md)
   
