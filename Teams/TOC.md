@@ -182,6 +182,7 @@
 ### [Boas práticas para organizar equipes no Teams](best-practices-organizing.md)
 ### [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
 ### [Visão geral da participação dinâmica para equipes](dynamic-memberships.md)
+## [Presença](presence-admins.md)
 ## [Acesso de convidados](guest-access.md)
 ### [Como um convidado entra em uma equipe](guest-joins.md)
 ### [Como é a experiência do convidado](guest-experience.md)
@@ -211,7 +212,8 @@
 #### [Quais são as equipes live eventos?](teams-live-events/what-are-teams-live-events.md)
 #### [Planejamento de eventos ao vivo de equipes](teams-live-events/plan-for-teams-live-events.md)
 #### [Configurar para equipes eventos ao vivo](teams-live-events/set-up-for-teams-live-events.md)
-#### [Configurar equipes de eventos ao vivo](teams-live-events/configure-teams-live-events.md)
+#### [Usar o PowerShell para definir políticas de eventos ao vivo de equipes](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [Definir configurações de eventos ao vivo de equipes](teams-live-events/configure-teams-live-events.md)
 
 
 
