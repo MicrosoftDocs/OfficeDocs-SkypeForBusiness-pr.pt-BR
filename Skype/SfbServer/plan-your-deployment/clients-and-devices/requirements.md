@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: 469a13822bb319eab1b78a418b7c2eddd182666b
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495610"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784874"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
 
@@ -26,6 +26,9 @@ Sua implantação envolve a criação de conta, conforme descrito em [implantar 
 
 > [!NOTE]
 > Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online. <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013. 
+
+> [!NOTE]
+> Se estiver usando um servidor do Exchange em prem, sistemas de sala Skype v2 requer o uso do Exchange Server 2013 SP1 ou posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
@@ -71,14 +74,14 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
 |[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Áudio - 1.0.172  <br/> Vídeo - 1.0.156  <br/> |
-|[Conectar Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Grupo Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Logitech ConferenceCam Connect](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
+|[Logitech Group](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
 |[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
 |[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4.7511  <br/> |
+|[Polycom RealPresence Trio](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4,7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
-|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0.70232 <br/> |
+|[Polycom CX5100](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0,70232 <br/> |
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
@@ -110,10 +113,10 @@ As tabelas a seguir fornecem recomendações para periféricos com base no taman
 
 |**Tipo de sala**|**Número de pessoas**|**Distância máxima recomendada entre o microfone e a pessoa que está falando**|**Dispositivo, de acordo com o tamanho máximo da sala**|**Comentários**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |1,5 m  <br/> |Logitech Connect  <br/> |Os dispositivos Logitech conectar incluem uma câmera, portanto, ele deve ser posicionado à frente da sala (não o centro da tabela) para capturar os participantes da reunião local.  <br/> |
-|**Pequena** <br/> 16' x 16'  <br/> |4 a 6  <br/> |m 2.0  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |O volume de reprodução pode ser limitado em salas maiores.  <br/> |
+|**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |1.5m   <br/> |Logitech Connect  <br/> |Os dispositivos Logitech conectar incluem uma câmera, portanto, ele deve ser posicionado à frente da sala (não o centro da tabela) para capturar os participantes da reunião local.  <br/> |
+|**Pequena** <br/> 16' x 16'  <br/> |4 a 6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |O volume de reprodução pode ser limitado em salas maiores.  <br/> |
 |**Médio** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 msegs  <br/> |O Logitech MeetUp inclui uma câmera de forma que ele deve ser posicionado à frente da sala (não o centro da tabela para capturar participantes da reunião local).  <br/> Em geral, salas com longos retangulares ou em forma de u tabelas podem se beneficiar de microfones de satélite adicionais.  <br/> O SP 220 MS deve ser usado em configuração de corrente margarida.  <br/> |
-|**Grande** <br/> 15' x 32 °  <br/> |16 de 12  <br/> |3C  <br/> Essa distância também se aplica à área coberta por cada microfone parabólico adicional conectado ao dispositivo de áudio em questão.   <br/> |Grupo Logitech + microfones de satélite  <br/> Microfones de satélite Polycom Trio +  <br/> Polycom CX5100 + microfones de satélite  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 msegs + microfones de satélite  <br/> |Todos os dispositivos de áudio listados nesta linha dão suporte a opções de microfones parabólicos.  <br/> O CX5100 inclui uma câmera interna de 360 graus; assim, o dispositivo pode ser posicionado no centro da mesa.  <br/> O SP 220 MS deve ser usado em configuração de corrente margarida.  <br/> |
+|**Grande** <br/> 15' x 32 °  <br/> |16 de 12  <br/> |3m  <br/> Essa distância também se aplica à área coberta por cada microfone parabólico adicional conectado ao dispositivo de áudio em questão.   <br/> |Grupo Logitech + microfones de satélite  <br/> Microfones de satélite Polycom Trio +  <br/> Polycom CX5100 + microfones de satélite  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 msegs + microfones de satélite  <br/> |Todos os dispositivos de áudio listados nesta linha dão suporte a opções de microfones parabólicos.  <br/> O CX5100 inclui uma câmera interna de 360 graus; assim, o dispositivo pode ser posicionado no centro da mesa.  <br/> O SP 220 MS deve ser usado em configuração de corrente margarida.  <br/> |
 
 **Skype sala sistemas v2 Certified periféricos de vídeo**
 
@@ -139,7 +142,7 @@ Além disso, você pode querer uma cópia do [SkypeRoomProvisioningScript.ps1](h
 
 ## <a name="see-also"></a>Consulte também
 
-[Planejar o Skype Room Systems versão 2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Implantar o Skype Room Systems versão 2](../../deploy/deploy-clients/room-systems-v2.md)
 

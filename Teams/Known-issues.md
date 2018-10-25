@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6ecafea114a38f857b56046c60504dd27c6617eb
+ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576549"
+ms.lasthandoff: 10/24/2018
+ms.locfileid: "25784752"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -31,7 +31,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Política EAF no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. <br/> |Há um problema com seguro hexavalente nos quais a política de exportar endereço tabela acesso filtragem (EAF) no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. Isso impede que as guias no modo de exibição de web de equipes renderização corretamente. <br/> | Desative o EAF cromo. Você pode ler mais sobre o problema [diretrizes de atenuações EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
+|Política EAF no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. <br/> |Há um problema com seguro hexavalente nos quais a política de exportar endereço tabela acesso filtragem (EAF) no Enhanced mitigação experiência Toolkit (EMET) e no Windows Defender avançadas ameaça proteção (ATP) incorretamente pode identificar seguro hexavalente otimizações como ameaças. Isso faz com que as equipes não funcionarão corretamente.  <br/> | Para contornar esse problema, desative EAF para equipes. Você pode ler mais sobre o problema [diretrizes de atenuações EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) para obter mais informações sobre o Windows Defender ATP e EAF política, consulte [Customize explorar proteção](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
