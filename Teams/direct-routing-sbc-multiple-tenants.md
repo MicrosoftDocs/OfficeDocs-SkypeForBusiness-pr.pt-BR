@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar uma borda controlador sessão (SBC) para atender a vários locatários.
-ms.openlocfilehash: 7b085661e659e7836c5e463b24c9cc0a6f071aaa
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 618f956519c4a9e8ffe07e3000a91af39469adfc
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784812"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839083"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda de sessão para vários locatários
 
@@ -56,7 +56,7 @@ A seguir estão as etapas de implementação técnica para configurar o cenário
 Para obter as etapas detalhadas sobre como implantar e configurar SBCs para um cenário de hospedagem de SBC, consulte a documentação do fornecedor SBC.
 
 - **AudioCodes:** [Notas de configuração de roteamento direto](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do SBC hospedando o cenário descrito em "Connecting AudioCodes SBC à Microsoft Teams direto roteamento Hosting modelo configuração nota". 
-- **Communications da faixa de opções:**  Consulte o [Guia de configuração da faixa de opções Communications SBC Core Microsoft equipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para documentação sobre como configurar a faixa de opções Core série SBCs e para essa página [prática de práticas recomendadas do faixa de opções - configurando operadoras para roteamento direto de equipes do Microsoft Borda SBC](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Communications da faixa de opções:**  Consulte o [Guia de configuração da faixa de opções Communications SBC Core Microsoft equipes](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para documentação sobre como configurar a faixa de opções Core série SBCs e para essa página [prática recomendada de faixa de opções - configurando operadoras para Microsoft equipes direto roteamento SBC Borda](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 
 > [!NOTE]
 > Por favor, preste atenção como configurar o cabeçalho "Contato". O cabeçalho de contato é usado para localizar o locatário do cliente na mensagem de entrada de convidar. 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente que possui várias florestas em um modelo de floresta de usuário/recurso para fornecer Skype para a funcionalidade de negócios em um cenário híbrido.
-ms.openlocfilehash: 72c0a91c3a5a90b4ec83eb5f71a5601ccfb48bb1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375103"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839542"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar um ambiente de várias floresta para o híbrido Skype para negócios
  
@@ -25,7 +25,7 @@ As seções a seguir fornecem orientação sobre como configurar um ambiente que
   
 ## <a name="validate-the-forest-topology"></a>Validar a topologia de floresta
 
-Há compatibilidade para múltiplas florestas de usuários. Considere o seguinte:   
+Há compatibilidade para múltiplas florestas de usuários. Considere o seguinte: 
   
 - Para uma floresta de usuário único ou implantação de floresta de vários usuários, deve haver uma única implantação do Skype para Business Server.
     
@@ -33,7 +33,7 @@ Há compatibilidade para múltiplas florestas de usuários. Considere o seguinte
     
 - Exchange Server podem ser implantado em uma ou mais florestas, que podem ou não incluir a floresta que contém o Skype para Business Server. Verifique se que você aplicou a atualização cumulativa mais recente.
     
-- Para obter detalhes sobre a coexistência com o Exchange Server, incluindo suporte critérios e limitações em várias combinações de local e online, consulte [suporte de recurso](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) em [Planejar a integração do Skype para Exchange e de negócios](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+- Para obter detalhes sobre a coexistência com o Exchange Server, incluindo os critérios e as limitações de suporte em várias combinações de local e online, consulte [Suporte aos recursos](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) em [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
 Para obter mais informações, consulte requisitos do [sistema](../plan/system-requirements.md).
   
@@ -43,7 +43,7 @@ Skype para usuários comerciais hospedagem no local pode ter Exchange hospedado 
   
 ## <a name="configure-forest-trusts"></a>Configurar relações de confiança de floresta
 
-As relações de confiança exigidas são relações bidirecionais transitivas entre a floresta de recursos e cada floresta de usuário. Se você tiver várias florestas de usuários, é importante que o Roteamento de sufixo de nome esteja habilitado para cada relação de confiança para habilitar a autenticação entre florestas. Para obter instruções, consulte [Gerenciando de confiança de floresta](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+As relações de confiança exigidas são relações bidirecionais transitivas entre a floresta de recursos e cada floresta de usuário. Se você tiver várias florestas de usuários, é importante que o Roteamento de sufixo de nome esteja habilitado para cada relação de confiança para habilitar a autenticação entre florestas. Para mais instruções, consulte [Gerenciar relações de confiança de floresta](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar contas para a floresta Skype para a empresa de hospedagem
 
@@ -60,7 +60,7 @@ Para obter a sincronização de identidades, os seguintes atributos precisam ser
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-O [atributo de vínculo de conta foi escolhido](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) será usada como a âncora de origem. Se você tiver um atributo diferente e imutável que você prefere usar, você poderá fazê-lo; Certifique-se apenas editar a regra de declarações do AD FS e selecione o atributo durante a configuração AAD se conectar.
+O [atributo de vínculo de conta foi escolhido](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) será usada como a âncora de origem. Se você tiver um atributo diferente e imutável que você prefere usar, você poderá fazê-lo; Certifique-se apenas editar a regra de declarações do AD FS e selecione o atributo durante a configuração AAD se conectar.
   
 Não sincronize os UPNs entre as florestas. Durante os testes, descobrimos que precisávamos usar um único UPN para cada floresta de usuário, pois não é possível usar o mesmo UPN para várias florestas. Como resultado, chegamos a duas possibilidades: sincronizar ou não sincronizar o UPN. 
   
@@ -70,7 +70,7 @@ Não sincronize os UPNs entre as florestas. Durante os testes, descobrimos que p
     
 ## <a name="create-an-office-365-tenant"></a>Criar um locatário do Office 365
 
-Em seguida, você precisará provisionar um locatário do Office 365 para usar em sua implantação. Para obter mais informações, consulte [assinaturas, licenças, contas e inquilinos para as ofertas de nuvem da Microsoft](https://docs.microsoft.com/en-us/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Em seguida, você precisará provisionar um locatário do Office 365 para usar em sua implantação. Para obter mais informações, consulte [assinaturas, licenças, contas e inquilinos para as ofertas de nuvem da Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Configurar os serviços de Federação do Active Directory
 
@@ -86,7 +86,7 @@ A menos que você use um SIP/SMTP/UPN exclusivo para usuários de cada floresta,
     
 Solucionamos os dois problemas ao usar um farm AD FS em cada floresta de usuário e um SIP/SMTP/UPN exclusivo para cada floresta. Apenas as contas dessa floresta de usuário específico poderiam ser pesquisadas e pareadas durante as tentativas de autenticação. Isso ajudará a oferecer um processo de autenticação mais contínuo. 
   
-Essa será uma implantação padrão do AD FS do Windows Server 2012 R2 e deverá estar funcionando antes de continuar. Para obter instruções, consulte [como instalar R2 2012 do AD FS para o Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx). 
+Essa será uma implantação padrão do AD FS do Windows Server 2012 R2 e deverá estar funcionando antes de continuar. Para ver as instruções, confira [Como Instalar o AD FS 2012 R2 para o Office 365.](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx) 
   
 Depois da implantação, você terá que editar a regra de declaração para corresponder à âncora de origem selecionada anteriormente. No MMC AD FS, em confianças de terceiros, clique com o botão **Plataforma de identidade do Microsoft Office 365**e, em seguida, clique em **Editar regras de declaração**. Edite a primeira regra e altere o ObjectSID para **employeeNumber**. 
   
@@ -106,7 +106,7 @@ O verde realçados atributos foram mesclados do Office 365, o amarelo são da fl
   
 Este é um usuário de teste e você pode ver que conecte AAD identificou o sourceAnchor e o cloudSourceAnchor do usuário e os objetos da floresta de recursos do Office 365, no nosso caso 1101, que é employeeNumber selecionada anteriormente. Em seguida, ele foi capaz de mesclar esse objeto em o que aparece acima. 
   
-Para obter mais informações, consulte [os diretórios de seu local integra-se com o Windows Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Para obter mais informações, consulte [os diretórios de seu local integra-se com o Windows Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 Conectar AAD deve ser instalado usando os padrões, exceto para o seguinte: 
   
@@ -116,7 +116,7 @@ Conectar AAD deve ser instalado usando os padrões, exceto para o seguinte:
     
 3. Identificar usuários em diretórios no local: selecione **as identidades de usuário existirem em vários diretórios**e os atributos **ObjectSID** e **msExchangeMasterAccountSID** .
     
-4. Identificar usuários no Windows Azure AD: âncora de origem: selecione o atributo que você escolheu após ler [selecionando um atributo sourceAnchor bom](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), Nome Principal de usuário - **userPrincipalName**.
+4. Identificar usuários no Windows Azure AD: âncora de origem: selecione o atributo que você escolheu após ler [selecionando um atributo sourceAnchor bom](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), Nome Principal de usuário - **userPrincipalName**.
     
 5.  Recursos opcionais: selecione se você tiver implantado do Exchange híbrido.
     

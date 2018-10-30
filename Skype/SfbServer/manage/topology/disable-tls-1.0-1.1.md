@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Preparar e implementar desabilitando TLS 1.0 e 1.1 em seus ambientes.'
-ms.openlocfilehash: 784b6b307275516a18b396864d1a2c4f40c285e8
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429442"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839688"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar o TLS 1.0/1.1 no Skype para Business Server 2015
 
@@ -26,7 +26,7 @@ A finalidade deste artigo é fornecer as diretrizes necessárias para você prep
 - [Pré-requisitos e processo](#prerequisites-and-process)
 - [Cenários de implantação avançada](#advanced-deployment-scenarios)
 
-## <a name="background"></a>Plano de fundo
+## <a name="background"></a>Segundo plano
 
 Os principais fatores para fornecer TLS 1.0 e suporte de disable 1.1 para Skype para Business Server local são os requisitos de conselho de padrões de segurança do setor de cartões de pagamento (PCI) e os padrões de processamento de informações federais. Para obter mais informações para os requisitos de PCI podem ser encontradas [aqui](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls).  Não é possível para o Microsoft fornecem orientação sobre ou não a sua organização é obrigada aderir a essas ou outros requisitos. Você deve determinar se ele é necessário para desabilitar o TLS 1.0 e/ou 1.1 em seus ambientes.
 
@@ -49,7 +49,7 @@ Microsoft gerou um white paper sobre TLS disponíveis [aqui](https://cloudblogs.
 
 - O cliente de Desktop do Lync 2013 (Skype for Business), MSI e C2R, incluindo Basic [15.0.5023.1000 e superiores](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
 - Skype para negócios 2016 Desktop Client, MSI [16.0.4678.1000 e superiores](https://support.microsoft.com/en-us/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323), incluindo Basic
-- Skype para negócios 2016, clique executar exigem as atualizações de [abril 2018](https://docs.microsoft.com/en-us/officeupdates/release-notes-office365-proplus) : 
+- Skype para negócios 2016, clique executar exigem as atualizações de [abril 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) : 
     - Mensal e anual delimitadas direcionadas, 16\.0\.9126\.2152 e superiores
     - Anual delimitadas e canal adiada, 16\.0\.8431\.2242 e superiores
 - Skype for Business no Mac 16.15 e superior
@@ -65,7 +65,7 @@ Microsoft gerou um white paper sobre TLS disponíveis [aqui](https://cloudblogs.
 - Surface Hub
 - 2015 baseados aparelho de filial persistente (SBA) ou o servidor de filial persistente (SBS)
 
-#### <a name="other"></a>Outros
+#### <a name="other"></a>Outro
 
 - Painel de controle de qualidade de chamada (nova instalação após TLS 1.0, 1.1 foram desabilitadas, veja abaixo) *
  
@@ -237,7 +237,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Para o SQL back ends para Pools do Enterprise Edition, os pré-requisitos e TLS desabilitar deve ser tratado como faria com quaisquer atualizações SQL ou o sistema operacional; Consulte o artigo:[https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/en-us/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Para o SQL back ends para Pools do Enterprise Edition, os pré-requisitos e TLS desabilitar deve ser tratado como faria com quaisquer atualizações SQL ou o sistema operacional; Consulte o artigo:[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
 
 Enquanto o aplicativo de pré-requisito e o TLS desabilitando etapas podem ser combinadas, é altamente recomendável que todos os pré-requisitos a ser aplicado antes de prosseguir com a desativação de TLS 1.0 e 1.1 no nível do sistema operacional. A abordagem de prática recomendada seria preparar o ambiente implantando todos os pré-requisitos, validando que todas as cargas de trabalho funcionam corretamente e conforme o esperado, e então prosseguir com TLS 1.0/1.1 desabilitar mais tarde.
 

@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o Skype para o relatório de uso do dispositivo de negócios para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. Confira os relatórios de atividade no Centro de administração do Office 365 para saber mais.
-ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863379"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838676"
 ---
 # <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 da sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para uso do dispositivo de negócios** para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. 
+O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para uso do dispositivo de negócios** para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. 
 
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   
@@ -67,7 +67,7 @@ Cada relatório tem uma data de geração. Geralmente, os relatórios refletem u
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>Use os dados do gráfico interativo no gráfico de barras de **distribuição** para entender o uso para ver o número de usuários usando dispositivos exclusivos na sua organização. Ele mostrará o número total de **Windows**, **telefone Android**, **Windows Phone**, **iPhone**e **iPad** usuários com um dispositivo que está sendo usado. 
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico de **usuários** , clique ou toque em **Windows**, **Windows Phone**, **telefone Android**, **iPhone**ou **iPad** para ver apenas as informações relacionadas a cada uma delas. Essa seleção não altera as informações contidas na tabela de grade. 
+![Número 5](../images/sfbcallout5.png)<br/>Você pode filtrar a série que vê no gráfico clicando em um item na legenda. Por exemplo, no gráfico de **usuários** , clique ou toque em **Windows**, **Windows Phone**, **telefone Android**, **iPhone**ou **iPad** para ver apenas as informações relacionadas a cada uma delas. A alteração dessa seleção não altera as informações na tabela de grade. 
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>Cada gráfico tem um eixo "X" (horizontal) e um "Y" (vertical).
 *    No gráfico de **usuários** , o eixo Y é o número total de usuários conectados com um dispositivo que tenha o Skype para o aplicativo de negócios instalado.
@@ -88,7 +88,7 @@ Se diretivas da sua organização impede que você exibindo relatórios onde as 
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>Clique ou toque no ícone de **colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                      <br/> ![Botão Exportar do Skype para relatórios de negócios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar. 
+![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                 <br/> ![Botão Exportar do Skype para relatórios de negócios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 
@@ -96,7 +96,7 @@ Se diretivas da sua organização impede que você exibindo relatórios onde as 
     
 - [Skype para relatório de atividade do organizador de conferência de negócios](conference-organizer-activity-report.md) Você pode ver quanto a seus usuários são organizem conferências que utilizam o IM, áudio/vídeo, compartilhamento de aplicativo, Web, de terceiros confiáveis dial-in/out - 3rd e dial-in/out - Microsoft.
     
-- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantas mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativo, Web e e conferências de conferência de discagem/saída estão sendo participou.
+- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantos compartilhamento de aplicativos de mensagens Instantâneas, áudio/vídeo, Web e conferências de conferência de discagem/saída estão sendo participou.
     
 - [Skype para relatório de atividade ponto a ponto de negócios](peer-to-peer-activity-report.md) Você pode ver quanto os usuários estão usando mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
     

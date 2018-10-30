@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de sua implantação de edição do conector de nuvem.
-ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371310"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838618"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solução de problemas de implantação do Cloud Connector
  
@@ -93,7 +93,7 @@ Estes são soluções para problemas comuns encontrados:
     
   - Faça logon no servidor CMS/Servidor de Mediação e verifique se foi atribuído um endereço IP válido à NIC da rede corporativa e se um DNS e um IP estático válidos foram configurados como endereço IP do servidor do AD.
     
-  - Faça logon no servidor de mediação de CMS/e abra um prompt de comando. Certificar-se de que você pode fazer o ping o endereço IP e FQDN do servidor do Active Directory. Se não estiver, pode haver um conflito de endereço IP. Tente atribuir um novo IP do Active Directory e atualizar o DNS no servidor de mediação de CMS/adequadamente.
+  - Faça logon no servidor de mediação de CMS/e abra um prompt de comando. Verifique se é possível executar ping no FQDN e no endereço IP do Servidor do Active Directory. Se não o for, talvez haja um conflito de endereço IP. Tente atribuir um novo IP ao Active Directory e atualize apropriadamente o DNS no Servidor CMS/Servidor de Mediação.
     
 - **Problema: Você recebe a seguinte mensagem de erro "Remove-VMSwitch: Falha ao remover o comutador virtual de Ethernet. Comutador virtual 'Nuvem conector gerenciamento alternar' não pode ser excluído, pois ele está sendo usado por máquinas virtuais em execução ou atribuído a pools filho."**
     
@@ -222,7 +222,7 @@ Estes são soluções para problemas comuns encontrados:
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Execute o cmdlet Exit-CcUpdate para iniciar os serviços e sair do modo de manutenção.
+3. Execute o cmdlet sair-CcUpdate para iniciar os serviços e sair do modo de manutenção.
     
 4. Execute o cmdlet Export-CcRootCertificate no arquivo local no dispositivo e depois copie e instale o certificado exportado para seus gateways PSTN.
     
@@ -272,7 +272,7 @@ Estes são soluções para problemas comuns encontrados:
 
 - **Problema: Depois de alterar a senha para a conta do servidor de host usado para a implantação, você recebe a seguinte mensagem de erro: "ConvertTo-SecureString: especificado da chave não é válido para uso no estado." na %ProgramFiles%\Skype para o Business Connector de nuvem Edition\ManagementService\CceManagementService.log ou enquanto executa o cmdlet Get-CcCredential.**
     
-    **Resolução:** Todas as credenciais do conector de nuvem são armazenadas no seguinte arquivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Quando a senha no servidor host for alterado, você precisará atualizar as credenciais armazenadas localmente.
+    **Resolução:** Todas as credenciais do conector de nuvem são armazenadas no seguinte arquivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Quando for alterada a senha do servidor host, você precisará atualizar as credenciais armazenadas localmente.
     
     **Se você estiver executando a versão 1.4.2 do Cloud Connector,** regenere todas as senhas do Cloud Connector seguindo estas etapas:
     
@@ -280,7 +280,7 @@ Estes são soluções para problemas comuns encontrados:
     
   2. Exclua o arquivo a seguir: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ".
     
-  3. Iniciar um console do PowerShell como administrador e execute "Register-CcAppliance-Local" digitem novamente as senhas seguindo a descrição. Insira as mesmas senhas que você inseriu antes para a implantação do conector de nuvem.
+  3. Iniciar um console do PowerShell como administrador e execute "Register-CcAppliance-Local" digitem novamente as senhas seguindo a descrição. Insira as mesmas senhas que você inseriu anteriormente para a implantação do Cloud Connector.
     
      **Se você estiver executando o conector de nuvem versão 2.0 ou posterior,** regenerar todas as senhas de conector de nuvem, seguindo estas etapas:
     
@@ -300,7 +300,7 @@ Estes são soluções para problemas comuns encontrados:
     
   9. Quando for solicitada a nova credencial da conta, insira a senha do DomainAdmin usada anteriormente.
     
-     Se o arquivo de senha armazenada em cache foi gerado com o conector de nuvem versão 2.0 ou posterior, por padrão, VmAdmin e DomainAdmin usam a mesma senha como CceService. Se você alterou as senhas DomainAdmin e VMAdmin, você deve executar as seguintes etapas:
+     Se o arquivo de senha armazenada em cache foi gerado com o conector de nuvem versão 2.0 ou posterior, por padrão, VmAdmin e DomainAdmin usam a mesma senha como CceService. Se você tiver alterado as senhas do DomainAdmin e VMAdmin, deverá executar as seguintes etapas:
     
   10. Execute Set-CcCredential -AccountType DomainAdmin da seguinte maneira:
     
@@ -326,7 +326,7 @@ Estes são soluções para problemas comuns encontrados:
 
 - **Problema: Você recebe a seguinte mensagem de erro "Dismount-WindowsImage: Dismount-WindowsImage falhou. Código de erro = 0xc1550115 "ao instalar ou atualizar a edição do conector de nuvem.**
     
-    **Resolução:** Inicie um console do PowerShell como administrador, execute "DISM-limpeza-Wim'". Isso irá limpar todas as imagens problemáticas. Execute novamente o Install-CcAppliance ou espere os bits atualizar automaticamente.
+    **Resolução:** Inicie um console do PowerShell como administrador, execute "DISM-limpeza-Wim'". Isso limpará todas as imagens problemáticas. Execute Install-CcAppliance novamente ou aguarde a atualização automática dos bits.
     
 - **Problema: Falha de implantação do aparelho de conector de nuvem primeiro em um ambiente de alta disponibilidade**
     
@@ -369,7 +369,7 @@ PowerShell cria esse arquivo como um cache de cmdlets de módulos encontrados pa
 
 -   **Problema: "Import-Module CloudConnector" gerará o erro "Import-Module: O módulo especificado"CloudConnector"não foi carregado, porque nenhum arquivo de módulo válido foi encontrado em qualquer diretório módulo"**
 
-    **Resolução:** esse problema não pode ser resolvido automaticamente.
+    **Solução:**
     - Validar se realmente o módulo CloudConnector existe em c:\Program Files\WindowsPowerShell\Modules
     
     - Após validar esse módulo CloudConnector existe sob este local, a variável de ambiente PSModulePath armazenar o caminho para os locais dos módulos pode ser alterada:

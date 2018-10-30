@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considerações de planejamento para a implementação de conectividade híbrida entre Skype para Business Server e do Skype para Business Online ou equipes.
-ms.openlocfilehash: 34df2639ed57376549b2a8bde2e4b0e071d08957
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 17a54b4d7509684f5a74fd45549e3e0f9852a6c1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696230"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838784"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planejar a conectividade híbrida entre Skype para Business Server e Office 365
 
@@ -76,7 +76,7 @@ Para implementar a conectividade híbrida entre seu ambiente local e serviços d
 
 - Skype para ferramentas administrativas do servidor de negócios. (Se você estiver usando o Lync Server 2013 ou o Lync Server 2010, você pode usar as ferramentas administrativas do Lync Server 2013. Para obter mais informações, consulte [Lync Server 2013 híbrido](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
-- Azure Active Directory Connect para sincronizar seu diretório local com o Office 365. Para obter mais informações, consulte [Connect do Azure AD: contas e permissões](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Connect para sincronizar seu diretório local com o Office 365. Para obter mais informações, consulte [Connect do Azure AD: contas e permissões](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
     Para oferecer suporte ao logon único no Office 365 de modo que os usuários possam usar as mesmas credenciais de logon que no local, você pode usar os recursos de sincronização de senha do Azure Active Directory (AAD) Connect. É possível também usar Serviços de Federação do Active Directory (AD FS) para login único com o Office 365. 
 
@@ -240,7 +240,7 @@ Em uma implantação híbrida, qualquer usuário que você deseja hospedar onlin
 Ao sincronizar contas de usuário entre sua implantação no local e online inquilino usando AAD conectar, você precisa sincronizar as contas do AD para todos os Skype para usuários corporativos ou o Lync em sua organização, mesmo se os usuários não são movidos para online. Se você não sincronizar todos os usuários, a comunicação entre os usuários online e locais em sua organização poderá não funcionar como esperado.
 
 > [!IMPORTANT]
-> Gerenciamento de todos os usuários, incluindo o usuário move entre locais e do Skype para negócios Online, deve ser feito usando a última versão instalada das ferramentas administrativas. As ferramentas administrativas devem ser instaladas em um servidor separado que possui acesso se conectam a implantação existente do local e à Internet. O cmdlet para mover usuários de sua implantação no local para Skype para negócios Online, [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), deve ser executado em Ferramentas administrativas conectadas à sua implantação no local. Para obter mais informações sobre como mover usuários, consulte [mover os usuários no local para Skype para negócios Online](move-users-from-on-premises-to-skype-for-business-online.md).
+> Gerenciamento de todos os usuários, incluindo o usuário move entre locais e do Skype para negócios Online, deve ser feito usando a última versão instalada das ferramentas administrativas. As ferramentas administrativas devem ser instaladas em um servidor separado que possui acesso se conectam a implantação existente do local e à Internet. O cmdlet para mover usuários de sua implantação no local para Skype para negócios Online, [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps), deve ser executado em Ferramentas administrativas conectadas à sua implantação no local. Para obter mais informações sobre como mover usuários, consulte [mover os usuários no local para Skype para negócios Online](move-users-from-on-premises-to-skype-for-business-online.md).
 
 Você também deve considerar os seguintes problemas relacionados ao usuário durante o planejamento para uma implantação híbrida:
 

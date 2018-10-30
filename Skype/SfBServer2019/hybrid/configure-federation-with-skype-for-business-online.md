@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumo: Saiba como configurar a interoperabilidade entre sua implantação no local e Skype para Business Online.'
-ms.openlocfilehash: fb04ecd53c93ae7bd64fca760b752d2d69324c3d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: df5fed224484a3c8f8957365f5304095a115b7b1
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "25030718"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839146"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurar Skype para o híbrido de negócios
 
@@ -72,11 +72,11 @@ $CSSession = New-CsOnlineSession -Credential $cred
 Import-PSSession $CSSession -AllowClobber
 ```
 
-Para obter mais informações sobre como estabelecer uma sessão PowerShell remota com Skype para Business Online e como usar o Skype para módulo Business Connector Online, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Para obter mais informações sobre como estabelecer uma sessão PowerShell remota com Skype para Business Online e como usar o Skype para módulo Business Connector Online, consulte [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
 ## <a name="configure-server-to-server-authentication-if-required"></a>Configurar a autenticação de servidor-para-servidor, se necessário
 
-Dependendo do tipo de ambiente híbrido que você está configurando, você precisará configurar a autenticação de servidor-para-servidor.  Para obter mais informações, consulte [Gerenciar a autenticação de servidor-para-servidor no Skype para Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
+Dependendo do tipo de ambiente híbrido que você está configurando, você precisará configurar a autenticação de servidor-para-servidor.  Para obter mais informações, consulte [Gerenciar a autenticação de servidor-para-servidor no Skype para Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications).
 
 
 ## <a name="see-also"></a>Consulte também

@@ -8,12 +8,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype para Business Server 2019 oferece suporte a implantações de vários locais e do pool de múltiplos. O processo de migração de vários pools para Skype for Business Server 2019 requer as seguintes considerações:'
-ms.openlocfilehash: 9716df65acfde26c41001bbc252b746ea1bd5241
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 74c622c1cde4a01c51749c6942c898e11e1551f9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028744"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839160"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migrando múltiplos sites e pools
 
@@ -31,6 +31,6 @@ Skype para Business Server 2019 oferece suporte a implantações de vários loca
     
 6. Depois de verificar se o pool herdado está vazio, você pode desativar o pool. 
     
-    Para obter detalhes sobre como desativar o pool herdado herdado e servidores, consulte [fase 8: encerre os pools herdados](phase-8-decommission-legacy-pools.md).
+    Para obter detalhes sobre como desativar o pool e servidores herdados, consulte [fase 8: encerre os pools herdados](phase-8-decommission-legacy-pools.md).
     
 

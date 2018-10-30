@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba como configurar a segurança de aplicativo móvel para seus usuários. '
-ms.openlocfilehash: a87719bc4135ab429fca8425812b285a2eed5b5e
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 03b6575826defd5bd4c8c7739a1975edaabe0752
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861287"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838491"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Segurança do aplicativo móvel do Skype for Business
 
@@ -37,7 +37,7 @@ Este artigo abrange as informações de criptografia de dados em Aplicativos Mó
 |**iOS** <br/> |NÃO criptografamos o nome de usuário/senha na cadeia de conjunto de chaves. No entanto, o conjunto de chaves é criptografado sozinho.  <br/> |Já estamos usando a sinalização de proteção de dados [NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) em todos os arquivos no armazenamento do aplicativo. Isso significa que os arquivos no armazenamento do aplicativo seriam criptografados até o usuário desbloquear o dispositivo pela primeira vez após sua reinicialização.<br/> |Essas informações não são criptografadas.  <br/> |
 |**Windows Phone** <br/> |O Windows Phone usa o DPAPI (Data Protection API) no Windows para proteger senhas. Acredito que o esquema de criptografia usado é o AES. O Windows não fornece uma opção para configurar o tamanho da chave (ou esquema), portanto, a chave terá o tamanho dado pelo DPAPI. Ele usará o TPM do dispositivo para proteger as chaves que são específicas para o usuário e o dispositivo. Note que as chaves DPAPI não são específicas para o aplicativo.  <br/> |Os dados do aplicativo WP são protegidos com o [DPAP](https://msdn.microsoft.com/en-us/library/windows/apps/hh487164%28v=vs.105%29.aspx)I, como as credenciais. Dependendo de quantos detalhes desejamos, algumas informações do índice para os Dados do App são protegidas por criptografia AES (não DPAPI) para evitar salting, assim, podemos conferir sem descriptografa. Por sua vez , essa chave é protegida com DPAPI. Os dados em cache podem ser lidos por qualquer processo por meio do mesmo telefone, presumindo que ele possa acessar nossa pasta de dados. A criptografia do Windows não protege contra a violação da área restrita, apenas contra tentativas de acesso externo.<br/> |Essas informações não são criptografadas.  <br/> |
    
-**Observação:** Consulte [esta documentação pública](https://docs.microsoft.com/en-us/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) para a imposição de pin de dispositivos disponível em cada uma das plataformas móveis acima
+**Observação:** Consulte [esta documentação pública](https://docs.microsoft.com/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) para a imposição de pin de dispositivos disponível em cada uma das plataformas móveis acima
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar o Skype for Business Online](set-up-skype-for-business-online.md)

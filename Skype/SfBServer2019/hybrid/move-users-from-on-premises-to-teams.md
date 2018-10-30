@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumo: Saiba como migrar configurações do usuário e movam usuários às equipes.'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436562"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838714"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover os usuários no local para equipes
 
@@ -79,7 +79,7 @@ Se os usuários no local tiverem voz no local, você tem duas opções:
 -  **Migre usuários com os recursos de telefonia.** Os usuários podem fazer e receber chamadas usando o cliente de equipes.  Você pode escolher entre Microsoft chamar planejar ou em roteamento direto para conectar os serviços de telefonia para equipes.  
 
     -  Chamar plano Microsoft fornece uma solução de voz all nuvem. Para obter mais informações sobre como chamar plano Microsoft, consulte (link em breve). 
-    -  Roteamento direto permite usar praticamente qualquer tronco PSTN, e você pode configurar a interoperabilidade entre o sistema de telefone da Microsoft e equipamentos de telefonia de propriedade do cliente.  Para obter mais informações, consulte [Planejar roteamento direto](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) e [Configurar o roteamento direto](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
+    -  Roteamento direto permite usar praticamente qualquer tronco PSTN, e você pode configurar a interoperabilidade entre o sistema de telefone da Microsoft e equipamentos de telefonia de propriedade do cliente.  Para obter mais informações, consulte [Planejar roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) e [Configurar o roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
 
 -  **Migre usuários sem recursos de telefonia.** Se você migrar usuários sem preservar os recursos de telefonia, certifique-se de usuários têm licenças apropriadas na nuvem. 
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Resumo: Explore esses links para aprender a implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 459738bf2c3aae789db26c960297d692c85696af
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3b65398ae8bf71041751738cd7119cf23f55e504
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375882"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839340"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
@@ -31,7 +31,7 @@ Skype para negócios é uma plataforma de comunicação e colaboração que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-blue.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +49,7 @@ Skype para negócios é uma plataforma de comunicação e colaboração que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid-blue.svg" alt="Hybrid" />
 
                         </div>
                     </div>
@@ -68,7 +68,7 @@ Skype para negócios é uma plataforma de comunicação e colaboração que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ Skype para negócios é uma plataforma de comunicação e colaboração que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/upload-blue.svg" alt="Upgrade" />
+                            <img src="https://docs.microsoft.com/office/media/icons/upload-blue.svg" alt="Upgrade" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ Skype para negócios é uma plataforma de comunicação e colaboração que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow-blue.svg" alt="Architecture" />
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-blue.svg" alt="Architecture" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -122,7 +122,7 @@ Skype para negócios é uma plataforma de comunicação e colaboração que reú
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/download-blue.svg" alt="Download" />
+                            <img src="https://docs.microsoft.com/office/media/icons/download-blue.svg" alt="Download" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -145,7 +145,7 @@ Skype para negócios é uma plataforma de comunicação e colaboração que reú
                 <div class="card">
                     <div class="cardText">
                         <h3>Antes de começar</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requisitos para o seu ambiente</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requirements for your environment</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Requisitos de rede</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clientes e dispositivos</a></p>
                     </div>

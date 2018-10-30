@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: revisão dos clientes e aplicativos compatíveis com o Skype for Business.'
-ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
-ms.translationtype: HT
+ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965717"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839153"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
 
@@ -84,7 +84,7 @@ Os Sistemas de Salas Skype v2 são a mais recente solução de conferência da M
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business no Surface Hub
 
-O Microsoft Surface Hub é um dispositivo de produtividade completo para troca de ideias, colaboração e apresentações. Ele tem sua própria iteração do cliente Skype for Business, documentada no [Guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/en-us/surface-hub/).
+O Microsoft Surface Hub é um dispositivo de produtividade completo para troca de ideias, colaboração e apresentações. Ele tem sua própria iteração do cliente Skype for Business, documentada no [Guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
 
 ## <a name="choosing-your-organizations-preferred-client"></a>Como escolher o cliente preferencial para sua organização
 <a name="BK_client_choose"> </a>

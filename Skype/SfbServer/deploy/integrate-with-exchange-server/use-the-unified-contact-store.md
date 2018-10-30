@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Resumo: Configure o repositório unificado de contatos para Exchange Server e do Skype para Business Server.'
-ms.openlocfilehash: 6dccf6b2e6461ede26f49fa9efb3386bd04a9db3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ebed3e81b12718ae053b4482455cf38bd844799c
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988766"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839835"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar o Skype for Business Server para usar o repositório unificado de contatos
  
@@ -31,7 +31,7 @@ Usando o repositório unificado de contatos, os usuários mantém uma lista de c
 
 Se a autenticação de servidor-para-servidor entre o Skype para Business Server e o Exchange Server já está configurada, então você também tenha habilitado o armazenamento unificado de contatos; Nenhuma configuração de servidor adicional é necessária. No entanto, será necessária configuração adicional da conta do usuário para transferir os contatos de um usuário para o repositório unificado de contatos. Por padrão, os contatos do usuário são mantidos no Skype para Business Server e não no repositório unificado de contatos.
   
-Acesso ao repositório unificado de contatos é gerenciado por meio de Skype para políticas de serviços de usuário do servidor de negócios. As políticas de serviços de usuário têm uma única propriedade (UcsAllowed), que é usada para determinar o local onde os contatos de um usuário são armazenados. Se um usuário for gerenciado por uma política de serviços de usuário em que UcsAllowed foi definida como True ($True), os contatos do usuário serão armazenados no repositório unificado de contatos. Se o usuário é gerenciado por um usuário onde UcsAllowed tiver sido definida como False ($False) e seus contatos serão armazenados no Skype para Business Server de política de serviços.
+Acesso ao repositório unificado de contatos é gerenciado por meio de Skype para políticas de serviços de usuário do servidor de negócios. As políticas de serviços de usuário têm uma única propriedade (UcsAllowed), que é usada para determinar o local onde os contatos de um usuário são armazenados. Se um usuário é gerenciado por uma política de serviços do usuário cuja UcsAllowed tiver sido definida como True ($True), em seguida, os contatos do usuário serão armazenados no repositório unificado de contatos. Se o usuário é gerenciado por um usuário onde UcsAllowed tiver sido definida como False ($False) e seus contatos serão armazenados no Skype para Business Server de política de serviços.
   
 Quando você instala o Skype para Business Server, uma política de serviços de usuário único (configurada no escopo global) também é instalada. O valor de UcsAllowed nessa política é definido como True, o que significa que, por padrão, os contatos do usuário serão colocados no repositório unificado de contatos (presumindo que ele tenha sido implantado e configurado). Se você quiser migrar todos os seus contatos de usuário para o repositório unificado de contatos,não será necessário fazer nada. 
   

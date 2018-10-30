@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Saiba mais sobre o roteamento de voz de saída em Skype para Business Server Enterprise Voice, incluindo configurações de roteamento de chamada, planos de discagem, regras de normalização, políticas de voz, registros de uso PSTN e roteamentos de voz.
-ms.openlocfilehash: 60a1041bee0f235a232c7516dd9e0122ea7b7b65
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8b7ef6c4e07bd7618645606c777b257e1d32691f
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883652"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838813"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planejar o roteamento de voz de saída em Skype para Business Server
  
@@ -44,7 +44,7 @@ As regras de normalização definem como os números de telefone expressos em v�
   
 ### <a name="dial-plan-scope"></a>Escopo do plano de discagem
 
-O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Skype para Business Server, um usuário pode ser atribuído um plano de discagem por usuário específico. Se não for atribuído a um plano de discagem do usuário, o plano de discagem do pool de Front-End será aplicado. Se não houver nenhum plano de discagem de pool de pool de Front-End, o plano de discagem do site será aplicado. Finalmente, se não houver nenhum outro plano de discagem aplicável ao usuário, o plano de discagem global será aplicado.
+O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Skype para Business Server, um usuário pode ser atribuído um plano de discagem por usuário específico. Se não for atribuído a um plano de discagem do usuário, o plano de discagem do pool de Front-End será aplicado. Se não houver nenhum plano de discagem do pool de Front-End, o plano de discagem do site será aplicado. Finalmente, se não houver nenhum outro plano de discagem aplicável ao usuário, o plano de discagem global será aplicado.
   
 Os clientes obtêm os níveis de escopo de plano de discagem por meio de configurações de provisionamento em banda que são fornecidas quando os usuários façam logon no Skype para negócios. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o Skype para painel de controle do servidor de negócios.
   
@@ -81,7 +81,7 @@ Para planejar uma discagem, siga estas instruções:
     
     Se sua organização mantenha um único plano de discagem em vários locais, você ainda precisará criar um plano de discagem separado para usuários do Enterprise Voice que estiver migrando de uma central privada (PBX) e quem precisa ter suas extensões existentes retidos.
     
-- Decida se os planos de discagem por usuário são necessários. Por exemplo, se você tiver usuários em um site de filial que são registrados com o site central, ou se você tiver usuários que estão registrados em um aparelho de filial, você pode considerar especiais cenários de discagem para tais usuários usando por usuário planos de discagem e regras de normalização . Para obter detalhes, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](enterprise-voice-resiliency.md).
+- Decida se os planos de discagem por usuário são necessários. Por exemplo, se você tiver usuários em um site de filial que são registrados com o site central, ou se você tiver usuários que estão registrados em um aparelho de filial, você pode considerar especiais cenários de discagem para tais usuários usando por usuário planos de discagem e regras de normalização . Para obter detalhes, consulte [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md).
     
 - Determine o escopo do plano de discagem (como descrito anteriormente neste tópico).
     

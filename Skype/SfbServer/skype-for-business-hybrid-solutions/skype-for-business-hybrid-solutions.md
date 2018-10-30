@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Encontre informações sobre como planejar uma Skype para implantação híbrida do Business.
-ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891230"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839441"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Skype para soluções híbridas de negócios
  
@@ -68,16 +68,16 @@ O diagrama a seguir mostra como você pode adicionar Skype para Business Online 
   
 ![Configurações híbridas do Skype for Business](../media/4580f2c8-7008-4c6e-826c-020d0f2d1636.png)
   
-Para obter mais informações, consulte [Planejar a conectividade híbrida entre Skype para Business Server e do Skype para Business Online](plan-hybrid-connectivity.md) e a [conectividade híbrida de Deploy entre Skype para Business Server e do Skype para negócios Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Para obter mais informações, consulte [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](plan-hybrid-connectivity.md) e [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
 ## <a name="take-advantage-of-phone-system-in-office-365-cloud-pbx"></a>Aproveite o Sistema de Telefonia do Office 365 (Cloud PBX)
 <a name="BKMK_CloudPBX"> </a>
 
- Sistema telefônico no Office 365 (nuvem PBX) é uma tecnologia da Microsoft para habilitar o controle de chamada e os recursos de Private Branch Exchange (PBX) no Office 365 nuvem com Skype para Business Online. O sistema telefônico no Office 365 permite que você substitua o seu sistema PBX existente um conjunto de recursos entregues do Office 365 e estreitamente integrado ao experiência de produtividade de nuvem da Microsoft.
+ Sistema telefônico no Office 365 (nuvem PBX) é uma tecnologia da Microsoft para habilitar o controle de chamada e os recursos de Private Branch Exchange (PBX) no Office 365 nuvem com Skype para Business Online. Esse sistema permite que você substitua seu sistema PBX existente por um conjunto de recursos fornecidos diretamente pelo Office 365, que está bem integrado com a experiência de produtividade da nuvem Microsoft.
   
 Além de sistema telefônico duas no Office 365 ofertas de híbrido, a Microsoft oferece o sistema telefônico no Office 365 com chamar planejar — uma PSTN chamando serviço — para uma solução de all nuvem que não requer uma implantação de servidor local. Para decidir se o sistema telefônico no Office 365 com chamar planejar pode ser a solução certa para sua organização, consulte [Sistema telefônico nas soluções do Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings).
   
-Há duas ofertas híbridas para o Sistema de Telefonia do Office 365: 
+Há duas ofertas híbridas para o Sistema de Telefonia do Office 365:  
   
 - [Sistema de Telefonia do Office 365 com conectividade local fornecida pela implantação do Skype for Business Server](skype-for-business-hybrid-solutions.md#BKMK_Server)
     
@@ -140,7 +140,7 @@ Integrando Skype for Business Server com o Exchange Online e SharePoint Online t
     
 - Uso Skype para negócios, Exchange e SharePoint integrado de recursos, incluindo Unified Messaging (UM) no Office 365.
     
-Para obter mais informações, consulte [Planejar a integração do Skype para Exchange e de negócios](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Para obter mais informações, consulte [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ### <a name="exchange-server-with-skype-for-business-online"></a>Exchange Server com Skype for Business Online
 
@@ -154,7 +154,7 @@ Integrando o Exchange Server com Skype for Business Online tem as seguintes vant
     
 - Use o Skype para Business Online para recursos de presença, mensagens Instantâneas e conferência. 
     
-Para obter mais informações, consulte [Planejar a integração do Skype para Exchange e de negócios](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Para obter mais informações, consulte [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
   
 ## <a name="tasks-for-planning-and-configuring-a-hybrid-environment"></a>Tarefas para planejar e configurar um ambiente híbrido
 <a name="BKMK_Tasks"> </a>
@@ -206,24 +206,24 @@ Você também precisará executar o acompanhamento tarefas profissional de TI pa
 
 Para obter mais informações, confira:
   
-- [Recursos de arquitetura de TI de nuvem da Microsoft](https://aka.ms/clouditarch)
+- [Recursos da arquitetura de TI da nuvem da Microsoft](https://aka.ms/clouditarch)
     
-- [Identidade de nuvem da Microsoft para arquitetos da empresa](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Identidade da nuvem da Microsoft para arquitetos corporativos](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
-- [Prepare a sua organização para o Office 365 Enterprise](https://aka.ms/O365EntPrep)
+- [Preparar a sua organização para o Office 365 Enterprise](https://aka.ms/O365EntPrep)
     
 - [Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](plan-hybrid-connectivity.md)
     
-- [Implantar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
+- [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md)
     
 - [Sistema telefônico nas soluções do Office 365](plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md#BKMK_PBXOfferings)
     
-- [Plano para integrar o Skype for Business e o Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
+- [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)
     
 Para baixar a versão deste tópico em .pdf:
   
-- [Skype para modelos de arquitetura de negócios (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
+- [Modelos de arquitetura do Skype for Business (pdf)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.pdf)
     
-- [Skype para modelos de arquitetura de negócios (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
+- [Modelos de arquitetura do Skype for Business (Visio)](https://download.microsoft.com/download/7/7/4/7741262C-A60D-41F7-863B-99BF5964FBFE/Skype%20for%20Business%20Architectural%20Models.vsd)
     
 

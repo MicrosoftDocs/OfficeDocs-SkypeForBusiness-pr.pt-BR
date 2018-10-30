@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: A tabela AppSharingStream contém as métricas de qualidade da experiência para os fluxos de rede usados para compartilhamento de aplicativos. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: e3b2f19810fbd9f68ebe848e78c032035fb49978
-ms.sourcegitcommit: dc7a7da270121c3702f38614158c9067ad38f12a
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2018
-ms.locfileid: "19881532"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839709"
 ---
 # <a name="appsharingstream-table"></a>Tabela AppSharingStream
  
 A tabela AppSharingStream contém as métricas de qualidade da experiência para os fluxos de rede usados para compartilhamento de aplicativos. Esta tabela foi introduzida no Microsoft Lync Server 2013.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primária, estrangeira  <br/> |Data e hora em que a sessão foi iniciada.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária, estrangeira  <br/> |Identificador sequencial usado para distinguir entre sessões que foram iniciadas na mesma data e ao mesmo tempo.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primária, estrangeira  <br/> | Consulte a [Tabela MediaLine](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primária, estrangeira  <br/> | Consulte a [Tabela MediaLine](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |int  <br/> |Primária  <br/> |Identificador exclusivo do fluxo de compartilhamento de aplicativo.  <br/> |
-|**JitterInterArrival** <br/> |int  <br/> ||Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
+|**JitterInterArrival** <br/> |int  <br/> ||Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada "tremula".) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Tremulação máxima detectada entre entradas de pacotes RTP. (É uma medida de "shakiness" de uma chamada de tremulação.) Os valores de tremulação alta normalmente são causados por congestionamento ou um servidor de mídia sobrecarregado e resultam em áudio distorcido ou perdido.  <br/> |
-|**Ida e volta** <br/> |int  <br/> ||Quantidade média (em milissegundos) exigida para que um pacote de protocolo RTP viaje até outro ponto de extremidade e retorne. Tempos de viagem de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
-|**RoundTripMax** <br/> |int  <br/> ||Quantidade máxima de (em milissegundos) necessária para um pacote de protocolo de transporte em tempo real para viajar para outro ponto de extremidade e, em seguida, novamente. Tempos de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Altos valores de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
-|**PacketLossRate** <br/> |float  <br/> ||Taxa média de perda de pacotes de RTP (protocolo de transporte em tempo real). (A perda de pacotes ocorre quando pacotes de RTP, um protocolo usado para transmitir áudio e vídeo pela Internet, falha ao tentar alcançar seu destino). Altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |
-|**PacketLossRateMax** <br/> |float  <br/> ||Taxa máxima de perda de pacote real-time Transport Protocol (RTP). (A perda de pacote ocorre quando há falha de pacotes RTP, um protocolo usado para transmitir áudio e vídeo através da Internet, para atingir seu destino.) Taxas de perda de alta são geralmente causadas por congestionamento; falta de largura de banda; congestionamento sem fio ou interferência; ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |
+|**RoundTrip** <br/> |int  <br/> ||Quantidade média (em milissegundos) exigida para que um pacote de protocolo RTP viaje até outro ponto de extremidade e retorne. Tempos de viagem de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
+|**RoundTripMax** <br/> |int  <br/> ||Quantidade máxima de (em milissegundos) necessária para um pacote de protocolo de transporte em tempo real para viajar para outro ponto de extremidade e, em seguida, novamente. Tempos de viagem de ida e volta de 200 milissegundos ou menos são considerados de qualidade aceitável.  <br/> Os valores altos de tempo de resposta podem ser causados por roteamento de chamadas internacionais, configuração incorreta de um roteamento ou um servidor de mídia sobrecarregado. Tempos de resposta altos resultam em dificuldades para conversas de áudio bidirecionais e em tempo real.  <br/> |
+|**PacketLossRate** <br/> |float  <br/> ||Taxa média de perda de pacotes de protocolo RTP. (A perda de pacotes ocorre quando pacotes RTP, um protocolo usado para transmitir áudio e vídeo pela Internet, não chegam ao seu destino). As altas taxas de perda geralmente são causadas por congestionamento, insuficiência da largura de banda, congestionamento ou interferência na rede sem fio ou um servidor de mídia sobrecarregado. A perda de pacotes normalmente resulta em distorção ou perda de áudio.  <br/> |
+|**PacketLossRateMax** <br/> |float  <br/> ||Taxa máxima de perda de pacote real-time Transport Protocol (RTP). (A perda de pacote ocorre quando há falha de pacotes RTP, um protocolo usado para transmitir áudio e vídeo através da Internet, para atingir seu destino.) Taxas de perda de alta são geralmente causadas por congestionamento; falta de largura de banda; congestionamento sem fio ou interferência; ou um servidor de mídia sobrecarregado. A perda de pacote normalmente resulta em perda ou distorção de áudio.  <br/> |
 |**PacketUtilization** <br/> |int  <br/> ||Número de pacotes enviados.  <br/> |
 |**BandwidthEst** <br/> |int  <br/> ||Estimado unidirecional largura de banda disponível no final da sessão. Relatado em bits por segundo.  <br/> |
 |**AppSharingPayloadDescription** <br/> |int  <br/> ||Descrição da carga do compartilhamento de aplicativos.  <br/> |

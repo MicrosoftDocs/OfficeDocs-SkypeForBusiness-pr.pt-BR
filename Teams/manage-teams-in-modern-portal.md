@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8d517ce7f2fb614a22c45fcf63d59a7d46b606f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: cf9c10640b132aeea352875f2a5acafe5cd6d377
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502330"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839105"
 ---
 <a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Gerenciar equipes na Microsoft Teams & Skype para Business Admin Center
 ==========================================
@@ -34,7 +34,7 @@ Como um administrador de TI, você pode precisar exibir ou atualizar as equipes 
 - Administrador global
 - Administrador de Serviço de Equipes
 
-Você pode aprender mais sobre as funções de administrador no Microsoft Teams [aqui](using-admin-roles.md), e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps).  
+Você pode aprender mais sobre as funções de administrador no Microsoft Teams [aqui](using-admin-roles.md), e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
 Este artigo fornece uma visão geral das ferramentas de gerenciamento para equipes na Microsoft Teams & Skype para Business Admin Center.
 
@@ -91,7 +91,7 @@ As alterações feitas em uma equipe são registradas. Se você estiver modifica
 
 ## <a name="learn-more"></a>Saiba mais
 
-[Referência do cmdlet Teams da Microsoft](https://docs.microsoft.com/en-us/powershell/teams/?view=teams-ps)  
+[Referência do cmdlet Teams da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 [Funções de administrador no Microsoft Teams](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)
