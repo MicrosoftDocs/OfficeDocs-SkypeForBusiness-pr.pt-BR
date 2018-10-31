@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para o Reino Unido.
-ms.openlocfilehash: f3e83adc835f003091ed0a1aa38953269dbe4b95
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013775"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851572"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidade no Reino Unido (Reino Unido)
 
@@ -62,7 +62,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
 |Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
-|Pode fazer chamadas de saída para números premium? <br/> | Parcialmente suportado: chamadas para números de custo de compartilhadas (prefixa 44843, 44844, 44845, 44870, 44871, 44872) têm suporte.  Chamadas para 449XX prefixos não são suportadas. <br/> |
+|Pode fazer chamadas de saída para números premium? <br/> | Parcialmente suportado: chamadas para números de custo de compartilhadas (prefixa 44843, 44844, 44845, 44870, 44871, 44872) são suportadas usando comunicações créditos de pagar por minuto.  Chamadas para 449XX prefixos não são suportadas. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

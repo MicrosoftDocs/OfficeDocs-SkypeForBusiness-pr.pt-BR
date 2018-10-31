@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumo: Saiba como migrar configurações do usuário e movam usuários às equipes.'
-ms.openlocfilehash: 76baa9cdc87535e68cc0bff4e9397a91d1090439
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838714"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851480"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover os usuários no local para equipes
 
@@ -100,7 +100,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = get-credenciais. Você deve fornecer credenciais de administrador do Office 365.)
 
 > [!NOTE]
-> Esse comando define o TeamsInteropPolicy às equipes e configura o TeamsUpgradePolicy para o modo de TeamsOnly. 
+> Esse comando define o TeamsUpgradePolicy para o modo de TeamsOnly. 
  
 Após a mudança para equipes for bem-sucedida, Skype do usuário para o cliente de negócios exibirá a seguinte mensagem: 
 
