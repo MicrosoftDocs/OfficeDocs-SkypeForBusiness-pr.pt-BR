@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: c0aa89e8e1900aefd069b132e8e082aa477e2786
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: d9b1cf0f819639aebd1250bd37f4fc85d5555fc4
+ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839475"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "25849402"
 ---
 # <a name="plan-direct-routing"></a>Planejar o roteamento direto
 
@@ -221,16 +221,12 @@ O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Suporte para controladores de borda de sessão (SBCs)
 
-Microsoft suporta apenas o SBC certified emparelhar com o roteamento direto. Como Enterprise Voice é fundamental para a empresa, Microsoft executa testes de uso intensivos com os selecionado SBCs e funciona com os fornecedores SBC para garantir que os dois sistemas é compatíveis. 
+Microsoft suporta apenas os certificados SBCs emparelhar com o roteamento direto. Como Enterprise Voice é fundamental para empresas, Microsoft executa testes de uso intensivos com os selecionado SBCs e funciona com os fornecedores SBC para garantir que os dois sistemas é compatíveis. 
 
-Os dispositivos que tiverem sido validados são listados como certificado para equipes direto roteamento. Os dispositivos de certificados são garantidos funcionem em todos os cenários. Também é um processo de suporte conjunto entre a Microsoft e os fornecedores SBC estabelecidos.  
+Os dispositivos que tiverem sido validados são listados como certificado para equipes direto roteamento. Os dispositivos de certificados são garantidos funcionem em todos os cenários. 
 
-Os seguintes fornecedores estiver sendo certified:
-- [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)
-- Comunicações da faixa de opções (anteriormente Sonus):
-   - [Série de borda de SBC](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+SBC+Edge+1000+-+2000+for+Microsoft+Teams+Direct+Routing)
-   - [SBC Core série](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)
-- ThinkTel: ThinkTel não vende os SBCs para as empresas, mas seu SBC está sendo certified.  
+Para obter mais informações sobre SBCs com suporte, consulte a [lista de controladores de borda de sessão certified para roteamento direto](direct-routing-border-controllers.md).
+
  
 ## <a name="see-also"></a>Consulte também
 
