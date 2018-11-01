@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumo: Leia este tópico para saber como planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online.  A configuração da conectividade híbrida é a primeira etapa da implantação de muitas soluções híbridas do Skype for Business.'
-ms.openlocfilehash: d3fe994535197209a8d35c10144e45badb4391a8
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890472"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838806"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online
 
@@ -32,7 +32,7 @@ Este tópico fornece uma visão geral e descreve a infraestrutura e requisitos d
 
 Este tópico inclui as seguintes seções:
 
-- [Visão geral](plan-hybrid-connectivity.md#BKMK_Overview)
+- [Overview](plan-hybrid-connectivity.md#BKMK_Overview)
 
 - [Requisitos de infraestrutura](plan-hybrid-connectivity.md#BKMK_Infrastructure)
 
@@ -60,7 +60,7 @@ Este tópico inclui as seguintes seções:
 
 - [Recursos e políticas de usuário](plan-hybrid-connectivity.md#BKMK_UserPolicies)
 
-Depois que você leu este tópico e estiver pronto para implantar, consulte [Deploy a conectividade de híbrido entre Skype para Business Server e do Skype para negócios Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Os tópicos sobre a implantação fornecem orientações passo a passo para configurar a conectividade híbrida entre sua implantação local e o Skype for Business Online.
+Depois de ler este tópico, quando estiver pronto para a implantação, veja [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Os tópicos sobre a implantação fornecem orientações passo a passo para configurar a conectividade híbrida entre sua implantação local e o Skype for Business Online.
 
 (Para obter informações sobre como configurar o Lync Server 2013 ou a implantação do Lync Server 2010 para o híbrido, consulte [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
@@ -89,7 +89,7 @@ O Active Directory local é autoritativo, o que quer dizer que você deve fazer 
 
 - Se os seus usuários estiverem hospedados no Skype for Business Online, depois que suas contas forem sincronizadas com o Azure AD, será necessário atribuir uma licença do Skype for Business Online (Plano 2) a eles.
 
-- Depois que os usuários do Skype for Business Online tiverem uma licença atribuída a eles, será necessário habilitá-los para o Skype for Business ou para o Enterprise Voice local. Para obter mais informações, consulte [habilitar os usuários para o Enterprise Voice no local](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Para obter mais informações sobre os requisitos de voz híbrida, consulte [Planejar o sistema de telefone no Office 365 com conectividade PSTN local no Skype para Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
+- Depois que os usuários do Skype for Business Online tiverem uma licença atribuída a eles, será necessário habilitá-los para o Skype for Business ou para o Enterprise Voice local. Para obter mais informações, consulte [habilitar os usuários para o Enterprise Voice no local](plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md). Para obter mais informações sobre os requisitos do Hybrid Voice, consulte [Plan Phone System in Office 365 with on-premises PSTN connectivity in Skype for Business Server](plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md).
 
 Você saberá mais sobre a configuração do Active Directory nas próximas seções. Mas, primeiro, apresentamos uma visão geral da terminologia e dos acrônimos usados nos diagramas abaixo e em vários tópicos sobre conectividade híbrida:
 
@@ -136,15 +136,15 @@ Para implementar e implantar a conectividade híbrida entre o Skype for Business
     > [!NOTE]
     > Você só pode usar um único locatário para uma configuração híbrida com sua implantação local.
 
-- Skype para ferramentas administrativas do Business Server 2015. (Se você estiver usando o Lync Server 2013 ou o Lync Server 2010, você pode usar as ferramentas administrativas do Lync Server 2013. Para obter mais informações, consulte [Lync Server 2013 hybrid](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
+- Skype para ferramentas administrativas do Business Server 2015. (Se você estiver usando o Lync Server 2013 ou o Lync Server 2010, você pode usar as ferramentas administrativas do Lync Server 2013. Para obter mais informações, consulte [Lync Server 2013 híbrido](https://go.microsoft.com/fwlink/p/?LinkId=617360).)
 
-- Azure Active Directory Connect para sincronizar seu diretório local com o Office 365. Para obter mais informações, consulte [Conectar Active Directory com o Windows Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Connect para sincronizar seu diretório local com o Office 365. Para obter mais informações, consulte [Conectar o Active Directory com o Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 
-    Para oferecer suporte ao logon único no Office 365 de modo que os usuários possam usar as mesmas credenciais de logon que no local, você pode usar os recursos de sincronização de senha do Azure Active Directory (AAD) Connect. É possível também usar Serviços de Federação do Active Directory (AD FS) para login único com o Office 365.
+    Para oferecer suporte ao logon único no Office 365 de modo que os usuários possam usar as mesmas credenciais de logon que no local, você pode usar os recursos de sincronização de senha do Azure Active Directory (AAD) Connect. É possível também usar Serviços de Federação do Active Directory (AD FS) para login único com o Office 365. 
 
-- Federação habilitada entre a implantação local do Skype for Business e seu locatário do Office 365. Federação permite que os usuários em sua implantação no local para se comunicar com usuários do Office 365 em sua organização. Para obter mais informações, consulte [Configurar federação com Skype para negócios Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
+- Federação habilitada entre a implantação local do Skype for Business e seu locatário do Office 365. Federação permite que os usuários em sua implantação no local para se comunicar com usuários do Office 365 em sua organização. Para obter mais informações, consulte [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
 
-- Espaço de endereço SIP compartilhado habilitado. Um endereço SIP é um identificador único para cada usuário em uma rede, semelhante a um número de telefone ou endereço de email. Antes de tentar mover os usuários no local para Skype para Business Online, você precisará configurar seu locatário do Office 365 para compartilhar o espaço de endereço de protocolo de iniciação de sessão (SIP) compartilhados com sua implantação no local. Para obter mais informações, consulte [Configurar federação com Skype para negócios Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
+- Espaço de endereço SIP compartilhado habilitado. Um endereço SIP é um identificador único para cada usuário em uma rede, semelhante a um número de telefone ou endereço de email. Antes de tentar mover os usuários no local para Skype para Business Online, você precisará configurar seu locatário do Office 365 para compartilhar o espaço de endereço de protocolo de iniciação de sessão (SIP) compartilhados com sua implantação no local. Para obter mais informações, consulte [Configure federation with Skype for Business Online](deploy-hybrid-connectivity/configure-federation-with-skype-for-business-online.md).
 
 ## <a name="multi-forest-support"></a>Suporte a várias florestas
 <a name="BKMK_MultiForest"> </a>
@@ -170,7 +170,7 @@ Para dar suporte à coexistência com o Exchange, considere o seguinte:
 
   - Server side histórico da conversa, arquivamento, o repositório unificado de contatos, a foto HighRes exige o Exchange 2013 ou posterior e você deve ativar o servidor OAuth comunicação entre servidores. Para obter mais informações, consulte [gerenciar autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server 2015](https://technet.microsoft.com/en-us/library/jj204817.aspx).
 
-Para obter detalhes sobre a coexistência com o Exchange Server, incluindo suporte critérios e limitações em várias combinações de local e online, consulte [suporte de recurso](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) em [Planejar a integração do Skype para Exchange e de negócios](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
+Para obter detalhes sobre a coexistência com o Exchange Server, incluindo os critérios e as limitações de suporte em várias combinações de local e online, consulte [Suporte aos recursos](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) em [Plan to integrate Skype for Business and Exchange](../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
 
 ## <a name="administrator-credentials"></a>Credenciais do administrador
 <a name="BKMK_Credentials"> </a>
@@ -292,7 +292,7 @@ Os computadores de sua rede devem ser capazes de realizar pesquisas DNS padrão 
 
 Dependendo do local do seu centro de dados do Microsoft Online Services, você também deve configurar os dispositivos de firewall de rede para aceitar conexões com base em nomes de domínio de caractere curinga (por exemplo, todo o tráfego da \*. outlook.com). Se dos firewalls da organização não oferecer suporte a configurações de nome de curinga, você terá de determinar manualmente os intervalos de endereços IP que você gostaria de permitir e as portas especificadas.
 
-Para obter mais informações, consulte [URLs do Office 365 e intervalos de endereços IP](https://go.microsoft.com/fwlink/p/?LinkId=252942).
+Para obter mais informações, veja [URLs e intervalos de endereço IP do Office 365](https://go.microsoft.com/fwlink/p/?LinkId=252942).
 
 ## <a name="port-and-protocol-requirements"></a>Requisitos de porta e protocolo
 <a name="BKMK_Ports"> </a>
@@ -309,7 +309,7 @@ Além dos requisitos de porta para a comunicação interna, você também deve c
 |STUN  <br/> |UDP  <br/> |Borda A/V  <br/> |Office 365  <br/> |3478  <br/> |3478  <br/> |Abertas para sessões de áudio, vídeo  <br/> |
 |STUN  <br/> |UDP  <br/> |Office 365  <br/> |Borda A/V  <br/> |3478  <br/> |3478  <br/> |Abertas para sessões de áudio, vídeo  <br/> |
 
-Para obter mais informações sobre a porta e firewall de planejamento para o servidor de borda, consulte [requisitos de ambiente de servidor de borda no Skype para Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Consulte também o [diagrama de cargas de trabalho de protocolo](https://go.microsoft.com/fwlink/p/?LinkId=550989)e [requisitos de porta e protocolo para servidores](../plan-your-deployment/network-requirements/ports-and-protocols.md) .
+Para obter mais informações sobre a porta e firewall de planejamento para o servidor de borda, consulte [requisitos de ambiente de servidor de borda no Skype para Business Server 2015](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md). Consulte também [Port and protocol requirements for servers](../plan-your-deployment/network-requirements/ports-and-protocols.md) e o [Diagrama de cargas de trabalho dos protocolos](https://go.microsoft.com/fwlink/p/?LinkId=550989).
 
 ## <a name="user-accounts-and-data"></a>Dados e contas de usuário
 <a name="BKMK_UserAccounts"> </a>
@@ -319,7 +319,7 @@ Em uma implantação híbrida, qualquer usuário que você deseja hospedar onlin
 Ao sincronizar contas de usuário entre sua implantação no local e online inquilino usando AAD conectar, você precisa sincronizar as contas do AD para todos os Skype para usuários corporativos ou o Lync em sua organização, mesmo se os usuários não são movidos para online. Se você não sincronizar todos os usuários, a comunicação entre os usuários online e locais em sua organização poderá não funcionar como esperado.
 
 > [!IMPORTANT]
-> Gerenciamento de todos os usuários, incluindo o usuário move entre locais e do Skype para negócios Online, deve ser feito usando a última versão instalada das ferramentas administrativas. As ferramentas administrativas devem ser instaladas em um servidor separado que possui acesso se conectam a implantação existente do local e à Internet. O cmdlet para mover usuários de sua implantação no local para Skype para negócios Online, [Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser?view=skype-ps), deve ser executado em Ferramentas administrativas conectadas à sua implantação no local. Para obter mais informações sobre como mover usuários, consulte [mover os usuários no local para Skype para negócios Online](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md).
+> Gerenciamento de todos os usuários, incluindo o usuário move entre locais e do Skype para negócios Online, deve ser feito usando a última versão instalada das ferramentas administrativas. As ferramentas administrativas devem ser instaladas em um servidor separado que possui acesso se conectam a implantação existente do local e à Internet. O cmdlet para mover usuários de sua implantação no local para Skype para negócios Online, [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser?view=skype-ps), deve ser executado em Ferramentas administrativas conectadas à sua implantação no local. Para obter mais informações sobre como mover usuários, consulte [mover os usuários no local para Skype para negócios Online](deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online.md).
 
 > [!IMPORTANT]
 > Se o usuário foi criado com o portal online do Office 365, a conta de usuário não será sincronizada com o Active Directory local e o usuário não existirá no Active Directory local. Se você já criou usuários no locatário online e deseja configurar a implantação híbrida com uma implantação local, veja Mover usuários de online para local.

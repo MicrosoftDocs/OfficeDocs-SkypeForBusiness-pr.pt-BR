@@ -4,24 +4,25 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.audience: ITPro
+ms.reviewer: mwa
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Oferece aos profissionais de TI informações sobre as atualizações mais recentes de versões perpétuas dos clientes do Skype for Business 2016, do Skype for Business 2015 e do Lync 2013
-ms.openlocfilehash: 69ff89c856204577c46f27c568f3b6d9cf5613b2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 522161d38c3e7a0b5cb46e9ce098e48478173a68
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374160"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839266"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Atualizações mais recentes das versões do Skype for Business que usam o Windows Installer (MSI)
 
 Use os links desta página para obter mais informações e baixar as atualizações mais recentes das versões perpétuas dos clientes do Skype for Business 2016, do Skype for Business 2015 e do Lync 2013.
 
 > [!NOTE]
-> - The information in this article only applies to perpetual versions of Skype for Business that use the Windows Installer (MSI) installation technology. For example, if you installed a volume licensed version of Skype for Business, such as Skype for Business included with Office Professional Plus 2016.
+> - As informações deste artigo se aplicam somente às versões perpétuas do Skype for Business que usam a tecnologia de instalação do Windows Installer (MSI). Por exemplo, se você tiver instalado uma versão licenciada por volume do Skype for Business, como o Skype for Business incluído no Office Professional Plus 2016.
 > - As informações deste artigo não se aplicam às versões do Skype for Business do Office 365, como o Skype for Business incluído no Office 365 ProPlus.
 > - Para obter as atualizações mais recentes do cliente móvel, vá para a loja de aplicativos de seu cliente móvel (iTunes, Google Play ou Microsoft Store) para ver os detalhes e instalar as atualizações.
 > - Para descobrir a versão do Skype for Business que você está usando, consulte [Que versão do Skype for Business eu tenho?](https://support.microsoft.com/en-us/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
@@ -29,11 +30,11 @@ Use os links desta página para obter mais informações e baixar as atualizaç�
 
 A compatibilidade do Skype for Business com o Office 365 e seu ambiente local depende dos requisitos do sistema para a sua implantação:
 
-- Office 365 works with any version of Skype for Business that is in mainstream support, which includes the latest version of Skype for Business 2016. For previous versions of Skype for Business, only those that have extended support may continue to work with Office 365, although with reduced functionality. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/lifecycle).
+- O Office 365 funciona com qualquer versão do Skype for Business que esteja em suporte base, incluindo a versão mais recente do Skype for Business 2016. Para versões anteriores do Skype for Business, somente aqueles que têm suporte estendido podem continuar a trabalhar com o Office 365, embora com funcionalidade reduzida. Para obter mais informações, consulte [Política de Ciclo de Vida da Microsoft](https://support.microsoft.com/lifecycle).
 
 - Para implantações locais do Skype for Business Server, siga os requisitos do sistema da sua versão do Skype for Business:
 
-  - [Requisitos para o seu ambiente do Skype for Business](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
+  - [Requisitos para o seu ambiente do Skype for Business](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)
 
   - [Requisitos do sistema do Lync Server 2013](https://technet.microsoft.com/en-us/library/jj205115(v=ocs.15).aspx)
 

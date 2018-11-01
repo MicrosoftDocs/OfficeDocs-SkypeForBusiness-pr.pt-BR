@@ -11,19 +11,19 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Os cmdlets este artigo contornos que dão admins mais controle dos métodos de autenticação usado dentro e fora, de uma empresa. Os administradores podem ativar métodos de autenticação ou desativar interna ou externamente para sua rede.
-ms.openlocfilehash: 51dfaf9dc4c65afdd615cf29632c21d4cba08f65
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692751"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839761"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejamento desativar os métodos de autenticação Legacy interna e externamente à sua rede.
 
 > [!NOTE]
 > Se você está prestes a ler este artigo, você já deve conhecer topologias com suporte de autenticação moderno, ADAL, e sobre a configuração de autenticação moderno, mas, caso contrário, aqui estão os artigos que você precisa iniciar o check-out: 
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
->  + [https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/en-us/skypeforbusiness/manage/authentication/use-adal)
+>  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported)
+>  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
   
 Autenticação moderna apenas não ativa o mais seguros métodos de autenticação, como autenticação de dois fatores, ou a autenticação baseada em certificado, ele pode realizar a autorização do seu usuário sem a necessidade de um usuário ou senha muito. Ele é muito útil.
 

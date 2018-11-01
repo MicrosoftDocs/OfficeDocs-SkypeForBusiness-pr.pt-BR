@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375496"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839069"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -32,7 +32,7 @@ Para habilitar o bypass de mídia, você deve configurar o nome DNS do serviço 
   
 O administrador do locatário deve configurar um registro A DNS no Active Directory da produção interna. Se você tiver um ambiente complexo de vários local, consulte o exemplo [exemplo: registros DNS do site da web em ambientes de vários locais complexos de bypass de mídia](deploy-media-bypass-in-cloud-connector.md#Example). O registro DNS deve resolver apenas clientes da rede interna; ele não deve resolver clientes da rede externa.
   
-Depois de configurar o DNS, conecte-se ao Skype for Business Online usando o PowerShell remoto com as credenciais de administrador do Skype for Business. Para obter mais informações, consulte [Connecting to Skype para negócios Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Depois de configurar o DNS, conecte-se ao Skype for Business Online usando o PowerShell remoto com as credenciais de administrador do Skype for Business. Para obter mais informações, veja [Conectando-se ao Skype for Business Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 Na sessão do PowerShell, insira os seguintes comandos para habilitar o bypass de mídia:
   
@@ -44,7 +44,7 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Habilitando o bypass de mídia em um processo de duas etapas. O cmdlet New-CsNetworkMedia não salva imediatamente a nova configuração; ele só cria as configurações na memória. O objeto criado por este cmdlet deve ser salvo como uma variável, e então atribuído à propriedade MediaBypassSettings da configuração da rede. Para obter mais informações, consulte [exemplo: registros DNS do site da web em ambientes de vários locais complexos de bypass de mídia](deploy-media-bypass-in-cloud-connector.md#Example).
   
-A replicação entre os componentes locais e online pode demorar até 24 horas, portanto a Microsoft recomenda que você execute os comandos necessários antes de habilitar os usuários. 
+A replicação entre os componentes locais e online pode demorar até 24 horas, portanto a Microsoft recomenda que você execute os comandos necessários antes de habilitar os usuários.
   
 ## <a name="confirm-media-bypass-settings"></a>Confirmar as configurações de bypass de mídia
 
@@ -65,9 +65,9 @@ Get-CsNetworkConfiguration -LocalStore
 
 Para verificar as configurações do cliente, sair do Skype para o cliente de negócios, entrar novamente e confirme se o cliente recebeu a URL do serviço da seguinte maneira:
   
-1. Abra %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog.  
+1. Abra %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
-2. Procure por hybridconfigserviceinternalurl e confirme se a URL corresponde à que você definiu. 
+2. Procure por hybridconfigserviceinternalurl e confirme se a URL corresponde à que você definiu.
     
 ## <a name="change-media-bypass-parameters"></a>Alterar parâmetros de bypass de mídia
 
@@ -114,7 +114,7 @@ O administrador também precisará remover os endereços da web para o bypass de
 
 Os clientes receberão o endereço web do serviço de bypass de mídia de um servidor DNS interno. O nome do serviço da web será o mesmo em todos os aparelhos de conector de nuvem e sites de PSTN do conector de nuvem. Em um ambiente complexo multissites, recomendamos usar a política de DNS do Windows 2016 para localização geográfica com base em gerenciamento de tráfego para que os clientes possam ser redirecionados para o serviço Web que seja local para a sua rede. 
   
-Para obter mais informações sobre políticas de DNS do Windows 2016, consulte [Usar diretivas de DNS para o gerenciamento de tráfego com base em localização geográfica com servidores primários](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location).
+Para obter mais informações sobre políticas de DNS do Windows 2016, consulte [Usar diretivas de DNS para o gerenciamento de tráfego com base em localização geográfica com servidores primários](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 Veja a seguir um exemplo de configuração para uma empresa com vários sites usando a Política DNS do Windows 2016 para Localização geográfica com base em gerenciamento de tráfego.
   

@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 tem o software interno que pode fornecer serviços DNS, portanto, talvez você queira revisar a documentação disponível, como o guia de cenário de política de DNS. Se você preferir, você pode escolher uma solução de terceiros.
-ms.openlocfilehash: 545b196320ae3b4297d9944ff29c105eb1ce219b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981076"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839052"
 ---
 # <a name="dns-basics"></a>Noções básicas DNS
  
-Windows Server 2016 tem o software interno que pode fornecer serviços DNS, portanto, talvez você queira revisar a documentação disponível, como o [Guia de cenário de política de DNS](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Se você preferir, você pode escolher uma solução de terceiros.
+Windows Server 2016 tem o software interno que pode fornecer serviços DNS, portanto, talvez você queira revisar a documentação disponível, como o [Guia de cenário de política de DNS](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Se você preferir, você pode escolher uma solução de terceiros.
   
 Recomendamos que como uma prática recomendada você dedique um servidor específico na sua implementação para fornecer o DNS. Você poderia potencialmente montá-lo em um dos servidores dedicados a uma do Skype para funções de servidor de negócios, mas se esse servidor também fazia parte de um pool e receber descomissionar por acidente Skype para negócios seriam mau funcionamento até que os serviços DNS foram restabelecidos.
   
@@ -27,7 +27,7 @@ Recomendamos que como uma prática recomendada você dedique um servidor especí
 Cada mapeamento de um nome para um endereço IP (e que poderia ser um endereço IPv4 ou IPv6) é armazenado em um registro DNS no servidor DNS. O nome é descrito no relatório de DNS especificamente como um FQDN — um nome de domínio totalmente qualificado. Embora *contoso.com* é um nome de domínio válidos, é forma abreviada de * \*. contoso.com* , portanto, ela é ambígua e, possivelmente, poderia se referir a qualquer servidor no domínio. Um exemplo de um FQDN que pode se referir a um único servidor em seu domínio pode ser **meeting01.contoso.com**.
   
 > [!IMPORTANT]
-> Por padrão, o nome de um computador que não ingressou em um domínio é um nome de host, não um FQDN (nome de domínio totalmente qualificado). FQDNs, nomes de host não usa o construtor de topologias. Portanto, você deve configurar um sufixo DNS no nome do computador a ser implantado como um servidor de borda que não ingressou em um domínio. **Use somente caracteres padrão** (incluindo A-Z, a-z, 0-9 e hifens) ao atribuir FQDNs para os servidores que executam o Skype para Business Server. Não use caracteres Unicode nem sublinhados. Caracteres não padrão em um FQDN, em geral, não recebem suporte de DNSs externos e CAs públicas (ou seja, quando for necessário atribuir o FQDN ao nome da entidade no certificado).
+> Por padrão, o nome de um computador que não ingressou em um domínio é um nome de host, não um FQDN (nome de domínio totalmente qualificado). FQDNs, nomes de host não usa o construtor de topologias. Portanto, você deverá configurar um sufixo DNS no nome do computador a ser implantado no Servidor de Borda que não ingressou no domínio. **Use somente caracteres padrão** (incluindo A-Z, a-z, 0-9 e hifens) ao atribuir FQDNs para os servidores que executam o Skype para Business Server. Não use caracteres Unicode ou sublinhados. Normalmente, caracteres não padrão no FQDN não são suportados por DNS externo e CAs públicas (ou seja, quando o FQDN deve ser atribuído ao SN no certificado).
   
 Além de um endereço IP, o FQDN pode mapear para um **VIP** — um endereço IP virtual. Um VIP é um endereço IP que não corresponde a uma interface de rede física real. Geralmente, um VIP aponta para um pool de servidores executando uma função de servidor, ou para um par de servidores configurados para redundância e tolerância a falhas.
   
@@ -50,7 +50,7 @@ Geralmente, o nome de domínio SIP da organização se alinha com os endereços 
 
  Em alguns casos, o sua organização talvez seja necessário vários domínios SIP. Por exemplo, se Fabrikam.com tiver sido adquirido por contoso.com, convém criar um novo domínio SIP que Skype para Business Server reconhece e aceitará a conexão de. Quando você fizer isso, você precisa criar um conjunto adicional de todos os registros DNS que usam contoso.com, com os FQDNs novos que mostram para onde enviar solicitações para Fabrikam.
   
-## <a name="dns-load-balancing"></a>Balanceamento de carga do DNS
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BK_NameSIP"> </a>
 
 Você pode usar o DNS para compartilhar carga de tráfego entre vários servidores que estão configurados como um pool de servidores. Para fazer isso, você deve criar vários registros para o FQDN do pool, cada um deles aponta para o endereço IP de um nó do pool.

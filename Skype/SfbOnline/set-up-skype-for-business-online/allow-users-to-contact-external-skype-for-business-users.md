@@ -26,12 +26,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: b18c4d3f04cab78b48039bcd33dae00a960132ea
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502202"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839034"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
@@ -57,7 +57,7 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
     
 2. No Centro de administração do Office 365, vá para **Centros de Administração** > **Skype for Business**.
     
-    ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![Escolha o Centro de administração do Skype for Business.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
 3. No **Centro de administração do Skype for Business**, escolha **Organização** > **Comunicações externas**.
     
@@ -71,9 +71,9 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
     
 7. Se você estiver usando o Windows Firewall, o Skype for Business abrirá as portas necessárias automaticamente.
     
-    Se a sua organização estiver usando uma solução de firewall diferente para restringir a conexão com a Internet nos computadores da rede, verifique se seus computadores clientes podem acessar os [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) a seguir. Talvez seja necessário adicionar os FQDNs para a saída configuração da infraestrutura de lista no seu firewall ou proxy de permissões: ** \*. api.skype.com**, \* **. users.storage.live.com**e **graph.skype.com**. Para obter instruções sobre como abrir essas portas em seu firewall, consulte a documentação que o acompanha.
+    Se a sua organização estiver usando uma solução de firewall diferente para restringir a conexão com a Internet nos computadores da rede, verifique se seus computadores clientes podem acessar os [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) a seguir. Talvez seja necessário adicionar os FQDNs para a saída configuração da infraestrutura de lista no seu firewall ou proxy de permissões: ** \*. api.skype.com**, \* **. users.storage.live.com**e **graph.skype.com**. Para obter instruções sobre como abrir essas portas em seu firewall, consulte a documentação que o acompanha.
     
-    Para obter uma lista de todas as portas que precisam ser abertas, consulte [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    Para obter uma lista de todas as portas que precisam ser abertas, consulte [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
 
 8. Certifique-se de que o administrador da organização também tiver seguido essas etapas.
     
@@ -84,7 +84,7 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
 ## <a name="test-and-troubleshoot"></a>Testar e solucionar problemas
 <a name="bk_preview"> </a>
 
- **O problema mais comum encontrado pelas pessoas ao configurar a comunicação entre empresas é como definir suas [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges) corretamente.**
+ **O problema mais comum encontrado pelas pessoas ao configurar a comunicação entre empresas é como definir suas [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) corretamente.**
   
 Para testar sua configuração, você precisa de um contato no Skype for Business que não seja protegido pelo firewall da empresa.
   
@@ -92,7 +92,7 @@ Para testar sua configuração, você precisa de um contato no Skype for Busines
     
 2. No Skype for Business, pesquise seu contato no Skype for Business, e envie uma solicitação para chat.
     
-    Se você receber uma mensagem que ele não pôde ser enviado devido à política da empresa, você precisará verificar novamente suas [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/en-us/microsoftteams/office-365-urls-ip-address-ranges).
+    Se você receber uma mensagem que ele não pôde ser enviado devido à política da empresa, você precisará verificar novamente suas [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
     
 3. Peça ao seu contato do Skype for Business para lhe enviar uma solicitação de conversa. Se você não receber a solicitação, o problema são as suas configurações de firewall (assumindo que já tenha sido confirmado que as configurações de firewall estão corretas).
     
@@ -101,7 +101,7 @@ Para testar sua configuração, você precisa de um contato no Skype for Busines
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>Como localizar pessoas e ser localizado ao conectar-se com outra empresa
 <a name="bk_preview"> </a>
 
-Após habilitar comunicações externas com outro Skype para usuários corporativos, os usuários podem encontrar Skype federado para usuários comerciais pesquisando por seu nome de entrada: por exemplo, Rob@contoso.com. Em seguida, será necessário adicionar a pessoa à sua lista de contatos.
+Após habilitar comunicações externas com outro Skype para usuários corporativos, os usuários podem encontrar Skype federado para usuários comerciais pesquisando por seu nome de entrada: por exemplo, Rob@contoso.com. Então, eles deverão adicionar a pessoa à lista de contatos.
   
 ![Para localizar um usuário em uma empresa federada, você deve procurar por seus endereços de email (Isso é geralmente também seu nome de usuário).](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b176131cd8c491916f8b934daa763e62a9bf2a8
-ms.sourcegitcommit: 17f6d3ac603ee5bc47785e566a052dc2625ccf76
+ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24064970"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839201"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes
 ===========================================================
@@ -54,12 +54,12 @@ Suporte para chamadas de fila de chamada e atendedor automático está disponív
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o suporte de fila attendant e chamada de automático for Microsoft Teams
 
-Para receber o atendedor automático e chamar as chamadas de fila em Teams da Microsoft, você precisa configurar sua política de interoperabilidade e atualização de política. Analise a [migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou chamada fila configurado e gostaria de fazê-lo, consulte [Configurar um atendedor automático de sistema telefônico](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) e [criar uma fila de chamada do sistema telefônico](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+Para receber o atendedor automático e chamar as chamadas de fila em Teams da Microsoft, você precisa configurar sua política de interoperabilidade e atualização de política. Analise a [migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](migration-interop-guidance-for-teams-with-skype.md). Se você não tiver o atendedor automático e/ou chamada fila configurado e gostaria de fazê-lo, consulte [Configurar um atendedor automático de sistema telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) e [criar uma fila de chamada do sistema telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 -   [Qual é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md)
--   [Criar uma fila de chamadas do Sistema de Telefonia](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Criar uma fila de chamadas do Sistema de Telefonia](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
--   [Configurar o atendedor automático do Sistema de Telefonia](https://docs.microsoft.com/en-us/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Configurar o atendedor automático do Sistema de Telefonia](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

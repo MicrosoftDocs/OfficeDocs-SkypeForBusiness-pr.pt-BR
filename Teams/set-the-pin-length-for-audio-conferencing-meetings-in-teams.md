@@ -19,19 +19,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Conheça os parâmetros de tamanho e os requisitos de um PIN e veja como definir o tamanho para reuniões no Microsoft Teams.
-ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: Saiba os parâmetros para o comprimento e os requisitos de PIN e veja como definir o comprimento do reuniões no Microsoft Teams.
+ms.openlocfilehash: 94be2277b631df9e8c65c9ce2936faeb961a42d7
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347478"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838923"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Definir o tamanho do PIN para reuniões de Audioconferência no Microsoft Teams
 
-Quando você estiver configurando a audioconferência for Microsoft Teams, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído em convites de reunião para o aplicativo Microsoft Teams.
+Quando você estiver configurando a audioconferência para o Microsoft Teams, você receberá uma ponte de conferência de áudio. Uma ponte de conferência pode conter um ou mais números de telefone. O número de telefone que você definir será incluído nos convites da reunião para o aplicativo Microsoft Teams.
   
-A ponte de conferência de áudio atende uma chamada para pessoas que estão discando para uma reunião usando um telefone. Ela atende do chamador com prompts de voz de um atendedor automático e em seguida, dependendo de suas definições, pode reproduzir notificações e será feita aos chamadores a registrar seu nome. **Configurações de ponte da Microsoft** permitem que você alterar as configurações de notificações de reunião e experiência de ingresso na reunião e definir o tamanho dos pinos que são usados pelo organizadores de reunião. Organizadores de reunião usam PINs para iniciar reuniões, se eles não podem ingressar na reunião usando o app Teams da Microsoft.
+A ponte de audioconferência atende uma chamada feita por uma pessoa que discou para uma reunião utilizando um telefone. Ela atende o chamador com comandos de voz de um atendedor automático e, dependendo das suas configurações, pode reproduzir notificações e pedir para o chamador gravar o nome dele. As **configurações de ponte da Microsoft** permitem que você altere as configurações de notificação da reunião e a experiência de participação da reunião, além de definir o tamanho dos PINs usados pelos organizadores da reunião. Os organizadores da reunião usam PINs para iniciar reuniões se não conseguem entrar usando o aplicativo Microsoft Teams.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

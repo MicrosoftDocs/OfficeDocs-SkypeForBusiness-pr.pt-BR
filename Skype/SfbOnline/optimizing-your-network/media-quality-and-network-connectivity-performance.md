@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Este tópico define o conjunto de requisitos de desempenho de rede para Skype para serviços corporativos Online e como você pode optar por usar o Internet ou ExpressRoute para a conectividade entre a rede e Skype para Business Online com base em sua avaliação da rede conectividade. Se você tiver decidido implantar ExpressRoute do Windows Azure para conectividade dedicada para o Office 365, este documento também fornece orientação sobre como planejar suas conexões ExpressRoute em diferente Skype para cenários de implantação de negócios Online.
-ms.openlocfilehash: dbe927794d8660a801596dac32623574e314ee44
-ms.sourcegitcommit: 3a7d2131717327d9b2d16848758e31e10326a0bd
+ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "24057607"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839121"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualidade de mídia e desempenho da conectividade de rede no Skype for Business Online
 
@@ -81,7 +81,7 @@ Além disso, congestionamento de tráfego em uma rede muito afetará a qualidade
   
 QoS fornece uma maneira de atribuir prioridades mais altas aos pacotes de rede que são transmitir dados de áudio ou vídeos. Atribuindo uma prioridade mais alta para esses pacotes, as comunicações de áudio e vídeos tendem viajam através da rede rapidamente e com menos interrupção, que as sessões de rede envolvendo coisas como transferências de arquivos, navegação da web ou backups de banco de dados. Isso ocorre porque os pacotes de rede usado para transferências de arquivo ou backups de banco de dados por padrão são atribuídos "melhor esforço" como uma prioridade e congestionamento da rede não terá como grande impacto. Se você não atribuir uma prioridade mais alta aos pacotes de mídia (áudio, vídeo e aplicativos compartilhamento) e deixá-los também atribuída como "melhor esforço", eles também serão processados, juntamente com todos os outros tráfegos de rede. Dependendo da quantidade de congestionamento da rede, isso potencialmente terminarão em uma experiência geral de áudio e vídeo de qualidade inferior para seus usuários.
   
-É altamente recomendável que você implemente o QoS em sua rede para certificar-se de que o congestionamento da rede dentro de sua rede não terá um impacto. No entanto, para que isso ter um impacto máximo, todos os pontos de extremidade de redes devem suportar QoS, indicando que todos os pontos de extremidade devem honram marcação de QoS e priorização de pacote. Skype para serviços corporativos Online respeitar marcação de QoS e priorização de dentro da rede da Microsoft. No entanto, o tráfego que é roteado por uma conexão pública como a Internet da rede da sua empresa à rede Microsoft não preserva as marcas de QoS e na priorização de pacote. Conexões particulares da sua rede para o Office 365 usando o [Windows Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/) oferecem uma solução de implantação que preserva as marcas de QoS e priorização de pacote que por sua vez aumentarão geral áudio e a qualidade de vídeo para seus usuários finais.
+É altamente recomendável que você implemente o QoS em sua rede para certificar-se de que o congestionamento da rede dentro de sua rede não terá um impacto. No entanto, para que isso ter um impacto máximo, todos os pontos de extremidade de redes devem suportar QoS, indicando que todos os pontos de extremidade devem honram marcação de QoS e priorização de pacote. Skype para serviços corporativos Online respeitar marcação de QoS e priorização de dentro da rede da Microsoft. No entanto, o tráfego que é roteado por uma conexão pública como a Internet da rede da sua empresa à rede Microsoft não preserva as marcas de QoS e na priorização de pacote. Conexões particulares da sua rede para o Office 365 usando o [Windows Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) oferecem uma solução de implantação que preserva as marcas de QoS e priorização de pacote que por sua vez aumentarão geral áudio e a qualidade de vídeo para seus usuários finais.
   
 ## <a name="network-performance-requirements-to-connect-to-skype-for-business-online"></a>Requisitos de desempenho de rede para conectar Skype para Business Online
 <a name="bkNetworkPerf"> </a>
@@ -130,7 +130,7 @@ Para melhor Skype para qualidade de mídia de negócios, as metas de métricas d
 |Latência (unidirecional)  <br/> |< 50 ms  <br/> |
 |Latência (RTT ou tempo-resposta)  <br/> |< 100 ms  <br/> |
 |Perda de pacote de intermitência  <br/> |<10% durante qualquer intervalo de 200 ms  <br/> |
-|Perda de pacote  <br/> |<1% durante qualquer intervalo de 15 s  <br/> |
+|Perda de pacotes  <br/> |<1% durante qualquer intervalo de 15 s  <br/> |
 |Tremulação entre chegadas de pacote  <br/> |<30 ms durante qualquer intervalo de 15 s  <br/> |
 |Novo pedido de pacotes  <br/> |<0,05% de pacotes com problemas  <br/> |
    
@@ -156,7 +156,7 @@ Estas são as metas de desempenho de rede ou limites necessários para a conexã
 |Latência (unidirecional)  <br/> |< 30 ms  <br/> |
 |Latência (tempo de resposta)  <br/> |< 60 ms  <br/> |
 |Perda de pacote de intermitência  <br/> |<1% durante qualquer intervalo de 200 ms  <br/> |
-|Perda de pacote  <br/> |<0,1% durante qualquer intervalo de 15 s  <br/> |
+|Perda de pacotes  <br/> |<0,1% durante qualquer intervalo de 15 s  <br/> |
 |Tremulação entre chegadas de pacote  <br/> |<15 ms durante qualquer intervalo de 15 s  <br/> |
 |Novo pedido de pacotes  <br/> |<0,01% de pacotes com problemas  <br/> |
    
@@ -277,7 +277,7 @@ Sim, você pode configurar ExpressRoute do Windows Azure para garantir conectivi
   
 O Border Gateway Protocol (BGP) é um protocolo de roteamento na Internet que é usado para rotear o tráfego de rede pela Internet. Ele foi projetado para trocar informações de roteamento entre sistemas autônomos (AS) encontradas pela Internet. Valores de comunidades BGP são marcas de atributo que podem ser aplicadas e as rotas de entrada ou saídas. Comunidades BGP geralmente são usadas para sinalizar para o recebimento como qual link de saída será usada para acessar um destino determinado com base na área geográfica, tipo de serviço ou outros critérios.
   
-Com suporte de comunidades BGP, Microsoft irá marcar os prefixos e rotas com valores de comunidade BGP apropriados com base no serviço que pertencem. Microsoft marca de prefixos divulgados por meio de correspondência pública e Microsoft correspondência com valores apropriados de comunidade BGP indicando a região os prefixos são hospedados em. Você pode confiar nos valores da comunidade para tomar decisões de roteamento apropriadas para oferecer o roteamento ideal. Você pode usar o Skype para o valor de comunidade BGP Online de negócios para a instalação de uma conexão ExpressRoute apenas para Skype para negócios Online. Você pode encontrar mais informações em [ExpressRoute requisitos de roteamento](https://azure.microsoft.com/en-us/documentation/articles/expressroute-routing/).
+Com suporte de comunidades BGP, Microsoft irá marcar os prefixos e rotas com valores de comunidade BGP apropriados com base no serviço que pertencem. Microsoft marca de prefixos divulgados por meio de correspondência pública e Microsoft correspondência com valores apropriados de comunidade BGP indicando a região os prefixos são hospedados em. Você pode confiar nos valores da comunidade para tomar decisões de roteamento apropriadas para oferecer o roteamento ideal. Você pode usar o Skype para o valor de comunidade BGP Online de negócios para a instalação de uma conexão ExpressRoute apenas para Skype para negócios Online. Você pode encontrar mais informações em [ExpressRoute requisitos de roteamento](https://azure.microsoft.com/documentation/articles/expressroute-routing/).
   
 ## <a name="expressroute-connectivity-scenarios-for-skype-for-business-online"></a>Cenários de conectividade de ExpressRoute para Skype para negócios Online
 <a name="bkNetworkPerf"> </a>
@@ -286,7 +286,7 @@ Se você tiver decidido que ExpressRoute com base nas recomendações acima é p
   
 ### <a name="online-only-deployment---single-site"></a>Implantação de somente online - site único
 
-Se todos os seus usuários usam o Skype para serviço de Business Online e se sua escritórios são centralizados em torno de um único local físico e você decidir implantar ExpressRoute do Windows Azure, você deve configurar conexão único de ExpressRoute entre o site da sua empresa para o mais próximo [Local de correspondência ExpressRoute](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/).
+Se todos os seus usuários usam o Skype para serviço de Business Online e se sua escritórios são centralizados em torno de um único local físico e você decidir implantar ExpressRoute do Windows Azure, você deve configurar conexão único de ExpressRoute entre o site da sua empresa para o mais próximo [Local de correspondência ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/).
   
 O gráfico a seguir mostra um exemplo desse tipo de implantação. Nesse exemplo, a Contoso é uma universidade localizada em Orlando, FL. A Contoso tem 10.000 membros de corpo docente e alunos. Os testes de Internet do seu local aos sites de borda do Microsoft mostraram maiores que 5% de perda de pacotes durante as horas de classe de pico. O tiver decidido fazer uma conexão dedicada ao Office 365 usando ExpressRoute com largura de banda exagerada provisionada para que eles possam evitar o congestionamento da rede para o Office 365 especialmente para Skype para tráfego de negócios real-time on-line. Eles se conectam à nuvem da Microsoft por meio de ExpressRoute no site Rio de janeiro, RJ MeetMe.
   
@@ -304,7 +304,7 @@ Com esta configuração, o tráfego de rede da maioria dos seus sites para o Mic
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>Implantação de somente online - vários sites em continentes diferentes
 
-Se todos os usuários estão usando Skype para serviço de Business Online e se sua escritórios em vários locais físicos pelos vários continentes, se você decidir implantar ExpressRoute do Windows Azure, você deve configurar pelo menos uma conexão de ExpressRoute para cada continente entre o site principal do cada continente para seu [local de correspondência ExpressRoute](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/)de mais próximos. Dependendo do custo versus benefício, você pode optar por implantar conexões de ExpressRoute adicionais de sites onde as metas de desempenho de rede não forem atendidas.
+Se todos os usuários estão usando Skype para serviço de Business Online e se sua escritórios em vários locais físicos pelos vários continentes, se você decidir implantar ExpressRoute do Windows Azure, você deve configurar pelo menos uma conexão de ExpressRoute para cada continente entre o site principal do cada continente para seu [local de correspondência ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/)de mais próximos. Dependendo do custo versus benefício, você pode optar por implantar conexões de ExpressRoute adicionais de sites onde as metas de desempenho de rede não forem atendidas.
   
 No exemplo a seguir, a Contoso é uma empresa de grande jurídico corporativo com escritórios em cidades principais entre América do Norte e Europa. Com base em sua conexão de Internet e sua avaliação de desempenho da rede interna, Contoso decidiu implantar duas conexões ExpressRoute na América do Norte e um circuito ExpressRoute único para todos os seus escritórios europeus.
   
@@ -324,7 +324,7 @@ No exemplo a seguir, a Contoso tem um Skype local existente para a implantação
 
 Skype para o conector de nuvem Online Business Edition é um híbrido oferecendo que consiste em um conjunto de Industrializados máquinas virtuais (VMs) implementar uma conectividade PSTN local. Implantando um Skype mínimo para a topologia de servidor de negócios em um ambiente virtualizado, você poderá enviar e receber chamadas com landlines e telefones móveis por meio da infra-estrutura de voz PSTN local existente.
   
-Se você decidir implantar o Azure ExpressRoute e edição do conector de nuvem, é recomendável para configurar pelo menos uma conexão de rota Express para cada continente entre sites do cada continente principal para sua mais próximos [ExpressRoute local de correspondência](https://azure.microsoft.com/en-us/documentation/articles/expressroute-locations/). Dependendo do custo versus benefício, para cada continente, você pode optar por implantar conexões de ExpressRoute adicionais de sites onde as metas de desempenho de rede não sejam atendidas.
+Se você decidir implantar o Azure ExpressRoute e edição do conector de nuvem, é recomendável para configurar pelo menos uma conexão de rota Express para cada continente entre sites do cada continente principal para sua mais próximos [ExpressRoute local de correspondência](https://azure.microsoft.com/documentation/articles/expressroute-locations/). Dependendo do custo versus benefício, para cada continente, você pode optar por implantar conexões de ExpressRoute adicionais de sites onde as metas de desempenho de rede não sejam atendidas.
   
 Se você tiver um Skype local para implantação de negócios, você deve seguir o [Guia de planejamento para Skype para o conector de nuvem Business Edition](https://technet.microsoft.com/EN-US/library/mt605227.aspx). Especificamente, a borda de acesso e uma / serviços de borda de V devem ser atribuídos endereços IP públicos e acessível a partir de centros de dados do Office 365.
   

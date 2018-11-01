@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Saiba como implantar vários sites PSTN no Cloud Connector Edition.
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: bb3f235265cddae9578ec1bf605c4edc7f14fb30
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889710"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25851487"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implantar vários sites no Cloud Connector
  
@@ -78,17 +78,18 @@ A tabela a seguir lista as diferenças entre a implantação de um único site c
   
 |**Categoria**|**Item**|**Único site com alta disponibilidade**|**Vários sites**|
 |:-----|:-----|:-----|:-----|
+|Configurar  <br/> |Nome de Host do aparelho <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
 |Instalação  <br/> |Pasta compartilhada  <br/> |Requer a **mesma** pasta compartilhada entre appliances <br/> |Requer uma pasta compartilhada **diferente** nos vários dispositivos <br/> |
 |Configuração  <br/> |VirtualMachineDomain  <br/> |Requer o **mesmo** domínio nos vários dispositivos <br/> |Requer o **mesmo** domínio nos vários sites PSTN <br/> |
-|Configuração  <br/> |SIPDomains  <br/> |Ordem e nomes de domínio devem ser o **mesmo** em aparelhos <br/> |Ordem e nomes de domínio devem ser o **mesmo** entre sites PSTN <br/> |
-|Configuração  <br/> |Nome do site  <br/> |Nome do Site **igual** nos vários dispositivos <br/> |Nome do Site **diferente** nos vários sites PSTN <br/> |
-|Configuração  <br/> |Nomes de servidor  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
-|Configuração  <br/> |FQDNs de pool interno  <br/> |**Iguais** nos vários dispositivos <br/> |**Igual** nos vários sites PSTN <br/> |
-|Configuração  <br/> |IPs internos  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
-|Configuração  <br/> |FQDN externo  <br/> |**Iguais** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
-|Configuração  <br/> |IPs externos  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
-|Configuração  <br/> |Configurações de Gateway PSTN  <br/> |**Iguais** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
-|Configuração  <br/> |Registro DNS  <br/> |Adicionar registros com o **mesmo** FQDNs de acesso externo e endereços IP **diferentes** <br/> |Adicionar registros com FQDNs de Acesso Externo **diferentes** e endereços IP **diferentes** <br/> |
+|Configurar  <br/> |SIPDomains  <br/> |Ordem e nomes de domínio devem ser o **mesmo** em aparelhos <br/> |Ordem e nomes de domínio devem ser o **mesmo** entre sites PSTN <br/> |
+|Configurar  <br/> |Nome do site  <br/> |Nome do Site **igual** nos vários dispositivos <br/> |Nome do Site **diferente** nos vários sites PSTN <br/> |
+|Configurar  <br/> |Nomes de servidor  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
+|Configurar  <br/> |FQDNs de pool interno  <br/> |**Iguais** nos vários dispositivos <br/> |**Igual** nos vários sites PSTN <br/> |
+|Configurar  <br/> |IPs internos  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
+|Configurar  <br/> |FQDN externo  <br/> |**Iguais** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
+|Configurar  <br/> |IPs externos  <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
+|Configurar  <br/> |Configurações de Gateway PSTN  <br/> |**Iguais** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
+|Configurar  <br/> |Registro DNS  <br/> |Adicionar registros com o **mesmo** FQDNs de acesso externo e endereços IP **diferentes** <br/> |Adicionar registros com FQDNs de Acesso Externo **diferentes** e endereços IP **diferentes** <br/> |
 |Instalação  <br/> |Locatário híbrida  <br/> |Definir HybridPstnSite  <br/> Definir PeerDestination para fallback  <br/> |Definir HybridPstnSite  <br/> Definir PeerDestination para fallback  <br/> |
 |Instalação  <br/> |Gateway  <br/> |Mapeamento de **M:N** do MS GW neste site <br/> |Os gateways PSTN em cada site PSTN devem se conectar apenas aos Servidores de Mediação no mesmo site  <br/> |
 |Instalação  <br/> |Usuário  <br/> |Definir UserPSTNSettings  <br/> |Definir UserPSTNSettings  <br/> |

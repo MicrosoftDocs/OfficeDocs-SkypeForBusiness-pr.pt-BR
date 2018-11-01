@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
-ms.sourcegitcommit: de3271e1a637561f569b8e6838c94be8948a481a
+ms.openlocfilehash: 4036e6b740b059dc1075afe4b7ad3da7b9277c88
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405156"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25838509"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -32,7 +32,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -130,7 +130,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardText">
                         <h3>Jornada de migração do Skype for Business para o Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Jornada de migração do Skype for Business para o Teams</a></p>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams</a></p>
                     </div>
                 </div>
             </div>

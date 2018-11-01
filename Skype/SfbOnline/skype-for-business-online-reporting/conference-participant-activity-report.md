@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 844fdb83a1219a23b66a3f65bc1bde69475b3eb4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 3786d74d7708887e680fccc813c3cf245dc7d468
+ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23864575"
+ms.lasthandoff: 10/29/2018
+ms.locfileid: "25839167"
 ---
 # <a name="conference-participant-activity-report"></a>Relatório de atividades dos participantes de conferências
 
-Como um administrador do Office 365, o novo painel de **relatórios** mostra dados sobre o uso dos produtos do Office 365 dentro da sua organização. Você pode usar o relatório de **Skype para atividade de participante de conferência de negócios** para ver quantas mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativo, Web e e conferências de discagem/saída estão sendo participou pelos usuários em sua organização.
+Como um administrador do Office 365, o novo painel de **relatórios** mostra dados sobre o uso dos produtos do Office 365 dentro da sua organização. Você pode usar o relatório de **Skype para atividade de participante de conferência de negócios** para ver quantas mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativo, Web e conferências de discagem/saída estão sendo participou pelos usuários em sua organização.
 
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   
@@ -89,7 +89,7 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 
 Se diretivas da sua organização impede que você exibindo relatórios onde as informações do usuário são identificáveis, você poderá alterar a configuração de privacidade para todos esses relatórios. Confira o **como ocultar a detalhes de nível de usuário?** seção nos [Relatórios de atividade no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
-![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                      <br/> ![Botão Exportar do Skype para relatórios de negócios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
+![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                 <br/> ![Botão Exportar do Skype para relatórios de negócios.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
 ***
 ![Número 10](../images/sfbcallout10.png)<br/>Clique ou toque em **Colunas** para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
    
