@@ -15,18 +15,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65952539ceb52ec62f0c6cd2520f8b898a6a89b5
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839258"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890693"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar Microsoft Teams no escopo de pesquisa de diretório
 
 A pesquisa de diretório com escopo Teams Microsoft permite que as organizações a criar limites virtuais que controlam como os usuários podem localizar e se comunicar com outros usuários em suas organizações. 
 
-Teams Microsoft permite que as organizações fornecem exibições personalizadas do diretório para seus usuários. Microsoft Teams usa [políticas de catálogo de endereços do Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para oferecer suporte a esses modos de exibição personalizados. Depois que as diretivas estão habilitadas, os resultados retornados pelo procura por outros usuários (por exemplo, para iniciar um chat ou adicionar membros a uma equipe) terá o escopo de acordo com as diretivas configuradas. Os usuários não poderão pesquisar ou descobrir e ingressar novas equipes fora essas políticas. 
+Teams Microsoft permite que as organizações fornecem exibições personalizadas do diretório para seus usuários. Microsoft Teams usa [políticas de catálogo de endereços do Exchange](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/address-book-policies?view=exchserver-2019) para oferecer suporte a esses modos de exibição personalizados. Depois que as diretivas estão habilitadas, os resultados retornados pelo procura por outros usuários (por exemplo, para iniciar um chat ou adicionar membros a uma equipe) terá o escopo de acordo com as diretivas configuradas. Os usuários não poderão pesquisar ou descobrir equipes quando com escopo de pesquisa está em vigor. 
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Quando você deve usar as pesquisas de diretório com escopo?
 

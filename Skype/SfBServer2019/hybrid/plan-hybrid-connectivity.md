@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considerações de planejamento para a implementação de conectividade híbrida entre Skype para Business Server e do Skype para Business Online ou equipes.
-ms.openlocfilehash: d3726c2975056499ec61e12b4dd8d63f63beb3e9
-ms.sourcegitcommit: a54864c3fcd1b8d240d0f7f2ccf68f8cba566e47
+ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25849359"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890568"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planejar a conectividade híbrida entre Skype para Business Server e Office 365
 
@@ -22,7 +22,7 @@ ms.locfileid: "25849359"
 
 Leia este tópico para saber como planejar a conectividade híbrida entre Skype para servidor de negócios e equipes ou Skype para negócios Online. Configurar a conectividade híbrida é a primeira etapa na migração do seu ambiente local para a nuvem.
 
-Se você tiver um ambiente local e estiver usando equipes, os usuários hospedados no Skype for Business no local não têm a capacidade de interoperar com Skype para usuários comerciais, nem se comunicar com usuários em organizações federadas. Para obter essa funcionalidade em equipes, esses usuários devem ser movidos do Skype para negócios local para a nuvem, que requer configuração Skype para modo híbrido de negócios. Além disso, para uma melhor experiência, esses usuários devem estar no equipes somente modo, que garante que todas as chamadas recebidas e chats de qualquer land do usuário no cliente de equipes do usuário.
+Se você tiver Skype local para usuários corporativos também usando equipes (lado a lado), esses usuários não têm a capacidade de interoperar com Skype para usuários de negócios do cliente suas equipes, nem se comunicar com usuários em organizações federadas, seus Cliente de equipes. Para obter essa funcionalidade em equipes, esses usuários devem ser movidos do Skype para negócios local para a nuvem, que requer configuração Skype para modo híbrido de negócios. Além disso, para uma melhor experiência, esses usuários devem estar no equipes somente modo, que garante que todas as chamadas recebidas e chats de qualquer land do usuário no cliente de equipes do usuário.
 
 Configurando a conectividade híbrida e mover todos os usuários para a nuvem também são necessária antes de encerrar sua Skype local para implantação de negócios.  Com a conectividade híbrida configurada, você pode escolher mover os usuários para a nuvem com base em sua necessidade de agenda e corporativos. Com o roteamento direto, você pode aproveitar sua infraestrutura de voz no local enquanto você move para a nuvem e depois que a migração estiver concluída.
 
@@ -83,59 +83,25 @@ Depois de configurar conectividade híbrida, você pode mover usuários para equ
 ## <a name="topology-requirements"></a>Requisitos de topologia
 <a name="BKMK_Topology"> </a>
 
-Para configurar sua implantação para o híbrido com equipes ou Skype para Business Online, você precisa ter uma das seguintes topologias com suporte:
+Para configurar sua implantação para o híbrido com **equipes ou Skype para Business Online**, você precisa ter uma das seguintes topologias com suporte:
 
 - Um Skype para implantação de negócios Server 2019 com todos os servidores que executam o Skype para Business Server 2019. 
-
 - Um Skype para implantação de negócios Server 2015 com todos os servidores que executam o Skype para Business Server 2015.
+- Uma implantação do Lync Server 2013 com todos os servidores que executam o Lync Server 2013.  No entanto, se é necessária a conectividade de voz de híbrido, você deve usar uma topologia de versão mista conforme observado abaixo.
+- Uma implantação com o máximo de 2 versões de servidor diferentes, como listadas abaixo:
+  - Skype para Business Server 2015 e Skype para Business Server 2019
+  - Lync Server 2013 e Skype para Business Server 2019
+  - Lync Server 2013 e Skype para Business Server 2015
 
-- Uma implantação do Lync Server 2013 com todos os servidores que executam o Lync Server 2013.
+*Se a voz híbrida for desejada em qualquer topologia*, o servidor de borda que é designado como a borda de federação, bem como o pool associado a federação SIP deve estar executando o Skype para negócios 2015 ou posterior. Os usuários podem permanecer em um Pool do Lync 2013, se houver uma. Para obter mais detalhes, consulte [Planejar o sistema de telefone com conectividade PSTN em Skype para Business Server](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
-    Para conectividade de voz híbrida, o servidor de borda é designado como borda de federação deve ser Skype para negócios 2015; a borda também requer um Skype para back-end do servidor de negócios. Você deve ter um pool sem usuários.
+As seguintes topologias que incluem o **Lync Server 2010 são compatíveis com o Skype para Business Online** para mensagens instantâneas e reuniões.  Topologias que incluem o **Lync Server 2010 não são suportadas para voz híbrida nem equipes**.
 
-- Um misto 2015 do Lync Server e Skype para implantação Business Server 2019 com as seguintes funções de servidor: 
+- Um misto Lync Server 2010 e Skype para implantação Business Server 2015
+- Uma implantação mista do Lync Server 2010 e Lync Server 2013
+-   Uma implantação do Lync Server 2010 com todos os servidores que executam o Lync Server 2010 com as últimas atualizações acumuladas.
+O servidor de borda de Federação e o servidor de próximo salto da federação servidor de borda devem estar executando o Lync Server 2010 com as últimas atualizações acumuladas. O Skype para Business Server 2015 ou o Lync Server 2013 Administrative Tools deve ser instalado em pelo menos um servidor ou estação de trabalho de gerenciamento.
 
-  - Pelo menos um servidor Pool Enterprise ou Standard Edition.  
-
-  - O Pool de Diretores associado à federação SIP, se ela existir. 
-
-  - O Pool de Borda associado à federação SIP. 
-
-- Lync Server 2013 e uma Skype para implantação Business Server 2019 com as seguintes funções de servidor em pelo menos um site executando o Skype para Business Server 2019 mista: 
-
-  - Pelo menos um servidor Pool Enterprise ou Standard Edition.  
-  - O Pool de Diretores associado à federação SIP, se ela existir. 
-  - O Pool de Borda associado à federação SIP. 
-
-- Um misto Skype para implantação Business Server 2015 com as seguintes funções de servidor em pelo menos um site executando o Skype para Business Server 2015 e Lync Server 2013:
-
-  - Pelo menos um servidor Pool Enterprise ou Standard Edition. 
-
-  - O Pool de Diretores associado à federação SIP, se ela existir.
-
-  - O Pool de Borda associado à federação SIP.
-
-- Um misto Skype para implantação Business Server 2015 com as seguintes funções de servidor em pelo menos um site executando o Skype para Business Server 2015 e Lync Server 2010:
-
-  - Pelo menos um servidor Pool Enterprise ou Standard Edition. 
-
-  - O Pool de Diretores associado à federação SIP, se ela existir.
-
-  - O Pool de Borda associado à federação SIP do site.
-
-- Uma implantação mista de Lync Server 2010 e Lync Server 2013 com as seguintes funções de servidor em pelo menos um site executando o Lync Server 2013:
-
-  - Pelo menos um servidor Pool Enterprise ou Standard Edition no site.
-
-  - O Pool de Diretores associado à federação SIP, se ela existir no site.
-
-  - O Pool de Borda associado à federação SIP do site.
-
-- Uma implantação do Lync Server 2010 com todos os servidores que executam o Lync Server 2010 com as últimas atualizações acumuladas.
-
-  - O servidor de borda de Federação e o servidor de próximo salto da federação servidor de borda devem estar executando o Lync Server 2010 com as últimas atualizações acumuladas.
-
-  - O Skype para Business Server 2015 ou o Lync Server 2013 Administrative Tools deve ser instalado em pelo menos um servidor ou estação de trabalho de gerenciamento.
 
 
  ## <a name="multi-forest-support"></a>Suporte a várias florestas

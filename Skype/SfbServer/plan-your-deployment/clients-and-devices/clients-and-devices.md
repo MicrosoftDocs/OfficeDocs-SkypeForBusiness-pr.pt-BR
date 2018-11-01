@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: revisão dos clientes e aplicativos compatíveis com o Skype for Business.'
-ms.openlocfilehash: 4e51c442ea50bf911eac4e83a700141cd999cdb9
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839153"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890590"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
 
@@ -139,7 +139,7 @@ MSI é um método de instalação mais tradicional, usado nos clientes Skype for
 
 O Skype for Business Server 2019 e o Skype for Business Online dão suporte aos seguintes clientes lançados anteriormente: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-O Skype for Business Server 2015 dá suporte aos seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para o Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+O Skype for Business Server 2015 é compatível com os seguintes clientes previamente lançados: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para o Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Requisitos do sistema do cliente
