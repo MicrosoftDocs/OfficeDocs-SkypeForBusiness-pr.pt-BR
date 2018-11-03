@@ -3,7 +3,7 @@ title: Visão geral de equipes e canais no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699306"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942811"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -83,3 +83,6 @@ O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equ
 
 ![Diagrama da hierarquia de como equipes e canais estão organizados no Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>Equipes de toda a organização
+
+Se sua organização tiver não mais de 1.000 usuários, você pode criar uma equipe de toda a organização. As equipes de toda a organização fornecem uma maneira automática para todas as pessoas em uma organização de uma parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [criar uma equipe de toda a organização em equipes da Microsoft](create-an-org-wide-team.md).

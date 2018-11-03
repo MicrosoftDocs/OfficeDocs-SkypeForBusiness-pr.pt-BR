@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Verificar o sucesso de implantação do grupo de resposta, no Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 4832b64d6bf4d26dd9d4cba10e46ef78b3f3b396
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
+ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374813"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25942848"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Implantação do grupo de resposta Verify no Skype para negócios
  
@@ -38,5 +38,8 @@ Após configurar o grupo de resposta, você precisará verificar a configuraçã
 - O usuário externo chama o grupo de resposta.
     
 - Um usuário chama o grupo de resposta enquanto o agente está em outra chamada e vai para a fila.
+
+    > [!NOTE]
+    > Se o grupo de resposta não funciona como esperado Verifique próximo link:https://support.office.com/en-us/article/troubleshooting-for-response-groups-ca72d8f8-4054-4974-b832-4f173611bd89
     
 
