@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: 7bd00f23a54780c94cdebeb413a8897e572ec47d
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436600"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005501"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone de sua ponte de audioconferência
 
@@ -52,6 +52,10 @@ Além dos números já atribuídos a sua ponte de conferência, você pode [obte
 
 4. Na página **Atribuir**, clique em **Salvar**.
 
+### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>Etapa 2 - alterar o número de telefone do padrão de sua ponte de conferência (opcional)
+
+O número de telefone do padrão de sua ponte de conferência define a ID do chamador que será usada quando uma chamada de saída é feita por um participante ou o organizador de dentro de uma reunião.
+
 Apenas um número de Chamada Tarifada do serviço pode ser definido como o número padrão para sua ponte de conferência; **números para ligações gratuitas service não podem ser definidos como o número padrão de sua ponte de conferência**. Se você estiver atribuindo um número de Chamada Tarifada do serviço e você gostaria de defini-la como o novo número padrão para sua ponte de conferência de áudio, execute estas etapas:
 
 1. Entre no Office 365 com sua conta corporativa.
@@ -61,15 +65,10 @@ Apenas um número de Chamada Tarifada do serviço pode ser definido como o núme
 3. Destaque o número de Chamada Tarifada do serviço que você deseja configurar como padrão.
 
 4. Selecione **Definir como padrão**.
+ 
+### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Etapa 3: alterar os números de telefone padrão que estão incluídos na reunião convida de usuários (opcionais)
 
-> [!NOTE]
-> [!OBSERVAçãO] Após a atribuição do novo número de telefone, mesmo que ele se torne o novo número padrão, o número padrão dos usuários existentes não mudará. Para definir as tarifas padrão ou um número de chamada gratuito que é adicionado à convites de reunião do organizador, consulte as instruções para [As equipes da Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou as instruções para [Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites). 
-  
-
-
-### <a name="step-2---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Etapa 2 - Alterar os números de telefone padrão que são incluídos nos convites de reunião de usuários (opcional)
-
-Os números de telefone padrão para o usuário são aqueles incluídos em seus convites de reunião quando agendam uma reunião. Para obter mais informações, consulte [definir o telefone números incluídos no convidam em equipes da Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou [definir o telefone números incluídos no convidam no Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
+Os números de telefone padrão de um usuário são aqueles que estão incluídos na sua reunião convida quando eles agendam uma reunião. Para obter mais informações, incluindo como os números de telefone padrão são atribuídos para novos usuários, consulte [definir o telefone números incluídos no convidam em equipes da Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md) ou [definir o telefone números incluídos no convidam no Skype para negócios Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
@@ -81,11 +80,11 @@ Os números de telefone padrão para o usuário são aqueles incluídos em seus 
 
 Depois que as alterações foram salvas, o novo telefone padrão números serão incluídos na reunião convida de organizadores na próxima vez em que eles agendarem uma nova reunião.
 
-### <a name="step-3---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Etapa 3 - Atualizar convites de reunião existentes de usuários do Meeting Migration Service (opcional)
+### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>Etapa 4 - atualizar existente reunião convites de usuários usando o serviço de migração de reunião (opcional)
 
 As próximas duas etapas, você precisará para iniciar o Windows PowerShell.
   
-Usando o serviço de migração de reunião, você poderá atualizar opcionalmente convites de reunião que já foram enviados aos usuários em sua organização antes de seus números de telefone padrão foram alterados. Para obter informações adicionais, veja [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Se você atualizou o telefone padrão números que estão incluídas na reunião convidam para alguns ou todos os seus usuários, você pode atualizar opcionalmente convites de reunião que já foram enviados aos usuários em sua organização antes de seus números de telefone padrão foram alterados usando o Serviço de migração de reunião. Para obter informações adicionais, veja [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Execute o serviço de migração de reunião (MMS) para os usuários que tiveram seus números de telefone padrão alterados na etapa 2. Para isso, execute o seguinte comando:
 

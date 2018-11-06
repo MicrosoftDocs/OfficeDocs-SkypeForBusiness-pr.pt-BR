@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 279985565bb7a8097f67e259f04f056433ccda64
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: ff664c630f5c8da8e3f63700d018b40ab9f0ef70
+ms.sourcegitcommit: 75e0c9e186dc167bad01f5b17ec9de8a682ee007
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540289"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "26005509"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios
 
@@ -36,7 +36,7 @@ Como anunciada anteriormente em abril de 2018, TeamsInteropPolicy está sendo de
     - Os usuários que já usando Skype para negócios/Lync local usar sua conta local existente.
     - Os usuários para o qual nós não conseguir detectar um Skype existente para a conta comercial terá um Skype para Business Online conta provisionada automaticamente quando o usuário equipes é criado. Nenhum Skype licença de negócios é necessária.
 
-4.  Se você possui uma implantação de local de qualquer um dos Skype para Lync ou comercial e quiser que os usuários sejam usuários de equipes, você deve no mínimo garantir que o Azure Connect da AD está sincronizando o msRTCSIP-DeploymentLocator atributo em AAD, portanto, que as equipes/Skype para negócios Online adequadamente detecta seu ambiente local. Além disso, para mover todos os usuários para o modo somente equipes (ou seja, atualize um usuário), *você deve configurar Skype para modo híbrido de negócios*.
+4.  Se você possui uma implantação de local de qualquer um dos Skype para Lync ou comercial e quiser que os usuários sejam usuários de equipes, você deve no mínimo garantir que o Azure Connect da AD está sincronizando o msRTCSIP-DeploymentLocator atributo em AAD, portanto, que as equipes/Skype para negócios Online adequadamente detecta seu ambiente local. Além disso, para mover todos os usuários para o modo somente equipes (ou seja, atualize um usuário), *você deve configurar Skype para modo híbrido de negócios*. Para obter mais detalhes, consulte [Configurar o Azure Connect de AD para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 5.  Interoperabilidade entre equipes e Skype para usuários comerciais só será possível *se o usuário de equipes é hospedado online no Skype para negócios*. O destinatário Skype para usuários corporativos podem ser hospedados tanto no local (e é necessário configurar o Skype para o híbrido de negócios) ou online. Os usuários hospedados no Skype para negócios local podem usar as equipes no modo de ilhas (definido mais adiante neste documento), mas não podem usar as equipes para interoperabilidade ou estabelecer uma federação com outros usuários que estejam usando Skype para negócios.  
 
@@ -99,18 +99,18 @@ As equipes fornece todas as instâncias relevantes do TeamsUpgradePolicy via pol
 
 |Identidade |Modo|NotifySfbUsers|Ação|Comentários|
 |---|---|---|---|---|
-|Ilhas|Ilhas|Falso|Nenhum||
-|IslandsWithNotify|Ilhas|Verdadeiro|Notificar||
-|SfBOnly|SfBOnly|Falso|Nenhum|No momento, esse modo é efetivamente o mesmo cliente preferencial da configuração = SfB. No futuro, esperamos que isso restringe a funcionalidade de equipes.|
-|SfBOnlyWithNotify|SfBOnly|Verdadeiro|Notificar|No momento, esse modo é efetivamente o mesmo cliente preferencial da configuração = SfB. No futuro, esperamos que isso restringe a funcionalidade de equipes.|
-|SfBWithTeamsCollab|SfBWithTeamsCollab|Falso|Nenhum|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que apenas os canais no app equipes.|
-|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|Verdadeiro|Notificar|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que apenas os canais no app equipes.|
-|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|Falso|Nenhum|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que os canais e equipes de agendamento de reunião.|
-|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|Verdadeiro|Notificar|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que os canais e equipes de agendamento de reunião.|
-|UpgradeToTeams|TeamsOnly|Falso|Atualizar|Use este modo para atualizar os usuários para equipes e evitar que o bate-papo, chamadas e agendamento de reuniões no Skype para negócios.|
-|Global|Herdado|Falso|Nenhum|O modo será atualizado para ilhas no futuro próximo.|
-|NoUpgrade|Herdado|Falso|Nenhum|Esta instância em breve será desativada.|
-|NotifyForTeams|Herdado|Verdadeiro|Notificar|Esta instância em breve será desativada.|
+|Ilhas|Ilhas|False|Nenhum||
+|IslandsWithNotify|Ilhas|True|Notificar||
+|SfBOnly|SfBOnly|False|Nenhum|No momento, esse modo é efetivamente o mesmo cliente preferencial da configuração = SfB. No futuro, esperamos que isso restringe a funcionalidade de equipes.|
+|SfBOnlyWithNotify|SfBOnly|True|Notificar|No momento, esse modo é efetivamente o mesmo cliente preferencial da configuração = SfB. No futuro, esperamos que isso restringe a funcionalidade de equipes.|
+|SfBWithTeamsCollab|SfBWithTeamsCollab|False|Nenhum|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que apenas os canais no app equipes.|
+|SfBWithTeamsCollabWithNotify|SfBWithTeamsCollab|True|Notificar|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que apenas os canais no app equipes.|
+|SfBWithTeamsCollabAndMeetings|SfBWithTeamsCollabAndMeetings|False|Nenhum|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que os canais e equipes de agendamento de reunião.|
+|SfBWithTeamsCollabAndMeetingsWithNotify|SfBWithTeamsCollabAndMeetings|True|Notificar|Esse modo existe na camada do PowerShell, mas ainda não está exposto na experiência do usuário admin. Da perspectiva de roteamento, isso é igual ao modo de SfBOnly. Quando TeamsAppPolicy estiver disponível, isso permitirá que os canais e equipes de agendamento de reunião.|
+|UpgradeToTeams|TeamsOnly|False|Atualizar|Use este modo para atualizar os usuários para equipes e evitar que o bate-papo, chamadas e agendamento de reuniões no Skype para negócios.|
+|Global|Ilhas|False|Nenhum|O é a política padrão.|
+|NoUpgrade|Herdado|False|Nenhum|Esta instância em breve será desativada.|
+|NotifyForTeams|Herdado|True|Notificar|Esta instância em breve será desativada.|
 ||||||
 
 Essas instâncias de política podem ser concedidas a usuários individuais ou em uma base de todo o inquilino. Por exemplo:
@@ -136,9 +136,9 @@ Clientes que usam o modo Legacy ainda são um lembrete que apenas as três inst�
 
 |Identidade |AllowEndUserClientOverride|CallingDefaultClient|ChatDefaultClient|
 |---|---|---|---|
-|`DisallowOverrideCallingDefaultChatDefault`|Falso|Padrão|Padrão|
-|`DisallowOverrideCallingSfbChatSfb`|Falso|Sfb|Sfb|
-|`DisallowOverrideCallingTeamsChatTeams`|Falso|Microsoft Teams|Microsoft Teams|
+|`DisallowOverrideCallingDefaultChatDefault`|False|Padrão|Padrão|
+|`DisallowOverrideCallingSfbChatSfb`|False|Sfb|Sfb|
+|`DisallowOverrideCallingTeamsChatTeams`|False|Microsoft Teams|Microsoft Teams|
 |||||
 
 Use a seguinte sintaxe do cmdlet, onde $policy é um dos valores acima da identidade:`Grant-CsTeamsInteropPolicy -PolicyName $policy -Identity $SipAddress`
@@ -168,9 +168,9 @@ Todos os clientes ainda usando TeamsInteropPolicy:
 
    |Identidade |AllowEndUserClientOverride |CallingDefaultClient|ChatDefaultClient|
    |---|---|---|---|
-   |`DisallowOverrideCallingDefaultChatDefault`|Falso|Padrão|Padrão|
-   |`DisallowOverrideCallingSfbChatSfb`|Falso|Sfb|Sfb|
-   |`DisallowOverrideCallingTeamsChatTeams`|Falso|Microsoft Teams|Microsoft Teams|
+   |`DisallowOverrideCallingDefaultChatDefault`|False|Padrão|Padrão|
+   |`DisallowOverrideCallingSfbChatSfb`|False|Sfb|Sfb|
+   |`DisallowOverrideCallingTeamsChatTeams`|False|Microsoft Teams|Microsoft Teams|
    |||||
 
     Use a seguinte sintaxe do cmdlet, onde $policy é um dos valores acima da identidade:
@@ -186,7 +186,7 @@ Todos os clientes ainda usando TeamsInteropPolicy:
 
     |Parâmetro|Valor|
     |---|---|
-    |`AllowEndUserClientOverride`|Falso|
+    |`AllowEndUserClientOverride`|False|
     |`CallingDefaultClient`|Padrão|
     |`ChatDefaultClient`|Padrão|
     |||
