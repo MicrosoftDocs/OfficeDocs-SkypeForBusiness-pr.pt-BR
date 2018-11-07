@@ -1,11 +1,15 @@
 <!-- ============================================================ -->
-# Introdução
-
-## [Visão geral do Microsoft Teams](Teams-overview.md)
-## [Ferramentas e workshops: Planejamento, implantação e operação do Microsoft Teams](planning-workshop-practical-guide.md)
-## [Obter ajuda no Microsoft Teams](get-help-in-microsoft-teams.md)
+# [Bem-vindo ao Teams](teams-overview.md)
 <!-- ============================================================ -->
 
+# [Introdução](get-started-with-teams-landing-page.md)
+## [Início rápido - equipes](get-started-with-teams-quick-start.md)
+## [Crie seu primeiro equipes e canais](get-started-with-teams-create-your-first-teams-and-channels.md)
+## [Primeiros clientes a adotar onboard](get-started-with-teams-onboard-early-adopters.md)
+## [Monitorar o uso e comentários](get-started-with-teams-monitor-usage-and-feedback.md)
+## [Aonde ir próximo](get-started-with-teams-resources-for-org-wide-rollout.md)
+## [Obter ajuda no Microsoft Teams](get-help-in-microsoft-teams.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Planejamento
