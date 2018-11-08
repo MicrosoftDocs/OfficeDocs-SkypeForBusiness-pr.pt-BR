@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 552d6f084de369ce87f3e1e44d4e3ebc968b06ea
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942811"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038805"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -30,13 +30,15 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 
     -   As Equipes também podem ser criadas para serem públicas e abertas para qualquer pessoa da empresa participar (até 2500 membros).
     
-Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parceria para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
+    Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parceria para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 
 -   **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe!
 
     -   Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Os bate-papos privados só são visíveis para as pessoas que estão no bate-papo.
 
     -   Canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam a seu valor para os membros da equipe.
+
+[Exibir este pequeno vídeo](https://youtu.be/hjJWtoaRJeE) para saber mais sobre as práticas recomendadas para a criação de equipes e canais.
 
 <a name="membership-roles-and-settings"></a>A associação, funções e configurações
 ------------------------------

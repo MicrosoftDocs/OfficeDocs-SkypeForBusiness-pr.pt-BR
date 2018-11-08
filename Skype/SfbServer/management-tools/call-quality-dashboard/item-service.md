@@ -3,23 +3,23 @@ title: Serviço de item para o painel de controle de qualidade de chamada (CQD)
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 6/8/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
-description: 'Resumo: Saiba mais sobre o serviço de Item, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 218fdb4f2c4b3d73fb4e7f78b5679b66eecf34cc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre o serviço de Item, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
+ms.openlocfilehash: 5e5198afd95d6c9e1de517054053b724a54b1105
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035621"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Serviço de item para o painel de controle de qualidade de chamada (CQD)
  
-**Resumo:** Saiba mais sobre o serviço de Item, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o serviço de Item, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada.
   

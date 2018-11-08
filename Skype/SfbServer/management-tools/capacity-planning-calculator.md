@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Resumo: como usar a Ferramenta Calculadora de Capacidade.'
-ms.openlocfilehash: bb17bc7b024900627318dd64b41249c21ff8488b
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: d7d6f98ff1e9b09528d8d573ddaeb026b4927a3c
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692765"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26038837"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype para Calculadora de planejamento de capacidade do servidor de negócios
  
@@ -36,13 +36,13 @@ Depois que você tiver usado a ferramenta de planejamento e a Calculadora de pla
   
 ## <a name="using-the-capacity-calculator"></a>Usando a capacidade da calculadora
 
-A calculadora é uma planilha do Microsoft Excel. As células de entrada estão na cor laranja. Valores padrão são inseridos nas células (por exemplo, 80.000 usuários em um pool com doze servidores Front-End), mas você deve alterar esses valores para atender às necessidades da sua organização. 
+A calculadora é uma planilha do Microsoft Excel. As células de entrada estão na cor laranja. Valores padrão são inseridos nas células (para Skype para Business Server 2015, 80.000 usuários em um pool com doze servidores Front-End, enquanto para Skype para Business Server 2019, 106.000 usuários em um pool com dezesseis servidores Front-End), mas você deve alterar esses valores para corresponde as necessidades da sua organização.
   
 O modelo de uso contém as seguintes seções. Para calcular as exigências de sua capacidade, digite os dados conforme descrito começando pela parte superior da folha e trabalhando linha a linha: 
   
  **Mensagem instantânea e presença**
   
-- Em **Número de usuários**, digite o número de usuários que estarão conectados simultaneamente. Esse número normalmente é 80% do número total de usuários provisionados. Na maioria das situações, 100% de seus usuários simultâneos estarão ativados para mensagens instantâneas e presença. O padrão é 80.000.
+- Em **Número de usuários**, digite o número de usuários que estarão conectados simultaneamente. Esse número normalmente é 80% do número total de usuários provisionados. Na maioria das situações, 100% de seus usuários simultâneos estarão ativados para mensagens instantâneas e presença. O padrão é 80.000 para Skype para Business Server 2015 e 106.000 usuários para Skype para Business Server 2019.
     
 - **Número médio de contatos na lista Contatos** indica o número de contatos que nós estamos usando para validar as exigências de seu sistema. Esse número não muda.
     
@@ -90,7 +90,7 @@ Quando você tiver digitado todas as informações necessárias, a calculadora d
     
 As células verdes mostram as recomendações para o modelo de uso inserido. 
   
-- **Servidores Front-End total**: O número de servidores físicos necessários baseiam-se em servidores dedicados executando Skype para Business Server com processador duplo, hex-core, com 2,260 megaciclos.
+- **Servidores Front-End total**: O número de servidores físicos necessários baseiam-se em servidores dedicados executando Skype para Business Server 2015 com processador duplo, hex-core, com 2,260 megaciclos ou Skype para Business Server 2019 com Intel Xeon E5-2673 v3, dual processador, hex-core.
     
     Note que é recomendado ativar o hyperthreading e foi comprovado que melhora o desempenho para os servidores que suportam áudio/vídeo.
     
@@ -110,8 +110,7 @@ E mais, na linha próxima de 'Servidores de front-end totais, mais informações
     
 ### <a name="adjusting-for-your-processors"></a>Ajustando para seus processadores
 
-Todos os valores de uso da CPU supõem que cada servidor tem um processador dual, núcleo hex com 2.26 GHz, pelo menos 32 GB de memória, 8 ou mais drives de disco rídigo com 10.000 RPM e pelo menos 72 GB de espaço em disco livre. 
+Todos os números de utilização de CPU na planilha pressupõem que cada Skype para Business Server 2015 server possui um processador duplo, hex-core com 2,26 GHz, pelo menos 32 GB de memória, e unidades de disco rígido 8 ou mais de 10.000 RPM com pelo menos 72 GB Libere espaço em disco. Para cada Skype para Business Server 2019 server, todos os números de utilização de CPU na planilha pressupõem que cada servidor tem um processador duplo, hex-core com Intel Xeon E5-2673 v3, pelo menos 64 GB de memória, e unidades de disco rígido 8 ou mais de 10.000 RPM com pelo menos 72 GB livre s de disco ritmo.
   
 Se seus servidores tiverem processadores diferentes, você poderá ajustar os valores para corresponderem ao seu hardware.
   
-

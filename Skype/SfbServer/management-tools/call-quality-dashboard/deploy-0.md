@@ -1,26 +1,25 @@
 ---
-title: Implantar o painel de controle de qualidade de chamada para Skype para Business Server 2015
+title: Implantar o painel de controle de qualidade de chamada para Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 'Resumo: Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 31e1dc8d5508c7d3d31de0ec3af0b9c8c06a6c40
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: 'Resumo: Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
+ms.openlocfilehash: c9d641a8202560e558e33014670b4b1060795477
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372638"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035747"
 ---
-# <a name="deploy-call-quality-dashboard-for-skype-for-business-server-2015"></a>Implantar o painel de controle de qualidade de chamada para Skype para Business Server 2015
+# <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar o painel de controle de qualidade de chamada para Skype para Business Server
  
-**Resumo:** Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o processo de implantação para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 ## <a name="deployment-overview"></a>Visão geral da implantação
 
@@ -185,6 +184,27 @@ A próxima etapa é configurar o painel do CQD. Depois que os usuários são aut
 4. Clique em **Aplicar** no lado direito da página.
     
 ## <a name="known-issues"></a>Problemas conhecidos
+
+### <a name="the-cqd-shows-no-data-after-deployment"></a>O CQD não mostra nenhum dado após a implantação
+
+Você pode receber o seguinte erro:
+
+*Nós não pôde executar a consulta enquanto executa o no cubo. Use o Editor de consulta para modificar a consulta e corrija quaisquer problemas. Também Certifique-se de que o cubo seja acessível.*
+
+Isso significa que o cubo deve ser processado no SQL Server Analysis Services antes de serem usadas em CQD. Você pode resolver esse problema, seguindo estas etapas:
+
+1. Abra o SQL Management Studio e selecione **Analysis Services**.
+
+2. Expanda o botão direito do mouse o objeto, selecione a **Métrica de QoE**, de **QoECube** e escolha **Procurar**. 
+
+    Se retornar navegador vazia, o cubo não tiver sido Continue ainda.
+
+3. **Métrica de QoE** angain do mouse em e escolha o **processo**.
+
+4. Quando o processamento estiver concluído, clique com botão direito do objeto novamente e escolha **Procurar** para confirmar que a página do navegador agora mostra dados. 
+
+
+### <a name="users-have-trouble-logging-in-because-installer-fails-to-create-the-correct-settings-in-iis"></a>Os usuários têm problemas de logon porque o instalador não conseguir criar as configurações corretas no IIS
 
 Em casos raros, o instalador falha para criar as configurações corretas no IIS. Alteração manual é necessária para permitir que os usuários acesse o CQD. Se os usuários estiverem tendo problemas de logon, siga estas etapas:
   

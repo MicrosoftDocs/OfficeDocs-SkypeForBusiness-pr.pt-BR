@@ -1,0 +1,71 @@
+---
+title: Fase de adoção de Teams da Microsoft 1 - iniciar
+author: LolaJacobsen
+ms.author: lolaj
+manager: serdars
+ms.date: 10/29/2018
+audience: Admin
+ms.topic: article
+ms.service: msteams
+ms.reviewer: karuanag
+localization_priority: Normal
+search.appverid: MET150
+description: Saiba mais sobre a fase de inicialização de adoção de equipes.
+ms.custom:
+- NewAdminCenter_Update
+appliesto:
+- Microsoft Teams
+ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
+ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "26215659"
+---
+# <a name="microsoft-teams-adoption-phase-1---start"></a>Fase de adoção de Teams da Microsoft 1 - iniciar
+
+Você começará a adoção de equipes com as seguintes atividades:
+
+- [Pré-requisitos de adoção de validar](#validate-adoption-prerequisites).
+- [Assemble sua equipe](#assemble-your-team).
+- [Canais e Noções básicas sobre equipes](teams-adoption-understand-teams-and-channels.md).
+- [Configurar seus primeiro equipes nas equipes](teams-adoption-your-first-teams.md) para criar seu conhecimento técnico.
+- [Avalie a preparação da sua organização da alteração](teams-adoption-assess-readiness.md).
+
+O principal objetivo dessa fase é garantir que sua preparação para a fase de experimentação. Você determinará se precisar de Ajuda da Microsoft ou de nossa rede de parceiros de seu nível de habilidade.  
+
+## <a name="validate-adoption-prerequisites"></a>Valide os pré-requisitos de adoção
+
+Revise o nosso [pré-requisitos de adoção](teams-adoption-get-started.md#adoption-prerequisites) e trabalhar com a equipe técnica para atendê-las, se necessário. Vamos abordá mais aprofundados requisitos técnicos dentro de cada cenário de adoção.
+
+## <a name="assemble-your-team"></a>Montar a equipe
+
+A tabela a seguir lista as funções de núcleo para sua equipe de projeto. Em uma organização menor, algumas dessas funções podem ser executadas pela mesma pessoa.
+
+| Função | Responsabilidades | Departamento |
+| ---- | ---------------- | ---------- |
+| Patrocinador executivo<sup>1</sup> | Comunicar visão de alto nível. Conecte a implementação de equipes a iniciativas de missão e prioridade principal na empresa. | Liderança executiva |
+| Proprietário de sucesso<sup>1</sup> | Certifique-se de que as metas de negócios são concretizadas a partir da distribuição de equipes. | Qualquer departamento |
+| Gerente de programa<sup>1</sup> | Acompanhar o inteiro equipes implementação e execução do processo de inicialização. | ELE |
+| Campeões<sup>1</sup> | Ajuda Pregue equipes, suporte a construção de habilidades e fornecer ideias de uso. | Vários departamentos |
+| Líder de treinamento | Gerenciar e comunicar o conteúdo de treinamento sobre equipes. | IT ou outros |
+| Departamento Leads (participantes)<sup>2</sup> | Identificar os departamentos específicos como usará as equipes e incentivar o envolvimento. | Qualquer departamento (management) |
+| IT especialistas<sup>1</sup> | Acompanhar todos os aspectos técnicos de implementação, inclusive integrações. | ELE |
+| Avanço de comunicação<sup>2</sup> | Acompanhar as comunicações de toda a empresa sobre equipes. | Comunicações corporativas, IT, ou outros |
+| Gerente da comunidade | Gerencie a atividade de rede Yammer diária. Fornecer diretrizes e práticas recomendadas. | Vários departamentos |
+
+<sup>1</sup> Essas funções são essenciais para o sucesso do seu projeto.</br>
+<sup>2</sup> Essas funções são importantes para o sucesso geral do programa.
+
+Na maioria dos casos, essa equipe inicial deve ser um pequeno grupo de pessoas com afinidades que estão interessados em equipes e também podem ser responsável sua implementação. Como seu plano de adoção move em às fases adicionais, você incluirá mais pessoas na sua equipe. Também sugerimos que você aproveite os recursos da Microsoft que estão disponíveis para ajudá-lo. 
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Comunidade técnica do Microsoft](https://aka.ms/TechCommunity) fornece percepções fornecida ponto em adoção e problemas técnicos para vários produtos do Office 365. Sugerimos que você ingresse seguintes comunidades:
+
+- [Comunidade do Microsoft equipes técnica](https://aka.ms/TeamsCommunity) – Obtenha perguntas de produto, aprenderem com outros clientes de equipes e siga nosso blog para manter-se atualizado sobre novos recursos e casos de uso para equipes. 
+- [Programa de campeões do Office 365](https://aka.ms/O365Champions) e da comunidade de dirigir adoção – saiba de seus colegas sobre como melhor incentivar a adoção das cargas de trabalho do Office 365, como equipes, SharePoint, Yammer e outros produtos. Abra para profissionais de TI, os usuários corporativos, os desenvolvedores "acidentais", e qualquer pessoa interessada em orientando a adoção dos serviços de nuvem.  
+
+[Aprendizado personalizado para o Office 365](https://aka.ms/CLO365) inclui um modelo SharePoint Online e a Web Part personalizada que você pode usar para criar um portal de treinamento para sua organização. Isso gratuito, abra permite de solução de origem você transmitir Microsoft valiosos recursos de treinamento diretamente em seu Office 365 de inquilinos. Você pode personalizá-lo para os serviços que você está usando e adicionar conteúdo de treinamento adicional para a experiência do site. Se você já tiver um portal de treinamento do SharePoint Online, você pode baixar apenas a Web Part para instalar diretamente no site da sua empresa e configurá-lo com base nos seus requisitos de implementação.  
+
+![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [canais e Noções básicas sobre equipes](teams-adoption-understand-teams-and-channels.md)

@@ -1,26 +1,25 @@
 ---
-title: Solução de problemas do Gerenciador de estatísticas do Skype for Business Server 2015
+title: Solucionar problemas de gerente de estatísticas para Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Resumo: Leia este tópico para solucionar problemas de sua implantação do Gerenciador de estatísticas para Skype para Business Server 2015.'
-ms.openlocfilehash: 3af372effd41fd679733324e1615de6b2c49ce0b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+description: 'Resumo: Leia este tópico para solucionar problemas de sua implantação do Gerenciador de estatísticas para Skype para Business Server.'
+ms.openlocfilehash: 3edff5ea17c4a787456ff212b65d99f0ad5bb67f
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569830"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035705"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server-2015"></a>Solução de problemas do Gerenciador de estatísticas do Skype for Business Server 2015
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas de gerente de estatísticas para Skype para Business Server
  
-**Resumo:** Leia este tópico para solucionar problemas de sua implantação do Gerenciador de estatísticas para Skype para Business Server 2015.
+**Resumo:** Leia este tópico para solucionar problemas de sua implantação do Gerenciador de estatísticas para Skype para Business Server.
   
 Este tópico descreve como solucionar problemas de sua implantação do Gerenciador de estatísticas descrevendo os eventos que talvez você veja no log de eventos do aplicativo e ações apropriadas, que você pode tomar para resolver o evento. Este tópico contém as seguintes seções:
   
@@ -173,12 +172,12 @@ Este tópico descreve como solucionar problemas de sua implantação do Gerencia
 
 Para obter mais informações, consulte:
   
-- [Planejar para o Gerenciador de estatísticas de Skype Business Server 2015](plan.md)
+- [Planejar para o Gerenciador de estatísticas de Skype Business Server](plan.md)
     
-- [Implantar o Gerenciador de estatísticas para Skype para Business Server 2015](deploy.md)
+- [Implantar o Gerenciador de estatísticas para Skype para Business Server](deploy.md)
     
-- [Atualizar o Gerenciador de estatísticas para Skype para Business Server 2015](upgrade.md)
+- [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md)
     
-- [Skype para o blog do Gerenciador de estatísticas do servidor de negócios](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
     
 

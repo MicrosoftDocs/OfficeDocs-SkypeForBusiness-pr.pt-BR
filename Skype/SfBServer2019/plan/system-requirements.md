@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: Prepare seu Skype para servidores de negócios Server 2019 e infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os os requisitos do sistema e recomendações, juntamente com o certificado DNS, compartilhamento de arquivos e informações do Active Directory, estão aqui ajudar a garantir uma instalação bem-sucedida e a implantação de farm de servidores.'
-ms.openlocfilehash: 39de1f756d5fdd278ea497d1273e474e030bb448
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838625"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035761"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos de sistema do Skype para Business Server 2019
  
@@ -246,6 +246,8 @@ Embora grande parte dos dados de configuração para servidores e serviços é a
 
 Os seguintes sistemas operacionais de controlador de domínio podem ser usados:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -254,6 +256,8 @@ Os seguintes sistemas operacionais de controlador de domínio podem ser usados:
     
 O nível funcional do domínio de qualquer domínio em que você implantar o Skype para negócios 2019 de servidor em e o nível funcional de floresta de qualquer floresta que você implanta o Skype para o servidor de negócios 2019 into, devem ser um dos seguintes procedimentos:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2

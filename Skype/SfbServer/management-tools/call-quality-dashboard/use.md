@@ -1,25 +1,25 @@
 ---
-title: Usar Painel de Qualidade da Chamada para Skype for Business Server 2015
+title: Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Resumo: Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: c4d67088fc11e05d6880d80da714f3268e0e7e2d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Resumo: Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
+ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
+ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26035726"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Usar Painel de Qualidade da Chamada para Skype for Business Server 2015
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios
  
-**Resumo:** Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 O CQD permite que os profissionais de TI utilizem dados agregados para identificar áreas de foco em seu ambiente com problemas de qualidade de mídia. Ele permite que um profissional de TI compare estatísticas de diferentes grupos de usuários e identifique tendências e padrões. O foco não está em resolver problemas de chamadas individuais, mas em identificar problemas e soluções que se apliquem a muitos usuários em um determinado ambiente.
   
@@ -101,7 +101,7 @@ Os esquemas dessas tabelas são definidos da seguinte forma:
   
 **CqdBuilding**
 
-|**Coluna**|**Tipo de dados**|**Permitir nulos?**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Permitir Nulos?**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |BuildingKey  <br/> |int  <br/> |Não  <br/> |Chave primária da tabela CqdBuilding.  <br/> |
 |BuildingName  <br/> |varchar(80)  <br/> |Não  <br/> |Nome do edifício.  <br/> |
@@ -110,8 +110,8 @@ Os esquemas dessas tabelas são definidos da seguinte forma:
 |BuildingTypeId  <br/> |int  <br/> |Não  <br/> |Chave estrangeira que deve corresponder à que consta nas entradas da tabela CqdBuildingType.  <br/> |
 |Latitude  <br/> |float  <br/> |Sim  <br/> |Latitude do edifício.  <br/> |
 |Longitude  <br/> |float  <br/> |Sim  <br/> |Longitude do edifício.  <br/> |
-|Nome de cidade  <br/> |varchar(30)  <br/> |Sim  <br/> |Nome da cidade onde o edifício está localizado.  <br/> |
-|CEP  <br/> |varchar(25)  <br/> |Sim  <br/> |CEP do local do edifício.  <br/> |
+|CityName  <br/> |varchar(30)  <br/> |Sim  <br/> |Nome da cidade onde o edifício está localizado.  <br/> |
+|ZipCode  <br/> |varchar(25)  <br/> |Sim  <br/> |CEP do local do edifício.  <br/> |
 |CountryShortCode  <br/> |varchar(2)  <br/> |Sim  <br/> |Códigos ISO 3166-1 alpha-2 do país onde o edifício está localizado.  <br/> |
 |StateProvinceCode  <br/> |varchar(3)  <br/> |Sim  <br/> |Abreviação de 3 letras do estado/província onde o edifício está localizado.  <br/> |
 |InsideCorp  <br/> |bit  <br/> |Sim  <br/> |Bit que indica se o edifício faz parte da rede corporativa.  <br/> |
@@ -120,7 +120,7 @@ Os esquemas dessas tabelas são definidos da seguinte forma:
    
 **CqdNetwork**
 
-|**Coluna**|**Tipo de dados**|**Permitir nulos?**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Permitir Nulos?**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |Rede  <br/> |varchar(25)  <br/> |Não  <br/> |Endereço da sub-rede.  <br/> |
 |NetworkRange  <br/> |tinyint  <br/> |Sim  <br/> |Máscara de sub-rede.  <br/> |
@@ -132,7 +132,7 @@ Por padrão, essa próxima tabela tem uma entrada (0, 'Desconhecido').
   
 **CqdBuildingType**
 
-|**Coluna**|**Tipo de dados**|**Permitir nulos?**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Permitir Nulos?**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId  <br/> |int  <br/> |Não  <br/> |Chave primária da tabela CqdBuildingType.  <br/> |
 |BuildingTypeDesc  <br/> |char(18)  <br/> |Não  <br/> |Descrição do tipo de edifício.  <br/> |
@@ -141,7 +141,7 @@ Por padrão, essa próxima tabela possui uma entrada (0, 'desconhecido', 0, null
   
 **CqdBuildingOwnershipType**
 
-|**Coluna**|**Tipo de dados**|**Permitir nulos?**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Permitir Nulos?**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId  <br/> |int  <br/> |Não  <br/> |Chave primária da tabela CqdBuildingOwnershipType.  <br/> |
 |OwnershipTypeDesc  <br/> |varchar(25)  <br/> |Não  <br/> |Descrição do tipo de propriedade.  <br/> |
@@ -152,7 +152,7 @@ Por padrão, essa próxima tabela possui uma entrada (0, 'desconhecido', 0, null
   
 **CqdBssid**
 
-|**Coluna**|**Tipo de dados**|**Permitir nulos?**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Permitir Nulos?**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |bss  <br/> |nvarchar(50)  <br/> |Não  <br/> |Chave primária da tabela CqdBssid. É o BSSID do Ponto de Acesso Wi-Fi.  <br/> |
 |ess  <br/> |nvarchar(50)  <br/> |Sim  <br/> |Informações do Controlador do Ponto de Acesso Wi-Fi.  <br/> |
@@ -174,12 +174,12 @@ Um fluxo de CQD será bom, ruim ou não classificado. O CQM 1.5 agora usa a segu
     
 - O classificador não pode ser modificado
     
-**Definição de chamadas ruins/classificador**
+**Classificador/definição de chamada ruim**
 
 |**Métrica**|**Limite**|
 |:-----|:-----|
 |DDegradationAvg  <br/> |Maior que 1,0 (-1 MOS de rede)  <br/> |
-|Ida e volta  <br/> |Maior que 500   <br/> |
+|RoundTrip  <br/> |Maior que 500   <br/> |
 |PacketLossRate  <br/> |Maior que 0,1 (10%)   <br/> |
 |JitterInterArrival  <br/> |Maior que 30   <br/> |
 |RRatioConcealedSamplesAvg  <br/> |Maior que 0,07   <br/> |
@@ -194,15 +194,15 @@ CQD não usa os campos de chamador/receptor. Eles têm sido renomeado "Primeiro"
   
  **Segundo** Será sempre o ponto de extremidade do Cliente, a menos que seja um fluxo Servidor–Servidor. 
   
-**Exemplo de classificação do primeiro e segundo**
+**Exemplo de classificação Primeiro e Segundo**
 
-|**Ponto de extremidade 1 UAType**|**Ponto de extremidade 2 UUAType**|**Primeiro**|**Segundo**|
+|**UAType do Ponto de Extremidade 1 **|**UUAType do Ponto de Extremidade 2 **|**Primeiro**|**Segundo**|
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype for Business)   <br/> |Ponto de Extremidade 1  <br/> |Ponto de Extremidade 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Ponto de Extremidade 2  <br/> |Ponto de Extremidade 1  <br/> |
 |4 (Skype for Business)   <br/> |4 (Skype for Business)   <br/> |O Chamador em MediaLine   <br/> |O Autor da Chamada em MMediaLine  <br/> |
    
-Se ambos os pontos de extremidade forem do mesmo tipo, o CQD tornará a entrada do Chamador Primeiro e o Autor da Chamada passará a ser o Segundo. Consulte [Este blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) para obter mais informações.
+Se ambos os pontos de extremidade forem do mesmo tipo, o CQD tornará a entrada do Chamador Primeiro e o Autor da Chamada passará a ser o Segundo. Veja mais informações [neste blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx).
   
 ## <a name="accounting-for-vpn"></a>Justificar a VPN
 
