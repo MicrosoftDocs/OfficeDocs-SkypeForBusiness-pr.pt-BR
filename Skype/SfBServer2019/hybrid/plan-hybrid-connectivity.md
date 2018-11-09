@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considerações de planejamento para a implementação de conectividade híbrida entre Skype para Business Server e do Skype para Business Online ou equipes.
-ms.openlocfilehash: 55a6fd1d59e8e5af578b9a1c35c61204f925d866
-ms.sourcegitcommit: 6d30cfdd8c8b8908d4e4f278c39fd22062f4a888
+ms.openlocfilehash: 2f702989a0d40e7bce9b0f3612d67fd374d0813c
+ms.sourcegitcommit: 42143176c46ba9496a0fd401c8e4774075106b98
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890568"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "26238056"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planejar a conectividade híbrida entre Skype para Business Server e Office 365
 
@@ -25,8 +25,6 @@ Leia este tópico para saber como planejar a conectividade híbrida entre Skype 
 Se você tiver Skype local para usuários corporativos também usando equipes (lado a lado), esses usuários não têm a capacidade de interoperar com Skype para usuários de negócios do cliente suas equipes, nem se comunicar com usuários em organizações federadas, seus Cliente de equipes. Para obter essa funcionalidade em equipes, esses usuários devem ser movidos do Skype para negócios local para a nuvem, que requer configuração Skype para modo híbrido de negócios. Além disso, para uma melhor experiência, esses usuários devem estar no equipes somente modo, que garante que todas as chamadas recebidas e chats de qualquer land do usuário no cliente de equipes do usuário.
 
 Configurando a conectividade híbrida e mover todos os usuários para a nuvem também são necessária antes de encerrar sua Skype local para implantação de negócios.  Com a conectividade híbrida configurada, você pode escolher mover os usuários para a nuvem com base em sua necessidade de agenda e corporativos. Com o roteamento direto, você pode aproveitar sua infraestrutura de voz no local enquanto você move para a nuvem e depois que a migração estiver concluída.
-
-Este tópico descreve os requisitos de infraestrutura e sistema, que você precisará configurar a conectividade híbrida entre seu Skype local existente para implantação de servidor de negócios – com usuários que foram criados em seu local Active Directory – e às equipes ou Skype para negócios on-line. 
 
 Este tópico descreve a infraestrutura e os requisitos de sistema, você precisará configurar a conectividade híbrida entre as existentes no local Skype para implantação de servidor de negócios e equipes ou Skype para Business Online.
 
