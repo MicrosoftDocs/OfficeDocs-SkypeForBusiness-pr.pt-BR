@@ -1,7 +1,7 @@
+
 <!-- ============================================================ -->
 # [Bem-vindo ao Teams](teams-overview.md)
 <!-- ============================================================ -->
-
 # [Introdução](get-started-with-teams-landing-page.md)
 ## [Início rápido - equipes](get-started-with-teams-quick-start.md)
 ## [Crie seu primeiro equipes e canais](get-started-with-teams-create-your-first-teams-and-channels.md)
@@ -27,7 +27,25 @@
 ## [Criar a estratégia de gerenciamento de alteração](change-management-strategy.md)
 <!-- ============================================================ -->
 
+<!-- ============================================================ -->
+# [Adotar](adopt-microsoft-teams-landing-page.md) 
 
+## [Introdução](teams-adoption-get-started.md)
+## [Fase 1 - iniciar](teams-adoption-phase1.md)
+### [Entenda as equipes e canais](teams-adoption-understand-teams-and-channels.md)
+### [Criar seus primeiro equipes](teams-adoption-your-first-teams.md)
+### [Como pronta é sua organização para equipes?](teams-adoption-assess-readiness.md)
+## [Fase 2 - experimento](teams-adoption-phase2-experiment.md)
+### [Criar seu programa de campeões](teams-adoption-create-champions-program.md)
+### [Início rápido de governança](teams-adoption-governance-quick-start.md)
+### [Definir cenários de uso](teams-adoption-define-usage-scenarios.md)
+### [Primeiros clientes a adotar onboard e coletar comentários](teams-adoption-onboard-early-adopters.md)
+### [Suporte integrado](teams-adoption-onboard-support.md)
+## [Fase 3 - escala](teams-adoption-phase3-enable.md)
+### [Definir os resultados e sucesso](teams-adoption-define-outcomes.md)
+### [Otimizar comentários e emissão de relatórios](teams-adoption-optimize-feedback-and-reporting.md)
+### [Unidade de divulgação e implementar o treinamento](teams-adoption-drive-awareness.md)
+<!-- ============================================================ -->
 
 <!-- ============================================================ -->
 # Configurar e implantar
@@ -115,6 +133,7 @@
 <!-- ============================================================ -->
 # Interoperabilidade com o Office 365
 ## [Migração e interoperabilidade com Skype para negócios](migration-interop-guidance-for-teams-with-skype.md)
+## [Coexistência com o Skype para negócios](coexistence-chat-calls-presence.md)
 ## [Definir seu coexistência e as configurações de atualização](setting-your-coexistence-and-upgrade-settings.md)
 ## [Grupos do Office 365 e Teams](office-365-groups.md)
 ## [Aprimorar grupos existentes do Office 365 com o Teams](enhance-office-365-groups.md)
@@ -334,7 +353,7 @@
 #### [Gerenciamento de números de telefone para os Países Baixos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Gerenciamento de números de telefone para o Reino Unido](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Gerenciamento de números de telefone para os EUA](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-### Gerenciar a comunicação créditos
+### Gerenciar comunicações créditos
 #### [O que são Créditos de Comunicação?](what-are-communications-credits.md)
 #### [Configurar Créditos de Comunicação para a sua organização](set-up-communications-credits-for-your-organization.md)
 #### [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
