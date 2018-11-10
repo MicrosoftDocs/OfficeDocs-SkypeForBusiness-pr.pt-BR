@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: 469a13822bb319eab1b78a418b7c2eddd182666b
-ms.sourcegitcommit: 50dca374ef698dcdf787be815969be58f36562bb
+ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25784874"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255769"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
 
@@ -42,11 +42,11 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
 
 |Tablet|Processador|RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4       |Núcleo i5  |4GB  |128GB  |
-|Surface Pro 4       |Núcleo i5  |8GB  |256GB  |    
-|Surface Pro (2017)  |Núcleo i5  |4GB  |128GB  |
-|Surface Pro (2017)  |Núcleo i5  |8GB  |128GB  |
 |Surface Pro (2017)  |Núcleo i5  |8GB  |256GB  |
+|Surface Pro (2017)  |Núcleo i5  |8GB  |128GB  |
+|Surface Pro (2017)  |Núcleo i5  |4GB  |128GB  |
+|Surface Pro 4       |Núcleo i5  |8GB  |256GB  |
+|Surface Pro 4       |Núcleo i5  |4GB  |128GB  |
 
 > [!NOTE]
 > Processadores de M3 Core não são suportados.
