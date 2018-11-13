@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282953"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295284"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
 =================================
@@ -63,20 +63,9 @@ Se um usuário desinstala equipes de seu perfil de usuário, o instalador MSI ir
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Desabilitar o recurso de início automático para o instalador MSI
 
-Comportamento padrão do MSI é instalar o cliente de equipes, assim que um usuário entrar e iniciar automaticamente o equipes. Você pode modificar esse comportamento com os parâmetros abaixo da seguinte maneira:
+Se você deseja desabilitar o recurso de início automático, insira o seguinte prompt de comando:
 
-- Quando um usuário fizer logon no Windows, equipes serão instaladas com o MSI
-- No entanto, o cliente de equipes não será iniciado até que o usuário tiver iniciado equipes manualmente
-- Um atalho para iniciar as equipes será adicionado na área de trabalho do usuário
-- Uma vez iniciado manualmente, equipes serão inicialização automática sempre que o usuário fizer logon
-
-Para obter a versão de 32 bits
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-Para obter a versão de 64 bits
-```
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
-```
-> [!Note] 
->  Se você executar o MSI manualmente, certifique-se de executá-lo com permissões elevadas. Mesmo se você executá-lo como um administrador, sem executá-lo com permissões elevadas, o instalador não poderão configurar a opção para desabilitar AutoIniciar.
+

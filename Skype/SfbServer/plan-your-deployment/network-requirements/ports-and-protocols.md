@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 6587bcfa9721362067d70bfc2e15549fa2a8e326
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838604"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293858"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -49,7 +49,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 
 |Função de servidor|Nome do serviço|Porta|Protocolo|Notas|
 |:-----|:-----|:-----|:-----|:-----|
-|Todos os servidores  |Navegador do SQL  |1434  |UDP  |Navegador do SQL para a cópia replicada local do banco de dados do repositório de gerenciamento Central.  |
+|Todos os servidores  |Navegador do SQL  |1434  |UDP  |Navegador SQL para a cópia replicada local do banco de dados do Repositório de Gerenciamento Central.  |
 |Servidores Front-End  |Skype para serviço de front-end Server de negócios  |5060  |TCP  |Usada como opção pelos servidores Standard Edition e Servidores Front-End para rotas estáticas para serviços confiáveis, como servidores de controle de chamada remota.  |
 |Servidores Front-End  |Skype para serviço de front-end Server de negócios  |5061  | TCP (TLS) |Usada pelos servidores Standard Edition e pools de front-ends em todas as comunicações SIP internas entre servidores (MTLS), em comunicações SIP entre o servidor e o cliente (TLS) e em comunicações SIP entre os servidores front-end e os servidores de mediação (MTLS). Também é usada em comunicações com o Monitoring Server.  |
 | Servidores Front-End |Skype para serviço de front-end Server de negócios  |444  | HTTPS <br/> TCP  |Usado para comunicação HTTPS entre o foco (o Skype para componente Business Server que gerencia o estado da conferência) e os servidores individuais.  <br/> Essa porta também é usada para comunicação TCP entre servidores Front-End e de aparelhos de filial persistente.  |

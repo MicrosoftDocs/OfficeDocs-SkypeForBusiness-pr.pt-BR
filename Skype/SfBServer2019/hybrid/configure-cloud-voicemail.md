@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para o correio de voz implementing baseado em nuvem para usuários hospedagem no Skype para Business Server.
-ms.openlocfilehash: 05c486ed338e8e77ab68f12a64c3a59646a157d0
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 80f154a7fa8e34b7912ebf5762e5d0390e21fd22
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838743"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294888"
 ---
 # <a name="configure-cloud-voicemail-service"></a>Configurar o serviço de correio de voz de nuvem
 
@@ -93,7 +93,7 @@ Get-CsHostedVoicemailPolicy
 
 ## <a name="assign-a-hosted-voicemail-policy"></a>Atribuir uma política de caixa postal hospedada
 
-Por padrão, o Global hospedado política de caixa postal é atribuída a todos os usuários. Se você usar uma política diferente, antes de habilitar usuários para caixa postal hospedada, você deve primeiro conceder aos usuários a política de correio de voz hospedada desejado usando o cmdlet [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
+Por padrão, o Global hospedado política de caixa postal é atribuída a todos os usuários. Se você usar uma política diferente, antes de habilitar usuários para caixa postal hospedada, você deve primeiro conceder aos usuários a política de correio de voz hospedada desejado usando o cmdlet [Grant-CSHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps) .
 
 Por exemplo, o comando a seguir atribui uma política de caixa postal de hospedada não Global a um usuário:
 
@@ -104,7 +104,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:Clou
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Habilitar um usuário para caixa postal de nuvem
 
-Para habilitar chamadas de caixa postal de um usuário sejam roteadas para caixa postal de nuvem, você pode usar o cmdlet [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) com o parâmetro HostedVoiceMail. 
+Para habilitar chamadas de caixa postal de um usuário sejam roteadas para caixa postal de nuvem, você pode usar o cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csuser?view=skype-ps) com o parâmetro HostedVoiceMail. 
 
 Por exemplo, o comando a seguir habilita uma conta de usuário para caixa postal de nuvem: 
 

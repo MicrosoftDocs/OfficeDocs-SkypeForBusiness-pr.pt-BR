@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0b038686-ed36-4867-9653-14cc08c919cb
 description: Encontre informações sobre como planejar uma Skype para implantação híbrida do Business.
-ms.openlocfilehash: 736902ba25fe0f2d6aa569ba6f454aa773fec202
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: af15627feaf3dca84f78e657bf71055a7a68f4c0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839441"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294631"
 ---
 # <a name="skype-for-business-hybrid-solutions"></a>Skype para soluções híbridas de negócios
  
@@ -208,7 +208,7 @@ Para obter mais informações, confira:
   
 - [Recursos da arquitetura de TI da nuvem da Microsoft](https://aka.ms/clouditarch)
     
-- [Identidade da nuvem da Microsoft para arquitetos corporativos](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
+- [Identidade da nuvem da Microsoft para arquitetos corporativos](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources#identity)
     
 - [Preparar a sua organização para o Office 365 Enterprise](https://aka.ms/O365EntPrep)
     

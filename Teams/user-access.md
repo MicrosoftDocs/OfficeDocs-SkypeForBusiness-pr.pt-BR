@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8336c3a8899e7719ae8ff50bb2bcdb9c6565c438
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b1f73a709ae6235859cbdccab493d8fa6d198823
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26282961"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294957"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gerenciamento do acesso de usuários ao Microsoft Teams
 =====================================
@@ -66,7 +66,7 @@ Para desabilitar as equipes de todos os usuários com uma licença ativa para o 
 | | | |
 |---------|---------|---------|
 |![Ícone de ponto de decisão.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Ponto de decisão         |<ul><li>O que é o planejamento da sua organização para inclusão de equipes em toda a organização?  (Piloto ou Aberto)</li></ul>         |
-|![Ícone de próximos passos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se a inclusão por meio de um piloto fechado, decida se você gostaria de fazê-lo por meio de licenciamento ou destinadas a comunicação.</li><li>Dependendo de decisão, siga as etapas para certificar-se testar apenas usuários que têm permissão para acessar as equipes (se necessário).</li><li>Documente as diretrizes para quais usuários que serão (ou não) têm acesso às equipes.</li></ul>         |
+|![Ícone de próximos passos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Próximos passos         |<ul><li>Se for iniciar via piloto fechado, decida se deseja fazê-lo através de licenciamento ou comunicação direcionada.</li><li>Dependendo de decisão, siga as etapas para certificar-se testar apenas usuários que têm permissão para acessar as equipes (se necessário).</li><li>Documente as diretrizes para quais usuários que serão (ou não) têm acesso às equipes.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Gerenciar equipes a nível de locatário do Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

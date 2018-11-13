@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implantando a ferramenta de SEFAUtil em Skype para Business Server.
-ms.openlocfilehash: 1b2f981a438b71b44eb5d4c760e98d1d777f7235
-ms.sourcegitcommit: f9410a182f571d2a8ebe71ecd91ec97f83d8e077
+ms.openlocfilehash: fc8b26dbc0f81be3ea7dd9f0fc3f5c728d49e965
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25942804"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295885"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implantar a ferramenta de SEFAUtil em Skype para negócios
  
@@ -40,15 +40,11 @@ Você pode executar a ferramenta de SEFAUtil em qualquer pool de Front-End em su
     
 2. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
     
-3. A ferramenta SEFAUtil só pode ser executada em um computador que integra um pool de aplicativos confiáveis. Se necessário, definir um pool de aplicativos confiáveis para o pool de Front-End no qual você pretende executar SEFAUtil. Na linha de comando, digite:
+3. A ferramenta SEFAUtil só pode ser executada em um computador que integra um pool de aplicativos confiáveis. Se necessário, definir um pool de aplicativos confiáveis para o pool de Front-End no qual você pretende executar SEFAUtil. Na linha de comando, execute:
     
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
-    > [!NOTE]
-    > FQDN do pool: O FQDN do servidor ou pool que hospedará o aplicativo SEFAUtil (normalmente um Skype para negócios Front-End server ou pool).
-    > FQDN do pool registrador: O FQDN do Skype para o servidor Front-End corporativos ou pool associado a esse pool de aplicativos.
-    > Site do pool: A ID de Site do site no qual o pool está hospedado.
 
 4. Defina a ferramenta SEFAUtil como um aplicativo confiável. Na linha de comando, execute:
     

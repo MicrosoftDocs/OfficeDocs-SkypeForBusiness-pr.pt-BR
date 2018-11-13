@@ -1,8 +1,9 @@
 ---
-title: Planejar o painel de controle de qualidade de chamada for Skype para Business Server
+title: Planejar o painel de controle de qualidade de chamada for Skype para Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 4/27/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: Saiba mais sobre o que considerar ao planejar o painel de controle de qualidade de chamada.'
-ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+ms.openlocfilehash: 05411bb62e36350dc9109ca0f8b9d74fc0541946
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035768"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296054"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planejar o painel de controle de qualidade de chamada for Skype para Business Server 
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server-2015"></a>Planejar o painel de controle de qualidade de chamada for Skype para Business Server 2015
  
 **Resumo:** Saiba mais sobre o que considerar ao planejar o painel de controle de qualidade de chamada.
   
-## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Visão geral do Skype para painel de qualidade de chamada do Business Server
+## <a name="overview-of-the-skype-for-business-server-2015-call-quality-dashboard"></a>Visão geral do Skype para painel de qualidade de chamada do Business Server 2015
 
-O Skype para Business Server chamada qualidade Dashboard (CQD) é uma camada de relatório na parte superior de qualidade da experiência do banco de dados no Monitoring Server Skype para Business Server. CQD usa o Microsoft SQL Server Analysis Services para fornecer uso agregado e informações de qualidade, bem como para filtragem e dinamização no conjunto de dados de chamadas. CQD recursos incluem:
+O Skype para Business Server 2015 chamada qualidade Dashboard (CQD) é uma camada de relatório na parte superior de qualidade da experiência do banco de dados no Monitoring Server Skype para Business Server 2015 e Lync Server 2013. CQD usa o Microsoft SQL Server Analysis Services para fornecer uso agregado e informações de qualidade, bem como para filtragem e dinamização no conjunto de dados de chamadas. CQD recursos incluem:
   
 - **Armazenamento de arquivamento de dados de QoE via o componente de CQD arquivamento de QoE.** O componente de arquivo morto do QoE pode armazenar dados de QoE por um período maior que o pode Monitoring Server. Isso permite tendências e relatórios por até sete meses de dados ao mesmo tempo, com a capacidade de slide a janela relatório como até onde trás como não há dados.
     
@@ -81,7 +82,7 @@ Os dados CQD podem ser exibidos através do Portal de CQD e pode ser acessados p
   
 ### <a name="cqd-portal"></a>Portal CQD
 
-O Portal é a maneira mais rápida para exibir os dados no cubo. O Portal vem com vários relatórios internos que são utilizáveis imediatamente. Os relatórios internos estão vinculados uma maneira estruturada para guiar o usuário para sucessivamente menores e menores subconjuntos dos dados de chamada. Os relatórios internos também destacam as várias maneiras diferentes, que os dados possam ser exibidos demonstrando uma combinação de gráficos e tabelas com diferentes dinamização, filtros e medidas. Cada usuário que acessa o Portal pode ter seu próprio conjunto de relatórios que ele/ela pode modificar e compartilhar. Para obter mais informações sobre o uso do Portal do Web CQD, consulte o [Painel de qualidade de chamada de uso do Skype para Business Server](use.md).
+O Portal é a maneira mais rápida para exibir os dados no cubo. O Portal vem com vários relatórios internos que são utilizáveis imediatamente. Os relatórios internos estão vinculados uma maneira estruturada para guiar o usuário para sucessivamente menores e menores subconjuntos dos dados de chamada. Os relatórios internos também destacam as várias maneiras diferentes, que os dados possam ser exibidos demonstrando uma combinação de gráficos e tabelas com diferentes dinamização, filtros e medidas. Cada usuário que acessa o Portal pode ter seu próprio conjunto de relatórios que ele/ela pode modificar e compartilhar. Para obter mais informações sobre o uso do Portal do Web CQD, consulte o [Painel de qualidade de chamada de uso do Skype para Business Server 2015](use.md).
   
 Sistemas operacionais suportados para o Portal CQD: Windows 8.1, Windows 8, Windows Server 2012 R2 e Windows Server 2012.
   
@@ -89,7 +90,7 @@ Navegadores compatíveis com do Portal CQD: Internet Explorer 11, o Internet Exp
   
 ### <a name="rest-apis"></a>APIs REST
 
-Os dados do cubo também podem ser acessados por meio de chamadas da API REST. Os dados recuperados via as chamadas da API REST podem ser renderizados via páginas HTML. Os usuários podem levar aproveita a velocidade de consulta e o esquema de alto nível da CQD enquanto ainda criar relatórios personalizados adequados para suas necessidades de negócios. Para obter mais informações sobre a API e os exemplos, consulte [Desenvolver painel de qualidade de chamada do Skype para Business Server](develop.md). 
+Os dados do cubo também podem ser acessados por meio de chamadas da API REST. Os dados recuperados via as chamadas da API REST podem ser renderizados via páginas HTML. Os usuários podem levar aproveita a velocidade de consulta e o esquema de alto nível da CQD enquanto ainda criar relatórios personalizados adequados para suas necessidades de negócios. Para obter mais informações sobre a API e os exemplos, consulte [Desenvolver painel de qualidade de chamada do Skype para Business Server 2015](develop.md). 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>Definindo os requisitos da sua organização para CQD
 
@@ -132,7 +133,7 @@ CQD vem com vários componentes, e ele o ajuda a entender os requisitos de cada 
 
 Todos os componentes CQD e componentes dependentes podem ser instalados em uma máquina. A configuração de caixa única é a configuração mais simples e permite que CQD ser autônomos. CQD apenas seria precisam acessar o banco de dados de métricas de QoE no Monitoring Server. O servidor de CQD pode ser uma máquina autônoma, uma máquina virtual, ou ainda pode ser o Monitoring Server, dependendo de recursos disponíveis nesses máquina host e os requisitos de desempenho. 
   
-Durante a instalação, o usuário executando que a instalação simplesmente precisa fornecer o Microsoft SQL Server e instâncias de Microsoft SQL Server Analysis Services que tenham sido anteriormente configuradas na máquina onde o CQD deve ser instalado. Para [Implantar o painel de qualidade de chamada do Skype para Business Server](deploy-0.md) , consulte para obter mais informações.
+Durante a instalação, o usuário executando que a instalação simplesmente precisa fornecer o Microsoft SQL Server e instâncias de Microsoft SQL Server Analysis Services que tenham sido anteriormente configuradas na máquina onde o CQD deve ser instalado. Consulte [Implantar o painel de qualidade de chamada do Skype para Business Server 2015](deploy-0.md) para obter mais informações.
   
 ### <a name="multiserver-configuration"></a>Configuração multiservidor
 
@@ -237,8 +238,6 @@ Os seguintes sistemas operacionais são necessários para CQD:
 - Windows Server 2012 com IIS 8.0
     
 - Windows Server 2012 R2 com o IIS 8,5
-
-- Windows Server 2016 com o IIS
     
 Estes são os serviços de função do IIS necessários (em ordem hierárquica):
   
@@ -290,8 +289,6 @@ Há suporte para as seguintes versões do SQL Server:
 - SQL Server 2012
     
 - SQL Server 2014
-
-- SQL Server 2016
     
 Business Intelligence ou Enterprise edition é recomendável por razões de desempenho. Nestas edições permitem o uso de vários arquivos de partição que podem ser processados em paralelo, o que é vantajoso para processar dados relativos a vários meses ou mais. 
   

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 93a3174085f6e42eed1496415122c89b550e61a6
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838721"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295329"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -31,7 +31,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Política EAF no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. <br/> |Há um problema com seguro hexavalente nos quais a política de exportar endereço tabela acesso filtragem (EAF) no Enhanced mitigação experiência Toolkit (EMET) e no Windows Defender avançadas ameaça proteção (ATP) incorretamente pode identificar seguro hexavalente otimizações como ameaças. Isso faz com que as equipes não funcionarão corretamente.  <br/> | Para contornar esse problema, desative EAF para equipes. Você pode ler mais sobre o problema [diretrizes de atenuações EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) para obter mais informações sobre o Windows Defender ATP e EAF política, consulte [Customize explorar proteção](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
+|Política EAF no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. <br/> |Há um problema com seguro hexavalente nos quais a política de exportar endereço tabela acesso filtragem (EAF) no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. Isso impede que as guias no modo de exibição de web de equipes renderização corretamente. <br/> | Desative o EAF cromo. Você pode ler mais sobre o problema [diretrizes de atenuações EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) <br/> |10/11/18 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|

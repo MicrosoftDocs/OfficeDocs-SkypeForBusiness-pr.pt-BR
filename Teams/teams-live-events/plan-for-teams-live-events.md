@@ -6,18 +6,16 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
-localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar o live eventos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ee1ed41f1d906e43f119e6683f772bde32be3
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.openlocfilehash: 4ebee93a6a4e238e988e1e4ffcb796252d61eeb1
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25748161"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294638"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar live eventos no Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -105,9 +103,3 @@ Você pode usar eventos ao vivo de equipes em vários regiões no mundo inteiro.
 
 ## <a name="next-steps"></a>Próximos passos
 Vá para [Configurar o para equipes de eventos ao vivo](set-up-for-teams-live-events.md).
-
-### <a name="related-topics"></a>Tópicos relacionados
-- [Quais são as equipes live eventos?](what-are-teams-live-events.md)
-- [Configurar para equipes eventos ao vivo](set-up-for-teams-live-events.md)
-- [Configurações de eventos do live Confgure em equipes](configure-teams-live-events.md)
-

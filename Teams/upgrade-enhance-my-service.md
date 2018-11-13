@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 56c33c6c4a31da1fbfffbb903c2200cf4afedf07
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25838931"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295149"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -34,7 +34,7 @@ Depois que você tiver implantado com êxito as equipes para sua organização e
 
 Uma ótima maneira de certificar-se de que sempre obterá o máximo de seus serviços é monitorar os [mapas de equipes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para novas melhorias de recurso que podem interessar à sua organização. Se você tiver acesso ao portal de administração do Office 365, você receberá atualizações regulares nossas sobre recursos novos e variáveis por meio de nosso centro de mensagens. 
 
-Além disso, porque as organizações crescem e alteradas, você deve levar o tempo para rever e atualizar seus casos de uso de negócios em intervalos regulares para certificar-se de que o serviço é configurado para atender às necessidades de atual da sua organização.  Certifique-se de que estiver recebendo feedback reais de seus usuários e campeões internos, estabelecendo canais de comentários na sua organização. Essas podem ser conversas informais, reuniões regulares, ou por meio de um equipes de canal ou da comunidade do Yammer. 
+Além disso, porque as organizações crescem e alteradas, você deve levar o tempo para rever e atualizar seus casos de uso de negócios em intervalos regulares para certificar-se de que o serviço é configurado para atender às necessidades de atual da sua organização.  Certifique-se de que estiver recebendo feedback reais de seus usuários e campeões internos, estabelecendo canais de comentários na sua organização. Essas podem ser conversas informais, meeetings regular, ou por meio de um equipes de canal ou da comunidade do Yammer. 
 
 Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para fazê-la à direita. Rever nossos [fases de implantação](quick-start-enable-teams.md) e aplicar a mesma orientação ponta a ponta. Quando você faz alterações pequenas e incrementais, é improvável que você precisará concluir todas as atividades e tarefas integralmente, mas você deve ter certeza avaliar cada atividade e a tarefa ao longo do percurso para oferecer a mesmo as chances em um resultado bem-sucedido.
 

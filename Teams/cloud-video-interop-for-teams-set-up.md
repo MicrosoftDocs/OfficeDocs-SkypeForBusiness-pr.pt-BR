@@ -13,11 +13,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e2090036aa5e1a05e46581d365d9b6b4aeb94b32
-ms.sourcegitcommit: fbef2bfa4e5eb27799aa25f0e890cfb18013cf72
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25040776"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294132"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo de nuvem for Microsoft Teams
 
@@ -35,7 +35,7 @@ Planejar a habilitação de ampla de site com base no/simultâneos/usuário:
 - Selecione o plano de licença ideal para sua organização. 
 - Planejamento de capacidade de VMs é que você está hospedando sua infra-estrutura de vídeo.
 
-## <a name="configure"></a>Configuração 
+## <a name="configure"></a>Configurar 
 
 Para configurar a interoperabilidade de vídeo de nuvem, siga estas etapas. 
 

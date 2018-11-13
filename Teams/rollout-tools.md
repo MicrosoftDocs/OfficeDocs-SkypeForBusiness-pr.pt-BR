@@ -12,17 +12,17 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
-ms.sourcegitcommit: 360b4507c89255b61ee7204ee077200c44961f3f
+ms.openlocfilehash: 71b1a01472448c6a0d8a1bdc2ba06ff88d3a8cfd
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25846433"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293537"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obter ferramentas para dar suporte na implantação do Microsoft Teams
 =================================================
 
-O Kit de sucesso do cliente Microsoft Teams oferece ferramentas para ajudar a distribuição bem-sucedida do Microsoft Teams na sua organização. O kit inclui modelos de e-mail para anúncios, folhetos, pôsteres e e-mails de contagem regressiva e dicas/truques. Ele também contém Guias de Introdução para líderes de equipe e administradores de TI. Baixe o [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) de hoje.
+O Kit de sucesso do cliente Microsoft Teams oferece ferramentas para ajudar a distribuição bem-sucedida do Microsoft Teams na sua organização. O kit inclui modelos de e-mail para anúncios, folhetos, pôsteres e e-mails de contagem regressiva e dicas/truques. Ele também contém Guias de Introdução para líderes de equipe e administradores de TI. Baixe o [Kit de sucesso do cliente](https://go.microsoft.com/fwlink/?linkid=854598) hoje mesmo.
 
 ### <a name="learn-adjust-and-repeat"></a>Aprenda, ajuste e repita
 

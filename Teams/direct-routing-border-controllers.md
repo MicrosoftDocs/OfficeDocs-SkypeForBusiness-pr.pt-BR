@@ -1,7 +1,6 @@
 ---
 title: Lista de controladores de borda da sessão certificados para Roteamento Direto
 ms.author: jambirk
-ms.reviewer: NMuravlyannikov
 author: jambirk
 manager: serdars
 ms.audience: ITPro
@@ -16,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seus SBCs funcionam com o roteamento direto.
-ms.openlocfilehash: 2d0873916585cab3eed6295e9be499f0eab39d53
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 45a562b83c6e89a1006bc1fd6e2180ff49daf1ad
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038899"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294807"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -60,7 +59,5 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Pendente    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   Pendente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pendente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/products/session-border-controller/index.html)                      |    AP 3900       |   Pendente    |   Pendente  |   Pendente    |
-|                                                                                                                     |      AP 4600         |    Pendente    |   Pendente    |      Pendente      |
-|                                                                                                                     |      VME             |    Pendente    |   Pendente    |      Pendente      |
-|                     [SISTEMAS DE TE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |    Pendente    |   Pendente    |      Pendente      |
+|                                                                                                                     |                     |                  |              |                  |
+

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 description: Às vezes (dependendo do país/região), você não poderá obter novos números usando o Centro de administração do Skype for Business ou precisará de números de telefone ou códigos de área específicos. Se for o caso, será necessário baixar um formulário e enviá-lo para nós.
 robots: noindex
-redirect_url: https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
+redirect_url: https://docs.microsoft.com/en-us/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
-ms.openlocfilehash: 1bee0d8be7d77d582d9e07130c5c82bc9a471ba8
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 0c8e614b1e290bb5ed4de5b688f861efca701cfd
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839465"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295926"
 ---

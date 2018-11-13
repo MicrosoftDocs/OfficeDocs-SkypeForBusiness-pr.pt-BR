@@ -1,11 +1,11 @@
 ---
 title: Visão geral do Microsoft Teams
-author: LanaChin
-ms.author: v-lanac
+author: LolaJacobsen
+ms.author: lolaj
 manager: serdars
+ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.date: 11/06/18
 ms.reviewer: ''
 description: Conheça o Microsoft Teams, sua infraestrutura e a utilização do Teams com o Office 365.
 localization_priority: Normal
@@ -15,69 +15,108 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd4dd3e322b254610fe815345fdec24c5b9832a9
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: 4fb74faf3acb0b3df7960ba4429c88e1383204f8
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025084"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295201"
 ---
-# <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
+<a name="overview-of-microsoft-teams"></a>Visão geral do Microsoft Teams
+===========================
 
-Se você for o administrador for Microsoft Teams em sua organização, você está no lugar certo. Aqui, você encontrará todas as informações que necessárias para planejar, implantar e executar as equipes.  
+> [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=ccf507a4-4ec4-4d61-9fb0-c86b5f1fc2a6&AutoPlayVideo=false] 
 
-## <a name="overview-of-teams"></a>Visão geral do Microsoft Teams
 
-Se estiver familiarizado com as equipes, confira este pequeno vídeo, [Bem-vindo às equipes](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams). As equipes se baseia no Office 365 grupos, gráfico do Office e a segurança de mesma nível empresarial, conformidade e gerenciabilidade como o restante do Office 365. As equipes aproveita as identidades armazenadas no Azure Active Directory (AD Azure). Quando você cria uma equipe, aqui está o que obtém criado:
-- Um novo [grupo do Office 365](office-365-groups.md)
-- Uma biblioteca de documentos e sites [Do SharePoint Online](sharepoint-onedrive-interact.md) para armazenar arquivos de equipe
-- Shared um [Exchange Online](exchange-teams-interact.md) , caixa de correio e calendário
-- Um bloco de anotações do OneNote
-- Integra-se ao outros aplicativos do Office 365, como planejador e Power BI
+O Microsoft Teams reúne toda a amplitude e a profundidade do Office 365 para oferecer um verdadeiro hub baseado em bate-papo para trabalhos em equipe e oferecer aos clientes a oportunidade de criar um ambiente mais aberto, fluido e digital. O Microsoft Teams é desenvolvido com as tecnologias existentes da Microsoft, reunidas aos grupos do Office 365. 
 
-Quando você cria uma equipe de um grupo existente, associação desse grupo, site, caixa de correio e anotações são transferidos para equipes. Não perca a nova [equipe de toda a organização](create-an-org-wide-team.md), um tipo especial de equipe que extrai em todos os usuários em sua organização e mantém a associação atualizado com o Active Directory como a participação de usuários e saem da organização. 
+Fora da caixa, o Teams aproveita as identidades armazenadas no Azure Active Directory (Azure AD) e se integra aos outros serviços do Office 365 para criar um site online do SharePoint e uma caixa de correio de grupo do Exchange Online para cada equipe criada.
 
-Para personalizar e estender equipes, adicionar aplicativos de terceiros por meio de [guias](built-in-custom-tabs.md), [conectores](office-365-custom-connectors.md)e [bots](add-bots.md). Com equipes, você pode incluir pessoas de fora da sua organização, [adicioná-las como convidado](guest-access.md) para uma equipe ou um canal. Como parte do Office 365, equipes oferece uma robusta [história de extensibilidade](https://docs.microsoft.com/en-us/microsoftteams/platform) para poder criar o hub de trabalho em equipe, você precisa para sua organização. 
+Qualquer pessoa com uma conta de email de consumidor ou de negócios, como o Outlook, Gmail ou outras pessoas, pode participar como um convidado em equipes. Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e convidados podem ser gerenciados com segurança dentro do Azure AD. Os administradores podem centralmente gerenciar como convidados que participam em seu ambiente do Office 365 e facilmente exibir, adicionar ou revogar o acesso do convidado ao inquilino host.
 
-![Aplicativo de área de trabalho de equipes e aplicativos móveis](media/teams-overview-hub.png)
+O Microsoft Teams oferece uma funcionalidade de chat persistente, chamadas e reuniões, acesso fácil a outros componentes do Office 365, além de um relato robusto de extensibilidade.  Isso proporciona um hub para o trabalho em equipe apropriado para grandes corporações, pequenas organizações e todas as empresas intermediárias.  
 
-As equipes é o principal cliente para comunicações inteligentes no Office 365, substituindo Skype para Business Online ao longo do tempo. Para saber mais sobre Skype para recursos de negócios e funcionalidade que criamos em equipes, consulte o [Skype para negócios Roadmap de recursos de equipes da Microsoft](http://aka.ms/skype2teamsroadmap). Para complementar o bate-papo persistente e recursos de mensagens, equipes oferece uma reunião abrangente e a experiência de chamada, com interna, totalmente integrado de voz e vídeo. Confira [equipes é agora uma reunião completa e solução de chamada](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Microsoft equipes Blog.
+Para ampliar os recursos do Teams, use Conectores, Guias e Bots, disponíveis como [Aplicativos](https://go.microsoft.com/fwlink/?linkid=854629), para trazer informações externas, conteúdo e interações de bots inteligentes para o Teams.  
 
-## <a name="teams-admin-experience"></a>Experiência do administrador de equipes
+<a name="microsoft-teams-infrastructure"></a>Infraestrutura do Microsoft Teams
+------------------------------
 
-Podemos está implantando o novo Teams Microsoft & Skype para centro de administração de negócios. Se ela não estiver visível, ainda, ele está em seu caminho, dando a você uma experiência unificada para gerenciar equipes e Skype para negócios. Desde março de 2018, podemos tiver sido gradualmente migrar configurações a ela do Skype para o Centro de administração de negócios e a experiência de equipes no Centro de administração do Office 365. 
+O Teams é desenvolvido com as tecnologias existentes da Microsoft, reunidas aos grupos do Office 365. Alimentado pela nuvem da Microsoft, as organizações podem esperar um excelente desempenho e confiabilidade ao aproveitar o Teams como parte da sua história de colaboração.
 
-Durante a migração, você vai ser divididos entre duas experiências de admin diferentes. Não se preocupe – Verifique se que você não obterá perdido! Depois que uma configuração é migrada, você receberá uma notificação e serão direcionados para o novo local da configuração no Microsoft Teams & Skype para centro de administração de negócios. Para saber mais, consulte [Gerenciar equipes durante a transição para o novo equipes da Microsoft & Skype para Business Admin Center](manage-teams-skypeforbusiness-admin-center.md). 
+Fora da caixa, uma equipe criada no Teams criará um grupo do Office 365, um site do SharePoint Online (completo, com uma biblioteca de documentos) e uma caixa de correio de grupo do Exchange Online, que será usada pelo Teams ara armazenar informações, como convites de reunião. Uma equipe pode ser criada usando os Grupos existentes do Office 365, permitindo que as assinaturas de grupo existentes e os conteúdos armazenados no SharePoint Online e no Exchange Online sejam transferidos ao Teams.
 
-Para manter-se na parte superior, quais são as novidades para equipes e todos os outros produtos do Office 365 e serviços em sua organização, não deixe de verificar [Centro de mensagens](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [mapa de equipes](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Você obterá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para ajudar a mantê-lo informado e preparado. 
+Para complementar o recurso de equipes, como um quadro de bate-papo persistente onde conversas informais e em tempo real estas ocorrem, às equipes também fornece uma chamada e experiência criada da próxima geração baseado em nuvem de infra-estrutura que também é usada pelo Skype e Skype da reunião Negócios. Esses investimentos em tecnologia incluem serviços em nuvem baseados no Azure para processamento e sinalização de mídia, codecs de vídeo H.264, codecs de áudio SILK e Opus, resiliência de rede, telemetria e diagnósticos de qualidade.
 
-## <a name="upgrade-from-skype-for-business-to-teams"></a>Atualização do Skype for Business para equipes
-Se você ainda estiver em equipes, great! Use os recursos aqui para tirar o máximo proveito equipes como o hub central para o trabalho em equipe em sua organização. 
+Os Grupos do Office 365 aproveitam as identidades armazenadas no Azure Active Directory (Azure AD) e, assim, todos os recursos de autenticação e autorização do Azure AD, como suporte para autenticação multifator (MFA), estão prontamente disponíveis para uso no Teams.
 
-Se você estiver executando o Skype para negócios e está pronto para atualizar para equipes ou se você estiver executando o Skype para negócios e equipes lado-a-lado e está pronto para migrar totalmente para equipes, temos as ferramentas, dicas e diretrizes para ajudar a tornar sua transição bem-sucedida. Para saber mais, consulte [Atualizar Skype para negócios às equipes da Microsoft](journey-skypeforbusiness-teams.md).
+> [!NOTE]
+> Com base nos comentários do cliente, novos grupos de Office 365 gerado como resultado de criação de uma equipe no Microsoft Teams não mais aparecerá no Outlook por padrão. Para clientes que deseja continuar com o comportamento existente do mostrando esses grupos no Outlook, um cmdlet do PowerShell do Exchange Online será fornecido que pode permitir que o grupo para a experiência do Outlook. Grupos criados pelo Outlook e habilitado mais tarde para equipes continuará Mostrar no Outlook e equipes. Essa atualização será gradualmente roll a saída entre o Outlook e as equipes nos próximos meses.
 
-## <a name="teamwork-and-office-365"></a>Trabalho em equipe e o Office 365
-Cada equipe é diferente; Não há nenhuma abordagem única para colaboração. O Office 365 foi projetado para atender às necessidades exclusivas de cada equipe, capacitando pessoas para se comunicar, colaborar e atingir mais com aplicativos desenvolvidos e integrados. 
 
-Ao decidir quais aplicativos do Office 365 e os serviços serão usados, pense o trabalho de que sua organização faz e os tipos de conversas que suas equipes precisam ter. 
+<a name="microsoft-teams-and-office-365"></a>Microsoft Teams e Office 365
+------------------------------
 
-- **As equipes**, um hub digital onde as pessoas que trabalham em conjunto juntos em projetos de núcleo, incluindo pessoas fora da sua organização, poderá ativamente conectar e colaborar em tempo real para obter suas tarefas. Ter o direito de conversa em que o trabalho está acontecendo, se coauthoring um documento, tendo uma reunião ou trabalhando juntos em outros aplicativos e serviços. As equipes é o local para ter chats informais, iterar rapidamente em um projeto, trabalhar com arquivos de equipe e colaborar no compartilhados entregas. 
+Os diferentes grupos têm necessidades variadas com base no seu papel funcional e estilo de trabalho. O Office 365 foi projetado para o estilo de trabalho exclusivo de cada grupo e inclui aplicativos integrados e específicos para o propósito, incluindo:
 
-- **Outlook** para colaborar no ambiente familiar de email e de maneira mais formal estruturada ou quando almejado e comunicação direta é necessária. 
+-   Outlook para e-mails profissionais, agora com a funcionalidade de grupos
 
-- **SharePoint** para sites, portais, automação de processos de negócios e serviços inteligente de conteúdo, pesquisa corporativa. SharePoint mantém conteúdo no Centro de trabalho em equipe, tornar todos os tipos de conteúdo compartilhável e acessível facilmente entre equipes. Integração com o Outlook, Yammer e equipes habilita a colaboração de conteúdo perfeita entre experiências de conversa.   
+-   SharePoint para sites e portais, serviços de conteúdo inteligente, automação de processos comerciais e pesquisa empresarial
 
-- **OneDrive for Business** para armazenar arquivos e compartilhá-los com pessoas que convida um usuário. Conteúdo que um usuário salvar ao OneDrive for Business é particular até que o usuário compartilha com outras pessoas, tornando-o a melhor opção para armazenamento pessoal e os documentos de rascunho que não devem ser compartilhados ou não está pronto para ser compartilhado.
+-   Yammer para impulsionar as conexões em toda a empresa
 
-- Para conectar pessoas em toda a organização do **yammer** . Unidade iniciativas de toda a empresa, compartilhe práticas recomendadas e criar comunidades ao redor de tópicos comuns de interesse ou áreas ou prática. Crowdsourcing ideias para promover discussões open com pessoas em toda a empresa.
+-   Skype for Business como o suporte principal de voz e vídeos empresariais
 
-- **Aplicativos do Office** são as ferramentas familiares que as pessoas saibam e usam regularmente, incluindo o Word, Excel, PowerPoint e OneNote. 
+-   E agora, p Microsoft Teams, o novo espaço de trabalho baseado em bate-papo do Office 365
 
-## <a name="teams-known-issues"></a>Problemas conhecidos do Teams
+Seguem alguns casos de uso comuns de cada aplicativo do Office 365. Para obter orientações de uso detalhadas, acesse a [Biblioteca de Produtividade FastTrack](https://go.microsoft.com/fwlink/?linkid=854630).
 
-Consulte [problemas para equipes da Microsoft conhecidos](Known-issues.md).
+![Ícone do Microsoft Teams.](media/Overview_of_Microsoft_Teams_image1.png)
 
-## <a name="teams-client-release-notes"></a>Notas de versão do cliente Teams
+-   Aproveitado por usuários e equipes que desejam colaborar em tempo real com o mesmo grupo de pessoas.
 
-Consulte [o que há de novo no equipes da Microsoft](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+-   Ajuda as equipes que desejam iterar rapidamente em um projeto, enquanto compartilham arquivos e colaboram em materiais compartilhados.
+
+-   Permite que os usuários se conectem a uma ampla variedade de ferramentas na sua área de trabalho (por exemplo, planejador, Power BI, GitHub, etc.).
+
+![Ícone do Microsoft Outlook.](media/Overview_of_Microsoft_Teams_image2.png)
+
+-   Aproveitado por usuários que preferem colaborar no ambiente familiar de e-mails e/ou de uma forma mais formal e estruturada.
+
+-   Fornece processos comerciais específicos que exigem o uso de e-mails para transferir documentos e informações dentro e fora dos limites corporativos.
+
+-   Comunica e se conecta com usuários que estão fora de grupos de trabalho ou organizações imediatos.
+
+![Ícone do Yammer.](media/Overview_of_Microsoft_Teams_image3.png)
+
+-   Aproveitado para ajudar a conectar usuários em toda a organização para se organizarem em comunidades de prática e compartilharem boas práticas.
+
+-   Melhora os fluxos de trabalho multifuncionais através de uma plataforma aberta e transparente baseada em feed
+
+-   Promove o envolvimento entre executivos e funcionários através de conversas bidirecionais entre a liderança e a base mais ampla de funcionários
+
+-   Incentiva sua força de trabalho da linha de frente a compartilhar e receber conhecimentos e expertise
+
+![Ícone do Skype for Business.](media/Overview_of_Microsoft_Teams_image4.png)
+
+-   Aproveitado para comunicação e colaboração em tempo real, interna e externamente com clientes/parceiros.
+
+-   Proporciona reuniões com áudio, vídeo e conteúdo, com equipes grandes ou pequenas (incluindo assembleias com até 10.000 participantes).
+
+-   Oferece funcionalidade de telefonia corporativa.
+
+
+![Ícone do Microsoft SharePoint.](media/Overview_of_Microsoft_Teams_image5.png)
+
+-   Aproveitado para sites e portais (ex.: notícias e anúncios de empresas, pesquisa e colaboração de documentos).
+
+-   Implementa a automação de processos comerciais em bibliotecas de documentos e listas de informações, integrando o Microsoft Flow e o PowerApps.
+
+-   O site SharePoint da equipe totalmente alimentado é provisionado para cada equipe do Microsoft Teams para armazenamento de arquivos, notícias da equipe, páginas, listas e muito mais.
+
+-   Consulte [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](SharePoint-OneDrive-interact.md)
+
+## <a name="teams-known-issuesknown-issuesmd"></a>[Problemas conhecidos do Teams](Known-issues.md)
+
+## <a name="teams-client-release-noteshttpssupportofficecomarticlerelease-notes-for-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de"></a>[Notas de versão do cliente Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
+
 

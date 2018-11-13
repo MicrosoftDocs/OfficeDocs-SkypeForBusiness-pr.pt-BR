@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização. '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 9138325ba2652a9ee3602d259de811082080e358
+ms.openlocfilehash: 41a4f7d3536e3a92104c98eaee057a47a21aeb9e
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "25842088"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294569"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar o atendedor automático do Sistema de Telefonia
 
@@ -49,9 +49,10 @@ Se você deseja saber mais sobre os atendedores automáticos, consulte [Cite ate
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Etapa 2 - Criar um novo atendedor automático
 
- **Usando as equipes da Microsoft & Skype para Business Admin Center**
+![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**
 
-No **Microsoft equipes & Skype para Business Admin Center**, clique em ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal herdada** >  **roteamento de chamadas** > **atendedores automáticos**, clique em **+ Adicionar novo**:
+
+No **Centro de administração do Skype for Business**, clique em **Encaminhamento de chamadas** > **Atendedores Automáticos** e clique em **Adicionar novas**:
 
 ### <a name="edit-general-info-page"></a>Editar página de informações gerais
 
@@ -76,11 +77,11 @@ No **Microsoft equipes & Skype para Business Admin Center**, clique em ![sfb-log
 ![Número 6](../images/sfbcallout6.png)<br/>**Operador** Isso é opcional e não precisa ser definido para o atendedor automático. No entanto, você pode definir a opção de **operador** para pessoas que ligam para ser capaz de quebrar sem os menus para falar com uma pessoa para ajudá-los. <br/> <br/> A tecla 0 é atribuída automaticamente ao Operador. <br/> <br/> Se você configurar isso, você também precisará informar as pessoas a quem chamar que isso é uma opção disponível em **Opções de menu de edição** , na página de **tratamento de chamada do horário comercial** . Se você definir um operador na sua atendedor automático, você precisará inserir o texto de aviso correspondente na caixa **os chamadores ouvirão** ou alterar seu arquivo de áudio para incluir essa opção. Por exemplo, "Para falar com o operador, pressione 0". <br/><br/>  Você pode definir um dos seguintes como Operador: 
 *    **Pessoa da sua empresa** com uma licença de **Sistema de Telefonia** habilitada para Enterprise Voice ou com Planos de Chamadas do Office 365 atribuídos. <br/>
 
-     > [!Note] 
-     > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013. Não há suporte para Lync Server 2010. <br/> 
+        > [!Note] 
+        > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013. Não há suporte para Lync Server 2010. <br/> 
 
-* A **Call Queue** that you have set up. 
-* Você pode configurá-lo para que a pessoa que liga seja enviada para a caixa postal. Para fazer isso, selecione **a pessoa da sua empresa** e defina as chamadas sejam encaminhadas diretamente para a caixa postal dessa pessoa. 
+*    A **Call Queue** that you have set up. 
+*    Você pode configurá-lo para que a pessoa que liga seja enviada para a caixa postal. Para fazer isso, selecione **a pessoa da sua empresa** e defina as chamadas sejam encaminhadas diretamente para a caixa postal dessa pessoa. 
 
 ### <a name="select-hours-of-operation-page"></a>Página Selecionar as horas de operação
 
@@ -104,14 +105,14 @@ Você pode configurar saudações e prompts menus que as pessoas que a chamada n
 
 ***
 ![Número 1](../images/sfbcallout1.png)<br/>**Saudação da empresa** A saudação para horário comercial é opcional e pode ser definida como **Nenhuma**. Nesse caso, a pessoa que liga não ouvirá nenhuma mensagem ou saudação antes da chamada ser atendida por uma das opções selecionadas. Você também pode carregar um arquivo de áudio (em formatos .wav, .mp3 ou. wma) ou criar uma saudação personalizada usando conversão de texto em fala.
-* **Nenhuma** Nenhuma saudação será reproduzida quando as pessoas ligarem para o número de telefone do atendedor automático.
+*    **Nenhuma** Nenhuma saudação será reproduzida quando as pessoas ligarem para o número de telefone do atendedor automático.
 *    **Criar um sinalizador de saudação** Se você escolher essa opção, insira o texto que você deseja que o sistema para ler (até 1000 caracteres). Por exemplo, você pode inserir "Bem-vindo à Contoso. A sua ligação é muito importante para nós." na caixa **Os chamadores ouvirão**.
-* **Carregar um arquivo de áudio** Se você escolher essa opção, gravar a saudação e, em seguida, carregue o seu arquivo de áudio (em um formato. wav,. mp3 ou. wma).
+*    **Carregar um arquivo de áudio** Se você escolher essa opção, gravar a saudação e, em seguida, carregue o seu arquivo de áudio (em um formato. wav,. mp3 ou. wma).
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Você pode selecionar o que acontece às chamadas que chegam durante o horário comercial. Você pode escolher entre as seguintes opções:
 * **Desconectar** Se você selecionar a ele, a pessoa chamando em será desconectada depois de ouvir uma saudação para horário comercial.
 * **Redirecionar chamada** Isso pode ser usado para enviar a chamada automaticamente para:
-  * **Pessoa da sua empresa** com uma licença de **Sistema de Telefonia** habilitada para Enterprise Voice ou com Planos de Chamadas do Office 365 atribuídos. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione **a pessoa da sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. <br/><br/>
+  * **Pessoa da sua empresa** com uma licença de **Sistema de Telefonia** habilitada para Enterprise Voice ou com Planos de Chamadas do Office 365 atribuídos. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione **a pessoa da sua empresa** e defina essa pessoa para que suas chamadas encaminhadas diretamente para a caixa postal. <br/><br/>   
     > [!Note]
     > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013. Não há suporte para Lync Server 2010. <br/><br/>
 
@@ -147,9 +148,9 @@ Para configurar suas opções de menu, após selecionar as teclas, você precisa
     - **Auto Attendant** You can use an existing auto attendant to create a second level of menu options containing a submenu. These are called nested auto attendants.<br/><br/>
 
         > [!Note]
-        > O **horário comercial** de atendedores automáticos aninhados (ou segundo nível) também será usada, incluindo para as chamadas enviadas a partir de outros atendedores automáticos que foram configurados.
+        > O **horário comercial** de atendedores automáticos aninhados (ou segundo nível) também será usada, incluindo para as chamadas enviadas a partir de outros atendedores automáticos que foram configurados.         
 
-### <a name="select-holidays-page"></a>Página selecionar feriados
+### <a name="select-holidays-page"></a>Página selecionar feriados 
 
 Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
@@ -159,9 +160,9 @@ Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 ![Número 1](../images/sfbcallout1.png)<br/>**Adicionar um feriado** Insira um nome para seu novo feriado no campo **Nome do feriado**.<br/><br/> Os nomes de feriados podem ter até 64 caracteres e devem ser únicos para o mesmo atendedor automático. Por exemplo, você não pode ter dois feriados com o nome "Ação de Graças" no mesmo atendedor automático.  
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>**Saudação de feriado** A saudação de feriado é opcional e pode ser definida como **Nenhuma**. Nesse caso, a pessoa que liga não ouvirá nenhuma mensagem ou saudação antes da chamada ser atendida por uma das opções selecionadas. Você também pode carregar um arquivo de áudio (em formatos .wav, .mp3 ou. wma) ou criar uma saudação personalizada usando conversão de texto em fala.
-* **Nenhuma** Nenhuma saudação será reproduzida quando as pessoas ligarem para o número de telefone do atendedor automático.
-* **Criar um sinalizador de saudação** Se você escolher essa opção, insira o texto que você deseja que o sistema para ler (até 1000 caracteres). Por exemplo, você pode inserir "Feliz ano novo! Nossos escritórios estão fechados no momento." na caixa **Os chamadores ouvirão**.
-* **Carregar um arquivo de áudio** Se você escolher essa opção, gravar a saudação de feriado e, em seguida, carregue o seu arquivo de áudio (em um formato. wav,. mp3 ou. wma).  
+*    **Nenhuma** Nenhuma saudação será reproduzida quando as pessoas ligarem para o número de telefone do atendedor automático.
+*    **Criar um sinalizador de saudação** Se você escolher essa opção, insira o texto que você deseja que o sistema para ler (até 1000 caracteres). Por exemplo, você pode inserir "Feliz ano novo! Nossos escritórios estão fechados no momento." na caixa **Os chamadores ouvirão**.
+*    **Carregar um arquivo de áudio** Se você escolher essa opção, gravar a saudação de feriado e, em seguida, carregue o seu arquivo de áudio (em um formato. wav,. mp3 ou. wma).  
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>**O que acontece com as chamadas após a saudação?** Você pode selecionar o que acontece com as chamadas que chegam durante este feriado. Você pode escolher entre as seguintes opções:
 * **Desconectar** A pessoa será desconectada após ouvir a saudação de feriado.
@@ -179,9 +180,9 @@ Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>**Quando você deseja que o feriado inicie e termine?** Insira a data de início do feriado no formato dd/mm/aaaa e selecione uma hora de início e data e hora de término, conforme solicitado na tabela de intervalo de data.<br/><br/>Você pode especificar até 10 intervalos de data para um feriado. Por exemplo, você pode adicionar intervalos de data para feriados de ano novo para até 10 anos. Um feriado pode abranger vários dias.<br/><br/>Para adicionar intervalos de datas de feriados adicionais (por exemplo, para o ano seguinte), clique em **Adicionar outro** e, em seguida, insira um novo conjunto de datas de início e término do feriado.<br/><br/>Também há suporte para feriados aninhados. Por exemplo, você pode aninhar vários feriados em um único período de tempo de "pausa para feriado": 
-* **De 24 de dezembro até 3 de janeiro:** "Boas festas! Nossos escritórios estão fechados no momento. Reabriremos no dia 4 de janeiro."
-* **25 de dezembro:** "Feliz Natal! Nossos escritórios estão fechados no momento. Reabriremos no dia 4 de janeiro."
-* **1º de janeiro:** "Feliz ano novo! Nossos escritórios estão fechados no momento. Reabriremos no dia 4 de janeiro."
+*    **De 24 de dezembro até 3 de janeiro:** "Boas festas! Nossos escritórios estão fechados no momento. Reabriremos no dia 4 de janeiro."
+*    **25 de dezembro:** "Feliz Natal! Nossos escritórios estão fechados no momento. Reabriremos no dia 4 de janeiro."
+*    **1º de janeiro:** "Feliz ano novo! Nossos escritórios estão fechados no momento. Reabriremos no dia 4 de janeiro."
 
 Depois de salvar seu atendedor automático, os feriados aparecem na guia **Feriados**, onde você pode editar, adicionar ou modificar as configurações de feriado.
 
@@ -204,7 +205,7 @@ Nesta página, você pode configurar quais usuários em sua organização poder�
 * **Sinalizador** Se você usar essa opção, você pode procurar um grupo do Office 365, lista de distribuição ou grupo de segurança que foi criado em sua organização, e todas as pessoas adicionado a esse grupo do Office 365, lista de distribuição ou grupos de segurança serão excluídos da pesquisa de diretório. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança. <br/><br/> 
 
   > [!Caution]
-  > Usuários locais de implantações do Lync Server 2010 não listados quando alguém pesquisará o diretório usando discagem por nome.
+  > Usuários locais de implantações do Lync Server 2010 não listados quando alguém pesquisará o diretório usando discagem por nome.          
 
 > [!NOTE]
 > Poderá demorar até 36 horas para um novo usuário ter seu nome listado no diretório quando alguém usa discagem pelo nome, com reconhecimento de fala. 
@@ -227,18 +228,19 @@ Você também pode usar o Windows PowerShell para criar e configurar atendedores
 
 Veja os cmdlets necessários para gerenciar um atendedor automático.
 
-|| |
-|---  |---  |
-| [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx) | [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx) |
-| [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx) | [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx) |
-| [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx) | [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps) |
-| [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx) | [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx) |
-| [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx) | [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx) |
-| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) | [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx) |
-| [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) | [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx) | [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx) |
-| [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx) | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
-| [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx) | |
+
+|                                                                                                                                                               |                                                                                                                                                               |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                   [New-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796493.aspx)                                    |                                [New-CsOrganizationalAutoAttendantPrompt](https://technet.microsoft.com/library/mt796484.aspx)                                 |
+|                                   [Set-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796486.aspx)                                    |                              [New-CsOrganizationalAutoAttendantMenuOption](https://technet.microsoft.com/library/mt796485.aspx)                               |
+|                                   [Get-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796482.aspx)                                    |    [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csorganizationalautoattendantholidays?view=skype-ps)    |
+|                                  [Remove-CsOrganizationalAutoAttendant](https://technet.microsoft.com/library/mt796492.aspx)                                  |                                 [New-CsOrganizationalAutoAttendantMenu](https://technet.microsoft.com/library/mt796488.aspx)                                  |
+|                                         [New- CsOnlineAudioFile](https://technet.microsoft.com/library/mt796479.aspx)                                         |                               [New-CsOrganizationalAutoAttendantCallFlow](https://technet.microsoft.com/library/mt796489.aspx)                                |
+| [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays?view=skype-ps) |                                         [New-CsOnlineTimeRange](https://technet.microsoft.com/library/mt796491.aspx)                                          |
+|                    [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)                    |                                          [New-CsOnlineSchedule](https://technet.microsoft.com/library/mt796490.aspx)                                          |
+|                           [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://technet.microsoft.com/library/mt796483.aspx)                           |                        [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://technet.microsoft.com/library/mt796487.aspx)                        |
+|                           [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://technet.microsoft.com/library/mt796481.aspx)                           | [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csorganizationalautoattendantholidays?view=skype-ps) |
+|                            [New-CsOrganizationalAutoAttendantCallableEntity](https://technet.microsoft.com/library/mt796480.aspx)                             |                                                                                                                                                               |
 
 ### <a name="more-about-windows-powershell"></a>Mais sobre o Windows PowerShell
 

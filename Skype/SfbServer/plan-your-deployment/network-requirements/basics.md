@@ -9,16 +9,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 tem o software interno que pode fornecer serviços DNS, portanto, talvez você queira revisar a documentação disponível, como o guia de cenário de política de DNS. Se você preferir, você pode escolher uma solução de terceiros.
-ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 3397d4ba2b3f8555652117d6de6bee54f7816307
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839052"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296130"
 ---
 # <a name="dns-basics"></a>Noções básicas DNS
  
-Windows Server 2016 tem o software interno que pode fornecer serviços DNS, portanto, talvez você queira revisar a documentação disponível, como o [Guia de cenário de política de DNS](https://docs.microsoft.com/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Se você preferir, você pode escolher uma solução de terceiros.
+Windows Server 2016 tem o software interno que pode fornecer serviços DNS, portanto, talvez você queira revisar a documentação disponível, como o [Guia de cenário de política de DNS](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/dns-policy-scenario-guide). Se você preferir, você pode escolher uma solução de terceiros.
   
 Recomendamos que como uma prática recomendada você dedique um servidor específico na sua implementação para fornecer o DNS. Você poderia potencialmente montá-lo em um dos servidores dedicados a uma do Skype para funções de servidor de negócios, mas se esse servidor também fazia parte de um pool e receber descomissionar por acidente Skype para negócios seriam mau funcionamento até que os serviços DNS foram restabelecidos.
   

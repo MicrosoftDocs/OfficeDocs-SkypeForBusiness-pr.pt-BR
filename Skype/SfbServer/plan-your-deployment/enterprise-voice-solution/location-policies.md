@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Leia este tópico para saber como planejar políticas de local para uma implantação de serviços de emergência avançado (E9-1-1) no Skype Business Server Enterprise Voice.
-ms.openlocfilehash: ed5eb479224c82757d808c202633cd79f466a543
-ms.sourcegitcommit: 7d65eafd5b0163ece91deb7801458c7a45fcc4f7
+ms.openlocfilehash: 919a09bb907bda8666c9a44ee61436643a912d61
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "25839424"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295277"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planejar políticas de local Skype for Business Server
  
@@ -59,7 +59,7 @@ Esta configuração especifica o aviso de isenção de responsabilidade que o us
 Esta cadeia de caracteres de discagem (menos o prefixo "+", mas incluindo qualquer normalização feita pelo plano de discagem do usuário) significa que uma chamada é uma chamada de emergência. A **Sequência de discagem de emergência** faz com que o cliente inclua na chamada informações sobre o local e sobre retorno de chamada.
   
 > [!NOTE]
-> Se sua organização não usar um prefixo de acesso de linha externa, você não precisará criar uma correspondente plano de discagem da regra de normalização que adiciona um "+" para a cadeia de caracteres 911 antes de enviar a chamada para o roteamento de saída em um servidor executando o Skype para Business Server; o "+" será colocada automaticamente antes pelo Skype para clientes corporativos como resultado a política de local. No entanto, se o seu site usa um prefixo de acesso externo, você precisará adicionar uma regra de normalização para a política de plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o "+". Por exemplo, se seu local usa um prefixo de acesso externo de 9 e um usuário disca 9 911 para colocar uma chamada de emergência, o cliente usará sua política de plano de discagem normalizar isso para +911 antes que o número discado é avaliado com as rotas no perfil da localidade do chamador. 
+> Se sua organização não usar um prefixo de acesso de linha externa, você não precisará criar uma correspondente plano de discagem da regra de normalização que adiciona um "+" para a cadeia de caracteres 911 antes de enviar a chamada para o roteamento de saída em um servidor executando o Skype para Business Server; o "+" será colocada automaticamente antes pelo Skype para clientes corporativos como resultado a política de local. No entanto, se o seu site usa um prefixo de acesso externo, você precisará adicionar uma regra de normalização para a política de plano de discagem aplicável que retira o prefixo de acesso externo e adiciona o "+". Por exemplo, se seu local usa um prefixo de acesso externo de 9 e um usuário disca 9 911 para colocar uma chamada de emergência, o cliente usará sua política de plano de discagem normalizar isso para +911 antes do número discado é avaliado com as rotas no perfil da localidade do chamador. 
   
  **Máscaras de Cadeia de Discagem de Emergência (máscara de discagem para E9-1-1)**
   

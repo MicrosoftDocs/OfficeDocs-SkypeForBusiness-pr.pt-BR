@@ -1,27 +1,28 @@
 ---
-title: API de dados para o painel de qualidade de chamada (CQD) no Skype para Business Server
+title: Dados API para painel de controle de qualidade de chamada (CQD) no Skype para Business Server 2015
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 12/20/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Resumo: Saiba mais sobre o API Rata para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 0af168c46e8b2732d5c967550391ab52459ddf95
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Resumo: Saiba mais sobre o API Rata para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
+ms.openlocfilehash: e48d1a6719f77e5f91167aa76ce4f58704883fc9
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035628"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293843"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de dados para o painel de qualidade de chamada (CQD) no Skype para Business Server
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server-2015"></a>Dados API para painel de controle de qualidade de chamada (CQD) no Skype para Business Server 2015
  
-**Resumo:** Saiba mais sobre o API Rata para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Saiba mais sobre o API Rata para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
   
-A API de dados fornece acesso programático para painel de controle de qualidade de chamada para Skype para Business Server.
+A API de dados fornece acesso programático para painel de controle de qualidade de chamada para Skype para Business Server 2015.
   
 ## <a name="data-api-for-call-quality-dashboard"></a>API de dados para o painel de controle de qualidade de chamada
 

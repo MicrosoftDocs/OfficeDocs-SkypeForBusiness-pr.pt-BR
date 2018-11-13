@@ -13,12 +13,12 @@ description: Saiba que aplicativos de dados e permissões estão solicitando da 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da1c22852f12bad79413d8b1f57d129be4e0ffcd
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 39c104d10e14e602da21761667312a917d9a9ce0
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678398"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295763"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -97,7 +97,7 @@ Uma guia é um site executando dentro de equipes.
   <tr>
     <td valign="top">SEND_AND_RECEIVE_WEB_DATA</td>
     <td valign="top">Nenhum (atualmente).</td>
-    <td valign="top"><ul><li>O perfil de risco para uma guia é quase idêntico ao mesmo site executando em uma guia de navegador. </li><li>Uma guia também obtém o contexto no qual ele & #39; s executando, incluindo o nome de entrada e o UPN do usuário atual, a ID de objeto do Windows Azure AD para o usuário atual, a ID do Office 365 grupo (equipe) no qual ele reside, a ID do inquilino e o local atual do usuário. No entanto mapear essas IDs para um usuário & #39; informações s, na guia teria que tornar o usuário entrar no Azure AD.</li></ul></td>
+    <td valign="top"><ul><li>O perfil de risco para uma guia é quase idêntico ao mesmo site executando em uma guia de navegador. </li><li>Uma guia também obtém o contexto no qual ele & #39; s executando, incluindo o nome de entrada e o UPN do usuário atual, a ID de objeto do Windows Azure AD para o usuário atual, a ID do Office 365 grupo no qual ele reside (se ela for uma equipe) , a ID do inquilino e o local atual do usuário. No entanto mapear essas IDs para um usuário & #39; informações s, na guia teria que tornar o usuário entrar no Azure AD.</li></ul></td>
   </tr>
   </table>
 

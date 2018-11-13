@@ -3,23 +3,24 @@ title: Obtenha os membros de dimensão
 ms.author: kenwith
 author: kenwith
 manager: serdars
+ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
-description: 'Resumo: Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
-ms.openlocfilehash: 4c53e809d13b1ceb386c6727805402be9dfaf7f8
-ms.sourcegitcommit: b680505c5dad435d98fbd0b235e0e7c67b9d8c9c
+description: 'Resumo: Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
+ms.openlocfilehash: 6d3f5f30ccb3b79aabe9faa37f7c960b846ef0cd
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26035663"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26295959"
 ---
 # <a name="get-dimension-members"></a>Obtenha os membros de dimensão
  
-**Resumo:** Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
+**Resumo:** Saiba mais sobre a operação obter membros da dimensão. A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
   
 A operação obter membros da dimensão é parte da API de dados para o painel de qualidade de chamada.
   
