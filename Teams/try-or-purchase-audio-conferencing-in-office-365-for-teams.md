@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 8a5484aee9e8a5a9b8a3e1a0c0cf3e3f264b17d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371971"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283174"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Tente ou conferência de áudio no Office 365 for Microsoft Teams de compra
 
@@ -46,9 +46,9 @@ Você deve ser um [administrador global ou administrador de cobrança](https://s
     
 2. Obtenha suas licenças de **Audioconferência**. Se você quiser:
 
-   - **Experimentar** antes de comprar, você pode se inscrever para uma avaliação gratuita do Office 365 Enterprise E5 que inclui Audioconferência. Confira a [Avaliação do Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
+   - **Experimente** antes de comprar: Inscreva-se para uma avaliação gratuita do Office 365 Enterprise E5 que inclui a conferência de áudio. Confira a [Avaliação do Office 365 Enterprise E5](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Comprar**, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+   - **Comprar**: consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
 
 3. [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que você comprou às pessoas na organização que vão agendar ou realizar reuniões.
 
@@ -74,7 +74,9 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Etapa 2: Configure o provedor de serviços de audioconferência para pessoas que lideram ou agendam reuniões
 
-Quando você atribuir uma licença de **Audioconferência** para as pessoas na sua organização que lideram ou agendam reuniões, eles não precisarão de mais nada! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
+Quando você atribuir uma licença de **Serviços de audioconferência** para as pessoas na sua organização que não têm Skype para negócios integradas com um provedor de serviços de audioconferência de terceiros 3º, eles são definidas para cima e pronto para ir! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
+
+Se você tiver usuários habilitados com um provedor de serviços de audioconferência de terceiros 3º, você deverá alterar o provedor dos usuários para a Microsoft. Para alterar o provedor do usuário, consulte [Microsoft atribuir como um provedor de serviços de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Etapa 3: Outras tarefas de administração
 
@@ -94,8 +96,8 @@ As etapas a seguir são **opcionais**, mas muitos administradores gostam de segu
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar o Skype for Business Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Permita que as equipes em sua organização](office-365-set-up.md)
 
 [Números de telefone para audioconferência](phone-numbers-for-audio-conferencing-in-teams.md)
 
-[Definir opções para reuniões on-line e chamadas em conferência](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)
+[Definir opções para reuniões online e chamadas em conferência](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

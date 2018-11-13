@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envie aos sus usuários um e-mail com as informações da audioconferência no Microsoft Teams.
-ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347460"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283159"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams
 
-Em alguns casos, talvez seja necessário usuários Teams Microsoft a enviar-lhes suas informações de conferência de áudio. Você pode fazer isso clicando em **Enviar informações de conferência via email** sob as propriedades de um usuário. Quando você envia este email, ele irá conter todas as informações de conferência de áudio, incluindo:
+Às vezes, os usuários do Microsoft Teams podem precisar que você envie as informações da audioconferência. É possível fazer isso clicando em **Enviar informações de conferência por e-mail** nas propriedades de um usuário. O e-mail enviado conterá todas as informações da audioconferência, incluindo:
   
 - O número de telefone ou de discagem da conferência para o usuário.
     
@@ -69,8 +69,6 @@ Aqui está um exemplo do e-mail que é enviado:
   - Quando o provedor de serviços de audioconferência para um usuário mudou da Microsoft para outro provedor ou **Nenhum**.
     
   - Quando o provedor de serviços de audioconferência para um usuário é alterado para Microsoft.
-    
-- Por padrão, o remetente dos e-mails será do Office 365, mas você pode alterar o endereço de email e nome para exibição usando o Windows PowerShell. Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 

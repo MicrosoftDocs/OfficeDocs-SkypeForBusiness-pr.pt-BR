@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e3ec3bf4fc8f3f3a84ccec5558134b3bca43b7
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26038805"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255650"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -38,7 +38,9 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 
     -   Canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam a seu valor para os membros da equipe.
 
-[Exibir este pequeno vídeo](https://youtu.be/hjJWtoaRJeE) para saber mais sobre as práticas recomendadas para a criação de equipes e canais.
+Exiba este pequeno vídeo para saber mais sobre as práticas recomendadas para a criação de equipes e canais.
+
+<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <a name="membership-roles-and-settings"></a>A associação, funções e configurações
 ------------------------------
@@ -52,7 +54,7 @@ Os proprietários de equipe também podem criar uma equipe baseado em um grupo d
 **Configurações da equipe** os proprietários de equipe podem gerenciar amplas configurações da equipe, diretamente no Microsoft Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais, adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes. 
 
 Siga três minutos, fazer check-out este ir para guia vídeo para proprietários de equipe: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Se você for um administrador do Microsoft Teams no Office 365, você tem acesso às configurações de todo o sistema no equipes & Skype para Business Admin Center. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode habilitar um canal padrão, “Geral”, para anúncios, discussões e recursos de toda a equipe. Esse canal aparecerá para todas as equipes.
 

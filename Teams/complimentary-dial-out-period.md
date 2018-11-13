@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Os clientes podem usar o Plano de Chamadas Office 365 e a Audioconferência Office 365, conforme permitido nos Termos de Uso de Serviços PSTN do Skype for Business Online e no contrato de licenciamento por volume do Cliente.
-ms.openlocfilehash: 7415042e6604ae6bfa779fdcd578422faf7ac40c
-ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
+ms.openlocfilehash: 928afed68d8fa6bb6b8ae3a642c64c09e748ae06
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25898123"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283151"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -36,10 +36,28 @@ ms.locfileid: "25898123"
 
 Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
   
-### <a name="complimentary-dial-out-period"></a>Período de discagem gratuita
+### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem complementar
 
-Como um benefício adicional aos clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo benefícios adicionais relacionados ao discar a partir de reuniões organizadas por usuários atribuídos a uma licença de conferência de áudio do Office 365 através de 30 de junho de 2018. Para o período por meio de 30 de junho de 2018, usuários participando de reuniões organizadas por usuários licenciados podem ser permitidos, com base nas permissões concedidas pelo organizador da reunião, faça chamadas de discagem do dentro da reunião aos números de telefone nos seguintes 44 países:
-  
+Como um benefício adicional aos clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo um benefício adicional de complementar relacionado ao discar a partir de reuniões organizadas por usuários atribuídos a uma assinatura de conferência de áudio do Office 365 licença por meio de junho de 2019. Durante esse período complementar, Microsoft permite que os organizadores de reunião ou participantes autorizados conforme definido em configurações de política, para fazer chamadas de discagem de dentro da reunião para números de telefone não sejam premium nos países "Uma zona" 44 listados abaixo de reunião. Esse benefício é aplicável a licenças de assinatura mensais de conferência de áudio e não se estende para licenças de pagamento por minuto de conferência de áudio.
+
+Além disso, há um limite de 900 cobrir minuto durante as como tal, o período de discagem complementar:
+
+Usuários com um local de uso de licença (isto é o local de país do usuário definido na área de licenciamento do portal de administração do Office 365) em qualquer país podem discar a partir de uma conferência para qualquer um dos países zona A 44. Cada usuário recebe 900 minutos por usuário por mês para qualquer um dos países zona A qual é colocado em pool no nível do locatário. Por exemplo, um cliente adquiriu licenças de assinatura de conferência de áudio 115 e tem 10 usuários nos EUA, 100 usuários no Reino Unido e 5 usuários na Índia, tudo isso com licenças de assinatura de audioconferência atribuídas aos seus usuários. Observação: Tamanho do Pool se baseia em licenças atribuídas e não adquiriu licenças.
+ 
+- Todos os usuários de 115 compartilham um pool de (115 usuários X 900 min) = 103,500 conferência discar check-out minutos por mês do calendário que pode ser usado para fazer chamadas de saída para qualquer um dos países zona A.
+- Todas as chamadas excedendo os 103,500 minutos por mês do calendário são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino. (Observação: locatário Configure créditos de comunicações e atribuir a licença créditos de comunicação para o organizador da reunião).
+- Todas as chamadas de saída para destinos não estejam na lista zona A país são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino (fornecida locatário tiver configurar créditos de comunicações e atribuiu a licença créditos de comunicação a organizador da reunião).
+
+Observação: Você pode monitorar o uso em relação a discagem de pool minuto no Skype para o Centro de administração de negócios do Centro de administração de equipes/Skype > herdada Admin Center > Relatórios > PSTN minuto Pools.  Neste minuto complementar pool será rotulada no relatório como "Saída chamadas para zona uma países".
+
+Notificações por email serão enviadas para todos os administradores de Inquilino de um determinado cliente quando a utilização do pool de minutos de discagem de locatário atingiu 80% e 100%.
+
+Para chamadas de discagem que são cobradas por minuto (chamadas excedendo o pool minuto de discagem de locatário ou chamadas para destinos não estejam na lista zona A país), as chamadas e suas taxas de associado baseiam-se principalmente no destino da chamada e não o país do organizador ou o participante iniciando a chamada de discagem. Por exemplo, uma chamada para um número de telefone na França será cobrada com a mesma taxa se ele iniciado por um participante da reunião nos Estados Unidos ou por um na França.
+
+Para obter informações adicionais sobre comunicação créditos, consulte [Créditos de comunicações](what-are-communications-credits.md).
+
+**Zona A países**
+
 |    |
 |-----|
 |Austrália  <br/> |
@@ -86,9 +104,6 @@ Como um benefício adicional aos clientes a adotar o nosso serviço de conferên
 |Tailândia  <br/> |
 |Reino Unido  <br/> |
 |Estados Unidos  <br/> |
-   
-> [!CAUTION]
-> A partir de 1º de julho de 2018, todas as assinaturas da Audioconferência Office 365 serão revertidas para os termos de serviço padrão para discagem de reuniões organizadas por usuários com licenças da Audioconferência Office 365 atribuídas 
-  
+     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

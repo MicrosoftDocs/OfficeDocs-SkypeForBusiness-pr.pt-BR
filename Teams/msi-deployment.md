@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c95eec7d05d0acb8e49c8236b1e9d5f498869c95
-ms.sourcegitcommit: e33aa9ff5afa0c40b0bb4af67d2328c1a58c7f02
+ms.openlocfilehash: 4983f8089a5d221a29f67ae25dfa6766751a7394
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25540249"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282953"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
 =================================
@@ -39,7 +39,7 @@ Para usar o System Center Configuration Manager ou política de grupo ou qualque
 
 O MSI equipes colocará um instalador em arquivos de programa. Sempre que um usuário se conecta em um novo perfil de usuário do Windows, o instalador será iniciado e uma cópia do aplicativo equipes será instalada na pasta de appdata desse usuário. Se um usuário já tiver o aplicativo de equipes instalado na pasta appdata, o instalador MSI irá ignorar o processo para esse usuário.
 
-Não use o MSI para implantar atualizações, pois o cliente irá atualizar automaticamente quando detecta que uma nova versão é disponibilizada pelo serviço. Para reimplantar o instalador mais recente use o processo de reimplantando MSI descrito abaixo. Se você implantar uma versão mais antiga do pacote do MSI, o cliente será atualizado automaticamente sempre que possível para o usuário. Se uma versão antiga muito obtém implantada, o MSI irá disparar uma atualização do aplicativo antes que o usuário seja capaz de usar equipes. 
+Não use o MSI para implantar atualizações, pois o cliente irá atualizar automaticamente quando detecta que uma nova versão é disponibilizada pelo serviço. Para reimplantar o instalador mais recente use o processo de reimplantando MSI descrito abaixo.Se você implantar uma versão mais antiga do pacote do MSI, o cliente será atualizado automaticamente sempre que possível para o usuário. Se uma versão antiga muito obtém implantada, o MSI irá disparar uma atualização do aplicativo antes que o usuário seja capaz de usar equipes. 
 
 > [!Important] 
 > Não recomendamos que você altere os locais de instalação padrão, como isso poderia quebrará o fluxo de atualização. Ter uma versão antiga muito eventualmente bloqueará os usuários acessem o serviço. 
@@ -54,8 +54,8 @@ Não use o MSI para implantar atualizações, pois o cliente irá atualizar auto
 ## <a name="clean-up-and-redeployment-procedure"></a>Limpeza e o procedimento de reimplantação
 Se um usuário desinstala equipes de seu perfil de usuário, o instalador MSI irá controlar que o usuário tiver desinstalado o aplicativo de equipes e não são mais instalar equipes para esse perfil de usuário. Para reimplantar equipes para esse usuário em um computador particular, onde ele foi desinstalado, faça o seguinte:
 
-1. Desinstale o aplicativo de equipes instalado para cada perfil de usuário. 
-2. Após a desinstalação, exclua o diretório recursivamente em % localappdata%\Microsoft\Teams\. 
+1. Desinstale o aplicativo de equipes instalado para cada perfil de usuário. 
+2. Após a desinstalação, exclua o diretório recursivamente em % localappdata%\Microsoft\Teams\. 
 3. Reimplante o pacote MSI nesse computador específico.
 
 > [!TIP] 
@@ -63,9 +63,20 @@ Se um usuário desinstala equipes de seu perfil de usuário, o instalador MSI ir
                     
 ## <a name="disable-auto-launch-for-the-msi-installer"></a>Desabilitar o recurso de início automático para o instalador MSI
 
-Se você deseja desabilitar o recurso de início automático, insira o seguinte prompt de comando:
+Comportamento padrão do MSI é instalar o cliente de equipes, assim que um usuário entrar e iniciar automaticamente o equipes. Você pode modificar esse comportamento com os parâmetros abaixo da seguinte maneira:
 
+- Quando um usuário fizer logon no Windows, equipes serão instaladas com o MSI
+- No entanto, o cliente de equipes não será iniciado até que o usuário tiver iniciado equipes manualmente
+- Um atalho para iniciar as equipes será adicionado na área de trabalho do usuário
+- Uma vez iniciado manualmente, equipes serão inicialização automática sempre que o usuário fizer logon
+
+Para obter a versão de 32 bits
 ```
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
-
+Para obter a versão de 64 bits
+```
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+```
+> [!Note] 
+>  Se você executar o MSI manualmente, certifique-se de executá-lo com permissões elevadas. Mesmo se você executá-lo como um administrador, sem executá-lo com permissões elevadas, o instalador não poderão configurar a opção para desabilitar AutoIniciar.

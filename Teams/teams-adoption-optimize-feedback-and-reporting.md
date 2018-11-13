@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d86183ecb8209da15edd7f97511d6297bd0910c
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215624"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255761"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar comentários e relatório para sua adoção Teams da Microsoft
 
@@ -50,8 +50,8 @@ Prática recomendada: representantes média do seu departamento de suporte inter
 
 Existem três tipos de relatórios que você devem analisar como implantar e adotar Teams da Microsoft:
 
-- Serviço de integridade – do Office 365 e o seu suporte interno de TI departamento.
-- A atividade de serviço do Office 365 exibir relatórios sobre o Microsoft Teams. Você também pode usar informações de outros sistemas dentro da sua organização.
+- [Integridade do serviço](https://status.office365.com/) – do Office 365 e o seu suporte interno de TI departamento.
+- [Atividade do serviço](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) – do Office 365 exibir [relatórios sobre as equipes da Microsoft](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). Você também pode usar informações de outros sistemas dentro da sua organização.
 - Satisfação de serviço – coletadas dos fóruns de comunidade interno e pesquisas em experiências específicas
 
 ![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [unidade divulgação e implementar o treinamento](teams-adoption-drive-awareness.md)
