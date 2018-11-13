@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.'
-ms.openlocfilehash: a7cd9fd3dd3eff7f1c9b0326d45475f95f9a909c
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: b843cf44edf0c566a1c0a8a99a5ba9380d41c306
+ms.sourcegitcommit: 8536a34cb13d40b30f84d95e6df10542ef85c36d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283198"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26292973"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar para o Gerenciador de estatísticas de Skype Business Server
 
@@ -30,15 +30,15 @@ Você pode implantar o Gerenciador de estatísticas em uma implantação no loca
 
 Este tópico inclui as seguintes seções:
 
-- [Recursos e capacidades](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [Recursos e capacidades](plan.md#BKMK_Features)
 
 - [O que há de novo na versão 2.0](plan.md#BKMK_WhatsNew)
 
-- [Componentes](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Componentes](plan.md#BKMK_Components)
 
 - [Implantação no local](plan.md#BKMK_DeploymentOptions)
 
-- [Requisitos](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [Requisitos](plan.md#BKMK_Requirements)
 
 - [Considerações de segurança](plan.md#BKMK_Security)
 
@@ -129,7 +129,7 @@ Você precisará considerar os seguintes requisitos de hardware, software e rede
 
 ### <a name="software-requirements"></a>Requisitos de software
 
-- Windows Server 2012 R2
+- Windows Server 2016 e 2019
 
 - IIS (instalado automaticamente)
 
@@ -182,6 +182,6 @@ Para obter mais informações, consulte:
 
 - [Solucionar problemas de gerente de estatísticas para Skype para Business Server](troubleshoot.md)
 
-- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 

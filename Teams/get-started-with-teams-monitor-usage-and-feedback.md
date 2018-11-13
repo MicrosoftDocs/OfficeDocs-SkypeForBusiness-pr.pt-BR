@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2683c2f116fd37f756cd111f6e3a4cc4639b629
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031674"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26283135"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e comentários no Microsoft Teams
 É importante saber como os usuários utilizem equipes e o que é a sua experiência com equipes. Relatórios de uso podem ajudá-lo a entender os padrões de uso melhor e junto com os comentários do usuário, proporcionam ideias para informar sua distribuição mais larga e onde priorizar os esforços de treinamento e comunicação.
@@ -35,7 +35,7 @@ Relatórios de atividade de equipes no Centro de administração do Office 365 p
 
 Para exibir esses relatórios, você deve ser um administrador global no Office 365, administrador de serviço de equipes ou leitor de relatórios. Vá para o Centro de administração do Office 365, clique em **relatórios** > **uso**. Em **Selecione um relatório**, clique em **Equipes da Microsoft**. A partir daqui, escolha o relatório que você deseja exibir.
 
-- **Relatório de actvity de usuário de equipes**: este relatório mostra os tipos de atividades de comunicação que os usuários entrem em, como quantas pessoas conversar em um canal e quantas pessoas se comunicar por meio de bate-papo privado.  
+- **Relatório de atividades do usuário de equipes**: este relatório mostra os tipos de atividades de comunicação que os usuários entrem em, como quantas pessoas conversar em um canal e quantas pessoas se comunicar por meio de bate-papo privado.  
 
     ![Relatório de atividades do usuário de equipes] (media/get-started-with-teams-user-activity-report.png "Captura de tela do relatório de atividades do usuário equipes, mostrando um gráfico que indica o número de usuários por tipo de atividade, que inclui mensagens de canal, mensagens de chat, chamadas, reuniões. e outros") 
 - **Relatório de uso do dispositivo de equipes**: este relatório mostra como os usuários se conectam à equipes, incluindo como muitas pessoas usam equipes quando em trânsito.

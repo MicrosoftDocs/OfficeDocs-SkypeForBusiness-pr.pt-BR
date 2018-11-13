@@ -3,7 +3,7 @@ title: Unidade de divulgação e implementar treinamento for Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/01/2018
+ms.date: 11/09/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fe5e2cb270efa81b6b773d193d6a48f63c19cc0
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 91468e121e80255249d4f8a3d9676f6c3069a319
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215648"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255713"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Unidade de divulgação e implementar treinamento for Microsoft Teams
 
@@ -65,13 +65,4 @@ Compartilhe ideias para que fazer a partir de seus canais de feedback com o hash
 
 [Saiba mais sobre os relatórios de uso do Microsoft Teams no Centro de administração do Office 365.](teams-activity-reports.md)
 
-## <a name="ongoing-improvements"></a>Aprimoramentos em andamento
-
-Em colaboração com a sua equipe de implementação técnica, planeje armazenar mensalmente avaliações de integridade do serviço for Microsoft Teams. Essas revisões você compartilharão ideias sobre medidas a seguir:
-
-- Uso do serviço – dados de uso do ativo. Podem incluir informações sobre serviços preteridos ou consumo reduzido como resultado de mover para o Microsoft Teams.  Normalmente Administrada pelo Gerenciador de serviços ou proprietário do produto para serviços de colaboração.
-- Serviço de integridade – a qualidade da chamada, integridade, de reunião e integridade de serviço gerais. Revisão de qualquer incidentes de suporte e os níveis de tíquetes de assistência técnica. Discussão sobre tópicos de segurança e controle. Normalmente ministrados por equipes de suporte e proteção de informações. 
-- Mapa do recurso/project – o que é o agendamento de inclusão de funcionário restantes ou projetos de aprimoramento de colaboração ainda mais? Quais recursos adicionais vai para permitir que sua organização? Normalmente Administrada pelo Gerenciador de serviços ou proprietário do produto para serviços de colaboração em colaboração com participantes de negócios. 
-- Divulgação campanha e treinamento sucesso medida atualização – inclui alcançar, participação, temas de comentários de chave e abra problemas. Inclua wins principais e histórias de sucesso.
- 
-Avaliações mensais podem ser bastante formais em grandes organizações ou podem ser reuniões virtuais em empresas menores. É importante compartilhar e monitorar esses dados para garantir uma implementação saudável e cada vez mais vibrante da Microsoft Teams. 
+![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [analisa de integridade do serviço de agendamento](teams-adoption-schedule-service-health-reviews.md)

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumo: Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server.'
-ms.openlocfilehash: 805026cbe04010a83503bb6069bea8522ac62068
-ms.sourcegitcommit: 388f82c36e1c7bddf38298867882d992be989b87
+ms.openlocfilehash: 4d32c10852091d494f59c65648cb370878fc3413
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/12/2018
-ms.locfileid: "26281337"
+ms.locfileid: "26282977"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar o Gerenciador de estatísticas para Skype para Business Server
  
@@ -62,7 +62,7 @@ Para implantar o Gerenciador de estatísticas, siga estas etapas:
   
 ### <a name="prepare-the-listener-host-machine"></a>Preparar o computador host Ouvinte
 
-Para preparar a máquina host, você precisará instalar o sistema de cache de na memória relacionada e verifique se é um certificado válido na máquina. A Microsoft recomenda que você instale a compilação estável mais recente do 3.0 relacionada. Gerenciador de estatísticas versão 1.1 foi testada com relacionada 3.0.501 e relacionada 2.8.2400. 
+Para preparar a máquina host, você precisará instalar o sistema de cache de na memória relacionada e verifique se é um certificado válido na máquina. A Microsoft recomenda que você instale a compilação estável mais recente do 3.0 relacionada. Gerenciador de estatísticas versão 2.0 foi testado com relacionada 3.2.100. 
   
 1. Baixe o relacionada nos seguinte site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     

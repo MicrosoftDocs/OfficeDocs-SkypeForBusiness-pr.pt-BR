@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54f7805e4e6db4416601ea01bcb5fc66e57ead17
-ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "26255650"
+ms.lasthandoff: 11/12/2018
+ms.locfileid: "26282984"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -40,7 +40,7 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 
 Exiba este pequeno vídeo para saber mais sobre as práticas recomendadas para a criação de equipes e canais.
 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/hjJWtoaRJeE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>A associação, funções e configurações
 ------------------------------
@@ -54,7 +54,8 @@ Os proprietários de equipe também podem criar uma equipe baseado em um grupo d
 **Configurações da equipe** os proprietários de equipe podem gerenciar amplas configurações da equipe, diretamente no Microsoft Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais, adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes. 
 
 Siga três minutos, fazer check-out este ir para guia vídeo para proprietários de equipe: 
-<iframe width="640" height="350" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Se você for um administrador do Microsoft Teams no Office 365, você tem acesso às configurações de todo o sistema no equipes & Skype para Business Admin Center. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode habilitar um canal padrão, “Geral”, para anúncios, discussões e recursos de toda a equipe. Esse canal aparecerá para todas as equipes.
 
@@ -68,7 +69,6 @@ Uma das principais atividades de planejamento precoce para envolver os usuários
 Seguem abaixo alguns exemplos funcionais de como diferentes tipos de usuários podem abordar a configuração de suas equipes, canais e aplicativos (guias/conectores/bots); isso pode ser útil para ajudar a iniciar uma conversa sobre o Microsoft Teams com a sua comunidade de usuários. Enquanto você pensa sobre como implementar o Microsoft Teams na sua organização, lembre-se de que você pode fornecer orientações de como estruturar suas equipes, apesar de os usuários terem controle de como podem se organizar sozinhos. São apenas exemplos para ajudar as equipes a começar a pensar nas possibilidades.
 
 O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equipes multifuncionais, de modo a incentivar seus usuários a pensar em equipes funcionais, e não em silos organizacionais.
-
 
 |Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Ícone de Guias.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Ícone de Conectores.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Ícone de Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|

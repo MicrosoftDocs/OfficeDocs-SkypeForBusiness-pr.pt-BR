@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Os clientes podem usar o Plano de Chamadas Office 365 e a Audioconferência Office 365, conforme permitido nos Termos de Uso de Serviços PSTN do Skype for Business Online e no contrato de licenciamento por volume do Cliente.
-ms.openlocfilehash: 928afed68d8fa6bb6b8ae3a642c64c09e748ae06
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.openlocfilehash: f7e54c64d06b012790c630499ec31d7b2acac02a
+ms.sourcegitcommit: 853760e8d926fed7176c23754197442ccd860e6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283151"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26285913"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -38,7 +38,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
   
 ### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem complementar
 
-Como um benefício adicional aos clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo um benefício adicional de complementar relacionado ao discar a partir de reuniões organizadas por usuários atribuídos a uma assinatura de conferência de áudio do Office 365 licença por meio de junho de 2019. Durante esse período complementar, Microsoft permite que os organizadores de reunião ou participantes autorizados conforme definido em configurações de política, para fazer chamadas de discagem de dentro da reunião para números de telefone não sejam premium nos países "Uma zona" 44 listados abaixo de reunião. Esse benefício é aplicável a licenças de assinatura mensais de conferência de áudio e não se estende para licenças de pagamento por minuto de conferência de áudio.
+Como um benefício adicional para os clientes a adotar o nosso serviço de conferência de áudio do Office 365, a Microsoft está fornecendo um benefício adicional de complementar relacionado ao discar a partir de reuniões organizadas por usuários atribuídos a uma assinatura de conferência de áudio do Office 365 licença por meio de junho de 2019. Durante esse período complementar, Microsoft permite que os organizadores de reunião ou participantes autorizados conforme definido em configurações de política, para fazer chamadas de discagem de dentro da reunião para números de telefone não sejam premium nos países "Uma zona" 44 listados abaixo de reunião. Esse benefício é aplicável a licenças de assinatura mensais de conferência de áudio e não se estende para licenças de pagamento por minuto de conferência de áudio.
 
 Além disso, há um limite de 900 cobrir minuto durante as como tal, o período de discagem complementar:
 
@@ -48,7 +48,8 @@ Usuários com um local de uso de licença (isto é o local de país do usuário 
 - Todas as chamadas excedendo os 103,500 minutos por mês do calendário são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino. (Observação: locatário Configure créditos de comunicações e atribuir a licença créditos de comunicação para o organizador da reunião).
 - Todas as chamadas de saída para destinos não estejam na lista zona A país são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino (fornecida locatário tiver configurar créditos de comunicações e atribuiu a licença créditos de comunicação a organizador da reunião).
 
-Observação: Você pode monitorar o uso em relação a discagem de pool minuto no Skype para o Centro de administração de negócios do Centro de administração de equipes/Skype > herdada Admin Center > Relatórios > PSTN minuto Pools.  Neste minuto complementar pool será rotulada no relatório como "Saída chamadas para zona uma países".
+> [!NOTE]
+> Você pode monitorar o uso contra pool minuto de discagem no Skype para Business Admin Center. No Centro de administração do Skype & Teams da Microsoft, vá para o **portal herdada** > **relatórios** > **PSTN minuto Pools**. Neste minuto complementar pool será rotulada no relatório como "Chamadas de saída para países de uma zona."
 
 Notificações por email serão enviadas para todos os administradores de Inquilino de um determinado cliente quando a utilização do pool de minutos de discagem de locatário atingiu 80% e 100%.
 

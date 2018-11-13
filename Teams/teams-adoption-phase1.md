@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba79f52984b243aa0a10c425f5c5741119daf50
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.openlocfilehash: 239a90c295035da629b74711a41f7cec59f4c0a9
+ms.sourcegitcommit: c43d0b663ba50d2c85af98a12075ebd6c3d80ed3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26215659"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "26255714"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase de adoção de Teams da Microsoft 1 - iniciar
 
@@ -66,6 +66,5 @@ Na maioria dos casos, essa equipe inicial deve ser um pequeno grupo de pessoas c
 - [Comunidade do Microsoft equipes técnica](https://aka.ms/TeamsCommunity) – Obtenha perguntas de produto, aprenderem com outros clientes de equipes e siga nosso blog para manter-se atualizado sobre novos recursos e casos de uso para equipes. 
 - [Programa de campeões do Office 365](https://aka.ms/O365Champions) e da comunidade de dirigir adoção – saiba de seus colegas sobre como melhor incentivar a adoção das cargas de trabalho do Office 365, como equipes, SharePoint, Yammer e outros produtos. Abra para profissionais de TI, os usuários corporativos, os desenvolvedores "acidentais", e qualquer pessoa interessada em orientando a adoção dos serviços de nuvem.  
 
-[Aprendizado personalizado para o Office 365](https://aka.ms/CLO365) inclui um modelo SharePoint Online e a Web Part personalizada que você pode usar para criar um portal de treinamento para sua organização. Isso gratuito, abra permite de solução de origem você transmitir Microsoft valiosos recursos de treinamento diretamente em seu Office 365 de inquilinos. Você pode personalizá-lo para os serviços que você está usando e adicionar conteúdo de treinamento adicional para a experiência do site. Se você já tiver um portal de treinamento do SharePoint Online, você pode baixar apenas a Web Part para instalar diretamente no site da sua empresa e configurá-lo com base nos seus requisitos de implementação.  
 
 ![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [canais e Noções básicas sobre equipes](teams-adoption-understand-teams-and-channels.md)
