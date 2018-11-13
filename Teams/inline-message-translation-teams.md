@@ -3,7 +3,7 @@ title: Usar tradução de mensagem embutida no Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/30/2018
+ms.date: 08/16/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,33 +16,33 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afc1d0374333fdbb0bec9246d04224c6a82f032
-ms.sourcegitcommit: afc415ad4d0c2ed013eaf5f68a72418e66734ff0
+ms.openlocfilehash: 9097e7421bb65b1a9ce0900df097080a6cfc2023
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25898115"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26296392"
 ---
-<a name="use-inline-message-translation-in-microsoft-teams"></a><span data-ttu-id="3359a-103">Usar tradução de mensagem embutida no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3359a-103">Use inline message translation in Microsoft Teams</span></span> 
+<a name="use-inline-message-translation-in-microsoft-teams"></a><span data-ttu-id="026b1-103">Usar tradução de mensagem embutida no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="026b1-103">Use inline message translation in Microsoft Teams</span></span> 
 =================================================
 
-<span data-ttu-id="3359a-104">A tradução de mensagem embutida é um novo recurso do Microsoft Teams que permite aos usuários traduzir automaticamente as mensagens do Teams para o [idioma](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) especificado nas configurações pessoais de idioma para o Office 365.</span><span class="sxs-lookup"><span data-stu-id="3359a-104">Inline message translation is a new Microsoft Teams feature that lets users automatically translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings for Office 365.</span></span>
+<span data-ttu-id="026b1-104">A tradução de mensagem embutida é um novo recurso do Microsoft Teams que permite aos usuários traduzir automaticamente as mensagens do Teams para o [idioma](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) especificado nas configurações pessoais de idioma para o Office 365.</span><span class="sxs-lookup"><span data-stu-id="026b1-104">Inline message translation is a new Microsoft Teams feature that lets users automatically translate Teams messages into the [language](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) specified by their personal language settings for Office 365.</span></span>
 
-<span data-ttu-id="3359a-105">A tradução de mensagem embutida está sendo lançada por padrão para sua organização.</span><span class="sxs-lookup"><span data-stu-id="3359a-105">Inline message translation is being rolled out by default for your organization.</span></span> <span data-ttu-id="3359a-106">Se você quiser permitir que usuários usem esse recurso no cliente equipes, você deve ativar essa configuração.</span><span class="sxs-lookup"><span data-stu-id="3359a-106">If you want to allow users to use this feature within the Teams client, you must turn this setting on.</span></span>
-
-> [!NOTE]
-><span data-ttu-id="3359a-107">Essa distribuição é excluída da assinaturas do Office 365 em nossos ambientes de nuvem de comunidade do Office 365 governamental e Alemanha do Office 365.</span><span class="sxs-lookup"><span data-stu-id="3359a-107">This rollout is excluded from Office 365 subscriptions in our Office 365 Government Community Cloud and Office 365 Germany environments.</span></span>
-
-## <a name="enable-by-using-powershell"></a><span data-ttu-id="3359a-108">Habilitar usando PowerShell</span><span class="sxs-lookup"><span data-stu-id="3359a-108">Enable by using PowerShell</span></span>
-
-<span data-ttu-id="3359a-109">Você pode ativar o recurso de conversão de mensagem embutida usando a diretiva de mensagens.</span><span class="sxs-lookup"><span data-stu-id="3359a-109">You can turn on the inline message translation feature by using the Messaging Policy.</span></span>
-
-1. <span data-ttu-id="3359a-110">Ative a política usando o cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .</span><span class="sxs-lookup"><span data-stu-id="3359a-110">Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.</span></span>
-2. <span data-ttu-id="3359a-111">A política leva alguns minutos para aplicar.</span><span class="sxs-lookup"><span data-stu-id="3359a-111">The policy takes a few minutes to apply.</span></span> <span data-ttu-id="3359a-112">Os usuários talvez seja necessário sair e entrar novamente para equipes.</span><span class="sxs-lookup"><span data-stu-id="3359a-112">Users might need to sign out and sign back in to Teams.</span></span>
-
-## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a><span data-ttu-id="3359a-113">Habilitar usando o Microsoft Teams & Skype para Business Admin Center</span><span class="sxs-lookup"><span data-stu-id="3359a-113">Enable by using the Microsoft Teams & Skype for Business Admin Center</span></span>
-
-<span data-ttu-id="3359a-114">No **Microsoft equipes & Skype para Business Admin Center**, selecione **Messaging Policies** na barra de ferramentas esquerda, em seguida, tanto criar uma nova política ou editar uma política existente e definir a opção de **Permitir que os usuários para traduzir mensagens** de \*\*em \*\*.</span><span class="sxs-lookup"><span data-stu-id="3359a-114">In the **Microsoft Teams & Skype for Business Admin Center**, select **Messaging Policies** from the left-hand bar, then either create a new policy or edit an existing policy, and set the **Allow users to translate messages** option to **On**.</span></span>
+<span data-ttu-id="026b1-105">A tradução de mensagem embutida está sendo lançada por padrão para sua organização.</span><span class="sxs-lookup"><span data-stu-id="026b1-105">Inline message translation is being rolled out by default for your organization.</span></span> <span data-ttu-id="026b1-106">Se desejar permitir que os usuários usem esse recurso no cliente do Teams, será necessário ativar essa configuração usando o PowerShell.</span><span class="sxs-lookup"><span data-stu-id="026b1-106">If you want to allow users to use this feature within the Teams client, you must turn this setting on by using PowerShell.</span></span> <span data-ttu-id="026b1-107">No momento, essa opção não está disponível no Microsoft Teams nem no Skype for Business Admin Center, mas estará em breve.</span><span class="sxs-lookup"><span data-stu-id="026b1-107">Currently, this option is not available in the Microsoft Teams and Skype for Business Admin Center, but will be soon.</span></span>
 
 > [!NOTE]
-><span data-ttu-id="3359a-115">Conversão é feita pelo serviço e entregue ao cliente com nenhum efeito sobre o conteúdo capturado nos registros de conformidade.</span><span class="sxs-lookup"><span data-stu-id="3359a-115">Translation is done by the service and delivered to the client with no effect on the content captured in the compliance records.</span></span> <span data-ttu-id="3359a-116">Para saber mais sobre a conversão, consulte [o que é o Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span><span class="sxs-lookup"><span data-stu-id="3359a-116">To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span></span>
+><span data-ttu-id="026b1-108">Esse lançamento está excluído das assinaturas do Office 365 em nossos ambientes Office 365 Government Community Cloud e Office 365 Germany.</span><span class="sxs-lookup"><span data-stu-id="026b1-108">This rollout is excluded from Office 365 subscriptions in our Office 365 Government Community Cloud and Office 365 Germany environments.</span></span> 
+
+## <a name="enable-by-using-powershell"></a><span data-ttu-id="026b1-109">Habilitar usando o PowerShell</span><span class="sxs-lookup"><span data-stu-id="026b1-109">Enable by using PowerShell</span></span>
+
+<span data-ttu-id="026b1-110">É possível ativar o recurso de tradução de mensagem embutida usando a Diretiva de Mensagens.</span><span class="sxs-lookup"><span data-stu-id="026b1-110">You can turn on the inline message translation feature by using the Messaging Policy.</span></span> 
+
+1. <span data-ttu-id="026b1-111">Ative a política usando o cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="026b1-111">Turn on the policy by using the [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) cmdlet.</span></span>
+2. <span data-ttu-id="026b1-112">A política leva alguns minutos para ser aplicada.</span><span class="sxs-lookup"><span data-stu-id="026b1-112">The policy takes a few minutes to apply.</span></span> <span data-ttu-id="026b1-113">Os usuários podem precisar sair e fazer login novamente no Teams.</span><span class="sxs-lookup"><span data-stu-id="026b1-113">Users might need to sign out and sign back in to Teams.</span></span>
+
+## <a name="enable-by-using-the-teams-admin-center"></a><span data-ttu-id="026b1-114">Ativar usando o Centro de administração do Teams</span><span class="sxs-lookup"><span data-stu-id="026b1-114">Enable by using the Teams Admin Center</span></span>
+
+<span data-ttu-id="026b1-115">A opção para ativar o recurso de tradução de mensagem embutida usando o Centro de administração do Teams estará disponível em breve.</span><span class="sxs-lookup"><span data-stu-id="026b1-115">The option to turn on the inline message translation feature by using the Teams Admin Center is coming soon.</span></span>
+
+> [!NOTE]
+><span data-ttu-id="026b1-116">A tradução ocorre estritamente no lado do cliente e não tem nenhum efeito no conteúdo capturado nos registros de conformidade.</span><span class="sxs-lookup"><span data-stu-id="026b1-116">Translation is strictly client-side and has no effect on the content captured in the compliance records.</span></span> <span data-ttu-id="026b1-117">Para saber mais sobre a tradução, consulte [O que é o Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span><span class="sxs-lookup"><span data-stu-id="026b1-117">To learn more about translation, see [What is Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).</span></span>

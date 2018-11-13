@@ -3,7 +3,7 @@ title: Usar guias internas e personalizadas no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,47 +12,49 @@ search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afdf57e4b1a37cf5cc1e1de1f4c2c86f478baf79
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016369"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26294671"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="a472d-103">Usar guias internas e personalizadas no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a472d-103">Use built-in and custom tabs in Microsoft Teams</span></span>
+<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a><span data-ttu-id="4b86e-103">Usar guias internas e personalizadas no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="4b86e-103">Use built-in and custom tabs in Microsoft Teams</span></span>
 ==================================================
 
-<span data-ttu-id="a472d-104">As guias permitem que os membros da equipe acessem serviços em uma tela exclusiva dentro de um canal.</span><span class="sxs-lookup"><span data-stu-id="a472d-104">Tabs allow team members to access services on a dedicated canvas within a channel.</span></span> <span data-ttu-id="a472d-105">Isso permite que a equipe trabalhe diretamente com as ferramentas e os dados que você forneceu e tenha conversas sobre eles no contexto do canal.</span><span class="sxs-lookup"><span data-stu-id="a472d-105">This lets the team work directly with the tools and data you provide, and to have conversations about them, in the channel’s context.</span></span> <span data-ttu-id="a472d-106">Com cada novo canal, duas guias são provisionadas por padrão, conforme listado e mostrado na imagem abaixo:</span><span class="sxs-lookup"><span data-stu-id="a472d-106">With every new channel, two tabs are provisioned by default, as listed and shown in the image, below:</span></span>
+<span data-ttu-id="4b86e-104">Guias permitem que os membros da equipe acessar os serviços em uma tela dedicado dentro de um canal ou em um bate-papo.</span><span class="sxs-lookup"><span data-stu-id="4b86e-104">Tabs allow team members to access services on a dedicated canvas within a channel or in a chat.</span></span> <span data-ttu-id="4b86e-105">Isso permite que a equipe trabalhe diretamente com ferramentas e dados e participar de conversas sobre cada um no contexto do canal ou bate-papo.</span><span class="sxs-lookup"><span data-stu-id="4b86e-105">This lets the team work directly with tools and data and have conversations about them in the context of the channel or chat.</span></span> 
 
--   <span data-ttu-id="a472d-107">Conversas</span><span class="sxs-lookup"><span data-stu-id="a472d-107">Conversations</span></span>
+<span data-ttu-id="4b86e-106">Proprietários e membros da equipe podem adicionar guias um canal, bate-papo privado e chat de grupo para ajudar a integrar seus serviços de nuvem.</span><span class="sxs-lookup"><span data-stu-id="4b86e-106">Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services.</span></span> <span data-ttu-id="4b86e-107">Guias que podem ser adicionadas para ajudar os usuários facilmente acessar e gerenciar os dados que precisam ou interagem com o máximo.</span><span class="sxs-lookup"><span data-stu-id="4b86e-107">Tabs can be added to help users easily access and manage the data they need or interact with the most.</span></span> <span data-ttu-id="4b86e-108">Isso pode ser um relatório Power BI, um painel ou mesmo uma [Transmissão Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) de um canal de vídeo em que você publica vídeos de treinamento.</span><span class="sxs-lookup"><span data-stu-id="4b86e-108">This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
 
--   <span data-ttu-id="a472d-108">Arquivos</span><span class="sxs-lookup"><span data-stu-id="a472d-108">Files</span></span>
+![Três capturas de tela de vários conteúdos na guia.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
-![Captura de tela da seção de Conversas da equipe de Marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+## <a name="work-with-tabs"></a><span data-ttu-id="4b86e-110">Trabalhar com guias</span><span class="sxs-lookup"><span data-stu-id="4b86e-110">Work with tabs</span></span>
 
-1.  <span data-ttu-id="a472d-110">Os proprietários e membros da equipe podem incluir novas guias em cada canal para ajudar a integrar seus serviços em nuvem.</span><span class="sxs-lookup"><span data-stu-id="a472d-110">Owners and team members can add additional tabs, to each channel, to help integrate their cloud services.</span></span>
+- <span data-ttu-id="4b86e-111">Com cada novo canal, duas guias são provisionados por padrão, conversas e arquivos.</span><span class="sxs-lookup"><span data-stu-id="4b86e-111">With every new channel, two tabs are provisioned by default, Conversations and Files.</span></span> 
 
-2.  <span data-ttu-id="a472d-111">Os arquivos Excel, PowerPoint, Word e PDF podem ser carregados para a **guia Arquivos** antes de serem convertidos em guias.</span><span class="sxs-lookup"><span data-stu-id="a472d-111">Excel, PowerPoint, Word and PDF files must be uploaded to the **Files tab** before they can be converted to tabs.</span></span> <span data-ttu-id="a472d-112">Como alternativa, todos os arquivos carregados existentes podem ser convertidos em guias com um só clique, conforme mostrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="a472d-112">Alternatively, any existing uploaded, files can be converted into tabs with a single click, as shown below.</span></span>
+    ![Captura de tela da seção de Conversas da equipe de Marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+- <span data-ttu-id="4b86e-113">Com cada bate-papo privado, quatro guias são provisionados por padrão, conversas, arquivos, organização e atividade.</span><span class="sxs-lookup"><span data-stu-id="4b86e-113">With every private chat, four tabs are provisioned by default, Conversations, Files, Organization, and Activity.</span></span>
+
+    ![Captura de tela das guias em um bate-papo.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+
+- <span data-ttu-id="4b86e-115">Proprietários e membros da equipe podem adicionar mais guias a um canal ou bate-papo, clicando em **Adicionar uma guia** ![captura de tela de adicionar um botão de guia, mostrando um sinal de +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)</span><span class="sxs-lookup"><span data-stu-id="4b86e-115">Owners and team members can add more tabs to a channel or chat by clicking **Add a tab** ![Screenshot of the Add a tab button, showing a + sign.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png)</span></span> <span data-ttu-id="4b86e-116">na parte superior do canal ou bate-papo.</span><span class="sxs-lookup"><span data-stu-id="4b86e-116">at the top of the channel or chat.</span></span>
+
+- <span data-ttu-id="4b86e-117">Arquivos do Excel, PowerPoint, Word e PDF devem ser carregados na guia **arquivos** antes que eles podem ser convertidos em guias.</span><span class="sxs-lookup"><span data-stu-id="4b86e-117">Excel, PowerPoint, Word, and PDF files must be uploaded to the **Files** tab before they can be converted to tabs.</span></span> <span data-ttu-id="4b86e-118">Como alternativa, qualquer arquivo carregado existente pode ser convertido em uma guia com um único clique, conforme mostrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="4b86e-118">Alternatively, any existing uploaded file can be converted to a tab with a single click, as shown below.</span></span>
 
     ![Captura de tela da guia Arquivos com um arquivo PowerPoint selecionado.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-3.  <span data-ttu-id="a472d-114">Para incluir um site, a URL precisa começar com o **prefixo https** para que todas as informações trocadas permaneçam protegidas.</span><span class="sxs-lookup"><span data-stu-id="a472d-114">To add a website, the URL must start with an **https prefix,** so that any information exchanged remains secure.</span></span>
+- <span data-ttu-id="4b86e-120">Para adicionar um site, a URL deve começar com um prefixo **https** para que informações que são trocadas permaneçam seguras.</span><span class="sxs-lookup"><span data-stu-id="4b86e-120">To add a website, the URL must start with an **https** prefix so information that's exchanged remains secure.</span></span>
 
-4.  <span data-ttu-id="a472d-115">Serão fornecidas instruções detalhadas quando um membro da equipe tentar adicionar uma guia personalizada em seu canal.</span><span class="sxs-lookup"><span data-stu-id="a472d-115">Detailed instructions are provided when a team member attempts to add a custom tab into their channel.</span></span>
-
-5.  <span data-ttu-id="a472d-116">Quando uma guia personalizada é adicionada em um canal, é criada uma **guia de conversa**, que permite que os membros da equipe tenham uma discussão focada sobre o conteúdo.</span><span class="sxs-lookup"><span data-stu-id="a472d-116">When a Custom tab is added into a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
+- <span data-ttu-id="4b86e-121">Quando um membro da equipe tenta adicionar uma guia personalizada ao seu canal ou bate-papo, são fornecidas instruções detalhadas.</span><span class="sxs-lookup"><span data-stu-id="4b86e-121">Detailed instructions are provided when a team member tries to add a custom tab to their channel or chat.</span></span> <span data-ttu-id="4b86e-122">Quando uma guia personalizada é adicionada a um canal, uma **conversa de guia** é criada que permite que os membros da equipe têm focados as discussões sobre o conteúdo.</span><span class="sxs-lookup"><span data-stu-id="4b86e-122">When a custom tab is added to a channel, a **Tab conversation** is created that allows team members to have focused discussions about the content.</span></span>
 
     ![Captura de tela de uma guia personalizada com uma conversa na guia do lado direito da janela.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
-6.  <span data-ttu-id="a472d-118">Guias adicionais podem ser adicionadas aos canais para ajudar os usuários a acessar e gerenciar sem dificuldades os dados de que precisam ou interagem mais.</span><span class="sxs-lookup"><span data-stu-id="a472d-118">Additional tabs can be added to channels to help users easily access and manage the data they need or interact with the most.</span></span> <span data-ttu-id="a472d-119">Isso pode ser um relatório Power BI, um painel ou mesmo uma [Transmissão Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) de um canal de vídeo em que você publica vídeos de treinamento.</span><span class="sxs-lookup"><span data-stu-id="a472d-119">This can be a Power BI report, a dashboard, or even a [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) video channel where you publish training videos.</span></span>
+## <a name="develop-custom-tabs"></a><span data-ttu-id="4b86e-124">Desenvolvimento de guias personalizadas</span><span class="sxs-lookup"><span data-stu-id="4b86e-124">Develop custom tabs</span></span>
 
-    ![Três capturas de tela de vários conteúdos na guia.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+<span data-ttu-id="4b86e-125">Além das guias internas, você pode criar e desenvolver seus próprios guias para integrar a equipes ou compartilhar com o restante da comunidade.</span><span class="sxs-lookup"><span data-stu-id="4b86e-125">In addition to the built-in tabs, you can design and develop your own tabs to integrate to Teams or share with the rest of the community.</span></span>
 
-<a name="develop-custom-tabs"></a><span data-ttu-id="a472d-121">Desenvolvimento de guias personalizadas</span><span class="sxs-lookup"><span data-stu-id="a472d-121">Develop custom tabs</span></span>
--------------------
-
-<span data-ttu-id="a472d-122">Além das guias internas, as organizações podem facilmente projetar e desenvolver suas próprias guias, que podem ser integradas ao Microsoft Teams ou compartilhadas com o restante da comunidade.</span><span class="sxs-lookup"><span data-stu-id="a472d-122">In addition to the built-in tabs, organizations can easily design and develop their own tabs, that can be integrated into Microsoft Teams, or shared with the rest of the community.</span></span>
-
-<span data-ttu-id="a472d-123">A Microsoft Developer Network oferece [instruções detalhadas](https://go.microsoft.com/fwlink/?linkid=855786) para projetar e construir suas próprias guias, bem como baixar e implantar [guias de exemplo](https://go.microsoft.com/fwlink/?linkid=855787) desenvolvidas pela Microsoft.</span><span class="sxs-lookup"><span data-stu-id="a472d-123">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs; and download and deploy [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft.</span></span>
+<span data-ttu-id="4b86e-126">Microsoft Developer Network fornece [instruções detalhadas](https://go.microsoft.com/fwlink/?linkid=855786) para projetar e criar seus próprios guias e os [guias de exemplo](https://go.microsoft.com/fwlink/?linkid=855787) desenvolvido pela Microsoft que podem ser baixados.</span><span class="sxs-lookup"><span data-stu-id="4b86e-126">The Microsoft Developer Network provides [detailed instructions](https://go.microsoft.com/fwlink/?linkid=855786) to design and build your own tabs and [sample tabs](https://go.microsoft.com/fwlink/?linkid=855787) developed by Microsoft that you can download.</span></span>
 
 ![Captura de tela de um exemplo de guia personalizada no Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+
+---

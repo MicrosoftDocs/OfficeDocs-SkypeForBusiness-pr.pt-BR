@@ -4,11 +4,11 @@ hide_bc: true
 title: Skype for Business
 description: Skype for Business
 ms.openlocfilehash: cbb9765c358047b628be45759e2002cdc5a46f02
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
-ms.translationtype: HT
+ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546661"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "26293643"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -51,7 +51,7 @@ ms.locfileid: "25546661"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Soluções híbridas</h3>
-                                                    <p>Encontre informações sobre como planejar uma implantação híbrida do Skype for Business.</p>
+                                                    <p>Encontre informações sobre como planejar uma Skype para implantação híbrida do Business.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ ms.locfileid: "25546661"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Jornada de migração do Skype for Business para o Microsoft Teams</h3>
-                                                    <p>Encontre diretrizes e ferramentas para explorar o seu caminho ideal para o Teams.</p>
+                                                    <p>Encontre orientações e ferramentas para explorar seu caminho ideal para equipes.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,8 +143,8 @@ ms.locfileid: "25546661"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Sistemas de Salas Skype versão 2</h3>
-                                                    <p>Aprenda a planejar, implantar e gerenciar Sistemas de salas do Skype v2.</p>
+                                                    <h3>Skype Room Systems versão 2</h3>
+                                                    <p>Saiba como planejar, implantar e gerenciar os Sistemas de Salas Skype v2.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -180,7 +180,7 @@ ms.locfileid: "25546661"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Usuários finais</h3>
-                                                    <p>Encontre ajuda, treinamento e suporte técnico para usuários do Skype for Business em <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <p>Encontre ajuda, treinamento e suporte técnico para Skype para usuários de negócios em <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
