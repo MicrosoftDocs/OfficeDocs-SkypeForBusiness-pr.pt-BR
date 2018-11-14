@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
-ms.sourcegitcommit: 8a6bf02958436fcdeed336f09079bd3827e2fccb
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2018
-ms.locfileid: "26283135"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519588"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e comentários no Microsoft Teams
 É importante saber como os usuários utilizem equipes e o que é a sua experiência com equipes. Relatórios de uso podem ajudá-lo a entender os padrões de uso melhor e junto com os comentários do usuário, proporcionam ideias para informar sua distribuição mais larga e onde priorizar os esforços de treinamento e comunicação.

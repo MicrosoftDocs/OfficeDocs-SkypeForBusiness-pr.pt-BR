@@ -14,11 +14,11 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 496d5f941f245d513aefbf165e37c33d9e431780
-ms.sourcegitcommit: 27cd6d540485d5a1557a6131612894ca2f3516ee
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26031676"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26519615"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Criar seu primeiro equipes e canais no Microsoft Teams
 
