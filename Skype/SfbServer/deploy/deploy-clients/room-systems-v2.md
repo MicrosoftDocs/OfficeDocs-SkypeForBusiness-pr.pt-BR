@@ -1,7 +1,7 @@
 ---
 title: Implantar o Skype Room Systems versão 2
-ms.author: jambirk
-author: jambirk
+ms.author: Turgayo
+author: Turgayo
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar sistemas de sala Skype v2.
-ms.openlocfilehash: dac4929338ded6fdb3b7af1dadfb3b1ce5675b97
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699627"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510642"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -128,7 +128,7 @@ Cada dispositivo v2 de sistemas de sala Skype requer uma conta de recurso dedica
 
 **Dica pro** – tornar a exibição nomes para essas contas descritivo e fácil de entender. Estes são os nomes que os usuários verão quando pesquisando e adicionando sistemas do Skype sala sistemas v2 para reuniões. Algumas organizações usam a convenção de *Site*-o*Nome da sala*(*Capacidade máxima de sala*)-RS, então, por exemplo, Curie — uma sala de conferência de 12-pessoa em Londres — podem ter o nome de exibição LON-CURIE (12)-RS. 
 
-Se sua organização tiver várias salas de conferências que exigem vários, contas provisionadas, convém usar [Scripts de provisionamento de contas do Skype sala sistemas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para em massa-provisão várias contas de serviço de forma automática. 
+<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
 
 
 |    |     |

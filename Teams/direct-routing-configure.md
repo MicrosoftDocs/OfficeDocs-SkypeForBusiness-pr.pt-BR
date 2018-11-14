@@ -15,14 +15,17 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 7e587c92e979c7985ccbd9f05bbb5ae1115d176a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 994d9d25c41f5f403873a0069564f675e0020d61
+ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374646"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "26510664"
 ---
 # <a name="configure-direct-routing"></a>Configurar o roteamento direto
+
+> [!Tip]
+> Assista a sessão de seguir para saber mais sobre os benefícios do direto, roteamento, como planejar para ele e como implantá-la: [Roteamento direta em equipes da Microsoft](https://aka.ms/teams-direct-routing)
 
 Se você não tiver feito isso, leia [Planejar roteamento direto](direct-routing-plan.md) para os pré-requisitos e para examinar outras etapas você precisará executar antes de configurar sua rede Microsoft Phone System. 
 
@@ -104,14 +107,14 @@ A tabela a seguir lista os parâmetros adicionais que você pode usar a configur
 |Necessário?|Nome|Descrição|Padrão|Valores possíveis|Tipo e restrições|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Sim|FQDN|O nome do FQDN do SBC |Nenhum|Nome de NoneFQDN, limitar 63 caracteres|Cadeia de caracteres, lista de caracteres permitidos e não permitidos nas [convenções de nomenclatura no Active Directory para computadores, domínios, sites e OUs](https://support.microsoft.com/help/909264)|
-|Não|MediaBypass |O parâmetro reservado para uso futuro. Parâmetro indicado do SBC suporta Bypass de mídia e o administrador deseja usá-lo.|Nenhum|Verdadeiro<br/>Falso|Booliano|
+|Não|MediaBypass |O parâmetro reservado para uso futuro. Parâmetro indicado do SBC suporta Bypass de mídia e o administrador deseja usá-lo.|Nenhum|True<br/>False|Booliano|
 |Sim|SipSignallingPort |Porta de escuta usada para comunicação com os serviços de roteamento direta usando o protocolo de segurança de camada de transporte (TLS).|Nenhum|Qualquer porta|0 a 65.535 |
-|Não|FailoverTimeSeconds |Quando definido como 10 (valor padrão), chamadas de saída que não for atendidas pelo gateway dentro de 10 segundos são roteadas para o próximo tronco disponível; Se não houver nenhuma troncos adicionais, a chamada será interrompida automaticamente. Em uma organização com respostas de redes e gateway lentas, isso pode resultar em chamadas sendo derrubadas desnecessariamente. O valor padrão é 10.|10|Número|Int|
-|Não|ForwardCallHistory |Indica se as informações do histórico de chamada serão encaminhadas por meio do tronco. Se for habilitada, o Proxy do Office 365 PSTN envia dois cabeçalhos: histórico-info e mencionados por. O valor padrão é **False** ($False). |Falso|Verdadeiro<br/>Falso|Booliano|
-|Não|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O cabeçalho PAI oferece uma forma de verificar a identidade do chamador. O valor padrão é **False** ($False).|Falso|Verdadeiro<br/>Falso|Booliano|
-|Não|SendSIPOptions |Define se um SBC será ou não enviará as opções de SIP. Se desabilitada, o SBC será excluído do sistema de monitoramento e alerta. É altamente recomendável que você habilite as opções de SIP. Valor padrão é **True**. |True|True<br/>Falso|Booliano|
+|Não|FailoverTimeSeconds |Quando definido como 10 (valor padrão), chamadas de saída que não for atendidas pelo gateway dentro de 10 segundos são roteadas para o próximo tronco disponível; Se não houver nenhuma troncos adicionais, a chamada será interrompida automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente. O valor padrão é 10.| 10|Número|Int|
+|Não|ForwardCallHistory |Indica se as informações do histórico de chamada serão encaminhadas por meio do tronco. Se for habilitada, o Proxy do Office 365 PSTN envia dois cabeçalhos: histórico-info e mencionados por. O valor padrão é **False** ($False). |False|True<br/>False|Booliano|
+|Não|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador. O valor padrão é **False** ($False).|False|True<br/>False|Booliano|
+|Não|SendSIPOptions |Define se um SBC será ou não enviará as opções de SIP. Se desabilitada, o SBC será excluído do sistema de monitoramento e alerta. É altamente recomendável que você habilite as opções de SIP. Valor padrão é **True**. |True|True<br/>False|Booliano|
 |Não|MaxConcurrentSessions |Usada pelo sistema de alertas. Quando nenhum valor for definido, o sistema de alertas irá gerar um alerta ao administrador do locatário quando o número de sessão simultânea é 90% ou maior do que esse valor. Se o parâmetro não for definido, os alertas não serão gerados. No entanto, o sistema de monitoramento irá relatar o número de sessão simultânea a cada 24 horas. |NULL|NULL<br/>1 a 100.000 ||
-|Não|Habilitado *|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ela está sendo atualizada ou durante a manutenção. |Falso|Verdadeiro<br/>Falso|Booliano|
+|Não|Habilitado *|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ela está sendo atualizada ou durante a manutenção. |False|True<br/>False|Booliano|
  
 ### <a name="verify-the-sbc-pairing"></a>Verifique se o emparelhamento de SBC 
 
