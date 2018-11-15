@@ -3,24 +3,23 @@ title: Obter ancestrais do Item
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 'Resumo: Saiba mais sobre a operação obter ancestrais do Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 872af4deb7f6cf7ad1d519b41b7e2405121b1eea
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumo: Saiba mais sobre a operação obter ancestrais do Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
+ms.openlocfilehash: e9e23c32aada4c609f9deb43004385b389a533bf
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294419"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532588"
 ---
 # <a name="get-item-ancestors"></a>Obter ancestrais do Item
  
-**Resumo:** Saiba mais sobre a operação obter ancestrais do Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre a operação obter ancestrais do Item, que é parte do serviço do Item. O serviço de Item é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 A operação obter ancestrais do Item é parte do serviço do Item na API repositório para o painel de controle de qualidade de chamada.
   

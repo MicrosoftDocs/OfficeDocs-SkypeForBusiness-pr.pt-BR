@@ -3,24 +3,23 @@ title: Serviço de configurações de usuário para o painel de controle de qual
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
-description: 'Resumo: Saiba mais sobre o serviço de configurações de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 9e72d051699269b404d72e77ca00923b8ca240a3
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumo: Saiba mais sobre o serviço de configurações de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
+ms.openlocfilehash: 00d0662e777ef2f13c9783fe4b79d5c582faa8af
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293760"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531888"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>Serviço de configurações de usuário para o painel de controle de qualidade de chamada (CQD)
  
-**Resumo:** Saiba mais sobre o serviço de configurações de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre o serviço de configurações de usuário, que é parte da API do repositório para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 O serviço de configurações de usuário é parte da API do repositório para painel de controle de qualidade de chamada.
   

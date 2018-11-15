@@ -3,7 +3,7 @@ title: Visão geral de equipes e canais no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 11/02/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02fd487b7a5ef6ab7422791487a1c9cb3fa5795
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295515"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530556"
 ---
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -30,13 +30,17 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 
     -   As Equipes também podem ser criadas para serem públicas e abertas para qualquer pessoa da empresa participar (até 2500 membros).
     
-Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parceria para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
+    Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parceria para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 
 -   **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe!
 
     -   Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Os bate-papos privados só são visíveis para as pessoas que estão no bate-papo.
 
     -   Canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam a seu valor para os membros da equipe.
+
+Exiba este pequeno vídeo para saber mais sobre as práticas recomendadas para a criação de equipes e canais.
+
+   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
 <a name="membership-roles-and-settings"></a>A associação, funções e configurações
 ------------------------------
@@ -50,7 +54,8 @@ Os proprietários de equipe também podem criar uma equipe baseado em um grupo d
 **Configurações da equipe** os proprietários de equipe podem gerenciar amplas configurações da equipe, diretamente no Microsoft Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais, adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes. 
 
 Siga três minutos, fazer check-out este ir para guia vídeo para proprietários de equipe: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7XcDSuw6NR4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
 Se você for um administrador do Microsoft Teams no Office 365, você tem acesso às configurações de todo o sistema no equipes & Skype para Business Admin Center. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode habilitar um canal padrão, “Geral”, para anúncios, discussões e recursos de toda a equipe. Esse canal aparecerá para todas as equipes.
 
@@ -64,7 +69,6 @@ Uma das principais atividades de planejamento precoce para envolver os usuários
 Seguem abaixo alguns exemplos funcionais de como diferentes tipos de usuários podem abordar a configuração de suas equipes, canais e aplicativos (guias/conectores/bots); isso pode ser útil para ajudar a iniciar uma conversa sobre o Microsoft Teams com a sua comunidade de usuários. Enquanto você pensa sobre como implementar o Microsoft Teams na sua organização, lembre-se de que você pode fornecer orientações de como estruturar suas equipes, apesar de os usuários terem controle de como podem se organizar sozinhos. São apenas exemplos para ajudar as equipes a começar a pensar nas possibilidades.
 
 O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equipes multifuncionais, de modo a incentivar seus usuários a pensar em equipes funcionais, e não em silos organizacionais.
-
 
 |Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Ícone de Guias.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Ícone de Conectores.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Ícone de Bots.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
@@ -83,3 +87,6 @@ O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equ
 
 ![Diagrama da hierarquia de como equipes e canais estão organizados no Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
 
+## <a name="org-wide-teams"></a>Equipes de toda a organização
+
+Se sua organização tiver não mais de 1.000 usuários, você pode criar uma equipe de toda a organização. As equipes de toda a organização fornecem uma maneira automática para todas as pessoas em uma organização de uma parte de uma única equipe para colaboração. Para obter mais informações, incluindo práticas recomendadas para criar e gerenciar uma equipe de toda a organização, consulte [criar uma equipe de toda a organização em equipes da Microsoft](create-an-org-wide-team.md).

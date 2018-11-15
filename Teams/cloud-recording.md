@@ -11,12 +11,12 @@ description: Orientações práticas para a implantação dos recursos de Cloud 
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78abdbe7d0cc2680917f2aae7920883837a2ac9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 5ae144405375daa818f334fdf5be85e75cd4f6b1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296384"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532880"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reunião de nuvem de equipes
 
@@ -31,7 +31,7 @@ No Teams da Microsoft, os usuários poderão gravar suas reuniões de equipes e 
 
 Para reuniões do usuário equipes seja gravada, Microsoft Stream devem ser habilitado para o inquilino. Além disso, os seguintes pré-requisitos são necessários para o organizador da reunião e a pessoa que está iniciando a gravação:
 
-- Usuário tem uma licença do Office 365 Enterprise E1, E3 ou E5
+- O usuário tem um Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium ou Business Essentials
 - O usuário precisa ser licenciados para o Microsoft Stream
 - O usuário tem o Microsoft Stream carregar permissões de vídeos
 - Usuário aceitou as diretrizes da empresa, se configurado pelo administrador

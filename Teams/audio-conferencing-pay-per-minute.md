@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Além da licença de por usuário de conferência de áudio padrão, as organizações de Volume e licenciamento também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de conferência de áudio para suas organizações.
-ms.openlocfilehash: 1c66649ebb75dd89756f7da45255801e4e60fc16
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 17a27c8426356b985168b26c6d19eabd88e306fa
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295011"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530852"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
@@ -53,7 +53,7 @@ Enquanto a oferta de licença por usuário audioconferências inclui alguns uso 
 - Chamadas de saída feitas aos números de telefone externo de dentro de uma reunião da sua organização.
     
 > [!NOTE]
-> Você pode encontrar as taxas de discagem e discagem associadas a esses tipos de chamadas examinando a **ver para onde você deseja chamar seção taxas de** conferências de [Áudio](https://products.office.com/skype-for-business/pstn-conferencing). 
+> Você pode encontrar as taxas de discagem e discagem associadas a esses tipos de chamadas examinando a **ver para onde você deseja chamar seção taxas de** conferências de [Áudio](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates).
   
 Salário por minuto requer a sua organização tenha [Créditos de comunicações](what-are-communications-credits.md) ativada com uma licença atribuída a cada usuário na ordem para audioconferências trabalhar. Se você quiser obter mais detalhes, consulte [Configurar créditos de comunicações para sua organização](set-up-communications-credits-for-your-organization.md) e/ou [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
   

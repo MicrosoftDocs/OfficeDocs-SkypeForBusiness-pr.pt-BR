@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o Skype para o relatório de uso do dispositivo de negócios para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. Confira os relatórios de atividade no Centro de administração do Office 365 para saber mais.
-ms.openlocfilehash: 72d700f5e3c63fde3f4a17f6a652643695303a8d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293685"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530650"
 ---
 # <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
@@ -96,7 +96,7 @@ Se diretivas da sua organização impede que você exibindo relatórios onde as 
     
 - [Skype para relatório de atividade do organizador de conferência de negócios](conference-organizer-activity-report.md) Você pode ver quanto a seus usuários são organizem conferências que utilizam o IM, áudio/vídeo, compartilhamento de aplicativo, Web, de terceiros confiáveis dial-in/out - 3rd e dial-in/out - Microsoft.
     
-- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantas mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativo, Web e e conferências de conferência de discagem/saída estão sendo participou.
+- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantos compartilhamento de aplicativos de mensagens Instantâneas, áudio/vídeo, Web e conferências de conferência de discagem/saída estão sendo participou.
     
 - [Skype para relatório de atividade ponto a ponto de negócios](peer-to-peer-activity-report.md) Você pode ver quanto os usuários estão usando mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativos e transferência de arquivos.
     

@@ -20,18 +20,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha as etapas para criar um número de telefone padrão para os chamadores ingressar em uma reunião do Microsoft Teams. '
-ms.openlocfilehash: 859bf6f4a99f95c67123385c99061b1546eaa60c
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296267"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533291"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Definir os números de telefone incluídos em convites no Microsoft Teams
 
-A audioconferência do Office 365 permite que os usuários da sua organização criem reuniões do Microsoft Teams e permitem que os usuários disquem para essas reuniões usando um telefone. No Office 365, você tem a opção de usar uma ponte de audioconferência da Microsoft ou uma ponte de audioconferência de terceiros hospedada por um provedor de serviços de audioconferência (ACP) aprovado.
+Serviços de audioconferência no Office 365 permite aos usuários em sua organização criar reuniões Teams da Microsoft e, em seguida, permitir que os usuários discam para essas reuniões usando um telefone.
   
-Uma ponte de conferência fornece um conjunto de números de telefone de discagem para a sua organização. Todos eles podem ser usados para participar das reuniões que um organizador da reunião criou, mas você pode selecionar quais serão incluídos nos convites da reunião.
+Uma ponte de conferência oferece um conjunto de números de telefone de discagem para sua organização. Todos eles podem ser usados para participar das reuniões que um organizador da reunião criou, mas você pode selecionar quais serão incluídos nos convites da reunião.
   
 > [!NOTE]
 > Pode haver no máximo um número de telefone tarifado e um número de telefone gratuitos no convite da reunião para um organizador de reunião, mas também há um link localizado na parte inferior de cada convite de reunião que abre a lista completa de todos os números de telefone que podem ser usados para ingressar em uma reunião. 
@@ -39,7 +39,15 @@ Uma ponte de conferência fornece um conjunto de números de telefone de discage
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Definir ou alterar o número de telefone de audioconferência padrão para um usuário ou organizador da reunião
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>Atribuição inicial dos números de telefone que estão incluídos na reunião convida para novos usuários
+
+Os números de telefone que serão incluídos na reunião convidam de usuários habilitados para conferência de áudio são definidas pelas configurações de padrão conferência telefone gratuitos número do usuário e o número de telefone de Chamada Tarifada de conferência padrão. Cada configuração especifica qual Chamada Tarifada e o número de chamada gratuito serão incluídas no convite da reunião de um determinado usuário. Conforme observado anteriormente, cada convite de reunião contém o número de chamada um Tarifada, um número de chamada gratuito opcional e um link que abre a lista completa de todos os números de telefone de discagem que podem ser usados para ingressar em uma reunião determinada.
+
+Para um novo usuário, os números de Chamada Tarifada conferência padrão é atribuído com base no país que está definido no Office 365 perfil do usuário quando o usuário está habilitado para o serviço de conferência de áudio. Se houver um número de Chamada Tarifada na ponte de conferência que coincida com o país do usuário, esse número será atribuído automaticamente como o número de Chamada Tarifada padrão do usuário. Se não houver um, o número que é definido como o número de Chamada Tarifada do padrão de ponte de conferência será atribuído como o número de Chamada Tarifada padrão do usuário.  
+
+Depois que o usuário estiver habilitado para o serviço de conferência de áudio, a chamada Tarifada do padrão e números de telefone gratuitos do usuário podem ser alterados pelo administrador do locatário de seus valores iniciais a qualquer momento.
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Definir ou alterar o número de telefone de conferência de áudio padrão para um usuário ou o organizador da reunião
 
 ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
 

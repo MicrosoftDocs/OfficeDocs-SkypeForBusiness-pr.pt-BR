@@ -3,24 +3,23 @@ title: Amostras de Desenvolvimento para o CQD
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 8/18/2015
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 'Resumo: Revise amostras de desenvolvimento e tutorial para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 6bd6031e1d7fc94ed463c53efb068fd1e2e51378
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumo: Revise amostras de desenvolvimento e tutorial para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
+ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296123"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531064"
 ---
 # <a name="cqd-development-samples"></a>Amostras de Desenvolvimento para o CQD
 
-**Resumo:** revisar um tutorial e amostras de desenvolvimento do Painel de Qualidade da Chamada. o Painel de Qualidade da Chamada é uma ferramenta para Skype for Business Server 2015.
+**Resumo:** Revise as amostras de desenvolvimento e tutorial para painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
 
 Este artigo apresenta um tutorial e amostras de desenvolvimento para o Painel de Qualidade da Chamada (CQD).
 
@@ -32,9 +31,9 @@ Tutorial: apresentação da criação de relatórios personalizados com o Servi�
 
 O CQD oferece acesso rápido e fácil às informações de qualidade da chamada agregadas nas implantações locais do Skype for Business Server. O CQD consiste em três componentes: o banco de dados do Arquivamento QoE, o Cubo e o Portal. O Portal é a camada de apresentação principal e pode ser dividido nos três componentes abaixo:
 
-1. Serviço de dados, que é acessível para usuários autenticados por meio da [API de dados para chamar qualidade Dashboard (CQD) no Skype para Business Server 2015](data-api.md).
+1. Serviço de dados, que é acessível para usuários autenticados por meio da [API de dados para chamar qualidade Dashboard (CQD) no Skype para Business Server](data-api.md).
 
-2. Serviço de repositório, que é acessível para usuários autenticados por meio da [API de repositório para chamar qualidade Dashboard (CQD) no Skype para Business Server 2015](repository-api.md).
+2. Serviço de repositório, que é acessível para usuários autenticados por meio da [API de repositório para chamar qualidade Dashboard (CQD) no Skype para Business Server](repository-api.md).
 
 3. Portal da Web, que é a interface baseada em HTML5 que os usuários do CQD veem e com a qual interagem. Ele pode ser acessado por usuários autenticados.
 

@@ -28,18 +28,18 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: d669e6a64efe3d31b7259a3c7f7eabd447d95a65
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+ms.openlocfilehash: 8c0e287671e3131ed9b155205e90ebe6456a743b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25502362"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531171"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
 Você pode selecionar um país ou região para ver quais recursos de voz de nuvem estão disponíveis para sua organização.
 ***
-## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Selecione seu país ou região para ver o que está disponível para a sua organização!
+## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Selecione seu país ou região para ver o que está disponível para sua organização
 
 > [!div class="op_single_selector"]    
 > - [Argentina](availability-in-argentina.md)

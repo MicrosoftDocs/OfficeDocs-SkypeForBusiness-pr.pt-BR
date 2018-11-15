@@ -19,13 +19,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Conheça os parâmetros de tamanho e os requisitos de um PIN e veja como definir o tamanho para reuniões no Microsoft Teams.
-ms.openlocfilehash: 8e0be3a904f4172aa0f92c1632ad37992a36ab5f
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: Saiba os parâmetros para o comprimento e os requisitos de PIN e veja como definir o comprimento do reuniões no Microsoft Teams.
+ms.openlocfilehash: 94be2277b631df9e8c65c9ce2936faeb961a42d7
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296422"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531332"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Definir o tamanho do PIN para reuniões de Audioconferência no Microsoft Teams
 

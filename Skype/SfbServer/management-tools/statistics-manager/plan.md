@@ -1,44 +1,43 @@
 ---
-title: Plan for Statistics Manager for Skype for Business Server 2015
+title: Planejar para o Gerenciador de estatísticas de Skype Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 5/23/2016
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Resumo: Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server 2015.'
-ms.openlocfilehash: de4f2bedcbd03191b852366504423ebb031cf5f1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumo: Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.'
+ms.openlocfilehash: 7b4c45bf3fe230c331725a4510a2a8a499300bef
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294476"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531078"
 ---
-# <a name="plan-for-statistics-manager-for-skype-for-business-server-2015"></a>Plan for Statistics Manager for Skype for Business Server 2015
+# <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar para o Gerenciador de estatísticas de Skype Business Server
 
-**Resumo:** Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server 2015.
+**Resumo:** Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.
 
  Gerenciador de estatísticas para Skype para Business Server é uma ferramenta poderosa que permite que você visualize Skype para dados de integridade e desempenho do servidor de negócios em tempo real. Você pode sondar dados de desempenho em centenas de servidores por cada alguns segundos e exiba os resultados instantaneamente no site do Gerenciador de estatísticas.
 
 Você pode usar o Gerenciador de estatísticas para identificar problemas de desempenho em andamento, exiba os resultados de uma alteração planejada ao seu ambiente, para controlar a resolução de interrupções e muito mais. Imediato, gerente de estatísticas é configurado com limites de indicador de integridade de chave (KHI) e pode ser personalizado para atender às necessidades exclusivas da sua implantação.
 
-Você pode implantar o Gerenciador de estatísticas em uma implantação no local em que um único servidor hospeda todos os componentes do Gerenciador de estatísticas do servidor. Para obter mais informações sobre como implantar o Gerenciador de estatísticas, consulte [Implantar o Gerenciador de estatísticas para Skype para Business Server 2015](deploy.md). Se você já tiver uma implantação existente do Gerenciador de estatísticas, mas você ainda não tiver atualizado para a versão 1.1, consulte [What's new in versão 1.1](plan.md#BKMK_WhatsNew) e [Atualizar o Gerenciador de estatísticas para Skype para Business Server 2015](upgrade.md).
+Você pode implantar o Gerenciador de estatísticas em uma implantação no local em que um único servidor hospeda todos os componentes do Gerenciador de estatísticas do servidor. Para obter mais informações sobre como implantar o Gerenciador de estatísticas, consulte [Implantar o Gerenciador de estatísticas para Skype para Business Server](deploy.md). Se você já tiver uma implantação existente do Gerenciador de estatísticas, mas você ainda não tiver atualizado para a versão 2.0, consulte [o que há de novo na versão 2.0](plan.md#BKMK_WhatsNew) e [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md).
 
 Este tópico inclui as seguintes seções:
 
-- [Recursos e capacidades](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Features)
+- [Recursos e capacidades](plan.md#BKMK_Features)
 
-- [O que há de novo na versão 1.1](plan.md#BKMK_WhatsNew)
+- [O que há de novo na versão 2.0](plan.md#BKMK_WhatsNew)
 
-- [Componentes](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Components)
+- [Componentes](plan.md#BKMK_Components)
 
 - [Implantação no local](plan.md#BKMK_DeploymentOptions)
 
-- [Requisitos](https://technet.microsoft.com/library/1c5110a0-b92a-4656-b42b-3650bdb62b4f.aspx#BKMK_Requirements)
+- [Requisitos](plan.md#BKMK_Requirements)
 
 - [Considerações de segurança](plan.md#BKMK_Security)
 
@@ -77,16 +76,14 @@ Gerenciador de estatísticas permite que você:
 
   - Exibir KHI definições
 
-## <a name="whats-new-in-release-11"></a>O que há de novo na versão 1.1
+## <a name="whats-new-in-release-20"></a>O que há de novo na versão 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-O exemplo a seguir descreve o que há de novo na versão 1.1. Se você tiver uma implantação existente do Gerenciador de estatísticas e você ainda não tiver atualizado, consulte [Atualizar o Gerenciador de estatísticas para Skype para Business Server 2015](upgrade.md).
+O exemplo a seguir descreve o que há de novo na versão 2.0. Se você tiver uma implantação existente do Gerenciador de estatísticas e você ainda não tiver atualizado, consulte [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md).
 
 - Modos de exibição do cenário foram adicionados para a mídia de borda, integridade malha, Failover de Pool e cenários de registro.
 
-- PerfAgentStorageManager.exe linha de comando (instalado com o ouvinte) agora pode exportar os dados do contador de CSV.
-
-- Muitos novos contadores foram adicionados para SQL servers, mais contadores do Windows Fabric, mais Skype contadores de uso de negócios e assim por diante.
+- Muitos novos contadores foram adicionados para SQL servers, mais Skype contadores de uso de negócios e assim por diante.
 
 - Integração do nó de inspetor para o agente do Gerenciador de estatísticas - se o agente está instalado em um nó de Inspetor, ele reportará estatísticas de transação sintética como contadores ao Gerenciador de estatísticas.
 
@@ -131,7 +128,7 @@ Você precisará considerar os seguintes requisitos de hardware, software e rede
 
 ### <a name="software-requirements"></a>Requisitos de software
 
-- Windows Server 2012 R2
+- Windows Server 2016 e 2019
 
 - IIS (instalado automaticamente)
 
@@ -141,9 +138,7 @@ Você precisará considerar os seguintes requisitos de hardware, software e rede
 
 - PSExec - necessário para fazer a implantação do agente remoto
 
-- .NET 4.5 (incluído no 2012 R2) - é necessário para componentes de servidor
-
-- .NET 4.0 - necessário para agentes
+- .NET 4.5 (incluído no 2012 R2) - necessário para agentes e componentes de servidor
 
 ### <a name="networking-requirements"></a>Requisitos de rede
 
@@ -180,12 +175,12 @@ Todo o tráfego entre os servidores é criptografado.
 
 Para obter mais informações, consulte:
 
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Implantar o Gerenciador de estatísticas para Skype para Business Server](deploy.md)
 
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md)
 
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Solucionar problemas de gerente de estatísticas para Skype para Business Server](troubleshoot.md)
 
-- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
 
 

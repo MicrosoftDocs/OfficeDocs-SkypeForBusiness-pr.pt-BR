@@ -3,140 +3,95 @@ title: Configurar para live eventos no Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
+ms.date: 10/23/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: tonysmit
 search.appverid: MET150
-description: Conheça as etapas para configurar ao vivo para eventos no Microsoft Teams, incluindo Otimize sua rede, como atribuir licenças, habilitando o agendamento para usuários e configurando um provedor de eCDN de evento ao vivo.
+localization_priority: Normal
+MS.collection: Teams_ITAdmin_Help
+description: Conheça as etapas para configurar ao vivo de eventos em equipes, incluindo Otimize sua rede, como atribuir licenças, usando diretivas para habilitar os recursos de evento ao vivo e agendamento para usuários e configurando um provedor de distribuição de terceiros.
+f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6fa8e2bc277bbece7dcbd94fca397e219cdf278
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: a92f227b7f625da02e003622c8ff87e744206443
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296376"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532659"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar para live eventos no Microsoft Teams
+
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Quando você estiver configurando para eventos ao vivo, há diversas etapas que devem ser executadas:
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>Etapa 1: Configurar sua rede para live eventos no Microsoft Teams
-Os eventos de início rápido ao vivo exigem que você preparar [a rede da sua organização para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
+Eventos de início rápido ao vivo exigem que você preparar [a rede da sua organização para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
 Verifique se você tem as atribuições de licença correta para [quem pode criar e agendar eventos ao vivo?](#who-can-create-and-schedule-live-events) e [quem pode assistir eventos ao vivo?](#who-can-watch-live-events).
 
-## <a name="step-3-enable-live-event-scheduling-for-users"></a>Etapa 3: Habilitar o agendamento de evento ao vivo para usuários
-Evento ao vivo agendamento é habilitado por padrão para os usuários de equipes, mas se você estiver buscando os usuários agendem eventos externos codificador há etapas adicionais que você deve fazer.
+## <a name="step-3-set-up-live-events-policies"></a>Etapa 3: Configurar políticas de eventos ao vivo
+Eventos ao vivo, elas são usadas para controlar quem na sua organização pode conter eventos ao vivo e os recursos que estão disponíveis nos eventos que eles criam. Você pode usar a política padrão ou, em seguida, criar um ou mais personalizada live políticas de eventos. Depois de criar uma política personalizada, atribuí-lo a um usuário ou grupos de usuários em sua organização.
 
-### <a name="for-quick-start-events"></a>Eventos de início rápido
-Use a configuração *AllowBroadcastScheduling* no **TeamsMeetingBroadcastPolicy** no PowerShell equipes para controlar se o usuário pode criar eventos ao vivo em equipes ou não. Saiba mais sobre como gerenciar TeamsMeetingBroadcastPolicy [aqui](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
+> [!NOTE]
+> Usuários em sua organização receberá a política global, a menos que você criar e atribuir uma política personalizada. Por padrão na política global, agendamento de evento ao vivo está habilitada para usuários de equipes, transcrições estiver desativada, todos na organização podem ingressar em eventos ao vivo e a configuração de gravação estiver definida para registrar sempre. 
 
- Se você ainda não atribuída uma política personalizada atribuída aos usuários, os usuários receberá a política *Global* , que tem a gravação habilitada por padrão.
+### <a name="create-or-edit-a-live-events-policy"></a>Criar ou editar uma política de eventos ao vivo
 
-Verifique se o parâmetro *AllowBroadcastScheduling* estiver definido como *True*:
-```
-Get-CsTeamsMeetingBroadcastPolicy -identity Global
-```
-Atribua o usuário para a política *Global* , execute:
-```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
-```
+**![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) usando o Microsoft Teams & Skype para centro de administração de negócios**
 
-#### <a name="user-scenarios"></a>Cenários de usuário
-**Você deseja todos os usuários da sua empresa, possam criar eventos ao vivo.**
+1. No painel de navegação esquerdo, vá para **reuniões** > **políticas de eventos ao vivo**. 
+2. Siga um destes procedimentos:
+- Se você deseja editar a política padrão existente, escolha **Global (padrão de toda a organização)**. 
+- Se você quiser criar uma nova política personalizada, selecione **nova política**. 
+- Se você deseja editar uma política personalizada, selecione a política e escolha **Editar**. 
 
-Se os usuários são atribuídos a política *Glocal* , execute e confirme que *AllowBroadcastScheduling* * estiver definida como *True*:
-```
-Get-CsTeamsMeetingBroadcastPolicy -identity Global
-```
-Se os usuários recebem uma política que não seja a política *Global* , execute o seguinte e verificar se a opção *-AllowBroadcastScheduling* está definida como *True*:
-```
-Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
-```
+    Aqui estão as configurações que podem ser alteradas para atender às necessidades da sua organização.
 
-**Você desejar que o evento ao vivo planejamento ser desabilitado de 100% em sua organização.**
+    ![Captura de tela de configurações de diretiva de eventos do live] (../media/teams-live-events-policies.png "Captura de tela do live configurações de política de eventos no Microsoft equipes & Skype para centro de administração de negócios") 
 
-Desabilitar o agendamento de transmissão, execute:
-```
-Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
-```
-Atribua a todos os usuários em sua organização para a política *Global* , execute:
-```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
-```
+|Configuração  |Descrição  |
+|---------|---------|
+|**Nome**     |Este é o nome da política que aparece na página de políticas de eventos ao vivo. Ele não pode ter mais de 64 caracteres ou ter quaisquer caracteres especiais.          |
+|**Descrição**    |Use esta opção para adicionar uma descrição amigável para a política.         |
+|**Permitir o agendamento**     |Ativando Isso permite que os usuários em sua organização criar e agendar eventos ao vivo em equipes. É importante saber que, se desejar que os usuários agendem eventos ao vivo do codificador externo, há etapas adicionais que você deve fazer. Para saber mais, consulte [habilitar usuários agendar a eventos externos codificador](#enable-users-to-schedule-external-encoder-events).     |
+|**Permitir transcrição para participantes** (em breve) |Essa configuração só pode ser aplicada aos eventos de início rápido. Ativem Isso permite que os participantes do evento ao vivo ver as legendas em tempo real e uma tradução durante o evento.         |
+|**Quem pode ingressar eventos ao vivo agendados**    |Escolha uma das opções a seguir.<br> <br> **Todos** Os usuários podem criar eventos ao vivo que todos, incluindo pessoas fora da sua organização, podem participar. <br> **Todas as pessoas na organização** Os usuários podem criar eventos ao vivo que apenas as pessoas da sua organização podem participar. Os usuários não podem criar live eventos que são assistidos por usuários anônimos. <br> **Usuários ou grupos específicos** Os usuários podem criar eventos ao vivo que apenas usuários específicos ou grupos em sua organização podem participar. Os usuários não podem criar live eventos que são assistidos por todos os usuários em sua organização ou por usuários anônimos.        |
+|**Configuração de gravação**  <br>     | Essa configuração só pode ser aplicada aos eventos de início rápido. Escolha uma das opções a seguir. <br><br> **Registre sempre** Eventos ao vivo criados por usuários sempre são registrados. Após o evento via, membros da equipe de evento podem baixar a gravação e os participantes podem Assista o evento. <br> **Nunca registrar** Eventos ao vivo criados por usuários nunca são registrados. <br>**Organizador pode registrar ou não** Os usuários podem decidir se deseja gravar o evento ao vivo. Se ele está gravado, depois que o evento está sobre, membros da equipe de evento podem baixar a gravação e participantes possam assistir o evento.      
 
-**Você deseja que um grande número de usuários possam criar eventos ao vivo, mas deseja impedir que um conjunto de usuários criá-los.**
+Você também pode fazer isso usando o Windows PowerShell. Para obter mais informações, consulte [Usar o PowerShell para definir políticas de eventos ao vivo em equipes](set-teams-live-events-policies-using-powershell.md). 
 
-Atribuir a política *Global* usando o **Grant-CsTeamsMeetingBroadcastPolicy** para alguns dos usuários (que você deseja enabled), mas primeiro execute o seguinte e verificar se *AllowBroadcastScheduling* está definida como *True*:
-```
-Get-CsTeamsMeetingBroadcastPolicy -identity Global
-```
-Atribua um ou mais usuários à política *Global* , execute:
-```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
-```
-Crie e atribua uma diretiva para desabilitar o agendamento usando o cmdlet **Grant-CsTeamsMeetingBroadcastPolicy** para os outros usuários (serem desabilitadas). 
+### <a name="assign-a-live-events-policy-to-users"></a>Atribuir uma política de eventos ao vivo aos usuários 
 
-Criar a nova diretiva com ele desabilitada, execute:
-```
-New-CSTeamsMeetingBroadcastPolicy -identity DisabledBroadcastSchedulingpolicy
-```
-Desabilitar o agendamento, execute:
-```
-Set-CsTeamsMeetingBroadcastPolicy -identity DisabledBroadcastSchedulingpolicy -AllowBroadcastScheduling $false
-```
-Atribua usuários a essa diretiva, execute:
-```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingpolicy -Verbose
-```
-**Você deseja eventos ao vivo devem ser desabilitados para um grande número de usuários, mas deseja permitir que um conjunto de usuários para criá-los.**
+Se você criou uma política personalizada de eventos ao vivo, atribuí-lo aos usuários para a política estejam ativos. 
 
-Desabilitar o agendamento de transmissão, execute:
-```
-Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
-```
-Em seguida, atribua esses usuários para a política *Global* , execute:
-```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
-```
-Criar e atribuir uma política para habilitar o agendamento, execute:
-```
-New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
-```
-Habilite o agendamento, execute:
-```
-Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
-```
-Atribua usuários a essa diretiva, execute:
-```
-Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
-```
+![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) Usando o Microsoft Teams & Skype para centro de administração de negócios
 
-### <a name="for-external-encoder-events"></a>Para eventos externos codificador
-Você deve fazer o seguinte procedimento para habilitar o agendamento para os usuários de evento ao vivo.
+1. No painel de navegação esquerdo, vá para **usuários**e, em seguida, selecione o usuário.
+2. Ao lado de **políticas atribuído**, escolha **Editar**. 
+3. Selecione a política de eventos ao vivo que você deseja atribuir e, em seguida, escolha **Salvar**. 
 
-#### <a name="step-1-enable-microsoft-stream-for-users-in-your-organization"></a>Etapa 1: Habilitar o Microsoft Stream para usuários em sua organização * *
-Microsoft Stream está disponível como parte das assinaturas do Office 365 elegíveis ou como um serviço autônomo. Para obter mais detalhes, consulte [Visão geral do licenciamento de Stream](https://docs.microsoft.com/stream/license-overview) .
+### <a name="enable-users-to-schedule-external-encoder-events"></a>Habilitar os usuários agendem eventos externos codificador
 
-> ! [NOTA] Microsoft Stream não está incluído nos planos Business Essentials ou Business Premium.  
+Para os usuários agendem eventos codificador externo, você deve também faça o seguinte:
 
-Saiba mais sobre como você pode [Atribuir licenças aos usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários podem acessar o Microsoft Stream. Certifique-se de que Microsoft Stream não é bloqueado para os usuários conforme definido [neste](https://docs.microsoft.com/stream/disable-user-organization)artigo.
+1. Habilite o Microsoft Stream para usuários em sua organização. Microsoft Stream está disponível como parte das assinaturas do Office 365 elegíveis ou como um serviço autônomo. Microsoft Stream não está incluído nos planos Business Essentials ou Business Premium. Para obter mais detalhes, consulte [Visão geral do licenciamento de Stream](https://docs.microsoft.com/stream/license-overview) .
 
-#### <a name="step-2-ensure-users-have-live-event-creation-permission-in-microsoft-stream"></a>Etapa 2: Verifique se os usuários têm permissão de criação de evento ao vivo na Microsoft Stream * *
-Por padrão, os administradores podem criar codificador externa a eventos ao vivo. Administrador do Microsoft Stream pode [Permitir que usuários adicionais para criação de evento ao vivo](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) no fluxo.  
+      Saiba mais sobre como você pode [Atribuir licenças aos usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários podem acessar o Microsoft Stream. Certifique-se de que Microsoft Stream não é bloqueado para os usuários conforme definido [neste](https://docs.microsoft.com/stream/disable-user-organization)artigo.
 
-#### <a name="step-3-ensure-live-event-organizers-have-consented-to-the-company-policy-set-by-stream-admin"></a>Etapa 3: Verifique se o evento ao vivo organizadores tem consentiu a política da empresa definida pelo fluxo admin * *
-Se um administrador do Microsoft Stream [definir uma política de diretrizes da empresa](https://docs.microsoft.com/stream/company-policy-and-consent) e requer funcionários aceitar essa política antes de salvar conteúdo, em seguida, os usuários devem fazer isso antes de criar um evento ao vivo (com a produção de codificador externo) em equipes. Antes da distribuição o recurso de eventos ao vivo na organização, certifique-se de tem consentiu usuários que criarão esses eventos ao vivo a política. 
+2. Certifique-se de que os usuários têm permissão de criação de evento ao vivo em Microsoft Stream. Por padrão, os administradores podem criar codificador externa a eventos ao vivo. Administrador do Microsoft Stream pode [Permitir que usuários adicionais para criação de evento ao vivo](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) no fluxo.  
 
-## <a name="step-4-set-up-ecdn-provider-for-live-events-in-microsoft-teams"></a>Etapa 4: Configurar o provedor de eCDN para live eventos no Microsoft Teams 
-Reprodução de vídeos do evento ao vivo usa a taxa de bits adaptável streaming (ABR), mas é um fluxo de unicast, que significa que cada visualizador está recebendo o seu próprio fluxo de vídeo da internet. Para eventos ao vivo ou vídeos enviados para grandes partes da sua organização, pode haver uma quantidade significativa de largura de banda de internet consumida por visualizadores. Para organizações que desejam reduzir esse tráfego da internet para eventos ao vivo, eventos ao vivo soluções integradas da Microsoft confiam definidos de parceiros de entrega de vídeo oferecem software redes (SDNs) ou redes de fornecimento de conteúdo corporativo (eCDNs). Esses SDN eCDN plataformas permitem que as organizações a otimizar a largura de banda de rede sem prejudicar o usuário final experiências de exibição. Nossos parceiros podem ajudar a habilitar uma distribuição mais flexível e eficiente de vídeo em sua rede corporativa.
+3. Verifique se o evento ao vivo organizadores tem consentiu a diretiva de empresa definida pelo administrador do Stream. Se um administrador do Microsoft Stream [definir uma política de diretrizes da empresa](https://docs.microsoft.com/stream/company-policy-and-consent) e requer funcionários aceitar essa política antes de salvar conteúdo, em seguida, os usuários devem fazer isso antes de criar um evento ao vivo (com a produção de codificador externo) em equipes. Antes de você distribuir o recurso de eventos ao vivo na organização, certifique-se de tem consentiu usuários que criarão esses eventos ao vivo a política. 
 
-**Compra & instalação sua solução fora do Microsoft Teams** Obtenha ajuda especializada com o dimensionamento de entrega de vídeo aproveitando parceiros de entrega confiável de vídeo da Microsoft. Para poder habilitar um provedor de entrega de vídeo ser usado com equipes, você deve adquirir e a solução SDN/eCDN externamente e separada das equipes de instalação.
+## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Etapa 4: Configurar uma solução de distribuição de vídeo para eventos ao vivo em equipes
+Reprodução de vídeos do evento ao vivo usa a taxa de bits adaptável streaming (ABR), mas é um fluxo de unicast, que significa que cada visualizador está recebendo o seu próprio fluxo de vídeo da internet. Para eventos ao vivo ou vídeos enviados para grandes partes da sua organização, pode haver uma quantidade significativa de largura de banda de internet consumida por visualizadores. Para organizações que desejam reduzir esse tráfego da internet para eventos ao vivo, eventos ao vivo soluções integradas da Microsoft confiam definidos de parceiros de entrega de vídeo oferecem software redes (SDNs) ou redes de fornecimento de conteúdo corporativo (eCDNs). Essas plataformas SDN/eCDN permitem que as organizações otimizar a largura de banda de rede sem prejudicar o usuário final experiências de exibição. Nossos parceiros podem ajudar a habilitar uma distribuição mais flexível e eficiente de vídeo em sua rede corporativa.
 
-As seguintes soluções SDN/eCDN previamente são integradas e podem ser configurado para ser usado com o Microsoft Stream.
+**Compra e configurar sua solução fora de equipes** Obtenha ajuda especializada com o dimensionamento de entrega de vídeo aproveitando parceiros de entrega confiável de vídeo da Microsoft. Para poder habilitar um provedor de entrega de vídeo ser usado com equipes, você deve adquirir e configurar a solução SDN/eCDN externamente e separada das equipes.
+
+As seguintes soluções SDN/eCDN previamente são integradas e podem ser configuradas para ser usado com o Microsoft Stream.
 
 - **Hive Streaming** fornece uma solução simple e eficiente para distribuição de vídeo da empresa ao vivo e sob demanda. Hive é uma solução baseada em software que não exige nenhum hardware adicional ou a largura de banda e fornece uma maneira segura para habilitar milhares de visualizadores de vídeos simultâneos sem afetar a sua rede. Para clientes que desejem para entender que o vídeo do impacto está tendo em sua rede antes da compra de uma solução SDN/eCDN, Hive Streaming também fornece uma solução de análise baseada em navegador para os clientes da Microsoft. [Saiba mais](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
@@ -145,24 +100,15 @@ As seguintes soluções SDN/eCDN previamente são integradas e podem ser configu
 - **Conheça OmniCache** fornece a distribuição de rede de última geração e garante perfeito fornecimento de conteúdo de vídeo entre WANs globais, ajudando produtores de evento otimizar a largura de banda de rede e suporte difusões bem-sucedida evento ao vivo e sob demanda Streaming. O suporte para OmniCache conheça para eventos ao vivo do início rápido estarão disponíveis em breve.  [Saiba mais](http://www.ramp.com). 
  
 > [!NOTE] 
-> Sua solução eCDN escolhida está sujeito selecionado de **termos do provedor de terceiros 3º da política de privacidade e de serviço**, quais rege o uso da solução do provedor eCDN. O uso da solução do provedor eCDN não estará sujeito a termos de licenciamento de volume do Microsoft ou termos de serviços Online. Se não concordar com os **termos do provedor de terceiros 3º**, não habilite a solução eCDN em equipes. 
+> Sua solução SDN ou eCDN escolhida está sujeito selecionado de **termos do provedor de terceiros 3º da política de privacidade e de serviço**, quais rege o uso da solução do provedor. O uso da solução do provedor não estará sujeito a termos de licenciamento de volume do Microsoft ou termos de serviços Online. Se não concordar com os **termos do provedor de terceiros 3º**, não habilite a solução em equipes. 
 
-**Configurar um eCDN para "Quick start" eventos ao vivo** Você pode configurar o provedor de eCDN para eventos ao vivo em equipes usando o PowerShell. 
-
-> [!NOTE] 
-> Um provedor de eCDN único pode ser configurado para sua organização. 
-
-***Hive*** Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar o provedor de eCDN. Primeiro, obtenha a URL do modelo ID e a API de licença de seu contato Hive, em seguida, execute o seguinte:
-```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
-```
-***Kollective*** Você pode usar o cmdlet [Set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) do PowerShell para configurar o provedor de eCDN. Primeiro obter o token de API e a URL do modelo de API do seu contato Kollective, depois, execute o seguinte:
-```
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
-```
-**Configurar um eCDN para eventos de "Codificador externo" ao vivo** 
-
-Se você planeja criar eventos ao vivo que usam codificadores externos, você precisará [configurar seu provedor de eCDN com Microsoft Stream](https://docs.microsoft.com/stream/network-caching) também. 
+Depois de configurar a solução SDN ou eCDN, você está pronto para configurar o provedor para eventos ao vivo em equipes. 
 
 ## <a name="next-steps"></a>Próximos passos
-Vá para [equipes Confgure live eventos](configure-teams-live-events.md).
+Vá para [Confgure live em equipes nas configurações dos eventos](configure-teams-live-events.md).
+
+### <a name="related-topics"></a>Tópicos relacionados
+- [Quais são as equipes live eventos?](what-are-teams-live-events.md)
+- [Planejamento de eventos ao vivo de equipes](plan-for-teams-live-events.md)
+- [Configurações de eventos do live Confgure em equipes](configure-teams-live-events.md)
+

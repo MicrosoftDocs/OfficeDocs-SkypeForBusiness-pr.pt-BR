@@ -3,7 +3,7 @@ title: Como o SharePoint Online e o OneDrive for Business interagem com o Micros
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/31/2018
+ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: snigdhav
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 869adf9401e3704cc78de5f646b0b9e676e8efe9
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d82509aedab32e7fa4fe14ea162d369a2bab5565
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295482"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532328"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 =============================================================================
@@ -47,11 +47,18 @@ A seguir, um exemplo das relações entre equipe, canal e biblioteca de document
 > No momento, não é possível substituir o site e a biblioteca de documentos padrão do SharePoint por outros. Recebemos o feedback de que isso seria interessante e estamos considerando a ideia. Confira o [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap) ou o [Teams UserVoice](https://aka.ms/TeamsUserVoice) para estar sempre informado sobre os recursos futuros.
 
 > [!TIP]
-> Para adicionar uma guia para a sua equipe que links para um SharePoint existente de site ou biblioteca de documentos no seu SharePoint existente:
+> Para adicionar uma guia para a sua equipe que vincula a uma página existente do site do SharePoint ou em sua biblioteca de documentos do SharePoint existente:
 > 1. Selecione o sinal de adição ao lado de guias.
-> 2. Selecione o **site**.
-> 3. Digite um nome e digite a URL do seu SharePoint site ou biblioteca de documentos.
+> 2. Selecione **SharePoint** para uma página existente do site do SharePoint ou **Biblioteca de documentos** para uma biblioteca de documento existente.
+> 3. Selecione a biblioteca apropriada de página ou documento.
 
 Para cada usuário, a pasta **Arquivos de bate-papo do Microsoft Teams** do OneDrive é utilizada para armazenar todos os arquivos compartilhados em bate-papos privados com outros usuários (1:1 ou 1:muitos), com as permissões configuradas automaticamente para restringir o acesso somente para o usuário pretendido.
 
 ![Diagrama da pasta do OneDrive, nomeada como Arquivos de Bate-papo do Microsoft Teams para o bate-papo de cada usuário.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+
+<a name="more-information"></a>Mais informações
+----------------
+
+Para obter mais informações sobre como o SharePoint funciona com equipes, consulte [equipes e SharePoint: melhores juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+
+

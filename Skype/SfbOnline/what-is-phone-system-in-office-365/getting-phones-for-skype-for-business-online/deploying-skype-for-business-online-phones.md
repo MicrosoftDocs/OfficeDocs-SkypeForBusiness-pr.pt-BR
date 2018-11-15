@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Conheça as etapas de implantação para obter o firmware correto, atualizá-la, se necessário, atribuir licenças e definir configurações para Skype para telefones online de negócios
-ms.openlocfilehash: 26748f79d62b2f4b40a249dcf1af1736bae2d06f
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 809cec268ac2a086a01fc00cf043759a326a34f5
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295091"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531812"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantar telefones para o Skype for Business Online
 
@@ -205,7 +205,7 @@ BToE pode ser configurado para operar em dois modos: *Manual* e *automático* (p
     
      ![Deploying phones.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Baixe e instale o software BToE mais recente do site do fabricante usando os links abaixo. Para uma melhor experiência do usuário, você pode distribuir e instalar o software BToE usando uma solução de distribuição de administração como o SCCM (System Center Configuration Manager). Para obter ajudar sobre como usar o SCCM, consulte [Pacotes e programas no System Center Configuration Manager](https://docs.microsoft.com/en-us/sccm/apps/deploy-use/packages-and-programs).
+2. Baixe e instale o software BToE mais recente do site do fabricante usando os links abaixo. Para uma melhor experiência do usuário, você pode distribuir e instalar o software BToE usando uma solução de distribuição de administração como o SCCM (System Center Configuration Manager). Para obter ajudar sobre como usar o SCCM, consulte [Pacotes e programas no System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
     
    - [Site de Download de Software do Polycom BToE](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     

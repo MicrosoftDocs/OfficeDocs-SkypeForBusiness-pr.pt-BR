@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7850ad245eebee96b6852e7f0cc57a35adcca9f7
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 151a789b6047540071aa5780fb81a895503dd70b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295003"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531012"
 ---
 # <a name="get-started-with-teams-templates"></a>Introdução ao modelos de equipes 
 
@@ -236,5 +236,5 @@ Content-Type: application/json
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Criar equipe](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/team_put_teams) (no modo de visualização)
-- [Nova equipe](https://docs.microsoft.com/en-us/powershell/module/teams/New-Team?view=teams-ps)
+- [Nova equipe](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Treinamento para o administrador do Microsoft Teams](itadmin-readiness.md)

@@ -1,26 +1,25 @@
 ---
-title: Usar Painel de Qualidade da Chamada para Skype for Business Server 2015
+title: Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/1/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Resumo: Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.'
-ms.openlocfilehash: 2aafd5c92a6b0b7a7985c76a20c9377fce44a5e7
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumo: Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.'
+ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294895"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533424"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server-2015"></a>Usar Painel de Qualidade da Chamada para Skype for Business Server 2015
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar o painel de controle de qualidade de chamada para Skype para o servidor de negócios
  
-**Resumo:** Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server 2015.
+**Resumo:** Saiba mais sobre como usar o painel de controle de qualidade de chamada. Painel de controle de qualidade de chamada é uma ferramenta para Skype para Business Server.
   
 O CQD permite que os profissionais de TI utilizem dados agregados para identificar áreas de foco em seu ambiente com problemas de qualidade de mídia. Ele permite que um profissional de TI compare estatísticas de diferentes grupos de usuários e identifique tendências e padrões. O foco não está em resolver problemas de chamadas individuais, mas em identificar problemas e soluções que se apliquem a muitos usuários em um determinado ambiente.
   

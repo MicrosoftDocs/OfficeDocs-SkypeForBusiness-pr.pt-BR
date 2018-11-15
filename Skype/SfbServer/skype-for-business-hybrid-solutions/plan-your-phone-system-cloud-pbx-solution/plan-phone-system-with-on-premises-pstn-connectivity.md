@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
-ms.openlocfilehash: 4096dde95c4cee2871e968f4e6b91d60682e73d5
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295453"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531599"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server
 
@@ -56,7 +56,7 @@ Implantando o sistema telefônico no Office 365 com conectividade PSTN de local,
 
 Você pode ter um recurso personalizado ou um complemento de maior porte para seu PBX herdado, como um call center. Se o recurso personalizado não está disponível atualmente no sistema telefônico no Office 365, você deverá manter esses usuários que exigem esse recurso personalizado local com o PBX herdado e a porta apenas os usuários que não precisam acessar o recurso personalizado para o sistema telefônico no Office 365 com a conectividade de PSTN local.
 
-Para obter uma lista dos PBXs herdados que interoperam diretamente com Skype para Business Server 2015 consulte [Qualificado de infra-estrutura para Microsoft Lync](https://docs.microsoft.com/en-us/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Se o seu PBX não estiver na lista, você pode usar um controlador de borda de sessão para conectar seu PBX com o sistema telefônico no Office 365 no Skype para negócios Online.
+Para obter uma lista dos PBXs herdados que interoperam diretamente com Skype para Business Server 2015 consulte [Qualificado de infra-estrutura para Microsoft Lync](https://docs.microsoft.com/SkypeForBusiness/lync-cert/qualified-ip-pbx-gateway). Se o seu PBX não estiver na lista, você pode usar um controlador de borda de sessão para conectar seu PBX com o sistema telefônico no Office 365 no Skype para negócios Online.
 
 ### <a name="network-considerations-for-quality-and-performance"></a>Considerações de rede para qualidade e desempenho
 
@@ -100,7 +100,7 @@ Além disso você deve garantir que o seguinte:
 
     Se você estiver usando o Lync Server 2013, consulte [Planning for Enterprise Voice no Lync Server 2013](https://technet.microsoft.com/library/gg413081%28v=ocs.15%29.aspx) e [Implantando o Enterprise Voice no Lync Server 2013](https://technet.microsoft.com/EN-US/library/gg412876%28v=ocs.15%29.aspx).
 
-- **Sincronização do Active Directory** Você deve configurar a sincronização do Active Directory usando Connect do Azure AD. Para obter mais informações, consulte [Gerenciando o Azure AD Connect](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-whats-next/).
+- **Sincronização do Active Directory** Você deve configurar a sincronização do Active Directory usando Connect do Azure AD. Para obter mais informações, consulte [Gerenciando o Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/).
 
     > [!NOTE]
     > Você deve usar a versão 1.0.9125.0 ou posterior do AAD Connect. Se você estiver usando uma versão anterior das ferramentas do AAD Connect ou do DirSync, atualize para a versão com suporte. Você pode atualizar sua instalação atual e manter qualquer regra personalizada que você tenha definido em seu ambiente. 

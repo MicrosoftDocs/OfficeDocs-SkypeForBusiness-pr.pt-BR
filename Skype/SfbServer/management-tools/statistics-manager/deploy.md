@@ -1,33 +1,32 @@
 ---
-title: Implantar o Gerenciador de Estatísticas para o Skype for Business Server 2015
+title: Implantar o Gerenciador de estatísticas para Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 2/9/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: 'Resumo: Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server 2015.'
-ms.openlocfilehash: 75a8af0794431a0f74233ad0c6a422b3827c7656
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumo: Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server.'
+ms.openlocfilehash: f408f494fc95fecdf0a0e80114d4d68d99181885
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295179"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532144"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server-2015"></a>Deploy Statistics Manager for Skype for Business Server 2015
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implantar o Gerenciador de estatísticas para Skype para Business Server
  
-**Resumo:** Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server 2015.
+**Resumo:** Leia este tópico para saber como implantar o Gerenciador de estatísticas para Skype para Business Server.
   
  Gerenciador de estatísticas para Skype para Business Server é uma ferramenta poderosa que permite que você visualize Skype para dados de integridade e desempenho do servidor de negócios em tempo real. Você pode sondar dados de desempenho em centenas de servidores por cada alguns segundos e exiba os resultados instantaneamente no site do Gerenciador de estatísticas.
   
-Antes de tentar instalar o Gerenciador de estatísticas, certifique-se de que você está familiarizado com os requisitos de hardware, software e rede. Para obter mais informações, consulte [Planejar para o Gerenciador de estatísticas de Skype para Business Server 2015](plan.md).
+Antes de tentar instalar o Gerenciador de estatísticas, certifique-se de que você está familiarizado com os requisitos de hardware, software e rede. Para obter mais informações, consulte [Planejar para o Gerenciador de estatísticas de Skype para Business Server](plan.md).
   
 > [!NOTE]
-> Se você estiver atualizando de uma versão anterior do Gerenciador de estatísticas, consulte [Atualizar o Gerenciador de estatísticas para Skype para Business Server 2015](upgrade.md). 
+> Se você estiver atualizando de uma versão anterior do Gerenciador de estatísticas, consulte [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md). 
   
 > [!NOTE]
 > O site do Gerenciador de Estatísticas foi testado e funciona corretamente no Internet Explorer 11+, Edge 20.10240+ e Chrome 46+ (versão evergreen atual). 
@@ -62,7 +61,7 @@ Para implantar o Gerenciador de estatísticas, siga estas etapas:
   
 ### <a name="prepare-the-listener-host-machine"></a>Preparar o computador host Ouvinte
 
-Para preparar a máquina host, você precisará instalar o sistema de cache de na memória relacionada e verifique se é um certificado válido na máquina. A Microsoft recomenda que você instale a compilação estável mais recente do 3.0 relacionada. Gerenciador de estatísticas versão 1.1 foi testada com relacionada 3.0.501 e relacionada 2.8.2400. 
+Para preparar a máquina host, você precisará instalar o sistema de cache de na memória relacionada e verifique se é um certificado válido na máquina. A Microsoft recomenda que você instale a compilação estável mais recente do 3.0 relacionada. Gerenciador de estatísticas versão 2.0 foi testado com relacionada 3.2.100. 
   
 1. Baixe o relacionada nos seguinte site: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis). 
     
@@ -212,7 +211,7 @@ O seguinte comando permite ver todas as opções:
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Para ver as informações do servidor que estão sendo importadas atualmente, execute o seguinte script:  
+Para ver as informações do servidor atualmente importado, execute o seguinte script: 
   
 ```
 .\Get-StatsManServerInfo.ps1
@@ -265,7 +264,7 @@ Se ocorrer falha na inicialização de um Agente, verifique o seguinte:
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Para obter informações sobre todos os eventos que talvez você veja no log de eventos de aplicativo, consulte [Solucionar problemas de Gerenciador de estatísticas para Skype para Business Server 2015](troubleshoot.md).
+Para obter informações sobre todos os eventos que talvez você veja no log de eventos de aplicativo, consulte [Solucionar problemas de Gerenciador de estatísticas para Skype para Business Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Criar um certificado autoassinado
 <a name="BKMK_SelfCert"> </a>
@@ -299,11 +298,11 @@ A Microsoft recomenda que você use um certificado assinado por uma autoridade d
 
 Para obter mais informações, consulte:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Planejar para o Gerenciador de estatísticas de Skype Business Server](plan.md)
     
-- [Upgrade Statistics Manager for Skype for Business Server 2015](upgrade.md)
+- [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Solucionar problemas de gerente de estatísticas para Skype para Business Server](troubleshoot.md)
     
 - [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
     

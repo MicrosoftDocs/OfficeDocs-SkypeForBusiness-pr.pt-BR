@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: 841a243b236219fc70c99264249567f2eee63081
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296299"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531700"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -114,7 +114,7 @@ O administrador também precisará remover os endereços da web para o bypass de
 
 Os clientes receberão o endereço web do serviço de bypass de mídia de um servidor DNS interno. O nome do serviço da web será o mesmo em todos os aparelhos de conector de nuvem e sites de PSTN do conector de nuvem. Em um ambiente complexo multissites, recomendamos usar a política de DNS do Windows 2016 para localização geográfica com base em gerenciamento de tráfego para que os clientes possam ser redirecionados para o serviço Web que seja local para a sua rede. 
   
-Para obter mais informações sobre políticas de DNS do Windows 2016, consulte [Usar diretivas de DNS para o gerenciamento de tráfego com base em localização geográfica com servidores primários](https://docs.microsoft.com/en-us/windows-server/networking/dns/deploy/primary-geo-location).
+Para obter mais informações sobre políticas de DNS do Windows 2016, consulte [Usar diretivas de DNS para o gerenciamento de tráfego com base em localização geográfica com servidores primários](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 Veja a seguir um exemplo de configuração para uma empresa com vários sites usando a Política DNS do Windows 2016 para Localização geográfica com base em gerenciamento de tráfego.
   

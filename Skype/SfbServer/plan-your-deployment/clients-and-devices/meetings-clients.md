@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: Profissionais de TI devem examinar os requisitos de suporte para o Skype para negócios Web App e Skype reuniões App durante o planejamento de Skype para Business Server. Este artigo não se destina os usuários desses aplicativos.'
-ms.openlocfilehash: c76770d570aaa1d1c686df7b0845e41a767cfbef
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293670"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531502"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planejar para clientes de reuniões (Web App e reuniões App)
  
@@ -38,7 +38,7 @@ No futuro, esses usuários podem criar reuniões e convidar usuários de fora da
   
 Por padrão, o servidor que hospeda a reunião direcionará o usuário baixe e instale o Skype para negócios Web App ingressar na reunião. O Skype para negócios Web App está armazenado no servidor Front-End e obtém enviada para participantes da reunião. 
   
-Para Skype para Business Server 2015, Skype reuniões App está disponível como um substituto do Skype para início de negócios Web App com CU5, mas fornecer o aplicativo de reuniões Skype requer configuração adicional descrita em [Habilitar Skype reuniões App substituir Skype para negócios Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Se Skype reuniões App for habilitada, os usuários serão baixar a versão mais recente do aplicativo do Office 365 conteúdo entrega rede (CDN), em vez do seu Skype para Business server. Para Skype para Business Server 2019 Skype reuniões App é a única opção.
+Para Skype para Business Server, Skype reuniões App está disponível como um substituto do Skype para início de negócios Web App com CU5, mas fornecer o aplicativo de reuniões Skype requer configuração adicional descrita em [Habilitar Skype reuniões App substituir Skype para negócios Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Se Skype reuniões App for habilitada, os usuários serão baixar a versão mais recente do aplicativo do Office 365 conteúdo entrega rede (CDN), em vez do seu Skype para Business server. Para Skype para Business Server 2019 Skype reuniões App é a única opção.
   
 Skype reuniões App oferece uma experiência de navegador simplificado para baixar e instalar o aplicativo e ingressar em reuniões, incluindo a associação de um clique para usuários do Internet Explorer. Skype reuniões App também tem vários aprimoramentos sobre theSkype para negócios Web App para obter confiabilidade e a experiência da reunião. 
   

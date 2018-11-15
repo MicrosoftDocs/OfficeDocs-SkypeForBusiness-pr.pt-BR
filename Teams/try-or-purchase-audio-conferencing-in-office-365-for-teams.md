@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 566cdfdcea7c12c053f8dac43d68ef75a3b29e4b
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: c404e427a83fc8b94d3f2a206e5c9c6b1ded5ed0
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296046"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533089"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Tente ou conferência de áudio no Office 365 for Microsoft Teams de compra
 
@@ -74,7 +74,9 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Etapa 2: Configure o provedor de serviços de audioconferência para pessoas que lideram ou agendam reuniões
 
-Quando você atribuir uma licença de **Audioconferência** para as pessoas na sua organização que lideram ou agendam reuniões, eles não precisarão de mais nada! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
+Quando você atribuir uma licença de **Serviços de audioconferência** para as pessoas na sua organização que não têm Skype para negócios integradas com um provedor de serviços de audioconferência de terceiros 3º, eles são definidas para cima e pronto para ir! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
+
+Se você tiver usuários habilitados com um provedor de serviços de audioconferência de terceiros 3º, você deverá alterar o provedor dos usuários para a Microsoft. Para alterar o provedor do usuário, consulte [Microsoft atribuir como um provedor de serviços de audioconferência](assign-microsoft-as-the-audio-conferencing-provider.md).
 
 ## <a name="step-3-other-admin-tasks"></a>Etapa 3: Outras tarefas de administração
 

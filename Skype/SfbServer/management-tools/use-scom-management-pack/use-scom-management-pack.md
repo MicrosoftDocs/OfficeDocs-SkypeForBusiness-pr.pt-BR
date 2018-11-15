@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: Saiba como configurar seu Skype para Business Server 2015 infra-estrutura para funcionar com o System Center Operations Manager.'
-ms.openlocfilehash: b94490c60234f76b0e07f0b7732d76cc2354eaad
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a1d1b87e3f28fbbb2b8023093a9781bb0dc2627
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20994959"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533284"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gerenciar o Skype for Business Server 2015 usando o pacote de gerenciamento do SCOM
  
@@ -38,11 +38,11 @@ Identificar e [Configurar o servidor de gerenciamento primário](configure-the-p
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>Suporte de agente e o servidor de gerenciamento do System Center Operations Manager raiz
 
-Os pacotes de gerenciamento podem ser usados com o System Center Operations Manager 2007 R2 (64-bit) (suportado apenas a fins de migração) ou o System Center Operations Manager 2012 SP1 &amp; R2 (64 bits). A tabela a seguir mostra as configurações suportadas para os pacotes de gerenciamento para Skype para Business Server 2015: 
+Os pacotes de gerenciamento podem ser usados com o System Center Operations Manager 2007 R2 (64-bit) (suportado apenas a fins de migração) ou o System Center Operations Manager 2012 SP1 &amp; R2 (64 bits) ou o System Center Operations Manager 2016 (64 bits). A tabela a seguir mostra as configurações suportadas para os pacotes de gerenciamento para Skype para Business Server 2015: 
   
 |**Configuração**|**Suporte?**|
 |:-----|:-----|
-|Sistema operacional Windows Server 2008 R2  <br/> Sistema operacional Windows Server 2012 R2  <br/> |Sim. Ambos em Skype para servidor de Business Server 2015 e nós do Inspetor de transação sintética.  <br/> |
+|Sistema operacional Windows Server 2008 R2  <br/> Sistema operacional Windows Server 2012 R2  <br/> |Sim. Ambos em Skype para servidor de Business Server 2015 e nós do Inspetor de transação sintética.  <br/> |
 |Servidores em Cluster  <br/> |Sem suporte.  <br/> |
 |Monitoramento sem agente  <br/> |Sem suporte.  <br/> |
 |Ambiente Virtual  <br/> |Sim.  <br/> |
@@ -57,7 +57,7 @@ A tabela a seguir mostra a capacidade e os requisitos de sistema operacional par
 |:-----|:-----|
 |CPU  <br/> |Um dos seguintes:  <br/> Processador de 64 bits, quad-core, 2.33 GHz ou superior  <br/> Processador de 2 vias e 64 bits, dual-core, 2.33 GHz ou superior  <br/> |
 |Memória  <br/> |8 GB  <br/> |
-|Sistema operacional  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Sistema operacional  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Rede  <br/> |1 adaptador de rede com 1 Gbps  <br/> |
    
 ## <a name="prerequisites"></a>Pré-requisitos
@@ -78,7 +78,7 @@ O pacote de monitoramento para Skype para Business Server 2015 inclui os seguint
     
 - Microsoft.LS.2015.Monitoring.ComponentAndUser.mp
     
-- Watchernode
+- Watchernode.msi
     
 ## <a name="whats-new"></a>Novidades
 
@@ -137,14 +137,14 @@ Skype para pacotes de gerenciamento de 2015 Business Server oferecem maior cober
 |8  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto do MCX (móvel)  <br/> |Disponíveis na versão de setembro de 2011 do Lync Server 2010 para Skype para negócios 2015  <br/> |
  
 > [!NOTE]
-> Suporte MCX para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Os usuários precisarem de atualização para um cliente atual.
+> Suporte MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Todos os Skype atual para clientes móveis do Business já use Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Usuários com clientes herdados usando MCX serão necessário atualizar para um cliente atual.
   
 **Transações Sintéticas Suportadas para Conferência e Chat Persistente**
 
 ||||
 |:-----|:-----|:-----|
 |9  <br/> |Conferências de áudio/vídeo  <br/> |Disponíveis no Lync Server 2010 e posteriores  <br/> |
-|10  <br/> |Conferência de dados  <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
+| 10  <br/> |Conferência de dados  <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
 |11  <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponíveis no Lync Server 2010 e posteriores  <br/> |
 |12  <br/> | Chat Persistente <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
 |13  <br/> |Iniciador de Ingresso (reuniões agendadas)  <br/> |Disponíveis no Lync Server 2013 e posteriores  <br/> |
@@ -201,53 +201,53 @@ A criação de um novo pacote de gerenciamento para armazenar personalizações 
 
 Os links abaixo conectam você com as informações sobre tarefas comuns que estão associados aos Pacotes de Monitoramento do System Center 2012:
   
-- [Ciclo de vida do pacote de gerenciamento](https://technet.microsoft.com/en-us/library/hh212732.aspx)
+- [Clico de Vida do Pacote de Gerenciamento](https://technet.microsoft.com/en-us/library/hh212732.aspx)
     
-- [Como importar um pacote de gerenciamento do Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212691.aspx)
+- [Como Importar um Pacote de Gerenciamento no Operations Manager 2012 ](https://technet.microsoft.com/en-us/library/hh212691.aspx)
     
-- [Como substituir um Monitor ou regra](https://technet.microsoft.com/en-us/library/hh212869.aspx)
+- [Como sobrepor uma Regra ou Monitor ](https://technet.microsoft.com/en-us/library/hh212869.aspx)
     
-- [Como criar uma execução como conta no Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
+- [Como Criar uma Conta Executar Como no Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh321655.aspx)
     
-- [Gerenciando executar como contas e perfis](https://technet.microsoft.com/en-us/library/hh212714.aspx)
+- [Gerenciando Contas Executar como e Perfis](https://technet.microsoft.com/en-us/library/hh212714.aspx)
     
-- [Como exportar um pacote de gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
+- [Como Exportar um Pacote de Gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh320149.aspx)
     
-- [Como remover um pacote de gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
+- [Como Remover um Pacote de Gerenciamento do Operations Manager](https://technet.microsoft.com/en-us/library/hh230746.aspx)
     
 Os links abaixo conectam você com as informações sobre tarefas comuns que estão associados aos Pacotes de Monitoramento do System Center 2007:
   
-- [Administrando o ciclo de vida do pacote de gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=211463)
+- [Administrando o Ciclo de Vida do Pacote de Gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=211463)
     
-- [Como importar um pacote de gerenciamento do Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
+- [Como Importar um Pacote de Gerenciamento no Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=142351)
     
-- [Como monitorar usando substitui](https://go.microsoft.com/fwlink/p/?LinkID=117777)
+- [Como Monitorar Usando Substituições](https://go.microsoft.com/fwlink/p/?LinkID=117777)
     
-- [Como criar uma execução como conta no Operations Manager 2007](https://go.microsoft.com/fwlink/p/?LinkID=165410)
+- [Como Criar uma Conta Executar como no Operations Manager 2007 ](https://go.microsoft.com/fwlink/p/?LinkID=165410)
     
-- [Como modificar um tempo de execução como perfil existente](https://go.microsoft.com/fwlink/p/?LinkID=165412)
+- [Como Modificar um Perfil Executar como Existente](https://go.microsoft.com/fwlink/p/?LinkID=165412)
     
-- [Como exportar personalizações do pacote de gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209940)
+- [Como Exportar Personalizações do Pacote de Gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209940)
     
-- [Como remover um pacote de gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209941)
+- [Como Remover um Pacote de Gerenciamento](https://go.microsoft.com/fwlink/p/?LinkId=209941)
     
-Para fazer perguntas sobre o Operations Manager e pacotes de monitoramento, consulte o [Fórum da comunidade do System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
+Para perguntas sobre o Operations Manager e pacotes de monitoramento, consulte o [fórum da comunidade do System Center Operations Manager](https://go.microsoft.com/fwlink/p/?LinkID=179635).
   
 Um recurso útil é o blog do [System Center Operations Manager Unleashed](https://opsmgrunleashed.wordpress.com/) , que contém "Por exemplo" postagens para pacotes de monitoramento específicos.
   
 Para obter informações adicionais sobre o Operations Manager, consulte os seguintes blogs: 
   
-- [Blog da equipe do Operations Manager](https://blogs.technet.com/momteam/default.aspx)
+- [Blog da Equipe do Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog de OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
+- [Blog do OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
     
 - [Ideias sobre OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
 - [Blog de Raphael Burri](https://rburri.wordpress.com/)
     
-- [Espaço de gerenciamento do BWren](https://blogs.technet.com/brianwren/default.aspx)
+- [Gerenciamento de Espaço de BWren](https://blogs.technet.com/brianwren/default.aspx)
     
-- [Operações Mgr + +](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
+- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
 > Todas as informações e conteúdos em sites que não sejam da Microsoft são fornecidos pelo proprietário ou por usuários do website. A Microsoft não oferece garantias expressas, implícitas ou estatutárias relativas às informações contidas nesse website. 

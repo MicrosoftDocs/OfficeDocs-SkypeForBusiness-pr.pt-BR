@@ -14,11 +14,11 @@ description: Exemplos de como usar o PowerShell para definir políticas em equip
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f802c2b67c0a4cd4b0838dd9aeec9c4bbf884968
-ms.sourcegitcommit: 2e9761a3b195d31080bff3c9cc17a18adcd5350e
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2018
-ms.locfileid: "25749160"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26535870"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Use o PowerShell para definir políticas de eventos ao vivo em Teams da Microsoft
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

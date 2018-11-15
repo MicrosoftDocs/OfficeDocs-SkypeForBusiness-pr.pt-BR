@@ -3,27 +3,28 @@ title: Acesso de convidados no Microsoft Teams
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8f5c5d0af754321770a47944d8f95db5ec573fd
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4d13a48856aae71634ed6588a714d578416ed594
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293529"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531139"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso de convidados no Microsoft Teams
 ======================================
 
 O acesso de convidados é uma novidade no Microsoft Teams. É um dos recursos mais solicitados pelos clientes. Ainda estamos trabalhando nele, aprimorando suas funcionalidades. Veja como acompanhar nosso progresso em relação a esse recurso e enviar seus comentários:
+
 - Se tiver problemas com o acesso de convidados, confira [Problemas conhecidos do Microsoft Teams](Known-issues.md).
 - Conheça recursos novos ou atualizados no [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap).
 - Diga como podemos deixar o [Teams UserVoice](https://aka.ms/TeamsUserVoice) ainda melhor.
@@ -37,19 +38,28 @@ Qualquer pessoa com uma conta de email de consumidor ou de negócios, como o Out
 O acesso de convidados está incluído em todas as inscrições do Office 365 Business Premium, Office 365 Enterprise e Office 365 Education. Não é necessária nenhuma licença adicional do Office 365. O acesso de convidados é uma configuração em nível de locatário no Microsoft Teams está desabilitada por padrão.
 
 
+## <a name="what-is-a-guest"></a>O que é um convidado?
 
 Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa pode ser adicionada como convidado no Microsoft Teams. Isso significa que qualquer pessoa com uma empresa (com uma conta do Windows Azure Active Directory) ou uma conta de email do consumidor (com Outlook.com, Gmail.com ou outras pessoas) pode participar como um convidado em equipes com acesso total a chats de equipes, reuniões e arquivos.
+
 Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD.
 
 > [!NOTE]
-> Usuários em sua organização com planos de assinatura autônomo Office 365 apenas, como Exchange Online plano 2, não podem ser convidados como convidado para a sua organização desde que equipes considera que esses usuários para pertencem à mesma organização. Esses usuários usem equipes, eles devem ser atribuídos com assinaturas de educação do Office 365, Office 365 Enterprise e Business Premium do Office 365.  
+> Usuários em sua organização com planos de assinatura autônomo Office 365 apenas, como o Exchange Online plano 2, não podem ser convidados como convidados para sua organização desde que equipes considera que esses usuários para pertencem à mesma organização. Esses usuários usem equipes, eles devem ser atribuídos a uma assinatura do Office 365 Business Premium, Office 365 Enterprise ou educação do Office 365.  
       
+As organizações que utilizam o Teams podem conceder acesso externo a equipes, documentos em canais, recursos, bate-papos e aplicativos para seus parceiros, mantendo o controle total dos seus próprios dados corporativos. Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e convidados podem ser gerenciados com segurança dentro do Azure Active Directory. 
 
-As organizações que utilizam o Teams podem conceder acesso externo a equipes, documentos em canais, recursos, bate-papos e aplicativos para seus parceiros, mantendo o controle total dos seus próprios dados corporativos. Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e convidados podem ser gerenciados com segurança dentro do Azure Active Directory.  
+## <a name="how-does-guest-access-compare-to-federation-external-access"></a>Como o acesso de convidado se compara à Federação (acesso externo)?
 
-O Teams é construído em cima dos grupos do Office 365 e proporciona uma nova forma de acessar recursos compartilhados para um grupo do Office 365. O Teams é a melhor solução de bate-papo persistente entre os membros doe grupos/equipes. Os grupos do Office 365 são um serviço que oferece assinatura cruzada de aplicativos para um conjunto de ativos compartilhados de equipe, como um site do SharePoint ou um painel de controle do Power BI, para que a equipe possa colaborar de forma eficaz e segura.
+Acesso de convidado difere de acesso externo (também conhecido como federação) da seguinte maneira:
 
-    
+-   Com acesso de convidado, um usuário convidado possui acesso para uma equipe de equipes específico que o usuário é convidado para e pode acessar os recursos de equipe específica como canais e arquivos. O usuário convidado também pode conversar com e membros da equipe de chamada.
+
+-   Com federação ou acesso externo, um usuário externo pode ter chats de 1:1 e chamadas com um usuário de outra organização por meio de equipes ou Skype para negócios. Os usuários federados não podem acessar quaisquer recursos da equipe. Comparado ao acesso de convidado, acesso externo permite a comunicação entre organização (se permitido pela políticas) sem qualquer convite explícito, mas é limitado ao chat e chamar somente.
+
+## <a name="teams-and-office-365-groups"></a>Equipes e grupos do Office 365
+
+As equipes se baseia em grupos do Office 365 e fornece uma nova maneira de acessar ativos compartilhados para um grupo do Office 365. O Teams é a melhor solução de bate-papo persistente entre os membros doe grupos/equipes. Os grupos do Office 365 são um serviço que oferece assinatura cruzada de aplicativos para um conjunto de ativos compartilhados de equipe, como um site do SharePoint ou um painel de controle do Power BI, para que a equipe possa colaborar de forma eficaz e segura.
 
 ## <a name="more-information"></a>Mais informações
 

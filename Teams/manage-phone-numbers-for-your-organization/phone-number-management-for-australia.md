@@ -23,17 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone na Austrália para Skype para Business Online e Teams da Microsoft.
-ms.openlocfilehash: b897a9f857b6703ed0ada636c16aa76393501257
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 88db4b1410071793622c5bab7e528c51180c7a80
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296291"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532752"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de número de telefone da Austrália
-> [!IMPORTANT]
-> Austrália só está disponível para visualização e clientes de clientes a adotar antecipado. Para obter mais informações, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).
-
 Na Austrália, podemos ter uma parceria com Sprint para a compra e o provisionamento de planos de chamada. Sprint vender chamar planos e fornecem o suporte para gerenciamento número de telefone para números de usuário e de serviço para atendedores automáticos e filas de chamada. No entanto, os números de serviço e licenças para audioconferências serão ainda vendidas e gerenciadas pelo Office 365.
 
 Para obter mais informações sobre o [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).

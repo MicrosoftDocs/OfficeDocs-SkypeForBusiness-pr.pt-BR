@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para os Estados Unidos (e Porto Rico).
-ms.openlocfilehash: 19ade78d5f0e9a50d2e312f27cbd2e77ba387840
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4998a742bdfdcf23d6f20a4f00ec889f9ef838eb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295460"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531004"
 ---
 # <a name="phone-number-management-for-the-us"></a>Gerenciamento de números de telefone para os EUA
 
@@ -41,9 +41,10 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 |:-----|:-----|
 |Obtenha novos números de telefone do usuário que não estão listados no Skype para centro de administração de negócios.  <br/> |Baixe o formulário [Solicitação de novo número de telefone para os Estados Unidos (números de usuário) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.s.-(user-numbers)-(v.3.0)-(en-us).pdf?raw=true) e preencha-o. Depois, [envie-o para nós](mailto:gcstnmsd@microsoft.com).  <br/> |
 |Obtenha novos números de telefone do serviço que não estão listados no Skype para centro de administração de negócios. <br/> |Para números de serviço dentro dos Estados Unidos, faça o [download este formulário](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-inside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), preencha-out e [enviá-la para nós](mailto:ptn@microsoft.com).
-|Você precisa obter números de telefone transferidos para nós.  <br/> | Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para os EUA (números de usuário e de serviço) (v.3.1)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.1)-(en-us).pdf?raw=true)<br/>[Carta de Autorização (LOA) para os Estados Unidos (números de chamada gratuita) (v.3.2)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**Observação:** se você estiver tentando obter mais de 999 números de telefone de usuário ou assinante, será necessário preencher uma Carta de Autorização (LOA) e enviá-la para nós. Veja [Transferir números de telefone para o Office 365](../transfer-phone-numbers-to-office-365.md) para obter mais informações.          <br/>  <br/>   Preencha o formulário e [o envie para nós](mailto:ptn@microsoft.com).  <br/> |
+|Você precisa obter números de telefone transferidos para nós.  <br/> | Baixe um destes formulários: <br/> [Letra de autorização (LOA) para EUA (números de usuário e de serviço) (v.3.2)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/>[Carta de Autorização (LOA) para os Estados Unidos (números de chamada gratuita) (v.3.2)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.2)-(en-us).pdf?raw=true)<br/><br/>**Observação:** se você estiver tentando obter mais de 999 números de telefone de usuário ou assinante, será necessário preencher uma Carta de Autorização (LOA) e enviá-la para nós. Veja [Transferir números de telefone para o Office 365](../transfer-phone-numbers-to-office-365.md) para obter mais informações.          <br/>  <br/>   Preencha o formulário e [o envie para nós](mailto:ptn@microsoft.com).  <br/> |
 |Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptn@microsoft.com) seu PIN e a lista de números de usuário que você deseja converter em números de serviço. Para configurar um PIN, vá [aqui](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 |Você precisa transferir números de uma organização do Office 365 para outra.  <br/> |[Envie-nos](mailto:ptn@microsoft.com) a lista de números de telefone de usuário (assinantes) que você deseja transferir junto com o PIN da organização de origem cujos números você deseja transferir. Para configurar um PIN, vá [aqui](/skypeforbusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
+|||
    
 ## <a name="related-topics"></a>Tópicos relacionados 
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Instalar os arquivos de agente do Operations Manager no Skype para Business Server 2019 computador a serem monitorados e configure o computador para atuar como um proxy do System Center.'
 ms.openlocfilehash: 315854c8a249bde4f09710d7b8f1e0be95add132
-ms.sourcegitcommit: 139b3d3b7fcc1dd7fba7fd14ff34e4ffdfcc7eeb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "26216080"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26535990"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurar os computadores que serão monitorados no Skype for Business Server
 

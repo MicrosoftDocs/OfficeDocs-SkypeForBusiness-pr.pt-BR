@@ -1,7 +1,7 @@
 ---
 title: Entender a coexistência e interoperabilidade do Skype para Teams da Microsoft e de negócios
-author: arachmanGitHub
-ms.author: arachman
+author: lsomi
+ms.author: lsomi
 manager: serdars
 ms.date: 09/21/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 158e563151fe426f6abbbeb7519ba9e793f2d202
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296414"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532435"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -34,7 +34,7 @@ Se sua organização usa Skype para negócios hoje e você pretende começar a u
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Coexistência de equipes e Skype para negócios
 
-Além dos recursos de colaboração, equipes oferece o bate-papo, chamadas e capacidades de reunião. Dependendo de como você optar por implantar equipes, esses recursos podem sobrepor-se com os recursos fornecidos pelo Skype for Business para um determinado usuário. O modo padrão será executada equipes junto com Skype para negócios; No entanto, um usuário pode ser atribuído um dos vários modos de coexistência que foram projetados para garantir que esses recursos não se sobrepõem para esse usuário.
+Além dos recursos de colaboração, equipes oferece o bate-papo, chamadas e capacidades de reunião. Dependendo de como você optar por implantar equipes, esses recursos serão sobrepostas com os recursos fornecidos pelo Skype for Business para um determinado usuário. O modo padrão será executada equipes junto com Skype para negócios; No entanto, um usuário pode ser atribuído um dos vários modos de coexistência que foram projetados para garantir que esses recursos não se sobrepõem para esse usuário.
 
 Recomendamos que você examine os modos de coexistência descritos a seguir para ajudar a determinar qual caminho é certo para sua organização.
 
@@ -48,7 +48,7 @@ Por padrão, os usuários podem executar as equipes junto com Skype para negóci
 Neste modo de coexistência, chamado **Ilhas**, cada um dos aplicativos cliente opera como uma ilha separada. Skype para fala de negócios para Skype for Business e equipes conversa com equipes. Os usuários executar ambos os clientes e podem se comunicar nativamente no cliente do qual a comunicação foi iniciada. Sendo assim, não é necessário para interoperabilidade no modo de **Ilhas** .
 
 > [!Tip]
-> Quando os modos de futuros modos **Somente equipes** e **Skype for Business com colaboração de equipes** estão disponíveis, o modo de padrão para novos usuários online deve ser o **Skype for Business com colaboração de equipes**, até que a sua organização está pronta para Mova para **Equipes apenas**.Os usuários existentes no modo de **Ilhas** devem mover diretamente para o modo **Somente equipes** assim que sua organização está pronta. 
+> Skype para o caminho recomendado de clientes corporativos Online é iniciar com o modo de **Ilhas** padrão, unidade saturação de adoção na organização e mover para o modo **Somente equipes** rapidamente. No local e híbrido clientes serão beneficiados com Implantando o modo futuro do **Skype for Business com colaboração de equipes** como um ponto de partida ao invés Ilhas e andamento a partir daí, para o modo de **Equipes somente** quando a organização está pronta para adotar Equipes. 
 
 ### <a name="skype-for-business-only"></a>Skype para negócios apenas
 
@@ -56,7 +56,7 @@ Neste modo de coexistência, usuários permanecem no Skype para negócios — n�
 
 ### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>As equipes apenas (esse modo iniciado sem interrupção abrindo verão 2018 e serão completadas a todos os locatários por queda 2018)
 
-Assim que sua organização está pronta para alguns ou todos os usuários usem equipes como seu única ferramenta de comunicação e colaboração, você pode atualizar esses usuários para o modo de **equipes apenas** .
+Assim que sua organização está pronta para alguns ou todos os usuários usem equipes como seu única ferramenta de comunicação e colaboração, você pode atualizar esses usuários para o modo **Somente equipes** .
 
 Um usuário de **equipes apenas** só pode usar o Skype para o cliente de negócios para ingressar Skype existente para reuniões de negócios ou reuniões em Skype for Business que foram organizadas por usuários não atualizado ou parceiros externos. Um usuário atualizado pode continuar a se comunicar com outros usuários na organização que ainda estejam usando Skype para negócios usando os recursos de interoperabilidade entre equipes e Skype para negócios; No entanto, um usuário atualizado não é possível iniciar uma Skype para negócios bate-papo, chamada ou reunião.
 
@@ -64,13 +64,13 @@ Um usuário de **equipes apenas** só pode usar o Skype para o cliente de negóc
 
 ### <a name="skype-for-business-with-teams-collaboration-this-mode-is-upcoming"></a>Skype for Business com colaboração de equipes (esse modo é futuro)
 
-Use este modo apresentar equipes em seu ambiente enquanto você continuar a aproveitar seus investimentos existentes no Skype para negócios. Neste modo, você deixar Skype para negócios inalterado com bate-papo, chamadas e capacidades de reunião, e você adicionar recursos de colaboração de equipes — equipes e canais, o acesso a arquivos no Office 365 e aplicativos.
+Use este modo apresentar equipes em seu ambiente enquanto você continuar a aproveitar seus investimentos existentes no Skype para negócios. Neste modo, você deixar Skype para negócios inalterado com bate-papo, chamadas e capacidades de reunião, e você adicionar recursos de colaboração de equipes — equipes e canais, o acesso a arquivos no Office 365 e aplicativos. Organizações com iniciando ponto do Skype para Business server no local ou híbrida devem usar esse modo, em vez de modo Ilhas.
 
-### <a name="skype-for-business-with-teams-collaboration-and-meetings-this-mode-is-upcoming"></a>Skype for Business com colaboração de equipes e reuniões (esse modo é futuro)
+### <a name="skype-for-business-with-teams-collaboration-and-meetings-this-mode-is-upcoming"></a>Skype for Business com reuniões e colaboração de equipes (esse modo é futuro)
 
 Use este modo de coexistência para acelerar a disponibilidade das equipes de recursos em sua organização, além dos seus recursos de colaboração da reunião, permitindo que os usuários para aproveitar a excelente qualidade, novos recursos como transcrição e conversão e suporte para reuniões em navegadores.
 
-Junto com usando equipes para equipes e baseada no canais de conversas neste modo, os usuários iniciam usando equipes para agendar e conduzir suas reuniões. Bate-papos privadas e voz e chamadas de vídeo, permanecem no Skype para negócios. Esse modo de coexistência é especialmente útil para usuários no Skype para negócios local implantações que tem o enterprise voice, que são provavelmente levar algum tempo para ser atualizada para equipes
+Junto com usando equipes para equipes e baseada no canais de conversas neste modo, os usuários iniciam usando equipes para agendar e conduzir suas reuniões. Bate-papos privadas e voz e chamadas de vídeo, permanecem no Skype para negócios. Esse modo de coexistência é especialmente útil para usuários no Skype para implantações em instalações de negócios que tem o enterprise voice, que tendem a levar algum tempo para ser atualizada para equipes, mas desejar se beneficiar as reuniões de equipes superiores.
 
 > [!Note]
 > Quando implantado em modos de coexistência específico, equipes e Skype para negócios podem [interoperar](#interoperability-of-teams-and-skype-for-business), permitindo que os usuários conversar com e chamadas entre si e garantir que o communications permaneçam fluida em toda a organização durante sua atualização jornada às equipes. Modos de coexistência regem interoperabilidade. O modo de coexistência do receptor determina se a interoperabilidade estará disponível. Por exemplo, se o receptor estiver em um modo no qual o bate-papo só está disponível em um cliente (digamos, equipes), interoperabilidade de bate-papo geralmente será disponível no caso do iniciador usa outro cliente (no caso, Skype para negócios) para iniciar o bate-papo. Por outro lado, se o receptor estiver em um modo no qual o chat está disponível nos dois clientes, interoperabilidade não estarão disponível para o bate-papo — e a mensagem será recebida pelo receptor no mesmo cliente no qual o iniciador iniciado o bate-papo.
@@ -108,7 +108,7 @@ Dependendo dos modos de coexistência atribuídos aos usuários (conforme descri
 > [!Important]
 > Experiências de interoperabilidade com uma implantação local do Skype para a empresa exigem que o ambiente local está no modo de híbrido com Skype do Office 365 para empresas. Para obter detalhes, consulte as [orientações de interoperabilidade e migração](https://aka.ms/SkypeToTeams-Interop).
 
-Estas experiências interoperabilidade estão disponíveis para usuários que têm um dos seguintes modos de coexistência atribuída: **Skype for Business com colaboração de equipes**, **Skype for Business com reuniões e colaboração de equipes**, apenas **Skype para negócios **, ou **equipes apenas**.
+Estas experiências interoperabilidade estão disponíveis para e entre os usuários que têm um dos seguintes modos de coexistência atribuída: **Skype for Business com colaboração de equipes**, **Skype for Business com reuniões e colaboração de equipes**, **Skype para Somente os negócios**, ou **equipes apenas**. Não há nenhuma interoperabilidade aos usuários no modo de ilhas.
 
 
 ### <a name="native-interop-experience-limitations"></a>Limitações de experiência de interoperabilidade nativo

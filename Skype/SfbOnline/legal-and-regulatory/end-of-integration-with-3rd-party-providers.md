@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Em de 2019, 1 de abril, concluímos final do programa de vida para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros (3º ACP de terceiros).
-ms.openlocfilehash: c5f39570c7f570dfc4102105a72f277221356051
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 99643ae8d7ff00ffb006ec5a19ef97ab6f551d83
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293660"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532380"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Fim do programa de vida para a integração do Skype for Business com provedores de serviços de audioconferência de terceiros 
 
@@ -86,13 +86,13 @@ As organizações que decidir continuar usando um ACP de terceiros em e depois e
 
 Para evitar a fragmentação de áudio no Skype para reuniões de negócios, fazendo com que alguns participantes ingressando via VoIP e outros via o ACP de terceiros, é recomendável para essas empresas desabilitar o uso de VoIP reuniões dos seus usuários. Dessa maneira, todos os participantes precisarão participem do áudio de uma reunião usando o ACP de terceiros e todas as outras cargas de trabalho de reunião (por exemplo, chat ou compartilhamento de tela) podem continuar a ser suportados pela Skype para negócios. 
 
-- Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da sua política de conferência como false por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+- Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da sua política de conferência como false por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
 Em termos de agendamento e desde 1º de abril de 2019, as informações de discagem de um ACP de terceiros serão não são mais automaticamente incluídas no Skype para convites de reunião de negócios. Os usuários precisarão adicionar manualmente que as informações de discagem em seu Skype para reunião de negócios convidam se ele quiser continuar incluindo essas informações como parte de suas reuniões. 
 
 Observe que em 1º de abril de 2019, as reuniões existentes de usuários não ser reagendadas automaticamente para remover qualquer terceiro ACP informações de discagem. As organizações que decidir VoIP ativado para as reuniões de seus usuários devem considerar desabilitar a integração de ACP de terceiros para seus usuários e reagende suas reuniões usando a reunião de manter o serviço de migração para remover o áudio de terceiros conferência informações de discagem de suas reuniões existentes e evitar a fragmentação de áudio em reuniões já agendadas. 
 
-- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
 - Para automaticamente reagendar as reuniões dos usuários depois de desabilitar a integração com um provedor de serviços de audioconferência de terceiros, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
@@ -102,11 +102,11 @@ Observe que em 1º de abril de 2019, as reuniões existentes de usuários não s
 
 - É recomendável que o VoIP está desabilitada para todas as reuniões de todos os usuários afetados antes de 1º de abril de 2019 para impedir que o áudio sendo fragmentada participantes ingressando via VoIP e por meio de um ACP de terceiros. 
 
-    - Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da política de conferência do usuário como false por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+    - Para desabilitar o VoIP de todas as reuniões de um determinado organizador, defina o parâmetro AllowIPAudio da política de conferência do usuário como false por meio do cmdlet Set-CsConferencingPolicy. Para obter informações adicionais, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
  
 - Se uma organização não desabilitar VoIP para todas as reuniões, é recomendável para os usuários a ser desabilitado utilizem o Skype para integração de Business Online com um ACP de terceiros e reagende suas reuniões para remover as terceiro ACP informações de discagem para impedir a fragmentação de áudio.
 
-    - Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps) . 
+    - Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) . 
 
     - Para automaticamente reagendar as reuniões, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).
 
@@ -116,7 +116,7 @@ As organizações que decidir parar de usar a conferência discada completamente
 
 Essas organizações precisaria impedir que os seus usuários usando um provedor de serviços de audioconferência de terceiros e têm suas reuniões automaticamente reagendadas usando a migração de reunião pessoal para remover as suas informações de conferência discada. 
 
-- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
 - Para automaticamente reagendar as reuniões dos usuários depois de desabilitar a integração com um provedor de serviços de audioconferência de terceiros, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md). 
 
@@ -124,6 +124,6 @@ Essas organizações precisaria impedir que os seus usuários usando um provedor
 
 - As organizações que decidir parar de usar os serviços de audioconferência completamente antes de 1º de abril de 2019, não serão afetadas.
 
-- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/remove-csuseracp?view=skype-ps). 
+- Para desabilitar a integração de serviços de audioconferência de terceiros para um determinado organizador, use o cmdlet Remove-CsUserAcp. Para obter informações adicionais, consulte [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps). 
 
 - Para automaticamente reagendar as reuniões dos usuários depois de desabilitar a integração com provedores de serviços de audioconferência de terceiros, consulte "Como executar migração de reunião manualmente para um usuário?" em [configuração de backup serviço de migração de reunião (MMS)](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md).

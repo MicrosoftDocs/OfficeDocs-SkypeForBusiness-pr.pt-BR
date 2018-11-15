@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envie aos sus usuários um e-mail com as informações da audioconferência no Microsoft Teams.
-ms.openlocfilehash: 3b1cb1eb4fcf654a4ab3d3cb227416b0cf700817
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 78fc4c0c071c4cc66c4bc20339dcda52b2be2890
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294917"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532390"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams
 
@@ -69,8 +69,6 @@ Aqui está um exemplo do e-mail que é enviado:
   - Quando o provedor de serviços de audioconferência para um usuário mudou da Microsoft para outro provedor ou **Nenhum**.
     
   - Quando o provedor de serviços de audioconferência para um usuário é alterado para Microsoft.
-    
-- Por padrão, o remetente dos e-mails será do Office 365, mas você pode alterar o endereço de email e nome para exibição usando o Windows PowerShell. Consulte a [referência do PowerShell de equipes da Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso Skype para as ferramentas de telemetria Business Online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: e9039d3865e3baf5740f4f7489b1a7cfec6dea98
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: d704f23f9b8260e8d755c4d1f0f48da927859ba1
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295172"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530532"
 ---
 # <a name="plan-call-data-connector"></a>Planejar o conector de dados de chamada
 
@@ -46,7 +46,7 @@ As ferramentas CQD e uma análise de chamada permitem que você monitorar a qual
 
 - Painel de controle de qualidade de chamada se concentra no desempenho da rede e questões em toda a organização. Skype para administradores de negócios e os engenheiros de rede usar essa ferramenta para solucionar problemas e otimizar o desempenho da rede.
 
-Para obter mais informações, consulte [análise de chamada e o painel de controle de qualidade de chamada](https://docs.microsoft.com/en-us/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
+Para obter mais informações, consulte [análise de chamada e o painel de controle de qualidade de chamada](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard).
 
 Obviamente, você talvez queira manter alguns dados de qualidade de chamada no local. Isso pode ser o caso, por exemplo, se você estiver usando uma solução de terceiros com fluxos de trabalho e relatórios personalizados.  Conector de dados de chamada permite que você configure o envio de dados para o serviço online enquanto mantém também uma cópia dos dados no servidor local, conforme mostrado no diagrama a seguir:
 
@@ -55,7 +55,7 @@ Obviamente, você talvez queira manter alguns dados de qualidade de chamada no l
 
 ## <a name="requirements"></a>Requisitos
 
-Os requisitos a seguir pressupõem que você já tem Skype para Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre como implantar o Skype para Business Server e topologias com suporte, consulte [Noções básicas de topologia](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar o conector de dados da chamada, você deve:
+Os requisitos a seguir pressupõem que você já tem Skype para Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre como implantar o Skype para Business Server e topologias com suporte, consulte [Noções básicas de topologia](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar o conector de dados da chamada, você deve:
 
 - Habilite conectividade híbrida. Se você já tiver Skype para Business Server implantado e você deseja habilitar o conector de dados de chamadas, certifique-se de que você tem conectividade híbrida configurada entre seu local e ambientes on-line. Às vezes, isso é chamado uma configuração de domínio dividido. 
 

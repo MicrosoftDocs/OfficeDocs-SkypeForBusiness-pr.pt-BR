@@ -1,30 +1,29 @@
 ---
-title: Atualização do Gerenciador de estatísticas do Skype for Business Server 2015
+title: Atualizar o Gerenciador de estatísticas para Skype para Business Server
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.date: 1/10/2017
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Resumo: Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server 2015.'
-ms.openlocfilehash: d10dd5cd92fc0d7dbbb3285c43df78e8149f58c0
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Resumo: Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server.'
+ms.openlocfilehash: f783534c52b59b5910dbd975c4e29642e18b67b7
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295703"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531473"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server-2015"></a>Upgrade Statistics Manager for Skype for Business Server 2015
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Atualizar o Gerenciador de estatísticas para Skype para Business Server
  
-**Resumo:** Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server 2015.
+**Resumo:** Leia este tópico para saber como atualizar o Gerenciador de estatísticas Skype for Business Server.
   
 Este tópico descreve como atualizar uma instalação existente do Gerenciador de estatísticas Skype for Business Server — uma ferramenta poderosa que permite que você visualize Skype para dados de integridade e desempenho do servidor de negócios em tempo real. Você pode sondar dados de desempenho em centenas de servidores por cada alguns segundos e exiba os resultados instantaneamente no site do Gerenciador de estatísticas. 
   
-Para obter mais informações sobre o Gerenciador de estatísticas e os novos recursos na versão 1.1, consulte [Planejar para o Gerenciador de estatísticas de Skype para Business Server 2015](plan.md) e o [Gerente estatísticas implantar Skype para Business Server 2015](deploy.md). Para obter informações sobre problemas conhecidos corrigidos na versão 1.1, veja [Problemas conhecidos corrigidos na versão 1.1](upgrade.md#BKMK_Fixed).
+Para obter mais informações sobre o Gerenciador de estatísticas e os novos recursos na versão 2.0, consulte [Planejar para o Gerenciador de estatísticas de Skype para Business Server](plan.md) e o [Gerente estatísticas implantar Skype para Business Server](deploy.md).
   
 Existem dois métodos para a atualização:
   
@@ -100,35 +99,19 @@ Se, por algum motivo, a atualização automatizada falhar, é possível executar
     >   Mantenha o Redis instalado para que os dados no cache sejam mantidos durante o processo de atualização.
   
 2. 	Instale as novas versões dos componentes, incluindo os valores salvos acima quando solicitados. Para obter mais informações sobre como instalar componentes, veja [Implantar o Gerenciador de Estatísticas](deploy.md#BKMK_Deploy)
-    
-## <a name="known-issues-fixed-in-release-11"></a>Problemas conhecidos corrigidos na versão 1.1
-<a name="BKMK_Fixed"> </a>
 
-Os seguintes problemas conhecidos foram corrigidos na versão 1.1:
-  
-- Interface do usuário/Server/Agent - diversas melhorias no desempenho e confiabilidade significativa
-    
-- Interface do usuário - controle de filtro principal agora classificará corretamente com diferentes casos (foi gerando pessoas pensar determinados servidores não estavam no sistema quando fossem)
-    
-- Servidor - Os componentes de servidor agora serão instalados em servidores que não estiverem em inglês.
-    
-- Servidor/Agente - Em alguns casos, os componentes de agente e servidor não eram instalados, com erros .NET devido a uma versão específica do .NET 4.0. Isso foi resolvido.
-    
-- Agente - estendido adicionado para o agente de StatsMan do log de eventos. O agente não travará mais quando instalado em um servidor que não está na topologia, isso agora é registrado no log de eventos, junto com muitas outras possíveis condições de erro.
-    
-- Interface do usuário - clientes Web usando o navegador Chrome veria vários prompts de logon quando usando um computador cliente não ingressou no mesmo grupo de trabalho ou domínio como o servidor Web do Gerenciador de estatísticas. Agora, apenas um único logon deve ser exigido por sessão.
     
 ## <a name="for-more-information"></a>Para obter mais informações
 <a name="BKMK_Fixed"> </a>
 
 Para obter mais informações, consulte:
   
-- [Plan for Statistics Manager for Skype for Business Server 2015](plan.md)
+- [Planejar para o Gerenciador de estatísticas de Skype Business Server](plan.md)
     
-- [Deploy Statistics Manager for Skype for Business Server 2015](deploy.md)
+- [Implantar o Gerenciador de estatísticas para Skype para Business Server](deploy.md)
     
-- [Troubleshoot Statistics Manager for Skype for Business Server 2015](troubleshoot.md)
+- [Solucionar problemas de gerente de estatísticas para Skype para Business Server](troubleshoot.md)
     
-- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/skypestatsman/)
+- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
     
 

@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1fb82f57035f238ce222bf7f21b72983d21075
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 4f3145455553c8126d66b3e56b69ec646f5f19ad
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295910"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530692"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -35,9 +35,17 @@ Leia o anúncio feito em 12 de dezembro de 2017, dos Planos de Chamadas no Micro
 Com a inclusão dos Planos de Chamadas, um recurso do Office 365 acionado pelo Skype for Business, agora você pode usar o Microsoft Teams para fazer e receber chamadas de telefones fixos e celulares pela PSTN (Rede Telefônica Pública Comutada).
 
 ![Fazendo chamadas no Microsoft Teams](media/Calling_in_Teams.png)
-
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Pré-requisitos para habilitar a guia **Chamadas** no Microsoft Teams
-Para habilitar a guia **Chamadas** no Microsoft Teams e permitir que os usuários façam e recebam chamadas PSTN, será necessário provisionar os usuários para o Sistema de Telefonia e os Planos de Chamadas. Para saber como configurar isso, leia [Configurar Planos de Chamadas](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans).
+Para habilitar a guia **chamadas** em equipes os usuários precisam ter o 1:1 chamando ativados nas equipes e usando um cliente de equipes que ofereça suporte a chamada de equipes de 1:1. Para saber como gerenciar 1:1 chamando em equipes, leia [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber quais clientes suportam a chamada, leia [limites e as especificações para equipes da Microsoft](https://docs.microsoft.com/en-us/microsoftteams/limits-specifications-teams).
+
+> [!NOTE]
+> Atualmente, caixa postal não estarão disponível na guia chamadas, a menos que o usuário está habilitado para chamadas PSTN. 
+
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Pré-requisitos para habilitar o **Teclado de discagem** em equipes
+Para habilitar a guia **Teclado de discagem** em equipes e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamada. Para saber como configurar planos de chamada, leia [Configurar planos de chamada](https://docs.microsoft.com/en-us/microsoftteams/set-up-calling-plans).
+
+> [!NOTE]
+> Você também pode usar o roteamento direto para permitir que os usuários Obrigat e receber chamadas PSTN. Para saber como configurar o roteamento direto, leia a [Configurar o roteamento direto](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
 ## <a name="teams-interop-policy-configuration"></a>Configuração da política de interoperabilidade do Microsoft Teams
 Para permitir que equipes começar a receber chamadas, você precisará atualizar a política de atualização de equipes e política de interoperabilidade de equipes, usando [as equipes da Microsoft & Skype para Business Admin Center](https://aka.ms/teamsadmincenter) ou usando uma sessão remota do Windows PowerShell com o Skype para negócios [ `*-CsTeamsUpgradePolicy`e `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirecionar chamadas para equipes.

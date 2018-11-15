@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 2ee918cb82ea42a321af9b91ac9a4526fa849a65
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: e2499cb2d1432c4b9ad48be3333e798a3a8b1574
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295490"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533072"
 ---
 # <a name="peer-to-peer-activity-report"></a>Relatório de atividades ponto a ponto
 
@@ -107,7 +107,7 @@ Se diretivas da sua organização impede que você exibindo relatórios onde as 
     
 - [Skype para relatório de atividade do organizador de conferência de negócios](conference-organizer-activity-report.md) Você pode ver quanto a seus usuários são organizem conferências que utilizam o IM, áudio/vídeo, compartilhamento de aplicativo, Web, de terceiros confiáveis dial-in/out - 3rd e dial-in/out - Microsoft.
     
-- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantas mensagens Instantâneas, áudio/vídeo, compartilhamento de aplicativo, Web e e conferências de conferência de discagem/saída estão sendo participou.
+- [Skype para relatório de atividade de participante de conferência de negócios](conference-participant-activity-report.md) Você pode ver quantos compartilhamento de aplicativos de mensagens Instantâneas, áudio/vídeo, Web e conferências de conferência de discagem/saída estão sendo participou.
     
 - [Skype para usuários comerciais bloqueados relatório](users-blocked-report.md) Você pode ver os usuários em sua organização que foram bloqueados façam chamadas PSTN.
     

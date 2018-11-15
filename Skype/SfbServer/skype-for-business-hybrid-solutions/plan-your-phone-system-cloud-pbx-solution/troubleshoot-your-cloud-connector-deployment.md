@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de sua implantação de edição do conector de nuvem.
-ms.openlocfilehash: 5dbb046680824f2af72688844914db0096e2ded1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295468"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531902"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solução de problemas de implantação do Cloud Connector
  
@@ -222,7 +222,7 @@ Estes são soluções para problemas comuns encontrados:
     Remove-CcLegacyServerCertificate 
     ```
 
-3. Execute o cmdlet Exit-CcUpdate para iniciar os serviços e sair do modo de manutenção.
+3. Execute o cmdlet sair-CcUpdate para iniciar os serviços e sair do modo de manutenção.
     
 4. Execute o cmdlet Export-CcRootCertificate no arquivo local no dispositivo e depois copie e instale o certificado exportado para seus gateways PSTN.
     

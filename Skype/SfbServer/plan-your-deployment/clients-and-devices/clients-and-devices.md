@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: revisão dos clientes e aplicativos compatíveis com o Skype for Business.'
-ms.openlocfilehash: 63981e9fbdc19eeeebc6b19b37f51f901a9493a2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293653"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530809"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
 
@@ -84,7 +84,7 @@ Os Sistemas de Salas Skype v2 são a mais recente solução de conferência da M
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype for Business no Surface Hub
 
-O Microsoft Surface Hub é um dispositivo de produtividade completo para troca de ideias, colaboração e apresentações. Ele tem sua própria iteração do cliente Skype for Business, documentada no [Guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/en-us/surface-hub/).
+O Microsoft Surface Hub é um dispositivo de produtividade completo para troca de ideias, colaboração e apresentações. Ele tem sua própria iteração do cliente Skype for Business, documentada no [Guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
 
 ## <a name="choosing-your-organizations-preferred-client"></a>Como escolher o cliente preferencial para sua organização
 <a name="BK_client_choose"> </a>
@@ -139,7 +139,7 @@ MSI é um método de instalação mais tradicional, usado nos clientes Skype for
 
 O Skype for Business Server 2019 e o Skype for Business Online dão suporte aos seguintes clientes lançados anteriormente: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-O Skype for Business Server 2015 dá suporte aos seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para o Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+O Skype for Business Server 2015 é compatível com os seguintes clientes previamente lançados: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para o Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Requisitos do sistema do cliente

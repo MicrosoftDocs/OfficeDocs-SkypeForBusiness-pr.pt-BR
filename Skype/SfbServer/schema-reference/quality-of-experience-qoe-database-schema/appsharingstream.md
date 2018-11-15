@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: A tabela AppSharingStream contém as métricas de qualidade da experiência para os fluxos de rede usados para compartilhamento de aplicativos. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 4eeac3f7b082d4a798736bd9897b90668a1d44b2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 3505467fd5e163fe2c26aca4b1ba13681c0d4ee6
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294300"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532767"
 ---
 # <a name="appsharingstream-table"></a>Tabela AppSharingStream
  
@@ -25,7 +25,7 @@ A tabela AppSharingStream contém as métricas de qualidade da experiência para
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primária, estrangeira  <br/> |Data e hora em que a sessão foi iniciada.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária, estrangeira  <br/> |Identificador sequencial usado para distinguir entre sessões que foram iniciadas na mesma data e ao mesmo tempo.  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primária, estrangeira  <br/> | Consulte a [Tabela MediaLine](https://docs.microsoft.com/en-us/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primária, estrangeira  <br/> | Consulte a [Tabela MediaLine](https://docs.microsoft.com/skypeforbusiness/schema-reference/quality-of-experience-qoe-database-schema/medialine-0). <br/> |
 |**StreamID** <br/> |int  <br/> |Primária  <br/> |Identificador exclusivo do fluxo de compartilhamento de aplicativo.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> ||Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada "tremula".) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> ||Tremulação máxima detectada entre entradas de pacotes RTP. (É uma medida de "shakiness" de uma chamada de tremulação.) Os valores de tremulação alta normalmente são causados por congestionamento ou um servidor de mídia sobrecarregado e resultam em áudio distorcido ou perdido.  <br/> |

@@ -20,35 +20,32 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como visualizar uma lista de usuários da sua organização habilitados para conferência discada a partir do Microsoft Teams. '
-ms.openlocfilehash: a05aa000b2289499c030ac564a5f09eeefdd865a
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 47e8f6879a16f9ee56e9050a07764800d4dba12b
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296347"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533107"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários habilitados para audioconferência no Microsoft Teams
 
-Depois de habilitar os usuários do Microsoft Teams da sua empresa para audioconferência, você poderá ver a lista de usuários habilitados. Ao olhar para a lista, você também verá o tipo de provedor de audioconferência padrão que cada usuário está usando, o número de telefone de discagem padrão do usuário e, se sua empresa não estiver habilitada para IDs de conferência dinâmicos, os IDs de conferência estáticos para as reuniões de audioconferência que eles organizam.
+Após ter habilitado os usuários do Microsoft Teams na sua organização para conferência de áudio, você pode exibir a lista dos usuários que tiverem sido habilitados. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a>Visualizar uma lista de usuários
+## <a name="viewing-a-list-of-users"></a>Exibir uma lista de usuários
 
 - No Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, clique em **usuários**.
 
 
-## <a name="what-else-should-i-know"></a>O que mais preciso saber?
+## <a name="what-else-should-i-know"></a>O que mais devo saber?
 
-- Ao visualizar a lista de usuários habilitados, você pode selecionar um usuário da lista para editar as configurações de audioconferência dele.
+- Ao exibir a lista de usuários que estão habilitados, você pode selecionar um usuário na lista para editar as configurações de serviços de audioconferência para esse usuário.
     
-- Ao selecionar um único usuário configurado para usar a Microsoft como provedor de audioconferência, você pode visualizar o número de telefone padrão e, se sua empresa não estiver habilitada para IDs de conferência dinâmicos, você poderá redefinir os IDs de conferência para as reuniões que o usuário organiza.
-    
-- Ao selecionar um único usuário configurado para usar um provedor de audioconferência de terceiros, você pode ver o nome do provedor de audioconferência, o número de telefone tarifado e o número de telefone gratuito (se estiverem configurados).
-    
+- Quando você seleciona um único usuário, você pode exibir o número de telefone padrão atribuído ao usuário e qualquer outra configuração de serviços de audioconferência relevantes.    
    
-- Você pode usar o botão de pesquisa para procurar um usuário individual na lista.
+- Você pode usar o botão de pesquisa para procurar um usuário individual na lista
     
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 09/21/2018
+ms.date: 11/07/2018
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bce73966b8aa15717e3c96e91f703059428127b
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 73c2163557706066f079f3ce61c1d4d3c58ed906
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295579"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533123"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -32,7 +32,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -50,7 +50,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/flag-blue.svg" alt="Flag" />
+                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -68,7 +68,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -86,7 +86,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -104,7 +104,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -213,6 +213,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                     <div class="cardText">
                         <h3>Reuniões</h3>
                         <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Reuniões no Teams</a></p>
+                        <p><a href="https://aka.ms/teams-meetings-intro">Vídeo: Introdução às reuniões em equipes da Microsoft</a></p>
                     </div>
                 </div>
             </div>
@@ -250,7 +251,8 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Planos de Chamadas</h3>
+                        <h3>Sistema de Telefonia</h3>
+                         <p><a href="https://aka.ms/teams-phone-system">Vídeo: Introdução ao sistema telefônico em equipes da Microsoft</a></p>
                          <p><a href="configuring-teams-calling-quickstartguide.md">Início rápido: como configurar planos de chamar em equipes</a></p>
                          <p><a href="tutorial-calling-in-teams.yml">Tutorial: Entender as chamadas no Teams</a></p>
                     </div>
@@ -263,7 +265,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardText">
                         <h3>Direcionar circulação</h3>
-                        <p><a href="https://www.youtube.com/watch?v=dVkc5Bs926Q">Vídeo: Direto de roteamento para equipes - Preview</a></p>
+                        <p><a href="https://aka.ms/teams-direct-routing">Vídeo: Direcionar o roteamento em equipes da Microsoft</a></p>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+
 <!-- ============================================================ -->
 # [Bem-vindo ao Teams](teams-overview.md)
 <!-- ============================================================ -->
@@ -9,7 +10,6 @@
 ## [Aonde ir próximo](get-started-with-teams-resources-for-org-wide-rollout.md)
 ## [Obter ajuda no Microsoft Teams](get-help-in-microsoft-teams.md)
 <!-- ============================================================ -->
-
 
 <!-- ============================================================ -->
 # Planejamento
@@ -133,6 +133,7 @@
 <!-- ============================================================ -->
 # Interoperabilidade com o Office 365
 ## [Migração e interoperabilidade com Skype para negócios](migration-interop-guidance-for-teams-with-skype.md)
+## [Coexistência com o Skype para negócios](coexistence-chat-calls-presence.md)
 ## [Definir seu coexistência e as configurações de atualização](setting-your-coexistence-and-upgrade-settings.md)
 ## [Grupos do Office 365 e Teams](office-365-groups.md)
 ## [Aprimorar grupos existentes do Office 365 com o Teams](enhance-office-365-groups.md)
@@ -205,6 +206,7 @@
 ### [Boas práticas para organizar equipes no Teams](best-practices-organizing.md)
 ### [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
 ### [Visão geral da participação dinâmica para equipes](dynamic-memberships.md)
+## [Presença](presence-admins.md)
 ## [Acesso de convidados](guest-access.md)
 ### [Como um convidado entra em uma equipe](guest-joins.md)
 ### [Como é a experiência do convidado](guest-experience.md)
@@ -234,7 +236,8 @@
 #### [Quais são as equipes live eventos?](teams-live-events/what-are-teams-live-events.md)
 #### [Planejamento de eventos ao vivo de equipes](teams-live-events/plan-for-teams-live-events.md)
 #### [Configurar para equipes eventos ao vivo](teams-live-events/set-up-for-teams-live-events.md)
-#### [Configurar equipes de eventos ao vivo](teams-live-events/configure-teams-live-events.md)
+#### [Usar o PowerShell para definir políticas de eventos ao vivo de equipes](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+#### [Definir configurações de eventos ao vivo de equipes](teams-live-events/configure-teams-live-events.md)
 
 
 
@@ -351,7 +354,7 @@
 #### [Gerenciamento de números de telefone para os Países Baixos](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [Gerenciamento de números de telefone para o Reino Unido](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [Gerenciamento de números de telefone para os EUA](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-### Gerenciar a comunicação créditos
+### Gerenciar comunicações créditos
 #### [O que são Créditos de Comunicação?](what-are-communications-credits.md)
 #### [Configurar Créditos de Comunicação para a sua organização](set-up-communications-credits-for-your-organization.md)
 #### [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
@@ -369,7 +372,7 @@
 #### [Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 #### [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 #### [Gerenciar as configurações de audioconferência de um usuário](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
-#### [Gerenciar as configurações de audioconferência da empresa](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+#### [Gerenciar as configurações de conferência de áudio para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 #### [Números de telefone para audioconferência](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Políticas de restrição de chamadas de saída para audioconferência e chamadas PSTN do usuário](/SkypeForBusiness/audio-conferencing-in-office-365/outbound-calling-restriction-policies?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Redefinir a ID de conferência de um usuário](reset-a-conference-id-for-a-user-in-teams.md)

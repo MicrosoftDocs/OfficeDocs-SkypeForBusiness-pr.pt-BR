@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Saiba como implantar vários sites PSTN no Cloud Connector Edition.
-ms.openlocfilehash: b6d4c489136f038a5d4dbe7188958ef60e4a5aed
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295710"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532366"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implantar vários sites no Cloud Connector
  
@@ -78,6 +78,7 @@ A tabela a seguir lista as diferenças entre a implantação de um único site c
   
 |**Categoria**|**Item**|**Único site com alta disponibilidade**|**Vários sites**|
 |:-----|:-----|:-----|:-----|
+|Configurar  <br/> |Nome de Host do aparelho <br/> |**Diferentes** nos vários dispositivos <br/> |**Diferente** nos vários sites PSTN <br/> |
 |Instalação  <br/> |Pasta compartilhada  <br/> |Requer a **mesma** pasta compartilhada entre appliances <br/> |Requer uma pasta compartilhada **diferente** nos vários dispositivos <br/> |
 |Configuração  <br/> |VirtualMachineDomain  <br/> |Requer o **mesmo** domínio nos vários dispositivos <br/> |Requer o **mesmo** domínio nos vários sites PSTN <br/> |
 |Configurar  <br/> |SIPDomains  <br/> |Ordem e nomes de domínio devem ser o **mesmo** em aparelhos <br/> |Ordem e nomes de domínio devem ser o **mesmo** entre sites PSTN <br/> |

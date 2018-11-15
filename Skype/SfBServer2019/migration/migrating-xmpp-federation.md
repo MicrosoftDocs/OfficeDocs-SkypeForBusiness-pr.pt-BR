@@ -7,13 +7,13 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Versões anteriores forneciam um gateway de protocolo XMPP extensível para mensagens e presença que poderia ser implantado como uma função de servidor separadas para permitir a federação com implantações de XMPP. A funcionalidade XMPP não está mais disponível & preteridos no Skype para Business Server 2019. Se você deseja continuar com a funcionalidade XMPP, que pode ser avaliado no ambiente coexitence com a versão herdada (Skype para Business Server 2015 / Lync Server 2013). Funcionalidade XMPP está instalada em duas partes: como um XMPP proxy que é executado no antigo servidor de borda e o Gateway XMPP que é executado no servidor Front-End herdado.'
-ms.openlocfilehash: 752d563796d7c8a5ba4bb7f98f22f8bef40822b4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+description: 'Versões anteriores forneciam um gateway de protocolo XMPP extensível para mensagens e presença que poderia ser implantado como uma função de servidor separadas para permitir a federação com implantações de XMPP. A funcionalidade XMPP não está mais disponível & preteridos no Skype para Business Server 2019. Se você deseja continuar com a funcionalidade XMPP, que pode ser avaliado em ambiente de coexitence com a versão herdada (Skype para Business Server 2015 / Lync Server 2013). Funcionalidade XMPP está instalada em duas partes: como um XMPP proxy que é executado no antigo servidor de borda e o Gateway XMPP que é executado no servidor Front-End herdado.'
+ms.openlocfilehash: c1c189d8d4b2e4fcd75b3d00d9789736f5bafc6a
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294469"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531459"
 ---
 # <a name="migrating-xmpp-federation"></a>Migração da federação XMPP
 

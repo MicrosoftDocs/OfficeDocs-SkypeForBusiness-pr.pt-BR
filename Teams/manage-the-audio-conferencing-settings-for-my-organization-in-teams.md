@@ -1,5 +1,5 @@
 ---
-title: Gerenciar as configurações de audioconferência para a minha organização no Microsoft Teams
+title: Gerenciar as configurações de conferência de áudio para sua organização no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte as etapas para atribuir uma licença de conferência discada e um ID de conferência a um usuário no Microsoft Teams e várias outras configurações de conferência discada. '
-ms.openlocfilehash: b63650833c7c844de11ecb833288b6568604f919
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: bc2f51cabe73db326c5a070f75d55c30fb1af367
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296093"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531123"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-my-organization-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência para a minha organização no Microsoft Teams
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as configurações de conferência de áudio para sua organização no Microsoft Teams
 
 Pode ser mais fácil para você visualizar todas as configurações de audioconferência em um só lugar. 
 
@@ -71,49 +71,45 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
 **Usar o Windows PowerShell**
   
 Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
-    
-## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Alterar as informações de contato do remetente das mensagens de e-mail enviadas aos usuários
-
-É possível fazer alterações nos e-mails enviados automaticamente para seus usuários, incluindo o endereço de e-mail real e o nome de exibição das informações de contato do remetente. Por padrão, o remetente dos e-mails é o Office 365, mas é possível alterar o endereço de e-mail e o nome exibido com o Windows PowerShell. Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.
   
-## <a name="reset-the-meeting-conference-id"></a>Redefinir o ID de conferência de reunião
+## <a name="reset-the-meeting-conference-id"></a>Redefinir a ID de conferência de reunião
 
 ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-2. Em **Audio conferência**, clique em **Redefinir ID de conferência**.  
+2. Em **Conferência de áudio**, clique em **Redefinir ID de conferência**.  
 
-3. Na janela **Redefinir ID de conferência?**, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
+3. No **Redefinir ID de conferência?** janela, clique em **Redefinir**. Um ID de conferência será criado automaticamente e um email será enviado ao usuário com o novo ID de conferência, se o envio de email para seus usuários estiver ativado. Está ativado por padrão.
 
-Consulte [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user-in-teams.md).
+Veja [Redefinir o ID de conferência de um usuário](reset-a-conference-id-for-a-user-in-teams.md).
   
 ## <a name="reset-a-conference-organizers-pin"></a>Redefinir o PIN de um organizador da conferência
 
-Cada reunião agendada por um usuário terá um ID de conferência exclusivo atribuído. Embora um ID de conferência seja automaticamente criado e atribuído a um usuário, pode haver ocasiões em que um usuário não queira usá-lo e você deseja configurá-lo para um certo número, ou os usuários não conseguem lembrar ou perderam o ID de conferência. 
+Cada reunião que um usuário agenda será obtido atribuída uma ID de conferência exclusivas. Embora uma ID de conferência será criada automaticamente e atribuída a um usuário, pode haver ocasiões quando um usuário não deseja usar este e deseja defini-la a um certo número ou os usuários não conseguir se lembrar ou tem perdido sua ID de conferência. 
 
 ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-2. Em **Audioconferência**, clique em **Redefinir PIN**, e então clique em **Redefinir**. 
+2. Em **Conferência de áudio**, clique em **Redefinir PIN**e clique em **Redefinir**. 
   
-Os usuários receberão um e-mail com o PIN quando forem habilitados para audioconferência ou quando o PIN for redefinido. Entretanto, se você tiver desabilitado o envio automático de e-mails, o e-mail de redefinição de PIN não será enviado para o usuário e você precisará enviar o PIN manualmente. O PIN será exibido somente uma vez depois de ser redefinido. Depois se ser exibido após a redefinição, o PIN não será mais mostrado nas propriedades do usuário e aparecerá como *****. 
+Os usuários receberão um email com o PIN quando elas são habilitadas para conferência de áudio ou quando o PIN ser redefinido. Mas, se você desabilitou automaticamente enviando e-mails, um email de redefinição PIN não será enviado e você terá que enviar manualmente o PIN para o usuário. O PIN será exibido somente uma vez depois de ser redefinido. Depois que ele é exibido depois de ser redefinido, o PIN não será mostrado mais sobre as propriedades de usuário; em vez disso, * * * serão exibidos. 
   
-Veja [Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md).
+Consulte [Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin-in-teams.md).
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um e-mail com as informações da audioconferência para um usuário
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Enviar um email com informações de conferência de áudio a um usuário
 
 ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-2. Em **Audioconferência**, clique em **Enviar informações da conferência por e-mail**. 
+2. Em **Conferência de áudio**, clique em **Enviar informações de conferência no email**. 
 
     > [!NOTE]
-    > Ao fazer isso, o PIN da audioconferência não é enviado ao usuário. 
+    > Quando você fizer isso, os serviços de audioconferência PIN não será enviado ao usuário. 
 
-Consulte [Enviar um e-mail para um usuário com suas informações de Audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
+Veja [Enviar um email para um usuário com suas informações de conferência de áudio](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Definir os números de telefone incluídos em convites
 

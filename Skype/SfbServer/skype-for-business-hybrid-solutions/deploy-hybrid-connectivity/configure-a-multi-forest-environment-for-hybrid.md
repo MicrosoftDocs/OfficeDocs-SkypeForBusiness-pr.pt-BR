@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente que possui várias florestas em um modelo de floresta de usuário/recurso para fornecer Skype para a funcionalidade de negócios em um cenário híbrido.
-ms.openlocfilehash: 772b93aab0d8adf08345870ac97a8e1487e240e2
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295239"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531549"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar um ambiente de várias floresta para o híbrido Skype para negócios
  
@@ -66,7 +66,7 @@ Para obter a sincronização de identidades, os seguintes atributos precisam ser
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-O [atributo de vínculo de conta foi escolhido](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/) será usada como a âncora de origem. Se você tiver um atributo diferente e imutável atributo que preferir usar, você pode fazê-lo, certifique-se apenas de editar a regra de declaração do AD FS e selecionar o atributo durante a configuração do AAD Connect.
+O [atributo de vínculo de conta foi escolhido](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) será usada como a âncora de origem. Se você tiver um atributo diferente e imutável atributo que preferir usar, você pode fazê-lo, certifique-se apenas de editar a regra de declaração do AD FS e selecionar o atributo durante a configuração do AAD Connect.
   
 Não sincronize o UPN entre as florestas. Durante os testes, descobrimos que precisávamos usar um único UPN para cada floresta de usuário, pois não é possível usar o mesmo UPN para várias florestas. Como resultado, chegamos a duas possibilidades: sincronizar ou não sincronizar o UPN. 
   
@@ -112,7 +112,7 @@ Os atributos verdes destacados foram mesclados do Office 365, os amarelos são d
   
 Este é um usuário de teste, é possível ver que o AAD Connect identificou o sourceAnchor e o cloudSourceAnchor do usuário e os objetos da floresta de recursos e do Office 365. Em nosso caso, 1101, que é o employeeNumber selecionado anteriormente. Em seguida, ele conseguiu mesclar esse objeto no que você vê acima. 
   
-Para obter mais informações, consulte [Integração de suas identidades locais com o Active Directory do Azure](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect/). 
+Para obter mais informações, consulte [Integração de suas identidades locais com o Active Directory do Azure](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). 
   
 Conectar AAD deve ser instalado usando principalmente os padrões. Exceto para as seguintes etapas: 
   
@@ -122,7 +122,7 @@ Conectar AAD deve ser instalado usando principalmente os padrões. Exceto para a
     
 3.  Identificar usuários em diretórios no local: selecione **as identidades de usuário existirem em vários diretórios** e atributos **ObjectSID** e **msExchangeMasterAccountSID**
     
-4. Identificar usuários no Windows Azure AD: âncora de origem - selecionar o atributo que você escolheu após ler [selecionando um atributo sourceAnchor bom](https://azure.microsoft.com/en-us/documentation/articles/active-directory-aadconnect-design-concepts/), o nome Principal de usuário - **userPrincipalName**
+4. Identificar usuários no Windows Azure AD: âncora de origem - selecionar o atributo que você escolheu após ler [selecionando um atributo sourceAnchor bom](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), o nome Principal de usuário - **userPrincipalName**
     
 5.  Recursos opcionais - selecione se você tiver o Exchange híbrido implantado ou não.
     

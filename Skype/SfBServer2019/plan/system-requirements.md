@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: Prepare seu Skype para servidores de negócios Server 2019 e infraestrutura de domínio com este tópico. Hardware, SO, bancos de dados, software, todos os os requisitos do sistema e recomendações, juntamente com o certificado DNS, compartilhamento de arquivos e informações do Active Directory, estão aqui ajudar a garantir uma instalação bem-sucedida e a implantação de farm de servidores.'
-ms.openlocfilehash: c7064f4d1c8136cf714d784fd1985efd0f21c979
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 0cacba46f438f84c75aa80d1e73d9b4f7fa6c0ff
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296152"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26530971"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos de sistema do Skype para Business Server 2019
  
@@ -193,7 +193,7 @@ Skype para Business Server 2019 Enterprise Edition exigirá completa do SQL Serv
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016/2017 Enterprise (edição de 64 bits) e você deve executar com as atualizações mais recentes e com grupos de disponibilidade do AlwaysOn.  <br/> ||
+|Microsoft SQL Server 2016 (edição de 64 bits) e você deve executar com as atualizações mais recentes e com grupos de disponibilidade do AlwaysOn.  <br/> ||
  |
    
 Se você não vir a edição do SQL Server que você deseja usar listado aqui, você não pode usá-lo.
@@ -211,11 +211,11 @@ Você pode ter os seguintes itens para clustering de failover:
   
 Dois nós:
   
-- Microsoft SQL Server 2016/2017 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.
+- Microsoft SQL Server 2016 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.
     
 Dezesseis nós:
   
-- Microsoft SQL Server 2016/2017 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.
+- Microsoft SQL Server 2016 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.
     
 Teremos um artigo, Configure o SQL Server clustering do Skype para Business Server 2019, que terá as etapas para obtenção de clustering ready.
  
@@ -246,6 +246,8 @@ Embora grande parte dos dados de configuração para servidores e serviços é a
 
 Os seguintes sistemas operacionais de controlador de domínio podem ser usados:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -254,6 +256,8 @@ Os seguintes sistemas operacionais de controlador de domínio podem ser usados:
     
 O nível funcional do domínio de qualquer domínio em que você implantar o Skype para negócios 2019 de servidor em e o nível funcional de floresta de qualquer floresta que você implanta o Skype para o servidor de negócios 2019 into, devem ser um dos seguintes procedimentos:
   
+- Windows Server 2019
+
 - Windows Server 2016
     
 - Windows Server 2012 R2
@@ -347,7 +351,7 @@ Nessa topologia, há uma ou mais florestas de usuário e Skype para Business Ser
   
 Neste cenário há várias florestas locais, com uma topologia de floresta de recursos. Há um relacionamento de total confiança entre as florestas do Active Directory. A ferramenta Azure Active Directory Connect é usada para sincronizar contas entre as florestas de usuários locais e o Office 365.
   
- A organização também tem o Office 365 e usa o [Azure Active Directory Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect) para sincronizar suas contas locais com o Office 365. Os usuários habilitados para o Skype para negócios estão habilitados por meio do Office 365 e Skype para Business Online. Skype para Business Server não é implantados no local.
+ A organização também tem o Office 365 e usa o [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) para sincronizar suas contas locais com o Office 365. Os usuários habilitados para o Skype para negócios estão habilitados por meio do Office 365 e Skype para Business Online. Skype para Business Server não é implantados no local.
   
 Autenticação de logon única é fornecida por um farm de serviços de Federação do Active Directory localizado na floresta de usuário.
   

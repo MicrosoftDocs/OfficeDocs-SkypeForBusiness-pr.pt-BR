@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8741a76ccfbc9ef16cbf9c4298bacace25ac36ad
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 44dc13f9ff6fd391d84a5a461badc7edbc8abbdb
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294925"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533355"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo de nuvem para equipes da Microsoft
 
@@ -30,11 +30,11 @@ Teleconferência com colaboração de conteúdo de vídeo ajuda você a fazer ao
 Os seguintes parceiros têm soluções de interoperabilidade de vídeo for Microsoft Teams. Sua empresa pode escolher funcionar com qualquer combinação desses parceiros dentro de sua empresa. 
 
 
-|Parceiro|Solução de parceiro|Disponibilidade|
-|----|---|----|
-|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Serviço de RealConnect Polycom</a> |Agora disponível|
-|![Pexip infinito](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip infinito para equipes da Microsoft</a> | 19 de outubro de 2018|
-|![Gateway blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Gateway blueJeans para equipes da Microsoft</a> | 31 de outubro de 2018|
+|Parceiro|Solução de parceiro|
+|----|---|
+|![Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Serviço de RealConnect Polycom</a> |
+|![Pexip infinito](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip infinito para equipes da Microsoft</a> | 
+|![Gateway blueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Gateway blueJeans para equipes da Microsoft</a> |
 
 ## <a name="partner-solutions"></a>Soluções de parceiros
 

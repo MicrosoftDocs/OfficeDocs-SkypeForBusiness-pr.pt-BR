@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumo: Saiba como migrar configurações do usuário e movam usuários às equipes.'
-ms.openlocfilehash: 78f0c49fa2179b4a0aa95a993476c21fb679f489
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: af0867bfdc2e12a248baf7cc07746845154d27fd
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293562"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26533138"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover os usuários no local para equipes
 
@@ -79,7 +79,7 @@ Se os usuários no local tiverem voz no local, você tem duas opções:
 -  **Migre usuários com os recursos de telefonia.** Os usuários podem fazer e receber chamadas usando o cliente de equipes.  Você pode escolher entre Microsoft chamar planejar ou em roteamento direto para conectar os serviços de telefonia para equipes.  
 
     -  Chamar plano Microsoft fornece uma solução de voz all nuvem. Para obter mais informações sobre como chamar plano Microsoft, consulte (link em breve). 
-    -  Roteamento direto permite usar praticamente qualquer tronco PSTN, e você pode configurar a interoperabilidade entre o sistema de telefone da Microsoft e equipamentos de telefonia de propriedade do cliente.  Para obter mais informações, consulte [Planejar roteamento direto](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan) e [Configurar o roteamento direto](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-configure).
+    -  Roteamento direto permite usar praticamente qualquer tronco PSTN, e você pode configurar a interoperabilidade entre o sistema de telefone da Microsoft e equipamentos de telefonia de propriedade do cliente.  Para obter mais informações, consulte [Planejar roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan) e [Configurar o roteamento direto](https://docs.microsoft.com/MicrosoftTeams/direct-routing-configure).
 
 -  **Migre usuários sem recursos de telefonia.** Se você migrar usuários sem preservar os recursos de telefonia, certifique-se de usuários têm licenças apropriadas na nuvem. 
 
@@ -100,7 +100,7 @@ Move-CsUser -Identity user0 -Target sipfed.online.lync.com -moveToTeams -credent
 ($cred = get-credenciais. Você deve fornecer credenciais de administrador do Office 365.)
 
 > [!NOTE]
-> Esse comando define o TeamsInteropPolicy às equipes e configura o TeamsUpgradePolicy para o modo de TeamsOnly. 
+> Esse comando define o TeamsUpgradePolicy para o modo de TeamsOnly. 
  
 Após a mudança para equipes for bem-sucedida, Skype do usuário para o cliente de negócios exibirá a seguinte mensagem: 
 

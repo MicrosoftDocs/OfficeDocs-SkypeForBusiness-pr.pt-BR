@@ -9,20 +9,12 @@
 
 ## Soluções híbridas
 ### [Planejar a conectividade híbrida](../hybrid/plan-hybrid-connectivity.md)
-### [Planeje Skype para migração Business Server e o Exchange Server](../hybrid/plan-um-migration.md)
 ### [Configurar a conectividade híbrida](../hybrid/configure-hybrid-connectivity.md)
+#### [Configurar o Azure Connect do AD para os ambientes híbridos](../hybrid/configure-azure-ad-connect.md)
 #### [Configurar Skype para o híbrido de negócios](../hybrid/configure-federation-with-skype-for-business-online.md)
-#### [Configurar federação para um provedor de conferência de áudio](../hybrid/configure-federation-for-an-audio-conferencing-provider.md) 
-#### [Configurar a autenticação de servidor-para-servidor](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)
 #### [Configurar um ambiente de várias floresta](../hybrid/configure-a-multi-forest-environment-for-hybrid.md)
 ### [Mover os usuários no local para Skype para negócios Online](../hybrid/move-users-from-on-premises-to-skype-for-business-online.md)
 ### [Mover os usuários no local para equipes](../hybrid/move-users-from-on-premises-to-teams.md)
-### Caixa postal de nuvem
-#### [Planejar a caixa postal de nuvem](../hybrid/plan-cloud-voicemail.md)
-#### [Configurar caixa postal de nuvem](../hybrid/configure-cloud-voicemail.md)
-### Conector de dados de chamada
-#### [Planejar o conector de dados de chamada](../hybrid/plan-call-data-connector.md)
-#### [Configurar o conector de dados de chamada](../hybrid/configure-call-data-connector.md)
 
 ## Planejamento
 ### [Fundamentos de topologia](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -63,7 +55,7 @@
 #### [Compartilhamento de arquivos](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/file-sharing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Mensagens instantâneas e presença](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Servidor de Interoperabilidade de Vídeo](../../SfbServer/plan-your-deployment/video-interop-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-### [Solução de voz corporativa](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+### [Soluções de voz](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Enterprise Voice](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Componentes obrigatórios para Enterprise Voice](../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Servidor de Mediação](../../SfbServer/plan-your-deployment/enterprise-voice-solution/mediation-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -109,10 +101,14 @@
 ##### [Opções de disponibilidade](../../SfbServer/plan-your-deployment/enterprise-voice-solution/busy-options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Chamada via Trabalho](../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-via-work.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Controle de chamada remota](../../SfbServer/plan-your-deployment/enterprise-voice-solution/remote-call-control.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### Caixa postal de nuvem
+#####[Planejar a caixa postal de nuvem](../hybrid/plan-cloud-voicemail.md)
+##### [Configurar caixa postal de nuvem](../hybrid/configure-cloud-voicemail.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Unified Messaging](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Visão geral de implantação](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Repositório de contato unificado](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-contact-store.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
+#### [Planeje Skype para migração Business Server e o Exchange Server](../hybrid/plan-um-migration.md)
 ### [Monitoramento](../../SfbServer/plan-your-deployment/monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Archiving](../../SfbServer/plan-your-deployment/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Conferências](../../SfbServer/plan-your-deployment/conferencing/conferencing.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -423,6 +419,9 @@
 ###### [Media Quality Metrics Distribution Report](../../SfbServer/manage/health-and-monitoring/media-quality-metrics-distribution-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Location Trend Report](../../SfbServer/manage/health-and-monitoring/location-trend-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Rate My Call](../../SfbServer/manage/health-and-monitoring/rate-my-call.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### Conector de dados de chamada
+##### [Planejar o conector de dados de chamada](../hybrid/plan-call-data-connector.md)
+##### [Configurar o conector de dados de chamada](../hybrid/configure-call-data-connector.md)
 
 ### [Archiving](../../SfbServer/manage/archiving/archiving.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Opções](../../SfbServer/manage/archiving/options.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -488,3 +487,22 @@
 ### [Contas de usuário](../../SfbServer/manage/user-accounts/user-accounts.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Personalizar propriedades](../../SfbServer/manage/user-accounts/customize-properties.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Gerenciar serviços](../../SfbServer/manage/manage-services.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+## [Ferramentas de gerenciamento](../management-tools-2019.md)
+### [Painel de qualidade de chamada do Skype para Business Server](../../SfbServer/management-tools/call-quality-dashboard/call-quality-dashboard.md)
+#### [Planejar o painel de controle de qualidade de chamada](../../SfbServer/management-tools/call-quality-dashboard/plan.md)
+#### [Implantar Painel de Qualidade da Chamada](../../SfbServer/management-tools/call-quality-dashboard/deploy-0.md)
+#### [Usar Painel de Qualidade da Chamada](../../SfbServer/management-tools/call-quality-dashboard/use.md)
+
+### [Gerenciador de estatísticas para Skype para Business Server](../../SfbServer/management-tools/statistics-manager/statistics-manager.md)
+#### [Planejar para o Gerenciador de estatísticas de Skype Business Server](../../SfbServer/management-tools/statistics-manager/plan.md)
+#### [Implantar o Gerenciador de estatísticas para Skype para Business Server](../../SfbServer/management-tools/statistics-manager/deploy.md)
+#### [Atualizar o Gerenciador de estatísticas para Skype para Business Server](../../SfbServer/management-tools/statistics-manager/upgrade.md)
+#### [Solucionar problemas de gerente de estatísticas para Skype para Business Server](../../SfbServer/management-tools/statistics-manager/troubleshoot.md)
+
+### [Gerenciar o Skype for Business Server usando o pacote de gerenciamento do SCOM](../tools/scom-management-pack-use-2019.md)
+#### [Configurar o Servidor de Gerenciamento principal](../tools/configure-the-primary-2019.md)
+#### [Configurar computadores a serem monitorados](../tools/configure-computers-to-monitor-2019.md)
+#### [Nós do Inspetor](../tools/watcher-nodes-2019.md)
+##### [Usuários de teste e configurações](../tools/test-users-and-settings-2019.md)
+
+### [Skype para Calculadora de planejamento de capacidade do servidor de negócios](../../SfbServer/management-tools/capacity-planning-calculator.md)

@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bd95dc0d928a049adad06b43b9f6cacaf2c65d1
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: e335210a3d7b209984cee5319dd1e7e3b1bd24e4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26293576"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26531299"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado de equipes
 ==========================================
@@ -61,7 +61,7 @@ Algumas coisas lembrar:
 
       ![Captura de tela mostra um exemplo de uma alternância de configurações de AAD. ](media/guest-access-checklist-AADSettings1.png)
 
-    No mínimo para dar suporte a convidados, **os membros podem convidar** deve ser definida como **Sim**. 
+    Para suportar os convidados, **os membros podem convidar** deve ser definida como **Sim**. 
    
 > [!NOTE] 
 > Se você define **membros podem convidar** como **não** e, em seguida, habilita o acesso de convidado no Office 365 grupos e Teams da Microsoft, os administradores podem controlar a convites de convidado para seu diretório. Depois que os convidados estão no diretório, podem ser adicionados às equipes pelos membros não seja o administrador que são proprietários de equipe.

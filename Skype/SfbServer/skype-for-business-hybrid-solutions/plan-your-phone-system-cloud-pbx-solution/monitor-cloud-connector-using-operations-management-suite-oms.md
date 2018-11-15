@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para saber como monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações da Microsoft (OMS).
-ms.openlocfilehash: 19946c0d7701d2fd31c1b41cae58e08cfdf4c52d
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26295068"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532077"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitorar o conector de nuvem usando o pacote de gerenciamento de operações (OMS)
 
 Leia este tópico para saber como monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações da Microsoft (OMS).
 
-Agora você pode monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações (OMS), uma solução de gerenciamento de TI de nuvem da Microsoft. Análise de Log OMS permite monitorar e analisar a disponibilidade e o desempenho dos recursos, incluindo físicos e máquinas virtuais. Para obter mais informações sobre OMS e análise de Log, consulte [o que é o pacote de gerenciamento de operações (OMS)?](https://docs.microsoft.com/en-us/azure/operations-management-suite/operations-management-suite-overview).
+Agora você pode monitorar sua versão do conector de nuvem 2.1 e a implantação posterior usando o pacote de gerenciamento de operações (OMS), uma solução de gerenciamento de TI de nuvem da Microsoft. Análise de Log OMS permite monitorar e analisar a disponibilidade e o desempenho dos recursos, incluindo físicos e máquinas virtuais. Para obter mais informações sobre OMS e análise de Log, consulte [o que é o pacote de gerenciamento de operações (OMS)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
 
 Este tópico inclui as seguintes seções:
 
@@ -39,11 +39,11 @@ Este tópico inclui as seguintes seções:
 
 Antes de poder usar OMS para monitorar sua implantação do conector de nuvem, você precisará do seguinte:
 
-- **Uma conta do Windows Azure e um espaço de trabalho do OMS.** Se você ainda não tiver uma conta do Windows Azure, você precisará criar um para usar a análise de Log OMS. Para obter informações sobre como criar uma conta do Windows Azure e configurar um espaço de trabalho do OMS, consulte [Introdução a um espaço de trabalho de análise de Log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-get-started).
+- **Uma conta do Windows Azure e um espaço de trabalho do OMS.** Se você ainda não tiver uma conta do Windows Azure, você precisará criar um para usar a análise de Log OMS. Para obter informações sobre como criar uma conta do Windows Azure e configurar um espaço de trabalho do OMS, consulte [Introdução a um espaço de trabalho de análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-get-started).
 
 - **Conector de nuvem versão 2.1 ou posterior**
 
-- **Nova pesquisa de log de análise de log** é necessária para monitoramento de conector de nuvem. Para obter mais informações, consulte [atualizar seu espaço de trabalho de análise de Log do Windows Azure para a nova pesquisa de log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-search-upgrade).
+- **Nova pesquisa de log de análise de log** é necessária para monitoramento de conector de nuvem. Para obter mais informações, consulte [atualizar seu espaço de trabalho de análise de Log do Windows Azure para a nova pesquisa de log](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search-upgrade).
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Configure o conector de nuvem para usar o OMS
 
@@ -103,7 +103,7 @@ No portal do OMS, você deve especificar informações sobre os logs de eventos 
      > [!NOTE]
      > Você deve inserir manualmente o Lync Server na caixa de texto. Ela não é exibida como uma opção na lista suspensa. 
 
-     Para obter mais informações, consulte [fontes de dados de log de eventos do Windows na análise de Log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Para obter mais informações, consulte [fontes de dados de log de eventos do Windows na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. Vá para configurações -\>dados -\> contadores de desempenho do Windows, e adicionar contadores de desempenho para: 
 
@@ -126,11 +126,11 @@ No portal do OMS, você deve especificar informações sobre os logs de eventos 
      > [!NOTE]
      > Você deve inserir manualmente os contadores de desempenho na caixa de texto. Eles não aparecem como opções na lista suspensa. 
 
-     Para obter mais informações, consulte [Windows e Linux fontes de dados de desempenho na análise de Log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Para obter mais informações, consulte [Windows e Linux fontes de dados de desempenho na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Criar alertas
 
-Existem dois tipos de alertas no OMS: número de alertas de resultados e os alertas de medida métrico. Para obter mais informações sobre como criar alertas, consulte [Trabalhando com as regras de alerta na análise de Log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts-creating).
+Existem dois tipos de alertas no OMS: número de alertas de resultados e os alertas de medida métrico. Para obter mais informações sobre como criar alertas, consulte [Trabalhando com as regras de alerta na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts-creating).
 
 Ao criar alertas, você deve considerar o seguinte:
 
@@ -158,7 +158,7 @@ Para criar esse par de alerta:
 
     A consulta usa o filtro de computador *em que o computador contém "MediationServer"* . O filtro seleciona apenas o computador cujo nome contém a cadeia de caracteres "MediationServer".
 
-     Você faria substitua o filtro filtro seu próprio computador ou simplesmente removê-lo. Você pode criar filtros de cadeia de caracteres complexos sem expressões regulares. Para obter mais informações, consulte [operadores de cadeia de caracteres](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Você também pode optar por usar expressões regulares. Além disso, você pode criar um grupo de computadores salvar uma consulta de pesquisa e usando esse grupo como seu filtro do computador em sua consulta de alerta. Para obter mais informações, consulte [grupos de computadores na análise de Log pesquisas de log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-computer-groups).
+     Você faria substitua o filtro filtro seu próprio computador ou simplesmente removê-lo. Você pode criar filtros de cadeia de caracteres complexos sem expressões regulares. Para obter mais informações, consulte [operadores de cadeia de caracteres](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators). Você também pode optar por usar expressões regulares. Além disso, você pode criar um grupo de computadores salvar uma consulta de pesquisa e usando esse grupo como seu filtro do computador em sua consulta de alerta. Para obter mais informações, consulte [grupos de computadores na análise de Log pesquisas de log](https://docs.microsoft.com/azure/log-analytics/log-analytics-computer-groups).
 
     Para cada computador, a consulta de erro será Obtenha o último log de eventos para o início do serviço RTCMEDSRV e parada de serviço. Ele retornará um logon se o último evento é o evento de parada do serviço; ele não retornará nada se o último evento é o evento de inicialização do serviço. Em resumo, a consulta retornará uma lista de servidores cuja RTCMEDSRV for interrompido na janela de tempo. 
 
@@ -202,7 +202,7 @@ A consulta receberá todos os contadores de uso do processador e evento de parad
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analisar os alertas no seu repositório de análise de Log
 
-Para analisar os alertas no seu repositório, use a solução de gerenciamento de alerta. Para obter mais informações, consulte [solução de gerenciamento de alerta no pacote de gerenciamento de operações (OMS)](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-solution-alert-management)
+Para analisar os alertas no seu repositório, use a solução de gerenciamento de alerta. Para obter mais informações, consulte [solução de gerenciamento de alerta no pacote de gerenciamento de operações (OMS)](https://docs.microsoft.com/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>Conjunto de monitoramento mínimo recomendado
 
@@ -244,12 +244,12 @@ O exemplo a seguir lista os contadores de capacidade de chamada que devem ser mo
 
 Para obter mais informações sobre como trabalhar com OMS, consulte o seguinte:
 
-- [Localizar dados usando as pesquisas de log na análise de Log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-log-searches)
+- [Localizar dados usando as pesquisas de log na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-searches)
 
 - [Referência de linguagem de análise de Log do Windows Azure](https://docs.loganalytics.io/docs/Language-Reference)
 
-- [Compreensão dos alertas na análise de Log](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-alerts)
+- [Compreensão dos alertas na análise de Log](https://docs.microsoft.com/azure/log-analytics/log-analytics-alerts)
 
-- [Conectar computadores Windows para o serviço de Log de análise no Windows Azure](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents)
+- [Conectar computadores Windows para o serviço de Log de análise no Windows Azure](https://docs.microsoft.com/azure/log-analytics/log-analytics-windows-agents)
 
 

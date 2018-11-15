@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: fcf108de8ac6d344061b4c95dcbe7438dc034d3b
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296355"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532070"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
 
@@ -26,6 +26,9 @@ Sua implantação envolve a criação de conta, conforme descrito em [implantar 
 
 > [!NOTE]
 > Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online. <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013. 
+
+> [!NOTE]
+> Se estiver usando um servidor do Exchange em prem, sistemas de sala Skype v2 requer o uso do Exchange Server 2013 SP1 ou posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
@@ -39,11 +42,11 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
 
 |Tablet|Processador|RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 4       |Núcleo i5  |4GB  |128GB  |
-|Surface Pro 4       |Núcleo i5  |8GB  |256GB  |    
-|Surface Pro (2017)  |Núcleo i5  |4GB  |128GB  |
-|Surface Pro (2017)  |Núcleo i5  |8GB  |128GB  |
 |Surface Pro (2017)  |Núcleo i5  |8GB  |256GB  |
+|Surface Pro (2017)  |Núcleo i5  |8GB  |128GB  |
+|Surface Pro (2017)  |Núcleo i5  |4GB  |128GB  |
+|Surface Pro 4       |Núcleo i5  |8GB  |256GB  |
+|Surface Pro 4       |Núcleo i5  |4GB  |128GB  |
 
 > [!NOTE]
 > Processadores de M3 Core não são suportados.

@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador do Office 365, você pode editar as configurações de audioconferência do Microsoft Teams, como o provedor, número de telefone padrão tarifado ou gratuito, ID de conferência ou PIN, para um usuário individual na sua organização. '
-ms.openlocfilehash: 0be1276bbcba42cdf2b38c4ec1e54845608824e6
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: 61b0cf5db964af19001069318f275ac237012cb4
+ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26296184"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26532084"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência de um usuário no Microsoft Teams
 
-Como um administrador do Office 365, você pode editar as configurações de audioconferência — como o provedor, número padrão de chamada tarifada ou de chamada gratuita, ID de conferência ou PIN — para um usuário individual em sua organização. Se desejar editar as configurações da sua organização, consulte [Gerenciar as configurações de audioconferência para a minha organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
+Como um administrador do Office 365, você pode editar as configurações de audioconferência — como o provedor, número padrão de chamada tarifada ou de chamada gratuita, ID de conferência ou PIN — para um usuário individual em sua organização. Se você deseja editar as configurações para a sua organização, consulte [Gerenciar as configurações de conferência de áudio para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md).
 
 ## <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-and-skype-for-business-admin-center"></a>![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
 
@@ -58,6 +58,6 @@ Como um administrador do Office 365, você pode editar as configurações de aud
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Gerenciar as configurações de audioconferência em minha organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
+[Gerenciar as configurações de conferência de áudio para sua organização](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
 [Perguntas comuns sobre a Audioconferência](audio-conferencing-common-questions.md)
