@@ -13,16 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8529adfafcac9e00bf97dc358944d83f31cd7722
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371854"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539037"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança em equipes
 
 As equipes fornece um rico conjunto de ferramentas para implementar qualquer recursos de governança, sua organização pode exigir. Este artigo o orienta profissionais de TI para fazer as direita perguntas para determinar os requisitos de governança e como atendê-las. 
+
+> [!Tip] 
+> Assista a sessão de seguir para conhecer mais sobre governança no Microsoft Teams: [governança, gerenciamento e ciclo de vida em equipes da Microsoft](https://aka.ms/teams-governance)
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>Criação de grupo e da equipe, de nomeação, classificação e acesso de convidado
 

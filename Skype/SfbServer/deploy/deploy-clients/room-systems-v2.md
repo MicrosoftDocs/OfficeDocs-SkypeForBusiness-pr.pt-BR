@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar sistemas de sala Skype v2.
-ms.openlocfilehash: 39704e044d5a5210d47a0347790f5602a3086270
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510642"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26539069"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -100,7 +100,7 @@ Para permitir que você gerencie e relatar em sua máquina de v2 Skype sistemas 
 Definir um grupo de Active Directory ou o Azure AD local para adicionar todas as contas de serviço (usuário) de sistemas de sala do Skype v2 para e criar relatórios de uso usando o cmdlet Get-CSUserSession PowerShell em sua implantação do Skype sala sistemas v2. Por exemplo, crie um grupo chamado SkypeRoomSystemsv2 contas de serviço. 
 
 
-Defina uma unidade organizacional na sua hierarquia de Active Directory ou o Azure AD local para armazenar todas as contas de máquina do Skype sala sistemas v2 (se ele estiver associados ao domínio) e uma unidade organizacional para armazenar todas as contas de usuário de v2 Skype sistemas de sala. Se você criar uma unidade organizacional para as contas de máquina do Skype sala sistemas v2, considere a desabilitação de herança para garantir que você aplique apenas as diretivas que você deve aplicar para o domínio Skype sala Systemsv2. 
+Defina uma unidade organizacional na sua hierarquia de Active Directory ou o Azure AD local para armazenar todas as contas de máquina do Skype sala sistemas v2 (se ele estiver associados ao domínio) e uma unidade organizacional para armazenar todas as contas de usuário de v2 Skype sistemas de sala. Se você criar uma unidade organizacional para as contas de máquina do Skype sala sistemas v2, considere desabilitar herança para garantir que você aplique apenas as diretivas que você se destina a ser aplicado ao v2 de sistemas de sala Skype associados a um domínio. 
 
 Crie um objeto de diretiva de grupo atribuído à unidade organizacional que contém suas contas de computador do Skype sistemas de sala. Use essa opção para: 
 
@@ -128,7 +128,7 @@ Cada dispositivo v2 de sistemas de sala Skype requer uma conta de recurso dedica
 
 **Dica pro** – tornar a exibição nomes para essas contas descritivo e fácil de entender. Estes são os nomes que os usuários verão quando pesquisando e adicionando sistemas do Skype sala sistemas v2 para reuniões. Algumas organizações usam a convenção de *Site*-o*Nome da sala*(*Capacidade máxima de sala*)-RS, então, por exemplo, Curie — uma sala de conferência de 12-pessoa em Londres — podem ter o nome de exibição LON-CURIE (12)-RS. 
 
-<!-- If your organization has many conference rooms that require multiple, provisioned accounts, you might want to use [Skype Room Systems Accounts Provisioning Scripts](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) to bulk-provision multiple service accounts in an automated fashion. -->
+Se sua organização tiver várias salas de conferências que exigem vários, contas provisionadas, convém usar [Scripts de provisionamento de contas do Skype sala sistemas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para em massa-provisão várias contas de serviço de forma automática.
 
 
 |    |     |

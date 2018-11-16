@@ -20,13 +20,14 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Consulte as etapas sobre como alterar o endereço de emergência de um usuário para trabalhar com a Rede Telefônica Pública Comutada (PSTN) nos EUA e na Europa. '
-ms.openlocfilehash: e27ea228972ceead0838cff481a0db983c503b02
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Como alterar o endereço de emergência para um usuário trabalhar com a comutação telefônica PSTN (rede pública) nos Estados Unidos e na Europa. '
+ROBOTS: NOINDEX
+ms.openlocfilehash: 8dac43120fafa1a98e441b983b673e78d2a24d75
+ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347097"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "26538955"
 ---
 # <a name="change-the-emergency-address-for-a-user"></a>Alterar o endereço de emergência de um usuário
 
