@@ -1,5 +1,5 @@
 ---
-title: Configurar para live eventos no Microsoft Teams
+title: Configurar eventos ao vivo no Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
@@ -14,14 +14,14 @@ description: Conheça as etapas para configurar ao vivo de eventos em equipes, i
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92f227b7f625da02e003622c8ff87e744206443
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
+ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532659"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "26548826"
 ---
-# <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar para live eventos no Microsoft Teams
+# <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
@@ -31,7 +31,7 @@ Quando você estiver configurando para eventos ao vivo, há diversas etapas que 
 Eventos de início rápido ao vivo exigem que você preparar [a rede da sua organização para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
-Verifique se você tem as atribuições de licença correta para [quem pode criar e agendar eventos ao vivo?](#who-can-create-and-schedule-live-events) e [quem pode assistir eventos ao vivo?](#who-can-watch-live-events).
+Certifique-se de que você tenha atribuições de licença correta para [quem pode criar e agendar eventos ao vivo](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) e [quem pode Assista eventos ao vivo](plan-for-teams-live-events.md#who-can-watch-live-events).
 
 ## <a name="step-3-set-up-live-events-policies"></a>Etapa 3: Configurar políticas de eventos ao vivo
 Eventos ao vivo, elas são usadas para controlar quem na sua organização pode conter eventos ao vivo e os recursos que estão disponíveis nos eventos que eles criam. Você pode usar a política padrão ou, em seguida, criar um ou mais personalizada live políticas de eventos. Depois de criar uma política personalizada, atribuí-lo a um usuário ou grupos de usuários em sua organização.
