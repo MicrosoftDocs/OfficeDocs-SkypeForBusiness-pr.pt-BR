@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
-ms.openlocfilehash: 6003199b69395001dc47d77f83927ac32e06e5a4
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862237"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561642"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 
@@ -92,7 +92,9 @@ Esta é a aparência do relatório.
      *    **MCOPSTN5** - domésticas chamar Plan (plano de chamada 120 min) 
      *    **MCOPSTN6** - domésticas chamar Plan (plano de chamada min 240) Observação: disponibilidade limitada
      *    **MCOMEETADD** - serviços de audioconferência
-     *    **MCOMEETACPEA** - pagamento por minuto serviços de audioconferência 
+     *    **MCOMEETACPEA** - pagamento por minuto serviços de audioconferência
+> [!NOTE]
+> Você também não poderá ver "nenhum dado" em alguns campos. "Nenhum dado" significa que o campo não for aplicável para o tipo de chamada ou recurso. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
  ***

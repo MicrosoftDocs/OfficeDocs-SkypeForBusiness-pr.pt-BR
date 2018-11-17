@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Você pode habilitar seu Skype para os usuários corporativos usem o Skype interna para a ferramenta de comentários de aplicativo de negócios para permitir que usuários relatar problemas e fornecer comentários diretamente à Microsoft sobre sua experiência.
-ms.openlocfilehash: f681a3745f44745083abc4b1750870aa7d3c4efe
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dcb003c23ca1a96a646851358d21aca5a47e674
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370788"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561615"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Ativar ou desativar o relatório de comentários do cliente Skype for Business
 
@@ -70,7 +70,7 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
-   Confira mais informações sobre como iniciar o Windows PowerShell em [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou[Conectar-se ao Skype for Business Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+   Se você quiser obter mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou[configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Ativar o relatório de comentários do aplicativo cliente para todos os usuários de sua organização
 

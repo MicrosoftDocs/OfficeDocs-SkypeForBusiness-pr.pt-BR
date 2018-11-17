@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber sobre etapas para implantar o bypass de mídia com o conector de nuvem Edition versão 2.0 e posteriores.
-ms.openlocfilehash: 38ff1ffa3aef7e6cd85237048c46c5746b61e7bb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a764c17af7c23d27305f9e2f3e88eaed6edc33cf
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531700"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561911"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -32,7 +32,7 @@ Para habilitar o bypass de mídia, você deve configurar o nome DNS do serviço 
   
 O administrador do locatário deve configurar um registro A DNS no Active Directory da produção interna. Se você tiver um ambiente complexo de vários local, consulte o exemplo [exemplo: registros DNS do site da web em ambientes de vários locais complexos de bypass de mídia](deploy-media-bypass-in-cloud-connector.md#Example). O registro DNS deve resolver apenas clientes da rede interna; ele não deve resolver clientes da rede externa.
   
-Depois de configurar o DNS, conecte-se ao Skype for Business Online usando o PowerShell remoto com as credenciais de administrador do Skype for Business. Para obter mais informações, veja [Conectando-se ao Skype for Business Online usando o Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Depois de configurar o DNS, conecte-se ao Skype for Business Online usando o PowerShell remoto com as credenciais de administrador do Skype for Business. Para obter mais informações, consulte [Configurar o computador para o Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 Na sessão do PowerShell, insira os seguintes comandos para habilitar o bypass de mídia:
   

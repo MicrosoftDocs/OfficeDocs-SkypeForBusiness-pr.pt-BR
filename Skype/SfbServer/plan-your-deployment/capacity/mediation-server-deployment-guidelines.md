@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Este tópico descreve as diretrizes de planejamento para implantação de servidor de mediação.
-ms.openlocfilehash: 0e5568b93e0edb0b30bf3edf0893f5eb43ac8d19
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0b22a285be9e04929d53faffb58e0f7a3f8f3750
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967930"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561897"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Diretrizes de implantação para o servidor de mediação em Skype para Business Server
  
@@ -48,13 +48,13 @@ Você pode usar o Skype para a ferramenta de planejamento de negócios para aval
 > [!NOTE]
 > O bypass de mídia não interoperará com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com os IP-PBXs da Cisco. Bypass de mídia é suportado somente com produtos e versões listadas em Unified Communications programa de interoperabilidade aberta - Lync Server em [explorar testado dispositivos, infra-estrutura e ferramentas que suportam e estendem seu Skype para experiência de negócios](http://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
-Se a resiliência de site de filial for necessária, um aparelho de filial persistente ou a combinação de um servidor Front-End, um servidor de mediação e um gateway deve ser implantada no site da filial. (A pressuposição com resiliência de site de filial é que presença e conferência não são resilientes no site.) Para obter orientação sobre o site de filial Planejando o voice, consulte nossa documentação do [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/en-us/library/gg398477%28v=ocs.15%29.aspx) , conforme ele ainda deve ser relevante para Skype para Business Server 2015.
+Se a resiliência de site de filial for necessária, um aparelho de filial persistente ou a combinação de um servidor Front-End, um servidor de mediação e um gateway deve ser implantada no site da filial. (A pressuposição com resiliência de site de filial é que presença e conferência não são resilientes no site.) Para obter orientação sobre o site de filial Planejando o voice, consulte [Planejar a resiliência do Enterprise Voice em Skype para Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
 Para interações com um IP-PBX, se o IP-PBX não suporta corretamente interações de mídia inicial com várias caixas de diálogo iniciais e interações do RFC 3960, pode haver corte da primeira primeiras palavras da saudação de chamadas de entrada de IP-PBX nos terminais do Lync. Esse comportamento pode ser mais grave se um servidor de mediação em um site central for onde a rota será encerrada em um site de filial, roteamento de chamadas para um IP-PBX por mais tempo é necessário para a conclusão de sinalização. Se você enfrentar esse comportamento, implantar um servidor de mediação no site da filial é a única maneira de reduzir o corte da primeira algumas palavras.
   
 Finalmente, se o site central tiver um PBX TDM, ou se o IP-PBX não elimina a necessidade de um gateway PSTN, você deve implantar um gateway de rota de chamada conectando o servidor de mediação e o PBX.
   
 > [!NOTE]
-> Para aprimorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (receive-side scaling) nos adaptadores de rede nesses servidores. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side aprimoramentos de dimensionamento no Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)". Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede. 
+> Para aprimorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (receive-side scaling) nos adaptadores de rede nesses servidores. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side aprimoramentos de dimensionamento no Windows Server](https://go.microsoft.com/fwlink/p/?LinkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede. 
   
 

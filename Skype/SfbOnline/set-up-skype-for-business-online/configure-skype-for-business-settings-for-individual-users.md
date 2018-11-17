@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: e686e42771b22d7c8d8b21ac05998bbbd5f9ad7e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9dde738431e8afac4837b6f4bcab9b955787927a
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532547"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561682"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Definir as configurações do Skype for Business para usuários individuais
 
@@ -67,7 +67,7 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
 |Gravar conversas e reuniões  <br/> |Escolha o que esta pessoa tem permissão para gravar.  <br/> Essa opção não está disponível com Skype para básica de negócios.  <br/> |
 |Para fins de conformidade, desligue os recursos não arquivados  <br/> | Selecione esta opção se você for obrigado legalmente a preservar informações armazenadas eletronicamente. <br/>  Esta opção desativa a recursos que não são capturados quando você tem um [Bloqueio In-loco](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx) configurados no Centro de administração do Exchange. Ele desativa os seguintes recursos: <br/>  Transferência de arquivos usando mensagens de chat <br/>  Páginas do OneNote compartilhadas <br/>  Anotações do PowerPoint <br/> |
    
-Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenciando diretivas no Skype para negócios Online](https://technet.microsoft.com/en-us/library/dn362826%28v=ocs.15%29.aspx).
+Para definir essas configurações em massa, use o PowerShell. Consulte [Configurar o computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="block-external-communications"></a>Bloquear comunicações externas
 <a name="__toc325019206"> </a>
@@ -84,7 +84,7 @@ Depois de [Permitir que os usuários do Skype for Business adicionem contatos do
     
 3. Clique em **Salvar**.
     
-Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenciando communications no Skype para negócios Online com externo usuários e organizações](https://technet.microsoft.com/en-us/library/dn362813%28v=ocs.15%29.aspx).
+Para definir essas configurações em massa, use o PowerShell. Consulte [Configurar o computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Editar configurações de conferência de áudio para um usuário
 <a name="__toc314837483"> </a>
@@ -100,7 +100,7 @@ Para definir essas configurações em massa, use o PowerShell. Consulte [Gerenci
 |**Número de chamada gratuita** <br/> |Para um ACP de terceiros, esses números de telefone são os que você recebeu do provedor de serviços de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formate os números de como você deseja que apareçam na Skype para solicitações de reunião de negócios e Teams da Microsoft.  <br/> |
 |**PIN e ID de conferência** (necessário) <br/> |O código PIN do participante ou conferência, usado para ingressar em reuniões que são agendadas pelo usuário e são fornecidos a partir de um provedor de serviços de audioconferência de terceiros. Se o usuário está usando o Microsoft como um provedor de serviços de audioconferência, isso não será necessário.  <br/> |
    
-Para definir essas configurações em massa, use o PowerShell. Consulte [Definir convidam números incluídos no telefone](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md).
+Para definir essas configurações em massa, use o PowerShell. Consulte [definir o telefone convidam números incluídos em](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [configurar seu computador para o Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

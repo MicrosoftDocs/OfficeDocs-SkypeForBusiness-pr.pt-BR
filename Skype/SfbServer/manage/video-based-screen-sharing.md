@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obter informações de planejamento e configuração de Business Server para vídeo com base no compartilhamento de tela (VbSS)
-ms.openlocfilehash: 8541bb0dc3b5791c670a3beac77560b3c9663733
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
+ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531621"
+ms.lasthandoff: 11/17/2018
+ms.locfileid: "26561918"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo com base em compartilhamento de tela para Skype para Business Server 
  
@@ -60,7 +60,7 @@ Esteja também ciente de que certo nível de fidelidade/definição de seu conte
 Se o QoS estiver habilitado para as seguintes portas de mídia e VbSS também está habilitado, durante uma conferência que inclui o compartilhamento da área de trabalho que como MCU usará as configurações de porta de vídeo mostradas na negrito abaixo para o tráfego de compartilhamento de tela. 
   
 > [!IMPORTANT]
-> Essas configurações são um caso especial, e essas configurações exatas devem ser usadas ao implementar esses recursos. Isso substitui outras configurações recomendadas na [documentação de QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Aplicativo FO compartilhamento que você também precisará especificar ASMCUSVC.exe do GPO QoS, além de definir esses valores de porta. 
+> Essas configurações são um caso especial, e essas configurações exatas devem ser usadas ao implementar esses recursos. Isso substitui outras configurações recomendadas na [documentação de QoS](https://technet.microsoft.com/en-us/library/gg405409%28v=ocs.15%29.aspx). Para compartilhamento de aplicativos você também precisará especificar ASMCUSVC.exe do GPO QoS, além de definir esses valores de porta. 
   
 **Configurações do servidor de aplicativo QoS/VbSS necessárias**
 
