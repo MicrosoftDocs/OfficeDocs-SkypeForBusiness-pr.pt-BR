@@ -15,12 +15,12 @@ MS.collection:
 - Teams_ITAdmin_Training
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f7f4dcc7ce15549384bbdd5485bed9fbe7b7ef5
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 98112579a33d633e4303bbf4f395f508b955eb8e
+ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012405"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26625670"
 ---
 <a name="quick-start---microsoft-teams-planning-guide"></a>Início rápido - Guia de Planejamento do Microsoft Teams
 ==========================================================
@@ -49,7 +49,7 @@ Assista a este vídeo com orientações simples que devem ser consideradas quand
 
 <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>
 
-Caso o Microsoft Teams não esteja habilitado no seu locatário do Office 365 e você seja um administrador do Office 365, siga as instruções do nosso artigo [Gerenciar o acesso do usuário no Teams](user-access.md) para garantir que os usuários tenham acesso ao aplicativo.
+Se Teams da Microsoft não está habilitada no seu locatário do Office 365 e você for um administrador execute do Office 365 as instruções em nosso artigo [Gerenciar o acesso de usuário às equipes](user-access.md) para garantir que os usuários têm acesso ao aplicativo.
 
 ## <a name="step-3-complete-technical-planning"></a>Etapa 3: Faça o planejamento técnico
 
@@ -60,7 +60,7 @@ O planejamento técnico eficiente é a base para obter uma ótima experiência d
 3.  [URLs do Office 365 e intervalos de endereços IP](office-365-urls-ip-address-ranges.md)
 4.  [Acesso de convidados no Teams](guest-access.md)
 
-Além disso, algumas empresas podem querer analisar a [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).
+Além disso, algumas organizações podem desejar analise a [Visão geral da segurança e conformidade em equipes](security-compliance-overview.md).
 
 
 ## <a name="step-4-conduct-pilots-and-deploy-teams"></a>Etapa 4: Realize pilotos e implante o Microsoft Teams
