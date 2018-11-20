@@ -1,5 +1,5 @@
 ---
-title: Onboard primeiros clientes a adotar a Microsoft Teams
+title: Integração de usuários pioneiros do Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa0b8971e6809b2488f6926f4acf0df898760f4
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 4f5f4b0732aab299a2cf4038547dfa9b6bf4562d
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519593"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620095"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Onboard primeiros clientes a adotar a Microsoft Teams
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Integração de usuários pioneiros do Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>Convidar usuários para equipes
 
@@ -52,7 +52,7 @@ Salto para: [Equipes para Windows](#teams-for-windows) | [equipes para Mac](#tea
 O cliente de desktop equipes proporciona aos usuários de Windows e Mac a melhor experiência geral. Para saber mais, consulte [requisitos de Hardware para o aplicativo de equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)e [obter clientes para equipes (cliente de Desktop)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) .
 
 > [!NOTE]
-> Como um administrador, você pode escolher o método para distribuir os arquivos de instalação para computadores em sua organização, como o System Center Configuration Manager (Windows) ou Jamf Pro (macOS). Para obter o
+> Como um administrador, você pode escolher o método para distribuir os arquivos de instalação para computadores em sua organização, como o System Center Configuration Manager (Windows) ou Jamf Pro (macOS).
 
 #### <a name="teams-for-windows"></a>Equipes para Windows 
 É a maneira mais fácil para instalar o cliente de desktop do Windows:

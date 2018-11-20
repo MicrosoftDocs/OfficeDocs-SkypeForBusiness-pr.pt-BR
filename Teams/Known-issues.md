@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba794c49543740c2b436320d6639454ffb447659
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 98d8ec4eb6f6ab943f1515900aa20debbb7933b8
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532274"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26619999"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -39,7 +39,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Gerenciamento de administração dos conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector no cliente e versão online recebemos o erro: Ocorreu um erro inesperado. Tente novamente. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Desabilite com configurações de equipes. Consulte o artigo de suportehttps://msdn.microsoft.com/microsoft-teams/connectors  <br/> |21/06/2017  <br/> |
+|Gerenciamento de administração dos conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector no cliente e versão online recebemos o erro: Ocorreu um erro inesperado. Tente novamente. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Desabilite com configurações de equipes. Consulte este artigo de suporte:https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/2017  <br/> |
 
 ## <a name="apps"></a>Aplicativos
 

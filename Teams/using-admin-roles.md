@@ -1,22 +1,23 @@
 ---
-title: Usar funções de administrador do Microsoft Teams para gerenciar equipes
+title: Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
-description: Saiba como usar as funções administrativas diferentes para gerenciar equipes.
+ms.reviewer: islubin
+description: Saiba como usar as diferentes funções administrativas para gerenciar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f70b1035600079d4a4f746fe33fa03c6eab287a7
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 895c0992ea15ebff65ff2e4c5cd47823afc81be1
+ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531347"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "26620071"
 ---
-# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar funções de administrador do Microsoft Teams para gerenciar equipes
+# <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams
 
 Usando o Windows Azure Active Directory (AD Azure), você pode designar os administradores que precisarem diferentes níveis de acesso para gerenciar Teams da Microsoft. Os administradores podem gerenciar a carga de trabalho de equipes toda, ou eles podem ter permissões delegadas para solução de problemas chamar problemas de qualidade ou gerenciando precisa de telefonia da sua organização. 
 
