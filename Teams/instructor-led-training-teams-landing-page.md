@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Treinamento ministrado por instrutor for Microsoft Teams
+title: Treinamento do Microsoft Teams com instrutor
 description: Inscreva-se para classes ministrado por instrutor conhecer todas as equipes Microsft.
 author: dearbeen
 ms.topic: hub-page
@@ -9,16 +9,16 @@ ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 ms.date: 08/24/2018
-ms.openlocfilehash: 8944a17bb083dd5af17b8d217f31567fc27e83fe
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: ea7ccef2f9411e0a851b421e131a77f454470132
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546772"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618590"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Treinamento ministrado por instrutor for Microsoft Teams</h1>
+        <h1>Treinamento do Microsoft Teams com instrutor</h1>
         <ul class="pivots">
             <li>
                 <a href="#tab1">Treinamento ministrado por instrutor</a>
@@ -28,7 +28,7 @@ ms.locfileid: "25546772"
                         <ul id="tab1-all" class="cardsC">
                             <li class="fullSpan">
                                 <div class="container intro">
-                                    <p>A Microsoft está entusiasmado hospedar uma série de classes de treinamento gratuito, ao vivo, online projetados para ajudá-lo e em execução com equipes. Se você for um tomador de decisões de negócios, admin, IT Pro ou usuário final, você encontrará uma classe que é a certa para você. Participar para ver as equipes em ação, tire suas dúvidas e interagir com nossos instrutores ao vivo.<br><br> Clique em um lado para registrar.</p>
+                                    <p>A Microsoft está entusiasmado hospedar uma série de classes de treinamento gratuito, ao vivo, online projetados para ajudá-lo e em execução com equipes.Se você for um tomador de decisões de negócios, admin, IT Pro ou usuário final, você encontrará uma classe que é a certa para você. Participar para ver as equipes em ação, tire suas dúvidas e interagir com nossos instrutores ao vivo. <a href="https://docs.microsoft.com/microsoftteams/enduser-training">Treinamento do usuário final sob demanda</a>está procurando?<br><br>Clique em um lado para registrar.</p>
                                 </div>
                             </li>
                             <li>
@@ -108,18 +108,18 @@ ms.locfileid: "25546772"
                             </a>
                         </li>
                         <li>
-                            <a href="https://docs.microsoft.com/MicrosoftTeams/enduser-training">
+                            <a href="https://microsoftteams.eventbuilder.com/MicrosoftTeamsTipsandTricks">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-TrainingVideos-400x140.svg" alt="a video play symbol" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Obtenha vídeos & treinamento sob demanda</h3>
-                                                <p>Obtenha as equipes do usuário final treinamento e vídeos sob demanda para você e seus usuários.</p>
+                                                <h3>Dicas e truques</h3>
+                                                <p>Compreenda as formas criativas para otimizar e organizar equipes em seu trabalho diário. (Audiência: os usuários finais)</p>
                                             </div>
                                         </div>
                                     </div>

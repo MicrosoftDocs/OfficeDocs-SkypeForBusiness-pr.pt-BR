@@ -1,5 +1,5 @@
 ---
-title: Gerenciar recursos de Teams da Microsoft em sua organização do Office 365
+title: Gerenciar os recursos do Microsoft Teams na sua organização do Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7411494c3baa56c1761ee3bcd69c2d49fdd4a961
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ae8cd105d3f6f9e3524033ddbf98e85c1c657c6d
+ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533163"
+ms.lasthandoff: 11/19/2018
+ms.locfileid: "26618549"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar recursos de Teams da Microsoft em sua organização do Office 365
+# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar os recursos do Microsoft Teams na sua organização do Office 365
 
 Todas as definições de equipes em breve serão migradas para o novo Teams Microsoft & Skype para Business Admin Center. O único recurso de equipes que é gerenciado no Centro de administração do Office 365 é Apps. 
 
@@ -119,3 +119,7 @@ Aqui, você pode escolher o aplicativo que os usuários utilizarão para ingress
 ## <a name="how-can-i-tell-which-features-are-available"></a>Como posso saber quais recursos estão disponíveis?
 
 Consulte o [Mapa do Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obter informações sobre novos recursos de equipes. Para obter mais informações sobre recursos novos e futuras, consulte o [blog de equipes da Microsoft Community Tech](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) para equipes e a página equipes [What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) . 
+
+## <a name="more-information"></a>Mais informações
+
+Para obter informações sobre quais funções podem executar funções de administração, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
