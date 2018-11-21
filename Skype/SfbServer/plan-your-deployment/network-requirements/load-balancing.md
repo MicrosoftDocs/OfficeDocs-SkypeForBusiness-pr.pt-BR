@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumo: Revise a carga balanceamento considerações antes de implementar Skype para Business Server.'
-ms.openlocfilehash: cb0b1d8c77a4953ed7950d85bd198bfdd4823961
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882263"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626188"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para o Skype for Business
  
@@ -34,7 +34,7 @@ Decidir sozinho que solução de balanceamento de carga é apropriada para cada 
     
 - Alguns tipos de tráfego exigem um balanceador de carga de hardware. Por exemplo, o tráfego HTTP requer um balanceador de carga de hardware em vez do balanceamento de carga DNS. O balanceamento de carga DNS não funciona com o tráfego web de cliente-servidor.
     
-Se optar por usar o balanceamento de carga DNS para um pool, mas ainda for necessário implementar balanceadores de carga de hardware para o tráfego, como o tráfego HTTP, a administração dos balanceadores de carga de hardware é bastante simplificada. Por exemplo, a configuração do balanceador de carga de hardware será mais simples, pois gerenciará somente os tráfegos HTTP e HTTPS, enquanto os demais protocolos serão gerenciados pelo balanceamento de carga DNS. Para obter detalhes, consulte [O balanceamento de carga do DNS](load-balancing.md#BKMK_DNSLoadBalancing). 
+Se optar por usar o balanceamento de carga DNS para um pool, mas ainda for necessário implementar balanceadores de carga de hardware para o tráfego, como o tráfego HTTP, a administração dos balanceadores de carga de hardware é bastante simplificada. Por exemplo, a configuração do balanceador de carga de hardware será mais simples, pois gerenciará somente os tráfegos HTTP e HTTPS, enquanto os demais protocolos serão gerenciados pelo balanceamento de carga DNS. Para obter detalhes, consulte [DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing). 
   
 Para tráfego de servidor-para-servidor, Skype para Business Server usa o balanceamento de carga de reconhecimento de topologia. Os servidores leem a topologia publicada no repositório de gerenciamento Central para obter os FQDNs dos servidores na topologia e distribuam automaticamente o tráfego entre os servidores. Os administradores não precisam configurar nem gerenciar esse tipo de balanceamento de carga. 
   
@@ -109,7 +109,7 @@ Se estiver implantando dispositivos móveis, o balanceador de carga de hardware 
 > Os balanceadores de carga de hardware F5 têm um recurso chamado OneConnect que assegura que todas as solicitações de uma conexão TCP tenham a carga balanceada individualmente. Se estiver implantando dispositivos móveis, verifique se o fornecedor do balanceador de carga de hardware tem o mesmo recurso. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS. O F5 oferece configurações específicas para isso. 
   
 > [!CAUTION]
-> Para obter detalhes sobre balanceadores de carga de hardware de terceiros, consulte [infraestrutura para Skype para negócios](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Para obter informações sobre balanceadores de carga de hardware de terceiros, consulte [Infraestrutura para o Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 A seguir, são apresentados os requisitos do balanceador de carga de hardware para serviços Web do pool de diretores e de front-end:
   
@@ -145,7 +145,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
    
-## <a name="dns-load-balancing"></a>Balanceamento de carga do DNS
+## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BKMK_DNSLoadBalancing"> </a>
 
 Skype para Business Server habilita DNS com carga balanceada, uma solução de software que pode reduzir significativamente a administração de sobrecarga de balanceamento de carga em sua rede. Balanceamento de carga DNS equilibra o tráfego de rede que seja exclusivo para Skype para Business Server, como o tráfego SIP e tráfego de mídia.

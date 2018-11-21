@@ -14,12 +14,12 @@ description: Conheça as etapas para configurar ao vivo de eventos em equipes, i
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dd8c431f31fef8dc30f72f4944c2ba907850cc
-ms.sourcegitcommit: 2be5458d05fab32771845f855201126a87303b95
+ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "26548826"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626266"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -105,10 +105,10 @@ As seguintes soluções SDN/eCDN previamente são integradas e podem ser configu
 Depois de configurar a solução SDN ou eCDN, você está pronto para configurar o provedor para eventos ao vivo em equipes. 
 
 ## <a name="next-steps"></a>Próximos passos
-Vá para [Confgure live em equipes nas configurações dos eventos](configure-teams-live-events.md).
+Vá para [Configure live em equipes nas configurações dos eventos](configure-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [Quais são as equipes live eventos?](what-are-teams-live-events.md)
 - [Planejamento de eventos ao vivo de equipes](plan-for-teams-live-events.md)
-- [Configurações de eventos do live Confgure em equipes](configure-teams-live-events.md)
+- [Definir configurações de eventos ao vivo em equipes](configure-teams-live-events.md)
 

@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumo: Saiba mais sobre os requisitos de sistema para o servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: 05adb2fb0a4224699cf4465932eba1e7a85761e5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 16cc2a5e640872fe8c57113c7aaca588efab121a
+ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374868"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26626157"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos de sistema do servidor de borda no Skype para Business Server
  
