@@ -1,5 +1,5 @@
 ---
-title: Preparar o meu plano de preparação do usuário antes da atualização do Skype para negócios para o Microsoft Teams - Teams da Microsoft
+title: Preparar um plano de preparação do usuário antes da atualização do Skype para negócios para o Microsoft Teams - Teams da Microsoft
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba3174e8bce17f66a7e990c0066bc886aed9f9b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374093"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649688"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -47,7 +47,7 @@ Um plano de preparação do usuário ideal incorpora como você vai se comunicar
 <table>
 <tbody>
 <tr><th>Canais de comunicação que você irá alavancar?</th><th>Quais canais de treinamento irá alavancar?</th><th>Qual suporte canais serão você usar?</th></tr>
-<tr><td><ul><li>Email<br><strong>Dica:</strong> Use nossa coexistência piloto, de amostra e atualizar emails para personalizar sua campanha de email.</li><li>Cartazes e digitais pôsteres</li><li>Eventos de início</li><li>Gerentes de departamento</li><li>Defensores</li><li>As equipes/canais</li><li>Gamification</li></ul></td><td><ul><li>Vídeos e publicado pelo Microsoft artigos online</li><li>Recursos:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Alternar para equipes do Skype para negócios</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Treinamento em vídeo equipes</a></li></ul></li><li>Assistência do produto (T-Bot)</li><li>Equipe de treinamento interno</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Terceirizado para o suporte técnico</li><li>Self-Service (site da intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ajuda e instruções online</a></li><li>Floor-walkers e campeões</li><li>Loop de comentários (pesquisas, classificações)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Dica:</strong> Use nossa coexistência piloto, de amostra e atualizar emails para personalizar sua campanha de email.</li><li>Cartazes e digitais pôsteres</li><li>Eventos de início</li><li>Gerentes de departamento</li><li>Defensores</li><li>As equipes/canais</li><li>Gamification</li></ul></td><td><ul><li>Vídeos e publicado pelo Microsoft artigos online</li><li>Recursos:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Alternar para equipes do Skype para negócios</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Treinamento em vídeo equipes</a></li></ul></li><li>Assistência do produto (Ajuda)</li><li>Equipe de treinamento interno</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Terceirizado para o suporte técnico</li><li>Self-Service (site da intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ajuda e instruções online</a></li><li>Floor-walkers e campeões</li><li>Loop de comentários (pesquisas, classificações)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

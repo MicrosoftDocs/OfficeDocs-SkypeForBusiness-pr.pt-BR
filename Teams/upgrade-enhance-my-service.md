@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f000a81c0762b11b06e81fd2fcca18915ce1233
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 278e6200547966e5a41983bf3a0f76ecb0e5ca11
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532351"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649680"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -29,7 +29,7 @@ Este artigo faz parte do estágio da sua jornada de atualização, que começa a
 
 Este artigo fornece uma visão geral dos requisitos para tirar o máximo proveito operacional equipes após a atualização. Monitorando continuamente os recursos de serviços de equipes, você pode ter certeza de que está sendo fornecido o valor máximo para sua organização.
 
-## <a name="enhance-my-service-overview"></a>Aperfeiçoar minha visão geral do serviço
+## <a name="enhance-your-service-overview"></a>Aprimorar sua visão geral do serviço
 Depois que você tiver implantado com êxito as equipes para sua organização e está operando o serviço com qualidade e confiabilidade, a próxima etapa é regularmente avaliar se você tem qualquer oportunidades para melhorar seus serviços. Isso é uma parte do aperfeiçoamento contínuo serviço planejamento, ou seja, um moderno padrão para o gerenciamento de serviços de nuvem. 
 
 Uma ótima maneira de certificar-se de que sempre obterá o máximo de seus serviços é monitorar os [mapas de equipes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para novas melhorias de recurso que podem interessar à sua organização. Se você tiver acesso ao portal de administração do Office 365, você receberá atualizações regulares nossas sobre recursos novos e variáveis por meio de nosso centro de mensagens. 

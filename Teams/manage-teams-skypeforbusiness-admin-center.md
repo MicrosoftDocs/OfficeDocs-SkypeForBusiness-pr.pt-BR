@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 3dec789d31737eeb4585da5e28737a15ca679a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b3305efee9636dfff391fc9a851227cf215b719a
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530571"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649529"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams--skype-for-business-admin-center"></a>Gerenciar equipes durante a transição para o novo Teams Microsoft & Skype para Business Admin Center
 ======================================================
@@ -43,7 +43,6 @@ A tabela a seguir identifica as seções da experiência de equipes que foram mi
 |---------|---------|---------|---------|
 |Geral     |Mostrar bate-papo organizacional no perfil pessoal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Locatário       |
 |Geral     |Use Skype for Business para destinatários que não têm equipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Geral     |Permitir que as mensagens de ajuda proativo T-Bot         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Integração de e-mails     |Permitir que os usuários enviar emails a canais         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Integração de e-mails     |Permite que os remetentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Locatário         |
 |Armazenamento em nuvem personalizado     |Caixa         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |

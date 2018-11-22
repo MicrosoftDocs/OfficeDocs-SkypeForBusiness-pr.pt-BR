@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Este artigo falaremos as etapas para configurar um Skype existente para instalação do servidor de negócios para usar o serviço de mobilidade, permitindo que seus dispositivos móveis possam tirar vantagem do Skype para recursos de mobilidade do servidor de negócios.
-ms.openlocfilehash: 2afd462638eb6ed97f6efb694aa74994f2d59727
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375443"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649712"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implantar e configurar mobilidade do Skype para Business Server  
  
@@ -174,7 +174,7 @@ Se você tiver perguntas sobre planejamento ao redor de certificados, podemos te
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - Agora, se você tiver vários domínios SIP, não poderá usar o parâmetro AllSipDomain como no exemplo acima. Em vez disso, use o parâmetro DomainName. Quando você usar o parâmetro DomainName, deverá definir o FQDN para os registros lyncdiscoverinternal e lyncdiscover. Um exemplo seria (substituindo o parâmetro -Ca pelo caminho de sua própria Autoridade de Certificação):
+   - Agora, se você tiver vários domínios SIP, você não pode usar o parâmetro AllSipDomain como no exemplo acima. Em vez disso, use o parâmetro DomainName. Quando você usar o parâmetro DomainName, deverá definir o FQDN para os registros lyncdiscoverinternal e lyncdiscover. Um exemplo seria (substituindo o parâmetro -Ca pelo caminho de sua própria Autoridade de Certificação):
     
    ```
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -188,7 +188,7 @@ Se você tiver perguntas sobre planejamento ao redor de certificados, podemos te
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
    ```
 
-   - Agora, se você tiver vários domínios SIP, não poderá usar o parâmetro AllSipDomain como no exemplo acima. Em vez disso, use o parâmetro DomainName. Quando você usar o parâmetro DomainName, deverá definir o FQDN para os registros lyncdiscoverinternal e lyncdiscover. Exemplos seriam (substituindo o parâmetro -Ca pelo caminho de sua própria Autoridade de Certificação):
+   - Agora, se você tiver vários domínios SIP, você não pode usar o parâmetro AllSipDomain como no exemplo acima. Em vez disso, use o parâmetro DomainName. Quando você usar o parâmetro DomainName, deverá definir o FQDN para os registros lyncdiscoverinternal e lyncdiscover. Exemplos seriam (substituindo o parâmetro -Ca pelo caminho de sua própria Autoridade de Certificação):
     
    ```
    Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
@@ -461,7 +461,7 @@ Para clientes do Lync Server 2010 em Skype para Business Server 2015, você prec
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-Para revisar os procedimentos de comando Além disso, pode conferir [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) e [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
+Para examinar melhor os procedimentos de comando, consulte [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) e [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/test-csmcxp2pim?view=skype-ps).
   
 ## <a name="configure-for-push-notifications"></a>Configurar para notificações por push
 <a name="ConfigPush"> </a>

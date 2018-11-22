@@ -14,18 +14,18 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bca4d2bb757f8fdcece40f82ad0ddce54c1d246
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 042c53f09fd7797c0a25703d204680885d675a29
+ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375562"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26649696"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
 Este artigo faz parte do estágio da sua jornada de atualização, que começa assim que você concluir a atualização do Skype para negócios às equipes excelência operacional.
 
-# <a name="operate-my-service"></a>Operar o meu serviço
+# <a name="operate-your-service"></a>Operar o seu serviço
 
 Este artigo fornece uma visão geral dos requisitos de operando com êxito as equipes para sua organização, depois da atualização. Por operando corretamente seus serviços de equipes, você pode ser se que você estiver fornecendo uma experiência de alta qualidade, confiável para sua organização.
 
@@ -173,7 +173,7 @@ A primeira etapa no gerenciamento de alterações está monitorando as alteraç�
 No [blog de equipes da Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), pode aprender sobre práticas recomendadas, tendências e notícias sobre atualizações de produto de equipes. Espere localizar as atualizações dos principais recursos para equipes a ser anunciado aqui. Você também pode assinar o blog por meio de um RSS feed. Em seguida, você pode adicionar [o RSS feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) diretamente em um canal de equipes, para que todas as notícias importantes é entregue diretamente dentro de equipes.
 
 Todos os recursos que são lançados estão documentados nas [Notas de versão para equipes da Microsoft](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de).
-Aqui, você encontrará uma lista dos recursos que foram lançadas para desktop, web e dispositivos móveis. O mesmo conjunto de notas de versão também estão disponíveis na guia Notas de versão no [Microsoft equipes T-Bot](t-bot.md).
+Aqui, você encontrará uma lista dos recursos que foram lançadas para desktop, web e dispositivos móveis. O mesmo conjunto de notas de versão também estão disponíveis na guia **What's new** na [Ajuda](get-help-in-microsoft-teams.md).
 
 Familiarize-se com os recursos disponíveis e certifique-se de que você atribua proprietários aplicáveis para o monitoramento de alteração.
 
@@ -220,7 +220,7 @@ Para obter mais informações sobre o planejamento de gerenciamento de alteraç�
 
 | Atividade| Descrição| Cadência| Equipe atribuído |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| Monitor da alteração| Monitorar a existência de futuras alterações ao serviço Teams da Microsoft.| Diariamente||
+| Monitor da alteração| Monitorar a existência de futuras alterações ao serviço Teams da Microsoft.| Diário||
 | Planejamento de alterações| Avaliar e planejar a novos recursos e capacidades, incluindo planos de comunicação, campanhas de divulgação e treinamento.| Conforme necessário ||
 | Preparação do usuário| Execute a comunicação direcionada, divulgação ou campanhas de treinamento para garantir que os usuários estão prontos para as futuras alterações.| Conforme necessário ||
 | Preparação da equipe de suporte | Execute a comunicação direcionada, divulgação ou campanhas de treinamento para garantir que a equipe de suporte está pronta. Equipes de suporte podem incluir a equipe "luva branco", los, camada 2 ou camada 3 suporte, parceiros externos e assim por diante. | Conforme necessário ||
@@ -275,7 +275,7 @@ Primeiro, identifique se este é um problema técnico ou no adoção. Comece inv
 
 | Atividade | Descrição | Cadência | Equipe atribuído |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
-| Uso de medida (fase de habilitação) | Medir e avaliar o uso de equipes, como sites continuam a ser onboarded durante a fase de habilitação. Solucionar problemas de uso conforme necessário. | Por semana | |
+| Uso de medida (fase de habilitação) | Medir e avaliar o uso de equipes, como sites continuam a ser onboarded durante a fase de habilitação. Solucionar problemas de uso conforme necessário. | Semanal | |
 | Uso de medida | Medir e avaliar o uso de equipes na fase de unidade de valor (após a conclusão da implantação). Solucionar problemas de uso conforme necessário. | Duas  | |
 | (fase de valor de unidade) | | | |
 | Plano de adoção de atualização | Atualização do seu plano de adoção com base no uso como medido compara a suas metas de planejamento. | Conforme necessário | |
@@ -353,7 +353,7 @@ Para garantir a integridade da sua rede, um número de atividades de operações
 
 | Atividade | Descrição | Cadência | Equipe atribuído |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------|
-| Monitorar o Office 365 IPs e URLs | Monitorar quaisquer alterações para o [Office 365 URLs e intervalos de endereços IP](https://aka.ms/o365ips) usando o [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) de fornecido e inicia uma solicitação de alteração para grupos de redes aplicáveis. | Diariamente | |
+| Monitorar o Office 365 IPs e URLs | Monitorar quaisquer alterações para o [Office 365 URLs e intervalos de endereços IP](https://aka.ms/o365ips) usando o [RSS feed](https://go.microsoft.com/fwlink/p/?linkid=236301) de fornecido e inicia uma solicitação de alteração para grupos de redes aplicáveis. | Diário | |
 | Atualizar a rede com base nas alterações para o Office 365 IPs e URLs | Faça atualizações para os componentes de rede aplicáveis (firewalls, servidores proxy, VPNs, firewalls do lado do cliente e assim por diante) para refletir as alterações do [Office 365 URLs e intervalos de endereços IP](https://aka.ms/o365ips). | Conforme necessário | |
 | Fornecer dados de construção | Fornecem informações de sub-rede atualizado ao campeão de qualidade (ou participantes relevantes) para garantir que a [criação de definições no CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) são mantidos atualizados. | Conforme necessário | |
 | Implementar uma alteração | Implementar alterações na rede para requisitos técnicos e comerciais em constante mudança equipes suporte. Elementos de rede podem incluir:<ul><li>Firewalls</li><li>VPNs</li><li>Com fio e redes Wi-Fi</li><li>Conectividade com a Internet e ExpressRoute</li><li>DNS</li></ul> | Conforme necessário | |
@@ -392,7 +392,7 @@ A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui ativ
 | Executar a qualidade da experiência revisões (QERs) | Executar um QER para identificar tendências de qualidade e confiabilidade, revise contra as metas definidas e indicá-out para os principais participantes na organização. | Mensalmente (semanalmente durante implantações) | |
 | Correção de unidade | Coordene os esforços de remediação em toda a organização baseada na descobertas e avaliações de QER. | Conforme necessário | |
 | Atualizar dados de construção em CQD | Atualizar ou adicionar novas definições de construção em CQD quando são feitas alterações à rede (veja [informações de construção de carregamento](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)). | Conforme necessário | |
-| Preencher a função campeão de qualidade | Responsabilidade de ponta a ponta da qualidade na organização. Isso inclui:<ul><li>Certifique-se de que o QER está sendo conduzido regularmente.</li><li>Relatar o check-out para os principais participantes no status de qualidade.</li><li>Verifique se os dados de construção definições são até a data.</li><li>Coordene os esforços de remediação em toda a organização para garantir que os usuários tenham uma experiência de alta qualidade com equipes.</li></ul> | Diariamente | |
+| Preencher a função campeão de qualidade | Responsabilidade de ponta a ponta da qualidade na organização. Isso inclui:<ul><li>Certifique-se de que o QER está sendo conduzido regularmente.</li><li>Relatar o check-out para os principais participantes no status de qualidade.</li><li>Verifique se os dados de construção definições são até a data.</li><li>Coordene os esforços de remediação em toda a organização para garantir que os usuários tenham uma experiência de alta qualidade com equipes.</li></ul> | Diário | |
 
 ### <a name="references"></a>Referências 
 
@@ -457,7 +457,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips)
 
-[Obter clientes para o Microsoft Teams](get-clients.md)
+[Obter clientes do Microsoft Teams](get-clients.md)
 
 [Comunidade do Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -488,7 +488,7 @@ Para suportar usuários, uma organização pode exigir qualquer número de taref
 
 #### <a name="general-tasks"></a>Tarefas gerais
 
-[Gerenciamento do acesso de usuários ao Microsoft Teams](user-access.md)
+[Gerenciar o acesso de usuários ao Microsoft Teams](user-access.md)
 
 
 ### <a name="team-creation-optional"></a>Criação de equipe (opcional)
@@ -503,8 +503,8 @@ Por padrão, todos os usuários com uma caixa de correio no Exchange Online tem 
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Administração do serviço | Administração de configurações de equipes de todo o inquilino. | Conforme necessário | |
 | Administração do usuário | Administração de configurações do usuário e as equipes de licenciamento. | Conforme necessário | |
-| Gerenciamento de licença | Planejar as necessidades atuais e futuras para o usuário e o licenciamento baseado em consumo (chamar planos e créditos de comunicação) utilizando-se o relatório de [relatório de uso PSTN](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) e [pools de minuto do PSTN](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) . | Por semana    | |
-| Gerenciamento de número de telefone | Gerenciar os números de telefone disponíveis para o crescimento futuro e ajustar os níveis de inventário para atender às suas necessidades organizacionais. | Por semana | |
+| Gerenciamento de licença | Planejar as necessidades atuais e futuras para o usuário e o licenciamento baseado em consumo (chamar planos e créditos de comunicação) utilizando-se o relatório de [relatório de uso PSTN](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) e [pools de minuto do PSTN](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) . | Semanal    | |
+| Gerenciamento de número de telefone | Gerenciar os números de telefone disponíveis para o crescimento futuro e ajustar os níveis de inventário para atender às suas necessidades organizacionais. | Semanal | |
 | Criação de equipe (opcional)    | Solicitações de revisão e processo para criação de equipe. | Conforme necessário | |
 
 <!--ENDOFSECTION-->
