@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66bf2e6aa01c24b327d26e2a30678ca3722a8c97
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
+ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532494"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "26670927"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Boas práticas para organizar equipes no Microsoft Teams
 ======================================================
@@ -29,7 +29,7 @@ As equipes são uma coleção de pessoas que reunir ao redor de uma meta comum. 
 
 Antes de criar uma equipe em nosso produto, é uma boa prática pensar o objetivo, o projeto ou itens de trabalho e pessoas da organização que podem ajudar a fornecer colaborativamente. Depois de criar a equipe, adicione essas pessoas ou grupos a ela para dar início à colaboração. É conveniente designar diversos proprietários para cada equipe. Veja [ Gerenciamento de equipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-Dê uma olhada no vídeo rápido para ver alguns exemplos de como estruturar equipes de toda a organização ou o único objetivo:
+Dê uma olhada neste pequeno vídeo para ver alguns exemplos de como estruturar equipes de toda a organização ou o único objetivo:
 
 > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
