@@ -3,30 +3,27 @@ title: Usar o PowerShell para controlar o acesso de convidados a uma equipe
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/09/17
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Use o PowerShell para permitir ou bloquear o acesso de convidados às equipes do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496b2db5f3c00fe5b2c61ab5333ed43ac6dc25e0
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: aa06fa8466affa62de9f8805f0cf4b4931580d3f
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25011917"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674445"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar o PowerShell para controlar o acesso de convidados a uma equipe
 ================================================
 
 Além de usar o centro de administração do Office 365 e o portal do Azure Active Directory, você pode usar o Windows PowerShell para controlar o acesso de convidados. Com o PowerShell, você pode fazer o seguinte:
   
-  
-   
-
 - Permitir ou bloquear o acesso de convidados a todas as equipes e grupos do Office 365
     
   
@@ -38,8 +35,6 @@ Além de usar o centro de administração do Office 365 e o portal do Azure Acti
   
 Para obter mais detalhes, veja a seção "Usar o PowerShell para controlar o acesso de convidados" na guia Gerenciar de [Acesso de convidado em Grupos do Office 365](https://support.office.com/article/Use-PowerShell-to-control-guest-access-bfc7a840-868f-4fd6-a390-f347bf51aff6#bkmk_usepowershell).
   
-    
-    
 Você também pode usar o PowerShell para permitir ou bloquear um usuário convidado com base no seu domínio. Por exemplo, digamos que a sua empresa (Contoso) tem uma parceria com outra empresa (Fabrikam). Você pode adicionar a Fabrikam na sua lista de permissões para que seus usuários possam adicionar esses convidados aos seus grupos. Para obter mais informações, consulte [Permitir/bloquear o acesso de convidados nos grupos do Office 365](https://go.microsoft.com/fwlink/?linkid=854001).
   
  

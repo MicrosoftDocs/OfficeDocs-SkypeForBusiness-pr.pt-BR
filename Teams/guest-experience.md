@@ -3,22 +3,22 @@ title: Como é a experiência do convidado
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 10/20/17
+ms.date: 11/26/18
 ms.topic: article
 ms.service: msteams
-ms.reviewer: laal
+ms.reviewer: sbhatta
 search.appverid: MET150
 description: Conheça a funcionalidade do Microsoft Teams disponível para usuários convidados.
 localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 921617c2f9a4a1bcc9f38030bdcea0d72c7f54aa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016513"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674549"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -31,7 +31,7 @@ Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensage
   
     
     
-![A captura de tela mostra um exemplo de uma mensagem de boas-vindas por e-mail enviada por um proprietário de equipe no Microsoft Teams para um usuário convidado. A mensagem inclui um texto que pode ser personalizado pelo proprietário da equipe e breves descrições dos recursos do Teams, como bate-papo, chamadas e reuniões.](media/bc0deb82-6394-4280-8fed-312645c8fefe.png)
+![Exemplo de uma mensagem de e-mail de boas vindas enviada por um proprietário de equipe no Microsoft Teams para um usuário convidado. A mensagem inclui um texto que pode ser personalizado pelo proprietário da equipe e breves descrições dos recursos do Teams, como bate-papo, chamadas e reuniões.](media/guest-experience-image1.png)
   
     
     
@@ -43,7 +43,7 @@ Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que 
   
     
     
-![A captura de tela mostra uma parte do canal de Marketing da Northwind Traders, com a notificação no banner superior indicando “Esta equipe tem convidados” e os usuários convidados identificados com a palavra “CONVIDADO” ao lado do seu nome.](media/33394a31-7d10-4950-8b39-b7d9953397c3.png)
+![A captura de tela mostra uma parte do canal de Marketing da Northwind Traders, com a notificação no banner superior indicando “Esta equipe tem convidados” e os usuários convidados identificados com a palavra “CONVIDADO” ao lado do seu nome.](media/guest-experience-image2.png)
   
     
     
@@ -70,8 +70,57 @@ A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para o
 |Descobrir e entrar em uma equipe pública  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Visualizar o organograma  <br/> |![marca de seleção](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
+A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para os convidados.
 
-    
+| Recurso de chamada | Convidado | Usuário E1 e E3 | Usuário E5 e EV |
+| --------------- | ----- | -------------- | -------------- |
+| Chamadas de VOIP | Sim | Sim | Sim |
+| Chamadas de grupo | Sim | Sim | Sim |
+| Controles de chamada de núcleo com suporte (isenção, sem áudio, vídeo ativado/desativado, compartilhamento de tela) | Sim | Sim | Sim |
+| Transferência de destino | Sim | Sim | Sim |
+| Pode transferir uma chamada | Sim | Sim | Sim |
+| Pode transferência com consultoria | Sim | Sim | Sim |
+| Pode adicionar outros usuários a uma chamada via VOIP | Sim | Sim | Sim |
+| Pode adicionar usuários pelo número de telefone a uma chamada | Não | Não | Sim |
+| Destino Forward | Não | Sim | Sim |
+| Destino do grupo de chamada | Não | Sim | Sim |
+| Destino não atendido | Não | Sim | Sim |
+| Pode ser o destino de uma chamada federado | Não | Sim | Sim |
+| Pode fazer uma chamada federada | Não | Sim | Sim |
+| Imediatamente pode encaminhar suas chamadas | Não | Não | Sim |
+| Pode ligar simultaneamente para as chamadas | Não | Não | Sim |
+| Pode rotear suas chamadas não atendidas | Não | Não | Sim |
+| Chamadas perdidas podem ir para a caixa postal | Não | Nenhum<sup>1</sup> |Sim |
+| Ter um número de telefone que pode receber chamadas | Não | Não | Sim |
+| Podem discar números de telefone | Não | Não | Sim |
+| Acesso pode chamar a configurações | Não | Não | Sim |
+| Pode alterar a saudação da caixa postal | Não | Nenhum<sup>1</sup> | Sim |
+| Pode alterar toques | Não | Não  | Sim |
+| Suporta TTY | Não | Não | Sim |
+| Pode ter representantes | Não | Não | Sim |
+|  Pode ser um representante | Não | Não | Sim |
+
+
+<sup>1</sup> esse recurso estará disponível em breve.
+
+
+
 > [!NOTE]
 > Os administradores do Office 365 controlam os recursos disponíveis aos convidados. 
   
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+  
+Q. Convidados que tem os mesmos recursos que os membros da equipe? R. n º de Para obter mais informações sobre qual um convidado pode ou não fazer, vá para capacidades de convidado em equipes.
+
+Q. Quantos convidados podem convidar? A. você pode adicionar até 5 convidados por usuário licenciado.
+
+Q. Convidados que tem acesso ao OneDrive for Business? R. n º de
+
+Q. Os convidados têm acesso aos arquivos do SharePoint? R. Sim.
+
+Q. Convidados podem pesquisar nos arquivos? R. n º de
+
+Q. Podem convidados anexar arquivos? R. Sim, o convidado pode anexar arquivos desses duas maneiras: • Selecione arquivos no painel esquerdo e, em seguida, navegue até o local do arquivo.
+• Upload de seus computadores.
+
+Q. Um convidado pode baixar a um arquivo em um bate-papo privado? R. Sim, eles podem receber um arquivo de um membro em um bate-papo privado e, em seguida, baixe-o para sua área de trabalho.

@@ -3,21 +3,21 @@ title: Adicionar um convidado a uma equipe
 author: LaithAlShamri
 ms.author: laal
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
-ms.reviewer: laal
+ms.reviewer: sbhatta
 description: Conheça as ferramentas disponíveis para adicionar novos usuários a uma organização, incluindo clientes desktop e web do Microsoft Teams e o portal de colaboração do Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86a124cea08a69c01f33c99c16546c5f7bc3440f
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016089"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674461"
 ---
 <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 =====================
@@ -46,3 +46,8 @@ Usuários convidados que você já tiver adicionado via B2B do Azure Active Dire
 
 Você pode acompanhar a adição de convidados no Centro de Segurança &amp; Conformidade do Azure Active Directory ou do Office 365. A adição de um convidado no Microsoft Teams é auditada e registrada como uma atividade de administração de grupo do Azure AD: “Adicionou membro a grupo”. Para obter mais detalhes, consulte [Auditar e reportar um usuário de colaboração B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) e [Procurar registro de auditoria no Centro de Segurança &amp; Conformidade do Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
+## <a name="more-information"></a>Mais informações
+
+[Autorizar o acesso de convidado no Microsoft Teams](teams-dependencies.md)
+[Ativar ou desativar o acesso de convidado em equipes da Microsoft](set-up-guests.md)
+[Usar o PowerShell para controlar o acesso de convidado para uma equipe](guest-access-powershell.md)

@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade no Reino Unido (Reino Unido)
+title: Disponibilidade no Reino Unido
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,14 +26,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para o Reino Unido.
-ms.openlocfilehash: ada6f7c5d4919a3c114488da8b30e7b58f9d6821
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3b6f1f9bb298e00b0d8786f7b8a04c8ab59352
+ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531131"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "26674766"
 ---
-# <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidade no Reino Unido (Reino Unido)
+# <a name="availability-in-the-united-kingdom-uk"></a>Disponibilidade no Reino Unido
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
@@ -61,7 +61,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Sim  <br/> |
-|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>minuto 600 para nacionais e internacionais chamar planos</li></li> 
+|Minutos disponíveis para chamar planos. |Há quatro opções de planejamento disponível por mês do calendário: <ul><li>120 minuto domésticas chamar planejar </li><li>240 minuto domésticas chamar planejar</li></li><li>1200 minuto domésticas chamar planejar </li></li><li>Nacionais e internacionais chamar planejar: 1200 minutos de minutos de bits OR-600 domésticos de chamadas internacionais (o que for atingido primeiro no mês do calendário)</li></li> 
 |Pode fazer chamadas de saída para números premium? <br/> | Parcialmente suportado: chamadas para números de custo de compartilhadas (prefixa 44843, 44844, 44845, 44870, 44871, 44872) são suportadas usando comunicações créditos de pagar por minuto.  Chamadas para 449XX prefixos não são suportadas. <br/> |
 |É possível fazer chamadas de saída?  <br/> | Para 196 países, incluindo [estes](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
