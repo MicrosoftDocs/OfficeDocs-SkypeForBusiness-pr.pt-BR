@@ -1,5 +1,5 @@
 ---
-title: Alterar o local de emergência de um usuário
+title: Atribuir ou alterar o local de emergência para um usuário
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,21 +20,21 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Saiba como alterar o local de emergência para seus usuários. Com um número ilimitado de locais, você pode alterar os locais de emergência quando seus funcionários se mudam de andares ou prédios. '
-ms.openlocfilehash: 7ebec7ca6a2180702eec9e24b3165eb501d4a097
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
+ms.openlocfilehash: 292789b19899f01478e44a183236960282ac6330
+ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347107"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26676413"
 ---
-# <a name="change-the-emergency-location-for-a-user"></a>Alterar o local de emergência de um usuário
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Atribuir ou alterar o local de emergência para um usuário
 
-Cada número de telefone ativo deve ter um endereço de emergência (associado quando você receber um número de telefone no Office 365 ou quando você transferir um número de telefone) quando o número de telefone é atribuído ao usuário. Quando você associa o número com um endereço de emergência, você também pode adicionar um local de emergência para fornecer um local mais exato dentro de um local físico. Um local de emergência pode ser o andar, a ala do edifício ou número do escritório onde o usuário se encontra. Você pode ter um número ilimitado de locais para um determinado endereço de emergência, e você pode alterar o local de emergência, se o usuário move a um office diferente ou construção — por exemplo, se o usuário move de andar 34 para piso 35.
+Cada número de telefone ativa deve ter um endereço de emergência associado ao atribuir o número de telefone a um usuário. (Você associar o endereço quando você receber um número de telefone no Office 365 ou quando você transfere um número de telefone.) Quando você associa o número com um endereço de emergência, você também pode adicionar um local de emergência para fornecer um local mais exato dentro de um local físico. Um local de emergência pode ser o andar, a ala do edifício ou número do escritório onde o usuário se encontra. Você pode ter um número ilimitado de locais para um determinado endereço de emergência, e você pode alterar o local de emergência, se o usuário move a um office diferente ou construção — por exemplo, se o usuário move de andar 34 para piso 35.
   
 Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, consulte [Licenciamento de complemento para Skype for Business e Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
-## <a name="change-the-emergency-location-for-a-user"></a>Alterar o local de emergência de um usuário
+## <a name="assign-or-change-the-emergency-location"></a>Atribuir ou alterar o local de emergência
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -52,10 +52,12 @@ Para saber como obter um Plano de chamada no Office 365 e quanto eles custam, co
 6. Na página **Atribuir número**, clique em **Alterar local**. 
     
 7. Em **Alterar endereço de emergência para**, digite o nome da cidade na caixa e clique em **Pesquisar**.
+
+8. Selecione na lista suspensa **pesquisa por local** , digite um nome parcial para o local (por exemplo, insira **floor**) e clique em **Pesquisar**. 
     
 8. Selecionar o local de emergência na lista e clicar em **Salvar**.
     
-    Se você deseja adicionar um novo local de emergência, consulte [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md).
+    Se você deseja adicionar um novo local de emergência que aparecerá na lista, consulte [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Tópicos relacionados
 [Adicionar ou remover um endereço de emergência para sua organização](add-or-remove-an-emergency-address-for-your-organization.md)
