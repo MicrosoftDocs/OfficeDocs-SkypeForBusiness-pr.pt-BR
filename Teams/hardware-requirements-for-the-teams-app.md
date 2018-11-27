@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30ca95bb3ff5a01d5e8d991dda8e696148ab85c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c97ce12f2dd55807cd806afa05ea6d1813ad457b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372315"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699405"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
@@ -33,11 +33,11 @@ ms.locfileid: "25372315"
 |Disco rígido    | 3.0 GB de espaço em disco disponível        |
 |Exibir    |   resolução de tela de 1024 x 768 |
 |Hardware gráfico |  Mínimo de 128 MB de memória gráfica
-|Sistema operacional  |    10 do Windows, Windows 8.1, Windows 8 ou Windows 7 Service Pack 1 em 32 bits e 64 bits.  Para uma melhor experiência, use a versão mais recente de qualquer sistema operacional.|
+|Sistema operacional  |    10 do Windows, Windows 8.1, Windows 8 ou Windows 7 Service Pack 1 em 32 bits e 64 bits. Para uma melhor experiência, use a versão mais recente de qualquer sistema operacional.|
 |Versão de .NET    |  Requer CLR do .NET 4.5 ou posterior       |
 |Vídeo    |  Câmera de vídeo USB 2.0       |
 |Dispositivos    |   Câmera de laptop padrão, microfone e alto-falantes    | 
-|Reuniões e chamadas de vídeo | Para obter uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador que tenha um processador de 2.0 GHz e 4.0 GB de RAM (ou superior).
+|Reuniões e chamadas de vídeo | Para obter uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador que tenha um processador de 2.0 GHz e 4.0 GB de RAM (ou superior). Opcional desfoque meu plano de fundo efeito de vídeo requer um processador com suporte avançado vetor Extensions 2 (AVX2).
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para o aplicativo de área de trabalho de equipes em um Mac
 
@@ -50,7 +50,7 @@ ms.locfileid: "25372315"
 |Sistema operacional  |    Mac OS X Capitan de El 10.11 ou posterior     |
 |Vídeo  |    Webcam compatível     |
 |Voz    |  Compatível com microfone e alto-falantes, headset com microfone ou dispositivo equivalente       |
-|Reuniões e chamadas de vídeo | Para obter uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador que tenha um processador de 2.0 GHz e 4.0 GB de RAM (ou superior).
+|Reuniões e chamadas de vídeo | Para obter uma experiência melhor com chamadas de vídeo e reuniões online, recomendamos o uso de um computador que tenha um processador de 2.0 GHz e 4.0 GB de RAM (ou superior). Opcional desfoque meu plano de fundo efeito de vídeo requer um processador com suporte avançado vetor Extensions 2 (AVX2), com suporte na maioria dos dispositivos de Mac atrasado 2013 e posterior.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para o aplicativo de equipes em dispositivos móveis
 

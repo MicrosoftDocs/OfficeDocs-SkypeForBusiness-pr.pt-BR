@@ -1,7 +1,7 @@
 ---
-title: Suporte onboard for Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Suporte à integração do Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Traz a equipe de suporte integrado para a fase de experimento de sua adoção de equipes.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b6fbcc35894d3f5c10d854a6608d99eba1db3b9
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 21e93c62a65b46b78c143d357a88ee2a789007bd
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519582"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699729"
 ---
-# <a name="onboard-support-for-microsoft-teams"></a>Suporte onboard for Microsoft Teams
+# <a name="onboard-support-for-microsoft-teams"></a>Suporte à integração do Microsoft Teams
 
 Para garantir que as equipes de campeões e uma das primeiras a adotar terá o suporte apropriado conforme eles começarem a usar as equipes, se reunir com sua equipe de suporte e revise as capacidades de equipes. Principais membros da organização suporte talvez queira ingressar seu programa de adoção antecipada. Incentive seu uso de equipes em seus próprios cenários. Levá-los por meio de inclusão básica do produto usando nossos recursos de treinamento online.  
 

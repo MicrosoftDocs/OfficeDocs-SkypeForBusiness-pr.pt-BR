@@ -1,28 +1,28 @@
 ---
-title: Criar o seu programa de campeões for Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Criar seu programa de defensores do Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a treinar uma equipe de campeões para promover a adoção de equipes.
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 754ffc617fb310deac244a10160f435a0ba7f6ea
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 6961c55f1ea75410e5b7e807a40d9a4512ad5249
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519586"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699863"
 ---
-# <a name="create-your-champions-program-for-microsoft-teams"></a>Criar o seu programa de campeões for Microsoft Teams
+# <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 
 Campeões são essenciais para dirigir divulgação, adoção e treinamento em sua organização. Um campeão é uma pessoa, principalmente motivada, ajudando a outras pessoas, que está interessado em nova tecnologia (especificamente equipes) e ajudar outros funcionários usá-lo em alinhamento com as práticas recomendadas. Dependendo do tamanho da sua organização, você pode ter isso como parte da função da pessoa formal, mas geralmente funcionários fazem na função sozinhos devido à sua motivação principal para ajudar os outros.
 

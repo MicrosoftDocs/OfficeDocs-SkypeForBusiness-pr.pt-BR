@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Encontre e gerencie atualizações do Skype for Business Server 2015 e do Lync 2013 em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
-ms.openlocfilehash: 6bc575a5f2ae981a6f3ea613f8a262d048c5fde0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9c7d14e1439d3f7fd88ad6246495fccc1e7ef441
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531614"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699434"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -26,6 +26,7 @@ Encontrar e gerenciar atualizações do [Skype for Business Server 2015](#skype-
 Para obter o Skype as atualizações mais recentes do Business Online e do Office 365, acesse o [Roteiro do Office 365](https://go.microsoft.com/fwlink/p/?linkid=529454).
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Histórico de atualizações do Skype for Business Server 2015
+[KB 3061064](https://support.microsoft.com/kb/3061064) contém a lista de todas as atualizações cumulativas que foi liberada. A data indica a última data de lançamento. 
 
 |Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |

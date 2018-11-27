@@ -1,7 +1,7 @@
 ---
-title: Otimizar comentários e relatório para sua adoção Teams da Microsoft
-author: LolaJacobsen
-ms.author: lolaj
+title: Otimizar os comentários e relatórios de adoção do Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como obter comentários do usuário e usar o serviço de relatório de integridade em sua adoção de equipes.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65790075f649693a5312c3a12cc5daac33c7ac90
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 5ab7a061b4f45564c6be42f708a0ded3ea00f268
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519587"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699833"
 ---
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar comentários e relatório para sua adoção Teams da Microsoft
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
 Certifique-se de que você está obtendo sinais de volta do seu serviço e seus funcionários seguindo nossas práticas recomendadas para comentários do usuário e o relatório de integridade do serviço.  Em alguns casos, você talvez precise direitos de administrador do Office 365 para acessar certos relatórios de uso e integridade do serviço. Se você não for o administrador do Office 365 para sua organização, trabalhe com essa pessoa a ser concedida a função de leitor de relatório no Centro de administração do Microsoft 365 acesse alguns desses dados. 
 

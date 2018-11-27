@@ -1,7 +1,7 @@
 ---
-title: Agendar revisões de integridade do serviço para a adoção de Teams da Microsoft
-author: LolaJacobsen
-ms.author: lolaj
+title: Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar o serviço de relatório de integridade em sua adoção de equipes.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 126f64cad95f889f93eacca012b6a20c9962bcd1
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 26cbc5e80ea989bff7c68b8004a3cd38b4318538
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519592"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699841"
 ---
-# <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Agendar revisões de integridade do serviço para a adoção de Teams da Microsoft
+# <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
 
 Em colaboração com a sua equipe de implementação técnica, planeje armazenar mensalmente avaliações de integridade do serviço para equipes. Essas revisões você compartilharão ideias sobre medidas a seguir:
 

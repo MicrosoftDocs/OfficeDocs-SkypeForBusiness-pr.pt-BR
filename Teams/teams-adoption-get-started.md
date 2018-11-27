@@ -1,7 +1,7 @@
 ---
-title: Guia de Introdução orientando a adoção da Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Como começar a promover a adoção do Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre a inicialização, experimente e habilite fases de adoção de Teams da Microsoft.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6615f296fd1ff248b2801fd44c6cc92586b27876
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 75cecfd5050ce964fd7b2dbc9dff97da2fb920b3
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519614"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699745"
 ---
-# <a name="get-started-driving-adoption-of-microsoft-teams"></a>Guia de Introdução orientando a adoção da Microsoft Teams
+# <a name="get-started-driving-adoption-of-microsoft-teams"></a>Como começar a promover a adoção do Microsoft Teams
 
 Promovendo a adoção de Teams da Microsoft, você pode fornecer uma experiência de usuário excelente e aumento de valor comercial dentro da sua empresa. Nosso objetivo é obtido em operação rapidamente para que você possa começar sua jornada com equipes. Este guia enfoca a adoção dos usuários de equipes e possui dependências em preparação técnica do seu ambiente, que é abordada em outras seções da nossa documentação.
 

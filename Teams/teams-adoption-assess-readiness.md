@@ -1,7 +1,7 @@
 ---
-title: Como pronta é sua organização for Microsoft Teams?
-author: LolaJacobsen
-ms.author: lolaj
+title: Sua organização está preparada para o Microsoft Teams?
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Determine se a sua organização está pronta para a transição para equipes.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 627d6ca502731c058b1737e5ae50346e5b4ca2be
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: ff819ad3d0f2c28d446981279dbf518f589fe616
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519589"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699810"
 ---
-# <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Como pronta é sua organização for Microsoft Teams?
+# <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Sua organização está preparada para o Microsoft Teams?
 
 Agora que sua equipe de projeto tem se unem, e você está iniciando ver o que as equipes podem fazer pela sua organização, é importante avaliar a preparação da sua organização para a transição de equipes. Para avaliar a preparação, você precisará:
 

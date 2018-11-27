@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumo: Saiba como iniciar ou parar uma sessão de captura do log de Centralized Logging Service no Skype para Business Server 2015.'
-ms.openlocfilehash: c0b65fddcb5036cf41866ce79d82ae0bc49a79e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d3dc2ca58964908bda0d8c2de845297bb0cb951b
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373761"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699856"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
  
@@ -47,7 +47,7 @@ The Centralized Logging Service oferece duas maneiras de comandos do problema. U
    ```
 
     > [!NOTE]
-    > O cenário AlwaysOn não tem uma duração padrão. Este cenário será executado até você pará-lo explicitamente com o cmdlet **Stop-CsClsLogging** . Para obter detalhes, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para todos os outros cenários, a duração padrão é 4 horas. 
+    > O cenário AlwaysOn não tem uma duração padrão. Este cenário será executado até você pará-lo explicitamente com o cmdlet **Stop-CsClsLogging** . Para detalhes, consulte [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps). Para todos os outros cenários, a duração padrão é 4 horas. 
   
 3. Pressione Enter para executar o comando. 
     
@@ -105,6 +105,9 @@ Por exemplo:
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
+> [!NOTE]
+> Portanto, você pode estar se perguntando: agora que você tiver ativado o log, onde estão os logs mantidos? Como você vai acessar as informações armazenadas nos logs usando consultas do shell de gerenciamento enviadas aos operadores CLS, e você pode gerar os resultados para vários formatos de arquivo possíveis, onde em cada servidor um agente CLS mantém seus registros não é realmente importante saber.  Os arquivos de log podem ser salvo em um local que você especifica e ler e analisados usando uma variedade de ferramentas, incluindo **Snooper.exe** e qualquer ferramenta que pode ler um arquivo de texto, como **Notepad.exe**. Snooper.exe faz parte do Skype para as ferramentas de depuração do Business Server 2015 e está disponível como um [download da Web](https://go.microsoft.com/fwlink/p/?LinkId=285257).
+
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Para interromper uma sessão de Centralized Logging Service atualmente em execução
 
 1. Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.
@@ -139,4 +142,4 @@ Agindo como o comando acompanhante para Start-CsClsLogging, o cmdlet Stop-CsClsL
 ## <a name="see-also"></a>Ver também
 <a name="stop"> </a>
 
-[Serviço centralizado de registro em log no Skype for Business 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)

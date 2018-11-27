@@ -1,28 +1,28 @@
 ---
-title: Definir os resultados e sucesso para a adoção de Teams da Microsoft
-author: LolaJacobsen
-ms.author: lolaj
+title: Definir os resultados e o sucesso da adoção do Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como medir os resultados e o êxito da sua habilitação de grande escala de equipes.
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe4a146492712b4d18e8a4e1b18ea393a646662e
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519622"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699809"
 ---
-# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e sucesso para a adoção de Teams da Microsoft
+# <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 
 Para cada cenário de negócios ou serviço que você modernizar, é essencial para definir qual sucesso se parece com pela sua empresa. Você será coletou essas informações para seus cenários iniciais conforme você mapeado-los na sua fase anterior. Ao se preparar para a implementação de escala, você precisará rever e expanda a esses critérios importantes de sucesso.
   

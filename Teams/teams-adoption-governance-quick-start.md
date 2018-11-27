@@ -1,7 +1,7 @@
 ---
-title: Início rápido de governança for Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Início rápido de governança no Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Tomar decisões importantes para a fase 2 do seu plano de adoção
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c71a7870fdcfb0c8818430ee748fae68a90d9471
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 7c8cf1460919019234da365626bfdf587c87249e
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519583"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699793"
 ---
-# <a name="governance-quick-start-for-microsoft-teams"></a>Início rápido de governança for Microsoft Teams
+# <a name="governance-quick-start-for-microsoft-teams"></a>Início rápido de governança no Microsoft Teams
 
 As seguintes atividades acontecerá simultaneamente e eles podem envolver todo ou parte de sua equipe chave. Como prática recomendada, adie a governança em larga escala e conversas de segurança para depois de concluir sua experimentação inicial com equipes. Isso irá simplificar as decisões que você precisará fazer a essa data futura. Para esta fase, há algumas decisões que precisam ser realizadas. Para torná-las a com êxito você precisará primeiro responda às seguintes perguntas:
 

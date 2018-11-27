@@ -1,7 +1,7 @@
 ---
-title: Primeiros clientes a adotar onboard e reúna o feedback for Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+title: Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Escolha usuários iniciais para a fase de experimento de sua adoção de equipes e, em seguida, coletar comentários para o seu projeto.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1c85fead1bd1f1295a4ff3370d1b188f79eb73
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519591"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699666"
 ---
-# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Primeiros clientes a adotar onboard e reúna o feedback for Microsoft Teams
+# <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
 Retornar à lista de funcionários que expresso interesse em seu programa de adoção antecipada. Decida qual desses indivíduos deve participar de suas experiências iniciais com equipes. Talvez seja todo ou parte das pessoas que estão interessadas. Mesmo se você não marcá-los para esses projetos iniciais, continue a comunicação com eles para que eles permanecem interessados e serão dispostos a participar no futuro. Eles estarão uma parte do processo de inclusão para os projetos que você selecionou com base em suas discussões com os participantes de negócios, sua equipe técnica e seu exercício de priorização mostrado acima. 
 

@@ -1,7 +1,7 @@
 ---
-title: Fase de adoção Teams Microsoft 3 - escala
-author: LolaJacobsen
-ms.author: lolaj
+title: Fase 3 de adoção do Microsoft Teams - Dimensionamento
+author: karuanag
+ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -11,18 +11,18 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como a habilitação de escala amplo das equipes de suporte para sua organização.
-ms.custom:
-- NewAdminCenter_Update
+ms.custom: Adopt
+ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0520bfcc230cbae7d01156b2d5c2867f49ce4547
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 6ee818cff9e70e4baf2dba1dad07a9b1b1bdbec1
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519584"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699674"
 ---
-# <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase de adoção Teams Microsoft 3 - escala
+# <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de adoção do Microsoft Teams - Dimensionamento
 
 Nesta fase, você usará seu lições, equipe de projeto talento e relacionamentos com os participantes, campeões e usuários iniciais para dar suporte a habilitação de escala amplo de equipes para sua organização. Ao se preparar para o compromisso de negócios continuadas relacionado ao uso de organizações do Microsoft Teams, você concluirá as seguintes etapas:
 
