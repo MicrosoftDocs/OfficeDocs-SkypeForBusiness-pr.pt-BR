@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Configure os repositórios de Backup do SQL Server que fornecerão bancos de dados de backup para o servidor de Chat persistente ou o pool de servidor de Chat persistente.
-ms.openlocfilehash: 67dc09cca54f0079fc4b7bac16355bbd8dc64633
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: ed7d3196e609a0180fc16df08efcc3ed4230b141
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503876"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Adicionar Repositório de SQL Server de Backup de Chat Persistente
  
@@ -36,7 +37,7 @@ Na lista **Usar testemunha de espelhamento do SQL Server para habilitar o failov
   
 Clique em **novo** para definir uma nova testemunha de SQL Server e, opcionalmente, uma instância do Chat persistente backup SQL Server testemunha de espelhamento.
   
-Clique em  **Voltar** para voltar à caixa de diálogo de definição de pool anterior.
+Clique em **Voltar** para voltar à caixa de diálogo de definição anterior.
   
 Clique em **Avançar** depois de concluir a inserção das opções para configuração de repositório do SQL Server backup desse pool e para prosseguir com a definição do pool de servidor de Chat persistente.
   
@@ -46,13 +47,10 @@ Clique em **Ajuda** para acessar a ajuda contextual, como esta página.
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar o servidor de Chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Requisitos de servidor do Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Requisitos de hardware e software para o servidor de Chat persistente no Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[Requisitos de hardware e software para Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
-[Configurar alta disponibilidade e recuperação de desastres para o servidor de Chat persistente no Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
-
+[Configurar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
