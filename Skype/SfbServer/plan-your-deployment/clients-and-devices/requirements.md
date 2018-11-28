@@ -11,21 +11,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: 23ab819c4a32efd4228a1d1d5b7aba89275e5b39
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532070"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716448"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
 
 Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2. 
 
-Sua implantação envolve a criação de conta, conforme descrito em [implantar sistemas de sala Skype v2](../../deploy/deploy-clients/room-systems-v2.md) e configurar um console de reunião, conforme descrito em [Configure um console do Skype sala sistemas v2](../../deploy/deploy-clients/console.md). Você também pode precisar fazer referência à [Skype para licenciamento de complemento de negócios](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7).
+Sua implantação envolve a criação de conta, conforme descrito em [implantar sistemas de sala Skype v2](../../deploy/deploy-clients/room-systems-v2.md) e configurar um console de reunião, conforme descrito em [Configure um console do Skype sala sistemas v2](../../deploy/deploy-clients/console.md). 
+
+Você também pode precisar referir-se a:
+
+- [Licenciamento de complementos do Skype for Business](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+- [Opções com base no seu plano de licença: v2 de sistemas de sala do Skype](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online. <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013. 
+> Sistemas de sala Skype v2 destina-se a uso com Skype para Business Server 2019, Skype para Business Server 2015, Microsoft Teams ou Skype para Business Online. <br><br>Não são devem trabalhar com sistemas de sala Skype v2 plataformas anteriores, como o Lync Server 2013.
 
 > [!NOTE]
 > Se estiver usando um servidor do Exchange em prem, sistemas de sala Skype v2 requer o uso do Exchange Server 2013 SP1 ou posterior.

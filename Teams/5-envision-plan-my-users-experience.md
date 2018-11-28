@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76bacfe85fce14b2d5b1469295134e560c14c54a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a44af03e694937c5e874f6d53c0795a0c61dd606
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373288"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716363"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência dos meus usuários
 
@@ -26,7 +26,7 @@ Este artigo fornece uma visão geral dos requisitos de adequadamente que identif
 
 ## <a name="client-deployment"></a>Implantação do cliente
 
-O Microsoft Teams tem clientes disponíveis para web, desktop (Windows e Mac) e móvel (Android, iOS e Windows Phone). Para obter detalhes adicionais sobre como os clientes móveis e área de trabalho (Windows e Mac) são instalados, consulte [obter clientes para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).
+Microsoft Teams tem clientes disponíveis para a área de trabalho, web (Windows e Mac) e mobile (Android e iOS). Para obter detalhes adicionais sobre como os clientes móveis e área de trabalho (Windows e Mac) são instalados, consulte [obter clientes para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).
 
 ## <a name="client-updates"></a>Atualizações do cliente
 

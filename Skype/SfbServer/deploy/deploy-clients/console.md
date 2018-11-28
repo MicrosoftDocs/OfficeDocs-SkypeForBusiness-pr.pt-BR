@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console do Skype sala sistemas v2 e seus periféricos.
-ms.openlocfilehash: 01bc2fe49fc56a4926563ad18e384455ef437b77
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
+ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699427"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26716371"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar o console do Skype Room Systems versão 2
  
@@ -36,7 +36,7 @@ Você só deve executar estas etapas se o Skype necessária para contas de negó
 - [Lista de verificação de implantação do Skype sala sistemas v2](console.md#Checklist)
     
 > [!NOTE]
-> Sistemas de sala Skype v2 exemplos funcionam apenas em um Skype configurada adequadamente para onde as contas de dispositivo estão configuradas corretamente conforme descrito em [implantar sistemas de sala Skype v2](room-systems-v2.md)do ambiente de negócios. 
+> Sistemas de sala Skype v2 exemplos funcionam apenas em um Skype configurada adequadamente para onde as contas de dispositivo estão configuradas corretamente conforme descrito em [implantar sistemas de sala Skype v2](room-systems-v2.md)do ambiente de negócios.
   
 ## <a name="prepare-the-installation-media"></a>Preparar a mídia de instalação
 <a name="Prep_Media"> </a>
@@ -45,14 +45,13 @@ Instalar o aplicativo de console do Skype sala sistemas v2 requer um dispositivo
   
 > [!NOTE]
 > Falha ao criar sua mídia de instalação do Skype sala sistemas v2 acordo com estas instruções provavelmente resultará em um comportamento inesperado. Atualização do Windows 10 Enterprise Data especial (versão 1607) não é mais suportada para criação de mídia de instalação do Skype sala sistemas v2.
-  
+
 > [!NOTE]
-> Um v2 Skype sala sistemas existentes com Windows 10 Enterprise mudando para sistemas de sala Skype v2 atualização 3 por meio da Windows Store funcionará, mas deve ser feita uma nova instalação, conforme descrito abaixo. 
+> Um v2 Skype sala sistemas existentes com Windows 10 Enterprise mudando para sistemas de sala Skype v2 atualização 3 por meio da Windows Store funcionará, mas deve ser feita uma nova instalação, conforme descrito abaixo.
   
 1. Baixe o [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
 2. (Opcional) Baixe e colocar quaisquer arquivos CAB do pacote de idioma desejado no mesmo diretório que o script. O script indicará onde você pode baixar os arquivos do pacote de idioma apropriados para o tipo de mídia que você está criando, se não tiver certeza onde adquirir os pacotes de idiomas do.
 3. Execute o script CreateSrsMedia.ps1 de um prompt com privilégios elevados em um computador Windows 10.
-
 
 Siga as instruções do script para criar um disco de instalação do Skype sala sistemas v2 USB. Quando terminar, remova o disco USB do computador e prossiga para [instalar o Windows 10 e o aplicativo de console do Skype sala sistemas v2](console.md#Reimage).
 
@@ -82,10 +81,9 @@ Agora, você precisa aplicar a mídia de instalação que você criou. O disposi
 
 8. O sistema será desligado depois que a instalação for concluída.
     
-Depois que o sistema foi desligado, é seguro remover o disco de instalação do USB. Neste ponto, você pode colocar o devcie de destino no seu encaixe (se estiver usando um produto com base em encaixe), anexar os periféricos necessários para a sala de reunião e conectar à rede. Consulte as instruções do fabricante.
+Depois que o sistema foi desligado, é seguro remover o disco de instalação do USB. Neste ponto, você pode colocar o dispositivo de destino no seu encaixe (se estiver usando um produto com base em encaixe), anexar os periféricos necessários para a sala de reunião e conectar à rede. Consulte as instruções do fabricante.
   
- 
-### <a name="selecting-a-language-in-creators-update"></a>Seleção de idioma no Creator’s Update
+### <a name="selecting-a-language"></a>Selecionar um idioma 
 
 Em atualização do criador, você precisará usar o script de ApplyCurrentRegionAndLanguage.ps1 em cenários onde a seleção de idioma implícita não fornecer ao usuário com a linguagem de aplicativos real querem (por exemplo, eles querem que o aplicativo de console surgir em francês, mas ele está chegando em inglês).
   
@@ -121,8 +119,9 @@ Em atualização do criador, você precisará usar o script de ApplyCurrentRegio
 11. Inicie um prompt de comandos com privilégios elevados.
     
 12. Execute o seguinte comando: 
-    
+    ```
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
+    ```
     
 13. Reinicie o sistema.
     
