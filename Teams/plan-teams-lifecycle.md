@@ -12,18 +12,22 @@ localization_priority: Priority
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb337853af524e9733d56dcb428f63268bd65b62
-ms.sourcegitcommit: 72e2c4622deb3a7f4c0eafbee91dcf139ef44775
+ms.openlocfilehash: 56add7d27a367c5320243455d6891fa178526b4f
+ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "25092696"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26699737"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
 O Teams fornece um conjunto avançado de ferramentas para implementar processos de gerenciamento de ciclo de vida de colaboração para sua organização. Este artigo orienta os profissionais de TI por meio das perguntas certas para determinar seus requisitos de gerenciamento de ciclo de vida e as ferramentas a serem usadas para atendê-los. 
 
-É importante planejar o gerenciamento de ciclo de vida, pois isso significa que você cria um plano para realizar o trabalho com eficiência. A maioria dos projetos consiste em início, meio e fim. As equipes também são assim. Porém, podem ser criadas e usadas de várias formas. Portanto, nem sempre é óbvio em qual estágio do ciclo de vida elas estão. Um plano de gerenciamento de ciclo de vida ajudará você a acompanhar os projetos de sua organização à medida que eles percorrerem esses estágios.
+É importante planejar o gerenciamento de ciclo de vida, pois isso significa que você cria um plano para realizar o trabalho com eficiência. A maioria dos projetos consiste em início, meio e fim. Isso também se aplica às equipes, mas elas podem ser criadas e usadas de várias maneiras. Por isso, nem sempre é óbvio em qual estágio do ciclo de vida elas estão. Ter um plano para o gerenciamento do ciclo de vida ajudará você a acompanhar os projetos de sua organização enquanto eles percorrem esses estágios.
+
+> [!Tip]
+> Assista à seguinte sessão para saber mais sobre o ciclo de vida no Microsoft Teams: [Governança, gerenciamento e ciclo de vida no Microsoft Teams](https://aka.ms/teams-governance)
+
 
 ## <a name="lifecycle-concepts"></a>Conceitos de ciclo de vida
 
