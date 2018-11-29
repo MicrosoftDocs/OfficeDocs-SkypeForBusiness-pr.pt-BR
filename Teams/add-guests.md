@@ -12,12 +12,12 @@ ms.reviewer: sbhatta
 description: Conheça as ferramentas disponíveis para adicionar novos usuários a uma organização, incluindo clientes desktop e web do Microsoft Teams e o portal de colaboração do Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0671774d01ce8b2dfeea78fff36dde117931ff00
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 729490af1c1e15b82d62dc35386e9ad4344d863a
+ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674461"
+ms.lasthandoff: 11/29/2018
+ms.locfileid: "26984730"
 ---
 <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 =====================
@@ -48,6 +48,6 @@ Você pode acompanhar a adição de convidados no Centro de Segurança &amp; Con
 
 ## <a name="more-information"></a>Mais informações
 
-[Autorizar o acesso de convidado no Microsoft Teams](teams-dependencies.md)
-[Ativar ou desativar o acesso de convidado em equipes da Microsoft](set-up-guests.md)
-[Usar o PowerShell para controlar o acesso de convidado para uma equipe](guest-access-powershell.md)
+[Autorizar o acesso para convidado no Microsoft Teams](teams-dependencies.md)</br>
+[Ativar ou desativar o acesso de convidado no Microsoft Teams](set-up-guests.md)</br>
+[Usar o PowerShell para controlar o acesso de convidados a uma equipe](guest-access-powershell.md)
