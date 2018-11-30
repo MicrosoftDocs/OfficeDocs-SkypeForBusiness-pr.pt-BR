@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obter informações de planejamento e configuração de Business Server para vídeo com base no compartilhamento de tela (VbSS)
-ms.openlocfilehash: 450a6ab5550c00e91e2d9772d954dc8f51d38156
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561918"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993430"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo com base em compartilhamento de tela para Skype para Business Server 
  
@@ -120,14 +120,13 @@ Existem situações em que o compartilhamento de tela farão a transição para 
 - Se sua conta estiver hospedada em um ambiente em que o ASMCU não atende ao build mínimo compatível com VbSS.
 - Se alguém que usa uma versão mais antiga do Skype para o cliente de negócios ingressa em uma sessão, por exemplo qualquer pessoa usando qualquer versão de cliente do Windows que é menor que 16.0.6330.1000, Skype para dispositivos de sistema de sala de negócios ou Skype Mobile nos aplicativos de negócios. 
 - Se um usuário está compartilhando a partir do Skype para negócios Web App.
-- Se alguém está usando Skype for Business no Mac e não estiver hospedado no Skype para negócios Online.
+- Se alguém está usando Skype for Business no Mac e não estiver hospedado no Skype para Business Online ou Skype para Business Server 2015 com a atualização cumulativa de julho de 2018 (ou posterior).
 - Se alguém inicia qualquer compartilhamento de programa/Windows.
 - Se alguém inicia a sessão de gravação.
-- Se alguém solicita Controle de Tela Remoto durante a sessão.
-
-    Esteja ciente de que, após a transição da sessão para RDP, ela não transitará de volta para VbSS. Reforçando, a transição do VbSS deverá ocorrer sem problemas e, provavelmente, será imperceptível na maioria das situações.
-  
+- Se alguém solicita Controle de Tela Remoto durante a sessão. 
 - Reuniões com mais de 250 participantes (às quais o VbSS não dá suporte no momento).
+
+Esteja ciente de que, após a transição da sessão para RDP, ela não transitará de volta para VbSS. Reforçando, a transição do VbSS deverá ocorrer sem problemas e, provavelmente, será imperceptível na maioria das situações.
     
 > [!NOTE]
 > Ele não tem suporte para bloquear ou tentar bloquear, a transição do VbSS para RDP no Skype para compartilhamento de tela de negócios. 

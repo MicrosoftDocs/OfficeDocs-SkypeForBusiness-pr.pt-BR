@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: revisão dos clientes e aplicativos compatíveis com o Skype for Business.'
-ms.openlocfilehash: 3c68264f9eabc32c9e8c11a243fd103bb7c97426
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bde1e70699de8adfdf58a7cc892405d8eee8675c
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530809"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993377"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
 
@@ -34,13 +34,13 @@ O Skype for Business Server dá suporte a diversos tipos de clientes, incluindo 
 
 ### <a name="skype-for-business-2019"></a>Skype for Business (2019)
 
-O Skype for Business (2019) é o cliente com todos os recursos recomendados para o Skype for Business Server 2019. Veja [O que há de novo no Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para obter uma descrição dos novos recursos. O suporte a recursos do cliente é detalhado em [Comparação de recursos do cliente de desktop para o Skype for Business](desktop-feature-comparison.md), e a documentação do usuário está na [Ajuda do Skype for Business](https://support.office.com/en-US/Skype-for-business). Esse cliente é incluído quando um usuário instala o Office 365.
+Skype para negócios (2019) é o cliente recomendado de completos para Skype para Business Server 2015 e 2019. Para obter uma descrição dos novos recursos, consulte [siga as atualizações mais recentes no Skype para negócios](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) . O suporte a recursos do cliente é detalhado em [Comparação de recursos do cliente de desktop para o Skype for Business](desktop-feature-comparison.md), e a documentação do usuário está na [Ajuda do Skype for Business](https://support.office.com/en-US/Skype-for-business). Esse cliente é incluído quando um usuário instala o Office 365.
 
 Um cliente básico, com menos recursos, grátis e compatível também está disponível. As duas versões estão disponíveis para download em [Baixe o Skype for Business em todos os dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). As diferenças entre os clientes Completo e Básico são descritas na seção [Completo versus básico](desktop-feature-comparison.md#Full-Basic).
 
 ### <a name="skype-for-business-2016"></a>Skype for Business 2016
 
-O Skype for Business 2016 é o cliente com todos os recursos recomendados para o Skype for Business Server. Veja [O que há de novo no Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para obter uma descrição dos novos recursos. O suporte a recursos do cliente é detalhado em [Comparação de recursos do cliente de desktop para o Skype for Business](desktop-feature-comparison.md), e a documentação do usuário está na [Ajuda do Skype for Business](https://support.office.com/en-US/Skype-for-business). Esse cliente é incluído quando um usuário instala o Office 365.
+Skype para negócios 2016 é um cliente completos para Skype para Business Server 2015 ou 2019. Veja [O que há de novo no Skype for Business 2016](https://support.office.com/en-us/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) para obter uma descrição dos novos recursos. O suporte a recursos do cliente é detalhado em [Comparação de recursos do cliente de desktop para o Skype for Business](desktop-feature-comparison.md), e a documentação do usuário está na [Ajuda do Skype for Business](https://support.office.com/en-US/Skype-for-business). Esse cliente é incluído quando um usuário instala o Office 365.
 
 Um cliente básico, com menos recursos, grátis e compatível também está disponível. As duas versões estão disponíveis para download em [Baixe o Skype for Business em todos os dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). As diferenças entre os clientes Completo e Básico são descritas na seção [Completo versus básico](desktop-feature-comparison.md#Full-Basic).
 

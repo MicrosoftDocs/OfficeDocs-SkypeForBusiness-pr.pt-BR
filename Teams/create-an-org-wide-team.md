@@ -1,5 +1,5 @@
 ---
-title: Criar uma equipe de toda a organização no Microsoft Teams
+title: Criar uma equipe englobando toda a organização no Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: phlouie
@@ -13,18 +13,18 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3980a73c817b83466c8c93c29fb60e7e20f4df48
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
+ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532805"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "26993414"
 ---
-# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe de toda a organização no Microsoft Teams
+# <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
 As equipes de toda a organização fornecem uma maneira automática para todas as pessoas em um pequeno a organização de médio porte uma parte de uma única equipe para colaboração. 
  
-Com as equipes de toda a organização, os administradores globais podem criar facilmente uma equipe pública que extrai em todos os usuários na organização e mantém a associação atualizado com o Active Directory como a participação de usuários e saem da organização. Somente os administradores globais podem criar equipes de toda a organização e atualmente uma equipe de toda a organização está limitada a organizações com usuários não ultrapassa 2.500. Se esses requisitos são atendidos, administradores verá **toda a organização** como uma opção de **privacidade** , ao criar uma equipe.
+Com as equipes de toda a organização, os administradores globais podem criar facilmente uma equipe pública que extrai em todos os usuários na organização e mantém a associação atualizado com o Active Directory como a participação de usuários e saem da organização. Somente os administradores globais podem criar equipes de toda a organização e atualmente uma equipe de toda a organização está limitada a organizações com usuários não ultrapassa 2.500. Se esses requisitos são atendidos, administradores globais verá **toda a organização** como uma opção de **privacidade** , ao criar uma equipe.
 
 ![Captura de tela da opção toda a organização para criar uma equipe de toda a organização] (media/create-org-wide-team.png "Captura de tela da opção toda a organização para criar uma equipe de toda a organização")
 
@@ -48,3 +48,11 @@ Reduza o ruído de canal estabelecendo somente equipe postagem de proprietários
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Remover contas que não podem pertencer a
 Embora membros não é possível deixar uma equipe de toda a organização, como um proprietário de equipe, você pode gerenciar a lista de participação da equipe, removendo contas que não pertencem. Verifique se que você usar equipes para remover usuários da sua equipe de toda a organização.  Se você usar outra maneira de remover um usuário, como o Centro de administração do Microsoft 365 ou de um grupo no Outlook, o usuário pode ser adicionado novamente para a equipe de toda a organização. 
+
+## <a name="faq"></a>Perguntas Freqüentes
+
+### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>Há uma maneira de criar uma equipe de toda a organização diferente usando o cliente de equipes? 
+
+Os administradores globais só podem criar uma equipe de toda a organização usando o cliente de equipes. Se sua organização limita as equipes de criação usando o PowerShell, a solução recomendada é adicionar seus administradores globais ao grupo de usuários que pode criar uma equipe de segurança. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
+
+Se isso não for uma opção, você pode criar uma equipe pública usando o PowerShell e adicionar um administrador global como o proprietário de equipe. Em seguida, peça para o administrador global clicar **… Mais opções** ao lado do nome da equipe, clique em **Editar equipe**e altere a privacidade para **toda a organização - todos em sua organização serão automaticamente adicionadas**. Observe que apenas os proprietários de equipe podem acessar a opção de **Editar equipe** e administradores globais só podem visualizar a opção de **toda a organização** .
