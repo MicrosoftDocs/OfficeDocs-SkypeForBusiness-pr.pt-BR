@@ -1,56 +1,101 @@
-﻿---
-title: Configurar o Servidor de Mediação
-TOCTitle: Configurar o Servidor de Mediação
-ms:assetid: 583236fd-33cd-4045-81df-baa58ed07779
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204913(v=OCS.15)
-ms:contentKeyID: 49306777
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurar o servidor de mediação
+TOCTitle: Configure Mediation Server
+ms:assetid: 583236fd-33cd-4045-81df-baa58ed07779
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204913(v=OCS.15)
+ms:contentKeyID: 48184207
+ms.date: 07/23/2014
+mtps_version: v=OCS.15
+ms.openlocfilehash: 143d98cebc151473b790246bc78d75e6e2f4185a
+ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "27128162"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar o Servidor de Mediação
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="configure-mediation-server"></a>Configurar o servidor de mediação
 
-Este procedimento detalha as etapas para configurar o pool do Lync Server 2013 para usar o Servidor de Mediação do Lync Server 2013, em vez do Servidor de Mediação Office Communications Server 2007 R2 herdado.
+</div>
 
-Para publicar com sucesso, habilite ou desabilite uma topologia ao adicionar ou remover uma função do servidor, você deve estar conectado como um usuário que é um membro do RTCUniversalServerAdmins e dos grupos Administradores do Domínio. Também é possível delegar os direitos e as permissões de administrador corretos para adicionar funções do do servidor. Para obter detalhes, consulte Permissões de configuração delegadas na Documentação de implantação do servidor Standard Edition ou servidor Enterprise Edition. Para obter as alterações de configuração, somente a associação no grupo RTCUniversalServerAdmins é exigida.
+<div id="mainSection">
 
-> [!NOTE]  
-> Para obter as informações mais recentes sobre localizar gateways PSTN qualificados, IP-PBXs, e serviços de tronco SIP que funcionem com Lync Server 2013, consulte &quot;Abrir Programa de Interoperabilidade do Microsoft Unified Communications&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</a>.
+<div id="mainBody">
 
-## Para configurar o Servidor de Mediação usando o Construtor de Topologias
+<span> </span>
 
-1.  Abrir uma topologia existente do Topology Builder.
+_**Tópico modificado em:** 28-09-2012_
 
-2.  No painel esquerdo, navegue até **Gateways PSTN**.
+Este procedimento detalha as etapas para configurar o pool do Lync Server 2013 para usar o servidor de mediação do Lync Server 2013, em vez do Office Communications Server 2007 R2 servidor de mediação herdado.
 
-3.  Clique com o botão direito do mouse em **Gateways PSTN** e clique em **Novo gateway IP/PSTN**.
+Para publicar com êxito, habilitar ou desabilitar uma topologia quando a adição ou remoção de uma função de servidor, você deve estar logado como um usuário que seja membro dos grupos RTCUniversalServerAdmins e administradores de domínio. Também é possível delegar os direitos de administrador e permissões para adicionar funções de servidor. Para obter detalhes, consulte Delegate Setup Permissions o servidor Standard Edition ou Enterprise Edition documentação de implantação. Para outras alterações de configuração, apenas a associação ao grupo RTCUniversalServerAdmins é necessária.
 
-4.  Complete a página **Definir Novo Gateway IP/PSTN** com as seguintes informações:
-    
-      - Insira o FQDN do gateway ou endereço IP. O FQDN do gateway é exigido se o gateway utiliza o protocolo TLS.
-    
-      - Aceite o valor padrão do **Porta de Escuta do Gateway IP/PSTN** ou insira a nova porta de escuta se ela for modificada.
-    
-      - Defina o **Protocolo de Transporte SIP**.
+<div>
 
-5.  No painel esquerdo, navegue até o **Pool de Front-Ends Enterprise Edition** ou o **Servidor Standard Edition**.
-
-6.  Clique com o botão direito no pool e clique em **Editar propriedades**.
-
-7.  Em **Servidor de Mediação**, defina as **Portas de Escuta**.
-
-8.  Em seguida, associe o gateway PSTN mais recente criado, o selecionando e clicando em **Adicionar**.
-
-9.  Em **Construtor de Topologias**, selecione o nó superior do **Lync Server**.
-
-10. No menu **Ação**, selecione **Publicar Topologia** e clique em **Avançar**.
-
-11. Quando o **Assistente de publicação** é concluído, clique em **Finalizar** para fechar o assistente.
 
 > [!NOTE]  
-> É importante que você conclua o próximo tópico, <a href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">Alterar rotas de voz para usar o novo Servidor de Mediação do Lync Server 2013</a> para garantir que as rotas de voz estejam apontando para o Servidor de Mediação correto.
+> Para obter as informações mais recentes sobre como localizar gateways PSTN qualificados, IP-PBXs e serviços de tronco SIP que funcionam com o Lync Server 2013, consulte "Microsoft Unified Communications programa de interoperabilidade aberta" em <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>.
+
+
+
+</div>
+
+<div>
+
+## <a name="to-configure-mediation-server-using-topology-builder"></a>Para configurar o servidor de mediação usando o construtor de topologia
+
+1.  Abra uma topologia existente no construtor de topologias.
+
+2.  No painel esquerdo, navegue até **gateways PSTN**.
+
+3.  Clique com o botão **gateways PSTN**e clique em **Novo Gateway IP/PSTN**.
+
+4.  Preencha a página **Definir Novo Gateway IP/PSTN** com as seguintes informações:
+    
+      - Digite o FQDN ou endereço IP do gateway. O FQDN do gateway é necessário se o gateway usa o protocolo TLS.
+    
+      - Aceite o valor padrão da **porta de escuta para gateway IP/PSTN** ou insira a nova porta de escuta se ela foi modificada.
+    
+      - Defina o **protocolo de transporte de Sip**.
+
+5.  No painel esquerdo, navegue até o **pool de Front End do Enterprise Edition** ou **Standard Edition Server**.
+
+6.  Com o botão direito do pool e, em seguida, clique em **Editar propriedades**.
+
+7.  Em **Servidor de mediação**, defina as **portas de escuta**.
+
+8.  Em seguida, associe o gateway PSTN recém-criado, selecionando-o e clicando em **Adicionar**.
+
+9.  No **Construtor de topologias**, selecione o nó superior **Lync Server**.
+
+10. No menu **ação** , selecione **Publicar topologia** e, em seguida, clique em **Avançar**.
+
+11. Quando o **Assistente para publicação** for concluído, clique em **Concluir** para fechar o assistente.
+
+<div>
+
+
+> [!NOTE]  
+> É importante que você conclua o próximo tópico, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">rotas de voz de alteração para usar o servidor de mediação do Lync Server 2013 novo</A> para garantir que as rotas de voz estejam apontando para o servidor de mediação correto.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+
