@@ -3,7 +3,6 @@ title: Como o Exchange e o Microsoft Teams interagem
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 ms.reviewer: crowe
@@ -13,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aeeab6f84b222500829282d29ac06ec73d42ecc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1fc28a19f8ebccc494f59416cec0faa21a2b6d8f
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373332"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131234"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -40,8 +39,8 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
 |**Exchange Online Dedicated vNext**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Não|Não|Sim|Sim|Não|Não|Não|Sim|Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim ([permitido lista](https://support.office.com/en-us/article/searching-cloud-based-mailboxes-for-on-premises-users-in-office-365-3f7dde1a-a8ea-4366-86da-8ee6777f357c?ui=en-US&rs=en-US&ad=US))<sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Não|Não|Não|Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Não|Não|Sim|Sim|Não|Não|Não|Sim|Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Não|Não|Não|Sim|
                                                             
 <sup>1</sup> do exchange 2016 CU3 e acima suportados  
 <sup>2</sup> eDiscovery e retenção Legal para fins de conformidade em mensagens de canal é suportado para todas as opções de hospedagem.  
@@ -67,7 +66,7 @@ Informações adicionais:
 > No momento, se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange.
 > 
 > [!IMPORTANT]
->   Os usuários participem de conversas que fazem parte da lista de bate-papo no Microsoft Teams devem ter uma caixa de correio (baseado em nuvem) on-line do Exchange para um administrador pesquisar as conversas de bate-papo. Isso ocorre porque as conversas que fazem parte da lista de bate-papo ficam armazenadas nas caixas de correio baseadas em nuvem dos participantes do bate-papo. Se um participante de bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem participar de conversas que fazem parte da lista de bate-papo do Microsoft Teams. Entretanto, nesse caso, o conteúdo dessas conversas não pode ser pesquisada e não pode ser colocada em retenção porque os usuários não possuem caixas de correio baseadas em nuvem. Para obter mais detalhes sobre pesquisas de conteúdo e o Microsoft Teams, veja [Executar uma pesquisa de conteúdo no Centro de Conformidade e Segurança do Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+> Em uma implantação híbrida do Exchange, conteúdo de mensagens de chat é pesquisável independentemente de terem participantes de bate-papo com uma caixa de correio baseadas em nuvem ou local. Para saber mais, leia [Searching caixas de correio baseadas em nuvem para usuários no Office 365 local](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber sobre a procura por conteúdo em equipes, leia a [Pesquisa de conteúdo no Centro de conformidade & segurança do Office 365](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
->   Para obter informações sobre como usar o Connect do Azure AD para sincronizar com o Windows Azure Active Directory, consulte [*integrando suas identidades no local com o Windows Azure Active Directory*](https://go.microsoft.com/fwlink/?linkid=854600).
+> Para obter informações sobre como usar o Connect do Azure AD para sincronizar com o Windows Azure Active Directory, consulte [integrando suas identidades no local com o Windows Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

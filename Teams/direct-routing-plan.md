@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: d3b102dc09011e5990a42c608d78c6bb3f414ff7
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676548"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131306"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -227,7 +227,9 @@ O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Trecho entre o cliente SBC e processador de mídia de nuvem ou Teams da Microsoft.
 Aplica-se ao caso de desvio de mídia e casos não ignorar
 
-A interface de roteamento direto sobre o trecho entre o controlador de borda de sessão e o processador de mídia de nuvem (sem o bypass de mídia) ou entre o cliente de equipes e o SBC (se o desvio de mídia habilitado) pode usar os seguintes codecs: • Non-Media bypass (SBC à mídia de nuvem Processador): SILK, g. 711, g. 722, G, 729 • Bypass de mídia (SBC para o cliente de equipes): SILK, g. 711, g. 722, G, 729, OPUS
+A interface de roteamento direto sobre o trecho entre o controlador de borda de sessão e o processador de mídia de nuvem (sem o bypass de mídia) ou entre o cliente de equipes e o SBC (se o desvio de mídia habilitado) pode usar os seguintes codecs:
+- Não-Media bypass (SBC para nuvem processador de mídia): SILK, g. 711, g. 722, G, 729
+- Bypass de mídia (SBC para o cliente de equipes): SILK, g. 711, g. 722, G, 729, OPUS
 
 Você pode forçar o uso do codec específico no controlador de borda de sessão excluindo indesejáveis codecs de oferta.
 

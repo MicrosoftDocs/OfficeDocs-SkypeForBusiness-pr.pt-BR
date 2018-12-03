@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cefcf6cb4d1710935e6448e4babd7a284165e767
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: 8d7e8654ed1f3dd7c10376a21d3c48563b688381
+ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993414"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131298"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -55,4 +55,4 @@ Embora membros não é possível deixar uma equipe de toda a organização, como
 
 Os administradores globais só podem criar uma equipe de toda a organização usando o cliente de equipes. Se sua organização limita as equipes de criação usando o PowerShell, a solução recomendada é adicionar seus administradores globais ao grupo de usuários que pode criar uma equipe de segurança. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups). 
 
-Se isso não for uma opção, você pode criar uma equipe pública usando o PowerShell e adicionar um administrador global como o proprietário de equipe. Em seguida, peça para o administrador global clicar **… Mais opções** ao lado do nome da equipe, clique em **Editar equipe**e altere a privacidade para **toda a organização - todos em sua organização serão automaticamente adicionadas**. Observe que apenas os proprietários de equipe podem acessar a opção de **Editar equipe** e administradores globais só podem visualizar a opção de **toda a organização** .
+Se isso não for uma opção, você pode criar uma equipe pública usando o PowerShell e adicionar um administrador global como o proprietário de equipe. Em seguida, ter o administrador global clique em **mais opções ˙˙˙** ao lado do nome da equipe, clique em **Editar equipe**e altere a privacidade para **Org todo - todos em sua organização serão automaticamente adicionado**. Observe que apenas os proprietários de equipe podem acessar a opção de **Editar equipe** e administradores globais só podem visualizar a opção de **toda a organização** .
