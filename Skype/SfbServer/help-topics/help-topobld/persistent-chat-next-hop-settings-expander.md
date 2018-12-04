@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: Você pode configurar Persistent Chat próximo pool de salto selecionando um servidor Front-End ou um pool de Front-End da lista.
-ms.openlocfilehash: 06ad73fa1bf633a4562253576ff1beefa4d89d07
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1b870ddedc5feca3bce38153d1ed4b4dc181f1e6
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19503729"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Chat Persistente
  
@@ -30,9 +31,6 @@ Você pode configurar o **pool do próximo salto** de Chat persistente, selecion
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar o servidor de Chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planejar Servidor de Chat Persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Adicionar servidor de Chat persistente à sua Skype para a topologia de negócios Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
-

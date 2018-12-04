@@ -12,11 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 description: As etapas necessárias para definir uma nova VIS ou vídeo Gateway no construtor de topologia são descritas online em criar um pool VIS no Skype para Business Server 2015.
-ms.openlocfilehash: 4a60f930cf295adcb70457a1a9d051706055fece
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: aa304487c5ce69020fb806a93b2a0883defa4d9e
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504534"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>Expansor das configurações do tronco de vídeo SIP
  
@@ -32,7 +33,4 @@ As etapas de configuração para um novo servidor de interoperabilidade de víde
   
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar o servidor de interoperabilidade de vídeo no Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)
-
+[Planejar Servidor de Interoperabilidade de Vídeo no Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)

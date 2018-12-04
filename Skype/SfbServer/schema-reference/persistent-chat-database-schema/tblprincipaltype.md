@@ -10,11 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: Principaltype contém os tipos principais para categorizar o que está na tabela tblPrincipal.
-ms.openlocfilehash: 3d1ec9b83561f06d3f8b1871223aafdf5c0775cb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19505122"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -46,11 +47,8 @@ Principaltype contém os tipos principais para categorizar o que está na tabela
 |5  <br/> |Usuário  <br/> |Usuário regular.  <br/> |Sim  <br/> |
 |8  <br/> |CONTROLADOR DE DOMÍNIO  <br/> |Controlador de domínio do Active Directory dos serviços de domínio.  <br/> ||
 |9  <br/> |Grupo  <br/> |Grupo de segurança do Active Directory.  <br/> ||
-|10  <br/> |Pasta  <br/> |Contêiner do Active Directory ou unidade organizacional.  <br/> ||
+| 10  <br/> |Pasta  <br/> |Contêiner do Active Directory ou unidade organizacional.  <br/> ||
    
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
 [tblPrincipal](tblprincipal.md)
-

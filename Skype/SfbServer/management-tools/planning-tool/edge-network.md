@@ -1,5 +1,5 @@
 ---
-title: Rede de borda (ferramenta de planejamento)
+title: Edge Network (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 'A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto quando observado, os componentes fazem parte dos cenários de servidor de borda no Skype para Business Server 2015 e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:'
-ms.openlocfilehash: 48b574c749d96a0b252b2f5d90946cb3c66991a5
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8a7dab2c702127bfffa8823fb364e87274cc00c2
+ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "19504695"
 ---
-# <a name="edge-network-planning-tool"></a>Rede de borda (ferramenta de planejamento)
+# <a name="edge-network-planning-tool"></a>Edge Network (Planning Tool)
  
 A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os seguintes componentes criam a topologia de Borda da rede de perímetro. Exceto onde observado, os componentes fazem parte dos [cenários de servidor de borda no Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) e estão na rede de perímetro. Os componentes de Borda incluem o seguinte:
   
@@ -35,9 +36,6 @@ A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os s
     
 ## <a name="see-also"></a>Consulte também
 
-#### 
-
-[Planejar para implantações de servidor de borda no Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Planejar implantações do Servidor de Borda no Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Requisitos de sistema do servidor de borda no Skype para Business Server 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
-
+[Requisitos de sistema do Servidor de Borda no Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
