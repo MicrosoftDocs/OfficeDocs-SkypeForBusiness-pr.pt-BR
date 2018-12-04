@@ -3,7 +3,7 @@ title: Implantar as equipes da Microsoft para o Hub de superfície
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 09/26/2018
+ms.date: 12/04/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,17 +16,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca03693a7abea6e26f175cc49f0142894749160
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
+ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372177"
+ms.lasthandoff: 12/03/2018
+ms.locfileid: "27131999"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
 ======================================
 
 Antes de implantar Teams da Microsoft para Microsoft Surface Hub, certifique-se de que você cumpre o hardware, sistema operacional e outros requisitos. Para obter mais informações, consulte o [guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
+
+> [!NOTE]
+> Se você estiver fazer a transição do Skype para Business Online, será necessário confirmar que uma licença do Microsoft Teams é atribuída ao usuário.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalar equipes para o Hub de superfície do repositório de Microsoft 
 
@@ -39,7 +42,7 @@ Essas instruções são para a instalação de equipes para o Hub de superfície
 3. Quando a instalação estiver concluída, reinicie o Hub de superfície. 
 
 > [!NOTE]
-> Não toque no **início** do repositório de página de listagem.
+> Não toque na **inicialização** do repositório de página de listagem.
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>Tornar as equipes a chamada padrão e a aplicação de reuniões
  
