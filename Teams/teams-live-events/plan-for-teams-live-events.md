@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar o live eventos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40722ee1e58e7524184408819932d9a2cfdc1275
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626258"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156129"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -44,17 +44,20 @@ O usuário deverá ter:
 - Permissões para criar eventos ao vivo no Microsoft Stream (para [produção codificador externo](#production)).
 
 > [!IMPORTANT]
-> O Office 365 convidados, usuários federados e anônimos não podem ser convidados como produtores ou apresentadores em equipes de eventos ao vivo. No entanto, o convidado e os usuários federados podem ingressar como participantes anônimos evento ao vivo. 
+> O Office 365 convidados, usuários federados e anônimos não podem ser convidados como produtores ou apresentadores em equipes de eventos ao vivo. Convidado Office 365 e os usuários federados podem apenas assista eventos ao vivo anonimamente. 
  
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir eventos ao vivo?
 
-|**Visibilidade do participante**           |**Início rápido** |**Codificador externo**  |
-|------------------------------|-------------|------------------|
-|Público (usuários anônimos)      |  Sim        |  Não              |
-|Usuários convidados                   |  Não         |  Não              |
-|Todos na empresa federada |  Não         |  Não              |
-|Todas as pessoas da empresa           |  Sim        |  Sim             |
-|Específicas agrupa / de pessoas      |  Sim        |  Sim             |
+|**Visibilidade do participante**       |**Início rápido**  |**Codificador externo**  |
+|------------------------------|-----------------|----------------------|
+|Público (usuários anônimos)      |  Sim            |  Não                  |
+|Usuários convidados                   |  Nenhum<sup>1</sup> |  Não                  |
+|Todos na empresa federada |  Nenhum<sup>1</sup> |  Não                  |
+|Todas as pessoas da empresa           |  Sim            |  Sim                 |
+|Específicas agrupa / de pessoas      |  Sim            |  Sim                 |
+
+<sup>1</sup> somente pode assistir eventos ao vivo como usuários anônimos.
+
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo de equipes e transmissão de reunião do Skype
 A tabela a seguir destaca os principais recursos e capacidades oferecidas em eventos ao vivo e como eles diferem da transmissão do Skype reunião. 

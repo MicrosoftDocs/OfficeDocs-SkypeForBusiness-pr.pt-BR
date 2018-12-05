@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 865da90f5b6c9ffc13694692a67ab092d05c755a
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ec2db02fe8b91736675027aee2a08a7a8587105c
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626172"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156073"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes - Jornada de migração do Skype for Business para o Microsoft Teams
 
@@ -97,7 +97,7 @@ Uma atualização bem-sucedida incluirá Validando a prontidão técnica, além 
  
 ### <a name="my-organization-is-already-running-teams-alongside-skype-for-business-can-i-just-disable-skype-for-business"></a>Minha organização já está em execução equipes junto com Skype para negócios. Posso desabilitar apenas Skype para os negócios?
 
-Não, você vai querer trocar usuários para o modo de **equipes apenas** para concluir sua atualização às equipes. Se sua organização está pronta para a transição para equipes, demore para se comunicar aos usuários para permitir que eles saber o que está acontecendo e permitir que eles algum tempo para acclimate às equipes. Isso ajudará a garantir que eles tenham um positivo atualizar experiência e ajuda a atenuar as chamadas para a assistência técnica. Para modelos de comunicação de amostra, baixe o nosso [Kit de atualização de sucesso](https://aka.ms/skypetoteams-UpgradeSuccessKit).
+Não, você vai querer trocar usuários para o modo de **equipes apenas** para concluir sua atualização às equipes. Se sua organização está pronta para a transição para equipes, demore para se comunicar aos usuários para permitir que eles saber o que está acontecendo e permitir que eles algum tempo para acclimate às equipes. Isso ajudará a garantir que eles tenham um positivo atualizar experiência e ajuda a atenuar as chamadas para a assistência técnica. Para modelos de comunicação de amostra, baixe o nosso [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit).
  
 ### <a name="who-can-i-contact-if-i-have-questions-about-the-upgrade-process"></a>Quem posso contatar em caso de dúvidas sobre o processo de atualização?
 

@@ -1,5 +1,5 @@
 ---
-title: Entender a coexistência e interoperabilidade do Skype para Teams da Microsoft e de negócios
+title: Compreender a coexistência e a interoperabilidade do Skype for Business e do Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be6cb8b6154c67e75a84bbb2e44add6109b3108c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
+ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532435"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "27156121"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -54,7 +54,7 @@ Neste modo de coexistência, chamado **Ilhas**, cada um dos aplicativos cliente 
 
 Neste modo de coexistência, usuários permanecem no Skype para negócios — não às equipes — para bate-papo, reunião e chamando os recursos e eles não usam equipes para equipes e canais. Esse modo está disponível atualmente; No entanto, na implementação atual modalidades de equipes não sejam desativadas para o usuário automaticamente. Esse recurso é futuro. Enquanto isso, os administradores podem remover a licença de equipes para todos os usuários que precisam ficar em Skype para negócios como seu aplicativo de comunicação somente.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-by-fall-2018"></a>As equipes apenas (esse modo iniciado sem interrupção abrindo verão 2018 e serão completadas a todos os locatários por queda 2018)
+### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>As equipes apenas (esse modo iniciado sem interrupção abrindo verão 2018 e serão concluídas a todos os locatários no ano civil 2019)
 
 Assim que sua organização está pronta para alguns ou todos os usuários usem equipes como seu única ferramenta de comunicação e colaboração, você pode atualizar esses usuários para o modo **Somente equipes** .
 
