@@ -3,7 +3,7 @@ title: Criar uma fila de chamadas do Sistema de Telefonia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: phans, wasseemh
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: 742fdbf38aeb64426ad1781d552c580385dc8117
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531830"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182389"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamadas do Sistema de Telefonia
 
@@ -156,7 +156,7 @@ No **Microsoft equipes & Skype para Business Admin Center**, clique em ![sfb-log
 ![Set up call queues.](../images/skype-for-business-add-agents-to-call-queue.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/><br/>Agentes de chamadas (máximo de 50) podem ser:
+![Número 1](../images/sfbcallout1.png)<br/><br/>Agentes de chamada (máximo de 200) podem ser:
 * Um usuário Online com uma licença de **Sistema de Telefonia** e habilitados para o Enterprise Voice ou com um Plano de Chamadas. <br/><br/> **Observação:**  Para redirecionar chamadas para pessoas na sua organização que estiverem Online, ele devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem um plano de chamar. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true` <br/><br/>
 * Usuários online com uma licença de **Sistema de Telefonia** e um Plano de Chamadas que são adicionados a um grupo do Office 365, uma lista de distribuição habilitada para e-mails ou um grupo de segurança. Poderá demorar até 30 minutos para que um novo agente adicionado a uma lista de distribuição ou um grupo de segurança comece a receber chamadas de uma fila. Um grupo de segurança ou de lista de distribuição recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamada. Grupos recém-criados do Office 365 ficam disponíveis quase que imediatamente. <br/> 
 

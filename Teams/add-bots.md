@@ -3,7 +3,7 @@ title: Adicionar bots para bate-papos privados e canais no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 12/05/2018
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: lucarras
 description: Saiba como adicionar bots no Microsoft Teams para bate-papos privados e canais, criar bots personalizados e carregue seu próprio bot para bate-papo privado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ff6cf5af3a1a2129ee22ae0ff51ac4216ccaefe
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 548da99413714f3947cec909ea51301eb68d2c0d
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013357"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182381"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Adicionar bots para bate-papos privados e canais no Microsoft Teams
 ==========================================================
@@ -56,3 +56,14 @@ Os bots podem ser testados usando o [Bot Framework Emulator](https://go.microsof
 
 
 3.  O ID do aplicativo determina o **nome do bot,** e então você poderá iniciar uma conversa de bate-papo com esse bot.
+
+<a name="side-load-your-bot-for-channels"></a>No lado do seu bot de canais de carga
+-----------------------------------
+
+Se você deseja compartilhar seu bot com seus colegas, aqui está como adicioná-lo a canais de equipes diferentes:
+
+1. Após ter [criado um pacote de aplicativos para o seu bot](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload), abra o equipes e navegue para a equipe nos quais você vai ser lado carregamento o bot.
+2. Selecione **mais** (…) ao lado do nome da equipe.
+3. Selecione **Gerenciar equipe** e selecione a guia de **aplicativos** .
+4. No canto inferior direito da tela, selecione **carregar um aplicativo personalizado**.
+5. Navegue até o local do seu pacote de aplicativos, selecioná-la e, em seguida, clique em **Abrir**.

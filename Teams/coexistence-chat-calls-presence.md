@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c427f1cb342b64211aeabf042b0cb00d4a89759f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156113"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182500"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -47,12 +47,13 @@ Os parâmetros que determinam o método de roteamento de thread são:
 - Se a conversa for novo ou parte de um thread existente
 - Se a conversa é no locatário ou federados
 - Se a conversa é possível
-    - Interoperabilidade de no locatário requer que o inquilino é puro online ou Skype para o híbrido de negócios. Inquilinos puramente no local não podem ter interoperabilidade no inquilino.
-    - Se o Skype para a conta de negócios do originador hospedados no local, o que o usuário não pode usar o cliente de equipes para a interoperabilidade no locatário ou para federação. Que só pode usar o Skype para o cliente de negócios para interoperabilidade e federação.
-    - As equipes de comunicação de equipes é sempre possíveis no locatário
+    - Interoperabilidade de *no locatário* requer que o inquilino é puro online ou Skype para o híbrido de negócios. Inquilinos puramente no local não podem ter interoperabilidade no inquilino.
+    - *A federação de locatário entre* sempre requer Skype adequado para configuração da federação de negócios, bem como a configuração apropriada de federação de equipes de ambos os locatários. Skype para o híbrido de negócios não é necessário de um inquilino.
+    - Se o Skype para a conta de negócios do originador hospedados no local, o que o usuário não pode usar o cliente de equipes para a interoperabilidade no locatário ou para federação. Esse usuário só pode usar o Skype para o cliente de negócios para interoperabilidade e federação.
+    - As equipes de comunicação de equipes é sempre possíveis no inquilino.
 
 > [!NOTE]
-> Atualmente, todos os federação envolvendo equipes aproveita o Skype para o pipeline de federação de negócios, bem como as equipes – Skype para a interoperabilidade de negócios. Podemos estiver planejando equipes nativas – federação de equipes. O documento presente será atualizado mediante a liberação da federação nativa
+> Atualmente, todos os federação envolvendo equipes aproveita o Skype para o pipeline de federação de negócios, bem como as equipes – Skype para a interoperabilidade de negócios. Podemos estiver planejando equipes nativas – federação de equipes. O documento presente será atualizado mediante a liberação da federação nativa.
 
 # <a name="chat-and-call-routing"></a>Roteamento de chamadas e bate-papo
 

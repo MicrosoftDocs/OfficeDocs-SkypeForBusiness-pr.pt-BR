@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f12156fbdb6bf619b1c6a7406b4bb104ec725b
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156121"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182459"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -128,4 +128,4 @@ Para obter todas estas limitações (exceto para Chat persistente), uma soluçã
 > [!Important]
 > O que é iniciado conforme um chat simple (IM) rapidamente pode escalar para uma chamada ou uma reunião ad hoc. Podemos entender o que esses cenários são essenciais para a experiência do usuário e a usabilidade e podemos está evoluindo continuamente experiências interoperabilidade entre Skype para usuários empresariais e equipes. Verifique novamente as informações mais atualizadas.
 
-Após revisar neste artigo, consulte [Escolher sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [migração e orientações de interoperabilidade](https://aka.ms/SkypeToTeams-Interop)e [definindo sua coexistência e as configurações de atualização](https://aka.ms/SkypeToTeams-SetCoexistence) para obter detalhes de implementação.
+Após revisar neste artigo, consulte [Escolha sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md), [migração e orientações de interoperabilidade](https://aka.ms/SkypeToTeams-Interop), [coexistência com o Skype para negócios](coexistence-chat-calls-presence.md)e [definindo sua coexistência e as configurações de atualização](https://aka.ms/SkypeToTeams-SetCoexistence) da implementação detalhes.

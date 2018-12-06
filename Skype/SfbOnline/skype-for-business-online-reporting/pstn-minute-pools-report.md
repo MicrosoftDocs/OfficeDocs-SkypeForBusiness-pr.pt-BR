@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o Skype para relatório de minuto pools corporativos PSTN para ver o número de minutos gastos durante o mês atual dentro da sua organização.
-ms.openlocfilehash: 41f1e0c2dcc7504341bb6d9076c7a99b63ed50a9
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865105"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182371"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
@@ -37,7 +37,7 @@ Confira a [Visão geral de relatórios](https://support.office.com/article/0d6df
 Nesse relatório, juntamente com o outro Skype para relatórios de negócios, oferece detalhes sobre a atividade em toda a organização. Esses detalhes são muito úteis quando investigando, planejar e realizar outras decisões de negócios para sua organização e para configurar a [Comunicação créditos](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
+> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business quando faz logon como administrador no Centro de administração do Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Como obter para o Skype para relatório de minuto pools corporativos PSTN
 
@@ -62,7 +62,7 @@ Esta é a aparência do relatório.
 ![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão dos pools minutos por licença (recurso) e o local de uso. 
 *    **O recurso** é o plano de serviço/licença usado para a chamada. Os planos de serviço/licença, que talvez você veja neste relatório incluem:
      * MCOPSTN1 - domésticas chamar planejar (3000 minutos planos de 1200/US-minuto UE
-     * MCOPSTN2 - plano de chamadas internacionais
+     * MCOPSTN2 - doméstico & internacional chamar planejar a partir do qual você verá um pool doméstico (3000 minutos EUA/Canadá/PR, minuto de 1200 países europeu) e um pool internacional (600 minutos). Cobrir minuto é atingida sempre que o limite de bits OR-internacional doméstico for atingido dentro do mês do calendário. 
      * MCOPSTN5 - domésticas chamar Plan (plano de chamada de 120 minutos)
      * MCOPSTN6 - domésticas chamar Plan (plano de chamada 240 minutos)
      * MCOMEETADD - serviços de audioconferência
@@ -74,7 +74,7 @@ Esta é a aparência do relatório.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.  <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se houver menos do que 2.000 usuários, você pode classificar e filtrar dentro da tabela no relatório em si. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
+![Número 3](../images/sfbcallout3.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar no botão **Exportar para Excel**.   <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se houver menos do que 2.000 usuários, você pode classificar e filtrar dentro da tabela no relatório em si. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Deseja ver outros relatórios do Skype for Business?
 

@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: b4b7e8f238ce0963908b5aba1984bbd3f6d18a9f
-ms.sourcegitcommit: 19daa277829019807532e4ccb88cad1fdac6ee85
+ms.openlocfilehash: d37cf7561f2728dafa850aaa38d6e322fda7cfb9
+ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "25607379"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "27182477"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -26,6 +26,7 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 
 | Versão | Publicado em <br>Repositório da Microsoft | 
 | ---     | ---  |
+| 4.0.51.0 | 17/11/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
 | 4.0.27.0 |  10/1/2018    | 
 | 4.0.19.0 |  08/31/2018    |   
@@ -48,6 +49,10 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de sala Skype v2 recurso Introdução e resoluções de problemas
+
+### <a name="40510-11172018"></a>4.0.51.0 (17/11/2018)
+Introduzido nessa atualização:
+- Suporte de vídeo duplo (Front de sala) para reuniões de equipes 
 
 ### <a name="40310-10162018"></a>4.0.31.0 (16/10/2018)
 Introduzido nessa atualização:
@@ -196,6 +201,6 @@ Introduzido nessa atualização:
 
 [Problemas conhecidos para sistemas de sala Skype v2](../../manage/skype-room-systems-v2/known-issues.md)
 
-[Planejar o Skype Room Systems versão 2](skype-room-systems-v2-0.md)
+[Plan for Skype Room Systems v2](skype-room-systems-v2-0.md)
 
 [Gerenciar o Skype Room Systems versão 2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
