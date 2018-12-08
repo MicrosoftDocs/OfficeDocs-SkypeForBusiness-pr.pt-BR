@@ -14,14 +14,22 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec2db02fe8b91736675027aee2a08a7a8587105c
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: 249437f35974a581ccc95512ccdf4f9baf246dfc
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156073"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201385"
 ---
 # <a name="faq---journey-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes - Jornada de migração do Skype for Business para o Microsoft Teams
+
+> [!Tip]
+> Assista a sessão de seguir para saber mais sobre a atualização do Skype for Business para Teams da Microsoft: 
+> - [Introdução à atualização](https://aka.ms/teams-upgrade-intro)
+> - [Planejar a atualização](https://aka.ms/teams-upgrade-plan)
+> - [Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Experiência do administrador](https://aka.ms/teams-upgrade-admin)
+
 
 ## <a name="intelligent-communications-vision"></a>Visão inteligente de comunicações
 

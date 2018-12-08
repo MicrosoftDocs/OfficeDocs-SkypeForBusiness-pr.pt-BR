@@ -13,19 +13,19 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6e25d8e4d28a40bed33483d3ebdd6b5499f9ec1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372018"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201361"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
 
 O Microsoft Teams está criado na nuvem empresarial de grande escala do Office 365, oferecendo os recursos avançados de segurança e conformidade que nossos clientes esperam.
 
-O Teams tem conformidade de Camada C no lançamento. Isso inclui as seguintes normas: ISO 27001, ISO 27018, SSAE16 SOC 1 e SOC 2, HIPAA e EU Model Clauses (EUMC). Dentro da estrutura de conformidade da Microsoft, a Microsoft classifica os aplicativos e serviços do Office 365 em quatro categorias. Cada categoria é definida por compromissos de conformidade específicos que devem ser atendidos por um serviço do Office 365 ou um serviço relacionado da Microsoft para que sejam listados naquela categoria.
+As equipes é compatível com camada D. Isso inclui as seguintes normas: ISO 27001, ISO 27018, SSAE16 SOC 1 e SOC 2, HIPAA e EU Model Clauses (EUMC). Dentro da estrutura de conformidade da Microsoft, a Microsoft classifica os aplicativos e serviços do Office 365 em quatro categorias. Cada categoria é definida por compromissos de conformidade específicos que devem ser atendidos por um serviço do Office 365 ou um serviço relacionado da Microsoft para que sejam listados naquela categoria.
 
 Os serviços das categorias de conformidade C e D que têm compromissos de conformidade líderes do setor estão habilitados por padrão. Os serviços das categorias A e B vêm com controles de ativação ou desativação para a organização inteira. Você pode encontrar detalhes em [Estrutura de conformidade para as normas e regulamentos do setor](https://go.microsoft.com/fwlink/?linkid=855777). O Microsoft Teams também dá suporte à conformidade com o Cloud Security Alliance.
 
@@ -41,7 +41,7 @@ Pesquisa de log de auditoria se conecta à direita no Centro de conformidade & s
 
 Pesquisa de conteúdo pode ser usada para procurar todos os dados de equipes por meio de recursos de filtragem de rich e exportada para um contêiner específico para suporte de conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletar dados de equipes em todos os usuários, revisar e exportá-lo para processamento adicional. Consulte este [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para conteúdo de Teams da Microsoft no Centro de conformidade & segurança do Office 365. 
 
-Dica: O MicrosoftTeams kind pode ser usado para filtrar por meio Teams Microsoft somente conteúdo, ou seja, Chat e mensagens de canal, reuniões e chamadas. 
+Dica: Do tipo Microsoft Teams pode ser usado para filtrar por meio Teams Microsoft somente conteúdo, ou seja, Chat e mensagens de canal, reuniões e chamadas. 
 
 ## <a name="ediscovery"></a>eDiscovery
 
@@ -70,7 +70,7 @@ Os clientes podem aproveitar descoberta eletrônica in-loco ou [eDiscovery Avan�
 
 ## <a name="legal-hold"></a>Retenção legal
 
-Durante um litígio, geralmente é necessário que todos os dados associados a um usuário (dos responsáveis) ou uma equipe é preservada imutavelmente, portanto pode ser usada como evidência para o caso. Isso é feito colocando-se um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe dentro equipes será colocada em (subconjunto do conjunto de sites ou de caixa de correio até o destino de consultas ou conteúdo filtrado) de bloqueio In-loco ou retenção de litígio (coleção inteira de caixa de correio ou site), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluir ou editar as mensagens de canal são incluídas na caixa de correio de grupo, imutáveis cópias desse conteúdo são mantidos e estejam disponíveis na pesquisa eDisscovery. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [Este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo para saber mais sobre preservação e isenções na segurança do Office 365 & Centro de conformidade da Ajuda. 
+Durante um litígio, geralmente é necessário que todos os dados associados a um usuário (dos responsáveis) ou uma equipe é preservada imutavelmente, portanto pode ser usada como evidência para o caso. Isso é feito colocando-se um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe dentro equipes será colocada em (subconjunto do conjunto de sites ou de caixa de correio até o destino de consultas ou conteúdo filtrado) de bloqueio In-loco ou retenção de litígio (coleção inteira de caixa de correio ou site), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluir ou editar as mensagens de canal são incluídas na caixa de correio de grupo, imutáveis cópias desse conteúdo são mantidos e estejam disponíveis na pesquisa de descoberta eletrônica. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [Este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo para saber mais sobre preservação e isenções na segurança do Office 365 & Centro de conformidade da Ajuda. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitetura de proteção de informações para as equipes da Microsoft. 
 
@@ -137,7 +137,7 @@ Para ver qual região armazena dados para seu locatário, vá para o [Centro de 
 
 Microsoft Teams depende muito Exchange Online, SharePoint Online e Skype para Business Online para cenários de produtividade de núcleo, como reuniões, calendários, interoperabilidade de bate-papos e compartilhamento de arquivos. Políticas de acesso condicional que são definidas para esses aplicativos de nuvem se aplicam ao Microsoft Teams quando um usuário diretamente entra no Microsoft Teams - em qualquer cliente. 
 
-Microsoft Teams é suportada separadamente como um aplicativo de nuvem em políticas de acesso condicional do Azure Active Directory. Políticas de acesso condicional que são definidas para o aplicativo de nuvem da Microsoft Teams se aplicam ao Microsoft Teams quando um usuário entrar. No entanto, sem as políticas corretas em outros aplicativos como o Exchange Online e SharePoint Online, os usuários ainda poderá acessar esses recursos diretamente. Para mais informações sobre como configurar uma política de acesso condicional no portal do azure, vá para: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
+Microsoft Teams é suportada separadamente como um aplicativo de nuvem em políticas de acesso condicional do Azure Active Directory. Políticas de acesso condicional que são definidas para o aplicativo de nuvem da Microsoft Teams se aplicam ao Microsoft Teams quando um usuário entrar. No entanto, sem as políticas corretas em outros aplicativos como o Exchange Online e SharePoint Online, os usuários ainda poderá acessar esses recursos diretamente. Para obter mais informações sobre como configurar uma política de acesso condicional no portal do azure, vá para: (https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started) 
 
 Clientes de desktop Teams da Microsoft para Windows e Mac suportam a autenticação moderna. Autenticação moderna traz entrar com base no Azure Active Directory autenticação biblioteca (ADAL) para aplicativos cliente do Microsoft Office em todas as plataformas.
 

@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios da Austrália.
-ms.openlocfilehash: c715c6670a79f6bdd317eda256bf73597f45cc82
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b39e940d4a2d4a113f1090cededdd052ff9594a9
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017451"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201465"
 ---
 # <a name="availability-in-australia"></a>Disponibilidade em Austrália
 
@@ -66,6 +66,11 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |Minutos disponíveis para Planos de Chamadas  <br/> |Consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 |É possível fazer chamadas de saída?  <br/> |Consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
+> [!IMPORTANT]
+> Para excluir australiano multiusuários (fornecidos pelo Sprint), contate Sprint diretamente.
+> Para atualizar as informações de endereço de emergência para números de assinante australiano (fornecidos pelo Sprint), contate Sprint diretamente.
+> Para obter mais informações, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan).
+
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
@@ -74,7 +79,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
 
-Se você deseja obter Chamada Tarifada e números de telefone gratuitos de atendedores automáticos e filas de chamada, consulte [Sprint chamando para o Office 365](https://aka.ms/TelstraVoicePlan). Para números de serviço de conferência de áudio, [entre em contato conosco](mailto:ptnapac@microsoft.com).
+Se você deseja obter Chamada Tarifada e números de telefone gratuitos de atendedores automáticos, chame filas ou números de serviço de conferência de áudio, [entre em contato conosco](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

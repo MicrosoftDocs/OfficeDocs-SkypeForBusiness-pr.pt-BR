@@ -11,12 +11,12 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a14d6db6c03b540a6495b9028a4f0342ff92636
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: bf42d76e1e17dc81b1c3d0ab603050c6e2d25d71
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716331"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201329"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -61,17 +61,11 @@ Os registros de depuração são produzidos usando os seguintes métodos para o 
 
 -   Windows:
 
-    1.  Clique com o botão direito do mouse no **ícone do Microsoft Teams** na bandeja do aplicativo e selecione **Obter registros**
-
-    2.  Escolher **Obter registros** no menu suspenso de **Ajuda**
-
-    3.  Atalho do teclado: Ctrl + Alt + Shift + 1
+      Atalho do teclado: Ctrl + Alt + Shift + 1
 
 -   Mac OSX:
 
-    1.  Escolher **Obter registros** no menu suspenso de **Ajuda**
-
-    2.  Atalho do teclado: Opção + Comando + Shift+1
+      Atalho do teclado: Opção + Comando + Shift+1
 
 Os registros de depuração serão baixados automaticamente nas seguintes pastas.
 
@@ -97,6 +91,16 @@ Os registros de mídia contêm dados de diagnóstico de áudio, vídeo e compart
 ---------------------
 
 Os registros de desktop, também conhecidos como registros de bootstrapper, contém dados de registro que ocorrem entre o clientes desktop e o navegador. Assim como os registros de mídia, esses registros só são necessários se forem solicitados pela Microsoft. Os registros são baseados em texto e podem ser lidos usando qualquer editor baseado em texto no formato de cima para baixo.
+
+Windows:
+
+  1.  Clique com o botão direito do mouse no **ícone do Microsoft Teams** na bandeja do aplicativo e selecione **Obter registros**
+
+  2.  Escolher **Obter registros** no menu suspenso de **Ajuda**
+
+Mac OsX:
+
+1.  Escolher **Obter registros** no menu suspenso de **Ajuda**
 
 |Cliente |Localização |
 |---------|---------|

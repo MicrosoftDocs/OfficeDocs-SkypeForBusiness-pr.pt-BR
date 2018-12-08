@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16ee59e01a45e79bb04a410857e128df7f12934e
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: dfe4febe5d086af6914660bffb667942b9d00c25
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716347"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201353"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -144,3 +144,36 @@ No momento, não estão disponibilizadas opções para configurar o cliente atra
 No momento, não estão disponibilizadas opções para administradores de TI definirem as configurações de notificação do lado do cliente. Todas as opções de notificação são definidas pelo usuário. A figura abaixo descreve as configurações padrão do cliente.
 
 ![Captura de tela das configurações de notificação.](media/Get_clients_for_Microsoft_Teams_image6.png)
+
+<a name="sample-powershell-script"></a>Exemplo de Script do PowerShell
+----------------------------
+
+Este script de amostra, o que precisa ser executado em computadores clientes no contexto de uma conta de administrador com privilégios elevados, criará uma nova regra de firewall de entrada para cada pasta de usuário encontrada no c:\users. Quando equipes encontrar esta regra, ele impedirá o aplicativo de equipes de solicitar aos usuários para criar regras de firewall quando os usuários fazem sua primeira chamada de equipes. 
+
+```
+$users = Get-Childitem c:\users
+foreach ($user in $users) 
+{
+    $Path = "c:\users\" + $user.Name + "\appdata\local\Microsoft\Teams\Current\Teams.exe"
+    if (Test-Path $Path) 
+    {
+            $name = "teams.exe " + $user.Name
+            if (!(Get-NetFirewallRule -DisplayName $name))
+        {
+                New-NetFirewallRule -DisplayName “teams.exe” -Direction Inbound -Profile Domain -Program $Path -Action Allow
+        }
+    }
+}
+<#
+        .ABOUT THIS SCRIPT
+        (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
+
+        Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
+
+        The script will create a new inbound firewall rule for each user folder found in c:\users. 
+
+        Requires PowerShell 3.0
+        
+#>
+
+```

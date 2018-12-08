@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b2fa0d1631a3feb6d993b23a57cf084c3774c42
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
+ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182459"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201473"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -31,6 +31,9 @@ Este artigo faz parte do estágio da sua atualização jornada definição do pr
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Entender o Microsoft Teams e Skype para interoperabilidade e coexistência de negócios
 
 Se sua organização usa Skype para negócios hoje e você pretende começar a usar as equipes junto com Skype para negócios — ou que você pretende iniciar a atualização para equipes — é importante entender como os dois aplicativos coexistirem, quando e como eles interoperam e como para Gerencie migração dos usuários até a sua atualização final do Skype para a equipes de negócios.
+
+> [!Tip]
+> Assista a sessão a seguir para saber mais sobre [interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Coexistência de equipes e Skype para negócios
 
