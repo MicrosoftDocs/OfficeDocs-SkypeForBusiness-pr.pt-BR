@@ -225,7 +225,7 @@
 ### [Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 ### [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ### [Ativar ou desativar os anúncios de entrada e de saída para reuniões](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
-
+### [Configurar o compartilhamento da área de trabalho em equipes](configure-desktop-sharing.md)
 ### [Gravação de reuniões na nuvem do Microsoft Teams](cloud-recording.md)
 ### [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
 ### [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -246,7 +246,6 @@
 ### [Adicionar bots para bate-papos privados e canais no Teams](add-bots.md)
 ### [Usar guias internas e personalizadas no Teams](built-in-custom-tabs.md)
 ### [Usar o Office 365 e conectores personalizados no Teams](office-365-custom-connectors.md)
-### [Usar o T-Bot para ajudar os usuários com o Teams](t-bot.md)
 ### [Usar relatórios de atividade para equipes](teams-activity-reports.md)
 ### [Usar conversão de mensagem embutida em equipes](inline-message-translation-teams.md)
 
