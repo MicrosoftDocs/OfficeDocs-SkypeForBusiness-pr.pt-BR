@@ -353,11 +353,10 @@
 
 ## Gerenciamento
 ### [Topologia](../../SfbServer/manage/topology/topology.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Corrigir ou atualizar Servidores Front-End](../../SfbServer/manage/topology/patch-or-update-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Adicionar ou remover um Servidor Front-End](../../SfbServer/manage/topology/add-or-remove-a-front-end-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Gerenciar servidores Front-End](../../SfbServer/manage/topology/manage-front-end-servers.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+
 #### [Patch ou atualização de um servidor Back-End ou Standard Edition](../../SfbServer/manage/topology/patch-or-update-a-back-end-or-standard-edition-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Adicionar bancos de dados](../../SfbServer/manage/topology/add-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-#### [Patch ou atualizar o SQL Server](../../SfbServer/manage/topology/patch-or-update-sql-server.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
+#### [Gerenciar bancos de dados](../../SfbServer/manage/topology/manage-databases.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Dados do repositório de arquivos de movimentação](../../SfbServer/manage/topology/move-file-store-data.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 #### [Desabilitar o TLS 1.0/1.1](../../SfbServer/manage/topology/disable-tls-1.0-1.1.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ### [Integridade e monitoramento](../../SfbServer/manage/health-and-monitoring/health-and-monitoring.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
@@ -397,7 +396,6 @@
 ###### [Call Admission Control Report](../../SfbServer/manage/health-and-monitoring/call-admission-control-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ####### [Relatório de Detalhes de Sessão Ponto a Ponto](../../SfbServer/manage/health-and-monitoring/peer-to-peer-session-detail-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Call Diagnostic Reports (per user)](../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports-per-user.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
-###### [User Activity Report](../../SfbServer/manage/health-and-monitoring/user-activity-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Call Diagnostic Reports](../../SfbServer/manage/health-and-monitoring/call-diagnostic-reports.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ###### [Relatório de resumo](../../SfbServer/manage/health-and-monitoring/summary-report.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ####### [Sub-relatório de Resumo de Conferências](../../SfbServer/manage/health-and-monitoring/conference-summary-subreport.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
