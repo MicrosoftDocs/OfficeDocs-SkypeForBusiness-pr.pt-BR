@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 'Resumo: Saiba mais sobre as etapas para gerenciar sua topologia no Skype para Business Server.'
-ms.openlocfilehash: f00168f706d1639f20cbfa2df7cb3fd089eb2bc4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d56ee1f0e7203415d541b7a2690f520c4b8d27f3
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986604"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214570"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>Gerenciar sua topologia no Skype para Business Server 
  
@@ -22,15 +22,15 @@ ms.locfileid: "20986604"
   
 Os tópicos a seguir fornecem instruções passo a passo sobre tarefas envolvidas com o gerenciamento de sua Skype para a topologia de servidor de negócios e seus servidores Front-End.
   
-- [Patch ou atualização de servidores Front-End do Skype para Business Server](patch-or-update-front-end-servers.md)
+- [Gerenciar servidores Front-End](manage-front-end-servers.md)
     
-- [Adicionar ou remover um servidor Front-End no Skype para Business Server](add-or-remove-a-front-end-server.md)
+- [Gerenciar bancos de dados com um grupo de disponibilidade do AlwaysOn](manage-databases.md)
+
+- [Corrigir ou atualizar um servidor Back End ou um servidor edição Standard](patch-or-update-a-back-end-or-standard-edition-server.md)
     
-- [Adicionar bancos de dados a um grupo de disponibilidade do AlwaysOn no Skype para Business Server](add-databases.md) [Patch ou atualização de um servidor Back-End ou servidor Standard Edition no Skype para Business Server](patch-or-update-a-back-end-or-standard-edition-server.md)
-    
-- [Patch ou atualização de um SQL Server em um grupo de disponibilidade do AlwaysOn no Skype para Business Server](patch-or-update-sql-server.md)
-    
-- [Dados do repositório de arquivos de movimentação para um novo repositório de arquivos no Skype para Business Server](../../help-topics/help-topobld/move-file-store-data.md)
+- [Mover dados do repositório de arquivos para um novo repositório de arquivos](../../help-topics/help-topobld/move-file-store-data.md)
+
+- [Gerenciar serviços](manage-services.md)
 
     
 

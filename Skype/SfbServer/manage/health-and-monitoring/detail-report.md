@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Resumo: Saiba mais sobre o relatório de detalhes de conferência usado no Skype para Business Server.'
-ms.openlocfilehash: ff8b7fa0643eedf7ddb38f908bc585af8bf7ac1f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 025e8bda6e26baf261aeb3729907a3f13c220774
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372344"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214592"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Relatório de detalhes de conferência no Skype para Business Server
 
@@ -26,13 +26,13 @@ O Relatório de Detalhe da Conferência fornece informações detalhadas sobre t
 
 O Relatório de Detalhe da Conferência pode ser acessado pelos seguintes relatórios:
 
-- O [Relatório de controle de admissão chamada no Skype para Business Server](call-admission-control-report.md) (clicando na métrica detalhe de uma conferência)
+- O [Call Admission Control Report](call-admission-control-report.md) (clicando na métrica Detalhe de uma conferência)
 
-- O [Relatório de lista de falhas no Skype para Business Server](failure-list-report.md) (clicando na métrica conferência)
+- O [Failure List Report](failure-list-report.md) (clicando na métrica Conferência)
 
-- O [Relatório de atividades do usuário no Skype para Business Server](user-activity-report.md) (clicando na métrica URI de conferência)
+- O [User Activity Report](call-diagnostic-reports-per-user.md) (clicando na métrica URI da conferência)
 
-Do relatório de detalhes de conferência, você pode acessar o [Relatório de diagnóstico no Skype para Business Server](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhe).
+Do relatório de detalhes de conferência, você pode acessar o [Relatório de diagnóstico](diagnostic-report.md) clicando na métrica relatório de diagnóstico (detalhe).
 
 ## <a name="filters"></a>Filtros
 
@@ -47,7 +47,7 @@ A tabela a seguir lista as informações fornecidas na seção Informação da C
 
 | **Nome**                 | **Descrição**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| **URI de conferência** <br/> | URI atribuído à conferência. Por exemplo:  <br/> SIP:kmyer@litwareinc.com;GRUU;Opaque=App:conf:Focus:ID:drg2y8v4  <br/> |
+| **URI de conferência** <br/> | URI atribuído à conferência. Por exemplo:  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | **FQDN do pool** <br/>      | Nome de domínio totalmente qualificado do pool do Registrador ou Servidor de Borda envolvido em uma sessão.  <br/>                             |
 | **Hora inicial** <br/>     | Data e hora de início da sessão.  <br/>                                                                          |
 | **Organizador** <br/>      | Endereço SIP do usuário que organizou a conferência.  <br/>                                                               |

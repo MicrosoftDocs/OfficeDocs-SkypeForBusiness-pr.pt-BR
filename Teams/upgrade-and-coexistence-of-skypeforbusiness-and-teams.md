@@ -1,12 +1,12 @@
 ---
-title: Escolha sua atualização jornada - Teams da Microsoft
+title: Escolha sua jornada de atualização - Microsoft Teams
 author: lsomi
 ms.author: lsomi
 manager: serdars
 ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: dearbeen, bjwhalen
 description: Detalhes do Skype para opções de coexistência de negócios e Teams da Microsoft e modos de viagens atualização às equipes do Skype for Business com cenários de exemplo.
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f78cab154dd2b697cbee851a06ef8633b742dbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
+ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533186"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "27214485"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
@@ -85,7 +85,7 @@ Equipes é implantado na organização no modo de **Ilhas** para avaliação e m
 
 Ao longo do tempo, os grupos de usuários podem ser atualizados para **Equipes somente** modo, seguido do resto da organização. Eventualmente, toda a organização será pronta para retirar Skype para negócios e usar apenas as equipes para comunicação e colaboração, ou — se os requisitos de negócios determinam que Skype para negócios ser retidos por um grupo específico — a maioria dos usuários no organização pode usar apenas as equipes. <br><br>
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul> Qual jornada de atualização é adequada à sua organização & #39; os requisitos de negócios s?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul> Qual jornada de atualização é adequada para os requisitos de negócios da sua organização?<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximo passo</td><td><ul> Identificando seu modelo de implantação atual, use a cenários de caso e considerações fundamentais para sua organização informará a jornada para equipes que é mais adequada para sua organização.<br><br></ul></td></tr>
 </table>
 
@@ -93,7 +93,7 @@ Ao longo do tempo, os grupos de usuários podem ser atualizados para **Equipes s
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul> Qual cenário de atualização é aplicável a sua organização?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul> Decidir o cronograma da sua organização & #39; jornada de atualização s com base em mensagens, reuniões e chamando os requisitos de negócios.<br><br> Decida o trabalho adicional necessário para concluir sua jornada de atualização.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul> Decida o cronograma da jornada de atualização da sua organização com base em mensagens, reuniões e chamando os requisitos de negócios.<br><br> Decida o trabalho adicional necessário para concluir sua jornada de atualização.<br><br></ul></td></tr>
 </table>
 
 Depois que você tiver escolhido a jornada recomendada de atualização da sua organização, [execute a atualização para equipes](https://aka.ms/SkypeToTeams-Upgrade).
