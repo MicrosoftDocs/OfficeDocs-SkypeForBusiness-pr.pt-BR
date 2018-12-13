@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejamento de roteamento baseado no local para conferências no Skype para Business Server Enterprise Voice, incluindo com consultoria transferências de chamada.
-ms.openlocfilehash: d786f8def8cf88e29bbac2a908163a5a92d61d47
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373239"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240735"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Roteamento baseado no local para conferências no Skype para Business Server
 
@@ -142,9 +142,13 @@ Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade de "2", o a
 
 Após localizar o valor de prioridade correto para o serviço de roteamento com base no local para o aplicativo de conferência, digite o seguinte cmdlet para cada pool de front-end ou servidor Standard Edition que hospeda usuários habilitados para o roteamento baseado no local:
 
-New-CsServerApplication-Identity Service: Registrar:<Pool FQDN>/LBRouting-prioridade <Application Priority> -habilitado $true-crítico $true - Uri <https://www.microsoft.com/LCS/LBRoutingFor> exemplo:
+New-CsServerApplication-Identity Service: Registrar:`<Pool FQDN`> / LBRouting-prioridade \<aplicativo prioridade\> -habilitado $true-$true - Uri crítico<http://www.microsoft.com/LCS/LBRouting> 
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-prioridade 3 - $true Enabled-crítico $true - Uri https://www.microsoft.com/LCS/LBRoutingAfter usando este cmdlet, reiniciar todos os servidores de Front-End no pool ou os servidores Standard Edition onde o Roteamento baseado no local para o aplicativo de conferência tiver sido habilitado.
+Por exemplo:
+
+New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting-prioridade 3 - $true Enabled-crítico $true - Urihttp://www.microsoft.com/LCS/LBRouting 
+
+Depois de usar esse cmdlet, reinicie todos os servidores de Front-End no pool ou os servidores Standard Edition, onde o serviço de roteamento com base no local para o aplicativo de conferência tiver sido habilitado.
 
 > [!IMPORTANT]
 > Aplicações de roteamento baseados em local para conferências ou transferências de consultas não são impostas até que todos os servidores Front-End nos pools aplicáveis ou os servidores Standard Edition são reiniciados. Se você definir **-crítico** para **$true** os cmdlets anteriores, seu Skype para serviços de Business Server será reiniciado imediatamente. Se você não quiser que esses serviços para reiniciar imediatamente, defina **-crítico** para **$false** para agora e, em seguida, utilize **Set-CsServerApplication** , para alterar **-crítico** para **$true** mais tarde, depois que os serviços foram reiniciados.

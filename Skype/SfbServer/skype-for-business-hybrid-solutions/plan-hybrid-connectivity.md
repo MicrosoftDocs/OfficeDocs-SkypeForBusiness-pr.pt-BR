@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumo: Leia este tópico para saber como planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online.  A configuração da conectividade híbrida é a primeira etapa da implantação de muitas soluções híbridas do Skype for Business.'
-ms.openlocfilehash: 909d8be38bd03291268c7fa3b2b091072a47970e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530885"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240760"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online
 
@@ -329,11 +329,11 @@ Ao sincronizar contas de usuário entre sua implantação no local e online inqu
 
 Você também deve considerar os seguintes problemas relacionados ao usuário ao se planejar para uma implantação híbrida.
 
-- **Contatos do usuário** O limite de contatos para usuários do Lync Online é 250. Todos os contatos além desse número serão removidos da lista de contatos do usuário quando a conta é movida para o Lync Online.
+- **Contatos do usuário** O limite para contatos do Skype para usuários corporativos Online é 250. Todos os contatos além desse número serão removidos da lista de contatos do usuário quando a conta é movida para Skype para negócios Online.
 
 - **Mensagens instantâneas e presença** Listas de contatos do usuário, grupos e listas de controle de acesso (ACLs) são migradas com a conta de usuário.
 
-- **Dados de conferência, o conteúdo das reuniões e reuniões agendadas** Este conteúdo não é migrado com a conta de usuário. Os usuários devem reagendar as reuniões depois que as contas são migradas para o Lync Online.
+- **Dados de conferência, o conteúdo das reuniões e reuniões agendadas** Este conteúdo não é migrado com a conta de usuário. Os usuários devem reagendar reuniões depois que suas contas são migradas para o Skype para negócios Online.
 
 ## <a name="user-policies-and-features"></a>Recursos e políticas de usuário
 <a name="BKMK_UserPolicies"> </a>

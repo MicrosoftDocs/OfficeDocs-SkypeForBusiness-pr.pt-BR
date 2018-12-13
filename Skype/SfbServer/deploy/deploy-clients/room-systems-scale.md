@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este tópico para saber mais sobre como implantar sistemas de sala Skype v2 em implantações de grande escala.
-ms.openlocfilehash: 536530fa7836389d8c621f7c81287bfb564f024d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699548"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240961"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implantar sistemas de sala Skype v2 usando o System Center Configuration Manager
 
@@ -504,6 +504,28 @@ Sistemas de sala Skype v2 é suportado para Surface Pro e 4 do Surface Pro. Voc�
 
 > [!NOTE]
 > Repita as mesmas etapas para outros modelos Surface Pro, que talvez seja necessário. Para obter mais informações, consulte [Gerenciar drivers no System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+
+### <a name="create-skype-room-system-configuration-package"></a>Criar um pacote de configuração do sistema de sala do Skype
+
+1.  No console do Configuration Manager, vá para **A biblioteca de Software** \> **Gerenciamento de aplicativos** \> **pacotes**e, em seguida, selecione **Criar pacote**.
+
+2.  Insira as informações a seguir para criar o pacote:
+
+    -   Nome: **SRS v2 - configurar o pacote de instalação do SRS**
+
+    -   Fabricante: **Microsoft Corporation**
+
+    -   Versão: **1.0.0**
+
+    -   Marque a caixa de seleção **Este pacote contém arquivos de origem** , insira o caminho da pasta **SRS v2 - configurar SRS instalação** e selecione **Avançar**.
+
+3.  Selecione **não criar um programa**e selecione **Avançar**.
+
+4.  Revise a página **Confirme as configurações** e selecione **Avançar**.
+
+5.  Selecione **Fechar**.
+
+
 
 ## <a name="distribute-configuration-manager-packages"></a>Distribuir pacotes do Configuration Manager
 

@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: 3c01724d10867c210ff5fe13981b9ddfb801f8f1
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013301"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240836"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 
@@ -51,11 +51,11 @@ Siga estas etapas.
 
    3. Se você deseja permitir todas as organizações de equipes para se comunicar com usuários em sua organização, pule para a etapa 5. 
    
-   4. Se quiser limitar quais as organizações podem se comunicar com usuários em sua organização, adicione o outro domínio da organização à lista de permissões, clicando em **Adicionar domínio**. No painel de **Adicionar um domínio** , preparado o clique de nome de domínio **permitido** e **feito**.
+   4. Se você deseja limitar quais organizações podem se comunicar com usuários em sua organização você pode permitir que todos os mas alguns domínios ou permitir apenas organizações específicas. Para permitir que todos os mas alguns domínios, adicione os domínios que você deseja bloquear, clicando em **Adicionar domínio**. No painel de **Adicionar um domínio** , coloque o nome de domínio, clique em **bloqueado** e **feito**. Para limitar as comunicações para organizatioins específicos, adicione os domínios à lista com um status de **Alowed**. Assim que você tiver adicionado qualquer domínio à lista de permissões, as comunicações para outras organizações será limitadas apenas às organizações cujos domínios estão na lista de permissões. 
+   
+   5. Clique em **Salvar**. 
 
-   4. Clique em **Salvar**. 
-
-   5. Verifique se que o administrador na organização do equipes segue essas etapas mesmas. Por exemplo, em sua lista de **domínios permitidos** , seu administrador precisa insira o domínio para sua empresa se eles limitam o que as organizações podem se comunicar com seus usuários. 
+   6. Verifique se que o administrador na organização do equipes segue essas etapas mesmas. Por exemplo, em sua lista de **domínios permitidos** , seu administrador precisa insira o domínio para sua empresa se eles limitam o que as organizações podem se comunicar com seus usuários. 
 
 ### <a name="step-3---test-it"></a>Etapa 3 - testá-lo
 Para testar sua configuração, você precisa de um usuário de equipes que não está atrás do firewall.

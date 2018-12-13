@@ -3,10 +3,10 @@ title: Planejar for Microsoft 365 governamental - implantações GCC - Microsoft
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 09/14/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: lehewe
+ms.reviewer: daro
 description: Diretrizes para profissionais de TI para as implantações do Office 365 de unidade nas entidades que manipular dados sujeitos a uma regulamentação do governo dos EUA
 localization_priority: Normal
 search.appverid: MET150
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410edd32855c85d2efa5a631cb893c1a5307a5e6
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015121"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240906"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
@@ -50,29 +50,87 @@ A [Descrição do serviço Office 365 US governamentais](https://technet.microso
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Microsoft 365 governamental - GCC é adequado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Entenda os recursos fornecidos pelo Microsoft 365 governamental - GCC.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Entenda os recursos fornecidos pelo Microsoft 365 governamental - GCC.</li></ul>|
 
 > [!Note]
 > Microsoft 365 governamental - GCC só está disponível nos Estados Unidos. Clientes do governo não – dos EUA podem escolher um número de [planos do Office 365 governamental](https://products.office.com/en/government/compare-office-365-government-plans).
 
 ## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Etapa 2. Entenda quais recursos estão atualmente indisponível ou desabilitado por padrão. 
 
-Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas diferenças entre Microsoft 365 governamental - GCC e planos de empresa. Os recursos listados na tabela a seguir não estão disponíveis.
+Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas diferenças entre Microsoft 365 governamental - GCC e planos de empresa. Consulte a tabela a seguir para ver quais recursos estão disponíveis.
 
-| Recurso                     | Motivo            |
-|-----------------------------|-------------------|
-| Chamada e a gravação de reunião  | Gravação depende Microsoft Stream, que estarão disponíveis nos planos do governo no futuro. |
-| Aplicativos       | Aplicativos (por exemplo, conectores, guias e bots) não estarão disponíveis inicialmente, mas estamos trabalhando para disponibilizá-los assim que a barra de conformidade FedRAMP moderadas atendem a todos os seus componentes. |
-| Um canal de email             | A arquitetura do recurso atual não é suportada nos planos do governo. |
-| Presença unificada            | Estamos Finalizar trabalho para clientes empresariais primeiro para esse recurso importante. Ele estará disponível para clientes do governo no futuro. |
-| Chat interoperabilidade entre equipes & SfB usuários            | Interoperação é dependente no serviço de presença unificada (UPS) e não pode funcionar até GCC equipes inquilinos habilitados para um no-break. |
-| Notificações por email         | A arquitetura do recurso atual não é compatível com os planos do governo conosco. Trabalho está em andamento para disponibilizar esse recurso para os clientes do governo conosco plano no futuro. |
+|                             | Recurso                     | GCC            |
+|-----------------------------|-----------------------------|----------------|
+| Base | Login | Disponível |
+| | Presença | Disponível |
+| | Presença unificada (Skype para equipes unificadas e de negócios) | Em todas as agências governamentais |
+| Atividade | Feed | Disponível |
+|  | Minha atividade | Disponível |
+| Chat | Conversa | Disponível |
+| | Arquivos | Disponível |
+| | Organograma | Disponível |
+| | Atividade | Disponível |
+| | Interoperabilidade (1:1 equipes-Skype para chat de negócios) | Em todas as agências governamentais |
+| Microsoft Teams | Mensagem de canal | Disponível |
+| | Arquivos de canal | Disponível |
+| | Guia do OneNote | Em todas as agências governamentais |
+| | Um canal de email | Não disponível |
+| | Adicionar membro | Disponível |
+| | Acesso de convidados | Disponível |
+| Reuniões | Agendar reunião | Disponível |
+| | Ingressar em reunião | Disponível |
+| | Reunião de VoIP | Disponível |
+| | Compartilhamento da área de trabalho | Disponível |
+| | Conceder e assumir o controle no compartilhamento | Disponível |
+| | Conectar-se de uma sala de conferência | Disponível |
+| | Ingresso anônimo | Disponível |
+| | Gravação na nuvem | Em todas as agências governamentais |
+| | Notas de reunião | Disponível |
+| | Reuniões de transmissão | Em todas as agências governamentais |
+| | Reuniões federados | Disponível |
+| | Suporte de Hub superfície (preview) | Disponível |
+| Chamadas | Contatos | Disponível |
+| | Histórico | Disponível |
+| | Caixa postal | Disponível |
+| | Chamada VoIP | Disponível |
+| | Skype para empresas - equipes chamar | Disponível |
+| | Planos de Chamadas | Disponível |
+| | Serviços de audioconferência (permitindo que os participantes da reunião ingressar via PSTN) | Disponível |
+| | Sistema telefônico da Microsoft direto de roteamento | Disponível |
+| | Lobby para os chamadores da PSTN | Disponível |
+| | Fila de chamada | Disponível |
+| | Chefe e o representante de suporte | Disponível |
+| | Transferência com consultoria e segura | Disponível |
+| | Não incomodar inovadora | Disponível |
+| | Toque distinto | Disponível |
+| | 1:1 para escalonamento de chamada de grupo com equipes, Skype para os negócios e os participantes PSTN | Disponível |
+| | Encaminhar para um grupo | Disponível |
+| | Transferir a chamada PSTN | Disponível |
+| | Chamadas de emergência - planos de chamada | Disponível |
+| | Suporte para os telefones SIP certificados existentes | Disponível |
+| | USB HID | Disponível |
+| | descoberta eletrônica para reuniões e chamadas | Disponível |
+| | Atendedor automático da organização | Disponível |
+| | Skype consumidor - chamada de equipes de suporte | Disponível |
+| Arquivos | Recentes | Disponível |
+| | Microsoft Teams | Disponível |
+| Repositório | App Store | Em todas as agências governamentais |
+| Pesquisar | Mensagens | Disponível |
+| | Pessoas | Disponível |
+| | Arquivos | Disponível |
+| | Barra de comandos | Disponível |
+| Conformidade | Pesquisa de conteúdo de conformidade | Disponível |
+| | Retenção | Disponível |
+| | Pesquisa de log de auditoria | Disponível |
+| | Retenção legal | Disponível |
+| | eDiscovery | Disponível |
+
 
 
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se o Microsoft 365 governamental - GCC conjunto de recursos atende às necessidades da sua organização.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Compreenda as configurações de segurança padrão.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Compreenda as configurações de segurança padrão.</li></ul>|
 
 ## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Etapa 3. Compreenda o governo Microsoft 365 - configurações de segurança padrão GCC.
 

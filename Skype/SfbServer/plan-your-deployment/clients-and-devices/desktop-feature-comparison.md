@@ -15,27 +15,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: 1dc94b9cb6b723d344994babe655921045b2acb0
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 35db705545dbec988a29b2025b4c3f1817923093
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25002386"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240798"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2015
  
 **Resumo:** Skype para Business Server 2015 ou Skype para administradores corporativos Online pode usar estas tabelas compreender quais recursos são suportados em quais clientes.
   
- Antes de implantar ou atualizar para o Skype para os negócios, verifique quais clientes já estão em uso na sua organização. Use as tabelas a seguir para entender o impacto de suporte de recurso sobre esses clientes. Isso pode ajudar você a comunicar alterações aos usuários, a acompanhar o processo de implantação e a compreender totalmente os benefícios da atualização do cliente mais recente.
+ Antes de implantar ou atualizar para o Skype para os negócios, verifique quais clientes já estão em uso na sua organização. Use as tabelas a seguir para entender o impacto de suporte de recurso sobre esses clientes. Isso pode ajudar você a comunicar alterações aos usuários, a acompanhar o processo de implantação e a compreender totalmente os benefícios da atualização para o cliente mais recente.
   
 Alguns recursos disponíveis com o Skype para Business Server 2015 não estão disponíveis no Skype para Business Online, consulte [Online ou híbrida limitações de conta de usuário](desktop-feature-comparison.md#Online-Hybrid) para obter informações específicas. Skype para administradores de negócios Online talvez queira consulte [Skype para negócios Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os planos de diferentes disponíveis para eles.
 
 Consulte a [comparação de recursos do cliente de Desktop do Skype para 2019 de negócios](../../../SfBServer2019/plan/feature-comparison.md) para o cliente de suporte no Skype para Business Server 2019.
   
-As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2015 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Consulte o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
+As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2015 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Veja o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
   
 > [!IMPORTANT]
-> Skype para Business Server 2015 e Skype para Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Atendedor do Lync 2010. Para obter informações sobre esses clientes quando usado com outros servidores, consulte as [tabelas de comparação do cliente do Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [tabelas de comparação do cliente do Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
+> Skype para Business Server 2015 e Skype para Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Atendedor do Lync 2010. Para obter informações sobre esses clientes quando usados com outros servidores, consulte [Tabelas de comparação dos clientes para o Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e [Tabelas de Comparação dos Clientes para Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx). 
   
 > [!NOTE]
 > O cliente do **Lync 2010 Attendant** não é suportado no Skype para Business Online.
@@ -269,6 +269,8 @@ Os recursos a seguir estão disponíveis com o cliente completo e não estão di
 - Alterar a saudação
     
 - Recebimento de chamadas em grupo
+
+- Emails de notificação de chamada perdida não são geradas quando o status de um usuário é desabilitado de Unificação de mensagens e estão usando um cliente herdado do Outlook (2013 ou anterior)
     
 ### <a name="online-or-hybrid-user-account-limitations"></a>Limitações de conta de usuário online ou híbrida
 <a name="Online-Hybrid"> </a>
