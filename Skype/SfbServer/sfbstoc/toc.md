@@ -16,7 +16,7 @@
 ##### [Habilite os usuários para o Enterprise Voice no local](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 ##### [Atribuir uma Política de Roteamento de Voz](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
 ##### [Sincronizar usuários com a nuvem e atribuir licenças](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/synchronize-users-to-the-cloud-and-assign-licenses.md)
-##### [Mover usuários locais para Skype para negócios Online](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md)
+##### [Mover usuários locais para Skype para negócios Online](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/move-on-premises-users-to-skype-for-business-online.md) 
 ##### [Habilitar usuários para Enterprise Voice online e caixa postal de sistema de telefone](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 #### [Planejar Skype para o conector de nuvem Business Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
 ##### [Plano para sites PSTN do Cloud Connector Edition](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-for-cloud-connector-edition-pstn-sites.md)

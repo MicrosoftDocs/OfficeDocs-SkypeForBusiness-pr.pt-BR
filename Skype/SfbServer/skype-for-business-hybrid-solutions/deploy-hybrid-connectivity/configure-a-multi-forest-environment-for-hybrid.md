@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 960ab8a3-352d-4b18-bc01-55b35f30ca0d
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente que possui várias florestas em um modelo de floresta de usuário/recurso para fornecer Skype para a funcionalidade de negócios em um cenário híbrido.
-ms.openlocfilehash: ca3cd4bfe324690c41fbd045af967e57cab5fe36
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0c5e3e25e8ba9ae5b044093be53f25a37db28525
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531549"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244015"
 ---
 # <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar um ambiente de várias floresta para o híbrido Skype para negócios
  
@@ -49,7 +49,7 @@ Skype para usuários comerciais hospedagem no local pode ter Exchange hospedado 
   
 ## <a name="configure-forest-trusts"></a>Configurar relações de confiança da floresta
 
-As relações de confiança exigidas são relações bidirecionais transitivas entre a floresta de recursos e cada floresta de usuário. Se você tiver várias florestas de usuários, é importante que o Roteamento de sufixo de nome esteja habilitado para cada relação de confiança para habilitar a autenticação entre florestas. Para mais instruções, consulte [Gerenciar relações de confiança de floresta](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+As relações de confiança exigidas são relações bidirecionais transitivas entre a floresta de recursos e cada floresta de usuário. Se você tiver várias florestas de usuários, é importante que o Roteamento de sufixo de nome esteja habilitado para cada relação de confiança para habilitar a autenticação entre florestas. Para mais instruções, consulte [Gerenciar relações de confiança de floresta](https://technet.microsoft.com/en-us/library/cc772440.aspx). Se você tiver implantado em uma outra floresta do Exchange Server, e ele fornece funcionalidades do Skype para usuários comerciais, a floresta que hospeda o Exchange deve confiar na floresta do Skype de hospedagem para o servidor de negócios. Por exemplo, se o Exchange foram implantado na floresta de conta, isso efetivamente significaria que uma relação de confiança bidirecional entre conta e Skype para florestas de negócios é necessária em que a configuração.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar contas para a floresta Skype para a empresa de hospedagem
 

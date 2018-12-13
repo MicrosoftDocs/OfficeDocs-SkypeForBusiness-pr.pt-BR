@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para configurar o Azure Connect da AD em um ambiente híbrido.
-ms.openlocfilehash: c2a57f9b58d88274dde8f9218faddabdee4342be
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5d27de4786c588d5d2f2a276dc20c25436bada98
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536000"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244113"
 ---
 # <a name="configure-azure-ad-connect-for-skype-for-business-and-teams"></a>Configurar o Azure AD conectar para Skype para equipes e de negócios 
  
@@ -35,9 +35,9 @@ Se você tiver uma floresta do Active Directory no local ou várias florestas, C
 
 1. Uma única floresta, que contém as identidades de usuário autoritativas e hospeda Skype para Business Server. 
 
-2. Várias florestas, apenas um deles hospeda Skype para Business Server, bem como um ou mais outras florestas que contêm as identidades de usuário autoritativas. 
+2. Várias florestas, apenas um deles hospeda Skype para Business Server, bem como um ou mais outras florestas que contêm as identidades de usuário autoritativas (as florestas de conta). 
 
-3. Várias implantações do Skype para Business Server em várias florestas. Suporte para este cenário complexo em breve será anunciado.
+3. Várias implantações do Skype para Business Server em várias florestas. Desde que certos requisitos sejam atendidos, as organizações podem consolidar essas várias implantações em um único locatário do Office 365.
 
 ### <a name="single-forest"></a>Floresta única 
 
@@ -58,7 +58,7 @@ Esse cenário geralmente é conhecido como uma topologia de floresta de recursos
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Vários Skype para implantações de servidor de negócios em várias florestas 
 
-Microsoft breve lançará suporte para sincronização de vários Skype para florestas de negócios em um único locatário online, desde que apenas uma implantação está no modo híbrido a qualquer momento no período. Mais detalhes em breve. 
+Neste cenário, há várias florestas, cada contendo Skype para Business Server e um único locatário do Office 365.  Cada floresta contendo Skype para Business Server pode ser sincronizada no Azure AD para esse inquilino usando AAD se conectar. No máximo, somente uma floresta pode ser configurada para Skype para o híbrido de negócios em um determinado momento. Antes de habilitar híbrida em uma floresta, todos os domínios SIP de todas as outras florestas deverá ser desabilitados usando [disable-csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain). Para obter mais detalhes sobre como consolidar tal ambiente ao Office 365, consulte [consolidação de nuvem para equipes e Skype para negócios](cloud-consolidation.md).
 
 ## <a name="general-requirements"></a>Requisitos gerais 
 

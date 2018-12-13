@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: 'Resumo: Saiba como configurar a interoperabilidade entre sua implantação no local e Skype para Business Online.'
-ms.openlocfilehash: db03636d412caa72a3b7a38d0c1d691c83d96a5b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b71ea92b5f7ce275dc5d1b5d2b7ece5be3c77ffc
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532774"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244001"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurar Skype para o híbrido de negócios
 
@@ -25,8 +25,7 @@ Para configurar o Skype para híbrido de negócios, você precisa:
 - [Configurar seu ambiente local para confiar no Office 365 e habilite o espaço de endereçamento SIP compartilhado com o Office 365.](#configure-your-on-premises-environment-to-share-your-SIP-address-space-with-Office-365)
 - [Habilite o espaço de endereçamento SIP compartilhado no seu locatário do Office 365.](#configure-server-to-server-authentication-if-required)
 
-> [!NOTE]
-> Se você tiver o Exchange local, convém configurar OAuth entre o Exchange local e Skype para ambientes corporativos on-line. Para obter mais informações, consulte [Gerenciar a autenticação de servidor-para-servidor no Skype para Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) e [Planejar a integração do Skype para Exchange e de negócios](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
+Observe que se você tiver o Exchange local, convém configurar OAuth entre o Exchange local e Skype para ambientes corporativos on-line. Para obter mais informações, consulte [Gerenciar a autenticação de servidor-para-servidor no Skype para Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) e [Planejar a integração do Skype para Exchange e de negócios](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>Configurar seu serviço de borda de local para estabelecer uma federação com o Office 365
 

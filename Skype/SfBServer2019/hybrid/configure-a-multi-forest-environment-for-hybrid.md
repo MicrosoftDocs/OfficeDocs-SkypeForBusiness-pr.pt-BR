@@ -1,5 +1,5 @@
 ---
-title: Configurar um ambiente de várias floresta para o híbrido Skype para negócios
+title: Implantar uma topologia de floresta de recursos
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,32 +10,29 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente que possui várias florestas em um modelo de floresta de usuário/recurso para fornecer Skype para a funcionalidade de negócios em um cenário híbrido.
-ms.openlocfilehash: ef2b57d1f89e4d5479cacce57ce9a6c47c495f21
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2e9e3d9f1f6d276ff99ee1e346bb1812ef0c3ea7
+ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532428"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "27244008"
 ---
-# <a name="configure-a-multi-forest-environment-for-hybrid-skype-for-business"></a>Configurar um ambiente de várias floresta para o híbrido Skype para negócios
+# <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
  
 As seções a seguir fornecem orientação sobre como configurar um ambiente que possui várias florestas em um modelo de floresta de usuário/recurso para fornecer Skype para a funcionalidade de negócios em um cenário híbrido. 
   
 ![Ambiente de Várias Florestas para Híbrido](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
-## <a name="validate-the-forest-topology"></a>Validar a topologia de floresta
+## <a name="topology-requirements"></a>Requisitos de topologia
 
 Há compatibilidade para múltiplas florestas de usuários. Considere o seguinte: 
-  
-- Para uma floresta de usuário único ou implantação de floresta de vários usuários, deve haver uma única implantação do Skype para Business Server.
     
-- Para as versões suportadas do Lync Server e Skype para Business Server em uma configuração híbrida, consulte [requisitos de topologia](plan-hybrid-connectivity.md#BKMK_Topology) em [Planejar a conectividade híbrida entre Skype para Business Server e Office 365](plan-hybrid-connectivity.md).
+- Para as versões suportadas do Lync Server e Skype para Business Server em uma configuração híbrida, consulte [requisitos de versão do servidor](plan-hybrid-connectivity.md#server-version-requirements) em [Planejar a conectividade híbrida entre Skype para Business Server e Office 365](plan-hybrid-connectivity.md).
     
 - Exchange Server podem ser implantado em uma ou mais florestas, que podem ou não incluir a floresta que contém o Skype para Business Server. Verifique se que você aplicou a atualização cumulativa mais recente.
     
 - Para obter detalhes sobre a coexistência com o Exchange Server, incluindo os critérios e as limitações de suporte em várias combinações de local e online, consulte [Suporte aos recursos](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) em [Plan to integrate Skype for Business and Exchange](../../sfbserver/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md).
     
-Para obter mais informações, consulte requisitos do [sistema](../plan/system-requirements.md).
   
 ## <a name="user-homing-considerations"></a>Considerações de hospedagem do usuário
 
@@ -43,7 +40,7 @@ Skype para usuários comerciais hospedagem no local pode ter Exchange hospedado 
   
 ## <a name="configure-forest-trusts"></a>Configurar relações de confiança de floresta
 
-As relações de confiança exigidas são relações bidirecionais transitivas entre a floresta de recursos e cada floresta de usuário. Se você tiver várias florestas de usuários, é importante que o Roteamento de sufixo de nome esteja habilitado para cada relação de confiança para habilitar a autenticação entre florestas. Para mais instruções, consulte [Gerenciar relações de confiança de floresta](https://technet.microsoft.com/en-us/library/cc772440.aspx). 
+Em uma topologia de floresta de recursos, as florestas de recursos de hospedagem Skype para Business Server devem confiar em cada floresta de conta que contém as contas de usuários que acessarão a ele. Se você tiver várias florestas de usuários, é importante que o Roteamento de sufixo de nome esteja habilitado para cada relação de confiança para habilitar a autenticação entre florestas. Para mais instruções, consulte [Gerenciar relações de confiança de floresta](https://technet.microsoft.com/en-us/library/cc772440.aspx). Se você tiver implantado em uma outra floresta do Exchange Server, e ele fornece funcionalidades do Skype para usuários comerciais, a floresta que hospeda o Exchange deve confiar na floresta do Skype de hospedagem para o servidor de negócios. Por exemplo, se o Exchange foram implantado na floresta de conta, isso efetivamente significaria que uma relação de confiança bidirecional entre conta e Skype para florestas de negócios é necessária em que a configuração.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Sincronizar contas para a floresta Skype para a empresa de hospedagem
 
@@ -94,9 +91,9 @@ Depois da implantação, você terá que editar a regra de declaração para cor
   
 ## <a name="configure-aad-connect"></a>Configurar o AAD Connect
 
-O AAD Connect será usado para mesclar as contas entre as diferentes florestas e entre as florestas e o Office 365. Você deve implantar o AAD Connect na floresta de recursos. Ele é necessário para poder sincronizar várias florestas e o Office 365, que não é suportado pelo DirSync. 
-  
-O AAD Connect não sincroniza as contas entre florestas locais. Ele usa conectores AD para ler objetos já sincronizados entre florestas locais (com FIM ou produtos similares). Em seguida, ele aproveita as regras de filtragem para criar uma única representação para os objetos habilitado e desabilitado correspondentes no metaverso e replica esse único objeto mesclado para o Office 365. 
+Nas topologias de floresta de recursos, é necessário que os atributos de usuário da floresta de recursos e de qualquer florestas de conta (s) são sincronizados no Azure AD. A maneira mais simples e recomendada de fazer isso é ter Connect do Azure AD sincronizar e mesclar as identidades de usuário de *todas as* florestas que ativou contas de usuário e a floresta que contém o Skype para negócios. Para obter detalhes, consulte o [Connect do configurar o Azure AD para Skype para equipes e de negócios](configure-azure-ad-connect.md).
+
+Observe que conectar AAD não fornecer sincronização no local entre as florestas de conta e de recurso. Que devem ser configurados separadamente usando o Microsoft Identity Manager ou um produto similar, conforme descrito anteriormente.
   
 Quando terminar e o AAD Connect estiver no processo de mesclagem, se você vir um objeto no metaverso, deve ver algo semelhante a isto: 
   
