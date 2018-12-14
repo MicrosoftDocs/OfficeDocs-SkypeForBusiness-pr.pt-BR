@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: c16f80af9f7d7e530fb56dca2ef1ad2d51f1f1f6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f17065398ad3801bf4cf038865d687a56b2505c
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374897"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264832"
 ---
 # <a name="getting-service-phone-numbers"></a>Obter números de telefones de serviço
 
@@ -50,7 +50,7 @@ Você tem duas maneiras de obter os números de serviço para que possa usá-los
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o **Centro de administração** > **equipes e Skype** > **Skype herdada Admin**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **números de telefone** > **Adicionar novo número**e clique em **novos números de serviço**.
     

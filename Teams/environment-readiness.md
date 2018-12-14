@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b02cea9763207c9a756d98b3eecf1e4c579fdc3
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 057493f42a4bbfa012fb57c2394c372dfc25c9fc
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013173"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264824"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Verificar a prontidão do seu ambiente para o Microsoft Teams
 ===========================================
@@ -27,7 +27,7 @@ A transição para a nuvem deve variar de acordo com cada organização, e o est
 
 Instituições educacionais são altamente encorajadas para [implantar a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync/) antes de implantar o Microsoft Teams. Sincronização de dados da escola usa dados de lista de participação da sua escola SIS para criar automaticamente classes e os grupos de Teams da Microsoft e outros aplicativos.
 
-Para obter a melhor experiência no Microsoft Teams, sua organização precisa ter implantado o Exchange Online e o SharePoint Online. Se não implantou esses serviços ou se você tem uma configuração diferente, consulte os seguintes links para obter ajuda:
+Para obter a melhor experiência no Microsoft Teams, sua organização precisa ter implantado o Exchange Online e o SharePoint Online. Você também deve assegurar que seu ambiente atual está pronto para equipes.  Consulte estes links para obter ajuda:
 
 -   Se a sua organização não tiver implantado nenhuma carga de trabalho do Office 365, consulte [Introdução ao Office 365 for business.](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)
 
@@ -41,4 +41,4 @@ Para obter a melhor experiência no Microsoft Teams, sua organização precisa t
 
 - Se sua organização é uma instituição educacional e usar um estudante informações sistema (SIS), [Implante a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync/) antes de implantar o Microsoft Teams.
 
-                                                                               
+- Se sua organização tiver um Skype local existente para implantação de servidor de negócios (ou do Lync Server), você deve configurar o Azure Connect do AD para sincronizar seu diretório local com o Office 365.  Para obter mais informações, consulte [Connect do AD de configurar o Azure para equipes e Skype para negócios](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).

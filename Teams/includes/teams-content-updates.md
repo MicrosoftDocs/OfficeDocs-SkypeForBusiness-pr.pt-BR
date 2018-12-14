@@ -36,7 +36,7 @@
 | 07/11/2018 | [Implantar reuniões no Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | adicionado |
 | 07/11/2018 | [Implantar o Microsoft Teams](/MicrosoftTeams/deploy-microsoft-teams-landing-page) | adicionado |
 | 07/11/2018 | [Implantar recursos de voz no Microsoft Teams](/MicrosoftTeams/deploy-voice-microsoft-teams-landing-page) | adicionado |
-| 07/11/2018 | [Introdução ao Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | adicionado |
+| 07/11/2018 | [Introdução ao Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | adicionado |
 | 07/11/2018 | [Sua organização está preparada para o Microsoft Teams?](/MicrosoftTeams/teams-adoption-assess-readiness) | adicionado |
 | 07/11/2018 | [Criar seu programa de defensores do Microsoft Teams](/MicrosoftTeams/teams-adoption-create-champions-program) | adicionado |
 | 07/11/2018 | [Definir os resultados e o sucesso da adoção do Microsoft Teams](/MicrosoftTeams/teams-adoption-define-outcomes) | adicionado |
@@ -88,7 +88,7 @@
 | 12/11/2018 | [Gerenciar o acesso de usuários ao Microsoft Teams](/MicrosoftTeams/user-access) | modificado |
 | 12/11/2018 | [Gerenciar seus dispositivos no Microsoft Teams](/MicrosoftTeams/device-management) | modificado |
 | 13/11/2018 | [Adotar o Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | adicionado |
-| 13/11/2018 | [Introdução ao Microsoft Teams](/MicrosoftTeams/get-started-microsoft-teams-landing-page) | adicionado |
+| 13/11/2018 | [Introdução ao Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | adicionado |
 | 13/11/2018 | [Criar suas primeiras equipes e canais no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | adicionado |
 | 13/11/2018 | [Introdução ao Microsoft Teams](/MicrosoftTeams/get-started-with-teams-landing-page) | adicionado |
 | 13/11/2018 | [Monitorar o uso e os comentários no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | adicionado |

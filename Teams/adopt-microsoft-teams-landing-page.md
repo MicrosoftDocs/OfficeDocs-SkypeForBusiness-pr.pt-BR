@@ -13,16 +13,16 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33791cc16a7d2a45e16a41e4dfefe0efff8534b1
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 4c21eb588b899c6a0b4acd4e25eb79d54750e956
+ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699658"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "27264906"
 ---
 # <a name="adopt-microsoft-teams"></a>Adotar o Microsoft Teams
 
-Se você tem uma pequena empresa, ou se você quiser distribuir começando com bate-papo, equipes & canais e reuniões de equipes, use a nossa orientação prescritiva início rápido, que foi projetada para obter em operação fast. Se você estiver uma grande organização com um híbrido local Skype para configuração de negócios ou se você quiser distribuir os recursos de voz (por exemplo, o Office 365 chamar planos ou o sistema telefônico), você pode começar com nossa orientação de início rápido, mas você precisará adicionais orientação abaixo, sob a **orientação de adoção mais aprofundada**.
+Se você tem uma pequena empresa, ou se desejar distribuir equipes começando com bate-papo, equipes & canais e reuniões, usam nosso prescritiva [Get started orientação](get-started-with-teams-landing-page.md), projetada para ajudá-lo em funcionamento rapidamente. Se você estiver uma grande organização com um híbrido ou local Skype para configuração de negócios, ou se você quiser distribuir os recursos de voz (por exemplo, o Office 365 chamar planos ou o sistema telefônico), você pode começar com nosso Get started orientação, mas você precisará adicionais orientação abaixo, sob a **orientação de adoção mais aprofundada**.
 
 <ul class="panelContent cardsFTitle">
     <li>
