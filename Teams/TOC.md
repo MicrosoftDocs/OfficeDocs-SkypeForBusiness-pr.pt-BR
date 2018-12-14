@@ -500,6 +500,7 @@
 #### [Configurar a caixa postal do Sistema de Telefonia](set-up-phone-system-voicemail.md)
 #### [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 #### [Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes](answer-auto-attendant-and-call-queue-calls.md)
+#### [Configurar telefones de área comum no Microsoft Teams](set-up-common-area-phones.md)
 ### Roteamento direto de sistema do telefone
 #### [Planejar o Roteamento Direto](direct-routing-plan.md)
 #### [Configurar o Roteamento Direto](direct-routing-configure.md)
