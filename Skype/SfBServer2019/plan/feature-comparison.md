@@ -14,22 +14,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2019 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: 9d19920e16a6b9ffbeab0d1d3597fadf8a4a48b9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
+ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371317"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27282591"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2019
 
 **Resumo:** Skype para Business Server 2019 ou Skype para administradores corporativos Online pode usar estas tabelas compreender quais recursos são suportados em quais clientes.
 
- Antes de implantar ou atualizar para o Skype para Business Server, verifique quais clientes já estão em uso na sua organização. Use as tabelas a seguir para entender o impacto de suporte de recurso sobre esses clientes. Isso pode ajudar você a comunicar alterações aos usuários, a acompanhar o processo de implantação e a compreender totalmente os benefícios da atualização do cliente mais recente.
+ Antes de implantar ou atualizar para o Skype para Business Server, verifique quais clientes já estão em uso na sua organização. Use as tabelas a seguir para entender o impacto de suporte de recurso sobre esses clientes. Isso pode ajudar você a comunicar alterações aos usuários, a acompanhar o processo de implantação e a compreender totalmente os benefícios da atualização para o cliente mais recente.
 
 Alguns recursos disponíveis com o Skype para Business Server 2019 não estão disponíveis no Skype para negócios Online; consulte [Online ou híbrida limitações de conta de usuário](feature-comparison.md#Online-Hybrid) para obter informações específicas. Skype para administradores de negócios Online talvez queira consulte [Skype para negócios Online Service Description](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os planos de diferentes disponíveis para eles.
 
-As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2019 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Consulte o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
+As tabelas a seguir mostram os recursos que estão disponíveis com cada cliente que funciona com o Skype para Business Server 2019 ou Skype para negócios Online. Convém também consulte [comparação de recursos do cliente móvel para Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) para telefone inteligente e tablet comparações de recursos do cliente. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Veja o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
 
 > [!IMPORTANT]
 > Skype para Business Server 2019 e Skype para Business Online suportam os seguintes clientes lançados anteriormente: Lync 2013, Skype para negócios 2015 e Skype para negócios 2016, bem como o Skype para 2019 de negócios do cliente. Para obter informações sobre esses clientes quando usado com outros servidores, consulte a [comparação de recursos do cliente de Desktop do Skype para negócios 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)e [tabelas de comparação do cliente do Lync Server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) . 
@@ -121,7 +121,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Compartilhar a área de trabalho (se habilitado)  |& #x 2714;|& #x 2714; & #x 2776; |& #x 2714; & #x 2776; (exige plug-in) |& #x 2714;| & #x 2714;|
 |Compartilhar um programa (se habilitado) |& #x 2714;|Somente exibição   |& #x 2714;(requires plug-in)  |& #x 2714;|& #x 2714;|   
 |Adicionar participantes anônimos (se habilitado) |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Usar reuniões de áudio discadas |& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714;|& #x 2714; & #x 2777; |
+|Use as reuniões de áudio discada & #x 2777;|& #x 2714; |& #x 2714;|& #x 2714;  |& #x 2714;|& #x 2714;  |
 |Iniciar uma reunião do tipo Reunir Agora|& #x 2714;|& #x 2714;||& #x 2714;|& #x 2714;|  
 |Adicionar e apresentar arquivos do Microsoft PowerPoint |& #x 2714;| & #x 2778; Anotações não disponíveis   |& #x 2714;|& #x 2714;|& #x 2714;| 
 |Navegar por arquivos do Microsoft PowerPoint |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;| 
