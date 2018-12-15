@@ -15,12 +15,12 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Saiba como gerenciar configurações para reuniões de equipes que os usuários a agendar em sua organização.
-ms.openlocfilehash: bf7350d94f61fcbaff60dacb161d5096b8f549e7
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26671008"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283545"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -62,7 +62,7 @@ Você pode personalizar convites de reunião de equipes para atender às necessi
     - **Rodapé** Insira o texto que você deseja incluir como um rodapé. 
 3. Aguarde uma hora ou mais para que as alterações sejam propagadas. Em seguida, agende uma reunião de equipes para ver a aparência de convite da reunião.  
 
-## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings-coming-soon"></a>Definir como você deseja lidar com o tráfego de mídia em tempo real para reuniões de equipes (em breve) 
+## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Definir como você deseja lidar com o tráfego de mídia em tempo real para reuniões de equipes
 Se você estiver usando o Quality of Service (QoS) para priorizar o tráfego de rede, é possível habilitar o QoS marcadores e você pode definir intervalos de porta para cada tipo de tráfego de mídia. 
 
  ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando o Microsoft Teams & Skype para centro de administração de negócios

@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
-ms.openlocfilehash: 52efb73cb1d7774dcafe417c7a51ec7117daceec
-ms.sourcegitcommit: 2fee995f69e81ea67a93c1f6554f05815b21ff25
+ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
+ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2018
-ms.locfileid: "25348599"
+ms.lasthandoff: 12/15/2018
+ms.locfileid: "27283537"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes
 
@@ -41,7 +41,7 @@ Políticas de reunião são usadas para controlar os recursos que estão dispon�
    - **Permitir transcrição** Se você ativar isso, transcrições da reunião estarão disponíveis aos usuários.
    - **Permitir nuvem de gravação** Ativando isso permitirá gravações a serem salvos na nuvem.
    - **Permitir que o vídeo IP** Ativando isso permitirá que os vídeos IP durante as reuniões.
-   - **[Em breve]** **(KBs) de taxa de bits de mídia** Você pode definir a taxa de bits para reuniões. O padrão é 50 MB.
+   - **(KBs) de taxa de bits de mídia** Você pode definir a taxa de bits para reuniões. O padrão é 50 MB.
 
 <a name="bkcontentsharing"> </a>
 
