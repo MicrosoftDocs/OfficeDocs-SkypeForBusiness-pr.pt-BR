@@ -3,7 +3,7 @@ title: Estacionamento de chamada e recuperar em Teams da Microsoft
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 12/17/2018
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Use o estacionamento de chamada e recuperação para colocar uma chamada em espera no serviço de equipes na nuvem.
-ms.openlocfilehash: 02ec2b3af52cac65f82f5f0f0fc2b4b54ae61369
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
+ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283155"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27294184"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento de chamada e recuperar em Teams da Microsoft
 
@@ -65,6 +65,11 @@ Para obter informações sobre como usar o estacionamento de chamada e recuperar
 Use o cmdlet [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) do PowerShell para criar uma política de estacionamento de chamada.
 
 Use o cmdlet [Grant-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps) do PowerShell para conceder uma política de estacionamento de chamada.
+
+Você pode alterar a configuração padrão usando [Set-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps) da seguinte maneira:
+
+`Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
+
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
