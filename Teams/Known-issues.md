@@ -8,70 +8,71 @@ ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 ms.reviewer: marcl
+localization_priority: Priority
 search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98d8ec4eb6f6ab943f1515900aa20debbb7933b8
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
-ms.translationtype: MT
+ms.openlocfilehash: c5a6875ae8c30b81b6a063bb2ae59a0f72e9c677
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26619999"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240790"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
-Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de recurso.
+Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recurso.
 
 ## <a name="administration"></a>Administração
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Logs de auditoria podem informar um nome de usuário incorreta como iniciador quando alguém foi removido da equipe  <br/> |As equipes de equipe é um grupo moderno em AAD. Quando você adicionar ou remove um membro por meio da interface de usuário de equipes, o fluxo sabe exatamente o usuário que iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário membro por meio de AAD de adiciona/remove, a alteração é sincronizada no back-end de equipes sem informando equipes que iniciou a ação. Microsoft Teams seleciona o primeiro proprietário da equipe como iniciador, eventualmente será refletido no log de auditoria.    <br/> |  <br/> |5/11/18  <br/> |
+|Os logs de auditoria poderão relatar um nome de usuário incorreto como iniciador quando alguém tiver sido removido de uma equipe  <br/> |A equipe do Microsoft Teams é um grupo moderno no AAD. Quando você adiciona/remove um membro por meio da interface do usuário do Teams, o fluxo sabe exatamente qual usuário iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário adicionar/remover um membro por meio do AAD, a alteração será sincronizada com o back-end das equipes sem informar às equipes que iniciaram a ação. O Microsoft Teams seleciona o primeiro proprietário da equipe como o iniciador, que também é refletido no log de Auditoria.    <br/> |  <br/> |11/05/2018  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Política EAF no Enhanced mitigação experiência Toolkit (EMET) incorretamente pode identificar as otimizações de área restrita hexavalente como ameaças. <br/> |Há um problema com seguro hexavalente nos quais a política de exportar endereço tabela acesso filtragem (EAF) no Enhanced mitigação experiência Toolkit (EMET) e no Windows Defender avançadas ameaça proteção (ATP) incorretamente pode identificar seguro hexavalente otimizações como ameaças. Isso faz com que as equipes não funcionarão corretamente.  <br/> | Para contornar esse problema, desative EAF para equipes. Você pode ler mais sobre o problema [diretrizes de atenuações EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) para obter mais informações sobre o Windows Defender ATP e EAF política, consulte [Customize explorar proteção](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |10/11/18 <br/> |
+|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled estiver definido como false  <br/> |Quando este valor é definido como false no AAD, cliente não é capaz de adicionar membros interno/externo em Teams da Microsoft e a seguinte mensagem de erro é exibida: "não podemos não pôde adicionar membro. Executamos em um problema. Tente novamente mais tarde." No entanto, os membros podem ser adicionados diretamente para grupos do Office 365.    <br/> |Altere essa configuração como true no AAD.  <br/> |4/10/18  <br/> |
+|Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled está definido como falso  <br/> |Quando esse valor é definido como falso no AAD, o cliente não consegue adicionar membros externos/internos no Microsoft Teams, e a seguinte mensagem de erro é exibida: "Não foi possível adicionar o membro. Ocorreu um problema. Tente novamente mais tarde." No entanto, os membros podem ser adicionados diretamente aos grupos do Office 365.    <br/> |Altere essa configuração para verdadeira no AAD.  <br/> |10/04/2018  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Gerenciamento de administração dos conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector no cliente e versão online recebemos o erro: Ocorreu um erro inesperado. Tente novamente. Set-OrganizationConfig - ConnectorsEnabled = True   <br/> |Desabilite com configurações de equipes. Consulte este artigo de suporte:https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/2017  <br/> |
+|O gerenciamento de administração dos Conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector na versão de cliente e online, ocorre o erro: Erro inesperado. Tente novamente. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Desabilite com as configurações do Microsoft Teams. Veja este artigo de suporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/2017  <br/> |
 
 ## <a name="apps"></a>Aplicativos
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Opções de conector está ausente para algumas equipes  <br/> |Quando você clica com o botão direito em um canal, a opção Conectores não é exibida para nenhum membro da equipe.  <br/> |O criador da equipe precisa ter uma caixa de correio online; caso contrário, nenhuma opção do conector estará disponível. É esse o comportamento esperado.  <br/> |26/06/2017  <br/> |
+|As opções do conector estão ausentes para algumas equipes  <br/> |Quando você clica com o botão direito em um canal, a opção Conectores não é exibida para nenhum membro da equipe.  <br/> |O criador da equipe precisa ter uma caixa de correio online; caso contrário, nenhuma opção do conector estará disponível. É esse o comportamento esperado.  <br/> |26/06/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|"Atribuições" app permanece visble quando desabilitada  <br/> |Quando o aplicativo "Atribuições" está desabilitado no Centro de administração, permanece visível no cliente equipes para usuários licenciados EDU. Selecionando-o quando desabilitada retornará um erro indicando, "Doh! Algo deu errado..."  <br/> |Não há solução alternativa.  <br/> |12/29/17  <br/> |
+|O aplicativo "Tarefas" permanece visível quando desabilitado  <br/> |Quando o aplicativo "Tarefas" está desabilitado no centro de administração, ele permanece visível no cliente Microsoft Teams para usuários com uma licença EDU. Ao selecioná-lo quando desabilitado, será exibido um erro indicando: "Houve algum problema... "  <br/> |Não há solução alternativa.  <br/> |29/12/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível excluir conectores como um proprietário de equipe  <br/> |A tentativa de excluir um conector como um proprietário, caso contrário, que pode adicionar um conector, enquanto "Permitir que os membros para criar, atualizar e remover conectores" está desabilitada gera um erro indicando o usuário não tem permissão para fazê-lo. <br/> |Habilitando temporariamente "Permitir que os membros criar, atualizar e remover conectores" permitirá que o proprietário para excluir o conector.  <br/> |27/7/18  <br/> |
+|Não é possível excluir conectores como proprietário de equipe  <br/> |A tentativa de excluir um conector como um proprietário, que pode adicionar um conector, enquanto a opção "Allow members to create, update, and remove connectors" (Permitir que os membros criem, atualizem e removam conectores) está desabilitada, gera um erro que indica que o usuário não tem permissão para fazer isso. <br/> |Habilitar temporariamente "Allow members to create, update, and remove connectors" (Permitir que os membros criem, atualizem e removam conectores) permitirá que o proprietário exclua o conector.  <br/> |27/07/2018  <br/> |
 
 ## <a name="audio-conferencing"></a>Audioconferência
 
-|**Problema**|**Comportamento/sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
+|**Problema**|**Comportamento/Sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os chamadores da PSTN com o mesmo "número From" são mostrados como o mesmo usuário na lista de participação de reunião.  <br/> |Quando vários chamadores por PSTN ingressem em uma reunião, e seus IDs do chamador são mascarados como um único número, eles serão exibidas como um chamador único na lista de participação da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|Painel de informações da reunião não está aparecendo forma intermitente.  <br/> |Painel de informações da reunião pode não aparecer no cliente de equipes, quando os usuários tentam procurar para números de telefone de ponte de conferência ou ID de conferência.  <br/> |Examinar detalhes da reunião ou calendário do Outlook para exibir números de telefone de ponte de conferência ou ID de conferência.  <br/> |25/9/2017  <br/> |
-|Convites de reunião de suplemento do Outlook mostram caracteres corrompidos em coordenadas PSTN para localidades fora dos EUA.  <br/> |Ao agendar reuniões privadas usando o suplemento do Outlook for Microsoft Teams em um computador com localidades fora dos EUA, coordenadas PSTN podem conter caracteres corrompidos.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|Discagem externa precisa usar 5 dígitos ou mais.  <br/> |Os usuários que tentarem discar a partir de uma reunião precisam digitar em 5 ou mais dígitos, mesmo que a regra de normalização do plano de discagem está disponível para normalizar discagem curto dígitos em e. 164.  <br/> |Discar digitando o número total de DID ou o formato de número local em vez do número de ramal interno.  <br/> |25/9/2017  <br/> |
-|Discagem externa de controle não está aparecendo forma intermitente.  <br/> |Discagem externa controle pode não estar visível do painel de informações da reunião.  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|ID de conferência estático não tem suportado para reuniões de Teams da Microsoft.  <br/> |Se o administrador substitui a configuração de padrão de ID de conferência dinâmico a ID de conferência estático, essa configuração não terá efeito para reuniões de Teams da Microsoft. Consulte as [IDs de conferência de áudio usando dinâmicos em sua organização](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |Não há solução alternativa.  <br/> |25/9/2017  <br/> |
-|As coordenadas de reunião de PSTN não estão disponíveis para Skype para usuários do local de negócios  <br/> |Se o usuário for um Skype para usuário local de negócios, atribuído com Skype para Business Online, conferência de áudio e licenças de equipes, todas as reuniões agendadas usando equipes não incluirá as coordenadas de reunião de PSTN. <br/> |Não há solução alternativa.  <br/> |2/1/2018  <br/> |
+|Chamadores PSTN com o mesmo número "De" são mostrados como o mesmo usuário na lista de reuniões.  <br/> |Quando vários chamadores PSTN ingressam em uma reunião e suas identificações de chamadas são mascaradas como um único número, eles aparecem como um único chamador na lista de participantes da reunião.  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
+|O painel Informações da Reunião é ocultado de forma intermitente.  <br/> |O painel Informações da Reunião poderá não ser exibido no cliente Microsoft Teams quando os usuários estiverem tentando procurar números de telefone de ponte de conferência ou IDs de conferência.  <br/> |Confira os detalhes da reunião ou o calendário do Outlook para ver os números de telefone da conferência ou a ID da conferência.  <br/> |25/09/2017  <br/> |
+|Os convites de reunião do Suplemento do Outlook mostram caracteres ilegíveis em coordenadas PSTN para localidades fora dos EUA.  <br/> |Ao agendar reuniões privadas usando o Suplemento do Outlook para o Microsoft Teams em um computador com localidades fora dos EUA, as coordenadas PSTN podem conter caracteres ilegíveis.  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
+|A discagem precisa usar cinco dígitos ou mais.  <br/> |Os usuários que tentam discar de uma reunião precisam digitar cinco ou mais dígitos, embora a regra de normalização do plano de discagem esteja disponível para normalizar a discagem por dígito curto para E.164.  <br/> |Disque digitando o número DID completo ou o formato do número local em vez do número do ramal interno.  <br/> |25/09/2017  <br/> |
+|O controle de discagem é ocultado de forma intermitente.  <br/> |O controle de discagem pode não estar visível no painel Informações da Reunião.  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
+|A ID de conferência estática não tem suporte em reuniões do Microsoft Teams.  <br/> |Se o administrador substituir a configuração padrão de ID de conferência dinâmica para ID de conferência estática, essa configuração não entrará em vigor nas reuniões do Microsoft Teams. Veja [Usar IDs dinâmicas de Audioconferência em sua organização](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
+|Coordenadas de reunião PSTN não estão disponíveis para usuários locais do Skype for Business  <br/> |Se o usuário for um usuário local do Skype for Business, com licenças do Skype for Business Online, de Audioconferência e do Microsoft Teams atribuídas, todas as reuniões agendadas usando o Microsoft Teams não incluirão as coordenadas da reunião PSTN. <br/> |Não há solução alternativa.  <br/> |01/02/2018  <br/> |
 
 ## <a name="authentication"></a>Autenticação
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Ao tentar ingressar no Teams usando o Internet Explorer ou o Edge, o programa entra em loop e falha consistentemente e não entra.   <br/> | Sua organização usa Sites Confiáveis no Internet Explorer e o aplicativo baseado na Web do Teams não se conecta porque sites confiáveis não são permitidos para o Teams. <br/>|Para configurações do IE ou do painel de controle, com direitos de administrador ou de um objeto de diretiva de grupo, faça as seguintes alterações:<br/><ol><li>Em **Opções da Internet** &gt; **privacidade** &gt; **Avançado**, aceitar os cookies primários e de terceiros e a caixa de seleção para **sempre permitir cookies de sessão**.</li><li>Clique em **Opções da Internet** &gt; **segurança** &gt; **Sites confiáveis** &gt; **Sites**e adicione todos os seguintes:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>OBSERVAÇÃO</b>: Sempre valide e permita todas as URLs confiáveis para o Teams e os requisitos do seguinte documento: [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
+|Ao tentar ingressar no Teams usando o Internet Explorer ou o Edge, o programa entra em loop e falha consistentemente e não entra.   <br/> | Sua organização usa Sites Confiáveis no Internet Explorer e o aplicativo baseado na Web do Teams não se conecta porque sites confiáveis não são permitidos para o Teams. <br/>|Faça as seguintes alterações nas configurações do IE ou no Painel de Controle, usando direitos de Administrador ou um Objeto de Política de Grupo:<br/><ol><li>Em **Opções da Internet** &gt; **Privacidade** &gt; **Avançado**, aceite cookies Internos e de Terceiros e marque a caixa **Sempre permitir cookies de sessão**.</li><li>Clique em **Opções da Internet** &gt; **Segurança** &gt; **Sites Confiáveis** &gt; **Sites** e adicione todos os seguintes sites:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>OBSERVAÇÃO</b>: Sempre valide e permita todas as URLs confiáveis para o Teams e os requisitos do seguinte documento: [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -79,35 +80,35 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams será sempre acesse a conta de domínio PC.   <br/> |Se um usuário possui duas contas de equipes diferentes e tiver uma máquina com domínio habilitado, equipes usará o perfil de domínio na máquina para fazer logon automaticamente o usuário em equipes. Para alternar para a outra conta de equipes, o usuário deve manualmente saia do aplicativo e insira as credenciais para a segunda conta para fazer logon. Se o usuário fizer logoff do equipes e reinicia a máquina, durante a reinicialização, equipes automaticamente efetuará login usando o perfil do domínio. <br/> | Não há solução alternativa. <br/> |02/08/2017  <br/> |
+|O Microsoft Teams sempre fará login na conta do computador associada ao domínio.   <br/> |Se um usuário tiver duas contas do Microsoft Teams diferentes e tiver um computador associado ao domínio, o Microsoft Teams usará o perfil associado ao domínio no computador para conectar automaticamente o usuário ao Microsoft Teams. Para mudar para a outra conta do Microsoft Teams, o usuário deve fazer logoff do aplicativo manualmente e inserir as credenciais da segunda conta para fazer logon. Se o usuário fizer logoff do Microsoft Teams e reiniciar o computador, após a reinicialização, o Microsoft Teams fará logon automaticamente usando o perfil associado ao domínio. <br/> | Não há solução alternativa. <br/> |02/08/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Falha de autenticação moderno - autenticação de formulários não habilitado  <br/> |Quando há uma falha inicial com a autenticação multifator, use o aplicativo web para a autenticação.  <br/> Para obter mais informações, consulte [Suporte ao parâmetro prompt=login dos Serviços de Federação do Active Directory (AD FS)](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Marque essa configuração: `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`.  <br/> |19/06/2017  <br/> |
+|Falha de autenticação moderna ‒ autenticação de formulários não habilitada  <br/> |Quando há uma falha inicial com a autenticação multifator, use o aplicativo web para a autenticação.  <br/> Para obter mais informações, consulte [Suporte ao parâmetro prompt=login dos Serviços de Federação do Active Directory (AD FS)](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/ad-fs-prompt-login).  <br/> |Verifique esta configuração: `Set -MsolDomainFederationSettings -DomainName yourdomainhere -PreferredAuthenticationProtocol WsFed -SupportsMfa $False -PromptLoginBehavior Disabled`.  <br/> |19/06/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Planejador de compilação de logon único (SSO) <br/> |O SSO não se aplica ao Planner. Será necessário iniciar sessão novamente sempre que você usar o Planner em cada cliente pela primeira vez.  <br/> |Não há solução alternativa. Estamos trabalhando em mais aprimoramentos de autenticação.  <br/> |28/02/2017  <br/> |
+|Planner no build com SSO (logon único) <br/> |O SSO não se aplica ao Planner. Será necessário iniciar sessão novamente sempre que você usar o Planner em cada cliente pela primeira vez.  <br/> |Não há solução alternativa. Estamos trabalhando em mais aprimoramentos de autenticação.  <br/> |28/02/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível salvar a imagem de perfil  <br/> |Os usuários não podem salvar sua imagem de perfil quando a caixa de correio do Exchange é (hospedado hospedados) no local no Exchange 2016 CU2 ou inferior.  <br/> |Não há solução alternativa.  <br/> |28/02/2017  <br/> |
+|Não é possível salvar a imagem do perfil  <br/> |Os usuários não conseguem salvar a imagem do perfil quando a Caixa de Correio do Exchange está hospedada (ou estabelecida) localmente no Exchange 2016 CU2 ou anterior.  <br/> |Não há solução alternativa.  <br/> |28/02/2017  <br/> |
 
 ## <a name="browser"></a>Navegador
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Artefatos verdes do processamento de vídeos no Chrome  <br/> |Artefatos verdes aparecem enquanto exibindo vídeo ou compartilhamento de tela em uma chamada ou meetup no Chrome.  <br/> |Desabilite a configuração de aceleração de hardware no Chrome.  <br/> |03/08/2017  <br/> |
+|Artefatos verdes da renderização de vídeos no Chrome  <br/> |São mostrados artefatos verdes durante a exibição de vídeos ou o compartilhamento de tela em uma reunião no Chrome.  <br/> |Desabilite a configuração de aceleração de hardware no Chrome.  <br/> |03/08/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Suporte para o cliente web do Safari  <br/> |Os usuários que tentam abrir o cliente Microsoft Teams no Safari são direcionados para baixar o cliente desktop. A Microsoft está examinando o suporte do Safari e compartilhará as atualizações por meio do [Roteiro do Microsoft Teams](https://aka.ms/TeamsRoadmap).  <br/> |Navegadores de internet, que incluem suporte para uso: Internet Explorer 11 +, Microsoft Edge 12 +, Chrome 51.0 + e Firefox 47.0 +.  <br/> |02/11/2016  <br/> |
+|Suporte para o cliente web do Safari  <br/> |Os usuários que tentam abrir o cliente Microsoft Teams no Safari são direcionados para baixar o cliente desktop. A Microsoft está examinando o suporte do Safari e compartilhará as atualizações por meio do [Roteiro do Microsoft Teams](https://aka.ms/TeamsRoadmap).  <br/> |Use navegadores da Internet com suporte: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+ e Firefox 47.0+.  <br/> |02/11/2016  <br/> |
 
 ## <a name="channels"></a>Canais
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Quando um usuário deixa a empresa, ela será exibida na Microsoft Teams como "Usuário desconhecido"<br/> |Quando um usuário deixa a empresa, ela será exibida na Microsoft Teams como "Usuário desconhecido". Além disso, a guia de conversa exibe: "usuário desconhecido foi adicionado para a equipe." <br/> |Não há solução alternativa.  <br/> |9/12/17  <br/> |
+|Quando um usuário sai da empresa, ele é mostrado no Microsoft Teams como "Usuário desconhecido"<br/> |Quando um usuário sai da empresa, ele é mostrado no Microsoft Teams como "Usuário desconhecido". Além disso, a guia de conversa exibe: "Usuário desconhecido adicionado à equipe". <br/> |Não há solução alternativa.  <br/> |12/09/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -115,40 +116,40 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Renomear um canal em Microsoft Teams não renomeia a pasta correspondente no SharePoint Online  <br/> |Se um canal é renomeado no Teams da Microsoft, a pasta na biblioteca de documentos do SharePoint Online correspondente para a equipe não altera para corresponder. O nome correto da pasta do SharePoint Online é exibido na parte superior da guia arquivos canal renomeado.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
+|Renomear um canal no Microsoft Teams não renomeia a pasta correspondente no SharePoint Online  <br/> |Se um canal for renomeado no Microsoft Teams, a pasta na biblioteca de documentos do SharePoint Online correspondente à equipe não será alterada da mesma forma. O nome correto da pasta do SharePoint Online é exibido na parte superior da guia Arquivos do canal renomeado.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Visualização de URL não poderá mostrar para URL de todos os  <br/> |Alguns URL não poderá mostrar uma visualização.  Isso depende da URL original com a possibilidade de mostrar uma visualização. <br/> |Não há solução alternativa. <br/> |9/1/18 <br/> |
+|A visualização de URL pode não ser exibida para todas as URLs  <br/> |Algumas URLs podem não mostrar uma visualização.  Isso depende do fato de a URL original ter a capacidade de mostrar uma visualização. <br/> |Não há solução alternativa. <br/> |01/09/2018 <br/> |
 
 ## <a name="chat"></a>Chat
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|@ Menções para mensagem excluída enviar notificação com link de canal  <br/> |Existe uma limitação conhecida notificação quando você estiver em mencionados em uma mensagem que será excluída; a notificação no feed navegarão para o canal, mas não para uma mensagem específica. <br/> | Por design <br/> | 3/28/17  <br/>|
+|@ Menções para notificação de envio de mensagem excluída com link de canal  <br/> |Há uma limitação de notificação conhecida quando você é mencionado em uma mensagem excluída. A notificação no feed navegará para o canal, mas não para uma mensagem específica. <br/> | Por design <br/> | 28/03/2017  <br/>|
 
 
 ## <a name="client"></a>Cliente
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|As equipes não atualiza automaticamente   <br/> | Quando o Microsoft Teams é instalada para arquivos de programa usando scripts de instalação e não para o local padrão, o cliente não atualização automática quando novas versões estão disponíveis.    <br/> | Por design. Certifique-se instalar o aplicativo no local padrão: `user\Appdata`.  <br/> | 9/7/17  <br/> |
+|O Microsoft Teams não é atualizado automaticamente   <br/> | Quando o Microsoft Teams é instalado em Arquivos de Programas usando scripts de instalação em vez de ser instalado no local padrão, o cliente não é atualizado automaticamente quando novas versões estão disponíveis.    <br/> | Por design. Instale o aplicativo no local padrão: `user\Appdata`.  <br/> | 07/09/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Symlink ou mappying uma unidade de C:\users faz com que app à inicialização à tela branca  <br/> | Quando o Microsoft Teams é instalada para arquivos de programa usando scripts de instalação e não para o local padrão, o cliente não atualização automática quando novas versões estão disponíveis.   <br/> | Por design. Certifique-se instalar o aplicativo no local padrão: `user\Appdata`. Se o mapeamento deve existir, você deve usar a versão da web do Microsoft Teams.  <br/> | 9/7/17  <br/> |
+|O uso de Symlink ou o mapeamento de uma unidade para C:\users faz com que o aplicativo seja iniciado com uma tela em branco  <br/> | Quando o Microsoft Teams é instalado em Arquivos de Programas usando scripts de instalação em vez de ser instalado no local padrão, o cliente não é atualizado automaticamente quando novas versões estão disponíveis.   <br/> | Por design. Instale o aplicativo no local padrão: `user\Appdata`. Se o mapeamento precisar existir, você deverá usar a versão da Web do Microsoft Teams.  <br/> | 07/09/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Symlink ou mapear uma unidade para c:\users causará app à inicialização à tela branca  <br/> |Quando o local padrão do `C:\users\<user>\appData` mudou movendo o `C:\users` pasta ou usando symlink, o aplicativo será iniciado com uma tela branca.   <br/> |Não há nenhum trabalho conhecido ao redor. Se o mapeamento deve existir, você deve usar a versão da web do Microsoft Teams.   <br/> |13/03/2017  <br/> |
+|O uso de Symlink ou o mapeamento de uma unidade para c:\users fará com que o aplicativo seja iniciado com uma tela em branco  <br/> |Quando o local padrão de `C:\users\<user>\appData` é alterado movendo a pasta `C:\users` ou com o uso de symlink, o aplicativo é iniciado com uma tela em branco.   <br/> |Não há solução alternativa conhecida. Se o mapeamento precisar existir, você deverá usar a versão da Web do Microsoft Teams.   <br/> |13/03/2017  <br/> |
 
-## <a name="environment"></a>Ambiente
+## <a name="environment"></a>Ambiente.
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |As caixas de correio de grupos não estão habilitadas para fins de arquivamento (armazenamento extra)  <br/> |No Centro de Segurança e Conformidade do Office 365, os administradores globais não conseguem habilitar o arquivamento nas caixas de correio de grupos. Eles só conseguem em caixas de correio de usuários.  <br/> |Se a capacidade da caixa de correio do grupo estiver quase cheia, entre em contato com o Suporte do Microsoft Office para aumentar o tamanho da caixa de correio.  <br/> |01/02/2017  <br/> |
 
-## <a name="guest-access"></a>Acesso de convidado
+## <a name="guest-access"></a>Acesso de Convidado
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -162,7 +163,7 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os usuários não podem acessar reuniões/conectores, mas têm caixas de correio Exchange Online. <br/> |Cliente ativamente EWS impede que os serviços no Exchange Online, mas precisa ter MS Teams compatível com dentro políticas do EWS. <br/> |Para tornar o MS Teams compatível com, você deve adicionar a seguinte sequência de agente do usuário for MS Teams dentro do EWSAllowList: `*skypespaces*`, incluindo asteriscos. O comando completo é:`set-organizationconfig -ewsallowlist *skypespaces*`<br/> Para obter mais informações:https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps <br/> |30/5/17  <br/>|
+|Os usuários não podem acessar Reuniões/Conectores, mas têm caixas de correio do Exchange Online. <br/> |O cliente bloqueia ativamente o EWS de serviços no Exchange Online, mas o MS Teams precisa estar em conformidade com as políticas do EWS. <br/> |Para que o MS Teams esteja em conformidade, você deve adicionar a seguinte Cadeia de Caracteres de Agente de Usuário ao MS Teams em EWSAllowList: `*skypespaces*`, incluindo os asteriscos. O comando completo é: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> Para obter mais informações, confira: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -175,17 +176,17 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|As reuniões não estão disponíveis  <br/> |Funcionalidade de reunião não está disponível quando a caixa de correio do Exchange é (hospedado hospedados) no local na versão menor Exchange 2016 CU3.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
+|As reuniões não estão disponíveis  <br/> |A funcionalidade de reunião não está disponível quando a Caixa de Correio do Exchange está hospedada (ou estabelecida) localmente em uma versão anterior ao Exchange 2016 CU3.  <br/> |Atualize para o Exchange 2016 CU3 ou posterior para implantações locais.  <br/> |28/02/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Sem áudio ao compartilhar conteúdo durante uma reunião de transmissão  <br/> |Quando o compartilhamento de conteúdo durante uma reunião de transmissão, o conteúdo compartilhado (link do youtube ou um arquivo de vídeo salvo) de áudio não pode ser ouve pelos participantes.  <br/> |Nenhum como isso é por design.  As equipes atualmente não oferece suporte a áudio de compartilhamento de conteúdo  <br/> |10/9/18  <br/> |
+|Não há áudio durante o compartilhamento de conteúdo em uma reunião de transmissão  <br/> |Ao compartilhar conteúdo durante uma reunião de transmissão, o áudio do conteúdo compartilhado (link do YouTube ou um arquivo de vídeo salvo) não pode ser ouvido pelos participantes.  <br/> |Isso não é por design.  No momento o Microsoft Teams não dá suporte ao áudio do compartilhamento de conteúdo  <br/> |09/10/2018  <br/> |
 
 ## <a name="mobile"></a>Mobile
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível ver os canais de auto-favorited  <br/> |Alguns membros não conseguem ver auto-favorited canais em que o aplicativo móvel.  <br/> |Membros devem entrar para o aplicativo de área de trabalho ou web primeiro para ver os canais de auto-favorited em seus aplicativos móveis.  <br/> |4/30/18  <br/>|
+|Não é possível ver os canais adicionados a Favoritos automaticamente  <br/> |Alguns membros não conseguem ver os canais adicionados a Favoritos automaticamente no aplicativo móvel.  <br/> |Os membros devem entrar no aplicativo Web ou para desktop para ver os canais adicionados a Favoritos automaticamente no aplicativo móvel.  <br/> |30/04/2018  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -193,19 +194,19 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível usar diversão seletor ou Giphys ou adesivos em aplicativos móveis  <br/> |Você não pode usar gifs, emojis ou adesivos nos clientes móveis.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
+|Não é possível usar o seletor divertido, Giphys ou figurinhas no aplicativo móvel  <br/> |Você não pode usar gifs, emojis ou figurinhas nos clientes móveis.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Diferenças de Layout de equipes do cliente móvel  <br/> |As equipes estão listadas em ordem alfabética e os canais não podem ser recolhidos no cliente móvel.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/>|
+|Diferenças de layout entre os clientes móveis do Microsoft Teams  <br/> |As equipes são listadas em ordem alfabética, e os canais não podem ser recolhidos no cliente móvel.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/>|
 
 
 ## <a name="people"></a>Pessoas
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Fotos de perfil de usuário  <br/> | Atualmente equipes não tem um mecanismo para impedir que usuários alterem as fotos. A equipe BTS atendeu com a equipe de desenvolvimento que tem o seguinte para consideração a arquivados: 108874 do recurso: política de TI para desabilitar o carregamento de fotos de perfil   <br/> | Se você tiver clientes que gostariam a capacidade de impedir o carregamento de fotos de perfil em equipes, tenha-los adicionar seu caso de negócios e votar para comentários aqui:https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |3/1/17 <br/> |
+|Fotos de perfil de usuário  <br/> | No momento, o Microsoft Teams não tem um mecanismo para impedir que os usuários alterem fotos. A equipe do BTS reuniu-se com a equipe de desenvolvimento, que apresentou o seguinte para consideração: Recurso 108874: Política de TI para desabilitar o upload de Foto de Perfil   <br/> | Se você tiver clientes que gostariam de evitar o upload de Foto de Perfil no Microsoft Teams, peça que eles votem e adicionem seu caso comercial aos comentários aqui: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
+ <br/> |01/03/2017 <br/> |
 
 ## <a name="provisioning"></a>Provisionamento
 
@@ -217,15 +218,20 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 |:-----|:-----|:-----|:-----|
 |Os usuários não conseguem criar uma equipe  <br/> |A sua empresa pode ter definido uma política que restringe quem pode criar grupos ou equipes no Office 365.  <br/> |Verifique com o seu administrador de TI para entender a política da sua empresa para a criação de grupos e equipes.  <br/> |13/03/2017  <br/> |
 
+## <a name="skype-for-business-to-teams-upgrade"></a>Atualização do Skype for Business para o Microsoft Teams
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+
 ## <a name="tabs"></a>Guias
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Guia de site, levando a confusão do cliente  <br/> |Guias de site não são equivalentes ao seu navegador. Um número de sites, especialmente aquelas que exija autenticação ou usar pop-ups, não funcionará quando fixados como uma guia de site.  <br/> |Estamos trabalhando em melhorando a interface do usuário para tornar mais nítido para clientes.  <br/> |5/2/18  <br/> |
+|Guias de site geram confusão para o cliente  <br/> |As guias de site não são equivalentes às de um navegador. Diversos sites, especialmente aqueles que exigem autenticação ou uso de pop-ups, não funcionarão quando forem exibidos como uma guia de site.  <br/> |Estamos trabalhando para melhorar a interface do usuário e torná-la mais clara para os clientes.  <br/> |02/05/2018  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Guias não funcionam desde a habilitação do acesso condicional <br/> |Algumas guias não podem carregar mais no cliente Desktop desde a habilitação do acesso condicional no locatário do. As guias de carga ao usar o cliente Web. Algumas guias que podem ser afetados são: PowerBI, formulários, VSTS, PowerApps e lista do SharePoint.  <br/> |Para ver as guias afetadas, você deve usar equipes em borda, IE ou Chrome com a extensão de contas do Windows 10 instalada. Algumas guias ainda dependem da autenticação de web, que não está funcionando no cliente da área de trabalho quando a autoridade de certificação está habilitada. Estamos trabalhando com parceiros para habilitar esses cenários; até agora, podemos habilitou planejador, OneNote e Stream. <br/> |4/5/18  <br/>|
+|Guias que não funcionam desde que o Acesso Condicional foi habilitado <br/> |Algumas guias podem não ser mais carregadas no Cliente de Desktop desde que o Acesso Condicional foi habilitado no locatário. As guias são carregadas ao ser usado o Cliente Web. Algumas guias que podem ser afetadas são: PowerBI, Forms, VSTS, PowerApps e Lista do SharePoint.  <br/> |Para ver as guias afetadas, você deve usar o Microsoft Teams no Microsoft Edge, no IE ou no Chrome com a extensão de Contas do Windows 10 instalada. Algumas guias ainda dependem da autenticação da Web, que não funciona no Cliente de Desktop quando o AC está habilitado. Estamos trabalhando com parceiros para habilitar esses cenários. Até agora, habilitamos o Planner, o OneNote e o Stream. <br/> |05/04/2018  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -237,17 +243,17 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|As equipes Planejador integração com Planejador online <br/> |Partições de memória de tarefas no planejador não aparecem na experiência online do planejador.  <br/> |Não há solução alternativa. <br/> |28/02/2017  <br/>|
+|Integração entre o Planner e o Microsoft Teams com o Planner online <br/> |Os buckets de tarefas no Planner não são mostrados na experiência online do Planner.  <br/> |Não há solução alternativa. <br/> |28/02/2017  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Guia de página do SharePoint renderiza tela em branco<br/> |Domínios de vanity SharePoint Online não são suportados no momento. A experiência do usuário é uma tela em branco, quando o guia de página attemting para adicionar uma lista do SharePoint. <br/> |Não há solução alternativa. <br/> |8/20/18  <br/>|
+|Guia de página do SharePoint renderizado como uma tela em branco<br/> |Domínios intuitivos do SharePoint Online não têm suporte no momento. A experiência do usuário é uma tela em branco ao se tentar adicionar uma guia de página do SharePoint. <br/> |Não há solução alternativa. <br/> |20/08/2018  <br/>|
 
 ## <a name="teams"></a>Microsoft Teams
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Logs de auditoria podem informar um nome de usuário incorreta como iniciador quando alguém foi removido da equipe  <br/> |As equipes de equipe é um grupo moderno em AAD. Quando você adicionar ou remove um membro por meio da interface de usuário de equipes, o fluxo sabe exatamente o usuário que iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário membro por meio de AAD de adiciona/remove, a alteração é sincronizada no back-end de equipes sem informando equipes que iniciou a ação. Microsoft Teams seleciona o primeiro proprietário da equipe como iniciador, eventualmente será refletido no log de auditoria.    <br/> |  <br/> |5/11/18  <br/> |
+|Os logs de auditoria poderão relatar um nome de usuário incorreto como iniciador quando alguém tiver sido removido de uma equipe  <br/> |A equipe do Microsoft Teams é um grupo moderno no AAD. Quando você adiciona/remove um membro por meio da interface do usuário do Teams, o fluxo sabe exatamente qual usuário iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário adicionar/remover um membro por meio do AAD, a alteração será sincronizada com o back-end das equipes sem informar às equipes que iniciaram a ação. O Microsoft Teams seleciona o primeiro proprietário da equipe como o iniciador, que também é refletido no log de Auditoria.    <br/> |  <br/> |11/05/2018  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -255,15 +261,15 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|A lista de equipes públicas não exibe todas as equipes  <br/> |A lista de equipes públicas está baseada no Microsoft Graph.  <br/> |Se você não vê uma equipe, tente pesquisá-la na caixa de pesquisa superior à direita. Além disso, os proprietários de equipe devem comunicar nomes de equipe para colegas de trabalho, desde que muitas equipes poderiam mostrada nos resultados da pesquisa. <br/> | 21/07/2017  <br/>|
+|A lista de equipes públicas não exibe todas as equipes  <br/> |A lista de equipes públicas está baseada no Microsoft Graph.  <br/> |Se você não vê uma equipe, tente pesquisá-la na caixa de pesquisa superior à direita. Além disso, os proprietários da equipe devem comunicar os nomes das equipes aos colegas, pois muitas equipes podem ser mostradas nos resultados da pesquisa. <br/> | 21/07/2017  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Nomes de equipe que contêm caracteres especiais podem criar erros para a criação de reunião  <br/> |Usuário receberá a mensagem de **erro** em vermelho ao tentar criar uma reunião para uma equipe com caracteres especiais no nome de usuário.   <br/> |Renomeie ou recriar equipe com um nome que não contém um "/".  <br/> |13/07/2017  <br/> |
+|Nomes de equipe que contêm caracteres especiais podem criar erros na criação de reuniões  <br/> |O usuário receberá a mensagem **ocorreu um erro** em vermelho ao tentar criar uma reunião para uma Equipe que tenha caracteres especiais no nome.   <br/> |Renomeie ou recrie a equipe com um nome que não contenha "/".  <br/> |13/07/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Um nome de equipe com um &amp; símbolo nela rompe a funcionalidade de conector  <br/> |Quando o nome de uma equipe é criado com o símbolo &amp;, os conectores dentro da equipe/grupo não podem ser estabelecidos.  <br/> |Não use caracteres especiais no nome de equipes.  <br/> |21/06/2017  <br/> |
+|O nome de uma equipe com o símbolo &amp; interrompe a funcionalidade do conector  <br/> |Quando o nome de uma equipe é criado com o símbolo &amp;, os conectores dentro da equipe/grupo não podem ser estabelecidos.  <br/> |Não use caracteres especiais no nome de equipes.  <br/> |21/06/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -271,9 +277,9 @@ Este artigo lista os problemas conhecidos for Microsoft Teams, pela área de rec
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|A exclusão de uma equipe também excluirá o grupo associado a ela  <br/> |Os usuários podem não perceber que o Grupo do Office 365 subjacente é excluído quando a equipe é excluída. Além disso, se o grupo do Office 365 subjacente for excluído, a equipe será excluída também.  <br/> |Idiomas adicionais no Microsoft Teams fornecem essa informação ao usuário. Essa informação não está presente na interface dos Grupos do Office 365. Seu help desk pode recuperar uma equipe/grupo excluído.  <br/> |13/03/2017  <br/> |
+|A exclusão de uma equipe também excluirá o grupo associado a ela  <br/> |Os usuários podem não perceber que o Grupo do Office 365 subjacente é excluído quando a equipe é excluída. Além disso, se o grupo do Office 365 subjacente for excluído, a equipe será excluída também.  <br/> |Idiomas adicionais no Microsoft Teams fornecem essa informação ao usuário. Essa informação não está presente na interface dos Grupos do Office 365. O suporte técnico pode recuperar um Grupo/Equipe excluído.  <br/> |13/03/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Aplicativo de área de trabalho equipes mostrando tela branca  <br/> | <br/> |Tente excluir ou reinstalar os drivers de gráficos no computador, ou iniciar às equipes de uma linha de comando com um sinalizador GPU disable:<ul><li>Para Windows: Abra o prompt de comando e digite o seguinte:`cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Para Mac: Iniciar Terminal e insira o seguinte:`cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
+|O aplicativo da área de trabalho do Teams mostra uma tela em branco  <br/> | <br/> |Tente excluir ou reinstalar os drivers gráficos no computador ou inicie as o Microsoft Teams por meio de uma linha de comando com um sinalizador de desabilitação de GPU:<ul><li>Para o Windows: abra o prompt de comando e insira o seguinte: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Para o Mac: inicie o Terminal e insira o seguinte: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 

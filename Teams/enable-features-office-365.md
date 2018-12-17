@@ -1,5 +1,5 @@
 ---
-title: Gerenciar os recursos do Microsoft Teams na sua organização do Office 365
+title: Gerenciar os recursos do Microsoft Teams em sua organização do Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,37 +8,37 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Saiba como ativar ou desativar apps Teams da Microsoft em sua organização do Office 365, incluindo guias, conectores, bots ou qualquer combinação dos três.
-localization_priority: Normal
+description: Saiba como ativar ou desativar os aplicativos Microsoft Teams em sua organização do Office 365, inclusive guias, conectores, bots ou qualquer combinação dos três.
+localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cd105d3f6f9e3524033ddbf98e85c1c657c6d
-ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
-ms.translationtype: MT
+ms.openlocfilehash: da071250eb45fbad9e83b2d79d6e86166072a474
+ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618549"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "27240689"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar os recursos do Microsoft Teams na sua organização do Office 365
+# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar os recursos do Microsoft Teams em sua organização do Office 365
 
-Todas as definições de equipes em breve serão migradas para o novo Teams Microsoft & Skype para Business Admin Center. O único recurso de equipes que é gerenciado no Centro de administração do Office 365 é Apps. 
+Todas as configurações do Microsoft Teams serão migradas em breve para o novo Centro de Administração do Microsoft Teams e do Skype for Business. O único recurso do Microsoft Teams gerenciado no centro de administração do Office 365 consiste nos Aplicativos. 
 
-Salvo indicação em contrário, o valor padrão para uma opção é **no**.
+A menos que haja aluma especificação em contrário, o valor padrão das opções é **Ativado**.
 
-## <a name="office-365-tenant-wide-settings"></a>Configurações de todo o locatário do Office 365 
+## <a name="office-365-tenant-wide-settings"></a>Configurações de todos os locatários do Office 365 
 
-Nas **configurações de todo o locatário**, você pode ativar ou desativar aplicativos.
+Em **Configurações de todos os locatários**, você pode ativar ou desativar Aplicativos.
 
-Para editar **as configurações de todo o locatário** para equipes, vá para o Microsoft Teams & Skype para Business Admin Center e selecione **portal herdada**. Escolha **Configurações** > **Serviços e complementos** > **Microsoft Teams**. Se você tiver entrado como administrador do Office 365, este link deverá direcioná-lo corretamente: 
+Para editar **Configurações de todos os locatários** para o Microsoft Teams, acesse o Centro de Administração do Microsoft Teams e do Skype for Business e selecione o **Portal herdado**. Escolha **Configurações** > **Serviços e suplementos** > **Microsoft Teams**. Se você tiver entrado como administrador do Office 365, esse link deverá levá-lo corretamente ao local correto: 
 >  
 > https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
 
 ### <a name="apps"></a>Aplicativos
 
-Os aplicativos consistem em guias, conectores, bots ou qualquer combinação dos três, fornecidos por um serviço de terceiros. Existem políticas de administração do Teams que podem ser configuradas no Centro de administração do Office 365 para controlar quais aplicativos externos de terceiros são permitidos. Essas diretivas permitem especificar quais aplicativos são permitidos e não permitidos, novo comportamento de aplicativo externo, e se os aplicativos do lado do carregamento é permitido. 
+Os aplicativos consistem em guias, conectores, bots ou qualquer combinação dos três, fornecidos por um serviço de terceiros. Existem políticas de administração do Teams que podem ser configuradas no Centro de administração do Office 365 para controlar quais aplicativos externos de terceiros são permitidos. Essas políticas permitem especificar quais aplicativos são permitidos ou não, o comportamento do novo aplicativo externo e se o sideload de aplicativos é permitido. 
 
 Em **Aplicativos**, você pode definir estas configurações para a sua organização: 
 
@@ -50,76 +50,76 @@ Em **Aplicativos**, você pode definir estas configurações para a sua organiza
 
 - **Enable new external apps by default** (Habilitar novos aplicativos externos por padrão): quando essa opção está ativada, os usuários podem ativar novos aplicativos assim que eles são adicionados ao catálogo de aplicativos do Teams. Desative essa opção para poder controlar os novos aplicativos. Obviamente, se você desativá-la, precisará lembrar de revisar os novos aplicativos periodicamente para que sua organização não perca novos aplicativos bacanas. 
 
-- **Permitir sideloading de aplicativos externos**: quando essa opção estiver ativada, os usuários podem instalar e ativar bots personalizados e guias. 
+- **Allow sideloading of external apps** (Permitir o sideload de aplicativos externos): quando essa opção está ativada, os usuários podem instalar e habilitar bots e guias personalizados. 
 
-Para saber mais, leia [Configurações de administração para aplicativos no Teams](admin-settings.md). 
+Para saber mais, leia [Configurações de administração para aplicativos no Microsoft Teams](admin-settings.md). 
 
-## <a name="teams-org-wide-settings"></a>Configurações de toda a organização de equipes
+## <a name="teams-org-wide-settings"></a>Configurações de toda a organização do Microsoft Teams
 
-Você pode controlar as configurações de usuário de toda a organização no Microsoft Teams & Skype para Business Admin Center. Para editar as configurações de toda a organização, vá para o Microsoft Skype para Business Admin Center e, em seguida, selecione **configurações de toda a organização**. Você pode configurar as configurações a seguir.
+Você pode controlar as configurações de usuário de toda a organização no Centro de Administração do Microsoft Teams e do Skype for Business. Para editar as configurações de toda a organização, vá para o Centro de Administração do Microsoft Skype for Business e selecione **Configurações de toda a organização**. É possível definir as configurações a seguir
 
 ### <a name="external-access"></a>Acesso externo
 
-**Acesso externo** permite que suas equipes e Skype para usuários empresariais se comunicar com usuários que estão fora da sua organização. Para configurar o acesso externo, vá para [Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização equipes](let-your-teams-users-communicate-with-other-people.md).
+O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for Business se comuniquem com usuários que estão fora da organização. Para configurar o acesso externo, vá para [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md) (Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização do Microsoft Teams).
 
-### <a name="guest-access"></a>Acesso de convidados
+### <a name="guest-access"></a>Acesso de convidado
 
-**Acesso de convidado** no Microsoft Teams permite que as equipes em sua organização para colaborar com pessoas fora da sua organização, concedendo a eles acesso às equipes e canais. Qualquer pessoa com uma conta de email de consumidor ou de negócios, como o Outlook, Gmail ou outras pessoas, pode participar como um convidado em equipes com acesso completo à equipe chats, reuniões e arquivos. Para obter mais informações, consulte [acesso de convidado em equipes da Microsoft](guest-access.md).
+O **Acesso de Convidado** no Microsoft Teams permite que as equipes em sua organização colaborem com pessoas de fora da organização, concedendo-lhes acesso a equipes e a canais. Qualquer pessoa com uma conta de email comercial ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe. Para obter mais informações, veja [Acesso de convidado no Microsoft Teams](guest-access.md).
 
 ### <a name="teams-settings"></a>Configurações de equipes
 
-Nas **configurações de equipes**, você pode configurar integração de email, opções de armazenamento de nuvem, Skype para interoperabilidade de negócios e dispositivos.
+Nas **Configurações de equipe**, você pode configurar a integração de email, opções de armazenamento em nuvem, interoperabilidade do Skype for Business e dispositivos.
 
 #### <a name="email-integration"></a>Integração de e-mails
 
-Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal em uma equipe que possui a adição de conectores ativada para que membros da equipe. Para ativar a integração de email, certifique-se de que **Permitir que os usuários para enviar emails para um endereço de email do canal** está **ativado**. 
+Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal de uma equipe que tenha conectores adicionais ativados para os membros da equipe. Para ativar a integração de email, verifique se **Allow users to send emails to a channel email address** (Permitir que os usuários enviem emails para um endereço de email do canal) está **Ativado**. 
 
 #### <a name="files"></a>Arquivos
 
-Aqui você pode ativar ou desativar opções de armazenamento de arquivo de nuvem e de compartilhamento de arquivo. 
+Aqui você pode ativar ou desativar as opções de compartilhamento de arquivos e armazenamento em nuvem. 
 
-Os usuários podem carregar e compartilhar arquivos de serviços de armazenamento em nuvem nos canais e chats do Microsoft Teams. Opções de armazenamento de nuvem em equipes atualmente incluem ShareFile, pasta de recados, caixa e Google unidade. Ative a opção para os provedores de armazenamento em nuvem que sua organização deseja usar.
+Os usuários podem carregar e compartilhar arquivos de serviços de armazenamento em nuvem nos canais e chats do Microsoft Teams. No momento, as opções de armazenamento em nuvem do Microsoft Teams incluem ShareFile, Dropbox, Box e Google Drive. Ative a opção para os provedores de armazenamento em nuvem que sua organização deseja usar.
 
 #### <a name="organization"></a>Organização
 
-Aqui você pode ativar a guia de **organização** , que mostra o gráfico organizacional detalhado para a organização do usuário. Para obter mais informações, consulte [Use a guia organização em equipes](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
+Aqui você pode ativar a guia **Organização**, que mostra o organograma detalhado da organização do usuário. Para obter mais informações, veja [Usar a guia da organização no Microsoft Teams](https://support.office.com/article/use-the-organization-tab-in-teams-ff02568b-290a-46d6-ae7a-cda22f723894).
 
-#### <a name="skype-for-business-interop"></a>Skype para interoperabilidade de negócios
+#### <a name="skype-for-business-interop"></a>Interoperabilidade do Skype for Business
 
-Use esta configuração para permitir que equipes usuários bate-papo com Skype para usuários comerciais. Para obter informações detalhadas sobre a interoperabilidade entre equipes e Skype para os negócios, vá para [entender as equipes da Microsoft e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Use essa configuração para permitir que os usuários do Microsoft Teams conversem com usuários do Skype for Business. Para obter informações detalhadas sobre a interoperabilidade entre o Microsoft Teams e o Skype for Business, acesse [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="devices"></a>Dispositivos
 
-Essas configurações controlam o comportamento de conta do recurso para dispositivos do Hub de superfície participando de reuniões Teams da Microsoft. Use estas configurações para configurar os requisitos de autenticação, exigem um PIN de conteúdo e ativar contas de recurso do Hub de superfície para enviar mensagens.
+Essas configurações controlam o comportamento da conta de recurso para dispositivos Surface Hub que participam de reuniões do Microsoft Teams. Use essas configurações para configurar os requisitos de autenticação, exigir um PIN de conteúdo e ativar as contas de recurso do Surface Hub para enviar mensagens.
 
-- **Exigir um formulário secundário de autenticação para acessar o conteúdo da reunião** – selecione o nível de acesso que os usuários têm quando inserem o conteúdo FIXAR.
-- **Definir o PIN de conteúdo** – exigir que os usuários insiram esse PIN para impedir o acesso não autorizado a documentos. Isso impede que um usuário não autorizado ingressando futuras reuniões e anexos de navegação.
-- **Contas de recursos podem enviar mensagens** – ativar esta configuração **em** para permitir que as mensagens sejam enviadas da conta de recurso do Hub de superfície.
+- **Require a secondary form of authentication to access meeting content** (Exigir uma forma secundária de autenticação para acessar o conteúdo da reunião) ‒ selecione o nível de acesso que os usuários obtêm quando inserem o PIN do conteúdo.
+- **Set content PIN** (Definir o PIN do conteúdo) ‒ exija que os usuários insiram esse PIN para impedir o acesso não autorizado a documentos. Isso impede que um usuário não autorizado ingresse em reuniões e acesse anexos.
+- **Resource accounts can send messages** (Contas de recurso podem enviar mensagens) ‒ **ative** essa configuração para permitir que mensagens sejam enviadas da conta de recurso do Surface Hub.
 
-#### <a name="search"></a>Pesquisar
+#### <a name="search"></a>Pesquisa
 
-Pesquisa de diretório com escopo de Teams da Microsoft usa a política de catálogo de endereços do Exchange (APB) para permitir que as organizações a criar limites virtuais que controlam como os usuários podem localizar e se comunicar com outros usuários em suas organizações. Você pode querer usar uma pesquisa de diretório com escopo em situações como essas:
+A pesquisa de diretório no escopo do Microsoft Teams usa a APB (política de catálogo de endereços) do Exchange para permitir que as organizações criem limites virtuais que controlam como os usuários podem encontrar e se comunicar com outros usuários na organização. Você pode usar uma pesquisa de diretório no escopo em situações como estas:
 
-- Sua organização tem várias empresas dentro de seu locatário que você deseja manter separados. 
-- Sua escola deseja limitar chats entre professores e alunos. 
+- Sua organização tem várias empresas dentro no locatário que você deseja manter separadas. 
+- Sua escola quer limitar os chats entre professores e alunos. 
 
-Alterne esta configuração **na** ativem pesquisas de diretório com escopo.
+**Ative** essa configuração para ativar as pesquisas de diretório no escopo.
 
-### <a name="teams-upgrade"></a>Atualização de equipes
+### <a name="teams-upgrade"></a>Atualização do Microsoft Teams
 
-Você pode usar essas configurações para configurar como os usuários serão atualizados do Skype para negócios a Microsoft Teams. 
+Você pode usar essas configurações para definir como os usuários serão atualizados do Skype for Business para o Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Modo de coexistência
-Você pode especificar um modo de coexistência: **somente equipes**, **Ilhas** (equipes e Skype para vão de negócios coexistir) ou **Skype para negócios apenas**. O modo de coexistência escolhido determina o roteamento de chamadas de entrada e bate-papos e o aplicativo que é usado pelo usuário para iniciar o bate-papos e chamadas ou agendar reuniões. Para obter mais informações sobre modos de coexistência, vá para [entender as equipes da Microsoft e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Você pode especificar um modo de coexistência: **Somente Microsoft Teams**, **Ilhas** (o Microsoft Teams e o Skype for Business coexistem) ou **Somente Skype for Business**. O modo de Coexistência escolhido determina o roteamento de chats e chamadas recebidas e o aplicativo usado pelo usuário para iniciar chats e chamadas ou para agendar reuniões. Para obter mais informações sobre modos de coexistência, acesse [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-#### <a name="app-preferences"></a>Preferências do aplicativo
+#### <a name="app-preferences"></a>Preferências de aplicativo
 
-Aqui, você pode escolher o aplicativo que os usuários utilizarão para ingressar Skype para negócios reuniões (Skype para o [Aplicativo do Skype reuniões](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)ou comercial). Essa configuração não é dependente da configuração do modo de coexistência.
+Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em reuniões do Skype for Business (Skype for Business ou o [aplicativo Reuniões do Skype](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Essa configuração não depende da configuração do modo de coexistência.
 
-## <a name="how-can-i-tell-which-features-are-available"></a>Como posso saber quais recursos estão disponíveis?
+## <a name="how-can-i-tell-which-features-are-available"></a>Como saber quais recursos estão disponíveis?
 
-Consulte o [Mapa do Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obter informações sobre novos recursos de equipes. Para obter mais informações sobre recursos novos e futuras, consulte o [blog de equipes da Microsoft Community Tech](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531) para equipes e a página equipes [What's New](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) . 
+Confira o [Roteiro do Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obter informações sobre novos recursos do Microsoft Teams. Para obter mais informações sobre os recursos novos e futuros, confira a página [Novidades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) do Microsoft Teams e o [blog do Microsoft Teams da Tech Community Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Mais informações
 
-Para obter informações sobre quais funções podem executar funções de administração, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
+Para obter informações sobre quais funções podem executar funções administrativas, confira [Usar funções administrativas do Microsoft Teams para gerenciar o Microsoft Teams](using-admin-roles.md).
