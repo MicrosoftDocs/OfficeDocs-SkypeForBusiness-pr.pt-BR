@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Espanha.
-ms.openlocfilehash: f719f46105c6a0d69535fde8fa5d6eceb1f0397a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: d7d25a08996ba9ced90e69df48cd2d7ff31d57fe
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014585"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292913"
 ---
 # <a name="phone-number-management-for-spain"></a>Gerenciamento de números de telefone para a Espanha
 
@@ -39,8 +39,8 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obtenha novos números de telefone do usuário que não estão listados no Skype para centro de administração de negócios.   <br/> | Baixe a [Solicitação de novo número de telefone para a Espanha (números geográficos) (v.3.0)(es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf?raw=true) <br/><br/>    Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
-|Obtenha novos números de telefone do serviço que não estão listados no Skype para centro de administração de negócios. <br/> |Baixe este formulário [nova solicitação de número de telefone da Espanha (números de serviço) (v. 1.2) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(service-numbers)-(v.1.2)-(es-es).pdf?raw=true).<br/> Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).
+|Obtenha novos números de telefone do usuário que não estão listados no Skype para centro de administração de negócios.   <br/> | Baixe este formulário.</br> [Solicitação de novo número de telefone para a Espanha (números geográficos) (v.3.0)(es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(geographic-numbers)-(v.3.0)-(es-es).pdf?raw=true) </br> [Nova solicitação de número de telefone da Espanha (números geográficas) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.4.0)-(en-us).pdf?raw=true) <br/>    Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenha novos números de telefone do serviço que não estão listados no Skype para centro de administração de negócios. <br/> |Baixe este formulário.</br> [Nova solicitação de número de telefone da Espanha (números de serviço) (v. 1.2) (es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(service-numbers)-(v.1.2)-(es-es).pdf?raw=true)<br/> [Nova solicitação de número de telefone da Espanha (números de serviço) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.4.0)-(en-us).pdf?raw=true)</br>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).
 |Você precisa obter números de telefone transferidos para nós.  <br/> |Baixe o formulário [Carta de Autorização (LOA) para a Espanha (todos os números) (v.1.0)(es-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.1.0)-(es-es).pdf?raw=true), preencha-o e [o envie para nós](mailto:ptneu@microsoft.com). <br/> |
 |Você precisa publicar/cancelar a publicação de números de telefone na lista telefônica nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Você precisa alterar o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |

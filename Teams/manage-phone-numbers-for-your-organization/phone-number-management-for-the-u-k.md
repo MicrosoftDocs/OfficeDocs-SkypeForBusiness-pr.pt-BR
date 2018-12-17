@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para o Reino Unido.
-ms.openlocfilehash: d35aa107a63759c391d9e078aa64f6d120ef311d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7baf7418947cea114697439373a0df08c6c0e1b2
+ms.sourcegitcommit: 08ab8b02c717be65d79a945301518c3528184609
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017009"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "27292905"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Gerenciamento de números de telefone para o Reino Unido
 
@@ -39,7 +39,7 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obtenha novos números de telefone do usuário que não estão listados no Skype para centro de administração de negócios.   <br/> |Baixe o formulário [Solicitação de novo número de telefone para o Reino Unido (números geográficos) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-u.k.-(geographic-numbers)-(v.3.0)-(en-us).pdf?raw=true) e preencha-o. Depois, [envie-o para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obtenha novos números de telefone do usuário que não estão listados no Skype para centro de administração de negócios.   <br/> |Baixe este formulário.  [Nova solicitação de número de telefone para o Reino Unido (números geográficos) (v.4.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Obtenha novos números de telefone do serviço que não estão listados no Skype para centro de administração de negócios. <br/> |Para números de serviço fora dos Estados Unidos, faça o [download este formulário](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), preencher out e [enviá-la para nós](mailto:ptneu@microsoft.com).
 |Você precisa obter números de telefone transferidos para nós.  <br/> |Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para o Reino Unido (números geográficos) (v.2.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Carta de Autorização (LOA) para o Reino Unido (números não geográficos) (v.2.1)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Você precisa publicar/cancelar a publicação de números de telefone na lista telefônica nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
