@@ -96,7 +96,7 @@
 
 
 <!-- ============================================================ -->
-# [Atualização do Skype for Business para equipes](Journey-SkypeforBusiness-Teams.md)
+# [Atualização do Skype for Business para o Microsoft Teams](Journey-SkypeforBusiness-Teams.md)
 ## [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Atualização básica](upgrade-basic.md)
 ### [Pesquisas e emails de amostra](upgrade-emails-surveys.md)
@@ -507,11 +507,13 @@
 ### Roteamento direto de sistema do telefone
 #### [Planejar o Roteamento Direto](direct-routing-plan.md)
 #### [Configurar o Roteamento Direto](direct-routing-configure.md)
-#### [Migrando para o roteamento direto](direct-routing-migrating.md)
+#### [Migrar para o roteamento direto](direct-routing-migrating.md)
 #### [Monitorar e solucionar problemas de roteamento direto](direct-routing-monitor-and-troubleshoot.md)
 #### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 #### [Configurar um controlador de borda da sessão para vários locatários](direct-routing-sbc-multiple-tenants.md)
 #### [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
+#### Referência técnica para roteamento direto
+##### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
 ### [Fluxos de chamada de equipes da Microsoft Online](microsoft-teams-online-call-flows.md)
 <!-- ============================================================ -->
 
