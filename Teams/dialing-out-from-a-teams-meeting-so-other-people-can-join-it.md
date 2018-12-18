@@ -21,39 +21,44 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba do que você precisa e como os organizadores da reunião podem ligar para outras pessoas usando o Teams.
-ms.openlocfilehash: 7fe3cbdca38c04b498806d3bd05a4f7bef5ea290
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012733"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297787"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião do Microsoft Teams para que outras pessoas possam participar
 
-Como organizador da reunião, você pode discar usando o aplicativo de equipes para permitir que outras pessoas ingressem na reunião mesma usando seus telefones. Apesar de não ser necessário, quando estiver discando para alguém, recomenda-se que você disque o número completo, incluindo o código do país/região. Para que a discagem funcione:
+Como organizador da reunião, você pode discar usando o aplicativo de equipes para permitir que outras pessoas ingressem na reunião mesma usando seus telefones.
+
+Quando você disca para uma pessoa, recomendamos que você faça isso usando seus números de telefone completo (incluindo o código de país/região).
   
-- Disque somente se você participar de uma reunião usando o Teams.
-    
-- Como o organizador da reunião, você foi habilitado para audioconferência.
+  Observe que o seguinte:
+
+- Você pode discar somente se você ingressar em uma reunião usando as equipes.
+- Você, como organizador da reunião, tiverem sido habilitados para conferência de áudio.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
- **Etapa 1:** na reunião, use a opção **Adicionar pessoas** ![botão Adicionar pessoas](media/add-people-button.png) para discar para um número de telefone.
+Aqui está como obter dial-out para funcionar:
+
+ **Etapa 1:** Na reunião, use a **Adicionar pessoas** ![adicionar botão de pessoas](media/add-people-button.png) opção podem discar para um número de telefone.
+ **Etapa 2:** Insira o número de telefone completo, incluindo o código de país/região na caixa **Convidar alguém ou discar um número** .
   
-  
- **Etapa 2:** insira o número de telefone completo do telefone, incluindo o código do país/região na caixa **Convidar alguém ou discar para um número** .
-  
-![Caixa Convidar alguém ou discar para um número](media/invite-someone-box.png)
-  
+![Convidar alguém ou uma caixa de número de discagem](media/invite-someone-box.png)
+    
 ## <a name="supported-countries-and-regions"></a>Países e regiões aceitos
 
 A discagem está disponível apenas para alguns países/regiões. Para obter uma lista completa, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
-  
-## <a name="want-to-know-more-about-audio-conferencing"></a>Deseja saber mais sobre audioconferência?
+
+## <a name="allow-users-to-dial-in"></a>Permitir que os usuários discam
+
+Se você estiver procurando para obter instruções sobre como permitir que os usuários discam para uma reunião de equipes, consulte [números de telefone de conferência de áudio em equipes da Microsoft](/Teams/phone-numbers-for-audio-conferencing-in-teams.md).
+
+## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre serviços de audioconferência?
 
 [Experimentar ou comprar a audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
     
-[Licenças de complementos do Skype for Business e do Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-
+[Licenciamento de complementos do Skype for Business e do Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)

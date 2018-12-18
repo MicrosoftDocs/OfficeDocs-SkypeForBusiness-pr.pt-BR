@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumo: Leia este tópico para saber mais sobre o Gerenciador de estatísticas para Skype para Business Server.'
-ms.openlocfilehash: 390a49a4346af5ab1bc2005db04d99fd60bad056
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: a73e58acdd91b4112537fa0028bf2c134e9c0fce
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699849"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297855"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planejar para o Gerenciador de estatísticas de Skype Business Server
 
@@ -181,7 +181,3 @@ Para obter mais informações, consulte:
 - [Atualizar o Gerenciador de estatísticas para Skype para Business Server](upgrade.md)
 
 - [Solucionar problemas de gerente de estatísticas para Skype para Business Server](troubleshoot.md)
-
-- [Blog sobre o Gerenciador de Estatísticas do Skype for Business Server](https://blogs.technet.microsoft.com/dodeitte/2015/10/24/skype-for-business-server-real-time-statistics-manager)
-
-

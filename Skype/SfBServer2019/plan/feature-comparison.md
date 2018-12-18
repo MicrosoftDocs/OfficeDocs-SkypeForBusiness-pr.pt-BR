@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2019 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: c7933e37582314db431c14c99a188d4b962cadf7
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27282591"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297689"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2019
 
@@ -135,7 +135,7 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Desabilitar mensagens instantâneas de reunião |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Ativar mudo da audiência |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Tornar todos participantes |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Produzir Transmissão de Reunião do Skype |& #x 2714;|||||
+|Produzir Transmissão de Reunião do Skype |& #x 2714; & #x 2779;|||& #x 2714; & #x 2780;||
 |O representante pode agendar uma reunião em nome do delegador |& #x 2714;|& #x 2714;|& #x 2714;|||
 |Sincronizar representantes entre o Skype for Business e o Outlook |& #x 2714;||& #x 2714;||| 
 |Definir Destaque de Vídeo (bloquear vídeo) |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
@@ -146,6 +146,10 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
  & #x 2777;  Para Skype para Business Online, esse recurso exige o Microsoft conferência de PSTN, Unificação de mensagens do Exchange ou um provedor de serviços de audioconferência de terceiros.
 
  & #x 2778;  O Lync para Mac 2011 cliente não conseguem exibir apresentações do PowerPoint do Microsoft Office 2013, quando eles foram compartilhados em uma conferência pelo Skype para negócios Web App.
+
+& #x 2779;  Para Skype para aplicativos de negócios 2016, você precisa estar usando o Click-to-Run, compilação 16.0.4227 ou posterior.
+
+& #x 2780;  Para Skype para aplicativos de negócios 2015, você deve ter a atualização de setembro, crie 15.0.4747 ou posterior.
 
 ## <a name="voice-telephony-support"></a>Suporte para voz (telefonia)
 <a name="BKMK_Telephony"> </a>

@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.'
-ms.openlocfilehash: c0f8f63c6141e2cb163abad66665eee2d83c181f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: fe6edf779d00b96918d8bf92ac7e749b9c003f15
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883905"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297646"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implantar regiões de rede, sites e sub-redes em Skype para negócios
 
 Criar ou modificar regiões de rede, sites de rede e associar subredes no Skype para Business Server. Todos esses são usados para os recursos avançados do Enterprise Voice: desvio de mídia, chamar o controle de admissão e roteamento baseado no local.
 
-Os recursos avançados do Enterprise Voice são [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md), e [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Esses recursos todos exigem que você crie regiões da rede, sites da redee sub-redes. Por exemplo, todos estes recursos requerem que cada sub-rede em sua topologia seja associada a um local de rede específico, e cada site da rede deve ser associado a uma região da rede. Para obter mais informações sobre estes termos, consulte [configurações de rede para os recursos avançados do Enterprise Voice no Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
+Os recursos avançados do Enterprise Voice são [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md), e [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Esses recursos todos exigem que você crie regiões da rede, sites da redee sub-redes. Por exemplo, todos estes recursos requerem que cada sub-rede em sua topologia seja associada a um local de rede específico, e cada site da rede deve ser associado a uma região da rede. Para obter mais informações sobre esses termos, consulte [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)
 
 O controle de admissão de chamada e o E9-1-1 têm requisitos adicionais de configuração para os sites da rede:
 
@@ -260,7 +260,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 3. Execute o seguinte cmdlet para importar o **arquivo Subnet. csv**e armazene seu conteúdo no repositório de gerenciamento do Lync Server:
 
    ```
-   import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+   import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>Para associar uma sub-rede um site de rede usando o Skype para o painel de controle do servidor de negócios
@@ -280,7 +280,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 7. Clique em **ID do site da rede** e selecione o ID do site para o qual está adicionando esta sub-rede.
 
     > [!NOTE]
-    > Se os sites da rede ainda não estiverem criados, a lista estará vazia. Para obter detalhes sobre o procedimento, consulte [criar ou modificar um Site de rede](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Também é possível recuperar IDs de site para sua implantação executando o cmdlet **Get-CsNetworkSite** . Para obter detalhes, consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
+    > Se os sites da rede ainda não estiverem criados, a lista estará vazia. Para obter detalhes sobre o procedimento, consulte [Create or Modify a Network Site](https://technet.microsoft.com/library/14e24856-9996-4da4-9f31-300940bdf5aa.aspx). Também é possível recuperar IDs de site para sua implantação executando o cmdlet **Get-CsNetworkSite** . Para obter detalhes, consulte o Skype para obter a documentação do Shell de gerenciamento do servidor de negócios.
 
 8. Opcionalmente, clique em  **Descrição** e digite informações adicionais para descrever esta sub-rede.
 
@@ -314,7 +314,7 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 <a name="BKMK_AssociateSubnets"> </a>
 
 
-[New-CsNetworkRegion.](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregion?view=skype-ps)
 
 [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregion?view=skype-ps)
 
@@ -322,11 +322,11 @@ Por exemplo, se a lista de endereços IP no alerta especifica 10.121.248.226 e 1
 
 [Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregion?view=skype-ps)
 
-[New-CsNetworkSubnet.](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
+[New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps)
 
 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/get-csnetworksubnet?view=skype-ps)
 
-[Set-CsNetworkSubnet.](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
+[Set-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/set-csnetworksubnet?view=skype-ps)
 
 [Remove-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/remove-csnetworksubnet?view=skype-ps)
 

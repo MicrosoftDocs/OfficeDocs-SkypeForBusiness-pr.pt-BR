@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Resumo: Saiba mais sobre os servidores e funções de servidor, que você deve configurar antes de instalar o Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 891c463be102db2afce1ea831d7856811327ecda
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 11a4d4240415dc11ce42ceb8f9643b52c91c9e2c
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888676"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297631"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar os pré-requisitos para Skype para Business Server
  
@@ -31,7 +31,7 @@ Os pré-requisitos de instalação consistem na configuração do Windows Server
   
 ## <a name="setup-windows-server"></a>Instalação do Windows Server
 
-Skype para Business Server requer o sistema operacional Windows Server e um número de pré-requisitos antes que ele possa ser instalado. Para obter detalhes sobre como planejar os pré-requisitos, consulte [requisitos de servidor para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+Skype para Business Server requer o sistema operacional Windows Server e um número de pré-requisitos antes que ele possa ser instalado. Para obter detalhes sobre como planejar os pré-requisitos, consulte [requisitos de servidor para Skype para Business Server](../../../SfBServer2019/plan/system-requirements.md). 
   
 > [!TIP]
 > Esse procedimento usa o Windows Server 2012 R2. Se você estiver usando uma versão diferente do Windows Server, o procedimento pode ser um pouco diferente. 
@@ -49,7 +49,7 @@ Assista as etapas do vídeo para **os pré-requisitos de instalação**:
 
 Você pode instalar as funções e necessários recursos usando o Gerenciador de servidores. 
     
-1. Instale os recursos de software de pré-requisito listados em [requisitos de servidor para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). O software necessário deve ser no servidor que executará o Skype para Business Server.
+1. Instale os recursos de software de pré-requisito listados em [requisitos de servidor para Skype para Business Server](../../../SfBServer2019/plan/system-requirements.md). O software necessário deve ser no servidor que executará o Skype para Business Server.
     
     > [!CAUTION]
     > O Windows Server 2012 R2 não instala todos os arquivo de origem para os recursos necessários por padrão. Se o servidor não estiver conectado à Internet, você terá que inserir a mídia do Windows Server 2012 R2 e selecionar **Especificar um caminho de origem alternativo** para instalar os recursos necessários. Os arquivos de origem estão localizados no diretório sources\sxs. Por exemplo, se a mídia do Windows Server 2012 R2 estiver na unidade D, você teria que definir o caminho como `d:\sources\sxs`. É importante que você tenha as atualizações mais recentes do Windows Update. Se você não estiver conectado à Internet, terá que instalar manualmente todas as atualizações importantes, bem como quaisquer pré-requisitos para as atualizações necessárias. 
@@ -62,6 +62,6 @@ Você pode instalar as funções e necessários recursos usando o Gerenciador de
 
 
 > [!IMPORTANT]
-> Os pré-requisitos para servidores executando funções diferentes da de servidor front-end, como a função de Diretor, Chat Persistente ou Borda, terão seus próprios pré-requisitos. Para obter detalhes sobre os pré-requisitos exatos exigidos por cada tipo de servidor, consulte [requisitos de servidor para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md). 
+> Os pré-requisitos para servidores executando funções diferentes da de servidor front-end, como a função de Diretor, Chat Persistente ou Borda, terão seus próprios pré-requisitos. Para obter detalhes sobre os pré-requisitos exatos exigidos por cada tipo de servidor, consulte [requisitos de servidor para Skype para Business Server](../../../SfBServer2019/plan/system-requirements.md). 
   
 

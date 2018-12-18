@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Serviço de migração (MMS) de reunião é um Skype para serviço de negócios que é executado em segundo plano e atualiza automaticamente o Skype para reuniões de negócios e Teams da Microsoft para usuários. MMS foi projetado para eliminar a necessidade de usuários executar a ferramenta de migração de reunião para atualizar seu Skype para reuniões de negócios e Teams da Microsoft.
-ms.openlocfilehash: b5484459fc01337bd9eb2dad38e9f0e3349abd07
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: aeb174110fec955d66850ad73a0c2dd9596fdfca
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674581"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297703"
 ---
 # <a name="setting-up-the-meeting-migration-service-mms"></a>Configurando o Meeting Migration Service (MMS)
 
@@ -168,10 +168,10 @@ Para ver detalhes completos de todas as migrações de um período específico, 
 Get-CsMeetingMigrationStatus -StartTime "10/1/2016" -EndTime "10/8/2016"
 ```
 
-Talvez você também queira conferir o status da migração de um usuário específico. Para isso, use o parâmetro  `UserId`. Por exemplo, o comando a seguir retornará o status do usuário ashaw@contoso.com:
+Talvez você também queira conferir o status da migração de um usuário específico. Para isso, use o parâmetro  `Identity`. Por exemplo, o comando a seguir retornará o status do usuário ashaw@contoso.com:
   
 ```
-Get-CsMeetingMigrationStatus -UserId "ashaw@contoso.com"
+Get-CsMeetingMigrationStatus -Identity "ashaw@contoso.com"
 ```
 
 ### <a name="what-do-i-do-if-there-is-an-error"></a>O que devo fazer se ocorrer um erro?
@@ -182,7 +182,7 @@ Quando você executa o cmdlet  `Get-CsMeetingMigrationStatus` para ver um resumo
 1. Determine quais usuários são afetados. Execute o comando a seguir para obter a lista de usuários afetados e o erro específico que foi informado:
     
    ```
-   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table UserId,LastMessage
+   Get-CsMeetingMigrationStatus | Where {$_.State -eq "Failed"} | Format-Table Identity,LastMessage
    ```
 
 2. Para cada um desses usuários, execute a [ferramenta de migração de reuniões](https://go.microsoft.com/fwlink/p/?linkid=626047) para fazer a migração manual de suas reuniões.

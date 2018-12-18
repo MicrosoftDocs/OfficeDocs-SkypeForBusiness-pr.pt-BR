@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: f5634a65d6648d34671c372bc20c2145abdbfc96
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131306"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297877"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -147,7 +147,8 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certifica�
 - Autoridade de certificação principal pública classe 3
 - Comodo seguro autoridade de certificação raiz
 - Marcos Telekom 
-- CA de raiz Global DigiCert 
+- CA de raiz Global DigiCert
+- Autoridade de certificação de raiz de garantia EV alta DigiCert
 - Entrust
 - GlobalSign
 - Go Daddy

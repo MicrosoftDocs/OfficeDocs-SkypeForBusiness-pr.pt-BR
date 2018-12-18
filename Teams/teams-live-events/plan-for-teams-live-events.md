@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar o live eventos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 590246808849b2cf25bdc0fb114352977973410f
-ms.sourcegitcommit: a0f2feb5d826fbb4414ac6644fdc3b65bbe224f9
+ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "27156129"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297813"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -28,7 +28,7 @@ Quando você estiver planejando eventos ao vivo de equipes para armazenar grande
 Os seguintes pré-requisitos são necessários para o usuário agendar um evento de equipes ao vivo.
 
 Aqui estão as licenças que devem ser atribuídas:  
-- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 A3 ou A5. 
+- Uma licença do Office 365 Enterprise E3 ou E5 ou uma licença do Office 365 A3 ou A5. 
 - Uma Teams da Microsoft, Skype para os negócios e a licença do Microsoft Stream.
 
 É importante saber o que uma licença do Office 365 é necessário para participar de um evento ao vivo como um usuário autenticado, mas isso depende do método de produção usado:

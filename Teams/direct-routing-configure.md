@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: b56816d57b628c92e4c7f412b306ca1161021a66
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cf856989cd4f87f4b46e1eb36cbeb403bf92b029
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240929"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297907"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -82,8 +82,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > [!NOTE]
   > 1. É altamente recomendável definir um limite para o SBC, usando as informações que podem ser encontradas na documentação de SBC. O limite irá disparar uma notificação se SBC estiver no nível de capacidade.
   > 2. Você só pode emparelhar o SBC com o FQDN, onde a parte de domínio do nome corresponde a um dos domínios registrados no seu locatário, exceto \*. onmicrosoft.com. Usando \*. omicrosoft.com nomes de domínio não é suportado para os nomes de SBC FQDN. Por exemplo, se você tiver dois nomes de domínio:<br/><br/>
-  > . XYZ do **ABC**<br/>**ABC**. onmicrosoft.com<br/><br/>
-  > Para o nome SBC, você pode usar o nome sbc.abc.xyz. Se você tentar emparelhar o SBC com sbc.xyz.abc um nome, o sistema não permitirá que você, como o domínio não pertence este locatário.
+  > **Contoso**.com<br/>**Contoso**. onmicrosoft.com<br/><br/>
+  > Para o nome SBC, você pode usar o nome sbc.contoso.com. Se você tentar emparelhar o SBC com sbc.contoso.abc um nome, o sistema não permitirá que você, como o domínio não pertence este locatário.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 
@@ -310,7 +310,7 @@ No exemplo a seguir, é possível ver o resultado da execução do comando do Po
 Para criar a rota de "Redmond 1", digite:
 
   ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^+1(425|206)
+  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
   (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
   ```
 
@@ -336,7 +336,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 Para criar a rota de + 1, digite:
 
 ```
-New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\\+1(\d{10})$"
+New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 -OnlinePstnGatewayList sbc5.contoso.biz, sbc6.contoso.biz -OnlinePstnUsages "US and Canada"
 ```
 
@@ -377,7 +377,7 @@ Name            : Redmond 2
 Identity        : Other +1 
 Priority            : 4
 Description     : 
-NumberPattern       : ^\\+1(\d{10})$
+NumberPattern       : ^\+1(\d{10})$
 OnlinePstnUsages    : {US and Canada}    
 OnlinePstnGatewayList   : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name            : Other +1
@@ -444,9 +444,9 @@ A tabela a seguir resume o roteamento designações de uso de "Sem restrições"
 
 |**Uso de PSTN**|**Rota de voz**|**Padrão de número**|**Prioridade**|**SBC**|**Descrição**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Somente nos EUA|"Redmond 1"|^ + 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Rota ativa para o receptor números +1 425 XXX XX XX ou +1 206 XXX XX XX|
-|Somente nos EUA|"Redmond 2"|^ + 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Rota de backup para números de receptor +1 425 XXX XX XX ou +1 206 XXX XX XX|
-|Somente nos EUA|"Outros + 1"|^ + 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Números de rota para o receptor + 1 XXX XXX XX XX (exceto +1 425 XXX XX XX ou +1 206 XXX XX XX)|
+|Somente nos EUA|"Redmond 1"|^\\+ 1 (425\|206)(\d{7})$|1|sbc1<span></span>. contoso.biz<br/>sbc2<span></span>. contoso.biz|Rota ativa para o receptor números +1 425 XXX XX XX ou +1 206 XXX XX XX|
+|Somente nos EUA|"Redmond 2"|^\\+ 1 (425\|206)(\d{7})$|2|sbc3<span></span>. contoso.biz<br/>sbc4<span></span>. contoso.biz|Rota de backup para números de receptor +1 425 XXX XX XX ou +1 206 XXX XX XX|
+|Somente nos EUA|"Outros + 1"|^\\+ 1 (\d{10}) $|3|sbc5<span></span>. contoso.biz<br/>sbc6<span></span>. contoso.biz|Números de rota para o receptor + 1 XXX XXX XX XX (exceto +1 425 XXX XX XX ou +1 206 XXX XX XX)|
 |International|International|\ d \d+|4|sbc2<span></span>. contoso.biz<br/>sbc5<span></span>. contoso.biz|Rota para qualquer número padrão |
 
 
