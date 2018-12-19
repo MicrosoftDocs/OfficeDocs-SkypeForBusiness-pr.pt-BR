@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Os cmdlets este artigo contornos que dão admins mais controle dos métodos de autenticação usado dentro e fora, de uma empresa. Os administradores podem ativar métodos de autenticação ou desativar interna ou externamente para sua rede.
-ms.openlocfilehash: 57b51a897f476d5c4b4b17ccda8ffe074f8a26cd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531099"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371183"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejamento desativar os métodos de autenticação Legacy interna e externamente à sua rede.
 
@@ -86,15 +86,15 @@ Talvez seja wisest fazer um Get-para esses valores e para a captura de tela ou r
 > [!IMPORTANT]
 > Se você estiver usando o Lync Web Access (LWA) e deve usar o acesso baseada em formulários (FBA) para acesso externo, reconfigure LWA para que os clientes podem acessá-lo com acesso anônimo para oferecer suporte a esses cenários. Da mesma forma, se você usar um Pin de discagem, FBA será bloqueado para apenas usuários externos. Se eles precisarem alterar seu pin, precisará fazer logon no seu corporation para fazê-lo, internamente.
 
-## <a name="links"></a>Links ##
+## <a name="links"></a>Links 
 - Para obter mais informações PowerShell:
-    - Get-CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Get-CsAuthConfig.md)
-    - Set-CsAuthConfig[https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsAuthConfig.md)
+    -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
+    -  [Set-CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
 - Para mais orientações sobre como usar os comandos ou na CU necessária para instalá-las:
-    - Resumo de cmdlets[https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - Atualizações do Skype para Business Server 2015 (geral)[https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015)
-    - O Skype julho de 2018 para Business Server 2015, Core Components CU (6.0.9319.534)[https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
+    - [Resumo de cmdlets](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
+    - [Atualizações do Skype para Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015) (Geral)
+    - O [julho 2018 Skype para Business Server 2015, Core Components CU](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
 
 
  

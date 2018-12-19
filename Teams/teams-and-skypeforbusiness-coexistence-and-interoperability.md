@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2296d7eb423d1d268742be184e7e724e69dc0965
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: c70519fc328b74a6269d4ed767d9223b8deca83d
+ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201473"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27371175"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -51,7 +51,7 @@ Por padrão, os usuários podem executar as equipes junto com Skype para negóci
 Neste modo de coexistência, chamado **Ilhas**, cada um dos aplicativos cliente opera como uma ilha separada. Skype para fala de negócios para Skype for Business e equipes conversa com equipes. Os usuários executar ambos os clientes e podem se comunicar nativamente no cliente do qual a comunicação foi iniciada. Sendo assim, não é necessário para interoperabilidade no modo de **Ilhas** .
 
 > [!Tip]
-> Skype para o caminho recomendado de clientes corporativos Online é iniciar com o modo de **Ilhas** padrão, unidade saturação de adoção na organização e mover para o modo **Somente equipes** rapidamente. No local e híbrido clientes serão beneficiados com Implantando o modo futuro do **Skype for Business com colaboração de equipes** como um ponto de partida ao invés Ilhas e andamento a partir daí, para o modo de **Equipes somente** quando a organização está pronta para adotar Equipes. 
+> Skype para o caminho recomendado de clientes corporativos Online é iniciar com o modo de **Ilhas** padrão, unidade saturação de adoção na organização e mover para o modo **Somente equipes** rapidamente. No local e híbrido os clientes podem se beneficiar Implantando o modo futuro do **Skype for Business com colaboração de equipes** como um ponto de partida ao invés Ilhas e andamento a partir daí, para o modo de **Equipes somente** quando a organização está pronta para adotar Equipes. 
 
 ### <a name="skype-for-business-only"></a>Skype para negócios apenas
 
