@@ -24,6 +24,7 @@
 ## [Planejar o gerenciamento de ciclo de vida no Teams](plan-teams-lifecycle.md)
 ## [Plano de governança em equipes](plan-teams-governance.md)
 ## [Planejar Microsoft 365 governamental - implantações GCC](plan-for-government-gcc.md)
+## [Planejar Microsoft 365 governamental - implantações GCC alta](plan-for-government-gcc-high.md)
 <!-- ============================================================ -->
 
 <!-- ============================================================ -->
