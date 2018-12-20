@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5a6875ae8c30b81b6a063bb2ae59a0f72e9c677
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
+ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240790"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "27297735"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -80,7 +80,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|O Microsoft Teams sempre fará login na conta do computador associada ao domínio.   <br/> |Se um usuário tiver duas contas do Microsoft Teams diferentes e tiver um computador associado ao domínio, o Microsoft Teams usará o perfil associado ao domínio no computador para conectar automaticamente o usuário ao Microsoft Teams. Para mudar para a outra conta do Microsoft Teams, o usuário deve fazer logoff do aplicativo manualmente e inserir as credenciais da segunda conta para fazer logon. Se o usuário fizer logoff do Microsoft Teams e reiniciar o computador, após a reinicialização, o Microsoft Teams fará logon automaticamente usando o perfil associado ao domínio. <br/> | Não há solução alternativa. <br/> |02/08/2017  <br/> |
+|O Microsoft Teams sempre fará login na conta do computador associada ao domínio.   <br/> |Se um usuário tiver duas contas do Microsoft Teams diferentes e tiver um computador associado ao domínio, o Microsoft Teams usará o perfil associado ao domínio no computador para conectar automaticamente o usuário ao Microsoft Teams. Para mudar para a outra conta do Teams, o usuário deve fazer logoff do aplicativo manualmente e inserir as credenciais da segunda conta para fazer logon. Se o usuário fizer logoff do Teams e reiniciar o computador, ao reiniciar, o Teams fará logon automaticamente usando o perfil associado ao domínio. <br/> | Não há solução alternativa. <br/> |02/08/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -163,7 +163,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os usuários não podem acessar Reuniões/Conectores, mas têm caixas de correio do Exchange Online. <br/> |O cliente bloqueia ativamente o EWS de serviços no Exchange Online, mas o MS Teams precisa estar em conformidade com as políticas do EWS. <br/> |Para que o MS Teams esteja em conformidade, você deve adicionar a seguinte Cadeia de Caracteres de Agente de Usuário ao MS Teams em EWSAllowList: `*skypespaces*`, incluindo os asteriscos. O comando completo é: `set-organizationconfig -ewsallowlist *skypespaces*`<br/> Para obter mais informações, confira: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
+|Os usuários não podem acessar Reuniões/Conectores, mas têm caixas de correio do Exchange Online. <br/> |O cliente bloqueia ativamente o EWS de serviços no Exchange Online, mas o MS Teams precisa estar em conformidade com as políticas do EWS. <br/> |Para que o MS Teams esteja em conformidade, você deve adicionar a seguinte Cadeia de Caracteres de Agente de Usuário ao MS Teams em EWSAllowList: `*skypespaces*` e `*microsoftninja*`, incluindo os asteriscos. Pode ser usado o seguinte comando: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Para obter mais informações, confira: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
