@@ -3,7 +3,7 @@ title: Planejar for Microsoft 365 governamental - implantações GCC - Microsoft
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/10/2018
+ms.date: 12/19/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,19 +14,19 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9571a52d99e9993161b6de99a190bc9b675f78
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
+ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240906"
+ms.lasthandoff: 12/19/2018
+ms.locfileid: "27378573"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
 Neste guia se destina a profissionais de TI que estão orientando a implantações do Office 365 em US federal, estado, entidades governamentais local, tribal ou região ou outras entidades que lidam com dados que estão sujeito a regulamentos do governo e requisitos, onde o uso da Microsoft 365 governamental - GCC é apropriado para atender a esses requisitos.
 
 > [!NOTE]
-> Se sua organização já tiver atendidos Microsoft 365 governo - requisitos de qualificação GCC e aplicadas para e foi aceita no programa, poderá ignorar as etapas 1 a 4 e ir diretamente para a etapa 5 para começar sua implantação. 
+> Se sua organização já tiver atendidos Microsoft 365 governo - requisitos de qualificação GCC e aplicadas para e foi aceita no programa, poderá ignorar as etapas 1 e 2 e ir diretamente para a etapa 3. 
 
 ## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Etapa 1. Determine se a sua organização precisa governo de 365 da Microsoft - GCC e atende aos requisitos de qualificação. 
 
@@ -46,16 +46,27 @@ A [Descrição do serviço Office 365 US governamentais](https://technet.microso
 > [!Tip]
 > Talvez você queira os índices de informações na descrição do serviço de transferência em uma pasta de trabalho do Excel e adicionar duas colunas: **relevante para minha organização Y/N** e **atende às necessidades da minha organização Y/N**. Em seguida, você pode revisar essa lista com seus colegas para confirmar que esse serviço atenda às necessidades da sua organização.
 
-
 |    |     |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Microsoft 365 governamental - GCC é adequado para sua organização.</li><li>Confirme se sua organização atende aos requisitos de qualificação.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Entenda os recursos fornecidos pelo Microsoft 365 governamental - GCC.</li></ul>|
 
 > [!Note]
 > Microsoft 365 governamental - GCC só está disponível nos Estados Unidos. Clientes do governo não – dos EUA podem escolher um número de [planos do Office 365 governamental](https://products.office.com/en/government/compare-office-365-government-plans).
 
-## <a name="step-2-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Etapa 2. Entenda quais recursos estão atualmente indisponível ou desabilitado por padrão. 
+
+## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Etapa 2. Aplicar Microsoft 365 governamental - GCC
+
+Tendo decidiu que esse serviço é certo para sua organização, inicie o processo de [aplicação para esse serviço aqui](https://products.office.com/government/eligibility-validation).
+
+## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Etapa 3. Compreenda o governo Microsoft 365 - configurações de segurança padrão GCC.
+
+É recomendável que você leve hora de revisar cuidadosamente suas [configurações de segurança e administração](enable-features-office-365.md) antes de modificá-los e considere impactos em conformidade antes de fazer qualquer alteração de configurações de segurança padrão.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida que se você vai modificar quaisquer das padrão Microsoft 365 governamental - configurações de segurança GCC, resolvendo primeiro compreender o impacto das alterações você pode fazer.</li></ul> |
+
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Etapa 4. Entenda quais recursos estão atualmente indisponível ou desabilitado por padrão. 
 
 Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas diferenças entre Microsoft 365 governamental - GCC e planos de empresa. Consulte a tabela a seguir para ver quais recursos estão disponíveis.
 
@@ -76,7 +87,7 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | | Guia do OneNote | Em todas as agências governamentais |
 | | Um canal de email | Não disponível |
 | | Adicionar membro | Disponível |
-| | Acesso de convidados | Disponível |
+| | Acesso de convidado | Disponível |
 | Reuniões | Agendar reunião | Disponível |
 | | Ingressar em reunião | Disponível |
 | | Reunião de VoIP | Disponível |
@@ -115,7 +126,7 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | Arquivos | Recentes | Disponível |
 | | Microsoft Teams | Disponível |
 | Repositório | App Store | Em todas as agências governamentais |
-| Pesquisar | Mensagens | Disponível |
+| Pesquisa | Mensagens | Disponível |
 | | Pessoas | Disponível |
 | | Arquivos | Disponível |
 | | Barra de comandos | Disponível |
@@ -126,27 +137,17 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | | eDiscovery | Disponível |
 
 
-
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se o Microsoft 365 governamental - GCC conjunto de recursos atende às necessidades da sua organização.</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Compreenda as configurações de segurança padrão.</li></ul>|
-
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Etapa 3. Compreenda o governo Microsoft 365 - configurações de segurança padrão GCC.
-
-É recomendável que você leve hora de revisar cuidadosamente suas [configurações de segurança e administração](enable-features-office-365.md) antes de modificá-los e considere impactos em conformidade antes de fazer qualquer alteração de configurações de segurança padrão.
-
-|    |     |
-|-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida que se você vai modificar quaisquer das padrão Microsoft 365 governamental - configurações de segurança GCC, resolvendo primeiro compreender os impactos de quaisquer alterações você pode fazer.</li></ul> |
-
-## <a name="step-4-apply-for-microsoft-365-government---gcc"></a>Etapa 4. Aplicar Microsoft 365 governamental - GCC
-
-Tendo decidiu que esse serviço é certo para sua organização, inicie o processo de [aplicação para esse serviço aqui](https://products.office.com/government/eligibility-validation).
+| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Decida se o conjunto de recursos de equipes atende às necessidades da sua organização.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Etapa 5. Plano de governança
 
 Determine os requisitos de governança e como você pode atender a eles. Vá para [Planejar a governança em equipes](plan-teams-governance.md) para obter mais informações.
+
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Determinar e documentar os requisitos de governança, seguindo as diretrizes do [plano de governança em equipes](plan-teams-governance.md).</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
 
