@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumo: Explore esses links para aprender a desenvolver conceituais, lógicos e designs físicos para configurar Skype para recursos corporativos Server 2019, servidores e topologias.'
-ms.openlocfilehash: 83b406401d377d8ffd4b46aee3a5264273bb142b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4ddaeac0f0e06c8e11e7a98dc46755c907b2937f
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531292"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382844"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planejar sua Skype para implantação Business Server 2019
  
@@ -49,8 +49,7 @@ Os seguintes artigos sobre como planejar Skype para Business Server estão dispo
 |**[Plano para integrar o Skype for Business e o Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)** <br/><br/>Sua organização implantar Exchange Server e do Skype para Business Server? Se estiver, leia para saber como é possível integrar os recursos de ambos os produtos. Por exemplo, informações de presença e arquivamento de dados.   |**[Planejar clientes e dispositivos](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)** <br/><br/>Skype para Business Server oferece suporte a uma coleção de interfaces de cliente que pode ser implantado para os usuários da organização. Um planejamento elaborado garante que os funcionários obtêm o que precisam e que o Skype para negócios está disponível para acessá-los, onde quer que estejam ser.   |
 |**[Planejar para implantações de servidor de borda no Skype para Business Server](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)** <br/><br/> Sua organização se comunicar com usuários externos à rede interna? Em caso afirmativo, leia sobre como implantar o servidor de borda para oferecer suporte a comunicações através do firewall da organização.   |**[Planejar para alta disponibilidade e recuperação de desastres no Skype Business Server](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** <br/><br/>Alta disponibilidade refere-se ao certificando-se de que o Skype para serviços de Business Server estão disponíveis, mesmo se um ou mais servidores cair. Recuperação de desastre significa manter esses servidores em atividade na ocorrência de um desastre natural ou causado pelo homem, e preservar, na medida do possível, os dados anteriores ao desastre. Leia os tópicos desta seção para planejar a alta disponibilidade e recuperação de desastres.   |
 |**[Planejamento de conferência no Skype para Business Server](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> Quais são os requisitos de conferência para sua organização? Leia sobre webconferência, conferência A/V e recursos e requisitos de conferência discada.   |**[Planejar a segurança no Skype para Business Server](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>Encontre recursos sobre autenticação de usuário, autenticação de servidor-para-servidor e autenticação do aplicativo para ajudá-lo a compreender e planejar a autenticação no Skype para o servidor de negócios.   |
-|**[Skype para soluções híbridas de negócios](../hybrid/hybrid-solutions.md)**  <br/><br/>Você possui usuários hospedados no local Skype para Business Server e Skype para Business Online? Em caso positivo, leia sobre como você pode configurar uma implantação híbrida que sincroniza usuários locais e online em um único domínio.   ||
-|||
+|**[Planejar a conectividade híbrida](../hybrid/plan-hybrid-connectivity.md)**  <br/><br/>Você possui usuários hospedados no local Skype para Business Server e Skype para Business Online? Em caso positivo, leia sobre como você pode configurar uma implantação híbrida que sincroniza usuários locais e online em um único domínio.   
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Recursos adicionais sobre o planejamento do Skype para Business Server
 

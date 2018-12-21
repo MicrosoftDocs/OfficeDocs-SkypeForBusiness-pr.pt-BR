@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumo: Revise as considerações de DNS neste tópico antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 20e520d0ecb43d098855c434db740592eb7c760c
-ms.sourcegitcommit: 042717530bffa18ca401ad6665a652212a85bc99
+ms.openlocfilehash: 8f47d7de61521c3908a8094bb7c6c866a55c4842
+ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/29/2018
-ms.locfileid: "26984745"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "27382851"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos de DNS para Skype para Business Server
 
@@ -123,7 +123,7 @@ DNS de dupla personalidade é uma configuração de DNS em que há duas zonas DN
 ## <a name="hybrid-considerations"></a>Considerações sobre o híbrido
 <a name="BK_Hybrid"> </a>
 
-Se você pretende ter alguns usuários hospedagem online e alguns hospedados no local, consulte a conectividade híbrida artigos de planejamento para [Skype para Business Server 2015](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#BKMK_DNS) e [Skype para Business server 2019](../../../SfBServer2019/hybrid/hybrid-solutions.md). Você precisará configurar o DNS como de costume para Skype para Business Server 2015 e também adicionar registros DNS adicionais.
+Se você pretende ter alguns usuários hospedagem online e alguns hospedados no local, consulte a conectividade híbrida planning artigo [Skype para Business server 2019](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md). Você precisará configurar o DNS como de costume para Skype para Business Server 2015 e também adicionar registros DNS adicionais.
 
 Você também deve consultar a "IP e URLs do Office 365 intervalos de endereços" em [https://aka.ms/o365ips](https://aka.ms/o365ips) para confirmar que seus usuários terão acesso aos recursos online que precisarão.
 
