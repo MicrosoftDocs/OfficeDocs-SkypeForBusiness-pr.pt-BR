@@ -488,6 +488,9 @@
 #### [O que são planos de discagem?](what-are-dial-plans.md)
 #### [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 ### Sistema de Telefonia
+#### Telefones para equipes
+##### [Telefones para equipes da Microsoft](phones-for-teams.md)
+##### [Comprar e implantar telefones IP de equipes da Microsoft](buying-and-deploying-teams-ip-phones.md)
 #### [O que é o Sistema de Telefonia no Office 365?](what-is-phone-system-in-office-365.md)
 #### [Configuração do Sistema de Telefonia na sua organização](setting-up-your-phone-system.md)
 #### [Alterar o idioma padrão para saudações de caixa postal e e-mails](change-the-default-language-for-greetings-and-emails.md)
