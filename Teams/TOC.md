@@ -90,6 +90,7 @@
 ### [Gerenciar a oferta de avaliação de equipes comerciais](iw-trial-teams.md)
 ### [Atualizar equipes gratuitas para a versão de assinatura do Office 365](upgrade-freemium.md)
 ## Dispositivos suportados
+### [Gerenciar seus dispositivos em equipes](device-management.md)
 ### [Telefones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Dispositivos de áudio e vídeos USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Soluções e dispositivos de sala de reunião](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -490,7 +491,7 @@
 #### [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 ### Sistema de Telefonia
 #### Telefones para equipes
-##### [Telefones para equipes da Microsoft](phones-for-teams.md)
+##### [Telefones para o Microsoft Teams](phones-for-teams.md)
 ##### [Comprar e implantar telefones IP de equipes da Microsoft](buying-and-deploying-teams-ip-phones.md)
 #### [O que é o Sistema de Telefonia no Office 365?](what-is-phone-system-in-office-365.md)
 #### [Configuração do Sistema de Telefonia na sua organização](setting-up-your-phone-system.md)
