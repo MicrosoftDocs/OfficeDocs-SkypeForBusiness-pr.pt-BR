@@ -3,7 +3,7 @@ title: Visão geral da implantação do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5e00eb139e25061726dfe080c90457efd87da96
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: e878fb50157e3c62c3425dfcea6d45e29a3be781
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016465"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544132"
 ---
 <a name="overview-of-a-microsoft-teams-deployment"></a>Visão geral da implantação do Microsoft Teams
 ========================================
@@ -45,7 +45,7 @@ Eis um exemplo de como você pode configurar uma estrutura de equipe/canal para 
 
 |Nome da equipe |Canais  |Guias  |
 |---------|---------|---------|
-|Implantação de equipes<br></br>Membros:<ul><li>Patrocinador do projeto</li><li>Analista de negócios</li><li>Gerente de projetos</li><li>Profissional de TI de colaboração</li><li>Profissional de TI de rede</li><li>Líder de adoção </li><li>Líder de suporte</li></ul>Proprietários: <ul><li>Gerente de projetos</li><li>Profissional de TI de colaboração</li></ul>      |Planejamento e prontidão<br></br> Adoção<br></br> Distribuição<br></br> Suporte<br></br> Insights<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Link de orientações práticas da página do Microsoft Teams ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
+|Implantação de equipes<br></br>Membros:<ul><li>Patrocinador do projeto</li><li>Analista de negócios</li><li>Gerente de projetos</li><li>Profissional de TI de colaboração</li><li>Profissional de TI de rede</li><li>Líder de adoção </li><li>Líder de suporte</li></ul>Proprietários: <ul><li>Gerente de projetos</li><li>Profissional de TI de colaboração</li></ul>      |Planejamento e prontidão<br></br> Adoção<br></br> Distribuição<br></br> Suporte<br></br> Insights<br></br><br></br><br></br><br></br><br></br><br></br><br></br>          |Vincular uma orientação prática para página da web Teams da Microsoft ([https://docs.microsoft.com/MicrosoftTeams](https://docs.microsoft.com/MicrosoftTeams)) <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>        |
 
 No Microsoft Teams, essa configuração teria a seguinte aparência:
 
@@ -61,3 +61,11 @@ No Microsoft Teams, essa configuração teria a seguinte aparência:
 
 
 Para acompanhar esses pontos de decisão, baixe o questionário de planejamento técnico em [Início rápido:habilitar o Microsoft Teams](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx).
+
+## <a name="how-microsoft-deployed-teams"></a>Como a Microsoft implantou as equipes
+
+Para ver como a Microsoft implantado e está usando o Microsoft Teams para colaboração, consulte:
+
+- [Implantar o Microsoft Teams simplifica a colaboração e melhora o trabalho em equipe](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
+- [Microsoft Teams aumenta a colaboração no local de trabalho moderno na Microsoft](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
+

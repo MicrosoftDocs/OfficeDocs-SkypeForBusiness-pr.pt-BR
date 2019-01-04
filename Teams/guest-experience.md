@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55f1a2ae8c958dba9dbdd71b9b271944dad1f50c
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 51d0de81701983fb64c60c5c4e29b9e6511b6357
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674549"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544140"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -110,17 +110,24 @@ A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para 
   
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
   
-Q. Convidados que tem os mesmos recursos que os membros da equipe? R. n º de Para obter mais informações sobre qual um convidado pode ou não fazer, vá para capacidades de convidado em equipes.
+Q. Convidados que tem os mesmos recursos que os membros da equipe?<br>
+. Não. Para obter mais informações sobre qual um convidado pode ou não fazer, vá para capacidades de convidado em equipes.
 
-Q. Quantos convidados podem convidar? A. você pode adicionar até 5 convidados por usuário licenciado.
+Q. Quantos convidados podem convidar?<br>
+. Você pode adicionar até 5 convidados por usuário licenciado.
 
-Q. Convidados que tem acesso ao OneDrive for Business? R. n º de
+Q. Convidados que tem acesso ao OneDrive for Business?<br>
+. Não.
 
-Q. Os convidados têm acesso aos arquivos do SharePoint? R. Sim.
+Q. Os convidados têm acesso aos arquivos do SharePoint?<br>
+. Sim.
 
-Q. Convidados podem pesquisar nos arquivos? R. n º de
+Q. Convidados podem pesquisar nos arquivos?<br>
+. Não.
 
-Q. Podem convidados anexar arquivos? R. Sim, o convidado pode anexar arquivos desses duas maneiras: • Selecione arquivos no painel esquerdo e, em seguida, navegue até o local do arquivo.
+Q. Podem convidados anexar arquivos?<br>
+. Sim, o convidado pode anexar arquivos desses duas maneiras: • Selecione arquivos no painel esquerdo e, em seguida, navegue até o local do arquivo.
 • Upload de seus computadores.
 
-Q. Um convidado pode baixar a um arquivo em um bate-papo privado? R. Sim, eles podem receber um arquivo de um membro em um bate-papo privado e, em seguida, baixe-o para sua área de trabalho.
+Q. Um convidado pode baixar a um arquivo em um bate-papo privado?<br>
+. Sim, eles podem receber um arquivo de um membro em um bate-papo privado e, em seguida, baixe-o para sua área de trabalho.

@@ -1,9 +1,9 @@
 ---
-title: Planejar for Microsoft 365 governamental - implantações GCC - Microsoft Teams
+title: Plano para o Microsoft 365 Government ‒ implantações de GCC ‒ Microsoft Teams
 author: lolajacobsen
 ms.author: lehewe
 manager: serdars
-ms.date: 12/19/2018
+ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 978f9d6b298bb1376b236a883dad836d6e6b5860
-ms.sourcegitcommit: b4c7f2a0c5660610469fbb67e9810dd3fdcedbaa
+ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
+ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27378573"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27544196"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
@@ -151,7 +151,7 @@ Determine os requisitos de governança e como você pode atender a eles. Vá par
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
 
-Depois que você fez onboarded ao Microsoft 365 governo - GCC, você pode seguir a abordagem de implantação padrão do uso [FastTrack](https://fasttrack.microsoft.com/fasttrack-faq) e seu parceiro escolhido para integrado ao serviço.
+Depois que você fez onboarded ao Microsoft 365 governo - GCC, você pode seguir a abordagem de implantação padrão do uso [FastTrack](https://www.microsoft.com/fasttrack) e seu parceiro escolhido para integrado ao serviço.
 
 Quando você estiver pronto, implante equipes para [Habilitar a colaboração dentro da sua organização por meio de equipes e canais](teams-overview.md). Certifique-se de que se comprometer com sua equipe de adoção e gerenciamento de alterações ou os campeões equipes.
 
