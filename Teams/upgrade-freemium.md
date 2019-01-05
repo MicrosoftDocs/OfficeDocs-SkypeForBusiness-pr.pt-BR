@@ -1,5 +1,5 @@
 ---
-title: Atualizar Teams gratuito da Microsoft para a versão de assinatura do Office 365
+title: Atualizar o Microsoft Teams gratuitamente para a versão de assinatura do Office 365
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,14 +16,14 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92693db68372c3981f1ba7944403b4d0d0f2025c
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
+ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27383504"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "27733199"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Atualizar Teams gratuito da Microsoft para a versão de assinatura do Office 365
+<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Atualizar o Microsoft Teams gratuitamente para a versão de assinatura do Office 365
 ======================================================
 
 Se sua organização estiver usando a versão gratuita do Microsoft Teams, você pode facilmente atualizar para a versão completa adquirindo um plano de assinatura do Office 365 para seus usuários. A versão completa oferece recursos de equipes adicionais — like agendamento, conferência de áudio, administração avançada e recursos de segurança — que a versão gratuita não fornece. O Office 365 combina o pacote da área de trabalho do Microsoft Office familiarizado com versões baseadas em nuvem dos serviços de colaboração e comunicações da próxima geração da Microsoft — incluindo o Exchange Online, SharePoint Online e Office Online — para ajudar os usuários sejam mais produtivos praticamente em qualquer lugar através da internet. Quando você atualiza equipes, seus dados de equipes existentes não serão perdidos; todas as suas equipes, canais, bate-papos, arquivos e permissões vêm com você. 
@@ -83,6 +83,10 @@ Para atualizar para a versão completa de equipes, selecione **Atualizar** em eq
 ![captura de tela mostrando botão de atualização](media/teams-freemium-upgrade-image1.png)
 
 Insira o endereço de email que você usa para entrar em equipes e, em seguida, adquirir um plano do Office 365 Business Premium. Se você gostaria de compra Essentials de negócios do Office 365 ou a edição Enterprise do Office 365, [contate o suporte](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade).
+
+## <a name="whats-next"></a>Qual é a próxima?
+
+Quando a atualização for concluída, consulte [Introdução ao equipes da Microsoft](get-started-with-teams-landing-page.md) para a primeira etapas e [Adotar as equipes da Microsoft](adopt-microsoft-teams-landing-page.md) para uma abordagem em fases para a adoção de equipes em toda a organização.
 
 ## <a name="more-information"></a>Mais informações
 
