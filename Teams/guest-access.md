@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db3f5e451e9b1a68588af637f10a908f7fa5ff9
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: a486fb17e5ce09d7084d013479ab3087bcbe3f07
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674501"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "27760531"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso de convidados no Microsoft Teams
 ======================================
@@ -33,7 +33,7 @@ Acesso de convidado é um dos recursos que os clientes solicitaram ao máximo. A
 - Compartilhe sua experiência na seção Comentários a seguir.
 
 
-Acesso de convidado permite que as equipes em sua organização para colaborar com pessoas fora da sua organização, concedendo a eles acesso às equipes existentes e canais em um ou mais dos seus inquilinos. Qualquer pessoa com uma conta de email de consumidor ou de negócios, como o Outlook, Gmail ou outras pessoas, pode participar como um convidado em equipes com acesso completo à equipe chats, reuniões e arquivos.
+Acesso de convidado permite que as equipes em sua organização para colaborar com pessoas fora da sua organização, concedendo a eles acesso às equipes existentes e canais em um ou mais dos seus inquilinos. Qualquer pessoa com uma conta de email comercial ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe.
 
 Acesso de convidado está incluído no Business Premium do Office 365, Office 365 Enterprise e Office 365 educação todas as inscrições com nenhum requisito de licenciamento adicional. Você pode ter até 5 convidados por usuário licenciado no seu locatário. Para obter mais informações sobre licenciamento, consulte as [diretrizes de licenciamento de colaboração do Windows Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 
@@ -44,7 +44,7 @@ O acesso de convidados é uma configuração em nível de locatário no Microsof
 
 ## <a name="who-is-a-guest"></a>Quem é um convidado?
 
-Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faz parte da sua organização pode ser adicionada como convidado em equipes. Isso significa que qualquer pessoa com uma conta de negócios (ou seja, uma conta do Windows Azure Active Directory) ou a conta de email do consumidor (com Outlook.com, Gmail.com ou outras pessoas) pode participar como um convidado em equipes, com acesso total às equipes e experiências de canal. (Você pode ler sobre as restrições de convidado em [autorizar o acesso de convidado em equipes da Microsoft](teams-dependencies.md)). Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD. Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD.
+Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faz parte da sua organização pode ser adicionada como convidado em equipes. Isso significa que qualquer pessoa com uma conta de negócios (ou seja, uma conta do Windows Azure Active Directory) ou a conta de email do consumidor (com Outlook.com, Gmail.com ou outras pessoas) pode participar como um convidado em equipes, com acesso total às equipes e experiências de canal. (Você pode ler sobre as restrições de convidado em [autorizar o acesso de convidado em equipes da Microsoft](teams-dependencies.md)). Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD. 
 
 ## <a name="why-use-guest-access"></a>Por que usar o acesso de convidado?
       

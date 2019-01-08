@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Para os clientes que requerem a telefones de mesa e telefones de sala de conferência para fazer e receber chamadas de áudio ou ingressar em reuniões, Teams da Microsoft oferece um portfólio crescente de dispositivos. Clientes diretamente podem comprar esses dispositivos no nosso Marketplace de equipes.
-ms.openlocfilehash: f84bf50e7139b82c97af47e62fc128f5a178b5d0
-ms.sourcegitcommit: a4fed143f0e906c2b70933dd2db8f751e4eb46ba
+ms.openlocfilehash: c91a20f100e8edf9b7a6d9897b693ec0f511657f
+ms.sourcegitcommit: 370741f97ed8ea5026f73ec97de2f89b223df9fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/08/2019
-ms.locfileid: "27747965"
+ms.locfileid: "27760555"
 ---
 # <a name="buying-and-deploying-microsoft-teams-ip-phones"></a>Comprar e implantar telefones IP de equipes da Microsoft
 
@@ -27,7 +27,7 @@ Para os clientes que requerem a telefones de mesa e telefones de sala de confer�
 
 Telefones devem estar em uma versão de firmware mínimo listados na tabela a seguir para executar o Microsoft Teams nativamente.
 
-|Modelo de telefone|Versão de firmware|Data do lançamento|
+|Modelo de telefone|Versão de firmware|Data do lançamento |
 |---|---|---|---|
 |AudioCodes C450HD| Em breve |Em breve|
 |Crestron flexível P100-T/P110-T    |Em breve|Em breve
