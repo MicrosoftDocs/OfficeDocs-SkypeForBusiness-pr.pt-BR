@@ -1,7 +1,7 @@
 ---
 title: Como um convidado entra em uma equipe
-author: LolaJacobsen
-ms.author: rramesan
+author: somakbhattacharyya
+ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
 ms.topic: article
@@ -12,17 +12,17 @@ search.appverid: MET150
 description: Obtenha um breve panorama de como um convidado é chamado para entrar em uma equipe do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1d1de994792aa683e6ed202c54586cd985e8ab3
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: 2360d6985b3d047dc6b5159a8dd45d0f1da38223
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674469"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772749"
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado entra em uma equipe
 ========================
 
-Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convidados em suas equipes através da web ou do desktop. Qualquer pessoa com uma conta de email de consumidor ou de negócios, como o Outlook, Gmail ou outras pessoas, pode participar como um convidado em equipes com acesso completo à equipe chats, reuniões e arquivos. Apenas pessoas de fora da sua organização, como parceiros ou consultores, podem ser adicionadas como convidados. As pessoas pertencentes à sua organização podem entrar como membros de equipe regulares.
+Um proprietário de equipe do Microsoft Teams pode adicionar e gerenciar convidados em suas equipes através da web ou do desktop. Qualquer pessoa com uma conta de email comercial ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe. Apenas pessoas de fora da sua organização, como parceiros ou consultores, podem ser adicionadas como convidados. As pessoas pertencentes à sua organização podem entrar como membros de equipe regulares.
   
     
     

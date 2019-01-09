@@ -1,6 +1,6 @@
 ---
 title: Autorizar acesso de convidados no Microsoft Teams
-author: lolaj
+author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18
@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76fae371f8cc82992f3396ae49cc9a4dff4432b0
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: e07bfc162f2d3fbc59aa26dcf2cabd1bcf003e74
+ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674509"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "27772781"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
