@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: Saiba mais sobre o que considerar ao planejar o painel de controle de qualidade de chamada.'
-ms.openlocfilehash: 6df705b4d3b39bdd9f75d328277d9aa1c5fc23d1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531230"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789366"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planejar o painel de controle de qualidade de chamada for Skype para Business Server 
  
@@ -83,7 +83,7 @@ Os dados CQD podem ser exibidos através do Portal de CQD e pode ser acessados p
 
 O Portal é a maneira mais rápida para exibir os dados no cubo. O Portal vem com vários relatórios internos que são utilizáveis imediatamente. Os relatórios internos estão vinculados uma maneira estruturada para guiar o usuário para sucessivamente menores e menores subconjuntos dos dados de chamada. Os relatórios internos também destacam as várias maneiras diferentes, que os dados possam ser exibidos demonstrando uma combinação de gráficos e tabelas com diferentes dinamização, filtros e medidas. Cada usuário que acessa o Portal pode ter seu próprio conjunto de relatórios que ele/ela pode modificar e compartilhar. Para obter mais informações sobre o uso do Portal do Web CQD, consulte o [Painel de qualidade de chamada de uso do Skype para Business Server](use.md).
   
-Sistemas operacionais suportados para o Portal CQD: Windows 8.1, Windows 8, Windows Server 2012 R2 e Windows Server 2012.
+Sistemas operacionais suportados para o Portal CQD: Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 e Windows Server 2016 (Skype para Business Server 2019 CQD apenas).
   
 Navegadores compatíveis com do Portal CQD: Internet Explorer 11, o Internet Explorer 10 e o Internet Explorer 9.
   
@@ -238,7 +238,7 @@ Os seguintes sistemas operacionais são necessários para CQD:
     
 - Windows Server 2012 R2 com o IIS 8,5
 
-- Windows Server 2016 com o IIS
+- Windows Server 2016 com o IIS 10.0 (Skype para Business Server 2019 CQD somente)
     
 Estes são os serviços de função do IIS necessários (em ordem hierárquica):
   

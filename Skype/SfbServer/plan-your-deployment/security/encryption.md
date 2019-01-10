@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype para Business Server usa o TLS e MTLS para criptografar mensagens instantâneas. Todo o tráfego de servidor para servidor necessita do MTLS, independentemente se o tráfego está restrito à rede interna ou se ultrapassa seu perímetro. Quando a conexão Skype para Business Server a 3º sistemas IPPBX de terceiros ou troncos SIP TLS é opcional, mas altamente recomendado entre o servidor de mediação e o gateway de mídia. Se o TLS for configurado neste link, o MTLS será necessário. Portanto, o gateway deve ser configurado com um certificado de uma autoridade de certificação confiável pelo servidor de mediação.
-ms.openlocfilehash: d6793af3329918af6d566199f8d9fd752df49a71
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: 1a109bea59644e00b3b010c42d9b12918296b47c
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27382865"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789373"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>Criptografia do Skype para Business Server
  
@@ -45,7 +45,7 @@ A seguinte tabela resume os requisitos de protocolo para cada tipo de tráfego.
 O tráfego de mídia é criptografado usando SRTP (Secure RTP), um perfil do protocolo RTP que fornece confidencialidade, autenticação e proteção contra ataques de repetição para o tráfego RTP. Além disso, a mídia que flui em ambas as direções entre o Servidor de Mediação e seu próximo salto interno também é criptografada usando SRTP. A mídia que flui em ambas as direções entre o Servidor de Mediação e um gateway de mídia é criptografada opcionalmente e recomendada. O Servidor de Mediação pode dar suporte à criptografia para o gateway de mídia, mas o gateway deve dar suporte a MTLS e ao armazenamento de um certificado.
   
 > [!NOTE]
-> Se você estiver implementando um ambiente híbrido, você também deve modificar o Skype para o nível de criptografia do servidor de negócios. Por padrão, o nível de criptografia é Exigido. Você deve alterar essa configuração como com suporte usando o Skype do Shell de gerenciamento do servidor de negócios. Para obter mais informações sobre a configuração híbrida, consulte [Planejar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
+> Para obter mais informações sobre a configuração híbrida, consulte [Planejar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md).
   
 ## <a name="fips"></a>FIPS
 

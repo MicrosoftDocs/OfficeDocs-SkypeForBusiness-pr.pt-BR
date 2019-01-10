@@ -1,5 +1,5 @@
 ---
-title: Criar seu primeiro equipes e canais no Microsoft Teams
+title: Criar suas primeiras equipes e canais no Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 496d5f941f245d513aefbf165e37c33d9e431780
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: c2cb8fb04f244139255cb363a6779379824cb709
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519615"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789319"
 ---
-# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Criar seu primeiro equipes e canais no Microsoft Teams
+# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Criar suas primeiras equipes e canais no Microsoft Teams
 
 Configurar e usar seu primeiro conjunto de equipes e canais cria sua experiência com equipes e identifica os campeões que podem ajudar incentivar a adoção de equipes em toda a organização. 
 
@@ -41,7 +41,7 @@ Aqui está uma estrutura sugerida para a equipe.
 | ------------ | -------------------- | -------------------- |
 | Geral | Todas as equipes começam com um canal geral. Use esse canal para fazer comunicados à medida que você começa a conhecendo equipes. |  |
 | Diga hi | Apresente-se para a equipe e compartilhe o que você deseja fazer a partir de equipes. |  |
-| Tutorial | Um canal para fazer perguntas instruções.</br>Etapa 1: instalar os clientes de desktop e portáteis.</br>Etapa 2: saltar para equipes.| Guia fixado que liga para o [Centro de ajuda as equipes](https://support.office.com/teams)</br>Guia fixado que vincula às [equipes vídeos de treinamento](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Guia fixado que vincula às [equipes de links de download do cliente de desktop e portáteis](https://teams.microsoft.com/downloads) |
+| Passo a passo | Um canal para fazer perguntas instruções.</br>Etapa 1: instalar os clientes de desktop e portáteis.</br>Etapa 2: saltar para equipes.| Guia fixado que liga para o [Centro de ajuda as equipes](https://support.office.com/teams)</br>Guia fixado que vincula às [equipes vídeos de treinamento](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Guia fixado que vincula às [equipes de links de download do cliente de desktop e portáteis](https://teams.microsoft.com/downloads) |
 | Comentários | Compartilhe suas ideias sobre suas experiências de equipes. | Guia fixado com Polly votação|
 | Ideias para equipes futuras | Compartilhe suas ideias sobre onde as equipes podem orientar o valor adicional em sua organização. O que poderia essas equipes ser chamados? Que seria membros? ||
 | Suporte | Se algo não está funcionando conforme o esperado, use esse canal para obter ajuda. ||

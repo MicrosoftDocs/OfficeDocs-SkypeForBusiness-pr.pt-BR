@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01e74b526058842819e219fcaa34109a7f954ad4
-ms.sourcegitcommit: 1cb5a3570032250aecd5a1a839cbbe4daeb77f2c
+ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "26294671"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788953"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar guias internas e personalizadas no Microsoft Teams
 ==================================================
@@ -51,7 +51,7 @@ Proprietários e membros da equipe podem adicionar guias um canal, bate-papo pri
 
 ## <a name="develop-custom-tabs"></a>Desenvolvimento de guias personalizadas
 
-Além das guias internas, você pode criar e desenvolver seus próprios guias para integrar a equipes ou compartilhar com o restante da comunidade.
+Além das guias internas, você pode criar e desenvolver seus próprios guias para integrar a equipes ou compartilhar com o restante da comunidade. Você pode [controlar o acesso ao seu guia personalizada](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) , configurando o Office 365 grupos apropriados.
 
 Microsoft Developer Network fornece [instruções detalhadas](https://go.microsoft.com/fwlink/?linkid=855786) para projetar e criar seus próprios guias e os [guias de exemplo](https://go.microsoft.com/fwlink/?linkid=855787) desenvolvido pela Microsoft que podem ser baixados.
 

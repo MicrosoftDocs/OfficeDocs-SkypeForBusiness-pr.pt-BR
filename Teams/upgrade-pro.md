@@ -1,5 +1,5 @@
 ---
-title: Atualizar Pro para equipes da Microsoft - equipes da Microsoft
+title: Upgrade Pro para o Microsoft Teams - Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2613bd346a8780b23e1ca37fd37e148502e020c
-ms.sourcegitcommit: 4f848bba1b3522f1de573e3dac081906d47eb5ca
+ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25719123"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789380"
 ---
 # <a name="upgrade-pro"></a>Atualizar Pro
 
@@ -61,7 +61,7 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 |**1**     |**Avaliar o ambiente existente para identificar os requisitos e riscos**         |Avaliando seu ambiente, você pode identificar os riscos e os requisitos que influenciarão geral de implantação. Identificando desses itens de forma proativa, você pode ajustar seu planejamento ajudar a garantir o êxito.         |[Avaliar o seu ambiente antes de atualizar para equipes](upgrade-plan-journey-evaluate-environment.md)         |
 |**2**     |**Concluir a inclusão técnica do Office 365 e equipes**        |Aproveitando as listas de verificação de inclusão existente para identificar atividades para concluir a prontidão técnica para colaboração e recursos de voz com equipes e tarefas.         |[Preparar seu serviço para a atualização para equipes](upgrade-prepare-environment-prepare-service.md)         |
 |**3**     |**Otimizar a rede para equipes, especialmente para cenários de mídia em tempo real**         |Se você estiver implantando o áudio, vídeo ou reuniões, você pode realizar algumas etapas adicionais para otimizar a sua rede para essa funcionalidade. As equipes usa o áudio e vídeo tecnologia (codecs) que pode se adaptar ao&mdash;e, portanto, têm um melhor desempenho em&mdash;mais condições de rede. Para garantir o desempenho ideal e consistente, você deve preparar sua rede para equipes.          |[Preparar sua rede para a atualização para equipes](upgrade-prepare-environment-prepare-network.md)         |
-|**4**     |**Avaliar preparação de alteração organizacional e casos de uso de chave e personagens**        |Para compreender o valor de equipes, os usuários devem realmente usá-lo. Habilitar simplesmente equipes não garante que você obtenha seu objetivo. Os usuários têm diferentes casos de uso e os estilos de aprendizagem variados e adaptar-se para uma nova tecnologia em velocidades diferentes.  Noções básicas sobre sua base de usuários permite preparar o nível adequado de educação para facilitar e acelerar a adoção dos usuários.         |[Preparação de alteração organizacional](upgrade-org-change-readiness.md#organizational-change-readiness)<br><br>[Casos de uso](upgrade-org-change-readiness.md#use-cases)<br><br>[Personagens](upgrade-org-change-readiness.md#personas)           |
+|**4**     |**Avalie a preparação de alteração organizacional**        |Para compreender o valor de equipes, os usuários devem realmente usá-lo. Habilitar simplesmente equipes não garante que você obtenha seu objetivo. Os usuários têm diferentes casos de uso e os estilos de aprendizagem variados e adaptar-se para uma nova tecnologia em velocidades diferentes.  Noções básicas sobre sua base de usuários permite preparar o nível adequado de educação para facilitar e acelerar a adoção dos usuários.         |[Preparação de alteração organizacional](upgrade-org-change-readiness.md#organizational-change-readiness)           |
 |**5**     |**Preparar um plano de preparação do usuário para definir como você irá se comunicar, treinar e oferecer suporte a usuários**         |Para garantir receptiveness ideal para a nova tecnologia, use uma combinação de alcance de amplo número de mensagens (incorporação o vision/valor de mensagens e casso universal) e mensagens, treinamento e suporte adaptados ao personagens e colaboradores que você definiu e também à suas retardatários, conforme apropriado. Este plano personalizado ajudará a facilitar a adoção dos usuários, permitindo que os usuários mais rapidamente se relacionam com equipes, durante a demonstração que você entende às suas necessidades. Isso pode ser usado como você piloto, onboard e atualização para equipes.         |[Preparar um plano de preparação do usuário](upgrade-user-readiness.md)<br><br>[Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit)<br><br>[Treinamento em vídeo equipes](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)<br><br>[Alternar para equipes do Skype para negócios](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)       |
 |**6**     |**Anunciar o lançamento do Microsoft Teams pendente**       |Comunicação com sua aparência de usuários antecipado ajuda a usuários incluída, reduz a confusão gera interesse em Teams da Microsoft, ajudando a acelerar a atualização do Skype para negócios ao longo do tempo.          | [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit)         |
 |**7**     |**Preparar sua equipe de TI para equipes**         |Seus administradores de Inquilino do Office 365, líderes técnicos e para o suporte técnico são responsáveis por conduzir uma experiência de usuário de alta qualidade. Isso inclui a garantir que sua rede está pronta para oferecer suporte a equipes, configurando as equipes para seus usuários e poder efetivamente solucionar e resolver problemas que podem surgir.         |[Preparar sua equipe de TI for Microsoft Teams](https://docs.microsoft.com/microsoftteams/upgrade-prepare-it-pros)<br><br>[Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit)       |
@@ -82,7 +82,7 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 |Etapa  |  |Resumo |Recurso |
 |---------|---------|---------|---------|
 |**1**     |**Anunciar o lançamento oficial de equipes**       |Se comunicar com seus usuários sobre o início do seu lançamento organizacional de equipes para garantir o valor de divulgação e land e se beneficiam com os usuários. Considere a possibilidade de várias formas de comunicação, incluindo um evento de lançamento e email.         |[Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit)          |
-|**2**     |**Habilitar o modo de coexistência apropriado para seus usuários**         |Siga as etapas para definir o mode(s) coexistência certo para sua organização.         |[Definindo as configurações de atualização e coexistência](setting-your-coexistence-and-upgrade-settings.md)         |
+|**2**     |**Habilitar o modo de coexistência apropriado para seus usuários**         |Siga as etapas para definir o mode(s) coexistência certo para sua organização.         |[Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)         |
 |**3**     |**Permaneçam informados sobre o mapa de equipes**       |Monitorar o mapa de equipes e avaliar continuamente prontidão organizacional para identificar o momento certo para sua organização mover para equipes.         |[Mapa de equipes](https://aka.ms/teamsroadmap)         |
 |**4**     |**Enviar comunicações adicionais e envolva campeões equipes unidade** atrativo e adoção de equipes       |Incentivar a adoção de usuário e manter atrativo para equipes com campeões e de comunicação em andamento.          |[Programa de campeões 365 da Microsoft](https://aka.ms/O365Champions)         |
 

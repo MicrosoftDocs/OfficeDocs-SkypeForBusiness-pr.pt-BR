@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 7c22b4b0911935ffd90d10e65d2fff0d71018910
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b29ec51ddcb672f6727f7bc43958872962245ebb
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374550"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788971"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurar a rede para a Transmissão de Reunião do Skype
 
@@ -45,13 +45,13 @@ Use **um** dos métodos a seguir para configurar os domínios permitidos:
 
 2. Na página **compartilhamento externo** em **exceções de domínio**, selecione **todos os domínios são bloqueados, exceto**e insira os seguintes domínios, separados-os com uma vírgula (,):
 
-   - noammeetings.Lync.com
+   - noammeetings.lync.com
 
-   - emeameetings.Lync.com
+   - emeameetings.lync.com
 
-   - apacmeetings.Lync.com
+   - apacmeetings.lync.com
 
-   - Resources.Lync.com
+   - resources.lync.com
 
 3. Clique em **Salvar**.
 
@@ -93,7 +93,7 @@ A segunda etapa no processo de instalação é primeiro adicionar domínios que 
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurar a Transmissão de Reunião do Skype em implantações e organizações híbridas
 
-Se você tiver um Skype para a organização Business Online e uma implantação local do Lync Server 2010, Microsoft Lync Server 2013 e Skype para Business Server 2015 e ambos os usuários online e no local, há outras etapas de instalação que você precisará fazer em adição àquelas acima para permitir que sua organização local para se comunicar com Skype para Business Online e permitir que todos os usuários possam criar e ingressar em uma reunião do Skype transmissão. Para saber quais são esses requisitos, consulte [Configurar sua implantação local para Transmissão de Reunião do Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
+Se você tiver um Skype para a organização Business Online e uma implantação local do Lync Server 2010, Microsoft Lync Server 2013 e Skype para Business Server 2015 e ambos os usuários online e no local, há outras etapas de instalação que você precisará fazer em adição àquelas acima para permitir que sua organização local para se comunicar com Skype para Business Online e permitir que todos os usuários para ingressar em uma reunião do Skype transmissão. Para saber quais são esses requisitos, consulte [Configurar sua implantação local para Transmissão de Reunião do Skype](https://go.microsoft.com/fwlink/?LinkId=617070).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

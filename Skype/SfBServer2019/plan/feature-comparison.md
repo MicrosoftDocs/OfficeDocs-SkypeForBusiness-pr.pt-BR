@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: Skype para Business Server 2019 ou Skype para administradores corporativos Online pode usar estas tabelas para entender quais recursos são suportados em quais clientes.'
-ms.openlocfilehash: dfc9e568ae9d600e03e1473aff7bcf6571b68f38
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 296e96af455b7cea8cddf833acff19a665349933
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297689"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789108"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Comparação de recursos do cliente de desktop do Skype para Business Server 2019
 
@@ -135,9 +135,9 @@ Para obter detalhes, consulte o [Skype para negócios Online Service Description
 |Desabilitar mensagens instantâneas de reunião |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Ativar mudo da audiência |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Tornar todos participantes |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Produzir Transmissão de Reunião do Skype |& #x 2714; & #x 2779;|||& #x 2714; & #x 2780;||
+|Produzir Transmissão de Reunião do Skype |& #x 2714;|||||
 |O representante pode agendar uma reunião em nome do delegador |& #x 2714;|& #x 2714;|& #x 2714;|||
-|Sincronizar representantes entre o Skype for Business e o Outlook |& #x 2714;||& #x 2714;||| 
+|Sincronizar representantes entre o Skype for Business e o Outlook |& #x 2714;||& #x 2714;|& #x 2714;|| 
 |Definir Destaque de Vídeo (bloquear vídeo) |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;| 
 |Conceder/cancelar controle de compartilhamento de tela  |& #x 2714;||& #x 2714;|||
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Resumo: Configure contas de usuário de teste e configurações de nó do observador do Skype para transações sintéticas do Business Server.'
-ms.openlocfilehash: 3881fc1878ed3b248aa3109b79a3e384ec4a5fb7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989885"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789388"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar usuários de teste e configurações do nó do inspetor
  
@@ -33,12 +33,11 @@ Depois de configurar o computador que atuará como um nó do inspetor, você dev
 
 Contas de teste não precisará representam pessoas reais, mas eles devem ser contas válidas do Active Directory. Além disso, essas contas devem ser habilitadas para Skype para Business Server, eles devem ter endereços válidos de SIP e eles devem ser habilitados para o Enterprise Voice (usar a transação sintética de Test-CsPstnPeerToPeerCall). 
   
-Se você estiver usando o método de autenticação TrustedServer, tudo o que você precisa fazer é certificar-se de que essas contas existem e configurá-las como observado. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar. Se você estiver usando o método de autenticação negociar, você também deve usar o cmdlet Set-CsTestUserCredential e do Skype para Business Server Management Shell habilitar essas contas para trabalhar com as transações sintéticas de teste. Fazer isso executando um comando semelhante ao seguinte (esses comandos assumem que as três contas de usuário do Active Directory foram criadas e que essas contas estão habilitadas para Skype para Business Server):
+Se você estiver usando o método de autenticação TrustedServer, tudo o que você precisa fazer é certificar-se de que essas contas existem e configurá-las como observado. Você deve atribuir pelo menos dois usuários de teste para cada pool que você deseja testar. Se você estiver usando o método de autenticação negociar, você também deve usar o cmdlet Set-CsTestUserCredential e do Skype para Business Server Management Shell habilitar essas contas para trabalhar com as transações sintéticas de teste. Fazer isso executando um comando semelhante ao seguinte (esses comandos assumem que as duas contas de usuário do Active Directory foram criadas e que essas contas estão habilitadas para Skype para Business Server):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
-Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
 É necessário incluir não apenas o endereço SIP, mas também o nome e a senha do usuário. Se você não incluir a senha, o cmdlet Set-CsTestUserCredential solicitará que você insira essas informações. O nome de usuário pode ser especificado usando-se o formato de nome de domínio\nome de usuário indicado no bloqueio do código anterior.
@@ -48,7 +47,6 @@ Para verificar se as credenciais de usuário de teste foram criadas, execute est
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
-Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 ```
 
 Informações semelhantes a estas devem ser retornadas para cada usuário:
@@ -62,15 +60,15 @@ Informações semelhantes a estas devem ser retornadas para cada usuário:
 Depois que os usuários de teste são criados, você pode criar um nó do inspetor usando um comando semelhante a este:
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-Esse comando cria um novo nó do inspetor que usa as configurações padrão e executa o conjunto padrão de transações sintéticas. O novo nó do inspetor também usa os usuários de teste watcher1@litwareinc.com, watcher2@litwareinc.com, e watcher3@litwareinc.com. Se o nó do inspetor usa autenticação TrustedServer, as três contas de teste podem ser quaisquer contas válidas habilitadas para Active Directory e o Skype for Business Server. Se o nó do inspetor usa o método de autenticação Negociar, estas contas de usuário também deve ser ativadas para o nó do inspetor usando o cmdlet Set-Cs TestUserCredential.
+Esse comando cria um novo nó do inspetor que usa as configurações padrão e executa o conjunto padrão de transações sintéticas. O novo nó do observador também usa o teste usuários watcher1@litwareinc.com e watcher2@litwareinc.com. Se o nó do Inspetor usa a autenticação de TrustedServer, as duas contas de teste podem ser qualquer conta de usuário válido habilitada para o Active Directory e Skype para Business Server. Se o nó do inspetor usa o método de autenticação Negociar, estas contas de usuário também deve ser ativadas para o nó do inspetor usando o cmdlet Set-Cs TestUserCredential.
   
 Para validar se a descoberta automática de pool de destino a ser inserida está configurada corretamente, ao invés de direcionar um pool diretamente, siga as etapas abaixo:
   
 ```
-New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
+New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
 ### <a name="configuring-extended-tests"></a>Configurando testes estendidos
@@ -78,16 +76,16 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 Se quiser habilitar o teste PSTN, que verifica a conectividade com a rede telefônica pública comutada, você precisará fazer algumas configurações adicionais ao configurar o nó do inspetor. Primeiro, você deve associar seus usuários de teste ao tipo de teste da PSTN executando um comando semelhante a este no Shell de Gerenciamento do Skype for Business Server:
   
 ```
-$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
+$pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
 ```
 
 > [!NOTE]
 > Os resultados desse comando devem ser armazenados em uma variável. Neste exemplo, é uma variável chamada de $pstnTest. 
   
-Em seguida, você pode usar o cmdlet **New-CsWatcherNodeConfiguration** para associar o tipo de teste (armazenado na variável $pstnTest) para um Skype para pool de servidores de negócios. Por exemplo, o seguinte comando cria uma nova configuração de nó do inspetor para o pool atl-cs-001.litwareinc.com, adicionando os três usuários de teste que foram criados anteriormente e também adicionando o tipo de teste de PSTN:
+Em seguida, você pode usar o cmdlet **New-CsWatcherNodeConfiguration** para associar o tipo de teste (armazenado na variável $pstnTest) para um Skype para pool de servidores de negócios. Por exemplo, o comando a seguir cria uma nova configuração de nó de inspetor para o pool atl-cs-001, adicionando os dois usuários de teste criados anteriormente, e adicionando o PSTN tipo de teste:
   
 ```
-New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
+New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
 O comando anterior falhará se você não tiver instalado os arquivos de núcleo do Skype for Business Server 2015 e o banco de dados RTCLocal no computador do nó do inspetor. 
@@ -102,7 +100,7 @@ Como o cmdlet **New-CsWatcherNodeConfiguration** foi chamado sem usar o parâmet
     
 - IM
     
-- GroupIM
+- GroupIM (mensagens instantâneas de grupo)
     
 - P2PAV (sessões de áudio/vídeo ponto a ponto)
     
@@ -122,7 +120,7 @@ Os seguintes componentes não serão testados por padrão:
     
 - DataConference
     
-- DialinConferencing
+- DialInConferencing
     
 - ExumConnectivity (Unificação de Mensagens do Exchange)
     
@@ -202,7 +200,13 @@ Get-CsWatcherNodeConfiguration
 
 Você receberá informações semelhantes a estas:
   
-Identidade: atl-cs-001 TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: número da porta atl-cs-001: 5061To verificar que o nó do Inspetor foi configurado corretamente, digite o seguinte comando do Skype do Shell de gerenciamento do servidor de negócios:
+Identidade: atl-cs-001. <br/>
+TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...}<br/>
+ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
+TargetFqdn: atl-cs-001.<br/>
+Número da porta: 5061<br/>
+
+Para verificar que o nó do inspetor foi configurado corretamente, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server:
   
 ```
 Test-CsWatcherNodeConfiguration
@@ -210,15 +214,15 @@ Test-CsWatcherNodeConfiguration
 
 Este comando testará o nó do inspetor em sua implantação e confirmará se as seguintes ações foram concluídas:
   
-- A função Registrador Avançado necessária foi instalada.
+- A função registrador necessária está instalada.
     
-- A chave de registro necessária for criada (concluída ao executar o cmdlet Set-CsWatcherNodeConfiguration)
+- A chave de registro necessária é criada (concluído quando executou o cmdlet Set-CsWatcherNodeConfiguration).
     
-- Seus servidores estão executando a versão correta do Skype for Business Server
+- Seus servidores estão executando a versão correta do Skype para Business Server.
     
-- Suas portas foram configuradas corretamente
+- Suas portas estão configuradas corretamente.
     
-- Seus usuários de teste atribuídos têm as credenciais necessárias
+- Os usuários de teste atribuídos têm as credenciais necessárias.
     
 ## <a name="managing-watcher-nodes"></a>Gerenciar nós do inspetor
 <a name="testuser"> </a>
@@ -365,7 +369,7 @@ Neste exemplo, um Skype para regra Business Server precisará existir para encam
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transação sintética do Servidor de Interoperabilidade de Vídeo (VIS)
 
-A transação sintética do servidor de interoperabilidade de vídeo (VIS) requer que você baixe e instale os arquivos de suporte de transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+A transação sintética do VIS (Servidor de Interoperabilidade de Vídeo) exige que você baixe e instale os arquivos de apoio da transação sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Para instalar VISSTSupportPackage.msi, certifique-se de que as dependências (em Requisitos de Sistema) para o msi já se encontram instaladas. Executar VISSTSupportPackage.msi para realizar uma instalação simples. O arquivo. msi instala todos os arquivos no seguinte caminho: "%ProgramFiles%\VIS pacote de suporte de transação sintética".
   
@@ -380,15 +384,15 @@ Se você desejar executar transações sintéticas com mais frequência, o núme
   
 Para alterar a frequência de execução das transações sintéticas, siga estas etapas:
   
-1. Abrir o System Center Operations Manager. Clique na seção Criação. Clique na seção Regras (sob Criação)
+1. Abrir o System Center Operations Manager. Clique na seção Criação. Clique em regras de seção (abaixo de coautoria).
     
-2. Na seção regras, encontre a regra com o nome "Main sintética transação Runner desempenho conjunto regra"
+2. Na seção regras, encontre a regra com o nome "Main sintética transação Runner desempenho conjunto regra".
     
-3. A regra, clique com botão direito e selecione substituições, selecione a regra de substituição e selecione "para todos os objetos da classe: Inspetor de Pool"
+3. A regra, clique com botão direito e selecione substituições, selecione a regra de substituição e selecione "para todos os objetos da classe: Inspetor de Pool".
     
 4. Na janela de substituir propriedades, selecione o nome do parâmetro "Frequência" e defina o valor de substituição para aquela desejada.
     
-5. Na mesma janela, selecione o pacote de Gerenciamento ao qual esta substituição deve ser aplicada
+5. Na mesma janela, selecione o pacote de gerenciamento ao qual essa substituição precisa ser aplicada.
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Usando Registro Avançado em Log para Transações Sintéticas
 <a name="special_synthetictrans"> </a>
@@ -403,7 +407,7 @@ Por esse motivo, as transações sintéticas oferecem registro avançado em log.
     
 - A ação que foi executada (por exemplo, criar, participar ou sair de uma conferência; fazer logon no Skype for Business Server; enviar uma mensagem instantânea).
     
-- Mensagens informativas, detalhadas, de advertência ou de erro geradas quando a atividade foi executada
+- Informativo, detalhado, aviso ou mensagens de erro geradas quando a atividade foi executada.
     
 - Mensagens de registro de SIP.
     
@@ -420,11 +424,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : Não preceda o nome da variável com o caractere $. Use um nome de variável como RegistrationTest (não $RegistrationTest). 
+> Não preceda o nome da variável com o caractere $. Use um nome de variável como RegistrationTest (não $RegistrationTest). 
   
 Quando executar este comando, você verá um resultado semelhante ao seguinte:
   
-Fqdn de destino: atl-cs-001 resultado: latência de falha: 00:00:00 mensagem de erro: esta máquina não tem todos os certificados atribuídos. Diagnóstico: você pode acessar informações muito mais detalhadas para essa falha que apenas a mensagem de erro mostrada aqui. Para acessar essas informações em formato HTML, use um comando semelhante a este para salvar as informações armazenadas na variável RegistrationTest em um arquivo HTML:
+Fqdn de destino: atl-cs-001 resultado: latência de falha: 00:00:00 mensagem de erro: esta máquina não tem todos os certificados atribuídos. Diagnóstico: você pode acessar informações muito mais detalhadas para essa falha que apenas a mensagem de erro mostrada aqui.
+
+Para acessar essas informações em formato HTML, use um comando semelhante a este para salvar as informações armazenadas na variável RegistrationTest em um arquivo HTML:
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html

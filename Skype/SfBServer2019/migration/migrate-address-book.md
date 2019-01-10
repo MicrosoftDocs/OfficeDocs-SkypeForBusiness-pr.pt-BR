@@ -8,26 +8,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Em geral, o catálogo de endereços é migrado com o restante de sua topologia. No entanto, você talvez precise executar algumas etapas de pós-migração se você personalizou o seguinte no seu ambiente Herdado:'
-ms.openlocfilehash: 01279284086499b112028644ea0e1ca2fc708dd0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370766"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788991"
 ---
 # <a name="migrate-address-book"></a>Migrar catálogo de endereços
 
 Em geral, o catálogo de endereços é migrado com o restante de sua topologia. No entanto, você talvez precise executar algumas etapas de pós-migração se você personalizou o seguinte no seu ambiente Herdado: 
 
-- Defina a propriedade de WMI **PartitionbyOU** para agrupar entradas do catálogo de endereços por unidade organizacional (UO). 
-
 - Personalizou as regras de normalização do catálogo de endereços.
 
 - Alterado o valor padrão do parâmetro **UseNormalizationRules** para falso. 
 
-  **Entradas do catálogo de endereços agrupadas**
-
-Se você definir a propriedade WMI **PartitionbyOU** como True para criar catálogos de endereços para cada unidade Organizacional, você precisará definir o atributo **msRTCSIP-GroupingId** do Active Directory em usuários e contatos se você quiser continuar agrupar entradas do catálogo de endereços. Convém para agrupar entradas do catálogo de endereços para limitar o escopo das pesquisas de catálogo de endereços. Para usar o atributo **msRTCSIP-GroupingId** , escreva um script para preencher o atributo, atribuindo o mesmo valor para todos os usuários que você deseja agrupar. Por exemplo, atribua um valor único para todos os usuários em uma unidade Organizacional. 
 
  **Regras de normalização do catálogo de endereços**
 
@@ -67,7 +62,7 @@ Se definir o valor de **UseNormalizationRules** como False para que os usuários
 
 1. Inicie o Skype do Shell de gerenciamento do servidor de negócios: clique em **Iniciar**, clique em **Todos os programas**, clique em **Microsoft Skype para Business Server 2019**e, em seguida, clique em **Skype do Shell de gerenciamento do servidor de negócios**.
 
-2. Use uma das seguintes opções:
+2. Siga um destes procedimentos:
 
    - Se sua implantação incluir apenas Skype para Business Server 2019, execute o seguinte cmdlet em nível global para alterar os valores de **UseNormalizationRules** e **IgnoreGenericRules** para verdadeiro: 
 

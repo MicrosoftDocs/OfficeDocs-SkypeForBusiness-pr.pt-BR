@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Saiba como adicionar o domínio SMTP de equipes da Microsoft como um domínio do remetente permitidos no Exchange Online para enviar notificações aos membros da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f99503d91f9d2c674cea6ec1aaf9c5b747a1047
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f94b18994e277b90f96bc4fdbdefaa0b1f7a72e8
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014705"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789046"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Adicionar o domínio SMTP de equipes da Microsoft como um domínio do remetente permitidos no Exchange Online 
 =============================================================================
@@ -26,7 +26,7 @@ Se você cria um Grupo do Office 365 no console de administração ou usando o O
 
 ![Captura de tela de um exemplo de mensagem de e-mail do Outlook mostrando que um usuário foi adicionado a um grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-O Teams usa o Microsoft Exchange Online também para envia notificações aos membros da equipe quando são adicionados. A diferença do domínio FQDN na mensagem SMTP é “@email.teams.microsoft.com” e poderia ser pego por um filtro de spam.
+O Teams usa o Microsoft Exchange Online também para envia notificações aos membros da equipe quando são adicionados. A diferença é o FQDN da mensagem SMTP do domínio é para os locatários comercial/Business "@email.teams.microsoft.com" e "@GCC-email.teams.com" para os locatários governamentais e poderia ser detectada pela filtragem de spam.
 
 ![Captura de tela de um exemplo de mensagem de e-mail do Outlook mostrando que um usuário foi adicionado a um grupo.](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 

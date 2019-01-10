@@ -17,12 +17,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Saiba as causas comuns para Skype para erros de entrada Business Online e trabalho por meio de solucionar esses problemas. '
-ms.openlocfilehash: df34252281bebe429a85fb1a778b6d28023eb9d4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371145"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789080"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype para solução de problemas para erros de entrada no Business Online para administradores
 
@@ -124,7 +124,7 @@ Se sua organização tiver um domínio personalizado, esse procedimento é uma c
 
   - **Nome**: sip
 
-  - **Valor/destino**: sipdir.online.microsoft.com
+  - **Valor/destino**: sipdir.online.lync.com
 
 Para obter detalhes, consulte o artigo da Base de Conhecimento Microsoft 2566790, [Skype de solução de problemas para problemas de configuração de DNS de negócios Online no Office 365](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2566790).
 

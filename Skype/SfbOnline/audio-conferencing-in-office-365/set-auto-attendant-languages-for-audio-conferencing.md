@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Consulte como selecionar idiomas para o atendedor automático para um número de Audioconferência no Skype for Business Online.
-ms.openlocfilehash: f7b7357d38941ba8d7e1f586f32daa8e02b29012
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882205"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27788981"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Definir os idiomas para o atendedor automático de Audioconferência no Skype for Business Online
 
@@ -37,7 +37,7 @@ O atendedor automático de Audioconferência do Skype for Business pode saudar a
 Escolha um idioma principal e até quatro idiomas secundários. O idioma principal que você definiu será usado pela primeira vez e os idiomas secundários serão usados pelo atendedor automático que você selecionar. 
   
 > [!NOTE]
->  Você pode configurar os idiomas em apenas números de telefone de acesso de áudio domésticas.
+>  Você só pode alterar os idiomas de números de conferência de áudio que são da categoria dedicada. Os idiomas do número de conferência de áudio compartilhados não podem ser alterados.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -46,9 +46,9 @@ Escolha um idioma principal e até quatro idiomas secundários. O idioma princip
 
 Você deve ser um [administrador global do Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) ou [administrador do Skype for Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar esta etapa.
     
-1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para a **conferência de áudio**e, em seguida, clique em **Microsoft ponte**.
+1. No **Skype para centro de administração de negócios**, no painel de navegação esquerdo, vá para o **portal herdada**. Uma vez no portal do herdado, selecione **conferência de áudio**e, em seguida, clique em **Microsoft ponte**.
     
-2. Selecione o número de telefone de conferência de áudio na lista e, no painel de ações, clique em **definir idiomas**. 
+2. Selecione o número de telefone de conferência de áudio na lista e, no painel de ações, clique em **definir idiomas**. Só é possível alterar os idiomas de números de serviços de audioconferência dedicado.  
     
 3. Na página **conjunto** de idiomas, clique na lista de **idioma principal** para exibir a lista completa de idiomas disponíveis. Se for necessário, clique em cada uma das listas **idiomas secundários** para selecionar um idioma secundário.
     

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Este artigo fornece orientação sobre quantos servidores são necessários em um site para o número de usuários neste site, de acordo com o uso descrito em modelos de usuário Skype for Business Server.
-ms.openlocfilehash: 3a1838200e4590649fd290530a50fba3015b670f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1e802bc130086bcefc8fd06cbacd3f21222d6d0a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261599"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789402"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planejamento de capacidade uso de modelo de usuário do Skype para Business Server
 
@@ -33,9 +33,9 @@ Fizemos os testes de desempenho no hardware descrito na tabela abaixo. Todas as 
 |**Componente de hardware**|**Recomendado**|
 |:-----|:-----|
 |CPU  <br/> |Processador duplo de 64 bits, núcleo hexagonal, 2.26 gigahertz (GHz) ou superior.  <br/> Processadores Intel Itanium não são suportados para Skype para funções de servidor de Business Server.  <br/> |
-|Memória  <br/> |32 gigabytes (GB).  <br/> &bull;&nbsp;&nbsp;unidades de disco rígido 8 ou mais de 10.000 RPM com pelo menos 72 GB livre espaço em disco.  <br/> Dois dos discos devem usar RAID 1 e seis devem usar RAID 10.  <br/> - OU -  <br/> &bull;&nbsp;&nbsp;Unidades de estado sólido (SSDs) que fornecem desempenho similar para 8 unidades disco mecânicas de 10.000-RPM.  <br/> |
-|Disco  <br/> ||
-|Rede  <br/> |&bull;&nbsp;&nbsp;1 adaptador de rede dual-port, 1 Gbps ou superior (2 recomendado, que exige agrupamento com um único endereço MAC e um único endereço IP).  <br/> |
+|Memória  <br/> |32 gigabytes (GB).  <br/> |
+|Disco  <br/> |8 ou mais discos rígidos de 10.000-RPM com pelo menos 72 GB de espaço livre em disco. Dois dos discos devem usar RAID 1 e seis devem usar RAID 10.  <br/> - OU - <br/>Unidades de estado sólido (SSDs) que fornecem desempenho similar para 8 unidades disco mecânicas de 10.000-RPM. <br/> |
+|Rede  <br/> |1 adaptador de rede de porta dupla, 1 Gbps ou superior (2 recomendados, que exige agrupamento com um único endereço MAC e um único endereço IP).  <br/> |
 
 ## <a name="summary-of-results"></a>Resumo de Resultados
 
@@ -81,7 +81,7 @@ A tabela a seguir mostra a largura de banda média para IM e presença, consider
 |1,3 Kpbs  <br/> |13 Mbps  <br/> |
 
 > [!NOTE]
-> Para melhorar o desempenho de mídia do co localizado uma / funcionalidade de conferência V e o servidor de mediação em seus servidores Front-End, você deve habilitar receber do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores Front-End. O RSS permite que pacotes de entrada sejam tratados paralelamente por vários processadores no servidor. Para obter detalhes, consulte [Receber lado dimensionamento (RSS) na documentação do Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho de mídia do co localizado uma / funcionalidade de conferência V e o servidor de mediação em seus servidores Front-End, você deve habilitar receber do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores Front-End. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter mais detalhes, consulte [Receive Side Scaling (RSS) na documentação do Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## <a name="conferencing-maximums"></a>Máximos de Conferência
 
@@ -105,7 +105,7 @@ Você deve implantar um servidor de borda para cada 12.000 usuários remotos que
 Ao contar o número de usuários para os servidores de borda, inclua os usuários hospedados em aparelhos de filial persistente e servidores de filial persistente em filiais que estão associados um pool de Front-End neste site.
 
 > [!NOTE]
-> Para melhorar o desempenho do serviço de borda de webconferência V nos servidores de borda, / você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de borda. O RSS permite que pacotes de entrada sejam tratados paralelamente por vários processadores no servidor. Para obter detalhes, verifique "[Receber lado dimensionamento (RSS) no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho do serviço de borda de webconferência V nos servidores de borda, / você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de borda. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, verifique "[Receber lado dimensionamento (RSS) no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## <a name="director"></a>Diretor
 
@@ -149,13 +149,13 @@ Todas as tabelas a seguir supõem a utilização resumida em [modelos de usuári
 > Esse número é muito menor do que os números para o servidor de mediação autônomo. Isso acontece porque o servidor Front-End tem que lidar com outros recursos e funções para os 6600 usuários hospedagem nele, além de transcodificação necessária para chamadas de voz.
 
 > [!NOTE]
-> Para melhorar o desempenho do servidor de mediação, você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes de entrada sejam tratados paralelamente por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side Scaling no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho do servidor de mediação, você deve habilitar o recebimento do lado do dimensionamento (RSS) nos adaptadores de rede em seus servidores de mediação. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "[Receive-Side Scaling no Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para obter detalhes sobre como ativar RSS, consulte a documentação do seu adaptador de rede.
 
 ## <a name="back-end-server"></a>Servidor Back-End
 
 Embora grande parte das informações do banco de dados é armazenado principalmente em servidores Front-End, verifique se os que seus servidores Back-End acordo com as recomendações de hardware mencionadas anteriormente nesta seção e em [Server Hardware Platforms](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
-Para fornecer alta disponibilidade do seu servidor Back-End, é recomendável implantar grupos de disponibilidade do AlwaysOn ou espelhamento de servidor. Para obter mais informações, consulte [alta disponibilidade do servidor Back-End no Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
+Para fornecer alta disponibilidade do seu servidor Back-End, é recomendável implantar grupos de disponibilidade do AlwaysOn ou espelhamento de servidor. Para obter mais informações, consulte [Back End Server high availability in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
 ## <a name="monitoring-and-archiving"></a>Monitoramento e Arquivamento
 

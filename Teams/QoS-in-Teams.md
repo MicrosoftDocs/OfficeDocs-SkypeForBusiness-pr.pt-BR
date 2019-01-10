@@ -1,5 +1,5 @@
 ---
-title: Qualidade de serviço em equipes da Microsoft - equipes da Microsoft
+title: Qualidade de serviço no Microsoft Teams ‒ Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68a11fcc519b63fe04bf6eedfbf9d87b3b80b0b
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294176"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789090"
 ---
 # <a name="quality-of-service-qos-in-microsoft-teams"></a>Qualidade de Serviço (QoS) no Microsoft Teams
 
@@ -248,7 +248,7 @@ As novas políticas que você criou não terão efeito até que a diretiva de gr
 
 2. No prompt de comando, digite:
    ```
-    gpudate.exe /force
+    gpupdate.exe /force
    ```
 
 ## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Verifique se as marcações de DSCP no objeto de diretiva de grupo
@@ -259,7 +259,7 @@ Para verificar se os valores do objeto de diretiva de grupo foram definidos, exe
 
 2. No prompt de comando, digite: 
    ```
-   gpresult /R >gp.txt
+   gpresult /R > gp.txt
    ```
 
    Isso irá gerar um relatório e enviá-la para um arquivo de texto chamado GP. txt. Como alternativa, você pode inserir o seguinte comando para produzir os mesmos dados em um relatório HTML mais legível chamado gp.html:

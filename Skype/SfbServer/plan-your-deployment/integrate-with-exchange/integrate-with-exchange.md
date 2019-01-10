@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumo: Revise neste tópico para obter informações sobre como integrar o Skype para Business Server com o Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 901bfd35ef0e781d12c8f4f455912e9ad47d0bdd
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 327a564e9c7a0a73ef178866f511c75388ac14bc
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532532"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789395"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plano para integrar o Skype for Business e o Exchange
  
@@ -104,9 +104,13 @@ A tabela a seguir fornece detalhes sobre os recursos suportados em várias combi
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do exchange do usuário  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> |Sim (requer o Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
 |Pesquise o conteúdo arquivado  <br/> |Sim (requer o Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|Caixa Postal UM do Exchange  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
+|Caixa Postal UM do Exchange  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Histórico da Conversa no Lado do Servidor  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-   
+
+> [!NOTE]
+> Há um serviço de correio de voz de nuvem que é suportado para Skype para Business Online, Skype para Business Server 2019, Skype para Business Server 2015 e Skype para Business Server 2013.
+> 
+
 ## <a name="see-also"></a>Ver também
 <a name="feature_support"> </a>
 

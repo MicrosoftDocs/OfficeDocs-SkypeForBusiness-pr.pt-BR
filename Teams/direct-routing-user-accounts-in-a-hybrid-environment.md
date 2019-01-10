@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
-ms.openlocfilehash: f742efc18de05997f73a33b96800cc10a9a9d124
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 15513b426b37f01749c6253021ebb619385fb61e
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26510618"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789203"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
@@ -62,10 +62,9 @@ Um Skype para ambiente híbrido de negócios com conectividade PSTN fornece flex
 |No AD local|Online |Microsoft Teams |Direcionar circulação  |Sim |
 |**Combinações sem suporte**    | |         |         |
 |Azure AD.| No local/online | Skype para equipes de negócios/Microsoft|Conectividade/Direct roteamento de voz de voz/híbrido de empresa  |Não, o objeto de usuário deve ser criado no AD local pela primeira vez |
-|No AD local  |No local| Microsoft Teams| Conectividade/Direct roteamento de voz de voz/híbrido de empresa   |Não, o cliente Microsoft Teams não é suportado com Skype local for Business |
-|No AD local  |Online |Skype for Business | Direcionar circulação  | Não, não é suportado Skype para o cliente de negócios com o roteamento direto  |
-|No AD local  |Online |Skype for Business  | Direcionar circulação  |Não, roteamento direto não é suportado com Skype para o cliente de negócios e usuário deve estar habilitado para o Enterprise Voice no Skype para negócios primeiro  |
-|   |         |         |         ||
+|No AD local  |No local| Microsoft Teams| Conectividade/Direct roteamento de voz de voz/híbrido de empresa   |Não, o cliente Microsoft Teams não é suportado com Skype local for Business |     
+    
+| No AD local | Online | Skype for Business | Direcionar circulação | Não, roteamento direto não é suportado com Skype para o cliente de negócios e usuário deve estar habilitado para o Enterprise Voice no Skype para negócios primeiro | |   |         |         |         ||
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Instrução de suporte para o ambiente híbrido com PSTN
 

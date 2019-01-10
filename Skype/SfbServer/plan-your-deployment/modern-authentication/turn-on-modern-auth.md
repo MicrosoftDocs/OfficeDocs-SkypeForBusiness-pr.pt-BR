@@ -11,12 +11,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Os cmdlets este artigo contornos que dão admins mais controle dos métodos de autenticação usado dentro e fora, de uma empresa. Os administradores podem ativar métodos de autenticação ou desativar interna ou externamente para sua rede.
-ms.openlocfilehash: 8350e1b6f3bae27c3b8355b0dee3b737bccaf655
-ms.sourcegitcommit: bb4e7dec155dee358bec9d6e586730dae0b8f559
+ms.openlocfilehash: 1761722bca624451b1cfc6acc28bed7b00eabe6d
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2018
-ms.locfileid: "27371183"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789257"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planejamento desativar os métodos de autenticação Legacy interna e externamente à sua rede.
 
@@ -82,6 +82,10 @@ Além disso, se houver apenas uma função presente para um pool:
 * Se ambas as funções estão presentes para um pool, mas as diretivas não são definidas no nível do pool, Get-irá retornar uma mensagem de erro.
 
 Talvez seja wisest fazer um Get-para esses valores e para a captura de tela ou registrar seu estado inicial antes de fazer alterações. Você também pode considerar a capacidade de manter um log de alterações em um OneNote.
+
+> [!NOTE]
+> 
+> Observação: Depois de configurar o CsAuthConfig, você deve executar Enable-CsComputer em cada computador para que as configurações entrem em vigor.
 
 > [!IMPORTANT]
 > Se você estiver usando o Lync Web Access (LWA) e deve usar o acesso baseada em formulários (FBA) para acesso externo, reconfigure LWA para que os clientes podem acessá-lo com acesso anônimo para oferecer suporte a esses cenários. Da mesma forma, se você usar um Pin de discagem, FBA será bloqueado para apenas usuários externos. Se eles precisarem alterar seu pin, precisará fazer logon no seu corporation para fazê-lo, internamente.

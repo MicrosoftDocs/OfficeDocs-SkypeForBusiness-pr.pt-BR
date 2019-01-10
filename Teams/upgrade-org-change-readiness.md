@@ -3,7 +3,7 @@ title: Avalie a preparação de alteração organizacional antes da atualizaçã
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
+ms.date: 12/28/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d86e54bcab57f33c1b0031184282a8fc5f49b8a
-ms.sourcegitcommit: 2e11749734ff26b18709a1442b2c417f33430144
+ms.openlocfilehash: ae90183260325cc35dcb7e2820bc9cdf94475fea
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25429463"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789303"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -32,11 +32,10 @@ Este artigo faz parte do estágio de preparação de usuários de sua atualizaç
 
 # <a name="assess-organizational-change-readiness"></a>Avalie a preparação de alteração organizacional
 
-Após você ter protegido sua equipe de projeto e definido sua visão, escopo e objetivos, a próxima etapa na sua jornada de atualização é garantir que sua organização e os usuários estejam prontos para equipes — uma atividade que você concluir em paralelo com garantindo que sua prontidão técnica. Para compreender o valor de equipes, os usuários devem realmente usá-lo. Habilitar simplesmente equipes não garante que você obtenha seu objetivo.  Os usuários têm diferentes casos de uso e os estilos de aprendizagem variados e adaptar-se para uma nova tecnologia em velocidades diferentes. A boa notícia é que o gerenciamento de alterações não é muito complicado, mas exige um esforço concentrado. As discussões guiadas abaixo são projetadas para ajudá-lo a entender sua base de usuários, para que você pode preparar o nível adequado de educação para facilitar e acelerar a adoção dos usuários. Há três maneiras que você deve examinar sua base de usuários:
+Após você ter protegido sua equipe de projeto e definido sua visão, escopo e objetivos, a próxima etapa na sua jornada de atualização é garantir que sua organização e os usuários estejam prontos para equipes — uma atividade que você concluir em paralelo com garantindo que sua prontidão técnica. Para compreender o valor de equipes, os usuários devem realmente usá-lo. Habilitar simplesmente equipes não garante que você obtenha seu objetivo.  Os usuários têm diferentes casos de uso e os estilos de aprendizagem variados e adaptar-se para uma nova tecnologia em velocidades diferentes. A boa notícia é que o gerenciamento de alterações não é muito complicado, mas exige um esforço concentrado. As discussões guiadas abaixo são projetadas para ajudá-lo a entender sua base de usuários, para que você pode preparar o nível adequado de educação para facilitar e acelerar a adoção dos usuários. Há duas maneiras que você deve examinar sua base de usuários:
 
--   **Preparação de alterar organizacional**: Compreendendo a rapidez (ou não) os usuários geralmente reagem para alterar. Essas informações ajudarão a informar a quantidade de divulgação, treinamento, e as vendas valor talvez seja necessário fazer para incentivar a adoção de usuário.
--   **Casos de uso**: avaliar como a nova tecnologia melhora a produtividade do usuário. Essas informações fará a alteração relevante para usuários com base em como eles funcionam.
--   **Personagens**: avaliar quais indivíduos ou grupos pode exigir atenção personalizada. Essas informações permitem que você ao reconhecimento e treinamento de destino para aqueles que esperar ou precisar de mais focalizada atenção (por exemplo, executivos).
+- **Preparação de alterar organizacional**: Compreendendo a rapidez (ou não) os usuários geralmente reagem para alterar. Essas informações ajudarão a informar a quantidade de divulgação, treinamento, e as vendas valor talvez seja necessário fazer para incentivar a adoção de usuário.
+- **Cenários de trabalho em equipe**: Noções básicas sobre como os usuários trabalham permitirá que você mapeie equipes para suas atividades de trabalho, acelerando a adoção e facilitando a mudança do Skype para negócios. 
 
 > [!Note]
 > É possível adaptar as atividades de avaliação fornecidas abaixo para qualquer iniciativa de alteração em sua organização. Endereços simplesmente as perguntas com base no escopo do seu projeto. Nas discussões a seguir, "nova solução" pode aplicar ao chamar, audioconferências ou a atualização do Skype para negócios às equipes de áudio.
@@ -89,69 +88,67 @@ Use o seguinte para iniciar a conversação para realizar uma avaliação de pro
 > [!Tip]
 > Nem todos aprende da mesma maneira. Para aqueles que são despachado, aponte para vídeos online e os artigos de treinamento da Microsoft. Se 20% ou mais players de equipe, inscrever-se de sua equipe de treinamento ou de um parceiro a fim de oferecer o treinamento ao vivo, interativo (pessoalmente ou online). Normalmente, você encontrará executivos ou direcionadas a funções na categoria detentores de mão. Este é um grupo crítico que beneficiasse de sessões de treinamento personalizadas, curto. Inscrever-se os representantes para ajudar a fornecer treinamento a esses usuários, para uma experiência ideal.
 
-## <a name="use-cases"></a>Casos de uso
+## <a name="assessing-teamwork-scenarios"></a>Avaliando os cenários de trabalho em equipe
 
-Articulação casos de uso específico no plano de treinamento e divulgação faz com que os usuários se sentir que você realmente entenda a maneira como eles funcionam. Há casos de uso universal (cenários que se aplicam a todas as pessoas na sua organização, independentemente da função) além casso direcionado com base nos perfis de usuário. Para cada um, é importante identificar os desafios do processo atual e explicam como a nova tecnologia pode otimizar a experiência do usuário. Em seguida, usar essas informações no seu plano de comunicação para ajudar a showcase o valor da nova tecnologia e gerar um desejo em usuários, a fim de conceder um bloco try.
+Microsoft Teams expande os recursos do Skype para a empresa, que oferece uma solução abrangente de comunicação e colaboração. Ao projetar seu plano para atualizar os usuários do Skype for Business para equipes, considere como você pode usar o poder de colaboração de trabalho em equipe ao excite usuários e facilitar sua transição do Skype for Business para equipes.  
 
-### <a name="activity"></a>Atividade
+Essencialmente, o trabalho em equipe é como as pessoas trabalham juntas para obter suas tarefas. Trata-se alinhando as pessoas com as ferramentas relevantes de forma que funciona para eles. As equipes reúne pessoas, conversas, arquivos e projetos em um espaço de trabalho, criando um hub true para o trabalho em equipe em sua organização.
+  
+Noções básicas sobre como telefone comercial do usuário e como eles se reunir podem ajudar usuários visualizar como eles podem usar as equipes, facilitando a mudança do Skype para negócios. Existem duas maneiras de núcleo pensar em cenários de trabalho em equipe: centrados em pessoas e centrado em projeto.
+ 
+- Centros de **trabalho em equipe centrada no projeto** em um projeto específico ou iniciativa (por exemplo, o planejamento de um evento de lançamento do produto). Do escopo de planejamento para gerenciamento de orçamento para fins de marketing, o trabalho em equipe centrada no projeto ajuda a alinhar fluxos de trabalho do projeto, mantendo todos informados. 
+- **Trabalho em equipe centrados em pessoas** gira em torno de pessoas com responsabilidades ou atributos semelhantes que podem funcionar na mesma equipe (por exemplo, a equipe de vendas, viajantes) ou entre equipes (por exemplo, campeões de ponto). De bate-papo com um colega de obter uma resposta a uma pergunta de participando de uma reunião de equipe, atividades centradas em pessoas incluem compartilhamento de informações e construção de interesse mútuo.
 
- Casos de uso do documento cinco a sete grupos universais e direcionado para sua organização. Aqui estão algumas iniciadores de conversa rever com sua equipe de projeto, seguido por exemplos, que você pode personalizar para sua organização.
+Para obter o máximo proveito de equipes, desenvolver uma estratégia de trabalho em equipe que inclua os dois cenários, ajudando os usuários a entender como as equipes podem trabalhar para eles.  
+ 
+|    |     |
+|-----------|------------|
+| ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários de trabalho em equipe relatable será você emprega para ajudar a acelerar a adoção de usuário das equipes e facilitar a atualização do Skype para os negócios?</li></ul> |
+| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Use os exemplos abaixo para ajudar a desenvolver seus próprios cenários de trabalho em equipe. Documente-los na pasta de [Pasta de trabalho de atualização](https://aka.ms/upgradesuccesskit).</li><li>Para cenários adicionais e exemplos adicionais, vá para a [Biblioteca de produtividade](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
--   O que é o cenário da caso uso?
+### <a name="examples"></a>Exemplos
 
--   Quais são as principais características que definem esse cenário hoje? Quais aplicativos estão sendo usados?
+**Trabalho em equipe centrada no project: evento de lançamento do produto** (por exemplo: sua organização está preparando-se para o início de um novo produto no mercado e estiver planejando implantar um evento promocional amplo para reconhecimento de unidade, gerar líderes e incentivar vendas).
 
--   Quais são os desafios enfrentados atualmente com este caso de uso?
+| Consideração | Notas |
+|---------------|-------|
+| Principais atributos |<ul><li>Participantes da equipe entre com vários fluxos de trabalho do projeto</li><li>Reuniões direcionados frequentes</li><li>Muitas peças/pessoas chegando juntos (orçamento, agendas, apresentações, registro e assim por diante)</li></ul> |
+| Hoje desafios de trabalho em equipe |<ul><li>Fluxos de trabalho estiver trabalhando em silos com status geral dos projetos de visibilidade limitada ou entre os esforços de equipe:<br><ul><li>Conversas desconectadas e a falta de "quem está fazendo o que" </li><li>Informações rastreadas em vários locais com nenhuma visibilidade de várias equipes</li></ul><li>Tempo de perda de produtividade ao trazendo um novo membro na placa ou chegando perto de falta de uma reunião</li></ul>|
+| Requisitos de trabalho em equipe |<ul><li>Acesso rápido à atribuição de agenda e de tarefa do projeto</li><li>Canal de conversa aberta para manter todos na atualizados</li><li>Local central para arquivos de apresentação atual e outros recursos</li><li>Capacidade de criar um novo projeto up a velocidade de membros da equipe rapidamente</li><li>Maneira incentivar e suporte um ao outro para manter momentum</li></ul>|
+| Trabalho em equipe em equipes |<ul><li>Equipe/canais para organizar o conteúdo do projeto e conversas encadeadas </li><li>SharePoint para hospedar os arquivos PPT<sup>1</sup></li><li>Planejador/Trello para atribuição de projeto individual das tarefas e as datas de vencimento<sup>1</sup></li><li>Equipes de reuniões online</li><li>As equipes de aplicativos móveis para conectar-se em trânsito</li></ul> | 
 
--   Como as equipes podem otimizar a experiência do usuário?
+A integração do aplicativo de suporte ou alinhamento em equipes <sup>1</sup> .
 
--   Qual seria a melhor usa casos realce em suas comunicações?
+**Trabalho em equipe centrados em pessoas: equipe de vendas** (por exemplo: seu dispersas regional de vendas necessidades fique conectado em trânsito, permanecer alinhado no pipeline de equipe e entender os principais ofertas e iniciativas que podem ajudar a unidade até se atingir as metas de cota anual)
 
-A tabela a seguir mostra exemplos de casos de uso universal de trabalho em equipe e colaboração.
+| Consideração | Notas |
+|---------------|-------|
+| Principais atributos | <ul><li>Trabalhar remotamente (na estrada, hotéis, sites de clientes)</li><li>Relacionamento focados – core externo</li></ul> |
+| Hoje desafios de trabalho em equipe |<ul><li>Conversas repetidas com vários representantes no campo (bate-papo, chamadas, reuniões, etc) – não é possível obter todos juntos ao mesmo tempo</li><li>Perdidas oportunidades de aprender com vendas "wins" – word boca compartilhamento somente</li><li>Continuamente embaralhamento entre aplicativos:<ul><li>Pipeline de vendas no Excel</li><li>Tendências no Power BI</li><li>Material adicional de vendas em email</li><li>Recursos de demonstração do cliente no SharePoint</li><li>1:1 chats e reuniões no momento</li><li>Âmbito da comunidade de vendas no Yammer</li></ul></ul> |
+| Requisitos de trabalho em equipe |<ul><li>Acesso rápido à material adicional de vendas</li><li>Atingir um especialista rapidamente</li><li>Fast turn alternativa para perguntas e aprovações </li><li>Reuniões de vendas, avaliações de pipeline</li><li>Recursos de treinamento de vendas</li><li>Gerenciamento de banco de dados do cliente</li></ul> |
+| Trabalho em equipe em equipes |<ul><li>As equipes/canais por região ou cliente projetado para conversas e conteúdo de foco</li><li>SharePoint para material adicional/recursos<sup>1</sup></li><li>XLS/Power BI para bancos de dados e pipeline<sup>1</sup></li><li>Equipes de reuniões online</li><li>As equipes de aplicativos móveis para conectar-se em trânsito</li><li>As equipes a integração de aplicativo com o sistema CRM<sup>1</sup></li><li>Para o amplo número-alcance ideias de EA e compartilhamento de informações do Yammer *<sup>1</sup></li></ul>|
 
-<table>
-<tbody>
-<tr><th width="10%"><strong>Caso de uso</strong></th><th width="30%"><strong>Características</strong></th><th width="30%"><strong>Desafios</strong></th><th width="30%"><strong>Com as equipes</strong></th></tr>
-<tr><td><strong>Produtividade pessoal</strong></td><td><ul><li>Diário "para" lista</li><li>Dependência de outras pessoas a realizar suas tarefas</li></ul></td><td><ul><li>Emails e anexos sumam</li><li>Chamadas irem para a caixa postal</li><li>Colegas estão offline</li><li>Cópias locais desatualizadas se acumulam na área de trabalho</li></ul></td><td><ul><li>Enviar online e offline mensagens, que alivia precisar rastrear pessoas</li><li>Conversas persistentes com anexos de arquivo reduzem a necessidade de vários locais de pesquisa ou gerenciar várias versões</li></ul></td></tr>
-<tr><td><strong>Reuniões</strong></td><td><ul><li>Chamadas em conferência ou reuniões online</li><li>Participantes internos e/ou externos</li><li>Participantes do office/remoto</li></ul></td><td><ul><li>Pouco ou nenhum contexto fornecido antes das reuniões </li><li>Participantes remotos se sentir esquerdos atrás</li><li>Falta de conexão visual</li><li>Desafiador para acompanhar a se você tiver perdido a reunião</li><li>Se perder a POST-reunião momentum</li></ul></td><td><ul><li>Construir momentum antes da reunião com a conversa e compartilhamento de conteúdo</li><li>Ingressar em dispositivos</li><li>Conecte-se com vídeo e compartilhamento de aplicativos, garantindo o alinhamento</li><li>Gravar reuniões para absent participantes</li><li>Capturar anotações, ações (& 64 #; menções) para accountability e acompanhamento de pacientes fácil</li></ul> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <em>Dentro de uma única interface!</em></td></tr>
-<tr><td><strong>Projetos de grupo</strong></td><td><ul><li>Trabalho de projeto com vários participantes</li><li>Informações e compartilhamento de documentos</li><li>Usando vários aplicativos</li></ul> </td><td><ul><li>Causa de conversas de corredor desconectar-se com o grupo maior</li><li>Aborrecimento sobre local doc e controle de versão</li><li>Confusão sobre accountability</li></ul> </td><td><ul><li>Mantenha todas as conversas em equipe/canal, orientando transparência</li><li>Link para documentos relevantes; PIN críticos são para garantir a visibilidade</li><li>Controle de versão de doc simplificados</li><li>Acessar o Office e aplicativos de terceiros, fazendo um hub true para o trabalho em equipe</li></ul> </td></tr>
-</tbody>
-</table>
+A integração do aplicativo de suporte ou alinhamento em equipes <sup>1</sup> .
 
+### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>Dicas para identificar um "bom ajuste" para sua estratégia de trabalho em equipe
 
+É fácil obter transmitidos ausente formando uma estratégia de trabalho em equipe para cada projeto, cada equipe e cada usuário. Nem todo projeto ou equipe exige uma estratégia de trabalho em equipe totalmente definido. Aqui estão algumas práticas recomendadas de Introdução:
 
-A tabela a seguir mostra um exemplo de um caso de uso de destino.
+- Considere a possibilidade de projetos de várias equipes que apenas começando ou estão futuras.
+    - Planejamento de eventos – coordenação de várias equipes (orçamento, logística, apresentações e assim por diante)
+    - Novo produto piloto - compartilhar informações, coletar comentários em um ambiente controlado
 
-| &nbsp;   | **Caso de uso de marketing: trabalhando em nova campanha de lançamento do produto**      |
-|-----------------|------------------------------------------------------------|
-| **Características** | <ul><li>Reuniões de status da equipe entre interessado</li><li>Campanha, material criativo e análises de mensagens com um campo, legais e equipes de relações públicas</li><li>Acompanhamento para cumprir o prazo de lançamento de projetos</li></ul>                                                                                |
-| **Desafios**      | <ul><li>Enviando um e-mail para resultados de materiais criativo em várias versões</li><li>Causa de conversas de corredor desconectar-se com o grupo maior</li><li>Rastreamento de notas do projeto no OneNote, relatórios de status no Word e conversas de mensagens Instantâneas e email&mdash;muitas ferramentas para equilibrar e manter alinhado</li></ul>                                                                       |
-| **Com as equipes**      | <ul><li>Conversas persistentes com anexos de arquivo reduzem a necessidade de vários locais de pesquisa ou gerenciar várias versões</li><li>Ter uma localização para conversas, arquivos, observações de projeto e status de relatórios permite que os participantes obtenham rapidamente — e a permanecer — atualizado</li><li>Notas de PIN do projeto e o relatório de status guias para facilitar o acesso</li><li>& 64 #; mencionam membros para obter uma resposta ou comentários, que alivia a necessidade de rastreá-las ou aguarde até que eles estiverem novamente online da equipe</li></ul> |
+- Identificar personagens de usuário e grupos de trabalho principal, conectando as várias maneiras em que eles interagem uns com os outros em equipes
 
+    - As equipes/regiões de vendas – viajantes, recursos de acesso fácil, rápida turn-ao redor de respostas
+    - RH – processos padronizados entre todas as divisões, abordagem consistente para contratação
+    - Trabalhadores Firstline – conexão para seu colegas/gerenciamento, acesso a procedimentos, NEO
 
-> [!Tip]
-> Precisa de ajuda para começar? Visite a biblioteca de produtividade: https://aka.ms/productivitylibrary.
+- Tenha essas considerações em mente:
 
-## <a name="personas"></a>Personagens
-
-Fazendo a análise de nível de pessoas, você obter compreensão de suas personagens de usuário e casos de uso. Demorando para entender quem são os usuários e como eles funcionam, você vai ajudar a garantir que eles tenham o que precisam ser bem-sucedidas, como eles implementam a alteração. Isso pode incluir mensagens direcionado, treinamento ou até mesmo dispositivos como headsets e webcams. Por exemplo, um executivo era esperado treinamento pessoal durante enquanto um representante de campo viagem pode se beneficiar de um vídeo, que eles podem assistir em seu tempo livre de treinamento. Além disso, sua análise de nível de pessoas pode ajudar a identificar quem pode mover para equipes hoje versus que podem ser mais bem atendidas pela aguardar até mais tarde.
-
-Comece pelo segmentação sua base de usuários em grupos de pessoa/cohort (por exemplo, executivos, "viajantes," colaborativos trabalhadores ou varejo). Para o gerenciamento, mantenha sua lista mais do que oito grupos.
-
-### <a name="activity"></a>Atividade
-
-Identifica os perfis de usuário de destino que exigem assistência de preparação técnico ou de usuário específica. Veja abaixo uma avaliação de pessoa de amostra para um perfil de executivo.
-
-<table>
-<tr><th colspan="2">Perfil de pessoa /: executivo</th></tr>
-<tr><td>Quais características principais definem essa pessoa (ou seja, quem são eles, o que fazem)</td><td><ul><li>Voz/brand da organização interna e externamente</li><li>Focalizados em relação</li><li>Cronogramas rápidas e dinâmicas</li><li>Usar os dispositivos móveis ficar conectado</li><li>Depender delegados como seus "olhos e ouvidos"</li><li>Gastar a maior parte do seu dia em reuniões ou no telefone</li></ul></td></tr>
-<tr><td>Cite casos de uso comuns para essa pessoa.<br><ital>Aplique os casos de uso universal acima para essa pessoa e elaborar em cenários específicos.</ital></td><td><ul><li>Produtividade pessoal<ul><li>Clientes e criação de afinidade de chamadas</li></ul></li><li>Reuniões<ul><li>C-nível/das partes interessadas revisões</li><li>Um-para-muitos: Tudo-mãos</li></ul></li><li>Colaboração em projetos</li></ul></td></tr>
-<tr><td>Qual funcionalidade é necessária?</td><td><ul><li>Sincronização de representante</li><li>Gerenciamento de contatos (interno e externo)</li><li>Áudio chamar (PC e PSTN)</li><li>Chamadas de vídeo</li><li>Suporte a vários dispositivos</li><li>Compartilhamento de aplicativos</li></ul></td></tr>
-<tr><td>Quais dispositivos eles precisarão?</td><td><ul><li>Telefone de mesa, viva-voz do "hóquei", webcam, cliente de desktop, cliente móvel</li></ul></td></tr>
-<tr><td>Qual é o valor para essa pessoa usar equipes?</td><td><ul><li>As equipes de aplicativos móveis proporciona a experiência de alta qualidade durante uma viagem: levar equipes em trânsito</li><li>Repositório de documentos otimizada oferece acesso rápido aos relatórios de status e conversas, poupando tempo e aborrecimento</li></ul></td></tr>
-<tr><td>Que treinamento irão requerer?</td><td><ul><li>Luva de branco</li><li>Breve sessão: 15 minutos práticos</li></ul></td></tr>
-<tr><td>Tempo de distribuição</td><td><ul><li>Inscrever-se um segmento de usuários para o piloto</li><li>Incluir na fase inicial do ampla distribuição</li><li>Incluir na fase de secundário do ampla distribuição após resultados sólidos são comprovados</li></ul></td></tr></table>
-
-
+    - Comece pequeno. Salve projetos maiores, mais complexos para após você ter verificadas o modelo de trabalho em equipe.
+    - Concentre-se em novos projetos. Evite alterar um projeto existente que é bem em andamento como isso pode interromper o fluxo de trabalho.
+    - Considere timing. Aplicação uma nova estratégia de trabalho em equipe a equipe de vendas no final do ano fiscal pode não ser ideal.
+    - Itere. Não há necessidade reinventar a roda. Quando você encontrar uma estrutura de trabalho em equipe que trabalha, repita-lo com outros grupos de trabalho e projetos. Definir uma equipe de modelo e defina as diretrizes para ajudar os usuários rapidamente assimilar em equipes e fornece consistência.
 
 Use as informações reunidas acima para informar seu [plano de preparação do usuário](https://aka.ms/UserReadinessPlan).
