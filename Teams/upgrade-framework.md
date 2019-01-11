@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1facd38b3ae5e55b0928127aa054d80e7445210
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791674"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896143"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -44,7 +44,8 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 
 **Prepare a sua organização para equipes**. Para ajudar a garantir uma atualização bem-sucedida para equipes, é importante alocar tempo adequado para a preparação. Não apenas será sua organização possam iniciar rapidamente perceber o valor de equipes, você poderá acelerar sua atualização do Skype para negócios tão logo equipes está pronto para você. Se você já tiver habilitado equipes junto com Skype for Business, use essas atividades pré-atualização como um ponto de verificação para validar a preparação da sua organização antes de atualizar os usuários para equipes. 
 
-> [DICA] Baixe o [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário de modelo, como communications e pesquisas de usuário, além de uma amostra piloto e o plano de projeto de atualização de plano de teste. Itens que estão disponíveis no kit são marcados com um asterisco (*) nas listas abaixo.
+> [!TIP]
+> Baixe o [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário de modelo, como communications e pesquisas de usuário, além de uma amostra piloto e o plano de projeto de atualização de plano de teste. Itens que estão disponíveis no kit são marcados com um asterisco (*) nas listas abaixo.
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Planejar: Criar seu plano de atualização para ajudar a garantir que sua organização estiver configurada para o sucesso a longo prazo
 

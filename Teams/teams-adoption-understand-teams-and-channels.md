@@ -15,12 +15,12 @@ ms.custom: Adopt
 ms.collection: Teams_ITAdmin_Adopt
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b59da606f908334768fbe249bc40df87282caf5a
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699707"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896119"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
@@ -30,12 +30,13 @@ Os conceitos de equipes e canais são fundamentais para uma implementação prod
 
 - Canais são os espaços de colaboração dentro de uma equipe em que o trabalho real é feito. 
 
-Para ler mais sobre as equipes e canais, consulte [Visão geral das equipes e canais em equipes da Microsoft](teams-channels-overview.md). Para saber mais sobre as equipes e grupos do Office 365, consulte [grupos do Office 365 e equipes da Microsoft](office-365-groups.md) e [aprender mais sobre os grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para ler mais sobre as equipes e canais, consulte [Visão geral das equipes e canais em equipes da Microsoft](teams-channels-overview.md). Para obter orientação abrangente adoção equipes, obtenha o [Guia de adoção de equipes](https:aka.ms/teamstoolkit). Para saber mais sobre as equipes e grupos do Office 365, consulte [grupos do Office 365 e equipes da Microsoft](office-365-groups.md) e [aprender mais sobre os grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
 | Exibir este pequeno vídeo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+
 
 
 Tipos de acesso equipe determinam quem pode ingressar em uma equipe:
