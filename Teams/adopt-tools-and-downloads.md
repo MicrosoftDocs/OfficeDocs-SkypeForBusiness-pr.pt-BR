@@ -1,5 +1,5 @@
 ---
-title: Ferramentas e Downloads para a adoção
+title: Ferramentas e downloads para adoção
 description: Use estes recursos de adoção para ajudá-lo a adoção da Microsoft Teams e outros serviços do Office 365.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7bf96f5da37b4f70ea24025e18b96a1061a483
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
+ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699697"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27896135"
 ---
 # <a name="tools-for-driving-adoption"></a>Ferramentas para orientando a adoção 
 
@@ -144,3 +144,6 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
 
 ### <a name="office-365-champions-program"></a>Programa de campeões do Office 365
 O programa de campeões do Office 365 é um programa gratuito que ajuda as pessoas que desejam aproveitar ao máximo Teams da Microsoft e outros serviços do Office 365. Combinamos nossa comunidade online na [Comunidade técnica do Microsoft](https://aka.ms/DriveAdoption) com chamadas de comunidade mensal que destacar todos os componentes de impulsionar a adoção de governança para práticas recomendadas para novos recursos. Ingressar em nossa comunidade em https://aka.ms/O365Champions e obter acesso a liberação antecipada, ouvir de outros clientes e aprender com especialistas da Microsoft.  
+
+### <a name="teams-adoption-guide"></a>Guia de adoção de equipes
+Check-out este guia online que ajudarão você a distribuir as equipes da sua empresa. Ele inclui várias ferramentas para download, modelos e outros recursos para ajudá-lo ao longo do percurso da adoção suas equipes.
