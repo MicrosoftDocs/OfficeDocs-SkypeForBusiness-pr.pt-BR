@@ -1,5 +1,5 @@
 ---
-title: Monitorar o uso e comentários no Microsoft Teams
+title: Monitorar o uso e os comentários no Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,34 +13,48 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5cb52aa679144f2dc9673106addf1125a908d70
-ms.sourcegitcommit: 5d8b5dee1dea84494aea92bbce568dea10752af9
+ms.openlocfilehash: 9189e2293e123b8a8b7db7a754d259ec3b67e1ab
+ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "26519588"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "27802599"
 ---
-# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e comentários no Microsoft Teams
+# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e os comentários no Microsoft Teams
 É importante saber como os usuários utilizem equipes e o que é a sua experiência com equipes. Relatórios de uso podem ajudá-lo a entender os padrões de uso melhor e junto com os comentários do usuário, proporcionam ideias para informar sua distribuição mais larga e onde priorizar os esforços de treinamento e comunicação.
 
 ## <a name="monitor-usage"></a>Monitorar o uso
 Para seu primeiro conjunto de equipes, recomendamos que você examine o relatórios duas vezes por semana para entender as tendências atuais. 
 
-Por exemplo, relatórios de uso mostram que a maioria dos usuários são apenas usando o cliente web equipes. Isso pode indicar que os usuários não sabe exatamente como instalar outros clientes. Instruções de instalação passo a passo de lançamento em um canal pode ajudar o uso da unidade de uma maior variedade de clientes. Ou então, relatórios de uso mostram que os usuários estiverem usando principalmente equipes para chats privadas. Neste exemplo, convém revisar seus cenários de equipe, porque os usuários são bate-papo fora equipes iniciais e canais que foram configurados. 
+Por exemplo, relatórios de uso mostram que não muitos usuários estão usando os clientes móveis de equipes. Isso pode indicar que os usuários não sabe exatamente como instalar os clientes. Instruções de instalação passo a passo de lançamento em um canal pode ajudar o uso da unidade de uma maior variedade de clientes. Ou então, relatórios de uso mostram que os usuários estiverem usando principalmente equipes para chats privadas. Neste exemplo, convém revisar seus cenários de equipe, porque os usuários são bate-papo fora equipes iniciais e canais que foram configurados. 
 
-Eis aqui duas maneiras de obter relatórios para exibir o uso de equipes. 
+Aqui está como obter relatórios para exibir o uso de equipes. 
 
-### <a name="teams-activity-reports"></a>Relatórios de atividades de equipes 
-Relatórios de atividade de equipes no Centro de administração do Office 365 proporcionam ideias sobre o uso de dispositivo e a atividade do usuário. 
+### <a name="teams-analytics--reports-microsoft-teams--skype-for-business-admin-center"></a>Análise de equipes & relatórios (Microsoft Teams & Skype para Business Admin Center)
 
-Para exibir esses relatórios, você deve ser um administrador global no Office 365, administrador de serviço de equipes ou leitor de relatórios. Vá para o Centro de administração do Office 365, clique em **relatórios** > **uso**. Em **Selecione um relatório**, clique em **Equipes da Microsoft**. A partir daqui, escolha o relatório que você deseja exibir.
+Relatórios de equipes na Microsoft Teams & Skype para Business Admin Center proporcionam ideias sobre como equipes é usado na sua organização. Use os relatórios para obter uma visão em uso equipes, atividade do usuário e o uso de dispositivos em sua organização. 
 
-- **Relatório de atividades do usuário de equipes**: este relatório mostra os tipos de atividades de comunicação que os usuários entrem em, como quantas pessoas conversar em um canal e quantas pessoas se comunicar por meio de bate-papo privado.  
+Para exibir esses relatórios, você deve ser um administrador global no Office 365, administrador de serviço de equipes ou Skype para administração de negócios. Vá para o Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, selecione **Analytics & relatórios**e, em **relatório**, escolha o relatório que você deseja executar.
 
-    ![Relatório de atividades do usuário de equipes] (media/get-started-with-teams-user-activity-report.png "Captura de tela do relatório de atividades do usuário equipes, mostrando um gráfico que indica o número de usuários por tipo de atividade, que inclui mensagens de canal, mensagens de chat, chamadas, reuniões. e outros") 
-- **Relatório de uso do dispositivo de equipes**: este relatório mostra como os usuários se conectam à equipes, incluindo como muitas pessoas usam equipes quando em trânsito.
+- **Relatório de uso de equipes**: este relatório oferece uma visão geral da atividade de uso em equipes, incluindo o total de usuários ativos e canais de e o número de usuários ativos e canais, convidados e mensagens em cada equipe. 
 
-     ![Relatório de uso do dispositivo de equipes] (media/get-started-with-teams-device-usage-report.png "Captura de tela do relatório de uso de dispositivo equipes, mostrando um gráfico que indica o número de usuários por tipo de dispositivo, que inclui o Windows, Mac, web, iOS e Android")  
+    ![Relatório de uso de equipes] (media/teams-reports-teams-usage.png "Captura de tela do relatório de uso de equipes no Skype para Business Admin Center & equipes da Microsoft")     
+- **Relatório de atividades do usuário de equipes**: este relatório oferece ideias sobre os tipos de atividades de usuários participem, como quantas pessoas se comunicar por meio de 1:1 chamadas, mensagens de canal e mensagens de bate-papo privado. 
+
+    ![Relatório de atividades do usuário de equipes] (media/teams-reports-user-activity.png "Captura de tela do relatório de atividade de usuário equipes no Skype para Business Admin Center & equipes da Microsoft") 
+`
+- **Relatório de uso do dispositivo de equipes**: este relatório mostra como os usuários se conectam à equipes, incluindo como muitas pessoas usam equipes em seus dispositivos móveis quando em trânsito. 
+
+    ![Relatório de uso do dispositivo de equipes] (media/teams-reports-device-usage.png "Captura de tela do relatório de uso de dispositivo equipes no Skype para Business Admin Center & equipes da Microsoft")
+
+Para saber mais, confira [analytics equipes e emissão de relatórios](teams-analytics-and-reports/teams-reporting-reference.md). 
+
+### <a name="teams-activity-reports-office-365-admin-center"></a>Relatórios de atividades de equipes (Centro de administração do Office 365)
+Também é possível exibir as atividades de equipes por meio de relatórios que estão disponíveis no Centro de administração do Office 365. Esses relatórios fazem parte dos relatórios no Centro de administração do Office 365 Office 365 e fornecem informações sobre as atividades do usuário e o uso do dispositivo. 
+
+Para visualizar esses relatórios, vá para o Centro de administração do Office 365, clique em **relatórios** > **uso**. Em **Selecione um relatório**, clique em **Equipes da Microsoft**. A partir daqui, escolha o relatório que você deseja exibir.
+
+Para saber mais, vá para [usar relatórios de atividade para equipes](teams-activity-reports.md).
 
 ### <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 
