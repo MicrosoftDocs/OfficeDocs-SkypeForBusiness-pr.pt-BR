@@ -15,24 +15,23 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5172781911a944b5fd25042260cebdd77a48ddaa
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013863"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988174"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Os aplicativos consistem em guias, conectores, bots ou qualquer combinação dos três, fornecidos por um serviço de terceiros. Existem políticas de administração do Teams que podem ser configuradas no Centro de administração do Office 365 para controlar quais aplicativos externos de terceiros são permitidos. Essas diretivas permitem especificar quais aplicativos são permitidos e não permitidos, novo comportamento de aplicativo externo, e se os aplicativos do lado do carregamento é permitido.
+Aplicativos são guias, conectores, bots ou qualquer combinação destas três, fornecido pelo equipes (apps primários e também conhecido como aplicativos padrão) ou por um terceiro (também conhecido como aplicativos externos). No Centro de administração do Microsoft 365, você pode habilitar e desabilitar aplicativos padrão e definir configurações para controlar aplicativos externos. Essas configurações permitem especificar quais aplicativos externos são permitidos e não permitidos, novo comportamento de aplicativo externo, e se os aplicativos do lado do carregamento é permitido.
 
-> [!NOTE]
-> Para gerenciar as configurações de administração de aplicativos no Microsoft Teams, vá para o Centro de administração do Office 365 e abra **Configurações** > **Serviços e complementos** e escolha **Microsoft Teams**. Se você tiver entrado como administrador do Office 365, este link deverá direcioná-lo corretamente:
-> 
-> https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+ Para gerenciar as configurações de administração para aplicativos em equipes, vá para o Centro de administração do Microsoft 365 e escolha **configurações** > **Serviços & suplementos** > **Equipes da Microsoft**. Se você tiver entrado como administrador do Office 365, esse link deverá levá-lo corretamente ao local correto:
+
+https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 
 Para saber mais sobre as configurações do administrador de aplicativos, veja este vídeo: 
  
@@ -42,7 +41,7 @@ Para saber mais sobre as configurações do administrador de aplicativos, veja e
 
 ## <a name="allow-external-apps-in-teams"></a>Permitir aplicativos externos no Teams
 
-Por padrão, a **permissão de aplicativos externos no Microsoft Teams** está habilitada para todos os aplicativos.  Se você desativar essa opção, todos os aplicativos externos de terceiros serão desabilitados. 
+Por padrão, a **permissão de aplicativos externos no Microsoft Teams** está habilitada para todos os aplicativos.  Se você desativar essa configuração, todos os aplicativos de terceiros externos serão desabilitados. 
 
 ## <a name="enable-new-external-apps-by-default"></a>Habilitar novos aplicativos externos por padrão
 
@@ -53,13 +52,13 @@ Para ativar alguns aplicativos (e desativar outros), desative **Allow sideloadin
 > [!NOTE]
 > Aplicativos padrão, como as criadas pela Microsoft, não são afetados pela definição **habilitar novos aplicativos externos por padrão** . Novos aplicativos estão habilitados por padrão quando lançada pela Microsoft.
 
-Quando essa opção está ativada, os usuários podem ativar novos aplicativos assim que eles são adicionados ao catálogo de aplicativos do Teams. Para abrir o catálogo de aplicativos do Teams, clique em **Loja** na parte inferior do Teams e clique em **Aplicativos**. Para controlar os aplicativos que estão disponíveis, desative essa opção. Obviamente, se você desativá-la, precisará lembrar de revisar os novos aplicativos periodicamente para que sua organização não perca novos aplicativos bacanas. 
+Quando essa configuração é ativada, os usuários podem ativar novos aplicativos assim que são adicionados ao catálogo de aplicativos de equipes. Para abrir o catálogo de aplicativos do Teams, clique em **Loja** na parte inferior do Teams e clique em **Aplicativos**. Se você quiser controlar quais aplicativos estão disponíveis, desative esta configuração. Obviamente, se você desativá-la, precisará lembrar de revisar os novos aplicativos periodicamente para que sua organização não perca novos aplicativos bacanas. 
 
 O sideload é a forma de adicionar um aplicativo ao Teams carregando um arquivo zip diretamente para uma equipe. O sideload permite testar um aplicativo durante seu desenvolvimento. E também possibilita a criação de um aplicativo somente para uso interno, compartilhando-o com a sua equipe sem enviá-lo para o catálogo de aplicativos do Teams na Office Store. 
 
 Apenas os proprietários de equipes ou os membros aos quais foram concedidas permissões podem fazer sideload de aplicativos no Teams.  
 
-![Captura de tela da seção Apps expandida nas configurações de todo o inquilino.](media/Admin_settings_for_apps_in_Microsoft_Teams_image2.png)
+![Captura de tela da seção de aplicativos externos expandida.] (media/teams-tenant-wide-settings-external-apps.png "Captura de tela da seção aplicativos externos expandida mostrando aplicativos externos")
 
 ## <a name="creating-and-uploading-app-packages"></a>Criação e upload de pacotes de aplicativos 
 

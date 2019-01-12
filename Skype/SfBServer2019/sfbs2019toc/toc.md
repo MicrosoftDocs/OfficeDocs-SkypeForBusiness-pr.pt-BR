@@ -315,7 +315,7 @@
 #### [Executar o analisador de práticas recomendadas](../migration/run-best-practices-analyzer.md)
 #### [Fazer backup de dados e sistemas](../migration/back-up-systems-and-data.md)
 #### [Configurar clientes para migração](../migration/configure-clients-for-migration.md)
-#### [Verifique se o ambiente herdado, que você está migração do](../migration/verify-environment.md)
+#### [Verifique se você estiver migrando do ambiente de legado](../migration/verify-environment.md)
 ### [Fase 3: Implantar pool piloto](../migration/phase-3-deploy-pilot-pool.md)
 #### [Preparar o Active Directory para o pool piloto](../migration/prepare-active-directory.md)
 #### [Baixar topologia da implantação existente](../migration/download-topology-from-existing-deployment.md)

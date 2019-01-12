@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, considerações sobre planejamento e requisitos necessários para implementar o serviço de correio de voz de nuvem da Microsoft. Para obter informações sobre como configurar a caixa postal de nuvem, consulte Configurando o correio de voz de nuvem.
-ms.openlocfilehash: 14df7c3d8fbe7cab0bff9482c1543e7a6084039e
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
+ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696202"
+ms.lasthandoff: 01/12/2019
+ms.locfileid: "27988167"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planejar o serviço de correio de voz de nuvem
 
@@ -77,7 +77,7 @@ Além dos requisitos acima, o abaixo requisitos devem ser configurados para se c
 
 - Um Exchange Web Services (EWS) externo URL e descoberta automática devem ser configurado ou alguns recursos de caixa postal de nuvem serão limitados.
 
--  Se você possui uma implantação somente no local – o que é, apenas o Exchange e o Skype para negócios local servidores-- mas quiser tirar vantagem da caixa postal de nuvem, você precisa da licença Diante-PREM. 
+-  Se você tiver uma implantação de somente local & #x 2014; ou seja, somente do Exchange e Skype para negócios local servidores & #x 2014; mas quiser tirar vantagem da caixa postal de nuvem, é preciso a licença Diante-PREM. 
 
 ## <a name="migration-and-interoperability"></a>Migração e interoperabilidade
 
@@ -86,7 +86,8 @@ Se você estiver planejando implantar Skype para Business Server 2019 e/ou 2019 
 - Exchange Server 2019 não fornece mais funcionalidade de UM do Exchange
 - Skype para Business Server 2019 não são mais integra-se ao Exchange Online UM
 
-Interoperabilidade da versão e topologias suportadas para caixa postal de nuvem estão listadas na tabela a seguir. Para a versão de avaliação, caixa postal de nuvem funciona somente com Skype para Business Server e Exchange Server 2019 ou Exchange Online.
+Interoperabilidade da versão e topologias suportadas para caixa postal de nuvem estão listadas na tabela a seguir, que compara o Skype para versões Business Server o usuário pode ser hospedado em com a versão possível fornecendo suas caixas de correio do Exchange. Caixa postal de nuvem só funciona com o Skype para Business Server e Exchange Server 2019 ou Exchange Online.
+
 
 
 |                               | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
