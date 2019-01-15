@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a01c837924f0499b9378d88b9ed6d7e70c9ba91
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896135"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015321"
 ---
 # <a name="tools-for-driving-adoption"></a>Ferramentas para orientando a adoção 
 
@@ -146,4 +146,7 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
 O programa de campeões do Office 365 é um programa gratuito que ajuda as pessoas que desejam aproveitar ao máximo Teams da Microsoft e outros serviços do Office 365. Combinamos nossa comunidade online na [Comunidade técnica do Microsoft](https://aka.ms/DriveAdoption) com chamadas de comunidade mensal que destacar todos os componentes de impulsionar a adoção de governança para práticas recomendadas para novos recursos. Ingressar em nossa comunidade em https://aka.ms/O365Champions e obter acesso a liberação antecipada, ouvir de outros clientes e aprender com especialistas da Microsoft.  
 
 ### <a name="teams-adoption-guide"></a>Guia de adoção de equipes
-Check-out este guia online que ajudarão você a distribuir as equipes da sua empresa. Ele inclui várias ferramentas para download, modelos e outros recursos para ajudá-lo ao longo do percurso da adoção suas equipes.
+Check-out do [quadro de adoção de equipes](https://aka.ms/teamstoolkit), um guia on-line que ajudarão você a implantar as equipes de sua empresa. Ele inclui várias ferramentas para download, modelos e outros recursos para ajudá-lo ao longo do percurso da adoção suas equipes.
+
+### <a name="teams-customer-success-kit"></a>Kit de sucesso do cliente de equipes
+O [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fornece ferramentas para ajudá-lo a implantar as equipes de sua organização. Ela inclui os modelos de email para comunicados, cartazes panfletos, contagem regressiva e dicas e truques. Ele também inclui guias de Introdução para líderes de equipe e os administradores de TI.

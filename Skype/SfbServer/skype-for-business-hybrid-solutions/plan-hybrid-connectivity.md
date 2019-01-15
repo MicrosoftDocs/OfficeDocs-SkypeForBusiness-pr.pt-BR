@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 description: 'Resumo: Leia este tópico para saber como planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online.  A configuração da conectividade híbrida é a primeira etapa da implantação de muitas soluções híbridas do Skype for Business.'
-ms.openlocfilehash: 6b0456c115e1d1fc9b1a341b17cfc9711f2a6bb7
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 8fd32e8b70f2fc63919b9ec8abca2d0b70c90107
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240760"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015282"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-skype-for-business-online"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Skype for Business Online
 
@@ -333,7 +333,8 @@ Você também deve considerar os seguintes problemas relacionados ao usuário ao
 
 - **Mensagens instantâneas e presença** Listas de contatos do usuário, grupos e listas de controle de acesso (ACLs) são migradas com a conta de usuário.
 
-- **Dados de conferência, o conteúdo das reuniões e reuniões agendadas** Este conteúdo não é migrado com a conta de usuário. Os usuários devem reagendar reuniões depois que suas contas são migradas para o Skype para negócios Online.
+- **Dados de conferência, o conteúdo das reuniões e reuniões agendadas** Este conteúdo não é migrado com a conta de usuário. Os usuários devem reagendar reuniões depois que suas contas são migradas para o Skype para negócios Online. O serviço de migração de reunião irá fazer isso automaticamente ao migrar de um Skype para Business server para Skype para equipes ou Business Online, consulte [usando o serviço de migração de reunião](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+
 
 ## <a name="user-policies-and-features"></a>Recursos e políticas de usuário
 <a name="BKMK_UserPolicies"> </a>

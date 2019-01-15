@@ -12,12 +12,12 @@ description: Orientações práticas para a implantação dos recursos de Cloud 
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1819aa33dd951483754f4c00377865460a3765ff
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
+ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620079"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "28015329"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -38,8 +38,10 @@ Para reuniões do usuário equipes seja gravada, Microsoft Stream devem ser habi
 - Usuário aceitou as diretrizes da empresa, se configurado pelo administrador
 - Usuário tem armazenamento suficiente em Stream da Microsoft para gravações seja salvo
 - Usuário tem TeamsMeetingPolicy-AllowCloudRecording configuração definida como true
-- Usuário tem TeamsMeetingPolicy-AllowTranscription configuração definida como true, para que o usuário pode escolher se deseja transcrever automaticamente as gravações
 - Usuário não é um anônimo, convidado ou usuário federado na reunião
+
+> [!NOTE]
+> Além disso, para permitir que a pessoa que iniciar gravação optar se deseja transcrever automaticamente a gravação, a configuração do usuário TeamsMeetingPolicy - AllowTranscription deve ser definida como true
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar a gravação de reunião de nuvem de equipes para usuários em sua organização
 
@@ -90,7 +92,7 @@ Quando os usuários registrar suas reuniões de equipes, eles podem confirmar se
 
 Use a configuração AllowTranscription no TeamsMeetingPolicy no PowerShell equipes para controlar se um iniciador de gravação obtém uma escolha transcrever a gravação de reunião. Saiba mais sobre como gerenciar TeamsMeetingPolicy com o Office 365 PowerShell [aqui](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
-A menos que você atribuiu uma política personalizada para os usuários, eles obtêm a política Global, que tiver desabilitado habilitada por padrão.
+A menos que você atribuiu uma política personalizada para os usuários, eles recebem a política Global, que tem AllowTranscription desabilitado por padrão.
 
 Para um usuário voltar a política Global, use o seguinte cmdlet para remover uma atribuição de política específicas de um usuário:
 
