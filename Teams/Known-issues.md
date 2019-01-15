@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f649ebce7a1938961d1c9f9ef143617a863a924
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
+ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297735"
+ms.lasthandoff: 01/10/2019
+ms.locfileid: "27789163"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -163,7 +163,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os usuários não podem acessar Reuniões/Conectores, mas têm caixas de correio do Exchange Online. <br/> |O cliente bloqueia ativamente o EWS de serviços no Exchange Online, mas o MS Teams precisa estar em conformidade com as políticas do EWS. <br/> |Para que o MS Teams esteja em conformidade, você deve adicionar a seguinte Cadeia de Caracteres de Agente de Usuário ao MS Teams em EWSAllowList: `*skypespaces*` e `*microsoftninja*`, incluindo os asteriscos. Pode ser usado o seguinte comando: `Set-organizationconfig -EwsAllowList @{Add="*MicrosoftNinja*","*SkypeSpaces*"}`<br/> Para obter mais informações, confira: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
+|Os usuários não podem acessar Reuniões/Conectores, mas têm caixas de correio do Exchange Online. <br/> |O cliente bloqueia ativamente o EWS de serviços no Exchange Online, mas o MS Teams precisa estar em conformidade com as políticas do EWS. <br/> | <br/> Para obter mais informações, confira: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -205,8 +205,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Fotos de perfil de usuário  <br/> | No momento, o Microsoft Teams não tem um mecanismo para impedir que os usuários alterem fotos. A equipe do BTS reuniu-se com a equipe de desenvolvimento, que apresentou o seguinte para consideração: Recurso 108874: Política de TI para desabilitar o upload de Foto de Perfil   <br/> | Se você tiver clientes que gostariam de evitar o upload de Foto de Perfil no Microsoft Teams, peça que eles votem e adicionem seu caso comercial aos comentários aqui: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos
- <br/> |01/03/2017 <br/> |
+|Fotos de perfil de usuário  <br/> | No momento, o Microsoft Teams não tem um mecanismo para impedir que os usuários alterem fotos. A equipe do BTS reuniu-se com a equipe de desenvolvimento, que apresentou o seguinte para consideração: Recurso 108874: Política de TI para desabilitar o upload de Foto de Perfil   <br/> | Se você tiver clientes que gostariam de evitar o upload de Foto de Perfil no Microsoft Teams, peça que eles votem e adicionem seu caso comercial aos comentários aqui: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |01/03/2017 <br/> |
 
 ## <a name="provisioning"></a>Provisionamento
 
@@ -227,10 +226,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Guias de site geram confusão para o cliente  <br/> |As guias de site não são equivalentes às de um navegador. Diversos sites, especialmente aqueles que exigem autenticação ou uso de pop-ups, não funcionarão quando forem exibidos como uma guia de site.  <br/> |Estamos trabalhando para melhorar a interface do usuário e torná-la mais clara para os clientes.  <br/> |02/05/2018  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
 |Guias que não funcionam desde que o Acesso Condicional foi habilitado <br/> |Algumas guias podem não ser mais carregadas no Cliente de Desktop desde que o Acesso Condicional foi habilitado no locatário. As guias são carregadas ao ser usado o Cliente Web. Algumas guias que podem ser afetadas são: PowerBI, Forms, VSTS, PowerApps e Lista do SharePoint.  <br/> |Para ver as guias afetadas, você deve usar o Microsoft Teams no Microsoft Edge, no IE ou no Chrome com a extensão de Contas do Windows 10 instalada. Algumas guias ainda dependem da autenticação da Web, que não funciona no Cliente de Desktop quando o AC está habilitado. Estamos trabalhando com parceiros para habilitar esses cenários. Até agora, habilitamos o Planner, o OneNote e o Stream. <br/> |05/04/2018  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -247,7 +242,11 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Guia de página do SharePoint renderizado como uma tela em branco<br/> |Domínios intuitivos do SharePoint Online não têm suporte no momento. A experiência do usuário é uma tela em branco ao se tentar adicionar uma guia de página do SharePoint. <br/> |Não há solução alternativa. <br/> |20/08/2018  <br/>|
+|Guia de página do SharePoint renderizado como uma tela em branco <br/> |Domínios intuitivos do SharePoint Online não têm suporte no momento. A experiência do usuário é uma tela em branco ao se tentar adicionar uma guia de página do SharePoint. <br/> |Não há solução alternativa. <br/> |20/08/2018  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Guia do OneNote herdada  <br/> |Guias do OneNote herdadas criadas durante a visualização pública do Microsoft Teams não podem ser renomeadas nem excluídas.  <br/> |Não há solução alternativa. <br/> |8/11/2017  <br/> |
 
 ## <a name="teams"></a>Microsoft Teams
 
