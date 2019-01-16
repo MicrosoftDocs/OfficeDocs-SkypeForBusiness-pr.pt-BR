@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console do Skype sala sistemas v2 e seus periféricos.
-ms.openlocfilehash: 4218365e7cb4b396d3e93d3fa969546138ace33d
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
+ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716371"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28324931"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar o console do Skype Room Systems versão 2
  
@@ -41,22 +41,20 @@ Você só deve executar estas etapas se o Skype necessária para contas de negó
 ## <a name="prepare-the-installation-media"></a>Preparar a mídia de instalação
 <a name="Prep_Media"> </a>
 
-Instalar o aplicativo de console do Skype sala sistemas v2 requer um dispositivo de armazenamento USB com pelo menos 32GB de memória formatado como um disco FAT32. Não deve haver outros arquivos no dispositivo. Os arquivos existentes no armazenamento USB serão perdidos.
+Instalar o aplicativo de console do Skype sala sistemas v2 requer um dispositivo de armazenamento USB com pelo menos 32GB de capacidade. Não deve haver nenhum outro arquivo no dispositivo. todos os arquivos existentes no armazenamento USB será perdidos.
   
 > [!NOTE]
-> Falha ao criar sua mídia de instalação do Skype sala sistemas v2 acordo com estas instruções provavelmente resultará em um comportamento inesperado. Atualização do Windows 10 Enterprise Data especial (versão 1607) não é mais suportada para criação de mídia de instalação do Skype sala sistemas v2.
+> Falha ao criar sua mídia de instalação do Skype sala sistemas v2 acordo com estas instruções provavelmente resultará em um comportamento inesperado.
 
 > [!NOTE]
-> Um v2 Skype sala sistemas existentes com Windows 10 Enterprise mudando para sistemas de sala Skype v2 atualização 3 por meio da Windows Store funcionará, mas deve ser feita uma nova instalação, conforme descrito abaixo.
+> O processo abaixo é para a criação de mídia de instalação para novos dispositivos de v2 Skype sala System image. Dispositivos existentes, por padrão, atualizam automaticamente do Windows Update e o repositório do Windows.
   
 1. Baixe o [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
-2. (Opcional) Baixe e colocar quaisquer arquivos CAB do pacote de idioma desejado no mesmo diretório que o script. O script indicará onde você pode baixar os arquivos do pacote de idioma apropriados para o tipo de mídia que você está criando, se não tiver certeza onde adquirir os pacotes de idiomas do.
-3. Execute o script CreateSrsMedia.ps1 de um prompt com privilégios elevados em um computador Windows 10.
+2. Execute o script CreateSrsMedia.ps1 de um prompt com privilégios elevados em um computador Windows 10.
+3. Siga as instruções do script para criar um disco de instalação do Skype sala sistemas v2 USB.
 
-Siga as instruções do script para criar um disco de instalação do Skype sala sistemas v2 USB. Quando terminar, remova o disco USB do computador e prossiga para [instalar o Windows 10 e o aplicativo de console do Skype sala sistemas v2](console.md#Reimage).
+Quando terminar, remova o disco USB do computador e prossiga para [instalar o Windows 10 e o aplicativo de console do Skype sala sistemas v2](console.md#Reimage).
 
-> [!TIP]
-> Você pode ter percebido que não são mais chamamos check-out de versões específicas do Windows 10 Enterprise, cliente do Skype sala sistemas v2 ou drivers. Isto é intencional, queremos que o script corresponder e verificar a compatibilidade para todos os instaladores. O script automaticamente localizará e fazer o que precisa de uma configuração com suporte.  
     
 ## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Instalar o Windows 10 e o aplicativo de console Skype Room Systems versão 2
 <a name="Reimage"> </a>
