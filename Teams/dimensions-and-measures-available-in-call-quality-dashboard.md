@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: b648c068131cd01f536aab65ca3cca05cfa0e7c7
-ms.sourcegitcommit: d4113b46e9afbc4ae6bd3e870851cfb822031ff0
+ms.openlocfilehash: f374a87a8cfa3645a685b6628a93b0e4d5236191
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26620087"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326886"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas
 
@@ -395,7 +395,7 @@ A tabela a seguir lista as medidas disponíveis atualmente no CQD (Call Quality 
 |Audio OnePercent PacketLoss Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio com perda de pacote maior que 1%.  <br/> |
 |Audio OnePercent PacketLoss Percentage  <br/> |Porcentagem  <br/> |Porcentagem de todos os fluxos de áudio com perda de pacote maior que 1%.  <br/> |
 |Audio Poor Due To Jitter Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio, onde a métrica de tremulação excede os limites listado aqui: [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).  <br/> |
-|Audio Poor Due To PacketLoss Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio, onde a métrica de perda de pacotes excede os limites listado aqui:[Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md)  <br/> |
+|Audio Poor Due To PacketLoss Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio, onde a métrica de perda de pacotes excede os limites listado aqui: [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md)  <br/> |
 |Audio Poor Due To Degradation Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio, onde a métrica degradação excede os limites listado aqui: [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To RoundTrip Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio, onde a ida e volta exceder os limites listado aqui: [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).  <br/> |
 |Audio Poor Due To ConcealedRatio Count  <br/> |Número de fluxos  <br/> |Número de fluxos de áudio, onde a proporção escondida excede os limites listado aqui: [Classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).  <br/> |

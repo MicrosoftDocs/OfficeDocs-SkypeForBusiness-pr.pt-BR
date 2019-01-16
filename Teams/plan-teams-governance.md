@@ -1,5 +1,5 @@
 ---
-title: Planejar a governança em equipes - Teams da Microsoft
+title: Planejar a governança em equipes ‒ Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5becca716ad4790cc0b156dd15895e66fea7d836
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539037"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326862"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança em equipes
 
@@ -40,15 +40,15 @@ Sua organização pode exigir que você implemente estrito controles em como equ
 
 > [!TIP]
 > Use a tabela a seguir para capturar requisitos da sua organização.
-> 
-> |Recurso |Detalhes |Premium do Azure AD <br> é necessária uma licença |Decisão |
-> |---------|---------|---------|---------|
-> |Diretiva de nomeação de equipe | Use personalizada, baseada no prefixo-sufixo palavras de bloqueado. |P1 |TBD |
-> |Classificação de equipe |Atribua classificações de equipes. |P1 |TBD |
-> |Acesso de convidado da equipe |Permitir ou impedir que os convidados sendo adicionado às equipes. |Não |TBD |
-> |Criação de equipes |Limite de criação de equipe aos administradores. |Não |TBD|
-> |Criação de equipes |Limite de criação de equipe para membros do grupo de segurança. |P1 |TBD|
-> 
+
+|Recurso |Detalhes |Premium do Azure AD <br> é necessária uma licença |Decisão |
+|---------|---------|---------|---------|
+|Diretiva de nomeação de equipe | Use personalizada, baseada no prefixo-sufixo palavras de bloqueado. |P1 |TBD |
+|Classificação de equipe |Atribua classificações de equipes. |P1 |TBD |
+|Acesso de convidado da equipe |Permitir ou impedir que os convidados sendo adicionado às equipes. |Não |TBD |
+|Criação de equipes |Limite de criação de equipe aos administradores. |Não |TBD|
+|Criação de equipes |Limite de criação de equipe para membros do grupo de segurança. |P1 |TBD|
+
 > [!NOTE]
 > Para ajudá-lo a planejar com antecedência, [Saiba mais sobre como definir essas políticas e quais licenças exigem](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings).
 > 
@@ -69,7 +69,7 @@ Depois que você determinou seus requisitos, você pode implementá-las usando o
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Expiração de grupo e da equipe, retenção e arquivamento
 
-A organização poderá ter requisitos adicionais para a configuração de diretivas de expiração, retenção, e arquivamento às equipes e às equipes de dados. Você pode configurar diretivas de expiração de grupo para gerenciar automaticamente o ciclo de vida das diretivas de grupo e de retenção para preservar ou excluir informações conforme necessário, e você pode arquivar as equipes (defini-las para o modo somente leitura) para preservar a um modo de exibição no momento de uma equipe que não é mais ativo.
+A organização poderá ter requisitos adicionais para a configuração de diretivas de expiração, retenção, e arquivamento às equipes e às equipes de dados (mensagens de canal e arquivos de canal). Você pode configurar diretivas de expiração de grupo para gerenciar automaticamente o ciclo de vida das diretivas de grupo e de retenção para preservar ou excluir informações conforme necessário, e você pode arquivar as equipes (defini-las para o modo somente leitura) para preservar a um modo de exibição no momento de uma equipe que não é mais ativo.
 
 |           |            |
 |-----------|------------|
@@ -78,13 +78,13 @@ A organização poderá ter requisitos adicionais para a configuração de diret
 
 > [!TIP]
 > Use a tabela a seguir para capturar requisitos da sua organização.
-> 
-> |Recurso |Detalhes |Premium do Azure AD <br>é necessária uma licença |Decisão |
-> |---------|---------|---------|---------|
-> |Política de expiração |Gerencie o ciclo de vida dos grupos do Office 365, definindo uma política de expiração. |P1 |TBD|
-> |Política de retenção |Reter ou excluir dados (mensagens de canal de equipes e arquivos de canal) por um período de tempo específico, definindo políticas de retenção para equipes na Central de segurança e conformidade. **Observação**: usar esse recurso exige licenciamento do Office 365 Enterprise E3 ou acima. |Não |TBD |
-> |Arquivamento e restauração |Arquive uma equipe quando ele não está mais ativo, mas deseja mantê-la para referência ou reativá-lo no futuro. |Não |TBD |
-> 
+
+|Recurso |Detalhes |Azure AD Premium é necessária uma licença |Decisão |
+|---------|---------|---------|---------|
+|Política de expiração |Gerencie o ciclo de vida dos grupos do Office 365, definindo uma política de expiração. |P1 |TBD|
+|Política de retenção |Reter ou excluir dados por um período de tempo específico, definindo políticas de retenção para equipes no Centro de conformidade de segurança &. **Observação**: usar esse recurso exige licenciamento do Office 365 Enterprise E3 ou acima. |Não |TBD |
+|Arquivamento e restauração |Arquive uma equipe quando ele não está mais ativo, mas deseja mantê-la para referência ou reativá-lo no futuro. |Não |TBD |
+
 > [!Note]
 > Expiração de grupo é um recurso do Windows Azure AD Premium. Para que este recurso esteja disponível, seu inquilino deve ter uma assinatura para o Windows Azure AD Premium e licenças para o administrador que configura as configurações e os membros dos grupos afetados.
 
@@ -115,7 +115,7 @@ As equipes fornece recursos granulares para controlar mensagens, reuniões, cham
 
 Para obter listas detalhadas de todas as configurações, incluindo orientações técnicas sobre como implementá-las para sua organização, consulte os seguintes artigos:
 
--   [Gerenciar recursos de Teams da Microsoft em sua organização do Office 365](enable-features-office-365.md)
+-   [Gerenciar os recursos do Microsoft Teams na sua organização do Office 365](enable-features-office-365.md)
 -   [Gerenciar equipes durante a transição para o novo Teams da Microsoft e Skype para Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
 -   [Gerenciar políticas de reunião em equipes](meeting-policies-in-teams.md)
 

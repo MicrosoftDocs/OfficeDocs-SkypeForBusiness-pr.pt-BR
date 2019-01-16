@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console do Skype sala sistemas v2 e seus periféricos.
-ms.openlocfilehash: fab2854406e22b156c8fcca76e6701214199f62c
-ms.sourcegitcommit: d3708702393ac434344c758959109a3be2b3bfa4
+ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/16/2019
-ms.locfileid: "28324931"
+ms.locfileid: "28326713"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar o console do Skype Room Systems versão 2
  
@@ -52,6 +52,9 @@ Instalar o aplicativo de console do Skype sala sistemas v2 requer um dispositivo
 1. Baixe o [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
 2. Execute o script CreateSrsMedia.ps1 de um prompt com privilégios elevados em um computador Windows 10.
 3. Siga as instruções do script para criar um disco de instalação do Skype sala sistemas v2 USB.
+
+> [!CAUTION]
+> O nome da pasta que executar o script de criação de mídia não pode conter um espaço. Se houver um espaço no nome de pasta, o script irá falhar.
 
 Quando terminar, remova o disco USB do computador e prossiga para [instalar o Windows 10 e o aplicativo de console do Skype sala sistemas v2](console.md#Reimage).
 

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: cf6f2118ff147e6c126db6fcbbd0af9dbe155e21
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699395"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326695"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Adicionar, alterar ou remover um endereço de emergência para sua organização
 
@@ -83,7 +83,34 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
     
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
+
+## <a name="troubleshooting"></a>Solução de problemas
+
+**Número no estado "Falha".**
+
+Após adquirir um número do portal do Office 365, o status será alterado de **"Provisionamento"** para **"Falha"**.
+
+Geralmente, esse problema ocorre quando um número é adicionado a partir do portal, usando um endereço de emergência apontando para um local que não é compatível com o código de área do telefone.
+
+Para obter mais informações sobre os números que não estava ativados corretamente, execute o Powershell a seguir:
+ 
+> [! SINTAXE] Get-CsOnlineTelephoneNumber | Where-Object {$_. ActivationState - cnotcontains "Ativado"} | FL *
+
+O resultado, reserve outras informações como região, id e ActivationState, também deve conter o CityCode.
+
+O **exemplo**, para um número de Madri, o CityCode retornado será "EMEA-ES-ALL-M_MA".
+
+Se, na verdade, um endereço de emergência errado tiver sido usado, verifique se você criou um novo endereço de emergência correspondente ao código de área do número e atribuí-lo ao número.
+
+1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
+2. Vá para as **equipes da Microsoft & Skype para Business Admin Center** > **portal herdada**.
+    
+3. No painel de navegação esquerdo, vá para **voz** > **Números de telefone**e, em seguida, clique duas vezes no número no estado **"Falha"** e, no menu site mão direita, selecione o **Novo endereço de emergência**.
+
+
+Observe que após alterar o endereço de emergência, status do número será alterado para **"atribuição pendente"** e pode demorar até 24 horas para ativação com êxito.
+
 ## <a name="related-topics"></a>Tópicos relacionados
 [O que são locais e endereços de emergência e encaminhamento de chamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 

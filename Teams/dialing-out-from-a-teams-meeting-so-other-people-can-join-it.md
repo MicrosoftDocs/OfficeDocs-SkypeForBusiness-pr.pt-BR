@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba do que você precisa e como os organizadores da reunião podem ligar para outras pessoas usando o Teams.
-ms.openlocfilehash: adb4d9ae492c324937dbe552fc138933428cc466
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297787"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326854"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião do Microsoft Teams para que outras pessoas possam participar
 
 Como organizador da reunião, você pode discar usando o aplicativo de equipes para permitir que outras pessoas ingressem na reunião mesma usando seus telefones.
 
-Quando você disca para uma pessoa, recomendamos que você faça isso usando seus números de telefone completo (incluindo o código de país/região).
+Quando você disca para uma pessoa, recomendamos que você faça isso usando seus números de telefone completo (incluindo o código de país/região - formato e. 164).
   
   Observe que o seguinte:
 

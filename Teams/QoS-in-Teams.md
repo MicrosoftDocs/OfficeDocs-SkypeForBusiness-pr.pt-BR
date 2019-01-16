@@ -1,5 +1,5 @@
 ---
-title: Qualidade de serviço no Microsoft Teams ‒ Microsoft Teams
+title: Implementar a qualidade de serviço em equipes da Microsoft
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,14 +13,14 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e6b37a0daff06a4676a7ecba1b67ecdd03649a
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789090"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326728"
 ---
-# <a name="quality-of-service-qos-in-microsoft-teams"></a>Qualidade de Serviço (QoS) no Microsoft Teams
+# <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a qualidade do serviço (QoS) em equipes da Microsoft
 
 Este artigo ajudará você a preparar a rede da sua organização Quality of a Service (QoS) no Microsoft Teams.
 
@@ -33,15 +33,15 @@ Ao priorizar o tráfego de comunicação em tempo real, como chamadas ou reuniõ
 
 Para QoS seja realmente eficaz, as configurações de QoS consistentes devem ser aplicadas de ponta a ponta em sua organização (usuário PCs, comutadores de rede e roteadores para a nuvem), pois qualquer parte do caminho que está falhando para dar suporte a suas prioridades de QoS pode prejudicar a qualidade das chamadas , vídeo e compartilhamento de tela.
 
-![a relação entre redes de uma organização e serviços do Office 365: conectam a rede e os dispositivos com uma rede de interconexão, que por sua vez, se conecta com os serviços do Office 365 nuvem voz e conferência de áudio no local.] (media/Qos-in-Teams-Image1.png "a relação entre redes de uma organização e serviços do Office 365: conectam a rede e os dispositivos com uma rede de interconexão, que por sua vez, se conecta com os serviços do Office 365 nuvem voz e conferência de áudio no local.")
+QoS é um mecanismo que você pode usar para priorizar certos tipos de tráfego de rede que são sensíveis a atrasos de rede sobre outro tráfego que são menos confidencial. Uma simples analogia é que a QoS cria virtual "pistas expressa, mas" em seus dados de rede, portanto alguns tipos de dados nunca ou raramente encontrar atrasos.
 
-_Figura 1. A relação entre redes de uma organização e serviços do Office 365_
+Ao priorizar o tráfego de comunicação em tempo real, como chamadas ou reuniões compartilhadas em equipes que você pode mais confiável fornecem uma experiência de usuário de nível de negócios. Quando você não implementa QoS, telas compartilhadas em reuniões podem congelar, vídeo pode pixellate e mudança de cor e chamadas de voz podem se tornar entrecortado e difíceis ou impossíveis de entender. Para QoS seja realmente eficaz, as configurações de QoS consistentes devem ser aplicadas de ponta a ponta em sua organização (usuário PCs, comutadores de rede e roteadores para a nuvem), pois qualquer parte do caminho que está falhando para dar suporte a suas prioridades de QoS pode prejudicar a qualidade das chamadas , vídeo e compartilhamento de tela.
 
-
-Na maioria dos casos, a rede de interconexão será uma conexão de internet de rede não gerenciado. 
+![A relação entre redes de uma organização e serviços do Office 365: conectam a rede e os dispositivos com uma rede de interconexão, que por sua vez, se conecta com os serviços do Office 365 nuvem voz e conferência de áudio no local.](media/Qos-in-Teams-Image1.png) 
 
 Uma opção disponível para QoS de ponta a ponta de endereços é [ExpressRoute do Windows Azure](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Ainda assim, é recomendável que você implemente o QoS em sua rede local. Isso irá aumentar a qualidade das cargas de trabalho de comunicação em tempo real em toda sua implantação e atenuar os pontos de estrangulamento. 
 
+Na maioria dos casos, a rede de sua empresa conectar-se para a nuvem será uma conexão de internet de rede não gerenciado onde você não poderá definir confiável QoS. Uma opção disponível para permitir a QoS de ponta a ponta realmente é [ExpressRoute do Windows Azure](https://azure.microsoft.com/documentation/articles/expressroute-introduction/). Ainda recomendamos que você implemente QoS nas partes da rede de ponta a ponta você tenha controle sobre, notadamente sua rede local. Isso irá aumentar a qualidade das cargas de trabalho de comunicação em tempo real em toda sua implantação e atenuar os pontos de estrangulamento na implantação existente.
 
 ## <a name="prioritize-teams-network-traffic-for-qos"></a>Priorizar o tráfego de rede de equipes para QoS 
 
@@ -70,7 +70,7 @@ Quando o tráfego de rede entra em um roteador, o tráfego é colocado em uma fi
 
 _Figura 2. Exemplos de filas de QoS_
 
-Depois que essas partes estão funcionando, é possível entregar QoS previsível porque a rede gerenciada subjacente agora entende como classificar, marcar e priorizar o tráfego. Sob a perspectiva de equipes, a etapa de configuração mais importante é a classificação e a marcação dos pacotes, mas para QoS de ponta a ponta obter êxito, você também precisará Alinhe cuidadosamente a configuração do aplicativo com a configuração de rede subjacente.
+Depois que essas partes estão funcionando, é possível entregar QoS previsível porque a rede agora entende como classificar, marcar e priorizar o tráfego. Sob a perspectiva de equipes, a etapa de configuração mais importante é a classificação e a marcação dos pacotes, mas para QoS de ponta a ponta obter êxito, você também precisará Alinhe cuidadosamente a configuração do aplicativo com a configuração de rede subjacente.
 
 ## <a name="teams-qos-scenarios"></a>Cenários de QoS de equipes
 
@@ -141,7 +141,7 @@ _Tabela 1. Métricas de desempenho de rede - cliente aos serviços do Office 365
 | Perda de pacote de intermitência | < 10% durante qualquer intervalo de 200 milissegundos |
 | Perda de pacotes | < 1% durante qualquer intervalo segundo 15 |
 | Tremulação de entre chegada de pacotes | < 30 milissegundos durante qualquer intervalo segundo 15 |
-| Novo pedido de pacotes | < 0,05% sem pacotes de ordem |
+| Novo pedido de pacotes | % de 0,05 < sem pacotes de ordem |
 
 O destino de métricas de latência supõe que o site da empresa ou sites e as bordas da Microsoft estão em continente o mesmo.
 
@@ -266,8 +266,7 @@ Para verificar se os valores do objeto de diretiva de grupo foram definidos, exe
    ```
    gpresult /H >gp.html
    ```
-
-   ![Captura de tela da janela do console, executando o comando gpresult.] (media/Qos-in-Teams-Image3.png "Captura de tela da janela do console, executando o comando gpresult.")
+ ![Captura de tela da janela do console, executando o comando gpresult.] (media/Qos-in-Teams-Image3.png "Captura de tela da janela do console, executando o comando gpresult.")
 
 3. No arquivo gerado, procure por título de **Objetos de diretiva de grupo aplicados** e verifique se os nomes dos objetos de diretiva de grupo criados anteriormente estão na lista de diretivas aplicadas. 
 

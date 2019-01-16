@@ -1,5 +1,5 @@
 ---
-title: Usar Microsoft Teams no escopo de pesquisa de diretório
+title: Usar a pesquisa de diretório no escopo do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c8173445fff6acaa3a5381199220a376401076c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531822"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326815"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>Usar Microsoft Teams no escopo de pesquisa de diretório
+# <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
 A pesquisa de diretório com escopo Teams Microsoft permite que as organizações a criar limites virtuais que controlam como os usuários podem localizar e se comunicar com outros usuários em suas organizações. 
 
@@ -32,13 +32,13 @@ Teams Microsoft permite que as organizações fornecem exibições personalizada
 
 Cenários que se beneficiam de pesquisas de diretório com escopo são semelhantes aos cenários de política de catálogo de endereços. Por exemplo, convém usar a pesquisa de diretório com escopo nas seguintes situações:
 
-- Sua organização tem várias empresas dentro de seu locatário que você deseja manter separados. 
-- Sua escola deseja limitar chats entre professores e alunos. 
+- Sua organização tem várias empresas dentro no locatário que você deseja manter separadas. 
+- Sua escola quer limitar os chats entre professores e alunos. 
  
 Você pode aprender mais sobre como as políticas de catálogo de endereços podem ser usadas [aqui](https://docs.microsoft.com/Exchange/email-addresses-and-address-books/address-book-policies/abp-scenarios?view=exchserver-2019).
 
 > [!IMPORTANT]
-> Políticas de catálogo de endereços fornecem apenas uma virtual separação de usuários da perspectiva de diretório. Os usuários ainda podem iniciar a comunicação com outras pessoas, fornecendo endereços de email completo. 
+> Políticas de catálogo de endereços fornecem apenas uma virtual separação de usuários da perspectiva de diretório. Os usuários ainda podem iniciar a comunicação com outras pessoas, fornecendo endereços de email completo. Também é importante observar que quaisquer dados de usuário que tinham já foram armazenados em cache, antes da aplicação de políticas de catálogo de endereços novos ou atualizados, ficará disponíveis para os usuários por até 30 dias.
 
 ## <a name="enable-scoped-directory-search"></a>Habilitar a pesquisa de diretório com escopo
 
@@ -46,7 +46,7 @@ Você pode aprender mais sobre como as políticas de catálogo de endereços pod
 
 2.  Entrar no Centro de administração do Microsoft 365, selecione **centrais de Admin**e selecione **equipes & Skype**.
  
-3.  No Microsoft Teams & Skype para centro de administração de negócios, selecione **configurações de toda a organização** > **configurações de equipes**.
+3.  Na & Teams Microsoft Skype para centro de administração de negócios, selecione **configurações de toda a organização** > **configurações de equipes**.
 
 4.  Em **pesquisa**, ao lado de **pesquisa de diretório do escopo em equipes usando uma política de catálogo de endereços do Exchange (APB)**, ative a alternância **em**. 
 

@@ -1,5 +1,5 @@
 ---
-title: Alterar os números de telefone de sua ponte de audioconferência
+title: Alterar os números de telefone em sua ponte de Audioconferência
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você adquire licenças de serviços de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio oferece check-out de números de telefone de discagem de diferentes locais para que participantes e os organizadores da reunião podem usá-los para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
-ms.openlocfilehash: d90daec99ced371aae3ef0685d1138656a6ab138
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1590fe63a712ece4c2f073dc6642b09ac273d32
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531768"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326870"
 ---
-# <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone de sua ponte de audioconferência
+# <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 
 Quando você adquire licenças de **Serviços de audioconferência** , a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de conferência de áudio fornece aos números de telefone de discagem de diferentes locais para que os organizadores de reuniões e os participantes podem usar para ingressar Skype para reuniões de negócios ou Microsoft Teams usando um telefone.
   
@@ -46,7 +46,7 @@ Além dos números já atribuídos a sua ponte de conferência, você pode [obte
 
 1. Entre no Office 365 com sua conta corporativa.
 
-2. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **equipes & Skype** > **portal herdada** > **voz** > **números de telefone**.
+2. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **& equipes Skype** > **portal herdada** > **voz** > **números de telefone**.
 
 3. Selecione o número de telefone da lista e, no painel de ações, clique em **atribuir**.
 
@@ -60,7 +60,7 @@ Apenas um número de Chamada Tarifada do serviço pode ser definido como o núme
 
 1. Entre no Office 365 com sua conta corporativa.
 
-2. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **equipes & Skype** > **reuniões** > **Pontes de conferência**.
+2. Vá para **o Centro de administração do Office 365** > **Admin centrais** > **& equipes Skype** > **reuniões** > **Pontes de conferência**.
 
 3. Destaque o número de Chamada Tarifada do serviço que você deseja configurar como padrão.
 
@@ -72,7 +72,7 @@ Os números de telefone padrão de um usuário são aqueles que estão incluído
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **equipes & Skype** > **portal herdada** > **audioconferências** > **usuários**e selecione os usuários na lista.
+2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **& equipes Skype** > **portal herdada** > **audioconferências** > **usuários**e selecione os usuários na lista.
 
 3. Clique em **Editar** no painel de ação.
 
@@ -136,7 +136,7 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **equipes & Skype** > **portal herdada** > **voz** > **números de telefone**.
+2. Vá para o **Centro de administração do Office 365** > **Admin centrais** > **& equipes Skype** > **portal herdada** > **voz** > **números de telefone**.
 
 3. Selecione o número de telefone da lista e, no painel de ações, clique em **não atribuído**.
 
@@ -220,6 +220,24 @@ Para poupar tempo automatizando esse processo, você pode usar o [Set-CsOnlineDi
 
     > [!NOTE]
     > [!OBSERVAçãO] O local usado acima deve corresponder às informações de contato dos usuários definidas no centro de administração do Office 365.
+
+## <a name="troubleshooting"></a>Solução de problemas
+
+**Retirar a atribuição de botão estiver em cinza-out**
+
+Você deseja cancelar a atribuição de um número, mas o botão não estiver em cinza-out e se enquanto hoovering sobre ele, você será redirecionado para contatar o suporte com a seguinte mensagem _"padrão ou can´t compartilhado de números não atribuídos da ponte de ser. Para retirar a atribuição de números tarifados dedicado, contate o suporte técnico._".
+
+Para obter mais informações sobre o bridge(s), execute o Powershell a seguir:
+```
+Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
+```
+
+O resultado, reserve outras informações como identidade, o nome e a região, também deve conter o DefaultServiceNumber.
+
+**Exemplo**, para retirar a atribuição, o DefaultServiceNumber "8005551234"
+```
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+```
 
 ## <a name="about-windows-powershell"></a>Sobre o Windows PowerShell
 

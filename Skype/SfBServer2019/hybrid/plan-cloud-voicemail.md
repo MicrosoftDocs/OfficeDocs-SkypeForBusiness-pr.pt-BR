@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, considerações sobre planejamento e requisitos necessários para implementar o serviço de correio de voz de nuvem da Microsoft. Para obter informações sobre como configurar a caixa postal de nuvem, consulte Configurando o correio de voz de nuvem.
-ms.openlocfilehash: 1cf4376becb9826e7403b22e621843de7426abb6
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 0ea27643acce66484081034b8685c7dcad9aa311
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988167"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326768"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planejar o serviço de correio de voz de nuvem
 
@@ -75,9 +75,9 @@ Além dos requisitos acima, o abaixo requisitos devem ser configurados para se c
 
 - No local os usuários devem ser habilitados para o Enterprise Voice e mensagens de voz hospedada no Skype para Business Server.
 
-- Um Exchange Web Services (EWS) externo URL e descoberta automática devem ser configurado ou alguns recursos de caixa postal de nuvem serão limitados.
+- Um Exchange Web Services (EWS) externo URL e descoberta automática devem ser configurada ou alguns recursos de caixa postal de nuvem serão limitados.
 
--  Se você tiver uma implantação de somente local & #x 2014; ou seja, somente do Exchange e Skype para negócios local servidores & #x 2014; mas quiser tirar vantagem da caixa postal de nuvem, é preciso a licença Diante-PREM. 
+-  Se você tiver um deployment& de local único #x 2014; ou seja, somente do Exchange e Skype para negócios servers& #x 2014; local, mas quiser tirar vantagem da caixa postal de nuvem, não será necessário licenças adicionais.
 
 ## <a name="migration-and-interoperability"></a>Migração e interoperabilidade
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7fa7e7d7999bd42748e1997a4ec73b37ca14a67
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: efb5b4394ae7659982a747e79ace2296dbdf2345
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772765"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326705"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado de equipes
 ==========================================
@@ -82,9 +82,9 @@ Para obter instruções detalhadas sobre como definir essas configurações, con
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Etapa 3: habilitar o acesso de convidado a nível de locatário
 
-No mínimo, você deve ativar Teams da Microsoft para todos os usuários do tipo de licença **Convidado**. 
+No mínimo, você deve ativar acesso como convidado for Microsoft Teams sob as **equipes da Microsoft & Skype para Business Admin Center**. 
 
-1. Em equipes e Skype para Business Admin Center, selecione **configurações de toda a organização** > **acesso de convidado**.
+1. Na & equipes Skype para Business Admin Center, selecione **configurações de toda a organização** > **acesso de convidado**.
 2. Defina a opção de **Permitir o acesso de convidado em equipes da Microsoft** para **ativado**.
 
     ![Captura de tela mostra um exemplo de uma alternância de configurações de equipes](media/set-up-guests-image1.png)
@@ -99,7 +99,7 @@ Para obter instruções detalhadas, consulte [Ativar ou desativar o acesso de co
 
 Certifique-se de que os usuários podem adicionar convidados. Veja como:
 
-1. No Centro de administração do Microsoft 365, vá para **configurações** > **de segurança e privacidade**.
+1. No Centro de administração do Microsoft 365, vá para **configurações** > **segurança & privacidade**.
 
      ![Captura de tela mostra um exemplo de um configurações de serviços](media/guest-access-checklist-Office365Admin_Services_addins.png)
 

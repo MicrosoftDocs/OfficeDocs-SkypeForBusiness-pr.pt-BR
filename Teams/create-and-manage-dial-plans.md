@@ -23,13 +23,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Aprenda como criar planos de discagem de chamadas (Planos de Discagem de Chamadas PSTN) no Office 365 e como gerenciá-los. '
-ms.openlocfilehash: 1bf059f096e6e66c9f5b10913cc6754e3f9e247f
-ms.sourcegitcommit: 8a4ed16adc60497510a528784e139075fbae9e55
+description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
+ms.openlocfilehash: 49ce76cc723b120fce4fd259304e6bb066b10f6e
+ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25506795"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28326823"
 ---
 # <a name="create-and-manage-dial-plans"></a>Criar e gerenciar planos de discagem
 
@@ -155,7 +155,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
 ```
 
-Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it. The array of normalization rules starts with index 0. We would like to remove the 3-digit normalization rule, so that is index 1.
+Execute o seguinte quando você deseja examinar também as regras de normalização existente, determinar qual deles você deseja excluir e, em seguida, usar seu índice para removê-lo. A matriz de regras de normalização começará com o índice 0. Gostaríamos de remover a regra de normalização 3 dígitos, forma que é o índice 1.
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -181,7 +181,12 @@ Execute este script para localizar todos os usuários que receberam o plano de d
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization. You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.
+Execute esta opção para excluir policyname para todos os usuários que têm HostingProvider sipfed.
+```
+Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+```
+
+Execute estes scripts para adicionar um plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para sua organização. Você precisará primeiro salvar o local plano para um arquivo. XML de discagem e usá-lo para criar o novo plano de discagem de locatário.
   
 Execute esta opção para salvar o plano de discagem do local para o arquivo. XML.
   
@@ -207,7 +212,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Quer saber mais sobre o Windows PowerShell?
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 e o Skype for Business Online usando um único ponto de administração, o que pode simplificar o seu trabalho diário quando tiver várias tarefas para fazer. Para começar a trabalhar com o Windows PowerShell, confira estes tópicos:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
