@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fdd9c47e54c9ce51e736363eb47227614824a4c
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
+ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
+ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27893353"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "28022911"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo desloca para sua organização no Microsoft Teams
 
@@ -36,7 +36,11 @@ O aplicativo desloca no Microsoft Teams mantém firstline trabalhadores conectad
 
 Desloca está disponível em todas as assinaturas do Office 365 que incluem equipes, com algumas exceções. As exceções são conosco governamentais nuvem da comunidade (GCC) e equipes livres. Desloca não está disponível no Office 365 conosco agências governamentais ou equipes livre ofertas.
 
-Para saber mais sobre o licenciamento para equipes, consulte [Licenciamento do Office 365 para equipes](Office-365-licensing.md).
+Para saber mais sobre o licenciamento para equipes, incluindo uma lista de assinaturas do Office 365 que inclui as equipes, consulte [Licenciamento do Office 365 para equipes](Office-365-licensing.md).
+
+## <a name="location-of-shifts-data"></a>Localização dos dados desloca
+
+Atualmente, os dados de desloca são armazenados no Windows Azure em centros de dados na América do Norte, Europa Ocidental e Pacífico Asiático. Para obter mais informações sobre onde os dados são armazenados, consulte [onde estão meus dados](http://o365datacentermap.azurewebsites.net/)?
 
 ## <a name="set-up-shifts"></a>Configurar desloca
 
