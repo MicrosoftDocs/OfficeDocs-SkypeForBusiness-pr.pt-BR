@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 442054ab5ea307dec078a175a28d0a1eece16453
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371413"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694786"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definir e documentar o seu sistema telefônico com planos de chamada no plano de teste de equipes para empresas 
 ============================================================================================
@@ -82,7 +82,7 @@ Com essa linha de base identificada, a próxima etapa é avaliar o mapa de públ
 -   Se você pode confirmar que o sistema telefônico com recursos de planos de chamar descrito no mapa público mais recente para atender a requisitos de escopo na linha do tempo da sua implantação, funcionalidade e usuário
 
 > [!TIP]
-> O mapa de equipes mais recente para identificar o sistema telefônico com planos de chamar os recursos no escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
+> O mapa de equipes mais recente para identificar o sistema telefônico com planos de chamar os recursos no escopo para sua implantação pode ser encontrada em <https://aka.ms/O365Roadmap>.
 
 Agora que o sistema telefônico com recursos e planos de chamar pessoa tiverem sido definidos, o próximo critério para avaliação será a experiência de interoperabilidade com equipes. Para obter informações adicionais sobre a experiência de interoperabilidade, juntamente com as opções de configuração disponíveis, consulte [as equipes da Microsoft e Skype para a interoperabilidade de negócios](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
@@ -389,7 +389,7 @@ Normalmente, um plano de relatório e correção de defeitos inclui o seguinte:
 
 | ID de defeito                                | Descrição de defeito                                                                                 | Avaliação de prioridade de defeito                                           | Proprietário de defeito atribuídas | Ponto de escalonamento de defeito atribuídas | Método de escalonamento de defeito                                          | Status de defeito | Resolução necessária por data | Data de status |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1                                        | Quando o usuário insere uma extensão de quatro dígitos, a tentativa de fazer uma chamada de saída, a chamada falhará. | Médio                                                               | Lisa cinza             | Louis Lahr                       | E-mail de alta prioridade triagem revisão semanal para partes interessadas afetadas | Abra o           | ASAP                        | 1/12/2018   |
+| 1                                        | Quando o usuário insere uma extensão de quatro dígitos, a tentativa de fazer uma chamada de saída, a chamada falhará. | Médio                                                               | Lisa cinza             | Louis Lahr                       | E-mail de alta prioridade triagem revisão semanal para partes interessadas afetadas | Abra           | ASAP                        | 1/12/2018   |
 
 
 
@@ -604,7 +604,7 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 | Latência (unidirecional)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latência (tempo de ida e volta, ou tempo de resposta)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
 | Perda de pacote de intermitência                                             | \<10% durante qualquer intervalo de 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | % de 0.2                                     | 0,1%                                    |
-| Perda de pacote                                                   | \<1% durante qualquer intervalo de 15 segundos                                                                                   | % de 0.4                                                                                                                                                                                                                                                                                                                                      | % de 0,3                                     | % de 0,3                                      | 0,1%                                     | 0%                                      |
+| Perda de pacotes                                                   | \<1% durante qualquer intervalo de 15 segundos                                                                                   | % de 0.4                                                                                                                                                                                                                                                                                                                                      | % de 0,3                                     | % de 0,3                                      | 0,1%                                     | 0%                                      |
 | Tremulação de entre chegada de pacotes                                   | \<30 ms durante qualquer intervalo de 15 segundos                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
 | Novo pedido de pacotes                                                | \<% de 0,05 pacotes de fora de ordem                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
 
@@ -615,7 +615,7 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testando pontos menos importantes  </th></tr> 
 <tr><td><strong>Problema</strong>: alta latência</td><td><strong>Remediação:</strong> Investigue o roteamento de pacotes e implementar a rota ideal.</td></tr>
-<tr><td><strong>Problema</strong>: ida e volta tempo for & #39; t duas vezes a latência</td><td><strong>Remediação:</strong> Investigar um problema de configuração de firewall ou roteador possível. Investigar os caminhos de tráfego.</td></tr>
+<tr><td><strong>Problema</strong>: tempo de ida e volta isn& #39; t duas vezes a latência</td><td><strong>Remediação:</strong> Investigar um problema de configuração de firewall ou roteador possível. Investigar os caminhos de tráfego.</td></tr>
 <tr><td><strong>Problema</strong>: alta perda de pacotes </td><td><strong>Remediação:</strong> Verifique se que a largura de banda suficiente tenha sido alocada por meio do Planejador de rede. </td></tr>
 <tr><td><strong>Problema</strong>: tremulação alta </td><td> <strong>Remediação:</strong> Investigue se os valores DSCP (ponto) do código de serviços diferenciados corretas estão sendo usados. </td></tr>
 <tr><td><strong>Problema</strong>: alta perda de pacotes </td><td><strong>Remediação:</strong> Investigue perda de pacotes. </td></tr>

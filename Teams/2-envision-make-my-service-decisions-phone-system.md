@@ -1,5 +1,5 @@
 ---
-title: Tornar o sistema telefônico com planos de chamar decisões de serviço - Teams da Microsoft
+title: Tomar decisões sobre o serviço de Sistema de Telefonia com Planos de Chamadas - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf0d5514f4202029acabe44268e8e7e7d671f60
-ms.sourcegitcommit: f76497a93dc3382c0ff2fc115c8f3e704097ab5a
+ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25597842"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694755"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -29,7 +29,7 @@ Para planejar a implementação técnica do sistema telefônico com planos de ch
 Com Teams da Microsoft, os usuários podem fazer ou receber chamadas telefônicas para ou da rede telefônica pública comutada (PSTN). Seus usuários podem usar seus próprios números de telefone dedicado para fazer e receber chamadas telefônicas de nacionais e internacionais de aplicativos do cliente de equipes, com recursos avançados que incluem a caixa postal.
 
 > [!NOTE]
-> O mapa de equipes mais recente para identificar o sistema telefônico de equipes com recursos de chamada planejar no escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
+> O mapa de equipes mais recente para identificar o sistema telefônico de equipes com recursos de chamada planejar no escopo para sua implantação pode ser encontrada em <https://aka.ms/O365Roadmap>.
 
 ## <a name="phone-system-in-teams"></a>Sistema telefônico em equipes
 
@@ -76,7 +76,7 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 > [!TIP]
 > Abaixo é um exemplo de um sistema telefônico com lista planos de chamada de habilitação de site.
 > 
-> | **Escritório**                     | **Local**   | **Serviço de sistema telefônico** |
+> | **Office**                     | **Local**   | **Serviço de sistema telefônico** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Austrália      | Serviço PSTN herdado |
 > | 100 Alma Road             | Hong Kong SAR  | Roteamento direto de sistema do telefone |
@@ -101,7 +101,7 @@ Para saber mais sobre os locais de emergência em relação à chamada planos, r
 
 -   [O que são locais e endereços de emergência e encaminhamento de chamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
 
--   [Termos e condições das Chamadas de Emergência](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Termos e condições para chamadas de emergência](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
 
 <br>
 

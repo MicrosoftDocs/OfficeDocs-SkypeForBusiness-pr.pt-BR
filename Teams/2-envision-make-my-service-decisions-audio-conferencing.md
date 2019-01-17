@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0057f18d334c89f745ec74952fd01796c8b30880
-ms.sourcegitcommit: a378848c5aeb8e2b25300024318de792454d905b
+ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/28/2018
-ms.locfileid: "27458498"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694771"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -35,7 +35,7 @@ Como parte da definição de recursos de conferência de áudio necessários em 
 -   Confirmação de que os recursos de conferência de áudio em equipes descritos no mapa público mais recente atendam seu usuário, a funcionalidade e os requisitos de escopo, na linha do tempo da sua implantação.
 
 > [!NOTE]
-> O mapa de equipes mais recente para identificar os recursos de conferência de áudio de equipes do escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
+> O mapa de equipes mais recente para identificar os recursos de conferência de áudio de equipes do escopo para sua implantação pode ser encontrada em <https://aka.ms/O365Roadmap>.
 
 ## <a name="meetings-in-teams"></a>Reuniões no Teams
 
@@ -44,7 +44,7 @@ Equipes proporciona aos seus usuários a capacidade de agendar e ingressar em re
 Reuniões possam ser programadas como as reuniões privadas (somente os participantes convidados podem ingressar) ou reuniões de canal (aberta para todos os usuários tenham acesso ao canal) e os usuários também podem iniciar reuniões improvisadas dentro dos canais.
 
 > [!NOTE]
-> Para saber mais sobre os recursos de reuniões em equipes, consulte [Skype para a Microsoft Roadmap de recursos de equipes de negócios] https://aka.ms/skype2teamsroadmap).
+> Para saber mais sobre os recursos de reuniões em equipes, consulte o [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 Os participantes da reunião podem ingressar em reuniões suas equipes por discar para a chamada Tarifada ou uma ponte de conferência discada gratuitos números de telefone via landlines ou telefones celulares. Além disso, os usuários podem permitir que o serviço de conferência de áudio iniciar o recurso "ligar para mim" para que eles podem participar de uma reunião por ter a ponte de conferência chame seus telefones (útil quando a conexão de dados não é confiável) ou reunião permitem que os organizadores convidem reunião participantes discando a eles para seus telefones.
 

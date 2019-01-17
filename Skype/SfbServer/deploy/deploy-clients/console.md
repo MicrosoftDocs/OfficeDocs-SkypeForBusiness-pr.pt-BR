@@ -12,12 +12,12 @@ ms.collection: Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console do Skype sala sistemas v2 e seus periféricos.
-ms.openlocfilehash: 162aaaed5472fefc3c23cc11800b166ed4b26bc2
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326713"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694717"
 ---
 # <a name="configure-a-skype-room-systems-v2-console"></a>Configurar o console do Skype Room Systems versão 2
  
@@ -56,6 +56,13 @@ Instalar o aplicativo de console do Skype sala sistemas v2 requer um dispositivo
 > [!CAUTION]
 > O nome da pasta que executar o script de criação de mídia não pode conter um espaço. Se houver um espaço no nome de pasta, o script irá falhar.
 
+O script CreateSrsMedia.ps1 automatiza as seguintes tarefas:
+
+1. Baixe o instalador MSI mais recente para sistemas de sala Skype v2.
+2. Determine a compilação do Windows que o usuário deve fornecer. As versões liberadas recentemente podem ou não podem ser testadas e suportadas para uso com dispositivos do sistema de sala Skype v2.
+3. Baixe os componentes de suportados necessários.
+4. Monte os componentes necessários na mídia de instalação.
+
 Quando terminar, remova o disco USB do computador e prossiga para [instalar o Windows 10 e o aplicativo de console do Skype sala sistemas v2](console.md#Reimage).
 
     
@@ -74,11 +81,11 @@ Agora, você precisa aplicar a mídia de instalação que você criou. O disposi
 
 5. Inicialize o disco de instalação do USB. Consulte as instruções do fabricante. Se seu dispositivo de destino for um Surface Pro, use as seguintes etapas para inicializar o disco de instalação do USB:
 
-    1. Pressione e continue armazenar o volume (-) botão pressionado.
+    a. Pressione e continue armazenar o volume (-) botão pressionado.
 
-    2. Pressione e solte o botão de energia.
+    b. Pressione e solte o botão de energia.
 
-    3. Depois que a instalação do Windows for inicializada, solte o botão de abaixar o volume (-).
+    c. Depois que a instalação do Windows for inicializada, solte o botão de abaixar o volume (-).
 
 8. O sistema será desligado depois que a instalação for concluída.
     

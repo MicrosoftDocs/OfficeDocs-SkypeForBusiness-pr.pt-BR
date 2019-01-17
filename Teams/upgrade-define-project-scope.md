@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9830605dad592a147c22a60d1c7c275cbf969a64
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 833720e28fd53032ca9cb65fadc39b8cb753799e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375215"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694842"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -96,7 +96,7 @@ A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um Sk
 
 
 > [!TIP]
-> Para ajudar a garantir que seu projeto permaneça na faixa, considere definindo marcos menores, de curto prazo, além das metas maiores, a longo prazo. Isso pode incluir métricas que você irá capturar como parte de seu piloto do usuário. Ao considerar o cronograma, use o [Skype Roadmap equipes](https://aka.ms/skype2teamsroadmap) se você está aguardando para recursos que não estão disponíveis em equipes ainda.
+> Para ajudar a garantir que seu projeto permaneça na faixa, considere definindo marcos menores, de curto prazo, além das metas maiores, a longo prazo. Isso pode incluir métricas que você irá capturar como parte de seu piloto do usuário. Ao considerar o cronograma, use o [Mapa de 365 da Microsoft](https://aka.ms/O365Roadmap) se você está aguardando para recursos que não estão disponíveis em equipes ainda.
 
 ## <a name="risks-and-mitigation"></a>Riscos e redução de risco
 
@@ -112,7 +112,7 @@ A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um Sk
 
 Conforme você define o escopo de sua atualização jornada, certifique-se de definir um cronograma para principais marcos (por exemplo, a habilitação de equipes junto com Skype for Business para todos os usuários), além da data de conclusão. Um cronograma definido ajuda a sua unidade de equipe de projeto em direção a um estado final consistente e informa o agendamento de trabalho-back direita, ajudando a garantir que seu projeto permaneça na faixa. Considere um cronograma que não muito é acelerado (onde tarefas podem ser esquecidas) ou muito distante (onde momentum pode ser perdida). As contas de cronograma ideal para:
  
--   **Preparação do produto para requisitos de cenário de usuário e de conformidade**: consulte o [mapa do produto](https://aka.ms/skype2teamsroadmap) para medir quando equipes estará prontas para a sua organização.
+-   **Preparação do produto para requisitos de cenário de usuário e de conformidade**: consulte o [mapa do produto](https://aka.ms/O365Roadmap) para medir quando equipes estará prontas para a sua organização.
 -   **Atualizar grupos**: determinar se você vai ser permitindo que as equipes ou atualizando usuários por grupos de atualização, que poderiam afetar a linha do tempo da sua jornada geral de atualização.
 -   **Organizacional fatores como alterar congelar, ano fiscal final, ciclos de vida de implantação**: Discuta e em consideração qualquer processos internos que podem influenciar sua linha do tempo de atualização.
 -   **Outras alterações que estão ocorrendo no ou ao mesmo tempo**: considere empacotamento alterações ou espaçamento-los check-out para facilitar a um usuário positivo minimizar o impacto na produtividade e experiência.

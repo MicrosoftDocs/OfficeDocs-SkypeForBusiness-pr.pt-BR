@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a849e9c6ab5934252f5bae1cbd26542f3393d57
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 6f1068a2e77211542fd56971615bab7cf23af39e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789380"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694911"
 ---
 # <a name="upgrade-pro"></a>Atualizar Pro
 
@@ -37,7 +37,7 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 
 ## <a name="pre-upgrade"></a>Pré-atualização
 
-**Prepare a sua organização para equipes.**  Para ajudar a garantir uma atualização bem-sucedida para equipes, é importante alocar tempo adequado para a preparação. Não apenas será sua organização possam iniciar rapidamente perceber o valor de equipes, você poderá acelerar sua atualização do Skype para negócios tão logo equipes está pronto para você. Monitorar o [mapa](https://aka.ms/skype2teamsroadmap) para os aprimoramentos que estão planejados para equipes; Isso ajudará a identificar a linha do tempo atualização direita para a sua organização. Se você já tiver habilitado equipes junto com Skype for Business, use essas atividades pré-atualização como um ponto de verificação para validar a preparação da sua organização antes de atualizar os usuários para equipes. 
+**Prepare a sua organização para equipes.**  Para ajudar a garantir uma atualização bem-sucedida para equipes, é importante alocar tempo adequado para a preparação. Não apenas será sua organização possam iniciar rapidamente perceber o valor de equipes, você poderá acelerar sua atualização do Skype para negócios tão logo equipes está pronto para você. Monitorar o [mapa](https://aka.ms/O365Roadmap) para os aprimoramentos que estão planejados para equipes; Isso ajudará a identificar a linha do tempo atualização direita para a sua organização. Se você já tiver habilitado equipes junto com Skype for Business, use essas atividades pré-atualização como um ponto de verificação para validar a preparação da sua organização antes de atualizar os usuários para equipes. 
 
 > [!Tip]
 > Baixe o [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário de modelo, como communications e pesquisas de usuário, além de um plano de teste piloto e um exemplo de plano de projeto de atualização. Itens que estão disponíveis no kit sejam marcados com um asterisco (\*) nas listas abaixo.  

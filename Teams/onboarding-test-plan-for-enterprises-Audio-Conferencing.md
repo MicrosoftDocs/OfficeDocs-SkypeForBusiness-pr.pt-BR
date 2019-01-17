@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79d9fcde21b6d6f7d0c169efd852629fb43ae9b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1f9fea1e2d3f8dcf4fc966d1392a38168fc1656e
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373782"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28694857"
 ---
 <a name="define-and-document-your-audio-conferencing-in-teams-test-plan-for-enterprises"></a>Definir e documentar sua conferência de áudio no plano de teste de equipes para empresas 
 ===============================================================================
@@ -80,7 +80,7 @@ Como parte da definição de requisitos de recurso de conferência de áudio par
 -   Se você pode confirmar que os recursos de conferência de áudio descritos no mapa público mais recente atendam seu usuário, a funcionalidade e os requisitos de escopo, na linha do tempo da sua implantação
 
 > [!TIP]
-> O mapa de equipes mais recente para identificar os recursos de conferência de áudio no escopo para sua implantação pode ser encontrada em <https://aka.ms/skype2teamsroadmap>.
+> O mapa de equipes mais recente para identificar os recursos de conferência de áudio no escopo para sua implantação pode ser encontrada em <https://aka.ms/O365Roadmap>.
 
 Agora que a pessoa de conferência de áudio e os recursos tenham sido definidos, o próximo critério para avaliação será a experiência de interoperabilidade com equipes. Para obter informações adicionais sobre a experiência de interoperabilidade, juntamente com as opções de configuração disponíveis, consulte [as equipes da Microsoft e Skype para a interoperabilidade de negócios](https://docs.microsoft.com/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability).
 
@@ -392,7 +392,7 @@ Normalmente, um plano de relatório e correção de defeitos inclui o seguinte:
 
 | ID de defeito                                | Descrição de defeito                                                                                          | Avaliação de prioridade de defeito                                           | Proprietário de defeito atribuídas | Ponto de escalonamento de defeito atribuídas | Método de escalonamento de defeito                                          | Status de defeito | Resolução necessária por data | Data de status |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------|----------------------------------|-------------------------------------------------------------------|---------------|-----------------------------|-------------|
-| 1    | Para usuários que foram habilitados para RHM, discar coordenadas não são preenchidas via o suplemento de agendamento do Outlook de equipes. | Médio                                                               | Lisa cinza             | Louis Lahr                       | E-mail de alta prioridade triagem revisão semanal para partes interessadas afetadas | Abra o           | ASAP                        | 1/12/2018   |
+| 1    | Para usuários que foram habilitados para RHM, discar coordenadas não são preenchidas via o suplemento de agendamento do Outlook de equipes. | Médio                                                               | Lisa cinza             | Louis Lahr                       | E-mail de alta prioridade triagem revisão semanal para partes interessadas afetadas | Abra           | ASAP                        | 1/12/2018   |
 
 
 
@@ -606,7 +606,7 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 | Latência (unidirecional)                                             | \<50 ms                                                                                                           | 40 ms                                                                                                                                                                                                                                                                                                                                     | 38 ms                                    | 41 ms                                     | 35 ms                                    | 36 ms                                   |
 | Latência (tempo de ida e volta, ou tempo de resposta)                             | \<100 ms                                                                                                          | 81 ms                                                                                                                                                                                                                                                                                                                                     | 77 ms                                    | 80 ms                                     | 72 ms                                    | 70 ms                                   |
 | Perda de pacote de intermitência                                             | \<10% durante qualquer intervalo de 200 ms                                                                                  | 3%                                                                                                                                                                                                                                                                                                                                        | 2%                                       | 2%                                        | % de 0.2                                     | 0,1%                                    |
-| Perda de pacote                                                   | \<1% durante qualquer intervalo de 15 segundos                                                                                   | % de 0.4                                                                                                                                                                                                                                                                                                                                      | % de 0,3                                     | % de 0,3                                      | 0,1%                                     | 0%                                      |
+| Perda de pacotes                                                   | \<1% durante qualquer intervalo de 15 segundos                                                                                   | % de 0.4                                                                                                                                                                                                                                                                                                                                      | % de 0,3                                     | % de 0,3                                      | 0,1%                                     | 0%                                      |
 | Tremulação de entre chegada de pacotes                                   | \<30 ms durante qualquer intervalo de 15 segundos                                                                                | 12 ms                                                                                                                                                                                                                                                                                                                                     | 11 ms                                    | 13 ms                                     | 5 ms                                     | 5 ms                                    |
 | Novo pedido de pacotes                                                | \<% de 0,05 pacotes de fora de ordem                                                                                      | 0%                                                                                                                                                                                                                                                                                                                                        | 0%                                       | 0%                                        | 0%                                       | 0%                                      |
 
@@ -615,7 +615,7 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 <tr><th colspan="2">Destaques de teste </th></tr>
 <tr><td>TBD</td><td>TBD</td></tr>
 <tr><th colspan="2">Testando pontos menos importantes  </th></tr><br/><tr><td><strong>Problema</strong>: alta latência</td><td><strong>Remediação:</strong> Investigue o roteamento de pacotes e implementar a rota ideal.</td></tr>
-<tr><td><strong>Problema</strong>: ida e volta tempo for & #39; t duas vezes a latência</td><td><strong>Remediação:</strong> Investigar um problema de configuração de firewall ou roteador possível. Investigar os caminhos de tráfego.</td></tr>
+<tr><td><strong>Problema</strong>: tempo de ida e volta isn& #39; t duas vezes a latência</td><td><strong>Remediação:</strong> Investigar um problema de configuração de firewall ou roteador possível. Investigar os caminhos de tráfego.</td></tr>
 <tr><td><strong>Problema</strong>: alta perda de pacotes </td><td><strong>Remediação:</strong> Verifique se que a largura de banda suficiente tenha sido alocada por meio do Planejador de rede. </td></tr>
 <tr><td><strong>Problema</strong>: tremulação alta </td><td> <strong>Remediação:</strong> Investigue se os valores DSCP (ponto) do código de serviços diferenciados corretas estão sendo usados. </td></tr>
 <tr><td><strong>Problema</strong>: alta perda de pacotes </td><td><strong>Remediação:</strong> Investigue perda de pacotes. </td></tr>
@@ -653,7 +653,7 @@ Identificar e documentar todas as informações de conta (incluindo o nome usado
 Normalmente, você pode encontrar as informações que você precisará no bill mais recente ou faturas do seu provedor de serviço atual.
 
 > [!TIP]
-> Você pode transferir ou números de telefone de transferência dentro de todas as atualmente suportadas países/regiões; No entanto, a maneira como você envia uma solicitação de pedido de porta pode ser diferentes dependendo do país/região onde os números de telefone são originados de. Para obter a lista mais recente dos países/regiões atualmente com suporte, consulte [países e a disponibilidade da região para conferência de áudio e planos de chamar](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). < /br/ ><br/>
+> Você pode transferir ou números de telefone de transferência dentro de todas as atualmente suportadas países/regiões; No entanto, a maneira como você envia uma solicitação de pedido de porta pode ser diferentes dependendo do país/região onde os números de telefone são originados de. Para a lista mais recente de países/regiões atualmente com suporte, consulte .</br/> [países e a disponibilidade da região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)<br/>
 >   Para obter informações adicionais sobre como transferir números de telefone para conferência de áudio — juntamente com restrições possíveis — consulte [transferir os números de telefone para o Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365) e [ligação gratuita discando restrições no Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/toll-free-dialing-limitations-and-restrictions.).
 
 #### <a name="step-3"></a>Etapa 3

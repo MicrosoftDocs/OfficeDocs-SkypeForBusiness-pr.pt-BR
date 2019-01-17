@@ -17,12 +17,12 @@ metadata:
   - Teams_ITAdmin_Training
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3c125870dc05f68bdf9baaeeb80630a98ffd62bb
-  ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+  ms.openlocfilehash: 4bb36fc10afbd9e0061da905d64999bf62bbfb4e
+  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/15/2018
-  ms.locfileid: "26530978"
+  ms.lasthandoff: 01/17/2019
+  ms.locfileid: "28694763"
 items:
 - durationInMinutes: 1
   content: >
@@ -86,7 +86,7 @@ items:
     As chamadas do Teams dão suporte aos recursos básicos do Sistema de Telefonia, como atender e fazer chamadas (por nome e número) com teclado de discagem integrado, chamada em espera e recuperação de chamadas, encaminhamento de chamadas e toques simultâneos, histórico de chamadas, caixa postal e chamadas de emergência.
 
 
-    Recursos mais avançados serão incluídos com o tempo. Para obter mais informações, consulte [Skype for Business to Microsoft Teams Capabilities Roadmap](https://aka.ms/skype2teamsroadmap).
+    Recursos mais avançados serão incluídos com o tempo. Para obter mais informações, consulte [Microsoft 365 Roadmap](https://aka.ms/O365Roadmap).
 
 
     As chamadas do Teams são acionadas pelo Sistema de Telefonia (anteriormente chamado Cloud PBX), o mesmo serviço do Office 365 que possibilita as funcionalidades de chamadas PSTN no Skype for Business Online.
@@ -98,7 +98,7 @@ items:
     <span style="color:red">**Ação**:</span> para entender quais recursos estão disponíveis no momento e o cronograma dos recursos que esperamos desenvolver, confira:
 
 
-    - No [roteiro público](https://aka.ms/skype2teamsroadmap), examine o slide “Roteiro de chamadas” para obter uma visão geral do cronograma esperado com as datas de lançamento de recursos.
+    - No [roteiro público](https://aka.ms/O365Roadmap), examine o slide “Roteiro de chamadas” para obter uma visão geral do cronograma esperado com as datas de lançamento de recursos.
 
     - Consulte [Veja aqui o que você recebe com o Sistema de Telefonia no Office 365](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system) para ver uma descrição dos recursos do Sistema de Telefonia. Lembre-se de que, no momento em que este artigo foi escrito, alguns desses recursos podem estar disponíveis apenas para o Skype for Business.
 
@@ -247,4 +247,4 @@ items:
   content: "\nAgora que você planejou e implementou corretamente o Sistema de Telefonia em seu ambiente, precisa garantir que ele seja usado e ofereça uma ótima experiência para o usuário. Embora os detalhes completos ultrapassem o escopo deste treinamento, queremos apontar as áreas de engajamento mais importantes:\n\n-   Usuários de gerenciamento de alterações e adoção simplesmente pode começar a usar o serviço, ao oferecer a eles. Ou não. Portanto, é importante executar o gerenciamento adequado da adoção e de mudanças.\n\n-   Monitoramento e uso, que recomendamos que um dos seus KSIs ser o número de usuários ativos, para ajudá-lo a medir o quão bem equipes de dirigir está sendo aceito como um cliente de telefone.\n\n-   Monitorar e promover a qualidade\n\nA satisfação dos usuários está diretamente relacionada à qualidade de suas chamadas. Portanto, é importante monitorar a qualidade das chamadas e, se necessário, melhorá-la. Para entender como reportar a qualidade das chamadas, acesse o treinamento Painel de Qualidade de Chamadas. Embora estes vídeos foram criados para Skype para os negócios, se aplicam às equipes também: <https://aka.ms/sof-cqd>.\n"
 - title: Próximos passos
   durationInMinutes: 1
-  content: "\nNeste treinamento, abordamos estes pontos de aprendizagem principais:\n-   O que são as chamadas do Teams?\n\n-   Como planejar as chamadas no Teams\n\n-   Como configurar as chamadas no Teams\n\nPara saber mais, veja:\n\n-   [Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nPróximos passos\n\n1.  Inscreva-se no [MyAdvisor](https://aka.ms/myadvisor) para obter orientações personalizadas de implantação.\n2.  Inicie sua implantação do Sistema de Telefonia para o Teams\n3.  Envie-nos seus comentários:\n    - Poste na seção de comentários na parte inferior desta página.\n    - Para dar feedback sobre o Teams ou compartilhar suas ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Mantenha-se atualizado:\n    - Siga o [Blog de equipes](https://aka.ms/teamsblog).\n    - Leia o [mapa de equipes](https://aka.ms/skype2teamsroadmap).\n    - Saiba mais sobre os recursos na [Notas de versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)lançados mais recente.\n5.  Explore [mais treinamento e tutoriais](https://aka.ms/Teamsacademy)."
+  content: "\nNeste treinamento, abordamos estes pontos de aprendizagem principais:\n-   O que são as chamadas do Teams?\n\n-   Como planejar as chamadas no Teams\n\n-   Como configurar as chamadas no Teams\n\nPara saber mais, veja:\n\n-   [Orientações práticas para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans)\n\n-   [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nPróximos passos\n\n1.  Inscreva-se no [MyAdvisor](https://aka.ms/myadvisor) para obter orientações personalizadas de implantação.\n2.  Inicie sua implantação do Sistema de Telefonia para o Teams\n3.  Envie-nos seus comentários:\n    - Poste na seção de comentários na parte inferior desta página.\n    - Para dar feedback sobre o Teams ou compartilhar suas ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Mantenha-se atualizado:\n    - Siga o [Blog de equipes](https://aka.ms/teamsblog).\n    - Leia o [mapa de equipes](https://aka.ms/O365Roadmap).\n    - Saiba mais sobre os recursos na [Notas de versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)lançados mais recente.\n5.  Explore [mais treinamento e tutoriais](https://aka.ms/Teamsacademy)."
