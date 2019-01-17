@@ -1,9 +1,9 @@
 ---
-title: Estacionamento de chamada e recuperar em Teams da Microsoft
+title: Estacionamento e recuperação de chamadas no Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/17/2018
+ms.date: 01/16/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Use o estacionamento de chamada e recuperação para colocar uma chamada em espera no serviço de equipes na nuvem.
-ms.openlocfilehash: 004a5b12e178a6460ef05f7c6f5c5738c8ced042
-ms.sourcegitcommit: 0e671e6e6fdd25227068c7e3a3a5509b6536d2b1
+ms.openlocfilehash: 2433a8836a037b530fbd895f7a37567f24d63b50
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "27294184"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328305"
 ---
-# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento de chamada e recuperar em Teams da Microsoft
+# <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
 Estacionamento de chamada e recuperação é um recurso que permite ao usuário colocar uma chamada em espera no serviço de equipes na nuvem. Quando uma chamada estiver estacionada, o serviço gera um código exclusivo para recuperação de chamada. O usuário que a colocou a chamada ou outra pessoa, em seguida, pode usar esse código e um dispositivo ou aplicativo suportados para recuperar a chamada. 
 
@@ -50,9 +50,9 @@ Estacionamento de chamada e recuperação no momento é suportado pelos seguinte
 
 | Recurso | Área de trabalho de equipes | As equipes Mac App | As equipes Web App (borda) |As equipes móveis iOS/Android App | Telefone IP de equipes | Skype para negócios IP phone |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| Estacionar uma chamada | Sim | Sim | Sim | Em breve | Em breve| Não |
-| Recuperar uma chamada estacionada | Sim | Sim | Sim | Em breve | Em breve| Não |
-| Toque de chamada não recuperados novamente | Sim | Sim | Sim | Em breve | Em breve| Não |
+| Estacionar uma chamada | Sim | Sim | Sim | Sim | Em breve| Não |
+| Recuperar uma chamada estacionada | Sim | Sim | Sim | Sim | Em breve| Não |
+| Toque de chamada não recuperados novamente | Sim | Sim | Sim | Sim | Em breve| Não |
 
 ## <a name="configuring-call-park-and-retrieve"></a>Configurando o estacionamento de chamada e recuperação
 

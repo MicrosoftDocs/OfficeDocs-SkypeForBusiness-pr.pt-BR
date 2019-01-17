@@ -1,9 +1,9 @@
 ---
-title: Compartilhamento de chamada e o grupo de atendimento de chamada no Microsoft Teams
+title: Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 01/16/19
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Compartilhamento de chamadas e retirada de chamada do grupo, que permitem aos usuários compartilhar chamadas recebidas com colegas, de forma que as chamadas podem ser capturadas quando o usuário não está disponível.
-ms.openlocfilehash: 7f05484f0ba780eb8ed00df68b455d8555c1e4c0
-ms.sourcegitcommit: 5f7e078125f810a9e9a89052854ef63916afe7d3
+ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27283147"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328313"
 ---
-# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamada e o grupo de atendimento de chamada no Microsoft Teams
+# <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
 O compartilhamento de chamada e o grupo de chamada pickup recursos de compartilhamento de permitem que os usuários do Microsoft Teams seu as chamadas de entrada com colegas para que os colegas podem atender as chamadas que ocorrem enquanto o usuário não está disponível.
 
@@ -44,7 +44,7 @@ Os usuários precisam ser habilitada para configurar e usar o compartilhamento d
 
 ## <a name="configure-group-call-pickup"></a>Configurar a retirada de chamada de grupo
 
-Para configurar a retirada de chamada do grupo, um usuário configura pela primeira vez um grupo de chamada e adiciona os usuários que desejam compartilhar suas chamadas com. Em seguida, eles escolher um toque simultâneo ou configuração de encaminhamento de chamadas. Para obter mais informações, consulte a [chamada Toque simultâneo e de encaminhamento em equipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Para configurar a retirada de chamada do grupo, um usuário configura pela primeira vez um grupo de chamada (isso não é o mesmo como um grupo de segurança ou de um grupo do Office 365) e, em seguida, adiciona os usuários que desejam compartilhar suas chamadas com. Em seguida, eles escolher um toque simultâneo ou configuração de encaminhamento de chamadas. Para obter mais informações e procedimentos passo a passo, consulte a [chamada Toque simultâneo e de encaminhamento em equipes](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 Chamar a criação de grupo e notificação preferências são recursos controlado pelo usuário; os administradores não devem configurar esses recursos para seus usuários. Grupos de chamada não não possível criar grupos de segurança ou grupos do Office 365; eles devem ser criados em equipes.
 

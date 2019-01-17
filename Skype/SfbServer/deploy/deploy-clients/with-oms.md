@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de sistemas de sala Skype v2 dispositivos de forma integrada e de ponta a ponta, usando o pacote de gerenciamento de operações do Microsoft.
-ms.openlocfilehash: 5f370c7e222f75b11b41a39e99b9cba568d58241
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.openlocfilehash: 9a55238296452119679ff3c07147961fcec3eb7a
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450486"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328275"
 ---
 # <a name="deploy-skype-room-systems-v2-management-with-oms"></a>Implantar o gerenciamento do Skype Room Systems v2 com OMS
 
@@ -138,9 +138,9 @@ Para extrair seus campos personalizados sem os logs de eventos capturados, siga 
 
 | Campo JSON                   | Campo personalizado OMS           | ID do evento        |
 |:-----------------------------|:---------------------------|:----------------|
-| Descrição                  | SRSEventDescription_CF     | Não selecionado    |
+| Descrição                  | SRSEventDescription_CF      | Não selecionado    |
 | ResourceState                | SRSResourceState_CF        | Não selecionado    |
-| Nomedaoperação                | SRSOperationName_CF        | Não selecionado    |
+| OperationName                | SRSOperationName_CF        | Não selecionado    |
 | OperationResult              | SRSOperationResult_CF      | Não selecionado    |
 | Sistema operacional                           | SRSOSVersion_CF            | Não selecionado    |
 | Versão do sistema operacional                    | SRSOSLongVersion_CF        | Não selecionado    |
@@ -248,7 +248,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Criar um lado que exibe as versões de sistema operacional v2 de sistemas de sala do Skype
 
-1.  Selecione **rosca & lista** da galeria e, em seguida, adicionar um novo quadro.
+1.  Selecione a **lista de & de rosca** da galeria e, em seguida, adicionar um novo quadro.
 2.  Defina as propriedades **gerais** :<br>
     **Título de grupo:** Detalhes do sistema operacionais <br>
     **Novo grupo:** Selecionado
@@ -272,7 +272,7 @@ Como alternativa, você pode criar seu próprio painel e adicionar somente os bl
 
 ### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Criar um lado que exibe as versões de aplicativo v2 de sistemas de sala do Skype
 
-1.  Selecione **rosca & lista** da galeria e, em seguida, adicionar um novo quadro.
+1.  Selecione a **lista de & de rosca** da galeria e, em seguida, adicionar um novo quadro.
 2.  Defina as propriedades **gerais** :<br>
     **Título de grupo:** Detalhes do aplicativo de v2 de sistemas de sala do Skype <br>
     **Novo grupo:** Selecionado
@@ -392,7 +392,7 @@ Configure uma regra de alerta, que procura Skype sala sistemas v2 dispositivos q
 2.  Insira a seguinte consulta e selecione **Executar**.<br>
     ```
     Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(10h)
+    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
     | summarize arg_max(TimeGenerated, *) by Computer
     | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
     | sort by TimeGenerated desc

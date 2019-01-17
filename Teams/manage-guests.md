@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Os administradores de TI podem adicionar convidados em nível de locatário, definir e gerenciar políticas e permissões de usuários convidados, determinar quais usuários podem convidar convidados e extrair relatórios sobre a atividade do usuário convidado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4375f6e9eb0d36d05d20f96da2410767465fcc2
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
+ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772773"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28328243"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciamento do acesso de convidados no Microsoft Teams
 ======================================
@@ -26,7 +26,7 @@ ms.locfileid: "27772773"
 
 Depois que o tipo de licença de **usuário/Convidado** está ativado, você pode definir configurações para convidados por meio dos controles descritas na [dos [recursos de gerenciar equipes da Microsoft em sua organização do Office 365](enable-features-office-365.md) e gerenciar equipes durante a transição para o novo sistema operacional Microsoft Equipes e Skype para Business Admin Center](manage-teams-skypeforbusiness-admin-center.md).     
     
-Administradores de TI podem adicionar convidados a nível de locatário, definir e gerenciar permissões e as diretivas de usuário convidado e recepção relatórios sobre as atividades do usuário convidado. Esses controles estão disponíveis por meio do Microsoft Teams & Skype para Business Admin Center. O conteúdo e as atividades dos usuários convidados estão sob a mesma proteção de conformidade e auditoria que o restante do Office 365.
+Administradores de TI podem adicionar convidados a nível de locatário, definir e gerenciar permissões e as diretivas de usuário convidado e recepção relatórios sobre as atividades do usuário convidado. Esses controles estão disponíveis por meio do & Teams Microsoft Skype para Business Admin Center. O conteúdo e as atividades dos usuários convidados estão sob a mesma proteção de conformidade e auditoria que o restante do Office 365.
 
 Os proprietários de equipe podem convidar novos convidados e adicionar usuários existentes do diretório convidado a suas equipes. Os proprietários de equipe podem identificar usuários convidados por meio de **equipes** > **gerenciar equipes**e recursos relacionados à canal de conjunto de convidados por meio de **configurações de toda a organização** > **acesso como convidado**, incluindo permitir que os convidados criar, atualizar, e Exclua canais, conforme mostrado na seguinte imagem.
 
@@ -47,7 +47,7 @@ Você pode realizar uma análise de acesso de convidado sozinho, peça convidado
 
 Avaliações de acesso estão disponíveis com a edição Premium P2 do Azure AD, que está incluído no Microsoft Enterprise mobilidade + segurança, E5. Para obter mais informações, consulte "Escolher uma edição" nas [edições do Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis). Cada usuário que interage com esse recurso Criando uma revisão, preenchendo uma revisão ou confirmando seu acesso, deve ter uma licença. 
 
-Se você planeja peça aos usuários de convidado para examinar sua próprias acesso, leia sobre o licenciamento de usuário convidado. Para obter mais informações, consulte [Licenciamento de colaboração do Windows Azure AD B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+As equipes não restringe o número de convidados que você pode adicionar. No entanto, o número total de convidados que podem ser adicionados ao seu locatário baseia-se nos quais licenciamento sua AAD permite. Para obter mais informações, consulte [Licenciamento de colaboração do Windows Azure AD B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
 ## <a name="guest-access-latencies"></a>Latências de acesso de convidado
 
