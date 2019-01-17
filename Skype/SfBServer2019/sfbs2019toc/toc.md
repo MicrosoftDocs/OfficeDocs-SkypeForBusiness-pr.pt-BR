@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6296e5ea0dde283dc46418d42db97c524277267b
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 05cd733e96ad77b0a413c9846ceb3697b45eec13
+ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328282"
+ms.locfileid: "28694779"
 ---
 # [Skype para Business Server 2019](../skype-for-business-server-2019.md)
 
@@ -319,7 +319,6 @@ ms.locfileid: "28328282"
 ### [Fase 2: Preparar para migração](../migration/phase-2-prepare-for-migration.md)
 #### [Aplicar atualizações para instalação de legado](../migration/apply-updates.md)
 #### [Configurar registros de DNS para implantação de pool piloto](../migration/configure-dns-records-for-pilot-pool-deployment.md)
-#### [Executar o analisador de práticas recomendadas](../migration/run-best-practices-analyzer.md)
 #### [Fazer backup de dados e sistemas](../migration/back-up-systems-and-data.md)
 #### [Configurar clientes para migração](../migration/configure-clients-for-migration.md)
 #### [Verifique se você estiver migrando do ambiente de legado](../migration/verify-environment.md)
