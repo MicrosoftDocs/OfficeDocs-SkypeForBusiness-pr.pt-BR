@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN de conferência de áudio, incluindo o custo da chamada para que você possa entender o seu uso e chamada faturamento detalhes para determinar o uso em sua organização.
-ms.openlocfilehash: e4af77832cca1cd2a9d9de49aa83f4400c359277
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: c0a207681db425bd411bfdbda1bb9f380fbb70a1
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561642"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726621"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 
@@ -76,7 +76,7 @@ Esta é a aparência do relatório.
      **Aplicativos de comunicação unificada (UCAP)** 
      *    **ucap_in** (uma chamada PSTN entrada para o aplicativo de comunicação unificada como a fila de chamada e atendente automático) 
      *    **ucap_out** (uma chamada PSTN saída do aplicativo de comunicação unificada, como a fila de chamada e atendente automático)
-     *    **Observação:** Chamadas que foram transferidas para um usuário do aplicativo de comunicação unificada como uma fila de espera chamada e atendente automático não aparecerá no relatório de uso de PSTN como estes trechos de chamada são chamadas de áudio ponto a ponto (P2P). Você pode acessar as chamadas de P2P no Skype para Business Admin Center em "Ferramentas > Skype para chamar análise comercial" e pesquisar por nome de usuário ou SIP o endereço correlacionando a chamada por data/hora e/ou originadas CLID (ID de linha de chamada). 
+     *    **Observação:** Chamadas que foram transferidas para um usuário do aplicativo de comunicação unificada como uma fila de espera chamada e atendente automático não aparecerá no relatório de uso de PSTN como estes trechos de chamada são chamadas de áudio ponto a ponto (P2P). Você pode acessar as chamadas de P2P no Skype para Business Admin Center em "REC0 gt _ Ferramentas Skype para análise de chamada de negócios" e pesquisar por nome de usuário ou SIP o endereço correlacionando a chamada por data/hora e/ou originadas CLID (ID de linha de chamada). 
 *     
      **Doméstico/internacional** informa se a chamada realizada era considerada internacionais (fora de um país/região) ou domésticas (dentro de um país/região) com base no local do usuário. 
 *    **Destino discado** é o nome do destino do país/região que é discado como França, Alemanha ou dos Estados Unidos (EUA). 
@@ -93,6 +93,9 @@ Esta é a aparência do relatório.
      *    **MCOPSTN6** - domésticas chamar Plan (plano de chamada min 240) Observação: disponibilidade limitada
      *    **MCOMEETADD** - serviços de audioconferência
      *    **MCOMEETACPEA** - pagamento por minuto serviços de audioconferência
+> [!NOTE]
+> Se você quiser executar um relatório para incluir somente salário por minutos chamadas que não são incluídos em sua chamada ou a assinatura de conferência, filtre o relatório com o recurso "MCOPSTNPP". Isso irá fornecer uma discriminação de pagamento todos por minutos chamadas.  Para pagamento por minuto conferência de áudio, filtre por "MCOMEETACPEA", em vez de "MCOPSTNPP".  
+***
 > [!NOTE]
 > Você também não poderá ver "nenhum dado" em alguns campos. "Nenhum dado" significa que o campo não for aplicável para o tipo de chamada ou recurso. 
 ***

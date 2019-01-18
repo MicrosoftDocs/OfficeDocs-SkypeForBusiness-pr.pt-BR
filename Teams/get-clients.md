@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfe4febe5d086af6914660bffb667942b9d00c25
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 0b4e0e713bda280738ec72c8c4e07dc5b0da15c3
+ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201353"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726631"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -109,7 +109,7 @@ Cliente web executa a detecção de versão do navegador após a conexão com [h
 <a name="mobile-clients"></a>Clientes móveis
 --------------
 
-Aplicativos móveis Microsoft Teams estão disponíveis para Android e iOS e são voltados para usuários no go participando de bate-papo com base em conversas e permitir que as chamadas de áudio ponto a ponto. Para aplicativos móveis, vá para o mobile relevante armazena Google tocar e loja de App Apple. O aplicativo do Windows Phone foi desativado 20 de julho de 2018 consulte [aqui](https://support.microsoft.com/en-us/help/4230833/windows-phone-app-for-microsoft-teams-is-retiring) para obter mais informações.
+Aplicativos móveis Microsoft Teams estão disponíveis para Android e iOS e são voltados para usuários no go participando de bate-papo com base em conversas e permitir que as chamadas de áudio ponto a ponto. Para aplicativos móveis, vá para o mobile relevante armazena Google tocar e loja de App Apple. O aplicativo do Windows Phone foi desativado 20 de julho de 2018 e talvez não funcione mais. 
 
 As plataformas móveis suportadas para os aplicativos móveis da Microsoft Teams são as seguintes:
 
