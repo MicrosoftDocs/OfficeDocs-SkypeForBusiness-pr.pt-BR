@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Aprenda a habilitar o sistema telefônico nos serviços de voz do Office 365 para sua Skype para usuários comerciais.
-ms.openlocfilehash: ec0e37c0597f81001075f144dd38b58acfbb1159
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372667"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729290"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar usuários para Enterprise Voice online e o sistema telefônico no correio de voz do Office 365
  
@@ -31,11 +31,11 @@ Implantar o sistema telefônico no Office 365 com conectividade PSTN de local a 
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar o sistema telefônico nos serviços de voz do Office 365
 
-Para habilitar um usuário para o sistema telefônico no Office 365 Voice e caixa postal, você precisará executar algumas etapas iniciais, como verificação vejam do Skype para Business Connector Online é implantado em seus servidores e permitir que os usuários para caixa postal hospedada.
+Para habilitar um usuário para o sistema telefônico no Office 365 Voice e caixa postal, você precisará executar algumas etapas iniciais, como verificação para ver se o Skype para o Business Connector Online é implantado em seus servidores e permitir que os usuários para caixa postal hospedada.
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Para habilitar os usuários para o sistema telefônico no correio de voz e voz do Office 365
 
-1. Antes de começar, verifique se o Skype para Business Online Connector (módulo do Windows PowerShell) é implantado em seus servidores Front-End. Se não for, você pode baixá-lo no [Centro de download](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Você pode encontrar mais informações sobre como usar este módulo em [Configurando o seu computador e Skype para gerenciamento de negócios Online](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Antes de começar, verifique se o Skype para Business Online Connector (módulo do Windows PowerShell) é implantado em seus servidores Front-End. Caso não esteja, você pode baixá-lo do [centro de download](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Você pode encontrar mais informações sobre como usar este módulo em [Configurando o seu computador e Skype para gerenciamento de negócios Online](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Inicie o Windows PowerShell como um administrador.
     

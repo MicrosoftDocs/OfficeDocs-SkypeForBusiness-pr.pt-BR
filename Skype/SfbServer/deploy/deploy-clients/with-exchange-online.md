@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar sistemas de sala Skype v2 com o Exchange Online.
-ms.openlocfilehash: 7e9e7dbf0c1ec29444b9ba783acd2e5cd0987440
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 0581834666476f2635785a48b189396c9240ac8f
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699697"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729383"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-online"></a>Implantar o Skype Room Systems versão 2 com o Exchange Online 
  
@@ -77,7 +77,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Adicionar um endereço de e-mail à conta de domínio local
 
-1. Na ferramenta de **usuários do Active Directory e computadores AD** , clique com botão direito na pasta ou unidade organizacional que seus sistemas de sala Skype v2 contas serão criadas, clique em **novo**e clique em **usuário**.
+1. Na ferramenta de **usuários do Active Directory e computadores AD** , clique com botão direito na pasta ou unidade organizacional que seus sistemas de sala Skype v2 contas serão criadas, clique em **novo**e, em seguida, clique em **usuário**.
     
 2. Digite o nome de exibição do cmdlet anterior na caixa **Nome completo** e o alias na caixa **Nome de logon do usuário**. Clique em **Avançar**.
 

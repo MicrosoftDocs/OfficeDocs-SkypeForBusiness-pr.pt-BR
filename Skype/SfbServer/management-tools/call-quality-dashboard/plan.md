@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: Saiba mais sobre o que considerar ao planejar o painel de controle de qualidade de chamada.'
-ms.openlocfilehash: b524bd344ead2dbc526265f6421881cc6a848b76
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 684ec4ead9d6292cb316f1330bace65149151fbf
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789366"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729455"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planejar o painel de controle de qualidade de chamada for Skype para Business Server 
  
@@ -162,7 +162,7 @@ CQD, incluindo todos os seus componentes e os componentes dependentes, pode ser 
 |||
 |:-----|:-----|
 |Sistemas operacionais suportados  <br/> |Windows Server 2008 R2, Windows Server 2012, o Windows Server 2012 R2  <br/> |
-|Com suporte do SQL Server  <br/> |SQL Server 2008 R2, SQL Server 2012, SQL Server de 2014  <br/> |
+|Com suporte do SQL Server  <br/> |SQL Server 2012, SQL Server de 2014, 2016 do SQL Server  <br/> |
    
 CQD utiliza Microsoft SQL Server, o Microsoft SQL Server Analysis Services e o Microsoft Internet Information Services, portanto, do CQD mínimo requisitos de hardware e software são basicamente o mesmo que esses componentes dependentes. No entanto, com base nos requisitos da organização em torno de atualização de dados (que depende em parte o volume de dados de QoE que gera a organização) e os custos de implantação, considerações de implantação adicional devem ser feitas.
   
@@ -271,7 +271,7 @@ Estes são os serviços de função do IIS necessários (em ordem hierárquica):
   - Console de gerenciamento IIS
     
 > [!NOTE]
->  Observe as seguintes informações sobre os requisitos acima: > 3.5 e 4,5 versões do .net framework estão disponíveis. Ambos são necessários (mais especificamente, 3.5 SP1 é necessário). > em alguns sistemas, se o ASP.NET esteja configurado antes de instalar o IIS, em seguida, ASP.NET não podem ser registrados no IIS. Manifestos de problema por meio de ausência de pools de aplicativos para a versão de .net correspondente e também não tiver a versão de .NET CLR na configuração de pool de aplicativos. Para corrigir esse tipo de problema no Windows Server 2008 R2, execute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. No Windows Server 2012 e Windows Server 2012 R2, executar `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` seguido de remoção do módulo de "ServiceModel" do Site da Web padrão no Gerenciador do IIS. > Ferramentas de gerenciamento é opcional, mas recomendado.
+>  Observe que o seguinte para as versões de requisitos: gt _ 3.5 e 4.5 acima do .net framework está disponível. Ambos são necessários (mais especificamente, 3.5 SP1 é necessário) .> em alguns sistemas, se o ASP.NET esteja configurado antes de instalar o IIS, e em seguida, ASP.NET não podem ser registrados no IIS. Manifestos de problema por meio de ausência de pools de aplicativos para a versão de .net correspondente e também não tiver a versão de .NET CLR na configuração de pool de aplicativos. Para corrigir esse tipo de problema no Windows Server 2008 R2, execute `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`. No Windows Server 2012 e Windows Server 2012 R2, executar `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` seguido removendo o "ServiceModel" módulo do Site da Web padrão nas ferramentas de gerenciamento do IIS Manager.> é opcional, mas recomendado.
   
 Para instalar esses requisitos usando o PowerShell, execute o seguinte:
   
@@ -285,13 +285,13 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 Há suporte para as seguintes versões do SQL Server:
   
-- SQL Server 2008 R2
-    
 - SQL Server 2012
     
 - SQL Server 2014
 
 - SQL Server 2016
+
+- SQL Server 2017
     
 Business Intelligence ou Enterprise edition é recomendável por razões de desempenho. Nestas edições permitem o uso de vários arquivos de partição que podem ser processados em paralelo, o que é vantajoso para processar dados relativos a vários meses ou mais. 
   

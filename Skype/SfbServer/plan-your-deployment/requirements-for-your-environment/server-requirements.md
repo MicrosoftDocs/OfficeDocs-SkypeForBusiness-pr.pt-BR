@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: Prepare seu Skype para servidores de negócios Server 2015 com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos do sistema e recomendações estão aqui ajudar a garantir uma instalação bem-sucedida e a implantação de farm de servidores.'
-ms.openlocfilehash: ae66e8994745317d8de4d033c6f6a65c6e41a9ac
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: f9c85fb774362e00c8b34e9cc0343e71e499ce49
+ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240728"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28729369"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor no Skype for Business Server 2015
  
@@ -91,10 +91,10 @@ Ao instalar o Skype para Business Server 2015 Standard Edition, você terá de 2
   
 Skype para Business Server 2015 Enterprise Edition é um pouco mais complicado, mas a lista com suporte é abaixo (tudo é edição de 64 bits, você perceberá, por favor, não use as edições de 32 bits):
   
-||||
-|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2016 Enterprise (edição de 64 bits) com Service Pack 1 ou posterior e você deve executar com Skype para negócios atualização cumulativa 7 ou posterior ([Baixar Skype para atualização cumulativa de negócios](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (edição de 64 bits) e você deve executar com 6 de atualização cumulativa ou posterior ([download de 6 de atualização cumulativa](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.  <br/> |Microsoft SQL Server 2008 R2 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.  <br/> |
-|Microsoft SQL Server 2016 Standard (edição de 64 bits) com Service Pack 1 ou posterior e você deve executar com Skype para negócios atualização cumulativa 7 ou posterior ([Baixar Skype para atualização cumulativa de negócios](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (edição de 64 bits) e você deve executar com 6 de atualização cumulativa ou posterior ([download de 6 de atualização cumulativa](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.  <br/> |Microsoft SQL Server 2008 R2 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente  <br/> |
+|||||
+|:-----|:-----|:-----|:-----|:-----|
+|Microsoft SQL Server 2017 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente. <br/> |Microsoft SQL Server 2016 Enterprise (edição de 64 bits) com Service Pack 1 ou posterior e você deve executar com Skype para negócios atualização cumulativa 7 ou posterior ([Baixar Skype para atualização cumulativa de negócios](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (edição de 64 bits) e você deve executar com 6 de atualização cumulativa ou posterior ([download de 6 de atualização cumulativa](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.  <br/> |
+|Microsoft SQL Server 2017 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente. <br/> |Microsoft SQL Server 2016 Standard (edição de 64 bits) com Service Pack 1 ou posterior e você deve executar com Skype para negócios atualização cumulativa 7 ou posterior ([Baixar Skype para atualização cumulativa de negócios](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (edição de 64 bits) e você deve executar com 6 de atualização cumulativa ou posterior ([download de 6 de atualização cumulativa](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.  <br/> |
    
 Se você não vir a edição do SQL Server que você deseja usar listado aqui, você não pode usá-lo.
   
@@ -133,24 +133,24 @@ Você pode ter os seguintes itens para clustering de failover:
   
 Dois nós:
   
+- Microsoft SQL Server 2017 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.
+
 - Microsoft SQL Server 2016 Standard (edição de 64 bits) com Service Pack 1 ou posterior. É recomendável executar com o service pack mais recente.
 
 - Microsoft SQL Server 2014 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.
     
 -  Microsoft SQL Server 2012 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.
-    
-- Microsoft SQL Server 2008 R2 Standard (edição de 64 bits) e é recomendável executar com o service pack mais recente.
-    
+
 Dezesseis nós:
+
+- Microsoft SQL Server 2017 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.
 
 - Microsoft SQL Server 2016 Enterprise (edição de 64 bits) com Service Pack 1 ou posterior. É recomendável executar com o service pack mais recente.
   
 - Microsoft SQL Server 2014 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.
     
 - Microsoft SQL Server 2012 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.
-    
-- Microsoft SQL Server 2008 R2 Enterprise (edição de 64 bits) e é recomendável executar com o service pack mais recente.
-    
+
 > [!IMPORTANT]
 > Para atualizar, queremos para garantir que em seus servidores Front-End você possui pelo menos, SQL Server 2012 SP1 instalado antes da atualização. [Aqui está o link](https://www.microsoft.com/en-us/download/details.aspx?id=35575) para o SP1, se quiser baixá-lo imediatamente.
   
