@@ -1,20 +1,19 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Treinamento do Microsoft Teams com instrutor
-description: Inscreva-se para classes ministrado por instrutor conhecer todas as equipes Microsft.
+title: Treinamento ministrado por instrutor e vídeos para administradores de equipes da Microsoft
+description: Inscreva-se para classes ministrado por instrutor aprender sobre o Microsoft Teams.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
-ms.date: 08/24/2018
-ms.openlocfilehash: efb105e3d6b5ab1c2ec87df6520c52eeb7ded90d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214554"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349307"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -80,7 +79,7 @@ ms.locfileid: "27214554"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>As equipes de dicas e truques</h3>
+                                                <h3>Dicas de equipes & truques</h3>
                                                 <p>Compreenda as formas criativas para otimizar e organizar equipes em seu trabalho diário. (Audiência: os usuários finais)</p>
                                             </div>
                                         </div>
@@ -100,7 +99,7 @@ ms.locfileid: "27214554"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Gerenciar a atualização do Skype for Business para equipes</h3>
-                                                <p>Planejar e implementar uma atualização bem-sucedida para equipes (audiência: profissionais de TI, gerentes de alteração de adoção)</p>
+                                                <p>Plano & implementar uma atualização bem-sucedida para equipes (audiência: profissionais de TI, gerentes de alteração de adoção)</p>
                                             </div>
                                         </div>
                                     </div>

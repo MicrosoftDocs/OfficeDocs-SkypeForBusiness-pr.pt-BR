@@ -1,9 +1,8 @@
 ---
-title: Skype para a atualização do Microsoft Teams de negócios
+title: Atualizar Skype para negócios às equipes da Microsoft
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,14 +13,14 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ac410d5248149641cb29461bb6c0f73e6cbfb8d
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: bfe9fb437be2df1c069c79d3c5281dbb121b4204
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201345"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349073"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype para a atualização do Microsoft Teams de negócios
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Atualização do Skype for Business para o Microsoft Teams
 
 Visão do intelligent comunicações da Microsoft de suporte, o Microsoft Teams está hub central para o trabalho em equipe, reunindo bate-papo, reuniões, chamadas, colaboração, integração de aplicativos e armazenamento de arquivo. Como um Skype existente para o cliente empresarial, você está convidado para atualizar para o Microsoft Teams, experimentarem esse conjunto completo de recursos de comunicação e colaboração em uma experiência de cliente único.
 
@@ -30,10 +29,10 @@ Sua jornada de atualização pode levar algum tempo e estamos aqui para o suport
 Exiba esta [Visão geral](https://aka.ms/UpgradeOverview) para uma introdução para o Skype para negócios a jornada de atualização de equipes, incluindo os conceitos fundamentais, framework e caminhos de atualização.
 
 > [!Tip]
-> Assista a sessão de seguir para saber mais sobre a atualização do Skype for Business para Teams da Microsoft: 
+> Assista à sessão a seguir para saber mais sobre a atualização do Skype for Business para o Microsoft Teams:
 > - [Introdução à atualização](https://aka.ms/teams-upgrade-intro)
-> - [Planejar a atualização](https://aka.ms/teams-upgrade-plan)
-> - [Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Planejamento da atualização](https://aka.ms/teams-upgrade-plan)
+> - [Coexistência e interoperabilidade](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Experiência do administrador](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Framework jornada de atualização
@@ -51,7 +50,6 @@ Sabemos que os clientes não vir única. Para uma maior flexibilidade, podemos o
 
 Selecione uma das opções a seguir ou explore ambos para determinar o caminho ideal para você. Obter mais informações, teremos online ao longo do tempo, portanto, verifique novamente como a sua organização continua sua jornada às equipes. Para nos ajudar a compreender melhor seu caminho de atualização e quais orientações adicionais podem ser úteis, responda às <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-5Km9f5gDtNpbRf-TAnN_NUMzhYOUlNR1QzS1hSS0ZXRzAxVEVVVjg1Mi4u" target="_blank">compartilhar seus comentários</a>.
 
-
 <div class="mx-tableFixed">
 <table>
 <tbody>
@@ -60,7 +58,6 @@ Selecione uma das opções a seguir ou explore ambos para determinar o caminho i
 <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-pro"><img src="media/upgrade-to-teams-upgrade-pro-icon.png" alt="Designed for enterprise customers, or those with more tailored deployments such as hybrid or voice, the Upgrade Pro guide details technical and user readiness activities to better accommodate the unique attributes of an organization."></a></td></tr>
 </tbody></table>
 </div>
-
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

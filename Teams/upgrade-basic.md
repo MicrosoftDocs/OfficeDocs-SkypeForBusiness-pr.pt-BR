@@ -1,9 +1,8 @@
 ---
-title: Atualizar a lista de verificação básica - Teams da Microsoft
+title: Lista de verificação de atualização | Skype corporativos à atualização de equipes | Etapas básicas
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,15 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ba3471b2a51a4629d316a4507a08cd02e30022a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015641"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349406"
 ---
 <a name="about-upgrade-basic"></a>
-# <a name="upgrade-basic"></a>Atualização básica 
+
+# <a name="upgrade-basic"></a>Atualização básica
 
 Projetado para organizações menores ou aquelas que usam o Skype para Business Online para IM (chat) e somente em reuniões, a lista de verificação atualizar básica é um plano de ação acelerado que inclui o núcleo, recomendado atividades e recursos de implementação associados um movimentação bem-sucedida do Skype para negócios às equipes.
 
@@ -30,10 +30,10 @@ Estas etapas simples dez fornecem tudo o que você precisa para uma atualizaçã
 
 O que acontece ao Skype para negócios após a atualização? Depois que os usuários são atualizados para equipes (**Equipes somente** modo):
 
--   Seu Skype para o cliente de negócios está desabilitada, e todas as chamadas e bate-papo vá para equipes. Observe que isso não desinstala o cliente em suas áreas de trabalho.
--   Qualquer Skype para reuniões de negócios que foram agendadas antes do trabalho de atualização conforme planejado, mas todas as novas reuniões serão agendadas em equipes.
--   Se os usuários tentam entrar no Skype para os negócios, elas obtém uma notificação de seu cliente que eles foram atualizados para equipes.
--   Os usuários precisam desinstalar manualmente o Skype para o cliente de negócios em seus dispositivos móveis.
+- Seu Skype para o cliente de negócios está desabilitada, e todas as chamadas e bate-papo vá para equipes. Observe que isso não desinstala o cliente em suas áreas de trabalho.
+- Qualquer Skype para reuniões de negócios que foram agendadas antes do trabalho de atualização conforme planejado, mas todas as novas reuniões serão agendadas em equipes.
+- Se os usuários tentam entrar no Skype para os negócios, elas obtém uma notificação de seu cliente que eles foram atualizados para equipes.
+- Os usuários precisam desinstalar manualmente o Skype para o cliente de negócios em seus dispositivos móveis.
 
 Consulte nossas [perguntas Frequentes](https://aka.ms/SkypeToTeams-FAQ) para fazer perguntas adicionais sobre a atualização.
 
@@ -51,8 +51,8 @@ Líderes sênior são responsáveis por sucesso da empresa; Certifique-se de man
 
 **Recursos:**
 
--   [E-mail de exemplo: comunicação das partes interessadas](upgrade-emails-surveys.md#step-1-email)
- 
+- [E-mail de exemplo: comunicação das partes interessadas](upgrade-emails-surveys.md#step-1-email)
+
 [Retornar ao topo](#about-upgrade-basic)
 
 <!--ENDOFSECTION-->
@@ -70,10 +70,10 @@ As equipes oferece compatível Skype para a funcionalidade de negócios — como
 
 **Recursos:**
 
--   [Visão geral do Microsoft Teams](Teams-overview.md)
--   [Saiba mais sobre as equipes e canais](teams-channels-overview.md)
--   [Concluir planejamento técnico](quick-start-enable-teams.md#step-3-complete-technical-planning)
--   [Gerenciar sistemas de sala do Skype](https://aka.ms/srsdocs)
+- [Visão geral do Microsoft Teams](Teams-overview.md)
+- [Saiba mais sobre as equipes e canais](teams-channels-overview.md)
+- [Concluir planejamento técnico](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Gerenciar sistemas de sala do Skype](https://aka.ms/srsdocs)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -89,7 +89,7 @@ Os usuários que são altamente adotados em Skype para negócios talvez seja nec
 
 **Recursos:**
 
--   [Consulte os dados de uso em relatórios de atividade no Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [Consulte os dados de uso em relatórios de atividade no Office 365](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -108,8 +108,8 @@ Fornecendo um amplo aviso para seus usuários fornecerá-los de tempo para se fa
 
 **Recursos:**
 
--   [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
--   [E-mail de exemplo: comunicado aos usuários sobre Skype para negócios](upgrade-emails-surveys.md#step-4-email)
+- [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
+- [E-mail de exemplo: comunicado aos usuários sobre Skype para negócios](upgrade-emails-surveys.md#step-4-email)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -118,13 +118,14 @@ Fornecendo um amplo aviso para seus usuários fornecerá-los de tempo para se fa
 <a name="step-5"></a>
 
 ## <a name="step-5-activate-the-user-upgrade-notification"></a>Etapa 5. Ativar a notificação de atualização do usuário
+
 *(Cerca de uma semana antes da atualização)*
 
 Manter atualização momentum habilitando a notificação de atualização de usuário através do portal de administração, fornecendo um alerta visual no Skype para clientes corporativos que os usuários estejam sendo atualizados do Skype para negócios às equipes.
 
 **Recursos:**
 
--   [Definindo as configurações de atualização e coexistência](setting-your-coexistence-and-upgrade-settings.md)
+- [Definir suas configurações de coexistência e atualização](setting-your-coexistence-and-upgrade-settings.md)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -133,13 +134,14 @@ Manter atualização momentum habilitando a notificação de atualização de us
 <a name="step-6"></a>
 
 ## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>Etapa 6. Lembre aos usuários que vai ser atualizando do Skype para negócios às equipes
+
 *(Cerca de cinco dias antes da atualização)*
 
 Os usuários estão ocupados com suas responsabilidades diárias. Lembrá-los da atualização pendente ajudará a garantir Lembre-se a realizar as etapas que precisam para se preparar para equipes. Este é o momento perfeito para lembrar os usuários sobre treinamento disponíveis e como começar com equipes.
 
 **Recursos:**
 
--   [E-mail de exemplo: lembrar os usuários para começar com equipes](upgrade-emails-surveys.md#step-6-email)
+- [E-mail de exemplo: lembrar os usuários para começar com equipes](upgrade-emails-surveys.md#step-6-email)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -151,14 +153,14 @@ Os usuários estão ocupados com suas responsabilidades diárias. Lembrá-los da
 
 *(Atualização dia)*
 
-Hoje é o dia em que sua organização oficialmente atualiza para equipes como sua solução de comunicação e colaboração. Em equipes e Skype para Business Admin Center, ative a opção de atualização, definindo o modo de coexistência para **Equipes somente**. (No Centro de administração, vá para **configurações de toda a organização** > **Atualizar equipes**.) Os usuários receberão uma notificação em seu Skype para que eles foram atualizados para equipes de cliente de negócios.
+Hoje é o dia em que sua organização oficialmente atualiza para equipes como sua solução de comunicação e colaboração. Em & as equipes Skype para Business Admin Center, ative a opção de atualização, definindo o modo de coexistência para **Equipes somente**. (No Centro de administração, vá para **configurações de toda a organização** > **Atualizar equipes**.) Os usuários receberão uma notificação em seu Skype para que eles foram atualizados para equipes de cliente de negócios.
 
 É recomendável depois que todos tem sido atualizado, você enviar um email de boas-vindas para equipes.
 
 **Recursos:**
 
--   [Definir seu coexistência e as configurações de atualização](setting-your-coexistence-and-upgrade-settings.md)
--   [E-mail de exemplo: os usuários a equipes de boas-vindas](upgrade-emails-surveys.md#step-7-email)
+- [Definir seu coexistência e as configurações de atualização](setting-your-coexistence-and-upgrade-settings.md)
+- [E-mail de exemplo: os usuários a equipes de boas-vindas](upgrade-emails-surveys.md#step-7-email)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -174,7 +176,7 @@ Ajustando para uma nova tecnologia pode levar algum tempo. Verifique o uso para 
 
 **Recursos:**
 
--   [Ver dados de uso](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [Ver dados de uso](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -190,7 +192,7 @@ Satisfação do funcionário pode influenciar a produtividade, retenção, e —
 
 **Recursos:**
 
--   [E-mail de exemplo: check-in com usuários](upgrade-emails-surveys.md#step-9-email), plus [pesquisas de usuário](upgrade-emails-surveys.md#step-9-surveys)
+- [E-mail de exemplo: check-in com usuários](upgrade-emails-surveys.md#step-9-email), plus [pesquisas de usuário](upgrade-emails-surveys.md#step-9-surveys)
 
 [Retornar ao topo](#about-upgrade-basic)
 
@@ -198,14 +200,14 @@ Satisfação do funcionário pode influenciar a produtividade, retenção, e —
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>Etapa 10. Maximize o ROI com equipes 
+## <a name="step-10-maximize-your-roi-with-teams"></a>Etapa 10. Maximize o ROI com equipes
+
 *(Contínuos)*
-    
+
 Depois que os usuários são confortáveis com IM (chat) e reuniões em equipes, incentive estender seu caso de uso, usando a integração de aplicativos e colaboração de equipes, realmente otimizar sua nova solução e maximizando um retorno do investimento.
 
 **Recursos:**
 
--   [E-mail de exemplo: incentivar os usuários a explorar equipes ainda mais](upgrade-emails-surveys.md#step-10-email)
+- [E-mail de exemplo: incentivar os usuários a explorar equipes ainda mais](upgrade-emails-surveys.md#step-10-email)
 
 [Retornar ao topo](#about-upgrade-basic)
-

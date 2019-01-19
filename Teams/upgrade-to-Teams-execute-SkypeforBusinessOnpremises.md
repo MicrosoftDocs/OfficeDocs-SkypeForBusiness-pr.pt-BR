@@ -1,9 +1,8 @@
 ---
-title: Atualizar a partir de um Skype para implantação no local de negócios às equipes - Teams da Microsoft
+title: Atualizar Skype para negócios local às equipes da Microsoft | Implantar | Lync
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,25 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd0d0f1536f509f2cdc9e379e398168f86d9b514
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5628b0bb382ef12580bb7bab12dca13e288fead7
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016777"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349331"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
 Este artigo faz parte do estágio de implantação e a implementação da sua jornada de atualização. Antes de continuar, confirme que você tiver concluído as seguintes atividades:
 
--   [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
--   [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
--   [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
--   [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Preparado o seu ambiente](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Preparado sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Conduzido um piloto](https://aka.ms/SkypeToTeams-Pilot)
-
+- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Preparado o seu ambiente](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Preparado sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Conduzido um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Atualizar de um Skype para implantação no local de negócios para equipes
 
@@ -49,7 +47,7 @@ Para obter mais informações, consulte [Deploy a conectividade de híbrido entr
 
 ## <a name="step-2-move-users-to-skype-for-business-online"></a>Etapa 2: Mover usuários para Skype para negócios Online
 
-Depois de concluir sua configuração híbrida, mova usuários para Skype para negócios Online. 
+Depois de concluir sua configuração híbrida, mova usuários para Skype para negócios Online.
 
 Para obter mais informações, consulte [mover os usuários no local para Skype para negócios Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 

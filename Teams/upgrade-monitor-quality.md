@@ -1,9 +1,8 @@
 ---
-title: Qualidade da experiência Revise o guia - equipes da Microsoft
+title: Qualidade da experiência do usuário | As equipes da Microsoft | QoS | Qualidade da chamada
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf538dc4e68d3068d6ae0875ec916cdd1f8fd52
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 59acafa7555b793555b504b1555b0d6969a12b4b
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017981"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349315"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -33,17 +32,17 @@ A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui um c
 
 Avaliação e correção as áreas descritas no guia continuamente, você pode reduzir seu potencial para afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrados em uma implantação podem ser agrupados nas seguintes categorias:
 
--   Configuração de firewall ou proxy incompleta
+- Configuração de firewall ou proxy incompleta
 
--   Baixa cobertura de Wi-Fi
+- Baixa cobertura de Wi-Fi
 
--   Largura de banda insuficiente
+- Largura de banda insuficiente
 
--   VPN
+- VPN
 
--   Uso de dispositivos de áudio não otimizados ou internos
+- Uso de dispositivos de áudio não otimizados ou internos
 
--   Sub-redes problemáticos ou dispositivos de rede
+- Sub-redes problemáticos ou dispositivos de rede
 
 As diretrizes fornecidas no guia do Quality of Experience revisão enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio. Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
 

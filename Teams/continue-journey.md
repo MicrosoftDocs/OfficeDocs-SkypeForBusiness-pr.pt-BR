@@ -1,9 +1,8 @@
 ---
-title: Valor de unidade com Microsoft Teams por meio de adoção de usuário - Teams da Microsoft
+title: Plano de adoção de usuário de equipes da Microsoft | Práticas recomendadas
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,18 +13,18 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91608a65530c7f57772b0fe544394a669e67b2a4
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 66a5a75d31b06976cd59d40f189fc87bf96c316e
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649521"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29348902"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
 Este artigo faz parte do estágio da sua jornada de atualização, que começa assim que você concluir a atualização do Skype para negócios às equipes excelência operacional.
 
-# <a name="drive-operational-excellence-with-microsoft-teams"></a>Unidade de excelência operacional com Microsoft Teams
+# <a name="how-to-use-microsoft-teams-effectively"></a>Como usar efetivamente as equipes da Microsoft
 
 Tecnologia está inovando em um ritmo sem precedentes. Manter atual e a habilitação de um ambiente de trabalho moderno tornou-se um padrão em organizações operam. Como Teams da Microsoft, Microsoft 365 e visão de comunicação inteligente da Microsoft continuam Desdobrar, ter um planejamento operacional in-loco ajudará Certifique-se de que sua organização estiver configurada para o sucesso a longo prazo. Um planejamento operacional ideal inclui a monitoração seu ambiente para a integridade e a qualidade, continuando momentum de usuário para otimizar a adoção e planejamento de uma nova funcionalidade que continuará a ficar online ao longo do tempo.
 
@@ -33,24 +32,24 @@ Tecnologia está inovando em um ritmo sem precedentes. Manter atual e a habilita
 
 O status da sua rede afeta a experiência do usuário. Quando um usuário possui uma experiência ruim (por exemplo, quedas de chamada ou retardo tempo ao ingressar em reuniões), eles correlacionam isso à tecnologia propriamente dito, deixá-las com a impressão de que a tecnologia não funciona e abrindo as portas para aplicativos sem suporte. Implementar um plano para monitorar e reduzir a integridade de rede ajudará a garantir uma experiência de usuário positivo além reduzindo chamadas sua mesa de suporte. Para obter mais informações, consulte os seguintes artigos:
 
--   [Operar o seu serviço](upgrade-operate-my-service.md)
--   [Monitorar a qualidade](upgrade-monitor-quality.md)
--   [Melhorar seu serviço](upgrade-enhance-my-service.md)
+- [Operar o seu serviço](upgrade-operate-my-service.md)
+- [Monitorar a qualidade](upgrade-monitor-quality.md)
+- [Melhorar seu serviço](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Unidade de adoção e momentum do usuário
 
 Para concretizar o máximo benefício e os resultados dos negócios com equipes, os usuários devem realmente usá-lo. No entanto, atrativo inicial tende a wane e usuários reverta facilmente a antigas maneiras de trabalho. Incentivar a adoção de usuário e manter atrativo para equipes com um plano de adoção em andamento, que pode incluir:
 
--   Inscrever campeões ponto para ajudar Pregue e incentivar os usuários colegas.
--   Verificando o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obter dicas sobre aumentando o envolvimento e orientando a adoção.
--   Aproveitando o [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para melhorar a conscientização e compartilhar as práticas recomendadas.
--   Implementando uma [estratégia de gerenciamento de adoção e alteração](http://www.successwithteams.com/) formal para ajudar a sustentar o crescimento de adoção.
+- Inscrever campeões ponto para ajudar Pregue e incentivar os usuários colegas.
+- Verificando o [Guia de adoção do Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obter dicas sobre aumentando o envolvimento e orientando a adoção.
+- Aproveitando o [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para melhorar a conscientização e compartilhar as práticas recomendadas.
+- Implementando uma [estratégia de gerenciamento de adoção e alteração](http://www.successwithteams.com/) formal para ajudar a sustentar o crescimento de adoção.
 
 ## <a name="prepare-for-new-functionality"></a>Preparar para a nova funcionalidade
 
 O ciclo de vida de qualquer tecnologia de determinado tornou-se um ciclo de crescimento dinâmico. Isso significa que as equipes e Microsoft 365 mapas continuará Desdobrar, com a nova funcionalidade acendendo em uma cadência regular. Estabelecer um ciclo de alteração dentro da sua organização garantirá que você está pronto para gerenciar os aprimoramentos de colaboração contínua e agregar valor máximo. Isso pode incluir:
 
--   Monitore o [mapa](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de equipes.
--   Implemente uma alteração no formulário de planejamento (conforme ilustrado abaixo) para preparar e implementar novas funcionalidades. Certifique-se de incluir atividades de preparação técnico e do usuário.
+- Monitore o [mapa](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de equipes.
+- Implemente uma alteração no formulário de planejamento (conforme ilustrado abaixo) para preparar e implementar novas funcionalidades. Certifique-se de incluir atividades de preparação técnico e do usuário.
 
 ![Formulário de exemplo mostrando datas de lançamento esperada e observações sobre a nova funcionalidade, listados com as próximas etapas e proprietários] (media/upgrade-change-plan-form.png "Formulário de exemplo mostrando datas de lançamento esperada e observações sobre a nova funcionalidade, listados com as próximas etapas e proprietários")

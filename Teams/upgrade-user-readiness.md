@@ -1,9 +1,8 @@
 ---
-title: Preparar um plano de preparação do usuário antes da atualização do Skype para negócios para o Microsoft Teams - Teams da Microsoft
+title: Preparar um plano de preparação do usuário; Atualizar do Skype for Business para equipes
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de13a3775c9ffae4fde1ffcd71be23ffab4e4a96
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649688"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349441"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
 Este artigo faz parte do estágio de preparação de usuários de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação técnica. Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:
 
--   [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
--   [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
--   [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
--   [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>Preparar um plano de preparação do usuário
 
@@ -37,11 +36,10 @@ Um plano de preparação do usuário ideal incorpora como você vai se comunicar
 > [!Tip]
 > Baixe o [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário de modelo, como communications e pesquisas de usuário, além de um plano de teste piloto e um exemplo de plano de projeto de atualização.
 
-|    |     |
-|-----------|------------|
+| | |
+|---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como você pode criar um plano de preparação para facilitar e agilizar a adoção usuário da nova solução?</li><li>Você tem o direita divulgação, treinamento e recursos de suporte que se alinham com a capacidade dos usuários para lidar com a alteração e as personagens de usuário que você definiu?</li></ul> |
 | ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Use a lista a seguir para gerar ideias para o seu plano de preparação. Selecione as atividades mais relevantes — ou adicione seus próprios — projetar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de amplo número-alcance (para toda a organização) e campanhas direcionadas (para retardatários ou personagens específicas) para o número máximo de resultados.</li></ul>|
-
 
 <div class="mx-tableFixed">
 <table>
@@ -53,6 +51,3 @@ Um plano de preparação do usuário ideal incorpora como você vai se comunicar
 </div>
 
 Depois que você criou o seu plano de preparação do usuário e os recursos associados e sua prontidão técnica for in-loco, vá para [equipes piloto em sua organização](https://aka.ms/SkypeToTeams-Pilot).
-
-
-

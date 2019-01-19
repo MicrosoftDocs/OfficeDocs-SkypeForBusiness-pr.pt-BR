@@ -1,9 +1,8 @@
 ---
-title: Escolha sua jornada de atualização - Microsoft Teams
+title: Microsoft Teams atualizar do Skype for Business | Modos de coexistência
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
@@ -14,20 +13,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdf8ee99b276603329682ce2a1749f946d209fbf
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 9b625cbd633ad0d88c976356861b7c90e93c7a13
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214485"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349081"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
 Este artigo faz parte do estágio de implantação e a implementação da sua jornada de atualização. Antes de continuar, confirme que você tiver concluído as seguintes atividades:
 
--   [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
--   [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
--   [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
+- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolher sua atualização jornada Skype for Business para equipes
 
@@ -35,8 +34,9 @@ Como um Skype existente para o cliente de negócios, sua transição completa pa
 
 > [!IMPORTANT]
 > Este artigo descreve os vários modos que permitem que você gerencie quais modalidades no Skype para negócios e equipes estão disponíveis para os usuários. Assim como acontece com qualquer implantação, recomendamos que você para [testar seu plano pretendido](pilot-essentials.md) com um grupo selecionado de usuários antes da atualização de sua organização para equipes. Lembre-se de que pode ser destrutivos para usuários introduzindo nova tecnologia. Demore para avaliar a preparação do usuário e implementar um plano de treinamento antes da implementação de qualquer um dos modos descritos neste documento e de comunicação.
- 
+
 ## <a name="upgrade-journey-building-blocks"></a>Blocos de construção jornada de atualização
+
 Para preparar formalmente a sua organização para sua jornada para equipes, você precisa começar a planejar os cenários de atualização que eventualmente permitirá que sua organização adotará totalmente equipes como suas comunicações exclusiva e solução de colaboração.
 
 Para ajudar a orientar seu processo de tomada de decisão, familiarize-se com os vários modos, conceitos e terminologia relevante para atualização do Skype for Business para equipes. Para obter mais informações, consulte [as equipes da Microsoft e Skype para interoperabilidade e coexistência de negócios](https://aka.ms/SkypeToTeams-Coexist)
@@ -49,8 +49,8 @@ Se não for viável para toda a organização mover para equipes, você pode ini
 
 A tabela a seguir compara os modos de coexistência e atualização.
 
-|Modo  |Situação  |Uso recomendado  |Vantagens  |Advertências  |
-|---------|---------|---------|---------|---------|
+|Modo |Situação |Uso recomendado |Vantagens |Advertências |
+|---|---|---|---|---|
 |Ilhas |Skype menor ou mais simples para implantação de negócios<br><br>Capacidade e a disposição para gerenciar alguma complexidade a curto prazo para mover para equipes mais rapidamente |Vá para a experiência de equipes completa mais depressa possível<br><br>Conduzir uma prova de conceito (PoC) de equipes<br><br>Caminho de atualização recomendado para organizações que adotado Skype para Business Online |Simples para operar<br><br>Experiência de equipes mais sofisticada inicial para todos os recursos |Requer a comunicação do usuário bom para evitar confusões e para o uso da unidade em direção de equipes<br><br>Estratégia de saída requer que os usuários totalmente adotaram equipes antes de iniciar a atualização para equipes somente fase<br><br>Não há interoperabilidade para usuários no modo de ilhas; também nenhum federação de equipes quando Skype do usuário para a conta comercial é hospedado no local|
 |Skype for Business com colaboração de equipes |Skype para implantação de negócios com requisitos que ainda não forem atendidas por equipes (por exemplo, conformidade avançados)<br><br>Necessidade de longo prazo de e/ou compromisso em Skype para negócios|Iniciar a adoção de equipes rapidamente, concentrando-se pela primeira vez em colaboração de grupo<br><br>Deseja manter todas as cargas de trabalho de comunicação unificada em Skype for Business para agora<br><br>Uso como ponto de partida para a organização iniciar sua jornada no local (ou híbrida) recomendado Skype para negócios|Não há recursos sobreposição entre equipes e Skype para negócios<br><br>Mensagens instantâneas de bate-papo e agendamento de reuniões residirá no Skype para negócios (vinculados à chamada)<br><br>Interoperabilidade com usuários em equipes somente|
 |Skype for Business com reuniões e colaboração de equipes |Skype para implantação de negócios com o uso significativo do enterprise voice e requisitos que ainda não forem atendidos por equipes chamar<br><br>Necessidade de longo prazo de e/ou compromisso em Skype para negócios<br><br>Pode estar usando um serviço de reunião de terceiros|Iniciar a adoção de equipes rapidamente, ultrapassando a colaboração de grupo<br><br>Melhorar a experiência de reuniões dos usuários<br><br>Uso recomendado para em organizações locais querer tirar proveito das reuniões de equipes antes de ser pronto para atualizar totalmente (geralmente devido ao Enterprise Voice no local). |Não há recursos de sobreposição<br><br>Reuniões superiores em equipes. Plataforma de mapa, eu e cruzado de recursos, a qualidade e a confiabilidade<br><br>Experiências de "Melhor juntos" entre equipes e Skype para negócios<br><br>Usuários de interoperabilidade em equipes apenas.|Mensagens instantâneas e bate-papo residirão em Skype para negócios (vinculados à chamada)|
@@ -58,18 +58,22 @@ A tabela a seguir compara os modos de coexistência e atualização.
 |Skype para negócios apenas |Precisam de alguns usuários permaneçam em Skype para negócios<br><br>|Limita a confusão do usuário, fornecendo apenas um cliente para trabalhar com<br><br>Usuário ainda pode participar de reuniões de equipes, a que eles são convidados|Continuar a atender aos requisitos de negócios que atualmente só podem ser atendidos por Skype para negócios<br><br>Interoperabilidade com usuários em equipes somente|Interoperabilidade suporta apenas o bate-papo básica e chamar entre Skype para equipes e de negócios e escalonamento de interoperabilidade cenários para o compartilhamento da área de trabalho e bate-papo com vários participante e chamadas|
 
 ## <a name="upgrade-journeys"></a>Atualização de viagens
+
 Você pode levar várias abordagens para atualização do Skype para a empresa, seja online ou no local, às equipes:
-- Em uma jornada atualização direta, você primeiro implante equipes junto com Skype for Business no modo de **Ilhas** como parte da avaliação e adoção antecipada e depois atualize seus usuários para o modo **Equipes somente** com o objetivo de retirada rapidamente Skype para negócios do ambiente para todos os usuários na organização. Isso é a jornada recomendada para clientes do Skype Business online, a menos que sejam preocupado com que seus usuários vai ser confundidos com ter duas ferramentas para conduzir a mesma ação (bate-papo, chamada, agendamento de reunião). 
+
+- Em uma jornada atualização direta, você primeiro implante equipes junto com Skype for Business no modo de **Ilhas** como parte da avaliação e adoção antecipada e depois atualize seus usuários para o modo **Equipes somente** com o objetivo de retirada rapidamente Skype para negócios do ambiente para todos os usuários na organização. Isso é a jornada recomendada para clientes do Skype Business online, a menos que sejam preocupado com que seus usuários vai ser confundidos com ter duas ferramentas para conduzir a mesma ação (bate-papo, chamada, agendamento de reunião).
 - Uma jornada de atualização gradual oferece um coexistência específica e o modo de atualização para um grupo específico de usuários (também chamado de um *cohort*), dependendo de suas comunicações e requisitos de colaboração. Ao longo do tempo, toda a organização pode convergem no usando apenas equipes e eventualmente substituir Skype para negócios. No entanto, se sua organização tem atraentes razões de negócios para manter Skype para negócios — como uma dependência em uma solução baseada no Unified Communications Managed API UCMA que integra-se com aplicativos de linha de negócios ou uma solução de parede ética disponível no momento para Skype para negócios apenas ou uma implantação do Enterprise Voice complexa que levará tempo para atualizar para **Equipes apenas**— você pode atualizar uma parte dos usuários para o modo de **Equipes apenas** enquanto mantém Skype para usuários comerciais em um do modos de coexistência para uma parte da sua população de usuários. Jornada de atualização gradual é clientes abordagem recomendada para o local (e híbrida) começando com Skype for Business com o modo de coexistência de colaboração de equipes e mover a partir daí para o modo de equipes somente quando atendidos requisito para os usuários (possivelmente até o Skype for Business com o modo de coexistência de reuniões e colaboração de equipes).
 
 > [!IMPORTANT]
 > Para ambos os tipos de atualização jornada, se sua organização está atualmente um Skype Business local apenas para implantação, será necessário começar a planejar, implementar Skype para híbrido de negócios antes de atualizar seus usuários para o modo **Somente equipes** . Isso também ajuda a facilitar a interoperabilidade com equipes.
+>
 > Use [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) para orientar sua Skype para a implementação híbrida de negócios.
 
 > [!NOTE]
 > **Equipes somente** modo exige que os usuários que fazem parte do colaboradores ser hospedados no Skype para Business Online e uma relação de híbrido entre seu Skype para implantação no local de negócios e seu Skype para locatário Business Online é necessária para facilitar a interoperabilidade entre equipes e Skype para negócios. A mudança para Skype para Business Online deve ser concluída para usuários que fazem parte dos colaboradores antes que eles estão atualizados para **Equipes apenas** o modo. Skype para Business Server 2019 e Skype para negócios 2015 de servidor com atualização CU8 podem simplificar a mecânica da atualização de usuários locais para equipes Gerenciando a migração para o Skype para Business Online e atualizando os usuários para o modo **Equipes somente** em uma única etapa .
 
 ### <a name="direct-upgrade-journey"></a>Direta jornada de atualização
+
 A jornada de atualização direta é ilustrada no diagrama a seguir.
 
 ![Uma captura de tela da jornada atualização direta. Todos os usuários inicialmente usam equipes no modo de ilhas e fazer a transição para o modo somente equipes, com o estado final do toda a organização atualizado para equipes.](media/upgrade_journey_direct_upgrade.png)
@@ -77,6 +81,7 @@ A jornada de atualização direta é ilustrada no diagrama a seguir.
 As equipes é implantada para todos os usuários na organização e configurado no modo de **Ilhas** . Quando sua organização determina que equipes está pronta para atender a todas as suas comunicações e colaboração precisa, notificar os usuários e atualizá-los para **Equipes somente** modo. Nesse momento, Skype for Business pode ser retirado do ambiente.
 
 ### <a name="gradual-upgrade-journey"></a>Jornada de atualização gradual
+
 Um exemplo de uma jornada de atualização gradual é ilustrado no diagrama a seguir.
 
 ![Na jornada de atualização gradual, colaboradores de usuários inicialmente usam equipes no modo de ilhas para avaliação e, em seguida, em uma variedade de modos de atualização para a adoção antecipada, lado a lado com Skype para negócios. Transição alguns colaboradores para o modo somente equipes, enquanto um grupo de usuários permanece com Skype for Business com colaboração de equipes e modo de reuniões.](media/upgrade_journey_gradual_upgrade.png)
@@ -88,8 +93,6 @@ Ao longo do tempo, os grupos de usuários podem ser atualizados para **Equipes s
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul> Qual jornada de atualização é adequada para os requisitos de negócios da sua organização?<br><br></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximo passo</td><td><ul> Identificando seu modelo de implantação atual, use a cenários de caso e considerações fundamentais para sua organização informará a jornada para equipes que é mais adequada para sua organização.<br><br></ul></td></tr>
 </table>
-
-
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul> Qual cenário de atualização é aplicável a sua organização?<br><br></ul></td></tr>

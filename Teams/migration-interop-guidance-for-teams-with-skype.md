@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44c60dbad9b2b31e18716c79dea73795cda4a803
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: d3c273868a07099ce0aaed60cb16e698adbdd13f
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729432"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349517"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business
 
@@ -45,12 +45,11 @@ Como uma organização com Skype para negócios começa a adotar as equipes, os 
 6.  Comportamento de atualização e interoperabilidade são determinados com base no modo de coexistência de um usuário, que é gerenciado pelo TeamsUpgradePolicy. TeamsInteropPolicy não está mais modo respeitado e concedendo = Legacy não é mais permitido. 
 
 7.  Atualizando de um usuário para o modo de TeamsOnly garante que todas as chamadas e chats de entrada serão sempre land no cliente de equipes do usuário, independentemente de qual cliente ele orignated de. Esses usuários também agendará todas as novas reuniões em equipes. Para estar no modo de TeamsOnly, um usuário deve ser hospedado online no Skype para negócios. Isso é necessário para assegurar a interoperabilidade, Federação e administração completa do usuário equipes. Para atualizar um usuário para TeamsOnly:
-  - Se o usuário estiver hospedado no Skype para negócios online (ou nunca teve qualquer conta Skype), conceder a eles TeamsUpgradePolicy com modo = TeamsOnly usando a instância de "UpgradeToTeams" usando o PowerShell ou use o Centro de administração de equipes para selecionar o modo de TeamsOnly.
-  - Se o usuário for hospedados no local, use `Move-CsUser` o local admin ferramentas para mover-se primeiro ao usuário Skype para Business Online. Há 2 opções ao mover usuários do local:
-    
-       - Se você tiver Skype para Business Server 2019 ou CU8 para Skype para Business Server 2015, você pode especificar o `-MoveToTeams` alternar no `Move-CsUser` para mover o usuário diretamente para as equipes. Essa opção também será migrada reuniões do usuário às equipes (embora no momento, só está funcional para clientes de toque migração da reunião). 
-       - Caso contrário, após `Move-CsUser` for concluída, atribuir o modo de TeamsOnly para o usuário usando o PowerShell ou o Centro de administração de equipes.  
-    Para obter detalhes, consulte [mover usuários entre o local e a nuvem](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Para obter mais detalhes sobre a migração de reunião, consulte [usando o serviço de migração de reunião (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+    - Se o usuário estiver hospedado no Skype para negócios online (ou nunca teve qualquer conta Skype), conceder a eles TeamsUpgradePolicy com modo = TeamsOnly usando a instância de "UpgradeToTeams" usando o PowerShell ou use o Centro de administração de equipes para selecionar o modo de TeamsOnly.
+    - Se o usuário for hospedados no local, use `Move-CsUser` o local admin ferramentas para mover-se primeiro ao usuário Skype para Business Online. Há 2 opções ao mover usuários do local:  
+     - Se você tiver Skype para Business Server 2019 ou CU8 para Skype para Business Server 2015, você pode especificar o `-MoveToTeams` alternar no `Move-CsUser` para mover o usuário diretamente para as equipes. Essa opção também será migrada reuniões do usuário às equipes (embora no momento, só está funcional para clientes de toque migração da reunião). 
+      - Caso contrário, após `Move-CsUser` for concluída, atribuir o modo de TeamsOnly para o usuário usando o PowerShell ou o Centro de administração de equipes.  
+     Para obter detalhes, consulte [mover usuários entre o local e a nuvem](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud).  Para obter mais detalhes sobre a migração de reunião, consulte [usando o serviço de migração de reunião (MMS)](https://docs.microsoft.com/en-us/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
 8.  Para usar os recursos de sistema telefônico de equipes com equipes, os usuários devem estar no modo de TeamsOnly (isto é, hospedadas em Skype para Business Online e atualizados para equipes), e eles devem ser configurados para o sistema telefônico de Microsoft [Roteamento direto](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Direct-Routing-is-now-Generally-Available/ba-p/210359#M1277) (que permite que você use um sistema telefônico com seus próprios troncos SIP e um SBC) ou ter um Office 365 chamar plano.   

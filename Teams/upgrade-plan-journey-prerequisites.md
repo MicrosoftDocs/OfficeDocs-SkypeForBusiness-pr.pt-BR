@@ -1,9 +1,8 @@
 ---
-title: Pré-requisitos e dependências ambientais for Microsoft Teams - Teams da Microsoft
+title: Pré-requisitos de equipes da Microsoft | Atualização de adoção de dependências
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.date: 07/16/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: turgayo
@@ -14,21 +13,21 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f54a86dba3f7e939d9e2471761f2dce031280eb
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 397f3b5017c571a1f58a8b974c288c61704e5ac3
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016337"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349213"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
 Este artigo faz parte do estágio de prontidão técnica de sua atualização jornada, uma atividade que você concluir em paralelo com o estágio de preparação do usuário. Antes de continuar, confirme que você tiver concluído essas atividades desde estágios anteriores:
 
--   [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
--   [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
--   [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
--   [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Pré-requisitos e dependências de ambientais para equipes
 
@@ -38,19 +37,18 @@ Embora nem todos os serviços forem necessários, é altamente recomendável que
 
 Consulte os seguintes artigos para saber mais sobre os pré-requisitos e como equipes interage com outras tecnologias:
 
--   Se sua organização não tiver implantado nenhum cargas de trabalho do Office 365, consulte [Getting Started with Office 365 para empresas](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
+- Se sua organização não tiver implantado nenhum cargas de trabalho do Office 365, consulte [Getting Started with Office 365 para empresas](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
--   Se sua organização não tiver adicionado ou configurado um domínio verificado para o Office 365, consulte [Verify seu domínio do Office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
+- Se sua organização não tiver adicionado ou configurado um domínio verificado para o Office 365, consulte [Verify seu domínio do Office 365](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590).
 
--   Se sua organização não tiver sincronizado identidades para o Windows Azure Active Directory, consulte [modelos de identidade e autenticação no equipes da Microsoft](identify-models-authentication.md).
+- Se sua organização não tiver sincronizado identidades para o Windows Azure Active Directory, consulte [modelos de identidade e autenticação no equipes da Microsoft](identify-models-authentication.md).
 
--   Se doesn¹t sua organização tiver o Exchange Online, consulte [Noções básicas sobre como o Exchange e equipes da Microsoft interagem](Exchange-Teams-interact.md).
+- Se doesn¹t sua organização tiver o Exchange Online, consulte [Noções básicas sobre como o Exchange e equipes da Microsoft interagem](Exchange-Teams-interact.md).
 
--   Se sua organização não tiver o SharePoint Online, consulte [Noções básicas sobre como o SharePoint Online e o OneDrive for Business interagem com as equipes da Microsoft](SharePoint-OneDrive-interact.md).
+- Se sua organização não tiver o SharePoint Online, consulte [Noções básicas sobre como o SharePoint Online e o OneDrive for Business interagem com as equipes da Microsoft](SharePoint-OneDrive-interact.md).
 
--   Saiba como [interagem grupos do Office 365 e equipes da Microsoft](Office-365-groups.md).
+- Saiba como [interagem grupos do Office 365 e equipes da Microsoft](Office-365-groups.md).
 
--   Se sua organização é uma instituição educacional e usar um sistema de informações de Student, [Implante a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync) antes de implantar o Microsoft Teams.
-                                                                           
+- Se sua organização é uma instituição educacional e usar um sistema de informações de Student, [Implante a sincronização de dados da escola](https://docs.microsoft.com/schooldatasync) antes de implantar o Microsoft Teams.
 
 Depois que você tiver verificado que seu ambiente atende aos pré-requisitos aplicáveis todos, [avaliar o ambiente atual para equipes](upgrade-plan-journey-evaluate-environment.md).

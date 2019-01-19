@@ -1,26 +1,25 @@
 ---
-title: Descoberta de ambiente para uma distribuição Teams da Microsoft
+title: As equipes da Microsoft |  Avaliar o ambiente | Adoção, descoberta
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/02/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Como executar uma descoberta ambiental detalhada à medida que você planeja sua jornada do Skype para negócios a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+ms.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4503019a35580e662f5ca1e91e9645f92a584c6
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6cb6d41c5f57c436fd940cbf1f515e08daad9441
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531407"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349136"
 ---
-<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta de ambiente para uma distribuição Teams da Microsoft
+<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta ambiental para a distribuição do Microsoft Teams
 ===================================================
 
 Descoberta é uma das etapas muito primeiras, chaves que você tomar ao planejar sua jornada para Teams da Microsoft.
@@ -40,42 +39,42 @@ O questionário é dividido em várias seções para confirmar a preparação da
 > Você pode iniciar, copiando o questionário em um documento do Microsoft Word. Tente responder todas as perguntas e capturar todos os detalhes de como você percorre.
 
 <a name="project-team"></a>Equipe de projeto
-------------
+---
 
 Capture informações detalhadas sobre os principais participantes do seu projeto de implementação de equipes. Observe que uma pessoa pode desempenhar várias funções em todo o projeto.
 
-> | Função                                  | Nome, endereço de email, número de telefone | Local, fuso horário | Comentários      |
-> |---------------------------------------|-----------------------------------|---------------------|---------------|
-> | Patrocinador executivo                     |                                   |                     |               |
-> | Líder de projeto                          |                                   |                     |               |
-> | Líder/arquiteto de colaboração          |                                   |                     |               |
-> | Consultor                            |                                   |                     |               |
-> | Gerente de projetos                       |                                   |                     |               |
-> | Especialista em adoção/gerenciamento de mudanças |                                   |                     |               |
-> | Líder de rede                          |                                   |                     |               |
-> | Líder de segurança                         |                                   |                     |               |
-> | Líder de telefonia                        |                                   |                     |               |
-> | Líder de desktop                          |                                   |                     |               |
-> | Líder de suporte/suporte técnico                |                                   |                     |               |
-> | Líder de implantação                       |                                   |                     |               |
-> | Proprietário do serviço                         |                                   |                     |               |
-> | Líder de instalações                       |                                   |                     |               |
-> | Líder da equipe de vídeo                       |                                   |                     |               |
-> | Líderes de unidade de negócios                   |                                   |                     |               |
+> | Função | Nome, endereço de email, número de telefone | Local, fuso horário | Comentários |
+> |---|---|---|---|
+> | Patrocinador executivo | | | |
+> | Líder de projeto | | | |
+> | Líder/arquiteto de colaboração | | | |
+> | Consultor | | | |
+> | Gerente de projetos | | | |
+> | Especialista em adoção/gerenciamento de mudanças | | | |
+> | Líder de rede | | | |
+> | Líder de segurança | | | |
+> | Líder de telefonia | | | |
+> | Líder de desktop | | | |
+> | Líder de suporte/suporte técnico | | | |
+> | Líder de implantação | | | |
+> | Proprietário do serviço | | | |
+> | Líder de instalações | | | |
+> | Líder da equipe de vídeo | | | |
+> | Líderes de unidade de negócios | | | |
 
 <a name="office-365-tenant-details"></a>Detalhes de Inquilino do Office 365
--------------------------
+---
 
 É altamente recomendável que você tenha um locatário do Office 365 ativo enquanto você trabalha com este questionário. Se você ainda não tiver ativado ou ainda configurado um locatário do Office 365, consulte [planejar sua instalação do Office 365 para empresas](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
 Use a tabela a seguir para capturar informações sobre o locatário do Office 365.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-> | Observe o locatário de produção Office 365 <br>nome e a identificação da coluna de resposta <br/>Se você tiver mais de um inquilino <br>associado à sua organização, <br>Observe que todos os IDs.  | Nome do locatário: <br/>ID do inquilino:| |
+> |---|---|---|
+> | Observe o locatário de produção Office 365 <br>nome e a identificação da coluna de resposta <br/>Se você tiver mais de um inquilino <br>associado à sua organização, <br>Observe que todos os IDs. | Nome do locatário: <br/>ID do inquilino:| |
 > | Em quais regiões os locatários são implantados?| | |
 > | São esses inquilinos multi-Inquilinos do Office 365 ou <br>Dedicado? | <input type="checkbox">Multi-inquilinos<br/> <input type="checkbox">Dedicada | |
-> | Quais produtos Microsoft Online estão em uso no momento? <br/>Observe o número de usuários habilitados para cada um <br>serviço na coluna comentários. | <input type="checkbox">Equipes da Microsoft <br/> <input type="checkbox">Skype para negócios <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Outros|                                   |
+> | Quais produtos Microsoft Online estão em uso no momento? <br/>Observe o número de usuários habilitados para cada um <br>serviço na coluna comentários. | <input type="checkbox">Equipes da Microsoft <br/> <input type="checkbox">Skype para negócios <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">Outros| |
 > | Qual nível de licença está habilitado para Skype para <br>Usuários Online de negócios? | <input type="checkbox">E1/G1 <br/> <input type="checkbox">E2/G2 <br/> <input type="checkbox">E3/G3 <br/> <input type="checkbox">E4/G4 E5 | O número de usuários <br>para cada SKU: |
 > | Qual é a floresta do Active Directory atual <br>nível funcional no ambiente? <br/>Se houver mais de uma floresta, observe os detalhes <br>na coluna comentários. | <input type="checkbox">Windows Server 2000 <br/> <input type="checkbox">Windows Server 2003 <br/> <input type="checkbox">Windows Server 2008<br/> <input type="checkbox">Windows Server 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012 R2 <br/> <input type="checkbox">Windows Server 2016| |
 > | O que você está usando para o diretório <br>sincronização hoje? |<input type="checkbox">Nenhum sync (somente nuvem) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp;Conectar <br/> <input type="checkbox">Outros (especifique na <br>&nbsp;&nbsp; &nbsp;Coluna comentários.)| |
@@ -85,12 +84,12 @@ Use a tabela a seguir para capturar informações sobre o locatário do Office 3
 > | Usuário UPNs coincidem seu endereço SMTP principal? | <input type="checkbox">Sim <br/> <input type="checkbox">Não <br/> <input type="checkbox">Modo inconsistente | |
 
 <a name="existing-collaboration-platform-summary"></a>Plataforma de colaboração existente resumida
----------------------------------------
+---
 
 Use a tabela a seguir para capturar informações sobre a implantação de plataforma de colaboração existente.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> |---|---|---|
 > | O Microsoft Teams está implantado? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | O Skype for Business está implantado? <br/>Para o local e híbrido implantações, certifique-se <br>você observar a versão e a atualização cumulativa (CU) <br>detalhes na coluna comentários. | <input type="checkbox">Sim, o Office 365 <br/> <input type="checkbox">Sim, híbrida (com o Office 365) <br/> <input type="checkbox">Sim, no local <br/> <input type="checkbox">Sim, online, dedicado <br>&nbsp;&nbsp; &nbsp;(Microsoft) <br/> <input type="checkbox">Sim, hospedados, dedicada <br>&nbsp;&nbsp; &nbsp;(terceiros) <br/> <input type="checkbox">Sim, hospedado, compartilhado (terceiros) <br/> <input type="checkbox">Nenhum, outros | |
 > | O Exchange está implantado? <br/>Para o local e híbrido implantações, certifique-se <br>você observar a versão e CU detalhes nos comentários <br>coluna. | <input type="checkbox">Sim, o Office 365 <br/> <input type="checkbox">Sim, híbrida (com o Office 365) <br/> <input type="checkbox">Sim, no local <br/> <input type="checkbox">Sim, online, dedicado <br>&nbsp;&nbsp; &nbsp;(Microsoft) <br/> <input type="checkbox">Sim, hospedados, dedicada <br>&nbsp;&nbsp; &nbsp;(terceiros) <br/> <input type="checkbox">Sim, hospedado, compartilhada <br>&nbsp;&nbsp; &nbsp;(terceiros) <br/> <input type="checkbox">Nenhum, outros | |
@@ -102,14 +101,14 @@ Use a tabela a seguir para capturar informações sobre a implantação de plata
 > | Você tem [SBC que dê suporte direto de roteamento](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs) implantados para seus escritórios que fazem parte do escopo essa iniciativa? <br>Em caso afirmativo, observe os detalhes na coluna comentários.| <input type="checkbox">Sim <br/> <input type="checkbox">Não ||
 
 <a name="collaboration-platform-deployment-details"></a>Detalhes de implantação de plataforma de colaboração
------------------------------------------
+---
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (se aplicável)
 
 Se aplicável, capture os detalhes da sua implantação de equipes, usando a tabela de exemplo abaixo. Se você ainda não implantou as equipes, ignore esta seção.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> |---|---|---|
 > | Que tipos de usuários estão habilitados para o Microsoft Teams? | <input type="checkbox">Todos os usuários na organização <br/> <input type="checkbox">Grupos de usuários/usuários específicos <br>&nbsp;&nbsp; &nbsp;(Especificar na coluna comentários) ||
 > | Quais recursos de equipes e modalidades estão em uso? | <input type="checkbox">Conversas de canal <br/> <input type="checkbox">Bate-papo privado <br/> <input type="checkbox">Acesso de convidado <br/> <input type="checkbox">Reuniões de canal <br/> <input type="checkbox">Reuniões privadas <br/> <input type="checkbox">Chamada privada <br/> <input type="checkbox">Meetup de canal da ad hoc <br/> <input type="checkbox">Vídeos em reuniões <br/> <input type="checkbox">Tela de compartilhamento em reuniões <br/> <input type="checkbox">Serviços de audioconferência <br/><input type="checkbox">Aplicativos (apps)<br> &nbsp;&nbsp; &nbsp; <input type="checkbox"> Guias<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Bots <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Conectores<br><input type="checkbox">Integração do armazenamento de nuvem personalizado <br>&nbsp;&nbsp; &nbsp; (Caixa, pasta de recados, ShareFile, Google unidade) <br/> <input type="checkbox">Integração de email de canal <br/> <input type="checkbox">Outros (especifique na coluna comentários). | |
 > | Quais aplicativos você implantou a equipes? | | |
@@ -123,7 +122,7 @@ Se aplicável, capture os detalhes da sua implantação de equipes, usando a tab
 Se aplicável, capture os detalhes do seu Skype para implantação Business Online usando-se a tabela de exemplo abaixo. Se você ainda não implantou Skype para implantação Business Online, ignore esta seção.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> |---|---|---|
 > | Quais tipos de usuários estão habilitados para Skype <br>para negócios Online? | <input type="checkbox">Todos os usuários na organização <br/> <input type="checkbox">Grupos de usuários/usuários específicos <br>&nbsp;&nbsp; &nbsp;(Especificar na coluna comentários) | |
 > | Quais modalidades e recursos estão atualmente <br>em uso atualmente? | <input type="checkbox">Mensagens instantâneas e presença (IM/P)<br/> <input type="checkbox">Conferência <br/> <input type="checkbox">Federação <br/> <input type="checkbox">Gravação de reunião <br/> <input type="checkbox">Conferência de áudio da Microsoft <br/> <input type="checkbox">Serviços de audioconferência de terceiros <br>&nbsp;&nbsp; &nbsp;(Observe os detalhes na coluna comentários.) <br/> <input type="checkbox">Planos de chamada (anteriormente PSTN chamar) <br/> <input type="checkbox">Atendedores automáticos organizacional <br/> <input type="checkbox">Filas de chamada | |
 > | Você especificamente bloqueou qualquer Skype para <br>Recursos Online de negócios? <br>Em caso afirmativo, observe os detalhes na coluna comentários. | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
@@ -135,7 +134,7 @@ Se aplicável, capture os detalhes do seu Skype para implantação Business Onli
 Se aplicável, capture os detalhes do seu Skype para implantação de negócios usando a tabela de exemplo abaixo. Se você ainda não implantou Skype para negócios local, ignore esta seção.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> |---|---|---|
 > | Quais versões do Lync ou Skype for Business no momento <br>são implantados no local? | <input type="checkbox">O Lync Server 2010 <br/> <input type="checkbox">Lync Server 2013 <br/> <input type="checkbox">Skype para Business Server 2015 <br/> <input type="checkbox">Skype para Business Server 2019 <br/><input type="checkbox">Skype para o conector de nuvem Business Edition | |
 > | A implantação híbrida o Skype for Business Online está configurada? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Esse ambiente hospedado e gerenciado por um terceiro? <br/>Em caso afirmativo, observe os detalhes na coluna comentários. | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
@@ -146,12 +145,12 @@ Se aplicável, capture os detalhes do seu Skype para implantação de negócios 
 > | Quais do seguinte recursos de chamada de voz faça você <br>atualmente tem dependências? <br/>Observe quaisquer dependências adicionais nos comentários <br>coluna. | <input type="checkbox">Opções de disponibilidade <br/> <input type="checkbox">Estacionamento de chamada <br/> <input type="checkbox">Chamar retirada ou retirada de chamada de grupo <br/> <input type="checkbox">Telefones de área comum ou "hot desking" <br/> <input type="checkbox">Grupos de resposta ou grupos de busca <br/> <input type="checkbox">Aparência da linha compartilhada <br/> <input type="checkbox">Linha privada <br/> <input type="checkbox">Caixa postal <br/> <input type="checkbox">Chamada via trabalho <br/> <input type="checkbox">Números de emergência ou informações <br>&nbsp;&nbsp; &nbsp;(911, 811, 411) <br/> <input type="checkbox">Discagem de ramais <br/> <input type="checkbox">Atendedor automático <br/> <input type="checkbox">Acesso do assinante <br/> <input type="checkbox">Dispositivos analógicos <br/> <input type="checkbox">Fax <br/> <input type="checkbox">Mascaramento de ID de chamador ou alterar <br/> <input type="checkbox">Roteamento baseado no local <br/> <input type="checkbox">Roteamento de custo mínimo <br/> <input type="checkbox">Telefones elevador | |
 
 <a name="networking-and-access-to-office-365-services"></a>Rede e acesso aos serviços do Office 365
---------------------------------------------
+---
 
 Use a tabela a seguir para capturar detalhes de rede da sua organização e como os usuários são (ou estará) conectados aos serviços do Office 365.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> |---|---|---|
 > | Tutorial (ou como) os usuários no escopo de migração <br>acessar as equipes quando eles estão no escritório? <br/>Selecione todas as opções que se aplicam. | <input type="checkbox">Conexão de NAT roteado <br/> <input type="checkbox">Servidor proxy <br/> <input type="checkbox">Público Wi-Fi <br/> <input type="checkbox">Gerenciada Wi-Fi (não pública) <br/> <input type="checkbox">ExpressRoute (Microsoft correspondência) ||
 > | Se o acesso ao Office 365 é por meio de um servidor proxy, há <br>nenhuma maneira para ignorar o proxy? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | A Rota Expressa está sendo usada atualmente? | <input type="checkbox">Sim <br/> <input type="checkbox">Não <br/> <input type="checkbox">Não, mas está sendo planejado | |
@@ -166,12 +165,12 @@ Use a tabela a seguir para capturar detalhes de rede da sua organização e como
 > Para calcular a quantidade de largura de banda e outros requisitos de rede para sua voz nuvem implantação, dependendo de detalhes da sua organização e o uso estimado, visite [Planejador de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) em [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/).
 
 <a name="endpoints"></a>Pontos de extremidade
----------
+---
 
 Use a tabela a seguir para obter os detalhes de como os clientes e pontos de extremidade em uso.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> |---|---|---|
 > | Que sistema operacional de área de trabalho os usuários estão utilizando? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (especificar a versão na coluna comentários). <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
 > | Qual versão do Microsoft Office é implantado <br>para esses dispositivos? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office para Mac 2011 <br/> <input type="checkbox">Office para Mac 2016 <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
 > | Qual tecnologia de implantação do Office está em uso <br>em sua organização? | <input type="checkbox">MSI <br/> <input type="checkbox">Click-to-Run | |
@@ -180,12 +179,12 @@ Use a tabela a seguir para obter os detalhes de como os clientes e pontos de ext
 > | Quais dispositivos faça usuários atualmente usar para acessar <br>Serviços de voz e conferência <br>(telefones, headsets, telefones, vídeo)? | | |
 
 <a name="operations"></a>Operações
-----------
+---
 
 Use a tabela a seguir para capturar os detalhes dos aspectos operacionais do seu ambiente.
 
 > | Pergunta | Resposta | Comentários |
-> |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+> |---|---|---|
 > | Qual é o seu modelo de operações para o Lync Server <br>Skype para Business Server ou implantação do Office 365 <br>hoje? | | |
 > | Você contorno disposição para suporte atual <br>Lync Server, Skype para Business Server ou o Office 365? | | |
 > | Se você estiver implantando em vários países ou regiões, <br>cada país/região tem seu próprio IT / telefonia <br>para trabalhar com da equipe ou serão isso gerenciados centralmente? | <input type="checkbox">Suporte e operações regionais <br/> <input type="checkbox">Suporte e operações centralizadas | |
@@ -196,17 +195,17 @@ Use a tabela a seguir para capturar os detalhes dos aspectos operacionais do seu
 > | Como e quando você fornecer treinamento para seu <br>assistência técnica em novos serviços e recursos? | | |
 
 <a name="adoption-and-readiness"></a>Preparação e adoção
-----------------------
+---
 
 Use a tabela a seguir e registre o estado atual de adoção e preparação de sua organização.
 
-> 
-> |                                                    Pergunta                                                     |                                                                                                                                                                                                                                                                                      Resposta                                                                                                                                                                                                                                                                                      | Comentários |
-> |-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-> |                          Qual é o seu uso ativo atual do <br>Skype para os negócios?                           |                                                                                                                                                                                                                                                                 % **_** total usuários ativos versus usuários habilitados                                                                                                                                                                                                                                                                 |          |
-> |                             Como a sua organização está usando <br>Skype para os negócios?                              |                                                                                                   Conversas privadas <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Mensagens Instantâneas <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Chamar <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Compartilhamento<br> Reuniões <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Conferência<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Compartilhamento<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Chamar                                                                                                   |          |
-> |                   Sua organização tem a adoção de um usuário <br>e a equipe de gerenciamento de alterações?                   |                                                                                                                                                                                                                                                           <input type="checkbox">Sim<br/> <input type="checkbox">Não                                                                                                                                                                                                                                                            |          |
-> |            Como você medir o êxito da tecnologia atualmente <br>distribuições like Skype para os negócios?            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |          |
-> |               Porcentagem da Base de dados de usuário seria disse tem <br>adotado Skype para os negócios?               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |          |
-> |                                Qual é a opinião dos usuários a respeito do Skype for Business?                                |                                                                                                                                                                                                                                       <input type="checkbox">BOM <br/> <input type="checkbox">Neutro <br/> <input type="checkbox">Ruim                                                                                                                                                                                                                                       |          |
-> | Qual destas opções melhor descreve a distribuição <br>estratégia usada para seu Skype para negócios <br>implantação? | <input type="checkbox">Amplo alcance: campanha de E-mail com <br>&nbsp;&nbsp; &nbsp;links para treinamento <br/> <input type="checkbox">Expandido: Uma variedade mais amplo alcance <br>&nbsp;&nbsp; &nbsp;de campanhas de divulgação (cartazes, <br>&nbsp;&nbsp; &nbsp;eventos, campeões) e treinamento <br>&nbsp;&nbsp; &nbsp;(vídeos, guias do usuário, pessoalmente) <br/> <input type="checkbox">Adaptados: Expandida, além de direcionado <br>&nbsp;&nbsp; &nbsp;mensagens e treinamento por pessoa <br/> <input type="checkbox">Outros <br>&nbsp;&nbsp; &nbsp;(Observe os detalhes na coluna comentários.) |          |
+>
+> | Pergunta | Resposta | Comentários |
+> |---|---|---|
+> | Qual é o seu uso ativo atual do <br>Skype para os negócios? | % **_** total usuários ativos versus usuários habilitados | |
+> | Como a sua organização está usando <br>Skype para os negócios? | Conversas privadas <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Mensagens Instantâneas <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Chamar <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Compartilhamento<br> Reuniões <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Conferência<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Compartilhamento<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Chamar | |
+> | Sua organização tem a adoção de um usuário <br>e a equipe de gerenciamento de alterações? | <input type="checkbox">Sim<br/> <input type="checkbox">Não | |
+> | Como você medir o êxito da tecnologia atualmente <br>distribuições like Skype para os negócios? | | |
+> | Porcentagem da Base de dados de usuário seria disse tem <br>adotado Skype para os negócios? | | |
+> | Qual é a opinião dos usuários a respeito do Skype for Business? | <input type="checkbox">BOM <br/> <input type="checkbox">Neutro <br/> <input type="checkbox">Ruim | |
+> | Qual destas opções melhor descreve a distribuição <br>estratégia usada para seu Skype para negócios <br>implantação? | <input type="checkbox">Amplo alcance: campanha de E-mail com <br>&nbsp;&nbsp; &nbsp;links para treinamento <br/> <input type="checkbox">Expandido: Uma variedade mais amplo alcance <br>&nbsp;&nbsp; &nbsp;de campanhas de divulgação (cartazes, <br>&nbsp;&nbsp; &nbsp;eventos, campeões) e treinamento <br>&nbsp;&nbsp; &nbsp;(vídeos, guias do usuário, pessoalmente) <br/> <input type="checkbox">Adaptados: Expandida, além de direcionado <br>&nbsp;&nbsp; &nbsp;mensagens e treinamento por pessoa <br/> <input type="checkbox">Outros <br>&nbsp;&nbsp; &nbsp;(Observe os detalhes na coluna comentários.) | |

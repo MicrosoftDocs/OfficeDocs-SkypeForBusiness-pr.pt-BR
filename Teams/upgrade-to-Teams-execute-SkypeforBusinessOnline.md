@@ -1,9 +1,8 @@
 ---
-title: Atualização do Skype para negócios Online para equipes - equipes da Microsoft
+title: A atualização do Skype para negócios Online para equipes da Microsoft | Implantar
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
-ms.date: 12/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,25 +13,24 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f454b3c6e7ae41e87c9d44c02cd76b995313fc7
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 44f3cdad4ab65935c2721244364861db7a140f15
+ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789327"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "29349291"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
 Este artigo faz parte do estágio de implantação e a implementação da sua jornada de atualização. Antes de continuar, confirme que você tiver concluído as seguintes atividades:
 
--   [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
--   [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
--   [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
--   [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
--   [Preparado o seu ambiente](https://aka.ms/SkypeToTeams-TechnicalReadiness)
--   [Preparado sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
--   [Conduzido um piloto](https://aka.ms/SkypeToTeams-Pilot)
-
+- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Preparado o seu ambiente](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Preparado sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Conduzido um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Atualização do Skype para negócios Online para equipes
 
@@ -43,7 +41,7 @@ Siga as orientações neste artigo se você implantou integralmente Skype para B
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Atribuir o modo de atualização e coexistência
 
-Você pode atualizar seus usuários por equipes, atribuindo-se o modo de TeamsOnly de TeamsUpgradePolicy, que pode ser executada usando o Microsoft Teams & Skype para o Centro de administração de empresa ou um Skype para sessão do Windows Powershell remoto de negócios.
+Você pode atualizar seus usuários por equipes, atribuindo-se o modo de TeamsOnly de TeamsUpgradePolicy, que pode ser realizada usando-se o & Teams Microsoft Skype para centro de administração de empresa ou um Skype para a sessão do Windows Powershell remoto de negócios.
 
 Para obter mais informações, consulte [definindo sua coexistência e as configurações de atualização](https://aka.ms/SkypeToTeams-SetCoexistence) e [TeamsUpgradePolicy: Gerenciando a migração e coexistência](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
@@ -51,45 +49,45 @@ Para obter mais informações, consulte [definindo sua coexistência e as config
 
 Siga estas etapas para atualizar todos os seus usuários a equipes de uma só vez.
 
-### <a name="step-1-notify-the-users-of-the-change"></a>Etapa 1: Notificar os usuários da alteração 
+### <a name="step-1-notify-the-users-of-the-change"></a>Etapa 1: Notificar os usuários da alteração
 
-1. No Microsoft Teams & Skype para Business Admin Center, selecione **configurações de toda a organização** > **equipes de atualização**. 
+1. Na & Teams Microsoft Skype para Business Admin Center, selecione **configurações de toda a organização** > **equipes de atualização**.
 2. Em **modo de coexistência**, altere a opção de **Notificar Skype para usuários corporativos que uma atualização para equipes está disponível** para **ativado**.
 
-### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>Etapa 2: Definir o modo de coexistência para os usuários 
+### <a name="step-2-set-the-coexistence-mode-for-the-users"></a>Etapa 2: Definir o modo de coexistência para os usuários
 
-1. No Microsoft Teams & Skype para Business Admin Center, selecione **configurações de toda a organização**. 
+1. No & Teams Microsoft Skype para Business Admin Center, selecione **configurações de toda a organização**.
 2. Selecione o modo de **Equipes somente** da lista suspensa **modo de coexistência** .
- 
+
 ## <a name="upgrade-users-in-stages"></a>Atualizar os usuários em estágios
 
 Se você quiser que seus usuários a atualização gradual para equipes, siga estas etapas.
 
-### <a name="step-1-create-your-user-cohorts-for-the-upgrade"></a>Etapa 1: Criar seus colaboradores do usuário para a atualização 
+### <a name="step-1-create-your-user-cohorts-for-the-upgrade"></a>Etapa 1: Criar seus colaboradores do usuário para a atualização
 
-Colaboradores do usuário são grupos de usuários que serão movidos para o modo de equipes apenas ao mesmo tempo.  
+Colaboradores do usuário são grupos de usuários que serão movidos para o modo de equipes apenas ao mesmo tempo.
 
 Para criar seus colaboradores (adicionar o link à página de seleção do usuário) do usuário
- 
-### <a name="step-2-set-the-user-mode-to-islands"></a>Etapa 2: Configurar o modo de usuário para ilhas 
 
-1. No Microsoft Teams & Skype para Business Admin Center, selecione **usuários**e selecione um cohort do usuário.
+### <a name="step-2-set-the-user-mode-to-islands"></a>Etapa 2: Configurar o modo de usuário para ilhas
+
+1. Na & Teams Microsoft Skype para Business Admin Center, selecione **usuários**e selecione cohort um usuário.
 2. Ao lado de **atualização de equipes**, selecione **Editar**.
-3. No painel de **Atualização de equipes** , em **modo de coexistência**, selecione **Ilhas** da lista suspensa. 
+3. No painel de **Atualização de equipes** , em **modo de coexistência**, selecione **Ilhas** da lista suspensa.
 
-### <a name="step-3-set-notification-for-the-user-optional"></a>Etapa 3: Configurar a notificação para o usuário (opcional) 
+### <a name="step-3-set-notification-for-the-user-optional"></a>Etapa 3: Configurar a notificação para o usuário (opcional)
 
-1. No Microsoft Teams & Skype para Business Admin Center, selecione **usuários**e selecione um cohort do usuário.
+1. No & Teams Microsoft Skype para Business Admin Center, selecione **usuários**e selecione um cohort do usuário.
 2. Ao lado de **atualização de equipes**, selecione **Editar**.
 3. No painel de **Atualização de equipes** , em **modo de coexistência**, altere opção **notificar o Skype para o usuário de negócios** para **ativado**.
 
-### <a name="step-4-set-the-user-mode-to-teams-only"></a>Etapa 4: Configurar o modo de usuário para equipes somente 
+### <a name="step-4-set-the-user-mode-to-teams-only"></a>Etapa 4: Configurar o modo de usuário para equipes somente
 
-Quando estiver pronto para atualizar os usuários para usar equipes como seus aplicativos somente, defina o modo de coexistência para o usuário para equipes somente.  
+Quando estiver pronto para atualizar os usuários para usar equipes como seus aplicativos somente, defina o modo de coexistência para o usuário para equipes somente.
 
-1. No Microsoft Teams & Skype para Business Admin Center, selecione **usuários**e selecione um cohort do usuário.
+1. Na & Teams Microsoft Skype para Business Admin Center, selecione **usuários**e selecione cohort um usuário.
 2. Ao lado de **atualização de equipes**, selecione **Editar**.
-3. No painel de **Atualização de equipes** , em **modo de coexistência**, selecione **Equipes somente** da lista suspensa. 
+3. No painel de **Atualização de equipes** , em **modo de coexistência**, selecione **Equipes somente** da lista suspensa.
 
 ## <a name="phone-system-and-teams-upgrade"></a>Atualização de sistema telefônico e equipes
 
