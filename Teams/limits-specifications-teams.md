@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa699ebabd57299ef2ced07c2c6d0fc551ac6b17
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 957d1d3b708d0d35c2743b9382af3ad12aba6632
+ms.sourcegitcommit: 38f225d59929a08923e801f334fea7b3d28f537d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328251"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29454572"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 =============================================
@@ -31,8 +31,8 @@ Este artigo descreve algumas dos limites, especificações e outros requisitos q
 |Recurso    | Limite máximo |
 |-----------|---------------|
 |Número de equipes que um usuário pode criar | Sujeito às limit&sup1 250 objeto;         |
-|Número de membros da equipe | 2.500       |
-|Número de membros em uma [equipe de toda a organização](create-an-org-wide-team.md) | 2.500       |
+|Número de membros da equipe | US$ 2.500       |
+|Número de membros em uma [equipe de toda a organização](create-an-org-wide-team.md) | US$ 2.500       |
 |Número de equipes que um administrador global pode criar        |  500.000   |
 |Número de equipes que pode fazer com que um locatário do Office 365    | 500.000     |
 |Número de canais por equipe    | 200 (inclui canais excluídos)         |
@@ -45,14 +45,17 @@ Este artigo descreve algumas dos limites, especificações e outros requisitos q
 |Recurso     | Limite máximo |
 |------------|---------------|
 |Número de pessoas em uma reunião  | 250    |
-|Número de pessoas em um bate-papo privado  | 50    |
+|Número de pessoas em um bate-papo privado  | 50%    |
 
-<a name="storage"></a>Armazenamento
+> [!IMPORTANT]
+> Os trabalhadores do Quiosque não terão a capacidade de agendar reuniões de equipes, como, por padrão, AllowChannelMeetingScheduling e AllowPrivateMeetingScheduling não estão incluídos no provisionamento inband em relação ao TeamsMeetingPolicy. Isso se aplica apenas aos trabalhadores do quiosque. 
+
+<a name="storage"></a>Armazenamento do .
 -------
 
 Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal de uma equipe obtém uma pasta dentro da biblioteca de documentos padrão do site da equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
 
-Se você não tiver o SharePoint Online habilitado no seu locatário, os usuários do Microsoft Teams sempre não podem compartilhar arquivos em equipes. Os usuários de bate-papo privado também não poderão compartilhar arquivos pois o OneDrive for Business (que é vinculado à licença do SharePoint) é necessário para essa funcionalidade.
+Se você não possui o SharePoint Online habilitado no seu tenant, os usuários do Microsoft Teams nem sempre poderão compartilhar arquivos no Teams. Os usuários de bate-papo privado também não poderão compartilhar arquivos pois o OneDrive for Business (que é vinculado à licença do SharePoint) é necessário para essa funcionalidade.
 
 Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível tenant serão cumpridas. (Para obter mais informações, consulte [como SharePoint on-line e OneDrive for Business interagem com as equipes da Microsoft](sharepoint-onedrive-interact.md).)
 
@@ -60,7 +63,7 @@ Como equipes é executado em um back-end do SharePoint Online para compartilhame
 
 |Recurso                 |Office 365 Business Essentials  |Office 365 Business Premium   |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
-|Armazenamento                 |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização mais de 10 GB por licença adquirida   |1 TB por organização mais de 10 GB por licença adquirida |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização           |
+|Armazenamento do .                 |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização mais de 10 GB por licença adquirida   |1 TB por organização mais de 10 GB por licença adquirida |1 TB por organização mais de 10 GB por licença adquirida  |1 TB por organização           |
 |Armazenamento de arquivos de equipes |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |
 |Limite de carregamento de arquivo       |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
@@ -78,8 +81,8 @@ Função de bate-papo do Microsoft Teams funciona em um back-end do Microsoft Ex
 |Recurso  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |Limite de tamanho de mensagem&dagger;  |KB 25   |KB 25   |KB 25   |KB 25   |
-|Limite de anexos de arquivo&Dagger;  |20     |20     |20     |20    |
-|Limite de imagens embutida&Dagger; |50   |50   |50   |50   |
+|Limite de anexos de arquivo&Dagger;  | 10     | 10     | 10     | 10    |
+|Limite de imagens embutida&Dagger; |50%   |50%   |50%   |50%   |
 
 &dagger;Se a mensagem exceder esse limite, uma mensagem de visualização é gerada e o usuário é solicitado a exibição/download o email original no link fornecido.
 
