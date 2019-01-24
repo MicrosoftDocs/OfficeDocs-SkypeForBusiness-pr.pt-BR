@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
-ms.openlocfilehash: 8d41e051a7f55c24c3388e707648970bb1ab64df
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013543"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442433"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de chamada e o painel de controle de qualidade de chamada
 
@@ -43,7 +43,7 @@ Skype para negócios e o Teams da Microsoft oferecem duas maneiras para monitora
 
 Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionados à chamadas específicas e reuniões para cada usuário em um Microsoft Teams ou Skype para a conta de negócios. Se você for um administrador do Office 365, você pode usar a chamada análise para solucionar problemas de qualidade e conexão de chamada no Microsoft Teams e Skype para negócios.
 
-Para ver essas informações para um usuário no Microsoft Teams e Skype para Business Admin Center, clique na guia **Histórico de chamadas** para esse usuário na página de detalhes do usuário, mostrando todas as chamadas e reuniões que o usuário tem participou nos últimos 30 dias.
+Para ver essas informações para um usuário no & Teams Microsoft Skype para Business Admin Center, clique na guia **Histórico de chamadas** para esse usuário na página de detalhes do usuário, mostrando todas as chamadas e reuniões que o usuário tem participou nos últimos 30 dias.
 
 ![Chame a análise de dados do usuário.](media/call-analytics-user-data.png)
 
@@ -51,14 +51,19 @@ Para obter informações adicionais sobre uma determinada sessão, incluindo mí
 
 ![Chame a análise de dados da sessão de usuário.](media/call-analytics-user-data-session.png)
 
-Se desejar que não-administradores, como operadores de assistência técnica de um fornecedor externo, para usar a análise de chamada, você pode atribuir permissões para que eles podem usar a análise de chamada, mas não podem acessar o restante do Skype para Business Admin center: 
+Se desejar que não-administradores, como operadores de assistência técnica de um fornecedor externo, para usar a análise de chamada, você pode atribuir permissões para que eles podem usar a análise de chamada, mas não podem acessar o restante do & Teams Microsoft Skype para Business Admin Center: 
   
-- **Operadores de assistência técnica com permissões de nível 1**: agentes vejam um conjunto limitado de dados e informações de identificação pessoal (PII) na análise de chamada. Solucionam chamadas, mas eles serão entregar problemas com reuniões para um agente de nível 2.
+- **Operadores de assistência técnica com a comunicação oferece suporte a permissões de specialist**: agentes vejam um conjunto limitado de dados e informações de identificação pessoal (PII) na análise de chamada. Solucionam chamadas, mas eles serão entregar problemas com reuniões com um engenheiro de suporte de comunicações.
     
-- **Operadores de assistência técnica com permissões de nível 2**: agentes ver todos os dados disponíveis na análise de chamada e solucionar problemas de chamadas e reuniões. Eles têm acesso completo ao chamar os logs e informações do cliente.
+- **Operadores de assistência técnica com a comunicação oferece suporte a permissões de engenharia**: agentes ver todos os dados disponíveis na análise de chamada e solucionar problemas de chamadas e reuniões. Eles têm acesso completo ao chamar os logs e informações do cliente.
+
+> [!NOTE]
+> A função de especialista de suporte de comunicações é equivalente ao suporte da camada 1 e a função de engenheiro de suporte de comunicações é equivalente ao suporte da camada 2.
+
+Para obter mais informações sobre as comunicações especialista de suporte e comunicações funções engenheiro de suporte, consulte o [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
 
 > [!IMPORTANT]
-> Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses. Enquanto isso, você pode continuar a usar https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2.
+> Permissões de operador de assistência técnica e carregamento de topologia de rede estão disponíveis no & Teams Microsoft Skype para Business Admin Center. Especialistas de suporte de comunicações e comunicações engenheiros de suporte podem usar este portal para acessar a análise de chamada e o painel de controle de qualidade de chamada.
     
 Para obter detalhes sobre como configurar a análise de chamada, consulte [Configurar Skype para análise de chamada de negócios](set-up-call-analytics.md). Para obter mais informações sobre como os operadores de assistência técnica podem trabalhar com a análise de chamada, consulte [Análise de uso chamada solucionar problemas de qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md).
   
@@ -74,11 +79,14 @@ Talvez a qualidade de chamadas ruins de Tony é devido a um problema de rede que
   
 Para obter mais detalhes, consulte [recursos do painel de qualidade de chamada do Skype para negócios Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Análise de chamada e CQD executem em paralelo e podem ser usado independentemente ou em conjunto. Por exemplo, digamos que um agente de nível 1 determina que precisa de mais ajuda solucionar um problema de chamada. O agente de camada 1 passa a chamada para um agente de nível 2, quem tem acesso às informações mais na análise de chamada que o agente de nível 1. Por sua vez, o agente de nível 2 alertando engenheiro de rede para um problema. O engenheiro de rede pode verificar CQD para ver se um problema geral de sites relacionados poderia ser uma Colaborador causa de problemas de chamada.
+Análise de chamada e CQD executem em paralelo e podem ser usado independentemente ou em conjunto. Por exemplo, diga uma especialista em suporte determina que precisa de mais ajuda solucionar um problema de chamada de comunicações. Especialista de suporte a comunicações passa a chamada para um engenheiro de suporte de comunicações, quem tem acesso mais informações na análise de chamada do que as comunicações especialista de suporte. Por sua vez, o engenheiro de suporte de comunicações alertando engenheiro de rede para um problema. O engenheiro de rede poderia verificar CQD para ver se um problema geral de sites relacionados poderia ser uma Colaborador causa de problemas de chamada.
   
 Para obter mais informações sobre CQD, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para Business Online](turning-on-and-using-call-quality-dashboard.md) e [dimensões e medidas disponíveis no painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
+
 [Configurar a análise de chamada](set-up-call-analytics.md)
 
 [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+
+[Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online](turning-on-and-using-call-quality-dashboard.md)

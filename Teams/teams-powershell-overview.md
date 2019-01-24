@@ -1,5 +1,5 @@
 ---
-title: Visão geral do PowerShell equipes
+title: Visão Geral do PowerShell do Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,20 +9,24 @@ ms.service: msteams
 description: Saiba como usar os controles do PowerShell para gerenciar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a898a4eca8d96ef2da44f17695472301d6332724
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
+ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625747"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "29442425"
 ---
-# <a name="teams-powershell-overview"></a>Visão geral do PowerShell equipes
+# <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
 
-Microsoft Teams tem um rico conjunto de ferramentas para administradores de TI gerenciar o produto por meio do Microsoft Teams & Skype para o Centro de administração de negócios, controles do PowerShell e APIs do gráfico. Este guia explica como podemos estruturar nossos cmdlets do PowerShell para administradores de TI ser usado e fornece ponteiros a documentação adicional. Observe que as diferentes funções de administrador de equipes têm acesso aos cmdlets diferentes. Para obter mais informações, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
+Microsoft Teams tem um rico conjunto de ferramentas para administradores de TI gerenciar o produto por meio do & Teams Microsoft Skype para o Centro de administração de negócios, controles do PowerShell e APIs do gráfico. Este guia explica como podemos estruturar nossos cmdlets do PowerShell para administradores de TI ser usado e fornece ponteiros a documentação adicional. Observe que as diferentes funções de administrador de equipes têm acesso aos cmdlets diferentes. Para obter mais informações, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>Quais módulos você precisa usar?
 
-Os controles do PowerShell para gerenciar Teams Microsoft estão em dois módulos diferentes do PowerShell: o [módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (pública preview) e o [Skype para o módulo de PowerShell de negócios](https://www.microsoft.com/en-us/download/details.aspx?id=39366). O módulo de PowerShell equipes contém todos os cmdlets que você precisa criar e gerenciar as equipes, enquanto o Skype para o módulo de PowerShell Business contém os controles de gerenciamento de políticas, configurações e outras ferramentas de equipes. Os documentos de referência para controles do PowerShell você saberá qual módulo contiver o cmdlet que você está investigando. (Eventualmente, os dois módulos serão combinados.)
+Os controles do PowerShell para gerenciar equipes estão em dois diferentes módulos do PowerShell: 
+- [Módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.5) (pública preview): O PowerShell de equipes módulo contém todos os cmdlets que você precisa criar e gerenciar equipes.  
+- [Skype para o módulo de PowerShell corporativos](https://www.microsoft.com/en-us/download/details.aspx?id=39366): O Skype para o módulo de PowerShell Business contém os cmdlets para gerenciar diretivas, configurações e outras ferramentas de equipes. 
+
+A documentação de referência para os controles do PowerShell você saberá qual módulo contiver o cmdlet que você está investigando. (Eventualmente, os dois módulos serão combinados.)
 
 ## <a name="what-can-each-admin-role-do"></a>O que cada função de administrador pode fazer?
 
@@ -71,7 +75,7 @@ Os cmdlets de gerenciamento de sua configuração estão no [Skype para o módul
 
 As configurações são partições de memória de configurações mantidas no serviço que não pode ser especificado em um nível de usuário. Configurações sempre se aplicam em toda a organização inteira. A configuração global é a configuração tem efeita apenas em sua organização. Cada tipo de configuração vem com dois cmdlets primários:
 
-- ``Get-Cs<ConfigurationName>``(por exemplo, ``Get-CsTeamsClientConfiguration``): 
+- Por exemplo: ``Get-Cs<ConfigurationName>``. 
 
 - CONJUNTO de comandos (por exemplo, ``Set-CsTeamsClientConfiguration``): definir propriedades na configuração desse tipo. Especifica os parâmetros que você deseja modificar.
    > É possível fazer referência a configuração que você está modificando em uma das duas maneiras: especificando -**Identidade Global**, ou executando por ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.
