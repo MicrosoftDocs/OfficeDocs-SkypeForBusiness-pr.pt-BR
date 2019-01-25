@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: ''
 ms.custom: ''
 description: Saiba como mover os usuários do Skype para Business Online no local.
-ms.openlocfilehash: fadb3a485cac691a97f0786aea78000b6b48c344
-ms.sourcegitcommit: 4dac1994b829d7a7aefc3c003eec998e011c1bd3
+ms.openlocfilehash: 7032e7f2968b7861a7fac199fd8ba949980fe770
+ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27247599"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "29530940"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuários de nuvem para local 
 
@@ -35,7 +35,7 @@ Se necessário, você pode mover um usuário que tiver sido migrado de no local 
 Depois que você mover um usuário da nuvem volta para local:
 
 - O usuário interage com seu Skype para implantação de servidor de negócios para sua funcionalidade. 
-- Todos os contatos que existiam no Skype para Business Online são migrados voltar ao Skype para Business Server. Atualmente, os contatos que estão em equipes não são migrados voltar ao local.
+- Todos os contatos que existiam em qualquer um dos Skype para equipes ou Business Online são migrados para o Skype para Business Server. Os dois conjuntos de contatos são mesclados e, em seguida, migrados de volta para no local.  Além disso, os contatos que estão pré-existente em equipes permanecem na equipes.
 - Se o usuário também usa equipes, eles não terão a capacidade de interoperar com Skype para usuários comerciais, nem eles serão capazes de se comunicarem com usuários em organizações federadas.
 - Reuniões no Skype para Business Online são *não* automaticamente migrada de volta para no local. Os usuários devem tanto reagende suas reuniões ou, se desejado, usam a [Ferramenta de migração de reunião](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
@@ -82,4 +82,4 @@ Como alternativa, para atribuir a outra instância do TeamsUpgradePolicy que nã
 
 ## <a name="see-also"></a>Consulte também
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+Move-CsUser
