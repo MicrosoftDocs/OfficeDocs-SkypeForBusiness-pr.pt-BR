@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77af005130a4e3783f69c908184a8e19b44a9c5
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: f15aeaec8ed894cf25e72c8494aed3ae36070992
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772789"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562617"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso de convidados no Microsoft Teams
 ======================================
@@ -44,7 +44,7 @@ O acesso de convidados é uma configuração em nível de locatário no Microsof
 
 ## <a name="who-is-a-guest"></a>Quem é um convidado?
 
-Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faz parte da sua organização pode ser adicionada como convidado em equipes. Isso significa que qualquer pessoa com uma conta de negócios (ou seja, uma conta do Windows Azure Active Directory) ou a conta de email do consumidor (com Outlook.com, Gmail.com ou outras pessoas) pode participar como um convidado em equipes, com acesso total às equipes e experiências de canal. (Você pode ler sobre as restrições de convidado em [autorizar o acesso de convidado em equipes da Microsoft](teams-dependencies.md)). Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD. 
+Convidado é alguém que não é um funcionário, aluno ou membro da sua organização. Eles não têm uma conta escolar nem de trabalho com a sua organização. Por exemplo, convidados podem incluir parceiros, revendedores, fornecedores ou consultores. Qualquer pessoa que não faz parte da sua organização pode ser adicionada como convidado em equipes. Isso significa que qualquer pessoa com uma conta de negócios (ou seja, uma conta do Windows Azure Active Directory) ou a conta de email do consumidor (com Outlook.com, Gmail.com ou outras pessoas) pode participar como um convidado em equipes, com acesso total às equipes e experiências de canal. (Você pode ler sobre as restrições de convidado em [autorizar o acesso de convidado em equipes da Microsoft](teams-dependencies.md)). Todos os convidados em equipes são abordados pelo mesma conformidade e proteção de auditoria como o restante do Office 365 e podem ser gerenciados com segurança dentro do Azure AD.
 
 ## <a name="why-use-guest-access"></a>Por que usar o acesso de convidado?
       

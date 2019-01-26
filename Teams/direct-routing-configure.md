@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: f89cae3569d5faf09e511439740485b40d91880e
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 565d25566843a507cb875eb96f32531d2ee77caf
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729440"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562819"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -57,7 +57,7 @@ Você pode usar uma sessão do PowerShell conectada ao inquilino emparelhar o SB
 Depois de estabelecer uma sessão PowerShell remota, valide que você pode ver os comandos para gerenciar o SBC. Para validar os comandos, digite ou copiar/colar nas seguintes na sessão PowerShell e pressione Enter: 
 
 ```
-gcm *onlinePSTNGateway*
+Get-Command *onlinePSTNGateway*
 ```
 
 Seu comando vai retornar as funções de quatro mostradas aqui que permitirá que você gerencie o SBC. 

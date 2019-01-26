@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ee02c2d8b8303bb353c2ebf1e30a72cc0e4f17
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349385"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562795"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -165,7 +165,7 @@ Atualizações para equipes são distribuídas automaticamente para seus usuári
 
 ### <a name="monitoring-for-change"></a>Monitoramento da alteração
 
-A primeira etapa no gerenciamento de alterações está monitorando as alterações que estão planejadas para equipes. A melhor fonte para essas alterações de monitoramento é o [Mapa do Office 365](https://products.office.com/business/office-365-roadmap), que lista os recursos que estão atualmente em desenvolvimento, sendo distribuído aos clientes, ou totalmente tenham sido iniciados. Você pode pesquisar recursos específicos de equipes, usando o filtro fornecido ou você pode baixar o mapa para um arquivo do Excel para análise adicional. Para cada recurso, o mapa dá uma breve descrição, juntamente com a data de lançamento previstas.
+A primeira etapa no gerenciamento de alterações está monitorando as alterações que estão planejadas para equipes. A melhor fonte para essas alterações de monitoramento é o [Mapa de 365 da Microsoft](https://www.microsoft.com/microsoft-365/roadmap), que lista os recursos que estão atualmente em desenvolvimento, sendo distribuído aos clientes, ou totalmente tenham sido iniciados. Você pode pesquisar recursos específicos de equipes, usando o filtro fornecido ou você pode baixar o mapa para um arquivo do Excel para análise adicional. Para cada recurso, o mapa dá uma breve descrição, juntamente com a data de lançamento previstas.
 
 No [blog de equipes da Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), pode aprender sobre práticas recomendadas, tendências e notícias sobre atualizações de produto de equipes. Espere localizar as atualizações dos principais recursos para equipes a ser anunciado aqui. Você também pode assinar o blog por meio de um RSS feed. Em seguida, você pode adicionar [o RSS feed](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) diretamente em um canal de equipes, para que todas as notícias importantes é entregue diretamente dentro de equipes.
 

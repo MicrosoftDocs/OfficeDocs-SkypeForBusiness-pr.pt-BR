@@ -13,21 +13,24 @@ MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Descreve como a carga de trabalho de equipes utiliza fluxos do Office 365 em várias topologias.
-ms.openlocfilehash: 7bb107d58290798a2f075f4c789b788c6b5080f2
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 455e90d05a26ce387f916f531991ccaf664860d2
+ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013615"
+ms.lasthandoff: 01/26/2019
+ms.locfileid: "29562803"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Fluxos de chamada de equipes da Microsoft Online
+
+> [!Tip]
+> Assista a sessão de seguir para saber como equipes aproveita sua rede e como planejar melhor conectividade de rede ideal: [Planejamento da rede de equipes](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>Visão geral
 Este documento descreve como a carga de trabalho de equipes utiliza fluxos do Office 365 em várias topologias. Além disso, ele especifica exclusivos fluxos de equipes que são usados para comunicação de mídia ponto a ponto. O documento enumera esses fluxos e descreve suas finalidades e suas redes de origem/rescisão. Por exemplo, o fluxo de X é usado pelo cliente do Office 365 no local para se comunicar com o serviço Office 365 na nuvem, originada de rede do cliente e terminada por um ponto de extremidade na nuvem do Office 365, e Y do fluxo é usado pelo cliente do Office 365 no local para se comunicar com um serviço na Internet, que o Office 365 tem dependência em, originada de rede do cliente e é terminado por um ponto de extremidade na Internet.
 
 O documento tem três seções principais. O primeiro fornece um informações básicas, como redes (que podem atravessar fluxos do Office 365), o tipo de tráfego, diretrizes de conectividade de rede do cliente para pontos de extremidade de serviço Office 365, interoperabilidade com componentes de terceiros e entidades que são usados pelas equipes para selecionar os fluxos de mídia. A segunda ilustra o uso desses fluxos em várias topologias. Para cada topologia, ele enumera todos os fluxos de suportados e ilustra como esses fluxos são usados por meio de vários casos de uso. Para cada caso de uso, ele descreve a sequência e seleção de fluxos por meio de um diagrama de fluxo. A terceira descreve como esses fluxos são utilizados quando Express rota será implantada para otimização, ilustrada por meio de uma topologia simples.
 
-## <a name="background"></a>Plano de fundo
+## <a name="background"></a>Segundo plano
 ### <a name="network-segments"></a>Segmentos de rede
 **Rede do cliente**: esse é o segmento de rede que faz parte da sua rede geral que você controlar e gerenciar. Isso inclui todas as conexões de cliente em escritórios de cliente, se com ou sem fio, entre prédios, em centros de dados local e as conexões estabelecidas com o Internet provedores, rota Express ou qualquer outro privada correspondência. 
 
