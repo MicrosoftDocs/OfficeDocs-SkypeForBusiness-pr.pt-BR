@@ -12,12 +12,12 @@ description: Orientações práticas para a implantação dos recursos de Cloud 
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085f2ff382c33f6914454fd1633054fd3e4602ca
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015329"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594194"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -61,7 +61,7 @@ Por padrão, todos na empresa podem criar conteúdo em Stream, depois que o Stre
 
 Se um administrador do Microsoft Stream [Configurar a política de diretriz da empresa](https://docs.microsoft.com/stream/company-policy-and-consent) e requer funcionários aceitar essa política antes de salvar o conteúdo, os usuários devem fazer isso antes de gravação no Teams da Microsoft. Antes de você distribuir o recurso de gravação na organização, certifique-se de usuários têm consentiu à política.
 
-### <a name="enabledisable-cloud-recording-for-users"></a>Habilitar/desabilitar nuvem para usuários de gravação
+### <a name="turn-on-or-turn-off-cloud-recording"></a>Ativar ou desativar a nuvem de gravação
 
 Use a configuração AllowCloudRecording no TeamsMeetingPolicy no PowerShell equipes para controlar se as reuniões de um usuário poderão ser registradas ou não. Saiba mais sobre como gerenciar TeamsMeetingPolicy com o Office 365 PowerShell [aqui](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
@@ -86,7 +86,7 @@ Para alterar o valor de AllowCloudRecording na Política Global, use o seguinte 
 |      Eu quero gravação para ser desabilitados para a maioria dos usuários, mas ativar seletivamente a usuários específicos que poderão gravar       | <ol><li>Confirme CsTeamsMeetingPolicy Global tem AllowCloudRecording = False<li>A maioria dos usuários que tiverem sido concedidas a Global CsTeamsMeetingPolicy OR uma das diretivas de CsTeamsMeetingPolicy com AllowCloudRecording = False<li>Todos os outros usuários receberam uma das políticas CsTeamsMeetingPolicy com AllowCloudRecording = True <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                        |
 
-### <a name="enabledisable-recording-transcription-for-users"></a>Habilitar/desabilitar transcrições de gravação para usuários
+### <a name="turn-on-or-turn-off-recording-transcription"></a>Ativar ou desativar a transcrição de gravação
 
 Quando os usuários registrar suas reuniões de equipes, eles podem confirmar se uma transcrição deve ser gerada automaticamente após a reunião está registrada. Se os administradores tem desabilitado o recurso de transcrição para que o organizador da reunião e o iniciador de gravação, o iniciador de gravação não obterá uma opção transcrever as gravações de reuniões.
 

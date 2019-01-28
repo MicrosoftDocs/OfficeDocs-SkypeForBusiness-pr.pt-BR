@@ -1,5 +1,5 @@
 ---
-title: Enterprise testar o plano para o sistema telefônico com planos de chamada no Microsoft Teams
+title: Plano de teste corporativo para Sistema de Telefonia com Planos de Chamadas no Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995635ed8a7f3c9a9a5d4291652208246c3f9697
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694786"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594058"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definir e documentar o seu sistema telefônico com planos de chamada no plano de teste de equipes para empresas 
 ============================================================================================
@@ -72,8 +72,8 @@ Como se preparar para avaliar o sistema telefônico com recursos de chamada plan
 <a name="define-phone-system-with-calling-plans-feature-requirements"></a>Definir o sistema telefônico com planos de chamar os requisitos de recurso 
 ------------------------------------------------------------
 
-Como parte da definição de sistema telefônico com planos de chamar os requisitos de recurso para usuários no escopo, uma das primeiras etapas que devem ser concluída durante a fase de Envision foi a [Análise de pessoa](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#assess-environment-and-evaluate-adoption-readiness), onde você definiu seu sistema telefônico com planos de chamada pessoa e cenários.
-Com essa linha de base identificada, a próxima etapa é avaliar o mapa de pública mais recente equipes para determinar:
+Como parte da definição de sistema telefônico com planos de chamar os requisitos de recurso para usuários no escopo, consulte [Sistema telefônico com planos de chamada](calling-plan-landing-page.md).
+Em seguida, avalie o mapa de pública mais recente equipes para determinar:
 
 -   Qual sistema de telefone com recursos de planos de chamada que você vai implantar para usuários no escopo.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 335d5baac6f13d899b8d6f9875a419d86da1b6af
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cdcf5bd3da33463d39f8681a41d7299f3d66e727
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374313"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593930"
 ---
 # <a name="prepare-my-service"></a>Preparar o meu serviço
 
@@ -41,7 +41,7 @@ As listas de verificação a seguintes orientam você pelas etapas de implementa
 As tarefas e atividades nestas listas de verificação são core "tarefas pendentes" itens que se aplicam a todas as implantações de recursos de voz com as equipes de nuvem. Você pode personalizar as listas de verificação para incluir as atividades e tarefas que são específicas para sua própria jornada de equipes.
 
 >[!NOTE]
->Estas diretrizes se concentra somente nos planos de chamada, conferência de áudio e roteamento direto. Se estiver familiarizado com as equipes, analise a [Visão geral das equipes da Microsoft](teams-overview.md). Para obter orientações gerais para planejar a implantação de equipes, consulte o [Guia de planejamento de equipes da Microsoft](quick-start-enable-teams.md).
+>Estas diretrizes se concentra somente nos planos de chamada, conferência de áudio e roteamento direto. Se estiver familiarizado com as equipes, analise a [Visão geral das equipes da Microsoft](teams-overview.md). Para obter orientações gerais para planejar a implantação de equipes, comece com [Deploy chat, equipes, canais e aplicativos em equipes da Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Use as listas de verificação fornecidas para rastrear o status de cada atividade individual e a tarefa e ter a certeza de que você ainda não ignorados nenhuma etapa crítica. Cada atividade inclui uma descrição detalhada de ações necessárias e referências para obter informações adicionais que você pode usar para concluir essa atividade.
 
@@ -50,7 +50,7 @@ Embora seja recomendável que você siga as listas de verificação em ordem, a 
 Quando você estiver inclusão de usuários em uma base por site, é altamente recomendável que você use o [Site Playbook de habilitação para voz (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como um guia suplementar estas listas de verificação.
 
 >[!NOTE]
->A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você usar o Centro de administração do Office 365 e equipes & Skype para Business Admin Center para definir essas configurações.
+>A maioria das definições de configuração são comuns entre equipes e Skype para negócios Online. Você pode usar o Centro de administração do Office 365 e as equipes & Skype para Business Admin Center para definir essas configurações.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela supervisão a conclusão das listas de inclusão de verificação?</li></ul></td></tr>
@@ -114,18 +114,18 @@ Para obter informações adicionais, consulte:
 
 - [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
 
-- [Técnicas de planejamento para o sistema telefônico com a chamada de planos](phone-system-with-calling-plans.md#technical-planning-for-phone-system-with-calling-plans)
+- [Técnicas de planejamento para o sistema telefônico com a chamada de planos](calling-plan-landing-page.md)
 
 - [Configure planos de chamar para Skype para negócios e Teams da Microsoft](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 
-- [Planejar o roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
+- [Planejar o Roteamento Direto](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
-- [Configurar o roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [Configurar o Roteamento Direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
 
 ### <a name="execute-the-test-plan"></a>Executar o plano de teste
 
 [//]: # (Editar okey? "Usuário" parecia um pouco ambíguo para mim.)
-Depois que o ambiente do usuário e o serviço tiverem sido configurados, a última etapa de teste inclui a execução de plano de teste com foco na validação de funcionalidade e recursos. 
+Depois que o ambiente do usuário e o serviço tiverem sido configurados, a última etapa de teste inclui a execução de plano de teste com foco na validação de funcionalidade e recursos. 
 
 **Serviços de audioconferência testes pré-requisitos e suposições para sites e usuários no escopo:**
 
@@ -137,7 +137,7 @@ Depois que o ambiente do usuário e o serviço tiverem sido configurados, a últ
 
 -   A lista de serviços de audioconferência dedicado e compartilhado discar números com preferência de idioma foram identificados e configurados.
 
--   [Créditos de comunicações](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (se necessário) tiverem sido configurados para sua organização.
+-   [Créditos de comunicações](what-are-communications-credits.md) (se necessário) tiverem sido configurados para sua organização.
 
 -   Configurações de ponte de conferência de áudio conferência foram identificados e configurado (tamanho do PIN, notificações de entrada/saída, preferência de notificação de habilitação).
 
@@ -155,7 +155,7 @@ Depois que o ambiente do usuário e o serviço tiverem sido configurados, a últ
 
 -   Números de telefone a ser atribuído aos usuários foram adquiridos ou migrados para o Microsoft e estão disponíveis no portal do inquilino.
 
--   [Créditos de comunicações](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (se necessário) tiverem sido configurados para sua organização.
+-   [Créditos de comunicações](what-are-communications-credits.md) (se necessário) tiverem sido configurados para sua organização.
 
 -   Diretivas de usuário de Inquilino e configurações de plano de discagem que fundamentam os cenários de planos de chamar foram identificadas, configuradas e aplicadas.
 

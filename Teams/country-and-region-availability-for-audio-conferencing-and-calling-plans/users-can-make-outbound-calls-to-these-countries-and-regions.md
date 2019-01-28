@@ -8,7 +8,6 @@ ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service:
-- skype-for-business-online
 - msteams
 ms.collection:
 - Adm_Skype4B_Online
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tópico contém todos os países/regiões que os usuários podem fazer chamadas de saída para que tenham um plano de chamada.
-ms.openlocfilehash: 987379350d2605702d0e9e080f6a7a3a6d3a0383
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 6843d06d99e049cdd7576c4c5618c1f5d0297133
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576572"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594322"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas para estes países e regiões
 
@@ -56,14 +55,14 @@ ms.locfileid: "25576572"
 |Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Nevis |Uzbequistão  |
 |Bangladesh |Gialtar |Laos |Montserrat | Santa Lúcia |Cidade do Vaticano  |
 |Barbados |Grécia |Letônia |Marrocos |São Vicente e Granadinas |Venezuela   |
-|Bielorússia |Groenlândia |Líbano |Moçambique | San Marino |Vietnã  |
-|Bélgica |Granada |Lesoto |Myanmar | Arábia Saudita | Ilhas Virgens (Britânicas) |
+|Belarus |Groenlândia |Líbano |Moçambique | San Marino |Vietnã  |
+|Bélgica |Granada |Lesoto |Myanmar | Saudi Arabia (المملكة العربية السعودية) | Ilhas Virgens (Britânicas) |
 |Belize |Guadalupe |Líbia |Namíbia |Senegal | Ilhas Virgens (Estados Unidos)  |
 |Benim |Guam |Liechtenstein |Nepal | Sérvia | Ilhas Wallis e Futuna  |
 |Bermuda |Guatemala |Lituânia |Países Baixos |Cingapura |Iêmen |
 |Butão |Guiné |Luxemburgo |Antilhas Holandesas |Eslováquia |Zâmbia  |
 |Bolívia |Guiana| |Nova Caledônia |Eslovênia |Zimbábue |
-|Bósnia e Herzegovina |Haiti ||Nova Zelândia |África do Sul | 
+|Bosnia and Herzegovina (Bosna i Hercegovina) |Haiti ||Nova Zelândia |África do Sul | 
 |Botsuana |Honduras ||Nicarágua |Espanha |
 |Brasil |Hong-Kong ||Níger |Sri Lanka | 
 |Bunei Darussalam |Hungria ||Nigéria |Saint-Pierre e Miquelon | 

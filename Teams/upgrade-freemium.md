@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: cb8770b0929b46aa0e98e1429a11874756ed07e1
-ms.sourcegitcommit: d9059e8cb0a9b968ee16508f6bfcb5d949575590
+ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27733199"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594226"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Atualizar o Microsoft Teams gratuitamente para a versão de assinatura do Office 365
 ======================================================
@@ -86,7 +86,7 @@ Insira o endereço de email que você usa para entrar em equipes e, em seguida, 
 
 ## <a name="whats-next"></a>Qual é a próxima?
 
-Quando a atualização for concluída, consulte [Introdução ao equipes da Microsoft](get-started-with-teams-landing-page.md) para a primeira etapas e [Adotar as equipes da Microsoft](adopt-microsoft-teams-landing-page.md) para uma abordagem em fases para a adoção de equipes em toda a organização.
+Quando a atualização for concluída, consulte [Introdução ao equipes da Microsoft](get-started-with-teams-quick-start.md) para a primeira etapas e [Adotar as equipes da Microsoft](adopt-microsoft-teams-landing-page.md) para uma abordagem em fases para a adoção de equipes em toda a organização.
 
 ## <a name="more-information"></a>Mais informações
 

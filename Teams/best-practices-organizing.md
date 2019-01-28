@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c619f8d053d0d06b9b5494d812eea541869922
-ms.sourcegitcommit: 72afa227b917f9fabd278fc7bea9d515b5d53def
+ms.openlocfilehash: a4a839e7f903e232a3ebfe76056cfb97f2bc8219
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26670927"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594106"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Boas práticas para organizar equipes no Microsoft Teams
 ======================================================
@@ -51,7 +51,7 @@ O **canal geral** é criada para você quando você criar a equipe por padrão. 
 -  Usá-lo para comunicados ou configure o conector de notícias do SharePoint para postar seus relatórios de status moderno nesse canal.  
 -  Para as equipes de novo ou único propósito, talvez seja o único canal no início conforme você decidir como as equipes podem melhor suporte aos seus objetivos.
 
-No momento, não é possível excluir ou remover o canal Geral dos favoritos. Ao nomear canais, lembre-se de que os canais serão ordenados por ordem alfabética após o canal Geral.  Em equipes com muitos canais use o recurso de "Favorito um canal" para controlar os canais que você consulte automaticamente quando você navegar para a equipe. 
+No momento, não é possível excluir ou remover o canal Geral dos favoritos. Ao nomear canais, lembre-se de que os canais serão ordenados por ordem alfabética após o canal Geral. Em equipes com muitos canais use o recurso de "Favorito um canal" para controlar os canais que você consulte automaticamente quando você navegar para a equipe. 
 
 Saiba mais sobre o [funcionamento no canais](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) com essas dicas rápidas para usuários finais. 
 

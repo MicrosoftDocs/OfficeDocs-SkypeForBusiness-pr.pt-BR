@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 702b126ac065b3fd84737cd0a6bb00f47c6d4991
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694755"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593962"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -135,7 +135,7 @@ A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que,
 >[!NOTE]
 > Foi implementado um mecanismo de fallback de modo que a caixa postal do Sistema de Telefonia possa reenviar mensagens usando o protocolo SMTP. Isso quer dizer que os usuários com uma caixa de correio em um sistema de email de terceiros receberá suas mensagens da caixa postal. Esse mecanismo não inclui o tempo de atividade de serviço garantido ou outros recursos de caixa postal, como alterar a saudação da caixa postal.
 
-Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [correio de voz de PBX do Azure suporte para o Exchange Server](https://docs.microsoft.com/MicrosoftTeams/phone-system-with-calling-plans#licensing-for-calling-plans).
+Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [Sistema telefônico com planos de chamada](calling-plan-landing-page.md).
 
 <br>
 

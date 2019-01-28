@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed98c1d26d6116d95e91030f57e92af9ebae61e
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: c394a2259223dfb7fc5ab233a2de604af2174d13
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562593"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593906"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -170,7 +170,7 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                 <div class="card">
                     <div class="cardText">
                         <h3>Implantar o plano &</h3>
-                         <p><a href="quick-start-enable-teams.md">Início rápido: Guia de Planejamento do Microsoft Teams</a></p>
+                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">Implantar o bate-papo, equipes, canais e aplicativos no Microsoft Teams</a></p>
                          <p><a href="http://aka.ms/teams-clients">Vídeo: Cliente desktop do Windows de equipes</a></p>
                          <p><a href="http://aka.ms/teams-governance">Vídeo: Governança, gerenciamento e ciclo de vida no Microsoft Teams</a></p>
                     </div>

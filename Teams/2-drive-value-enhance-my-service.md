@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6aeca0892bb3ccd07c5d4dd60508424845b4c
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532165"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593882"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
@@ -31,7 +31,7 @@ Uma ótima maneira de certificar-se de que sempre obterá o máximo de seus serv
 
 Além disso, porque as organizações crescem e alteradas, você deve levar o tempo para rever e atualizar seus casos de uso de negócios em intervalos regulares para certificar-se de que o serviço é configurado para atender às necessidades de atual da sua organização.  Certifique-se de que você está obtendo comentários no mundo real do seus usuários e campeões internos, estabelecendo canais de comentários na sua organização. Essas podem ser conversas informais, reuniões regulares ou por meio de um equipes de canal ou da comunidade do Yammer. 
 
-Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para fazê-la à direita. Rever nossos fases de implantação (https://docs.microsoft.com/MicrosoftTeams/quick-start-enable-teams) e aplicar a mesma orientação ponta a ponta. Quando você faz alterações pequenas e incrementais, é improvável que você precisará concluir todas as atividades e tarefas integralmente, mas você deve ter certeza avaliar cada atividade e a tarefa ao longo do percurso para oferecer a mesmo as chances em um resultado bem-sucedido.
+Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para fazê-la à direita. Rever [Deploy chat, equipes, canais e aplicativos em equipes da Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) e aplicar a mesma orientação ponta a ponta. Quando você faz alterações pequenas e incrementais, é improvável que você precisará concluir todas as atividades e tarefas integralmente, mas você deve ter certeza avaliar cada atividade e a tarefa ao longo do percurso para oferecer a mesmo as chances em um resultado bem-sucedido.
 
 
 <table>

@@ -12,13 +12,16 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10de89c43a653cd090f313ec368bde42bd774b03
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 64cb77116d55d9ddf9c084bff2205ecb4ba8aaca
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530556"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29593890"
 ---
+> [!NOTE]
+> Revise as seguintes informações para entender o bate-papo, equipes, canais, apps & em equipes. Em seguida, vá para [implantar chat, equipes, canais, apps & em equipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para percorrer a uma lista de decisões importantes para a distribuição de equipes.
+
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
 
@@ -57,13 +60,13 @@ Siga três minutos, fazer check-out este ir para guia vídeo para proprietários
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
-Se você for um administrador do Microsoft Teams no Office 365, você tem acesso às configurações de todo o sistema no equipes & Skype para Business Admin Center. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode habilitar um canal padrão, “Geral”, para anúncios, discussões e recursos de toda a equipe. Esse canal aparecerá para todas as equipes.
+Se você for um administrador do Microsoft Teams no Office 365, você tem acesso às configurações de todo o sistema no & equipes Skype para Business Admin Center. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode habilitar um canal padrão, “Geral”, para anúncios, discussões e recursos de toda a equipe. Esse canal aparecerá para todas as equipes.
 
 Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Office 365 podem aperfeiçoá-lo com a funcionalidade do Teams.
 
 Uma das principais atividades de planejamento precoce para envolver os usuários no Teams é ajudar as pessoas a pensar e a entender como o Teams pode melhorar a colaboração no seu dia a dia. Converse com pessoas e ajudá-los a selecionar onde eles estão atualmente colaborando fragmentados maneiras de cenários de negócios.  Reúna essas pessoas em um canal com as guias relevantes que ajudarão na execução de seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
 
-<a name="examples-teams"></a>Exemplos de equipes 
+<a name="example-teams"></a>Equipes de exemplo 
 --------------
 
 Seguem abaixo alguns exemplos funcionais de como diferentes tipos de usuários podem abordar a configuração de suas equipes, canais e aplicativos (guias/conectores/bots); isso pode ser útil para ajudar a iniciar uma conversa sobre o Microsoft Teams com a sua comunidade de usuários. Enquanto você pensa sobre como implementar o Microsoft Teams na sua organização, lembre-se de que você pode fornecer orientações de como estruturar suas equipes, apesar de os usuários terem controle de como podem se organizar sozinhos. São apenas exemplos para ajudar as equipes a começar a pensar nas possibilidades.

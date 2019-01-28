@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b77f53398eda22ec2f3b7313d8c2b641228c5b5e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d0b6940a2e58a0a459c6f7858c0d7bd19f53ca39
+ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349406"
+ms.lasthandoff: 01/28/2019
+ms.locfileid: "29594410"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -72,7 +72,7 @@ As equipes oferece compatível Skype para a funcionalidade de negócios — como
 
 - [Visão geral do Microsoft Teams](Teams-overview.md)
 - [Saiba mais sobre as equipes e canais](teams-channels-overview.md)
-- [Concluir planejamento técnico](quick-start-enable-teams.md#step-3-complete-technical-planning)
+- [Concluir planejamento técnico](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [Gerenciar sistemas de sala do Skype](https://aka.ms/srsdocs)
 
 [Retornar ao topo](#about-upgrade-basic)
