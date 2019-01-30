@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
-ms.openlocfilehash: 15513b426b37f01749c6253021ebb619385fb61e
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789203"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635720"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
@@ -56,16 +56,16 @@ Um Skype para ambiente híbrido de negócios com conectividade PSTN fornece flex
 
 
 |**Objeto de usuário criado no**  |**Skype do usuário para o provedor de serviços corporativos**|**Cliente do usuário**|**Opção de voz**|**Compatível**|
-|---------|---------|---------|---------|--------|
+| ------------ | --------- | --------- | --------- | -------- |
 |No AD local| No local |Skype for Business   | Enterprise Voice   |Sim|
 |No AD local|Online| Skype for Business  | Conectividade de voz híbrida   |Sim |
 |No AD local|Online |Microsoft Teams |Direcionar circulação  |Sim |
-|**Combinações sem suporte**    | |         |         |
+|**Combinações sem suporte**    | |         |         |      |
 |Azure AD.| No local/online | Skype para equipes de negócios/Microsoft|Conectividade/Direct roteamento de voz de voz/híbrido de empresa  |Não, o objeto de usuário deve ser criado no AD local pela primeira vez |
 |No AD local  |No local| Microsoft Teams| Conectividade/Direct roteamento de voz de voz/híbrido de empresa   |Não, o cliente Microsoft Teams não é suportado com Skype local for Business |     
-    
-| No AD local | Online | Skype for Business | Direcionar circulação | Não, roteamento direto não é suportado com Skype para o cliente de negócios e usuário deve estar habilitado para o Enterprise Voice no Skype para negócios primeiro | |   |         |         |         ||
+|No AD local  |Online |Skype for Business  | Direcionar circulação  |Não, roteamento direto não é suportado com Skype para o cliente de negócios e usuário deve estar habilitado para o Enterprise Voice no Skype para negócios primeiro  |
+
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Instrução de suporte para o ambiente híbrido com PSTN
 
-Para todos os usuários, o usuário objeto **deve** ser criado no local AD e sincronizadas com o Azure AD usando a ferramenta de conectar do Azure AD. Habilitando usuários para equipes/Skype para o Business **não é suportado** se o objeto de usuário é criado diretamente no Azure AD em uma configuração híbrida. Para novos usuários, como uma nova contratação, que será habilitado diretamente para equipes, o usuário deve ser habilitado para Skype para uso local Skype para as ferramentas de gerenciamento de negócios de negócios. Criando usuários no Skype online para equipes ou comercial sem primeiro ativá-las em pool de local com o Enterprise Voice **não é suportada**. Consulte [Este artigo](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) para obter mais detalhes sobre como habilitar usuários para Skype para negócios na configuração híbrida.
+Para todos os usuários, o usuário objeto **deve** ser criado no local AD e sincronizadas com o Azure AD usando a ferramenta de conectar do Azure AD. Habilitando usuários para equipes/Skype para o Business **não é suportado** se o objeto de usuário é criado diretamente no Azure AD em uma configuração híbrida. Para novos usuários, como uma nova contratação, que será habilitado diretamente para equipes, o usuário deve ser habilitado para Skype para negócios uso local Skype para as ferramentas de gerenciamento de negócios. Criando usuários no Skype online para equipes ou comercial sem primeiro ativá-las em pool de local com o Enterprise Voice **não é suportada**. Consulte [Este artigo](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises#special-considerations-when-enabling-users-for-enterprise-voice-on-premises) para obter mais detalhes sobre como habilitar usuários para Skype para negócios na configuração híbrida.

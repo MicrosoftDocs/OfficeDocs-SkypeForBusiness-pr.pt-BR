@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: f4d66c58066cd5547a8692066763675006d97920
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326695"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635750"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Adicionar, alterar ou remover um endereço de emergência para sua organização
 
@@ -53,6 +53,8 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
     
     > [!IMPORTANT]
     > [!IMPORTANTE] Validar um endereço cívico envolve certificar-se de que ele é legítimo e está formatado corretamente. É possível que um endereço de emergência parcialmente correto, tais como se você digitado incorretamente o nome da cidade, talvez ainda passar validação. Mesmo que tenha sido escrito errado e aprovado na validação, a combinação do nome errado da cidade com outras partes corretas do endereço é suficiente para encaminhar a chamada para o centro de despacho de emergência apropriado. 
+    
+    > Observação: Bélgica, França, Alemanha, Irlanda, países baixos e Espanha é importante entender que para ativar com êxito um número de telefone no Office 365 da configuração de endereço no local de emergência, que será usado para adquirir o número, devem coincidir com o código de área do número de telefone.
   
     Se o endereço não puder ser validado, você pode enviar uma solicitação de validação manual clicando em **Enviar uma solicitação de validação** se estiver tentando validar um endereço dos Estados Unidos, ou clique em **Abrir uma solicitação de serviço para obter ajuda com a validação de endereço** se você estiver fora dos Estados Unidos.
     

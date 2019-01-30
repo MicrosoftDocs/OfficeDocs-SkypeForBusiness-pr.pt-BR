@@ -12,12 +12,12 @@ ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67a641898ca305662b5ea4b06bf772146a19a9f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
+ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595352"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29635687"
 ---
 # <a name="microsoft-teams-training"></a>Treinamento de equipes da Microsoft
 
@@ -116,7 +116,7 @@ Verificar a fazer perguntas - vai podemos manter atualizar esta lista para que v
                 <div class="card">
                     <div class="cardText">
                         <h3>Certificação do especialista de adoção</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">Em de 2019 inicial de janeiro, podemos lançada um curso de certificação do Microsoft Service adoção Specialist, apresentando equipes, foi projetado para ensinar como com êxito incentivar a adoção dos serviços da Microsoft em sua empresa.</a></p>
+                        <p><a href="http://aka.ms/AdoptionCert">Em de 2019 inicial de janeiro, podemos lançou um curso de certificação do Microsoft Service adoção Specialist, apresentando equipes. Ele vai ensinam como incentivar a adoção dos serviços da Microsoft em seu org.</a></p>
                     </div>
                 </div>
             </div>
