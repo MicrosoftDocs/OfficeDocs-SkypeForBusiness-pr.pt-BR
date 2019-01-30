@@ -3,7 +3,7 @@ title: Introdução à atualização do Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.date: 01/14/2019
+ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc428a6e4e256a38248e66a99d5a95b668e5eeb6
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
+ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562756"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "29662466"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introdução à atualização do Microsoft Teams
 
@@ -34,6 +34,8 @@ A Microsoft incentiva os clientes a atualizar equipes mais depressa viável para
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Como é Microsoft ajudando clientes com sua atualização às equipes? 
 
 A Microsoft compromete-se para o sucesso e está fornecendo orientações robusta criadas a partir de uma estrutura de atualização de sucesso comprovada e de ponta a ponta projetada para ajudá-lo a planejar e executar a atualização para equipes. Nossa orientação foi projetada para cada estágio da atualização jornada, quer você é apenas Introdução ao planejamento, equipes junto com Skype para os negócios, já estiver em execução ou pronto para atualizar para equipes.
+
+Para ajudar a facilitar o planejamento de atualização e a implementação, a Microsoft está hospedando complementar treinamento online, projetado para se familiarizar com nossa estrutura de atualização rapidamente, compartilhar ideias sobre Preparando os usuários para a atualização e orientar você o várias opções de coexistência sua organização pode levar em sua jornada às equipes. Inscreva-se para uma sessão de visão geral de planejamento de atualização: [https://aka.ms/Upgrade101](https://aka.ms/upgrade101).
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Por que eu preciso atualizar orientação? Não é possível eu apenas excluir/descomissionar Skype para os negócios? 
 
