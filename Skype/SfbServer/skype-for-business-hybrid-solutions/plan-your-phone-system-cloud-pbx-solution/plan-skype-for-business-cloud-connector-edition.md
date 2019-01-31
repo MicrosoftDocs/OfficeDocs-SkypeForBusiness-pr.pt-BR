@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676475"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686505"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
 
 Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
 
-Nuvem conector Edition pode ser a solução ideal para sua organização se você ainda não tiver um servidor existente do Lync ou Skype para implantação de servidor de negócios. Se você ainda está investigando que o sistema telefônico na solução do Office 365 é adequado para sua empresa, consulte [planejar seu sistema telefônico na solução do Office 365 (nuvem PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+Nuvem conector Edition pode ser a solução ideal para sua organização se você ainda não tiver um servidor existente do Lync ou Skype para implantação de servidor de negócios. Se você ainda está investigando que o sistema telefônico na solução do Office 365 é adequado para sua empresa, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Este documento descreve os requisitos de edição do conector de nuvem e as topologias com suporte e ajuda você a planejar sua implantação de edição do conector de nuvem. Certifique-se de ler este tópico antes de configurar seu ambiente do conector de nuvem. Quando você estiver pronto para implantar e configurar a edição do conector de nuvem, consulte [Configurar e gerenciar Skype do conector de nuvem Business Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -262,7 +262,7 @@ Antes de implantar Edition do conector de nuvem, certifique-se de que ter o segu
 - Um locatário do Office 365 com necessários todos os registros DNS e SRV criado.
 
     > [!IMPORTANT]
-    > Ao integrar seu locatário com nuvem conector Edition, o uso do sufixo de domínio padrão,. onmicrosoft.com, como um domínio SIP para sua organização não é suportada. > Você não pode usar o sip. \<Nome de domínio\> como o nome de seu acesso de borda do conector de nuvem proxy interface porque este registro DNS é usado pelo Office 365.
+    > Ao integrar seu locatário com nuvem conector Edition, o uso do sufixo de domínio padrão,. onmicrosoft.com, como um domínio SIP para sua organização não é suportada. gt _ não é possível usar sip. \<Nome de domínio\> como o nome de seu acesso de borda do conector de nuvem proxy interface porque este registro DNS é usado pelo Office 365.
 
 - Um certificado para a Borda externa obtido de uma Autoridade de Certificação (CA) pública
 
@@ -340,8 +340,8 @@ Essa tabela mostra as portas e os intervalos de portas para a habilitação da c
 
 |**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de Destino**|
 |:-----|:-----|:-----|:-----|
-|Componente de mediação do conector de nuvem  <br/> |SBC/Gateway de PSTN:  <br/> |Qualquer um  <br/> |TCP 5060\*\*  <br/> |
-|SBC/Gateway de PSTN:  <br/> |Componente de mediação do conector de nuvem  <br/> |Qualquer um  <br/> |TCP 5068/TLS 5067  <br/> |
+|Componente de mediação do conector de nuvem  <br/> |SBC/Gateway de PSTN:  <br/> |Qualquer  <br/> |TCP 5060\*\*  <br/> |
+|SBC/Gateway de PSTN:  <br/> |Componente de mediação do conector de nuvem  <br/> |Qualquer  <br/> |TCP 5068/TLS 5067  <br/> |
 |Componente de mediação do conector de nuvem  <br/> |SBC/Gateway de PSTN:  <br/> |UDP 49 152-57 500  <br/> |Qualquer\*\*\*  <br/> |
 |SBC/Gateway de PSTN:  <br/> |Componente de mediação do conector de nuvem  <br/> |Qualquer\*\*\*  <br/> |UDP 49 152-57 500  <br/> |
 |Componente de mediação do conector de nuvem  <br/> |Clientes internos  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50.000-50.019  <br/> (Opcional)  <br/> |
@@ -380,12 +380,12 @@ Nesse caso, todo o tráfego de mídia para a internet irá fluir através da bor
 |**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
 |Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 80  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |UDP 53  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer um  <br/> |TCP 53  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 53  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
-|Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
+|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
 |Qualquer um  <br/> |Interface externa da borda de conector de nuvem  <br/> |UDP 3478  <br/> |UDP 3478  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |TCP 50.000-59.999  <br/> |TCP 443  <br/> |
 
@@ -399,16 +399,16 @@ Nesse caso, todo o tráfego de mídia para o ponto de extremidade na internet po
 **Firewall externo - configuração recomendada**
 
 
-|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de Destino**|
+|**IP de origem**|**IP de destino**|**Porta de origem**|**Porta de destino**|
 |:-----|:-----|:-----|:-----|
-|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer um  <br/> |TCP(MTLS) 5061  <br/> |
+|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP(MTLS) 5061  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 80  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |UDP 53  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer um  <br/> |TCP 53  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |Qualquer  <br/> |TCP 53  <br/> |
 |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |TCP 50.000-59.999  <br/> |Qualquer  <br/> |
-|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |UDP 3478; UDP 50,000-59,999  <br/> |Qualquer um  <br/> |
-|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |TCP 443; TCP 50,000-59,999  <br/> |
+|Interface externa da borda de conector de nuvem  <br/> |Qualquer  <br/> |UDP 3478; UDP 50,000-59,999  <br/> |Qualquer  <br/> |
+|Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |TCP 443; TCP 50,000-59,999  <br/> |
 |Qualquer  <br/> |Interface externa da borda de conector de nuvem  <br/> |Qualquer um  <br/> |Requisitos de conectividade com a Internet do host  <br/> |
 
 ### <a name="host-internet-connectivity-requirements"></a>Requisitos de conectividade com a Internet do host
@@ -705,7 +705,7 @@ O Cloud Connector 2.1 e versões posteriores dão suporte ao monitoramento do Cl
 
 Para obter mais informações, consulte:
 
-- [Planejar sua solução de Sistema de Telefonia do Office 365 (Cloud PBX)](plan-your-phone-system-cloud-pbx-solution.md)
+- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

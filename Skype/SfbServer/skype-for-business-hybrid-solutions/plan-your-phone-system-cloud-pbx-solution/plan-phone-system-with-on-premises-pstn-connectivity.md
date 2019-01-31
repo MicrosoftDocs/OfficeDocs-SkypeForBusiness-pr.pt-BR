@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
-ms.openlocfilehash: 4614b3fdc62d8a51323ee7c9f261bec3d6cea6c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 978da546961188c54c7e08e2ed140f8d01986e44
+ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531599"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "29686469"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server
 
 Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
 
-Esse conteúdo é relevante, se você já tiver Skype para Business Server ou o Lync Server 2013 implantados no local. Para outros cenários, consulte [planejar seu sistema telefônico na solução do Office 365 (nuvem PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+Esse conteúdo é relevante, se você já tiver Skype para Business Server ou o Lync Server 2013 implantados no local. Para outros cenários, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  O sistema telefônico no Office 365 com uma conectividade PSTN local permite que você aproveite os recursos de sistema telefônico (nuvem PBX) para seus usuários. Isso pode ajudar nos seguintes cenários:
 
@@ -105,12 +105,12 @@ Além disso você deve garantir que o seguinte:
     > [!NOTE]
     > Você deve usar a versão 1.0.9125.0 ou posterior do AAD Connect. Se você estiver usando uma versão anterior das ferramentas do AAD Connect ou do DirSync, atualize para a versão com suporte. Você pode atualizar sua instalação atual e manter qualquer regra personalizada que você tenha definido em seu ambiente. 
 
-- **Configure sua implantação híbrida** Se todos os seu Skype para usuários comerciais estão atualmente hospedagem tanto online ou no local, ou se você possui atualmente uma mistura, você deve concluir as etapas para configurar uma implantação híbrida do Skype para Business Server ou o Lync Server 2013, conforme descrito em [Deploy híbrida conectividade entre Skype para Business Server e do Skype para Business Online](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Para mais informações de plano de fundo em implantações híbridas, consulte [Planejar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
+- **Configure sua implantação híbrida** Se todos os seu Skype para usuários comerciais estão atualmente hospedagem tanto online ou no local, ou se você possui atualmente uma mistura, você deve concluir as etapas para configurar uma implantação híbrida do Skype para Business Server ou o Lync Server 2013, conforme descrito em [Deploy híbrida conectividade entre Skype para Business Server e Office 365](../../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md). Para mais informações de plano de fundo em implantações híbridas, consulte [Planejar a conectividade híbrida entre Skype para Business Server e Office 365](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md). 
 
     Se você estiver usando o Lync Server 2013, consulte [Lync Server 2013 hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
 - **Serviços de Federação do Active Directory (AD FS) de (recomendado)** É recomendável implantar o AD FS para oferecer suporte a Single Sign-on. Para obter mais informações, consulte [Serviços de Federação do Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Para obter informações sobre como implantar o sistema telefônico no Office 365, consulte [habilitar usuários para o sistema telefônico no Office 365 com conectividade PSTN local no Skype para Business Server](enable-users-for-phone-system.md).
+Para obter informações sobre como implantar o sistema telefônico no Office 365, consulte [Configurando o sistema telefônico na sua organização](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
 
