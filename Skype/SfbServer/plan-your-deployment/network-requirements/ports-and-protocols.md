@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 3de98f096215c8f703f23081d2b102d3d5c9ffac
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530870"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690471"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -31,7 +31,7 @@ Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para
   
 Você também pode encontrar as informações nestas tabelas no formulário de diagrama examinando o cartaz de cargas de trabalho de protocolo vinculado do artigo [Technical diagrams for Skype para Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Se você estiver implementando Skype para negócios Online (O365) consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Ambientes híbridos serão necessário fazer referência a este tópico e também a [requisitos de porta e protocolo](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md#port-and-protocol-requirements)híbrida.
+> - Se você estiver implementando Skype para negócios Online (O365) consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Ambientes híbridos serão necessário fazer referência a este tópico e também [Planejar conectividade híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
 > - Você pode ter os firewalls de hardware ou software, podemos não exigem modelos específicos ou versões. O que importa é que portas são na lista branca, portanto, o firewall não prejudicar o funcionamento do Skype para Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalhes de protocolo e porta
@@ -95,8 +95,8 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 |Diretores  |Skype para serviço de compatibilidade da Web Server Business  |80  |TCP  |Usada para comunicação inicial dos Diretores com os FQDNs de farm da web (as URLs usadas pelos componentes da web IIS). Em uma operação normal, trocará para tráfego HTTPS, usando a porta 443 e o tipo de protocolo TCP.  |
 |Diretores  |Skype para serviço de compatibilidade da Web Server Business  |443  |HTTPS  |Usada para comunicação dos Diretores com os FQDNs de farm da web (as URLs usadas pelos componentes da web IIS).  |
 |Diretores  |Skype para serviço de front-end Server de negócios  |5061  |TCP  |Usada para comunicações internas entre os servidores e para conexões do cliente.  |
-|Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5070  |TCP  |Usada pelo Servidor de mediação para solicitações de entrada do Servidor Front-End.  |
-|Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5067  |TCP (TLS)  |Usada para solicitações SIP de entrada do gateway PSTN.  |
+|Servidor de Mediação  |Skype para serviço de mediação do servidor de negócios  |5070  |TCP  |Usada pelo Servidor de mediação para solicitações de entrada do Servidor Front-End.  |
+|Servidor de Mediação  |Skype para serviço de mediação do servidor de negócios  |5067  |TCP (TLS)  |Usada para solicitações SIP de entrada do gateway PSTN.  |
 |Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5068  |TCP  |Usada para solicitações SIP de entrada do gateway PSTN.  |
 |Servidores de mediação  |Skype para serviço de mediação do servidor de negócios  |5070  |TCP (MTLS)  |Usada para solicitações SIP dos Servidores Front-End.  |
 |Servidor de front-end de bate-papo persistente  |SIP de bate-papo persistente  |5041  |TCP (MTLS)  ||
@@ -181,18 +181,18 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
 
 |Nome da regra|IP de origem|IP de destino|Protocolo|Porta de origem|Porta de destino|Requisito de autenticação|
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|Entrada interna do Servidor de Borda A/V  |Qualquer um  |Interno do Servidor de Borda A/V  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Entrada externa do Servidor de Borda A/V  |Qualquer um  |Externo do Servidor de Borda A/V  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Saída interna do Servidor de Borda A/V  |Interno do Servidor de Borda A/V  |Qualquer um  |UDP &amp; TCP  |Qualquer  |Qualquer um  |Não autenticar  |
-|Saída externa do Servidor de Borda A/V  |Externo do Servidor de Borda A/V  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Entrada do Servidor de Mediação  |Qualquer um  |Mediação  <br/> Servidor(es)  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Saída do Servidor de Mediação  |Mediação  <br/> Servidor(es)  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Entrada do Atendedor de Conferência  |Qualquer um  |Servidor Front-End executando o Atendedor de Conferência  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Saída do Atendedor de Conferência  |Servidor Front-End executando o Atendedor de Conferência  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Entrada de Conferência A/V  |Qualquer um  |Servidores Front-End  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Saída de Conferência A/V  |Servidores Front-End  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Entrada do Exchange  |Qualquer um  |Unificação de Mensagens do Exchange  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Entrada dos Servidores de Compartilhamento de Aplicativo  |Qualquer um  |Servidores de Compartilhamento de Aplicativos  |TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Saída do Servidor de Compartilhamento de Aplicativos  |Servidores de Compartilhamento de Aplicativos  |Qualquer um  |TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Saída do Exchange  |Unificação de Mensagens do Exchange  |Qualquer um  |UDP e TCP  |Qualquer um  |Qualquer um  |Não autenticar  |
-|Clientes  |Qualquer um  |Qualquer um  |UDP  |Intervalo especificado de portas de mídia  |Qualquer um  |Não autenticar  |
+|Entrada interna do Servidor de Borda A/V  |Qualquer  |Interno do Servidor de Borda A/V  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Entrada externa do Servidor de Borda A/V  |Qualquer  |Externo do Servidor de Borda A/V  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Saída interna do Servidor de Borda A/V  |Interno do Servidor de Borda A/V  |Qualquer  |UDP &amp; TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Saída externa do Servidor de Borda A/V  |Externo do Servidor de Borda A/V  |Qualquer  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Entrada do Servidor de Mediação  |Qualquer  |Mediação  <br/> Servidor(es)  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Saída do Servidor de Mediação  |Mediação  <br/> Servidor(es)  |Qualquer  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Entrada do Atendedor de Conferência  |Qualquer um  |Servidor Front-End executando o Atendedor de Conferência  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Saída do Atendedor de Conferência  |Servidor Front-End executando o Atendedor de Conferência  |Qualquer  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Entrada de Conferência A/V  |Qualquer  |Servidores Front-End  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Saída de Conferência A/V  |Servidores Front-End  |Qualquer  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Entrada do Exchange  |Qualquer  |Unificação de Mensagens do Exchange  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Entrada dos Servidores de Compartilhamento de Aplicativo  |Qualquer  |Servidores de Compartilhamento de Aplicativos  |TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Saída do Servidor de Compartilhamento de Aplicativos  |Servidores de Compartilhamento de Aplicativos  |Qualquer  |TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Saída do Exchange  |Unificação de Mensagens do Exchange  |Qualquer  |UDP e TCP  |Qualquer  |Qualquer  |Não autenticar  |
+|Clientes  |Qualquer  |Qualquer  |UDP  |Intervalo especificado de portas de mídia  |Qualquer um  |Não autenticar  |

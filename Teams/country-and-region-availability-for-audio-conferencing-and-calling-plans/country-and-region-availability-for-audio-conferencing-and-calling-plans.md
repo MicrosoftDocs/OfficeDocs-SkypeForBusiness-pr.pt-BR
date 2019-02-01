@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: 8c0e287671e3131ed9b155205e90ebe6456a743b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8b94fb50362ab37145dd36ff8f001ed461fe5f43
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531171"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690560"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -129,7 +129,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnã](availability-in-vietnam.md)
 
-**Se você estiver procurando por uma planilha com todos os países e regiões, baixar e salvar a [planilha de disponibilidade nuvem voz recurso país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06252018)-(en-us).xlsx?raw=true)**.
+**Se você estiver procurando por uma planilha com todos os países e regiões, baixar e salvar a [planilha de disponibilidade nuvem voz recurso país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
 
 ***
 

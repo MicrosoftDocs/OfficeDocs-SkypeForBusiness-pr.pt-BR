@@ -3,7 +3,7 @@ title: Limites e especificações para o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 01/31/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: karuanag
@@ -13,12 +13,12 @@ MS.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65f3730cdb6ad8fbca6e8f665c5ce7e919c690e4
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f397dd63cfa50069d6072686ae3650b837ca53a1
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594114"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690463"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 =============================================
@@ -38,6 +38,9 @@ Este artigo descreve algumas dos limites, especificações e outros requisitos q
 |Número de canais por equipe    | 200 (inclui canais excluídos)         |
 
 &sup1; Qualquer objeto de diretório no Azure Active Directory conta rumo esse limite.
+
+> [!NOTE]
+> Canais não há suporte para caracteres especiais, como ~ # % & * {} + / \: gt _ de <? | ' "no nome do canal.  
 
 <a name="meetings-and-calls"></a>Reuniões e chamadas 
 ------------------

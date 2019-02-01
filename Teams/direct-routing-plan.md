@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: dbc3de5c6eb7a9f45be1165614cd14fcb2d6d8c9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
+ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297877"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690568"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -135,7 +135,7 @@ A Microsoft recomenda que você solicitou o certificado para o SBC gerando uma c
 
 O certificado precisa ter o SBC FQDN no assunto, nome comum ou campos de nome alternativo da entidade.
 
-Como alternativa, roteamento direto suporta um curinga no nome ou SAN comuns e o caractere curinga precisa para se adequar ao padrão [RFC HTTP sobre TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Um exemplo estaria utilizando *. contoso.com no SAN, que o sbc.contoso.com SBC FQDN encontraria como correspondente, mas não seria coincidirem com sbc.test.contoso.com.
+Como alternativa, o roteamento direto suporta um caractere curinga em SAN, e o caractere curinga precisa para se adequar ao padrão [RFC HTTP sobre TLS](https://tools.ietf.org/html/rfc2818#section-3.1). Um exemplo estaria utilizando *. contoso.com no SAN, que o sbc.contoso.com SBC FQDN encontraria como correspondente, mas não seria coincidirem com sbc.test.contoso.com.
 
 O certificado precisa ser gerado por uma das seguintes autoridades de certificação raiz:
 

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para configurar o conector de dados da chamada, que permite a telemetria do Skype para negócios local para ser exibidos usando o Skype para as ferramentas de Business Online.
-ms.openlocfilehash: 959bb182da91029fd43ebc3ccb99fb5a69d820b2
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4b358562838cfd1412891514e999f2c8544f3a4f
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533131"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690456"
 ---
 # <a name="configure-call-data-connector"></a>Configurar o conector de dados de chamada
 
@@ -27,7 +27,7 @@ Para obter mais informações sobre os benefícios de conector de dados de chama
 
 ## <a name="enable-monitoring"></a>Habilitar o monitoramento
  
-Você deve configurar o registro de dados de chamadas (CDR) e coleta de dados Quality of Experience (QoE) em seu front-end do pool de monitoramento, com LCSCdr e QoEMetrics bancos de dados locais; Caso contrário, a análise de chamada e os painéis de qualidade de chamada não obterá dados para trabalhar. Antes, você configurar conector de dados de chamada, siga as etapas fornecidas em [Deploy monitoramento no Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar tanto CDR e QoE como monitoramento básico.
+Você deve configurar o registro de dados de chamadas (CDR) e coleta de dados Quality of Experience (QoE) em seu front-end do pool de monitoramento, com LcsCDR e QoEMetrics bancos de dados locais; Caso contrário, a análise de chamada e os painéis de qualidade de chamada não obterá dados para trabalhar. Antes, você configurar conector de dados de chamada, siga as etapas fornecidas em [Deploy monitoramento no Skype para Business Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) para configurar tanto CDR e QoE como monitoramento básico.
 
 > [!IMPORTANT]
 > Conector de dados de chamada não funcionará se monitoramento não estiver habilitado no pool de front-end.

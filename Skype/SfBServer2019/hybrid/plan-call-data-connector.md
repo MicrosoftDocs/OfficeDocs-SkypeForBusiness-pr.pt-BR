@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso Skype para as ferramentas de telemetria Business Online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: 6bcf1e26ca005a30e4f1c940f655a3277e18001e
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4e38f7d190cd30c1f0e39dc4cdfa5166ba6a929d
+ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349533"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29690442"
 ---
 # <a name="plan-call-data-connector"></a>Planejar o conector de dados de chamada
 
@@ -68,7 +68,7 @@ Os requisitos a seguir pressupõem que você já tem Skype para Business Server 
 
 - Se ainda não tiver feito isso, ative o painel de controle de qualidade de chamada conforme descrito em [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 
-- Habilite o pool de front-end para monitoramento, com bancos de dados LCSCdr e QoEMetrics locais. Sem isso, chame o conector de dados não terá dados de métricas para trabalhar.
+- Habilite o pool de front-end para monitoramento, com bancos de dados LcsCDR e QoEMetrics locais. Sem isso, chame o conector de dados não terá dados de métricas para trabalhar.
 
 > [!IMPORTANT]
 > Conector de dados de chamada não funcionará se monitoramento não estiver habilitado no pool de front-end.
@@ -78,13 +78,13 @@ Os requisitos a seguir pressupõem que você já tem Skype para Business Server 
 | Relatórios de recurso | Skype for Business Online | Skype for Business Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | Métrica de compartilhamento de aplicativo |Sim | Limitado |
-| Informações de construção do cliente| Sim | Sim |
+| Informações de construção do cliente| Sim  | Sim  |
 | Análise de detalhamento | Sim | Não |
 | Métricas de confiabilidade de mídia | Sim | Limitado |
-| Relatórios de caixa | Sim | Sim |
+| Relatórios de caixa | Sim  | Sim  |
 | Visão geral de relatórios | Sim | Não |
-| Por relatórios do usuário | Sim | Sim |
-| Personalização de conjunto de relatórios <br> (Adicionar, excluir, modificar relatórios) | Sim | Sim |
+| Por relatórios do usuário | Sim  | Sim  |
+| Personalização de conjunto de relatórios <br> (Adicionar, excluir, modificar relatórios) | Sim  | Sim  |
 | Métricas de compartilhamento de tela com base em vídeo | Sim | Não |
 | APIs de dados para acesso programático <br> para CQD | Não | Sim |
 ||||
