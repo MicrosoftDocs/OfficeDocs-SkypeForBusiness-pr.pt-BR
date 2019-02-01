@@ -15,7 +15,7 @@ ms.topic: landing-page
 ms.author: tonysmit
 ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
 ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/25/2019
 ms.locfileid: "26531744"
@@ -54,7 +54,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; re aqui para ajudar a</h3>
+                        <h3>Estamos aqui para ajudar</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +119,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
 
 ---
 
-<h2>What& #39; s novo</h2>
+<h2>Novidades</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -134,7 +134,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                     <div class="cardText">
                         <h3>Artigos</h3>
                         <p><a 
-                        href="/microsoftteams/setting-up-your-phone-system">Configuração do Sistema de Telefonia na sua organização</a></p>
+                        href="/microsoftteams/setting-up-your-phone-system">Configurar o Sistema de Telefonia em sua organização</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>
                     </div>
                 </div>
@@ -236,7 +236,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                 <div class="card">
                     <div class="cardText">
                         <h3>Sistema de Telefonia</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o Sistema de Telefonia no Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s é obtido com o sistema telefônico no Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o Sistema de Telefonia no Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Veja o que é fornecido com o Sistema de Telefonia no Office 365</a></p>
                </div>
                 </div>
             </div>
