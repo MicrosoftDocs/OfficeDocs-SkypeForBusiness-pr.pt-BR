@@ -21,6 +21,7 @@
 ## [Atribuir proprietários de equipe e membros no Microsoft Teams](assign-roles-permissions.md)
 ## [Boas práticas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
+## [O que são as políticas de mensagens?](messaging-policies-in-teams.md)
 ## [Introdução aos modelos do Microsoft Teams](get-started-with-teams-templates.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Presença](presence-admins.md)
@@ -52,6 +53,7 @@
 ### [Usar o PowerShell para controlar o acesso de convidados a uma equipe](guest-access-PowerShell.md)
 ### [Lista de verificação de acesso de convidado](guest-access-checklist.md)
 
+## [Acesso externo (federação)](manage-external-access.md)
 
 ## [Gerenciar equipes](using-admin-roles.md)
 ### [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
@@ -114,7 +116,6 @@
 # [Conferência de & de reuniões](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
-## [O que são as políticas de mensagens?](messaging-policies-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Ativar ou desativar os anúncios de entrada e de saída para reuniões](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
