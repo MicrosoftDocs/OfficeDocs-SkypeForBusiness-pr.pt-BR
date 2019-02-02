@@ -30,8 +30,7 @@
 
 #### [Atualizar AAD conectar para incluir mais de uma floresta](../hybrid/cloud-consolidation-aad-connect.md)
 
-### [Integração com o Exchange e SharePoint](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
-
+### [Integração com o Exchange e SharePoint](../../SfbServer/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 
 
 ## Planejamento

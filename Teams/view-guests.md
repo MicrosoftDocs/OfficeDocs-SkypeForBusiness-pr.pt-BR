@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Saiba como um administrador pode visualizar informações sobre usuários convidados no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a10269076275a16f18a9cda8471a669688a1ab4
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 2b842a2434a5555fe7f65d6119750cff36e9513d
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772733"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706271"
 ---
 <a name="view-guest-users-in-a-team"></a>Visualizar usuários convidados em uma equipe
 ==========================
@@ -26,9 +26,11 @@ Qualquer pessoa de uma equipe pode ver todos os membros de uma equipe, incluindo
 Para identificar usuários convidados:
 
 1.  Entrar no Centro de administração do Microsoft 365.
-2.  Selecione **Admin centrais** > **equipes & Skype**.
-3.  No Centro de administração do Skype & Teams da Microsoft, selecione **os usuários**. Você verá **Convidado** acrescentado, como o nome de exibição de qualquer usuários convidados.
+2.  Selecione **Admin centrais** > **& equipes Skype**.
+3.  Na & Teams Microsoft Skype Admin Center, selecione **os usuários**. Você verá **Convidado** acrescentado, como o nome de exibição de qualquer usuários convidados.
   
 Você também pode identificar usuários convidados a partir dentro de uma equipe suas próprias.  
 
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
 
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

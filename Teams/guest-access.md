@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f15aeaec8ed894cf25e72c8494aed3ae36070992
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 2c2e13a97c367a61559a33ea0229d7ef682744c7
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562617"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706263"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso de convidados no Microsoft Teams
 ======================================
@@ -31,7 +31,6 @@ Acesso de convidado é um dos recursos que os clientes solicitaram ao máximo. A
 - Conheça recursos novos ou atualizados no [Roteiro do Microsoft Teams](https://aka.ms/teamsroadmap).
 - Diga como podemos deixar o [Teams UserVoice](https://aka.ms/TeamsUserVoice) ainda melhor.
 - Compartilhe sua experiência na seção Comentários a seguir.
-
 
 Acesso de convidado permite que as equipes em sua organização para colaborar com pessoas fora da sua organização, concedendo a eles acesso às equipes existentes e canais em um ou mais dos seus inquilinos. Qualquer pessoa com uma conta de email comercial ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe.
 
@@ -52,9 +51,9 @@ Com acesso de convidado, as organizações que usam equipes podem fornecer acess
 
 As equipes se baseia em grupos do Office 365 e fornece uma nova maneira de acessar ativos compartilhados para um grupo do Office 365. O Teams é a melhor solução de bate-papo persistente entre os membros doe grupos/equipes. Os grupos do Office 365 são um serviço que oferece assinatura cruzada de aplicativos para um conjunto de ativos compartilhados de equipe, como um site do SharePoint ou um painel de controle do Power BI, para que a equipe possa colaborar de forma eficaz e segura. 
 
-## <a name="how-does-guest-access-compare-to-federation-external-access"></a>Como o acesso de convidado se compara à Federação (acesso externo)?
+## <a name="how-does-guest-access-compare-to-external-access-federation"></a>Como o acesso de convidado se comparam para acesso externo (federação)?
 
-Com federação ou acesso externo, um usuário externo pode ter chats de 1:1 e chamadas com um usuário de outra organização por meio de equipes ou Skype para negócios. Os usuários federados não podem acessar quaisquer recursos da equipe. Comparado ao acesso de convidado, acesso externo permite a comunicação entre organização (se permitido pela políticas) sem qualquer convite explícito, mas é limitado ao chat e chamar somente.
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Mais informações
     

@@ -15,12 +15,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e50992aa8489d93b577e957cffc98c18e7cc15e
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: da73768f69159c32543d0843139facc2b9ef4f9a
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988174"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706351"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
@@ -29,7 +29,7 @@ ms.locfileid: "27988174"
 
 Aplicativos são guias, conectores, bots ou qualquer combinação destas três, fornecido pelo equipes (apps primários e também conhecido como aplicativos padrão) ou por um terceiro (também conhecido como aplicativos externos). No Centro de administração do Microsoft 365, você pode habilitar e desabilitar aplicativos padrão e definir configurações para controlar aplicativos externos. Essas configurações permitem especificar quais aplicativos externos são permitidos e não permitidos, novo comportamento de aplicativo externo, e se os aplicativos do lado do carregamento é permitido.
 
- Para gerenciar as configurações de administração para aplicativos em equipes, vá para o Centro de administração do Microsoft 365 e escolha **configurações** > **Serviços & suplementos** > **Equipes da Microsoft**. Se você tiver entrado como administrador do Office 365, esse link deverá levá-lo corretamente ao local correto:
+ Para gerenciar as configurações de administração para aplicativos em equipes, vá para o Centro de administração do Microsoft 365 e escolha **configurações** > **Serviços & complementos** > **Equipes da Microsoft**. Se você tiver entrado como administrador do Office 365, esse link deverá levá-lo corretamente ao local correto:
 
 https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
 

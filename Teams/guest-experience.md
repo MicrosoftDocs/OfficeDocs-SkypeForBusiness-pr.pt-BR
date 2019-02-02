@@ -13,45 +13,25 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c65d5378ebe72175ac3238ba058866c49f6c4dd
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: c1fc83f0911849655c1a27bdee2d87107f6eaebc
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772797"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706311"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
 
 Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensagem de boas-vindas por e-mail contendo algumas informações sobre a equipe e o que esperar agora que é um membro. O convidado deve resgatar o convite na mensagem de e-mail para que possa acessar a equipe e os seus canais.
-  
-    
-    
-
-  
-    
     
 ![Exemplo de uma mensagem de e-mail de boas vindas enviada por um proprietário de equipe no Microsoft Teams para um usuário convidado. A mensagem inclui um texto que pode ser personalizado pelo proprietário da equipe e breves descrições dos recursos do Teams, como bate-papo, chamadas e reuniões.](media/guest-experience-image1.png)
-  
-    
     
 Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado a seguir na captura de tela de uma equipe de exemplo, um banner indica “Esta equipe tem convidados” e um rótulo “CONVIDADO” aparece ao lado do nome de cada convidado.
-  
-    
-    
-
-  
-    
     
 ![A captura de tela mostra uma parte do canal de Marketing da Northwind Traders, com a notificação no banner superior indicando “Esta equipe tem convidados” e os usuários convidados identificados com a palavra “CONVIDADO” ao lado do seu nome.](media/guest-experience-image2.png)
-  
-    
-    
-A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para os membros de equipe de uma organização com a funcionalidade disponibilizada para um usuário convidado na equipe.
-  
-    
-    
 
+A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para os membros de equipe de uma organização com a funcionalidade disponibilizada para um usuário convidado na equipe.
 
 |**Recurso no Teams**|**Usuário do Teams na organização**|**Convidado usuário**|
 |:-----|:-----|:-----|
@@ -74,19 +54,19 @@ A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para 
 
 | Recurso de chamada | Convidado | Usuário E1 e E3 | Usuário E5 e EV |
 | --------------- | ----- | -------------- | -------------- |
-| Chamadas de VOIP | Sim | Sim | Sim |
-| Chamadas de grupo | Sim | Sim | Sim |
-| Controles de chamada de núcleo com suporte (isenção, sem áudio, vídeo ativado/desativado, compartilhamento de tela) | Sim | Sim | Sim |
-| Transferência de destino | Sim | Sim | Sim |
-| Pode transferir uma chamada | Sim | Sim | Sim |
-| Pode transferência com consultoria | Sim | Sim | Sim |
-| Pode adicionar outros usuários a uma chamada via VOIP | Sim | Sim | Sim |
+| Chamadas de VOIP | Sim | Sim  | Sim  |
+| Chamadas de grupo | Sim | Sim  | Sim  |
+| Controles de chamada de núcleo com suporte (isenção, sem áudio, vídeo ativado/desativado, compartilhamento de tela) | Sim | Sim  | Sim  |
+| Transferência de destino | Sim | Sim  | Sim  |
+| Pode transferir uma chamada | Sim | Sim  | Sim  |
+| Pode transferência com consultoria | Sim | Sim  | Sim  |
+| Pode adicionar outros usuários a uma chamada via VOIP | Sim | Sim  | Sim  |
 | Pode adicionar usuários pelo número de telefone a uma chamada | Não | Não | Sim |
-| Destino Forward | Não | Sim | Sim |
-| Destino do grupo de chamada | Não | Sim | Sim |
-| Destino não atendido | Não | Sim | Sim |
-| Pode ser o destino de uma chamada federado | Não | Sim | Sim |
-| Pode fazer uma chamada federada | Não | Sim | Sim |
+| Destino Forward | Não | Sim | Sim  |
+| Destino do grupo de chamada | Não | Sim | Sim  |
+| Destino não atendido | Não | Sim | Sim  |
+| Pode ser o destino de uma chamada federado | Não | Sim | Sim  |
+| Pode fazer uma chamada federada | Não | Sim | Sim  |
 | Imediatamente pode encaminhar suas chamadas | Não | Não | Sim |
 | Pode ligar simultaneamente para as chamadas | Não | Não | Sim |
 | Pode rotear suas chamadas não atendidas | Não | Não | Sim |
@@ -103,15 +83,17 @@ A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para 
 
 <sup>1</sup> esse recurso estará disponível em breve.
 
-
-
 > [!NOTE]
 > Os administradores do Office 365 controlam os recursos disponíveis aos convidados. 
-  
+ 
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+ 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
   
 Q. Convidados que tem os mesmos recursos que os membros da equipe?<br>
-. Não. Para obter mais informações sobre qual um convidado pode ou não fazer, vá para capacidades de convidado em equipes.
+. Não. Para obter mais informações sobre qual um convidado pode ou não fazer, vá para [capacidades de convidado em equipes](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 Q. Quantos convidados podem convidar?<br>
 . Você pode adicionar até 5 convidados por usuário licenciado.

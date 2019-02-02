@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Os administradores de TI podem adicionar convidados em nível de locatário, definir e gerenciar políticas e permissões de usuários convidados, determinar quais usuários podem convidar convidados e extrair relatórios sobre a atividade do usuário convidado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c43309a6e4ae287181f6e363a40d99a0650984cc
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: 3866e4c3f8e63e9fe8518917193d4587e670ad93
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328243"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706287"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciamento do acesso de convidados no Microsoft Teams
 ======================================
@@ -37,6 +37,10 @@ Você pode usar o portal do Azure Active Directory para gerenciar seu acesso ao 
 > [!NOTE]
 > Microsoft Teams sempre respeita configurações externas do Azure Active Directory para permitir ou impedir adições de usuário convidado para o inquilino. Para obter mais detalhes, consulte [autorizar o acesso de convidado em equipes da Microsoft](Teams-dependencies.md).
   
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
 ## <a name="review-guest-access-periodically"></a>Revise periodicamente o acesso de convidado
 
 Em equipes, você pode adicionar 5 convidados para cada usuário licenciado. Devido a essa limitação, ou porque você deseja manter seu locatário atualizado, você deve revisar o acesso de convidado periodicamente para identificar usuários que têm acesso eles não são mais necessitam. Você pode usar o Windows Azure Active Directory (AD Azure) para criar uma revisão de acesso para os usuários atribuídos a um aplicativo ou de membros do grupo. Criando recorrente acesso revisões pode economizar tempo para você. Se você precisar rotineiramente, revise os usuários que têm acesso a um aplicativo ou são membros de um grupo, você pode definir a frequência das revisões. 

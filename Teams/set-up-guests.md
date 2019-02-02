@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42fead56b8064d2697ca4e8b115eefd0116a5e36
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772757"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706255"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Habilitar ou desabilitar o acesso de convidados no Microsoft Teams
 ======================================
@@ -28,13 +28,16 @@ Como administrador do Office 365, você precisa habilitar o recurso de convidado
 
 As configurações do convidado são definidas no Azure Active Directory. Leva entre 2 e 24 horas para que as alterações entrem em vigor na sua organização do Office 365. Se um usuário vê a mensagem "Contate o administrador" ao tentar adicionar um convidado para sua equipe, é provável que o recurso de convidado ainda não foi ativado ou as configurações ainda não estejam efetivas.
 
-
 > [!IMPORTANT]
 > Para habilitar a experiência completa do recurso de acesso de convidados, é importante compreender a dependência de autorização básica entre o Microsoft Teams, o Azure Active Directory e o Office 365. Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Configurar o acesso de convidado na equipes & Skype para o Centro de administração de negócios
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
 
-1.  Entrar no equipes & Skype para centro de administração de negócios.
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Configurar o acesso de convidado no & equipes Skype para centro de administração de negócios
+
+1.  Entrar no & as equipes Skype para centro de administração de negócios.
 
 2.  Selecione **configurações de toda a organização** > **acesso de convidado**.
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e07bfc162f2d3fbc59aa26dcf2cabd1bcf003e74
-ms.sourcegitcommit: 454ded73af5854d7b81a3b996702a6464b3fc313
+ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
+ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "27772781"
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "29706319"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
@@ -75,7 +75,7 @@ Licenciamento do Azure AD permite que você adicione até 5 convidados por licen
 
 Em equipes, você pode controlar se a experiência de convidado está habilitada ou desabilitada para sua organização. A configuração está desabilitada por padrão e aplica no nível do locatário para equipes apenas.
 
-Você pode gerenciar as configurações de acesso de convidado equipes do Microsoft Teams & Skype para Business Admin Center. Para obter mais detalhes, consulte [Habilitar ou desabilitar o acesso de convidados no Microsoft Teams](set-up-guests.md). 
+Você pode gerenciar as configurações de acesso de convidado equipes do & Teams Microsoft Skype para Business Admin Center. Para obter mais detalhes, consulte [Habilitar ou desabilitar o acesso de convidados no Microsoft Teams](set-up-guests.md). 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Controlar o acesso de convidado em grupos do Office 365
@@ -116,3 +116,6 @@ Essas configurações se aplicam a nível de locatário e controlam a experiênc
 
 Você pode gerenciar as configurações de usuário externo do SharePoint Online para o site de equipe conectado ao Teams. Para obter mais detalhes, veja [Gerenciar as configurações do site da sua equipe do SharePoint](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).
 
+## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado versus acesso externo (federação)
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
