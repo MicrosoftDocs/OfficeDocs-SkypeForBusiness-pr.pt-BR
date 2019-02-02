@@ -13,16 +13,16 @@ search.appverid: MET150
 description: Vídeos de treinamento, tutoriais e outros recursos para os usuários em sua organização de aprender e usar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4754a20c38c16c78744d44d78647f0efdede83e6
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 85500815e191363dcf8a5cd9b9c1cdd90aa769cd
+ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214439"
+ms.lasthandoff: 02/02/2019
+ms.locfileid: "29708548"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Treinamento para o usuário final do Microsoft Teams
 
-Use estes recursos de treinamento para ajudar os usuários em sua organização a tirar o máximo proveito equipes. 
+Use estes recursos de treinamento para ajudar os usuários em sua organização a tirar o máximo proveito equipes.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -210,7 +210,7 @@ Assista a este vídeo curto apresentando equipes</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Reuniões, chamadas e bate-papo</h3>
+                        <h3>Bate-papo, chamadas & reuniões</h3>
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Vídeo: Iniciar o bate-papos e fazer chamadas</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Vídeo: Criar reuniões instantâneas com Reunir agora</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Vídeo: Gerenciar reuniões</a></p>
@@ -224,7 +224,7 @@ Assista a este vídeo curto apresentando equipes</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Ferramentas e aplicativos</h3>
+                        <h3>Ferramentas de & de aplicativos</h3>
                         <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Vídeo: Adicionar ferramentas com guias</a></p>
                         <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Vídeo: Transformar um arquivo em uma guia</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Vídeo: Use a caixa de comando</a></p>
@@ -251,8 +251,8 @@ Assista a este vídeo curto apresentando equipes</h3>
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>As equipes de dicas e truques</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Artigo: Teams dicas e truques</a></p>
+                        <h3>Dicas de equipes & truques</h3>
+                        <p><a href="https://support.office.com/office-training-center/Teams-tips">Artigo: Teams dicas & truques</a></p>
                     </div>
                 </div>
             </div>

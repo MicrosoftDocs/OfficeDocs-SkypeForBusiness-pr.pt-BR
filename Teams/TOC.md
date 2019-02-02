@@ -302,6 +302,11 @@
 ### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configurar um controlador de borda da sessão para vários locatários](direct-routing-sbc-multiple-tenants.md)
 ### [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
+### Roteamento com Base no Local
+#### [Terminologia de roteamento baseados em local](location-based-routing-terminology.md)
+#### [Planejar o roteamento baseado no local para roteamento direto](location-based-routing-plan.md)
+#### [Definir configurações de rede para roteamento baseado no local](location-based-routing-configure-network-settings.md)
+#### [Habilitar o roteamento baseado no local para roteamento direto](location-based-routing-enable.md)
 ### Referência técnica para roteamento direto
 #### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -641,6 +646,7 @@
 
 ## Equipes para trabalhadores de firstline
 ### [Gerenciar o aplicativo desloca para sua organização em equipes](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Introdução ao modelos de equipes de varejo](get-started-with-retail-teams-templates.md)
 
 ## [Planejar Microsoft 365 governamental - GCC](plan-for-government-gcc.md)
 ### [Planejar Microsoft 365 governamental - GCC alta](plan-for-government-gcc-high.md)
