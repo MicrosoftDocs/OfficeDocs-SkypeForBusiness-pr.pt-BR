@@ -23,6 +23,7 @@
 ## [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
 ## [O que são as políticas de mensagens?](messaging-policies-in-teams.md)
 ## [Introdução aos modelos do Microsoft Teams](get-started-with-teams-templates.md)
+## [Introdução ao modelos de saúde de equipes da Microsoft](healthcare/healthcare-templates.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Presença](presence-admins.md)
 ## [Se comunicar com usuários de equipes em outras organizações](let-your-teams-users-communicate-with-other-people.md)
