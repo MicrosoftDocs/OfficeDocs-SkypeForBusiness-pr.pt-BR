@@ -1,5 +1,5 @@
 ---
-title: Implementar a qualidade de serviço em equipes da Microsoft
+title: Implementar Qualidade de Serviço no Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: Serdars
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b519327b37c61a126c5101080f0c1eee9f8582f5
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 5667374b52561af8809ab136646ffaf9d6077ad1
+ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326728"
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "29735126"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a qualidade do serviço (QoS) em equipes da Microsoft
 
@@ -232,13 +232,15 @@ Para criar uma política de QoS de áudio para computadores Windows 10, primeiro
 
 6. Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **Especificar valor de DSCP** e defina o valor para **46**. Deixe **Especificar taxa de aceleração saída** desmarcada e clique em **Avançar**.
 
-7. Na próxima página, certifique-se de que **todos os aplicativos** está selecionada e clique em **Avançar**. Essa configuração instrui a rede para procurar todos os pacotes com uma marcação de DSCP 46, não apenas de pacotes criados por um aplicativo específico.
+7. Na próxima página, selecione **apenas a aplicativos com este nome executável** e insira o nome **Teams.exe**e clique em **Avançar**. Essa configuração instrui a política priorizar apenas o tráfego do cliente equipes correspondente.
 
 8. Na terceira página, certifique-se de que **qualquer endereço IP de origem** e de **qualquer endereço IP de destino** estão marcada e clique em **Avançar**. Estas duas configurações Certifique-se de que os pacotes serão gerenciados independentemente do computador (endereço IP) enviadas os pacotes e qual computador (endereço IP) receberá os pacotes.
 
 9. Na página quatro, selecione **TCP e UDP** da lista suspensa **, selecione o protocolo que essa política de QoS se aplica** . TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados.
 
 10. Sob o título, **Especifique o número da porta de origem**, selecione **este ou intervalo de porta de origem**. Na caixa de texto que o acompanha, digite o intervalo de portas reservado para transmissões de áudio. Por exemplo, se você reservadas portas 50000 através de portas 50019 para tráfego de áudio, insira o intervalo de portas usando este formato: **50000:50019**. Clique em **Concluir**.
+
+11. Repita as etapas 5 a 10 para criar políticas para vídeo e compartilhamento de aplicativo/área de trabalho, substituindo os valores apropriados nas etapas 6 e 10.
 
 As novas políticas que você criou não terão efeito até que a diretiva de grupo tenha sido atualizada em seus computadores cliente. Embora a diretiva de grupo for atualizada periodicamente por si só, você pode forçar uma atualização imediata.
 
