@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes no & Teams Microsoft Skype para Business Admin Center
+title: Gerenciar equipes em Centro de administração do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,117 +8,117 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Saiba como exibir ou atualizar suas equipes no & Teams Microsoft Skype para Business Admin Center.
+description: Saiba como exibir ou atualizar suas equipes no Centro de administração do Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8e60f8a5d7aaf2638e1220baf1c41a59075ae0
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706438"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754183"
 ---
-<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a><span data-ttu-id="ffb8d-103">Gerenciar equipes no & Teams Microsoft Skype para Business Admin Center</span><span class="sxs-lookup"><span data-stu-id="ffb8d-103">Manage teams in the Microsoft Teams & Skype for Business Admin Center</span></span>
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a><span data-ttu-id="b609e-103">Gerenciar equipes em Centro de administração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b609e-103">Manage teams in the Microsoft Teams admin center</span></span>
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
-## <a name="overview"></a><span data-ttu-id="ffb8d-104">Visão geral</span><span class="sxs-lookup"><span data-stu-id="ffb8d-104">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="b609e-104">Visão geral</span><span class="sxs-lookup"><span data-stu-id="b609e-104">Overview</span></span>
 
-<span data-ttu-id="ffb8d-105">Como um administrador de TI, você pode precisar exibir ou atualizar as equipes que sua organização tiver configurado para colaboração, ou você podem precisar efetuar as ações de remediação como atribuir proprietários para equipes sem proprietários.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-105">As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams.</span></span> <span data-ttu-id="ffb8d-106">Você pode gerenciar as equipes usadas na sua organização por meio do módulo de PowerShell de equipes da Microsoft e o & Teams Microsoft Skype para Business Admin Center.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-106">You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams & Skype for Business Admin Center.</span></span> <span data-ttu-id="ffb8d-107">Para os recursos de administração completos usando esses dois conjuntos de ferramentas, verifique se você recebem uma das seguintes funções:</span><span class="sxs-lookup"><span data-stu-id="ffb8d-107">For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:</span></span>
+<span data-ttu-id="b609e-105">Como um administrador de TI, você pode precisar exibir ou atualizar as equipes que sua organização tiver configurado para colaboração, ou você podem precisar efetuar as ações de remediação como atribuir proprietários para equipes sem proprietários.</span><span class="sxs-lookup"><span data-stu-id="b609e-105">As an IT admin, you may need to view or update the teams that your organization has set up for collaboration, or you might need to perform remediation actions such as assigning owners for ownerless teams.</span></span> <span data-ttu-id="b609e-106">Você pode gerenciar as equipes usadas na sua organização por meio do módulo de PowerShell de equipes da Microsoft e o Centro de administração do Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="b609e-106">You can manage the teams used in your organization through both the Microsoft Teams PowerShell module and the Microsoft Teams admin center.</span></span> <span data-ttu-id="b609e-107">Para os recursos de administração completos usando esses dois conjuntos de ferramentas, verifique se você recebem uma das seguintes funções:</span><span class="sxs-lookup"><span data-stu-id="b609e-107">For full administration capabilities using these two toolsets, you should make sure that you are assigned one of the following roles:</span></span>
 
-- <span data-ttu-id="ffb8d-108">Administrador global</span><span class="sxs-lookup"><span data-stu-id="ffb8d-108">Global Administrator</span></span>
-- <span data-ttu-id="ffb8d-109">Administrador de Serviço de Equipes</span><span class="sxs-lookup"><span data-stu-id="ffb8d-109">Teams Service Administrator</span></span>
+- <span data-ttu-id="b609e-108">Administrador global</span><span class="sxs-lookup"><span data-stu-id="b609e-108">Global Administrator</span></span>
+- <span data-ttu-id="b609e-109">Administrador de Serviço de Equipes</span><span class="sxs-lookup"><span data-stu-id="b609e-109">Teams Service Administrator</span></span>
 
-<span data-ttu-id="ffb8d-110">Você também deve garantir que sua conta tenha sido atribuída uma licença de equipes não seja de avaliação para o gerenciamento.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-110">You should also make sure that your account has been assigned a non-trial Teams license for management.</span></span> <span data-ttu-id="ffb8d-111">Como parte de um problema conhecido, você deve garantir que sua conta tem apenas **uma** função de administrador atribuída.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-111">As part of a known issue, you should make sure that your account has only **one** admin role assigned.</span></span>  <span data-ttu-id="ffb8d-112">Você pode aprender mais sobre as funções de administrador no Microsoft Teams em [equipes da Microsoft usar funções de administrador para gerenciar equipes](using-admin-roles.md)e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="ffb8d-112">You can learn more about admin roles in Microsoft Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).</span></span>  
+<span data-ttu-id="b609e-110">Você também deve garantir que sua conta tenha sido atribuída uma licença de equipes não seja de avaliação para o gerenciamento.</span><span class="sxs-lookup"><span data-stu-id="b609e-110">You should also make sure that your account has been assigned a non-trial Teams license for management.</span></span> <span data-ttu-id="b609e-111">Como parte de um problema conhecido, você deve garantir que sua conta tem apenas **uma** função de administrador atribuída.</span><span class="sxs-lookup"><span data-stu-id="b609e-111">As part of a known issue, you should make sure that your account has only **one** admin role assigned.</span></span>  <span data-ttu-id="b609e-112">Você pode aprender mais sobre as funções de administrador no Microsoft Teams em [equipes da Microsoft usar funções de administrador para gerenciar equipes](using-admin-roles.md)e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="b609e-112">You can learn more about admin roles in Microsoft Teams in [Use Microsoft Teams admin roles to manage Teams](using-admin-roles.md), and you can read more about how to use the PowerShell cmdlets for managing teams in the [Microsoft Teams cmdlet reference](https://docs.microsoft.com/powershell/teams/?view=teams-ps).</span></span>  
 
-<span data-ttu-id="ffb8d-113">Este artigo fornece uma visão geral das ferramentas de gerenciamento para equipes no & Teams Microsoft Skype para Business Admin Center.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-113">This article provides an overview of the management tools for teams in the Microsoft Teams & Skype for Business Admin Center.</span></span>
+<span data-ttu-id="b609e-113">Este artigo fornece uma visão geral das ferramentas de gerenciamento para equipes no Centro de administração do Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="b609e-113">This article provides an overview of the management tools for teams in the Microsoft Teams admin center.</span></span>
 
-## <a name="teams-overview-grid"></a><span data-ttu-id="ffb8d-114">Grade de visão geral de equipes</span><span class="sxs-lookup"><span data-stu-id="ffb8d-114">Teams overview grid</span></span>
+## <a name="teams-overview-grid"></a><span data-ttu-id="b609e-114">Grade de visão geral de equipes</span><span class="sxs-lookup"><span data-stu-id="b609e-114">Teams overview grid</span></span>
 
-<span data-ttu-id="ffb8d-115">Ferramentas de gerenciamento para equipes estão sob o nó de **equipes** no & Teams Microsoft Skype para Business Admin Center.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-115">Management tools for teams are under the **Teams** node in the Microsoft Teams & Skype for Business Admin Center.</span></span> <span data-ttu-id="ffb8d-116">(No Centro de administração, selecione **equipes** > **gerenciar equipes**.) Cada equipe é feito por um grupo do Office 365 e este nó fornece um modo de exibição dos grupos que foram habilitados para equipes em sua organização do Microsoft.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-116">(In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.</span></span>
+<span data-ttu-id="b609e-115">Ferramentas de gerenciamento para equipes estão sob o nó de **equipes** no Centro de administração do Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="b609e-115">Management tools for teams are under the **Teams** node in the Microsoft Teams admin center.</span></span> <span data-ttu-id="b609e-116">(No Centro de administração, selecione **equipes** > **gerenciar equipes**.) Cada equipe é feito por um grupo do Office 365 e este nó fornece um modo de exibição dos grupos que foram habilitados para equipes em sua organização do Microsoft.</span><span class="sxs-lookup"><span data-stu-id="b609e-116">(In the admin center, select **Teams** > **Manage teams**.) Each team is backed by an Office 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ffb8d-117">Estamos no processo backfilling criado anteriormente equipes para garantir que eles serão exibidas nesse modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-117">We are in the process of backfilling previously created Teams to ensure that they will show up in this view.</span></span>
+> <span data-ttu-id="b609e-117">Estamos no processo backfilling criado anteriormente equipes para garantir que eles serão exibidas nesse modo de exibição.</span><span class="sxs-lookup"><span data-stu-id="b609e-117">We are in the process of backfilling previously created Teams to ensure that they will show up in this view.</span></span>
 
 ![Grade de visão geral de equipes](media/manage-teams-in-modern-portal-image1.png)  
 
-<span data-ttu-id="ffb8d-119">A grade exibe as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="ffb8d-119">The grid displays the following properties:</span></span>
+<span data-ttu-id="b609e-119">A grade exibe as seguintes propriedades:</span><span class="sxs-lookup"><span data-stu-id="b609e-119">The grid displays the following properties:</span></span>
 
-- <span data-ttu-id="ffb8d-120">**Nome da equipe**</span><span class="sxs-lookup"><span data-stu-id="ffb8d-120">**Team name**</span></span>
-- <span data-ttu-id="ffb8d-121">**Canais** - uma contagem de todos os canais da equipe, incluindo o canal gerais do padrão.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-121">**Channels** - a count of all channels in the team, including the default General channel.</span></span>
-- <span data-ttu-id="ffb8d-122">**Os usuários** - uma contagem do total de usuários, incluindo proprietários, convidados e membros de seu locatário.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-122">**Users** - a count of total users, including owners, guests, and members from your tenant.</span></span>
-- <span data-ttu-id="ffb8d-123">**Proprietários** - uma contagem de proprietários para essa equipe.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-123">**Owners** - a count of owners for this team.</span></span>
-- <span data-ttu-id="ffb8d-124">**Convidados** - uma contagem de usuários de convidado B2B do Azure Active Directory que são membros dessa equipe.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-124">**Guests** - a count of Azure Active Directory B2B guest users who are members of this team.</span></span>
-- <span data-ttu-id="ffb8d-125">**Privacidade** - o AccessType do grupo apoio Office 365.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-125">**Privacy** - the AccessType of the backing Office 365 group.</span></span>
+- <span data-ttu-id="b609e-120">**Nome da equipe**</span><span class="sxs-lookup"><span data-stu-id="b609e-120">**Team name**</span></span>
+- <span data-ttu-id="b609e-121">**Canais** - uma contagem de todos os canais da equipe, incluindo o canal gerais do padrão.</span><span class="sxs-lookup"><span data-stu-id="b609e-121">**Channels** - a count of all channels in the team, including the default General channel.</span></span>
+- <span data-ttu-id="b609e-122">**Os usuários** - uma contagem do total de usuários, incluindo proprietários, convidados e membros de seu locatário.</span><span class="sxs-lookup"><span data-stu-id="b609e-122">**Users** - a count of total users, including owners, guests, and members from your tenant.</span></span>
+- <span data-ttu-id="b609e-123">**Proprietários** - uma contagem de proprietários para essa equipe.</span><span class="sxs-lookup"><span data-stu-id="b609e-123">**Owners** - a count of owners for this team.</span></span>
+- <span data-ttu-id="b609e-124">**Convidados** - uma contagem de usuários de convidado B2B do Azure Active Directory que são membros dessa equipe.</span><span class="sxs-lookup"><span data-stu-id="b609e-124">**Guests** - a count of Azure Active Directory B2B guest users who are members of this team.</span></span>
+- <span data-ttu-id="b609e-125">**Privacidade** - o AccessType do grupo apoio Office 365.</span><span class="sxs-lookup"><span data-stu-id="b609e-125">**Privacy** - the AccessType of the backing Office 365 group.</span></span>
 
-### <a name="search"></a><span data-ttu-id="ffb8d-126">Pesquisa</span><span class="sxs-lookup"><span data-stu-id="ffb8d-126">Search</span></span>
+### <a name="search"></a><span data-ttu-id="b609e-126">Pesquisa</span><span class="sxs-lookup"><span data-stu-id="b609e-126">Search</span></span>
 
-<span data-ttu-id="ffb8d-127">Pesquisa atualmente suporta a cadeia de caracteres "Começa com" e pesquisa o campo **nome da equipe** .</span><span class="sxs-lookup"><span data-stu-id="ffb8d-127">Search currently supports the string "Begins with" and searches the **Team name** field.</span></span>
+<span data-ttu-id="b609e-127">Pesquisa atualmente suporta a cadeia de caracteres "Começa com" e pesquisa o campo **nome da equipe** .</span><span class="sxs-lookup"><span data-stu-id="b609e-127">Search currently supports the string "Begins with" and searches the **Team name** field.</span></span>
 
-### <a name="edit"></a><span data-ttu-id="ffb8d-128">Editar</span><span class="sxs-lookup"><span data-stu-id="ffb8d-128">Edit</span></span>
+### <a name="edit"></a><span data-ttu-id="b609e-128">Editar</span><span class="sxs-lookup"><span data-stu-id="b609e-128">Edit</span></span>
 
-<span data-ttu-id="ffb8d-129">Você pode editar o grupo e as configurações específicas do team selecionando uma equipe da grade e, em seguida, selecionando o botão **Editar** .</span><span class="sxs-lookup"><span data-stu-id="ffb8d-129">You can edit group and team-specific settings by selecting a team from the grid and then selecting the **Edit** button.</span></span>
+<span data-ttu-id="b609e-129">Você pode editar o grupo e as configurações específicas do team selecionando uma equipe da grade e, em seguida, selecionando o botão **Editar** .</span><span class="sxs-lookup"><span data-stu-id="b609e-129">You can edit group and team-specific settings by selecting a team from the grid and then selecting the **Edit** button.</span></span>
 
 ![Editar a equipe](media/manage-teams-in-modern-portal-image2.png)
 
-## <a name="team-profile"></a><span data-ttu-id="ffb8d-131">Perfil de equipe</span><span class="sxs-lookup"><span data-stu-id="ffb8d-131">Team profile</span></span>
+## <a name="team-profile"></a><span data-ttu-id="b609e-131">Perfil de equipe</span><span class="sxs-lookup"><span data-stu-id="b609e-131">Team profile</span></span>
 
-<span data-ttu-id="ffb8d-132">Você pode navegar para a página de perfil de equipe de qualquer equipe da grade de visão geral de equipes principal clicando no nome da equipe.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-132">You can navigate to the team profile page of any team from the main teams overview grid by clicking on the team name.</span></span> <span data-ttu-id="ffb8d-133">A página de perfil de equipe mostra os membros, proprietários e convidados que pertencem à equipe (e seu fazendo O365 grupo), bem como os canais e configurações da equipe.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-133">The team profile page shows the members, owners, and guests that belong to the team (and its backing O365 Group), as well as the team’s channels and settings.</span></span> <span data-ttu-id="ffb8d-134">Na página de perfil da equipe, você pode:</span><span class="sxs-lookup"><span data-stu-id="ffb8d-134">From the team profile page, you can:</span></span>
+<span data-ttu-id="b609e-132">Você pode navegar para a página de perfil de equipe de qualquer equipe da grade de visão geral de equipes principal clicando no nome da equipe.</span><span class="sxs-lookup"><span data-stu-id="b609e-132">You can navigate to the team profile page of any team from the main teams overview grid by clicking on the team name.</span></span> <span data-ttu-id="b609e-133">A página de perfil de equipe mostra os membros, proprietários e convidados que pertencem à equipe (e seu fazendo O365 grupo), bem como os canais e configurações da equipe.</span><span class="sxs-lookup"><span data-stu-id="b609e-133">The team profile page shows the members, owners, and guests that belong to the team (and its backing O365 Group), as well as the team’s channels and settings.</span></span> <span data-ttu-id="b609e-134">Na página de perfil da equipe, você pode:</span><span class="sxs-lookup"><span data-stu-id="b609e-134">From the team profile page, you can:</span></span>
 
-- <span data-ttu-id="ffb8d-135">Adicionar ou remover membros e proprietários.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-135">Add or remove members and owners.</span></span>
-- <span data-ttu-id="ffb8d-136">Adicionar ou remover canais (Observe que não é possível remover o canal geral).</span><span class="sxs-lookup"><span data-stu-id="ffb8d-136">Add or remove channels (Note that you cannot remove the General channel).</span></span>
-- <span data-ttu-id="ffb8d-137">Atualize a equipe e configurações de grupo.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-137">Update team and group settings.</span></span>
+- <span data-ttu-id="b609e-135">Adicionar ou remover membros e proprietários.</span><span class="sxs-lookup"><span data-stu-id="b609e-135">Add or remove members and owners.</span></span>
+- <span data-ttu-id="b609e-136">Adicionar ou remover canais (Observe que não é possível remover o canal geral).</span><span class="sxs-lookup"><span data-stu-id="b609e-136">Add or remove channels (Note that you cannot remove the General channel).</span></span>
+- <span data-ttu-id="b609e-137">Atualize a equipe e configurações de grupo.</span><span class="sxs-lookup"><span data-stu-id="b609e-137">Update team and group settings.</span></span>
  
 ![Perfil de equipe](media/manage-teams-in-modern-portal-image3.png)
 
-## <a name="making-changes-to-teams"></a><span data-ttu-id="ffb8d-139">Fazendo alterações em equipes</span><span class="sxs-lookup"><span data-stu-id="ffb8d-139">Making changes to teams</span></span>
+## <a name="making-changes-to-teams"></a><span data-ttu-id="b609e-139">Fazendo alterações em equipes</span><span class="sxs-lookup"><span data-stu-id="b609e-139">Making changes to teams</span></span>
 
-<span data-ttu-id="ffb8d-140">Você pode alterar os seguintes elementos de uma equipe:</span><span class="sxs-lookup"><span data-stu-id="ffb8d-140">You can change the following elements of a team:</span></span>
-- <span data-ttu-id="ffb8d-141">**Os usuários na equipe de** - você pode adicionar ou remover membros e promover ou rebaixar proprietários</span><span class="sxs-lookup"><span data-stu-id="ffb8d-141">**Users in the team** - you can add or remove members, and promote or demote owners</span></span>
-- <span data-ttu-id="ffb8d-142">**Canais** - você pode adicionar novos canais ou remover canais existentes.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-142">**Channels** - you can add new channels or remove existing channels.</span></span>  <span data-ttu-id="ffb8d-143">Você não pode excluir o canal de "General" padrão e uma vez criada você só pode editar o nome de canal, não a descrição.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-143">You cannot delete the default "General" channel, and once created you can only edit channel name, not description.</span></span>
-- <span data-ttu-id="ffb8d-144">**Nome da equipe**</span><span class="sxs-lookup"><span data-stu-id="ffb8d-144">**Team name**</span></span>
-- <span data-ttu-id="ffb8d-145">**Descrição da equipe**</span><span class="sxs-lookup"><span data-stu-id="ffb8d-145">**Team description**</span></span>
-- <span data-ttu-id="ffb8d-146">**Privacidade de equipe** - pública ou privada</span><span class="sxs-lookup"><span data-stu-id="ffb8d-146">**Team privacy** - public or private</span></span>
-- <span data-ttu-id="ffb8d-147">**Classificação de equipe** - feito pelo seus classificações de grupo do Office 365</span><span class="sxs-lookup"><span data-stu-id="ffb8d-147">**Team classification** - backed by your Office 365 group classifications</span></span>
-- <span data-ttu-id="ffb8d-148">**Configurações de membro de equipe** - configurações de membro da equipe select</span><span class="sxs-lookup"><span data-stu-id="ffb8d-148">**Team member settings** - select team member settings</span></span>
-
-
-<span data-ttu-id="ffb8d-149">As alterações feitas em uma equipe são registradas.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-149">The changes that you make to a team are logged.</span></span> <span data-ttu-id="ffb8d-150">Se você estiver modificando configurações de grupo (alterando o nome, descrição, foto, privacidade, classificação ou membros da equipe), essas alterações serão atribuídas a você através do pipeline de auditoria.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-150">If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline.</span></span> <span data-ttu-id="ffb8d-151">Se você estiver realizando ações contra as configurações específicas de equipes, suas alterações serão rastreadas e atribuídas a você no canal geral da equipe.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-151">If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.</span></span>
-
-## <a name="troubleshooting"></a><span data-ttu-id="ffb8d-152">Solução de problemas</span><span class="sxs-lookup"><span data-stu-id="ffb8d-152">Troubleshooting</span></span>
-
-<span data-ttu-id="ffb8d-153">**Problema: As equipes ausentes da grade de visão geral da equipe**</span><span class="sxs-lookup"><span data-stu-id="ffb8d-153">**Issue: Teams missing from the Team Overview Grid**</span></span>
-
-<span data-ttu-id="ffb8d-154">Quando você insere o & Teams Microsoft Skype para Business Admin Center, sob a opção de **equipes** algumas das suas equipes estão ausentes da listagem na grade de visão geral de equipes.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-154">When you enter the Microsoft Teams & Skype for Business Admin Center, under the **Teams** option some of your teams are missing from the listing in the Teams Overview Grid.</span></span>
-
-<span data-ttu-id="ffb8d-155">**Causa**: esse problema ocorre quando a equipe foi atribuída incorretamente (ou ainda não) pelo sistema que pode resultar em uma propriedade ausente para que ele seja reconhecida.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-155">**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.</span></span>
-
-<span data-ttu-id="ffb8d-156">**Resolução: Definir a propriedade manualmente o valor correto via MS Graph**</span><span class="sxs-lookup"><span data-stu-id="ffb8d-156">**Resolution: Manually set the property to the correct value via MS Graph**</span></span>
-
-<span data-ttu-id="ffb8d-157">Substitua **{groupid}** na consulta referente a GroupId real em questão, que você pode obter via o powershell do Exchange Online, o cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como o atributo "**ExternalDirectoryObjectId**".</span><span class="sxs-lookup"><span data-stu-id="ffb8d-157">Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.</span></span>
-
-1. <span data-ttu-id="ffb8d-158">Acesso do [Explorer do gráfico](https://developer.microsoft.com/en-us/graph/graph-explorer)</span><span class="sxs-lookup"><span data-stu-id="ffb8d-158">Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)</span></span>
-
-2. <span data-ttu-id="ffb8d-159">Entrar no Explorer do gráfico no menu do lado esquerdo</span><span class="sxs-lookup"><span data-stu-id="ffb8d-159">Sign in to Graph Explorer on the left-hand side menu</span></span>
-
-3. <span data-ttu-id="ffb8d-160">Altere a linha de consulta para: gt _ do PATCH gt _ v 1.0https://graph.microsoft.com/v1.0/groups/{groupid}</span><span class="sxs-lookup"><span data-stu-id="ffb8d-160">Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}</span></span>
-
-4. <span data-ttu-id="ffb8d-161">Adicione o seguinte valor no corpo da solicitação: {"resourceProvisioningOptions": ["equipe"]}</span><span class="sxs-lookup"><span data-stu-id="ffb8d-161">Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}</span></span>
-
-5. <span data-ttu-id="ffb8d-162">Execute a consulta na parte superior direita.</span><span class="sxs-lookup"><span data-stu-id="ffb8d-162">Run the Query on the Top-Right.</span></span>
-
-6. <span data-ttu-id="ffb8d-163">Confirme que a equipe corretamente aparece novamente no & Teams Microsoft Skype para Business Admin Center - visão geral da equipe</span><span class="sxs-lookup"><span data-stu-id="ffb8d-163">Confirm the team appears correctly back on the Microsoft Teams & Skype for Business Admin Center - Team Overview</span></span>
+<span data-ttu-id="b609e-140">Você pode alterar os seguintes elementos de uma equipe:</span><span class="sxs-lookup"><span data-stu-id="b609e-140">You can change the following elements of a team:</span></span>
+- <span data-ttu-id="b609e-141">**Os usuários na equipe de** - você pode adicionar ou remover membros e promover ou rebaixar proprietários</span><span class="sxs-lookup"><span data-stu-id="b609e-141">**Users in the team** - you can add or remove members, and promote or demote owners</span></span>
+- <span data-ttu-id="b609e-142">**Canais** - você pode adicionar novos canais ou remover canais existentes.</span><span class="sxs-lookup"><span data-stu-id="b609e-142">**Channels** - you can add new channels or remove existing channels.</span></span>  <span data-ttu-id="b609e-143">Você não pode excluir o canal de "General" padrão e uma vez criada você só pode editar o nome de canal, não a descrição.</span><span class="sxs-lookup"><span data-stu-id="b609e-143">You cannot delete the default "General" channel, and once created you can only edit channel name, not description.</span></span>
+- <span data-ttu-id="b609e-144">**Nome da equipe**</span><span class="sxs-lookup"><span data-stu-id="b609e-144">**Team name**</span></span>
+- <span data-ttu-id="b609e-145">**Descrição da equipe**</span><span class="sxs-lookup"><span data-stu-id="b609e-145">**Team description**</span></span>
+- <span data-ttu-id="b609e-146">**Privacidade de equipe** - pública ou privada</span><span class="sxs-lookup"><span data-stu-id="b609e-146">**Team privacy** - public or private</span></span>
+- <span data-ttu-id="b609e-147">**Classificação de equipe** - feito pelo seus classificações de grupo do Office 365</span><span class="sxs-lookup"><span data-stu-id="b609e-147">**Team classification** - backed by your Office 365 group classifications</span></span>
+- <span data-ttu-id="b609e-148">**Configurações de membro de equipe** - configurações de membro da equipe select</span><span class="sxs-lookup"><span data-stu-id="b609e-148">**Team member settings** - select team member settings</span></span>
 
 
-## <a name="learn-more"></a><span data-ttu-id="ffb8d-164">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="ffb8d-164">Learn more</span></span>
+<span data-ttu-id="b609e-149">As alterações feitas em uma equipe são registradas.</span><span class="sxs-lookup"><span data-stu-id="b609e-149">The changes that you make to a team are logged.</span></span> <span data-ttu-id="b609e-150">Se você estiver modificando configurações de grupo (alterando o nome, descrição, foto, privacidade, classificação ou membros da equipe), essas alterações serão atribuídas a você através do pipeline de auditoria.</span><span class="sxs-lookup"><span data-stu-id="b609e-150">If you are modifying group settings (changing the name, description, photo, privacy, classification, or team members), these changes will be attributed to you through the audit pipeline.</span></span> <span data-ttu-id="b609e-151">Se você estiver realizando ações contra as configurações específicas de equipes, suas alterações serão rastreadas e atribuídas a você no canal geral da equipe.</span><span class="sxs-lookup"><span data-stu-id="b609e-151">If you are performing actions against Teams-specific settings, your changes will be tracked and attributed to you in the general channel of the team.</span></span>
 
-[<span data-ttu-id="ffb8d-165">Referência do cmdlet Teams da Microsoft</span><span class="sxs-lookup"><span data-stu-id="ffb8d-165">Microsoft Teams cmdlet reference</span></span>](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
-[<span data-ttu-id="ffb8d-166">Funções de administrador no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="ffb8d-166">Admin roles in Microsoft Teams</span></span>](using-admin-roles.md)
+## <a name="troubleshooting"></a><span data-ttu-id="b609e-152">Solução de problemas</span><span class="sxs-lookup"><span data-stu-id="b609e-152">Troubleshooting</span></span>
+
+<span data-ttu-id="b609e-153">**Problema: As equipes ausentes da grade de visão geral da equipe**</span><span class="sxs-lookup"><span data-stu-id="b609e-153">**Issue: Teams missing from the Team Overview Grid**</span></span>
+
+<span data-ttu-id="b609e-154">Quando você insere o Centro de administração do Microsoft Teams, sob a opção de **equipes** algumas das suas equipes estão ausentes da listagem na grade de visão geral de equipes.</span><span class="sxs-lookup"><span data-stu-id="b609e-154">When you enter the Microsoft Teams admin center, under the **Teams** option some of your teams are missing from the listing in the Teams Overview Grid.</span></span>
+
+<span data-ttu-id="b609e-155">**Causa**: esse problema ocorre quando a equipe foi atribuída incorretamente (ou ainda não) pelo sistema que pode resultar em uma propriedade ausente para que ele seja reconhecida.</span><span class="sxs-lookup"><span data-stu-id="b609e-155">**Cause**: This issue occurs when the team was incorrectly (or not yet) profiled by the system which can lead to a missing property for it to be recognized.</span></span>
+
+<span data-ttu-id="b609e-156">**Resolução: Definir a propriedade manualmente o valor correto via MS Graph**</span><span class="sxs-lookup"><span data-stu-id="b609e-156">**Resolution: Manually set the property to the correct value via MS Graph**</span></span>
+
+<span data-ttu-id="b609e-157">Substitua **{groupid}** na consulta referente a GroupId real em questão, que você pode obter via o powershell do Exchange Online, o cmdlet **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como o atributo "**ExternalDirectoryObjectId**".</span><span class="sxs-lookup"><span data-stu-id="b609e-157">Replace **{groupid}** in the Query for the actual GroupId in question, which you can get via the Exchange Online powershell, with the **"[Get-UnifiedGroup](https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** cmdlet, as the "**ExternalDirectoryObjectId**" attribute.</span></span>
+
+1. <span data-ttu-id="b609e-158">Acesso do [Explorer do gráfico](https://developer.microsoft.com/en-us/graph/graph-explorer)</span><span class="sxs-lookup"><span data-stu-id="b609e-158">Access [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)</span></span>
+
+2. <span data-ttu-id="b609e-159">Entrar no Explorer do gráfico no menu do lado esquerdo</span><span class="sxs-lookup"><span data-stu-id="b609e-159">Sign in to Graph Explorer on the left-hand side menu</span></span>
+
+3. <span data-ttu-id="b609e-160">Altere a linha de consulta para: gt _ do PATCH gt _ v 1.0https://graph.microsoft.com/v1.0/groups/{groupid}</span><span class="sxs-lookup"><span data-stu-id="b609e-160">Change the query line to: PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}</span></span>
+
+4. <span data-ttu-id="b609e-161">Adicione o seguinte valor no corpo da solicitação: {"resourceProvisioningOptions": ["equipe"]}</span><span class="sxs-lookup"><span data-stu-id="b609e-161">Add the following value on the request body: {"resourceProvisioningOptions": ["Team"]}</span></span>
+
+5. <span data-ttu-id="b609e-162">Execute a consulta na parte superior direita.</span><span class="sxs-lookup"><span data-stu-id="b609e-162">Run the Query on the Top-Right.</span></span>
+
+6. <span data-ttu-id="b609e-163">Confirmar que a equipe seja exibido corretamente novamente no Centro de administração do Microsoft Teams - visão geral da equipe</span><span class="sxs-lookup"><span data-stu-id="b609e-163">Confirm the team appears correctly back on the Microsoft Teams admin center - Team Overview</span></span>
+
+
+## <a name="learn-more"></a><span data-ttu-id="b609e-164">Saiba mais</span><span class="sxs-lookup"><span data-stu-id="b609e-164">Learn more</span></span>
+
+[<span data-ttu-id="b609e-165">Referência do cmdlet Teams da Microsoft</span><span class="sxs-lookup"><span data-stu-id="b609e-165">Microsoft Teams cmdlet reference</span></span>](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+[<span data-ttu-id="b609e-166">Funções de administrador no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b609e-166">Admin roles in Microsoft Teams</span></span>](using-admin-roles.md)
 <!--
 [Plan for Teams Lifecycle Management](plan-for-teams-lifecycle-management.md)
 -->

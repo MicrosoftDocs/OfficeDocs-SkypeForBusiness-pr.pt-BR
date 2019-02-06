@@ -20,62 +20,62 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Para transferir ou fazer a portabilidade de números de telefone do Skype for Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN. Depois de definir o PIN, você precisará incluí-lo quando solicitar a portabilidade do número de telefone.
-ms.openlocfilehash: 3a3744a4b1272bab987add10039c89c6e3983927
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: To transfer or port out phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.
+ms.openlocfilehash: bcab4a05e7e24fd301563627a82f739ca169ecc2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347087"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753450"
 ---
-# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="4036a-104">Definir seu PIN para transferir números para um novo provedor de serviços</span><span class="sxs-lookup"><span data-stu-id="4036a-104">Set your PIN for transferring numbers to a new service provider</span></span>
+# <a name="set-your-pin-for-transferring-numbers-to-a-new-service-provider"></a><span data-ttu-id="cb1a6-104">Definir seu PIN para transferir números para um novo provedor de serviços</span><span class="sxs-lookup"><span data-stu-id="cb1a6-104">Set your PIN for transferring numbers to a new service provider</span></span>
 
-<span data-ttu-id="4036a-105">Para transferir ou *fazer a portabilidade* de números de telefone do Skype for Business Online para outro provedor de serviços telefônicos ou operadora, você precisará definir manualmente um PIN.</span><span class="sxs-lookup"><span data-stu-id="4036a-105">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN.</span></span> <span data-ttu-id="4036a-106">Depois de definir o PIN, você precisará incluí-lo quando solicitar a portabilidade do número de telefone.</span><span class="sxs-lookup"><span data-stu-id="4036a-106">After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
+<span data-ttu-id="cb1a6-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-p102">To transfer or  *port out*  phone numbers from Skype for Business Online to another telephone service provider or carrier, you will need to manually set a PIN. After you set the PIN, you need to include it when you request to port a phone number out.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="4036a-107">Um PIN de portabilidade é usado apenas para organizações nos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="4036a-107">A port out PIN is only used for organizations in the United States.</span></span> 
+> <span data-ttu-id="cb1a6-107">Um PIN de portabilidade é usado apenas para organizações nos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-107">A port out PIN is only used for organizations in the United States.</span></span> 
   
-<span data-ttu-id="4036a-108">Consulte [Transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) para obter mais informações sobre transferência e portabilidade de números de telefone.</span><span class="sxs-lookup"><span data-stu-id="4036a-108">See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.</span></span>
+<span data-ttu-id="cb1a6-108">Consulte [Transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) para obter mais informações sobre transferência e portabilidade de números de telefone.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-108">See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) for more information about transferring and porting in/out phone numbers.</span></span>
   
-<span data-ttu-id="4036a-109">Veja aqui algumas informações específicas sobre esse PIN que você deve saber:</span><span class="sxs-lookup"><span data-stu-id="4036a-109">Here is some specific information about this PIN you should know:</span></span>
+<span data-ttu-id="cb1a6-109">Veja aqui algumas informações específicas sobre esse PIN que você deve saber:</span><span class="sxs-lookup"><span data-stu-id="cb1a6-109">Here is some specific information about this PIN you should know:</span></span>
   
-- <span data-ttu-id="4036a-110">Se não for definido um PIN, você não poderá transferir ou portar números de telefone do Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="4036a-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
+- <span data-ttu-id="cb1a6-110">Se não for definido um PIN, você não poderá transferir ou portar números de telefone do Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-110">If a PIN isn't set, you won't be able to transfer or port out phone numbers from Skype for Business Online.</span></span>
     
-- <span data-ttu-id="4036a-111">Ele pode conter 6-10 dígitos (números).</span><span class="sxs-lookup"><span data-stu-id="4036a-111">It can contain 6-10 digits (numbers).</span></span>
+- <span data-ttu-id="cb1a6-111">Ele pode conter 6-10 dígitos (números).</span><span class="sxs-lookup"><span data-stu-id="cb1a6-111">It can contain 6-10 digits (numbers).</span></span>
     
-- <span data-ttu-id="4036a-112">Ele não pode conter letras ou caracteres especiais.</span><span class="sxs-lookup"><span data-stu-id="4036a-112">It can't contain letters or special characters.</span></span>
+- <span data-ttu-id="cb1a6-112">Ele não pode conter letras ou caracteres especiais.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-112">It can't contain letters or special characters.</span></span>
     
-- <span data-ttu-id="4036a-113">O PIN padrão está em branco, mas se você colocar um, não poderá removê-lo ou redefini-lo como em branco novamente.</span><span class="sxs-lookup"><span data-stu-id="4036a-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
+- <span data-ttu-id="cb1a6-113">O PIN padrão está em branco, mas se você colocar um, não poderá removê-lo ou redefini-lo como em branco novamente.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-113">The default PIN is blank, but if you put one in, you can't remove or set it back to blank.</span></span>
     
-- <span data-ttu-id="4036a-114">Você pode atualizar ou alterar o PIN depois de preenchê-lo.</span><span class="sxs-lookup"><span data-stu-id="4036a-114">You can update or change the PIN after you put one in.</span></span>
+- <span data-ttu-id="cb1a6-114">Você pode atualizar ou alterar o PIN depois de preenchê-lo.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-114">You can update or change the PIN after you put one in.</span></span>
     
-## <a name="set-up-your-pin"></a><span data-ttu-id="4036a-115">Configure seu PIN</span><span class="sxs-lookup"><span data-stu-id="4036a-115">Set up your PIN</span></span>
+## <a name="set-up-your-pin"></a><span data-ttu-id="cb1a6-115">Configure seu PIN</span><span class="sxs-lookup"><span data-stu-id="cb1a6-115">Set up your PIN</span></span>
 
-<span data-ttu-id="4036a-116">![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**</span><span class="sxs-lookup"><span data-stu-id="4036a-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="cb1a6-116">![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **usando o Skype para centro de administração de negócios**</span><span class="sxs-lookup"><span data-stu-id="cb1a6-116">![sfb-logo-30x30.png](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="4036a-117">Entre no Office 365 com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="4036a-117">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="cb1a6-117">Entre no Office 365 com sua conta corporativa ou de estudante.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-117">Sign in to Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="4036a-118">Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.</span><span class="sxs-lookup"><span data-stu-id="4036a-118">Go to the **Microsoft Teams and Skype for Business Admin Center** > **Legacy portal**.</span></span>
+2. <span data-ttu-id="cb1a6-118">Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-118">Go to the **Microsoft Teams admin center** > **Legacy portal**.</span></span>
     
-3. <span data-ttu-id="4036a-119">No painel de navegação esquerdo, escolha **voz** > **pedidos de porta**.</span><span class="sxs-lookup"><span data-stu-id="4036a-119">In the left navigation, choose **Voice** > **Port orders**.</span></span>
+3. <span data-ttu-id="cb1a6-119">No painel de navegação esquerdo, escolha **voz** > **pedidos de porta**.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-119">In the left navigation, choose **Voice** > **Port orders**.</span></span>
     
-4. <span data-ttu-id="4036a-120">Clique em **Configurar e gerenciar o PIN** que é usado para transferir ou portar números para outra operadora de serviço.</span><span class="sxs-lookup"><span data-stu-id="4036a-120">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
+4. <span data-ttu-id="cb1a6-120">Clique em **Configurar e gerenciar o PIN** que é usado para transferir ou portar números para outra operadora de serviço.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-120">Click **Set up and manage the PIN** that is used for transferring or porting numbers to another service carrier.</span></span>
     
-5. <span data-ttu-id="4036a-121">No painel **Configurar ou alterar seu PIN de portabilidade**, insira seu PIN e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="4036a-121">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
+5. <span data-ttu-id="cb1a6-121">No painel **Configurar ou alterar seu PIN de portabilidade**, insira seu PIN e clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="cb1a6-121">In the **Set or change your port out PIN** panel, enter your PIN and click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="4036a-122">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="4036a-122">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="cb1a6-122">Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="cb1a6-122">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="4036a-123">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="4036a-123">Related topics</span></span>
-[<span data-ttu-id="4036a-124">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="4036a-124">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="cb1a6-123">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="cb1a6-123">Related topics</span></span>
+[<span data-ttu-id="cb1a6-124">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="cb1a6-124">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="4036a-125">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="4036a-125">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="cb1a6-125">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="cb1a6-125">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="4036a-126">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="4036a-126">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="cb1a6-126">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="cb1a6-126">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="4036a-127">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="4036a-127">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="cb1a6-127">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="cb1a6-127">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="4036a-128">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="4036a-128">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="cb1a6-128">[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="cb1a6-128">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
