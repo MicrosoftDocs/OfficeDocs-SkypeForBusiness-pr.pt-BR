@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3df6bf5654e29adf794c2d8c8337a2460e95550c
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562827"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29743016"
 ---
 ![Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
 
@@ -222,3 +222,7 @@ Estes são os argumentos principais desta orientação. Faça o seguinte:
 - Certifique-se de que você tenha a largura de banda suficiente para a implantação de equipes, completando o [Planejador de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
 - Execute a [Ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885) e verifique se você atende aos requisitos descritos em [desempenho de conectividade de rede e qualidade de mídia](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) do segmento de borda e o segmento de cliente.
+
+## <a name="related-topics"></a>Tópicos Relacionados
+
+[Vídeo: Planejamento de rede](https://aka.ms/teams-networking)

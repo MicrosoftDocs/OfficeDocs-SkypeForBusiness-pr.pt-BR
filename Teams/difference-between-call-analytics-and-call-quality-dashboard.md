@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
-ms.openlocfilehash: a212afea9f8d5010fa68af66ce72b39280a7d11c
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 8f664dfc8a609e23485f1dd935c00d8e5a745943
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442433"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742985"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de chamada e o painel de controle de qualidade de chamada
 
@@ -84,6 +84,8 @@ Análise de chamada e CQD executem em paralelo e podem ser usado independentemen
 Para obter mais informações sobre CQD, consulte [ativem e usando o painel de qualidade de chamada para equipes da Microsoft e Skype para Business Online](turning-on-and-using-call-quality-dashboard.md) e [dimensões e medidas disponíveis no painel de qualidade de chamada para equipes da Microsoft e Skype para negócios Online](dimensions-and-measures-available-in-call-quality-dashboard.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
+
+[Vídeo: Visão geral de qualidade de chamada](https://aka.ms/teams-quality)
 
 [Configurar a análise de chamada](set-up-call-analytics.md)
 

@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fc28a19f8ebccc494f59416cec0faa21a2b6d8f
-ms.sourcegitcommit: 6e5b263cd12b97fbb83c28f5be8b0ebac2e2d964
+ms.openlocfilehash: 08e77d3792c6575748b43785f21ba389a957eedb
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131234"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742836"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -37,14 +37,16 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 
 | A caixa de correio do usuário está hospedada em: | eDiscovery| Retenção legal | Retenção| Mgmt de equipe e de canal |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar os contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated vNext**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Não|Não|Sim|Sim|Não|Não|Não|Sim|Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Não|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim|Não|Não|Não|Não|Sim|
+|**Exchange Online**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim |Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim |Sim|
+|**Exchange Online Dedicated vNext**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim |Sim |Sim|Sim|Sim |Sim|Sim|Sim|Sim |Sim |Sim |
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Sim<sup>4|Sim|Não|Não|Sim|Sim |Não|Não|Não|Sim|Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Sim<sup>4|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim |Não|Não<sup>5|Não|Não|Sim|
                                                             
 <sup>1</sup> do exchange 2016 CU3 e acima suportados  
 <sup>2</sup> eDiscovery e retenção Legal para fins de conformidade em mensagens de canal é suportado para todas as opções de hospedagem.  
 <sup>3</sup> mensagens de bate-papo privado equipes ainda não são aceitas para a retenção Legal para essa opção de hospedagem.
+<sup>4</sup> retenção usará uma caixa de correio de sombra para o usuário online para armazenar mensagens. [Microsoft suporta o equipes eDiscover para o usuário de equipes em um ambiente híbrido do Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> usuários de equipes com no local de caixa de correio do Exchange pode usar a caixa postal com equipes e receber mensagens da caixa postal no Outlook, mas as mensagens da caixa postal não estará disponível para visualizar ou reproduzir no cliente equipes.
 
 Informações adicionais:
 
@@ -60,13 +62,13 @@ Informações adicionais:
 
 -   No Microsoft Teams, os recursos de segurança e conformidade, como o eDiscovery, o Content Search, arquivamento e retenção legal, funcionam melhor nos ambientes do Exchange Online e do SharePoint Online. Para conversas em canais, as mensagens serão rastreadas para a caixa de correio de grupo no Exchange Online, onde estão disponíveis para o eDiscovery. Se o SharePoint Online e o OneDrive for Business (usando contas de trabalho ou escolares) estiverem habilitados em toda a organização e para os usuários, esses recursos de conformidade estarão disponíveis para todos os arquivos dentro do Teams também.
 
--   Para o Exchange local (implantação híbrida), você precisará configurar OAuth, conforme descrito em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   Para o Exchange local, você deve ser para configurar OAuth, conforme descrito em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > No momento, se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange.
 > 
 > [!IMPORTANT]
-> Em uma implantação híbrida do Exchange, conteúdo de mensagens de chat é pesquisável independentemente de terem participantes de bate-papo com uma caixa de correio baseadas em nuvem ou local. Para saber mais, leia [Searching caixas de correio baseadas em nuvem para usuários no Office 365 local](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber sobre a procura por conteúdo em equipes, leia a [Pesquisa de conteúdo no Centro de conformidade & segurança do Office 365](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+> Em uma implantação híbrida do Exchange, conteúdo de mensagens de chat é pesquisável independentemente de terem participantes de bate-papo com uma caixa de correio baseadas em nuvem ou local. Para saber mais, leia [Searching caixas de correio baseadas em nuvem para usuários no Office 365 local](https://docs.microsoft.com/en-us/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para saber sobre a procura por conteúdo em equipes, leia a [Pesquisa de conteúdo no Centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/en-us/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 > 
 > [!TIP]
 > Para obter informações sobre como usar o Connect do Azure AD para sincronizar com o Windows Azure Active Directory, consulte [integrando suas identidades no local com o Windows Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).

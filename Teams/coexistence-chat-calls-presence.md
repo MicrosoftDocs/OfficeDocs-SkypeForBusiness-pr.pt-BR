@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9eb5626e9b4094ec814e0b55f4bb4fd3d0a42da8
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182500"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742993"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -212,3 +212,7 @@ A tabela abaixo descreve a presença do Publisher que será vista por um Inspeto
 Para alinhar a presença e a acessibilidade em segmentos pré-existente, a presença do destino exposto nesse thread precisa ser alinhado com o roteamento do thread, é possível considerando roteamento.
 
 Em particular, se um destinatário anteriormente possuía um thread de conversação interoperabilidade persistente com foi atualizado para equipes, que thread deixará de refletir presença precisa e deixará de ser roteável. Você deve iniciar um novo segmento.
+
+## <a name="related-links"></a>Links relacionados
+
+[Vídeo: Gerenciar a interoperabilidade entre SfB e equipes e coexistência](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

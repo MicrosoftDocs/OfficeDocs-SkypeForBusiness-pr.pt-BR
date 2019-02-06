@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4e0ad44904a14d6a1296ea17080f668a3ab461
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: 08abde935b69aa58e5e54bd50b31f1c9d554552e
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735202"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742954"
 ---
 # <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Microsoft Teams 
 
@@ -67,8 +67,8 @@ Por padrão, o modelo base é definido para o **padrão** que não contenha nenh
 |Educação-<br>Equipe PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Aplicativos:<ul><li>Anotações do OneNote PLC (fixados a guia **Geral** )</ul></li>|
 | Varejo-<br>Repositório | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Canais:<ul><li>Deslocar da entrega</li><li>Aprendizado</li></ul>Propriedades da equipe<ul><li>Visibilidade da equipe pública</li></ul>Permissões de membro<ul><li>Impedir que os membros da criação, atualizem ou remoção de canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros da criação, atualizem ou remoção de conectores</li></ul> |
 | Varejo-<br>Gerenciador de colaboração | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Canais:<ul><li>Deslocar da entrega</li><li>Aprendizado</li></ul>Propriedades de equipe:<ul><li>Visibilidade da equipe definida como privado</li></ul>Permissões de membro:<ul><li>Impedir que os membros da criação, atualizem ou remoção de canais</li><li>Impedir que os membros adicionem ou removam aplicativos</li><li>Impedir que os membros da criação, atualizem ou remoção de conectores</li></ul>|
-| Saúde-<br>Todo o bairro |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Canais: <ul><li>Anúncios\*</li><li>Luzes de chamada</li><li>Coisas divertida\*</li><li>Huddles\*<li>Agendamento e dos pacientes census\*</li><li>Treinamento e certificação </li><li>Arredonda\*</li></ul>\*Canais de auto-favorited |
-|Saúde-<br>Hospital ampla | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Canais:<ul><li>Anúncios\*</li><li>Conformidade\*</li><li>Custódia</li><li>Finanças</li><li>Coisas divertida\*</li><li>Recursos humanos</li><li>Laboratório</li><li>Segurança do paciente e melhoria de qualidade\*</li><li>Farmácia</li></ul>\*Auto-favorited channel|
+| Saúde-<br>Bairro |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWardWide` |Canais: <ul><li>Anúncios\*</li><li>Luzes de chamada</li><li>Coisas divertida\*</li><li>Huddles\*</li><li>Arredonda</li><li>Treinamento\*</li></ul>\*Canais de auto-favorited |
+|Saúde-<br>Hospital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospitalWide` |Canais:<ul><li>Anúncios\*</li><li>Conformidade\*</li><li>Custódia</li><li>Finanças</li><li>Coisas divertida\*</li><li>Recursos humanos</li><li>Laboratório</li></li><li>Farmácia</li></ul>\*Auto-favorited channel|
 |||
 
 > [!NOTE]

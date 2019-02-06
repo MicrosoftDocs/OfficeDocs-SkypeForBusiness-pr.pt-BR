@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2af8872253e2962322712a013cb3043a7da2d81b
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: b6b95da8ee416d4f64d22a8c0622acd417b7bb1d
+ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562625"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29742844"
 ---
 <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 =================================================
@@ -117,3 +117,6 @@ Caso não atenda a esses critérios, essa é a hora de considerar pausar o proje
 |![Ícone de ponto de decisão.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Ponto de decisão         |Você avaliou seus recursos de rede para suporte a mídia em tempo real?<br></br>Caso sua rede não tenha sido devidamente avaliada ou caso saiba que ela não consegue suportar mídia em tempo real, você vai desativar os recursos de vídeo e compartilhamento de tela para reduzir o impacto de rede e as experiências deficientes do Teams?         |
 |![Ícone de próximos passos.](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Próximos passos         |Qualidade de rede desconhecida: siga as orientações da [Avaliação da prontidão da rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) em para determinar se a sua rede está preparada para reproduzir mídia em tempo real.<br></br>Qualidade de rede deficiente: Execute as etapas de remediação de rede para proporcionar um ambiente adequado e de alta qualidade para mídia em tempo real.<br></br>Satisfatoriedade de rede: Garanta que todas as portas e endereços IP possam ser acessados adequadamente.           |
 
+## <a name="related-topics"></a>Tópicos Relacionados
+
+[Vídeo: Planejamento de rede](https://aka.ms/teams-networking)
