@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options. '
-ms.openlocfilehash: ec3cbc89a0a8ab07d7936d604d1f38a5d99ed2b6
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 84134809d11b8175dca6369afdf552543ffc07d0
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182389"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753967"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamadas do Sistema de Telefonia
 
@@ -104,9 +104,9 @@ Antes de você poder criar e configurar as filas de chamada, será necessário r
   
 ## <a name="step-3---create-a-new-call-queue"></a>Etapa 3 - Criar uma nova fila de chamada
 
- **Usando as equipes da Microsoft & Skype para Business Admin Center**
+ **Usando o Centro de administração do Microsoft Teams**
 
-No **Microsoft equipes & Skype para Business Admin Center**, clique em ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal herdada** >  **roteamento de chamadas** > **filas de chamada**, clique em **+ Adicionar novo**:
+No **Centro de administração de equipes da Microsoft**, clique em ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal herdada** >  **roteamento de chamadas** > **filas de chamada**, clique em **+ Adicionar novo**:
   
 ### <a name="set-the-call-queue-display-name-phone-number-and-domain-if-any"></a>Definir o nome de exibição da fila de chamada, número de telefone e domínio (se houver)
 

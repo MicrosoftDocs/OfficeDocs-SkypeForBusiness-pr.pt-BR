@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Considerações de planejamento para a implementação de conectividade híbrida entre Skype para Business Server e do Skype para Business Online ou equipes.
-ms.openlocfilehash: ca6fce658443cd100cc03b14730dac722337733d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 9e71ec9de7e9ade3502532056ec63826d9f77597
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348941"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753947"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planejar a conectividade híbrida entre Skype para Business Server e Office 365
 
@@ -62,7 +62,7 @@ Para implementar a conectividade híbrida entre seu ambiente local e serviços d
     > Você só pode usar um único locatário para uma configuração híbrida com sua implantação local.
 - Azure Active Directory Connect para sincronizar seu diretório local com o Office 365. Para obter mais informações, consulte [Connect do Azure AD: contas e permissões](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Skype para ferramentas administrativas do servidor de negócios.  Eles são exigidos para mover usuários do local para a nuvem. Essas ferramentas devem ser instaladas em um servidor com acesso à implantação no local e a internet.
-- Ferramentas administrativas online.  Você pode usar as equipes e o Skype para o Centro de administração de negócios ou o Windows PowerShell para gerenciar equipes e Skype para Business Online. Para usar o PowerShell para gerenciar equipes ou Skype para Business Online, baixe e instale o Skype para o Business Connector Online.
+- Ferramentas administrativas online.  Você pode usar o Centro de administração de equipes ou o Windows PowerShell para gerenciar equipes e Skype para Business Online. Para usar o PowerShell para gerenciar equipes ou Skype para Business Online, baixe e instale o Skype para o Business Connector Online.
 - Espaço de endereçamento SIP compartilhado deve ser habilitado e sua implantação no local deve ser configurada para usar o Office 365 como um provedor de hospedagem. Para obter mais informações sobre as etapas necessárias para configurar a conectividade híbrida, consulte [Configure conectividade de híbrida](configure-hybrid-connectivity.md).
 
 Depois de configurar conectividade híbrida, você pode mover usuários para equipes ou Skype para negócios Online. Para obter mais informações, consulte [mover usuários no local para equipes](move-users-from-on-premises-to-teams.md) e [mover os usuários no local para Skype para negócios Online](move-users-from-on-premises-to-skype-for-business-online.md).

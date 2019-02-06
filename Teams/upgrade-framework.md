@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e205eeb00373e66271c98405209df69b272f89a4
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896143"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754563"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -123,5 +123,5 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 > Nosso conteúdo de atualização está em constante evolução. Certifique-se de verificar novamente as orientações mais recentes e leia o [blog de equipes](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Se você for um administrador no seu locatário do Office 365, você pode iniciar ver as opções de atualização em seu cmdlet do PowerShell ou equipes & Skype para Business Admin Center. Ter a opção de atualização não necessariamente significa que sua organização está pronta para que essa alteração. Para uma experiência de usuário ideal, confirme que as equipes atende aos seus requisitos de colaboração e comunicação, validar que sua rede está pronta para equipes de suporte e implementar seu plano de preparação do usuário antes de atualizar os usuários para equipes.
+> Se você for um administrador no seu locatário do Office 365, você pode iniciar ver as opções de atualização no Centro de administração do Microsoft Teams ou cmdlet do PowerShell. Ter a opção de atualizar não necessariamente significa que sua organização está pronta para essa alteração. Para uma experiência de usuário ideal, confirme que as equipes atende aos seus requisitos de colaboração e comunicação, validar que sua rede está pronta para equipes de suporte e implementar seu plano de preparação do usuário antes de atualizar os usuários para equipes.
  

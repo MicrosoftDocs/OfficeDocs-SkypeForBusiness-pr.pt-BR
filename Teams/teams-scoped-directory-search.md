@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6260651dfa48dc07a15dbc1bbcf41297ecc281cf
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 2a4a36de9b535d7c95f93175a97ce5266fdc37ec
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326815"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754303"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
@@ -46,11 +46,11 @@ Você pode aprender mais sobre como as políticas de catálogo de endereços pod
 
 2.  Entrar no Centro de administração do Microsoft 365, selecione **centrais de Admin**e selecione **equipes & Skype**.
  
-3.  Na & Teams Microsoft Skype para centro de administração de negócios, selecione **configurações de toda a organização** > **configurações de equipes**.
+3.  No Centro de administração do Microsoft Teams, selecione **configurações de toda a organização** > **configurações de equipes**.
 
 4.  Em **pesquisa**, ao lado de **pesquisa de diretório do escopo em equipes usando uma política de catálogo de endereços do Exchange (APB)**, ative a alternância **em**. 
 
-    ![Escopo de pesquisa de diretório em equipes & Skype para centro de administração de negócios](media/teams-scoped-directory-search-image1.png)
+    ![Escopo de pesquisa de diretório no Centro de administração do Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 
 > [!NOTE]
 > Configurações híbridas (equipes com Exchange local) não suportam o modo de pesquisa com escopo. 

@@ -12,17 +12,14 @@ description: Orientações práticas para a implantação dos recursos de Cloud 
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2b57b7c39dc129c485943c5048a8d4b6441d942
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594194"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754748"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
-
-> [!Note]
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 No Teams da Microsoft, os usuários poderão gravar suas reuniões de equipes e chamadas de grupo para capturar áudio, vídeo e compartilhamento de atividade de tela. Há também uma opção de gravações ter transcrição automática, para que os usuários podem reproduzir gravações de reuniões com legendas e procurar itens de discussão importante na transcrição. A gravação acontece na nuvem e é salva no [Microsoft Stream](https://docs.microsoft.com/stream/), portanto, os usuários podem compartilhá-lo com segurança na sua organização.
 

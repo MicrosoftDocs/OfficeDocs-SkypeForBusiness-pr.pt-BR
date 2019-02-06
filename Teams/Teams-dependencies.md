@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 396650240c1d7b10e2fd6716ec52c13a649839e5
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: be1aa39a73cf5c4a28866ac8b702afebeb992b0d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706319"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753815"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar acesso de convidados no Microsoft Teams
 ===========================================
@@ -75,7 +75,7 @@ Licenciamento do Azure AD permite que você adicione até 5 convidados por licen
 
 Em equipes, você pode controlar se a experiência de convidado está habilitada ou desabilitada para sua organização. A configuração está desabilitada por padrão e aplica no nível do locatário para equipes apenas.
 
-Você pode gerenciar as configurações de acesso de convidado equipes do & Teams Microsoft Skype para Business Admin Center. Para obter mais detalhes, consulte [Habilitar ou desabilitar o acesso de convidados no Microsoft Teams](set-up-guests.md). 
+Você pode gerenciar as configurações de acesso de convidado equipes do Centro de administração do Microsoft Teams. Para obter mais detalhes, consulte [Habilitar ou desabilitar o acesso de convidados no Microsoft Teams](set-up-guests.md). 
 
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Controlar o acesso de convidado em grupos do Office 365

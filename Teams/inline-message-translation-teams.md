@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2afc1d0374333fdbb0bec9246d04224c6a82f032
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 466160616adea80a2fcb6a3bfd035ca397d73754
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532698"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754422"
 ---
 <a name="use-inline-message-translation-in-microsoft-teams"></a>Usar tradução de mensagem embutida no Microsoft Teams 
 =================================================
@@ -40,9 +40,9 @@ Você pode ativar o recurso de conversão de mensagem embutida usando a diretiva
 1. Ative a política usando o cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .
 2. A política leva alguns minutos para aplicar. Os usuários talvez seja necessário sair e entrar novamente para equipes.
 
-## <a name="enable-by-using-the-microsoft-teams--skype-for-business-admin-center"></a>Habilitar usando o Microsoft Teams & Skype para Business Admin Center
+## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Habilitar usando o Centro de administração do Microsoft Teams
 
-No **Microsoft equipes & Skype para Business Admin Center**, selecione **Messaging Policies** na barra de ferramentas esquerda, em seguida, tanto criar uma nova política ou editar uma política existente e definir a opção de **Permitir que os usuários para traduzir mensagens** de **em **.
+No **Centro de administração de equipes da Microsoft**, selecione **Messaging Policies** na barra de ferramentas esquerda, em seguida, tanto criar uma nova política ou editar uma política existente e defina a opção de **Permitir que os usuários para traduzir mensagens** para **ativado**.
 
 > [!NOTE]
 >Conversão é feita pelo serviço e entregue ao cliente com nenhum efeito sobre o conteúdo capturado nos registros de conformidade. Para saber mais sobre a conversão, consulte [o que é o Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).

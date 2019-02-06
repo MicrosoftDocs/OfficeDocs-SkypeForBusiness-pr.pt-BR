@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa50607a01888f776c480b33af52fccd67a1b7b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373171"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754822"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
@@ -463,11 +463,11 @@ Você pode acessar CQD uma destas três formas:
 
 -   Vá para <https://cqd.lync.com>.
 
--   Vá para **equipes da Microsoft & Skype para Business Admin Center** e selecione o link para CQD, conforme mostrado na ilustração a seguir.
+-   Vá para o **Centro de administração de equipes da Microsoft** e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
 ![No painel de navegação esquerdo, o link para o painel de controle de qualidade de chamada está selecionado.] (media/qerguide-image-mopo.png "No painel de navegação esquerdo, o link para o painel de controle de qualidade de chamada está selecionado.")
 
-_Figura 7 – acessando CQD através do Skype para Business Admin Center & equipes da Microsoft_
+_Figura 7 – acessando CQD por meio do Centro de administração do Microsoft Teams_
 
 -   Vá até o herdado **Skype para centro de administração de negócios** > **Ferramentas**e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
@@ -635,7 +635,7 @@ _Tabela 5 - Criando a estrutura do arquivo_
 | BuildingType       | Cadeia de caracteres    | Terminação de IT            | Opcional    |
 | BuildingOfficeType | Cadeia de caracteres    | Engenharia               | Opcional    |
 | Cidade               | Cadeia de caracteres    | Seattle                   | Recomendado |
-| CEP            | Cadeia de caracteres    | 98001                     | Recomendado |
+| ZipCode            | Cadeia de caracteres    | 98001                     | Recomendado |
 | País            | Cadeia de caracteres    | CONOSCO                        | Recomendado |
 | Estado              | Cadeia de caracteres    | WA                        | Recomendado |
 | Região             | Cadeia de caracteres    | MSUS                      | Recomendado |
@@ -786,7 +786,7 @@ Essas ferramentas são baseadas nas PowerShell e podem aproveitar os serviços e
 
 Para obter mais informações sobre essa ferramenta, consulte [esta postagem de blog](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a>Planejador de rede
+#### <a name="network-planner"></a> Planejador de rede
 
 Planejador de rede determina e organiza seus requisitos de rede para sua implantação de voz de nuvem em apenas algumas etapas simples. Fornecendo a que sua organização da rede detalhes e o uso de voz de nuvem, você pode obter um cálculo aproximado dos requisitos de rede para sua implantação de voz de nuvem, gerenciar e exportar esses detalhes para geração de relatórios e exibir áreas para investigação futura e próximas etapas.
 
@@ -1206,7 +1206,7 @@ _Figura 30 - relatório da versão de cliente_
 
 #### <a name="diagnostic-alert"></a>Alerta de diagnóstico
 
-Se você tiver recebido um diagnóstico alerta "conhecidos mal executando versões do cliente estão em uso", focalizar atualizar esses clientes pela primeira vez. O alerta identificou que esses clientes negativamente estão afetando a qualidade da chamada. Você pode usar o relatório de dispositivos & cliente (mostrado acima) para ajudar a garantir que os clientes que têm problemas conhecidos não estão sendo atualizados.
+Se você tiver recebido um diagnóstico alerta "conhecidos mal executando versões do cliente estão em uso", focalizar atualizar esses clientes pela primeira vez. O alerta identificou que esses clientes negativamente estão afetando a qualidade da chamada. Você pode usar o cliente & relatório de dispositivos (mostrado acima) para ajudar a garantir que os clientes que têm problemas conhecidos não estão sendo atualizados.
 
 #### <a name="remediation"></a>Remediação
 
@@ -1245,7 +1245,7 @@ O conjunto disponível de MOS e métricas associadas fornecem um modo de exibiç
 
 Fornecendo aos usuários com dispositivos certificados para equipes e Skype for Business, você reduz a probabilidade de encontrando experiências negativas devido ao próprio dispositivo (que é mais provável, por exemplo, com microfones e alto-falantes laptop internas). Para obter mais informações, consulte estes artigos sobre o [programa de certificação](/SkypeForBusiness/certification/overview) e o [Catálogo de soluções de parceiro](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Os relatórios de dispositivo são usados para avaliar o uso do dispositivo por volume e MOS pontuação (apenas áudio) e podem ser encontrado nos modelos acompanha em clientes e dispositivos. 
+Os relatórios de dispositivo são usados para avaliar o uso do dispositivo por volume e MOS pontuação (apenas áudio) e podem ser encontrado nos modelos acompanha em clientes & dispositivos. 
 
 > [!IMPORTANT]
 > A menos que você excluir dados de participantes federados, esses relatórios incluirá telemetria de cliente de pontos de extremidade federados. Para excluir os pontos de extremidade federados, você deve adicionar um filtro de consulta para a **Segunda ID do inquilino** definida como [ID do inquilino](#tenant-id)da sua organização. Como alternativa, você pode usar um [filtro de URL](#url-filter) para excluir telemetria participantes federada.
@@ -1262,7 +1262,7 @@ _Figura 31 - relatam de dispositivos (microfone)_
 
 ##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
 
-Se você tiver recebido um alerta de diagnóstico enfocam "drivers de áudio estão causando quedas de chamada," correção esses drivers pela primeira vez. O alerta identificou que drivers ruim conhecidos estão fazendo com que as chamadas para descartar e negativamente estão afetando a confiabilidade de chamada. Você pode usar o relatório de Drivers de microfone (mostrado acima), que se encontra na seção do cliente e dispositivos, para ajudá-lo com o processo.
+Se você tiver recebido um alerta de diagnóstico enfocam "drivers de áudio estão causando quedas de chamada," correção esses drivers pela primeira vez. O alerta identificou que drivers ruim conhecidos estão fazendo com que as chamadas para descartar e negativamente estão afetando a confiabilidade de chamada. Você pode usar o Drivers de microfone relatório (mostrado acima), que se encontra na seção de dispositivos de & do cliente, para ajudá-lo com o processo.
 
 ##### <a name="remediation"></a>Remediação
 
@@ -1313,7 +1313,7 @@ _A tabela 12 - requisitos de desempenho de rede_
 | Latência (unidirecional)                 | \<50 ms                            | \<30 ms                            |
 | Latência (tempo de resposta, ou tempo de ida e volta) | \<100 ms                           | \<60 ms                            |
 | Perda de pacote de intermitência                 | \<10% durante qualquer intervalo de 200 ms   | \<1% durante qualquer intervalo de 200 ms    |
-| Perda de pacote                       | \<1% durante qualquer intervalo de 15 segundos    | \<0,1% durante qualquer intervalo de 15 segundos  |
+| Perda de pacotes                       | \<1% durante qualquer intervalo de 15 segundos    | \<0,1% durante qualquer intervalo de 15 segundos  |
 | Tremulação entre chegadas de pacote       | \<30 ms durante qualquer intervalo de 15 segundos | \<15 ms durante qualquer intervalo de 15 segundos |
 | Novo pedido de pacotes                    | \<% de 0,05 pacotes de fora de ordem       | \<pacotes de fora de ordem 0,01%      |
 
@@ -1331,7 +1331,7 @@ Para obter mais informações, consulte [Este artigo sobre o desempenho de rede 
 
 -   Guia de [Introdução ao CQD](https://www.skypeoperationsframework.com/Academy?SOFTrainings=Configuring%20Call%20Quality%20Dashboard%20to%20monitor%20your%20Skype%20for%20Business%20Online%20Environment) e workshop
 
--   [Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](https://aka.ms/cqd-dm)
+-   [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](https://aka.ms/cqd-dm)
 
 ### <a name="call-analytics-training"></a>Treinamento de análise de chamada
 
@@ -1351,7 +1351,7 @@ Para obter mais informações, consulte [Este artigo sobre o desempenho de rede 
 
 ### <a name="devices"></a>Dispositivos
 
--   [Skype para soluções de negócios pessoais periféricos & PCs de catálogo](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [Skype para Business Solutions Catálogo pessoal periféricos & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
 ### <a name="tenant-reporting"></a>Relatórios de locatário
 

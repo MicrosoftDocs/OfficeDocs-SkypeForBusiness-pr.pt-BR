@@ -22,26 +22,24 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Consulte quais problemas que existem com caracteres especiais nos nomes de políticas e o que você pode fazer para corrigi-lo.
-ms.openlocfilehash: e1d46f70b42b96b2f3811c97d0110946fd013cd7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017499"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754732"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caractere especial nas políticas de equipes?
 
-**Você não pode criar ou editar políticas que possuem um caractere especial no nome no Microsoft Teams e Skype para Business Admin Center (para mensagens, reuniões, etc.).** 
+**Não é possível criar ou editar diretivas (para mensagens, reuniões, etc.) que possuem um caractere especial no nome de usuário na administração do Microsoft equipes center**. 
 
-Se um nome de política contiver caracteres especiais, você será limitada no gerenciamento essas diretivas no Microsoft Teams e Skype para Business Admin Center. **Sendo assim, é altamente recomendável que os nomes de política não incluem caracteres especiais**. 
+Se um nome de política contiver caracteres especiais, você será limitada no gerenciamento essas diretivas no Centro de administração do Microsoft Teams. **Sendo assim, é altamente recomendável que os nomes de política não incluem caracteres especiais**. 
 
-Nomes de política que foram criados usando o PowerShell para reuniões e equipes de mensagens podem ter caracteres especiais, como @, #, $. No entanto, se você estiver buscando fazer alterações na política na Microsoft Teams e Skype para Business Admin Center, você não conseguirá. 
+Nomes de política que foram criados usando o PowerShell para reuniões e equipes de mensagens podem ter caracteres especiais, como @, #, $. No entanto, se você estiver buscando fazer alterações à política no Centro de administração do Microsoft Teams, você não conseguirá. 
 
-Se você tiver uma diretiva com caracteres especiais, você precisará editar a política usando o Windows PowerShell (para sempre) ou criar uma nova política no Microsoft Teams e Skype para centro de administração de negócios com as mesmas configurações como a diretiva old e atribuí-lo para o mesmo agrupar p de usuários.
+Se você tiver uma diretiva com caracteres especiais, você precisará editar a política usando o Windows PowerShell (para sempre) ou criar uma nova política no Centro de administração do Microsoft Teams com as mesmas configurações como a diretiva old e atribuí-lo ao mesmo grupo de usuários.
 
 ## <a name="to-remove-special-characters"></a>Para remover caracteres especiais
-
-
 
 **Etapa 1 - fazer uma conexão remota com o PowerShell.** 
  [Configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) , se ainda não o fez.
@@ -65,7 +63,7 @@ Se você tiver uma diretiva com caracteres especiais, você precisará editar a 
 
 **Etapa 3: criar uma nova política.**
 
-Você pode criar a nova política com a mesma configuração usando o Microsoft Teams e Skype para o Centro de administração de negócios ou PowerShell.
+Você pode criar a nova política com a mesma configuração usando o Centro de administração do Microsoft Teams ou PowerShell.
 
 Executando isso criará uma nova política para você, mas você precisará adicionar as configurações corretas vendo [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) e, em seguida, executá-lo:
 
@@ -105,9 +103,9 @@ O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com
     
     [Usar o Windows PowerShell para gerenciar o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
-  - [Uso do Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Usando o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
     > [!NOTE]
     > O módulo do Windows PowerShell para Skype para Business Online permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype para Business Online e Teams da Microsoft. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo Windows PowerShell para Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-### <a name="related-topics"></a>Tópicos relacionados
+

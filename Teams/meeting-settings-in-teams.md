@@ -15,28 +15,29 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Saiba como gerenciar configurações para reuniões de equipes que os usuários a agendar em sua organização.
-ms.openlocfilehash: 1e3415b1fd17a863e14a79fcc66b32e6749b39e7
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: e4eba5f585f7621add95101d06194bebead507e2
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283545"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754413"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
-Como um administrador, você usar configurações de reuniões de equipes para controlar se os usuários anônimos podem participar de reuniões de equipes, personalizar convites de reunião e se você deseja habilitar Quality of Service (QoS), defina as portas para o tráfego em tempo real. Essas configurações se aplicam a todas as reuniões de equipes que agenda de usuários em sua organização. Gerenciar essas definições de **reuniões** > **configurações de reunião** no Microsoft Teams & Skype para Business Admin Center. 
+Como um administrador, você usar configurações de reuniões de equipes para controlar se os usuários anônimos podem participar de reuniões de equipes, personalizar convites de reunião e se você deseja habilitar Quality of Service (QoS), defina as portas para o tráfego em tempo real. Essas configurações se aplicam a todas as reuniões de equipes que agenda de usuários em sua organização. Gerenciar essas definições de **reuniões** > **configurações de reunião** no Centro de administração do Microsoft Teams. 
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir que usuários anônimos ingressem em reuniões
 
 Com o ingresso anônimo, qualquer pessoa pode ingressar na reunião como um usuário anônimo, clicando no link no convite da reunião. 
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando as equipes da Microsoft & Skype para Business Admin Center
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
 1. No painel de navegação esquerdo, vá para **reuniões** > **configurações de reunião**. 
 2. Em **participantes**, ative **os usuários anônimos podem ingressar em uma reunião**. 
 
-    ![reunião-configurações-participants.png] (media/meeting-settings-participants.png "Captura de tela das configurações de participantes de reuniões de equipes no Skype para Business Admin Center & equipes da Microsoft")
+    ![reunião-configurações-participants.png] (media/meeting-settings-participants.png "Captura de tela das configurações de participantes de reuniões de equipes no Centro de administração de equipes da Microsoft")
 
 Se você não desejar que usuários anônimos para participar de reuniões agendadas por usuários em sua organização, desative esta configuração. 
+
 ## <a name="customize-meeting-invitations"></a>Personalizar convites de reunião
 
 Você pode personalizar convites de reunião de equipes para atender às necessidades da sua organização. Você pode adicionar o logotipo da sua organização e incluir informações úteis, como links para seu site de suporte e o aviso de isenção legal e um rodapé somente texto. 
@@ -49,7 +50,7 @@ Você pode personalizar convites de reunião de equipes para atender às necessi
 
 ### <a name="customize-your-meeting-invitations"></a>Personalizar seus convites de reunião
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando as equipes da Microsoft & Skype para Business Admin Center
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
 
 1. No painel de navegação esquerdo, vá para **reuniões** > **configurações de reunião**.
 2. Em um **convite por Email**, faça o seguinte: 
@@ -65,12 +66,12 @@ Você pode personalizar convites de reunião de equipes para atender às necessi
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Definir como você deseja lidar com o tráfego de mídia em tempo real para reuniões de equipes
 Se você estiver usando o Quality of Service (QoS) para priorizar o tráfego de rede, é possível habilitar o QoS marcadores e você pode definir intervalos de porta para cada tipo de tráfego de mídia. 
 
- ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando o Microsoft Teams & Skype para centro de administração de negócios
+ ![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
 
 1. No painel de navegação esquerdo, vá para **reuniões** > **configurações de reunião**. 
 2. Em **rede**, faça o seguinte:
 
-    ![reunião-configurações-network.png] (media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões de equipes no Skype para Business Admin Center & equipes da Microsoft")
+    ![reunião-configurações-network.png] (media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões de equipes no Centro de administração de equipes da Microsoft")
 
     - Para habilitar o QoS marcadores, ative **os marcadores de inserir Quality of Service (QoS) para tráfego de mídia em tempo real**.
     - Para especificar os intervalos de porta, ao lado de **Selecionar um intervalo de porta para cada tipo de tráfego de mídia em tempo real**, selecione **especificar intervalos de porta**e, em seguida, insira as portas inicial e finais para áudio, vídeo e compartilhamento de tela. 

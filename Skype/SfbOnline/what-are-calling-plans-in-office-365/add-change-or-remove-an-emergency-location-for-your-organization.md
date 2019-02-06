@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn to add, change, or remove an emergency location used by  Skype for Business on Public Switched Telephone Networks (PSTN) for your organization. '
-ms.openlocfilehash: 81a70264e5b8a7f316a9c64e3fa6104d193dec66
-ms.sourcegitcommit: d7cab12337c0226c321e905a0504247fcff5eb77
+ms.openlocfilehash: 8c03808dfecd8093f4bf8f8545d3fed1554e237c
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26676431"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753522"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Adicionar, alterar ou remover um local de emergência para sua organização
 
@@ -38,7 +38,7 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft & Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja adicionar um local para.
     
@@ -55,7 +55,7 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft & Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência para o qual você deseja alterar um local.
     
@@ -69,7 +69,7 @@ Para saber como obter um plano de chamada e quanto eles custam, consulte [Licenc
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft & Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**e selecione o endereço de emergência que você deseja remover um local para.
     

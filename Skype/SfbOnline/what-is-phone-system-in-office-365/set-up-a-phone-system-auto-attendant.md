@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização. '
-ms.openlocfilehash: 0bf312734c788e0bd02bc4fce40dbea4267850d4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 9e84ea2130238866db61fa222169435772cc7758
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531574"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754149"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar o atendedor automático do Sistema de Telefonia
 
@@ -49,9 +49,9 @@ Se você deseja saber mais sobre os atendedores automáticos, consulte [Cite ate
   
 ## <a name="step-2---create-a-new-auto-attendant"></a>Etapa 2 - Criar um novo atendedor automático
 
- **Usando as equipes da Microsoft & Skype para Business Admin Center**
+ **Usando o Centro de administração do Microsoft Teams**
 
-No **Microsoft equipes & Skype para Business Admin Center**, clique em ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal herdada** >  **roteamento de chamadas** > **atendedores automáticos**, clique em **+ Adicionar novo**:
+No **Centro de administração de equipes da Microsoft**, clique em ![sfb-logotipo-30x30.png](../images/sfb-logo-30x30.png) **Portal herdada** >  **roteamento de chamadas** > **atendedores automáticos**, clique em **+ Adicionar novo**:
 
 ### <a name="edit-general-info-page"></a>Editar página de informações gerais
 

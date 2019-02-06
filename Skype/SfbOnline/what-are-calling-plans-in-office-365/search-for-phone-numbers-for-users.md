@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Veja como pesquisar números de telefone que você pode atribuir para seus usuários por país/região, estado/região ou cidade, e especifique a quantidade de números que precisa. '
-ms.openlocfilehash: 0edf61b52869eff4a52e7b109085e02d4b380742
-ms.sourcegitcommit: 19fb0279985251c00cd507a8d13b8499b19e2808
+description: 'See how to search for phone numbers you can assign to your users, by country/region, state/region, or city, and specify the quantity of numbers you need. '
+ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "25347067"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753512"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Pesquisar números de telefone para usuários
 
 Quando você estiver configurando usuários em sua organização façam e recebam chamadas telefônicas, você deve usar o **Skype para centro de administração de negócios** e primeiro obter os números de telefone que podem ser atribuídos aos usuários. O número de telefone que você pode atribuir a um usuário será um número de telefone que você escolheu para sua organização e serão listados na lista suspensa quando você edita as propriedades do usuário e clique em **atribuir**.
   
-Para poder atribuir números de telefone aos usuários, primeiro você deve usar a página **Novos números** para pesquisar números que estão disponíveis em uma área. Você pode pesquisar por **cidade**, **estado**e **país/região**e digite o número dos números de telefone, que você precisará para seus usuários. 
+Antes de poder atribuir números de telefone para seus usuários, você deve usar a página de **novos números** para procurar números que estão disponíveis para você dentro de uma área. Você pode pesquisar por **cidade**, **estado**e **país/região**e digite o número dos números de telefone, que você precisará para seus usuários. 
   
 Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar números de telefone para sua organização](/microsoftteams/manage-phone-numbers-for-your-organization) ou [Contato de suporte para produtos de negócios - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
@@ -44,7 +44,7 @@ Se você precisar de ajuda para obter números de telefone, consulte [Gerenciar 
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **números de telefone**e clique em **Adicionar novo número** > **novos números de usuário**.
   

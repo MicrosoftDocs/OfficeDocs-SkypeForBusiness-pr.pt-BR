@@ -1,5 +1,5 @@
 ---
-title: Se comunicar com usuários de equipes em outra organização
+title: Comunicar-se com os usuários do Teams em outra organização
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: 6fb71e4c9e1461ca920d480336288b06e3111eb2
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240836"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754724"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 
@@ -43,7 +43,7 @@ Siga estas etapas.
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Etapa 2 - habilitar a sua organização se comuniquem com outra organização de equipes
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft e Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
 
    1. No painel de navegação esquerdo, vá para **configurações de toda a organização** > **acesso externo**. 
 
@@ -76,7 +76,7 @@ Se você estiver configurando-lo para permitir que sua localização de usuário
 
 Ter o administrador em que a organização siga estas etapas:
     
-1. No Centro de administração do Office 365, vá para **Centros de Admin** > **equipes & Skype** > **portal herdada**.
+1. No Centro de administração do Office 365, vá para **Centros de Admin** > **& equipes Skype** > **portal herdada**.
   
 2. No **Centro de administração do Skype for Business**, escolha **Organização** > **Comunicações externas**.
     

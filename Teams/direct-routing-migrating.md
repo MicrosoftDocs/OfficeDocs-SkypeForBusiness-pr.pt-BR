@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba o que é necessário para migrar o roteamento direto de um Skype para Business Online e perspectiva de configuração de equipes.
-ms.openlocfilehash: 21ca5c94e07a6ff3ae7f5eb59d3f82c3aa78cc83
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016185"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754467"
 ---
 # <a name="migrating-to-direct-routing"></a>Migrando para o roteamento direto
 
@@ -51,15 +51,15 @@ OnPremLineURI |N/D|O número de telefone deve ser sincronizado a partir do local
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|Tem um valor|
 |TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly ou Ilhas|$Null|$Null|Ilhas ou TeamsOnly|
 |TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient –, leia a observação abaixo.|Equipes ou SfB |SfB|SfB|Microsoft Teams|
-|TeamsCallingPolicy</br>AllowPrivateCalling|Verdadeiro|N/D|N/D|Verdadeiro|
-|TeamsCallingPolicy</br>AllowGroupCalling|Verdadeiro|N/D|N/D|Verdadeiro|
+|TeamsCallingPolicy</br>AllowPrivateCalling|True|N/D|N/D|True|
+|TeamsCallingPolicy</br>AllowGroupCalling|True|N/D|N/D|True|
 ||||||
 
 <sup>1</sup> Escolher o modo certo do TeamsUpgradePolicy depende do cenário. Leia sobre a experiência de voz em diferentes modos de [migração e interoperabilidade orientações para as organizações](migration-interop-guidance-for-teams-with-skype.md)usando equipes em conjunto com o Skype para negócios.
 
 <sup>2</sup> Como anunciada anteriormente, TeamsInteropPolicy será desativado (direcionado para o final do T3) e sua funcionalidade está sendo consolidada em TeamsUpgradePolicy. Interoperabilidade e migração serão gerenciados usando "modo de coexistência", conforme determinado pela TeamsUpgradePolicy, que agora está disponível. Seleção de modo do usuário orientará ambos os roteamento de chamadas de entrada e de bate-papos e no qual cliente o usuário pode iniciar o bate-papos e chamadas ou agendar reuniões. Enquanto TeamsInteropPolicy será desativado, ele ainda precisa ser definida em paralelo com TeamsUpgradePolicy durante a phaseout.  
 
-Como parte desse esforço, a Microsoft recentemente atualizou o "Microsoft equipes & Skype para Business Admin Center" (também conhecido como Portal moderno) para refletir o novo modelo de gerenciamento com base em modos de coexistência. No Portal moderno, configurar TeamsUpgradePolicy serão automaticamente agora também definir TeamsInteropPolicy como valor consistente, portanto TeamsInteropPolicy não mais é exposta na interface do usuário. No entanto, os administradores usando o PowerShell ainda devem definir TeamsUpgradePolicy tanto TeamsInteropPolicy juntos para garantir o roteamento apropriado. Após concluir a transição para TeamsUpgradePolicy, não será necessário para definir também TeamsInteropPolicy.
+Como parte desse esforço, a Microsoft recentemente atualizou o "Microsoft Teams admin center" (também conhecido como Portal moderno) para refletir o novo modelo de gerenciamento com base em modos de coexistência. No Portal moderno, configurar TeamsUpgradePolicy serão automaticamente agora também definir TeamsInteropPolicy como valor consistente, portanto TeamsInteropPolicy não mais é exposta na interface do usuário. No entanto, os administradores usando o PowerShell ainda devem definir TeamsUpgradePolicy tanto TeamsInteropPolicy juntos para garantir o roteamento apropriado. Após concluir a transição para TeamsUpgradePolicy, não será necessário para definir também TeamsInteropPolicy.
 
 Para obter mais informações, consulte [migração e interoperabilidade orientações para as organizações que usam equipes em conjunto com o Skype para negócios](migration-interop-guidance-for-teams-with-skype.md).
 
@@ -111,7 +111,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 ## <a name="related-links"></a>LINKS RELACIONADOS
 
-[Diretrizes de migração e interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](migration-interop-guidance-for-teams-with-skype.md)
+[Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
 

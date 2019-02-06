@@ -13,12 +13,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2e7ba5f854c392d86006fdb6bd313b3fd87c68
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 5195b929cb5da2fc462cc2ed6826300d835c2b35
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182451"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753993"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Definir suas configurações de coexistência e atualização
 
@@ -35,7 +35,7 @@ Você pode obter uma compreensão melhor dos tipos de modos que estão disponív
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Definir opções de atualização para todos os usuários em sua organização
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft & Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
 
 1. No painel de navegação esquerdo, vá para **configurações de toda a organização** > **equipes de atualização**. 
 
@@ -53,7 +53,7 @@ Você pode obter uma compreensão melhor dos tipos de modos que estão disponív
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Definir opções de atualização de um único usuário em sua organização
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando as equipes da Microsoft & Skype para Business Admin Center**
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
 
 1. No painel de navegação esquerdo, vá para **usuários**e, em seguida, selecione o usuário na lista. 
 2. Na guia **conta** para o usuário, em **atualização de equipes**, clique em **Editar**.

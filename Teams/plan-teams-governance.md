@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db98b9b5ab460207b2dd9f9a793a486402ec29fd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326862"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754806"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança em equipes
 
@@ -116,7 +116,7 @@ As equipes fornece recursos granulares para controlar mensagens, reuniões, cham
 Para obter listas detalhadas de todas as configurações, incluindo orientações técnicas sobre como implementá-las para sua organização, consulte os seguintes artigos:
 
 -   [Gerenciar os recursos do Microsoft Teams na sua organização do Office 365](enable-features-office-365.md)
--   [Gerenciar equipes durante a transição para o novo Teams da Microsoft e Skype para Business Admin Center](manage-teams-skypeforbusiness-admin-center.md)
+-   [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Gerenciar políticas de reunião em equipes](meeting-policies-in-teams.md)
 
 

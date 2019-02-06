@@ -13,12 +13,12 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e51042d5478dbaeb89691b9ad482955055a58ac
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 660b838c38da478be2f1226fcdd1b104c3b10b54
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706367"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753928"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidado de equipes
 ==========================================
@@ -86,9 +86,9 @@ Para obter instruções detalhadas sobre como definir essas configurações, con
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Etapa 3: habilitar o acesso de convidado a nível de locatário
 
-No mínimo, você deve ativar acesso como convidado for Microsoft Teams sob as **equipes da Microsoft & Skype para Business Admin Center**. 
+No mínimo, você deve ativar acesso como convidado for Microsoft Teams sob o **Centro de administração de equipes da Microsoft**. 
 
-1. Na & equipes Skype para Business Admin Center, selecione **configurações de toda a organização** > **acesso de convidado**.
+1. No Centro de administração de equipes, selecione **configurações de toda a organização** > **acesso de convidado**.
 2. Defina a opção de **Permitir o acesso de convidado em equipes da Microsoft** para **ativado**.
 
     ![Captura de tela mostra um exemplo de uma alternância de configurações de equipes](media/set-up-guests-image1.png)

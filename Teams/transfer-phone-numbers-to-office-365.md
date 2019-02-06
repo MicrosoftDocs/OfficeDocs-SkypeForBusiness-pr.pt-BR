@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: 6b67688c352ca58f863db051f5883973d221261a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 851fbbc14a370f8c55d4a8e43924b5b12e36407c
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371986"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754653"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de telefone para o Office 365
 
@@ -53,7 +53,7 @@ Antes de iniciar a transferência de números de telefone, é recomendável que 
  
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **Voz** > **Pedidos de portabilidade** > clique em **Adicionar**.
     

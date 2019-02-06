@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Os administradores podem controlar como os organizadores podme usar os números gratuitos para suas reuniões.
-ms.openlocfilehash: cc179ff20d3bd523952ce57a79553025092532a9
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 3334a9f4af261d9b4cacd988fcdff2f6a0a4eb19
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678334"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753936"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Desativar números gratuitos para usuários específicos do Teams
 
@@ -45,7 +45,7 @@ Quando os números gratuitos são desativados para um determinado organizador:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Desativar números gratuitos para usuários específicos 
 
-Das **equipes da Microsoft & Skype para Business Admin Center**:
+Partir do **Centro de administração de equipes da Microsoft**:
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 

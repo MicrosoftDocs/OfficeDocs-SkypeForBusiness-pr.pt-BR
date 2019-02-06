@@ -14,12 +14,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc01f54229e5a2644fc004b4014ad41e3c0f8d73
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 2fc37cbf4774f4d8f097f27d50cc3f7c8e4bf5bf
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706255"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753488"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Habilitar ou desabilitar o acesso de convidados no Microsoft Teams
 ======================================
@@ -35,9 +35,9 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-teams--skype-for-business-admin-center"></a>Configurar o acesso de convidado no & equipes Skype para centro de administração de negócios
+## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Configurar o acesso de convidado no Centro de administração do Microsoft Teams
 
-1.  Entrar no & as equipes Skype para centro de administração de negócios.
+1.  Entrar no Centro de administração do Microsoft Teams.
 
 2.  Selecione **configurações de toda a organização** > **acesso de convidado**.
 

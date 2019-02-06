@@ -14,12 +14,12 @@ description: Conheça as etapas para configurar ao vivo de eventos em equipes, i
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fe13722bfc8b5aa7a9f57d0dfd39c67146e6c31
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626266"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754780"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -41,7 +41,7 @@ Eventos ao vivo, elas são usadas para controlar quem na sua organização pode 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Criar ou editar uma política de eventos ao vivo
 
-**![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) usando o Microsoft Teams & Skype para centro de administração de negócios**
+**![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) usando o Centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para **reuniões** > **políticas de eventos ao vivo**. 
 2. Siga um destes procedimentos:
@@ -51,7 +51,7 @@ Eventos ao vivo, elas são usadas para controlar quem na sua organização pode 
 
     Aqui estão as configurações que podem ser alteradas para atender às necessidades da sua organização.
 
-    ![Captura de tela de configurações de diretiva de eventos do live] (../media/teams-live-events-policies.png "Captura de tela do live configurações de política de eventos no Microsoft equipes & Skype para centro de administração de negócios") 
+    ![Captura de tela de configurações de diretiva de eventos do live] (../media/teams-live-events-policies.png "Captura de tela do live configurações de política de eventos no Centro de administração de equipes da Microsoft") 
 
 |Configuração  |Descrição  |
 |---------|---------|
@@ -68,7 +68,7 @@ Você também pode fazer isso usando o Windows PowerShell. Para obter mais infor
 
 Se você criou uma política personalizada de eventos ao vivo, atribuí-lo aos usuários para a política estejam ativos. 
 
-![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) Usando o Microsoft Teams & Skype para centro de administração de negócios
+![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) Usando o Centro de administração do Microsoft Teams
 
 1. No painel de navegação esquerdo, vá para **usuários**e, em seguida, selecione o usuário.
 2. Ao lado de **políticas atribuído**, escolha **Editar**. 

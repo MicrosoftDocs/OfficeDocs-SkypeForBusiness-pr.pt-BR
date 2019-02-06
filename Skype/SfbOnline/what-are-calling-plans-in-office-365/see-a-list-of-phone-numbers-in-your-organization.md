@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como ver uma lista de todos os números de telefone em sua organização, todos os números atribuídos aos usuários e todos os números são atribuídos a usuários de voz, a partir do Skype para centro de administração de negócios.
-ms.openlocfilehash: a6ab8115e1b336f2ccc77548fdfe501852efbda7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7cda5c0ae791436d9f584cc4af802bfbc3649fcc
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370695"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753478"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver uma lista de números de telefone em sua organização
 
@@ -39,7 +39,7 @@ Há tipos diferentes de números de telefone que você pode atribuir a usuários
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No **Centro de administração do Skype for Business**, na navegação esquerda, vá para **Voz** > **Números de telefone**.
     
@@ -71,14 +71,14 @@ Ao configurar usuários, talvez você só queira ver a lista de números de tele
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo do **Centro de administração do Skype for Business**, vá para **Voz** > **Usuários de voz**.
     
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. You can filter your view for phone numbers that are assigned to users or phone numbers that you can assign to a user. You can filter by:
+4. Você pode filtrar sua opinião para números de telefone que são atribuídos a usuários ou números de telefone que você pode atribuir a um usuário. Você pode filtrar por:
     
    - **Todos** os números de telefone, inclusive números de telefone de serviço.
     
@@ -95,14 +95,14 @@ Ao configurar usuários em sua organização para fazer e receber chamadas, prim
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo do **Centro de administração do Skype for Business**, vá para **Voz** > **Usuários de voz**.
     
     > [!IMPORTANT]
     > Para você ver a opção de **voz** no painel de navegação esquerdo no Skype para centro de administração de negócios, primeiro você deve comprar uma licença de complemento de **Conferência de áudio** , uma licença de complemento de **Sistema telefônico** ou pelo menos uma **licença Enterprise E5**.
     
-4. You can use the drop-down list to filter your view for active users, whether the user is Online or on-premises, or the state and type of licensing for a user. You can filter by:
+4. Você pode usar a lista suspensa para filtrar a exibição para usuários ativos, se o usuário está Online ou no local, ou o estado e tipo de licenciamento para um usuário. Você pode filtrar por:
     
    - **Usuários ativos** e se um usuário está online ou no local.
     

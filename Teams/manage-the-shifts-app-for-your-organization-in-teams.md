@@ -1,5 +1,5 @@
 ---
-title: Gerenciar o aplicativo desloca para sua organização no Microsoft Teams
+title: Gerenciar o aplicativo Turnos para sua organização no Microsoft Teams
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -12,14 +12,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f761e36712b94274ccf88aa03bd3658c039d438
-ms.sourcegitcommit: 71ba178ff60c4b36d4d8e287be9b16233a29ad55
+ms.openlocfilehash: 204dc5899a72b1bc1516441ca8654e7341f19942
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28022911"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754523"
 ---
-# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo desloca para sua organização no Microsoft Teams
+# <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerenciar o aplicativo Turnos para sua organização no Microsoft Teams
 
 > [!IMPORTANT]
 > A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando StaffHub recursos, incluindo gerenciamento de agenda e tarefa, em Microsoft Teams. Recursos adicionais para os trabalhadores firstline serão distribuir às equipes ao longo do tempo. Para saber mais, consulte [Microsoft StaffHub para ser retirado](https://support.office.com/article/microsoft-staffhub-to-be-retired-30ca17f3-5502-4bc9-bb0a-bed04bb362f0).  
@@ -49,7 +49,7 @@ Atualmente, os dados de desloca são armazenados no Windows Azure em centros de 
 Desloca é habilitado por padrão para todos os usuários de equipes em sua organização. Você pode desativar ou ativar o aplicativo para sua organização no Centro de administração do Microsoft 365.
 
 1. Entrar no Centro de administração do Microsoft 365 com sua conta de administração do Office 365.
-2. Vá para **configurações** > **Serviços & suplementos** > **Equipes da Microsoft**. 
+2. Vá para **configurações** > **Serviços & complementos** > **Equipes da Microsoft**. 
 3. Em **configurações de todo o locatário**, selecione **aplicativos**e em **Aplicativos padrão**, desmarque ou marque a caixa de seleção **desloca** para desativar ou ativar o aplicativo. 
 
     ![Captura de tela da seção aplicativos padrão] (media/firstline-worker-enable-disable-shifts.png "Captura de tela da seção padrão Apps no Centro de administração do Microsoft 365, mostrando a lista de aplicativos, incluindo o aplicativo desloca")
@@ -62,13 +62,13 @@ Políticas de configuração de aplicativo permitem que você personalize equipe
  
 As equipes inclui uma diretiva de instalação de aplicativo FirstLineWorker interna que você pode atribuir aos trabalhadores firstline em sua organização. Por padrão, a política inclui os aplicativos de atividade, desloca, Chat e chamada. 
 
-Para exibir a política de FirstLineWorker, no painel de navegação à esquerda do Skype para Business Admin Center & Teams da Microsoft, vá para **equipes app** > **políticas de configuração de aplicativo**.
+Para exibir a política de FirstLineWorker, no painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes app** > **políticas de configuração de aplicativo**.
 
-![Captura de tela da política de instalação de app FirstLineWorker no Skype para Business Admin Center & equipes da Microsoft] (media/firstline-worker-app-setup-policy.png "Captura de tela da política de instalação de app FirstLineWorker no Skype para Business Admin Center & equipes da Microsoft")
+![Captura de tela da política de instalação de aplicativo FirstLineWorker no Centro de administração de equipes da Microsoft] (media/firstline-worker-app-setup-policy.png "Captura de tela da política de instalação de aplicativo FirstLineWorker no Centro de administração de equipes da Microsoft")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Atribuir a política de FirstLineWorker a usuários individuais
 
-1. No painel de navegação à esquerda do Skype para Business Admin Center & Teams da Microsoft, vá para **usuários**e, em seguida, clique no usuário.
+1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
 2. Ao lado de **políticas atribuído**, escolha **Editar**.
 3. Em **política de instalação do aplicativo de equipes**, selecione **FirstLineWorker**e, em seguida, escolha **Salvar**.
 

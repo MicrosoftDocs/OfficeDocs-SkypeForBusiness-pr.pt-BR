@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como ativar ou desativar o Skype de enviar e-mails para usuários quando configurações, como alterações de PIN ou o número de conferência padrão, são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 2c082410f7acf000473e001f46587025edd6e9c7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f0573a0dec22791bd49eeeb6be6235ae2838c70
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015537"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754133"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência no Microsoft Teams
 
-Os usuários são notificados automaticamente por email quando estiverem habilitados para conferência de áudio. Pode haver momentos, no entanto, quando você deseja reduzir o número de emails que serão enviadas aos usuários do Microsoft Teams. Nesses casos, você pode desabilitar o envio de email.
+Os usuários são notificados automaticamente por e-mail quando são habilitados para audioconferência. Pode haver ocasiões, no entanto, em que você deseja reduzir o número de e-mails enviados aos usuários do Microsoft Teams. Nesses casos, você pode desabilitar o envio de e-mails.
   
 Se você desabilitar o envio de e-mails, nenhum e-mail de audioconferência será enviado para os usuários, incluindo e-mails notificando quando o usuário está habilitado ou desabilitado para audioconferência, quando o PIN é redefinido ou quando o número de telefone padrão e o ID de conferência são alterados.
   
@@ -58,7 +58,8 @@ Aqui está um exemplo de e-mail enviado aos usuários habilitados para audioconf
 
 É possível usar o Microsoft Teams ou o Windows PowerShell para habilitar ou desabilitar o envio de e-mails para os usuários.
 
-![teams-logo-30x30.png](media/teams-logo-30x30.png) **Usar o centro de administração do Microsoft Teams e do Skype para Business:**
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+
 1. Na navegação à esquerda, vá para **Reuniões** > **Pontes de conferência**. 
 
 2. No topo da página **Pontes de conferência**, clique em **Configurações da ponte**. 

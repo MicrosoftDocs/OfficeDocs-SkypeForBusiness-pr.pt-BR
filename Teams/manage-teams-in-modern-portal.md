@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes no & Teams Microsoft Skype para Business Admin Center
+title: Gerenciar equipes em Centro de administração do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,39 +8,39 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: islubin
-description: Saiba como exibir ou atualizar suas equipes no & Teams Microsoft Skype para Business Admin Center.
+description: Saiba como exibir ou atualizar suas equipes no Centro de administração do Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8e60f8a5d7aaf2638e1220baf1c41a59075ae0
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706438"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754183"
 ---
-<a name="manage-teams-in-the-microsoft-teams--skype-for-business-admin-center"></a>Gerenciar equipes no & Teams Microsoft Skype para Business Admin Center
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes em Centro de administração do Microsoft Teams
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
 ## <a name="overview"></a>Visão geral
 
-Como um administrador de TI, você pode precisar exibir ou atualizar as equipes que sua organização tiver configurado para colaboração, ou você podem precisar efetuar as ações de remediação como atribuir proprietários para equipes sem proprietários. Você pode gerenciar as equipes usadas na sua organização por meio do módulo de PowerShell de equipes da Microsoft e o & Teams Microsoft Skype para Business Admin Center. Para os recursos de administração completos usando esses dois conjuntos de ferramentas, verifique se você recebem uma das seguintes funções:
+Como um administrador de TI, você pode precisar exibir ou atualizar as equipes que sua organização tiver configurado para colaboração, ou você podem precisar efetuar as ações de remediação como atribuir proprietários para equipes sem proprietários. Você pode gerenciar as equipes usadas na sua organização por meio do módulo de PowerShell de equipes da Microsoft e o Centro de administração do Microsoft Teams. Para os recursos de administração completos usando esses dois conjuntos de ferramentas, verifique se você recebem uma das seguintes funções:
 
 - Administrador global
 - Administrador de Serviço de Equipes
 
 Você também deve garantir que sua conta tenha sido atribuída uma licença de equipes não seja de avaliação para o gerenciamento. Como parte de um problema conhecido, você deve garantir que sua conta tem apenas **uma** função de administrador atribuída.  Você pode aprender mais sobre as funções de administrador no Microsoft Teams em [equipes da Microsoft usar funções de administrador para gerenciar equipes](using-admin-roles.md)e você pode ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps).  
 
-Este artigo fornece uma visão geral das ferramentas de gerenciamento para equipes no & Teams Microsoft Skype para Business Admin Center.
+Este artigo fornece uma visão geral das ferramentas de gerenciamento para equipes no Centro de administração do Microsoft Teams.
 
 ## <a name="teams-overview-grid"></a>Grade de visão geral de equipes
 
-Ferramentas de gerenciamento para equipes estão sob o nó de **equipes** no & Teams Microsoft Skype para Business Admin Center. (No Centro de administração, selecione **equipes** > **gerenciar equipes**.) Cada equipe é feito por um grupo do Office 365 e este nó fornece um modo de exibição dos grupos que foram habilitados para equipes em sua organização do Microsoft.
+Ferramentas de gerenciamento para equipes estão sob o nó de **equipes** no Centro de administração do Microsoft Teams. (No Centro de administração, selecione **equipes** > **gerenciar equipes**.) Cada equipe é feito por um grupo do Office 365 e este nó fornece um modo de exibição dos grupos que foram habilitados para equipes em sua organização do Microsoft.
 
 > [!NOTE]
 > Estamos no processo backfilling criado anteriormente equipes para garantir que eles serão exibidas nesse modo de exibição.
@@ -94,7 +94,7 @@ As alterações feitas em uma equipe são registradas. Se você estiver modifica
 
 **Problema: As equipes ausentes da grade de visão geral da equipe**
 
-Quando você insere o & Teams Microsoft Skype para Business Admin Center, sob a opção de **equipes** algumas das suas equipes estão ausentes da listagem na grade de visão geral de equipes.
+Quando você insere o Centro de administração do Microsoft Teams, sob a opção de **equipes** algumas das suas equipes estão ausentes da listagem na grade de visão geral de equipes.
 
 **Causa**: esse problema ocorre quando a equipe foi atribuída incorretamente (ou ainda não) pelo sistema que pode resultar em uma propriedade ausente para que ele seja reconhecida.
 
@@ -112,7 +112,7 @@ Substitua **{groupid}** na consulta referente a GroupId real em questão, que vo
 
 5. Execute a consulta na parte superior direita.
 
-6. Confirme que a equipe corretamente aparece novamente no & Teams Microsoft Skype para Business Admin Center - visão geral da equipe
+6. Confirmar que a equipe seja exibido corretamente novamente no Centro de administração do Microsoft Teams - visão geral da equipe
 
 
 ## <a name="learn-more"></a>Saiba mais

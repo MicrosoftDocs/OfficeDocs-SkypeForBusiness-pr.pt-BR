@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bff0bc862313ecf5ef85152797266b8cc40b2be
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e948685a1a49920ca7cf200435266e2cbaaf165d
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349377"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754830"
 ---
 # <a name="upgrade-pro"></a>Atualizar Pro
 
@@ -122,4 +122,4 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 > Nosso conteúdo de profissionais de atualização está em constante evolução. Certifique-se de verificar novamente as orientações mais recentes e leia o [blog de equipes](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog).
 
 > [!Important]
-> Se você for um administrador no seu locatário do Office 365, você pode iniciar ver as opções de atualização em seu cmdlet do PowerShell ou equipes & Skype para Business Admin Center. Ter a opção de atualização não necessariamente significa que sua organização está pronta para que essa alteração. Para uma experiência de usuário ideal, confirme que as equipes atende aos seus requisitos de colaboração e comunicação, validar que sua rede está pronta para equipes de suporte e implementar seu plano de preparação do usuário antes de atualizar os usuários para equipes.
+> Se você for um administrador no seu locatário do Office 365, você pode iniciar ver as opções de atualização no Centro de administração do Microsoft Teams ou cmdlet do PowerShell. Ter a opção de atualizar não necessariamente significa que sua organização está pronta para essa alteração. Para uma experiência de usuário ideal, confirme que as equipes atende aos seus requisitos de colaboração e comunicação, validar que sua rede está pronta para equipes de suporte e implementar seu plano de preparação do usuário antes de atualizar os usuários para equipes.

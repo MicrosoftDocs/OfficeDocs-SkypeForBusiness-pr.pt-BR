@@ -9,16 +9,16 @@ ms.service: msteams
 description: Saiba como usar os controles do PowerShell para gerenciar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 477aa468cf057bd5f1a042acd5aff9772e8244f0
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+ms.openlocfilehash: 45714418f123022bc3545d4923bd18fc71bad746
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29442425"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754539"
 ---
 # <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
 
-Microsoft Teams tem um rico conjunto de ferramentas para administradores de TI gerenciar o produto por meio do & Teams Microsoft Skype para o Centro de administração de negócios, controles do PowerShell e APIs do gráfico. Este guia explica como podemos estruturar nossos cmdlets do PowerShell para administradores de TI ser usado e fornece ponteiros a documentação adicional. Observe que as diferentes funções de administrador de equipes têm acesso aos cmdlets diferentes. Para obter mais informações, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
+Microsoft Teams tem um rico conjunto de ferramentas para administradores de TI gerenciar o produto através do Centro de administração do Microsoft Teams, controles do PowerShell e APIs do gráfico. Este guia explica como podemos estruturar nossos cmdlets do PowerShell para administradores de TI ser usado e fornece ponteiros a documentação adicional. Observe que as diferentes funções de administrador de equipes têm acesso aos cmdlets diferentes. Para obter mais informações, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>Quais módulos você precisa usar?
 
@@ -75,7 +75,7 @@ Os cmdlets de gerenciamento de sua configuração estão no [Skype para o módul
 
 As configurações são partições de memória de configurações mantidas no serviço que não pode ser especificado em um nível de usuário. Configurações sempre se aplicam em toda a organização inteira. A configuração global é a configuração tem efeita apenas em sua organização. Cada tipo de configuração vem com dois cmdlets primários:
 
-- Por exemplo: ``Get-Cs<ConfigurationName>``. 
+- ``Get-Cs<ConfigurationName>``(por exemplo, ``Get-CsTeamsClientConfiguration``): 
 
 - CONJUNTO de comandos (por exemplo, ``Set-CsTeamsClientConfiguration``): definir propriedades na configuração desse tipo. Especifica os parâmetros que você deseja modificar.
    > É possível fazer referência a configuração que você está modificando em uma das duas maneiras: especificando -**Identidade Global**, ou executando por ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.

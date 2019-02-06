@@ -1,5 +1,5 @@
 ---
-title: Considerações de modo somente de equipes
+title: Considerações sobre o modo Teams Only (Apenas Teams)
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -14,20 +14,20 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39212613b7ecf86e7138c90adfbf5dc3a021ac46
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: d6342ba15ac05e9b26b2f62499c84fe43631ca94
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988236"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754507"
 ---
-# <a name="teams-only-mode-considerations"></a>Considerações de modo somente de equipes
+# <a name="teams-only-mode-considerations"></a>Considerações sobre o modo Teams Only (Apenas Teams)
 
-Se você é um administrador no seu locatário do Office 365, você verá agora a opção para atualizar para o modo equipes somente no Microsoft Teams & Skype para Business Admin Center.  Com essa funcionalidade, você pode atualizar usuários individuais, ou como alternativa, o locatário inteiro.  
+Se você é um administrador no seu locatário do Office 365, você verá agora a opção para atualizar para o modo equipes somente no Centro de administração do Microsoft Teams. Com essa funcionalidade, você pode atualizar usuários individuais, ou como alternativa, o locatário inteiro.  
 
 Atualizando para o modo somente equipes oferece aos usuários todos os benefícios do Teams da Microsoft, o hub para o trabalho em equipe no Office 365, por meio de uma experiência de cliente único. Além disso, os usuários no modo exclusivo para equipes receberá todas as chamadas e bate-papos em equipes, independentemente se o remetente está usando o Skype para negócios ou equipes e se beneficiam de suporte de interoperabilidade e federação.
 
-Enquanto milhares de clientes tiverem atualizados com êxito a Microsoft Teams, há algumas considerações que podem influenciar da sua organização atualização cronograma e experiência do usuário ao longo do percurso. Em particular, tendo a opção de atualização não necessariamente significa que sua organização está pronta para que essa alteração. Para a melhor experiência de usuário, confirme que as equipes atende aos seus requisitos de colaboração e comunicação, certifique-se de que sua rede está pronta para equipes de suporte e implementar seu plano de preparação do usuário antes de atualizar os usuários para equipes. 
+Enquanto milhares de clientes tiverem atualizados com êxito a Microsoft Teams, há algumas considerações que podem influenciar da sua organização atualização cronograma e experiência do usuário ao longo do percurso. Em particular, tendo a opção de atualização não necessariamente significa que sua organização está pronta para que essa alteração. Para obter a melhor experiência do usuário, confirme se o Microsoft Teams atende a seus requisitos de colaboração e comunicação, verifique se a rede está pronta para dar suporte ao Microsoft Teams e implemente seu plano de preparação do usuário antes de atualizar os usuários para o Microsoft Teams. 
 
 > [!IMPORTANT]
 > Se você apenas começando seu planejamento de atualização, certifique-se de examinar nossa orientação de atualização completa e recursos de planejamento. [Iniciar aqui](upgrade-introduction.md). 

@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: Saiba como usar as diferentes funções administrativas para gerenciar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b9342703fbfd25992821984b2f40638d7bda62
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 824c9d93c98bb1f6fd9af0cbb93bac24f84e926e
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789194"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754311"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams
 
@@ -23,20 +23,20 @@ Usando o Windows Azure Active Directory (AD Azure), você pode designar os admin
 
 ## <a name="teams-roles-and-capabilities"></a>As equipes de funções e recursos
 
-Há quatro funções de administrador de equipes: administrador de serviço de equipes, administrador de comunicação de equipes, especialista equipes de suporte de comunicações e comunicações de equipes engenheiro de suporte. Analise a tabela a seguir para entender o que cada função pode fazer e quais Ferram o administrador pode usar em equipes e Skype para o Centro de administração de negócios e do PowerShell.
+Há quatro funções de administrador de equipes: administrador de serviço de equipes, administrador de comunicação de equipes, especialista equipes de suporte de comunicações e comunicações de equipes engenheiro de suporte. Analise a tabela a seguir para entender o que cada função pode fazer e quais Ferram o administrador pode usar no Centro de administração do Microsoft Teams and PowerShell.
 
 <!-- add Global admin role? -->
 
 | Função | Pode fazer essas tarefas | Pode acessar as seguintes ferramentas |
 |----- | ------------------ | ------------------------------ |
-| Administrador de Serviço de Equipes | Gerenciar o serviço Microsoft Teams, gerenciar e criar grupos do Office 365 | Tudo no Microsoft Teams & Skype para o Centro de administração de negócios e controles de PowerShell associados, incluindo:<br><br> Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Gerenciar mensagens, incluindo mensagens de políticas<sup>1,3</sup><br><br> Gerenciar todas as configurações de toda a organização, incluindo configurações de cliente equipes<sup>1,3</sup> , equipes de atualização e federação<br><br> Gerenciar as equipes na organização e suas configurações associadas, incluindo a associação (suportado via PowerShell, gerenciamento de equipe no portal de administração de aplicação do gerenciamento de grupo) <sup>23</sup><br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
+| Administrador de Serviço de Equipes | Gerenciar o serviço Microsoft Teams, gerenciar e criar grupos do Office 365 | Tudo no Centro de administração do Microsoft Teams e controles de PowerShell associados, incluindo:<br><br> Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Gerenciar mensagens, incluindo mensagens de políticas<sup>1,3</sup><br><br> Gerenciar todas as configurações de toda a organização, incluindo configurações de cliente equipes<sup>1,3</sup> , equipes de atualização e federação<br><br> Gerenciar as equipes na organização e suas configurações associadas, incluindo a associação (suportado via PowerShell, gerenciamento de equipe no portal de administração de aplicação do gerenciamento de grupo) <sup>23</sup><br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
 | Administrador de Comunicações de Equipes | Gerenciar recursos de chamadas e reuniões no serviço Microsoft Teams | Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
 | Engenheiro de Suporte de Comunicações de Equipes | Solucionar problemas de comunicação em equipes usando ferramentas **avançadas** . | Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
 | Especialista de suporte de comunicação de equipes | Solucionar problemas de comunicação dentro de equipes, usando as ferramentas **básicas** .| Acesso à página de perfil de usuário para solucionar problemas de chamadas na análise de chamada. Só pode exibir informações do usuário específico que está sendo pesquisado.<sup>3</sup>
 
 <sup>1</sup> [PowerShell - Skype para o módulo de negócios](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell - módulo de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
-<sup>3</sup> [equipes da Microsoft e Skype para Business Admin Center](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
+<sup>3</sup> [Centro de administração de equipes da Microsoft](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
 <!-- <sup>4</sup> Azure Active Directory Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
@@ -55,7 +55,7 @@ A maioria das ferramentas do PowerShell para essas funções de administrador li
    a. $session = new-csonlinesession<br>
    b. Import-pssession $session<br>
    c. Use o **Get-Module** para identificar o nome da sessão importado (ele será um nome gerado aleatoriamente).<br>
-3. Uso **Get-Command - Module** <*nome acima*> para identificar todos os cmdlets disponíveis
+3. Uso **Get-Command - Module** <gt _ do*nome de cima*para identificar todos os cmdlets disponíveis
 
 ### <a name="related-topics"></a>Tópicos relacionados
 

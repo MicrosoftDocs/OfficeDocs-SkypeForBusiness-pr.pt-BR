@@ -1,5 +1,5 @@
 ---
-title: Definir o telefone números incluídos no convidam no Teams da Microsoft
+title: Definir os números de telefone incluídos em convites no Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha as etapas para criar um número de telefone padrão para os chamadores ingressar em uma reunião do Microsoft Teams. '
-ms.openlocfilehash: 20dfd4255cd41e9f5aebf419f77307b30fe40042
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533291"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754555"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Definir os números de telefone incluídos em convites no Microsoft Teams
 
@@ -49,15 +49,15 @@ Depois que o usuário estiver habilitado para o serviço de conferência de áud
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Definir ou alterar o número de telefone de conferência de áudio padrão para um usuário ou o organizador da reunião
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando equipes da Microsoft e Skype para Business Admin Center
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-    ![Mostra a seleção de usuários no Microsoft Teams e Skype para centro de administração do Business](media/teamsselectusers.png)
+    ![Mostra a seleção de usuários no Centro de administração do Microsoft Teams](media/teamsselectusers.png)
 
 2. Na parte superior da página, clique em **Editar**.
 
-    ![Clique em Editar no Microsoft equipes e Skype para Business Admin Center](media/teamsedituser.png)
+    ![Clique em Editar no Centro de administração do Microsoft Teams](media/teamsedituser.png)
 
 3. Ao lado de **Conferência de áudio**, clique em **Editar**. 
     

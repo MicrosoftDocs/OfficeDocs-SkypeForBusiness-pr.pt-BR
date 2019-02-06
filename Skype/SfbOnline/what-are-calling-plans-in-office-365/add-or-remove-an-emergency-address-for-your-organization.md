@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to add an emergency address to your Skype for Business account. '
-ms.openlocfilehash: a1e1421e79b25da37f26c09b271abb67f7b3340b
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: d2eddc3812919a187fffa01279136be2a7735095
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635750"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753672"
 ---
 # <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Adicionar, alterar ou remover um endereço de emergência para sua organização
 
@@ -40,7 +40,7 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft & Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **Voz** > **Locais de emergência** e, em seguida, clique no botão **Adicionar novo endereço**.
     
@@ -64,7 +64,7 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft & Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**, selecione o endereço que você deseja alterar e, no painel de ações, clique em **Editar**.
     
@@ -79,7 +79,7 @@ Para saber como obter um Plano de Chamadas e quanto ele custa, consulte [Licenci
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft e Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **locais de emergência**, selecione o endereço que você deseja excluir e, no painel de ações, clique em **Excluir**.
     
@@ -106,7 +106,7 @@ Se, na verdade, um endereço de emergência errado tiver sido usado, verifique s
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as **equipes da Microsoft & Skype para Business Admin Center** > **portal herdada**.
+2. Vá para o **Centro de administração do Microsoft equipes** > **portal herdada**.
     
 3. No painel de navegação esquerdo, vá para **voz** > **Números de telefone**e, em seguida, clique duas vezes no número no estado **"Falha"** e, no menu site mão direita, selecione o **Novo endereço de emergência**.
 
