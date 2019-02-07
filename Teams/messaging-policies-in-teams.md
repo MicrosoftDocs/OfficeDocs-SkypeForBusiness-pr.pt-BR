@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como eles podem ser usados para controlar as equipes de mensagens de chat.
-ms.openlocfilehash: 5292d88c148e2bd23242f96a3593d98178b9a923
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
+ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760579"
+ms.locfileid: "29763712"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Quais são as políticas de mensagens no Microsoft Teams?
 ::: zone target="docs"
@@ -32,7 +32,6 @@ As políticas podem ser facilmente gerenciadas no Centro de administração de e
 ![Políticas de mensagens em equipes](media/messaging-policies.png)
 ::: zone-end
 
-::: zone target="chromeless"
 As configurações disponíveis para a política estão descritas abaixo: 
 
 - **Os proprietários podem excluir as mensagens enviadas**  Use esta configuração para permitir que os proprietários excluir mensagens que os usuários enviam em bate-papo.
@@ -51,12 +50,10 @@ As configurações disponíveis para a política estão descritas abaixo:
 - **Adesivos de uso em conversas** Se você ativar isso, os usuários podem incluir adesivos em conversas de bate-papo com outras pessoas.
 - **Visualizações de URL permitir** Use esta configuração para ativar automática URL pré-visualizar ativada ou desativada nas mensagens.
 - **Permitir que os usuários para traduzir mensagens** Ative esta configuração para permitir que os usuários automaticamente traduzir mensagens de equipes para o idioma especificado por suas configurações de idioma pessoal para o Office 365.
-::: zone-end
 
 ::: zone target="docs"
 Se você tiver criado uma política personalizada de mensagens, ele só será ativo para um usuário se essa diretiva é atribuída a um usuário.  Para atribuir uma política personalizada a um usuário no Centro de administração de equipes, clique em **usuários** no painel de navegação esquerdo, selecione o usuário que você deseja atribuir a política e escolha **Editar** em **Políticas atribuídas**.
-
+::: zone-end
 
 ### <a name="related-topics"></a>Tópicos relacionados
 [Políticas de reunião no Teams](meeting-policies-in-teams.md)
-::: zone-end
