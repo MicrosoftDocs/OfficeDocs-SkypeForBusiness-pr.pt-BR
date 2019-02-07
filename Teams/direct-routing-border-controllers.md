@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Parceiros da Microsoft com fornecedores SBC selecionados para certificar a seus SBCs funcionam com o roteamento direto.
-ms.openlocfilehash: b14463bfeb7010e23a567517b34b6a6d8595c478
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: f4154280b23fbd1d8b9f1a82b5877f58c04a1c70
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735210"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760595"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -60,10 +60,10 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   Pendente    |      V7.0.2      |
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |   Pendente    |      V7.0.4      |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pendente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Pendente  |   GA MR ECZ8.1.0-1 (compilação 145)  |
-|                                                                                                                    |    AP 3900           |    &#10004;     |   Pendente  |   GA MR ECZ8.1.0-1 (compilação 145)  | 
-|                                                                                                                    |      AP 4600         |    &#10004;   |   Pendente    |     GA MR ECZ8.1.0-1 (compilação 145)  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |   Pendente    |     GA MR ECZ8.1.0-1 (compilação 145)  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |   Pendente    |     GA MR ECZ8.1.0-1 (compilação 145)  |                                             
-|                                                                                                                    |      VME           |    &#10004;    |   Pendente    |     GA MR ECZ8.1.0-1 (compilação 145)   |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Pendente  |   ECZ8.1m1p6  |
+|                                                                                                                    |    AP 3900           |    &#10004;     |   Pendente  |   ECZ8.1m1p6  | 
+|                                                                                                                    |      AP 4600         |    &#10004;   |   Pendente    |     ECZ8.1m1p6  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |   Pendente    |     ECZ8.1m1p6  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |   Pendente    |     ECZ8.1m1p6  |                                             
+|                                                                                                                    |      VME           |    &#10004;    |   Pendente    |     ECZ8.1m1p6   |
 |                     [SISTEMAS DE TE](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Pendente    |      V3.16.2      |

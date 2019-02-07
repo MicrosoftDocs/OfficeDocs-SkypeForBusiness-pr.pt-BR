@@ -12,16 +12,17 @@ description: Saiba como gerenciar dispositivos usados com equipes em sua organiz
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb306930b4adca9c50e46ad1515324bbac2a2e2d
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: f1cf2dcc1d300490d1b3049c9513d0c4e16c3f83
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754191"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760587"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gerenciar seus dispositivos no Microsoft Teams
 
- Como um administrador, você gerencia todos os dispositivos usados com equipes na sua organização do Centro de administração do Microsoft Teams. Você pode exibir e gerenciar o inventário de dispositivos para sua organização e executar tarefas como atualização, reinicialização e diagnósticos de monitor para dispositivos. Você também pode criar e atribuir perfis de configuração para um dispositivo ou grupos de dispositivos. 
+::: zone target="docs"
+Como um administrador, você gerencia todos os dispositivos usados com equipes da organização a & Teams Microsoft Skype para centro de administração de negócios. Você pode exibir e gerenciar o inventário de dispositivos para sua organização e executar tarefas como atualização, reinicialização e diagnósticos de monitor para dispositivos. Você também pode criar e atribuir perfis de configuração para um dispositivo ou grupos de dispositivos. 
 
 ## <a name="what-devices-can-you-manage"></a>Quais dispositivos você pode gerenciar?
 Dispositivos devem ser certificados para equipes e inscritos no equipes. Um dispositivo é automaticamente inscritos na primeira vez que um usuário entra no equipes no dispositivo. Para obter uma lista de dispositivos de certificados que podem ser gerenciadas, consulte [telefones de conferência](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) e [telefones de mesa](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
@@ -35,6 +36,8 @@ Dispositivos devem ser certificados para equipes e inscritos no equipes. Um disp
 
 1. No painel de navegação esquerdo, vá para **dispositivos** > **Gerenciar dispositivos**.
 2. Selecione **todos os dispositivos**.  
+
+::: zone-end
 
  A partir daqui, você pode exibir e gerenciar todos os dispositivos inscritos no equipes em sua organização. Informações que você verá para cada dispositivo incluem histórico, fabricante, modelo, usuário, status, ação, última vistas e nome do dispositivo. Você pode personalizar o modo de exibição para mostrar as informações que atenda às suas necessidades.
 
@@ -54,18 +57,28 @@ Use os perfis de configuração para gerenciar configurações e recursos para o
 
 ### <a name="create-a-configuration-profile"></a>Criar um perfil de configuração
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+::: zone target="docs"
+
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando o & Teams Microsoft Skype para o Centro de administração de negócios
 
 1. No painel de navegação esquerdo, vá para **dispositivos** > **Gerenciar dispositivos**.
+
+::: zone-end
+
 2. Selecione os **perfis de configuração**e, em seguida, selecione o **novo perfil de configuração**.
 3. Insira um nome para o perfil e se desejar, adicione uma descrição amigável.
 4. Especifique as configurações que você deseja para o perfil e clique em **Salvar**.
 
 ### <a name="assign-a-configuration-profile"></a>Atribuir um perfil de configuração
 
-![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) **usando o Centro de administração de equipes da Microsoft**
+::: zone target="docs"
+
+![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) Usando o & Teams Microsoft Skype para o Centro de administração de negócios
 
 1. No painel de navegação esquerdo, vá para **dispositivos** > **Gerenciar dispositivos**.
+
+::: zone-end
+
 2. Selecione o **perfil de configuração**e, em seguida, em **atribuído para** o perfil que você deseja atribuir, clique no link.  
 3. No painel de **atribuir um perfil de configuração dos dispositivos** , procure e selecione os dispositivos que você deseja atribuir.
 4. Clique em **Salvar**.

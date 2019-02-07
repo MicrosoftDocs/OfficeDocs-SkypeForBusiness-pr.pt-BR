@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução ao modelos de saúde de equipes da Microsoft
-ms.openlocfilehash: 7d55d2d6a5f062bc5eb85b6bfc5227f7813c91ca
-ms.sourcegitcommit: fddb1d6798e7a716ad87b0613f45a76deff6a043
+ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "29735625"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760563"
 ---
 # <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Introdução ao modelos de saúde de equipes da Microsoft
 
@@ -34,7 +34,7 @@ O modelo de bairro destina-se a comunicação e colaboração em um bairro, pod 
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
-|Saúde - bairro | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Anúncios\* <br> Luzes de chamada\* <br> Coisas divertida\* <br> Huddles\* <br>Arredonda\* <br>Treinamento\* |
+|Saúde - bairro | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Anúncios\* <br> Huddles\* <br> Arredonda\* <br> Criação da equipe\* <br> Treinamento\* |
 |     | |         |
 
 \*Auto-favorited 
@@ -45,7 +45,7 @@ O modelo de hospital destina-se a comunicação e a colaboração entre vários 
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
-|Saúde - Hospital | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWardWide   | Anúncios\* <br> Conformidade\* <br> Coisas divertida\* <br>Custódia<br>Finanças<br>Recursos humanos <br>Laboratório<br> Farmácia |
+|Saúde - Hospital | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Anúncios\* <br> Conformidade\* <br> Custódia <br> Recursos humanos <br> Farmácia |
 | | |  |
 
 \*Auto-favorited 
@@ -58,7 +58,7 @@ Para usar esses modelos, basta altere a propriedade 'template@odata.bind' no cor
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospitalWide",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

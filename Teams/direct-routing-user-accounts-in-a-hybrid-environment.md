@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
-ms.openlocfilehash: f85a9903c2b1d35d110c26b276305ed4c9ce949a
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: 6f1cdbfc012026d7a41f5ca96e730aeb861eeb40
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635720"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760555"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 
@@ -34,7 +34,7 @@ Este artigo se aplica a ambientes nos quais você tem todos os seguintes itens:
 - Usuários habilitados para fazer e receber chamadas de rede de telefônica pública comutada (PSTN) para e do cliente
 
  
-Se você tiver um ambiente diferente (por exemplo, o Skype para o conector de nuvem Business Edition), híbrida não estiver configurada ou os usuários não serão habilitados para chamadas PSTN, a matriz de suporte serão diferente.  
+Se você tiver um ambiente diferente (por exemplo, o Skype para o conector de nuvem Business Edition), híbrida não estiver configurada ou não, os usuários estão habilitados para chamadas PSTN, a matriz de suporte serão diferente.  
 
 ## <a name="about-the-combinations-and-the-supportability-statement"></a>Sobre as combinações e a declaração de suporte  
 
@@ -43,12 +43,12 @@ Um Skype para ambiente híbrido de negócios com conectividade PSTN fornece flex
 
 **Definições:**   
 - **Enterprise Voice:** Opção para fornecer acesso à PSTN para usuários com Skype local para a conta de usuário de negócios. Skype local para o servidor de mediação de negócios fornece interconectividade para PSTN.  
-- **Conectividade de voz híbrido:** Opção para fornecer acesso à PSTN para com Skype on-line para a conta de negócios. Skype local para o servidor de mediação de negócios fornece interconectividade para PSTN. 
+- **Conectividade de voz híbrido:** Opção para fornecer acesso à PSTN para usuários com Skype para conta Business Online. Skype local para o servidor de mediação de negócios fornece interconectividade para PSTN. 
 - **Direcionar circulação:** Opção para fornecer acesso à PSTN para usuários com Skype online para conta de negócios, licença Teams da Microsoft, usando o cliente do Microsoft Teams. O SBC está conectado ao Proxy SIP no Office 365 sem necessidade de nenhum software no local da Microsoft.
 
   
 **O ambiente suporta as seguintes combinações:**
-- **Cenário 1:** Skype for Business no local de conta de usuário e usará o Skype para clientes corporativos com o Enterprise Voice
+- **Cenário 1:** Usuário conta Skype para negócios local e usará o Skype para o cliente de negócios com o Enterprise Voice
 - **Cenário 2:** Usuário conta Skype para negócios on-line e usará o Skype para o cliente de negócios com conectividade de voz híbrida
 - **Cenário 3:** Usuário conta com licença de Teams Microsoft Skype para negócios on-line e usará o cliente de equipes
  

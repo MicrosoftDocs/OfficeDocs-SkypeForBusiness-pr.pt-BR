@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 description: Este artigo resume os requisitos para dar suporte a sistemas de sala Skype v2.
-ms.openlocfilehash: 8cadbed89be0301071c2c8a30c715f786b549d36
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: d54ace878e45344075a166c257efa18aa150b0e3
+ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716448"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29760603"
 ---
 # <a name="skype-room-systems-v2-requirements"></a>Requisitos do Skype Room Systems versão 2
 
@@ -47,11 +47,10 @@ Sistemas de sala Skype v2 pode ser dimensionado para tamanhos diferentes de sala
 
 |Tablet|Processador|RAM|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro (2017)  |Núcleo i5  |8GB  |256GB  |
-|Surface Pro (2017)  |Núcleo i5  |8GB  |128GB  |
-|Surface Pro (2017)  |Núcleo i5  |4GB  |128GB  |
-|Surface Pro 4       |Núcleo i5  |8GB  |256GB  |
-|Surface Pro 4       |Núcleo i5  |4GB  |128GB  |
+|Surface Pro 6  |Núcleo i5 (8350U)  |16GB ou 8GB  | 128GB ou mais  |
+|Surface Pro 6  |Core i7 (8650U) |16GB ou 8GB  |128GB ou mais  |
+|Surface Pro (2017)  |Núcleo i5  |8GB ou 4GB  |128GB ou mais  |
+|Surface Pro 4       |Núcleo i5  |8GB ou 4GB  |128GB ou mais  |
 
 > [!NOTE]
 > Processadores de M3 Core não são suportados.
@@ -116,7 +115,7 @@ As tabelas a seguir fornecem recomendações para periféricos com base no taman
 
 **Skype sala sistemas v2 Certified periféricos de áudio**
 
-|**Tipo de sala**|**Número de pessoas**|**Distância máxima recomendada entre o microfone e a pessoa que está falando**|**Dispositivo, de acordo com o tamanho máximo da sala**|**Comentários**|
+|Tipo de sala|Número de pessoas|Distância máxima recomendada entre o microfone e a pessoa que está falando|Dispositivo, de acordo com o tamanho máximo da sala|Comentários|
 |:-----|:-----|:-----|:-----|:-----|
 |**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |1.5m   <br/> |Logitech Connect  <br/> |Os dispositivos Logitech conectar incluem uma câmera, portanto, ele deve ser posicionado à frente da sala (não o centro da tabela) para capturar os participantes da reunião local.  <br/> |
 |**Pequena** <br/> 16' x 16'  <br/> |4 a 6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |O volume de reprodução pode ser limitado em salas maiores.  <br/> |
@@ -143,7 +142,6 @@ Para criar sua própria imagem do Skype sala sistemas v2, siga as instruções e
 > Profissionais de TI precisará ter acesso aos arquivos do Windows 10 Enterprise ISO por meio de seu contrato de licenciamento por volume.
 
 Além disso, você pode querer uma cópia do [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), frequentemente usadas para provisionar contas do Skype sala sistemas v2.
-
 
 ## <a name="see-also"></a>Consulte também
 
