@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb84f58c48292c13bd4af6f355f5e4da22458c9
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715473"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771012"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Definir configurações de rede para roteamento baseado no local 
+# <a name="configure-network-settings-for-location-based-routing"></a>Definir configurações de rede para roteamento baseado no local
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
 Se você ainda não tiver feito isso, leia [Plan_Location-Based roteamento para roteamento direto](location-based-routing-plan.md) para revisar outras etapas que você precisará levar antes de implantar as configurações de rede para roteamento baseado no local.
 
@@ -59,7 +61,7 @@ A tabela a seguir mostra os sites de rede definidos neste exemplo.
 
 ## <a name="define-network-subnets"></a>Definir subredes
 
-Use o ``New-Cs-TenantNetworkSubnet`` cmdlet para definir subredes e associá-los aos sites de rede. Cada sub-rede interna só pode ser associado um site. 
+Use o ``New-CsTenantNetworkSubnet`` cmdlet para definir subredes e associá-los aos sites de rede. Cada sub-rede interna só pode ser associado um site. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -89,7 +91,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Definir as sub-redes externas
-Use o ``New-Cs-TenantTrustedIPAddress`` cmdlet para definir as sub-redes externas e atribuí-las ao inquilino. Você pode definir um número ilimitado de sub-redes para um inquilino. 
+Use o ``New-CsTenantTrustedIPAddress`` cmdlet para definir as sub-redes externas e atribuí-las ao inquilino. Você pode definir um número ilimitado de sub-redes para um inquilino. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

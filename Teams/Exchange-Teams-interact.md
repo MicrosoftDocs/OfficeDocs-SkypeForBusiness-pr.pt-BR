@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08e77d3792c6575748b43785f21ba389a957eedb
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742836"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770896"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -35,18 +35,20 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 
 **Ações suportadas:** 
 
-| A caixa de correio do usuário está hospedada em: | eDiscovery| Retenção legal | Retenção| Mgmt de equipe e de canal |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar os contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
+| A caixa de correio do usuário está hospedada em: | eDiscovery| Ofício&nbsp;bloqueio | Retenção| Mgmt de equipe e de canal |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar os contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim |Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim |Sim|
-|**Exchange Online Dedicated vNext**|Sim<sup>2</sup>|Sim<sup>2</sup>|Sim |Sim |Sim|Sim|Sim |Sim|Sim|Sim|Sim |Sim |Sim |
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Sim<sup>4|Sim|Não|Não|Sim|Sim |Não|Não|Não|Sim|Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim,<sup>2, 3</sup>|Sim<sup>4|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim |Não|Não<sup>5|Não|Não|Sim|
-                                                            
+|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim |Sim|
+|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim|Sim |Sim|Sim|Sim|Sim |Sim |Sim |
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2,3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim |Não|Não|Não|Sim|Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2,3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim |Não|Não <sup>5|Não|Não|Sim|
+
 <sup>1</sup> do exchange 2016 CU3 e acima suportados  
 <sup>2</sup> eDiscovery e retenção Legal para fins de conformidade em mensagens de canal é suportado para todas as opções de hospedagem.  
 <sup>3</sup> mensagens de bate-papo privado equipes ainda não são aceitas para a retenção Legal para essa opção de hospedagem.
+
 <sup>4</sup> retenção usará uma caixa de correio de sombra para o usuário online para armazenar mensagens. [Microsoft suporta o equipes eDiscover para o usuário de equipes em um ambiente híbrido do Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
-<sup>4</sup> usuários de equipes com no local de caixa de correio do Exchange pode usar a caixa postal com equipes e receber mensagens da caixa postal no Outlook, mas as mensagens da caixa postal não estará disponível para visualizar ou reproduzir no cliente equipes.
+
+<sup>5</sup> usuários de equipes com no local de caixa de correio do Exchange pode usar a caixa postal com equipes e receber mensagens da caixa postal no Outlook, mas as mensagens da caixa postal não estará disponíveis para visualizar ou reproduzir no cliente equipes.
 
 Informações adicionais:
 

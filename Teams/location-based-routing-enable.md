@@ -13,14 +13,16 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3468b413fedc5d3e24871a632f50b5d58c7c5467
-ms.sourcegitcommit: 9f767b48e5f0eaf43869cba9c42ba3ba3225bcf6
+ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "29715449"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29771004"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o roteamento baseado no local para roteamento direto
+
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Antes de seguir as etapas neste artigo, verifique se você tiver ler [Plan Location-Based roteamento para roteamento direto](location-based-routing-plan.md) e concluir as etapas em [definir configurações de rede para roteamento baseado em local](location-based-routing-configure-network-settings.md).
 
@@ -34,7 +36,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
 
 ## <a name="enable-location-based-routing-for-users"></a>Habilitar o roteamento baseado no local para usuários
 
-1. Use o ``Set-CsOnlinPstnUsages`` cmdlet para definir os usos da PSTN. Para vários usos, separe cada uso com uma vírgula.
+1. Use o ``Set-CsOnlinePstnUsages`` cmdlet para definir os usos da PSTN. Para vários usos, separe cada uso com uma vírgula.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 

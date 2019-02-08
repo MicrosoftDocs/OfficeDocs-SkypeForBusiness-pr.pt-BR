@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, considerações sobre planejamento e requisitos necessários para implementar o serviço de correio de voz de nuvem da Microsoft. Para obter informações sobre como configurar a caixa postal de nuvem, consulte Configurando o correio de voz de nuvem.
-ms.openlocfilehash: d1e962f36cdefafdd1efa2d02a719eed1d2e93fd
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: e16ad9fb123342f7ac7e780f43bffd9b54b82ce6
+ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349020"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29770912"
 ---
 # <a name="plan-cloud-voicemail-service"></a>Planejar o serviço de correio de voz de nuvem
 
@@ -93,7 +93,7 @@ Interoperabilidade da versão e topologias suportadas para caixa postal de nuvem
 Skype for Business Server 2015 | Unificação de mensagens do Exchange Server | Unificação de mensagens do Exchange Server |  | Caixa postal de nuvem <br> Exchange Online UM * |
 Lync Server 2013 <br>  | Unificação de mensagens do Exchange Server | Unificação de mensagens do Exchange Server | | Caixa postal de nuvem <br> Exchange Online UM * |
 
-\*Até preterida.
+\*Até preterida. Consulte [suporte de migração Exchange Unified Messaging Online](../plan/exchange-unified-messaging-online-migration-support.md) para obter mais informações. 
 
 A Microsoft recomenda os seguintes caminhos de migração:
 
