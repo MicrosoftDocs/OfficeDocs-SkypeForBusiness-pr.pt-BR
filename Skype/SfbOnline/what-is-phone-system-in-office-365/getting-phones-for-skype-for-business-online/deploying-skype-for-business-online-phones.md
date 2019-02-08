@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Conheça as etapas de implantação para obter o firmware correto, atualizá-la, se necessário, atribuir licenças e definir configurações para Skype para telefones online de negócios
-ms.openlocfilehash: f036f2fa47c99d1ea206192c15c901fc9391c1ee
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 04cb3aa17574f56d9069f07a10c1c6ae95f9576d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297653"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770358"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantar telefones para o Skype for Business Online
 
@@ -184,7 +184,7 @@ Você pode encontrar mais informações sobre Planos de Chamadas em [O que são 
     
 - **Bloqueio de telefone** é um recurso introduzido recentemente nos telefones certificados pelo Skype for Business que é usado para proteger um telefone. Se habilitada, os usuários serão solicitados para criar um PIN após a autenticação bem-sucedida. Depois de criado, os telefones serão bloqueados quando o tempo ocioso-limite que você definir expirar, um usuário bloqueia manualmente seu telefone ou ele sincroniza o bloqueio do telefone com o bloqueio do PC usando o Emparelhamento de Telefone. Se o PIN de bloqueio de telefone for inserido errado várias vezes, o telefone irá desconectar o usuário ou requerem código do administrador para desbloquear o telefone, mas isso irá variar dependendo do parceiro de telefone. O PIN do usuário deve estar entre 6 e 15 dígitos.
     
-    Você pode desabilitar o bloqueio de telefone para sua organização (que é habilitada por padrão), alterar o limite de ociosidade e escolher se os usuários podem fazer chamadas telefônicas enquanto eles estão bloqueadas ou não usando configurações de inband. Consulte [Set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) para obter mais detalhes sobre essas configurações.
+    Você pode desabilitar o bloqueio de telefone para sua organização (que é habilitada por padrão), alterar o limite de ociosidade e escolher se os usuários podem fazer chamadas telefônicas enquanto eles estão bloqueadas ou não usando configurações de inband. Consulte [Set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) para obter mais detalhes sobre essas configurações.
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Etapa 7 (opcional) - Se você tiver emparelhamento de dispositivo e Better Together over Ethernet (BToE)
 <a name="BK_BTOE"> </a>

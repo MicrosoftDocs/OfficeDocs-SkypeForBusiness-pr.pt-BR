@@ -1,5 +1,5 @@
 ---
-title: Telefones para equipes da Microsoft
+title: Telefones para o Microsoft Teams
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,48 +14,47 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones.
-ms.openlocfilehash: 8f6155939cc0834bb3f9fe89a3aef02cc3169bb3
-ms.sourcegitcommit: b67c2cb5ffd6d27cc9257c5e81ee1ea494ef8bd1
+ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "27383072"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770409"
 ---
-# <a name="phones-for-microsoft-teams"></a>Telefones para equipes da Microsoft
+# <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
 Teams da Microsoft oferece suporte a um portfólio de telefones de mesa para usuários que requerem uma experiência de telefone tradicional. Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones. Para obter as informações mais recentes e atualizadas nas equipes certified dispositivos, vá para [Equipes Marketplace](http://office.com/teamsdevices).
 
 ## <a name="teams-certified-ip-phones"></a>Equipes certificada telefones IP
-Para oferecer uma experiência de Teams Microsoft confiável e de alta qualidade em telefones, estamos parceria e trabalhando ativamente com Yealink, Crestron, Polycom e Audiocodes para desenvolver e certificar um portfólio ampla de telefones de mesa e dispositivos de áudio de sala de conferência.
+Para oferecer uma experiência de Teams Microsoft confiável e de alta qualidade em telefones, estamos parceria e trabalhando ativamente com Yealink, Crestron, Polycom e Audiocodes para desenvolver e certificar um portfólio ampla de telefones de mesa e dispositivos de áudio de sala de conferência. Consulte [Telefones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) para dispositivos suportados atuais.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de recursos de telefone Teams da Microsoft
 
 Um conjunto de alto nível dos recursos suportados em equipes certificada telefones IP está disponível na tabela a seguir.
 
-
 |Recursos |Telefone de mesa (modo pessoal) |Telefone de sala de conferência (modo compartilhado)|
 |---------|---------|---------|
 |**Autenticação** | |  |
-|Entre com as credenciais dos usuários |  Sim | Sim|
-|Entrar usando o PC/Smartphone  | Sim |Sim|
-|Autenticação moderna | Sim |Sim |
+|Entre com as credenciais dos usuários |  Sim  | Sim |
+|Entrar usando o PC/Smartphone  | Sim  |Sim|
+|Autenticação moderna | Sim  |Sim  |
 |Bloquear/desbloquear Phone | Sim |Não |
 |**Chamadas** |  |  |
-|Chamadas de entrada/saída P2P | Sim  |Sim |
-|Pela interface do usuário (mudo, espera/continuar, transferência, encerrar a chamada), os controles de chamada| Sim  |Sim |
-|Chamadas PSTN| Sim  |Sim |
+|Chamadas de entrada/saída P2P | Sim   |Sim  |
+|Pela interface do usuário (mudo, espera/continuar, transferência, encerrar a chamada), os controles de chamada| Sim   |Sim  |
+|Chamadas PSTN| Sim   |Sim  |
 |Caixa postal visual | Sim | Não |
-|suporte 911  | Sim  |Sim |
+|suporte 911  | Sim   |Sim  |
 |**Calendário e presença**|   | |
-|Acesso de calendário e detalhes da reunião|Sim |Sim|
-|Integração de presença |Sim|Sim|
-|Integração de calendário do Exchange |Sim|Sim|
-|Integração da imagem do contato  |Sim|Sim|
-|Acesso de diretório corporativo | Sim|Sim|
+|Acesso de calendário e detalhes da reunião|Sim  |Sim |
+|Integração de presença |Sim|Sim |
+|Integração de calendário do Exchange |Sim |Sim |
+|Integração da imagem do contato  |Sim |Sim |
+|Acesso de diretório corporativo | Sim |Sim |
 |**Reuniões**|   ||
-|Associação de um clique para reuniões  | Sim  |Sim |
-|Ingressar Skype para reuniões de negócios | Sim  | Sim|
-|Controles de chamada da reunião (mudo/desativar mudo, espera/continuar, desligar, adicionar/remover participantes)|Sim|Sim|
+|Associação de um clique para reuniões  | Sim   |Sim  |
+|Ingressar Skype para reuniões de negócios | Sim   | Sim |
+|Controles de chamada da reunião (mudo/desativar mudo, espera/continuar, desligar, adicionar/remover participantes)|Sim |Sim |
 |Detalhes da reunião|Sim|Não|
 
 Estamos trabalhando para continuamente adicionar recursos para ajudar a aprimorar a experiência de suas equipes em telefones de nossos usuários. As capturas de tela a seguir ilustram algumas das experiências que suportamos hoje.
@@ -125,6 +124,26 @@ O usuário de telefone de equipes pode optar por sair, selecionando a opção **
 
 ![Saindo do equipes](media/teams-sign-out.png)
 
+# <a name="finding-the-firmware-version-on-a-mobile-device"></a>Localizando a versão de Firmware em um dispositivo móvel
+
+A versão mínima do firmware pode ser verificada na página de entrada de equipes, escolhendo o ícone **configurações** no canto superior direito e, em seguida, clicando em **sobre**.
+
+**Página de entrada equipes**
+
+![A página de entrada de equipes](media/teams-sign-in-page.jpg)
+
+**Página de configurações**
+
+![A página Configurações de equipes](media/teams-settings-page.jpg)
+
+## <a name="required-licenses"></a>Licenças necessárias
+
+Licenças da Microsoft Teams podem ser adquiridas como parte de suas [assinaturas do Office 365](Office-365-licensing.md). Para saber mais sobre as licenças necessárias para usar o Microsoft Teams em telefones, consulte disponíveis [licenças de sistema telefônico](https://products.office.com/en-us/microsoft-teams/voice-calling).
+
+Para obter mais informações sobre a obtenção de equipes, confira [como obter acesso ao Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
 ## <a name="see-also"></a>Consulte também
 
-[Comprar e implantar telefones IP de equipes da Microsoft](buying-and-deploying-teams-ip-phones.md)
+[Marketplace de equipes](http://office.com/teamsdevices)
+
+[Telefones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

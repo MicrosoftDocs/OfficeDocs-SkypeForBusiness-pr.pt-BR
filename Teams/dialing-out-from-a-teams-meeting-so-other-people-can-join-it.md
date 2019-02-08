@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba do que você precisa e como os organizadores da reunião podem ligar para outras pessoas usando o Teams.
-ms.openlocfilehash: a1d06d75d48c45cfc13490c5c6562451909120dd
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 4352bc7f6bd110a8dda267092920a2e2de22a4ae
+ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326854"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "29770391"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discando a partir de uma reunião do Microsoft Teams para que outras pessoas possam participar
 
@@ -55,7 +55,7 @@ A discagem está disponível apenas para alguns países/regiões. Para obter uma
 
 ## <a name="allow-users-to-dial-in"></a>Permitir que os usuários discam
 
-Se você estiver procurando para obter instruções sobre como permitir que os usuários discam para uma reunião de equipes, consulte [números de telefone de conferência de áudio em equipes da Microsoft](/Teams/phone-numbers-for-audio-conferencing-in-teams.md).
+Se você estiver procurando para obter instruções sobre como permitir que os usuários discam para uma reunião de equipes, consulte [números de telefone de conferência de áudio em equipes da Microsoft](phone-numbers-for-audio-conferencing-in-teams.md).
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Quer saber mais sobre serviços de audioconferência?
 
