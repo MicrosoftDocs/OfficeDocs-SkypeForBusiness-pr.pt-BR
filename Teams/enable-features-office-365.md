@@ -15,20 +15,20 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 383a4a18d466e367a31e4b99f9975b51cc5f559a
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: dfa908418061b4a9cc1d899d2ed64a9564b6f181
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27988182"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29753504"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar os recursos do Microsoft Teams em sua organização do Office 365
 
-Todas as configurações do Microsoft Teams serão migradas em breve para o novo Centro de Administração do Microsoft Teams e do Skype for Business. O único recurso do Microsoft Teams gerenciado no centro de administração do Microsoft 365 consiste nos Aplicativos. 
+Todas as configurações do Teams serão migradas em breve para o novo centro de administração do Microsoft Teams. O único recurso do Teams gerenciado no centro de administração do Microsoft 365 consiste nos Aplicativos. 
 
 A menos que haja aluma especificação em contrário, o valor padrão das opções é **Ativado**.
 
-## <a name="tenant-wide-settings"></a>Configurações de todos os locatários 
+## <a name="tenant-wide-settings"></a>Configurações de locatário 
 
 Você pode desativar ou ativar aplicativos para o Microsoft Teams em **Configurações de todos os locatários** no centro de administração do Microsoft 365. 
 
@@ -38,37 +38,37 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Aplicativos
 
-Os aplicativos são guias, conectores, bots ou qualquer combinação desses três itens, fornecidos pelo Microsoft Teams (aplicativos primários, também conhecidos como aplicativos padrão) ou por terceiros (também conhecidos como aplicativos externos). Em **Aplicativos**, você pode habilitar e desabilitar aplicativos padrão e definir configurações para controlar aplicativos externos.  
+Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
 
 #### <a name="default-apps"></a>Aplicativos padrão
 
-Esses aplicativos, como Planner, Elogiar e Clima, são fornecidos pelo Microsoft Teams. Para ativar um aplicativo, marque a caixa de seleção dele. Para desativar um aplicativo, desmarque a caixa de seleção. 
+These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
 
 ![Captura de tela da seção Aplicativos Padrão.](media/teams-tenant-wide-settings-default-apps.png "Captura de tela da seção Aplicativos Padrão.")
 
 #### <a name="external-apps"></a>Aplicativos externos
 
-Esses aplicativos são fornecidos por terceiros. Você pode definir as configurações a seguir para aplicativos externos.
+These apps are provided by third parties. You can configure the following settings for external apps.
 
 ![Captura de tela da seção Aplicativos externos.](media/teams-tenant-wide-settings-external-apps-settings.png "Captura de tela da seção Aplicativos externos, mostrando configurações que você pode ativar e desativar")
 
 - **Allow external apps in Microsoft Teams** (Permitir aplicativos externos no Microsoft Teams): quando essa configuração está ativada, os usuários podem adicionar aplicativos externos disponíveis para sua organização. 
 
-- **Habilitar novos aplicativos externos por padrão**: quando essa configuração está ativada, os usuários podem ativar novos aplicativos assim que eles são adicionados ao catálogo de aplicativos do Microsoft Teams. Desative essa configuração para poder controlar os novos aplicativos. Obviamente, se você desativá-la, precisará lembrar de examinar os novos aplicativos periodicamente para que sua organização não perca novos aplicativos. 
+- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
 
-- **Permitir o sideload de aplicativos externos**: Se você quiser ativar alguns aplicativos externos e desativar outros, desative essa configuração e, na lista de aplicativos externos, desative os aplicativos que não deseja que os usuários acessem. Quando essa configuração é ativada, os proprietários e membros de equipe que recebem permissão podem fazer o sideload de aplicativos para o Microsoft Teams. 
+- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
 
 Para saber mais, veja [Configurações de administração para aplicativos no Microsoft Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings"></a>Configurações de toda a organização do Microsoft Teams
 
-Você pode controlar as configurações de usuário de toda a organização no Centro de Administração do Microsoft Teams e do Skype for Business. Para editar as configurações de toda a organização, vá para o Centro de Administração do Microsoft Teams e Skype for Business e selecione **Configurações de toda a organização**. É possível definir as configurações a seguir
+Você pode controlar as configurações de usuário em toda a organização no centro de administração do Microsoft Teams. Para editar as configurações de toda a organização, vá até o centro de administração do Microsoft Teams e escolha **Configurações gerais da organização**. Você pode definir as seguintes configurações.
 
 ### <a name="external-access"></a>Acesso externo
 
 O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for Business se comuniquem com usuários que estão fora da organização. Para configurar o acesso externo, vá para [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md) (Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização do Microsoft Teams).
 
-### <a name="guest-access"></a>Acesso de convidado
+### <a name="guest-access"></a>Acesso de convidados
 
 O **Acesso de Convidado** no Microsoft Teams permite que as equipes em sua organização colaborem com pessoas de fora da organização, concedendo-lhes acesso a equipes e a canais. Qualquer pessoa com uma conta de email comercial ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe. Para obter mais informações, veja [Acesso de convidado no Microsoft Teams](guest-access.md).
 
@@ -76,7 +76,7 @@ O **Acesso de Convidado** no Microsoft Teams permite que as equipes em sua organ
 
 Nas **Configurações de equipe**, você pode configurar a integração de email, opções de armazenamento em nuvem, interoperabilidade do Skype for Business e dispositivos.
 
-#### <a name="email-integration"></a>Integração de e-mails
+#### <a name="email-integration"></a>Integração de email
 
 Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal de uma equipe que tenha conectores adicionais ativados para os membros da equipe. Para ativar a integração de email, verifique se **Allow users to send emails to a channel email address** (Permitir que os usuários enviem emails para um endereço de email do canal) está **Ativado**. 
 
@@ -116,11 +116,11 @@ Você pode especificar um modo de coexistência: **Somente Microsoft Teams**, **
 
 #### <a name="app-preferences"></a>Preferências de aplicativo
 
-Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em reuniões do Skype for Business (Skype for Business ou o [aplicativo Reuniões do Skype](https://support.office.com/en-us/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Essa configuração não depende da configuração do modo de coexistência.
+Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em reuniões do Skype for Business (Skype for Business ou o [aplicativo Reuniões do Skype](https://support.office.com/pt-BR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Essa configuração não depende da configuração do modo de coexistência.
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Como saber quais recursos estão disponíveis?
 
-Confira o [Roteiro do Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obter informações sobre novos recursos do Microsoft Teams. Para obter mais informações sobre os recursos novos e futuros, confira a página [Novidades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) do Microsoft Teams e o [blog do Microsoft Teams da Tech Community Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Confira o [Roteiro do Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para obter informações sobre novos recursos do Teams. Para obter mais informações sobre os recursos novos e futuros, confira a página [Novidades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) do Teams e o [blog do Microsoft Teams da Tech Community Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Mais informações
 
