@@ -7,63 +7,63 @@ ms.date: 11/06/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
-description: Saiba mais sobre as opções de relatórios disponíveis para ver como os usuários estão usando o Microsoft Teams e coletam de comentários sobre experiências do usuário.
-localization_priority: Normal
+description: Saiba mais sobre as opções de relatórios disponíveis para ver como os usuários estão usando o Microsoft Teams e obter comentários sobre experiências de usuário.
+localization_priority: Priority
 search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9189e2293e123b8a8b7db7a754d259ec3b67e1ab
-ms.sourcegitcommit: 768c7b5f0aaa4b38a0b98c7c9ff904ffedd2e9b9
-ms.translationtype: MT
+ms.openlocfilehash: cf30553d8a2b04a25fa596f6692c5f5e5522aa74
+ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27802599"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "29754685"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e os comentários no Microsoft Teams
-É importante saber como os usuários utilizem equipes e o que é a sua experiência com equipes. Relatórios de uso podem ajudá-lo a entender os padrões de uso melhor e junto com os comentários do usuário, proporcionam ideias para informar sua distribuição mais larga e onde priorizar os esforços de treinamento e comunicação.
+É importante saber como os usuários estão usando o Teams e como está sendo a experiência deles com o Teams. Os relatórios de uso podem ajudar você a entender melhor os padrões de uso e, com os comentários dos usuários, fornecer informações para orientar a implantação geral e indicar onde priorizar os esforços de treinamento e comunicação.
 
 ## <a name="monitor-usage"></a>Monitorar o uso
-Para seu primeiro conjunto de equipes, recomendamos que você examine o relatórios duas vezes por semana para entender as tendências atuais. 
+Para seus primeiros conjuntos de equipes, recomendamos analisar os relatórios duas vezes por semana para entender as novas tendências. 
 
-Por exemplo, relatórios de uso mostram que não muitos usuários estão usando os clientes móveis de equipes. Isso pode indicar que os usuários não sabe exatamente como instalar os clientes. Instruções de instalação passo a passo de lançamento em um canal pode ajudar o uso da unidade de uma maior variedade de clientes. Ou então, relatórios de uso mostram que os usuários estiverem usando principalmente equipes para chats privadas. Neste exemplo, convém revisar seus cenários de equipe, porque os usuários são bate-papo fora equipes iniciais e canais que foram configurados. 
+Por exemplo, os relatórios de uso mostram que poucos usuários estão usando os clientes móveis do Teams. Isso pode indicar que os usuários não estão sabendo como instalar os clientes. Publicar instruções passo a passo de instalação em um canal pode ajudar a aumentar a utilização pelos clientes. Ou, os relatórios de uso mostram que usuários estão usando o Teams principalmente para conversas particulares. Neste exemplo, convém examinar os contextos da equipe, porque os usuários estão conversando fora das equipes e dos canais iniciais que foram definidos. 
 
-Aqui está como obter relatórios para exibir o uso de equipes. 
+Veja aqui como obter relatórios para exibir o uso do Teams. 
 
-### <a name="teams-analytics--reports-microsoft-teams--skype-for-business-admin-center"></a>Análise de equipes & relatórios (Microsoft Teams & Skype para Business Admin Center)
+### <a name="teams-analytics--reports-microsoft-teams-admin-center"></a>Relatórios e análises do Teams (Centro de administração do Microsoft Teams)
 
-Relatórios de equipes na Microsoft Teams & Skype para Business Admin Center proporcionam ideias sobre como equipes é usado na sua organização. Use os relatórios para obter uma visão em uso equipes, atividade do usuário e o uso de dispositivos em sua organização. 
+Os relatórios de equipes no centro de administração do Microsoft Teams fornecem informações sobre como o Teams é usado em sua organização. Use os relatórios para obter uma perspectiva sobre o uso do Teams, atividades do usuário e uso de dispositivos em sua organização. 
 
-Para exibir esses relatórios, você deve ser um administrador global no Office 365, administrador de serviço de equipes ou Skype para administração de negócios. Vá para o Microsoft Teams & Skype para o Centro de administração de negócios, no painel de navegação esquerdo, selecione **Analytics & relatórios**e, em **relatório**, escolha o relatório que você deseja executar.
+Para ver esses relatórios, você deve ser um administrador global do Office 365, administrador de serviço do Teams ou administrador do Skype for Business. Acesse o centro de administração do Microsoft Teams, na navegação à esquerda, selecione **Análises e relatórios** e, em **Relatório**, escolha o relatório que você deseja executar.
 
-- **Relatório de uso de equipes**: este relatório oferece uma visão geral da atividade de uso em equipes, incluindo o total de usuários ativos e canais de e o número de usuários ativos e canais, convidados e mensagens em cada equipe. 
+- **Relatório de uso do Teams**: este relatório fornece uma visão geral da atividade de uso no Teams, inclusive do total de usuários e canais ativos, e do número de usuários e canais ativos, convidados e mensagens em cada equipe. 
 
-    ![Relatório de uso de equipes] (media/teams-reports-teams-usage.png "Captura de tela do relatório de uso de equipes no Skype para Business Admin Center & equipes da Microsoft")     
-- **Relatório de atividades do usuário de equipes**: este relatório oferece ideias sobre os tipos de atividades de usuários participem, como quantas pessoas se comunicar por meio de 1:1 chamadas, mensagens de canal e mensagens de bate-papo privado. 
+    ![Relatório de uso do Teams](media/teams-reports-teams-usage.png "Captura de tela do relatório de uso do Teams no centro de administração do Microsoft Teams")     
+- **Relatório de atividades do usuário no Teams**: este relatório fornece informações sobre os tipos de atividades com as quais os usuários se envolvem, como quantas pessoas se comunicam por chamadas particulares, mensagens do canal e mensagens de chat privadas. 
 
-    ![Relatório de atividades do usuário de equipes] (media/teams-reports-user-activity.png "Captura de tela do relatório de atividade de usuário equipes no Skype para Business Admin Center & equipes da Microsoft") 
+    ![Relatório de atividades do usuário do Teams](media/teams-reports-user-activity.png "Captura de tela do relatório de atividades do usuário do Teams no centro de administração do Microsoft Teams") 
 `
-- **Relatório de uso do dispositivo de equipes**: este relatório mostra como os usuários se conectam à equipes, incluindo como muitas pessoas usam equipes em seus dispositivos móveis quando em trânsito. 
+- **Relatório de uso de dispositivos do Teams**: este relatório mostra como os usuários se conectam ao Teams, inclusive quantas pessoas usam o Teams em seus dispositivos móveis. 
 
-    ![Relatório de uso do dispositivo de equipes] (media/teams-reports-device-usage.png "Captura de tela do relatório de uso de dispositivo equipes no Skype para Business Admin Center & equipes da Microsoft")
+    ![Relatório de uso de dispositivos do Teams](media/teams-reports-device-usage.png "Captura de tela do relatório de uso de dispositivos do Teams no centro de administração do Microsoft Teams")
 
-Para saber mais, confira [analytics equipes e emissão de relatórios](teams-analytics-and-reports/teams-reporting-reference.md). 
+Para saber mais, confira [Análises e relatórios de equipes](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### <a name="teams-activity-reports-office-365-admin-center"></a>Relatórios de atividades de equipes (Centro de administração do Office 365)
-Também é possível exibir as atividades de equipes por meio de relatórios que estão disponíveis no Centro de administração do Office 365. Esses relatórios fazem parte dos relatórios no Centro de administração do Office 365 Office 365 e fornecem informações sobre as atividades do usuário e o uso do dispositivo. 
+### <a name="teams-activity-reports-office-365-admin-center"></a>Relatórios de atividades do Teams (centro de administração do Office 365)
+Você também pode visualizar as atividades do Teams pelos relatórios disponíveis no centro de administração do Office 365. Esses relatórios fazem parte dos relatórios do Office 365 no centro de administração do Office 365 e fornecem informações sobre as atividades do usuário e o uso de dispositivos. 
 
-Para visualizar esses relatórios, vá para o Centro de administração do Office 365, clique em **relatórios** > **uso**. Em **Selecione um relatório**, clique em **Equipes da Microsoft**. A partir daqui, escolha o relatório que você deseja exibir.
+Para ver esses relatórios, acesse o centro de administração do Office 365, clique em **Relatórios** > **Uso**. Em **Selecionar um relatório**, clique em **Microsoft Teams**. Nele, escolha o relatório que você deseja visualizar.
 
-Para saber mais, vá para [usar relatórios de atividade para equipes](teams-activity-reports.md).
+Para saber mais, acesse [Usar relatórios de atividades no Teams](teams-activity-reports.md).
 
 ### <a name="microsoft-365-usage-analytics"></a>Análise de uso do Microsoft 365
 
-Você pode usar a análise de uso do Microsoft 365 no Power BI para exibir e analisar dados de uso para equipes e outros produtos do Office 365 e serviços. Análise de uso do Microsoft 365 é um pacote de conteúdo que inclui um painel pré-criados e um número de relatórios pré-criados. Cada relatório fornece ideias e dados de uso específico. Para conectar o pacote de conteúdo, você precisa Power BI e deve ser um administrador global do leitor do Office 365 ou relatórios. Se você ainda não tiver o Power BI, [Inscreva-se para o serviço do Power BI livre](https://powerbi.microsoft.com). 
+Você pode usar a análise do uso do Microsoft 365 no Power BI para visualizar e analisar o uso dos dados do Teams e de outros produtos e serviços do Office 365. A análise de uso do Microsoft 365 é um pacote de conteúdo que inclui um painel predefinido e uma série de relatórios predefinidos. Cada relatório fornece informações e dados de uso específicos. Para conectar o pacote de conteúdo, você precisa do Power BI e deve ser um administrador global do Office 365 ou leitor de relatórios. Se você ainda não tem o Power BI [Inscreva-se no serviço do Power BI gratuitamente](https://powerbi.microsoft.com). 
 
-Para saber mais, consulte [Microsoft 365 análise de uso](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
+Para saber mais, confira [Análise de uso do Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
 
-## <a name="gather-feedback"></a>Obter comentários
-A adoção de uma nova experiência de colaboração é sobre como alterar o comportamento de usuários. Habilitando a alteração requer treinamento, estímulo e exemplos positivos. É importante que os usuários devem ter uma voz durante a transição para equipes e ser capaz de forma aberta compartilhar suas experiências. É recomendável usar o canal de comentários na equipe de "Obter saber equipes" que você criou para coletar e comentários de usuários em suas experiências com equipes de endereços. 
+## <a name="gather-feedback"></a>Coletar comentários
+A adoção de uma nova experiência de colaboração gira em torno de mudar o comportamento dos usuários. Para que haja a mudança é preciso treinamento, incentivo e exemplos positivos. É importante que os usuários possam compartilhar o que pensam durante a transição para o Teams e possam compartilhar abertamente suas experiências. Recomendamos usar o canal de Feedback na equipe "Conheça o Teams" que você criou para receber e analisar os comentários sobre as experiências dos usuários com o Teams. 
 
-## <a name="next-steps"></a>Próximos passos
-Vá para [obter recursos para planejar sua distribuição de toda a organização das equipes](get-started-with-teams-resources-for-org-wide-rollout.md).
+## <a name="next-steps"></a>Próximas etapas
+Acesse [Obter recursos para planejar a distribuição do Teams para toda a organização](get-started-with-teams-resources-for-org-wide-rollout.md).
