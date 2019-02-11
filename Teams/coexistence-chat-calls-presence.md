@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67c2e403511c3329d37fa3712bc8f559dcc16c38
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29742993"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "29786395"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -177,7 +177,7 @@ Para saber qual comportamento esperar, você precisará compreender o que a pres
     * Do Skype para os negócios, qualquer outro usuário verá Skype do usuário ilhas de presença de negócios (no locatário e federada); Isso é alinhado com as tabelas de roteamento acima
 
 > [!NOTE]
-> Isso é uma recente alteração da implementação anterior (chamada de presença unificada) que mostrou uma presença combinada, agregada de equipes e do Skype do destino para clientes corporativos. Essa abordagem anterior tornou-se confuso para os usuários conforme ele for frequentemente resultar em exibindo na presença precisa, ou seja, um usuário que não estão sendo pode ser acessado mesmo que sua presença mostrou online.
+> Isso é uma recente alteração da implementação anterior (chamada de presença unificada) que mostrou uma presença combinada, agregada de equipes e do Skype do destino para clientes corporativos. Essa abordagem anterior tornou-se confuso para os usuários conforme ele for frequentemente resultar em exibindo imprecisa presença, ou seja, um usuário que não estão sendo pode ser acessado mesmo que sua presença mostrou online.
 
 ## <a name="in-tenant-presence"></a>Presença locatário
 

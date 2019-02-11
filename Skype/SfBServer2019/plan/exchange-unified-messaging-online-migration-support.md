@@ -10,16 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo resume o que afetaram os clientes devem saber e fazer para planejar seu continuidade de negócios.
-ms.openlocfilehash: 1f755f8974ba18eba296051c547ee12b79b114d1
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
+ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/08/2019
-ms.locfileid: "29779880"
+ms.locfileid: "29786418"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte de migração Exchange Unified Messaging Online  
 
-Refere-se o [comunicado](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo oferece um resumo das quais clientes afetados deve saber e fazer para planejar seu continuidade de negócios. 
+Refere-se o [comunicado](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo oferece um resumo das quais clientes afetados deve saber e fazer para planejar seu continuidade de negócios. 
  
 ExchUMO é implantado por clientes para os serviços de integração de fax, caixa postal e/ou atendedor automático. Microsoft planos ajudar a esses clientes migrar para seus serviços baseados em nuvem que suportam milhares de clientes já em Skype para Business Online e Teams da Microsoft. 
 
@@ -54,7 +54,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 1.  **Obter informados**
  
-    Familiarize-se com o [comunicado do blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-support-for-unified-messaging-in-exchange-online/) e neste artigo para planejar uma migração suave para seus usuários. Consulte [Verificar Skype para caixa postal de negócios e opções](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obter detalhes sobre os recursos de caixa postal de nuvem.  
+    Familiarize-se com o [comunicado do blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) e neste artigo para planejar uma migração suave para seus usuários. Consulte [Verificar Skype para caixa postal de negócios e opções](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obter detalhes sobre os recursos de caixa postal de nuvem.  
  
 
 2.  **Estabelecer um Skype para topologia híbrida de negócios**
