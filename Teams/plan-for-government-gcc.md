@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28827be78c93a3ea3a922d16bb9d985d3439ad7a
-ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
+ms.openlocfilehash: 24ceb6ff76bb84f8de9d9248fc4c10a73ee454f4
+ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27544196"
+ms.lasthandoff: 02/11/2019
+ms.locfileid: "29890760"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
@@ -74,14 +74,14 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 |-----------------------------|-----------------------------|----------------|
 | Base | Login | Disponível |
 | | Presença | Disponível |
-| | Presença unificada (Skype para equipes unificadas e de negócios) | Em todas as agências governamentais |
+| | Presença unificada (Skype para equipes unificadas e de negócios) | Disponível |
 | Atividade | Feed | Disponível |
 |  | Minha atividade | Disponível |
 | Chat | Conversa | Disponível |
 | | Arquivos | Disponível |
 | | Organograma | Disponível |
 | | Atividade | Disponível |
-| | Interoperabilidade (1:1 equipes-Skype para chat de negócios) | Em todas as agências governamentais |
+| | Interoperabilidade (1:1 equipes-Skype para chat de negócios) | Disponível |
 | Microsoft Teams | Mensagem de canal | Disponível |
 | | Arquivos de canal | Disponível |
 | | Guia do OneNote | Em todas as agências governamentais |
