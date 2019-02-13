@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c881c6c40b8877fee46e3956970a0c305d0a4a
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 81b47a5a77a04becee748e4285641ce341fb65d4
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349525"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964422"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -211,7 +211,7 @@ A configuração necessária para ignorar o servidor proxy varia entre os fornec
 
 Alguns fornecedores de servidores proxy fornecem um processo automatizado para garantir a configuração está atualizado. Se o seu fornecedor não fornecer esse processo automático, você pode baixar um arquivo PAC atualizado do <https://aka.ms/o365proxies>.
 
-[Servidores proxy para Skype para negócios on-line e equipes](/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Servidores de proxy para equipes ou Skype para negócios on-line e equipes](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 
@@ -354,7 +354,7 @@ Esta tabela inclui um resumo das atividades de planejamento com links para conte
 | | | [Ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | Realizar uma avaliação de rede | [Avaliação de prontidão de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Planejar a qualidade do ponto de extremidade | Firewalls do ponto de extremidade de atualização | [URLs do Office 365 e endereços IP](https://aka.ms/o365ips) |
-| | Validar os requisitos de software | [Obter clientes do Microsoft Teams](get-clients.md) |
+| | Validar os requisitos de software | [Obter clientes para o Microsoft Teams](get-clients.md) |
 | | Implementar as recomendações de ponto de extremidade Wi-Fi | Consulte fornecedores terceirizados |
 | | Conduzir a pessoa para mapeamento de dispositivos <br/> Provisionar dispositivos e testá-los | [Clientes e dispositivos - Workshop de preparação](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catálogo de dispositivo](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 

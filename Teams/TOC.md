@@ -16,10 +16,10 @@
 <!-- ============================================================ -->
 
 
-# [Bate-papo, equipes, canais, & apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+# [Chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Visão geral das equipes e canais](teams-channels-overview.md)
 ## [Atribuir proprietários de equipe e membros no Microsoft Teams](assign-roles-permissions.md)
-## [Boas práticas para organizar equipes no Teams](best-practices-organizing.md)
+## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
 ## [O que são as políticas de mensagens?](messaging-policies-in-teams.md)
 ## [Introdução aos modelos do Microsoft Teams](get-started-with-teams-templates.md)
@@ -58,8 +58,8 @@
 
 ## [Gerenciar equipes](using-admin-roles.md)
 ### [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
-### [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
-### [Gerenciar equipes em Centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md)
+### [Gerenciar o Teams durante a transição para o novo Centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+### [Gerenciar o Teams no Centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md)
 ### [Atribuir membros em equipes e proprietários de equipe](assign-roles-permissions.md)
 ### [Configurar o aplicativo de reuniões Skype para trabalhar com equipes](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Se comunicar com usuários de equipes em outras organizações](let-your-teams-users-communicate-with-other-people.md)
@@ -76,6 +76,7 @@
 ### Prepare-se a distribuir as equipes
 #### [Verifique a prontidão do seu ambiente para o Microsoft Teams](environment-readiness.md)
 #### [Preparo da rede da sua organização para o Teams](prepare-network.md)
+#### [Servidores de proxy para equipes ou Skype para negócios Online](proxy-servers-for-skype-for-business-online.md)
 #### [Especificações para equipes e limites](limits-specifications-teams.md)
 #### [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-office-365-groups.md)
 #### [Obter ferramentas para dar suporte na implantação do Teams](rollout-tools.md)
@@ -114,7 +115,7 @@
 <!-- ============================================================ -->
 
 
-# [Conferência de & de reuniões](deploy-meetings-microsoft-teams-landing-page.md)
+# [Reuniões e conferências](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -504,7 +505,7 @@
 #### [Configurar Créditos de Comunicação para a sua organização](set-up-communications-credits-for-your-organization.md)
 #### [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
 
-### [Fluxos de chamada de equipes da Microsoft Online](microsoft-teams-online-call-flows.md)
+### [Fluxos de Chamada do Microsoft Teams Online](microsoft-teams-online-call-flows.md)
 
 ## Orientação prática para grandes organizações
 ### [Tutorial: Chamando em equipes](Tutorial-calling-in-teams.yml)
@@ -574,6 +575,7 @@
 ### [Operar o seu serviço](upgrade-operate-my-service.md)
 ### [Monitorar a qualidade](upgrade-monitor-quality.md)
 ### [Melhorar seu serviço](upgrade-enhance-my-service.md)
+
 ## [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Perguntas Freqüentes](FAQ-journey.md)
 ## Informações adicionais
@@ -631,9 +633,9 @@
 #### [Qualidade da experiência Revise o guia](quality-of-experience-review-guide.md)
 #### [Configurar o QoS em equipes](QoS-in-Teams.md)
 #### [Implementar o QoS e monitorar a qualidade da chamada](monitor-call-quality-qos.md)
-#### [Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
-#### [Configurar a análise de chamada](set-up-call-analytics.md)
-#### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+#### [Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
+#### [Configurar Análise de Chamada](set-up-call-analytics.md)
+#### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 #### [Ativando e usando o Painel de Qualidade de Chamadas](turning-on-and-using-call-quality-dashboard.md)
 #### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Classificação de fluxo no Painel de Qualidade de Chamadas](stream-classification-in-call-quality-dashboard.md)
@@ -642,7 +644,7 @@
 
 ## Microsoft Teams for Education
 ### [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
-### [Recursos de equipes para administradores de educação](resources-teams-edu.md)
+### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
 ### [Governança de Microsoft Education perguntas Frequentes para administradores](plan-teams-governance-edu.md)
 
 ## Equipes para trabalhadores de firstline

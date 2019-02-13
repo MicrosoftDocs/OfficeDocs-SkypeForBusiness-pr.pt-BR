@@ -16,12 +16,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Gerenciar contas de recursos em Teams da Microsoft
-ms.openlocfilehash: a40d281349f6b5f8cdc8a95dbb77a7d3f9da8cc4
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 3bab9f4c76a7bc5b0baf534b17ca3f5abaf11478
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890752"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964406"
 ---
 # <a name="manage-resource-accounts-in-teams"></a>Gerenciar contas de recursos em equipes 
 
@@ -95,7 +95,7 @@ Para implementações que são híbrida com Skype para Business Server:
 
 Para implementações em equipes ou Skype para Business Online:
 
-[O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants)
+[O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 
 [Configurar o atendedor automático do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

@@ -21,7 +21,7 @@ ms.locfileid: "19505080"
  
 Cada registro representa uma única linha de mídia. (Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Um áudio e vídeo (A / V) sessão geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo, embora a sessão pode conter duas linhas de mídia de vídeo, se um dispositivo de conferência for usado, ou se o modo de exibição de galeria é usado.
   
-|**Coluna**|**Tipo de dados**|**Índice de chaves /**|**Detalhes**|
+|**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |Primária  <br/> |Referenciado da [tabela de sessão](session.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primária  <br/> |Referenciado da [tabela de sessão](session.md).  <br/> |
@@ -30,7 +30,7 @@ Cada registro representa uma única linha de mídia. (Uma sessão de áudio gera
 |**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informações sobre o processo de conectividade ICE (estabelecimento interativa) descrito em sinalizadores de bits. Para obter detalhes, consulte a *Qualidade da experiência do Monitoring Server especificação de protocolo* , disponível para download. <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Mesmo como CallerIceWarningFlags, mas no lado do receptor. Para obter detalhes, consulte a *Qualidade da experiência do Monitoring Server especificação de protocolo* , disponível para download. <br/> |
 |**Segurança** <br/> |tinyint  <br/> | <br/> |O perfil de segurança em uso. 0 é NONE, 1 é o SRTP, 2 é V1.  <br/> |
-|**Transporte** <br/> |tinyint  <br/> | <br/> |0 é UDP, 1 é TCP.  <br/> |
+|**Transport** <br/> |tinyint  <br/> | <br/> |0 é UDP, 1 é TCP.  <br/> |
 |**CallerIPAddr** <br/> |int  <br/> |Externa  <br/> |Endereço IP do chamador. Consulte a [tabela IPAddress](ipaddress.md) para obter mais informações. <br/> |
 |**CallerPort** <br/> |int  <br/> | <br/> | Porta usada pelo chamador. <br/> |
 |**CallerSubnet** <br/> |int  <br/> | Externa <br/> |A sub-rede do chamador. Consulte a [tabela IPAddress](ipaddress.md) para obter mais informações. <br/> |

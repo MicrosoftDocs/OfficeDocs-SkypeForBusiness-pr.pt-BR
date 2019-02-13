@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ec9518c8f5406b3bb6c489d571d89f50f34b34
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754822"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964446"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
@@ -1172,13 +1172,13 @@ _Figura 29 – sub-rede e uso de Proxy HTTP, criando_
 
 ##### <a name="remediation"></a>Remediação
 
-É [recomendável](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online) que você sempre desviar proxies para Skype para equipes, especialmente tráfego de mídia e de negócios. Proxies não fizer Skype para negócios mais seguro, porque seu tráfego já está criptografado. Problemas relacionados ao desempenho podem ocorrer no ambiente devido à latência e à perda de pacote. Problemas como essas resultará em uma experiência negativa com áudio, vídeo e compartilhamento de tela, onde fluxos em tempo real são essenciais.
+É [recomendável](proxy-servers-for-skype-for-business-online.md) que você sempre desviar proxies para Skype para equipes, especialmente tráfego de mídia e de negócios. Proxies não fizer Skype para negócios mais seguro, porque seu tráfego já está criptografado. Problemas relacionados ao desempenho podem ocorrer no ambiente devido à latência e à perda de pacote. Problemas como essas resultará em uma experiência negativa com áudio, vídeo e compartilhamento de tela, onde fluxos em tempo real são essenciais.
 
 A causa mais comum de uso do HTTP está faltando regras de exceção de proxies. Usando o edifício ou sub-rede fornecida, você pode determinar rapidamente qual proxy precisa ser configurado para a mídia do desvio.
 
 Verifique se os [FQDNs do Office 365](https://aka.ms/o365ips) de necessários estão na lista branca em seu proxy.
 
-Para obter mais informações sobre como usar proxies com Skype para equipes e Business Online, consulte [Este artigo](/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online).
+Para obter mais informações sobre como usar proxies com Skype para equipes e Business Online, consulte [Este artigo](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Investigações de ponto de extremidade
 
@@ -1337,11 +1337,11 @@ Para obter mais informações, consulte [Este artigo sobre o desempenho de rede 
 
 -   [Apresentando a análise de chamada](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309)
 
--   [Configurar a análise de chamada](set-up-call-analytics.md)
+-   [Configurar Análise de Chamada](set-up-call-analytics.md)
 
 -   [Qual é a diferença entre a Análise de Chamada e o Painel de Qualidade de Chamadas?](difference-between-call-analytics-and-call-quality-dashboard.md)
 
--   [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+-   [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 ### <a name="call-analytics-support"></a>Suporte de análise de chamada
 

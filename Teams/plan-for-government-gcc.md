@@ -14,12 +14,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ceb6ff76bb84f8de9d9248fc4c10a73ee454f4
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: fcdad8bfbcb873a84d03ec6c0048e4fe49cd5467
+ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890760"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "29964414"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC
 
@@ -135,6 +135,10 @@ Para acomodar os requisitos de nossos clientes de nuvem do governo, há algumas 
 | | Pesquisa de log de auditoria | Disponível |
 | | Retenção legal | Disponível |
 | | eDiscovery | Disponível |
+
+> [!Note]
+
+> Depois que outras cargas de trabalho estão completamente disponíveis na nuvem GCC, em seguida, eles serão disponibilizados em equipes quando todo o trabalho de integração adicionais for concluído.
 
 
 |    |     |
