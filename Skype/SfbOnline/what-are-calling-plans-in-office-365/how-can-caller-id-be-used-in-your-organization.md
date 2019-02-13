@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: ID do chamador pode ser controlado para chamadas de entrada e saídas dos usuários de sistema telefônico usando uma política denominada CallingLineIdentity.
-ms.openlocfilehash: c8a823235c3c3fedaf71d42e8482c5f4579b80ef
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.openlocfilehash: 4ae5c54d68410096104f61bf8cdbd71fa0628003
+ms.sourcegitcommit: 99bc2db8cb857b6fd2ddf9b837198be849dafb9b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958167"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29981910"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -65,7 +65,7 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
 
 O atributo EnableUserOverride permite que um único ou vários usuários alterem a configuração da identificação de chamada para **Anônimo**. Isso é aplicável apenas quando uma política CallingLineIdentity é configurada com um parâmetro CallingIDSubstitute da LineURI ou Substitute. O valor padrão do EnableUserOverride é False.
   
-Os usuários finais pode definir sua ID de chamador como **anônimo** usando a guia **Chamada encaminhar configurações** no Skype para o cliente de desktop de negócios.
+Seus usuários finais podem definido sua ID de chamador como **anônimo** usando a guia **configurações** no Skype para o cliente de desktop de negócios, selecione **chamadas de um usuário final** (se habilitado pelo administrador), selecione informações de número e o perfil **Ocultar meu telefone para todas as chamadas **.
   
 ||||
 |:-----|:-----|:-----|
