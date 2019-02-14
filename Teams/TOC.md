@@ -23,7 +23,7 @@
 ## [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
 ## [O que são as políticas de mensagens?](messaging-policies-in-teams.md)
 ## [Introdução aos modelos do Microsoft Teams](get-started-with-teams-templates.md)
-## [Introdução ao modelos de saúde de equipes da Microsoft](healthcare/healthcare-templates.md)
+## [Introdução aos modelos de assistência à saúde do Microsoft Teams](healthcare/healthcare-templates.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Presença](presence-admins.md)
 ## [Se comunicar com usuários de equipes em outras organizações](let-your-teams-users-communicate-with-other-people.md)
@@ -38,7 +38,7 @@
 ### [Use as guias personalizadas e internas](built-in-custom-tabs.md)
 ### [Usar o Office 365 e conectores personalizados](Office-365-custom-connectors.md)
 ### [Publicar aplicativos no catálogo de aplicativos do inquilino de equipes](tenant-apps-catalog-teams.md)
-### [Configurar o aplicativo de reuniões Skype para trabalhar com equipes](configure-skype-meetings-app-to-work-with-teams.md)
+### [Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 
@@ -58,10 +58,10 @@
 
 ## [Gerenciar equipes](using-admin-roles.md)
 ### [Gerenciar recursos de equipes em sua organização](enable-features-office-365.md)
-### [Gerenciar o Teams durante a transição para o novo Centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+### [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Gerenciar o Teams no Centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md)
 ### [Atribuir membros em equipes e proprietários de equipe](assign-roles-permissions.md)
-### [Configurar o aplicativo de reuniões Skype para trabalhar com equipes](configure-skype-meetings-app-to-work-with-teams.md)
+### [Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Se comunicar com usuários de equipes em outras organizações](let-your-teams-users-communicate-with-other-people.md)
 ### [Usar conversão de mensagem embutida](inline-message-translation-teams.md)
 ### [Usar a pesquisa de diretório no escopo do Microsoft Teams](teams-scoped-directory-search.md)
@@ -305,10 +305,10 @@
 ### [Configurar um controlador de borda da sessão para vários locatários](direct-routing-sbc-multiple-tenants.md)
 ### [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
 ### Roteamento com Base no Local
-#### [Terminologia de roteamento baseados em local](location-based-routing-terminology.md)
-#### [Planejar o roteamento baseado no local para roteamento direto](location-based-routing-plan.md)
-#### [Definir configurações de rede para roteamento baseado no local](location-based-routing-configure-network-settings.md)
-#### [Habilitar o roteamento baseado no local para roteamento direto](location-based-routing-enable.md)
+#### [Terminologia do Roteamento baseado na localização](location-based-routing-terminology.md)
+#### [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
+#### [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
+#### [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
 ### Referência técnica para roteamento direto
 #### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
 
@@ -581,6 +581,7 @@
 ## Informações adicionais
 ### [Migração e interoperabilidade com Skype para negócios](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md)
+### [Experiência do cliente de equipes e conformidade para modos de coexistência](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
@@ -649,7 +650,7 @@
 
 ## Equipes para trabalhadores de firstline
 ### [Gerenciar o aplicativo desloca para sua organização em equipes](manage-the-shifts-app-for-your-organization-in-teams.md)
-### [Introdução ao modelos de equipes de varejo](get-started-with-retail-teams-templates.md)
+### [Introdução aos modelos de Equipes de varejo](get-started-with-retail-teams-templates.md)
 
 ## [Planejar Microsoft 365 governamental - GCC](plan-for-government-gcc.md)
 ### [Planejar Microsoft 365 governamental - GCC alta](plan-for-government-gcc-high.md)
