@@ -12,12 +12,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e1140fd30baa027ded92494b7455aab5500a726
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
+ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770896"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29992813"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -46,7 +46,7 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 <sup>2</sup> eDiscovery e retenção Legal para fins de conformidade em mensagens de canal é suportado para todas as opções de hospedagem.  
 <sup>3</sup> mensagens de bate-papo privado equipes ainda não são aceitas para a retenção Legal para essa opção de hospedagem.
 
-<sup>4</sup> retenção usará uma caixa de correio de sombra para o usuário online para armazenar mensagens. [Microsoft suporta o equipes eDiscover para o usuário de equipes em um ambiente híbrido do Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> retenção usará uma caixa de correio de sombra para o usuário online para armazenar mensagens. [EDiscovery suporta de equipes da Microsoft para o usuário de equipes em um ambiente híbrido do Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
 <sup>5</sup> usuários de equipes com no local de caixa de correio do Exchange pode usar a caixa postal com equipes e receber mensagens da caixa postal no Outlook, mas as mensagens da caixa postal não estará disponíveis para visualizar ou reproduzir no cliente equipes.
 
