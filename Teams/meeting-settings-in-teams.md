@@ -1,5 +1,5 @@
 ---
-title: Gerenciar configurações de reunião no Microsoft Teams
+title: Gerenciar configurações de reunião
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,15 +12,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.meetingsettings.overview
+f1keywords:
+- ms.teamsadmincenter.meetingsettings.overview
 MS.collection: Teams_ITAdmin_Help
 description: Saiba como gerenciar configurações para reuniões de equipes que os usuários a agendar em sua organização.
-ms.openlocfilehash: e4eba5f585f7621add95101d06194bebead507e2
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 4f192c0f391e99ffea28d296893f3d5087233519
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754413"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056599"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 

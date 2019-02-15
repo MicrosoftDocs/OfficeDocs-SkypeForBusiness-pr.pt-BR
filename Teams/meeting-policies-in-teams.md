@@ -1,5 +1,5 @@
 ---
-title: Políticas de reunião em equipes
+title: Gerenciar políticas de reunião
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -12,13 +12,15 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
+f1keywords:
+- ms.teamsadmincenter.meetingpolicies.overview
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
-ms.openlocfilehash: 03c983e98d5bcb349a7a2796ad59cb22c03e22bd
-ms.sourcegitcommit: a51d357069765b7d0956880da2ffd041533cfa57
+ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283537"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056607"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes
 
@@ -37,7 +39,7 @@ Políticas de reunião são usadas para controlar os recursos que estão dispon�
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="audio--video"></a>Áudio e vídeo
+## <a name="audio--video"></a>Áudio & de vídeo
    - **Permitir transcrição** Se você ativar isso, transcrições da reunião estarão disponíveis aos usuários.
    - **Permitir nuvem de gravação** Ativando isso permitirá gravações a serem salvos na nuvem.
    - **Permitir que o vídeo IP** Ativando isso permitirá que os vídeos IP durante as reuniões.
@@ -55,7 +57,7 @@ Políticas de reunião são usadas para controlar os recursos que estão dispon�
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="participants--guests"></a>Os participantes & convidados
+## <a name="participants--guests"></a>Convidados que & participantes
    - **Permitir que usuários anônimos discagem** Se desejar que os participantes da reunião possam discar para adicionar outra pessoa, você pode ativar isso. Se você desativá-la, nenhum dos participantes da reunião possam discar para fora da reunião.
    - **Permitir que os usuários anônimos para reuniões de iniciar** Se essa configuração estiver desativada, somente uma pessoa que tiverem sido autenticados para a reunião com um aplicativo de equipes pode iniciar a reunião. Se ele estiver ativado, qualquer pessoa pode iniciar a reunião.
    - **Admitir automaticamente aos usuários** Se você desativar esse recurso, em seguida, os participantes da reunião serão deixados no lobby até que alguém inicia a reunião. Se ele estiver ativado, os participantes da reunião poderão automaticamente ingressar na reunião.

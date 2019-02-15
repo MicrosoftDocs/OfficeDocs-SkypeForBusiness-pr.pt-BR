@@ -21,7 +21,7 @@
 ## [Atribuir proprietários de equipe e membros no Microsoft Teams](assign-roles-permissions.md)
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Crie uma equipe de toda a organização em equipes](create-an-org-wide-team.md)
-## [O que são as políticas de mensagens?](messaging-policies-in-teams.md)
+## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Introdução aos modelos do Microsoft Teams](get-started-with-teams-templates.md)
 ## [Introdução aos modelos de assistência à saúde do Microsoft Teams](healthcare/healthcare-templates.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
@@ -117,6 +117,7 @@
 
 # [Reuniões e conferências](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
+## [Gerenciar políticas de reunião](meeting-policies-in-teams.md)]
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)

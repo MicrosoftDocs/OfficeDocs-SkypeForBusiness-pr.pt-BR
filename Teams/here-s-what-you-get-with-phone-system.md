@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 864e687634426fd8fce0d489ef81cc85bbacf5e0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048201"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056615"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365
 
@@ -74,12 +74,14 @@ Usando o sistema telefônico, seu Skype para usuários comerciais receberá os s
 
 Configure o sistema telefônico da maneira mais apropriado para sua empresa:
   
-- Você pode usar o complemento de sistema telefônico com linhas de telefone existente da sua empresa, ou o [Cite chamar planos no Office 365?](what-are-calling-plans-in-office-365.md) service para chamadas de entrada e saídas.
+- Você pode usar o complemento de sistema telefônico com linhas de telefone existente da sua empresa ou o serviço de [Sistema telefônico com planos de chamada](calling-plan-landing-page.md) para chamadas de entrada e saídas.
     
 - Você pode obter novos números telefônicos do Office 365 ou transferir números existentes para o Skype for Business. 
     
 Consulte estes artigos para planejar e configurar o sistema telefônico na sua empresa:
-  
+
+- [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
+
 - [Configurar planos de chamar](set-up-calling-plans.md): Este artigo tem instruções passo a passo para configurar o com seus números de telefone ou para transferir seus números de telefone existente para Skype para negócios.
     
 - [Planejar seu sistema telefônico na solução do Office 365 (PBX nuvem)](https://go.microsoft.com/fwlink/?LinkId=708645): Este artigo dispõe todas as opções de implantação. Ele também tem informações sobre o planejamento de uma solução inteiramente de nuvem. 
@@ -89,7 +91,8 @@ Consulte estes artigos para planejar e configurar o sistema telefônico na sua e
 - [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](set-up-phone-system-voicemail.md)
     
 - [Descubra o Skype for Business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Ajude as pessoas da sua empresa a usar os recursos do Skype for Business. 
-    
+
+
 ## <a name="availability"></a>Disponibilidade
 <a name="bkmk_setup"> </a>
 

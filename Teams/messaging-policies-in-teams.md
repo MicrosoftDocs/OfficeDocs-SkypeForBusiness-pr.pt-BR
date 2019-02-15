@@ -1,5 +1,5 @@
 ---
-title: Quais são as políticas de mensagens no Microsoft Teams?
+title: Gerenciar políticas de mensagens
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,21 +16,20 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como eles podem ser usados para controlar as equipes de mensagens de chat.
-ms.openlocfilehash: d4d2a4f424de1750c70ea851d1d1d35a2aaf9e44
-ms.sourcegitcommit: dfd075d092db9826c792cf947c83c33cfcd8ef4e
+ms.openlocfilehash: 3b360be09f8e35d560b13b40ef25a72a060e6033
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29763712"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056583"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>Quais são as políticas de mensagens no Microsoft Teams?
-::: zone target="docs"
+
 Políticas de mensagens são usadas para controlar quais recursos de mensagens de canal e de bate-papo estão disponíveis para usuários no Microsoft Teams. Você pode usar a política padrão que é criada ou crie uma ou mais políticas de mensagens personalizadas para pessoas da sua organização. Depois de criar uma política, você vai atribuí-lo um usuário ou grupos de usuários em sua organização.
 
 As políticas podem ser facilmente gerenciadas no Centro de administração de equipes (http://admin.teams.microsoft.com) fazendo logon com credenciais de administrador e clicando em **Políticas de mensagens** no painel de navegação à esquerda. Para editar a política padrão existente para a sua organização, selecione a linha de **Global (padrão de toda a organização)** e clique em **Editar**. Para criar uma nova política de mensagens, clique em **nova diretiva**.
 
 ![Políticas de mensagens em equipes](media/messaging-policies.png)
-::: zone-end
 
 As configurações disponíveis para a política estão descritas abaixo: 
 
@@ -51,9 +50,7 @@ As configurações disponíveis para a política estão descritas abaixo:
 - **Visualizações de URL permitir** Use esta configuração para ativar automática URL pré-visualizar ativada ou desativada nas mensagens.
 - **Permitir que os usuários para traduzir mensagens** Ative esta configuração para permitir que os usuários automaticamente traduzir mensagens de equipes para o idioma especificado por suas configurações de idioma pessoal para o Office 365.
 
-::: zone target="docs"
 Se você tiver criado uma política personalizada de mensagens, ele só será ativo para um usuário se essa diretiva é atribuída a um usuário.  Para atribuir uma política personalizada a um usuário no Centro de administração de equipes, clique em **usuários** no painel de navegação esquerdo, selecione o usuário que você deseja atribuir a política e escolha **Editar** em **Políticas atribuídas**.
-::: zone-end
 
 ### <a name="related-topics"></a>Tópicos relacionados
 [Políticas de reunião no Teams](meeting-policies-in-teams.md)

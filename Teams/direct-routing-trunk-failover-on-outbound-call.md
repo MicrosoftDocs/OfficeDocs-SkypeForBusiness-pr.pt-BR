@@ -16,12 +16,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como lidar com failovers de tronco em chamadas de saída de equipes para o controlador de borda de sessão (SBC).
-ms.openlocfilehash: 620230ca3be07bb54386f54a983539716d07b2e9
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: bab62130c060b4bfadd633c86dd75caf98b07a46
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297805"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056591"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Failover de tronco em chamadas de saída
 
@@ -34,7 +34,7 @@ Por exemplo, uma conexão pode falhar se um administrador limita o acesso ao SBC
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Failover de códigos específicos de SIP recebida do controlador de borda de sessão (SBC)
 
-Se o roteamento direto recebe quaisquer códigos de erro SIP 4xx ou 6xx em resposta a um convite de saída, a chamada é considerada concluída por padrão. Significa que uma chamada de um cliente de equipes para o comutação telefônica PSTN (rede pública) com o seguinte fluxo de tráfego de saída: cliente equipes -> roteamento direto -> SBC -> rede de telefonia.
+Se o roteamento direto recebe quaisquer códigos de erro SIP 4xx ou 6xx em resposta a um convite de saída, a chamada é considerada concluída por padrão. Significa que uma chamada de um cliente de equipes para o comutação telefônica PSTN (rede pública) com o seguinte fluxo de tráfego de saída: cliente equipes- gt _ roteamento direto- gt _ SBC- gt _ rede de telefonia.
 
 A lista dos códigos de SIP pode ser encontrada no [Protocolo de iniciação de sessão (SIP) RFC](https://tools.ietf.org/html/rfc3261).
 
@@ -48,11 +48,11 @@ Por padrão, a chamada será concluída neste momento.
 ![Mostra o SBC não consegue acessar a PSTN devido a problema de rede](media/direct-routing-failover-response-codes1.png)
 
 Mas não há um SBC mais na rota que potencialmente pode oferecer a chamada.
-Se você configurar o parâmetro Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com - ReinviteResponceCode "408", o segundo SBC será testado – SBC2.contoso.com no diagrama a seguir:
+Se você configurar o parâmetro `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, o segundo SBC será tentado – SBC2.contoso.com no diagrama a seguir:
 
 ![Mostra o roteamento para o segundo SBC](media/direct-routing-failover-response-codes2.png)
 
-Definindo o parâmetro - FailoverResponceCodes e especificando os códigos de ajuda você a tudo bem ajustar seu roteamento e evitar possíveis problemas quando um SBC não pode fazer uma chamada devido a problemas de rede ou outros.
+Definindo o parâmetro - FailoverResponseCodes e especificando os códigos de ajuda você a tudo bem ajustar seu roteamento e evitar possíveis problemas quando um SBC não pode fazer uma chamada devido a problemas de rede ou outros.
 
 Os valores padrão: 408, 503, 504
 

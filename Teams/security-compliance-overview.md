@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f080d90f0a384bfdc4010a80d7c84a1b51a10754
-ms.sourcegitcommit: ea6ee8ce28e82fcd7c07554c3428ae242d6f04da
+ms.openlocfilehash: 20b1ff0536117516484a1d9f54fc49fedbab2e12
+ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201361"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30056519"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -31,15 +31,15 @@ Os serviços das categorias de conformidade C e D que têm compromissos de confo
 
 O Teams também aplica uma autenticação de dois fatores para todas as equipe e organizações, registro único através do diretório ativo e criptografia de dados em trânsito e em repouso. Os arquivos ficam armazenados no SharePoint e são respaldados pela criptografia do SharePoint. As notas ficam armazenadas no OneNote e são respaldadas pela criptografia do OneNote. Os dados do OneNote são armazenados no site do SharePoint da equipe. Na guia Wiki também pode ser usada para fazer anotações e seu conteúdo também é armazenado no site do SharePoint team.
 
-Também acrescentamos suporte para pesquisa de registros de auditoria, eDiscovery e retenção legal para canais, bate-papos e arquivos, bem como gerenciamento de aplicativos móveis com o Microsoft Intune. Vá para o Centro de conformidade & segurança do Office 365 para gerenciar essas configurações. 
+Também acrescentamos suporte para pesquisa de registros de auditoria, eDiscovery e retenção legal para canais, bate-papos e arquivos, bem como gerenciamento de aplicativos móveis com o Microsoft Intune. Vá para o Centro de conformidade para gerenciar essas configurações de & de segurança do Office 365. 
 
 ## <a name="auditing-and-reporting"></a>Auditoria e relatórios
 
-Pesquisa de log de auditoria se conecta à direita no Centro de conformidade & segurança do Office 365 e expõe capacidades para definir alertas e/ou reportar sobre eventos de auditoria, tornando disponível, exportar de carga de trabalho específicos ou evento genérico define para uso de admin e investigação, entre um cronograma de auditoria ilimitada. Todos os dados de Log de auditoria está disponíveis para a configuração de alertas dentro do Office 365 Security & Centro de conformidade, bem como para filtrar e exportar para análise adicional. Consulte este [link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para saber mais sobre como realizar uma pesquisa de log de auditoria para eventos do Microsoft Teams no Centro de conformidade & segurança do Office 365. 
+Pesquisa de log de auditoria se conecta à direita para o Centro de conformidade do & de segurança do Office 365 e expõe capacidades para definir alertas e/ou reportar sobre eventos de auditoria, tornando disponível, exportar de carga de trabalho específicos ou evento genérico define para uso de admin e investigação, entre um cronograma de auditoria ilimitada. Todos os dados de Log de auditoria está disponíveis para a configuração de alertas dentro do Centro de conformidade do & de segurança do Office 365, bem como para filtrar e exportar para análise adicional. Consulte este [link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para saber mais sobre como realizar uma pesquisa de log de auditoria de eventos do Microsoft Teams no Centro de conformidade do & de segurança do Office 365. 
 
 ## <a name="compliance-content-search"></a>Pesquisa de conteúdo de conformidade
 
-Pesquisa de conteúdo pode ser usada para procurar todos os dados de equipes por meio de recursos de filtragem de rich e exportada para um contêiner específico para suporte de conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletar dados de equipes em todos os usuários, revisar e exportá-lo para processamento adicional. Consulte este [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para conteúdo de Teams da Microsoft no Centro de conformidade & segurança do Office 365. 
+Pesquisa de conteúdo pode ser usada para procurar todos os dados de equipes por meio de recursos de filtragem de rich e exportada para um contêiner específico para suporte de conformidade e litígio. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletar dados de equipes em todos os usuários, revisar e exportá-lo para processamento adicional. Consulte este [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para saber mais sobre como realizar uma pesquisa de conteúdo de conformidade para conteúdo Microsoft Teams o Centro de conformidade do & de segurança do Office 365. 
 
 Dica: Do tipo Microsoft Teams pode ser usado para filtrar por meio Teams Microsoft somente conteúdo, ou seja, Chat e mensagens de canal, reuniões e chamadas. 
 
@@ -47,7 +47,7 @@ Dica: Do tipo Microsoft Teams pode ser usado para filtrar por meio Teams Microso
 
 A descoberta eletrônica é o aspecto eletrônico de identificar, coletar e produzir informações armazenadas eletronicamente (ESI) em resposta a uma solicitação de produção em uma ação judicial ou investigação. Recursos incluem o gerenciamento de casos, preservação, pesquisa, análise e exportação de dados de equipes. Isso inclui resumos de bate-papo, mensagens e arquivos, reuniões e chamadas. Para reuniões de equipes e chamadas, um resumo dos eventos que ocorreram na reunião e da chamada são criados e torná-los disponível no eDiscovery. 
 
-Para obter mais detalhes sobre como fazer a descoberta eletrônica no Centro de conformidade e segurança e executar a pesquisa de conteúdo de conformidade para conteúdo de equipes, vá para os links abaixo: 
+Para obter mais detalhes sobre como fazer a descoberta eletrônica no Centro de conformidade de & de segurança e executar a pesquisa de conteúdo de conformidade para conteúdo de equipes, vá para os links abaixo: 
 
 [eDiscovery](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e) 
 
@@ -70,7 +70,7 @@ Os clientes podem aproveitar descoberta eletrônica in-loco ou [eDiscovery Avan�
 
 ## <a name="legal-hold"></a>Retenção legal
 
-Durante um litígio, geralmente é necessário que todos os dados associados a um usuário (dos responsáveis) ou uma equipe é preservada imutavelmente, portanto pode ser usada como evidência para o caso. Isso é feito colocando-se um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe dentro equipes será colocada em (subconjunto do conjunto de sites ou de caixa de correio até o destino de consultas ou conteúdo filtrado) de bloqueio In-loco ou retenção de litígio (coleção inteira de caixa de correio ou site), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluir ou editar as mensagens de canal são incluídas na caixa de correio de grupo, imutáveis cópias desse conteúdo são mantidos e estejam disponíveis na pesquisa de descoberta eletrônica. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [Este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo para saber mais sobre preservação e isenções na segurança do Office 365 & Centro de conformidade da Ajuda. 
+Durante um litígio, geralmente é necessário que todos os dados associados a um usuário (dos responsáveis) ou uma equipe é preservada imutavelmente, portanto pode ser usada como evidência para o caso. Isso é feito colocando-se um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe dentro equipes será colocada em (subconjunto do conjunto de sites ou de caixa de correio até o destino de consultas ou conteúdo filtrado) de bloqueio In-loco ou retenção de litígio (coleção inteira de caixa de correio ou site), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluir ou editar as mensagens de canal são incluídas na caixa de correio de grupo, imutáveis cópias desse conteúdo são mantidos e estejam disponíveis na pesquisa de descoberta eletrônica. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [Este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo para saber mais sobre preservação e isenções no & de segurança do Office 365 Centro de conformidade da Ajuda. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitetura de proteção de informações para as equipes da Microsoft. 
 
@@ -93,13 +93,13 @@ Quando falamos em recursos de proteção de informações, as assinaturas do Off
 
 | Recurso de proteção da informação | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Arquivamento              |               -                |              -              |            -             |             Sim             |           Sim            |
-|        In-Place eDiscovery        |               -                |              -              |            -             |             Sim             |           Sim            |
+|              Arquivamento              |               -                |              -              |            -             |             Sim              |           Sim             |
+|        In-Place eDiscovery        |               -                |              -              |            -             |             Sim              |           Sim             |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Sim            |
-|            Retenção legal             |               -                |              -              |            -             |             Sim             |           Sim            |
-|     Pesquisa de conteúdo de conformidade     |               -                |              -              |            -             |             Sim             |           Sim            |
-|      Auditoria e relatórios       |              Sim               |             Sim             |           Sim            |             Sim             |           Sim            |
-|       Acesso condicional\*        |              Sim               |             Sim             |           Sim            |             Sim             |           Sim            |
+|            Retenção legal             |               -                |              -              |            -             |             Sim              |           Sim             |
+|     Pesquisa de conteúdo de conformidade     |               -                |             Sim              |           Sim             |             Sim              |           Sim            |
+|      Auditoria e relatórios       |              Sim               |             Sim              |           Sim             |             Sim              |           Sim            |
+|       Acesso condicional\*        |              Sim                |             Sim              |           Sim             |             Sim              |           Sim            |
 
 > [!NOTE]
 > \*O acesso condicional precisa de licenças adicionais
@@ -110,9 +110,9 @@ Quando falamos em recursos de proteção de informações, as assinaturas do Off
 |![Ícone de ponto de decisão.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Ponto de decisão         |A sua organização tem as licenças necessárias para atender aos requisitos empresariais de conformidade e segurança?         |
 |![Ícone de próximos passos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Próximos passos         |Revise o licenciamento atual da sua organização e confirme que ele atenda todos os requisitos de negócios para conformidade e segurança.         |
 
-Antes de habilitar qualquer um desses recursos, verifique se que você tem acesso ao centro de conformidade & segurança no Centro de administração do Office 365. Por padrão, os administradores de locatários têm acesso.
+Antes de habilitar qualquer um desses recursos, verifique se que você tem acesso para o Centro de conformidade do & de segurança no Centro de administração do Office 365. Por padrão, os administradores de locatários têm acesso.
 
-Pesquisa de conteúdo e descoberta eletrônica não exigem habilitação no Centro de conformidade & segurança.
+Pesquisa de conteúdo e descoberta eletrônica não exigem habilitação do Centro de conformidade do & de segurança.
 
 <a name="location-of-data-in-teams"></a>Localização dos dados no Microsoft Teams
 -------------------------
