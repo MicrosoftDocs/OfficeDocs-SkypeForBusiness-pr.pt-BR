@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade na Nova Zelândia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para a Nova Zelândia.
-ms.openlocfilehash: 11d0a00350f1b9440f04a901396d1c97c7859dce
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 4c24c7996c190294d12c3d98364d48097fac8906
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016609"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048241"
 ---
 # <a name="availability-in-new-zealand"></a>Disponibilidade na Nova Zelândia
 
@@ -61,7 +61,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

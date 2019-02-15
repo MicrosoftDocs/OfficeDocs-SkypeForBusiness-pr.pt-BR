@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade em Egito
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Egito.
-ms.openlocfilehash: 3575214935ae2c2d6af069257280bddb2f570a92
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 21ae57424df9847036f969f537cf4b90645c2b6b
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014303"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046752"
 ---
 # <a name="availability-in-egypt"></a>Disponibilidade em Egito
 
@@ -60,14 +60,14 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Não se aplica  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Não aplicável  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Não <br/> |
    

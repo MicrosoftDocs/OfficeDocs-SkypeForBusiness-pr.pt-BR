@@ -1,5 +1,5 @@
 ---
-title: Definir configurações de rede para roteamento baseado no local
+title: Configurar definições de rede para o Roteamento baseado na localização
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b99e21d172e35eb8e2ceb2aaabacee78cf45ef9
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 3b818b10a333fbb7cf50cf4e49d521aa224e2d17
+ms.sourcegitcommit: b53d99d06178c26297d1349ff82d05f706dfb479
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771012"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30050760"
 ---
-# <a name="configure-network-settings-for-location-based-routing"></a>Definir configurações de rede para roteamento baseado no local
+# <a name="configure-network-settings-for-location-based-routing"></a>Configurar definições de rede para o Roteamento baseado na localização
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -42,10 +42,10 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Definir os sites de rede
 
-Use o ``New-CsTenantNetworkSitePowerShell`` cmdlet do PowerShell para definir os sites de rede. 
+Use o ``New-CsTenantNetworkSite`` cmdlet do PowerShell para definir os sites de rede. 
 
 ```
-New-CsTenantNetworkSite -NetworkRegionID <region ID>  
+New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 Neste exemplo, criamos dois novos sites de rede, Délhi e Hyderabad, na região Índia. 
 ```
@@ -93,16 +93,16 @@ Identity, Mask, SiteID
 ## <a name="define-external-subnets"></a>Definir as sub-redes externas
 Use o ``New-CsTenantTrustedIPAddress`` cmdlet para definir as sub-redes externas e atribuí-las ao inquilino. Você pode definir um número ilimitado de sub-redes para um inquilino. 
 ```
-New-CsTenantTrustedIPAddress -IPAddress <Subnet IP address> -MaskBits <Subnet bitmask> -Description <description> 
+New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Por exemplo:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 192.168.0.1 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
 ```
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Vá para [Habilitar o roteamento baseado no local para roteamento direto](location-based-routing-enable.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Planejar o roteamento baseado no local para roteamento direto](location-based-routing-plan.md)
-- [Terminologia de roteamento baseados em local](location-based-routing-terminology.md)
+- [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
+- [Terminologia do Roteamento baseado na localização](location-based-routing-terminology.md)

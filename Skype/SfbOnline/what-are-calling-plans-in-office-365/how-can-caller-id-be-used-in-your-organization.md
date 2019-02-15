@@ -1,7 +1,7 @@
 ---
 title: Como a identificação de chamadas pode ser usada em sua organização
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: ID do chamador pode ser controlado para chamadas de entrada e saídas dos usuários de sistema telefônico usando uma política denominada CallingLineIdentity.
-ms.openlocfilehash: 4ae5c54d68410096104f61bf8cdbd71fa0628003
-ms.sourcegitcommit: 99bc2db8cb857b6fd2ddf9b837198be849dafb9b
+ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29981910"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047893"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 

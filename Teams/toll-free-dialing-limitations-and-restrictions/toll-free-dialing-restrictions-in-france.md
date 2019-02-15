@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem gratuita na França
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 13a5856e1b9efcf5aec6d4ec7d44c645add0b7a7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 95ef627f59f07d66346bd8efcf3632a499f0edb8
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012917"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048766"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>Restrições de discagem gratuita na França
 
@@ -42,7 +42,7 @@ ms.locfileid: "25012917"
 |Discagem format(s)  <br/> |0 800 9XX XXX  <br/> |
 |Código ISO de país/região  <br/> |FR  <br/> |
 |Ilha/território abordado  <br/> | França continental e Córsega <br/> |
-|Ilha/território não coberto  <br/> |Sem acesso em: Mônaco, Reunião, Martinica, Guadalupe, Guiana, São Pedro e Miquelon, Mayotte, Nova Caledônia, Polinésia Francesa, Wallis e Futuna.  <br/> |
+|Ilha/território não coberto  <br/> |No access from Monaco, Reunion, Martinique, Guadeloupe, Guyane, St. Pierre-&amp;-Miquelon, Mayotte, New Caledonia, French Polynesia, Wallis &amp; Futuna.  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Acesso móvel: O horário da transmissão é cobrado.  <br/> |

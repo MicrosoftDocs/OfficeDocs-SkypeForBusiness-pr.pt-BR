@@ -12,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: Saiba sobre os requisitos de ambientais para o servidor de borda no Skype para Business Server.'
-ms.openlocfilehash: 4b8c4d63063e7dcd496d0063eff8e8f8b8027058
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c1a7c9ff9b55d2b5cdf978b87913f50b6521ea77
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532457"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047878"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos de ambiente de servidor de borda no Skype para Business Server
  
@@ -79,11 +79,11 @@ Para ajudá-lo a escolher uma, temos a tabela a seguir que apresenta um resumo d
 |:-----|:-----|:-----|:-----|:-----|
 |Borda única consolidada com endereços IP privados e NAT  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
 |Borda única consolidada com endereços IP públicos  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
-|Borda dimensionada consolidada com endereços IP privados e NAT (balanceamento de carga DNS)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim & sup1;  <br/> |
-|Borda dimensionada consolidada com endereços IP públicos (balanceamento de carga DNS)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim & sup1;  <br/> |
-|Borda dimensionada consolidada com balanceadores de carga de hardware  <br/> |Sim  <br/> |Não (um registro DNS A por VIP)  <br/> |Sim  <br/> |Sim  <br/> |
+|Borda dimensionada consolidada com endereços IP privados e NAT (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Yes&sup1;  <br/> |
+|Borda dimensionada consolidada com endereços IP públicos (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Yes&sup1;  <br/> |
+|Borda dimensionada consolidada com balanceadores de carga de hardware  <br/> |Sim  <br/> |Não (um registro DNS A por VIP)  <br/> |Sim  <br/> |Sim   <br/> |
    
-& sup1; Failover de usuário remoto do Exchange Unified Messaging (UM) usando o balanceamento de carga do DNS exige o Exchange 2013 ou mais recente.
+&sup1; Failover de usuário remoto do Exchange Unified Messaging (UM) usando o balanceamento de carga do DNS exige o Exchange 2013 ou mais recente.
   
 ### <a name="ip-address-requirements"></a>Requisitos de Endereço IP
 
@@ -302,7 +302,7 @@ Depois que você tiver chegado o certificado, você precisará prossiga e atribu
 - Serviço de autenticação de áudio/vídeo (não confunda isso com A / serviço de borda V, que não usa um certificado para criptografar fluxos de áudio e vídeos)
     
 > [!IMPORTANT]
-> Todos os Servidores de Borda precisam ter exatamente o mesmo certificado com a mesma chave privada para o serviço de Autenticação de retransmissão de mídia. 
+> Todos os servidores de borda (se eles pertencem ao mesmo pool de servidores de borda) precisa ter o mesmo certificado exato com a mesma chave privada para o serviço de autenticação de retransmissão de mídia. 
   
 ### <a name="internal-certificates"></a>Certificados internos
 
@@ -359,15 +359,15 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
 |Acesso/HTTP  <br/> |TCP  <br/> |80  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Qualquer  <br/> |Revocação de certificado e verificação e recuperação de CRL  <br/> |
 |Acesso/DNS  <br/> |TCP  <br/> |53  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Qualquer  <br/> |Consulta DNS sobre TCP  <br/> |
 |Acesso/DNS  <br/> |UDP  <br/> |53  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Qualquer  <br/> |Consulta DNS sobre UDP  <br/> |
-|Acesso/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Tráfego SIP do cliente ao servidor para o acesso do usuário externo.  <br/> |
+|Acesso/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Tráfego SIP do cliente ao servidor para o acesso do usuário externo.  <br/> |
 |Acesso/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Para conectividade a IM federada e pública usando SIP  <br/> |
-|Acesso/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Qualquer  <br/> |Para conectividade a IM federada e pública usando SIP  <br/> |
-|Webconferência/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Serviço de borda de webconferência servidor de borda <br/> **IP públicos:** Endereço IP público do Edge Server borda de webconferência service <br/> |Mídia de conferência da Web.  <br/> |
+|Acesso/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Qualquer um  <br/> |Para conectividade a IM federada e pública usando SIP  <br/> |
+|Webconferência/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |**IP privados usando NAT:** Serviço de borda de webconferência servidor de borda <br/> **IP públicos:** Endereço IP público do Edge Server borda de webconferência service <br/> |Mídia de conferência da Web.  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Qualquer  <br/> |Usado para retransmitir o tráfego de mídia.  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Qualquer  <br/> |Usado para retransmitir o tráfego de mídia.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Qualquer  <br/> |Saída 3478 é:  <br/> • Usados pelo Skype para Business Server para determinar a versão do servidor de borda está se comunicando com.  <br/> • Usada para o tráfego de mídia entre os servidores de borda.  <br/> • Necessário para federação com o Lync Server 2010.  <br/> • Necessário se vários pools de borda estiverem implantados dentro da sua organização.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Negociação de candidatos STUN/TURN sob UDP na porta 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Negociação de candidatos STUN/TURN sob TCP na porta 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Negociação de candidatos STUN/TURN sob TCP na porta 443.  <br/> |
 |A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Qualquer  <br/> |Negociação de candidatos STUN/TURN sob TCP na porta 443.  <br/> |
    
 ### <a name="internal-port-firewall-summary-table"></a>Tabela de resumo do firewall da porta interna
@@ -380,7 +380,7 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Qualquer um:  <br/> • Servidor de front-End  <br/> • Cada servidor Front-End  <br/>  em seu pool de Front-End <br/> |Interface interna do servidor de borda  <br/> |Tráfego de webconferência do seu servidor Front-End ou em cada servidor Front-End (se você tiver um pool de Front-End) para sua interface interna do servidor de borda.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Qualquer um:  <br/> • Servidor de front-End  <br/> • Pool de front-End  <br/> • Qualquer aparelho de filial persistente, usando este servidor de borda  <br/> • Qualquer servidor de filial persistente, usando este servidor de borda  <br/> |Interface interna do servidor de borda  <br/> |Autenticação do / usuários V de seu pool de Front-End ou de servidor Front-End, ou seu aparelho de filial persistente ou servidor de filial persistente, usando seu servidor de borda.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer  <br/> |Interface interna do servidor de borda  <br/> |Caminho preferido para uma / transferência de mídia de V entre usuários internos e externos e seu aparelho de filial persistente ou servidor de filial persistente.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |Interface interna do servidor de borda  <br/> |Caminho de fallback de A / V de transferência de mídia entre os usuários internos e externos e seu aparelho de filial persistente ou servidor de filial persistente, se a comunicação UDP não está funcionando. Neste caso, o TCP é usado para transferência de arquivos e compartilhamento de área de trabalho.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |Interface interna do servidor de borda  <br/> |Caminho de fallback de A / V de transferência de mídia entre os usuários internos e externos e seu aparelho de filial persistente ou servidor de filial persistente, se a comunicação UDP não está funcionando. Neste caso, o TCP é usado para transferência de arquivos e compartilhamento de área de trabalho.  <br/> |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Qualquer um:  <br/> • O servidor front-End que contém o repositório de gerenciamento Central  <br/> • Pool de front-End que contém o repositório de gerenciamento Central  <br/> |Interface interna do servidor de borda  <br/> |Replicação das alterações de seu repositório de gerenciamento Central para seu servidor de borda.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50001  <br/> |Qualquer  <br/> |Interface interna do servidor de borda  <br/> |Controlador de serviço de log centralizado usando Skype para cmdlets do Shell de gerenciamento de servidor de negócios e Centralized Logging Service, linha de comando do ClsController (ClsController.exe) ou comandos do agente (ClsAgent.exe) e o conjunto de log.  <br/> |
 |MTLS  <br/> |TCP  <br/> |50002  <br/> |Qualquer  <br/> |Interface interna do servidor de borda  <br/> |Controlador de serviço de log centralizado usando Skype para cmdlets do Shell de gerenciamento de servidor de negócios e Centralized Logging Service, linha de comando do ClsController (ClsController.exe) ou comandos do agente (ClsAgent.exe) e o conjunto de log.  <br/> |
@@ -398,7 +398,7 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Acesso/HTTP  <br/> |TCP  <br/> |80  <br/> |Endereço IP público do borda servidor de borda de acesso service  <br/> |Qualquer  <br/> |Revocação de certificado e verificação e recuperação de CRL  <br/> |
 |Acesso/DNS  <br/> |TCP  <br/> |53  <br/> |Endereço IP público do borda servidor de borda de acesso service  <br/> |Qualquer  <br/> |Consulta DNS sobre TCP  <br/> |
-|Acesso/DNS  <br/> |UDP  <br/> |53  <br/> |Endereço IP público do borda servidor de borda de acesso service  <br/> |Qualquer  <br/> |Consulta DNS sobre UDP  <br/> |
+|Acesso/DNS  <br/> |UDP  <br/> |53  <br/> |Endereço IP público do borda servidor de borda de acesso service  <br/> |Qualquer um  <br/> |Consulta DNS sobre UDP  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Um servidor de borda a / V Edge endereço IP do serviço  <br/> |Qualquer  <br/> |Usado para retransmitir o tráfego de mídia.  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Um servidor de borda a / endereço IP público do serviço de borda de V  <br/> |Qualquer  <br/> |Usado para retransmitir o tráfego de mídia.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Um servidor de borda a / endereço IP público do serviço de borda de V  <br/> |Qualquer  <br/> |Saída 3478 é:  <br/> • Usados pelo Skype para Business Server para determinar a versão do servidor de borda está se comunicando com.  <br/> • Usada para o tráfego de mídia entre os servidores de borda.  <br/> • Necessário para federação.  <br/> • Necessário se vários pools de borda estiverem implantados dentro da sua organização.  <br/> |
@@ -425,12 +425,12 @@ O endereço IP de origem e o endereço IP de destino conterão informações par
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |XMPP  <br/> Não são suportados no Skype para 2019 do servidor de negócio |TCP  <br/> |5269  <br/> |Qualquer  <br/> |Serviço de Proxy XMPP (compartilha um endereço IP com o serviço de borda de acesso)  <br/> |O serviço de Proxy XMPP aceita tráfego de contatos XMPP em federações XMPP definidas.  <br/> |
 |XMPP  <br/>Não são suportados no Skype para 2019 do servidor de negócio |TCP  <br/> |5269  <br/> |Serviço de Proxy XMPP (compartilha um endereço IP com o serviço de borda de acesso)  <br/> |Qualquer  <br/> |O serviço de Proxy XMPP enviará o tráfego de contatos XMPP em federações XMPP definidas.  <br/> |
-|Acesso/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Tráfego SIP do cliente ao servidor para o acesso do usuário externo.  <br/> |
+|Acesso/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Tráfego SIP do cliente ao servidor para o acesso do usuário externo.  <br/> |
 |Acesso/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Para conectividade a IM federada e pública usando SIP  <br/> |
 |Acesso/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privados usando NAT:** Serviço de borda de acesso do servidor de borda <br/> **IP públicos:** Endereço IP público do borda servidor de borda de acesso service <br/> |Qualquer  <br/> |Para conectividade a IM federada e pública usando SIP  <br/> |
-|Webconferência/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Serviço de borda de webconferência servidor de borda <br/> **IP públicos:** Endereço IP público do Edge Server borda de webconferência service <br/> |Mídia de conferência da Web.  <br/> |
+|Webconferência/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |**IP privados usando NAT:** Serviço de borda de webconferência servidor de borda <br/> **IP públicos:** Endereço IP público do Edge Server borda de webconferência service <br/> |Mídia de conferência da Web.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Negociação de candidatos STUN/TURN sob UDP na porta 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Negociação de candidatos STUN/TURN sob TCP na porta 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |**IP privados usando NAT:** Um servidor de borda / serviço de borda V <br/> **IP públicos:** Um servidor de borda a / endereço IP público do serviço de borda de V <br/> |Negociação de candidatos STUN/TURN sob TCP na porta 443.  <br/> |
    
 #### <a name="internal-interface-virtual-ips"></a>IPs virtuais da interface interna
 
@@ -448,4 +448,4 @@ A tabela a seguir fornecer orientação para esses cenários, mas caso contrári
 |Acesso/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interface VIP interna do servidor de borda  <br/> |Qualquer um:  <br/> • Diretor  <br/> • Endereço VIP do pool de diretores  <br/> • Servidor de front-End  <br/> Pool de front-End • endereço VIP  <br/> |Tráfego SIP diretor, entrada endereço VIP do pool de diretor, servidor Front-End ou endereço VIP do pool de Front-End da sua interface interna do servidor de borda.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Qualquer um:  <br/> • Endereço de IP de servidor front End  <br/> • Endereço IP de pool de front-End  <br/> • Qualquer aparelho de filial persistente, usando este servidor de borda  <br/> • Qualquer servidor de filial persistente, usando este servidor de borda  <br/> |Interface interna do servidor de borda  <br/> |Autenticação do / usuários V de seu pool de Front-End ou de servidor Front-End, ou seu aparelho de filial persistente ou servidor de filial persistente, usando seu servidor de borda.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Qualquer  <br/> |Interface interna do servidor de borda  <br/> |Caminho preferencial para transferência de mídia A/V entre usuários internos e externos  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer  <br/> |Interface VIP interna do servidor de borda  <br/> |Caminho de fallback para transferência de mídia A/V entre usuários internos e externos se a comunicação UDP não for estabelecida, TCP é usado para transferência de arquivos e compartilhamento da área de trabalho  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Qualquer um   <br/> |Interface VIP interna do servidor de borda  <br/> |Caminho de fallback para transferência de mídia A/V entre usuários internos e externos se a comunicação UDP não for estabelecida, TCP é usado para transferência de arquivos e compartilhamento da área de trabalho  <br/> |

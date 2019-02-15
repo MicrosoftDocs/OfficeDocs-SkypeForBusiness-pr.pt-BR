@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade na Colômbia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis na Colômbia.
-ms.openlocfilehash: a9cdec0d9dafd7101a252e9f95f2ac0464836f42
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 22480020b3687d42399f9e37c463ff3e792b704f
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014447"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047066"
 ---
 # <a name="availability-in-colombia"></a>Disponibilidade na Colômbia
 
@@ -61,7 +61,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

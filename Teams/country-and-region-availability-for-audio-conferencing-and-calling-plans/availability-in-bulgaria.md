@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade em Bulgária
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bulgária.
-ms.openlocfilehash: 1ca01325c55141fa570da479abcf49e3c24c9e3d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: f2ad901ee238de4e5c9fdcbd88cb19f6d0e27139
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015201"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046718"
 ---
 # <a name="availability-in-bulgaria"></a>Disponibilidade em Bulgária
 
@@ -61,7 +61,7 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços

@@ -1,6 +1,6 @@
 ---
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 11fa4c4216bf7addb6e2f6bf77df2cd85c3c49c9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cca17f2c5b8c384c5657183e682ff84c5987c929
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015001"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047462"
 ---
 # <a name="toll-free-dialing-restrictions-in-australia"></a>Restrições de discagem gratuita na Austrália
 
@@ -40,7 +40,7 @@ ms.locfileid: "25015001"
 |Discagem format(s)  <br/> |0800 XXX XXXX  <br/> |
 |Código ISO de país/região  <br/> |AU  <br/> |
 |Ilha/território abordado  <br/> |Ilha Christmas, Tasmânia, Ilhas Cocos  <br/> |
-|Ilha/território não coberto  <br/> |Não se aplica  <br/> |
+|Ilha/território não coberto  <br/> |Não aplicável  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Acesso móvel: O horário da transmissão é cobrado.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Gerenciamento de números de telefone para a Alemanha
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Alemanha.
-ms.openlocfilehash: e4e7240934b41e64f3b2d072788d2a270c8ff4f1
-ms.sourcegitcommit: e2ba383205baa447990d4b2f9c145e299406b9ab
+ms.openlocfilehash: e63a7236ee4ccbdec21a28dcebb3ce41bbd48a68
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29651053"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046550"
 ---
 # <a name="phone-number-management-for-germany"></a>Gerenciamento de números de telefone para a Alemanha
 

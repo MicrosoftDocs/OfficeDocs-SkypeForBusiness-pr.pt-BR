@@ -1,7 +1,7 @@
 ---
 title: Disponibilidade em Bósnia &amp; Herzegovina
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
@@ -26,12 +26,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bósnia e Herzegovina.
-ms.openlocfilehash: 10cb6639b8310e5ea15e817bd7a17275504ace1e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5ebbd996d99721ae5f7e92424d42db2a3c1c2960
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012653"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048558"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Disponibilidade em Bósnia &amp; Herzegovina
 
@@ -61,14 +61,14 @@ Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de n
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Não se aplica  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Não aplicável  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

@@ -1,7 +1,7 @@
 ---
 title: Idiomas das mensagens e saudações da caixa postal
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba quais idiomas podem ser configurados no Skype for Business para as mensagens padrão do sistema. '
-ms.openlocfilehash: 77500d8a84dada5f2a5005c214fded7eddb3186e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 601a23efe09a486afdcd88ad2f45ec9b9b666fd7
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013269"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047710"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas das mensagens e saudações da caixa postal
 
@@ -66,7 +66,7 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Espanhol  <br/> |México  <br/> |es-MX  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |Sim  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |
 |Sueco  <br/> |Suécia  <br/> |sv-SE  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

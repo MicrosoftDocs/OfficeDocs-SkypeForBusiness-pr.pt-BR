@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem gratuita da Venezuela
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: cd81a1f1b6c34af53216d0cef6e7062d2d2c1034
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 7d3e537e85431b86f37dedcba4ff0ecf615037f4
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015145"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048395"
 ---
 # <a name="toll-free-dialing-restrictions-in-venezuela"></a>Restrições de discagem gratuita da Venezuela
 
@@ -41,8 +41,8 @@ ms.locfileid: "25015145"
 |É gratuita chamar disponível?  <br/> |Sim  <br/> |
 |Discagem format(s)  <br/> | 0 800 XXX XXXX <br/> |
 |Código ISO de país/região  <br/> |VE  <br/> |
-|Ilha/território abordado  <br/> |Não se aplica  <br/> |
-|Ilha/território não coberto  <br/> |Não se aplica  <br/> |
+|Ilha/território abordado  <br/> |Não aplicável  <br/> |
+|Ilha/território não coberto  <br/> |Não aplicável  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |

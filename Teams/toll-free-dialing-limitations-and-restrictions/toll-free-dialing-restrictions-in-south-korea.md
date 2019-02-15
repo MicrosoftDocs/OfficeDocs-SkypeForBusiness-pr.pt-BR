@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem gratuita na Coreia do Sul
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 69ba5015c264297bc9cc68740e1b87fe0a3127dd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 610af96c1a46bd073ce3745321b90a64c58deb00
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013991"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047919"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-korea"></a>Restrições de discagem gratuita na Coreia do Sul
 
@@ -41,8 +41,8 @@ ms.locfileid: "25013991"
 |É gratuita chamar disponível?  <br/> |Sim  <br/> |
 |Discagem format(s)  <br/> | 003 XXXX XXXX <br/>  00798 XXX XXXX 14 <br/> |
 |Código ISO de país/região  <br/> |KR  <br/> |
-|Ilha/território abordado  <br/> |Não se aplica  <br/> |
-|Ilha/território não coberto  <br/> |Não se aplica  <br/> |
+|Ilha/território abordado  <br/> |Não aplicável  <br/> |
+|Ilha/território não coberto  <br/> |Não aplicável  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |

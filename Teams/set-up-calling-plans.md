@@ -1,7 +1,7 @@
 ---
 title: Configurar Planos de Chamadas
-ms.author: tonysmit
-author: tonysmit
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: a873c1d21d639917943b1ea3699620f4ef68951d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014969"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047074"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 Chamadas para outro Skype para usuários corporativos são livres, mas se quiser que os usuários possam chamar telefones fora da sua empresa, fazer um planejamento chamar domésticas ou internacional chamar planejar no Office 365. É fácil configurar isso-se no seu negócio. 

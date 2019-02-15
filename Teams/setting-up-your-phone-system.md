@@ -1,7 +1,7 @@
 ---
-title: Configuração do Sistema de Telefonia na sua organização
-ms.author: tonysmit
-author: tonysmit
+title: Configurar o Sistema de Telefonia em sua organização
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
 ms.topic: article
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (nuvem PBX) para sua organização. '
-ms.openlocfilehash: aae5a8e5fc8a0cd2cb20a2e3964c14a89039ce1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0ae2d890e87ecef217bfdafd2c547de7ae35414d
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374446"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047558"
 ---
-# <a name="setting-up-phone-system-in-your-organization"></a>Configuração do Sistema de Telefonia na sua organização
+# <a name="setting-up-phone-system-in-your-organization"></a>Configurar o Sistema de Telefonia em sua organização
 
 The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
 

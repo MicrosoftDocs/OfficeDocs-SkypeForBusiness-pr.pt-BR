@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem gratuita no Reino Unido (Reino Unido)
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 0f9095bf3590ca33ae9a55da6ec253f8312de4e7
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5bbad4682755b6df364790910aa7e0579457506f
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014095"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046356"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Restrições de discagem gratuita no Reino Unido (Reino Unido)
 
@@ -42,7 +42,7 @@ ms.locfileid: "25014095"
 |Discagem format(s)  <br/> | 0 800 XXX XXXX <br/>  0 808 XXX XXXX <br/> |
 |Código ISO de país/região  <br/> |GB  <br/> |
 |Ilha/território abordado  <br/> |England, Guernsey, ilha de Man, Irlanda do Norte, Escócia, Wales e ilhas de canal  <br/> |
-|Ilha/território não coberto  <br/> |Não se aplica  <br/> |
+|Ilha/território não coberto  <br/> |Não aplicável  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |Nenhum  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem gratuita na Espanha
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 890fa7bedf69e6baa6282065e304e274d028c5cd
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 65cc612a769d0cc4f5eb24f177f9ae166b8c80dc
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012533"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30048750"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Restrições de discagem gratuita na Espanha
 
@@ -42,7 +42,7 @@ ms.locfileid: "25012533"
 |Discagem format(s)  <br/> |900 XXX XXX  <br/> |
 |Código ISO de país/região  <br/> |ES  <br/> |
 |Ilha/território abordado  <br/> |Ilhas Baleares e Ilhas Canárias  <br/> |
-|Ilha/território não coberto  <br/> |Não se aplica  <br/> |
+|Ilha/território não coberto  <br/> |Não aplicável  <br/> |
 |Disponibilidade de linha fixa/com fio  <br/> |Sim  <br/> |
 |Disponibilidade com a rede móvel  <br/> |Sim. Disponível com tarifa premium.  <br/> |
 |Comentários, restrições e problemas de acesso  <br/> |A identificação de celular usando pulsos de saída diferentes está disponível.  <br/> |
