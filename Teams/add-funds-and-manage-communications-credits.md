@@ -1,7 +1,7 @@
 ---
 title: Adicionar fundos e gerenciar Créditos de Comunicação
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: article
@@ -32,66 +32,66 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. '
-ms.openlocfilehash: ac35a202e6ab8fd9e5b1aeb0ea381344ca92bf7d
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016505"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30047220"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a><span data-ttu-id="bd799-103">Adicionar fundos e gerenciar Créditos de Comunicação</span><span class="sxs-lookup"><span data-stu-id="bd799-103">Add funds and manage Communications Credits</span></span>
+# <a name="add-funds-and-manage-communications-credits"></a><span data-ttu-id="ab3bf-103">Adicionar fundos e gerenciar Créditos de Comunicação</span><span class="sxs-lookup"><span data-stu-id="ab3bf-103">Add funds and manage Communications Credits</span></span>
 
-<span data-ttu-id="bd799-104">Comunicações créditos são uma maneira conveniente de pagar por sistema telefônico e chamar planos no Office 365.</span><span class="sxs-lookup"><span data-stu-id="bd799-104">Communications Credits are a convenient way to pay for Phone System and Calling Plans in Office 365.</span></span> <span data-ttu-id="bd799-105">Ajuda a garantir que você e seus usuários nunca são detectados sem ser capaz de:</span><span class="sxs-lookup"><span data-stu-id="bd799-105">It helps ensure that you and your users are never caught without being able to:</span></span>
+<span data-ttu-id="ab3bf-104">Comunicações créditos são uma maneira conveniente de pagar por sistema telefônico e chamar planos no Office 365.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-104">Communications Credits are a convenient way to pay for Phone System and Calling Plans in Office 365.</span></span> <span data-ttu-id="ab3bf-105">Ajuda a garantir que você e seus usuários nunca são detectados sem ser capaz de:</span><span class="sxs-lookup"><span data-stu-id="ab3bf-105">It helps ensure that you and your users are never caught without being able to:</span></span>
   
-- <span data-ttu-id="bd799-106">Discar para reuniões de conferência de áudio usando números de telefone de discagem gratuita.</span><span class="sxs-lookup"><span data-stu-id="bd799-106">Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.</span></span>
+- <span data-ttu-id="ab3bf-106">Discar para reuniões de conferência de áudio usando números de telefone de discagem gratuita.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-106">Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.</span></span>
     
-- <span data-ttu-id="bd799-107">Discar a partir de uma reunião de conferência de áudio para adicionar alguém de qualquer lugar do mundo.</span><span class="sxs-lookup"><span data-stu-id="bd799-107">Dial out from an Audio Conferencing meeting to add someone else from anywhere in the world.</span></span>
+- <span data-ttu-id="ab3bf-107">Discar a partir de uma reunião de conferência de áudio para adicionar alguém de qualquer lugar do mundo.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-107">Dial out from an Audio Conferencing meeting to add someone else from anywhere in the world.</span></span>
     
-- <span data-ttu-id="bd799-108">Discar a partir de uma reunião de conferência de áudio para o seu telefone celular com o Skype para o aplicativo de negócios ou Teams da Microsoft instalado.</span><span class="sxs-lookup"><span data-stu-id="bd799-108">Dial out from an Audio Conferencing meeting to your mobile phone with the Skype for Business or Microsoft Teams app installed.</span></span>
+- <span data-ttu-id="ab3bf-108">Discar a partir de uma reunião de conferência de áudio para o seu telefone celular com o Skype para o aplicativo de negócios ou Teams da Microsoft instalado.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-108">Dial out from an Audio Conferencing meeting to your mobile phone with the Skype for Business or Microsoft Teams app installed.</span></span>
     
-- <span data-ttu-id="bd799-109">Quando você tem uma **Chamada domésticas planejar**, disca qualquer número de telefone internacional.</span><span class="sxs-lookup"><span data-stu-id="bd799-109">Dial any international phone number when you have a **Domestic Calling Plan**.</span></span>
+- <span data-ttu-id="ab3bf-109">Quando você tem uma **Chamada domésticas planejar**, disca qualquer número de telefone internacional.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-109">Dial any international phone number when you have a **Domestic Calling Plan**.</span></span>
     
-- <span data-ttu-id="bd799-110">Discagem externa e pagar por minuto depois de você ter esgotado sua alocação mensal em minutos.</span><span class="sxs-lookup"><span data-stu-id="bd799-110">Dial out and pay per minute once you have exhausted your monthly minute allotment.</span></span>
+- <span data-ttu-id="ab3bf-110">Discagem externa e pagar por minuto depois de você ter esgotado sua alocação mensal em minutos.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-110">Dial out and pay per minute once you have exhausted your monthly minute allotment.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="bd799-111">Se você está se perguntando quanto é e as taxas, consulte a tabela de taxas na página [Planos de chamada](https://go.microsoft.com/fwlink/p/?LinkId=799523) .</span><span class="sxs-lookup"><span data-stu-id="bd799-111">If you're wondering how much it is and the rates, see the rates table on the [Calling Plans](https://go.microsoft.com/fwlink/p/?LinkId=799523) page.</span></span>
+> <span data-ttu-id="ab3bf-111">Se você está se perguntando quanto é e as taxas, consulte a tabela de taxas na página [Planos de chamada](https://go.microsoft.com/fwlink/p/?LinkId=799523) .</span><span class="sxs-lookup"><span data-stu-id="ab3bf-111">If you're wondering how much it is and the rates, see the rates table on the [Calling Plans](https://go.microsoft.com/fwlink/p/?LinkId=799523) page.</span></span>
   
-<span data-ttu-id="bd799-112">Como administrador, você poderá adicionar manualmente os fundos ou você pode configurar autocarga, que é **recomendável**.</span><span class="sxs-lookup"><span data-stu-id="bd799-112">As admin, you can add funds manually or you can set up auto-recharge, which we **recommend**.</span></span>
+<span data-ttu-id="ab3bf-112">Como administrador, você poderá adicionar manualmente os fundos ou você pode configurar autocarga, que é **recomendável**.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-112">As admin, you can add funds manually or you can set up auto-recharge, which we **recommend**.</span></span>
   
-<span data-ttu-id="bd799-p102">A recarga automática completa automaticamente o saldo quando este fica abaixo do valor que você definiu. Recomendamos usar a recarga automática para que você não precise lembrar de adicionar fundos manualmente. Quando seu saldo atingir o valor definido, os fundos serão adicionados automaticamente. Se você não escolher a recarga automática, correrá o risco de seu saldo cair abaixo de zero. Se isso ocorrer, você e seus usuários não poderão fazer chamadas gratuitas nem chamadas internacionais.</span><span class="sxs-lookup"><span data-stu-id="bd799-p102">Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.</span></span>
+<span data-ttu-id="ab3bf-p102">A recarga automática completa automaticamente o saldo quando este fica abaixo do valor que você definiu. Recomendamos usar a recarga automática para que você não precise lembrar de adicionar fundos manualmente. Quando seu saldo atingir o valor definido, os fundos serão adicionados automaticamente. Se você não escolher a recarga automática, correrá o risco de seu saldo cair abaixo de zero. Se isso ocorrer, você e seus usuários não poderão fazer chamadas gratuitas nem chamadas internacionais.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-p102">Auto-recharge automatically tops off your balance when it falls below the trigger amount you set. We recommend using auto-recharge so you don't have to remember to add funds manually. When your balance hits the trigger amount, funds are added automatically. If you don't choose auto-recharge, you run the risk of your balance falling below zero. At that point, you and your users won't be able to make toll-free calls or international calls.</span></span>
   
-<span data-ttu-id="bd799-118">Você pode atualizar suas opções de pagamento a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="bd799-118">You can update your payment options at any time.</span></span> <span data-ttu-id="bd799-119">Na página de **assinaturas** , selecione **Créditos de comunicações**e tornar suas atualizações.</span><span class="sxs-lookup"><span data-stu-id="bd799-119">On the **Subscriptions** page, select **Communications Credits**, and make your updates.</span></span>
+<span data-ttu-id="ab3bf-118">Você pode atualizar suas opções de pagamento a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-118">You can update your payment options at any time.</span></span> <span data-ttu-id="ab3bf-119">Na página de **assinaturas** , selecione **Créditos de comunicações**e tornar suas atualizações.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-119">On the **Subscriptions** page, select **Communications Credits**, and make your updates.</span></span>
   
-<span data-ttu-id="bd799-120">Fundos serão aplicados apenas ao créditos de comunicações em taxas de publicado da Microsoft quando os serviços são usados.</span><span class="sxs-lookup"><span data-stu-id="bd799-120">Funds will be applied only to Communications Credits at Microsoft's published rates when the services are used.</span></span> <span data-ttu-id="bd799-121">Qualquer fundos não usados em doze (12) meses após a data de compra expirarão e perdidos.</span><span class="sxs-lookup"><span data-stu-id="bd799-121">Any funds not used within twelve (12) months of the purchase date will expire and be forfeited.</span></span>
+<span data-ttu-id="ab3bf-120">Fundos serão aplicados apenas ao créditos de comunicações em taxas de publicado da Microsoft quando os serviços são usados.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-120">Funds will be applied only to Communications Credits at Microsoft's published rates when the services are used.</span></span> <span data-ttu-id="ab3bf-121">Qualquer fundos não usados em doze (12) meses após a data de compra expirarão e perdidos.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-121">Any funds not used within twelve (12) months of the purchase date will expire and be forfeited.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="bd799-122">Podemos vai envie um que e-mail notificações quando fundos são adicionados por meio de autocarga quando autocarga falha (por exemplo, quando um cartão de crédito expira) e quando seu saldo fica abaixo de zero.</span><span class="sxs-lookup"><span data-stu-id="bd799-122">We'll send you email notifications when funds are added via auto-recharge, when auto-recharge fails (for example, when a credit card expires), and when your balance falls below zero.</span></span> 
+> <span data-ttu-id="ab3bf-122">Podemos vai envie um que e-mail notificações quando fundos são adicionados por meio de autocarga quando autocarga falha (por exemplo, quando um cartão de crédito expira) e quando seu saldo fica abaixo de zero.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-122">We'll send you email notifications when funds are added via auto-recharge, when auto-recharge fails (for example, when a credit card expires), and when your balance falls below zero.</span></span> 
   
-<span data-ttu-id="bd799-123">Para obter mais informações, consulte [Cite Communications créditos?](what-are-communications-credits.md)</span><span class="sxs-lookup"><span data-stu-id="bd799-123">For more information, see [What are Communications Credits?](what-are-communications-credits.md)</span></span>
+<span data-ttu-id="ab3bf-123">Para obter mais informações, consulte [Cite Communications créditos?](what-are-communications-credits.md)</span><span class="sxs-lookup"><span data-stu-id="ab3bf-123">For more information, see [What are Communications Credits?](what-are-communications-credits.md)</span></span>
   
-## <a name="want-to-know-about-plans-and-pricing"></a><span data-ttu-id="bd799-124">Quer saber mais sobre planos e preços?</span><span class="sxs-lookup"><span data-stu-id="bd799-124">Want to know about plans and pricing?</span></span>
+## <a name="want-to-know-about-plans-and-pricing"></a><span data-ttu-id="ab3bf-124">Quer saber mais sobre planos e preços?</span><span class="sxs-lookup"><span data-stu-id="ab3bf-124">Want to know about plans and pricing?</span></span>
 
-<span data-ttu-id="bd799-125">Você pode ver os planos e preços do visitando um dos seguintes links:</span><span class="sxs-lookup"><span data-stu-id="bd799-125">You can see the plans and pricing by visiting one of the following links:</span></span>
+<span data-ttu-id="ab3bf-125">Você pode ver os planos e preços do visitando um dos seguintes links:</span><span class="sxs-lookup"><span data-stu-id="ab3bf-125">You can see the plans and pricing by visiting one of the following links:</span></span>
   
-- [<span data-ttu-id="bd799-126">Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="bd799-126">Calling Plans</span></span>](https://go.microsoft.com/fwlink/?LinkId=799761 )
+- [<span data-ttu-id="ab3bf-126">Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="ab3bf-126">Calling Plans</span></span>](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
-- [<span data-ttu-id="bd799-127">Planos de serviços de audioconferência</span><span class="sxs-lookup"><span data-stu-id="bd799-127">Audio Conferencing plans</span></span>](https://go.microsoft.com/fwlink/?LinkId=799762 )
+- [<span data-ttu-id="ab3bf-127">Planos de serviços de audioconferência</span><span class="sxs-lookup"><span data-stu-id="ab3bf-127">Audio Conferencing plans</span></span>](https://go.microsoft.com/fwlink/?LinkId=799762 )
     
-- [<span data-ttu-id="bd799-128">Planos de sistema telefônico</span><span class="sxs-lookup"><span data-stu-id="bd799-128">Phone System plans</span></span>](https://go.microsoft.com/fwlink/?LinkId=799763)
+- [<span data-ttu-id="ab3bf-128">Planos de sistema telefônico</span><span class="sxs-lookup"><span data-stu-id="ab3bf-128">Phone System plans</span></span>](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-<span data-ttu-id="bd799-129">Você também pode ver informações entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.</span><span class="sxs-lookup"><span data-stu-id="bd799-129">You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.</span></span>
+<span data-ttu-id="ab3bf-129">Você também pode ver informações entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.</span><span class="sxs-lookup"><span data-stu-id="ab3bf-129">You can also see information by [signing in to the Office 365 admin center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) and going to **Billing** > **Subscriptions** > **Add subscriptions**.</span></span>
   
-<span data-ttu-id="bd799-130">Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span><span class="sxs-lookup"><span data-stu-id="bd799-130">To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span></span>
+<span data-ttu-id="ab3bf-130">Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span><span class="sxs-lookup"><span data-stu-id="ab3bf-130">To see a table with the license or licenses you will need for each feature, see [Skype for Business and Microsoft Teams add-on licensing](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="bd799-131">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="bd799-131">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ab3bf-131">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="ab3bf-131">Related topics</span></span>
 
-- [<span data-ttu-id="bd799-132">Configurar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="bd799-132">Set up Skype for Business Online</span></span>](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [<span data-ttu-id="ab3bf-132">Configurar o Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="ab3bf-132">Set up Skype for Business Online</span></span>](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [<span data-ttu-id="bd799-133">Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador</span><span class="sxs-lookup"><span data-stu-id="bd799-133">Set up Phone System voicemail - Admin help</span></span>](set-up-phone-system-voicemail.md)
+- [<span data-ttu-id="ab3bf-133">Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador</span><span class="sxs-lookup"><span data-stu-id="ab3bf-133">Set up Phone System voicemail - Admin help</span></span>](set-up-phone-system-voicemail.md)
     
-- <span data-ttu-id="bd799-134">[Configurar Planos de Chamadas](set-up-calling-plans.md) e [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)</span><span class="sxs-lookup"><span data-stu-id="bd799-134">[Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)</span></span>
+- <span data-ttu-id="ab3bf-134">[Configurar Planos de Chamadas](set-up-calling-plans.md) e [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)</span><span class="sxs-lookup"><span data-stu-id="ab3bf-134">[Set up Calling Plans](set-up-calling-plans.md) and [Calling Plans for Office 365](calling-plans-for-office-365.md)</span></span>
         
-- <span data-ttu-id="bd799-135">[Configure o conector de nuvem](https://technet.microsoft.com/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)</span><span class="sxs-lookup"><span data-stu-id="bd799-135">[Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)</span></span>
+- <span data-ttu-id="ab3bf-135">[Configure o conector de nuvem](https://technet.microsoft.com/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)</span><span class="sxs-lookup"><span data-stu-id="ab3bf-135">[Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)</span></span>
 
   
  
