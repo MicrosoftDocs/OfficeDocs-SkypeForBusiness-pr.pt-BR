@@ -1,7 +1,7 @@
 ---
 title: Restrições de discagem gratuita na Argentina
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: article
@@ -24,32 +24,32 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 9db09ca358b7c9bb996be3f3c24d8316671d3535
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: baeca4c4eb954f110e5f96764faf88ea99c3f958
+ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017195"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "30046582"
 ---
-# <a name="toll-free-dialing-restrictions-in-argentina"></a><span data-ttu-id="1d44c-105">Restrições de discagem gratuita na Argentina</span><span class="sxs-lookup"><span data-stu-id="1d44c-105">Toll-free dialing restrictions in Argentina</span></span>
+# <a name="toll-free-dialing-restrictions-in-argentina"></a><span data-ttu-id="90005-105">Restrições de discagem gratuita na Argentina</span><span class="sxs-lookup"><span data-stu-id="90005-105">Toll-free dialing restrictions in Argentina</span></span>
 
-<span data-ttu-id="1d44c-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="1d44c-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="90005-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="90005-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
-|<span data-ttu-id="1d44c-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="1d44c-107">**Details**</span></span>|<span data-ttu-id="1d44c-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="1d44c-108">**Description**</span></span>|
+|<span data-ttu-id="90005-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="90005-107">**Details**</span></span>|<span data-ttu-id="90005-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="90005-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="1d44c-109">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="1d44c-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="1d44c-110">Sim</span><span class="sxs-lookup"><span data-stu-id="1d44c-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="1d44c-111">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="1d44c-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="1d44c-112">0800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="1d44c-112">0800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="1d44c-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="1d44c-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="1d44c-114">AR</span><span class="sxs-lookup"><span data-stu-id="1d44c-114">AR</span></span>  <br/> |
-|<span data-ttu-id="1d44c-115">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="1d44c-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="1d44c-116">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="1d44c-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="1d44c-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="1d44c-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="1d44c-118">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="1d44c-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="1d44c-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="1d44c-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="1d44c-120">Sem acesso de Telmex (e subsidiárias)</span><span class="sxs-lookup"><span data-stu-id="1d44c-120">No access from Telmex (and subsidiaries)</span></span>  <br/> |
-|<span data-ttu-id="1d44c-121">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="1d44c-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="1d44c-122">Sim</span><span class="sxs-lookup"><span data-stu-id="1d44c-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="1d44c-123">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="1d44c-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="1d44c-124">Acesso móvel: O horário da transmissão é cobrado.</span><span class="sxs-lookup"><span data-stu-id="1d44c-124">Mobile access: Airtime is charged.</span></span>  <br/> |
+|<span data-ttu-id="90005-109">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="90005-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="90005-110">Sim</span><span class="sxs-lookup"><span data-stu-id="90005-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="90005-111">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="90005-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="90005-112">0800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="90005-112">0800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="90005-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="90005-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="90005-114">AR</span><span class="sxs-lookup"><span data-stu-id="90005-114">AR</span></span>  <br/> |
+|<span data-ttu-id="90005-115">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="90005-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="90005-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="90005-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="90005-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="90005-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="90005-118">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="90005-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="90005-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="90005-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="90005-120">Sem acesso de Telmex (e subsidiárias)</span><span class="sxs-lookup"><span data-stu-id="90005-120">No access from Telmex (and subsidiaries)</span></span>  <br/> |
+|<span data-ttu-id="90005-121">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="90005-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="90005-122">Sim</span><span class="sxs-lookup"><span data-stu-id="90005-122">Yes</span></span>  <br/> |
+|<span data-ttu-id="90005-123">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="90005-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="90005-124">Acesso móvel: O horário da transmissão é cobrado.</span><span class="sxs-lookup"><span data-stu-id="90005-124">Mobile access: Airtime is charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="1d44c-125">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="1d44c-125">Related topics</span></span>
-[<span data-ttu-id="1d44c-126">Restrições e limitações de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="1d44c-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="90005-125">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="90005-125">Related topics</span></span>
+[<span data-ttu-id="90005-126">Restrições e limitações de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="90005-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="1d44c-127">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="1d44c-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="90005-127">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="90005-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
