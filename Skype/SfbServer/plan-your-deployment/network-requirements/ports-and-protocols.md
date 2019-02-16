@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: Revise as considerações de uso da porta antes de implementar Skype para Business Server.'
-ms.openlocfilehash: b02f329fdc8209fa9143a966181180ed7cf3b0be
-ms.sourcegitcommit: 183a2e40af762e6ab36f05ee8ed31a98e8b8be57
+ms.openlocfilehash: a014df31ad27e5ed89b97fd7ca09979d4cfb5661
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690471"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069509"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de porta e protocolo para servidores
  
@@ -31,7 +31,7 @@ Isso pode parecer desanimador bit em um primeiro momento, o trabalho pesado para
   
 Você também pode encontrar as informações nestas tabelas no formulário de diagrama examinando o cartaz de cargas de trabalho de protocolo vinculado do artigo [Technical diagrams for Skype para Business Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
-> - Se você estiver implementando Skype para negócios Online (O365) consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Ambientes híbridos serão necessário fazer referência a este tópico e também [Planejar conectividade híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md).
+> - Se você estiver implementando Skype para negócios Online (O365) consulte [URLs do Office 365 e intervalos de endereços IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Ambientes híbridos serão necessário fazer referência a este tópico e também [Planejar conectividade híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Você pode ter os firewalls de hardware ou software, podemos não exigem modelos específicos ou versões. O que importa é que portas são na lista branca, portanto, o firewall não prejudicar o funcionamento do Skype para Business Server.
   
 ## <a name="port-and-protocol-details"></a>Detalhes de protocolo e porta

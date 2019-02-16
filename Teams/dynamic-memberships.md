@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a96205f1971207f81d6191ef46e1be25e063f4c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 6fe6a097ba413c81d90f5fe519c5d6cbf1377a98
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699768"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062651"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 
@@ -33,8 +33,11 @@ Usar esse recurso, a atualização de membros da equipe de um determinado automa
 Microsoft Teams pode levar alguns minutos até 2 horas para refletir as alterações de associação dinâmica depois que eles entrem em vigor no grupo Office 365 para uma equipe. 
 
 > [!NOTE]
-> - Regras podem definir os membros da equipe, mas não os proprietários de equipe.
+> - Regras podem definir quem é um membro da equipe, mas não quem é uma proprietário de equipe.
 > - Consulte [limites e as especificações para equipes da Microsoft](limits-specifications-teams.md) para atuais limites de tamanhos de equipe e de canal.
+> - Proprietários não será capazes de adicionar ou remover usuários como membros da equipe, como membros são definidos pelas regras de grupo dinâmico.
+> - Membros não poderão deixar equipes feitas por grupos dinâmicos.
+
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Criando e gerenciando um grupo do Office 365 com participação dinâmica
 Enquanto logado como o administrador de locatário, siga as instruções em [um grupo dinâmico de criar e verificar o status](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule). Conforme necessário, consulte [regras de participação dinâmicas para grupos do Active Directory do Windows Azure](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership).

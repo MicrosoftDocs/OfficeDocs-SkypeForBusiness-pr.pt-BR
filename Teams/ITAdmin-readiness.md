@@ -4,29 +4,29 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 11/07/2018
+ms.date: 02/15/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Training
 search.appverid: MET150
-description: Vídeos de treinamento, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
+description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c394a2259223dfb7fc5ab233a2de604af2174d13
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
+ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593906"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30062619"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
 
-Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobre as equipes e incentivar o uso em sua organização. Verifique novamente aqui frequentemente para o novo conteúdo. 
+Use os recursos de treinamento sobre as equipes, ensinar aos outros usuários ou executar workshops. Verifique novamente aqui frequentemente para o novo conteúdo. 
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -36,68 +36,14 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introdução ao equipes</h3>
+                        <h3>Introdução rápida com algumas equipes e canais</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/tutorial-journey-skypeforbusiness-to-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/flag-blue.svg" alt="Flag" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Adotar um tutorial na jornada de atualização do Skype para negócios às equipes</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-   <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Obtenha treinamento para seus usuários</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Confira o canal de equipes no YouTube</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
- <li>
+    <li>
         <a href="https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos">
         <div class="cardSize">
             <div class="cardPadding">
@@ -115,169 +61,54 @@ Use esses tutoriais, vídeos e outros recursos de treinamento para aprender sobr
         </div>
         </a>
     </li>
-</ul>
-
-    
-</ul>
-
----
-
-<h2>Treinamento em destaque</h2>
-<ul class="panelContent cardsW">
     <li>
+        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                        </div>
+                    </div>
                     <div class="cardText">
-                        <h3>Jornada de migração do Skype for Business para o Microsoft Teams</h3>
-                         <p><a href="https://aka.ms/teams-upgrade-intro">Vídeo: Introdução à atualização</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-plan">Vídeo: Planejar a atualização</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-coexistence-interop">Vídeo: Interoperabilidade e coexistência</a></p>
-                        <p><a href="https://aka.ms/teams-upgrade-admin">Vídeo: Experiência do administrador</a></p>
-                        <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams</a></p>
+                        <h3>Obtenha treinamento para seus usuários</h3>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Trabalho em equipe</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Curso: Habilitar o trabalho em equipe com equipes da Microsoft</a></p>
-                         <p><a href="https://support.office.com/article/video-get-your-team-up-and-running-702a2977-e662-4038-bef5-bdf8ee47b17b">Vídeo: Colocar sua equipe em funcionamento</a></p>
-                         <p><a href="https://support.office.com/article/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547">Vídeo: Ir para guia de para proprietários de equipe</a></p>
-                         <p><a href="create-an-org-wide-team.md">Artigo: Criar uma equipe de toda a organização em equipes</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Arquitetura</h3>
-                        <p><a href="http://aka.ms/teams-foundations">Vídeo: Fundamentos - componentes principais de equipes</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Implantar o plano &</h3>
-                         <p><a href="deploy-chat-teams-channels-microsoft-teams-landing-page.md">Implantar o bate-papo, equipes, canais e aplicativos no Microsoft Teams</a></p>
-                         <p><a href="http://aka.ms/teams-clients">Vídeo: Cliente desktop do Windows de equipes</a></p>
-                         <p><a href="http://aka.ms/teams-governance">Vídeo: Governança, gerenciamento e ciclo de vida no Microsoft Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li> <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Microsoft Teams for Education</h3>
-                        <p><a href="teams-quick-start-edu.yml">Início rápido: equipes para os administradores de educação</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </a>
     </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Qualidade da chamada & de rede</h3>
-                         <p><a href="https://aka.ms/teams-quality">Vídeo: Visão geral de qualidade de chamada</a></p>
-                         <p><a href="https://aka.ms/teams-networking">Vídeo: Planejamento de rede</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Segurança e conformidade</h3>
-                       <p><a href="https://www.youtube.com/watch?v=OF65_p_07cE">Vídeo: Noções básicas sobre descoberta eletrônica em equipes</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-        <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Reuniões</h3>
-                        <p><a href="tutorial-meetings-in-teams.yml">Tutorial: Reuniões no Teams</a></p>
-                        <p><a href="https://aka.ms/teams-meetings-intro">Vídeo: Introdução às reuniões em equipes da Microsoft</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Ferramentas de & de aplicativos</h3>
-                        <p><a href="https://support.office.com/article/video-add-tools-with-tabs-7350a03e-017a-4a00-a6ae-1c9fe8c497b3">Vídeo: Adicionar ferramentas com guias</a></p>
-                        <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Vídeo: Use a caixa de comando</a></p>
-                        <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Vídeo: Visão geral de barra de comando</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-<li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Audioconferência</h3>
-                         <p><a href="tutorial-audio-conferencing.yml">Tutorial: Serviços de audioconferência em equipes</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AGPvaW4Vg0o">Vídeo: Introdução à conferência de áudio</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=AWbuvcWcYIc">Vídeo: Planejar a conferência de áudio</a></p>
-                         <p><a href="https://www.youtube.com/watch?v=5k0C21KAsns">Vídeo: Número portando para audioconferências</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Sistema de Telefonia</h3>
-                         <p><a href="https://aka.ms/teams-phone-system">Vídeo: Introdução ao sistema telefônico em equipes da Microsoft</a></p>
-                         <p><a href="configuring-teams-calling-quickstartguide.md">Início rápido: como configurar planos de chamar em equipes</a></p>
-                         <p><a href="tutorial-calling-in-teams.yml">Tutorial: Entender as chamadas no Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Direcionar circulação</h3>
-                        <p><a href="https://aka.ms/teams-direct-routing">Vídeo: Direcionar o roteamento em equipes da Microsoft</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-      </ul>
+</ul>
 
 
+<h2>Treinamento técnico</h2>
+
+| Módulo | Vídeo | Apresentação do PowerPoint |
+| ------------ | -------------------- | -------------------- |
+| Fundamentos - componentes principais | [Vídeo](http://aka.ms/teams-foundations) | [Deck](http://aka.ms/teams-foundations-deck) |
+| Cliente de Desktop do Windows | [Vídeo](http://aka.ms/teams-clients) | [Deck](http://aka.ms/teams-clients-deck) |
+| Governança, gerenciamento e Lifecylce | [Vídeo](http://aka.ms/teams-governance) | [Deck](http://aka.ms/teams-governance-deck) |
+| Planejamento de rede | [Vídeo](http://aka.ms/teams-networking) | [Deck](http://aka.ms/teams-networking-deck) |
+| Visão geral de qualidade de chamada | [Vídeo](http://aka.ms/teams-quality) | [Deck](http://aka.ms/teams-quality-deck) |
+| Introdução de reuniões | [Vídeo](http://aka.ms/teams-meetings-intro) | [Deck](http://aka.ms/teams-meetings-intro-deck) |
+| Introdução do sistema de telefone | [Vídeo](http://aka.ms/teams-phone-system) | [Deck](http://aka.ms/teams-phone-system-deck) |
+| Direcionar circulação | [Vídeo](http://aka.ms/teams-direct-routing) | [Deck](http://aka.ms/teams-direct-routing-deck) |
+| Atualização do Skype for Business para o Microsoft Teams | [Vídeo 1: Introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planejar a atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Deck](htt://aka.ms/teams-upgrade-deck)|
+
+<h2>Guias de Início Rápido</h2>
+
+- [Início rápido: equipes para os administradores de educação](teams-quick-start-edu.yml)
+- [Início rápido: como configurar planos de chamar em equipes](configuring-teams-calling-quickstartguide.md)
+
+<h2>Tutoriais</h2>
+
+- [Tutorial: Jornada de migração do Skype for Business para o Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Tutorial: Reuniões no Teams](tutorial-meetings-in-teams.yml)
+- [Tutorial: Serviços de audioconferência em equipes](tutorial-audio-conferencing.yml)
+- [Tutorial: Entender as chamadas no Teams](tutorial-calling-in-teams.yml)
+
+<h2>Cursos</h2>
+
+- [Habilitando o trabalho em equipe com equipes da Microsoft](https://aka.ms/edx-cld267x-about)
+- [Especialista de adoção de serviço da Microsoft](https://aka.ms/AdoptionCert)

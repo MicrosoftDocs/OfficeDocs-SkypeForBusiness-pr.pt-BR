@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumo: Revise as considerações de DNS neste tópico antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 8f47d7de61521c3908a8094bb7c6c866a55c4842
-ms.sourcegitcommit: 81b38b389bfe3acd1aa13ce61c221b7b368c0e2d
+ms.openlocfilehash: 649528c21254625b1aac8d2933c59988138b38b1
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "27382851"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069577"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos de DNS para Skype para Business Server
 
@@ -95,8 +95,8 @@ O diagrama a seguir mostra um exemplo que inclui registros DNS internos e extern
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. <span> </span> *contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Usado para federação e conectividade de IM pública   |& #x 2776;  |
 |SRV   |\_servidor de XMPP. \_tcp. *<sipdomain\> * <br/>\_servidor de XMPP. \_tcp. * <span> </span>contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>*Access1. <span> </span>contoso<span></span>.com*  |O serviço de Proxy XMPP aceita e envia mensagens de protocolo XMPP de presença e mensagem extensível e para parceiros federados XMPP configurados.   |Y, para implantar a federação; caso contrário, opcional  <br/> Não está disponível no Skype para Business Server 2019.|
 |SRV   |\_sipfederationtls. \_tcp. * \<sipdomain\> * <br/>\_sipfederationtls. \_tcp. * <span> </span>contoso<span></span>.com*  |FQDN de borda de acesso externo  <br/>*Access1. <span> </span>contoso<span></span>.com*  |Para suportar o serviço de notificação de Push e Apple Push Notification service, você deve criar um registro SRV para cada domínio SIP. & #x 2778;  ||
-|A/AAAA   |FQDN de serviços web externos de pool de Front-End  <br/>*Ramal de Web<span></span>contoso<span></span>.com*  |Endereço IP público do proxy reverso, proxies para o VIP de serviços Web externos para seu pool de Front-End & #x 2776; <br/> 131.107.155.1 proxy de para 192.168.21.120   |Front End pool interface externa usado pelo Skype para negócios Web App   |Y   |
-|A/AAAA/CNAME   |lyncdiscover. * \<sipdomain\>* <br/> lyncdiscover. * <span> </span>contoso<span></span>.com*  |Reverter o endereço IP público do proxy, resolve para o VIP de serviços Web externos para seu pool de diretor, se você tiver um, ou para seu pool de Front-End, se você não tiver um diretor & #x 2777; <br/> 131.107.155.1 proxy de para 192.168.21.120   | Registro externo para o cliente de descoberta automática, também é usada pelo mobilidade, Skype para negócios Web App e Agendador Web app, resolvido pelo servidor proxy reverso <br/> Para suportar o serviço de notificação de Push e Apple Push Notification service, você deve criar um registro SRV para cada domínio SIP que possui clientes do Microsoft Lync Mobile. 3  |Y   |
+|A/AAAA   |FQDN de serviços web externos de pool de Front-End  <br/>*Ramal de Web<span></span>contoso<span></span>.com*  |Reverter o endereço IP público do proxy, proxies para o VIP de serviços Web externos para seu pool de Front-End & #x 2776; <br/> 131.107.155.1 proxy de para 192.168.21.120   |Front End pool interface externa usado pelo Skype para negócios Web App   |Y   |
+|A/AAAA/CNAME   |lyncdiscover. * \<sipdomain\>* <br/> lyncdiscover. * <span> </span>contoso<span></span>.com*  |Reverter o endereço IP público do proxy, resolve para o VIP de serviços Web externos para seu pool de diretor, se você tiver um, ou para seu pool de Front-End, se você não tiver um diretor de & #x 2777; <br/> 131.107.155.1 proxy de para 192.168.21.120   | Registro externo para o cliente de descoberta automática, também é usada pelo mobilidade, Skype para negócios Web App e Agendador Web app, resolvido pelo servidor proxy reverso <br/> Para suportar o serviço de notificação de Push e Apple Push Notification service, você deve criar um registro SRV para cada domínio SIP que possui clientes do Microsoft Lync Mobile. 3  |Y   |
 |A/AAAA   |atende. * \<sipdomain\>* <br/> atende. * <span> </span>contoso<span></span>.com*  |Reverter o endereço IP público do proxy, resolve para a interface externa da Web para o pool de Front-End  <br/> 131.107.155.1 proxy de para 192.168.21.120   |Proxy do Skype para serviço Web de negócios  <br/> Consulte [as URLs simples](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |dial-in.*\<sipdomain\>* <br/> dial-in.*<span></span>contoso<span></span>.com*  |Reverter o endereço IP público do proxy, proxies para a interface externa da Web para o pool de Front-End  <br/> 131.107.155.1 proxy de para 192.168.21.120   |Proxy do Skype para serviço Web de negócios  <br/> Consulte [as URLs simples](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |FQDN do pool do Office Web Apps Server  <br/> OWA. <span> </span>contoso<span></span>.com   | Endereço IP público do proxy reverso, proxies para a interface externa da Web para o Office Web Apps Server <br/> 131.107.155.1 proxy pra 192.168.1.5   | Pool do Office Web Apps Server endereço VIP <br/> 192.168.1.5   |Define o FQDN do pool de servidor do Office Web Apps   |
@@ -123,7 +123,7 @@ DNS de dupla personalidade é uma configuração de DNS em que há duas zonas DN
 ## <a name="hybrid-considerations"></a>Considerações sobre o híbrido
 <a name="BK_Hybrid"> </a>
 
-Se você pretende ter alguns usuários hospedagem online e alguns hospedados no local, consulte a conectividade híbrida planning artigo [Skype para Business server 2019](../../../SfBServer2019/hybrid/plan-hybrid-connectivity.md). Você precisará configurar o DNS como de costume para Skype para Business Server 2015 e também adicionar registros DNS adicionais.
+Se você pretende ter alguns usuários hospedagem online e alguns hospedados no local, consulte a conectividade híbrida planning artigo [Skype para Business server 2019](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json). Você precisará configurar o DNS como de costume para Skype para Business Server 2015 e também adicionar registros DNS adicionais.
 
 Você também deve consultar a "IP e URLs do Office 365 intervalos de endereços" em [https://aka.ms/o365ips](https://aka.ms/o365ips) para confirmar que seus usuários terão acesso aos recursos online que precisarão.
 

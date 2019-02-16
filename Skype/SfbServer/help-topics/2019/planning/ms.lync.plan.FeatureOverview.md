@@ -1,5 +1,5 @@
 ---
-title: Visão geral do recurso (ferramenta de planejamento)
+title: Feature Overview (Planning Tool)
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para ferramenta de planejamento do Business Server
-ms.openlocfilehash: 22f14c0d31eaed5a6518263b15a9962e4bd136d0
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: f7a9f7fd0dfc7f4c65d85404bd827aee7b98332b
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082605"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059141"
 ---
-# <a name="feature-overview-planning-tool"></a>Visão geral do recurso (ferramenta de planejamento)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Skype para ferramenta de planejamento do Business Server
   
@@ -90,7 +90,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     Skype para Business Server permite que você tenha mensagens de caixa postal armazenadas no Exchange Unified Messaging (UM); Essas mensagens de caixa postal aparecerão como mensagens de email nas caixas de entrada dos usuários.
 
     > [!NOTE]
-    > Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Exchange 2019, mas você pode ainda usar o sistema telefônico para mensagens de caixa postal de registro e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+    > Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Exchange 2019, mas você pode ainda usar o sistema telefônico para mensagens de caixa postal de registro e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
     
 ### <a name="voice"></a>Voz
 
@@ -105,7 +105,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     Caixa postal do Exchange Unified Messaging (UM) combina e email em uma única infra-estrutura de mensagens. Skype para Business Server 2015 usa UM do Exchange para fornecer atendimento de chamadas, acesso do assinante, notificação de chamada e serviços de atendedor automático. Se você usar esses serviços, será necessário integrar o UM do Exchange e Skype para Business Server em uma topologia compartilhada do Active Directory.
 
     > [!NOTE]
-    > Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Exchange 2019, mas você pode ainda usar o sistema telefônico para mensagens de caixa postal de registro e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+    > Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Exchange 2019, mas você pode ainda usar o sistema telefônico para mensagens de caixa postal de registro e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
     
 ### <a name="additional-deployment-options"></a>Opções de implantação adicionais
 
@@ -151,7 +151,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     
     Aplicativo grupo de resposta atende e distribui chamadas para um operador de assistência técnica disponível automaticamente.
     
-- **Anúncio**
+- **Comunicado**
     
     Se você planeja implantar o Enterprise Voice, você talvez queira ser capaz de configurar o modo como as chamadas telefônicas são tratadas se o número discado é válido, mas não atribuído a uma área comum do usuário. Os administradores podem configurar o Serviço de Comunicado para que essas chamadas sejam transferidas para um destino predeterminado (número telefônico ou URI SIP) ou reproduzir um comunicado em áudio ou ambos. O aplicativo de Anúncio ajuda a evitar situações em que o chamador disca para um número errado e ouve um tom de ocupado ou em que o cliente SIP recebe uma mensagem de erro. A funcionalidade de Serviço de Comunicado é um recurso típico de PBX. 
     

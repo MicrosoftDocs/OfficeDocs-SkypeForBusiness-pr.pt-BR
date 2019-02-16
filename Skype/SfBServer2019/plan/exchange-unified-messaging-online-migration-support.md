@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft é retirada de Unificação de mensagens (ExchUMO) serviço do Exchange Online por de 2020 fevereiro. Este artigo resume o que afetaram os clientes devem saber e fazer para planejar seu continuidade de negócios.
-ms.openlocfilehash: af9418a764780efca07a37f1c0b55415d0305f55
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786418"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059163"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte de migração Exchange Unified Messaging Online  
 
@@ -59,7 +59,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 2.  **Estabelecer um Skype para topologia híbrida de negócios**
 
-    Se você não tiver um Skype para topologia híbrida de negócios estabelecida, você precisará fazer isso para habilitar uma migração suave dos seus usuários de caixa postal. Consulte [Configure Skype para o híbrido de negócios](../hybrid/configure-federation-with-skype-for-business-online.md) para obter mais detalhes. 
+    Se você não tiver um Skype para topologia híbrida de negócios estabelecida, você precisará fazer isso para habilitar uma migração suave dos seus usuários de caixa postal. Consulte [Configure Skype para o híbrido de negócios](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) para obter mais detalhes. 
 
     > [!Note]
     > Você não precisará migrar seus usuários para online para a migração de serviço de correio de voz. No entanto, para usuários no local aproveitar o serviço de correio de voz baseado em nuvem, uma topologia híbrida é deve ser estabelecida.

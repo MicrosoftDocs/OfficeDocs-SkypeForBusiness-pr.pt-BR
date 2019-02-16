@@ -3,7 +3,7 @@ title: Configurar a Unificação de Mensagens do Exchange Server para a caixa po
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.date: 12/19/2016
+ms.date: 2/11/2019
 ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumo: Configure o Unificação de mensagens do Exchange Server para Skype para caixa postal Business Server.'
-ms.openlocfilehash: 09ff81c170713f1dd3235f3968d586afc80929fd
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375808"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059191"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar a Unificação de Mensagens do Exchange Server para a caixa postal do Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "25375808"
 Skype para Business Server permite que você tenha mensagens da caixa postal armazenadas no Exchange Server 2016 ou Exchange Server 2013; Essas mensagens de caixa postal aparecerão como mensagens de email nas caixas de entrada dos usuários. 
 
 > [!NOTE]
-> Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Exchange 2019, mas você pode ainda usar o sistema telefônico para mensagens de caixa postal de registro e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+> Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Exchange 2019, mas você pode ainda usar o sistema telefônico para mensagens de caixa postal de registro e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
   
 Se você já tiver configurado a autenticação de servidor-para-servidor entre o Skype para Business Server e o Exchange Server 2016 ou o Exchange Server 2013, em seguida, você estará pronto para configurar a Unificação de mensagens. Para fazer isso, você deve primeiro criar e atribuir um novo plano de discagem mensagens unificadas em seu servidor Exchange. Por exemplo, estes dois comandos (executados de dentro do Shell de gerenciamento do Exchange) configurar um novo plano de discagem de 3 dígitos para o Exchange:
   
@@ -93,7 +93,7 @@ $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Se você tiver um segundo usuário que tenha sido habilitado para Unificação de mensagens, você pode usar o cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) para verificar se o segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
+Se você possui um segundo usuário habilitado para unificação de mensagens, é possível usar o cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) para verificar se este segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
   
 ```
 $credential = Get-Credential "litwareinc\pilar"
@@ -140,7 +140,7 @@ As seguintes ferramentas devem estar disponíveis em cada servidor executando o 
 
 
 
-### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configurar o Unified Messaging no Microsoft Exchange com o ExchUCUtil. Ps1 
+### <a name="configure-unified-messaging-on-microsoft-exchange-with-exchucutilps1"></a>Configure Unified Messaging on Microsoft Exchange with ExchUCUtil.ps1 
 
 Quando você estiver integrando Microsoft Skype para Business Server com Unificação de mensagens (UM) do Exchange, você precisa executar o script ExchUCUtil. Ps1 no Shell. O script ExchUCUtil. Ps1 faz o seguinte:
 
@@ -152,7 +152,7 @@ Quando você estiver integrando Microsoft Skype para Business Server com Unifica
 - Cria um grupo de busca de UM para cada gateway IP de UM. O identificador piloto de cada grupo de busca Especifica o plano de discagem SIP URI de UM usado pelo Skype para pool Business servidor Front-End ou servidor Standard Edition que está associado ao gateway IP de UM.
 - Skype concede permissão de Business Server ler objetos UM do Active Directory de contêiner, como UM discagem planos, atendentes automáticos, gateways IP de UM e grupos de busca de UM.
   > [!IMPORTANT]
-  > Cada floresta de Unificação de mensagens deve ser configurada para confiar na floresta na qual Skype para Business Server é implantado e a floresta na qual Skype para Business Server 2013 é implantado deve ser configurada para confiar na floresta de cada UM. Se UM do Exchange estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de UM, ou você precisará especificar o Skype para o domínio do servidor de negócios. Por exemplo, o ExchUCUtil. Ps1 – floresta: < lync-domínio-controlador-fqdn >. 
+  > Cada floresta de Unificação de mensagens deve ser configurada para confiar na floresta na qual Skype para Business Server é implantado e a floresta na qual Skype para Business Server 2013 é implantado deve ser configurada para confiar na floresta de cada UM. Se UM do Exchange estiver instalado em várias florestas, as etapas de integração do Exchange Server devem ser executadas para cada floresta de UM, ou você precisará especificar o Skype para o domínio do servidor de negócios. Por exemplo, o ExchUCUtil. Ps1 – floresta: <lync-domínio-controlador-fqdn>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Usar o Shell para executar o script ExchUCUtil. Ps1
 
@@ -163,7 +163,7 @@ Execute o script ExchUCUtil. Ps1 em qualquer servidor do Exchange em sua organiz
 > Você deve ter as permissões da função de gerenciamento de organização do Exchange ou ser membro do grupo de segurança Administradores de organização do Exchange para executar o script. 
 
 1. Abra o Shell de gerenciamento do Exchange.
-2. No prompt do C:\Windows\System32, digite cd ** \<letra da unidade >: \Program Server\V15\Scripts >. ExchUCUtil. Ps1**, e pressione Enter.
+2. No prompt do C:\Windows\System32, digite cd ** \<letter>:\Program Files\Microsoft\Exchange Server\V15\Scripts> de unidade. ExchUCUtil. Ps1**, e pressione Enter.
 
 #### <a name="how-do-you-know-this-worked"></a>Como saber se isso funcionou?
 
@@ -188,7 +188,7 @@ O Exchange Server deve ser configurado com um certificado de servidor para se co
 
 **Para baixar o certificado de autoridade de certificação:**
 
-1. No servidor executando o UM do Exchange, clique em **Iniciar**, clique em **Executar**, tipo **http://\<nome do seu servidor de autoridade de certificação emitindo > / certsrv**e clique em **Okey**.
+1. No servidor executando o UM do Exchange, clique em **Iniciar**, clique em **Executar**, tipo **http://\<nome de sua autoridade de certificação emitindo Server>/certsrv**e clique em **Okey**.
 2. Em selecionar uma tarefa, clique em **baixar um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados Revogados**.
 3. Em **baixar um certificado de autoridade de certificação, cadeia de certificados ou lista de certificados Revogados**, selecione **O método de codificação em Base 64**e clique em**certificado de autoridade de certificação baixar**.
    > [!NOTE]

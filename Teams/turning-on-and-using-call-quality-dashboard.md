@@ -24,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte como ativar e usar o Skype para Business Online chamada qualidade Dashboard e obter relatórios de resumo de qualidade de chamadas. '
-ms.openlocfilehash: 008fbeca5ae9b81d74e9a38f60c12a6fc1f919cc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 18c5c87d437235733e9ffc7c8a1ec60883a33305
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373804"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069613"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativando e usando o painel de controle de qualidade de chamada para Teams da Microsoft e Skype para Business Online
 
@@ -86,17 +86,17 @@ Relatórios de resumo de CQD fornecem um subconjunto dos recursos planejados par
 |**Recurso**|**Relatórios de resumo**|**Relatórios detalhados**|
 |:-----|:-----|:-----|
 |Métrica de compartilhamento de aplicativo  <br/> |Não  <br/> |Sim  <br/> |
-|Criando o suporte de informações do cliente  <br/> |Sim  <br/> |Sim  <br/> |
+|Criando o suporte de informações do cliente  <br/> |Sim  <br/> |Sim   <br/> |
 |Suporte à análise de detalhamento  <br/> |Não  <br/> |Sim  <br/> |
 |Métricas de confiabilidade de mídia  <br/> |Não  <br/> |Sim  <br/> |
-|Relatórios de caixa  <br/> |Sim  <br/> |Sim  <br/> |
-|Visão geral de relatórios  <br/> |Sim  <br/> |Sim  <br/> |
+|Relatórios de caixa  <br/> |Sim  <br/> |Sim   <br/> |
+|Visão geral de relatórios  <br/> |Sim  <br/> |Sim   <br/> |
 |Conjunto de relatório por usuário  <br/> |Não  <br/> |Sim  <br/> |
 |Relatório definido personalização (Adicionar, excluir, modificar relatórios)  <br/> |Não  <br/> |Sim  <br/> |
 |Métricas de compartilhamento de tela com base em vídeo  <br/> |Não  <br/> |Sim  <br/> |
 |Métricas de vídeo  <br/> |Não  <br/> |Sim  <br/> |
 |Quantidade de dados disponíveis  <br/> |Últimos seis meses  <br/> |Últimos seis meses  <br/> |
-|Dados de Teams da Microsoft  <br/> |Sim  <br/> |Sim  <br/> |
+|Dados de Teams da Microsoft  <br/> |Sim  <br/> |Sim   <br/> |
    
 ### <a name="out-of-the-box-reports"></a>Relatórios de caixa
 
@@ -167,7 +167,7 @@ Como o nome indica, esse é um critério de classificação com base no tipo de 
 > Dado um fluxo, se um dos dois pontos de extremidade estiver conectado a uma rede Wifi, em seguida, ele é classificado como Wifi no CQD. 
   
 ## <a name="selecting-product-data-to-see-in-reports"></a>Selecionando os dados de produto para ver em relatórios
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKProductFilter"></a>
 
 No resumo e relatórios aprimorada de local, você pode usar na lista suspensa **Filtro do produto** para mostrar todos os dados do produto, somente os dados de Teams da Microsoft, ou apenas Skype para dados corporativos Online.
   
@@ -176,7 +176,7 @@ No resumo e relatórios aprimorada de local, você pode usar na lista suspensa *
 Em relatórios detalhados, você pode usar a dimensão de **Equipes é** para filtrar os dados para o Microsoft Teams ou Skype para dados corporativos Online como parte da definição de relatório.
   
 ## <a name="upload-building-information"></a>Informações de construção de carregamento
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKBuildingInformationUpload"></a>
 
 O painel de relatórios de resumo de CQD inclui uma página de **Carregamento de dados de Inquilino** , acessada selecionando o **Carregamento de dados de Inquilino** no menu Configurações, no canto superior direito. Esta página é usada para os administradores para carregar suas próprias informações, como o mapeamento de endereço IP e informações geográficas, mapeamento de cada ponto de acesso sem fio e seu endereço MAC, etc.
   
@@ -231,7 +231,7 @@ O formato do arquivo de dados que você carrega deve atender o seguinte procedim
 |BuildingType  <br/> |Cadeia de caracteres  <br/> |Terminação de IT  <br/> |
 |BuildingOfficeType  <br/> |Cadeia de caracteres  <br/> |Engenharia  <br/> |
 |Cidade  <br/> |Cadeia de caracteres  <br/> |Seattle  <br/> |
-|CEP  <br/> |Cadeia de caracteres  <br/> |98001  <br/> |
+|ZipCode  <br/> |Cadeia de caracteres  <br/> |98001  <br/> |
 |País  <br/> |Cadeia de caracteres  <br/> |CONOSCO  <br/> |
 |Estado  <br/> |Cadeia de caracteres  <br/> |WA  <br/> |
 |Região  <br/> |Cadeia de caracteres  <br/> |MSUS  <br/> |
@@ -242,7 +242,7 @@ O formato do arquivo de dados que você carrega deve atender o seguinte procedim
 > O intervalo de rede pode ser usado para representar uma super-rede (combinação de várias sub-redes com um prefixo de roteamento único). Todos os novos carregamentos de construção serão verificados para todos os intervalos de sobreposição. Se você carregou anteriormente um arquivo de construção, você deve baixar o arquivo atual e reenvie-lo para qualquer sobreposições de identificar e corrigir o problema antes de carregar novamente. Qualquer sobreposição nos arquivos carregados anteriormente pode resultar em mapeamentos de sub-redes aos prédios nos relatórios errados. Determinadas implementações de VPN com precisão não informam as informações de sub-rede. É recomendável que ao adicionar uma sub-rede VPN para o arquivo de construção, em vez de uma entrada para a sub-rede, entradas separadas são adicionadas para cada endereço na sub-rede VPN como uma rede separada de 32 bits. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você deve ter 256 linhas, com uma linha para cada endereço entre 172.16.18.0/32 e 172.16.18.255/32, inclusive. 
   
 ## <a name="selecting-media-type-in-detailed-reports"></a>Selecionar o tipo de mídia em relatórios detalhados
-<a name="BKMKFeaturesOfTheCQD"> </a>
+<a name="BKMKMediaType"></a>
 
 Os relatórios detalhados suportam olhando confiabilidade de qualidade e a mídia de áudio, vídeo, compartilhamento de aplicativos e tipos de mídia de compartilhamento de tela de vídeo-based. Filtros que são específicos para um tipo de mídia único, medidas e dimensões tem "Áudio", "Vídeo", "AppSharing" ou "VBSS" como um prefixo.
   
@@ -257,7 +257,7 @@ Se você deseja exibir as dimensões e medidas para um tipo de mídia único, a 
 
 [Análise de uso chamada solucionar problemas de qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

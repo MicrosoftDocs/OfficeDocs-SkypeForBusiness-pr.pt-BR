@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Esses recursos são novos no Skype para Business Server 2019.'
-ms.openlocfilehash: 044901b134c71c1cae004f9930bedeae0057578d
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4eb674293b152109a9743fce5114fe11e3e97158
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348881"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058979"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>O que há no Skype para Business Server 2019
 
@@ -35,7 +35,7 @@ Caixa postal de nuvem permite que todos os seu Skype para negócios 2019 users& 
 - Acesso à caixa postal na sua caixa de correio do Exchange usando o Skype para clientes corporativos Online, equipes ou Outlook
 - Capacidade de usar o portal baseado na web para gerenciar suas opções de caixa postal
 
-Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](hybrid/plan-um-migration.md) .
+Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../sfbhybrid/hybrid/plan-um-migration.md) .
   
 ## <a name="call-monitoring-call-data-connector"></a>Monitoramento de chamada: conector de dados de chamada
 
@@ -47,7 +47,7 @@ Com o conector de dados de chamada, você pode executar as seguintes tarefas usa
 - Visualizar e solucionar problemas em sua rede
 - Atribua funções de administrador e assistência técnica para a análise de chamada, para que você pode capacitar os trabalhadores de assistência técnica para visualizar e solucionar problemas de suas áreas de responsabilidade.
 
-Consulte o [Plano de chamar o conector de dados](hybrid/plan-call-data-connector.md) para obter mais informações.
+Consulte o [Plano de chamar o conector de dados](../sfbhybrid/hybrid/plan-call-data-connector.md) para obter mais informações.
 
 ### <a name="see-also"></a>Consulte também
 

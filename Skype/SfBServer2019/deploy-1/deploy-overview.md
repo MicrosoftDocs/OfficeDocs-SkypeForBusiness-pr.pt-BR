@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumo: Explore esses links para saber como instalar e configurar o Skype para Business Server 2019.'
-ms.openlocfilehash: af4edc8c3c938f6016ebf743b8ce9ac982cfefbf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531437"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30058993"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Implantar o Skype para Business Server 2019
  
@@ -40,7 +40,7 @@ Os seguintes artigos sobre como instalar e configurar o Skype para Business Serv
 |![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Instalar o Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |Saiba como instalar Skype para Business Server em várias topologias em ambientes físicos e virtuais.  <br/> |
 |![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Migração para o Skype para Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Saiba como migrar de versões anteriores do Skype para negócios ou do Lync Server.  <br/> |
 |![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Saiba como configurar a experiência do cliente.  <br/> |
-|![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Configurar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online](../hybrid/configure-hybrid-connectivity.md) <br/> |Saiba como configurar os pré-requisitos para uma implantação híbrida e configurar sua implantação para gerenciar usuários entre Skype para Business Server local e Skype para negócios Online.  <br/> |
+|![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Configurar a conectividade híbrida entre Skype para Business Server e do Skype para negócios Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |Saiba como configurar os pré-requisitos para uma implantação híbrida e configurar sua implantação para gerenciar usuários entre Skype para Business Server local e Skype para negócios Online.  <br/> |
 |![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implante servidores de borda em Skype para Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Se os usuários em sua organização se comunicar com usuários externos que não são registrados em sua rede interna, você desejará implantar servidor de borda.  <br/> |
 |![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implantar o Enterprise Voice no Skype para Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Aprenda a implantar a solução Enterprise Voice de voz sobre IP (VoIP), que traz uma valiosa integração com o Outlook e o Exchange, e várias funcionalidades eficientes, como Grupos de Resposta, Estacionamento de Chamada, chamada em equipe, atendimento de chamadas em grupo e suporte a emergência E9-1-1 Avançado.  <br/> |
 | ![Ícone numérico com instruções](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implante o servidor de interoperabilidade de vídeo em Skype para Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Se você deseja oferecer suporte à interoperação de vídeo, leia sobre como implantar o servidor de interoperabilidade de vídeo (VIS).  <br/> |

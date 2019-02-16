@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: Revise esse tópico durante o planejamento para integrar o Skype para servidor de negócios com o Exchange 2013 ou 2016.'
-ms.openlocfilehash: f560df43ab6347890cc5a3b956d43ed37a55bdf3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
+ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263897"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "30059184"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
 
@@ -27,7 +27,7 @@ Skype para Business Server oferece suporte à integração com Exchange Unified 
 No Microsoft Exchange Server 2013 e 2016, UM do Exchange é executado como um serviço em um servidor de caixa de correio do Exchange. Para Skype para implantações de negócios Server Enterprise Voice, a Unificação de mensagens combina mensagens de voz e email messaging em um armazenamento que os usuários podem acessar a partir de um computador ou de um telefone (Outlook Voice Access). Unificação de mensagens e Skype para Business Server trabalham juntos para fornecer atendimento de chamadas, Outlook Voice Access e serviços de atendedor automático para usuários do Enterprise Voice.
 
 > [!NOTE]
-> UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento emphasised em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../../../SfBServer2019/hybrid/plan-um-migration.md) .
+> UM do Exchange permanece disponível na Skype para Business Server 2019 ao integrar Skype para negócios 2019 com Exchange 2013 ou 2016 do Exchange. Devido às alterações no suporte no Exchange 2019, a integração de UM do Exchange está sendo desprovisionamento emphasised em favor de recursos de caixa postal de nuvem e atendedor automático de nuvem.  Para obter mais informações, consulte [serviço de caixa postal de nuvem planejar](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) e [Planejar Skype para Business Server e migração do Exchange Server](../../../sfbhybrid/hybrid/plan-um-migration.md) .
 
 
 Para esses recursos serem suportados em uma implantação local de UM do Exchange, você deve estar executando um destes procedimentos:
@@ -38,7 +38,7 @@ Para esses recursos serem suportados em uma implantação local de UM do Exchang
 - Microsoft Exchange Server 2019 (Skype para Business Server 2019 somente)
 
 > [!NOTE]
-> Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Skype para Business Server 2019, que usa o sistema telefônico para registrar as mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md) para obter mais informações.
+> Unificação de mensagens do Exchange como conhecido anteriormente não está mais disponível no Skype para Business Server 2019, que usa o sistema telefônico para registrar as mensagens de caixa postal e, em seguida, deixar a gravação na caixa de correio do Exchange do usuário. Consulte o [serviço de caixa postal de nuvem planejar](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obter mais informações.
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>Recursos de Unificação de mensagens e Skype para Business Server integrado
 
@@ -52,7 +52,7 @@ Skype para Business Server, Enterprise Voice utiliza a infraestrutura do Exchang
 
 - **Atendedor automático** Atendedor automático é um recurso de UM do Exchange que pode ser usado para configurar um número de telefone que os usuários externos pode discar para falar com representantes da empresa. Especificamente, ele fornece uma série de avisos de voz que auxiliam um chamador externo a navegar por um sistema de menus. A lista de opções disponíveis é configurada no servidor UM do Exchange pelo administrador de UM do Exchange.
 
-- **Serviços de fax** UM do Exchange inclui recursos de fax, que permitem aos usuários receber faxes de entrada em suas caixas de correio do Exchange. Para obter detalhes, consulte [Unified Messaging](https://go.microsoft.com/fwlink/p/?linkId=135652) na documentação do Microsoft Exchange Server.
+- **Serviços de fax** UM do Exchange inclui recursos de fax, que permitem aos usuários receber faxes de entrada em suas caixas de correio do Exchange. Para obter detalhes, consulte [Unificação de Mensagens](https://go.microsoft.com/fwlink/p/?linkId=135652) na documentação do Microsoft Exchange Server.
 
     > [!NOTE]
     > Serviços de fax fornecidos pelo servidor UM do Exchange não estão disponíveis no Skype para implantações de servidor de negócios que são integradas com o Microsoft Exchange Server 2010, Exchange 2010 com o service pack mais recente, Exchange 2013 ou 2016 do Exchange.
@@ -132,13 +132,13 @@ Para obter detalhes sobre como habilitar ou desabilitar o Unified Messaging no E
 
 Para obter detalhes sobre como habilitar ou desabilitar o Unified Messaging no Microsoft Exchange Server 2010, consulte:
 
-- [Habilitar a Unificação de mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
+- [Habilitar a Unificação de Mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Desabilitar a Unificação de mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Desabilitar a Unificação de Mensagens no Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Unificação de mensagens do Exchange não estiver mais presente no Exchange 2019, se você tiver o Exchange 2019 e você deseja as funcionalidades equivalentes, que você precisará usar o serviço de correio de voz de nuvem descrito em [serviço de caixa postal planejar de nuvem](../../../SfBServer2019/hybrid/plan-cloud-voicemail.md).
+Unificação de mensagens do Exchange não estiver mais presente no Exchange 2019, se você tiver o Exchange 2019 e você deseja as funcionalidades equivalentes, que você precisará usar o serviço de correio de voz de nuvem descrito em [serviço de caixa postal planejar de nuvem](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 
 ## <a name="see-also"></a>Consulte também

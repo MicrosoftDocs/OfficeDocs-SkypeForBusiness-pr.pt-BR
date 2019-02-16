@@ -14,19 +14,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones.
-ms.openlocfilehash: 8605bbc1ba0f9f69c2115b89ec7332309891253d
-ms.sourcegitcommit: 3f88e2f1fb4dd84bf6e88e29b89cefeb7a0a954b
+ms.openlocfilehash: b9f5b85219981f8fa4c67d5f2ed6e666fc7fada2
+ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29770409"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "30069621"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
 Teams da Microsoft oferece suporte a um portfólio de telefones de mesa para usuários que requerem uma experiência de telefone tradicional. Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones. Para obter as informações mais recentes e atualizadas nas equipes certified dispositivos, vá para [Equipes Marketplace](http://office.com/teamsdevices).
 
-## <a name="teams-certified-ip-phones"></a>Equipes certificada telefones IP
-Para oferecer uma experiência de Teams Microsoft confiável e de alta qualidade em telefones, estamos parceria e trabalhando ativamente com Yealink, Crestron, Polycom e Audiocodes para desenvolver e certificar um portfólio ampla de telefones de mesa e dispositivos de áudio de sala de conferência. Consulte [Telefones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) para dispositivos suportados atuais.
+## <a name="teams-certified-ip-phones"></a>Equipes certificada telefones IP 
+
+Para oferecer uma experiência de Teams Microsoft confiável e de alta qualidade em telefones, estamos parceria e trabalhando ativamente com Yealink, Crestron, Polycom e Audiocodes para desenvolver e certificar um portfólio ampla de telefones de mesa e dispositivos de áudio de sala de conferência. Consulte [atualmente certificados telefones IP](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) para dispositivos suportados atuais.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de recursos de telefone Teams da Microsoft
 
@@ -124,7 +125,7 @@ O usuário de telefone de equipes pode optar por sair, selecionando a opção **
 
 ![Saindo do equipes](media/teams-sign-out.png)
 
-# <a name="finding-the-firmware-version-on-a-mobile-device"></a>Localizando a versão de Firmware em um dispositivo móvel
+## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Localizando a versão de Firmware em um dispositivo móvel
 
 A versão mínima do firmware pode ser verificada na página de entrada de equipes, escolhendo o ícone **configurações** no canto superior direito e, em seguida, clicando em **sobre**.
 
