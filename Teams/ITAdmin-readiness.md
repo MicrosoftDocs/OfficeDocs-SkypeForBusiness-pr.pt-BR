@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eda922ce0346a69d657789bdc13a6381254c2b3a
-ms.sourcegitcommit: 2ef6a05c659100eea0d92c729001cd4e14434b9f
+ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
+ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30062619"
+ms.lasthandoff: 02/18/2019
+ms.locfileid: "30079129"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -94,7 +94,7 @@ Use os recursos de treinamento sobre as equipes, ensinar aos outros usuários ou
 | Introdução de reuniões | [Vídeo](http://aka.ms/teams-meetings-intro) | [Deck](http://aka.ms/teams-meetings-intro-deck) |
 | Introdução do sistema de telefone | [Vídeo](http://aka.ms/teams-phone-system) | [Deck](http://aka.ms/teams-phone-system-deck) |
 | Direcionar circulação | [Vídeo](http://aka.ms/teams-direct-routing) | [Deck](http://aka.ms/teams-direct-routing-deck) |
-| Atualização do Skype for Business para o Microsoft Teams | [Vídeo 1: Introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planejar a atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Deck](htt://aka.ms/teams-upgrade-deck)|
+| Atualização do Skype for Business para o Microsoft Teams | [Vídeo 1: Introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planejar a atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Deck](http://aka.ms/teams-upgrade-deck)|
 
 <h2>Guias de Início Rápido</h2>
 
