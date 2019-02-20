@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5353079da3cc697d88983407db97c2d8894ea7a8
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
+ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992853"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "30087840"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -74,9 +74,9 @@ Os administradores devem definir cada uma dessas configurações para os seguint
 Antes da distribuição de conformidade automática da experiência do usuário com base em modos, o `Grant-csTeamsUpgradePolicy` cmdlet verifica a configuração das respectivas configurações na TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas as configurações são compatíveis com o modo especificado. Se qualquer um não estejam configurado corretamente, o grant terá êxito, mas um aviso será fornecido no PowerShell indicando quais configurações específicas não estão configuradas corretamente. Abaixo é um exemplo de como o aviso do PowerShell pode parecer:
 
 
-`PS C:\Users\janedoe> Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab
-WARNING: The user 'user1@contoso.com' currently has effective policy enabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the near term, when granting TeamsUpgradePolicy with mode=SfBWithTeamsCollab to a user, you must also separately assign policy to ensure the user has effective policy disabled values for: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. In the future, the capability will automatically honor TeamsUpgradePolicy.
-PS C:\Users\janedoe>`
+`Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
+
+*Aviso: O usuário 'user1@contoso.com' tem atualmente valores de política efetiva habilitado para: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. A curto prazo, concedendo quando TeamsUpgradePolicy com modo = SfBWithTeamsCollab a um usuário, você deve também separadamente atribuir a política para garantir que o usuário tem os valores de política efetiva desabilitado para: AllowUserChat, AllowPrivateCalling, AllowPrivateMeetingScheduling, AllowChannelMeetingScheduling. No futuro, o recurso automaticamente aceita a TeamsUpgradePolicy.*
 
 Na visualização tal um aviso, o administrador subsequentemente deve atualizar as políticas indicadas para oferecer uma experiência de usuário compatíveis do final em equipes. Se o administrador decide não agir como resultado de aviso, os usuários ainda podem ter acesso ao chat, chamar e/ou recursos de agendamento no equipes dependendo dos valores de TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy, de reunião qual pode resultar em uma experiência de usuário final confusa.
 
