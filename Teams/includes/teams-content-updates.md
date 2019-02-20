@@ -3,65 +3,6 @@
 
 
 
-## <a name="week-of-january-07-2019"></a>Semana de 07 de janeiro de 2019
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 7/1/2019 | [Comprar e implantar telefones IP do Microsoft Teams](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | modificado |
-| 8/1/2019 | [Comprar e implantar telefones IP do Microsoft Teams](/MicrosoftTeams/buying-and-deploying-teams-ip-phones) | modificado |
-| 8/1/2019 | [Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
-| 8/1/2019 | [Autorizar o acesso para convidado no Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modificado |
-| 8/1/2019 | [Adicionar um convidado a uma equipe](/MicrosoftTeams/add-guests) | modificado |
-| 8/1/2019 | [Editar informações de usuários convidados](/MicrosoftTeams/edit-guests-information) | modificado |
-| 8/1/2019 | [Usar o PowerShell para controlar o acesso de convidados a uma equipe](/MicrosoftTeams/guest-access-powershell) | modificado |
-| 8/1/2019 | [Lista de verificação de acesso para convidado do Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modificado |
-| 8/1/2019 | [Como é a experiência do convidado](/MicrosoftTeams/guest-experience) | modificado |
-| 8/1/2019 | [Como um convidado ingressa em uma equipe](/MicrosoftTeams/guest-joins) | modificado |
-| 8/1/2019 | [Gerenciar o acesso de convidados no Microsoft Teams](/MicrosoftTeams/manage-guests) | modificado |
-| 8/1/2019 | [Ativar ou desativar o acesso para convidado ao Microsoft Teams](/MicrosoftTeams/set-up-guests) | modificado |
-| 8/1/2019 | [Exibir usuários convidados em uma equipe](/MicrosoftTeams/view-guests) | modificado |
-| 9/1/2019 | [Considerações sobre o modo Teams Only (Apenas Teams)](/MicrosoftTeams/teams-only-mode-considerations) | adicionado |
-| 9/1/2019 | [Sobre a estrutura de atualização](/MicrosoftTeams/upgrade-framework) | adicionado |
-| 9/1/2019 | [Atualizar para o Microsoft Teams ‒ Microsoft Teams](/MicrosoftTeams/upgrade-introduction) | adicionado |
-| 9/1/2019 | [Introdução à atualização para o Microsoft Teams](/MicrosoftTeams/upgrade-start-here) | adicionado |
-| 9/1/2019 | [Atualizar para o Microsoft Teams de uma implantação híbrida ou local do Skype for Business ‒ Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | adicionado |
-| 9/1/2019 | [Problemas conhecidos do Microsoft Teams](/MicrosoftTeams/known-issues) | modificado |
-| 9/1/2019 | [Qualidade de serviço no Microsoft Teams ‒ Microsoft Teams](/MicrosoftTeams/qos-in-teams) | modificado |
-| 9/1/2019 | [Adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online](/MicrosoftTeams/smtp-accepted-domain) | modificado |
-| 9/1/2019 | [Usar guias internas e personalizadas no Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | modificado |
-| 9/1/2019 | [Disponibilidade em Bahrein](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | modificado |
-| 9/1/2019 | [Disponibilidade em Belarus](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | modificado |
-| 9/1/2019 | [Contas de usuário em um ambiente híbrido com conectividade PSTN](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | modificado |
-| 9/1/2019 | [Criar suas primeiras equipes e canais no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | modificado |
-| 9/1/2019 | [Definir idiomas para o atendedor automático de Audioconferência no Microsoft Teams](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | modificado |
-| 9/1/2019 | [Compreender a coexistência e a interoperabilidade do Skype for Business e do Microsoft Teams](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modificado |
-| 9/1/2019 | [Avaliar a preparação para alteração organizacional antes de atualizar do Skype for Business para o Microsoft Teams ‒ Microsoft Teams](/MicrosoftTeams/upgrade-org-change-readiness) | modificado |
-| 9/1/2019 | [Upgrade Pro para o Microsoft Teams - Microsoft Teams](/MicrosoftTeams/upgrade-pro) | modificado |
-| 9/1/2019 | [Atualizar do Skype for Business Online para o Microsoft Teams - Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | modificado |
-| 9/1/2019 | [Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams](/MicrosoftTeams/using-admin-roles) | modificado |
-| 9/1/2019 | [Atualizar para o Microsoft Teams de uma implantação híbrida ou local do Skype for Business ‒ Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modificado |
-| 10/1/2019 | [Documentação e orientações práticas do Microsoft Teams](/MicrosoftTeams/microsoft-teams) | modificado |
-| 10/1/2019 | [Introdução aos modelos do Microsoft Teams](/MicrosoftTeams/get-started-with-teams-templates) | modificado |
-| 10/1/2019 | [Monitorar o uso e os comentários no Microsoft Teams](/MicrosoftTeams/get-started-with-teams-monitor-usage-and-feedback) | modificado |
-| 10/1/2019 | [Gerenciar o aplicativo Turnos para sua organização no Microsoft Teams](/MicrosoftTeams/manage-the-shifts-app-for-your-organization-in-teams) | adicionado |
-| 10/1/2019 | [Relatório de uso de dispositivos do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | adicionado |
-| 10/1/2019 | [Análise e relatórios do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | adicionado |
-| 10/1/2019 | [Relatório de uso do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | adicionado |
-| 10/1/2019 | [Relatório de atividades do usuário do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | adicionado |
-| 11/1/2019 | [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | modificado |
-| 11/1/2019 | [Ferramentas e downloads para adoção](/MicrosoftTeams/adopt-tools-and-downloads) | modificado |
-| 11/1/2019 | [Início rápido ‒ Microsoft Teams](/MicrosoftTeams/get-started-with-teams-quick-start) | modificado |
-| 11/1/2019 | [Compreender as equipes e os canais no Microsoft Teams](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | modificado |
-| 11/1/2019 | [Sobre a estrutura de atualização](/MicrosoftTeams/upgrade-framework) | modificado |
-| 11/1/2019 | [Plano para o Microsoft 365 Government ‒ implantações de DoD ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-dod) | adicionado |
-| 11/1/2019 | [Configurações de administração para aplicativos no Microsoft Teams](/MicrosoftTeams/admin-settings) | modificado |
-| 11/1/2019 | [Configurar o Roteamento Direto](/MicrosoftTeams/direct-routing-configure) | modificado |
-| 11/1/2019 | [Gerenciar os recursos do Microsoft Teams em sua organização do Office 365](/MicrosoftTeams/enable-features-office-365) | modificado |
-| 11/1/2019 | [Plano para o Microsoft 365 Government ‒ elevadas implantações de GCC ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | modificado |
-| 11/1/2019 | [Considerações sobre o modo Teams Only (Apenas Teams)](/MicrosoftTeams/teams-only-mode-considerations) | modificado |
-
-
 ## <a name="week-of-january-14-2019"></a>Semana de 14 de janeiro de 2019
 
 
@@ -332,3 +273,221 @@
 | 07/02/2019 | [Terminologia do Roteamento baseado na localização](/MicrosoftTeams/location-based-routing-terminology) | modificado |
 | 08/02/2019 | [Coexistência com o Skype for Business](/MicrosoftTeams/coexistence-chat-calls-presence) | modificado |
 | 08/02/2019 | [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | modificado |
+
+
+## <a name="week-of-february-11-2019"></a>Semana de 11 de fevereiro de 2019
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 11/02/2019 | [Gerenciar políticas de configuração de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | adicionado |
+| 11/02/2019 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
+| 11/02/2019 | [Plano para o Microsoft 365 Government ‒ implantações de GCC ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | modificado |
+| 12/02/2019 | [Servidores proxy para Teams ou Skype for Business Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | renomeado |
+| 12/02/2019 | [URLs e intervalos de endereços IP do Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | modificado |
+| 12/02/2019 | [Plano para guia de gerenciamento de serviço do Microsoft Teams](/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) | modificado |
+| 12/02/2019 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
+| 12/02/2019 | [Plano para o Microsoft 365 Government ‒ implantações de GCC ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | modificado |
+| 12/02/2019 | [Qualidade da experiência do guia de avaliação do Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modificado |
+| 12/02/2019 | [Planejar a qualidade e o gerenciamento de serviço | Preparação Técnica](/MicrosoftTeams/upgrade-plan-for-quality) | modificado |
+| 12/02/2019 | [Planejar o Roteamento baseado na localização para o Roteamento direto](/MicrosoftTeams/location-based-routing-plan) | modificado |
+| 12/02/2019 | [Experiência e conformidade do cliente do Teams a modos de coexistência](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | adicionado |
+| 13/02/2019 | [Como o Exchange e o Microsoft Teams interagem](/MicrosoftTeams/exchange-teams-interact) | modificado |
+| 13/02/2019 | [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) | modificado |
+| 13/02/2019 | [Experiência e conformidade do cliente do Teams a modos de coexistência](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes) | modificado |
+| 13/02/2019 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 13/02/2019 | [Usar relatórios de atividades do Microsoft Teams](/MicrosoftTeams/teams-activity-reports) | modificado |
+| 14/02/2019 | [Configurar definições de rede para o Roteamento baseado na localização](/MicrosoftTeams/location-based-routing-configure-network-settings) | modificado |
+| 14/02/2019 | [Habilitar o Roteamento baseado na localização para o Roteamento direto](/MicrosoftTeams/location-based-routing-enable) | modificado |
+| 14/02/2019 | [Adicionar fundos e gerenciar Créditos de Comunicação](/MicrosoftTeams/add-funds-and-manage-communications-credits) | modificado |
+| 14/02/2019 | [Planos de Chamadas do Office 365](/MicrosoftTeams/calling-plans-for-office-365) | modificado |
+| 14/02/2019 | [Alterar o idioma padrão de saudações e emails](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | modificado |
+| 14/02/2019 | [Disponibilidade na Argentina](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina) | modificado |
+| 14/02/2019 | [Disponibilidade na Austrália](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia) | modificado |
+| 14/02/2019 | [Disponibilidade na Áustria](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria) | modificado |
+| 14/02/2019 | [Disponibilidade em Bahrein](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain) | modificado |
+| 14/02/2019 | [Disponibilidade em Belarus](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus) | modificado |
+| 14/02/2019 | [Disponibilidade na Bélgica](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium) | modificado |
+| 14/02/2019 | [Disponibilidade em Belize](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize) | modificado |
+| 14/02/2019 | [Disponibilidade na Bósnia &amp; Herzegovina](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bosniaherzegovina) | modificado |
+| 14/02/2019 | [Disponibilidade no Brasil](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brazil) | modificado |
+| 14/02/2019 | [Disponibilidade em Brunei](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei) | modificado |
+| 14/02/2019 | [Disponibilidade na Bulgária](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria) | modificado |
+| 14/02/2019 | [Disponibilidade no Canadá](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada) | modificado |
+| 14/02/2019 | [Disponibilidade no Chile](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile) | modificado |
+| 14/02/2019 | [Disponibilidade na China](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-china) | modificado |
+| 14/02/2019 | [Disponibilidade na Colômbia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-colombia) | modificado |
+| 14/02/2019 | [Disponibilidade na Costa Rica](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-costa-rica) | modificado |
+| 14/02/2019 | [Disponibilidade na Croácia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-croatia) | modificado |
+| 14/02/2019 | [Disponibilidade em Chipre](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cyprus) | modificado |
+| 14/02/2019 | [Disponibilidade na Dinamarca](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-denmark) | modificado |
+| 14/02/2019 | [Disponibilidade no Equador](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ecuador) | modificado |
+| 14/02/2019 | [Disponibilidade no Egito](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-egypt) | modificado |
+| 14/02/2019 | [Disponibilidade em El Salvador](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | modificado |
+| 14/02/2019 | [Disponibilidade na Estônia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-estonia) | modificado |
+| 14/02/2019 | [Disponibilidade na Finlândia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-finland) | modificado |
+| 14/02/2019 | [Disponibilidade na França](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-france) | modificado |
+| 14/02/2019 | [Disponibilidade em Geórgia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-georgia) | modificado |
+| 14/02/2019 | [Disponibilidade na Alemanha](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-germany) | modificado |
+| 14/02/2019 | [Disponibilidade na Grécia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece) | modificado |
+| 14/02/2019 | [Disponibilidade em Honduras](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | modificado |
+| 14/02/2019 | [Disponibilidade em Hong Kong](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong) | modificado |
+| 14/02/2019 | [Disponibilidade na Hungria](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary) | modificado |
+| 14/02/2019 | [Disponibilidade na Índia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | modificado |
+| 14/02/2019 | [Disponibilidade na Indonésia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-indonesia) | modificado |
+| 14/02/2019 | [Disponibilidade na Irlanda](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-ireland) | modificado |
+| 14/02/2019 | [Disponibilidade em Israel](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-israel) | modificado |
+| 14/02/2019 | [Disponibilidade na Itália](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-italy) | modificado |
+| 14/02/2019 | [Disponibilidade no Japão](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | modificado |
+| 14/02/2019 | [Disponibilidade na Jordânia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-jordan) | modificado |
+| 14/02/2019 | [Disponibilidade no Quênia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-kenya) | modificado |
+| 14/02/2019 | [Disponibilidade na Letônia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-latvia) | modificado |
+| 14/02/2019 | [Disponibilidade na Lituânia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-lithuania) | modificado |
+| 14/02/2019 | [Disponibilidade em Luxemburgo](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-luxembourg) | modificado |
+| 14/02/2019 | [Disponibilidade na Macedônia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-macedonia) | modificado |
+| 14/02/2019 | [Disponibilidade na Malásia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malaysia) | modificado |
+| 14/02/2019 | [Disponibilidade em Malta](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-malta) | modificado |
+| 14/02/2019 | [Disponibilidade no México](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-mexico) | modificado |
+| 14/02/2019 | [Disponibilidade em Moldova](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-moldova) | modificado |
+| 14/02/2019 | [Disponibilidade em Mônaco](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-monaco) | modificado |
+| 14/02/2019 | [Disponibilidade na Nova Zelândia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand) | modificado |
+| 14/02/2019 | [Disponibilidade na Noruega](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway) | modificado |
+| 14/02/2019 | [Disponibilidade no Paquistão](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan) | modificado |
+| 14/02/2019 | [Disponibilidade no Panamá](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama) | modificado |
+| 14/02/2019 | [Disponibilidade no Paraguai](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-paraguay) | modificado |
+| 14/02/2019 | [Disponibilidade no Peru](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-peru) | modificado |
+| 14/02/2019 | [Disponibilidade na Polônia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland) | modificado |
+| 14/02/2019 | [Disponibilidade em Portugal](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-portugal) | modificado |
+| 14/02/2019 | [Disponibilidade em Porto Rico](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-puerto-rico) | modificado |
+| 14/02/2019 | [Disponibilidade no Catar](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-qatar) | modificado |
+| 14/02/2019 | [Disponibilidade na Romênia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-romania) | modificado |
+| 14/02/2019 | [Disponibilidade na Rússia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-russia) | modificado |
+| 14/02/2019 | [Disponibilidade na Arábia Saudita](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-saudi-arabia) | modificado |
+| 14/02/2019 | [Disponibilidade na Sérvia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-serbia) | modificado |
+| 14/02/2019 | [Disponibilidade em Singapura](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-singapore) | modificado |
+| 14/02/2019 | [Disponibilidade na Eslováquia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovakia) | modificado |
+| 14/02/2019 | [Disponibilidade na Eslovênia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia) | modificado |
+| 14/02/2019 | [Disponibilidade na África do Sul](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-africa) | modificado |
+| 14/02/2019 | [Disponibilidade na Coreia do Sul](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-south-korea) | modificado |
+| 14/02/2019 | [Disponibilidade na Espanha](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-spain) | modificado |
+| 14/02/2019 | [Disponibilidade no Sri Lanka](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sri-lanka) | modificado |
+| 14/02/2019 | [Disponibilidade na Suécia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-sweden) | modificado |
+| 14/02/2019 | [Disponibilidade na Suíça](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-switzerland) | modificado |
+| 14/02/2019 | [Disponibilidade em Taiwan](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-taiwan) | modificado |
+| 14/02/2019 | [Disponibilidade na Tailândia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-thailand) | modificado |
+| 14/02/2019 | [Disponibilidade na República Tcheca](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-czech-republic) | modificado |
+| 14/02/2019 | [Disponibilidade na República Dominicana](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-dominican-republic) | modificado |
+| 14/02/2019 | [Disponibilidade nos Países Baixos](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands) | modificado |
+| 14/02/2019 | [Disponibilidade nas Filipinas](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-philippines) | modificado |
+| 14/02/2019 | [Disponibilidade na Ucrânia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine) | modificado |
+| 14/02/2019 | [Disponibilidade na Emirados Árabes Unidos (EAU)](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae) | modificado |
+| 14/02/2019 | [Disponibilidade no Reino Unido](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k) | modificado |
+| 14/02/2019 | [Disponibilidade nos Estados Unidos (EUA)](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-states-u-s) | modificado |
+| 14/02/2019 | [Disponibilidade em Trinidad e Tobago](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago) | modificado |
+| 14/02/2019 | [Disponibilidade na Turquia](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey) | modificado |
+| 14/02/2019 | [Disponibilidade no Uruguai](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay) | modificado |
+| 14/02/2019 | [Disponibilidade na Venezuela](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela) | modificado |
+| 14/02/2019 | [Disponibilidade no Vietnã](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam) | modificado |
+| 14/02/2019 | [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
+| 14/02/2019 | [Os usuários podem fazer chamadas de saída para esses países e regiões](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | modificado |
+| 14/02/2019 | [Criar e gerenciar planos de discagem](/MicrosoftTeams/create-and-manage-dial-plans) | modificado |
+| 14/02/2019 | [Diferentes tipos de números de telefone utilizados para Planos de Chamadas](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | modificado |
+| 14/02/2019 | [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/MicrosoftTeams/emergency-calling-labels) | modificado |
+| 14/02/2019 | [Termos e condições da chamada de emergência](/MicrosoftTeams/emergency-calling-terms-and-conditions) | modificado |
+| 14/02/2019 | [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modificado |
+| 14/02/2019 | [Quantos números de telefone você consegue obter?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | modificado |
+| 14/02/2019 | [Idiomas de mensagens e saudações da caixa postal](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | modificado |
+| 14/02/2019 | [Gerenciar números de telefone para sua organização](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para a Austrália](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para a Bélgica](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para o Canadá](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para a França](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para a Alemanha](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para a Irlanda](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para a Espanha](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para os Países Baixos](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para o Reino Unido](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | modificado |
+| 14/02/2019 | [Gerenciamento de números de telefone para os EUA](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | modificado |
+| 14/02/2019 | [Fluxos de Chamada do Microsoft Teams Online](/MicrosoftTeams/microsoft-teams-online-call-flows) | modificado |
+| 14/02/2019 | [Configurar Planos de Chamadas](/MicrosoftTeams/set-up-calling-plans) | modificado |
+| 14/02/2019 | [Configurar Créditos de Comunicação para sua organização](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado |
+| 14/02/2019 | [Configurar a caixa postal do Sistema de Telefonia](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
+| 14/02/2019 | [Configurar o Sistema de Telefonia na sua organização](/MicrosoftTeams/setting-up-your-phone-system) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Argentina](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Belarus](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Belize](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Bósnia e Herzegovina](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Brasil](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Brunei](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Bulgária](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Chile](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Norte da China (faixa de 10 800 714 XXXX)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Sul da China (faixa de 10 800 140 XXXX)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Colômbia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Croácia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Chipre](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Dinamarca](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Equador](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Egito](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Estônia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Finlândia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na França](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Alemanha](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Honduras](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Hong Kong](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Hungria](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Índia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Indonésia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Irlanda](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Israel](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Japão](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Quênia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Luxemburgo](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Malásia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no México](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Moldova](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Mônaco](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Panamá](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Paraguai](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Peru](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Polônia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Portugal](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Catar](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Romênia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Arábia Saudita](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Sérvia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Singapura](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Eslováquia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Eslovênia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na África do Sul](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Coreia do Sul](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Espanha](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Suécia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita em Taiwan](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Tailândia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita nos Países Baixos](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita nas Filipinas](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita nos Emirados Árabes Unidos](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Reino Unido (RU)](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Turquia](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Uruguai](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita na Venezuela](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela) | modificado |
+| 14/02/2019 | [Restrições de discagem de chamada gratuita no Vietnã](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam) | modificado |
+| 14/02/2019 | [Transferir números de telefone para o Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365) | modificado |
+| 14/02/2019 | [Perguntas comuns sobre transferência de números de telefone](/MicrosoftTeams/transferring-phone-numbers-common-questions) | modificado |
+| 14/02/2019 | [O que são Créditos de Comunicação?](/MicrosoftTeams/what-are-communications-credits) | modificado |
+| 14/02/2019 | [O que são planos de discagem?](/MicrosoftTeams/what-are-dial-plans) | modificado |
+| 14/02/2019 | [O que são locais e endereços de emergência e roteamento de chamada?](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modificado |
+| 14/02/2019 | [O que são atendedores automáticos do Sistema de Telefonia?](/MicrosoftTeams/what-are-phone-system-auto-attendants) | modificado |
+| 14/02/2019 | [O que é o Sistema de Telefonia no Office 365?](/MicrosoftTeams/what-is-phone-system-in-office-365) | modificado |
+| 14/02/2019 | [Failover de tronco em chamadas de saída](/MicrosoftTeams/direct-routing-trunk-failover-on-outbound-call) | modificado |
+| 14/02/2019 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 14/02/2019 | [Gerenciar configurações de reunião](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 14/02/2019 | [Gerenciar políticas de mensagens](/MicrosoftTeams/messaging-policies-in-teams) | modificado |
+| 14/02/2019 | [Visão geral de segurança e conformidade no Microsoft Teams](/MicrosoftTeams/security-compliance-overview) | modificado |
+| 15/02/2019 | [Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
+| 15/02/2019 | [Treinamento para o administrador do Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
+| 15/02/2019 | [Visão geral da associação dinâmica de equipes](/MicrosoftTeams/dynamic-memberships) | modificado |
+| 15/02/2019 | [Telefones para o Microsoft Teams](/MicrosoftTeams/phones-for-teams) | modificado |
+| 15/02/2019 | [Análise de Chamada e Painel de Qualidade de Chamadas](/MicrosoftTeams/difference-between-call-analytics-and-call-quality-dashboard) | modificado |
+| 15/02/2019 | [Ativando e usando o Painel de Qualidade de Chamadas](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modificado |
