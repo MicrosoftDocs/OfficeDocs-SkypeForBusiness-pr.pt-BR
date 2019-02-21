@@ -14,12 +14,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f87ab06fd867d216a8668d9bbb9e3ad1e807b463
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 9a11360c5cae498262a717c41e4247037de1db54
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649593"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120507"
 ---
 # <a name="operate-my-service"></a>Operar o meu serviço
 
@@ -42,7 +42,7 @@ Diagrama de ![uma ilustrando uma lista de categorias de tarefas e atividades de 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Revise o guia de operações por completo.</li><li>Implemente uma estratégia de operações que se alinha com as metas da sua organização para oferecer a qualidade e a confiabilidade da nuvem cargas de trabalho de voz.</li><li>Examine a qualidade da experiência Revise o guia.</li><li> Implemente uma estratégia de operações para executar regularmente a qualidade da experiência revisões para certificar-se de que sua implantação de voz de nuvem está operando em seus recursos de pico.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Revise o guia de operações por completo.</li><li>Implemente uma estratégia de operações que se alinha com as metas da sua organização para oferecer a qualidade e a confiabilidade da nuvem cargas de trabalho de voz.</li><li>Examine a qualidade da experiência Revise o guia.</li><li> Implemente uma estratégia de operações para executar regularmente a qualidade da experiência revisões para certificar-se de que sua implantação de voz de nuvem está operando em seus recursos de pico.</li></ul></td></tr>
 </table>
 
 
@@ -61,7 +61,7 @@ Certifique-se de que cada equipe responsável tem um bom entendimento das ativid
 Depois de um contrato é estabelecido, as equipes correspondentes deverá começar tornem operacional suas funções.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td>
 <td><ul><li>Use este documento para facilitar o exercício de mapeamento de função operacionais.</li><li>Se encontrar com as equipes de suporte respectivos para atribuir nomes a cada item na lista de atividades necessárias.</li><li>Obter a aceitação ou aprovação nas funções atribuídas.</li><li>Certifique-se de que as equipes correspondentes tenham o treinamento adequado, preparação e recursos para concluir as atividades necessárias deles.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependências de serviços de equipes
@@ -137,7 +137,7 @@ Esses grupos podem incluir os proprietários de serviços, los, grupos de suport
 
 ### <a name="monitoring-for-advanced-scenarios"></a>Monitoramento para cenários avançados
 
-Você pode monitorar a integridade do serviço e futuras alterações aproveitando a API de comunicações do Office 365 Service para acessar as alterações e a integridade do serviço Office 365 programaticamente. Use essa API para criar seu próprio monitoring ferramenta ou conecte suas ferramentas de monitoramento existentes para as comunicações de serviço do Office 365, simplificando potencialmente como monitorar o seu ambiente. Para obter mais informações, consulte [Office 365 para desenvolvedores do Enterprise](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx).
+Você pode monitorar a integridade do serviço e futuras alterações aproveitando a API de comunicações do Office 365 Service para acessar as alterações e a integridade do serviço Office 365 programaticamente. Use essa API para criar seu próprio monitoring ferramenta ou conecte suas ferramentas de monitoramento existentes para as comunicações de serviço do Office 365, simplificando potencialmente como monitorar o seu ambiente. Para obter mais informações, consulte [Office 365 para desenvolvedores do Enterprise](https://developer.microsoft.com/office).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tarefas diariamente/semanalmente/mensal/conforme necessário
 
@@ -243,9 +243,9 @@ Dados de uso de equipes estão disponíveis no painel do relatório. Dados de us
 
 Os dois relatórios são específicos de equipes e eles fornecem mais detalhes sobre o uso de equipes de uma perspectiva de dispositivo e de usuário. Ambos os relatórios podem ser encontrados aqui:
 
-[Relatório de uso do dispositivo Teams da Microsoft](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
+[Relatório de uso de dispositivos do Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-device-usage-917b3e1d-203e-4439-8539-634e80196687)
 
-[Relatório de atividades do usuário Teams da Microsoft](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+[Relatório de atividades do usuário do Microsoft Teams](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 #### <a name="required-permissions"></a>Permissões necessárias
 
@@ -397,7 +397,7 @@ A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui ativ
 
 [Saiba CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
-[Informações de construção de carregamento](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
+[Informações de construção de carregamento](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
 [Qualidade da experiência Revise o guia](https://aka.ms/qerguide)
 
@@ -456,7 +456,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips)
 
-[Obter clientes do Microsoft Teams](get-clients.md)
+[Obter clientes para o Microsoft Teams](get-clients.md)
 
 [Comunidade do Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -497,25 +497,25 @@ Para suportar usuários, uma organização pode exigir qualquer número de taref
 
 [Adicionar, alterar ou remover um local de emergência para sua organização](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization)
 
-[Criar e gerenciar planos de discagem](https://docs.microsoft.com/microsoftteams/create-and-manage-dial-plans)
+[Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 #### <a name="common-tasks-for-audio-conferencing"></a>Tarefas comuns para conferência de áudio
 
-[Alterar as configurações de uma ponte de audioconferência](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-settings-for-an-audio-conferencing-bridge)
+[Alterar as configurações de uma ponte de audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[Alterar os números de telefone de sua ponte de audioconferência](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/change-the-phone-numbers-on-your-audio-conferencing-bridge)
+[Alterar os números de telefone de sua ponte de audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
-[Gerenciar as configurações de audioconferência de um usuário](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)
+[Gerenciar as configurações de audioconferência de um usuário](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Redefinir o PIN de conferência de áudio](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-the-audio-conferencing-pin)
+[Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Gerenciamento de licença
 
-Que sua organização cresce ou contrai, é importante que você planeje licenciamento para necessidades atuais e futuras. Não há uma licença de equipes base, além de licenciamento para recursos de voz de nuvem ([Sistema de telefonia](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) e [Conferência de áudio](https://products.office.com/skype-for-business/audio-conferencing)).
+Que sua organização cresce ou contrai, é importante que você planeje licenciamento para necessidades atuais e futuras. Não há uma licença de equipes base, além de licenciamento para recursos de voz de nuvem ([Sistema de telefonia](here-s-what-you-get-with-phone-system.md) e [Conferência de áudio](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Para equipes, as licenças de sistema telefônico exigem licenças [Chamar planejar](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) associadas. Chamar o plano de licenciamento permite fazer e receber chamadas de telefone internacionais e/ou domésticas. Esses planos são baseados em uso e tem pools minutos associados a eles. Provisionamento [Communications créditos](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) garantirá que você nunca executar fora de serviço.
+Para equipes, as licenças de sistema telefônico exigem licenças [Chamar planejar](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) associadas. Chamar o plano de licenciamento permite fazer e receber chamadas de telefone internacionais e/ou domésticas. Esses planos são baseados em uso e tem pools minutos associados a eles. Provisionamento [Communications créditos](what-are-communications-credits.md) garantirá que você nunca executar fora de serviço.
 
-Serviços de audioconferência permite a conferência discada tolled e serviços de conferência de discagem domésticas. Conferência discada gratuita ou não-doméstico cenários de discagem podem causar a incorrer em encargos adicionais para os quais [Comunicações créditos](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) são necessários.
+Serviços de audioconferência permite a conferência discada tolled e serviços de conferência de discagem domésticas. Conferência discada gratuita ou não-doméstico cenários de discagem podem causar a incorrer em encargos adicionais para os quais [Comunicações créditos](what-are-communications-credits.md) são necessários.
 
 Comunicações créditos podem suplementar licenças chamar planejar e conferência de áudio. Chamar planejar licenças e a comunicação créditos são baseados em uso e, portanto, devem ser monitorados e provisionado para adequadamente.
 
@@ -525,7 +525,7 @@ Você pode aproveitar o [relatório de uso do PSTN](https://docs.microsoft.com/s
 
 Há dois métodos para adquirir números em equipes: porta de números de telefone do outro provedor, ou você pode provisionar os números diretamente do inventário de número da Microsoft. Esses dois métodos são descritos na [Getting números de telefone para seus usuários](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users).
 
-Não há um limite no número de números de telefone, que você pode provisionar do estoque de número da Microsoft. Os limites são determinados por um número de fatores detalhados nos [números de telefone de quantos você consegue?](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get).
+Não há um limite no número de números de telefone, que você pode provisionar do estoque de número da Microsoft. Os limites são determinados por um número de fatores detalhados nos [números de telefone de quantos você consegue?](how-many-phone-numbers-can-you-get.md).
 Os limites dependem do tipo de números — gratuito números de serviço, números de serviço tarifados e números de telefone do assinante (usuário). Cada uma tem seus próprios limites e deve ser gerenciada de forma independente. Se você está se aproximando do limite (ou se você tiver atingido o limite), você pode aplicar um incremento ao limite. Esse processo é descrito no artigo no parágrafo anterior.
 
 Pode haver momentos quando um número não está disponível para ser provisionado em uma região onde o serviço está disponível. Para obter informações sobre o processo para números solicitantes, consulte [gerenciar números de telefone para sua organização](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).

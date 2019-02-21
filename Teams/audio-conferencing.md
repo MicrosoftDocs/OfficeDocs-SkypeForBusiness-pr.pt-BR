@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: a3ce04974eec062360bb6b0663255f079e097554
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532229"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120680"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Orientações práticas de Audioconferência no Microsoft Teams
 ============================================================
@@ -266,19 +266,19 @@ Depois de confirmar a elegibilidade da sua organização para obter o serviço d
 
 ## <a name="licensing-for-audio-conferencing"></a>Licença para a Audioconferência
 
-A [licença da Audioconferência](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) está disponível como parte dos planos de assinatura do Office 365 E5 ou como um complemento aos planos de assinatura do Office 365 E1 ou Office 365 E3.
+A [licença da Audioconferência](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) está disponível como parte dos planos de assinatura do Office 365 E5 ou como um complemento aos planos de assinatura do Office 365 E1 ou Office 365 E3.
 
 > [!NOTE]
 > A conferência PSTN ou por discagem no Teams não suporta Provedores de Audioconferência<sup></sup> de terceiros (ACPs). <br>Se você já usa a Conferência PSTN do Skype for Business hoje, você pode aproveitar a Audioconferência no Teams imediatamente.
 
-Para fornecer números de telefone gratuitos de ponte de conferência e para suportar discagem de conferência para números de telefone internacionais, você precisa configurar [Créditos de Comunicação](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) para a sua organização.
+Para fornecer números de telefone gratuitos de ponte de conferência e para suportar discagem de conferência para números de telefone internacionais, você precisa configurar [Créditos de Comunicação](what-are-communications-credits.md) para a sua organização.
 
 > [!IMPORTANT]
 > Alguns países são atendidos apenas por números de telefone gratuitos para ponte de conferência, e nesse caso, o uso de Créditos de Comunicação é um requisito obrigatório para ter suporte de acesso a esses países.
 
-A primeira consideração a fazer ao implementar os Créditos de Comunicação é decidir o valor inicial de fundos a serem comprados. Os valores de fundos recomendados podem ser consultados no artigo [Créditos de Comunicação](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+A primeira consideração a fazer ao implementar os Créditos de Comunicação é decidir o valor inicial de fundos a serem comprados. Os valores de fundos recomendados podem ser consultados no artigo [Créditos de Comunicação](what-are-communications-credits.md).
 
-Se a sua organização optar por usar a recarga automática, uma recomendação sobre o gatilho (menor valor de fundos) também está incluída no artigo [Créditos de Comunicação](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits). O valor da recarga automática deve ser determinado pelo uso real. O uso de Créditos de Comunicação deve ser monitorado ao longo do tempo e o valor da recarga precisa ser ajustado conforme a necessidade.
+Se a sua organização optar por usar a recarga automática, uma recomendação sobre o gatilho (menor valor de fundos) também está incluída no artigo [Créditos de Comunicação](what-are-communications-credits.md). O valor da recarga automática deve ser determinado pelo uso real. O uso de Créditos de Comunicação deve ser monitorado ao longo do tempo e o valor da recarga precisa ser ajustado conforme a necessidade.
 
 <br>
 
@@ -324,7 +324,7 @@ O serviço de Audioconferência do Office 365 inclui:
 -   Suporte de vários idiomas para a ponte de conferência (primária e secundária)
 -   Um número de telefone padrão para o locatário.
 
-A descrição completa das funcionalidades incluídas pode ser consultada em [Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) e em [Números de telefone e Audioconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing).
+A descrição completa das funcionalidades incluídas pode ser consultada em [Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) e em [Números de telefone e Audioconferência](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Os números de telefone exclusivos da ponte de conferência são contados em relação ao limite de números de telefone que podem ser adquiridos por locatário com base no número de licenças aplicáveis, conforme descrito em [Obter números de telefone para o serviço Skype for Business e Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Os números de telefone gratuitos da ponte de conferência não precisam de Créditos de Comunicação.
@@ -334,7 +334,7 @@ Se houver números de telefone existentes da ponte de conferência que precisem 
 > [!NOTE]
 > A complexidade da transferência de números de telefone para a Microsoft varia muito com base nos países ou regiões, operadoras, o número de circuitos envolvidos e vários outros fatores. Para planejar a portabilidade dos números de telefone, consulte o [Guia de portabilidade de números](https://go.microsoft.com/fwlink/?linkid=859011).
 
-Mais detalhes sobre a transferência de números de telefone para o serviço de Audioconferência estão disponíveis em [Transferir números de telefone para o Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+Mais detalhes sobre a transferência de números de telefone para o serviço de Audioconferência estão disponíveis em [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
 
 <br>
 
@@ -432,7 +432,7 @@ Dentro do recurso Sistema de Telefonia do Office 365, existem dois tipos de plan
     -   **Plano de discagem para locatário usuário** – o plano de discagem se aplica apenas a usuários específicos.
 
 > [!NOTE]
-> Confira mais detalhes e exemplos na documentação [O que são os planos de discagem?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+> Confira mais detalhes e exemplos na documentação [O que são os planos de discagem?](what-are-dial-plans.md)
 
 O plano de discagem efetivo atribuído aos usuários é a combinação do plano de discagem para serviço (com base no local de uso do Office 365 do usuário) e do plano de discagem para locatários (que pode ser o plano de discagem para locatário global ou o plano de discagem para locatário usuário).
 

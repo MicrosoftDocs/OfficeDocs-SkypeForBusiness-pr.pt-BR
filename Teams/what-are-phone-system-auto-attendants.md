@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba quais são os atendedores automáticos de sistema telefônico (nuvem PBX) e como usá-los. '
-ms.openlocfilehash: bd59a88c0e8a1bd23c0caf23a3a3099e6ad98063
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f0b93d39bffc2c479e853228cb4d14f38d9a570d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048321"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120804"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>O que são atendedores automáticos do Sistema de Telefonia?
 
@@ -53,10 +53,10 @@ Um atendedor automático de sistema telefônico tem os seguintes recursos:
 
 Para começar a usar os atendedores automáticos, é importante lembrar-se de que:
   
-- Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** que receberem o impacto sobre o número de serviço números que está disponível a serem usados para atendedores automáticos. O número de atendedores automáticos que depende das licenças de **Sistema telefônico** e **Audioconferência** números que são atribuídas em sua organização. Para saber mais sobre o licenciamento, vá [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+- Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** que receberem o impacto sobre o número de serviço números que está disponível a serem usados para atendedores automáticos. O número de atendedores automáticos que depende das licenças de **Sistema telefônico** e **Audioconferência** números que são atribuídas em sua organização. Para saber mais sobre o licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
     > [!TIP]
-    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos para acessá-los. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirecionar chamadas para um operador ou uma opção de menu que é um usuário Online com uma licença de **Sistema telefônico** , você precisará habilitá-los para o Enterprise Voice ou atribuir chamar planos para acessá-los. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obter e usar números gratuitos de serviço para seus atendedores automáticos, você precisará configurar créditos de comunicações. Para fazer isso, consulte [Cite Communications créditos?](what-are-communications-credits.md) e [Configurar créditos de comunicações para sua organização](set-up-communications-credits-for-your-organization.md).
     
@@ -271,7 +271,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 Você pode obter mais informações sobre como fazer alterações nas configurações de ID de chamador em sua organização [como ID do chamador pode ser usado na sua organização](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="related-topics"></a>Tópicos relacionados
-[Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
+[Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

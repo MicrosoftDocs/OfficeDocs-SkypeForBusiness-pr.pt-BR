@@ -1,5 +1,5 @@
 ---
-title: Experiência do cliente de equipes e conformidade para modos de coexistência
+title: Experiência e conformidade do cliente do Teams a modos de coexistência
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
@@ -13,16 +13,16 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cc7f27d244b557b96f79b62247ae887a083a0e6
-ms.sourcegitcommit: d8a68433949edfbbece628dd0e1c0ce9205ba0a0
+ms.openlocfilehash: bd81915739d9ad2087dec5b66595efd1c49e2c84
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "30087840"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120888"
 ---
 <a name="about-upgrade-basic"></a>
 
-# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiência do cliente de equipes e conformidade para modos de coexistência
+# <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Experiência e conformidade do cliente do Teams a modos de coexistência
 
 > [!NOTE]
 > Esta página descreve importantes futuras alterações no comportamento do cliente de equipes, quando os usuários estiverem em qualquer uma do Skype para modos de negócios (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings).
@@ -71,7 +71,7 @@ Os administradores devem definir cada uma dessas configurações para os seguint
 |SfBWithTeamsCollab ou SfBOnly|Desabilitado|Desabilitado|Desabilitado|Desabilitado|
 ||||||
 
-Antes da distribuição de conformidade automática da experiência do usuário com base em modos, o `Grant-csTeamsUpgradePolicy` cmdlet verifica a configuração das respectivas configurações na TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas as configurações são compatíveis com o modo especificado. Se qualquer um não estejam configurado corretamente, o grant terá êxito, mas um aviso será fornecido no PowerShell indicando quais configurações específicas não estão configuradas corretamente. Abaixo é um exemplo de como o aviso do PowerShell pode parecer:
+Antes da distribuição de conformidade automática da experiência do usuário com base em modos, o `Grant-CsTeamsUpgradePolicy` cmdlet verifica a configuração das respectivas configurações na TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas as configurações são compatíveis com o modo especificado. Se qualquer um não estejam configurado corretamente, o grant terá êxito, mas um aviso será fornecido no PowerShell indicando quais configurações específicas não estão configuradas corretamente. Abaixo é um exemplo de como o aviso do PowerShell pode parecer:
 
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`

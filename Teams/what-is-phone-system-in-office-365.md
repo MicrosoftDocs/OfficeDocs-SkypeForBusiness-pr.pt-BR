@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba mais sobre o que sistema telefônico pode fazer por você. '
-ms.openlocfilehash: ebf8e5dbf628cf0619df0ab9906c25d75662bdc6
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4c05c8b5007ea5ffcba6b2c46fc36757858a0dfa
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048798"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121024"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>O que é o Sistema de Telefonia no Office 365?
 
@@ -76,8 +76,8 @@ Planos de chamada (locais e nacionais e internacionais) estão disponíveis nas 
 Se você estiver pronto para começar, consulte [Configurando o sistema telefônico na sua organização](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Diferentes tipos de números de telefone usados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Licenciamento de complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Diferentes tipos de números de telefone utilizados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Obtendo telefones para o Skype for Business Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)
 

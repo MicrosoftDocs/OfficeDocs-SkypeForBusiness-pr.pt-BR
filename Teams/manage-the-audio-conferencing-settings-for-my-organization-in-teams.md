@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte as etapas para atribuir uma licença de conferência discada e um ID de conferência a um usuário no Microsoft Teams e várias outras configurações de conferência discada. '
-ms.openlocfilehash: 9769f5cd0a31ddf8494f57454bec698d1a626d4a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 34afd4597bad857b061296feb87fe8cae758c99f
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754043"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121032"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gerenciar as configurações de Audioconferência de sua organização no Microsoft Teams
 
@@ -37,7 +37,7 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
 ## <a name="assign-an-audio-conferencing-license"></a>Atribui licença de audioconferência
 
 > [!NOTE]
-> Não é possível atribuir licenças usando o Teams. É necessário usar o centro de administração do Office 365. Consulte [Atribuir licenças do Skype for Business e do Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses). 
+> Não é possível atribuir licenças usando o Teams. É necessário usar o centro de administração do Office 365. Consulte [Atribuir licenças do Skype for Business e do Microsoft Teams](assign-teams-licenses.md). 
   
  **Atribuir uma licença a um usuário**
   
@@ -50,7 +50,7 @@ Pode ser mais fácil para você visualizar todas as configurações de audioconf
   
 3. No painel Ação em **Licenças de produto**, clique em **Editar**. 
     
-4. Na página **Licenças de produto**, ative **Audioconferência** e clique em **Salvar**. Para obter mais informações sobre licenças, consulte [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+4. Na página **Licenças de produto**, ative **Audioconferência** e clique em **Salvar**. Para obter mais informações sobre licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
 > Depois de atribuir a licença, a Microsoft pode não aparecer inicialmente na lista como provedor de audioconferência. Caso isso aconteça, saia do centro de administração do Office 365 ou pressione CTRL+F5 para atualizar a janela do navegador. 

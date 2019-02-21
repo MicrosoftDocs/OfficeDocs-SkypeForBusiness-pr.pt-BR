@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones.
-ms.openlocfilehash: b9f5b85219981f8fa4c67d5f2ed6e666fc7fada2
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: ac4e609378e23dde4a91fd45bee917ad5c1340d7
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069621"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120952"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
@@ -147,4 +147,4 @@ Para obter mais informações sobre a obtenção de equipes, confira [como obter
 
 [Marketplace de equipes](http://office.com/teamsdevices)
 
-[Telefones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Telefones IP certified for Microsoft Teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)

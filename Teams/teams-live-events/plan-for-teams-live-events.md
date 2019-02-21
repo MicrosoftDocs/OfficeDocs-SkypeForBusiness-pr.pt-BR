@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar o live eventos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0c71258ee0285c4c00f69e63be1f2efbfc5e4ab
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: cee30cc853043b4424a9a30c1ad785f77ea05f70
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297813"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120920"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -36,7 +36,7 @@ Aqui estão as licenças que devem ser atribuídas:
 - **Produção para a rápida de iniciar**  O usuário deve ser atribuído a uma licença do Microsoft Teams.
 - **Produção de codificador para externo** O usuário deve ser atribuído a uma licença do Microsoft Stream.
 
-Para obter mais informações sobre licenciamento, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para obter mais informações sobre licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 O usuário deverá ter:
 - Agendamento de reuniões privadas em equipes habilitadas (*- AllowPrivateMeetingScheduling TeamsMeetingPolicy o parâmetro = True*).
@@ -53,8 +53,8 @@ O usuário deverá ter:
 |Público (usuários anônimos)      |  Sim            |  Não                  |
 |Usuários convidados                   |  Nenhum<sup>1</sup> |  Não                  |
 |Todos na empresa federada |  Nenhum<sup>1</sup> |  Não                  |
-|Todas as pessoas da empresa           |  Sim            |  Sim                 |
-|Específicas agrupa / de pessoas      |  Sim            |  Sim                 |
+|Todas as pessoas da empresa           |  Sim             |  Sim                 |
+|Específicas agrupa / de pessoas      |  Sim             |  Sim                 |
 
 <sup>1</sup> somente pode assistir eventos ao vivo como usuários anônimos.
 
@@ -68,7 +68,7 @@ A tabela a seguir destaca os principais recursos e capacidades oferecidas em eve
 |Duração máxima de evento ao vivo |4 horas |4 horas |4 horas |
 |Criação de evento ao vivo |   Portal de transmissão de reunião do Skype |As equipes, Yammer via equipes | As equipes, Yammer via fluxo, equipes |
 |Compromisso de público-alvo – o Yammer |& #x 2714; |& #x 2714; (experiência integrada) |& #x 2714; (experiência integrada) |
-|Compromisso de público-alvo – moderados perguntas e respostas |& #x 2714;  |& #x 2714; |& #x 2714; |
+|Compromisso de público-alvo – Q moderados & uma |& #x 2714;  |& #x 2714; |& #x 2714; |
 |Cliente de produtor no Windows |& #x 2714; (Skype para negócios) |& #x 2714; (As equipes) |& #x 2714; (Stream, equipes via fluxo incorporar) |
 |Cliente de produtor no Mac |X  | & #x 2714; (As equipes) |& #x 2714; (Stream, equipes via fluxo incorporar) |
 |Contagem de participantes na interface do usuário do produtor |X  |& #x 2714; (As equipes) |& #x 2714; (Stream, equipes via fluxo incorporar) |
@@ -85,7 +85,7 @@ Convidar um apresentador durante a reunião |& #x 2714; (Skype para negócios) |
 |Controles DVR ATTENDEE (pausar, retroceder) |& #x 2714; |& #x 2714; |& #x 2714; |
 |Parceiro eCDN suporte |& #x 2714; (Hive, Kollective, conheça) |& #x 2714; (Hive, Kollective, conheça) |& #x 2714; (Hive, Kollective, conheça) |
 |Relatório de pós-transmissão de presença para produtores |& #x 2714; |& #x 2714; |X |
-|Análise de sentimento público-alvo – Live votação & votações |& #x 2714; (Microsoft pulso) |X |X |
+|Audiência sentimento análise – votações de & votação ao vivo |& #x 2714; (Microsoft pulso) |X |X |
 
 > [!IMPORTANT]
 > Os limites definidos podem ser alterados.
@@ -106,7 +106,7 @@ Você pode usar eventos ao vivo de equipes em vários regiões no mundo inteiro.
 - **Ir locais:** Reino Unido, Índia e outros locais de ir de equipes da Microsoft não são suportados no momento.
 - **China:** Membros da equipe de evento e os participantes não poderão usar eventos ao vivo de equipes, porque o Windows Azure CDN não está acessível na China. Uma solução alternativa é usar uma conexão VPN, que obtém o cliente conectado CDN via rede corporativa do cliente da empresa.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Vá para [Configurar o para equipes de eventos ao vivo](set-up-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados

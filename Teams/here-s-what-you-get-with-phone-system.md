@@ -1,5 +1,5 @@
 ---
-title: Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365
+title: Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 9898bcea949c5150667ae502edfa6b1fccd64764
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30056615"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120896"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que é fornecido com o Sistema de Telefonia no Office 365
+# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
 Um PBX é um sistema telefônico interno da empresa. O sistema telefônico no complemento do Office 365 oferece recursos de PBX, mas sem o equipamento de complicado e caro. 
   
@@ -86,7 +86,7 @@ Consulte estes artigos para planejar e configurar o sistema telefônico na sua e
     
 - [Planejar seu sistema telefônico na solução do Office 365 (PBX nuvem)](https://go.microsoft.com/fwlink/?LinkId=708645): Este artigo dispõe todas as opções de implantação. Ele também tem informações sobre o planejamento de uma solução inteiramente de nuvem. 
     
-- [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing): Saiba quais licenças você precisará comprar para obter o sistema telefônico no Office 365.
+- [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Saiba quais licenças você precisará comprar para obter o sistema telefônico no Office 365.
     
 - [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](set-up-phone-system-voicemail.md)
     

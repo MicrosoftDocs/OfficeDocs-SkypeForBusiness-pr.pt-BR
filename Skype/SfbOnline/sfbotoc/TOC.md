@@ -228,7 +228,7 @@
 ### [Veja o você recebe com o Sistema de Telefonia](/microsoftteams/here-s-what-you-get-with-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### Caixa postal do Sistema de Telefonia
 #### [Alterar o idioma padrão para emails e saudações de caixa postal em sua organização](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Idiomas para saudações da caixa postal e mensagens](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+#### [Idiomas de mensagens e saudações da caixa postal](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Configuração do Sistema de Telefonia na sua organização](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
@@ -242,7 +242,7 @@
 ### [Habilitar a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/enable-skype-meeting-broadcast.md)
 ### [Fazer alterações nas configurações da Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/make-changes-to-skype-meeting-broadcast-settings.md)
 
-## [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+## [Licenciamento de complementos do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 ### Opções de licença com base no seu plano
 #### [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 #### [Premium do Office 365, o Office 365 ProPlus, ou Skype para negócios Online plano 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
@@ -253,10 +253,10 @@
 #### [GOV, EDU e organizações sem fins lucrativos](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 #### [Skype para aposentadoria Business Online plano 1](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md)
 ### [Adicionar fundos e gerenciar Créditos de Comunicação](/microsoftteams/add-funds-and-manage-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Atribuir licenças do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+### [Atribuir Skype para licenças de negócios](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 ### [Audioconferência Pagar por Minuto](/microsoftteams/audio-conferencing-pay-per-minute?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Configurar Créditos de Comunicação para a sua organização](/microsoftteams/set-up-communications-credits-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Planos de Chamadas para o Office 365](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Planos de Chamadas do Office 365](/microsoftteams/calling-plans-for-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [O que são Créditos de Comunicação?](/microsoftteams/what-are-communications-credits?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Configurar o Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
@@ -332,5 +332,5 @@
 ### [Código para lidar com reclamações para o Reino Unido (UK)](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Práticas de coleta de dados](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Rótulos da chamada de emergência](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Termos e condições para chamadas de emergência](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Termos e condições da chamada de emergência](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Programa de fim de vida útil para a integração do Skype for Business com a audioconferência de terceiros](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)

@@ -1,5 +1,5 @@
 ---
-title: O Office 365 ProPlus, ou Skype para negócios Online plano de autônomo 2
+title: O Office 365 ProPlus ou Skype para negócios Online plano de autônomo 2
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,23 +14,22 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre como comprar o Office 365 ProPlus ou Skype para negócios Online Standalone plano 2, recursos e licenças de complemento.
-ms.openlocfilehash: 2a5cd00a0573999afe6f27b6a792b0eaa2260093
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 79f2638f8c2da923846ac522752a3f2bc0a940ec
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240663"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120333"
 ---
-# <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>O Office 365 ProPlus, ou Skype para negócios Online plano de autônomo 2
+# <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>O Office 365 ProPlus ou Skype para negócios Online plano de autônomo 2
 
-Se você já comprou o [Office 365 ProPlus](https://products.office.com/en-us/business/office-365-proplus-business-software), ou plano do [Skype para negócios Online Standalone plano 2](https://products.office.com/en-us/skype-for-business/online) , aqui estão as licenças do complemento que você precisará comprar para obter mais Skype para recursos corporativos.
+Se você já comprou o [Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software) ou [Skype para negócios Online Standalone plano 2](https://products.office.com/skype-for-business/online), aqui estão as licenças do complemento que você precisará comprar para obter mais Skype para recursos corporativos.
 
 > [!IMPORTANT]
 > Embora a Audioconferência, o Sistema de Telefonia e Planos de Chamada possam ser adquiridos com o Skype for Business Online Plan 2, para habilitar os recursos de chamada de voz, recomendamos que avalie um plano Enterprise E5 para ver se ele é mais vantajoso.

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad00f5df93cb91cc878a0b75a413b9299cde9a88
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694771"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120712"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -67,12 +67,12 @@ Depois de confirmar que sua organização está qualificada obter o serviço de 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida quais locais de usuários ou escritórios implementarão o serviço de Audioconferência.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os locais de usuários ou escritórios que implementarão o serviço de Audioconferência.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais de usuários ou escritórios que implementarão o serviço de Audioconferência.</li></ul>|
 
 > [!TIP]
 > Abaixo é um exemplo de um modelo de lista de habilitação de site de conferência de áudio:
 > 
-> |Escritório   |Localização |Serviço de Conferência PSTN  |
+> |Office   |Localização |Serviço de Conferência PSTN  |
 > |---------|---------|---------|
 > |One Epping Road|Austrália|Audioconferência|
 > |100 Alma Road|Hong Kong SAR|Conferência PSTN herdada|
@@ -84,27 +84,27 @@ Depois de confirmar que sua organização está qualificada obter o serviço de 
 
 ## <a name="licensing-for-audio-conferencing"></a>Licença para a Audioconferência
 
-Uma [licença de conferência de áudio](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) está disponível como parte dos planos de assinatura do Office 365 E5 ou como um serviço complementar para planos de assinatura do Office 365 E1 ou Office 365 E3.
+Uma [licença de conferência de áudio](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) está disponível como parte dos planos de assinatura do Office 365 E5 ou como um serviço complementar para planos de assinatura do Office 365 E1 ou Office 365 E3.
 
 > [!NOTE]
 > Conferência PSTN ou discada em equipes não oferece suporte a provedores de serviços de audioconferência de terceiros (ACPs).
 > <br>Se você já usa a Conferência PSTN do Skype for Business hoje, você pode aproveitar a Audioconferência no Teams imediatamente.
 
-Para fornecer números de telefone de ponte de conferência de discagem gratuita e para oferecer suporte a discagem de conferência aos números de telefone internacional, você deve configurar [Créditos de comunicações](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) para sua organização.
+Para fornecer números de telefone de ponte de conferência de discagem gratuita e para oferecer suporte a discagem de conferência aos números de telefone internacional, você deve configurar [Créditos de comunicações](what-are-communications-credits.md) para sua organização.
 
 > [!IMPORTANT]
 > Alguns países forem atendidos pelo números de telefone de ponte de conferência de discagem gratuita apenas. Para oferecer suporte à discagem nesses países, você deve usar créditos de comunicações.
 
 A primeira consideração ao implementar créditos de comunicações é decidir a quantidade inicial de fundos que você deseja comprar. Se sua organização optar por usar autocarga, você precisará decidir o valor de gatilho (valor mais baixo de fundos) e a quantidade de autocarga. Seu uso real determinará a quantidade de autocarga. Monitore o uso de comunicações créditos ao longo do tempo e ajustar a quantidade de carga, conforme necessário.
 
-Você pode aprender mais sobre Communications créditos [aqui](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Você pode aprender mais sobre Communications créditos [aqui](what-are-communications-credits.md).
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Se sua organização não tiver já adquiriu a conferência de áudio necessários licenciamento, decida se você vai adquirir licenças de conferência de áudio por assinaturas do Office 365 existentes de revisão ou por adquirir licenças de complemento de conferência de áudio.</li><li>Decida se Communications créditos são necessários para a implementação da conferência de áudio. Em caso positivo, decida o valor inicial de fundos a serem comprados. Onde aplicável, decida o valor do gatilho e o valor da recarga automática.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Os usuários que serão atribuídos licenças de conferência de áudio do documento.</li><li>Documentar o plano de comunicação créditos (quantidade inicial, quantidade de gatilho, quantidade de autocarga)</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Os usuários que serão atribuídos licenças de conferência de áudio do documento.</li><li>Documentar o plano de comunicação créditos (quantidade inicial, quantidade de gatilho, quantidade de autocarga)</li></ul>|
 
 > [!TIP]
 > Você pode documentar a lista de atribuição de licença para usuários de conferência de áudio usando o exemplo a seguir.
@@ -172,7 +172,7 @@ Para saber mais sobre os números de telefone de ponte de conferência, revise o
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização precisa números de telefone de ponte de conferência dedicado.</li><li>Decidir como os números de telefone de ponte de conferência dedicado serão obtidos para os locais do usuário ou de escritórios em escopo para a implementação da conferência de áudio (isto é, obtém de números de telefone existentes da Microsoft ou transferência).</li><li>Se você escolher obtê-las da Microsoft, decidir o método a ser usado (envio do formulário ou automatizada) para os locais do usuário ou de escritórios em escopo para a implementação da conferência de áudio.</li><li>Decida as preferências de idioma para configurar o para cada número de telefone de ponte de conferência dedicado.</li><li>Decida o número de telefone de ponte de conferência do locatário padrão.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente o planejamento de mestre de aquisição de número de telefone, detalhando como números de telefone serão obtidos para cada local do usuário ou do office no escopo para a implementação da conferência de áudio.</li><li>Se aplicável, conclua o formulário de nova solicitação de número de telefone — um formulário para cada local ou do office.</li><li>Documento números configurações (shared e dedicada números de telefone de ponte de conferência, as preferências de idioma para cada número de telefone de ponte de conferência dedicado, número de telefone de ponte de conferência do locatário padrão) de telefone de ponte de conferência detalhadas.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente o planejamento de mestre de aquisição de número de telefone, detalhando como números de telefone serão obtidos para cada local do usuário ou do office no escopo para a implementação da conferência de áudio.</li><li>Se aplicável, conclua o formulário de nova solicitação de número de telefone — um formulário para cada local ou do office.</li><li>Documento números configurações (shared e dedicada números de telefone de ponte de conferência, as preferências de idioma para cada número de telefone de ponte de conferência dedicado, número de telefone de ponte de conferência do locatário padrão) de telefone de ponte de conferência detalhadas.</li></ul>|
 
 Abaixo é um exemplo de um modelo que você pode usar para capturar detalhes de ponte de conferência.
 
@@ -224,7 +224,7 @@ Com esses controles, você poderá decidir se os organizadores de reunião podem
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decidir se sua organização requer notificações de entrada e saída, e — se contiver — o tipo de notificação a serem implementados (tons, número de telefone ou nome registrado).</li><li>Decida o comprimento de PIN de conferência de áudio que atende aos seus requisitos de segurança da organização.</li><li>Decida se sua organização deseja assumir o controle das comunicações do usuário relacionadas ao serviço de conferência de áudio.</li><li>Decidir os números de telefone da ponte da conferência a serem atribuídos a cada organizador de reunião.</li><li>Decida se alguns organizadores de reunião precisam usar números de telefone de ponte de conferência de discagem gratuita para suas reuniões.</li><li>Decida se precisam de alguns organizadores de reunião permitir que os chamadores não autenticados iniciar uma reunião.</li><li>Decida se alguns organizadores de reunião precisam discar conferência seja controlado.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documentar detalhadamente as configurações de ponte de conferência (notificações de entrada e saída, tamanho do PIN, notificação por email de alteração do configurações)</li><li>Documente os números de telefone de ponte de conferência a ser atribuído a cada organizador da reunião e a configuração correspondente para controlar a diretiva para os chamadores não-autenticados e gratuitos e discar controles.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documentar detalhadamente as configurações de ponte de conferência (notificações de entrada e saída, tamanho do PIN, notificação por email de alteração do configurações)</li><li>Documente os números de telefone de ponte de conferência a ser atribuído a cada organizador da reunião e a configuração correspondente para controlar a diretiva para os chamadores não-autenticados e gratuitos e discar controles.</li></ul>|
 
 > [!TIP]
 > As configurações de ponte de conferência podem ser documentadas como no exemplo a seguir.
@@ -286,7 +286,7 @@ Para obter mais informações sobre a contagem total dos números de telefone qu
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>Escolher o tipo de números de telefone a ser adquirida da Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>O tipo de números de telefone a ser adquirida da Microsoft do documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>O tipo de números de telefone a ser adquirida da Microsoft do documento.</li></ul>|
 
 ## <a name="transfer-existing-telephone-numbers"></a>Transferir os números de telefone existente
 
@@ -302,14 +302,14 @@ Portabilidade de número de telefone é um tópico complexo e requer planejament
 
 -   [Transferindo números de telefone para o Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
--   [Perguntas comuns sobre a transferência de números de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Perguntas comuns sobre transferência de números de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>Escolher o tipo de números de telefone a ser transferido para a Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>O tipo de números de telefone a ser transferido para a Microsoft de documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>O tipo de números de telefone a ser transferido para a Microsoft de documento.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -341,7 +341,7 @@ Para saber mais sobre os planos de discagem, consulte [quais são os planos de d
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização requer planos de discagem personalizada (requisitos de negócios, requisitos de adoção e assim por diante).</li><li>Se aplicável, decidir o escopo do plano de discagem para locatários (locatário global ou locatário usuário) para ter suporte para os requisitos dos planos de discagem personalizados.</li><li>Se aplicável, decidir os planos de discagem de locatário que você vai criar para suportar os locais do usuário ou escritórios em escopo para a implementação de voz de nuvem.</li><li>Se aplicável, decida quais usuários exigem um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os planos de discagem personalizada e as regras de normalização associadas a ser configurado como parte da sua implementação de voz de nuvem.</li><li>Os usuários que devem ser atribuídos a um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário do documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os planos de discagem personalizada e as regras de normalização associadas a ser configurado como parte da sua implementação de voz de nuvem.</li><li>Os usuários que devem ser atribuídos a um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário do documento.</li></ul>|
 
 > [!TIP]
 > Se ele for aplicável ao seu projeto, você pode usar o modelo a seguir para documentar as configurações de plano de discagem de locatário.

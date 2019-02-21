@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb254de21bfaf0ffb66a9c9177e5109a1b4eafc1
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593962"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120566"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -71,7 +71,7 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida qual usuário locais ou escritórios você implementará o ato de chamar planos de serviço no.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os locais do usuário ou escritórios estar habilitado para o serviço de planos de chamada.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais do usuário ou escritórios estar habilitado para o serviço de planos de chamada.</li></ul>|
 
 > [!TIP]
 > Abaixo é um exemplo de um sistema telefônico com lista planos de chamada de habilitação de site.
@@ -88,27 +88,27 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 
 ## <a name="phone-numbers-and-emergency-locations"></a>Números de telefone e locais de emergência
 
-Com a chamada estiver planejando no Office 365, cada usuário na sua organização deve ter um inward direto exclusivo discando o número de telefone (DID) e um endereço de emergência validado correspondente. Rever os [números de telefone de voz de nuvem de gerenciar](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-phone-system#manage-cloud-voice-telephone-numbers) para planejar a aquisição de número de telefone para sua implementação chamando planos.
+Com a chamada estiver planejando no Office 365, cada usuário na sua organização deve ter um inward direto exclusivo discando o número de telefone (DID) e um endereço de emergência validado correspondente. Rever os [números de telefone de voz de nuvem de gerenciar](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) para planejar a aquisição de número de telefone para sua implementação chamando planos.
 
 Quando você estiver configurando os números de telefone para planos de chamada, você deve atribuir um endereço de emergência para cada número de telefone antes de atribuir o número a um usuário. Isso é necessário para dar suporte às chamadas de emergência. O endereço de emergência deve ser validado para garantir que ele está no formato correto a ser usado pelos serviços de resposta de emergência.
 
 > [!IMPORTANT]
-> Serviços de emergência chamar funciona de modo diferente no serviço chamando planos que nos serviços de telefonia tradicional. É importante que você entenda essas diferenças e comunicar-se a todos os usuários. Para obter mais detalhes, consulte [Emergency chamar termos e condições](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/emergency-calling-terms-and-conditions) .
+> Serviços de emergência chamar funciona de modo diferente no serviço chamando planos que nos serviços de telefonia tradicional. É importante que você entenda essas diferenças e comunicar-se a todos os usuários. Para obter mais detalhes, consulte [Emergency chamar termos e condições](emergency-calling-terms-and-conditions.md) .
 
 Além de fornecer um endereço de emergência validado, você pode definir o locais de emergência e associá-los com o endereço de emergência validado dar um local mais exato dentro de um endereço. Normalmente, um local de emergência consiste no número de um edifício, andar, bloco ou o número do escritório onde o usuário está localizado.
 
 Para saber mais sobre os locais de emergência em relação à chamada planos, revise os seguintes artigos:
 
--   [O que são locais e endereços de emergência e encaminhamento de chamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+-   [O que são locais e endereços de emergência e encaminhamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
 
--   [Termos e condições para chamadas de emergência](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions)
+-   [Termos e condições da chamada de emergência](emergency-calling-terms-and-conditions.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida a granulação das informações de local de emergência a serem coletados para os locais do usuário ou de escritórios em escopo para a implementação de planos de chamada.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>O endereço de emergência detalhado e locais de emergência para cada local do usuário ou do office no escopo para a implementação de planos de chamar do documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>O endereço de emergência detalhado e locais de emergência para cada local do usuário ou do office no escopo para a implementação de planos de chamar do documento.</li></ul>|
 
 > [!TIP]
 > Você pode usar o modelo a seguir para documentar os detalhes dos números de telefone e detalhes do local de emergência.
@@ -130,7 +130,7 @@ Caixa postal de sistema telefônico, possibilitada pela serviços de caixa posta
 
 Por padrão, o sistema telefônico voicemail funciona com o Exchange Online; No entanto ele tenha um mínimo com suporte Exchange local versão e implantação modelo para permitir a entrega de mensagens de caixa postal para caixas de correio do usuário na implantação do Exchange local.
 
-A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) para obter mais detalhes.
+A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md) para obter mais detalhes.
 
 >[!NOTE]
 > Foi implementado um mecanismo de fallback de modo que a caixa postal do Sistema de Telefonia possa reenviar mensagens usando o protocolo SMTP. Isso quer dizer que os usuários com uma caixa de correio em um sistema de email de terceiros receberá suas mensagens da caixa postal. Esse mecanismo não inclui o tempo de atividade de serviço garantido ou outros recursos de caixa postal, como alterar a saudação da caixa postal.
@@ -142,7 +142,7 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você habilitará o sistema telefônico de caixa postal na sua implementação chamando planos.</li><li>Se usando o Exchange local e a implantação existente não atender seus requisitos para dar suporte a caixa postal de sistema telefônico, escolha uma das opções disponíveis (atualização e configuração de suporte de caixa postal do sistema telefônico, migrar para o Exchange Online ou alavancar o mecanismo de fallback descrito anteriormente).</li><li>Decida se vai habilitar ou desabilitar a transcrição do correio de voz e caixa postal mascaramento de obscenidades transcrição em toda a organização ou usuários específicos.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Se aplicável, documente os pontos de decisão do Exchange para oferecer suporte à caixa postal do sistema telefônico.</li><li>Se você vai habilitar/desabilitar caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Se aplicável, documente os pontos de decisão do Exchange para oferecer suporte à caixa postal do sistema telefônico.</li><li>Se você vai habilitar/desabilitar caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</li></ul>|
 
 > [!TIP]
 > Detalhes de caixa postal de sistema de telefone para o sistema telefônico com a implementação de planos de chamada podem ser documentados como a seguir.
@@ -167,7 +167,7 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se manipulação da ID do chamador é necessária para a implementação de planos de chamada.</li><li>Se aplicável, decidir os tipos de manipulação da ID do chamador (máscara com o número de serviço ou tornar anônimo) a serem implementadas.</li><li>Se aplicável, decida quais usuários exigem manipulação da ID do chamador e o tipo de manipulação de ID do chamador a ser atribuído a cada usuário.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Os usuários que devem ser atribuídas a manipulação da ID do chamador e o tipo de manipulação de ID do chamador para atribuir do documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Os usuários que devem ser atribuídas a manipulação da ID do chamador e o tipo de manipulação de ID do chamador para atribuir do documento.</li></ul>|
 
 > [!TIP]
 > Este é um exemplo de mascaramento de documentação de detalhes de ID do chamador.
@@ -214,16 +214,16 @@ Você pode configurar créditos de comunicações para suas organizações para 
 
 Para saber mais sobre o sistema telefônico e chamar planos, revise os seguintes artigos:
 
--   [Sistema de Telefonia](https://products.office.com/skype-for-business/phone-system)
+-   [Sistema de Telefonia](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Planos de Chamadas](https://products.office.com/skype-for-business/calling-plans)
+-   [Planos de Chamadas](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Se sua organização não tiver a licença de sistema telefônico necessária, decida se você vai adquirir a licença do sistema telefônico passando o backup de suas assinaturas do Office 365 existentes ou adquirindo o serviço de complemento do sistema telefônico.</li><li>Decida quais usuários exigem uma licença domésticas chamar planejar e que exigem uma licença nacionais e internacionais chamar planejar.</li><li>Decida se você precisará créditos de comunicações para sua implementação chamando planos.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente a divisão, departamento, office ou grupos de usuários que você irá atribuir uma licença de sistema telefônico com domésticas chamar planejar ou nacionais e internacionais chamar planejar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente a divisão, departamento, office ou grupos de usuários que você irá atribuir uma licença de sistema telefônico com domésticas chamar planejar ou nacionais e internacionais chamar planejar.</li></ul>|
 
 > [!TIP]
 > Você pode usar o exemplo a seguir para documentar a atribuição de licença para o sistema telefônico com usuários de planos de chamada.
@@ -247,14 +247,14 @@ A primeira consideração a fazer ao implementar os Créditos de Comunicação �
 
 Para obter sua implementação chamando planos, você pode controlar o uso de créditos de comunicações em uma base por usuário, que ajuda a garantir que você tenha atribuído esses créditos no alinhamento com suas necessidades comerciais.
 
-Para saber mais sobre créditos de comunicações, revise [Cite Communications créditos?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits).
+Para saber mais sobre créditos de comunicações, revise [Cite Communications créditos?](what-are-communications-credits.md).
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você precisa créditos de comunicações para a implementação da conferência de áudio ou chamar planos.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Os grupos de divisão, departamento, office ou usuário que você habilitará o créditos de comunicações do documento.</li><li>Documente o seu planejamento de comunicações créditos para a implementação da conferência de áudio ou chamar planos.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Os grupos de divisão, departamento, office ou usuário que você habilitará o créditos de comunicações do documento.</li><li>Documente o seu planejamento de comunicações créditos para a implementação da conferência de áudio ou chamar planos.</li></ul>|
 
 > [!TIP]
 > Você pode usar o exemplo a seguir para documentar a lista de atribuição de créditos de comunicações para chamar planos de usuários.
@@ -297,18 +297,18 @@ Os dois tipos de números de telefone nas soluções do Microsoft cloud voz são
 
 -   Números de serviço, disponíveis como Chamada Tarifada e números gratuitos de serviço, que têm a capacidade de chamadas simultâneas maior do que os números de telefone do assinante e podem ser atribuídos aos serviços, como a conferência de áudio, atendedores automáticos ou chamada filas.
 
-Para obter mais informações sobre os tipos de números de telefone, consulte [tipos diferentes de números de telefone usados para chamar planos](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+Para obter mais informações sobre os tipos de números de telefone, consulte [tipos diferentes de números de telefone usados para chamar planos](different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
 A contagem total dos números de telefone que você pode obter dependem do tipo de número de telefone e o número de licenças que você comprou e atribuído aos seus usuários.
 
-Para obter mais informações sobre a contagem total dos números de telefone que você pode obter, consulte [números de telefone de quantos você consegue?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-many-phone-numbers-can-you-get)
+Para obter mais informações sobre a contagem total dos números de telefone que você pode obter, consulte [números de telefone de quantos você consegue?](how-many-phone-numbers-can-you-get.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>Escolher o tipo de números de telefone a ser adquirida da Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>O tipo de números de telefone a ser adquirida da Microsoft do documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais do usuário ou escritórios onde os novos números de telefone serão adquiridos da Microsoft.</li><li>O tipo de números de telefone a ser adquirida da Microsoft do documento.</li></ul>|
 
 ## <a name="transfer-existing-telephone-numbers"></a>Transferir os números de telefone existente
 
@@ -322,16 +322,16 @@ Como alternativa (se há suporte para a porta parcial), você pode enviar vária
 
 Portabilidade de número de telefone é um tópico complexo e requer planejamento completo, coordenação e gerenciando adequadamente expectativas os públicos envolvidos. Para saber mais, consulte os seguintes artigos:
 
--   [Transferindo números de telefone para o Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
+-   [Transferindo números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md)
 
--   [Perguntas comuns sobre a transferência de números de telefone](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transferring-phone-numbers-common-questions)
+-   [Perguntas comuns sobre transferência de números de telefone](transferring-phone-numbers-common-questions.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>Escolher o tipo de números de telefone a ser transferido para a Microsoft.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>O tipo de números de telefone a ser transferido para a Microsoft de documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais do usuário ou escritórios onde os números de telefone existente serão transferidos para a Microsoft.</li><li>O tipo de números de telefone a ser transferido para a Microsoft de documento.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -356,14 +356,14 @@ O plano de discagem efetivas atribuído aos usuários é a combinação do plano
 > [!IMPORTANT]
 > Pode haver um máximo de 25 regras de normalização em cada plano de discagem de locatário; Portanto, é importante evitar a duplicação de regras de normalização que já estão disponíveis como parte do serviço de plano de discagem.
 
-Para obter mais informações sobre planos de discagem, consulte [quais são os planos de discagem?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
+Para obter mais informações sobre os planos de discagem, confira [O que são os planos de discagem?](what-are-dial-plans.md)
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização requer planos de discagem personalizada (requisitos de negócios, requisitos de adoção e assim por diante).</li><li>Se aplicável, decida o plano de discagem de locatário do escopo (global de locatário ou Locatário do usuário) para dar suporte a seus requisitos para planos de discagem personalizada.</li><li>Se aplicável, decida os planos de discagem de locatário que você vai criar para suportar os locais do usuário ou escritórios no escopo para a implementação de voz de nuvem.</li><li>Se aplicável, decida quais usuários exigem um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os planos de discagem personalizada e as regras de normalização associadas a ser configurado como parte da implementação de voz de nuvem.</li><li>Os usuários que devem ser atribuídos a um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário do documento.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os planos de discagem personalizada e as regras de normalização associadas a ser configurado como parte da implementação de voz de nuvem.</li><li>Os usuários que devem ser atribuídos a um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário do documento.</li></ul>|
 
 > [!TIP]
 > Se ele for aplicável ao seu projeto, você pode usar o modelo a seguir para documentar as configurações de plano de discagem de locatário.

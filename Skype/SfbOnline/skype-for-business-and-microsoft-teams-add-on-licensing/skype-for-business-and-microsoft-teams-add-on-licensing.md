@@ -1,6 +1,6 @@
 ---
-title: Licenciamento de complementos do Skype for Business e do Microsoft Teams
-ms.date: 05/23/2018
+title: Licenciamento de complementos do Skype for Business
+ms.date: 02/15/2019
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,27 +16,26 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento recursos aos quais você obterá com ele, como comprá-los para o seu produto e como usar sua operadora existente com eles. Você pode obter informações sobre preços e plano de detalhes para o Office 365, créditos de comunicação, e planos de chamada. '
-ms.openlocfilehash: 17115e5456ee874cbdb4ed96c8616d6f1d3527b7
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 855ada8caf7c2ed1cb4c38e52ef24439d961cc25
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297671"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120313"
 ---
-# <a name="skype-for-business-and-microsoft-teams-add-on-licensing"></a>Licenciamento de complementos do Skype for Business e do Microsoft Teams
+# <a name="skype-for-business-add-on-licensing"></a>Licenciamento de complementos do Skype for Business
 
 ## <a name="what-are-add-on-licenses"></a>O que são licenças complementares?
 
-Licenças de complemento são licenças para Skype específico para recursos corporativos e Teams da Microsoft. Algumas empresas querem ter a flexibilidade de comprar apenas alguns recursos específicos por um preço competitivo. Para adicionar um recurso, compre uma licença de complemento de cada usuário que irá usá-lo.
+As licenças complementares são licenças para recursos específicos do Skype for Business. Algumas empresas querem ter a flexibilidade de comprar apenas alguns recursos específicos por um preço competitivo. Para adicionar um recurso, compre uma licença de complemento de cada usuário que irá usá-lo.
 
-Skype para comerciais e Teams de licenciamento da Microsoft foi projetado para oferecer a quantidade máxima de flexibilidade. Por exemplo, depois de usar Skype básica para recursos corporativos por algum tempo, você pode adquirir licenças de complemento quando estiver pronto para use mais recursos, como conferência de áudio ou o sistema telefônico no Office 365.
+O licenciamento do Skype for Business foi elaborado para proporcionar a maior flexibilidade possível. Por exemplo, depois de usar Skype básica para recursos corporativos por algum tempo, você pode adquirir licenças de complemento quando estiver pronto para use mais recursos, como conferência de áudio ou o sistema telefônico no Office 365.
 
 ## <a name="how-does-add-on-licensing-affect-cost"></a>Como o licenciamento de complementos afeta o custo?
 
@@ -52,12 +51,12 @@ Para mais informações sobre custos, consulte [Como ver preços e comprar licen
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>Quais recursos posso obter com as licenças complementares?
 
-Dependendo de qual plano que você já tem, você pode adquirir licenças de complemento para o seguinte Skype para recursos corporativos e Teams da Microsoft:
+Dependendo do plano que você já tem, pode comprar licenças complementares para os seguintes recursos do Skype for Business:
 
 |||
 |:-----|:-----|
 |**Recurso** <br/> |**Descrição** <br/> |
-|**Audioconferência** <br/> |Em alguns casos, as pessoas na sua organização precisará usar um telefone liga para um Skype para reunião de negócios ou Teams da Microsoft, em vez de usar seu computador. Use o recurso de conferência de áudio para essa situação.  <br/> Para descobrir se a Audioconferência está disponível em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Se você quiser saber quais são os custos disso, consulte [Requisitos para Audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
+|**Audioconferência** <br/> |Em alguns casos, as pessoas na sua organização precisará usar um telefone liga para um Skype para reunião de negócios, em vez de usar seu computador. Use o recurso de conferência de áudio para essa situação.  <br/> Para descobrir se a Audioconferência está disponível em seu país ou região, consulte [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Se você quiser saber quais são os custos disso, consulte [Requisitos para Audioconferência](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Números de chamada gratuita para acesso discado às conferências e a capacidade de discar de uma conferência para adicionar alguém usando qualquer número de telefone do mundo** <br/> |Se você adicionar a Audioconferência, recomendamos que você [Configure Créditos de Comunicações](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Sistema de Telefonia** <br/> |Um PBX é um sistema telefônico corporativo. O sistema telefônico no Office 365 é um serviço hospedado do telefone. Ele fornece recursos de PBX tradicionais e inovadores, mas sem equipamentos caros e complicados. [Aqui está o que fazer com o sistema telefônico no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).  <br/> Se você quiser saber quais são os custos disso, consulte [Requisitos para o Sistema de Telefonia](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements).  <br/> |
 |**Planos de Chamadas** <br/> |Chamadas para outro Skype para usuários corporativos são livres, mas se você deseja que os usuários sejam capazes de chamar quaisquer números de telefone fora da sua empresa, fazer uma [Chamada planejar](/MicrosoftTeams/calling-plans-for-office-365). Existem Planos de Chamadas Domésticas e Planos de Chamadas Domésticas e Internacionais no Office 365.  <br/> Se você quiser saber quais são os custos disso, consulte [Requisitos para Planos de Chamadas](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements).  <br/> |

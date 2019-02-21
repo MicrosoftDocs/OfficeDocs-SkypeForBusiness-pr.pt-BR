@@ -16,12 +16,12 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbdbaf0241da85489173d7eda0c36aac90c935e9
-ms.sourcegitcommit: 08933c8f795048feaa05828e000df5082ac90761
+ms.openlocfilehash: 3968b682e0b7c7bf2c7a701a40fd8073f513eb20
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "25495525"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120730"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licença do Office 365 para o Microsoft Teams
 ========================================
@@ -44,11 +44,11 @@ Para obter mais informações sobre a obtenção de equipes, confira [como obter
 > O Microsoft Teams também está disponível para organizações sem fins lucrativos. As equipes começará a aplicação conosco governamentais nuvem da comunidade (GCC) em 17 de julho e esteja disponível para todos os clientes qualificados no final de agosto de 2018. Estamos trabalhando para trazer Teams da Microsoft para as outras nuvens de governamentais de US (GCC alta e DoD) em breve. Leitura mais no blog Microsoft Teams [aqui](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> Iniciando 1 de outubro de 2018, novos clientes do Office 365 com 500 estações ou menos serão onboarded às equipes e não terão acesso ao Skype para negócios Online. Inquilinos que já estão usando Skype de negócios Online poderão continuar a fazer afirmativo (incluindo o provisionamento de novos usuários) até que sejam concluídas sua transição para equipes. Para saber mais, consulte [As equipes da Microsoft agora o cliente principal para reuniões e chamar no Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> A partir de 1º de outubro de 2018, novos clientes do Office 365 com 500 estações ou menos serão integrados ao Microsoft Teams e não terão acesso ao Skype for Business Online. Os locatários que já estiverem usando o Skype for Business Online poderão continuar a usá-lo (incluindo o provisionamento de novos usuários) até que concluam a transição para o Microsoft Teams. Para saber mais, veja [Agora o Microsoft Teams é o cliente principal para reuniões e chamadas no Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
         
 Em termos de funcionalidades de principais de equipes, não existem diferenças entre as assinaturas do Office 365. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md). Para obter uma lista detalhada dos recursos disponíveis em cada assinatura, consulte a [Descrição do serviço de plataforma do Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Recursos de voz de nuvem**: para conferência de áudio, sua organização precisará comprar e atribuir uma licença de conferência de áudio para cada usuário que vai configurar discagem reuniões. Para chamar planos, cada usuário precisará um sistema telefônico plus um doméstico ou doméstico e internacional chamar planejar. Para saber mais, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+**Recursos de voz de nuvem**: para conferência de áudio, sua organização precisará comprar e atribuir uma licença de conferência de áudio para cada usuário que vai configurar discagem reuniões. Para chamar planos, cada usuário precisará um sistema telefônico plus um doméstico ou doméstico e internacional chamar planejar. Para saber mais, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Todos os planos de assinatura suportados são qualificados para acessar o cliente Web, os clientes de desktop e aplicativos móveis do Microsoft Teams.
 

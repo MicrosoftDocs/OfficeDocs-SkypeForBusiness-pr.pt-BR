@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85774296ad871d7d9d036a660299cc88099c4de6
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: e96f39cbcf5dcca4c0687f89f37ead6791ff2d98
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594058"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120738"
 ---
 <a name="define-and-document-your-phone-system-with-calling-plans-in-teams-test-plan-for-enterprises"></a>Definir e documentar o seu sistema telefônico com planos de chamada no plano de teste de equipes para empresas 
 ============================================================================================
@@ -65,7 +65,7 @@ Como se preparar para avaliar o sistema telefônico com recursos de chamada plan
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quais funções de suporte e das partes interessadas testing precisar para testar o sistema telefônico com recursos de planos de chamada em seu ambiente.</li><li>Decida quais recursos você atribuirá as funções de suporte e das partes interessadas teste que você identificou.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>As funções de suporte e das partes interessadas testes necessárias em sua matriz das partes interessadas de suporte de testes do documento.</li><li>Informações de contato do documento e detalhes do local para cada recurso forçadas na matriz de teste de suporte das partes interessadas.
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>As funções de suporte e das partes interessadas testes necessárias em sua matriz das partes interessadas de suporte de testes do documento.</li><li>Informações de contato do documento e detalhes do local para cada recurso forçadas na matriz de teste de suporte das partes interessadas.
 </table>
 
 
@@ -112,7 +112,7 @@ Agora que o sistema telefônico com recursos e planos de chamar pessoa tiverem s
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li> Decida qual sistema de telefone com recursos de categoria de planos de chamar você vai implantar em seu ambiente.</li><li>Identificar o usuário do seu sistema telefônico com requisitos de funcionalidade de planos de chamar dado seu Skype atual para o cenário de implantação de negócios, Exchange e SharePoint.</li><li>Decida qual experiência de interoperabilidade de equipes que você vai implantar.</li><li>Revise o mapa de pública mais recente equipes e decidir se os recursos de carga de trabalho atuais atendem o cronograma de implantação.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>O sistema de telefone com recursos de chamada planos de categoria necessários para dar suporte ao seu sistema telefônico com chamar planos de implantação de documento.</li><li>Usuário do documento sistema telefônico com planos de chamar a funcionalidade e os requisitos de interoperabilidade fornecidos sua Skype atual para o cenário de implantação de negócios, Exchange e SharePoint.</li><li>Se o mapa de pública equipes mais recente que representam o sistema telefônico com recursos de planos de chamar atende às necessidades de negócios e requisitos de temporização da sua implantação do documento.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>O sistema de telefone com recursos de chamada planos de categoria necessários para dar suporte ao seu sistema telefônico com chamar planos de implantação de documento.</li><li>Usuário do documento sistema telefônico com planos de chamar a funcionalidade e os requisitos de interoperabilidade fornecidos sua Skype atual para o cenário de implantação de negócios, Exchange e SharePoint.</li><li>Se o mapa de pública equipes mais recente que representam o sistema telefônico com recursos de planos de chamar atende às necessidades de negócios e requisitos de temporização da sua implantação do documento.</li></ul></td></tr>
 </table>
 
 <a name="define-and-document-your-phone-system-with-calling-plans-test-plan"></a>Definir e documentar o seu sistema telefônico com planos de chamar o plano de teste
@@ -166,7 +166,7 @@ O escopo para avaliar corretamente o sistema telefônico com planos de chamar re
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida o sistema telefônico com chamar planos de teste escopo identificando recursos sejam avaliados pelo área de foco.</li><li>Decida adicionais metas e objetivos para avaliação.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>O sistema telefônico com planos de chamar os recursos sejam avaliados pelo área de foco do documento.</li><li>Documentos adicionais metas e objetivos para avaliação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>O sistema telefônico com planos de chamar os recursos sejam avaliados pelo área de foco do documento.</li><li>Documentos adicionais metas e objetivos para avaliação.</li></ul></td></tr>
 </table>
 
 ### <a name="define-and-document-phone-system-with-calling-plans-test-cases"></a>Definir e documentar o sistema telefônico com planos de chamar casos de teste
@@ -209,7 +209,7 @@ Sistema telefônico com a chamada de validação de planos
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decidir qual sistema telefônico com administração de chamar planos e recursos de usuário serão avaliados.</li><li>Decida qual ambiente de teste é necessário para suportar a execução do caso de teste.</li><li>Decida as etapas necessárias para a avaliação do caso de teste.</li><li>Decida os recursos exigidos para a execução do teste adequada.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente os casos de teste a ser avaliada, baseado no modelo de caso de teste fornecido.</li><li>Inclua o modelo concluído como parte do seu plano de teste geral.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente os casos de teste a ser avaliada, baseado no modelo de caso de teste fornecido.</li><li>Inclua o modelo concluído como parte do seu plano de teste geral.</li></ul></td></tr>
 </table>
 
 
@@ -239,7 +239,7 @@ Em um alto nível, esses recursos normalmente consistem em:
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida os tipos de recursos (pessoas, tecnologia e suporte) que você precisará para dar suporte a fase de teste.</li><li>Decida os recursos específicos necessários para os tipos de recursos que você identificou.</li><li>Decida se você deve fornecer mais detalhes para descrever os tipos de recursos que você precisa.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente os tipos de recursos (pessoas, tecnologia e suporte) que você precisará para dar suporte a fase de teste.</li><li>Documente os recursos específicos necessários para os tipos de recursos que você identificou.</li><li>Se você decidir que é necessário, documente qualquer detalhe adicional sobre os tipos de recursos que você precisa oferecer suporte a fase de teste.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente os tipos de recursos (pessoas, tecnologia e suporte) que você precisará para dar suporte a fase de teste.</li><li>Documente os recursos específicos necessários para os tipos de recursos que você identificou.</li><li>Se você decidir que é necessário, documente qualquer detalhe adicional sobre os tipos de recursos que você precisa oferecer suporte a fase de teste.</li></ul></td></tr>
 </table>
 
 
@@ -277,7 +277,7 @@ Em um alto nível, isso normalmente consiste em:
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida atividade de cronograma, etapa do projeto e tarefas que você precisa controlar.</li><li>Decida quais recursos você precisará atribuir.</li><li>Decida a data em que você espera que seja feito.</li><li>Identifica o proprietário de entrega.</li><li>Decida quanto tempo levará para concluir a atividade, etapa do projeto ou tarefa.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente o cronograma do teste usando o modelo fornecido e incluem:<ul><li>Linha do tempo atividade, etapa do projeto e tarefas que precisam ser rastreados.</li><li>Recursos que precisam ser atribuídas.</li><li>Data de conclusão previsto.</li><li>Proprietário de entrega.</li><li>Tempo necessário para concluir a atividade, etapa do projeto ou tarefa.</li></ul></li><li>Inclua o modelo concluído como parte do seu plano de teste geral.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente o cronograma do teste usando o modelo fornecido e incluem:<ul><li>Linha do tempo atividade, etapa do projeto e tarefas que precisam ser rastreados.</li><li>Recursos que precisam ser atribuídas.</li><li>Data de conclusão previsto.</li><li>Proprietário de entrega.</li><li>Tempo necessário para concluir a atividade, etapa do projeto ou tarefa.</li></ul></li><li>Inclua o modelo concluído como parte do seu plano de teste geral.</li></ul></td></tr>
 </table>
 
 
@@ -328,7 +328,7 @@ Esse procedimento realçará impacto em potencial que poderia impedem ou até me
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quais níveis de severidade defeito critérios você atribuirá para suportar o esforço de teste.</li><li>Decida qual defeito testing reporting critérios que você vai documente se surgem os problemas durante o teste.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente o teste defeito reporting critérios necessários no modelo fornecido.</li><li>Inclua o modelo concluído como parte do seu plano de teste geral.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente o teste defeito reporting critérios necessários no modelo fornecido.</li><li>Inclua o modelo concluído como parte do seu plano de teste geral.</li></ul></td></tr>
 </table>
 
 
@@ -348,7 +348,7 @@ Como parte do processo geral de execução de plano de teste, você precisará d
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quais critérios de suspensão que devem ser atendidos se problemas com o teste são identificados.</li><li>Decida sobre os critérios de saída que devem ser atendidos para obter a teste aceitação aprovação e suporte saindo a fase de teste depois que todos os testes atividades tiverem sido concluídas.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente os critérios de suspensão e a saída testes necessários nos modelos de teste e a saída fornecidos.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente os critérios de suspensão e a saída testes necessários nos modelos de teste e a saída fornecidos.</li></ul></td></tr>
 </table>
 
 
@@ -395,7 +395,7 @@ Normalmente, um plano de relatório e correção de defeitos inclui o seguinte:
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida e concorda nas prioridades defeito para dar suporte ao seu plano de teste.</li><li>Decida o ponto de escalonamento para cada área defeito.</li><li>Decida o escalonamento de defeito e o plano de triagem serem seguidas, com base na prioridade.</li><li>Decida o relatório de defeito e triagem do plano de comunicação para escalonamento.</li><li>Decida a cadência da reunião de revisão triagem defeito.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente as prioridades concordou em defeito.</li><li>Documente o ponto de escalonamento para cada área de foco potencial.</li><li>Documente o plano de escalonamento e a triagem de defeito com base nos critérios acordado.</li><li>Documente seu defeito diretrizes de emissão de relatórios.</li><li>Agende a série de reuniões de triagem defeito.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente as prioridades concordou em defeito.</li><li>Documente o ponto de escalonamento para cada área de foco potencial.</li><li>Documente o plano de escalonamento e a triagem de defeito com base nos critérios acordado.</li><li>Documente seu defeito diretrizes de emissão de relatórios.</li><li>Agende a série de reuniões de triagem defeito.</li></ul></td></tr>
 </table>
 
 
@@ -430,7 +430,7 @@ Em um alto nível, esses geralmente incluem, mas não estão limitados a:
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quais produtos devem ser criadas e capturado como saída de cada fase de teste. Para cada produto, decida sobre seu:<ul><li>Formato</li><li>Proprietário</li><li>Revisor</li><li>Aprovador</li></ul></li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Um plano produto criação e entrega matriz de teste do documento.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Um plano produto criação e entrega matriz de teste do documento.</li></ul></td></tr>
 </table>
 
 
@@ -460,7 +460,7 @@ Para ajudar a determinar o nível de otimização de rede necessária para sites
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Decida quais sites de rede estão dentro do escopo para a implantação das equipes de serviços.</li><li>Decida as personagens necessárias para modalidades de equipes em escopo.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Conclua Planejador de rede (por meio de MyAdvisor) para a lista de sites que estão dentro do escopo.</li><li>Validação de rede Planejador de documento resulta no modelo de resultados de plano de teste fornecido.</li><li>Valide o ExpressRoute (se aplicável), a internet e a largura de banda WAN que foram calculada para sites no escopo alinha com os valores de largura de banda que estão atualmente alocados.</li><li>Para sites que não têm a largura de banda adequada, execute planos de escalação e correção para resolver problemas de largura de banda.</li><li>Estabeleça uma rede de monitoramento de solução para sites no escopo para monitorar o uso de largura de banda e QoS para ExpressRoute (se aplicável), internet e os segmentos de WAN.</li><li>Agende uma reunião comitê de orientação para analisar os resultados de Planejador de rede.</li><li>Apresentar os resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação do planejamento de largura de banda.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Conclua Planejador de rede (por meio de MyAdvisor) para a lista de sites que estão dentro do escopo.</li><li>Validação de rede Planejador de documento resulta no modelo de resultados de plano de teste fornecido.</li><li>Valide o ExpressRoute (se aplicável), a internet e a largura de banda WAN que foram calculada para sites no escopo alinha com os valores de largura de banda que estão atualmente alocados.</li><li>Para sites que não têm a largura de banda adequada, execute planos de escalação e correção para resolver problemas de largura de banda.</li><li>Estabeleça uma rede de monitoramento de solução para sites no escopo para monitorar o uso de largura de banda e QoS para ExpressRoute (se aplicável), internet e os segmentos de WAN.</li><li>Agende uma reunião comitê de orientação para analisar os resultados de Planejador de rede.</li><li>Apresentar os resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação do planejamento de largura de banda.</li></ul></td></tr>
 </table>
 
 
@@ -474,7 +474,7 @@ Para obter orientação adicional sobre como configurar, implantar e validar a p
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Decida sobre a configuração de QoS a serem implementadas.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Configure a QoS.</li><li>Execute validação de QoS, conforme destacado de etapas listadas via o "validar via GPO" e "validar por meio do analisador de mensagem" seções acima.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Configure a QoS.</li><li>Execute validação de QoS, conforme destacado de etapas listadas via o "validar via GPO" e "validar por meio do analisador de mensagem" seções acima.</li></ul></td></tr>
 </table>
 
 
@@ -508,7 +508,7 @@ Depois de concluir testes usando a diretiva de grupo para sites no escopo de val
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Avaliar os resultados do teste de QoS para garantir que as equipes de tráfego de mídia em tempo real está sendo adequadamente marcado e priorizados.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Resultados do teste de QoS de documento no modelo de resultado do plano de teste fornecido.</li><li>Execute planos de escalação e correção para resolver problemas onde QoS pode não estar configurado corretamente ou não funcionar como esperado para suportar o tráfego de mídia de equipes.</li></ul></td></tr><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Resultados do teste de QoS de documento no modelo de resultado do plano de teste fornecido.</li><li>Execute planos de escalação e correção para resolver problemas onde QoS pode não estar configurado corretamente ou não funcionar como esperado para suportar o tráfego de mídia de equipes.</li></ul></td></tr><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li>
 </table>
 
 
@@ -529,7 +529,7 @@ Para obter orientação adicional sobre como configurar e validar a preparação
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Decida implementar a configuração de divisão de túnel.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Implementar a configuração de divisão de túnel.</li><li>Testar e validar a configuração de divisão de túnel.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Implementar a configuração de divisão de túnel.</li><li>Testar e validar a configuração de divisão de túnel.</li></ul></td></tr>
 </table>
 
 
@@ -561,7 +561,7 @@ Depois de concluir teste de configuração de divisão de túnel para sites no e
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Avalie a divisão de túnel os resultados dos testes para garantir que o tráfego de equipes em tempo real está sendo excluído da solução de acesso remoto.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente os resultados de testes de conectividade de divisão de túnel no modelo de resultado do plano de teste fornecido.</li><li>Execute planos de escalação e correção para resolver problemas em que o roteamento apropriado talvez não exista para dar suporte a mídia de equipes em uma configuração de divisão de túnel.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente os resultados de testes de conectividade de divisão de túnel no modelo de resultado do plano de teste fornecido.</li><li>Execute planos de escalação e correção para resolver problemas em que o roteamento apropriado talvez não exista para dar suporte a mídia de equipes em uma configuração de divisão de túnel.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
 </table>
 
 
@@ -579,7 +579,7 @@ Para obter orientação adicional sobre como confirmar e avaliar a preparação 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Decida a avaliação da rede e o perfil de teste de conectividade para sites no escopo.</li><li>Requisitos de arquivo de configuração de avaliação de rede para sites no escopo de decidir.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Configure requisitos de arquivo de configuração de avaliação de rede para sites no escopo.</li><li>Execute validação de desempenho e conectividade de rede para sites no escopo.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Configure requisitos de arquivo de configuração de avaliação de rede para sites no escopo.</li><li>Execute validação de desempenho e conectividade de rede para sites no escopo.</li></ul></td></tr>
 </table>
 
 
@@ -629,7 +629,7 @@ Depois de concluir todos os conectividade de rede e teste de desempenho para os 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Avalie avaliação da rede e os resultados para garantir que você atende aos requisitos descritos em <a href="https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance" data-raw-source="[Media quality and network connectivity performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)">desempenho de conectividade de rede e qualidade de mídia</a> para o segmento de borda e segmentos de cliente dos testes de conectividade.</li><li>Você avaliou os recursos de rede para dar suporte a mídia em tempo real para todos os sites no escopo?</li><li> Se sua rede ainda não foi avaliada corretamente ou se você sabe que ele não oferece suporte a mídia em tempo real, você desativará vídeo e recursos de compartilhamento de tela para reduzir a rede afetam e aprimoram a experiência de equipes para usuários?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Desempenho da rede e os resultados do teste de conectividade do documento.</li><li>Execute planos de escalação e correção para resolver problemas com sites onde não há largura de banda suficiente ou não sejam atendidos os requisitos de desempenho e conectividade de rede.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Desempenho da rede e os resultados do teste de conectividade do documento.</li><li>Execute planos de escalação e correção para resolver problemas com sites onde não há largura de banda suficiente ou não sejam atendidos os requisitos de desempenho e conectividade de rede.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
 </table>
 
 
@@ -701,7 +701,7 @@ A partir de um número PSTN externo, fazer uma chamada para o número de telefon
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Decida quais números de assinante domésticas, você precisará porta, por país/região.</li><li>Decida qual modelo de LOA que você usará.</li><li>Determinar se a sua operadora atual (perder operadora) permite fragmentação de número de telefone (ou seja, permite pedidos de porta parcial).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Coletar as informações necessárias e prepare as LOAs.</li><li>Baixar e concluir os modelos LOA que você precisa.</li><li>Envie uma solicitação de portabilidade de número de telefone do assinante.</li><li>Executar o teste de validação para os números de porta, atribuindo-los para o sistema telefônico com planos de chamar o serviço para o acesso de discagem e confirmar que funcionem, conforme descrito nas etapas 6 e 7 anteriormente nesta seção.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Coletar as informações necessárias e prepare as LOAs.</li><li>Baixar e concluir os modelos LOA que você precisa.</li><li>Envie uma solicitação de portabilidade de número de telefone do assinante.</li><li>Executar o teste de validação para os números de porta, atribuindo-los para o sistema telefônico com planos de chamar o serviço para o acesso de discagem e confirmar que funcionem, conforme descrito nas etapas 6 e 7 anteriormente nesta seção.</li></ul></td></tr>
 </table>
 
 
@@ -733,7 +733,7 @@ Depois de concluir todos os testes de número de telefone do assinante, crie um 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Avalie se enviados para a migração de multiusuários foram transferidos com êxito para o sistema telefônico com planos de chamar o serviço..</li><li>Avalie se você pudesse atribuir o número de porta do serviço para o sistema telefônico com planos de chamar o serviço.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente o seu número portando resultados do teste.</li><li>Execute planos de escalação e correção para resolver problemas que você enfrentou com o processo de portabilidade número, se houver alguma.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Apresente os resultados do resumo de teste para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente o seu número portando resultados do teste.</li><li>Execute planos de escalação e correção para resolver problemas que você enfrentou com o processo de portabilidade número, se houver alguma.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Apresente os resultados do resumo de teste para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
 </table>
 
 
@@ -752,7 +752,7 @@ Agora que você definiu seu plano de teste, a próxima etapa é para percorrer o
 
 -   A lista de sites organizacionais e de grupos de usuários no escopo foram identificados.
 
--   [Créditos de comunicações](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) (se necessário) tiverem sido configurados para sua organização.
+-   [Créditos de comunicações](what-are-communications-credits.md) (se necessário) tiverem sido configurados para sua organização.
 
 -   O sistema telefônico com configurações de planos de chamada foram identificados e configurados.
 
@@ -780,7 +780,7 @@ Agora que você definiu seu plano de teste, a próxima etapa é para percorrer o
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Avalie o status de aprovação/reprovação do caso de teste de alto nível pelo site para o sistema telefônico com planos de chamar os recursos no escopo.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Os resultados de status do caso de teste para todos os casos de teste concluídos no escopo do documento.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Apresentar os resultados de status do caso de teste para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Os resultados de status do caso de teste para todos os casos de teste concluídos no escopo do documento.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Apresentar os resultados de status do caso de teste para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
 </table>
 
 
@@ -814,7 +814,7 @@ Após todos os casos de teste com suporte para o sistema telefônico com planos 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Avalie o resumo de resultados de teste de alto nível pelo site para o sistema telefônico com planos de chamar os recursos no escopo.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documente o relatório de resumo de caso de teste depois que todos os resultados de caso de teste tenham sido concluídos.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documente o relatório de resumo de caso de teste depois que todos os resultados de caso de teste tenham sido concluídos.</li><li>Agende uma reunião comitê de orientação para revisar o resumo de resultados de teste.</li><li>Presente teste resumo de resultados para o Comitê de orientação para identificar quaisquer áreas que exigem remediação.</li></ul></td></tr>
 </table>
 
 
@@ -848,5 +848,5 @@ Afinal atividades de testes foram concluídas e quaisquer defeitos com um impact
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/><br/>Pontos de decisão</td><td><ul><li>Decida o status de teste resumo.</li><li>Identifique os pontos menos importantes e destaques do teste.</li><li>Identifica lições aprendidas.</li><li>Decida qual remediação permanecem de ações, se houver alguma.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Documento resumo resultados do teste para incluir:<ul><li>Resumo do status</li><li>Destaques/pontos menos importantes</li><li>Lições aprendidas</li></ul></li><li>Agende uma reunião final comitê de orientação para analisar os resultados de teste.</li><li>Resultados de teste de resumo presente durante um comitê de orientação Revise para obter aprovação final para saindo a fase de teste.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Documento resumo resultados do teste para incluir:<ul><li>Resumo do status</li><li>Destaques/pontos menos importantes</li><li>Lições aprendidas</li></ul></li><li>Agende uma reunião final comitê de orientação para analisar os resultados de teste.</li><li>Resultados de teste de resumo presente durante um comitê de orientação Revise para obter aprovação final para saindo a fase de teste.</li></ul></td></tr>
 </table>

@@ -28,12 +28,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: 01a9d6262cc7c452b9d937242ca431fe9e478777
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048487"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120872"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -133,7 +133,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 
 ***
 
-Depois de conferir se os serviços do Skype for Business ou do Microsoft Teams estão disponíveis, você verá o [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing), que ajudará na compra de licenças e em sua atribuição aos usuários.
+Depois de conferir se os serviços do Skype for Business ou do Microsoft Teams estão disponíveis, você verá o [Licenciamento de complementos do Skype for Business e do Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md), que ajudará na compra de licenças e em sua atribuição aos usuários.
 
 > [!NOTE]
 > 
@@ -178,7 +178,7 @@ Use a lista suspensa na parte superior da página para procurar um país ou uma 
 ### <a name="calling-plans"></a>Planos de Chamadas
 Junto com o Sistema de Telefonia, os Planos de Chamadas permitem que os usuários façam e recebam chamadas telefônicas. Primeiro, você precisa obter um número de telefone do usuário (assinante) (não pode ser um número de serviço) para atribuir ao usuário e depois atribuir um Plano de Chamadas. Há dois tipos de Planos de Chamadas disponíveis: **Domésticas** e **Domésticas e Internacionais**. Veja [O que são Planos de Chamadas?](../what-are-calling-plans-in-office-365.md) para obter mais detalhes.
 
-Consulte também [Licenciamento do Sistema de Telefonia e dos Planos de Chamadas](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) para obter informações sobre licenças.
+Consulte também [Licenciamento do Sistema de Telefonia e dos Planos de Chamadas](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obter informações sobre licenças.
 
 > [!NOTE]
 > [!OBSERVAçãO] O país/região é baseado na localização da licença do usuário no **centro de administração do Office 365**  >  **Usuários Ativos** e **não** no endereço de cobrança listado no **Perfil da Organização** no **centro de administração do Office 365**. 

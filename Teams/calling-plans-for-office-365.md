@@ -1,5 +1,5 @@
 ---
-title: Planos de Chamadas para o Office 365
+title: Planos de Chamadas do Office 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -28,18 +28,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 75a3e031109216899b218c2572ae5906b4be796c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 091807d63be0c2853217f2bd2c442e8023cc3169
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047983"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30121000"
 ---
-# <a name="calling-plans-for-office-365"></a>Planos de Chamadas para o Office 365
+# <a name="calling-plans-for-office-365"></a>Planos de Chamadas do Office 365
 
 Chamadas para outro Skype para usuários empresariais e Teams Microsoft estão disponível, mas se você deseja que os usuários possam chamar telefones regulares e ainda não tiver um provedor de serviços para fazer chamadas de voz, você precisará comprar um plano de chamar. [O que são Planos de Chamadas no Office 365?](what-are-calling-plans-in-office-365.md)
   
-Aqui estão a opção de planos de chamada:
+Aqui estão as opções de planos de chamada:
   
 - **Chamar domésticas planejar**: os usuários licenciados podem chamar check-out para números localizados no país/região onde eles recebem no Office 365.
     
@@ -60,19 +60,19 @@ Para obter informações detalhadas sobre os limites de uso e termos de uso, con
     ![Quando você adquire suas licenças do PBX de nuvem, você verá uma opção para adquirir uma plano de chamada de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Dependendo do seu plano, você precisará comprar mais complementos antes que você pode adquirir licenças de sistema telefônico. Para saber mais, consulte "Opções de licença com base no seu plano" na [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+    > Dependendo do seu plano, você precisará comprar mais complementos antes que você pode adquirir licenças de sistema telefônico. Para saber mais, consulte "Opções de licença com base no seu plano" no [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Depois que você adquire licenças de sistema telefônico, você pode comprar o plano de chamar entrando no **Centro de administração do Office 365**, escolha **faturamento** > **Serviços de compra** > **inscrições de complemento**e clicando em **Comprar agora**. Você verá o ato de chamar planos lá.
     
     ![Depois que você compra uma licença de PBX de nuvem, você pode comprar planos de chamada de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Você pode comprar e atribuir diferentes chamar planos para usuários diferentes, dependendo das necessidades da sua organização. Depois de selecionar o ato de chamar plano você precisa, vá para check-out. Você pode atribuir um plano para cada usuário no Centro de administração do Office 365. Para saber como, consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Você pode comprar e atribuir diferentes chamar planos para usuários diferentes, dependendo das necessidades da sua organização. Depois de selecionar o ato de chamar plano você precisa, vá para check-out. Você pode atribuir um plano para cada usuário no Centro de administração do Office 365. Para saber como, consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Você tem um provedor de serviço que fornece uma conectividade PSTN local para usuários híbrida?
 
 Nesse caso, você não precisa adquirir um plano de chamada. O Office 365 Enterprise E5 inclui o complemento de **Sistema telefônico** , portanto, você poderá prosseguir para a conclusão.
   
-Em seguida, atribua as licenças de complemento E5 Enterprise ou o **Sistema telefônico** aos usuários no Centro de administração do Office 365. Para saber como, consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+Em seguida, atribua as licenças de complemento E5 Enterprise ou o **Sistema telefônico** aos usuários no Centro de administração do Office 365. Para saber como, consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md).
   
 ## <a name="pricing-information"></a>Informações sobre preços
 
@@ -88,9 +88,7 @@ Aqui estão mais artigos que explicam como configurar seus planos de chamada:
   
 - [Configurar Planos de Chamadas](set-up-calling-plans.md)
     
-- [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-    
-- [Planejar Skype para o conector de nuvem Business Edition](https://technet.microsoft.com/library/Mt605227.aspx): Este artigo explica como configurar o sistema de telefone do Office 365 com seu próprios conectividade PSTN.
+- [Licenciamento de complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
 - [Planejar sua solução de Sistema de Telefonia do Office 365 (Cloud PBX)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
@@ -104,8 +102,4 @@ Aqui estão mais artigos que explicam como configurar seus planos de chamada:
 - [Configurar Planos de Chamadas](set-up-calling-plans.md)
     
 - [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
-    
-- [Configure o conector de nuvem](https://technet.microsoft.com/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)
-  
-  
  

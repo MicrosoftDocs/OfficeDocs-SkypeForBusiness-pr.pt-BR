@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 5f617ecea591d76b5dcd3e7daa308e7f7a74d808
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 11dfac5c72845354aeaabcc4bf15bc9ae7cf815d
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047074"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120830"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 Chamadas para outro Skype para usuários corporativos são livres, mas se quiser que os usuários possam chamar telefones fora da sua empresa, fazer um planejamento chamar domésticas ou internacional chamar planejar no Office 365. É fácil configurar isso-se no seu negócio. 
@@ -39,12 +39,12 @@ Chamadas para outro Skype para usuários corporativos são livres, mas se quiser
 Acesse a [disponibilidade do país e região para conferência de áudio e chamar planos](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) e selecione seu país ou região para obter informações sobre planos de chamada de disponibilidade, bem como informações sobre as tarifas de conferência de áudio, o sistema telefônico e chamada gratuita números e créditos de comunicações.
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
-1. Se o sistema telefônico no Office 365 recurso não está incluído no seu plano, você pode precisar adquirir licenças de complemento do **Sistema telefônico** . Depois de ter licenças de **Sistema telefônico** , adquira [Chamar planos do Office 365](calling-plans-for-office-365.md). Consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)e comprar o plano e licenças. 
+1. Se o sistema telefônico no Office 365 recurso não está incluído no seu plano, você pode precisar adquirir licenças de complemento do **Sistema telefônico** . Depois de ter licenças de **Sistema telefônico** , adquira [Chamar planos do Office 365](calling-plans-for-office-365.md). Consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)e comprar o plano e licenças. 
     
     > [!TIP]
     > Licenças de **Sistema telefônico** e chamar planos no Office 365 juntos, vá para ver a opção de comprar chamar planos, primeiro você deve ter as licenças de **Sistema telefônico** .
   
-2. Primeiro, atribua as licenças e atribuir um plano de chamar para as pessoas na sua organização. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+2. Primeiro, atribua as licenças e atribuir um plano de chamar para as pessoas na sua organização. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Etapa 3: Obter os números de telefone
 Há três maneiras de obter novos números de usuário:

@@ -1,5 +1,5 @@
 ---
-title: Configurar Créditos de Comunicação para a sua organização
+title: Configurar Créditos de Comunicação para sua organização
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 0570c454cdc3fc98fa6dfa4a8fe571714263421e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d5e246b42a2e90bf0808a574ed27ee76a4b60280
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048281"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120912"
 ---
-# <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para a sua organização
+# <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
 Você precisará configurar Créditos de Comunicação se quiser usar números gratuitos com o Skype for Business e o Microsoft Teams. Além disso, é recomendável que você configure créditos de comunicações para seus planos de chamada (doméstico ou internacional) e audioconferências usuários que precisam ter a capacidade de discar para **qualquer destino**. Muitos países/regiões são incluídos, mas alguns destinos não podem ser incluídos em suas assinaturas chamar planejar ou conferência de áudio. Se você não configurar créditos de comunicação de cobrança e atribuir uma licença **Créditos de comunicações** para seus usuários e executar check-out de minutos para sua organização (dependendo do seu plano de chamada ou conferência de áudio plano em seu país/região), esses usuários não será possível fazer chamadas ou discar a partir de reuniões de conferência de áudio. Você pode obter mais informações, incluindo recomendado, as quantidades de financiamento lendo [Cite Communications créditos?](what-are-communications-credits.md)
   
@@ -44,18 +44,18 @@ Quando você entrar, você obtém um determinado número de minutos dependendo d
   
 Para fazer isso, **você precisa atribuir uma conferência de áudio ou uma licença de sistema telefônico** para seus usuários.
   
-- Atribua uma licença de **Conferência de áudio** para seus usuários. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Atribua uma licença de **Conferência de áudio** para seus usuários. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md).
     
-    Depois de atribuir essa licença, você precisará configurar serviços de audioconferência. Para obter instruções detalhadas, consulte [tente ou adquirir audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365).
+    Depois de atribuir essa licença, você precisará configurar serviços de audioconferência. Para obter instruções detalhadas, consulte [tente ou adquirir audioconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Atribua o **Sistema telefônico** e uma licença de chamar planejar local ou nacionais e internacional para seus usuários. Consulte [Atribuir Skype para licenças de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses).
+- Atribua o **Sistema telefônico** e uma licença de chamar planejar local ou nacionais e internacional para seus usuários. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md).
     
     > [!NOTE]
     > Embora não é obrigatório para créditos de comunicações, você ainda precisará também atribuir um **Domésticas chamar planejar** ou uma licença **nacionais e internacionais chamar planejar** .
   
     Após atribuir essas licenças, você deverá obter os números de telefone da sua organização e atribuí-los aos usuários. Para obter instruções detalhadas, consulte [Configurar planos de chamada](set-up-calling-plans.md).
     
-Para obter mais informações, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
+Para obter mais informações, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Etapa 2: Configurar os créditos de comunicações para sua organização
 
@@ -113,7 +113,7 @@ Você pode ver os planos e preços do visitando um dos seguintes links:
     
 Você também pode ver informações entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.
   
-Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -125,7 +125,5 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
     
 - [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
     
-- [Configure o conector de nuvem](https://technet.microsoft.com/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)
-
   
  
