@@ -14,18 +14,17 @@ ms.collection:
 ms.audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
 description: Saiba mais sobre a caixa postal do Sistema de Telefonia.
-ms.openlocfilehash: 961b45de4049b7ab323f4e2cd8a6441711078113
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: faabd4c089227730f1c28e5e19dc9c394bd64473
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881868"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120285"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="6d693-103">Opções de licença com base no seu plano</span><span class="sxs-lookup"><span data-stu-id="6d693-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="91869-103">Opções de licença com base no seu plano</span><span class="sxs-lookup"><span data-stu-id="91869-103">License options based on your plan</span></span>
 
 

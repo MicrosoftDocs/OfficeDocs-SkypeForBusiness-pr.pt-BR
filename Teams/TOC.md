@@ -76,7 +76,7 @@
 ### Prepare-se a distribuir as equipes
 #### [Verifique a prontidão do seu ambiente para o Microsoft Teams](environment-readiness.md)
 #### [Preparo da rede da sua organização para o Teams](prepare-network.md)
-#### [Servidores de proxy para equipes ou Skype para negócios Online](proxy-servers-for-skype-for-business-online.md)
+#### [Servidores proxy para Teams ou Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 #### [Especificações para equipes e limites](limits-specifications-teams.md)
 #### [Planejar-se para grupos do Office 365 ao criar equipes no Teams](plan-office-365-groups.md)
 #### [Obter ferramentas para dar suporte na implantação do Teams](rollout-tools.md)
@@ -105,8 +105,15 @@
 ### Licenças
 #### [Gerenciamento do acesso de usuários ao Teams](user-access.md)
 #### [Licença do Office 365 para o Teams](office-365-licensing.md)
-#### [Atribuir licenças do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Licenciamento de complementos do Skype for Business e do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Atribuir licenças de equipes](assign-teams-licenses.md)
+#### [Licenciamento de complemento de equipes](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+##### Opções de licença com base no seu plano
+###### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
+###### [O Office 365 ProPlus](teams-add-on-licensing/office-365-premium-pro-plus.md)
+###### [E3 e o office 365 Enterprise E1](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
+###### [O Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
+###### [E5 do Office 365 Enterprise sem serviços de audioconferência](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
+###### [GOV, EDU e organizações sem fins lucrativos](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 #### [Gerenciar a oferta de avaliação de equipes comerciais](iw-trial-teams.md)
 #### [Atualizar equipes gratuitas para a versão de assinatura do Office 365](upgrade-freemium.md)
 
@@ -303,7 +310,7 @@
 ### Caixa postal
 #### [Configurar a caixa postal do Sistema de Telefonia](set-up-phone-system-voicemail.md)
 #### [Alterar o idioma padrão para a caixa postal](change-the-default-language-for-greetings-and-emails.md)
-#### [Idiomas para saudações da caixa postal e mensagens](languages-for-voicemail-greetings-and-messages.md)
+#### [Idiomas de mensagens e saudações da caixa postal](languages-for-voicemail-greetings-and-messages.md)
 ### ID do Chamador
 #### [Como a ID de chamadas pode ser usada em sua organização](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Definir a identificação de chamadas para um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -317,7 +324,7 @@
 ### [Aparência da linha compartilhada](shared-line-appearance.md)
 
 ## [Planos de Chamadas](calling-plan-landing-page.md)
-### [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)
+### [Planos de Chamadas do Office 365](calling-plans-for-office-365.md)
 ### [Configurar planos de chamada para sua organização](set-up-calling-plans.md)
 ### [Guia de início rápido: como configurar planos de chamada](configuring-teams-calling-quickstartguide.md)
 
@@ -338,7 +345,7 @@
 #### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
 
 ## Números de telefone
-### [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+### [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 ### [Tipos de números de telefone usados para chamar planejar](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 ### [Obter números de telefone para usuários](/SkypeForBusiness/what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Quantos números de telefone você pode obter?](how-many-phone-numbers-can-you-get.md)
@@ -527,7 +534,7 @@
 
 ### Gerenciar comunicações créditos
 #### [O que são Créditos de Comunicação?](what-are-communications-credits.md)
-#### [Configurar Créditos de Comunicação para a sua organização](set-up-communications-credits-for-your-organization.md)
+#### [Configurar Créditos de Comunicação para sua organização](set-up-communications-credits-for-your-organization.md)
 #### [Adicionar fundos e gerenciar Créditos de Comunicação](add-funds-and-manage-communications-credits.md)
 
 ### [Fluxos de Chamada do Microsoft Teams Online](microsoft-teams-online-call-flows.md)
@@ -606,7 +613,7 @@
 ## Informações adicionais
 ### [Migração e interoperabilidade com Skype para negócios](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md)
-### [Experiência do cliente de equipes e conformidade para modos de coexistência](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [Experiência e conformidade do cliente do Teams a modos de coexistência](teams-client-experience-and-conformance-to-coexistence-modes.md)
 <!-- ============================================================ -->
 #       
 #        
@@ -621,11 +628,10 @@
 
 ## Dispositivos suportados
 ### [Gerenciar seus dispositivos em equipes](device-management.md)
-### [Telefones IP](/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Telefones para equipes](phones-for-teams.md)
 ### [Dispositivos de áudio e vídeos USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Soluções e dispositivos de sala de reunião](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Implantando telefones fixos](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Telefones para Skype para negócios Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
 ## [Conformidade de & de segurança](security-compliance-overview.md)
@@ -644,7 +650,7 @@
 ###  [Planos de chamadas no Office 365 - código de prática no Reino Unido.](code-of-practice-for-the-united-kingdom-u-k.md)
 ###  [Planos de chamada do Office 365 - tratamento de reclamações de código para o Reino Unido.](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Práticas de coleta de dados](data-collection-practices.md)
-### [Termos e condições para chamadas de emergência](emergency-calling-terms-and-conditions.md)
+### [Termos e condições da chamada de emergência](emergency-calling-terms-and-conditions.md)
 
 
 ## Solução de problemas e suporte
