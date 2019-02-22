@@ -3,7 +3,7 @@ title: Análise de Chamada e Painel de Qualidade de Chamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
+ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
-ms.openlocfilehash: e3d768178723a2bce611770698338d8d4e4cce61
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: b3a65c4fa6a3dfe8de6b4ef70cd7657661cf4dc9
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069605"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178665"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de Chamada e Painel de Qualidade de Chamadas
 
@@ -44,7 +44,7 @@ Análise de chamada e CQD executem em paralelo e podem ser usado independentemen
 > Permissões de operador de assistência técnica e carregamento de topologia de rede estará disponíveis no portal de administração do novo nos próximos meses. Enquanto isso, você pode continuar a usar https://adminportal.services.skypeforbusiness.com para acesso de assistência técnica de camada 1 e a camada 2.
   
 
-Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionados à chamadas específicas e reuniões para cada usuário em um Microsoft Teams ou Skype para a conta de negócios. Por que o usuário Amos Mármore tinha uma chamada de baixa tarde? Usando a análise de chamada, um administrador do Office 365 ou a assistência técnica treinados agente possa investigar o dispositivo, rede, conectividade e outros fatores relacionados à chamada do Amos para solucionar problemas de qualidade e conexão de chamada no Microsoft Teams e Skype para negócios.
+Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionados à chamadas específicas e reuniões para cada usuário em um Microsoft Teams ou Skype para a conta de negócios. Por que esse usuário tinha uma chamada de baixa tarde? Usando a análise de chamada, um administrador do Office 365 ou a assistência técnica treinados agente possa investigar o dispositivo, rede, conectividade e outros fatores relacionados a sua chamada para solucionar problemas de qualidade e conexão de chamada no Microsoft Teams e Skype para negócios.
 
 Para ver essas informações para um usuário no Centro de administração do Microsoft Teams, clique na guia **Histórico de chamadas** para esse usuário na página de detalhes do usuário, mostrando todas as chamadas e reuniões que o usuário tem participou nos últimos 30 dias.
 
@@ -52,7 +52,7 @@ Para ver essas informações para um usuário no Centro de administração do Mi
 
 Para obter informações adicionais sobre uma determinada sessão, incluindo mídia detalhadas e estatísticas de rede, clique em uma sessão para ver os detalhes.
 
-![Chame a análise de dados da sessão de usuário.](media/call-analytics-user-data-session.png)
+![Chame a análise de dados da sessão de usuário.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 Se desejar que não-administradores, como operadores de assistência técnica de um fornecedor externo, para usar a análise de chamada, você pode atribuir permissões para que eles podem usar a análise de chamada, mas não podem acessar o resto do Centro de administração do Microsoft Teams: 
   
@@ -74,26 +74,29 @@ Para obter detalhes sobre como configurar a análise de chamada, consulte [Confi
   
 Onde a autoridade de certificação foi projetada para ajudar os administradores e operadores de assistência técnica a solucionar problemas de qualidade de chamada com chamadas específicos, o painel de qualidade de chamada (CQD) foi projetado para ajudar administradores Teams da Microsoft, Skype para os administradores corporativos, e os engenheiros de rede otimizam uma rede. CQD alterna o foco de usuários específicos e em vez disso, analisa agregam informações de todo um Microsoft Teams ou Skype para organização de negócios. Para obter mais detalhes, consulte [recursos do painel de qualidade de chamada do Skype para negócios Online](turning-on-and-using-call-quality-dashboard.md#BKMKFeaturesOfTheCQD).
   
-Talvez a qualidade de chamadas ruins do Amos é devido a um problema de rede que também está afetando a muitos outros usuários. Experiência de chamada individual do Amos não está visível no CQD, mas a qualidade geral de chamadas realizadas usando o Microsoft Teams ou Skype para negócios é capturada. Com o CQD, geral padrões podem ficar aparentes, permitindo que os engenheiros de rede tornar informadas avaliações de qualidade de chamada. CQD fornece relatórios de métricas de qualidade de chamada que lhe dão ideias sobre chamam geral qualidade, fluxos de servidor-cliente, fluxos de cliente e a qualidade de voz [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
+Talvez a qualidade de chamadas ruins do usuário é devido a um problema de rede que também está afetando a muitos outros usuários. A experiência de chamada individual não está visível no CQD, mas a qualidade geral de chamadas realizadas usando o Microsoft Teams ou Skype para negócios é capturada. Com o CQD, geral padrões podem ficar aparentes, permitindo que os engenheiros de rede tornar informadas avaliações de qualidade de chamada. CQD fornece relatórios de métricas de qualidade de chamada que lhe dão ideias sobre chamam geral qualidade, fluxos de servidor-cliente, fluxos de cliente e a qualidade de voz [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
   
-![Captura de tela do painel de controle de qualidade de chamada. Guias mostradas são qualidade geral da chamada, o servidor - cliente, cliente - cliente e SLA de qualidade de voz.](media/6eaccf99-8ee8-4f99-bdf2-ba1c72471cb9.png)
+![Captura de tela do painel de controle de qualidade de chamada. Guias mostradas são qualidade geral da chamada, o servidor - cliente, cliente - cliente e SLA de qualidade de voz.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-Com a Ajuda do CQD Location-Enhanced relatórios, a qualidade da chamada agregação e a confiabilidade dentro de construção do Amos podem ser avaliadas para determinar se o problema é isolado a um único usuário ou que afeta um segmento maior de usuários.
+Com a Ajuda do CQD Location-Enhanced relatórios, a qualidade da chamada agregação e a confiabilidade dentro de construção do usuário podem ser avaliadas para determinar se o problema é isolado a um único usuário ou que afeta um segmento maior de usuários.
 
 ![Captura de tela de relatórios de localização avançada do painel de qualidade de chamada. Guias mostradas são Overview, prédios - com fio, prédios - WiFi e Mobile (LTE). Um filtro está sendo aplicado para exibir os fluxos de um edifício específico.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
 
 > [!NOTE]
 > Para habilitar os modos de exibição de construção específicos no CQD, um administrador deve [carregar as informações de construção](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) na página de carregamento de dados de Inquilino do CQD.
 
-  
-Se desejar que não-administradores, como agentes de assistência técnica, para usar o painel de qualidade de chamada, você pode atribuir esses usuários à função de **Leitor de relatórios** . Usuários com as seguintes funções podem acessar o painel de controle de qualidade de chamada:
+Se desejar que não-administradores, como agentes de assistência técnica, para usar o painel de qualidade de chamada, você pode atribuir esses usuários a função **Engenheiro de suporte de comunicação de equipes**, **Especialista equipes de suporte de comunicações**ou **Leitor de relatórios** . Usuários com as seguintes funções podem acessar o painel de controle de qualidade de chamada:
 
- - Administrador global
- - Administrador do Skype for Business
- - Leitor de relatórios
+- Administrador global
+- Skype para o administrador de negócios
+- Administrador de Serviço de Equipes
+- Administrador de Comunicações de Equipes
+- Engenheiro de Suporte de Comunicações de Equipes
+- Especialista de suporte de comunicação de equipes
+- Leitor de relatórios
 
 > [!NOTE]
-> A função de leitor de relatórios não pode modificar arquivos na página de carregamento de dados de Inquilino do CQD nem ativar CQD para um inquilino.
+> As funções de equipes engenheiro de suporte de comunicações, especialista equipes de suporte de comunicações e leitor de relatórios não podem modificar arquivos na página de carregamento de dados de Inquilino do CQD nem ativar CQD para um inquilino.
 
 Para obter mais informações sobre essas funções, consulte [funções de administrador do Office 365](/office365/admin/add-users/about-admin-roles).
 

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba as informações que são enviadas automaticamente aos usuários por e-mail quando suas configurações de conferência discada são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 1d38963771388b1aec9bb2274e23dcfd22e9fe4b
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 1431cd4391219e052ec2ad3702a9e4c227912a06
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120880"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178689"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
@@ -42,9 +42,9 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
     Aqui está um exemplo desse e-mail:
 
-     ![Verificar licença do Skype for Business](media/audio-conferencing-user-enabled.png)
+     ![Verificar licença do Skype for Business](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Você pode encontrar mais informações sobre licenciamento, conferindo o [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    Para obter mais informações sobre licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 - **O ID de conferência ou número de telefone de conferência padrão de um usuário é alterado.**
 
@@ -52,7 +52,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
     Aqui está um exemplo desse e-mail:
 
-     ![As informações sobre conferência discada foram alteradas.](media/audio-conferencing-info-change.png)
+     ![As informações sobre conferência discada foram alteradas.](media/teams-emails-sent-to-users-when-settings-change-image2.png)
 
 - **O PIN de audioconferência de um usuário é redefinido.**
 
@@ -60,7 +60,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
     
      Aqui está um exemplo desse e-mail:
     
-     ![O PIN de conferência discada foi alterado.](media/audio-conferencing-pin-has-changed.png)
+     ![O PIN de conferência discada foi alterado.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **A licença do usuário for removida ou quando o provedor de audioconferência é alterado da Microsoft para outro provedor ou Nenhum.**
 
@@ -70,7 +70,7 @@ Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habi
 
     Aqui está um exemplo desse e-mail:
 
-     ![A conferência discada está desativada.](media/audio-conferencing-turned-off.png)
+     ![A conferência discada está desativada.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

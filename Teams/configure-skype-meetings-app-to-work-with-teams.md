@@ -1,5 +1,5 @@
 ---
-title: Configurar o aplicativo de reuniões Skype para trabalhar com equipes
+title: Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
@@ -11,14 +11,14 @@ description: Os administradores podem usar o Centro de administração do Micros
 Set_Free_Tag: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e94598822ab321ea514bb41af2fa0e4f8ee57ff0
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: d7ff2ea007303d88bcf2b6e6d68091513b5c60e2
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754571"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178626"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar o aplicativo de reuniões Skype para trabalhar com equipes
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes
 ===================================================
 
 Depois que um usuário é atualizado para Teams da Microsoft, os administradores podem usar o Centro de administração do Microsoft Teams para especificar o aplicativo preferencial que os usuários utilizarão para ingressar Skype para reuniões de negócios.
@@ -29,7 +29,7 @@ Para especificar o Skype para reuniões App como o aplicativo preferencial:
 2. No painel esquerdo, em **configurações de toda a organização**, selecione **Atualizar equipes**.
 3. Nas equipes Atualizar página, em **Preferências de aplicativo**, selecione **Skype reuniões App** na lista suspensa **aplicativo preferencial para os usuários ingressem Skype para reuniões de negócios** .
 
-![Escolha aplicativo preferencial para os usuários ingressem Skype para reuniões de negócios](media/configure-skype-meetings-app-to-work-with-teams.png)
+![Escolha aplicativo preferencial para os usuários ingressem Skype para reuniões de negócios](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 

@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120437"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178577"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -32,7 +32,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/pt-BR/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|

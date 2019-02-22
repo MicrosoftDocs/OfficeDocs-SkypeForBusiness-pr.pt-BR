@@ -13,10 +13,10 @@ description: Saiba como um administrador pode visualizar informações sobre usu
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2b842a2434a5555fe7f65d6119750cff36e9513d
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "29706271"
 ---
 <a name="view-guest-users-in-a-team"></a>Visualizar usuários convidados em uma equipe

@@ -3,7 +3,7 @@ title: Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: siunies, williamlooney
+ms.reviewer: siunies, williamlooney, gageames
 ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Get detailed information about the dimensions and measures exposed by the Call Quality Dashboard for Microsoft Teams and Skype for Business Online.
-ms.openlocfilehash: f374a87a8cfa3645a685b6628a93b0e4d5236191
-ms.sourcegitcommit: 788e3526ff973454f3904c33d867691a2fae814f
+ms.openlocfilehash: 481149e8b7aa72071ed7602e6bf4d9ea8bbd6448
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "28326886"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178720"
 ---
 # <a name="dimensions-and-measures-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas
 
@@ -510,6 +510,6 @@ A tabela a seguir lista as medidas disponíveis atualmente no CQD (Call Quality 
 
 [Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas no Skype for Business](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
 

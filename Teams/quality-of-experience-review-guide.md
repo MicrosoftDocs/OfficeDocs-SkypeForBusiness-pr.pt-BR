@@ -1,7 +1,7 @@
 ---
-title: Qualidade da experiência Revise o guia para equipes da Microsoft
+title: Qualidade da experiência do guia de avaliação do Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: rowille
 manager: serdars
 ms.date: 09/05/2018
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid: MET150
 MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b19fe5dce5c728880c54321e5d6dbb1901d0aac
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: c9162a10d55b224e14867866395b1e44d18e8e6e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964446"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178736"
 ---
 # <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
 
@@ -57,11 +57,17 @@ Este guia destina-se também a ser usado pelo champion(s) a qualidade designada.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de usar este guia, verifique se que você tem as [funções](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) de locatário adequadas atribuído para que você possa acessar CQD.
+Antes de usar este guia, verifique se que você tem as [funções](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de locatário adequadas atribuído para que você possa acessar CQD.
 
--   **Função Administrador Global do office 365:** Acessa todos os recursos administrativos no conjunto do Office 365 de serviços em seu plano, incluindo Skype para negócios.
+-   **Função de Administrador Global do Office 365** 
 
--   **Skype para a função de administrador de negócios:** Configura Skype for Business para sua organização e é capaz de exibir todos os [relatórios de atividade](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no Centro de administração do Office 365. Essa função é necessária, mesmo se você implantar apenas equipes.
+-   **Skype para a função de administrador de negócios** 
+
+-   **Função de administrador de serviço de equipes** 
+
+-   **Função de engenheiro de suporte de comunicação de equipes** 
+
+-   **Função de comunicações especialista de suporte de equipes** 
 
 Como alternativa, você pode atribuir a função a seguir para uma conta de usuário do Office 365 deseja permitir acesso a somente os recursos de relatório.
 
@@ -95,7 +101,7 @@ A medida real em CQD varia por carga de trabalho, mas para os fins da qualidade 
 > CQD fornece o "ruim devidos à..." medidas para melhor compreendam qual condição causada stream a serem classificadas como inválida.
 
 
-_Tabela 1 - métricas de serviço ruim_
+_Tabela 1 - métricas de baixa qualidade de áudio_
 
 | Média de métrica     | Descrição     | Experiência do usuário |
 |-------------|-----------------|-----------------|
@@ -139,7 +145,7 @@ _Tabela 2 - métricas de avaliação de integridade de destino principais_
 <tr><td rowspan="5"><strong>Conferências</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Com fio interno</td><td>% de 1.0</td><td>0,5%</td><td>% de 1.0</td></tr>
 <tr><td>Wi-Fi 5 GHz interno</td><td>% de 1.0</td><td>0,5%</td><td>% de 1.0</td></tr>
-<tr><td>Wi-Fi 2,4 GHz interno</td><td>% de 4.0</td><td>0,5%</td><td>% de 2.0</td></tr>
+<tr><td>Wi-Fi 2,4 GHz interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Geral</td><td>% de 2.0</td><td>0,5%</td><td>% de 3.0</td></tr>
 <tr><td rowspan="4"><strong>P2P</strong></td><td>Interno</td><td>% de 2.0</td><td>0,5%</td><td>% de 2.0</td></tr>
 <tr><td>Com fio/Wi-Fi 5 GHz interno</td><td>% de 1.0</td><td>0,5%</td><td>% de 1.0</td></tr>

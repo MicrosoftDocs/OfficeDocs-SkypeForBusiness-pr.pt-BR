@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como ativar ou desativar o Skype de enviar e-mails para usuários quando configurações, como alterações de PIN ou o número de conferência padrão, são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 5f0573a0dec22791bd49eeeb6be6235ae2838c70
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 7c08f0268c707a545873afe76e850a90a41087b4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754133"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178634"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Ativar ou desativar o envio de e-mails quando alterar configurações de audioconferência no Microsoft Teams
 
@@ -35,7 +35,7 @@ Se você desabilitar o envio de e-mails, nenhum e-mail de audioconferência ser�
   
 Aqui está um exemplo de e-mail enviado aos usuários habilitados para audioconferência:
   
-![E-mail de audioconferência](media/audio-conferencing-user-enabled.png)
+![E-mail de audioconferência](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Quando os e-mails são enviados aos seus usuários?
 

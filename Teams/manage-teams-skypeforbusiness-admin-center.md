@@ -16,12 +16,12 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e695c54427dbe80daa179ad6d02e99a2556d9782
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 581be37a3acf4b0063cf93da1ba1289cd08b2f2e
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753532"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178498"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -43,8 +43,8 @@ A tabela a seguir identifica as seções da experiência de equipes que foram mi
 |---------|---------|---------|---------|
 |Geral     |Mostrar bate-papo organizacional no perfil pessoal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Locatário       |
 |Geral     |Use Skype for Business para destinatários que não têm equipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Integração de e-mails     |Permitir que os usuários enviar emails a canais         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
-|Integração de e-mails     |Permite que os remetentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Locatário         |
+|Integração de email     |Permitir que os usuários enviar emails a canais         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
+|Integração de email     |Permite que os remetentes lista         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Locatário         |
 |Armazenamento em nuvem personalizado     |Caixa         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Armazenamento em nuvem personalizado     |Pasta de recados        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Armazenamento em nuvem personalizado     |Unidade do Google        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
@@ -52,6 +52,11 @@ A tabela a seguir identifica as seções da experiência de equipes que foram mi
 |Configurações por tipo de licença de usuário /     |Ativar o Microsoft Teams ativada ou desativada para todos os usuários          |Preteridos<sup>1</sup>        |         |
 |Equipes e canais     |         |Redireciona para o Windows Azure Active Directory grupo Management (mesmo que a experiência atual).              |Usuário         |
 |Equipes e canais     |         |Redireciona para gerenciamento de grupo AAD (mesmo que a experiência atual).             |Usuário          |
+|Aplicativos|Habilitar novos aplicativos externos por padrão|Configurações de aplicativo de toda a organização|Locatário|
+|Aplicativos|Permitir aplicativos externos|Configurações de aplicativo de toda a organização|Locatário|
+|Aplicativos|Permitir sideloading de aplicativos externos<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Usuário|
+|Aplicativos|Padrão apps<sup>3</sup>|TeamsAppPermissionPolicy|Usuário|
+|Aplicativos|Aplicativos externos<sup>3</sup>|TeamsAppPermissionPolicy|Usuário|
 |Reuniões e chamadas     |Permitir o agendamento de reuniões privadas         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
 |Reuniões e chamadas     |Permitir meetup de canal da Ad hoc         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
 |Reuniões e chamadas     |Permitir o agendamento de reuniões de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
@@ -68,6 +73,13 @@ A tabela a seguir identifica as seções da experiência de equipes que foram mi
 |Mensagens     |Permite que os usuários chat em particular         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
 
 <sup>1</sup> reduzido para o convidado. Habilitar/desabilitar convidado agora podem ser gerenciada no Centro de administração do Microsoft Teams. Habilitar/desabilitar Teams para empresa de negócios, Edu aluno, e Corpo Docente do Edu será preterido em breve. Isso deve ser gerenciado pela atribuição de licenças no Centro de administração do Office 365. Consulte [Gerenciar o acesso de usuário às equipes da Microsoft](user-access.md).
+<br><br>
+<sup>2</sup> Sideloading é dividida da seguinte maneira:
+
+- Permitir que um usuário para aplicativos sideload que podem ser gerenciados em um nível de usuário na [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Permitir que os usuários em um locatário para interagir com os aplicativos personalizados que podem ser gerenciados em um nível de locatário nas configurações do aplicativo de toda a organização.
+ 
+<sup>3</sup> aplicativos padrão e aplicativos externos podem ser habilitados e desabilitados no nível do usuário em TeamsAppPermissionPolicy. Além disso, os aplicativos poderão ser bloqueados no nível de locatário nas configurações do aplicativo de toda a organização que substitui qualquer usuário e as configurações de nível de locatário. 
 
 > [!NOTE]
 > Você vai continuar a usar o painel de grupos no Centro de administração do Office 365 para configuração relacionada ao equipes e canais. As configurações para aplicativos permanecerão na área de equipes do Centro de administração do Office 365 e serão migradas mais tarde. 

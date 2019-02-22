@@ -1,2 +1,2 @@
 > [!NOTE]
-> Este tutorial inclui links para conteúdo existente. Dessa forma, podemos ter certeza de que você tenha sempre as últimas informações mais atualizadas. Para uma experiência ideal de aprendizagem, certifique-se de seguir os links e absorver o conteúdo. Se apenas um link é rotulada como "informações adicionais" devem ser considerado opcionais.
+> Este tutorial inclui links para conteúdo existente para ajudar a conectá-lo com as últimas informações mais atualizadas. Para uma experiência ideal de aprendizagem, siga os links para aprender e aplicar. Se um link é rotulado como "informações adicionais", você pode considerar opcional.

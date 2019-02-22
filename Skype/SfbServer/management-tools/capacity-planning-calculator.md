@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Resumo: como usar a Ferramenta Calculadora de Capacidade.'
-ms.openlocfilehash: c55c42942ef14d7ec1904fb8b43340d6a2babb50
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8fdd2132a60becfc68c6e8d59acd8660a33eb9b4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533410"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178658"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype para Calculadora de planejamento de capacidade do servidor de negócios
  
@@ -26,7 +26,7 @@ ms.locfileid: "26533410"
 > - Skype para Business Server 2019.
 > - Skype para Business Server 2015.
   
-O [Skype para Calculadora de capacidade do Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) e [Skype para Calculadora de capacidade do Business Server 2019](https://www.microsoft.com/en-in/download/details.aspx?id=57510) incrementar o [Skype para a ferramenta de planejamento de negócios](https://www.microsoft.com/en-us/download/details.aspx?id=50357) e a documentação de implantação ([planejar sua Skype para negócios Implantação de servidor 2015](../plan-your-deployment/plan-your-deployment.md) e [planejar seu Skype para implantação Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivamente). Use a calculadora após ter revisado o guia e criado uma topologia recomendada usando a Ferramenta de Planejamento.
+O [Skype para Calculadora de capacidade do Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) e [Skype para Calculadora de capacidade do Business Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57509) incrementar o [Skype para a ferramenta de planejamento de negócios](https://www.microsoft.com/en-us/download/details.aspx?id=50357) e a documentação de implantação ([planejar sua Skype para negócios Implantação de servidor 2015](../plan-your-deployment/plan-your-deployment.md) e [planejar seu Skype para implantação Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivamente). Use a calculadora após ter revisado o guia e criado uma topologia recomendada usando a Ferramenta de Planejamento.
   
 O Skype referente a Calculadora de capacidade do Business Server ajuda a determinar os requisitos de servidor com base no número de usuários e as ferramentas de comunicação que sua organização usa. Após ter determinado o perfil do usuário e as funções que você deseja habilitar para seus usuários, use a calculadora para determinar o número de servidores, a memória e a largura de banda necessários. Esta versão da calculadora não fornece orientação quanto às exigências de E/S do disco.
   

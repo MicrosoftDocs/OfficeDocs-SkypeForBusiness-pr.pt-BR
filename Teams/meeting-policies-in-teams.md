@@ -16,10 +16,10 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
 ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
-ms.sourcegitcommit: 4e6b39e7421ea6eb03c524bb6b8e597c1966bad1
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "30056607"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes

@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Os tópicos nesta seção ajudam você a entender como planejar e implantar Skype para Business Server para que você possa planejar adequadamente para o número de usuários em sua organização e planejar a carga do servidor que geram suas atividades.
-ms.openlocfilehash: 996fd1df51442bcaadbd0ae548e9cf57e580279a
-ms.sourcegitcommit: 112dc19075f9213207fde9e30bcde5681324b7c9
+ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25696342"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178713"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planejamento de capacidade do Skype para Business Server 2019
 
@@ -171,8 +171,8 @@ A Microsoft usou o hardware na tabela a seguir para p servidor de banco de dados
 |:-----|:-----|
 |CPU  <br/> |Processador duplo de v3 Intel Xeon E5-2673, 6-core, 2,4 gigahertz (GHz) ou superior.  <br/> |
 |Memória  <br/> |48 GB  <br/> |
-|Disco  <br/> |
-Qualquer uma: • 4 ou mais unidades de disco rígido de 10.000 RPM com pelo menos 72 GB livre espaço em disco (os discos devem estar em uma configuração de RAID 1 2x). OU unidades de estado sólido • (SSDs) capazes de fornecer a mesma Libere espaço e desempenho similar a 4 unidades de disco mecânicas 10.000 RPM.   <br/> | | Rede  <br/> | 1 adaptador de rede dual-port, 1 Gbps ou superior (2 recomendado, que exige agrupamento com um único endereço MAC e um único endereço IP).  <br/> |
+|Disco  <br/> | UMA DESTAS OPÇÕES:<br/> • 4 ou mais unidades de disco rígido de 10000 RPM com pelo menos 72 GB de espaço livre (os discos devem estar em uma configuração de 2x RAID 1). <br/>OU <br/>• Unidades de estado sólido (SSDs) capazes de fornecer o mesmo espaço livre e desempenho similar ao de 4 unidades de disco mecânicas de 10000 RPM.   <br/> |
+|Rede  <br/> | Um adaptador de rede de porta dupla, 1 Gbps ou superior (recomenda-se usar dois, o que exige agrupamento com um único endereço MAC e um único endereço IP).  <br/> |
 
 **Configurações recomendadas de disco**
 

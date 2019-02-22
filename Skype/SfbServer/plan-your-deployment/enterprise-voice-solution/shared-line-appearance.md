@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: Leia este tópico para saber como planejar para Shared linha aparência (SLA) no Skype 2015 do servidor de negócios, novembro de 2015 atualizações cumulativas.
 ms.openlocfilehash: b65d637426b0a8533089b21021bce566373ca9f1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "23884505"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Planejar Aparência de linha compartilhada no Skype for Business Server 2015
@@ -39,7 +39,7 @@ SLA tem suporte apenas nos seguintes dispositivos telefônicos (ele não há sup
     
 SLA é um novo recurso do Skype para Business Server, novembro de 2015 atualizações cumulativas. 
   
-Para obter informações sobre como implantar o SLA, consulte [Implantar Shared aparência no Skype para Business Server 2015 da linha](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
+Para obter informações sobre como implantar o SLA, consulte [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   
 ## <a name="feature-list"></a>Lista de recursos
 

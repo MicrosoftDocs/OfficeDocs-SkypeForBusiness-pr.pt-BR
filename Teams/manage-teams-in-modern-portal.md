@@ -1,5 +1,5 @@
 ---
-title: Gerenciar equipes em Centro de administração do Microsoft Teams
+title: Gerenciar equipes no centro de administração do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,14 +15,14 @@ ms.custom:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd56bd9147ca58ad38b41f64a7a6f3c6a8daf134
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: cf4d312f8fcb7f9ba509359eaaeed415be3e9662
+ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754183"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30178673"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes em Centro de administração do Microsoft Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 ==========================================
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
@@ -104,7 +104,7 @@ Substitua **{groupid}** na consulta referente a GroupId real em questão, que vo
 
 1. Acesso do [Explorer do gráfico](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
-2. Entrar no Explorer do gráfico no menu do lado esquerdo
+2. Entrar no Explorer do gráfico no menu à esquerda
 
 3. Altere a linha de consulta para: gt _ do PATCH gt _ v 1.0https://graph.microsoft.com/v1.0/groups/{groupid}
 
@@ -112,7 +112,7 @@ Substitua **{groupid}** na consulta referente a GroupId real em questão, que vo
 
 5. Execute a consulta na parte superior direita.
 
-6. Confirmar que a equipe seja exibido corretamente novamente no Centro de administração do Microsoft Teams - visão geral da equipe
+6. Confirmar que a equipe seja exibido corretamente no Centro de administração do Microsoft Teams - visão geral da equipe
 
 
 ## <a name="learn-more"></a>Saiba mais

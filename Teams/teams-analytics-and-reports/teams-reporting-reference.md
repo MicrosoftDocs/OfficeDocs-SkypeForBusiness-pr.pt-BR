@@ -15,10 +15,10 @@ description: Saiba mais sobre os relatórios de equipes que estão disponíveis 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8759de65058c6f2c418622df05028b3c03c94aa6
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "29754619"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
