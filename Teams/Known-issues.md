@@ -3,7 +3,7 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 8/21/2018
+ms.date: 2/19/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e0a74bf35a122a672f99e91c872eab77a6ce6cd
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 0877ce3f92a9266d3ae4ea93f634a1e8d612be57
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789163"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30120437"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -32,15 +32,15 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/pt-BR/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled está definido como falso  <br/> |Quando esse valor é definido como falso no AAD, o cliente não consegue adicionar membros externos/internos no Microsoft Teams, e a seguinte mensagem de erro é exibida: "Não foi possível adicionar o membro. Ocorreu um problema. Tente novamente mais tarde." No entanto, os membros podem ser adicionados diretamente aos grupos do Office 365.    <br/> |Altere essa configuração para verdadeira no AAD.  <br/> |10/04/2018  <br/> |
+|Não é possível adicionar membros a equipes quando UsersPermissionToReadOtherUsersEnabled está definido como falso  <br/> |Quando esse valor é definido como falso no AAD, o cliente não consegue adicionar membros externos/internos no Microsoft Teams, e a seguinte mensagem de erro é exibida: "Não foi possível adicionar o membro. Ocorreu um problema. Tente novamente mais tarde." No entanto, os membros podem ser adicionados diretamente aos grupos do Office 365.    <br/> |Altere essa configuração para verdadeira no AAD.  <br/> |10/04/18  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|O gerenciamento de administração dos Conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector na versão de cliente e online, ocorre o erro: Erro inesperado. Tente novamente. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Desabilite com as configurações do Microsoft Teams. Veja este artigo de suporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/2017  <br/> |
+|O gerenciamento de administração dos Conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector na versão de cliente e online, ocorre o erro: Erro inesperado. Tente novamente. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Desabilite com as configurações do Microsoft Teams. Veja este artigo de suporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/17  <br/> |
 
 ## <a name="apps"></a>Aplicativos
 
@@ -242,7 +242,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Guia de página do SharePoint renderizado como uma tela em branco <br/> |Domínios intuitivos do SharePoint Online não têm suporte no momento. A experiência do usuário é uma tela em branco ao se tentar adicionar uma guia de página do SharePoint. <br/> |Não há solução alternativa. <br/> |20/08/2018  <br/>|
+|Guia de página do SharePoint renderizado como uma tela em branco <br/> |Domínios intuitivos do SharePoint Online não têm suporte no momento. A experiência do usuário é uma tela em branco ao se tentar adicionar uma guia de página do SharePoint. <br/> |Não há solução alternativa. <br/> |20/08/18  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -268,11 +268,11 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|O nome de uma equipe com o símbolo &amp; interrompe a funcionalidade do conector  <br/> |Quando o nome de uma equipe é criado com o símbolo &amp;, os conectores dentro da equipe/grupo não podem ser estabelecidos.  <br/> |Não use caracteres especiais no nome de equipes.  <br/> |21/06/2017  <br/> |
+|O nome de uma equipe com o símbolo &amp; interrompe a funcionalidade do conector  <br/> |Quando o nome de uma equipe é criado com o símbolo &amp;, os conectores dentro da equipe/grupo não podem ser estabelecidos.  <br/> |Não use caracteres especiais no nome de equipes.  <br/> |21/06/17  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Máximo de 2500 membros de equipe  <br/> |Cada equipe do Microsoft Teams pode ter no máximo 2500 membros.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
+|Máximo de 5000 membros de equipe  <br/> |Cada equipe do Microsoft Teams pode ter no máximo 5000 membros.  <br/> |Não há solução alternativa.  <br/> |06/02/2019  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
