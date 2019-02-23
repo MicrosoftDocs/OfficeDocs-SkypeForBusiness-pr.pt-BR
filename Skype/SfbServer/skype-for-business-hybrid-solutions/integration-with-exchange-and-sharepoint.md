@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumo: Saiba mais sobre Skype para integração de Business Server 2015 com o Exchange e SharePoint.'
-ms.openlocfilehash: 6bd76957a18c8cfcbff02bf1d92f944bb76cb8b2
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29890714"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210611"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integração com o Exchange e SharePoint
 
@@ -106,7 +106,7 @@ As tabelas a seguir listam os recursos suportados em uma implantação híbrida 
 |Perdidas histórico de conversas e Logs de chamada são gravados de correio do exchange do usuário  <br/> ||
 |Lista de contatos (via repositório de contato unificado)  <br/> |Lync Server 2013 ou Skype para o cliente de negócios necessário  <br/> |
 |Foto de alta resolução contatos no Lync 2013, Skype para o cliente de negócios e Lync Web App  <br/> ||
-|Delegação da reunião  <br/> |Suporte apenas quando ambos os usuários estão hospedados online na mesma floresta, ou ambos estão hospedados no local. Para obter mais informações, consulte [Skype para soluções híbridas de negócios](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
+|Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [Skype para soluções híbridas de negócios](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> ||
 |Pesquise o conteúdo arquivado  <br/> ||
 |Caixa postal  <br/> ||

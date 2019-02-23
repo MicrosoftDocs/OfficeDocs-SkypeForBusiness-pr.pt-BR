@@ -1,23 +1,23 @@
 ---
 title: Implantar sistemas de sala Skype usando o System Center Configuration Manager
 ms.author: jambirk
-author: Turgayo
+author: jambirk
+ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
 ms.audience: ITPro
-ms.reviewer: Turgayo
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este tópico para saber mais sobre como implantar sistemas de sala Skype v2 em implantações de grande escala.
-ms.openlocfilehash: ce3a857971fd60988e89608391cc3ec7d3d0c3ae
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 3602422779a405376893a3a7e6663520ed6a4a4c
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240961"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210870"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implantar sistemas de sala Skype v2 usando o System Center Configuration Manager
 

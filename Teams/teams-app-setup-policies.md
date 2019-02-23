@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativo no Microsoft Teams e como usá-los para aplicativos de pin para personalizar as equipes para usuários em sua organização.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fe6281015072858c959a65a6cd17ed157db0afa9
-ms.sourcegitcommit: f5f1437ec72f67f6804ca8d785f76059d0979e39
+ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2019
-ms.locfileid: "29894244"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205759"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -108,7 +108,7 @@ Dependendo do número de membros no grupo, este comando pode levar alguns minuto
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Quais políticas de configuração de aplicativo interno são incluídas no Centro de administração do Microsoft Teams?
 
-- **Global (toda a organização padrão)**: esta política padrão se aplica a todos os usuários em sua organização, a menos que você atribua outra política. Edite a política global para aplicativos de pin que são mais importantes para seus usuários. 
+- **Global (toda a organização padrão)**: esta política padrão se aplica a todos os usuários em sua organização, a menos que você atribua outra política. Edite a política global para aplicativos de pin que são mais importantes para seus usuários.
 - **FirstLineWorker**: esta diretiva é para trabalhadores de firstline. Você pode atribuí-lo aos trabalhadores firstline em sua organização. É importante saber que, como políticas personalizadas que você criar, você precisa atribuir a política aos usuários para que as configurações estejam ativos. Para obter mais informações, vá para a seção [atribuir uma política de instalação do aplicativo personalizado para os usuários](#assign-a-custom-app-setup-policy-to-users) deste artigo.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>Por que não é possível encontrar um aplicativo no painel Adicionar aplicativos fixados?
@@ -142,9 +142,9 @@ Para exibir todos os aplicativos que são vinculados para um usuário, os usuár
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>O que é necessário saber sobre a experiência de equipes móvel?
 
-Os clientes móveis equipes (iOS e Android) atualmente não há suporte para aplicativos de pessoais. Dependendo de aplicativos definidos na política, aplicativos vinculados ao cliente de desktop do equipes podem não aparecer nos clientes móveis equipes. Pessoais bots ainda aparecerão no bate-papo em clientes móveis. 
+Os clientes móveis equipes (iOS e Android) atualmente não há suporte para aplicativos de pessoais com estáticos guias. Dependendo de aplicativos definidos na política, aplicativos vinculados ao cliente de desktop do equipes podem não aparecer nos clientes móveis equipes. Pessoais bots ainda aparecerão no bate-papo em clientes móveis.
 
-Com os clientes móveis de equipes, os usuários verão apps equipes de núcleo como atividade, Chat e equipes e você pode fixar alguns aplicativos primários da Microsoft, como planejador e desloca.
+Com os clientes móveis de equipes, os usuários verão apps equipes de núcleo como atividade, Chat e equipes e você pode fixar alguns aplicativos primários da Microsoft, como mudanças.
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Podem usuários alterar a ordem dos aplicativos fixados através de uma diretiva?
 

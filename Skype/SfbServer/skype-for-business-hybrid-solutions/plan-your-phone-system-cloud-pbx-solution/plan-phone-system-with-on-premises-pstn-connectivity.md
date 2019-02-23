@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
-ms.openlocfilehash: 3856a4901666ec58b286d5edb26c7d69bba65e41
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069480"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210626"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype Business Server
 
 Aprenda sobre as considerações de planejamento para o sistema telefônico no Office 365 (nuvem PBX) com uma conectividade PSTN local.
 
-Esse conteúdo é relevante, se você já tiver Skype para Business Server ou o Lync Server 2013 implantados no local. Para outros cenários, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Esse conteúdo é relevante, se você já tiver Skype para Business Server ou o Lync Server 2013 implantados no local. Para outros cenários, consulte [planejar seu sistema telefônico na solução do Office 365 (nuvem PBX)](plan-your-phone-system-cloud-pbx-solution.md).
 
  O sistema telefônico no Office 365 com uma conectividade PSTN local permite que você aproveite os recursos de sistema telefônico (nuvem PBX) para seus usuários. Isso pode ajudar nos seguintes cenários:
 
@@ -111,6 +111,6 @@ Além disso você deve garantir que o seguinte:
 
 - **Serviços de Federação do Active Directory (AD FS) de (recomendado)** É recomendável implantar o AD FS para oferecer suporte a Single Sign-on. Para obter mais informações, consulte [Serviços de Federação do Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
-Para obter informações sobre como implantar o sistema telefônico no Office 365, consulte [Configurando o sistema telefônico na sua organização](https://docs.microsoft.com/en-us/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
+Para obter informações sobre como implantar o sistema telefônico no Office 365, consulte [habilitar usuários para o sistema telefônico no Office 365 com conectividade PSTN local no Skype para Business Server](enable-users-for-phone-system.md).
 
 

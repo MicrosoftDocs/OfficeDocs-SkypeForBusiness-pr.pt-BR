@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
-ms.sourcegitcommit: 20defe18ac1d2b21853bd6d5f0772cd3f35e53e9
+ms.openlocfilehash: 6fcdaf3d3186effa5bb88f1252d51537dd1dba5f
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "29686505"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210688"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
 
 Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
 
-Nuvem conector Edition pode ser a solução ideal para sua organização se você ainda não tiver um servidor existente do Lync ou Skype para implantação de servidor de negócios. Se você ainda está investigando que o sistema telefônico na solução do Office 365 é adequado para sua empresa, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Nuvem conector Edition pode ser a solução ideal para sua organização se você ainda não tiver um servidor existente do Lync ou Skype para implantação de servidor de negócios. Se você ainda está investigando que o sistema telefônico na solução do Office 365 é adequado para sua empresa, consulte [planejar seu sistema telefônico na solução do Office 365 (nuvem PBX)](plan-your-phone-system-cloud-pbx-solution.md).
 
 Este documento descreve os requisitos de edição do conector de nuvem e as topologias com suporte e ajuda você a planejar sua implantação de edição do conector de nuvem. Certifique-se de ler este tópico antes de configurar seu ambiente do conector de nuvem. Quando você estiver pronto para implantar e configurar a edição do conector de nuvem, consulte [Configurar e gerenciar Skype do conector de nuvem Business Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -705,7 +705,7 @@ O Cloud Connector 2.1 e versões posteriores dão suporte ao monitoramento do Cl
 
 Para obter mais informações, consulte:
 
-- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Planejar sua solução de Sistema de Telefonia do Office 365 (Cloud PBX)](plan-your-phone-system-cloud-pbx-solution.md)
 
 - [Configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

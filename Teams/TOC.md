@@ -314,10 +314,12 @@
 ### ID do Chamador
 #### [Como a ID de chamadas pode ser usada em sua organização](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Definir a identificação de chamadas para um usuário](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### Atendedores automáticos e filas de chamada
+### Atendedores automáticos e filas de chamada 
 #### [Cite atendedores automáticos de sistema telefônico](what-are-phone-system-auto-attendants.md)
-#### [Configurar o atendedor automático do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-#### [Criar uma fila de chamadas do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Configurar o atendedor automático do Sistema de Telefonia](create-a-phone-system-auto-attendant.md)
+#### [Exemplo de pequenos negócios - configurar um atendedor automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Gerenciar contas de recurso no Microsoft Teams](manage-resource-accounts.md)
+#### [Criar uma fila de chamadas do Sistema de Telefonia](create-a-phone-system-call-queue.md)
 #### [Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes](answer-auto-attendant-and-call-queue-calls.md)
 ### [Estacionamento de chamada e recuperação](call-park-and-retrieve.md)
 ### [Compartilhamento de chamada e o grupo de atendimento de chamada](call-sharing-and-group-call-pickup.md)
@@ -664,7 +666,7 @@
 ### [Monitorar a qualidade de chamada](monitor-call-quality-qos.md)
 #### [Qualidade da experiência Revise o guia](quality-of-experience-review-guide.md)
 #### [Configurar o QoS em equipes](QoS-in-Teams.md)
-#### [Implementar o QoS e monitorar a qualidade da chamada](monitor-call-quality-qos.md)
+##### [Conjunto de QoS nos clientes do Windows](QoS-in-Teams-clients.md)
 #### [Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 #### [Configurar Análise de Chamada](set-up-call-analytics.md)
 #### [Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)

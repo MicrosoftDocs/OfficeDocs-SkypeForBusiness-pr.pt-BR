@@ -16,18 +16,21 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Gerenciar contas de recursos em Teams da Microsoft
-ms.openlocfilehash: 685361c829a20a216e240e9f502e6ab24dcb86c5
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 60fcfe34c665805eac90b5e5be862786e9e68de5
+ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120936"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30210776"
 ---
-# <a name="manage-resource-accounts-in-teams"></a>Gerenciar contas de recursos em equipes 
+# <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recurso no Microsoft Teams
 
 Uma conta de recurso é também conhecido como um objeto de usuário desabilitadas no Windows Azure Active Directory e pode ser usada para representar os recursos em geral. No Exchange pode ser usada para representar a salas de conferência, por exemplo e permitir que eles tiverem um número de telefone. Uma conta de recurso pode ser hospedada no Microsoft 365 ou no local usando Skype para Business server, e essas contas são criadas usando comandos do Powershell.
 
-No Microsoft Teams SO Skype para Business Online, cada fila de chamada ou automático attendant é necessária para ter uma conta de recurso associado. Se uma conta de recurso precisa de um número de telefone atribuído dependem o uso pretendido da fila chamada associado ou atendedor automático. Consulte os artigos sobre filas de chamada e vinculados na parte inferior deste artigo antes de atribuir um número de telefone a uma conta de recurso de atendedores automáticos de um.
+No Microsoft Teams ou Skype para Business Online, cada fila de chamada ou automático attendant é necessária para ter uma conta de recurso associado. Se uma conta de recurso precisa de um número de telefone atribuído dependem o uso pretendido da fila chamada associado ou atendedor automático. Consulte os artigos sobre filas de chamada e vinculados na parte inferior deste artigo antes de atribuir um número de telefone a uma conta de recurso de atendedores automáticos de um.
+
+> [!NOTE]
+> Este artigo se aplica ao Microsoft Teams e Skype para Business Online.
 
 ## <a name="prerequisites-to-assign-a-phone-number-to-a-resource-account"></a>Pré-requisitos para atribuir um número de telefone a uma conta de recurso
 
