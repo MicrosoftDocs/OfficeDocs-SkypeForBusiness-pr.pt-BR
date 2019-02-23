@@ -98,6 +98,12 @@
 #### Caixa postal de nuvem
 #####[Planejar a caixa postal de nuvem](../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
 ##### [Configurar caixa postal de nuvem](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
+#### Atendedores automáticos de nuvem
+##### [Planejar os atendedores automáticos de nuvem](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
+##### [Configurar atendedores automáticos de nuvem](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+#### Filas de chamada de nuvem
+##### [Planejar as filas de chamada de nuvem](../../SfbHybrid/hybrid/plan-call-queue.md)
+##### [Configurar filas de chamada de nuvem](../../SfbHybrid/hybrid/configure-call-queue.md)
 ### [Plan to integrate Skype for Business and Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Unified Messaging](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Visão geral de implantação](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 

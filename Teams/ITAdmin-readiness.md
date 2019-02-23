@@ -12,12 +12,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para os administradores sobre como planejar, implantar e executar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f37fba985817b777ebce7c125b9cd5d80cc425
-ms.sourcegitcommit: 11f95d0df48a23e701ffaf3b26445d736cbbb884
+ms.openlocfilehash: 13b6b6e376043cb029c9775e0d0c3e6375370b0a
+ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2019
-ms.locfileid: "30079129"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "30205679"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -86,15 +86,15 @@ Use os recursos de treinamento sobre as equipes, ensinar aos outros usuários ou
 
 | Módulo | Vídeo | Apresentação do PowerPoint |
 | ------------ | -------------------- | -------------------- |
-| Fundamentos - componentes principais | [Vídeo](http://aka.ms/teams-foundations) | [Deck](http://aka.ms/teams-foundations-deck) |
-| Cliente de Desktop do Windows | [Vídeo](http://aka.ms/teams-clients) | [Deck](http://aka.ms/teams-clients-deck) |
-| Governança, gerenciamento e Lifecylce | [Vídeo](http://aka.ms/teams-governance) | [Deck](http://aka.ms/teams-governance-deck) |
-| Planejamento de rede | [Vídeo](http://aka.ms/teams-networking) | [Deck](http://aka.ms/teams-networking-deck) |
-| Visão geral de qualidade de chamada | [Vídeo](http://aka.ms/teams-quality) | [Deck](http://aka.ms/teams-quality-deck) |
-| Introdução de reuniões | [Vídeo](http://aka.ms/teams-meetings-intro) | [Deck](http://aka.ms/teams-meetings-intro-deck) |
-| Introdução do sistema de telefone | [Vídeo](http://aka.ms/teams-phone-system) | [Deck](http://aka.ms/teams-phone-system-deck) |
-| Direcionar circulação | [Vídeo](http://aka.ms/teams-direct-routing) | [Deck](http://aka.ms/teams-direct-routing-deck) |
-| Atualização do Skype for Business para o Microsoft Teams | [Vídeo 1: Introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planejar a atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Deck](http://aka.ms/teams-upgrade-deck)|
+| Fundamentos - componentes principais | [Vídeo](https://aka.ms/teams-foundations) | [Deck](https://aka.ms/teams-foundations-deck) |
+| Cliente de Desktop do Windows | [Vídeo](https://aka.ms/teams-clients) | [Deck](https://aka.ms/teams-clients-deck) |
+| Governança, gerenciamento e Lifecylce | [Vídeo](https://aka.ms/teams-governance) | [Deck](https://aka.ms/teams-governance-deck) |
+| Planejamento de rede | [Vídeo](https://aka.ms/teams-networking) | [Deck](https://aka.ms/teams-networking-deck) |
+| Visão geral de qualidade de chamada | [Vídeo](https://aka.ms/teams-quality) | [Deck](https://aka.ms/teams-quality-deck) |
+| Introdução de reuniões | [Vídeo](https://aka.ms/teams-meetings-intro) | [Deck](https://aka.ms/teams-meetings-intro-deck) |
+| Introdução do sistema de telefone | [Vídeo](https://aka.ms/teams-phone-system) | [Deck](https://aka.ms/teams-phone-system-deck) |
+| Direcionar circulação | [Vídeo](https://aka.ms/teams-direct-routing) | [Deck](https://aka.ms/teams-direct-routing-deck) |
+| Atualização do Skype for Business para o Microsoft Teams | [Vídeo 1: Introdução à atualização](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planejar a atualização](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiência do administrador](https://aka.ms/teams-upgrade-admin) | [Deck](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Guias de Início Rápido</h2>
 

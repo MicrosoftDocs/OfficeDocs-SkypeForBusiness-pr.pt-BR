@@ -220,7 +220,6 @@
 ### [O que são planos de discagem?](/microsoftteams/what-are-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Sistema de Telefonia no Office 365](/microsoftteams/what-is-phone-system-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Criar uma fila de chamadas do Sistema de Telefonia](../what-is-phone-system-in-office-365/create-a-phone-system-call-queue.md)
 ### [Obtendo telefones para o Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 #### [Implantando telefones do Skype for Business Online](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones.md)
 #### [Configuração de Telefones de Área Comum (CAP)](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/setting-up-common-area-phones.md)
@@ -230,11 +229,12 @@
 #### [Alterar o idioma padrão para emails e saudações de caixa postal em sua organização](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Idiomas de mensagens e saudações da caixa postal](/microsoftteams/languages-for-voicemail-greetings-and-messages?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](/microsoftteams/set-up-phone-system-voicemail?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
 ### [Configuração do Sistema de Telefonia na sua organização](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [O que são atendedores automáticos do Sistema de Telefonia?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Configurar o atendedor automático do Sistema de Telefonia](../what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md)
+#### [Configurar o atendedor automático do Sistema de Telefonia](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Exemplo de pequenos negócios - configurar um atendedor automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+### [Criar uma fila de chamadas do Sistema de Telefonia](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+
 
 
 ## [Configurar a rede para a Transmissão de Reunião do Skype](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
