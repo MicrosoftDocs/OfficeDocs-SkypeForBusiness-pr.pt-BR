@@ -20,67 +20,67 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envie aos sus usuários um e-mail com as informações da audioconferência no Microsoft Teams.
-ms.openlocfilehash: dc48f427fa0b2013332c5ef34d40bad94cea0a75
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: d6424a621f0edafcf574fcd6f6112b7ade6d09a0
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754693"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302669"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a><span data-ttu-id="2b268-103">Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2b268-103">Send an email to a user with their Audio Conferencing information in Microsoft Teams</span></span>
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a><span data-ttu-id="70b15-103">Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="70b15-103">Send an email to a user with their Audio Conferencing information in Microsoft Teams</span></span>
 
-<span data-ttu-id="2b268-104">Às vezes, os usuários do Microsoft Teams podem precisar que você envie as informações da audioconferência.</span><span class="sxs-lookup"><span data-stu-id="2b268-104">Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information.</span></span> <span data-ttu-id="2b268-105">É possível fazer isso clicando em **Enviar informações de conferência por e-mail** nas propriedades de um usuário.</span><span class="sxs-lookup"><span data-stu-id="2b268-105">You can do this by clicking **Send conference info via email** under the properties for a user.</span></span> <span data-ttu-id="2b268-106">O e-mail enviado conterá todas as informações da audioconferência, incluindo:</span><span class="sxs-lookup"><span data-stu-id="2b268-106">When you send this email, it will contain all of the audio conferencing information, including:</span></span>
+<span data-ttu-id="70b15-104">Às vezes, os usuários do Microsoft Teams podem precisar que você envie as informações da audioconferência.</span><span class="sxs-lookup"><span data-stu-id="70b15-104">Sometimes Microsoft Teams users may need you to send them their Audio Conferencing information.</span></span> <span data-ttu-id="70b15-105">É possível fazer isso clicando em **Enviar informações de conferência por e-mail** nas propriedades de um usuário.</span><span class="sxs-lookup"><span data-stu-id="70b15-105">You can do this by clicking **Send conference info via email** under the properties for a user.</span></span> <span data-ttu-id="70b15-106">O e-mail enviado conterá todas as informações da audioconferência, incluindo:</span><span class="sxs-lookup"><span data-stu-id="70b15-106">When you send this email, it will contain all of the audio conferencing information, including:</span></span>
   
-- <span data-ttu-id="2b268-107">O número de telefone ou de discagem da conferência para o usuário.</span><span class="sxs-lookup"><span data-stu-id="2b268-107">The conference phone or dial-in phone number for the user.</span></span>
+- <span data-ttu-id="70b15-107">O número de telefone ou de discagem da conferência para o usuário.</span><span class="sxs-lookup"><span data-stu-id="70b15-107">The conference phone or dial-in phone number for the user.</span></span>
     
-- <span data-ttu-id="2b268-108">O ID de conferência do usuário.</span><span class="sxs-lookup"><span data-stu-id="2b268-108">The user's conference ID.</span></span>
+- <span data-ttu-id="70b15-108">O ID de conferência do usuário.</span><span class="sxs-lookup"><span data-stu-id="70b15-108">The user's conference ID.</span></span>
     
    
-<span data-ttu-id="2b268-109">Aqui está um exemplo do e-mail que é enviado:</span><span class="sxs-lookup"><span data-stu-id="2b268-109">Here is an example of the email that is sent:</span></span>
+<span data-ttu-id="70b15-109">Aqui está um exemplo do e-mail que é enviado:</span><span class="sxs-lookup"><span data-stu-id="70b15-109">Here is an example of the email that is sent:</span></span>
   
-![E-mail para conferência de discagem](media/audio-conferencing-info.png)
+![E-mail para conferência de discagem](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a><span data-ttu-id="2b268-111">Enviar um e-mail com as informações da audioconferência para um usuário</span><span class="sxs-lookup"><span data-stu-id="2b268-111">Send an email with audio conferencing information to a user</span></span>
+## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a><span data-ttu-id="70b15-111">Enviar um e-mail com as informações da audioconferência para um usuário</span><span class="sxs-lookup"><span data-stu-id="70b15-111">Send an email with audio conferencing information to a user</span></span>
 
-### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) <span data-ttu-id="2b268-113">Usando o Centro de administração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="2b268-113">Using the Microsoft Teams admin center</span></span>
+### <a name="teams-logo-30x30pngmediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![as equipes de logotipo-30x30.png](media/teams-logo-30x30.png) <span data-ttu-id="70b15-113">Usando o Centro de administração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="70b15-113">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="2b268-114">No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.</span><span class="sxs-lookup"><span data-stu-id="2b268-114">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
+1. <span data-ttu-id="70b15-114">No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.</span><span class="sxs-lookup"><span data-stu-id="70b15-114">In the left navigation, click **Users**, and then select the user from the list of available users.</span></span>
 
-2. <span data-ttu-id="2b268-115">Na parte superior da página, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2b268-115">At the top of the page, click **Edit**.</span></span>
+2. <span data-ttu-id="70b15-115">Na parte superior da página, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="70b15-115">At the top of the page, click **Edit**.</span></span>
 
-3. <span data-ttu-id="2b268-116">Em **Conferência de áudio**, clique em **Enviar informações de conferência no email**.</span><span class="sxs-lookup"><span data-stu-id="2b268-116">Under **Audio Conferencing**, click **Send conference info in email**.</span></span>
+3. <span data-ttu-id="70b15-116">Em **Conferência de áudio**, clique em **Enviar informações de conferência no email**.</span><span class="sxs-lookup"><span data-stu-id="70b15-116">Under **Audio Conferencing**, click **Send conference info in email**.</span></span>
 
 
-## <a name="what-else-should-you-know-about-this-email"></a><span data-ttu-id="2b268-117">O que mais devo saber sobre esse email?</span><span class="sxs-lookup"><span data-stu-id="2b268-117">What else should you know about this email?</span></span>
+## <a name="what-else-should-you-know-about-this-email"></a><span data-ttu-id="70b15-117">O que mais devo saber sobre esse email?</span><span class="sxs-lookup"><span data-stu-id="70b15-117">What else should you know about this email?</span></span>
 
-- <span data-ttu-id="2b268-118">Há vários emails que serão enviadas aos usuários em sua organização depois que eles estão habilitados para conferência de áudio:</span><span class="sxs-lookup"><span data-stu-id="2b268-118">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
+- <span data-ttu-id="70b15-118">Há vários emails que serão enviadas aos usuários em sua organização depois que eles estão habilitados para conferência de áudio:</span><span class="sxs-lookup"><span data-stu-id="70b15-118">There are several emails that are sent to users in your organization after they are enabled for audio conferencing:</span></span>
     
-  - <span data-ttu-id="2b268-119">Quando uma licença de **Conferência de áudio** é atribuída a eles.</span><span class="sxs-lookup"><span data-stu-id="2b268-119">When an **Audio Conferencing** license is assigned to them.</span></span>
+  - <span data-ttu-id="70b15-119">Quando uma licença de **Conferência de áudio** é atribuída a eles.</span><span class="sxs-lookup"><span data-stu-id="70b15-119">When an **Audio Conferencing** license is assigned to them.</span></span>
     
-  - <span data-ttu-id="2b268-120">Quando você redefinir manualmente os serviços de audioconferência PIN do usuário.</span><span class="sxs-lookup"><span data-stu-id="2b268-120">When you manually reset the user's audio conferencing PIN.</span></span>
+  - <span data-ttu-id="70b15-120">Quando você redefinir manualmente os serviços de audioconferência PIN do usuário.</span><span class="sxs-lookup"><span data-stu-id="70b15-120">When you manually reset the user's audio conferencing PIN.</span></span>
     
-  - <span data-ttu-id="2b268-121">Quando você redefine manualmente o ID de conferência do usuário.</span><span class="sxs-lookup"><span data-stu-id="2b268-121">When you manually reset the user's conference ID.</span></span>
+  - <span data-ttu-id="70b15-121">Quando você redefine manualmente o ID de conferência do usuário.</span><span class="sxs-lookup"><span data-stu-id="70b15-121">When you manually reset the user's conference ID.</span></span>
     
-  - <span data-ttu-id="2b268-122">Quando uma licença de **Conferência de áudio** seja removida deles.</span><span class="sxs-lookup"><span data-stu-id="2b268-122">When an **Audio Conferencing** license is removed from them.</span></span>
+  - <span data-ttu-id="70b15-122">Quando uma licença de **Conferência de áudio** seja removida deles.</span><span class="sxs-lookup"><span data-stu-id="70b15-122">When an **Audio Conferencing** license is removed from them.</span></span>
     
-  - <span data-ttu-id="2b268-123">Quando o provedor de serviços de audioconferência para um usuário mudou da Microsoft para outro provedor ou **Nenhum**.</span><span class="sxs-lookup"><span data-stu-id="2b268-123">When the audio conferencing provider for a user is changed from Microsoft to another provider or **None**.</span></span>
+  - <span data-ttu-id="70b15-123">Quando o provedor de serviços de audioconferência para um usuário mudou da Microsoft para outro provedor ou **Nenhum**.</span><span class="sxs-lookup"><span data-stu-id="70b15-123">When the audio conferencing provider for a user is changed from Microsoft to another provider or **None**.</span></span>
     
-  - <span data-ttu-id="2b268-124">Quando o provedor de serviços de audioconferência para um usuário é alterado para Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2b268-124">When the audio conferencing provider for a user is changed to Microsoft.</span></span>
+  - <span data-ttu-id="70b15-124">Quando o provedor de serviços de audioconferência para um usuário é alterado para Microsoft.</span><span class="sxs-lookup"><span data-stu-id="70b15-124">When the audio conferencing provider for a user is changed to Microsoft.</span></span>
   
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="2b268-125">Deseja saber mais sobre o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="2b268-125">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="70b15-125">Deseja saber mais sobre o Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="70b15-125">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="2b268-p102">O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="2b268-p102">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="70b15-p102">O Windows PowerShell gerencia os usuários e o que eles podem ou não fazer. Com o Windows PowerShell, você pode gerenciar o Office 365 usando um ponto único de administração para simplificar seu trabalho diário quando houver várias tarefas a serem feitas. Para começar a usar o Windows PowerShell, consulte estes tópicos:</span><span class="sxs-lookup"><span data-stu-id="70b15-p102">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="2b268-129">Por que você precisa usar o PowerShell do Office 365</span><span class="sxs-lookup"><span data-stu-id="2b268-129">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="70b15-129">Por que você precisa usar o PowerShell do Office 365</span><span class="sxs-lookup"><span data-stu-id="70b15-129">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="2b268-130">Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2b268-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="70b15-130">Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="70b15-130">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="2b268-131">Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="2b268-131">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="70b15-131">Para obter mais informações sobre o Windows PowerShell, consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obter mais informações.</span><span class="sxs-lookup"><span data-stu-id="70b15-131">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
   
-## <a name="related-topics"></a><span data-ttu-id="2b268-132">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="2b268-132">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="70b15-132">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="70b15-132">Related topics</span></span>
 
-[<span data-ttu-id="2b268-133">Experimentar ou comprar a audioconferência no Office 365</span><span class="sxs-lookup"><span data-stu-id="2b268-133">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="70b15-133">Experimentar ou comprar a audioconferência no Office 365</span><span class="sxs-lookup"><span data-stu-id="70b15-133">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
