@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativo no Microsoft Teams e como usá-los para aplicativos de pin para personalizar as equipes para usuários em sua organização.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e6ad41dac9021079bffa80284809733c39f3cc9
-ms.sourcegitcommit: ad126165b6440b98e550ab48e6b3491aeba9402b
+ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30205759"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302685"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -47,7 +47,7 @@ Você pode editar as configurações na política global para incluir os aplicat
 
 Você pode usar o Centro de administração do Microsoft Teams ou o Windows PowerShell para criar uma política personalizada.
 
-1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes app** > **políticas de configuração de aplicativo**.
+1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de configuração de aplicativo**.
 2. Selecione **nova política**.
 3. Insira um nome descritivo para a política e, em seguida, clique em **Adicionar aplicativos**.
 4. No painel **Adicionar fixados apps** , pesquise os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**.  Para ver uma lista de todos os aplicativos, selecione **armazenar equipes app**. Quando você tiver escolhido sua lista de aplicativos, clique em **Adicionar**.
@@ -62,7 +62,7 @@ Você pode usar o Centro de administração do Microsoft Teams ou o Windows Powe
 
 Você pode usar o Centro de administração do Microsoft Teams ou o Windows PowerShell para editar uma política, incluindo a política global de (padrão de toda a organização) e políticas personalizadas que você criar. 
 
-1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes app** > **políticas de configuração de aplicativo**.
+1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de configuração de aplicativo**.
 2. Selecione a política que você deseja editar. 
 3. A partir daqui, faça as alterações que você deseja. Você pode adicionar, remover e alterar a ordem dos aplicativos.
 4. Clique em **Salvar**. 
@@ -152,7 +152,7 @@ Atualmente, os usuários podem alterar a ordem dos seus aplicativos fixados em c
 
 ### <a name="custom-teams-apps"></a>Aplicativos personalizados de equipes
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-through-appsource-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Minha organização criado um aplicativo personalizado de equipes e publicado por meio de AppSource mas ícone do aplicativo não será exibido como esperado quando o aplicativo é vinculado à barra de aplicativos em equipes. Como corrigi-lo? 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Minha organização criado um aplicativo personalizado de equipes e publicá-lo, como AppSource ou o catálogo de aplicativos do inquilino, mas o ícone de aplicativo não será exibido como esperado quando o aplicativo é vinculado à barra de aplicativos em equipes. Como corrigi-lo? 
 
 Certifique-se de que você siga as diretrizes de logotipo antes de enviar o aplicativo. Para saber mais, consulte a [lista de verificação para envio de painel do vendedor](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 

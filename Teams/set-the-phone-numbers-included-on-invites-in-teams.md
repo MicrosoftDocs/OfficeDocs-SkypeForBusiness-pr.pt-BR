@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha as etapas para criar um número de telefone padrão para os chamadores ingressar em uma reunião do Microsoft Teams. '
-ms.openlocfilehash: 8cbe7a88d1fcb857ce94a95b2a9af7a159ccef5a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: a4e6ef573d7c6b5888beee9fc9278d65b883927f
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754555"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302677"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Definir os números de telefone incluídos em convites no Microsoft Teams
 
@@ -53,15 +53,15 @@ Depois que o usuário estiver habilitado para o serviço de conferência de áud
 
 1. No painel de navegação esquerdo, clique em **usuários**e, em seguida, selecione o usuário da lista de usuários disponíveis.
 
-    ![Mostra a seleção de usuários no Centro de administração do Microsoft Teams](media/teamsselectusers.png)
+    ![Mostra a seleção de usuários no Centro de administração do Microsoft Teams](media/teams-set-phone-numbers-on-invites-image1.png)
 
 2. Na parte superior da página, clique em **Editar**.
 
-    ![Clique em Editar no Centro de administração do Microsoft Teams](media/teamsedituser.png)
+    ![Clique em Editar no Centro de administração do Microsoft Teams](media/teams-set-phone-numbers-on-invites-image2.png)
 
 3. Ao lado de **Conferência de áudio**, clique em **Editar**. 
     
-    ![Clique em Editar ao lado de conferência de áudio](media/teamseditaudioconf.png)
+    ![Clique em Editar ao lado de conferência de áudio](media/teams-set-phone-numbers-on-invites-image3.png)
 
 4. Use os campos de **número de Chamada Tarifada** ou **número de chamada gratuito** para inserir os números para o usuário.
 

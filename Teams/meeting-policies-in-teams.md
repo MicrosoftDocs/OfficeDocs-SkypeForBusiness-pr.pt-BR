@@ -3,7 +3,7 @@ title: Gerenciar políticas de reunião
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 06/07/2018
+ms.date: 02/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -15,23 +15,25 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
-ms.openlocfilehash: 96b5008ebbdbcad2dc44234d861c4127c77ed69c
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 412deb1e8d671b40fd574d72a68f9dad15281645
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30056607"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302693"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes
 
-Políticas de reunião são usadas para controlar os recursos que estão disponíveis para a reunião de participantes por reunião agendados por usuários em sua organização. Depois de criar uma política e faça as alterações, você pode atribuir usa para a política. 
+Políticas de reunião são usadas para controlar os recursos disponíveis aos participantes para reuniões agendadas por usuários em sua organização da reunião. Depois de criar uma política e faça as alterações, você pode atribuir usuários à diretiva. 
 
 ## <a name="here-are-the-settings-you-can-change-to-fit-your-organization"></a>Aqui estão as configurações que podem ser alteradas para o mais adequado para sua organização
 <a name="bkgeneral"> </a>
 
-## <a name="general"></a>Geral
-   - **Nome** Este é o nome da política que aparecerão na página de políticas de reunião. Ele não pode conter chararcters especiais ou ser longa de 64 caracteres.
-   - **Descrição** Você pode colocar em uma descrição amigável para a política que você criar. Isso será útil se você deseja atribuir uma política a um grupo de usuários.
+### <a name="new-meeting-policy-name-and-description"></a>Nova reunião política nome e descrição
+   - **Nova política de reunião** Altere isso para o nome da política que aparecerão na página de políticas de reunião. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres.
+   - **Descrição** Você pode adicionar uma descrição amigável para a política que você criar. Isso será útil se você deseja atribuir uma política a um grupo de usuários.
+
+### <a name="general"></a>Geral
    - **Permitir reunir agora** Ativando isso permitirá que o recurso reunir agora esteja disponível aos usuários que ingressem em reuniões.
    - **Permitir que o suplemento do Outlook** Ativando isso permitirá que os usuários atribuídos à política tiver o suplemento Outlook disponível quando eles agendarem reuniões.
    - **Agendamento de reuniões de canal de permitir** Ativando isso permitirá que o agendamento de reuniões de canal.
@@ -39,7 +41,7 @@ Políticas de reunião são usadas para controlar os recursos que estão dispon�
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="audio--video"></a>Áudio & de vídeo
+### <a name="audio--video"></a>Áudio & de vídeo
    - **Permitir transcrição** Se você ativar isso, transcrições da reunião estarão disponíveis aos usuários.
    - **Permitir nuvem de gravação** Ativando isso permitirá gravações a serem salvos na nuvem.
    - **Permitir que o vídeo IP** Ativando isso permitirá que os vídeos IP durante as reuniões.
@@ -47,7 +49,7 @@ Políticas de reunião são usadas para controlar os recursos que estão dispon�
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="content-sharing"></a>Compartilhamento de conteúdo
+### <a name="content-sharing"></a>Compartilhamento de conteúdo
    - **Modo de compartilhamento de tela** Você pode selecionar a modo de compartilhamento de tela. Esse será o tamanho da tela que será usado durante uma reunião que um usuário atribuído com a diretiva pode usar.
    - **Permitir que um participante dar ou solicitar o controle** Isso permite que todos os participantes em uma reunião dar e solicitar o controle de compartilhamento de tela.
    - **Permitir que um participante externo dar ou solicitar o controle** Isso permite que um participante externo (alguém não faz parte da sua organização) dar e solicitar o controle de uma reunião quando a tela está sendo compartilhada.
@@ -57,9 +59,8 @@ Políticas de reunião são usadas para controlar os recursos que estão dispon�
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="participants--guests"></a>Convidados que & participantes
-   - **Permitir que usuários anônimos discagem** Se desejar que os participantes da reunião possam discar para adicionar outra pessoa, você pode ativar isso. Se você desativá-la, nenhum dos participantes da reunião possam discar para fora da reunião.
-   - **Permitir que os usuários anônimos para reuniões de iniciar** Se essa configuração estiver desativada, somente uma pessoa que tiverem sido autenticados para a reunião com um aplicativo de equipes pode iniciar a reunião. Se ele estiver ativado, qualquer pessoa pode iniciar a reunião.
-   - **Admitir automaticamente aos usuários** Se você desativar esse recurso, em seguida, os participantes da reunião serão deixados no lobby até que alguém inicia a reunião. Se ele estiver ativado, os participantes da reunião poderão automaticamente ingressar na reunião.
+### <a name="participants--guests"></a>Convidados que & participantes
+   - **Permitir que os usuários anônimos para reuniões de iniciar** Se essa configuração estiver desativada, apenas uma pessoa que tiverem sido autenticados para a reunião com um aplicativo de equipes pode iniciar a reunião. Se ele estiver ativado, qualquer pessoa pode iniciar a reunião.
+   - **Admitir automaticamente aos usuários** Se você desativar esse recurso, em seguida, os participantes da reunião serão deixados no lobby até que alguém inicia a reunião. Se ele estiver ativado, os participantes da reunião poderão ingressar na reunião automaticamente.
 
 

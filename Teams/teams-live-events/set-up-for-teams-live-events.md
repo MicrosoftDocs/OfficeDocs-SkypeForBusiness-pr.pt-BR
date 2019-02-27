@@ -14,12 +14,12 @@ description: Conheça as etapas para configurar ao vivo de eventos em equipes, i
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 078374652325d177e30db1d320f22e5d814ac548
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: aaa22e0b28d883c805eaddc1e01d3cf7d2cda450
+ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754780"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30302701"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -40,6 +40,7 @@ Eventos ao vivo, elas são usadas para controlar quem na sua organização pode 
 > Usuários em sua organização receberá a política global, a menos que você criar e atribuir uma política personalizada. Por padrão na política global, agendamento de evento ao vivo está habilitada para usuários de equipes, transcrições estiver desativada, todos na organização podem ingressar em eventos ao vivo e a configuração de gravação estiver definida para registrar sempre. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Criar ou editar uma política de eventos ao vivo
+<a name="bkcreatepolicy"> </a>
 
 **![as equipes de logotipo-30x30.png](../media/teams-logo-30x30.png) usando o Centro de administração do Microsoft Teams**
 
@@ -104,7 +105,7 @@ As seguintes soluções SDN/eCDN previamente são integradas e podem ser configu
 
 Depois de configurar a solução SDN ou eCDN, você está pronto para configurar o provedor para eventos ao vivo em equipes. 
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Vá para [Configure live em equipes nas configurações dos eventos](configure-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
