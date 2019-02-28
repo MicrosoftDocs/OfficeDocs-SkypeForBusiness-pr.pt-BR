@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: 39fa6de27b6ff4f662955ac3cf36d7826379d753
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 664c459f85d3a6657c0e556d19d92b7b278f0aee
+ms.sourcegitcommit: ea1085228894ae448f575f9e13a9f25a1f47e636
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754724"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "30312272"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 
@@ -32,6 +32,9 @@ Siga as etapas descritas neste artigo quando:
 - Deseja que qualquer pessoa no mundo que usa as equipes possam encontrar e contatá-lo, usando seu endereço de email. Se você e outro usuário habilitar o acesso externo e permitem uns dos outros domínios, isso funcionará. Se ela não funcionar, o outro usuário verifique se seu ou sua configuração não está bloqueando o seu domínio.
 
 Isso permitirá que os usuários a localizar, chamar e lhe enviar mensagens instantâneas, bem como configurar reuniões com você. Se desejar que os usuários externos tenham acesso às equipes e canais, acesso de convidado pode ser uma melhor maneira de ir. Siga as etapas neste artigo e certifique-se para [Ativar o acesso de convidado](set-up-guests.md) para que os usuários podem se comunicar.
+
+> [!IMPORTANT]
+> Para federar atualmente no cliente Microsoft Teams a um usuário externo fora da sua organização que não está sendo convidado de seu locatário do AAD /, você deve ser corretamente configurado para o híbrido e movida para Skype para Business Online. A partir de 25/2/2019, equipes ainda não oferece suporte nativa federação sem que o usuário do SIP perfil sendo hospedado no Skype para negócios Online. Para obter mais informações sobre a configuração de backup de sua conta para o híbrido e depois movido para equipes, consulte [Atualizar Skype para implantação híbrida do Business às equipes](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
 ## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 

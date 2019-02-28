@@ -192,7 +192,6 @@
 
 
 ## [Interoperabilidade de vídeo de nuvem](cloud-video-interop.md)
-### [Configurar a interoperabilidade de vídeo de nuvem](cloud-video-interop-for-teams-set-up.md)
 
 ## Eventos ao vivo
 ### [Quais são as equipes live eventos?](teams-live-events/what-are-teams-live-events.md)
