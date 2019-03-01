@@ -3,7 +3,7 @@ title: Problemas conhecidos do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/19/2019
+ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178577"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342099"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -32,7 +32,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/pt-BR/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -43,6 +43,10 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |O gerenciamento de administração dos Conectores de todo o locatário não está mais disponível  <br/> |Ao tentar adicionar um conector na versão de cliente e online, ocorre o erro: Erro inesperado. Tente novamente. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Desabilite com as configurações do Microsoft Teams. Veja este artigo de suporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/06/17  <br/> |
 
 ## <a name="apps"></a>Aplicativos
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|O [Acesso Condicional](https://docs.microsoft.com/pt-BR/azure/active-directory/conditional-access/overview) pode não funcionar ao usar a guia "Site" no aplicativo da área de trabalho<br/> |Se um site, como um portal de intranet, tiver políticas de acesso condicional (como restrições de navegador ou endereço IP), esse site poderá não ser renderizado como uma guia dentro do Teams no aplicativo da área de trabalho. <br/> |Use o Teams em um navegador em vez de usar o aplicativo da área de trabalho.  <br/> |1/7/18  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -163,7 +167,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os usuários não podem acessar Reuniões/Conectores, mas têm caixas de correio do Exchange Online. <br/> |O cliente bloqueia ativamente o EWS de serviços no Exchange Online, mas o MS Teams precisa estar em conformidade com as políticas do EWS. <br/> | <br/> Para obter mais informações, confira: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
+|Os usuários não podem acessar Reuniões/Conectores, mas têm caixas de correio do Exchange Online. <br/> |O cliente bloqueia ativamente o EWS de serviços no Exchange Online, mas o MS Teams precisa estar em conformidade com as políticas do EWS. <br/> |Para que o MS Teams esteja em conformidade, você deve adicionar a seguinte Cadeia de Caracteres de Agente de Usuário ao MS Teams em EWSAllowList: `SkypeSpaces/*` e `MicrosoftNinja/*`, incluindo os asteriscos. Pode ser usado o seguinte comando: `Set-organizationconfig -EwsAllowList @{Add="MicrosoftNinja/*","SkypeSpaces/*"}`<br/> Para obter mais informações, confira: https://docs.microsoft.com/powershell/module/exchange/organization/Set-OrganizationConfig?view=exchange-ps. <br/> |30/05/2017  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -226,6 +230,10 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
+|Guias de site geram confusão para o cliente  <br/> |As guias de site não são equivalentes às de um navegador. Diversos sites, especialmente aqueles que exigem autenticação ou uso de pop-ups, não funcionarão quando forem exibidos como uma guia de site.  <br/> |Estamos trabalhando para melhorar a interface do usuário e torná-la mais clara para os clientes.  <br/> |02/05/2018  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
 |Guias que não funcionam desde que o Acesso Condicional foi habilitado <br/> |Algumas guias podem não ser mais carregadas no Cliente de Desktop desde que o Acesso Condicional foi habilitado no locatário. As guias são carregadas ao ser usado o Cliente Web. Algumas guias que podem ser afetadas são: PowerBI, Forms, VSTS, PowerApps e Lista do SharePoint.  <br/> |Para ver as guias afetadas, você deve usar o Microsoft Teams no Microsoft Edge, no IE ou no Chrome com a extensão de Contas do Windows 10 instalada. Algumas guias ainda dependem da autenticação da Web, que não funciona no Cliente de Desktop quando o AC está habilitado. Estamos trabalhando com parceiros para habilitar esses cenários. Até agora, habilitamos o Planner, o OneNote e o Stream. <br/> |05/04/2018  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -282,3 +290,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |:-----|:-----|:-----|:-----|
 |O aplicativo da área de trabalho do Teams mostra uma tela em branco  <br/> | <br/> |Tente excluir ou reinstalar os drivers gráficos no computador ou inicie as o Microsoft Teams por meio de uma linha de comando com um sinalizador de desabilitação de GPU:<ul><li>Para o Windows: abra o prompt de comando e insira o seguinte: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Para o Mac: inicie o Terminal e insira o seguinte: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Usuário não recebe o email de boas-vindas quando adicionado administrativamente  <br/> |Ao adicionar um membro a uma equipe usando o PowerShell ou o Centro de administração do Teams, ele não recebe um email de boas-vindas do Microsoft Teams  <br/> |Adicionar um membro a partir da interface do usuário do Teams diretamente enviará um email. Atualmente, não há solução alternativa administrativamente.  <br/> |12/2/2019  <br/> |
