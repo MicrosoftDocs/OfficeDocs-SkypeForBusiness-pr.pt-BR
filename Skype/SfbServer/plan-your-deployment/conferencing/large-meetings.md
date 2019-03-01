@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumo: Leia este tópico para saber mais sobre práticas recomendadas para implementar e gerenciar grandes reuniões em Skype para Business Server.'
-ms.openlocfilehash: 0d78a679414ec9287837e494d94bdc708879f863
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d77a3b3fa5f989f36fd9097499de0fd75991b5e4
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20970504"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342209"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planejar para grandes reuniões em Skype para Business Server
  
@@ -26,7 +26,7 @@ O tamanho de reuniões que suporta o Skype para Business Server depende se a con
 > Este tópico se concentra em práticas recomendadas para grandes reuniões suportados pelo Skype para Business Server. Se sua organização requer maiores capacidades de reunião, você deve considerar a implementação de um ambiente híbrido que tiram vantagens do Skype transmitir reunião, um novo serviço online que faz parte do Office 365. 
 
 > [!NOTE]
-> A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. Todos os usuários devem estabelecer um locatário online, isso é um pré-requisito. Se você está interessado Implantando uma solução híbrida que podem tirar proveito da transmissão do Skype reunião, consulte [o que é uma transmissão do Skype reunião?](https://go.microsoft.com/fwlink/?LinkId=617071) e [configurar sua implantação no local para transmissão do Skype reunião](../../deploy/configure-skype-meeting-broadcast.md). 
+> A Transmissão de Reunião do Skype habilita os usuários a hospedarem e divulgarem a grandes públicos online reuniões com até 10.000 participantes. O uso de Transmissão de Reunião do Skype exige que o Skype for Business Server esteja configurado como híbrido em um locatário do Office 365 de produção. Todos os usuários devem estabelecer um locatário online, isso é um pré-requisito. Se estiver interessado em implantar uma solução híbrida capaz de aproveitar a Transmissão de Reunião do Skype, consulte [O que é uma Transmissão de Reunião do Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) e [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Grandes reuniões costumam ter as seguintes características:
   
@@ -101,6 +101,7 @@ Moderador reunião pode usar todas as funcionalidades do apresentador do Skype p
 - Retirar a voz e inserir voz do público ou usuários individuais
     
 - Gerenciar o conteúdo da reunião, incluindo carregar conteúdo, excluir conteúdo e trocar o conteúdo ativo
+
     
 ### <a name="maintain-a-separate-calendar"></a>Mantenha um calendário separado
 
@@ -186,6 +187,8 @@ Crie uma nova política de conferência específica para grandes reuniões e, de
     
 > [!NOTE]
 > Suporte para grandes reuniões em Skype para Business Server requer que a configuração de **AllowLargeMeetings** seja definido como true. Quando essa configuração estiver definida como true, o Skype para experiência de negócios será otimizada para reuniões extra grandes quando os usuários ingressem na reunião. Especificamente, em uma reunião grande, Skype para negócios não mostrará a atualização da lista de participantes completo de reunião, que é um gargalo de desempenho para o cliente e Skype para Business Server ou inicial. Em vez disso, o Skype para negócios mostrará apenas informações sobre o usuário e a lista de apresentadores da reunião. Skype para negócios ainda mostrará o número total de participantes disponíveis em grandes reuniões.
+
+
   
 Exceto pela configuração **Tamanho máximo das reuniões**, todas as outras configurações de política de conferência especificadas aqui são obrigatórias para desativar as funcionalidades de conferência que não são necessárias em grandes reuniões.
   

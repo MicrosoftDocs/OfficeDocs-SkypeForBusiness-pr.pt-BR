@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 028ce0fe9e1fd30f96b157cd8fd82acd8f5d1268
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743001"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342193"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -56,7 +56,7 @@ Neste modo de coexistência, chamado **Ilhas**, cada um dos aplicativos cliente 
 
 Neste modo de coexistência, usuários permanecem no Skype para negócios — não às equipes — para bate-papo, reunião e chamando os recursos e eles não usam equipes para equipes e canais. Esse modo está disponível atualmente; No entanto, na implementação atual modalidades de equipes não sejam desativadas para o usuário automaticamente. Esse recurso é futuro. Enquanto isso, os administradores podem remover a licença de equipes para todos os usuários que precisam ficar em Skype para negócios como seu aplicativo de comunicação somente.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>As equipes apenas (esse modo iniciado sem interrupção abrindo verão 2018 e serão concluídas a todos os locatários no ano civil 2019)
+### <a name="teams-only"></a>Somente as equipes
 
 Um usuário de **equipes apenas** só pode usar o Skype para o cliente de negócios para ingressar Skype existente para reuniões de negócios ou reuniões em Skype for Business que foram organizadas por usuários não atualizado ou parceiros externos. Um usuário atualizado pode continuar a se comunicar com outros usuários na organização que ainda estejam usando Skype para negócios usando os recursos de interoperabilidade entre equipes e Skype para negócios; No entanto, um usuário atualizado não é possível iniciar uma Skype para negócios bate-papo, chamada ou reunião.
 
@@ -84,7 +84,7 @@ Para obter mais detalhes sobre modos de coexistência, pré-requisitos e gerenci
 | | | |
 |---|---|---|
 |<img src="media/audio_conferencing_image7.png" />|Ponto de decisão|<ul><li>Quais mode(s) coexistência melhor atendem às necessidades de sua organização e dos usuários?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximo passo|<ul><li>Escolha a melhor abordagem para sua jornada de atualização.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próxima etapa|<ul><li>Escolha a melhor abordagem para sua jornada de atualização.</li></ul>|
 
 ## <a name="interoperability-of-teams-and-skype-for-business"></a>Interoperabilidade de equipes e Skype para negócios
 

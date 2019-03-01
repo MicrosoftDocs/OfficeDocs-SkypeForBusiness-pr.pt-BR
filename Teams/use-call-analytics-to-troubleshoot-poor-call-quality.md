@@ -1,5 +1,5 @@
 ---
-title: Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas
+title: Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Use os detalhes de chamada análise sobre dispositivos, redes e conectividade para solucionar problemas de usuário com o Microsoft Teams e Skype para reuniões e chamadas comerciais.
-ms.openlocfilehash: 3e35a72150d74580d1f44623583419b37e3ad1c5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 9a76b683e31a0d48464b42de761108b26c8da459
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754061"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342185"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
 Análise de chamada ajuda a solucionar problemas de chamada ou conexão com o Microsoft Teams e Skype para negócios. Análise de chamada mostra informações detalhadas sobre os dispositivos, redes e conectividade para as chamadas e reuniões de cada usuário na sua conta do Office 365. Se criando, site e de inquilinos informações foram adicionadas para análise de chamada, ele também será mostrado para cada chamada e a sessão. Informações disponíveis por meio da análise de chamada podem ajudá-lo a descobrir por que um usuário teve uma chamada de baixa ou experiência da reunião. 
   
@@ -60,21 +60,19 @@ Consulte suas equipes e Skype for Business admin se você precisa de ajuda com p
 
 1. Entrar com seu suporte a comunicações equipes ou credenciais de administrador de equipes.
 
-2. Vá para o Centro de administração do Office 365 e entrar usando sua conta do trabalho ou da escola. Em seguida, no seu navegador da web, vá para *https://adminportal.services.skypeforbusiness.com*.
-
-3. Selecione **Admin centrais** > **& equipes Skype**. 
+2. No navegador da web, vá para *https://admin.teams.microsoft.com*.
     
-4. No **Painel de controle**, em **Pesquisa de usuário**, comece a digitar o nome ou endereço sip do usuário cujas chamadas que você deseja resolver ou selecione **Exibir usuários** para ver uma lista de usuários.
+3. No **Painel de controle**, em **Pesquisa de usuário**, comece a digitar o nome ou endereço sip do usuário cujas chamadas que você deseja resolver ou selecione **Exibir usuários** para ver uma lista de usuários.
     
     ![Captura de tela da caixa de pesquisa de usuário do Analytics chamada no Centro de administração do Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
-5. Selecione o usuário na lista.
+4. Selecione o usuário na lista.
 
-6. Selecione o **histórico de chamadas**e selecione a chamada ou reunião que você deseja resolver.
+5. Selecione o **histórico de chamadas**e selecione a chamada ou reunião que você deseja resolver.
     
     ![Captura de tela mostra a página do histórico de chamada para um usuário.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
-7. Selecione a guia **Avançado** e, em seguida, procure por itens amarelos e vermelhos que indicam problemas de chamada de baixa qualidade ou conexão.
+6. Selecione a guia **Avançado** e, em seguida, procure por itens amarelos e vermelhos que indicam problemas de chamada de baixa qualidade ou conexão.
     
     Nos detalhes da sessão para cada chamada ou reunião, pequenos problemas serão exibidas em amarelo. (Por exemplo, a seguinte captura de tela, os valores são em amarelo para variação média, tremulação máxima e taxa de perda de pacote média.) Se algo é amarelo, ele estiver fora do intervalo normal e ele pode estar contribuindo para o problema, mas é improvável de ser a causa principal do problema. Se algo é vermelho, é um problema significativo e provavelmente é o principal motivo da qualidade da chamada ruim para esta sessão. 
     
@@ -91,9 +89,9 @@ Para sessões de áudio que tenham dados qualidade da experiência (QoE), a tabe
 |Dispositivo não funcionando  <br/> |Dispositivo  <br/> | Um dispositivo não está funcionando corretamente. Dispositivo não funcionando taxas é: <br/>  Gt _ de DeviceRenderNotFunctioningEventRatio = 0,005 <br/>  Gt _ de DeviceCaptureNotFunctioningEventRatio = 0,005 <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar a análise de chamada](set-up-call-analytics.md)
+[Configurar Análise de Chamada](set-up-call-analytics.md)
 
-[Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

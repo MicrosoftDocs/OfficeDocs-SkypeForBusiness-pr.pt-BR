@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: Saiba como usar as diferentes funções administrativas para gerenciar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 824c9d93c98bb1f6fd9af0cbb93bac24f84e926e
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 2e031c1bee98fc1790f39e888063353087a82422
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754311"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342177"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams
 
@@ -29,7 +29,7 @@ Há quatro funções de administrador de equipes: administrador de serviço de e
 
 | Função | Pode fazer essas tarefas | Pode acessar as seguintes ferramentas |
 |----- | ------------------ | ------------------------------ |
-| Administrador de Serviço de Equipes | Gerenciar o serviço Microsoft Teams, gerenciar e criar grupos do Office 365 | Tudo no Centro de administração do Microsoft Teams e controles de PowerShell associados, incluindo:<br><br> Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Gerenciar mensagens, incluindo mensagens de políticas<sup>1,3</sup><br><br> Gerenciar todas as configurações de toda a organização, incluindo configurações de cliente equipes<sup>1,3</sup> , equipes de atualização e federação<br><br> Gerenciar as equipes na organização e suas configurações associadas, incluindo a associação (suportado via PowerShell, gerenciamento de equipe no portal de administração de aplicação do gerenciamento de grupo) <sup>23</sup><br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
+| Administrador de Serviço de Equipes | Gerenciar o serviço Microsoft Teams, gerenciar e criar grupos do Office 365 | Tudo no Centro de administração do Microsoft Teams e controles de PowerShell associados, incluindo:<br><br> Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Gerenciar mensagens, incluindo mensagens de políticas<sup>1,3</sup><br><br> Gerenciar todas as configurações de toda a organização, incluindo configurações de cliente equipes<sup>1,3</sup> , equipes de atualização e federação<br><br> Gerenciar as equipes na organização e suas configurações associadas, incluindo a associação (suportado via PowerShell, gerenciamento de equipe no portal de administração de aplicação do gerenciamento de grupo) <sup>23</sup><br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> <br><br> Acessar, monitorar e solucionar problemas de chamada de locatário qualidade e confiabilidade usando dados exponham no painel de qualidade de chamada (CQD). Criar novos relatórios, atualizar e remover relatórios, conforme necessário. Carregar e atualizar dados de construção de CQD |
 | Administrador de Comunicações de Equipes | Gerenciar recursos de chamadas e reuniões no serviço Microsoft Teams | Gerenciar reuniões, incluindo conferência, configurações e políticas de pontes<sup>1,3</sup> de reunião<br><br> Gerenciar voice, incluindo chamar políticas e de inventário e atribuição número<sup>1</sup> de telefone<br><br> Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
 | Engenheiro de Suporte de Comunicações de Equipes | Solucionar problemas de comunicação em equipes usando ferramentas **avançadas** . | Exibir a página de perfil de usuário e solucionar problemas de qualidade de chamada do usuário usando de conjunto de ferramentas de solução de problemas avançados<sup>3</sup> |
 | Especialista de suporte de comunicação de equipes | Solucionar problemas de comunicação dentro de equipes, usando as ferramentas **básicas** .| Acesso à página de perfil de usuário para solucionar problemas de chamadas na análise de chamada. Só pode exibir informações do usuário específico que está sendo pesquisado.<sup>3</sup>

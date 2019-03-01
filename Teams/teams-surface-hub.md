@@ -1,5 +1,5 @@
 ---
-title: Implantar as equipes da Microsoft para o Hub de superfície
+title: Implantar o Microsoft Teams para o Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,20 +16,22 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
-ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
+ms.openlocfilehash: 8a97e651e703146c07450229fb4958116d0fd8a2
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27131999"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342201"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar as equipes da Microsoft para o Hub de superfície
+<a name="deploy-microsoft-teams-for-surface-hub"></a>Implantar o Microsoft Teams para o Surface Hub
 ======================================
 
-Antes de implantar Teams da Microsoft para Microsoft Surface Hub, certifique-se de que você cumpre o hardware, sistema operacional e outros requisitos. Para obter mais informações, consulte o [guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).
+Antes de instalar as equipes do Hub de superfície, certifique-se de fazer o seguinte:
 
-> [!NOTE]
-> Se você estiver fazer a transição do Skype para Business Online, será necessário confirmar que uma licença do Microsoft Teams é atribuída ao usuário.
+ Hardware do □ tornar-se de que, sistema operacional e outros requisitos são atendidos. Para obter mais informações, consulte o [guia de administração do Microsoft Surface Hub](https://docs.microsoft.com/surface-hub/).<br>
+ □ Verifique se a atualização mínima do sistema operacional necessária para equipes está instalada - [KB4343889](https://support.microsoft.com/help/4343889).<br>
+ □ Atribuir uma licença de equipes para a conta de dispositivo de Hub.<br>
+ □ Se você estiver transição do Skype para negócios Online, confirme que uma licença de equipes é atribuída ao usuário.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalar equipes para o Hub de superfície do repositório de Microsoft 
 
@@ -37,7 +39,7 @@ Essas instruções são para a instalação de equipes para o Hub de superfície
  
 1. Inicie o repositório da Microsoft:<br>
    a. Toque em **Iniciar** > **todos os aplicativos** > **configurações**.<br> b. Toque em **conta de dispositivo do Hub de superfície, gerenciamento**.<br>
-   c. À esquerda, toque em da guia **aplicativos e recursos** .<br> d. À direita, toque no botão **Abrir armazenamento** . 
+   c. À esquerda, toque na guia **aplicativos & recursos** .<br> d. À direita, toque no botão **Abrir armazenamento** . 
 2. Do Microsoft Store, procure *As equipes da Microsoft*. As **Equipes da Microsoft para o Hub de superfície** será exibida. Toque no botão **obter o aplicativo** para instalar.  
 3. Quando a instalação estiver concluída, reinicie o Hub de superfície. 
 

@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implante um sempre no grupo de disponibilidade na sua Skype (instalação) para o Business Server deployment.
-ms.openlocfilehash: eaf0c935f246cfdd00aa0707475442c88dc89b8a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374369"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342216"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implantar um grupo de disponibilidade sempre ativada em um servidor de Back-End no Skype para Business Server
  
@@ -55,7 +55,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Selecione os servidores a serem adicionados ao cluster e clique em **Executar todos os testes**.
     
-   - Na caixa de**Resumo** , verifique quaisquer erros que o Assistente de relatórios. Clique em **Concluir** para concluir a validação.
+   - Na caixa **Resumo**, verifique os erros relatados pelo assistente. Clique em **Concluir** para concluir a validação.
     
      O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
@@ -119,7 +119,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Na página Validação, confira se as verificações de validação foram bem-sucedidas e, em seguida, clique em **Avançar**.
     
-   - Na página**Resumo** , verifique se todas as configurações e clique em Concluir.
+   - Na página **Resumo**, verifique todas as configurações e clique em Concluir.
     
 7. Use o construtor de topologias para criar o pool de Front-End, conforme explicado em [criar e publicar a nova topologia no Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Quando você fizer isso, especifique a AG como o repositório SQL para o pool.
     
@@ -161,7 +161,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
    Get-CsPool -Identity <Pool FQDN>
    ```
 
-2. Usar o Construtor de Topologias para remover o espelhamento de banco de dados do pool
+2. Use o construtor de topologias para remover o espelhamento de banco de dados do pool.
     
    - Abra o construtor de topologia. Em sua topologia, expanda **Pools de Front-Ends Enterprise Edition**, clique com o botão direito do mouse no nome do pool e clique em **Editar Propriedades**.
     
@@ -195,7 +195,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Selecione os servidores a serem adicionados ao cluster e clique em **Executar todos os testes**.
     
-   - Na caixa de**Resumo** , verifique quaisquer erros que o Assistente de relatórios. Clique em **Concluir** para concluir a validação.
+   - Na caixa **Resumo**, verifique os erros relatados pelo assistente. Clique em **Concluir** para concluir a validação.
     
      O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
@@ -279,7 +279,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
     - Quando tiver certeza de que todos os bancos de dados necessários são definidos como a AG, clique em **Okey**.
     
-13. Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, em **Publicar**. Na página de confirmação, clique em **Avançar**.
+13. Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**.
     
 14. Execute algumas etapas finais para certificar-se de que os logons do SQL estão em cada uma das réplicas no grupo de disponibilidade do AlwaysOn.
     
@@ -327,7 +327,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Selecione os servidores a serem adicionados ao cluster e clique em **Executar todos os testes**.
     
-   - Na caixa de**Resumo** , verifique quaisquer erros que o Assistente de relatórios. Clique em **Concluir** para concluir a validação.
+   - Na caixa **Resumo**, verifique os erros relatados pelo assistente. Clique em **Concluir** para concluir a validação.
     
      O assistente provavelmente mostrará diversos avisos, especialmente se você não estiver usando armazenamento compartilhado. Não é necessário usar o armazenamento compartilhado. No entanto, se você vir alguma mensagem de **Erro**, deverá corrigir esses problemas antes de continuar.
     
@@ -411,7 +411,7 @@ Como você implanta uma AG depende se você estiver implantando em um novo pool,
     
    - Quando tiver certeza de que todos os bancos de dados necessários são definidos como a AG, clique em **Okey**.
     
-9. Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, em **Publicar**. Na página de confirmação, clique em **Avançar**.
+9. Publique a topologia. No menu **Ação**, clique em **Topologia** e, em seguida, **Publicar**. Na página de confirmação, clique em **Avançar**.
     
 10. Execute algumas etapas finais para certificar-se de que os logons do SQL estão em cada uma das réplicas na AG.
     
