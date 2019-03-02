@@ -1,5 +1,5 @@
 ---
-title: Restrições de discagem gratuita na Malásia
+title: Restrições de discagem de chamada gratuita na Malásia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: a2b93ab5-3b6e-4fad-b705-e4ca63799abd
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: cae0d9866b08db90c041c96f657954d2c0d7f9e9
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: bf33e945991865512474e0cdf8ad50438cb92c95
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047228"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351158"
 ---
-# <a name="toll-free-dialing-restrictions-in-malaysia"></a>Restrições de discagem gratuita na Malásia
+# <a name="toll-free-dialing-restrictions-in-malaysia"></a>Restrições de discagem de chamada gratuita na Malásia
 
 [Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
 

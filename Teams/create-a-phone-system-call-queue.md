@@ -1,5 +1,5 @@
 ---
-title: Criar uma fila de chamadas do Sistema de Telefonia
+title: Criar uma fila de chamada do Sistema de Telefonia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,11 +7,13 @@ ms.reviewer: phans, wasseemh
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 0d9113dfb3380872170d16ae5f657839f099a52a
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 59054c1d73e002065db00ff1045ed8453fafa929
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30222428"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351686"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamadas do Sistema de Telefonia
+# <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada do Sistema de Telefonia
 
 Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
   

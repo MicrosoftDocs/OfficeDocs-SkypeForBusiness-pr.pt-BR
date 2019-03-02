@@ -7,14 +7,13 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: A seguir estão algumas das principais perguntas que recebemos de nossos clientes que desejam usar conferência de áudio.
-ms.openlocfilehash: b2c75a9207a0cff73f247809c2e70a7fe17d50e5
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: 3ede756aff99f5be8d8b5f703860d54554d34ea9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678430"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353630"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
@@ -155,7 +154,7 @@ Agendar uma reunião que ingressarão por todos os participantes que usam um tel
 
 [Configurar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Números de telefone de audioconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Números de telefone para audioconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Números de telefone para Audioconferência no Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade da Tailândia
+title: Disponibilidade na Tailândia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: d9cdbb33-bbaf-4714-a06b-313d3e49723e
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Tailândia.
-ms.openlocfilehash: f7c302e9b936ecf9e38729ea6f8b9ed1f14c6f81
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: e7ac845ed6ccfbe1e4e3ec091be8c0a95d89055b
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048289"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351838"
 ---
-# <a name="availability-in-thailand"></a>Disponibilidade da Tailândia
+# <a name="availability-in-thailand"></a>Disponibilidade na Tailândia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 

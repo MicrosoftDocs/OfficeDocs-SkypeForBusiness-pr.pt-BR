@@ -1,5 +1,5 @@
 ---
-title: Restrições de discagem gratuita na Hungria
+title: Restrições de discagem de chamada gratuita na Hungria
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 7f307281-b323-4e29-a3c9-9e7ab6ed9891
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 7a0e96c241992e2c9ec6b47b2633b9522e4193dc
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: f914515c12901498402244c40bac70ac4677790a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047828"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352036"
 ---
-# <a name="toll-free-dialing-restrictions-in-hungary"></a>Restrições de discagem gratuita na Hungria
+# <a name="toll-free-dialing-restrictions-in-hungary"></a>Restrições de discagem de chamada gratuita na Hungria
 
 [Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
 

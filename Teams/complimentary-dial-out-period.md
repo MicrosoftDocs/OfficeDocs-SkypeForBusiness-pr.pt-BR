@@ -7,12 +7,11 @@ ms.reviewer: mikedav, OscarR
 ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Os clientes podem usar o Plano de Chamadas Office 365 e a Audioconferência Office 365, conforme permitido nos Termos de Uso de Serviços PSTN do Skype for Business Online e no contrato de licenciamento por volume do Cliente.
-ms.openlocfilehash: 235b8906385be0e6228a7d99c3dda1a52507f137
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1d1d047e4888c2f8fbfa93aeb7ab4c00dfc62bde
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532888"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352862"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -49,7 +48,7 @@ Usuários com um local de uso de licença (isto é o local de país do usuário 
 - Todas as chamadas de saída para destinos não estejam na lista zona A país são cobradas por minuto usando créditos de comunicações em nossas taxas publicadas para esse destino (fornecida locatário tiver configurar créditos de comunicações e atribuiu a licença créditos de comunicação a organizador da reunião).
 
 > [!NOTE]
-> Você pode monitorar o uso contra pool minuto de discagem no Skype para Business Admin Center. No Centro de administração do Skype & Teams da Microsoft, vá para o **portal herdada** > **relatórios** > **PSTN minuto Pools**. Neste minuto complementar pool será rotulada no relatório como "Chamadas de saída para países de uma zona."
+> Você pode monitorar o uso contra pool minuto de discagem no Skype para Business Admin Center. No & Teams Microsoft Skype Admin Center, vá para o **portal herdada** > **relatórios** > **PSTN minuto Pools**. Neste minuto complementar pool será rotulada no relatório como "Chamadas de saída para países de uma zona."
 
 Notificações por email serão enviadas para todos os administradores de Inquilino de um determinado cliente quando a utilização do pool de minutos de discagem de locatário atingiu 80% e 100%.
 

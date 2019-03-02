@@ -7,12 +7,11 @@ ms.reviewer: oscarr
 ms.topic: article
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: a3762b58d6014c4f32bb03ba821aa704c7145ea9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 9d50c4682553999c2836d8e18bd3f6a56d88554c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013477"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351598"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 Serviços de audioconferência no Office 365 permite que os usuários liga para reuniões de seus telefones. Serviços de audioconferência permite que até 250 participantes de telefone.
@@ -42,7 +41,7 @@ Chamadas em (discam) para reuniões é muito útil para usuários que estão em 
 - As pessoas podem ingressar em uma reunião com as "mãos livres" por meio de dispositivos Bluetooth.
 - As pessoas encontram é mais fácil e conveniente para sua situação.
 
-Você precisa configurar a conferência de áudio para as pessoas que pretende agendar ou liderança de reuniões. Os participantes da reunião não precisam de nenhuma licença atribuída ou configuração adicional.
+Basta configurar uma Audioconferência para as pessoas que planejam agendar ou liderar reuniões. Os participantes da reunião não precisam de nenhuma licença atribuída ou configuração adicional.
 
 Depois que os participantes tiverem ingressado reunião, eles também podem discar e convidar outros chamadores em um Skype para reunião de negócios ou Teams da Microsoft. Consulte [discando check-out de uma reunião de equipes para que outras pessoas poderá ingressar nela](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) ou [discando check-out de um Skype para reunião de negócios para que outras pessoas poderá ingressar nela](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
@@ -50,7 +49,7 @@ Depois que os participantes tiverem ingressado reunião, eles também podem disc
 Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="where-is-it-available"></a>Onde está disponível?
-Com a conferência de áudio, os usuários podem utilizar Chamada Tarifada e números de telefone gratuitos para discar para reuniões. Números tarifados (serviço) recebem automaticamente como números de serviços de audioconferência compartilhada para organizações quando elas são habilitadas para conferência de áudio. Os números de chamada gratuita e tarifados dedicados podem ser atribuídos à sua organização a partir de cidades adicionais.
+Com a conferência de áudio, os usuários podem utilizar Chamada Tarifada e números de telefone gratuitos para discar para reuniões. Números tarifados (serviço) recebem automaticamente como números de serviços de audioconferência compartilhada para organizações quando elas são habilitadas para conferência de áudio. É possível atribuir números exclusivos de chamada tarifada e gratuita para sua organização a partir de outras cidades.
 
 Números de telefone gratuitos (números de serviço) estão disponíveis, mas somente em alguns países/regiões. Para ver o que está disponível em seu país ou região, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -99,6 +98,6 @@ Depois que você tiver decidido configurar a conferência de áudio para seus us
 
 [Configurar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
-[Números de telefone de audioconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
+[Números de telefone para audioconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Números de telefone para Audioconferência no Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)

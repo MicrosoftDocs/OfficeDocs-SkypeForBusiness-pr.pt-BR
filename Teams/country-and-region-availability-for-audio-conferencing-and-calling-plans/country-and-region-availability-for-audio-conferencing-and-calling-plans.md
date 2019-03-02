@@ -8,14 +8,13 @@ ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: article
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -28,12 +27,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: 789584991eaf6b95541d9fc49ec094d5c0481228
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: e010a5decd864ee86e74129583df06856571a060
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120872"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351758"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -129,7 +128,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnã](availability-in-vietnam.md)
 
-**Se você estiver procurando por uma planilha com todos os países e regiões, baixar e salvar a [planilha de disponibilidade nuvem voz recurso país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
+**Se você estiver procurando por uma planilha com todos os países e regiões, baixar e salvar a [planilha de disponibilidade nuvem voz recurso país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06252018)-(en-us).xlsx?raw=true)**.
 
 ***
 

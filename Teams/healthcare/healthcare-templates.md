@@ -1,5 +1,5 @@
 ---
-title: Introdução ao modelos de saúde de equipes da Microsoft
+title: Introdução ao modelos de equipes para as organizações de saúde
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introdução ao modelos de saúde de equipes da Microsoft
-ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+description: Introdução ao modelos de equipes para as organizações de saúde
+ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760563"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351710"
 ---
-# <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Introdução ao modelos de saúde de equipes da Microsoft
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução ao modelos de equipes para as organizações de saúde
 
 Modelos de Teams da Microsoft permitem que você rapidamente e criar facilmente equipes, fornecendo um modelo predefinido de configurações, canais e pré-instaladas apps.
 
@@ -37,7 +37,7 @@ O modelo de bairro destina-se a comunicação e colaboração em um bairro, pod 
 |Saúde - bairro | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Anúncios\* <br> Huddles\* <br> Arredonda\* <br> Criação da equipe\* <br> Treinamento\* |
 |     | |         |
 
-\*Auto-favorited 
+\*Auto-favorited
 
 ## <a name="hospital-template"></a>Modelo do hospital
 

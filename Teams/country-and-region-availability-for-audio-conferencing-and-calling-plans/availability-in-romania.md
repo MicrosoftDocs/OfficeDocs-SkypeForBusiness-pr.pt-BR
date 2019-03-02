@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade em Romênia
+title: Disponibilidade na Romênia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: b96cfc51-5fc2-47e1-b98d-d9a098793273
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Romênia.
-ms.openlocfilehash: ac70baa59208820d38d97721d80f2843f85f4107
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 7c492445481d971de9c13d0677848bb1aa953726
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046678"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351478"
 ---
-# <a name="availability-in-romania"></a>Disponibilidade em Romênia
+# <a name="availability-in-romania"></a>Disponibilidade na Romênia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 

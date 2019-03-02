@@ -6,14 +6,13 @@ manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre a obtenção e gerenciando números de telefone na Austrália para Skype para Business Online e Teams da Microsoft.
-ms.openlocfilehash: 7ef7021fe4e7801630368ef29fc070ad751f37d0
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: ffdf8a828d64a288f0a309207fafd9cfb049b064
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046938"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352910"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de números de telefone para a Austrália
 Na Austrália, podemos ter uma parceria com Sprint para a compra e o provisionamento de planos de chamada. Sprint vender chamar planos e fornecem o suporte para gerenciamento número de telefone para números de usuário e de serviço para atendedores automáticos e filas de chamada. No entanto, os números de serviço e licenças para audioconferências serão ainda vendidas e gerenciadas pelo Office 365.

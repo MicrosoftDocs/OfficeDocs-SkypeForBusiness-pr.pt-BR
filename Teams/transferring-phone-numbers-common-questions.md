@@ -1,20 +1,19 @@
 ---
-title: Perguntas comuns sobre a transferência de números de telefone
-ms.author: tonysmit
-author: tonysmit
+title: Perguntas comuns sobre transferência de números de telefone
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 28cbf7d7-97f3-4a99-aa76-897022c14a24
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: A seguir é perguntas frequentes sobre como transferir números de telefone para Skype para negócios. Após revisar as respostas, você deve estar pronto para criar uma ordem de porta e transferir seus números de telefone. Consulte números de telefone de transferência para o Office 365 para obter instruções.
-ms.openlocfilehash: 8a260d1d59668a583f6bdda24bb88472a68c1f43
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2f69573859e04681f895dfc1a577a73f707e569a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375867"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351726"
 ---
-# <a name="transferring-phone-numbers-common-questions"></a>Perguntas comuns sobre a transferência de números de telefone
+# <a name="transferring-phone-numbers-common-questions"></a>Perguntas comuns sobre transferência de números de telefone
 
 A seguir é perguntas frequentes sobre como transferir números de telefone para Skype para negócios. Após revisar as respostas, você deve estar pronto para criar uma ordem de porta e transferir seus números de telefone. Para obter instruções, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) .
   

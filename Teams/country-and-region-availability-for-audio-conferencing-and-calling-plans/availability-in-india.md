@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade da Índia
+title: Disponibilidade na Índia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: b205d2b2-bb2c-457e-82ba-328742d168b6
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para a Índia.
-ms.openlocfilehash: 88e8bb3b7d96abba1645e9e94a901af2f4e70632
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 5c5ab7100daba2cd67ba7aa6c9006cc352f23dda
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047184"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350718"
 ---
-# <a name="availability-in-india"></a>Disponibilidade da Índia
+# <a name="availability-in-india"></a>Disponibilidade na Índia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 

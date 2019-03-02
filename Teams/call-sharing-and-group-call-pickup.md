@@ -3,15 +3,15 @@ title: Compartilhamento de chamadas e atendimento de chamada em grupo no Microso
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/19
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Compartilhamento de chamadas e retirada de chamada do grupo, que permitem aos usuários compartilhar chamadas recebidas com colegas, de forma que as chamadas podem ser capturadas quando o usuário não está disponível.
-ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328313"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351326"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
@@ -48,7 +48,7 @@ Para configurar a retirada de chamada do grupo, um usuário configura pela prime
 
 Chamar a criação de grupo e notificação preferências são recursos controlado pelo usuário; os administradores não devem configurar esses recursos para seus usuários. Grupos de chamada não não possível criar grupos de segurança ou grupos do Office 365; eles devem ser criados em equipes.
 
-Os administradores não podem impedir usuários de criação de grupos e alterando a outra configuração de retirada de chamada. A funcionalidade não é bloqueada.
+Administradores devem habilitar grupos de chamada por meio da configuração de **TeamsCallingPolicy AllowCallGroups** para um usuário. Os administradores podem controlar apenas, se esse usuário pode configurar grupos de chamada. Depois que o bit for definido como true, administradores não pode impedir o usuário de configuração e adicionando os usuários do grupo de chamada de sua escolha.
 
 ## <a name="limitations"></a>Limitações
 

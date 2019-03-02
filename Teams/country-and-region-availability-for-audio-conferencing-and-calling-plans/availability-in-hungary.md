@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade em Hungria
+title: Disponibilidade na Hungria
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 66b75985-d7ba-4731-88d8-2d48719eb02c
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Hungria.
-ms.openlocfilehash: ef75ba44e0e9c29ff8d0631c06a6fdcc8998709c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 35143055542a4d805549f37a2a6a4bb19ef8e15c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047002"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350566"
 ---
-# <a name="availability-in-hungary"></a>Disponibilidade em Hungria
+# <a name="availability-in-hungary"></a>Disponibilidade na Hungria
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 

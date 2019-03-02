@@ -1,5 +1,5 @@
 ---
-title: Restrições de discagem gratuita na Holanda
+title: Restrições de discagem de chamada gratuita nos Países Baixos
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 2c4e278f-afcd-4320-9a96-799491138835
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 4d649a8244f1e30709420b39eca994f80e489f0f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 8bdbf738ccd168c132bdff868124193a687d2f7a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047718"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350582"
 ---
-# <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Restrições de discagem gratuita na Holanda
+# <a name="toll-free-dialing-restrictions-in-the-netherlands"></a>Restrições de discagem de chamada gratuita nos Países Baixos
 
 [Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ae5d850670007d4356fa3de8610e4b110856734
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
+ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753842"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30357766"
 ---
 > [!NOTE]
 > Revise as seguintes informações para entender o bate-papo, equipes, canais, apps & em equipes. Em seguida, vá para [implantar chat, equipes, canais, apps & em equipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para percorrer a uma lista de decisões importantes para a distribuição de equipes.
@@ -88,7 +88,7 @@ O Microsoft Teams é ótimo para quebrar os silos organizacionais e promover equ
 
 É possível criar equipes alinhadas com a estrutura organizacional.  O melhor uso desse recurso é para líderes que desejam motivar seu pessoal, ter análises específicas da equipe, esclarecer os processos de integração de funcionários, discutir planos da força de trabalho e aumentar a visibilidade em uma força de trabalho diversificada.  
 
-![Diagrama da hierarquia de como equipes e canais estão organizados no Microsoft Teams.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image1.png)
+![Diagrama da hierarquia de como equipes e canais estão organizados no Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 
 ## <a name="org-wide-teams"></a>Equipes de toda a organização
 

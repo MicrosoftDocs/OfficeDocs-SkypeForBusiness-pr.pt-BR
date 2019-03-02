@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade em Estônia
+title: Disponibilidade na Estônia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 2c244640-e20a-44fa-a153-515ace1f015b
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Estônia.
-ms.openlocfilehash: b650a237f6284655d9012da94a0271672fbf603e
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 145d0d72bad80d6262e359f2a0221f0ed2714cea
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048495"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352118"
 ---
-# <a name="availability-in-estonia"></a>Disponibilidade em Estônia
+# <a name="availability-in-estonia"></a>Disponibilidade na Estônia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 

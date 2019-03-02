@@ -5,22 +5,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Este artigo descreve como monitorar e solucionar problemas de configuração de roteamento direto.
-ms.openlocfilehash: 46fd5ad046551d30bf3822d11864edc2a5353a26
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 75f116004c0385aa7d13b0173380221304590814
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014929"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350982"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas de roteamento direto
 
@@ -46,7 +44,7 @@ O diagrama a seguir mostra um exemplo da configuração:
 
 ![Exemplo de configuração de opções de SIP](media/sip-options-config-example.png)
 
-Quando um usuário faz uma chamada para o número +1 425 \<sete dígitos quaisquer >, roteamento direto avalia a rota. Existem dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. Ambos os SBCs possuem prioridade iguais na rota. Antes de separação um SBC, o mecanismo de circulação avalia a integridade dos SBCs com base em quando o SBC enviadas as opções de SIP última vez. 
+Quando um usuário faz uma chamada para o número +1 425 \<qualquer digits> sete, roteamento direto avalia a rota. Existem dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. Ambos os SBCs possuem prioridade iguais na rota. Antes de separação um SBC, o mecanismo de circulação avalia a integridade dos SBCs com base em quando o SBC enviadas as opções de SIP última vez. 
 
 Um SBC é considerado Íntegro se estatísticas no momento do envio de chamada mostra que o SBC envia opções em um intervalo regular.  
 

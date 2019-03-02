@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade em Bósnia &amp; Herzegovina
+title: Disponibilidade na Bósnia &amp; Herzegovina
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Bósnia e Herzegovina.
-ms.openlocfilehash: 5ebbd996d99721ae5f7e92424d42db2a3c1c2960
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 43863e2b51524f2440257b1ab311b47fe7eaab91
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048558"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352206"
 ---
-# <a name="availability-in-bosnia-amp-herzegovina"></a>Disponibilidade em Bósnia &amp; Herzegovina
+# <a name="availability-in-bosnia-amp-herzegovina"></a>Disponibilidade na Bósnia &amp; Herzegovina
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 

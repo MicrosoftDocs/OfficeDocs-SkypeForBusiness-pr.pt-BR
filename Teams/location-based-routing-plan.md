@@ -1,5 +1,5 @@
 ---
-title: Planejar o roteamento baseado no local para roteamento direto
+title: Planejar o Roteamento baseado na localização para o Roteamento direto
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: Saiba como planejar o roteamento baseado no local para roteamento direto.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
-ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
+ms.openlocfilehash: ff596f444c5df963b809e1ccacd525cb0dfd74e4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29967452"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351822"
 ---
-# <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o roteamento baseado no local para roteamento direto
+# <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -30,7 +33,7 @@ Em alguns países e regiões, não é possível ignorar o provedor de rede de te
 
 Aqui, você obterá uma visão geral de roteamento baseado no local e orientações para ajudá-lo a planejar a ele. Quando você estiver pronto para aplicar e habilitar o roteamento baseado em local, consulte:
 - [Implantar as configurações de rede para roteamento baseado no local](location-based-routing-configure-network-settings.md)
-- [Habilitar o roteamento baseado no local para roteamento direto](location-based-routing-enable.md)
+- [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
 
 Roteamento baseado no local é um recurso que permite restringir o bypass de Chamada Tarifada com base em política e o local geográfico do usuário no momento de uma chamada PSTN de entrada ou de saída. 
 
@@ -251,5 +254,5 @@ Um usuário de roteamento baseados em local habilitado em uma chamada PSTN não 
 Vá para [definir configurações de rede para roteamento baseado no local](location-based-routing-configure-network-settings.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Habilitar o roteamento baseado no local para roteamento direto](location-based-routing-enable.md)
-- [Terminologia de roteamento baseados em local](location-based-routing-terminology.md)
+- [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
+- [Terminologia do Roteamento baseado na localização](location-based-routing-terminology.md)

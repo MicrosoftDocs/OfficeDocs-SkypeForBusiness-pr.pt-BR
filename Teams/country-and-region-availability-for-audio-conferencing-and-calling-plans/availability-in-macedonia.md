@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade em Macedônia
+title: Disponibilidade na Macedônia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 26419a93-4216-448f-bf3a-f29778c62c84
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Macedônia.
-ms.openlocfilehash: 7b0aecdda4e9bf67f346237f1a23c3834ece7384
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 4bb35b86b4ea3ce65afe1fdbbb8d088ed3aaf7f7
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048511"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352894"
 ---
-# <a name="availability-in-macedonia"></a>Disponibilidade em Macedônia
+# <a name="availability-in-macedonia"></a>Disponibilidade na Macedônia
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
