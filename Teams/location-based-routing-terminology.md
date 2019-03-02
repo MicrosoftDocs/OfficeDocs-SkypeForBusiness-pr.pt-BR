@@ -1,5 +1,5 @@
 ---
-title: Terminologia de roteamento baseados em local
+title: Terminologia do Roteamento baseado na localização
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Saiba a terminologia e conceitos associados ao roteamento baseado no local para roteamento direto.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29770996"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352327"
 ---
-# <a name="location-based-routing-terminology"></a>Terminologia de roteamento baseados em local
+# <a name="location-based-routing-terminology"></a>Terminologia do Roteamento baseado na localização
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -34,6 +37,6 @@ Aqui estão alguns termos e conceitos que são usados em toda a documentação d
 |Confiáveis endereços IP externos    |Os endereços IP externos confiáveis são Internet endereços IP externos da rede corporativa. Elas determinam se o ponto de extremidade do usuário está dentro da rede corporativa antes de verificar uma correspondência de sites específico. Se IP externo do usuário corresponder a um endereço IP que é definido na lista de confiáveis, roteamento baseado em local verifica para determinar a sub-rede interna, onde o ponto de extremidade do usuário está localizado. Se o endereço IP externo do usuário não corresponder a qualquer endereço IP que é definido na lista de confiáveis, o ponto de extremidade é classificado como sendo em um local desconhecido e todas as chamadas PSTN de ou para um usuário habilitado para roteamento baseado no local são bloqueadas.          |
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Planejar o roteamento baseado no local para roteamento direto](location-based-routing-plan.md)
-- [Definir configurações de rede para roteamento baseado no local](location-based-routing-configure-network-settings.md)
-- [Habilitar o roteamento baseado no local para roteamento direto](location-based-routing-enable.md)
+- [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
+- [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
+- [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)

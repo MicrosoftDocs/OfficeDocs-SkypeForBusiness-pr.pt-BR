@@ -1,5 +1,5 @@
 ---
-title: Configurar o atendedor automático do Sistema de Telefonia
+title: Configurar os atendedores automáticos do Sistema de Telefonia
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -7,11 +7,13 @@ ms.reviewer: makolomi
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização.
-ms.openlocfilehash: 8f4ed3b220af30dc229da5ef8abfcdc15c7af338
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: f055a6851610bc2071e1705a4b5739544c5d72bd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30222444"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353294"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar o atendedor automático do Sistema de Telefonia
+# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar os atendedores automáticos do Sistema de Telefonia
 
 Atendedores automáticos permitem que as pessoas que ligam para sua organização e navegue para conectá-los ao departamento direita, chame a fila, pessoa ou o operador de um sistema de menus. Você pode criar um atendedor automático para sua organização usando o Centro de administração do Microsoft Teams. Para criar um novo atendedor automático, vá para **voz** no painel de navegação esquerdo e selecione **atendedores automáticos** > **Adicionar novo**.
 

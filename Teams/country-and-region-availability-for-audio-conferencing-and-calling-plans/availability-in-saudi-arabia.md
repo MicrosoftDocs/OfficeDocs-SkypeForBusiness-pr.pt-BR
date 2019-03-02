@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade em Arábia Saudita
+title: Disponibilidade na Arábia Saudita
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Arábia Saudita.
-ms.openlocfilehash: 9fd7fb8a8fbdaed545b9716c95a6b59c1b08a89f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 7861c87009a2956e1a5c24453addbf6fb53021be
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047430"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352582"
 ---
-# <a name="availability-in-saudi-arabia"></a>Disponibilidade em Arábia Saudita
+# <a name="availability-in-saudi-arabia"></a>Disponibilidade na Arábia Saudita
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 

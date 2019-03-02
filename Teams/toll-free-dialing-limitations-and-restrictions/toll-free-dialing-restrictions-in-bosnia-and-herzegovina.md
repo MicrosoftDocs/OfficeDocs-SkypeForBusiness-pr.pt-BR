@@ -1,5 +1,5 @@
 ---
-title: Restrições de discagem gratuita em Bósnia e Herzegovina
+title: Restrições de discagem de chamada gratuita na Bósnia e Herzegovina
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: d8f9ab66-dd1a-4d1e-86de-c9092cbb9707
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 1ede843eb8cd5b9c854023556a4b3a300e30b2fd
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 382b30e63c3d74f8050f4f03b03cd8688846264d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046476"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353358"
 ---
-# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrições de discagem gratuita em Bósnia e Herzegovina
+# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrições de discagem de chamada gratuita na Bósnia e Herzegovina
 
 [Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
 

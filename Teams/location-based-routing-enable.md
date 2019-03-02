@@ -1,5 +1,5 @@
 ---
-title: Habilitar o roteamento baseado no local para roteamento direto
+title: Habilitar o Roteamento baseado na localização para o Roteamento direto
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Aprenda a habilitar o roteamento baseado no local para roteamento direto.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771004"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352542"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o roteamento baseado no local para roteamento direto
+# <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -65,7 +68,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
     
     ||1 política de roteamento de voz|2 de política de roteamento de voz|
     |---------|---------|---------|
-    |ID da política de voz   |Política de roteamento de voz Délhi   |Política de roteamento de voz de Hyderabad    |
+    |ID da política de voz online   |Política de roteamento de voz online de Délhi   |Política de roteamento de voz online de Hyderabad    |
     |Usos da PSTN online  |Interurbano  |Interurbano, Local, interno  |
 
     Para obter mais informações, consulte [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
@@ -76,21 +79,21 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
 ## <a name="enable-location-based-routing-for-network-sites"></a>Habilitar o roteamento baseado no local para sites de rede
 1.  Use o ``Set-CsTenantNetworkSite`` cmdlet para habilitar o roteamento baseado no local e associar as políticas de roteamento para os locais de rede que precisam para impor restrições de roteamento de voz.
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     Neste exemplo, podemos habilitar roteamento baseado no local para o site de Délhi e local de Hyderabad. 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     A tabela a seguir mostra os sites habilitados para roteamento baseados em local neste exemplo.
 
     ||1 (Délhi) do site  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
+|Nome do site    |1 (Délhi) do site    |Site 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |Política de roteamento de voz    | Política de roteamento de voz Délhi       |Política de roteamento de voz de Hyderabad    |
     |Sub-redes     |Subrede 1 (Délhi)     |Subrede 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Habilitar o roteamento baseado no local para gateways
@@ -103,7 +106,7 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
 
     Neste exemplo, criamos uma configuração de gateway para cada gateway. 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     Para obter mais informações, consulte [Configurar o roteamento direto](direct-routing-configure.md).
     
@@ -142,25 +145,25 @@ Este artigo descreve como habilitar o roteamento baseado no local para roteament
     |---------|---------|---------|
     |DEL PstnGateway:Gateway 1-GW    |    True     |   1 (Délhi) do site      |
     |PstnGateway:Gateway 2 HYD-GW     |   True      |      Site 2 (Hyderabad)   |
-    |PBX DEL PstnGateway:Gateway 3    |    True     |     1 (Délhi) do site    |
-    |PBX HYD PstnGateway:Gateway 4    |    True     |    Site 2 (Hyderabad)     |
+    |PBX DEL PstnGateway:Gateway 3    |    False     |     1 (Délhi) do site    |
+    |PBX HYD PstnGateway:Gateway 4    |    False     |    Site 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar o roteamento baseado no local para chamar políticas
 
 Para impor o roteamento baseado no local para usuários específicos, configurar a política de voz dos usuários para evitar que as tarifas PTSN desvio. 
 
-Use o ``Grant-TeamsCallingPolicy`` o desvio de cmdlet para habilitar o roteamento baseado em local, impedindo a execução de tarifas PSTN.
+Use o ``Grant-CsTeamsCallingPolicy`` o desvio de cmdlet para habilitar o roteamento baseado em local, impedindo a execução de tarifas PSTN.
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 Neste exemplo, podemos impedir PSTN Chamada Tarifada desvio do Usuário1 chamar políticas. 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Planejar o roteamento baseado no local para roteamento direto](location-based-routing-plan.md)
-- [Definir configurações de rede para roteamento baseado no local](location-based-routing-configure-network-settings.md)
-- [Terminologia de roteamento baseados em local](location-based-routing-terminology.md)
+- [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
+- [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
+- [Terminologia do Roteamento baseado na localização](location-based-routing-terminology.md)
