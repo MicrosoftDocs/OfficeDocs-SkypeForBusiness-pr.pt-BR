@@ -8,7 +8,9 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Gerenciar contas de recursos em Teams da Microsoft
-ms.openlocfilehash: 60fcfe34c665805eac90b5e5be862786e9e68de5
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 22574b2045f162353c3b1154590f3cf903721cf8
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210776"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408255"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recurso no Microsoft Teams
 
@@ -100,11 +102,11 @@ Para implementações em equipes ou Skype para Business Online:
 
 [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 
-[Configurar o atendedor automático do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Configurar os atendedores automáticos do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Exemplo de pequenos negócios - configurar um atendedor automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Criar uma fila de chamadas do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Criar uma fila de chamada do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

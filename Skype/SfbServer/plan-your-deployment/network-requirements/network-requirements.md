@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumo: Revise as considerações de componente de rede abaixo antes de implementar Skype para Business Server.'
-ms.openlocfilehash: fd21ada12a8e2b05654fe6809dd5147480b0e306
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: e05e40bc460ddddc6d9576d9842ab592f16e1481
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214509"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408169"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -80,21 +80,21 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
 
 |Nome da regra |IP de origem |IP de destino |Protocolo |Porta de origem |Porta de destino |Requisito de autenticação |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|Entrada interna do Servidor de Borda A/V|Qualquer um  |Interno do Servidor de Borda A/V|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Entrada externa do Servidor de Borda A/V|Qualquer um  |Externo do Servidor de Borda A/V|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Saída interna do Servidor de Borda A/V|Interno do Servidor de Borda A/V  |Externo do Servidor de Borda A/V |UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Saída externa do Servidor de Borda A/V|Externo do Servidor de Borda A/V |Qualquer um |UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Entrada do Servidor de Mediação|Qualquer um  |Servidores de mediação |UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Saída do Servidor de Mediação|Servidores de mediação  |Qualquer um|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Entrada do Atendedor de Conferência|Qualquer um  |Servidor Front-End executando o Atendedor de Conferência |UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Saída do Atendedor de Conferência|Servidor Front-End executando o Atendedor de Conferência  |Qualquer um|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Entrada de Conferência A/V|Qualquer um|Servidores Front-End|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Saída de Conferência A/V|Servidores Front-End|Qualquer um|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Entrada do Exchange|Qualquer um|Unificação de Mensagens do Exchange|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Entrada dos Servidores de Compartilhamento de Aplicativo|Qualquer um|Servidores de Compartilhamento de Aplicativos|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Saída do Servidor de Compartilhamento de Aplicativos|Servidores de Compartilhamento de Aplicativos| Qualquer um |UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Saída do Exchange|Unificação de Mensagens do Exchange|Qualquer um|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
-|Clientes| Qualquer um  |Qualquer um|UDP e TCP|Qualquer um |Qualquer um |Não autenticar|
+|Entrada interna do Servidor de Borda A/V|Qualquer  |Interno do Servidor de Borda A/V|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Entrada externa do Servidor de Borda A/V|Qualquer  |Externo do Servidor de Borda A/V|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Saída interna do Servidor de Borda A/V|Interno do Servidor de Borda A/V  |Externo do Servidor de Borda A/V |UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Saída externa do Servidor de Borda A/V|Externo do Servidor de Borda A/V |Qualquer |UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Entrada do Servidor de Mediação|Qualquer  |Servidores de mediação |UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Saída do Servidor de Mediação|Servidores de mediação  |Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Entrada do Atendedor de Conferência|Qualquer um  |Servidor Front-End executando o Atendedor de Conferência |UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Saída do Atendedor de Conferência|Servidor Front-End executando o Atendedor de Conferência  |Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Entrada de Conferência A/V|Qualquer|Servidores Front-End|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Saída de Conferência A/V|Servidores Front-End|Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Entrada do Exchange|Qualquer|Unificação de Mensagens do Exchange|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Entrada dos Servidores de Compartilhamento de Aplicativo|Qualquer um|Servidores de Compartilhamento de Aplicativos|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Saída do Servidor de Compartilhamento de Aplicativos|Servidores de Compartilhamento de Aplicativos| Qualquer |UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Saída do Exchange|Unificação de Mensagens do Exchange|Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
+|Clientes| Qualquer  |Qualquer|UDP e TCP|Qualquer |Qualquer |Não autenticar|
 |         |         |         |         |         |         |         |
 
 
@@ -137,7 +137,7 @@ A versão estéreo do codec G.722 é usada pelos sistemas baseados no Lync Room 
 |**Codec de vídeo**|**Resolução e taxa de proporção**|**Taxa de bits máxima de carga de vídeo (Kbps)**|**Taxa de bits mínima de carga de vídeo (Kbps)**|
 |:-----|:-----|:-----|:-----|
 |H.264  <br/> |320 x 180 (16:9)  <br/> 212 x 160 (4:3)  <br/> |250  <br/> |15  <br/> |
-|H.264/RTVideo  <br/> |424 x 240 (16:9)  <br/> 320 x 240 (4:3)  <br/> |350  <br/> |100  <br/> |
+|H.264/RTVideo  <br/> |424x240 (16:9)  <br/> 320x240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480 x 270 (16:9)  <br/> 424 x 320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640 x 360 (16:9)  <br/> 640 x 480 (4:3)  <br/> |800  <br/> |300  <br/> |
 |H.264  <br/> |848 x 480 (16:9)  <br/> |1500  <br/> |400  <br/> |

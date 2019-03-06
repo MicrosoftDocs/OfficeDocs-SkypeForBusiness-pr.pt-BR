@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ''
 description: Leia este tópico para saber como migrar dispositivos de sistema do Lync sala para usar o software do sistema de sala Skype v2.
-ms.openlocfilehash: 22693913c613f87c3f11ad5b421d771b661d9b91
-ms.sourcegitcommit: 502f85e7920b1a9a14f879d6211e10ad8daba69f
+ms.openlocfilehash: c01b579e73775e5f6b237f74975681fef7ea45ea
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "29382468"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408209"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-skype-room-system-v2"></a>Migrar dispositivos de sistema de sala do Lync (LRS) para o sistema de sala Skype v2
 
@@ -41,7 +41,7 @@ Há várias opções para atualizar o Lync sistemas de sala para a próxima gera
 
 ### <a name="crestron-hardware-trade-in-program"></a>Programa de trade-in de hardware Crestron
 
-Crestron fornecerá uma atualização para o [sistema Crestron SR](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) ou equivalente para todos os clientes do sistema de sala do Lync não-Crestron. Ver os detalhes deste programa [aqui](https://support.crestron.com/app/answers/answer_view/a_id/1000220) ou <!-- For details, --> [email](mailto:lrsupgrade@crestron.com) suporte Crestron LRS.  
+Crestron fornecerá uma atualização para o [sistema Crestron SR](https://www.crestron.com/en-us/products/featured-solutions/crestron-sr) ou equivalente para todos os clientes não-Crestron o sistema do Lync sala (por exemplo inteligente ou Polycom LRS). Ver os detalhes deste programa [aqui](https://support.crestron.com/app/answers/answer_view/a_id/1000220) ou <!-- For details, --> [email](mailto:lrsupgrade@crestron.com) suporte Crestron LRS.  
 
 ### <a name="crestron-rl2-upgrade-to-srs-v2"></a>Atualização de Crestron RL2 para v2 SRS
 
@@ -49,17 +49,8 @@ Os clientes existentes do Crestron RL2 (também conhecido como Crestron RL200) p
 
 ### <a name="smart-room-systems-upgrade"></a>Atualização de sistemas de sala inteligente
 
-Para clientes inteligentes LRS, além de Crestron programa de trade-in de hardware, o Microsoft e inteligente também estão trabalhando em fornecendo uma solução para atualizar para o sistema de sala Skype v2. Essa atualização será fornecida pelo Inc de tecnologias inteligentes. Consulte mais informações sobre esta [aqui](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
+Para clientes inteligentes LRS, além do programa de trade-in de hardware Crestron, inteligente também está trabalhando no fornecimento de uma solução para atualizar para o sistema de sala Skype v2. Essa atualização será fornecida pelo Inc. de tecnologias inteligentes ao cliente em suporte ao produto. Consulte mais informações sobre esta [aqui](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
-Para usar essa opção, os clientes Além disso devem comprar um adaptador de [Compartilhamento de tela Logitech](https://www.logitech.com/en-us/product/screen-share) . Microsoft fornecerá instruções sobre como usar este adaptador com o software do sistema de sala Skype v2.
-
-Procure instruções de atualização nesta página em breve.
-  
-<!-- 
-### Summary of upgrade options
-
-This table lists summary of all available options for existing LRS devices:
--->
 
 ## <a name="what-should-you-do"></a>O que você deve fazer?
 

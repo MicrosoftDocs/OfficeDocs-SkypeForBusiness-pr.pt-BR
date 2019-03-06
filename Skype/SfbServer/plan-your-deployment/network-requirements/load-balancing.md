@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumo: Revise a carga balanceamento considerações antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626188"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408162"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para o Skype for Business
  
@@ -106,7 +106,7 @@ Para implantações que **usarão** afinidade baseada em cookie:
 Se estiver implantando dispositivos móveis, o balanceador de carga de hardware deverá ser capaz de balancear a carga da solicitação individual em uma sessão TCP (na verdade, você deve poder balancear a carga de uma solicitação individual com base no endereço IP de destino).
   
 > [!CAUTION]
-> Os balanceadores de carga de hardware F5 têm um recurso chamado OneConnect que assegura que todas as solicitações de uma conexão TCP tenham a carga balanceada individualmente. Se estiver implantando dispositivos móveis, verifique se o fornecedor do balanceador de carga de hardware tem o mesmo recurso. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS. O F5 oferece configurações específicas para isso. 
+> Se você estiver implantando os dispositivos móveis, o balanceador de carga de hardware deve ser capaz de carregar individualmente balancear a cada solicitação de uma conexão TCP. Os aplicativos móveis mais recentes do Apple iOS exigem a versão 1.2 do protocolo TLS.  
   
 > [!CAUTION]
 > Para obter informações sobre balanceadores de carga de hardware de terceiros, consulte [Infraestrutura para o Skype for Business](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  

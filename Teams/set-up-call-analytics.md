@@ -1,11 +1,11 @@
 ---
-title: Configurar a análise de chamada
+title: Configurar Análise de Chamada
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
-ms.assetid: ''
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft.
-ms.openlocfilehash: 489dceae4924f3f720fd60f86423781c1aa31b41
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 4d6216fe1771158453ca32bbabfed5fcf9b09156
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754547"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408287"
 ---
-# <a name="set-up-call-analytics"></a>Configurar a análise de chamada
+# <a name="set-up-call-analytics"></a>Configurar Análise de Chamada
 
 Como um equipes ou Skype do admin Business Online, você pode usar o Analytics chamadas para solucionar Skype para negócios e problemas de qualidade e conexão de chamada Teams da Microsoft. Você pode achar útil para configurar os seguintes recursos na análise de chamada:
   
@@ -94,9 +94,9 @@ Se você estiver criando o arquivo. csv ou. tsv desde o início, consulte o [for
 ## <a name="related-topics"></a>Tópicos relacionados
 <a name="BKMK_UploadFiles"> </a>
 
-[Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Análise de chamada e o painel de controle de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análise de Chamada e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

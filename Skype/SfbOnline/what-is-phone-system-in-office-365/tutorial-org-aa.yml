@@ -20,16 +20,17 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
+  - M365-voice
   - Adm_Skype4B_Online
   - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: c309f4882cc12c3d8ccb9a0d9bccadb6d1cd459e
-  ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+  ms.openlocfilehash: f6138e8279ca0c45c186cc3c9e60bf7952a6d14f
+  ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/22/2019
-  ms.locfileid: "30210766"
+  ms.lasthandoff: 03/05/2019
+  ms.locfileid: "30408364"
 items:
 - durationInMinutes: 2
   content: "\n[Skype para negócios](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) e [Equipes da Microsoft que](/MicrosoftTeams/Teams-overview.md) fazem parte do Office 365 que fornecem chat, conversas telefônicas, caixa postal, reuniões, arquivos e aplicativos juntos em um único local. Ambos usam [**Sistema telefônico**](/MicrosoftTeams/what-is-phone-system-in-office-365) para habilitar o controle de chamada e recursos do PBX na nuvem Office 365. \n\nSistema telefônico permite que você substitua o seu sistema PBX existente com um [conjunto de recursos](/MicrosoftTeams/here-s-what-you-get-with-phone-system) que inclui a caixa postal e [atendedores automáticos](/microsoftteams/what-are-phone-system-auto-attendants), que permitem que pessoas que ligar para seu negócio navegar para conectá-los ao departamento direita de um sistema de menus, pessoa, ou o Operador. Atendedores automáticos podem ser usados com equipes ou Skype para negócios. Você pode criar um sistema de atendedor automático para sua organização com o Skype para centro de administração de negócios.\n\nSe você for solicitado para configurar um atendedor automático, este artigo o orientará por meio de planejamento e implementação de atendedores automáticos para uma pequena empresa hipotética. Não é uma solução única, mas é um bom ponto de partida. \n\n## <a name=\"before-you-begin\"></a>Antes de você começar\n\nAssumimos que você já tiver feito o seguinte: \n- [Configurar o sistema telefônico na sua organização](/MicrosoftTeams/setting-up-your-phone-system.md) com uma [Chamada planejar](/MicrosoftTeams/what-are-calling-plans-in-office-365) para fornecer números de telefone para seus usuários.\n- [Configurar a caixa postal do Sistema de Telefonia](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- Revisado [Cite atendedores automáticos da telefone sistema?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) para obter uma compreensão melhor dos recursos do sistema telefônico que podem interagir com um atendedor automático.\n\nAlém disso, você ficará feliz descobrir que a maioria da parte do planejamento e projeto pode ser feita usando um quadro branco ou cartões de índice: tecnicamente não está mais exigentes ter um bom plano.\n"
