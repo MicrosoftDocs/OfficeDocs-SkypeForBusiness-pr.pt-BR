@@ -1,11 +1,11 @@
 ---
 title: Ferramentas e downloads para adoção
 description: Use estes recursos de adoção para ajudá-lo a adoção da Microsoft Teams e outros serviços do Office 365.
-layout: LandingPage
 ms.topic: landing-page
 author: karuanag
 ms.author: karuanag
 manager: serdars
+layout: LandingPage
 ms.date: 11/20/2018
 ms.service: msteams
 ms.custom: Adopt
@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Adopt
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64041c7cf66e880374d8d52f68c7ec5def0de61c
-ms.sourcegitcommit: 155029842e76cc7ae08da48c55ba7ec827d0505c
+ms.openlocfilehash: 0e127be7c64dfadcc8cf01e2abcd4bb069d92b78
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28015321"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408239"
 ---
 # <a name="tools-for-driving-adoption"></a>Ferramentas para orientando a adoção 
 
@@ -149,4 +149,4 @@ O programa de campeões do Office 365 é um programa gratuito que ajuda as pesso
 Check-out do [quadro de adoção de equipes](https://aka.ms/teamstoolkit), um guia on-line que ajudarão você a implantar as equipes de sua empresa. Ele inclui várias ferramentas para download, modelos e outros recursos para ajudá-lo ao longo do percurso da adoção suas equipes.
 
 ### <a name="teams-customer-success-kit"></a>Kit de sucesso do cliente de equipes
-O [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fornece ferramentas para ajudá-lo a implantar as equipes de sua organização. Ela inclui os modelos de email para comunicados, cartazes panfletos, contagem regressiva e dicas e truques. Ele também inclui guias de Introdução para líderes de equipe e os administradores de TI.
+O [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fornece ferramentas para ajudá-lo a implantar as equipes de sua organização. Ela inclui os modelos de email para comunicados, cartazes panfletos, contagem regressiva e dicas & truques. Ele também inclui guias de Introdução para líderes de equipe e os administradores de TI.
