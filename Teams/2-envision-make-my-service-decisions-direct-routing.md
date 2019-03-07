@@ -1,5 +1,5 @@
 ---
-title: Tomar decisões de serviço de roteamento direto de sistema do telefone - Teams da Microsoft
+title: Tomar decisões de serviço de Roteamento Direto do Sistema de Telefonia – Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Saiba mais sobre roteamento direto, licenciamento, e as decisões que precisam ser realizadas.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374438"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462736"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -47,16 +49,16 @@ Depois de confirmar que sua organização pode obter o recurso de sistema telef�
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Identifique os locais do usuário ou escritórios na qual você implementará o sistema telefônico.<li>Identifique os usuários que você pretende habilitar roteamento direto ou em planos de chamada para cada local que você tenha.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os locais do usuário ou escritórios estar habilitado para o sistema telefônico.<li>A lista de usuários que você pretende habilitar roteamento direto ou em planos de chamada para cada local que você tenha de documentos</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais do usuário ou escritórios estar habilitado para o sistema telefônico.<li>A lista de usuários que você pretende habilitar roteamento direto ou em planos de chamada para cada local que você tenha de documentos</ul>|
 
 > [!TIP]
 > Abaixo é um exemplo de uma lista de habilitação do site de roteamento direto.
 > 
-> | **Escritório**                     | **Local**   | **Serviço de sistema telefônico** |
+> | **Office**                     | **Local**   | **Serviço de sistema telefônico** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Austrália      | Serviço PSTN herdado |
-> | 100 Alma Road             | Hong Kong SAR  | Roteamento direto de sistema do telefone |
-> | One Marina Boulevard           | Cingapura      | Roteamento direto de sistema do telefone |
+> | 100 Alma Road             | Hong Kong SAR  | Roteamento Direto do Sistema Telefônico |
+> | One Marina Boulevard           | Cingapura      | Roteamento Direto do Sistema Telefônico |
 > | 32 London Bridge Street        | Reino Unido | Sistema de Telefonia com Planos de Chamadas |
 > | 39 quai du Président Roosevelt | França         | Sistema de Telefonia com Planos de Chamadas |
 
@@ -87,14 +89,14 @@ Sistema telefônico exige que cada usuário na sua organização tenha um inward
 
 Caixa postal de sistema telefônico, possibilitada pela serviços de caixa postal do Azure, suporta depósitos de correio de voz em somente caixas postais do Exchange e não oferece suporte a sistemas de email de terceiros.
 
-A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) para obter mais detalhes.
+A caixa postal do Sistema de Telefonia inclui transcrição da caixa postal que, por padrão, está habilitada para todos os usuários da organização. Suas necessidades de negócios podem exigir que você desative as transcrições de caixa postal para usuários específicos ou todos em toda a organização. Se a sua organização decidir manter a transcrição do correio de voz habilitada, você precisa considerar também se mascaramento de obscenidades transcrição caixa postal precisa estar habilitado. Consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md) para obter mais detalhes.
 
-Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [Configure a caixa postal do sistema telefônico](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).
+Para obter mais informações sobre a caixa postal na implementação de um sistema telefônico, consulte [Configure a caixa postal do sistema telefônico](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se você habilitará o sistema telefônico de caixa postal na sua implementação de roteamento direto.<li>Decida se vai habilitar ou desabilitar a transcrição do correio de voz e caixa postal mascaramento de obscenidades transcrição em toda a organização ou usuários específicos.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Se aplicável, documente os pontos de decisão para oferecer suporte à caixa postal do sistema telefônico.<li>Se você vai habilitar ou desabilitar a caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Se aplicável, documente os pontos de decisão para oferecer suporte à caixa postal do sistema telefônico.<li>Se você vai habilitar ou desabilitar a caixa postal, transcrições de caixa postal e caixa postal mascaramento de obscenidades transcrição somente para usuários específicos, essa lista de usuários do documento.</ul>|
 
 > [!TIP]
 > Detalhes de caixa postal de sistema de telefone para a implementação de planos de chamada podem ser documentados como na tabela a seguir.
@@ -109,15 +111,13 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 > | Isabell Potvin   | No local          | Sim                   | Desabilitado                    | N/D                                           |
 > 
 > [!NOTE]
-> Para usar as equipes e caixa postal, os usuários devem ter caixas de correio do Exchange. Para obter mais detalhes, consulte [como o Exchange e equipes da Microsoft interagir](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
+> Para usar as equipes e caixa postal, os usuários devem ter caixas de correio do Exchange. Para obter mais detalhes, consulte [como o Exchange e equipes da Microsoft interagir](exchange-teams-interact.md) .
 
 <!--ENDOFSECTION-->
 
 ## <a name="licensing-for-direct-routing"></a>Licenciamento para roteamento direto
 
 Se sua organização pretende usar o roteamento direto, você precisa obter licenças necessárias. Usuários de roteamento direto devem ter as seguintes licenças atribuídas no Office 365:
-
-
 
 -   Sistema telefônico da Microsoft
 
@@ -129,18 +129,18 @@ Licença de conferência de áudio é necessária para adicionar participantes e
 
 
 > [!NOTE]
-> Para fornecer números de telefone de ponte de conferência de discagem gratuita e para oferecer suporte a discagem de conferência aos números de telefone internacional, você deve configurar o [Communications créditos](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) para sua organização.
+> Para fornecer números de telefone de ponte de conferência de discagem gratuita e para oferecer suporte a discagem de conferência aos números de telefone internacional, você deve configurar o [Communications créditos](what-are-communications-credits.md) para sua organização.
 
 Conferência de áudio e sistema telefônico podem ser licenciados separadamente como serviços de complemento para os clientes existentes que têm o Office 365 E3 ou E1 planos de assinatura; eles já estão incluídos como parte do plano de assinatura do Office 365 E5.
 
 > [!TIP]
-> Você também pode usar o roteamento direto para os usuários habilitados para planos de chamada ao rotear as chamadas para PBXs de terceiros. Para obter mais detalhes, consulte [licenciamento e outros requisitos de roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements).
+> Você também pode usar o roteamento direto para os usuários habilitados para planos de chamada ao rotear as chamadas para PBXs de terceiros. Para obter mais detalhes, consulte [licenciamento e outros requisitos de roteamento direto](direct-routing-plan.md#licensing-and-other-requirements).
 
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Se sua organização não tiver a licença de sistema telefônico necessária, decida se você vai adquirir a licença do sistema telefônico passando o backup de suas assinaturas do Office 365 existentes ou adquirindo o serviço de complemento do sistema telefônico.<li>Decida se você precisará créditos de comunicações para a implementação de roteamento direto.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os grupos de divisão, departamento, office ou usuário vai atribuir uma licença de sistema telefônico.<li>Se a conferência de áudio com números para ligações gratuitas estiver em escopo, os grupos de divisão, departamento, office ou usuário você habilitará o créditos de comunicações do documento.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os grupos de divisão, departamento, office ou usuário vai atribuir uma licença de sistema telefônico.<li>Se a conferência de áudio com números para ligações gratuitas estiver em escopo, os grupos de divisão, departamento, office ou usuário você habilitará o créditos de comunicações do documento.</ul>|
 
 <!--ENDOFSECTION-->
 
@@ -155,13 +155,13 @@ Locatário do Office 365 deve estar habilitado com um ou mais domínios, pois o 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se todos os usuários precisam ser migrados para o Skype para negócios on-line para dar suporte ao roteamento direto.<li>Identifique os usuários que precisam estar habilitadas para equipes.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>A lista de usuários que precisam mover para Skype para Business Online e ser habilitada para equipes do documento.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>A lista de usuários que precisam mover para Skype para Business Online e ser habilitada para equipes do documento.</ul>|
 
 <!--ENDOFSECTION-->
 
 ## <a name="sbc-considerations"></a>Considerações de SBC
 
-Você precisará usar controladores de borda de sessão de certificados e com suporte (SBCs) que precisam ser emparelhados ao serviço de roteamento direto para fornecer conectividade PSTN para seus usuários. Para obter uma lista de certificados SBCs, consulte [Suporte para controladores de borda de sessão](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs).
+Você precisará usar controladores de borda de sessão de certificados e com suporte (SBCs) que precisam ser emparelhados ao serviço de roteamento direto para fornecer conectividade PSTN para seus usuários. Para obter uma lista de certificados SBCs, consulte [Suporte para controladores de borda de sessão](direct-routing-plan.md#supported-session-border-controllers-sbcs).
 
 Dependendo do seu ambiente, o número de locais e requisitos de roteamento de voz, você talvez seja necessário implantar vários SBCs para oferecer suporte à sua base de usuários.
 
@@ -179,7 +179,7 @@ Cada implantação SBC com o roteamento direto requer um certificado obtido de u
 > [!NOTE]
 > Também há suporte para o uso de certificados curinga com SBCs.
 
-Para obter mais informações e uma lista de autoridades de certificação com suporte, consulte o [certificado público de confiável para o SBC](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc).
+Para obter mais informações e uma lista de autoridades de certificação com suporte, consulte o [certificado público de confiável para o SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
 
 
 ### <a name="sbc-ip-addresses-and-ports"></a>Portas e endereços IP de SBC
@@ -190,7 +190,7 @@ SBCs exigem conectividade bidirecional para se comunicar com os serviços de nuv
 
 Você precisará definir números de porta específica em cada SBC para sinalização SIP e a mídia e configure seus firewalls para permitir que o tráfego bidirecional essas portas e seus endereços IP associados.
 
-Para obter mais detalhes, consulte [a sinalização SIP: FQDNs e portas de firewall](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports) e [tráfego de mídia: intervalos de porta](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges).
+Para obter mais detalhes, consulte [a sinalização SIP: FQDNs e portas de firewall](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) e [tráfego de mídia: intervalos de porta](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
@@ -199,7 +199,7 @@ Para obter mais detalhes, consulte [a sinalização SIP: FQDNs e portas de firew
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida em quais locais você vai implantar SBCs.<li>Decida um nome DNS para cada SBC que você estiver planejando implantar.<li>Com base na decisão de nome de domínio SBC, decida se você vai usar um certificado curinga para dar suporte a todos os SBCs em sua implantação ou um certificado dedicado por SBC.<li>Decida qual autoridade de certificação pública você obtenha os certificados para seus SBCs de.<li>Definir um par de endereço/porta IP público para cada SBC você implantar e decidir se você irá atribuir os endereços IP públicos para os SBCs ou usar NAT.<li>Identifique o número máximo de sessões simultâneas que oferece suporte a cada SBC ou pode manipular.<li>Decida quais SBCs serão configurados por meio de Bypass de mídia.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente cada decisão sendo feita para os SBCs usando a tabela de exemplo a seguir.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente cada decisão sendo feita para os SBCs usando a tabela de exemplo a seguir.</ul>|
 
 
 > [!TIP]
@@ -240,7 +240,7 @@ Você pode configurar suas rotas de voz com o roteamento direto para coexistir c
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida o roteamento diretivas, usos da PSTN e roteamentos de voz que você vai criar para locais de usuário de suporte ou escritórios em escopo para a implementação do direto roteamento de voz.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente as políticas de roteamento de voz, usos da PSTN e roteamentos de voz para sua organização.<li>Documente os usuários a ser atribuído para cada política de roteamento de voz que você define.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente as políticas de roteamento de voz, usos da PSTN e roteamentos de voz para sua organização.<li>Documente os usuários a ser atribuído para cada política de roteamento de voz que você define.</ul>|
 
 > [!TIP]
 > Use o modelo a seguir para documentar as políticas de voz para sua implantação de roteamento direto.
@@ -270,18 +270,18 @@ Você pode configurar os usuários para definir as equipes como seu cliente pref
 
 -   Configure equipes como o cliente de chamada preferencial, atribuindo o TeamsCallingPolicy e o TeamsInteropPolicy.
 
-Para obter mais detalhes, consulte [definir equipes da Microsoft como o preferencial chamar cliente para os usuários](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users).
+Para obter mais detalhes, consulte [definir equipes da Microsoft como o preferencial chamar cliente para usuários](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
 
 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida qual abordagem você usará para definir equipes como cliente preferencial para chamadas.</ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Os usuários a ser configurado com as políticas de interoperabilidade e chamadas do documento.</ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Os usuários a ser configurado com as políticas de interoperabilidade e chamadas do documento.</ul>|
 
 > [!IMPORTANT]
 > Quando um usuário estiver configurado para o modo somente equipes, esse usuário não é mais pode entrar no Skype para negócios.
 
-Para que os usuários para ver a guia chamadas no cliente equipes, você precisará habilitar privada chamando-se em um nível organizacional para o inquilino. Consulte [Habilitar chamar para equipes da Microsoft](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams) para obter mais detalhes sobre como habilitar chamadas particulares.
+Para que os usuários para ver a guia chamadas no cliente equipes, você precisará habilitar privada chamando-se em um nível organizacional para o inquilino. Consulte [Habilitar chamar para equipes da Microsoft](direct-routing-configure.md) para obter mais detalhes sobre como habilitar chamadas particulares.
 
 
 <!--ENDOFSECTION-->

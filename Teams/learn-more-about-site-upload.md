@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Aprenda a carregar a um site.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017411"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462632"
 ---
 <a name="adding-and-updating-locations-data"></a>Adicionar e atualizar dados de locais
 ============================
@@ -45,10 +47,10 @@ Você pode usar o exemplo a seguir para ajudar a criar seu arquivo de dados.
 
 |Rede|Nome da rede|Intervalo de rede|Nome do edifício|Tipo de propriedade|Tipo de construção|Tipo de construção do Office|Cidade|Código Postal|País|Estado|Região|Interior Corp|Rota Express|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso concedida prediais|Escritório|Prediais|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso concedida prediais|Escritório|Prediais|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso concedida prediais|Escritório|Prediais|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso concedida prediais|Escritório|Prediais|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso concessão RE&F|Office|RE&F|Modo de exibição das Montanhas|94043 e.u.a.|CONOSCO|CA|CONOSCO|1|1|
 
 
 Para obter mais informações sobre a formatação de seu arquivo de dados, consulte o [formato e a estrutura do arquivo de dados de criação do arquivo de dados de Inquilino](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
@@ -56,4 +58,4 @@ Para obter mais informações sobre a formatação de seu arquivo de dados, cons
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar a análise de chamada](set-up-call-analytics.md)
+[Configurar Análise de Chamada](set-up-call-analytics.md)

@@ -10,15 +10,17 @@ ms.service: msteams
 search.appverid: MET150
 description: Saiba como criar e gerenciar uma equipe de toda a organização em equipes.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: a63b39d0b0ef51326b253e87be99889e9a018a03
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182516"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461056"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -40,9 +42,9 @@ Quando uma equipe de toda a organização é criada, todos os administradores gl
 Para obter o máximo da sua equipe de toda a organização, é recomendável que os proprietários de equipe faça o seguinte.
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que somente os proprietários de equipe postar no canal gerais
-Reduza o ruído de canal estabelecendo somente equipe postagem de proprietários no canal geral. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro** > selecione **somente proprietários podem postar mensagens**.
+Reduza o ruído de canal estabelecendo somente equipe postagem de proprietários no canal geral. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em Selecionar de gt _ de **permissões de membro** , **somente os proprietários podem postar mensagens**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar @team e @ menções [nome da equipe]
- Reduza @mentions para mantê-los da sobrecarga de toda a organização. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **@mentions** > desativar **Mostrar membros a opção de @team ou @[nome da equipe]**. 
+ Reduza @mentions para mantê-los da sobrecarga de toda a organização. Vá para a equipe e clique em **mais opções (…)**  >  **Gerenciar equipe**. Na guia **configurações** , clique em **@mentions** gt _ desativar **Mostrar membros a opção de @team ou @[nome da equipe]**. 
 ### <a name="automatically-favorite-important-channels"></a>Canais de importantes automaticamente Favoritos
  Canais favoritos importantes para garantir que todos em sua organização participa de conversas específicas. Para saber mais, consulte [canais de Autofavorito a equipe inteira](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
 

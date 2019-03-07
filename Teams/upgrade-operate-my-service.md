@@ -10,15 +10,17 @@ description: Tarefas e atividades necessárias para gerenciamento de serviço de
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b455d7599f5de8e2eb76f560e593eb5e409ecae
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562795"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460496"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -44,7 +46,7 @@ Diagrama de ![uma ilustrando uma lista de categorias de tarefas e atividades de 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Revise o guia de operações por completo.</li><li>Implemente uma estratégia de operações que se alinha com as metas da sua organização para oferecer a qualidade e a confiabilidade das cargas de trabalho de equipes.</li><li>Revise o guia revisão de qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente a qualidade da experiência revisões para certificar-se de que sua implantação de equipes está operando em seus recursos de pico.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Revise o guia de operações por completo.</li><li>Implemente uma estratégia de operações que se alinha com as metas da sua organização para oferecer a qualidade e a confiabilidade das cargas de trabalho de equipes.</li><li>Revise o guia revisão de qualidade da experiência.</li><li> Implemente uma estratégia de operações para executar regularmente a qualidade da experiência revisões para certificar-se de que sua implantação de equipes está operando em seus recursos de pico.</li></ul></td></tr>
 </table>
 
 ### <a name="operational-role-mapping"></a>Mapeamento de função operacionais
@@ -62,7 +64,7 @@ Certifique-se de que cada equipe responsável tem um bom entendimento das ativid
 Depois de um contrato é estabelecido, as equipes correspondentes deverá começar tornem operacional suas funções.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td>
 <td><ul><li>Use este documento para facilitar o exercício de mapeamento de função operacionais.</li><li>Se encontrar com as equipes de suporte respectivos para atribuir nomes a cada item na lista de atividades necessárias.</li><li>Obter a aceitação ou aprovação nas funções atribuídas.</li><li>Certifique-se de que as equipes correspondentes tenham o treinamento adequado, preparação e recursos para concluir as atividades necessárias deles.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependências de serviços de equipes
@@ -452,7 +454,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips)
 
-[Obter clientes do Microsoft Teams](get-clients.md)
+[Obter clientes para o Microsoft Teams](get-clients.md)
 
 [Comunidade do Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 

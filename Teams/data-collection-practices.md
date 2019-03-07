@@ -10,9 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
 - msteams
-ms.collection:
+MS.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft coleta dados censo, erro e uso para entender como Skype para negócios está sendo usada e onde os usuários encontrarem problemas. Os dados são usados para planejar os aperfeiçoamentos do produto.
-ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: d2673424bcddb1b6b3ebaae3bc7bde7f1fce790f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678374"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464112"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para práticas de conjunto de dados corporativos e Teams da Microsoft
 
@@ -108,7 +108,7 @@ Relatório de erros exige duas coisas:
 - Os usuários finais individualmente aceitar a partir da guia Geral (clique no ícone de engrenagem ![ícone de engrenagem](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) e abre a caixa de diálogo **Opções** com a guia **Geral** exibida) no Skype para o cliente de negócios.
     
  
-![Skype para checkbox de conjunto de dados corporativos nas opções de > diálogo geral](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![Skype para negócios dados coleção checkbox a caixa de diálogo Opções gt _ gerais](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Para o aplicativo do Skype reuniões, o MeetingUxEnableTelemetry também controla relatório de erro, embora para falhas no Windows, as configurações do Watson controlam informações de falha de carregamento. Não há nenhuma configuração do usuário para aplicativo de reuniões do Skype como vê na caixa de diálogo do cliente de desktop.
 

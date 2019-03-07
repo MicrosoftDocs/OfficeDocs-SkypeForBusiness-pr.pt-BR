@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como direcionar a adoção de equipes usando o produto.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699705"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459448"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
@@ -28,7 +30,7 @@ A melhor forma para incentivar a adoção das equipes é usar o produto. Recomen
 
 | Nome da equipe | Nomes de canal proposto |
 | --------- | ---------------------- |
-| Conheça as equipes | Geral</br> Diga hi</br> Tutorial</br>Comentários </br> Ideias para equipes futuras </br> Suporte |
+| Conheça as equipes | Geral</br> Dê boas-vindas</br> Tutorial</br>Comentários </br> Ideias para equipes futuras </br> Suporte |
 | Implementação de equipes da Microsoft | Geral <br/> Divulgação e adoção <br/> Compromisso de negócios <br/> Programa de adoção antecipada <br/> Comentários e ideias <br/> Segurança e conformidade <br/> Estratégia e planejamento <br/> Incidentes e integridade do serviço <br/> Treinamento <br/> Bate-papo de Watercooler |
 | Campeões de trabalho em equipe | Geral <br/> Práticas recomendadas, treinamento e como <br/> Canto campeões <br/> Suporte e comentários <br/> Líderes de programa <br/> Hub social |
 

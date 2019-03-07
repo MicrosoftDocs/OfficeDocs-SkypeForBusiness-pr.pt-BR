@@ -1,5 +1,5 @@
 ---
-title: Preparar um plano de preparação do usuário; Atualizar do Skype for Business para equipes
+title: Preparar um plano de preparação do usuário; atualizar do Skype for Business para o Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -10,15 +10,17 @@ description: Planejar para se comunicar com, treinar e seus usuários conforme v
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc1527b5f57219ecf062f1ab7025d969c13182
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349441"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459704"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -39,7 +41,7 @@ Um plano de preparação do usuário ideal incorpora como você vai se comunicar
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como você pode criar um plano de preparação para facilitar e agilizar a adoção usuário da nova solução?</li><li>Você tem o direita divulgação, treinamento e recursos de suporte que se alinham com a capacidade dos usuários para lidar com a alteração e as personagens de usuário que você definiu?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Use a lista a seguir para gerar ideias para o seu plano de preparação. Selecione as atividades mais relevantes — ou adicione seus próprios — projetar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de amplo número-alcance (para toda a organização) e campanhas direcionadas (para retardatários ou personagens específicas) para o número máximo de resultados.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista a seguir para gerar ideias para o seu plano de preparação. Selecione as atividades mais relevantes — ou adicione seus próprios — projetar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de amplo número-alcance (para toda a organização) e campanhas direcionadas (para retardatários ou personagens específicas) para o número máximo de resultados.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

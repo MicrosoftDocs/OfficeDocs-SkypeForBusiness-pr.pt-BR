@@ -9,15 +9,17 @@ ms.service: msteams
 description: Saiba como aprimorar grupos existentes do Office 365 com o Microsoft Teams convidando uma lista de distribuição para uma equipe, adicionar grupos de segurança habilitados para e-mail, e muito mais.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5905ba16a6928b4347db9edb08e5db1c08f0cdb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699263"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463520"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Aprimorar grupos existentes do Office 365 com o Microsoft Teams
 =======================================================
@@ -32,7 +34,7 @@ Para isso, os usuários deverão seguir o fluxo de criar uma nova equipe a parti
 >A opção **criar uma equipe de um grupo existente do Office 365** não estará disponível a menos que essas condições forem atendidas.
 
 
-Os usuários também podem convidar uma lista de distribuição para uma equipe, e os membros dessa lista de distribuição também serão incluídos na equipe. É uma sincronização única; alterações posteriores em assinaturas do grupo na lista de distribuição não serão replicadas ao Teams. 
+Os usuários também podem convidar uma lista de distribuição para uma equipe, e os membros dessa lista de distribuição também serão incluídos na equipe. É uma sincronização única; alterações posteriores em assinaturas do grupo na lista de distribuição não serão replicadas ao Teams. 
 
 ![Uma sequência de capturas de tela mostra à equipe o convite de uma lista de distribuição e seus membros.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 

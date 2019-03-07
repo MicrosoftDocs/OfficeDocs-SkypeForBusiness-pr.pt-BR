@@ -10,15 +10,17 @@ description: Inscrever-se os participantes para servir na equipe do projeto para
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 072161fed4d28ec045156c34acbcc3cbc37d7635
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349323"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461288"
 ---
 ![Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto] (media/upgrade-banner-stakeholders.png "Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto")
 
@@ -36,7 +38,7 @@ Opcionalmente, você pode criar um comitê de orientação. Em alguns casos, gra
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão | <ul><li>Quem são as pessoas certas para servir como sua equipe das partes interessadas para esse projeto?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos | <ul><li>Considere o escopo do seu projeto e atribuir os participantes relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é completa.<br><strong>Dica</strong><br>Construa um responsável-responsável-consultado-informados [matrix (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para obter mais distinguir quem será responsável daquelas que simplesmente precisam ser mantidas informadas em uma área específica do projeto.</li> |
+| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Considere o escopo do seu projeto e atribuir os participantes relevantes.</li><li>Use a tabela a seguir como uma diretriz, mas observe que essa lista não é completa.<br><strong>Dica</strong><br>Construa um responsável-responsável-consultado-informados [matrix (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para obter mais distinguir quem será responsável daquelas que simplesmente precisam ser mantidas informadas em uma área específica do projeto.</li> |
 | <li>Decida se deseja criar um comitê de orientação e atribuir funções conforme apropriado.</li></ul> | |
 
 | Funções | Responsabilidade |

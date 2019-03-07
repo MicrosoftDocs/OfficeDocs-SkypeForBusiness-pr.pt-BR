@@ -1,5 +1,5 @@
 ---
-title: Microsoft StaffHub para ser retirado
+title: O Microsoft StaffHub será desativado
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -9,17 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 description: ''
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Office for business, Microsoft Teams
-ms.openlocfilehash: d5b0cb21334a1959c18352657f8e72ae1dd015d2
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 0a7f21b4c999ab7300b88e059b87d3710ddd700a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30307129"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465128"
 ---
-# <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub para ser retirado
+# <a name="microsoft-staffhub-to-be-retired"></a>O Microsoft StaffHub será desativado
 
 A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando StaffHub recursos, incluindo gerenciamento de agenda e tarefa, em Microsoft Teams. O aplicativo móvel de equipes agora inclui o gerenciamento de shift e uma experiência de tela inicial. Recursos adicionais para os trabalhadores firstline serão distribuir às equipes ao longo do tempo. 
 

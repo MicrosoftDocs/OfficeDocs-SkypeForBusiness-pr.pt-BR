@@ -8,19 +8,21 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como medir os resultados e o êxito da sua habilitação de grande escala de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 09efb86effe9179908c10eb9fbb7de30cc5a247d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699809"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461808"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 

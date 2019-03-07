@@ -1,5 +1,5 @@
 ---
-title: Quais são as restrições de caractere especial nas políticas de equipes?
+title: Quais são as restrições de caracteres especiais nas políticas do Teams?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.service:
 - msteams
 - skype-for-business-online
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
@@ -22,14 +22,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Consulte quais problemas que existem com caracteres especiais nos nomes de políticas e o que você pode fazer para corrigi-lo.
-ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3d2bc6f253f048dc07ab99111df3bc1d47788795
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754732"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460152"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caractere especial nas políticas de equipes?
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quais são as restrições de caracteres especiais nas políticas do Teams?
 
 **Não é possível criar ou editar diretivas (para mensagens, reuniões, etc.) que possuem um caractere especial no nome de usuário na administração do Microsoft equipes center**. 
 

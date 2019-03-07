@@ -9,15 +9,17 @@ ms.service: msteams
 description: Descreve os atendedores automáticos de sistema telefônico e filas de chamada e explica como você pode atender essas chamadas em equipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530942"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465328"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes
 ===========================================================
@@ -38,7 +40,7 @@ A ilustração a seguir mostra como uma chamada de entrada a partir de uma fila 
 
 ![Notificação de chamada recebida](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Depois que uma chamada de fila de chamada e atendente automático for atendida, o usuário pode processar a chamada como qualquer chamada & #x 2014; eles podem adicionar ou conferência de outro usuário ou transferir a chamada para outra pessoa. Além disso, as chamadas de atendedor automático serão encaminhadas com base na configuração do usuário.
+Depois que uma chamada de fila de chamada e atendente automático for atendida, o usuário pode processar a chamada como qualquer outra chamada & #x 2014; eles podem adicionar ou conferência de outro usuário ou transferir a chamada para outra pessoa. Além disso, as chamadas de atendedor automático serão encaminhadas com base na configuração do usuário.
 
 > [!NOTE] 
 > Chamadas de fila de chamada não são encaminhadas com base na configuração do usuário. Isso é para garantir que os chamadores permanecem na fila de espera até que um operador pode atender a chamada e o chamador não é encaminhado inesperadamente.
@@ -59,7 +61,7 @@ Para receber o atendedor automático e chamar as chamadas de fila em Teams da Mi
 ## <a name="related-topics"></a>Tópicos relacionados
 
 -   [Qual é o sistema telefônico no Office 365](what-is-phone-system-in-office-365.md)
--   [Criar uma fila de chamadas do Sistema de Telefonia](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [Criar uma fila de chamada no Sistema Telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
--   [Configurar o atendedor automático do Sistema de Telefonia](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Configurar os atendedores automáticos do Sistema Telefônico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

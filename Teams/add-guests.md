@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 01/31/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: sbhatta
 description: Conheça as ferramentas disponíveis para adicionar novos usuários a uma organização, incluindo clientes desktop e web do Microsoft Teams e o portal de colaboração do Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9a4418600b3ce6d0da99b8b3f18fba186c8b49f
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: b68980a3c9019bbff422393e8a47f9d90bb3294a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706279"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461208"
 ---
 <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 =====================

@@ -1,25 +1,27 @@
 ---
-title: Adicionar o domínio SMTP de equipes da Microsoft como um domínio do remetente permitidos no Exchange Online
+title: Adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: anprakas
 search.appverid: MET150
 description: Saiba como adicionar o domínio SMTP de equipes da Microsoft como um domínio do remetente permitidos no Exchange Online para enviar notificações aos membros da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f94b18994e277b90f96bc4fdbdefaa0b1f7a72e8
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: ce0448ccdd124cf21db417f496d562e6fa9b6b76
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789046"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464464"
 ---
-<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Adicionar o domínio SMTP de equipes da Microsoft como um domínio do remetente permitidos no Exchange Online 
+<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Adicionar o domínio SMTP do Microsoft Teams como um domínio de remetente permitido no Exchange Online 
 =============================================================================
 
 Se você cria um Grupo do Office 365 no console de administração ou usando o Outlook, o Exchange Online é usado para enviar notificações quando um membro da equipe é adicionado a um Grupo. Essas mensagens são geradas a partir do seu locatário, pois representam o seu FQDN SMTP de domínio padrão.

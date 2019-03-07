@@ -9,7 +9,7 @@ ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 4aadb8fed90a99aa319b8be02cbbfcbe0c023083
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: df6d19cdae26a7c5459f7d306f68ba9a4b0bebef
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350966"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463432"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrições de discagem de chamada gratuita na Índia
 
@@ -46,7 +46,7 @@ ms.locfileid: "30350966"
 |Comentários, restrições e problemas de acesso  <br/> |Acesso disponível na seguintes redes: Mobile Loop, BSNL - fixo (todas as regiões, mas Bhopal), Vodafone, IDEIA/acentuar um pouco (todas as regiões mas acentuar um pouco Punjab), Índia de MTS/Shyam (fixo), MTNL - fixa &amp; mobile, dependência (todas as regiões, mas Ahmedabad, Bhopal, Bhuneswer Jaipur, Lucknow, Meerut), TTML &amp; TTSL (fixa &amp; pós-pagos), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL móvel, Bharti/Airtel de rede.  <br/> Acesso não disponível para as seguintes redes: TTSL (pré-pagos), Etisalat DB telecomunicações e Jio.  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Restrições e limitações de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
+[Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

@@ -9,15 +9,17 @@ ms.service: msteams
 description: Encontre ferramentas para dar suporte à distribuição do Microsoft Teams, como modelos de email, Guias de Introdução, o Kit de sucesso do cliente e muito mais.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532289"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458832"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obter ferramentas para dar suporte na implantação do Microsoft Teams
 =================================================

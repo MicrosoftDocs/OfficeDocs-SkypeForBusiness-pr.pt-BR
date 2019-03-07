@@ -1,5 +1,5 @@
 ---
-title: Preparar para implantar o serviço de voz de nuvem Teams da Microsoft
+title: Preparar para implantar os serviços de voz da nuvem do Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Use as listas de verificação de inclusão preparar o Office 365 para equipes e configurar recursos principais de equipes, rede e cargas de trabalho de voz na nuvem.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21cd36632f04060a50bd4fa6f742a5e7972ebec6
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 203a819eb3732d37aa65f92372eb21ffd59aea08
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753496"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462064"
 ---
 # <a name="prepare-my-service"></a>Preparar o meu serviço
 
@@ -54,7 +56,7 @@ Quando você estiver inclusão de usuários em uma base por site, é altamente r
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela supervisão a conclusão das listas de inclusão de verificação?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Baixe as listas de verificação de inclusão.</li><li>Trabalhar através dos itens de lista de verificação de inclusão passo a passo de acordo com o plano de implantação da sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Baixe as listas de verificação de inclusão.</li><li>Trabalhar através dos itens de lista de verificação de inclusão passo a passo de acordo com o plano de implantação da sua organização.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -181,7 +183,7 @@ Depois que o ambiente do usuário e o serviço tiverem sido configurados, a últ
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quais recursos do recurso de conferência de áudio serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para conferência de áudio.</li><li>Identifique os requisitos de configuração do serviço de conferência de áudio.</li><br><li>Decida se roteamento direto ou chamar planos serão implantados e configurados.<li>Decida quais recursos do sistema telefônico serão implantados (decisão de serviço).</li><li>Identifique os requisitos de funcionalidade do usuário para planos de chamar ou roteamento direto.</li><li>Identifique o requisito de configuração de serviço para planos de chamar ou roteamento direto.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Desenvolver e documentar sua abordagem de plano de teste.</li><li>Prepare seu ambiente de serviço e os usuários no escopo de recursos de conferência de áudio.</li><li>Prepare seu ambiente de serviço e os usuários no escopo para recursos de roteamento direto ou em planos de chamada.</li><li>Execute o teste de validação para os recursos de conferência de áudio que você deseja habilitar.</li><li>Execute o teste de validação para os recursos de roteamento direto ou em planos de chamada que você deseja habilitar.</li><li>Para qualquer falhas de teste, confirme se sua configuração está correta, analise os artigos de comunidade, e — se for necessário — elevar um caso de suporte.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Desenvolver e documentar sua abordagem de plano de teste.</li><li>Prepare seu ambiente de serviço e os usuários no escopo de recursos de conferência de áudio.</li><li>Prepare seu ambiente de serviço e os usuários no escopo para recursos de roteamento direto ou em planos de chamada.</li><li>Execute o teste de validação para os recursos de conferência de áudio que você deseja habilitar.</li><li>Execute o teste de validação para os recursos de roteamento direto ou em planos de chamada que você deseja habilitar.</li><li>Para qualquer falhas de teste, confirme se sua configuração está correta, analise os artigos de comunidade, e — se for necessário — elevar um caso de suporte.</li></ul></td></tr>
 </table>
 
 

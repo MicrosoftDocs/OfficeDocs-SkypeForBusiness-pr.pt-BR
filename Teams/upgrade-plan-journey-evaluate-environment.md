@@ -10,15 +10,17 @@ description: Use estas diretrizes para saber mais sobre os requisitos para avali
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b978bd5fb8c4f62899e9765efaec4ce74383e1d3
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349464"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461928"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -191,7 +193,7 @@ Use a tabela a seguir e registre o estado atual de adoção e preparação de su
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul><li>Quem será responsável pela conclusão uma avaliação do ambiente?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximo passo</td><td><ul><li>Os resultados da avaliação do ambiente do documento.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próxima etapa</td><td><ul><li>Os resultados da avaliação do ambiente do documento.</li></ul></td></tr>
 </table>
 
 Depois de avaliar o seu ambiente, prossiga para a próxima etapa: [preparar sua rede](upgrade-prepare-environment-prepare-network.md).

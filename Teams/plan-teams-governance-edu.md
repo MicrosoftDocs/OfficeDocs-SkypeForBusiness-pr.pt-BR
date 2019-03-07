@@ -1,5 +1,5 @@
 ---
-title: Governança de Microsoft Education perguntas Frequentes para profissionais de TI - Teams da Microsoft
+title: Perguntas frequentes sobre governança do Microsoft Education para profissionais de TI ‒ Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Respostas a perguntas frequentes dos administradores dos grupos da Microsoft Education que usam equipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 687012404713bcbfcb8ecf86efa8af36b8eb0a59
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539061"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461176"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Governança de Microsoft Education perguntas Frequentes para administradores
 

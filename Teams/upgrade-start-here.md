@@ -1,5 +1,5 @@
 ---
-title: Introdução à atualização do Microsoft Teams
+title: Introdução à atualização para o Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -11,17 +11,19 @@ description: Saiba por que você deve considerar a atualização Skype para neg�
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
-ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
+ms.openlocfilehash: 5082b99d6742b72520ac7a42b33c80e19a329517
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29662466"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461880"
 ---
-# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introdução à atualização do Microsoft Teams
+# <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introdução à atualização para o Microsoft Teams
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Por que atualizar para o Microsoft Teams?
 

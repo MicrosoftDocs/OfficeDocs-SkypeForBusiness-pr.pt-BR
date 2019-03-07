@@ -9,7 +9,7 @@ ms.assetid: d8f9ab66-dd1a-4d1e-86de-c9092cbb9707
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 382b30e63c3d74f8050f4f03b03cd8688846264d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: cec0026c6fdda78b3164c7b2d34c1392d46656b7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353358"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462496"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrições de discagem de chamada gratuita na Bósnia e Herzegovina
 
@@ -47,7 +47,7 @@ ms.locfileid: "30353358"
 |Comentários, restrições e problemas de acesso  <br/> |Acessível por redes fixas e móveis da HT EroNet/Mostar, da Telekom Srpske/MTEL e da BHT.  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Restrições e limitações de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
+[Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

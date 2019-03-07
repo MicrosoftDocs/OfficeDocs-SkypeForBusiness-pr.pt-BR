@@ -10,15 +10,17 @@ description: Diretrizes para iniciar um piloto de Teams da Microsoft para explor
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3dfea5c5903c5b5577aa0300ddac42c6db2a7fb4
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29348933"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463576"
 ---
 ![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
 
@@ -40,7 +42,7 @@ Para obter os resultados mais realistas, o piloto deve envolvem usuários reais,
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você usará um piloto para informar a direção do projeto?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximo passo|<ul><li>Use as diretrizes abaixo para criar e executar o seu piloto em formal.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para criar e executar o seu piloto em formal.</li></ul>|
 
 > [!Tip]
 > Use os exemplos de [recursos do piloto](https://aka.ms/UpgradeSuccessKit) para ajudar a projetar suas comunicações, pesquisa de comentários e plano de teste.

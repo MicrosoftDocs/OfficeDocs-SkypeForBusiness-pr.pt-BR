@@ -18,16 +18,16 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto.
-ms.openlocfilehash: 33aa42ea7acd2f28ab0e27da85421071f948ca99
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530546"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454030"
 ---
 # <a name="session-details-report"></a>Relatório de detalhes da sessão
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para obter detalhes de sessão de negócios** para ver detalhes sobre as experiências de chamada do usuário individual.
+O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para obter detalhes de sessão de negócios** para ver detalhes sobre as experiências de chamada do usuário individual.
   
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) mais de relatórios estão disponíveis.
   

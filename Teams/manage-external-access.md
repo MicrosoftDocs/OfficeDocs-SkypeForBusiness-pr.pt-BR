@@ -6,18 +6,20 @@ manager: serdars
 ms.date: 01/30/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: karvell
 search.appverid: MET150
 description: O administrador de TI pode configurar acesso externo para outros domínios (federação) permitir que os usuários desses domínios participar de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56e4171421cc52ec1ca79895aba3c0f259d20201
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 97b322969d3975b6f9ca2b2079d46fe95ef45e52
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29708793"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459920"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gerenciar o acesso externo (federação) no Microsoft Teams
 ======================================================

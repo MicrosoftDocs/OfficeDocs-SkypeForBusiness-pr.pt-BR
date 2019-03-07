@@ -10,15 +10,17 @@ description: Prepare a equipe de TI em sua organização para a implantação e 
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d7030c8695ccfcbfd34fb01772eabc1f68ebf12
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 50102058aa14d988ad92bf832609500e049d6174
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349299"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459616"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação técnica")
 
@@ -35,7 +37,7 @@ Seus administradores de Inquilino do Office 365, líderes técnicos e para o sup
 
 Compartilhar os recursos a seguir com seus membros da equipe de TI e confirme que eles estão prontos para suportar usuários antes de começar a atualização para equipes:
 
-- [Treinamento para o administrador do Microsoft Teams](itadmin-readiness.md)
+- [Treinamento de administrador para o Microsoft Teams](itadmin-readiness.md)
 - [Recursos de suporte para o Microsoft Teams](support-resources.md)
 - [Solucionar problemas de conectividade do cliente Microsoft Teams](connectivity-issues.md)
 - [Usar arquivos de log para solucionar problemas no Microsoft Teams](log-files.md)
@@ -45,6 +47,6 @@ Compartilhar os recursos a seguir com seus membros da equipe de TI e confirme qu
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você tem envolvido todas as equipes de suporte que provavelmente estarão envolvidos na implantação e equipes de suporte?</li><li>Você desenvolveu um plano de treinamento para a equipe de inclusão adicionais como sua atualização em andamento?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Verifique se a equipe de TI tem as informações necessárias.</li><li>Rever seus planos de treinamento e preparação quando novos recursos são liberados.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Verifique se a equipe de TI tem as informações necessárias.</li><li>Rever seus planos de treinamento e preparação quando novos recursos são liberados.</li></ul>|
 
 Depois de ter preparado sua equipe de TI para equipes, verifique se seu ambiente atende todos os [pré-requisitos](upgrade-plan-journey-prerequisites.md).

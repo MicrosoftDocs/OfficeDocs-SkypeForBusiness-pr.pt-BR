@@ -9,7 +9,7 @@ ms.assetid: a20ec223-e20d-4744-abfa-ab1d1127082a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: fa9f0b8b14a77c53d68d9d315342a446c850f372
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 0580cc1bc801c548232731faa6f5b053db10de52
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352446"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460816"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>Restrições de discagem de chamada gratuita na Tailândia
 
@@ -48,7 +48,7 @@ ms.locfileid: "30352446"
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Restrições e limitações de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
+[Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

@@ -10,21 +10,23 @@ ms.reviewer: anach
 description: Saiba mais sobre como as políticas de retenção e como gerenciá-los em equipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 453e6f161b62846143493d7a444b364e27f3885e
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 4d07629f41a54dcab1995f2aef2d7536479be25d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004590"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464552"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
-As equipes conversas são persistentes e retido para sempre por padrão. Com a introdução das políticas de retenção, admins pode configurar políticas de retenção (preservação e exclusão) no Centro de conformidade & segurança para mensagens de chat e canal de equipes. Isso ajuda as organizações a reter dados para fins de conformidade (isto é, a diretiva de preservação) por um período específico ou se livrar de dados (ou seja, a política de exclusão), se ele é considerado um passivo após um período específico. Políticas de retenção de equipes Certifique-se de que, quando você exclui dados, ele será removido de todos os locais de armazenamento de dados permanentes no serviço equipes. 
+As equipes conversas são persistentes e retido para sempre por padrão. Com a introdução das políticas de retenção, admins pode configurar políticas de retenção (preservação e exclusão) no & a segurança Centro de conformidade para mensagens de chat e canal de equipes. Isso ajuda as organizações a reter dados para fins de conformidade (isto é, a diretiva de preservação) por um período específico ou se livrar de dados (ou seja, a política de exclusão), se ele é considerado um passivo após um período específico. Políticas de retenção de equipes Certifique-se de que, quando você exclui dados, ele será removido de todos os locais de armazenamento de dados permanentes no serviço equipes. 
 
-Para gerenciar políticas de retenção de equipes, use os cmdlets na segurança do Office 365 & Centro de conformidade em um **Governança de dados**e configurações > **retenção**.
+Para gerenciar políticas de retenção de equipes, use as configurações e os cmdlets no & de segurança do Office 365 Centro de conformidade em um **Governança dados** > **retenção**.
 
 Políticas de retenção de equipes têm suporte para: 
     
@@ -37,7 +39,7 @@ Políticas de retenção de equipes ainda não suportam:
 - Políticas de retenção avançada não se aplicam ao chat de equipes e locais de mensagem de canal de equipes
 - Duração de menos de 30 dias
 
-Administradores podem configurar políticas de retenção separados para mensagens de canal de equipes e chats privadas de equipes (1:1 ou 1: muitos chats). Em muitos casos, as organizações considerar os dados de bate-papo privado como mais de uma obrigação de mensagens de canal, que geralmente são mais conversas relacionados ao projeto. Configurar essas diretivas na segurança & Centro de conformidade, **Governança dados** > **retenção**. Ative **equipes mensagens de canal** e **equipes de bate-papos** e, em seguida, definir políticas de retenção desses locais (também é mostradas no diagrama a seguir). 
+Administradores podem configurar políticas de retenção separados para mensagens de canal de equipes e chats privadas de equipes (1:1 ou 1: muitos chats). Em muitos casos, as organizações considerar os dados de bate-papo privado como mais de uma obrigação de mensagens de canal, que geralmente são mais conversas relacionados ao projeto. Configurar essas diretivas de segurança & Centro de conformidade, **governança de dados** > **retenção**. Ative **equipes mensagens de canal** e **equipes de bate-papos** e, em seguida, definir políticas de retenção desses locais (também é mostradas no diagrama a seguir). 
 
 Quando você ativa **as mensagens de canal de equipes**, você pode especificar as equipes ao qual esta política será aplicada. Por exemplo, para as equipes X, Y e Z, o administrador pode definir as políticas de exclusão por 1 ano (selecionando essas equipes individualmente) e aplicar uma política de exclusão de 3 anos para o restante das equipes. 
 

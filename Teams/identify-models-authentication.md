@@ -9,16 +9,18 @@ ms.service: msteams
 ms.reviewer: anach
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Saiba sobre os diferentes modelos de identidade no Microsoft Teams, como Nuvem, Sincronizada e Federada. Conheça também a autenticação multifator.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3425cfac168e65cd062af67f7e05727f2fe5a837
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d1488fd5ebf5ead3c4a2aca850a6cd156f39f89e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532038"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462152"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidade e autenticação no Microsoft Teams
 ==========================================

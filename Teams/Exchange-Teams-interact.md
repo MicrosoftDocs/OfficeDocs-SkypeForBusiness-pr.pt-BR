@@ -9,15 +9,17 @@ ms.reviewer: crowe
 description: Sabia quais funcionalidades existem entre o Microsoft Teams e as diversas configurações do Exchange, como criar e entrar em equipes, criar canais e muito mais.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992813"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462184"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -39,8 +41,8 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim |Sim|
 |**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim|Sim |Sim|Sim|Sim|Sim |Sim |Sim |
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2,3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim |Não|Não|Não|Sim|Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2,3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Não|Sim|Sim |Não|Não <sup>5|Não|Não|Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2,3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim |Não|Sim <sup>5|Sim |Sim |Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2,3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim |Sim |Não|Sim <sup>5|Sim |Sim |Sim |
 
 <sup>1</sup> do exchange 2016 CU3 e acima suportados  
 <sup>2</sup> eDiscovery e retenção Legal para fins de conformidade em mensagens de canal é suportado para todas as opções de hospedagem.  
@@ -64,7 +66,7 @@ Informações adicionais:
 
 -   No Microsoft Teams, os recursos de segurança e conformidade, como o eDiscovery, o Content Search, arquivamento e retenção legal, funcionam melhor nos ambientes do Exchange Online e do SharePoint Online. Para conversas em canais, as mensagens serão rastreadas para a caixa de correio de grupo no Exchange Online, onde estão disponíveis para o eDiscovery. Se o SharePoint Online e o OneDrive for Business (usando contas de trabalho ou escolares) estiverem habilitados em toda a organização e para os usuários, esses recursos de conformidade estarão disponíveis para todos os arquivos dentro do Teams também.
 
--   Para o Exchange local, você deve ser para configurar OAuth, conforme descrito em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   Para o Exchange local, você deve configurar o novo protocolo de autenticação OAuth do Exchange, conforme descrito em [Configure OAuth authentication entre organizações do Exchange e o Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > No momento, se sua organização tiver exigências de conformidade para garantir que todas as discussões nas reuniões sejam detectáveis, é necessário desabilitar as reuniões privadas se o organizador tiver uma caixa de correio no Exchange.

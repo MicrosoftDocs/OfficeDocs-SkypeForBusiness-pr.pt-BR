@@ -1,5 +1,5 @@
 ---
-title: Restrições de discagem gratuita no Uruguai
+title: Restrições de discagem de chamada gratuita no Uruguai
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 73d55cdb-7826-4275-8985-1cfb5ea09cf3
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: a1980961136ff23d9c0236bcb2f5b09a0eeaa749
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: b0756dc643ab006da8df2741953074676ffd8f0c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046826"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460776"
 ---
-# <a name="toll-free-dialing-restrictions-in-uruguay"></a>Restrições de discagem gratuita no Uruguai
+# <a name="toll-free-dialing-restrictions-in-uruguay"></a>Restrições de discagem de chamada gratuita no Uruguai
 
 [Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.
 
@@ -49,7 +48,7 @@ ms.locfileid: "30046826"
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Restrições e limitações de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
+[Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

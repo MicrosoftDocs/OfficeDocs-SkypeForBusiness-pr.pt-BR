@@ -1,5 +1,5 @@
 ---
-title: Planejar for Microsoft 365 governamental - implantações DoD - Microsoft Teams
+title: Plano para o Microsoft 365 Government ‒ implantações de DoD ‒ Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,15 +11,17 @@ description: Diretrizes para profissionais de TI para as implantações do Offic
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6464982fad114b28019534068503c3fce5f42c20
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 239996abd87c52905758d6bff5ddeb6bf7805e89
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27992176"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462760"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Planejar Microsoft 365 governamental - implantações DoD
 

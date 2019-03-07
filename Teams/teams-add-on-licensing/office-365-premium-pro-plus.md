@@ -1,5 +1,5 @@
 ---
-title: 'O Office 365 ProPlus '
+title: 'Office 365 ProPlus  '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre como comprar para o Office 365 ProPlus, recursos e licenças de complemento.
-ms.openlocfilehash: 4cf3fb68f2063b70c30efc05be4e98d4e4620e76
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 58f5259474a31bfd873dcfc336aee9b733662e0c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127578"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463176"
 ---
-# <a name="office-365-proplus"></a>O Office 365 ProPlus
+# <a name="office-365-proplus"></a>Office 365 ProPlus 
 
 Se você já comprou o plano do [Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software) , aqui estão as licenças do complemento que você precisará comprar para obter mais recursos de equipes.
 

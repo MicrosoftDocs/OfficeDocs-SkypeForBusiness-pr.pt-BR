@@ -10,16 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Saiba como usar o relatório de uso de equipes no Centro de administração Teams da Microsoft para obter uma visão geral da atividade de equipes em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f3b437beb56f7cc073c9ab32728e2bb16fbfd4d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d013073402de29fc586b14c9cc3bd5ab336d3086
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29754515"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463104"
 ---
 # <a name="microsoft-teams-usage-report"></a>Relatório de uso do Microsoft Teams
 

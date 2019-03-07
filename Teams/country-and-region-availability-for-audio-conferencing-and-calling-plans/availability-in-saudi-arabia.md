@@ -9,7 +9,7 @@ ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Arábia Saudita.
-ms.openlocfilehash: 7861c87009a2956e1a5c24453addbf6fb53021be
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9d5807a5d1c305164c43b5c6927ea455b94a209a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352582"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464088"
 ---
 # <a name="availability-in-saudi-arabia"></a>Disponibilidade na Arábia Saudita
 

@@ -13,8 +13,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -32,12 +31,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. '
-ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047220"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459344"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -81,7 +80,7 @@ Você pode ver os planos e preços do visitando um dos seguintes links:
     
 Você também pode ver informações entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.
   
-Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
@@ -91,7 +90,5 @@ Para ver uma tabela com a licença ou licenças que são necessárias para cada 
     
 - [Configurar Planos de Chamadas](set-up-calling-plans.md) e [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)
         
-- [Configure o conector de nuvem](https://technet.microsoft.com/library/mt605228.aspx) e [Baixe o conector de nuvem](https://aka.ms/CloudConnectorInstaller)
-
-  
+ 
  

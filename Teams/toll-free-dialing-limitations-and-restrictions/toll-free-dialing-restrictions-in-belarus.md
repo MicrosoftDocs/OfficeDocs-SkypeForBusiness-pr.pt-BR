@@ -9,7 +9,7 @@ ms.assetid: 5a76558f-734b-4f22-94fd-3d7a5f4ea5e8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 36e0968d18708e6c7c99727d3139acd3a340fe05
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 6abd4c9fab6cb515850b9d9a9ae1e48a3dafc14a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351286"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464072"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Restrições de discagem de chamada gratuita em Belarus
 
@@ -47,7 +47,7 @@ ms.locfileid: "30351286"
 |Comentários, restrições e problemas de acesso  <br/> |Acesso à rede móvel do Velcom, MTS e vida.  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Restrições e limitações de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
+[Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

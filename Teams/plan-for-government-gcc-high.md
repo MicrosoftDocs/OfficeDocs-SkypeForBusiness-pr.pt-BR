@@ -11,15 +11,17 @@ description: Diretrizes para profissionais de TI para as implantações do Offic
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac987d64a6e1ea06178c0626d565293c80a22fe
-ms.sourcegitcommit: afccaf26c8718869fc0b3c277d186bb82cb304b4
+ms.openlocfilehash: b4b1dc313fa1ea223e7c55f066b869b29c098fd2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "27544188"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460824"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Planejar Microsoft 365 governamental - implantações GCC alta
 

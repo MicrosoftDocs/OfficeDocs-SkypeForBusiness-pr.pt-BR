@@ -6,17 +6,19 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 description: Saiba como criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams através da identificação das principais partes envolvidas, resultados comerciais, medições de sucesso e gerenciamento da sua campanha.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 827a7adcb63d8c55f3cab29b89e6a4093641f44a
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 73994941bb549857d8813fa1b9c4d58b9a1c45a4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016657"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458984"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================

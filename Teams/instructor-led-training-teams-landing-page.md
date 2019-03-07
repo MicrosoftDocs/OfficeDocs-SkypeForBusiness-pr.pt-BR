@@ -1,19 +1,21 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Treinamento ministrado por instrutor e vídeos para administradores de equipes da Microsoft
+title: Treinamento ministrado por instrutor e vídeos para administradores do Microsoft Teams
 description: Inscreva-se para classes ministrado por instrutor aprender sobre o Microsoft Teams.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
-ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.collection:
+- Teams_ITAdmin_Training
+- M365-collaboration
+ms.openlocfilehash: f3797407d02717109f1d8ab8b288cd68f9defe57
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349307"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461216"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -138,6 +140,44 @@ ms.locfileid: "29349307"
                                             <div class="cardText">
                                                 <h3>Equipes de educação - seminários na Web</h3>
                                                 <p>Saiba como usar as equipes em educação superior. (Audiência: equipe, alunos, Formação Acadêmica, pesquise Corpo Docente, profissionais de TI)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Otimizando as equipes de reuniões</h3>
+                                                <p>Saiba como você pode aproveitar as equipes para seu pre, durante e postar a experiência de reuniões. (Audiência: os usuários finais)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Firstline trabalhadores com equipes</h3>
+                                                <p>Saiba mais sobre os recursos de trabalhador firstline recentemente liberado em equipes. (Audiência: os usuários finais)</p>
                                             </div>
                                         </div>
                                     </div>

@@ -9,15 +9,17 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: Configurar uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho em chats de equipes ou em reuniões
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcc76f79d288844611e17154359e8c9c3ab4ed23
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 757f023d5f988e5a4f45c6274358aa51f3417ce0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754764"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464456"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento de área de trabalho no Microsoft Teams
 ============================================

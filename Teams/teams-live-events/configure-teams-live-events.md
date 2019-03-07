@@ -9,17 +9,19 @@ ms.service: msteams
 ms.reviewer: sonua
 search.appverid: MET150
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Saiba como gerenciar configurações para eventos ao vivo de equipes que são mantidos em sua organização.
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dec5d34721bc30001972590c4501045a6e46ca8
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 94a167e8a929f2011ccaa773cd04d4e0ca6a2a0e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754475"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463664"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

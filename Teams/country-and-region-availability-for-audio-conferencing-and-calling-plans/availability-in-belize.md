@@ -9,7 +9,7 @@ ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aqui estão os serviços do Office 365 para Skype para Teams da Microsoft e de negócios disponíveis para Belize.
-ms.openlocfilehash: 4c2e8d459ad3639b3a1bd75a1ea2ba72937402e9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e19ab6636bb6dfc40e3066876edb55f4796d0b57
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353606"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460936"
 ---
 # <a name="availability-in-belize"></a>Disponibilidade em Belize
 

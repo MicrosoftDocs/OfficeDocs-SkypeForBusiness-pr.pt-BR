@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o Skype para o relatório de uso do dispositivo de negócios para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. Confira os relatórios de atividade no Centro de administração do Office 365 para saber mais.
-ms.openlocfilehash: 3d5561bfe0f2a2c5b6900c7cf6a1e92d63741992
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 343d5db93ebf3ea104bc74cd5f8d17d349653fa6
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530650"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30453962"
 ---
 # <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
-O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para uso do dispositivo de negócios** para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. 
+O novo painel **Relatórios** do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios em nível de produtos individuais para ter informações mais granulares das atividades dentro de cada produto. Por exemplo, você pode usar o relatório do **Skype para uso do dispositivo de negócios** para ver os dispositivos, incluindo os sistemas operacionais baseados no Windows e dispositivos móveis, que têm o Skype para o aplicativo de negócios instalado e usá-lo para mensagens Instantâneas e reuniões. 
 
 Confira a [Visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para saber mais.
   

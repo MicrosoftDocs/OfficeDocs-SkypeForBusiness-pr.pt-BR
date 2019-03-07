@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Regularmente avaliam oportunidades para melhorar o serviço de equipes, monitorar o mapa de equipes para qualquer aprimoramentos de recursos interessantes.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66f7aafe353227c9602fbaecbd386a897aa021ea
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: eb8671e8b5a5247a8341b9921647c0dd63da8d7c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29593882"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460256"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
@@ -36,7 +38,7 @@ Quando visualizar oportunidades para melhorar seu serviço Reserve um tempo para
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida quem monitorará mapas públicos e outros anúncios de serviço para novos recursos ou serviços que sua organização pode beneficiar.</li><li>Decida sobre a cadência nas quais a ser relatado esses novos recursos ou serviços de volta para as principais partes interessadas, via seu comitê de orientação.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Implemente uma estratégia para permanecer atualizado com os seus serviços para obter o valor máximo para sua organização.</li><li>Aprimoramentos de serviço por meio de um ciclo de vida de projeto completo para certificar-se de que você tiver contabilizado corretamente o impacto que causam sobre a implantação da unidade.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Implemente uma estratégia para permanecer atualizado com os seus serviços para obter o valor máximo para sua organização.</li><li>Aprimoramentos de serviço por meio de um ciclo de vida de projeto completo para certificar-se de que você tiver contabilizado corretamente o impacto que causam sobre a implantação da unidade.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

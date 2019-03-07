@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: O novo Skype para a área de relatórios do Centro de administração de negócios mostra você chamada e de áudio conferência atividade em sua organização. Ele permite extrair relatórios para proporcionar mais granular insight sobre as atividades de cada usuário. Por exemplo, você pode usar o Skype para relatório de minuto pools corporativos PSTN para ver o número de minutos gastos durante o mês atual dentro da sua organização.
-ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182371"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454012"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
@@ -62,7 +62,7 @@ Esta é a aparência do relatório.
 ![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão dos pools minutos por licença (recurso) e o local de uso. 
 *    **O recurso** é o plano de serviço/licença usado para a chamada. Os planos de serviço/licença, que talvez você veja neste relatório incluem:
      * MCOPSTN1 - domésticas chamar planejar (3000 minutos planos de 1200/US-minuto UE
-     * MCOPSTN2 - doméstico & internacional chamar planejar a partir do qual você verá um pool doméstico (3000 minutos EUA/Canadá/PR, minuto de 1200 países europeu) e um pool internacional (600 minutos). Cobrir minuto é atingida sempre que o limite de bits OR-internacional doméstico for atingido dentro do mês do calendário. 
+     * MCOPSTN2 - & domésticas internacional chamar planejar do qual você verá um pool doméstico (3000 minutos EUA/Canadá/PR, minuto de 1200 European países) e um pool internacional (600 minutos). Cobrir minuto é atingida sempre que o limite de bits OR-internacional doméstico for atingido dentro do mês do calendário. 
      * MCOPSTN5 - domésticas chamar Plan (plano de chamada de 120 minutos)
      * MCOPSTN6 - domésticas chamar Plan (plano de chamada 240 minutos)
      * MCOMEETADD - serviços de audioconferência

@@ -10,15 +10,17 @@ description: Use essas orientações para preparar sua rede para a implantação
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743016"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463704"
 ---
 ![Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
 
@@ -206,7 +208,7 @@ Qualidade de serviço (QoS) pode ser usado para deficiências batalha priorizaç
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul><li>Quem será responsável pela conclusão de avaliações de rede adequado entre todos os segmentos de rede e locais da organização?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Você pode executar uma avaliação de rede detalhado para ajudar a garantir que sua rede está pronta para sua implantação do Microsoft Teams. Para obter mais informações, consulte <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Avaliação de prontidão de rede</a>.</li><li>Execute a correção de rede com base nos resultados da avaliação de prontidão da rede para cada segmento de rede.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Você pode executar uma avaliação de rede detalhado para ajudar a garantir que sua rede está pronta para sua implantação do Microsoft Teams. Para obter mais informações, consulte <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Avaliação de prontidão de rede</a>.</li><li>Execute a correção de rede com base nos resultados da avaliação de prontidão da rede para cada segmento de rede.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

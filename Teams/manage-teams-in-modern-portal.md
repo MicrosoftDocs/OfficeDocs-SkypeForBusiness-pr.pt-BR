@@ -12,15 +12,17 @@ description: Saiba como exibir ou atualizar suas equipes no Centro de administra
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf4d312f8fcb7f9ba509359eaaeed415be3e9662
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 956c81b7305a6e26322ab29755b39eefb9a12344
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178673"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460240"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 ==========================================

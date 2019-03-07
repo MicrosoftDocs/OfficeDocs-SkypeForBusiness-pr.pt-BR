@@ -7,7 +7,9 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como eles podem ser usados para controlar as equipes de mensagens de chat.
-ms.openlocfilehash: 6349bd8299883fe213797a51e7051411c74298ef
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: b30b14ef8db70a6d8d88d4413a82fd1d672da13b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302661"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465296"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>Quais são as políticas de mensagens no Microsoft Teams?
+# <a name="what-are-messaging-policies-in-teams"></a>Quais são as políticas de mensagens no Microsoft Teams?  
 
 ::: zone target="docs"
 Políticas de mensagens são usadas para controlar quais recursos de mensagens de canal e de bate-papo estão disponíveis para usuários no Microsoft Teams. Você pode usar a política padrão que é criada ou crie uma ou mais políticas de mensagens personalizadas para pessoas da sua organização. Depois de criar uma política, você vai atribuí-lo um usuário ou grupos de usuários em sua organização.
@@ -35,8 +37,7 @@ As políticas podem ser facilmente gerenciadas no Centro de administração do M
 Para editar a política existente de mensagens padrão para sua organização, clique na linha **Global (padrão de toda a organização)** e faça suas alterações. Para criar uma nova política personalizada de mensagens, clique em **nova diretiva** e selecione suas configurações. Escolha **Salvar** quando terminar.
 
 ![Configurações de diretiva em equipes de mensagens](media/messaging-policies-image2.png)
-::: zone-end
-
+::: zone-end  
 ::: zone target="chromeless"
 Use as configurações a seguir para alterar a política global de mensagens ou criar uma nova política personalizada:
 

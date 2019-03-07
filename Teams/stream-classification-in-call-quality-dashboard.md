@@ -11,7 +11,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: 43c3e876b041e8a586b43d21f049731e3450a1a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a25e44393cbe8660687451fea5163f064c16240
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374321"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460304"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classificação de fluxo no Painel de Qualidade de Chamadas
 
@@ -55,7 +55,7 @@ Um fluxo de vídeo é marcado como bom ou ruim com base no valor da primeira mé
 
 |**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|gt _ 50% |Poor|Good|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<7|Poor|Good|Seguir para a Etapa 3|Média de quadros por segundo recebidos para um stream de vídeo calculados durante a sessão.|
 |3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taxa de perda de pacotes após ter sido aplicado FEC agregados entre todos os fluxos de vídeo e codecs.|
 
@@ -65,7 +65,7 @@ Um fluxo VBSS é marcado como bom ou ruim com base no valor da primeira métrica
 
 |**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|1|Video Local Frame Loss Percentage Avg|gt _ 50% |Poor|Good|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 2|Poor|Good|Seguir para a Etapa 3|Média de quadros por segundo recebidos para um stream de vídeo calculados durante a sessão.|
 |3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taxa de perda de pacotes após ter sido aplicado FEC agregados entre todos os fluxos de vídeo e codecs.|
 
@@ -77,7 +77,7 @@ Um fluxo de compartilhamento de aplicativo é marcado como ruim se uma ou mais d
 | **Métrica**                                     | **Condição** | **Explicação**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | >36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | > 400         | Média de latência de blocos de processamento em milissegundos na pilha RDP no servidor de conferência.                                                                                                                          |
+| AppSharing RDP Tile Processing Latency Average | gt _ 400         | Média de latência de blocos de processamento em milissegundos na pilha RDP no servidor de conferência.                                                                                                                          |
 | AppSharing Relative OneWay Average             | > 1,75        | Atraso unidirecional relativo médio entre os pontos de extremidade em segundos para fluxos de compartilhamento de aplicativos.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Fluxos não classificados
@@ -108,6 +108,6 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 ## <a name="related-topics"></a>Tópicos Relacionados
 [Ativando e usando o painel de controle de qualidade de chamada (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Dimensões e mensurações disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Usar a Análise de Chamada para solucionar problemas de baixa qualidade das chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)

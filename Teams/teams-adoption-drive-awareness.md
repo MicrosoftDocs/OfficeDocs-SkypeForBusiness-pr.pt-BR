@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como aumentar a conscientização e implementar um programa de treinamento para a adoção de Teams da Microsoft.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: bf3437d07bef4b068f68ba6607e664aa25c99605
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699753"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459584"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Promover a conscientização e implementar o treinamento do Microsoft Teams
 
@@ -48,7 +50,7 @@ Use nossos recursos para oferecer o treinamento do usuário final conforme as pe
 - [Treinamento ministrado por instrutor do usuário final para equipes](instructor-led-training-teams-landing-page.md)
 - [Treinamento para equipes do administrador](itadmin-readiness.md)
 - [Treinamento de usuários finais online](enduser-training.md)
-- [Café no treinamento online nuvem para campeões & profissionais de TI](https://aka.ms/CoffeeintheCloud) 
+- [Café na nuvem treinamento online para campeões & IT profissionais](https://aka.ms/CoffeeintheCloud) 
 - [Dia nas folhas de cheat de treinamento de vida Office 365](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Mensure e compartilhe o sucesso

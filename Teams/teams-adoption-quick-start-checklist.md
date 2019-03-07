@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Conclua a lista de verificação para começar sua adoção Teams da Microsoft.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48ae0d4551bf5ca786f995fc22165d4f3f09fa04
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240869"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464008"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de verificação de início rápido da adoção do Microsoft Teams
 

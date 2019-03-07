@@ -1,24 +1,26 @@
 ---
-title: Cite Teams Microsoft live eventos?
+title: O que são os eventos ao vivo do Microsoft Teams ?
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Saiba como live eventos permitem aos usuários transmitir vídeo e conteúdo para grandes públicos on-line no Microsoft Teams, Yammer e Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4a818e95bf4d71fca06e7ea08f0bcff47efe4e2f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532237"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461048"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>Cite Teams Microsoft live eventos?
+# <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## <a name="overview"></a>Visão geral
@@ -27,7 +29,7 @@ Com os eventos do Microsoft Teams ao vivo, os usuários em sua organização pos
 
 Eventos ao vivo do Microsoft 365 trazem vídeo ao vivo streaming para um novo nível, encorajando conexão em todo o ciclo de vida de compromisso inteira com participantes antes, durante e após eventos ao vivo. Você pode criar um evento ao vivo, onde quer que seu público-alvo, equipe ou comunidades residam, usando o Microsoft Stream, Teams da Microsoft, ou do Yammer.  
 
-As equipes oferece colaboração baseada em bate-papo, chamada, reuniões e com eventos ao vivo, portanto você pode expandir a audiência das suas reuniões. Eventos ao vivo de equipes é uma extensão de reuniões de equipes, permitindo que os usuários transmitir conteúdo de reunião e vídeo para um grande público on-line. Essas servem para comunicações de um-para-muitos onde o host do evento é líder interações e a participação de audiência é principalmente exibir o conteúdo compartilhado por host. Os participantes podem assistir o evento ao vivo ou gravado no Yammer, equipes e/ou Microsoft Stream e podem interagir com os apresentadores usando moderado Q & uma ou uma conversa do Yammer. 
+As equipes oferece colaboração baseada em bate-papo, chamada, reuniões e com eventos ao vivo, portanto você pode expandir a audiência das suas reuniões. Eventos ao vivo de equipes é uma extensão de reuniões de equipes, permitindo que os usuários transmitir conteúdo de reunião e vídeo para um grande público on-line. Essas servem para comunicações de um-para-muitos onde o host do evento é líder interações e a participação de audiência é principalmente exibir o conteúdo compartilhado por host. Os participantes podem assistir o evento ao vivo ou gravado no Yammer, equipes e/ou Microsoft Stream e podem interagir com os apresentadores usando uma & de moderado Q ou uma conversa do Yammer. 
 
 As equipes de eventos ao vivo são considerados a próxima versão do Skype transmissão de reunião e serão eventualmente substituem os recursos fornecidos na transmissão do Skype reunião. Durante a versão de demonstração pública do eventos ao vivo de equipes, podemos continuará dar suporte a transmissão do Skype reunião, sem interrupções no serviço para eventos novos ou futuros. No entanto, podemos incentivar você experimente equipes eventos ao vivo para aproveitar todos os recursos novos e interessantes, incluindo compartilhamento de tela, contagem de participantes e suporte para codificadores de software/hardware externo. 
 
@@ -71,7 +73,7 @@ A experiência do participante é o aspecto mais importante dos eventos ao vivo 
 
 ![Experiência de captura de tela mostrando o nome do participante eventos ao vivo] (../media/teams-live-events-attendee.png "Experiência de captura de tela mostrando o nome do participante eventos ao vivo")
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 Vá para o [planejamento de eventos de equipes ao vivo](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Tópicos relacionados

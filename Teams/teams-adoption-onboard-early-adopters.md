@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Escolha usuários iniciais para a fase de experimento de sua adoção de equipes e, em seguida, coletar comentários para o seu projeto.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58547d5f4577d9bca71317573677a56453188634
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699666"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462128"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Integração de usuários pioneiros e coleta de comentários do Microsoft Teams
 
@@ -33,7 +35,7 @@ Conclua as etapas a seguir com esses usuários iniciais:
 3. Certifique-se de acesso para o canal de comentários de sua equipe de campeões de trabalho em equipe e quaisquer outras internas sociais redes ferramentas que você pode usar. 
 4. Considere criar periódicas pesquisas concluídas que irá reunir voltadas informações.
 
-## <a name="gather-feedback"></a>Obter comentários
+## <a name="gather-feedback"></a>Coletar comentários
 
 Use os componentes do Office 365 para coletar comentários para o seu projeto.
   

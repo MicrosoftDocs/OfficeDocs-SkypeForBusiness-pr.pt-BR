@@ -1,5 +1,5 @@
 ---
-title: Licenciamento de complemento do Microsoft Teams
+title: Licenciamento do complemento do Microsoft Teams
 ms.date: 02/14/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre licenças de complemento recursos aos quais você obterá com cada licença, como comprá-los para o seu produto e como usar sua operadora existente com eles. Você pode obter informações sobre preços e plano de detalhes para o Office 365, créditos de comunicação, e planos de chamada.
-ms.openlocfilehash: d776e6e3b54f8a847bd82ef8b1c373af2211dbae
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127674"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460128"
 ---
-# <a name="microsoft-teams-add-on-licensing"></a>Licenciamento de complemento do Microsoft Teams
+# <a name="microsoft-teams-add-on-licensing"></a>Licenciamento do complemento do Microsoft Teams
 
 ## <a name="what-are-add-on-licenses"></a>O que são licenças complementares?
 
@@ -61,11 +63,11 @@ Precisamos conversar com alguém sobre todas as opções de complementos? [Conta
 
 As opções de licenciamento de complemento disponíveis para você depende do seu plano do Office 365. Consulte os tópicos a seguir para obter informações, recursos e opções específicas para o seu plano.
 
-- [Office 365 Business Premium](office-365-business-premium.md)
+- [O Office 365 Business Premium](office-365-business-premium.md)
 - [O Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [O Office 365 Enterprise E1 ou E3](office-365-enterprise-e1-e3.md)
-- [O Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [E5 do Office 365 Enterprise (sem serviços de audioconferência)](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
+- [Office 365 Enterprise E5 (sem audioconferência)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [GOV, EDU e organizações sem fins lucrativos](gov-edu-and-nonprofit-organizations.md)
 

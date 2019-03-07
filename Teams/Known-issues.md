@@ -6,19 +6,21 @@ manager: serdars
 ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: marcl
 localization_priority: Priority
 search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 64389cdf1455c23f2c234149630a9d6091ee7274
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342099"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462328"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -32,7 +34,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/pt-BR/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/en-us/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +48,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|O [Acesso Condicional](https://docs.microsoft.com/pt-BR/azure/active-directory/conditional-access/overview) pode não funcionar ao usar a guia "Site" no aplicativo da área de trabalho<br/> |Se um site, como um portal de intranet, tiver políticas de acesso condicional (como restrições de navegador ou endereço IP), esse site poderá não ser renderizado como uma guia dentro do Teams no aplicativo da área de trabalho. <br/> |Use o Teams em um navegador em vez de usar o aplicativo da área de trabalho.  <br/> |1/7/18  <br/> |
+|O [Acesso Condicional](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) pode não funcionar ao usar a guia "Site" no aplicativo da área de trabalho<br/> |Se um site, como um portal de intranet, tiver políticas de acesso condicional (como restrições de navegador ou endereço IP), esse site poderá não ser renderizado como uma guia dentro do Teams no aplicativo da área de trabalho. <br/> |Use o Teams em um navegador em vez de usar o aplicativo da área de trabalho.  <br/> |1/7/18  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
