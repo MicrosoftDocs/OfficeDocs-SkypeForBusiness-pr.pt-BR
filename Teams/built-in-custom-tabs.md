@@ -6,25 +6,27 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788953"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458792"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar guias internas e personalizadas no Microsoft Teams
 ==================================================
 
 Guias permitem que os membros da equipe acessar os serviços em uma tela dedicado dentro de um canal ou em um bate-papo. Isso permite que a equipe trabalhe diretamente com ferramentas e dados e participar de conversas sobre cada um no contexto do canal ou bate-papo. 
 
-Proprietários e membros da equipe podem adicionar guias um canal, bate-papo privado e chat de grupo para ajudar a integrar seus serviços de nuvem. Guias que podem ser adicionadas para ajudar os usuários facilmente acessar e gerenciar os dados que precisam ou interagem com o máximo. Isso pode ser um relatório Power BI, um painel ou mesmo uma [Transmissão Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) de um canal de vídeo em que você publica vídeos de treinamento.
+Os proprietários e membros da equipe podem incluir guias em um canal, chat privado e chat em grupo para ajudar a integrar seus serviços de nuvem. Guias que podem ser adicionadas para ajudar os usuários facilmente acessar e gerenciar os dados que precisam ou interagem com o máximo. Isso pode ser um relatório Power BI, um painel ou mesmo uma [Transmissão Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) de um canal de vídeo em que você publica vídeos de treinamento.
 
 ![Três capturas de tela de vários conteúdos na guia.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
