@@ -11,15 +11,17 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 description: Os usuários do Office 365 que não estejam licenciados for Microsoft Teams podem iniciar uma versão de avaliação das equipes 1 ano.
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc0b62ce0be0606ad4c31d3cee04347729fbbe32
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5101cc8f54d41aaf63b24fea1d9092b1465a81d7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214577"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462368"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -76,9 +78,9 @@ Além disso, os administradores podem desabilitar a capacidade para os usuários
 
 Você pode desativar a capacidade de um usuário para instalar os serviços e aplicativos de avaliação.
 
-1. Desde o [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home), vá para **configurações** > **Serviços & suplementos** > **usuário pertencentes a aplicativos e serviços**.
+1. Desde o [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home), vá para **configurações** > **Serviços & complementos** > **usuário pertencentes a aplicativos e serviços**.
 
-    ![Captura de tela da página Serviços & suplementos no Centro de administração do Office 365.](media/iw-trial-enable-1.png)
+    ![Captura de tela da página serviços & suplementos no Centro de administração do Office 365.](media/iw-trial-enable-1.png)
 
 2. Desative o **permitem que os usuários a instalar os serviços e aplicativos de avaliação**.
 

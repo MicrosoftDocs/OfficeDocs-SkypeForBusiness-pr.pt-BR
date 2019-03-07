@@ -1,5 +1,5 @@
 ---
-title: Preparar os usuários for Microsoft Teams
+title: Preparar os usuários para o Microsoft Teams
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Crie um plano para incentivar a adoção de usuário definindo suas metas, Noções básicas sobre qual aceitação a aparência e oferecendo treinamento e suporte.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca1b2e5d28adf95a634df914b4693efddcbc5dd0
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 22d8383914755bdd3d9d185f083509de9175bef6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649553"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463496"
 ---
 # <a name="prepare-my-users"></a>Preparar os meus usuários
 
@@ -47,7 +49,7 @@ Tabela de ![duas colunas com Vision - por que estamos fazendo isso? (nível de o
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Você articular os benefícios e o valor para os usuários de uma forma que ganhos seu apoio da direção para essa nova solução?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Crie suas instruções visão e o valor para o escopo do projeto atual, garantindo que eles se alinham com seus objetivos.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Crie suas instruções visão e o valor para o escopo do projeto atual, garantindo que eles se alinham com seus objetivos.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -58,7 +60,7 @@ Prontidão organizacional ajuda a determinar como receptivos (ou não) os usuár
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>São usuários e preparada alterar para a nova solução?</li><li>Os usuários têm a capacidade ou competência para facilitar a alteração?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Use a seguir para iniciar a conversação para entender a cultura da sua organização, quando se trata de alterar. Essas informações podem ajudar a informar quanto conscientização e treinamento você talvez precisem implementar para seu projeto.
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Use a seguir para iniciar a conversação para entender a cultura da sua organização, quando se trata de alterar. Essas informações podem ajudar a informar quanto conscientização e treinamento você talvez precisem implementar para seu projeto.
 </li></ul></td></tr>
 </table>
 
@@ -97,7 +99,7 @@ Análise de nível de pessoas, oferece compreensão da sua personagens do usuár
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Determinados usuários ou colaboradores têm uma dependência de núcleo nessa solução para executar suas funções efetivamente?</li><li>Existem casos de uso específicos que podem ser facilitados usando essa nova solução?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Mapear personagens do usuário. Em primeiro lugar, Segmente sua base de usuários em grupos de pessoa/cohort (executivos, viajantes, trabalhadores de colaboração, varejo e assim por diante). Para o gerenciamento, liste os grupos de mais do que oito. (Para iniciadores de conversa de amostra, consulte abaixo). Use suas descobertas ainda mais projetar suas campanhas de preparação do usuário e para segmentar aqueles que podem se beneficiar atualizando posteriormente os usuários piloto.
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Mapear personagens do usuário. Em primeiro lugar, Segmente sua base de usuários em grupos de pessoa/cohort (executivos, viajantes, trabalhadores de colaboração, varejo e assim por diante). Para o gerenciamento, liste os grupos de mais do que oito. (Para iniciadores de conversa de amostra, consulte abaixo). Use suas descobertas ainda mais projetar suas campanhas de preparação do usuário e para segmentar aqueles que podem se beneficiar atualizando posteriormente os usuários piloto.
 </li><li>Mapa de casos de uso. Depois que você identificou os grupos de usuários principal que serão beneficiados com esta nova tecnologia, considere a possibilidade de sua população de usuários comuns. Noções básicas sobre os casos de uso de várias equipes e cenários, você pode visualizar a sua organização como trabalhar com essa nova tecnologia. Além disso, adicionando exemplos de caso de uso para a comunicação e os planos de treinamento realmente ajudam torná-los relevantes para seus usuários.</li></ul></td></tr>
 </table>
 
@@ -144,7 +146,7 @@ Depois que você entende quem são os usuários e como eles serão funcionam na 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Plano de preparação que você pode oferecer para ajudar a facilitar e agilizar a adoção da nova solução?</li><li>Você tem o direita divulgação, treinamento e recursos de suporte que se alinham com a capacidade dos usuários para lidar com a alteração e as personagens de usuário que você definiu?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Use a lista na seção a seguir para gerar ideias para o seu plano de preparação. Selecione os mais relevantes&mdash;ou adicione seus próprios&mdash;projetar um plano de preparação otimizado para sua organização.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Use a lista na seção a seguir para gerar ideias para o seu plano de preparação. Selecione os mais relevantes&mdash;ou adicione seus próprios&mdash;projetar um plano de preparação otimizado para sua organização.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>Ideias do plano de preparação

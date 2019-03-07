@@ -9,16 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Medir os resultados da sua conferência de áudio, o sistema telefônico com planos de chamar ou implantação de roteamento direto de sistema do telefone e verifique se que você tiver obtido os resultados que você queria.
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f969955dc01d0ea66ea2242549eff4938d80ce6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372717"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465104"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -93,7 +95,7 @@ Além de definir seu negócio use casos, para definir os limites do projeto que 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Cite todos os casos de uso de negócios para conferência de áudio, você pode identificar em sua organização.</li><li>Cite todos os casos de uso de negócios para chamar planos se pode identificar em sua organização.</li><li>Cite todos os casos de uso de negócios para roteamento direta se pode identificar em sua organização.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente todos os casos de uso de negócios para audioconferências para sua organização.</li><li>Documente todos os casos de uso de negócios para chamar planos para sua organização.</li><li>Documente todos os casos de uso de negócios para roteamento direto para a sua organização.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente todos os casos de uso de negócios para audioconferências para sua organização.</li><li>Documente todos os casos de uso de negócios para chamar planos para sua organização.</li><li>Documente todos os casos de uso de negócios para roteamento direto para a sua organização.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -128,7 +130,7 @@ Os casos de uso de negócios definidos na etapa anterior incluam um escopo organ
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Quem irá preencher cada função principal interessado para sua organização?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente todas as principais partes interessadas e comunicar as expectativas da função e responsabilidades para cada indivíduo atribuído.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente todas as principais partes interessadas e comunicar as expectativas da função e responsabilidades para cada indivíduo atribuído.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -198,7 +200,7 @@ Ao definir KSIs, recomendamos que você use "específicos, mensuráveis, pode se
 > |---------|---------|---------|---------|---------|---------|
 > |Uso/adoção|A qualidade da chamada é igual ou melhor que a solução anterior|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Esquipe de Tecnologia da Informação|
 > |Uso/adoção|O Microsoft Teams facilitou o processo de comunicação|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
-> |Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Office 365, Painel de Qualidade da Chamada|80% dos usuários são usuários ativos diariamente|Diariamente|Equipe de gerenciamento de mudanças|
+> |Uso/adoção|Os usuários usam a solução ativamente|Relatórios do Office 365, Painel de Qualidade da Chamada|80% dos usuários são usuários ativos diariamente|Diário|Equipe de gerenciamento de mudanças|
 > |Uso/qualidade|A porcentagem de chamadas/conferências de má qualidade deve ser mínima|Painel de Qualidade da Chamada|< 5% de chamadas de má qualidade por mês|Diariamente|Esquipe de Tecnologia da Informação|
 > |Uso/suporte|Eu sei como obter suporte técnico|Pesquisa|90% dos usuários concordam ou concordam fortemente|Após a habilitação e trimestralmente|Equipe de gerenciamento de mudanças|
 > |Uso/suporte|Estou satisfeito com a qualidade do suporte técnico|Pesquisa|80% dos usuários concordam ou concordam fortemente|Após cada incidente|Esquipe de Tecnologia da Informação|
@@ -220,8 +222,8 @@ Você precisa identificar os riscos de negócios como parte deste exercício e d
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Cite sua organização & #39; s OKRs e KSIs.</li><li>Quais riscos com que você identificou relevantes à implementação da conferência de áudio em sua organização? Quais são os planos de atenuação para os riscos identificados?</li><li>Quais riscos com que você identificou relevantes para a implementação de planos de chamada em sua organização? Quais são os planos de atenuação para os riscos identificados?</li><li>Quais riscos com que você identificou relevantes para a implementação de roteamento direto na sua organização? Quais são os planos de atenuação para os riscos identificados?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente o OKRs e KSIs e estabelecer a registrar riscos.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Quais são seus organization& #39; s OKRs e KSIs?</li><li>Quais riscos com que você identificou relevantes à implementação da conferência de áudio em sua organização? Quais são os planos de atenuação para os riscos identificados?</li><li>Quais riscos com que você identificou relevantes para a implementação de planos de chamada em sua organização? Quais são os planos de atenuação para os riscos identificados?</li><li>Quais riscos com que você identificou relevantes para a implementação de roteamento direto na sua organização? Quais são os planos de atenuação para os riscos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente o OKRs e KSIs e estabelecer a registrar riscos.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -262,7 +264,7 @@ Comitê de orientação de atende em um intervalo recorrente durante o tempo de 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se um comitê de orientação é necessário para sua organização.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Identifica membros da comissão de direcionamento.</li><li>Agende reuniões comitê de orientação.</li><li>Prepare para reuniões comitê de orientação.</li><li>Mantenha comitê de direcionamento de reuniões.</li><li>Execute a ação com base no comitê de direcionamento de entrada da reunião.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Identifica membros da comissão de direcionamento.</li><li>Agende reuniões comitê de orientação.</li><li>Prepare para reuniões comitê de orientação.</li><li>Mantenha comitê de direcionamento de reuniões.</li><li>Execute a ação com base no comitê de direcionamento de entrada da reunião.</li></ul>|
 
 Adicional orientação detalhada sobre como operar um comitê de orientação adequado pode ser encontrada no [guia de comitê de orientação](envision-steering-committee-complete-guide.md).
 

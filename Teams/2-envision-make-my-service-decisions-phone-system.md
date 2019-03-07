@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Escolha de chamar planos e licenciamento, configure locais de emergência e recursos, como ID do chamador e de caixa postal, adquirir ou transferir os números de telefone.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120566"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461888"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -79,8 +81,8 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 > | **Office**                     | **Local**   | **Serviço de sistema telefônico** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Austrália      | Serviço PSTN herdado |
-> | 100 Alma Road             | Hong Kong SAR  | Roteamento direto de sistema do telefone |
-> | One Marina Boulevard           | Cingapura      | Roteamento direto de sistema do telefone |
+> | 100 Alma Road             | Hong Kong SAR  | Roteamento Direto do Sistema Telefônico |
+> | One Marina Boulevard           | Cingapura      | Roteamento Direto do Sistema Telefônico |
 > | 32 London Bridge Street        | Reino Unido | Sistema de Telefonia com Planos de Chamadas |
 > | 39 quai du Président Roosevelt | França         | Sistema de Telefonia com Planos de Chamadas |
 

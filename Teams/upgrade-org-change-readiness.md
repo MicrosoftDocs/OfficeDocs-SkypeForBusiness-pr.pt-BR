@@ -10,15 +10,17 @@ description: Certifique-se de que sua organização e os usuários estão pronto
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1212201f56093ea1e0e274f560cd1cd5473b13d7
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349283"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465232"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -42,7 +44,7 @@ Após você ter protegido sua equipe de projeto e definido sua visão, escopo e 
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é a cultura da sua organização, quando se trata de alterar?</li><li>Como a nova tecnologia pode otimizar a maneira como os usuários trabalham?</li><li>Quais usuários estão provavelmente exigem atenção especial para conectá-los para alterar a maneira como eles funcionam?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Use a seguinte orientação e atividades associadas para capturar o perfil de preparação do usuário da sua organização.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use a seguinte orientação e atividades associadas para capturar o perfil de preparação do usuário da sua organização.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>Preparação de alteração organizacional
 
@@ -102,7 +104,7 @@ Para obter o máximo proveito de equipes, desenvolver uma estratégia de trabalh
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários de trabalho em equipe relatable será você emprega para ajudar a acelerar a adoção de usuário das equipes e facilitar a atualização do Skype para os negócios?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Use os exemplos abaixo para ajudar a desenvolver seus próprios cenários de trabalho em equipe. Documente-los na pasta de [Pasta de trabalho de atualização](https://aka.ms/upgradesuccesskit).</li><li>Para cenários adicionais e exemplos adicionais, vá para a [Biblioteca de produtividade](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos abaixo para ajudar a desenvolver seus próprios cenários de trabalho em equipe. Documente-los na pasta de [Pasta de trabalho de atualização](https://aka.ms/upgradesuccesskit).</li><li>Para cenários adicionais e exemplos adicionais, vá para a [Biblioteca de produtividade](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Exemplos
 

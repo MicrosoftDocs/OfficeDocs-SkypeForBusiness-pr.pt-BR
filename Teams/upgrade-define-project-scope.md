@@ -10,15 +10,17 @@ description: Escopo de seu projeto de atualização por refinando sua visão e o
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161d5e8a73514374cfae8e8e29ed28dafdc858c3
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349472"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464824"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -33,7 +35,7 @@ Para definir sua visão do projeto, escopo, metas e governança o tempo empregad
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>O que você deseja realizar com este projeto (em outras palavras, por que você está fazendo-lo)?</li><li>Sucesso como se parece?</li><li>Quais são os riscos e o que é seu plano para atenuar esses riscos?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Discuta as seções a seguir com sua equipe de projeto e responsáveis.</li><li>Documente sua visão, escopo, metas e os riscos deste projeto.</li><li>Rever sua equipe de projeto para validar se você tiver presos a equipe certa.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Discuta as seções a seguir com sua equipe de projeto e responsáveis.</li><li>Documente sua visão, escopo, metas e os riscos deste projeto.</li><li>Rever sua equipe de projeto para validar se você tiver presos a equipe certa.</li></ul>|
 
 ## <a name="project-vision"></a>Visão do projeto
 

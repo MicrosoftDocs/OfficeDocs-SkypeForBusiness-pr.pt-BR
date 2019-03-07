@@ -7,7 +7,9 @@ ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4e0e713bda280738ec72c8c4e07dc5b0da15c3
-ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
+ms.openlocfilehash: 32fba747deb73b7f4e2c19b96cb4c0c62b741722
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726631"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458904"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes para o Microsoft Teams 
 ===========================
@@ -31,7 +33,7 @@ Microsoft Teams possui clientes móveis e disponíveis para a área de trabalho 
 > [!NOTE]
 > 29 de novembro de 2018, você não conseguirá usar Teams Microsoft para o aplicativo do Windows 10 S (Preview), disponível do Microsoft Store efetiva. Recomendamos que você use um dos aplicativos equipes descritos a seguir neste artigo após 29 de novembro.
 
-<a name="desktop-client"></a>Cliente de desktop
+<a name="desktop-client"></a>Cliente de área de trabalho
 --------------
 
 > [!Tip]
@@ -97,7 +99,7 @@ Administradores de TI podem usar implantação gerenciada de equipes para distri
 > [!NOTE]
 > Se você perceber problemas ao instalar o pacote, fale conosco. Na seção **comentários** no final deste artigo, clique em **comentários sobre o produto**.
 
-<a name="web-client"></a>Cliente web 
+<a name="web-client"></a>Clientes Web 
 ----------
 
 O cliente da web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) é um cliente de funcional completo que pode ser usado em uma variedade de navegadores. O cliente web oferece suporte a reuniões e chamadas usando webRTC, portanto, há não plug-in ou download necessário para executar as equipes em um navegador da web. O navegador deve ser configurado para permitir que os cookies de terceiros. 

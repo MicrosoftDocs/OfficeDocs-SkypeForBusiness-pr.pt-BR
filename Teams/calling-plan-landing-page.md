@@ -1,5 +1,5 @@
 ---
-title: Chamando planos em equipes da Microsoft
+title: Planos de chamada do Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Página inicial do plano de chamada
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cce239825389e11cfbc627d518e7d1e459fa77d3
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351494"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460752"
 ---
 # <a name="phone-system-with-calling-plans"></a>Sistema de Telefonia com Planos de Chamadas 
 

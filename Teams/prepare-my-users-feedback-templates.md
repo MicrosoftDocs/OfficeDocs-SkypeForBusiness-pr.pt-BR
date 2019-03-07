@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Colete comentários do usuário para melhorar a implementação de voz de nuvem no Microsoft Teams ou Skype para negócios.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c315588365d023f61a12aa0e2ecf8068a4aaf7
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436608"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463872"
 ---
 # <a name="user-feedback-surveys"></a>Pesquisas de comentários do usuário 
 
@@ -55,13 +57,13 @@ Se você escolher **Discordo de certa forma** ou **Discordo plenamente** por qua
 
 Você recomendar usando Teams como um telefone para um amigo ou colega? (0 = não nisso provavelmente... 10 = extremamente provável)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 Como provavelmente tem recomendar seu dispositivo telefônico para um amigo ou colega? (0 = não nisso provavelmente... 10 = extremamente provável)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

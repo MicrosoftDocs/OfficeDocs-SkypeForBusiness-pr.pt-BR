@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Saiba mais sobre como planejar a implementação de recursos de governança em equipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754806"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464872"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança em equipes
 
@@ -36,7 +38,7 @@ Sua organização pode exigir que você implemente estrito controles em como equ
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Sua organização requer uma convenção de nomenclatura específica para equipes?</li><li>Criadores de equipe preciso a capacidade de atribuir classificações específicas da organização para equipes?</li><li>Você precisa restringir a capacidade de adicionar convidados às equipes em uma base por equipe?</li><li>Sua organização requer limitar quem pode criar equipes?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os requisitos da sua organização para a criação de equipe, de nomeação, classificação e acesso de convidado.</li><li>Você planeja implementar esses requisitos como parte da sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os requisitos da sua organização para a criação de equipe, de nomeação, classificação e acesso de convidado.</li><li>Você planeja implementar esses requisitos como parte da sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
 
 > [!TIP]
 > Use a tabela a seguir para capturar requisitos da sua organização.
@@ -74,7 +76,7 @@ A organização poderá ter requisitos adicionais para a configuração de diret
 |           |            |
 |-----------|------------|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização requer a especificação de uma data de validade para equipes?</li><li>Sua organização exija dados específicos políticas de retenção a ser aplicada às equipes?</li><li>Sua organização espera exigir a capacidade de arquivar equipes inativas para preservar o conteúdo em um estado somente leitura?</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Requisitos da sua organização para expiração de equipe, retenção de dados e arquivamento de documentos.</li><li>Você planeja implementar esses requisitos como parte de sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Requisitos da sua organização para expiração de equipe, retenção de dados e arquivamento de documentos.</li><li>Você planeja implementar esses requisitos como parte de sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
 
 > [!TIP]
 > Use a tabela a seguir para capturar requisitos da sua organização.
@@ -107,7 +109,7 @@ Outro aspecto importante da governança e gerenciamento do ciclo de vida para eq
 |         |         |
 |---------|---------|
 | ![](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização requer limitar os recursos de equipes para seu locatário todo?</li><li>Sua organização exigir a limitar os recursos de equipes para usuários específicos?</li></ul>|
-| ![](media/audio_conferencing_image9.png)<br/>Próximos passos|<ul><li>Requisitos da sua organização para limitar os recursos de equipes no nível de usuário e de locatário do documento.</li><li>Você planeja implementar seus requisitos específicos como parte de sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
+| ![](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Requisitos da sua organização para limitar os recursos de equipes no nível de usuário e de locatário do documento.</li><li>Você planeja implementar seus requisitos específicos como parte de sua distribuição de equipes.</li><li>Se comunicar e publicar suas políticas para informar os usuários de equipes do comportamento que eles podem esperar.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Áreas de foco de gerenciamento de recursos de equipes
 
@@ -115,7 +117,7 @@ As equipes fornece recursos granulares para controlar mensagens, reuniões, cham
 
 Para obter listas detalhadas de todas as configurações, incluindo orientações técnicas sobre como implementá-las para sua organização, consulte os seguintes artigos:
 
--   [Gerenciar os recursos do Microsoft Teams na sua organização do Office 365](enable-features-office-365.md)
+-   [Gerenciar os recursos do Microsoft Teams em sua organização do Office 365](enable-features-office-365.md)
 -   [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Gerenciar políticas de reunião em equipes](meeting-policies-in-teams.md)
 

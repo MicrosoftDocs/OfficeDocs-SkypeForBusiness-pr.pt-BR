@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Use personagens e análise de rede para avaliar a preparação da sua organização, abra as portas TCP e UDP corretas, executar qualquer correção de rede.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00bf784b283f1f2d948e82d90ce54b0a67a6439
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373310"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459089"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar o meu ambiente
 
@@ -44,7 +46,7 @@ Sabendo disso ajudarão sua organização ajuste seu plano de projeto e preparar
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela conclusão uma avaliação do ambiente?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Os resultados da avaliação do ambiente do documento.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Os resultados da avaliação do ambiente do documento.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -61,7 +63,7 @@ Use as seguintes considerações para avaliar a preparação para a sua organiza
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Você teve sucesso anterior com a adoção de usuário do software ou serviços?</li><li>É possível controlar a adoção de uso?</li><li>Você tem os recursos para criar e gerenciar uma initial&mdash;e em andamento&mdash;campanha de adoção (divulgação, treinamento e suporte)?</li><li>Você tem uma equipe de gerenciamento de adoção/mudança de usuário dedicada, ou pode investir em desses recursos para garantir resultados de negócios?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Se você respondeu &quot;Sim&quot; para todos os itens acima, identificar participantes do gerenciamento de alteração do usuário à direita e começar seu planejamento de preparação do usuário.</li><li>Se você respondeu &quot;sem&quot; para alguns ou todos os itens acima, considere envolvente fora de recursos para ajudá-lo com orientando o gerenciamento de alterações e atividades relacionadas a adoção para sua organização.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Se você respondeu &quot;Sim&quot; para todos os itens acima, identificar participantes do gerenciamento de alteração do usuário à direita e começar seu planejamento de preparação do usuário.</li><li>Se você respondeu &quot;sem&quot; para alguns ou todos os itens acima, considere envolvente fora de recursos para ajudá-lo com orientando o gerenciamento de alterações e atividades relacionadas a adoção para sua organização.</li></ol></td></tr>
 </table>
 
 
@@ -217,7 +219,7 @@ Para obter mais informações, consulte [Qualidade de serviço em equipes da Mic
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quem será responsável pela conclusão de avaliações de rede adequado entre todos os segmentos de rede e locais da organização?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Você pode executar uma avaliação de rede detalhado para ajudar a garantir que sua rede está pronta para sua implantação do Microsoft Teams. Para obter mais informações, consulte <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Avaliação de prontidão de rede</a>.</li><li>Execute a correção de rede com base nos resultados da avaliação de prontidão da rede para cada segmento de rede.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Você pode executar uma avaliação de rede detalhado para ajudar a garantir que sua rede está pronta para sua implantação do Microsoft Teams. Para obter mais informações, consulte <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Avaliação de prontidão de rede</a>.</li><li>Execute a correção de rede com base nos resultados da avaliação de prontidão da rede para cada segmento de rede.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

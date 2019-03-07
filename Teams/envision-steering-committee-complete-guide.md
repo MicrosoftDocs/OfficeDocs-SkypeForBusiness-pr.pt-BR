@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Identifique um grupo de administração dos principais participantes e os líderes do projeto para identificar objetivos de implantação, acompanhar o progresso e remover bloqueadores.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014479"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464280"
 ---
 # <a name="steering-committee"></a>Comitê de direcionamento
 
@@ -50,7 +52,7 @@ Comitê de orientação de atende em um intervalo recorrente durante o tempo de 
 
 -   Identificar, gerenciar e atenuar lacunas, riscos e problemas onde influência adicional é necessária do comitê.
 
--   Obter suporte ao Patrocinador executivo ou à equipe de liderança executiva para problemas que exigem escalonamento, priorização e resolvendo conflitos entre unidades de negócios das partes interessadas. 
+-   Obter suporte ao Patrocinador executivo ou à equipe de liderança executiva para problemas que exigem escalonamento, priorização e resolvendo conflitos entre unidades de negócios das partes interessadas. 
 
 -   Fornecer comentários formal e recomendações para liderança executiva, conselho, ou outras empresas e acionistas IT, conforme aplicável.
 
@@ -163,7 +165,7 @@ A reunião propriamente dita deve ser uma continuação natural do trabalho de p
 
 7.  Enviar email para acompanhamento que inclui a apresentação que você criou de participantes e acrescente quaisquer anotações feitas. Certifique-se de incluir qualquer pessoa que não participar.
 
-## <a name="next-steps"></a>Próximos passos
+## <a name="next-steps"></a>Próximas etapas
 
 Após revisar a visão geral da comissão de direcionamento, agora é hora de agir. A equipe de projeto deve começar seus trabalhos para implementar o Comitê de orientação para o cronograma do projeto e preparar uma cadência regular comitê de orientação da reunião. Idealmente, comissão de será formado antes que o projeto começa e oferecem orientação em todas as suas fases, mas se que não pode ser o caso, o comitê para orientar a equipe de projeto para um resultado bem-sucedido de formulário.
 

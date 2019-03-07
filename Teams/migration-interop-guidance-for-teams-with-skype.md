@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb1a23fb64f2a6c2d24e70f69a7997b1ec2049a6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ebefcf81eace90f99b2871fcd7232f799af3edb2
+ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461568"
+ms.locfileid: "30469766"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business
 
@@ -38,7 +38,7 @@ Como uma organização com Skype para negócios começa a adotar as equipes, os 
 3.  Todas as equipes que os usuários tenham um Skype subjacente para conta de negócios que seja "hospedados" seja online ou local:
     - Os usuários que já usando Skype para Business Online usar sua conta online existente.
     - Os usuários que já usando Skype para negócios/Lync local usar sua conta local existente.
-    - Os usuários para o qual nós não conseguir detectar um Skype existente para a conta comercial terá um Skype para Business Online conta provisionada automaticamente quando o usuário equipes é criado. Nenhum Skype licença de negócios é necessária.
+    - Os usuários para o qual nós não conseguir detectar um Skype existente para a conta comercial terá um Skype para Business Online conta provisionada automaticamente quando o usuário equipes é criado.
 
 4.  Se você possui uma implantação de local de qualquer um dos Skype para Lync ou comercial e quiser que os usuários sejam usuários de equipes, você deve no mínimo garantir que o Azure Connect da AD está sincronizando o msRTCSIP-DeploymentLocator atributo em AAD, portanto, que as equipes/Skype para negócios Online adequadamente detecta seu ambiente local. Além disso, para mover todos os usuários para o modo somente equipes (ou seja, atualize um usuário), *você deve primeiro configurar Skype para modo híbrido de negócios*. Para obter mais detalhes, consulte [Configurar o Azure Connect de AD para Skype para equipes e de negócios](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 

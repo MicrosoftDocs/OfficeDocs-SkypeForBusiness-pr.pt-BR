@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Escolha a aplicativos de cliente de equipes, planejar a qualidade do ponto de extremidade, obtém recomendações para a implantação de pontos de extremidade Wi-Fi e escolhendo dispositivos de áudio.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a44af03e694937c5e874f6d53c0795a0c61dd606
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: 95777c59da635631c1493fc15351521248eead34
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716363"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459032"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência dos meus usuários
 
@@ -86,7 +88,7 @@ Se sua organização usa pontos de acesso sem fio ou roteadores que não há sup
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Quais clientes equipes serão implantados em sua organização?</li><li>Como você inicialmente implantará clientes de equipes para seus usuários?</li><li>Eles quem é responsável por avaliar os pontos de extremidade e dispositivos para validar atende aos requisitos de equipes para uma experiência de qualidade?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>O processo que será seguido para implantar clientes de equipes do documento.</li><li>Avalie os pontos de extremidade e dispositivos e executar e remediação necessária.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>O processo que será seguido para implantar clientes de equipes do documento.</li><li>Avalie os pontos de extremidade e dispositivos e executar e remediação necessária.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -107,7 +109,7 @@ Depois que você selecionou os dispositivos, incluí-los no plano de teste pilot
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Pontos de decisão</td><td><ul><li>Decida qual estratégia de dispositivo geral da sua organização para o usuário e experiências de sala de reunião.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximos passos</td><td><ul><li>Conclua um exercício de mapeamento do dispositivo de pessoa para a sua organização.</li><li>O processo para obtenção de dispositivos para usuários e salas de reunião do documento.</li><li>O processo de implantação e configuração de dispositivos para usuários e salas de reunião do documento.</li><li>Adquirir dispositivos iniciais para começar sua implantação.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Próximas etapas</td><td><ul><li>Conclua um exercício de mapeamento do dispositivo de pessoa para a sua organização.</li><li>O processo para obtenção de dispositivos para usuários e salas de reunião do documento.</li><li>O processo de implantação e configuração de dispositivos para usuários e salas de reunião do documento.</li><li>Adquirir dispositivos iniciais para começar sua implantação.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

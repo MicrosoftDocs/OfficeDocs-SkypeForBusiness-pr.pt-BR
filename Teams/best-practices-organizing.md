@@ -9,15 +9,17 @@ ms.service: msteams
 description: Conheça as práticas recomendadas para organizar as equipes no Microsoft Teams de maneira a suprir as necessidades de sua organização.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a839e7f903e232a3ebfe76056cfb97f2bc8219
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 71a7716207a61bdddd24035b0eed54c9b3764661
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594106"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463624"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Boas práticas para organizar equipes no Microsoft Teams
 ======================================================

@@ -5,23 +5,24 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams.
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754748"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463088"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
-No Teams da Microsoft, os usuários poderão gravar suas reuniões de equipes e chamadas de grupo para capturar áudio, vídeo e compartilhamento de atividade de tela. Há também uma opção de gravações ter transcrição automática, para que os usuários podem reproduzir gravações de reuniões com legendas e procurar itens de discussão importante na transcrição. A gravação acontece na nuvem e é salva no [Microsoft Stream](https://docs.microsoft.com/stream/), portanto, os usuários podem compartilhá-lo com segurança na sua organização.
+No Teams da Microsoft, os usuários poderão gravar suas reuniões de equipes e chamadas de grupo para capturar áudio, vídeo e compartilhamento de atividade de tela. Há também uma opção para habilitar a transcrição automática nas gravações. Com isso, os usuários podem reproduzir gravações de reunião com legendas ocultas e procurar itens de discussão importantes na transcrição. A gravação acontece na nuvem e é salva no [Microsoft Stream](https://docs.microsoft.com/stream/), portanto, os usuários podem compartilhá-lo com segurança na sua organização.
 
 [Documentação do usuário final de gravação de reunião de equipes](https://aka.ms/recordmeeting) de relacionados:
 
