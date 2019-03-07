@@ -1,5 +1,5 @@
 ---
-title: Treinamento de equipes da Microsoft
+title: Treinamento do Microsoft Teams
 description: Use esses usuários finais, administração e recursos de treinamento ministrado por instrutor para ajudá-lo a obter o máximo da Microsoft Teams em sua organização.
 layout: LandingPage
 ms.topic: landing-page
@@ -8,18 +8,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: f227a9787368b325f102229afebdebf000513bb9
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635687"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463680"
 ---
-# <a name="microsoft-teams-training"></a>Treinamento de equipes da Microsoft
+# <a name="microsoft-teams-training"></a>Treinamento do Microsoft Teams
 
 
 
