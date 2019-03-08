@@ -126,7 +126,7 @@
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gerenciar políticas de reunião](meeting-policies-in-teams.md)
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
-## [Personalizar convites de reunião](customize-meeting-invitations-in-teams.md)
+## [Personalizar convites de reunião](customize-meeting-invitations.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Ativar ou desativar os anúncios de entrada e de saída para reuniões](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
