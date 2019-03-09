@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar e usar a análise de chamada para identificar e resolver Skype para problemas de qualidade de chamada de negócios e Teams da Microsoft.
-ms.openlocfilehash: e54668afc6e71b519f1656443a25e17274b22fb2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 97faee554bd4a4ea8b88226d12cb675fab51e114
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462829"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494217"
 ---
 # <a name="set-up-call-analytics"></a>Configurar Análise de Chamada
 
@@ -51,7 +51,7 @@ Como um equipes ou Skype do admin Business Online, você pode usar o Analytics c
 ## <a name="set-call-analytics-permissions"></a>Definir permissões de análise de chamada
 <a name="BKMK_SetCAPerms"></a>
 
-Como o administrador, você deve obter acesso total a todos os recursos de análise de chamada. Além disso, você pode atribuir funções do Azure Active Directory para a equipe de suporte. Atribua a função de especialista de suporte de comunicação de equipes a usuários que devem ter uma exibição limitada da análise de chamada. Atribua a função de engenheiro de suporte de comunicações equipes aos usuários que precisam acessar a funcionalidade completa do Analytics chamada. Ambos os níveis de permissão impedem o acesso ao restante do Centro de administração do Microsoft Teams.
+Como o administrador, você tem acesso total a todos os recursos de análise de chamada. Além disso, você pode atribuir funções do Azure Active Directory para a equipe de suporte. Atribua a função de especialista de suporte de comunicação de equipes a usuários que devem ter uma exibição limitada da análise de chamada. Atribua a função de engenheiro de suporte de comunicações equipes aos usuários que precisam acessar a funcionalidade completa do Analytics chamada. Ambos os níveis de permissão impedem o acesso ao restante do Centro de administração do Microsoft Teams.
 
 > [!NOTE]
 > A função de especialista de suporte de comunicações é equivalente ao suporte da camada 1 e a função de engenheiro de suporte de comunicações é equivalente ao suporte da camada 2.

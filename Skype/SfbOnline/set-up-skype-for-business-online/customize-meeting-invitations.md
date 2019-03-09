@@ -15,15 +15,16 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.lync.lac.MeetingInvitation
+- ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
 description: 'Personalize convites para reunião Skype com gráficos logotipos, ajuda e URLs legais e texto de rodapé. '
-ms.openlocfilehash: b7f9fc41257d24f6c8ffa78304164c67261573c1
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a5ea519ddc762e861b8c3bad173139c328d8bab4
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23849981"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493517"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar convites de reunião
 

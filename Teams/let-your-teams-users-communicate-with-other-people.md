@@ -15,13 +15,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Consulte como configurar equipes para permitir que os usuários se comuniquem com usuários de outra organização.
-ms.openlocfilehash: 6c61c8d932dfe72c1d7764ce78701c0b1e3acfc0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b3aa366d26399f3d899da471d41823e79f4bc0f1
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460296"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494241"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que o bate-papo de usuários equipes e se comunicar com usuários de outra organização de equipes
 

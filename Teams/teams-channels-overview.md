@@ -9,17 +9,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Conheça as diferentes equipes, canais e aplicativos disponíveis para uma grande variedade de exigências, como finanças, planejamento de eventos, vendas e muito mais.
 localization_priority: Normal
+f1keywords:
+- ms.teamsadmincenter.teamschannel.overview
+- ms.teamsadmincenter.teamssettings.overview
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3f49bc8ed4fe5c140c01bbc29c1d7ed7595f547
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e78806ae0fb4b118757026fda695dcba03bae1dd
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458840"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493969"
 ---
 > [!NOTE]
 > Revise as seguintes informações para entender o bate-papo, equipes, canais, apps & em equipes. Em seguida, vá para [implantar chat, equipes, canais, apps & em equipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para percorrer a uma lista de decisões importantes para a distribuição de equipes.

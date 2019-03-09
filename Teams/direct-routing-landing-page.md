@@ -1,5 +1,5 @@
 ---
-title: Roteamento direto de sistema do telefone
+title: Roteamento Direto do Sistema Telefônico
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de aterrissagem do roteamento direto
 appliesto: Microsoft Teams
-ms.openlocfilehash: 6aeff0f79dfbc6cd7b3ba3cddefee382673d24eb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353262"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494057"
 ---
-# <a name="phone-system-direct-routing"></a>Roteamento direto de sistema do telefone
+# <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema Telefônico
 
 Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você implantou [conferência de & de reuniões](deploy-meetings-microsoft-teams-landing-page.md). Agora você está pronto para adicionar as cargas de trabalho de voz de nuvem e você decidiu usar sua próprias operadora de telefonia para conectividade de rede de telefônica pública comutada (PSTN) usando o recurso de roteamento direto de sistema do telefone. Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
 
@@ -34,7 +35,7 @@ Os artigos a seguir fornecem mais informações sobre como configurar e usar rot
 - [Planejar o Roteamento Direto](direct-routing-plan.md) 
 - [Configurar o Roteamento Direto](direct-routing-configure.md)
 - [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
-- [Monitorar e solucionar problemas de roteamento direto](direct-routing-monitor-and-troubleshoot.md)
+- [Monitorar e solucionar problemas do Roteamento Direto](direct-routing-monitor-and-troubleshoot.md)
 
 Além disso, convém ler os artigos a seguir, dependendo dos requisitos:
 
@@ -43,7 +44,7 @@ Além disso, convém ler os artigos a seguir, dependendo dos requisitos:
 -  [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Assista a sessão de seguir para saber mais sobre o roteamento direto: [Roteamento direta em equipes da Microsoft](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
+## <a name="core-deployment-decisions"></a>Decisões principais de implantação
 
 Estas são as decisões principais a serem considerados para roteamento direto. 
 

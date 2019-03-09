@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: Preparar e implementar desabilitando TLS 1.0 e 1.1 em seus ambientes.'
-ms.openlocfilehash: 50d4da536bbfcd112057464b3d4142b3eeed2b44
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532510"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493930"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar o TLS 1.0/1.1 no Skype para Business Server 2015
 
@@ -44,7 +44,11 @@ Microsoft gerou um white paper sobre TLS disponíveis [aqui](https://cloudblogs.
 - In-loco atualizados Skype para Business Server 2015, com CU6 HF2 e superiores em 
     - Windows Server 2008 R2, 2012 (com KB [3140245](https://support.microsoft.com/en-us/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) ou atualização que substitui) ou 2012 R2
 - Conectividade do Exchange e Outlook Web App com RU19 do Exchange Server 2010 SP3 ou superior, orientação [aqui](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
- 
+- Aparelho de filial persistente (SBA) com Skype para Business Server 2015 CU6 HF2 ou superior (Confirmar com seu fornecedor que eles empacotados as atualizações apropriado e tenham sido disponibilizados para o seu aparelho)
+- Servidor de filial persistente (SBS) com Skype para Business Server 2015 CU6 HF2 ou superior
+- Lync Server 2013 **Apenas função de borda**, é porque a função de borda não possuem uma dependência sobre Windows Fabric 1.0.
+
+
 ### <a name="fully-tested-and-supported-clients"></a>Clientes totalmente testados e suportados
 
 - O cliente de Desktop do Lync 2013 (Skype for Business), MSI e C2R, incluindo Basic [15.0.5023.1000 e superiores](https://support.microsoft.com/en-us/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
@@ -74,6 +78,7 @@ Microsoft gerou um white paper sobre TLS disponíveis [aqui](https://cloudblogs.
 Exceto onde observado, os produtos a seguir não estão no escopo para suporte a TLS 1.0/1.1 disable e não funcionarão em um ambiente onde TLS 1.0 e 1.1 foram desabilitadas.  O que isso significa: se você ainda utiliza clientes ou servidores fora do escopo, você deve atualizar ou removê-los a se você precisar desativar TLS 1.0/1.1 em qualquer lugar no seu Skype para Business Server implantação local.
 
 - Lync Server 2013
+- Lync Server 2010
 - Windows Server 2008 e inferior
 - Lync para Mac 2011
 - Lync 2013 para dispositivos móveis - iOS, iPad, Android ou do Windows Phone
@@ -81,6 +86,8 @@ Exceto onde observado, os produtos a seguir não estão no escopo para suporte a
 - Todos os clientes do Lync 2010
 - Lync Phone Edition - atualizada a orientação [aqui](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035).
 - Aparelho de filial persistente (SBA) ou o servidor de filial persistente (SBS) com base em 2013
+- Conector de nuvem Edition (CCE)
+- Skype for Business para Windows Phone
 
 ### <a name="exceptions"></a>Exceções
 
@@ -443,7 +450,7 @@ Você deve ter percebido que fazemos mais do que apenas desabilitando TLS 1.0 e 
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Validar que cargas de trabalho estão funcionando conforme o esperado
 
-Depois que o TLS 1.0 e 1.1 foram desabilitadas em seu ambiente, certifique-se de que todas as suas cargas de trabalho principais estão funcionando conforme o esperado, como mensagens Instantâneas e presença, P2P chama, Enterprise Voice, etc.
+Depois que o TLS 1.0 e 1.1 foram desabilitadas em seu ambiente, certifique-se de que todas as suas cargas de trabalho principais estão funcionando conforme o esperado, como mensagens Instantâneas & presença, chamadas de P2P, Enterprise Voice, etc.
 
 **Validar apenas TLS 1.2 está sendo usado.**
 
@@ -472,8 +479,8 @@ Pois alguns pré-requisitos de dependência são necessárias para dar suporte a
 
 **Opção 2:** Pré-instalar instâncias SQL locais (RTCLOCAL e LYNCLOCAL)
 
-1. Baixe e copie o SQL Express 2014 SP2 (SQLEXPR_x64.exe) para uma pasta local na FE. Digamos que o caminho da pasta < SQL_FOLDER_PATH >.
-2. Inicialize o PowerShell ou o Prompt de comando e navegue até < SQL_FOLDER_PATH >.
+1. Baixe e copie o SQL Express 2014 SP2 (SQLEXPR_x64.exe) para uma pasta local na FE. Digamos que <SQL_FOLDER_PATH> de caminho da pasta.
+2. Inicialize o PowerShell ou o Prompt de comando e navegue até <SQL_FOLDER_PATH>.
 3. Crie a instância SQL RTCLOCAL executando o comando a seguir. Aguarde até que o SQLEXPR_x64.exe é concluída antes de prosseguir:
 
     SQLEXPR_x64.exe /Q /IACCEPTSQLSERVERLICENSETERMS /UPDATEENABLED = 0 /HIDECONSOLE /ACTION = Install/recursos = SQLEngine, ferramentas /INSTANCENAME = RTCLOCAL /TCPENABLED = 1 /SQLSVCACCOUNT = "NT\NETWORKSERVICE" /SQLSYSADMINACCOUNTS = "Builtin\ Os administradores"/BROWSERSVCSTARTUPTYPE = /AGTSVCACCOUNT"Automática"="NTAUTHORITY\NetworkService"/SQLSVCSTARTUPTYPE = automáti

@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como gerenciar configurações para reuniões de equipes que os usuários a agendar em sua organização.
-ms.openlocfilehash: ad48e44ef475d3643444cfb570e81d8224117133
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462640"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494243"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -80,7 +80,7 @@ Se você estiver usando o Quality of Service [(QoS)](qos-in-teams.md) para prior
 
     ![reunião-configurações-network.png] (media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões de equipes no Centro de administração de equipes da Microsoft")
 
-    - Para permitir que as marcações de DSCP a ser usado para QoS, ative **os marcadores de inserir Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar os marcadores ou não, você não pode definir marcadores personalizadas para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para marcadores de DSCP diante mais.
+    - Para permitir que as marcações de DSCP a ser usado para QoS, ative **os marcadores de inserir Quality of Service (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar os marcadores ou não; Você não pode definir marcadores personalizadas para cada tipo de tráfego. Consulte [Selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para marcadores de DSCP diante mais.
     - Para especificar os intervalos de porta, ao lado de **Selecionar um intervalo de porta para cada tipo de tráfego de mídia em tempo real**, selecione **especificar intervalos de porta**e, em seguida, insira as portas inicial e finais para áudio, vídeo e compartilhamento de tela. Esta opção é necessária para implementar o QoS.
     > [!IMPORTANT]
     > Se você selecionar **usar automaticamente qualquer porta disponível**, portas disponíveis entre 1024 e 65535 são usados. Use essa opção somente quando não implementando QoS.
