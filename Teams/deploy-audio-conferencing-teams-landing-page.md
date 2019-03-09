@@ -7,17 +7,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
+- M365-voice
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52077b5ac7ab9da52c894267153d4a342b651f7f
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: 8c146e0bc3417e5a62af4a57c3ec1e2e49158c3a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595358"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461168"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferência no Microsoft Teams
 
@@ -37,7 +40,7 @@ Antes de implantar a Audioconferência no Teams, considere o seguinte:
 |Pergunte-se|Ação |
 |------------|-------|
 |A Audioconferência está disponível para meu país/região?|Para descobrir se a Audioconferência está disponível em seu país/região, confira [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|Meus usuários têm licenciamento adequado para Audioconferência do Teams?|As licenças da Audioconferência está disponível como parte da assinatura do Office 365 E5 ou como um serviço de complemento à assinatura do Office 365 E1 ou Office 365 E3. <ul><li>Para obter e atribuir licenças, confira [Experimentar ou comprar a Audioconferência no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) e [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, confira [Licenciamento de complementos do Skype for Business e do Teams](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano do Office 365, confira os artigos [Opções de Licença com base nos planos](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).</li></ul>|
+|Meus usuários têm licenciamento adequado para Audioconferência do Teams?|As licenças da Audioconferência está disponível como parte da assinatura do Office 365 E5 ou como um serviço de complemento à assinatura do Office 365 E1 ou Office 365 E3. <ul><li>Para obter e atribuir licenças, confira [Experimentar ou comprar a Audioconferência no Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) e [Atribuir ou remover licenças do Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para saber mais, leia [Licenciamento do complemento Skype for Business and Teams] (teams-add-on-licensing/microsoft-teams-add-on-licensing.md. </li><li>Para ver quais recursos de nuvem estão incluídos em cada plano do Office 365, confira os artigos [Opções de Licença com base nos planos](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
 |Preciso comprar Créditos de Comunicação para os usuários que recebem licenças de Audioconferência?|Para saber mais, leia [O que são Créditos de Comunicação?](what-are-communications-credits.md) e, em seguida, confira a seção [Créditos de Comunicações](#communications-credits) abaixo.|
 |||
 
@@ -49,12 +52,12 @@ Depois de atender aos [Pré-requisitos de Audioconferência](#audio-conferencing
 
 ### <a name="teams-administrators"></a>Administradores do Teams
 
-O Teams oferece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o Teams para sua organização. As funções fornecem vários recursos para administradores. 
+O Teams fornece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o programa na organização. As funções fornecem vários recursos para administradores. 
 
-| Pergunte-se | Ação |
+| Pergunte a si mesmo | Ação |
 |--------------|--------|
-|A quem será atribuída a função de Administrador de Comunicação do Teams?|Para saber mais sobre as funções de administrador do Teams, confira [Usar funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md).|
-|A quem será atribuída função de Engenheiro de Suporte de Comunicações do Teams?|Para atribuir funções de administrador, confira [Atribuir funções de administrador e não administrador aos usuários com o Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
+|A quem será atribuída a função de Administrador de Comunicações de Equipes?|Para saber mais sobre as funções de administrador do Teams, confira [Usar funções de administrador para gerenciar o Microsoft Teams](using-admin-roles.md).|
+|A quem será atribuída função de Engenheiro de Suporte de Comunicações de Equipes?|Para atribuir funções de administrador, confira [Atribuir funções de administrador e não administrador aos usuários com o Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal).|
 |A quem será atribuída a função de Especialista de Suporte de Comunicações do Teams?||
 |||
 
@@ -141,9 +144,9 @@ Para obter mais informações sobre os planos de discagem, confira [O que são o
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>Resolver problemas de qualidade de chamadas e reuniões 
 
-O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade da chamada: [Análise de chamadas e Painel de qualidade da chamadas](difference-between-call-analytics-and-call-quality-dashboard.md). A Análise de chamadas exibe informações detalhadas sobre os dispositivos, redes e conectividade relacionados a chamadas e reuniões específicas para cada usuário. A Análise de chamadas foi desenvolvida para ajudar administradores e agentes do suporte técnico a solucionar problemas de qualidade de chamadas com chamadas específicas, enquanto o Painel de qualidade de chamadas foi desenvolvido para ajudar administradores e engenheiros de rede a otimizar uma rede. O Painel de qualidade da chamadas desloca o foco de usuários específicos e, em vez disso, analisa as informações agregadas de toda a organização do Teams. 
+O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade da chamada: [Análise de Chamadas e Painel de Qualidade de Chamadas](difference-between-call-analytics-and-call-quality-dashboard.md). A Análise de Chamadas exibe informações detalhadas sobre dispositivos, redes e conectividade relacionados a chamadas e reuniões específicas para cada usuário. A Análise de Chamadas foi desenvolvida para ajudar administradores e agentes de assistência técnica a solucionar problemas de qualidade de chamadas com chamadas específicas, enquanto o Painel de Qualidade de Chamadas foi desenvolvido para ajudar administradores e engenheiros de rede a otimizar uma rede. O Painel de Qualidade de Chamadas desloca o foco de usuários específicos e analisa as informações agregadas de toda a organização do Teams. 
 
-|Pergunte-se|Ação |
+|Pergunte a si mesmo|Ação |
 |------------|-------|
 | Quem será responsável pelo monitoramento e a solução de problemas de qualidade da chamada? | Confira [Usar a Análise de chamadas para solucionar problemas de baixa qualidade de chamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md) para obter informações sobre os níveis de permissão necessários para solucionar problemas de qualidade de chamadas.|
 |||
@@ -152,4 +155,4 @@ O Teams oferece duas maneiras de monitorar e solucionar problemas de qualidade d
 ## <a name="next-steps"></a>Próximas etapas
 - [Direcionar a adoção](adopt-microsoft-teams-landing-page.md) da audioconferência em sua organização.
 - [Implementar o Cloud Voice](cloud-voice-landing-page.md)
-- Incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao direcionar a adoção do Teams.
+- Incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao promover a adoção do Teams.

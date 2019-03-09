@@ -1,2 +1,2 @@
 > [!NOTE]
-> O controle de nível de locatário do status ativado/desativado do Microsoft Teams é temporário e, até maio de 2018, será removido. No momento, o acesso ao Microsoft Teams será controlado somente por meio de licença em nível de usuário. Para saber mais, veja [Gerenciamento do acesso de usuários ao Microsoft Teams](../user-access.md).
+> O controle ao nível do locatário do Teams foi removido (a partir de agosto de 2018). Controlar o acesso ao Teams em sua organização com licenciamento ao nível do usuário. Para saber mais, veja [Gerenciamento do acesso de usuários ao Microsoft Teams](../user-access.md).
