@@ -674,16 +674,14 @@
 #### [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 #### [Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)
 
-
-
 ## Microsoft Teams for Education
 ### [Início rápido - Administradores do Teams for Education](teams-quick-start-edu.yml)
 ### [Recursos do Teams para administradores de Educação](resources-teams-edu.md)
 ### [Perguntas frequentes sobre governança do Microsoft Education para administradores](plan-teams-governance-edu.md)
 
 ## Teams para trabalhadores de contato direto
-### [O Microsoft StaffHub será desativado](microsoft-staffhub-to-be-retired.md)
-### [Gerenciar o aplicativo Turnos para sua organização no Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+### [O Microsoft StaffHub será desativado](teams-for-firstline-workers/microsoft-staffhub-to-be-retired.md)
+### [Gerenciar o aplicativo Turnos para sua organização no Teams](teams-for-firstline-workers/manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Introdução aos modelos de Equipes de varejo](get-started-with-retail-teams-templates.md)
 
 ## [Plano para o Microsoft 365 Government - GCC](plan-for-government-gcc.md)
@@ -694,7 +692,4 @@
 ### [Referência do cmdlet do PowerShell para o Teams](https://docs.microsoft.com/powershell/module/teams)
 
 ## [Documentação de desenvolvedor do Teams](https://docs.microsoft.com/microsoftteams/platform)
-
-
-
 ## [Obter ajuda no Microsoft Teams](get-help-in-microsoft-teams.md)
