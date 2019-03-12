@@ -1,5 +1,5 @@
 ---
-title: Restrições e limitações de discagem gratuita
+title: Limitações e restrições de discagem gratuita
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,14 +7,10 @@ ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -26,14 +22,14 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de chamada gratuito.
-ms.openlocfilehash: 9ecea9fa2503134c7ce3b13c6c7adaabdf24a142
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352678"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542108"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>Restrições e limitações de discagem gratuita
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 
 Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país ou região. Depois de selecionar o país/região, ela levará a uma página que contém a onde o serviço de Chamada Tarifada gratuito está disponível incluindo detalhes específicos, restrições e limites. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de chamada gratuito.
   
@@ -44,30 +40,30 @@ Se você estiver pronto, selecione um país ou região:
 > [!div class="op_single_selector"]    
 > - [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 > - [Australia]toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
-> - [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+> - [Bielorrússia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 > - [Bósnia e Herzegovina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 > - [Brasil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 > - [Brunei](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [Bulgária](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
 > - [Chile](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
-> - [China (Norte)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
-> - [China (Sul)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
+> - [China (norte)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
+> - [China (sul)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
 > - [Colômbia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-columbia.md)
-> - [Croácia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
+> - [Croácia ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-croatia.md)
 > - [Chipre](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-cyprus.md)
 > - [Dinamarca](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-denmark.md)
-> - [Equador](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md)
+> - [Equador ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ecuador.md)
 > - [Egito](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-egypt.md)
 > - [Estônia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-estonia.md)
-> - [Finlândia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md)
-> - [França](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
-> - [Alemanha](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
+> - [Finlândia ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-finland.md)
+> - [França ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
+> - [Alemanha ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [Honduras](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
 > - [Hong-Kong](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [Hungria](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
-> - [Índia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
-> - [Indonésia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
+> - [Índia ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
+> - [Indonésia ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 > - [Irlanda](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 > - [Israel](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
 > - [Japão](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
@@ -76,11 +72,11 @@ Se você estiver pronto, selecione um país ou região:
 > - [Malásia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 > - [México](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
 > - [Moldova](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
-> - [Mônaco](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
+> - [Mônaco ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
 > - [Países Baixos](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md)
 > - [Panamá](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md)
 > - [Paraguai](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-paraguay.md)
-> - [Peru](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md)
+> - [Peru ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-peru.md)
 > - [Filipinas](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-philippines.md)
 > - [Polônia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md)
 > - [Portugal](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md)
@@ -88,7 +84,7 @@ Se você estiver pronto, selecione um país ou região:
 > - [Romênia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md)
 > - [Arábia Saudita](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md)
 > - [Sérvia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md)
-> - [Cingapura](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md)
+> - [Singapura](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md)
 > - [Eslováquia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovakia.md)
 > - [Eslovênia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 > - [África do Sul](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
@@ -100,9 +96,9 @@ Se você estiver pronto, selecione um país ou região:
 > - [Turquia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
 > - [Emirados Árabes Unidos (EAU)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [Reino Unido](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
-> - [Uruguai](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
+> - [Uruguai ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [Venezuela](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
-> - [Vietnã](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
+> - [Vietnã ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
   
 ## <a name="here-are-some-important-things-for-you-to-remember-about-toll-free-numbers"></a>Aqui estão algumas coisas importantes de lembrar sobre números de Chamada Tarifada livre:
 

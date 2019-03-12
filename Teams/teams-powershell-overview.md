@@ -1,22 +1,25 @@
 ---
-title: Visão Geral do PowerShell do Teams
+title: Visão geral do PowerShell equipes
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
 ms.topic: article
 ms.service: msteams
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: Saiba como usar os controles do PowerShell para gerenciar Teams da Microsoft.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45714418f123022bc3545d4923bd18fc71bad746
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 68dbd84c93e34d79d29c75ce7c3ad98934227432
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754539"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543219"
 ---
-# <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
+# <a name="teams-powershell-overview"></a>Visão geral do PowerShell equipes
 
 Microsoft Teams tem um rico conjunto de ferramentas para administradores de TI gerenciar o produto através do Centro de administração do Microsoft Teams, controles do PowerShell e APIs do gráfico. Este guia explica como podemos estruturar nossos cmdlets do PowerShell para administradores de TI ser usado e fornece ponteiros a documentação adicional. Observe que as diferentes funções de administrador de equipes têm acesso aos cmdlets diferentes. Para obter mais informações, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
 

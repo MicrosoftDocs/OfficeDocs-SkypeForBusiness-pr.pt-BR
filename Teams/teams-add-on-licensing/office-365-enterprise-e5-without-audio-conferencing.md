@@ -1,10 +1,10 @@
 ---
-title: Office 365 Enterprise E5 (sem audioconferência)
+title: E5 do Office 365 Enterprise (sem serviços de audioconferência)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre recursos e licenças de complemento e como comprar os planos do Office 365 Enterprise (sem audioconferência). '
-ms.openlocfilehash: b424b5d097f420b3a9fde7642c0f317ade6e92c8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bd78dd091cbe70517e5ea9ea8d6ca6a6becc25cf
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461816"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541628"
 ---
-# <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (sem audioconferência)
+# <a name="office-365-enterprise-e5-without-audio-conferencing"></a>E5 do Office 365 Enterprise (sem serviços de audioconferência)
 
 Se você já comprou o plano do Office 365 Enterprise E5 (sem conferência de áudio), aqui estão as licenças de complemento do Microsoft Teams que você precisará comprar para obter mais recursos.
 

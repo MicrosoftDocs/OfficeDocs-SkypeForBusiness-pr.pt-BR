@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre as políticas de permissão do aplicativo no Microsoft Teams e como usá-los para controlar quais aplicativos estão disponíveis para usuários em sua organização.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 47a4d3a444a0685e0a1ff568332bdc426752af4c
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 46a4cbd008db7dc742cd5cc3d22277d7535daa88
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30411377"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542227"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissão do aplicativo no Microsoft Teams
 
@@ -122,7 +125,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 Dependendo do número de membros no grupo, este comando pode levar alguns minutos para executar.
 
-## <a name="faq"></a>Perguntas Freqüentes
+## <a name="faq"></a>Perguntas frequentes
 
 ### <a name="working-with-app-permission-policies"></a>Como trabalhar com políticas de permissão de aplicativo
 

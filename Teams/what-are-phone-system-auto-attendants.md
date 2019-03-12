@@ -1,5 +1,5 @@
 ---
-title: O que são atendedores automáticos do Sistema de Telefonia?
+title: Cite atendedores automáticos de sistema telefônico.
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -12,8 +12,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -24,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba quais são os atendedores automáticos de sistema telefônico (nuvem PBX) e como usá-los.
-ms.openlocfilehash: 22136339b980779991170d0f072ec762b8c39c7a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 14499789287e23767429392f0c21b66d56372ac0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494201"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542275"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>O que são atendedores automáticos do Sistema de Telefonia?
+# <a name="what-are-phone-system-auto-attendants"></a>Cite atendedores automáticos de sistema telefônico.
 
 Sistema telefônico no Office 365 fornece atendedores automáticos, que podem ser usados para permitir que externo e internos chamadores mover através de um sistema de menu localizar e colocar ou transferir chamadas para usuários da empresa ou departamentos na organização.
   
@@ -266,4 +264,4 @@ Você pode obter mais informações sobre como fazer alterações nas configura�
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Exemplo de pequenos negócios - configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Exemplo de pequenas empresas - Configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)

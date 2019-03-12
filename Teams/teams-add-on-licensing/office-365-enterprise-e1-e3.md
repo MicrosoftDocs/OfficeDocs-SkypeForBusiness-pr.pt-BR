@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre como comprar o Office 365 Enterprise E1 e E3 planos, recursos e licenças de complemento. '
-ms.openlocfilehash: 552aaf7f9cc7970c8baa97ce183ada6d5eab26ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460680"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541420"
 ---
-# <a name="office-365-enterprise-e1-and-e3"></a>E3 e o office 365 Enterprise E1
+# <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 e E3
 
 Se você já comprou o plano do [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) ou [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) , aqui estão as licenças do complemento que você precisará comprar para obter mais recursos Teams da Microsoft.
 
@@ -34,7 +34,7 @@ Se você já comprou o plano do [Office 365 Enterprise E1](https://products.offi
 |:------------------|:--------------------------|
 |Audioconferência <br/> <br/> |Compre o **complemento de conferência de áudio**. <br/>Compre 1 licença de conferência de áudio para cada pessoa que irá agendar ou hospedar uma reunião discada. Os participantes não precisam de licenças.<br/> Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
 |Números de discagem gratuita para acesso de discagem para suas reuniões e a capacidade de discar a partir de uma reunião para adicionar alguém chamando qualquer número de telefone do mundo<br/> | Compre [créditos de comunicações](../add-funds-and-manage-communications-credits.md).|
-|Sistema de Telefonia <br/> |<ol><li>Compre o complemento de sistema de telefone do Office 365. </li><li>Compre um [plano de chamada](../calling-plans-for-office-365.md) para o Office 365.</li></ul>Ou, use o [serviço de telefonia do seu provedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|Sistema Telefônico <br/> |<ol><li>Compre o complemento de sistema de telefone do Office 365. </li><li>Compre um [plano de chamada](../calling-plans-for-office-365.md) para o Office 365.</li></ul>Ou, use o [serviço de telefonia do seu provedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Caixa postal do Sistema de Telefonia<br/> |Para planos de E1, compre o Exchange Online plano 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
 |Planos de Chamadas<br/> |<ol><li>Compre o complemento Sistema de Telefonia.</li><li>Comprar uma [Chamada planejar](../calling-plans-for-office-365.md): você pode comprar isso somente depois que você compra o complemento de **Sistema telefônico** .</li></ol> <br/> |
    

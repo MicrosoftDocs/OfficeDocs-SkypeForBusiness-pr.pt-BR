@@ -10,17 +10,20 @@ ms.service: msteams
 ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: Saiba como usar modelos de equipes para criar uma equipe com canais predefinidos.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97504dcc6fa1cd465eae7bf0ea151cdf36f525d2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: f16b851641de64813212bf67a83dbf9d7a05c043
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352638"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541636"
 ---
 # <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Microsoft Teams 
 

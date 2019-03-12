@@ -9,14 +9,17 @@ ms.assetid: ''
 ms.service: msteams
 ms.tgt_pltfrm: na
 ms.devlang: na
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: dearbeen
-ms.openlocfilehash: dd5b9a3955c3b647d9823c29d2d871800a144223
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 84d409f18fb6e6f4832ad4f5912f2b50fef05736
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532634"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540940"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -132,7 +135,7 @@ Saiba como gerenciar equipes para sua organização.
                     <div class="cardText">
                         <h3>Artigos</h3>
                         <p><a 
-                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configuração do Sistema de Telefonia na sua organização</a></p>
+                        href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configurar o Sistema de Telefonia em sua organização</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>
                     </div>
                 </div>

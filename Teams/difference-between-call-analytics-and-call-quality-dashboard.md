@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Saiba mais sobre a análise de chamada e painel de controle de qualidade de chamada e quando usá-los para monitorar e solucionar problemas de qualidade da chamada.
-ms.openlocfilehash: e8c9331a26caf5e2fe4cb618ac896393d35939ba
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460848"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543003"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análise de Chamada e Painel de Qualidade de Chamadas
 
@@ -44,7 +42,7 @@ Análise de chamada mostra informações detalhadas sobre os dispositivos, redes
 
 Para ver essas informações para um usuário no Centro de administração do Microsoft Teams, clique na guia **Histórico de chamadas** para esse usuário na página de detalhes do usuário, mostrando todas as chamadas e reuniões que o usuário tem participou nos últimos 30 dias.
 
-![Chame a análise de dados do usuário.](media/call-analytics-user-data.png)
+![Chame a análise de dados do usuário.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Para obter informações adicionais sobre uma determinada sessão, incluindo mídia detalhadas e estatísticas de rede, clique em uma sessão para ver os detalhes.
 
@@ -76,7 +74,7 @@ Talvez a qualidade de chamadas ruins do usuário é devido a um problema de rede
 
 Com a Ajuda do CQD Location-Enhanced relatórios, a qualidade da chamada agregação e a confiabilidade dentro de construção do usuário podem ser avaliadas para determinar se o problema é isolado a um único usuário ou que afeta um segmento maior de usuários.
 
-![Captura de tela de relatórios de localização avançada do painel de qualidade de chamada. Guias mostradas são Overview, prédios - com fio, prédios - WiFi e Mobile (LTE). Um filtro está sendo aplicado para exibir os fluxos de um edifício específico.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
+![Captura de tela de relatórios de localização avançada do painel de qualidade de chamada. Guias mostradas são Overview, prédios - com fio, prédios - WiFi e Mobile (LTE). Um filtro está sendo aplicado para exibir os fluxos de um edifício específico.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > Para habilitar os modos de exibição de construção específicos no CQD, um administrador deve [carregar as informações de construção](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) na página de carregamento de dados de Inquilino do CQD.

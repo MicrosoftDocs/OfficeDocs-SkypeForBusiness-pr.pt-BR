@@ -7,9 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
@@ -31,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. '
-ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459344"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542251"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -72,7 +70,7 @@ Para obter mais informações, consulte [Cite Communications créditos?](what-ar
 
 Você pode ver os planos e preços do visitando um dos seguintes links:
   
-- [Planos de Chamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
+- [Planos de chamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
 - [Planos de serviços de audioconferência](https://go.microsoft.com/fwlink/?LinkId=799762 )
     

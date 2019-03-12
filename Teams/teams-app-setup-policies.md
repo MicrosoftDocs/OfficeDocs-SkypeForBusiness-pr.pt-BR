@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativo no Microsoft Teams e como usá-los para aplicativos de pin para personalizar as equipes para usuários em sua organização.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302685"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541820"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -45,7 +48,7 @@ Você pode editar as configurações na política global para incluir os aplicat
 
 ## <a name="create-a-custom-app-setup-policy"></a>Criar uma política de instalação do aplicativo personalizado
 
-Você pode usar o Centro de administração do Microsoft Teams ou o Windows PowerShell para criar uma política personalizada.
+Você pode usar o Centro de administração do Microsoft Teams para criar uma política personalizada.
 
 1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de configuração de aplicativo**.
 2. Selecione **nova política**.
@@ -102,7 +105,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 ``` 
 Dependendo do número de membros no grupo, este comando pode levar alguns minutos para executar.
 
-## <a name="faq"></a>Perguntas Freqüentes
+## <a name="faq"></a>Perguntas frequentes
 
 ### <a name="working-with-app-setup-policies"></a>Como trabalhar com políticas de configuração de aplicativo
 

@@ -1,10 +1,10 @@
 ---
-title: Introdução ao modelos de equipes para as organizações de saúde
+title: Introdução aos modelos do Teams para Organizações de Assistência Médica
 author: jambirk
 ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introdução ao modelos de equipes para as organizações de saúde
-ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+description: Introdução aos modelos do Teams para Organizações de Assistência Médica
+ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408279"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541660"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução ao modelos de equipes para as organizações de saúde
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Assistência Médica
 
 Modelos de Teams da Microsoft permitem que você rapidamente e criar facilmente equipes, fornecendo um modelo predefinido de configurações, canais e pré-instaladas apps.
 

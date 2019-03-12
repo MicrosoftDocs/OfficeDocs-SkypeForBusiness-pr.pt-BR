@@ -1,5 +1,5 @@
 ---
-title: Configurar os atendedores automáticos do Sistema de Telefonia
+title: Configurar os atendedores automáticos do Sistema Telefônico
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar os atendedores automáticos de sistema telefônico (nuvem PBX) para eficiente tratamento de chamadas para sua organização.
-ms.openlocfilehash: f055a6851610bc2071e1705a4b5739544c5d72bd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353294"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542315"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar os atendedores automáticos do Sistema de Telefonia
+# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar os atendedores automáticos do Sistema Telefônico
 
 Atendedores automáticos permitem que as pessoas que ligam para sua organização e navegue para conectá-los ao departamento direita, chame a fila, pessoa ou o operador de um sistema de menus. Você pode criar um atendedor automático para sua organização usando o Centro de administração do Microsoft Teams. Para criar um novo atendedor automático, vá para **voz** no painel de navegação esquerdo e selecione **atendedores automáticos** > **Adicionar novo**.
 
@@ -365,12 +363,12 @@ Veja os cmdlets necessários para gerenciar um atendedor automático.
 
 [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Obter números de telefones de serviço](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Obter números de telefone de serviço](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilidade de audioconferência e planos de chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 
-[Exemplo de pequenos negócios - configurar um atendedor automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[Exemplo de pequenas empresas - Configurar um atendedor automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  

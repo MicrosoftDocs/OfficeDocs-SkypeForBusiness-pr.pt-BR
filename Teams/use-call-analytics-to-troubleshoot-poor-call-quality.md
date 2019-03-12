@@ -8,9 +8,7 @@ ms.date: 03/08/2019
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -26,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Use os detalhes de chamada análise sobre dispositivos, redes e conectividade para solucionar problemas de usuário com o Microsoft Teams e Skype para reuniões e chamadas comerciais.
-ms.openlocfilehash: b020ae52b9cb7906484c6a0a5403e626ebab68a8
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494233"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543179"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
@@ -86,8 +84,8 @@ Para sessões de áudio que tenham dados qualidade da experiência (QoE), a tabe
   
 |**Problema**|**Área**|**Descrição**|
 |:-----|:-----|:-----|
-|Configuração da chamada  <br/> |Sessão  <br/> |O código de erro 20-29 Ms-diagnóstico indica que a instalação chamada falhou. O usuário não pôde ingressar na chamada ou a reunião.  <br/> |
-|Rede de áudio classificadas chamadas ruins  <br/> |Sessão  <br/> |Problemas de qualidade de rede (por exemplo, tremulação, perda de pacotes, degradação NMOS, tempo de resposta ou proporção escondida) foram encontrados. Para obter mais informações sobre as condições usado para classificar as chamadas de baixa, consulte esta [postagem de blog da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|Configuração da chamada  <br/> |Session  <br/> |O código de erro 20-29 Ms-diagnóstico indica que a instalação chamada falhou. O usuário não pôde ingressar na chamada ou a reunião.  <br/> |
+|Rede de áudio classificadas chamadas ruins  <br/> |Session  <br/> |Problemas de qualidade de rede (por exemplo, tremulação, perda de pacotes, degradação NMOS, tempo de resposta ou proporção escondida) foram encontrados. Para obter mais informações sobre as condições usado para classificar as chamadas de baixa, consulte esta [postagem de blog da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
 |Dispositivo não funcionando  <br/> |Dispositivo  <br/> | Um dispositivo não está funcionando corretamente. Dispositivo não funcionando taxas é: <br/>  Gt _ de DeviceRenderNotFunctioningEventRatio = 0,005 <br/>  Gt _ de DeviceCaptureNotFunctioningEventRatio = 0,005 <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados

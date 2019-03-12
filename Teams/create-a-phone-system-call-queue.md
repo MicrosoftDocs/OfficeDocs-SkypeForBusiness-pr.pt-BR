@@ -1,5 +1,5 @@
 ---
-title: Criar uma fila de chamada do Sistema de Telefonia
+title: Criar uma fila de chamada no Sistema Telefônico
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 59054c1d73e002065db00ff1045ed8453fafa929
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 3ac506f62f7b6dad35b9b1ec04fe2ffe2d612061
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351686"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543043"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada do Sistema de Telefonia
+# <a name="create-a-phone-system-call-queue"></a>Criar uma fila de chamada no Sistema Telefônico
 
 Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
   
@@ -322,8 +320,8 @@ Veja os cmdlets necessários para gerenciar uma fila de chamadas.
 
 [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Obter números de telefones de serviço](/Skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Obter números de telefone de serviço](/Skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[Disponibilidade de audioconferência e planos de chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
