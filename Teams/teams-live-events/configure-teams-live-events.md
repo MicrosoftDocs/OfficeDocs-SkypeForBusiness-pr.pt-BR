@@ -3,7 +3,7 @@ title: Configurar eventos ao vivo no Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 03/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -16,12 +16,12 @@ description: Saiba como gerenciar configurações para eventos ao vivo de equipe
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a167e8a929f2011ccaa773cd04d4e0ca6a2a0e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463664"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542835"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -82,6 +82,6 @@ Para obter mais informações, consulte [Set-CsTeamsMeetingBroadcastConfiguratio
 > Se você planeja criar eventos ao vivo que usam codificadores externos, você também precisará [configurar seu provedor de eCDN com Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Tópicos relacionados
-- [Quais são as equipes live eventos?](what-are-teams-live-events.md)
-- [Planejamento de eventos ao vivo de equipes](plan-for-teams-live-events.md)
-- [Configurar para equipes eventos ao vivo](set-up-for-teams-live-events.md)
+- [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)
+- [Planejar eventos ao vivo do Teams](plan-for-teams-live-events.md)
+- [Configurar eventos ao vivo do Teams](set-up-for-teams-live-events.md)

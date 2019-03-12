@@ -3,7 +3,7 @@ title: Relatório de atividades do usuário do Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Saiba como usar o relatório de atividades do usuário de equipes no Centro de administração do Microsoft Teams para ver como os usuários em sua organização estiver usando equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa13ee11b9a622461e501a1b004be5ff54e8cf0b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 671f3cd5632712a9bc5cc08e15c04023a33ec052
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459960"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542627"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
@@ -50,5 +50,5 @@ O relatório de atividades do usuário de equipes oferece ideias sobre os tipos 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Análise de equipes e relatórios](teams-reporting-reference.md)
-- [Relatório de uso de equipes](teams-usage-report.md)
-- [Relatório de uso do dispositivo de equipes](device-usage-report.md)
+- [Relatório de uso do Teams](teams-usage-report.md)
+- [Relatório de uso de dispositivos do Teams](device-usage-report.md)

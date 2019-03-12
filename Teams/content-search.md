@@ -3,7 +3,6 @@ title: Usar a pesquisa de conteúdo no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -11,27 +10,29 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
-description: Conheça a pesquisa de conteúdo do Microsoft Teams e saiba como pesquisar em bate-papos dos canais no Exchange, atualizações/modificações de arquivos no SharePoint e no OneNote.
+description: Saiba mais sobre a pesquisa de conteúdo no Microsoft Teams e como pesquisar contra as conversas de canal do Exchange, carregamentos de arquivos e modificações do SharePoint e altera o OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3435d43fde6cd0ca2a0948ad5d34c467ea2e0863
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1860f3e5f79cd1ff2a2a63a8b49bf0dcfd65638f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460984"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540612"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar a pesquisa de conteúdo no Microsoft Teams
 =====================================
 
 A pesquisa de conteúdo oferece uma forma ad-hoc de consultar informações do Microsoft Teams que abrangem o Exchange, o SharePoint Online e o OneDrive for Business.
 
-No exemplo abaixo, criamos uma nova **Pesquisa de conteúdo**. Então, selecionamos a caixa de correio de Especificações de Fabricação e do site SharePoint de Especificações de Fabricação. Isso nos permite pesquisar em bate-papos dos canais no Exchange, atualizações/modificações de arquivos no SharePoint e alterações no OneNote também.
+Para saber mais, leia a [Pesquisa de conteúdo no Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-![Captura de tela da Nova caixa de diálogo de pesquisa.](media/Use_Content_Search_in_Microsoft_Teams_image1.png)
+Por exemplo, usando a **Pesquisa de conteúdo** em relação a sua caixa de correio de especificações de fabricação e o site do SharePoint de especificações de fabricação, você pode pesquisar contra as conversas de canal de equipes do Exchange, carregamentos de arquivos e modificações do SharePoint Online e do OneNote alterações.
 
-Você também pode adicionar critérios de consulta na **Pesquisa de conteúdo** para restringir os resultados retornados. Por exemplo, abaixo desejávamos pesquisar as localidades do Exchange e do SharePoint da equipe de Especificações de Fabricação para buscar conteúdos em que as palavras-chave “**Especificações da nova fábrica”** tenham sido utilizadas.
+Você também pode adicionar critérios de consulta na **Pesquisa de conteúdo** para restringir os resultados retornados. No exemplo acima, você pode procurar por conteúdo onde as palavras-chave "**novas especificações de fábrica"** foram usados.
 
-![Captura de tela da caixa de diálogo de Consulta com uma pesquisa por palavra-chave em andamento.](media/Use_Content_Search_in_Microsoft_Teams_image2.png)
+> [!TIP]
+> Depois de adicionar condições de pesquisa, você pode exportar um relatório ou os dados para seu computador para análise.
 
-Após adicionar as condições de pesquisa que você deveria escolher, você pode exportar um relatório ou os dados para analisar no seu computador. Para obter mais informações sobre como utilizar a Pesquisa de conteúdo, consulte [este link](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
+## <a name="related-topics"></a>Tópicos relacionados
+[casos de descoberta eletrônica no Centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

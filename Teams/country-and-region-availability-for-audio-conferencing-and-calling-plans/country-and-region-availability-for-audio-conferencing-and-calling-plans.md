@@ -5,14 +5,12 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -27,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a Audioconferência, o Sistema de Telefonia, os Planos de Chamadas, os Créditos de Comunicação e se os números de telefone de chamada tarifada e gratuita estão disponíveis.
-ms.openlocfilehash: a84ade55bc05f5fa1ac97cb291a9c43ef64552c3
-ms.sourcegitcommit: 310354297b8e8fb4e7426fd91f179253eaf4af7e
+ms.openlocfilehash: accdefde4fa94b9a0526938bd64ec5171810d36e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "30364482"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542899"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região
 
@@ -43,10 +41,10 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 > [!div class="op_single_selector"]    
 > - [Argentina](availability-in-argentina.md)
 > - [Austrália](availability-in-australia.md)
-> - [Áustria](availability-in-austria.md)
+> - [Áustria ](availability-in-austria.md)
 > - [Bahrein](availability-in-bahrain.md)
-> - [Belarus](availability-in-belarus.md)
-> - [Bélgica](availability-in-belgium.md)
+> - [Bielorrússia ](availability-in-belarus.md)
+> - [Bélgica ](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Bósnia e Herzegovina](availability-in-bosniaherzegovina.md)
 > - [Brasil](availability-in-brazil.md)
@@ -57,25 +55,25 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 > - [China](availability-in-china.md)
 > - [Colômbia](availability-in-colombia.md)
 > - [Costa Rica](availability-in-costa-rica.md)
-> - [Croácia](availability-in-croatia.md)
+> - [Croácia ](availability-in-croatia.md)
 > - [Chipre](availability-in-cyprus.md)
 > - [República Tcheca](availability-in-the-czech-republic.md)
 > - [Dinamarca](availability-in-denmark.md)
 > - [República Dominicana](availability-in-the-dominican-republic.md)
-> - [Equador](availability-in-ecuador.md)
+> - [Equador ](availability-in-ecuador.md)
 > - [Egito](availability-in-egypt.md)
 > - [El Salvador](availability-in-el-salvador.md)
 > - [Estônia](availability-in-estonia.md)
-> - [Finlândia](availability-in-finland.md)
-> - [França](availability-in-france.md)
+> - [Finlândia ](availability-in-finland.md)
+> - [França ](availability-in-france.md)
 > - [Geórgia](availability-in-georgia.md)
-> - [Alemanha](availability-in-germany.md)
+> - [Alemanha ](availability-in-germany.md)
 > - [Grécia](availability-in-greece.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong-Kong](availability-in-hong-kong.md)
 > - [Hungria](availability-in-hungary.md)
-> - [Índia](availability-in-india.md)
-> - [Indonésia](availability-in-indonesia.md)
+> - [Índia ](availability-in-india.md)
+> - [Indonésia ](availability-in-indonesia.md)
 > - [Irlanda](availability-in-ireland.md)
 > - [Israel](availability-in-israel.md)
 > - [Itália](availability-in-italy.md)
@@ -83,31 +81,31 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 > - [Jordânia](availability-in-jordan.md)
 > - [Quênia](availability-in-kenya.md)
 > - [Letônia](availability-in-latvia.md)
-> - [Lituânia](availability-in-lithuania.md)
+> - [Lituânia ](availability-in-lithuania.md)
 > - [Luxemburgo](availability-in-luxembourg.md)
-> - [Macedônia](availability-in-macedonia.md)
+> - [Macedônia (ARIM)](availability-in-macedonia.md)
 > - [Malásia](availability-in-malaysia.md)
 > - [Malta](availability-in-malta.md)
 > - [México](availability-in-mexico.md)
 > - [Moldova](availability-in-moldova.md)
-> - [Mônaco](availability-in-monaco.md)
+> - [Mônaco ](availability-in-monaco.md)
 > - [Países Baixos](availability-in-the-netherlands.md)
 > - [Nova Zelândia](availability-in-new-zealand.md)
 > - [Noruega](availability-in-norway.md)
-> - [Paquistão](availability-in-pakistan.md)
+> - [Paquistão ](availability-in-pakistan.md)
 > - [Panamá](availability-in-panama.md)
 > - [Paraguai](availability-in-paraguay.md)
-> - [Peru](availability-in-peru.md)
+> - [Peru ](availability-in-peru.md)
 > - [Filipinas](availability-in-the-philippines.md)
 > - [Polônia](availability-in-poland.md)
 > - [Portugal](availability-in-portugal.md)
 > - [Porto Rico](availability-in-puerto-rico.md)
 > - [Catar](availability-in-qatar.md)
 > - [Romênia](availability-in-romania.md)
-> - [Rússia](availability-in-russia.md)
+> - [Rússia ](availability-in-russia.md)
 > - [Arábia Saudita](availability-in-saudi-arabia.md)
 > - [Sérvia](availability-in-serbia.md)
-> - [Cingapura](availability-in-singapore.md)
+> - [Singapura](availability-in-singapore.md)
 > - [Eslováquia](availability-in-slovakia.md)
 > - [Eslovênia](availability-in-slovenia.md)
 > - [África do Sul](availability-in-south-africa.md)
@@ -124,9 +122,9 @@ Você pode selecionar um país ou região para ver quais recursos de voz de nuve
 > - [Emirados Árabes Unidos (EAU)](availability-in-the-united-arab-emirates-uae.md)
 > - [Reino Unido](availability-in-the-united-kingdom-u-k.md)
 > - [Estados Unidos](availability-in-the-united-states-u-s.md)
-> - [Uruguai](availability-in-uruguay.md)
+> - [Uruguai ](availability-in-uruguay.md)
 > - [Venezuela](availability-in-venezuela.md)
-> - [Vietnã](availability-in-vietnam.md)
+> - [Vietnã ](availability-in-vietnam.md)
 
 **Se você estiver procurando por uma planilha com todos os países e regiões, baixar e salvar a [planilha de disponibilidade nuvem voz recurso país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
 

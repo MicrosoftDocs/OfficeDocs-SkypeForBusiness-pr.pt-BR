@@ -1,10 +1,10 @@
 ---
-title: GOV, EDU e instituições sem fins lucrativos
+title: GOV, EDU e organizações sem fins lucrativos
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças complementares e recursos para planos de organizações GOV, EDU e sem fins lucrativos. '
-ms.openlocfilehash: 503afdff3cdcb8c19014a5055c402436091b6c70
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f2afc5b36d15f0b420cd8cdf7ce545dd78a5a941
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459632"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542675"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU e instituições sem fins lucrativos
+# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU e organizações sem fins lucrativos
 
 A maioria dos recursos de equipes estão disponíveis nos governo, educação e organizações sem fins lucrativos. Consulte a tabela a seguir para obter detalhes.
 

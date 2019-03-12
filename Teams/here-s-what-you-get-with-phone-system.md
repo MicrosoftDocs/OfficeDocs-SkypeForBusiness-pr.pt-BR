@@ -7,14 +7,11 @@ msreviewer: jastarck, makolomi
 ms.topic: article
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120896"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542915"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -54,7 +51,7 @@ Usando o sistema telefônico, seu Skype para usuários comerciais receberá os s
 |Chamada em espera/recuperar  <br/> | Use quando várias chamadas ocorrerem ao mesmo tempo. Quando você atender ou fizer outra chamada, a chamada atual ficará em modo de espera automaticamente. <br/> |
 |[Transferir uma chamada do Skype for Business](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfira chamadas para outra pessoa. Ou, se você precisar sair do escritório mas quiser continuar a conversa, você pode transferir as chamadas do seu telefone IP ou PC para seu telefone celular ou tablet.  <br/> |
 |ID do Chamador  <br/> |Chamadas de dentro da empresa exibem uma ID de chamada que obtém as informações do diretório corporativo, mostrando a foto e o cargo, em vez de apenas um número de telefone.  <br/> |
-|[Criar uma fila de chamadas do Sistema de Telefonia](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera.  <br/> |
+|[Criar uma fila de chamada no Sistema Telefônico](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Telefonema de sistema filas incluem saudações que são usadas quando alguém chama um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de pesquisar para o próximo operador chamada disponíveis lidar com a chamada enquanto as pessoas que chamada está escutando a música em espera.  <br/> |
 |[Diga-me quando o status de alguém mudar](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Esse recurso permite que você marque pessoas que estão atualmente indisponíveis. Assim, você receberá uma notificação quando uma dessas pessoas estiver pronta para receber telefonemas. <br/> |
 |Clientes para PC, Mac e Mobile  <br/> | Isso lhe discando recursos em dispositivos, tablets e celulares PCs e telefones de mesa IP. <br/> |
 |Alternância de dispositivo  <br/> |Habilita você a fazer a chamada ou reunião em outro dispositivo.  <br/> |
