@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Ofereça aos usuários do Microsoft Teams uma experiência de qualidade com o gerenciamento da integridade do serviço, da rede e dos pontos de extremidade e a definição de funções operacionais e defensor da qualidade.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b17157178f8e7565fd6f484d6d95262c76ce05
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5aba748798870193e615eea56331f15cf0aaa530
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25015577"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462024"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Planejar o gerenciamento e a qualidade do serviço
 
@@ -204,7 +206,7 @@ A configuração necessária para contornar o servidor proxy varia de um fornece
 
 Alguns fornecedores de servidores proxy oferecem um processo automatizado para garantir que a configuração esteja atualizada. Se o seu fornecedor não oferece esse processo automático, você pode baixar um arquivo PAC atualizado em <https://aka.ms/o365proxies>.
 
-[Servidores proxy para o Skype for Business Online e o Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)
+[Servidores Proxy para Teams ou Skype for Business Online](proxy-servers-for-skype-for-business-online.md)
 
 #### <a name="firewalls"></a>Firewalls
 
@@ -216,7 +218,7 @@ Devido a sua natureza com estado, o TCP não é preferencial para mídia em temp
 
 Todas as orientações para abrir o firewall para o Microsoft Teams estão disponíveis no artigo [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips).
 
-Depois que o firewall for aberto, você poderá usar a [Microsoft Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) para confirmar a conectividade para funcionalidades de voz em nuvem.
+Depois que o firewall for aberto, você poderá usar a  [Ferramenta de Avaliação Rede da Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para confirmar a conectividade para funcionalidades de voz em nuvem.
 
 > [!IMPORTANT]
 > Os IPs e as URLs do Microsoft Office 365 serão alterados ao longo do tempo. Como parte do planejamento do gerenciamento do serviço, é importante garantir que um processo operacional esteja funcionando e que um grupo seja responsável pelo monitoramento de [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips) e por fazer as atualizações necessárias.
@@ -343,10 +345,10 @@ Esta tabela inclui um resumo das atividades de planejamento com links para o con
 | | Implementar a VPN de túnel dividido | [Orientações de túnel dividido de VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
 | | Otimizar redes Wi-Fi para mídia em tempo real  | Consultar fornecedores terceirizados |
 | | Implementar a saída para a Internet local | [Saída para a Internet local](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | Implementar a conectividade de rede <br/> Validar a conectividade de rede | [URLs e endereços IP do Office 365](https://aka.ms/o365ips) |
+| | Implementar a conectividade de rede <br/> Validar conectividade de rede | [URLs e endereços IP do Office 365](https://aka.ms/o365ips) |
 | | | [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) |
 | | Realizar a avaliação da rede | [Avaliação da preparação da rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
 | Planejar a qualidade dos pontos de extremidade | Atualizar os firewalls de ponto de extremidade | [URLs e endereços IP do Office 365](https://aka.ms/o365ips) |
-| | Validar os requisitos de software | [Obter clientes do Microsoft Teams](get-clients.md) |
+| | Validar os requisitos de software | [Obter clientes para o Microsoft Teams](get-clients.md) |
 | | Implementar as recomendações de Wi-Fi para pontos de extremidade | Consultar fornecedores terceirizados |
 | | Realizar o mapeamento entre personas e dispositivos <br/> Provisionar dispositivos e realizar o piloto com eles | [Cliente e dispositivos - workshop de preparação](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catálogo de dispositivos](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
