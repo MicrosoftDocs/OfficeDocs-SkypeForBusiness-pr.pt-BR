@@ -1,10 +1,10 @@
 ---
-title: Avaliar o seu ambiente para cargas de trabalho de voz de nuvem Teams da Microsoft
+title: Avalie seu ambiente para as cargas de trabalho do cloud voice do Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29bfd87d860cc68b988e365a77f28eed8fa9e2f5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c092904151ac0a05536a52a9ee8b475c9264a21a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459089"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568533"
 ---
-# <a name="evaluate-my-environment"></a>Avaliar o meu ambiente
+# <a name="evaluate-my-environment"></a>Avaliar meu ambiente
 
 Este artigo fornece uma visão geral dos requisitos de adequadamente avaliando o ambiente atual para o uso de serviços de nuvem de voz. Avaliando seu ambiente, você pode identificar os riscos e os requisitos que influenciam a sua implantação de voz de nuvem geral. Identificando antecipadamente desses itens, você pode ajustar seu planejamento para o sucesso da unidade.
 
@@ -109,22 +109,22 @@ A primeira etapa para a preparação da rede é garantir que sua rede tenha larg
 
 Você iniciar o seu planejamento de jornada para equipes do [Supervisor de meu site](https://myadvisor.fasttrack.microsoft.com/) usando Planejador de rede de largura de banda. Planejador de rede fornece largura de banda de cada site de planejamento para equipes e oferece recomendações para otimizar o desempenho da rede.
 
-### <a name="local-internet-egress"></a>Saída local de internet
+### <a name="local-internet-egress"></a>Saída para a Internet local
 
-Muitas redes foram projetados para usar um hub e spoke de topologia. Nessa topologia, o tráfego da internet geralmente percorre WAN com um datacenter central antes de ele surge (egresses) para a internet. Normalmente, isso é feito para centralizar dispositivos de segurança de rede com o objetivo de reduzir o custo total.
+Muitas redes foram projetadas para usar uma topologia hub-spoke. Nessa topologia, normalmente o tráfego da Internet percorre a WAN até um data center central antes de exteriorizar-se (sair) na Internet. Muitas vezes, isso é feito para centralizar os dispositivos de segurança de rede a fim de reduzir o custo total.
 
-Tráfego de back-puxar pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como Teams Microsoft opera em uma rede grande de global da Microsoft, geralmente há um local de rede aos e está perto do usuário. Um usuário provavelmente receberá um melhor desempenho por egressing sem um ponto de internet local e está perto do seu local e em nossa rede de voz-otimizado assim que possível. Para algumas cargas de trabalho, as solicitações de DNS são usadas para enviar o tráfego para o mais próximo do servidor front-end. Nesses casos, é importante que, ao usar um ponto de saída local, ele é emparelhado com resolução DNS local.
+O tráfego de retorno pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como o Microsoft Teams é executado na ampla rede global da Microsoft, frequentemente há um local de emparelhamento de rede perto do usuário. O usuário provavelmente terá melhor desempenho ao sair de um ponto de Internet local próximo de sua localização e entrar em nossa rede com otimização de voz assim que possível. Para algumas cargas de trabalho, solicitações DNS são usadas para enviar o tráfego para o servidor front-end mais próximo. Nesses casos, é importante que, ao usar um ponto de saída local, ele esteja emparelhado com a resolução de DNS local.
 
-Otimizar o caminho de rede para a rede global da Microsoft, melhorar o desempenho e basicamente oferecer a melhor experiência para usuários. Para obter mais detalhes, consulte o blog postar [Obtendo o melhor conectividade e desempenho no Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+A otimização do caminho de rede para a rede global da Microsoft melhorará o desempenho e, em última instância, oferecerá a melhor experiência para os usuários. Para obter mais detalhes, consulte a postagem no blog [Como obter a melhor conectividade e desempenho no Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 ### <a name="vpn"></a>VPN
 
-VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, eles estão geralmente não projetados ou configurados para oferecer suporte a mídia em tempo real. Alguns VPNs também podem não suportar UDP. VPNs também introduzem uma camada adicional de criptografia, na parte superior de tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço de equipes talvez não seja eficiente devido ao tráfego de fixação de forma por meio de um dispositivo VPN.
+As VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, eles estão geralmente não projetados ou configurados para oferecer suporte a mídia em tempo real. Algumas VPNs também podem não dar suporte ao UDP. VPNs também introduzem uma camada adicional de criptografia, na parte superior de tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço de equipes talvez não seja eficiente devido ao tráfego de fixação de forma por meio de um dispositivo VPN.
 Além disso, eles não são necessariamente projetados de uma perspectiva de capacidade para acomodar as cargas antecipadas que precisarão de equipes.
 
-A recomendação é fornecer um caminho alternativo que ignora a VPN para tráfego de equipes. Isso normalmente é conhecido como *divisão de túnel VPN*. Divida encapsulamento significa que o tráfego para o Office 365 não atravessa VPN, mas será levado diretamente para o Office 365. Essa alteração terá um impacto positivo na qualidade, mas também proporciona a vantagem secundária de reduzir a carga de dispositivos VPN e da rede da organização.
+A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Isso normalmente é conhecido como *divisão de túnel VPN*. Divida encapsulamento significa que o tráfego para o Office 365 não atravessa VPN, mas será levado diretamente para o Office 365. Essa alteração tem um impacto positivo sobre a qualidade, mas também apresenta um benefício secundário de reduzir a carga dos dispositivos de VPN e da rede da organização.
 
-Para implementar uma divisão de túnel, consulte o fornecedor VPN para ver os detalhes de configuração.
+Para implementar um túnel dividido, consulte o fornecedor da VPN para obter os detalhes de configuração.
 
 ### <a name="wi-fi"></a>Wi-Fi
 
@@ -132,15 +132,15 @@ Como o VPN, redes Wi-Fi não são necessariamente projetadas ou configuradas par
 
 Há vários fatores que entram em cena para otimizar uma rede Wi-Fi:
 
--   Implementação de QoS ou Wi-Fi WMM (multimídia) para garantir que o tráfego de mídia é obtendo priorizado adequadamente através das redes Wi-Fi.
+-   Implementar a QoS ou o Multimídia Wi-Fi (WMM) para garantir que o tráfego de mídia seja priorizado corretamente pelas redes Wi-Fi.
 
--   Posicionamento de ponto de planejamento e otimizando as faixas Wi-Fi e acesso. O intervalo de 2,4 GHz pode fornecer uma experiência adequada dependendo de posicionamento de ponto de acesso, mas os pontos de acesso geralmente são afetados por outros dispositivos de consumidor que operam nesse intervalo. O intervalo de 5 GHz é mais adequado à mídia em tempo real devido ao seu intervalo densidade, mas exige mais pontos de acesso para obter cobertura suficiente. Pontos de extremidade também precisam oferecer suporte a esse intervalo e ser configurado para aproveitar nessas faixas de acordo.
+-   Posicionamento de ponto de planejamento e otimizando as faixas Wi-Fi e acesso. O intervalo de 2,4 GHz pode fornecer uma experiência adequada, dependendo do posicionamento do ponto de acesso, mas muitas vezes os pontos de acesso são afetados por outros dispositivos do consumidor que funcionam naquele intervalo. O intervalo de 5 GHz é mais adequado para mídia em tempo real porque é mais denso, mas requer mais pontos de acesso para proporcionar cobertura suficiente. Os pontos de extremidade também precisam dar suporte àquele intervalo e ser configurados para utilizar essas bandas corretamente.
 
 -   Se forem implantados redes Wi-Fi de banda dupla, considere a implementação de direcionamento de banda. O direcionamento de banda é uma técnica implementada por fornecedores de Wi-Fi para influenciar a banda dupla aos clientes utilizarem o intervalo de 5 GHz.
 
 -   Quando os pontos de acesso no mesmo canal estiverem muito juntos, eles podem causar sobreposição de sinal e competem acidentalmente, resultando em uma experiência ruim para o usuário. Certifique-se de que os pontos de acesso que estão próximas umas das outras estão em canais que não se sobreponham.
 
-Fornecedor de cada sem fio tem seus próprio recomendações para a implantação de sua solução sem fio. Recomendamos que você consulte seu fornecedor para obter orientações específicas.
+Cada fornecedor de redes sem fio tem suas próprias recomendações de implantação da solução sem fio. Recomendamos que você consulte as orientações específicas do fornecedor.
 
 <!--ENDOFSECTION-->
 
@@ -214,7 +214,7 @@ Qualidade de serviço (QoS) pode ser usado para deficiências batalha priorizaç
 Para obter mais informações, consulte [Qualidade de serviço em equipes da Microsoft](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams).
 
 >[!NOTE]
->Muitas redes evoluem ao longo do tempo devido às atualizações, expansão ou outros requisitos de negócios. Certifique-se de que você tenha processos operacionais in-loco para manter nessas áreas como parte do seu planejamento de gerenciamento de serviço.
+>Muitas redes evoluem ao longo do tempo devido a atualizações, expansões ou outros requisitos empresariais. Verifique se você tem processos operacionais em vigor para manter essas áreas como parte do planejamento do gerenciamento do serviço.
 
 
 <table>

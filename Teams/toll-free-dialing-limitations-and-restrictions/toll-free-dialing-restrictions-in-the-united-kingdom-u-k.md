@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: e7704f87e079761ea25e329b4e0a5c2e94b0a633
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e9220490ddc4bbc894c877f773eb933dbdd20c32
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464576"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569443"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Restrições de discagem de chamada gratuita no Reino Unido (RU)
 

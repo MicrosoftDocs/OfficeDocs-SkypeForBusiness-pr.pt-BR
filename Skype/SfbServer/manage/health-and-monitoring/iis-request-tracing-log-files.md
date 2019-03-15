@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 'Resumo: Saiba mais sobre o serviço de mobilidade (Mcx) no Skype para Business Server 2015 suporte para clientes herdados.'
-ms.openlocfilehash: 5ed817290bdf86d11dd4a2cf0e95c83fb4c31d9a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 72d5dc8cafc0bbf0b33533d4548f2c7f1cd2d466
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983823"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226978"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Monitorando arquivos de log de rastreamento de solicitações de IIS no Skype for Business Server 2015
  
@@ -23,7 +23,7 @@ ms.locfileid: "20983823"
 Este tópico se aplica a implantações que oferecem suporte somente aos clientes do Lync 2010 Lync Mobile, e destina-se ao Serviço de Mobilidade (Mcx).
 
 > [!NOTE]
-> Suporte MCX para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Os usuários precisarem de atualização para um cliente atual.
+> Suporte MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Todos os Skype atual para clientes móveis do Business já use Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Usuários com clientes herdados usando MCX serão necessário atualizar para um cliente atual.
   
 Quando você habilita o rastreamento de solicitação de serviços de informações da Internet (IIS) para o Skype para serviço de mobilidade do Business Server (Mcx), os arquivos de log gerados podem consumir até três gigabytes de espaço em disco por dia. O registro em log do rastreamento IIS está habilitado por padrão. Você deve monitorar os servidores Front-End para certificar-se de que elas não são executadas sem espaço em disco. 
   

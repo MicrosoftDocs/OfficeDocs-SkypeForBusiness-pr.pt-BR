@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Skype para Business Online usa os tipos de número de telefone diferentes dependendo do objetivo para o qual você deseja usar o número de telefone.
-ms.openlocfilehash: 7d25c13aec53e441c2de5ecee4540cff074b599e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e2a05e44cfe064736d906ec83195e02f6026bf3d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542387"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569086"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de telefone utilizados para Planos de Chamadas
 

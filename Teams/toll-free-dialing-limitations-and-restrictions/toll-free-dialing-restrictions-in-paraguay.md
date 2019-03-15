@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 167a9d99-4df8-416a-a709-d76e101ae2fb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 3f661f816491d700e408c359957eee3615a3a82f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 414a1dccd5cacd3830365779e68c639f5940a06a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460136"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569810"
 ---
 # <a name="toll-free-dialing-restrictions-in-paraguay"></a>Restrições de discagem de chamada gratuita no Paraguai
 

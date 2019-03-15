@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba quais idiomas podem ser configurados no Skype for Business para as mensagens padrão do sistema. '
-ms.openlocfilehash: 69fd7350d9e79364fdd89bf6a5b5ac64b4bfe018
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542579"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569483"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas das mensagens e saudações da caixa postal
 
@@ -37,11 +37,14 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Idioma** <br/> |**País/região** <br/> |**Código do idioma** <br/> |**Disponível para visualização do usuário no email?** <br/> |**Disponível quando o usuário liga?** <br/> |**Transcrição disponível?** <br/> |
-|Catalão  <br/> |Catalão  <br/> |ca-ES  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Chinês (Simplificado)  <br/> |China  <br/> |zh-hans  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Árabe <br/> |Egito  <br/> |ar-EG  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
+|Catalão  <br/> |Catalão  <br/> |ca-ES  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Chinês (Simplificado)  <br/> |China  <br/> |zh-hans  <br/> |Sim   <br/> |Sim  <br/> |Sim   <br/> |
 |Chinês (Hong Kong)  <br/> |China  <br/> |zh-hk  <br/> |Sim, mas é usado o Chinês (Tradicional) (zh-hant).  <br/> | Sim <br/> |Sim, mas é usado o Chinês (Tradicional) (zh-hant).  <br/> |
 |Chinês (Tradicional)  <br/> |Taiwan  <br/> |zh-hant  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Dinamarquês  <br/> |Dinamarca  <br/> |da-DK  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Croata<br/> |Croácia  <br/> |hr-HR  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
+|Tcheco <br/> |República Tcheca  <br/> |cs-CZ  <br/> |Sim   <br/> |Sim  <br/> |Sim   <br/> |
+|Dinamarquês  <br/> |Dinamarca  <br/> |da-DK  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
 |Holandês  <br/> |Países Baixos  <br/> |nl-NL  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Inglês  <br/> |Austrália  <br/> |en-AU  <br/> |Sim, mas é usado o Inglês (Estados Unidos) (en-US).  <br/> |Sim  <br/> |Sim, mas é usado o Inglês (Estados Unidos) (en-US).  <br/> |
 |Inglês  <br/> |Canadá  <br/> |en-CA  <br/> |Sim, mas é usado o Inglês (Estados Unidos) (en-US).  <br/> |Sim  <br/> |Sim, mas é usado o Inglês (Estados Unidos) (en-US).  <br/> |
@@ -50,20 +53,28 @@ Para alter o idioma usado pelo Skype for Business nas saudações da caixa posta
 |Inglês  <br/> |Estados Unidos  <br/> |en-US  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
 |Finlandês  <br/> |Finlândia  <br/> |fi-Fl  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Francês  <br/> |Canadá  <br/> |fr-CA  <br/> |Sim, mas é usado o Francês (França) (fr-FR).  <br/> |Sim  <br/> |Sim, mas é usado o Francês (França) (fr-FR).  <br/> |
-|Francês  <br/> |França  <br/> |fr-FR  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Alemão  <br/> |Alemanha  <br/> |de-DE  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Francês  <br/> |França  <br/> |fr-FR  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
+|Alemão  <br/> |Alemanha  <br/> |de-DE  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
+|Grego <br/> |Grécia  <br/> |el-GR  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
+|Húngaro <br/> |Hungria  <br/> |hu-HU  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
+|Indonésio <br/> |Indonésia  <br/> |id-ID  <br/> |Sim   <br/> |Sim  <br/> |Sim  <br/> |
 |Italiano  <br/> |Itália  <br/> |it-IT  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Japonês  <br/> |Japão  <br/> |ja-JP  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Japonês  <br/> |Japão  <br/> |ja-JP  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |
 |Coreano  <br/> |Coreano  <br/> |ko-KR  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Norueguês (Bokmal)  <br/> |Noruega  <br/> |nb-NO  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Norueguês (Bokmal)  <br/> |Noruega  <br/> |nb-NO  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
 |Polonês  <br/> |Polônia  <br/> |pl-PL  <br/> |Sim  <br/> | Sim <br/> |Não  <br/> |
-|Português  <br/> |Brasil  <br/> |pt-BR  <br/> |Sim, mas é usado o Português (Portugal) (pt-PT).  <br/> |Sim  <br/> |Sim  <br/> |
-|Português  <br/> |Portugal  <br/> |pt-PT  <br/> |Sim  <br/> |Sim  <br/> |Sim, mas é usado o Português (Brasil) (pt-BR).  <br/> |
-|Russo  <br/> |Rússia  <br/> |ru-RU  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Português  <br/> |Brasil  <br/> |pt-BR  <br/> |Sim, mas é usado o Português (Portugal) (pt-PT).  <br/> |Sim   <br/> |Sim   <br/> |
+|Português  <br/> |Portugal  <br/> |pt-PT  <br/> |Sim   <br/> |Sim   <br/> |Sim, mas é usado o Português (Brasil) (pt-BR).  <br/> |
+|Romeno<br/> |Romênia  <br/> |ro-RO  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Russo  <br/> |Rússia  <br/> |ru-RU  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Eslovaco <br/> |Eslováquia  <br/> |sk-SK  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Esloveno <br/> |Eslovênia  <br/> |SL-SI  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Espanhol  <br/> |Espanha  <br/> |es-ES  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
 |Espanhol  <br/> |México  <br/> |es-MX  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |Sim  <br/> |Sim, mas é usado o Espanhol (Espanha) (es-ES).  <br/> |
-|Sueco  <br/> |Suécia  <br/> |sv-SE  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Sueco  <br/> |Suécia  <br/> |sv-SE  <br/> |Sim  <br/> |Sim   <br/> |Não  <br/> |
+|Tailandês <br/> |Tailândia  <br/> |th-TH  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Turco  <br/> |Turquia  <br/> |tr-TR  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Vietnamita <br/> |Vietnã  <br/> |vi-VN  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -29,16 +29,16 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Aprenda a pagar créditos de comunicação (consumo de PSTN) para Skype para serviços corporativos e consulte planos para manter os usuários com acesso ao sistema de telefone contínua. '
-ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542251"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569076"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
-Comunicações créditos são uma maneira conveniente de pagar por sistema telefônico e chamar planos no Office 365. Ajuda a garantir que você e seus usuários nunca são detectados sem ser capaz de:
+Comunicações créditos são uma maneira conveniente de pagar por sistema telefônico e chamar planos no Office 365. Créditos de comunicação ajuda a garantir que você e seus usuários nunca são detectados sem ser capaz de:
   
 - Discar para reuniões de conferência de áudio usando números de telefone de discagem gratuita.
     
@@ -78,13 +78,13 @@ Você pode ver os planos e preços do visitando um dos seguintes links:
     
 Você também pode ver informações entrando [no Centro de administração do Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e pretende **faturamento** > **assinaturas** > **Adicionar assinaturas**.
   
-Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com a licença ou licenças que são necessárias para cada recurso, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Configurar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Instalar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](set-up-phone-system-voicemail.md)
+- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](set-up-phone-system-voicemail.md)
     
 - [Configurar Planos de Chamadas](set-up-calling-plans.md) e [Planos de Chamadas para o Office 365](calling-plans-for-office-365.md)
         

@@ -3,7 +3,7 @@ title: Plano de adoção de usuário de equipes da Microsoft | Práticas recomen
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463272"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569970"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")
 
@@ -34,9 +34,9 @@ Tecnologia está inovando em um ritmo sem precedentes. Manter atual e a habilita
 
 O status da sua rede afeta a experiência do usuário. Quando um usuário possui uma experiência ruim (por exemplo, quedas de chamada ou retardo tempo ao ingressar em reuniões), eles correlacionam isso à tecnologia propriamente dito, deixá-las com a impressão de que a tecnologia não funciona e abrindo as portas para aplicativos sem suporte. Implementar um plano para monitorar e reduzir a integridade de rede ajudará a garantir uma experiência de usuário positivo além reduzindo chamadas sua mesa de suporte. Para obter mais informações, consulte os seguintes artigos:
 
-- [Operar o seu serviço](upgrade-operate-my-service.md)
+- [Operar seu serviço](upgrade-operate-my-service.md)
 - [Monitorar a qualidade](upgrade-monitor-quality.md)
-- [Melhorar seu serviço](upgrade-enhance-my-service.md)
+- [Aprimorar seu serviço](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Unidade de adoção e momentum do usuário
 

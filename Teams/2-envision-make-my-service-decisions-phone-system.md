@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461888"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568684"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
 Para planejar a implementação técnica do sistema telefônico com planos de chamada, você deve fazer uma série de decisões de serviço antes do tempo para melhor preparar sua organização para implementar uma solução que atende aos seus requisitos de negócios definidas.
 
-## <a name="calling-in-teams"></a>Fazendo chamadas no Microsoft Teams
+## <a name="calling-in-teams"></a>Chamando em equipes
 
 Com Teams da Microsoft, os usuários podem fazer ou receber chamadas telefônicas para ou da rede telefônica pública comutada (PSTN). Seus usuários podem usar seus próprios números de telefone dedicado para fazer e receber chamadas telefônicas de nacionais e internacionais de aplicativos do cliente de equipes, com recursos avançados que incluem a caixa postal.
 
@@ -42,7 +42,7 @@ Para habilitar a conectividade à PSTN, sua organização pode usar o Microsoft 
 > [!IMPORTANT]
 > A capacidade de usar seu próprio provedor de serviços de telecomunicações para o sistema telefônico com sua implantação de equipes também está disponível com o roteamento direto de sistema do telefone. Para saber mais sobre o roteamento direto, revise as [orientações de roteamento direto](2-envision-make-my-service-decisions-direct-routing.md).
 
-## <a name="phone-system-with-calling-plans"></a>Sistema de Telefonia com Planos de Chamadas
+## <a name="phone-system-with-calling-plans"></a>Sistema telefônico com a chamada de planos
 
 Para usar o Microsoft como seus telecomunicações provedor de serviço, você precisará obter licenças chamar planejar e atribuí-las aos usuários de seu sistema telefônico.
 
@@ -56,7 +56,7 @@ Cada tipo de chamada plano aloca um determinado número de minutos de chamada po
 
 <!--ENDOFSECTION-->
 
-## <a name="availability-of-calling-plans"></a>Disponibilidade de Planos de Chamadas
+## <a name="availability-of-calling-plans"></a>Disponibilidade dos planos de chamada
 
 Antes de planejar a implementação de chamar planos em equipes, verificar se o serviço de planos de chamada está disponível na sua área examinando a [disponibilidade do país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -83,8 +83,8 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 > | One Epping Road                | Austrália      | Serviço PSTN herdado |
 > | 100 Alma Road             | Hong Kong SAR  | Roteamento Direto do Sistema Telefônico |
 > | One Marina Boulevard           | Cingapura      | Roteamento Direto do Sistema Telefônico |
-> | 32 London Bridge Street        | Reino Unido | Sistema de Telefonia com Planos de Chamadas |
-> | 39 quai du Président Roosevelt | França         | Sistema de Telefonia com Planos de Chamadas |
+> | 32 London Bridge Street        | Reino Unido | Sistema telefônico com a chamada de planos |
+> | 39 quai du Président Roosevelt | França         | Sistema telefônico com a chamada de planos |
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Depois de confirmar que sua organização pode obter o serviço chamando planos,
 
 Com a chamada estiver planejando no Office 365, cada usuário na sua organização deve ter um inward direto exclusivo discando o número de telefone (DID) e um endereço de emergência validado correspondente. Rever os [números de telefone de voz de nuvem de gerenciar](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) para planejar a aquisição de número de telefone para sua implementação chamando planos.
 
-Quando você estiver configurando os números de telefone para planos de chamada, você deve atribuir um endereço de emergência para cada número de telefone antes de atribuir o número a um usuário. Isso é necessário para dar suporte às chamadas de emergência. O endereço de emergência deve ser validado para garantir que ele está no formato correto a ser usado pelos serviços de resposta de emergência.
+Quando você estiver configurando os números de telefone para planos de chamada, você deve atribuir um endereço de emergência para cada número de telefone antes de atribuir o número a um usuário. Isso é necessário para dar suporte a chamadas de emergência. O endereço de emergência deve ser validado para garantir que ele está no formato correto a ser usado pelos serviços de resposta de emergência.
 
 > [!IMPORTANT]
 > Serviços de emergência chamar funciona de modo diferente no serviço chamando planos que nos serviços de telefonia tradicional. É importante que você entenda essas diferenças e comunicar-se a todos os usuários. Para obter mais detalhes, consulte [Emergency chamar termos e condições](emergency-calling-terms-and-conditions.md) .
@@ -117,10 +117,10 @@ Para saber mais sobre os locais de emergência em relação à chamada planos, r
 > 
 > |Usuário |Endereço e o local de emergência |Número de telefone |
 > |-----|-------------------------------|-------------|
-> |Emily Braun |1034/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8901 |
+> |Emily Braun |Reino Unido de 1034/32 Londres ponte rua, London, SE1, |+ 44 23 4567 8901 |
 > |Lidia Holloway |Reino Unido de 1065/32 Londres ponte rua, London, SE1, |+ 44 23 4567 89112 |
-> |Louis Lahr |1023/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8921 |
-> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, França | TBA |
+> |Louis Lahr |Reino Unido de 1023/32 Londres ponte rua, London, SE1, |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |Quai 07E15D/39 du Président Roosevelt, Issy 92130-les-Moulineaux, França | TBA |
 > |Rachelle Cormier |Quai 07N15D/39 du Président Roosevelt, Issy 92130-les-Moulineaux, França | TBA |
 > |Isabell Potvin |Quai 07F05E/39 du Président Roosevelt, Issy 92130-les-Moulineaux, França | TBA |
 
@@ -160,9 +160,9 @@ Para obter mais informações sobre a caixa postal na implementação de um sist
 
 <!--ENDOFSECTION-->
 
-## <a name="calling-identity"></a>Identificação de chamadas
+## <a name="calling-identity"></a>Identidade de chamada
 
-Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identificação de chamadas (ID de Chamadas). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada. Em alguns casos, existem requisitos de negócios legítimos para mascarar a identificação do chamador para proteger a identidade de chamadores usando o número de linha principal do office — esse é normalmente um número de serviço atendido pela configuração do atendedor automático — como ID do chamador ou bloquear a ID do chamador apresentação todo.
+Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (ID de chamador). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada. Em alguns casos, existem requisitos de negócios legítimos para mascarar a identificação do chamador para proteger a identidade de chamadores usando o número de linha principal do office — esse é normalmente um número de serviço atendido pela configuração do atendedor automático — como ID do chamador ou bloquear a ID do chamador apresentação todo.
 
 <br>
 
@@ -174,13 +174,13 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 > [!TIP]
 > Este é um exemplo de mascaramento de documentação de detalhes de ID do chamador.
 > 
-> |Usuário  |Habilitar mascaramento de ID de Chamadas de saída  |Tipo de mascaramento de ID de Chamadas  |Permitir a substituição pelo usuário  | Habilitar mascaramento de ID de Chamadas de entrada  |
+> |Usuário  |Habilitar o mascaramento de ID de chamadas de saída  |Tipo de mascaramento de ID do chamador  |Permitir substituição do usuário  | Habilitar o mascaramento de ID de chamadas de entrada  |
 > |---------|---------|---------|---------|---------|
 > |Emily Braun|Não|N/D|Sim|Não|
-> |Lidia Holloway|Sim|Número de serviço (OrgAA, +44 20 7946 0000)|Não|Sim|
+> |Lidia Holloway|Sim|Número de serviço (OrgAA + 44 20 7946 0000)|Não|Sim|
 > |Louis Lahr|Não|N/D|Sim|Não|
 > |Marcel Beauchamp|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
-> |Rachelle Cormier|Sim|Manter o anonimato|Sim|Não|
+> |Rachelle Cormier|Sim|Tornar anônimo|Sim|Não|
 > |Isabell Potvin|Sim|Número de serviço (OrgAA, TBA)|Não|Sim|
 
 <!--ENDOFSECTION-->
@@ -193,32 +193,32 @@ Planos de chamada é um complemento para o recurso de sistema telefônico no Off
 
 Para oferecer suporte para conferência de áudio adicionais e planos de chamar usam casos (conferência internacional discagem externa chamar após chamar planejar alocações minutos são esgotadas e assim por diante), você pode configurar créditos de comunicações para sua organização.
 
-## <a name="licensing-for-calling-plans"></a>Licenciamento de Planos de Chamadas
+## <a name="licensing-for-calling-plans"></a>Licenciamento de planos de chamada
 
 Se sua organização pretende usar o Microsoft como provedor de serviços de telecomunicações, você precisa obter chamar planejar complementos adequados às necessidades de negócios dos usuários. Geralmente, nem todas as pessoas em uma organização precisam colocar chamadas internacionais, portanto você pode provisionar a maioria dos usuários com licenças de chamar planejar domésticas.
 
-Há dois tipos de licenças do Plano de Chamadas:
+Existem dois tipos de licenças chamar planejar:
 
 -   Plano de Chamadas Domésticas
 
 -   Plano de Chamadas Internacionais e Domésticas
 
 > [!NOTE]
-> O local de uso do Office 365 atribuído ao usuário determina o que é considerado “doméstico” para um usuário específico.
+> O que é considerado "nacionais" para um usuário específico é determinado pelo local de uso do Office 365 atribuído do usuário.
 
-Cada tipo de Plano de Chamadas fornece uma alocação de minutos de chamadas que os usuários podem usar por mês para fazer chamadas domésticas ou internacionais. Os custos domésticas chamar planejar que menor comparada com o plano de chamar nacionais e internacionais.
+Cada tipo de chamada planejar fornece uma alocação da chamada de minutos que os usuários podem utilizar por mês, ou fazer chamadas nacionais ou chamadas internacionais. Os custos domésticas chamar planejar que menor comparada com o plano de chamar nacionais e internacionais.
 
 A flexibilidade da inscrição e atribuindo o tipo de chamada planejar mais adequado para as necessidades de negócios de usuários individuais ajuda a sua organização a controlar os custos da sua implementação chamando planos.
 
-Para cada locatário do Office 365, o número combinado de minutos de chamadas é agrupado por país ou região e por tipo de Plano de Chamadas. Quando o limite mensal de minutos de chamadas do locatário é alcançado, o serviço de Planos de Chamadas (exceto as chamadas de emergência) é suspenso até o final do mês. O serviço de planos de chamar voltarão automaticamente no primeiro dia do próximo mês do calendário.
+Para cada inquilino do Office 365, combinado número de minutos de chamada é agrupado por país ou região e por tipo de chamada planejar. Quando o limite de minutos de chamada mensal para o locatário é atingido, chamar planos de serviço (exceto para chamadas de emergência) será suspenso para o restante do mês. O serviço de planos de chamar voltarão automaticamente no primeiro dia do próximo mês do calendário.
 
 Você pode configurar créditos de comunicações para suas organizações para permitir que os usuários façam chamadas de saída após a alocação de minutos de chamada é esgotada sem precisar esperar até o próximo mês ciclo de cobrança. Além disso, Communications créditos conceder os usuários atribuídos a planejar chamar domésticas a capacidade de fazer chamadas internacionais, que são então cobradas por meio de um modelo de "pagamento por minuto".
 
 Para saber mais sobre o sistema telefônico e chamar planos, revise os seguintes artigos:
 
--   [Sistema de Telefonia](https://products.office.com/en-us/skype-for-business/phone-system)
+-   [Sistema Telefônico](https://products.office.com/en-us/skype-for-business/phone-system)
 
--   [Planos de Chamadas](https://products.office.com/en-us/skype-for-business/calling-plans)
+-   [Planos de chamadas](https://products.office.com/en-us/skype-for-business/calling-plans)
 
 <br>
 
@@ -409,17 +409,17 @@ Para obter mais informações sobre os planos de discagem, confira [O que são o
 
 Use as informações das seções anteriores deste artigo para documentar suas decisões de serviço. Em geral, esta documentação irá conter as seguintes seções principais:
 
--   Lista de habilitação de locais do Sistema de Telefonia com Planos de Chamadas
+-   Sistema telefônico com lista planos de chamada de habilitação de site
 
--   Atribuição de licenças a usuários do Sistema de Telefonia com Planos de Chamadas
+-   Atribuição de licença para o sistema telefônico com usuários de planos de chamada
 
 -   Número de planejamento de Créditos de Comunicação
 
--   Detalhes sobre a aquisição de números de telefone, números de telefone e locais de emergência
+-   Aquisição de número de telefone, números de telefone e detalhes do local de emergência
 
--   Detalhes de configuração da caixa postal
+-   Detalhes de configuração de caixa postal
 
--   Detalhes de configuração do mascaramento de ID de Chamadas
+-   ID do chamador mascaramento de detalhes de configuração
 
 -   Planos de discagem para locatários
 

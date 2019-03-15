@@ -3,7 +3,7 @@ title: Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 author: lolaj
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: srividhc
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ea1a81f2418b17d247dafe82d9e94e348d3b4c7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d18879bdc983ea245c491f4cfadb38c2e7bd5578
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459744"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569291"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -68,13 +68,13 @@ Ao implantar uma solução de interoperabilidade de vídeo de nuvem, é importan
 
 ![Implantando CVI na sua organização](media/deploying-cvi.png)
 
-### <a name="plan"></a>Planejamento
+### <a name="plan"></a>Plano
 
 Durante a fase de planejamento, você deve identificar os dispositivos que você não substituirá com um dispositivo de equipes nativo e encontre um parceiro de interoperabilidade de vídeo de nuvem que pode suportar esses dispositivos.  
 
 Também é importante compreender o que você precisará uma licença de cada usuário que irá agendar reuniões em que você deseja que um dispositivo habilitado para nuvem interoperabilidade de vídeo para ingressar. Observe que os requisitos de licenciamento exatos podem ser obtidos do parceiro de interoperabilidade de vídeo de nuvem. Certifique-se de que esse é criptografado antes de iniciar sua implantação.
 
-### <a name="configure"></a>Configurar
+### <a name="configure"></a>Configuração
 
 O parceiro que você escolheu para sua implantação CVI fornecerá um documento de implantação completa que consiste em todas as etapas necessárias para implantar com êxito dentro da sua organização. Isso inclui a portas de firewall e intervalos IP, alterações de configuração para seus dispositivos e outras configurações que precisam alterar.
 

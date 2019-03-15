@@ -1,10 +1,10 @@
 ---
-title: Documente o seu planejamento de sucesso Teams da Microsoft
+title: Documentar seu plano de sucesso do Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462136"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568468"
 ---
-# <a name="document-my-success-plan"></a>Documente o meu planejamento de sucesso
+# <a name="document-my-success-plan"></a>Documentar meu plano de sucesso
 
 Este artigo fornece uma visão geral dos requisitos para documentar corretamente a sua implantação de voz de nuvem. Definindo e documentar todos os pontos de decisão e próximas etapas ao planejar sua implantação de voz de nuvem, você pode verificar se todos os participantes e membros da equipe de projeto são alinhados em oferecer resultados bem-sucedida. 
 
@@ -85,10 +85,10 @@ Se sua organização tiver apenas um ou dois sites, talvez não seja necessário
 
 O exemplo a seguir é um exemplo de um plano de execução trimestral para a fase de Envision de uma implementação de voz de nuvem.
 
-| Site/divisão                            | Número de funcionários | Audioconferência | Sistema de Telefonia                    | Trimestre para executar |
+| Site/divisão                            | Número de funcionários | Audioconferência | Sistema Telefônico                    | Trimestre para executar |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| Estados Unidos: Nova York                             | 2000                | Sim                | Sistema de Telefonia com Planos de Chamadas | CY2018 T1          |
-| Irlanda: Dublin                          | 300                 | Sim                | Sistema de Telefonia com Planos de Chamadas | CY2018 T1          |
+| Estados Unidos: Nova York                             | 2000                | Sim                | Sistema telefônico com a chamada de planos | CY2018 T1          |
+| Irlanda: Dublin                          | 300                 | Sim                | Sistema telefônico com a chamada de planos | CY2018 T1          |
 | Áustria: Viena                          | 500                 | Sim                | Roteamento Direto do Sistema Telefônico     | T2 CY2018          |
 | Itália: Milão                             | 200                 | Sim                | N/D                             | T2 CY2018          |
 | América do Sul: Brasil                    | 1500                | Sim                | Roteamento Direto do Sistema Telefônico     | T2 CY2018          |

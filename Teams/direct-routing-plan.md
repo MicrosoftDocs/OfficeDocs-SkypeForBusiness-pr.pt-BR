@@ -5,23 +5,21 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
-ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.topic: conceptual
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Leia este tópico para saber como roteamento direto do Microsoft telefone sistema permite que você se conectar a um controlador de borda de sessão (SBC) com suporte, fornecida pelo cliente ao sistema de telefone da Microsoft.
-ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690568"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569938"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -79,7 +77,7 @@ Os requisitos de infraestrutura para os SBCs com suporte, domínios e outros req
 |Pontos de Conexão para roteamento direto |Os pontos de conexão para roteamento direto são os FQDNs de três seguintes:<br/><br/>`sip.pstnhub.microsoft.com`– FQDN global, deve ser tentado primeiro.<br/>`sip2.pstnhub.microsoft.com`– FQDN secundário, geograficamente mapeia à segunda região prioridade.<br/>`sip3.pstnhub.microsoft.com`– FQDN terciária, geograficamente mapeia para a região de prioridade de terceiro.<br/><br/>Para obter informações sobre os requisitos de configuração, consulte [a sinalização SIP: FQDNs e portas do firewall](#sip-signaling-fqdns-and-firewall-ports).|
 |Endereços IP do firewall e portas de mídia de roteamento direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy, que trata a sinalização SIP<br/>Processador de mídia, que trata a mídia-, exceto quando o desvio de mídia está ligado<br/><br/>Esses dois serviços tem endereços IP separados no Microsoft Cloud, descrito mais adiante neste documento.<br/><br/>Para obter mais informações, consulte a [seção de equipes da Microsoft](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) em [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Perfil de transporte de mídia|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
-Endereços IP do firewall e portas de mídia Teams da Microsoft |Para obter mais informações, veja [URLs e intervalos de endereço IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Endereços IP do firewall e portas de mídia Teams da Microsoft |Para obter mais informações, consulte [URLs do Office 365 e intervalos de endereços IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Licenciamento e outros requisitos 
@@ -106,7 +104,7 @@ Combinação de conectividade de chamada planejar e roteamento direto para o mes
 
 Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [obter o máximo do Office com o Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) e [Opções de planejamento do Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx). 
 
-Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [Skype para licenciamento de complemento de negócios e equipes da Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## <a name="sbc-domain-names"></a>Nomes de domínio SBC
 
@@ -249,7 +247,7 @@ Os dispositivos que tiverem sido validados são listados como certificado para e
 Para obter mais informações sobre SBCs com suporte, consulte a [lista de controladores de borda de sessão certified para roteamento direto](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Configurar o Roteamento Direto](direct-routing-configure.md)
 

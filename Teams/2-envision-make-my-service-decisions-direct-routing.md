@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 07/09/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462736"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569762"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
 Para planejar a implementação técnica do sistema direto roteamento de telefone ("direto roteamento"), você deve fazer uma série de decisões de serviço antes do tempo para melhor preparar sua organização para implementar uma solução que atenda aos requisitos de negócios que você definiu.
 
-## <a name="calling-in-teams"></a>Fazendo chamadas no Microsoft Teams
+## <a name="calling-in-teams"></a>Chamando em equipes
 
 Com Teams da Microsoft, os usuários podem fazer ou receber chamadas telefônicas para ou da rede telefônica pública comutada (PSTN). Seus usuários podem usar seus próprios números de telefone dedicado para fazer e receber chamadas de telefone nacionais e internacionais (incluindo caixa postal) do aplicativo cliente equipes.
 
@@ -59,8 +59,8 @@ Depois de confirmar que sua organização pode obter o recurso de sistema telef�
 > | One Epping Road                | Austrália      | Serviço PSTN herdado |
 > | 100 Alma Road             | Hong Kong SAR  | Roteamento Direto do Sistema Telefônico |
 > | One Marina Boulevard           | Cingapura      | Roteamento Direto do Sistema Telefônico |
-> | 32 London Bridge Street        | Reino Unido | Sistema de Telefonia com Planos de Chamadas |
-> | 39 quai du Président Roosevelt | França         | Sistema de Telefonia com Planos de Chamadas |
+> | 32 London Bridge Street        | Reino Unido | Sistema telefônico com a chamada de planos |
+> | 39 quai du Président Roosevelt | França         | Sistema telefônico com a chamada de planos |
 
 <!--ENDOFSECTION-->
 
@@ -208,7 +208,7 @@ Para obter mais detalhes, consulte [a sinalização SIP: FQDNs e portas de firew
 > | **Nome DNS de SBC (FQDN)** | **SBC e o modelo** | **Certificado** | **Local**  | **Endereço IP** | **Porta de sinalização SIP** | **NAT?** | **Sessões simultâneas do max** | **Bypass de mídia habilitado?** |
 > |-------------------------|------------------------|-----------------|---------------|----------------|------------------------|----------|-----------------------------|---------------------------|
 > | SBC-Europe.contoso.com | TBD | \*. contoso.com | Amsterdã | TBD | TBD | Sim | TBD | Não |
-> | SBC-Asia.contoso.com | TBD | \*. contoso.com | Hong Kong SAR (香港特別行政區) | TBD | TBD | Não | TBD | Sim |
+> | SBC-Asia.contoso.com | TBD | \*. contoso.com | Hong Kong SAR | TBD | TBD | Não | TBD | Sim |
 > | SBC-Africa.contoso.com | TBD | \*. contoso.com | Joanesburgo | TBD | TBD | Sim | TBD | Sim |
 
 <!--ENDOFSECTION-->
@@ -290,9 +290,9 @@ Para que os usuários para ver a guia chamadas no cliente equipes, você precisa
 
 Use as informações das seções anteriores deste artigo para documentar suas decisões de serviço. Em geral, esta documentação irá conter as seguintes seções principais:
 
--   Lista de habilitação de locais do Sistema de Telefonia com Planos de Chamadas
+-   Sistema telefônico com lista planos de chamada de habilitação de site
 
--   Detalhes de configuração da caixa postal
+-   Detalhes de configuração de caixa postal
 
 -   Atribuição de licença para usuários de roteamento direto de sistema do telefone
 

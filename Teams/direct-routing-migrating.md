@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Saiba o que é necessário para migrar o roteamento direto de um Skype para Business Online e perspectiva de configuração de equipes.
-ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ff70af11783fb184fc3599fdb6d5fc13c15478a7
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353110"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569922"
 ---
-# <a name="migrating-to-direct-routing"></a>Migrar para o roteamento direto
+# <a name="migrate-to-direct-routing"></a>Migrar para o roteamento direto
 
 Este artigo descreve o que é necessário para migrar o roteamento direto de um Skype para Business Online e Teams Microsoft perspectiva de configuração. Este artigo aborda migrando dentre os seguintes: 
  
@@ -35,7 +35,7 @@ Além das etapas de configuração, configuração também é necessária no con
 
 A tabela a seguir mostra o estado final de um usuário provisionado para as opções selecionadas da conectividade PSTN com sistema de telefone do Office 365. Apenas os atributos relevantes para voz são mostrados.
 
-|Atributos de objeto do usuário |Sistema de Telefonia com Planos de Chamadas|Telefone sistema com o local a conectividade PSTN via Skype para Business Server|Telefone de sistema com o local a conectividade de PSTN por meio do conector de nuvem|Telefone sistema com o local a conectividade PSTN por meio de roteamento direto|
+|Atributos de objeto do usuário |Sistema telefônico com a chamada de planos|Telefone sistema com o local a conectividade PSTN via Skype para Business Server|Telefone de sistema com o local a conectividade de PSTN por meio do conector de nuvem|Telefone sistema com o local a conectividade PSTN por meio de roteamento direto|
 |---|---|---|---|---|
 |Cliente|Skype para equipes ou comercial |Skype for Business |Skype for Business |Microsoft Teams|
 |Licenças|Negócios on-line do Skype</br>Plano 2</br></br>MCOProfessional ou MCOSTANDARD)</br></br></br>Sistema telefônico (MCOEV)</br></br></br>Planos de Chamadas</br>Microsoft Teams|Skype Business Online plano 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Sistema telefônico (MCOEV)|Skype Business Online plano 2 (MCOProfessional ou MCOSTANDARD)</br></br></br>Sistema telefônico (MCOEV)|Skype Business Online plano 2 (MCOProfessional ou MCOSTANDARD</br></br></br>Sistema telefônico (MCOEV)</br></br>Microsoft Teams|

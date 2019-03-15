@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5d616ef2-29b2-4c5e-9103-ef531369512d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: aea3c28b6b6d19b22d3fe1a788665076ad970443
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d0139f5b4dd78578ec36431438565a463990ad0a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463392"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569197"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>Restrições de discagem de chamada gratuita no Chile
 

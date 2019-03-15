@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba as informações que são enviadas automaticamente aos usuários por e-mail quando suas configurações de conferência discada são alteradas no Microsoft Teams. '
-ms.openlocfilehash: 6081f531bb7cbae180997dedd9e9892e9829ae1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462808"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633330"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-mails enviados para os usuários quando suas configurações são alteradas no Microsoft Teams
 
-Serão enviados e-mails automaticamente para usuários que estão [habilitados para audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) e usam a Microsoft como provedor de audioconferência.
+Serão enviados e-mails automaticamente para usuários que estão [habilitados para audioconferência](set-up-audio-conferencing-in-teams.md) e usam a Microsoft como provedor de audioconferência.
 
 Por padrão, existem quatro tipos de e-mail que são enviados aos usuários habilitados para audioconferência. No entanto, se você deseja limitar o número de e-mails enviados aos usuários, é possível desativá-los. A audioconferência no Office 365 enviará um e-mail para o e-mail de seus usuários quando:
 

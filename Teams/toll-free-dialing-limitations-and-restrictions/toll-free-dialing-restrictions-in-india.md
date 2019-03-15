@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: d9e0809c-633d-4ee9-891b-ff4282789da5
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: df6d19cdae26a7c5459f7d306f68ba9a4b0bebef
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 13c978d89007ec90cd8488cc3557a8e677959792
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463432"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569834"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrições de discagem de chamada gratuita na Índia
 

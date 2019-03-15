@@ -11,10 +11,10 @@ ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: Estágio AV e OAuth certificados para Skype para Business Server.'
 ms.openlocfilehash: 9fd4074034e9bff6b27ed9a22143c59dc9890821
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375933"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Preparar certificados AV e OAuth no Skype para Business Server usando - Roll in Set-CsCertificate
@@ -79,7 +79,7 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
   
 Para compreender melhor o processo que Set-CsCertificate, - Roll e - EffectiveDate usar para preparar um novo certificado para emitindo tokens AudioVideoAuthentication novos enquanto estiver usando um certificado existente para validar AudioVideoAuthentication que estão sendo usados por consumidores, um cronograma visual é uma maneira eficaz de Noções básicas sobre o processo. O exemplo a seguir, o administrador determina que A / certificado do serviço de borda V está prestes a expirar em 2:00:00 PM em 07/22/2015. Ele solicita e recebe um novo certificado e importa-lo para cada servidor de borda em seu pool. Às 2h da manhã em 07/22/2015, ele começa a executar Get-CsCertificate com - Roll, - impressão digital igual a cadeia de caracteres de impressão digital do novo certificado e - EffectiveTime definida como 22/07/2015 6:00:00 AM. Ele executa este comando em cada servidor de borda.
   
-![Usando os parâmetros Roll e EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
+![Usando o Roll e os parâmetros de EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
 |**Legenda**|**Estágio**|
 |:-----|:-----|
@@ -128,7 +128,7 @@ Quando a hora efetiva é atingida (21/07/2015 1:00:00 AM), todos os novos tokens
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Gerenciar a autenticação de servidor-para-servidor (OAuth) e aplicativos de parceiros no Skype para Business Server](server-to-server-and-partner-applications.md)
 

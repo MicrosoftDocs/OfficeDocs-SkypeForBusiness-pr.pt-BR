@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Resumo: Saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores executando o API de Web de comunicações unificadas (UCWA) e o Skype para serviço de mobilidade do Business Server Mcx.'
-ms.openlocfilehash: a1e44d0ba7fec9eb50d7d1f1bcea78a85a1f4955
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: dc2f414dce47442d50018c4a800a0c91279068c8
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969842"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226992"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de desempenho de mobilidade no Skype para Business Server
  
@@ -27,7 +27,7 @@ O nome da categoria dos contadores na tabela UCWA é **LS:WEB - UCWA**.
 O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx é **LS:WEB – Mobile Communication Service**.
 
 > [!NOTE]
-> Suporte MCX para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Os usuários precisarem de atualização para um cliente atual.
+> Suporte MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Todos os Skype atual para clientes móveis do Business já use Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Usuários com clientes herdados usando MCX serão necessário atualizar para um cliente atual.
   
 ## <a name="performance-counters-for-ucwa"></a>Contadores de desempenho para UCWA
 
@@ -114,4 +114,4 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 |Total de chamadas de voz de saída bem-sucedidas  <br/> |O número total de chamadas de voz de saída que tiveram êxito  <br/> |
    
 > [!NOTE]
-> Suporte MCX para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Os usuários precisarem de atualização para um cliente atual.
+> Suporte MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype para Business Server 2019. Todos os Skype atual para clientes móveis do Business já use Unified Communications Web API (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Usuários com clientes herdados usando MCX serão necessário atualizar para um cliente atual.

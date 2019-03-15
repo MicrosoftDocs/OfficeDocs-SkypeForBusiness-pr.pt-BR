@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/27/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4887cb129242473da46a611c4f873e79384e5e32
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460336"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569953"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 =================================================
@@ -42,7 +42,8 @@ A tabela abaixo mostra a diferença em permissões entre um proprietário e um m
 |          **Adicionar canal**          |    Sim     |    Sim<sup>2</sup>|
 | **Editar nome/descrição do canal** |    Sim     |    Sim<sup>2</sup>|
 |        **Excluir canal**         |    Sim     |    Sim<sup>2</sup>|
-|          **Adicionar membros**          |  Sim<sup>3</sup>   |     Não      |
+|          **Adicionar membros**          |  Sim<sup>3</sup>   |     Nenhum<sup>4</sup>    |
+|          **Solicitação para adicionar membros**          |  N/D   |     Sim<sup>5</sup>     |
 |           **Adicionar guias**            |    Sim     |    Sim<sup>2</sup>|
 |        **Adicionar conectores**         |    Sim     |    Sim<sup>2</sup>|
 |           **Adicionar bots**            |    Sim     |    Sim<sup>2</sup>|
@@ -52,6 +53,10 @@ A tabela abaixo mostra a diferença em permissões entre um proprietário e um m
 <sup>2</sup> desses itens podem ser desativados por um proprietário em um nível de equipe, caso em que os membros não terá acesso a eles.
 
 <sup>3</sup> depois de adicionar um membro para uma equipe, um proprietário também pode promover um membro ao status de proprietário. Também é possível para um proprietário a serem rebaixados suas próprias status do membro.
+
+<sup>4</sup> membros da equipe podem adicionar outros membros para uma equipe pública.
+
+<sup>5</sup> enquanto um membro da equipe não pode adicionar membros diretamente para uma equipe privada, eles podem solicitar uma pessoa a ser adicionado a uma equipe que elas já membro do. Quando um membro solicita uma pessoa a ser adicionado a uma equipe, os proprietários de equipe recebem um alerta que têm uma solicitação pendente que eles podem aceitar ou recusar.
 
 
 

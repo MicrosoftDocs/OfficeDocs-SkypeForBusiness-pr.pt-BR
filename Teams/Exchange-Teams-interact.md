@@ -3,7 +3,7 @@ title: Como o Exchange e o Microsoft Teams interagem
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: crowe
 description: Sabia quais funcionalidades existem entre o Microsoft Teams e as diversas configurações do Exchange, como criar e entrar em equipes, criar canais e muito mais.
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462184"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569978"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem 
 =========================================
@@ -40,9 +40,9 @@ A tabela a seguir oferece informações para usuários com o Exchange Online hos
 | A caixa de correio do usuário está hospedada em: | eDiscovery| Ofício&nbsp;bloqueio | Retenção| Mgmt de equipe e de canal |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar os contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim |Sim|
-|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim|Sim |Sim|Sim|Sim|Sim |Sim |Sim |
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2,3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim |Não|Sim <sup>5|Sim |Sim |Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2,3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim |Sim |Não|Sim <sup>5|Sim |Sim |Sim |
+|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim|Sim |Sim|Sim|Sim|Sim |Sim |Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2,3</sup>|Sim <sup>4|Sim|Não|Não|Sim |Sim|Não|Sim <sup>5|Sim |Sim |Sim|
+|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2,3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim |Sim|Não|Sim <sup>5|Sim |Sim |Sim|
 
 <sup>1</sup> do exchange 2016 CU3 e acima suportados  
 <sup>2</sup> eDiscovery e retenção Legal para fins de conformidade em mensagens de canal é suportado para todas as opções de hospedagem.  

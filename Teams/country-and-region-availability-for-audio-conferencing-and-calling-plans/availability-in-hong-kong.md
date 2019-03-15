@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios para Hong Kong.
-ms.openlocfilehash: e2fb01a6b88868d4b999075dfeac067fda1d89b0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: d2596bdc923e341c969b588630c5d3d644601a9f
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542523"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569347"
 ---
 # <a name="availability-in-hong-kong"></a>Disponibilidade em Hong Kong
 
@@ -77,7 +77,7 @@ Eis os serviços do Office 365 para Skype para Teams da Microsoft e de negócios
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Há Créditos de Comunicação disponíveis?  <br/> |Não  <br/> |
+|Há Créditos de Comunicação disponíveis?  <br/> |Sim  <br/> |
    
 Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).
   

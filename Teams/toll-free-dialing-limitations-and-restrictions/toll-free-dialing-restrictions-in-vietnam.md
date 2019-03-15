@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 02ee8759-b828-4f8a-8bc2-15b9d1b80fe2
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: 5ab38372f0074be95aa8a660597dd065da370f56
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d27c06edd976849716f24cdd4a161b4b92091d81
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464624"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568948"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restrições de discagem de chamada gratuita no Vietnã
 
@@ -44,7 +44,7 @@ ms.locfileid: "30464624"
 | Ilha/território não coberto  <br/>              | Não aplicável  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | Disponibilidade de linha fixa/com fio  <br/>             | Parcial. Veja os comentários.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Disponibilidade com a rede móvel  <br/>               | Parcial. Veja os comentários.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Comentários, restrições e problemas de acesso  <br/> | O formato de número XX XXX 120 trabalharão internacional de telecomunicações Vietnã (VTI) e redes de fixas e móveis VNPT (Vietnã Post e telecomunicações). <br/>   <br/>**Observação:** Mobifone &amp; Vinaphone fazem parte do VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Conforme o Ministério de Vietnã de telecomunicações, a duração máxima da chamada permitido é de 2 horas. |
+| Comentários, restrições e problemas de acesso  <br/> | O formato de número XX XXX 120 trabalharão internacional de telecomunicações Vietnã (VTI) e redes de fixas e móveis VNPT (Vietnã Post e telecomunicações). <br/> <br/>O formato de número XX XXX 120 não pode ser chamado da rede de celular do Mobifone. <br/> <br/>**Observação:** Mobifone &amp; Vinaphone fazem parte do VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Conforme o Ministério de Vietnã de telecomunicações, a duração máxima da chamada permitido é de 2 horas. |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

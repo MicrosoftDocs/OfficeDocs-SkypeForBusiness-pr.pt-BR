@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (nuvem PBX) para sua organização. '
-ms.openlocfilehash: ef677e694ca170b7576f6613cbfddd83f9b493b0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5423ceb0dcd4de03c95ff956e50442a784de877c
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542883"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633278"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar o Sistema de Telefonia na sua organização
 
@@ -194,7 +194,7 @@ Para as perguntas frequentes sobre Audioconferência, consulte [Perguntas comuns
 
 3. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them: 
   
-   1. [Personalizar convites de reunião em Skype para negócios](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem definidos para o usuário serão adicionados automaticamente aos convites da reunião enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
+   1. [Personalizar convites de reunião em Skype para negócios](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem que são definidos para o usuário serão adicionados automaticamente aos convites de reunião serão enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
     
    2. Defina os números de telefone de conferência de áudio para que estão incluídos na organizadores de reuniões convidam [em Skype para a empresa](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) ou [em equipes da Microsoft](set-the-phone-numbers-included-on-invites-in-teams.md). Esse é o número de telefone que serão exibidas na reunião programada pelo usuário.
     
@@ -205,7 +205,7 @@ Para as perguntas frequentes sobre Audioconferência, consulte [Perguntas comuns
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-**Para obter mais informações sobre Audioconferência, consulte [Configurar Audioconferências](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing).**
+**Para obter mais informações sobre a conferência de áudio, consulte [Configurar conferências de áudio para equipes da Microsoft](set-up-audio-conferencing-in-teams.md).**
 
 ## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>Etapa 7: Se você deseja configurar uma fila de chamadas do Sistema de Telefonia
 

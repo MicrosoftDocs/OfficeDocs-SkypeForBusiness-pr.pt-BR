@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 04/12/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,24 +15,24 @@ description: Tarefas e atividades necessárias para gerenciamento de serviço de
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459152"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569475"
 ---
-# <a name="operate-my-service"></a>Operar o meu serviço
+# <a name="operate-my-service"></a>Operar meu serviço
 
 Este artigo fornece uma visão geral dos requisitos de operando com êxito os serviços de voz de nuvem para sua organização. Por operando corretamente seus serviços de voz de nuvem, você pode ser se que você estiver fornecendo uma experiência de alta qualidade, confiável para sua organização.
 
-## <a name="introduction-to-the-operations-guide"></a>Introdução ao guia de operações
+## <a name="introduction-to-the-operations-guide"></a>Introdução ao Guia de Operações
 
 Guia de operações oferece uma visão geral de todas as tarefas e atividades necessárias como parte da função de gerenciamento de serviço for Microsoft Teams.
 
-Gerenciamento de serviço é um tópico amplo que cobre as operações diárias do serviço Microsoft Teams depois que ele tenha sido implantado e habilitado para usuários. O serviço de equipes engloba Microsoft Office 365 e os componentes de infraestrutura que são implantados no local (por exemplo, de rede).
+O gerenciamento do serviço é um tema amplo, que abrange as operações do serviço Microsoft Teams no dia a dia depois que ele é implantado e habilitado para os usuários. O serviço Microsoft Teams abrange o Microsoft Office 365 e os componentes de infraestrutura implantados localmente (por exemplo, a rede).
 
-A noção do gerenciamento de serviços não mais provável é um novo conceito na maioria das organizações. Você talvez já implementou processos e as tarefas associadas com serviços existentes. Além disso, você provavelmente pode incrementar seus processos atuais quando você planejar gerenciamento de serviço de hoje a equipes de suporte no futuro.
+É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você talvez já implementou processos e as tarefas associadas com serviços existentes. Além disso, você provavelmente pode incrementar seus processos atuais quando você planejar gerenciamento de serviço de hoje a equipes de suporte no futuro.
 
 Gerenciamento de serviço abrange todas as atividades e processos envolvidos na Gerenciando as equipes de ponta a ponta. Conforme observado anteriormente, alguns componentes do gerenciamento de serviços — a infraestrutura que compõe o próprio serviço Office 365 — são responsabilidade da Microsoft, enquanto você, o cliente, é responsáveis aos usuários sobre como gerenciar os vários aspectos da rede, equipes e pontos de extremidade que você fornecer.
 
@@ -47,7 +47,7 @@ Diagrama de ![uma ilustrando uma lista de categorias de tarefas e atividades de 
 </table>
 
 
-### <a name="operational-role-mapping"></a>Mapeamento de função operacionais
+### <a name="operational-role-mapping"></a>Mapeamento de funções operacionais
 
 O planejamento que você executou para operações durante a fase de Envision é fundamental, porque as atividades de operações começam quando os usuários piloto primeiro estão habilitados. Este guia lista as atividades e as tarefas que devem ser executadas em uma base diária, semanal, mensal ou conforme necessário para manter uma implantação de equipes de alta qualidade. Este guia fornece conhecimento e orientação sobre como realizar essas tarefas e atividades essenciais.
 
@@ -151,7 +151,7 @@ Você pode monitorar a integridade do serviço e futuras alterações aproveitan
 
 [Como verificar a integridade do serviço Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
-[Verificar a integridade do serviço para o Microsoft Teams](service-health.md)
+[Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 
 [Continuidade e a integridade do serviço](https://technet.microsoft.com/library/office-365-service-health.aspx)
 
@@ -362,7 +362,7 @@ Para garantir a integridade da sua rede, um número de atividades de operações
 
 ### <a name="references"></a>Referências 
 
-[Planejador de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
+[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips)
 
@@ -372,13 +372,13 @@ Para garantir a integridade da sua rede, um número de atividades de operações
 
 ## <a name="assess-and-ensure-quality"></a>Avaliar e garantir a qualidade 
 
-Todas as empresas precisam de um grupo ou indivíduo para ser responsável qualidade. Essa é a função mais importante no gerenciamento de serviço. A função de qualidade campeão é atribuída a uma pessoa ou grupo que esteja entusiasmados pela sobre a experiência dos seus usuários.
-Essa função requer habilidades a identificar tendências no ambiente e o patrocínio para trabalhar com outras equipes para conduzir a correção. O melhor candidato para o posto de defensor da qualidade costuma ser o proprietário do serviço do cliente. Dependendo do tamanho e complexidade da organização, isso poderia ser qualquer pessoa ou grupo com entusiasmo para garantir uma experiência de usuário de alta qualidade.
+Todas as empresas precisam de um grupo ou indivíduo para ser responsável qualidade. Essa é a função mais importante do gerenciamento do serviço. A função de qualidade campeão é atribuída a uma pessoa ou grupo que esteja entusiasmados pela sobre a experiência dos seus usuários.
+Essa função requer a habilidade de identificar tendências no ambiente e a capacidade de trabalhar com outras equipes para possibilitar correções. O melhor candidato para o posto de defensor da qualidade costuma ser o proprietário do serviço do cliente. Dependendo do tamanho e complexidade da organização, isso poderia ser qualquer pessoa ou grupo com entusiasmo para garantir uma experiência de usuário de alta qualidade.
 
 O campeão de qualidade aproveita as ferramentas existentes e processos documentados, como o painel de controle de qualidade de chamada (CQD) e o guia Quality of experiência revisão, para monitorar a experiência do usuário, identificam tendências de qualidade e remediação de unidade onde for necessário.
 O campeão de qualidade deve trabalhar com as respectivas equipes às ações de remediação de unidade e relatório para um comitê de orientação sobre o progresso e quaisquer problemas em aberto.
 
-A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui atividades que avaliam e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário. As diretrizes fornecidas no guia de revisão de experiência de qualidade enfoca usando CQD Online como a ferramenta principal para relatar e investigar cada área, com foco para maximizar a adoção e o impacto de áudio. Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
+A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui atividades que avaliam e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário. As diretrizes fornecidas no guia de revisão de experiência de qualidade enfoca usando CQD Online como a ferramenta principal para relatar e investigar cada área, com foco para maximizar a adoção e o impacto de áudio. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
 É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no guia de revisão do Quality of Experience e materiais de treinamento associado.
 
@@ -396,11 +396,11 @@ A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui ativ
 
 ### <a name="references"></a>Referências 
 
-[Saiba CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
+[Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Informações de construção de carregamento](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
-[Qualidade da experiência Revise o guia](https://aka.ms/qerguide)
+[Guia de revisão da experiência de qualidade](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -410,13 +410,13 @@ Pontos de extremidade do Microsoft Teams podem ser definidos como qualquer PC, M
 
 ### <a name="endpoint-requirements"></a>Requisitos de ponto de extremidade
 
-Um dos principais benefícios de equipes é que o cliente sejam mantido atualizado automaticamente. Os clientes no PC e Mac são atualizados usando um processo de plano de fundo que verifica se há novas compilações e baixa o novo cliente quando o aplicativo estiver ocioso. As equipes de aplicativos móveis são mantidos atualizados através de lojas seus respectivos app.
+Um dos principais benefícios de equipes é que o cliente sejam mantido atualizado automaticamente. Os clientes no PC e no Mac são atualizados por meio de um processo em segundo plano que verifica novos builds e baixa o novo cliente assim que o aplicativo fica ocioso. As equipes de aplicativos móveis são mantidos atualizados através de lojas seus respectivos app.
 
 O cliente de equipes tem requisitos mínimos em termos da plataforma de software subjacente. Esses requisitos podem mudar ao longo do tempo e, portanto, é importante monitorá-los para que as alterações. Por exemplo, o cliente de equipes tem uma versão mínima iOS. Se o cliente usa um navegador da internet, o navegador deve ser mantido atualizado também. Uma lista das plataformas com suporte pode ser encontrada em [obter clientes para equipes da Microsoft](get-clients.md).
 
-### <a name="endpoint-firewalls"></a>Firewalls do ponto de extremidade
+### <a name="endpoint-firewalls"></a>Firewalls de ponto de extremidade
 
-Firewalls do lado do cliente podem ter um impacto significativo sobre a experiência do usuário.
+Os firewalls do lado do cliente podem ter um impacto significativo sobre a experiência do usuário.
 Firewalls do lado do cliente podem afetar a qualidade da chamada e até mesmo impedir que uma chamada de sendo estabelecida. Depois que as exclusões apropriadas no firewall cliente tiverem sido configuradas, eles precisam ser mantidos atualizados com base nas informações em [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips). O fornecedor terceirizado terão específico orientação sobre como atualizar as exclusões.
 
 ### <a name="wi-fi-drivers"></a>Drivers de Wi-Fi
@@ -448,7 +448,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 | Atividade                 | Descrição                                                                                                                                                                                                                                                                                                                                                                     | Cadência   | Equipe atribuído |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Requisitos de ponto de extremidade    | Certifique-se de que as equipes de ponto de extremidade continua a atender a todos os requisitos de software para equipes listadas na [obter clientes para equipes da Microsoft](get-clients.md).                                                                                                                                                                                       | Mensal   |               |
-| Firewalls do ponto de extremidade       | Manter as exclusões apropriadas no ponto de extremidade firewall com base nas informações em [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips). O fornecedor terceirizado terão orientação específica para como manter as exclusões. Assine o [RSS feed](https://support.office.com/o365ip/rss) para ser notificado automaticamente das alterações. | Conforme necessário |               |
+| Firewalls de ponto de extremidade       | Manter as exclusões apropriadas no ponto de extremidade firewall com base nas informações em [URLs do Office 365 e intervalos de endereços IP](https://aka.ms/o365ips). O fornecedor terceirizado terão orientação específica para como manter as exclusões. Assine o [RSS feed](https://support.office.com/o365ip/rss) para ser notificado automaticamente das alterações. | Conforme necessário |               |
 | Drivers de Wi-Fi            | Testar e atualizar os drivers de Wi-Fi no PC. Valide os resultados usando CQD ([Guia de revisão do Quality of Experience](https://aka.ms/qerguide)).                                                                                                                                                                                                                                                                   | Conforme necessário |               |
 | Gerenciamento de ponto de extremidade      | Manter o catálogo de pontos de extremidade com suporte e dispositivos de interface (por exemplo, headsets). Gerenciar contratos de fornecedores, garantia, distribuição, substituição e reparar políticas.                                                                                                                                                                                                        | Mensal   |               |
 | Solução de problemas do ponto de extremidade | Tarefas de solução de problemas pode incluir a verificação da conectividade, a lista de problemas conhecidos, log de coleta, análise e escalonamento para o Microsoft Support ou fornecedores terceirizados de consultoria.                                                                                                                                                                                               | Conforme necessário |               |
@@ -463,7 +463,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 [Problemas conhecidos do Microsoft Teams](known-issues.md)
 
-[Verificar a integridade do serviço para o Microsoft Teams](service-health.md)
+[Verificar a integridade do serviço do Microsoft Teams](service-health.md)
 
 [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
@@ -473,7 +473,7 @@ Mesmo que ter seguido as diretrizes anteriores, usuários em sua organização a
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>Gerenciar equipes
+## <a name="manage-teams"></a>Gerenciar o Teams
 
 Depois que o serviço Microsoft Teams tiver sido implantado, você precisará executar várias atividades relacionadas a sua administração. O intervalo de atividades de administrando o serviço e a usuários individuais para o planejamento de capacidade e o provisionamento de licenciamento e números de telefone. As seções a seguir abordam algumas dessas tarefas comuns de administração.
 
@@ -504,11 +504,11 @@ Para suportar usuários, uma organização pode exigir qualquer número de taref
 
 [Alterar as configurações de uma ponte de audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md)
 
-[Alterar os números de telefone de sua ponte de audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+[Alterar os números de telefone em sua ponte de Audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 [Gerenciar as configurações de audioconferência de um usuário](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Redefinir o PIN de conferência de áudio](reset-the-audio-conferencing-pin-in-teams.md)
+[Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Gerenciamento de licença
 
@@ -547,27 +547,27 @@ Por padrão, todos os usuários com uma caixa de correio no Exchange Online tem 
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>Qualidade da experiência Revise o guia
+## <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
 A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliar e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário, como ilustrado abaixo.
 
 ![As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.] (media/plan-my-service-management-image2.png "As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.")
 
-Avaliação e correção as áreas descritas no guia continuamente, você pode reduzir seu potencial para afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrados em uma implantação podem ser agrupados nas seguintes categorias:
+Avaliação e correção as áreas descritas no guia continuamente, você pode reduzir seu potencial para afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 
--   Configuração de firewall ou proxy incompleta
+-   Configuração incompleta do firewall ou proxy
 
--   Baixa cobertura de Wi-Fi
+-   Cobertura insatisfatória da rede Wi-Fi
 
 -   Largura de banda insuficiente
 
 -   VPN
 
--   Uso de dispositivos de áudio não otimizados ou internos
+-   Uso de dispositivos de áudio internos ou não otimizados
 
--   Sub-redes problemáticos ou dispositivos de rede
+-   Dispositivos de rede ou sub-redes com problemas
 
-As diretrizes fornecidas no guia do Quality of Experience revisão enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio. Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.
+As diretrizes fornecidas no guia do Quality of Experience revisão enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
 É altamente recomendável que você designar desde o início do campeão de qualidade. Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no [Guia de revisão do Quality of Experience](https://aka.ms/qerguide).
 

@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/31/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22d8383914755bdd3d9d185f083509de9175bef6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2231b8d9d80507be863d1aef64e8aa0d91cddeec
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463496"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569267"
 ---
-# <a name="prepare-my-users"></a>Preparar os meus usuários
+# <a name="prepare-my-users"></a>Preparar meus usuários
 
 Este artigo fornece uma visão geral dos requisitos de Preparando os usuários para utilizar serviços de nuvem de voz. Por seus usuários a preparação adequada, você vai Certifique-se de que está sendo fornecido o valor máximo para sua organização.
 

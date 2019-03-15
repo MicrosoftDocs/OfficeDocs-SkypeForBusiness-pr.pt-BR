@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 203a819eb3732d37aa65f92372eb21ffd59aea08
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ede6bb8d63a53ccd636bb9881d60e521492afb8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462064"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568452"
 ---
-# <a name="prepare-my-service"></a>Preparar o meu serviço
+# <a name="prepare-my-service"></a>Preparar meu serviço
 
 Este artigo fornece uma visão geral dos requisitos de preparação dos serviços de voz para sua organização de nuvem. Ao preparar-se adequadamente, você pode ser que você esteja pronto para fornecer recursos de voz para sua organização de nuvem.
 
@@ -114,7 +114,7 @@ Para obter informações adicionais, consulte:
 
 - [Planejamento técnico da Audioconferência](audio-conferencing.md#technical-planning-for-audio-conferencing)
 
-- [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+- [Configurar a conferência de áudio for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 - [Técnicas de planejamento para o sistema telefônico com a chamada de planos](calling-plan-landing-page.md)
 

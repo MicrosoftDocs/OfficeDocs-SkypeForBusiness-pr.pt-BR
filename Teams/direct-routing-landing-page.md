@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,21 +14,20 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de aterrissagem do roteamento direto
 appliesto: Microsoft Teams
-ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494057"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569858"
 ---
 # <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema Telefônico
 
 Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você implantou [conferência de & de reuniões](deploy-meetings-microsoft-teams-landing-page.md). Agora você está pronto para adicionar as cargas de trabalho de voz de nuvem e você decidiu usar sua próprias operadora de telefonia para conectividade de rede de telefônica pública comutada (PSTN) usando o recurso de roteamento direto de sistema do telefone. Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
 
-Este artigo descreve as principais decisões sobre implantação para roteamento direto, bem como considerações adicionais que convém configurar, com base nas necessidades da sua organização.  Você também deve ler [Nuvem de voz equipes da Microsoft](cloud-voice-landing-page.md) para obter mais informações sobre as ofertas de voz de nuvem da Microsoft.
+Este artigo descreve as principais decisões sobre implantação para roteamento direto, bem como considerações adicionais que talvez você queira pensar, com base nas necessidades da sua organização. Você também deve ler [Nuvem de voz equipes da Microsoft](cloud-voice-landing-page.md) para obter mais informações sobre as ofertas de voz de nuvem da Microsoft.
 
 ## <a name="learn-more-about-direct-routing"></a>Saiba mais sobre o roteamento direto
-
 
 Os artigos a seguir fornecem mais informações sobre como configurar e usar roteamento de telefone sistema direto. Configurando o roteamento direto requer uma compreensão do design de roteamento de PSTN. Você deve ler todos estes artigos para entender como planejar e configurar o roteamento direto:
 
@@ -44,10 +43,9 @@ Além disso, convém ler os artigos a seguir, dependendo dos requisitos:
 -  [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 - Assista a sessão de seguir para saber mais sobre o roteamento direto: [Roteamento direta em equipes da Microsoft](https://aka.ms/teams-direct-routing)
 
-## <a name="core-deployment-decisions"></a>Decisões principais de implantação
+## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
 
 Estas são as decisões principais a serem considerados para roteamento direto. 
-
 
 |Pergunte a si mesmo|Ação |
 | :------------|:-------|

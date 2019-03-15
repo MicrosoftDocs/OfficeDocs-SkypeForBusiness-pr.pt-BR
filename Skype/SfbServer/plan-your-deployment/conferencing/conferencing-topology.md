@@ -10,10 +10,10 @@ localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Resumo: Leia este tópico para saber mais sobre como planejar sua topologia de conferência no Skype Business Server.'
 ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
+ms.lasthandoff: 02/21/2019
 ms.locfileid: "25375954"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planeje sua topologia de conferência Skype para Business Server
@@ -77,7 +77,7 @@ A webconferência requer o seguinte:
   
 Skype para Business Server oferece as seguintes maneiras de configurar o Office Web Apps Server/Office Online Server. Dependendo de seus requisitos, você pode:
   
-- **Instale os dois Skype para Business Server e Office Web Apps Server/Office Online Server local atrás do firewall da organização e na mesma zona de rede.** Com essa topologia, o acesso externo ao Servidor do Office Web Apps/Servidor do Office Online será fornecido pelo servidor de proxy reverso. Idealmente, você deve instalar o Office Web Apps Server/Office Online Server na mesma zona do Skype para Business Server.
+- **Instale os dois Skype para Business Server e Office Web Apps Server/Office Online Server local atrás do firewall da organização e na mesma zona de rede.** With this topology, external access to Office Web Apps Server/Office Online Server will be provided through your reverse proxy server. Idealmente, você deve instalar o Office Web Apps Server/Office Online Server na mesma zona do Skype para Business Server.
     
     Skype externo para clientes corporativos pode se conectar para Skype para Business Server e Office Web Apps Server/Office Online Server usando um servidor proxy reverso, que é um servidor que recebe as solicitações da Internet e encaminha para a rede interna. (Os clientes internos não precisará usar o servidor proxy reverso, porque eles podem se conectar ao servidor on-line do Office Web Apps Server/Office diretamente.) Esta topologia funciona melhor se você quiser usar um farm dedicado do Office Web Apps Server/Office Online Server que é usado somente pelo Skype para Business Server.
     
@@ -85,7 +85,7 @@ Skype para Business Server oferece as seguintes maneiras de configurar o Office 
     
     Você não precisará instalar um servidor proxy reverso. em vez disso, todas as solicitações do servidor Office Web Apps Server/Office Online para Skype para Business Server são roteadas por meio do seu servidor de borda. Interna e sua Skype externo para clientes corporativos se conectar ao Office Web Apps Server/Office Online Server usando a URL externa.
     
-    Se o Office Web Apps Server/Office Online Server for implantado fora do firewall interno, selecione a opção o **que Office Web Apps Server é implantado em uma rede externa** (ou seja, de perímetro/Internet) no construtor de topologia.
+    If the Office Web Apps Server/Office Online Server is deployed outside your internal firewall, then select the option **Office Web Apps Server is deployed in an external network** (that is, perimeter/Internet) in Topology Builder.
     
 Para obter mais informações, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
@@ -104,7 +104,7 @@ Uma grande reunião exige pelo menos um Servidor Front-End e um Servidor Back-En
   
 O usuário que hospeda as grandes reuniões deve ter sua conta de usuário hospedada nesse pool de Front-Ends. No entanto, não recomendamos que você hospede outras contas de usuário nesse pool. Em vez disso, use-o apenas para reuniões grandes. A prática recomendada é criar uma conta de usuário especial nesse pool para ser usada apenas para hospedar reuniões grandes. Já que a definição de grandes reuniões é otimizada para um melhor desempenho, usá-la como usuário normal poderia gerar problemas como incapacidade de promover uma sessão de P2P em uma reunião quando um ponto de extremidade de PSTN estiver envolvido.
   
-Gerenciar um pool com exatamente dois Servidores Front-End exige algumas considerações especiais. Para obter mais informações, consulte [Noções básicas de topologia para Skype para Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) e [topologias de referência para Skype para Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
+Gerenciar um pool com exatamente dois Servidores Front-End exige algumas considerações especiais. Para obter mais informações, consulte [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) e [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
 Além disso, se você quiser oferecer failover e backup de recuperação de desastres para o pool usado em grandes reuniões, poderá emparelhar com um pool dedicado de configuração semelhante em outro datacenter. Para obter detalhes, consulte [Planejar a alta disponibilidade e recuperação de desastres em Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
@@ -114,7 +114,7 @@ As notas adicionais sobre a topologia incluem:
     
 - É necessário haver um Servidor do Office Web Apps/Servidor do Office Online para habilitar a função de apresentação do PowerPoint em grandes reuniões. O Servidor do Office Web Apps/Servidor do Office Online pode ser dedicado ao pool de grandes reuniões ou pode ser o mesmo Servidor do Office Web Apps/Servidor do Office Online usado por outros pools no site em que o pool dedicado está implantado. Para obter mais informações, consulte [Configure integração com o Office Web Apps Server no Skype para Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
-- Os Servidores Front-End exige balanceamento de carga para tráfego HTTP (como download de conteúdo de reunião). O balanceamento de carga DNS é recomendado para tráfego SIP. Para obter detalhes, consulte [requisitos do Skype para negócios de balanceamento de carga](../../plan-your-deployment/network-requirements/load-balancing.md). 
+- Os Servidores Front-End exige balanceamento de carga para tráfego HTTP (como download de conteúdo de reunião). O balanceamento de carga DNS é recomendado para tráfego SIP. Para obter detalhes, consulte [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
 - Se desejar usar o Monitoring Server para o pool de reunião grande dedicado, recomendamos usando o Monitoring Server e seu banco de dados que são compartilhados em todos os pools de servidor Front-End da sua Skype para implantação de servidor de negócios. Para obter mais informações, consulte [Plan for monitoring no Skype para Business Server](../../plan-your-deployment/monitoring.md).
     

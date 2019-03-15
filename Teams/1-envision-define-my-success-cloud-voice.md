@@ -1,10 +1,10 @@
 ---
-title: Definir o sucesso em audioconferências, o sistema telefônico com planos de chamada, ou o sistema direto roteamento de telefone - Teams da Microsoft
+title: Definir sucesso em Conferências de Áudio, Sistema de Telefonia com Planos de Chamadas ou Sistema Telefônico de Roteamento Direto - Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 06/07/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c6d841a593cf88830f95bb6282b21a081abf6f21
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465104"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569754"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -67,7 +67,7 @@ Casos de uso de negócios servem para definir e documentar os resultados de neg�
 > 
 > |         |
 > |---------|
-> |**Descrição do processo comercial atual**<br>A configuração padrão dos espaços de trabalho do escritório da Contoso inclui um telefone em cada mesa. Cada funcionário recebeu uma direct inward discando o número de telefone (DID). Os telefones de área de trabalho são conectados a um sistema PBX e conectados à PSTN por meio de um tronco de (SIP) do protocolo de iniciação de sessão. Os funcionários podem fazer e receber chamadas telefônicas somente nos telefones de mesa atribuídos a eles.|
+> |**Descrição do processo comercial atual**<br>A configuração padrão de espaços de trabalho da Contoso office inclui um telefone de mesa para cada equipe de assistência técnica. Cada funcionário recebeu uma direct inward discando o número de telefone (DID). Os telefones de área de trabalho são conectados a um sistema PBX e conectados à PSTN por meio de um tronco de (SIP) do protocolo de iniciação de sessão. Funcionários só podem fazer e receber chamadas de telefone em seus telefones de área de trabalho atribuídos.|
 > |**Desafios com os processos comerciais existentes**<br>Análise de uso dos telefones de área de trabalho mostra que somente 10% dos telefones de mesa ativamente usados, com o restante configurado tanto para encaminhar chamadas para telefones celulares ou para ligar simultaneamente para telefones celulares. Manter o sistema PBX existente e telefones de mesa associados contribui para 20% de custo de serviço de telefonia mensal da Contoso.|
 > |**Como a tecnologia pode superar esses desafios**<br>Chamar planos permitirá que o computador do pessoal de um usuário para receber e fazer chamadas telefônicas através da rede de dados utilizando o aplicativo Microsoft Teams nativo. Isso remove a necessidade de distribuir e manter os telefones de mesa e abre a oportunidade para encerrar o sistema PBX, porque o serviço de telefone pode ser entregues por meio da nuvem pela rede com nenhuma dependência de um sistema telefônico tradicional.|
 > |**Resultados comerciais esperados e mensuráveis**<br>Removendo os requisitos de manutenção e o descomissionamento de PBX herdado e telefones de mesa fornecerá uma redução de 20% em telefonia mensal despesas de serviço. Chamar planos simplificará espaços de trabalho do office, permitindo que a Contoso expandir suas operações, estabelecendo novos escritórios com custos com um mínimo de telefonia antecipado.|
@@ -79,7 +79,7 @@ Casos de uso de negócios servem para definir e documentar os resultados de neg�
 > 
 > |         |
 > |---------|
-> |**Descrição do processo comercial atual**<br>A configuração padrão dos espaços de trabalho do escritório da Contoso inclui um telefone em cada mesa. Cada funcionário recebeu uma direct inward discando o número de telefone (DID). Os telefones de área de trabalho são conectados a um sistema PBX e conectados à PSTN por meio de um tronco de (SIP) do protocolo de iniciação de sessão. Os funcionários podem fazer e receber chamadas telefônicas somente nos telefones de mesa atribuídos a eles.|
+> |**Descrição do processo comercial atual**<br>A configuração padrão de espaços de trabalho da Contoso office inclui um telefone de mesa para cada equipe de assistência técnica. Cada funcionário recebeu uma direct inward discando o número de telefone (DID). Os telefones de área de trabalho são conectados a um sistema PBX e conectados à PSTN por meio de um tronco de (SIP) do protocolo de iniciação de sessão. Funcionários só podem fazer e receber chamadas de telefone em seus telefones de área de trabalho atribuídos.|
 > |**Desafios com os processos comerciais existentes**<br>Análise de uso dos telefones de área de trabalho mostra que somente 10% dos telefones de mesa ativamente usados, com o restante configurado tanto para encaminhar chamadas para telefones celulares ou para ligar simultaneamente para telefones celulares. Manter o sistema PBX existente e telefones de mesa associados contribui para 20% de custo de serviço de telefonia mensal da Contoso.|
 > |**Como a tecnologia pode superar esses desafios**<br>O contrato de provedor de tronco SIP recentemente foi assinado e será in-loco por três anos. Roteamento direto permite a conectividade PSTN a ser fornecido pelo provedor de tronco SIP e também permitirá que o computador do pessoal de um usuário para receber e fazer chamadas telefônicas através da rede de dados utilizando o aplicativo Microsoft Teams nativo. Isso remove a necessidade de distribuir e manter os telefones de mesa e abre a oportunidade para encerrar o sistema PBX existente, enquanto preservam a pegada de controlador (SBC) um local limitado sessão borda.|
 > |**Resultados comerciais esperados e mensuráveis**<br>Removendo os requisitos de manutenção e o descomissionamento de PBX herdado e telefones de mesa fornecerá uma redução de 20% em telefonia mensal despesas de serviço. Roteamento direto simplificará espaços de trabalho do office, permitindo que a Contoso expandir suas operações, estabelecendo novos escritórios com custos com um mínimo de telefonia antecipado.|
@@ -164,7 +164,7 @@ OKRs contêm os objetivos que você definir no início do projeto, e você defin
 > |Objetivos  |Principais resultados  |Fazer  |
 > |---------|---------|---------|
 > |Implantar chamar planos nas filiais European pelo final do ano fiscal 2018|FY18Q3: Implantar o chamar planos no escritório Londres|Concepção<ul><li>Criar plano de sucesso</li><li>Criar plano detalhado de implementação técnica</li></ul><p>Integração<ul><li>Executar plano de sucesso</li><li>Executar plano de implementação técnica</li></ul>|
-> |Encerrar o PBX herdado no escritório de Londres até o final do ano fiscal de 2018|4º trimestre do ano fiscal de 2018: Encerrar o PBX herdado no escritório de Londres|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
+> |Encerre o PBX herdado no escritório Londres pelo final do ano fiscal 2018|FY18Q4: Encerrar o PBX herdado no escritório Londres|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
 > 
 > [!TIP]
 > Exemplos de OKRs relevantes para uma implementação de roteamento direto podem ser referenciados abaixo:
@@ -214,7 +214,7 @@ Você precisa identificar os riscos de negócios como parte deste exercício e d
 > |Risco  |Probabilidade  |Impacto  |Geral  |Plano de mitigação  |
 > |---------|---------|---------|---------|---------|
 > |A incorporação acrescentará até 1.000 pessoas|Alto|Alto|Alto|<ul><li>Para empresas mescladas, crie um OKR separado que se aplica às suas próprias fases do projeto (Envision, Onboard, o valor de unidade)</li><li>Não incluir esses OKRs em OKRs existentes</li></ul>|
-> |A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte ao número de telefone portando antes do tempo (registro de serviço do cliente, detalhes da carta de autorização de cobrança)</li><li>Ajustar a cronograma do projeto para acomodar o tempo de execução de portabilidade número de telefone</li><li>Comunicar o uso de novos números de conferência de discagem para os participantes externos</li><li>Usar números de telefone temporários com a manipulação de IDs de Chamadas</li></ul>|
+> |A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte ao número de telefone portando antes do tempo (registro de serviço do cliente, detalhes da carta de autorização de cobrança)</li><li>Ajustar a cronograma do projeto para acomodar o tempo de execução de portabilidade número de telefone</li><li>Comunicar o uso de novos números de conferência de discagem para os participantes externos</li><li>Usar números de telefone temporário com manipulação da ID do chamador</li></ul>|
 > |Reestruturação planejada da rede|Alto|Médio|Médio|<ul><li>Antes de implementar as equipes como uma plataforma de colaboração e o communications moderno, conduzir uma avaliação de prontidão de rede para sites no escopo do projeto</li></ul>|
 > |Configuração de SBC|Alto|Alto|Alto|<ul><li>Antes de implementar as equipes como substituição para o PBX existente, confirme que você pode atender a todos os requisitos de configuração de SBC</li><li>Confirme se os recursos de suporte SBC tem o conjunto para definir o SBC para roteamento direto de habilidades adequadas</li></ul>|
 

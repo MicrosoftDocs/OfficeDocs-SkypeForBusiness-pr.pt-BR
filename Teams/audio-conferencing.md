@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120680"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633286"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Orientações práticas de Audioconferência no Microsoft Teams
 ============================================================
@@ -324,7 +324,7 @@ O serviço de Audioconferência do Office 365 inclui:
 -   Suporte de vários idiomas para a ponte de conferência (primária e secundária)
 -   Um número de telefone padrão para o locatário.
 
-A descrição completa das funcionalidades incluídas pode ser consultada em [Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) e em [Números de telefone e Audioconferência](phone-numbers-for-audio-conferencing-in-teams.md).
+Para obter uma descrição completa dos recursos incluídos, consulte [Configurar a conferência de áudio para equipes da Microsoft](set-up-audio-conferencing-in-teams.md) e [números de telefone de conferência de áudio](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Os números de telefone exclusivos da ponte de conferência são contados em relação ao limite de números de telefone que podem ser adquiridos por locatário com base no número de licenças aplicáveis, conforme descrito em [Obter números de telefone para o serviço Skype for Business e Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Os números de telefone gratuitos da ponte de conferência não precisam de Créditos de Comunicação.
@@ -549,4 +549,4 @@ Geração de valor ===========
 <br>
 ## <a name="see-also"></a>Consulte também
 
-[Configurar a Audioconferência para o Skype for Business e o Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Configurar a conferência de áudio for Microsoft Teams](set-up-audio-conferencing-in-teams.md)

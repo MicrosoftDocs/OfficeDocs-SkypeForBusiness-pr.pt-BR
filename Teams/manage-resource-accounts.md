@@ -18,14 +18,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Gerenciar contas de recursos em Teams da Microsoft
-ms.openlocfilehash: 22574b2045f162353c3b1154590f3cf903721cf8
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: dad2ea10f2dbdeb387a74d01fd48ca6de9805a5a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408255"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633246"
 ---
-# <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recurso no Microsoft Teams
+# <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
 Uma conta de recurso é também conhecido como um objeto de usuário desabilitadas no Windows Azure Active Directory e pode ser usada para representar os recursos em geral. No Exchange pode ser usada para representar a salas de conferência, por exemplo e permitir que eles tiverem um número de telefone. Uma conta de recurso pode ser hospedada no Microsoft 365 ou no local usando Skype para Business server, e essas contas são criadas usando comandos do Powershell.
 
@@ -41,15 +41,15 @@ Para começar é importante se lembrar de algumas coisas:
 - Sua organização deve ter (no mínimo), uma licença Enterprise E3 plus **Sistema telefônico** ou uma licença Enterprise E5. O número de licenças de usuário do **Sistema telefônico** atribuídos afeta o número de números de serviço que estão disponíveis a serem usados para as contas de recursos atribuídas a filas ou atendedores automáticos de chamadas. O número de contas de recurso, que você pode ter é dependente do número de licenças de **Sistema telefônico** e **Conferência de áudio** que são atribuídas em sua organização. Para saber mais sobre o licenciamento, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
     > [!NOTE]
-    > Para redirecionar chamadas para pessoas na sua organização que estiverem Online, eles devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem chamando de planos do Office 365. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirecionar chamadas para pessoas na sua organização que estiverem Online, eles devem ter uma licença de **Sistema telefônico** e ser habilitados para o Enterprise Voice ou tem chamando de planos do Office 365. Consulte [as equipes da Microsoft atribuir licenças](assign-teams-licenses.md). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para saber mais sobre a chamada de planos do Office 365, consulte [Chamar planos do Office 365](calling-plans-for-office-365.md).
-- Você só pode atribuir Chamada Tarifada e números de telefone de chamada gratuita do serviço que você obteve no **Centro de administração de equipes da Microsoft** ou transferidos do outro provedor de serviços para uma conta de recurso. Para obter e usar números de serviço gratuitos, você precisa configurar Créditos de Comunicações.
+- Você só pode atribuir Chamada Tarifada e números de telefone de chamada gratuita do serviço que você obteve no **Centro de administração de equipes da Microsoft** ou transferidos do outro provedor de serviços para uma conta de recurso. Para obter e usar números gratuitos de serviço, você precisará configurar créditos de comunicações.
 
 > [!NOTE]
 > Números de telefone do usuário (assinante) não podem ser atribuídos a uma conta de recurso. Apenas os números de telefone gratuitos ou tarifas do serviço podem ser usados.
 
-Para atribuir um número de telefone a uma conta de recurso, você precisará obter ou transferir sua chamada Tarifada existente ou serviço gratuito números. Após você fazer a chamada Tarifada ou números de telefone gratuitos de serviço, eles serão exibidas no **Centro de administração do Microsoft equipes** > **voz** > **números de telefone**e a disposição de **tipo de número** listado listada como **serviço - gratuito**. Para obter seus números de serviço, consulte [Getting números de telefone de serviço](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) ou se você deseja transferir e o número de serviço existente, consulte [transferir os números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
+Para atribuir um número de telefone a uma conta de recurso, você precisará obter ou transferir sua chamada Tarifada existente ou serviço gratuito números. Após você fazer a chamada Tarifada ou números de telefone gratuitos de serviço, eles serão exibidas no **Centro de administração do Microsoft equipes** > **voz** > **números de telefone**e a disposição de **tipo de número** listado listada como **serviço - gratuito**. Para obter seus números de serviço, consulte [Getting números de telefone de serviço](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) ou se você deseja transferir um número existente de serviço, consulte [números de telefone de transferência para o Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, você não pode usar o Centro de administração do Microsoft Teams para obter os números de serviço. Vá para [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez disso, para ver como fazê-lo de fora dos Estados Unidos.
@@ -94,19 +94,19 @@ Quando terminar, clique em **Salvar**.
 
 Para implementações que são híbrida com Skype para Business Server:
 
-[Planejar o atendedor automático de nuvem](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+[Atendedores automáticos do plano da nuvem](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[Configurar atendedores automáticos de nuvem](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
+[Configurar os atendedores automáticos da nuvem](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Para implementações em equipes ou Skype para Business Online:
 
 [O que são atendedores automáticos do Sistema de Telefonia?](what-are-phone-system-auto-attendants.md)
 
-[Configurar os atendedores automáticos do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Configurar os atendedores automáticos do Sistema Telefônico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[Exemplo de pequenos negócios - configurar um atendedor automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Exemplo de pequena empresa - Configurar um atendedor automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Criar uma fila de chamada do Sistema de Telefonia](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Criar uma fila de chamada no Sistema Telefônico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

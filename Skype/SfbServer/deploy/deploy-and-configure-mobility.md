@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Este artigo falaremos as etapas para configurar um Skype existente para instalação do servidor de negócios para usar o serviço de mobilidade, permitindo que seus dispositivos móveis possam tirar vantagem do Skype para recursos de mobilidade do servidor de negócios.
-ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 788f4084f902fc1b5fee8ae29fcd518542f3572d
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649712"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30536030"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implantar e configurar mobilidade do Skype para Business Server  
  
@@ -466,7 +466,7 @@ Para examinar melhor os procedimentos de comando, consulte [Test-CsUcwaConferenc
 ## <a name="configure-for-push-notifications"></a>Configurar para notificações por push
 <a name="ConfigPush"> </a>
 
-As notificações por push, na forma de notificações, ícones ou alertas, podem ser enviadas para um dispositivo móvel mesmo quando o aplicativo Skype ou Lync está inativo. Mas o que são notificações por push? Elas são alertas de evento, como um convite novo ou perdido enviado por mensagem instantânea ou uma mensagem de voz recebida. O Skype para serviço de mobilidade do servidor comercial envia essas notificações para o Skype baseado em nuvem para negócios Server Push notificação de serviço, que envia notificações para serviço de notificação Push do Microsoft (MSNS) para usuários do Windows Phone.
+As notificações por push, na forma de notificações, ícones ou alertas, podem ser enviadas para um dispositivo móvel mesmo quando o aplicativo Skype ou Lync está inativo. Mas, quais são as notificações por push? Elas são alertas de evento, como um convite novo ou perdido enviado por mensagem instantânea ou uma mensagem de voz recebida. O Skype para serviço de mobilidade do servidor comercial envia essas notificações para o Skype baseado em nuvem para negócios Server Push notificação de serviço, que envia notificações para serviço de notificação Push do Microsoft (MSNS) para usuários do Windows Phone.
   
 Essa funcionalidade é alterada do Lync Server 2013, mas se você tiver um Skype para Business Server, você vai querer fazer o seguinte:
   

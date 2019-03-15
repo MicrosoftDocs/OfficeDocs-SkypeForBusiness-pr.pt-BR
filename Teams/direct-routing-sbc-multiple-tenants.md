@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Saiba como configurar uma borda controlador sessão (SBC) para atender a vários locatários.
-ms.openlocfilehash: 438bfbc487f7723c63afc7b7c304e832bf7d49a2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 166093a628eb7a048c1959554514f74bcb1b0677
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353566"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569698"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -114,7 +114,7 @@ Para obter mais informações sobre funções de administração e como atribuir
 
     ![Adicionando um domínio de base](media/direct-routing-2-sbc-add-domain.png)
 
-3. Clique em **Avançar**.
+3. Click **Next**.
 4. No exemplo, o locatário já tiver adatum.biz como um nome de domínio verificado. O assistente não pedirá para verificação adicional porque customers.adatum.biz é um subdomínio para o nome já está registrado. No entanto, se você adicionar um FQDN que não foi verificado antes, você precisará percorrer o processo de verificação. O processo de verificação é [descrito abaixo](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
     ![Confirmação de nome de domínio verfied](media/direct-routing-3-sbc-verify-domain.png)
@@ -154,7 +154,7 @@ Para obter mais informações sobre funções de administração e como atribuir
 
     ![Adicionando um subdomínio do cliente](media/direct-routing-5-sbc-add-customer-domain.png)
 
-3. Clique em **Avançar**.
+3. Click **Next**.
 4. O FQDN nunca foi registrado no inquilino. Na próxima etapa, você precisará verificar o domínio. Selecione **Adicionar um registro TXT em vez disso**. 
 
     ![Opções na página verificar domínio](media/direct-routing-6-sbc-verify-customer-domain.png)
@@ -208,6 +208,14 @@ Por exemplo:
 ```
 New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
 ```
+
+Ao criar o tronco, você receberá a seguinte mensagem de erro:
+
+```
+Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
+```
+
+Aguarde algum tempo para que o registro de domínio e ativação para replicar e tente novamente.
 
 Provisionar usuários com os números de telefone e configurar o roteamento de voz.
 

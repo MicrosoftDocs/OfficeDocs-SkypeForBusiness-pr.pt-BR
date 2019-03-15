@@ -1,10 +1,10 @@
 ---
-title: Implantar o serviço de voz de nuvem Teams da Microsoft
+title: Implantar os serviços de voz da nuvem do Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 05/16/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458992"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568460"
 ---
-# <a name="deploy-my-service"></a>Implantar o meu serviço
+# <a name="deploy-my-service"></a>Implantar meu serviço
 
 Este artigo fornece uma visão geral dos requisitos de adequadamente implantando serviços de nuvem de voz. Seguindo a orientação prescritiva para a implantação de serviços de voz de nuvem, você pode assegurar com êxito para todos os requisitos de conta e fornecer resultados repetidos.
 

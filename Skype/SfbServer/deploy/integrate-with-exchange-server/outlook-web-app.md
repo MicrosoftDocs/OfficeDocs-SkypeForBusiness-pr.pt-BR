@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumo: Integre Skype para Business Server e o Outlook Web App.'
-ms.openlocfilehash: 63533e0f592a332e1e5f4ff9829b16cde4b1299f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17f58acac3b59611df58d4c60ce875a5a17187cf
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263918"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569627"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar a integração entre o local Skype para Business Server e o Outlook Web App
 
@@ -40,7 +40,7 @@ Usando o Skype do Shell de gerenciamento do servidor de negócios, configure o s
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
-- Parâmetro **AllowFederatedUsers** Especifica se os usuários internos poderão se comunicar com usuários de domínios federados. Essa propriedade também determina se os usuários internos podem se comunicar com usuários em um cenário de espaço de endereço SIP compartilhado com Skype para Business Server e o Exchange Online.
+- O parâmetro **AllowFederatedUsers** especifica se usuários internos têm permissão para se comunicar com usuários de domínios federados. Essa propriedade também determina se os usuários internos podem se comunicar com usuários em um cenário de espaço de endereço SIP compartilhado com Skype para Business Server e o Exchange Online.
 
 Para obter detalhes sobre como usar o Skype do Shell de gerenciamento do servidor de negócios, consulte [Skype do Shell de gerenciamento do servidor de negócios](../../manage/management-shell.md).
 
@@ -55,15 +55,15 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 > [!NOTE]
 > Se você estiver usando o Office 365 operado pela 21Vianet na China, substitua o valor do parâmetro ProxyFqdn neste exemplo ("exap.um.outlook.com") pelo FQDN do serviço operado pela 21Vianet: "exap.um.partner.outlook.cn". Se você estiver usando o Office 365 GCC alta, substituir o valor do parâmetro ProxyFqdn neste exemplo ("exap") com o FQDN para GCC alta: "exap.um.office365.us".
 
-- **Identidade** Especifica um identificador de valor de cadeia de caracteres exclusiva para o provedor de hospedagem que você está criando (por exemplo, "Exchange Online"). Valores que contêm espaços devem estar entre aspas duplas.
+- **Identity** especifica um identificador de valor de cadeia de caracteres único para o provedor de hospedagem que está sendo criado (por exemplo "Exchange Online"). Valores que contêm espaços devem estar entre aspas duplas.
 
 - **Habilitado ** indica se a conexão de rede entre seu domínio e o provedor de hospedagem está habilitado. Deve ser definido como True.
 
-- **EnabledSharedAddressSpace** indica se o provedor de hospedagem será usado em um cenário de espaço de endereço SIP compartilhado. Deve ser definido como True.
+- **EnabledSharedAddressSpace** indica se o provedor de hospedagem será usado em um cenário de espaço de endereçamento SIP compartilhado. Deve ser definido como True.
 
 - **HostsOCSUsers** indica se o provedor de hospedagem é usado para hospedar o Office Communications Server ou Skype para Business Server. Deve ser definido como False.
 
-- **ProxyFQDN** Especifica o nome de domínio totalmente qualificado (FQDN) para o servidor proxy usado pelo provedor de hospedagem. Para o Exchange Online, o FQDN é exap.um.outlook.com.
+- **ProxyFQDN** especifica o nome de domínio totalmente qualificado (FQDN) para o servidor de proxy usado pelo provedor de hospedagem. Para o Exchange Online, o FQDN é exap.um.outlook.com.
 
 - **IsLocal** indica se o servidor proxy usado pelo provedor de hospedagem está contido dentro de sua Skype para a topologia de servidor de negócios. Deve ser definido como False.
 
@@ -78,14 +78,16 @@ Para verificar as atualizações de replicação, em um servidor interno à sua 
 ```
 Get-CsManagementStoreReplicationStatus
 ```
+Verifique se o valor de UpToDate está mostrando TRUE para todas as réplicas.
 
 Para confirmar que as alterações foram aplicadas, no servidor de borda, execute o seguinte cmdlet:
 
 ```
 Get-CsHostingProvider -LocalStore
 ```
+Verificar se as informações mostradas correspondem as alterações confirmadas nas etapas anteriores.
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Fornecendo Skype para Business Server caixa postal aos usuários em UM do Exchange hospedado](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx)
 

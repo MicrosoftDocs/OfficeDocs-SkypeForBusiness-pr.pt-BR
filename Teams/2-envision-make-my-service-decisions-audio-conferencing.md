@@ -4,23 +4,23 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 12/28/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Saiba mais sobre as reuniões, o licenciamento e a disponibilidade, definir as configurações de ponte de conferência, adquirir ou transferir os números de telefone, escolha locatário planos de discagem.
+description: Saiba mais sobre reuniões, licenciamento e planos de discagem de disponibilidade, definindo as configurações de ponte de conferência, aquisição ou transferindo números de telefone e escolher inquilino.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459144"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569994"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisões meu serviço
 
@@ -68,8 +68,8 @@ Depois de confirmar que sua organização está qualificada obter o serviço de 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida quais locais de usuários ou escritórios implementarão o serviço de Audioconferência.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais de usuários ou escritórios que implementarão o serviço de Audioconferência.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida qual usuário locais ou escritórios implementará o serviço de conferência de áudio.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os locais do usuário ou escritórios estar habilitado para o serviço de conferência de áudio.</li></ul>|
 
 > [!TIP]
 > Abaixo é um exemplo de um modelo de lista de habilitação de site de conferência de áudio:
@@ -161,11 +161,11 @@ Se você deve transferir números de telefone de ponte de conferência existente
 
 Para saber mais sobre os números de telefone de ponte de conferência, revise os seguintes artigos:
 
--   [Configurar conferência de áudio para o Skype for Business e Teams da Microsoft](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+-   [Configurar a conferência de áudio for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 -   [Números de telefone para audioconferência](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [Obter números de telefones de serviço](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+-   [Obter números de telefone de serviço](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 -   [Transferir números de telefone para o Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
@@ -225,7 +225,7 @@ Com esses controles, você poderá decidir se os organizadores de reunião podem
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decidir se sua organização requer notificações de entrada e saída, e — se contiver — o tipo de notificação a serem implementados (tons, número de telefone ou nome registrado).</li><li>Decida o comprimento de PIN de conferência de áudio que atende aos seus requisitos de segurança da organização.</li><li>Decida se sua organização deseja assumir o controle das comunicações do usuário relacionadas ao serviço de conferência de áudio.</li><li>Decidir os números de telefone da ponte da conferência a serem atribuídos a cada organizador de reunião.</li><li>Decida se alguns organizadores de reunião precisam usar números de telefone de ponte de conferência de discagem gratuita para suas reuniões.</li><li>Decida se precisam de alguns organizadores de reunião permitir que os chamadores não autenticados iniciar uma reunião.</li><li>Decida se alguns organizadores de reunião precisam discar conferência seja controlado.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decidir se sua organização requer notificações de entrada e saída, e — se contiver — o tipo de notificação a serem implementados (tons, número de telefone ou nome registrado).</li><li>Decida o comprimento de PIN de conferência de áudio que atende aos seus requisitos de segurança da organização.</li><li>Decida se sua organização deseja assumir o controle das comunicações do usuário relacionadas ao serviço de conferência de áudio.</li><li>Decida os números de telefone de ponte de conferência a ser atribuído a cada organizador da reunião.</li><li>Decida se alguns organizadores de reunião precisam usar números de telefone de ponte de conferência de discagem gratuita para suas reuniões.</li><li>Decida se precisam de alguns organizadores de reunião permitir que os chamadores não autenticados iniciar uma reunião.</li><li>Decida se alguns organizadores de reunião precisam discar conferência seja controlado.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documentar detalhadamente as configurações de ponte de conferência (notificações de entrada e saída, tamanho do PIN, notificação por email de alteração do configurações)</li><li>Documente os números de telefone de ponte de conferência a ser atribuído a cada organizador da reunião e a configuração correspondente para controlar a diretiva para os chamadores não-autenticados e gratuitos e discar controles.</li></ul>|
 
 > [!TIP]
@@ -342,7 +342,7 @@ Para saber mais sobre os planos de discagem, consulte [quais são os planos de d
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização requer planos de discagem personalizada (requisitos de negócios, requisitos de adoção e assim por diante).</li><li>Se aplicável, decidir o escopo do plano de discagem para locatários (locatário global ou locatário usuário) para ter suporte para os requisitos dos planos de discagem personalizados.</li><li>Se aplicável, decidir os planos de discagem de locatário que você vai criar para suportar os locais do usuário ou escritórios em escopo para a implementação de voz de nuvem.</li><li>Se aplicável, decida quais usuários exigem um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se sua organização requer planos de discagem personalizada (requisitos de negócios, requisitos de adoção e assim por diante).</li><li>Se aplicável, decida o escopo do plano de discagem de locatário (inquilino global ou Locatário do usuário) para suportar os requisitos para planos de discagem personalizada.</li><li>Se aplicável, decidir os planos de discagem de locatário que você vai criar para suportar os locais do usuário ou escritórios em escopo para a implementação de voz de nuvem.</li><li>Se aplicável, decida quais usuários exigem um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os planos de discagem personalizada e as regras de normalização associadas a ser configurado como parte da sua implementação de voz de nuvem.</li><li>Os usuários que devem ser atribuídos a um plano de discagem personalizada e o plano de discagem de locatário a ser atribuído para cada usuário do documento.</li></ul>|
 
 > [!TIP]

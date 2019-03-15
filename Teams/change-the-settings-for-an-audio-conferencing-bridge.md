@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha as etapas que necessárias para alterar configurações para uma ponte de conferência que é usado para solicitar que os chamadores e coletar nomes e pins para organizadores de reunião, quando eles não estão usando Skype para aplicativos de negócios ou Teams da Microsoft. '
-ms.openlocfilehash: 04ad6cfe3de9b4549db6382fe790b7fb8c644fc7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494193"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633229"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Alterar as configurações de uma ponte de audioconferência
 
@@ -74,7 +74,7 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
     
 2. Na página **configurações de ponte da Microsoft** , em que a **experiência de participação da reunião**, selecione:
     
-   - **Habilitar a ativação das notificações de entrada e saída** Esta opção é selecionada por padrão. Se você desmarcar a caixa de seleção, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
+   - **Habilitar a ativação de notificações de entrada e saída de reunião** Esta opção é selecionada por padrão. Se você desmarcar a caixa de seleção, os usuários que já tenham ingressado na reunião não serão notificados quando alguém entra ou sai da reunião.
     
    - Quando você seleciona **Ativar entrada de reunião e sair notificações para ser ativado**, você pode selecionar essas opções na lista **tipo de anúncio de entrada/saída** :
     
@@ -82,7 +82,7 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
     
    - **Toques** Quando os usuários discam para uma reunião, um tom de áudio será reproduzido quando eles entrarem-lo.
   
-   - **Pedir para os chamadores gravarem o nome antes de participar da reunião** Esta opção é selecionada por padrão. Se você desmarcar a caixa de seleção, os chamadores não solicitados registrar seus nomes antes de ingressar em uma reunião.
+   - **Peça que os chamadores registrem seus nomes antes de ingressar na reunião** Esta opção é selecionada por padrão. Se você desmarcar a caixa de seleção, os chamadores não solicitados registrar seus nomes antes de ingressar em uma reunião.
     
 3. Depois de fazer suas alterações, clique em **Salvar**.
     
@@ -134,4 +134,6 @@ A ponte de conferência atende uma chamada e solicita que o chamador com os prom
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar a Audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Configurar a conferência de áudio for Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+
+[Configure a conferência de áudio para Skype para Business Online](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

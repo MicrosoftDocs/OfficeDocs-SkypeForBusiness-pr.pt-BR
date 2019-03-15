@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,12 +13,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 4dd22442cec0a2171a9833b043af415b02b78d99
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ffea5c4b73c5034dffcd39f3f7ddf17277c37b03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374329"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568740"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -26,7 +26,7 @@ Este artigo fornece uma visão geral dos requisitos de definição de sucesso pa
 
 <!--ENDOFSECTION-->
 
-## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Definir casos de uso comercial para o Sistema de Telefonia com Planos de Chamadas
+## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Definir os casos de uso de negócios para o sistema telefônico com planos de chamada
 
 As organizações podem usar o sistema telefônico com planos de chamar para modernizar o seu local de trabalho, permitindo que os usuários façam chamadas de telefone relacionado aos negócios de seus computadores e dispositivos móveis.
 
@@ -49,10 +49,10 @@ Casos de uso de negócios servem para definir e documentar os resultados de neg�
 > 
 > |         |
 > |---------|
-> |**Descrição do processo comercial atual**<br>A configuração padrão dos espaços de trabalho do escritório da Contoso inclui um telefone em cada mesa. Cada funcionário recebeu uma direct inward discando o número de telefone (DID). Os telefones de área de trabalho são conectados a um sistema PBX e conectados à PSTN por meio de um tronco de (SIP) do protocolo de iniciação de sessão. Os funcionários podem fazer e receber chamadas telefônicas somente nos telefones de mesa atribuídos a eles.|
+> |**Descrição do processo comercial atual**<br>A configuração padrão de espaços de trabalho da Contoso office inclui um telefone de mesa para cada equipe de assistência técnica. Cada funcionário recebeu uma direct inward discando o número de telefone (DID). Os telefones de área de trabalho são conectados a um sistema PBX e conectados à PSTN por meio de um tronco de (SIP) do protocolo de iniciação de sessão. Funcionários só podem fazer e receber chamadas de telefone em seus telefones de área de trabalho atribuídos.|
 > |**Desafios com os processos comerciais existentes**<br>Análise de uso dos telefones de área de trabalho mostra que somente 10% dos telefones de mesa ativamente usados, com o restante configurado tanto para encaminhar chamadas para telefones celulares ou para ligar simultaneamente para telefones celulares. Manter o sistema PBX existente e telefones de mesa associados contribui para 20% de custo de serviço de telefonia mensal da Contoso.|
 > |**Como a tecnologia pode superar esses desafios**<br>O sistema telefônico com planos de chamar permitirá que o computador do pessoal de um usuário para receber e fazer chamadas telefônicas através da rede de dados utilizando o aplicativo Microsoft Teams nativo. Isso remove a necessidade de distribuir e manter os telefones de mesa e abre a oportunidade para encerrar o sistema PBX, porque o serviço de telefone pode ser entregues por meio da nuvem pela rede com nenhuma dependência de um sistema telefônico tradicional.|
-> |**Resultados comerciais esperados e mensuráveis**<br>Removendo os requisitos de manutenção e o descomissionamento de PBX herdado e telefones de mesa fornecerá uma redução de 20% em telefonia mensal despesas de serviço. O Sistema de Telefonia com Planos de Chamadas simplificará os espaços de trabalho, permitindo que a Contoso expanda suas operações com o estabelecimento de novos escritórios com custos iniciais de telefonia mínimos.|
+> |**Resultados comerciais esperados e mensuráveis**<br>Removendo os requisitos de manutenção e o descomissionamento de PBX herdado e telefones de mesa fornecerá uma redução de 20% em telefonia mensal despesas de serviço. O sistema telefônico com planos de chamar simplificará espaços de trabalho do office, permitindo que a Contoso expandir suas operações, estabelecendo novos escritórios com custos com um mínimo de telefonia antecipado.|
 
 Além de definir seu negócio use casos, para definir os limites do projeto que deve ser visam esclarecimento unidade sobre:
 
@@ -67,7 +67,7 @@ Além de definir seu negócio use casos, para definir os limites do projeto que 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Cite todos os casos de uso de negócios para o sistema telefônico com chamar planos se pode identificar em sua organização.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente todos os casos de uso de negócios para o sistema telefônico com planos de chamada para sua organização.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente todos os casos de uso de negócios para o sistema telefônico com planos de chamada para sua organização.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -102,7 +102,7 @@ Os casos de uso de negócios definidos na etapa anterior incluam um escopo organ
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Quem irá preencher cada função principal interessado para sua organização?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente todas as principais partes interessadas e comunicar as expectativas da função e responsabilidades para cada indivíduo atribuído.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente todas as principais partes interessadas e comunicar as expectativas da função e responsabilidades para cada indivíduo atribuído.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -115,15 +115,15 @@ Participação completa dos participantes do projeto na definição OKRs e KSIs 
 OKRs contêm os objetivos que você definir no início do projeto, e você definir resultados principais mensuráveis em uma base trimestral. Você revisar resultados principais mensalmente para rastrear o status do projeto geral, e — com base em andamento — você ajustar planos trimestrais conforme necessário.
 
 > [!TIP]
-> Consulte a seguir exemplos de OKRs relevantes à implementação do Sistema de Telefonia com Planos de Chamadas:
+> Exemplo de OKRs relevantes para o sistema telefônico com implementação chamando planos pode ser referenciado abaixo:
 > <br>
 > 
 > **Visão**: Aumentar a produtividade maximizando os investimentos no Office 365
 > 
 > |Objetivos  |Resultados principais  |A fazer  |
 > |---------|---------|---------|
-> |Implantar o Sistema de Telefonia com Planos de Chamadas nas filiais europeias até o final do ano fiscal de 2018|3º trimestre do ano fiscal de 2018: Implantar o Sistema de Telefonia com Planos de Chamadas no escritório de Londres|Concepção<ul><li>Criar plano de sucesso</li><li>Criar plano detalhado de implementação técnica</li></ul><p>Integração<ul><li>Executar plano de sucesso</li><li>Executar plano de implementação técnica</li></ul>|
-> |Encerrar o PBX herdado no escritório de Londres até o final do ano fiscal de 2018|4º trimestre do ano fiscal de 2018: Encerrar o PBX herdado no escritório de Londres|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
+> |Implantar o sistema telefônico com planos de chamar nas filiais European por final do ano fiscal 2018|FY18Q3: Implantar o sistema telefônico com planos de chamada no escritório Londres|Concepção<ul><li>Criar plano de sucesso</li><li>Criar plano detalhado de implementação técnica</li></ul><p>Integração<ul><li>Executar plano de sucesso</li><li>Executar plano de implementação técnica</li></ul>|
+> |Encerre o PBX herdado no escritório Londres pelo final do ano fiscal 2018|FY18Q4: Encerrar o PBX herdado no escritório Londres|Gerar valor<ul><li>Aumentar o envolvimento do usuário e direcionar adoção</li><li>Gerenciar e preparar a mudança</li><li>Mensurar, compartilhar o sucesso e iterar</li>|
 
 KSIs medir a qualidade e o êxito dos principais resultados e complementar a natureza binária do OKRs (conseguiu ou não atingidos) por detalhando resultados boas e/ou inválidos.
 
@@ -160,15 +160,15 @@ Como parte desse exercício, você precisa identificar os riscos de negócios e 
 > |Risco  |Probabilidade  |Impacto  |Geral  |Plano de mitigação  |
 > |---------|---------|---------|---------|---------|
 > |A incorporação acrescentará até 1.000 pessoas|Alto|Alto|Alto|<ul><li>Para empresas mescladas, crie um OKR separado que se aplica às suas próprias fases do projeto (Envision, Onboard, o valor de unidade)</li><li>Não incluir esses OKRs em OKRs existentes</li></ul>|
-> |A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte ao número de telefone portando antes do tempo (registro de serviço do cliente, detalhes da carta de autorização de cobrança)</li><li>Ajustar a cronograma do projeto para acomodar o tempo de execução de portabilidade número de telefone</li><li>Usar números de telefone temporários com a manipulação de IDs de Chamadas</li></ul>|
+> |A portabilidade dos números de telefone atrasará a conclusão do projeto|Alto|Alto|Alto|<ul><li>Preparar todas as informações necessárias para dar suporte ao número de telefone portando antes do tempo (registro de serviço do cliente, detalhes da carta de autorização de cobrança)</li><li>Ajustar a cronograma do projeto para acomodar o tempo de execução de portabilidade número de telefone</li><li>Usar números de telefone temporário com manipulação da ID do chamador</li></ul>|
 > |Reestruturação planejada da rede|Alto|Médio|Médio|<ul><li>Antes de implementar as equipes como uma plataforma de colaboração e o communications moderno, conduzir uma avaliação de prontidão de rede para sites no escopo do projeto</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Cite sua organização & #39; s OKRs e KSIs.</li><li>Quais riscos com que você identificou relevantes à implementação da conferência de áudio em sua organização? Quais são os planos de atenuação para os riscos identificados?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Documente os OKRs, KSIs e estabelecer a registrar riscos.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Quais são seus organization& #39; s OKRs e KSIs?</li><li>Quais riscos com que você identificou relevantes à implementação da conferência de áudio em sua organização? Quais são os planos de atenuação para os riscos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Documente os OKRs, KSIs e estabelecer a registrar riscos.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -209,7 +209,7 @@ Comitê de orientação de atende em um intervalo recorrente durante o tempo de 
 |         |         |         |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" />|Pontos de decisão|<ul><li>Decida se um comitê de orientação é necessário para sua organização.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Próximos passos|<ul><li>Identifica membros da comissão de direcionamento.</li><li>Agende reuniões comitê de orientação.</li><li>Prepare para reuniões comitê de orientação.</li><li>Mantenha comitê de direcionamento de reuniões.</li><li>Execute a ação com base no comitê de direcionamento de entrada da reunião.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Próximas etapas|<ul><li>Identifica membros da comissão de direcionamento.</li><li>Agende reuniões comitê de orientação.</li><li>Prepare para reuniões comitê de orientação.</li><li>Mantenha comitê de direcionamento de reuniões.</li><li>Execute a ação com base no comitê de direcionamento de entrada da reunião.</li></ul>|
 
 Adicional orientação detalhada sobre como operar um comitê de orientação adequado pode ser encontrada no comitê de orientação guia disponível [aqui](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide).
 

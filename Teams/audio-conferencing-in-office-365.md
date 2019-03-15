@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a5a696c3-d321-4e61-9aad-e3a87041196e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 52462bcb9f609a2e9c68757a36a9e5ed1cfa2b13
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 20ce25368c5b77bcd355bc5ed0d6ef55868401c1
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494209"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30570114"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 Serviços de audioconferência no Office 365 permite que os usuários liga para reuniões de seus telefones. Serviços de audioconferência permite que até 250 participantes de telefone.
@@ -34,11 +34,11 @@ Serviços de audioconferência no Office 365 permite que os usuários liga para 
 ## <a name="what-is-audio-conferencing"></a>Qual é a conferência de áudio?
 Chamadas em (discam) para reuniões é muito útil para usuários que estão em trânsito e não podem participar de uma reunião usando o Skype para o aplicativo de negócios ou Teams da Microsoft em laptops ou dispositivos móveis. Mas há outros cenários que usando um telefone para participar de uma Skype para negócios ou Microsoft Teams reunião pode ser uma opção melhor que usando um aplicativo em um computador:
   
-- Conectividade com a Internet limitada.
-- Reunião apenas com áudio.
-- A pessoa tentou ingressar em uma reunião do Skype for Business e houve uma falha.
+- Conectividade com a Internet é limitada.
+- Uma reunião é áudio apenas.
+- A pessoa que tentou ingressar em uma Skype para reunião de negócios e ela falhou.
 - A qualidade da chamada é melhor ao discar.
-- As pessoas podem ingressar em uma reunião com as "mãos livres" por meio de dispositivos Bluetooth.
+- As pessoas podem ingressar em uma reunião "viva voz" usando dispositivos Bluetooth.
 - As pessoas encontram é mais fácil e conveniente para sua situação.
 
 Basta configurar uma Audioconferência para as pessoas que planejam agendar ou liderar reuniões. Os participantes da reunião não precisam de nenhuma licença atribuída ou configuração adicional.
@@ -49,7 +49,7 @@ Depois que os participantes tiverem ingressado reunião, eles também podem disc
 Para informações de preços, consulte [Preços de Audioconferência](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
 
 ## <a name="where-is-it-available"></a>Onde está disponível?
-Com a conferência de áudio, os usuários podem utilizar Chamada Tarifada e números de telefone gratuitos para discar para reuniões. Números tarifados (serviço) recebem automaticamente como números de serviços de audioconferência compartilhada para organizações quando elas são habilitadas para conferência de áudio. É possível atribuir números exclusivos de chamada tarifada e gratuita para sua organização a partir de outras cidades.
+Com a conferência de áudio, os usuários podem utilizar Chamada Tarifada e números de telefone gratuitos para discar para reuniões. Números tarifados (serviço) recebem automaticamente como números de serviços de audioconferência compartilhada para organizações quando elas são habilitadas para conferência de áudio. Tarifas dedicada e números para ligações gratuitas podem ser atribuídos à sua organização de cidades adicionais.
 
 Números de telefone gratuitos (números de serviço) estão disponíveis, mas somente em alguns países/regiões. Para ver o que está disponível em seu país ou região, consulte [disponibilidade país e região para conferência de áudio e planos de chamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -92,11 +92,11 @@ Números de telefone de conferência de áudio dedicado são números de serviç
 - **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) não será possível obter seus números de telefone novo usando o Skype para o Centro de administração de negócios ou, você precisará de números de telefone específico ou códigos de área. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
 ## <a name="how-do-you-set-it-up"></a>Como você configura-lo?
-Depois que você tiver decidido configurar a conferência de áudio para seus usuários, consulte [Configurar conferências de áudio para Skype para equipes da Microsoft e de negócios](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) para as etapas que podem ser seguidas para fazê-lo.
+Depois que você tiver decidido configurar a conferência de áudio para seus usuários, consulte [Configurar conferências de áudio para equipes da Microsoft](set-up-audio-conferencing-in-teams.md) ou [Configurar a conferência de áudio para Skype para Business Online](/SkypeForBusiness/audio-conferencing-in-office/set-up-audio-conferencing) para as etapas que podem ser seguidas para fazê-lo.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Configurar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+[Instalar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   
 [Números de telefone para audioconferência no Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 
 

@@ -3,21 +3,23 @@ title: Coexistência com o Skype for Business
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
-description: Este documento descreve o comportamento de bate-papo, roteamento de chamadas e presença entre usuários das equipes e Skype para os negócios, federados, tanto no locatário com base em modos de TeamsUpgrade atribuídos. Ela inclui as otimizações de roteamento, o comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão de *legado* para *Ilhas* e a iminente retirada de *legado*.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+description: Este documento descreve o comportamento de bate-papo, roteamento de chamadas e presença entre usuários das equipes e Skype para os negócios, federados, tanto no locatário com base em modos de TeamsUpgrade atribuídos. Ela inclui as otimizações de roteamento, o comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão de *legado* para *Ilhas* e a iminente retirada de *legado*.
+ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786395"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569699"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 

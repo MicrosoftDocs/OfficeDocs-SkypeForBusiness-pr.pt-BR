@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre licenças de complemento recursos aos quais você obterá com cada licença, como comprá-los para o seu produto e como usar sua operadora existente com eles. Você pode obter informações sobre preços e plano de detalhes para o Office 365, créditos de comunicação, e planos de chamada.
-ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543075"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633222"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licenciamento do complemento do Microsoft Teams
 
@@ -38,9 +38,9 @@ Licenciamento da Microsoft Teams foi projetado para oferecer a quantidade máxim
 
 Para a maioria das empresas, a compra de um pacote de software em um plano empresarial resultará em um custo total menor. Normalmente, quando você comprar várias licenças de complemento individualmente, em vez de como parte de um plano, você pode acabar com mais alto custo combinado.
 
-Para mais informações sobre custos, consulte [Como ver preços e comprar licenças complementares](microsoft-teams-add-on-licensing.md#bkmk_how) ou um destes:
+Para obter informações de custo, consulte um dos seguintes procedimentos:
 
-- [Preços da Audioconferência](https://products.office.com/microsoft-teams/online-meeting-solutions)
+- [Os preços dos serviços de audioconferência](https://products.office.com/microsoft-teams/online-meeting-solutions)
 
 - [Preços para o sistema telefônico e planos de chamada](https://products.office.com/microsoft-teams/voice-calling)
 
@@ -69,7 +69,7 @@ As opções de licenciamento de complemento disponíveis para você depende do s
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (sem audioconferência)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Skype Room Systems v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [GOV, EDU e organizações sem fins lucrativos](gov-edu-and-nonprofit-organizations.md)
+- [GOV, EDU e instituições sem fins lucrativos](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Como descobrir os preços e comprar licenças complementares
 <a name="bkmk_how"> </a>
@@ -95,7 +95,7 @@ Para documentação abrangente sobre como planejar sua implantação, incluindo 
 
 - [Configurar equipes](../microsoft-teams.md)
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](../set-up-phone-system-voicemail.md)
+- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](../set-up-phone-system-voicemail.md)
     
 - [Chamar planos para o Office 365](../calling-plans-for-office-365.md) e [Configurar planos de chamada](../set-up-calling-plans.md)
     

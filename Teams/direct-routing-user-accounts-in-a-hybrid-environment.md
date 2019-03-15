@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Saiba mais sobre os diferentes combinações de criação de usuário e quais combinações são ou não suporte.
-ms.openlocfilehash: 9eaa8c98847fd7bbad4d93c48ad2523d114ba815
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: bfa4bef876886b01f7be987aae644e9e4b9169fd
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353462"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569571"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Contas de usuário em um ambiente híbrido com conectividade PSTN
 

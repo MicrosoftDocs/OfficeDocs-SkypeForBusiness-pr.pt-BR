@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Saiba como configurar o roteamento direto do Microsoft Phone System.
-ms.openlocfilehash: 4e117cd7e8bdde34a4982408052a1a61aedd00d7
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353478"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569778"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -105,14 +105,14 @@ A tabela a seguir lista os parâmetros adicionais que você pode usar a configur
 |Necessário?|Nome|Descrição|Padrão|Valores possíveis|Tipo e restrições|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Sim|FQDN|O nome do FQDN do SBC |Nenhum|Nome de NoneFQDN, limitar 63 caracteres|Cadeia de caracteres, lista de caracteres permitidos e não permitidos nas [convenções de nomenclatura no Active Directory para computadores, domínios, sites e OUs](https://support.microsoft.com/help/909264)|
-|Não|MediaBypass |O parâmetro reservado para uso futuro. Parâmetro indicado do SBC suporta Bypass de mídia e o administrador deseja usá-lo.|Nenhum|True<br/>False|Booliano|
+|Não|MediaBypass |O parâmetro reservado para uso futuro. Parâmetro indicado do SBC suporta Bypass de mídia e o administrador deseja usá-lo.|Nenhum|True<br/>False|Boolean|
 |Sim|SipSignallingPort |Porta de escuta usada para comunicação com os serviços de roteamento direta usando o protocolo de segurança de camada de transporte (TLS).|Nenhum|Qualquer porta|0 a 65.535 |
-|Não|FailoverTimeSeconds |Quando definido como 10 (valor padrão), chamadas de saída que não for atendidas pelo gateway dentro de 10 segundos são roteadas para o próximo tronco disponível; Se não houver nenhuma troncos adicionais, a chamada será interrompida automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente. O valor padrão é 10.| 10|Número|Int|
-|Não|ForwardCallHistory |Indica se as informações do histórico de chamada serão encaminhadas por meio do tronco. Se for habilitada, o Proxy do Office 365 PSTN envia dois cabeçalhos: histórico-info e mencionados por. O valor padrão é **False** ($False). |False|True<br/>False|Booliano|
-|Não|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador. O valor padrão é **False** ($False).|False|True<br/>False|Booliano|
-|Não|SendSIPOptions |Define se um SBC será ou não enviará as opções de SIP. Se desabilitada, o SBC será excluído do sistema de monitoramento e alerta. É altamente recomendável que você habilite as opções de SIP. Valor padrão é **True**. |True|True<br/>False|Booliano|
+|Não|FailoverTimeSeconds |Quando definido como 10 (valor padrão), chamadas de saída que não for atendidas pelo gateway dentro de 10 segundos são roteadas para o próximo tronco disponível; Se não houver nenhuma troncos adicionais, a chamada será interrompida automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente. O valor padrão é 10.|10|Número|Int|
+|Não|ForwardCallHistory |Indica se as informações do histórico de chamada serão encaminhadas por meio do tronco. Se for habilitada, o Proxy do Office 365 PSTN envia dois cabeçalhos: histórico-info e mencionados por. O valor padrão é **False** ($False). |False|True<br/>False|Boolean|
+|Não|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador. Se habilitado: a ID de privacidade cabeçalho também será enviado. O valor padrão é **False** ($False).|False|True<br/>False|Boolean|
+|Não|SendSIPOptions |Define se um SBC será ou não enviará as opções de SIP. Se desabilitada, o SBC será excluído do sistema de monitoramento e alerta. É altamente recomendável que você habilite as opções de SIP. Valor padrão é **True**. |True|True<br/>False|Boolean|
 |Não|MaxConcurrentSessions |Usada pelo sistema de alertas. Quando nenhum valor for definido, o sistema de alertas irá gerar um alerta ao administrador do locatário quando o número de sessão simultânea é 90% ou maior do que esse valor. Se o parâmetro não for definido, os alertas não serão gerados. No entanto, o sistema de monitoramento irá relatar o número de sessão simultânea a cada 24 horas. |NULL|NULL<br/>1 a 100.000 ||
-|Não|Habilitado *|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ela está sendo atualizada ou durante a manutenção. |False|True<br/>False|Booliano|
+|Não|Habilitado *|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ela está sendo atualizada ou durante a manutenção. |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Verifique se o emparelhamento de SBC 
 
@@ -530,6 +530,6 @@ O resultado é que a política de voz aplicada às chamadas de John Woods é irr
 Roteamento direto somente roteia as chamadas de e para os usuários se eles usarem o cliente de equipes. Se sua organização usa somente equipes, definindo "Equipes apenas" na política de atualização é recomendado. Se sua organização usa Skype para Business Server ou Skype para Business Online, consulte o seguinte artigo para obter mais informações e selecione a opção apropriada: [entender a coexistência e atualizar jornada para Skype para equipes e de negócios](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Planejar o Roteamento Direto](direct-routing-plan.md)

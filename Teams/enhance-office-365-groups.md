@@ -1,5 +1,5 @@
 ---
-title: Aprimorar grupos existentes do Office 365 com o Microsoft Teams
+title: Aprimorar a grupos existentes do Office 365 com o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463520"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568412"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Aprimorar grupos existentes do Office 365 com o Microsoft Teams
+<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Aprimorar a grupos existentes do Office 365 com o Microsoft Teams
 =======================================================
 
 Os usuários do Microsoft Teams podem aprimorar um grupo existente do Office 365 com a funcionalidade do Microsoft Teams. Quando desejarem aprimorar um grupo público do Office 365, os usuários poderão fazê-lo se o número de membros for igual ou inferior a 2500.
@@ -32,7 +32,6 @@ Para isso, os usuários deverão seguir o fluxo de criar uma nova equipe a parti
 > Somente os proprietários de grupo do Office 365 têm permissão para aprimorar a um grupo existente com Microsoft Teams, e esse grupo deve conter 2500 menor que usuários. Equipes que já foram aprimoradas não aparecerá na lista.
 >
 >A opção **criar uma equipe de um grupo existente do Office 365** não estará disponível a menos que essas condições forem atendidas.
-
 
 Os usuários também podem convidar uma lista de distribuição para uma equipe, e os membros dessa lista de distribuição também serão incluídos na equipe. É uma sincronização única; alterações posteriores em assinaturas do grupo na lista de distribuição não serão replicadas ao Teams. 
 

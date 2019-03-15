@@ -1,10 +1,10 @@
 ---
-title: Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes
+title: Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/20/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: Descreve os atendedores automáticos de sistema telefônico e filas de chamada e explica como você pode atender essas chamadas em equipes.
 localization_priority: Normal
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 900fe698654a760c9863583da0b3cd161625844d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465328"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569435"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender atendedor automático e chamadas de fila de chamadas diretamente a partir de equipes
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
 
 Os usuários de equipes podem receber e atenda as chamadas do Skype para Business Online atendedor automático e filas de chamadas diretamente do seu cliente de equipes. Para usuários de equipes, o recurso de atendedor automático agora está disponível no mercado e a capacidade de fila de chamada está no modo de visualização. 
@@ -49,10 +49,10 @@ Depois que uma chamada de fila de chamada e atendente automático for atendida, 
 
 Suporte para chamadas de fila de chamada e atendedor automático está disponível nos seguintes clientes:
 
--   Cliente do Windows para Microsoft Teams (versões de 32 e 64 bits)
--   Cliente Mac para Microsoft Teams
--   Aplicativo do Microsoft Teams para iPhone
--   Aplicativo do Microsoft Teams para Android
+-   Cliente do Microsoft Windows de equipes (versões de 32 e 64 bits)
+-   Cliente do Microsoft equipes Mac
+-   Microsoft Teams iPhone app
+-   App Android de equipes da Microsoft
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar o suporte de fila attendant e chamada de automático for Microsoft Teams
 
