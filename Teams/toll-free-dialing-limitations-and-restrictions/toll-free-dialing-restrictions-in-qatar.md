@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0c1e59f7-99cf-438b-969e-cdf370cfea62
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,34 +23,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso ajudará você a descobrir como discar números de Chamada Tarifada gratuito em cada país/região. Depois de selecionar o país/região, ela levará você a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade do serviço gratuitos onde o serviço de chamada gratuito está disponível. O formato de discagem ou formatos mostrará os códigos de acesso necessários dentro de cada país/região para discar o número de telefone gratuito.
-ms.openlocfilehash: b262a2f4cab6a0c0845e790a51b92550de96a2fd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: df2c4a6bc5d059ae65c3fb0d9da74bd69838f56f
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463848"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569555"
 ---
-# <a name="toll-free-dialing-restrictions-in-qatar"></a><span data-ttu-id="3069e-105">Restrições de discagem de chamada gratuita no Catar</span><span class="sxs-lookup"><span data-stu-id="3069e-105">Toll-free dialing restrictions in Qatar</span></span>
+# <a name="toll-free-dialing-restrictions-in-qatar"></a><span data-ttu-id="d9204-105">Restrições de discagem de chamada gratuita no Catar</span><span class="sxs-lookup"><span data-stu-id="d9204-105">Toll-free dialing restrictions in Qatar</span></span>
 
-<span data-ttu-id="3069e-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="3069e-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="d9204-106">[Encontre outro país ou região](../toll-free-dialing-limitations-and-restrictions.md), ou aprender mais sobre as limitações de discagem gratuita e restrições.</span><span class="sxs-lookup"><span data-stu-id="d9204-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="3069e-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="3069e-107">**Details**</span></span>|<span data-ttu-id="3069e-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="3069e-108">**Description**</span></span>|
+|<span data-ttu-id="d9204-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="d9204-107">**Details**</span></span>|<span data-ttu-id="d9204-108">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="d9204-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3069e-109">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="3069e-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="3069e-110">Sim</span><span class="sxs-lookup"><span data-stu-id="3069e-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="3069e-111">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="3069e-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="3069e-112">XXXXXX 00800</span><span class="sxs-lookup"><span data-stu-id="3069e-112">00800 XXXXXX</span></span>  <br/> |
-|<span data-ttu-id="3069e-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="3069e-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="3069e-114">QA</span><span class="sxs-lookup"><span data-stu-id="3069e-114">QA</span></span>  <br/> |
-|<span data-ttu-id="3069e-115">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="3069e-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="3069e-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="3069e-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="3069e-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="3069e-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="3069e-118">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="3069e-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="3069e-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="3069e-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="3069e-120">Somente pela Qtel.</span><span class="sxs-lookup"><span data-stu-id="3069e-120">From Qtel only.</span></span>  <br/> |
-|<span data-ttu-id="3069e-121">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="3069e-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="3069e-122">Do Qtel &amp; Vodafone apenas.</span><span class="sxs-lookup"><span data-stu-id="3069e-122">From Qtel &amp; Vodafone only.</span></span>  <br/> |
-|<span data-ttu-id="3069e-123">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="3069e-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="3069e-124">Nenhum</span><span class="sxs-lookup"><span data-stu-id="3069e-124">None</span></span>  <br/> |
+|<span data-ttu-id="d9204-109">É gratuita chamar disponível?</span><span class="sxs-lookup"><span data-stu-id="d9204-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="d9204-110">Sim</span><span class="sxs-lookup"><span data-stu-id="d9204-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="d9204-111">Discagem format(s)</span><span class="sxs-lookup"><span data-stu-id="d9204-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="d9204-112">XXXXXX 00800</span><span class="sxs-lookup"><span data-stu-id="d9204-112">00800 XXXXXX</span></span>  <br/> |
+|<span data-ttu-id="d9204-113">Código ISO de país/região</span><span class="sxs-lookup"><span data-stu-id="d9204-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="d9204-114">QA</span><span class="sxs-lookup"><span data-stu-id="d9204-114">QA</span></span>  <br/> |
+|<span data-ttu-id="d9204-115">Ilha/território abordado</span><span class="sxs-lookup"><span data-stu-id="d9204-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="d9204-116">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d9204-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="d9204-117">Ilha/território não coberto</span><span class="sxs-lookup"><span data-stu-id="d9204-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="d9204-118">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="d9204-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="d9204-119">Disponibilidade de linha fixa/com fio</span><span class="sxs-lookup"><span data-stu-id="d9204-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="d9204-120">Somente pela Qtel.</span><span class="sxs-lookup"><span data-stu-id="d9204-120">From Qtel only.</span></span>  <br/> |
+|<span data-ttu-id="d9204-121">Disponibilidade com a rede móvel</span><span class="sxs-lookup"><span data-stu-id="d9204-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="d9204-122">Do Qtel &amp; Vodafone apenas.</span><span class="sxs-lookup"><span data-stu-id="d9204-122">From Qtel &amp; Vodafone only.</span></span>  <br/> |
+|<span data-ttu-id="d9204-123">Comentários, restrições e problemas de acesso</span><span class="sxs-lookup"><span data-stu-id="d9204-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="d9204-124">Nenhum</span><span class="sxs-lookup"><span data-stu-id="d9204-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="3069e-125">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="3069e-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d9204-125">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="d9204-125">Related topics</span></span>
 
-[<span data-ttu-id="3069e-126">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="3069e-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="d9204-126">Limitações e restrições de discagem gratuita</span><span class="sxs-lookup"><span data-stu-id="d9204-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="3069e-127">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="3069e-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="d9204-127">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="d9204-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
