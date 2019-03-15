@@ -3,7 +3,7 @@ title: Atualizar do Skype for Business para o Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Usar uma estrutura de sucesso comprovadas para ajudar a jornada de atualização da sua organização do Skype para negócios às equipes
@@ -16,14 +16,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5749700eb314444398111150f1ac842466f7f90
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 60094153f0e48187b0437bce1f25077c742ad773
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494089"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641173"
 ---
-# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Atualização do Skype for Business para o Microsoft Teams
+# <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Skype para a atualização do Microsoft Teams de negócios
 
 Visão do intelligent comunicações da Microsoft de suporte, o Microsoft Teams está hub central para o trabalho em equipe, reunindo bate-papo, reuniões, chamadas, colaboração, integração de aplicativos e armazenamento de arquivo. Como um Skype existente para o cliente empresarial, você está convidado para atualizar para o Microsoft Teams, experimentarem esse conjunto completo de recursos de comunicação e colaboração em uma experiência de cliente único.
 
@@ -32,10 +32,10 @@ Sua jornada de atualização pode levar algum tempo e estamos aqui para o suport
 Exiba esta [Visão geral](https://aka.ms/UpgradeOverview) para uma introdução para o Skype para negócios a jornada de atualização de equipes, incluindo os conceitos fundamentais, framework e caminhos de atualização.
 
 > [!Tip]
-> Assista à sessão a seguir para saber mais sobre a atualização do Skype for Business para o Microsoft Teams:
+> Assista a sessão de seguir para saber mais sobre a atualização do Skype for Business para Teams da Microsoft:
 > - [Introdução à atualização](https://aka.ms/teams-upgrade-intro)
-> - [Planejamento da atualização](https://aka.ms/teams-upgrade-plan)
-> - [Coexistência e interoperabilidade](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Planejar a atualização](https://aka.ms/teams-upgrade-plan)
+> - [Interoperabilidade e coexistência](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Experiência do administrador](https://aka.ms/teams-upgrade-admin)
 
 ## <a name="upgrade-journey-framework"></a>Framework jornada de atualização

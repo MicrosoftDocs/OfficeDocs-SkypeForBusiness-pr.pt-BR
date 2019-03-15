@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 17ef7a0575de20fcef7a10e71d8b81e1504f947e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458832"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640670"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Obter ferramentas para dar suporte na implantação do Microsoft Teams
 =================================================
@@ -28,7 +28,7 @@ O Kit de sucesso do cliente Microsoft Teams oferece ferramentas para ajudar a di
 
 ### <a name="learn-adjust-and-repeat"></a>Aprenda, ajuste e repita
 
-Ao passar pelas etapas aqui recomendadas usando os recursos do Kit de Sucesso do Cliente, as partes envolvidas, os defensores e os usuários compartilharão seu feedback. Esses insights valiosos podem ajudar você a ajustar sua abordagem, suas mensagens e seus modelos para aumentar a adoção e, finalmente, obter seus resultados de negócios. Em um modelo ágil de gerenciamento de serviços, a flexibilidade é fundamental para ter sucesso no ritmo dos negócios de hoje em dia. Se você está lendo este documento, é porque você é um dos principais responsáveis pelo sucesso dessa implantação e sua capacidade de ajustar seu plano com base nas condições atuais acelerará a curva de adoção na sua empresa.
+Como passar as etapas recomendadas aqui usando os recursos do Kit de sucesso do cliente, seus participantes, campeões e usuários compartilharão comentários. Esses insights valiosos podem ajudar você a ajustar sua abordagem, suas mensagens e seus modelos para aumentar a adoção e, finalmente, obter seus resultados de negócios. Em um modelo ágil de gerenciamento de serviços, a flexibilidade é fundamental para ter sucesso no ritmo dos negócios de hoje em dia. Se você está lendo este documento, é porque você é um dos principais responsáveis pelo sucesso dessa implantação e sua capacidade de ajustar seu plano com base nas condições atuais acelerará a curva de adoção na sua empresa.
 
 O Microsoft Teams foi projetado para promover a colaboração, sendo também um serviço simples de usar, mesmo que robusto. A avaliação periódica dos resultados do negócio que você selecionou no início desta jornada garantirá que você esteja causando impacto mensurável nessas prioridades através da adoção do Microsoft Teams.
 

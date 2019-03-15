@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: gageames
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Saiba como a qualidade do fluxo é classificada no Painel de Qualidade de Chamadas para o Microsoft Teams e o Skype for Business Online.
-ms.openlocfilehash: a04843e45e444da34bf065c1cdfbf0a619be9406
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541716"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641030"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Classificação de fluxo no Painel de Qualidade de Chamadas
 
@@ -39,44 +39,44 @@ Streams in CQD are classified as good, poor, or unclassified based on the values
 
 Um fluxo de áudio é marcado como ruim se uma ou mais das seguintes condições forem atendidas:
 
-|**Métrica**|**Condição**|**Explicação**|
+|**Indicador**|**Condição**|**Explicação**|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
-|Round Trip|> 500|Tempo médio de propagação da rede de ida e volta calculado conforme especificado em RFC3550 em milissegundos.|
-|Packet Loss Rate|> 0,1|Taxa média de perda de pacote do stream.|
-|Jitter|> 30|Média de tremulação para stream em milissegundos.|
-|Ratio Concealed Samples Avg|> 0,07|Taxa média do número de quadros de áudio com amostras escondidas geradas pelo reparo para o número total de quadros de áudio de perda de pacotes.|
+|Degradação de áudio Avg|> 1,0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
+|Viagem de ida e volta|> 500|Tempo de ida e volta de propagação de rede média computado conforme especificado na RFC3550 em milissegundos.|
+|Taxa de perda de pacote|> 0,1|Taxa de perda de pacotes médio para fluxo.|
+|Tremulação|> 30|Variação média para fluxo em milissegundos.|
+|Taxa média de amostras de oculta|> 0,07|Taxa média do número de quadros de áudio com amostras escondidas geradas pelo reparo para o número total de quadros de áudio de perda de pacotes.|
 
 ### <a name="video-classifier"></a>Classificador de Vídeo
 
 Um fluxo de vídeo é marcado como bom ou ruim com base no valor da primeira métrica disponível na seguinte ordem:
 
-|**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
+|**Etapa Nº**|**Indicador**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|gt _ 50% |Poor|Good|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|<7|Poor|Good|Seguir para a Etapa 3|Média de quadros por segundo recebidos para um stream de vídeo calculados durante a sessão.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taxa de perda de pacotes após ter sido aplicado FEC agregados entre todos os fluxos de vídeo e codecs.|
+|1|Quadro de vídeo de Local perda porcentagem média|gt _ 50% |Baixa|BOM|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|2|Média de taxa de quadro de vídeo|<7|Baixa|BOM|Seguir para a Etapa 3|Média de quadros por segundo recebidas para um fluxo de vídeo, computado em toda a duração da sessão.|
+|3|Vídeo Post FECPLR|> 0,15|Baixa|BOM|Não classificados|Taxa de perda de pacotes após ter sido aplicado FEC agregados entre todos os fluxos de vídeo e codecs.|
 
 ### <a name="vbss-classifier"></a>Classificador VBSS
 
 Um fluxo VBSS é marcado como bom ou ruim com base no valor da primeira métrica disponível na seguinte ordem:
 
-|**Etapa Nº**|**Métrica**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
+|**Etapa Nº**|**Indicador**|**Condição**|**Classificação se a condição for verdadeira**|**Classificação se a condição for falsa**|**Classificação se a métrica não estiver disponível**|**Explicação**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|gt _ 50% |Poor|Good|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|< 2|Poor|Good|Seguir para a Etapa 3|Média de quadros por segundo recebidos para um stream de vídeo calculados durante a sessão.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Taxa de perda de pacotes após ter sido aplicado FEC agregados entre todos os fluxos de vídeo e codecs.|
+|1|Quadro de vídeo de Local perda porcentagem média|gt _ 50% |Baixa|BOM|Seguir para a Etapa 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
+|2|Média de taxa de quadro de vídeo|< 2|Baixa|BOM|Seguir para a Etapa 3|Média de quadros por segundo recebidas para um fluxo de vídeo, computado em toda a duração da sessão.|
+|3|Vídeo Post FECPLR|> 0,15|Baixa|BOM|Não classificados|Taxa de perda de pacotes após ter sido aplicado FEC agregados entre todos os fluxos de vídeo e codecs.|
 
 ### <a name="application-sharing-classifier"></a>Classificador de compartilhamento de aplicativos
 
 Um fluxo de compartilhamento de aplicativo é marcado como ruim se uma ou mais das seguintes condições forem atendidas:
 
 
-| **Métrica**                                     | **Condição** | **Explicação**                                                                                                                                                                                                        |
+| **Indicador**                                     | **Condição** | **Explicação**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Spoiled Tile Percent Total                     | >36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | gt _ 400         | Média de latência de blocos de processamento em milissegundos na pilha RDP no servidor de conferência.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Atraso unidirecional relativo médio entre os pontos de extremidade em segundos para fluxos de compartilhamento de aplicativos.                                                                                                                       |
+| Total de lado a lado estragado porcentagem                     | >36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
+| Latência média de processamento de blocos de RDP AppSharing | gt _ 400         | Latência média em milissegundos, processamento de blocos na pilha de RDP no servidor de conferência.                                                                                                                          |
+| Média de OneWay relativa AppSharing             | > 1,75        | Atraso unidirecional relativo médio entre os pontos de extremidade em segundos para fluxos de compartilhamento de aplicativos.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Fluxos não classificados
 

@@ -4,7 +4,7 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.reviewer: kponnus
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.audience: Admin
 appliesto:
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Este artigo aborda a lista de certificados para o Microsoft Teams e os recursos compatíveis com os telefones certificados for Microsoft Teams telefones.
-ms.openlocfilehash: 55777b0bdf03b51e01ffe127e173adb475c957e6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9531d1c3619c15b0b8669708e40264fec5f211fd
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461792"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640982"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
@@ -145,7 +145,7 @@ Licenças da Microsoft Teams podem ser adquiridas como parte de suas [assinatura
 
 Para obter mais informações sobre a obtenção de equipes, confira [como obter acesso ao Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte Também
 
 [Marketplace de equipes](http://office.com/teamsdevices)
 

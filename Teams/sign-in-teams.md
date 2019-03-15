@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 11/15/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458808"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641101"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
@@ -49,7 +49,6 @@ Quando os usuários iniciam equipes, seu computador não poderá receber suas cr
 Se os usuários estão trabalhando em um computador associado ao domínio (por exemplo, se seu locatário tiver habilitado o Kerberos), eles não podem alternar contas de usuário quando concluírem autenticação moderna. Se os usuários não estiver trabalhando em um computador associado ao domínio, eles podem alternar contas.
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Saindo do Microsoft Teams depois de concluir a autenticação moderna
-
 Para sair de equipes, os usuários podem clique em sua foto de perfil, na parte superior do aplicativo e selecione **Sair**. Eles podem também com o botão direito no ícone do aplicativo na sua barra de tarefas e selecione **efetuar logout**. Depois que eles já saírem equipes, elas precisam inserir suas credenciais novamente para iniciar o aplicativo.
 
 ## <a name="troubleshooting-modern-authentication"></a>Solução de problemas de autenticação moderna

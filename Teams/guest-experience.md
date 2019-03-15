@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9301ecf94588560b1ba11b17b2c7f92d89cb072a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458976"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641077"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -56,19 +56,19 @@ A tabela a seguir mostra os recursos de chamada e de reunião disponíveis para 
 
 | Recurso de chamada | Convidado | Usuário E1 e E3 | Usuário E5 e EV |
 | --------------- | ----- | -------------- | -------------- |
-| Chamadas de VOIP | Sim | Sim  | Sim  |
-| Chamadas de grupo | Sim | Sim  | Sim  |
-| Controles de chamada de núcleo com suporte (isenção, sem áudio, vídeo ativado/desativado, compartilhamento de tela) | Sim | Sim  | Sim  |
-| Transferência de destino | Sim | Sim  | Sim  |
-| Pode transferir uma chamada | Sim | Sim  | Sim  |
-| Pode transferência com consultoria | Sim | Sim  | Sim  |
-| Pode adicionar outros usuários a uma chamada via VOIP | Sim | Sim  | Sim  |
+| Chamadas de VOIP | Sim | Sim | Sim |
+| Chamadas de grupo | Sim | Sim | Sim |
+| Controles de chamada de núcleo com suporte (isenção, sem áudio, vídeo ativado/desativado, compartilhamento de tela) | Sim | Sim | Sim |
+| Transferência de destino | Sim | Sim | Sim |
+| Pode transferir uma chamada | Sim | Sim | Sim |
+| Pode transferência com consultoria | Sim | Sim | Sim |
+| Pode adicionar outros usuários a uma chamada via VOIP | Sim | Sim | Sim |
 | Pode adicionar usuários pelo número de telefone a uma chamada | Não | Não | Sim |
-| Destino Forward | Não | Sim | Sim  |
-| Destino do grupo de chamada | Não | Sim | Sim  |
-| Destino não atendido | Não | Sim | Sim  |
-| Pode ser o destino de uma chamada federado | Não | Sim | Sim  |
-| Pode fazer uma chamada federada | Não | Sim | Sim  |
+| Destino Forward | Não | Sim | Sim |
+| Destino do grupo de chamada | Não | Sim | Sim |
+| Destino não atendido | Não | Sim | Sim |
+| Pode ser o destino de uma chamada federado | Não | Sim | Sim |
+| Pode fazer uma chamada federada | Não | Sim | Sim |
 | Imediatamente pode encaminhar suas chamadas | Não | Não | Sim |
 | Pode ligar simultaneamente para as chamadas | Não | Não | Sim |
 | Pode rotear suas chamadas não atendidas | Não | Não | Sim |

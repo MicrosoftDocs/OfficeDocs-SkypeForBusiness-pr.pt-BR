@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 ms.date: 2/1/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: roykuntz
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6e8167dd6f543693638bed4fcbb467600364f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b91eb877da7d18b41fdb21acbb7ade018a2c97b5
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461680"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641093"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -75,7 +75,7 @@ Sites de rede devem ser habilitados para roteamento baseado no local ajudar a de
 
 Gateways associados aos sites para determinar onde um usuário habilitado para roteamento baseado no local pode ser localizado quando eles fazer ou recebem uma chamada PSTN. Gateways devem ser habilitados para roteamento baseado no local garantir que ele esteja sob restrições de bypass de Chamada Tarifada e não pode ser usado por usuários que não estão habilitados para roteamento baseado no local. O mesmo gateway pode ser associado a vários sites e pode ser configurado para ser habilitado para roteamento baseado no local ou não habilitado para roteamento baseado em local, dependendo do site. 
 
-## <a name="scenarios-for-location-based-routing"></a>Cenários para Roteamento Baseado em Local
+## <a name="scenarios-for-location-based-routing"></a>Cenários do Roteamento Baseado na Localização
 
 Esta seção descreve os diferentes cenários para restringir o bypass de Chamada Tarifada usando roteamento baseado no local e compara como as chamadas são roteadas para os usuários que não estão habilitados para roteamento baseado no local com usuários habilitados para roteamento baseado no local.
 

@@ -3,7 +3,7 @@ title: Implementar QoS e Monitorar a análise de chamada no Microsoft Teams
 author: jambirk
 ms.author: jambirk
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jambirk
 description: Use configurações de qualidade de serviço (QoS) e análise de chamada e painel de controle de qualidade de chamada no Microsoft Teams.
@@ -14,12 +14,12 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a40b5d14268323f1231377e96b75a3120145245
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408247"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641069"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementação QoS e monitorar a qualidade de chamada no equipes da Microsoft
 
@@ -53,4 +53,4 @@ Idealmente, você poderia implementar QoS em sua rede interna durante a configur
 
 [Dimensões e medidas disponíveis no Painel de Qualidade de Chamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classificação de fluxo no Painel de Qualidade de Chamadas](stream-classification-in-call-quality-dashboard.md)
+[Classificação de fluxo no painel de qualidade da chamada](stream-classification-in-call-quality-dashboard.md)

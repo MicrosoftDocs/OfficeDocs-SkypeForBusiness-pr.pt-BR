@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Este artigo fornece informações sobre como usar um servidor proxy com equipes ou Skype para negócios.
-ms.openlocfilehash: e2d14c8307de2ee64a766394805498505719189a
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: a09a1bf53fe4d1a38742856c051a80e5928f36ef
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542803"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640894"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para Teams ou Skype for Business Online
 

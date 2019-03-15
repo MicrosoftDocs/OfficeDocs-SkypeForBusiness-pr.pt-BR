@@ -22,14 +22,15 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 3462a77deeb6334ae715dadb6445d8b9b0200089
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 97dfa3c330979b151ea851be14e3149ecdfd10b7
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543067"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641370"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
+
 Chamadas para outro Skype para usuários corporativos são livres, mas se quiser que os usuários possam chamar telefones fora da sua empresa, fazer um planejamento chamar domésticas ou internacional chamar planejar no Office 365. É fácil configurar isso-se no seu negócio. 
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Etapa 1: Descobrir se chamar planos estarão disponíveis em seu país/região
@@ -128,7 +129,7 @@ Se você conhece o Windows PowerShell, é possível usar os cmdlets a seguir par
 Para saber mais, veja [Referência rápida: Como usar o Windows PowerShell para realizar tarefas comuns de gerenciamento do Skype for Business Online](https://technet.microsoft.com/library/dn362776%28v=ocs.15%29.aspx).
   
    > [!NOTE]
-   > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+   > Se você precisar fazer mais números de telefone que isso, entre [em contato no suporte para produtos de negócios - ajuda de Admin](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 
 ## <a name="related-topics"></a>Tópicos relacionados

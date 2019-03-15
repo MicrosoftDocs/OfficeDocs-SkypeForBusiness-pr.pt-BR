@@ -1,26 +1,28 @@
 ---
-title: Presença do usuário em equipes
+title: Presença do usuário no Microsoft Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
 description: Os administradores de informações precisam entender sobre a presença em equipes.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533022"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640966"
 ---
-# <a name="user-presence-in-teams"></a>Presença do usuário em equipes
+# <a name="user-presence-in-teams"></a>Presença do usuário no Microsoft Teams
 
 Presença faz parte de um perfil de usuário no Microsoft Teams (e ao longo do Office 365) – e indica a disponibilidade atual do usuário e o status para outros usuários na organização. Por padrão, qualquer pessoa na sua organização usando equipes pode ver ou não a outros usuários estão disponíveis online.
 
@@ -58,7 +60,7 @@ Os usuários podem especificar que podem ser acessadas pelo (contatá-los substi
 
 As seguintes configurações de administração no Skype para negócios são diferentes em equipes:
 - Compartilhamento de presença sempre está habilitada em equipes para usuários na organização. Configuração de privacidade (decidir quem pode ver a presença) não está disponível em equipes.
-- Presença compartilhamento com todos (inclusive serviços federados) está sempre habilitada para usuários de equipes. Sua lista de contatos (se eles tinham um SfB) está visível em **Chat > Contatos** ou em **chamadas > Contatos**.
+- Presença compartilhamento com todos (inclusive serviços federados) está sempre habilitada para usuários de equipes. Sua lista de contatos (se eles tinham um SfB) é visível em **gt _ contatos de Chat** ou em **chamadas gt _ contatos**.
 - Recursos de cliente não incomodar e inovadora sempre estão habilitados para usuários de equipes.
 - Calendário (inclui OOF & outras informações de calendário) integração está sempre habilitada para usuários em equipes se integrado com o Outlook.
 - O indicador *ausente desde* (se estiver em um ambiente de duplo com Skype for Business) ou *visto pela última vez* está sempre habilitada para usuários de equipes.
@@ -68,6 +70,6 @@ As seguintes configurações de administração no Skype para negócios são dif
 > A capacidade de um administrador de equipes de personalizar essas configurações não é suportada no momento.
 
 
-## <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype para negócios
+## <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
 Consulte a [coexistência com o Skype for Business](coexistence-chat-calls-presence.md) para obter detalhes sobre como a presença de equipes funciona quando coexistindo com o Skype para negócios. 

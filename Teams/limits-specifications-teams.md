@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 10/05/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
 description: Saiba mais sobre os limites, especificações e outros requisitos que se aplicam ao Microsoft Teams.
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da0f7049912c246a58792c8c03c15b28a083cbc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 391fd25aeec4ae52b31865f25be9b127158ef764
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460648"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641164"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 =============================================
@@ -54,7 +54,7 @@ Este artigo descreve algumas dos limites, especificações e outros requisitos q
 
 Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal de uma equipe obtém uma pasta dentro da biblioteca de documentos padrão do site da equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
 
-Se você não tiver o SharePoint Online habilitado no seu locatário, os usuários do Microsoft Teams sempre não podem compartilhar arquivos em equipes. Os usuários de bate-papo privado também não poderão compartilhar arquivos pois o OneDrive for Business (que é vinculado à licença do SharePoint) é necessário para essa funcionalidade.
+Se você não tiver o SharePoint Online habilitado no seu locatário, os usuários do Microsoft Teams sempre não podem compartilhar arquivos em equipes. Usuários de bate-papo privado também não é possível compartilhar arquivos porque o OneDrive for Business (que é vinculado à licença do SharePoint) é necessária para essa funcionalidade.
 
 Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível tenant serão cumpridas. (Para obter mais informações, consulte [como SharePoint on-line e OneDrive for Business interagem com as equipes da Microsoft](sharepoint-onedrive-interact.md).)
 
@@ -80,7 +80,7 @@ Função de bate-papo do Microsoft Teams funciona em um back-end do Microsoft Ex
 |Recurso  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |Limite de tamanho de mensagem&dagger;  |KB 25   |KB 25   |KB 25   |KB 25   |
-|Limite de anexos de arquivo&Dagger;  | 10     | 10     | 10     | 10    |
+|Limite de anexos de arquivo&Dagger;  |10     |10     |10     |10    |
 |Limite de imagens embutida&Dagger; |50   |50   |50   |50   |
 
 &dagger;Se a mensagem exceder esse limite, uma mensagem de visualização é gerada e o usuário é solicitado a exibição/download o email original no link fornecido.
@@ -89,7 +89,7 @@ Função de bate-papo do Microsoft Teams funciona em um back-end do Microsoft Ex
 
 Para obter mais informações, consulte [limites do Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-<a name="browsers"></a>Navegadores do  
+<a name="browsers"></a>Navegadores 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

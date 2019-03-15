@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542915"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640918"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
-Um PBX é um sistema telefônico interno da empresa. O sistema telefônico no complemento do Office 365 oferece recursos de PBX, mas sem o equipamento de complicado e caro. 
+Um PBX é um sistema telefônico dentro de uma empresa. O sistema telefônico no complemento do Office 365 oferece recursos de PBX, mas sem o equipamento de complicado e caro. 
   
 Com o complemento de sistema telefônico, você pode usar o Skype for Business para concluir as tarefas básicas, como fazer e receber chamadas, transferir chamadas e chamadas tirar o som ou unmuting, de praticamente qualquer lugar com acesso à Internet. Ele está disponível em todo o mundo! 
   
@@ -77,7 +77,7 @@ Configure o sistema telefônico da maneira mais apropriado para sua empresa:
     
 Consulte estes artigos para planejar e configurar o sistema telefônico na sua empresa:
 
-- [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
+- [Sistema telefônico com a chamada de planos](calling-plan-landing-page.md)
 
 - [Configurar planos de chamar](set-up-calling-plans.md): Este artigo tem instruções passo a passo para configurar o com seus números de telefone ou para transferir seus números de telefone existente para Skype para negócios.
     
@@ -85,7 +85,7 @@ Consulte estes artigos para planejar e configurar o sistema telefônico na sua e
     
 - [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Saiba quais licenças você precisará comprar para obter o sistema telefônico no Office 365.
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](set-up-phone-system-voicemail.md)
+- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](set-up-phone-system-voicemail.md)
     
 - [Descubra o Skype for Business](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Ajude as pessoas da sua empresa a usar os recursos do Skype for Business. 
 

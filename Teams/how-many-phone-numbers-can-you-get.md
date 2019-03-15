@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para chamar planos para obter informações sobre os números de telefone diferentes que são usados em Skype para negócios Online.
-ms.openlocfilehash: 9adedf15bbedda7aaf03645cf6eaa253e59eadc4
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: d2eba9d9d12610ed93b1da3e322c297fd93424d6
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542979"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640950"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Quantos números de telefone você consegue obter?
 

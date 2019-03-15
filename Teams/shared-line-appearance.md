@@ -5,7 +5,7 @@ author: lolaj
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aparência da linha compartilhado que permite ao usuário escolher um representante para atender ou lidar com chamadas em nome deles.
-ms.openlocfilehash: 0a110e18cb8a939870528d2700ec54103cf91a6e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 81eea77595f07db5772ffc4f3d6ee0b0dafa95c5
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541692"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641204"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Aparência de linha compartilhada no Microsoft Teams
 
