@@ -3,7 +3,7 @@ title: Qualidade da experiência do usuário | As equipes da Microsoft | QoS | Q
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Tarefas e atividades necessárias para monitorar a qualidade e o uso do Microsoft Teams
@@ -15,39 +15,39 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4060c0f9171c8871ed22d15325d560616bf5fc23
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d5b34a7dc556313108555bff4d55cee7a6f9a31
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460072"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649376"
 ---
-<span data-ttu-id="ee639-103">![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")</span><span class="sxs-lookup"><span data-stu-id="ee639-103">![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")</span></span>
+<span data-ttu-id="754e1-103">![Estágios da atualização jornada, com ênfase no estágio excelência operacional] (media/upgrade-banner-op-excellence.png "Estágios da atualização jornada, com ênfase no estágio excelência operacional")</span><span class="sxs-lookup"><span data-stu-id="754e1-103">![Stages of the upgrade journey, with emphasis on the Operational Excellence stage](media/upgrade-banner-op-excellence.png "Stages of the upgrade journey, with emphasis on the Operational Excellence stage")</span></span>
 
-<span data-ttu-id="ee639-104">Este artigo faz parte do estágio da sua jornada de atualização, que começa assim que você concluir a atualização do Skype para negócios às equipes excelência operacional.</span><span class="sxs-lookup"><span data-stu-id="ee639-104">This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.</span></span>
+<span data-ttu-id="754e1-104">Este artigo faz parte do estágio da sua jornada de atualização, que começa assim que você concluir a atualização do Skype para negócios às equipes excelência operacional.</span><span class="sxs-lookup"><span data-stu-id="754e1-104">This article is part of the Operational Excellence stage of your upgrade journey, which begins as soon as you've completed your upgrade from Skype for Business to Teams.</span></span>
 
-# <a name="quality-of-experience-review-guide"></a><span data-ttu-id="ee639-105">Qualidade da experiência Revise o guia</span><span class="sxs-lookup"><span data-stu-id="ee639-105">Quality of Experience Review Guide</span></span>
+# <a name="quality-of-experience-review-guide"></a><span data-ttu-id="754e1-105">Guia de revisão da experiência de qualidade</span><span class="sxs-lookup"><span data-stu-id="754e1-105">Quality of Experience Review Guide</span></span>
 
-<span data-ttu-id="ee639-106">A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliar e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário, como ilustrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="ee639-106">The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.</span></span>
+<span data-ttu-id="754e1-106">A [Qualidade da experiência Revise o guia](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliar e oferecem orientação de remediação em áreas principais que têm o maior impacto sobre como melhorar a experiência do usuário, como ilustrado abaixo.</span><span class="sxs-lookup"><span data-stu-id="754e1-106">The [Quality of Experience Review Guide](https://aka.ms/qerguide) includes a set of activities that assess and provide remediation guidance in key areas that have the greatest impact on improving the user experience, as illustrated below.</span></span>
 
-<span data-ttu-id="ee639-107">![As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.] (media/plan-my-service-management-image2.png "As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.")</span><span class="sxs-lookup"><span data-stu-id="ee639-107">![The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")</span></span>
+<span data-ttu-id="754e1-107">![As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.] (media/plan-my-service-management-image2.png "As principais áreas para examinar durante uma análise de qualidade de experiência: áudio, a confiabilidade e resultados de pesquisa do usuário.")</span><span class="sxs-lookup"><span data-stu-id="754e1-107">![The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.](media/plan-my-service-management-image2.png "The key areas to examine during a Quality of Experience Review: audio, reliability, and user survey results.")</span></span>
 
-<span data-ttu-id="ee639-108">Avaliação e correção as áreas descritas no guia continuamente, você pode reduzir seu potencial para afetar negativamente a experiência do usuário.</span><span class="sxs-lookup"><span data-stu-id="ee639-108">By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience.</span></span> <span data-ttu-id="ee639-109">A maioria dos problemas de experiência do usuário encontrados em uma implantação podem ser agrupados nas seguintes categorias:</span><span class="sxs-lookup"><span data-stu-id="ee639-109">Most user-experience problems encountered in a deployment can be grouped into the following categories:</span></span>
+<span data-ttu-id="754e1-108">Avaliação e correção as áreas descritas no guia continuamente, você pode reduzir seu potencial para afetar negativamente a experiência do usuário.</span><span class="sxs-lookup"><span data-stu-id="754e1-108">By continually assessing and remediating the areas described in the guide, you can reduce their potential to negatively affect user experience.</span></span> <span data-ttu-id="754e1-109">A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:</span><span class="sxs-lookup"><span data-stu-id="754e1-109">Most user-experience problems encountered in a deployment can be grouped into the following categories:</span></span>
 
-- <span data-ttu-id="ee639-110">Configuração de firewall ou proxy incompleta</span><span class="sxs-lookup"><span data-stu-id="ee639-110">Incomplete firewall or proxy configuration</span></span>
+- <span data-ttu-id="754e1-110">Configuração incompleta do firewall ou proxy</span><span class="sxs-lookup"><span data-stu-id="754e1-110">Incomplete firewall or proxy configuration</span></span>
 
-- <span data-ttu-id="ee639-111">Baixa cobertura de Wi-Fi</span><span class="sxs-lookup"><span data-stu-id="ee639-111">Poor Wi-Fi coverage</span></span>
+- <span data-ttu-id="754e1-111">Cobertura insatisfatória da rede Wi-Fi</span><span class="sxs-lookup"><span data-stu-id="754e1-111">Poor Wi-Fi coverage</span></span>
 
-- <span data-ttu-id="ee639-112">Largura de banda insuficiente</span><span class="sxs-lookup"><span data-stu-id="ee639-112">Insufficient bandwidth</span></span>
+- <span data-ttu-id="754e1-112">Largura de banda insuficiente</span><span class="sxs-lookup"><span data-stu-id="754e1-112">Insufficient bandwidth</span></span>
 
-- <span data-ttu-id="ee639-113">VPN</span><span class="sxs-lookup"><span data-stu-id="ee639-113">VPN</span></span>
+- <span data-ttu-id="754e1-113">VPN</span><span class="sxs-lookup"><span data-stu-id="754e1-113">VPN</span></span>
 
-- <span data-ttu-id="ee639-114">Uso de dispositivos de áudio não otimizados ou internos</span><span class="sxs-lookup"><span data-stu-id="ee639-114">Use of unoptimized or built-in audio devices</span></span>
+- <span data-ttu-id="754e1-114">Uso de dispositivos de áudio internos ou não otimizados</span><span class="sxs-lookup"><span data-stu-id="754e1-114">Use of unoptimized or built-in audio devices</span></span>
 
-- <span data-ttu-id="ee639-115">Sub-redes problemáticos ou dispositivos de rede</span><span class="sxs-lookup"><span data-stu-id="ee639-115">Problematic subnets or network devices</span></span>
+- <span data-ttu-id="754e1-115">Dispositivos de rede ou sub-redes com problemas</span><span class="sxs-lookup"><span data-stu-id="754e1-115">Problematic subnets or network devices</span></span>
 
-<span data-ttu-id="ee639-116">As diretrizes fornecidas no guia do Quality of Experience revisão enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio.</span><span class="sxs-lookup"><span data-stu-id="ee639-116">The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact.</span></span> <span data-ttu-id="ee639-117">Otimizações de feitas à rede para melhorar a experiência de áudio também diretamente traduzirá melhorias no compartilhamento de área de trabalho e de vídeo.</span><span class="sxs-lookup"><span data-stu-id="ee639-117">Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.</span></span>
+<span data-ttu-id="754e1-116">As diretrizes fornecidas no guia do Quality of Experience revisão enfoca usando Online do painel de controle de qualidade de chamada (CQD) como a ferramenta principal para relatar e investigar cada área descrita, com foco para maximizar a adoção e o impacto de áudio.</span><span class="sxs-lookup"><span data-stu-id="754e1-116">The guidance provided in the Quality of Experience Review Guide focuses on using Call Quality Dashboard (CQD) Online as the primary tool to report and investigate each area described, with a focus on audio to maximize adoption and impact.</span></span> <span data-ttu-id="754e1-117">Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.</span><span class="sxs-lookup"><span data-stu-id="754e1-117">Any optimizations made to the network to improve the audio experience will also directly translate to improvements in video and desktop sharing.</span></span>
 
-<span data-ttu-id="ee639-118">É altamente recomendável que você designar desde o início do campeão de qualidade.</span><span class="sxs-lookup"><span data-stu-id="ee639-118">We highly recommend that you nominate the quality champion early on.</span></span> <span data-ttu-id="ee639-119">Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no [Guia de revisão do Quality of Experience](https://aka.ms/qerguide).</span><span class="sxs-lookup"><span data-stu-id="ee639-119">After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).</span></span>
+<span data-ttu-id="754e1-118">É altamente recomendável que você designar desde o início do campeão de qualidade.</span><span class="sxs-lookup"><span data-stu-id="754e1-118">We highly recommend that you nominate the quality champion early on.</span></span> <span data-ttu-id="754e1-119">Depois que está sendo indicado, eles devem iniciar podem se familiarizar com o conteúdo no [Guia de revisão do Quality of Experience](https://aka.ms/qerguide).</span><span class="sxs-lookup"><span data-stu-id="754e1-119">After being nominated, they should start to familiarize themselves with the content in the [Quality of Experience Review Guide](https://aka.ms/qerguide).</span></span>
 
 <!--ENDOFSECTION-->
