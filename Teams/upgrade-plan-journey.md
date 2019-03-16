@@ -3,7 +3,7 @@ title: Planejar Skype para negócios à atualização do Microsoft Teams | Frame
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Planejar a sua atualização inscrever participantes primeiro e, em seguida, o escopo do projeto.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3c2c95e6034c365f95c5e8c4f6f124023437b9d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462432"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649416"
 ---
 ![Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto à direita. Defina o escopo do projeto, metas e linha do tempo. Confirme preparação técnico e do usuário. Execute o seu plano de distribuição. Manter momentum para maximizar os resultados.] (media/upgrade-banner-main.png "Comece sua jornada de atualização")
 

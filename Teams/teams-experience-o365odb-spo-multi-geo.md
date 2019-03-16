@@ -1,9 +1,9 @@
 ---
-title: Experiência de equipes em um inquilino Multi-Geo-enabled OneDrive do Office 365 e no SharePoint Online
+title: A experiência no Teams em um locatário do OneDrive do Office 365 e SharePoint Online com Funcionalidades Multigeográficas
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 description: Saiba mais sobre o uso de equipes em uma locação Multi-Geo-enabled OneDrive do Office 365 e no SharePoint Online.
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b93b67125693487e07fce824c01dbd5e955294
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462624"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649256"
 ---
-<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experiência de equipes em um inquilino Multi-Geo-enabled OneDrive do Office 365 e no SharePoint Online
+<a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>A experiência no Teams em um locatário do OneDrive do Office 365 e SharePoint Online com Funcionalidades Multigeográficas
 ===========================================
 
 Microsoft Teams é o software de bate-papo de grupo, o hub para o trabalho em equipe no Office 365. Ele é possibilitado pelo serviço de grupos do Office 365, juntamente com o SharePoint Online e o OneDrive for Business para sua experiência de arquivos. Em um OneDrive for Business/SharePoint Online Multi-Geo locação, no qual o inquilino é estendido para muitos locais geográficos como América do Norte, Europa e Austrália, a experiência de arquivos subjacente for Multi-Geo ciente, para que as equipes de experiência com o arquivo colaboração também está ciente Multi-Geo. Esse é um recurso de ponta principal para que as equipes a superfície arquivos hospedados em vários Geos na sua experiência de arquivos nativos.

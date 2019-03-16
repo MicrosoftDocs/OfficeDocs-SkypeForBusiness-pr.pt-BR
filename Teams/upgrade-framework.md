@@ -4,7 +4,7 @@ author: dearbeen
 ms.author: dearbeen
 manager: serdars
 ms.date: 12/18/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Usar uma estrutura de sucesso comprovadas para ajudar a jornada de atualização da sua organização do Skype para negócios às equipes
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91a2b5ae92598ad9a210f84bfce1a89fc1c97350
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460560"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649272"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -58,7 +58,7 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 | **3** | **Definir suas metas de projeto** | Definir metas direcionadas que permitem ao medir o progresso, bem como o sucesso do projeto. | [Objetivos do projeto](upgrade-define-project-scope.md#project-goals) |
 | **4** | **Identificar os riscos e planos de mitigação** | Estabelece um plano de redução de risco para garantir que você pode chegar facilmente seu projeto retomar ocorrer problemas. | [Riscos e redução de risco](upgrade-define-project-scope.md#risks-and-mitigation) |
 | **5** | **Definir o cronograma** | Defina um cronograma e fatos importantes para ajudar o seu projeto permanecer no tempo e do orçamento. | [Linha do tempo](upgrade-define-project-scope.md#timeline) <br><br> [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **Definir o Skype apropriada para negócios e equipes de estratégia de atualização e coexistência** | Mapeie sua jornada para garantir o melhor caminho de Skype para negócios às equipes para sua organização. | [Entender o Microsoft Teams e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Escolha sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **6** | **Definir o Skype apropriada para negócios e equipes de estratégia de atualização e coexistência** | Mapeie sua jornada para garantir o melhor caminho de Skype para negócios às equipes para sua organização. | [Entender o Microsoft Teams e Skype para interoperabilidade e coexistência de negócios](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Escolher sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Preparar: Avaliar a preparação de sua organização para equipes
@@ -68,7 +68,7 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 | **1** | **Avaliar o ambiente e conclua a inclusão de equipes técnica** | Certifique-se de que seu ambiente estiver pronto para equipes ajudar a otimizar a experiência do usuário e facilitar a sua atualização ao longo do tempo. | [Evaluate seu ambiente antes de atualizar para equipes](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar seu serviço para a atualização para equipes](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Otimizar a rede para equipes, especialmente para cenários de mídia em tempo real** | Se você estiver implantando o áudio, vídeo ou reuniões, siga estas etapas adicionais para otimizar a sua rede para essa funcionalidade. | [Preparar sua rede para a atualização para equipes](upgrade-prepare-environment-prepare-network.md) |
 | **3** | **Avalie a preparação de alteração organizacional e definir os cenários de trabalho em equipe** | Compreenda o usuário base para preparar o valor à direita de mensagens e o nível de educação para facilitar e acelerar a adoção dos usuários. | [Preparação de alteração organizacional](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **Preparar um plano de preparação do usuário para definir como você irá se comunicar, treinar e oferecer suporte a usuários** | Personalize seu plano de comunicações, treinamento e suporte para garantir o melhor receptiveness para a nova tecnologia. | [Preparar um plano de preparação do usuário](upgrade-user-readiness.md)<br><br>[Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
+| **4** | **Preparar um plano de preparação do usuário para definir como você irá se comunicar, treinar e oferecer suporte a usuários** | Personalize seu plano de comunicações, treinamento e suporte para garantir o melhor receptiveness para a nova tecnologia. | [Preparar um plano de preparação para usuários](upgrade-user-readiness.md)<br><br>[Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Anunciar o lançamento do Microsoft Teams pendente** | Comunicar-se no início para ajudar os usuários se sintam incluídos, reduzir a confusão e estimular o interesse. | [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **Preparar sua equipe de TI para equipes** | Confirmar sua técnica e a equipe de suporte tenha tudo o que precisam para preparar e seu ambiente técnico de suporte para as equipes. | [Preparar sua equipe de TI for Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
 
@@ -101,8 +101,8 @@ Para ajudar a demonstrar como sua atualização jornada talvez Desdobrar, fornec
 | Etapa |  | Resumo | Recurso |
 |------|--|---------|----------|
 | **1** | **Confirme que você tiver concluído as atividades de pré-atualização descritas acima** | Ajuda a garantir a atualização de sucesso, confirmando a conclusão de todas as atividades de planejamento e preparação. | Todas as opções acima |
-| **2** | **Iniciar comunicações com usuários de seu primeiro grupo de atualização** | Notifica os usuários que upgrades estiver começando e manterem-los informados ao longo do processo. | [Preparar um plano de preparação do usuário](upgrade-user-readiness.md) <br><br> [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **Habilitar o modo de coexistência para equipes somente para usuários de seu primeiro grupo de atualização** | Siga as etapas apropriadas para sua Skype para ambiente de negócios para realizar a migração de usuários técnicos. | [Atualização do Skype para negócios Online para equipes](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Atualizar do Skype para híbrido de negócios ou local para equipes](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **2** | **Iniciar comunicações com usuários de seu primeiro grupo de atualização** | Notifica os usuários que upgrades estiver começando e manterem-los informados ao longo do processo. | [Preparar um plano de preparação para usuários](upgrade-user-readiness.md) <br><br> [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
+| **3** | **Habilitar o modo de coexistência para equipes somente para usuários de seu primeiro grupo de atualização** | Siga as etapas apropriadas para sua Skype para ambiente de negócios para realizar a migração de usuários técnicos. | [Atualizar do Skype for Business Online para o Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Atualizar do Skype for Business híbrido ou local para o Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
 | **4** | **Repita as atividades de atualização anteriores para os grupos de atualização restantes em um ciclo sem interrupção** | Continue a unidade de seu plano de comunicação em andamento e grupos de usuários com base no seu plano de atualização. | |
 | **5** | **Enviar feedback pós-atualização pesquisas para todos os usuários** | Use uma pesquisa de comentários para capturar comentários e ideias de usuários. | [Kit de atualização de sucesso](https://aka.ms/UpgradeSuccessKit) |
 

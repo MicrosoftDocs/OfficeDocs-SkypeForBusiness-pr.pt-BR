@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 11/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: Conheça as diferentes equipes, canais e aplicativos disponíveis para uma grande variedade de exigências, como finanças, planejamento de eventos, vendas e muito mais.
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78806ae0fb4b118757026fda695dcba03bae1dd
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493969"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647437"
 ---
 > [!NOTE]
 > Revise as seguintes informações para entender o bate-papo, equipes, canais, apps & em equipes. Em seguida, vá para [implantar chat, equipes, canais, apps & em equipes](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para percorrer a uma lista de decisões importantes para a distribuição de equipes.
@@ -36,7 +36,7 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 
     -   As Equipes podem ser criadas para serem privadas, apenas para usuários convidados.
 
-    -   As Equipes também podem ser criadas para serem públicas e abertas para qualquer pessoa da empresa participar (até 2500 membros).
+    -   As equipes também podem ser criadas para serem pública e open e qualquer pessoa dentro da organização poderão ingressar (até 5.000 membros).
     
     Uma equipe foi designada para reunir um grupo de pessoas que trabalham em parceria para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 

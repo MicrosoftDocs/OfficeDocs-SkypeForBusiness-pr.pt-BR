@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
-ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729397"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645353"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -26,6 +26,8 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 
 | Versão | Publicado em <br>Repositório da Microsoft | 
 | ---     | ---  |
+| 4.0.78.0 | 14/03/2019   |
+| 4.0.76.0 | 03/04/2019   |
 | 4.0.64.0 | 14/12/2018   |
 | 4.0.51.0 | 17/11/2018   | 
 | 4.0.31.0 | 10/16/2018   | 
@@ -50,6 +52,19 @@ Este artigo discute as melhorias cumulativas em sistemas de sala Skype v2.
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de sala Skype v2 recurso Introdução e resoluções de problemas
+
+### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
+Introduzido nessa atualização:
+- Correção de bug "travar na inicialização do app" que afetado dispositivos na compilação de Windows 10 RS2 herdado.  
+
+### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
+Introduzido nessa atualização:
+- Teclado DTMF para reuniões de Teams da Microsoft. Para tornar Teams Microsoft seu cliente de chamada padrão, os administradores devem defina IsTeamsDefaultClient como true
+- Fixa vídeo de entrada de um participante remoto para tela inteira na frente da exibição da sala. Use o comando de "Fixar" da lista de participação dos participantes no console
+- Aprimoramentos para notificações de Lobby com a adição da notificação Front de sala
+- Frente da exibição da sala remove o ícone de projeção quando beacon Bluetooth não está habilitada no dispositivo de sistema de sala
+- Corrigir o problema de controle de volume em reuniões de equipes
+
 
 ### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
 Introduzido nessa atualização:
@@ -159,7 +174,7 @@ Introduzido nessa atualização:
 - Capacidade de fazer comentários para compilações públicas     
 - Telemetria aprimorada em torno de confiabilidade de participação da reunião     
 - Relatórios de OMS adicionais     
-- Capacidade do administrador de TI configurar dispositivos remotamente<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Capacidade do administrador de TI configurar dispositivos remotamente  <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
@@ -198,7 +213,7 @@ Introduzido nessa atualização:
  
 
 <a name="See"> </a>  
-## <a name="see-also"></a>Ver também
+## <a name="see-also"></a>Consulte Também
 
 [Ajuda da versão 2 de sistemas de sala do Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

@@ -3,7 +3,7 @@ title: Project Skype de escopo para a adoção de equipes da Microsoft de negóc
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Escopo de seu projeto de atualização por refinando sua visão e objetivos.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 346fbfc241616af0ac071269f73dbc4f1ad66bfb
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464824"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649400"
 ---
 ![Estágios da atualização jornada, com ênfase no estágio a definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da atualização jornada, com ênfase no estágio a definição do projeto")
 
@@ -28,7 +28,7 @@ Este artigo faz parte do estágio de definição de projeto de sua atualização
 
 - [Participantes do projeto listado](upgrade-enlist-stakeholders.md)
 
-# <a name="define-your-project-scope"></a>Definir o escopo do projeto
+# <a name="define-your-project-scope"></a>Definir o escopo de seu projeto
 
 Para definir sua visão do projeto, escopo, metas e governança o tempo empregado ajudará a garantir que todos os participantes de projeto são alinhados e trabalhando para os mesmos resultados finais. Isso é especialmente crítico, visto que a equipe de prontidão técnica e a equipe de preparação do usuário estará trabalhando independentemente para juntar pedaços seus respectivos. Após a conclusão desta seção, consultá-lo em todo o projeto para garantir que você está no caminho certo para alcançar o estado final que você queria. Use as metas que você identificar abaixo para medir a seus resultados e atenuar conforme necessário.
 

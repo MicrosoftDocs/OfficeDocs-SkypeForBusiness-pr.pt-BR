@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63d96ace4de4ae19446e4f0a1376088ac3294647
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b4b809a2db9da32915ec9bade59b346a4874c2fa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464544"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647373"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir cenários de uso do Microsoft Teams
 
@@ -34,7 +34,7 @@ Certifique-se de que você entende os projetos corporativos (cenários) que far�
 
 ![Cenários principais](media/teams-adoption-modernizing-core-scenarios.png)
 
-Cenários adicionais para serem considerados são:
+Cenários adicionais a serem considerados são:
 
 - A comunicação e o envolvimento do funcionário
 - Disponibilize campanhas no mercado com mais rapidez

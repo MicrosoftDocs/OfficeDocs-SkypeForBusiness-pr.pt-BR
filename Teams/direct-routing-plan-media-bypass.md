@@ -15,18 +15,18 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com roteamento direto de sistema do telefone.
-ms.openlocfilehash: 39fc46fb95fef1d78f6f6cc946693f05c7c1f865
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
+ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631007"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30649208"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com o roteamento direto
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Sobre o bypass de mídia com o roteamento direto
 
-Bypass de mídia permite diminuir o caminho de tráfego de mídia e reduzir o número de saltos em trânsito para melhor desempenho. Com o bypass de mídia, será mantida entre o controlador de borda de sessão (SBC) e o cliente em vez de enviá-la por meio do sistema de telefone da Microsoft. Para configurar o media bypass, o SBC e o cliente devem ser no mesmo local ou rede
+Bypass de mídia permite diminuir o caminho de tráfego de mídia e reduzir o número de saltos em trânsito para melhor desempenho. Com o bypass de mídia, será mantida entre o controlador de borda de sessão (SBC) e o cliente em vez de enviá-la por meio do sistema de telefone da Microsoft. Para configurar o media bypass, o SBC e o cliente devem ser no mesmo local ou na rede.
 
 Você pode controlar o bypass de mídia para cada SBC usando o comando **Set-CSOnlinePSTNGateway** com o parâmetro **- MediaBypass** definido como true ou false. Se você habilitar o bypass de mídia, isso significa que todo o tráfego de mídia permanecerão dentro da rede corporativa. Este artigo descreve o fluxo de chamadas em diferentes cenários.    
 

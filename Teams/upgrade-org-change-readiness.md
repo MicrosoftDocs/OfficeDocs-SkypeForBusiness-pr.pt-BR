@@ -3,7 +3,7 @@ title: Skype para negócios às equipes da Microsoft | Atualizar a preparação 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Certifique-se de que sua organização e os usuários estão prontos for Microsoft Teams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465232"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649448"
 ---
 ![Estágios da atualização jornada, com ênfase na etapa de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da atualização jornada, com ênfase na etapa de preparação do usuário")
 
@@ -31,7 +31,7 @@ Este artigo faz parte do estágio de preparação de usuários de sua atualizaç
 - [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
 - [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="assess-organizational-change-readiness"></a>Avalie a preparação de alteração organizacional
+# <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
 Após você ter protegido sua equipe de projeto e definido sua visão, escopo e objetivos, a próxima etapa na sua jornada de atualização é garantir que sua organização e os usuários estejam prontos para equipes — uma atividade que você concluir em paralelo com garantindo que sua prontidão técnica. Para compreender o valor de equipes, os usuários devem realmente usá-lo. Habilitar simplesmente equipes não garante que você obtenha seu objetivo. Os usuários têm diferentes casos de uso e os estilos de aprendizagem variados e adaptar-se para uma nova tecnologia em velocidades diferentes. A boa notícia é que o gerenciamento de alterações não é muito complicado, mas exige um esforço concentrado. As discussões guiadas abaixo são projetadas para ajudá-lo a entender sua base de usuários, para que você pode preparar o nível adequado de educação para facilitar e acelerar a adoção dos usuários. Há duas maneiras que você deve examinar sua base de usuários:
 

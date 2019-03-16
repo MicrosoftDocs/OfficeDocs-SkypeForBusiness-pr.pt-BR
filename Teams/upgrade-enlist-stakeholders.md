@@ -3,7 +3,7 @@ title: Inscrever-se os participantes | Skype para negócios a equipes de planeja
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Inscrever-se os participantes para servir na equipe do projeto para sua atualização.
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461288"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649200"
 ---
 ![Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto] (media/upgrade-banner-stakeholders.png "Estágios da atualização jornada, com ênfase na coleta de sua equipe de participantes do projeto")
 
 Este artigo faz parte do estágio participantes do projeto da sua jornada de atualização, a atividade de primeira e mais essencial Concluir para o sucesso do seu projeto.
 
-# <a name="enlist-your-project-stakeholders"></a>Inscrever seus participantes do projeto
+# <a name="enlist-your-project-stakeholders"></a>Listar os participantes em seu projeto
 
 Com a implementação de resultados finais do projeto orientando accountability, os acionistas mantenha pressionada a tecla para o sucesso do seu projeto. Existem dois grupos de participantes que você vai querer atribuir: (1) uma _coalition patrocínio_ que inclui o projeto e executivo responsáveis que têm interesse e influenciam no sucesso do projeto e (2) a _equipe de projeto_, consistindo o planejar a pessoas responsáveis por garantir técnica e preparação do usuário, que vai concluir várias tarefas no projeto. O segmento comum entre esses dois grupos é o _gerente de projeto_, que trabalha para garantir que tarefas de projeto obtém concluídas no prazo e relatórios de status de volta para a coalition do project.
 
