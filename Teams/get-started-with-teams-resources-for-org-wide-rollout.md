@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a42f9c50ba1985ac0be068b2a9fbf1fab5f9b439
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d64dba26ba492ffb792a7ad2a403845fdf2564a7
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465352"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640902"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Escolher um caminho para a distribuição do Microsoft Teams em toda a organização
 
-Agora que você configurou suas primeiras equipes com sucesso, integrou um grupo inicial de usuários enquanto impulsionava o uso, é hora de analisar seu plano para implantar o Teams em todo o restante da organização ao mesmo tempo em que impulsiona a adoção. Comece pela primeira carga de trabalho, [Chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
+Agora que você configurou suas primeiras equipes com sucesso e integrou um grupo inicial de usuários ao incentivar o uso, é hora de analisar seu plano para implantar o Teams em todo o restante da organização ao mesmo tempo em que impulsiona a adoção. Comece pela primeira carga de trabalho, [Chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Para ajudar a escolher o caminho de implementação do Teams, leia [Como implantar o Teams](How-to-roll-out-teams.md).
 
