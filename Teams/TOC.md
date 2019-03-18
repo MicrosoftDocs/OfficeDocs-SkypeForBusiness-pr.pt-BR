@@ -145,7 +145,7 @@
 ### [Período de discagem gratuita da audioconferência](complimentary-dial-out-period.md)
 
 
-### [Configurar a audioconferência para o Skype for Business e o Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Configurar audioconferência no Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 ### [Atribuir a Microsoft como provedor de audioconferência](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
@@ -343,6 +343,12 @@
 #### [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
 #### [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
 #### [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
+
+### Bypass de mídia para Roteamento Direto
+#### [Planejar o bypass de mídia com Roteamento Direto](direct-routing-plan-media-bypass.md)
+#### [Configurar o bypass de mídia com Roteamento Direto](direct-routing-configure-media-bypass.md)
+
+
 ### Referência técnica do Roteamento direto
 #### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
 
