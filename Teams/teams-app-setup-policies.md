@@ -3,8 +3,8 @@ title: Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/11/2019
-ms.reviewer: larryjin
+ms.date: 3/18/2019
+ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,17 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativo no Microsoft Teams e como usá-los para aplicativos de pin para personalizar as equipes para usuários em sua organização.
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+f1keywords:
+- ms.teamsadmincenter.apppolicies.setup
+ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541820"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664744"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Como um administrador, você pode usar políticas de configuração de aplicativo para personalizar o Microsoft Teams para destacar os aplicativos que são mais importantes para seus usuários. Você escolher os aplicativos para fixar e definir a ordem em que aparecem. Políticas de configuração de aplicativo permitem que você demonstrem aplicativos que precisam de usuários em sua organização, incluindo aquelas criadas por terceiros ou por desenvolvedores em sua organização. Você também pode usar políticas de configuração de aplicativo para gerenciar recursos internos como aparecem.
 
@@ -50,10 +51,10 @@ Você pode editar as configurações na política global para incluir os aplicat
 
 Você pode usar o Centro de administração do Microsoft Teams para criar uma política personalizada.
 
-1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de configuração de aplicativo**.
+1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de instalação**.
 2. Selecione **nova política**.
 3. Insira um nome descritivo para a política e, em seguida, clique em **Adicionar aplicativos**.
-4. No painel **Adicionar fixados apps** , pesquise os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**.  Para ver uma lista de todos os aplicativos, selecione **armazenar equipes app**. Quando você tiver escolhido sua lista de aplicativos, clique em **Adicionar**.
+4. No painel **Adicionar fixados apps** , pesquise os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**. Você também pode filtrar apps pela política de permissão do aplicativo. Quando você tiver escolhido sua lista de aplicativos, clique em **Adicionar**.
 
      ![App-instalação-políticas-adicionar-apps.png](media/app-setup-policies-add-apps.png)
 
@@ -63,16 +64,19 @@ Você pode usar o Centro de administração do Microsoft Teams para criar uma po
 
 ## <a name="edit-an-app-setup-policy"></a>Editar uma política de instalação de aplicativo
 
-Você pode usar o Centro de administração do Microsoft Teams ou o Windows PowerShell para editar uma política, incluindo a política global de (padrão de toda a organização) e políticas personalizadas que você criar. 
+Você pode usar o Centro de administração do Microsoft Teams para editar uma política, incluindo a política global de (padrão de toda a organização) e políticas personalizadas que você criar.
 
-1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de configuração de aplicativo**.
+1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes apps** > **políticas de instalação**.
 2. Selecione a política que você deseja editar. 
 3. A partir daqui, faça as alterações que você deseja. Você pode adicionar, remover e alterar a ordem dos aplicativos.
-4. Clique em **Salvar**. 
+4. Clique em **Salvar**.
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>Atribuir uma política de instalação do aplicativo personalizado aos usuários
 
-Você pode usar o Centro de administração do Microsoft Teams para atribuir uma política personalizada para usuários individuais ou o Windows PowerShell para atribuir uma política personalizada para grupos de usuários, como um grupo de segurança ou grupo de distribuição.
+Você pode usar o Centro de administração do Microsoft Teams atribuir uma política personalizada para usuários individuais ou o Skype para o módulo de PowerShell de negócios para atribuir uma política personalizada para grupos de usuários, como um grupo de segurança ou grupo de distribuição.
+
+> [!IMPORTANT]
+> É recomendável usar o PowerShell somente para atribuir políticas aos usuários. Use o Centro de administração do Microsoft Teams para criar, editar e gerenciar políticas.
 
 ### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>Atribuir uma política de instalação do aplicativo personalizado para usuários individuais
 
@@ -160,4 +164,7 @@ Atualmente, os usuários podem alterar a ordem dos seus aplicativos fixados em c
 Certifique-se de que você siga as diretrizes de logotipo antes de enviar o aplicativo. Para saber mais, consulte a [lista de verificação para envio de painel do vendedor](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
 
  ## <a name="related-topics"></a>Tópicos relacionados
+- [Configurações de administração para aplicativos no Teams](admin-settings.md)
+- [Gerenciar políticas de permissão de aplicativo em equipes](teams-app-permission-policies.md)
+- [Gerenciar políticas de aplicativo personalizado e configurações no equipes](teams-custom-app-policies-and-settings.md)
 - [Publicar um aplicativo para o catálogo de aplicativos do locatário do cliente equipes](tenant-apps-catalog-teams.md)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463704"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664736"
 ---
 ![Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
 
@@ -56,56 +56,53 @@ As etapas descritas a seguir o ajudarão a determinar que se a sua implantação
 
 ## <a name="bandwidth-planning"></a>Planejamento de largura de banda
 
-A primeira etapa para a preparação da rede é garantir que sua rede tenha largura de banda suficiente disponível para as modalidades que equipes irá fornecer aos usuários. Planejamento da largura de banda suficiente é uma tarefa razoavelmente simples e iniciar uma barreira de muito baixa para ajudar a garantir a seus usuários terão uma experiência de equipes de alta qualidade.
+Teams da Microsoft oferece a melhor conteúdo de áudio, vídeo e compartilhamento experiência independentemente condições da sua rede. Com a variáveis codecs, mídia pode ser negociada em ambientes de largura de banda limitada com um impacto mínimo. Mas onde a largura de banda não for uma preocupação, experiências podem ser otimizadas por qualidade, incluindo backup resolução de vídeo 1080p, até 30 fps para vídeo e áudio de conteúdo e de alta fidelidade.
 
-Você iniciar o seu planejamento de jornada para equipes do [Supervisor de meu site](https://myadvisor.fasttrack.microsoft.com/) usando Planejador de rede de largura de banda. Planejador de rede fornece largura de banda de cada site de planejamento para equipes e oferece recomendações para otimizar o desempenho da rede.
+Este artigo descreve uma versão concisa do modo como a largura de banda é utilizada por equipes tempo real áudio, vídeo e modalidades em vários casos de uso de compartilhamento de área de trabalho. As equipes é sempre uma estimativa conservadora na utilização de largura de banda e pode fornecer a qualidade de vídeo HD em menos de 1,2 Mb. O consumo de largura de banda real em cada chamada de áudio/vídeo ou reunião irá variar, com base em vários fatores, como vídeo layout, resolução de vídeo e vídeos quadros por segundo.Quando houver mais largura de banda qualidade e uso aumentará para oferecer a melhor experiência.
 
-> [!IMPORTANT]
-> Se a largura de banda necessária não estiver disponível, a pilha de mídia dentro de equipes cai a qualidade da sessão de áudio/vídeo para acomodar essa menor quantidade de largura de banda disponível, o que afeta a qualidade da chamada ou reunião. O cliente de equipes tenta priorizar a qualidade do áudio sobre a qualidade do vídeo. Portanto, é extremamente importante ter esperada de largura de banda disponível.
+|Bandwidth(up/down) |Cenários |
+|---|---|
+|30 kbps |Chamadas de áudio ponto a ponto |
+|130 kbps |As chamadas de áudio ponto a ponto e compartilhamento de tela |
+|500 kbps |Vídeo de chamar 360p a 30fps de qualidade de ponto a ponto |
+|1.2 Mbps |Vídeo com qualidade chamar com resolução de HD 720 pixels a 30fps HD-a-ponto |
+|1,5 Mbps |Vídeo com qualidade de chamada com resolução de HD 1080p em 30fps HD-a-ponto |
+|500kbps/1Mbps |Grupo de chamada de vídeo |
+|1Mps/2Mbps |Grupo de HD vídeo chamar (vídeos de 540p na tela 1080p) |
 
-|Atividade |Baixe a largura de banda |Carregar a largura de banda |Fluxo de tráfego |
-|---|---|---|---|
-|**Chamada de áudio ponto a ponto** |0,1 Mbps |0,1 Mbps |Cliente <> Cliente |
-|**Chamada de vídeo ponto a ponto (tela inteira)** |4 Mbps |4 Mbps |Cliente <> Cliente |
-|**O compartilhamento da área de trabalho ponto a ponto (1920& #215; 1080 resolução)** |4 Mbps |4 Mbps |Cliente <> Cliente |
-|**Dois-participante reunião** |4 Mbps |4 Mbps |Cliente <> Office 365 |
-|**Três-participante reunião** |8 Mbps |6.5 Mbps |Cliente <> Office 365 |
-|**Quatro-participante reunião** |5,5 Mbps |4 Mbps |Cliente <> Office 365 |
-|**Cinco ou mais – participante reunião** |6 Mbps |1,5 Mbps |Cliente <> Office 365 |
+### <a name="local-internet-egress"></a>Saída para a Internet local
 
-### <a name="local-internet-egress"></a>Saída local de internet
+Muitas redes foram projetadas para usar uma topologia hub-spoke. Nessa topologia, normalmente o tráfego da Internet percorre a WAN até um data center central antes de exteriorizar-se (sair) na Internet. Muitas vezes, isso é feito para centralizar os dispositivos de segurança de rede a fim de reduzir o custo total.
 
-Muitas redes foram projetados para usar um hub e spoke de topologia. Nessa topologia, o tráfego da internet geralmente percorre WAN com um datacenter central antes de ele surge (egresses) para a internet. Normalmente, isso é feito para centralizar dispositivos de segurança de rede com o objetivo de reduzir o custo total.
+O tráfego de retorno pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como o Microsoft Teams é executado na ampla rede global da Microsoft, frequentemente há um local de emparelhamento de rede perto do usuário. O usuário provavelmente terá melhor desempenho ao sair de um ponto de Internet local próximo de sua localização e entrar em nossa rede com otimização de voz assim que possível. Para algumas cargas de trabalho, solicitações DNS são usadas para enviar o tráfego para o servidor front-end mais próximo. Nesses casos, é importante que, ao usar um ponto de saída local, ele esteja emparelhado com a resolução de DNS local.
 
-Tráfego de back-puxar pela WAN aumenta a latência e tem um impacto negativo sobre a qualidade e a experiência do usuário. Como Teams Microsoft opera em uma rede grande de global da Microsoft, geralmente há um local de rede aos e está perto do usuário. Um usuário provavelmente receberá um melhor desempenho por egressing sem um ponto de internet local e está perto do seu local e em nossa rede de voz-otimizado assim que possível. Para algumas cargas de trabalho, as solicitações de DNS são usadas para enviar o tráfego para o mais próximo do servidor front-end. Nesses casos, é importante que, ao usar um ponto de saída local, ele é emparelhado com resolução DNS local.
+A otimização do caminho de rede para a rede global da Microsoft melhorará o desempenho e, em última instância, oferecerá a melhor experiência para os usuários. Para obter mais detalhes, consulte a postagem no blog [Como obter a melhor conectividade e desempenho no Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-Otimizar o caminho de rede para a rede global da Microsoft, melhorar o desempenho e basicamente oferecer a melhor experiência para usuários. Para obter mais detalhes, consulte o blog postar [Obtendo o melhor conectividade e desempenho no Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+Para obter uma experiência ideal usando mídia em tempo real dentro Teams da Microsoft, você deverá atender os requisitos de rede para o Office 365. Para obter mais informações, consulte [qualidade de mídia e o desempenho de conectividade de rede para Skype para negócios Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Para obter uma experiência ideal usando mídia em tempo real dentro Teams da Microsoft, você deverá atender os requisitos de rede para o Office 365. Para mais informações, consulte [Qualidade de mídia e desempenho de conectividade de rede para o Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Os dois segmentos de rede determinantes (cliente para Microsoft Edge) e a extremidade do cliente para o Microsoft Edge devem atender aos seguintes requisitos:
 
-Os dois segmentos de rede a ser definidos (Cliente para o Microsoft Edge e Edge do cliente para o Microsoft Edge) devem atender aos seguintes requisitos:
-
-|**Valor** |**Cliente para o Microsoft Edge** |**Edge do cliente para o Microsoft Edge** |
+|**Valor** |**Cliente para a borda da Microsoft** |**Borda de cliente para a borda da Microsoft** |
 |---|---|---|
-|**Latência (unidirecional)** |< 50 ms |< 30 ms |
+|**Latência (uma maneira)** |< 50 ms |< 30 ms |
 |**Latência (tempo de ida e volta, ou tempo de resposta)** |< 100 ms |< 60 ms |
-|**Perda de pacote de intermitência** |% de <10 durante qualquer intervalo de 200 ms |% de <1 durante qualquer intervalo de 200 ms |
-|**Perda de pacotes** |% de <1 durante qualquer intervalo de 15 segundos |<0.1% durante qualquer intervalo de 15 segundos |
+|**Perda de pacotes de intermitência** |% de <10 durante qualquer intervalo de 200 ms |% de <1 durante qualquer intervalo de 200 ms |
+|**Perda de pacote** |% de <1 durante qualquer intervalo de 15 segundos |<0.1% durante qualquer intervalo de 15 segundos |
 |**Tremulação de entre chegada de pacotes** |<30 ms durante qualquer intervalo de 15 segundos |<15 ms durante qualquer intervalo de 15 segundos |
-|**Novo pedido de pacotes** |<0,05% de pacotes com problemas |<0,01% de pacotes com problemas |
+|**Reordenar de pacotes** |pacotes de fora de ordem <0.05% |pacotes de fora de ordem <0.01% |
 
-Para testar os dois segmentos de rede, use a [ferramenta de avaliação de rede](https://go.microsoft.com/fwlink/?linkid=855799). Essa ferramenta pode ser implantada diretamente no computador cliente e em um computador conectado ao Customer Network Edge. Essa ferramenta contém uma documentação limitada, mas uma documentação mais profunda do uso da ferramenta pode ser encontrada aqui: [Avaliação da prontidão da rede](https://go.microsoft.com/fwlink/?linkid=855800). Ao executar essa Avaliação da prontidão da rede, você pode validar a prontidão da sua rede para executar aplicativos de mídia em tempo real, como o Microsoft Teams.
+Para testar os dois segmentos de rede, você pode usar a [Ferramenta de avaliação de rede](https://go.microsoft.com/fwlink/?linkid=855799). Essa ferramenta pode ser implantada em ambos o cliente PC diretamente e em um PC conectado a borda da rede do cliente. A ferramenta inclui documentação limitada, mas uma documentação mais aprofundada alternativa para o uso da ferramenta pode ser encontrada aqui: [Avaliação de prontidão de rede](https://go.microsoft.com/fwlink/?linkid=855800). Executando esta avaliação de prontidão de rede, é possível validar a preparação da sua rede para executar aplicativos de mídia em tempo real, como o Microsoft Teams.
 
 > [!NOTE]
 > Esta é a mesma avaliação de prontidão de rede que a Microsoft recomenda ser executado por clientes que desejam para implantar com êxito o Skype para negócios.
 
 ### <a name="vpn"></a>VPN
 
-VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, eles estão geralmente não projetados ou configurados para oferecer suporte a mídia em tempo real. Alguns VPNs também podem não suportar UDP. VPNs também introduzem uma camada adicional de criptografia, na parte superior de tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço de equipes talvez não seja eficiente devido ao tráfego de fixação de forma por meio de um dispositivo VPN. Além disso, eles não são necessariamente projetados de uma perspectiva de capacidade para acomodar as cargas antecipadas que precisarão de equipes.
+As VPNs fornecem um serviço valioso para muitas organizações. Infelizmente, eles estão geralmente não projetados ou configurados para oferecer suporte a mídia em tempo real. Algumas VPNs também podem não dar suporte ao UDP. VPNs também introduzem uma camada adicional de criptografia, na parte superior de tráfego de mídia que já está criptografado. Além disso, a conectividade com o serviço de equipes talvez não seja eficiente devido ao tráfego de fixação de forma por meio de um dispositivo VPN. Além disso, eles não são necessariamente projetados de uma perspectiva de capacidade para acomodar as cargas antecipadas que precisarão de equipes.
 
-A recomendação é fornecer um caminho alternativo que ignora a VPN para tráfego de equipes. Isso normalmente é conhecido como *divisão de túnel VPN*. Divida encapsulamento significa que o tráfego para o Office 365 não atravessa VPN, mas será levado diretamente para o Office 365. Essa alteração terá um impacto positivo na qualidade, mas também proporciona a vantagem secundária de reduzir a carga de dispositivos VPN e da rede da organização.
+A recomendação é fornecer um caminho alternativo que contorne a VPN para o tráfego do Microsoft Teams. Isso normalmente é conhecido como *divisão de túnel VPN*. Divida encapsulamento significa que o tráfego para o Office 365 não atravessa VPN, mas será levado diretamente para o Office 365. Essa alteração tem um impacto positivo sobre a qualidade, mas também apresenta um benefício secundário de reduzir a carga dos dispositivos de VPN e da rede da organização.
 
-Para implementar uma divisão de túnel, consulte o fornecedor VPN para ver os detalhes de configuração.
+Para implementar um túnel dividido, consulte o fornecedor da VPN para obter os detalhes de configuração.
 
 ### <a name="wi-fi"></a>Wi-Fi
 
@@ -113,15 +110,15 @@ Como o VPN, redes Wi-Fi não são necessariamente projetadas ou configuradas par
 
 Há vários fatores que entram em cena para otimizar uma rede Wi-Fi:
 
-- Implementação de QoS ou Wi-Fi WMM (multimídia) para garantir que o tráfego de mídia é obtendo priorizado adequadamente através das redes Wi-Fi.
+- Implementar a QoS ou o Multimídia Wi-Fi (WMM) para garantir que o tráfego de mídia seja priorizado corretamente pelas redes Wi-Fi.
 
-- Posicionamento de ponto de planejamento e otimizando as faixas Wi-Fi e acesso. O intervalo de 2,4 GHz pode fornecer uma experiência adequada dependendo de posicionamento de ponto de acesso, mas os pontos de acesso geralmente são afetados por outros dispositivos de consumidor que operam nesse intervalo. O intervalo de 5 GHz é mais adequado à mídia em tempo real devido ao seu intervalo densidade, mas exige mais pontos de acesso para obter cobertura suficiente. Pontos de extremidade também precisam oferecer suporte a esse intervalo e ser configurado para aproveitar nessas faixas de acordo.
+- Posicionamento de ponto de planejamento e otimizando as faixas Wi-Fi e acesso. O intervalo de 2,4 GHz pode fornecer uma experiência adequada dependendo de posicionamento de ponto de acesso, mas os pontos de acesso geralmente são afetados por outros dispositivos de consumidor que operam nesse intervalo. O intervalo de 5 GHz é mais adequado para mídia em tempo real porque é mais denso, mas requer mais pontos de acesso para proporcionar cobertura suficiente. Os pontos de extremidade também precisam dar suporte àquele intervalo e ser configurados para utilizar essas bandas corretamente.
 
 - Se forem implantados redes Wi-Fi de banda dupla, considere a implementação de direcionamento de banda. _O direcionamento de banda_ é uma técnica implementada por fornecedores de Wi-Fi para influenciar a banda dupla aos clientes utilizarem o intervalo de 5 GHz.
 
 - Quando os pontos de acesso no mesmo canal estiverem muito juntos, eles podem causar sobreposição de sinal e competem acidentalmente, resultando em uma experiência ruim para o usuário. Certifique-se de que os pontos de acesso que estão próximas umas das outras estão em canais que não se sobreponham.
 
-Fornecedor de cada sem fio tem seus próprio recomendações para a implantação de sua solução sem fio. Recomendamos que você consulte seu fornecedor para obter orientações específicas.
+Cada fornecedor de redes sem fio tem suas próprias recomendações de implantação da solução sem fio. Recomendamos que você consulte as orientações específicas do fornecedor.
 
 <!--ENDOFSECTION-->
 
@@ -147,7 +144,7 @@ Certifique-se de que todos os computadores cliente executando o cliente de equip
 
 Quando vários usuários e dispositivos access Office 365 usando a conversão de endereço de rede (NAT) ou Port Address Translation (PAT), você precisa para garantir que os dispositivos ocultados por trás de cada endereço IP roteável publicamente não excederem o número de com suporte.
 
-Para atenuar esse risco, certifique-se de adequada endereços IP públicos são atribuídos para os pools NAT para evitar o esgotamento de porta. O esgotamento de portas fará com que dispositivos e usuários finais internos enfrentem problemas ao se conectarem aos serviços do Office 365. Para mais informações, consulte o [guia Suporte de NAT com o Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
+Para atenuar esse risco, certifique-se de adequada endereços IP públicos são atribuídos para os pools NAT para evitar o esgotamento de porta. Esgotamento de porta fará com que os usuários finais internos e dispositivos enfrentando problemas ao conectar-se aos serviços do Office 365. Para obter mais informações, consulte [suporte a NAT com o Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
 
 ### <a name="intrusion-detection-and-prevention-guidance"></a>Orientação de prevenção e detecção de invasão
 
@@ -204,7 +201,7 @@ Se os resultados do planejamento de largura de banda, testes de porta ou requisi
 Qualidade de serviço (QoS) pode ser usado para deficiências batalha priorização e separando o tráfego. Algumas organizações optam por implantar o QoS para superar os problemas de largura de banda ou restringir a quantidade de fluxo de tráfego. Isso não melhorar a qualidade e levarão à redução novos problemas. Uma análise de causa raiz deve ser sempre executada quando os problemas de rede excedem requisitos. QoS pode ser uma solução. Para obter mais informações, consulte [Qualidade de serviço em equipes da Microsoft](qos-in-teams.md).
 
 >[!NOTE]
->Muitas redes evoluem ao longo do tempo devido às atualizações, expansão ou outros requisitos de negócios. Certifique-se de que você tenha processos operacionais in-loco para manter nessas áreas como parte do seu planejamento de gerenciamento de serviço.
+>Muitas redes evoluem ao longo do tempo devido a atualizações, expansões ou outros requisitos empresariais. Verifique se você tem processos operacionais em vigor para manter essas áreas como parte do planejamento do gerenciamento do serviço.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Ponto de decisão</td><td><ul><li>Quem será responsável pela conclusão de avaliações de rede adequado entre todos os segmentos de rede e locais da organização?</li></ul></td></tr>

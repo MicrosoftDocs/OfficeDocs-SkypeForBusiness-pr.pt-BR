@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Página de aterrissagem à implantação de voz de nuvem em equipes
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465304"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664914"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -38,11 +38,11 @@ Este artigo ajuda você a decidir se você precisa alterar as configurações de
 
 Os artigos a seguir fornecem mais informações sobre a implantação e uso de recursos de voz de nuvem em equipes:
 
-- [Sistema de Telefonia no Office 365](what-is-phone-system-in-office-365.md)
-- [Sistema telefônico com a chamada de plano](calling-plan-landing-page.md)
+- [Sistema de telefonia no Office 365](what-is-phone-system-in-office-365.md)
+- [Sistema telefônico com a chamada de planos](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Implantação do Cloud Voice](cloud-voice-deployment.md)
-- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Assista a sessão a seguir para saber mais sobre o sistema telefônico: [Introdução ao sistema de telefone em equipes da Microsoft](https://aka.ms/teams-phone-system)
 
 
@@ -77,7 +77,7 @@ Para conectar o sistema telefônico para a comutação telefônica PSTN (rede p�
 Talvez você queira alterar as configurações para o seguinte, com base nas necessidades e a configuração da sua organização:
 
 - Caixa postal
-- Identificação de chamadas
+- Identidade de chamada
 - Números de telefone da Microsoft
 - Planos de discagem
 - Filas de chamadas
@@ -93,7 +93,7 @@ Caixa postal de sistema telefônico, possibilitada pela serviços de caixa posta
 | Você deseja habilitar a transcrição do correio de voz para alguns ou todos os meus usuários? | Para desativar a transcrição do correio de voz, consulte [definir políticas de caixa postal na sua organização](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 
-### <a name="calling-identity"></a>Identificação de chamadas
+### <a name="calling-identity"></a>Identidade de chamada
 
 Por padrão, todas as chamadas de saída usam o número de telefone atribuído como identidade de chamada (ID de chamador). O destinatário da chamada pode identificar o autor da chamada rapidamente e decidir se deseja aceitar ou rejeitar a chamada.
 
@@ -148,7 +148,7 @@ Para obter mais informações sobre os dispositivos suportados, consulte o segui
 
 - [Gerenciar seus dispositivos no Microsoft Teams](device-management.md)
 - [Telefones IP](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Dispositivos de áudio e vídeos USB](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Dispositivos de áudio e vídeo USB](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Comunicações inteligentes para dispositivos](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

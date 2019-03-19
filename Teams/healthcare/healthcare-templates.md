@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução aos modelos do Teams para Organizações de Assistência Médica
-ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e5116ecf2ab9fa0bbad25222e69317c47cf0c892
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541660"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664696"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Assistência Médica
 
@@ -36,7 +36,7 @@ O modelo de bairro destina-se a comunicação e colaboração em um bairro, pod 
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
-|Saúde - bairro | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Anúncios\* <br> Huddles\* <br> Arredonda\* <br> Criação da equipe\* <br> Treinamento\* |
+|Saúde - bairro | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Anúncios\* <br> Huddles\* <br> Arredonda\* <br> Criação da equipe\* <br> Treinamento\* |
 |     | |         |
 
 \*Auto-favorited
@@ -47,7 +47,7 @@ O modelo de hospital destina-se a comunicação e a colaboração entre vários 
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
-|Saúde - Hospital | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Anúncios\* <br> Conformidade\* <br> Custódia <br> Recursos humanos <br> Farmácia |
+|Saúde - Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Anúncios\* <br> Conformidade\* <br> Custódia <br> Recursos humanos <br> Farmácia |
 | | |  |
 
 \*Auto-favorited 
@@ -60,7 +60,7 @@ Para usar esses modelos, basta altere a propriedade 'template@odata.bind' no cor
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

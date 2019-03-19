@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de diretiva em equipes de reunião.
-ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494081"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664712"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião em equipes
 
@@ -106,8 +106,8 @@ Quando você seleciona uma política existente na página de **políticas de reu
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Convidados que & participantes
-   - **Permitir que os usuários anônimos para reuniões de iniciar** Se essa configuração estiver desativada, apenas uma pessoa que tiverem sido autenticados para a reunião com um aplicativo de equipes pode iniciar a reunião. Se ele estiver ativado, qualquer pessoa pode iniciar a reunião.
-   - **Admitir automaticamente aos usuários** Se você desativar esse recurso, em seguida, os participantes da reunião serão deixados no lobby até que alguém inicia a reunião. Se ele estiver ativado, os participantes da reunião poderão ingressar na reunião automaticamente.
+   - **Permitir que as pessoas que discam para iniciar uma reunião** Você pode ativar ou desativar se quiser permitir que as pessoas que ainda não tenham sido autenticadas porque eles já discados usando seu telefone para iniciar uma reunião.
+   - **Automaticamente admitir pessoas** Determina quais tipos de participantes serão automaticamente ser adicionado às reuniões organizadas pelo usuário. Defina como "Todos na organização" Se você gostaria de reuniões, coloque cada usuário externo no lobby, mas permitir que todos os usuários na empresa para ingressar na reunião imediatamente. Defina como "Todos" Se você gostaria de admitir usuários anônimos por padrão. Defina como "Todos em sua organização e organizações federadas" Se você gostaria de reuniões para permitir que usuários federados ingressar como os usuários da sua empresa, mas colocar todos os outros usuários externos em um lobby.
 
 [Artigo completo](meeting-policies-in-teams.md)
 

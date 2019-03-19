@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ee9ecf1a6db549a002c72f7eeea1e0a383ae966
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543011"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664704"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Introdução ao modelos de equipes no varejo 
 
@@ -43,7 +43,7 @@ O modelo do repositório é ideal para a criação de uma equipe para representa
 
 | Tipo de modelo base | baseTemplateId | Propriedades que acompanham este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo- <br>Repositório | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| Canais <ul><li>Desloca da entrega\*</li><li>Aprendizado\*</li></ul>\*Canais de auto-favorited<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe pública</li></ul> <br>Permissões de membro <ul><li>Não é possível criar/atualizar/excluir canais </li><li>Não é possível adicionar/remover aplicativos </li><li>Não é possível criar/atualizar/remover guias</li><li>Não é possível criar/atualizar/remover conectores</li><ul>|
+| Varejo- <br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canais <ul><li>Desloca da entrega\*</li><li>Aprendizado\*</li></ul>\*Canais de auto-favorited<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe pública</li></ul> <br>Permissões de membro <ul><li>Não é possível criar/atualizar/excluir canais </li><li>Não é possível adicionar/remover aplicativos </li><li>Não é possível criar/atualizar/remover guias</li><li>Não é possível criar/atualizar/remover conectores</li><ul>|
 ||||
 
 Recomendado maneiras para personalizar o modelo de repositório para a sua organização:
@@ -58,7 +58,7 @@ O modelo de colaboração do Gerenciador está outro precisa de um dos modelos d
 
 | Tipo de modelo base | baseTemplateId | Propriedades que acompanham este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo- <br>Repositório | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| Canais <ul><li>Operações\*</li><li>Aprendizado\*</li></ul>\*Canais de auto-favorited<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como privado</li></ul> <br>Permissões de membro <ul><li>Pode criar/atualizar/excluir canais </li><li>Pode adicionar/remover aplicativos </li><li>Pode criar/atualizar/remover guias</li><li>Pode criar/atualizar/remover conectores</li><ul>|
+| Varejo- <br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canais <ul><li>Operações\*</li><li>Aprendizado\*</li></ul>\*Canais de auto-favorited<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como privado</li></ul> <br>Permissões de membro <ul><li>Pode criar/atualizar/excluir canais </li><li>Pode adicionar/remover aplicativos </li><li>Pode criar/atualizar/remover guias</li><li>Pode criar/atualizar/remover conectores</li><ul>|
 ||||
 
 Recomendado maneiras para personalizar o modelo do Gerenciador de colaboração para sua organização:

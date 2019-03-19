@@ -25,16 +25,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542092"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664728"
 ---
 # <a name="calling-plans-for-office-365"></a>Planos de Chamadas do Office 365
 
-Chamadas para outro Skype para usuários empresariais e Teams Microsoft estão disponível, mas se você deseja que os usuários possam chamar telefones regulares e ainda não tiver um provedor de serviços para fazer chamadas de voz, você precisará comprar um plano de chamar. [O que são Planos de Chamadas no Office 365?](what-are-calling-plans-in-office-365.md)
+Chamadas para outro Skype para usuários empresariais e Teams Microsoft estão disponível, mas se você deseja que os usuários possam chamar telefones regulares e ainda não tiver um provedor de serviços para fazer chamadas de voz, você precisará comprar um plano de chamar. Para obter mais informações, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md).
   
 Aqui estão as opções de planos de chamada:
   
@@ -75,9 +75,9 @@ Em seguida, atribua as licenças de complemento E5 Enterprise ou o **Sistema tel
 
 - [Preços de Planos de Chamadas](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [Preços do Sistema de Telefonia](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Preços para o sistema telefônico](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [Preços da Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Os preços dos serviços de audioconferência](https://go.microsoft.com/fwlink/?linkid=799762)
     
 ## <a name="for-more-information"></a>Para obter mais informações
 
@@ -92,9 +92,9 @@ Aqui estão mais artigos que explicam como configurar seus planos de chamada:
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Configurar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
+- [Instalar o Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para o administrador](set-up-phone-system-voicemail.md)
+- [Configurar a caixa postal do Sistema de Telefonia - Ajuda para administradores](set-up-phone-system-voicemail.md)
     
 - [Configurar Planos de Chamadas](set-up-calling-plans.md)
     

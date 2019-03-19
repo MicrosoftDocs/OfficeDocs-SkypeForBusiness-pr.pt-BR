@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumo: Saiba como criar um compartilhamento de arquivo do Windows Server como parte da instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a6a040c60d3c5a41df8dfa24abd5948d85180f2e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884618"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664824"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Crie um compartilhamento de arquivo no Skype para Business Server
  
 **Resumo:** Saiba como criar um compartilhamento de arquivo do Windows Server como parte da instalação do Skype para Business Server. Baixe uma versão de avaliação gratuita do Skype para Business Server do centro da Evaluation da Microsoft em:[https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Skype para Business Server requer um compartilhamento de arquivos, para que os computadores em toda a topologia podem trocar arquivos. Criação de um compartilhamento de arquivo é a etapa 2 de 8 no processo de instalação de Skype para Business Server. As etapas 1 a 5 podem ser executadas em qualquer ordem. No entanto, as etapas 6, 7 e 8 devem ser executadas nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Para detalhes sobre compartilhamento de arquivos de planejamento, consulte [requisitos de ambiente para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Skype para Business Server requer um compartilhamento de arquivos, para que os computadores em toda a topologia podem trocar arquivos. Criação de um compartilhamento de arquivo é a etapa 2 de 8 no processo de instalação de Skype para Business Server. Você pode executar os passos 1 a 5 em qualquer ordem. No entanto, as etapas 6, 7 e 8 devem ser executadas nesta ordem, após concluir as etapas 1 a 5, conforme descrito no diagrama. Para detalhes sobre compartilhamento de arquivos de planejamento, consulte [requisitos de ambiente para Skype para Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) ou [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ![Diagrama de visão geral](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
@@ -58,6 +58,15 @@ Assista as etapas do vídeo para **criar um compartilhamento de arquivos**:
     
 8. Clique em **Concluído** para fechar o assistente.
     
-     ![Guia de compartilhamento para compartilhar uma pasta.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
+     ![Guia de compartilhamento para uma pasta de compartilhamento.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
+> [!NOTE]
+>Se o repositório de arquivos estiver hospedado em um DFS compartilhar, será recebido o seguinte aviso:
 
+Aviso: Não é possível acessar as permissões de compartilhamento para "\\<domain>\<share>".
+
+>Isso é esperado se você não é um administrador no servidor de arquivos ou se este é um compartilhamento de sistema de arquivos distribuídos (DFS). Se já tiverem sido configuradas as permissões de compartilhamento, esse aviso pode ser ignorado. Se for um novo compartilhamento, consulte a documentação para obter detalhes sobre como configurar manualmente as permissões de compartilhamento.
+
+>Devido à incapacidade para acessar as permissões de compartilhamento em um compartilhamento DFS, Skype para Business Server não será possível definir explicitamente os grupos no compartilhamento de arquivos. Para garantir o que Skype para componentes de servidor de negócios pode acessar o compartilhamento de arquivos com as permissões apropriadas, verifique se que os seguintes grupos RTC são adicionados com permissões de compartilhamento de nível de alteração além do local de administradores com permissões de compartilhamento de controle total.
+
+RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
