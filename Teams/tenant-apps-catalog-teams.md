@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b8f631857d9e81ced843437288fde88001032d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 909ed249ea4e408cbddcd52824a7cb0047504613
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649504"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684068"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos no Catálogo de Aplicativos do Locatário do Microsoft Teams
 =======================================================
@@ -71,7 +71,7 @@ O aplicativo será ser revisado para a versão 2.0. Você também pode excluir o
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Use o portal de administração do Office 365 para gerenciar o catálogo de aplicativos do locatário
 
-Se você tiver aplicativos que precisam correções de erros, você pode desabilitar temporariamente aplicativos através do portal de administração do Office 365. Além das configurações anteriores, há agora uma seção dedicado aos aplicativos da sua empresa. Você pode escolher quais aplicativos que você deseja habilitar ou desabilitar.
+Se você tiver aplicativos que precisam correções de erros, você pode desabilitar aplicativos através do portal de administração do Office 365, selecione **configurações**temporariamente > **Serviços & complementos** > **Equipes da Microsoft**. Além das configurações anteriores, há agora uma seção dedicado aos aplicativos da sua empresa. Você pode escolher quais aplicativos que você deseja habilitar ou desabilitar.
 
 ![Captura de tela equipes App Store mostrando o catálogo de aplicativos.](media/private-app-store-teams-image05.png)
 

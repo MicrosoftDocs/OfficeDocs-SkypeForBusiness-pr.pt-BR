@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5c755c1dbcb62b01ab45772660b23524550e4e5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 83d2b0710b811431546f0df9931d3a0b867d2b2b
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458888"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683880"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gerenciamento do acesso de usuários ao Microsoft Teams
 =====================================
@@ -30,7 +30,7 @@ ms.locfileid: "30458888"
 
 No nível do usuário, o acesso ao Microsoft Teams pode ser habilitado ou desabilitado em uma base por usuário por como atribuir ou remover a licença do produto Microsoft Teams.
 
-Atualmente, não existem opções para equipes ou um subconjunto dos recursos de equipes, ativando ou desativando em um nível de usuário individual fora do licenciamento por política.
+Use políticas de mensagens, gerenciadas do Centro de administração de equipes, para controlar quais chat e os recursos de mensagens de canal estão disponíveis aos usuários em equipes. Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para as pessoas na sua organização. Para saber mais, leia as [políticas de gerenciar mensagens em equipes](messaging-policies-in-teams.md).
 
 > [!NOTE]
 >A Microsoft recomenda que você ativar equipes para todos os usuários em uma empresa para que as equipes podem ser formadas organicamente para projetos e outras iniciativas dinâmicas. Mesmo se você decidir para piloto, ainda será útil manter equipes habilitadas para todos os usuários, mas apenas as comunicações para o grupo piloto de usuários de destino.

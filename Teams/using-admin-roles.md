@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: Saiba como usar as diferentes funções administrativas para gerenciar equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b8de5d5e96177476ef07a8a91566d9757364d1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5280691b5272765b0c351c38a03e9711b9e0f1b0
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542507"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684045"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams
 
@@ -44,6 +44,8 @@ Há quatro funções de administrador de equipes: administrador de serviço de e
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
 Para obter mais informações sobre as ferramentas de administração disponíveis para gerenciamento Teams da Microsoft, consulte [Gerenciando equipes da Microsoft](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+
+Para obter mais informações sobre outros requisitos que se aplicam às equipes, especificações e limites, consulte [limites e as especificações para equipes da Microsoft](limits-specifications-teams.md).
 
 ## <a name="assign-users-to-each-role"></a>Atribuir usuários a cada função
 

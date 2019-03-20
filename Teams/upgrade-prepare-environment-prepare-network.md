@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: f7e6e46ca534a821d4697714448bcc5e4e20888f
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664736"
+ms.locfileid: "30684060"
 ---
 ![Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada de atualização, com ênfase no estágio de Preparação Técnica")
 
@@ -156,11 +156,11 @@ Depois de concluir a preparação de planejamento e rede — incluindo a atualiz
 
 Você pode baixar o [Skype para ferramenta de avaliação de rede comercial](https://www.microsoft.com/download/details.aspx?id=53885) para testar se a sua rede está pronta para equipes. A ferramenta oferece a funcionalidade dual: ele pode testar se a todas as portas corretas foram abertas e, em seguida, ele pode testar para problemas de rede.
 
-Depois que baixar e instala a ferramenta, você pode encontrá-lo em c:\\Program Files\\Microsoft Skype para ferramenta de avaliação de rede comercial. Uma orientação detalhada sobre como usar a ferramenta, Usage.docx, está incluída nesse diretório.
+Depois que baixar e instala a ferramenta, você pode encontrá-lo no arquivos C:\Program (x86) \Microsoft Skype para ferramenta de avaliação de rede comercial. Uma orientação detalhada sobre como usar a ferramenta, Usage.docx, está incluída nesse diretório.
 
 ### <a name="test-for-opened-ports"></a>Teste de portas abertas
 
-Abra uma janela de prompt de comando e navegue até o diretório de rede Assessment Tool, inserindo **cd c:\\Program Files\\Microsoft Skype para ferramenta de avaliação de rede comercial**. No prompt de comando, inicie o teste de portas abertos inserindo o **networkassessmenttool.exe /connectivitycheck**
+Abra uma janela de prompt de comando e navegue até o diretório de rede Assessment Tool inserindo **cd C:\Program arquivos (x86) \Microsoft Skype para ferramenta de avaliação de rede comercial**. No prompt de comando, inicie o teste de portas abertos inserindo o **networkassessmenttool.exe /connectivitycheck**
 
 Depois de executar as verificações, a ferramenta irá exibir a mensagem "Verificações concluído com êxito" ou enviar relatórios sobre as portas que foram bloqueadas. Ele também gera um arquivo chamado Connectivity_results.txt, que contém a saída da ferramenta e armazena-o na pasta % userprofile %\\appdata\\local\\microsoft Skype para ferramenta de avaliação de rede comercial\\ directory.
 
