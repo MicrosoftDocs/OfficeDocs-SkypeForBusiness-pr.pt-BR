@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30460232"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683888"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Gerenciar os recursos do Microsoft Teams em sua organização do Office 365
 
@@ -40,7 +40,7 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Aplicativos
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
+Os aplicativos são guias, conectores, bots ou qualquer combinação desses três itens fornecidos pelo Microsoft Teams (aplicativos primários, também conhecidos como aplicativos padrão) ou por terceiros (também conhecidos como aplicativos externos). Em **Aplicativos**, você pode habilitar e desabilitar aplicativos padrão e definir configurações para controlar aplicativos externos. Para saber mais sobre o lançamento de aplicativos, bots, conectores e guias no Teams, leia (Aplicativos, bots e conectores) [deploy-apps-microsoft-teams-landing-page.md].
 
 #### <a name="default-apps"></a>Aplicativos padrão
 
