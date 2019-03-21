@@ -4,17 +4,18 @@ hide_bc: true
 title: Documentação técnica do Microsoft Teams
 description: Documentação técnica do Microsoft Teams
 ms.topic: hub-page
+localization_priority: Priority
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 1d30744f71683b7681ad738938a714d066b31c4a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.openlocfilehash: 14ab61709f40f0d2e2d6be95df4cd758322d0ff2
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493577"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720311"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -39,7 +40,7 @@ ms.locfileid: "30493577"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Bem-vindo ao Teams</h3>
-                                                <P>Obtenha uma visão geral das equipes e encontre as orientações técnicas que você precisa como um administrador de equipes ou profissional de TI</p>
+                                                <P>Obtenha uma visão geral do Teams e encontre as orientações técnicas que você precisa como um administrador do Teams ou profissional de TI</p>
                                             </div>
                                         </div>
                                     </div>
@@ -56,8 +57,8 @@ ms.locfileid: "30493577"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Como distribuir as equipes</h3>
-                                                <P>Se você estiver em uma pequena empresa ou em uma empresa multinacional, iniciar aqui localizar o caminho para a direita a fim de implementar as equipes</p>
+                                                <h3>Como implantar o Teams</h3>
+                                                <P>Não importa se você faz parte de uma pequena empresa ou de uma multinacional, comece aqui a encontrar o caminho certo para implantar o Teams</p>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +77,7 @@ ms.locfileid: "30493577"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Introdução</h3>
-                                                <P>Use nosso guia de início rápido para fazer funcionar rapidamente com algumas equipes e canais</p>
+                                                <P>Use o nosso Guia de Início Rápido para começar a trabalhar rapidamente com algumas equipes e canais</p>
                                             </div>
                                         </div>
                                     </div>
@@ -94,8 +95,8 @@ ms.locfileid: "30493577"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Atualização do Skype for Business para o Microsoft Teams</h3>
-                                                <P>Encontre orientações e ferramentas para explorar o seu caminho ideal para o Teams</p>
+                                                <h3>Atualização do Skype for Business para o Teams</h3>
+                                                <P>Encontre orientações e ferramentas para explorar o caminho ideal para o Teams</p>
                                             </div>
                                         </div>
                                     </div>
@@ -114,7 +115,7 @@ ms.locfileid: "30493577"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Hub de adoção</h3>
-                                                <P>Obtenha as ferramentas para oferecer suporte a distribuição de equipes</p>
+                                                <P>Obtenha ferramentas para dar suporte à implementação do Teams</p>
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +133,7 @@ ms.locfileid: "30493577"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Encontre vídeos de treinamento do &</h3>
+                                                <h3>Encontre treinamentos e vídeos</h3>
                                                 <P>Obtenha treinamentos do Teams - para você e para os seus usuários</p>
                                             </div>
                                         </div>
@@ -155,8 +156,8 @@ ms.locfileid: "30493577"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Plataforma do desenvolvedor de equipes</h3>
-                                            <p>Saiba mais sobre a plataforma de desenvolvedor do Microsoft Teams e como ele permite que você crie aplicativos útil e poderosos</p>
+                                            <h3>Plataforma de desenvolvedores do Teams</h3>
+                                            <p>Obtenha informações sobre a plataforma de desenvolvedores do Microsoft Teams e como ela permite que você crie aplicativos úteis e poderosos</p>
                                         </div>
                                     </div>
                                 </div>
@@ -174,8 +175,8 @@ ms.locfileid: "30493577"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Comunidade do tech equipes</h3>
-                                            <p>Ingressar na comunidade do tech equipes para fazer perguntas &amp; Obtenha respostas e leia o blog de equipes</p>
+                                            <h3>Comunidade tecnológica do Teams</h3>
+                                            <p>Junte-se à comunidade tecnológica do Teams para fazer perguntas &amp; obter respostas e ler o blog do Teams</p>
                                         </div>
                                     </div>
                                 </div>
@@ -193,8 +194,8 @@ ms.locfileid: "30493577"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>Referência do cmdlets do PowerShell para o Teams</h3>
-                                            <p>Obtenha os cmdlets e os módulos do PowerShell para equipes</p>
+                                            <h3>Referência do cmdlet do PowerShell para o Teams</h3>
+                                            <p>Obter os módulos do PowerShell e cmdlets do Teams</p>
                                                     </div>
                                                 </div>
                                             </div>
