@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de sistemas de sala Skype v2, a próxima geração de sistemas de sala Skype.
-ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373644"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720421"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operações e manutenção de v2 de sistemas de sala do Skype 
  
@@ -23,7 +23,7 @@ Leia este tópico para saber mais sobre o gerenciamento de sistemas de sala Skyp
   
 Sistemas de sala Skype v2 é a solução de conferência mais recente da Microsoft projetada para transformar a sala de reunião em um Skype rica e colaboração para a experiência de negócios. Os usuários apreciarão a interface familiar do Skype for Business, e os administradores de TI ficarão satisfeitos com a implantação e o gerenciamento fáceis do aplicativo Reunião do Skype para Windows 10. Sistemas de sala Skype v2 foi projetado para aproveitar o equipamento existente como painéis LCD para facilitar da instalação para trazer Skype for Business para sala de reunião.
   
-Com uma configuração adicional, gerenciamento remoto é possível usando o pacote de gerenciamento de operações da Microsoft (OMS) conforme descrito em [sistemas de sala Skype planejar gerenciamento de v2 com OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [gerenciamento de v2 implantar sistemas do Skype sala com OMS](../../deploy/deploy-clients/with-oms.md)e [Gerenciar Dispositivos de v2 de sistemas de sala Skype com OMS](oms.md). Você também pode [Gerenciar um v2 de sistemas de sala Skype configurações de console remotamente com um arquivo de configuração XML](xml-config-file.md), que inclui a aplicação de um tema de exibição personalizado. 
+Com uma configuração adicional, gerenciamento remoto é possível usando o pacote de gerenciamento de operações da Microsoft (OMS) conforme descrito em [sistemas de sala Skype planejar gerenciamento de v2 com OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), [gerenciamento de v2 implantar sistemas do Skype sala com OMS](../../deploy/deploy-clients/with-oms.md)e [Gerenciar Dispositivos de v2 de sistemas de sala Skype com OMS](oms.md). Você também pode [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), incluindo a aplicação de um tema de tela personalizado. 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Coletando logs no Skype Room Systems versão 2
 <a name="Logs"> </a>
@@ -61,7 +61,7 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 |**Grupo de trabalho **|**Não ingresso em domínio**|**Ingresso em domínio**|
 |:-----|:-----|:-----|
 |Reiniciar  <br/> |Área de trabalho remota  <br/> PowerShell Remoto  <br/> |Área de trabalho remota (requer configuração adicional)  <br/> Powershell remoto (requer configuração adicional)  <br/> SCCM  <br/> |
-|Atualização do sistema operacional  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
+|Atualização do sistema operacional  <br/> |Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:  <br/> |Windows Update  <br/> WSUS  <br/> |
 |Atualização de aplicativos  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
 |Configuração de contas do Skype  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
 |Acesso aos logs  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
@@ -74,9 +74,9 @@ Esta seção aborda as configurações do sistema que sistemas de sala Skype v2 
 
 |**Configuração**|**Permite**|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = (REG_SZ) 1  <br/> |Permite que os sistemas de sala Skype v2 inicialize  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite que os sistemas de sala Skype v2 inicialize  <br/> |
 |Gerenciamento - de energia\> nas AC, desative tela após 10 minutos  <br/> Gerenciamento - de energia\> em AC, nunca colocar o sistema no modo de suspensão  <br/> |Permite que os sistemas de sala Skype v2 desativar exibe anexado e automaticamente de ativação  <br/> |
-|net accounts /maxpwage:unlimited  <br/> Ou um modo equivalente de desabilitar a expiração da senha na conta local. A impossibilidade de fazer isso pode causar uma falha no logon com a conta do Skype com uma mensagem de senha expirada. Observe que isso afeta todas as contas locais do computador. Portanto, se isso não for definido, com o tempo, a conta de administrador também vai expirar.   <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
+|net accounts /maxpwage:unlimited  <br/> Ou equivalentes meios de desativação de expiração de senha da conta local. Falha ao fazer isso, eventualmente, fará com que a conta do Skype falha de logon reclamando uma senha expirada. Observe que isso afeta todas as contas locais na máquina, e assim falha configurar isso também fará com que a conta administrativa na caixa eventualmente expire também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
 Transferência de arquivos usando diretivas de grupo será discutido em [Configure um Item do arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
@@ -106,7 +106,7 @@ Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
     
 2. Abra um prompt de comando do PowerShell.
     
-3. Insira o seguinte comando: Enable-PSRemoting - forçar
+3. Insira o seguinte comando: Enable-PSRemoting -force
     
 Para executar uma operação de gerenciamento:
   
@@ -201,7 +201,7 @@ Algumas funções de gerenciamento, como manualmente instalando um certificado d
 4. Digite a senha do administrador. A tela Configuração será exibida.
     
     > [!NOTE]
-    > Se o dispositivo não estiver associado ao domínio, a conta administrativa local (username "Admin") será usada por padrão. A senha padrão para essa conta será ';sfb';, mas é recomendável que sua organização mude essa senha o quanto antes por motivos de segurança. Se o computador estiver associado ao domínio, você pode entrar com uma conta de domínio apropriadamente privilegiado. 
+    > Se o dispositivo não estiver associado ao domínio, a conta administrativa local (username "Admin") será usada por padrão. A senha padrão para essa conta será 'sfb', mas é recomendável que sua organização mude essa senha o quanto antes por motivos de segurança. Se o computador estiver associado ao domínio, você pode entrar com uma conta de domínio apropriadamente privilegiado. 
   
 5. Selecione **Configurações do Windows** , na coluna esquerda.
     
@@ -223,7 +223,7 @@ O console agora é novamente em seu modo de operação normal. O procedimento a 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>Alternando para o modo de administração e quando o aplicativo do Skype sala sistemas v2 cai
 
-1. Pressione a tecla do Windows cinco vezes em uma sucessão rápida. Isso levará você para a tela de logon do Windows.  
+1. Pressione a tecla do Windows cinco vezes em uma sucessão rápida. Isso levará você para a tela de logon do Windows. 
     
 2. Faça logon no desktop usando as credenciais administrativas.
     

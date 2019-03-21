@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aba8bba3f2b00e00bae2a38d4b1cc7954cffe06
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 169008f7af8f52be60c7f15d7a4613f77ed161df
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640686"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720319"
 ---
 <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 =============================================================================
@@ -63,4 +63,5 @@ Para cada usuário, a pasta **Arquivos de bate-papo do Microsoft Teams** do OneD
 
 Para obter mais informações sobre como o SharePoint funciona com equipes, consulte [equipes e SharePoint: melhores juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
+Para saber mais sobre a experiência de convidado em equipes, leia [o que a experiência de convidado é como](guest-experience.md).
 
