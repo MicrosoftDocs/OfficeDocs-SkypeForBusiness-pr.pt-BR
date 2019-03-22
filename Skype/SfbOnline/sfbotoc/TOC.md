@@ -232,7 +232,7 @@
 ### [Configurar o Sistema de Telefonia na sua organização](/microsoftteams/setting-up-your-phone-system?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [O que são atendedores automáticos do Sistema de Telefonia?](/microsoftteams/what-are-phone-system-auto-attendants?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Configurar os atendedores automáticos do Sistema Telefônico](/microsoftteams/set-up-a-phone-system-auto-attendant?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-#### [Exemplo de pequena empresa - Configurar um atendedor automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)
+#### [Exemplo de pequena empresa - Configurar um atendedor automático](../what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
 ### [Criar uma fila de chamada no Sistema Telefônico](/microsoftteams/create-a-phone-system-call-queue?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 
